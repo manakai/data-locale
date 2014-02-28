@@ -1,0 +1,40 @@
+calendar/*-holidays.json
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+These files contain list of national holidays.
+
+* Files
+
+data/calendar/jp-holidays.json      Holidays of Japan
+data/calendar/ryukyu-holidays.json  Holidays of Ryukyu Islands (1945-1972)
+
+* Structure
+
+A JSON file contains a JSON object whose names are days in YYYY-MM-DD
+format (in Gregorian calendar) and values are names of holidays in
+(one of) the primary language for the region.
+
+Although files might contain future holidays, holidays can be added,
+removed, or moved at any time by relevant laws.
+
+* Sources
+
+** 日本
+
+- 国民の祝日に関する法律 (昭和23年法律178号)
+- <http://ja.wikipedia.org/wiki/%E7%A5%9D%E7%A5%AD%E6%97%A5>
+- <http://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E7%A5%9D%E6%97%A5>
+- <http://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E4%BC%91%E6%97%A5>
+- <http://homepage1.nifty.com/gyouseinet/kyujitsu.htm>
+
+** 春分, 秋分
+
+- <http://www.nao.ac.jp/faq/a0301.html>
+- <http://www.asahi-net.or.jp/~ci5m-nmr/misc/equinox.html>
+- <http://ja.wikipedia.org/wiki/%E6%98%A5%E5%88%86>
+- <http://ja.wikipedia.org/wiki/%E7%A7%8B%E5%88%86>
+
+** 琉球
+
+- 住民の祝祭日に関する立法 (1961年立法第85号)
+- <http://ja.wikipedia.org/wiki/%E4%BD%8F%E6%B0%91%E3%81%AE%E7%A5%9D%E7%A5%AD%E6%97%A5>

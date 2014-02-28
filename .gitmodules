@@ -1,0 +1,3 @@
+[submodule "bin/modules/json-functions-xs"]
+	path = bin/modules/json-functions-xs
+	url = git://github.com/wakaba/perl-json-functions-xs

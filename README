@@ -1,0 +1,24 @@
+data-locale
+~~~~~~~~~~~
+
+Collection of locale-related data.
+
+See documentations for details:
+
+  doc/calendar-holidays.txt    Holidays
+
+List of language tags or codes, country codes, and currency codes, as
+well as data on character encodings and character references used on
+the Web, are contained in <https://github.com/manakai/data-web-defs>.
+
+* Author
+
+Wakaba <wakaba@suikawiki.org>.
+
+These files are maintained as part of the manakai project
+<https://github.com/manakai/>.
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of these files.

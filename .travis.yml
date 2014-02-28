@@ -1,0 +1,14 @@
+language: perl
+perl:
+  - "5.18"
+  - "5.8"
+before_install: git submodule update --init
+#install: "make test-deps"
+script: "make test"
+notifications:
+  email:
+    - wakaba@suikawiki.org
+  irc:
+    channels:
+      - "suika.suikawiki.org#mechanize"
+    use_notice: true
