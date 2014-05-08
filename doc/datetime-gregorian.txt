@@ -1,0 +1,32 @@
+datatime/gregorian.json
+~~~~~~~~~~~~~~~~~~~~~~~
+
+The file contains data on Gregorian calendar (or proleptic Gregorian
+calendar).
+
+* Structure
+
+The file contains a JSON object with following name/value pair:
+
+  month_days
+
+    An array whose (/m/ - 1)th value is the number of days in month
+    /m/
+    <http://www.whatwg.org/specs/web-apps/current-work/#number-of-days-in-month-month-of-year-year>
+    of a leap year.
+
+* Sources
+
+明治5年太政官布告第337号 (改暦ノ布告)
+<http://law.e-gov.go.jp/htmldata/M05/M05SE337.html>.
+
+HTML Standard
+<http://www.whatwg.org/specs/web-apps/current-work/#number-of-days-in-month-month-of-year-year>.
+
+XML Schema Definition Languag (XSD) 1.1 Part 2: Datatypes
+<http://www.w3.org/TR/xmlschema11-2/#con-dateTime-dayValue>.
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of this file.

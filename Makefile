@@ -46,15 +46,18 @@ local/perl-latest/pm/lib/perl5/JSON/PS.pm:
 
 PERL = ./perl
 
-data: data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json
+data: data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json \
+    data/datetime/durations.json data/datetime/gregorian.json
 clean-data:
-	rm -fr data/calendar/jp-holidays.json
-	rm -fr data/calendar/ryukyu-holidays.json
 
 data/calendar/jp-holidays.json: bin/calendar-jp-holidays.pl
 	$(PERL) $< > $@
-
 data/calendar/ryukyu-holidays.json: bin/calendar-ryukyu-holidays.pl
+	$(PERL) $< > $@
+
+data/datetime/durations.json: bin/datetime-durations.pl
+	$(PERL) $< > $@
+data/datetime/gregorian.json: bin/datetime-gregorian.pl
 	$(PERL) $< > $@
 
 ## ------ Tests ------
