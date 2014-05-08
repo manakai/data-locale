@@ -5,6 +5,14 @@ all: deps data
 
 clean: clean-data clear-json-ps
 
+updatenightly: update-submodules dataautoupdate
+
+update-submodules:
+	$(CURL) https://gist.githubusercontent.com/wakaba/34a71d3137a52abb562d/raw/gistfile1.txt | sh
+	$(GIT) add bin/modules
+	perl local/bin/pmbp.pl --update
+	$(GIT) add config
+
 dataautoupdate: clean all
 	$(GIT) add data
 
