@@ -1,18 +1,16 @@
-# -*- Makefile -*-
-
 WGET = wget
 GIT = git
 
 all: deps data
 
-clean: clean-data
+clean: clean-data clear-json-ps
 
 dataautoupdate: clean all
 	$(GIT) add data
 
 ## ------ Setup ------
 
-deps: git-submodules pmbp-install
+deps: git-submodules pmbp-install json-ps
 
 git-submodules:
 	$(GIT) submodule update --init
@@ -28,6 +26,13 @@ pmbp-install: pmbp-upgrade
 	perl local/bin/pmbp.pl --install \
             --create-perl-command-shortcut perl \
             --create-perl-command-shortcut prove
+
+json-ps: local/perl-latest/pm/lib/perl5/JSON/PS.pm
+clean-json-ps:
+	rm -fr local/perl-latest/pm/lib/perl5/JSON/PS.pm
+local/perl-latest/pm/lib/perl5/JSON/PS.pm:
+	mkdir -p local/perl-latest/pm/lib/perl5/JSON
+	$(WGET) -O $@ https://raw.githubusercontent.com/wakaba/perl-json-ps/master/lib/JSON/PS.pm
 
 ## ------ Generation ------
 

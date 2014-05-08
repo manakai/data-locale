@@ -1,6 +1,1 @@
-Exporter::Lite~0.02
-Types::Serialiser~1.0
-Path::Class~0.33
-common::sense~3.72
-JSON::XS~3.01
-Encode~2.57
+Time::Local~1.2300

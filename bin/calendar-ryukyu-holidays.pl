@@ -1,10 +1,8 @@
 use strict;
 use warnings;
 use utf8;
-use Path::Class;
-use lib glob file (__FILE__)->dir->subdir ('modules', '*', 'lib');
 use Time::Local qw(timegm_nocheck);
-use JSON::Functions::XS qw(perl2json_bytes_for_record);
+use JSON::PS;
 
 ## <http://ja.wikipedia.org/wiki/%E4%BD%8F%E6%B0%91%E3%81%AE%E7%A5%9D%E7%A5%AD%E6%97%A5>
 
