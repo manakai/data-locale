@@ -1,0 +1,24 @@
+datetime/durations.json
+~~~~~~~~~~~~~~~~~~~~~~~
+
+The file contains data on duration formats.
+
+* Structure
+
+The file contains a JSON object with following name/value pair:
+
+  component_scales [object]
+
+    Duration time component scales
+    <http://www.whatwg.org/specs/web-apps/current-work/#duration-time-component-scale>,
+    characters as names and scale values as values.
+
+* Source
+
+HTML Standard
+<http://www.whatwg.org/specs/web-apps/current-work/#number-of-days-in-month-month-of-year-year>.
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of this file.

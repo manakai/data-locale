@@ -3,9 +3,17 @@ data-locale
 
 Collection of locale-related data.
 
-See documentations for details:
+See documentations for details in doc/ directory.
 
-  doc/calendar-holidays.txt    Holidays
+  Dates and times
+    doc/datetime-durations.txt         Durations
+    data/datetime/durations.json
+    doc/datetime-gregorian.txt         Gregorian calendar
+    data/datetime/gregorian.json
+  Holidays
+    doc/calendar-holidays.txt          List of holidays
+    data/calendar/jp-holidays.json
+    data/calendar/ryukyu-holidays.json
 
 List of language tags or codes, country codes, and currency codes, as
 well as data on character encodings and character references used on
