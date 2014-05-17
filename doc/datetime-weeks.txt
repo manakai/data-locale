@@ -1,0 +1,45 @@
+datatime/weeks.json
+~~~~~~~~~~~~~~~~~~~
+
+The file contains data on weeks.
+
+* Structure
+
+The file contains a JSON object with following name/value pair:
+
+  weekday
+
+    An array which contains JSON objects for weekdays in order,
+    starging from Sunday.  The objects has following name/value pairs:
+
+    abbr_2 [string]
+
+      English name of the weekday using a uppercase latin character
+      followed by a lowercase latin character, used in
+      <http://schema.org/openingHours>.
+
+    iso_name [string]
+
+      English name of the weekday (titlecased), as defined in ISO
+      8601.
+
+    iso_number [number]
+
+      Non-negative integer of the weekday, as defined in ISO 8601.
+
+    jis_name [string]
+
+      Japanese name of the weekday, as defined in JIS X 0301.
+
+* Sources
+
+ISO 8601:2004.
+
+JIS X 0301:2000.
+
+Schema.org <http://schema.org/openingHours>.
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of this file.

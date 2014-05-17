@@ -10,6 +10,8 @@ See documentations for details in doc/ directory.
     data/datetime/durations.json
     doc/datetime-gregorian.txt         Gregorian calendar
     data/datetime/gregorian.json
+    doc/datetime-weeks.txt             Weeks
+    data/datetime/weeks.json
   Holidays
     doc/calendar-holidays.txt          List of holidays
     data/calendar/jp-holidays.json
