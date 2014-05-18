@@ -1,0 +1,74 @@
+datatime/months.json
+~~~~~~~~~~~~~~~~~~~~
+
+The file contains data on months (in Gregorian and other calendars).
+
+* Structure
+
+The file contains a JSON object with following name/value pair:
+
+  months
+
+    An array which contains JSON objects for months in year in order,
+    starting from January.  The objects has following name/value
+    pairs:
+
+    abbr_3 [string]
+
+      English name of the month (titlecased), as used in Internal Mail
+      [RFC822] [RFC2822] [RFC5322] [son-of-RFC1036] and HTTP [RFC1945]
+      [RFC2068] [RFC2616] [RFC6265].
+
+    iso_name [string]
+
+      English name of the month (titlecased), as defined in ISO 8601
+      [ISO8601].
+
+    iso_number [number]
+
+      Non-negative integer of the month, as defined in ISO 8601
+      [ISO8601].
+
+    jis_name [string]
+
+      Japanese name of the month, as defined in JIS X 0301 [JISX0301].
+
+    jp_name [string]
+
+      Japanese name of the month, as defined in the Calendar
+      [JPCALENDAR].
+
+* Sources
+
+[JPCALENDAR] 明治五年太政官布告第三百三十七号, 改暦ノ布告
+<http://law.e-gov.go.jp/htmldata/M05/M05SE337.html>.
+
+[ISO8601] ISO 8601:2004.
+
+[JISX0301] JIS X 0301:2000.
+
+[RFC822] RFC 822 <http://tools.ietf.org/html/rfc822>.
+
+[RFC2822] RFC 2822 <http://tools.ietf.org/html/rfc2822>.
+
+[RFC5322] RFC 5322 <http://tools.ietf.org/html/rfc5322>.
+
+[son-of-RFC1036] RFC 1849 <http://tools.ietf.org/html/rfc1849>.
+
+[RFC1945] RFC 1945 <http://tools.ietf.org/html/rfc1945>.
+
+[RFC2068] RFC 2068 <http://tools.ietf.org/html/rfc2068>.
+
+[RFC2616] RFC 2616 <http://tools.ietf.org/html/rfc2616>.
+
+[RFC6265] RFC 2616 <http://tools.ietf.org/html/rfc6265>.
+
+* Related data
+
+The |datatime/gregorian.json| file also contains data on months in the
+Gregorian calendar.
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of this file.
