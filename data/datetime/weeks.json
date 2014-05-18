@@ -2,42 +2,49 @@
    "weekday" : [
       {
          "abbr_2" : "Su",
+         "abbr_3" : "Sun",
          "iso_name" : "Sunday",
          "iso_number" : 7,
          "jis_name" : "日曜日"
       },
       {
          "abbr_2" : "Mo",
+         "abbr_3" : "Mon",
          "iso_name" : "Monday",
          "iso_number" : 1,
          "jis_name" : "月曜日"
       },
       {
          "abbr_2" : "Tu",
+         "abbr_3" : "Tue",
          "iso_name" : "Tuesday",
          "iso_number" : 2,
          "jis_name" : "火曜日"
       },
       {
          "abbr_2" : "We",
+         "abbr_3" : "Wed",
          "iso_name" : "Wednesday",
          "iso_number" : 3,
          "jis_name" : "水曜日"
       },
       {
          "abbr_2" : "Th",
+         "abbr_3" : "Thu",
          "iso_name" : "Thursday",
          "iso_number" : 4,
          "jis_name" : "木曜日"
       },
       {
          "abbr_2" : "Fr",
+         "abbr_3" : "Fri",
          "iso_name" : "Friday",
          "iso_number" : 5,
          "jis_name" : "金曜日"
       },
       {
          "abbr_2" : "Sa",
+         "abbr_3" : "Sat",
          "iso_name" : "Saturday",
          "iso_number" : 6,
          "jis_name" : "土曜日"

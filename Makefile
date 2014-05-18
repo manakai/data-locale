@@ -48,7 +48,8 @@ PERL = ./perl
 
 data: data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json \
     data/datetime/durations.json data/datetime/gregorian.json \
-    data/datetime/weeks.json
+    data/datetime/weeks.json data/datetime/months.json \
+    data/timezones/mail-names.json
 clean-data:
 
 data/calendar/jp-holidays.json: bin/calendar-jp-holidays.pl
@@ -61,6 +62,11 @@ data/datetime/durations.json: bin/datetime-durations.pl
 data/datetime/gregorian.json: bin/datetime-gregorian.pl
 	$(PERL) $< > $@
 data/datetime/weeks.json: bin/datetime-weeks.pl
+	$(PERL) $< > $@
+data/datetime/months.json: bin/datetime-months.pl
+	$(PERL) $< > $@
+
+data/timezones/mail-names.json: bin/timezones-mail-names.pl
 	$(PERL) $< > $@
 
 ## ------ Tests ------
