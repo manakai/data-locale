@@ -1,0 +1,51 @@
+datatime/seconds.json
+~~~~~~~~~~~~~~~~~~~~~
+
+The file contains data on seconds.
+
+* Structure
+
+The file contains a JSON object with following name/value pair:
+
+  negative_leap_seconds [object]
+  positive_leap_seconds [object]
+
+    Names are leap seconds and values are their descriptions.  Leap
+    seconds are represented by the HTML valid normalized forced-UTC
+    global date and time string of the second, except that the second
+    component of a positive leap second is 60 (which is disallowed by
+    HTML).  The second component of a negative leap second is 59.
+    Values are JSON objects with following name/value pairs:
+
+      next [string]
+
+        The next second of the leap second, in HTML valid normalized
+        forced-UTC global date and time string.
+
+      next_unix [number]
+
+        The next second of the leap second, as a Unix time_t number
+        (since 1970-01-01T00:00:00Z).
+
+      prev [string]
+
+        The previous second of the leap second, in HTML valid
+        normalized forced-UTC global date and time string.
+
+      prev_unix [number]
+
+        The previous second of the leap second, as a Unix time_t
+        number (since 1970-01-01T00:00:00Z).
+
+* Sources
+
+OERS Bulletin C
+<http://www.iers.org/IERS/EN/Publications/Bulletins/directLinks/bulletin__C__MD.html>.
+
+tzdata leap-seconds.list
+<http://www.ietf.org/timezones/data/leap-seconds.list>.
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of this file.

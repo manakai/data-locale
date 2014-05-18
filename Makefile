@@ -49,6 +49,7 @@ PERL = ./perl
 data: data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json \
     data/datetime/durations.json data/datetime/gregorian.json \
     data/datetime/weeks.json data/datetime/months.json \
+    data/datetime/seconds.json \
     data/timezones/mail-names.json
 clean-data:
 
@@ -56,6 +57,9 @@ data/calendar/jp-holidays.json: bin/calendar-jp-holidays.pl
 	$(PERL) $< > $@
 data/calendar/ryukyu-holidays.json: bin/calendar-ryukyu-holidays.pl
 	$(PERL) $< > $@
+
+local/leap-seconds.txt:
+	$(WGET) -O $@ http://www.ietf.org/timezones/data/leap-seconds.list
 
 data/datetime/durations.json: bin/datetime-durations.pl
 	$(PERL) $< > $@
@@ -65,6 +69,8 @@ data/datetime/weeks.json: bin/datetime-weeks.pl
 	$(PERL) $< > $@
 data/datetime/months.json: bin/datetime-months.pl
 	$(PERL) $< > $@
+data/datetime/seconds.json: bin/datetime-seconds.pl local/leap-seconds.txt
+	$(PERL) $< > $@
 
 data/timezones/mail-names.json: bin/timezones-mail-names.pl
 	$(PERL) $< > $@
@@ -73,9 +79,14 @@ data/timezones/mail-names.json: bin/timezones-mail-names.pl
 
 PROVE = ./prove
 
+local/bin/jq:
+	mkdir -p local/bin
+	$(WGET) -O $@ http://stedolan.github.io/jq/download/linux64/jq
+	chmod u+x $@
+
 test: test-deps test-main
 
-test-deps: deps
+test-deps: deps local/bin/jq
 
 test-main:
-#	$(PROVE) t/*.t
+	$(PROVE) t/*.t
