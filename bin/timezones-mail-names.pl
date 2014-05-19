@@ -156,10 +156,10 @@ my $Zones = {
 
 for my $name (keys %$Zones) {
   my $def = $Zones->{$name};
-  if ($def->[0] > 0) {
-    $Data->{names}->{$name}->{offset} = $def->[0] * ($def->[1] * 60 * 60 + $def->[2] * 60);
-  } else {
+  if ($def->[0] < 0 and $def->[1] == 0 and $def->[2] == 0) {
     $Data->{names}->{$name}->{offset_unknown} = 1;
+  } else {
+    $Data->{names}->{$name}->{offset} = $def->[0] * ($def->[1] * 60 * 60 + $def->[2] * 60);
   }
   $Data->{names}->{$name}->{label} = $def->[3] if defined $def->[3];
 }

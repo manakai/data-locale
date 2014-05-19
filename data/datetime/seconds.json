@@ -1,4 +1,6 @@
 {
+   "negative_leap_seconds" : {
+   },
    "positive_leap_seconds" : {
       "1972-06-30T23:59:60Z" : {
          "next" : "1972-07-01T00:00:00Z",
