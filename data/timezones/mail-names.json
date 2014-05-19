@@ -16,7 +16,7 @@
       "ADT" : {
          "conflicting" : 1,
          "label" : "Atlantic Daylight Time",
-         "offset_unknown" : 1
+         "offset" : -10800
       },
       "AESST" : {
          "label" : "Australian East Summer Standard Time",
@@ -28,11 +28,11 @@
       },
       "AHST" : {
          "label" : "Alaska-Hawaii Standard Time",
-         "offset_unknown" : 1
+         "offset" : -36000
       },
       "AKST" : {
          "label" : "Alaska Standard Time",
-         "offset_unknown" : 1
+         "offset" : -32400
       },
       "AM" : {
          "label" : "After Morning",
@@ -41,11 +41,11 @@
       "AST" : {
          "conflicting" : 1,
          "label" : "Atlantic Standard Time",
-         "offset_unknown" : 1
+         "offset" : -14400
       },
       "AT" : {
          "label" : "Azores Time",
-         "offset_unknown" : 1
+         "offset" : -7200
       },
       "AWSST" : {
          "label" : "Australian West Summer Standard Time",
@@ -62,12 +62,12 @@
       },
       "BDT" : {
          "label" : "Bering Daylight Time",
-         "offset_unknown" : 1
+         "offset" : -36000
       },
       "BST" : {
          "conflicting" : 1,
          "label" : "Bering Standard Time",
-         "offset_unknown" : 1
+         "offset" : -39600
       },
       "BT" : {
          "label" : "Baghdad Time",
@@ -88,7 +88,7 @@
       },
       "CAT" : {
          "label" : "Central Alaska Time",
-         "offset_unknown" : 1
+         "offset" : -36000
       },
       "CCT" : {
          "label" : "China Coastal Time",
@@ -98,7 +98,7 @@
          "allowed_rfc822" : 1,
          "conflicting" : 1,
          "label" : "Central Daylight Time",
-         "offset_unknown" : 1
+         "offset" : -18000
       },
       "CEST" : {
          "label" : "Central European Daylight Time",
@@ -116,7 +116,7 @@
          "allowed_rfc822" : 1,
          "conflicting" : 1,
          "label" : "Central Standard Time",
-         "offset_unknown" : 1
+         "offset" : -21600
       },
       "D" : {
          "allowed_but_not_recommended_rss2" : 1,
@@ -156,7 +156,7 @@
          "allowed_rfc822" : 1,
          "conflicting" : 1,
          "label" : "Eastern Daylight Time",
-         "offset_unknown" : 1
+         "offset" : -14400
       },
       "EEST" : {
          "label" : "Eastern European Summer Time",
@@ -175,11 +175,11 @@
          "allowed_rfc822" : 1,
          "conflicting" : 1,
          "label" : "Eastern Standard Time",
-         "offset_unknown" : 1
+         "offset" : -18000
       },
       "EWT" : {
          "label" : "U.S. Eastern War Time",
-         "offset_unknown" : 1
+         "offset" : -14400
       },
       "F" : {
          "allowed_but_not_recommended_rss2" : 1,
@@ -188,7 +188,7 @@
       },
       "FDT" : {
          "label" : "Brazil De Noronha Standard Time",
-         "offset_unknown" : 1
+         "offset" : -7200
       },
       "FST" : {
          "label" : "French Summer Time",
@@ -221,7 +221,7 @@
       "GST" : {
          "conflicting" : 1,
          "label" : "Greenland Standard Time",
-         "offset_unknown" : 1
+         "offset" : -10800
       },
       "H" : {
          "allowed_but_not_recommended_rss2" : 1,
@@ -230,12 +230,12 @@
       },
       "HAST" : {
          "label" : "Hawaii and Alaska Standard Time",
-         "offset_unknown" : 1
+         "offset" : -36000
       },
       "HDT" : {
          "conflicting" : 1,
          "label" : "Hawaii/Alaska Daylight Time",
-         "offset_unknown" : 1
+         "offset" : -32400
       },
       "HKT" : {
          "label" : "Hong Kong Time",
@@ -243,7 +243,7 @@
       },
       "HST" : {
          "label" : "Hawaii Standard Time",
-         "offset_unknown" : 1
+         "offset" : -36000
       },
       "I" : {
          "allowed_but_not_recommended_rss2" : 1,
@@ -256,7 +256,7 @@
       },
       "IDLW" : {
          "label" : "International Date Line, West",
-         "offset_unknown" : 1
+         "offset" : -43200
       },
       "IDT" : {
          "conflicting" : 1,
@@ -332,7 +332,7 @@
       "MDT" : {
          "allowed_rfc822" : 1,
          "label" : "Mountain Daylight Time",
-         "offset_unknown" : 1
+         "offset" : -21600
       },
       "MEST" : {
          "label" : "Middle European Summer Time",
@@ -361,12 +361,12 @@
       },
       "MOUNTAIN" : {
          "label" : "Mountain Standard Time",
-         "offset_unknown" : 1
+         "offset" : -25200
       },
       "MST" : {
          "allowed_rfc822" : 1,
          "label" : "Mountain Standard Time",
-         "offset_unknown" : 1
+         "offset" : -25200
       },
       "MT" : {
          "conflicting" : 1,
@@ -380,11 +380,11 @@
       },
       "NDT" : {
          "label" : "Newfoundland Daylight Time",
-         "offset_unknown" : 1
+         "offset" : -9000
       },
       "NFT" : {
          "label" : "Newfoundland Standard Time",
-         "offset_unknown" : 1
+         "offset" : -12600
       },
       "NOR" : {
          "label" : "Norway Standard Time",
@@ -393,11 +393,11 @@
       "NST" : {
          "conflicting" : 1,
          "label" : "Newfoundland Standard Time",
-         "offset_unknown" : 1
+         "offset" : -12600
       },
       "NT" : {
          "label" : "Nome Time",
-         "offset_unknown" : 1
+         "offset" : -39600
       },
       "NZD" : {
          "label" : "New Zealand Daylight Time",
@@ -432,19 +432,19 @@
       "PDT" : {
          "allowed_rfc822" : 1,
          "label" : "Pacific Daylight Time",
-         "offset_unknown" : 1
+         "offset" : -25200
       },
       "PM" : {
          "offset_unknown" : 1
       },
       "PPET" : {
          "label" : "US Pacific New (Presidental Election Year) Time",
-         "offset_unknown" : 1
+         "offset" : -25200
       },
       "PST" : {
          "allowed_rfc822" : 1,
          "label" : "Pacific Standard Time",
-         "offset_unknown" : 1
+         "offset" : -28800
       },
       "Q" : {
          "allowed_but_not_recommended_rss2" : 1,
@@ -574,11 +574,11 @@
       },
       "YDT" : {
          "label" : "Yukon Daylight Time",
-         "offset_unknown" : 1
+         "offset" : -28800
       },
       "YST" : {
          "label" : "Yukon Standard Time",
-         "offset_unknown" : 1
+         "offset" : -32400
       },
       "Z" : {
          "allowed_rfc822" : 1,
