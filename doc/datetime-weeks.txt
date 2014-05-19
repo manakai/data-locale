@@ -26,8 +26,9 @@ The file contains a JSON object with following name/value pair:
 
     iso_name [string]
 
-      English name of the weekday (titlecased), as defined in ISO
-      8601 [ISO8601].
+      English name of the weekday (titlecased), as defined in ISO 8601
+      [ISO8601].  This is also the name in HTTP's |rfc850-date| format
+      [RFC1945] [RFC2068] [RFC2616].
 
     iso_number [number]
 
