@@ -22,6 +22,7 @@ my %d = (
     H10	=> _d(2000,1,1),	## Heisei 10 Law No.141
     H13 => _d(2003,1,1),	## H13-06-22
     H17 => _d(2007,1,1),	## H17-05-20
+    H26 => _d(2016,1,1),        ## H26 (2014)
 );
 
 ## 春分、秋分
@@ -149,6 +150,7 @@ sub isholiday ($$$) {
     return '明治天皇祭' if $day == 30 && $d{T1} <= $time && $time < $d{S2};
   } elsif ($month == 8) {
     return '天長節' if $day == 31 && $d{T1} <= $time && $time < $d{S2};
+    return '山の日' if $day == 11 && $d{H26} <= $time;
   } elsif ($month == 9) {
     return '敬老の日' if $day == 15 && $d{S41} <= $time && $time < $d{H13};
     return '敬老の日' if $wday == $MONDAY && 15 <= $day && $day <= 21 && $d{H13} <= $time;
