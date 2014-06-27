@@ -1,3 +1,4 @@
-File::Spec~3.40
+Test::More~1.001003
+File::Spec~3.47
 Time::Local~1.2300
 Path::Tiny~0.054
