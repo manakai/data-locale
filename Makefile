@@ -3,7 +3,7 @@ GIT = git
 
 all: deps data
 
-clean: clean-data clear-json-ps
+clean: clean-data clean-json-ps
 
 updatenightly: update-submodules dataautoupdate
 
