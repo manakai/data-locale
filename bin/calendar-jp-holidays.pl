@@ -151,6 +151,7 @@ sub isholiday ($$$) {
   } elsif ($month == 8) {
     return '天長節' if $day == 31 && $d{T1} <= $time && $time < $d{S2};
     return '山の日' if $day == 11 && $d{H26} <= $time;
+    return '振替休日' if $wday == $MONDAY && $day == 12 && $d{H26} <= $time;
   } elsif ($month == 9) {
     return '敬老の日' if $day == 15 && $d{S41} <= $time && $time < $d{H13};
     return '敬老の日' if $wday == $MONDAY && 15 <= $day && $day <= 21 && $d{H13} <= $time;
