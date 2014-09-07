@@ -5,8 +5,13 @@ These files contain list of national holidays.
 
 * Files
 
-data/calendar/jp-holidays.json      Holidays of Japan
-data/calendar/ryukyu-holidays.json  Holidays of Ryukyu Islands (1945-1972)
+data/calendar/jp-holidays.json
+    Holidays of Japan (1873-01-01 --).
+    Note that holidays before the adoption of the Gregorian calendar
+    (January 1, Meiji 6 = 1873) are not listed in this file.
+data/calendar/ryukyu-holidays.json
+    Holidays of Ryukyu Islands (1945-06 -- 1952-02-09 (Tokara) /
+    1953-12-24 (Amami) / 1972-05-14 (Okinawa)).
 
 * Structure
 
@@ -26,6 +31,7 @@ removed, or moved at any time by relevant laws.
 - <http://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E7%A5%9D%E6%97%A5>
 - <http://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E4%BC%91%E6%97%A5>
 - <http://homepage1.nifty.com/gyouseinet/kyujitsu.htm>
+- <http://wiki.suikawiki.org/n/%E6%97%A5%E6%9C%AC%E3%81%AE%E7%A5%9D%E6%97%A5$1095>
 
 ** 春分, 秋分
 

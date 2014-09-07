@@ -9,6 +9,7 @@ use Time::Local qw(timegm_nocheck);
 sub _d {$_[0] < 1870? 0: timegm_nocheck(0,0,0,$_[2],$_[1]-1,$_[0])}
 my %d = (
     M6	=> _d(1873,10,14),	## Meiji 6 Dajoukan Fukoku No.344
+    M11 => _d(1878,6,5),        ## Meiji 11 Dajoukan Fukoku No.23
     M12	=> _d(1879,7,5),	## Meiji 12 Dajoukan Fukoku No.27
     T1	=> _d(1912,9,3),	## Taishou 1 Chokurei No.19
     T2	=> _d(1913,7,16),	## Taishou 2 Chokurei No.259
@@ -86,7 +87,7 @@ sub isholiday ($$$) {
   my $time = _d($year,$month,$day);
   my $wday = (gmtime($time))[6];
   
-  return 0 if $time < _d(1873,10,14);	## 1983AD = Meiji6
+  return 0 if $time < _d(1873,1,1);	## 1983AD = Meiji6
   
   if ($month == 1) {
     return '元日' if $day == 1 && $d{S23} <= $time;
@@ -100,22 +101,24 @@ sub isholiday ($$$) {
     return '振替休日' if $wday == $MONDAY && $day == 16 &&
                 $d{S48} <= $time && $time < $d{H10};
     
-    return '元始祭' if $day == 3 && $time < $d{S23};
+    return '元始祭' if $day == 3 && $d{M6} <= $time && $time < $d{S23};
+    return '新年宴会' if $day == 5 && $d{M6} <= $time && $time < $d{S23};
+    return '孝明天皇祭' if $day == 30 && $d{M6} <= $time && $time < $d{T1};
 
-    return '新年宴会' if $day == 5 && $time < $d{S23};
-
-    return '孝明天皇祭' if $day == 30 && $time < $d{T1};
+    return '紀元節' if $day == 29 && $year == 1873;
   } elsif ($month == 2) {
     return '建国記念の日' if $day == 11 && $d{S41} <= $time;
-    return '紀元節' if $day == 11 && $time < $d{S23};
+    return '紀元節' if $day == 11 && $d{M6} <= $time && $time < $d{S23};
     return '振替休日' if $wday == $MONDAY && $day == 12 && $d{S48} <= $time;
     
     return '昭和天皇の大喪の礼の行われる日' if $year == 1989 && $day == 24;
     	## Heisei 1 Law No.4
   } elsif ($month == 3) {
     my $shunbun = get_sday \@Shunbun, $year;
-    return '春季皇霊祭' if $day == $shunbun && $time < $d{S23};
-    return '春分の日' if $day == $shunbun && $d{S23} <= $time;
+    return '春季皇霊祭' if 1873 <= $year && $year < 3000 &&
+        $day == $shunbun && $d{M11} <= $time && $time < $d{S23};
+    return '春分の日' if 1873 <= $year && $year < 3000 &&
+        $day == $shunbun && $d{S23} <= $time;
     return '振替休日' if $wday == $MONDAY && $day == $shunbun+1 && $d{S48} <= $time;
   } elsif ($month == 4) {
     return '天長節' if $day == 29 && $d{S2} <= $time && $time < $d{S23};
@@ -124,7 +127,7 @@ sub isholiday ($$$) {
     return '昭和の日' if $day == 29 && $d{H17} <= $time;
     return '振替休日' if $wday == $MONDAY && $day == 30 && $d{S48} <= $time;
     
-    return '神武天皇祭' if $time < $d{S23} && $day == 3;
+    return '神武天皇祭' if $d{M6} <= $time && $time < $d{S23} && $day == 3;
 
     return '皇太子明仁親王の結婚の儀の行われる日' if $year == 1959 && $day == 10;
     	## Shouwa 34 Law No.16
@@ -160,14 +163,14 @@ sub isholiday ($$$) {
     my $shuubun = get_sday \@Shuubun, $year;
     return '国民の休日' if $wday-1 == $MONDAY && 15 <= $day-1 && $day-1 <= 21 && $day+1 == $shuubun && $d{H13} <= $time;
 
-    return '秋季皇霊祭' if 1878 <= $year && $year < 3000 &&
-        $day == $shuubun && $time < $d{S23};
-    return '秋分の日' if 1878 <= $year && $year < 3000 &&
+    return '秋季皇霊祭' if 1873 <= $year && $year < 3000 &&
+        $day == $shuubun && $d{M11} <= $time && $time < $d{S23};
+    return '秋分の日' if 1873 <= $year && $year < 3000 &&
         $day == $shuubun && $time >= $d{S23};
     return '振替休日' if $wday == $MONDAY && $d{S48} <= $time &&
         $day == $shuubun+1;
     
-    return '神嘗祭' if $day == 17 && $time < $d{M12};
+    return '神嘗祭' if $day == 17 && $d{M6} <= $time && $time < $d{M12};
   } elsif ($month == 10) {
     return '体育の日' if $wday == $MONDAY && $day <= 8 && $day <= 14 &&
                 $d{H10} <= $time;
@@ -178,12 +181,15 @@ sub isholiday ($$$) {
     return '神嘗祭' if $day == 17 && $d{M12} <= $time && $time < $d{S23};
 
     return '天長節祝日' if $day == 31 && $d{T2} <= $time && $time < $d{S2};
+
+    return '皇大神宮遷御当日' if $day == 2 && $year == 1929;
+        ## Shouwa 4 Chokurei No. 265 (1929-09-03)
   } elsif ($month == 11) {
-    return '天長節' if $day == 3 && $time < $d{T1};
+    return '天長節' if $day == 3 && $d{M6} <= $time && $time < $d{T1};
     return '文化の日' if $day == 3 && $d{S2} <= $time;
     return '振替休日' if $wday == $MONDAY && $day == 4 && $d{S48} <= $time;
 
-    return '新嘗祭' if $day == 23 && $time < $d{S23};
+    return '新嘗祭' if $day == 23 && $d{M6} <= $time && $time < $d{S23};
     return '勤労感謝の日' if $day == 23 and $d{S23} <= $time;
     return '振替休日' if $wday == $MONDAY && $day == 24 && $d{S48} <= $time;
     
