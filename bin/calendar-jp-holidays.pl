@@ -152,6 +152,9 @@ sub isholiday ($$$) {
 
     return '明治天皇祭' if $day == 30 && $d{T1} <= $time && $time < $d{S2};
   } elsif ($month == 8) {
+    ## <http://wiki.suikawiki.org/n/%E6%97%A5%E6%9C%AC%E3%81%AE%E7%A5%9D%E6%97%A5#anchor-211>
+    return '天長節' if $day == 31 && $year == 1912;
+
     return '天長節' if $day == 31 && $d{T1} <= $time && $time < $d{S2};
     return '山の日' if $day == 11 && $d{H26} <= $time;
     return '振替休日' if $wday == $MONDAY && $day == 12 && $d{H26} <= $time;
