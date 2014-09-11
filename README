@@ -17,6 +17,9 @@ See documentations for details in doc/ directory.
   Time zones
     doc/timezones-mail-names.txt       Zone names in mails
     data/timezones/mail-names.json
+  Non-gregorian calendar
+    doc/calendar-kyuureki.txt          Kyuureki
+    data/calendar/kyuureki-*
   Holidays
     doc/calendar-holidays.txt          List of holidays
     data/calendar/jp-holidays.json
