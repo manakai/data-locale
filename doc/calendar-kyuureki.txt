@@ -1,0 +1,98 @@
+calendar/kyuureki-*
+~~~~~~~~~~~~~~~~~~~
+
+These files contain descriptions of Kyuureki (旧暦), i.e. Japanese
+classic calendar.
+
+* Data types
+
+In these files, Gregorian and Kyuureki dates are represented using the
+|gregorian-date| and |kyuureki-date| notations of the following ABNF
+grammer, respectively:
+
+  gregorian-date = year "-" 2DIGIT "-" 2DIGIT
+  kyuureki-date = year "-" 2DIGIT [leap-month] "-" 2DIGIT
+  year = ["-"] 4*DIGIT
+  leap-month = "'"
+  DIGIT = %x30-39
+
+Sequences of numbers in these date are year, month, and day numbers of
+them, in decimal, respectively.  Existence of the |leap-month| flag
+represents a leap month.
+
+The Gregorian dates are date in the proleptic Gregorian calendar.
+
+* kyuureki-map
+
+The |data/calendar/kyuureki-map.txt| file contains mapping of Kyuureki
+dates and Gregorian dates.
+
+The file is an ASCII text file conforming to the following ABNF
+grammer:
+
+  file = *line
+  line = gregorian-date %x09 kyuureki-date %x0A
+
+A |line| represents a day.  Its |gregorian-date| and |kyuureki-date|
+are Gregorian and Kyuureki date of the day, respectively.
+
+* kyuureki-genten
+
+The |data/calendar/kyuureki-genten.json| file contains some data from
+日本暦日原典 (第4版).
+
+The file contains a JSON object with following name/value pairs:
+
+  mapping [object]
+
+    Some of mapping data between Gregorian and Kyuureki dates from 日本
+    暦日原典.  Note that Julian dates in 日本暦日原典 are converted to
+    proleptic Gregorian date in this object.  Note also that this
+    object only contains a few interesting mapping data.  Names are
+    Gregorian dates and values are corresponding Kyuureki dates.
+
+  notes [object]
+
+    List of annotations in the table of 日本暦日原典.  Names are
+    Kyuureki dates and values are objects with following name/value
+    pairs:
+
+      might_be_advanced [boolean]
+
+        進朔の可能性が強いが日本暦日原典では進朔していない。
+
+      misc_note [boolean]
+
+        その他の注釈。
+
+      use_computed_value [boolean]
+
+        議論の余地があるものの、日本暦日原典では原則通りの計算値を
+        採用している。
+
+      use_fixed_value [boolean]
+
+        日本暦日原典で計算値でなく修正値を採用している。
+
+      vary_by_algorithm [boolean]
+
+        採用する計算方法により計算値が異なる。
+
+* kyuureki-diff*
+
+The |data/calendar/kyuureki-diff.json| file contains differences of
+various Kyuureki mapping tables.
+
+The |data/calendar/kyuureki-diff-all.html| and
+|data/calendar/kyuureki-diff-tables.html| files are its visualization.
+
+* Sources
+
+日本暦日原典, 内田正男, 1992 (第4版).
+
+SuikaWiki:旧暦 <http://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6$20368>.
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of these files.

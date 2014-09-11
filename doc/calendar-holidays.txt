@@ -44,3 +44,8 @@ removed, or moved at any time by relevant laws.
 
 - 住民の祝祭日に関する立法 (1961年立法第85号)
 - <http://ja.wikipedia.org/wiki/%E4%BD%8F%E6%B0%91%E3%81%AE%E7%A5%9D%E7%A5%AD%E6%97%A5>
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of these files.

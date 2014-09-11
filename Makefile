@@ -47,6 +47,7 @@ local/perl-latest/pm/lib/perl5/JSON/PS.pm:
 PERL = ./perl
 
 data: data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json \
+    data/calendar/kyuureki-genten.json \
     data/datetime/durations.json data/datetime/gregorian.json \
     data/datetime/weeks.json data/datetime/months.json \
     data/datetime/seconds.json \
@@ -57,6 +58,11 @@ data/calendar/jp-holidays.json: bin/calendar-jp-holidays.pl
 	$(PERL) $< > $@
 data/calendar/ryukyu-holidays.json: bin/calendar-ryukyu-holidays.pl
 	$(PERL) $< > $@
+
+data/calendar/kyuureki-genten.json: bin/calendar-kyuureki-genten.pl
+	mkdir -p tables
+	$(PERL) $<
+	mv tables/genten-data.json $@
 
 local/leap-seconds.txt:
 	$(WGET) -O $@ http://www.ietf.org/timezones/data/leap-seconds.list

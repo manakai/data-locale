@@ -1,0 +1,1101 @@
+{
+   "mapping" : {
+      "0637-09-28" : "0637-09-01",
+      "0641-09-13" : "0641-08-01",
+      "0648-02-02" : "0648-01-01",
+      "0648-03-03" : "0648-02-01",
+      "0648-04-01" : "0648-03-01",
+      "0648-05-01" : "0648-04-01",
+      "0648-05-31" : "0648-05-01",
+      "0648-06-29" : "0648-06-01",
+      "0648-07-29" : "0648-07-01",
+      "0648-08-27" : "0648-08-01",
+      "0648-09-26" : "0648-09-01",
+      "0648-10-25" : "0648-10-01",
+      "0648-11-24" : "0648-11-01",
+      "0648-12-23" : "0648-12-01",
+      "0649-01-22" : "0648-12'-01",
+      "0661-07-05" : "0661-06-01",
+      "0692-12-16" : "0692-11-01",
+      "0698-11-11" : "0698-10-01",
+      "0743-10-27" : "0743-10-01",
+      "0757-01-29" : "0757-01-01",
+      "0762-02-02" : "0762-01-01",
+      "0762-03-04" : "0762-02-01",
+      "0762-12-24" : "0762-12-01",
+      "0763-01-23" : "0762-12'-01",
+      "0763-02-21" : "0763-01-01",
+      "0765-02-28" : "0765-02-01",
+      "0766-01-19" : "0765-12-01",
+      "0768-05-25" : "0768-05-01",
+      "0768-06-23" : "0768-06-01",
+      "0768-07-23" : "0768-06'-01",
+      "0770-02-05" : "0770-01-01",
+      "0790-03-25" : "0790-03-01",
+      "0791-03-13" : "0791-02-01",
+      "0791-06-11" : "0791-05-01",
+      "0807-11-08" : "0807-10-01",
+      "0810-12-05" : "0810-11-01",
+      "0818-06-12" : "0818-05-01",
+      "0820-03-23" : "0820-02-01",
+      "0820-04-21" : "0820-03-01",
+      "0820-08-17" : "0820-07-01",
+      "0823-11-11" : "0823-10-01",
+      "0828-10-17" : "0828-09-01",
+      "0861-07-16" : "0861-06-01",
+      "0889-06-06" : "0889-05-01",
+      "1092-07-14" : "1092-06-01",
+      "1314-01-25" : "1314-01-01",
+      "1314-02-23" : "1314-02-01",
+      "1314-03-25" : "1314-03-01",
+      "1314-04-24" : "1314-03'-01",
+      "1314-05-23" : "1314-04-01",
+      "1348-02-08" : "1348-01-01",
+      "1348-03-09" : "1348-02-01",
+      "1348-04-08" : "1348-03-01",
+      "1843-07-27" : "1843-07-01",
+      "1843-08-25" : "1843-08-01",
+      "1843-09-24" : "1843-09-01",
+      "1843-10-23" : "1843-09'-01",
+      "1843-11-22" : "1843-10-01",
+      "1846-05-25" : "1846-05-01",
+      "1846-06-24" : "1846-05'-01",
+      "1846-07-23" : "1846-06-01",
+      "1850-09-06" : "1850-08-01",
+      "1850-10-06" : "1850-09-01",
+      "1850-11-04" : "1850-10-01",
+      "1850-12-04" : "1850-11-01",
+      "1865-04-25" : "1865-04-01",
+      "1865-05-25" : "1865-05-01",
+      "1865-06-23" : "1865-05'-01",
+      "1865-07-23" : "1865-06-01",
+      "1866-04-15" : "1866-03-01",
+      "1866-05-15" : "1866-04-01",
+      "1866-06-13" : "1866-05-01",
+      "1866-07-12" : "1866-06-01"
+   },
+   "notes" : {
+      "0553-05-01" : {
+         "use_computed_value" : 1
+      },
+      "0570-04'-01" : {
+         "use_computed_value" : 1
+      },
+      "0575-02-01" : {
+         "use_computed_value" : 1
+      },
+      "0628-04-01" : {
+         "use_computed_value" : 1
+      },
+      "0628-09-01" : {
+         "use_computed_value" : 1
+      },
+      "0649-05-01" : {
+         "use_computed_value" : 1
+      },
+      "0692-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "0696-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "0697-04-01" : {
+         "use_fixed_value" : 1
+      },
+      "0697-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "0697-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "0697-10-01" : {
+         "use_fixed_value" : 1
+      },
+      "0697-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "0697-12'-01" : {
+         "use_fixed_value" : 1
+      },
+      "0697-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "0698-09-01" : {
+         "vary_by_algorithm" : 1
+      },
+      "0698-10-01" : {
+         "vary_by_algorithm" : 1
+      },
+      "0704-04-01" : {
+         "vary_by_algorithm" : 1
+      },
+      "0711-09-01" : {
+         "vary_by_algorithm" : 1
+      },
+      "0721-08-01" : {
+         "vary_by_algorithm" : 1
+      },
+      "0726-09-01" : {
+         "use_fixed_value" : 1
+      },
+      "0729-02-01" : {
+         "vary_by_algorithm" : 1
+      },
+      "0731-07-01" : {
+         "use_fixed_value" : 1
+      },
+      "0733-03-01" : {
+         "use_fixed_value" : 1
+      },
+      "0734-10-01" : {
+         "use_computed_value" : 1
+      },
+      "0734-11-01" : {
+         "use_computed_value" : 1
+      },
+      "0736-01-01" : {
+         "vary_by_algorithm" : 1
+      },
+      "0736-12-01" : {
+         "use_computed_value" : 1
+      },
+      "0737-01-01" : {
+         "use_computed_value" : 1
+      },
+      "0742-12-01" : {
+         "use_computed_value" : 1
+      },
+      "0743-01-01" : {
+         "use_computed_value" : 1
+      },
+      "0743-10-01" : {
+         "use_computed_value" : 1
+      },
+      "0744-11-01" : {
+         "use_computed_value" : 1
+      },
+      "0744-12-01" : {
+         "use_computed_value" : 1
+      },
+      "0748-01-01" : {
+         "use_computed_value" : 1
+      },
+      "0748-02-01" : {
+         "use_computed_value" : 1
+      },
+      "0748-03-01" : {
+         "use_computed_value" : 1
+      },
+      "0748-04-01" : {
+         "use_computed_value" : 1
+      },
+      "0748-05-01" : {
+         "use_computed_value" : 1
+      },
+      "0748-06-01" : {
+         "use_computed_value" : 1
+      },
+      "0748-07-01" : {
+         "use_computed_value" : 1
+      },
+      "0748-08-01" : {
+         "use_computed_value" : 1
+      },
+      "0748-09-01" : {
+         "use_computed_value" : 1
+      },
+      "0748-10-01" : {
+         "use_computed_value" : 1
+      },
+      "0748-11-01" : {
+         "use_computed_value" : 1
+      },
+      "0748-12-01" : {
+         "use_computed_value" : 1
+      },
+      "0751-12-01" : {
+         "vary_by_algorithm" : 1
+      },
+      "0755-10-01" : {
+         "vary_by_algorithm" : 1
+      },
+      "0757-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0760-07-01" : {
+         "use_fixed_value" : 1
+      },
+      "0761-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "0762-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0762-02-01" : {
+         "use_fixed_value" : 1
+      },
+      "0762-12'-01" : {
+         "use_fixed_value" : 1
+      },
+      "0763-01'-01" : {
+         "use_fixed_value" : 1
+      },
+      "0763-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0765-02-01" : {
+         "might_be_advanced" : 1
+      },
+      "0765-12-01" : {
+         "might_be_advanced" : 1
+      },
+      "0766-04-01" : {
+         "use_fixed_value" : 1
+      },
+      "0768-04-01" : {
+         "use_fixed_value" : 1
+      },
+      "0768-05'-01" : {
+         "use_fixed_value" : 1
+      },
+      "0768-05-01" : {
+         "use_fixed_value" : 1
+      },
+      "0768-06'-01" : {
+         "use_fixed_value" : 1
+      },
+      "0768-06-01" : {
+         "use_fixed_value" : 1
+      },
+      "0769-09-01" : {
+         "might_be_advanced" : 1
+      },
+      "0770-01-01" : {
+         "use_computed_value" : 1
+      },
+      "0770-05-01" : {
+         "might_be_advanced" : 1
+      },
+      "0773-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0773-04-01" : {
+         "use_fixed_value" : 1
+      },
+      "0773-10-01" : {
+         "use_fixed_value" : 1
+      },
+      "0774-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0774-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "0775-06-01" : {
+         "use_fixed_value" : 1
+      },
+      "0775-09-01" : {
+         "use_fixed_value" : 1
+      },
+      "0776-07'-01" : {
+         "use_fixed_value" : 1
+      },
+      "0776-08'-01" : {
+         "use_fixed_value" : 1
+      },
+      "0776-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "0777-03-01" : {
+         "use_fixed_value" : 1
+      },
+      "0777-06-01" : {
+         "use_fixed_value" : 1
+      },
+      "0777-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "0777-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "0778-04-01" : {
+         "use_fixed_value" : 1
+      },
+      "0778-05-01" : {
+         "use_fixed_value" : 1
+      },
+      "0778-06-01" : {
+         "use_fixed_value" : 1
+      },
+      "0778-07-01" : {
+         "use_fixed_value" : 1
+      },
+      "0779-05-01" : {
+         "use_fixed_value" : 1
+      },
+      "0779-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "0780-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0780-03-01" : {
+         "use_fixed_value" : 1
+      },
+      "0780-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "0781-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0782-09-01" : {
+         "might_be_advanced" : 1
+      },
+      "0783-03-01" : {
+         "might_be_advanced" : 1
+      },
+      "0783-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "0783-10-01" : {
+         "use_fixed_value" : 1
+      },
+      "0783-12-01" : {
+         "might_be_advanced" : 1
+      },
+      "0784-10-01" : {
+         "might_be_advanced" : 1
+      },
+      "0785-05-01" : {
+         "use_fixed_value" : 1
+      },
+      "0785-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "0786-06-01" : {
+         "use_fixed_value" : 1
+      },
+      "0786-11-01" : {
+         "might_be_advanced" : 1
+      },
+      "0787-04-01" : {
+         "use_fixed_value" : 1
+      },
+      "0787-10-01" : {
+         "might_be_advanced" : 1
+      },
+      "0788-02-01" : {
+         "might_be_advanced" : 1
+      },
+      "0790-03-01" : {
+         "use_fixed_value" : 1
+      },
+      "0790-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "0791-05-01" : {
+         "use_fixed_value" : 1
+      },
+      "0791-07-01" : {
+         "use_fixed_value" : 1
+      },
+      "0792-03-01" : {
+         "use_fixed_value" : 1
+      },
+      "0792-11'-01" : {
+         "use_fixed_value" : 1
+      },
+      "0792-19-01" : {
+         "use_fixed_value" : 1
+      },
+      "0793-12-01" : {
+         "might_be_advanced" : 1
+      },
+      "0794-05-01" : {
+         "use_fixed_value" : 1
+      },
+      "0794-10-01" : {
+         "might_be_advanced" : 1
+      },
+      "0795-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0795-09-01" : {
+         "use_fixed_value" : 1
+      },
+      "0796-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0797-10-01" : {
+         "use_fixed_value" : 1
+      },
+      "0798-02-01" : {
+         "use_fixed_value" : 1
+      },
+      "0798-10-01" : {
+         "might_be_advanced" : 1
+      },
+      "0799-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0799-04-01" : {
+         "use_fixed_value" : 1
+      },
+      "0801-06-01" : {
+         "might_be_advanced" : 1
+      },
+      "0802-04-01" : {
+         "might_be_advanced" : 1
+      },
+      "0805-09-01" : {
+         "might_be_advanced" : 1
+      },
+      "0806-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0806-09-01" : {
+         "might_be_advanced" : 1
+      },
+      "0806-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "0807-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0807-10-01" : {
+         "use_fixed_value" : 1
+      },
+      "0808-11-01" : {
+         "might_be_advanced" : 1,
+         "use_fixed_value" : 1
+      },
+      "0810-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "0813-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "0816-12-01" : {
+         "might_be_advanced" : 1,
+         "use_fixed_value" : 1
+      },
+      "0817-10-01" : {
+         "use_fixed_value" : 1
+      },
+      "0818-03-01" : {
+         "might_be_advanced" : 1
+      },
+      "0818-05-01" : {
+         "use_fixed_value" : 1
+      },
+      "0818-12-01" : {
+         "might_be_advanced" : 1
+      },
+      "0819-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0819-03-01" : {
+         "use_fixed_value" : 1
+      },
+      "0820-02-01" : {
+         "use_fixed_value" : 1
+      },
+      "0820-03-01" : {
+         "use_fixed_value" : 1
+      },
+      "0820-07-01" : {
+         "use_fixed_value" : 1
+      },
+      "0821-08-01" : {
+         "use_computed_value" : 1
+      },
+      "0821-09-01" : {
+         "use_computed_value" : 1
+      },
+      "0822-02-01" : {
+         "use_fixed_value" : 1
+      },
+      "0823-10-01" : {
+         "use_fixed_value" : 1
+      },
+      "0824-02-01" : {
+         "might_be_advanced" : 1
+      },
+      "0825-05-01" : {
+         "might_be_advanced" : 1
+      },
+      "0826-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0826-10-01" : {
+         "might_be_advanced" : 1
+      },
+      "0827-02-01" : {
+         "might_be_advanced" : 1
+      },
+      "0827-07-01" : {
+         "might_be_advanced" : 1
+      },
+      "0828-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0828-02-01" : {
+         "use_fixed_value" : 1
+      },
+      "0828-03-01" : {
+         "use_fixed_value" : 1
+      },
+      "0828-09-01" : {
+         "use_fixed_value" : 1
+      },
+      "0830-06-01" : {
+         "use_fixed_value" : 1
+      },
+      "0830-07-01" : {
+         "use_fixed_value" : 1
+      },
+      "0831-09-01" : {
+         "use_fixed_value" : 1
+      },
+      "0832-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0832-02-01" : {
+         "use_fixed_value" : 1
+      },
+      "0835-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0836-04-01" : {
+         "misc_note" : 1
+      },
+      "0837-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "0837-10-01" : {
+         "use_fixed_value" : 1
+      },
+      "0838-09-01" : {
+         "use_fixed_value" : 1
+      },
+      "0839-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "0839-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "0842-03-01" : {
+         "use_fixed_value" : 1
+      },
+      "0842-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "0844-06-01" : {
+         "use_fixed_value" : 1
+      },
+      "0844-09-01" : {
+         "use_fixed_value" : 1
+      },
+      "0845-10-01" : {
+         "use_fixed_value" : 1
+      },
+      "0845-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "0846-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "0847-05-01" : {
+         "use_fixed_value" : 1
+      },
+      "0847-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "0848-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "0849-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "0850-02-01" : {
+         "use_fixed_value" : 1
+      },
+      "0853-07-01" : {
+         "use_fixed_value" : 1
+      },
+      "0854-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "0855-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0855-02-01" : {
+         "use_fixed_value" : 1
+      },
+      "0855-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "0856-10-01" : {
+         "use_fixed_value" : 1
+      },
+      "0857-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0857-10-01" : {
+         "use_fixed_value" : 1
+      },
+      "0858-02-01" : {
+         "use_fixed_value" : 1
+      },
+      "0859-10-01" : {
+         "use_fixed_value" : 1
+      },
+      "0860-02-01" : {
+         "use_fixed_value" : 1
+      },
+      "0860-09'-01" : {
+         "use_fixed_value" : 1
+      },
+      "0860-09-01" : {
+         "use_fixed_value" : 1
+      },
+      "0860-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "0860-10-01" : {
+         "use_fixed_value" : 1
+      },
+      "0860-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "0861-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0861-04-01" : {
+         "use_fixed_value" : 1
+      },
+      "0861-06-01" : {
+         "use_fixed_value" : 1
+      },
+      "0873-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0874-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0874-02-01" : {
+         "use_fixed_value" : 1
+      },
+      "0889-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0891-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0891-07-01" : {
+         "use_fixed_value" : 1
+      },
+      "0892-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0892-05-01" : {
+         "misc_note" : 1
+      },
+      "0894-05-01" : {
+         "use_fixed_value" : 1
+      },
+      "0904-05-01" : {
+         "misc_note" : 1
+      },
+      "0937-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0937-02-01" : {
+         "use_fixed_value" : 1
+      },
+      "0937-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "0938-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0938-02-01" : {
+         "use_fixed_value" : 1
+      },
+      "0942-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "0965-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "0973-04-01" : {
+         "use_fixed_value" : 1
+      },
+      "0975-10-01" : {
+         "use_fixed_value" : 1
+      },
+      "0977-09-01" : {
+         "use_fixed_value" : 1
+      },
+      "0982-04-01" : {
+         "use_fixed_value" : 1
+      },
+      "0983-02-01" : {
+         "use_fixed_value" : 1
+      },
+      "0994-04-01" : {
+         "use_fixed_value" : 1
+      },
+      "0994-06-01" : {
+         "use_fixed_value" : 1
+      },
+      "0997-04-01" : {
+         "use_fixed_value" : 1
+      },
+      "0997-06-01" : {
+         "use_fixed_value" : 1
+      },
+      "1014-03-01" : {
+         "use_fixed_value" : 1
+      },
+      "1018-10-01" : {
+         "use_fixed_value" : 1
+      },
+      "1026-09-01" : {
+         "use_fixed_value" : 1
+      },
+      "1030-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "1034-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "1037-04-01" : {
+         "use_fixed_value" : 1
+      },
+      "1050-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1050-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1050-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "1063-10-01" : {
+         "use_fixed_value" : 1
+      },
+      "1069-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1069-11'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1069-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1082-05-01" : {
+         "use_fixed_value" : 1
+      },
+      "1089-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "1095-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "1129-07'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1129-08'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1129-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "1138-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "1156-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1157-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "1164-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1164-11'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1164-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1183-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1183-11'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1183-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1187-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "1202-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1202-11'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1202-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1221-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1221-11'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1221-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1221-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "1228-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "1243-07'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1243-08'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1243-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "1259-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1259-11'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1259-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1270-11'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1278-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1278-11'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1278-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1281-07'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1281-08'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1281-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "1297-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1297-11'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1297-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1308-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1308-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "1316-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1316-11'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1316-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1316-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "1317-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "1317-03-01" : {
+         "use_fixed_value" : 1
+      },
+      "1335-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1335-11'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1335-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1335-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "1336-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "1336-03-01" : {
+         "use_fixed_value" : 1
+      },
+      "1338-07'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1338-08'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1338-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "1344-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "1357-07'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1357-08'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1357-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "1373-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1373-11'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1373-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1374-03-01" : {
+         "use_fixed_value" : 1
+      },
+      "1376-07'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1376-08'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1376-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "1392-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1392-11'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1392-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1395-07'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1395-08'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1395-08-01" : {
+         "use_fixed_value" : 1
+      },
+      "1395-09-01" : {
+         "use_fixed_value" : 1
+      },
+      "1395-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "1396-05-01" : {
+         "use_fixed_value" : 1
+      },
+      "1411-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1411-11'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1411-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1433-09-01" : {
+         "use_fixed_value" : 1
+      },
+      "1434-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "1441-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1441-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "1449-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1449-11'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1449-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1449-12'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1449-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "1450-01-01" : {
+         "use_fixed_value" : 1
+      },
+      "1468-10'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1468-11'-01" : {
+         "use_fixed_value" : 1
+      },
+      "1468-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1468-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "1473-07-01" : {
+         "use_fixed_value" : 1
+      },
+      "1479-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1555-11-01" : {
+         "use_fixed_value" : 1
+      },
+      "1555-12-01" : {
+         "use_fixed_value" : 1
+      },
+      "1773-03'-01" : {
+         "misc_note" : 1
+      },
+      "1775-12'-01" : {
+         "misc_note" : 1
+      },
+      "1786-10'-01" : {
+         "misc_note" : 1
+      }
+   }
+}
