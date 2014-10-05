@@ -175,7 +175,7 @@ sub isholiday ($$$) {
     
     return '神嘗祭' if $day == 17 && $d{M6} <= $time && $time < $d{M12};
   } elsif ($month == 10) {
-    return '体育の日' if $wday == $MONDAY && $day <= 8 && $day <= 14 &&
+    return '体育の日' if $wday == $MONDAY && 8 <= $day && $day <= 14 &&
                 $d{H10} <= $time;
     return '体育の日' if $day == 10 && $d{S41} <= $time && $time < $d{H10};
     return '振替休日' if $wday == $MONDAY && $day == 11 &&
