@@ -66,6 +66,7 @@ data/calendar/kyuureki-genten.json: bin/calendar-kyuureki-genten.pl
 
 local/leap-seconds.txt:
 	$(WGET) -O $@ http://www.ietf.org/timezones/data/leap-seconds.list
+	touch $@
 
 data/datetime/durations.json: bin/datetime-durations.pl
 	$(PERL) $< > $@
