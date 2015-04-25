@@ -50,6 +50,10 @@ A JSON object with following name/value pair:
 
         The locale identifier used in Java, if exists.
 
+      mysql [string?]
+
+        The locale identifier used in MySQL, if exists.
+
       ms [integer?]
 
         The Microsoft's locale ID (LCID), if exists.
@@ -66,6 +70,9 @@ Internationalizing Your App
 
 JDK 7 and JRE 7 Supported Locales
 <http://www.oracle.com/technetwork/java/javase/javase7locales-334809.html>.
+
+10.7 MySQL Server Locale Support
+<https://dev.mysql.com/doc/refman/5.6/en/locale-support.html>.
 
 Mozilla Firefox <ftp://archive.mozilla.org/pub/mozilla.org/firefox/>.
 
