@@ -61,13 +61,15 @@
          "bcp47_canonical" : "ar-AE",
          "cldr" : "ar_AE",
          "java" : "ar_AE",
-         "ms" : "14337"
+         "ms" : "14337",
+         "mysql" : "ar_AE"
       },
       "ar-bh" : {
          "bcp47_canonical" : "ar-BH",
          "cldr" : "ar_BH",
          "java" : "ar_BH",
-         "ms" : "15361"
+         "ms" : "15361",
+         "mysql" : "ar_BH"
       },
       "ar-dj" : {
          "bcp47_canonical" : "ar-DJ",
@@ -77,13 +79,15 @@
          "bcp47_canonical" : "ar-DZ",
          "cldr" : "ar_DZ",
          "java" : "ar_DZ",
-         "ms" : "5121"
+         "ms" : "5121",
+         "mysql" : "ar_DZ"
       },
       "ar-eg" : {
          "bcp47_canonical" : "ar-EG",
          "cldr" : "ar_EG",
          "java" : "ar_EG",
-         "ms" : "3073"
+         "ms" : "3073",
+         "mysql" : "ar_EG"
       },
       "ar-eh" : {
          "bcp47_canonical" : "ar-EH",
@@ -97,17 +101,23 @@
          "bcp47_canonical" : "ar-IL",
          "cldr" : "ar_IL"
       },
+      "ar-in" : {
+         "bcp47_canonical" : "ar-IN",
+         "mysql" : "ar_IN"
+      },
       "ar-iq" : {
          "bcp47_canonical" : "ar-IQ",
          "cldr" : "ar_IQ",
          "java" : "ar_IQ",
-         "ms" : "2049"
+         "ms" : "2049",
+         "mysql" : "ar_IQ"
       },
       "ar-jo" : {
          "bcp47_canonical" : "ar-JO",
          "cldr" : "ar_JO",
          "java" : "ar_JO",
-         "ms" : "11265"
+         "ms" : "11265",
+         "mysql" : "ar_JO"
       },
       "ar-km" : {
          "bcp47_canonical" : "ar-KM",
@@ -117,25 +127,29 @@
          "bcp47_canonical" : "ar-KW",
          "cldr" : "ar_KW",
          "java" : "ar_KW",
-         "ms" : "13313"
+         "ms" : "13313",
+         "mysql" : "ar_KW"
       },
       "ar-lb" : {
          "bcp47_canonical" : "ar-LB",
          "cldr" : "ar_LB",
          "java" : "ar_LB",
-         "ms" : "12289"
+         "ms" : "12289",
+         "mysql" : "ar_LB"
       },
       "ar-ly" : {
          "bcp47_canonical" : "ar-LY",
          "cldr" : "ar_LY",
          "java" : "ar_LY",
-         "ms" : "4097"
+         "ms" : "4097",
+         "mysql" : "ar_LY"
       },
       "ar-ma" : {
          "bcp47_canonical" : "ar-MA",
          "cldr" : "ar_MA",
          "java" : "ar_MA",
-         "ms" : "6145"
+         "ms" : "6145",
+         "mysql" : "ar_MA"
       },
       "ar-mr" : {
          "bcp47_canonical" : "ar-MR",
@@ -145,7 +159,8 @@
          "bcp47_canonical" : "ar-OM",
          "cldr" : "ar_OM",
          "java" : "ar_OM",
-         "ms" : "8193"
+         "ms" : "8193",
+         "mysql" : "ar_OM"
       },
       "ar-ps" : {
          "bcp47_canonical" : "ar-PS",
@@ -155,18 +170,21 @@
          "bcp47_canonical" : "ar-QA",
          "cldr" : "ar_QA",
          "java" : "ar_QA",
-         "ms" : "16385"
+         "ms" : "16385",
+         "mysql" : "ar_QA"
       },
       "ar-sa" : {
          "bcp47_canonical" : "ar-SA",
          "cldr" : "ar_SA",
          "java" : "ar_SA",
-         "ms" : "1025"
+         "ms" : "1025",
+         "mysql" : "ar_SA"
       },
       "ar-sd" : {
          "bcp47_canonical" : "ar-SD",
          "cldr" : "ar_SD",
-         "java" : "ar_SD"
+         "java" : "ar_SD",
+         "mysql" : "ar_SD"
       },
       "ar-so" : {
          "bcp47_canonical" : "ar-SO",
@@ -180,7 +198,8 @@
          "bcp47_canonical" : "ar-SY",
          "cldr" : "ar_SY",
          "java" : "ar_SY",
-         "ms" : "10241"
+         "ms" : "10241",
+         "mysql" : "ar_SY"
       },
       "ar-td" : {
          "bcp47_canonical" : "ar-TD",
@@ -190,13 +209,15 @@
          "bcp47_canonical" : "ar-TN",
          "cldr" : "ar_TN",
          "java" : "ar_TN",
-         "ms" : "7169"
+         "ms" : "7169",
+         "mysql" : "ar_TN"
       },
       "ar-ye" : {
          "bcp47_canonical" : "ar-YE",
          "cldr" : "ar_YE",
          "java" : "ar_YE",
-         "ms" : "9217"
+         "ms" : "9217",
+         "mysql" : "ar_YE"
       },
       "as" : {
          "bcp47_canonical" : "as",
@@ -262,7 +283,8 @@
       "be-by" : {
          "bcp47_canonical" : "be-BY",
          "cldr" : "be_BY",
-         "java" : "be_BY"
+         "java" : "be_BY",
+         "mysql" : "be_BY"
       },
       "bem" : {
          "bcp47_canonical" : "bem",
@@ -290,7 +312,8 @@
       "bg-bg" : {
          "bcp47_canonical" : "bg-BG",
          "cldr" : "bg_BG",
-         "java" : "bg_BG"
+         "java" : "bg_BG",
+         "mysql" : "bg_BG"
       },
       "bm" : {
          "bcp47_canonical" : "bm",
@@ -399,7 +422,8 @@
       "ca-es" : {
          "bcp47_canonical" : "ca-ES",
          "cldr" : "ca_ES",
-         "java" : "ca_ES"
+         "java" : "ca_ES",
+         "mysql" : "ca_ES"
       },
       "ca-es-valencia" : {
          "bcp47_canonical" : "ca-ES-valencia",
@@ -439,7 +463,8 @@
       "cs-cz" : {
          "bcp47_canonical" : "cs-CZ",
          "cldr" : "cs_CZ",
-         "java" : "cs_CZ"
+         "java" : "cs_CZ",
+         "mysql" : "cs_CZ"
       },
       "cy" : {
          "bcp47_canonical" : "cy",
@@ -460,7 +485,8 @@
       "da-dk" : {
          "bcp47_canonical" : "da-DK",
          "cldr" : "da_DK",
-         "java" : "da_DK"
+         "java" : "da_DK",
+         "mysql" : "da_DK"
       },
       "da-gl" : {
          "bcp47_canonical" : "da-GL",
@@ -485,22 +511,26 @@
          "bcp47_canonical" : "de-AT",
          "cldr" : "de_AT",
          "java" : "de_AT",
-         "ms" : "3079"
+         "ms" : "3079",
+         "mysql" : "de_AT"
       },
       "de-be" : {
          "bcp47_canonical" : "de-BE",
-         "cldr" : "de_BE"
+         "cldr" : "de_BE",
+         "mysql" : "de_BE"
       },
       "de-ch" : {
          "bcp47_canonical" : "de-CH",
          "cldr" : "de_CH",
          "java" : "de_CH",
-         "ms" : "2055"
+         "ms" : "2055",
+         "mysql" : "de_CH"
       },
       "de-de" : {
          "bcp47_canonical" : "de-DE",
          "cldr" : "de_DE",
-         "java" : "de_DE"
+         "java" : "de_DE",
+         "mysql" : "de_DE"
       },
       "de-li" : {
          "bcp47_canonical" : "de-LI",
@@ -511,7 +541,8 @@
          "bcp47_canonical" : "de-LU",
          "cldr" : "de_LU",
          "java" : "de_LU",
-         "ms" : "4103"
+         "ms" : "4103",
+         "mysql" : "de_LU"
       },
       "dje" : {
          "bcp47_canonical" : "dje",
@@ -589,7 +620,8 @@
       "el-gr" : {
          "bcp47_canonical" : "el-GR",
          "cldr" : "el_GR",
-         "java" : "el_GR"
+         "java" : "el_GR",
+         "mysql" : "el_GR"
       },
       "en" : {
          "bcp47_canonical" : "en",
@@ -620,7 +652,8 @@
          "bcp47_canonical" : "en-AU",
          "cldr" : "en_AU",
          "java" : "en_AU",
-         "ms" : "3081"
+         "ms" : "3081",
+         "mysql" : "en_AU"
       },
       "en-bb" : {
          "bcp47_canonical" : "en-BB",
@@ -651,7 +684,8 @@
          "bcp47_canonical" : "en-CA",
          "cldr" : "en_CA",
          "java" : "en_CA",
-         "ms" : "4105"
+         "ms" : "4105",
+         "mysql" : "en_CA"
       },
       "en-cc" : {
          "bcp47_canonical" : "en-CC",
@@ -699,7 +733,8 @@
          "cldr" : "en_GB",
          "firefox" : "en-GB",
          "java" : "en_GB",
-         "ms" : "2057"
+         "ms" : "2057",
+         "mysql" : "en_GB"
       },
       "en-gd" : {
          "bcp47_canonical" : "en-GD",
@@ -746,7 +781,8 @@
       "en-in" : {
          "bcp47_canonical" : "en-IN",
          "cldr" : "en_IN",
-         "java" : "en_IN"
+         "java" : "en_IN",
+         "mysql" : "en_IN"
       },
       "en-io" : {
          "bcp47_canonical" : "en-IO",
@@ -850,7 +886,8 @@
          "bcp47_canonical" : "en-NZ",
          "cldr" : "en_NZ",
          "java" : "en_NZ",
-         "ms" : "5129"
+         "ms" : "5129",
+         "mysql" : "en_NZ"
       },
       "en-pg" : {
          "bcp47_canonical" : "en-PG",
@@ -859,7 +896,8 @@
       "en-ph" : {
          "bcp47_canonical" : "en-PH",
          "cldr" : "en_PH",
-         "java" : "en_PH"
+         "java" : "en_PH",
+         "mysql" : "en_PH"
       },
       "en-pk" : {
          "bcp47_canonical" : "en-PK",
@@ -957,7 +995,8 @@
          "cldr" : "en_US",
          "firefox" : "en-US",
          "java" : "en_US",
-         "ms" : "1033"
+         "ms" : "1033",
+         "mysql" : "en_US"
       },
       "en-us-u-va-posix" : {
          "bcp47_canonical" : "en-US-u-va-posix",
@@ -988,7 +1027,8 @@
          "cldr" : "en_ZA",
          "firefox" : "en-ZA",
          "java" : "en_ZA",
-         "ms" : "7177"
+         "ms" : "7177",
+         "mysql" : "en_ZA"
       },
       "en-zm" : {
          "bcp47_canonical" : "en-ZM",
@@ -996,7 +1036,8 @@
       },
       "en-zw" : {
          "bcp47_canonical" : "en-ZW",
-         "cldr" : "en_ZW"
+         "cldr" : "en_ZW",
+         "mysql" : "en_ZW"
       },
       "eo" : {
          "bcp47_canonical" : "eo",
@@ -1023,32 +1064,37 @@
          "cldr" : "es_AR",
          "firefox" : "es-AR",
          "java" : "es_AR",
-         "ms" : "11274"
+         "ms" : "11274",
+         "mysql" : "es_AR"
       },
       "es-bo" : {
          "bcp47_canonical" : "es-BO",
          "cldr" : "es_BO",
          "java" : "es_BO",
-         "ms" : "16394"
+         "ms" : "16394",
+         "mysql" : "es_BO"
       },
       "es-cl" : {
          "bcp47_canonical" : "es-CL",
          "cldr" : "es_CL",
          "firefox" : "es-CL",
          "java" : "es_CL",
-         "ms" : "13322"
+         "ms" : "13322",
+         "mysql" : "es_CL"
       },
       "es-co" : {
          "bcp47_canonical" : "es-CO",
          "cldr" : "es_CO",
          "java" : "es_CO",
-         "ms" : "9226"
+         "ms" : "9226",
+         "mysql" : "es_CO"
       },
       "es-cr" : {
          "bcp47_canonical" : "es-CR",
          "cldr" : "es_CR",
          "java" : "es_CR",
-         "ms" : "5130"
+         "ms" : "5130",
+         "mysql" : "es_CR"
       },
       "es-cu" : {
          "bcp47_canonical" : "es-CU",
@@ -1058,7 +1104,8 @@
          "bcp47_canonical" : "es-DO",
          "cldr" : "es_DO",
          "java" : "es_DO",
-         "ms" : "7178"
+         "ms" : "7178",
+         "mysql" : "es_DO"
       },
       "es-ea" : {
          "bcp47_canonical" : "es-EA",
@@ -1068,13 +1115,15 @@
          "bcp47_canonical" : "es-EC",
          "cldr" : "es_EC",
          "java" : "es_EC",
-         "ms" : "12298"
+         "ms" : "12298",
+         "mysql" : "es_EC"
       },
       "es-es" : {
          "bcp47_canonical" : "es-ES",
          "cldr" : "es_ES",
          "firefox" : "es-ES",
-         "java" : "es_ES"
+         "java" : "es_ES",
+         "mysql" : "es_ES"
       },
       "es-gq" : {
          "bcp47_canonical" : "es-GQ",
@@ -1084,13 +1133,15 @@
          "bcp47_canonical" : "es-GT",
          "cldr" : "es_GT",
          "java" : "es_GT",
-         "ms" : "4106"
+         "ms" : "4106",
+         "mysql" : "es_GT"
       },
       "es-hn" : {
          "bcp47_canonical" : "es-HN",
          "cldr" : "es_HN",
          "java" : "es_HN",
-         "ms" : "18442"
+         "ms" : "18442",
+         "mysql" : "es_HN"
       },
       "es-ic" : {
          "bcp47_canonical" : "es-IC",
@@ -1101,25 +1152,29 @@
          "cldr" : "es_MX",
          "firefox" : "es-MX",
          "java" : "es_MX",
-         "ms" : "2058"
+         "ms" : "2058",
+         "mysql" : "es_MX"
       },
       "es-ni" : {
          "bcp47_canonical" : "es-NI",
          "cldr" : "es_NI",
          "java" : "es_NI",
-         "ms" : "19466"
+         "ms" : "19466",
+         "mysql" : "es_NI"
       },
       "es-pa" : {
          "bcp47_canonical" : "es-PA",
          "cldr" : "es_PA",
          "java" : "es_PA",
-         "ms" : "6154"
+         "ms" : "6154",
+         "mysql" : "es_PA"
       },
       "es-pe" : {
          "bcp47_canonical" : "es-PE",
          "cldr" : "es_PE",
          "java" : "es_PE",
-         "ms" : "10250"
+         "ms" : "10250",
+         "mysql" : "es_PE"
       },
       "es-ph" : {
          "bcp47_canonical" : "es-PH",
@@ -1129,36 +1184,42 @@
          "bcp47_canonical" : "es-PR",
          "cldr" : "es_PR",
          "java" : "es_PR",
-         "ms" : "20490"
+         "ms" : "20490",
+         "mysql" : "es_PR"
       },
       "es-py" : {
          "bcp47_canonical" : "es-PY",
          "cldr" : "es_PY",
          "java" : "es_PY",
-         "ms" : "15370"
+         "ms" : "15370",
+         "mysql" : "es_PY"
       },
       "es-sv" : {
          "bcp47_canonical" : "es-SV",
          "cldr" : "es_SV",
          "java" : "es_SV",
-         "ms" : "17418"
+         "ms" : "17418",
+         "mysql" : "es_SV"
       },
       "es-us" : {
          "bcp47_canonical" : "es-US",
          "cldr" : "es_US",
-         "java" : "es_US"
+         "java" : "es_US",
+         "mysql" : "es_US"
       },
       "es-uy" : {
          "bcp47_canonical" : "es-UY",
          "cldr" : "es_UY",
          "java" : "es_UY",
-         "ms" : "14346"
+         "ms" : "14346",
+         "mysql" : "es_UY"
       },
       "es-ve" : {
          "bcp47_canonical" : "es-VE",
          "cldr" : "es_VE",
          "java" : "es_VE",
-         "ms" : "8202"
+         "ms" : "8202",
+         "mysql" : "es_VE"
       },
       "et" : {
          "bcp47_canonical" : "et",
@@ -1170,7 +1231,8 @@
       "et-ee" : {
          "bcp47_canonical" : "et-EE",
          "cldr" : "et_EE",
-         "java" : "et_EE"
+         "java" : "et_EE",
+         "mysql" : "et_EE"
       },
       "eu" : {
          "bcp47_canonical" : "eu",
@@ -1180,7 +1242,8 @@
       },
       "eu-es" : {
          "bcp47_canonical" : "eu-ES",
-         "cldr" : "eu_ES"
+         "cldr" : "eu_ES",
+         "mysql" : "eu_ES"
       },
       "ewo" : {
          "bcp47_canonical" : "ewo",
@@ -1236,7 +1299,8 @@
       "fi-fi" : {
          "bcp47_canonical" : "fi-FI",
          "cldr" : "fi_FI",
-         "java" : "fi_FI"
+         "java" : "fi_FI",
+         "mysql" : "fi_FI"
       },
       "fil" : {
          "bcp47_canonical" : "fil",
@@ -1254,7 +1318,8 @@
       },
       "fo-fo" : {
          "bcp47_canonical" : "fo-FO",
-         "cldr" : "fo_FO"
+         "cldr" : "fo_FO",
+         "mysql" : "fo_FO"
       },
       "fr" : {
          "bcp47_canonical" : "fr",
@@ -1267,7 +1332,8 @@
          "bcp47_canonical" : "fr-BE",
          "cldr" : "fr_BE",
          "java" : "fr_BE",
-         "ms" : "2060"
+         "ms" : "2060",
+         "mysql" : "fr_BE"
       },
       "fr-bf" : {
          "bcp47_canonical" : "fr-BF",
@@ -1289,7 +1355,8 @@
          "bcp47_canonical" : "fr-CA",
          "cldr" : "fr_CA",
          "java" : "fr_CA",
-         "ms" : "3084"
+         "ms" : "3084",
+         "mysql" : "fr_CA"
       },
       "fr-cd" : {
          "bcp47_canonical" : "fr-CD",
@@ -1307,7 +1374,8 @@
          "bcp47_canonical" : "fr-CH",
          "cldr" : "fr_CH",
          "java" : "fr_CH",
-         "ms" : "4108"
+         "ms" : "4108",
+         "mysql" : "fr_CH"
       },
       "fr-ci" : {
          "bcp47_canonical" : "fr-CI",
@@ -1328,7 +1396,8 @@
       "fr-fr" : {
          "bcp47_canonical" : "fr-FR",
          "cldr" : "fr_FR",
-         "java" : "fr_FR"
+         "java" : "fr_FR",
+         "mysql" : "fr_FR"
       },
       "fr-ga" : {
          "bcp47_canonical" : "fr-GA",
@@ -1362,7 +1431,8 @@
          "bcp47_canonical" : "fr-LU",
          "cldr" : "fr_LU",
          "java" : "fr_LU",
-         "ms" : "5132"
+         "ms" : "5132",
+         "mysql" : "fr_LU"
       },
       "fr-ma" : {
          "bcp47_canonical" : "fr-MA",
@@ -1500,7 +1570,8 @@
       },
       "gl-es" : {
          "bcp47_canonical" : "gl-ES",
-         "cldr" : "gl_ES"
+         "cldr" : "gl_ES",
+         "mysql" : "gl_ES"
       },
       "gsw" : {
          "bcp47_canonical" : "gsw",
@@ -1526,7 +1597,8 @@
       "gu-in" : {
          "bcp47_canonical" : "gu-IN",
          "cldr" : "gu_IN",
-         "firefox" : "gu-IN"
+         "firefox" : "gu-IN",
+         "mysql" : "gu_IN"
       },
       "guz" : {
          "bcp47_canonical" : "guz",
@@ -1581,7 +1653,8 @@
       },
       "he-il" : {
          "bcp47_canonical" : "he-IL",
-         "cldr" : "he_IL"
+         "cldr" : "he_IL",
+         "mysql" : "he_IL"
       },
       "hi" : {
          "bcp47_canonical" : "hi",
@@ -1593,7 +1666,8 @@
          "bcp47_canonical" : "hi-IN",
          "cldr" : "hi_IN",
          "firefox" : "hi-IN",
-         "java" : "hi_IN"
+         "java" : "hi_IN",
+         "mysql" : "hi_IN"
       },
       "hr" : {
          "bcp47_canonical" : "hr",
@@ -1609,7 +1683,8 @@
       "hr-hr" : {
          "bcp47_canonical" : "hr-HR",
          "cldr" : "hr_HR",
-         "java" : "hr_HR"
+         "java" : "hr_HR",
+         "mysql" : "hr_HR"
       },
       "hsb" : {
          "bcp47_canonical" : "hsb",
@@ -1630,7 +1705,8 @@
       "hu-hu" : {
          "bcp47_canonical" : "hu-HU",
          "cldr" : "hu_HU",
-         "java" : "hu_HU"
+         "java" : "hu_HU",
+         "mysql" : "hu_HU"
       },
       "hy" : {
          "bcp47_canonical" : "hy",
@@ -1649,7 +1725,8 @@
       },
       "id-id" : {
          "bcp47_canonical" : "id-ID",
-         "cldr" : "id_ID"
+         "cldr" : "id_ID",
+         "mysql" : "id_ID"
       },
       "ig" : {
          "bcp47_canonical" : "ig",
@@ -1700,7 +1777,8 @@
       "is-is" : {
          "bcp47_canonical" : "is-IS",
          "cldr" : "is_IS",
-         "java" : "is_IS"
+         "java" : "is_IS",
+         "mysql" : "is_IS"
       },
       "it" : {
          "bcp47_canonical" : "it",
@@ -1713,12 +1791,14 @@
          "bcp47_canonical" : "it-CH",
          "cldr" : "it_CH",
          "java" : "it_CH",
-         "ms" : "2064"
+         "ms" : "2064",
+         "mysql" : "it_CH"
       },
       "it-it" : {
          "bcp47_canonical" : "it-IT",
          "cldr" : "it_IT",
-         "java" : "it_IT"
+         "java" : "it_IT",
+         "mysql" : "it_IT"
       },
       "it-sm" : {
          "bcp47_canonical" : "it-SM",
@@ -1746,7 +1826,8 @@
       "ja-jp" : {
          "bcp47_canonical" : "ja-JP",
          "cldr" : "ja_JP",
-         "java" : "ja_JP"
+         "java" : "ja_JP",
+         "mysql" : "ja_JP"
       },
       "ja-jp-u-ca-japanese" : {
          "bcp47_canonical" : "ja-JP-u-ca-japanese",
@@ -1922,7 +2003,8 @@
       "ko-kr" : {
          "bcp47_canonical" : "ko-KR",
          "cldr" : "ko_KR",
-         "java" : "ko_KR"
+         "java" : "ko_KR",
+         "mysql" : "ko_KR"
       },
       "kok" : {
          "bcp47_canonical" : "kok",
@@ -2062,7 +2144,8 @@
       "lt-lt" : {
          "bcp47_canonical" : "lt-LT",
          "cldr" : "lt_LT",
-         "java" : "lt_LT"
+         "java" : "lt_LT",
+         "mysql" : "lt_LT"
       },
       "lu" : {
          "bcp47_canonical" : "lu",
@@ -2098,7 +2181,8 @@
       "lv-lv" : {
          "bcp47_canonical" : "lv-LV",
          "cldr" : "lv_LV",
-         "java" : "lv_LV"
+         "java" : "lv_LV",
+         "mysql" : "lv_LV"
       },
       "mai" : {
          "bcp47_canonical" : "mai",
@@ -2165,7 +2249,8 @@
       "mk-mk" : {
          "bcp47_canonical" : "mk-MK",
          "cldr" : "mk_MK",
-         "java" : "mk_MK"
+         "java" : "mk_MK",
+         "mysql" : "mk_MK"
       },
       "ml" : {
          "bcp47_canonical" : "ml",
@@ -2188,6 +2273,10 @@
       "mn-cyrl-mn" : {
          "bcp47_canonical" : "mn-Cyrl-MN",
          "cldr" : "mn_Cyrl_MN"
+      },
+      "mn-mn" : {
+         "bcp47_canonical" : "mn-MN",
+         "mysql" : "mn_MN"
       },
       "mr" : {
          "bcp47_canonical" : "mr",
@@ -2256,7 +2345,8 @@
       },
       "ms-my" : {
          "bcp47_canonical" : "ms-MY",
-         "java" : "ms_MY"
+         "java" : "ms_MY",
+         "mysql" : "ms_MY"
       },
       "mt" : {
          "bcp47_canonical" : "mt",
@@ -2300,7 +2390,8 @@
       "nb-no" : {
          "bcp47_canonical" : "nb-NO",
          "cldr" : "nb_NO",
-         "firefox" : "nb-NO"
+         "firefox" : "nb-NO",
+         "mysql" : "nb_NO"
       },
       "nb-sj" : {
          "bcp47_canonical" : "nb-SJ",
@@ -2341,7 +2432,8 @@
          "bcp47_canonical" : "nl-BE",
          "cldr" : "nl_BE",
          "java" : "nl_BE",
-         "ms" : "2067"
+         "ms" : "2067",
+         "mysql" : "nl_BE"
       },
       "nl-bq" : {
          "bcp47_canonical" : "nl-BQ",
@@ -2354,7 +2446,8 @@
       "nl-nl" : {
          "bcp47_canonical" : "nl-NL",
          "cldr" : "nl_NL",
-         "java" : "nl_NL"
+         "java" : "nl_NL",
+         "mysql" : "nl_NL"
       },
       "nl-sr" : {
          "bcp47_canonical" : "nl-SR",
@@ -2394,6 +2487,10 @@
          "bcp47_canonical" : "no",
          "chrome_web_store" : "no",
          "ms" : "1044"
+      },
+      "no-no" : {
+         "bcp47_canonical" : "no-NO",
+         "mysql" : "no_NO"
       },
       "nus" : {
          "bcp47_canonical" : "nus",
@@ -2494,7 +2591,8 @@
       "pl-pl" : {
          "bcp47_canonical" : "pl-PL",
          "cldr" : "pl_PL",
-         "java" : "pl_PL"
+         "java" : "pl_PL",
+         "mysql" : "pl_PL"
       },
       "ps" : {
          "bcp47_canonical" : "ps",
@@ -2519,7 +2617,8 @@
          "cldr" : "pt_BR",
          "firefox" : "pt-BR",
          "java" : "pt_BR",
-         "ms" : "1046"
+         "ms" : "1046",
+         "mysql" : "pt_BR"
       },
       "pt-cv" : {
          "bcp47_canonical" : "pt-CV",
@@ -2542,7 +2641,8 @@
          "chrome_web_store" : "pt_PT",
          "cldr" : "pt_PT",
          "firefox" : "pt-PT",
-         "java" : "pt_PT"
+         "java" : "pt_PT",
+         "mysql" : "pt_PT"
       },
       "pt-st" : {
          "bcp47_canonical" : "pt-ST",
@@ -2576,7 +2676,8 @@
       },
       "rm-ch" : {
          "bcp47_canonical" : "rm-CH",
-         "cldr" : "rm_CH"
+         "cldr" : "rm_CH",
+         "mysql" : "rm_CH"
       },
       "rn" : {
          "bcp47_canonical" : "rn",
@@ -2604,7 +2705,8 @@
       "ro-ro" : {
          "bcp47_canonical" : "ro-RO",
          "cldr" : "ro_RO",
-         "java" : "ro_RO"
+         "java" : "ro_RO",
+         "mysql" : "ro_RO"
       },
       "rof" : {
          "bcp47_canonical" : "rof",
@@ -2644,11 +2746,13 @@
       "ru-ru" : {
          "bcp47_canonical" : "ru-RU",
          "cldr" : "ru_RU",
-         "java" : "ru_RU"
+         "java" : "ru_RU",
+         "mysql" : "ru_RU"
       },
       "ru-ua" : {
          "bcp47_canonical" : "ru-UA",
-         "cldr" : "ru_UA"
+         "cldr" : "ru_UA",
+         "mysql" : "ru_UA"
       },
       "rw" : {
          "bcp47_canonical" : "rw",
@@ -2780,7 +2884,8 @@
       "sk-sk" : {
          "bcp47_canonical" : "sk-SK",
          "cldr" : "sk_SK",
-         "java" : "sk_SK"
+         "java" : "sk_SK",
+         "mysql" : "sk_SK"
       },
       "sl" : {
          "bcp47_canonical" : "sl",
@@ -2792,7 +2897,8 @@
       "sl-si" : {
          "bcp47_canonical" : "sl-SI",
          "cldr" : "sl_SI",
-         "java" : "sl_SI"
+         "java" : "sl_SI",
+         "mysql" : "sl_SI"
       },
       "smn" : {
          "bcp47_canonical" : "smn",
@@ -2843,7 +2949,8 @@
       "sq-al" : {
          "bcp47_canonical" : "sq-AL",
          "cldr" : "sq_AL",
-         "java" : "sq_AL"
+         "java" : "sq_AL",
+         "mysql" : "sq_AL"
       },
       "sq-mk" : {
          "bcp47_canonical" : "sq-MK",
@@ -2913,7 +3020,8 @@
       },
       "sr-rs" : {
          "bcp47_canonical" : "sr-RS",
-         "java" : "sr_RS"
+         "java" : "sr_RS",
+         "mysql" : "sr_RS"
       },
       "sv" : {
          "bcp47_canonical" : "sv",
@@ -2928,13 +3036,15 @@
       "sv-fi" : {
          "bcp47_canonical" : "sv-FI",
          "cldr" : "sv_FI",
-         "ms" : "2077"
+         "ms" : "2077",
+         "mysql" : "sv_FI"
       },
       "sv-se" : {
          "bcp47_canonical" : "sv-SE",
          "cldr" : "sv_SE",
          "firefox" : "sv-SE",
-         "java" : "sv_SE"
+         "java" : "sv_SE",
+         "mysql" : "sv_SE"
       },
       "sw" : {
          "bcp47_canonical" : "sw",
@@ -2976,7 +3086,8 @@
       },
       "ta-in" : {
          "bcp47_canonical" : "ta-IN",
-         "cldr" : "ta_IN"
+         "cldr" : "ta_IN",
+         "mysql" : "ta_IN"
       },
       "ta-lk" : {
          "bcp47_canonical" : "ta-LK",
@@ -2998,7 +3109,8 @@
       },
       "te-in" : {
          "bcp47_canonical" : "te-IN",
-         "cldr" : "te_IN"
+         "cldr" : "te_IN",
+         "mysql" : "te_IN"
       },
       "teo" : {
          "bcp47_canonical" : "teo",
@@ -3022,7 +3134,8 @@
       "th-th" : {
          "bcp47_canonical" : "th-TH",
          "cldr" : "th_TH",
-         "java" : "th_TH"
+         "java" : "th_TH",
+         "mysql" : "th_TH"
       },
       "th-th-u-nu-thai" : {
          "bcp47_canonical" : "th-TH-u-nu-thai",
@@ -3066,7 +3179,8 @@
       "tr-tr" : {
          "bcp47_canonical" : "tr-TR",
          "cldr" : "tr_TR",
-         "java" : "tr_TR"
+         "java" : "tr_TR",
+         "mysql" : "tr_TR"
       },
       "ts" : {
          "bcp47_canonical" : "ts",
@@ -3114,7 +3228,8 @@
       "uk-ua" : {
          "bcp47_canonical" : "uk-UA",
          "cldr" : "uk_UA",
-         "java" : "uk_UA"
+         "java" : "uk_UA",
+         "mysql" : "uk_UA"
       },
       "und" : {
          "bcp47_canonical" : "und",
@@ -3137,7 +3252,8 @@
       },
       "ur-pk" : {
          "bcp47_canonical" : "ur-PK",
-         "cldr" : "ur_PK"
+         "cldr" : "ur_PK",
+         "mysql" : "ur_PK"
       },
       "uz" : {
          "bcp47_canonical" : "uz",
@@ -3198,7 +3314,8 @@
       "vi-vn" : {
          "bcp47_canonical" : "vi-VN",
          "cldr" : "vi_VN",
-         "java" : "vi_VN"
+         "java" : "vi_VN",
+         "mysql" : "vi_VN"
       },
       "vun" : {
          "bcp47_canonical" : "vun",
@@ -3274,7 +3391,8 @@
          "chrome_web_store" : "zh_CN",
          "firefox" : "zh-CN",
          "java" : "zh_CN",
-         "ms" : "2052"
+         "ms" : "2052",
+         "mysql" : "zh_CN"
       },
       "zh-hans" : {
          "bcp47_canonical" : "zh-Hans",
@@ -3315,7 +3433,8 @@
       "zh-hk" : {
          "bcp47_canonical" : "zh-HK",
          "java" : "zh_HK",
-         "ms" : "3076"
+         "ms" : "3076",
+         "mysql" : "zh_HK"
       },
       "zh-sg" : {
          "bcp47_canonical" : "zh-SG",
@@ -3327,7 +3446,8 @@
          "chrome_web_store" : "zh_TW",
          "firefox" : "zh-TW",
          "java" : "zh_TW",
-         "ms" : "1028"
+         "ms" : "1028",
+         "mysql" : "zh_TW"
       },
       "zu" : {
          "bcp47_canonical" : "zu",
