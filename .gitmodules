@@ -1,0 +1,3 @@
+[submodule "bin/modules/web-langtag"]
+	path = bin/modules/web-langtag
+	url = git://github.com/manakai/perl-web-langtag

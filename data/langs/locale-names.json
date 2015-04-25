@@ -1,536 +1,700 @@
 {
    "tags" : {
       "ach" : {
+         "bcp47_canonical" : "ach",
          "firefox" : "ach"
       },
       "af" : {
+         "bcp47_canonical" : "af",
          "cldr" : "af",
          "firefox" : "af",
          "ms" : "1078"
       },
       "af-na" : {
+         "bcp47_canonical" : "af-NA",
          "cldr" : "af_NA"
       },
       "af-za" : {
+         "bcp47_canonical" : "af-ZA",
          "cldr" : "af_ZA"
       },
       "agq" : {
+         "bcp47_canonical" : "agq",
          "cldr" : "agq"
       },
       "agq-cm" : {
+         "bcp47_canonical" : "agq-CM",
          "cldr" : "agq_CM"
       },
       "ak" : {
+         "bcp47_canonical" : "ak",
          "cldr" : "ak"
       },
       "ak-gh" : {
+         "bcp47_canonical" : "ak-GH",
          "cldr" : "ak_GH"
       },
       "am" : {
+         "bcp47_canonical" : "am",
          "chrome_web_store" : "am",
          "cldr" : "am"
       },
       "am-et" : {
+         "bcp47_canonical" : "am-ET",
          "cldr" : "am_ET"
       },
       "an" : {
+         "bcp47_canonical" : "an",
          "firefox" : "an"
       },
       "ar" : {
+         "bcp47_canonical" : "ar",
          "chrome_web_store" : "ar",
          "cldr" : "ar",
          "firefox" : "ar"
       },
       "ar-001" : {
+         "bcp47_canonical" : "ar-001",
          "cldr" : "ar_001"
       },
       "ar-ae" : {
+         "bcp47_canonical" : "ar-AE",
          "cldr" : "ar_AE",
          "java" : "ar_AE",
          "ms" : "14337"
       },
       "ar-bh" : {
+         "bcp47_canonical" : "ar-BH",
          "cldr" : "ar_BH",
          "java" : "ar_BH",
          "ms" : "15361"
       },
       "ar-dj" : {
+         "bcp47_canonical" : "ar-DJ",
          "cldr" : "ar_DJ"
       },
       "ar-dz" : {
+         "bcp47_canonical" : "ar-DZ",
          "cldr" : "ar_DZ",
          "java" : "ar_DZ",
          "ms" : "5121"
       },
       "ar-eg" : {
+         "bcp47_canonical" : "ar-EG",
          "cldr" : "ar_EG",
          "java" : "ar_EG",
          "ms" : "3073"
       },
       "ar-eh" : {
+         "bcp47_canonical" : "ar-EH",
          "cldr" : "ar_EH"
       },
       "ar-er" : {
+         "bcp47_canonical" : "ar-ER",
          "cldr" : "ar_ER"
       },
       "ar-il" : {
+         "bcp47_canonical" : "ar-IL",
          "cldr" : "ar_IL"
       },
       "ar-iq" : {
+         "bcp47_canonical" : "ar-IQ",
          "cldr" : "ar_IQ",
          "java" : "ar_IQ",
          "ms" : "2049"
       },
       "ar-jo" : {
+         "bcp47_canonical" : "ar-JO",
          "cldr" : "ar_JO",
          "java" : "ar_JO",
          "ms" : "11265"
       },
       "ar-km" : {
+         "bcp47_canonical" : "ar-KM",
          "cldr" : "ar_KM"
       },
       "ar-kw" : {
+         "bcp47_canonical" : "ar-KW",
          "cldr" : "ar_KW",
          "java" : "ar_KW",
          "ms" : "13313"
       },
       "ar-lb" : {
+         "bcp47_canonical" : "ar-LB",
          "cldr" : "ar_LB",
          "java" : "ar_LB",
          "ms" : "12289"
       },
       "ar-ly" : {
+         "bcp47_canonical" : "ar-LY",
          "cldr" : "ar_LY",
          "java" : "ar_LY",
          "ms" : "4097"
       },
       "ar-ma" : {
+         "bcp47_canonical" : "ar-MA",
          "cldr" : "ar_MA",
          "java" : "ar_MA",
          "ms" : "6145"
       },
       "ar-mr" : {
+         "bcp47_canonical" : "ar-MR",
          "cldr" : "ar_MR"
       },
       "ar-om" : {
+         "bcp47_canonical" : "ar-OM",
          "cldr" : "ar_OM",
          "java" : "ar_OM",
          "ms" : "8193"
       },
       "ar-ps" : {
+         "bcp47_canonical" : "ar-PS",
          "cldr" : "ar_PS"
       },
       "ar-qa" : {
+         "bcp47_canonical" : "ar-QA",
          "cldr" : "ar_QA",
          "java" : "ar_QA",
          "ms" : "16385"
       },
       "ar-sa" : {
+         "bcp47_canonical" : "ar-SA",
          "cldr" : "ar_SA",
          "java" : "ar_SA",
          "ms" : "1025"
       },
       "ar-sd" : {
+         "bcp47_canonical" : "ar-SD",
          "cldr" : "ar_SD",
          "java" : "ar_SD"
       },
       "ar-so" : {
+         "bcp47_canonical" : "ar-SO",
          "cldr" : "ar_SO"
       },
       "ar-ss" : {
+         "bcp47_canonical" : "ar-SS",
          "cldr" : "ar_SS"
       },
       "ar-sy" : {
+         "bcp47_canonical" : "ar-SY",
          "cldr" : "ar_SY",
          "java" : "ar_SY",
          "ms" : "10241"
       },
       "ar-td" : {
+         "bcp47_canonical" : "ar-TD",
          "cldr" : "ar_TD"
       },
       "ar-tn" : {
+         "bcp47_canonical" : "ar-TN",
          "cldr" : "ar_TN",
          "java" : "ar_TN",
          "ms" : "7169"
       },
       "ar-ye" : {
+         "bcp47_canonical" : "ar-YE",
          "cldr" : "ar_YE",
          "java" : "ar_YE",
          "ms" : "9217"
       },
       "as" : {
+         "bcp47_canonical" : "as",
          "cldr" : "as",
          "firefox" : "as"
       },
       "as-in" : {
+         "bcp47_canonical" : "as-IN",
          "cldr" : "as_IN"
       },
       "asa" : {
+         "bcp47_canonical" : "asa",
          "cldr" : "asa"
       },
       "asa-tz" : {
+         "bcp47_canonical" : "asa-TZ",
          "cldr" : "asa_TZ"
       },
       "ast" : {
+         "bcp47_canonical" : "ast",
          "cldr" : "ast",
          "firefox" : "ast"
       },
       "ast-es" : {
+         "bcp47_canonical" : "ast-ES",
          "cldr" : "ast_ES"
       },
       "az" : {
+         "bcp47_canonical" : "az",
          "cldr" : "az",
          "firefox" : "az"
       },
       "az-cyrl" : {
+         "bcp47_canonical" : "az-Cyrl",
          "cldr" : "az_Cyrl"
       },
       "az-cyrl-az" : {
+         "bcp47_canonical" : "az-Cyrl-AZ",
          "cldr" : "az_Cyrl_AZ"
       },
       "az-latn" : {
+         "bcp47_canonical" : "az-Latn",
          "cldr" : "az_Latn"
       },
       "az-latn-az" : {
+         "bcp47_canonical" : "az-Latn-AZ",
          "cldr" : "az_Latn_AZ"
       },
       "bas" : {
+         "bcp47_canonical" : "bas",
          "cldr" : "bas"
       },
       "bas-cm" : {
+         "bcp47_canonical" : "bas-CM",
          "cldr" : "bas_CM"
       },
       "be" : {
+         "bcp47_canonical" : "be",
          "cldr" : "be",
          "firefox" : "be",
          "ms" : "1059"
       },
       "be-by" : {
+         "bcp47_canonical" : "be-BY",
          "cldr" : "be_BY",
          "java" : "be_BY"
       },
       "bem" : {
+         "bcp47_canonical" : "bem",
          "cldr" : "bem"
       },
       "bem-zm" : {
+         "bcp47_canonical" : "bem-ZM",
          "cldr" : "bem_ZM"
       },
       "bez" : {
+         "bcp47_canonical" : "bez",
          "cldr" : "bez"
       },
       "bez-tz" : {
+         "bcp47_canonical" : "bez-TZ",
          "cldr" : "bez_TZ"
       },
       "bg" : {
+         "bcp47_canonical" : "bg",
          "chrome_web_store" : "bg",
          "cldr" : "bg",
          "firefox" : "bg",
          "ms" : "1026"
       },
       "bg-bg" : {
+         "bcp47_canonical" : "bg-BG",
          "cldr" : "bg_BG",
          "java" : "bg_BG"
       },
       "bm" : {
+         "bcp47_canonical" : "bm",
          "cldr" : "bm"
       },
       "bm-latn" : {
+         "bcp47_canonical" : "bm-Latn",
          "cldr" : "bm_Latn"
       },
       "bm-latn-ml" : {
+         "bcp47_canonical" : "bm-Latn-ML",
          "cldr" : "bm_Latn_ML"
       },
       "bn" : {
+         "bcp47_canonical" : "bn",
          "chrome_web_store" : "bn",
          "cldr" : "bn"
       },
       "bn-bd" : {
+         "bcp47_canonical" : "bn-BD",
          "cldr" : "bn_BD",
          "firefox" : "bn-BD"
       },
       "bn-in" : {
+         "bcp47_canonical" : "bn-IN",
          "cldr" : "bn_IN",
          "firefox" : "bn-IN"
       },
       "bo" : {
+         "bcp47_canonical" : "bo",
          "cldr" : "bo"
       },
       "bo-cn" : {
+         "bcp47_canonical" : "bo-CN",
          "cldr" : "bo_CN"
       },
       "bo-in" : {
+         "bcp47_canonical" : "bo-IN",
          "cldr" : "bo_IN"
       },
       "br" : {
+         "bcp47_canonical" : "br",
          "cldr" : "br",
          "firefox" : "br"
       },
       "br-fr" : {
+         "bcp47_canonical" : "br-FR",
          "cldr" : "br_FR"
       },
       "brx" : {
+         "bcp47_canonical" : "brx",
          "cldr" : "brx"
       },
       "brx-in" : {
+         "bcp47_canonical" : "brx-IN",
          "cldr" : "brx_IN"
       },
       "bs" : {
+         "bcp47_canonical" : "bs",
          "cldr" : "bs",
          "firefox" : "bs"
       },
       "bs-cyrl" : {
+         "bcp47_canonical" : "bs-Cyrl",
          "cldr" : "bs_Cyrl"
       },
       "bs-cyrl-ba" : {
+         "bcp47_canonical" : "bs-Cyrl-BA",
          "cldr" : "bs_Cyrl_BA"
       },
       "bs-latn" : {
+         "bcp47_canonical" : "bs",
+         "bcp47_errors" : [
+            {
+               "level" : "s",
+               "text" : "bs",
+               "type" : "langtag:script:suppress",
+               "value" : "latn"
+            }
+         ],
          "cldr" : "bs_Latn"
       },
       "bs-latn-ba" : {
+         "bcp47_canonical" : "bs-BA",
+         "bcp47_errors" : [
+            {
+               "level" : "s",
+               "text" : "bs",
+               "type" : "langtag:script:suppress",
+               "value" : "latn"
+            }
+         ],
          "cldr" : "bs_Latn_BA"
       },
       "ca" : {
+         "bcp47_canonical" : "ca",
          "chrome_web_store" : "ca",
          "cldr" : "ca",
          "firefox" : "ca",
          "ms" : "1027"
       },
       "ca-ad" : {
+         "bcp47_canonical" : "ca-AD",
          "cldr" : "ca_AD"
       },
       "ca-es" : {
+         "bcp47_canonical" : "ca-ES",
          "cldr" : "ca_ES",
          "java" : "ca_ES"
       },
       "ca-es-valencia" : {
+         "bcp47_canonical" : "ca-ES-valencia",
          "cldr" : "ca_ES_VALENCIA"
       },
       "ca-fr" : {
+         "bcp47_canonical" : "ca-FR",
          "cldr" : "ca_FR"
       },
       "ca-it" : {
+         "bcp47_canonical" : "ca-IT",
          "cldr" : "ca_IT"
       },
       "cgg" : {
+         "bcp47_canonical" : "cgg",
          "cldr" : "cgg"
       },
       "cgg-ug" : {
+         "bcp47_canonical" : "cgg-UG",
          "cldr" : "cgg_UG"
       },
       "chr" : {
+         "bcp47_canonical" : "chr",
          "cldr" : "chr"
       },
       "chr-us" : {
+         "bcp47_canonical" : "chr-US",
          "cldr" : "chr_US"
       },
       "cs" : {
+         "bcp47_canonical" : "cs",
          "chrome_web_store" : "cs",
          "cldr" : "cs",
          "firefox" : "cs",
          "ms" : "1029"
       },
       "cs-cz" : {
+         "bcp47_canonical" : "cs-CZ",
          "cldr" : "cs_CZ",
          "java" : "cs_CZ"
       },
       "cy" : {
+         "bcp47_canonical" : "cy",
          "cldr" : "cy",
          "firefox" : "cy"
       },
       "cy-gb" : {
+         "bcp47_canonical" : "cy-GB",
          "cldr" : "cy_GB"
       },
       "da" : {
+         "bcp47_canonical" : "da",
          "chrome_web_store" : "da",
          "cldr" : "da",
          "firefox" : "da",
          "ms" : "1030"
       },
       "da-dk" : {
+         "bcp47_canonical" : "da-DK",
          "cldr" : "da_DK",
          "java" : "da_DK"
       },
       "da-gl" : {
+         "bcp47_canonical" : "da-GL",
          "cldr" : "da_GL"
       },
       "dav" : {
+         "bcp47_canonical" : "dav",
          "cldr" : "dav"
       },
       "dav-ke" : {
+         "bcp47_canonical" : "dav-KE",
          "cldr" : "dav_KE"
       },
       "de" : {
+         "bcp47_canonical" : "de",
          "chrome_web_store" : "de",
          "cldr" : "de",
          "firefox" : "de",
          "ms" : "1031"
       },
       "de-at" : {
+         "bcp47_canonical" : "de-AT",
          "cldr" : "de_AT",
          "java" : "de_AT",
          "ms" : "3079"
       },
       "de-be" : {
+         "bcp47_canonical" : "de-BE",
          "cldr" : "de_BE"
       },
       "de-ch" : {
+         "bcp47_canonical" : "de-CH",
          "cldr" : "de_CH",
          "java" : "de_CH",
          "ms" : "2055"
       },
       "de-de" : {
+         "bcp47_canonical" : "de-DE",
          "cldr" : "de_DE",
          "java" : "de_DE"
       },
       "de-li" : {
+         "bcp47_canonical" : "de-LI",
          "cldr" : "de_LI",
          "ms" : "5127"
       },
       "de-lu" : {
+         "bcp47_canonical" : "de-LU",
          "cldr" : "de_LU",
          "java" : "de_LU",
          "ms" : "4103"
       },
       "dje" : {
+         "bcp47_canonical" : "dje",
          "cldr" : "dje"
       },
       "dje-ne" : {
+         "bcp47_canonical" : "dje-NE",
          "cldr" : "dje_NE"
       },
       "dsb" : {
+         "bcp47_canonical" : "dsb",
          "cldr" : "dsb",
          "firefox" : "dsb"
       },
       "dsb-de" : {
+         "bcp47_canonical" : "dsb-DE",
          "cldr" : "dsb_DE"
       },
       "dua" : {
+         "bcp47_canonical" : "dua",
          "cldr" : "dua"
       },
       "dua-cm" : {
+         "bcp47_canonical" : "dua-CM",
          "cldr" : "dua_CM"
       },
       "dyo" : {
+         "bcp47_canonical" : "dyo",
          "cldr" : "dyo"
       },
       "dyo-sn" : {
+         "bcp47_canonical" : "dyo-SN",
          "cldr" : "dyo_SN"
       },
       "dz" : {
+         "bcp47_canonical" : "dz",
          "cldr" : "dz"
       },
       "dz-bt" : {
+         "bcp47_canonical" : "dz-BT",
          "cldr" : "dz_BT"
       },
       "ebu" : {
+         "bcp47_canonical" : "ebu",
          "cldr" : "ebu"
       },
       "ebu-ke" : {
+         "bcp47_canonical" : "ebu-KE",
          "cldr" : "ebu_KE"
       },
       "ee" : {
+         "bcp47_canonical" : "ee",
          "cldr" : "ee"
       },
       "ee-gh" : {
+         "bcp47_canonical" : "ee-GH",
          "cldr" : "ee_GH"
       },
       "ee-tg" : {
+         "bcp47_canonical" : "ee-TG",
          "cldr" : "ee_TG"
       },
       "el" : {
+         "bcp47_canonical" : "el",
          "chrome_web_store" : "el",
          "cldr" : "el",
          "firefox" : "el",
          "ms" : "1032"
       },
       "el-cy" : {
+         "bcp47_canonical" : "el-CY",
          "cldr" : "el_CY",
          "java" : "el_CY"
       },
       "el-gr" : {
+         "bcp47_canonical" : "el-GR",
          "cldr" : "el_GR",
          "java" : "el_GR"
       },
       "en" : {
+         "bcp47_canonical" : "en",
          "chrome_web_store" : "en",
          "cldr" : "en"
       },
       "en-001" : {
+         "bcp47_canonical" : "en-001",
          "cldr" : "en_001"
       },
       "en-150" : {
+         "bcp47_canonical" : "en-150",
          "cldr" : "en_150"
       },
       "en-ag" : {
+         "bcp47_canonical" : "en-AG",
          "cldr" : "en_AG"
       },
       "en-ai" : {
+         "bcp47_canonical" : "en-AI",
          "cldr" : "en_AI"
       },
       "en-as" : {
+         "bcp47_canonical" : "en-AS",
          "cldr" : "en_AS"
       },
       "en-au" : {
+         "bcp47_canonical" : "en-AU",
          "cldr" : "en_AU",
          "java" : "en_AU",
          "ms" : "3081"
       },
       "en-bb" : {
+         "bcp47_canonical" : "en-BB",
          "cldr" : "en_BB"
       },
       "en-be" : {
+         "bcp47_canonical" : "en-BE",
          "cldr" : "en_BE"
       },
       "en-bm" : {
+         "bcp47_canonical" : "en-BM",
          "cldr" : "en_BM"
       },
       "en-bs" : {
+         "bcp47_canonical" : "en-BS",
          "cldr" : "en_BS"
       },
       "en-bw" : {
+         "bcp47_canonical" : "en-BW",
          "cldr" : "en_BW"
       },
       "en-bz" : {
+         "bcp47_canonical" : "en-BZ",
          "cldr" : "en_BZ",
          "ms" : "10249"
       },
       "en-ca" : {
+         "bcp47_canonical" : "en-CA",
          "cldr" : "en_CA",
          "java" : "en_CA",
          "ms" : "4105"
       },
       "en-cc" : {
+         "bcp47_canonical" : "en-CC",
          "cldr" : "en_CC"
       },
       "en-ck" : {
+         "bcp47_canonical" : "en-CK",
          "cldr" : "en_CK"
       },
       "en-cm" : {
+         "bcp47_canonical" : "en-CM",
          "cldr" : "en_CM"
       },
       "en-cx" : {
+         "bcp47_canonical" : "en-CX",
          "cldr" : "en_CX"
       },
       "en-dg" : {
+         "bcp47_canonical" : "en-DG",
          "cldr" : "en_DG"
       },
       "en-dm" : {
+         "bcp47_canonical" : "en-DM",
          "cldr" : "en_DM"
       },
       "en-er" : {
+         "bcp47_canonical" : "en-ER",
          "cldr" : "en_ER"
       },
       "en-fj" : {
+         "bcp47_canonical" : "en-FJ",
          "cldr" : "en_FJ"
       },
       "en-fk" : {
+         "bcp47_canonical" : "en-FK",
          "cldr" : "en_FK"
       },
       "en-fm" : {
+         "bcp47_canonical" : "en-FM",
          "cldr" : "en_FM"
       },
       "en-gb" : {
+         "bcp47_canonical" : "en-GB",
          "chrome_web_store" : "en_GB",
          "cldr" : "en_GB",
          "firefox" : "en-GB",
@@ -538,196 +702,257 @@
          "ms" : "2057"
       },
       "en-gd" : {
+         "bcp47_canonical" : "en-GD",
          "cldr" : "en_GD"
       },
       "en-gg" : {
+         "bcp47_canonical" : "en-GG",
          "cldr" : "en_GG"
       },
       "en-gh" : {
+         "bcp47_canonical" : "en-GH",
          "cldr" : "en_GH"
       },
       "en-gi" : {
+         "bcp47_canonical" : "en-GI",
          "cldr" : "en_GI"
       },
       "en-gm" : {
+         "bcp47_canonical" : "en-GM",
          "cldr" : "en_GM"
       },
       "en-gu" : {
+         "bcp47_canonical" : "en-GU",
          "cldr" : "en_GU"
       },
       "en-gy" : {
+         "bcp47_canonical" : "en-GY",
          "cldr" : "en_GY"
       },
       "en-hk" : {
+         "bcp47_canonical" : "en-HK",
          "cldr" : "en_HK"
       },
       "en-ie" : {
+         "bcp47_canonical" : "en-IE",
          "cldr" : "en_IE",
          "java" : "en_IE",
          "ms" : "6153"
       },
       "en-im" : {
+         "bcp47_canonical" : "en-IM",
          "cldr" : "en_IM"
       },
       "en-in" : {
+         "bcp47_canonical" : "en-IN",
          "cldr" : "en_IN",
          "java" : "en_IN"
       },
       "en-io" : {
+         "bcp47_canonical" : "en-IO",
          "cldr" : "en_IO"
       },
       "en-je" : {
+         "bcp47_canonical" : "en-JE",
          "cldr" : "en_JE"
       },
       "en-jm" : {
+         "bcp47_canonical" : "en-JM",
          "cldr" : "en_JM",
          "ms" : "8201"
       },
       "en-ke" : {
+         "bcp47_canonical" : "en-KE",
          "cldr" : "en_KE"
       },
       "en-ki" : {
+         "bcp47_canonical" : "en-KI",
          "cldr" : "en_KI"
       },
       "en-kn" : {
+         "bcp47_canonical" : "en-KN",
          "cldr" : "en_KN"
       },
       "en-ky" : {
+         "bcp47_canonical" : "en-KY",
          "cldr" : "en_KY"
       },
       "en-lc" : {
+         "bcp47_canonical" : "en-LC",
          "cldr" : "en_LC"
       },
       "en-lr" : {
+         "bcp47_canonical" : "en-LR",
          "cldr" : "en_LR"
       },
       "en-ls" : {
+         "bcp47_canonical" : "en-LS",
          "cldr" : "en_LS"
       },
       "en-mg" : {
+         "bcp47_canonical" : "en-MG",
          "cldr" : "en_MG"
       },
       "en-mh" : {
+         "bcp47_canonical" : "en-MH",
          "cldr" : "en_MH"
       },
       "en-mo" : {
+         "bcp47_canonical" : "en-MO",
          "cldr" : "en_MO"
       },
       "en-mp" : {
+         "bcp47_canonical" : "en-MP",
          "cldr" : "en_MP"
       },
       "en-ms" : {
+         "bcp47_canonical" : "en-MS",
          "cldr" : "en_MS"
       },
       "en-mt" : {
+         "bcp47_canonical" : "en-MT",
          "cldr" : "en_MT",
          "java" : "en_MT"
       },
       "en-mu" : {
+         "bcp47_canonical" : "en-MU",
          "cldr" : "en_MU"
       },
       "en-mw" : {
+         "bcp47_canonical" : "en-MW",
          "cldr" : "en_MW"
       },
       "en-my" : {
+         "bcp47_canonical" : "en-MY",
          "cldr" : "en_MY"
       },
       "en-na" : {
+         "bcp47_canonical" : "en-NA",
          "cldr" : "en_NA"
       },
       "en-nf" : {
+         "bcp47_canonical" : "en-NF",
          "cldr" : "en_NF"
       },
       "en-ng" : {
+         "bcp47_canonical" : "en-NG",
          "cldr" : "en_NG"
       },
       "en-nr" : {
+         "bcp47_canonical" : "en-NR",
          "cldr" : "en_NR"
       },
       "en-nu" : {
+         "bcp47_canonical" : "en-NU",
          "cldr" : "en_NU"
       },
       "en-nz" : {
+         "bcp47_canonical" : "en-NZ",
          "cldr" : "en_NZ",
          "java" : "en_NZ",
          "ms" : "5129"
       },
       "en-pg" : {
+         "bcp47_canonical" : "en-PG",
          "cldr" : "en_PG"
       },
       "en-ph" : {
+         "bcp47_canonical" : "en-PH",
          "cldr" : "en_PH",
          "java" : "en_PH"
       },
       "en-pk" : {
+         "bcp47_canonical" : "en-PK",
          "cldr" : "en_PK"
       },
       "en-pn" : {
+         "bcp47_canonical" : "en-PN",
          "cldr" : "en_PN"
       },
       "en-pr" : {
+         "bcp47_canonical" : "en-PR",
          "cldr" : "en_PR"
       },
       "en-pw" : {
+         "bcp47_canonical" : "en-PW",
          "cldr" : "en_PW"
       },
       "en-rw" : {
+         "bcp47_canonical" : "en-RW",
          "cldr" : "en_RW"
       },
       "en-sb" : {
+         "bcp47_canonical" : "en-SB",
          "cldr" : "en_SB"
       },
       "en-sc" : {
+         "bcp47_canonical" : "en-SC",
          "cldr" : "en_SC"
       },
       "en-sd" : {
+         "bcp47_canonical" : "en-SD",
          "cldr" : "en_SD"
       },
       "en-sg" : {
+         "bcp47_canonical" : "en-SG",
          "cldr" : "en_SG",
          "java" : "en_SG"
       },
       "en-sh" : {
+         "bcp47_canonical" : "en-SH",
          "cldr" : "en_SH"
       },
       "en-sl" : {
+         "bcp47_canonical" : "en-SL",
          "cldr" : "en_SL"
       },
       "en-ss" : {
+         "bcp47_canonical" : "en-SS",
          "cldr" : "en_SS"
       },
       "en-sx" : {
+         "bcp47_canonical" : "en-SX",
          "cldr" : "en_SX"
       },
       "en-sz" : {
+         "bcp47_canonical" : "en-SZ",
          "cldr" : "en_SZ"
       },
       "en-tc" : {
+         "bcp47_canonical" : "en-TC",
          "cldr" : "en_TC"
       },
       "en-tk" : {
+         "bcp47_canonical" : "en-TK",
          "cldr" : "en_TK"
       },
       "en-to" : {
+         "bcp47_canonical" : "en-TO",
          "cldr" : "en_TO"
       },
       "en-tt" : {
+         "bcp47_canonical" : "en-TT",
          "cldr" : "en_TT",
          "ms" : "11273"
       },
       "en-tv" : {
+         "bcp47_canonical" : "en-TV",
          "cldr" : "en_TV"
       },
       "en-tz" : {
+         "bcp47_canonical" : "en-TZ",
          "cldr" : "en_TZ"
       },
       "en-ug" : {
+         "bcp47_canonical" : "en-UG",
          "cldr" : "en_UG"
       },
       "en-um" : {
+         "bcp47_canonical" : "en-UM",
          "cldr" : "en_UM"
       },
       "en-us" : {
+         "bcp47_canonical" : "en-US",
          "chrome_web_store" : "en_US",
          "cldr" : "en_US",
          "firefox" : "en-US",
@@ -735,1140 +960,1561 @@
          "ms" : "1033"
       },
       "en-us-u-va-posix" : {
+         "bcp47_canonical" : "en-US-u-va-posix",
          "cldr" : "en_US_POSIX"
       },
       "en-vc" : {
+         "bcp47_canonical" : "en-VC",
          "cldr" : "en_VC"
       },
       "en-vg" : {
+         "bcp47_canonical" : "en-VG",
          "cldr" : "en_VG"
       },
       "en-vi" : {
+         "bcp47_canonical" : "en-VI",
          "cldr" : "en_VI"
       },
       "en-vu" : {
+         "bcp47_canonical" : "en-VU",
          "cldr" : "en_VU"
       },
       "en-ws" : {
+         "bcp47_canonical" : "en-WS",
          "cldr" : "en_WS"
       },
       "en-za" : {
+         "bcp47_canonical" : "en-ZA",
          "cldr" : "en_ZA",
          "firefox" : "en-ZA",
          "java" : "en_ZA",
          "ms" : "7177"
       },
       "en-zm" : {
+         "bcp47_canonical" : "en-ZM",
          "cldr" : "en_ZM"
       },
       "en-zw" : {
+         "bcp47_canonical" : "en-ZW",
          "cldr" : "en_ZW"
       },
       "eo" : {
+         "bcp47_canonical" : "eo",
          "cldr" : "eo",
          "firefox" : "eo"
       },
       "eo-001" : {
+         "bcp47_canonical" : "eo-001",
          "cldr" : "eo_001"
       },
       "es" : {
+         "bcp47_canonical" : "es",
          "chrome_web_store" : "es",
          "cldr" : "es",
          "ms" : "1034"
       },
       "es-419" : {
+         "bcp47_canonical" : "es-419",
          "chrome_web_store" : "es_419",
          "cldr" : "es_419"
       },
       "es-ar" : {
+         "bcp47_canonical" : "es-AR",
          "cldr" : "es_AR",
          "firefox" : "es-AR",
          "java" : "es_AR",
          "ms" : "11274"
       },
       "es-bo" : {
+         "bcp47_canonical" : "es-BO",
          "cldr" : "es_BO",
          "java" : "es_BO",
          "ms" : "16394"
       },
       "es-cl" : {
+         "bcp47_canonical" : "es-CL",
          "cldr" : "es_CL",
          "firefox" : "es-CL",
          "java" : "es_CL",
          "ms" : "13322"
       },
       "es-co" : {
+         "bcp47_canonical" : "es-CO",
          "cldr" : "es_CO",
          "java" : "es_CO",
          "ms" : "9226"
       },
       "es-cr" : {
+         "bcp47_canonical" : "es-CR",
          "cldr" : "es_CR",
          "java" : "es_CR",
          "ms" : "5130"
       },
       "es-cu" : {
+         "bcp47_canonical" : "es-CU",
          "cldr" : "es_CU"
       },
       "es-do" : {
+         "bcp47_canonical" : "es-DO",
          "cldr" : "es_DO",
          "java" : "es_DO",
          "ms" : "7178"
       },
       "es-ea" : {
+         "bcp47_canonical" : "es-EA",
          "cldr" : "es_EA"
       },
       "es-ec" : {
+         "bcp47_canonical" : "es-EC",
          "cldr" : "es_EC",
          "java" : "es_EC",
          "ms" : "12298"
       },
       "es-es" : {
+         "bcp47_canonical" : "es-ES",
          "cldr" : "es_ES",
          "firefox" : "es-ES",
          "java" : "es_ES"
       },
       "es-gq" : {
+         "bcp47_canonical" : "es-GQ",
          "cldr" : "es_GQ"
       },
       "es-gt" : {
+         "bcp47_canonical" : "es-GT",
          "cldr" : "es_GT",
          "java" : "es_GT",
          "ms" : "4106"
       },
       "es-hn" : {
+         "bcp47_canonical" : "es-HN",
          "cldr" : "es_HN",
          "java" : "es_HN",
          "ms" : "18442"
       },
       "es-ic" : {
+         "bcp47_canonical" : "es-IC",
          "cldr" : "es_IC"
       },
       "es-mx" : {
+         "bcp47_canonical" : "es-MX",
          "cldr" : "es_MX",
          "firefox" : "es-MX",
          "java" : "es_MX",
          "ms" : "2058"
       },
       "es-ni" : {
+         "bcp47_canonical" : "es-NI",
          "cldr" : "es_NI",
          "java" : "es_NI",
          "ms" : "19466"
       },
       "es-pa" : {
+         "bcp47_canonical" : "es-PA",
          "cldr" : "es_PA",
          "java" : "es_PA",
          "ms" : "6154"
       },
       "es-pe" : {
+         "bcp47_canonical" : "es-PE",
          "cldr" : "es_PE",
          "java" : "es_PE",
          "ms" : "10250"
       },
       "es-ph" : {
+         "bcp47_canonical" : "es-PH",
          "cldr" : "es_PH"
       },
       "es-pr" : {
+         "bcp47_canonical" : "es-PR",
          "cldr" : "es_PR",
          "java" : "es_PR",
          "ms" : "20490"
       },
       "es-py" : {
+         "bcp47_canonical" : "es-PY",
          "cldr" : "es_PY",
          "java" : "es_PY",
          "ms" : "15370"
       },
       "es-sv" : {
+         "bcp47_canonical" : "es-SV",
          "cldr" : "es_SV",
          "java" : "es_SV",
          "ms" : "17418"
       },
       "es-us" : {
+         "bcp47_canonical" : "es-US",
          "cldr" : "es_US",
          "java" : "es_US"
       },
       "es-uy" : {
+         "bcp47_canonical" : "es-UY",
          "cldr" : "es_UY",
          "java" : "es_UY",
          "ms" : "14346"
       },
       "es-ve" : {
+         "bcp47_canonical" : "es-VE",
          "cldr" : "es_VE",
          "java" : "es_VE",
          "ms" : "8202"
       },
       "et" : {
+         "bcp47_canonical" : "et",
          "chrome_web_store" : "et",
          "cldr" : "et",
          "firefox" : "et",
          "ms" : "1061"
       },
       "et-ee" : {
+         "bcp47_canonical" : "et-EE",
          "cldr" : "et_EE",
          "java" : "et_EE"
       },
       "eu" : {
+         "bcp47_canonical" : "eu",
          "cldr" : "eu",
          "firefox" : "eu",
          "ms" : "1069"
       },
       "eu-es" : {
+         "bcp47_canonical" : "eu-ES",
          "cldr" : "eu_ES"
       },
       "ewo" : {
+         "bcp47_canonical" : "ewo",
          "cldr" : "ewo"
       },
       "ewo-cm" : {
+         "bcp47_canonical" : "ewo-CM",
          "cldr" : "ewo_CM"
       },
       "fa" : {
+         "bcp47_canonical" : "fa",
          "chrome_web_store" : "fa",
          "cldr" : "fa",
          "firefox" : "fa",
          "ms" : "1065"
       },
       "fa-af" : {
+         "bcp47_canonical" : "fa-AF",
          "cldr" : "fa_AF"
       },
       "fa-ir" : {
+         "bcp47_canonical" : "fa-IR",
          "cldr" : "fa_IR"
       },
       "ff" : {
+         "bcp47_canonical" : "ff",
          "cldr" : "ff",
          "firefox" : "ff"
       },
       "ff-cm" : {
+         "bcp47_canonical" : "ff-CM",
          "cldr" : "ff_CM"
       },
       "ff-gn" : {
+         "bcp47_canonical" : "ff-GN",
          "cldr" : "ff_GN"
       },
       "ff-mr" : {
+         "bcp47_canonical" : "ff-MR",
          "cldr" : "ff_MR"
       },
       "ff-sn" : {
+         "bcp47_canonical" : "ff-SN",
          "cldr" : "ff_SN"
       },
       "fi" : {
+         "bcp47_canonical" : "fi",
          "chrome_web_store" : "fi",
          "cldr" : "fi",
          "firefox" : "fi",
          "ms" : "1035"
       },
       "fi-fi" : {
+         "bcp47_canonical" : "fi-FI",
          "cldr" : "fi_FI",
          "java" : "fi_FI"
       },
       "fil" : {
+         "bcp47_canonical" : "fil",
          "chrome_web_store" : "fil",
          "cldr" : "fil"
       },
       "fil-ph" : {
+         "bcp47_canonical" : "fil-PH",
          "cldr" : "fil_PH"
       },
       "fo" : {
+         "bcp47_canonical" : "fo",
          "cldr" : "fo",
          "ms" : "1080"
       },
       "fo-fo" : {
+         "bcp47_canonical" : "fo-FO",
          "cldr" : "fo_FO"
       },
       "fr" : {
+         "bcp47_canonical" : "fr",
          "chrome_web_store" : "fr",
          "cldr" : "fr",
          "firefox" : "fr",
          "ms" : "1036"
       },
       "fr-be" : {
+         "bcp47_canonical" : "fr-BE",
          "cldr" : "fr_BE",
          "java" : "fr_BE",
          "ms" : "2060"
       },
       "fr-bf" : {
+         "bcp47_canonical" : "fr-BF",
          "cldr" : "fr_BF"
       },
       "fr-bi" : {
+         "bcp47_canonical" : "fr-BI",
          "cldr" : "fr_BI"
       },
       "fr-bj" : {
+         "bcp47_canonical" : "fr-BJ",
          "cldr" : "fr_BJ"
       },
       "fr-bl" : {
+         "bcp47_canonical" : "fr-BL",
          "cldr" : "fr_BL"
       },
       "fr-ca" : {
+         "bcp47_canonical" : "fr-CA",
          "cldr" : "fr_CA",
          "java" : "fr_CA",
          "ms" : "3084"
       },
       "fr-cd" : {
+         "bcp47_canonical" : "fr-CD",
          "cldr" : "fr_CD"
       },
       "fr-cf" : {
+         "bcp47_canonical" : "fr-CF",
          "cldr" : "fr_CF"
       },
       "fr-cg" : {
+         "bcp47_canonical" : "fr-CG",
          "cldr" : "fr_CG"
       },
       "fr-ch" : {
+         "bcp47_canonical" : "fr-CH",
          "cldr" : "fr_CH",
          "java" : "fr_CH",
          "ms" : "4108"
       },
       "fr-ci" : {
+         "bcp47_canonical" : "fr-CI",
          "cldr" : "fr_CI"
       },
       "fr-cm" : {
+         "bcp47_canonical" : "fr-CM",
          "cldr" : "fr_CM"
       },
       "fr-dj" : {
+         "bcp47_canonical" : "fr-DJ",
          "cldr" : "fr_DJ"
       },
       "fr-dz" : {
+         "bcp47_canonical" : "fr-DZ",
          "cldr" : "fr_DZ"
       },
       "fr-fr" : {
+         "bcp47_canonical" : "fr-FR",
          "cldr" : "fr_FR",
          "java" : "fr_FR"
       },
       "fr-ga" : {
+         "bcp47_canonical" : "fr-GA",
          "cldr" : "fr_GA"
       },
       "fr-gf" : {
+         "bcp47_canonical" : "fr-GF",
          "cldr" : "fr_GF"
       },
       "fr-gn" : {
+         "bcp47_canonical" : "fr-GN",
          "cldr" : "fr_GN"
       },
       "fr-gp" : {
+         "bcp47_canonical" : "fr-GP",
          "cldr" : "fr_GP"
       },
       "fr-gq" : {
+         "bcp47_canonical" : "fr-GQ",
          "cldr" : "fr_GQ"
       },
       "fr-ht" : {
+         "bcp47_canonical" : "fr-HT",
          "cldr" : "fr_HT"
       },
       "fr-km" : {
+         "bcp47_canonical" : "fr-KM",
          "cldr" : "fr_KM"
       },
       "fr-lu" : {
+         "bcp47_canonical" : "fr-LU",
          "cldr" : "fr_LU",
          "java" : "fr_LU",
          "ms" : "5132"
       },
       "fr-ma" : {
+         "bcp47_canonical" : "fr-MA",
          "cldr" : "fr_MA"
       },
       "fr-mc" : {
+         "bcp47_canonical" : "fr-MC",
          "cldr" : "fr_MC"
       },
       "fr-mf" : {
+         "bcp47_canonical" : "fr-MF",
          "cldr" : "fr_MF"
       },
       "fr-mg" : {
+         "bcp47_canonical" : "fr-MG",
          "cldr" : "fr_MG"
       },
       "fr-ml" : {
+         "bcp47_canonical" : "fr-ML",
          "cldr" : "fr_ML"
       },
       "fr-mq" : {
+         "bcp47_canonical" : "fr-MQ",
          "cldr" : "fr_MQ"
       },
       "fr-mr" : {
+         "bcp47_canonical" : "fr-MR",
          "cldr" : "fr_MR"
       },
       "fr-mu" : {
+         "bcp47_canonical" : "fr-MU",
          "cldr" : "fr_MU"
       },
       "fr-nc" : {
+         "bcp47_canonical" : "fr-NC",
          "cldr" : "fr_NC"
       },
       "fr-ne" : {
+         "bcp47_canonical" : "fr-NE",
          "cldr" : "fr_NE"
       },
       "fr-pf" : {
+         "bcp47_canonical" : "fr-PF",
          "cldr" : "fr_PF"
       },
       "fr-pm" : {
+         "bcp47_canonical" : "fr-PM",
          "cldr" : "fr_PM"
       },
       "fr-re" : {
+         "bcp47_canonical" : "fr-RE",
          "cldr" : "fr_RE"
       },
       "fr-rw" : {
+         "bcp47_canonical" : "fr-RW",
          "cldr" : "fr_RW"
       },
       "fr-sc" : {
+         "bcp47_canonical" : "fr-SC",
          "cldr" : "fr_SC"
       },
       "fr-sn" : {
+         "bcp47_canonical" : "fr-SN",
          "cldr" : "fr_SN"
       },
       "fr-sy" : {
+         "bcp47_canonical" : "fr-SY",
          "cldr" : "fr_SY"
       },
       "fr-td" : {
+         "bcp47_canonical" : "fr-TD",
          "cldr" : "fr_TD"
       },
       "fr-tg" : {
+         "bcp47_canonical" : "fr-TG",
          "cldr" : "fr_TG"
       },
       "fr-tn" : {
+         "bcp47_canonical" : "fr-TN",
          "cldr" : "fr_TN"
       },
       "fr-vu" : {
+         "bcp47_canonical" : "fr-VU",
          "cldr" : "fr_VU"
       },
       "fr-wf" : {
+         "bcp47_canonical" : "fr-WF",
          "cldr" : "fr_WF"
       },
       "fr-yt" : {
+         "bcp47_canonical" : "fr-YT",
          "cldr" : "fr_YT"
       },
       "fur" : {
+         "bcp47_canonical" : "fur",
          "cldr" : "fur"
       },
       "fur-it" : {
+         "bcp47_canonical" : "fur-IT",
          "cldr" : "fur_IT"
       },
       "fy" : {
+         "bcp47_canonical" : "fy",
          "cldr" : "fy"
       },
       "fy-nl" : {
+         "bcp47_canonical" : "fy-NL",
          "cldr" : "fy_NL",
          "firefox" : "fy-NL"
       },
       "ga" : {
+         "bcp47_canonical" : "ga",
          "cldr" : "ga"
       },
       "ga-ie" : {
+         "bcp47_canonical" : "ga-IE",
          "cldr" : "ga_IE",
          "firefox" : "ga-IE",
          "java" : "ga_IE"
       },
       "gd" : {
+         "bcp47_canonical" : "gd",
          "cldr" : "gd",
          "firefox" : "gd",
          "ms" : "1084"
       },
       "gd-gb" : {
+         "bcp47_canonical" : "gd-GB",
          "cldr" : "gd_GB"
       },
       "gl" : {
+         "bcp47_canonical" : "gl",
          "cldr" : "gl",
          "firefox" : "gl"
       },
       "gl-es" : {
+         "bcp47_canonical" : "gl-ES",
          "cldr" : "gl_ES"
       },
       "gsw" : {
+         "bcp47_canonical" : "gsw",
          "cldr" : "gsw"
       },
       "gsw-ch" : {
+         "bcp47_canonical" : "gsw-CH",
          "cldr" : "gsw_CH"
       },
       "gsw-fr" : {
+         "bcp47_canonical" : "gsw-FR",
          "cldr" : "gsw_FR"
       },
       "gsw-li" : {
+         "bcp47_canonical" : "gsw-LI",
          "cldr" : "gsw_LI"
       },
       "gu" : {
+         "bcp47_canonical" : "gu",
          "chrome_web_store" : "gu",
          "cldr" : "gu"
       },
       "gu-in" : {
+         "bcp47_canonical" : "gu-IN",
          "cldr" : "gu_IN",
          "firefox" : "gu-IN"
       },
       "guz" : {
+         "bcp47_canonical" : "guz",
          "cldr" : "guz"
       },
       "guz-ke" : {
+         "bcp47_canonical" : "guz-KE",
          "cldr" : "guz_KE"
       },
       "gv" : {
+         "bcp47_canonical" : "gv",
          "cldr" : "gv"
       },
       "gv-im" : {
+         "bcp47_canonical" : "gv-IM",
          "cldr" : "gv_IM"
       },
       "ha" : {
+         "bcp47_canonical" : "ha",
          "cldr" : "ha"
       },
       "ha-latn" : {
+         "bcp47_canonical" : "ha-Latn",
          "cldr" : "ha_Latn"
       },
       "ha-latn-gh" : {
+         "bcp47_canonical" : "ha-Latn-GH",
          "cldr" : "ha_Latn_GH"
       },
       "ha-latn-ne" : {
+         "bcp47_canonical" : "ha-Latn-NE",
          "cldr" : "ha_Latn_NE"
       },
       "ha-latn-ng" : {
+         "bcp47_canonical" : "ha-Latn-NG",
          "cldr" : "ha_Latn_NG"
       },
       "haw" : {
+         "bcp47_canonical" : "haw",
          "cldr" : "haw"
       },
       "haw-us" : {
+         "bcp47_canonical" : "haw-US",
          "cldr" : "haw_US"
       },
       "he" : {
+         "bcp47_canonical" : "he",
          "chrome_web_store" : "he",
          "cldr" : "he",
          "firefox" : "he",
          "ms" : "1037"
       },
       "he-il" : {
+         "bcp47_canonical" : "he-IL",
          "cldr" : "he_IL"
       },
       "hi" : {
+         "bcp47_canonical" : "hi",
          "chrome_web_store" : "hi",
          "cldr" : "hi",
          "ms" : "1081"
       },
       "hi-in" : {
+         "bcp47_canonical" : "hi-IN",
          "cldr" : "hi_IN",
          "firefox" : "hi-IN",
          "java" : "hi_IN"
       },
       "hr" : {
+         "bcp47_canonical" : "hr",
          "chrome_web_store" : "hr",
          "cldr" : "hr",
          "firefox" : "hr",
          "ms" : "1050"
       },
       "hr-ba" : {
+         "bcp47_canonical" : "hr-BA",
          "cldr" : "hr_BA"
       },
       "hr-hr" : {
+         "bcp47_canonical" : "hr-HR",
          "cldr" : "hr_HR",
          "java" : "hr_HR"
       },
       "hsb" : {
+         "bcp47_canonical" : "hsb",
          "cldr" : "hsb",
          "firefox" : "hsb"
       },
       "hsb-de" : {
+         "bcp47_canonical" : "hsb-DE",
          "cldr" : "hsb_DE"
       },
       "hu" : {
+         "bcp47_canonical" : "hu",
          "chrome_web_store" : "hu",
          "cldr" : "hu",
          "firefox" : "hu",
          "ms" : "1038"
       },
       "hu-hu" : {
+         "bcp47_canonical" : "hu-HU",
          "cldr" : "hu_HU",
          "java" : "hu_HU"
       },
       "hy" : {
+         "bcp47_canonical" : "hy",
          "cldr" : "hy"
       },
       "hy-am" : {
+         "bcp47_canonical" : "hy-AM",
          "cldr" : "hy_AM",
          "firefox" : "hy-AM"
       },
       "id" : {
+         "bcp47_canonical" : "id",
          "chrome_web_store" : "id",
          "cldr" : "id",
          "firefox" : "id"
       },
       "id-id" : {
+         "bcp47_canonical" : "id-ID",
          "cldr" : "id_ID"
       },
       "ig" : {
+         "bcp47_canonical" : "ig",
          "cldr" : "ig"
       },
       "ig-ng" : {
+         "bcp47_canonical" : "ig-NG",
          "cldr" : "ig_NG"
       },
       "ii" : {
+         "bcp47_canonical" : "ii",
          "cldr" : "ii"
       },
       "ii-cn" : {
+         "bcp47_canonical" : "ii-CN",
          "cldr" : "ii_CN"
       },
       "in" : {
+         "bcp47_canonical" : "id",
+         "bcp47_errors" : [
+            {
+               "level" : "s",
+               "text" : "id",
+               "type" : "langtag:language:deprecated",
+               "value" : "in"
+            }
+         ],
          "ms" : "1057"
       },
       "in-id" : {
+         "bcp47_canonical" : "id-ID",
+         "bcp47_errors" : [
+            {
+               "level" : "s",
+               "text" : "id",
+               "type" : "langtag:language:deprecated",
+               "value" : "in"
+            }
+         ],
          "java" : "in_ID"
       },
       "is" : {
+         "bcp47_canonical" : "is",
          "cldr" : "is",
          "firefox" : "is",
          "ms" : "1039"
       },
       "is-is" : {
+         "bcp47_canonical" : "is-IS",
          "cldr" : "is_IS",
          "java" : "is_IS"
       },
       "it" : {
+         "bcp47_canonical" : "it",
          "chrome_web_store" : "it",
          "cldr" : "it",
          "firefox" : "it",
          "ms" : "1040"
       },
       "it-ch" : {
+         "bcp47_canonical" : "it-CH",
          "cldr" : "it_CH",
          "java" : "it_CH",
          "ms" : "2064"
       },
       "it-it" : {
+         "bcp47_canonical" : "it-IT",
          "cldr" : "it_IT",
          "java" : "it_IT"
       },
       "it-sm" : {
+         "bcp47_canonical" : "it-SM",
          "cldr" : "it_SM"
       },
       "iw-il" : {
+         "bcp47_canonical" : "he-IL",
+         "bcp47_errors" : [
+            {
+               "level" : "s",
+               "text" : "he",
+               "type" : "langtag:language:deprecated",
+               "value" : "iw"
+            }
+         ],
          "java" : "iw_IL"
       },
       "ja" : {
+         "bcp47_canonical" : "ja",
          "chrome_web_store" : "ja",
          "cldr" : "ja",
          "firefox" : "ja",
          "ms" : "1041"
       },
       "ja-jp" : {
+         "bcp47_canonical" : "ja-JP",
          "cldr" : "ja_JP",
          "java" : "ja_JP"
       },
       "ja-jp-u-ca-japanese" : {
+         "bcp47_canonical" : "ja-JP-u-ca-japanese",
          "java" : "ja_JP_JP"
       },
       "jgo" : {
+         "bcp47_canonical" : "jgo",
          "cldr" : "jgo"
       },
       "jgo-cm" : {
+         "bcp47_canonical" : "jgo-CM",
          "cldr" : "jgo_CM"
       },
       "ji" : {
+         "bcp47_canonical" : "yi",
+         "bcp47_errors" : [
+            {
+               "level" : "s",
+               "text" : "yi",
+               "type" : "langtag:language:deprecated",
+               "value" : "ji"
+            }
+         ],
          "ms" : "1085"
       },
       "jmc" : {
+         "bcp47_canonical" : "jmc",
          "cldr" : "jmc"
       },
       "jmc-tz" : {
+         "bcp47_canonical" : "jmc-TZ",
          "cldr" : "jmc_TZ"
       },
       "ka" : {
+         "bcp47_canonical" : "ka",
          "cldr" : "ka"
       },
       "ka-ge" : {
+         "bcp47_canonical" : "ka-GE",
          "cldr" : "ka_GE"
       },
       "kab" : {
+         "bcp47_canonical" : "kab",
          "cldr" : "kab"
       },
       "kab-dz" : {
+         "bcp47_canonical" : "kab-DZ",
          "cldr" : "kab_DZ"
       },
       "kam" : {
+         "bcp47_canonical" : "kam",
          "cldr" : "kam"
       },
       "kam-ke" : {
+         "bcp47_canonical" : "kam-KE",
          "cldr" : "kam_KE"
       },
       "kde" : {
+         "bcp47_canonical" : "kde",
          "cldr" : "kde"
       },
       "kde-tz" : {
+         "bcp47_canonical" : "kde-TZ",
          "cldr" : "kde_TZ"
       },
       "kea" : {
+         "bcp47_canonical" : "kea",
          "cldr" : "kea"
       },
       "kea-cv" : {
+         "bcp47_canonical" : "kea-CV",
          "cldr" : "kea_CV"
       },
       "khq" : {
+         "bcp47_canonical" : "khq",
          "cldr" : "khq"
       },
       "khq-ml" : {
+         "bcp47_canonical" : "khq-ML",
          "cldr" : "khq_ML"
       },
       "ki" : {
+         "bcp47_canonical" : "ki",
          "cldr" : "ki"
       },
       "ki-ke" : {
+         "bcp47_canonical" : "ki-KE",
          "cldr" : "ki_KE"
       },
       "kk" : {
+         "bcp47_canonical" : "kk",
          "cldr" : "kk",
          "firefox" : "kk"
       },
       "kk-cyrl" : {
+         "bcp47_canonical" : "kk",
+         "bcp47_errors" : [
+            {
+               "level" : "s",
+               "text" : "kk",
+               "type" : "langtag:script:suppress",
+               "value" : "cyrl"
+            }
+         ],
          "cldr" : "kk_Cyrl"
       },
       "kk-cyrl-kz" : {
+         "bcp47_canonical" : "kk-KZ",
+         "bcp47_errors" : [
+            {
+               "level" : "s",
+               "text" : "kk",
+               "type" : "langtag:script:suppress",
+               "value" : "cyrl"
+            }
+         ],
          "cldr" : "kk_Cyrl_KZ"
       },
       "kkj" : {
+         "bcp47_canonical" : "kkj",
          "cldr" : "kkj"
       },
       "kkj-cm" : {
+         "bcp47_canonical" : "kkj-CM",
          "cldr" : "kkj_CM"
       },
       "kl" : {
+         "bcp47_canonical" : "kl",
          "cldr" : "kl"
       },
       "kl-gl" : {
+         "bcp47_canonical" : "kl-GL",
          "cldr" : "kl_GL"
       },
       "kln" : {
+         "bcp47_canonical" : "kln",
          "cldr" : "kln"
       },
       "kln-ke" : {
+         "bcp47_canonical" : "kln-KE",
          "cldr" : "kln_KE"
       },
       "km" : {
+         "bcp47_canonical" : "km",
          "cldr" : "km",
          "firefox" : "km"
       },
       "km-kh" : {
+         "bcp47_canonical" : "km-KH",
          "cldr" : "km_KH"
       },
       "kn" : {
+         "bcp47_canonical" : "kn",
          "chrome_web_store" : "kn",
          "cldr" : "kn",
          "firefox" : "kn"
       },
       "kn-in" : {
+         "bcp47_canonical" : "kn-IN",
          "cldr" : "kn_IN"
       },
       "ko" : {
+         "bcp47_canonical" : "ko",
          "chrome_web_store" : "ko",
          "cldr" : "ko",
          "firefox" : "ko",
          "ms" : "1042"
       },
       "ko-kp" : {
+         "bcp47_canonical" : "ko-KP",
          "cldr" : "ko_KP"
       },
       "ko-kr" : {
+         "bcp47_canonical" : "ko-KR",
          "cldr" : "ko_KR",
          "java" : "ko_KR"
       },
       "kok" : {
+         "bcp47_canonical" : "kok",
          "cldr" : "kok"
       },
       "kok-in" : {
+         "bcp47_canonical" : "kok-IN",
          "cldr" : "kok_IN"
       },
       "ks" : {
+         "bcp47_canonical" : "ks",
          "cldr" : "ks"
       },
       "ks-arab" : {
+         "bcp47_canonical" : "ks-Arab",
          "cldr" : "ks_Arab"
       },
       "ks-arab-in" : {
+         "bcp47_canonical" : "ks-Arab-IN",
          "cldr" : "ks_Arab_IN"
       },
       "ksb" : {
+         "bcp47_canonical" : "ksb",
          "cldr" : "ksb"
       },
       "ksb-tz" : {
+         "bcp47_canonical" : "ksb-TZ",
          "cldr" : "ksb_TZ"
       },
       "ksf" : {
+         "bcp47_canonical" : "ksf",
          "cldr" : "ksf"
       },
       "ksf-cm" : {
+         "bcp47_canonical" : "ksf-CM",
          "cldr" : "ksf_CM"
       },
       "ksh" : {
+         "bcp47_canonical" : "ksh",
          "cldr" : "ksh"
       },
       "ksh-de" : {
+         "bcp47_canonical" : "ksh-DE",
          "cldr" : "ksh_DE"
       },
       "kw" : {
+         "bcp47_canonical" : "kw",
          "cldr" : "kw"
       },
       "kw-gb" : {
+         "bcp47_canonical" : "kw-GB",
          "cldr" : "kw_GB"
       },
       "ky" : {
+         "bcp47_canonical" : "ky",
          "cldr" : "ky"
       },
       "ky-cyrl" : {
+         "bcp47_canonical" : "ky-Cyrl",
          "cldr" : "ky_Cyrl"
       },
       "ky-cyrl-kg" : {
+         "bcp47_canonical" : "ky-Cyrl-KG",
          "cldr" : "ky_Cyrl_KG"
       },
       "lag" : {
+         "bcp47_canonical" : "lag",
          "cldr" : "lag"
       },
       "lag-tz" : {
+         "bcp47_canonical" : "lag-TZ",
          "cldr" : "lag_TZ"
       },
       "lb" : {
+         "bcp47_canonical" : "lb",
          "cldr" : "lb"
       },
       "lb-lu" : {
+         "bcp47_canonical" : "lb-LU",
          "cldr" : "lb_LU"
       },
       "lg" : {
+         "bcp47_canonical" : "lg",
          "cldr" : "lg"
       },
       "lg-ug" : {
+         "bcp47_canonical" : "lg-UG",
          "cldr" : "lg_UG"
       },
       "lij" : {
+         "bcp47_canonical" : "lij",
          "firefox" : "lij"
       },
       "lkt" : {
+         "bcp47_canonical" : "lkt",
          "cldr" : "lkt"
       },
       "lkt-us" : {
+         "bcp47_canonical" : "lkt-US",
          "cldr" : "lkt_US"
       },
       "ln" : {
+         "bcp47_canonical" : "ln",
          "cldr" : "ln"
       },
       "ln-ao" : {
+         "bcp47_canonical" : "ln-AO",
          "cldr" : "ln_AO"
       },
       "ln-cd" : {
+         "bcp47_canonical" : "ln-CD",
          "cldr" : "ln_CD"
       },
       "ln-cf" : {
+         "bcp47_canonical" : "ln-CF",
          "cldr" : "ln_CF"
       },
       "ln-cg" : {
+         "bcp47_canonical" : "ln-CG",
          "cldr" : "ln_CG"
       },
       "lo" : {
+         "bcp47_canonical" : "lo",
          "cldr" : "lo"
       },
       "lo-la" : {
+         "bcp47_canonical" : "lo-LA",
          "cldr" : "lo_LA"
       },
       "lt" : {
+         "bcp47_canonical" : "lt",
          "chrome_web_store" : "lt",
          "cldr" : "lt",
          "firefox" : "lt",
          "ms" : "1063"
       },
       "lt-lt" : {
+         "bcp47_canonical" : "lt-LT",
          "cldr" : "lt_LT",
          "java" : "lt_LT"
       },
       "lu" : {
+         "bcp47_canonical" : "lu",
          "cldr" : "lu"
       },
       "lu-cd" : {
+         "bcp47_canonical" : "lu-CD",
          "cldr" : "lu_CD"
       },
       "luo" : {
+         "bcp47_canonical" : "luo",
          "cldr" : "luo"
       },
       "luo-ke" : {
+         "bcp47_canonical" : "luo-KE",
          "cldr" : "luo_KE"
       },
       "luy" : {
+         "bcp47_canonical" : "luy",
          "cldr" : "luy"
       },
       "luy-ke" : {
+         "bcp47_canonical" : "luy-KE",
          "cldr" : "luy_KE"
       },
       "lv" : {
+         "bcp47_canonical" : "lv",
          "chrome_web_store" : "lv",
          "cldr" : "lv",
          "firefox" : "lv",
          "ms" : "1062"
       },
       "lv-lv" : {
+         "bcp47_canonical" : "lv-LV",
          "cldr" : "lv_LV",
          "java" : "lv_LV"
       },
       "mai" : {
+         "bcp47_canonical" : "mai",
          "firefox" : "mai"
       },
       "mas" : {
+         "bcp47_canonical" : "mas",
          "cldr" : "mas"
       },
       "mas-ke" : {
+         "bcp47_canonical" : "mas-KE",
          "cldr" : "mas_KE"
       },
       "mas-tz" : {
+         "bcp47_canonical" : "mas-TZ",
          "cldr" : "mas_TZ"
       },
       "mer" : {
+         "bcp47_canonical" : "mer",
          "cldr" : "mer"
       },
       "mer-ke" : {
+         "bcp47_canonical" : "mer-KE",
          "cldr" : "mer_KE"
       },
       "mfe" : {
+         "bcp47_canonical" : "mfe",
          "cldr" : "mfe"
       },
       "mfe-mu" : {
+         "bcp47_canonical" : "mfe-MU",
          "cldr" : "mfe_MU"
       },
       "mg" : {
+         "bcp47_canonical" : "mg",
          "cldr" : "mg"
       },
       "mg-mg" : {
+         "bcp47_canonical" : "mg-MG",
          "cldr" : "mg_MG"
       },
       "mgh" : {
+         "bcp47_canonical" : "mgh",
          "cldr" : "mgh"
       },
       "mgh-mz" : {
+         "bcp47_canonical" : "mgh-MZ",
          "cldr" : "mgh_MZ"
       },
       "mgo" : {
+         "bcp47_canonical" : "mgo",
          "cldr" : "mgo"
       },
       "mgo-cm" : {
+         "bcp47_canonical" : "mgo-CM",
          "cldr" : "mgo_CM"
       },
       "mk" : {
+         "bcp47_canonical" : "mk",
          "cldr" : "mk",
          "firefox" : "mk",
          "ms" : "1071"
       },
       "mk-mk" : {
+         "bcp47_canonical" : "mk-MK",
          "cldr" : "mk_MK",
          "java" : "mk_MK"
       },
       "ml" : {
+         "bcp47_canonical" : "ml",
          "chrome_web_store" : "ml",
          "cldr" : "ml",
          "firefox" : "ml"
       },
       "ml-in" : {
+         "bcp47_canonical" : "ml-IN",
          "cldr" : "ml_IN"
       },
       "mn" : {
+         "bcp47_canonical" : "mn",
          "cldr" : "mn"
       },
       "mn-cyrl" : {
+         "bcp47_canonical" : "mn-Cyrl",
          "cldr" : "mn_Cyrl"
       },
       "mn-cyrl-mn" : {
+         "bcp47_canonical" : "mn-Cyrl-MN",
          "cldr" : "mn_Cyrl_MN"
       },
       "mr" : {
+         "bcp47_canonical" : "mr",
          "chrome_web_store" : "mr",
          "cldr" : "mr",
          "firefox" : "mr"
       },
       "mr-in" : {
+         "bcp47_canonical" : "mr-IN",
          "cldr" : "mr_IN"
       },
       "ms" : {
+         "bcp47_canonical" : "ms",
          "chrome_web_store" : "ms",
          "cldr" : "ms",
          "firefox" : "ms",
          "ms" : "1086"
       },
       "ms-latn" : {
+         "bcp47_canonical" : "ms",
+         "bcp47_errors" : [
+            {
+               "level" : "s",
+               "text" : "ms",
+               "type" : "langtag:script:suppress",
+               "value" : "latn"
+            }
+         ],
          "cldr" : "ms_Latn"
       },
       "ms-latn-bn" : {
+         "bcp47_canonical" : "ms-BN",
+         "bcp47_errors" : [
+            {
+               "level" : "s",
+               "text" : "ms",
+               "type" : "langtag:script:suppress",
+               "value" : "latn"
+            }
+         ],
          "cldr" : "ms_Latn_BN"
       },
       "ms-latn-my" : {
+         "bcp47_canonical" : "ms-MY",
+         "bcp47_errors" : [
+            {
+               "level" : "s",
+               "text" : "ms",
+               "type" : "langtag:script:suppress",
+               "value" : "latn"
+            }
+         ],
          "cldr" : "ms_Latn_MY"
       },
       "ms-latn-sg" : {
+         "bcp47_canonical" : "ms-SG",
+         "bcp47_errors" : [
+            {
+               "level" : "s",
+               "text" : "ms",
+               "type" : "langtag:script:suppress",
+               "value" : "latn"
+            }
+         ],
          "cldr" : "ms_Latn_SG"
       },
       "ms-my" : {
+         "bcp47_canonical" : "ms-MY",
          "java" : "ms_MY"
       },
       "mt" : {
+         "bcp47_canonical" : "mt",
          "cldr" : "mt",
          "ms" : "1082"
       },
       "mt-mt" : {
+         "bcp47_canonical" : "mt-MT",
          "cldr" : "mt_MT",
          "java" : "mt_MT"
       },
       "mua" : {
+         "bcp47_canonical" : "mua",
          "cldr" : "mua"
       },
       "mua-cm" : {
+         "bcp47_canonical" : "mua-CM",
          "cldr" : "mua_CM"
       },
       "my" : {
+         "bcp47_canonical" : "my",
          "cldr" : "my"
       },
       "my-mm" : {
+         "bcp47_canonical" : "my-MM",
          "cldr" : "my_MM"
       },
       "naq" : {
+         "bcp47_canonical" : "naq",
          "cldr" : "naq"
       },
       "naq-na" : {
+         "bcp47_canonical" : "naq-NA",
          "cldr" : "naq_NA"
       },
       "nb" : {
+         "bcp47_canonical" : "nb",
          "cldr" : "nb",
          "java" : "no_NO"
       },
       "nb-no" : {
+         "bcp47_canonical" : "nb-NO",
          "cldr" : "nb_NO",
          "firefox" : "nb-NO"
       },
       "nb-sj" : {
+         "bcp47_canonical" : "nb-SJ",
          "cldr" : "nb_SJ"
       },
       "nd" : {
+         "bcp47_canonical" : "nd",
          "cldr" : "nd"
       },
       "nd-zw" : {
+         "bcp47_canonical" : "nd-ZW",
          "cldr" : "nd_ZW"
       },
       "ne" : {
+         "bcp47_canonical" : "ne",
          "cldr" : "ne"
       },
       "ne-in" : {
+         "bcp47_canonical" : "ne-IN",
          "cldr" : "ne_IN"
       },
       "ne-np" : {
+         "bcp47_canonical" : "ne-NP",
          "cldr" : "ne_NP"
       },
       "nl" : {
+         "bcp47_canonical" : "nl",
          "chrome_web_store" : "nl",
          "cldr" : "nl",
          "firefox" : "nl",
          "ms" : "1043"
       },
       "nl-aw" : {
+         "bcp47_canonical" : "nl-AW",
          "cldr" : "nl_AW"
       },
       "nl-be" : {
+         "bcp47_canonical" : "nl-BE",
          "cldr" : "nl_BE",
          "java" : "nl_BE",
          "ms" : "2067"
       },
       "nl-bq" : {
+         "bcp47_canonical" : "nl-BQ",
          "cldr" : "nl_BQ"
       },
       "nl-cw" : {
+         "bcp47_canonical" : "nl-CW",
          "cldr" : "nl_CW"
       },
       "nl-nl" : {
+         "bcp47_canonical" : "nl-NL",
          "cldr" : "nl_NL",
          "java" : "nl_NL"
       },
       "nl-sr" : {
+         "bcp47_canonical" : "nl-SR",
          "cldr" : "nl_SR"
       },
       "nl-sx" : {
+         "bcp47_canonical" : "nl-SX",
          "cldr" : "nl_SX"
       },
       "nmg" : {
+         "bcp47_canonical" : "nmg",
          "cldr" : "nmg"
       },
       "nmg-cm" : {
+         "bcp47_canonical" : "nmg-CM",
          "cldr" : "nmg_CM"
       },
       "nn" : {
+         "bcp47_canonical" : "nn",
          "cldr" : "nn",
          "java" : "no_NO_NY"
       },
       "nn-no" : {
+         "bcp47_canonical" : "nn-NO",
          "cldr" : "nn_NO",
          "firefox" : "nn-NO"
       },
       "nnh" : {
+         "bcp47_canonical" : "nnh",
          "cldr" : "nnh"
       },
       "nnh-cm" : {
+         "bcp47_canonical" : "nnh-CM",
          "cldr" : "nnh_CM"
       },
       "no" : {
+         "bcp47_canonical" : "no",
          "chrome_web_store" : "no",
          "ms" : "1044"
       },
       "nus" : {
+         "bcp47_canonical" : "nus",
          "cldr" : "nus"
       },
       "nus-sd" : {
+         "bcp47_canonical" : "nus-SD",
          "cldr" : "nus_SD"
       },
       "nyn" : {
+         "bcp47_canonical" : "nyn",
          "cldr" : "nyn"
       },
       "nyn-ug" : {
+         "bcp47_canonical" : "nyn-UG",
          "cldr" : "nyn_UG"
       },
       "om" : {
+         "bcp47_canonical" : "om",
          "cldr" : "om"
       },
       "om-et" : {
+         "bcp47_canonical" : "om-ET",
          "cldr" : "om_ET"
       },
       "om-ke" : {
+         "bcp47_canonical" : "om-KE",
          "cldr" : "om_KE"
       },
       "or" : {
+         "bcp47_canonical" : "or",
          "cldr" : "or",
          "firefox" : "or"
       },
       "or-in" : {
+         "bcp47_canonical" : "or-IN",
          "cldr" : "or_IN"
       },
       "os" : {
+         "bcp47_canonical" : "os",
          "cldr" : "os"
       },
       "os-ge" : {
+         "bcp47_canonical" : "os-GE",
          "cldr" : "os_GE"
       },
       "os-ru" : {
+         "bcp47_canonical" : "os-RU",
          "cldr" : "os_RU"
       },
       "pa" : {
+         "bcp47_canonical" : "pa",
          "cldr" : "pa"
       },
       "pa-arab" : {
+         "bcp47_canonical" : "pa-Arab",
          "cldr" : "pa_Arab"
       },
       "pa-arab-pk" : {
+         "bcp47_canonical" : "pa-Arab-PK",
          "cldr" : "pa_Arab_PK"
       },
       "pa-guru" : {
+         "bcp47_canonical" : "pa",
+         "bcp47_errors" : [
+            {
+               "level" : "s",
+               "text" : "pa",
+               "type" : "langtag:script:suppress",
+               "value" : "guru"
+            }
+         ],
          "cldr" : "pa_Guru"
       },
       "pa-guru-in" : {
+         "bcp47_canonical" : "pa-IN",
+         "bcp47_errors" : [
+            {
+               "level" : "s",
+               "text" : "pa",
+               "type" : "langtag:script:suppress",
+               "value" : "guru"
+            }
+         ],
          "cldr" : "pa_Guru_IN"
       },
       "pa-in" : {
+         "bcp47_canonical" : "pa-IN",
          "firefox" : "pa-IN"
       },
       "pl" : {
+         "bcp47_canonical" : "pl",
          "chrome_web_store" : "pl",
          "cldr" : "pl",
          "firefox" : "pl",
          "ms" : "1045"
       },
       "pl-pl" : {
+         "bcp47_canonical" : "pl-PL",
          "cldr" : "pl_PL",
          "java" : "pl_PL"
       },
       "ps" : {
+         "bcp47_canonical" : "ps",
          "cldr" : "ps"
       },
       "ps-af" : {
+         "bcp47_canonical" : "ps-AF",
          "cldr" : "ps_AF"
       },
       "pt" : {
+         "bcp47_canonical" : "pt",
          "cldr" : "pt",
          "ms" : "2070"
       },
       "pt-ao" : {
+         "bcp47_canonical" : "pt-AO",
          "cldr" : "pt_AO"
       },
       "pt-br" : {
+         "bcp47_canonical" : "pt-BR",
          "chrome_web_store" : "pt_BR",
          "cldr" : "pt_BR",
          "firefox" : "pt-BR",
@@ -1876,618 +2522,820 @@
          "ms" : "1046"
       },
       "pt-cv" : {
+         "bcp47_canonical" : "pt-CV",
          "cldr" : "pt_CV"
       },
       "pt-gw" : {
+         "bcp47_canonical" : "pt-GW",
          "cldr" : "pt_GW"
       },
       "pt-mo" : {
+         "bcp47_canonical" : "pt-MO",
          "cldr" : "pt_MO"
       },
       "pt-mz" : {
+         "bcp47_canonical" : "pt-MZ",
          "cldr" : "pt_MZ"
       },
       "pt-pt" : {
+         "bcp47_canonical" : "pt-PT",
          "chrome_web_store" : "pt_PT",
          "cldr" : "pt_PT",
          "firefox" : "pt-PT",
          "java" : "pt_PT"
       },
       "pt-st" : {
+         "bcp47_canonical" : "pt-ST",
          "cldr" : "pt_ST"
       },
       "pt-tl" : {
+         "bcp47_canonical" : "pt-TL",
          "cldr" : "pt_TL"
       },
       "qu" : {
+         "bcp47_canonical" : "qu",
          "cldr" : "qu"
       },
       "qu-bo" : {
+         "bcp47_canonical" : "qu-BO",
          "cldr" : "qu_BO"
       },
       "qu-ec" : {
+         "bcp47_canonical" : "qu-EC",
          "cldr" : "qu_EC"
       },
       "qu-pe" : {
+         "bcp47_canonical" : "qu-PE",
          "cldr" : "qu_PE"
       },
       "rm" : {
+         "bcp47_canonical" : "rm",
          "cldr" : "rm",
          "firefox" : "rm",
          "ms" : "1047"
       },
       "rm-ch" : {
+         "bcp47_canonical" : "rm-CH",
          "cldr" : "rm_CH"
       },
       "rn" : {
+         "bcp47_canonical" : "rn",
          "cldr" : "rn"
       },
       "rn-bi" : {
+         "bcp47_canonical" : "rn-BI",
          "cldr" : "rn_BI"
       },
       "ro" : {
+         "bcp47_canonical" : "ro",
          "chrome_web_store" : "ro",
          "cldr" : "ro",
          "firefox" : "ro",
          "ms" : "1048"
       },
       "ro-md" : {
+         "bcp47_canonical" : "ro-MD",
          "cldr" : "ro_MD"
       },
       "ro-mo" : {
+         "bcp47_canonical" : "ro-MO",
          "ms" : "2072"
       },
       "ro-ro" : {
+         "bcp47_canonical" : "ro-RO",
          "cldr" : "ro_RO",
          "java" : "ro_RO"
       },
       "rof" : {
+         "bcp47_canonical" : "rof",
          "cldr" : "rof"
       },
       "rof-tz" : {
+         "bcp47_canonical" : "rof-TZ",
          "cldr" : "rof_TZ"
       },
       "ru" : {
+         "bcp47_canonical" : "ru",
          "chrome_web_store" : "ru",
          "cldr" : "ru",
          "firefox" : "ru",
          "ms" : "1049"
       },
       "ru-by" : {
+         "bcp47_canonical" : "ru-BY",
          "cldr" : "ru_BY"
       },
       "ru-kg" : {
+         "bcp47_canonical" : "ru-KG",
          "cldr" : "ru_KG"
       },
       "ru-kz" : {
+         "bcp47_canonical" : "ru-KZ",
          "cldr" : "ru_KZ"
       },
       "ru-md" : {
+         "bcp47_canonical" : "ru-MD",
          "cldr" : "ru_MD"
       },
       "ru-mo" : {
+         "bcp47_canonical" : "ru-MO",
          "ms" : "2073"
       },
       "ru-ru" : {
+         "bcp47_canonical" : "ru-RU",
          "cldr" : "ru_RU",
          "java" : "ru_RU"
       },
       "ru-ua" : {
+         "bcp47_canonical" : "ru-UA",
          "cldr" : "ru_UA"
       },
       "rw" : {
+         "bcp47_canonical" : "rw",
          "cldr" : "rw"
       },
       "rw-rw" : {
+         "bcp47_canonical" : "rw-RW",
          "cldr" : "rw_RW"
       },
       "rwk" : {
+         "bcp47_canonical" : "rwk",
          "cldr" : "rwk"
       },
       "rwk-tz" : {
+         "bcp47_canonical" : "rwk-TZ",
          "cldr" : "rwk_TZ"
       },
       "sah" : {
+         "bcp47_canonical" : "sah",
          "cldr" : "sah"
       },
       "sah-ru" : {
+         "bcp47_canonical" : "sah-RU",
          "cldr" : "sah_RU"
       },
       "saq" : {
+         "bcp47_canonical" : "saq",
          "cldr" : "saq"
       },
       "saq-ke" : {
+         "bcp47_canonical" : "saq-KE",
          "cldr" : "saq_KE"
       },
       "sb" : {
+         "bcp47_canonical" : "sb",
+         "bcp47_errors" : [
+            {
+               "level" : "m",
+               "type" : "langtag:language:invalid",
+               "value" : "sb"
+            }
+         ],
          "ms" : "1070"
       },
       "sbp" : {
+         "bcp47_canonical" : "sbp",
          "cldr" : "sbp"
       },
       "sbp-tz" : {
+         "bcp47_canonical" : "sbp-TZ",
          "cldr" : "sbp_TZ"
       },
       "se" : {
+         "bcp47_canonical" : "se",
          "cldr" : "se"
       },
       "se-fi" : {
+         "bcp47_canonical" : "se-FI",
          "cldr" : "se_FI"
       },
       "se-no" : {
+         "bcp47_canonical" : "se-NO",
          "cldr" : "se_NO"
       },
       "se-se" : {
+         "bcp47_canonical" : "se-SE",
          "cldr" : "se_SE"
       },
       "seh" : {
+         "bcp47_canonical" : "seh",
          "cldr" : "seh"
       },
       "seh-mz" : {
+         "bcp47_canonical" : "seh-MZ",
          "cldr" : "seh_MZ"
       },
       "ses" : {
+         "bcp47_canonical" : "ses",
          "cldr" : "ses"
       },
       "ses-ml" : {
+         "bcp47_canonical" : "ses-ML",
          "cldr" : "ses_ML"
       },
       "sg" : {
+         "bcp47_canonical" : "sg",
          "cldr" : "sg"
       },
       "sg-cf" : {
+         "bcp47_canonical" : "sg-CF",
          "cldr" : "sg_CF"
       },
       "shi" : {
+         "bcp47_canonical" : "shi",
          "cldr" : "shi"
       },
       "shi-latn" : {
+         "bcp47_canonical" : "shi-Latn",
          "cldr" : "shi_Latn"
       },
       "shi-latn-ma" : {
+         "bcp47_canonical" : "shi-Latn-MA",
          "cldr" : "shi_Latn_MA"
       },
       "shi-tfng" : {
+         "bcp47_canonical" : "shi-Tfng",
          "cldr" : "shi_Tfng"
       },
       "shi-tfng-ma" : {
+         "bcp47_canonical" : "shi-Tfng-MA",
          "cldr" : "shi_Tfng_MA"
       },
       "si" : {
+         "bcp47_canonical" : "si",
          "cldr" : "si",
          "firefox" : "si"
       },
       "si-lk" : {
+         "bcp47_canonical" : "si-LK",
          "cldr" : "si_LK"
       },
       "sk" : {
+         "bcp47_canonical" : "sk",
          "chrome_web_store" : "sk",
          "cldr" : "sk",
          "firefox" : "sk",
          "ms" : "1051"
       },
       "sk-sk" : {
+         "bcp47_canonical" : "sk-SK",
          "cldr" : "sk_SK",
          "java" : "sk_SK"
       },
       "sl" : {
+         "bcp47_canonical" : "sl",
          "chrome_web_store" : "sl",
          "cldr" : "sl",
          "firefox" : "sl",
          "ms" : "1060"
       },
       "sl-si" : {
+         "bcp47_canonical" : "sl-SI",
          "cldr" : "sl_SI",
          "java" : "sl_SI"
       },
       "smn" : {
+         "bcp47_canonical" : "smn",
          "cldr" : "smn"
       },
       "smn-fi" : {
+         "bcp47_canonical" : "smn-FI",
          "cldr" : "smn_FI"
       },
       "sn" : {
+         "bcp47_canonical" : "sn",
          "cldr" : "sn"
       },
       "sn-zw" : {
+         "bcp47_canonical" : "sn-ZW",
          "cldr" : "sn_ZW"
       },
       "so" : {
+         "bcp47_canonical" : "so",
          "cldr" : "so"
       },
       "so-dj" : {
+         "bcp47_canonical" : "so-DJ",
          "cldr" : "so_DJ"
       },
       "so-et" : {
+         "bcp47_canonical" : "so-ET",
          "cldr" : "so_ET"
       },
       "so-ke" : {
+         "bcp47_canonical" : "so-KE",
          "cldr" : "so_KE"
       },
       "so-so" : {
+         "bcp47_canonical" : "so-SO",
          "cldr" : "so_SO"
       },
       "son" : {
+         "bcp47_canonical" : "son",
          "firefox" : "son"
       },
       "sq" : {
+         "bcp47_canonical" : "sq",
          "cldr" : "sq",
          "firefox" : "sq",
          "ms" : "1052"
       },
       "sq-al" : {
+         "bcp47_canonical" : "sq-AL",
          "cldr" : "sq_AL",
          "java" : "sq_AL"
       },
       "sq-mk" : {
+         "bcp47_canonical" : "sq-MK",
          "cldr" : "sq_MK"
       },
       "sq-xk" : {
+         "bcp47_canonical" : "sq-XK",
          "cldr" : "sq_XK"
       },
       "sr" : {
+         "bcp47_canonical" : "sr",
          "chrome_web_store" : "sr",
          "cldr" : "sr",
          "firefox" : "sr",
          "ms" : "3098"
       },
       "sr-ba" : {
+         "bcp47_canonical" : "sr-BA",
          "java" : "sr_BA"
       },
       "sr-cyrl" : {
+         "bcp47_canonical" : "sr-Cyrl",
          "cldr" : "sr_Cyrl"
       },
       "sr-cyrl-ba" : {
+         "bcp47_canonical" : "sr-Cyrl-BA",
          "cldr" : "sr_Cyrl_BA"
       },
       "sr-cyrl-me" : {
+         "bcp47_canonical" : "sr-Cyrl-ME",
          "cldr" : "sr_Cyrl_ME"
       },
       "sr-cyrl-rs" : {
+         "bcp47_canonical" : "sr-Cyrl-RS",
          "cldr" : "sr_Cyrl_RS"
       },
       "sr-cyrl-xk" : {
+         "bcp47_canonical" : "sr-Cyrl-XK",
          "cldr" : "sr_Cyrl_XK"
       },
       "sr-latn" : {
+         "bcp47_canonical" : "sr-Latn",
          "cldr" : "sr_Latn"
       },
       "sr-latn-ba" : {
+         "bcp47_canonical" : "sr-Latn-BA",
          "cldr" : "sr_Latn_BA",
          "java" : "sr_Latn_BA"
       },
       "sr-latn-me" : {
+         "bcp47_canonical" : "sr-Latn-ME",
          "cldr" : "sr_Latn_ME",
          "java" : "sr_Latn_ME"
       },
       "sr-latn-rs" : {
+         "bcp47_canonical" : "sr-Latn-RS",
          "cldr" : "sr_Latn_RS",
          "java" : "sr_Latn_RS"
       },
       "sr-latn-xk" : {
+         "bcp47_canonical" : "sr-Latn-XK",
          "cldr" : "sr_Latn_XK"
       },
       "sr-me" : {
+         "bcp47_canonical" : "sr-ME",
          "java" : "sr_ME"
       },
       "sr-rs" : {
+         "bcp47_canonical" : "sr-RS",
          "java" : "sr_RS"
       },
       "sv" : {
+         "bcp47_canonical" : "sv",
          "chrome_web_store" : "sv",
          "cldr" : "sv",
          "ms" : "1053"
       },
       "sv-ax" : {
+         "bcp47_canonical" : "sv-AX",
          "cldr" : "sv_AX"
       },
       "sv-fi" : {
+         "bcp47_canonical" : "sv-FI",
          "cldr" : "sv_FI",
          "ms" : "2077"
       },
       "sv-se" : {
+         "bcp47_canonical" : "sv-SE",
          "cldr" : "sv_SE",
          "firefox" : "sv-SE",
          "java" : "sv_SE"
       },
       "sw" : {
+         "bcp47_canonical" : "sw",
          "chrome_web_store" : "sw",
          "cldr" : "sw"
       },
       "sw-cd" : {
+         "bcp47_canonical" : "sw-CD",
          "cldr" : "sw_CD"
       },
       "sw-ke" : {
+         "bcp47_canonical" : "sw-KE",
          "cldr" : "sw_KE"
       },
       "sw-tz" : {
+         "bcp47_canonical" : "sw-TZ",
          "cldr" : "sw_TZ"
       },
       "sw-ug" : {
+         "bcp47_canonical" : "sw-UG",
          "cldr" : "sw_UG"
       },
       "sx" : {
+         "bcp47_canonical" : "sx",
+         "bcp47_errors" : [
+            {
+               "level" : "m",
+               "type" : "langtag:language:invalid",
+               "value" : "sx"
+            }
+         ],
          "ms" : "1072"
       },
       "ta" : {
+         "bcp47_canonical" : "ta",
          "chrome_web_store" : "ta",
          "cldr" : "ta",
          "firefox" : "ta"
       },
       "ta-in" : {
+         "bcp47_canonical" : "ta-IN",
          "cldr" : "ta_IN"
       },
       "ta-lk" : {
+         "bcp47_canonical" : "ta-LK",
          "cldr" : "ta_LK"
       },
       "ta-my" : {
+         "bcp47_canonical" : "ta-MY",
          "cldr" : "ta_MY"
       },
       "ta-sg" : {
+         "bcp47_canonical" : "ta-SG",
          "cldr" : "ta_SG"
       },
       "te" : {
+         "bcp47_canonical" : "te",
          "chrome_web_store" : "te",
          "cldr" : "te",
          "firefox" : "te"
       },
       "te-in" : {
+         "bcp47_canonical" : "te-IN",
          "cldr" : "te_IN"
       },
       "teo" : {
+         "bcp47_canonical" : "teo",
          "cldr" : "teo"
       },
       "teo-ke" : {
+         "bcp47_canonical" : "teo-KE",
          "cldr" : "teo_KE"
       },
       "teo-ug" : {
+         "bcp47_canonical" : "teo-UG",
          "cldr" : "teo_UG"
       },
       "th" : {
+         "bcp47_canonical" : "th",
          "chrome_web_store" : "th",
          "cldr" : "th",
          "firefox" : "th",
          "ms" : "1054"
       },
       "th-th" : {
+         "bcp47_canonical" : "th-TH",
          "cldr" : "th_TH",
          "java" : "th_TH"
       },
       "th-th-u-nu-thai" : {
+         "bcp47_canonical" : "th-TH-u-nu-thai",
          "java" : "th_TH_TH"
       },
       "ti" : {
+         "bcp47_canonical" : "ti",
          "cldr" : "ti"
       },
       "ti-er" : {
+         "bcp47_canonical" : "ti-ER",
          "cldr" : "ti_ER"
       },
       "ti-et" : {
+         "bcp47_canonical" : "ti-ET",
          "cldr" : "ti_ET"
       },
       "tn" : {
+         "bcp47_canonical" : "tn",
          "ms" : "1074"
       },
       "to" : {
+         "bcp47_canonical" : "to",
          "cldr" : "to"
       },
       "to-to" : {
+         "bcp47_canonical" : "to-TO",
          "cldr" : "to_TO"
       },
       "tr" : {
+         "bcp47_canonical" : "tr",
          "chrome_web_store" : "tr",
          "cldr" : "tr",
          "firefox" : "tr",
          "ms" : "1055"
       },
       "tr-cy" : {
+         "bcp47_canonical" : "tr-CY",
          "cldr" : "tr_CY"
       },
       "tr-tr" : {
+         "bcp47_canonical" : "tr-TR",
          "cldr" : "tr_TR",
          "java" : "tr_TR"
       },
       "ts" : {
+         "bcp47_canonical" : "ts",
          "ms" : "1073"
       },
       "twq" : {
+         "bcp47_canonical" : "twq",
          "cldr" : "twq"
       },
       "twq-ne" : {
+         "bcp47_canonical" : "twq-NE",
          "cldr" : "twq_NE"
       },
       "tzm" : {
+         "bcp47_canonical" : "tzm",
          "cldr" : "tzm"
       },
       "tzm-latn" : {
+         "bcp47_canonical" : "tzm-Latn",
          "cldr" : "tzm_Latn"
       },
       "tzm-latn-ma" : {
+         "bcp47_canonical" : "tzm-Latn-MA",
          "cldr" : "tzm_Latn_MA"
       },
       "ug" : {
+         "bcp47_canonical" : "ug",
          "cldr" : "ug"
       },
       "ug-arab" : {
+         "bcp47_canonical" : "ug-Arab",
          "cldr" : "ug_Arab"
       },
       "ug-arab-cn" : {
+         "bcp47_canonical" : "ug-Arab-CN",
          "cldr" : "ug_Arab_CN"
       },
       "uk" : {
+         "bcp47_canonical" : "uk",
          "chrome_web_store" : "uk",
          "cldr" : "uk",
          "firefox" : "uk",
          "ms" : "1058"
       },
       "uk-ua" : {
+         "bcp47_canonical" : "uk-UA",
          "cldr" : "uk_UA",
          "java" : "uk_UA"
       },
       "und" : {
+         "bcp47_canonical" : "und",
+         "bcp47_errors" : [
+            {
+               "level" : "s",
+               "type" : "langtag:language:und"
+            }
+         ],
          "cldr" : "root"
       },
       "ur" : {
+         "bcp47_canonical" : "ur",
          "cldr" : "ur",
          "ms" : "1056"
       },
       "ur-in" : {
+         "bcp47_canonical" : "ur-IN",
          "cldr" : "ur_IN"
       },
       "ur-pk" : {
+         "bcp47_canonical" : "ur-PK",
          "cldr" : "ur_PK"
       },
       "uz" : {
+         "bcp47_canonical" : "uz",
          "cldr" : "uz",
          "firefox" : "uz"
       },
       "uz-arab" : {
+         "bcp47_canonical" : "uz-Arab",
          "cldr" : "uz_Arab"
       },
       "uz-arab-af" : {
+         "bcp47_canonical" : "uz-Arab-AF",
          "cldr" : "uz_Arab_AF"
       },
       "uz-cyrl" : {
+         "bcp47_canonical" : "uz-Cyrl",
          "cldr" : "uz_Cyrl"
       },
       "uz-cyrl-uz" : {
+         "bcp47_canonical" : "uz-Cyrl-UZ",
          "cldr" : "uz_Cyrl_UZ"
       },
       "uz-latn" : {
+         "bcp47_canonical" : "uz-Latn",
          "cldr" : "uz_Latn"
       },
       "uz-latn-uz" : {
+         "bcp47_canonical" : "uz-Latn-UZ",
          "cldr" : "uz_Latn_UZ"
       },
       "vai" : {
+         "bcp47_canonical" : "vai",
          "cldr" : "vai"
       },
       "vai-latn" : {
+         "bcp47_canonical" : "vai-Latn",
          "cldr" : "vai_Latn"
       },
       "vai-latn-lr" : {
+         "bcp47_canonical" : "vai-Latn-LR",
          "cldr" : "vai_Latn_LR"
       },
       "vai-vaii" : {
+         "bcp47_canonical" : "vai-Vaii",
          "cldr" : "vai_Vaii"
       },
       "vai-vaii-lr" : {
+         "bcp47_canonical" : "vai-Vaii-LR",
          "cldr" : "vai_Vaii_LR"
       },
       "vi" : {
+         "bcp47_canonical" : "vi",
          "chrome_web_store" : "vi",
          "cldr" : "vi",
          "firefox" : "vi",
          "ms" : "1066"
       },
       "vi-vn" : {
+         "bcp47_canonical" : "vi-VN",
          "cldr" : "vi_VN",
          "java" : "vi_VN"
       },
       "vun" : {
+         "bcp47_canonical" : "vun",
          "cldr" : "vun"
       },
       "vun-tz" : {
+         "bcp47_canonical" : "vun-TZ",
          "cldr" : "vun_TZ"
       },
       "wae" : {
+         "bcp47_canonical" : "wae",
          "cldr" : "wae"
       },
       "wae-ch" : {
+         "bcp47_canonical" : "wae-CH",
          "cldr" : "wae_CH"
       },
       "xh" : {
+         "bcp47_canonical" : "xh",
          "firefox" : "xh",
          "ms" : "1076"
       },
       "xog" : {
+         "bcp47_canonical" : "xog",
          "cldr" : "xog"
       },
       "xog-ug" : {
+         "bcp47_canonical" : "xog-UG",
          "cldr" : "xog_UG"
       },
       "yav" : {
+         "bcp47_canonical" : "yav",
          "cldr" : "yav"
       },
       "yav-cm" : {
+         "bcp47_canonical" : "yav-CM",
          "cldr" : "yav_CM"
       },
       "yi" : {
+         "bcp47_canonical" : "yi",
          "cldr" : "yi"
       },
       "yi-001" : {
+         "bcp47_canonical" : "yi-001",
          "cldr" : "yi_001"
       },
       "yo" : {
+         "bcp47_canonical" : "yo",
          "cldr" : "yo"
       },
       "yo-bj" : {
+         "bcp47_canonical" : "yo-BJ",
          "cldr" : "yo_BJ"
       },
       "yo-ng" : {
+         "bcp47_canonical" : "yo-NG",
          "cldr" : "yo_NG"
       },
       "zgh" : {
+         "bcp47_canonical" : "zgh",
          "cldr" : "zgh"
       },
       "zgh-ma" : {
+         "bcp47_canonical" : "zgh-MA",
          "cldr" : "zgh_MA"
       },
       "zh" : {
+         "bcp47_canonical" : "zh",
          "cldr" : "zh"
       },
       "zh-cn" : {
+         "bcp47_canonical" : "zh-CN",
          "chrome_web_store" : "zh_CN",
          "firefox" : "zh-CN",
          "java" : "zh_CN",
          "ms" : "2052"
       },
       "zh-hans" : {
+         "bcp47_canonical" : "zh-Hans",
          "cldr" : "zh_Hans"
       },
       "zh-hans-cn" : {
+         "bcp47_canonical" : "zh-Hans-CN",
          "cldr" : "zh_Hans_CN"
       },
       "zh-hans-hk" : {
+         "bcp47_canonical" : "zh-Hans-HK",
          "cldr" : "zh_Hans_HK"
       },
       "zh-hans-mo" : {
+         "bcp47_canonical" : "zh-Hans-MO",
          "cldr" : "zh_Hans_MO"
       },
       "zh-hans-sg" : {
+         "bcp47_canonical" : "zh-Hans-SG",
          "cldr" : "zh_Hans_SG"
       },
       "zh-hant" : {
+         "bcp47_canonical" : "zh-Hant",
          "cldr" : "zh_Hant"
       },
       "zh-hant-hk" : {
+         "bcp47_canonical" : "zh-Hant-HK",
          "cldr" : "zh_Hant_HK"
       },
       "zh-hant-mo" : {
+         "bcp47_canonical" : "zh-Hant-MO",
          "cldr" : "zh_Hant_MO"
       },
       "zh-hant-tw" : {
+         "bcp47_canonical" : "zh-Hant-TW",
          "cldr" : "zh_Hant_TW"
       },
       "zh-hk" : {
+         "bcp47_canonical" : "zh-HK",
          "java" : "zh_HK",
          "ms" : "3076"
       },
       "zh-sg" : {
+         "bcp47_canonical" : "zh-SG",
          "java" : "zh_SG",
          "ms" : "4100"
       },
       "zh-tw" : {
+         "bcp47_canonical" : "zh-TW",
          "chrome_web_store" : "zh_TW",
          "firefox" : "zh-TW",
          "java" : "zh_TW",
          "ms" : "1028"
       },
       "zu" : {
+         "bcp47_canonical" : "zu",
          "cldr" : "zu",
          "ms" : "1077"
       },
       "zu-za" : {
+         "bcp47_canonical" : "zu-ZA",
          "cldr" : "zu_ZA"
       }
    }
