@@ -14,6 +14,25 @@ A JSON object with following name/value pair:
     their descriptions, as JSON objects with following name value
     pairs:
 
+      bcp47_canonical [string]
+
+        The canonicalized BCP 47 language tag for the locale.
+        Deprecated subtags are replaced by preferred form whenever
+        possible and suppressable script subtags are removed, if any.
+        Unregistered and invalid subtags are left as is.  Cases are
+        also normalized into their preferred form.
+
+      bcp47_errors [array?]
+
+        A JSON array of MUST- or SHOULD-level conformance error, when
+        the locale name is interpreted as a BCP 47 language tag
+        (except for SHOULD-level errors on use of lowercases).  If
+        there is no error, the array is not presented.  Otherwise, a
+        non-empty array is presented with errors in |Web::LangTag|
+        Perl module's format
+        <https://github.com/manakai/perl-web-langtag/blob/master/lib/Web/LangTag.pod#user-content-%24lt-%3Eonerror_(%24code)>
+        <https://github.com/manakai/data-errors/blob/master/doc/onerror.txt>.
+
       chrome_web_store [string?]
 
         The locale code used in Google Chrome Web Store, if exists.
@@ -49,6 +68,14 @@ JDK 7 and JRE 7 Supported Locales
 <http://www.oracle.com/technetwork/java/javase/javase7locales-334809.html>.
 
 Mozilla Firefox <ftp://archive.mozilla.org/pub/mozilla.org/firefox/>.
+
+Tags for Identifying Languages <http://tools.ietf.org/html/rfc5646>.
+
+Web::LangTag Perl module
+<https://github.com/manakai/perl-web-langtag/blob/master/lib/Web/LangTag.pod>.
+
+onerror
+<https://github.com/manakai/data-errors/blob/master/doc/onerror.txt>.
 
 See also langtags.json in the data-web-defs repository
 <https://github.com/manakai/data-web-defs/blob/master/doc/langtags.txt>.

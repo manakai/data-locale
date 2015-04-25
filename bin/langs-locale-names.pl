@@ -2,6 +2,8 @@ use strict;
 use warnings;
 use Path::Tiny;
 use JSON::PS;
+use lib glob path (__FILE__)->parent->child ('modules/*/lib');
+use Web::LangTag;
 
 my $local_path = path (__FILE__)->parent->parent->child ('local');
 my $src_path = path (__FILE__)->parent->parent->child ('src');
@@ -73,6 +75,28 @@ my $Data = {};
       $Data->{tags}->{$tag}->{java} = $code;
     }
   }
+}
+
+for my $tag (keys %{$Data->{tags}}) {
+  my @error;
+  my $lt = Web::LangTag->new;
+  my $suppress = 0;
+  $lt->onerror (sub {
+    my $error = {@_};
+    return if $error->{level} eq 'w' or $error->{level} eq 'i';
+    return if $error->{level} eq 's' and $error->{type} =~ /:case$/;
+    if ($error->{type} eq 'langtag:script:suppress') {
+      $suppress = 1;
+    }
+    push @error, $error;
+  });
+  my $parsed = $lt->parse_tag ($tag);
+  $lt->check_parsed_tag ($parsed);
+  $Data->{tags}->{$tag}->{bcp47_errors} = \@error if @error;
+
+  my $canon = $lt->canonicalize_tag ($lt->normalize_tag ($tag));
+  $canon =~ s/^([a-z]+)-[A-Z][a-z]{3}\b/$1/ if $suppress;
+  $Data->{tags}->{$tag}->{bcp47_canonical} = $canon;
 }
 
 print perl2json_bytes_for_record $Data;
