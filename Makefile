@@ -91,10 +91,14 @@ local/fx-locales.html:
 	$(WGET) -O $@ ftp://archive.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-x86_64/
 local/fx-locales.txt: local/fx-locales.html
 	perl -e 'while (<>) { if (m{href="[^"]+?/([0-9a-zA-Z-]+)/"}) { print "$$1\n" unless {xpi => 1}->{$$1} } }' < $< > $@
+local/mediawiki-locales.php:
+	$(WGET) -O $@ https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/Names.php
+local/mediawiki-locales.txt: local/mediawiki-locales.php always
+	perl -e 'local $$/ = undef; $$x = <>; $$x =~ s{/\*.*?\*/}{}gs; $$x =~ s{#.*\n}{\n}g; $$q = chr 0x27; while ($$x =~ /$$q([a-z0-9-]+)$$q\s*=>/g) { print "$$1\n" }' < $< > $@
 
 data/langs/locale-names.json: bin/langs-locale-names.pl \
   local/cldr-locales.txt src/ms-locales.txt src/chromewebstore-locales.txt \
-  local/fx-locales.txt src/java-locales.txt
+  local/fx-locales.txt src/java-locales.txt local/mediawiki-locales.txt
 	$(PERL) $< > $@
 
 ## ------ Tests ------

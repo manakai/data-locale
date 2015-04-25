@@ -5,7 +5,14 @@ Locale identifiers.
 
 * Structure
 
-A JSON object with following name/value pair:
+A JSON object with following name/value pairs:
+
+  preferred_tags [object]
+
+    Additional rules for normalization of BCP 47 language tags,
+    including mapping from informal or invalid tags to formally
+    registered tags.  Names are original language tags in lowercase
+    and values are preferred language tags in lowercase.
 
   tags [object]
 
@@ -50,13 +57,20 @@ A JSON object with following name/value pair:
 
         The locale identifier used in Java, if exists.
 
-      mysql [string?]
+      mediawiki [boolean]
 
-        The locale identifier used in MySQL, if exists.
+        Whether the language name is included in MediaWiki's source
+        code
+        <https://github.com/wikimedia/mediawiki/blob/master/languages/Names.php>
+        or not.
 
       ms [integer?]
 
         The Microsoft's locale ID (LCID), if exists.
+
+      mysql [string?]
+
+        The locale identifier used in MySQL, if exists.
 
 * Sources
 
@@ -74,7 +88,12 @@ JDK 7 and JRE 7 Supported Locales
 10.7 MySQL Server Locale Support
 <https://dev.mysql.com/doc/refman/5.6/en/locale-support.html>.
 
+List of Wikipedias
+<http://meta.wikimedia.org/wiki/List_of_Wikipedias>.
+
 Mozilla Firefox <ftp://archive.mozilla.org/pub/mozilla.org/firefox/>.
+
+MediaWiki <https://github.com/wikimedia/mediawiki>.
 
 Tags for Identifying Languages <http://tools.ietf.org/html/rfc5646>.
 
