@@ -1,0 +1,59 @@
+langs/locale-names.json
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Locale identifiers.
+
+* Structure
+
+A JSON object with following name/value pair:
+
+  tags [object]
+
+    Names are locale identifiers or language tags, normalized to
+    lowercase BCP 47 language tag (whenever possible), and values are
+    their descriptions, as JSON objects with following name value
+    pairs:
+
+      chrome_web_store [string?]
+
+        The locale code used in Google Chrome Web Store, if exists.
+
+      cldr [string?]
+
+        The Unicode locale identifier used in CLDR, if there is a data
+        file for the locale.
+
+      firefox [string?]
+
+        The locale identifier used in Firefox, if exists.
+
+      java [string?]
+
+        The locale identifier used in Java, if exists.
+
+      ms [integer?]
+
+        The Microsoft's locale ID (LCID), if exists.
+
+* Sources
+
+Unicode CLDR Project <http://cldr.unicode.org/>.
+
+List of locale IDs (LCIDs)
+<https://msdn.microsoft.com/ja-jp/library/cc392381.aspx>.
+
+Internationalizing Your App
+<https://developer.chrome.com/webstore/i18n>.
+
+JDK 7 and JRE 7 Supported Locales
+<http://www.oracle.com/technetwork/java/javase/javase7locales-334809.html>.
+
+Mozilla Firefox <ftp://archive.mozilla.org/pub/mozilla.org/firefox/>.
+
+See also langtags.json in the data-web-defs repository
+<https://github.com/manakai/data-web-defs/blob/master/doc/langtags.txt>.
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of this file.

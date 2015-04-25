@@ -51,7 +51,8 @@ data: data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json \
     data/datetime/durations.json data/datetime/gregorian.json \
     data/datetime/weeks.json data/datetime/months.json \
     data/datetime/seconds.json \
-    data/timezones/mail-names.json
+    data/timezones/mail-names.json \
+    data/langs/locale-names.json
 clean-data:
 
 data/calendar/jp-holidays.json: bin/calendar-jp-holidays.pl
@@ -82,6 +83,20 @@ data/datetime/seconds.json: bin/datetime-seconds.pl local/leap-seconds.txt
 data/timezones/mail-names.json: bin/timezones-mail-names.pl
 	$(PERL) $< > $@
 
+local/cldr-locales.html:
+	$(WGET) -O $@ http://www.unicode.org/repos/cldr/tags/latest/common/main/
+local/cldr-locales.txt: local/cldr-locales.html
+	perl -e 'while (<>) { if (/href="([0-9a-zA-Z_]+)\.xml"/) { print "$$1\n" } }' < $< > $@
+local/fx-locales.html:
+	$(WGET) -O $@ ftp://archive.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-x86_64/
+local/fx-locales.txt: local/fx-locales.html
+	perl -e 'while (<>) { if (m{href="[^"]+?/([0-9a-zA-Z-]+)/"}) { print "$$1\n" unless {xpi => 1}->{$$1} } }' < $< > $@
+
+data/langs/locale-names.json: bin/langs-locale-names.pl \
+  local/cldr-locales.txt src/ms-locales.txt src/chromewebstore-locales.txt \
+  local/fx-locales.txt src/java-locales.txt
+	$(PERL) $< > $@
+
 ## ------ Tests ------
 
 PROVE = ./prove
@@ -97,3 +112,5 @@ test-deps: deps local/bin/jq
 
 test-main:
 	$(PROVE) t/*.t
+
+always:

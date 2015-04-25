@@ -1,0 +1,2494 @@
+{
+   "tags" : {
+      "ach" : {
+         "firefox" : "ach"
+      },
+      "af" : {
+         "cldr" : "af",
+         "firefox" : "af",
+         "ms" : "1078"
+      },
+      "af-na" : {
+         "cldr" : "af_NA"
+      },
+      "af-za" : {
+         "cldr" : "af_ZA"
+      },
+      "agq" : {
+         "cldr" : "agq"
+      },
+      "agq-cm" : {
+         "cldr" : "agq_CM"
+      },
+      "ak" : {
+         "cldr" : "ak"
+      },
+      "ak-gh" : {
+         "cldr" : "ak_GH"
+      },
+      "am" : {
+         "chrome_web_store" : "am",
+         "cldr" : "am"
+      },
+      "am-et" : {
+         "cldr" : "am_ET"
+      },
+      "an" : {
+         "firefox" : "an"
+      },
+      "ar" : {
+         "chrome_web_store" : "ar",
+         "cldr" : "ar",
+         "firefox" : "ar"
+      },
+      "ar-001" : {
+         "cldr" : "ar_001"
+      },
+      "ar-ae" : {
+         "cldr" : "ar_AE",
+         "java" : "ar_AE",
+         "ms" : "14337"
+      },
+      "ar-bh" : {
+         "cldr" : "ar_BH",
+         "java" : "ar_BH",
+         "ms" : "15361"
+      },
+      "ar-dj" : {
+         "cldr" : "ar_DJ"
+      },
+      "ar-dz" : {
+         "cldr" : "ar_DZ",
+         "java" : "ar_DZ",
+         "ms" : "5121"
+      },
+      "ar-eg" : {
+         "cldr" : "ar_EG",
+         "java" : "ar_EG",
+         "ms" : "3073"
+      },
+      "ar-eh" : {
+         "cldr" : "ar_EH"
+      },
+      "ar-er" : {
+         "cldr" : "ar_ER"
+      },
+      "ar-il" : {
+         "cldr" : "ar_IL"
+      },
+      "ar-iq" : {
+         "cldr" : "ar_IQ",
+         "java" : "ar_IQ",
+         "ms" : "2049"
+      },
+      "ar-jo" : {
+         "cldr" : "ar_JO",
+         "java" : "ar_JO",
+         "ms" : "11265"
+      },
+      "ar-km" : {
+         "cldr" : "ar_KM"
+      },
+      "ar-kw" : {
+         "cldr" : "ar_KW",
+         "java" : "ar_KW",
+         "ms" : "13313"
+      },
+      "ar-lb" : {
+         "cldr" : "ar_LB",
+         "java" : "ar_LB",
+         "ms" : "12289"
+      },
+      "ar-ly" : {
+         "cldr" : "ar_LY",
+         "java" : "ar_LY",
+         "ms" : "4097"
+      },
+      "ar-ma" : {
+         "cldr" : "ar_MA",
+         "java" : "ar_MA",
+         "ms" : "6145"
+      },
+      "ar-mr" : {
+         "cldr" : "ar_MR"
+      },
+      "ar-om" : {
+         "cldr" : "ar_OM",
+         "java" : "ar_OM",
+         "ms" : "8193"
+      },
+      "ar-ps" : {
+         "cldr" : "ar_PS"
+      },
+      "ar-qa" : {
+         "cldr" : "ar_QA",
+         "java" : "ar_QA",
+         "ms" : "16385"
+      },
+      "ar-sa" : {
+         "cldr" : "ar_SA",
+         "java" : "ar_SA",
+         "ms" : "1025"
+      },
+      "ar-sd" : {
+         "cldr" : "ar_SD",
+         "java" : "ar_SD"
+      },
+      "ar-so" : {
+         "cldr" : "ar_SO"
+      },
+      "ar-ss" : {
+         "cldr" : "ar_SS"
+      },
+      "ar-sy" : {
+         "cldr" : "ar_SY",
+         "java" : "ar_SY",
+         "ms" : "10241"
+      },
+      "ar-td" : {
+         "cldr" : "ar_TD"
+      },
+      "ar-tn" : {
+         "cldr" : "ar_TN",
+         "java" : "ar_TN",
+         "ms" : "7169"
+      },
+      "ar-ye" : {
+         "cldr" : "ar_YE",
+         "java" : "ar_YE",
+         "ms" : "9217"
+      },
+      "as" : {
+         "cldr" : "as",
+         "firefox" : "as"
+      },
+      "as-in" : {
+         "cldr" : "as_IN"
+      },
+      "asa" : {
+         "cldr" : "asa"
+      },
+      "asa-tz" : {
+         "cldr" : "asa_TZ"
+      },
+      "ast" : {
+         "cldr" : "ast",
+         "firefox" : "ast"
+      },
+      "ast-es" : {
+         "cldr" : "ast_ES"
+      },
+      "az" : {
+         "cldr" : "az",
+         "firefox" : "az"
+      },
+      "az-cyrl" : {
+         "cldr" : "az_Cyrl"
+      },
+      "az-cyrl-az" : {
+         "cldr" : "az_Cyrl_AZ"
+      },
+      "az-latn" : {
+         "cldr" : "az_Latn"
+      },
+      "az-latn-az" : {
+         "cldr" : "az_Latn_AZ"
+      },
+      "bas" : {
+         "cldr" : "bas"
+      },
+      "bas-cm" : {
+         "cldr" : "bas_CM"
+      },
+      "be" : {
+         "cldr" : "be",
+         "firefox" : "be",
+         "ms" : "1059"
+      },
+      "be-by" : {
+         "cldr" : "be_BY",
+         "java" : "be_BY"
+      },
+      "bem" : {
+         "cldr" : "bem"
+      },
+      "bem-zm" : {
+         "cldr" : "bem_ZM"
+      },
+      "bez" : {
+         "cldr" : "bez"
+      },
+      "bez-tz" : {
+         "cldr" : "bez_TZ"
+      },
+      "bg" : {
+         "chrome_web_store" : "bg",
+         "cldr" : "bg",
+         "firefox" : "bg",
+         "ms" : "1026"
+      },
+      "bg-bg" : {
+         "cldr" : "bg_BG",
+         "java" : "bg_BG"
+      },
+      "bm" : {
+         "cldr" : "bm"
+      },
+      "bm-latn" : {
+         "cldr" : "bm_Latn"
+      },
+      "bm-latn-ml" : {
+         "cldr" : "bm_Latn_ML"
+      },
+      "bn" : {
+         "chrome_web_store" : "bn",
+         "cldr" : "bn"
+      },
+      "bn-bd" : {
+         "cldr" : "bn_BD",
+         "firefox" : "bn-BD"
+      },
+      "bn-in" : {
+         "cldr" : "bn_IN",
+         "firefox" : "bn-IN"
+      },
+      "bo" : {
+         "cldr" : "bo"
+      },
+      "bo-cn" : {
+         "cldr" : "bo_CN"
+      },
+      "bo-in" : {
+         "cldr" : "bo_IN"
+      },
+      "br" : {
+         "cldr" : "br",
+         "firefox" : "br"
+      },
+      "br-fr" : {
+         "cldr" : "br_FR"
+      },
+      "brx" : {
+         "cldr" : "brx"
+      },
+      "brx-in" : {
+         "cldr" : "brx_IN"
+      },
+      "bs" : {
+         "cldr" : "bs",
+         "firefox" : "bs"
+      },
+      "bs-cyrl" : {
+         "cldr" : "bs_Cyrl"
+      },
+      "bs-cyrl-ba" : {
+         "cldr" : "bs_Cyrl_BA"
+      },
+      "bs-latn" : {
+         "cldr" : "bs_Latn"
+      },
+      "bs-latn-ba" : {
+         "cldr" : "bs_Latn_BA"
+      },
+      "ca" : {
+         "chrome_web_store" : "ca",
+         "cldr" : "ca",
+         "firefox" : "ca",
+         "ms" : "1027"
+      },
+      "ca-ad" : {
+         "cldr" : "ca_AD"
+      },
+      "ca-es" : {
+         "cldr" : "ca_ES",
+         "java" : "ca_ES"
+      },
+      "ca-es-valencia" : {
+         "cldr" : "ca_ES_VALENCIA"
+      },
+      "ca-fr" : {
+         "cldr" : "ca_FR"
+      },
+      "ca-it" : {
+         "cldr" : "ca_IT"
+      },
+      "cgg" : {
+         "cldr" : "cgg"
+      },
+      "cgg-ug" : {
+         "cldr" : "cgg_UG"
+      },
+      "chr" : {
+         "cldr" : "chr"
+      },
+      "chr-us" : {
+         "cldr" : "chr_US"
+      },
+      "cs" : {
+         "chrome_web_store" : "cs",
+         "cldr" : "cs",
+         "firefox" : "cs",
+         "ms" : "1029"
+      },
+      "cs-cz" : {
+         "cldr" : "cs_CZ",
+         "java" : "cs_CZ"
+      },
+      "cy" : {
+         "cldr" : "cy",
+         "firefox" : "cy"
+      },
+      "cy-gb" : {
+         "cldr" : "cy_GB"
+      },
+      "da" : {
+         "chrome_web_store" : "da",
+         "cldr" : "da",
+         "firefox" : "da",
+         "ms" : "1030"
+      },
+      "da-dk" : {
+         "cldr" : "da_DK",
+         "java" : "da_DK"
+      },
+      "da-gl" : {
+         "cldr" : "da_GL"
+      },
+      "dav" : {
+         "cldr" : "dav"
+      },
+      "dav-ke" : {
+         "cldr" : "dav_KE"
+      },
+      "de" : {
+         "chrome_web_store" : "de",
+         "cldr" : "de",
+         "firefox" : "de",
+         "ms" : "1031"
+      },
+      "de-at" : {
+         "cldr" : "de_AT",
+         "java" : "de_AT",
+         "ms" : "3079"
+      },
+      "de-be" : {
+         "cldr" : "de_BE"
+      },
+      "de-ch" : {
+         "cldr" : "de_CH",
+         "java" : "de_CH",
+         "ms" : "2055"
+      },
+      "de-de" : {
+         "cldr" : "de_DE",
+         "java" : "de_DE"
+      },
+      "de-li" : {
+         "cldr" : "de_LI",
+         "ms" : "5127"
+      },
+      "de-lu" : {
+         "cldr" : "de_LU",
+         "java" : "de_LU",
+         "ms" : "4103"
+      },
+      "dje" : {
+         "cldr" : "dje"
+      },
+      "dje-ne" : {
+         "cldr" : "dje_NE"
+      },
+      "dsb" : {
+         "cldr" : "dsb",
+         "firefox" : "dsb"
+      },
+      "dsb-de" : {
+         "cldr" : "dsb_DE"
+      },
+      "dua" : {
+         "cldr" : "dua"
+      },
+      "dua-cm" : {
+         "cldr" : "dua_CM"
+      },
+      "dyo" : {
+         "cldr" : "dyo"
+      },
+      "dyo-sn" : {
+         "cldr" : "dyo_SN"
+      },
+      "dz" : {
+         "cldr" : "dz"
+      },
+      "dz-bt" : {
+         "cldr" : "dz_BT"
+      },
+      "ebu" : {
+         "cldr" : "ebu"
+      },
+      "ebu-ke" : {
+         "cldr" : "ebu_KE"
+      },
+      "ee" : {
+         "cldr" : "ee"
+      },
+      "ee-gh" : {
+         "cldr" : "ee_GH"
+      },
+      "ee-tg" : {
+         "cldr" : "ee_TG"
+      },
+      "el" : {
+         "chrome_web_store" : "el",
+         "cldr" : "el",
+         "firefox" : "el",
+         "ms" : "1032"
+      },
+      "el-cy" : {
+         "cldr" : "el_CY",
+         "java" : "el_CY"
+      },
+      "el-gr" : {
+         "cldr" : "el_GR",
+         "java" : "el_GR"
+      },
+      "en" : {
+         "chrome_web_store" : "en",
+         "cldr" : "en"
+      },
+      "en-001" : {
+         "cldr" : "en_001"
+      },
+      "en-150" : {
+         "cldr" : "en_150"
+      },
+      "en-ag" : {
+         "cldr" : "en_AG"
+      },
+      "en-ai" : {
+         "cldr" : "en_AI"
+      },
+      "en-as" : {
+         "cldr" : "en_AS"
+      },
+      "en-au" : {
+         "cldr" : "en_AU",
+         "java" : "en_AU",
+         "ms" : "3081"
+      },
+      "en-bb" : {
+         "cldr" : "en_BB"
+      },
+      "en-be" : {
+         "cldr" : "en_BE"
+      },
+      "en-bm" : {
+         "cldr" : "en_BM"
+      },
+      "en-bs" : {
+         "cldr" : "en_BS"
+      },
+      "en-bw" : {
+         "cldr" : "en_BW"
+      },
+      "en-bz" : {
+         "cldr" : "en_BZ",
+         "ms" : "10249"
+      },
+      "en-ca" : {
+         "cldr" : "en_CA",
+         "java" : "en_CA",
+         "ms" : "4105"
+      },
+      "en-cc" : {
+         "cldr" : "en_CC"
+      },
+      "en-ck" : {
+         "cldr" : "en_CK"
+      },
+      "en-cm" : {
+         "cldr" : "en_CM"
+      },
+      "en-cx" : {
+         "cldr" : "en_CX"
+      },
+      "en-dg" : {
+         "cldr" : "en_DG"
+      },
+      "en-dm" : {
+         "cldr" : "en_DM"
+      },
+      "en-er" : {
+         "cldr" : "en_ER"
+      },
+      "en-fj" : {
+         "cldr" : "en_FJ"
+      },
+      "en-fk" : {
+         "cldr" : "en_FK"
+      },
+      "en-fm" : {
+         "cldr" : "en_FM"
+      },
+      "en-gb" : {
+         "chrome_web_store" : "en_GB",
+         "cldr" : "en_GB",
+         "firefox" : "en-GB",
+         "java" : "en_GB",
+         "ms" : "2057"
+      },
+      "en-gd" : {
+         "cldr" : "en_GD"
+      },
+      "en-gg" : {
+         "cldr" : "en_GG"
+      },
+      "en-gh" : {
+         "cldr" : "en_GH"
+      },
+      "en-gi" : {
+         "cldr" : "en_GI"
+      },
+      "en-gm" : {
+         "cldr" : "en_GM"
+      },
+      "en-gu" : {
+         "cldr" : "en_GU"
+      },
+      "en-gy" : {
+         "cldr" : "en_GY"
+      },
+      "en-hk" : {
+         "cldr" : "en_HK"
+      },
+      "en-ie" : {
+         "cldr" : "en_IE",
+         "java" : "en_IE",
+         "ms" : "6153"
+      },
+      "en-im" : {
+         "cldr" : "en_IM"
+      },
+      "en-in" : {
+         "cldr" : "en_IN",
+         "java" : "en_IN"
+      },
+      "en-io" : {
+         "cldr" : "en_IO"
+      },
+      "en-je" : {
+         "cldr" : "en_JE"
+      },
+      "en-jm" : {
+         "cldr" : "en_JM",
+         "ms" : "8201"
+      },
+      "en-ke" : {
+         "cldr" : "en_KE"
+      },
+      "en-ki" : {
+         "cldr" : "en_KI"
+      },
+      "en-kn" : {
+         "cldr" : "en_KN"
+      },
+      "en-ky" : {
+         "cldr" : "en_KY"
+      },
+      "en-lc" : {
+         "cldr" : "en_LC"
+      },
+      "en-lr" : {
+         "cldr" : "en_LR"
+      },
+      "en-ls" : {
+         "cldr" : "en_LS"
+      },
+      "en-mg" : {
+         "cldr" : "en_MG"
+      },
+      "en-mh" : {
+         "cldr" : "en_MH"
+      },
+      "en-mo" : {
+         "cldr" : "en_MO"
+      },
+      "en-mp" : {
+         "cldr" : "en_MP"
+      },
+      "en-ms" : {
+         "cldr" : "en_MS"
+      },
+      "en-mt" : {
+         "cldr" : "en_MT",
+         "java" : "en_MT"
+      },
+      "en-mu" : {
+         "cldr" : "en_MU"
+      },
+      "en-mw" : {
+         "cldr" : "en_MW"
+      },
+      "en-my" : {
+         "cldr" : "en_MY"
+      },
+      "en-na" : {
+         "cldr" : "en_NA"
+      },
+      "en-nf" : {
+         "cldr" : "en_NF"
+      },
+      "en-ng" : {
+         "cldr" : "en_NG"
+      },
+      "en-nr" : {
+         "cldr" : "en_NR"
+      },
+      "en-nu" : {
+         "cldr" : "en_NU"
+      },
+      "en-nz" : {
+         "cldr" : "en_NZ",
+         "java" : "en_NZ",
+         "ms" : "5129"
+      },
+      "en-pg" : {
+         "cldr" : "en_PG"
+      },
+      "en-ph" : {
+         "cldr" : "en_PH",
+         "java" : "en_PH"
+      },
+      "en-pk" : {
+         "cldr" : "en_PK"
+      },
+      "en-pn" : {
+         "cldr" : "en_PN"
+      },
+      "en-pr" : {
+         "cldr" : "en_PR"
+      },
+      "en-pw" : {
+         "cldr" : "en_PW"
+      },
+      "en-rw" : {
+         "cldr" : "en_RW"
+      },
+      "en-sb" : {
+         "cldr" : "en_SB"
+      },
+      "en-sc" : {
+         "cldr" : "en_SC"
+      },
+      "en-sd" : {
+         "cldr" : "en_SD"
+      },
+      "en-sg" : {
+         "cldr" : "en_SG",
+         "java" : "en_SG"
+      },
+      "en-sh" : {
+         "cldr" : "en_SH"
+      },
+      "en-sl" : {
+         "cldr" : "en_SL"
+      },
+      "en-ss" : {
+         "cldr" : "en_SS"
+      },
+      "en-sx" : {
+         "cldr" : "en_SX"
+      },
+      "en-sz" : {
+         "cldr" : "en_SZ"
+      },
+      "en-tc" : {
+         "cldr" : "en_TC"
+      },
+      "en-tk" : {
+         "cldr" : "en_TK"
+      },
+      "en-to" : {
+         "cldr" : "en_TO"
+      },
+      "en-tt" : {
+         "cldr" : "en_TT",
+         "ms" : "11273"
+      },
+      "en-tv" : {
+         "cldr" : "en_TV"
+      },
+      "en-tz" : {
+         "cldr" : "en_TZ"
+      },
+      "en-ug" : {
+         "cldr" : "en_UG"
+      },
+      "en-um" : {
+         "cldr" : "en_UM"
+      },
+      "en-us" : {
+         "chrome_web_store" : "en_US",
+         "cldr" : "en_US",
+         "firefox" : "en-US",
+         "java" : "en_US",
+         "ms" : "1033"
+      },
+      "en-us-u-va-posix" : {
+         "cldr" : "en_US_POSIX"
+      },
+      "en-vc" : {
+         "cldr" : "en_VC"
+      },
+      "en-vg" : {
+         "cldr" : "en_VG"
+      },
+      "en-vi" : {
+         "cldr" : "en_VI"
+      },
+      "en-vu" : {
+         "cldr" : "en_VU"
+      },
+      "en-ws" : {
+         "cldr" : "en_WS"
+      },
+      "en-za" : {
+         "cldr" : "en_ZA",
+         "firefox" : "en-ZA",
+         "java" : "en_ZA",
+         "ms" : "7177"
+      },
+      "en-zm" : {
+         "cldr" : "en_ZM"
+      },
+      "en-zw" : {
+         "cldr" : "en_ZW"
+      },
+      "eo" : {
+         "cldr" : "eo",
+         "firefox" : "eo"
+      },
+      "eo-001" : {
+         "cldr" : "eo_001"
+      },
+      "es" : {
+         "chrome_web_store" : "es",
+         "cldr" : "es",
+         "ms" : "1034"
+      },
+      "es-419" : {
+         "chrome_web_store" : "es_419",
+         "cldr" : "es_419"
+      },
+      "es-ar" : {
+         "cldr" : "es_AR",
+         "firefox" : "es-AR",
+         "java" : "es_AR",
+         "ms" : "11274"
+      },
+      "es-bo" : {
+         "cldr" : "es_BO",
+         "java" : "es_BO",
+         "ms" : "16394"
+      },
+      "es-cl" : {
+         "cldr" : "es_CL",
+         "firefox" : "es-CL",
+         "java" : "es_CL",
+         "ms" : "13322"
+      },
+      "es-co" : {
+         "cldr" : "es_CO",
+         "java" : "es_CO",
+         "ms" : "9226"
+      },
+      "es-cr" : {
+         "cldr" : "es_CR",
+         "java" : "es_CR",
+         "ms" : "5130"
+      },
+      "es-cu" : {
+         "cldr" : "es_CU"
+      },
+      "es-do" : {
+         "cldr" : "es_DO",
+         "java" : "es_DO",
+         "ms" : "7178"
+      },
+      "es-ea" : {
+         "cldr" : "es_EA"
+      },
+      "es-ec" : {
+         "cldr" : "es_EC",
+         "java" : "es_EC",
+         "ms" : "12298"
+      },
+      "es-es" : {
+         "cldr" : "es_ES",
+         "firefox" : "es-ES",
+         "java" : "es_ES"
+      },
+      "es-gq" : {
+         "cldr" : "es_GQ"
+      },
+      "es-gt" : {
+         "cldr" : "es_GT",
+         "java" : "es_GT",
+         "ms" : "4106"
+      },
+      "es-hn" : {
+         "cldr" : "es_HN",
+         "java" : "es_HN",
+         "ms" : "18442"
+      },
+      "es-ic" : {
+         "cldr" : "es_IC"
+      },
+      "es-mx" : {
+         "cldr" : "es_MX",
+         "firefox" : "es-MX",
+         "java" : "es_MX",
+         "ms" : "2058"
+      },
+      "es-ni" : {
+         "cldr" : "es_NI",
+         "java" : "es_NI",
+         "ms" : "19466"
+      },
+      "es-pa" : {
+         "cldr" : "es_PA",
+         "java" : "es_PA",
+         "ms" : "6154"
+      },
+      "es-pe" : {
+         "cldr" : "es_PE",
+         "java" : "es_PE",
+         "ms" : "10250"
+      },
+      "es-ph" : {
+         "cldr" : "es_PH"
+      },
+      "es-pr" : {
+         "cldr" : "es_PR",
+         "java" : "es_PR",
+         "ms" : "20490"
+      },
+      "es-py" : {
+         "cldr" : "es_PY",
+         "java" : "es_PY",
+         "ms" : "15370"
+      },
+      "es-sv" : {
+         "cldr" : "es_SV",
+         "java" : "es_SV",
+         "ms" : "17418"
+      },
+      "es-us" : {
+         "cldr" : "es_US",
+         "java" : "es_US"
+      },
+      "es-uy" : {
+         "cldr" : "es_UY",
+         "java" : "es_UY",
+         "ms" : "14346"
+      },
+      "es-ve" : {
+         "cldr" : "es_VE",
+         "java" : "es_VE",
+         "ms" : "8202"
+      },
+      "et" : {
+         "chrome_web_store" : "et",
+         "cldr" : "et",
+         "firefox" : "et",
+         "ms" : "1061"
+      },
+      "et-ee" : {
+         "cldr" : "et_EE",
+         "java" : "et_EE"
+      },
+      "eu" : {
+         "cldr" : "eu",
+         "firefox" : "eu",
+         "ms" : "1069"
+      },
+      "eu-es" : {
+         "cldr" : "eu_ES"
+      },
+      "ewo" : {
+         "cldr" : "ewo"
+      },
+      "ewo-cm" : {
+         "cldr" : "ewo_CM"
+      },
+      "fa" : {
+         "chrome_web_store" : "fa",
+         "cldr" : "fa",
+         "firefox" : "fa",
+         "ms" : "1065"
+      },
+      "fa-af" : {
+         "cldr" : "fa_AF"
+      },
+      "fa-ir" : {
+         "cldr" : "fa_IR"
+      },
+      "ff" : {
+         "cldr" : "ff",
+         "firefox" : "ff"
+      },
+      "ff-cm" : {
+         "cldr" : "ff_CM"
+      },
+      "ff-gn" : {
+         "cldr" : "ff_GN"
+      },
+      "ff-mr" : {
+         "cldr" : "ff_MR"
+      },
+      "ff-sn" : {
+         "cldr" : "ff_SN"
+      },
+      "fi" : {
+         "chrome_web_store" : "fi",
+         "cldr" : "fi",
+         "firefox" : "fi",
+         "ms" : "1035"
+      },
+      "fi-fi" : {
+         "cldr" : "fi_FI",
+         "java" : "fi_FI"
+      },
+      "fil" : {
+         "chrome_web_store" : "fil",
+         "cldr" : "fil"
+      },
+      "fil-ph" : {
+         "cldr" : "fil_PH"
+      },
+      "fo" : {
+         "cldr" : "fo",
+         "ms" : "1080"
+      },
+      "fo-fo" : {
+         "cldr" : "fo_FO"
+      },
+      "fr" : {
+         "chrome_web_store" : "fr",
+         "cldr" : "fr",
+         "firefox" : "fr",
+         "ms" : "1036"
+      },
+      "fr-be" : {
+         "cldr" : "fr_BE",
+         "java" : "fr_BE",
+         "ms" : "2060"
+      },
+      "fr-bf" : {
+         "cldr" : "fr_BF"
+      },
+      "fr-bi" : {
+         "cldr" : "fr_BI"
+      },
+      "fr-bj" : {
+         "cldr" : "fr_BJ"
+      },
+      "fr-bl" : {
+         "cldr" : "fr_BL"
+      },
+      "fr-ca" : {
+         "cldr" : "fr_CA",
+         "java" : "fr_CA",
+         "ms" : "3084"
+      },
+      "fr-cd" : {
+         "cldr" : "fr_CD"
+      },
+      "fr-cf" : {
+         "cldr" : "fr_CF"
+      },
+      "fr-cg" : {
+         "cldr" : "fr_CG"
+      },
+      "fr-ch" : {
+         "cldr" : "fr_CH",
+         "java" : "fr_CH",
+         "ms" : "4108"
+      },
+      "fr-ci" : {
+         "cldr" : "fr_CI"
+      },
+      "fr-cm" : {
+         "cldr" : "fr_CM"
+      },
+      "fr-dj" : {
+         "cldr" : "fr_DJ"
+      },
+      "fr-dz" : {
+         "cldr" : "fr_DZ"
+      },
+      "fr-fr" : {
+         "cldr" : "fr_FR",
+         "java" : "fr_FR"
+      },
+      "fr-ga" : {
+         "cldr" : "fr_GA"
+      },
+      "fr-gf" : {
+         "cldr" : "fr_GF"
+      },
+      "fr-gn" : {
+         "cldr" : "fr_GN"
+      },
+      "fr-gp" : {
+         "cldr" : "fr_GP"
+      },
+      "fr-gq" : {
+         "cldr" : "fr_GQ"
+      },
+      "fr-ht" : {
+         "cldr" : "fr_HT"
+      },
+      "fr-km" : {
+         "cldr" : "fr_KM"
+      },
+      "fr-lu" : {
+         "cldr" : "fr_LU",
+         "java" : "fr_LU",
+         "ms" : "5132"
+      },
+      "fr-ma" : {
+         "cldr" : "fr_MA"
+      },
+      "fr-mc" : {
+         "cldr" : "fr_MC"
+      },
+      "fr-mf" : {
+         "cldr" : "fr_MF"
+      },
+      "fr-mg" : {
+         "cldr" : "fr_MG"
+      },
+      "fr-ml" : {
+         "cldr" : "fr_ML"
+      },
+      "fr-mq" : {
+         "cldr" : "fr_MQ"
+      },
+      "fr-mr" : {
+         "cldr" : "fr_MR"
+      },
+      "fr-mu" : {
+         "cldr" : "fr_MU"
+      },
+      "fr-nc" : {
+         "cldr" : "fr_NC"
+      },
+      "fr-ne" : {
+         "cldr" : "fr_NE"
+      },
+      "fr-pf" : {
+         "cldr" : "fr_PF"
+      },
+      "fr-pm" : {
+         "cldr" : "fr_PM"
+      },
+      "fr-re" : {
+         "cldr" : "fr_RE"
+      },
+      "fr-rw" : {
+         "cldr" : "fr_RW"
+      },
+      "fr-sc" : {
+         "cldr" : "fr_SC"
+      },
+      "fr-sn" : {
+         "cldr" : "fr_SN"
+      },
+      "fr-sy" : {
+         "cldr" : "fr_SY"
+      },
+      "fr-td" : {
+         "cldr" : "fr_TD"
+      },
+      "fr-tg" : {
+         "cldr" : "fr_TG"
+      },
+      "fr-tn" : {
+         "cldr" : "fr_TN"
+      },
+      "fr-vu" : {
+         "cldr" : "fr_VU"
+      },
+      "fr-wf" : {
+         "cldr" : "fr_WF"
+      },
+      "fr-yt" : {
+         "cldr" : "fr_YT"
+      },
+      "fur" : {
+         "cldr" : "fur"
+      },
+      "fur-it" : {
+         "cldr" : "fur_IT"
+      },
+      "fy" : {
+         "cldr" : "fy"
+      },
+      "fy-nl" : {
+         "cldr" : "fy_NL",
+         "firefox" : "fy-NL"
+      },
+      "ga" : {
+         "cldr" : "ga"
+      },
+      "ga-ie" : {
+         "cldr" : "ga_IE",
+         "firefox" : "ga-IE",
+         "java" : "ga_IE"
+      },
+      "gd" : {
+         "cldr" : "gd",
+         "firefox" : "gd",
+         "ms" : "1084"
+      },
+      "gd-gb" : {
+         "cldr" : "gd_GB"
+      },
+      "gl" : {
+         "cldr" : "gl",
+         "firefox" : "gl"
+      },
+      "gl-es" : {
+         "cldr" : "gl_ES"
+      },
+      "gsw" : {
+         "cldr" : "gsw"
+      },
+      "gsw-ch" : {
+         "cldr" : "gsw_CH"
+      },
+      "gsw-fr" : {
+         "cldr" : "gsw_FR"
+      },
+      "gsw-li" : {
+         "cldr" : "gsw_LI"
+      },
+      "gu" : {
+         "chrome_web_store" : "gu",
+         "cldr" : "gu"
+      },
+      "gu-in" : {
+         "cldr" : "gu_IN",
+         "firefox" : "gu-IN"
+      },
+      "guz" : {
+         "cldr" : "guz"
+      },
+      "guz-ke" : {
+         "cldr" : "guz_KE"
+      },
+      "gv" : {
+         "cldr" : "gv"
+      },
+      "gv-im" : {
+         "cldr" : "gv_IM"
+      },
+      "ha" : {
+         "cldr" : "ha"
+      },
+      "ha-latn" : {
+         "cldr" : "ha_Latn"
+      },
+      "ha-latn-gh" : {
+         "cldr" : "ha_Latn_GH"
+      },
+      "ha-latn-ne" : {
+         "cldr" : "ha_Latn_NE"
+      },
+      "ha-latn-ng" : {
+         "cldr" : "ha_Latn_NG"
+      },
+      "haw" : {
+         "cldr" : "haw"
+      },
+      "haw-us" : {
+         "cldr" : "haw_US"
+      },
+      "he" : {
+         "chrome_web_store" : "he",
+         "cldr" : "he",
+         "firefox" : "he",
+         "ms" : "1037"
+      },
+      "he-il" : {
+         "cldr" : "he_IL"
+      },
+      "hi" : {
+         "chrome_web_store" : "hi",
+         "cldr" : "hi",
+         "ms" : "1081"
+      },
+      "hi-in" : {
+         "cldr" : "hi_IN",
+         "firefox" : "hi-IN",
+         "java" : "hi_IN"
+      },
+      "hr" : {
+         "chrome_web_store" : "hr",
+         "cldr" : "hr",
+         "firefox" : "hr",
+         "ms" : "1050"
+      },
+      "hr-ba" : {
+         "cldr" : "hr_BA"
+      },
+      "hr-hr" : {
+         "cldr" : "hr_HR",
+         "java" : "hr_HR"
+      },
+      "hsb" : {
+         "cldr" : "hsb",
+         "firefox" : "hsb"
+      },
+      "hsb-de" : {
+         "cldr" : "hsb_DE"
+      },
+      "hu" : {
+         "chrome_web_store" : "hu",
+         "cldr" : "hu",
+         "firefox" : "hu",
+         "ms" : "1038"
+      },
+      "hu-hu" : {
+         "cldr" : "hu_HU",
+         "java" : "hu_HU"
+      },
+      "hy" : {
+         "cldr" : "hy"
+      },
+      "hy-am" : {
+         "cldr" : "hy_AM",
+         "firefox" : "hy-AM"
+      },
+      "id" : {
+         "chrome_web_store" : "id",
+         "cldr" : "id",
+         "firefox" : "id"
+      },
+      "id-id" : {
+         "cldr" : "id_ID"
+      },
+      "ig" : {
+         "cldr" : "ig"
+      },
+      "ig-ng" : {
+         "cldr" : "ig_NG"
+      },
+      "ii" : {
+         "cldr" : "ii"
+      },
+      "ii-cn" : {
+         "cldr" : "ii_CN"
+      },
+      "in" : {
+         "ms" : "1057"
+      },
+      "in-id" : {
+         "java" : "in_ID"
+      },
+      "is" : {
+         "cldr" : "is",
+         "firefox" : "is",
+         "ms" : "1039"
+      },
+      "is-is" : {
+         "cldr" : "is_IS",
+         "java" : "is_IS"
+      },
+      "it" : {
+         "chrome_web_store" : "it",
+         "cldr" : "it",
+         "firefox" : "it",
+         "ms" : "1040"
+      },
+      "it-ch" : {
+         "cldr" : "it_CH",
+         "java" : "it_CH",
+         "ms" : "2064"
+      },
+      "it-it" : {
+         "cldr" : "it_IT",
+         "java" : "it_IT"
+      },
+      "it-sm" : {
+         "cldr" : "it_SM"
+      },
+      "iw-il" : {
+         "java" : "iw_IL"
+      },
+      "ja" : {
+         "chrome_web_store" : "ja",
+         "cldr" : "ja",
+         "firefox" : "ja",
+         "ms" : "1041"
+      },
+      "ja-jp" : {
+         "cldr" : "ja_JP",
+         "java" : "ja_JP"
+      },
+      "ja-jp-u-ca-japanese" : {
+         "java" : "ja_JP_JP"
+      },
+      "jgo" : {
+         "cldr" : "jgo"
+      },
+      "jgo-cm" : {
+         "cldr" : "jgo_CM"
+      },
+      "ji" : {
+         "ms" : "1085"
+      },
+      "jmc" : {
+         "cldr" : "jmc"
+      },
+      "jmc-tz" : {
+         "cldr" : "jmc_TZ"
+      },
+      "ka" : {
+         "cldr" : "ka"
+      },
+      "ka-ge" : {
+         "cldr" : "ka_GE"
+      },
+      "kab" : {
+         "cldr" : "kab"
+      },
+      "kab-dz" : {
+         "cldr" : "kab_DZ"
+      },
+      "kam" : {
+         "cldr" : "kam"
+      },
+      "kam-ke" : {
+         "cldr" : "kam_KE"
+      },
+      "kde" : {
+         "cldr" : "kde"
+      },
+      "kde-tz" : {
+         "cldr" : "kde_TZ"
+      },
+      "kea" : {
+         "cldr" : "kea"
+      },
+      "kea-cv" : {
+         "cldr" : "kea_CV"
+      },
+      "khq" : {
+         "cldr" : "khq"
+      },
+      "khq-ml" : {
+         "cldr" : "khq_ML"
+      },
+      "ki" : {
+         "cldr" : "ki"
+      },
+      "ki-ke" : {
+         "cldr" : "ki_KE"
+      },
+      "kk" : {
+         "cldr" : "kk",
+         "firefox" : "kk"
+      },
+      "kk-cyrl" : {
+         "cldr" : "kk_Cyrl"
+      },
+      "kk-cyrl-kz" : {
+         "cldr" : "kk_Cyrl_KZ"
+      },
+      "kkj" : {
+         "cldr" : "kkj"
+      },
+      "kkj-cm" : {
+         "cldr" : "kkj_CM"
+      },
+      "kl" : {
+         "cldr" : "kl"
+      },
+      "kl-gl" : {
+         "cldr" : "kl_GL"
+      },
+      "kln" : {
+         "cldr" : "kln"
+      },
+      "kln-ke" : {
+         "cldr" : "kln_KE"
+      },
+      "km" : {
+         "cldr" : "km",
+         "firefox" : "km"
+      },
+      "km-kh" : {
+         "cldr" : "km_KH"
+      },
+      "kn" : {
+         "chrome_web_store" : "kn",
+         "cldr" : "kn",
+         "firefox" : "kn"
+      },
+      "kn-in" : {
+         "cldr" : "kn_IN"
+      },
+      "ko" : {
+         "chrome_web_store" : "ko",
+         "cldr" : "ko",
+         "firefox" : "ko",
+         "ms" : "1042"
+      },
+      "ko-kp" : {
+         "cldr" : "ko_KP"
+      },
+      "ko-kr" : {
+         "cldr" : "ko_KR",
+         "java" : "ko_KR"
+      },
+      "kok" : {
+         "cldr" : "kok"
+      },
+      "kok-in" : {
+         "cldr" : "kok_IN"
+      },
+      "ks" : {
+         "cldr" : "ks"
+      },
+      "ks-arab" : {
+         "cldr" : "ks_Arab"
+      },
+      "ks-arab-in" : {
+         "cldr" : "ks_Arab_IN"
+      },
+      "ksb" : {
+         "cldr" : "ksb"
+      },
+      "ksb-tz" : {
+         "cldr" : "ksb_TZ"
+      },
+      "ksf" : {
+         "cldr" : "ksf"
+      },
+      "ksf-cm" : {
+         "cldr" : "ksf_CM"
+      },
+      "ksh" : {
+         "cldr" : "ksh"
+      },
+      "ksh-de" : {
+         "cldr" : "ksh_DE"
+      },
+      "kw" : {
+         "cldr" : "kw"
+      },
+      "kw-gb" : {
+         "cldr" : "kw_GB"
+      },
+      "ky" : {
+         "cldr" : "ky"
+      },
+      "ky-cyrl" : {
+         "cldr" : "ky_Cyrl"
+      },
+      "ky-cyrl-kg" : {
+         "cldr" : "ky_Cyrl_KG"
+      },
+      "lag" : {
+         "cldr" : "lag"
+      },
+      "lag-tz" : {
+         "cldr" : "lag_TZ"
+      },
+      "lb" : {
+         "cldr" : "lb"
+      },
+      "lb-lu" : {
+         "cldr" : "lb_LU"
+      },
+      "lg" : {
+         "cldr" : "lg"
+      },
+      "lg-ug" : {
+         "cldr" : "lg_UG"
+      },
+      "lij" : {
+         "firefox" : "lij"
+      },
+      "lkt" : {
+         "cldr" : "lkt"
+      },
+      "lkt-us" : {
+         "cldr" : "lkt_US"
+      },
+      "ln" : {
+         "cldr" : "ln"
+      },
+      "ln-ao" : {
+         "cldr" : "ln_AO"
+      },
+      "ln-cd" : {
+         "cldr" : "ln_CD"
+      },
+      "ln-cf" : {
+         "cldr" : "ln_CF"
+      },
+      "ln-cg" : {
+         "cldr" : "ln_CG"
+      },
+      "lo" : {
+         "cldr" : "lo"
+      },
+      "lo-la" : {
+         "cldr" : "lo_LA"
+      },
+      "lt" : {
+         "chrome_web_store" : "lt",
+         "cldr" : "lt",
+         "firefox" : "lt",
+         "ms" : "1063"
+      },
+      "lt-lt" : {
+         "cldr" : "lt_LT",
+         "java" : "lt_LT"
+      },
+      "lu" : {
+         "cldr" : "lu"
+      },
+      "lu-cd" : {
+         "cldr" : "lu_CD"
+      },
+      "luo" : {
+         "cldr" : "luo"
+      },
+      "luo-ke" : {
+         "cldr" : "luo_KE"
+      },
+      "luy" : {
+         "cldr" : "luy"
+      },
+      "luy-ke" : {
+         "cldr" : "luy_KE"
+      },
+      "lv" : {
+         "chrome_web_store" : "lv",
+         "cldr" : "lv",
+         "firefox" : "lv",
+         "ms" : "1062"
+      },
+      "lv-lv" : {
+         "cldr" : "lv_LV",
+         "java" : "lv_LV"
+      },
+      "mai" : {
+         "firefox" : "mai"
+      },
+      "mas" : {
+         "cldr" : "mas"
+      },
+      "mas-ke" : {
+         "cldr" : "mas_KE"
+      },
+      "mas-tz" : {
+         "cldr" : "mas_TZ"
+      },
+      "mer" : {
+         "cldr" : "mer"
+      },
+      "mer-ke" : {
+         "cldr" : "mer_KE"
+      },
+      "mfe" : {
+         "cldr" : "mfe"
+      },
+      "mfe-mu" : {
+         "cldr" : "mfe_MU"
+      },
+      "mg" : {
+         "cldr" : "mg"
+      },
+      "mg-mg" : {
+         "cldr" : "mg_MG"
+      },
+      "mgh" : {
+         "cldr" : "mgh"
+      },
+      "mgh-mz" : {
+         "cldr" : "mgh_MZ"
+      },
+      "mgo" : {
+         "cldr" : "mgo"
+      },
+      "mgo-cm" : {
+         "cldr" : "mgo_CM"
+      },
+      "mk" : {
+         "cldr" : "mk",
+         "firefox" : "mk",
+         "ms" : "1071"
+      },
+      "mk-mk" : {
+         "cldr" : "mk_MK",
+         "java" : "mk_MK"
+      },
+      "ml" : {
+         "chrome_web_store" : "ml",
+         "cldr" : "ml",
+         "firefox" : "ml"
+      },
+      "ml-in" : {
+         "cldr" : "ml_IN"
+      },
+      "mn" : {
+         "cldr" : "mn"
+      },
+      "mn-cyrl" : {
+         "cldr" : "mn_Cyrl"
+      },
+      "mn-cyrl-mn" : {
+         "cldr" : "mn_Cyrl_MN"
+      },
+      "mr" : {
+         "chrome_web_store" : "mr",
+         "cldr" : "mr",
+         "firefox" : "mr"
+      },
+      "mr-in" : {
+         "cldr" : "mr_IN"
+      },
+      "ms" : {
+         "chrome_web_store" : "ms",
+         "cldr" : "ms",
+         "firefox" : "ms",
+         "ms" : "1086"
+      },
+      "ms-latn" : {
+         "cldr" : "ms_Latn"
+      },
+      "ms-latn-bn" : {
+         "cldr" : "ms_Latn_BN"
+      },
+      "ms-latn-my" : {
+         "cldr" : "ms_Latn_MY"
+      },
+      "ms-latn-sg" : {
+         "cldr" : "ms_Latn_SG"
+      },
+      "ms-my" : {
+         "java" : "ms_MY"
+      },
+      "mt" : {
+         "cldr" : "mt",
+         "ms" : "1082"
+      },
+      "mt-mt" : {
+         "cldr" : "mt_MT",
+         "java" : "mt_MT"
+      },
+      "mua" : {
+         "cldr" : "mua"
+      },
+      "mua-cm" : {
+         "cldr" : "mua_CM"
+      },
+      "my" : {
+         "cldr" : "my"
+      },
+      "my-mm" : {
+         "cldr" : "my_MM"
+      },
+      "naq" : {
+         "cldr" : "naq"
+      },
+      "naq-na" : {
+         "cldr" : "naq_NA"
+      },
+      "nb" : {
+         "cldr" : "nb",
+         "java" : "no_NO"
+      },
+      "nb-no" : {
+         "cldr" : "nb_NO",
+         "firefox" : "nb-NO"
+      },
+      "nb-sj" : {
+         "cldr" : "nb_SJ"
+      },
+      "nd" : {
+         "cldr" : "nd"
+      },
+      "nd-zw" : {
+         "cldr" : "nd_ZW"
+      },
+      "ne" : {
+         "cldr" : "ne"
+      },
+      "ne-in" : {
+         "cldr" : "ne_IN"
+      },
+      "ne-np" : {
+         "cldr" : "ne_NP"
+      },
+      "nl" : {
+         "chrome_web_store" : "nl",
+         "cldr" : "nl",
+         "firefox" : "nl",
+         "ms" : "1043"
+      },
+      "nl-aw" : {
+         "cldr" : "nl_AW"
+      },
+      "nl-be" : {
+         "cldr" : "nl_BE",
+         "java" : "nl_BE",
+         "ms" : "2067"
+      },
+      "nl-bq" : {
+         "cldr" : "nl_BQ"
+      },
+      "nl-cw" : {
+         "cldr" : "nl_CW"
+      },
+      "nl-nl" : {
+         "cldr" : "nl_NL",
+         "java" : "nl_NL"
+      },
+      "nl-sr" : {
+         "cldr" : "nl_SR"
+      },
+      "nl-sx" : {
+         "cldr" : "nl_SX"
+      },
+      "nmg" : {
+         "cldr" : "nmg"
+      },
+      "nmg-cm" : {
+         "cldr" : "nmg_CM"
+      },
+      "nn" : {
+         "cldr" : "nn",
+         "java" : "no_NO_NY"
+      },
+      "nn-no" : {
+         "cldr" : "nn_NO",
+         "firefox" : "nn-NO"
+      },
+      "nnh" : {
+         "cldr" : "nnh"
+      },
+      "nnh-cm" : {
+         "cldr" : "nnh_CM"
+      },
+      "no" : {
+         "chrome_web_store" : "no",
+         "ms" : "1044"
+      },
+      "nus" : {
+         "cldr" : "nus"
+      },
+      "nus-sd" : {
+         "cldr" : "nus_SD"
+      },
+      "nyn" : {
+         "cldr" : "nyn"
+      },
+      "nyn-ug" : {
+         "cldr" : "nyn_UG"
+      },
+      "om" : {
+         "cldr" : "om"
+      },
+      "om-et" : {
+         "cldr" : "om_ET"
+      },
+      "om-ke" : {
+         "cldr" : "om_KE"
+      },
+      "or" : {
+         "cldr" : "or",
+         "firefox" : "or"
+      },
+      "or-in" : {
+         "cldr" : "or_IN"
+      },
+      "os" : {
+         "cldr" : "os"
+      },
+      "os-ge" : {
+         "cldr" : "os_GE"
+      },
+      "os-ru" : {
+         "cldr" : "os_RU"
+      },
+      "pa" : {
+         "cldr" : "pa"
+      },
+      "pa-arab" : {
+         "cldr" : "pa_Arab"
+      },
+      "pa-arab-pk" : {
+         "cldr" : "pa_Arab_PK"
+      },
+      "pa-guru" : {
+         "cldr" : "pa_Guru"
+      },
+      "pa-guru-in" : {
+         "cldr" : "pa_Guru_IN"
+      },
+      "pa-in" : {
+         "firefox" : "pa-IN"
+      },
+      "pl" : {
+         "chrome_web_store" : "pl",
+         "cldr" : "pl",
+         "firefox" : "pl",
+         "ms" : "1045"
+      },
+      "pl-pl" : {
+         "cldr" : "pl_PL",
+         "java" : "pl_PL"
+      },
+      "ps" : {
+         "cldr" : "ps"
+      },
+      "ps-af" : {
+         "cldr" : "ps_AF"
+      },
+      "pt" : {
+         "cldr" : "pt",
+         "ms" : "2070"
+      },
+      "pt-ao" : {
+         "cldr" : "pt_AO"
+      },
+      "pt-br" : {
+         "chrome_web_store" : "pt_BR",
+         "cldr" : "pt_BR",
+         "firefox" : "pt-BR",
+         "java" : "pt_BR",
+         "ms" : "1046"
+      },
+      "pt-cv" : {
+         "cldr" : "pt_CV"
+      },
+      "pt-gw" : {
+         "cldr" : "pt_GW"
+      },
+      "pt-mo" : {
+         "cldr" : "pt_MO"
+      },
+      "pt-mz" : {
+         "cldr" : "pt_MZ"
+      },
+      "pt-pt" : {
+         "chrome_web_store" : "pt_PT",
+         "cldr" : "pt_PT",
+         "firefox" : "pt-PT",
+         "java" : "pt_PT"
+      },
+      "pt-st" : {
+         "cldr" : "pt_ST"
+      },
+      "pt-tl" : {
+         "cldr" : "pt_TL"
+      },
+      "qu" : {
+         "cldr" : "qu"
+      },
+      "qu-bo" : {
+         "cldr" : "qu_BO"
+      },
+      "qu-ec" : {
+         "cldr" : "qu_EC"
+      },
+      "qu-pe" : {
+         "cldr" : "qu_PE"
+      },
+      "rm" : {
+         "cldr" : "rm",
+         "firefox" : "rm",
+         "ms" : "1047"
+      },
+      "rm-ch" : {
+         "cldr" : "rm_CH"
+      },
+      "rn" : {
+         "cldr" : "rn"
+      },
+      "rn-bi" : {
+         "cldr" : "rn_BI"
+      },
+      "ro" : {
+         "chrome_web_store" : "ro",
+         "cldr" : "ro",
+         "firefox" : "ro",
+         "ms" : "1048"
+      },
+      "ro-md" : {
+         "cldr" : "ro_MD"
+      },
+      "ro-mo" : {
+         "ms" : "2072"
+      },
+      "ro-ro" : {
+         "cldr" : "ro_RO",
+         "java" : "ro_RO"
+      },
+      "rof" : {
+         "cldr" : "rof"
+      },
+      "rof-tz" : {
+         "cldr" : "rof_TZ"
+      },
+      "ru" : {
+         "chrome_web_store" : "ru",
+         "cldr" : "ru",
+         "firefox" : "ru",
+         "ms" : "1049"
+      },
+      "ru-by" : {
+         "cldr" : "ru_BY"
+      },
+      "ru-kg" : {
+         "cldr" : "ru_KG"
+      },
+      "ru-kz" : {
+         "cldr" : "ru_KZ"
+      },
+      "ru-md" : {
+         "cldr" : "ru_MD"
+      },
+      "ru-mo" : {
+         "ms" : "2073"
+      },
+      "ru-ru" : {
+         "cldr" : "ru_RU",
+         "java" : "ru_RU"
+      },
+      "ru-ua" : {
+         "cldr" : "ru_UA"
+      },
+      "rw" : {
+         "cldr" : "rw"
+      },
+      "rw-rw" : {
+         "cldr" : "rw_RW"
+      },
+      "rwk" : {
+         "cldr" : "rwk"
+      },
+      "rwk-tz" : {
+         "cldr" : "rwk_TZ"
+      },
+      "sah" : {
+         "cldr" : "sah"
+      },
+      "sah-ru" : {
+         "cldr" : "sah_RU"
+      },
+      "saq" : {
+         "cldr" : "saq"
+      },
+      "saq-ke" : {
+         "cldr" : "saq_KE"
+      },
+      "sb" : {
+         "ms" : "1070"
+      },
+      "sbp" : {
+         "cldr" : "sbp"
+      },
+      "sbp-tz" : {
+         "cldr" : "sbp_TZ"
+      },
+      "se" : {
+         "cldr" : "se"
+      },
+      "se-fi" : {
+         "cldr" : "se_FI"
+      },
+      "se-no" : {
+         "cldr" : "se_NO"
+      },
+      "se-se" : {
+         "cldr" : "se_SE"
+      },
+      "seh" : {
+         "cldr" : "seh"
+      },
+      "seh-mz" : {
+         "cldr" : "seh_MZ"
+      },
+      "ses" : {
+         "cldr" : "ses"
+      },
+      "ses-ml" : {
+         "cldr" : "ses_ML"
+      },
+      "sg" : {
+         "cldr" : "sg"
+      },
+      "sg-cf" : {
+         "cldr" : "sg_CF"
+      },
+      "shi" : {
+         "cldr" : "shi"
+      },
+      "shi-latn" : {
+         "cldr" : "shi_Latn"
+      },
+      "shi-latn-ma" : {
+         "cldr" : "shi_Latn_MA"
+      },
+      "shi-tfng" : {
+         "cldr" : "shi_Tfng"
+      },
+      "shi-tfng-ma" : {
+         "cldr" : "shi_Tfng_MA"
+      },
+      "si" : {
+         "cldr" : "si",
+         "firefox" : "si"
+      },
+      "si-lk" : {
+         "cldr" : "si_LK"
+      },
+      "sk" : {
+         "chrome_web_store" : "sk",
+         "cldr" : "sk",
+         "firefox" : "sk",
+         "ms" : "1051"
+      },
+      "sk-sk" : {
+         "cldr" : "sk_SK",
+         "java" : "sk_SK"
+      },
+      "sl" : {
+         "chrome_web_store" : "sl",
+         "cldr" : "sl",
+         "firefox" : "sl",
+         "ms" : "1060"
+      },
+      "sl-si" : {
+         "cldr" : "sl_SI",
+         "java" : "sl_SI"
+      },
+      "smn" : {
+         "cldr" : "smn"
+      },
+      "smn-fi" : {
+         "cldr" : "smn_FI"
+      },
+      "sn" : {
+         "cldr" : "sn"
+      },
+      "sn-zw" : {
+         "cldr" : "sn_ZW"
+      },
+      "so" : {
+         "cldr" : "so"
+      },
+      "so-dj" : {
+         "cldr" : "so_DJ"
+      },
+      "so-et" : {
+         "cldr" : "so_ET"
+      },
+      "so-ke" : {
+         "cldr" : "so_KE"
+      },
+      "so-so" : {
+         "cldr" : "so_SO"
+      },
+      "son" : {
+         "firefox" : "son"
+      },
+      "sq" : {
+         "cldr" : "sq",
+         "firefox" : "sq",
+         "ms" : "1052"
+      },
+      "sq-al" : {
+         "cldr" : "sq_AL",
+         "java" : "sq_AL"
+      },
+      "sq-mk" : {
+         "cldr" : "sq_MK"
+      },
+      "sq-xk" : {
+         "cldr" : "sq_XK"
+      },
+      "sr" : {
+         "chrome_web_store" : "sr",
+         "cldr" : "sr",
+         "firefox" : "sr",
+         "ms" : "3098"
+      },
+      "sr-ba" : {
+         "java" : "sr_BA"
+      },
+      "sr-cyrl" : {
+         "cldr" : "sr_Cyrl"
+      },
+      "sr-cyrl-ba" : {
+         "cldr" : "sr_Cyrl_BA"
+      },
+      "sr-cyrl-me" : {
+         "cldr" : "sr_Cyrl_ME"
+      },
+      "sr-cyrl-rs" : {
+         "cldr" : "sr_Cyrl_RS"
+      },
+      "sr-cyrl-xk" : {
+         "cldr" : "sr_Cyrl_XK"
+      },
+      "sr-latn" : {
+         "cldr" : "sr_Latn"
+      },
+      "sr-latn-ba" : {
+         "cldr" : "sr_Latn_BA",
+         "java" : "sr_Latn_BA"
+      },
+      "sr-latn-me" : {
+         "cldr" : "sr_Latn_ME",
+         "java" : "sr_Latn_ME"
+      },
+      "sr-latn-rs" : {
+         "cldr" : "sr_Latn_RS",
+         "java" : "sr_Latn_RS"
+      },
+      "sr-latn-xk" : {
+         "cldr" : "sr_Latn_XK"
+      },
+      "sr-me" : {
+         "java" : "sr_ME"
+      },
+      "sr-rs" : {
+         "java" : "sr_RS"
+      },
+      "sv" : {
+         "chrome_web_store" : "sv",
+         "cldr" : "sv",
+         "ms" : "1053"
+      },
+      "sv-ax" : {
+         "cldr" : "sv_AX"
+      },
+      "sv-fi" : {
+         "cldr" : "sv_FI",
+         "ms" : "2077"
+      },
+      "sv-se" : {
+         "cldr" : "sv_SE",
+         "firefox" : "sv-SE",
+         "java" : "sv_SE"
+      },
+      "sw" : {
+         "chrome_web_store" : "sw",
+         "cldr" : "sw"
+      },
+      "sw-cd" : {
+         "cldr" : "sw_CD"
+      },
+      "sw-ke" : {
+         "cldr" : "sw_KE"
+      },
+      "sw-tz" : {
+         "cldr" : "sw_TZ"
+      },
+      "sw-ug" : {
+         "cldr" : "sw_UG"
+      },
+      "sx" : {
+         "ms" : "1072"
+      },
+      "ta" : {
+         "chrome_web_store" : "ta",
+         "cldr" : "ta",
+         "firefox" : "ta"
+      },
+      "ta-in" : {
+         "cldr" : "ta_IN"
+      },
+      "ta-lk" : {
+         "cldr" : "ta_LK"
+      },
+      "ta-my" : {
+         "cldr" : "ta_MY"
+      },
+      "ta-sg" : {
+         "cldr" : "ta_SG"
+      },
+      "te" : {
+         "chrome_web_store" : "te",
+         "cldr" : "te",
+         "firefox" : "te"
+      },
+      "te-in" : {
+         "cldr" : "te_IN"
+      },
+      "teo" : {
+         "cldr" : "teo"
+      },
+      "teo-ke" : {
+         "cldr" : "teo_KE"
+      },
+      "teo-ug" : {
+         "cldr" : "teo_UG"
+      },
+      "th" : {
+         "chrome_web_store" : "th",
+         "cldr" : "th",
+         "firefox" : "th",
+         "ms" : "1054"
+      },
+      "th-th" : {
+         "cldr" : "th_TH",
+         "java" : "th_TH"
+      },
+      "th-th-u-nu-thai" : {
+         "java" : "th_TH_TH"
+      },
+      "ti" : {
+         "cldr" : "ti"
+      },
+      "ti-er" : {
+         "cldr" : "ti_ER"
+      },
+      "ti-et" : {
+         "cldr" : "ti_ET"
+      },
+      "tn" : {
+         "ms" : "1074"
+      },
+      "to" : {
+         "cldr" : "to"
+      },
+      "to-to" : {
+         "cldr" : "to_TO"
+      },
+      "tr" : {
+         "chrome_web_store" : "tr",
+         "cldr" : "tr",
+         "firefox" : "tr",
+         "ms" : "1055"
+      },
+      "tr-cy" : {
+         "cldr" : "tr_CY"
+      },
+      "tr-tr" : {
+         "cldr" : "tr_TR",
+         "java" : "tr_TR"
+      },
+      "ts" : {
+         "ms" : "1073"
+      },
+      "twq" : {
+         "cldr" : "twq"
+      },
+      "twq-ne" : {
+         "cldr" : "twq_NE"
+      },
+      "tzm" : {
+         "cldr" : "tzm"
+      },
+      "tzm-latn" : {
+         "cldr" : "tzm_Latn"
+      },
+      "tzm-latn-ma" : {
+         "cldr" : "tzm_Latn_MA"
+      },
+      "ug" : {
+         "cldr" : "ug"
+      },
+      "ug-arab" : {
+         "cldr" : "ug_Arab"
+      },
+      "ug-arab-cn" : {
+         "cldr" : "ug_Arab_CN"
+      },
+      "uk" : {
+         "chrome_web_store" : "uk",
+         "cldr" : "uk",
+         "firefox" : "uk",
+         "ms" : "1058"
+      },
+      "uk-ua" : {
+         "cldr" : "uk_UA",
+         "java" : "uk_UA"
+      },
+      "und" : {
+         "cldr" : "root"
+      },
+      "ur" : {
+         "cldr" : "ur",
+         "ms" : "1056"
+      },
+      "ur-in" : {
+         "cldr" : "ur_IN"
+      },
+      "ur-pk" : {
+         "cldr" : "ur_PK"
+      },
+      "uz" : {
+         "cldr" : "uz",
+         "firefox" : "uz"
+      },
+      "uz-arab" : {
+         "cldr" : "uz_Arab"
+      },
+      "uz-arab-af" : {
+         "cldr" : "uz_Arab_AF"
+      },
+      "uz-cyrl" : {
+         "cldr" : "uz_Cyrl"
+      },
+      "uz-cyrl-uz" : {
+         "cldr" : "uz_Cyrl_UZ"
+      },
+      "uz-latn" : {
+         "cldr" : "uz_Latn"
+      },
+      "uz-latn-uz" : {
+         "cldr" : "uz_Latn_UZ"
+      },
+      "vai" : {
+         "cldr" : "vai"
+      },
+      "vai-latn" : {
+         "cldr" : "vai_Latn"
+      },
+      "vai-latn-lr" : {
+         "cldr" : "vai_Latn_LR"
+      },
+      "vai-vaii" : {
+         "cldr" : "vai_Vaii"
+      },
+      "vai-vaii-lr" : {
+         "cldr" : "vai_Vaii_LR"
+      },
+      "vi" : {
+         "chrome_web_store" : "vi",
+         "cldr" : "vi",
+         "firefox" : "vi",
+         "ms" : "1066"
+      },
+      "vi-vn" : {
+         "cldr" : "vi_VN",
+         "java" : "vi_VN"
+      },
+      "vun" : {
+         "cldr" : "vun"
+      },
+      "vun-tz" : {
+         "cldr" : "vun_TZ"
+      },
+      "wae" : {
+         "cldr" : "wae"
+      },
+      "wae-ch" : {
+         "cldr" : "wae_CH"
+      },
+      "xh" : {
+         "firefox" : "xh",
+         "ms" : "1076"
+      },
+      "xog" : {
+         "cldr" : "xog"
+      },
+      "xog-ug" : {
+         "cldr" : "xog_UG"
+      },
+      "yav" : {
+         "cldr" : "yav"
+      },
+      "yav-cm" : {
+         "cldr" : "yav_CM"
+      },
+      "yi" : {
+         "cldr" : "yi"
+      },
+      "yi-001" : {
+         "cldr" : "yi_001"
+      },
+      "yo" : {
+         "cldr" : "yo"
+      },
+      "yo-bj" : {
+         "cldr" : "yo_BJ"
+      },
+      "yo-ng" : {
+         "cldr" : "yo_NG"
+      },
+      "zgh" : {
+         "cldr" : "zgh"
+      },
+      "zgh-ma" : {
+         "cldr" : "zgh_MA"
+      },
+      "zh" : {
+         "cldr" : "zh"
+      },
+      "zh-cn" : {
+         "chrome_web_store" : "zh_CN",
+         "firefox" : "zh-CN",
+         "java" : "zh_CN",
+         "ms" : "2052"
+      },
+      "zh-hans" : {
+         "cldr" : "zh_Hans"
+      },
+      "zh-hans-cn" : {
+         "cldr" : "zh_Hans_CN"
+      },
+      "zh-hans-hk" : {
+         "cldr" : "zh_Hans_HK"
+      },
+      "zh-hans-mo" : {
+         "cldr" : "zh_Hans_MO"
+      },
+      "zh-hans-sg" : {
+         "cldr" : "zh_Hans_SG"
+      },
+      "zh-hant" : {
+         "cldr" : "zh_Hant"
+      },
+      "zh-hant-hk" : {
+         "cldr" : "zh_Hant_HK"
+      },
+      "zh-hant-mo" : {
+         "cldr" : "zh_Hant_MO"
+      },
+      "zh-hant-tw" : {
+         "cldr" : "zh_Hant_TW"
+      },
+      "zh-hk" : {
+         "java" : "zh_HK",
+         "ms" : "3076"
+      },
+      "zh-sg" : {
+         "java" : "zh_SG",
+         "ms" : "4100"
+      },
+      "zh-tw" : {
+         "chrome_web_store" : "zh_TW",
+         "firefox" : "zh-TW",
+         "java" : "zh_TW",
+         "ms" : "1028"
+      },
+      "zu" : {
+         "cldr" : "zu",
+         "ms" : "1077"
+      },
+      "zu-za" : {
+         "cldr" : "zu_ZA"
+      }
+   }
+}

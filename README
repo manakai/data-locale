@@ -5,6 +5,9 @@ Collection of locale-related data.
 
 See documentations for details in doc/ directory.
 
+  Languages
+    doc/langs-locale-names.txt         Locale identifiers
+    data/langs/locale-names.json
   Dates and times
     doc/datetime-durations.txt         Durations
     data/datetime/durations.json
