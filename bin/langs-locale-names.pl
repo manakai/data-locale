@@ -72,6 +72,18 @@ my $Data = {};
 }
 
 {
+  my $path = $local_path->child ('mediawiki-locales.txt');
+  for (split /\x0A/, $path->slurp) {
+    if (/^([a-zA-Z0-9-]+)$/) {
+      my $code = $1;
+      my $tag = $code;
+      $tag =~ tr/A-Z_/a-z-/;
+      $Data->{tags}->{$tag}->{mediawiki} = 1;
+    }
+  }
+}
+
+{
   my $path = $src_path->child ('java-locales.txt');
   for (split /\x0A/, $path->slurp) {
     if (/^([a-zA-Z0-9_]+)$/) {
