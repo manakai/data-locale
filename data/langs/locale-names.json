@@ -1,4 +1,9 @@
 {
+   "preferred_tags" : {
+      "bat-smg" : "sgs",
+      "be-x-old" : "be-tarask",
+      "zh-classical" : "lzh"
+   },
    "tags" : {
       "aa" : {
          "bcp47_canonical" : "aa",
@@ -367,7 +372,7 @@
          "cldr" : "bas_CM"
       },
       "bat-smg" : {
-         "bcp47_canonical" : "bat-smg",
+         "bcp47_canonical" : "sgs",
          "bcp47_errors" : [
             {
                "level" : "m",
@@ -411,7 +416,7 @@
          "mediawiki" : 1
       },
       "be-x-old" : {
-         "bcp47_canonical" : "be-x-old",
+         "bcp47_canonical" : "be-tarask",
          "bcp47_errors" : [
             {
                "level" : "s",
@@ -4618,13 +4623,8 @@
          "mediawiki" : 1
       },
       "zh-classical" : {
-         "bcp47_canonical" : "zh-classical",
+         "bcp47_canonical" : "lzh",
          "bcp47_errors" : [
-            {
-               "level" : "m",
-               "type" : "langtag:illegal",
-               "value" : "classical"
-            },
             {
                "level" : "m",
                "type" : "langtag:illegal",

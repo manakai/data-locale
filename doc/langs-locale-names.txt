@@ -5,7 +5,14 @@ Locale identifiers.
 
 * Structure
 
-A JSON object with following name/value pair:
+A JSON object with following name/value pairs:
+
+  preferred_tags [object]
+
+    Additional rules for normalization of BCP 47 language tags,
+    including mapping from informal or invalid tags to formally
+    registered tags.  Names are original language tags in lowercase
+    and values are preferred language tags in lowercase.
 
   tags [object]
 

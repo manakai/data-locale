@@ -11,6 +11,20 @@ my $src_path = path (__FILE__)->parent->parent->child ('src');
 my $Data = {};
 
 {
+  ## <http://meta.wikimedia.org/wiki/List_of_Wikipedias#Nonstandard_language_codes>
+  for (
+    ['be-x-old' => 'be-tarask'],
+    ['bat-smg' => 'sgs'],
+    ['zh-classical' => 'lzh'],
+  ) {
+    my $lt = Web::LangTag->new;
+    my $canon = $lt->canonicalize_tag ($lt->normalize_tag ($_->[1]));
+    $canon =~ tr/A-Z/a-z/;
+    $Data->{preferred_tags}->{$_->[0]} = $canon;
+  }
+}
+
+{
   my $path = $local_path->child ('cldr-locales.txt');
   for (split /\x0A/, $path->slurp) {
     if (/^([0-9A-Za-z_]+)$/) {
@@ -118,7 +132,8 @@ for my $tag (keys %{$Data->{tags}}) {
   $lt->check_parsed_tag ($parsed);
   $Data->{tags}->{$tag}->{bcp47_errors} = \@error if @error;
 
-  my $canon = $lt->canonicalize_tag ($lt->normalize_tag ($tag));
+  $lt->onerror (undef);
+  my $canon = $lt->canonicalize_tag ($lt->normalize_tag ($Data->{preferred_tags}->{$tag} // $tag));
   $canon =~ s/^([a-z]+)-[A-Z][a-z]{3}\b/$1/ if $suppress;
   $Data->{tags}->{$tag}->{bcp47_canonical} = $canon;
 }
