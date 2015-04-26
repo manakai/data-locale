@@ -57,6 +57,7 @@
    "preferred_tags" : {
       "bat-smg" : "sgs",
       "be-x-old" : "be-tarask",
+      "ja-jpm" : "ja-jp-mac",
       "zh-classical" : "lzh"
    },
    "tags" : {
@@ -2729,6 +2730,32 @@
          "ms" : "1041",
          "native_name" : "日本語"
       },
+      "ja-2ch" : {
+         "bcp47_canonical" : "ja-2ch",
+         "bcp47_errors" : [
+            {
+               "level" : "m",
+               "type" : "langtag:illegal",
+               "value" : "2ch"
+            }
+         ],
+         "native_name" : "日本語 (2ch)"
+      },
+      "ja-child" : {
+         "bcp47_canonical" : "ja-child",
+         "bcp47_errors" : [
+            {
+               "level" : "m",
+               "type" : "langtag:variant:invalid",
+               "value" : "child"
+            }
+         ],
+         "native_name" : "にほんご (こどもむけ)"
+      },
+      "ja-hira" : {
+         "bcp47_canonical" : "ja-Hira",
+         "native_name" : "にほんご (ひらがな)"
+      },
       "ja-jp" : {
          "bcp47_canonical" : "ja-JP",
          "cldr" : "ja_JP",
@@ -2736,9 +2763,71 @@
          "mysql" : "ja_JP",
          "native_name" : "日本語 (日本)"
       },
+      "ja-jp-kansai" : {
+         "bcp47_canonical" : "ja-JP-kansai",
+         "bcp47_errors" : [
+            {
+               "level" : "m",
+               "type" : "langtag:variant:invalid",
+               "value" : "kansai"
+            }
+         ],
+         "native_name" : "日本語 (関西弁)"
+      },
+      "ja-jp-mac" : {
+         "bcp47_canonical" : "ja-JP-mac",
+         "bcp47_errors" : [
+            {
+               "level" : "m",
+               "type" : "langtag:illegal",
+               "value" : "mac"
+            }
+         ]
+      },
       "ja-jp-u-ca-japanese" : {
          "bcp47_canonical" : "ja-JP-u-ca-japanese",
          "java" : "ja_JP_JP"
+      },
+      "ja-jpan" : {
+         "bcp47_canonical" : "ja",
+         "bcp47_errors" : [
+            {
+               "level" : "s",
+               "text" : "ja",
+               "type" : "langtag:script:suppress",
+               "value" : "jpan"
+            }
+         ],
+         "native_name" : "日本語 (仮名漢字混じり)"
+      },
+      "ja-jpm" : {
+         "bcp47_canonical" : "ja-JP-mac",
+         "bcp47_errors" : [
+            {
+               "level" : "m",
+               "type" : "langtag:extlang:invalid",
+               "value" : "jpm"
+            }
+         ]
+      },
+      "ja-kana" : {
+         "bcp47_canonical" : "ja-Kana",
+         "native_name" : "ニホンゴ (カタカナ)"
+      },
+      "ja-latn" : {
+         "bcp47_canonical" : "ja-Latn",
+         "native_name" : "Nihongo (Rōmaji)"
+      },
+      "ja-oosaka" : {
+         "bcp47_canonical" : "ja-oosaka",
+         "bcp47_errors" : [
+            {
+               "level" : "m",
+               "type" : "langtag:variant:invalid",
+               "value" : "oosaka"
+            }
+         ],
+         "native_name" : "日本語 (大阪弁)"
       },
       "jam" : {
          "bcp47_canonical" : "jam",
@@ -3012,7 +3101,7 @@
          "bcp47_canonical" : "ko-KP",
          "cldr" : "ko_KP",
          "mediawiki" : 1,
-         "native_name" : "한국어 (조선민주주의인민공화국)"
+         "native_name" : "조선말"
       },
       "ko-kr" : {
          "bcp47_canonical" : "ko-KR",
@@ -3615,6 +3704,21 @@
          "bcp47_canonical" : "mua-CM",
          "cldr" : "mua_CM",
          "native_name" : "MUNDAŊ (kameruŋ)"
+      },
+      "mul-kambun" : {
+         "bcp47_canonical" : "mul-kambun",
+         "bcp47_errors" : [
+            {
+               "level" : "s",
+               "type" : "langtag:language:mul"
+            },
+            {
+               "level" : "m",
+               "type" : "langtag:variant:invalid",
+               "value" : "kambun"
+            }
+         ],
+         "native_name" : "漢文"
       },
       "mus" : {
          "bcp47_canonical" : "mus",
@@ -5369,7 +5473,8 @@
          "java" : "zh_CN",
          "mediawiki" : 1,
          "ms" : "2052",
-         "mysql" : "zh_CN"
+         "mysql" : "zh_CN",
+         "native_name" : "中文 (中国大陸)"
       },
       "zh-hans" : {
          "bcp47_canonical" : "zh-Hans",
@@ -5423,7 +5528,8 @@
          "java" : "zh_HK",
          "mediawiki" : 1,
          "ms" : "3076",
-         "mysql" : "zh_HK"
+         "mysql" : "zh_HK",
+         "native_name" : "中文 (香港)"
       },
       "zh-min-nan" : {
          "bcp47_canonical" : "nan",
@@ -5439,7 +5545,8 @@
       },
       "zh-mo" : {
          "bcp47_canonical" : "zh-MO",
-         "mediawiki" : 1
+         "mediawiki" : 1,
+         "native_name" : "中文 (澳門)"
       },
       "zh-my" : {
          "bcp47_canonical" : "zh-MY",
@@ -5449,7 +5556,8 @@
          "bcp47_canonical" : "zh-SG",
          "java" : "zh_SG",
          "mediawiki" : 1,
-         "ms" : "4100"
+         "ms" : "4100",
+         "native_name" : "中文 (新加坡)"
       },
       "zh-tw" : {
          "bcp47_canonical" : "zh-TW",
@@ -5458,7 +5566,8 @@
          "java" : "zh_TW",
          "mediawiki" : 1,
          "ms" : "1028",
-         "mysql" : "zh_TW"
+         "mysql" : "zh_TW",
+         "native_name" : "中文 (台灣)"
       },
       "zh-yue" : {
          "bcp47_canonical" : "yue",

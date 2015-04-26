@@ -1,0 +1,15 @@
+ja-child にほんご (こどもむけ)
+ja-latn Nihongo (Rōmaji)
+ja-kana ニホンゴ (カタカナ)
+ja-hira にほんご (ひらがな)
+ja-jpan 日本語 (仮名漢字混じり)
+ja-jp-kansai 日本語 (関西弁)
+ja-oosaka 日本語 (大阪弁)
+ja-2ch 日本語 (2ch)
+ko-kp 조선말
+zh-cn 中文 (中国大陸)
+zh-tw 中文 (台灣)
+zh-hk 中文 (香港)
+zh-mo 中文 (澳門)
+zh-sg 中文 (新加坡)
+mul-kambun 漢文

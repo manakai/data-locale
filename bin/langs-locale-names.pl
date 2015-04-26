@@ -11,16 +11,21 @@ my $src_path = path (__FILE__)->parent->parent->child ('src');
 my $Data = {};
 
 {
-  ## <http://meta.wikimedia.org/wiki/List_of_Wikipedias#Nonstandard_language_codes>
   for (
+    ['ja-jpm' => 'ja-jp-mac'],
+
+    ## <http://meta.wikimedia.org/wiki/List_of_Wikipedias#Nonstandard_language_codes>
     ['be-x-old' => 'be-tarask'],
     ['bat-smg' => 'sgs'],
     ['zh-classical' => 'lzh'],
   ) {
     my $lt = Web::LangTag->new;
+    $lt->onerror (sub { });
     my $canon = $lt->canonicalize_tag ($lt->normalize_tag ($_->[1]));
     $canon =~ tr/A-Z/a-z/;
     $Data->{preferred_tags}->{$_->[0]} = $canon;
+    $Data->{tags}->{$_->[0]} ||= {};
+    $Data->{tags}->{$canon} ||= {};
   }
 }
 
@@ -116,6 +121,29 @@ my $Data = {};
 }
 
 {
+  my $path = $local_path->child ('cldr-native-language-names.json');
+  my $json = json_bytes2perl $path->slurp;
+  my $name = {};
+  for (keys %{$json->{langs}}) {
+    my $v = $_;
+    $v =~ tr/A-Z_/a-z-/;
+    $name->{$v} = $json->{langs}->{$_};
+  }
+  for my $tag (keys %{$Data->{tags}}) {
+    my $name = $name->{$tag};
+    $Data->{tags}->{$tag}->{native_name} = $name if defined $name;
+  }
+}
+
+{
+  my $path = $src_path->child ('lang-names-additional.txt');
+  for (split /\x0A/, $path->slurp_utf8) {
+    my ($tag, $name) = split /\s+/, $_, 2;
+    $Data->{tags}->{$tag}->{native_name} = $name;
+  }
+}
+
+{
   my $tags = {};
   for my $tag (keys %{$Data->{tags}}) {
     if ($tag =~ /\A([a-z]{2})-[a-z]{2}\z/) {
@@ -184,21 +212,6 @@ for my $tag (keys %{$Data->{tags}}) {
   my $canon = $lt->canonicalize_tag ($lt->normalize_tag ($Data->{preferred_tags}->{$tag} // $tag));
   $canon =~ s/^([a-z]+)-[A-Z][a-z]{3}\b/$1/ if $suppress;
   $Data->{tags}->{$tag}->{bcp47_canonical} = $canon;
-}
-
-{
-  my $path = $local_path->child ('cldr-native-language-names.json');
-  my $json = json_bytes2perl $path->slurp;
-  my $name = {};
-  for (keys %{$json->{langs}}) {
-    my $v = $_;
-    $v =~ tr/A-Z_/a-z-/;
-    $name->{$v} = $json->{langs}->{$_};
-  }
-  for my $tag (keys %{$Data->{tags}}) {
-    my $name = $name->{$tag};
-    $Data->{tags}->{$tag}->{native_name} = $name if defined $name;
-  }
 }
 
 print perl2json_bytes_for_record $Data;

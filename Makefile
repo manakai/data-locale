@@ -113,7 +113,7 @@ local/cldr-native-language-names.json: local/cldr-core-json-files \
 data/langs/locale-names.json: bin/langs-locale-names.pl \
   local/cldr-locales.txt src/ms-locales.txt src/chromewebstore-locales.txt \
   local/fx-locales.txt src/java-locales.txt local/mediawiki-locales.txt \
-  local/cldr-native-language-names.json
+  local/cldr-native-language-names.json src/lang-names-additional.txt
 	$(PERL) $< > $@
 
 local/cldr-plurals.xml:
