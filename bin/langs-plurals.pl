@@ -16,6 +16,7 @@ for (
   [[2..4] => 'is 2-4'],
   [[3..6] => 'is 3-6'],
   [[7..10] => 'is 7-10'],
+  [[1..9] => 'is 1-9'],
   [[1, 11] => 'is 1, 11'],
   [[8, 11] => 'is 8, 11'],
   [[2, 12] => 'is 2, 12'],
@@ -135,8 +136,8 @@ for my $name (keys %{$Data->{forms}}) {
 
 my $NormalizedExprs = [];
 
-sub expr ($$) {
-  my ($n, $expr_orig) = @_;
+sub expr ($$;%) {
+  my ($n, $expr_orig, %args) = @_;
   my $data = {};
   my $expr = $expr_orig;
   $expr =~ s/n/\$n/g;
@@ -161,6 +162,9 @@ sub expr ($$) {
         }
       }
       if (@{$data->{forms}} != keys %$replaced) {
+        for (@{$data->{forms}}) {
+          warn $_ unless $replaced->{$_};
+        }
         die "An unknown form found ($expr_orig)";
       }
       my @sorted_key = sort {
@@ -180,8 +184,10 @@ sub expr ($$) {
   $Data->{rules}->{$sorted_key}->{expression} = join '', (map { $Data->{forms}->{$_}->{expression} . '?' . $name_to_field->{$_} . ':' } @sorted_key), $name_to_field->{'everything else'};
   $NormalizedExprs->[@sorted_key + 1]->{$Data->{rules}->{$sorted_key}->{expression}} = 1;
   my $key = $n . ':' . join '/', @{$data->{forms}};
-  $Data->{rules}->{$sorted_key}->{serializations}->{$key}->{expressions}->{$expr_orig} = 1;
-  $Data->{rules}->{$sorted_key}->{serializations}->{$key}->{fields} = join '/', map { $name_to_field->{$_} } @{$data->{forms}};
+  unless ($args{dont_add}) {
+    $Data->{rules}->{$sorted_key}->{serializations}->{$key}->{expressions}->{$expr_orig} = 1;
+    $Data->{rules}->{$sorted_key}->{serializations}->{$key}->{fields} = join '/', map { $name_to_field->{$_} } @{$data->{forms}};
+  }
   return ($sorted_key, $key);
 } # expr
 
@@ -190,6 +196,17 @@ sub expr ($$) {
   for (split /\x0A/, $path->slurp) {
     if (/^nplurals=([0-9]+);plural=(.+?);?$/) {
       expr $1, $2;
+    } elsif (/\S/) {
+      warn "Broken line: |$_|";
+    }
+  }
+}
+
+{
+  my $path = path (__FILE__)->parent->parent->child ('src/plural-additional.txt');
+  for (split /\x0A/, $path->slurp) {
+    if (/^nplurals=([0-9]+);plural=(.+?);?$/) {
+      expr $1, $2, dont_add => 1;
     } elsif (/\S/) {
       warn "Broken line: |$_|";
     }

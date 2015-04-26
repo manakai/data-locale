@@ -150,6 +150,11 @@
          "expression" : "n==1||n==11",
          "typical" : 1
       },
+      "is 1-9" : {
+         "examples" : "1 2 3 4 5 6 7 8 9",
+         "expression" : "1\u003C=n&&n\u003C=9",
+         "typical" : "1"
+      },
       "is 2" : {
          "examples" : "2",
          "expression" : "n==2",
@@ -295,6 +300,21 @@
                "expressions" : {
                   "(n!=0)" : 1,
                   "n==0?0:1" : 1
+               },
+               "fields" : "0/1"
+            }
+         }
+      },
+      "2:is 1-9/everything else" : {
+         "expression" : "1\u003C=n&&n\u003C=9?0:1",
+         "forms" : [
+            "is 1-9",
+            "everything else"
+         ],
+         "serializations" : {
+            "2:is 1-9/everything else" : {
+               "expressions" : {
+                  "1\u003C=n&&n\u003C=9?0:1" : 1
                },
                "fields" : "0/1"
             }
