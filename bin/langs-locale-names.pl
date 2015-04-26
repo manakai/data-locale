@@ -11,16 +11,22 @@ my $src_path = path (__FILE__)->parent->parent->child ('src');
 my $Data = {};
 
 {
-  ## <http://meta.wikimedia.org/wiki/List_of_Wikipedias#Nonstandard_language_codes>
   for (
+    ['ja-jpm' => 'ja-jp-mac'],
+    ['x-klingon' => 'tlh'],
+
+    ## <http://meta.wikimedia.org/wiki/List_of_Wikipedias#Nonstandard_language_codes>
     ['be-x-old' => 'be-tarask'],
     ['bat-smg' => 'sgs'],
     ['zh-classical' => 'lzh'],
   ) {
     my $lt = Web::LangTag->new;
+    $lt->onerror (sub { });
     my $canon = $lt->canonicalize_tag ($lt->normalize_tag ($_->[1]));
     $canon =~ tr/A-Z/a-z/;
     $Data->{preferred_tags}->{$_->[0]} = $canon;
+    $Data->{tags}->{$_->[0]} ||= {};
+    $Data->{tags}->{$canon} ||= {};
   }
 }
 
@@ -86,6 +92,36 @@ my $Data = {};
 }
 
 {
+  my $path = $local_path->child ('facebook-locales.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $locale (keys %{$json->{locales}}) {
+    my $lang = $locale;
+    $lang =~ tr/A-Z_/a-z-/;
+    $lang = {
+      'ar-ar' => 'ar', # <https://developers.facebook.com/docs/internationalization>
+      'cb-iq' => 'ckb-iq',
+      'ck-us' => 'chr-us',
+      'cx-ph' => 'ceb-ph',
+      'eo-eo' => 'eo',
+      'es-la' => 'es-419', # <https://developers.facebook.com/docs/internationalization>
+      'gx-gr' => 'grc-gr',
+      'ja-ks' => 'ja-jp-kansai',
+      'sy-sy' => 'syc-sy',
+      'tl-ph' => 'fil-ph',
+      'tl-st' => 'tlh',
+      'tz-ma' => 'ber-ma',
+      'zz-tr' => 'zza-tr',
+    }->{$lang} // $lang;
+    next if {
+      'en-pi' => 1,
+      'en-ud' => 1,
+      'fb-lt' => 1,
+    }->{$lang}; # no BCP 47 language tag...
+    $Data->{tags}->{$lang}->{facebook} = $locale;
+  }
+}
+
+{
   my $path = $local_path->child ('mediawiki-locales.txt');
   for (split /\x0A/, $path->slurp) {
     if (/^([a-zA-Z0-9-]+)$/) {
@@ -112,6 +148,29 @@ my $Data = {};
       }->{$tag} || $tag;
       $Data->{tags}->{$tag}->{java} = $code;
     }
+  }
+}
+
+{
+  my $path = $local_path->child ('cldr-native-language-names.json');
+  my $json = json_bytes2perl $path->slurp;
+  my $name = {};
+  for (keys %{$json->{langs}}) {
+    my $v = $_;
+    $v =~ tr/A-Z_/a-z-/;
+    $name->{$v} = $json->{langs}->{$_};
+  }
+  for my $tag (keys %{$Data->{tags}}) {
+    my $name = $name->{$tag};
+    $Data->{tags}->{$tag}->{native_name} = $name if defined $name;
+  }
+}
+
+{
+  my $path = $src_path->child ('lang-names-additional.txt');
+  for (split /\x0A/, $path->slurp_utf8) {
+    my ($tag, $name) = split /\s+/, $_, 2;
+    $Data->{tags}->{$tag}->{native_name} = $name;
   }
 }
 
