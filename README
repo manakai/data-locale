@@ -8,6 +8,8 @@ See documentations for details in doc/ directory.
   Languages
     doc/langs-locale-names.txt         Locale identifiers
     data/langs/locale-names.json
+    doc/langs-plurals.txt              Plural rules
+    data/langs/plurals.json
   Dates and times
     doc/datetime-durations.txt         Durations
     data/datetime/durations.json

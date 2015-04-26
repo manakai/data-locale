@@ -1,0 +1,106 @@
+langs/plurals.json
+~~~~~~~~~~~~~~~~~~
+
+Plural rules.
+
+* Structure
+
+The file contains a JSON object with following name/value pairs:
+
+  forms [object]
+
+    Definitions for plural forms referenced from plural rules.  Names
+    are opaque strings identifying plural forms.  Values are their
+    descriptions, represented as objects with following name/value
+    pairs:
+
+      examples [string]
+
+        Example of numbers belonging to this plural form, represented
+        as U+0020-separated list of non-negative integers with no
+        leading zero.
+
+      expression [plural-expression]
+
+        An expression that returns true if and only if /n/ is a number
+        that belongs to this plural form.
+
+      typical [integer]
+
+        A typical non-negative integer that belongs to this plural
+        form.
+
+  rules [object]
+
+    Plural rules.  Names are opaque strings identifying plural rules.
+    Values are their descriptions, represented as objects with
+    following name/value pairs:
+
+      expression [plural-expression]
+
+        An expression that represents the plural rule.
+
+      forms [array]
+
+        The plural forms used in this plural rule.  The length of the
+        array represents the number of the forms used in this plural
+        rule.  The items of the array are the names of the plural
+        forms used in this plural rule (i.e. names in the |forms|
+        top-level object in the file).
+
+      serializations [object]
+
+        Known serializations of the plural rule.  In this data file, a
+        plural rule is considered as a set of plural forms.  Plural
+        rules in various wire formats are defined a list of plural
+        forms, rather than a set.  Such variations of plural rule
+        representations are considered as "serializations" of a set.
+        Names are opaque strings identifying plural rule
+        serializations.  Values are their descriptions, represented as
+        objects with following name/value pairs:
+
+          expressions [object]
+
+            Expressions that represents the plural rule serialization,
+            used in the wild.  Names are expressions and values are
+            [boolean] true values.
+
+          fields [string]
+
+            Mapping from plural forms in the plural rules to plural
+            form fields in the serializations.  The value is a
+            U+002F-separated list of (zero-based) indexes or "-".  An
+            index references the plural form in the |forms| array of
+            the plural rule object, while "-" indicates that the field
+            is not in fact used.
+
+          mozilla_rule [integer?]
+
+            The plural rule number used in Mozilla PluralForm
+            implementation, as documented in
+            <https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals>,
+            if assigned.
+
+* Data type
+
+plural-expression
+
+  An expression syntax used in the |plural| part of the
+  |Plural-Forms:| field of .PO files.  In this file, the expression is
+  normalized by removing any space character.
+
+* Sources
+
+Additional functions for plural forms
+<https://www.gnu.org/software/gettext/manual/html_node/Plural-forms.html>.
+
+Localization and Plurals
+<https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals>.
+
+gecko-dev/PluralForm.jsm at master - mozilla/gecko-dev
+<https://github.com/mozilla/gecko-dev/blob/master/intl/locale/PluralForm.jsm>.
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of this file.
