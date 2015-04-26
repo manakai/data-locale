@@ -186,6 +186,21 @@ for my $tag (keys %{$Data->{tags}}) {
   $Data->{tags}->{$tag}->{bcp47_canonical} = $canon;
 }
 
+{
+  my $path = $local_path->child ('cldr-native-language-names.json');
+  my $json = json_bytes2perl $path->slurp;
+  my $name = {};
+  for (keys %{$json->{langs}}) {
+    my $v = $_;
+    $v =~ tr/A-Z_/a-z-/;
+    $name->{$v} = $json->{langs}->{$_};
+  }
+  for my $tag (keys %{$Data->{tags}}) {
+    my $name = $name->{$tag};
+    $Data->{tags}->{$tag}->{native_name} = $name if defined $name;
+  }
+}
+
 print perl2json_bytes_for_record $Data;
 
 ## License: Public Domain.

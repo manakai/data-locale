@@ -83,6 +83,11 @@ A JSON object with following name/value pairs:
 
         The locale identifier used in MySQL, if exists.
 
+      native_name [string?]
+
+        The locale name in that locale, if known, taken from CLDR and
+        other sources.
+
 * Sources
 
 Unicode CLDR Project <http://cldr.unicode.org/>.

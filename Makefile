@@ -54,6 +54,7 @@ data: data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json \
     data/timezones/mail-names.json \
     data/langs/locale-names.json data/langs/plurals.json
 clean-data:
+	rm -fr local/cldr-core*
 
 data/calendar/jp-holidays.json: bin/calendar-jp-holidays.pl
 	$(PERL) $< > $@
@@ -96,9 +97,23 @@ local/mediawiki-locales.php:
 local/mediawiki-locales.txt: local/mediawiki-locales.php
 	perl -e 'local $$/ = undef; $$x = <>; $$x =~ s{/\*.*?\*/}{}gs; $$x =~ s{#.*\n}{\n}g; $$q = chr 0x27; while ($$x =~ /$$q([a-z0-9-]+)$$q\s*=>/g) { print "$$1\n" }' < $< > $@
 
+local/cldr-core.zip:
+	$(WGET) -O $@ http://www.unicode.org/Public/cldr/latest/core.zip
+local/cldr-core-files: local/cldr-core.zip
+	mkdir -p local/cldr-core
+	cd local/cldr-core && unzip ../cldr-core.zip
+	touch $@
+local/cldr-core-json-files: local/cldr-core-files bin/parse-cldr-main.pl
+	$(PERL) bin/parse-cldr-main.pl
+	touch $@
+local/cldr-native-language-names.json: local/cldr-core-json-files \
+  bin/cldr-native-language-names.pl
+	$(PERL) bin/cldr-native-language-names.pl > $@
+
 data/langs/locale-names.json: bin/langs-locale-names.pl \
   local/cldr-locales.txt src/ms-locales.txt src/chromewebstore-locales.txt \
-  local/fx-locales.txt src/java-locales.txt local/mediawiki-locales.txt
+  local/fx-locales.txt src/java-locales.txt local/mediawiki-locales.txt \
+  local/cldr-native-language-names.json
 	$(PERL) $< > $@
 
 local/cldr-plurals.xml:
