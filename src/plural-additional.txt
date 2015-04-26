@@ -1,0 +1,1 @@
+nplurals=2;plural=1<=n&&n<=9?1:0;
