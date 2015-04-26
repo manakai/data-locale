@@ -115,6 +115,54 @@ my $Data = {};
   }
 }
 
+{
+  my $tags = {};
+  for my $tag (keys %{$Data->{tags}}) {
+    if ($tag =~ /\A([a-z]{2})-[a-z]{2}\z/) {
+      my $tag_short = $1;
+      my $score = 0;
+      do {$score++ if $Data->{tags}->{$tag}->{$_} } for qw(
+        chrome_web_store firefox java ms mysql
+      );
+      next unless $score;
+
+      next unless $Data->{tags}->{$tag_short};
+      my $score_short = 0;
+      do { $score_short++ if $Data->{tags}->{$tag_short}->{$_} } for qw(
+        chrome_web_store firefox java ms mysql
+      );
+      next unless $score_short;
+
+      #warn "$tag=$score / $tag_short=$score_short";
+      $tags->{$tag_short}->{$tag} = 1;
+    }
+  }
+
+  my $preferred = {};
+  for my $tag_short (keys %$tags) {
+    if (1 == keys %{$tags->{$tag_short}}) {
+      $preferred->{[keys %{$tags->{$tag_short}}]->[0]} = $tag_short;
+    } elsif ($tags->{$tag_short}->{"$tag_short-$tag_short"}) {
+      $preferred->{"$tag_short-$tag_short"} = $tag_short;
+    } elsif ($tags->{$tag_short}->{my $tag = {
+      bn => 'bn-bd',
+      en => 'en-us',
+      sr => 'sr-rs',
+      sv => 'sv-se',
+      el => 'el-gr',
+    }->{$tag_short} // ''}) {
+      $preferred->{$tag} = $tag_short;
+    } elsif ($tag_short eq 'ar') {
+      #
+    } else {
+      for my $tag (keys %{$tags->{$tag_short}}) {
+        warn "$tag_short $tag";
+      }
+    }
+  }
+  $Data->{countryless_tags} = $preferred;
+}
+
 for my $tag (keys %{$Data->{tags}}) {
   my @error;
   my $lt = Web::LangTag->new;
