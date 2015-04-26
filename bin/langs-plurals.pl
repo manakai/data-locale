@@ -12,28 +12,46 @@ for (
   [[1] => 'is 1'],
   [[2] => 'is 2'],
   [[3] => 'is 3'],
+  [[4] => 'is 4'],
+  [[6] => 'is 6'],
   [[0, 1] => 'is 0, 1'],
+  [[1, 3] => 'is 1, 3'],
+  [[1..4] => 'is 1-4'],
+  [[1, 5] => 'is 1, 5'],
+  [[2..3] => 'is 2, 3'],
   [[2..4] => 'is 2-4'],
+  [[3..4] => 'is 3, 4'],
   [[3..6] => 'is 3-6'],
+  [[5..6] => 'is 5, 6'],
+  [[0, 7..9] => 'is 0, 7-9'],
   [[7..10] => 'is 7-10'],
   [[1..9] => 'is 1-9'],
   [[1, 11] => 'is 1, 11'],
   [[8, 11] => 'is 8, 11'],
   [[2, 12] => 'is 2, 12'],
   [[3..10, 13..19] => 'is 3-10, 13-19'],
+  [[0..1, 11..99] => 'is 0-1, 11-99'],
   [[0, 3..10] => 'is 0, 3-10'],
+  [[1, 5, 7..10] => 'is 1, 5, 7-10'],
+  [[8, 11, 80, 800] => 'is 8, 11, 80, 800'],
   [[map { $_ * 10 + 1 } 0..99] => 'ends in 1'],
   [[map { $_ * 10 + 2 } 0..99] => 'ends in 2'],
   [[grep { not $_ == 1 } map { $_ * 10 + 1, $_ * 10 + 2 } 0..99] => 'ends in 1-2 excluding 1'],
   [[grep { not /11$/ } map { $_ * 10 + 1 } 0..99] => 'ends in 1 not ends in 11'],
+  [[grep { not /1[12]$/ } map { $_ * 10 + 1, $_ * 10 + 2 } 0..99] => 'ends in 1-2 not ends in 11-12'],
   [[grep { not /11$/ } map { $_ * 10 + 1 } 1..99] => 'ends in 1 not ends in 11 excluding 1, 11'],
   [[grep { not /[179]1$/ } map { $_ * 10 + 1 } 0..99] => 'ends in 1 not ends in 11, 71, 91'],
+  [[grep { not /12$/ } map { $_ * 10 + 2 } 0..99] => 'ends in 2 not ends in 12'],
   [[grep { not /[179]2$/ } map { $_ * 10 + 2 } 0..99] => 'ends in 2 not ends in 12, 72, 92'],
+  [[grep { not /13$/ } map { $_ * 10 + 3 } 0..99] => 'ends in 3 not ends in 13'],
+  [[grep { not /14$/ } map { $_ * 10 + 4 } 0..99] => 'ends in 4 not ends in 14'],
   [[grep { /[349]$/ and not /[179][349]$/ } 0..999] => 'ends in 3, 4, 9 not ends in 13, 14, 19, 73, 74, 79, 93, 94, 99'],
   [[map { $_ * 10 + 2, $_ * 10 + 3, $_ * 10 + 4 } 0..99] => 'ends in 2-4'],
   [[map { $_ * 10 + 3, $_ * 10 + 4, $_ * 10 + 5, $_ * 10 + 6 } 0..99] => 'ends in 3-6'],
   [[grep { not /1[2-4]$/ } map { $_ * 10 + 2, $_ * 10 + 3, $_ * 10 + 4 } 0..99] => 'ends in 2-4 not ends in 12-14'],
   [[0, map { $_ * 10 } 2..99, 100000] => 'ends in 0 excluding 10'],
+  [[map { $_ * 10 } 2..99, 100000] => 'ends in 0 excluding 0, 10'],
+  [[grep { not $_ == 0 } (map { $_ * 10, $_ * 10 + 6, $_ * 10 + 9 } 0..99), 1000000] => 'ends in 0, 6, 9 excluding 0'],
   [[grep { /(?:0|1[1-9])$/ } 0..999, 1000000] => 'ends in 0 or ends in 11-19'],
   [[grep { /(?:0|1[2-9])$/ } 0..999, 1000000] => 'ends in 0 or ends in 12-19'],
   [[map { $_ * 100 + 1 } 0..9] => 'ends in 01'],
@@ -70,8 +88,12 @@ for my $name (keys %{$Data->{forms}}) {
     $Data->{forms}->{$name}->{expression} = "n==$1||n==$2";
   } elsif ($name =~ /^is ([0-9]+), ([0-9]+)-([0-9]+)$/) {
     $Data->{forms}->{$name}->{expression} = "n==$1||($2<=n&&n<=$3)";
+  } elsif ($name =~ /^is ([0-9]+), ([0-9]+), ([0-9]+)-([0-9]+)$/) {
+    $Data->{forms}->{$name}->{expression} = "n==$1||n==$2||($3<=n&&n<=$4)";
   } elsif ($name =~ /^is ([0-9]+), ([0-9]+), ([0-9]+)$/) {
     $Data->{forms}->{$name}->{expression} = "n==$1||n==$2||n==$3";
+  } elsif ($name =~ /^is ([0-9]+), ([0-9]+), ([0-9]+), ([0-9]+)$/) {
+    $Data->{forms}->{$name}->{expression} = "n==$1||n==$2||n==$3||n==$4";
   } elsif ($name =~ /^is ([0-9]+)-([0-9]+), ([0-9]+)-([0-9]+)$/) {
     $Data->{forms}->{$name}->{expression} = "($1<=n&&n<=$2)||($3<=n&&n<=$4)";
   } elsif ($name =~ /^is ([0-9]+) or ends in ([0-9][0-9])-([0-9][0-9])$/) {
@@ -90,6 +112,8 @@ for my $name (keys %{$Data->{forms}}) {
     $Data->{forms}->{$name}->{expression} = "n%10==$1||($2<=n%100&&n%100<=$3)";
   } elsif ($name =~ /^ends in ([0-9]) excluding ([0-9]+)$/) {
     $Data->{forms}->{$name}->{expression} = "n%10==$1&&n!=$2";
+  } elsif ($name =~ /^ends in ([0-9]) excluding ([0-9]+), ([0-9]+)$/) {
+    $Data->{forms}->{$name}->{expression} = "n%10==$1&&n!=$2&&n!=$3";
   } elsif ($name =~ /^ends in ([0-9]) not ends in ([0-9][0-9])$/) {
     $Data->{forms}->{$name}->{expression} = "n%10==$1&&n%100!=$2";
   } elsif ($name =~ /^ends in ([0-9]) not ends in ([0-9][0-9]) excluding ([0-9]+), ([0-9]+)$/) {
@@ -102,6 +126,8 @@ for my $name (keys %{$Data->{forms}}) {
     $Data->{forms}->{$name}->{expression} = "($1<=n%10&&n%10<=$2)&&n!=$3";
   } elsif ($name =~ /^ends in ([0-9])-([0-9]) not ends in ([0-9][0-9])-([0-9][0-9])$/) {
     $Data->{forms}->{$name}->{expression} = "($1<=n%10&&n%10<=$2)&&!($3<=n%100&&n%100<=$4)";
+  } elsif ($name =~ /^ends in ([0-9]), ([0-9]), ([0-9]) excluding ([0-9]+)$/) {
+    $Data->{forms}->{$name}->{expression} = "(n%10==$1||n%10==$2||n%10==$3)&&n!=$4";
   } elsif ($name =~ /^ends in ([0-9]), ([0-9]), ([0-9]) not ends in ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9])$/) {
     $Data->{forms}->{$name}->{expression} = "(n%10==$1||n%10==$2||n%10==$3)&&n%100!=$4&&n%100!=$5&&n%100!=$6&&n%100!=$7&&n%100!=$8&&n%100!=$9&&n%100!=$10&&n%100!=$11&&n%100!=$12";
   } elsif ($name =~ /^ends in ([0-9][0-9])$/) {
@@ -123,7 +149,6 @@ for my $name (keys %{$Data->{forms}}) {
   $expr =~ s/n/\$n/g;
   my @num;
   for my $n (0..999, 1000000) {
-    eval $expr;
     my $r = eval $expr;
     die "|$expr|: $@" if $@;
     push @num, $n if $r;
@@ -140,38 +165,49 @@ sub expr ($$;%) {
   my ($n, $expr_orig, %args) = @_;
   my $data = {};
   my $expr = $expr_orig;
-  $expr =~ s/n/\$n/g;
+  $expr =~ s/([nivwft])/\$$1/g;
   $data->{forms}->[$n-1] ||= [];
-      for my $n (0..999, 1000000) {
-        my $r = eval $expr;
-        die "|$expr|: $@" if $@;
-        push @{$data->{forms}->[$r] ||= []}, $n;
-      }
+  for my $n (0..999, 1000000) {
+    ## <http://unicode.org/reports/tr35/tr35-numbers.html#Operands>
+    ## XXX fractions are not supported in fact...
+    my $i = $n % 1;
+    my $v = $n =~ /\.([0-9]+)$/ ? length $1 : 0;
+    my $w = $n =~ /\.([0-9]*?)0*$/ ? length $1 : 0;
+    my $f = $n =~ /\.([0-9]+)$/ ? $1 : 0;
+    my $t = $n =~ /\.([0-9]*?)0*$/ ? $1 : 0;
+    my $r = eval qq{ use warnings 'FATAL' => 'all'; $expr };
+    die "|$expr|: $@" if $@;
+    push @{$data->{forms}->[$r] ||= []}, $n;
+  }
 
-      my $replaced = {};
-      for (@{$data->{forms}}) {
-        $_ = defined $_ ? (join ' ', @$_) : '';
-        if (defined $FormNames->{$_}) {
-          $_ = $FormNames->{$_};
-          $replaced->{$_} = 1;
-        }
-      }
-      if (@{$data->{forms}} == 1 + keys %$replaced) {
-        for (@{$data->{forms}}) {
-          $_ = 'everything else', $replaced->{$_}++ if not $replaced->{$_};
-        }
-      }
-      if (@{$data->{forms}} != keys %$replaced) {
-        for (@{$data->{forms}}) {
-          warn $_ unless $replaced->{$_};
-        }
-        die "An unknown form found ($expr_orig)";
-      }
-      my @sorted_key = sort {
-        $Data->{forms}->{$a}->{typical} <=>
+  my $replaced = {};
+  my $replaced_count = 0;
+  for (@{$data->{forms}}) {
+    $_ = defined $_ ? (join ' ', @$_) : '';
+    if (defined $FormNames->{$_}) {
+      $_ = $FormNames->{$_};
+      $replaced->{$_} = 1;
+      $replaced_count++;
+    }
+  }
+  if (@{$data->{forms}} == 1 + $replaced_count) {
+    for (@{$data->{forms}}) {
+      $_ = 'everything else', $replaced->{$_}++, $replaced_count++
+          unless $replaced->{$_};
+    }
+  }
+  if (@{$data->{forms}} != $replaced_count) {
+    warn sprintf "%d - %d\n", 0+ @{$data->{forms}}, $replaced_count;
+    for (@{$data->{forms}}) {
+      warn "[$_]\n" unless $replaced->{$_};
+    }
+    die "An unknown form found ($expr_orig)";
+  }
+  my @sorted_key = sort {
+    $Data->{forms}->{$a}->{typical} <=>
         $Data->{forms}->{$b}->{typical};
-      } grep { $_ ne 'never' and $_ ne 'everything else' } @{$data->{forms}};
-      my $sorted_key = (@sorted_key + 1) . ':' . join '/', @sorted_key, 'everything else';
+  } grep { $_ ne 'never' and $_ ne 'everything else' } @{$data->{forms}};
+  my $sorted_key = (@sorted_key + 1) . ':' . join '/', @sorted_key, 'everything else';
   $Data->{rules}->{$sorted_key}->{forms} = [@sorted_key, 'everything else'];
   my $name_to_field = {never => "-"};
   {
@@ -187,6 +223,9 @@ sub expr ($$;%) {
   unless ($args{dont_add}) {
     $Data->{rules}->{$sorted_key}->{serializations}->{$key}->{expressions}->{$expr_orig} = 1;
     $Data->{rules}->{$sorted_key}->{serializations}->{$key}->{fields} = join '/', map { $name_to_field->{$_} } @{$data->{forms}};
+  }
+  for (@{$args{cldr_locales} or []}) {
+    $Data->{rules}->{$sorted_key}->{cldr_locales}->{$args{cldr_type}}->{$_} = 1;
   }
   return ($sorted_key, $key);
 } # expr
@@ -209,6 +248,45 @@ sub expr ($$;%) {
       expr $1, $2, dont_add => 1;
     } elsif (/\S/) {
       warn "Broken line: |$_|";
+    }
+  }
+}
+
+{
+  my $path = path (__FILE__)->parent->parent->child ('local/cldr-plurals.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $type (keys %$json) {
+    for my $locales (keys %{$json->{$type}}) {
+      my $forms = $json->{$type}->{$locales};
+      my $expr = '';
+      my $i = 0;
+      for my $label (keys %$forms) {
+        my $x = $forms->{$label};
+        next unless length $x;
+        $x =~ s/and/&&/g;
+        $x =~ s/or/||/g;
+        $x =~ s/([a-z](?: % [0-9]+|)) != ([0-9]+)\.\.([0-9]+),([0-9]+)\.\.([0-9]+),([0-9]+)\.\.([0-9]+)/!(($2 <= $1 && $1 <= $3) || ($4 <= $1 && $1 <= $5) || ($6 <= $1 && $1 <= $7))/g;
+        $x =~ s/([a-z](?: % [0-9]+|)) != ([0-9]+)\.\.([0-9]+)/!($2 <= $1 && $1 <= $3)/g;
+        $x =~ s{([a-z](?: % [0-9]+|)) = ([0-9]+(?:\.\.[0-9]+|)(?:,[0-9]+(?:\.\.[0-9]+|))*)}{
+          my $left = $1;
+          my $right = [split /,/, $2];
+          '(' . (join '||', map {
+            if (/^([0-9]+)\.\.([0-9]+)$/) {
+              qq{$1 <= $left && $left <= $2};
+            } else {
+              qq{$left == $_};
+            }
+          } @$right) . ')';
+        }ge;
+        $x =~ s/([a-z](?: % [0-9]+|)) != ([0-9]+),([0-9]+),([0-9]+)/$1 != $2 && $1 != $3 && $1 != $4/g;
+        $x =~ s/([a-z](?: % [0-9]+|)) != ([0-9]+),([0-9]+)/$1 != $2 && $1 != $3/g;
+        $x =~ s/([a-z](?: % [0-9]+|)) != ([0-9]+)/$1 != $2/g;
+        $expr .= $x . '?' . $i++ . ':';
+      }
+      $expr .= $i++;
+      expr $i, $expr, dont_add => 1,
+          cldr_type => $type,
+          cldr_locales => [split /\s+/, $locales];
     }
   }
 }

@@ -101,7 +101,17 @@ data/langs/locale-names.json: bin/langs-locale-names.pl \
   local/fx-locales.txt src/java-locales.txt local/mediawiki-locales.txt
 	$(PERL) $< > $@
 
-data/langs/plurals.json: bin/langs-plurals.pl src/plural-exprs.txt
+local/cldr-plurals.xml:
+	$(WGET) -O $@ http://www.unicode.org/repos/cldr/trunk/common/supplemental/plurals.xml
+local/cldr-plurals-ordinals.xml:
+	$(WGET) -O $@ http://www.unicode.org/repos/cldr/trunk/common/supplemental/ordinals.xml
+local/cldr-plurals.json: \
+  local/cldr-plurals.xml local/cldr-plurals-ordinals.xml \
+  bin/parse-cldr-plurals.pl
+	$(PERL) bin/parse-cldr-plurals.pl > $@
+
+data/langs/plurals.json: bin/langs-plurals.pl src/plural-exprs.txt \
+  src/plural-additional.txt local/cldr-plurals.json
 	$(PERL) $< > $@
 
 ## ------ Tests ------

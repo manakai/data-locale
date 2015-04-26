@@ -36,6 +36,14 @@ The file contains a JSON object with following name/value pairs:
     Values are their descriptions, represented as objects with
     following name/value pairs:
 
+      cldr_locales [object?]
+
+        CLDR locales using the plural rule, if any.  Names are the
+        |type| attribute value of the |plurals| element (|ordinal| or
+        |cardinal| at the time of writing) and values are
+        corresponding object, where names are the Unicode locale
+        identifiers and values are [boolean] true values.
+
       expression [plural-expression]
 
         An expression that represents the plural rule.
@@ -100,7 +108,13 @@ Localization and Plurals
 gecko-dev/PluralForm.jsm at master - mozilla/gecko-dev
 <https://github.com/mozilla/gecko-dev/blob/master/intl/locale/PluralForm.jsm>.
 
+Language Plural Rules
+<http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html>.
+
 * License
 
 You are granted a license to use, reproduce and create derivative
 works of this file.
+
+This file contains data extracted from CLDR.  See |LICENSE.unicode|
+for their license.
