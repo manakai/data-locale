@@ -20,6 +20,7 @@ for (
   [[1, 5] => 'is 1, 5'],
   [[2..3] => 'is 2, 3'],
   [[2..4] => 'is 2-4'],
+  [[2..10] => 'is 2-10'],
   [[3..4] => 'is 3, 4'],
   [[3..6] => 'is 3-6'],
   [[5..6] => 'is 5, 6'],
@@ -45,20 +46,27 @@ for (
   [[grep { not /[179]2$/ } map { $_ * 10 + 2 } 0..99] => 'ends in 2 not ends in 12, 72, 92'],
   [[grep { not /13$/ } map { $_ * 10 + 3 } 0..99] => 'ends in 3 not ends in 13'],
   [[grep { not /14$/ } map { $_ * 10 + 4 } 0..99] => 'ends in 4 not ends in 14'],
+  [[grep { /[469]$/ } 0..999] => 'ends in 4, 6, 9'],
   [[grep { /[349]$/ and not /[179][349]$/ } 0..999] => 'ends in 3, 4, 9 not ends in 13, 14, 19, 73, 74, 79, 93, 94, 99'],
   [[map { $_ * 10 + 2, $_ * 10 + 3, $_ * 10 + 4 } 0..99] => 'ends in 2-4'],
   [[map { $_ * 10 + 3, $_ * 10 + 4, $_ * 10 + 5, $_ * 10 + 6 } 0..99] => 'ends in 3-6'],
   [[grep { not /1[2-4]$/ } map { $_ * 10 + 2, $_ * 10 + 3, $_ * 10 + 4 } 0..99] => 'ends in 2-4 not ends in 12-14'],
+  [[grep { not /1[78]$/ } map { $_ * 10 + 7, $_ * 10 + 8 } 0..99] => 'ends in 7-8 not ends in 17-18'],
   [[0, map { $_ * 10 } 2..99, 100000] => 'ends in 0 excluding 10'],
   [[map { $_ * 10 } 2..99, 100000] => 'ends in 0 excluding 0, 10'],
   [[grep { not $_ == 0 } (map { $_ * 10, $_ * 10 + 6, $_ * 10 + 9 } 0..99), 1000000] => 'ends in 0, 6, 9 excluding 0'],
   [[grep { /(?:0|1[1-9])$/ } 0..999, 1000000] => 'ends in 0 or ends in 11-19'],
   [[grep { /(?:0|1[2-9])$/ } 0..999, 1000000] => 'ends in 0 or ends in 12-19'],
+  [[grep { /(?:[12578]|[2578]0)$/ } 0..999, 1000000] => 'ends in 1, 2, 5, 7, 8 or ends in 20, 50, 70, 80'],
+  [[grep { /(?:[34]|00)$/ and not /000$/ } 0..999, 1000000] => 'ends in 3-4 or ends in 00 not ends in 000'],
+  [[0, grep { /(?:6|[469]0)$/ } 0..999, 1000000] => 'is 0 or ends in 6 or ends in 40, 60, 90'],
+  [[0, 2..9, grep { /(?:0[2-9]|1[0-9]|[2468]0)$/ } 0..999, 1000000] => 'is 0 or ends in 02-20, 40, 60, 80'],
   [[map { $_ * 100 + 1 } 0..9] => 'ends in 01'],
   [[map { $_ * 100 + 2 } 0..9] => 'ends in 02'],
   [[(map { $_ * 100, $_ * 100 + 1, $_ * 100 + 2 } 1..9), 1000000] => 'ends in 00-02 excluding 0-2'],
   [[map { $_ * 100 + 3, $_ * 100 + 4 } 0..9] => 'ends in 03-04'],
   [[map { $_ * 100 + 3, $_ * 100 + 4, $_ * 100 + 5, $_ * 100 + 6, $_ * 100 + 7, $_ * 100 + 8, $_ * 100 + 9, $_ * 100 + 10 } 0..9] => 'ends in 03-10'],
+  [[(map { $_ * 100, $_ * 100 + 20, $_ * 100 + 40, $_ * 100 + 60, $_ * 100 + 80 } 0..9), 1000000] => 'ends in 00, 20, 40, 60, 80'],
   [[0, 2..19, grep { /(?:0[1-9]|1[0-9])$/ } 100..999] => 'is 0 or ends in 01-19 excluding 1'],
   [[0, 2..19, grep { /(?:0[1-9]|10)$/ } 100..999] => 'is 0, 11-19 or ends in 01-10 excluding 1'],
   [[0, grep { not ($_ == 1) } map { $_ * 100 + 1, $_ * 100 + 2, $_ * 100 + 3, $_ * 100 + 4, $_ * 100 + 5, $_ * 100 + 6, $_ * 100 + 7, $_ * 100 + 8, $_ * 100 + 9, $_ * 100 + 10 } 0..9] => 'is 0 or ends in 01-10 excluding 1'],
@@ -102,12 +110,18 @@ for my $name (keys %{$Data->{forms}}) {
     $Data->{forms}->{$name}->{expression} = "n==$1||($2<=n%100&&n%100<=$3&&n!=$4)";
   } elsif ($name =~ /^is ([0-9]+), ([0-9]+)-([0-9]+) or ends in ([0-9][0-9])-([0-9][0-9]) excluding ([0-9]+)$/) {
     $Data->{forms}->{$name}->{expression} = "n==$1||($2<=n&&n<=$3)||($4<=n%100&&n%100<=$5&&n!=$6)";
+  } elsif ($name =~ /^is 0 or ends in ([0-9]) or ends in ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9])$/) {
+    $Data->{forms}->{$name}->{expression} = "n==0||n%10==$1||n%100==$2||n%100==$3||n%100==$4";
+  } elsif ($name =~ /^is 0 or ends in ([0-9][0-9])-([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9])$/) {
+    $Data->{forms}->{$name}->{expression} = "n==0||$1<=n%100&&n%100<=$2||n%100==$3||n%100==$4||n%100==$5";
   } elsif ($name =~ /^ends in ([0-9])$/) {
     $Data->{forms}->{$name}->{expression} = "n%10==$1";
   } elsif ($name =~ /^ends in ([0-9])-([0-9])$/) {
     $Data->{forms}->{$name}->{expression} = "$1<=n%10&&n%10<=$2";
   } elsif ($name =~ /^ends in ([0-9]) or ends in ([0-9][0-9])$/) {
     $Data->{forms}->{$name}->{expression} = "n%10==$1||n%100==$2";
+  } elsif ($name =~ /^ends in ([0-9]) or ends in ([0-9][0-9]), ([0-9][0-9])$/) {
+    $Data->{forms}->{$name}->{expression} = "n%10==$1||n%100==$2||n%100==$3";
   } elsif ($name =~ /^ends in ([0-9]) or ends in ([0-9][0-9])-([0-9][0-9])$/) {
     $Data->{forms}->{$name}->{expression} = "n%10==$1||($2<=n%100&&n%100<=$3)";
   } elsif ($name =~ /^ends in ([0-9]) excluding ([0-9]+)$/) {
@@ -126,6 +140,8 @@ for my $name (keys %{$Data->{forms}}) {
     $Data->{forms}->{$name}->{expression} = "($1<=n%10&&n%10<=$2)&&n!=$3";
   } elsif ($name =~ /^ends in ([0-9])-([0-9]) not ends in ([0-9][0-9])-([0-9][0-9])$/) {
     $Data->{forms}->{$name}->{expression} = "($1<=n%10&&n%10<=$2)&&!($3<=n%100&&n%100<=$4)";
+  } elsif ($name =~ /^ends in ([0-9]), ([0-9]), ([0-9])$/) {
+    $Data->{forms}->{$name}->{expression} = "n%10==$1||n%10==$2||n%10==$3";
   } elsif ($name =~ /^ends in ([0-9]), ([0-9]), ([0-9]) excluding ([0-9]+)$/) {
     $Data->{forms}->{$name}->{expression} = "(n%10==$1||n%10==$2||n%10==$3)&&n!=$4";
   } elsif ($name =~ /^ends in ([0-9]), ([0-9]), ([0-9]) not ends in ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9])$/) {
@@ -136,14 +152,20 @@ for my $name (keys %{$Data->{forms}}) {
     $Data->{forms}->{$name}->{expression} = "$1<=n%100&&n%100<=$2";
   } elsif ($name =~ /^ends in ([0-9][0-9])-([0-9][0-9]) excluding ([0-9])-([0-9])$/) {
     $Data->{forms}->{$name}->{expression} = "$1<=n%100&&n%100<=$2&&!($3<=n&&n<=$4)";
+  } elsif ($name =~ /^ends in ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9])$/) {
+    $Data->{forms}->{$name}->{expression} = "n%100==$1||n%100==$2||n%100==$3||n%100==$4||n%100==$5";
   } elsif ($name =~ /^ends in ([0-9]{6}) excluding ([0-9])$/) {
     $Data->{forms}->{$name}->{expression} = "n%1000000==$1&&n!=$2";
+  } elsif ($name =~ /^ends in ([0-9])-([0-9]) or ends in ([0-9][0-9]) not ends in ([0-9][0-9][0-9])$/) {
+    $Data->{forms}->{$name}->{expression} = "n%10==$1||n%10==$2||n%100==$3&&n%1000!=$4";
+  } elsif ($name =~ /^ends in ([0-9]), ([0-9]), ([0-9]), ([0-9]), ([0-9]) or ends in ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9])$/) {
+    $Data->{forms}->{$name}->{expression} = "n%10==$1||n%10==$2||n%10==$3||n%10==$4||n%10==$5||n%100==$6||n%100==$7||n%100==$8||n%100==$9";
   } elsif ($name eq 'never') {
     $Data->{forms}->{$name}->{expression} = "1==0";
   } else {
     die "Unknown form name |$name|";
   }
-  $Data->{forms}->{$name}->{expression} =~ s/(?<![0-9])0([0-9]+)/$1/g;
+  $Data->{forms}->{$name}->{expression} =~ s/(?<![0-9])0+([0-9]+)/$1/g;
 
   my $expr = $Data->{forms}->{$name}->{expression};
   $expr =~ s/n/\$n/g;
@@ -170,7 +192,7 @@ sub expr ($$;%) {
   for my $n (0..999, 1000000) {
     ## <http://unicode.org/reports/tr35/tr35-numbers.html#Operands>
     ## XXX fractions are not supported in fact...
-    my $i = $n % 1;
+    my $i = int $n;
     my $v = $n =~ /\.([0-9]+)$/ ? length $1 : 0;
     my $w = $n =~ /\.([0-9]*?)0*$/ ? length $1 : 0;
     my $f = $n =~ /\.([0-9]+)$/ ? $1 : 0;

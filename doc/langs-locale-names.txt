@@ -7,6 +7,17 @@ Locale identifiers.
 
 A JSON object with following name/value pairs:
 
+  countryless_tags [object]
+
+    Additional rules for normalization of BCP 47 language tags consist
+    of only language and region subtags, to suppress region subtag
+    when it is redundant or is the "primary" region for the language.
+    Names are BCP 47 language tags (in lowercase) and values are their
+    normalized forms (i.e. the language subtag only language tags) in
+    lowercase.  Note that this mapping is only provided for
+    "well-known" (or well-supported) combinations of langauges and
+    regions.
+
   preferred_tags [object]
 
     Additional rules for normalization of BCP 47 language tags,
