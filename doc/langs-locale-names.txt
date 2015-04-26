@@ -60,6 +60,13 @@ A JSON object with following name/value pairs:
         The Unicode locale identifier used in CLDR, if there is a data
         file for the locale.
 
+      facebook [string?]
+
+        The locale identifier used in Facebook, if exists.  Note that
+        some of Facebook locales are not incorporated into this list
+        as there is no known BCP 47 language tags for them (see
+        |bin/langs-locale-names.pl|).
+
       firefox [string?]
 
         The locale identifier used in Firefox, if exists.
@@ -108,6 +115,9 @@ List of Wikipedias
 <http://meta.wikimedia.org/wiki/List_of_Wikipedias>.
 
 Mozilla Firefox <ftp://archive.mozilla.org/pub/mozilla.org/firefox/>.
+
+Facebook <https://developers.facebook.com/docs/internationalization>,
+<https://www.facebook.com/translations/FacebookLocales.xml>.
 
 MediaWiki <https://github.com/wikimedia/mediawiki>.
 

@@ -13,6 +13,7 @@ my $Data = {};
 {
   for (
     ['ja-jpm' => 'ja-jp-mac'],
+    ['x-klingon' => 'tlh'],
 
     ## <http://meta.wikimedia.org/wiki/List_of_Wikipedias#Nonstandard_language_codes>
     ['be-x-old' => 'be-tarask'],
@@ -87,6 +88,36 @@ my $Data = {};
       $tag =~ tr/A-Z_/a-z-/;
       $Data->{tags}->{$tag}->{mysql} = $code;
     }
+  }
+}
+
+{
+  my $path = $local_path->child ('facebook-locales.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $locale (keys %{$json->{locales}}) {
+    my $lang = $locale;
+    $lang =~ tr/A-Z_/a-z-/;
+    $lang = {
+      'ar-ar' => 'ar', # <https://developers.facebook.com/docs/internationalization>
+      'cb-iq' => 'ckb-iq',
+      'ck-us' => 'chr-us',
+      'cx-ph' => 'ceb-ph',
+      'eo-eo' => 'eo',
+      'es-la' => 'es-419', # <https://developers.facebook.com/docs/internationalization>
+      'gx-gr' => 'grc-gr',
+      'ja-ks' => 'ja-jp-kansai',
+      'sy-sy' => 'syc-sy',
+      'tl-ph' => 'fil-ph',
+      'tl-st' => 'tlh',
+      'tz-ma' => 'ber-ma',
+      'zz-tr' => 'zza-tr',
+    }->{$lang} // $lang;
+    next if {
+      'en-pi' => 1,
+      'en-ud' => 1,
+      'fb-lt' => 1,
+    }->{$lang}; # no BCP 47 language tag...
+    $Data->{tags}->{$lang}->{facebook} = $locale;
   }
 }
 
