@@ -14,4 +14,5 @@ zh-mo 中文 (澳門)
 zh-sg 中文 (新加坡)
 mul-kambun 漢文
 no norsk
+pa ਪੰਜਾਬੀ
 xh isiXhosa
