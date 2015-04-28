@@ -12,6 +12,8 @@ zh-tw 中文 (台灣)
 zh-hk 中文 (香港)
 zh-mo 中文 (澳門)
 zh-sg 中文 (新加坡)
+zh-hans 中文 (简体)
+zh-hant 中文 (繁體)
 mul-kambun 漢文
 no norsk
 pa ਪੰਜਾਬੀ
