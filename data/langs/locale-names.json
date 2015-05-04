@@ -431,6 +431,10 @@
          "bcp47_canonical" : "avk",
          "mediawiki" : 1
       },
+      "awa" : {
+         "bcp47_canonical" : "awa",
+         "mediawiki" : 1
+      },
       "ay" : {
          "bcp47_canonical" : "ay",
          "mediawiki" : 1
@@ -593,10 +597,6 @@
       },
       "bgn" : {
          "bcp47_canonical" : "bgn",
-         "mediawiki" : 1
-      },
-      "bh" : {
-         "bcp47_canonical" : "bh",
          "mediawiki" : 1
       },
       "bho" : {
