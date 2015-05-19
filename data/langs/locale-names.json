@@ -599,6 +599,10 @@
          "bcp47_canonical" : "bgn",
          "mediawiki" : 1
       },
+      "bh" : {
+         "bcp47_canonical" : "bh",
+         "mediawiki" : 1
+      },
       "bho" : {
          "bcp47_canonical" : "bho",
          "mediawiki" : 1
