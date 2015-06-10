@@ -1,7 +1,7 @@
 Capture::Tiny~0.30
 JSON::XS~3.01
 Encode~2.73
-CPAN::Meta~2.150001
+CPAN::Meta~2.150005
 Time::Local~1.2300
 Module::Build~0.4212
 Try::Tiny~0.22
@@ -26,10 +26,10 @@ Perl::OSType~1.008
 MRO::Compat~0.12
 Path::Tiny~0.068
 ExtUtils::CBuilder~0.280223
-Parse::CPAN::Meta~1.4414
+Parse::CPAN::Meta~1.4417
 version~0.9912
 CPAN::Meta::YAML~0.016
-Exporter~5.70
+Exporter~5.72
 Carp~1.36
 JSON::PP~2.27300
 JSON~2.90
