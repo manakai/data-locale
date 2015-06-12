@@ -3,7 +3,7 @@ JSON::XS~3.01
 Encode~2.73
 CPAN::Meta~2.150005
 Time::Local~1.2300
-Module::Build~0.4212
+Module::Build~0.4214
 Try::Tiny~0.22
 parent~0.234
 Exporter::Lite~0.06
