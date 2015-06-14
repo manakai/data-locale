@@ -2415,6 +2415,14 @@
          "bcp47_canonical" : "gn-PY",
          "facebook" : "gn_PY"
       },
+      "gom" : {
+         "bcp47_canonical" : "gom",
+         "mediawiki" : 1
+      },
+      "gom-deva" : {
+         "bcp47_canonical" : "gom-Deva",
+         "mediawiki" : 1
+      },
       "gom-latn" : {
          "bcp47_canonical" : "gom-Latn",
          "mediawiki" : 1
