@@ -1064,6 +1064,10 @@
          "bcp47_canonical" : "dtp",
          "mediawiki" : 1
       },
+      "dty" : {
+         "bcp47_canonical" : "dty",
+         "mediawiki" : 1
+      },
       "dua" : {
          "bcp47_canonical" : "dua",
          "cldr" : "dua",
