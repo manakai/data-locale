@@ -5085,20 +5085,13 @@
          "bcp47_canonical" : "syc-SY",
          "facebook" : "sy_SY"
       },
-      "sz-pl" : {
-         "bcp47_canonical" : "sz-PL",
-         "bcp47_errors" : [
-            {
-               "level" : "m",
-               "type" : "langtag:language:invalid",
-               "value" : "sz"
-            }
-         ],
-         "facebook" : "sz_PL"
-      },
       "szl" : {
          "bcp47_canonical" : "szl",
          "mediawiki" : 1
+      },
+      "szl-pl" : {
+         "bcp47_canonical" : "szl-PL",
+         "facebook" : "sz_PL"
       },
       "ta" : {
          "bcp47_canonical" : "ta",
