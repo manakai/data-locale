@@ -107,6 +107,7 @@ my $Data = {};
       'gx-gr' => 'grc-gr',
       'ja-ks' => 'ja-jp-kansai',
       'sy-sy' => 'syc-sy',
+      'sz-pl' => 'szl-pl',
       'tl-ph' => 'fil-ph',
       'tl-st' => 'tlh',
       'tz-ma' => 'ber-ma',
