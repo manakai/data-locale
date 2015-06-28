@@ -24,7 +24,7 @@ Module::Runtime~0.014
 Algorithm::Diff~1.1903
 Perl::OSType~1.008
 MRO::Compat~0.12
-Path::Tiny~0.068
+Path::Tiny~0.070
 ExtUtils::CBuilder~0.280223
 Parse::CPAN::Meta~1.4417
 version~0.9912
