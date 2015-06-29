@@ -15,7 +15,7 @@ Text::Diff~1.41
 Test::Differences~0.63
 CPAN::Meta::Requirements~2.133
 Path::Class~0.35
-common::sense~3.73
+common::sense~3.74
 Scalar::Util~1.42
 Module::Metadata~1.000027
 File::Spec~3.47
