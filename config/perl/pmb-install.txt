@@ -1,6 +1,6 @@
 Capture::Tiny~0.30
 JSON::XS~3.01
-Encode~2.74
+Encode~2.75
 CPAN::Meta~2.150005
 Time::Local~1.2300
 Module::Build~0.4214
