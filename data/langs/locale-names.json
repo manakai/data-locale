@@ -1731,6 +1731,7 @@
       "es-cl" : {
          "bcp47_canonical" : "es-CL",
          "cldr" : "es_CL",
+         "facebook" : "es_CL",
          "firefox" : "es-CL",
          "java" : "es_CL",
          "ms" : "13322",
@@ -1818,6 +1819,7 @@
       "es-mx" : {
          "bcp47_canonical" : "es-MX",
          "cldr" : "es_MX",
+         "facebook" : "es_MX",
          "firefox" : "es-MX",
          "java" : "es_MX",
          "ms" : "2058",
@@ -1895,6 +1897,7 @@
       "es-ve" : {
          "bcp47_canonical" : "es-VE",
          "cldr" : "es_VE",
+         "facebook" : "es_VE",
          "java" : "es_VE",
          "ms" : "8202",
          "mysql" : "es_VE",
