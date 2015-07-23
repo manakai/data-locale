@@ -3548,6 +3548,10 @@
          "cldr" : "luy_KE",
          "native_name" : "Luluhia (Kenya)"
       },
+      "luz" : {
+         "bcp47_canonical" : "luz",
+         "mediawiki" : 1
+      },
       "lv" : {
          "bcp47_canonical" : "lv",
          "chrome_web_store" : "lv",
