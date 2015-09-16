@@ -89,7 +89,7 @@ local/cldr-locales.html:
 local/cldr-locales.txt: local/cldr-locales.html
 	perl -e 'while (<>) { if (/href="([0-9a-zA-Z_]+)\.xml"/) { print "$$1\n" } }' < $< > $@
 local/fx-locales.html:
-	$(WGET) -O $@ ftp://archive.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-x86_64/
+	$(WGET) -O $@ https://archive.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-x86_64/
 local/fx-locales.txt: local/fx-locales.html
 	perl -e 'while (<>) { if (m{href="[^"]+?/([0-9a-zA-Z-]+)/"}) { print "$$1\n" unless {xpi => 1}->{$$1} } }' < $< > $@
 local/mediawiki-locales.php:
