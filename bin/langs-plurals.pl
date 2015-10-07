@@ -43,6 +43,7 @@ for (
   [[grep { not /11$/ } map { $_ * 10 + 1 } 1..99] => 'ends in 1 not ends in 11 excluding 1, 11'],
   [[grep { not /[179]1$/ } map { $_ * 10 + 1 } 0..99] => 'ends in 1 not ends in 11, 71, 91'],
   [[grep { not /12$/ } map { $_ * 10 + 2 } 0..99] => 'ends in 2 not ends in 12'],
+  [[grep { not /1[23]$/ } map { $_ * 10 + 2, $_ * 10 + 3 } 0..99] => 'ends in 2-3 not ends in 12-13'],
   [[grep { not /[179]2$/ } map { $_ * 10 + 2 } 0..99] => 'ends in 2 not ends in 12, 72, 92'],
   [[grep { not /13$/ } map { $_ * 10 + 3 } 0..99] => 'ends in 3 not ends in 13'],
   [[grep { not /14$/ } map { $_ * 10 + 4 } 0..99] => 'ends in 4 not ends in 14'],

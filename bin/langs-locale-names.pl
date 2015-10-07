@@ -74,6 +74,7 @@ my $Data = {};
       my $code = $1;
       my $tag = $code;
       $tag =~ tr/A-Z/a-z/;
+      next if $tag eq 'latest';
       $Data->{tags}->{$tag}->{firefox} = $code;
     }
   }
