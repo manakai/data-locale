@@ -1,6 +1,6 @@
 Capture::Tiny~0.30
 JSON::XS~3.01
-Encode~2.76
+Encode~2.78
 CPAN::Meta~2.150005
 Time::Local~1.2300
 Module::Build~0.4214
@@ -8,10 +8,10 @@ Try::Tiny~0.22
 parent~0.234
 Exporter::Lite~0.06
 Test::Class~0.50
-ExtUtils::ParseXS~3.24
+ExtUtils::ParseXS~3.30
 Data::Dumper~2.154
 Test::More~1.001014
-Text::Diff~1.41
+Text::Diff~1.43
 Test::Differences~0.63
 CPAN::Meta::Requirements~2.133
 Path::Class~0.35
@@ -22,10 +22,10 @@ File::Spec~3.47
 Types::Serialiser~1.0
 Module::Runtime~0.014
 Algorithm::Diff~1.1903
-Perl::OSType~1.008
+Perl::OSType~1.009
 MRO::Compat~0.12
 Path::Tiny~0.072
-ExtUtils::CBuilder~0.280223
+ExtUtils::CBuilder~0.280224
 Parse::CPAN::Meta~1.4417
 version~0.9912
 CPAN::Meta::YAML~0.016
