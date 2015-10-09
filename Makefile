@@ -91,7 +91,7 @@ local/cldr-locales.txt: local/cldr-locales.html
 local/fx-locales.html:
 	$(WGET) -O $@ https://archive.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-x86_64/
 local/fx-locales.txt: local/fx-locales.html
-	perl -e 'while (<>) { if (m{href="[^"]+?/([0-9a-zA-Z-]+)/"}) { print "$$1\n" unless {xpi => 1}->{$$1} } }' < $< > $@
+	perl -e 'while (<>) { if (m{href="(?:[^"]+?/|)([0-9a-zA-Z-]+)/"}) { print "$$1\n" unless {xpi => 1}->{$$1} } }' < $< > $@
 local/mediawiki-locales.php:
 	$(WGET) -O $@ https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/Names.php
 local/mediawiki-locales.txt: local/mediawiki-locales.php
