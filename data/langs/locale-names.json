@@ -3418,6 +3418,7 @@
       "ky-kg" : {
          "bcp47_canonical" : "ky-KG",
          "cldr" : "ky_KG",
+         "facebook" : "ky_KG",
          "native_name" : "кыргызча (Кыргызстан)"
       },
       "la" : {
@@ -3749,6 +3750,10 @@
       "mi" : {
          "bcp47_canonical" : "mi",
          "mediawiki" : 1
+      },
+      "mi-nz" : {
+         "bcp47_canonical" : "mi-NZ",
+         "facebook" : "mi_NZ"
       },
       "min" : {
          "bcp47_canonical" : "min",
