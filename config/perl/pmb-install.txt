@@ -18,7 +18,7 @@ Path::Class~0.35
 common::sense~3.74
 Scalar::Util~1.42
 Module::Metadata~1.000027
-File::Spec~3.47
+File::Spec~3.59
 Types::Serialiser~1.0
 Module::Runtime~0.014
 Algorithm::Diff~1.1903
