@@ -22,3 +22,6 @@
 	path = bin/modules/web-css
 	url = git://github.com/manakai/perl-web-css
 	track = master
+[submodule "bin/modules/web-url"]
+	path = bin/modules/web-url
+	url = git://github.com/manakai/perl-web-url

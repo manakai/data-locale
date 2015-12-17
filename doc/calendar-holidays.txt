@@ -9,11 +9,15 @@ data/calendar/jp-holidays.json
     Holidays of Japan (1873-01-01 --).
     Note that holidays before the adoption of the Gregorian calendar
     (January 1, Meiji 6 = 1873) are not listed in this file.
+data/calendar/jp-flagdays.json
+    Flag days of Japan.
 data/calendar/ryukyu-holidays.json
     Holidays of Ryukyu Islands (1945-06 -- 1952-02-09 (Tokara) /
     1953-12-24 (Amami) / 1972-05-14 (Okinawa)).
 
-* Structure
+* Structure of |data/*-holidays.json|
+
+Those files contain list of official holidays in the region.
 
 A JSON file contains a JSON object whose names are days in YYYY-MM-DD
 format (in Gregorian calendar) and values are names of holidays in
@@ -22,30 +26,58 @@ format (in Gregorian calendar) and values are names of holidays in
 Although files might contain future holidays, holidays can be added,
 removed, or moved at any time by relevant laws.
 
+* Structure of |data/*-flagdays.json|
+
+Those files contain list of days relevant flag icons should be shown
+in calendars.  For |data/jp-flagdays.json|, the Hinomaru (Japan's
+flag) icon (🇯🇵 = U+1F1EF U+1F1F5) should be shown with the name of the
+holiday (as in |data/jp-holidays.json|) in celendars.
+
+A JSON file contains a JSON object whose names are days in YYYY-MM-DD
+format (in Gregorian calendar) and values are [boolean] true values.
+
+Although files might contain future holidays, holidays can be added,
+removed, or moved at any time by relevant laws.
+
+* Algorithm
+
+The color of day /day/ in Japan is defined as follows:
+
+  1. If /day/ is contained in the |data/calendar/jp-holidays.json|
+     data file, return red.
+  2. Otherwise, /day/ is Sunday, return red.
+  3. Otherwise, /day/ is Saturday, return blue.
+  4. Otherwise, return black.
+
 * Sources
 
 ** 日本
 
 - 国民の祝日に関する法律 (昭和23年法律178号)
-- <http://ja.wikipedia.org/wiki/%E7%A5%9D%E7%A5%AD%E6%97%A5>
-- <http://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E7%A5%9D%E6%97%A5>
-- <http://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E4%BC%91%E6%97%A5>
+- <https://ja.wikipedia.org/wiki/%E7%A5%9D%E7%A5%AD%E6%97%A5>
+- <https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E7%A5%9D%E6%97%A5>
+- <https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E4%BC%91%E6%97%A5>
 - <http://homepage1.nifty.com/gyouseinet/kyujitsu.htm>
-- <http://wiki.suikawiki.org/n/%E6%97%A5%E6%9C%AC%E3%81%AE%E7%A5%9D%E6%97%A5$1095>
+- <https://wiki.suikawiki.org/n/%E6%97%A5%E6%9C%AC%E3%81%AE%E7%A5%9D%E6%97%A5$1095>
+
+** 琉球
+
+- 住民の祝祭日に関する立法 (1961年立法第85号)
+- <https://ja.wikipedia.org/wiki/%E4%BD%8F%E6%B0%91%E3%81%AE%E7%A5%9D%E7%A5%AD%E6%97%A5>
 
 ** 春分, 秋分
 
 - <http://www.nao.ac.jp/faq/a0301.html>
 - <http://www.asahi-net.or.jp/~ci5m-nmr/misc/equinox.html>
-- <http://ja.wikipedia.org/wiki/%E6%98%A5%E5%88%86>
-- <http://ja.wikipedia.org/wiki/%E7%A7%8B%E5%88%86>
-
-** 琉球
-
-- 住民の祝祭日に関する立法 (1961年立法第85号)
-- <http://ja.wikipedia.org/wiki/%E4%BD%8F%E6%B0%91%E3%81%AE%E7%A5%9D%E7%A5%AD%E6%97%A5>
+- <https://ja.wikipedia.org/wiki/%E6%98%A5%E5%88%86>
+- <https://ja.wikipedia.org/wiki/%E7%A7%8B%E5%88%86>
 
 * License
 
 You are granted a license to use, reproduce and create derivative
 works of these files.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON file and this
+document has waived all copyright and related or neighboring rights to
+the JSON file and this document.

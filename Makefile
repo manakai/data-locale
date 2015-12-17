@@ -52,11 +52,15 @@ data: data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json \
     data/datetime/weeks.json data/datetime/months.json \
     data/datetime/seconds.json \
     data/timezones/mail-names.json \
-    data/langs/locale-names.json data/langs/plurals.json
+    data/langs/locale-names.json data/langs/plurals.json \
+    data/calendar/jp-flagdays.json
 clean-data:
 	rm -fr local/cldr-core*
 
 data/calendar/jp-holidays.json: bin/calendar-jp-holidays.pl
+	$(PERL) $< > $@
+data/calendar/jp-flagdays.json: bin/calendar-jp-flagdays.pl \
+    data/calendar/jp-holidays.json
 	$(PERL) $< > $@
 data/calendar/ryukyu-holidays.json: bin/calendar-ryukyu-holidays.pl
 	$(PERL) $< > $@

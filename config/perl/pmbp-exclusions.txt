@@ -1,1 +1,8 @@
 - "../../bin/modules/json-functions-xs" tests
+- "../../bin/modules/web-dom" tests
+- "../../bin/modules/web-url" tests
+- "../../bin/modules/web-encodings" tests
+- "../../bin/modules/web-markup" tests
+- "../../bin/modules/web-css" tests
+- "../../bin/modules/web-langtag" tests
+- "../../bin/modules/charclass" tests

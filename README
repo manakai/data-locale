@@ -28,6 +28,7 @@ See documentations for details in doc/ directory.
   Holidays
     doc/calendar-holidays.txt          List of holidays
     data/calendar/jp-holidays.json
+    data/calendar/jp-flagdays.json
     data/calendar/ryukyu-holidays.json
 
 List of language tags or codes, country codes, and currency codes, as
