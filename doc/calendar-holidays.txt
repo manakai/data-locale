@@ -5,13 +5,13 @@ These files contain list of national holidays.
 
 * Files
 
-data/calendar/jp-holidays.json
+<https://raw.githubusercontent.com/manakai/data-locale/master/data/calendar/jp-holidays.json>
     Holidays of Japan (1873-01-01 --).
     Note that holidays before the adoption of the Gregorian calendar
     (January 1, Meiji 6 = 1873) are not listed in this file.
-data/calendar/jp-flagdays.json
+<https://raw.githubusercontent.com/manakai/data-locale/master/data/calendar/jp-flagdays.json>
     Flag days of Japan.
-data/calendar/ryukyu-holidays.json
+<https://raw.githubusercontent.com/manakai/data-locale/master/data/calendar/ryukyu-holidays.json>
     Holidays of Ryukyu Islands (1945-06 -- 1952-02-09 (Tokara) /
     1953-12-24 (Amami) / 1972-05-14 (Okinawa)).
 
