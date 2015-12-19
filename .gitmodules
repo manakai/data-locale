@@ -25,3 +25,4 @@
 [submodule "bin/modules/web-url"]
 	path = bin/modules/web-url
 	url = git://github.com/manakai/perl-web-url
+	track = master

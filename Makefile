@@ -55,7 +55,7 @@ data: data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json \
     data/langs/locale-names.json data/langs/plurals.json \
     data/calendar/jp-flagdays.json
 clean-data:
-	rm -fr local/cldr-core*
+	rm -fr local/cldr-core* local/*.json
 
 data/calendar/jp-holidays.json: bin/calendar-jp-holidays.pl
 	$(PERL) $< > $@
@@ -92,10 +92,8 @@ local/cldr-locales.html:
 	$(WGET) -O $@ http://www.unicode.org/repos/cldr/tags/latest/common/main/
 local/cldr-locales.txt: local/cldr-locales.html
 	perl -e 'while (<>) { if (/href="([0-9a-zA-Z_]+)\.xml"/) { print "$$1\n" } }' < $< > $@
-local/fx-locales.html:
-	$(WGET) -O $@ https://archive.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-x86_64/
-local/fx-locales.txt: local/fx-locales.html
-	perl -e 'while (<>) { if (m{href="(?:[^"]+?/|)([0-9a-zA-Z-]+)/"}) { print "$$1\n" unless {xpi => 1}->{$$1} } }' < $< > $@
+local/fx-locales.json:
+	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-web-impls/staging/data/firefox-locales.json
 local/mediawiki-locales.php:
 	$(WGET) -O $@ https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/Names.php
 local/mediawiki-locales.txt: local/mediawiki-locales.php
@@ -122,7 +120,7 @@ local/facebook-locales.json: local/facebook-locales.xml \
 
 data/langs/locale-names.json: bin/langs-locale-names.pl \
   local/cldr-locales.txt src/ms-locales.txt src/chromewebstore-locales.txt \
-  local/fx-locales.txt src/java-locales.txt local/mediawiki-locales.txt \
+  local/fx-locales.json src/java-locales.txt local/mediawiki-locales.txt \
   local/cldr-native-language-names.json src/lang-names-additional.txt \
   local/facebook-locales.json
 	$(PERL) $< > $@
