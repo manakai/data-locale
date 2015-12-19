@@ -7,11 +7,7 @@ my $Data = {};
 
 for my $year (1616..1872) {
   $Data->{sprintf '%04d-%02d-%02d', $year, 1, 1} = '歳首';
-  $Data->{sprintf '%04d-%02d-%02d', $year, 1, 15} = '小正月';
-  $Data->{sprintf '%04d-%02d-%02d', $year, 7, 15} = '盆';
-}
 
-for my $year (1616..1872) {
   $Data->{sprintf '%04d-%02d-%02d', $year, 1, 7} = '人日';
   $Data->{sprintf '%04d-%02d-%02d', $year, 3, 3} = '上巳';
   $Data->{sprintf '%04d-%02d-%02d', $year, 5, 5} = '端午';
@@ -20,6 +16,12 @@ for my $year (1616..1872) {
   $Data->{sprintf '%04d-%02d-%02d', $year, 9, 9} = '重陽';
 }
 
+for my $year (1869..1872) {
+  $Data->{sprintf '%04d-%02d-%02d', $year, 7, 15} = '盆';
+}
+for my $year (1869, 1870) {
+  $Data->{sprintf '%04d-%02d-%02d', $year, 1, 15} = '小正月';
+}
 for my $year (1868..1872) {
   $Data->{sprintf '%04d-%02d-%02d', $year, 9, 22} = '紀元節';
 }
