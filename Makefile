@@ -57,12 +57,19 @@ data: data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json \
 clean-data:
 	rm -fr local/cldr-core* local/*.json
 
-data/calendar/jp-holidays.json: bin/calendar-jp-holidays.pl
+data/calendar/jp-holidays.json: bin/calendar-jp-holidays.pl \
+    local/calendar-new-jp-holidays.json \
+    local/calendar-old-jp-holidays.json \
+    data/calendar/kyuureki-map.txt
 	$(PERL) $< > $@
 data/calendar/jp-flagdays.json: bin/calendar-jp-flagdays.pl \
     data/calendar/jp-holidays.json
 	$(PERL) $< > $@
 data/calendar/ryukyu-holidays.json: bin/calendar-ryukyu-holidays.pl
+	$(PERL) $< > $@
+local/calendar-new-jp-holidays.json: bin/calendar-new-jp-holidays.pl
+	$(PERL) $< > $@
+local/calendar-old-jp-holidays.json: bin/calendar-old-jp-holidays.pl
 	$(PERL) $< > $@
 
 data/calendar/kyuureki-genten.json: bin/calendar-kyuureki-genten.pl

@@ -11,7 +11,9 @@ my $Data = {};
 
 for my $day (keys %$json) {
   my $name = $json->{$day};
-  unless ($name eq '振替休日' or $name eq '国民の休日') {
+  unless ($name eq '振替休日' or
+          $name eq '国民の休日' or
+          $name eq '一六日') { # or $name eq '日曜日'
     $Data->{$day} = 1;
   }
 }

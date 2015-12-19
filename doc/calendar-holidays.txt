@@ -6,9 +6,7 @@ These files contain list of national holidays.
 * Files
 
 <https://raw.githubusercontent.com/manakai/data-locale/master/data/calendar/jp-holidays.json>
-    Holidays of Japan (1873-01-01 --).
-    Note that holidays before the adoption of the Gregorian calendar
-    (January 1, Meiji 6 = 1873) are not listed in this file.
+    Holidays of Japan.
 <https://raw.githubusercontent.com/manakai/data-locale/master/data/calendar/jp-flagdays.json>
     Flag days of Japan.
 <https://raw.githubusercontent.com/manakai/data-locale/master/data/calendar/ryukyu-holidays.json>
@@ -25,6 +23,10 @@ format (in Gregorian calendar) and values are names of holidays in
 
 Although files might contain future holidays, holidays can be added,
 removed, or moved at any time by relevant laws.
+
+The |data/jp-holidays.json| file also contains "一六日", government
+holidays of 1868-01-21 -- 1876-03-31 (which were replaced by Sunday
+after 1876-04-01).  Strictly, they are not holidays.
 
 * Structure of |data/*-flagdays.json|
 
@@ -45,8 +47,8 @@ The color of day /day/ in Japan is defined as follows:
 
   1. If /day/ is contained in the |data/calendar/jp-holidays.json|
      data file, return red.
-  2. Otherwise, /day/ is Sunday, return red.
-  3. Otherwise, /day/ is Saturday, return blue.
+  2. Otherwise, /day/ is Sunday and /day/ >= 1876-04-01, return red.
+  3. Otherwise, /day/ is Saturday and /day/ >= 1876-04-01, return blue.
   4. Otherwise, return black.
 
 * Sources

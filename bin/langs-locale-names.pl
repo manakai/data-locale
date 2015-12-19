@@ -68,13 +68,13 @@ my $Data = {};
 }
 
 {
-  my $path = $local_path->child ('fx-locales.txt');
-  for (split /\x0A/, $path->slurp) {
+  my $path = $local_path->child ('fx-locales.json');
+  my $json = json_bytes2perl $path->slurp;
+  for (keys %{$json->{locales}}) {
     if (/^([a-zA-Z0-9-]+)$/) {
       my $code = $1;
       my $tag = $code;
       $tag =~ tr/A-Z/a-z/;
-      next if $tag eq 'latest';
       $Data->{tags}->{$tag}->{firefox} = $code;
     }
   }
