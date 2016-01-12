@@ -1,0 +1,119 @@
+*jp:
++$jp
+
+$jp:
++$jp-south-all
+
+
+*jp-kyoto:
+
++$jp-other-patched
+
++$jp-south0
++$jp-south0-end-kyoto
+
++$jp-延元
++$jp-延元-end-kyoto
+
++$jp-north0
++$jp-正慶-end
+
++$jp-正平一統
++$jp-正平一統-end-kyoto
+
++$jp-north
+
+
+*jp-east:
+
++$jp-other-patched
+
+-1181 1182
+## 旧暦寿永2年10月14日 寿永二年十月宣旨
+k:1183-10-14 寿永
+
++$jp-north0
++$jp-正慶-end
+
++$jp-正平一統
++$jp-正平一統-end-足利尊氏
+
++$jp-north
+
+
+
+*jp-heishi:
++$jp
+-1184 1184
+## 元暦2年3月24日 壇ノ浦の戦い
+k:1185-03-25 元暦
+
+*jp-south:
+
++$jp-south-all
+
+
+$jp-south-all:
+
++$jp-other-patched
+
++$jp-south0
++$jp-south
++$jp-south-end
+
+
+*jp-north:
+
++$jp-other-patched
+
++$jp-north0
++$jp-正慶-end
+
++$jp-正平一統
++$jp-正平一統-end-足利義詮
+
++$jp-north
+
+
+$jp-other-patched:
++$jp-other
+-1868 1868
+k:1868-09-08 明治
+k:0686-09-10 null
+k:0654-10-11 null
+
+
+$jp-south0-end-kyoto:
+## 旧暦元弘元年8月24日 後醍醐天皇京都脱出
+k:1331-08-24 元徳
+
+$jp-延元:
+k:1336-02-29 延元
+
+$jp-延元-end-kyoto:
+## 旧暦延元元年6月15日光厳上皇が改元撤回
+k:1336-06-15 建武
+
+$jp-正慶-end:
+## 旧暦正慶2年5月25日=ユリウス暦1333年7月7日 光厳天皇退位
+k:1333-05-25 元弘
+
+$jp-正平一統:
+## 旧暦観応6年11月7日 崇光天皇退位
+k:1351-11-07 正平
+
+$jp-正平一統-end-足利義詮:
+## 旧暦正平7年閏2月23日 足利義詮による元号復活
+k:1352-02'-23 観応
+
+$jp-正平一統-end-足利尊氏:
+## 旧暦正平7年3月11日足利尊氏による元号復活
+k:1352-03-11 観応
+
+$jp-正平一統-end-kyoto:
+## 旧暦正平7年3月15日足利義詮上洛
+k:1352-03-15 観応
+
+$jp-south-end:
+## 旧暦元中9年閏10月5日=ユリウス暦1392年11月19日 南北朝合一
+k:1392-10'-05 明徳

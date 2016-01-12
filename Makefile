@@ -53,7 +53,7 @@ data: data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json \
     data/datetime/seconds.json \
     data/timezones/mail-names.json \
     data/langs/locale-names.json data/langs/plurals.json \
-    data/calendar/jp-flagdays.json
+    data/calendar/jp-flagdays.json data/calendar/era-sets.json
 clean-data:
 	rm -fr local/cldr-core* local/*.json
 
@@ -76,6 +76,18 @@ data/calendar/kyuureki-genten.json: bin/calendar-kyuureki-genten.pl
 	mkdir -p tables
 	$(PERL) $<
 	mv tables/genten-data.json $@
+
+local/wp-jp-eras-parsed.json: bin/parse-wp-jp-eras.pl src/wp-jp-eras.json
+	$(PERL) $< > $@
+local/era-year-offsets.json: bin/era-year-offsets.pl \
+    local/wp-jp-eras-parsed.json data/calendar/kyuureki-map.txt
+	$(PERL) $< > $@
+src/eras/wp-jp-era-sets.txt: bin/generate-wp-jp-era-sets.pl \
+    local/wp-jp-eras-parsed.json
+	$(PERL) $< > $@
+data/calendar/era-sets.json: bin/calendar-era-sets.pl \
+    src/eras/*.txt data/calendar/kyuureki-map.txt
+	$(PERL) $< > $@
 
 local/leap-seconds.txt:
 	$(WGET) -O $@ http://www.ietf.org/timezones/data/leap-seconds.list
