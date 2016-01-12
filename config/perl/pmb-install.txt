@@ -1,5 +1,5 @@
 Scalar::Util~1.42
-File::Spec~3.60
+File::Spec~3.62
 Test::NoWarnings~1.04
 Unicode::Normalize~1.25
 Encode~2.78
