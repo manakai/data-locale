@@ -7,6 +7,7 @@ $jp:
 
 *jp-kyoto:
 
++$jp-pre-645
 +$jp-other-patched
 
 +$jp-south0
@@ -26,6 +27,7 @@ $jp:
 
 *jp-east:
 
++$jp-pre-645
 +$jp-other-patched
 
 -1181 1182
@@ -55,6 +57,7 @@ k:1185-03-25 元暦
 
 $jp-south-all:
 
++$jp-pre-645
 +$jp-other-patched
 
 +$jp-south0
@@ -64,6 +67,7 @@ $jp-south-all:
 
 *jp-north:
 
++$jp-pre-645
 +$jp-other-patched
 
 +$jp-north0
@@ -79,8 +83,14 @@ $jp-other-patched:
 +$jp-other
 -1868 1868
 k:1868-09-08 明治
-k:0686-09-10 null
-k:0654-10-11 null
+
+k:0654-10-11 斉明天皇
+y:662 天智天皇
+y:671 弘文天皇
+y:672 天武天皇
+
+y:687 持統天皇
+k:0697-08-01 文武天皇
 
 
 $jp-south0-end-kyoto:

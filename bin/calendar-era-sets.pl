@@ -60,7 +60,7 @@ sub k2g ($) {
 }
 
 sub g2jd ($) {
-  my ($y, $m, $d) = split /-/, $_[0];
+  my ($y, $m, $d) = split /(?<=.)-/, $_[0];
 
   my $unix = timegm_nocheck (0, 0, 0, $d, $m-1, $y);
   my $jd = $unix / (24*60*60) + 2440587.5;
@@ -83,13 +83,17 @@ for my $path ($root_path->child ('src/eras')->children (qr{\.txt$})) {
       $def_name = $1;
       $var_name = undef;
     } elsif (defined $var_name and /^g:([0-9-]+)\s+(\w+)$/) {
-      push @{$Vars->{$var_name} ||= []}, [(int g2jd $1), $2];
+      push @{$Vars->{$var_name} ||= []}, ['jd', (int g2jd $1), $2];
     } elsif (defined $def_name and /^g:([0-9-]+)\s+(\w+)$/) {
-      push @{$Defs->{$def_name} ||= []}, [(int g2jd $1), $2];
+      push @{$Defs->{$def_name} ||= []}, ['jd', (int g2jd $1), $2];
     } elsif (defined $var_name and /^k:([0-9'-]+)\s+(\w+)$/) {
-      push @{$Vars->{$var_name} ||= []}, [(int g2jd k2g $1), $2];
+      push @{$Vars->{$var_name} ||= []}, ['jd', (int g2jd k2g $1), $2];
     } elsif (defined $def_name and /^k:([0-9'-]+)\s+(\w+)$/) {
-      push @{$Defs->{$def_name} ||= []}, [(int g2jd k2g $1), $2];
+      push @{$Defs->{$def_name} ||= []}, ['jd', (int g2jd k2g $1), $2];
+    } elsif (defined $var_name and /^y:(-?[0-9]+)\s+(\w+)$/) {
+      push @{$Vars->{$var_name} ||= []}, ['y', 0+$1, $2];
+    } elsif (defined $def_name and /^y:(-?[0-9]+)\s+(\w+)$/) {
+      push @{$Defs->{$def_name} ||= []}, ['y', 0+$1, $2];
     } elsif (defined $var_name and /^\+\$([\w-]+)$/) {
       push @{$Vars->{$var_name} ||= []}, $1;
     } elsif (defined $def_name and /^\+\$([\w-]+)$/) {
@@ -97,13 +101,15 @@ for my $path ($root_path->child ('src/eras')->children (qr{\.txt$})) {
     } elsif (defined $var_name and /^-(\d+)\s+(\d+)$/) {
       push @{$Vars->{$var_name} ||= []},
           {type => 'remove',
-           start => (int g2jd k2g "$1-01-01"),
-           end => (int g2jd k2g sprintf '%04d-01-01', $2 + 1)};
+           start_jd => (int g2jd k2g "$1-01-01"),
+           end_jd => (int g2jd k2g sprintf '%04d-01-01', $2 + 1),
+           start_y => $1, end_y => $2};
     } elsif (defined $def_name and /^-(\d+)\s+(\d+)$/) {
       push @{$Defs->{$def_name} ||= []},
           {type => 'remove',
-           start => (int g2jd k2g "$1-01-01"),
-           end => (int g2jd k2g sprintf '%04d-01-01', $2 + 1)};
+           start_jd => (int g2jd k2g "$1-01-01"),
+           end_jd => (int g2jd k2g sprintf '%04d-01-01', $2 + 1),
+           start_y => $1, end_y => $2};
     } elsif (/^\s*#/) {
       #
     } elsif (/\S/) {
@@ -116,7 +122,8 @@ sub apply_op ($$) {
   my ($def, $op) = @_;
   if ($op->{type} eq 'remove') {
     @$def = grep {
-      not ($op->{start} <= $_->[0] and $_->[0] <= $op->{end});
+      not ($_->[0] eq 'jd' and $op->{start_jd} <= $_->[1] and $_->[1] <= $op->{end_jd}) and
+      not ($_->[0] eq 'y' and $op->{start_y} <= $_->[1] and $_->[1] <= $op->{end_y});
     } @$def;
   } else {
     die "Unknown operation type |$op->{type}|";
@@ -131,7 +138,8 @@ sub expand_var ($) {
       if (ref $_ eq 'HASH') {
         apply_op $def, $_;
       } else {
-        $_->[1] = undef if defined $_->[1] and $_->[1] eq 'null';
+        $_->[2] = undef if defined $_->[2] and $_->[2] eq 'null';
+        $_->[3] = $_->[0] eq 'jd' ? $_->[1] : g2jd "$_->[1]-01-01";
         push @$def, $_;
       }
     } else {
@@ -148,14 +156,15 @@ for my $def_name (keys %$Defs) {
       if (ref $_ eq 'HASH') {
         apply_op $def, $_;
       } else {
-        $_->[1] = undef if defined $_->[1] and $_->[1] eq 'null';
+        $_->[2] = undef if defined $_->[2] and $_->[2] eq 'null';
+        $_->[3] = $_->[0] eq 'jd' ? $_->[1] : g2jd "$_->[1]-01-01";
         push @$def, $_;
       }
     } else {
       push @$def, @{expand_var $_};
     }
   }
-  $Data->{sets}->{$def_name}->{points} = [sort { $a->[0] <=> $b->[0] } @$def];
+  $Data->{sets}->{$def_name}->{points} = [map { delete $_->[3]; $_ } sort { $a->[3] <=> $b->[3] } @$def];
 }
 
 print perl2json_bytes_for_record $Data;

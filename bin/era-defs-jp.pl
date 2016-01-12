@@ -19,7 +19,7 @@ for (values %$json) {
   die "Bad start |$_->{start}|" unless defined $start;
   $start =~ /^(\d+)/;
   my $first_year = 0+$1;
-  $Data->{$_->{name}}->{offset} = $first_year - 1;
+  $Data->{eras}->{$_->{name}}->{offset} = $first_year - 1;
 }
 
 print perl2json_bytes_for_record $Data;

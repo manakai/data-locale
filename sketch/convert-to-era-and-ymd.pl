@@ -10,7 +10,7 @@ die "Usage: perl $0 year-month-day\n" unless defined $date;
 
 my $root_path = path (__FILE__)->parent->parent;
 
-my $json_path = $root_path->child ('local/era-year-offsets.json');
+my $json_path = $root_path->child ('data/calendar/era-defs.json');
 my $json = json_bytes2perl $json_path->slurp;
 
 my $json2_path = $root_path->child ('data/calendar/era-sets.json');
@@ -67,13 +67,13 @@ my $g2k_map = {map { split /\t/, $_ } split /\x0D?\x0A/, $g2k_map_path->slurp};
 my $k2g_map = {reverse %$g2k_map};
 
 my ($year, $month, $day);
-if ($date =~ /^kyuureki:(\d+)-(\d+)('|)-(\d+)$/) {
+if ($date =~ /^kyuureki:(-?\d+)-(\d+)('|)-(\d+)$/) {
   my $d = sprintf '%04d-%02d%s-%02d', $1, $2, $3, $4;
   my $e = $k2g_map->{$d} or die "Kyuureki |$d| is not defined";
-  ($year, $month, $day) = split /-/, $e;
+  ($year, $month, $day) = split /(?<=.)-/, $e;
   #warn "Kyuureki |$d| is Gregorian |$e|\n";
 } else {
-  ($year, $month, $day) = split /-/, $date;
+  ($year, $month, $day) = split /(?<=.)-/, $date;
 }
 
 ## "get era and era year"
@@ -84,8 +84,9 @@ sub get_era_and_era_year ($$$) {
   my $era;
   E: {
     for (reverse @{$def}) {
-      $era = $_->[1];
-      last E if $_->[0] <= $jd;
+      $era = $_->[2];
+      last E if $_->[0] eq 'jd' and $_->[1] <= $jd;
+      last E if $_->[0] eq 'y' and $_->[1] <= $year;
     }
     $era = undef;
   } # E
@@ -93,7 +94,7 @@ sub get_era_and_era_year ($$$) {
   my $era_year;
   my $data;
   if (defined $era) {
-    $data = $json->{$era};
+    $data = $json->{eras}->{$era};
     die "Era |$era| not found" unless defined $data;
     $era_year = $year - $data->{offset};
   } else {

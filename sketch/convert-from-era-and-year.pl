@@ -9,12 +9,12 @@ my $era = decode 'utf-8', shift;
 my $year = shift;
 die "Usage: perl $0 era year\n" unless defined $year;
 
-my $json_path = path (__FILE__)->parent->parent->child ('local/era-year-offsets.json');
+my $json_path = path (__FILE__)->parent->parent->child ('data/calendar/era-defs.json');
 my $json = json_bytes2perl $json_path->slurp;
 
 ## "convert from era and year"
 
-my $data = $json->{$era};
+my $data = $json->{eras}->{$era};
 die "Era |$era| not found" unless defined $data;
 my $ad_year = $data->{offset} + $year;
 
