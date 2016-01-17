@@ -36,6 +36,20 @@ grammer:
 A |line| represents a day.  Its |gregorian-date| and |kyuureki-date|
 are Gregorian and Kyuureki date of the day, respectively.
 
+* Details of Kyuureki
+
+kyuureki-map.txt には旧暦445年1月1日から旧暦2100年12月29日までの
+すべての日の旧暦と先発グレゴリオ暦の日付の対応が記述されています。
+
+開始は『日本暦日原典』に従い445年、終了は実用上十分と思われる2100年
+としています。
+
+各種の対照表や変換ツールで旧暦が異なる場合が多々ありますが、
+1872年までのデータは『日本暦日原典』に、20世紀は『20世紀暦』に、
+21世紀は『21世紀暦』に従っています。2033年は多くの対照表や
+変換ツールと同じく7月→8月→9月→10月→11月→閏11月→12月→1月
+としています。
+
 * kyuureki-genten
 
 The |data/calendar/kyuureki-genten.json| file contains some data from
@@ -78,29 +92,35 @@ The file contains a JSON object with following name/value pairs:
 
         採用する計算方法により計算値が異なる。
 
+* kyuureki-sansei
+
+The |data/calendar/kyuureki-sansei.json| file contains some data from
+三正綜覧.
+
+The file contains a JSON object with following name/value pair:
+
+  mapping [object]
+
+    Some of mapping data between Gregorian and Kyuureki dates from 三正
+    綜覧.  Note also that this object contains only a few mapping
+    data.  Names are Gregorian dates and values are corresponding
+    Kyuureki dates.
+
 * kyuureki-diff*
 
 The |data/calendar/kyuureki-diff.json| file contains differences of
-various Kyuureki mapping tables.
+various existing Kyuureki mapping tables.
 
 The |data/calendar/kyuureki-diff-all.html| and
-|data/calendar/kyuureki-diff-tables.html| files are its visualization.
+|data/calendar/kyuureki-diff-tables.html| files are its HTML table
+visualizations.
 
-* Details of Kyuureki
-
-kyuureki-map.txt には旧暦445年1月1日から旧暦2100年12月29日までの
-すべての日の旧暦と先発グレゴリオ暦の日付の対応が記述されています。
-
-開始は『日本暦日原典』に従い445年、終了は実用上十分と思われる2100年
-としています。
-
-各種の対照表や変換ツールで旧暦が異なる場合が多々ありますが、
-1872年までのデータは『日本暦日原典』に、20世紀は『20世紀暦』に、
-21世紀は『21世紀暦』に従っています。2033年は多くの対照表や
-変換ツールと同じく7月→8月→9月→10月→11月→閏11月→12月→1月
-としています。
+See SuikaWiki:旧暦 for more information on data sources.
 
 * Sources
+
+三正綜覧, 内務省地理局,
+<http://www.wul.waseda.ac.jp/kotenseki/html/ni05/ni05_02143/index.html>.
 
 日本暦日原典, 内田正男, 1992 (第4版).
 
@@ -108,9 +128,14 @@ kyuureki-map.txt には旧暦445年1月1日から旧暦2100年12月29日まで�
 
 21世紀暦 -- 曜日・干支・九星・旧暦・六曜, 日外アソシエーツ編集部.
 
-SuikaWiki:旧暦 <http://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6$20368>.
+SuikaWiki:旧暦 <https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6$20368>.
 
 * License
 
 You are granted a license to use, reproduce and create derivative
 works of these files.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON files and this
+document has waived all copyright and related or neighboring rights to
+the JSON files and this document.
