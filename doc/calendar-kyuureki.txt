@@ -21,6 +21,7 @@ them, in decimal, respectively.  Existence of the |leap-month| flag
 represents a leap month.
 
 The Gregorian dates are date in the proleptic Gregorian calendar.
+Note that the year just before year 1 is year 0, not year -1.
 
 * kyuureki-map
 
@@ -92,6 +93,20 @@ The file contains a JSON object with following name/value pairs:
 
         採用する計算方法により計算値が異なる。
 
+* kyuureki-shoki-genten
+
+The |data/calendar/kyuureki-shoki-genten.json| file contains some data
+from 日本書紀暦日原典 (1978).
+
+The file contains a JSON object with following name/value pair:
+
+  mapping [object]
+
+    Some of mapping data between Gregorian and Kyuureki dates from 日本
+    書紀暦日原典.  Note also that this object contains only a few
+    mapping data.  Names are Gregorian dates and values are
+    corresponding Kyuureki dates.
+
 * kyuureki-sansei
 
 The |data/calendar/kyuureki-sansei.json| file contains some data from
@@ -121,6 +136,8 @@ See SuikaWiki:旧暦 for more information on data sources.
 
 三正綜覧, 内務省地理局,
 <http://www.wul.waseda.ac.jp/kotenseki/html/ni05/ni05_02143/index.html>.
+
+日本書紀暦日原典, 內田正男, 1978.
 
 日本暦日原典, 内田正男, 1992 (第4版).
 
