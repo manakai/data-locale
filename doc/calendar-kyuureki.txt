@@ -21,6 +21,7 @@ them, in decimal, respectively.  Existence of the |leap-month| flag
 represents a leap month.
 
 The Gregorian dates are date in the proleptic Gregorian calendar.
+Note that the year just before year 1 is year 0, not year -1.
 
 * kyuureki-map
 
@@ -38,17 +39,22 @@ are Gregorian and Kyuureki date of the day, respectively.
 
 * Details of Kyuureki
 
-kyuureki-map.txt には旧暦445年1月1日から旧暦2100年12月29日までの
-すべての日の旧暦と先発グレゴリオ暦の日付の対応が記述されています。
+The |kyuureki-map.txt| data file contains the mapping of all Gregorian
+and Kyuureki dates in the range Kyuureki 667BC-01-01 (the first day of
+the Kyuureki year -666) - Kyuureki 2100-12-29 (the last day of the
+Kyuureki year 2100).
 
-開始は『日本暦日原典』に従い445年、終了は実用上十分と思われる2100年
-としています。
+Various existing mapping tables and convertion tools use different
+mappings (see kyuureki-diff* files).  The |kyuureki-map.txt| file
+adopts mappings from following sources:
 
-各種の対照表や変換ツールで旧暦が異なる場合が多々ありますが、
-1872年までのデータは『日本暦日原典』に、20世紀は『20世紀暦』に、
-21世紀は『21世紀暦』に従っています。2033年は多くの対照表や
-変換ツールと同じく7月→8月→9月→10月→11月→閏11月→12月→1月
-としています。
+  日本暦日原典
+  日本書紀暦日原典
+  20世紀暦
+  21世紀暦
+
+Month names of year 2033 are chosen as recommended by 一般社団法人日本
+カレンダー暦文化振興協会 (暦文協).
 
 * kyuureki-genten
 
@@ -92,6 +98,30 @@ The file contains a JSON object with following name/value pairs:
 
         採用する計算方法により計算値が異なる。
 
+* kyuureki-shoki-genten
+
+The |data/calendar/kyuureki-shoki-genten.json| file contains some data
+from 日本書紀暦日原典 (1978).
+
+The file contains a JSON object with following name/value pairs:
+
+  mapping [object]
+
+    Some of mapping data between Gregorian and Kyuureki dates from 日本
+    書紀暦日原典.  Note also that this object contains only a few
+    mapping data.  Names are Gregorian dates and values are
+    corresponding Kyuureki dates.
+
+  notes [object]
+
+    List of annotations in the table of 日本書紀暦日原典.  Names are
+    Kyuureki dates and values are objects with following name/value
+    pair:
+
+      has_note [boolean]
+
+        Whether there is some note for the date or not.
+
 * kyuureki-sansei
 
 The |data/calendar/kyuureki-sansei.json| file contains some data from
@@ -121,6 +151,8 @@ See SuikaWiki:旧暦 for more information on data sources.
 
 三正綜覧, 内務省地理局,
 <http://www.wul.waseda.ac.jp/kotenseki/html/ni05/ni05_02143/index.html>.
+
+日本書紀暦日原典, 內田正男, 1978.
 
 日本暦日原典, 内田正男, 1992 (第4版).
 
