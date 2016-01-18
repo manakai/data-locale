@@ -98,7 +98,7 @@ The file contains a JSON object with following name/value pairs:
 The |data/calendar/kyuureki-shoki-genten.json| file contains some data
 from 日本書紀暦日原典 (1978).
 
-The file contains a JSON object with following name/value pair:
+The file contains a JSON object with following name/value pairs:
 
   mapping [object]
 
@@ -106,6 +106,16 @@ The file contains a JSON object with following name/value pair:
     書紀暦日原典.  Note also that this object contains only a few
     mapping data.  Names are Gregorian dates and values are
     corresponding Kyuureki dates.
+
+  notes [object]
+
+    List of annotations in the table of 日本書紀暦日原典.  Names are
+    Kyuureki dates and values are objects with following name/value
+    pair:
+
+      has_note [boolean]
+
+        Whether there is some note for the date or not.
 
 * kyuureki-sansei
 

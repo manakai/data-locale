@@ -261,6 +261,9 @@ y=619
 
 my $Data = {};
 
+$Data->{notes}->{"0619-03-01"}->{has_note} = 1;
+$Data->{notes}->{"0619-03'-01"}->{has_note} = 1;
+
 my $k_year;
 for (split /\n/, $data) {
   if (/^y=(-?\d+)$/) {
