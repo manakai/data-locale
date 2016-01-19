@@ -164,7 +164,7 @@ for my $def_name (keys %$Defs) {
       push @$def, @{expand_var $_};
     }
   }
-  $Data->{sets}->{$def_name}->{points} = [map { delete $_->[3]; $_ } sort { $a->[3] <=> $b->[3] } @$def];
+  $Data->{systems}->{$def_name}->{points} = [map { delete $_->[3]; $_ } sort { $a->[3] <=> $b->[3] } @$def];
 }
 
 print perl2json_bytes_for_record $Data;
