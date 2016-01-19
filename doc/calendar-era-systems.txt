@@ -1,0 +1,75 @@
+data/calendar/era-systems.json
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The file contains various era systems
+<https://manakai.github.io/spec-datetime/#era-system>.
+
+* Structure
+
+The file contains a JSON object with following name/value pair:
+
+  systems
+
+    A JSON object whose names are keys identifying era systems and
+    values are their descriptions, represented as JSON objects with
+    following name/value pair:
+
+      points
+
+        A JSON array that contains the time points of the era system.
+        The items of the array represent the points, as JSON arrays
+        with following items:
+
+          0  The type of the point, either |jd| (Julian Day) or |y| (Year).
+          1  The value of the point, a JD day number or an AD number.
+          2  The key of the era of the point.
+
+* Era systems
+
+There are following era systems described in this data file:
+
+  jp
+
+    The default era system traditionally used in Japan (so-called 和暦).
+    It is an alias to |jp-south|.
+
+  jp-north
+
+    The era system traditionally used in Japan, using 北朝
+    government's eras.
+
+  jp-south
+
+    The era system traditionally used in Japan, using 南朝
+    government's eras.
+
+  jp-heishi
+
+    The era system traditionally used in Japan, using 平氏
+    government's eras.
+
+  jp-kyoto
+
+    The era system traditionally used in Kyoto in Japan.
+
+  jp-east
+
+    The era system traditionally used in the 関東 area of Japan,
+    including Tokyo and Kamakura.
+
+* Sources
+
+Wikipedia (ja):元号一覧 (日本)
+<https://ja.wikipedia.org/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_(%E6%97%A5%E6%9C%AC)>.
+
+SuikaWiki:元号 <https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7>.
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of these files.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON files and this
+document has waived all copyright and related or neighboring rights to
+the JSON files and this document.
