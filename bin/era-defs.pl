@@ -20,6 +20,17 @@ for my $file_name (qw(
   }
 }
 
+for my $file_name (qw(era-defs-dates.json)) {
+  my $path = $root_path->child ('local')->child ($file_name);
+  my $json = json_bytes2perl $path->slurp;
+  for my $key (keys %{$json->{eras}}) {
+    my $data = $json->{eras}->{$key};
+    for (keys %$data) {
+      $Data->{eras}->{$key}->{$_} = $data->{$_};
+    }
+  }
+}
+
 print perl2json_bytes_for_record $Data;
 
 ## License: Public Domain.

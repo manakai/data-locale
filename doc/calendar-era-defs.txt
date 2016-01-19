@@ -1,0 +1,198 @@
+data/calendar/era-defs.json
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The file contains various properties of eras.
+
+* Data types
+
+The following data types are used in this document:
+
+year
+
+  An integer which represents the year in AD or CE.
+
+day
+
+  An object with following name/value pairs, which all represent the
+  same day:
+
+    gregorian
+
+      The Gregorian date string
+      <https://manakai.github.io/spec-datetime/#gregorian-date-string>
+      of the day.
+
+    gregorian_era
+
+      The Gregorian era date string
+      <https://manakai.github.io/spec-datetime/#gregorian-era-date-string>
+      of the day with /era/.
+
+    jd
+
+      A number representing the Julian Day of the day (start of the
+      UTC day).
+
+    julian
+
+      The Julian date string
+      <https://manakai.github.io/spec-datetime/#julian-date-string> of
+      the day.
+
+    julian_era
+
+      The Julian era date string
+      <https://manakai.github.io/spec-datetime/#julian-era-date-string>
+      of the day with /era/.
+
+    kyuureki
+
+      The kyuureki date string
+      <https://manakai.github.io/spec-datetime/#kyuureki-date-string>
+      of the day.
+
+    kyuureki_era
+
+      The kyuureki era date string
+      <https://manakai.github.io/spec-datetime/#kyuureki-era-date-string>
+      of the day with /era/.
+
+* Structure
+
+The file contains a JSON object with following name/value pair:
+
+  eras [object]
+
+    Names are era keys as used in these data files and values are
+    their descriptions, represented as JSON objects with following
+    name/value pairs:
+
+      jp_emperor_era [boolean]
+
+        Whether the era is used to represent years where no 元号 was
+        officially defined and used in Japan.  Note that not all eras
+        with Japanese Emperor's name have |jp_emperor_era| flag.
+
+      jp_era [boolean]
+
+        Whether the era is an official 元号 used in Japan but does not
+        have |jp_north_era| or |jp_south_era| flag.
+
+      jp_north_era [boolean]
+
+        Whether the era is an official 元号 which was used by Japan's
+        北朝 government (at least partially).  Note that some of eras
+        also have the |jp_south_era| flag (but have different start or
+        end day).  Eras with |jp_north_era| flag are not marked as
+        |jp_era|.
+
+      jp_south_era [boolean]
+
+        Whether the era is an official 元号 which was used by Japan's
+        南朝 government (at least partially).  Note that some of eras
+        also have the |jp_north_era| flag (but have different start or
+        end day).  Eras with |jp_north_era| flag are not marked as
+        |jp_era|.
+
+      key [string]
+
+        The key used to identify the era in these data files.  It is
+        unique within the eras described in this file.  It might or
+        might not be equal to the |name| of the era.
+
+      name [string]
+
+        A name of the era, which can be used as a formal or long name
+        of the era in the official modern spelling of the country
+        where the era is (or was) used, wherever possible.
+
+      offset [integer]
+
+        The offset of the first year from the year AD1.  The number of
+        the year in the era can be obtained by subtracting the
+        |offset| from the AD year number.  Note that the offset can be
+        negative.
+
+      start_day [day?]
+      start_year [year?]
+      end_day [day?]
+      end_year [year?]
+      official_start_day [day?]
+      actual_end_day [day?]
+      start_gregorian_day [day?]
+      end_gregorian_day [day?]
+      start_julian_day [day?]
+      end_julian_day [day?]
+      start_kyuureki_day [day?]
+      end_kyuureki_day [day?]
+      north_start_day [day?]
+      north_start_year [year?]
+      north_official_start_day [day?]
+      north_actual_end_day [day?]
+      north_end_day [day?]
+      north_end_year [year?]
+      south_start_day [day?]
+      south_start_year [year?]
+      south_end_day [day?]
+      south_end_year [year?]
+      south_official_start_day [day?]
+      south_actual_end_day [day?]
+
+        The start and end of the era, if defined and known.
+
+        The start or end of the era can be defined in terms of day or
+        year.
+
+        If the start or end is defined in terms of day, |start_day| or
+        |end_day| is set to the value which should be used when a date
+        represented in other format is converted into the era-based
+        format (according to the era system "jp" for |jp_era| eras).
+
+        If the start is defined in terms of day and the "official"
+        start day is known, |official_start_day| is set to that day.
+        It can be different from the |start_day| if the era was
+        defined after its actual start day.
+
+        If the end is defined in terms of day, |actual_end_day| is set
+        to that day.  It can be different from the |end_day| if a new
+        era had been started before the end of the |actual_end_day|.
+
+        For eras with |jp_north_era| or |jp_south_era| flag, |north_|
+        or |south_| prefixed name/value pairs are used instead, as
+        their values can be different for 北朝 and 南朝.  Note that 正
+        平の一統 is not reflected to these properties.  The
+        |jp_north_era| flag is not set to the 正平 era.
+
+        If the start or end is defined in terms of day, |start_year|
+        or |end_year| is set to the first or last year, i.e. the year
+        to which the start or end day belongs, in the "native"
+        calendar used at the start or end of the era (e.g. kyuureki
+        for older Japanese eras or Gregorian for newer Japanese eras).
+
+        If the start or end is defined in terms of year, |start_year|
+        or |end_year| is set to that year.
+
+        If start or end is defined in terms of year, |start_*_day| and
+        |end_*_day| name/value pairs, where * is |gregorian|,
+        |julian|, or |kyuureki|, are set to the first or last days in
+        those calendars.
+
+        For values with type [day], the parameter /era/ is set to the
+        era.
+
+* Sources
+
+Wikipedia (ja):元号一覧 (日本)
+<https://ja.wikipedia.org/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_(%E6%97%A5%E6%9C%AC)>.
+
+SuikaWiki:元号 <https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7>.
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of these files.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON files and this
+document has waived all copyright and related or neighboring rights to
+the JSON files and this document.

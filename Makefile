@@ -55,7 +55,7 @@ data: data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json \
     data/datetime/seconds.json \
     data/timezones/mail-names.json \
     data/langs/locale-names.json data/langs/plurals.json \
-    data/calendar/jp-flagdays.json data/calendar/era-sets.json \
+    data/calendar/jp-flagdays.json data/calendar/era-systems.json \
     data/calendar/era-defs.json
 clean-data:
 	rm -fr local/cldr-core* local/*.json
@@ -98,11 +98,20 @@ local/era-defs-jp.json: bin/era-defs-jp.pl \
 local/era-defs-jp-emperor.json: bin/generate-jp-emperor-eras-defs.pl \
     src/jp-emperor-eras.txt
 	$(PERL) $< > $@
-data/calendar/era-defs.json: bin/era-defs.pl \
-    local/era-defs-jp.json local/era-defs-jp-emperor.json
-	$(PERL) $< > $@
-data/calendar/era-sets.json: bin/calendar-era-sets.pl \
+data/calendar/era-systems.json: bin/calendar-era-systems.pl \
     src/eras/*.txt data/calendar/kyuureki-map.txt
+	$(PERL) $< > $@
+local/era-defs-dates.json: bin/generate-era-defs-dates.pl \
+    data/calendar/era-systems.json local/era-defs-jp.json \
+    local/era-defs-jp-emperor.json
+	$(PERL) $< > $@
+data/calendar/era-defs.json: bin/era-defs.pl \
+    local/era-defs-jp.json local/era-defs-jp-emperor.json \
+    local/era-defs-dates.json
+	$(PERL) $< > $@
+
+local/era-chars.json: bin/generate-era-chars.pl \
+    data/calendar/era-defs.json
 	$(PERL) $< > $@
 
 local/leap-seconds.txt:

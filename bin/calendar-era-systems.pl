@@ -27,6 +27,7 @@ sub k2g ($) {
   $Epoc = _daygm( gmtime(0) );
   %Cheat = ();
 
+  use POSIX;
   sub _daygm {
 
     # This is written in such a byzantine way in order to avoid
@@ -37,9 +38,9 @@ sub k2g ($) {
             my $year  = $_[5] + 1900 - int($month / 10);
 
             ( ( 365 * $year )
-              + int( $year / 4 )
-              - int( $year / 100 )
-              + int( $year / 400 )
+              + floor( $year / 4 )
+              - floor( $year / 100 )
+              + floor( $year / 400 )
               + int( ( ( $month * 306 ) + 5 ) / 10 )
             )
             - $Epoc;
@@ -83,13 +84,13 @@ for my $path ($root_path->child ('src/eras')->children (qr{\.txt$})) {
       $def_name = $1;
       $var_name = undef;
     } elsif (defined $var_name and /^g:([0-9-]+)\s+(\w+)$/) {
-      push @{$Vars->{$var_name} ||= []}, ['jd', (int g2jd $1), $2];
+      push @{$Vars->{$var_name} ||= []}, ['jd', (g2jd $1), $2];
     } elsif (defined $def_name and /^g:([0-9-]+)\s+(\w+)$/) {
-      push @{$Defs->{$def_name} ||= []}, ['jd', (int g2jd $1), $2];
+      push @{$Defs->{$def_name} ||= []}, ['jd', (g2jd $1), $2];
     } elsif (defined $var_name and /^k:([0-9'-]+)\s+(\w+)$/) {
-      push @{$Vars->{$var_name} ||= []}, ['jd', (int g2jd k2g $1), $2];
+      push @{$Vars->{$var_name} ||= []}, ['jd', (g2jd k2g $1), $2];
     } elsif (defined $def_name and /^k:([0-9'-]+)\s+(\w+)$/) {
-      push @{$Defs->{$def_name} ||= []}, ['jd', (int g2jd k2g $1), $2];
+      push @{$Defs->{$def_name} ||= []}, ['jd', (g2jd k2g $1), $2];
     } elsif (defined $var_name and /^y:(-?[0-9]+)\s+(\w+)$/) {
       push @{$Vars->{$var_name} ||= []}, ['y', 0+$1, $2];
     } elsif (defined $def_name and /^y:(-?[0-9]+)\s+(\w+)$/) {
@@ -101,14 +102,14 @@ for my $path ($root_path->child ('src/eras')->children (qr{\.txt$})) {
     } elsif (defined $var_name and /^-(\d+)\s+(\d+)$/) {
       push @{$Vars->{$var_name} ||= []},
           {type => 'remove',
-           start_jd => (int g2jd k2g "$1-01-01"),
-           end_jd => (int g2jd k2g sprintf '%04d-01-01', $2 + 1),
+           start_jd => (g2jd k2g "$1-01-01"),
+           end_jd => (g2jd k2g sprintf '%04d-01-01', $2 + 1),
            start_y => $1, end_y => $2};
     } elsif (defined $def_name and /^-(\d+)\s+(\d+)$/) {
       push @{$Defs->{$def_name} ||= []},
           {type => 'remove',
-           start_jd => (int g2jd k2g "$1-01-01"),
-           end_jd => (int g2jd k2g sprintf '%04d-01-01', $2 + 1),
+           start_jd => (g2jd k2g "$1-01-01"),
+           end_jd => (g2jd k2g sprintf '%04d-01-01', $2 + 1),
            start_y => $1, end_y => $2};
     } elsif (/^\s*#/) {
       #

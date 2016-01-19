@@ -64,6 +64,9 @@ $jp-south-all:
 +$jp-south
 +$jp-south-end
 
+## <https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7#anchor-96>
+-1372 1372
+k:1372-04-28 文中
 
 *jp-north:
 
@@ -84,9 +87,9 @@ $jp-other-patched:
 -1868 1868
 k:1868-09-08 明治
 
-k:0654-10-11 斉明天皇
+y:655 斉明天皇
 y:662 天智天皇
-y:671 弘文天皇
+#y:671 弘文天皇
 y:672 天武天皇
 
 y:687 持統天皇

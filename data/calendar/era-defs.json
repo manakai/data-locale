@@ -6916,22 +6916,22 @@
          "name" : "建徳",
          "offset" : 1369,
          "south_actual_end_day" : {
-            "gregorian" : "1372-05-09",
-            "gregorian_era" : "建徳3-05-09",
-            "jd" : 2222301.5,
-            "julian" : "1372-05-01",
-            "julian_era" : "建徳3-05-01",
-            "kyuureki" : "1372-03-27",
-            "kyuureki_era" : "建徳3-03-27"
+            "gregorian" : "1372-06-08",
+            "gregorian_era" : "建徳3-06-08",
+            "jd" : 2222331.5,
+            "julian" : "1372-05-31",
+            "julian_era" : "建徳3-05-31",
+            "kyuureki" : "1372-04-28",
+            "kyuureki_era" : "建徳3-04-28"
          },
          "south_end_day" : {
-            "gregorian" : "1372-05-08",
-            "gregorian_era" : "建徳3-05-08",
-            "jd" : 2222300.5,
-            "julian" : "1372-04-30",
-            "julian_era" : "建徳3-04-30",
-            "kyuureki" : "1372-03-26",
-            "kyuureki_era" : "建徳3-03-26"
+            "gregorian" : "1372-06-07",
+            "gregorian_era" : "建徳3-06-07",
+            "jd" : 2222330.5,
+            "julian" : "1372-05-30",
+            "julian_era" : "建徳3-05-30",
+            "kyuureki" : "1372-04-27",
+            "kyuureki_era" : "建徳3-04-27"
          },
          "south_end_year" : 1372,
          "south_official_start_day" : {
@@ -8803,13 +8803,13 @@
             "kyuureki_era" : "文中1-01-01"
          },
          "south_start_day" : {
-            "gregorian" : "1372-05-09",
-            "gregorian_era" : "文中1-05-09",
-            "jd" : 2222301.5,
-            "julian" : "1372-05-01",
-            "julian_era" : "文中1-05-01",
-            "kyuureki" : "1372-03-27",
-            "kyuureki_era" : "文中1-03-27"
+            "gregorian" : "1372-06-08",
+            "gregorian_era" : "文中1-06-08",
+            "jd" : 2222331.5,
+            "julian" : "1372-05-31",
+            "julian_era" : "文中1-05-31",
+            "kyuureki" : "1372-04-28",
+            "kyuureki_era" : "文中1-04-28"
          },
          "south_start_year" : 1372
       },
