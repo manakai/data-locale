@@ -9,12 +9,12 @@ The following data types are used in this document:
 
 year
 
-  An integer which represents the year in AD or CE.
+  An AD year <https://manakai.github.io/spec-datetime/#ad-year>.
 
 day
 
-  An object with following name/value pairs, which all represent the
-  same day:
+  A day, represnted by a JSON object with following name/value pairs,
+  which all represent the same day:
 
     gregorian
 
@@ -30,8 +30,9 @@ day
 
     jd
 
-      A number representing the Julian Day of the day (start of the
-      UTC day).
+      The JD day number
+      <https://manakai.github.io/spec-datetime/#jd-day-number> of the
+      day.
 
     julian
 
@@ -110,8 +111,9 @@ The file contains a JSON object with following name/value pair:
 
         The offset of the first year from the year AD1.  The number of
         the year in the era can be obtained by subtracting the
-        |offset| from the AD year number.  Note that the offset can be
-        negative.
+        |offset| from the AD year
+        <https://manakai.github.io/spec-datetime/#ad-year>.  Note that
+        the offset can be negative.
 
       start_day [day?]
       start_year [year?]

@@ -10,11 +10,15 @@ See documentations for details in doc/ directory.
     data/langs/locale-names.json
     doc/langs-plurals.txt              Plural rules
     data/langs/plurals.json
-  Dates and times
-    doc/datetime-durations.txt         Durations
-    data/datetime/durations.json
+  Calendars and eras
     doc/datetime-gregorian.txt         Gregorian calendar
     data/datetime/gregorian.json
+    doc/calendar-kyuureki.txt          Kyuureki
+    data/calendar/kyuureki-*
+    doc/calendar-era-defs.txt          Eras
+    data/calendar/era-defs.json
+    doc/calendar-era-systems.txt       Era systems
+    data/calendar/era-systems.json
     doc/datetime-months.txt            Months
     data/datetime/months.json
     doc/datetime-weeks.txt             Weeks
@@ -22,14 +26,14 @@ See documentations for details in doc/ directory.
   Time zones
     doc/timezones-mail-names.txt       Zone names in mails
     data/timezones/mail-names.json
-  Non-gregorian calendar
-    doc/calendar-kyuureki.txt          Kyuureki
-    data/calendar/kyuureki-*
   Holidays
     doc/calendar-holidays.txt          List of holidays
     data/calendar/jp-holidays.json
     data/calendar/jp-flagdays.json
     data/calendar/ryukyu-holidays.json
+  Durations
+    doc/datetime-durations.txt         Durations
+    data/datetime/durations.json
 
 List of language tags or codes, country codes, and currency codes, as
 well as data on character encodings and character references used on
