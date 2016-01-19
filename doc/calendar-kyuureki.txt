@@ -1,48 +1,33 @@
 calendar/kyuureki-*
 ~~~~~~~~~~~~~~~~~~~
 
-These files contain descriptions of Kyuureki (旧暦), i.e. Japanese
+These files contain descriptions of kyuureki (旧暦), i.e. Japanese
 classic calendar.
 
 * Data types
 
-In these files, Gregorian and Kyuureki dates are represented using the
-|gregorian-date| and |kyuureki-date| notations of the following ABNF
-grammer, respectively:
+Gregorian date string
+<https://manakai.github.io/spec-datetime/#gregorian-date-string>
 
-  gregorian-date = year "-" 2DIGIT "-" 2DIGIT
-  kyuureki-date = year "-" 2DIGIT [leap-month] "-" 2DIGIT
-  year = ["-"] 4*DIGIT
-  leap-month = "'"
-  DIGIT = %x30-39
-
-Sequences of numbers in these date are year, month, and day numbers of
-them, in decimal, respectively.  Existence of the |leap-month| flag
-represents a leap month.
-
-The Gregorian dates are date in the proleptic Gregorian calendar.
-Note that the year just before year 1 is year 0, not year -1.
+Kyuureki date string
+<https://manakai.github.io/spec-datetime/#kyuureki-date-string>.
 
 * kyuureki-map
 
-The |data/calendar/kyuureki-map.txt| file contains mapping of Kyuureki
-dates and Gregorian dates.
+The |data/calendar/kyuureki-map.txt| file is a date mapping file
+<https://manakai.github.io/spec-datetime/#date-mapping-file> from the
+Gregorian days
+<https://manakai.github.io/spec-datetime/#gregorian-day> and the
+kyuureki days <https://manakai.github.io/spec-datetime/#kyuureki-day>
+in the range kyuureki 667BC-01-01 (the first day of the kyuureki year
+-666) - kyuureki 2100-12-29 (the last day of the kyuureki year 2100),
+inclusive.
 
-The file is an ASCII text file conforming to the following ABNF
-grammer:
+The first slots of the file are represented as Gregorian date strings
+and the second slots of the file are represented as kyuureki date
+strings.
 
-  file = *line
-  line = gregorian-date %x09 kyuureki-date %x0A
-
-A |line| represents a day.  Its |gregorian-date| and |kyuureki-date|
-are Gregorian and Kyuureki date of the day, respectively.
-
-* Details of Kyuureki
-
-The |kyuureki-map.txt| data file contains the mapping of all Gregorian
-and Kyuureki dates in the range Kyuureki 667BC-01-01 (the first day of
-the Kyuureki year -666) - Kyuureki 2100-12-29 (the last day of the
-Kyuureki year 2100).
+The entries are sorted in the ascending order.
 
 Various existing mapping tables and convertion tools use different
 mappings (see kyuureki-diff* files).  The |kyuureki-map.txt| file
@@ -53,8 +38,8 @@ adopts mappings from following sources:
   20世紀暦
   21世紀暦
 
-Month names of year 2033 are chosen as recommended by 一般社団法人日本
-カレンダー暦文化振興協会 (暦文協).
+The month numbers of year 2033 and 2034 are chosen as recommended by 一
+般社団法人日本カレンダー暦文化振興協会 (暦文協).
 
 * kyuureki-genten
 
@@ -65,17 +50,18 @@ The file contains a JSON object with following name/value pairs:
 
   mapping [object]
 
-    Some of mapping data between Gregorian and Kyuureki dates from 日本
+    Some of mapping data between Gregorian and kyuureki days from 日本
     暦日原典.  Note that Julian dates in 日本暦日原典 are converted to
     proleptic Gregorian date in this object.  Note also that this
     object only contains a few interesting mapping data.  Names are
-    Gregorian dates and values are corresponding Kyuureki dates.
+    Gregorian date strings and values are corresponding kyuureki date
+    strings.
 
   notes [object]
 
     List of annotations in the table of 日本暦日原典.  Names are
-    Kyuureki dates and values are objects with following name/value
-    pairs:
+    kyuureki date strings and values are objects with following
+    name/value pairs:
 
       might_be_advanced [boolean]
 
@@ -107,16 +93,16 @@ The file contains a JSON object with following name/value pairs:
 
   mapping [object]
 
-    Some of mapping data between Gregorian and Kyuureki dates from 日本
+    Some of mapping data between Gregorian and kyuureki days from 日本
     書紀暦日原典.  Note also that this object contains only a few
-    mapping data.  Names are Gregorian dates and values are
-    corresponding Kyuureki dates.
+    mapping data.  Names are Gregorian date strings and values are
+    corresponding kyuureki date strings.
 
   notes [object]
 
     List of annotations in the table of 日本書紀暦日原典.  Names are
-    Kyuureki dates and values are objects with following name/value
-    pair:
+    kyuureki date strings and values are objects with following
+    name/value pair:
 
       has_note [boolean]
 
@@ -131,10 +117,10 @@ The file contains a JSON object with following name/value pair:
 
   mapping [object]
 
-    Some of mapping data between Gregorian and Kyuureki dates from 三正
+    Some of mapping data between Gregorian and Kyuureki days from 三正
     綜覧.  Note also that this object contains only a few mapping
-    data.  Names are Gregorian dates and values are corresponding
-    Kyuureki dates.
+    data.  Names are Gregorian date strings and values are
+    corresponding Kyuureki date strings.
 
 * kyuureki-diff*
 
@@ -160,7 +146,8 @@ See SuikaWiki:旧暦 for more information on data sources.
 
 21世紀暦 -- 曜日・干支・九星・旧暦・六曜, 日外アソシエーツ編集部.
 
-SuikaWiki:旧暦 <https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6$20368>.
+SuikaWiki:旧暦
+<https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6$20368>.
 
 * License
 
