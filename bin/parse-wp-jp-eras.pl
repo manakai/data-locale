@@ -1,12 +1,13 @@
 use strict;
 use warnings;
 use utf8;
+use Encode;
 use Path::Tiny;
 use JSON::PS;
 
 my $root_path = path (__FILE__)->parent->parent;
 
-my $json_path = $root_path->child ('src/wp-jp-eras.json');
+my $json_path = $root_path->child ('local/wp-jp-eras-bare.json');
 my $json = json_bytes2perl $json_path->slurp;
 
 use POSIX;
@@ -26,10 +27,16 @@ my $Data = {};
 
 for (@{$json->{tables}}) {
   for (@$_) {
-    my ($name, $read, $start, $end, $years, $emperor, $note) = @$_;
+    my ($name, $read, $start, $end, $years, $emperor, $note) = map { $_->[0] } @$_;
     next if {'－' => 1, 元号名 => 1, 漢字 => 1, '　漢字　' => 1}->{$name};
     next if $name eq $read;
     my $data = $Data->{$name} ||= {};
+    if (defined $_->[0]->[1] and
+        $_->[0]->[1] =~ m{^https://ja.wikipedia.org/wiki/([^?#]+)$}) {
+      my $wref = $1;
+      $wref =~ s/%([0-9A-Fa-f]{2})/pack 'C', hex $1/ge;
+      $data->{wref_ja} = decode 'utf-8', $wref;
+    }
     $data->{name} = $name;
     $data->{name_kana} ||= $read;
     $data->{name_kanas}->{$read} = 1;

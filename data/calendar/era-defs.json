@@ -23,6 +23,11 @@
          "jp_era" : 1,
          "key" : "万寿",
          "name" : "万寿",
+         "name_kana" : "まんじゅ",
+         "name_kanas" : {
+            "まんじゅ" : 1
+         },
+         "name_latn" : "Manju",
          "names" : {
             "万壽" : 1,
             "万夀" : 1,
@@ -51,7 +56,9 @@
             "kyuureki" : "1024-07-13",
             "kyuureki_era" : "万寿1-07-13"
          },
-         "start_year" : 1024
+         "start_year" : 1024,
+         "wref_en" : "Manju_(era)",
+         "wref_ja" : "万寿"
       },
       "万延" : {
          "actual_end_day" : {
@@ -76,6 +83,11 @@
          "jp_era" : 1,
          "key" : "万延",
          "name" : "万延",
+         "name_kana" : "まんえん",
+         "name_kanas" : {
+            "まんえん" : 1
+         },
+         "name_latn" : "Man'en",
          "names" : {
             "万延" : 1,
             "萬延" : 1
@@ -100,7 +112,9 @@
             "kyuureki" : "1860-03-18",
             "kyuureki_era" : "万延1-03-18"
          },
-         "start_year" : 1860
+         "start_year" : 1860,
+         "wref_en" : "Man'en",
+         "wref_ja" : "万延"
       },
       "万治" : {
          "actual_end_day" : {
@@ -125,6 +139,11 @@
          "jp_era" : 1,
          "key" : "万治",
          "name" : "万治",
+         "name_kana" : "まんじ",
+         "name_kanas" : {
+            "まんじ" : 1
+         },
+         "name_latn" : "Manji",
          "names" : {
             "万治" : 1,
             "萬治" : 1
@@ -149,7 +168,9 @@
             "kyuureki" : "1658-07-23",
             "kyuureki_era" : "万治1-07-23"
          },
-         "start_year" : 1658
+         "start_year" : 1658,
+         "wref_en" : "Manji_(era)",
+         "wref_ja" : "万治"
       },
       "久安" : {
          "actual_end_day" : {
@@ -174,6 +195,11 @@
          "jp_era" : 1,
          "key" : "久安",
          "name" : "久安",
+         "name_kana" : "きゅうあん",
+         "name_kanas" : {
+            "きゅうあん" : 1
+         },
+         "name_latn" : "Kyūan",
          "names" : {
             "久安" : 1
          },
@@ -197,7 +223,9 @@
             "kyuureki" : "1145-07-22",
             "kyuureki_era" : "久安1-07-22"
          },
-         "start_year" : 1145
+         "start_year" : 1145,
+         "wref_en" : "Kyūan",
+         "wref_ja" : "久安"
       },
       "久寿" : {
          "actual_end_day" : {
@@ -222,6 +250,11 @@
          "jp_era" : 1,
          "key" : "久寿",
          "name" : "久寿",
+         "name_kana" : "きゅうじゅ",
+         "name_kanas" : {
+            "きゅうじゅ" : 1
+         },
+         "name_latn" : "Kyūju",
          "names" : {
             "久壽" : 1,
             "久夀" : 1,
@@ -247,7 +280,9 @@
             "kyuureki" : "1154-10-28",
             "kyuureki_era" : "久寿1-10-28"
          },
-         "start_year" : 1154
+         "start_year" : 1154,
+         "wref_en" : "Kyūju",
+         "wref_ja" : "久寿"
       },
       "乾元" : {
          "actual_end_day" : {
@@ -272,6 +307,11 @@
          "jp_era" : 1,
          "key" : "乾元",
          "name" : "乾元",
+         "name_kana" : "けんげん",
+         "name_kanas" : {
+            "けんげん" : 1
+         },
+         "name_latn" : "Kengen",
          "names" : {
             "乾元" : 1
          },
@@ -295,7 +335,9 @@
             "kyuureki" : "1302-11-21",
             "kyuureki_era" : "乾元1-11-21"
          },
-         "start_year" : 1302
+         "start_year" : 1302,
+         "wref_en" : "Kengen",
+         "wref_ja" : "乾元_(日本)"
       },
       "享保" : {
          "actual_end_day" : {
@@ -320,6 +362,11 @@
          "jp_era" : 1,
          "key" : "享保",
          "name" : "享保",
+         "name_kana" : "きょうほう",
+         "name_kanas" : {
+            "きょうほう" : 1
+         },
+         "name_latn" : "Kyōhō",
          "names" : {
             "享保" : 1
          },
@@ -343,7 +390,9 @@
             "kyuureki" : "1716-06-22",
             "kyuureki_era" : "享保1-06-22"
          },
-         "start_year" : 1716
+         "start_year" : 1716,
+         "wref_en" : "Kyōhō",
+         "wref_ja" : "享保"
       },
       "享和" : {
          "actual_end_day" : {
@@ -368,6 +417,11 @@
          "jp_era" : 1,
          "key" : "享和",
          "name" : "享和",
+         "name_kana" : "きょうわ",
+         "name_kanas" : {
+            "きょうわ" : 1
+         },
+         "name_latn" : "Kyōwa",
          "names" : {
             "享和" : 1
          },
@@ -391,7 +445,9 @@
             "kyuureki" : "1801-02-05",
             "kyuureki_era" : "享和1-02-05"
          },
-         "start_year" : 1801
+         "start_year" : 1801,
+         "wref_en" : "Kyōwa",
+         "wref_ja" : "享和"
       },
       "享徳" : {
          "actual_end_day" : {
@@ -416,6 +472,11 @@
          "jp_era" : 1,
          "key" : "享徳",
          "name" : "享徳",
+         "name_kana" : "きょうとく",
+         "name_kanas" : {
+            "きょうとく" : 1
+         },
+         "name_latn" : "Kyōtoku",
          "names" : {
             "享徳" : 1,
             "享德" : 1
@@ -440,7 +501,9 @@
             "kyuureki" : "1452-07-25",
             "kyuureki_era" : "享徳1-07-25"
          },
-         "start_year" : 1452
+         "start_year" : 1452,
+         "wref_en" : "Kyōtoku",
+         "wref_ja" : "享徳"
       },
       "享禄" : {
          "actual_end_day" : {
@@ -465,6 +528,11 @@
          "jp_era" : 1,
          "key" : "享禄",
          "name" : "享禄",
+         "name_kana" : "きょうろく",
+         "name_kanas" : {
+            "きょうろく" : 1
+         },
+         "name_latn" : "Kyōroku",
          "names" : {
             "享祿" : 1,
             "享禄" : 1
@@ -489,7 +557,9 @@
             "kyuureki" : "1528-08-20",
             "kyuureki_era" : "享禄1-08-20"
          },
-         "start_year" : 1528
+         "start_year" : 1528,
+         "wref_en" : "Kyōroku",
+         "wref_ja" : "享禄"
       },
       "仁和" : {
          "actual_end_day" : {
@@ -514,6 +584,12 @@
          "jp_era" : 1,
          "key" : "仁和",
          "name" : "仁和",
+         "name_kana" : "にんな",
+         "name_kanas" : {
+            "にんな" : 1,
+            "にんわ" : 1
+         },
+         "name_latn" : "Ninna",
          "names" : {
             "仁和" : 1
          },
@@ -537,7 +613,9 @@
             "kyuureki" : "0885-02-21",
             "kyuureki_era" : "仁和1-02-21"
          },
-         "start_year" : 885
+         "start_year" : 885,
+         "wref_en" : "Ninna",
+         "wref_ja" : "仁和"
       },
       "仁安" : {
          "actual_end_day" : {
@@ -562,6 +640,11 @@
          "jp_era" : 1,
          "key" : "仁安",
          "name" : "仁安",
+         "name_kana" : "にんあん",
+         "name_kanas" : {
+            "にんあん" : 1
+         },
+         "name_latn" : "Nin'an",
          "names" : {
             "仁安" : 1
          },
@@ -585,7 +668,9 @@
             "kyuureki" : "1166-08-27",
             "kyuureki_era" : "仁安1-08-27"
          },
-         "start_year" : 1166
+         "start_year" : 1166,
+         "wref_en" : "Nin'an",
+         "wref_ja" : "仁安_(日本)"
       },
       "仁寿" : {
          "actual_end_day" : {
@@ -610,6 +695,11 @@
          "jp_era" : 1,
          "key" : "仁寿",
          "name" : "仁寿",
+         "name_kana" : "にんじゅ",
+         "name_kanas" : {
+            "にんじゅ" : 1
+         },
+         "name_latn" : "Ninju",
          "names" : {
             "仁壽" : 1,
             "仁夀" : 1,
@@ -635,7 +725,9 @@
             "kyuureki" : "0851-04-28",
             "kyuureki_era" : "仁寿1-04-28"
          },
-         "start_year" : 851
+         "start_year" : 851,
+         "wref_en" : "Ninju",
+         "wref_ja" : "仁寿"
       },
       "仁平" : {
          "actual_end_day" : {
@@ -660,6 +752,12 @@
          "jp_era" : 1,
          "key" : "仁平",
          "name" : "仁平",
+         "name_kana" : "にんぺい",
+         "name_kanas" : {
+            "にんぴょう" : 1,
+            "にんぺい" : 1
+         },
+         "name_latn" : "Ninpei",
          "names" : {
             "仁平" : 1
          },
@@ -683,7 +781,9 @@
             "kyuureki" : "1151-01-26",
             "kyuureki_era" : "仁平1-01-26"
          },
-         "start_year" : 1151
+         "start_year" : 1151,
+         "wref_en" : "Ninpei",
+         "wref_ja" : "仁平"
       },
       "仁徳天皇" : {
          "end_gregorian_day" : {
@@ -717,6 +817,11 @@
          "jp_emperor_era" : 1,
          "key" : "仁徳天皇",
          "name" : "仁徳天皇",
+         "name_kana" : "にんとくてんのう",
+         "name_kanas" : {
+            "にんとくてんのう" : 1
+         },
+         "name_latn" : "Nintoku-tennō",
          "names" : {
             "仁徳" : 1,
             "仁徳天皇" : 1,
@@ -752,7 +857,9 @@
             "kyuureki" : "0313-01-01",
             "kyuureki_era" : "仁徳天皇1-01-01"
          },
-         "start_year" : 313
+         "start_year" : 313,
+         "wref_en" : "Emperor_Nintoku",
+         "wref_ja" : "仁徳天皇"
       },
       "仁治" : {
          "actual_end_day" : {
@@ -777,6 +884,11 @@
          "jp_era" : 1,
          "key" : "仁治",
          "name" : "仁治",
+         "name_kana" : "にんじ",
+         "name_kanas" : {
+            "にんじ" : 1
+         },
+         "name_latn" : "Ninji",
          "names" : {
             "仁治" : 1
          },
@@ -800,7 +912,9 @@
             "kyuureki" : "1240-07-16",
             "kyuureki_era" : "仁治1-07-16"
          },
-         "start_year" : 1240
+         "start_year" : 1240,
+         "wref_en" : "Ninji",
+         "wref_ja" : "仁治"
       },
       "仁賢天皇" : {
          "end_gregorian_day" : {
@@ -834,6 +948,11 @@
          "jp_emperor_era" : 1,
          "key" : "仁賢天皇",
          "name" : "仁賢天皇",
+         "name_kana" : "にんけんてんのう",
+         "name_kanas" : {
+            "にんけんてんのう" : 1
+         },
+         "name_latn" : "Ninken-tennō",
          "names" : {
             "仁賢" : 1,
             "仁賢天皇" : 1,
@@ -869,7 +988,9 @@
             "kyuureki" : "0488-01-01",
             "kyuureki_era" : "仁賢天皇1-01-01"
          },
-         "start_year" : 488
+         "start_year" : 488,
+         "wref_en" : "Emperor_Ninken",
+         "wref_ja" : "仁賢天皇"
       },
       "仲哀天皇" : {
          "end_gregorian_day" : {
@@ -903,6 +1024,11 @@
          "jp_emperor_era" : 1,
          "key" : "仲哀天皇",
          "name" : "仲哀天皇",
+         "name_kana" : "ちゅうあいてんのう",
+         "name_kanas" : {
+            "ちゅうあいてんのう" : 1
+         },
+         "name_latn" : "Chūai-tennō",
          "names" : {
             "仲哀" : 1,
             "仲哀天皇" : 1
@@ -936,7 +1062,9 @@
             "kyuureki" : "0192-01-01",
             "kyuureki_era" : "仲哀天皇1-01-01"
          },
-         "start_year" : 192
+         "start_year" : 192,
+         "wref_en" : "Emperor_Chūai",
+         "wref_ja" : "仲哀天皇"
       },
       "保元" : {
          "actual_end_day" : {
@@ -961,6 +1089,11 @@
          "jp_era" : 1,
          "key" : "保元",
          "name" : "保元",
+         "name_kana" : "ほうげん",
+         "name_kanas" : {
+            "ほうげん" : 1
+         },
+         "name_latn" : "Hōgen",
          "names" : {
             "保元" : 1
          },
@@ -984,7 +1117,9 @@
             "kyuureki" : "1156-04-27",
             "kyuureki_era" : "保元1-04-27"
          },
-         "start_year" : 1156
+         "start_year" : 1156,
+         "wref_en" : "Hōgen_(era)",
+         "wref_ja" : "保元"
       },
       "保安" : {
          "actual_end_day" : {
@@ -1009,6 +1144,11 @@
          "jp_era" : 1,
          "key" : "保安",
          "name" : "保安",
+         "name_kana" : "ほうあん",
+         "name_kanas" : {
+            "ほうあん" : 1
+         },
+         "name_latn" : "Hōan",
          "names" : {
             "保安" : 1
          },
@@ -1032,7 +1172,9 @@
             "kyuureki" : "1120-04-10",
             "kyuureki_era" : "保安1-04-10"
          },
-         "start_year" : 1120
+         "start_year" : 1120,
+         "wref_en" : "Hōan",
+         "wref_ja" : "保安_(元号)"
       },
       "保延" : {
          "actual_end_day" : {
@@ -1057,6 +1199,11 @@
          "jp_era" : 1,
          "key" : "保延",
          "name" : "保延",
+         "name_kana" : "ほうえん",
+         "name_kanas" : {
+            "ほうえん" : 1
+         },
+         "name_latn" : "Hōen",
          "names" : {
             "保延" : 1
          },
@@ -1080,7 +1227,9 @@
             "kyuureki" : "1135-04-27",
             "kyuureki_era" : "保延1-04-27"
          },
-         "start_year" : 1135
+         "start_year" : 1135,
+         "wref_en" : "Hōen",
+         "wref_ja" : "保延"
       },
       "允恭天皇" : {
          "end_gregorian_day" : {
@@ -1114,6 +1263,11 @@
          "jp_emperor_era" : 1,
          "key" : "允恭天皇",
          "name" : "允恭天皇",
+         "name_kana" : "いんぎょうてんのう",
+         "name_kanas" : {
+            "いんぎょうてんのう" : 1
+         },
+         "name_latn" : "Ingyō-tennō",
          "names" : {
             "允恭" : 1,
             "允恭天皇" : 1
@@ -1147,12 +1301,19 @@
             "kyuureki" : "0412-01-01",
             "kyuureki_era" : "允恭天皇1-01-01"
          },
-         "start_year" : 412
+         "start_year" : 412,
+         "wref_en" : "Emperor_Ingyō",
+         "wref_ja" : "允恭天皇"
       },
       "元中" : {
          "jp_south_era" : 1,
          "key" : "元中",
          "name" : "元中",
+         "name_kana" : "げんちゅう",
+         "name_kanas" : {
+            "げんちゅう" : 1
+         },
+         "name_latn" : "Genchū",
          "names" : {
             "元中" : 1
          },
@@ -1195,7 +1356,9 @@
             "kyuureki" : "1384-04-28",
             "kyuureki_era" : "元中1-04-28"
          },
-         "south_start_year" : 1384
+         "south_start_year" : 1384,
+         "wref_en" : "Genchū",
+         "wref_ja" : "元中"
       },
       "元久" : {
          "actual_end_day" : {
@@ -1220,6 +1383,11 @@
          "jp_era" : 1,
          "key" : "元久",
          "name" : "元久",
+         "name_kana" : "げんきゅう",
+         "name_kanas" : {
+            "げんきゅう" : 1
+         },
+         "name_latn" : "Genkyū",
          "names" : {
             "元久" : 1
          },
@@ -1243,7 +1411,9 @@
             "kyuureki" : "1204-02-20",
             "kyuureki_era" : "元久1-02-20"
          },
-         "start_year" : 1204
+         "start_year" : 1204,
+         "wref_en" : "Genkyū",
+         "wref_ja" : "元久"
       },
       "元亀" : {
          "actual_end_day" : {
@@ -1268,6 +1438,11 @@
          "jp_era" : 1,
          "key" : "元亀",
          "name" : "元亀",
+         "name_kana" : "げんき",
+         "name_kanas" : {
+            "げんき" : 1
+         },
+         "name_latn" : "Genki",
          "names" : {
             "元亀" : 1,
             "元龜" : 1,
@@ -1293,7 +1468,9 @@
             "kyuureki" : "1570-04-23",
             "kyuureki_era" : "元亀1-04-23"
          },
-         "start_year" : 1570
+         "start_year" : 1570,
+         "wref_en" : "Genki",
+         "wref_ja" : "元亀"
       },
       "元亨" : {
          "actual_end_day" : {
@@ -1318,6 +1495,11 @@
          "jp_era" : 1,
          "key" : "元亨",
          "name" : "元亨",
+         "name_kana" : "げんこう",
+         "name_kanas" : {
+            "げんこう" : 1
+         },
+         "name_latn" : "Genkō",
          "names" : {
             "元亨" : 1
          },
@@ -1341,7 +1523,9 @@
             "kyuureki" : "1321-02-23",
             "kyuureki_era" : "元亨1-02-23"
          },
-         "start_year" : 1321
+         "start_year" : 1321,
+         "wref_en" : "Genkō_(first)",
+         "wref_ja" : "元亨"
       },
       "元仁" : {
          "actual_end_day" : {
@@ -1366,6 +1550,11 @@
          "jp_era" : 1,
          "key" : "元仁",
          "name" : "元仁",
+         "name_kana" : "げんにん",
+         "name_kanas" : {
+            "げんにん" : 1
+         },
+         "name_latn" : "Gennin",
          "names" : {
             "元仁" : 1
          },
@@ -1389,7 +1578,9 @@
             "kyuureki" : "1224-11-20",
             "kyuureki_era" : "元仁1-11-20"
          },
-         "start_year" : 1224
+         "start_year" : 1224,
+         "wref_en" : "Gennin",
+         "wref_ja" : "元仁"
       },
       "元和" : {
          "actual_end_day" : {
@@ -1414,6 +1605,11 @@
          "jp_era" : 1,
          "key" : "元和",
          "name" : "元和",
+         "name_kana" : "げんな",
+         "name_kanas" : {
+            "げんな" : 1
+         },
+         "name_latn" : "Genna",
          "names" : {
             "元和" : 1
          },
@@ -1437,13 +1633,20 @@
             "kyuureki" : "1615-07-13",
             "kyuureki_era" : "元和1-07-13"
          },
-         "start_year" : 1615
+         "start_year" : 1615,
+         "wref_en" : "Genna",
+         "wref_ja" : "元和_(日本)"
       },
       "元弘" : {
          "jp_north_era" : 1,
          "jp_south_era" : 1,
          "key" : "元弘",
          "name" : "元弘",
+         "name_kana" : "げんこう",
+         "name_kanas" : {
+            "げんこう" : 1
+         },
+         "name_latn" : "Genkō",
          "names" : {
             "元弘" : 1
          },
@@ -1524,13 +1727,20 @@
             "kyuureki" : "1331-08-09",
             "kyuureki_era" : "元弘1-08-09"
          },
-         "south_start_year" : 1331
+         "south_start_year" : 1331,
+         "wref_en" : "Genkō_(second)",
+         "wref_ja" : "元弘"
       },
       "元徳" : {
          "jp_north_era" : 1,
          "jp_south_era" : 1,
          "key" : "元徳",
          "name" : "元徳",
+         "name_kana" : "げんとく",
+         "name_kanas" : {
+            "げんとく" : 1
+         },
+         "name_latn" : "Gentoku",
          "names" : {
             "元徳" : 1,
             "元德" : 1
@@ -1612,7 +1822,9 @@
             "kyuureki" : "1329-08-29",
             "kyuureki_era" : "元徳1-08-29"
          },
-         "south_start_year" : 1329
+         "south_start_year" : 1329,
+         "wref_en" : "Gentoku",
+         "wref_ja" : "元徳"
       },
       "元応" : {
          "actual_end_day" : {
@@ -1637,6 +1849,11 @@
          "jp_era" : 1,
          "key" : "元応",
          "name" : "元応",
+         "name_kana" : "げんおう",
+         "name_kanas" : {
+            "げんおう" : 1
+         },
+         "name_latn" : "Gen'ō",
          "names" : {
             "元応" : 1,
             "元應" : 1
@@ -1661,7 +1878,9 @@
             "kyuureki" : "1319-04-28",
             "kyuureki_era" : "元応1-04-28"
          },
-         "start_year" : 1319
+         "start_year" : 1319,
+         "wref_en" : "Gen'ō",
+         "wref_ja" : "元応"
       },
       "元慶" : {
          "actual_end_day" : {
@@ -1686,6 +1905,11 @@
          "jp_era" : 1,
          "key" : "元慶",
          "name" : "元慶",
+         "name_kana" : "がんぎょう",
+         "name_kanas" : {
+            "がんぎょう" : 1
+         },
+         "name_latn" : "Gangyō",
          "names" : {
             "元慶" : 1
          },
@@ -1709,7 +1933,9 @@
             "kyuureki" : "0877-04-16",
             "kyuureki_era" : "元慶1-04-16"
          },
-         "start_year" : 877
+         "start_year" : 877,
+         "wref_en" : "Gangyō",
+         "wref_ja" : "元慶"
       },
       "元文" : {
          "actual_end_day" : {
@@ -1734,6 +1960,11 @@
          "jp_era" : 1,
          "key" : "元文",
          "name" : "元文",
+         "name_kana" : "げんぶん",
+         "name_kanas" : {
+            "げんぶん" : 1
+         },
+         "name_latn" : "Genbun",
          "names" : {
             "元文" : 1
          },
@@ -1757,7 +1988,9 @@
             "kyuureki" : "1736-04-28",
             "kyuureki_era" : "元文1-04-28"
          },
-         "start_year" : 1736
+         "start_year" : 1736,
+         "wref_en" : "Genbun",
+         "wref_ja" : "元文"
       },
       "元暦" : {
          "actual_end_day" : {
@@ -1782,6 +2015,11 @@
          "jp_era" : 1,
          "key" : "元暦",
          "name" : "元暦",
+         "name_kana" : "げんりゃく",
+         "name_kanas" : {
+            "げんりゃく" : 1
+         },
+         "name_latn" : "Genryaku",
          "names" : {
             "元暦" : 1,
             "元曆" : 1
@@ -1806,7 +2044,9 @@
             "kyuureki" : "1184-04-16",
             "kyuureki_era" : "元暦1-04-16"
          },
-         "start_year" : 1184
+         "start_year" : 1184,
+         "wref_en" : "Genryaku",
+         "wref_ja" : "元暦"
       },
       "元永" : {
          "actual_end_day" : {
@@ -1831,6 +2071,11 @@
          "jp_era" : 1,
          "key" : "元永",
          "name" : "元永",
+         "name_kana" : "げんえい",
+         "name_kanas" : {
+            "げんえい" : 1
+         },
+         "name_latn" : "Gen'ei",
          "names" : {
             "元永" : 1
          },
@@ -1854,7 +2099,9 @@
             "kyuureki" : "1118-04-03",
             "kyuureki_era" : "元永1-04-03"
          },
-         "start_year" : 1118
+         "start_year" : 1118,
+         "wref_en" : "Gen'ei",
+         "wref_ja" : "元永"
       },
       "元治" : {
          "actual_end_day" : {
@@ -1879,6 +2126,11 @@
          "jp_era" : 1,
          "key" : "元治",
          "name" : "元治",
+         "name_kana" : "げんじ",
+         "name_kanas" : {
+            "げんじ" : 1
+         },
+         "name_latn" : "Genji",
          "names" : {
             "元治" : 1
          },
@@ -1902,7 +2154,9 @@
             "kyuureki" : "1864-02-20",
             "kyuureki_era" : "元治1-02-20"
          },
-         "start_year" : 1864
+         "start_year" : 1864,
+         "wref_en" : "Genji_(era)",
+         "wref_ja" : "元治"
       },
       "元禄" : {
          "actual_end_day" : {
@@ -1927,6 +2181,11 @@
          "jp_era" : 1,
          "key" : "元禄",
          "name" : "元禄",
+         "name_kana" : "げんろく",
+         "name_kanas" : {
+            "げんろく" : 1
+         },
+         "name_latn" : "Genroku",
          "names" : {
             "元祿" : 1,
             "元禄" : 1
@@ -1951,7 +2210,9 @@
             "kyuureki" : "1688-09-30",
             "kyuureki_era" : "元禄1-09-30"
          },
-         "start_year" : 1688
+         "start_year" : 1688,
+         "wref_en" : "Genroku",
+         "wref_ja" : "元禄"
       },
       "反正天皇" : {
          "end_gregorian_day" : {
@@ -1985,6 +2246,11 @@
          "jp_emperor_era" : 1,
          "key" : "反正天皇",
          "name" : "反正天皇",
+         "name_kana" : "はんぜいてんのう",
+         "name_kanas" : {
+            "はんぜいてんのう" : 1
+         },
+         "name_latn" : "Hanzei-tennō",
          "names" : {
             "反正" : 1,
             "反正天皇" : 1
@@ -2018,7 +2284,9 @@
             "kyuureki" : "0406-01-01",
             "kyuureki_era" : "反正天皇1-01-01"
          },
-         "start_year" : 406
+         "start_year" : 406,
+         "wref_en" : "Emperor_Hanzei",
+         "wref_ja" : "反正天皇"
       },
       "和銅" : {
          "actual_end_day" : {
@@ -2043,6 +2311,11 @@
          "jp_era" : 1,
          "key" : "和銅",
          "name" : "和銅",
+         "name_kana" : "わどう",
+         "name_kanas" : {
+            "わどう" : 1
+         },
+         "name_latn" : "Wadō",
          "names" : {
             "和銅" : 1
          },
@@ -2066,7 +2339,9 @@
             "kyuureki" : "0708-01-11",
             "kyuureki_era" : "和銅1-01-11"
          },
-         "start_year" : 708
+         "start_year" : 708,
+         "wref_en" : "Wadō_(era)",
+         "wref_ja" : "和銅"
       },
       "嘉保" : {
          "actual_end_day" : {
@@ -2091,6 +2366,11 @@
          "jp_era" : 1,
          "key" : "嘉保",
          "name" : "嘉保",
+         "name_kana" : "かほう",
+         "name_kanas" : {
+            "かほう" : 1
+         },
+         "name_latn" : "Kahō",
          "names" : {
             "嘉保" : 1
          },
@@ -2114,7 +2394,9 @@
             "kyuureki" : "1094-12-15",
             "kyuureki_era" : "嘉保1-12-15"
          },
-         "start_year" : 1094
+         "start_year" : 1094,
+         "wref_en" : "Kahō",
+         "wref_ja" : "嘉保"
       },
       "嘉元" : {
          "actual_end_day" : {
@@ -2139,6 +2421,11 @@
          "jp_era" : 1,
          "key" : "嘉元",
          "name" : "嘉元",
+         "name_kana" : "かげん",
+         "name_kanas" : {
+            "かげん" : 1
+         },
+         "name_latn" : "Kagen",
          "names" : {
             "嘉元" : 1
          },
@@ -2162,7 +2449,9 @@
             "kyuureki" : "1303-08-05",
             "kyuureki_era" : "嘉元1-08-05"
          },
-         "start_year" : 1303
+         "start_year" : 1303,
+         "wref_en" : "Kagen",
+         "wref_ja" : "嘉元"
       },
       "嘉吉" : {
          "actual_end_day" : {
@@ -2187,6 +2476,11 @@
          "jp_era" : 1,
          "key" : "嘉吉",
          "name" : "嘉吉",
+         "name_kana" : "かきつ",
+         "name_kanas" : {
+            "かきつ" : 1
+         },
+         "name_latn" : "Kakitsu",
          "names" : {
             "嘉吉" : 1,
             "嘉𠮷" : 1
@@ -2211,7 +2505,9 @@
             "kyuureki" : "1441-02-17",
             "kyuureki_era" : "嘉吉1-02-17"
          },
-         "start_year" : 1441
+         "start_year" : 1441,
+         "wref_en" : "Kakitsu",
+         "wref_ja" : "嘉吉"
       },
       "嘉応" : {
          "actual_end_day" : {
@@ -2236,6 +2532,11 @@
          "jp_era" : 1,
          "key" : "嘉応",
          "name" : "嘉応",
+         "name_kana" : "かおう",
+         "name_kanas" : {
+            "かおう" : 1
+         },
+         "name_latn" : "Kaō",
          "names" : {
             "嘉応" : 1,
             "嘉應" : 1
@@ -2260,12 +2561,20 @@
             "kyuureki" : "1169-04-08",
             "kyuureki_era" : "嘉応1-04-08"
          },
-         "start_year" : 1169
+         "start_year" : 1169,
+         "wref_en" : "Kaō_(era)",
+         "wref_ja" : "嘉応"
       },
       "嘉慶" : {
          "jp_north_era" : 1,
          "key" : "嘉慶",
          "name" : "嘉慶",
+         "name_kana" : "かきょう",
+         "name_kanas" : {
+            "かきょう" : 1,
+            "かけい" : 1
+         },
+         "name_latn" : "Kakei",
          "names" : {
             "嘉慶" : 1
          },
@@ -2308,7 +2617,9 @@
          },
          "north_start_year" : 1387,
          "offset" : 1386,
-         "short_name" : "嘉慶"
+         "short_name" : "嘉慶",
+         "wref_en" : "Kakei",
+         "wref_ja" : "嘉慶_(日本)"
       },
       "嘉承" : {
          "actual_end_day" : {
@@ -2333,6 +2644,12 @@
          "jp_era" : 1,
          "key" : "嘉承",
          "name" : "嘉承",
+         "name_kana" : "かしょう",
+         "name_kanas" : {
+            "かしょう" : 1,
+            "かじょう" : 1
+         },
+         "name_latn" : "Kajō",
          "names" : {
             "嘉承" : 1
          },
@@ -2356,7 +2673,9 @@
             "kyuureki" : "1106-04-09",
             "kyuureki_era" : "嘉承1-04-09"
          },
-         "start_year" : 1106
+         "start_year" : 1106,
+         "wref_en" : "Kajō",
+         "wref_ja" : "嘉承"
       },
       "嘉暦" : {
          "actual_end_day" : {
@@ -2381,6 +2700,11 @@
          "jp_era" : 1,
          "key" : "嘉暦",
          "name" : "嘉暦",
+         "name_kana" : "かりゃく",
+         "name_kanas" : {
+            "かりゃく" : 1
+         },
+         "name_latn" : "Karyaku",
          "names" : {
             "嘉暦" : 1,
             "嘉曆" : 1
@@ -2405,7 +2729,9 @@
             "kyuureki" : "1326-04-26",
             "kyuureki_era" : "嘉暦1-04-26"
          },
-         "start_year" : 1326
+         "start_year" : 1326,
+         "wref_en" : "Karyaku",
+         "wref_ja" : "嘉暦"
       },
       "嘉永" : {
          "actual_end_day" : {
@@ -2430,6 +2756,11 @@
          "jp_era" : 1,
          "key" : "嘉永",
          "name" : "嘉永",
+         "name_kana" : "かえい",
+         "name_kanas" : {
+            "かえい" : 1
+         },
+         "name_latn" : "Kaei",
          "names" : {
             "嘉永" : 1
          },
@@ -2453,7 +2784,9 @@
             "kyuureki" : "1848-02-28",
             "kyuureki_era" : "嘉永1-02-28"
          },
-         "start_year" : 1848
+         "start_year" : 1848,
+         "wref_en" : "Kaei",
+         "wref_ja" : "嘉永"
       },
       "嘉祥" : {
          "actual_end_day" : {
@@ -2478,6 +2811,12 @@
          "jp_era" : 1,
          "key" : "嘉祥",
          "name" : "嘉祥",
+         "name_kana" : "かしょう",
+         "name_kanas" : {
+            "かしょう" : 1,
+            "かじょう" : 1
+         },
+         "name_latn" : "Kajō",
          "names" : {
             "嘉祥" : 1,
             "嘉祥" : 1
@@ -2502,7 +2841,9 @@
             "kyuureki" : "0848-06-13",
             "kyuureki_era" : "嘉祥1-06-13"
          },
-         "start_year" : 848
+         "start_year" : 848,
+         "wref_en" : "Kajō",
+         "wref_ja" : "嘉祥"
       },
       "嘉禄" : {
          "actual_end_day" : {
@@ -2527,6 +2868,11 @@
          "jp_era" : 1,
          "key" : "嘉禄",
          "name" : "嘉禄",
+         "name_kana" : "かろく",
+         "name_kanas" : {
+            "かろく" : 1
+         },
+         "name_latn" : "Karoku",
          "names" : {
             "嘉祿" : 1,
             "嘉禄" : 1
@@ -2551,7 +2897,9 @@
             "kyuureki" : "1225-04-20",
             "kyuureki_era" : "嘉禄1-04-20"
          },
-         "start_year" : 1225
+         "start_year" : 1225,
+         "wref_en" : "Karoku",
+         "wref_ja" : "嘉禄"
       },
       "嘉禎" : {
          "actual_end_day" : {
@@ -2576,6 +2924,11 @@
          "jp_era" : 1,
          "key" : "嘉禎",
          "name" : "嘉禎",
+         "name_kana" : "かてい",
+         "name_kanas" : {
+            "かてい" : 1
+         },
+         "name_latn" : "Katei",
          "names" : {
             "嘉祯" : 1,
             "嘉禎" : 1
@@ -2600,7 +2953,9 @@
             "kyuureki" : "1235-09-19",
             "kyuureki_era" : "嘉禎1-09-19"
          },
-         "start_year" : 1235
+         "start_year" : 1235,
+         "wref_en" : "Katei",
+         "wref_ja" : "嘉禎"
       },
       "垂仁天皇" : {
          "end_gregorian_day" : {
@@ -2634,6 +2989,11 @@
          "jp_emperor_era" : 1,
          "key" : "垂仁天皇",
          "name" : "垂仁天皇",
+         "name_kana" : "すいにんてんのう",
+         "name_kanas" : {
+            "すいにんてんのう" : 1
+         },
+         "name_latn" : "Suinin-tennō",
          "names" : {
             "垂仁" : 1,
             "垂仁天皇" : 1
@@ -2667,7 +3027,9 @@
             "kyuureki" : "-0028-01-01",
             "kyuureki_era" : "垂仁天皇1-01-01"
          },
-         "start_year" : -28
+         "start_year" : -28,
+         "wref_en" : "Emperor_Suinin",
+         "wref_ja" : "垂仁天皇"
       },
       "大化" : {
          "actual_end_day" : {
@@ -2692,6 +3054,11 @@
          "jp_era" : 1,
          "key" : "大化",
          "name" : "大化",
+         "name_kana" : "たいか",
+         "name_kanas" : {
+            "たいか" : 1
+         },
+         "name_latn" : "Taika",
          "names" : {
             "大化" : 1
          },
@@ -2715,7 +3082,9 @@
             "kyuureki" : "0645-06-19",
             "kyuureki_era" : "大化1-06-19"
          },
-         "start_year" : 645
+         "start_year" : 645,
+         "wref_en" : "Taika_(era)",
+         "wref_ja" : "大化"
       },
       "大同" : {
          "actual_end_day" : {
@@ -2740,6 +3109,11 @@
          "jp_era" : 1,
          "key" : "大同",
          "name" : "大同",
+         "name_kana" : "だいどう",
+         "name_kanas" : {
+            "だいどう" : 1
+         },
+         "name_latn" : "Daidō",
          "names" : {
             "大同" : 1
          },
@@ -2763,7 +3137,9 @@
             "kyuureki" : "0806-05-18",
             "kyuureki_era" : "大同1-05-18"
          },
-         "start_year" : 806
+         "start_year" : 806,
+         "wref_en" : "Daidō",
+         "wref_ja" : "大同_(日本)"
       },
       "大宝" : {
          "actual_end_day" : {
@@ -2788,6 +3164,12 @@
          "jp_era" : 1,
          "key" : "大宝",
          "name" : "大宝",
+         "name_kana" : "たいほう",
+         "name_kanas" : {
+            "たいほう" : 1,
+            "だいほう" : 1
+         },
+         "name_latn" : "Taihō",
          "names" : {
             "大宝" : 1,
             "大寳" : 1,
@@ -2813,7 +3195,9 @@
             "kyuureki" : "0701-03-21",
             "kyuureki_era" : "大宝1-03-21"
          },
-         "start_year" : 701
+         "start_year" : 701,
+         "wref_en" : "Taihō_(era)",
+         "wref_ja" : "大宝_(日本)"
       },
       "大正" : {
          "abbr" : "大",
@@ -2840,6 +3224,11 @@
          "jp_era" : 1,
          "key" : "大正",
          "name" : "大正",
+         "name_kana" : "たいしょう",
+         "name_kanas" : {
+            "たいしょう" : 1
+         },
+         "name_latn" : "Taishō",
          "names" : {
             "T" : 1,
             "t" : 1,
@@ -2867,7 +3256,9 @@
             "kyuureki" : "1912-06-17",
             "kyuureki_era" : "大正1-06-17"
          },
-         "start_year" : 1912
+         "start_year" : 1912,
+         "wref_en" : "Taishō_period",
+         "wref_ja" : "大正"
       },
       "大永" : {
          "actual_end_day" : {
@@ -2892,6 +3283,11 @@
          "jp_era" : 1,
          "key" : "大永",
          "name" : "大永",
+         "name_kana" : "だいえい",
+         "name_kanas" : {
+            "だいえい" : 1
+         },
+         "name_latn" : "Daiei",
          "names" : {
             "大永" : 1
          },
@@ -2915,7 +3311,9 @@
             "kyuureki" : "1521-08-23",
             "kyuureki_era" : "大永1-08-23"
          },
-         "start_year" : 1521
+         "start_year" : 1521,
+         "wref_en" : "Daiei_(era)",
+         "wref_ja" : "大永"
       },
       "大治" : {
          "actual_end_day" : {
@@ -2940,6 +3338,11 @@
          "jp_era" : 1,
          "key" : "大治",
          "name" : "大治",
+         "name_kana" : "だいじ",
+         "name_kanas" : {
+            "だいじ" : 1
+         },
+         "name_latn" : "Daiji",
          "names" : {
             "大治" : 1
          },
@@ -2963,7 +3366,9 @@
             "kyuureki" : "1126-01-22",
             "kyuureki_era" : "大治1-01-22"
          },
-         "start_year" : 1126
+         "start_year" : 1126,
+         "wref_en" : "Daiji_(era)",
+         "wref_ja" : "大治_(日本)"
       },
       "天仁" : {
          "actual_end_day" : {
@@ -2988,6 +3393,11 @@
          "jp_era" : 1,
          "key" : "天仁",
          "name" : "天仁",
+         "name_kana" : "てんにん",
+         "name_kanas" : {
+            "てんにん" : 1
+         },
+         "name_latn" : "Tennin",
          "names" : {
             "天仁" : 1
          },
@@ -3011,7 +3421,9 @@
             "kyuureki" : "1108-08-03",
             "kyuureki_era" : "天仁1-08-03"
          },
-         "start_year" : 1108
+         "start_year" : 1108,
+         "wref_en" : "Tennin",
+         "wref_ja" : "天仁"
       },
       "天保" : {
          "actual_end_day" : {
@@ -3036,6 +3448,11 @@
          "jp_era" : 1,
          "key" : "天保",
          "name" : "天保",
+         "name_kana" : "てんぽう",
+         "name_kanas" : {
+            "てんぽう" : 1
+         },
+         "name_latn" : "Tenpō",
          "names" : {
             "天保" : 1
          },
@@ -3059,7 +3476,9 @@
             "kyuureki" : "1830-12-10",
             "kyuureki_era" : "天保1-12-10"
          },
-         "start_year" : 1830
+         "start_year" : 1830,
+         "wref_en" : "Tenpō",
+         "wref_ja" : "天保"
       },
       "天元" : {
          "actual_end_day" : {
@@ -3084,6 +3503,11 @@
          "jp_era" : 1,
          "key" : "天元",
          "name" : "天元",
+         "name_kana" : "てんげん",
+         "name_kanas" : {
+            "てんげん" : 1
+         },
+         "name_latn" : "Tengen",
          "names" : {
             "天元" : 1
          },
@@ -3107,7 +3531,9 @@
             "kyuureki" : "0978-11-29",
             "kyuureki_era" : "天元1-11-29"
          },
-         "start_year" : 978
+         "start_year" : 978,
+         "wref_en" : "Tengen_(era)",
+         "wref_ja" : "天元_(日本)"
       },
       "天和" : {
          "actual_end_day" : {
@@ -3132,6 +3558,11 @@
          "jp_era" : 1,
          "key" : "天和",
          "name" : "天和",
+         "name_kana" : "てんな",
+         "name_kanas" : {
+            "てんな" : 1
+         },
+         "name_latn" : "Tenna",
          "names" : {
             "天和" : 1
          },
@@ -3155,7 +3586,9 @@
             "kyuureki" : "1681-09-29",
             "kyuureki_era" : "天和1-09-29"
          },
-         "start_year" : 1681
+         "start_year" : 1681,
+         "wref_en" : "Tenna",
+         "wref_ja" : "天和_(日本)"
       },
       "天喜" : {
          "actual_end_day" : {
@@ -3180,6 +3613,12 @@
          "jp_era" : 1,
          "key" : "天喜",
          "name" : "天喜",
+         "name_kana" : "てんき",
+         "name_kanas" : {
+            "てんき" : 1,
+            "てんぎ" : 1
+         },
+         "name_latn" : "Tengi",
          "names" : {
             "天喜" : 1
          },
@@ -3203,7 +3642,9 @@
             "kyuureki" : "1053-01-11",
             "kyuureki_era" : "天喜1-01-11"
          },
-         "start_year" : 1053
+         "start_year" : 1053,
+         "wref_en" : "Tengi",
+         "wref_ja" : "天喜"
       },
       "天安" : {
          "actual_end_day" : {
@@ -3228,6 +3669,12 @@
          "jp_era" : 1,
          "key" : "天安",
          "name" : "天安",
+         "name_kana" : "てんあん",
+         "name_kanas" : {
+            "てんあん" : 1,
+            "てんなん" : 1
+         },
+         "name_latn" : "Ten'an",
          "names" : {
             "天安" : 1
          },
@@ -3251,7 +3698,9 @@
             "kyuureki" : "0857-02-21",
             "kyuureki_era" : "天安1-02-21"
          },
-         "start_year" : 857
+         "start_year" : 857,
+         "wref_en" : "Ten'an",
+         "wref_ja" : "天安_(日本)"
       },
       "天平" : {
          "actual_end_day" : {
@@ -3276,6 +3725,11 @@
          "jp_era" : 1,
          "key" : "天平",
          "name" : "天平",
+         "name_kana" : "てんぴょう",
+         "name_kanas" : {
+            "てんぴょう" : 1
+         },
+         "name_latn" : "Tenpyō",
          "names" : {
             "天平" : 1
          },
@@ -3299,7 +3753,9 @@
             "kyuureki" : "0729-08-05",
             "kyuureki_era" : "天平1-08-05"
          },
-         "start_year" : 729
+         "start_year" : 729,
+         "wref_en" : "Tenpyō",
+         "wref_ja" : "天平"
       },
       "天平勝宝" : {
          "actual_end_day" : {
@@ -3324,6 +3780,11 @@
          "jp_era" : 1,
          "key" : "天平勝宝",
          "name" : "天平勝宝",
+         "name_kana" : "てんぴょうしょうほう",
+         "name_kanas" : {
+            "てんぴょうしょうほう" : 1
+         },
+         "name_latn" : "Tenpyō-shōhō",
          "names" : {
             "天平勝宝" : 1,
             "天平勝寳" : 1,
@@ -3349,7 +3810,9 @@
             "kyuureki" : "0749-07-02",
             "kyuureki_era" : "天平勝宝1-07-02"
          },
-         "start_year" : 749
+         "start_year" : 749,
+         "wref_en" : "Tenpyō-shōhō",
+         "wref_ja" : "天平勝宝"
       },
       "天平宝字" : {
          "actual_end_day" : {
@@ -3374,6 +3837,11 @@
          "jp_era" : 1,
          "key" : "天平宝字",
          "name" : "天平宝字",
+         "name_kana" : "てんぴょうほうじ",
+         "name_kanas" : {
+            "てんぴょうほうじ" : 1
+         },
+         "name_latn" : "Tenpyō-hōji",
          "names" : {
             "天平宝字" : 1,
             "天平寳字" : 1,
@@ -3399,7 +3867,9 @@
             "kyuureki" : "0757-08-18",
             "kyuureki_era" : "天平宝字1-08-18"
          },
-         "start_year" : 757
+         "start_year" : 757,
+         "wref_en" : "Tenpyō-hōji",
+         "wref_ja" : "天平宝字"
       },
       "天平感宝" : {
          "actual_end_day" : {
@@ -3424,6 +3894,11 @@
          "jp_era" : 1,
          "key" : "天平感宝",
          "name" : "天平感宝",
+         "name_kana" : "てんぴょうかんぽう",
+         "name_kanas" : {
+            "てんぴょうかんぽう" : 1
+         },
+         "name_latn" : "Tenpyō-kanpō",
          "names" : {
             "天平感宝" : 1,
             "天平感寳" : 1,
@@ -3449,7 +3924,9 @@
             "kyuureki" : "0749-04-14",
             "kyuureki_era" : "天平感宝1-04-14"
          },
-         "start_year" : 749
+         "start_year" : 749,
+         "wref_en" : "Tenpyō-kanpō",
+         "wref_ja" : "天平感宝"
       },
       "天平神護" : {
          "actual_end_day" : {
@@ -3474,6 +3951,11 @@
          "jp_era" : 1,
          "key" : "天平神護",
          "name" : "天平神護",
+         "name_kana" : "てんぴょうじんご",
+         "name_kanas" : {
+            "てんぴょうじんご" : 1
+         },
+         "name_latn" : "Tenpyō-jingo",
          "names" : {
             "天平神護" : 1,
             "天平神護" : 1
@@ -3498,7 +3980,9 @@
             "kyuureki" : "0765-01-07",
             "kyuureki_era" : "天平神護1-01-07"
          },
-         "start_year" : 765
+         "start_year" : 765,
+         "wref_en" : "Tenpyō-jingo",
+         "wref_ja" : "天平神護"
       },
       "天延" : {
          "actual_end_day" : {
@@ -3523,6 +4007,11 @@
          "jp_era" : 1,
          "key" : "天延",
          "name" : "天延",
+         "name_kana" : "てんえん",
+         "name_kanas" : {
+            "てんえん" : 1
+         },
+         "name_latn" : "Ten'en",
          "names" : {
             "天延" : 1
          },
@@ -3546,7 +4035,9 @@
             "kyuureki" : "0973-12-20",
             "kyuureki_era" : "天延1-12-20"
          },
-         "start_year" : 973
+         "start_year" : 973,
+         "wref_en" : "Ten'en",
+         "wref_ja" : "天延"
       },
       "天徳" : {
          "actual_end_day" : {
@@ -3571,6 +4062,11 @@
          "jp_era" : 1,
          "key" : "天徳",
          "name" : "天徳",
+         "name_kana" : "てんとく",
+         "name_kanas" : {
+            "てんとく" : 1
+         },
+         "name_latn" : "Tentoku",
          "names" : {
             "天徳" : 1,
             "天德" : 1
@@ -3595,7 +4091,9 @@
             "kyuureki" : "0957-10-27",
             "kyuureki_era" : "天徳1-10-27"
          },
-         "start_year" : 957
+         "start_year" : 957,
+         "wref_en" : "Tentoku",
+         "wref_ja" : "天徳_(日本)"
       },
       "天応" : {
          "actual_end_day" : {
@@ -3620,6 +4118,12 @@
          "jp_era" : 1,
          "key" : "天応",
          "name" : "天応",
+         "name_kana" : "てんおう",
+         "name_kanas" : {
+            "てんおう" : 1,
+            "てんのう" : 1
+         },
+         "name_latn" : "Ten'ō",
          "names" : {
             "天応" : 1,
             "天應" : 1
@@ -3644,7 +4148,9 @@
             "kyuureki" : "0781-01-01",
             "kyuureki_era" : "天応1-01-01"
          },
-         "start_year" : 781
+         "start_year" : 781,
+         "wref_en" : "Ten'ō",
+         "wref_ja" : "天応_(日本)"
       },
       "天慶" : {
          "actual_end_day" : {
@@ -3669,6 +4175,12 @@
          "jp_era" : 1,
          "key" : "天慶",
          "name" : "天慶",
+         "name_kana" : "てんぎょう",
+         "name_kanas" : {
+            "てんきょう" : 1,
+            "てんぎょう" : 1
+         },
+         "name_latn" : "Tengyō",
          "names" : {
             "天慶" : 1
          },
@@ -3692,7 +4204,9 @@
             "kyuureki" : "0938-05-22",
             "kyuureki_era" : "天慶1-05-22"
          },
-         "start_year" : 938
+         "start_year" : 938,
+         "wref_en" : "Tengyō",
+         "wref_ja" : "天慶"
       },
       "天承" : {
          "actual_end_day" : {
@@ -3717,6 +4231,12 @@
          "jp_era" : 1,
          "key" : "天承",
          "name" : "天承",
+         "name_kana" : "てんしょう",
+         "name_kanas" : {
+            "てんしょう" : 1,
+            "てんじょう" : 1
+         },
+         "name_latn" : "Tenshō",
          "names" : {
             "天承" : 1
          },
@@ -3740,12 +4260,19 @@
             "kyuureki" : "1131-01-29",
             "kyuureki_era" : "天承1-01-29"
          },
-         "start_year" : 1131
+         "start_year" : 1131,
+         "wref_en" : "Tenshō_(Heian_period)",
+         "wref_ja" : "天承"
       },
       "天授" : {
          "jp_south_era" : 1,
          "key" : "天授",
          "name" : "天授",
+         "name_kana" : "てんじゅ",
+         "name_kanas" : {
+            "てんじゅ" : 1
+         },
+         "name_latn" : "Tenju",
          "names" : {
             "天授" : 1
          },
@@ -3788,7 +4315,9 @@
             "kyuureki" : "1375-05-27",
             "kyuureki_era" : "天授1-05-27"
          },
-         "south_start_year" : 1375
+         "south_start_year" : 1375,
+         "wref_en" : "Tenju",
+         "wref_ja" : "天授_(日本)"
       },
       "天文" : {
          "actual_end_day" : {
@@ -3813,6 +4342,11 @@
          "jp_era" : 1,
          "key" : "天文",
          "name" : "天文",
+         "name_kana" : "てんぶん",
+         "name_kanas" : {
+            "てんぶん" : 1
+         },
+         "name_latn" : "Tenbun",
          "names" : {
             "天文" : 1
          },
@@ -3836,7 +4370,9 @@
             "kyuureki" : "1532-07-29",
             "kyuureki_era" : "天文1-07-29"
          },
-         "start_year" : 1532
+         "start_year" : 1532,
+         "wref_en" : "Tenbun",
+         "wref_ja" : "天文_(元号)"
       },
       "天明" : {
          "actual_end_day" : {
@@ -3861,6 +4397,11 @@
          "jp_era" : 1,
          "key" : "天明",
          "name" : "天明",
+         "name_kana" : "てんめい",
+         "name_kanas" : {
+            "てんめい" : 1
+         },
+         "name_latn" : "Tenmei",
          "names" : {
             "天明" : 1
          },
@@ -3884,7 +4425,9 @@
             "kyuureki" : "1781-04-02",
             "kyuureki_era" : "天明1-04-02"
          },
-         "start_year" : 1781
+         "start_year" : 1781,
+         "wref_en" : "Tenmei",
+         "wref_ja" : "天明"
       },
       "天智天皇" : {
          "end_gregorian_day" : {
@@ -3918,6 +4461,11 @@
          "jp_emperor_era" : 1,
          "key" : "天智天皇",
          "name" : "天智天皇",
+         "name_kana" : "てんじてんのう",
+         "name_kanas" : {
+            "てんじてんのう" : 1
+         },
+         "name_latn" : "Tenji-tennō",
          "names" : {
             "天智" : 1,
             "天智天皇" : 1
@@ -3951,7 +4499,9 @@
             "kyuureki" : "0662-01-01",
             "kyuureki_era" : "天智天皇1-01-01"
          },
-         "start_year" : 662
+         "start_year" : 662,
+         "wref_en" : "Emperor_Tenji",
+         "wref_ja" : "天智天皇"
       },
       "天暦" : {
          "actual_end_day" : {
@@ -3976,6 +4526,11 @@
          "jp_era" : 1,
          "key" : "天暦",
          "name" : "天暦",
+         "name_kana" : "てんりゃく",
+         "name_kanas" : {
+            "てんりゃく" : 1
+         },
+         "name_latn" : "Tenryaku",
          "names" : {
             "天暦" : 1,
             "天曆" : 1
@@ -4000,7 +4555,9 @@
             "kyuureki" : "0947-04-22",
             "kyuureki_era" : "天暦1-04-22"
          },
-         "start_year" : 947
+         "start_year" : 947,
+         "wref_en" : "Tenryaku",
+         "wref_ja" : "天暦"
       },
       "天正" : {
          "actual_end_day" : {
@@ -4025,6 +4582,11 @@
          "jp_era" : 1,
          "key" : "天正",
          "name" : "天正",
+         "name_kana" : "てんしょう",
+         "name_kanas" : {
+            "てんしょう" : 1
+         },
+         "name_latn" : "Tenshō",
          "names" : {
             "天正" : 1
          },
@@ -4048,7 +4610,9 @@
             "kyuureki" : "1573-07-28",
             "kyuureki_era" : "天正1-07-28"
          },
-         "start_year" : 1573
+         "start_year" : 1573,
+         "wref_en" : "Tenshō_(Momoyama_period)",
+         "wref_ja" : "天正"
       },
       "天武天皇" : {
          "actual_end_day" : {
@@ -4073,6 +4637,11 @@
          "jp_emperor_era" : 1,
          "key" : "天武天皇",
          "name" : "天武天皇",
+         "name_kana" : "てんむてんのう",
+         "name_kanas" : {
+            "てんむてんのう" : 1
+         },
+         "name_latn" : "Tenmu-tennō",
          "names" : {
             "天武" : 1,
             "天武天皇" : 1
@@ -4106,7 +4675,9 @@
             "kyuureki" : "0672-01-01",
             "kyuureki_era" : "天武天皇1-01-01"
          },
-         "start_year" : 672
+         "start_year" : 672,
+         "wref_en" : "Emperor_Tenmu",
+         "wref_ja" : "天武天皇"
       },
       "天永" : {
          "actual_end_day" : {
@@ -4131,6 +4702,11 @@
          "jp_era" : 1,
          "key" : "天永",
          "name" : "天永",
+         "name_kana" : "てんえい",
+         "name_kanas" : {
+            "てんえい" : 1
+         },
+         "name_latn" : "Ten'ei",
          "names" : {
             "天永" : 1
          },
@@ -4154,7 +4730,9 @@
             "kyuureki" : "1110-07-13",
             "kyuureki_era" : "天永1-07-13"
          },
-         "start_year" : 1110
+         "start_year" : 1110,
+         "wref_en" : "Ten'ei",
+         "wref_ja" : "天永"
       },
       "天治" : {
          "actual_end_day" : {
@@ -4179,6 +4757,11 @@
          "jp_era" : 1,
          "key" : "天治",
          "name" : "天治",
+         "name_kana" : "てんじ",
+         "name_kanas" : {
+            "てんじ" : 1
+         },
+         "name_latn" : "Tenji",
          "names" : {
             "天治" : 1
          },
@@ -4202,7 +4785,9 @@
             "kyuureki" : "1124-04-03",
             "kyuureki_era" : "天治1-04-03"
          },
-         "start_year" : 1124
+         "start_year" : 1124,
+         "wref_en" : "Tenji_(era)",
+         "wref_ja" : "天治"
       },
       "天禄" : {
          "actual_end_day" : {
@@ -4227,6 +4812,11 @@
          "jp_era" : 1,
          "key" : "天禄",
          "name" : "天禄",
+         "name_kana" : "てんろく",
+         "name_kanas" : {
+            "てんろく" : 1
+         },
+         "name_latn" : "Tenroku",
          "names" : {
             "天祿" : 1,
             "天禄" : 1
@@ -4251,7 +4841,9 @@
             "kyuureki" : "0970-03-25",
             "kyuureki_era" : "天禄1-03-25"
          },
-         "start_year" : 970
+         "start_year" : 970,
+         "wref_en" : "Tenroku",
+         "wref_ja" : "天禄"
       },
       "天福" : {
          "actual_end_day" : {
@@ -4276,6 +4868,11 @@
          "jp_era" : 1,
          "key" : "天福",
          "name" : "天福",
+         "name_kana" : "てんぷく",
+         "name_kanas" : {
+            "てんぷく" : 1
+         },
+         "name_latn" : "Tenpuku",
          "names" : {
             "天福" : 1,
             "天福" : 1
@@ -4300,7 +4897,9 @@
             "kyuureki" : "1233-04-15",
             "kyuureki_era" : "天福1-04-15"
          },
-         "start_year" : 1233
+         "start_year" : 1233,
+         "wref_en" : "Tenpuku",
+         "wref_ja" : "天福_(日本)"
       },
       "天長" : {
          "actual_end_day" : {
@@ -4325,6 +4924,11 @@
          "jp_era" : 1,
          "key" : "天長",
          "name" : "天長",
+         "name_kana" : "てんちょう",
+         "name_kanas" : {
+            "てんちょう" : 1
+         },
+         "name_latn" : "Tenchō",
          "names" : {
             "天長" : 1
          },
@@ -4348,7 +4952,9 @@
             "kyuureki" : "0824-01-05",
             "kyuureki_era" : "天長1-01-05"
          },
-         "start_year" : 824
+         "start_year" : 824,
+         "wref_en" : "Tenchō",
+         "wref_ja" : "天長"
       },
       "天養" : {
          "actual_end_day" : {
@@ -4373,6 +4979,11 @@
          "jp_era" : 1,
          "key" : "天養",
          "name" : "天養",
+         "name_kana" : "てんよう",
+         "name_kanas" : {
+            "てんよう" : 1
+         },
+         "name_latn" : "Ten'yō",
          "names" : {
             "天養" : 1
          },
@@ -4396,7 +5007,9 @@
             "kyuureki" : "1144-02-23",
             "kyuureki_era" : "天養1-02-23"
          },
-         "start_year" : 1144
+         "start_year" : 1144,
+         "wref_en" : "Ten'yō",
+         "wref_ja" : "天養"
       },
       "孝元天皇" : {
          "end_gregorian_day" : {
@@ -4430,6 +5043,11 @@
          "jp_emperor_era" : 1,
          "key" : "孝元天皇",
          "name" : "孝元天皇",
+         "name_kana" : "こうげんてんのう",
+         "name_kanas" : {
+            "こうげんてんのう" : 1
+         },
+         "name_latn" : "Kōgen-tennō",
          "names" : {
             "孝元" : 1,
             "孝元天皇" : 1
@@ -4463,7 +5081,9 @@
             "kyuureki" : "-0213-01-01",
             "kyuureki_era" : "孝元天皇1-01-01"
          },
-         "start_year" : -213
+         "start_year" : -213,
+         "wref_en" : "Emperor_Kōgen",
+         "wref_ja" : "孝元天皇"
       },
       "孝安天皇" : {
          "end_gregorian_day" : {
@@ -4497,6 +5117,11 @@
          "jp_emperor_era" : 1,
          "key" : "孝安天皇",
          "name" : "孝安天皇",
+         "name_kana" : "こうあんてんのう",
+         "name_kanas" : {
+            "こうあんてんのう" : 1
+         },
+         "name_latn" : "Kōan-tennō",
          "names" : {
             "孝安" : 1,
             "孝安天皇" : 1
@@ -4530,12 +5155,18 @@
             "kyuureki" : "-0391-01-01",
             "kyuureki_era" : "孝安天皇1-01-01"
          },
-         "start_year" : -391
+         "start_year" : -391,
+         "wref_en" : "Emperor_Kōan",
+         "wref_ja" : "孝安天皇"
       },
       "孝徳天皇" : {
-         "jp_emperor_era" : 1,
          "key" : "孝徳天皇",
          "name" : "孝徳天皇",
+         "name_kana" : "こうとくてんのう",
+         "name_kanas" : {
+            "こうとくてんのう" : 1
+         },
+         "name_latn" : "Kōtoku-tennō",
          "names" : {
             "孝徳" : 1,
             "孝徳天皇" : 1,
@@ -4543,7 +5174,9 @@
             "孝德天皇" : 1
          },
          "offset" : 644,
-         "short_name" : "孝徳"
+         "short_name" : "孝徳",
+         "wref_en" : "Emperor_Kōtoku",
+         "wref_ja" : "孝徳天皇"
       },
       "孝昭天皇" : {
          "end_gregorian_day" : {
@@ -4577,6 +5210,11 @@
          "jp_emperor_era" : 1,
          "key" : "孝昭天皇",
          "name" : "孝昭天皇",
+         "name_kana" : "こうしょうてんのう",
+         "name_kanas" : {
+            "こうしょうてんのう" : 1
+         },
+         "name_latn" : "Kōshō-tennō",
          "names" : {
             "孝昭" : 1,
             "孝昭天皇" : 1
@@ -4610,7 +5248,9 @@
             "kyuureki" : "-0474-01-01",
             "kyuureki_era" : "孝昭天皇1-01-01"
          },
-         "start_year" : -474
+         "start_year" : -474,
+         "wref_en" : "Emperor_Kōshō",
+         "wref_ja" : "孝昭天皇"
       },
       "孝霊天皇" : {
          "end_gregorian_day" : {
@@ -4644,6 +5284,11 @@
          "jp_emperor_era" : 1,
          "key" : "孝霊天皇",
          "name" : "孝霊天皇",
+         "name_kana" : "こうれいてんのう",
+         "name_kanas" : {
+            "こうれいてんのう" : 1
+         },
+         "name_latn" : "Kōrei-tennō",
          "names" : {
             "孝霊" : 1,
             "孝霊天皇" : 1
@@ -4677,7 +5322,9 @@
             "kyuureki" : "-0289-01-01",
             "kyuureki_era" : "孝霊天皇1-01-01"
          },
-         "start_year" : -289
+         "start_year" : -289,
+         "wref_en" : "Emperor_Kōrei",
+         "wref_ja" : "孝霊天皇"
       },
       "安元" : {
          "actual_end_day" : {
@@ -4702,6 +5349,11 @@
          "jp_era" : 1,
          "key" : "安元",
          "name" : "安元",
+         "name_kana" : "あんげん",
+         "name_kanas" : {
+            "あんげん" : 1
+         },
+         "name_latn" : "Angen",
          "names" : {
             "安元" : 1
          },
@@ -4725,7 +5377,9 @@
             "kyuureki" : "1175-07-28",
             "kyuureki_era" : "安元1-07-28"
          },
-         "start_year" : 1175
+         "start_year" : 1175,
+         "wref_en" : "Angen",
+         "wref_ja" : "安元"
       },
       "安和" : {
          "actual_end_day" : {
@@ -4750,6 +5404,12 @@
          "jp_era" : 1,
          "key" : "安和",
          "name" : "安和",
+         "name_kana" : "あんな",
+         "name_kanas" : {
+            "あんな" : 1,
+            "あんわ" : 1
+         },
+         "name_latn" : "Anna",
          "names" : {
             "安和" : 1
          },
@@ -4773,7 +5433,9 @@
             "kyuureki" : "0968-08-13",
             "kyuureki_era" : "安和1-08-13"
          },
-         "start_year" : 968
+         "start_year" : 968,
+         "wref_en" : "Anna_(era)",
+         "wref_ja" : "安和"
       },
       "安寧天皇" : {
          "end_gregorian_day" : {
@@ -4807,6 +5469,11 @@
          "jp_emperor_era" : 1,
          "key" : "安寧天皇",
          "name" : "安寧天皇",
+         "name_kana" : "あんねいてんのう",
+         "name_kanas" : {
+            "あんねいてんのう" : 1
+         },
+         "name_latn" : "Annei-tennō",
          "names" : {
             "安寧" : 1,
             "安寧天皇" : 1
@@ -4840,7 +5507,9 @@
             "kyuureki" : "-0547-01-01",
             "kyuureki_era" : "安寧天皇1-01-01"
          },
-         "start_year" : -547
+         "start_year" : -547,
+         "wref_en" : "Emperor_Annei",
+         "wref_ja" : "安寧天皇"
       },
       "安康天皇" : {
          "end_gregorian_day" : {
@@ -4874,6 +5543,11 @@
          "jp_emperor_era" : 1,
          "key" : "安康天皇",
          "name" : "安康天皇",
+         "name_kana" : "あんこうてんのう",
+         "name_kanas" : {
+            "あんこうてんのう" : 1
+         },
+         "name_latn" : "Ankō-tennō",
          "names" : {
             "安康" : 1,
             "安康天皇" : 1
@@ -4907,7 +5581,9 @@
             "kyuureki" : "0454-01-01",
             "kyuureki_era" : "安康天皇1-01-01"
          },
-         "start_year" : 454
+         "start_year" : 454,
+         "wref_en" : "Emperor_Ankō",
+         "wref_ja" : "安康天皇"
       },
       "安政" : {
          "actual_end_day" : {
@@ -4932,6 +5608,11 @@
          "jp_era" : 1,
          "key" : "安政",
          "name" : "安政",
+         "name_kana" : "あんせい",
+         "name_kanas" : {
+            "あんせい" : 1
+         },
+         "name_latn" : "Ansei",
          "names" : {
             "安政" : 1
          },
@@ -4955,7 +5636,9 @@
             "kyuureki" : "1854-11-27",
             "kyuureki_era" : "安政1-11-27"
          },
-         "start_year" : 1854
+         "start_year" : 1854,
+         "wref_en" : "Ansei",
+         "wref_ja" : "安政"
       },
       "安永" : {
          "actual_end_day" : {
@@ -4980,6 +5663,11 @@
          "jp_era" : 1,
          "key" : "安永",
          "name" : "安永",
+         "name_kana" : "あんえい",
+         "name_kanas" : {
+            "あんえい" : 1
+         },
+         "name_latn" : "An'ei",
          "names" : {
             "安永" : 1
          },
@@ -5003,7 +5691,9 @@
             "kyuureki" : "1772-11-16",
             "kyuureki_era" : "安永1-11-16"
          },
-         "start_year" : 1772
+         "start_year" : 1772,
+         "wref_en" : "An'ei",
+         "wref_ja" : "安永"
       },
       "安貞" : {
          "actual_end_day" : {
@@ -5028,6 +5718,11 @@
          "jp_era" : 1,
          "key" : "安貞",
          "name" : "安貞",
+         "name_kana" : "あんてい",
+         "name_kanas" : {
+            "あんてい" : 1
+         },
+         "name_latn" : "Antei",
          "names" : {
             "安貞" : 1,
             "安贞" : 1
@@ -5052,7 +5747,9 @@
             "kyuureki" : "1227-12-10",
             "kyuureki_era" : "安貞1-12-10"
          },
-         "start_year" : 1227
+         "start_year" : 1227,
+         "wref_en" : "Antei",
+         "wref_ja" : "安貞"
       },
       "安閑天皇" : {
          "end_gregorian_day" : {
@@ -5086,6 +5783,11 @@
          "jp_emperor_era" : 1,
          "key" : "安閑天皇",
          "name" : "安閑天皇",
+         "name_kana" : "あんかんてんのう",
+         "name_kanas" : {
+            "あんかんてんのう" : 1
+         },
+         "name_latn" : "Ankan-tennō",
          "names" : {
             "安閑" : 1,
             "安閑天皇" : 1
@@ -5119,7 +5821,9 @@
             "kyuureki" : "0532-01-01",
             "kyuureki_era" : "安閑天皇1-01-01"
          },
-         "start_year" : 532
+         "start_year" : 532,
+         "wref_en" : "Emperor_Ankan",
+         "wref_ja" : "安閑天皇"
       },
       "宝亀" : {
          "actual_end_day" : {
@@ -5144,6 +5848,11 @@
          "jp_era" : 1,
          "key" : "宝亀",
          "name" : "宝亀",
+         "name_kana" : "ほうき",
+         "name_kanas" : {
+            "ほうき" : 1
+         },
+         "name_latn" : "Hōki",
          "names" : {
             "宝亀" : 1,
             "宝龜" : 1,
@@ -5175,7 +5884,9 @@
             "kyuureki" : "0770-10-01",
             "kyuureki_era" : "宝亀1-10-01"
          },
-         "start_year" : 770
+         "start_year" : 770,
+         "wref_en" : "Hōki",
+         "wref_ja" : "宝亀"
       },
       "宝徳" : {
          "actual_end_day" : {
@@ -5200,6 +5911,11 @@
          "jp_era" : 1,
          "key" : "宝徳",
          "name" : "宝徳",
+         "name_kana" : "ほうとく",
+         "name_kanas" : {
+            "ほうとく" : 1
+         },
+         "name_latn" : "Hōtoku",
          "names" : {
             "宝徳" : 1,
             "宝德" : 1,
@@ -5228,7 +5944,9 @@
             "kyuureki" : "1449-07-28",
             "kyuureki_era" : "宝徳1-07-28"
          },
-         "start_year" : 1449
+         "start_year" : 1449,
+         "wref_en" : "Hōtoku",
+         "wref_ja" : "宝徳"
       },
       "宝暦" : {
          "actual_end_day" : {
@@ -5253,6 +5971,11 @@
          "jp_era" : 1,
          "key" : "宝暦",
          "name" : "宝暦",
+         "name_kana" : "ほうれき",
+         "name_kanas" : {
+            "ほうれき" : 1
+         },
+         "name_latn" : "Hōreki",
          "names" : {
             "宝暦" : 1,
             "宝曆" : 1,
@@ -5281,7 +6004,9 @@
             "kyuureki" : "1751-10-27",
             "kyuureki_era" : "宝暦1-10-27"
          },
-         "start_year" : 1751
+         "start_year" : 1751,
+         "wref_en" : "Hōreki",
+         "wref_ja" : "宝暦"
       },
       "宝永" : {
          "actual_end_day" : {
@@ -5306,6 +6031,11 @@
          "jp_era" : 1,
          "key" : "宝永",
          "name" : "宝永",
+         "name_kana" : "ほうえい",
+         "name_kanas" : {
+            "ほうえい" : 1
+         },
+         "name_latn" : "Hōei",
          "names" : {
             "宝永" : 1,
             "寳永" : 1,
@@ -5331,7 +6061,9 @@
             "kyuureki" : "1704-03-13",
             "kyuureki_era" : "宝永1-03-13"
          },
-         "start_year" : 1704
+         "start_year" : 1704,
+         "wref_en" : "Hōei",
+         "wref_ja" : "宝永"
       },
       "宝治" : {
          "actual_end_day" : {
@@ -5356,6 +6088,11 @@
          "jp_era" : 1,
          "key" : "宝治",
          "name" : "宝治",
+         "name_kana" : "ほうじ",
+         "name_kanas" : {
+            "ほうじ" : 1
+         },
+         "name_latn" : "Hōji",
          "names" : {
             "宝治" : 1,
             "寳治" : 1,
@@ -5381,7 +6118,9 @@
             "kyuureki" : "1247-02-28",
             "kyuureki_era" : "宝治1-02-28"
          },
-         "start_year" : 1247
+         "start_year" : 1247,
+         "wref_en" : "Hōji",
+         "wref_ja" : "宝治"
       },
       "宣化天皇" : {
          "end_gregorian_day" : {
@@ -5415,6 +6154,11 @@
          "jp_emperor_era" : 1,
          "key" : "宣化天皇",
          "name" : "宣化天皇",
+         "name_kana" : "せんかてんのう",
+         "name_kanas" : {
+            "せんかてんのう" : 1
+         },
+         "name_latn" : "Senka-tennō",
          "names" : {
             "宣化" : 1,
             "宣化天皇" : 1
@@ -5448,7 +6192,9 @@
             "kyuureki" : "0536-01-01",
             "kyuureki_era" : "宣化天皇1-01-01"
          },
-         "start_year" : 536
+         "start_year" : 536,
+         "wref_en" : "Emperor_Senka",
+         "wref_ja" : "宣化天皇"
       },
       "寛仁" : {
          "actual_end_day" : {
@@ -5473,6 +6219,11 @@
          "jp_era" : 1,
          "key" : "寛仁",
          "name" : "寛仁",
+         "name_kana" : "かんにん",
+         "name_kanas" : {
+            "かんにん" : 1
+         },
+         "name_latn" : "Kannin",
          "names" : {
             "寛仁" : 1,
             "寬仁" : 1
@@ -5497,7 +6248,9 @@
             "kyuureki" : "1017-04-23",
             "kyuureki_era" : "寛仁1-04-23"
          },
-         "start_year" : 1017
+         "start_year" : 1017,
+         "wref_en" : "Kannin",
+         "wref_ja" : "寛仁"
       },
       "寛保" : {
          "actual_end_day" : {
@@ -5522,6 +6275,11 @@
          "jp_era" : 1,
          "key" : "寛保",
          "name" : "寛保",
+         "name_kana" : "かんぽう",
+         "name_kanas" : {
+            "かんぽう" : 1
+         },
+         "name_latn" : "Kanpō",
          "names" : {
             "寛保" : 1,
             "寬保" : 1
@@ -5546,7 +6304,9 @@
             "kyuureki" : "1741-02-27",
             "kyuureki_era" : "寛保1-02-27"
          },
-         "start_year" : 1741
+         "start_year" : 1741,
+         "wref_en" : "Kanpō",
+         "wref_ja" : "寛保"
       },
       "寛元" : {
          "actual_end_day" : {
@@ -5571,6 +6331,11 @@
          "jp_era" : 1,
          "key" : "寛元",
          "name" : "寛元",
+         "name_kana" : "かんげん",
+         "name_kanas" : {
+            "かんげん" : 1
+         },
+         "name_latn" : "Kangen",
          "names" : {
             "寛元" : 1,
             "寬元" : 1
@@ -5595,7 +6360,9 @@
             "kyuureki" : "1243-02-26",
             "kyuureki_era" : "寛元1-02-26"
          },
-         "start_year" : 1243
+         "start_year" : 1243,
+         "wref_en" : "Kangen",
+         "wref_ja" : "寛元"
       },
       "寛和" : {
          "actual_end_day" : {
@@ -5620,6 +6387,12 @@
          "jp_era" : 1,
          "key" : "寛和",
          "name" : "寛和",
+         "name_kana" : "かんな",
+         "name_kanas" : {
+            "かんな" : 1,
+            "かんわ" : 1
+         },
+         "name_latn" : "Kanna",
          "names" : {
             "寛和" : 1,
             "寬和" : 1
@@ -5644,7 +6417,9 @@
             "kyuureki" : "0985-04-27",
             "kyuureki_era" : "寛和1-04-27"
          },
-         "start_year" : 985
+         "start_year" : 985,
+         "wref_en" : "Kanna_(era)",
+         "wref_ja" : "寛和"
       },
       "寛喜" : {
          "actual_end_day" : {
@@ -5669,6 +6444,11 @@
          "jp_era" : 1,
          "key" : "寛喜",
          "name" : "寛喜",
+         "name_kana" : "かんき",
+         "name_kanas" : {
+            "かんき" : 1
+         },
+         "name_latn" : "Kangi",
          "names" : {
             "寛喜" : 1,
             "寬喜" : 1
@@ -5693,7 +6473,9 @@
             "kyuureki" : "1229-03-05",
             "kyuureki_era" : "寛喜1-03-05"
          },
-         "start_year" : 1229
+         "start_year" : 1229,
+         "wref_en" : "Kangi",
+         "wref_ja" : "寛喜"
       },
       "寛平" : {
          "actual_end_day" : {
@@ -5718,6 +6500,13 @@
          "jp_era" : 1,
          "key" : "寛平",
          "name" : "寛平",
+         "name_kana" : "かんぴょう",
+         "name_kanas" : {
+            "かんぴょう" : 1,
+            "かんへい" : 1,
+            "かんぺい" : 1
+         },
+         "name_latn" : "Kanpyō",
          "names" : {
             "寛平" : 1,
             "寬平" : 1
@@ -5742,7 +6531,9 @@
             "kyuureki" : "0889-04-27",
             "kyuureki_era" : "寛平1-04-27"
          },
-         "start_year" : 889
+         "start_year" : 889,
+         "wref_en" : "Kanpyō_(era)",
+         "wref_ja" : "寛平"
       },
       "寛延" : {
          "actual_end_day" : {
@@ -5767,6 +6558,11 @@
          "jp_era" : 1,
          "key" : "寛延",
          "name" : "寛延",
+         "name_kana" : "かんえん",
+         "name_kanas" : {
+            "かんえん" : 1
+         },
+         "name_latn" : "Kan'en",
          "names" : {
             "寛延" : 1,
             "寬延" : 1
@@ -5791,7 +6587,9 @@
             "kyuureki" : "1748-07-12",
             "kyuureki_era" : "寛延1-07-12"
          },
-         "start_year" : 1748
+         "start_year" : 1748,
+         "wref_en" : "Kan'en",
+         "wref_ja" : "寛延"
       },
       "寛弘" : {
          "actual_end_day" : {
@@ -5816,6 +6614,11 @@
          "jp_era" : 1,
          "key" : "寛弘",
          "name" : "寛弘",
+         "name_kana" : "かんこう",
+         "name_kanas" : {
+            "かんこう" : 1
+         },
+         "name_latn" : "Kankō",
          "names" : {
             "寛弘" : 1,
             "寬弘" : 1
@@ -5840,7 +6643,9 @@
             "kyuureki" : "1004-07-20",
             "kyuureki_era" : "寛弘1-07-20"
          },
-         "start_year" : 1004
+         "start_year" : 1004,
+         "wref_en" : "Kankō",
+         "wref_ja" : "寛弘"
       },
       "寛徳" : {
          "actual_end_day" : {
@@ -5865,6 +6670,11 @@
          "jp_era" : 1,
          "key" : "寛徳",
          "name" : "寛徳",
+         "name_kana" : "かんとく",
+         "name_kanas" : {
+            "かんとく" : 1
+         },
+         "name_latn" : "Kantoku",
          "names" : {
             "寛徳" : 1,
             "寛德" : 1,
@@ -5891,7 +6701,9 @@
             "kyuureki" : "1044-11-24",
             "kyuureki_era" : "寛徳1-11-24"
          },
-         "start_year" : 1044
+         "start_year" : 1044,
+         "wref_en" : "Kantoku",
+         "wref_ja" : "寛徳"
       },
       "寛政" : {
          "actual_end_day" : {
@@ -5916,6 +6728,11 @@
          "jp_era" : 1,
          "key" : "寛政",
          "name" : "寛政",
+         "name_kana" : "かんせい",
+         "name_kanas" : {
+            "かんせい" : 1
+         },
+         "name_latn" : "Kansei",
          "names" : {
             "寛政" : 1,
             "寬政" : 1
@@ -5940,7 +6757,9 @@
             "kyuureki" : "1789-01-25",
             "kyuureki_era" : "寛政1-01-25"
          },
-         "start_year" : 1789
+         "start_year" : 1789,
+         "wref_en" : "Kansei",
+         "wref_ja" : "寛政"
       },
       "寛文" : {
          "actual_end_day" : {
@@ -5965,6 +6784,11 @@
          "jp_era" : 1,
          "key" : "寛文",
          "name" : "寛文",
+         "name_kana" : "かんぶん",
+         "name_kanas" : {
+            "かんぶん" : 1
+         },
+         "name_latn" : "Kanbun",
          "names" : {
             "寛文" : 1,
             "寬文" : 1
@@ -5989,7 +6813,9 @@
             "kyuureki" : "1661-04-25",
             "kyuureki_era" : "寛文1-04-25"
          },
-         "start_year" : 1661
+         "start_year" : 1661,
+         "wref_en" : "Kanbun_(era)",
+         "wref_ja" : "寛文"
       },
       "寛正" : {
          "actual_end_day" : {
@@ -6014,6 +6840,11 @@
          "jp_era" : 1,
          "key" : "寛正",
          "name" : "寛正",
+         "name_kana" : "かんしょう",
+         "name_kanas" : {
+            "かんしょう" : 1
+         },
+         "name_latn" : "Kanshō",
          "names" : {
             "寛正" : 1,
             "寬正" : 1
@@ -6038,7 +6869,9 @@
             "kyuureki" : "1460-12-21",
             "kyuureki_era" : "寛正1-12-21"
          },
-         "start_year" : 1460
+         "start_year" : 1460,
+         "wref_en" : "Kanshō",
+         "wref_ja" : "寛正"
       },
       "寛永" : {
          "actual_end_day" : {
@@ -6063,6 +6896,11 @@
          "jp_era" : 1,
          "key" : "寛永",
          "name" : "寛永",
+         "name_kana" : "かんえい",
+         "name_kanas" : {
+            "かんえい" : 1
+         },
+         "name_latn" : "Kan'ei",
          "names" : {
             "寛永" : 1,
             "寬永" : 1
@@ -6087,7 +6925,9 @@
             "kyuureki" : "1624-02-30",
             "kyuureki_era" : "寛永1-02-30"
          },
-         "start_year" : 1624
+         "start_year" : 1624,
+         "wref_en" : "Kan'ei",
+         "wref_ja" : "寛永"
       },
       "寛治" : {
          "actual_end_day" : {
@@ -6112,6 +6952,11 @@
          "jp_era" : 1,
          "key" : "寛治",
          "name" : "寛治",
+         "name_kana" : "かんじ",
+         "name_kanas" : {
+            "かんじ" : 1
+         },
+         "name_latn" : "Kanji",
          "names" : {
             "寛治" : 1,
             "寬治" : 1
@@ -6136,7 +6981,9 @@
             "kyuureki" : "1087-04-07",
             "kyuureki_era" : "寛治1-04-07"
          },
-         "start_year" : 1087
+         "start_year" : 1087,
+         "wref_en" : "Kanji_(era)",
+         "wref_ja" : "寛治"
       },
       "寿永" : {
          "actual_end_day" : {
@@ -6161,6 +7008,11 @@
          "jp_era" : 1,
          "key" : "寿永",
          "name" : "寿永",
+         "name_kana" : "じゅえい",
+         "name_kanas" : {
+            "じゅえい" : 1
+         },
+         "name_latn" : "Juei",
          "names" : {
             "壽永" : 1,
             "夀永" : 1,
@@ -6186,7 +7038,9 @@
             "kyuureki" : "1182-05-27",
             "kyuureki_era" : "寿永1-05-27"
          },
-         "start_year" : 1182
+         "start_year" : 1182,
+         "wref_en" : "Juei",
+         "wref_ja" : "寿永"
       },
       "履中天皇" : {
          "end_gregorian_day" : {
@@ -6220,6 +7074,11 @@
          "jp_emperor_era" : 1,
          "key" : "履中天皇",
          "name" : "履中天皇",
+         "name_kana" : "りちゅうてんのう",
+         "name_kanas" : {
+            "りちゅうてんのう" : 1
+         },
+         "name_latn" : "Richū-tennō",
          "names" : {
             "履中" : 1,
             "履中天皇" : 1
@@ -6253,7 +7112,9 @@
             "kyuureki" : "0400-01-01",
             "kyuureki_era" : "履中天皇1-01-01"
          },
-         "start_year" : 400
+         "start_year" : 400,
+         "wref_en" : "Emperor_Richū",
+         "wref_ja" : "履中天皇"
       },
       "崇峻天皇" : {
          "end_gregorian_day" : {
@@ -6287,6 +7148,11 @@
          "jp_emperor_era" : 1,
          "key" : "崇峻天皇",
          "name" : "崇峻天皇",
+         "name_kana" : "すしゅんてんのう",
+         "name_kanas" : {
+            "すしゅんてんのう" : 1
+         },
+         "name_latn" : "Sushun-tennō",
          "names" : {
             "崇峻" : 1,
             "崇峻天皇" : 1
@@ -6320,7 +7186,9 @@
             "kyuureki" : "0588-01-01",
             "kyuureki_era" : "崇峻天皇1-01-01"
          },
-         "start_year" : 588
+         "start_year" : 588,
+         "wref_en" : "Emperor_Sushun",
+         "wref_ja" : "崇峻天皇"
       },
       "崇神天皇" : {
          "end_gregorian_day" : {
@@ -6354,6 +7222,11 @@
          "jp_emperor_era" : 1,
          "key" : "崇神天皇",
          "name" : "崇神天皇",
+         "name_kana" : "すじんてんのう",
+         "name_kanas" : {
+            "すじんてんのう" : 1
+         },
+         "name_latn" : "Sujin-tennō",
          "names" : {
             "崇神" : 1,
             "崇神天皇" : 1,
@@ -6389,7 +7262,9 @@
             "kyuureki" : "-0096-01-01",
             "kyuureki_era" : "崇神天皇1-01-01"
          },
-         "start_year" : -96
+         "start_year" : -96,
+         "wref_en" : "Emperor_Sujin",
+         "wref_ja" : "崇神天皇"
       },
       "平成" : {
          "abbr" : "平",
@@ -6397,6 +7272,11 @@
          "jp_era" : 1,
          "key" : "平成",
          "name" : "平成",
+         "name_kana" : "へいせい",
+         "name_kanas" : {
+            "へいせい" : 1
+         },
+         "name_latn" : "Heisei",
          "names" : {
             "H" : 1,
             "h" : 1,
@@ -6424,7 +7304,9 @@
             "kyuureki" : "1988-12-01",
             "kyuureki_era" : "平成0-12-01"
          },
-         "start_year" : 1989
+         "start_year" : 1989,
+         "wref_en" : "Heisei_period",
+         "wref_ja" : "平成"
       },
       "平治" : {
          "actual_end_day" : {
@@ -6449,6 +7331,11 @@
          "jp_era" : 1,
          "key" : "平治",
          "name" : "平治",
+         "name_kana" : "へいじ",
+         "name_kanas" : {
+            "へいじ" : 1
+         },
+         "name_latn" : "Heiji",
          "names" : {
             "平治" : 1
          },
@@ -6472,7 +7359,9 @@
             "kyuureki" : "1159-04-20",
             "kyuureki_era" : "平治1-04-20"
          },
-         "start_year" : 1159
+         "start_year" : 1159,
+         "wref_en" : "Heiji",
+         "wref_ja" : "平治"
       },
       "康保" : {
          "actual_end_day" : {
@@ -6497,6 +7386,11 @@
          "jp_era" : 1,
          "key" : "康保",
          "name" : "康保",
+         "name_kana" : "こうほう",
+         "name_kanas" : {
+            "こうほう" : 1
+         },
+         "name_latn" : "Kōhō",
          "names" : {
             "康保" : 1
          },
@@ -6520,7 +7414,9 @@
             "kyuureki" : "0964-07-10",
             "kyuureki_era" : "康保1-07-10"
          },
-         "start_year" : 964
+         "start_year" : 964,
+         "wref_en" : "Kōhō",
+         "wref_ja" : "康保"
       },
       "康元" : {
          "actual_end_day" : {
@@ -6545,6 +7441,11 @@
          "jp_era" : 1,
          "key" : "康元",
          "name" : "康元",
+         "name_kana" : "こうげん",
+         "name_kanas" : {
+            "こうげん" : 1
+         },
+         "name_latn" : "Kōgen",
          "names" : {
             "康元" : 1
          },
@@ -6568,7 +7469,9 @@
             "kyuureki" : "1256-10-05",
             "kyuureki_era" : "康元1-10-05"
          },
-         "start_year" : 1256
+         "start_year" : 1256,
+         "wref_en" : "Kōgen",
+         "wref_ja" : "康元"
       },
       "康和" : {
          "actual_end_day" : {
@@ -6593,6 +7496,11 @@
          "jp_era" : 1,
          "key" : "康和",
          "name" : "康和",
+         "name_kana" : "こうわ",
+         "name_kanas" : {
+            "こうわ" : 1
+         },
+         "name_latn" : "Kōwa",
          "names" : {
             "康和" : 1
          },
@@ -6616,12 +7524,19 @@
             "kyuureki" : "1099-08-28",
             "kyuureki_era" : "康和1-08-28"
          },
-         "start_year" : 1099
+         "start_year" : 1099,
+         "wref_en" : "Kōwa_(Heian_period)",
+         "wref_ja" : "康和"
       },
       "康安" : {
          "jp_north_era" : 1,
          "key" : "康安",
          "name" : "康安",
+         "name_kana" : "こうあん",
+         "name_kanas" : {
+            "こうあん" : 1
+         },
+         "name_latn" : "Kōan",
          "names" : {
             "康安" : 1
          },
@@ -6664,7 +7579,9 @@
          },
          "north_start_year" : 1361,
          "offset" : 1360,
-         "short_name" : "康安"
+         "short_name" : "康安",
+         "wref_en" : "Kōan_(Muromachi_period)",
+         "wref_ja" : "康安"
       },
       "康平" : {
          "actual_end_day" : {
@@ -6689,6 +7606,11 @@
          "jp_era" : 1,
          "key" : "康平",
          "name" : "康平",
+         "name_kana" : "こうへい",
+         "name_kanas" : {
+            "こうへい" : 1
+         },
+         "name_latn" : "Kōhei",
          "names" : {
             "康平" : 1
          },
@@ -6712,12 +7634,19 @@
             "kyuureki" : "1058-08-29",
             "kyuureki_era" : "康平1-08-29"
          },
-         "start_year" : 1058
+         "start_year" : 1058,
+         "wref_en" : "Kōhei",
+         "wref_ja" : "康平"
       },
       "康応" : {
          "jp_north_era" : 1,
          "key" : "康応",
          "name" : "康応",
+         "name_kana" : "こうおう",
+         "name_kanas" : {
+            "こうおう" : 1
+         },
+         "name_latn" : "Kōō",
          "names" : {
             "康応" : 1,
             "康應" : 1
@@ -6761,12 +7690,19 @@
          },
          "north_start_year" : 1389,
          "offset" : 1388,
-         "short_name" : "康応"
+         "short_name" : "康応",
+         "wref_en" : "Kōō_(Nanboku-chō_period)",
+         "wref_ja" : "康応"
       },
       "康暦" : {
          "jp_north_era" : 1,
          "key" : "康暦",
          "name" : "康暦",
+         "name_kana" : "こうりゃく",
+         "name_kanas" : {
+            "こうりゃく" : 1
+         },
+         "name_latn" : "Kōryaku",
          "names" : {
             "康暦" : 1,
             "康曆" : 1
@@ -6810,7 +7746,9 @@
          },
          "north_start_year" : 1379,
          "offset" : 1378,
-         "short_name" : "康暦"
+         "short_name" : "康暦",
+         "wref_en" : "Kōryaku",
+         "wref_ja" : "康暦"
       },
       "康正" : {
          "actual_end_day" : {
@@ -6835,6 +7773,11 @@
          "jp_era" : 1,
          "key" : "康正",
          "name" : "康正",
+         "name_kana" : "こうしょう",
+         "name_kanas" : {
+            "こうしょう" : 1
+         },
+         "name_latn" : "Kōshō",
          "names" : {
             "康正" : 1
          },
@@ -6858,12 +7801,19 @@
             "kyuureki" : "1455-07-25",
             "kyuureki_era" : "康正1-07-25"
          },
-         "start_year" : 1455
+         "start_year" : 1455,
+         "wref_en" : "Kōshō",
+         "wref_ja" : "康正"
       },
       "康永" : {
          "jp_north_era" : 1,
          "key" : "康永",
          "name" : "康永",
+         "name_kana" : "こうえい",
+         "name_kanas" : {
+            "こうえい" : 1
+         },
+         "name_latn" : "Kōei",
          "names" : {
             "康永" : 1
          },
@@ -6906,7 +7856,9 @@
          },
          "north_start_year" : 1342,
          "offset" : 1341,
-         "short_name" : "康永"
+         "short_name" : "康永",
+         "wref_en" : "Kōei",
+         "wref_ja" : "康永"
       },
       "康治" : {
          "actual_end_day" : {
@@ -6931,6 +7883,11 @@
          "jp_era" : 1,
          "key" : "康治",
          "name" : "康治",
+         "name_kana" : "こうじ",
+         "name_kanas" : {
+            "こうじ" : 1
+         },
+         "name_latn" : "Kōji",
          "names" : {
             "康治" : 1
          },
@@ -6954,7 +7911,9 @@
             "kyuureki" : "1142-04-28",
             "kyuureki_era" : "康治1-04-28"
          },
-         "start_year" : 1142
+         "start_year" : 1142,
+         "wref_en" : "Kōji_(Heian_period)",
+         "wref_ja" : "康治"
       },
       "延久" : {
          "actual_end_day" : {
@@ -6979,6 +7938,11 @@
          "jp_era" : 1,
          "key" : "延久",
          "name" : "延久",
+         "name_kana" : "えんきゅう",
+         "name_kanas" : {
+            "えんきゅう" : 1
+         },
+         "name_latn" : "Enkyū",
          "names" : {
             "延久" : 1
          },
@@ -7002,7 +7966,9 @@
             "kyuureki" : "1069-04-13",
             "kyuureki_era" : "延久1-04-13"
          },
-         "start_year" : 1069
+         "start_year" : 1069,
+         "wref_en" : "Enkyū",
+         "wref_ja" : "延久"
       },
       "延享" : {
          "actual_end_day" : {
@@ -7027,6 +7993,11 @@
          "jp_era" : 1,
          "key" : "延享",
          "name" : "延享",
+         "name_kana" : "えんきょう",
+         "name_kanas" : {
+            "えんきょう" : 1
+         },
+         "name_latn" : "Enkyō",
          "names" : {
             "延享" : 1
          },
@@ -7050,12 +8021,19 @@
             "kyuureki" : "1744-02-21",
             "kyuureki_era" : "延享1-02-21"
          },
-         "start_year" : 1744
+         "start_year" : 1744,
+         "wref_en" : "Enkyō_(Edo_period)",
+         "wref_ja" : "延享"
       },
       "延元" : {
          "jp_south_era" : 1,
          "key" : "延元",
          "name" : "延元",
+         "name_kana" : "えんげん",
+         "name_kanas" : {
+            "えんげん" : 1
+         },
+         "name_latn" : "Engen",
          "names" : {
             "延元" : 1
          },
@@ -7098,7 +8076,9 @@
             "kyuureki" : "1336-02-29",
             "kyuureki_era" : "延元1-02-29"
          },
-         "south_start_year" : 1336
+         "south_start_year" : 1336,
+         "wref_en" : "Engen",
+         "wref_ja" : "延元"
       },
       "延喜" : {
          "actual_end_day" : {
@@ -7123,6 +8103,11 @@
          "jp_era" : 1,
          "key" : "延喜",
          "name" : "延喜",
+         "name_kana" : "えんぎ",
+         "name_kanas" : {
+            "えんぎ" : 1
+         },
+         "name_latn" : "Engi",
          "names" : {
             "延喜" : 1
          },
@@ -7146,7 +8131,9 @@
             "kyuureki" : "0901-07-15",
             "kyuureki_era" : "延喜1-07-15"
          },
-         "start_year" : 901
+         "start_year" : 901,
+         "wref_en" : "Engi_(era)",
+         "wref_ja" : "延喜"
       },
       "延宝" : {
          "actual_end_day" : {
@@ -7171,6 +8158,11 @@
          "jp_era" : 1,
          "key" : "延宝",
          "name" : "延宝",
+         "name_kana" : "えんぽう",
+         "name_kanas" : {
+            "えんぽう" : 1
+         },
+         "name_latn" : "Enpō",
          "names" : {
             "延宝" : 1,
             "延寳" : 1,
@@ -7196,7 +8188,9 @@
             "kyuureki" : "1673-09-21",
             "kyuureki_era" : "延宝1-09-21"
          },
-         "start_year" : 1673
+         "start_year" : 1673,
+         "wref_en" : "Enpō",
+         "wref_ja" : "延宝"
       },
       "延徳" : {
          "actual_end_day" : {
@@ -7221,6 +8215,11 @@
          "jp_era" : 1,
          "key" : "延徳",
          "name" : "延徳",
+         "name_kana" : "えんとく",
+         "name_kanas" : {
+            "えんとく" : 1
+         },
+         "name_latn" : "Entoku",
          "names" : {
             "延徳" : 1,
             "延德" : 1
@@ -7245,7 +8244,9 @@
             "kyuureki" : "1489-08-21",
             "kyuureki_era" : "延徳1-08-21"
          },
-         "start_year" : 1489
+         "start_year" : 1489,
+         "wref_en" : "Entoku",
+         "wref_ja" : "延徳"
       },
       "延応" : {
          "actual_end_day" : {
@@ -7270,6 +8271,11 @@
          "jp_era" : 1,
          "key" : "延応",
          "name" : "延応",
+         "name_kana" : "えんおう",
+         "name_kanas" : {
+            "えんおう" : 1
+         },
+         "name_latn" : "En'ō",
          "names" : {
             "延応" : 1,
             "延應" : 1
@@ -7294,7 +8300,9 @@
             "kyuureki" : "1239-02-07",
             "kyuureki_era" : "延応1-02-07"
          },
-         "start_year" : 1239
+         "start_year" : 1239,
+         "wref_en" : "En'ō",
+         "wref_ja" : "延応"
       },
       "延慶" : {
          "actual_end_day" : {
@@ -7319,6 +8327,11 @@
          "jp_era" : 1,
          "key" : "延慶",
          "name" : "延慶",
+         "name_kana" : "えんきょう",
+         "name_kanas" : {
+            "えんきょう" : 1
+         },
+         "name_latn" : "Enkyō",
          "names" : {
             "延慶" : 1
          },
@@ -7342,12 +8355,19 @@
             "kyuureki" : "1308-10-09",
             "kyuureki_era" : "延慶1-10-09"
          },
-         "start_year" : 1308
+         "start_year" : 1308,
+         "wref_en" : "Enkyō_(Kamakura_period)",
+         "wref_ja" : "延慶_(日本)"
       },
       "延文" : {
          "jp_north_era" : 1,
          "key" : "延文",
          "name" : "延文",
+         "name_kana" : "えんぶん",
+         "name_kanas" : {
+            "えんぶん" : 1
+         },
+         "name_latn" : "Enbun",
          "names" : {
             "延文" : 1
          },
@@ -7390,7 +8410,9 @@
          },
          "north_start_year" : 1356,
          "offset" : 1355,
-         "short_name" : "延文"
+         "short_name" : "延文",
+         "wref_en" : "Enbun",
+         "wref_ja" : "延文"
       },
       "延暦" : {
          "actual_end_day" : {
@@ -7415,6 +8437,11 @@
          "jp_era" : 1,
          "key" : "延暦",
          "name" : "延暦",
+         "name_kana" : "えんりゃく",
+         "name_kanas" : {
+            "えんりゃく" : 1
+         },
+         "name_latn" : "Enryaku",
          "names" : {
             "延暦" : 1,
             "延曆" : 1
@@ -7439,7 +8466,9 @@
             "kyuureki" : "0782-08-19",
             "kyuureki_era" : "延暦1-08-19"
          },
-         "start_year" : 782
+         "start_year" : 782,
+         "wref_en" : "Enryaku",
+         "wref_ja" : "延暦"
       },
       "延長" : {
          "actual_end_day" : {
@@ -7464,6 +8493,11 @@
          "jp_era" : 1,
          "key" : "延長",
          "name" : "延長",
+         "name_kana" : "えんちょう",
+         "name_kanas" : {
+            "えんちょう" : 1
+         },
+         "name_latn" : "Enchō",
          "names" : {
             "延長" : 1
          },
@@ -7487,7 +8521,9 @@
             "kyuureki" : "0923-04'-11",
             "kyuureki_era" : "延長1-04'-11"
          },
-         "start_year" : 923
+         "start_year" : 923,
+         "wref_en" : "Enchō",
+         "wref_ja" : "延長_(元号)"
       },
       "建久" : {
          "actual_end_day" : {
@@ -7512,6 +8548,11 @@
          "jp_era" : 1,
          "key" : "建久",
          "name" : "建久",
+         "name_kana" : "けんきゅう",
+         "name_kanas" : {
+            "けんきゅう" : 1
+         },
+         "name_latn" : "Kenkyū",
          "names" : {
             "建久" : 1
          },
@@ -7535,7 +8576,9 @@
             "kyuureki" : "1190-04-11",
             "kyuureki_era" : "建久1-04-11"
          },
-         "start_year" : 1190
+         "start_year" : 1190,
+         "wref_en" : "Kenkyū",
+         "wref_ja" : "建久"
       },
       "建仁" : {
          "actual_end_day" : {
@@ -7560,6 +8603,11 @@
          "jp_era" : 1,
          "key" : "建仁",
          "name" : "建仁",
+         "name_kana" : "けんにん",
+         "name_kanas" : {
+            "けんにん" : 1
+         },
+         "name_latn" : "Kennin",
          "names" : {
             "建仁" : 1
          },
@@ -7583,7 +8631,9 @@
             "kyuureki" : "1201-02-13",
             "kyuureki_era" : "建仁1-02-13"
          },
-         "start_year" : 1201
+         "start_year" : 1201,
+         "wref_en" : "Kennin",
+         "wref_ja" : "建仁"
       },
       "建保" : {
          "actual_end_day" : {
@@ -7608,6 +8658,11 @@
          "jp_era" : 1,
          "key" : "建保",
          "name" : "建保",
+         "name_kana" : "けんぽう",
+         "name_kanas" : {
+            "けんぽう" : 1
+         },
+         "name_latn" : "Kempo",
          "names" : {
             "建保" : 1
          },
@@ -7631,12 +8686,19 @@
             "kyuureki" : "1213-12-06",
             "kyuureki_era" : "建保1-12-06"
          },
-         "start_year" : 1213
+         "start_year" : 1213,
+         "wref_en" : "Kempo_(era)",
+         "wref_ja" : "建保"
       },
       "建徳" : {
          "jp_south_era" : 1,
          "key" : "建徳",
          "name" : "建徳",
+         "name_kana" : "けんとく",
+         "name_kanas" : {
+            "けんとく" : 1
+         },
+         "name_latn" : "Kentoku",
          "names" : {
             "建徳" : 1,
             "建德" : 1
@@ -7680,7 +8742,9 @@
             "kyuureki" : "1370-07-24",
             "kyuureki_era" : "建徳1-07-24"
          },
-         "south_start_year" : 1370
+         "south_start_year" : 1370,
+         "wref_en" : "Kentoku",
+         "wref_ja" : "建徳"
       },
       "建暦" : {
          "actual_end_day" : {
@@ -7705,6 +8769,11 @@
          "jp_era" : 1,
          "key" : "建暦",
          "name" : "建暦",
+         "name_kana" : "けんりゃく",
+         "name_kanas" : {
+            "けんりゃく" : 1
+         },
+         "name_latn" : "Kenryaku",
          "names" : {
             "建暦" : 1,
             "建曆" : 1
@@ -7729,13 +8798,20 @@
             "kyuureki" : "1211-03-09",
             "kyuureki_era" : "建暦1-03-09"
          },
-         "start_year" : 1211
+         "start_year" : 1211,
+         "wref_en" : "Kenryaku",
+         "wref_ja" : "建暦"
       },
       "建武" : {
          "jp_north_era" : 1,
          "jp_south_era" : 1,
          "key" : "建武",
          "name" : "建武",
+         "name_kana" : "けんむ",
+         "name_kanas" : {
+            "けんむ" : 1
+         },
+         "name_latn" : "Kemmu",
          "names" : {
             "建武" : 1
          },
@@ -7816,7 +8892,9 @@
             "kyuureki" : "1334-01-29",
             "kyuureki_era" : "建武1-01-29"
          },
-         "south_start_year" : 1334
+         "south_start_year" : 1334,
+         "wref_en" : "Kemmu",
+         "wref_ja" : "建武_(日本)"
       },
       "建永" : {
          "actual_end_day" : {
@@ -7841,6 +8919,11 @@
          "jp_era" : 1,
          "key" : "建永",
          "name" : "建永",
+         "name_kana" : "けんえい",
+         "name_kanas" : {
+            "けんえい" : 1
+         },
+         "name_latn" : "Ken'ei",
          "names" : {
             "建永" : 1
          },
@@ -7864,7 +8947,9 @@
             "kyuureki" : "1206-04-27",
             "kyuureki_era" : "建永1-04-27"
          },
-         "start_year" : 1206
+         "start_year" : 1206,
+         "wref_en" : "Ken'ei",
+         "wref_ja" : "建永"
       },
       "建治" : {
          "actual_end_day" : {
@@ -7889,6 +8974,11 @@
          "jp_era" : 1,
          "key" : "建治",
          "name" : "建治",
+         "name_kana" : "けんじ",
+         "name_kanas" : {
+            "けんじ" : 1
+         },
+         "name_latn" : "Kenji",
          "names" : {
             "建治" : 1
          },
@@ -7912,7 +9002,9 @@
             "kyuureki" : "1275-04-25",
             "kyuureki_era" : "建治1-04-25"
          },
-         "start_year" : 1275
+         "start_year" : 1275,
+         "wref_en" : "Kenji_(era)",
+         "wref_ja" : "建治"
       },
       "建長" : {
          "actual_end_day" : {
@@ -7937,6 +9029,11 @@
          "jp_era" : 1,
          "key" : "建長",
          "name" : "建長",
+         "name_kana" : "けんちょう",
+         "name_kanas" : {
+            "けんちょう" : 1
+         },
+         "name_latn" : "Kenchō",
          "names" : {
             "建長" : 1
          },
@@ -7960,7 +9057,9 @@
             "kyuureki" : "1249-03-18",
             "kyuureki_era" : "建長1-03-18"
          },
-         "start_year" : 1249
+         "start_year" : 1249,
+         "wref_en" : "Kenchō",
+         "wref_ja" : "建長"
       },
       "弘仁" : {
          "actual_end_day" : {
@@ -7985,6 +9084,11 @@
          "jp_era" : 1,
          "key" : "弘仁",
          "name" : "弘仁",
+         "name_kana" : "こうにん",
+         "name_kanas" : {
+            "こうにん" : 1
+         },
+         "name_latn" : "Kōnin",
          "names" : {
             "弘仁" : 1
          },
@@ -8008,7 +9112,9 @@
             "kyuureki" : "0810-09-19",
             "kyuureki_era" : "弘仁1-09-19"
          },
-         "start_year" : 810
+         "start_year" : 810,
+         "wref_en" : "Kōnin_(era)",
+         "wref_ja" : "弘仁"
       },
       "弘化" : {
          "actual_end_day" : {
@@ -8033,6 +9139,11 @@
          "jp_era" : 1,
          "key" : "弘化",
          "name" : "弘化",
+         "name_kana" : "こうか",
+         "name_kanas" : {
+            "こうか" : 1
+         },
+         "name_latn" : "Kōka",
          "names" : {
             "弘化" : 1
          },
@@ -8056,12 +9167,19 @@
             "kyuureki" : "1844-12-02",
             "kyuureki_era" : "弘化1-12-02"
          },
-         "start_year" : 1844
+         "start_year" : 1844,
+         "wref_en" : "Kōka",
+         "wref_ja" : "弘化"
       },
       "弘和" : {
          "jp_south_era" : 1,
          "key" : "弘和",
          "name" : "弘和",
+         "name_kana" : "こうわ",
+         "name_kanas" : {
+            "こうわ" : 1
+         },
+         "name_latn" : "Eitoku",
          "names" : {
             "弘和" : 1
          },
@@ -8104,7 +9222,9 @@
             "kyuureki" : "1381-02-10",
             "kyuureki_era" : "弘和1-02-10"
          },
-         "south_start_year" : 1381
+         "south_start_year" : 1381,
+         "wref_en" : "Eitoku",
+         "wref_ja" : "弘和"
       },
       "弘安" : {
          "actual_end_day" : {
@@ -8129,6 +9249,11 @@
          "jp_era" : 1,
          "key" : "弘安",
          "name" : "弘安",
+         "name_kana" : "こうあん",
+         "name_kanas" : {
+            "こうあん" : 1
+         },
+         "name_latn" : "Kōan",
          "names" : {
             "弘安" : 1
          },
@@ -8152,17 +9277,26 @@
             "kyuureki" : "1278-02-29",
             "kyuureki_era" : "弘安1-02-29"
          },
-         "start_year" : 1278
+         "start_year" : 1278,
+         "wref_en" : "Kōan_(Kamakura_period)",
+         "wref_ja" : "弘安"
       },
       "弘文天皇" : {
          "key" : "弘文天皇",
          "name" : "弘文天皇",
+         "name_kana" : "こうぶんてんのう",
+         "name_kanas" : {
+            "こうぶんてんのう" : 1
+         },
+         "name_latn" : "Kōbun-tennō",
          "names" : {
             "弘文" : 1,
             "弘文天皇" : 1
          },
          "offset" : 670,
-         "short_name" : "弘文"
+         "short_name" : "弘文",
+         "wref_en" : "Emperor_Kōbun",
+         "wref_ja" : "弘文天皇"
       },
       "弘治" : {
          "actual_end_day" : {
@@ -8187,6 +9321,11 @@
          "jp_era" : 1,
          "key" : "弘治",
          "name" : "弘治",
+         "name_kana" : "こうじ",
+         "name_kanas" : {
+            "こうじ" : 1
+         },
+         "name_latn" : "Kōji",
          "names" : {
             "弘治" : 1
          },
@@ -8210,7 +9349,9 @@
             "kyuureki" : "1555-10-23",
             "kyuureki_era" : "弘治1-10-23"
          },
-         "start_year" : 1555
+         "start_year" : 1555,
+         "wref_en" : "Kōji_(Muromachi_period)",
+         "wref_ja" : "弘治_(日本)"
       },
       "弘長" : {
          "actual_end_day" : {
@@ -8235,6 +9376,11 @@
          "jp_era" : 1,
          "key" : "弘長",
          "name" : "弘長",
+         "name_kana" : "こうちょう",
+         "name_kanas" : {
+            "こうちょう" : 1
+         },
+         "name_latn" : "Kōchō",
          "names" : {
             "弘長" : 1
          },
@@ -8258,7 +9404,9 @@
             "kyuureki" : "1261-02-20",
             "kyuureki_era" : "弘長1-02-20"
          },
-         "start_year" : 1261
+         "start_year" : 1261,
+         "wref_en" : "Kōchō",
+         "wref_ja" : "弘長"
       },
       "徳治" : {
          "actual_end_day" : {
@@ -8283,6 +9431,11 @@
          "jp_era" : 1,
          "key" : "徳治",
          "name" : "徳治",
+         "name_kana" : "とくじ",
+         "name_kanas" : {
+            "とくじ" : 1
+         },
+         "name_latn" : "Tokuji",
          "names" : {
             "徳治" : 1,
             "德治" : 1
@@ -8307,7 +9460,9 @@
             "kyuureki" : "1306-12-14",
             "kyuureki_era" : "徳治1-12-14"
          },
-         "start_year" : 1306
+         "start_year" : 1306,
+         "wref_en" : "Tokuji",
+         "wref_ja" : "徳治"
       },
       "応仁" : {
          "actual_end_day" : {
@@ -8332,6 +9487,11 @@
          "jp_era" : 1,
          "key" : "応仁",
          "name" : "応仁",
+         "name_kana" : "おうにん",
+         "name_kanas" : {
+            "おうにん" : 1
+         },
+         "name_latn" : "Ōnin",
          "names" : {
             "応仁" : 1,
             "應仁" : 1
@@ -8356,7 +9516,9 @@
             "kyuureki" : "1467-03-05",
             "kyuureki_era" : "応仁1-03-05"
          },
-         "start_year" : 1467
+         "start_year" : 1467,
+         "wref_en" : "Ōnin",
+         "wref_ja" : "応仁"
       },
       "応保" : {
          "actual_end_day" : {
@@ -8381,6 +9543,12 @@
          "jp_era" : 1,
          "key" : "応保",
          "name" : "応保",
+         "name_kana" : "おうほう",
+         "name_kanas" : {
+            "おうほ" : 1,
+            "おうほう" : 1
+         },
+         "name_latn" : "Ōhō",
          "names" : {
             "応保" : 1,
             "應保" : 1
@@ -8405,7 +9573,9 @@
             "kyuureki" : "1161-09-04",
             "kyuureki_era" : "応保1-09-04"
          },
-         "start_year" : 1161
+         "start_year" : 1161,
+         "wref_en" : "Ōhō",
+         "wref_ja" : "応保"
       },
       "応和" : {
          "actual_end_day" : {
@@ -8430,6 +9600,11 @@
          "jp_era" : 1,
          "key" : "応和",
          "name" : "応和",
+         "name_kana" : "おうわ",
+         "name_kanas" : {
+            "おうわ" : 1
+         },
+         "name_latn" : "Ōwa",
          "names" : {
             "応和" : 1,
             "應和" : 1
@@ -8454,12 +9629,19 @@
             "kyuureki" : "0961-02-16",
             "kyuureki_era" : "応和1-02-16"
          },
-         "start_year" : 961
+         "start_year" : 961,
+         "wref_en" : "Ōwa",
+         "wref_ja" : "応和"
       },
       "応安" : {
          "jp_north_era" : 1,
          "key" : "応安",
          "name" : "応安",
+         "name_kana" : "おうあん",
+         "name_kanas" : {
+            "おうあん" : 1
+         },
+         "name_latn" : "Ōan",
          "names" : {
             "応安" : 1,
             "應安" : 1
@@ -8503,7 +9685,9 @@
          },
          "north_start_year" : 1368,
          "offset" : 1367,
-         "short_name" : "応安"
+         "short_name" : "応安",
+         "wref_en" : "Ōan",
+         "wref_ja" : "応安"
       },
       "応徳" : {
          "actual_end_day" : {
@@ -8528,6 +9712,11 @@
          "jp_era" : 1,
          "key" : "応徳",
          "name" : "応徳",
+         "name_kana" : "おうとく",
+         "name_kanas" : {
+            "おうとく" : 1
+         },
+         "name_latn" : "Ōtoku",
          "names" : {
             "応徳" : 1,
             "応德" : 1,
@@ -8554,7 +9743,9 @@
             "kyuureki" : "1084-02-07",
             "kyuureki_era" : "応徳1-02-07"
          },
-         "start_year" : 1084
+         "start_year" : 1084,
+         "wref_en" : "Ōtoku",
+         "wref_ja" : "応徳"
       },
       "応永" : {
          "actual_end_day" : {
@@ -8579,6 +9770,11 @@
          "jp_era" : 1,
          "key" : "応永",
          "name" : "応永",
+         "name_kana" : "おうえい",
+         "name_kanas" : {
+            "おうえい" : 1
+         },
+         "name_latn" : "Ōei",
          "names" : {
             "応永" : 1,
             "應永" : 1
@@ -8603,7 +9799,9 @@
             "kyuureki" : "1394-07-05",
             "kyuureki_era" : "応永1-07-05"
          },
-         "start_year" : 1394
+         "start_year" : 1394,
+         "wref_en" : "Ōei",
+         "wref_ja" : "応永"
       },
       "応神天皇" : {
          "end_gregorian_day" : {
@@ -8637,6 +9835,11 @@
          "jp_emperor_era" : 1,
          "key" : "応神天皇",
          "name" : "応神天皇",
+         "name_kana" : "おうじんてんのう",
+         "name_kanas" : {
+            "おうじんてんのう" : 1
+         },
+         "name_latn" : "Ōjin-tennō",
          "names" : {
             "応神" : 1,
             "応神天皇" : 1,
@@ -8676,7 +9879,9 @@
             "kyuureki" : "0270-01-01",
             "kyuureki_era" : "応神天皇1-01-01"
          },
-         "start_year" : 270
+         "start_year" : 270,
+         "wref_en" : "Emperor_Ōjin",
+         "wref_ja" : "応神天皇"
       },
       "応長" : {
          "actual_end_day" : {
@@ -8701,6 +9906,11 @@
          "jp_era" : 1,
          "key" : "応長",
          "name" : "応長",
+         "name_kana" : "おうちょう",
+         "name_kanas" : {
+            "おうちょう" : 1
+         },
+         "name_latn" : "Ōchō",
          "names" : {
             "応長" : 1,
             "應長" : 1
@@ -8725,7 +9935,9 @@
             "kyuureki" : "1311-04-28",
             "kyuureki_era" : "応長1-04-28"
          },
-         "start_year" : 1311
+         "start_year" : 1311,
+         "wref_en" : "Ōchō",
+         "wref_ja" : "応長"
       },
       "慶安" : {
          "actual_end_day" : {
@@ -8750,6 +9962,11 @@
          "jp_era" : 1,
          "key" : "慶安",
          "name" : "慶安",
+         "name_kana" : "けいあん",
+         "name_kanas" : {
+            "けいあん" : 1
+         },
+         "name_latn" : "Keian",
          "names" : {
             "慶安" : 1
          },
@@ -8773,7 +9990,9 @@
             "kyuureki" : "1648-02-15",
             "kyuureki_era" : "慶安1-02-15"
          },
-         "start_year" : 1648
+         "start_year" : 1648,
+         "wref_en" : "Keian",
+         "wref_ja" : "慶安"
       },
       "慶応" : {
          "abbr" : "慶",
@@ -8799,6 +10018,11 @@
          "jp_era" : 1,
          "key" : "慶応",
          "name" : "慶応",
+         "name_kana" : "けいおう",
+         "name_kanas" : {
+            "けいおう" : 1
+         },
+         "name_latn" : "Keiō",
          "names" : {
             "慶" : 1,
             "慶応" : 1,
@@ -8824,7 +10048,9 @@
             "kyuureki" : "1865-04-07",
             "kyuureki_era" : "慶応1-04-07"
          },
-         "start_year" : 1865
+         "start_year" : 1865,
+         "wref_en" : "Keiō",
+         "wref_ja" : "慶応"
       },
       "慶長" : {
          "actual_end_day" : {
@@ -8849,6 +10075,11 @@
          "jp_era" : 1,
          "key" : "慶長",
          "name" : "慶長",
+         "name_kana" : "けいちょう",
+         "name_kanas" : {
+            "けいちょう" : 1
+         },
+         "name_latn" : "Keichō",
          "names" : {
             "慶長" : 1
          },
@@ -8872,7 +10103,9 @@
             "kyuureki" : "1596-10-27",
             "kyuureki_era" : "慶長1-10-27"
          },
-         "start_year" : 1596
+         "start_year" : 1596,
+         "wref_en" : "Keichō",
+         "wref_ja" : "慶長"
       },
       "慶雲" : {
          "actual_end_day" : {
@@ -8897,6 +10130,12 @@
          "jp_era" : 1,
          "key" : "慶雲",
          "name" : "慶雲",
+         "name_kana" : "けいうん",
+         "name_kanas" : {
+            "きょううん" : 1,
+            "けいうん" : 1
+         },
+         "name_latn" : "Keiun",
          "names" : {
             "慶雲" : 1
          },
@@ -8920,7 +10159,9 @@
             "kyuureki" : "0704-05-10",
             "kyuureki_era" : "慶雲1-05-10"
          },
-         "start_year" : 704
+         "start_year" : 704,
+         "wref_en" : "Keiun",
+         "wref_ja" : "慶雲"
       },
       "懿徳天皇" : {
          "end_gregorian_day" : {
@@ -8954,6 +10195,11 @@
          "jp_emperor_era" : 1,
          "key" : "懿徳天皇",
          "name" : "懿徳天皇",
+         "name_kana" : "いとくてんのう",
+         "name_kanas" : {
+            "いとくてんのう" : 1
+         },
+         "name_latn" : "Itoku-tennō",
          "names" : {
             "懿徳" : 1,
             "懿徳天皇" : 1,
@@ -8989,7 +10235,9 @@
             "kyuureki" : "-0509-01-01",
             "kyuureki_era" : "懿徳天皇1-01-01"
          },
-         "start_year" : -509
+         "start_year" : -509,
+         "wref_en" : "Emperor_Itoku",
+         "wref_ja" : "懿徳天皇"
       },
       "成務天皇" : {
          "end_gregorian_day" : {
@@ -9023,6 +10271,11 @@
          "jp_emperor_era" : 1,
          "key" : "成務天皇",
          "name" : "成務天皇",
+         "name_kana" : "せいむてんのう",
+         "name_kanas" : {
+            "せいむてんのう" : 1
+         },
+         "name_latn" : "Seimu-tennō",
          "names" : {
             "成務" : 1,
             "成務天皇" : 1
@@ -9056,7 +10309,9 @@
             "kyuureki" : "0131-01-01",
             "kyuureki_era" : "成務天皇1-01-01"
          },
-         "start_year" : 131
+         "start_year" : 131,
+         "wref_en" : "Emperor_Seimu",
+         "wref_ja" : "成務天皇"
       },
       "承久" : {
          "actual_end_day" : {
@@ -9081,6 +10336,11 @@
          "jp_era" : 1,
          "key" : "承久",
          "name" : "承久",
+         "name_kana" : "じょうきゅう",
+         "name_kanas" : {
+            "じょうきゅう" : 1
+         },
+         "name_latn" : "Jōkyū",
          "names" : {
             "承久" : 1
          },
@@ -9104,7 +10364,9 @@
             "kyuureki" : "1219-04-12",
             "kyuureki_era" : "承久1-04-12"
          },
-         "start_year" : 1219
+         "start_year" : 1219,
+         "wref_en" : "Jōkyū",
+         "wref_ja" : "承久"
       },
       "承保" : {
          "actual_end_day" : {
@@ -9129,6 +10391,12 @@
          "jp_era" : 1,
          "key" : "承保",
          "name" : "承保",
+         "name_kana" : "じょうほう",
+         "name_kanas" : {
+            "しょうほう" : 1,
+            "じょうほう" : 1
+         },
+         "name_latn" : "Jōhō",
          "names" : {
             "承保" : 1
          },
@@ -9152,7 +10420,9 @@
             "kyuureki" : "1074-08-23",
             "kyuureki_era" : "承保1-08-23"
          },
-         "start_year" : 1074
+         "start_year" : 1074,
+         "wref_en" : "Jōhō",
+         "wref_ja" : "承保"
       },
       "承元" : {
          "actual_end_day" : {
@@ -9177,6 +10447,11 @@
          "jp_era" : 1,
          "key" : "承元",
          "name" : "承元",
+         "name_kana" : "じょうげん",
+         "name_kanas" : {
+            "じょうげん" : 1
+         },
+         "name_latn" : "Jōgen",
          "names" : {
             "承元" : 1
          },
@@ -9200,7 +10475,9 @@
             "kyuureki" : "1207-10-25",
             "kyuureki_era" : "承元1-10-25"
          },
-         "start_year" : 1207
+         "start_year" : 1207,
+         "wref_en" : "Jōgen_(Kamakura_period)",
+         "wref_ja" : "承元"
       },
       "承和" : {
          "actual_end_day" : {
@@ -9225,6 +10502,12 @@
          "jp_era" : 1,
          "key" : "承和",
          "name" : "承和",
+         "name_kana" : "じょうわ",
+         "name_kanas" : {
+            "しょうわ" : 1,
+            "じょうわ" : 1
+         },
+         "name_latn" : "Jōwa",
          "names" : {
             "承和" : 1
          },
@@ -9248,7 +10531,9 @@
             "kyuureki" : "0834-01-03",
             "kyuureki_era" : "承和1-01-03"
          },
-         "start_year" : 834
+         "start_year" : 834,
+         "wref_en" : "Jōwa_(Heian_period)",
+         "wref_ja" : "承和_(日本)"
       },
       "承安" : {
          "actual_end_day" : {
@@ -9273,6 +10558,11 @@
          "jp_era" : 1,
          "key" : "承安",
          "name" : "承安",
+         "name_kana" : "しょうあん",
+         "name_kanas" : {
+            "しょうあん" : 1
+         },
+         "name_latn" : "Jōan",
          "names" : {
             "承安" : 1
          },
@@ -9296,7 +10586,9 @@
             "kyuureki" : "1171-04-21",
             "kyuureki_era" : "承安1-04-21"
          },
-         "start_year" : 1171
+         "start_year" : 1171,
+         "wref_en" : "Jōan_(era)",
+         "wref_ja" : "承安_(日本)"
       },
       "承平" : {
          "actual_end_day" : {
@@ -9321,6 +10613,12 @@
          "jp_era" : 1,
          "key" : "承平",
          "name" : "承平",
+         "name_kana" : "じょうへい",
+         "name_kanas" : {
+            "しょうへい" : 1,
+            "じょうへい" : 1
+         },
+         "name_latn" : "Jōhei",
          "names" : {
             "承平" : 1
          },
@@ -9344,7 +10642,9 @@
             "kyuureki" : "0931-04-26",
             "kyuureki_era" : "承平1-04-26"
          },
-         "start_year" : 931
+         "start_year" : 931,
+         "wref_en" : "Jōhei",
+         "wref_ja" : "承平_(日本)"
       },
       "承徳" : {
          "actual_end_day" : {
@@ -9369,6 +10669,12 @@
          "jp_era" : 1,
          "key" : "承徳",
          "name" : "承徳",
+         "name_kana" : "じょうとく",
+         "name_kanas" : {
+            "しょうとく" : 1,
+            "じょうとく" : 1
+         },
+         "name_latn" : "Jōtoku",
          "names" : {
             "承徳" : 1,
             "承德" : 1
@@ -9393,7 +10699,9 @@
             "kyuureki" : "1097-11-21",
             "kyuureki_era" : "承徳1-11-21"
          },
-         "start_year" : 1097
+         "start_year" : 1097,
+         "wref_en" : "Jōtoku",
+         "wref_ja" : "承徳"
       },
       "承応" : {
          "actual_end_day" : {
@@ -9418,6 +10726,11 @@
          "jp_era" : 1,
          "key" : "承応",
          "name" : "承応",
+         "name_kana" : "じょうおう",
+         "name_kanas" : {
+            "じょうおう" : 1
+         },
+         "name_latn" : "Jōō",
          "names" : {
             "承応" : 1,
             "承應" : 1
@@ -9442,7 +10755,9 @@
             "kyuureki" : "1652-09-18",
             "kyuureki_era" : "承応1-09-18"
          },
-         "start_year" : 1652
+         "start_year" : 1652,
+         "wref_en" : "Jōō_(Edo_period)",
+         "wref_ja" : "承応"
       },
       "承暦" : {
          "actual_end_day" : {
@@ -9467,6 +10782,12 @@
          "jp_era" : 1,
          "key" : "承暦",
          "name" : "承暦",
+         "name_kana" : "じょうりゃく",
+         "name_kanas" : {
+            "しょうりゃく" : 1,
+            "じょうりゃく" : 1
+         },
+         "name_latn" : "Jōryaku",
          "names" : {
             "承暦" : 1,
             "承曆" : 1
@@ -9491,7 +10812,9 @@
             "kyuureki" : "1077-11-17",
             "kyuureki_era" : "承暦1-11-17"
          },
-         "start_year" : 1077
+         "start_year" : 1077,
+         "wref_en" : "Jōryaku",
+         "wref_ja" : "承暦"
       },
       "持統天皇" : {
          "actual_end_day" : {
@@ -9516,6 +10839,11 @@
          "jp_emperor_era" : 1,
          "key" : "持統天皇",
          "name" : "持統天皇",
+         "name_kana" : "じとうてんのう",
+         "name_kanas" : {
+            "じとうてんのう" : 1
+         },
+         "name_latn" : "Jitō-tennō",
          "names" : {
             "持統" : 1,
             "持統天皇" : 1
@@ -9549,7 +10877,9 @@
             "kyuureki" : "0687-01-01",
             "kyuureki_era" : "持統天皇1-01-01"
          },
-         "start_year" : 687
+         "start_year" : 687,
+         "wref_en" : "Emperor_Jitō",
+         "wref_ja" : "持統天皇"
       },
       "推古天皇" : {
          "end_gregorian_day" : {
@@ -9583,6 +10913,11 @@
          "jp_emperor_era" : 1,
          "key" : "推古天皇",
          "name" : "推古天皇",
+         "name_kana" : "すいこてんのう",
+         "name_kanas" : {
+            "すいこてんのう" : 1
+         },
+         "name_latn" : "Suiko-tennō",
          "names" : {
             "推古" : 1,
             "推古天皇" : 1
@@ -9616,7 +10951,9 @@
             "kyuureki" : "0593-01-01",
             "kyuureki_era" : "推古天皇1-01-01"
          },
-         "start_year" : 593
+         "start_year" : 593,
+         "wref_en" : "Emperor_Suiko",
+         "wref_ja" : "推古天皇"
       },
       "敏達天皇" : {
          "end_gregorian_day" : {
@@ -9650,9 +10987,16 @@
          "jp_emperor_era" : 1,
          "key" : "敏達天皇",
          "name" : "敏達天皇",
+         "name_kana" : "びだつてんのう",
+         "name_kanas" : {
+            "びだつてんのう" : 1
+         },
+         "name_latn" : "Bidatsu-tennō",
          "names" : {
             "敏達" : 1,
-            "敏達天皇" : 1
+            "敏達天皇" : 1,
+            "敏達" : 1,
+            "敏達天皇" : 1
          },
          "offset" : 571,
          "short_name" : "敏達",
@@ -9683,12 +11027,19 @@
             "kyuureki" : "0572-01-01",
             "kyuureki_era" : "敏達天皇1-01-01"
          },
-         "start_year" : 572
+         "start_year" : 572,
+         "wref_en" : "Emperor_Bidatsu",
+         "wref_ja" : "敏達天皇"
       },
       "文中" : {
          "jp_south_era" : 1,
          "key" : "文中",
          "name" : "文中",
+         "name_kana" : "ぶんちゅう",
+         "name_kanas" : {
+            "ぶんちゅう" : 1
+         },
+         "name_latn" : "Bunchū",
          "names" : {
             "文中" : 1
          },
@@ -9731,7 +11082,9 @@
             "kyuureki" : "1372-04-28",
             "kyuureki_era" : "文中1-04-28"
          },
-         "south_start_year" : 1372
+         "south_start_year" : 1372,
+         "wref_en" : "Bunchū",
+         "wref_ja" : "文中"
       },
       "文久" : {
          "actual_end_day" : {
@@ -9756,6 +11109,11 @@
          "jp_era" : 1,
          "key" : "文久",
          "name" : "文久",
+         "name_kana" : "ぶんきゅう",
+         "name_kanas" : {
+            "ぶんきゅう" : 1
+         },
+         "name_latn" : "Bunkyū",
          "names" : {
             "文久" : 1
          },
@@ -9779,7 +11137,9 @@
             "kyuureki" : "1861-02-19",
             "kyuureki_era" : "文久1-02-19"
          },
-         "start_year" : 1861
+         "start_year" : 1861,
+         "wref_en" : "Bunkyū",
+         "wref_ja" : "文久"
       },
       "文亀" : {
          "actual_end_day" : {
@@ -9804,6 +11164,11 @@
          "jp_era" : 1,
          "key" : "文亀",
          "name" : "文亀",
+         "name_kana" : "ぶんき",
+         "name_kanas" : {
+            "ぶんき" : 1
+         },
+         "name_latn" : "Bunki",
          "names" : {
             "文亀" : 1,
             "文龜" : 1,
@@ -9829,7 +11194,9 @@
             "kyuureki" : "1501-02-29",
             "kyuureki_era" : "文亀1-02-29"
          },
-         "start_year" : 1501
+         "start_year" : 1501,
+         "wref_en" : "Bunki",
+         "wref_ja" : "文亀"
       },
       "文保" : {
          "actual_end_day" : {
@@ -9854,6 +11221,11 @@
          "jp_era" : 1,
          "key" : "文保",
          "name" : "文保",
+         "name_kana" : "ぶんぽう",
+         "name_kanas" : {
+            "ぶんぽう" : 1
+         },
+         "name_latn" : "Bunpō",
          "names" : {
             "文保" : 1
          },
@@ -9877,7 +11249,9 @@
             "kyuureki" : "1317-02-03",
             "kyuureki_era" : "文保1-02-03"
          },
-         "start_year" : 1317
+         "start_year" : 1317,
+         "wref_en" : "Bunpō",
+         "wref_ja" : "文保"
       },
       "文化" : {
          "actual_end_day" : {
@@ -9902,6 +11276,11 @@
          "jp_era" : 1,
          "key" : "文化",
          "name" : "文化",
+         "name_kana" : "ぶんか",
+         "name_kanas" : {
+            "ぶんか" : 1
+         },
+         "name_latn" : "Bunka",
          "names" : {
             "文化" : 1
          },
@@ -9925,12 +11304,20 @@
             "kyuureki" : "1804-02-11",
             "kyuureki_era" : "文化1-02-11"
          },
-         "start_year" : 1804
+         "start_year" : 1804,
+         "wref_en" : "Bunka",
+         "wref_ja" : "文化_(元号)"
       },
       "文和" : {
          "jp_north_era" : 1,
          "key" : "文和",
          "name" : "文和",
+         "name_kana" : "ぶんな",
+         "name_kanas" : {
+            "ぶんな" : 1,
+            "ぶんわ" : 1
+         },
+         "name_latn" : "Bunna",
          "names" : {
             "文和" : 1
          },
@@ -9973,7 +11360,9 @@
          },
          "north_start_year" : 1352,
          "offset" : 1351,
-         "short_name" : "文和"
+         "short_name" : "文和",
+         "wref_en" : "Bunna",
+         "wref_ja" : "文和"
       },
       "文安" : {
          "actual_end_day" : {
@@ -9998,6 +11387,11 @@
          "jp_era" : 1,
          "key" : "文安",
          "name" : "文安",
+         "name_kana" : "ぶんあん",
+         "name_kanas" : {
+            "ぶんあん" : 1
+         },
+         "name_latn" : "Bun'an",
          "names" : {
             "文安" : 1
          },
@@ -10021,7 +11415,9 @@
             "kyuureki" : "1444-02-05",
             "kyuureki_era" : "文安1-02-05"
          },
-         "start_year" : 1444
+         "start_year" : 1444,
+         "wref_en" : "Bun'an",
+         "wref_ja" : "文安"
       },
       "文応" : {
          "actual_end_day" : {
@@ -10046,6 +11442,11 @@
          "jp_era" : 1,
          "key" : "文応",
          "name" : "文応",
+         "name_kana" : "ぶんおう",
+         "name_kanas" : {
+            "ぶんおう" : 1
+         },
+         "name_latn" : "Bun'ō",
          "names" : {
             "文応" : 1,
             "文應" : 1
@@ -10070,7 +11471,9 @@
             "kyuureki" : "1260-04-13",
             "kyuureki_era" : "文応1-04-13"
          },
-         "start_year" : 1260
+         "start_year" : 1260,
+         "wref_en" : "Bun'ō",
+         "wref_ja" : "文応"
       },
       "文政" : {
          "actual_end_day" : {
@@ -10095,6 +11498,11 @@
          "jp_era" : 1,
          "key" : "文政",
          "name" : "文政",
+         "name_kana" : "ぶんせい",
+         "name_kanas" : {
+            "ぶんせい" : 1
+         },
+         "name_latn" : "Bunsei",
          "names" : {
             "文政" : 1
          },
@@ -10118,7 +11526,9 @@
             "kyuureki" : "1818-04-22",
             "kyuureki_era" : "文政1-04-22"
          },
-         "start_year" : 1818
+         "start_year" : 1818,
+         "wref_en" : "Bunsei",
+         "wref_ja" : "文政"
       },
       "文明" : {
          "actual_end_day" : {
@@ -10143,6 +11553,11 @@
          "jp_era" : 1,
          "key" : "文明",
          "name" : "文明",
+         "name_kana" : "ぶんめい",
+         "name_kanas" : {
+            "ぶんめい" : 1
+         },
+         "name_latn" : "Bunmei",
          "names" : {
             "文明" : 1
          },
@@ -10166,7 +11581,9 @@
             "kyuureki" : "1469-04-28",
             "kyuureki_era" : "文明1-04-28"
          },
-         "start_year" : 1469
+         "start_year" : 1469,
+         "wref_en" : "Bunmei",
+         "wref_ja" : "文明_(日本)"
       },
       "文暦" : {
          "actual_end_day" : {
@@ -10191,6 +11608,11 @@
          "jp_era" : 1,
          "key" : "文暦",
          "name" : "文暦",
+         "name_kana" : "ぶんりゃく",
+         "name_kanas" : {
+            "ぶんりゃく" : 1
+         },
+         "name_latn" : "Bunryaku",
          "names" : {
             "文暦" : 1,
             "文曆" : 1
@@ -10215,7 +11637,9 @@
             "kyuureki" : "1234-11-05",
             "kyuureki_era" : "文暦1-11-05"
          },
-         "start_year" : 1234
+         "start_year" : 1234,
+         "wref_en" : "Bunryaku",
+         "wref_ja" : "文暦"
       },
       "文正" : {
          "actual_end_day" : {
@@ -10240,6 +11664,11 @@
          "jp_era" : 1,
          "key" : "文正",
          "name" : "文正",
+         "name_kana" : "ぶんしょう",
+         "name_kanas" : {
+            "ぶんしょう" : 1
+         },
+         "name_latn" : "Bunshō",
          "names" : {
             "文正" : 1
          },
@@ -10263,7 +11692,9 @@
             "kyuureki" : "1466-02-28",
             "kyuureki_era" : "文正1-02-28"
          },
-         "start_year" : 1466
+         "start_year" : 1466,
+         "wref_en" : "Bunshō",
+         "wref_ja" : "文正"
       },
       "文武天皇" : {
          "actual_end_day" : {
@@ -10288,6 +11719,11 @@
          "jp_emperor_era" : 1,
          "key" : "文武天皇",
          "name" : "文武天皇",
+         "name_kana" : "もんむてんのう",
+         "name_kanas" : {
+            "もんむてんのう" : 1
+         },
+         "name_latn" : "Monmu-tennō",
          "names" : {
             "文武" : 1,
             "文武天皇" : 1
@@ -10303,7 +11739,9 @@
             "kyuureki" : "0697-08-01",
             "kyuureki_era" : "文武天皇1-08-01"
          },
-         "start_year" : 697
+         "start_year" : 697,
+         "wref_en" : "Emperor_Monmu",
+         "wref_ja" : "文武天皇"
       },
       "文永" : {
          "actual_end_day" : {
@@ -10328,6 +11766,11 @@
          "jp_era" : 1,
          "key" : "文永",
          "name" : "文永",
+         "name_kana" : "ぶんえい",
+         "name_kanas" : {
+            "ぶんえい" : 1
+         },
+         "name_latn" : "Bun'ei",
          "names" : {
             "文永" : 1
          },
@@ -10351,7 +11794,9 @@
             "kyuureki" : "1264-02-28",
             "kyuureki_era" : "文永1-02-28"
          },
-         "start_year" : 1264
+         "start_year" : 1264,
+         "wref_en" : "Bun'ei",
+         "wref_ja" : "文永"
       },
       "文治" : {
          "actual_end_day" : {
@@ -10376,6 +11821,11 @@
          "jp_era" : 1,
          "key" : "文治",
          "name" : "文治",
+         "name_kana" : "ぶんじ",
+         "name_kanas" : {
+            "ぶんじ" : 1
+         },
+         "name_latn" : "Bunji",
          "names" : {
             "文治" : 1
          },
@@ -10399,7 +11849,9 @@
             "kyuureki" : "1185-08-14",
             "kyuureki_era" : "文治1-08-14"
          },
-         "start_year" : 1185
+         "start_year" : 1185,
+         "wref_en" : "Bunji_(era)",
+         "wref_ja" : "文治"
       },
       "文禄" : {
          "actual_end_day" : {
@@ -10424,6 +11876,11 @@
          "jp_era" : 1,
          "key" : "文禄",
          "name" : "文禄",
+         "name_kana" : "ぶんろく",
+         "name_kanas" : {
+            "ぶんろく" : 1
+         },
+         "name_latn" : "Bunroku",
          "names" : {
             "文祿" : 1,
             "文禄" : 1
@@ -10448,7 +11905,9 @@
             "kyuureki" : "1592-12-08",
             "kyuureki_era" : "文禄1-12-08"
          },
-         "start_year" : 1592
+         "start_year" : 1592,
+         "wref_en" : "Bunroku",
+         "wref_ja" : "文禄"
       },
       "斉明天皇" : {
          "end_gregorian_day" : {
@@ -10482,6 +11941,11 @@
          "jp_emperor_era" : 1,
          "key" : "斉明天皇",
          "name" : "斉明天皇",
+         "name_kana" : "さいめいてんのう",
+         "name_kanas" : {
+            "さいめいてんのう" : 1
+         },
+         "name_latn" : "Saimei-tennō",
          "names" : {
             "斉明" : 1,
             "斉明天皇" : 1,
@@ -10521,7 +11985,9 @@
             "kyuureki" : "0655-01-01",
             "kyuureki_era" : "斉明天皇1-01-01"
          },
-         "start_year" : 655
+         "start_year" : 655,
+         "wref_en" : "Emperor_Saimei",
+         "wref_ja" : "斉明天皇"
       },
       "斉衡" : {
          "actual_end_day" : {
@@ -10546,6 +12012,11 @@
          "jp_era" : 1,
          "key" : "斉衡",
          "name" : "斉衡",
+         "name_kana" : "さいこう",
+         "name_kanas" : {
+            "さいこう" : 1
+         },
+         "name_latn" : "Saikō",
          "names" : {
             "斉衡" : 1,
             "斎衡" : 1,
@@ -10572,7 +12043,9 @@
             "kyuureki" : "0854-11-30",
             "kyuureki_era" : "斉衡1-11-30"
          },
-         "start_year" : 854
+         "start_year" : 854,
+         "wref_en" : "Saikō",
+         "wref_ja" : "斉衡"
       },
       "昌泰" : {
          "actual_end_day" : {
@@ -10597,6 +12070,11 @@
          "jp_era" : 1,
          "key" : "昌泰",
          "name" : "昌泰",
+         "name_kana" : "しょうたい",
+         "name_kanas" : {
+            "しょうたい" : 1
+         },
+         "name_latn" : "Shōtai",
          "names" : {
             "昌泰" : 1
          },
@@ -10620,7 +12098,9 @@
             "kyuureki" : "0898-04-26",
             "kyuureki_era" : "昌泰1-04-26"
          },
-         "start_year" : 898
+         "start_year" : 898,
+         "wref_en" : "Shōtai",
+         "wref_ja" : "昌泰"
       },
       "明和" : {
          "actual_end_day" : {
@@ -10645,6 +12125,11 @@
          "jp_era" : 1,
          "key" : "明和",
          "name" : "明和",
+         "name_kana" : "めいわ",
+         "name_kanas" : {
+            "めいわ" : 1
+         },
+         "name_latn" : "Meiwa",
          "names" : {
             "明和" : 1
          },
@@ -10668,13 +12153,20 @@
             "kyuureki" : "1764-06-02",
             "kyuureki_era" : "明和1-06-02"
          },
-         "start_year" : 1764
+         "start_year" : 1764,
+         "wref_en" : "Meiwa",
+         "wref_ja" : "明和"
       },
       "明徳" : {
          "jp_north_era" : 1,
          "jp_south_era" : 1,
          "key" : "明徳",
          "name" : "明徳",
+         "name_kana" : "めいとく",
+         "name_kanas" : {
+            "めいとく" : 1
+         },
+         "name_latn" : "Meitoku",
          "names" : {
             "明徳" : 1,
             "明德" : 1
@@ -10756,7 +12248,9 @@
             "kyuureki" : "1392-10'-05",
             "kyuureki_era" : "明徳3-10'-05"
          },
-         "south_start_year" : 1392
+         "south_start_year" : 1392,
+         "wref_en" : "Meitoku",
+         "wref_ja" : "明徳"
       },
       "明応" : {
          "actual_end_day" : {
@@ -10781,6 +12275,11 @@
          "jp_era" : 1,
          "key" : "明応",
          "name" : "明応",
+         "name_kana" : "めいおう",
+         "name_kanas" : {
+            "めいおう" : 1
+         },
+         "name_latn" : "Meiō",
          "names" : {
             "明応" : 1,
             "明應" : 1
@@ -10805,7 +12304,9 @@
             "kyuureki" : "1492-07-19",
             "kyuureki_era" : "明応1-07-19"
          },
-         "start_year" : 1492
+         "start_year" : 1492,
+         "wref_en" : "Meiō",
+         "wref_ja" : "明応"
       },
       "明暦" : {
          "actual_end_day" : {
@@ -10830,6 +12331,11 @@
          "jp_era" : 1,
          "key" : "明暦",
          "name" : "明暦",
+         "name_kana" : "めいれき",
+         "name_kanas" : {
+            "めいれき" : 1
+         },
+         "name_latn" : "Meireki",
          "names" : {
             "明暦" : 1,
             "明曆" : 1
@@ -10854,7 +12360,9 @@
             "kyuureki" : "1655-04-13",
             "kyuureki_era" : "明暦1-04-13"
          },
-         "start_year" : 1655
+         "start_year" : 1655,
+         "wref_en" : "Meireki",
+         "wref_ja" : "明暦"
       },
       "明治" : {
          "abbr" : "明",
@@ -10881,6 +12389,11 @@
          "jp_era" : 1,
          "key" : "明治",
          "name" : "明治",
+         "name_kana" : "めいじ",
+         "name_kanas" : {
+            "めいじ" : 1
+         },
+         "name_latn" : "Meiji",
          "names" : {
             "M" : 1,
             "m" : 1,
@@ -10908,7 +12421,9 @@
             "kyuureki" : "1868-09-08",
             "kyuureki_era" : "明治1-09-08"
          },
-         "start_year" : 1868
+         "start_year" : 1868,
+         "wref_en" : "Meiji_period",
+         "wref_ja" : "明治"
       },
       "昭和" : {
          "abbr" : "昭",
@@ -10935,6 +12450,11 @@
          "jp_era" : 1,
          "key" : "昭和",
          "name" : "昭和",
+         "name_kana" : "しょうわ",
+         "name_kanas" : {
+            "しょうわ" : 1
+         },
+         "name_latn" : "Shōwa",
          "names" : {
             "S" : 1,
             "s" : 1,
@@ -10962,7 +12482,9 @@
             "kyuureki" : "1926-11-21",
             "kyuureki_era" : "昭和1-11-21"
          },
-         "start_year" : 1926
+         "start_year" : 1926,
+         "wref_en" : "Shōwa_period",
+         "wref_ja" : "昭和"
       },
       "景行天皇" : {
          "end_gregorian_day" : {
@@ -10996,6 +12518,11 @@
          "jp_emperor_era" : 1,
          "key" : "景行天皇",
          "name" : "景行天皇",
+         "name_kana" : "けいこうてんのう",
+         "name_kanas" : {
+            "けいこうてんのう" : 1
+         },
+         "name_latn" : "Keikō-tennō",
          "names" : {
             "景行" : 1,
             "景行天皇" : 1
@@ -11029,7 +12556,9 @@
             "kyuureki" : "0071-01-01",
             "kyuureki_era" : "景行天皇1-01-01"
          },
-         "start_year" : 71
+         "start_year" : 71,
+         "wref_en" : "Emperor_Keikō",
+         "wref_ja" : "景行天皇"
       },
       "暦仁" : {
          "actual_end_day" : {
@@ -11054,6 +12583,11 @@
          "jp_era" : 1,
          "key" : "暦仁",
          "name" : "暦仁",
+         "name_kana" : "りゃくにん",
+         "name_kanas" : {
+            "りゃくにん" : 1
+         },
+         "name_latn" : "Ryakunin",
          "names" : {
             "暦仁" : 1,
             "曆仁" : 1
@@ -11078,12 +12612,20 @@
             "kyuureki" : "1238-11-23",
             "kyuureki_era" : "暦仁1-11-23"
          },
-         "start_year" : 1238
+         "start_year" : 1238,
+         "wref_en" : "Ryakunin",
+         "wref_ja" : "暦仁"
       },
       "暦応" : {
          "jp_north_era" : 1,
          "key" : "暦応",
          "name" : "暦応",
+         "name_kana" : "りゃくおう",
+         "name_kanas" : {
+            "りゃくおう" : 1,
+            "れきおう" : 1
+         },
+         "name_latn" : "Ryakuō",
          "names" : {
             "暦応" : 1,
             "暦應" : 1,
@@ -11129,7 +12671,9 @@
          },
          "north_start_year" : 1338,
          "offset" : 1337,
-         "short_name" : "暦応"
+         "short_name" : "暦応",
+         "wref_en" : "Ryakuō",
+         "wref_ja" : "暦応"
       },
       "朱鳥" : {
          "end_gregorian_day" : {
@@ -11163,6 +12707,13 @@
          "jp_era" : 1,
          "key" : "朱鳥",
          "name" : "朱鳥",
+         "name_kana" : "しゅちょう",
+         "name_kanas" : {
+            "あかみどり" : 1,
+            "しゅちょう" : 1,
+            "すちょう" : 1
+         },
+         "name_latn" : "Shuchō",
          "names" : {
             "朱鳥" : 1
          },
@@ -11186,7 +12737,9 @@
             "kyuureki" : "0686-07-20",
             "kyuureki_era" : "朱鳥1-07-20"
          },
-         "start_year" : 686
+         "start_year" : 686,
+         "wref_en" : "Shuchō",
+         "wref_ja" : "朱鳥"
       },
       "欽明天皇" : {
          "end_gregorian_day" : {
@@ -11220,6 +12773,11 @@
          "jp_emperor_era" : 1,
          "key" : "欽明天皇",
          "name" : "欽明天皇",
+         "name_kana" : "きんめいてんのう",
+         "name_kanas" : {
+            "きんめいてんのう" : 1
+         },
+         "name_latn" : "Kinmei-tennō",
          "names" : {
             "欽明" : 1,
             "欽明天皇" : 1
@@ -11253,7 +12811,9 @@
             "kyuureki" : "0540-01-01",
             "kyuureki_era" : "欽明天皇1-01-01"
          },
-         "start_year" : 540
+         "start_year" : 540,
+         "wref_en" : "Emperor_Kinmei",
+         "wref_ja" : "欽明天皇"
       },
       "正中" : {
          "actual_end_day" : {
@@ -11278,6 +12838,11 @@
          "jp_era" : 1,
          "key" : "正中",
          "name" : "正中",
+         "name_kana" : "しょうちゅう",
+         "name_kanas" : {
+            "しょうちゅう" : 1
+         },
+         "name_latn" : "Shōchū",
          "names" : {
             "正中" : 1
          },
@@ -11301,7 +12866,9 @@
             "kyuureki" : "1324-12-09",
             "kyuureki_era" : "正中1-12-09"
          },
-         "start_year" : 1324
+         "start_year" : 1324,
+         "wref_en" : "Shōchū_(era)",
+         "wref_ja" : "正中_(元号)"
       },
       "正保" : {
          "actual_end_day" : {
@@ -11326,6 +12893,11 @@
          "jp_era" : 1,
          "key" : "正保",
          "name" : "正保",
+         "name_kana" : "しょうほう",
+         "name_kanas" : {
+            "しょうほう" : 1
+         },
+         "name_latn" : "Shōhō",
          "names" : {
             "正保" : 1
          },
@@ -11349,7 +12921,9 @@
             "kyuureki" : "1644-12-16",
             "kyuureki_era" : "正保1-12-16"
          },
-         "start_year" : 1644
+         "start_year" : 1644,
+         "wref_en" : "Shōhō",
+         "wref_ja" : "正保"
       },
       "正元" : {
          "actual_end_day" : {
@@ -11374,6 +12948,11 @@
          "jp_era" : 1,
          "key" : "正元",
          "name" : "正元",
+         "name_kana" : "しょうげん",
+         "name_kanas" : {
+            "しょうげん" : 1
+         },
+         "name_latn" : "Shōgen",
          "names" : {
             "正元" : 1
          },
@@ -11397,7 +12976,9 @@
             "kyuureki" : "1259-03-26",
             "kyuureki_era" : "正元1-03-26"
          },
-         "start_year" : 1259
+         "start_year" : 1259,
+         "wref_en" : "Shōgen",
+         "wref_ja" : "正元_(日本)"
       },
       "正和" : {
          "actual_end_day" : {
@@ -11422,6 +13003,11 @@
          "jp_era" : 1,
          "key" : "正和",
          "name" : "正和",
+         "name_kana" : "しょうわ",
+         "name_kanas" : {
+            "しょうわ" : 1
+         },
+         "name_latn" : "Shōwa",
          "names" : {
             "正和" : 1
          },
@@ -11445,7 +13031,9 @@
             "kyuureki" : "1312-03-20",
             "kyuureki_era" : "正和1-03-20"
          },
-         "start_year" : 1312
+         "start_year" : 1312,
+         "wref_en" : "Shōwa_(Kamakura_period)",
+         "wref_ja" : "正和"
       },
       "正嘉" : {
          "actual_end_day" : {
@@ -11470,6 +13058,11 @@
          "jp_era" : 1,
          "key" : "正嘉",
          "name" : "正嘉",
+         "name_kana" : "しょうか",
+         "name_kanas" : {
+            "しょうか" : 1
+         },
+         "name_latn" : "Shōka",
          "names" : {
             "正嘉" : 1
          },
@@ -11493,7 +13086,9 @@
             "kyuureki" : "1257-03-14",
             "kyuureki_era" : "正嘉1-03-14"
          },
-         "start_year" : 1257
+         "start_year" : 1257,
+         "wref_en" : "Shōka",
+         "wref_ja" : "正嘉"
       },
       "正安" : {
          "actual_end_day" : {
@@ -11518,6 +13113,11 @@
          "jp_era" : 1,
          "key" : "正安",
          "name" : "正安",
+         "name_kana" : "しょうあん",
+         "name_kanas" : {
+            "しょうあん" : 1
+         },
+         "name_latn" : "Shōan",
          "names" : {
             "正安" : 1
          },
@@ -11541,12 +13141,19 @@
             "kyuureki" : "1299-04-25",
             "kyuureki_era" : "正安1-04-25"
          },
-         "start_year" : 1299
+         "start_year" : 1299,
+         "wref_en" : "Shōan",
+         "wref_ja" : "正安"
       },
       "正平" : {
          "jp_south_era" : 1,
          "key" : "正平",
          "name" : "正平",
+         "name_kana" : "しょうへい",
+         "name_kanas" : {
+            "しょうへい" : 1
+         },
+         "name_latn" : "Shōhei",
          "names" : {
             "正平" : 1
          },
@@ -11589,7 +13196,9 @@
             "kyuureki" : "1346-12-08",
             "kyuureki_era" : "正平1-12-08"
          },
-         "south_start_year" : 1346
+         "south_start_year" : 1346,
+         "wref_en" : "Shōhei",
+         "wref_ja" : "正平_(日本)"
       },
       "正徳" : {
          "actual_end_day" : {
@@ -11614,6 +13223,11 @@
          "jp_era" : 1,
          "key" : "正徳",
          "name" : "正徳",
+         "name_kana" : "しょうとく",
+         "name_kanas" : {
+            "しょうとく" : 1
+         },
+         "name_latn" : "Shōtoku",
          "names" : {
             "正徳" : 1,
             "正德" : 1
@@ -11638,7 +13252,9 @@
             "kyuureki" : "1711-04-25",
             "kyuureki_era" : "正徳1-04-25"
          },
-         "start_year" : 1711
+         "start_year" : 1711,
+         "wref_en" : "Shōtoku_(era)",
+         "wref_ja" : "正徳_(日本)"
       },
       "正応" : {
          "actual_end_day" : {
@@ -11663,6 +13279,11 @@
          "jp_era" : 1,
          "key" : "正応",
          "name" : "正応",
+         "name_kana" : "しょうおう",
+         "name_kanas" : {
+            "しょうおう" : 1
+         },
+         "name_latn" : "Shōō",
          "names" : {
             "正応" : 1,
             "正應" : 1
@@ -11687,12 +13308,20 @@
             "kyuureki" : "1288-04-28",
             "kyuureki_era" : "正応1-04-28"
          },
-         "start_year" : 1288
+         "start_year" : 1288,
+         "wref_en" : "Shōō_(Kamakura_period)",
+         "wref_ja" : "正応"
       },
       "正慶" : {
          "jp_north_era" : 1,
          "key" : "正慶",
          "name" : "正慶",
+         "name_kana" : "しょうきょう",
+         "name_kanas" : {
+            "しょうきょう" : 1,
+            "しょうけい" : 1
+         },
+         "name_latn" : "Shōkyō",
          "names" : {
             "正慶" : 1
          },
@@ -11735,7 +13364,9 @@
          },
          "north_start_year" : 1332,
          "offset" : 1331,
-         "short_name" : "正慶"
+         "short_name" : "正慶",
+         "wref_en" : "Shōkyō",
+         "wref_ja" : "正慶"
       },
       "正暦" : {
          "actual_end_day" : {
@@ -11760,6 +13391,11 @@
          "jp_era" : 1,
          "key" : "正暦",
          "name" : "正暦",
+         "name_kana" : "しょうりゃく",
+         "name_kanas" : {
+            "しょうりゃく" : 1
+         },
+         "name_latn" : "Shōryaku",
          "names" : {
             "正暦" : 1,
             "正曆" : 1
@@ -11784,7 +13420,9 @@
             "kyuureki" : "0990-11-07",
             "kyuureki_era" : "正暦1-11-07"
          },
-         "start_year" : 990
+         "start_year" : 990,
+         "wref_en" : "Shōryaku",
+         "wref_ja" : "正暦"
       },
       "正治" : {
          "actual_end_day" : {
@@ -11809,6 +13447,11 @@
          "jp_era" : 1,
          "key" : "正治",
          "name" : "正治",
+         "name_kana" : "しょうじ",
+         "name_kanas" : {
+            "しょうじ" : 1
+         },
+         "name_latn" : "Shōji",
          "names" : {
             "正治" : 1
          },
@@ -11832,7 +13475,9 @@
             "kyuureki" : "1199-04-27",
             "kyuureki_era" : "正治1-04-27"
          },
-         "start_year" : 1199
+         "start_year" : 1199,
+         "wref_en" : "Shōji_(era)",
+         "wref_ja" : "正治"
       },
       "正長" : {
          "actual_end_day" : {
@@ -11857,6 +13502,11 @@
          "jp_era" : 1,
          "key" : "正長",
          "name" : "正長",
+         "name_kana" : "しょうちょう",
+         "name_kanas" : {
+            "しょうちょう" : 1
+         },
+         "name_latn" : "Shōchō",
          "names" : {
             "正長" : 1
          },
@@ -11880,7 +13530,9 @@
             "kyuureki" : "1428-04-27",
             "kyuureki_era" : "正長1-04-27"
          },
-         "start_year" : 1428
+         "start_year" : 1428,
+         "wref_en" : "Shōchō",
+         "wref_ja" : "正長"
       },
       "武烈天皇" : {
          "end_gregorian_day" : {
@@ -11914,6 +13566,11 @@
          "jp_emperor_era" : 1,
          "key" : "武烈天皇",
          "name" : "武烈天皇",
+         "name_kana" : "ぶれつてんのう",
+         "name_kanas" : {
+            "ぶれつてんのう" : 1
+         },
+         "name_latn" : "Buretsu-tennō",
          "names" : {
             "武烈" : 1,
             "武烈天皇" : 1
@@ -11947,7 +13604,9 @@
             "kyuureki" : "0499-01-01",
             "kyuureki_era" : "武烈天皇1-01-01"
          },
-         "start_year" : 499
+         "start_year" : 499,
+         "wref_en" : "Emperor_Buretsu",
+         "wref_ja" : "武烈天皇"
       },
       "永万" : {
          "actual_end_day" : {
@@ -11972,6 +13631,11 @@
          "jp_era" : 1,
          "key" : "永万",
          "name" : "永万",
+         "name_kana" : "えいまん",
+         "name_kanas" : {
+            "えいまん" : 1
+         },
+         "name_latn" : "Eiman",
          "names" : {
             "永万" : 1,
             "永萬" : 1
@@ -11996,7 +13660,9 @@
             "kyuureki" : "1165-06-05",
             "kyuureki_era" : "永万1-06-05"
          },
-         "start_year" : 1165
+         "start_year" : 1165,
+         "wref_en" : "Eiman",
+         "wref_ja" : "永万"
       },
       "永久" : {
          "actual_end_day" : {
@@ -12021,6 +13687,11 @@
          "jp_era" : 1,
          "key" : "永久",
          "name" : "永久",
+         "name_kana" : "えいきゅう",
+         "name_kanas" : {
+            "えいきゅう" : 1
+         },
+         "name_latn" : "Eikyū",
          "names" : {
             "永久" : 1
          },
@@ -12044,7 +13715,9 @@
             "kyuureki" : "1113-07-13",
             "kyuureki_era" : "永久1-07-13"
          },
-         "start_year" : 1113
+         "start_year" : 1113,
+         "wref_en" : "Eikyū",
+         "wref_ja" : "永久_(元号)"
       },
       "永享" : {
          "actual_end_day" : {
@@ -12069,6 +13742,11 @@
          "jp_era" : 1,
          "key" : "永享",
          "name" : "永享",
+         "name_kana" : "えいきょう",
+         "name_kanas" : {
+            "えいきょう" : 1
+         },
+         "name_latn" : "Eikyō",
          "names" : {
             "永享" : 1
          },
@@ -12092,7 +13770,9 @@
             "kyuureki" : "1429-09-05",
             "kyuureki_era" : "永享1-09-05"
          },
-         "start_year" : 1429
+         "start_year" : 1429,
+         "wref_en" : "Eikyō",
+         "wref_ja" : "永享"
       },
       "永仁" : {
          "actual_end_day" : {
@@ -12117,6 +13797,11 @@
          "jp_era" : 1,
          "key" : "永仁",
          "name" : "永仁",
+         "name_kana" : "えいにん",
+         "name_kanas" : {
+            "えいにん" : 1
+         },
+         "name_latn" : "Einin",
          "names" : {
             "永仁" : 1
          },
@@ -12140,7 +13825,9 @@
             "kyuureki" : "1293-08-05",
             "kyuureki_era" : "永仁1-08-05"
          },
-         "start_year" : 1293
+         "start_year" : 1293,
+         "wref_en" : "Einin",
+         "wref_ja" : "永仁"
       },
       "永保" : {
          "actual_end_day" : {
@@ -12165,6 +13852,11 @@
          "jp_era" : 1,
          "key" : "永保",
          "name" : "永保",
+         "name_kana" : "えいほう",
+         "name_kanas" : {
+            "えいほう" : 1
+         },
+         "name_latn" : "Eihō",
          "names" : {
             "永保" : 1
          },
@@ -12188,12 +13880,19 @@
             "kyuureki" : "1081-02-10",
             "kyuureki_era" : "永保1-02-10"
          },
-         "start_year" : 1081
+         "start_year" : 1081,
+         "wref_en" : "Eihō",
+         "wref_ja" : "永保"
       },
       "永和" : {
          "jp_north_era" : 1,
          "key" : "永和",
          "name" : "永和",
+         "name_kana" : "えいわ",
+         "name_kanas" : {
+            "えいわ" : 1
+         },
+         "name_latn" : "Eiwa",
          "names" : {
             "永和" : 1
          },
@@ -12236,7 +13935,9 @@
          },
          "north_start_year" : 1375,
          "offset" : 1374,
-         "short_name" : "永和"
+         "short_name" : "永和",
+         "wref_en" : "Eiwa",
+         "wref_ja" : "永和_(日本)"
       },
       "永延" : {
          "actual_end_day" : {
@@ -12261,6 +13962,11 @@
          "jp_era" : 1,
          "key" : "永延",
          "name" : "永延",
+         "name_kana" : "えいえん",
+         "name_kanas" : {
+            "えいえん" : 1
+         },
+         "name_latn" : "Eien",
          "names" : {
             "永延" : 1
          },
@@ -12284,12 +13990,19 @@
             "kyuureki" : "0987-04-05",
             "kyuureki_era" : "永延1-04-05"
          },
-         "start_year" : 987
+         "start_year" : 987,
+         "wref_en" : "Eien",
+         "wref_ja" : "永延"
       },
       "永徳" : {
          "jp_north_era" : 1,
          "key" : "永徳",
          "name" : "永徳",
+         "name_kana" : "えいとく",
+         "name_kanas" : {
+            "えいとく" : 1
+         },
+         "name_latn" : "Eitoku",
          "names" : {
             "永徳" : 1,
             "永德" : 1
@@ -12333,7 +14046,9 @@
          },
          "north_start_year" : 1381,
          "offset" : 1380,
-         "short_name" : "永徳"
+         "short_name" : "永徳",
+         "wref_en" : "Eitoku",
+         "wref_ja" : "永徳"
       },
       "永承" : {
          "actual_end_day" : {
@@ -12358,6 +14073,12 @@
          "jp_era" : 1,
          "key" : "永承",
          "name" : "永承",
+         "name_kana" : "えいしょう",
+         "name_kanas" : {
+            "えいしょう" : 1,
+            "えいじょう" : 1
+         },
+         "name_latn" : "Eishō",
          "names" : {
             "永承" : 1
          },
@@ -12381,7 +14102,9 @@
             "kyuureki" : "1046-04-14",
             "kyuureki_era" : "永承1-04-14"
          },
-         "start_year" : 1046
+         "start_year" : 1046,
+         "wref_en" : "Eishō_(Heian_period)",
+         "wref_ja" : "永承"
       },
       "永暦" : {
          "actual_end_day" : {
@@ -12406,6 +14129,11 @@
          "jp_era" : 1,
          "key" : "永暦",
          "name" : "永暦",
+         "name_kana" : "えいりゃく",
+         "name_kanas" : {
+            "えいりゃく" : 1
+         },
+         "name_latn" : "Eiryaku",
          "names" : {
             "永暦" : 1,
             "永曆" : 1
@@ -12430,7 +14158,9 @@
             "kyuureki" : "1160-01-10",
             "kyuureki_era" : "永暦1-01-10"
          },
-         "start_year" : 1160
+         "start_year" : 1160,
+         "wref_en" : "Eiryaku",
+         "wref_ja" : "永暦"
       },
       "永正" : {
          "actual_end_day" : {
@@ -12455,6 +14185,11 @@
          "jp_era" : 1,
          "key" : "永正",
          "name" : "永正",
+         "name_kana" : "えいしょう",
+         "name_kanas" : {
+            "えいしょう" : 1
+         },
+         "name_latn" : "Eishō",
          "names" : {
             "永正" : 1
          },
@@ -12478,7 +14213,9 @@
             "kyuureki" : "1504-02-30",
             "kyuureki_era" : "永正1-02-30"
          },
-         "start_year" : 1504
+         "start_year" : 1504,
+         "wref_en" : "Eishō_(Muromachi_period)",
+         "wref_ja" : "永正"
       },
       "永治" : {
          "actual_end_day" : {
@@ -12503,6 +14240,11 @@
          "jp_era" : 1,
          "key" : "永治",
          "name" : "永治",
+         "name_kana" : "えいじ",
+         "name_kanas" : {
+            "えいじ" : 1
+         },
+         "name_latn" : "Eiji",
          "names" : {
             "永治" : 1
          },
@@ -12526,7 +14268,9 @@
             "kyuureki" : "1141-07-10",
             "kyuureki_era" : "永治1-07-10"
          },
-         "start_year" : 1141
+         "start_year" : 1141,
+         "wref_en" : "Eiji_(era)",
+         "wref_ja" : "永治"
       },
       "永祚" : {
          "actual_end_day" : {
@@ -12551,6 +14295,11 @@
          "jp_era" : 1,
          "key" : "永祚",
          "name" : "永祚",
+         "name_kana" : "えいそ",
+         "name_kanas" : {
+            "えいそ" : 1
+         },
+         "name_latn" : "Eiso",
          "names" : {
             "永祚" : 1
          },
@@ -12574,7 +14323,9 @@
             "kyuureki" : "0989-08-08",
             "kyuureki_era" : "永祚1-08-08"
          },
-         "start_year" : 989
+         "start_year" : 989,
+         "wref_en" : "Eiso",
+         "wref_ja" : "永祚_(日本)"
       },
       "永禄" : {
          "actual_end_day" : {
@@ -12599,6 +14350,11 @@
          "jp_era" : 1,
          "key" : "永禄",
          "name" : "永禄",
+         "name_kana" : "えいろく",
+         "name_kanas" : {
+            "えいろく" : 1
+         },
+         "name_latn" : "Eiroku",
          "names" : {
             "永祿" : 1,
             "永禄" : 1
@@ -12623,7 +14379,9 @@
             "kyuureki" : "1558-02-28",
             "kyuureki_era" : "永禄1-02-28"
          },
-         "start_year" : 1558
+         "start_year" : 1558,
+         "wref_en" : "Eiroku",
+         "wref_ja" : "永禄"
       },
       "永観" : {
          "actual_end_day" : {
@@ -12648,6 +14406,11 @@
          "jp_era" : 1,
          "key" : "永観",
          "name" : "永観",
+         "name_kana" : "えいかん",
+         "name_kanas" : {
+            "えいかん" : 1
+         },
+         "name_latn" : "Eikan",
          "names" : {
             "永覌" : 1,
             "永観" : 1,
@@ -12674,7 +14437,9 @@
             "kyuureki" : "0983-04-15",
             "kyuureki_era" : "永観1-04-15"
          },
-         "start_year" : 983
+         "start_year" : 983,
+         "wref_en" : "Eikan",
+         "wref_ja" : "永観"
       },
       "永長" : {
          "actual_end_day" : {
@@ -12699,6 +14464,11 @@
          "jp_era" : 1,
          "key" : "永長",
          "name" : "永長",
+         "name_kana" : "えいちょう",
+         "name_kanas" : {
+            "えいちょう" : 1
+         },
+         "name_latn" : "Eichō",
          "names" : {
             "永長" : 1
          },
@@ -12722,7 +14492,9 @@
             "kyuureki" : "1096-12-17",
             "kyuureki_era" : "永長1-12-17"
          },
-         "start_year" : 1096
+         "start_year" : 1096,
+         "wref_en" : "Eichō",
+         "wref_ja" : "永長"
       },
       "治安" : {
          "actual_end_day" : {
@@ -12747,6 +14519,11 @@
          "jp_era" : 1,
          "key" : "治安",
          "name" : "治安",
+         "name_kana" : "じあん",
+         "name_kanas" : {
+            "じあん" : 1
+         },
+         "name_latn" : "Jian",
          "names" : {
             "治安" : 1
          },
@@ -12770,7 +14547,9 @@
             "kyuureki" : "1021-02-02",
             "kyuureki_era" : "治安1-02-02"
          },
-         "start_year" : 1021
+         "start_year" : 1021,
+         "wref_en" : "Jian_(era)",
+         "wref_ja" : "治安_(元号)"
       },
       "治承" : {
          "actual_end_day" : {
@@ -12795,6 +14574,11 @@
          "jp_era" : 1,
          "key" : "治承",
          "name" : "治承",
+         "name_kana" : "じしょう",
+         "name_kanas" : {
+            "じしょう" : 1
+         },
+         "name_latn" : "Jishō",
          "names" : {
             "治承" : 1
          },
@@ -12818,7 +14602,9 @@
             "kyuureki" : "1177-08-04",
             "kyuureki_era" : "治承1-08-04"
          },
-         "start_year" : 1177
+         "start_year" : 1177,
+         "wref_en" : "Jishō",
+         "wref_ja" : "治承"
       },
       "治暦" : {
          "actual_end_day" : {
@@ -12843,6 +14629,11 @@
          "jp_era" : 1,
          "key" : "治暦",
          "name" : "治暦",
+         "name_kana" : "じりゃく",
+         "name_kanas" : {
+            "じりゃく" : 1
+         },
+         "name_latn" : "Jiryaku",
          "names" : {
             "治暦" : 1,
             "治曆" : 1
@@ -12867,7 +14658,9 @@
             "kyuureki" : "1065-08-02",
             "kyuureki_era" : "治暦1-08-02"
          },
-         "start_year" : 1065
+         "start_year" : 1065,
+         "wref_en" : "Jiryaku",
+         "wref_ja" : "治暦"
       },
       "清寧天皇" : {
          "end_gregorian_day" : {
@@ -12901,6 +14694,11 @@
          "jp_emperor_era" : 1,
          "key" : "清寧天皇",
          "name" : "清寧天皇",
+         "name_kana" : "せいねいてんのう",
+         "name_kanas" : {
+            "せいねいてんのう" : 1
+         },
+         "name_latn" : "Seinei-tennō",
          "names" : {
             "淸寧" : 1,
             "淸寧天皇" : 1,
@@ -12936,7 +14734,9 @@
             "kyuureki" : "0480-01-01",
             "kyuureki_era" : "清寧天皇1-01-01"
          },
-         "start_year" : 480
+         "start_year" : 480,
+         "wref_en" : "Emperor_Seinei",
+         "wref_ja" : "清寧天皇"
       },
       "用明天皇" : {
          "end_gregorian_day" : {
@@ -12970,6 +14770,11 @@
          "jp_emperor_era" : 1,
          "key" : "用明天皇",
          "name" : "用明天皇",
+         "name_kana" : "ようめいてんのう",
+         "name_kanas" : {
+            "ようめいてんのう" : 1
+         },
+         "name_latn" : "Yōmei-tennō",
          "names" : {
             "用明" : 1,
             "用明天皇" : 1
@@ -13003,7 +14808,9 @@
             "kyuureki" : "0586-01-01",
             "kyuureki_era" : "用明天皇1-01-01"
          },
-         "start_year" : 586
+         "start_year" : 586,
+         "wref_en" : "Emperor_Yōmei",
+         "wref_ja" : "用明天皇"
       },
       "白雉" : {
          "end_gregorian_day" : {
@@ -13037,6 +14844,11 @@
          "jp_era" : 1,
          "key" : "白雉",
          "name" : "白雉",
+         "name_kana" : "はくち",
+         "name_kanas" : {
+            "はくち" : 1
+         },
+         "name_latn" : "Hakuchi",
          "names" : {
             "白雉" : 1
          },
@@ -13060,7 +14872,9 @@
             "kyuureki" : "0650-02-15",
             "kyuureki_era" : "白雉1-02-15"
          },
-         "start_year" : 650
+         "start_year" : 650,
+         "wref_en" : "Hakuchi_(era)",
+         "wref_ja" : "白雉"
       },
       "皇極天皇" : {
          "actual_end_day" : {
@@ -13085,6 +14899,11 @@
          "jp_emperor_era" : 1,
          "key" : "皇極天皇",
          "name" : "皇極天皇",
+         "name_kana" : "こうぎょくてんのう",
+         "name_kanas" : {
+            "こうぎょくてんのう" : 1
+         },
+         "name_latn" : "Kōgyoku-tennō",
          "names" : {
             "皇極" : 1,
             "皇極天皇" : 1
@@ -13118,7 +14937,9 @@
             "kyuureki" : "0642-01-01",
             "kyuureki_era" : "皇極天皇1-01-01"
          },
-         "start_year" : 642
+         "start_year" : 642,
+         "wref_en" : "Emperor_Kōgyoku",
+         "wref_ja" : "皇極天皇"
       },
       "神亀" : {
          "actual_end_day" : {
@@ -13143,6 +14964,11 @@
          "jp_era" : 1,
          "key" : "神亀",
          "name" : "神亀",
+         "name_kana" : "じんき",
+         "name_kanas" : {
+            "じんき" : 1
+         },
+         "name_latn" : "Jinki",
          "names" : {
             "神亀" : 1,
             "神龜" : 1,
@@ -13171,7 +14997,9 @@
             "kyuureki" : "0724-02-04",
             "kyuureki_era" : "神亀1-02-04"
          },
-         "start_year" : 724
+         "start_year" : 724,
+         "wref_en" : "Jinki_(era)",
+         "wref_ja" : "神亀"
       },
       "神功皇后摂政" : {
          "end_gregorian_day" : {
@@ -13205,6 +15033,11 @@
          "jp_emperor_era" : 1,
          "key" : "神功皇后摂政",
          "name" : "神功皇后摂政",
+         "name_kana" : "じんぐうこうごうせっしょう",
+         "name_kanas" : {
+            "じんぐうこうごうせっしょう" : 1
+         },
+         "name_latn" : "Jingū-kōgō-sesshō",
          "names" : {
             "神功皇后" : 1,
             "神功皇后摂政" : 1,
@@ -13244,7 +15077,9 @@
             "kyuureki" : "0201-01-01",
             "kyuureki_era" : "神功皇后摂政1-01-01"
          },
-         "start_year" : 201
+         "start_year" : 201,
+         "wref_en" : "Empress_Jingū",
+         "wref_ja" : "神功皇后"
       },
       "神武天皇" : {
          "end_gregorian_day" : {
@@ -13278,6 +15113,11 @@
          "jp_emperor_era" : 1,
          "key" : "神武天皇",
          "name" : "神武天皇",
+         "name_kana" : "じんむてんのう",
+         "name_kanas" : {
+            "じんむてんのう" : 1
+         },
+         "name_latn" : "Jimmu-tennō",
          "names" : {
             "神武" : 1,
             "神武天皇" : 1,
@@ -13313,7 +15153,9 @@
             "kyuureki" : "-0659-01-01",
             "kyuureki_era" : "神武天皇1-01-01"
          },
-         "start_year" : -659
+         "start_year" : -659,
+         "wref_en" : "Emperor_Jimmu",
+         "wref_ja" : "神武天皇"
       },
       "神護景雲" : {
          "actual_end_day" : {
@@ -13338,6 +15180,11 @@
          "jp_era" : 1,
          "key" : "神護景雲",
          "name" : "神護景雲",
+         "name_kana" : "じんごけいうん",
+         "name_kanas" : {
+            "じんごけいうん" : 1
+         },
+         "name_latn" : "Jingo-keiun",
          "names" : {
             "神護景雲" : 1,
             "神護景雲" : 1
@@ -13362,7 +15209,9 @@
             "kyuureki" : "0767-08-16",
             "kyuureki_era" : "神護景雲1-08-16"
          },
-         "start_year" : 767
+         "start_year" : 767,
+         "wref_en" : "Jingo-keiun",
+         "wref_ja" : "神護景雲"
       },
       "綏靖天皇" : {
          "end_gregorian_day" : {
@@ -13396,6 +15245,11 @@
          "jp_emperor_era" : 1,
          "key" : "綏靖天皇",
          "name" : "綏靖天皇",
+         "name_kana" : "すいぜいてんのう",
+         "name_kanas" : {
+            "すいぜいてんのう" : 1
+         },
+         "name_latn" : "Suizei-tennō",
          "names" : {
             "綏靖" : 1,
             "綏靖天皇" : 1,
@@ -13431,7 +15285,9 @@
             "kyuureki" : "-0580-01-01",
             "kyuureki_era" : "綏靖天皇1-01-01"
          },
-         "start_year" : -580
+         "start_year" : -580,
+         "wref_en" : "Emperor_Suizei",
+         "wref_ja" : "綏靖天皇"
       },
       "継体天皇" : {
          "end_gregorian_day" : {
@@ -13465,11 +15321,20 @@
          "jp_emperor_era" : 1,
          "key" : "継体天皇",
          "name" : "継体天皇",
+         "name_kana" : "けいたいてんのう",
+         "name_kanas" : {
+            "けいたいてんのう" : 1
+         },
+         "name_latn" : "Keitai-tennō",
          "names" : {
             "継体" : 1,
             "継体天皇" : 1,
             "継體" : 1,
-            "継體天皇" : 1
+            "継體天皇" : 1,
+            "繼体" : 1,
+            "繼体天皇" : 1,
+            "繼體" : 1,
+            "繼體天皇" : 1
          },
          "offset" : 506,
          "short_name" : "継体",
@@ -13500,12 +15365,19 @@
             "kyuureki" : "0507-01-01",
             "kyuureki_era" : "継体天皇1-01-01"
          },
-         "start_year" : 507
+         "start_year" : 507,
+         "wref_en" : "Emperor_Keitai",
+         "wref_ja" : "継体天皇"
       },
       "至徳" : {
          "jp_north_era" : 1,
          "key" : "至徳",
          "name" : "至徳",
+         "name_kana" : "しとく",
+         "name_kanas" : {
+            "しとく" : 1
+         },
+         "name_latn" : "Shitoku",
          "names" : {
             "至徳" : 1,
             "至德" : 1
@@ -13549,12 +15421,19 @@
          },
          "north_start_year" : 1384,
          "offset" : 1383,
-         "short_name" : "至徳"
+         "short_name" : "至徳",
+         "wref_en" : "Shitoku",
+         "wref_ja" : "至徳_(日本)"
       },
       "興国" : {
          "jp_south_era" : 1,
          "key" : "興国",
          "name" : "興国",
+         "name_kana" : "こうこく",
+         "name_kanas" : {
+            "こうこく" : 1
+         },
+         "name_latn" : "Kōkoku",
          "names" : {
             "興囯" : 1,
             "興国" : 1,
@@ -13599,7 +15478,9 @@
             "kyuureki" : "1340-04-28",
             "kyuureki_era" : "興国1-04-28"
          },
-         "south_start_year" : 1340
+         "south_start_year" : 1340,
+         "wref_en" : "Kōkoku",
+         "wref_ja" : "興国"
       },
       "舒明天皇" : {
          "end_gregorian_day" : {
@@ -13633,6 +15514,11 @@
          "jp_emperor_era" : 1,
          "key" : "舒明天皇",
          "name" : "舒明天皇",
+         "name_kana" : "じょめいてんのう",
+         "name_kanas" : {
+            "じょめいてんのう" : 1
+         },
+         "name_latn" : "Jomei-tennō",
          "names" : {
             "舒明" : 1,
             "舒明天皇" : 1
@@ -13666,12 +15552,20 @@
             "kyuureki" : "0629-01-01",
             "kyuureki_era" : "舒明天皇1-01-01"
          },
-         "start_year" : 629
+         "start_year" : 629,
+         "wref_en" : "Emperor_Jomei",
+         "wref_ja" : "舒明天皇"
       },
       "観応" : {
          "jp_north_era" : 1,
          "key" : "観応",
          "name" : "観応",
+         "name_kana" : "かんのう",
+         "name_kanas" : {
+            "かんおう" : 1,
+            "かんのう" : 1
+         },
+         "name_latn" : "Kannō",
          "names" : {
             "覌応" : 1,
             "覌應" : 1,
@@ -13721,7 +15615,9 @@
          },
          "north_start_year" : 1350,
          "offset" : 1349,
-         "short_name" : "観応"
+         "short_name" : "観応",
+         "wref_en" : "Kannō",
+         "wref_ja" : "観応"
       },
       "貞享" : {
          "actual_end_day" : {
@@ -13746,6 +15642,11 @@
          "jp_era" : 1,
          "key" : "貞享",
          "name" : "貞享",
+         "name_kana" : "じょうきょう",
+         "name_kanas" : {
+            "じょうきょう" : 1
+         },
+         "name_latn" : "Jōkyō",
          "names" : {
             "貞享" : 1,
             "贞享" : 1
@@ -13770,7 +15671,9 @@
             "kyuureki" : "1684-02-21",
             "kyuureki_era" : "貞享1-02-21"
          },
-         "start_year" : 1684
+         "start_year" : 1684,
+         "wref_en" : "Jōkyō",
+         "wref_ja" : "貞享"
       },
       "貞元" : {
          "actual_end_day" : {
@@ -13795,6 +15698,11 @@
          "jp_era" : 1,
          "key" : "貞元",
          "name" : "貞元",
+         "name_kana" : "じょうげん",
+         "name_kanas" : {
+            "じょうげん" : 1
+         },
+         "name_latn" : "Jōgen",
          "names" : {
             "貞元" : 1,
             "贞元" : 1
@@ -13819,12 +15727,20 @@
             "kyuureki" : "0976-07-13",
             "kyuureki_era" : "貞元1-07-13"
          },
-         "start_year" : 976
+         "start_year" : 976,
+         "wref_en" : "Jōgen_(Heian_period)",
+         "wref_ja" : "貞元_(日本)"
       },
       "貞和" : {
          "jp_north_era" : 1,
          "key" : "貞和",
          "name" : "貞和",
+         "name_kana" : "じょうわ",
+         "name_kanas" : {
+            "じょうわ" : 1,
+            "ていわ" : 1
+         },
+         "name_latn" : "Jōwa",
          "names" : {
             "貞和" : 1,
             "贞和" : 1
@@ -13868,7 +15784,9 @@
          },
          "north_start_year" : 1345,
          "offset" : 1344,
-         "short_name" : "貞和"
+         "short_name" : "貞和",
+         "wref_en" : "Jōwa_(Muromachi_period)",
+         "wref_ja" : "貞和"
       },
       "貞応" : {
          "actual_end_day" : {
@@ -13893,6 +15811,11 @@
          "jp_era" : 1,
          "key" : "貞応",
          "name" : "貞応",
+         "name_kana" : "じょうおう",
+         "name_kanas" : {
+            "じょうおう" : 1
+         },
+         "name_latn" : "Jōō",
          "names" : {
             "貞応" : 1,
             "貞應" : 1,
@@ -13919,7 +15842,9 @@
             "kyuureki" : "1222-04-13",
             "kyuureki_era" : "貞応1-04-13"
          },
-         "start_year" : 1222
+         "start_year" : 1222,
+         "wref_en" : "Jōō_(Kamakura_period)",
+         "wref_ja" : "貞応"
       },
       "貞永" : {
          "actual_end_day" : {
@@ -13944,6 +15869,11 @@
          "jp_era" : 1,
          "key" : "貞永",
          "name" : "貞永",
+         "name_kana" : "じょうえい",
+         "name_kanas" : {
+            "じょうえい" : 1
+         },
+         "name_latn" : "Jōei",
          "names" : {
             "貞永" : 1,
             "贞永" : 1
@@ -13968,12 +15898,20 @@
             "kyuureki" : "1232-04-02",
             "kyuureki_era" : "貞永1-04-02"
          },
-         "start_year" : 1232
+         "start_year" : 1232,
+         "wref_en" : "Jōei",
+         "wref_ja" : "貞永"
       },
       "貞治" : {
          "jp_north_era" : 1,
          "key" : "貞治",
          "name" : "貞治",
+         "name_kana" : "じょうじ",
+         "name_kanas" : {
+            "じょうじ" : 1,
+            "ていじ" : 1
+         },
+         "name_latn" : "Jōji",
          "names" : {
             "貞治" : 1,
             "贞治" : 1
@@ -14017,7 +15955,9 @@
          },
          "north_start_year" : 1362,
          "offset" : 1361,
-         "short_name" : "貞治"
+         "short_name" : "貞治",
+         "wref_en" : "Jōji",
+         "wref_ja" : "貞治"
       },
       "貞観" : {
          "actual_end_day" : {
@@ -14042,6 +15982,11 @@
          "jp_era" : 1,
          "key" : "貞観",
          "name" : "貞観",
+         "name_kana" : "じょうがん",
+         "name_kanas" : {
+            "じょうがん" : 1
+         },
+         "name_latn" : "Jōgan",
          "names" : {
             "貞覌" : 1,
             "貞観" : 1,
@@ -14072,7 +16017,9 @@
             "kyuureki" : "0859-04-15",
             "kyuureki_era" : "貞観1-04-15"
          },
-         "start_year" : 859
+         "start_year" : 859,
+         "wref_en" : "Jōgan",
+         "wref_ja" : "貞観_(日本)"
       },
       "長久" : {
          "actual_end_day" : {
@@ -14097,6 +16044,11 @@
          "jp_era" : 1,
          "key" : "長久",
          "name" : "長久",
+         "name_kana" : "ちょうきゅう",
+         "name_kanas" : {
+            "ちょうきゅう" : 1
+         },
+         "name_latn" : "Chōkyū",
          "names" : {
             "長久" : 1
          },
@@ -14120,7 +16072,9 @@
             "kyuureki" : "1040-11-10",
             "kyuureki_era" : "長久1-11-10"
          },
-         "start_year" : 1040
+         "start_year" : 1040,
+         "wref_en" : "Chōkyū",
+         "wref_ja" : "長久"
       },
       "長享" : {
          "actual_end_day" : {
@@ -14145,6 +16099,11 @@
          "jp_era" : 1,
          "key" : "長享",
          "name" : "長享",
+         "name_kana" : "ちょうきょう",
+         "name_kanas" : {
+            "ちょうきょう" : 1
+         },
+         "name_latn" : "Chōkyō",
          "names" : {
             "長享" : 1
          },
@@ -14168,7 +16127,9 @@
             "kyuureki" : "1487-07-20",
             "kyuureki_era" : "長享1-07-20"
          },
-         "start_year" : 1487
+         "start_year" : 1487,
+         "wref_en" : "Chōkyō",
+         "wref_ja" : "長享"
       },
       "長保" : {
          "actual_end_day" : {
@@ -14193,6 +16154,11 @@
          "jp_era" : 1,
          "key" : "長保",
          "name" : "長保",
+         "name_kana" : "ちょうほう",
+         "name_kanas" : {
+            "ちょうほう" : 1
+         },
+         "name_latn" : "Chōhō",
          "names" : {
             "長保" : 1
          },
@@ -14216,7 +16182,9 @@
             "kyuureki" : "0999-01-13",
             "kyuureki_era" : "長保1-01-13"
          },
-         "start_year" : 999
+         "start_year" : 999,
+         "wref_en" : "Chōhō_(era)",
+         "wref_ja" : "長保"
       },
       "長元" : {
          "actual_end_day" : {
@@ -14241,6 +16209,11 @@
          "jp_era" : 1,
          "key" : "長元",
          "name" : "長元",
+         "name_kana" : "ちょうげん",
+         "name_kanas" : {
+            "ちょうげん" : 1
+         },
+         "name_latn" : "Chōgen",
          "names" : {
             "長元" : 1
          },
@@ -14264,7 +16237,9 @@
             "kyuureki" : "1028-07-25",
             "kyuureki_era" : "長元1-07-25"
          },
-         "start_year" : 1028
+         "start_year" : 1028,
+         "wref_en" : "Chōgen",
+         "wref_ja" : "長元"
       },
       "長和" : {
          "actual_end_day" : {
@@ -14289,6 +16264,11 @@
          "jp_era" : 1,
          "key" : "長和",
          "name" : "長和",
+         "name_kana" : "ちょうわ",
+         "name_kanas" : {
+            "ちょうわ" : 1
+         },
+         "name_latn" : "Chōwa",
          "names" : {
             "長和" : 1
          },
@@ -14312,7 +16292,9 @@
             "kyuureki" : "1012-12-25",
             "kyuureki_era" : "長和1-12-25"
          },
-         "start_year" : 1012
+         "start_year" : 1012,
+         "wref_en" : "Chōwa",
+         "wref_ja" : "長和"
       },
       "長寛" : {
          "actual_end_day" : {
@@ -14337,6 +16319,11 @@
          "jp_era" : 1,
          "key" : "長寛",
          "name" : "長寛",
+         "name_kana" : "ちょうかん",
+         "name_kanas" : {
+            "ちょうかん" : 1
+         },
+         "name_latn" : "Chōkan",
          "names" : {
             "長寛" : 1,
             "長寬" : 1
@@ -14361,7 +16348,9 @@
             "kyuureki" : "1163-03-29",
             "kyuureki_era" : "長寛1-03-29"
          },
-         "start_year" : 1163
+         "start_year" : 1163,
+         "wref_en" : "Chōkan",
+         "wref_ja" : "長寛"
       },
       "長徳" : {
          "actual_end_day" : {
@@ -14386,6 +16375,11 @@
          "jp_era" : 1,
          "key" : "長徳",
          "name" : "長徳",
+         "name_kana" : "ちょうとく",
+         "name_kanas" : {
+            "ちょうとく" : 1
+         },
+         "name_latn" : "Chōtoku",
          "names" : {
             "長徳" : 1,
             "長德" : 1
@@ -14410,7 +16404,9 @@
             "kyuureki" : "0995-02-22",
             "kyuureki_era" : "長徳1-02-22"
          },
-         "start_year" : 995
+         "start_year" : 995,
+         "wref_en" : "Chōtoku",
+         "wref_ja" : "長徳"
       },
       "長承" : {
          "actual_end_day" : {
@@ -14435,6 +16431,11 @@
          "jp_era" : 1,
          "key" : "長承",
          "name" : "長承",
+         "name_kana" : "ちょうしょう",
+         "name_kanas" : {
+            "ちょうしょう" : 1
+         },
+         "name_latn" : "Chōshō",
          "names" : {
             "長承" : 1
          },
@@ -14458,7 +16459,9 @@
             "kyuureki" : "1132-08-11",
             "kyuureki_era" : "長承1-08-11"
          },
-         "start_year" : 1132
+         "start_year" : 1132,
+         "wref_en" : "Chōshō",
+         "wref_ja" : "長承"
       },
       "長暦" : {
          "actual_end_day" : {
@@ -14483,6 +16486,11 @@
          "jp_era" : 1,
          "key" : "長暦",
          "name" : "長暦",
+         "name_kana" : "ちょうりゃく",
+         "name_kanas" : {
+            "ちょうりゃく" : 1
+         },
+         "name_latn" : "Chōryaku",
          "names" : {
             "長暦" : 1,
             "長曆" : 1
@@ -14507,7 +16515,9 @@
             "kyuureki" : "1037-04-21",
             "kyuureki_era" : "長暦1-04-21"
          },
-         "start_year" : 1037
+         "start_year" : 1037,
+         "wref_en" : "Chōryaku",
+         "wref_ja" : "長暦"
       },
       "長治" : {
          "actual_end_day" : {
@@ -14532,6 +16542,11 @@
          "jp_era" : 1,
          "key" : "長治",
          "name" : "長治",
+         "name_kana" : "ちょうじ",
+         "name_kanas" : {
+            "ちょうじ" : 1
+         },
+         "name_latn" : "Chōji",
          "names" : {
             "長治" : 1
          },
@@ -14555,7 +16570,9 @@
             "kyuureki" : "1104-02-10",
             "kyuureki_era" : "長治1-02-10"
          },
-         "start_year" : 1104
+         "start_year" : 1104,
+         "wref_en" : "Chōji",
+         "wref_ja" : "長治"
       },
       "長禄" : {
          "actual_end_day" : {
@@ -14580,6 +16597,11 @@
          "jp_era" : 1,
          "key" : "長禄",
          "name" : "長禄",
+         "name_kana" : "ちょうろく",
+         "name_kanas" : {
+            "ちょうろく" : 1
+         },
+         "name_latn" : "Chōroku",
          "names" : {
             "長祿" : 1,
             "長禄" : 1
@@ -14604,7 +16626,9 @@
             "kyuureki" : "1457-09-28",
             "kyuureki_era" : "長禄1-09-28"
          },
-         "start_year" : 1457
+         "start_year" : 1457,
+         "wref_en" : "Chōroku",
+         "wref_ja" : "長禄"
       },
       "開化天皇" : {
          "end_gregorian_day" : {
@@ -14638,6 +16662,11 @@
          "jp_emperor_era" : 1,
          "key" : "開化天皇",
          "name" : "開化天皇",
+         "name_kana" : "かいかてんのう",
+         "name_kanas" : {
+            "かいかてんのう" : 1
+         },
+         "name_latn" : "Kaika-tennō",
          "names" : {
             "開化" : 1,
             "開化天皇" : 1
@@ -14671,7 +16700,9 @@
             "kyuureki" : "-0156-01-01",
             "kyuureki_era" : "開化天皇1-01-01"
          },
-         "start_year" : -156
+         "start_year" : -156,
+         "wref_en" : "Emperor_Kaika",
+         "wref_ja" : "開化天皇"
       },
       "雄略天皇" : {
          "end_gregorian_day" : {
@@ -14705,6 +16736,11 @@
          "jp_emperor_era" : 1,
          "key" : "雄略天皇",
          "name" : "雄略天皇",
+         "name_kana" : "ゆうりゃくてんのう",
+         "name_kanas" : {
+            "ゆうりゃくてんのう" : 1
+         },
+         "name_latn" : "Yūryaku-tennō",
          "names" : {
             "雄略" : 1,
             "雄略天皇" : 1
@@ -14738,7 +16774,9 @@
             "kyuureki" : "0457-01-01",
             "kyuureki_era" : "雄略天皇1-01-01"
          },
-         "start_year" : 457
+         "start_year" : 457,
+         "wref_en" : "Emperor_Yūryaku",
+         "wref_ja" : "雄略天皇"
       },
       "霊亀" : {
          "actual_end_day" : {
@@ -14763,6 +16801,11 @@
          "jp_era" : 1,
          "key" : "霊亀",
          "name" : "霊亀",
+         "name_kana" : "れいき",
+         "name_kanas" : {
+            "れいき" : 1
+         },
+         "name_latn" : "Reiki",
          "names" : {
             "霊亀" : 1,
             "霊龜" : 1,
@@ -14788,7 +16831,9 @@
             "kyuureki" : "0715-09-02",
             "kyuureki_era" : "霊亀1-09-02"
          },
-         "start_year" : 715
+         "start_year" : 715,
+         "wref_en" : "Reiki_(era)",
+         "wref_ja" : "霊亀"
       },
       "顕宗天皇" : {
          "end_gregorian_day" : {
@@ -14822,9 +16867,16 @@
          "jp_emperor_era" : 1,
          "key" : "顕宗天皇",
          "name" : "顕宗天皇",
+         "name_kana" : "けんぞうてんのう",
+         "name_kanas" : {
+            "けんぞうてんのう" : 1
+         },
+         "name_latn" : "Kenzō-tennō",
          "names" : {
             "顕宗" : 1,
-            "顕宗天皇" : 1
+            "顕宗天皇" : 1,
+            "顯宗" : 1,
+            "顯宗天皇" : 1
          },
          "offset" : 484,
          "short_name" : "顕宗",
@@ -14855,7 +16907,9 @@
             "kyuureki" : "0485-01-01",
             "kyuureki_era" : "顕宗天皇1-01-01"
          },
-         "start_year" : 485
+         "start_year" : 485,
+         "wref_en" : "Emperor_Kenzō",
+         "wref_ja" : "顕宗天皇"
       },
       "養和" : {
          "actual_end_day" : {
@@ -14880,6 +16934,11 @@
          "jp_era" : 1,
          "key" : "養和",
          "name" : "養和",
+         "name_kana" : "ようわ",
+         "name_kanas" : {
+            "ようわ" : 1
+         },
+         "name_latn" : "Yōwa",
          "names" : {
             "養和" : 1
          },
@@ -14903,7 +16962,9 @@
             "kyuureki" : "1181-07-14",
             "kyuureki_era" : "養和1-07-14"
          },
-         "start_year" : 1181
+         "start_year" : 1181,
+         "wref_en" : "Yōwa",
+         "wref_ja" : "養和"
       },
       "養老" : {
          "actual_end_day" : {
@@ -14928,6 +16989,11 @@
          "jp_era" : 1,
          "key" : "養老",
          "name" : "養老",
+         "name_kana" : "ようろう",
+         "name_kanas" : {
+            "ようろう" : 1
+         },
+         "name_latn" : "Yōrō",
          "names" : {
             "養老" : 1
          },
@@ -14951,7 +17017,9 @@
             "kyuureki" : "0717-11-17",
             "kyuureki_era" : "養老1-11-17"
          },
-         "start_year" : 717
+         "start_year" : 717,
+         "wref_en" : "Yōrō",
+         "wref_ja" : "養老"
       }
    }
 }

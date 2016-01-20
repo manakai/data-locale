@@ -126,6 +126,19 @@ The file contains a JSON object with following name/value pair:
         武天皇").  They also include any |name|, |short_name|, |abbr|,
         and |abbr_latn| of the era.
 
+      name_kana [string?]
+
+        The primary hiragana name of the era, if known.
+
+      name_kanas [object?]
+
+        Known hiragana names of the era.  Names are variants and
+        values are [boolean] true values.
+
+      name_latn [string?]
+
+        The primary Latin name of the era, if known.
+
       offset [integer]
 
         The offset of the first year from the year AD1.  The number of
@@ -138,6 +151,18 @@ The file contains a JSON object with following name/value pair:
 
         A shorter name of the era, omitting common suffixes (e.g. "神武"
         for name "神武天皇"), if any, or same value as |name|.
+
+      wref_en [string?]
+
+        A Wikipedia reference
+        <https://github.com/geocol/data-jp-transport/blob/master/doc/datatypes.txt>
+        for the English Wikipedia article on the era.
+
+      wref_ja [string?]
+
+        A Wikipedia reference
+        <https://github.com/geocol/data-jp-transport/blob/master/doc/datatypes.txt>
+        for the Japanese Wikipedia article on the era.
 
       start_day [day?]
       start_year [year?]
@@ -208,10 +233,19 @@ The file contains a JSON object with following name/value pair:
 
 * Sources
 
-Wikipedia (ja):元号一覧 (日本)
+元号一覧 (日本) - Wikipedia
 <https://ja.wikipedia.org/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_(%E6%97%A5%E6%9C%AC)>.
 
+天皇の一覧 - Wikipedia
+<https://ja.wikipedia.org/wiki/%E5%A4%A9%E7%9A%87%E3%81%AE%E4%B8%80%E8%A6%A7>.
+
 SuikaWiki:元号 <https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7>.
+
+Template:Japanese era names - Wikipedia, the free encyclopedia
+<https://en.wikipedia.org/wiki/Template:Japanese_era_names>.
+
+List of Emperors of Japan - Wikipedia, the free encyclopedia
+<https://en.wikipedia.org/wiki/List_of_Emperors_of_Japan>.
 
 * License
 

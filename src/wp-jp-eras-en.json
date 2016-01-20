@@ -1,0 +1,1730 @@
+{
+   "1004\u001C1012" : {
+      "end_year" : "1012",
+      "name" : "Kankō",
+      "start_year" : "1004",
+      "url" : "https://en.wikipedia.org/wiki/Kank%C5%8D",
+      "wref_en" : "Kankō"
+   },
+   "1012\u001C1017" : {
+      "end_year" : "1017",
+      "name" : "Chōwa",
+      "start_year" : "1012",
+      "url" : "https://en.wikipedia.org/wiki/Ch%C5%8Dwa",
+      "wref_en" : "Chōwa"
+   },
+   "1017\u001C1021" : {
+      "end_year" : "1021",
+      "name" : "Kannin",
+      "start_year" : "1017",
+      "url" : "https://en.wikipedia.org/wiki/Kannin",
+      "wref_en" : "Kannin"
+   },
+   "1021\u001C1024" : {
+      "end_year" : "1024",
+      "name" : "Jian",
+      "start_year" : "1021",
+      "url" : "https://en.wikipedia.org/wiki/Jian_(era)",
+      "wref_en" : "Jian_(era)"
+   },
+   "1024\u001C1028" : {
+      "end_year" : "1028",
+      "name" : "Manju",
+      "start_year" : "1024",
+      "url" : "https://en.wikipedia.org/wiki/Manju_(era)",
+      "wref_en" : "Manju_(era)"
+   },
+   "1028\u001C1037" : {
+      "end_year" : "1037",
+      "name" : "Chōgen",
+      "start_year" : "1028",
+      "url" : "https://en.wikipedia.org/wiki/Ch%C5%8Dgen",
+      "wref_en" : "Chōgen"
+   },
+   "1037\u001C1040" : {
+      "end_year" : "1040",
+      "name" : "Chōryaku",
+      "start_year" : "1037",
+      "url" : "https://en.wikipedia.org/wiki/Ch%C5%8Dryaku",
+      "wref_en" : "Chōryaku"
+   },
+   "1040\u001C1044" : {
+      "end_year" : "1044",
+      "name" : "Chōkyū",
+      "start_year" : "1040",
+      "url" : "https://en.wikipedia.org/wiki/Ch%C5%8Dky%C5%AB",
+      "wref_en" : "Chōkyū"
+   },
+   "1044\u001C1046" : {
+      "end_year" : "1046",
+      "name" : "Kantoku",
+      "start_year" : "1044",
+      "url" : "https://en.wikipedia.org/wiki/Kantoku",
+      "wref_en" : "Kantoku"
+   },
+   "1046\u001C1053" : {
+      "end_year" : "1053",
+      "name" : "Eishō",
+      "start_year" : "1046",
+      "url" : "https://en.wikipedia.org/wiki/Eish%C5%8D_(Heian_period)",
+      "wref_en" : "Eishō_(Heian_period)"
+   },
+   "1053\u001C1058" : {
+      "end_year" : "1058",
+      "name" : "Tengi",
+      "start_year" : "1053",
+      "url" : "https://en.wikipedia.org/wiki/Tengi",
+      "wref_en" : "Tengi"
+   },
+   "1058\u001C1065" : {
+      "end_year" : "1065",
+      "name" : "Kōhei",
+      "start_year" : "1058",
+      "url" : "https://en.wikipedia.org/wiki/K%C5%8Dhei",
+      "wref_en" : "Kōhei"
+   },
+   "1065\u001C1069" : {
+      "end_year" : "1069",
+      "name" : "Jiryaku",
+      "start_year" : "1065",
+      "url" : "https://en.wikipedia.org/wiki/Jiryaku",
+      "wref_en" : "Jiryaku"
+   },
+   "1069\u001C1074" : {
+      "end_year" : "1074",
+      "name" : "Enkyū",
+      "start_year" : "1069",
+      "url" : "https://en.wikipedia.org/wiki/Enky%C5%AB",
+      "wref_en" : "Enkyū"
+   },
+   "1074\u001C1077" : {
+      "end_year" : "1077",
+      "name" : "Jōhō",
+      "start_year" : "1074",
+      "url" : "https://en.wikipedia.org/wiki/J%C5%8Dh%C5%8D",
+      "wref_en" : "Jōhō"
+   },
+   "1077\u001C1081" : {
+      "end_year" : "1081",
+      "name" : "Jōryaku",
+      "start_year" : "1077",
+      "url" : "https://en.wikipedia.org/wiki/J%C5%8Dryaku",
+      "wref_en" : "Jōryaku"
+   },
+   "1081\u001C1084" : {
+      "end_year" : "1084",
+      "name" : "Eihō",
+      "start_year" : "1081",
+      "url" : "https://en.wikipedia.org/wiki/Eih%C5%8D",
+      "wref_en" : "Eihō"
+   },
+   "1084\u001C1087" : {
+      "end_year" : "1087",
+      "name" : "Ōtoku",
+      "start_year" : "1084",
+      "url" : "https://en.wikipedia.org/wiki/%C5%8Ctoku",
+      "wref_en" : "Ōtoku"
+   },
+   "1087\u001C1094" : {
+      "end_year" : "1094",
+      "name" : "Kanji",
+      "start_year" : "1087",
+      "url" : "https://en.wikipedia.org/wiki/Kanji_(era)",
+      "wref_en" : "Kanji_(era)"
+   },
+   "1094\u001C1096" : {
+      "end_year" : "1096",
+      "name" : "Kahō",
+      "start_year" : "1094",
+      "url" : "https://en.wikipedia.org/wiki/Kah%C5%8D",
+      "wref_en" : "Kahō"
+   },
+   "1096\u001C1097" : {
+      "end_year" : "1097",
+      "name" : "Eichō",
+      "start_year" : "1096",
+      "url" : "https://en.wikipedia.org/wiki/Eich%C5%8D",
+      "wref_en" : "Eichō"
+   },
+   "1097\u001C1099" : {
+      "end_year" : "1099",
+      "name" : "Jōtoku",
+      "start_year" : "1097",
+      "url" : "https://en.wikipedia.org/wiki/J%C5%8Dtoku",
+      "wref_en" : "Jōtoku"
+   },
+   "1099\u001C1104" : {
+      "end_year" : "1104",
+      "name" : "Kōwa",
+      "start_year" : "1099",
+      "url" : "https://en.wikipedia.org/wiki/K%C5%8Dwa_(Heian_period)",
+      "wref_en" : "Kōwa_(Heian_period)"
+   },
+   "1104\u001C1106" : {
+      "end_year" : "1106",
+      "name" : "Chōji",
+      "start_year" : "1104",
+      "url" : "https://en.wikipedia.org/wiki/Ch%C5%8Dji",
+      "wref_en" : "Chōji"
+   },
+   "1106\u001C1108" : {
+      "end_year" : "1108",
+      "name" : "Kajō",
+      "start_year" : "1106",
+      "url" : "https://en.wikipedia.org/wiki/Kaj%C5%8D",
+      "wref_en" : "Kajō"
+   },
+   "1108\u001C1110" : {
+      "end_year" : "1110",
+      "name" : "Tennin",
+      "start_year" : "1108",
+      "url" : "https://en.wikipedia.org/wiki/Tennin",
+      "wref_en" : "Tennin"
+   },
+   "1110\u001C1113" : {
+      "end_year" : "1113",
+      "name" : "Ten'ei",
+      "start_year" : "1110",
+      "url" : "https://en.wikipedia.org/wiki/Ten%27ei",
+      "wref_en" : "Ten'ei"
+   },
+   "1113\u001C1118" : {
+      "end_year" : "1118",
+      "name" : "Eikyū",
+      "start_year" : "1113",
+      "url" : "https://en.wikipedia.org/wiki/Eiky%C5%AB",
+      "wref_en" : "Eikyū"
+   },
+   "1118\u001C1120" : {
+      "end_year" : "1120",
+      "name" : "Gen'ei",
+      "start_year" : "1118",
+      "url" : "https://en.wikipedia.org/wiki/Gen%27ei",
+      "wref_en" : "Gen'ei"
+   },
+   "1120\u001C1124" : {
+      "end_year" : "1124",
+      "name" : "Hōan",
+      "start_year" : "1120",
+      "url" : "https://en.wikipedia.org/wiki/H%C5%8Dan",
+      "wref_en" : "Hōan"
+   },
+   "1124\u001C1126" : {
+      "end_year" : "1126",
+      "name" : "Tenji",
+      "start_year" : "1124",
+      "url" : "https://en.wikipedia.org/wiki/Tenji_(era)",
+      "wref_en" : "Tenji_(era)"
+   },
+   "1126\u001C1131" : {
+      "end_year" : "1131",
+      "name" : "Daiji",
+      "start_year" : "1126",
+      "url" : "https://en.wikipedia.org/wiki/Daiji_(era)",
+      "wref_en" : "Daiji_(era)"
+   },
+   "1131\u001C1132" : {
+      "end_year" : "1132",
+      "name" : "Tenshō",
+      "start_year" : "1131",
+      "url" : "https://en.wikipedia.org/wiki/Tensh%C5%8D_(Heian_period)",
+      "wref_en" : "Tenshō_(Heian_period)"
+   },
+   "1132\u001C1135" : {
+      "end_year" : "1135",
+      "name" : "Chōshō",
+      "start_year" : "1132",
+      "url" : "https://en.wikipedia.org/wiki/Ch%C5%8Dsh%C5%8D",
+      "wref_en" : "Chōshō"
+   },
+   "1135\u001C1141" : {
+      "end_year" : "1141",
+      "name" : "Hōen",
+      "start_year" : "1135",
+      "url" : "https://en.wikipedia.org/wiki/H%C5%8Den",
+      "wref_en" : "Hōen"
+   },
+   "1141\u001C1142" : {
+      "end_year" : "1142",
+      "name" : "Eiji",
+      "start_year" : "1141",
+      "url" : "https://en.wikipedia.org/wiki/Eiji_(era)",
+      "wref_en" : "Eiji_(era)"
+   },
+   "1142\u001C1144" : {
+      "end_year" : "1144",
+      "name" : "Kōji",
+      "start_year" : "1142",
+      "url" : "https://en.wikipedia.org/wiki/K%C5%8Dji_(Heian_period)",
+      "wref_en" : "Kōji_(Heian_period)"
+   },
+   "1144\u001C1145" : {
+      "end_year" : "1145",
+      "name" : "Ten'yō",
+      "start_year" : "1144",
+      "url" : "https://en.wikipedia.org/wiki/Ten%27y%C5%8D",
+      "wref_en" : "Ten'yō"
+   },
+   "1145\u001C1151" : {
+      "end_year" : "1151",
+      "name" : "Kyūan",
+      "start_year" : "1145",
+      "url" : "https://en.wikipedia.org/wiki/Ky%C5%ABan",
+      "wref_en" : "Kyūan"
+   },
+   "1151\u001C1154" : {
+      "end_year" : "1154",
+      "name" : "Ninpei",
+      "start_year" : "1151",
+      "url" : "https://en.wikipedia.org/wiki/Ninpei",
+      "wref_en" : "Ninpei"
+   },
+   "1154\u001C1156" : {
+      "end_year" : "1156",
+      "name" : "Kyūju",
+      "start_year" : "1154",
+      "url" : "https://en.wikipedia.org/wiki/Ky%C5%ABju",
+      "wref_en" : "Kyūju"
+   },
+   "1156\u001C1159" : {
+      "end_year" : "1159",
+      "name" : "Hōgen",
+      "start_year" : "1156",
+      "url" : "https://en.wikipedia.org/wiki/H%C5%8Dgen_(era)",
+      "wref_en" : "Hōgen_(era)"
+   },
+   "1159\u001C1160" : {
+      "end_year" : "1160",
+      "name" : "Heiji",
+      "start_year" : "1159",
+      "url" : "https://en.wikipedia.org/wiki/Heiji",
+      "wref_en" : "Heiji"
+   },
+   "1160\u001C1161" : {
+      "end_year" : "1161",
+      "name" : "Eiryaku",
+      "start_year" : "1160",
+      "url" : "https://en.wikipedia.org/wiki/Eiryaku",
+      "wref_en" : "Eiryaku"
+   },
+   "1161\u001C1163" : {
+      "end_year" : "1163",
+      "name" : "Ōhō",
+      "start_year" : "1161",
+      "url" : "https://en.wikipedia.org/wiki/%C5%8Ch%C5%8D",
+      "wref_en" : "Ōhō"
+   },
+   "1163\u001C1165" : {
+      "end_year" : "1165",
+      "name" : "Chōkan",
+      "start_year" : "1163",
+      "url" : "https://en.wikipedia.org/wiki/Ch%C5%8Dkan",
+      "wref_en" : "Chōkan"
+   },
+   "1165\u001C1166" : {
+      "end_year" : "1166",
+      "name" : "Eiman",
+      "start_year" : "1165",
+      "url" : "https://en.wikipedia.org/wiki/Eiman",
+      "wref_en" : "Eiman"
+   },
+   "1166\u001C1169" : {
+      "end_year" : "1169",
+      "name" : "Nin'an",
+      "start_year" : "1166",
+      "url" : "https://en.wikipedia.org/wiki/Nin%27an",
+      "wref_en" : "Nin'an"
+   },
+   "1169\u001C1171" : {
+      "end_year" : "1171",
+      "name" : "Kaō",
+      "start_year" : "1169",
+      "url" : "https://en.wikipedia.org/wiki/Ka%C5%8D_(era)",
+      "wref_en" : "Kaō_(era)"
+   },
+   "1171\u001C1175" : {
+      "end_year" : "1175",
+      "name" : "Jōan",
+      "start_year" : "1171",
+      "url" : "https://en.wikipedia.org/wiki/J%C5%8Dan_(era)",
+      "wref_en" : "Jōan_(era)"
+   },
+   "1175\u001C1177" : {
+      "end_year" : "1177",
+      "name" : "Angen",
+      "start_year" : "1175",
+      "url" : "https://en.wikipedia.org/wiki/Angen",
+      "wref_en" : "Angen"
+   },
+   "1177\u001C1181" : {
+      "end_year" : "1181",
+      "name" : "Jishō",
+      "start_year" : "1177",
+      "url" : "https://en.wikipedia.org/wiki/Jish%C5%8D",
+      "wref_en" : "Jishō"
+   },
+   "1181\u001C1182" : {
+      "end_year" : "1182",
+      "name" : "Yōwa",
+      "start_year" : "1181",
+      "url" : "https://en.wikipedia.org/wiki/Y%C5%8Dwa",
+      "wref_en" : "Yōwa"
+   },
+   "1182\u001C1184" : {
+      "end_year" : "1184",
+      "name" : "Juei",
+      "start_year" : "1182",
+      "url" : "https://en.wikipedia.org/wiki/Juei",
+      "wref_en" : "Juei"
+   },
+   "1184\u001C1185" : {
+      "end_year" : "1185",
+      "name" : "Genryaku",
+      "start_year" : "1184",
+      "url" : "https://en.wikipedia.org/wiki/Genryaku",
+      "wref_en" : "Genryaku"
+   },
+   "1185\u001C1190" : {
+      "end_year" : "1190",
+      "name" : "Bunji",
+      "start_year" : "1185",
+      "url" : "https://en.wikipedia.org/wiki/Bunji_(era)",
+      "wref_en" : "Bunji_(era)"
+   },
+   "1190\u001C1199" : {
+      "end_year" : "1199",
+      "name" : "Kenkyū",
+      "start_year" : "1190",
+      "url" : "https://en.wikipedia.org/wiki/Kenky%C5%AB",
+      "wref_en" : "Kenkyū"
+   },
+   "1199\u001C1201" : {
+      "end_year" : "1201",
+      "name" : "Shōji",
+      "start_year" : "1199",
+      "url" : "https://en.wikipedia.org/wiki/Sh%C5%8Dji_(era)",
+      "wref_en" : "Shōji_(era)"
+   },
+   "1201\u001C1204" : {
+      "end_year" : "1204",
+      "name" : "Kennin",
+      "start_year" : "1201",
+      "url" : "https://en.wikipedia.org/wiki/Kennin",
+      "wref_en" : "Kennin"
+   },
+   "1204\u001C1206" : {
+      "end_year" : "1206",
+      "name" : "Genkyū",
+      "start_year" : "1204",
+      "url" : "https://en.wikipedia.org/wiki/Genky%C5%AB",
+      "wref_en" : "Genkyū"
+   },
+   "1206\u001C1207" : {
+      "end_year" : "1207",
+      "name" : "Ken'ei",
+      "start_year" : "1206",
+      "url" : "https://en.wikipedia.org/wiki/Ken%27ei",
+      "wref_en" : "Ken'ei"
+   },
+   "1207\u001C1211" : {
+      "end_year" : "1211",
+      "name" : "Jōgen",
+      "start_year" : "1207",
+      "url" : "https://en.wikipedia.org/wiki/J%C5%8Dgen_(Kamakura_period)",
+      "wref_en" : "Jōgen_(Kamakura_period)"
+   },
+   "1211\u001C1213" : {
+      "end_year" : "1213",
+      "name" : "Kenryaku",
+      "start_year" : "1211",
+      "url" : "https://en.wikipedia.org/wiki/Kenryaku",
+      "wref_en" : "Kenryaku"
+   },
+   "1213\u001C1219" : {
+      "end_year" : "1219",
+      "name" : "Kempo",
+      "start_year" : "1213",
+      "url" : "https://en.wikipedia.org/wiki/Kempo_(era)",
+      "wref_en" : "Kempo_(era)"
+   },
+   "1219\u001C1222" : {
+      "end_year" : "1222",
+      "name" : "Jōkyū",
+      "start_year" : "1219",
+      "url" : "https://en.wikipedia.org/wiki/J%C5%8Dky%C5%AB",
+      "wref_en" : "Jōkyū"
+   },
+   "1222\u001C1224" : {
+      "end_year" : "1224",
+      "name" : "Jōō",
+      "start_year" : "1222",
+      "url" : "https://en.wikipedia.org/wiki/J%C5%8D%C5%8D_(Kamakura_period)",
+      "wref_en" : "Jōō_(Kamakura_period)"
+   },
+   "1224\u001C1225" : {
+      "end_year" : "1225",
+      "name" : "Gennin",
+      "start_year" : "1224",
+      "url" : "https://en.wikipedia.org/wiki/Gennin",
+      "wref_en" : "Gennin"
+   },
+   "1225\u001C1227" : {
+      "end_year" : "1227",
+      "name" : "Karoku",
+      "start_year" : "1225",
+      "url" : "https://en.wikipedia.org/wiki/Karoku",
+      "wref_en" : "Karoku"
+   },
+   "1227\u001C1229" : {
+      "end_year" : "1229",
+      "name" : "Antei",
+      "start_year" : "1227",
+      "url" : "https://en.wikipedia.org/wiki/Antei",
+      "wref_en" : "Antei"
+   },
+   "1229\u001C1232" : {
+      "end_year" : "1232",
+      "name" : "Kangi",
+      "start_year" : "1229",
+      "url" : "https://en.wikipedia.org/wiki/Kangi",
+      "wref_en" : "Kangi"
+   },
+   "1232\u001C1233" : {
+      "end_year" : "1233",
+      "name" : "Jōei",
+      "start_year" : "1232",
+      "url" : "https://en.wikipedia.org/wiki/J%C5%8Dei",
+      "wref_en" : "Jōei"
+   },
+   "1233\u001C1234" : {
+      "end_year" : "1234",
+      "name" : "Tenpuku",
+      "start_year" : "1233",
+      "url" : "https://en.wikipedia.org/wiki/Tenpuku",
+      "wref_en" : "Tenpuku"
+   },
+   "1234\u001C1235" : {
+      "end_year" : "1235",
+      "name" : "Bunryaku",
+      "start_year" : "1234",
+      "url" : "https://en.wikipedia.org/wiki/Bunryaku",
+      "wref_en" : "Bunryaku"
+   },
+   "1235\u001C1238" : {
+      "end_year" : "1238",
+      "name" : "Katei",
+      "start_year" : "1235",
+      "url" : "https://en.wikipedia.org/wiki/Katei",
+      "wref_en" : "Katei"
+   },
+   "1238\u001C1239" : {
+      "end_year" : "1239",
+      "name" : "Ryakunin",
+      "start_year" : "1238",
+      "url" : "https://en.wikipedia.org/wiki/Ryakunin",
+      "wref_en" : "Ryakunin"
+   },
+   "1239\u001C1240" : {
+      "end_year" : "1240",
+      "name" : "En'ō",
+      "start_year" : "1239",
+      "url" : "https://en.wikipedia.org/wiki/En%27%C5%8D",
+      "wref_en" : "En'ō"
+   },
+   "1240\u001C1243" : {
+      "end_year" : "1243",
+      "name" : "Ninji",
+      "start_year" : "1240",
+      "url" : "https://en.wikipedia.org/wiki/Ninji",
+      "wref_en" : "Ninji"
+   },
+   "1243\u001C1247" : {
+      "end_year" : "1247",
+      "name" : "Kangen",
+      "start_year" : "1243",
+      "url" : "https://en.wikipedia.org/wiki/Kangen",
+      "wref_en" : "Kangen"
+   },
+   "1247\u001C1249" : {
+      "end_year" : "1249",
+      "name" : "Hōji",
+      "start_year" : "1247",
+      "url" : "https://en.wikipedia.org/wiki/H%C5%8Dji",
+      "wref_en" : "Hōji"
+   },
+   "1249\u001C1256" : {
+      "end_year" : "1256",
+      "name" : "Kenchō",
+      "start_year" : "1249",
+      "url" : "https://en.wikipedia.org/wiki/Kench%C5%8D",
+      "wref_en" : "Kenchō"
+   },
+   "1256\u001C1257" : {
+      "end_year" : "1257",
+      "name" : "Kōgen",
+      "start_year" : "1256",
+      "url" : "https://en.wikipedia.org/wiki/K%C5%8Dgen",
+      "wref_en" : "Kōgen"
+   },
+   "1257\u001C1259" : {
+      "end_year" : "1259",
+      "name" : "Shōka",
+      "start_year" : "1257",
+      "url" : "https://en.wikipedia.org/wiki/Sh%C5%8Dka",
+      "wref_en" : "Shōka"
+   },
+   "1259\u001C1260" : {
+      "end_year" : "1260",
+      "name" : "Shōgen",
+      "start_year" : "1259",
+      "url" : "https://en.wikipedia.org/wiki/Sh%C5%8Dgen",
+      "wref_en" : "Shōgen"
+   },
+   "1260\u001C1261" : {
+      "end_year" : "1261",
+      "name" : "Bun'ō",
+      "start_year" : "1260",
+      "url" : "https://en.wikipedia.org/wiki/Bun%27%C5%8D",
+      "wref_en" : "Bun'ō"
+   },
+   "1261\u001C1264" : {
+      "end_year" : "1264",
+      "name" : "Kōchō",
+      "start_year" : "1261",
+      "url" : "https://en.wikipedia.org/wiki/K%C5%8Dch%C5%8D",
+      "wref_en" : "Kōchō"
+   },
+   "1264\u001C1275" : {
+      "end_year" : "1275",
+      "name" : "Bun'ei",
+      "start_year" : "1264",
+      "url" : "https://en.wikipedia.org/wiki/Bun%27ei",
+      "wref_en" : "Bun'ei"
+   },
+   "1275\u001C1278" : {
+      "end_year" : "1278",
+      "name" : "Kenji",
+      "start_year" : "1275",
+      "url" : "https://en.wikipedia.org/wiki/Kenji_(era)",
+      "wref_en" : "Kenji_(era)"
+   },
+   "1278\u001C1288" : {
+      "end_year" : "1288",
+      "name" : "Kōan",
+      "start_year" : "1278",
+      "url" : "https://en.wikipedia.org/wiki/K%C5%8Dan_(Kamakura_period)",
+      "wref_en" : "Kōan_(Kamakura_period)"
+   },
+   "1288\u001C1293" : {
+      "end_year" : "1293",
+      "name" : "Shōō",
+      "start_year" : "1288",
+      "url" : "https://en.wikipedia.org/wiki/Sh%C5%8D%C5%8D_(Kamakura_period)",
+      "wref_en" : "Shōō_(Kamakura_period)"
+   },
+   "1293\u001C1299" : {
+      "end_year" : "1299",
+      "name" : "Einin",
+      "start_year" : "1293",
+      "url" : "https://en.wikipedia.org/wiki/Einin",
+      "wref_en" : "Einin"
+   },
+   "1299\u001C1302" : {
+      "end_year" : "1302",
+      "name" : "Shōan",
+      "start_year" : "1299",
+      "url" : "https://en.wikipedia.org/wiki/Sh%C5%8Dan",
+      "wref_en" : "Shōan"
+   },
+   "1302\u001C1303" : {
+      "end_year" : "1303",
+      "name" : "Kengen",
+      "start_year" : "1302",
+      "url" : "https://en.wikipedia.org/wiki/Kengen",
+      "wref_en" : "Kengen"
+   },
+   "1303\u001C1306" : {
+      "end_year" : "1306",
+      "name" : "Kagen",
+      "start_year" : "1303",
+      "url" : "https://en.wikipedia.org/wiki/Kagen",
+      "wref_en" : "Kagen"
+   },
+   "1306\u001C1308" : {
+      "end_year" : "1308",
+      "name" : "Tokuji",
+      "start_year" : "1306",
+      "url" : "https://en.wikipedia.org/wiki/Tokuji",
+      "wref_en" : "Tokuji"
+   },
+   "1308\u001C1311" : {
+      "end_year" : "1311",
+      "name" : "Enkyō",
+      "start_year" : "1308",
+      "url" : "https://en.wikipedia.org/wiki/Enky%C5%8D_(Kamakura_period)",
+      "wref_en" : "Enkyō_(Kamakura_period)"
+   },
+   "1311\u001C1312" : {
+      "end_year" : "1312",
+      "name" : "Ōchō",
+      "start_year" : "1311",
+      "url" : "https://en.wikipedia.org/wiki/%C5%8Cch%C5%8D",
+      "wref_en" : "Ōchō"
+   },
+   "1312\u001C1317" : {
+      "end_year" : "1317",
+      "name" : "Shōwa",
+      "start_year" : "1312",
+      "url" : "https://en.wikipedia.org/wiki/Sh%C5%8Dwa_(Kamakura_period)",
+      "wref_en" : "Shōwa_(Kamakura_period)"
+   },
+   "1317\u001C1319" : {
+      "end_year" : "1319",
+      "name" : "Bunpō",
+      "start_year" : "1317",
+      "url" : "https://en.wikipedia.org/wiki/Bunp%C5%8D",
+      "wref_en" : "Bunpō"
+   },
+   "1319\u001C1321" : {
+      "end_year" : "1321",
+      "name" : "Gen'ō",
+      "start_year" : "1319",
+      "url" : "https://en.wikipedia.org/wiki/Gen%27%C5%8D",
+      "wref_en" : "Gen'ō"
+   },
+   "1321\u001C1324" : {
+      "end_year" : "1324",
+      "name" : "Genkō",
+      "start_year" : "1321",
+      "url" : "https://en.wikipedia.org/wiki/Genk%C5%8D_(first)",
+      "wref_en" : "Genkō_(first)"
+   },
+   "1324\u001C1326" : {
+      "end_year" : "1326",
+      "name" : "Shōchū",
+      "start_year" : "1324",
+      "url" : "https://en.wikipedia.org/wiki/Sh%C5%8Dch%C5%AB_(era)",
+      "wref_en" : "Shōchū_(era)"
+   },
+   "1326\u001C1329" : {
+      "end_year" : "1329",
+      "name" : "Karyaku",
+      "start_year" : "1326",
+      "url" : "https://en.wikipedia.org/wiki/Karyaku",
+      "wref_en" : "Karyaku"
+   },
+   "1329\u001C1331" : {
+      "end_year" : "1331",
+      "name" : "Gentoku",
+      "start_year" : "1329",
+      "url" : "https://en.wikipedia.org/wiki/Gentoku",
+      "wref_en" : "Gentoku"
+   },
+   "1331\u001C1334" : {
+      "end_year" : "1334",
+      "name" : "Genkō",
+      "start_year" : "1331",
+      "url" : "https://en.wikipedia.org/wiki/Genk%C5%8D_(second)",
+      "wref_en" : "Genkō_(second)"
+   },
+   "1332\u001C1333" : {
+      "end_year" : "1333",
+      "name" : "Shōkyō",
+      "start_year" : "1332",
+      "url" : "https://en.wikipedia.org/wiki/Sh%C5%8Dky%C5%8D",
+      "wref_en" : "Shōkyō"
+   },
+   "1334\u001C1336" : {
+      "end_year" : "1336",
+      "name" : "Kemmu",
+      "start_year" : "1334",
+      "url" : "https://en.wikipedia.org/wiki/Kemmu",
+      "wref_en" : "Kemmu"
+   },
+   "1334\u001C1338" : {
+      "end_year" : "1338",
+      "name" : "Kemmu",
+      "start_year" : "1334",
+      "url" : "https://en.wikipedia.org/wiki/Kemmu",
+      "wref_en" : "Kemmu"
+   },
+   "1336\u001C1340" : {
+      "end_year" : "1340",
+      "name" : "Engen",
+      "start_year" : "1336",
+      "url" : "https://en.wikipedia.org/wiki/Engen",
+      "wref_en" : "Engen"
+   },
+   "1338\u001C1342" : {
+      "end_year" : "1342",
+      "name" : "Ryakuō",
+      "start_year" : "1338",
+      "url" : "https://en.wikipedia.org/wiki/Ryaku%C5%8D",
+      "wref_en" : "Ryakuō"
+   },
+   "1340\u001C1346" : {
+      "end_year" : "1346",
+      "name" : "Kōkoku",
+      "start_year" : "1340",
+      "url" : "https://en.wikipedia.org/wiki/K%C5%8Dkoku",
+      "wref_en" : "Kōkoku"
+   },
+   "1342\u001C1345" : {
+      "end_year" : "1345",
+      "name" : "Kōei",
+      "start_year" : "1342",
+      "url" : "https://en.wikipedia.org/wiki/K%C5%8Dei",
+      "wref_en" : "Kōei"
+   },
+   "1345\u001C1350" : {
+      "end_year" : "1350",
+      "name" : "Jōwa",
+      "start_year" : "1345",
+      "url" : "https://en.wikipedia.org/wiki/J%C5%8Dwa_(Muromachi_period)",
+      "wref_en" : "Jōwa_(Muromachi_period)"
+   },
+   "1346\u001C1370" : {
+      "end_year" : "1370",
+      "name" : "Shōhei",
+      "start_year" : "1346",
+      "url" : "https://en.wikipedia.org/wiki/Sh%C5%8Dhei",
+      "wref_en" : "Shōhei"
+   },
+   "1350\u001C1352" : {
+      "end_year" : "1352",
+      "name" : "Kannō",
+      "start_year" : "1350",
+      "url" : "https://en.wikipedia.org/wiki/Kann%C5%8D",
+      "wref_en" : "Kannō"
+   },
+   "1352\u001C1356" : {
+      "end_year" : "1356",
+      "name" : "Bunna",
+      "start_year" : "1352",
+      "url" : "https://en.wikipedia.org/wiki/Bunna",
+      "wref_en" : "Bunna"
+   },
+   "1356\u001C1361" : {
+      "end_year" : "1361",
+      "name" : "Enbun",
+      "start_year" : "1356",
+      "url" : "https://en.wikipedia.org/wiki/Enbun",
+      "wref_en" : "Enbun"
+   },
+   "1361\u001C1362" : {
+      "end_year" : "1362",
+      "name" : "Kōan",
+      "start_year" : "1361",
+      "url" : "https://en.wikipedia.org/wiki/K%C5%8Dan_(Muromachi_period)",
+      "wref_en" : "Kōan_(Muromachi_period)"
+   },
+   "1362\u001C1368" : {
+      "end_year" : "1368",
+      "name" : "Jōji",
+      "start_year" : "1362",
+      "url" : "https://en.wikipedia.org/wiki/J%C5%8Dji",
+      "wref_en" : "Jōji"
+   },
+   "1368\u001C1375" : {
+      "end_year" : "1375",
+      "name" : "Ōan",
+      "start_year" : "1368",
+      "url" : "https://en.wikipedia.org/wiki/%C5%8Can",
+      "wref_en" : "Ōan"
+   },
+   "1370\u001C1372" : {
+      "end_year" : "1372",
+      "name" : "Kentoku",
+      "start_year" : "1370",
+      "url" : "https://en.wikipedia.org/wiki/Kentoku",
+      "wref_en" : "Kentoku"
+   },
+   "1372\u001C1375" : {
+      "end_year" : "1375",
+      "name" : "Bunchū",
+      "start_year" : "1372",
+      "url" : "https://en.wikipedia.org/wiki/Bunch%C5%AB",
+      "wref_en" : "Bunchū"
+   },
+   "1375\u001C1379" : {
+      "end_year" : "1379",
+      "name" : "Eiwa",
+      "start_year" : "1375",
+      "url" : "https://en.wikipedia.org/wiki/Eiwa",
+      "wref_en" : "Eiwa"
+   },
+   "1375\u001C1381" : {
+      "end_year" : "1381",
+      "name" : "Tenju",
+      "start_year" : "1375",
+      "url" : "https://en.wikipedia.org/wiki/Tenju",
+      "wref_en" : "Tenju"
+   },
+   "1379\u001C1381" : {
+      "end_year" : "1381",
+      "name" : "Kōryaku",
+      "start_year" : "1379",
+      "url" : "https://en.wikipedia.org/wiki/K%C5%8Dryaku",
+      "wref_en" : "Kōryaku"
+   },
+   "1381\u001C1384" : {
+      "end_year" : "1384",
+      "name" : "Eitoku",
+      "start_year" : "1381",
+      "url" : "https://en.wikipedia.org/wiki/Eitoku",
+      "wref_en" : "Eitoku"
+   },
+   "1384\u001C1387" : {
+      "end_year" : "1387",
+      "name" : "Shitoku",
+      "start_year" : "1384",
+      "url" : "https://en.wikipedia.org/wiki/Shitoku",
+      "wref_en" : "Shitoku"
+   },
+   "1384\u001C1392" : {
+      "end_year" : "1392",
+      "name" : "Genchū",
+      "start_year" : "1384",
+      "url" : "https://en.wikipedia.org/wiki/Gench%C5%AB",
+      "wref_en" : "Genchū"
+   },
+   "1387\u001C1389" : {
+      "end_year" : "1389",
+      "name" : "Kakei",
+      "start_year" : "1387",
+      "url" : "https://en.wikipedia.org/wiki/Kakei",
+      "wref_en" : "Kakei"
+   },
+   "1389\u001C1390" : {
+      "end_year" : "1390",
+      "name" : "Kōō",
+      "start_year" : "1389",
+      "url" : "https://en.wikipedia.org/wiki/K%C5%8D%C5%8D_(Nanboku-ch%C5%8D_period)",
+      "wref_en" : "Kōō_(Nanboku-chō_period)"
+   },
+   "1390\u001C1394" : {
+      "end_year" : "1394",
+      "name" : "Meitoku",
+      "start_year" : "1390",
+      "url" : "https://en.wikipedia.org/wiki/Meitoku",
+      "wref_en" : "Meitoku"
+   },
+   "1394\u001C1428" : {
+      "end_year" : "1428",
+      "name" : "Ōei",
+      "start_year" : "1394",
+      "url" : "https://en.wikipedia.org/wiki/%C5%8Cei",
+      "wref_en" : "Ōei"
+   },
+   "1428\u001C1429" : {
+      "end_year" : "1429",
+      "name" : "Shōchō",
+      "start_year" : "1428",
+      "url" : "https://en.wikipedia.org/wiki/Sh%C5%8Dch%C5%8D",
+      "wref_en" : "Shōchō"
+   },
+   "1429\u001C1441" : {
+      "end_year" : "1441",
+      "name" : "Eikyō",
+      "start_year" : "1429",
+      "url" : "https://en.wikipedia.org/wiki/Eiky%C5%8D",
+      "wref_en" : "Eikyō"
+   },
+   "1441\u001C1444" : {
+      "end_year" : "1444",
+      "name" : "Kakitsu",
+      "start_year" : "1441",
+      "url" : "https://en.wikipedia.org/wiki/Kakitsu",
+      "wref_en" : "Kakitsu"
+   },
+   "1444\u001C1449" : {
+      "end_year" : "1449",
+      "name" : "Bun'an",
+      "start_year" : "1444",
+      "url" : "https://en.wikipedia.org/wiki/Bun%27an",
+      "wref_en" : "Bun'an"
+   },
+   "1449\u001C1452" : {
+      "end_year" : "1452",
+      "name" : "Hōtoku",
+      "start_year" : "1449",
+      "url" : "https://en.wikipedia.org/wiki/H%C5%8Dtoku",
+      "wref_en" : "Hōtoku"
+   },
+   "1452\u001C1455" : {
+      "end_year" : "1455",
+      "name" : "Kyōtoku",
+      "start_year" : "1452",
+      "url" : "https://en.wikipedia.org/wiki/Ky%C5%8Dtoku",
+      "wref_en" : "Kyōtoku"
+   },
+   "1455\u001C1457" : {
+      "end_year" : "1457",
+      "name" : "Kōshō",
+      "start_year" : "1455",
+      "url" : "https://en.wikipedia.org/wiki/K%C5%8Dsh%C5%8D",
+      "wref_en" : "Kōshō"
+   },
+   "1457\u001C1460" : {
+      "end_year" : "1460",
+      "name" : "Chōroku",
+      "start_year" : "1457",
+      "url" : "https://en.wikipedia.org/wiki/Ch%C5%8Droku",
+      "wref_en" : "Chōroku"
+   },
+   "1460\u001C1466" : {
+      "end_year" : "1466",
+      "name" : "Kanshō",
+      "start_year" : "1460",
+      "url" : "https://en.wikipedia.org/wiki/Kansh%C5%8D",
+      "wref_en" : "Kanshō"
+   },
+   "1466\u001C1467" : {
+      "end_year" : "1467",
+      "name" : "Bunshō",
+      "start_year" : "1466",
+      "url" : "https://en.wikipedia.org/wiki/Bunsh%C5%8D",
+      "wref_en" : "Bunshō"
+   },
+   "1467\u001C1469" : {
+      "end_year" : "1469",
+      "name" : "Ōnin",
+      "start_year" : "1467",
+      "url" : "https://en.wikipedia.org/wiki/%C5%8Cnin",
+      "wref_en" : "Ōnin"
+   },
+   "1469\u001C1487" : {
+      "end_year" : "1487",
+      "name" : "Bunmei",
+      "start_year" : "1469",
+      "url" : "https://en.wikipedia.org/wiki/Bunmei",
+      "wref_en" : "Bunmei"
+   },
+   "1487\u001C1489" : {
+      "end_year" : "1489",
+      "name" : "Chōkyō",
+      "start_year" : "1487",
+      "url" : "https://en.wikipedia.org/wiki/Ch%C5%8Dky%C5%8D",
+      "wref_en" : "Chōkyō"
+   },
+   "1489\u001C1492" : {
+      "end_year" : "1492",
+      "name" : "Entoku",
+      "start_year" : "1489",
+      "url" : "https://en.wikipedia.org/wiki/Entoku",
+      "wref_en" : "Entoku"
+   },
+   "1492\u001C1501" : {
+      "end_year" : "1501",
+      "name" : "Meiō",
+      "start_year" : "1492",
+      "url" : "https://en.wikipedia.org/wiki/Mei%C5%8D",
+      "wref_en" : "Meiō"
+   },
+   "1501\u001C1521" : {
+      "end_year" : "1521",
+      "name" : "Bunki",
+      "start_year" : "1501",
+      "url" : "https://en.wikipedia.org/wiki/Bunki",
+      "wref_en" : "Bunki"
+   },
+   "1504\u001C1521" : {
+      "end_year" : "1521",
+      "name" : "Eishō",
+      "start_year" : "1504",
+      "url" : "https://en.wikipedia.org/wiki/Eish%C5%8D_(Muromachi_period)",
+      "wref_en" : "Eishō_(Muromachi_period)"
+   },
+   "1521\u001C1528" : {
+      "end_year" : "1528",
+      "name" : "Daiei",
+      "start_year" : "1521",
+      "url" : "https://en.wikipedia.org/wiki/Daiei_(era)",
+      "wref_en" : "Daiei_(era)"
+   },
+   "1528\u001C1532" : {
+      "end_year" : "1532",
+      "name" : "Kyōroku",
+      "start_year" : "1528",
+      "url" : "https://en.wikipedia.org/wiki/Ky%C5%8Droku",
+      "wref_en" : "Kyōroku"
+   },
+   "1532\u001C1555" : {
+      "end_year" : "1555",
+      "name" : "Tenbun",
+      "start_year" : "1532",
+      "url" : "https://en.wikipedia.org/wiki/Tenbun",
+      "wref_en" : "Tenbun"
+   },
+   "1555\u001C1558" : {
+      "end_year" : "1558",
+      "name" : "Kōji",
+      "start_year" : "1555",
+      "url" : "https://en.wikipedia.org/wiki/K%C5%8Dji_(Muromachi_period)",
+      "wref_en" : "Kōji_(Muromachi_period)"
+   },
+   "1558\u001C1570" : {
+      "end_year" : "1570",
+      "name" : "Eiroku",
+      "start_year" : "1558",
+      "url" : "https://en.wikipedia.org/wiki/Eiroku",
+      "wref_en" : "Eiroku"
+   },
+   "1570\u001C1573" : {
+      "end_year" : "1573",
+      "name" : "Genki",
+      "start_year" : "1570",
+      "url" : "https://en.wikipedia.org/wiki/Genki",
+      "wref_en" : "Genki"
+   },
+   "1573\u001C1592" : {
+      "end_year" : "1592",
+      "name" : "Tenshō",
+      "start_year" : "1573",
+      "url" : "https://en.wikipedia.org/wiki/Tensh%C5%8D_(Momoyama_period)",
+      "wref_en" : "Tenshō_(Momoyama_period)"
+   },
+   "1592\u001C1596" : {
+      "end_year" : "1596",
+      "name" : "Bunroku",
+      "start_year" : "1592",
+      "url" : "https://en.wikipedia.org/wiki/Bunroku",
+      "wref_en" : "Bunroku"
+   },
+   "1596\u001C1615" : {
+      "end_year" : "1615",
+      "name" : "Keichō",
+      "start_year" : "1596",
+      "url" : "https://en.wikipedia.org/wiki/Keich%C5%8D",
+      "wref_en" : "Keichō"
+   },
+   "1615\u001C1624" : {
+      "end_year" : "1624",
+      "name" : "Genna",
+      "start_year" : "1615",
+      "url" : "https://en.wikipedia.org/wiki/Genna",
+      "wref_en" : "Genna"
+   },
+   "1624\u001C1644" : {
+      "end_year" : "1644",
+      "name" : "Kan'ei",
+      "start_year" : "1624",
+      "url" : "https://en.wikipedia.org/wiki/Kan%27ei",
+      "wref_en" : "Kan'ei"
+   },
+   "1644\u001C1648" : {
+      "end_year" : "1648",
+      "name" : "Shōhō",
+      "start_year" : "1644",
+      "url" : "https://en.wikipedia.org/wiki/Sh%C5%8Dh%C5%8D",
+      "wref_en" : "Shōhō"
+   },
+   "1648\u001C1652" : {
+      "end_year" : "1652",
+      "name" : "Keian",
+      "start_year" : "1648",
+      "url" : "https://en.wikipedia.org/wiki/Keian",
+      "wref_en" : "Keian"
+   },
+   "1652\u001C1655" : {
+      "end_year" : "1655",
+      "name" : "Jōō",
+      "start_year" : "1652",
+      "url" : "https://en.wikipedia.org/wiki/J%C5%8D%C5%8D_(Edo_period)",
+      "wref_en" : "Jōō_(Edo_period)"
+   },
+   "1655\u001C1658" : {
+      "end_year" : "1658",
+      "name" : "Meireki",
+      "start_year" : "1655",
+      "url" : "https://en.wikipedia.org/wiki/Meireki",
+      "wref_en" : "Meireki"
+   },
+   "1658\u001C1661" : {
+      "end_year" : "1661",
+      "name" : "Manji",
+      "start_year" : "1658",
+      "url" : "https://en.wikipedia.org/wiki/Manji_(era)",
+      "wref_en" : "Manji_(era)"
+   },
+   "1661\u001C1673" : {
+      "end_year" : "1673",
+      "name" : "Kanbun",
+      "start_year" : "1661",
+      "url" : "https://en.wikipedia.org/wiki/Kanbun_(era)",
+      "wref_en" : "Kanbun_(era)"
+   },
+   "1673\u001C1681" : {
+      "end_year" : "1681",
+      "name" : "Enpō",
+      "start_year" : "1673",
+      "url" : "https://en.wikipedia.org/wiki/Enp%C5%8D",
+      "wref_en" : "Enpō"
+   },
+   "1681\u001C1684" : {
+      "end_year" : "1684",
+      "name" : "Tenna",
+      "start_year" : "1681",
+      "url" : "https://en.wikipedia.org/wiki/Tenna",
+      "wref_en" : "Tenna"
+   },
+   "1684\u001C1688" : {
+      "end_year" : "1688",
+      "name" : "Jōkyō",
+      "start_year" : "1684",
+      "url" : "https://en.wikipedia.org/wiki/J%C5%8Dky%C5%8D",
+      "wref_en" : "Jōkyō"
+   },
+   "1688\u001C1704" : {
+      "end_year" : "1704",
+      "name" : "Genroku",
+      "start_year" : "1688",
+      "url" : "https://en.wikipedia.org/wiki/Genroku",
+      "wref_en" : "Genroku"
+   },
+   "1704\u001C1711" : {
+      "end_year" : "1711",
+      "name" : "Hōei",
+      "start_year" : "1704",
+      "url" : "https://en.wikipedia.org/wiki/H%C5%8Dei",
+      "wref_en" : "Hōei"
+   },
+   "1711\u001C1716" : {
+      "end_year" : "1716",
+      "name" : "Shōtoku",
+      "start_year" : "1711",
+      "url" : "https://en.wikipedia.org/wiki/Sh%C5%8Dtoku_(era)",
+      "wref_en" : "Shōtoku_(era)"
+   },
+   "1716\u001C1736" : {
+      "end_year" : "1736",
+      "name" : "Kyōhō",
+      "start_year" : "1716",
+      "url" : "https://en.wikipedia.org/wiki/Ky%C5%8Dh%C5%8D",
+      "wref_en" : "Kyōhō"
+   },
+   "1736\u001C1741" : {
+      "end_year" : "1741",
+      "name" : "Genbun",
+      "start_year" : "1736",
+      "url" : "https://en.wikipedia.org/wiki/Genbun",
+      "wref_en" : "Genbun"
+   },
+   "1741\u001C1744" : {
+      "end_year" : "1744",
+      "name" : "Kanpō",
+      "start_year" : "1741",
+      "url" : "https://en.wikipedia.org/wiki/Kanp%C5%8D",
+      "wref_en" : "Kanpō"
+   },
+   "1744\u001C1748" : {
+      "end_year" : "1748",
+      "name" : "Enkyō",
+      "start_year" : "1744",
+      "url" : "https://en.wikipedia.org/wiki/Enky%C5%8D_(Edo_period)",
+      "wref_en" : "Enkyō_(Edo_period)"
+   },
+   "1748\u001C1751" : {
+      "end_year" : "1751",
+      "name" : "Kan'en",
+      "start_year" : "1748",
+      "url" : "https://en.wikipedia.org/wiki/Kan%27en",
+      "wref_en" : "Kan'en"
+   },
+   "1751\u001C1764" : {
+      "end_year" : "1764",
+      "name" : "Hōreki",
+      "start_year" : "1751",
+      "url" : "https://en.wikipedia.org/wiki/H%C5%8Dreki",
+      "wref_en" : "Hōreki"
+   },
+   "1764\u001C1772" : {
+      "end_year" : "1772",
+      "name" : "Meiwa",
+      "start_year" : "1764",
+      "url" : "https://en.wikipedia.org/wiki/Meiwa",
+      "wref_en" : "Meiwa"
+   },
+   "1772\u001C1781" : {
+      "end_year" : "1781",
+      "name" : "An'ei",
+      "start_year" : "1772",
+      "url" : "https://en.wikipedia.org/wiki/An%27ei",
+      "wref_en" : "An'ei"
+   },
+   "1781\u001C1789" : {
+      "end_year" : "1789",
+      "name" : "Tenmei",
+      "start_year" : "1781",
+      "url" : "https://en.wikipedia.org/wiki/Tenmei",
+      "wref_en" : "Tenmei"
+   },
+   "1789\u001C1801" : {
+      "end_year" : "1801",
+      "name" : "Kansei",
+      "start_year" : "1789",
+      "url" : "https://en.wikipedia.org/wiki/Kansei",
+      "wref_en" : "Kansei"
+   },
+   "1801\u001C1804" : {
+      "end_year" : "1804",
+      "name" : "Kyōwa",
+      "start_year" : "1801",
+      "url" : "https://en.wikipedia.org/wiki/Ky%C5%8Dwa",
+      "wref_en" : "Kyōwa"
+   },
+   "1804\u001C1818" : {
+      "end_year" : "1818",
+      "name" : "Bunka",
+      "start_year" : "1804",
+      "url" : "https://en.wikipedia.org/wiki/Bunka",
+      "wref_en" : "Bunka"
+   },
+   "1818\u001C1830" : {
+      "end_year" : "1830",
+      "name" : "Bunsei",
+      "start_year" : "1818",
+      "url" : "https://en.wikipedia.org/wiki/Bunsei",
+      "wref_en" : "Bunsei"
+   },
+   "1830\u001C1844" : {
+      "end_year" : "1844",
+      "name" : "Tenpō",
+      "start_year" : "1830",
+      "url" : "https://en.wikipedia.org/wiki/Tenp%C5%8D",
+      "wref_en" : "Tenpō"
+   },
+   "1844\u001C1848" : {
+      "end_year" : "1848",
+      "name" : "Kōka",
+      "start_year" : "1844",
+      "url" : "https://en.wikipedia.org/wiki/K%C5%8Dka",
+      "wref_en" : "Kōka"
+   },
+   "1848\u001C1854" : {
+      "end_year" : "1854",
+      "name" : "Kaei",
+      "start_year" : "1848",
+      "url" : "https://en.wikipedia.org/wiki/Kaei",
+      "wref_en" : "Kaei"
+   },
+   "1854\u001C1860" : {
+      "end_year" : "1860",
+      "name" : "Ansei",
+      "start_year" : "1854",
+      "url" : "https://en.wikipedia.org/wiki/Ansei",
+      "wref_en" : "Ansei"
+   },
+   "1860\u001C1861" : {
+      "end_year" : "1861",
+      "name" : "Man'en",
+      "start_year" : "1860",
+      "url" : "https://en.wikipedia.org/wiki/Man%27en",
+      "wref_en" : "Man'en"
+   },
+   "1861\u001C1864" : {
+      "end_year" : "1864",
+      "name" : "Bunkyū",
+      "start_year" : "1861",
+      "url" : "https://en.wikipedia.org/wiki/Bunky%C5%AB",
+      "wref_en" : "Bunkyū"
+   },
+   "1864\u001C1865" : {
+      "end_year" : "1865",
+      "name" : "Genji",
+      "start_year" : "1864",
+      "url" : "https://en.wikipedia.org/wiki/Genji_(era)",
+      "wref_en" : "Genji_(era)"
+   },
+   "1865\u001C1868" : {
+      "end_year" : "1868",
+      "name" : "Keiō",
+      "start_year" : "1865",
+      "url" : "https://en.wikipedia.org/wiki/Kei%C5%8D",
+      "wref_en" : "Keiō"
+   },
+   "1868\u001C1912" : {
+      "end_year" : "1912",
+      "name" : "Meiji",
+      "start_year" : "1868",
+      "url" : "https://en.wikipedia.org/wiki/Meiji_period",
+      "wref_en" : "Meiji_period"
+   },
+   "1912\u001C1926" : {
+      "end_year" : "1926",
+      "name" : "Taishō",
+      "start_year" : "1912",
+      "url" : "https://en.wikipedia.org/wiki/Taish%C5%8D_period",
+      "wref_en" : "Taishō_period"
+   },
+   "1926\u001C1989" : {
+      "end_year" : "1989",
+      "name" : "Shōwa",
+      "start_year" : "1926",
+      "url" : "https://en.wikipedia.org/wiki/Sh%C5%8Dwa_period",
+      "wref_en" : "Shōwa_period"
+   },
+   "1989\u001C" : {
+      "name" : "Heisei",
+      "start_year" : "1989",
+      "url" : "https://en.wikipedia.org/wiki/Heisei_period",
+      "wref_en" : "Heisei_period"
+   },
+   "645\u001C650" : {
+      "end_year" : "650",
+      "name" : "Taika",
+      "start_year" : "645",
+      "url" : "https://en.wikipedia.org/wiki/Taika_(era)",
+      "wref_en" : "Taika_(era)"
+   },
+   "650\u001C654" : {
+      "end_year" : "654",
+      "name" : "Hakuchi",
+      "start_year" : "650",
+      "url" : "https://en.wikipedia.org/wiki/Hakuchi_(era)",
+      "wref_en" : "Hakuchi_(era)"
+   },
+   "686\u001C686" : {
+      "end_year" : "686",
+      "name" : "Shuchō",
+      "start_year" : "686",
+      "url" : "https://en.wikipedia.org/wiki/Shuch%C5%8D",
+      "wref_en" : "Shuchō"
+   },
+   "701\u001C704" : {
+      "end_year" : "704",
+      "name" : "Taihō",
+      "start_year" : "701",
+      "url" : "https://en.wikipedia.org/wiki/Taih%C5%8D_(era)",
+      "wref_en" : "Taihō_(era)"
+   },
+   "704\u001C708" : {
+      "end_year" : "708",
+      "name" : "Keiun",
+      "start_year" : "704",
+      "url" : "https://en.wikipedia.org/wiki/Keiun",
+      "wref_en" : "Keiun"
+   },
+   "708\u001C715" : {
+      "end_year" : "715",
+      "name" : "Wadō",
+      "start_year" : "708",
+      "url" : "https://en.wikipedia.org/wiki/Wad%C5%8D_(era)",
+      "wref_en" : "Wadō_(era)"
+   },
+   "715\u001C717" : {
+      "end_year" : "717",
+      "name" : "Reiki",
+      "start_year" : "715",
+      "url" : "https://en.wikipedia.org/wiki/Reiki_(era)",
+      "wref_en" : "Reiki_(era)"
+   },
+   "717\u001C724" : {
+      "end_year" : "724",
+      "name" : "Yōrō",
+      "start_year" : "717",
+      "url" : "https://en.wikipedia.org/wiki/Y%C5%8Dr%C5%8D",
+      "wref_en" : "Yōrō"
+   },
+   "724\u001C729" : {
+      "end_year" : "729",
+      "name" : "Jinki",
+      "start_year" : "724",
+      "url" : "https://en.wikipedia.org/wiki/Jinki_(era)",
+      "wref_en" : "Jinki_(era)"
+   },
+   "729\u001C749" : {
+      "end_year" : "749",
+      "name" : "Tenpyō",
+      "start_year" : "729",
+      "url" : "https://en.wikipedia.org/wiki/Tenpy%C5%8D",
+      "wref_en" : "Tenpyō"
+   },
+   "749\u001C749" : {
+      "end_year" : "749",
+      "name" : "Tenpyō-kanpō",
+      "start_year" : "749",
+      "url" : "https://en.wikipedia.org/wiki/Tenpy%C5%8D-kanp%C5%8D",
+      "wref_en" : "Tenpyō-kanpō"
+   },
+   "749\u001C757" : {
+      "end_year" : "757",
+      "name" : "Tenpyō-shōhō",
+      "start_year" : "749",
+      "url" : "https://en.wikipedia.org/wiki/Tenpy%C5%8D-sh%C5%8Dh%C5%8D",
+      "wref_en" : "Tenpyō-shōhō"
+   },
+   "757\u001C765" : {
+      "end_year" : "765",
+      "name" : "Tenpyō-hōji",
+      "start_year" : "757",
+      "url" : "https://en.wikipedia.org/wiki/Tenpy%C5%8D-h%C5%8Dji",
+      "wref_en" : "Tenpyō-hōji"
+   },
+   "765\u001C767" : {
+      "end_year" : "767",
+      "name" : "Tenpyō-jingo",
+      "start_year" : "765",
+      "url" : "https://en.wikipedia.org/wiki/Tenpy%C5%8D-jingo",
+      "wref_en" : "Tenpyō-jingo"
+   },
+   "767\u001C770" : {
+      "end_year" : "770",
+      "name" : "Jingo-keiun",
+      "start_year" : "767",
+      "url" : "https://en.wikipedia.org/wiki/Jingo-keiun",
+      "wref_en" : "Jingo-keiun"
+   },
+   "770\u001C781" : {
+      "end_year" : "781",
+      "name" : "Hōki",
+      "start_year" : "770",
+      "url" : "https://en.wikipedia.org/wiki/H%C5%8Dki",
+      "wref_en" : "Hōki"
+   },
+   "781\u001C782" : {
+      "end_year" : "782",
+      "name" : "Ten'ō",
+      "start_year" : "781",
+      "url" : "https://en.wikipedia.org/wiki/Ten%27%C5%8D",
+      "wref_en" : "Ten'ō"
+   },
+   "782\u001C806" : {
+      "end_year" : "806",
+      "name" : "Enryaku",
+      "start_year" : "782",
+      "url" : "https://en.wikipedia.org/wiki/Enryaku",
+      "wref_en" : "Enryaku"
+   },
+   "806\u001C810" : {
+      "end_year" : "810",
+      "name" : "Daidō",
+      "start_year" : "806",
+      "url" : "https://en.wikipedia.org/wiki/Daid%C5%8D",
+      "wref_en" : "Daidō"
+   },
+   "810\u001C824" : {
+      "end_year" : "824",
+      "name" : "Kōnin",
+      "start_year" : "810",
+      "url" : "https://en.wikipedia.org/wiki/K%C5%8Dnin_(era)",
+      "wref_en" : "Kōnin_(era)"
+   },
+   "824\u001C834" : {
+      "end_year" : "834",
+      "name" : "Tenchō",
+      "start_year" : "824",
+      "url" : "https://en.wikipedia.org/wiki/Tench%C5%8D",
+      "wref_en" : "Tenchō"
+   },
+   "834\u001C848" : {
+      "end_year" : "848",
+      "name" : "Jōwa",
+      "start_year" : "834",
+      "url" : "https://en.wikipedia.org/wiki/J%C5%8Dwa_(Heian_period)",
+      "wref_en" : "Jōwa_(Heian_period)"
+   },
+   "848\u001C851" : {
+      "end_year" : "851",
+      "name" : "Kajō",
+      "start_year" : "848",
+      "url" : "https://en.wikipedia.org/wiki/Kaj%C5%8D",
+      "wref_en" : "Kajō"
+   },
+   "851\u001C854" : {
+      "end_year" : "854",
+      "name" : "Ninju",
+      "start_year" : "851",
+      "url" : "https://en.wikipedia.org/wiki/Ninju",
+      "wref_en" : "Ninju"
+   },
+   "854\u001C857" : {
+      "end_year" : "857",
+      "name" : "Saikō",
+      "start_year" : "854",
+      "url" : "https://en.wikipedia.org/wiki/Saik%C5%8D",
+      "wref_en" : "Saikō"
+   },
+   "857\u001C859" : {
+      "end_year" : "859",
+      "name" : "Ten'an",
+      "start_year" : "857",
+      "url" : "https://en.wikipedia.org/wiki/Ten%27an",
+      "wref_en" : "Ten'an"
+   },
+   "859\u001C877" : {
+      "end_year" : "877",
+      "name" : "Jōgan",
+      "start_year" : "859",
+      "url" : "https://en.wikipedia.org/wiki/J%C5%8Dgan",
+      "wref_en" : "Jōgan"
+   },
+   "877\u001C885" : {
+      "end_year" : "885",
+      "name" : "Gangyō",
+      "start_year" : "877",
+      "url" : "https://en.wikipedia.org/wiki/Gangy%C5%8D",
+      "wref_en" : "Gangyō"
+   },
+   "885\u001C889" : {
+      "end_year" : "889",
+      "name" : "Ninna",
+      "start_year" : "885",
+      "url" : "https://en.wikipedia.org/wiki/Ninna",
+      "wref_en" : "Ninna"
+   },
+   "889\u001C898" : {
+      "end_year" : "898",
+      "name" : "Kanpyō",
+      "start_year" : "889",
+      "url" : "https://en.wikipedia.org/wiki/Kanpy%C5%8D_(era)",
+      "wref_en" : "Kanpyō_(era)"
+   },
+   "898\u001C901" : {
+      "end_year" : "901",
+      "name" : "Shōtai",
+      "start_year" : "898",
+      "url" : "https://en.wikipedia.org/wiki/Sh%C5%8Dtai",
+      "wref_en" : "Shōtai"
+   },
+   "901\u001C923" : {
+      "end_year" : "923",
+      "name" : "Engi",
+      "start_year" : "901",
+      "url" : "https://en.wikipedia.org/wiki/Engi_(era)",
+      "wref_en" : "Engi_(era)"
+   },
+   "923\u001C931" : {
+      "end_year" : "931",
+      "name" : "Enchō",
+      "start_year" : "923",
+      "url" : "https://en.wikipedia.org/wiki/Ench%C5%8D",
+      "wref_en" : "Enchō"
+   },
+   "931\u001C938" : {
+      "end_year" : "938",
+      "name" : "Jōhei",
+      "start_year" : "931",
+      "url" : "https://en.wikipedia.org/wiki/J%C5%8Dhei",
+      "wref_en" : "Jōhei"
+   },
+   "938\u001C947" : {
+      "end_year" : "947",
+      "name" : "Tengyō",
+      "start_year" : "938",
+      "url" : "https://en.wikipedia.org/wiki/Tengy%C5%8D",
+      "wref_en" : "Tengyō"
+   },
+   "947\u001C957" : {
+      "end_year" : "957",
+      "name" : "Tenryaku",
+      "start_year" : "947",
+      "url" : "https://en.wikipedia.org/wiki/Tenryaku",
+      "wref_en" : "Tenryaku"
+   },
+   "957\u001C961" : {
+      "end_year" : "961",
+      "name" : "Tentoku",
+      "start_year" : "957",
+      "url" : "https://en.wikipedia.org/wiki/Tentoku",
+      "wref_en" : "Tentoku"
+   },
+   "961\u001C964" : {
+      "end_year" : "964",
+      "name" : "Ōwa",
+      "start_year" : "961",
+      "url" : "https://en.wikipedia.org/wiki/%C5%8Cwa",
+      "wref_en" : "Ōwa"
+   },
+   "964\u001C968" : {
+      "end_year" : "968",
+      "name" : "Kōhō",
+      "start_year" : "964",
+      "url" : "https://en.wikipedia.org/wiki/K%C5%8Dh%C5%8D",
+      "wref_en" : "Kōhō"
+   },
+   "968\u001C970" : {
+      "end_year" : "970",
+      "name" : "Anna",
+      "start_year" : "968",
+      "url" : "https://en.wikipedia.org/wiki/Anna_(era)",
+      "wref_en" : "Anna_(era)"
+   },
+   "970\u001C973" : {
+      "end_year" : "973",
+      "name" : "Tenroku",
+      "start_year" : "970",
+      "url" : "https://en.wikipedia.org/wiki/Tenroku",
+      "wref_en" : "Tenroku"
+   },
+   "973\u001C976" : {
+      "end_year" : "976",
+      "name" : "Ten'en",
+      "start_year" : "973",
+      "url" : "https://en.wikipedia.org/wiki/Ten%27en",
+      "wref_en" : "Ten'en"
+   },
+   "976\u001C978" : {
+      "end_year" : "978",
+      "name" : "Jōgen",
+      "start_year" : "976",
+      "url" : "https://en.wikipedia.org/wiki/J%C5%8Dgen_(Heian_period)",
+      "wref_en" : "Jōgen_(Heian_period)"
+   },
+   "978\u001C983" : {
+      "end_year" : "983",
+      "name" : "Tengen",
+      "start_year" : "978",
+      "url" : "https://en.wikipedia.org/wiki/Tengen_(era)",
+      "wref_en" : "Tengen_(era)"
+   },
+   "983\u001C985" : {
+      "end_year" : "985",
+      "name" : "Eikan",
+      "start_year" : "983",
+      "url" : "https://en.wikipedia.org/wiki/Eikan",
+      "wref_en" : "Eikan"
+   },
+   "985\u001C987" : {
+      "end_year" : "987",
+      "name" : "Kanna",
+      "start_year" : "985",
+      "url" : "https://en.wikipedia.org/wiki/Kanna_(era)",
+      "wref_en" : "Kanna_(era)"
+   },
+   "987\u001C988" : {
+      "end_year" : "988",
+      "name" : "Eien",
+      "start_year" : "987",
+      "url" : "https://en.wikipedia.org/wiki/Eien",
+      "wref_en" : "Eien"
+   },
+   "988\u001C990" : {
+      "end_year" : "990",
+      "name" : "Eiso",
+      "start_year" : "988",
+      "url" : "https://en.wikipedia.org/wiki/Eiso",
+      "wref_en" : "Eiso"
+   },
+   "990\u001C995" : {
+      "end_year" : "995",
+      "name" : "Shōryaku",
+      "start_year" : "990",
+      "url" : "https://en.wikipedia.org/wiki/Sh%C5%8Dryaku",
+      "wref_en" : "Shōryaku"
+   },
+   "995\u001C999" : {
+      "end_year" : "999",
+      "name" : "Chōtoku",
+      "start_year" : "995",
+      "url" : "https://en.wikipedia.org/wiki/Ch%C5%8Dtoku",
+      "wref_en" : "Chōtoku"
+   },
+   "999\u001C1004" : {
+      "end_year" : "1004",
+      "name" : "Chōhō",
+      "start_year" : "999",
+      "url" : "https://en.wikipedia.org/wiki/Ch%C5%8Dh%C5%8D_(era)",
+      "wref_en" : "Chōhō_(era)"
+   }
+}

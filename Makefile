@@ -84,19 +84,27 @@ data/calendar/kyuureki-shoki-genten.json: bin/calendar-kyuureki-shoki-genten.pl
 data/calendar/kyuureki-sansei.json: bin/calendar-kyuureki-sansei.pl
 	$(PERL) $< > $@
 
-local/wp-jp-eras-parsed.json: bin/parse-wp-jp-eras.pl src/wp-jp-eras.json
+local/wp-jp-eras.html:
+	$(WGET) -O $@ https://ja.wikipedia.org/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_%28%E6%97%A5%E6%9C%AC%29
+local/wp-jp-eras-bare.json: bin/parse-wp-jp-eras-html.pl local/wp-jp-eras.html
+	$(PERL) $< > $@
+src/wp-jp-eras.json: #bin/parse-wp-jp-eras.pl local/wp-jp-eras-bare.json
 	$(PERL) $< > $@
 src/eras/wp-jp-era-sets.txt: bin/generate-wp-jp-era-sets.pl \
-    local/wp-jp-eras-parsed.json
+    src/wp-jp-eras.json
 	$(PERL) $< > $@
 src/eras/jp-emperor-era-sets.txt: bin/generate-jp-emperor-eras-sets.pl \
     src/jp-emperor-eras.txt
 	$(PERL) $< > $@
 local/era-defs-jp.json: bin/generate-era-defs-jp.pl \
-    local/wp-jp-eras-parsed.json data/calendar/kyuureki-map.txt
+    src/wp-jp-eras.json data/calendar/kyuureki-map.txt
 	$(PERL) $< > $@
 local/era-defs-jp-emperor.json: bin/generate-jp-emperor-eras-defs.pl \
     src/jp-emperor-eras.txt
+	$(PERL) $< > $@
+local/wp-jp-eras-en.html:
+	$(WGET) -O $@ https://en.wikipedia.org/wiki/Template:Japanese_era_names
+src/wp-jp-eras-en.json: #bin/parse-wp-jp-eras-en.pl local/wp-jp-eras-en.html
 	$(PERL) $< > $@
 data/calendar/era-systems.json: bin/calendar-era-systems.pl \
     src/eras/*.txt data/calendar/kyuureki-map.txt
@@ -107,7 +115,8 @@ local/era-defs-dates.json: bin/generate-era-defs-dates.pl \
 	$(PERL) $< > $@
 data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     local/era-defs-jp.json local/era-defs-jp-emperor.json \
-    local/era-defs-dates.json src/char-variants.txt
+    local/era-defs-dates.json src/char-variants.txt \
+    src/wp-jp-eras-en.json
 	$(PERL) $< > $@
 
 local/era-chars.json: bin/generate-era-chars.pl \
