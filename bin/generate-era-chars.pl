@@ -10,7 +10,7 @@ my $json = json_bytes2perl $json_path->slurp;
 
 my $chars = {};
 for (values %{$json->{eras}}) {
-  $chars->{$_} = 1 for split //, $_->{name}
+  $chars->{$_}++ for split //, $_->{name}
 }
 
 my $Data = {};

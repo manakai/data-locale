@@ -68,6 +68,15 @@ The file contains a JSON object with following name/value pair:
     their descriptions, represented as JSON objects with following
     name/value pairs:
 
+      abbr [string?]
+
+        The abbreviation of the era name, using the "native" script,
+        if any.
+
+      abbr_latn [string?]
+
+        The abbreviation of the era name, using Latin letters, if any.
+
       jp_emperor_era [boolean]
 
         Whether the era is used to represent years where no 元号 was
@@ -105,7 +114,30 @@ The file contains a JSON object with following name/value pair:
 
         A name of the era, which can be used as a formal or long name
         of the era in the official modern spelling of the country
-        where the era is (or was) used, wherever possible.
+        where the era is (or was) used, wherever possible.  The name
+        can be used as the default prefix of a year number.
+
+      names [object]
+
+        Known variants of the era name.  Names are variants and values
+        are [boolean] true values.  Variants include names without
+        suffix (e.g. "神武" for "神武天皇") and names using different
+        spelling (e.g. using traditional variant such as "神武" and "神
+        武天皇").  They also include any |name|, |short_name|, |abbr|,
+        and |abbr_latn| of the era.
+
+      name_kana [string?]
+
+        The primary hiragana name of the era, if known.
+
+      name_kanas [object?]
+
+        Known hiragana names of the era.  Names are variants and
+        values are [boolean] true values.
+
+      name_latn [string?]
+
+        The primary Latin name of the era, if known.
 
       offset [integer]
 
@@ -114,6 +146,23 @@ The file contains a JSON object with following name/value pair:
         |offset| from the AD year
         <https://manakai.github.io/spec-datetime/#ad-year>.  Note that
         the offset can be negative.
+
+      short_name [string]
+
+        A shorter name of the era, omitting common suffixes (e.g. "神武"
+        for name "神武天皇"), if any, or same value as |name|.
+
+      wref_en [string?]
+
+        A Wikipedia reference
+        <https://github.com/geocol/data-jp-transport/blob/master/doc/datatypes.txt>
+        for the English Wikipedia article on the era.
+
+      wref_ja [string?]
+
+        A Wikipedia reference
+        <https://github.com/geocol/data-jp-transport/blob/master/doc/datatypes.txt>
+        for the Japanese Wikipedia article on the era.
 
       start_day [day?]
       start_year [year?]
@@ -184,10 +233,19 @@ The file contains a JSON object with following name/value pair:
 
 * Sources
 
-Wikipedia (ja):元号一覧 (日本)
+元号一覧 (日本) - Wikipedia
 <https://ja.wikipedia.org/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_(%E6%97%A5%E6%9C%AC)>.
 
+天皇の一覧 - Wikipedia
+<https://ja.wikipedia.org/wiki/%E5%A4%A9%E7%9A%87%E3%81%AE%E4%B8%80%E8%A6%A7>.
+
 SuikaWiki:元号 <https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7>.
+
+Template:Japanese era names - Wikipedia, the free encyclopedia
+<https://en.wikipedia.org/wiki/Template:Japanese_era_names>.
+
+List of Emperors of Japan - Wikipedia, the free encyclopedia
+<https://en.wikipedia.org/wiki/List_of_Emperors_of_Japan>.
 
 * License
 

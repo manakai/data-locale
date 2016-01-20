@@ -7,7 +7,7 @@ binmode STDOUT, q{:encoding(utf-8)};
 
 my $root_path = path (__FILE__)->parent->parent;
 
-my $json_path = $root_path->child ('local/wp-jp-eras-parsed.json');
+my $json_path = $root_path->child ('src/wp-jp-eras.json');
 my $json = json_bytes2perl $json_path->slurp;
 
 my $north = {map { $_ => 1 } qw(

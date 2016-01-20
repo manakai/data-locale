@@ -6,7 +6,7 @@ use Path::Tiny;
 
 my $root_path = path (__FILE__)->parent->parent;
 
-my $json_path = $root_path->child ('local/wp-jp-eras-parsed.json');
+my $json_path = $root_path->child ('src/wp-jp-eras.json');
 my $json = json_bytes2perl $json_path->slurp;
 
 my $g2k_map_path = $root_path->child ('data/calendar/kyuureki-map.txt');
@@ -35,18 +35,24 @@ for (values %$json) {
   die "Bad start |$_->{start}|" unless defined $start;
   $start =~ /^(\d+)/;
   my $first_year = 0+$1;
-  $Data->{eras}->{$_->{name}}->{offset} = $first_year - 1;
+  my $data = $Data->{eras}->{$_->{name}} ||= {};
+  $data->{offset} = $first_year - 1;
   if ($south->{$_->{name}}) {
-    $Data->{eras}->{$_->{name}}->{jp_south_era} = 1;
+    $data->{jp_south_era} = 1;
   }
   if ($north->{$_->{name}}) {
-    $Data->{eras}->{$_->{name}}->{jp_north_era} = 1;
+    $data->{jp_north_era} = 1;
   }
   if (not $north->{$_->{name}} and not $south->{$_->{name}}) {
-    $Data->{eras}->{$_->{name}}->{jp_era} = 1;
+    $data->{jp_era} = 1;
   }
-  $Data->{eras}->{$_->{name}}->{name} = $_->{name};
-  $Data->{eras}->{$_->{name}}->{key} = $_->{name};
+  $data->{name} = $_->{name};
+  $data->{key} = $_->{name};
+  for my $key (qw(wref_ja name_kana name_kanas)) {
+    if (defined $_->{$key}) {
+      $data->{$key} = $_->{$key};
+    }
+  }
 }
 
 print perl2json_bytes_for_record $Data;
