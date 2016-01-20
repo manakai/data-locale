@@ -23,6 +23,14 @@
          "jp_era" : 1,
          "key" : "万寿",
          "name" : "万寿",
+         "names" : {
+            "万壽" : 1,
+            "万夀" : 1,
+            "万寿" : 1,
+            "萬壽" : 1,
+            "萬夀" : 1,
+            "萬寿" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1024-02-19",
             "gregorian_era" : "万寿1-02-19",
@@ -33,6 +41,7 @@
             "kyuureki_era" : "万寿1-01-01"
          },
          "offset" : 1023,
+         "short_name" : "万寿",
          "start_day" : {
             "gregorian" : "1024-08-25",
             "gregorian_era" : "万寿1-08-25",
@@ -67,6 +76,10 @@
          "jp_era" : 1,
          "key" : "万延",
          "name" : "万延",
+         "names" : {
+            "万延" : 1,
+            "萬延" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1860-01-23",
             "gregorian_era" : "万延1-01-23",
@@ -77,6 +90,7 @@
             "kyuureki_era" : "万延1-01-01"
          },
          "offset" : 1859,
+         "short_name" : "万延",
          "start_day" : {
             "gregorian" : "1860-04-08",
             "gregorian_era" : "万延1-04-08",
@@ -111,6 +125,10 @@
          "jp_era" : 1,
          "key" : "万治",
          "name" : "万治",
+         "names" : {
+            "万治" : 1,
+            "萬治" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1658-02-03",
             "gregorian_era" : "万治1-02-03",
@@ -121,6 +139,7 @@
             "kyuureki_era" : "万治1-01-01"
          },
          "offset" : 1657,
+         "short_name" : "万治",
          "start_day" : {
             "gregorian" : "1658-08-21",
             "gregorian_era" : "万治1-08-21",
@@ -155,6 +174,9 @@
          "jp_era" : 1,
          "key" : "久安",
          "name" : "久安",
+         "names" : {
+            "久安" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1145-02-01",
             "gregorian_era" : "久安1-02-01",
@@ -165,6 +187,7 @@
             "kyuureki_era" : "久安1-01-01"
          },
          "offset" : 1144,
+         "short_name" : "久安",
          "start_day" : {
             "gregorian" : "1145-08-19",
             "gregorian_era" : "久安1-08-19",
@@ -199,6 +222,11 @@
          "jp_era" : 1,
          "key" : "久寿",
          "name" : "久寿",
+         "names" : {
+            "久壽" : 1,
+            "久夀" : 1,
+            "久寿" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1154-02-21",
             "gregorian_era" : "久寿1-02-21",
@@ -209,6 +237,7 @@
             "kyuureki_era" : "久寿1-01-01"
          },
          "offset" : 1153,
+         "short_name" : "久寿",
          "start_day" : {
             "gregorian" : "1154-12-11",
             "gregorian_era" : "久寿1-12-11",
@@ -243,6 +272,9 @@
          "jp_era" : 1,
          "key" : "乾元",
          "name" : "乾元",
+         "names" : {
+            "乾元" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1302-02-07",
             "gregorian_era" : "乾元1-02-07",
@@ -253,6 +285,7 @@
             "kyuureki_era" : "乾元1-01-01"
          },
          "offset" : 1301,
+         "short_name" : "乾元",
          "start_day" : {
             "gregorian" : "1302-12-18",
             "gregorian_era" : "乾元1-12-18",
@@ -287,6 +320,9 @@
          "jp_era" : 1,
          "key" : "享保",
          "name" : "享保",
+         "names" : {
+            "享保" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1716-01-25",
             "gregorian_era" : "享保1-01-25",
@@ -297,6 +333,7 @@
             "kyuureki_era" : "享保1-01-01"
          },
          "offset" : 1715,
+         "short_name" : "享保",
          "start_day" : {
             "gregorian" : "1716-08-09",
             "gregorian_era" : "享保1-08-09",
@@ -331,6 +368,9 @@
          "jp_era" : 1,
          "key" : "享和",
          "name" : "享和",
+         "names" : {
+            "享和" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1801-02-13",
             "gregorian_era" : "享和1-02-13",
@@ -341,6 +381,7 @@
             "kyuureki_era" : "享和1-01-01"
          },
          "offset" : 1800,
+         "short_name" : "享和",
          "start_day" : {
             "gregorian" : "1801-03-19",
             "gregorian_era" : "享和1-03-19",
@@ -375,6 +416,10 @@
          "jp_era" : 1,
          "key" : "享徳",
          "name" : "享徳",
+         "names" : {
+            "享徳" : 1,
+            "享德" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1452-01-31",
             "gregorian_era" : "享徳1-01-31",
@@ -385,6 +430,7 @@
             "kyuureki_era" : "享徳1-01-01"
          },
          "offset" : 1451,
+         "short_name" : "享徳",
          "start_day" : {
             "gregorian" : "1452-08-19",
             "gregorian_era" : "享徳1-08-19",
@@ -419,6 +465,10 @@
          "jp_era" : 1,
          "key" : "享禄",
          "name" : "享禄",
+         "names" : {
+            "享祿" : 1,
+            "享禄" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1528-02-01",
             "gregorian_era" : "享禄1-02-01",
@@ -429,6 +479,7 @@
             "kyuureki_era" : "享禄1-01-01"
          },
          "offset" : 1527,
+         "short_name" : "享禄",
          "start_day" : {
             "gregorian" : "1528-09-13",
             "gregorian_era" : "享禄1-09-13",
@@ -463,6 +514,9 @@
          "jp_era" : 1,
          "key" : "仁和",
          "name" : "仁和",
+         "names" : {
+            "仁和" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0885-01-24",
             "gregorian_era" : "仁和1-01-24",
@@ -473,6 +527,7 @@
             "kyuureki_era" : "仁和1-01-01"
          },
          "offset" : 884,
+         "short_name" : "仁和",
          "start_day" : {
             "gregorian" : "0885-03-15",
             "gregorian_era" : "仁和1-03-15",
@@ -507,6 +562,9 @@
          "jp_era" : 1,
          "key" : "仁安",
          "name" : "仁安",
+         "names" : {
+            "仁安" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1166-02-10",
             "gregorian_era" : "仁安1-02-10",
@@ -517,6 +575,7 @@
             "kyuureki_era" : "仁安1-01-01"
          },
          "offset" : 1165,
+         "short_name" : "仁安",
          "start_day" : {
             "gregorian" : "1166-09-30",
             "gregorian_era" : "仁安1-09-30",
@@ -551,6 +610,11 @@
          "jp_era" : 1,
          "key" : "仁寿",
          "name" : "仁寿",
+         "names" : {
+            "仁壽" : 1,
+            "仁夀" : 1,
+            "仁寿" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0851-02-09",
             "gregorian_era" : "仁寿1-02-09",
@@ -561,6 +625,7 @@
             "kyuureki_era" : "仁寿1-01-01"
          },
          "offset" : 850,
+         "short_name" : "仁寿",
          "start_day" : {
             "gregorian" : "0851-06-05",
             "gregorian_era" : "仁寿1-06-05",
@@ -595,6 +660,9 @@
          "jp_era" : 1,
          "key" : "仁平",
          "name" : "仁平",
+         "names" : {
+            "仁平" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1151-01-27",
             "gregorian_era" : "仁平1-01-27",
@@ -605,6 +673,7 @@
             "kyuureki_era" : "仁平1-01-01"
          },
          "offset" : 1150,
+         "short_name" : "仁平",
          "start_day" : {
             "gregorian" : "1151-02-21",
             "gregorian_era" : "仁平1-02-21",
@@ -648,7 +717,14 @@
          "jp_emperor_era" : 1,
          "key" : "仁徳天皇",
          "name" : "仁徳天皇",
+         "names" : {
+            "仁徳" : 1,
+            "仁徳天皇" : 1,
+            "仁德" : 1,
+            "仁德天皇" : 1
+         },
          "offset" : 312,
+         "short_name" : "仁徳",
          "start_gregorian_day" : {
             "gregorian" : "0313-01-01",
             "gregorian_era" : "仁徳天皇1-01-01",
@@ -701,6 +777,9 @@
          "jp_era" : 1,
          "key" : "仁治",
          "name" : "仁治",
+         "names" : {
+            "仁治" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1240-02-02",
             "gregorian_era" : "仁治1-02-02",
@@ -711,6 +790,7 @@
             "kyuureki_era" : "仁治1-01-01"
          },
          "offset" : 1239,
+         "short_name" : "仁治",
          "start_day" : {
             "gregorian" : "1240-08-12",
             "gregorian_era" : "仁治1-08-12",
@@ -754,7 +834,14 @@
          "jp_emperor_era" : 1,
          "key" : "仁賢天皇",
          "name" : "仁賢天皇",
+         "names" : {
+            "仁賢" : 1,
+            "仁賢天皇" : 1,
+            "仁贤" : 1,
+            "仁贤天皇" : 1
+         },
          "offset" : 487,
+         "short_name" : "仁賢",
          "start_gregorian_day" : {
             "gregorian" : "0488-01-01",
             "gregorian_era" : "仁賢天皇1-01-01",
@@ -816,7 +903,12 @@
          "jp_emperor_era" : 1,
          "key" : "仲哀天皇",
          "name" : "仲哀天皇",
+         "names" : {
+            "仲哀" : 1,
+            "仲哀天皇" : 1
+         },
          "offset" : 191,
+         "short_name" : "仲哀",
          "start_gregorian_day" : {
             "gregorian" : "0192-01-01",
             "gregorian_era" : "仲哀天皇1-01-01",
@@ -869,6 +961,9 @@
          "jp_era" : 1,
          "key" : "保元",
          "name" : "保元",
+         "names" : {
+            "保元" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1156-01-31",
             "gregorian_era" : "保元1-01-31",
@@ -879,6 +974,7 @@
             "kyuureki_era" : "保元1-01-01"
          },
          "offset" : 1155,
+         "short_name" : "保元",
          "start_day" : {
             "gregorian" : "1156-05-25",
             "gregorian_era" : "保元1-05-25",
@@ -913,6 +1009,9 @@
          "jp_era" : 1,
          "key" : "保安",
          "name" : "保安",
+         "names" : {
+            "保安" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1120-02-08",
             "gregorian_era" : "保安1-02-08",
@@ -923,6 +1022,7 @@
             "kyuureki_era" : "保安1-01-01"
          },
          "offset" : 1119,
+         "short_name" : "保安",
          "start_day" : {
             "gregorian" : "1120-05-16",
             "gregorian_era" : "保安1-05-16",
@@ -957,6 +1057,9 @@
          "jp_era" : 1,
          "key" : "保延",
          "name" : "保延",
+         "names" : {
+            "保延" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1135-02-22",
             "gregorian_era" : "保延1-02-22",
@@ -967,6 +1070,7 @@
             "kyuureki_era" : "保延1-01-01"
          },
          "offset" : 1134,
+         "short_name" : "保延",
          "start_day" : {
             "gregorian" : "1135-06-17",
             "gregorian_era" : "保延1-06-17",
@@ -1010,7 +1114,12 @@
          "jp_emperor_era" : 1,
          "key" : "允恭天皇",
          "name" : "允恭天皇",
+         "names" : {
+            "允恭" : 1,
+            "允恭天皇" : 1
+         },
          "offset" : 411,
+         "short_name" : "允恭",
          "start_gregorian_day" : {
             "gregorian" : "0412-01-01",
             "gregorian_era" : "允恭天皇1-01-01",
@@ -1044,7 +1153,11 @@
          "jp_south_era" : 1,
          "key" : "元中",
          "name" : "元中",
+         "names" : {
+            "元中" : 1
+         },
          "offset" : 1383,
+         "short_name" : "元中",
          "south_actual_end_day" : {
             "gregorian" : "1392-11-27",
             "gregorian_era" : "元中9-11-27",
@@ -1107,6 +1220,9 @@
          "jp_era" : 1,
          "key" : "元久",
          "name" : "元久",
+         "names" : {
+            "元久" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1204-02-10",
             "gregorian_era" : "元久1-02-10",
@@ -1117,6 +1233,7 @@
             "kyuureki_era" : "元久1-01-01"
          },
          "offset" : 1203,
+         "short_name" : "元久",
          "start_day" : {
             "gregorian" : "1204-03-30",
             "gregorian_era" : "元久1-03-30",
@@ -1151,6 +1268,11 @@
          "jp_era" : 1,
          "key" : "元亀",
          "name" : "元亀",
+         "names" : {
+            "元亀" : 1,
+            "元龜" : 1,
+            "元龟" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1570-02-15",
             "gregorian_era" : "元亀1-02-15",
@@ -1161,6 +1283,7 @@
             "kyuureki_era" : "元亀1-01-01"
          },
          "offset" : 1569,
+         "short_name" : "元亀",
          "start_day" : {
             "gregorian" : "1570-06-06",
             "gregorian_era" : "元亀1-06-06",
@@ -1195,6 +1318,9 @@
          "jp_era" : 1,
          "key" : "元亨",
          "name" : "元亨",
+         "names" : {
+            "元亨" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1321-02-06",
             "gregorian_era" : "元亨1-02-06",
@@ -1205,6 +1331,7 @@
             "kyuureki_era" : "元亨1-01-01"
          },
          "offset" : 1320,
+         "short_name" : "元亨",
          "start_day" : {
             "gregorian" : "1321-03-30",
             "gregorian_era" : "元亨1-03-30",
@@ -1239,6 +1366,9 @@
          "jp_era" : 1,
          "key" : "元仁",
          "name" : "元仁",
+         "names" : {
+            "元仁" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1224-01-29",
             "gregorian_era" : "元仁1-01-29",
@@ -1249,6 +1379,7 @@
             "kyuureki_era" : "元仁1-01-01"
          },
          "offset" : 1223,
+         "short_name" : "元仁",
          "start_day" : {
             "gregorian" : "1225-01-07",
             "gregorian_era" : "元仁2-01-07",
@@ -1283,6 +1414,9 @@
          "jp_era" : 1,
          "key" : "元和",
          "name" : "元和",
+         "names" : {
+            "元和" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1615-01-29",
             "gregorian_era" : "元和1-01-29",
@@ -1293,6 +1427,7 @@
             "kyuureki_era" : "元和1-01-01"
          },
          "offset" : 1614,
+         "short_name" : "元和",
          "start_day" : {
             "gregorian" : "1615-09-05",
             "gregorian_era" : "元和1-09-05",
@@ -1309,6 +1444,9 @@
          "jp_south_era" : 1,
          "key" : "元弘",
          "name" : "元弘",
+         "names" : {
+            "元弘" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1334-03-13",
             "gregorian_era" : "元弘4-03-13",
@@ -1348,6 +1486,7 @@
          },
          "north_start_year" : 1333,
          "offset" : 1330,
+         "short_name" : "元弘",
          "south_actual_end_day" : {
             "gregorian" : "1334-03-13",
             "gregorian_era" : "元弘4-03-13",
@@ -1392,6 +1531,10 @@
          "jp_south_era" : 1,
          "key" : "元徳",
          "name" : "元徳",
+         "names" : {
+            "元徳" : 1,
+            "元德" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1332-05-31",
             "gregorian_era" : "元徳4-05-31",
@@ -1431,6 +1574,7 @@
          },
          "north_start_year" : 1329,
          "offset" : 1328,
+         "short_name" : "元徳",
          "south_actual_end_day" : {
             "gregorian" : "1331-09-19",
             "gregorian_era" : "元徳3-09-19",
@@ -1493,6 +1637,10 @@
          "jp_era" : 1,
          "key" : "元応",
          "name" : "元応",
+         "names" : {
+            "元応" : 1,
+            "元應" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1319-01-30",
             "gregorian_era" : "元応1-01-30",
@@ -1503,6 +1651,7 @@
             "kyuureki_era" : "元応1-01-01"
          },
          "offset" : 1318,
+         "short_name" : "元応",
          "start_day" : {
             "gregorian" : "1319-05-26",
             "gregorian_era" : "元応1-05-26",
@@ -1537,6 +1686,9 @@
          "jp_era" : 1,
          "key" : "元慶",
          "name" : "元慶",
+         "names" : {
+            "元慶" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0877-01-22",
             "gregorian_era" : "元慶1-01-22",
@@ -1547,6 +1699,7 @@
             "kyuureki_era" : "元慶1-01-01"
          },
          "offset" : 876,
+         "short_name" : "元慶",
          "start_day" : {
             "gregorian" : "0877-06-05",
             "gregorian_era" : "元慶1-06-05",
@@ -1581,6 +1734,9 @@
          "jp_era" : 1,
          "key" : "元文",
          "name" : "元文",
+         "names" : {
+            "元文" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1736-02-12",
             "gregorian_era" : "元文1-02-12",
@@ -1591,6 +1747,7 @@
             "kyuureki_era" : "元文1-01-01"
          },
          "offset" : 1735,
+         "short_name" : "元文",
          "start_day" : {
             "gregorian" : "1736-06-07",
             "gregorian_era" : "元文1-06-07",
@@ -1625,6 +1782,10 @@
          "jp_era" : 1,
          "key" : "元暦",
          "name" : "元暦",
+         "names" : {
+            "元暦" : 1,
+            "元曆" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1184-02-21",
             "gregorian_era" : "元暦1-02-21",
@@ -1635,6 +1796,7 @@
             "kyuureki_era" : "元暦1-01-01"
          },
          "offset" : 1183,
+         "short_name" : "元暦",
          "start_day" : {
             "gregorian" : "1184-06-03",
             "gregorian_era" : "元暦1-06-03",
@@ -1669,6 +1831,9 @@
          "jp_era" : 1,
          "key" : "元永",
          "name" : "元永",
+         "names" : {
+            "元永" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1118-01-31",
             "gregorian_era" : "元永1-01-31",
@@ -1679,6 +1844,7 @@
             "kyuureki_era" : "元永1-01-01"
          },
          "offset" : 1117,
+         "short_name" : "元永",
          "start_day" : {
             "gregorian" : "1118-05-02",
             "gregorian_era" : "元永1-05-02",
@@ -1713,6 +1879,9 @@
          "jp_era" : 1,
          "key" : "元治",
          "name" : "元治",
+         "names" : {
+            "元治" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1864-02-08",
             "gregorian_era" : "元治1-02-08",
@@ -1723,6 +1892,7 @@
             "kyuureki_era" : "元治1-01-01"
          },
          "offset" : 1863,
+         "short_name" : "元治",
          "start_day" : {
             "gregorian" : "1864-03-27",
             "gregorian_era" : "元治1-03-27",
@@ -1757,6 +1927,10 @@
          "jp_era" : 1,
          "key" : "元禄",
          "name" : "元禄",
+         "names" : {
+            "元祿" : 1,
+            "元禄" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1688-02-02",
             "gregorian_era" : "元禄1-02-02",
@@ -1767,6 +1941,7 @@
             "kyuureki_era" : "元禄1-01-01"
          },
          "offset" : 1687,
+         "short_name" : "元禄",
          "start_day" : {
             "gregorian" : "1688-10-23",
             "gregorian_era" : "元禄1-10-23",
@@ -1810,7 +1985,12 @@
          "jp_emperor_era" : 1,
          "key" : "反正天皇",
          "name" : "反正天皇",
+         "names" : {
+            "反正" : 1,
+            "反正天皇" : 1
+         },
          "offset" : 405,
+         "short_name" : "反正",
          "start_gregorian_day" : {
             "gregorian" : "0406-01-01",
             "gregorian_era" : "反正天皇1-01-01",
@@ -1863,6 +2043,9 @@
          "jp_era" : 1,
          "key" : "和銅",
          "name" : "和銅",
+         "names" : {
+            "和銅" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0708-02-01",
             "gregorian_era" : "和銅1-02-01",
@@ -1873,6 +2056,7 @@
             "kyuureki_era" : "和銅1-01-01"
          },
          "offset" : 707,
+         "short_name" : "和銅",
          "start_day" : {
             "gregorian" : "0708-02-11",
             "gregorian_era" : "和銅1-02-11",
@@ -1907,6 +2091,9 @@
          "jp_era" : 1,
          "key" : "嘉保",
          "name" : "嘉保",
+         "names" : {
+            "嘉保" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1094-01-25",
             "gregorian_era" : "嘉保1-01-25",
@@ -1917,6 +2104,7 @@
             "kyuureki_era" : "嘉保1-01-01"
          },
          "offset" : 1093,
+         "short_name" : "嘉保",
          "start_day" : {
             "gregorian" : "1095-01-29",
             "gregorian_era" : "嘉保2-01-29",
@@ -1951,6 +2139,9 @@
          "jp_era" : 1,
          "key" : "嘉元",
          "name" : "嘉元",
+         "names" : {
+            "嘉元" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1303-01-27",
             "gregorian_era" : "嘉元1-01-27",
@@ -1961,6 +2152,7 @@
             "kyuureki_era" : "嘉元1-01-01"
          },
          "offset" : 1302,
+         "short_name" : "嘉元",
          "start_day" : {
             "gregorian" : "1303-09-24",
             "gregorian_era" : "嘉元1-09-24",
@@ -1995,6 +2187,10 @@
          "jp_era" : 1,
          "key" : "嘉吉",
          "name" : "嘉吉",
+         "names" : {
+            "嘉吉" : 1,
+            "嘉𠮷" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1441-02-01",
             "gregorian_era" : "嘉吉1-02-01",
@@ -2005,6 +2201,7 @@
             "kyuureki_era" : "嘉吉1-01-01"
          },
          "offset" : 1440,
+         "short_name" : "嘉吉",
          "start_day" : {
             "gregorian" : "1441-03-19",
             "gregorian_era" : "嘉吉1-03-19",
@@ -2039,6 +2236,10 @@
          "jp_era" : 1,
          "key" : "嘉応",
          "name" : "嘉応",
+         "names" : {
+            "嘉応" : 1,
+            "嘉應" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1169-02-06",
             "gregorian_era" : "嘉応1-02-06",
@@ -2049,6 +2250,7 @@
             "kyuureki_era" : "嘉応1-01-01"
          },
          "offset" : 1168,
+         "short_name" : "嘉応",
          "start_day" : {
             "gregorian" : "1169-05-13",
             "gregorian_era" : "嘉応1-05-13",
@@ -2064,6 +2266,9 @@
          "jp_north_era" : 1,
          "key" : "嘉慶",
          "name" : "嘉慶",
+         "names" : {
+            "嘉慶" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1389-03-15",
             "gregorian_era" : "嘉慶3-03-15",
@@ -2102,7 +2307,8 @@
             "kyuureki_era" : "嘉慶1-08-23"
          },
          "north_start_year" : 1387,
-         "offset" : 1386
+         "offset" : 1386,
+         "short_name" : "嘉慶"
       },
       "嘉承" : {
          "actual_end_day" : {
@@ -2127,6 +2333,9 @@
          "jp_era" : 1,
          "key" : "嘉承",
          "name" : "嘉承",
+         "names" : {
+            "嘉承" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1106-02-13",
             "gregorian_era" : "嘉承1-02-13",
@@ -2137,6 +2346,7 @@
             "kyuureki_era" : "嘉承1-01-01"
          },
          "offset" : 1105,
+         "short_name" : "嘉承",
          "start_day" : {
             "gregorian" : "1106-05-20",
             "gregorian_era" : "嘉承1-05-20",
@@ -2171,6 +2381,10 @@
          "jp_era" : 1,
          "key" : "嘉暦",
          "name" : "嘉暦",
+         "names" : {
+            "嘉暦" : 1,
+            "嘉曆" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1326-02-12",
             "gregorian_era" : "嘉暦1-02-12",
@@ -2181,6 +2395,7 @@
             "kyuureki_era" : "嘉暦1-01-01"
          },
          "offset" : 1325,
+         "short_name" : "嘉暦",
          "start_day" : {
             "gregorian" : "1326-06-05",
             "gregorian_era" : "嘉暦1-06-05",
@@ -2215,6 +2430,9 @@
          "jp_era" : 1,
          "key" : "嘉永",
          "name" : "嘉永",
+         "names" : {
+            "嘉永" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1848-02-05",
             "gregorian_era" : "嘉永1-02-05",
@@ -2225,6 +2443,7 @@
             "kyuureki_era" : "嘉永1-01-01"
          },
          "offset" : 1847,
+         "short_name" : "嘉永",
          "start_day" : {
             "gregorian" : "1848-04-01",
             "gregorian_era" : "嘉永1-04-01",
@@ -2259,6 +2478,10 @@
          "jp_era" : 1,
          "key" : "嘉祥",
          "name" : "嘉祥",
+         "names" : {
+            "嘉祥" : 1,
+            "嘉祥" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0848-02-13",
             "gregorian_era" : "嘉祥1-02-13",
@@ -2269,6 +2492,7 @@
             "kyuureki_era" : "嘉祥1-01-01"
          },
          "offset" : 847,
+         "short_name" : "嘉祥",
          "start_day" : {
             "gregorian" : "0848-07-20",
             "gregorian_era" : "嘉祥1-07-20",
@@ -2303,6 +2527,10 @@
          "jp_era" : 1,
          "key" : "嘉禄",
          "name" : "嘉禄",
+         "names" : {
+            "嘉祿" : 1,
+            "嘉禄" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1225-02-16",
             "gregorian_era" : "嘉禄1-02-16",
@@ -2313,6 +2541,7 @@
             "kyuureki_era" : "嘉禄1-01-01"
          },
          "offset" : 1224,
+         "short_name" : "嘉禄",
          "start_day" : {
             "gregorian" : "1225-06-04",
             "gregorian_era" : "嘉禄1-06-04",
@@ -2347,6 +2576,10 @@
          "jp_era" : 1,
          "key" : "嘉禎",
          "name" : "嘉禎",
+         "names" : {
+            "嘉祯" : 1,
+            "嘉禎" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1235-01-28",
             "gregorian_era" : "嘉禎1-01-28",
@@ -2357,6 +2590,7 @@
             "kyuureki_era" : "嘉禎1-01-01"
          },
          "offset" : 1234,
+         "short_name" : "嘉禎",
          "start_day" : {
             "gregorian" : "1235-11-08",
             "gregorian_era" : "嘉禎1-11-08",
@@ -2400,7 +2634,12 @@
          "jp_emperor_era" : 1,
          "key" : "垂仁天皇",
          "name" : "垂仁天皇",
+         "names" : {
+            "垂仁" : 1,
+            "垂仁天皇" : 1
+         },
          "offset" : -29,
+         "short_name" : "垂仁",
          "start_gregorian_day" : {
             "gregorian" : "-0028-01-01",
             "gregorian_era" : "垂仁天皇1-01-01",
@@ -2453,6 +2692,9 @@
          "jp_era" : 1,
          "key" : "大化",
          "name" : "大化",
+         "names" : {
+            "大化" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0645-02-05",
             "gregorian_era" : "大化1-02-05",
@@ -2463,6 +2705,7 @@
             "kyuureki_era" : "大化1-01-01"
          },
          "offset" : 644,
+         "short_name" : "大化",
          "start_day" : {
             "gregorian" : "0645-07-20",
             "gregorian_era" : "大化1-07-20",
@@ -2497,6 +2740,9 @@
          "jp_era" : 1,
          "key" : "大同",
          "name" : "大同",
+         "names" : {
+            "大同" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0806-01-28",
             "gregorian_era" : "大同1-01-28",
@@ -2507,6 +2753,7 @@
             "kyuureki_era" : "大同1-01-01"
          },
          "offset" : 805,
+         "short_name" : "大同",
          "start_day" : {
             "gregorian" : "0806-06-12",
             "gregorian_era" : "大同1-06-12",
@@ -2541,6 +2788,11 @@
          "jp_era" : 1,
          "key" : "大宝",
          "name" : "大宝",
+         "names" : {
+            "大宝" : 1,
+            "大寳" : 1,
+            "大寶" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0701-02-17",
             "gregorian_era" : "大宝1-02-17",
@@ -2551,6 +2803,7 @@
             "kyuureki_era" : "大宝1-01-01"
          },
          "offset" : 700,
+         "short_name" : "大宝",
          "start_day" : {
             "gregorian" : "0701-05-07",
             "gregorian_era" : "大宝1-05-07",
@@ -2563,6 +2816,8 @@
          "start_year" : 701
       },
       "大正" : {
+         "abbr" : "大",
+         "abbr_latn" : "T",
          "actual_end_day" : {
             "gregorian" : "1926-12-25",
             "gregorian_era" : "大正15-12-25",
@@ -2585,6 +2840,13 @@
          "jp_era" : 1,
          "key" : "大正",
          "name" : "大正",
+         "names" : {
+            "T" : 1,
+            "t" : 1,
+            "㍽" : 1,
+            "大" : 1,
+            "大正" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1912-07-30",
             "gregorian_era" : "大正1-07-30",
@@ -2595,6 +2857,7 @@
             "kyuureki_era" : "大正1-06-17"
          },
          "offset" : 1911,
+         "short_name" : "大正",
          "start_day" : {
             "gregorian" : "1912-07-30",
             "gregorian_era" : "大正1-07-30",
@@ -2629,6 +2892,9 @@
          "jp_era" : 1,
          "key" : "大永",
          "name" : "大永",
+         "names" : {
+            "大永" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1521-02-18",
             "gregorian_era" : "大永1-02-18",
@@ -2639,6 +2905,7 @@
             "kyuureki_era" : "大永1-01-01"
          },
          "offset" : 1520,
+         "short_name" : "大永",
          "start_day" : {
             "gregorian" : "1521-10-03",
             "gregorian_era" : "大永1-10-03",
@@ -2673,6 +2940,9 @@
          "jp_era" : 1,
          "key" : "大治",
          "name" : "大治",
+         "names" : {
+            "大治" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1126-02-01",
             "gregorian_era" : "大治1-02-01",
@@ -2683,6 +2953,7 @@
             "kyuureki_era" : "大治1-01-01"
          },
          "offset" : 1125,
+         "short_name" : "大治",
          "start_day" : {
             "gregorian" : "1126-02-22",
             "gregorian_era" : "大治1-02-22",
@@ -2717,6 +2988,9 @@
          "jp_era" : 1,
          "key" : "天仁",
          "name" : "天仁",
+         "names" : {
+            "天仁" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1108-02-21",
             "gregorian_era" : "天仁1-02-21",
@@ -2727,6 +3001,7 @@
             "kyuureki_era" : "天仁1-01-01"
          },
          "offset" : 1107,
+         "short_name" : "天仁",
          "start_day" : {
             "gregorian" : "1108-09-16",
             "gregorian_era" : "天仁1-09-16",
@@ -2761,6 +3036,9 @@
          "jp_era" : 1,
          "key" : "天保",
          "name" : "天保",
+         "names" : {
+            "天保" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1830-01-25",
             "gregorian_era" : "天保1-01-25",
@@ -2771,6 +3049,7 @@
             "kyuureki_era" : "天保1-01-01"
          },
          "offset" : 1829,
+         "short_name" : "天保",
          "start_day" : {
             "gregorian" : "1831-01-23",
             "gregorian_era" : "天保2-01-23",
@@ -2805,6 +3084,9 @@
          "jp_era" : 1,
          "key" : "天元",
          "name" : "天元",
+         "names" : {
+            "天元" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0978-02-15",
             "gregorian_era" : "天元1-02-15",
@@ -2815,6 +3097,7 @@
             "kyuureki_era" : "天元1-01-01"
          },
          "offset" : 977,
+         "short_name" : "天元",
          "start_day" : {
             "gregorian" : "0979-01-05",
             "gregorian_era" : "天元2-01-05",
@@ -2849,6 +3132,9 @@
          "jp_era" : 1,
          "key" : "天和",
          "name" : "天和",
+         "names" : {
+            "天和" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1681-02-19",
             "gregorian_era" : "天和1-02-19",
@@ -2859,6 +3145,7 @@
             "kyuureki_era" : "天和1-01-01"
          },
          "offset" : 1680,
+         "short_name" : "天和",
          "start_day" : {
             "gregorian" : "1681-11-09",
             "gregorian_era" : "天和1-11-09",
@@ -2893,6 +3180,9 @@
          "jp_era" : 1,
          "key" : "天喜",
          "name" : "天喜",
+         "names" : {
+            "天喜" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1053-01-29",
             "gregorian_era" : "天喜1-01-29",
@@ -2903,6 +3193,7 @@
             "kyuureki_era" : "天喜1-01-01"
          },
          "offset" : 1052,
+         "short_name" : "天喜",
          "start_day" : {
             "gregorian" : "1053-02-08",
             "gregorian_era" : "天喜1-02-08",
@@ -2937,6 +3228,9 @@
          "jp_era" : 1,
          "key" : "天安",
          "name" : "天安",
+         "names" : {
+            "天安" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0857-02-03",
             "gregorian_era" : "天安1-02-03",
@@ -2947,6 +3241,7 @@
             "kyuureki_era" : "天安1-01-01"
          },
          "offset" : 856,
+         "short_name" : "天安",
          "start_day" : {
             "gregorian" : "0857-03-24",
             "gregorian_era" : "天安1-03-24",
@@ -2981,6 +3276,9 @@
          "jp_era" : 1,
          "key" : "天平",
          "name" : "天平",
+         "names" : {
+            "天平" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0729-02-07",
             "gregorian_era" : "天平1-02-07",
@@ -2991,6 +3289,7 @@
             "kyuureki_era" : "天平1-01-01"
          },
          "offset" : 728,
+         "short_name" : "天平",
          "start_day" : {
             "gregorian" : "0729-09-06",
             "gregorian_era" : "天平1-09-06",
@@ -3025,6 +3324,11 @@
          "jp_era" : 1,
          "key" : "天平勝宝",
          "name" : "天平勝宝",
+         "names" : {
+            "天平勝宝" : 1,
+            "天平勝寳" : 1,
+            "天平勝寶" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0749-01-27",
             "gregorian_era" : "天平勝宝1-01-27",
@@ -3035,6 +3339,7 @@
             "kyuureki_era" : "天平勝宝1-01-01"
          },
          "offset" : 748,
+         "short_name" : "天平勝宝",
          "start_day" : {
             "gregorian" : "0749-08-23",
             "gregorian_era" : "天平勝宝1-08-23",
@@ -3069,6 +3374,11 @@
          "jp_era" : 1,
          "key" : "天平宝字",
          "name" : "天平宝字",
+         "names" : {
+            "天平宝字" : 1,
+            "天平寳字" : 1,
+            "天平寶字" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0757-01-29",
             "gregorian_era" : "天平宝字1-01-29",
@@ -3079,6 +3389,7 @@
             "kyuureki_era" : "天平宝字1-01-01"
          },
          "offset" : 756,
+         "short_name" : "天平宝字",
          "start_day" : {
             "gregorian" : "0757-09-10",
             "gregorian_era" : "天平宝字1-09-10",
@@ -3113,6 +3424,11 @@
          "jp_era" : 1,
          "key" : "天平感宝",
          "name" : "天平感宝",
+         "names" : {
+            "天平感宝" : 1,
+            "天平感寳" : 1,
+            "天平感寶" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0749-01-27",
             "gregorian_era" : "天平感宝1-01-27",
@@ -3123,6 +3439,7 @@
             "kyuureki_era" : "天平感宝1-01-01"
          },
          "offset" : 748,
+         "short_name" : "天平感宝",
          "start_day" : {
             "gregorian" : "0749-05-08",
             "gregorian_era" : "天平感宝1-05-08",
@@ -3157,6 +3474,10 @@
          "jp_era" : 1,
          "key" : "天平神護",
          "name" : "天平神護",
+         "names" : {
+            "天平神護" : 1,
+            "天平神護" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0765-01-30",
             "gregorian_era" : "天平神護1-01-30",
@@ -3167,6 +3488,7 @@
             "kyuureki_era" : "天平神護1-01-01"
          },
          "offset" : 764,
+         "short_name" : "天平神護",
          "start_day" : {
             "gregorian" : "0765-02-05",
             "gregorian_era" : "天平神護1-02-05",
@@ -3201,6 +3523,9 @@
          "jp_era" : 1,
          "key" : "天延",
          "name" : "天延",
+         "names" : {
+            "天延" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0973-02-11",
             "gregorian_era" : "天延1-02-11",
@@ -3211,6 +3536,7 @@
             "kyuureki_era" : "天延1-01-01"
          },
          "offset" : 972,
+         "short_name" : "天延",
          "start_day" : {
             "gregorian" : "0974-01-21",
             "gregorian_era" : "天延2-01-21",
@@ -3245,6 +3571,10 @@
          "jp_era" : 1,
          "key" : "天徳",
          "name" : "天徳",
+         "names" : {
+            "天徳" : 1,
+            "天德" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0957-02-08",
             "gregorian_era" : "天徳1-02-08",
@@ -3255,6 +3585,7 @@
             "kyuureki_era" : "天徳1-01-01"
          },
          "offset" : 956,
+         "short_name" : "天徳",
          "start_day" : {
             "gregorian" : "0957-11-26",
             "gregorian_era" : "天徳1-11-26",
@@ -3289,6 +3620,10 @@
          "jp_era" : 1,
          "key" : "天応",
          "name" : "天応",
+         "names" : {
+            "天応" : 1,
+            "天應" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0781-02-03",
             "gregorian_era" : "天応1-02-03",
@@ -3299,6 +3634,7 @@
             "kyuureki_era" : "天応1-01-01"
          },
          "offset" : 780,
+         "short_name" : "天応",
          "start_day" : {
             "gregorian" : "0781-02-03",
             "gregorian_era" : "天応1-02-03",
@@ -3333,6 +3669,9 @@
          "jp_era" : 1,
          "key" : "天慶",
          "name" : "天慶",
+         "names" : {
+            "天慶" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0938-02-07",
             "gregorian_era" : "天慶1-02-07",
@@ -3343,6 +3682,7 @@
             "kyuureki_era" : "天慶1-01-01"
          },
          "offset" : 937,
+         "short_name" : "天慶",
          "start_day" : {
             "gregorian" : "0938-06-27",
             "gregorian_era" : "天慶1-06-27",
@@ -3377,6 +3717,9 @@
          "jp_era" : 1,
          "key" : "天承",
          "name" : "天承",
+         "names" : {
+            "天承" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1131-02-07",
             "gregorian_era" : "天承1-02-07",
@@ -3387,6 +3730,7 @@
             "kyuureki_era" : "天承1-01-01"
          },
          "offset" : 1130,
+         "short_name" : "天承",
          "start_day" : {
             "gregorian" : "1131-03-07",
             "gregorian_era" : "天承1-03-07",
@@ -3402,7 +3746,11 @@
          "jp_south_era" : 1,
          "key" : "天授",
          "name" : "天授",
+         "names" : {
+            "天授" : 1
+         },
          "offset" : 1374,
+         "short_name" : "天授",
          "south_actual_end_day" : {
             "gregorian" : "1381-03-14",
             "gregorian_era" : "天授7-03-14",
@@ -3465,6 +3813,9 @@
          "jp_era" : 1,
          "key" : "天文",
          "name" : "天文",
+         "names" : {
+            "天文" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1532-02-16",
             "gregorian_era" : "天文1-02-16",
@@ -3475,6 +3826,7 @@
             "kyuureki_era" : "天文1-01-01"
          },
          "offset" : 1531,
+         "short_name" : "天文",
          "start_day" : {
             "gregorian" : "1532-09-08",
             "gregorian_era" : "天文1-09-08",
@@ -3509,6 +3861,9 @@
          "jp_era" : 1,
          "key" : "天明",
          "name" : "天明",
+         "names" : {
+            "天明" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1781-01-24",
             "gregorian_era" : "天明1-01-24",
@@ -3519,6 +3874,7 @@
             "kyuureki_era" : "天明1-01-01"
          },
          "offset" : 1780,
+         "short_name" : "天明",
          "start_day" : {
             "gregorian" : "1781-04-25",
             "gregorian_era" : "天明1-04-25",
@@ -3562,7 +3918,12 @@
          "jp_emperor_era" : 1,
          "key" : "天智天皇",
          "name" : "天智天皇",
+         "names" : {
+            "天智" : 1,
+            "天智天皇" : 1
+         },
          "offset" : 661,
+         "short_name" : "天智",
          "start_gregorian_day" : {
             "gregorian" : "0662-01-01",
             "gregorian_era" : "天智天皇1-01-01",
@@ -3615,6 +3976,10 @@
          "jp_era" : 1,
          "key" : "天暦",
          "name" : "天暦",
+         "names" : {
+            "天暦" : 1,
+            "天曆" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0947-01-30",
             "gregorian_era" : "天暦1-01-30",
@@ -3625,6 +3990,7 @@
             "kyuureki_era" : "天暦1-01-01"
          },
          "offset" : 946,
+         "short_name" : "天暦",
          "start_day" : {
             "gregorian" : "0947-05-20",
             "gregorian_era" : "天暦1-05-20",
@@ -3659,6 +4025,9 @@
          "jp_era" : 1,
          "key" : "天正",
          "name" : "天正",
+         "names" : {
+            "天正" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1573-02-13",
             "gregorian_era" : "天正1-02-13",
@@ -3669,6 +4038,7 @@
             "kyuureki_era" : "天正1-01-01"
          },
          "offset" : 1572,
+         "short_name" : "天正",
          "start_day" : {
             "gregorian" : "1573-09-04",
             "gregorian_era" : "天正1-09-04",
@@ -3703,7 +4073,12 @@
          "jp_emperor_era" : 1,
          "key" : "天武天皇",
          "name" : "天武天皇",
+         "names" : {
+            "天武" : 1,
+            "天武天皇" : 1
+         },
          "offset" : 671,
+         "short_name" : "天武",
          "start_gregorian_day" : {
             "gregorian" : "0672-01-01",
             "gregorian_era" : "天武天皇1-01-01",
@@ -3756,6 +4131,9 @@
          "jp_era" : 1,
          "key" : "天永",
          "name" : "天永",
+         "names" : {
+            "天永" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1110-01-29",
             "gregorian_era" : "天永1-01-29",
@@ -3766,6 +4144,7 @@
             "kyuureki_era" : "天永1-01-01"
          },
          "offset" : 1109,
+         "short_name" : "天永",
          "start_day" : {
             "gregorian" : "1110-08-07",
             "gregorian_era" : "天永1-08-07",
@@ -3800,6 +4179,9 @@
          "jp_era" : 1,
          "key" : "天治",
          "name" : "天治",
+         "names" : {
+            "天治" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1124-01-26",
             "gregorian_era" : "天治1-01-26",
@@ -3810,6 +4192,7 @@
             "kyuureki_era" : "天治1-01-01"
          },
          "offset" : 1123,
+         "short_name" : "天治",
          "start_day" : {
             "gregorian" : "1124-05-25",
             "gregorian_era" : "天治1-05-25",
@@ -3844,6 +4227,10 @@
          "jp_era" : 1,
          "key" : "天禄",
          "name" : "天禄",
+         "names" : {
+            "天祿" : 1,
+            "天禄" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0970-02-14",
             "gregorian_era" : "天禄1-02-14",
@@ -3854,6 +4241,7 @@
             "kyuureki_era" : "天禄1-01-01"
          },
          "offset" : 969,
+         "short_name" : "天禄",
          "start_day" : {
             "gregorian" : "0970-05-08",
             "gregorian_era" : "天禄1-05-08",
@@ -3888,6 +4276,10 @@
          "jp_era" : 1,
          "key" : "天福",
          "name" : "天福",
+         "names" : {
+            "天福" : 1,
+            "天福" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1233-02-18",
             "gregorian_era" : "天福1-02-18",
@@ -3898,6 +4290,7 @@
             "kyuureki_era" : "天福1-01-01"
          },
          "offset" : 1232,
+         "short_name" : "天福",
          "start_day" : {
             "gregorian" : "1233-06-01",
             "gregorian_era" : "天福1-06-01",
@@ -3932,6 +4325,9 @@
          "jp_era" : 1,
          "key" : "天長",
          "name" : "天長",
+         "names" : {
+            "天長" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0824-02-08",
             "gregorian_era" : "天長1-02-08",
@@ -3942,6 +4338,7 @@
             "kyuureki_era" : "天長1-01-01"
          },
          "offset" : 823,
+         "short_name" : "天長",
          "start_day" : {
             "gregorian" : "0824-02-12",
             "gregorian_era" : "天長1-02-12",
@@ -3976,6 +4373,9 @@
          "jp_era" : 1,
          "key" : "天養",
          "name" : "天養",
+         "names" : {
+            "天養" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1144-02-13",
             "gregorian_era" : "天養1-02-13",
@@ -3986,6 +4386,7 @@
             "kyuureki_era" : "天養1-01-01"
          },
          "offset" : 1143,
+         "short_name" : "天養",
          "start_day" : {
             "gregorian" : "1144-04-04",
             "gregorian_era" : "天養1-04-04",
@@ -4029,7 +4430,12 @@
          "jp_emperor_era" : 1,
          "key" : "孝元天皇",
          "name" : "孝元天皇",
+         "names" : {
+            "孝元" : 1,
+            "孝元天皇" : 1
+         },
          "offset" : -214,
+         "short_name" : "孝元",
          "start_gregorian_day" : {
             "gregorian" : "-0213-01-01",
             "gregorian_era" : "孝元天皇1-01-01",
@@ -4091,7 +4497,12 @@
          "jp_emperor_era" : 1,
          "key" : "孝安天皇",
          "name" : "孝安天皇",
+         "names" : {
+            "孝安" : 1,
+            "孝安天皇" : 1
+         },
          "offset" : -392,
+         "short_name" : "孝安",
          "start_gregorian_day" : {
             "gregorian" : "-0391-01-01",
             "gregorian_era" : "孝安天皇1-01-01",
@@ -4125,7 +4536,14 @@
          "jp_emperor_era" : 1,
          "key" : "孝徳天皇",
          "name" : "孝徳天皇",
-         "offset" : 644
+         "names" : {
+            "孝徳" : 1,
+            "孝徳天皇" : 1,
+            "孝德" : 1,
+            "孝德天皇" : 1
+         },
+         "offset" : 644,
+         "short_name" : "孝徳"
       },
       "孝昭天皇" : {
          "end_gregorian_day" : {
@@ -4159,7 +4577,12 @@
          "jp_emperor_era" : 1,
          "key" : "孝昭天皇",
          "name" : "孝昭天皇",
+         "names" : {
+            "孝昭" : 1,
+            "孝昭天皇" : 1
+         },
          "offset" : -475,
+         "short_name" : "孝昭",
          "start_gregorian_day" : {
             "gregorian" : "-0474-01-01",
             "gregorian_era" : "孝昭天皇1-01-01",
@@ -4221,7 +4644,12 @@
          "jp_emperor_era" : 1,
          "key" : "孝霊天皇",
          "name" : "孝霊天皇",
+         "names" : {
+            "孝霊" : 1,
+            "孝霊天皇" : 1
+         },
          "offset" : -290,
+         "short_name" : "孝霊",
          "start_gregorian_day" : {
             "gregorian" : "-0289-01-01",
             "gregorian_era" : "孝霊天皇1-01-01",
@@ -4274,6 +4702,9 @@
          "jp_era" : 1,
          "key" : "安元",
          "name" : "安元",
+         "names" : {
+            "安元" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1175-01-31",
             "gregorian_era" : "安元1-01-31",
@@ -4284,6 +4715,7 @@
             "kyuureki_era" : "安元1-01-01"
          },
          "offset" : 1174,
+         "short_name" : "安元",
          "start_day" : {
             "gregorian" : "1175-08-23",
             "gregorian_era" : "安元1-08-23",
@@ -4318,6 +4750,9 @@
          "jp_era" : 1,
          "key" : "安和",
          "name" : "安和",
+         "names" : {
+            "安和" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0968-02-07",
             "gregorian_era" : "安和1-02-07",
@@ -4328,6 +4763,7 @@
             "kyuureki_era" : "安和1-01-01"
          },
          "offset" : 967,
+         "short_name" : "安和",
          "start_day" : {
             "gregorian" : "0968-09-13",
             "gregorian_era" : "安和1-09-13",
@@ -4371,7 +4807,12 @@
          "jp_emperor_era" : 1,
          "key" : "安寧天皇",
          "name" : "安寧天皇",
+         "names" : {
+            "安寧" : 1,
+            "安寧天皇" : 1
+         },
          "offset" : -548,
+         "short_name" : "安寧",
          "start_gregorian_day" : {
             "gregorian" : "-0547-01-01",
             "gregorian_era" : "安寧天皇1-01-01",
@@ -4433,7 +4874,12 @@
          "jp_emperor_era" : 1,
          "key" : "安康天皇",
          "name" : "安康天皇",
+         "names" : {
+            "安康" : 1,
+            "安康天皇" : 1
+         },
          "offset" : 453,
+         "short_name" : "安康",
          "start_gregorian_day" : {
             "gregorian" : "0454-01-01",
             "gregorian_era" : "安康天皇1-01-01",
@@ -4486,6 +4932,9 @@
          "jp_era" : 1,
          "key" : "安政",
          "name" : "安政",
+         "names" : {
+            "安政" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1854-01-29",
             "gregorian_era" : "安政1-01-29",
@@ -4496,6 +4945,7 @@
             "kyuureki_era" : "安政1-01-01"
          },
          "offset" : 1853,
+         "short_name" : "安政",
          "start_day" : {
             "gregorian" : "1855-01-15",
             "gregorian_era" : "安政2-01-15",
@@ -4530,6 +4980,9 @@
          "jp_era" : 1,
          "key" : "安永",
          "name" : "安永",
+         "names" : {
+            "安永" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1772-02-04",
             "gregorian_era" : "安永1-02-04",
@@ -4540,6 +4993,7 @@
             "kyuureki_era" : "安永1-01-01"
          },
          "offset" : 1771,
+         "short_name" : "安永",
          "start_day" : {
             "gregorian" : "1772-12-10",
             "gregorian_era" : "安永1-12-10",
@@ -4574,6 +5028,10 @@
          "jp_era" : 1,
          "key" : "安貞",
          "name" : "安貞",
+         "names" : {
+            "安貞" : 1,
+            "安贞" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1227-01-26",
             "gregorian_era" : "安貞1-01-26",
@@ -4584,6 +5042,7 @@
             "kyuureki_era" : "安貞1-01-01"
          },
          "offset" : 1226,
+         "short_name" : "安貞",
          "start_day" : {
             "gregorian" : "1228-01-25",
             "gregorian_era" : "安貞2-01-25",
@@ -4627,7 +5086,12 @@
          "jp_emperor_era" : 1,
          "key" : "安閑天皇",
          "name" : "安閑天皇",
+         "names" : {
+            "安閑" : 1,
+            "安閑天皇" : 1
+         },
          "offset" : 531,
+         "short_name" : "安閑",
          "start_gregorian_day" : {
             "gregorian" : "0532-01-01",
             "gregorian_era" : "安閑天皇1-01-01",
@@ -4680,6 +5144,17 @@
          "jp_era" : 1,
          "key" : "宝亀",
          "name" : "宝亀",
+         "names" : {
+            "宝亀" : 1,
+            "宝龜" : 1,
+            "宝龟" : 1,
+            "寳亀" : 1,
+            "寳龜" : 1,
+            "寳龟" : 1,
+            "寶亀" : 1,
+            "寶龜" : 1,
+            "寶龟" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0770-02-05",
             "gregorian_era" : "宝亀1-02-05",
@@ -4690,6 +5165,7 @@
             "kyuureki_era" : "宝亀1-01-01"
          },
          "offset" : 769,
+         "short_name" : "宝亀",
          "start_day" : {
             "gregorian" : "0770-10-27",
             "gregorian_era" : "宝亀1-10-27",
@@ -4724,6 +5200,14 @@
          "jp_era" : 1,
          "key" : "宝徳",
          "name" : "宝徳",
+         "names" : {
+            "宝徳" : 1,
+            "宝德" : 1,
+            "寳徳" : 1,
+            "寳德" : 1,
+            "寶徳" : 1,
+            "寶德" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1449-02-03",
             "gregorian_era" : "宝徳1-02-03",
@@ -4734,6 +5218,7 @@
             "kyuureki_era" : "宝徳1-01-01"
          },
          "offset" : 1448,
+         "short_name" : "宝徳",
          "start_day" : {
             "gregorian" : "1449-08-25",
             "gregorian_era" : "宝徳1-08-25",
@@ -4768,6 +5253,14 @@
          "jp_era" : 1,
          "key" : "宝暦",
          "name" : "宝暦",
+         "names" : {
+            "宝暦" : 1,
+            "宝曆" : 1,
+            "寳暦" : 1,
+            "寳曆" : 1,
+            "寶暦" : 1,
+            "寶曆" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1751-01-27",
             "gregorian_era" : "宝暦1-01-27",
@@ -4778,6 +5271,7 @@
             "kyuureki_era" : "宝暦1-01-01"
          },
          "offset" : 1750,
+         "short_name" : "宝暦",
          "start_day" : {
             "gregorian" : "1751-12-14",
             "gregorian_era" : "宝暦1-12-14",
@@ -4812,6 +5306,11 @@
          "jp_era" : 1,
          "key" : "宝永",
          "name" : "宝永",
+         "names" : {
+            "宝永" : 1,
+            "寳永" : 1,
+            "寶永" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1704-02-05",
             "gregorian_era" : "宝永1-02-05",
@@ -4822,6 +5321,7 @@
             "kyuureki_era" : "宝永1-01-01"
          },
          "offset" : 1703,
+         "short_name" : "宝永",
          "start_day" : {
             "gregorian" : "1704-04-16",
             "gregorian_era" : "宝永1-04-16",
@@ -4856,6 +5356,11 @@
          "jp_era" : 1,
          "key" : "宝治",
          "name" : "宝治",
+         "names" : {
+            "宝治" : 1,
+            "寳治" : 1,
+            "寶治" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1247-02-14",
             "gregorian_era" : "宝治1-02-14",
@@ -4866,6 +5371,7 @@
             "kyuureki_era" : "宝治1-01-01"
          },
          "offset" : 1246,
+         "short_name" : "宝治",
          "start_day" : {
             "gregorian" : "1247-04-12",
             "gregorian_era" : "宝治1-04-12",
@@ -4909,7 +5415,12 @@
          "jp_emperor_era" : 1,
          "key" : "宣化天皇",
          "name" : "宣化天皇",
+         "names" : {
+            "宣化" : 1,
+            "宣化天皇" : 1
+         },
          "offset" : 535,
+         "short_name" : "宣化",
          "start_gregorian_day" : {
             "gregorian" : "0536-01-01",
             "gregorian_era" : "宣化天皇1-01-01",
@@ -4962,6 +5473,10 @@
          "jp_era" : 1,
          "key" : "寛仁",
          "name" : "寛仁",
+         "names" : {
+            "寛仁" : 1,
+            "寬仁" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1017-02-06",
             "gregorian_era" : "寛仁1-02-06",
@@ -4972,6 +5487,7 @@
             "kyuureki_era" : "寛仁1-01-01"
          },
          "offset" : 1016,
+         "short_name" : "寛仁",
          "start_day" : {
             "gregorian" : "1017-05-27",
             "gregorian_era" : "寛仁1-05-27",
@@ -5006,6 +5522,10 @@
          "jp_era" : 1,
          "key" : "寛保",
          "name" : "寛保",
+         "names" : {
+            "寛保" : 1,
+            "寬保" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1741-02-16",
             "gregorian_era" : "寛保1-02-16",
@@ -5016,6 +5536,7 @@
             "kyuureki_era" : "寛保1-01-01"
          },
          "offset" : 1740,
+         "short_name" : "寛保",
          "start_day" : {
             "gregorian" : "1741-04-12",
             "gregorian_era" : "寛保1-04-12",
@@ -5050,6 +5571,10 @@
          "jp_era" : 1,
          "key" : "寛元",
          "name" : "寛元",
+         "names" : {
+            "寛元" : 1,
+            "寬元" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1243-01-29",
             "gregorian_era" : "寛元1-01-29",
@@ -5060,6 +5585,7 @@
             "kyuureki_era" : "寛元1-01-01"
          },
          "offset" : 1242,
+         "short_name" : "寛元",
          "start_day" : {
             "gregorian" : "1243-03-25",
             "gregorian_era" : "寛元1-03-25",
@@ -5094,6 +5620,10 @@
          "jp_era" : 1,
          "key" : "寛和",
          "name" : "寛和",
+         "names" : {
+            "寛和" : 1,
+            "寬和" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0985-01-29",
             "gregorian_era" : "寛和1-01-29",
@@ -5104,6 +5634,7 @@
             "kyuureki_era" : "寛和1-01-01"
          },
          "offset" : 984,
+         "short_name" : "寛和",
          "start_day" : {
             "gregorian" : "0985-05-24",
             "gregorian_era" : "寛和1-05-24",
@@ -5138,6 +5669,10 @@
          "jp_era" : 1,
          "key" : "寛喜",
          "name" : "寛喜",
+         "names" : {
+            "寛喜" : 1,
+            "寬喜" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1229-02-03",
             "gregorian_era" : "寛喜1-02-03",
@@ -5148,6 +5683,7 @@
             "kyuureki_era" : "寛喜1-01-01"
          },
          "offset" : 1228,
+         "short_name" : "寛喜",
          "start_day" : {
             "gregorian" : "1229-04-07",
             "gregorian_era" : "寛喜1-04-07",
@@ -5182,6 +5718,10 @@
          "jp_era" : 1,
          "key" : "寛平",
          "name" : "寛平",
+         "names" : {
+            "寛平" : 1,
+            "寬平" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0889-02-08",
             "gregorian_era" : "寛平1-02-08",
@@ -5192,6 +5732,7 @@
             "kyuureki_era" : "寛平1-01-01"
          },
          "offset" : 888,
+         "short_name" : "寛平",
          "start_day" : {
             "gregorian" : "0889-06-03",
             "gregorian_era" : "寛平1-06-03",
@@ -5226,6 +5767,10 @@
          "jp_era" : 1,
          "key" : "寛延",
          "name" : "寛延",
+         "names" : {
+            "寛延" : 1,
+            "寬延" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1748-01-30",
             "gregorian_era" : "寛延1-01-30",
@@ -5236,6 +5781,7 @@
             "kyuureki_era" : "寛延1-01-01"
          },
          "offset" : 1747,
+         "short_name" : "寛延",
          "start_day" : {
             "gregorian" : "1748-08-05",
             "gregorian_era" : "寛延1-08-05",
@@ -5270,6 +5816,10 @@
          "jp_era" : 1,
          "key" : "寛弘",
          "name" : "寛弘",
+         "names" : {
+            "寛弘" : 1,
+            "寬弘" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1004-01-31",
             "gregorian_era" : "寛弘1-01-31",
@@ -5280,6 +5830,7 @@
             "kyuureki_era" : "寛弘1-01-01"
          },
          "offset" : 1003,
+         "short_name" : "寛弘",
          "start_day" : {
             "gregorian" : "1004-08-14",
             "gregorian_era" : "寛弘1-08-14",
@@ -5314,6 +5865,12 @@
          "jp_era" : 1,
          "key" : "寛徳",
          "name" : "寛徳",
+         "names" : {
+            "寛徳" : 1,
+            "寛德" : 1,
+            "寬徳" : 1,
+            "寬德" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1044-02-08",
             "gregorian_era" : "寛徳1-02-08",
@@ -5324,6 +5881,7 @@
             "kyuureki_era" : "寛徳1-01-01"
          },
          "offset" : 1043,
+         "short_name" : "寛徳",
          "start_day" : {
             "gregorian" : "1044-12-22",
             "gregorian_era" : "寛徳1-12-22",
@@ -5358,6 +5916,10 @@
          "jp_era" : 1,
          "key" : "寛政",
          "name" : "寛政",
+         "names" : {
+            "寛政" : 1,
+            "寬政" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1789-01-26",
             "gregorian_era" : "寛政1-01-26",
@@ -5368,6 +5930,7 @@
             "kyuureki_era" : "寛政1-01-01"
          },
          "offset" : 1788,
+         "short_name" : "寛政",
          "start_day" : {
             "gregorian" : "1789-02-19",
             "gregorian_era" : "寛政1-02-19",
@@ -5402,6 +5965,10 @@
          "jp_era" : 1,
          "key" : "寛文",
          "name" : "寛文",
+         "names" : {
+            "寛文" : 1,
+            "寬文" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1661-01-31",
             "gregorian_era" : "寛文1-01-31",
@@ -5412,6 +5979,7 @@
             "kyuureki_era" : "寛文1-01-01"
          },
          "offset" : 1660,
+         "short_name" : "寛文",
          "start_day" : {
             "gregorian" : "1661-05-23",
             "gregorian_era" : "寛文1-05-23",
@@ -5446,6 +6014,10 @@
          "jp_era" : 1,
          "key" : "寛正",
          "name" : "寛正",
+         "names" : {
+            "寛正" : 1,
+            "寬正" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1460-02-02",
             "gregorian_era" : "寛正1-02-02",
@@ -5456,6 +6028,7 @@
             "kyuureki_era" : "寛正1-01-01"
          },
          "offset" : 1459,
+         "short_name" : "寛正",
          "start_day" : {
             "gregorian" : "1461-02-10",
             "gregorian_era" : "寛正2-02-10",
@@ -5490,6 +6063,10 @@
          "jp_era" : 1,
          "key" : "寛永",
          "name" : "寛永",
+         "names" : {
+            "寛永" : 1,
+            "寬永" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1624-02-19",
             "gregorian_era" : "寛永1-02-19",
@@ -5500,6 +6077,7 @@
             "kyuureki_era" : "寛永1-01-01"
          },
          "offset" : 1623,
+         "short_name" : "寛永",
          "start_day" : {
             "gregorian" : "1624-04-17",
             "gregorian_era" : "寛永1-04-17",
@@ -5534,6 +6112,10 @@
          "jp_era" : 1,
          "key" : "寛治",
          "name" : "寛治",
+         "names" : {
+            "寛治" : 1,
+            "寬治" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1087-02-12",
             "gregorian_era" : "寛治1-02-12",
@@ -5544,6 +6126,7 @@
             "kyuureki_era" : "寛治1-01-01"
          },
          "offset" : 1086,
+         "short_name" : "寛治",
          "start_day" : {
             "gregorian" : "1087-05-17",
             "gregorian_era" : "寛治1-05-17",
@@ -5578,6 +6161,11 @@
          "jp_era" : 1,
          "key" : "寿永",
          "name" : "寿永",
+         "names" : {
+            "壽永" : 1,
+            "夀永" : 1,
+            "寿永" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1182-02-12",
             "gregorian_era" : "寿永1-02-12",
@@ -5588,6 +6176,7 @@
             "kyuureki_era" : "寿永1-01-01"
          },
          "offset" : 1181,
+         "short_name" : "寿永",
          "start_day" : {
             "gregorian" : "1182-07-06",
             "gregorian_era" : "寿永1-07-06",
@@ -5631,7 +6220,12 @@
          "jp_emperor_era" : 1,
          "key" : "履中天皇",
          "name" : "履中天皇",
+         "names" : {
+            "履中" : 1,
+            "履中天皇" : 1
+         },
          "offset" : 399,
+         "short_name" : "履中",
          "start_gregorian_day" : {
             "gregorian" : "0400-01-01",
             "gregorian_era" : "履中天皇1-01-01",
@@ -5693,7 +6287,12 @@
          "jp_emperor_era" : 1,
          "key" : "崇峻天皇",
          "name" : "崇峻天皇",
+         "names" : {
+            "崇峻" : 1,
+            "崇峻天皇" : 1
+         },
          "offset" : 587,
+         "short_name" : "崇峻",
          "start_gregorian_day" : {
             "gregorian" : "0588-01-01",
             "gregorian_era" : "崇峻天皇1-01-01",
@@ -5755,7 +6354,14 @@
          "jp_emperor_era" : 1,
          "key" : "崇神天皇",
          "name" : "崇神天皇",
+         "names" : {
+            "崇神" : 1,
+            "崇神天皇" : 1,
+            "崇神" : 1,
+            "崇神天皇" : 1
+         },
          "offset" : -97,
+         "short_name" : "崇神",
          "start_gregorian_day" : {
             "gregorian" : "-0096-01-01",
             "gregorian_era" : "崇神天皇1-01-01",
@@ -5786,9 +6392,18 @@
          "start_year" : -96
       },
       "平成" : {
+         "abbr" : "平",
+         "abbr_latn" : "H",
          "jp_era" : 1,
          "key" : "平成",
          "name" : "平成",
+         "names" : {
+            "H" : 1,
+            "h" : 1,
+            "㍻" : 1,
+            "平" : 1,
+            "平成" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1989-01-08",
             "gregorian_era" : "平成1-01-08",
@@ -5799,6 +6414,7 @@
             "kyuureki_era" : "平成0-12-01"
          },
          "offset" : 1988,
+         "short_name" : "平成",
          "start_day" : {
             "gregorian" : "1989-01-08",
             "gregorian_era" : "平成1-01-08",
@@ -5833,6 +6449,9 @@
          "jp_era" : 1,
          "key" : "平治",
          "name" : "平治",
+         "names" : {
+            "平治" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1159-01-28",
             "gregorian_era" : "平治1-01-28",
@@ -5843,6 +6462,7 @@
             "kyuureki_era" : "平治1-01-01"
          },
          "offset" : 1158,
+         "short_name" : "平治",
          "start_day" : {
             "gregorian" : "1159-05-16",
             "gregorian_era" : "平治1-05-16",
@@ -5877,6 +6497,9 @@
          "jp_era" : 1,
          "key" : "康保",
          "name" : "康保",
+         "names" : {
+            "康保" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0964-02-21",
             "gregorian_era" : "康保1-02-21",
@@ -5887,6 +6510,7 @@
             "kyuureki_era" : "康保1-01-01"
          },
          "offset" : 963,
+         "short_name" : "康保",
          "start_day" : {
             "gregorian" : "0964-08-24",
             "gregorian_era" : "康保1-08-24",
@@ -5921,6 +6545,9 @@
          "jp_era" : 1,
          "key" : "康元",
          "name" : "康元",
+         "names" : {
+            "康元" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1256-02-05",
             "gregorian_era" : "康元1-02-05",
@@ -5931,6 +6558,7 @@
             "kyuureki_era" : "康元1-01-01"
          },
          "offset" : 1255,
+         "short_name" : "康元",
          "start_day" : {
             "gregorian" : "1256-10-31",
             "gregorian_era" : "康元1-10-31",
@@ -5965,6 +6593,9 @@
          "jp_era" : 1,
          "key" : "康和",
          "name" : "康和",
+         "names" : {
+            "康和" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1099-01-30",
             "gregorian_era" : "康和1-01-30",
@@ -5975,6 +6606,7 @@
             "kyuureki_era" : "康和1-01-01"
          },
          "offset" : 1098,
+         "short_name" : "康和",
          "start_day" : {
             "gregorian" : "1099-09-21",
             "gregorian_era" : "康和1-09-21",
@@ -5990,6 +6622,9 @@
          "jp_north_era" : 1,
          "key" : "康安",
          "name" : "康安",
+         "names" : {
+            "康安" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1362-10-19",
             "gregorian_era" : "康安2-10-19",
@@ -6028,7 +6663,8 @@
             "kyuureki_era" : "康安1-03-29"
          },
          "north_start_year" : 1361,
-         "offset" : 1360
+         "offset" : 1360,
+         "short_name" : "康安"
       },
       "康平" : {
          "actual_end_day" : {
@@ -6053,6 +6689,9 @@
          "jp_era" : 1,
          "key" : "康平",
          "name" : "康平",
+         "names" : {
+            "康平" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1058-02-02",
             "gregorian_era" : "康平1-02-02",
@@ -6063,6 +6702,7 @@
             "kyuureki_era" : "康平1-01-01"
          },
          "offset" : 1057,
+         "short_name" : "康平",
          "start_day" : {
             "gregorian" : "1058-09-25",
             "gregorian_era" : "康平1-09-25",
@@ -6078,6 +6718,10 @@
          "jp_north_era" : 1,
          "key" : "康応",
          "name" : "康応",
+         "names" : {
+            "康応" : 1,
+            "康應" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1390-04-20",
             "gregorian_era" : "康応2-04-20",
@@ -6116,12 +6760,17 @@
             "kyuureki_era" : "康応1-02-09"
          },
          "north_start_year" : 1389,
-         "offset" : 1388
+         "offset" : 1388,
+         "short_name" : "康応"
       },
       "康暦" : {
          "jp_north_era" : 1,
          "key" : "康暦",
          "name" : "康暦",
+         "names" : {
+            "康暦" : 1,
+            "康曆" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1381-03-28",
             "gregorian_era" : "康暦3-03-28",
@@ -6160,7 +6809,8 @@
             "kyuureki_era" : "康暦1-03-22"
          },
          "north_start_year" : 1379,
-         "offset" : 1378
+         "offset" : 1378,
+         "short_name" : "康暦"
       },
       "康正" : {
          "actual_end_day" : {
@@ -6185,6 +6835,9 @@
          "jp_era" : 1,
          "key" : "康正",
          "name" : "康正",
+         "names" : {
+            "康正" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1455-01-27",
             "gregorian_era" : "康正1-01-27",
@@ -6195,6 +6848,7 @@
             "kyuureki_era" : "康正1-01-01"
          },
          "offset" : 1454,
+         "short_name" : "康正",
          "start_day" : {
             "gregorian" : "1455-09-15",
             "gregorian_era" : "康正1-09-15",
@@ -6210,6 +6864,9 @@
          "jp_north_era" : 1,
          "key" : "康永",
          "name" : "康永",
+         "names" : {
+            "康永" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1345-11-23",
             "gregorian_era" : "康永4-11-23",
@@ -6248,7 +6905,8 @@
             "kyuureki_era" : "康永1-04-27"
          },
          "north_start_year" : 1342,
-         "offset" : 1341
+         "offset" : 1341,
+         "short_name" : "康永"
       },
       "康治" : {
          "actual_end_day" : {
@@ -6273,6 +6931,9 @@
          "jp_era" : 1,
          "key" : "康治",
          "name" : "康治",
+         "names" : {
+            "康治" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1142-02-05",
             "gregorian_era" : "康治1-02-05",
@@ -6283,6 +6944,7 @@
             "kyuureki_era" : "康治1-01-01"
          },
          "offset" : 1141,
+         "short_name" : "康治",
          "start_day" : {
             "gregorian" : "1142-06-01",
             "gregorian_era" : "康治1-06-01",
@@ -6317,6 +6979,9 @@
          "jp_era" : 1,
          "key" : "延久",
          "name" : "延久",
+         "names" : {
+            "延久" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1069-02-01",
             "gregorian_era" : "延久1-02-01",
@@ -6327,6 +6992,7 @@
             "kyuureki_era" : "延久1-01-01"
          },
          "offset" : 1068,
+         "short_name" : "延久",
          "start_day" : {
             "gregorian" : "1069-05-12",
             "gregorian_era" : "延久1-05-12",
@@ -6361,6 +7027,9 @@
          "jp_era" : 1,
          "key" : "延享",
          "name" : "延享",
+         "names" : {
+            "延享" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1744-02-14",
             "gregorian_era" : "延享1-02-14",
@@ -6371,6 +7040,7 @@
             "kyuureki_era" : "延享1-01-01"
          },
          "offset" : 1743,
+         "short_name" : "延享",
          "start_day" : {
             "gregorian" : "1744-04-03",
             "gregorian_era" : "延享1-04-03",
@@ -6386,7 +7056,11 @@
          "jp_south_era" : 1,
          "key" : "延元",
          "name" : "延元",
+         "names" : {
+            "延元" : 1
+         },
          "offset" : 1335,
+         "short_name" : "延元",
          "south_actual_end_day" : {
             "gregorian" : "1340-06-02",
             "gregorian_era" : "延元5-06-02",
@@ -6449,6 +7123,9 @@
          "jp_era" : 1,
          "key" : "延喜",
          "name" : "延喜",
+         "names" : {
+            "延喜" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0901-01-28",
             "gregorian_era" : "延喜1-01-28",
@@ -6459,6 +7136,7 @@
             "kyuureki_era" : "延喜1-01-01"
          },
          "offset" : 900,
+         "short_name" : "延喜",
          "start_day" : {
             "gregorian" : "0901-09-05",
             "gregorian_era" : "延喜1-09-05",
@@ -6493,6 +7171,11 @@
          "jp_era" : 1,
          "key" : "延宝",
          "name" : "延宝",
+         "names" : {
+            "延宝" : 1,
+            "延寳" : 1,
+            "延寶" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1673-02-17",
             "gregorian_era" : "延宝1-02-17",
@@ -6503,6 +7186,7 @@
             "kyuureki_era" : "延宝1-01-01"
          },
          "offset" : 1672,
+         "short_name" : "延宝",
          "start_day" : {
             "gregorian" : "1673-10-30",
             "gregorian_era" : "延宝1-10-30",
@@ -6537,6 +7221,10 @@
          "jp_era" : 1,
          "key" : "延徳",
          "name" : "延徳",
+         "names" : {
+            "延徳" : 1,
+            "延德" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1489-02-10",
             "gregorian_era" : "延徳1-02-10",
@@ -6547,6 +7235,7 @@
             "kyuureki_era" : "延徳1-01-01"
          },
          "offset" : 1488,
+         "short_name" : "延徳",
          "start_day" : {
             "gregorian" : "1489-09-25",
             "gregorian_era" : "延徳1-09-25",
@@ -6581,6 +7270,10 @@
          "jp_era" : 1,
          "key" : "延応",
          "name" : "延応",
+         "names" : {
+            "延応" : 1,
+            "延應" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1239-02-13",
             "gregorian_era" : "延応1-02-13",
@@ -6591,6 +7284,7 @@
             "kyuureki_era" : "延応1-01-01"
          },
          "offset" : 1238,
+         "short_name" : "延応",
          "start_day" : {
             "gregorian" : "1239-03-20",
             "gregorian_era" : "延応1-03-20",
@@ -6625,6 +7319,9 @@
          "jp_era" : 1,
          "key" : "延慶",
          "name" : "延慶",
+         "names" : {
+            "延慶" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1308-02-01",
             "gregorian_era" : "延慶1-02-01",
@@ -6635,6 +7332,7 @@
             "kyuureki_era" : "延慶1-01-01"
          },
          "offset" : 1307,
+         "short_name" : "延慶",
          "start_day" : {
             "gregorian" : "1308-11-30",
             "gregorian_era" : "延慶1-11-30",
@@ -6650,6 +7348,9 @@
          "jp_north_era" : 1,
          "key" : "延文",
          "name" : "延文",
+         "names" : {
+            "延文" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1361-05-12",
             "gregorian_era" : "延文6-05-12",
@@ -6688,7 +7389,8 @@
             "kyuureki_era" : "延文1-03-28"
          },
          "north_start_year" : 1356,
-         "offset" : 1355
+         "offset" : 1355,
+         "short_name" : "延文"
       },
       "延暦" : {
          "actual_end_day" : {
@@ -6713,6 +7415,10 @@
          "jp_era" : 1,
          "key" : "延暦",
          "name" : "延暦",
+         "names" : {
+            "延暦" : 1,
+            "延曆" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0782-01-22",
             "gregorian_era" : "延暦1-01-22",
@@ -6723,6 +7429,7 @@
             "kyuureki_era" : "延暦1-01-01"
          },
          "offset" : 781,
+         "short_name" : "延暦",
          "start_day" : {
             "gregorian" : "0782-10-04",
             "gregorian_era" : "延暦1-10-04",
@@ -6757,6 +7464,9 @@
          "jp_era" : 1,
          "key" : "延長",
          "name" : "延長",
+         "names" : {
+            "延長" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0923-01-25",
             "gregorian_era" : "延長1-01-25",
@@ -6767,6 +7477,7 @@
             "kyuureki_era" : "延長1-01-01"
          },
          "offset" : 922,
+         "short_name" : "延長",
          "start_day" : {
             "gregorian" : "0923-06-03",
             "gregorian_era" : "延長1-06-03",
@@ -6801,6 +7512,9 @@
          "jp_era" : 1,
          "key" : "建久",
          "name" : "建久",
+         "names" : {
+            "建久" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1190-02-14",
             "gregorian_era" : "建久1-02-14",
@@ -6811,6 +7525,7 @@
             "kyuureki_era" : "建久1-01-01"
          },
          "offset" : 1189,
+         "short_name" : "建久",
          "start_day" : {
             "gregorian" : "1190-05-23",
             "gregorian_era" : "建久1-05-23",
@@ -6845,6 +7560,9 @@
          "jp_era" : 1,
          "key" : "建仁",
          "name" : "建仁",
+         "names" : {
+            "建仁" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1201-02-12",
             "gregorian_era" : "建仁1-02-12",
@@ -6855,6 +7573,7 @@
             "kyuureki_era" : "建仁1-01-01"
          },
          "offset" : 1200,
+         "short_name" : "建仁",
          "start_day" : {
             "gregorian" : "1201-03-26",
             "gregorian_era" : "建仁1-03-26",
@@ -6889,6 +7608,9 @@
          "jp_era" : 1,
          "key" : "建保",
          "name" : "建保",
+         "names" : {
+            "建保" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1213-01-31",
             "gregorian_era" : "建保1-01-31",
@@ -6899,6 +7621,7 @@
             "kyuureki_era" : "建保1-01-01"
          },
          "offset" : 1212,
+         "short_name" : "建保",
          "start_day" : {
             "gregorian" : "1214-01-25",
             "gregorian_era" : "建保2-01-25",
@@ -6914,7 +7637,12 @@
          "jp_south_era" : 1,
          "key" : "建徳",
          "name" : "建徳",
+         "names" : {
+            "建徳" : 1,
+            "建德" : 1
+         },
          "offset" : 1369,
+         "short_name" : "建徳",
          "south_actual_end_day" : {
             "gregorian" : "1372-06-08",
             "gregorian_era" : "建徳3-06-08",
@@ -6977,6 +7705,10 @@
          "jp_era" : 1,
          "key" : "建暦",
          "name" : "建暦",
+         "names" : {
+            "建暦" : 1,
+            "建曆" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1211-01-24",
             "gregorian_era" : "建暦1-01-24",
@@ -6987,6 +7719,7 @@
             "kyuureki_era" : "建暦1-01-01"
          },
          "offset" : 1210,
+         "short_name" : "建暦",
          "start_day" : {
             "gregorian" : "1211-04-30",
             "gregorian_era" : "建暦1-04-30",
@@ -7003,6 +7736,9 @@
          "jp_south_era" : 1,
          "key" : "建武",
          "name" : "建武",
+         "names" : {
+            "建武" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1338-10-19",
             "gregorian_era" : "建武5-10-19",
@@ -7042,6 +7778,7 @@
          },
          "north_start_year" : 1334,
          "offset" : 1333,
+         "short_name" : "建武",
          "south_actual_end_day" : {
             "gregorian" : "1336-04-19",
             "gregorian_era" : "建武3-04-19",
@@ -7104,6 +7841,9 @@
          "jp_era" : 1,
          "key" : "建永",
          "name" : "建永",
+         "names" : {
+            "建永" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1206-02-17",
             "gregorian_era" : "建永1-02-17",
@@ -7114,6 +7854,7 @@
             "kyuureki_era" : "建永1-01-01"
          },
          "offset" : 1205,
+         "short_name" : "建永",
          "start_day" : {
             "gregorian" : "1206-06-12",
             "gregorian_era" : "建永1-06-12",
@@ -7148,6 +7889,9 @@
          "jp_era" : 1,
          "key" : "建治",
          "name" : "建治",
+         "names" : {
+            "建治" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1275-02-05",
             "gregorian_era" : "建治1-02-05",
@@ -7158,6 +7902,7 @@
             "kyuureki_era" : "建治1-01-01"
          },
          "offset" : 1274,
+         "short_name" : "建治",
          "start_day" : {
             "gregorian" : "1275-05-29",
             "gregorian_era" : "建治1-05-29",
@@ -7192,6 +7937,9 @@
          "jp_era" : 1,
          "key" : "建長",
          "name" : "建長",
+         "names" : {
+            "建長" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1249-02-21",
             "gregorian_era" : "建長1-02-21",
@@ -7202,6 +7950,7 @@
             "kyuureki_era" : "建長1-01-01"
          },
          "offset" : 1248,
+         "short_name" : "建長",
          "start_day" : {
             "gregorian" : "1249-05-09",
             "gregorian_era" : "建長1-05-09",
@@ -7236,6 +7985,9 @@
          "jp_era" : 1,
          "key" : "弘仁",
          "name" : "弘仁",
+         "names" : {
+            "弘仁" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0810-02-12",
             "gregorian_era" : "弘仁1-02-12",
@@ -7246,6 +7998,7 @@
             "kyuureki_era" : "弘仁1-01-01"
          },
          "offset" : 809,
+         "short_name" : "弘仁",
          "start_day" : {
             "gregorian" : "0810-10-24",
             "gregorian_era" : "弘仁1-10-24",
@@ -7280,6 +8033,9 @@
          "jp_era" : 1,
          "key" : "弘化",
          "name" : "弘化",
+         "names" : {
+            "弘化" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1844-02-18",
             "gregorian_era" : "弘化1-02-18",
@@ -7290,6 +8046,7 @@
             "kyuureki_era" : "弘化1-01-01"
          },
          "offset" : 1843,
+         "short_name" : "弘化",
          "start_day" : {
             "gregorian" : "1845-01-09",
             "gregorian_era" : "弘化2-01-09",
@@ -7305,7 +8062,11 @@
          "jp_south_era" : 1,
          "key" : "弘和",
          "name" : "弘和",
+         "names" : {
+            "弘和" : 1
+         },
          "offset" : 1380,
+         "short_name" : "弘和",
          "south_actual_end_day" : {
             "gregorian" : "1384-05-26",
             "gregorian_era" : "弘和4-05-26",
@@ -7368,6 +8129,9 @@
          "jp_era" : 1,
          "key" : "弘安",
          "name" : "弘安",
+         "names" : {
+            "弘安" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1278-02-01",
             "gregorian_era" : "弘安1-02-01",
@@ -7378,6 +8142,7 @@
             "kyuureki_era" : "弘安1-01-01"
          },
          "offset" : 1277,
+         "short_name" : "弘安",
          "start_day" : {
             "gregorian" : "1278-03-30",
             "gregorian_era" : "弘安1-03-30",
@@ -7392,7 +8157,12 @@
       "弘文天皇" : {
          "key" : "弘文天皇",
          "name" : "弘文天皇",
-         "offset" : 670
+         "names" : {
+            "弘文" : 1,
+            "弘文天皇" : 1
+         },
+         "offset" : 670,
+         "short_name" : "弘文"
       },
       "弘治" : {
          "actual_end_day" : {
@@ -7417,6 +8187,9 @@
          "jp_era" : 1,
          "key" : "弘治",
          "name" : "弘治",
+         "names" : {
+            "弘治" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1555-02-02",
             "gregorian_era" : "弘治1-02-02",
@@ -7427,6 +8200,7 @@
             "kyuureki_era" : "弘治1-01-01"
          },
          "offset" : 1554,
+         "short_name" : "弘治",
          "start_day" : {
             "gregorian" : "1555-11-17",
             "gregorian_era" : "弘治1-11-17",
@@ -7461,6 +8235,9 @@
          "jp_era" : 1,
          "key" : "弘長",
          "name" : "弘長",
+         "names" : {
+            "弘長" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1261-02-08",
             "gregorian_era" : "弘長1-02-08",
@@ -7471,6 +8248,7 @@
             "kyuureki_era" : "弘長1-01-01"
          },
          "offset" : 1260,
+         "short_name" : "弘長",
          "start_day" : {
             "gregorian" : "1261-03-29",
             "gregorian_era" : "弘長1-03-29",
@@ -7505,6 +8283,10 @@
          "jp_era" : 1,
          "key" : "徳治",
          "name" : "徳治",
+         "names" : {
+            "徳治" : 1,
+            "德治" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1306-02-22",
             "gregorian_era" : "徳治1-02-22",
@@ -7515,6 +8297,7 @@
             "kyuureki_era" : "徳治1-01-01"
          },
          "offset" : 1305,
+         "short_name" : "徳治",
          "start_day" : {
             "gregorian" : "1307-01-26",
             "gregorian_era" : "徳治2-01-26",
@@ -7549,6 +8332,10 @@
          "jp_era" : 1,
          "key" : "応仁",
          "name" : "応仁",
+         "names" : {
+            "応仁" : 1,
+            "應仁" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1467-02-14",
             "gregorian_era" : "応仁1-02-14",
@@ -7559,6 +8346,7 @@
             "kyuureki_era" : "応仁1-01-01"
          },
          "offset" : 1466,
+         "short_name" : "応仁",
          "start_day" : {
             "gregorian" : "1467-04-18",
             "gregorian_era" : "応仁1-04-18",
@@ -7593,6 +8381,10 @@
          "jp_era" : 1,
          "key" : "応保",
          "name" : "応保",
+         "names" : {
+            "応保" : 1,
+            "應保" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1161-02-04",
             "gregorian_era" : "応保1-02-04",
@@ -7603,6 +8395,7 @@
             "kyuureki_era" : "応保1-01-01"
          },
          "offset" : 1160,
+         "short_name" : "応保",
          "start_day" : {
             "gregorian" : "1161-10-01",
             "gregorian_era" : "応保1-10-01",
@@ -7637,6 +8430,10 @@
          "jp_era" : 1,
          "key" : "応和",
          "name" : "応和",
+         "names" : {
+            "応和" : 1,
+            "應和" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0961-01-25",
             "gregorian_era" : "応和1-01-25",
@@ -7647,6 +8444,7 @@
             "kyuureki_era" : "応和1-01-01"
          },
          "offset" : 960,
+         "short_name" : "応和",
          "start_day" : {
             "gregorian" : "0961-03-10",
             "gregorian_era" : "応和1-03-10",
@@ -7662,6 +8460,10 @@
          "jp_north_era" : 1,
          "key" : "応安",
          "name" : "応安",
+         "names" : {
+            "応安" : 1,
+            "應安" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1375-04-06",
             "gregorian_era" : "応安8-04-06",
@@ -7700,7 +8502,8 @@
             "kyuureki_era" : "応安1-02-18"
          },
          "north_start_year" : 1368,
-         "offset" : 1367
+         "offset" : 1367,
+         "short_name" : "応安"
       },
       "応徳" : {
          "actual_end_day" : {
@@ -7725,6 +8528,12 @@
          "jp_era" : 1,
          "key" : "応徳",
          "name" : "応徳",
+         "names" : {
+            "応徳" : 1,
+            "応德" : 1,
+            "應徳" : 1,
+            "應德" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1084-02-15",
             "gregorian_era" : "応徳1-02-15",
@@ -7735,6 +8544,7 @@
             "kyuureki_era" : "応徳1-01-01"
          },
          "offset" : 1083,
+         "short_name" : "応徳",
          "start_day" : {
             "gregorian" : "1084-03-21",
             "gregorian_era" : "応徳1-03-21",
@@ -7769,6 +8579,10 @@
          "jp_era" : 1,
          "key" : "応永",
          "name" : "応永",
+         "names" : {
+            "応永" : 1,
+            "應永" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1394-02-09",
             "gregorian_era" : "応永1-02-09",
@@ -7779,6 +8593,7 @@
             "kyuureki_era" : "応永1-01-01"
          },
          "offset" : 1393,
+         "short_name" : "応永",
          "start_day" : {
             "gregorian" : "1394-08-10",
             "gregorian_era" : "応永1-08-10",
@@ -7822,7 +8637,18 @@
          "jp_emperor_era" : 1,
          "key" : "応神天皇",
          "name" : "応神天皇",
+         "names" : {
+            "応神" : 1,
+            "応神天皇" : 1,
+            "応神" : 1,
+            "応神天皇" : 1,
+            "應神" : 1,
+            "應神天皇" : 1,
+            "應神" : 1,
+            "應神天皇" : 1
+         },
          "offset" : 269,
+         "short_name" : "応神",
          "start_gregorian_day" : {
             "gregorian" : "0270-01-01",
             "gregorian_era" : "応神天皇1-01-01",
@@ -7875,6 +8701,10 @@
          "jp_era" : 1,
          "key" : "応長",
          "name" : "応長",
+         "names" : {
+            "応長" : 1,
+            "應長" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1311-01-29",
             "gregorian_era" : "応長1-01-29",
@@ -7885,6 +8715,7 @@
             "kyuureki_era" : "応長1-01-01"
          },
          "offset" : 1310,
+         "short_name" : "応長",
          "start_day" : {
             "gregorian" : "1311-05-25",
             "gregorian_era" : "応長1-05-25",
@@ -7919,6 +8750,9 @@
          "jp_era" : 1,
          "key" : "慶安",
          "name" : "慶安",
+         "names" : {
+            "慶安" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1648-01-25",
             "gregorian_era" : "慶安1-01-25",
@@ -7929,6 +8763,7 @@
             "kyuureki_era" : "慶安1-01-01"
          },
          "offset" : 1647,
+         "short_name" : "慶安",
          "start_day" : {
             "gregorian" : "1648-04-07",
             "gregorian_era" : "慶安1-04-07",
@@ -7941,6 +8776,7 @@
          "start_year" : 1648
       },
       "慶応" : {
+         "abbr" : "慶",
          "actual_end_day" : {
             "gregorian" : "1868-10-23",
             "gregorian_era" : "慶応4-10-23",
@@ -7963,6 +8799,11 @@
          "jp_era" : 1,
          "key" : "慶応",
          "name" : "慶応",
+         "names" : {
+            "慶" : 1,
+            "慶応" : 1,
+            "慶應" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1865-01-27",
             "gregorian_era" : "慶応1-01-27",
@@ -7973,6 +8814,7 @@
             "kyuureki_era" : "慶応1-01-01"
          },
          "offset" : 1864,
+         "short_name" : "慶応",
          "start_day" : {
             "gregorian" : "1865-05-01",
             "gregorian_era" : "慶応1-05-01",
@@ -8007,6 +8849,9 @@
          "jp_era" : 1,
          "key" : "慶長",
          "name" : "慶長",
+         "names" : {
+            "慶長" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1596-01-30",
             "gregorian_era" : "慶長1-01-30",
@@ -8017,6 +8862,7 @@
             "kyuureki_era" : "慶長1-01-01"
          },
          "offset" : 1595,
+         "short_name" : "慶長",
          "start_day" : {
             "gregorian" : "1596-12-16",
             "gregorian_era" : "慶長1-12-16",
@@ -8051,6 +8897,9 @@
          "jp_era" : 1,
          "key" : "慶雲",
          "name" : "慶雲",
+         "names" : {
+            "慶雲" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0704-02-14",
             "gregorian_era" : "慶雲1-02-14",
@@ -8061,6 +8910,7 @@
             "kyuureki_era" : "慶雲1-01-01"
          },
          "offset" : 703,
+         "short_name" : "慶雲",
          "start_day" : {
             "gregorian" : "0704-06-20",
             "gregorian_era" : "慶雲1-06-20",
@@ -8104,7 +8954,14 @@
          "jp_emperor_era" : 1,
          "key" : "懿徳天皇",
          "name" : "懿徳天皇",
+         "names" : {
+            "懿徳" : 1,
+            "懿徳天皇" : 1,
+            "懿德" : 1,
+            "懿德天皇" : 1
+         },
          "offset" : -510,
+         "short_name" : "懿徳",
          "start_gregorian_day" : {
             "gregorian" : "-0509-01-01",
             "gregorian_era" : "懿徳天皇1-01-01",
@@ -8166,7 +9023,12 @@
          "jp_emperor_era" : 1,
          "key" : "成務天皇",
          "name" : "成務天皇",
+         "names" : {
+            "成務" : 1,
+            "成務天皇" : 1
+         },
          "offset" : 130,
+         "short_name" : "成務",
          "start_gregorian_day" : {
             "gregorian" : "0131-01-01",
             "gregorian_era" : "成務天皇1-01-01",
@@ -8219,6 +9081,9 @@
          "jp_era" : 1,
          "key" : "承久",
          "name" : "承久",
+         "names" : {
+            "承久" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1219-01-25",
             "gregorian_era" : "承久1-01-25",
@@ -8229,6 +9094,7 @@
             "kyuureki_era" : "承久1-01-01"
          },
          "offset" : 1218,
+         "short_name" : "承久",
          "start_day" : {
             "gregorian" : "1219-06-03",
             "gregorian_era" : "承久1-06-03",
@@ -8263,6 +9129,9 @@
          "jp_era" : 1,
          "key" : "承保",
          "name" : "承保",
+         "names" : {
+            "承保" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1074-02-05",
             "gregorian_era" : "承保1-02-05",
@@ -8273,6 +9142,7 @@
             "kyuureki_era" : "承保1-01-01"
          },
          "offset" : 1073,
+         "short_name" : "承保",
          "start_day" : {
             "gregorian" : "1074-09-22",
             "gregorian_era" : "承保1-09-22",
@@ -8307,6 +9177,9 @@
          "jp_era" : 1,
          "key" : "承元",
          "name" : "承元",
+         "names" : {
+            "承元" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1207-02-06",
             "gregorian_era" : "承元1-02-06",
@@ -8317,6 +9190,7 @@
             "kyuureki_era" : "承元1-01-01"
          },
          "offset" : 1206,
+         "short_name" : "承元",
          "start_day" : {
             "gregorian" : "1207-11-23",
             "gregorian_era" : "承元1-11-23",
@@ -8351,6 +9225,9 @@
          "jp_era" : 1,
          "key" : "承和",
          "name" : "承和",
+         "names" : {
+            "承和" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0834-02-16",
             "gregorian_era" : "承和1-02-16",
@@ -8361,6 +9238,7 @@
             "kyuureki_era" : "承和1-01-01"
          },
          "offset" : 833,
+         "short_name" : "承和",
          "start_day" : {
             "gregorian" : "0834-02-18",
             "gregorian_era" : "承和1-02-18",
@@ -8395,6 +9273,9 @@
          "jp_era" : 1,
          "key" : "承安",
          "name" : "承安",
+         "names" : {
+            "承安" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1171-02-14",
             "gregorian_era" : "承安1-02-14",
@@ -8405,6 +9286,7 @@
             "kyuureki_era" : "承安1-01-01"
          },
          "offset" : 1170,
+         "short_name" : "承安",
          "start_day" : {
             "gregorian" : "1171-06-03",
             "gregorian_era" : "承安1-06-03",
@@ -8439,6 +9321,9 @@
          "jp_era" : 1,
          "key" : "承平",
          "name" : "承平",
+         "names" : {
+            "承平" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0931-01-27",
             "gregorian_era" : "承平1-01-27",
@@ -8449,6 +9334,7 @@
             "kyuureki_era" : "承平1-01-01"
          },
          "offset" : 930,
+         "short_name" : "承平",
          "start_day" : {
             "gregorian" : "0931-05-21",
             "gregorian_era" : "承平1-05-21",
@@ -8483,6 +9369,10 @@
          "jp_era" : 1,
          "key" : "承徳",
          "name" : "承徳",
+         "names" : {
+            "承徳" : 1,
+            "承德" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1097-01-22",
             "gregorian_era" : "承徳1-01-22",
@@ -8493,6 +9383,7 @@
             "kyuureki_era" : "承徳1-01-01"
          },
          "offset" : 1096,
+         "short_name" : "承徳",
          "start_day" : {
             "gregorian" : "1098-01-02",
             "gregorian_era" : "承徳2-01-02",
@@ -8527,6 +9418,10 @@
          "jp_era" : 1,
          "key" : "承応",
          "name" : "承応",
+         "names" : {
+            "承応" : 1,
+            "承應" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1652-02-10",
             "gregorian_era" : "承応1-02-10",
@@ -8537,6 +9432,7 @@
             "kyuureki_era" : "承応1-01-01"
          },
          "offset" : 1651,
+         "short_name" : "承応",
          "start_day" : {
             "gregorian" : "1652-10-20",
             "gregorian_era" : "承応1-10-20",
@@ -8571,6 +9467,10 @@
          "jp_era" : 1,
          "key" : "承暦",
          "name" : "承暦",
+         "names" : {
+            "承暦" : 1,
+            "承曆" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1077-02-02",
             "gregorian_era" : "承暦1-02-02",
@@ -8581,6 +9481,7 @@
             "kyuureki_era" : "承暦1-01-01"
          },
          "offset" : 1076,
+         "short_name" : "承暦",
          "start_day" : {
             "gregorian" : "1077-12-11",
             "gregorian_era" : "承暦1-12-11",
@@ -8615,7 +9516,12 @@
          "jp_emperor_era" : 1,
          "key" : "持統天皇",
          "name" : "持統天皇",
+         "names" : {
+            "持統" : 1,
+            "持統天皇" : 1
+         },
          "offset" : 686,
+         "short_name" : "持統",
          "start_gregorian_day" : {
             "gregorian" : "0687-01-01",
             "gregorian_era" : "持統天皇1-01-01",
@@ -8677,7 +9583,12 @@
          "jp_emperor_era" : 1,
          "key" : "推古天皇",
          "name" : "推古天皇",
+         "names" : {
+            "推古" : 1,
+            "推古天皇" : 1
+         },
          "offset" : 592,
+         "short_name" : "推古",
          "start_gregorian_day" : {
             "gregorian" : "0593-01-01",
             "gregorian_era" : "推古天皇1-01-01",
@@ -8739,7 +9650,12 @@
          "jp_emperor_era" : 1,
          "key" : "敏達天皇",
          "name" : "敏達天皇",
+         "names" : {
+            "敏達" : 1,
+            "敏達天皇" : 1
+         },
          "offset" : 571,
+         "short_name" : "敏達",
          "start_gregorian_day" : {
             "gregorian" : "0572-01-01",
             "gregorian_era" : "敏達天皇1-01-01",
@@ -8773,7 +9689,11 @@
          "jp_south_era" : 1,
          "key" : "文中",
          "name" : "文中",
+         "names" : {
+            "文中" : 1
+         },
          "offset" : 1371,
+         "short_name" : "文中",
          "south_actual_end_day" : {
             "gregorian" : "1375-07-04",
             "gregorian_era" : "文中4-07-04",
@@ -8836,6 +9756,9 @@
          "jp_era" : 1,
          "key" : "文久",
          "name" : "文久",
+         "names" : {
+            "文久" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1861-02-10",
             "gregorian_era" : "文久1-02-10",
@@ -8846,6 +9769,7 @@
             "kyuureki_era" : "文久1-01-01"
          },
          "offset" : 1860,
+         "short_name" : "文久",
          "start_day" : {
             "gregorian" : "1861-03-29",
             "gregorian_era" : "文久1-03-29",
@@ -8880,6 +9804,11 @@
          "jp_era" : 1,
          "key" : "文亀",
          "name" : "文亀",
+         "names" : {
+            "文亀" : 1,
+            "文龜" : 1,
+            "文龟" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1501-01-29",
             "gregorian_era" : "文亀1-01-29",
@@ -8890,6 +9819,7 @@
             "kyuureki_era" : "文亀1-01-01"
          },
          "offset" : 1500,
+         "short_name" : "文亀",
          "start_day" : {
             "gregorian" : "1501-03-28",
             "gregorian_era" : "文亀1-03-28",
@@ -8924,6 +9854,9 @@
          "jp_era" : 1,
          "key" : "文保",
          "name" : "文保",
+         "names" : {
+            "文保" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1317-02-20",
             "gregorian_era" : "文保1-02-20",
@@ -8934,6 +9867,7 @@
             "kyuureki_era" : "文保1-01-01"
          },
          "offset" : 1316,
+         "short_name" : "文保",
          "start_day" : {
             "gregorian" : "1317-03-24",
             "gregorian_era" : "文保1-03-24",
@@ -8968,6 +9902,9 @@
          "jp_era" : 1,
          "key" : "文化",
          "name" : "文化",
+         "names" : {
+            "文化" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1804-02-11",
             "gregorian_era" : "文化1-02-11",
@@ -8978,6 +9915,7 @@
             "kyuureki_era" : "文化1-01-01"
          },
          "offset" : 1803,
+         "short_name" : "文化",
          "start_day" : {
             "gregorian" : "1804-03-22",
             "gregorian_era" : "文化1-03-22",
@@ -8993,6 +9931,9 @@
          "jp_north_era" : 1,
          "key" : "文和",
          "name" : "文和",
+         "names" : {
+            "文和" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1356-05-07",
             "gregorian_era" : "文和5-05-07",
@@ -9031,7 +9972,8 @@
             "kyuureki_era" : "文和1-09-27"
          },
          "north_start_year" : 1352,
-         "offset" : 1351
+         "offset" : 1351,
+         "short_name" : "文和"
       },
       "文安" : {
          "actual_end_day" : {
@@ -9056,6 +9998,9 @@
          "jp_era" : 1,
          "key" : "文安",
          "name" : "文安",
+         "names" : {
+            "文安" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1444-01-29",
             "gregorian_era" : "文安1-01-29",
@@ -9066,6 +10011,7 @@
             "kyuureki_era" : "文安1-01-01"
          },
          "offset" : 1443,
+         "short_name" : "文安",
          "start_day" : {
             "gregorian" : "1444-03-03",
             "gregorian_era" : "文安1-03-03",
@@ -9100,6 +10046,10 @@
          "jp_era" : 1,
          "key" : "文応",
          "name" : "文応",
+         "names" : {
+            "文応" : 1,
+            "文應" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1260-02-20",
             "gregorian_era" : "文応1-02-20",
@@ -9110,6 +10060,7 @@
             "kyuureki_era" : "文応1-01-01"
          },
          "offset" : 1259,
+         "short_name" : "文応",
          "start_day" : {
             "gregorian" : "1260-05-31",
             "gregorian_era" : "文応1-05-31",
@@ -9144,6 +10095,9 @@
          "jp_era" : 1,
          "key" : "文政",
          "name" : "文政",
+         "names" : {
+            "文政" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1818-02-05",
             "gregorian_era" : "文政1-02-05",
@@ -9154,6 +10108,7 @@
             "kyuureki_era" : "文政1-01-01"
          },
          "offset" : 1817,
+         "short_name" : "文政",
          "start_day" : {
             "gregorian" : "1818-05-26",
             "gregorian_era" : "文政1-05-26",
@@ -9188,6 +10143,9 @@
          "jp_era" : 1,
          "key" : "文明",
          "name" : "文明",
+         "names" : {
+            "文明" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1469-02-21",
             "gregorian_era" : "文明1-02-21",
@@ -9198,6 +10156,7 @@
             "kyuureki_era" : "文明1-01-01"
          },
          "offset" : 1468,
+         "short_name" : "文明",
          "start_day" : {
             "gregorian" : "1469-06-17",
             "gregorian_era" : "文明1-06-17",
@@ -9232,6 +10191,10 @@
          "jp_era" : 1,
          "key" : "文暦",
          "name" : "文暦",
+         "names" : {
+            "文暦" : 1,
+            "文曆" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1234-02-07",
             "gregorian_era" : "文暦1-02-07",
@@ -9242,6 +10205,7 @@
             "kyuureki_era" : "文暦1-01-01"
          },
          "offset" : 1233,
+         "short_name" : "文暦",
          "start_day" : {
             "gregorian" : "1234-12-04",
             "gregorian_era" : "文暦1-12-04",
@@ -9276,6 +10240,9 @@
          "jp_era" : 1,
          "key" : "文正",
          "name" : "文正",
+         "names" : {
+            "文正" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1466-01-26",
             "gregorian_era" : "文正1-01-26",
@@ -9286,6 +10253,7 @@
             "kyuureki_era" : "文正1-01-01"
          },
          "offset" : 1465,
+         "short_name" : "文正",
          "start_day" : {
             "gregorian" : "1466-03-23",
             "gregorian_era" : "文正1-03-23",
@@ -9320,7 +10288,12 @@
          "jp_emperor_era" : 1,
          "key" : "文武天皇",
          "name" : "文武天皇",
+         "names" : {
+            "文武" : 1,
+            "文武天皇" : 1
+         },
          "offset" : 696,
+         "short_name" : "文武",
          "start_day" : {
             "gregorian" : "0697-08-25",
             "gregorian_era" : "文武天皇1-08-25",
@@ -9355,6 +10328,9 @@
          "jp_era" : 1,
          "key" : "文永",
          "name" : "文永",
+         "names" : {
+            "文永" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1264-02-07",
             "gregorian_era" : "文永1-02-07",
@@ -9365,6 +10341,7 @@
             "kyuureki_era" : "文永1-01-01"
          },
          "offset" : 1263,
+         "short_name" : "文永",
          "start_day" : {
             "gregorian" : "1264-04-03",
             "gregorian_era" : "文永1-04-03",
@@ -9399,6 +10376,9 @@
          "jp_era" : 1,
          "key" : "文治",
          "name" : "文治",
+         "names" : {
+            "文治" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1185-02-09",
             "gregorian_era" : "文治1-02-09",
@@ -9409,6 +10389,7 @@
             "kyuureki_era" : "文治1-01-01"
          },
          "offset" : 1184,
+         "short_name" : "文治",
          "start_day" : {
             "gregorian" : "1185-09-16",
             "gregorian_era" : "文治1-09-16",
@@ -9443,6 +10424,10 @@
          "jp_era" : 1,
          "key" : "文禄",
          "name" : "文禄",
+         "names" : {
+            "文祿" : 1,
+            "文禄" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1592-02-13",
             "gregorian_era" : "文禄1-02-13",
@@ -9453,6 +10438,7 @@
             "kyuureki_era" : "文禄1-01-01"
          },
          "offset" : 1591,
+         "short_name" : "文禄",
          "start_day" : {
             "gregorian" : "1593-01-10",
             "gregorian_era" : "文禄2-01-10",
@@ -9496,7 +10482,18 @@
          "jp_emperor_era" : 1,
          "key" : "斉明天皇",
          "name" : "斉明天皇",
+         "names" : {
+            "斉明" : 1,
+            "斉明天皇" : 1,
+            "斎明" : 1,
+            "斎明天皇" : 1,
+            "齊明" : 1,
+            "齊明天皇" : 1,
+            "齋明" : 1,
+            "齋明天皇" : 1
+         },
          "offset" : 654,
+         "short_name" : "斉明",
          "start_gregorian_day" : {
             "gregorian" : "0655-01-01",
             "gregorian_era" : "斉明天皇1-01-01",
@@ -9549,6 +10546,12 @@
          "jp_era" : 1,
          "key" : "斉衡",
          "name" : "斉衡",
+         "names" : {
+            "斉衡" : 1,
+            "斎衡" : 1,
+            "齊衡" : 1,
+            "齋衡" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0854-02-05",
             "gregorian_era" : "斉衡1-02-05",
@@ -9559,6 +10562,7 @@
             "kyuureki_era" : "斉衡1-01-01"
          },
          "offset" : 853,
+         "short_name" : "斉衡",
          "start_day" : {
             "gregorian" : "0854-12-27",
             "gregorian_era" : "斉衡1-12-27",
@@ -9593,6 +10597,9 @@
          "jp_era" : 1,
          "key" : "昌泰",
          "name" : "昌泰",
+         "names" : {
+            "昌泰" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0898-01-30",
             "gregorian_era" : "昌泰1-01-30",
@@ -9603,6 +10610,7 @@
             "kyuureki_era" : "昌泰1-01-01"
          },
          "offset" : 897,
+         "short_name" : "昌泰",
          "start_day" : {
             "gregorian" : "0898-05-24",
             "gregorian_era" : "昌泰1-05-24",
@@ -9637,6 +10645,9 @@
          "jp_era" : 1,
          "key" : "明和",
          "name" : "明和",
+         "names" : {
+            "明和" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1764-02-02",
             "gregorian_era" : "明和1-02-02",
@@ -9647,6 +10658,7 @@
             "kyuureki_era" : "明和1-01-01"
          },
          "offset" : 1763,
+         "short_name" : "明和",
          "start_day" : {
             "gregorian" : "1764-06-30",
             "gregorian_era" : "明和1-06-30",
@@ -9663,6 +10675,10 @@
          "jp_south_era" : 1,
          "key" : "明徳",
          "name" : "明徳",
+         "names" : {
+            "明徳" : 1,
+            "明德" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1394-08-10",
             "gregorian_era" : "明徳5-08-10",
@@ -9702,6 +10718,7 @@
          },
          "north_start_year" : 1390,
          "offset" : 1389,
+         "short_name" : "明徳",
          "south_actual_end_day" : {
             "gregorian" : "1394-08-10",
             "gregorian_era" : "明徳5-08-10",
@@ -9764,6 +10781,10 @@
          "jp_era" : 1,
          "key" : "明応",
          "name" : "明応",
+         "names" : {
+            "明応" : 1,
+            "明應" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1492-02-08",
             "gregorian_era" : "明応1-02-08",
@@ -9774,6 +10795,7 @@
             "kyuureki_era" : "明応1-01-01"
          },
          "offset" : 1491,
+         "short_name" : "明応",
          "start_day" : {
             "gregorian" : "1492-08-21",
             "gregorian_era" : "明応1-08-21",
@@ -9808,6 +10830,10 @@
          "jp_era" : 1,
          "key" : "明暦",
          "name" : "明暦",
+         "names" : {
+            "明暦" : 1,
+            "明曆" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1655-02-07",
             "gregorian_era" : "明暦1-02-07",
@@ -9818,6 +10844,7 @@
             "kyuureki_era" : "明暦1-01-01"
          },
          "offset" : 1654,
+         "short_name" : "明暦",
          "start_day" : {
             "gregorian" : "1655-05-18",
             "gregorian_era" : "明暦1-05-18",
@@ -9830,6 +10857,8 @@
          "start_year" : 1655
       },
       "明治" : {
+         "abbr" : "明",
+         "abbr_latn" : "M",
          "actual_end_day" : {
             "gregorian" : "1912-07-30",
             "gregorian_era" : "明治45-07-30",
@@ -9852,6 +10881,13 @@
          "jp_era" : 1,
          "key" : "明治",
          "name" : "明治",
+         "names" : {
+            "M" : 1,
+            "m" : 1,
+            "㍾" : 1,
+            "明" : 1,
+            "明治" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1868-01-25",
             "gregorian_era" : "明治1-01-25",
@@ -9862,6 +10898,7 @@
             "kyuureki_era" : "明治1-01-01"
          },
          "offset" : 1867,
+         "short_name" : "明治",
          "start_day" : {
             "gregorian" : "1868-10-23",
             "gregorian_era" : "明治1-10-23",
@@ -9874,6 +10911,8 @@
          "start_year" : 1868
       },
       "昭和" : {
+         "abbr" : "昭",
+         "abbr_latn" : "S",
          "actual_end_day" : {
             "gregorian" : "1989-01-07",
             "gregorian_era" : "昭和64-01-07",
@@ -9896,6 +10935,13 @@
          "jp_era" : 1,
          "key" : "昭和",
          "name" : "昭和",
+         "names" : {
+            "S" : 1,
+            "s" : 1,
+            "㍼" : 1,
+            "昭" : 1,
+            "昭和" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1926-12-25",
             "gregorian_era" : "昭和1-12-25",
@@ -9906,6 +10952,7 @@
             "kyuureki_era" : "昭和1-11-21"
          },
          "offset" : 1925,
+         "short_name" : "昭和",
          "start_day" : {
             "gregorian" : "1926-12-25",
             "gregorian_era" : "昭和1-12-25",
@@ -9949,7 +10996,12 @@
          "jp_emperor_era" : 1,
          "key" : "景行天皇",
          "name" : "景行天皇",
+         "names" : {
+            "景行" : 1,
+            "景行天皇" : 1
+         },
          "offset" : 70,
+         "short_name" : "景行",
          "start_gregorian_day" : {
             "gregorian" : "0071-01-01",
             "gregorian_era" : "景行天皇1-01-01",
@@ -10002,6 +11054,10 @@
          "jp_era" : 1,
          "key" : "暦仁",
          "name" : "暦仁",
+         "names" : {
+            "暦仁" : 1,
+            "曆仁" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1238-01-25",
             "gregorian_era" : "暦仁1-01-25",
@@ -10012,6 +11068,7 @@
             "kyuureki_era" : "暦仁1-01-01"
          },
          "offset" : 1237,
+         "short_name" : "暦仁",
          "start_day" : {
             "gregorian" : "1239-01-06",
             "gregorian_era" : "暦仁2-01-06",
@@ -10027,6 +11084,12 @@
          "jp_north_era" : 1,
          "key" : "暦応",
          "name" : "暦応",
+         "names" : {
+            "暦応" : 1,
+            "暦應" : 1,
+            "曆応" : 1,
+            "曆應" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1342-06-09",
             "gregorian_era" : "暦応5-06-09",
@@ -10065,7 +11128,8 @@
             "kyuureki_era" : "暦応1-08-28"
          },
          "north_start_year" : 1338,
-         "offset" : 1337
+         "offset" : 1337,
+         "short_name" : "暦応"
       },
       "朱鳥" : {
          "end_gregorian_day" : {
@@ -10099,6 +11163,9 @@
          "jp_era" : 1,
          "key" : "朱鳥",
          "name" : "朱鳥",
+         "names" : {
+            "朱鳥" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0686-02-02",
             "gregorian_era" : "朱鳥1-02-02",
@@ -10109,6 +11176,7 @@
             "kyuureki_era" : "朱鳥1-01-01"
          },
          "offset" : 685,
+         "short_name" : "朱鳥",
          "start_day" : {
             "gregorian" : "0686-08-17",
             "gregorian_era" : "朱鳥1-08-17",
@@ -10152,7 +11220,12 @@
          "jp_emperor_era" : 1,
          "key" : "欽明天皇",
          "name" : "欽明天皇",
+         "names" : {
+            "欽明" : 1,
+            "欽明天皇" : 1
+         },
          "offset" : 539,
+         "short_name" : "欽明",
          "start_gregorian_day" : {
             "gregorian" : "0540-01-01",
             "gregorian_era" : "欽明天皇1-01-01",
@@ -10205,6 +11278,9 @@
          "jp_era" : 1,
          "key" : "正中",
          "name" : "正中",
+         "names" : {
+            "正中" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1324-02-04",
             "gregorian_era" : "正中1-02-04",
@@ -10215,6 +11291,7 @@
             "kyuureki_era" : "正中1-01-01"
          },
          "offset" : 1323,
+         "short_name" : "正中",
          "start_day" : {
             "gregorian" : "1325-01-02",
             "gregorian_era" : "正中2-01-02",
@@ -10249,6 +11326,9 @@
          "jp_era" : 1,
          "key" : "正保",
          "name" : "正保",
+         "names" : {
+            "正保" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1644-02-08",
             "gregorian_era" : "正保1-02-08",
@@ -10259,6 +11339,7 @@
             "kyuureki_era" : "正保1-01-01"
          },
          "offset" : 1643,
+         "short_name" : "正保",
          "start_day" : {
             "gregorian" : "1645-01-13",
             "gregorian_era" : "正保2-01-13",
@@ -10293,6 +11374,9 @@
          "jp_era" : 1,
          "key" : "正元",
          "name" : "正元",
+         "names" : {
+            "正元" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1259-02-01",
             "gregorian_era" : "正元1-02-01",
@@ -10303,6 +11387,7 @@
             "kyuureki_era" : "正元1-01-01"
          },
          "offset" : 1258,
+         "short_name" : "正元",
          "start_day" : {
             "gregorian" : "1259-04-27",
             "gregorian_era" : "正元1-04-27",
@@ -10337,6 +11422,9 @@
          "jp_era" : 1,
          "key" : "正和",
          "name" : "正和",
+         "names" : {
+            "正和" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1312-02-16",
             "gregorian_era" : "正和1-02-16",
@@ -10347,6 +11435,7 @@
             "kyuureki_era" : "正和1-01-01"
          },
          "offset" : 1311,
+         "short_name" : "正和",
          "start_day" : {
             "gregorian" : "1312-05-05",
             "gregorian_era" : "正和1-05-05",
@@ -10381,6 +11470,9 @@
          "jp_era" : 1,
          "key" : "正嘉",
          "name" : "正嘉",
+         "names" : {
+            "正嘉" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1257-01-24",
             "gregorian_era" : "正嘉1-01-24",
@@ -10391,6 +11483,7 @@
             "kyuureki_era" : "正嘉1-01-01"
          },
          "offset" : 1256,
+         "short_name" : "正嘉",
          "start_day" : {
             "gregorian" : "1257-04-07",
             "gregorian_era" : "正嘉1-04-07",
@@ -10425,6 +11518,9 @@
          "jp_era" : 1,
          "key" : "正安",
          "name" : "正安",
+         "names" : {
+            "正安" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1299-02-09",
             "gregorian_era" : "正安1-02-09",
@@ -10435,6 +11531,7 @@
             "kyuureki_era" : "正安1-01-01"
          },
          "offset" : 1298,
+         "short_name" : "正安",
          "start_day" : {
             "gregorian" : "1299-06-01",
             "gregorian_era" : "正安1-06-01",
@@ -10450,7 +11547,11 @@
          "jp_south_era" : 1,
          "key" : "正平",
          "name" : "正平",
+         "names" : {
+            "正平" : 1
+         },
          "offset" : 1345,
+         "short_name" : "正平",
          "south_actual_end_day" : {
             "gregorian" : "1370-08-24",
             "gregorian_era" : "正平25-08-24",
@@ -10513,6 +11614,10 @@
          "jp_era" : 1,
          "key" : "正徳",
          "name" : "正徳",
+         "names" : {
+            "正徳" : 1,
+            "正德" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1711-02-17",
             "gregorian_era" : "正徳1-02-17",
@@ -10523,6 +11628,7 @@
             "kyuureki_era" : "正徳1-01-01"
          },
          "offset" : 1710,
+         "short_name" : "正徳",
          "start_day" : {
             "gregorian" : "1711-06-11",
             "gregorian_era" : "正徳1-06-11",
@@ -10557,6 +11663,10 @@
          "jp_era" : 1,
          "key" : "正応",
          "name" : "正応",
+         "names" : {
+            "正応" : 1,
+            "正應" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1288-02-11",
             "gregorian_era" : "正応1-02-11",
@@ -10567,6 +11677,7 @@
             "kyuureki_era" : "正応1-01-01"
          },
          "offset" : 1287,
+         "short_name" : "正応",
          "start_day" : {
             "gregorian" : "1288-06-05",
             "gregorian_era" : "正応1-06-05",
@@ -10582,6 +11693,9 @@
          "jp_north_era" : 1,
          "key" : "正慶",
          "name" : "正慶",
+         "names" : {
+            "正慶" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1333-07-15",
             "gregorian_era" : "正慶2-07-15",
@@ -10620,7 +11734,8 @@
             "kyuureki_era" : "正慶1-04-28"
          },
          "north_start_year" : 1332,
-         "offset" : 1331
+         "offset" : 1331,
+         "short_name" : "正慶"
       },
       "正暦" : {
          "actual_end_day" : {
@@ -10645,6 +11760,10 @@
          "jp_era" : 1,
          "key" : "正暦",
          "name" : "正暦",
+         "names" : {
+            "正暦" : 1,
+            "正曆" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0990-02-04",
             "gregorian_era" : "正暦1-02-04",
@@ -10655,6 +11774,7 @@
             "kyuureki_era" : "正暦1-01-01"
          },
          "offset" : 989,
+         "short_name" : "正暦",
          "start_day" : {
             "gregorian" : "0990-12-01",
             "gregorian_era" : "正暦1-12-01",
@@ -10689,6 +11809,9 @@
          "jp_era" : 1,
          "key" : "正治",
          "name" : "正治",
+         "names" : {
+            "正治" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1199-02-04",
             "gregorian_era" : "正治1-02-04",
@@ -10699,6 +11822,7 @@
             "kyuureki_era" : "正治1-01-01"
          },
          "offset" : 1198,
+         "short_name" : "正治",
          "start_day" : {
             "gregorian" : "1199-05-30",
             "gregorian_era" : "正治1-05-30",
@@ -10733,6 +11857,9 @@
          "jp_era" : 1,
          "key" : "正長",
          "name" : "正長",
+         "names" : {
+            "正長" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1428-01-26",
             "gregorian_era" : "正長1-01-26",
@@ -10743,6 +11870,7 @@
             "kyuureki_era" : "正長1-01-01"
          },
          "offset" : 1427,
+         "short_name" : "正長",
          "start_day" : {
             "gregorian" : "1428-06-19",
             "gregorian_era" : "正長1-06-19",
@@ -10786,7 +11914,12 @@
          "jp_emperor_era" : 1,
          "key" : "武烈天皇",
          "name" : "武烈天皇",
+         "names" : {
+            "武烈" : 1,
+            "武烈天皇" : 1
+         },
          "offset" : 498,
+         "short_name" : "武烈",
          "start_gregorian_day" : {
             "gregorian" : "0499-01-01",
             "gregorian_era" : "武烈天皇1-01-01",
@@ -10839,6 +11972,10 @@
          "jp_era" : 1,
          "key" : "永万",
          "name" : "永万",
+         "names" : {
+            "永万" : 1,
+            "永萬" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1165-02-20",
             "gregorian_era" : "永万1-02-20",
@@ -10849,6 +11986,7 @@
             "kyuureki_era" : "永万1-01-01"
          },
          "offset" : 1164,
+         "short_name" : "永万",
          "start_day" : {
             "gregorian" : "1165-07-21",
             "gregorian_era" : "永万1-07-21",
@@ -10883,6 +12021,9 @@
          "jp_era" : 1,
          "key" : "永久",
          "name" : "永久",
+         "names" : {
+            "永久" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1113-01-27",
             "gregorian_era" : "永久1-01-27",
@@ -10893,6 +12034,7 @@
             "kyuureki_era" : "永久1-01-01"
          },
          "offset" : 1112,
+         "short_name" : "永久",
          "start_day" : {
             "gregorian" : "1113-09-01",
             "gregorian_era" : "永久1-09-01",
@@ -10927,6 +12069,9 @@
          "jp_era" : 1,
          "key" : "永享",
          "name" : "永享",
+         "names" : {
+            "永享" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1429-02-13",
             "gregorian_era" : "永享1-02-13",
@@ -10937,6 +12082,7 @@
             "kyuureki_era" : "永享1-01-01"
          },
          "offset" : 1428,
+         "short_name" : "永享",
          "start_day" : {
             "gregorian" : "1429-10-12",
             "gregorian_era" : "永享1-10-12",
@@ -10971,6 +12117,9 @@
          "jp_era" : 1,
          "key" : "永仁",
          "name" : "永仁",
+         "names" : {
+            "永仁" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1293-02-15",
             "gregorian_era" : "永仁1-02-15",
@@ -10981,6 +12130,7 @@
             "kyuureki_era" : "永仁1-01-01"
          },
          "offset" : 1292,
+         "short_name" : "永仁",
          "start_day" : {
             "gregorian" : "1293-09-13",
             "gregorian_era" : "永仁1-09-13",
@@ -11015,6 +12165,9 @@
          "jp_era" : 1,
          "key" : "永保",
          "name" : "永保",
+         "names" : {
+            "永保" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1081-02-18",
             "gregorian_era" : "永保1-02-18",
@@ -11025,6 +12178,7 @@
             "kyuureki_era" : "永保1-01-01"
          },
          "offset" : 1080,
+         "short_name" : "永保",
          "start_day" : {
             "gregorian" : "1081-03-28",
             "gregorian_era" : "永保1-03-28",
@@ -11040,6 +12194,9 @@
          "jp_north_era" : 1,
          "key" : "永和",
          "name" : "永和",
+         "names" : {
+            "永和" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1379-04-17",
             "gregorian_era" : "永和5-04-17",
@@ -11078,7 +12235,8 @@
             "kyuureki_era" : "永和1-02-27"
          },
          "north_start_year" : 1375,
-         "offset" : 1374
+         "offset" : 1374,
+         "short_name" : "永和"
       },
       "永延" : {
          "actual_end_day" : {
@@ -11103,6 +12261,9 @@
          "jp_era" : 1,
          "key" : "永延",
          "name" : "永延",
+         "names" : {
+            "永延" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0987-02-06",
             "gregorian_era" : "永延1-02-06",
@@ -11113,6 +12274,7 @@
             "kyuureki_era" : "永延1-01-01"
          },
          "offset" : 986,
+         "short_name" : "永延",
          "start_day" : {
             "gregorian" : "0987-05-10",
             "gregorian_era" : "永延1-05-10",
@@ -11128,6 +12290,10 @@
          "jp_north_era" : 1,
          "key" : "永徳",
          "name" : "永徳",
+         "names" : {
+            "永徳" : 1,
+            "永德" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1384-03-27",
             "gregorian_era" : "永徳4-03-27",
@@ -11166,7 +12332,8 @@
             "kyuureki_era" : "永徳1-02-24"
          },
          "north_start_year" : 1381,
-         "offset" : 1380
+         "offset" : 1380,
+         "short_name" : "永徳"
       },
       "永承" : {
          "actual_end_day" : {
@@ -11191,6 +12358,9 @@
          "jp_era" : 1,
          "key" : "永承",
          "name" : "永承",
+         "names" : {
+            "永承" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1046-02-15",
             "gregorian_era" : "永承1-02-15",
@@ -11201,6 +12371,7 @@
             "kyuureki_era" : "永承1-01-01"
          },
          "offset" : 1045,
+         "short_name" : "永承",
          "start_day" : {
             "gregorian" : "1046-05-28",
             "gregorian_era" : "永承1-05-28",
@@ -11235,6 +12406,10 @@
          "jp_era" : 1,
          "key" : "永暦",
          "name" : "永暦",
+         "names" : {
+            "永暦" : 1,
+            "永曆" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1160-02-16",
             "gregorian_era" : "永暦1-02-16",
@@ -11245,6 +12420,7 @@
             "kyuureki_era" : "永暦1-01-01"
          },
          "offset" : 1159,
+         "short_name" : "永暦",
          "start_day" : {
             "gregorian" : "1160-02-25",
             "gregorian_era" : "永暦1-02-25",
@@ -11279,6 +12455,9 @@
          "jp_era" : 1,
          "key" : "永正",
          "name" : "永正",
+         "names" : {
+            "永正" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1504-01-28",
             "gregorian_era" : "永正1-01-28",
@@ -11289,6 +12468,7 @@
             "kyuureki_era" : "永正1-01-01"
          },
          "offset" : 1503,
+         "short_name" : "永正",
          "start_day" : {
             "gregorian" : "1504-03-26",
             "gregorian_era" : "永正1-03-26",
@@ -11323,6 +12503,9 @@
          "jp_era" : 1,
          "key" : "永治",
          "name" : "永治",
+         "names" : {
+            "永治" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1141-02-16",
             "gregorian_era" : "永治1-02-16",
@@ -11333,6 +12516,7 @@
             "kyuureki_era" : "永治1-01-01"
          },
          "offset" : 1140,
+         "short_name" : "永治",
          "start_day" : {
             "gregorian" : "1141-08-20",
             "gregorian_era" : "永治1-08-20",
@@ -11367,6 +12551,9 @@
          "jp_era" : 1,
          "key" : "永祚",
          "name" : "永祚",
+         "names" : {
+            "永祚" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0989-02-14",
             "gregorian_era" : "永祚1-02-14",
@@ -11377,6 +12564,7 @@
             "kyuureki_era" : "永祚1-01-01"
          },
          "offset" : 988,
+         "short_name" : "永祚",
          "start_day" : {
             "gregorian" : "0989-09-15",
             "gregorian_era" : "永祚1-09-15",
@@ -11411,6 +12599,10 @@
          "jp_era" : 1,
          "key" : "永禄",
          "name" : "永禄",
+         "names" : {
+            "永祿" : 1,
+            "永禄" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1558-01-30",
             "gregorian_era" : "永禄1-01-30",
@@ -11421,6 +12613,7 @@
             "kyuureki_era" : "永禄1-01-01"
          },
          "offset" : 1557,
+         "short_name" : "永禄",
          "start_day" : {
             "gregorian" : "1558-03-28",
             "gregorian_era" : "永禄1-03-28",
@@ -11455,6 +12648,12 @@
          "jp_era" : 1,
          "key" : "永観",
          "name" : "永観",
+         "names" : {
+            "永覌" : 1,
+            "永観" : 1,
+            "永觀" : 1,
+            "永观" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0983-02-21",
             "gregorian_era" : "永観1-02-21",
@@ -11465,6 +12664,7 @@
             "kyuureki_era" : "永観1-01-01"
          },
          "offset" : 982,
+         "short_name" : "永観",
          "start_day" : {
             "gregorian" : "0983-06-03",
             "gregorian_era" : "永観1-06-03",
@@ -11499,6 +12699,9 @@
          "jp_era" : 1,
          "key" : "永長",
          "name" : "永長",
+         "names" : {
+            "永長" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1096-02-03",
             "gregorian_era" : "永長1-02-03",
@@ -11509,6 +12712,7 @@
             "kyuureki_era" : "永長1-01-01"
          },
          "offset" : 1095,
+         "short_name" : "永長",
          "start_day" : {
             "gregorian" : "1097-01-09",
             "gregorian_era" : "永長2-01-09",
@@ -11543,6 +12747,9 @@
          "jp_era" : 1,
          "key" : "治安",
          "name" : "治安",
+         "names" : {
+            "治安" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1021-02-21",
             "gregorian_era" : "治安1-02-21",
@@ -11553,6 +12760,7 @@
             "kyuureki_era" : "治安1-01-01"
          },
          "offset" : 1020,
+         "short_name" : "治安",
          "start_day" : {
             "gregorian" : "1021-03-23",
             "gregorian_era" : "治安1-03-23",
@@ -11587,6 +12795,9 @@
          "jp_era" : 1,
          "key" : "治承",
          "name" : "治承",
+         "names" : {
+            "治承" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1177-02-08",
             "gregorian_era" : "治承1-02-08",
@@ -11597,6 +12808,7 @@
             "kyuureki_era" : "治承1-01-01"
          },
          "offset" : 1176,
+         "short_name" : "治承",
          "start_day" : {
             "gregorian" : "1177-09-05",
             "gregorian_era" : "治承1-09-05",
@@ -11631,6 +12843,10 @@
          "jp_era" : 1,
          "key" : "治暦",
          "name" : "治暦",
+         "names" : {
+            "治暦" : 1,
+            "治曆" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1065-02-14",
             "gregorian_era" : "治暦1-02-14",
@@ -11641,6 +12857,7 @@
             "kyuureki_era" : "治暦1-01-01"
          },
          "offset" : 1064,
+         "short_name" : "治暦",
          "start_day" : {
             "gregorian" : "1065-09-10",
             "gregorian_era" : "治暦1-09-10",
@@ -11684,7 +12901,14 @@
          "jp_emperor_era" : 1,
          "key" : "清寧天皇",
          "name" : "清寧天皇",
+         "names" : {
+            "淸寧" : 1,
+            "淸寧天皇" : 1,
+            "清寧" : 1,
+            "清寧天皇" : 1
+         },
          "offset" : 479,
+         "short_name" : "清寧",
          "start_gregorian_day" : {
             "gregorian" : "0480-01-01",
             "gregorian_era" : "清寧天皇1-01-01",
@@ -11746,7 +12970,12 @@
          "jp_emperor_era" : 1,
          "key" : "用明天皇",
          "name" : "用明天皇",
+         "names" : {
+            "用明" : 1,
+            "用明天皇" : 1
+         },
          "offset" : 585,
+         "short_name" : "用明",
          "start_gregorian_day" : {
             "gregorian" : "0586-01-01",
             "gregorian_era" : "用明天皇1-01-01",
@@ -11808,6 +13037,9 @@
          "jp_era" : 1,
          "key" : "白雉",
          "name" : "白雉",
+         "names" : {
+            "白雉" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0650-02-10",
             "gregorian_era" : "白雉1-02-10",
@@ -11818,6 +13050,7 @@
             "kyuureki_era" : "白雉1-01-01"
          },
          "offset" : 649,
+         "short_name" : "白雉",
          "start_day" : {
             "gregorian" : "0650-03-25",
             "gregorian_era" : "白雉1-03-25",
@@ -11852,7 +13085,12 @@
          "jp_emperor_era" : 1,
          "key" : "皇極天皇",
          "name" : "皇極天皇",
+         "names" : {
+            "皇極" : 1,
+            "皇極天皇" : 1
+         },
          "offset" : 641,
+         "short_name" : "皇極",
          "start_gregorian_day" : {
             "gregorian" : "0642-01-01",
             "gregorian_era" : "皇極天皇1-01-01",
@@ -11905,6 +13143,14 @@
          "jp_era" : 1,
          "key" : "神亀",
          "name" : "神亀",
+         "names" : {
+            "神亀" : 1,
+            "神龜" : 1,
+            "神龟" : 1,
+            "神亀" : 1,
+            "神龜" : 1,
+            "神龟" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0724-02-04",
             "gregorian_era" : "神亀1-02-04",
@@ -11915,6 +13161,7 @@
             "kyuureki_era" : "神亀1-01-01"
          },
          "offset" : 723,
+         "short_name" : "神亀",
          "start_day" : {
             "gregorian" : "0724-03-07",
             "gregorian_era" : "神亀1-03-07",
@@ -11926,65 +13173,76 @@
          },
          "start_year" : 724
       },
-      "神功皇后" : {
+      "神功皇后摂政" : {
          "end_gregorian_day" : {
             "gregorian" : "0269-12-31",
-            "gregorian_era" : "神功皇后69-12-31",
+            "gregorian_era" : "神功皇后摂政69-12-31",
             "jd" : 1819674.5,
             "julian" : "0269-12-31",
-            "julian_era" : "神功皇后69-12-31",
+            "julian_era" : "神功皇后摂政69-12-31",
             "kyuureki" : "0269-11-21",
-            "kyuureki_era" : "神功皇后69-11-21"
+            "kyuureki_era" : "神功皇后摂政69-11-21"
          },
          "end_julian_day" : {
             "gregorian" : "0269-12-31",
-            "gregorian_era" : "神功皇后69-12-31",
+            "gregorian_era" : "神功皇后摂政69-12-31",
             "jd" : 1819674.5,
             "julian" : "0269-12-31",
-            "julian_era" : "神功皇后69-12-31",
+            "julian_era" : "神功皇后摂政69-12-31",
             "kyuureki" : "0269-11-21",
-            "kyuureki_era" : "神功皇后69-11-21"
+            "kyuureki_era" : "神功皇后摂政69-11-21"
          },
          "end_kyuureki_day" : {
             "gregorian" : "0270-02-07",
-            "gregorian_era" : "神功皇后70-02-07",
+            "gregorian_era" : "神功皇后摂政70-02-07",
             "jd" : 1819712.5,
             "julian" : "0270-02-07",
-            "julian_era" : "神功皇后70-02-07",
+            "julian_era" : "神功皇后摂政70-02-07",
             "kyuureki" : "0269-12-30",
-            "kyuureki_era" : "神功皇后69-12-30"
+            "kyuureki_era" : "神功皇后摂政69-12-30"
          },
          "end_year" : 269,
          "jp_emperor_era" : 1,
-         "key" : "神功皇后",
-         "name" : "神功皇后",
+         "key" : "神功皇后摂政",
+         "name" : "神功皇后摂政",
+         "names" : {
+            "神功皇后" : 1,
+            "神功皇后摂政" : 1,
+            "神功皇后摄政" : 1,
+            "神功皇后攝政" : 1,
+            "神功皇后" : 1,
+            "神功皇后摂政" : 1,
+            "神功皇后摄政" : 1,
+            "神功皇后攝政" : 1
+         },
          "offset" : 200,
+         "short_name" : "神功皇后",
          "start_gregorian_day" : {
             "gregorian" : "0201-01-01",
-            "gregorian_era" : "神功皇后1-01-01",
+            "gregorian_era" : "神功皇后摂政1-01-01",
             "jd" : 1794473.5,
             "julian" : "0201-01-01",
-            "julian_era" : "神功皇后1-01-01",
+            "julian_era" : "神功皇后摂政1-01-01",
             "kyuureki" : "0200-12-10",
-            "kyuureki_era" : "神功皇后0-12-10"
+            "kyuureki_era" : "神功皇后摂政0-12-10"
          },
          "start_julian_day" : {
             "gregorian" : "0201-01-01",
-            "gregorian_era" : "神功皇后1-01-01",
+            "gregorian_era" : "神功皇后摂政1-01-01",
             "jd" : 1794473.5,
             "julian" : "0201-01-01",
-            "julian_era" : "神功皇后1-01-01",
+            "julian_era" : "神功皇后摂政1-01-01",
             "kyuureki" : "0200-12-10",
-            "kyuureki_era" : "神功皇后0-12-10"
+            "kyuureki_era" : "神功皇后摂政0-12-10"
          },
          "start_kyuureki_day" : {
             "gregorian" : "0201-01-22",
-            "gregorian_era" : "神功皇后1-01-22",
+            "gregorian_era" : "神功皇后摂政1-01-22",
             "jd" : 1794494.5,
             "julian" : "0201-01-22",
-            "julian_era" : "神功皇后1-01-22",
+            "julian_era" : "神功皇后摂政1-01-22",
             "kyuureki" : "0201-01-01",
-            "kyuureki_era" : "神功皇后1-01-01"
+            "kyuureki_era" : "神功皇后摂政1-01-01"
          },
          "start_year" : 201
       },
@@ -12020,7 +13278,14 @@
          "jp_emperor_era" : 1,
          "key" : "神武天皇",
          "name" : "神武天皇",
+         "names" : {
+            "神武" : 1,
+            "神武天皇" : 1,
+            "神武" : 1,
+            "神武天皇" : 1
+         },
          "offset" : -660,
+         "short_name" : "神武",
          "start_gregorian_day" : {
             "gregorian" : "-0659-01-01",
             "gregorian_era" : "神武天皇1-01-01",
@@ -12073,6 +13338,10 @@
          "jp_era" : 1,
          "key" : "神護景雲",
          "name" : "神護景雲",
+         "names" : {
+            "神護景雲" : 1,
+            "神護景雲" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0767-02-08",
             "gregorian_era" : "神護景雲1-02-08",
@@ -12083,6 +13352,7 @@
             "kyuureki_era" : "神護景雲1-01-01"
          },
          "offset" : 766,
+         "short_name" : "神護景雲",
          "start_day" : {
             "gregorian" : "0767-09-17",
             "gregorian_era" : "神護景雲1-09-17",
@@ -12126,7 +13396,14 @@
          "jp_emperor_era" : 1,
          "key" : "綏靖天皇",
          "name" : "綏靖天皇",
+         "names" : {
+            "綏靖" : 1,
+            "綏靖天皇" : 1,
+            "綏靖" : 1,
+            "綏靖天皇" : 1
+         },
          "offset" : -581,
+         "short_name" : "綏靖",
          "start_gregorian_day" : {
             "gregorian" : "-0580-01-01",
             "gregorian_era" : "綏靖天皇1-01-01",
@@ -12188,7 +13465,14 @@
          "jp_emperor_era" : 1,
          "key" : "継体天皇",
          "name" : "継体天皇",
+         "names" : {
+            "継体" : 1,
+            "継体天皇" : 1,
+            "継體" : 1,
+            "継體天皇" : 1
+         },
          "offset" : 506,
+         "short_name" : "継体",
          "start_gregorian_day" : {
             "gregorian" : "0507-01-01",
             "gregorian_era" : "継体天皇1-01-01",
@@ -12222,6 +13506,10 @@
          "jp_north_era" : 1,
          "key" : "至徳",
          "name" : "至徳",
+         "names" : {
+            "至徳" : 1,
+            "至德" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1387-10-13",
             "gregorian_era" : "至徳4-10-13",
@@ -12260,13 +13548,20 @@
             "kyuureki_era" : "至徳1-02-27"
          },
          "north_start_year" : 1384,
-         "offset" : 1383
+         "offset" : 1383,
+         "short_name" : "至徳"
       },
       "興国" : {
          "jp_south_era" : 1,
          "key" : "興国",
          "name" : "興国",
+         "names" : {
+            "興囯" : 1,
+            "興国" : 1,
+            "興國" : 1
+         },
          "offset" : 1339,
+         "short_name" : "興国",
          "south_actual_end_day" : {
             "gregorian" : "1347-01-28",
             "gregorian_era" : "興国8-01-28",
@@ -12338,7 +13633,12 @@
          "jp_emperor_era" : 1,
          "key" : "舒明天皇",
          "name" : "舒明天皇",
+         "names" : {
+            "舒明" : 1,
+            "舒明天皇" : 1
+         },
          "offset" : 628,
+         "short_name" : "舒明",
          "start_gregorian_day" : {
             "gregorian" : "0629-01-01",
             "gregorian_era" : "舒明天皇1-01-01",
@@ -12372,6 +13672,16 @@
          "jp_north_era" : 1,
          "key" : "観応",
          "name" : "観応",
+         "names" : {
+            "覌応" : 1,
+            "覌應" : 1,
+            "観応" : 1,
+            "観應" : 1,
+            "觀応" : 1,
+            "觀應" : 1,
+            "观応" : 1,
+            "观應" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1352-11-12",
             "gregorian_era" : "観応3-11-12",
@@ -12410,7 +13720,8 @@
             "kyuureki_era" : "観応1-02-27"
          },
          "north_start_year" : 1350,
-         "offset" : 1349
+         "offset" : 1349,
+         "short_name" : "観応"
       },
       "貞享" : {
          "actual_end_day" : {
@@ -12435,6 +13746,10 @@
          "jp_era" : 1,
          "key" : "貞享",
          "name" : "貞享",
+         "names" : {
+            "貞享" : 1,
+            "贞享" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1684-02-16",
             "gregorian_era" : "貞享1-02-16",
@@ -12445,6 +13760,7 @@
             "kyuureki_era" : "貞享1-01-01"
          },
          "offset" : 1683,
+         "short_name" : "貞享",
          "start_day" : {
             "gregorian" : "1684-04-05",
             "gregorian_era" : "貞享1-04-05",
@@ -12479,6 +13795,10 @@
          "jp_era" : 1,
          "key" : "貞元",
          "name" : "貞元",
+         "names" : {
+            "貞元" : 1,
+            "贞元" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0976-02-08",
             "gregorian_era" : "貞元1-02-08",
@@ -12489,6 +13809,7 @@
             "kyuureki_era" : "貞元1-01-01"
          },
          "offset" : 975,
+         "short_name" : "貞元",
          "start_day" : {
             "gregorian" : "0976-08-16",
             "gregorian_era" : "貞元1-08-16",
@@ -12504,6 +13825,10 @@
          "jp_north_era" : 1,
          "key" : "貞和",
          "name" : "貞和",
+         "names" : {
+            "貞和" : 1,
+            "贞和" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1350-04-12",
             "gregorian_era" : "貞和6-04-12",
@@ -12542,7 +13867,8 @@
             "kyuureki_era" : "貞和1-10-21"
          },
          "north_start_year" : 1345,
-         "offset" : 1344
+         "offset" : 1344,
+         "short_name" : "貞和"
       },
       "貞応" : {
          "actual_end_day" : {
@@ -12567,6 +13893,12 @@
          "jp_era" : 1,
          "key" : "貞応",
          "name" : "貞応",
+         "names" : {
+            "貞応" : 1,
+            "貞應" : 1,
+            "贞応" : 1,
+            "贞應" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1222-02-20",
             "gregorian_era" : "貞応1-02-20",
@@ -12577,6 +13909,7 @@
             "kyuureki_era" : "貞応1-01-01"
          },
          "offset" : 1221,
+         "short_name" : "貞応",
          "start_day" : {
             "gregorian" : "1222-06-01",
             "gregorian_era" : "貞応1-06-01",
@@ -12611,6 +13944,10 @@
          "jp_era" : 1,
          "key" : "貞永",
          "name" : "貞永",
+         "names" : {
+            "貞永" : 1,
+            "贞永" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1232-01-31",
             "gregorian_era" : "貞永1-01-31",
@@ -12621,6 +13958,7 @@
             "kyuureki_era" : "貞永1-01-01"
          },
          "offset" : 1231,
+         "short_name" : "貞永",
          "start_day" : {
             "gregorian" : "1232-04-30",
             "gregorian_era" : "貞永1-04-30",
@@ -12636,6 +13974,10 @@
          "jp_north_era" : 1,
          "key" : "貞治",
          "name" : "貞治",
+         "names" : {
+            "貞治" : 1,
+            "贞治" : 1
+         },
          "north_actual_end_day" : {
             "gregorian" : "1368-03-15",
             "gregorian_era" : "貞治7-03-15",
@@ -12674,7 +14016,8 @@
             "kyuureki_era" : "貞治1-09-23"
          },
          "north_start_year" : 1362,
-         "offset" : 1361
+         "offset" : 1361,
+         "short_name" : "貞治"
       },
       "貞観" : {
          "actual_end_day" : {
@@ -12699,6 +14042,16 @@
          "jp_era" : 1,
          "key" : "貞観",
          "name" : "貞観",
+         "names" : {
+            "貞覌" : 1,
+            "貞観" : 1,
+            "貞觀" : 1,
+            "貞观" : 1,
+            "贞覌" : 1,
+            "贞観" : 1,
+            "贞觀" : 1,
+            "贞观" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0859-02-11",
             "gregorian_era" : "貞観1-02-11",
@@ -12709,6 +14062,7 @@
             "kyuureki_era" : "貞観1-01-01"
          },
          "offset" : 858,
+         "short_name" : "貞観",
          "start_day" : {
             "gregorian" : "0859-05-24",
             "gregorian_era" : "貞観1-05-24",
@@ -12743,6 +14097,9 @@
          "jp_era" : 1,
          "key" : "長久",
          "name" : "長久",
+         "names" : {
+            "長久" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1040-02-21",
             "gregorian_era" : "長久1-02-21",
@@ -12753,6 +14110,7 @@
             "kyuureki_era" : "長久1-01-01"
          },
          "offset" : 1039,
+         "short_name" : "長久",
          "start_day" : {
             "gregorian" : "1040-12-22",
             "gregorian_era" : "長久1-12-22",
@@ -12787,6 +14145,9 @@
          "jp_era" : 1,
          "key" : "長享",
          "name" : "長享",
+         "names" : {
+            "長享" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1487-02-03",
             "gregorian_era" : "長享1-02-03",
@@ -12797,6 +14158,7 @@
             "kyuureki_era" : "長享1-01-01"
          },
          "offset" : 1486,
+         "short_name" : "長享",
          "start_day" : {
             "gregorian" : "1487-08-18",
             "gregorian_era" : "長享1-08-18",
@@ -12831,6 +14193,9 @@
          "jp_era" : 1,
          "key" : "長保",
          "name" : "長保",
+         "names" : {
+            "長保" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0999-01-25",
             "gregorian_era" : "長保1-01-25",
@@ -12841,6 +14206,7 @@
             "kyuureki_era" : "長保1-01-01"
          },
          "offset" : 998,
+         "short_name" : "長保",
          "start_day" : {
             "gregorian" : "0999-02-06",
             "gregorian_era" : "長保1-02-06",
@@ -12875,6 +14241,9 @@
          "jp_era" : 1,
          "key" : "長元",
          "name" : "長元",
+         "names" : {
+            "長元" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1028-02-05",
             "gregorian_era" : "長元1-02-05",
@@ -12885,6 +14254,7 @@
             "kyuureki_era" : "長元1-01-01"
          },
          "offset" : 1027,
+         "short_name" : "長元",
          "start_day" : {
             "gregorian" : "1028-08-24",
             "gregorian_era" : "長元1-08-24",
@@ -12919,6 +14289,9 @@
          "jp_era" : 1,
          "key" : "長和",
          "name" : "長和",
+         "names" : {
+            "長和" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1012-02-01",
             "gregorian_era" : "長和1-02-01",
@@ -12929,6 +14302,7 @@
             "kyuureki_era" : "長和1-01-01"
          },
          "offset" : 1011,
+         "short_name" : "長和",
          "start_day" : {
             "gregorian" : "1013-02-14",
             "gregorian_era" : "長和2-02-14",
@@ -12963,6 +14337,10 @@
          "jp_era" : 1,
          "key" : "長寛",
          "name" : "長寛",
+         "names" : {
+            "長寛" : 1,
+            "長寬" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1163-02-12",
             "gregorian_era" : "長寛1-02-12",
@@ -12973,6 +14351,7 @@
             "kyuureki_era" : "長寛1-01-01"
          },
          "offset" : 1162,
+         "short_name" : "長寛",
          "start_day" : {
             "gregorian" : "1163-05-11",
             "gregorian_era" : "長寛1-05-11",
@@ -13007,6 +14386,10 @@
          "jp_era" : 1,
          "key" : "長徳",
          "name" : "長徳",
+         "names" : {
+            "長徳" : 1,
+            "長德" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0995-02-08",
             "gregorian_era" : "長徳1-02-08",
@@ -13017,6 +14400,7 @@
             "kyuureki_era" : "長徳1-01-01"
          },
          "offset" : 994,
+         "short_name" : "長徳",
          "start_day" : {
             "gregorian" : "0995-03-30",
             "gregorian_era" : "長徳1-03-30",
@@ -13051,6 +14435,9 @@
          "jp_era" : 1,
          "key" : "長承",
          "name" : "長承",
+         "names" : {
+            "長承" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1132-01-27",
             "gregorian_era" : "長承1-01-27",
@@ -13061,6 +14448,7 @@
             "kyuureki_era" : "長承1-01-01"
          },
          "offset" : 1131,
+         "short_name" : "長承",
          "start_day" : {
             "gregorian" : "1132-09-28",
             "gregorian_era" : "長承1-09-28",
@@ -13095,6 +14483,10 @@
          "jp_era" : 1,
          "key" : "長暦",
          "name" : "長暦",
+         "names" : {
+            "長暦" : 1,
+            "長曆" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1037-01-25",
             "gregorian_era" : "長暦1-01-25",
@@ -13105,6 +14497,7 @@
             "kyuureki_era" : "長暦1-01-01"
          },
          "offset" : 1036,
+         "short_name" : "長暦",
          "start_day" : {
             "gregorian" : "1037-05-15",
             "gregorian_era" : "長暦1-05-15",
@@ -13139,6 +14532,9 @@
          "jp_era" : 1,
          "key" : "長治",
          "name" : "長治",
+         "names" : {
+            "長治" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1104-02-06",
             "gregorian_era" : "長治1-02-06",
@@ -13149,6 +14545,7 @@
             "kyuureki_era" : "長治1-01-01"
          },
          "offset" : 1103,
+         "short_name" : "長治",
          "start_day" : {
             "gregorian" : "1104-03-15",
             "gregorian_era" : "長治1-03-15",
@@ -13183,6 +14580,10 @@
          "jp_era" : 1,
          "key" : "長禄",
          "name" : "長禄",
+         "names" : {
+            "長祿" : 1,
+            "長禄" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1457-02-04",
             "gregorian_era" : "長禄1-02-04",
@@ -13193,6 +14594,7 @@
             "kyuureki_era" : "長禄1-01-01"
          },
          "offset" : 1456,
+         "short_name" : "長禄",
          "start_day" : {
             "gregorian" : "1457-10-25",
             "gregorian_era" : "長禄1-10-25",
@@ -13236,7 +14638,12 @@
          "jp_emperor_era" : 1,
          "key" : "開化天皇",
          "name" : "開化天皇",
+         "names" : {
+            "開化" : 1,
+            "開化天皇" : 1
+         },
          "offset" : -157,
+         "short_name" : "開化",
          "start_gregorian_day" : {
             "gregorian" : "-0156-01-01",
             "gregorian_era" : "開化天皇1-01-01",
@@ -13298,7 +14705,12 @@
          "jp_emperor_era" : 1,
          "key" : "雄略天皇",
          "name" : "雄略天皇",
+         "names" : {
+            "雄略" : 1,
+            "雄略天皇" : 1
+         },
          "offset" : 456,
+         "short_name" : "雄略",
          "start_gregorian_day" : {
             "gregorian" : "0457-01-01",
             "gregorian_era" : "雄略天皇1-01-01",
@@ -13351,6 +14763,11 @@
          "jp_era" : 1,
          "key" : "霊亀",
          "name" : "霊亀",
+         "names" : {
+            "霊亀" : 1,
+            "霊龜" : 1,
+            "霊龟" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0715-02-13",
             "gregorian_era" : "霊亀1-02-13",
@@ -13361,6 +14778,7 @@
             "kyuureki_era" : "霊亀1-01-01"
          },
          "offset" : 714,
+         "short_name" : "霊亀",
          "start_day" : {
             "gregorian" : "0715-10-07",
             "gregorian_era" : "霊亀1-10-07",
@@ -13404,7 +14822,12 @@
          "jp_emperor_era" : 1,
          "key" : "顕宗天皇",
          "name" : "顕宗天皇",
+         "names" : {
+            "顕宗" : 1,
+            "顕宗天皇" : 1
+         },
          "offset" : 484,
+         "short_name" : "顕宗",
          "start_gregorian_day" : {
             "gregorian" : "0485-01-01",
             "gregorian_era" : "顕宗天皇1-01-01",
@@ -13457,6 +14880,9 @@
          "jp_era" : 1,
          "key" : "養和",
          "name" : "養和",
+         "names" : {
+            "養和" : 1
+         },
          "official_start_day" : {
             "gregorian" : "1181-01-24",
             "gregorian_era" : "養和1-01-24",
@@ -13467,6 +14893,7 @@
             "kyuureki_era" : "養和1-01-01"
          },
          "offset" : 1180,
+         "short_name" : "養和",
          "start_day" : {
             "gregorian" : "1181-09-01",
             "gregorian_era" : "養和1-09-01",
@@ -13501,6 +14928,9 @@
          "jp_era" : 1,
          "key" : "養老",
          "name" : "養老",
+         "names" : {
+            "養老" : 1
+         },
          "official_start_day" : {
             "gregorian" : "0717-02-20",
             "gregorian_era" : "養老1-02-20",
@@ -13511,6 +14941,7 @@
             "kyuureki_era" : "養老1-01-01"
          },
          "offset" : 716,
+         "short_name" : "養老",
          "start_day" : {
             "gregorian" : "0717-12-28",
             "gregorian_era" : "養老1-12-28",

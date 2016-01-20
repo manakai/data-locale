@@ -107,7 +107,7 @@ local/era-defs-dates.json: bin/generate-era-defs-dates.pl \
 	$(PERL) $< > $@
 data/calendar/era-defs.json: bin/era-defs.pl \
     local/era-defs-jp.json local/era-defs-jp-emperor.json \
-    local/era-defs-dates.json
+    local/era-defs-dates.json src/char-variants.txt
 	$(PERL) $< > $@
 
 local/era-chars.json: bin/generate-era-chars.pl \
