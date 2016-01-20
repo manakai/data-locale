@@ -92,7 +92,7 @@ src/eras/wp-jp-era-sets.txt: bin/generate-wp-jp-era-sets.pl \
 src/eras/jp-emperor-era-sets.txt: bin/generate-jp-emperor-eras-sets.pl \
     src/jp-emperor-eras.txt
 	$(PERL) $< > $@
-local/era-defs-jp.json: bin/era-defs-jp.pl \
+local/era-defs-jp.json: bin/generate-era-defs-jp.pl \
     local/wp-jp-eras-parsed.json data/calendar/kyuureki-map.txt
 	$(PERL) $< > $@
 local/era-defs-jp-emperor.json: bin/generate-jp-emperor-eras-defs.pl \
@@ -105,7 +105,7 @@ local/era-defs-dates.json: bin/generate-era-defs-dates.pl \
     data/calendar/era-systems.json local/era-defs-jp.json \
     local/era-defs-jp-emperor.json
 	$(PERL) $< > $@
-data/calendar/era-defs.json: bin/era-defs.pl \
+data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     local/era-defs-jp.json local/era-defs-jp-emperor.json \
     local/era-defs-dates.json src/char-variants.txt
 	$(PERL) $< > $@
