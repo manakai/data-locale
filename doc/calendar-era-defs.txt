@@ -152,6 +152,22 @@ The file contains a JSON object with following name/value pair:
         A shorter name of the era, omitting common suffixes (e.g. "神武"
         for name "神武天皇"), if any, or same value as |name|.
 
+      sources
+
+        A JSON array of the authoritative or definitive sources of the
+        era, if known.  The items of the array represent the sources,
+        as JSON objects with following name/value pairs:
+
+          title [string?]
+
+            The title of the source document.  Note that it might or
+            might not be the official title (There might not be any
+            official title of the document).
+
+          url [string]
+
+            The URL of the source document.
+
       wref_en [string?]
 
         A Wikipedia reference
@@ -199,10 +215,11 @@ The file contains a JSON object with following name/value pair:
         represented in other format is converted into the era-based
         format (according to the era system "jp" for |jp_era| eras).
 
-        If the start is defined in terms of day and the "official"
-        start day is known, |official_start_day| is set to that day.
+        If the start is defined in terms of day and there is an
+        "official" start day, |official_start_day| is set to that day.
         It can be different from the |start_day| if the era was
-        defined after its actual start day.
+        defined after its actual start day.  See also
+        <https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7#anchor-159>.
 
         If the end is defined in terms of day, |actual_end_day| is set
         to that day.  It can be different from the |end_day| if a new
@@ -230,6 +247,11 @@ The file contains a JSON object with following name/value pair:
 
         For values with type [day], the parameter /era/ is set to the
         era.
+
+* See also
+
+If you are trying to implement AD to 元号 conversions, see also
+|doc/calendar-era-systems.txt|.
 
 * Sources
 

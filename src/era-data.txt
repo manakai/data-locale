@@ -1,0 +1,92 @@
+[明治]
+
+source
+  title:今後年號ハ御一代一號ニ定メ慶應四年ヲ改テ明治元年ト爲ス及詔書(明治元年9月8日行政官布告)
+  url:https://ja.wikisource.org/wiki/%E4%BB%8A%E5%BE%8C%E5%B9%B4%E8%99%9F%E3%83%8F%E5%BE%A1%E4%B8%80%E4%BB%A3%E4%B8%80%E8%99%9F%E3%83%8B%E5%AE%9A%E3%83%A1%E6%85%B6%E6%87%89%E5%9B%9B%E5%B9%B4%E3%83%B2%E6%94%B9%E3%83%86%E6%98%8E%E6%B2%BB%E5%85%83%E5%B9%B4%E3%83%88%E7%88%B2%E3%82%B9%E5%8F%8A%E8%A9%94%E6%9B%B8
+
+[大正]
+
+source
+  title:明治四十五年七月三十日以後ヲ改メテ大正元年ト爲ス
+  url:https://ja.wikisource.org/wiki/%E6%98%8E%E6%B2%BB%E5%9B%9B%E5%8D%81%E4%BA%94%E5%B9%B4%E4%B8%83%E6%9C%88%E4%B8%89%E5%8D%81%E6%97%A5%E4%BB%A5%E5%BE%8C%E3%83%B2%E6%94%B9%E3%83%A1%E3%83%86%E5%A4%A7%E6%AD%A3%E5%85%83%E5%B9%B4%E3%83%88%E7%88%B2%E3%82%B9
+source
+  title:元號ノ稱呼(大正元年七月三十日内閣告示第一號)
+  url:https://wiki.suikawiki.org/n/%E5%A4%A7%E6%AD%A3#anchor-12
+
+[昭和]
+
+source
+  title:昭和ト改元(大正15年12月25日詔書)
+  url:https://ja.wikisource.org/wiki/%E6%98%AD%E5%92%8C%E3%83%88%E6%94%B9%E5%85%83
+source
+  title:元號ヲ昭和ト稱呼(昭和元年12月25日内閣告示第1号)
+  url:https://ja.wikisource.org/wiki/%E5%85%83%E8%99%9F%E3%83%B2%E6%98%AD%E5%92%8C%E3%83%88%E7%A8%B1%E5%91%BC
+source
+  title:元号法(昭和五十四年六月十二日法律第四十三号)
+  url:http://law.e-gov.go.jp/htmldata/S54/S54HO043.html
+
+[平成]
+
+source
+  title:元号を改める政令(昭和六十四年一月七日政令第一号)
+  url:http://law.e-gov.go.jp/htmldata/S64/S64SE001.html
+source
+  title:元号を改める政令の規定により定められた元号の読み方(昭和六十四年内閣告示第六号)
+  url:http://www.mext.go.jp/b_menu/hakusho/nc/k19890107001/k19890107001.html
+#  title:元号の読み方に関する件(昭和64年1月7日内閣告示第6号)
+#  url:https://ja.wikisource.org/wiki/%E5%85%83%E5%8F%B7%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E4%BB%B6
+
+[応徳]
+source
+  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
+[建久]
+source
+  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
+[康応]
+source
+  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
+[康正]
+source
+  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
+[長享]
+source
+  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
+[延徳]
+source
+  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
+[明応]
+source
+  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
+[大永]
+source
+  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
+[天正]
+source
+  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
+[元和]
+source
+  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
+[慶安]
+source
+  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
+[承応]
+source
+  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
+[明暦]
+source
+  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
+[宝永]
+source
+  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
+[正徳]
+source
+  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
+[元慶]
+source
+  url:http://d.hatena.ne.jp/hakuriku/20070701#gangyo
+[永観]
+source
+  url:http://d.hatena.ne.jp/hakuriku/20070701#eikan
+[慶応]
+source
+  url:http://d.hatena.ne.jp/hakuriku/20070701#keo

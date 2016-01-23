@@ -1624,6 +1624,11 @@
          },
          "offset" : 1614,
          "short_name" : "元和",
+         "sources" : [
+            {
+               "url" : "http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1615-09-05",
             "gregorian_era" : "元和1-09-05",
@@ -1924,6 +1929,11 @@
          },
          "offset" : 876,
          "short_name" : "元慶",
+         "sources" : [
+            {
+               "url" : "http://d.hatena.ne.jp/hakuriku/20070701#gangyo"
+            }
+         ],
          "start_day" : {
             "gregorian" : "0877-06-05",
             "gregorian_era" : "元慶1-06-05",
@@ -2651,7 +2661,8 @@
          },
          "name_latn" : "Kajō",
          "names" : {
-            "嘉承" : 1
+            "嘉承" : 1,
+            "嘉𣴎" : 1
          },
          "official_start_day" : {
             "gregorian" : "1106-02-13",
@@ -3247,6 +3258,16 @@
          },
          "offset" : 1911,
          "short_name" : "大正",
+         "sources" : [
+            {
+               "title" : "明治四十五年七月三十日以後ヲ改メテ大正元年ト爲ス",
+               "url" : "https://ja.wikisource.org/wiki/%E6%98%8E%E6%B2%BB%E5%9B%9B%E5%8D%81%E4%BA%94%E5%B9%B4%E4%B8%83%E6%9C%88%E4%B8%89%E5%8D%81%E6%97%A5%E4%BB%A5%E5%BE%8C%E3%83%B2%E6%94%B9%E3%83%A1%E3%83%86%E5%A4%A7%E6%AD%A3%E5%85%83%E5%B9%B4%E3%83%88%E7%88%B2%E3%82%B9"
+            },
+            {
+               "title" : "元號ノ稱呼(大正元年七月三十日内閣告示第一號)",
+               "url" : "https://wiki.suikawiki.org/n/%E5%A4%A7%E6%AD%A3#anchor-12"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1912-07-30",
             "gregorian_era" : "大正1-07-30",
@@ -3302,6 +3323,11 @@
          },
          "offset" : 1520,
          "short_name" : "大永",
+         "sources" : [
+            {
+               "url" : "http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1521-10-03",
             "gregorian_era" : "大永1-10-03",
@@ -4238,7 +4264,8 @@
          },
          "name_latn" : "Tenshō",
          "names" : {
-            "天承" : 1
+            "天承" : 1,
+            "天𣴎" : 1
          },
          "official_start_day" : {
             "gregorian" : "1131-02-07",
@@ -4601,6 +4628,11 @@
          },
          "offset" : 1572,
          "short_name" : "天正",
+         "sources" : [
+            {
+               "url" : "http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1573-09-04",
             "gregorian_era" : "天正1-09-04",
@@ -6052,6 +6084,11 @@
          },
          "offset" : 1703,
          "short_name" : "宝永",
+         "sources" : [
+            {
+               "url" : "http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1704-04-16",
             "gregorian_era" : "宝永1-04-16",
@@ -7295,6 +7332,16 @@
          },
          "offset" : 1988,
          "short_name" : "平成",
+         "sources" : [
+            {
+               "title" : "元号を改める政令(昭和六十四年一月七日政令第一号)",
+               "url" : "http://law.e-gov.go.jp/htmldata/S64/S64SE001.html"
+            },
+            {
+               "title" : "元号を改める政令の規定により定められた元号の読み方(昭和六十四年内閣告示第六号)",
+               "url" : "http://www.mext.go.jp/b_menu/hakusho/nc/k19890107001/k19890107001.html"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1989-01-08",
             "gregorian_era" : "平成1-01-08",
@@ -7691,6 +7738,11 @@
          "north_start_year" : 1389,
          "offset" : 1388,
          "short_name" : "康応",
+         "sources" : [
+            {
+               "url" : "http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html"
+            }
+         ],
          "wref_en" : "Kōō_(Nanboku-chō_period)",
          "wref_ja" : "康応"
       },
@@ -7792,6 +7844,11 @@
          },
          "offset" : 1454,
          "short_name" : "康正",
+         "sources" : [
+            {
+               "url" : "http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1455-09-15",
             "gregorian_era" : "康正1-09-15",
@@ -8235,6 +8292,11 @@
          },
          "offset" : 1488,
          "short_name" : "延徳",
+         "sources" : [
+            {
+               "url" : "http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1489-09-25",
             "gregorian_era" : "延徳1-09-25",
@@ -8567,6 +8629,11 @@
          },
          "offset" : 1189,
          "short_name" : "建久",
+         "sources" : [
+            {
+               "url" : "http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1190-05-23",
             "gregorian_era" : "建久1-05-23",
@@ -9734,6 +9801,11 @@
          },
          "offset" : 1083,
          "short_name" : "応徳",
+         "sources" : [
+            {
+               "url" : "http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1084-03-21",
             "gregorian_era" : "応徳1-03-21",
@@ -9981,6 +10053,11 @@
          },
          "offset" : 1647,
          "short_name" : "慶安",
+         "sources" : [
+            {
+               "url" : "http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1648-04-07",
             "gregorian_era" : "慶安1-04-07",
@@ -10039,6 +10116,11 @@
          },
          "offset" : 1864,
          "short_name" : "慶応",
+         "sources" : [
+            {
+               "url" : "http://d.hatena.ne.jp/hakuriku/20070701#keo"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1865-05-01",
             "gregorian_era" : "慶応1-05-01",
@@ -10342,7 +10424,8 @@
          },
          "name_latn" : "Jōkyū",
          "names" : {
-            "承久" : 1
+            "承久" : 1,
+            "𣴎久" : 1
          },
          "official_start_day" : {
             "gregorian" : "1219-01-25",
@@ -10398,7 +10481,8 @@
          },
          "name_latn" : "Jōhō",
          "names" : {
-            "承保" : 1
+            "承保" : 1,
+            "𣴎保" : 1
          },
          "official_start_day" : {
             "gregorian" : "1074-02-05",
@@ -10453,7 +10537,8 @@
          },
          "name_latn" : "Jōgen",
          "names" : {
-            "承元" : 1
+            "承元" : 1,
+            "𣴎元" : 1
          },
          "official_start_day" : {
             "gregorian" : "1207-02-06",
@@ -10509,7 +10594,8 @@
          },
          "name_latn" : "Jōwa",
          "names" : {
-            "承和" : 1
+            "承和" : 1,
+            "𣴎和" : 1
          },
          "official_start_day" : {
             "gregorian" : "0834-02-16",
@@ -10564,7 +10650,8 @@
          },
          "name_latn" : "Jōan",
          "names" : {
-            "承安" : 1
+            "承安" : 1,
+            "𣴎安" : 1
          },
          "official_start_day" : {
             "gregorian" : "1171-02-14",
@@ -10620,7 +10707,8 @@
          },
          "name_latn" : "Jōhei",
          "names" : {
-            "承平" : 1
+            "承平" : 1,
+            "𣴎平" : 1
          },
          "official_start_day" : {
             "gregorian" : "0931-01-27",
@@ -10677,7 +10765,9 @@
          "name_latn" : "Jōtoku",
          "names" : {
             "承徳" : 1,
-            "承德" : 1
+            "承德" : 1,
+            "𣴎徳" : 1,
+            "𣴎德" : 1
          },
          "official_start_day" : {
             "gregorian" : "1097-01-22",
@@ -10733,7 +10823,9 @@
          "name_latn" : "Jōō",
          "names" : {
             "承応" : 1,
-            "承應" : 1
+            "承應" : 1,
+            "𣴎応" : 1,
+            "𣴎應" : 1
          },
          "official_start_day" : {
             "gregorian" : "1652-02-10",
@@ -10746,6 +10838,11 @@
          },
          "offset" : 1651,
          "short_name" : "承応",
+         "sources" : [
+            {
+               "url" : "http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1652-10-20",
             "gregorian_era" : "承応1-10-20",
@@ -10790,7 +10887,9 @@
          "name_latn" : "Jōryaku",
          "names" : {
             "承暦" : 1,
-            "承曆" : 1
+            "承曆" : 1,
+            "𣴎暦" : 1,
+            "𣴎曆" : 1
          },
          "official_start_day" : {
             "gregorian" : "1077-02-02",
@@ -12295,6 +12394,11 @@
          },
          "offset" : 1491,
          "short_name" : "明応",
+         "sources" : [
+            {
+               "url" : "http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1492-08-21",
             "gregorian_era" : "明応1-08-21",
@@ -12351,6 +12455,11 @@
          },
          "offset" : 1654,
          "short_name" : "明暦",
+         "sources" : [
+            {
+               "url" : "http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1655-05-18",
             "gregorian_era" : "明暦1-05-18",
@@ -12412,6 +12521,12 @@
          },
          "offset" : 1867,
          "short_name" : "明治",
+         "sources" : [
+            {
+               "title" : "今後年號ハ御一代一號ニ定メ慶應四年ヲ改テ明治元年ト爲ス及詔書(明治元年9月8日行政官布告)",
+               "url" : "https://ja.wikisource.org/wiki/%E4%BB%8A%E5%BE%8C%E5%B9%B4%E8%99%9F%E3%83%8F%E5%BE%A1%E4%B8%80%E4%BB%A3%E4%B8%80%E8%99%9F%E3%83%8B%E5%AE%9A%E3%83%A1%E6%85%B6%E6%87%89%E5%9B%9B%E5%B9%B4%E3%83%B2%E6%94%B9%E3%83%86%E6%98%8E%E6%B2%BB%E5%85%83%E5%B9%B4%E3%83%88%E7%88%B2%E3%82%B9%E5%8F%8A%E8%A9%94%E6%9B%B8"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1868-10-23",
             "gregorian_era" : "明治1-10-23",
@@ -12473,6 +12588,20 @@
          },
          "offset" : 1925,
          "short_name" : "昭和",
+         "sources" : [
+            {
+               "title" : "昭和ト改元(大正15年12月25日詔書)",
+               "url" : "https://ja.wikisource.org/wiki/%E6%98%AD%E5%92%8C%E3%83%88%E6%94%B9%E5%85%83"
+            },
+            {
+               "title" : "元號ヲ昭和ト稱呼(昭和元年12月25日内閣告示第1号)",
+               "url" : "https://ja.wikisource.org/wiki/%E5%85%83%E8%99%9F%E3%83%B2%E6%98%AD%E5%92%8C%E3%83%88%E7%A8%B1%E5%91%BC"
+            },
+            {
+               "title" : "元号法(昭和五十四年六月十二日法律第四十三号)",
+               "url" : "http://law.e-gov.go.jp/htmldata/S54/S54HO043.html"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1926-12-25",
             "gregorian_era" : "昭和1-12-25",
@@ -13243,6 +13372,11 @@
          },
          "offset" : 1710,
          "short_name" : "正徳",
+         "sources" : [
+            {
+               "url" : "http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1711-06-11",
             "gregorian_era" : "正徳1-06-11",
@@ -14080,7 +14214,8 @@
          },
          "name_latn" : "Eishō",
          "names" : {
-            "永承" : 1
+            "永承" : 1,
+            "永𣴎" : 1
          },
          "official_start_day" : {
             "gregorian" : "1046-02-15",
@@ -14428,6 +14563,11 @@
          },
          "offset" : 982,
          "short_name" : "永観",
+         "sources" : [
+            {
+               "url" : "http://d.hatena.ne.jp/hakuriku/20070701#eikan"
+            }
+         ],
          "start_day" : {
             "gregorian" : "0983-06-03",
             "gregorian_era" : "永観1-06-03",
@@ -14580,7 +14720,8 @@
          },
          "name_latn" : "Jishō",
          "names" : {
-            "治承" : 1
+            "治承" : 1,
+            "治𣴎" : 1
          },
          "official_start_day" : {
             "gregorian" : "1177-02-08",
@@ -16118,6 +16259,11 @@
          },
          "offset" : 1486,
          "short_name" : "長享",
+         "sources" : [
+            {
+               "url" : "http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html"
+            }
+         ],
          "start_day" : {
             "gregorian" : "1487-08-18",
             "gregorian_era" : "長享1-08-18",
@@ -16437,7 +16583,8 @@
          },
          "name_latn" : "Chōshō",
          "names" : {
-            "長承" : 1
+            "長承" : 1,
+            "長𣴎" : 1
          },
          "official_start_day" : {
             "gregorian" : "1132-01-27",

@@ -57,6 +57,10 @@ There are following era systems described in this data file:
     The era system traditionally used in the 関東 area of Japan,
     including Tokyo and Kamakura.
 
+* See also
+
+See |doc/calendar-era-defs.txt|.
+
 * Sources
 
 Wikipedia (ja):元号一覧 (日本)

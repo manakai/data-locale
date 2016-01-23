@@ -131,6 +131,28 @@ for my $era (values %{$Data->{eras}}) {
   $era->{names}->{lc $era->{abbr_latn}} = 1 if defined $era->{abbr_latn};
 }
 
+{
+  my $path = $root_path->child ('src/era-data.txt');
+  my $key;
+  my $prop;
+  for (split /\x0D?\x0A/, $path->slurp_utf8) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^\[(.+)\]$/) {
+      $key = $1;
+      die "Bad key |$key|" unless $Data->{eras}->{$key};
+      undef $prop;
+    } elsif (defined $key and /^(source)$/) {
+      push @{$Data->{eras}->{$key}->{sources} ||= []}, $prop = {};
+    } elsif (defined $prop and ref $prop eq 'HASH' and
+             /^  (title|url):(.+)$/) {
+      $prop->{$1} = $2;
+    } elsif (/\S/) {
+      die "Bad line |$_|";
+    }
+  }
+}
+
 print perl2json_bytes_for_record $Data;
 
 ## License: Public Domain.
