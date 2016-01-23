@@ -153,6 +153,22 @@ for my $era (values %{$Data->{eras}}) {
   }
 }
 
+{
+  my $path = $root_path->child ('src/era-yomi.txt');
+  my $key;
+  my $prop;
+  for (split /\x0D?\x0A/, $path->slurp_utf8) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^(\S+)\s+(\S+)$/) {
+      die "Bad key |$1|" unless $Data->{eras}->{$1};
+      $Data->{eras}->{$1}->{name_kanas}->{$2} = 1;
+    } elsif (/\S/) {
+      die "Bad line |$_|";
+    }
+  }
+}
+
 print perl2json_bytes_for_record $Data;
 
 ## License: Public Domain.

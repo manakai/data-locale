@@ -116,7 +116,7 @@ local/era-defs-dates.json: bin/generate-era-defs-dates.pl \
 data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     local/era-defs-jp.json local/era-defs-jp-emperor.json \
     local/era-defs-dates.json src/char-variants.txt \
-    src/wp-jp-eras-en.json src/era-data.txt
+    src/wp-jp-eras-en.json src/era-data.txt src/era-yomi.txt
 	$(PERL) $< > $@
 
 local/era-chars.json: bin/generate-era-chars.pl \
