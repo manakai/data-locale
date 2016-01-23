@@ -172,6 +172,15 @@
          "wref_en" : "Manji_(era)",
          "wref_ja" : "万治"
       },
+      "中元" : {
+         "jp_private_era" : 1,
+         "key" : "中元",
+         "name" : "中元",
+         "names" : {
+            "中元" : 1
+         },
+         "offset" : 661
+      },
       "久安" : {
          "actual_end_day" : {
             "gregorian" : "1151-02-21",
@@ -226,6 +235,17 @@
          "start_year" : 1145,
          "wref_en" : "Kyūan",
          "wref_ja" : "久安"
+      },
+      "久宝" : {
+         "jp_private_era" : 1,
+         "key" : "久宝",
+         "name" : "久宝",
+         "names" : {
+            "久宝" : 1,
+            "久寳" : 1,
+            "久寶" : 1
+         },
+         "offset" : 1833
       },
       "久寿" : {
          "actual_end_day" : {
@@ -507,6 +527,15 @@
          "wref_en" : "Kyōtoku",
          "wref_ja" : "享徳"
       },
+      "享正" : {
+         "jp_private_era" : 1,
+         "key" : "享正",
+         "name" : "享正",
+         "names" : {
+            "享正" : 1
+         },
+         "offset" : 1454
+      },
       "享禄" : {
          "actual_end_day" : {
             "gregorian" : "1532-09-08",
@@ -562,6 +591,15 @@
          "start_year" : 1528,
          "wref_en" : "Kyōroku",
          "wref_ja" : "享禄"
+      },
+      "享高" : {
+         "jp_private_era" : 1,
+         "key" : "享高",
+         "name" : "享高",
+         "names" : {
+            "享高" : 1
+         },
+         "offset" : 1451
       },
       "仁和" : {
          "actual_end_day" : {
@@ -924,6 +962,15 @@
          "wref_en" : "Ninji",
          "wref_ja" : "仁治"
       },
+      "仁王" : {
+         "jp_private_era" : 1,
+         "key" : "仁王",
+         "name" : "仁王",
+         "names" : {
+            "仁王" : 1
+         },
+         "offset" : 622
+      },
       "仁賢天皇" : {
          "end_gregorian_day" : {
             "gregorian" : "0498-12-31",
@@ -1184,6 +1231,16 @@
          "wref_en" : "Hōan",
          "wref_ja" : "保安_(元号)"
       },
+      "保寿" : {
+         "jp_private_era" : 1,
+         "key" : "保寿",
+         "name" : "保寿",
+         "names" : {
+            "保壽" : 1,
+            "保夀" : 1,
+            "保寿" : 1
+         }
+      },
       "保延" : {
          "actual_end_day" : {
             "gregorian" : "1141-08-20",
@@ -1238,6 +1295,40 @@
          "start_year" : 1135,
          "wref_en" : "Hōen",
          "wref_ja" : "保延"
+      },
+      "倭京縄" : {
+         "jp_private_era" : 1,
+         "key" : "倭京縄",
+         "name" : "倭京縄",
+         "names" : {
+            "倭京" : 1,
+            "倭京縄" : 1,
+            "和京" : 1,
+            "景縄" : 1,
+            "見縄" : 1
+         },
+         "offset" : 617
+      },
+      "僧聴" : {
+         "jp_private_era" : 1,
+         "key" : "僧聴",
+         "name" : "僧聴",
+         "names" : {
+            "僧徳" : 1,
+            "僧德" : 1,
+            "僧聴" : 1
+         },
+         "offset" : 534
+      },
+      "僧要" : {
+         "jp_private_era" : 1,
+         "key" : "僧要",
+         "name" : "僧要",
+         "names" : {
+            "僧安" : 1,
+            "僧要" : 1
+         },
+         "offset" : 634
       },
       "允恭天皇" : {
          "end_gregorian_day" : {
@@ -2180,6 +2271,14 @@
          "wref_en" : "Genji_(era)",
          "wref_ja" : "元治"
       },
+      "元真" : {
+         "jp_private_era" : 1,
+         "key" : "元真",
+         "name" : "元真",
+         "names" : {
+            "元真" : 1
+         }
+      },
       "元禄" : {
          "actual_end_day" : {
             "gregorian" : "1704-04-16",
@@ -2235,6 +2334,75 @@
          "start_year" : 1688,
          "wref_en" : "Genroku",
          "wref_ja" : "元禄"
+      },
+      "元禾" : {
+         "jp_private_era" : 1,
+         "key" : "元禾",
+         "name" : "元禾",
+         "names" : {
+            "元禾" : 1
+         }
+      },
+      "兄弟" : {
+         "jp_private_era" : 1,
+         "key" : "兄弟",
+         "name" : "兄弟",
+         "names" : {
+            "兄弟" : 1,
+            "兄弟和" : 1
+         },
+         "offset" : 556
+      },
+      "光充" : {
+         "jp_private_era" : 1,
+         "key" : "光充",
+         "name" : "光充",
+         "names" : {
+            "光元" : 1,
+            "光充" : 1,
+            "光弘" : 1,
+            "弘元" : 1
+         },
+         "offset" : 604
+      },
+      "光永" : {
+         "jp_private_era" : 1,
+         "key" : "光永",
+         "name" : "光永",
+         "names" : {
+            "光永" : 1
+         },
+         "offset" : 1575
+      },
+      "列滴" : {
+         "jp_private_era" : 1,
+         "key" : "列滴",
+         "name" : "列滴",
+         "names" : {
+            "列滴" : 1,
+            "烈擲" : 1
+         },
+         "offset" : -290
+      },
+      "加平" : {
+         "jp_private_era" : 1,
+         "key" : "加平",
+         "name" : "加平",
+         "names" : {
+            "加平" : 1
+         },
+         "offset" : 1516
+      },
+      "勝照" : {
+         "jp_private_era" : 1,
+         "key" : "勝照",
+         "name" : "勝照",
+         "names" : {
+            "勝烈" : 1,
+            "勝照" : 1,
+            "照勝" : 1
+         },
+         "offset" : 584
       },
       "反正天皇" : {
          "end_gregorian_day" : {
@@ -2310,6 +2478,59 @@
          "wref_en" : "Emperor_Hanzei",
          "wref_ja" : "反正天皇"
       },
+      "告貴" : {
+         "jp_private_era" : 1,
+         "key" : "告貴",
+         "name" : "告貴",
+         "names" : {
+            "吉貴" : 1,
+            "告言" : 1,
+            "告貴" : 1,
+            "従貴" : 1,
+            "𠮷貴" : 1
+         },
+         "offset" : 593
+      },
+      "命禄" : {
+         "jp_private_era" : 1,
+         "key" : "命禄",
+         "name" : "命禄",
+         "names" : {
+            "命祿" : 1,
+            "命禄" : 1
+         },
+         "offset" : 1539
+      },
+      "命長" : {
+         "jp_private_era" : 1,
+         "key" : "命長",
+         "name" : "命長",
+         "names" : {
+            "令長" : 1,
+            "命長" : 1,
+            "明長" : 1,
+            "長命" : 1
+         },
+         "offset" : 639
+      },
+      "和勝" : {
+         "jp_private_era" : 1,
+         "key" : "和勝",
+         "name" : "和勝",
+         "names" : {
+            "和勝" : 1
+         },
+         "offset" : 1189
+      },
+      "和重" : {
+         "jp_private_era" : 1,
+         "key" : "和重",
+         "name" : "和重",
+         "names" : {
+            "和重" : 1
+         },
+         "offset" : 586
+      },
       "和銅" : {
          "actual_end_day" : {
             "gregorian" : "0715-10-07",
@@ -2364,6 +2585,36 @@
          "start_year" : 708,
          "wref_en" : "Wadō_(era)",
          "wref_ja" : "和銅"
+      },
+      "品暦" : {
+         "jp_private_era" : 1,
+         "key" : "品暦",
+         "name" : "品暦",
+         "names" : {
+            "品暦" : 1,
+            "品曆" : 1
+         }
+      },
+      "善記" : {
+         "jp_private_era" : 1,
+         "key" : "善記",
+         "name" : "善記",
+         "names" : {
+            "善化" : 1,
+            "善喜" : 1,
+            "善紀" : 1,
+            "善記" : 1
+         },
+         "offset" : 521
+      },
+      "喜楽" : {
+         "jp_private_era" : 1,
+         "key" : "喜楽",
+         "name" : "喜楽",
+         "names" : {
+            "喜楽" : 1
+         },
+         "offset" : 592
       },
       "嘉保" : {
          "actual_end_day" : {
@@ -2982,6 +3233,15 @@
          "wref_en" : "Katei",
          "wref_ja" : "嘉禎"
       },
+      "嘉紀" : {
+         "jp_private_era" : 1,
+         "key" : "嘉紀",
+         "name" : "嘉紀",
+         "names" : {
+            "嘉紀" : 1
+         },
+         "offset" : 497
+      },
       "垂仁天皇" : {
          "end_gregorian_day" : {
             "gregorian" : "0070-12-31",
@@ -3166,6 +3426,15 @@
          "wref_en" : "Daidō",
          "wref_ja" : "大同_(日本)"
       },
+      "大和" : {
+         "jp_private_era" : 1,
+         "key" : "大和",
+         "name" : "大和",
+         "names" : {
+            "大和" : 1
+         },
+         "offset" : 694
+      },
       "大宝" : {
          "actual_end_day" : {
             "gregorian" : "0704-06-20",
@@ -3223,6 +3492,25 @@
          "start_year" : 701,
          "wref_en" : "Taihō_(era)",
          "wref_ja" : "大宝_(日本)"
+      },
+      "大延" : {
+         "jp_private_era" : 1,
+         "key" : "大延",
+         "name" : "大延",
+         "names" : {
+            "大延" : 1
+         },
+         "offset" : 1914
+      },
+      "大政" : {
+         "jp_private_era" : 1,
+         "key" : "大政",
+         "name" : "大政",
+         "names" : {
+            "大政" : 1
+         },
+         "offset" : 1867,
+         "wref_ja" : "大政_(私年号)"
       },
       "大正" : {
          "abbr" : "大",
@@ -3412,6 +3700,36 @@
          "start_year" : 1126,
          "wref_en" : "Daiji_(era)",
          "wref_ja" : "大治_(日本)"
+      },
+      "大花" : {
+         "jp_private_era" : 1,
+         "key" : "大花",
+         "name" : "大花",
+         "names" : {
+            "大花" : 1
+         },
+         "offset" : 605
+      },
+      "大道" : {
+         "jp_private_era" : 1,
+         "key" : "大道",
+         "name" : "大道",
+         "names" : {
+            "大同" : 1,
+            "大筒" : 1,
+            "大道" : 1
+         },
+         "offset" : 1608
+      },
+      "大長" : {
+         "jp_private_era" : 1,
+         "key" : "大長",
+         "name" : "大長",
+         "names" : {
+            "大屯" : 1,
+            "大長" : 1
+         },
+         "offset" : 691
       },
       "天仁" : {
          "actual_end_day" : {
@@ -4379,6 +4697,14 @@
          "wref_en" : "Tenju",
          "wref_ja" : "天授_(日本)"
       },
+      "天政" : {
+         "jp_private_era" : 1,
+         "key" : "天政",
+         "name" : "天政",
+         "names" : {
+            "天政" : 1
+         }
+      },
       "天文" : {
          "actual_end_day" : {
             "gregorian" : "1555-11-17",
@@ -4488,6 +4814,17 @@
          "start_year" : 1781,
          "wref_en" : "Tenmei",
          "wref_ja" : "天明"
+      },
+      "天晴" : {
+         "jp_private_era" : 1,
+         "key" : "天晴",
+         "name" : "天晴",
+         "names" : {
+            "天政" : 1,
+            "天星" : 1,
+            "天晴" : 1
+         },
+         "offset" : 1866
       },
       "天智天皇" : {
          "end_gregorian_day" : {
@@ -4649,6 +4986,7 @@
          },
          "name_latn" : "Tenshō",
          "names" : {
+            "天将" : 1,
             "天正" : 1
          },
          "official_start_day" : {
@@ -4855,6 +5193,14 @@
          "wref_en" : "Tenji_(era)",
          "wref_ja" : "天治"
       },
+      "天王" : {
+         "jp_private_era" : 1,
+         "key" : "天王",
+         "name" : "天王",
+         "names" : {
+            "天王" : 1
+         }
+      },
       "天禄" : {
          "actual_end_day" : {
             "gregorian" : "0974-01-21",
@@ -5023,6 +5369,16 @@
          "wref_en" : "Tenchō",
          "wref_ja" : "天長"
       },
+      "天靖" : {
+         "jp_private_era" : 1,
+         "key" : "天靖",
+         "name" : "天靖",
+         "names" : {
+            "天靖" : 1,
+            "天靖" : 1
+         },
+         "offset" : 1442
+      },
       "天養" : {
          "actual_end_day" : {
             "gregorian" : "1145-08-19",
@@ -5077,6 +5433,25 @@
          "start_year" : 1144,
          "wref_en" : "Ten'yō",
          "wref_ja" : "天養"
+      },
+      "始哭" : {
+         "jp_private_era" : 1,
+         "key" : "始哭",
+         "name" : "始哭",
+         "names" : {
+            "始哭" : 1,
+            "始大" : 1
+         },
+         "offset" : 594
+      },
+      "子平" : {
+         "jp_private_era" : 1,
+         "key" : "子平",
+         "name" : "子平",
+         "names" : {
+            "子平" : 1
+         },
+         "offset" : 1501
       },
       "孝元天皇" : {
          "end_gregorian_day" : {
@@ -5892,6 +6267,16 @@
          "wref_en" : "Emperor_Ankan",
          "wref_ja" : "安閑天皇"
       },
+      "定居" : {
+         "jp_private_era" : 1,
+         "key" : "定居",
+         "name" : "定居",
+         "names" : {
+            "定光" : 1,
+            "定居" : 1
+         },
+         "offset" : 610
+      },
       "宝亀" : {
          "actual_end_day" : {
             "gregorian" : "0781-02-03",
@@ -5954,6 +6339,23 @@
          "start_year" : 770,
          "wref_en" : "Hōki",
          "wref_ja" : "宝亀"
+      },
+      "宝寿" : {
+         "jp_private_era" : 1,
+         "key" : "宝寿",
+         "name" : "宝寿",
+         "names" : {
+            "宝壽" : 1,
+            "宝夀" : 1,
+            "宝寿" : 1,
+            "寳壽" : 1,
+            "寳夀" : 1,
+            "寳寿" : 1,
+            "寶壽" : 1,
+            "寶夀" : 1,
+            "寶寿" : 1
+         },
+         "offset" : 1532
       },
       "宝徳" : {
          "actual_end_day" : {
@@ -7061,6 +7463,16 @@
          "wref_en" : "Kanji_(era)",
          "wref_ja" : "寛治"
       },
+      "寿慶" : {
+         "jp_private_era" : 1,
+         "key" : "寿慶",
+         "name" : "寿慶",
+         "names" : {
+            "壽慶" : 1,
+            "夀慶" : 1,
+            "寿慶" : 1
+         }
+      },
       "寿永" : {
          "actual_end_day" : {
             "gregorian" : "1184-06-03",
@@ -7341,6 +7753,26 @@
          "start_year" : -96,
          "wref_en" : "Emperor_Sujin",
          "wref_ja" : "崇神天皇"
+      },
+      "師安" : {
+         "jp_private_era" : 1,
+         "key" : "師安",
+         "name" : "師安",
+         "names" : {
+            "師安" : 1
+         },
+         "offset" : 562
+      },
+      "常色" : {
+         "jp_private_era" : 1,
+         "key" : "常色",
+         "name" : "常色",
+         "names" : {
+            "常己" : 1,
+            "常色" : 1,
+            "常邑" : 1
+         },
+         "offset" : 646
       },
       "平成" : {
          "abbr" : "平",
@@ -8292,6 +8724,17 @@
          "wref_en" : "Enpō",
          "wref_ja" : "延宝"
       },
+      "延寿" : {
+         "jp_private_era" : 1,
+         "key" : "延寿",
+         "name" : "延寿",
+         "names" : {
+            "延壽" : 1,
+            "延夀" : 1,
+            "延寿" : 1
+         },
+         "offset" : 1867
+      },
       "延徳" : {
          "actual_end_day" : {
             "gregorian" : "1492-08-21",
@@ -8352,6 +8795,16 @@
          "start_year" : 1489,
          "wref_en" : "Entoku",
          "wref_ja" : "延徳"
+      },
+      "延徳(庚辰)" : {
+         "jp_private_era" : 1,
+         "key" : "延徳(庚辰)",
+         "name" : "延徳",
+         "names" : {
+            "延徳" : 1,
+            "延德" : 1
+         },
+         "offset" : 1459
       },
       "延応" : {
          "actual_end_day" : {
@@ -8860,6 +9313,16 @@
          "south_start_year" : 1370,
          "wref_en" : "Kentoku",
          "wref_ja" : "建徳"
+      },
+      "建教" : {
+         "jp_private_era" : 1,
+         "key" : "建教",
+         "name" : "建教",
+         "names" : {
+            "建敎" : 1,
+            "建教" : 1
+         },
+         "offset" : 1224
       },
       "建暦" : {
          "actual_end_day" : {
@@ -9398,6 +9861,16 @@
          "wref_en" : "Kōan_(Kamakura_period)",
          "wref_ja" : "弘安"
       },
+      "弘徳" : {
+         "jp_private_era" : 1,
+         "key" : "弘徳",
+         "name" : "弘徳",
+         "names" : {
+            "弘徳" : 1,
+            "弘德" : 1
+         },
+         "offset" : 1383
+      },
       "弘文天皇" : {
          "key" : "弘文天皇",
          "name" : "弘文天皇",
@@ -9525,6 +9998,48 @@
          "wref_en" : "Kōchō",
          "wref_ja" : "弘長"
       },
+      "弥勒" : {
+         "jp_private_era" : 1,
+         "key" : "弥勒",
+         "name" : "弥勒",
+         "names" : {
+            "弥勒" : 1,
+            "身祿" : 1,
+            "身禄" : 1
+         },
+         "offset" : 1505
+      },
+      "征露" : {
+         "jp_private_era" : 1,
+         "key" : "征露",
+         "name" : "征露",
+         "names" : {
+            "征露" : 1
+         },
+         "offset" : 1903,
+         "wref_ja" : "征露"
+      },
+      "徳応" : {
+         "jp_private_era" : 1,
+         "key" : "徳応",
+         "name" : "徳応",
+         "names" : {
+            "徳応" : 1,
+            "徳應" : 1,
+            "德応" : 1,
+            "德應" : 1
+         },
+         "offset" : 1500
+      },
+      "徳昌" : {
+         "jp_private_era" : 1,
+         "key" : "徳昌",
+         "name" : "徳昌",
+         "names" : {
+            "徳昌" : 1,
+            "德昌" : 1
+         }
+      },
       "徳治" : {
          "actual_end_day" : {
             "gregorian" : "1308-11-30",
@@ -9580,6 +10095,15 @@
          "start_year" : 1306,
          "wref_en" : "Tokuji",
          "wref_ja" : "徳治"
+      },
+      "応享" : {
+         "jp_private_era" : 1,
+         "key" : "応享",
+         "name" : "応享",
+         "names" : {
+            "応享" : 1,
+            "應享" : 1
+         }
       },
       "応仁" : {
          "actual_end_day" : {
@@ -9925,6 +10449,16 @@
          "wref_en" : "Ōei",
          "wref_ja" : "応永"
       },
+      "応治" : {
+         "jp_private_era" : 1,
+         "key" : "応治",
+         "name" : "応治",
+         "names" : {
+            "応治" : 1,
+            "應治" : 1
+         },
+         "offset" : 1344
+      },
       "応神天皇" : {
          "end_gregorian_day" : {
             "gregorian" : "0312-12-31",
@@ -10060,6 +10594,15 @@
          "start_year" : 1311,
          "wref_en" : "Ōchō",
          "wref_ja" : "応長"
+      },
+      "慶喜" : {
+         "jp_private_era" : 1,
+         "key" : "慶喜",
+         "name" : "慶喜",
+         "names" : {
+            "慶喜" : 1
+         },
+         "offset" : 1642
       },
       "慶安" : {
          "actual_end_day" : {
@@ -11187,6 +11730,22 @@
          "wref_en" : "Emperor_Bidatsu",
          "wref_ja" : "敏達天皇"
       },
+      "教到" : {
+         "jp_private_era" : 1,
+         "key" : "教到",
+         "name" : "教到",
+         "names" : {
+            "敎倒" : 1,
+            "敎到" : 1,
+            "敎知" : 1,
+            "教倒" : 1,
+            "教到" : 1,
+            "教知" : 1,
+            "殷到" : 1,
+            "発倒" : 1
+         },
+         "offset" : 530
+      },
       "文中" : {
          "jp_south_era" : 1,
          "key" : "文中",
@@ -11575,6 +12134,15 @@
          "start_year" : 1444,
          "wref_en" : "Bun'an",
          "wref_ja" : "文安"
+      },
+      "文徳" : {
+         "jp_private_era" : 1,
+         "key" : "文徳",
+         "name" : "文徳",
+         "names" : {
+            "文徳" : 1,
+            "文德" : 1
+         }
       },
       "文応" : {
          "actual_end_day" : {
@@ -12070,6 +12638,15 @@
          "wref_en" : "Bunroku",
          "wref_ja" : "文禄"
       },
+      "文鬼" : {
+         "jp_private_era" : 1,
+         "key" : "文鬼",
+         "name" : "文鬼",
+         "names" : {
+            "文鬼" : 1
+         },
+         "offset" : 1500
+      },
       "斉明天皇" : {
          "end_gregorian_day" : {
             "gregorian" : "0661-12-31",
@@ -12474,6 +13051,16 @@
          "wref_en" : "Meiō",
          "wref_ja" : "明応"
       },
+      "明応(己丑)" : {
+         "jp_private_era" : 1,
+         "key" : "明応(己丑)",
+         "name" : "明応",
+         "names" : {
+            "明応" : 1,
+            "明應" : 1
+         },
+         "offset" : 1468
+      },
       "明暦" : {
          "actual_end_day" : {
             "gregorian" : "1658-08-21",
@@ -12603,6 +13190,18 @@
          "start_year" : 1868,
          "wref_en" : "Meiji_period",
          "wref_ja" : "明治"
+      },
+      "明要" : {
+         "jp_private_era" : 1,
+         "key" : "明要",
+         "name" : "明要",
+         "names" : {
+            "同安" : 1,
+            "同要" : 1,
+            "明安" : 1,
+            "明要" : 1
+         },
+         "offset" : 539
       },
       "昭和" : {
          "abbr" : "昭",
@@ -12869,6 +13468,16 @@
          "wref_en" : "Ryakuō",
          "wref_ja" : "暦応"
       },
+      "朱雀" : {
+         "jp_private_era" : 1,
+         "key" : "朱雀",
+         "name" : "朱雀",
+         "names" : {
+            "朱雀" : 1
+         },
+         "offset" : 685,
+         "wref_ja" : "朱雀"
+      },
       "朱鳥" : {
          "end_gregorian_day" : {
             "gregorian" : "0686-12-31",
@@ -12934,6 +13543,16 @@
          "start_year" : 686,
          "wref_en" : "Shuchō",
          "wref_ja" : "朱鳥"
+      },
+      "核時代" : {
+         "jp_private_era" : 1,
+         "key" : "核時代",
+         "name" : "核時代",
+         "names" : {
+            "核時代" : 1
+         },
+         "offset" : 1944,
+         "wref_ja" : "核時代"
       },
       "欽明天皇" : {
          "end_gregorian_day" : {
@@ -13063,6 +13682,35 @@
          "start_year" : 1324,
          "wref_en" : "Shōchū_(era)",
          "wref_ja" : "正中_(元号)"
+      },
+      "正中(辛酉)" : {
+         "jp_private_era" : 1,
+         "key" : "正中(辛酉)",
+         "name" : "正中",
+         "names" : {
+            "正中" : 1
+         },
+         "offset" : 1620
+      },
+      "正久" : {
+         "jp_private_era" : 1,
+         "key" : "正久",
+         "name" : "正久",
+         "names" : {
+            "正久" : 1
+         },
+         "offset" : 1318
+      },
+      "正亨" : {
+         "jp_private_era" : 1,
+         "key" : "正亨",
+         "name" : "正亨",
+         "names" : {
+            "正亨" : 1,
+            "正享" : 1,
+            "正京" : 1
+         },
+         "offset" : 1488
       },
       "正保" : {
          "actual_end_day" : {
@@ -13228,6 +13876,17 @@
          "start_year" : 1312,
          "wref_en" : "Shōwa_(Kamakura_period)",
          "wref_ja" : "正和"
+      },
+      "正和(丙午)" : {
+         "jp_private_era" : 1,
+         "key" : "正和(丙午)",
+         "name" : "正和",
+         "names" : {
+            "正和" : 1,
+            "正治" : 1,
+            "正知" : 1
+         },
+         "offset" : 525
       },
       "正嘉" : {
          "actual_end_day" : {
@@ -13680,6 +14339,23 @@
          "wref_en" : "Shōji_(era)",
          "wref_ja" : "正治"
       },
+      "正法" : {
+         "jp_private_era" : 1,
+         "key" : "正法",
+         "name" : "正法",
+         "names" : {
+            "正法" : 1
+         },
+         "offset" : 759
+      },
+      "正見" : {
+         "jp_private_era" : 1,
+         "key" : "正見",
+         "name" : "正見",
+         "names" : {
+            "正見" : 1
+         }
+      },
       "正長" : {
          "actual_end_day" : {
             "gregorian" : "1429-10-12",
@@ -13950,7 +14626,8 @@
          },
          "name_latn" : "Eikyō",
          "names" : {
-            "永享" : 1
+            "永享" : 1,
+            "永寧" : 1
          },
          "official_start_day" : {
             "gregorian" : "1429-02-13",
@@ -14030,6 +14707,15 @@
          "start_year" : 1293,
          "wref_en" : "Einin",
          "wref_ja" : "永仁"
+      },
+      "永伝" : {
+         "jp_private_era" : 1,
+         "key" : "永伝",
+         "name" : "永伝",
+         "names" : {
+            "永伝" : 1
+         },
+         "offset" : 1489
       },
       "永保" : {
          "actual_end_day" : {
@@ -14140,6 +14826,37 @@
          "short_name" : "永和",
          "wref_en" : "Eiwa",
          "wref_ja" : "永和_(日本)"
+      },
+      "永喜" : {
+         "jp_private_era" : 1,
+         "key" : "永喜",
+         "name" : "永喜",
+         "names" : {
+            "永亀" : 1,
+            "永喜" : 1,
+            "永龜" : 1,
+            "永龟" : 1
+         },
+         "offset" : 1525
+      },
+      "永宝" : {
+         "jp_private_era" : 1,
+         "key" : "永宝",
+         "name" : "永宝",
+         "names" : {
+            "永宝" : 1,
+            "永寳" : 1,
+            "永寶" : 1
+         },
+         "offset" : 1386
+      },
+      "永幻" : {
+         "jp_private_era" : 1,
+         "key" : "永幻",
+         "name" : "永幻",
+         "names" : {
+            "永幻" : 1
+         }
       },
       "永延" : {
          "actual_end_day" : {
@@ -14368,6 +15085,15 @@
          "wref_en" : "Eiryaku",
          "wref_ja" : "永暦"
       },
+      "永楽" : {
+         "jp_private_era" : 1,
+         "key" : "永楽",
+         "name" : "永楽",
+         "names" : {
+            "永楽" : 1
+         },
+         "offset" : 1460
+      },
       "永正" : {
          "actual_end_day" : {
             "gregorian" : "1521-10-03",
@@ -14397,6 +15123,7 @@
          },
          "name_latn" : "Eishō",
          "names" : {
+            "栄正" : 1,
             "永正" : 1
          },
          "official_start_day" : {
@@ -14590,6 +15317,16 @@
          "wref_en" : "Eiroku",
          "wref_ja" : "永禄"
       },
+      "永福" : {
+         "jp_private_era" : 1,
+         "key" : "永福",
+         "name" : "永福",
+         "names" : {
+            "永福" : 1,
+            "永福" : 1
+         },
+         "offset" : 1296
+      },
       "永観" : {
          "actual_end_day" : {
             "gregorian" : "0985-05-24",
@@ -14709,6 +15446,15 @@
          "start_year" : 1096,
          "wref_en" : "Eichō",
          "wref_ja" : "永長"
+      },
+      "永長(丁酉)" : {
+         "jp_private_era" : 1,
+         "key" : "永長(丁酉)",
+         "name" : "永長",
+         "names" : {
+            "永長" : 1
+         },
+         "offset" : 1836
       },
       "治安" : {
          "actual_end_day" : {
@@ -14881,6 +15627,56 @@
          "wref_en" : "Jiryaku",
          "wref_ja" : "治暦"
       },
+      "法徳" : {
+         "jp_private_era" : 1,
+         "key" : "法徳",
+         "name" : "法徳",
+         "names" : {
+            "宝徳" : 1,
+            "宝德" : 1,
+            "寳徳" : 1,
+            "寳德" : 1,
+            "寶徳" : 1,
+            "寶德" : 1,
+            "法徳" : 1,
+            "法德" : 1
+         },
+         "offset" : 1660
+      },
+      "法清" : {
+         "jp_private_era" : 1,
+         "key" : "法清",
+         "name" : "法清",
+         "names" : {
+            "法淸" : 1,
+            "法清" : 1,
+            "法靖" : 1,
+            "法靖" : 1,
+            "結淸" : 1,
+            "結清" : 1
+         },
+         "offset" : 552
+      },
+      "法興" : {
+         "jp_private_era" : 1,
+         "key" : "法興",
+         "name" : "法興",
+         "names" : {
+            "法興" : 1
+         },
+         "offset" : 590
+      },
+      "泰平" : {
+         "jp_private_era" : 1,
+         "key" : "泰平",
+         "name" : "泰平",
+         "names" : {
+            "万平" : 1,
+            "泰平" : 1,
+            "萬平" : 1
+         },
+         "offset" : 1171
+      },
       "清寧天皇" : {
          "end_gregorian_day" : {
             "gregorian" : "0484-12-31",
@@ -14957,6 +15753,25 @@
          "wref_en" : "Emperor_Seinei",
          "wref_ja" : "清寧天皇"
       },
+      "王徳" : {
+         "jp_private_era" : 1,
+         "key" : "王徳",
+         "name" : "王徳",
+         "names" : {
+            "王徳" : 1,
+            "王德" : 1
+         },
+         "offset" : 1489
+      },
+      "璽至" : {
+         "jp_private_era" : 1,
+         "key" : "璽至",
+         "name" : "璽至",
+         "names" : {
+            "璽至" : 1
+         },
+         "offset" : 269
+      },
       "用明天皇" : {
          "end_gregorian_day" : {
             "gregorian" : "0587-12-31",
@@ -15031,6 +15846,16 @@
          "wref_en" : "Emperor_Yōmei",
          "wref_ja" : "用明天皇"
       },
+      "白禄" : {
+         "jp_private_era" : 1,
+         "key" : "白禄",
+         "name" : "白禄",
+         "names" : {
+            "白祿" : 1,
+            "白禄" : 1
+         },
+         "offset" : 1335
+      },
       "白雉" : {
          "end_gregorian_day" : {
             "gregorian" : "0654-12-31",
@@ -15095,6 +15920,34 @@
          "start_year" : 650,
          "wref_en" : "Hakuchi_(era)",
          "wref_ja" : "白雉"
+      },
+      "白鳳" : {
+         "jp_private_era" : 1,
+         "key" : "白鳳",
+         "name" : "白鳳",
+         "names" : {
+            "白鳳" : 1
+         },
+         "offset" : 649,
+         "wref_ja" : "白鳳"
+      },
+      "白鳳雉" : {
+         "jp_private_era" : 1,
+         "key" : "白鳳雉",
+         "name" : "白鳳雉",
+         "names" : {
+            "白鳳雉" : 1
+         },
+         "offset" : 671
+      },
+      "白鹿" : {
+         "jp_private_era" : 1,
+         "key" : "白鹿",
+         "name" : "白鹿",
+         "names" : {
+            "白鹿" : 1
+         },
+         "offset" : 1344
       },
       "皇極天皇" : {
          "actual_end_day" : {
@@ -15161,6 +16014,24 @@
          "wref_en" : "Emperor_Kōgyoku",
          "wref_ja" : "皇極天皇"
       },
+      "真賀" : {
+         "jp_private_era" : 1,
+         "key" : "真賀",
+         "name" : "真賀",
+         "names" : {
+            "真賀" : 1
+         }
+      },
+      "知僧" : {
+         "jp_private_era" : 1,
+         "key" : "知僧",
+         "name" : "知僧",
+         "names" : {
+            "和僧" : 1,
+            "知僧" : 1
+         },
+         "offset" : 563
+      },
       "神亀" : {
          "actual_end_day" : {
             "gregorian" : "0729-09-06",
@@ -15191,6 +16062,9 @@
          },
          "name_latn" : "Jinki",
          "names" : {
+            "白亀" : 1,
+            "白龜" : 1,
+            "白龟" : 1,
             "神亀" : 1,
             "神龜" : 1,
             "神龟" : 1,
@@ -15302,6 +16176,18 @@
          "wref_en" : "Empress_Jingū",
          "wref_ja" : "神功皇后"
       },
+      "神徳" : {
+         "jp_private_era" : 1,
+         "key" : "神徳",
+         "name" : "神徳",
+         "names" : {
+            "神徳" : 1,
+            "神德" : 1,
+            "神徳" : 1,
+            "神德" : 1
+         },
+         "offset" : 1866
+      },
       "神武天皇" : {
          "end_gregorian_day" : {
             "gregorian" : "-0581-12-31",
@@ -15378,6 +16264,16 @@
          "wref_en" : "Emperor_Jimmu",
          "wref_ja" : "神武天皇"
       },
+      "神治" : {
+         "jp_private_era" : 1,
+         "key" : "神治",
+         "name" : "神治",
+         "names" : {
+            "神治" : 1,
+            "神治" : 1
+         },
+         "offset" : 1866
+      },
       "神護景雲" : {
          "actual_end_day" : {
             "gregorian" : "0770-10-27",
@@ -15433,6 +16329,80 @@
          "start_year" : 767,
          "wref_en" : "Jingo-keiun",
          "wref_ja" : "神護景雲"
+      },
+      "福安" : {
+         "jp_private_era" : 1,
+         "key" : "福安",
+         "name" : "福安",
+         "names" : {
+            "福安" : 1,
+            "福安" : 1
+         },
+         "offset" : 1443
+      },
+      "福寿" : {
+         "jp_private_era" : 1,
+         "key" : "福寿",
+         "name" : "福寿",
+         "names" : {
+            "福壽" : 1,
+            "福夀" : 1,
+            "福寿" : 1,
+            "福壽" : 1,
+            "福夀" : 1,
+            "福寿" : 1
+         }
+      },
+      "福徳" : {
+         "jp_private_era" : 1,
+         "key" : "福徳",
+         "name" : "福徳",
+         "names" : {
+            "福徳" : 1,
+            "福德" : 1,
+            "福徳" : 1,
+            "福德" : 1
+         },
+         "offset" : 1489,
+         "wref_ja" : "福徳_(私年号)"
+      },
+      "立徳" : {
+         "jp_private_era" : 1,
+         "key" : "立徳",
+         "name" : "立徳",
+         "names" : {
+            "立徳" : 1,
+            "立德" : 1
+         }
+      },
+      "端政" : {
+         "jp_private_era" : 1,
+         "key" : "端政",
+         "name" : "端政",
+         "names" : {
+            "端改" : 1,
+            "端政" : 1,
+            "端正" : 1
+         },
+         "offset" : 588
+      },
+      "節中" : {
+         "jp_private_era" : 1,
+         "key" : "節中",
+         "name" : "節中",
+         "names" : {
+            "節中" : 1
+         },
+         "offset" : 622
+      },
+      "経明" : {
+         "jp_private_era" : 1,
+         "key" : "経明",
+         "name" : "経明",
+         "names" : {
+            "経明" : 1
+         },
+         "offset" : -19
       },
       "綏靖天皇" : {
          "end_gregorian_day" : {
@@ -15509,6 +16479,18 @@
          "start_year" : -580,
          "wref_en" : "Emperor_Suizei",
          "wref_ja" : "綏靖天皇"
+      },
+      "継体(丁酉)" : {
+         "jp_private_era" : 1,
+         "key" : "継体(丁酉)",
+         "name" : "継体",
+         "names" : {
+            "継体" : 1,
+            "継體" : 1,
+            "繼体" : 1,
+            "繼體" : 1
+         },
+         "offset" : 516
       },
       "継体天皇" : {
          "end_gregorian_day" : {
@@ -15589,6 +16571,34 @@
          "start_year" : 507,
          "wref_en" : "Emperor_Keitai",
          "wref_ja" : "継体天皇"
+      },
+      "聖徳" : {
+         "jp_private_era" : 1,
+         "key" : "聖徳",
+         "name" : "聖徳",
+         "names" : {
+            "聖徳" : 1,
+            "聖德" : 1
+         },
+         "offset" : 628
+      },
+      "自由自治" : {
+         "jp_private_era" : 1,
+         "key" : "自由自治",
+         "name" : "自由自治",
+         "names" : {
+            "自由自治" : 1
+         },
+         "offset" : 1883,
+         "wref_ja" : "自由自治"
+      },
+      "至大" : {
+         "jp_private_era" : 1,
+         "key" : "至大",
+         "name" : "至大",
+         "names" : {
+            "至大" : 1
+         }
       },
       "至徳" : {
          "jp_north_era" : 1,
@@ -15703,6 +16713,16 @@
          "wref_en" : "Kōkoku",
          "wref_ja" : "興国"
       },
+      "興徳" : {
+         "jp_private_era" : 1,
+         "key" : "興徳",
+         "name" : "興徳",
+         "names" : {
+            "興徳" : 1,
+            "興德" : 1
+         },
+         "offset" : 1394
+      },
       "舒明天皇" : {
          "end_gregorian_day" : {
             "gregorian" : "0641-12-31",
@@ -15777,6 +16797,26 @@
          "wref_en" : "Emperor_Jomei",
          "wref_ja" : "舒明天皇"
       },
+      "蔵知" : {
+         "jp_private_era" : 1,
+         "key" : "蔵知",
+         "name" : "蔵知",
+         "names" : {
+            "蔵和" : 1,
+            "蔵知" : 1
+         },
+         "offset" : 557
+      },
+      "見聖" : {
+         "jp_private_era" : 1,
+         "key" : "見聖",
+         "name" : "見聖",
+         "names" : {
+            "見知" : 1,
+            "見聖" : 1
+         },
+         "offset" : 612
+      },
       "観応" : {
          "jp_north_era" : 1,
          "key" : "観応",
@@ -15839,6 +16879,14 @@
          "short_name" : "観応",
          "wref_en" : "Kannō",
          "wref_ja" : "観応"
+      },
+      "証明" : {
+         "jp_private_era" : 1,
+         "key" : "証明",
+         "name" : "証明",
+         "names" : {
+            "証明" : 1
+         }
       },
       "貞享" : {
          "actual_end_day" : {
@@ -16246,6 +17294,70 @@
          "wref_en" : "Jōgan",
          "wref_ja" : "貞観_(日本)"
       },
+      "貴楽" : {
+         "jp_private_era" : 1,
+         "key" : "貴楽",
+         "name" : "貴楽",
+         "names" : {
+            "貴楽" : 1
+         },
+         "offset" : 550
+      },
+      "賢称" : {
+         "jp_private_era" : 1,
+         "key" : "賢称",
+         "name" : "賢称",
+         "names" : {
+            "賢伝" : 1,
+            "賢接" : 1,
+            "賢棲" : 1,
+            "賢称" : 1,
+            "賢輔" : 1,
+            "贤伝" : 1,
+            "贤接" : 1,
+            "贤棲" : 1,
+            "贤称" : 1,
+            "贤輔" : 1
+         },
+         "offset" : 575
+      },
+      "迎雲" : {
+         "jp_private_era" : 1,
+         "key" : "迎雲",
+         "name" : "迎雲",
+         "names" : {
+            "迎雲" : 1
+         },
+         "offset" : 1198
+      },
+      "金光" : {
+         "jp_private_era" : 1,
+         "key" : "金光",
+         "name" : "金光",
+         "names" : {
+            "金光" : 1
+         },
+         "offset" : 568
+      },
+      "鏡常" : {
+         "jp_private_era" : 1,
+         "key" : "鏡常",
+         "name" : "鏡常",
+         "names" : {
+            "鏡常" : 1,
+            "鏡照" : 1
+         },
+         "offset" : 580
+      },
+      "鏡當" : {
+         "jp_private_era" : 1,
+         "key" : "鏡當",
+         "name" : "鏡當",
+         "names" : {
+            "鏡當" : 1
+         },
+         "offset" : 580
+      },
       "長久" : {
          "actual_end_day" : {
             "gregorian" : "1044-12-22",
@@ -16526,6 +17638,14 @@
          "wref_en" : "Chōwa",
          "wref_ja" : "長和"
       },
+      "長嘉" : {
+         "jp_private_era" : 1,
+         "key" : "長嘉",
+         "name" : "長嘉",
+         "names" : {
+            "長嘉" : 1
+         }
+      },
       "長寛" : {
          "actual_end_day" : {
             "gregorian" : "1165-07-21",
@@ -16637,6 +17757,16 @@
          "start_year" : 995,
          "wref_en" : "Chōtoku",
          "wref_ja" : "長徳"
+      },
+      "長徳(丁卯)" : {
+         "jp_private_era" : 1,
+         "key" : "長徳(丁卯)",
+         "name" : "長徳",
+         "names" : {
+            "長徳" : 1,
+            "長德" : 1
+         },
+         "offset" : 1866
       },
       "長承" : {
          "actual_end_day" : {
@@ -16835,6 +17965,7 @@
          },
          "name_latn" : "Chōroku",
          "names" : {
+            "張六" : 1,
             "長祿" : 1,
             "長禄" : 1
          },
@@ -17067,6 +18198,18 @@
          "wref_en" : "Reiki_(era)",
          "wref_ja" : "霊亀"
       },
+      "霊寿" : {
+         "jp_private_era" : 1,
+         "key" : "霊寿",
+         "name" : "霊寿",
+         "names" : {
+            "霊壽" : 1,
+            "霊夀" : 1,
+            "霊寿" : 1
+         },
+         "offset" : 1945,
+         "wref_ja" : "璽宇"
+      },
       "顕宗天皇" : {
          "end_gregorian_day" : {
             "gregorian" : "0487-12-31",
@@ -17142,6 +18285,18 @@
          "start_year" : 485,
          "wref_en" : "Emperor_Kenzō",
          "wref_ja" : "顕宗天皇"
+      },
+      "願転" : {
+         "jp_private_era" : 1,
+         "key" : "願転",
+         "name" : "願転",
+         "names" : {
+            "煩転" : 1,
+            "転願" : 1,
+            "願博" : 1,
+            "願転" : 1
+         },
+         "offset" : 600
       },
       "養和" : {
          "actual_end_day" : {
@@ -17252,6 +18407,916 @@
          "start_year" : 717,
          "wref_en" : "Yōrō",
          "wref_ja" : "養老"
+      }
+   },
+   "name_conflicts" : {
+      "大同" : {
+         "大同" : 1,
+         "大道" : 1
+      },
+      "天政" : {
+         "天政" : 1,
+         "天晴" : 1
+      },
+      "宝徳" : {
+         "宝徳" : 1,
+         "法徳" : 1
+      },
+      "宝德" : {
+         "宝徳" : 1,
+         "法徳" : 1
+      },
+      "寳徳" : {
+         "宝徳" : 1,
+         "法徳" : 1
+      },
+      "寳德" : {
+         "宝徳" : 1,
+         "法徳" : 1
+      },
+      "寶徳" : {
+         "宝徳" : 1,
+         "法徳" : 1
+      },
+      "寶德" : {
+         "宝徳" : 1,
+         "法徳" : 1
+      },
+      "延徳" : {
+         "延徳" : 1,
+         "延徳(庚辰)" : 1
+      },
+      "延德" : {
+         "延徳" : 1,
+         "延徳(庚辰)" : 1
+      },
+      "明応" : {
+         "明応" : 1,
+         "明応(己丑)" : 1
+      },
+      "明應" : {
+         "明応" : 1,
+         "明応(己丑)" : 1
+      },
+      "正中" : {
+         "正中" : 1,
+         "正中(辛酉)" : 1
+      },
+      "正和" : {
+         "正和" : 1,
+         "正和(丙午)" : 1
+      },
+      "正治" : {
+         "正和(丙午)" : 1,
+         "正治" : 1
+      },
+      "永長" : {
+         "永長" : 1,
+         "永長(丁酉)" : 1
+      },
+      "継体" : {
+         "継体(丁酉)" : 1,
+         "継体天皇" : 1
+      },
+      "継體" : {
+         "継体(丁酉)" : 1,
+         "継体天皇" : 1
+      },
+      "繼体" : {
+         "継体(丁酉)" : 1,
+         "継体天皇" : 1
+      },
+      "繼體" : {
+         "継体(丁酉)" : 1,
+         "継体天皇" : 1
+      },
+      "長徳" : {
+         "長徳" : 1,
+         "長徳(丁卯)" : 1
+      },
+      "長德" : {
+         "長徳" : 1,
+         "長徳(丁卯)" : 1
+      }
+   },
+   "name_to_key" : {
+      "jp" : {
+         "H" : "平成",
+         "M" : "明治",
+         "S" : "昭和",
+         "T" : "大正",
+         "h" : "平成",
+         "m" : "明治",
+         "s" : "昭和",
+         "t" : "大正",
+         "㍻" : "平成",
+         "㍼" : "昭和",
+         "㍽" : "大正",
+         "㍾" : "明治",
+         "万壽" : "万寿",
+         "万夀" : "万寿",
+         "万寿" : "万寿",
+         "万平" : "泰平",
+         "万延" : "万延",
+         "万治" : "万治",
+         "中元" : "中元",
+         "久壽" : "久寿",
+         "久夀" : "久寿",
+         "久安" : "久安",
+         "久宝" : "久宝",
+         "久寳" : "久宝",
+         "久寶" : "久宝",
+         "久寿" : "久寿",
+         "乾元" : "乾元",
+         "享保" : "享保",
+         "享和" : "享和",
+         "享徳" : "享徳",
+         "享德" : "享徳",
+         "享正" : "享正",
+         "享祿" : "享禄",
+         "享禄" : "享禄",
+         "享高" : "享高",
+         "仁和" : "仁和",
+         "仁壽" : "仁寿",
+         "仁夀" : "仁寿",
+         "仁安" : "仁安",
+         "仁寿" : "仁寿",
+         "仁平" : "仁平",
+         "仁徳" : "仁徳天皇",
+         "仁徳天皇" : "仁徳天皇",
+         "仁德" : "仁徳天皇",
+         "仁德天皇" : "仁徳天皇",
+         "仁治" : "仁治",
+         "仁王" : "仁王",
+         "仁賢" : "仁賢天皇",
+         "仁賢天皇" : "仁賢天皇",
+         "仁贤" : "仁賢天皇",
+         "仁贤天皇" : "仁賢天皇",
+         "令長" : "命長",
+         "仲哀" : "仲哀天皇",
+         "仲哀天皇" : "仲哀天皇",
+         "保元" : "保元",
+         "保壽" : "保寿",
+         "保夀" : "保寿",
+         "保安" : "保安",
+         "保寿" : "保寿",
+         "保延" : "保延",
+         "倭京" : "倭京縄",
+         "倭京縄" : "倭京縄",
+         "僧安" : "僧要",
+         "僧徳" : "僧聴",
+         "僧德" : "僧聴",
+         "僧聴" : "僧聴",
+         "僧要" : "僧要",
+         "允恭" : "允恭天皇",
+         "允恭天皇" : "允恭天皇",
+         "元中" : "元中",
+         "元久" : "元久",
+         "元亀" : "元亀",
+         "元亨" : "元亨",
+         "元仁" : "元仁",
+         "元和" : "元和",
+         "元弘" : "元弘",
+         "元徳" : "元徳",
+         "元德" : "元徳",
+         "元応" : "元応",
+         "元慶" : "元慶",
+         "元應" : "元応",
+         "元文" : "元文",
+         "元暦" : "元暦",
+         "元曆" : "元暦",
+         "元永" : "元永",
+         "元治" : "元治",
+         "元真" : "元真",
+         "元祿" : "元禄",
+         "元禄" : "元禄",
+         "元禾" : "元禾",
+         "元龜" : "元亀",
+         "元龟" : "元亀",
+         "兄弟" : "兄弟",
+         "兄弟和" : "兄弟",
+         "光元" : "光充",
+         "光充" : "光充",
+         "光弘" : "光充",
+         "光永" : "光永",
+         "列滴" : "列滴",
+         "加平" : "加平",
+         "勝烈" : "勝照",
+         "勝照" : "勝照",
+         "反正" : "反正天皇",
+         "反正天皇" : "反正天皇",
+         "吉貴" : "告貴",
+         "同安" : "明要",
+         "同要" : "明要",
+         "告言" : "告貴",
+         "告貴" : "告貴",
+         "命祿" : "命禄",
+         "命禄" : "命禄",
+         "命長" : "命長",
+         "和京" : "倭京縄",
+         "和僧" : "知僧",
+         "和勝" : "和勝",
+         "和重" : "和重",
+         "和銅" : "和銅",
+         "品暦" : "品暦",
+         "品曆" : "品暦",
+         "善化" : "善記",
+         "善喜" : "善記",
+         "善紀" : "善記",
+         "善記" : "善記",
+         "喜楽" : "喜楽",
+         "嘉保" : "嘉保",
+         "嘉元" : "嘉元",
+         "嘉吉" : "嘉吉",
+         "嘉応" : "嘉応",
+         "嘉慶" : "嘉慶",
+         "嘉應" : "嘉応",
+         "嘉承" : "嘉承",
+         "嘉暦" : "嘉暦",
+         "嘉曆" : "嘉暦",
+         "嘉永" : "嘉永",
+         "嘉祥" : "嘉祥",
+         "嘉祯" : "嘉禎",
+         "嘉祿" : "嘉禄",
+         "嘉禄" : "嘉禄",
+         "嘉禎" : "嘉禎",
+         "嘉紀" : "嘉紀",
+         "嘉祥" : "嘉祥",
+         "嘉𠮷" : "嘉吉",
+         "嘉𣴎" : "嘉承",
+         "垂仁" : "垂仁天皇",
+         "垂仁天皇" : "垂仁天皇",
+         "壽慶" : "寿慶",
+         "壽永" : "寿永",
+         "夀慶" : "寿慶",
+         "夀永" : "寿永",
+         "大" : "大正",
+         "大化" : "大化",
+         "大同" : "大同",
+         "大和" : "大和",
+         "大宝" : "大宝",
+         "大寳" : "大宝",
+         "大寶" : "大宝",
+         "大屯" : "大長",
+         "大延" : "大延",
+         "大政" : "大政",
+         "大正" : "大正",
+         "大永" : "大永",
+         "大治" : "大治",
+         "大筒" : "大道",
+         "大花" : "大花",
+         "大道" : "大道",
+         "大長" : "大長",
+         "天仁" : "天仁",
+         "天保" : "天保",
+         "天元" : "天元",
+         "天和" : "天和",
+         "天喜" : "天喜",
+         "天安" : "天安",
+         "天将" : "天正",
+         "天平" : "天平",
+         "天平勝宝" : "天平勝宝",
+         "天平勝寳" : "天平勝宝",
+         "天平勝寶" : "天平勝宝",
+         "天平宝字" : "天平宝字",
+         "天平寳字" : "天平宝字",
+         "天平寶字" : "天平宝字",
+         "天平感宝" : "天平感宝",
+         "天平感寳" : "天平感宝",
+         "天平感寶" : "天平感宝",
+         "天平神護" : "天平神護",
+         "天平神護" : "天平神護",
+         "天延" : "天延",
+         "天徳" : "天徳",
+         "天德" : "天徳",
+         "天応" : "天応",
+         "天慶" : "天慶",
+         "天應" : "天応",
+         "天承" : "天承",
+         "天授" : "天授",
+         "天政" : "天政",
+         "天文" : "天文",
+         "天明" : "天明",
+         "天星" : "天晴",
+         "天晴" : "天晴",
+         "天智" : "天智天皇",
+         "天智天皇" : "天智天皇",
+         "天暦" : "天暦",
+         "天曆" : "天暦",
+         "天正" : "天正",
+         "天武" : "天武天皇",
+         "天武天皇" : "天武天皇",
+         "天永" : "天永",
+         "天治" : "天治",
+         "天王" : "天王",
+         "天祿" : "天禄",
+         "天禄" : "天禄",
+         "天福" : "天福",
+         "天長" : "天長",
+         "天靖" : "天靖",
+         "天養" : "天養",
+         "天福" : "天福",
+         "天靖" : "天靖",
+         "天𣴎" : "天承",
+         "始哭" : "始哭",
+         "始大" : "始哭",
+         "子平" : "子平",
+         "孝元" : "孝元天皇",
+         "孝元天皇" : "孝元天皇",
+         "孝安" : "孝安天皇",
+         "孝安天皇" : "孝安天皇",
+         "孝徳" : "孝徳天皇",
+         "孝徳天皇" : "孝徳天皇",
+         "孝德" : "孝徳天皇",
+         "孝德天皇" : "孝徳天皇",
+         "孝昭" : "孝昭天皇",
+         "孝昭天皇" : "孝昭天皇",
+         "孝霊" : "孝霊天皇",
+         "孝霊天皇" : "孝霊天皇",
+         "安元" : "安元",
+         "安和" : "安和",
+         "安寧" : "安寧天皇",
+         "安寧天皇" : "安寧天皇",
+         "安康" : "安康天皇",
+         "安康天皇" : "安康天皇",
+         "安政" : "安政",
+         "安永" : "安永",
+         "安貞" : "安貞",
+         "安贞" : "安貞",
+         "安閑" : "安閑天皇",
+         "安閑天皇" : "安閑天皇",
+         "定光" : "定居",
+         "定居" : "定居",
+         "宝亀" : "宝亀",
+         "宝壽" : "宝寿",
+         "宝夀" : "宝寿",
+         "宝寿" : "宝寿",
+         "宝徳" : "宝徳",
+         "宝德" : "宝徳",
+         "宝暦" : "宝暦",
+         "宝曆" : "宝暦",
+         "宝永" : "宝永",
+         "宝治" : "宝治",
+         "宝龜" : "宝亀",
+         "宝龟" : "宝亀",
+         "宣化" : "宣化天皇",
+         "宣化天皇" : "宣化天皇",
+         "寛仁" : "寛仁",
+         "寛保" : "寛保",
+         "寛元" : "寛元",
+         "寛和" : "寛和",
+         "寛喜" : "寛喜",
+         "寛平" : "寛平",
+         "寛延" : "寛延",
+         "寛弘" : "寛弘",
+         "寛徳" : "寛徳",
+         "寛德" : "寛徳",
+         "寛政" : "寛政",
+         "寛文" : "寛文",
+         "寛正" : "寛正",
+         "寛永" : "寛永",
+         "寛治" : "寛治",
+         "寬仁" : "寛仁",
+         "寬保" : "寛保",
+         "寬元" : "寛元",
+         "寬和" : "寛和",
+         "寬喜" : "寛喜",
+         "寬平" : "寛平",
+         "寬延" : "寛延",
+         "寬弘" : "寛弘",
+         "寬徳" : "寛徳",
+         "寬德" : "寛徳",
+         "寬政" : "寛政",
+         "寬文" : "寛文",
+         "寬正" : "寛正",
+         "寬永" : "寛永",
+         "寬治" : "寛治",
+         "寳亀" : "宝亀",
+         "寳壽" : "宝寿",
+         "寳夀" : "宝寿",
+         "寳寿" : "宝寿",
+         "寳徳" : "宝徳",
+         "寳德" : "宝徳",
+         "寳暦" : "宝暦",
+         "寳曆" : "宝暦",
+         "寳永" : "宝永",
+         "寳治" : "宝治",
+         "寳龜" : "宝亀",
+         "寳龟" : "宝亀",
+         "寶亀" : "宝亀",
+         "寶壽" : "宝寿",
+         "寶夀" : "宝寿",
+         "寶寿" : "宝寿",
+         "寶徳" : "宝徳",
+         "寶德" : "宝徳",
+         "寶暦" : "宝暦",
+         "寶曆" : "宝暦",
+         "寶永" : "宝永",
+         "寶治" : "宝治",
+         "寶龜" : "宝亀",
+         "寶龟" : "宝亀",
+         "寿慶" : "寿慶",
+         "寿永" : "寿永",
+         "履中" : "履中天皇",
+         "履中天皇" : "履中天皇",
+         "崇峻" : "崇峻天皇",
+         "崇峻天皇" : "崇峻天皇",
+         "崇神" : "崇神天皇",
+         "崇神天皇" : "崇神天皇",
+         "崇神" : "崇神天皇",
+         "崇神天皇" : "崇神天皇",
+         "師安" : "師安",
+         "常己" : "常色",
+         "常色" : "常色",
+         "常邑" : "常色",
+         "平" : "平成",
+         "平成" : "平成",
+         "平治" : "平治",
+         "康保" : "康保",
+         "康元" : "康元",
+         "康和" : "康和",
+         "康安" : "康安",
+         "康平" : "康平",
+         "康応" : "康応",
+         "康應" : "康応",
+         "康暦" : "康暦",
+         "康曆" : "康暦",
+         "康正" : "康正",
+         "康永" : "康永",
+         "康治" : "康治",
+         "延久" : "延久",
+         "延享" : "延享",
+         "延元" : "延元",
+         "延喜" : "延喜",
+         "延壽" : "延寿",
+         "延夀" : "延寿",
+         "延宝" : "延宝",
+         "延寳" : "延宝",
+         "延寶" : "延宝",
+         "延寿" : "延寿",
+         "延徳" : "延徳",
+         "延德" : "延徳",
+         "延応" : "延応",
+         "延慶" : "延慶",
+         "延應" : "延応",
+         "延文" : "延文",
+         "延暦" : "延暦",
+         "延曆" : "延暦",
+         "延長" : "延長",
+         "建久" : "建久",
+         "建仁" : "建仁",
+         "建保" : "建保",
+         "建徳" : "建徳",
+         "建德" : "建徳",
+         "建敎" : "建教",
+         "建教" : "建教",
+         "建暦" : "建暦",
+         "建曆" : "建暦",
+         "建武" : "建武",
+         "建永" : "建永",
+         "建治" : "建治",
+         "建長" : "建長",
+         "弘仁" : "弘仁",
+         "弘元" : "光充",
+         "弘化" : "弘化",
+         "弘和" : "弘和",
+         "弘安" : "弘安",
+         "弘徳" : "弘徳",
+         "弘德" : "弘徳",
+         "弘文" : "弘文天皇",
+         "弘文天皇" : "弘文天皇",
+         "弘治" : "弘治",
+         "弘長" : "弘長",
+         "弥勒" : "弥勒",
+         "張六" : "長禄",
+         "征露" : "征露",
+         "従貴" : "告貴",
+         "徳応" : "徳応",
+         "徳應" : "徳応",
+         "徳昌" : "徳昌",
+         "徳治" : "徳治",
+         "德応" : "徳応",
+         "德應" : "徳応",
+         "德昌" : "徳昌",
+         "德治" : "徳治",
+         "応享" : "応享",
+         "応仁" : "応仁",
+         "応保" : "応保",
+         "応和" : "応和",
+         "応安" : "応安",
+         "応徳" : "応徳",
+         "応德" : "応徳",
+         "応永" : "応永",
+         "応治" : "応治",
+         "応神" : "応神天皇",
+         "応神天皇" : "応神天皇",
+         "応長" : "応長",
+         "応神" : "応神天皇",
+         "応神天皇" : "応神天皇",
+         "慶" : "慶応",
+         "慶喜" : "慶喜",
+         "慶安" : "慶安",
+         "慶応" : "慶応",
+         "慶應" : "慶応",
+         "慶長" : "慶長",
+         "慶雲" : "慶雲",
+         "應享" : "応享",
+         "應仁" : "応仁",
+         "應保" : "応保",
+         "應和" : "応和",
+         "應安" : "応安",
+         "應徳" : "応徳",
+         "應德" : "応徳",
+         "應永" : "応永",
+         "應治" : "応治",
+         "應神" : "応神天皇",
+         "應神天皇" : "応神天皇",
+         "應長" : "応長",
+         "應神" : "応神天皇",
+         "應神天皇" : "応神天皇",
+         "懿徳" : "懿徳天皇",
+         "懿徳天皇" : "懿徳天皇",
+         "懿德" : "懿徳天皇",
+         "懿德天皇" : "懿徳天皇",
+         "成務" : "成務天皇",
+         "成務天皇" : "成務天皇",
+         "承久" : "承久",
+         "承保" : "承保",
+         "承元" : "承元",
+         "承和" : "承和",
+         "承安" : "承安",
+         "承平" : "承平",
+         "承徳" : "承徳",
+         "承德" : "承徳",
+         "承応" : "承応",
+         "承應" : "承応",
+         "承暦" : "承暦",
+         "承曆" : "承暦",
+         "持統" : "持統天皇",
+         "持統天皇" : "持統天皇",
+         "推古" : "推古天皇",
+         "推古天皇" : "推古天皇",
+         "敎倒" : "教到",
+         "敎到" : "教到",
+         "敎知" : "教到",
+         "敏達" : "敏達天皇",
+         "敏達天皇" : "敏達天皇",
+         "教倒" : "教到",
+         "教到" : "教到",
+         "教知" : "教到",
+         "文中" : "文中",
+         "文久" : "文久",
+         "文亀" : "文亀",
+         "文保" : "文保",
+         "文化" : "文化",
+         "文和" : "文和",
+         "文安" : "文安",
+         "文徳" : "文徳",
+         "文德" : "文徳",
+         "文応" : "文応",
+         "文應" : "文応",
+         "文政" : "文政",
+         "文明" : "文明",
+         "文暦" : "文暦",
+         "文曆" : "文暦",
+         "文正" : "文正",
+         "文武" : "文武天皇",
+         "文武天皇" : "文武天皇",
+         "文永" : "文永",
+         "文治" : "文治",
+         "文祿" : "文禄",
+         "文禄" : "文禄",
+         "文鬼" : "文鬼",
+         "文龜" : "文亀",
+         "文龟" : "文亀",
+         "斉明" : "斉明天皇",
+         "斉明天皇" : "斉明天皇",
+         "斉衡" : "斉衡",
+         "斎明" : "斉明天皇",
+         "斎明天皇" : "斉明天皇",
+         "斎衡" : "斉衡",
+         "昌泰" : "昌泰",
+         "明" : "明治",
+         "明和" : "明和",
+         "明安" : "明要",
+         "明徳" : "明徳",
+         "明德" : "明徳",
+         "明応" : "明応",
+         "明應" : "明応",
+         "明暦" : "明暦",
+         "明曆" : "明暦",
+         "明治" : "明治",
+         "明要" : "明要",
+         "明長" : "命長",
+         "昭" : "昭和",
+         "昭和" : "昭和",
+         "景縄" : "倭京縄",
+         "景行" : "景行天皇",
+         "景行天皇" : "景行天皇",
+         "暦仁" : "暦仁",
+         "暦応" : "暦応",
+         "暦應" : "暦応",
+         "曆仁" : "暦仁",
+         "曆応" : "暦応",
+         "曆應" : "暦応",
+         "朱雀" : "朱雀",
+         "朱鳥" : "朱鳥",
+         "栄正" : "永正",
+         "核時代" : "核時代",
+         "欽明" : "欽明天皇",
+         "欽明天皇" : "欽明天皇",
+         "正中" : "正中",
+         "正久" : "正久",
+         "正亨" : "正亨",
+         "正享" : "正亨",
+         "正京" : "正亨",
+         "正保" : "正保",
+         "正元" : "正元",
+         "正和" : "正和",
+         "正嘉" : "正嘉",
+         "正安" : "正安",
+         "正平" : "正平",
+         "正徳" : "正徳",
+         "正德" : "正徳",
+         "正応" : "正応",
+         "正慶" : "正慶",
+         "正應" : "正応",
+         "正暦" : "正暦",
+         "正曆" : "正暦",
+         "正治" : "正治",
+         "正法" : "正法",
+         "正知" : "正和(丙午)",
+         "正見" : "正見",
+         "正長" : "正長",
+         "武烈" : "武烈天皇",
+         "武烈天皇" : "武烈天皇",
+         "殷到" : "教到",
+         "永万" : "永万",
+         "永久" : "永久",
+         "永亀" : "永喜",
+         "永享" : "永享",
+         "永仁" : "永仁",
+         "永伝" : "永伝",
+         "永保" : "永保",
+         "永和" : "永和",
+         "永喜" : "永喜",
+         "永宝" : "永宝",
+         "永寧" : "永享",
+         "永寳" : "永宝",
+         "永寶" : "永宝",
+         "永幻" : "永幻",
+         "永延" : "永延",
+         "永徳" : "永徳",
+         "永德" : "永徳",
+         "永承" : "永承",
+         "永暦" : "永暦",
+         "永曆" : "永暦",
+         "永楽" : "永楽",
+         "永正" : "永正",
+         "永治" : "永治",
+         "永祚" : "永祚",
+         "永祿" : "永禄",
+         "永禄" : "永禄",
+         "永福" : "永福",
+         "永萬" : "永万",
+         "永覌" : "永観",
+         "永観" : "永観",
+         "永觀" : "永観",
+         "永观" : "永観",
+         "永長" : "永長",
+         "永龜" : "永喜",
+         "永龟" : "永喜",
+         "永福" : "永福",
+         "永𣴎" : "永承",
+         "治安" : "治安",
+         "治承" : "治承",
+         "治暦" : "治暦",
+         "治曆" : "治暦",
+         "治𣴎" : "治承",
+         "法徳" : "法徳",
+         "法德" : "法徳",
+         "法淸" : "法清",
+         "法清" : "法清",
+         "法興" : "法興",
+         "法靖" : "法清",
+         "法靖" : "法清",
+         "泰平" : "泰平",
+         "淸寧" : "清寧天皇",
+         "淸寧天皇" : "清寧天皇",
+         "清寧" : "清寧天皇",
+         "清寧天皇" : "清寧天皇",
+         "烈擲" : "列滴",
+         "照勝" : "勝照",
+         "煩転" : "願転",
+         "王徳" : "王徳",
+         "王德" : "王徳",
+         "璽至" : "璽至",
+         "用明" : "用明天皇",
+         "用明天皇" : "用明天皇",
+         "発倒" : "教到",
+         "白亀" : "神亀",
+         "白祿" : "白禄",
+         "白禄" : "白禄",
+         "白雉" : "白雉",
+         "白鳳" : "白鳳",
+         "白鳳雉" : "白鳳雉",
+         "白鹿" : "白鹿",
+         "白龜" : "神亀",
+         "白龟" : "神亀",
+         "皇極" : "皇極天皇",
+         "皇極天皇" : "皇極天皇",
+         "真賀" : "真賀",
+         "知僧" : "知僧",
+         "神亀" : "神亀",
+         "神功皇后" : "神功皇后摂政",
+         "神功皇后摂政" : "神功皇后摂政",
+         "神功皇后摄政" : "神功皇后摂政",
+         "神功皇后攝政" : "神功皇后摂政",
+         "神徳" : "神徳",
+         "神德" : "神徳",
+         "神武" : "神武天皇",
+         "神武天皇" : "神武天皇",
+         "神治" : "神治",
+         "神護景雲" : "神護景雲",
+         "神龜" : "神亀",
+         "神龟" : "神亀",
+         "福壽" : "福寿",
+         "福夀" : "福寿",
+         "福安" : "福安",
+         "福寿" : "福寿",
+         "福徳" : "福徳",
+         "福德" : "福徳",
+         "立徳" : "立徳",
+         "立德" : "立徳",
+         "端改" : "端政",
+         "端政" : "端政",
+         "端正" : "端政",
+         "節中" : "節中",
+         "経明" : "経明",
+         "結淸" : "法清",
+         "結清" : "法清",
+         "綏靖" : "綏靖天皇",
+         "綏靖天皇" : "綏靖天皇",
+         "綏靖" : "綏靖天皇",
+         "綏靖天皇" : "綏靖天皇",
+         "継体" : "継体天皇",
+         "継体天皇" : "継体天皇",
+         "継體" : "継体天皇",
+         "継體天皇" : "継体天皇",
+         "繼体" : "継体天皇",
+         "繼体天皇" : "継体天皇",
+         "繼體" : "継体天皇",
+         "繼體天皇" : "継体天皇",
+         "聖徳" : "聖徳",
+         "聖德" : "聖徳",
+         "自由自治" : "自由自治",
+         "至大" : "至大",
+         "至徳" : "至徳",
+         "至德" : "至徳",
+         "興囯" : "興国",
+         "興国" : "興国",
+         "興國" : "興国",
+         "興徳" : "興徳",
+         "興德" : "興徳",
+         "舒明" : "舒明天皇",
+         "舒明天皇" : "舒明天皇",
+         "萬壽" : "万寿",
+         "萬夀" : "万寿",
+         "萬寿" : "万寿",
+         "萬平" : "泰平",
+         "萬延" : "万延",
+         "萬治" : "万治",
+         "蔵和" : "蔵知",
+         "蔵知" : "蔵知",
+         "見知" : "見聖",
+         "見縄" : "倭京縄",
+         "見聖" : "見聖",
+         "覌応" : "観応",
+         "覌應" : "観応",
+         "観応" : "観応",
+         "観應" : "観応",
+         "觀応" : "観応",
+         "觀應" : "観応",
+         "观応" : "観応",
+         "观應" : "観応",
+         "証明" : "証明",
+         "貞享" : "貞享",
+         "貞元" : "貞元",
+         "貞和" : "貞和",
+         "貞応" : "貞応",
+         "貞應" : "貞応",
+         "貞永" : "貞永",
+         "貞治" : "貞治",
+         "貞覌" : "貞観",
+         "貞観" : "貞観",
+         "貞觀" : "貞観",
+         "貞观" : "貞観",
+         "貴楽" : "貴楽",
+         "賢伝" : "賢称",
+         "賢接" : "賢称",
+         "賢棲" : "賢称",
+         "賢称" : "賢称",
+         "賢輔" : "賢称",
+         "贞享" : "貞享",
+         "贞元" : "貞元",
+         "贞和" : "貞和",
+         "贞応" : "貞応",
+         "贞應" : "貞応",
+         "贞永" : "貞永",
+         "贞治" : "貞治",
+         "贞覌" : "貞観",
+         "贞観" : "貞観",
+         "贞觀" : "貞観",
+         "贞观" : "貞観",
+         "贤伝" : "賢称",
+         "贤接" : "賢称",
+         "贤棲" : "賢称",
+         "贤称" : "賢称",
+         "贤輔" : "賢称",
+         "身祿" : "弥勒",
+         "身禄" : "弥勒",
+         "転願" : "願転",
+         "迎雲" : "迎雲",
+         "金光" : "金光",
+         "鏡常" : "鏡常",
+         "鏡照" : "鏡常",
+         "鏡當" : "鏡當",
+         "長久" : "長久",
+         "長享" : "長享",
+         "長保" : "長保",
+         "長元" : "長元",
+         "長命" : "命長",
+         "長和" : "長和",
+         "長嘉" : "長嘉",
+         "長寛" : "長寛",
+         "長寬" : "長寛",
+         "長徳" : "長徳",
+         "長德" : "長徳",
+         "長承" : "長承",
+         "長暦" : "長暦",
+         "長曆" : "長暦",
+         "長治" : "長治",
+         "長祿" : "長禄",
+         "長禄" : "長禄",
+         "長𣴎" : "長承",
+         "開化" : "開化天皇",
+         "開化天皇" : "開化天皇",
+         "雄略" : "雄略天皇",
+         "雄略天皇" : "雄略天皇",
+         "霊亀" : "霊亀",
+         "霊壽" : "霊寿",
+         "霊夀" : "霊寿",
+         "霊寿" : "霊寿",
+         "霊龜" : "霊亀",
+         "霊龟" : "霊亀",
+         "顕宗" : "顕宗天皇",
+         "顕宗天皇" : "顕宗天皇",
+         "願博" : "願転",
+         "願転" : "願転",
+         "顯宗" : "顕宗天皇",
+         "顯宗天皇" : "顕宗天皇",
+         "養和" : "養和",
+         "養老" : "養老",
+         "齊明" : "斉明天皇",
+         "齊明天皇" : "斉明天皇",
+         "齊衡" : "斉衡",
+         "齋明" : "斉明天皇",
+         "齋明天皇" : "斉明天皇",
+         "齋衡" : "斉衡",
+         "神亀" : "神亀",
+         "神功皇后" : "神功皇后摂政",
+         "神功皇后摂政" : "神功皇后摂政",
+         "神功皇后摄政" : "神功皇后摂政",
+         "神功皇后攝政" : "神功皇后摂政",
+         "神徳" : "神徳",
+         "神德" : "神徳",
+         "神武" : "神武天皇",
+         "神武天皇" : "神武天皇",
+         "神治" : "神治",
+         "神護景雲" : "神護景雲",
+         "神龜" : "神亀",
+         "神龟" : "神亀",
+         "福壽" : "福寿",
+         "福夀" : "福寿",
+         "福安" : "福安",
+         "福寿" : "福寿",
+         "福徳" : "福徳",
+         "福德" : "福徳",
+         "敏達" : "敏達天皇",
+         "敏達天皇" : "敏達天皇",
+         "𠮷貴" : "告貴",
+         "𣴎久" : "承久",
+         "𣴎保" : "承保",
+         "𣴎元" : "承元",
+         "𣴎和" : "承和",
+         "𣴎安" : "承安",
+         "𣴎平" : "承平",
+         "𣴎徳" : "承徳",
+         "𣴎德" : "承徳",
+         "𣴎応" : "承応",
+         "𣴎應" : "承応",
+         "𣴎暦" : "承暦",
+         "𣴎曆" : "承暦"
       }
    }
 }

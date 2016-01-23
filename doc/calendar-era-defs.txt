@@ -60,7 +60,7 @@ day
 
 * Structure
 
-The file contains a JSON object with following name/value pair:
+The file contains a JSON object with following name/value pairs:
 
   eras [object]
 
@@ -96,6 +96,11 @@ The file contains a JSON object with following name/value pair:
         end day).  Eras with |jp_north_era| flag are not marked as
         |jp_era|.
 
+      jp_private_era [boolean]
+
+        Whether the era is an unofficial 元号 (i.e. a 元号 that is not
+        known to be defined by any central government) used in Japan.
+
       jp_south_era [boolean]
 
         Whether the era is an official 元号 which was used by Japan's
@@ -124,7 +129,7 @@ The file contains a JSON object with following name/value pair:
         suffix (e.g. "神武" for "神武天皇") and names using different
         spelling (e.g. using traditional variant such as "神武" and "神
         武天皇").  They also include any |name|, |short_name|, |abbr|,
-        and |abbr_latn| of the era.
+        and |abbr_latn| of the era.  (The |key| might not be a name.)
 
       name_kana [string?]
 
@@ -139,11 +144,11 @@ The file contains a JSON object with following name/value pair:
 
         The primary Latin name of the era, if known.
 
-      offset [integer]
+      offset [integer?]
 
-        The offset of the first year from the year AD1.  The number of
-        the year in the era can be obtained by subtracting the
-        |offset| from the AD year
+        The offset of the first year from the year AD1, if known.  The
+        number of the year in the era can be obtained by subtracting
+        the |offset| from the AD year
         <https://manakai.github.io/spec-datetime/#ad-year>.  Note that
         the offset can be negative.
 
@@ -248,6 +253,25 @@ The file contains a JSON object with following name/value pair:
         For values with type [day], the parameter /era/ is set to the
         era.
 
+  name_conflicts
+
+    List of eras which share same name but have different definitions.
+    This is a JSON object whose names are conflicting era names and
+    whose values are their descriptions, as JSON objects whose names
+    are relevant era keys and values are [boolean] true values.
+
+  name_to_key
+
+    Mappings from era names to era keys.  This is a JSON object whose
+    names are strings identifying the mapping and values are their
+    descriptions, as JSON objects whose names are era names and values
+    are corresponding era keys.
+
+    The mapping "jp" is a mapping which should be appropriate for most
+    Japanese contexts.  Now that Japan is the only country using 元号,
+    this should be the global default used when the no context is
+    known.
+
 * See also
 
 If you are trying to implement AD to 元号 conversions, see also
@@ -261,6 +285,12 @@ If you are trying to implement AD to 元号 conversions, see also
 天皇の一覧 - Wikipedia
 <https://ja.wikipedia.org/wiki/%E5%A4%A9%E7%9A%87%E3%81%AE%E4%B8%80%E8%A6%A7>.
 
+私年号 - Wikipedia
+<https://ja.wikipedia.org/wiki/%E7%A7%81%E5%B9%B4%E5%8F%B7>.
+
+九州王朝説 - Wikipedia
+<https://ja.wikipedia.org/wiki/%E4%B9%9D%E5%B7%9E%E7%8E%8B%E6%9C%9D%E8%AA%AC>.
+
 SuikaWiki:元号 <https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7>.
 
 Template:Japanese era names - Wikipedia, the free encyclopedia
@@ -269,8 +299,11 @@ Template:Japanese era names - Wikipedia, the free encyclopedia
 List of Emperors of Japan - Wikipedia, the free encyclopedia
 <https://en.wikipedia.org/wiki/List_of_Emperors_of_Japan>.
 
-年号（元号）の読み方・西暦対照表(音訳の部屋), 2015-11-29 17:43:26
-+09:00 <http://hiramatu-hifuka.com/onyak/rekisi/nenngo.html>.
+年号(元号)の読み方・西暦対照表(音訳の部屋), 2015-11-29 17:43:26 +09:00
+<http://hiramatu-hifuka.com/onyak/rekisi/nenngo.html>.
+
+我が国の私年号に関する研究(二) -- 室町時代 --, 久保常晴
+<http://repository.ris.ac.jp/dspace/bitstream/11266/2900/1/KJ00000189425.pdf>.
 
 * License
 

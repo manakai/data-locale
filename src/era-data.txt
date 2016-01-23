@@ -90,3 +90,20 @@ source
 [慶応]
 source
   url:http://d.hatena.ne.jp/hakuriku/20070701#keo
+
+[白鳳]
+wref_ja 白鳳
+[朱雀]
+wref_ja 朱雀
+[福徳]
+wref_ja 福徳_(私年号)
+[大政]
+wref_ja 大政_(私年号)
+[自由自治]
+wref_ja 自由自治
+[征露]
+wref_ja 征露
+[核時代]
+wref_ja 核時代
+[霊寿]
+wref_ja 璽宇
