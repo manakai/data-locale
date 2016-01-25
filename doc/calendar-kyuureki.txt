@@ -17,11 +17,16 @@ Kyuureki date string
 The |data/calendar/kyuureki-map.txt| file is a date mapping file
 <https://manakai.github.io/spec-datetime/#date-mapping-file> from the
 Gregorian days
-<https://manakai.github.io/spec-datetime/#gregorian-day> and the
+<https://manakai.github.io/spec-datetime/#gregorian-day> to the
 kyuureki days <https://manakai.github.io/spec-datetime/#kyuureki-day>
 in the range kyuureki 667BC-01-01 (the first day of the kyuureki year
 -666) - kyuureki 2100-12-29 (the last day of the kyuureki year 2100),
 inclusive.
+
+Likewise, the |data/calendar/kyuureki-ryuukyuu-map.txt| file is a date
+mapping file from the Gregorian days to the kyuureki days as used in
+Okinawa (Ryuukyuu) area of Japan, where Chinese calendar was used in
+Ryuukyuu Kingdom days.
 
 The first slots of the file are represented as Gregorian date strings
 and the second slots of the file are represented as kyuureki date
@@ -30,13 +35,14 @@ strings.
 The entries are sorted in the ascending order.
 
 Various existing mapping tables and convertion tools use different
-mappings (see kyuureki-diff* files).  The |kyuureki-map.txt| file
-adopts mappings from following sources:
+mappings (see kyuureki-diff* files).  These tables adopt mappings from
+following sources:
 
   日本暦日原典
   日本書紀暦日原典
   20世紀暦
   21世紀暦
+  兩千年中西曆轉換 (for Chinese calendar)
 
 The month numbers of year 2033 and 2034 are chosen as recommended by 一
 般社団法人日本カレンダー暦文化振興協会 (暦文協).
@@ -148,6 +154,8 @@ See SuikaWiki:旧暦 for more information on data sources.
 
 SuikaWiki:旧暦
 <https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6$20368>.
+
+中央研究院 兩千年中西曆轉換 <http://sinocal.sinica.edu.tw/>.
 
 * License
 
