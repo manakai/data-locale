@@ -2,7 +2,7 @@ Scalar::Util~1.42
 File::Spec~3.62
 Test::NoWarnings~1.04
 Unicode::Normalize~1.25
-Encode~2.79
+Encode~2.80
 Time::Local~1.2300
 Path::Tiny~0.076
 parent~0.234
