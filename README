@@ -19,6 +19,8 @@ See documentations for details in doc/ directory.
     data/calendar/era-defs.json
     doc/calendar-era-systems.txt       Era systems
     data/calendar/era-systems.json
+    doc/calendar-day-era.txt           Era mapping data
+    data/calendar/day-era
     doc/datetime-months.txt            Months
     data/datetime/months.json
     doc/datetime-weeks.txt             Weeks

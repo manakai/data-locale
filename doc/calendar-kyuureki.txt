@@ -17,11 +17,12 @@ Kyuureki date string
 The |data/calendar/kyuureki-map.txt| file is a date mapping file
 <https://manakai.github.io/spec-datetime/#date-mapping-file> from the
 Gregorian days
-<https://manakai.github.io/spec-datetime/#gregorian-day> to the
-kyuureki days <https://manakai.github.io/spec-datetime/#kyuureki-day>
-in the range kyuureki 667BC-01-01 (the first day of the kyuureki year
--666) - kyuureki 2100-12-29 (the last day of the kyuureki year 2100),
-inclusive.
+<https://manakai.github.io/spec-datetime/#gregorian-day> serialized as
+Gregorian date strings to the kyuureki days
+<https://manakai.github.io/spec-datetime/#kyuureki-day> serialized as
+kyuureki date strings, in the range kyuureki 667BC-01-01 (the first
+day of the kyuureki year -666) - kyuureki 2100-12-29 (the last day of
+the kyuureki year 2100), inclusive.
 
 Likewise, the |data/calendar/kyuureki-ryuukyuu-map.txt| file is a date
 mapping file from the Gregorian days to the kyuureki days as used in

@@ -56,7 +56,8 @@ data: data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json \
     data/timezones/mail-names.json \
     data/langs/locale-names.json data/langs/plurals.json \
     data/calendar/jp-flagdays.json data/calendar/era-systems.json \
-    data/calendar/era-defs.json
+    data/calendar/era-defs.json \
+    day-era-maps
 clean-data:
 	rm -fr local/cldr-core* local/*.json
 
@@ -135,6 +136,25 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     src/wp-cn-eras.json src/era-china-dups.txt local/number-values.json \
     src/era-viet.txt src/era-korea.txt src/era-tw.txt
 	$(PERL) $< > $@
+
+day-era-maps: \
+    data/calendar/day-era/map-jp.txt \
+    data/calendar/day-era/map-jp-filtered.txt \
+    data/calendar/day-era/map-ryuukyuu.txt \
+    data/calendar/day-era/map-ryuukyuu-filtered.txt
+
+data/calendar/day-era/map-jp.txt: bin/generate-day-era-map.pl \
+    data/calendar/era-systems.json data/calendar/era-defs.json
+	$(PERL) $< jp > $@
+data/calendar/day-era/map-jp-filtered.txt: bin/filter-day-era-map.pl \
+    data/calendar/day-era/map-jp.txt
+	$(PERL) $< data/calendar/day-era/map-jp.txt > $@
+data/calendar/day-era/map-ryuukyuu.txt: bin/generate-day-era-map.pl \
+    data/calendar/era-systems.json data/calendar/era-defs.json
+	$(PERL) $< ryuukyuu > $@
+data/calendar/day-era/map-ryuukyuu-filtered.txt: bin/filter-day-era-map.pl \
+    data/calendar/day-era/map-ryuukyuu.txt
+	$(PERL) $< data/calendar/day-era/map-ryuukyuu.txt > $@
 
 local/era-chars.json: bin/generate-era-chars.pl \
     data/calendar/era-defs.json

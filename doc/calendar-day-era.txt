@@ -1,0 +1,37 @@
+data/calendar/day-era/map-*.txt
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These files contain mappings from days to pairs of era and era year.
+
+  File          Era system   Calendar
+  ------------- ------------ ------------
+  map-jp        jp           Gregorian
+  map-ryuukyuu  ryuukyuu     Gregorian
+
+Files with "-filtered" in their names only contain an interesting
+subset of days.  Files without such suffix contain all days in
+relevant ranges.
+
+These files are date mapping files
+<https://manakai.github.io/spec-datetime/#date-mapping-file> from the
+calendar days <https://manakai.github.io/spec-datetime/#calendar-day>
+to the years.  Gregorian days are serialized as Gregorian date strings
+<https://manakai.github.io/spec-datetime/#gregorian-date-string>.  If
+the year can be represented in the era system, it is represented as an
+era key followed by a U+0020 SPACE character followed by a decimal
+integer representing the year in the era, using optional U+002D
+HYPHEN-MINUS character followed by zero or more ASCII digits.
+
+* Sources
+
+See |doc/calendar-era-systems.txt|.
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of these files.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON files and this
+document has waived all copyright and related or neighboring rights to
+the JSON files and this document.
