@@ -1,0 +1,8138 @@
+{
+   "eras" : [
+      {
+         "caption" : "西漢",
+         "name" : "建元",
+         "name_cn" : "建元",
+         "offset" : -141,
+         "wref" : "建元_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "元光",
+         "name_cn" : "元光",
+         "offset" : -135,
+         "wref" : "元光_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "元朔",
+         "name_cn" : "元朔",
+         "offset" : -129,
+         "wref" : "元朔"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "元狩",
+         "name_cn" : "元狩",
+         "offset" : -123,
+         "wref" : "元狩"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "元鼎",
+         "name_cn" : "元鼎",
+         "offset" : -117,
+         "wref" : "元鼎"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "元封",
+         "name_cn" : "元封",
+         "offset" : -111,
+         "wref" : "元封_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "太初",
+         "name_cn" : "太初",
+         "offset" : -105,
+         "wref" : "太初_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "天漢",
+         "name_cn" : "天汉",
+         "offset" : -101,
+         "wref" : "天汉_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "太始",
+         "name_cn" : "太始",
+         "offset" : -97,
+         "wref" : "太始_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "征和",
+         "name_cn" : "征和",
+         "offset" : -93,
+         "wref" : "征和"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "後元",
+         "name_cn" : "后元",
+         "offset" : -89,
+         "wref" : "後元_(漢武帝)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "始元",
+         "name_cn" : "始元",
+         "offset" : -87,
+         "wref" : "始元_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "元鳳",
+         "name_cn" : "元凤",
+         "offset" : -81,
+         "wref" : "元凤"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "元平",
+         "name_cn" : "元平",
+         "offset" : -75,
+         "wref" : "元平"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "本始",
+         "name_cn" : "本始",
+         "offset" : -74,
+         "wref" : "本始"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "地節",
+         "name_cn" : "地节",
+         "offset" : -70,
+         "wref" : "地节"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "元康",
+         "name_cn" : "元康",
+         "offset" : -66,
+         "wref" : "元康_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "神爵",
+         "name_cn" : "神爵",
+         "offset" : -62,
+         "wref" : "神爵"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "五鳳",
+         "name_cn" : "五凤",
+         "offset" : -58,
+         "wref" : "五凤_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "甘露",
+         "name_cn" : "甘露",
+         "offset" : -54,
+         "wref" : "甘露_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "黃龍",
+         "name_cn" : "黄龙",
+         "offset" : -50,
+         "wref" : "黄龙_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "初元",
+         "name_cn" : "初元",
+         "offset" : -49,
+         "wref" : "初元"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "永光",
+         "name_cn" : "永光",
+         "offset" : -44,
+         "wref" : "永光_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "建昭",
+         "name_cn" : "建昭",
+         "offset" : -39,
+         "wref" : "建昭"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "竟寧",
+         "name_cn" : "竟宁",
+         "offset" : -34,
+         "wref" : "竟宁"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "建始",
+         "name_cn" : "建始",
+         "offset" : -33,
+         "wref" : "建始_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "河平",
+         "name_cn" : "河平",
+         "offset" : -29,
+         "wref" : "河平"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "陽朔",
+         "name_cn" : "阳朔",
+         "offset" : -25,
+         "wref" : "阳朔_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "鴻嘉",
+         "name_cn" : "鸿嘉",
+         "offset" : -21,
+         "wref" : "鸿嘉"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "永始",
+         "name_cn" : "永始",
+         "offset" : -17,
+         "wref" : "永始_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "元延",
+         "name_cn" : "元延",
+         "offset" : -13,
+         "wref" : "元延"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "綏和",
+         "name_cn" : "绥和",
+         "offset" : -9,
+         "wref" : "绥和"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "建平",
+         "name_cn" : "建平",
+         "offset" : -7,
+         "wref" : "建平_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "太初元將",
+         "name_cn" : "太初元将",
+         "offset" : -6,
+         "wref" : "太初元将"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "元壽",
+         "name_cn" : "元寿",
+         "offset" : -3,
+         "wref" : "元寿_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "元始",
+         "name_cn" : "元始",
+         "offset" : 0,
+         "wref" : "元始_(西汉)"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "居攝",
+         "name_cn" : "居摄",
+         "offset" : 5,
+         "wref" : "居摄"
+      },
+      {
+         "caption" : "西漢",
+         "name" : "初始",
+         "name_cn" : "初始",
+         "offset" : 7,
+         "wref" : "初始"
+      },
+      {
+         "caption" : "新朝",
+         "name" : "始建國",
+         "name_cn" : "始建国",
+         "offset" : 8,
+         "wref" : "始建国"
+      },
+      {
+         "caption" : "新朝",
+         "name" : "天鳳",
+         "name_cn" : "天凤",
+         "offset" : 13,
+         "wref" : "天凤"
+      },
+      {
+         "caption" : "新朝",
+         "name" : "地皇",
+         "name_cn" : "地皇",
+         "offset" : 19,
+         "wref" : "地皇_(王莽)"
+      },
+      {
+         "caption" : "更始",
+         "name" : "更始",
+         "name_cn" : "更始",
+         "offset" : 22,
+         "wref" : "更始_(汉更始帝)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "漢復",
+         "name_cn" : "汉复",
+         "offset" : 22,
+         "wref" : "汉复"
+      },
+      {
+         "caption" : "misc",
+         "name" : "龍興",
+         "name_cn" : "龙兴",
+         "offset" : 24,
+         "wref" : "龙兴_(公孙述)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "建世",
+         "name_cn" : "建世",
+         "offset" : 24,
+         "wref" : "建世"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "建武",
+         "name_cn" : "建武",
+         "offset" : 24,
+         "wref" : "建武_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "建武中元",
+         "name_cn" : "建武中元",
+         "offset" : 55,
+         "wref" : "建武中元"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "永平",
+         "name_cn" : "永平",
+         "offset" : 57,
+         "wref" : "永平_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "建初",
+         "name_cn" : "建初",
+         "offset" : 75,
+         "wref" : "建初_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "元和",
+         "name_cn" : "元和",
+         "offset" : 83,
+         "wref" : "元和_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "章和",
+         "name_cn" : "章和",
+         "offset" : 86,
+         "wref" : "章和_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "永元",
+         "name_cn" : "永元",
+         "offset" : 88,
+         "wref" : "永元_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "元興",
+         "name_cn" : "元兴",
+         "offset" : 104,
+         "wref" : "元兴_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "延平",
+         "name_cn" : "延平",
+         "offset" : 105,
+         "wref" : "延平_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "永初",
+         "name_cn" : "永初",
+         "offset" : 106,
+         "wref" : "永初_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "元初",
+         "name_cn" : "元初",
+         "offset" : 113,
+         "wref" : "元初"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "永寧",
+         "name_cn" : "永宁",
+         "offset" : 119,
+         "wref" : "永宁_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "建光",
+         "name_cn" : "建光",
+         "offset" : 120,
+         "wref" : "建光_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "延光",
+         "name_cn" : "延光",
+         "offset" : 121,
+         "wref" : "延光"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "永建",
+         "name_cn" : "永建",
+         "offset" : 125,
+         "wref" : "永建_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "陽嘉",
+         "name_cn" : "阳嘉",
+         "offset" : 131,
+         "wref" : "阳嘉"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "永和",
+         "name_cn" : "永和",
+         "offset" : 135,
+         "wref" : "永和_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "漢安",
+         "name_cn" : "汉安",
+         "offset" : 141,
+         "wref" : "汉安"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "建康",
+         "name_cn" : "建康",
+         "offset" : 143,
+         "wref" : "建康_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "永憙",
+         "name_cn" : "永憙",
+         "offset" : 144,
+         "wref" : "永憙"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "本初",
+         "name_cn" : "本初",
+         "offset" : 145,
+         "wref" : "本初"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "建和",
+         "name_cn" : "建和",
+         "offset" : 146,
+         "wref" : "建和_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "和平",
+         "name_cn" : "和平",
+         "offset" : 149,
+         "wref" : "和平_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "元嘉",
+         "name_cn" : "元嘉",
+         "offset" : 150,
+         "wref" : "元嘉_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "永興",
+         "name_cn" : "永兴",
+         "offset" : 152,
+         "wref" : "永兴_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "永壽",
+         "name_cn" : "永寿",
+         "offset" : 154,
+         "wref" : "永寿_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "延熹",
+         "name_cn" : "延熹",
+         "offset" : 157,
+         "wref" : "延熹"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "永康",
+         "name_cn" : "永康",
+         "offset" : 166,
+         "wref" : "永康_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "建寧",
+         "name_cn" : "建宁",
+         "offset" : 167,
+         "wref" : "建宁_(年号)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "熹平",
+         "name_cn" : "熹平",
+         "offset" : 171,
+         "wref" : "熹平"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "光和",
+         "name_cn" : "光和",
+         "offset" : 177,
+         "wref" : "光和"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "中平",
+         "name_cn" : "中平",
+         "offset" : 183,
+         "wref" : "中平"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "光熹",
+         "name_cn" : "光熹",
+         "offset" : 188,
+         "wref" : "光熹"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "昭寧",
+         "name_cn" : "昭宁",
+         "offset" : 188,
+         "wref" : "昭宁"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "永漢",
+         "name_cn" : "永汉",
+         "offset" : 188,
+         "wref" : "永汉_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "中平",
+         "name_cn" : "中平",
+         "offset" : 188,
+         "wref" : "中平"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "初平",
+         "name_cn" : "初平",
+         "offset" : 189,
+         "wref" : "初平"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "興平",
+         "name_cn" : "兴平",
+         "offset" : 193,
+         "wref" : "兴平_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "建安",
+         "name_cn" : "建安",
+         "offset" : 195,
+         "wref" : "建安_(东汉)"
+      },
+      {
+         "caption" : "東漢",
+         "name" : "延康",
+         "name_cn" : "延康",
+         "offset" : 219,
+         "wref" : "延康_(东汉)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "神上",
+         "name_cn" : "神上",
+         "wref" : "神上"
+      },
+      {
+         "caption" : "曹魏",
+         "name" : "黃初",
+         "name_cn" : "黄初",
+         "offset" : 219,
+         "wref" : "黄初"
+      },
+      {
+         "caption" : "曹魏",
+         "name" : "太和",
+         "name_cn" : "太和",
+         "offset" : 226,
+         "wref" : "太和_(曹魏)"
+      },
+      {
+         "caption" : "曹魏",
+         "name" : "青龍",
+         "name_cn" : "青龙",
+         "offset" : 232,
+         "wref" : "青龙_(曹魏)"
+      },
+      {
+         "caption" : "曹魏",
+         "name" : "景初",
+         "name_cn" : "景初",
+         "offset" : 236,
+         "wref" : "景初"
+      },
+      {
+         "caption" : "曹魏",
+         "name" : "正始",
+         "name_cn" : "正始",
+         "offset" : 239,
+         "wref" : "正始_(曹魏)"
+      },
+      {
+         "caption" : "曹魏",
+         "name" : "嘉平",
+         "name_cn" : "嘉平",
+         "offset" : 248,
+         "wref" : "嘉平_(曹魏)"
+      },
+      {
+         "caption" : "曹魏",
+         "name" : "正元",
+         "name_cn" : "正元",
+         "offset" : 253,
+         "wref" : "正元_(曹魏)"
+      },
+      {
+         "caption" : "曹魏",
+         "name" : "甘露",
+         "name_cn" : "甘露",
+         "offset" : 255,
+         "wref" : "甘露_(曹魏)"
+      },
+      {
+         "caption" : "曹魏",
+         "name" : "景元",
+         "name_cn" : "景元",
+         "offset" : 259,
+         "wref" : "景元"
+      },
+      {
+         "caption" : "曹魏",
+         "name" : "咸熙",
+         "name_cn" : "咸熙",
+         "offset" : 263,
+         "wref" : "咸熙"
+      },
+      {
+         "caption" : "misc",
+         "name" : "紹漢",
+         "name_cn" : "绍汉",
+         "offset" : 236,
+         "wref" : "绍汉"
+      },
+      {
+         "caption" : "蜀漢",
+         "name" : "章武",
+         "name_cn" : "章武",
+         "offset" : 220,
+         "wref" : "章武"
+      },
+      {
+         "caption" : "蜀漢",
+         "name" : "建興",
+         "name_cn" : "建兴",
+         "offset" : 222,
+         "wref" : "建兴_(蜀汉)"
+      },
+      {
+         "caption" : "蜀漢",
+         "name" : "延熙",
+         "name_cn" : "延熙",
+         "offset" : 237,
+         "wref" : "延熙_(蜀汉)"
+      },
+      {
+         "caption" : "蜀漢",
+         "name" : "景耀",
+         "name_cn" : "景耀",
+         "offset" : 257,
+         "wref" : "景耀"
+      },
+      {
+         "caption" : "蜀漢",
+         "name" : "炎興",
+         "name_cn" : "炎兴",
+         "offset" : 262,
+         "wref" : "炎兴"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "黃武",
+         "name_cn" : "黄武",
+         "offset" : 221,
+         "wref" : "黄武"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "黃龍",
+         "name_cn" : "黄龙",
+         "offset" : 228,
+         "wref" : "黄龙_(孙权)"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "嘉禾",
+         "name_cn" : "嘉禾",
+         "offset" : 231,
+         "wref" : "嘉禾_(孙权)"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "赤烏",
+         "name_cn" : "赤乌",
+         "offset" : 237,
+         "wref" : "赤烏"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "太元",
+         "name_cn" : "太元",
+         "offset" : 250,
+         "wref" : "太元_(孙权)"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "神鳳",
+         "name_cn" : "神凤",
+         "offset" : 251,
+         "wref" : "神凤_(孙权)"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "建興",
+         "name_cn" : "建兴",
+         "offset" : 251,
+         "wref" : "建興_(孫亮)"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "五鳳",
+         "name_cn" : "五凤",
+         "offset" : 253,
+         "wref" : "五鳳_(孫亮)"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "太平",
+         "name_cn" : "太平",
+         "offset" : 255,
+         "wref" : "太平_(孫亮)"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "永安",
+         "name_cn" : "永安",
+         "offset" : 257,
+         "wref" : "永安_(东吴)"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "元興",
+         "name_cn" : "元兴",
+         "offset" : 263,
+         "wref" : "元兴_(孙皓)"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "甘露",
+         "name_cn" : "甘露",
+         "offset" : 264,
+         "wref" : "甘露_(孙皓)"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "寶鼎",
+         "name_cn" : "宝鼎",
+         "offset" : 265,
+         "wref" : "宝鼎"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "建衡",
+         "name_cn" : "建衡",
+         "offset" : 268,
+         "wref" : "建衡"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "鳳凰",
+         "name_cn" : "凤凰",
+         "offset" : 271,
+         "wref" : "凤凰_(孙皓)"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "天冊",
+         "name_cn" : "天册",
+         "offset" : 274,
+         "wref" : "天册"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "天璽",
+         "name_cn" : "天玺",
+         "offset" : 275,
+         "wref" : "天玺_(孙皓)"
+      },
+      {
+         "caption" : "孫吳",
+         "name" : "天紀",
+         "name_cn" : "天纪",
+         "offset" : 276,
+         "wref" : "天纪"
+      },
+      {
+         "caption" : "西晉",
+         "name" : "泰始",
+         "name_cn" : "泰始",
+         "offset" : 264,
+         "wref" : "泰始_(西晋)"
+      },
+      {
+         "caption" : "西晉",
+         "name" : "咸寧",
+         "name_cn" : "咸宁",
+         "offset" : 274,
+         "wref" : "咸寧_(西晉)"
+      },
+      {
+         "caption" : "西晉",
+         "name" : "太康",
+         "name_cn" : "太康",
+         "offset" : 279,
+         "wref" : "太康_(西晋)"
+      },
+      {
+         "caption" : "西晉",
+         "name" : "太熙",
+         "name_cn" : "太熙",
+         "offset" : 289,
+         "wref" : "太熙"
+      },
+      {
+         "caption" : "西晉",
+         "name" : "永熙",
+         "name_cn" : "永熙",
+         "offset" : 289,
+         "wref" : "永熙_(西晋)"
+      },
+      {
+         "caption" : "西晉",
+         "name" : "永平",
+         "name_cn" : "永平",
+         "offset" : 290,
+         "wref" : "永平_(西晋)"
+      },
+      {
+         "caption" : "西晉",
+         "name" : "元康",
+         "name_cn" : "元康",
+         "offset" : 290,
+         "wref" : "元康_(西晋)"
+      },
+      {
+         "caption" : "西晉",
+         "name" : "永康",
+         "name_cn" : "永康",
+         "offset" : 299,
+         "wref" : "永康_(西晋)"
+      },
+      {
+         "caption" : "西晉",
+         "name" : "永寧",
+         "name_cn" : "永宁",
+         "offset" : 300,
+         "wref" : "永宁_(西晋)"
+      },
+      {
+         "caption" : "西晉",
+         "name" : "太安",
+         "name_cn" : "太安",
+         "offset" : 301,
+         "wref" : "太安_(西晋)"
+      },
+      {
+         "caption" : "西晉",
+         "name" : "永安",
+         "name_cn" : "永安",
+         "offset" : 303,
+         "wref" : "永安_(西晋)"
+      },
+      {
+         "caption" : "西晉",
+         "name" : "建武",
+         "name_cn" : "建武",
+         "offset" : 303,
+         "wref" : "建武_(西晋)"
+      },
+      {
+         "caption" : "西晉",
+         "name" : "永興",
+         "name_cn" : "永兴",
+         "offset" : 303,
+         "wref" : "永兴_(西晋)"
+      },
+      {
+         "caption" : "西晉",
+         "name" : "光熙",
+         "name_cn" : "光熙",
+         "offset" : 305,
+         "wref" : "光熙"
+      },
+      {
+         "caption" : "西晉",
+         "name" : "永嘉",
+         "name_cn" : "永嘉",
+         "offset" : 306,
+         "wref" : "永嘉_(西晋)"
+      },
+      {
+         "caption" : "西晉",
+         "name" : "建興",
+         "name_cn" : "建兴",
+         "offset" : 312,
+         "wref" : "建兴_(西晋)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "太平",
+         "name_cn" : "太平",
+         "offset" : 299,
+         "wref" : "太平_(赵廞)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "建始",
+         "name_cn" : "建始",
+         "offset" : 300,
+         "wref" : "建始_(司马伦)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "神鳳",
+         "name_cn" : "神凤",
+         "offset" : 302,
+         "wref" : "神凤_(张昌)"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "建武",
+         "name_cn" : "建武",
+         "offset" : 316,
+         "wref" : "建武_(东晋)"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "大興",
+         "name_cn" : "大兴",
+         "offset" : 317,
+         "wref" : "大兴_(东晋)"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "永昌",
+         "name_cn" : "永昌",
+         "offset" : 321,
+         "wref" : "永昌_(东晋)"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "太寧",
+         "name_cn" : "太宁",
+         "offset" : 322,
+         "wref" : "太宁_(东晋)"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "咸和",
+         "name_cn" : "咸和",
+         "offset" : 325,
+         "wref" : "咸和_(东晋)"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "咸康",
+         "name_cn" : "咸康",
+         "offset" : 334,
+         "wref" : "咸康_(东晋)"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "建元",
+         "name_cn" : "建元",
+         "offset" : 342,
+         "wref" : "建元_(东晋)"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "永和",
+         "name_cn" : "永和",
+         "offset" : 344,
+         "wref" : "永和_(东晋)"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "昇平",
+         "name_cn" : "升平",
+         "offset" : 356,
+         "wref" : "升平"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "隆和",
+         "name_cn" : "隆和",
+         "offset" : 361,
+         "wref" : "隆和"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "興寧",
+         "name_cn" : "兴宁",
+         "offset" : 362,
+         "wref" : "兴宁_(东晋)"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "太和",
+         "name_cn" : "太和",
+         "offset" : 365,
+         "wref" : "太和_(东晋)"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "咸安",
+         "name_cn" : "咸安",
+         "offset" : 370,
+         "wref" : "咸安_(年号)"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "寧康",
+         "name_cn" : "宁康",
+         "offset" : 372,
+         "wref" : "宁康"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "太元",
+         "name_cn" : "太元",
+         "offset" : 375,
+         "wref" : "太元_(东晋)"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "隆安",
+         "name_cn" : "隆安",
+         "offset" : 396,
+         "wref" : "隆安_(东晋)"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "元興",
+         "name_cn" : "元兴",
+         "offset" : 401,
+         "wref" : "元兴_(东晋)"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "大亨",
+         "name_cn" : "大亨",
+         "offset" : 401,
+         "wref" : "大亨_(年號)"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "義熙",
+         "name_cn" : "义熙",
+         "offset" : 404,
+         "wref" : "义熙_(东晋)"
+      },
+      {
+         "caption" : "東晉",
+         "name" : "元熙",
+         "name_cn" : "元熙",
+         "offset" : 418,
+         "wref" : "元熙_(东晋)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "建康",
+         "name_cn" : "建康",
+         "offset" : 318,
+         "wref" : "建康_(司马保)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "鳳凰",
+         "name_cn" : "凤凰",
+         "offset" : 369,
+         "wref" : "凤凰_(李金银)"
+      },
+      {
+         "caption" : "桓楚",
+         "name" : "永始",
+         "name_cn" : "永始",
+         "offset" : 402,
+         "wref" : "永始_(桓玄)"
+      },
+      {
+         "caption" : "桓楚",
+         "name" : "天康",
+         "name_cn" : "天康",
+         "offset" : 403,
+         "wref" : "天康_(桓谦)"
+      },
+      {
+         "caption" : "前趙",
+         "name" : "元熙",
+         "name_cn" : "元熙",
+         "offset" : 303,
+         "wref" : "元熙_(前赵)"
+      },
+      {
+         "caption" : "前趙",
+         "name" : "永鳳",
+         "name_cn" : "永凤",
+         "offset" : 307,
+         "wref" : "永凤"
+      },
+      {
+         "caption" : "前趙",
+         "name" : "河瑞",
+         "name_cn" : "河瑞",
+         "offset" : 308,
+         "wref" : "河瑞"
+      },
+      {
+         "caption" : "前趙",
+         "name" : "光興",
+         "name_cn" : "光兴",
+         "offset" : 309,
+         "wref" : "光兴_(前赵)"
+      },
+      {
+         "caption" : "前趙",
+         "name" : "嘉平",
+         "name_cn" : "嘉平",
+         "offset" : 310,
+         "wref" : "嘉平_(前赵)"
+      },
+      {
+         "caption" : "前趙",
+         "name" : "建元",
+         "name_cn" : "建元",
+         "offset" : 314,
+         "wref" : "建元_(前赵)"
+      },
+      {
+         "caption" : "前趙",
+         "name" : "麟嘉",
+         "name_cn" : "麟嘉",
+         "offset" : 315,
+         "wref" : "麟嘉_(前赵)"
+      },
+      {
+         "caption" : "前趙",
+         "name" : "漢昌",
+         "name_cn" : "汉昌",
+         "offset" : 317,
+         "wref" : "汉昌"
+      },
+      {
+         "caption" : "前趙",
+         "name" : "光初",
+         "name_cn" : "光初",
+         "offset" : 317,
+         "wref" : "光初"
+      },
+      {
+         "caption" : "前趙",
+         "name" : "太和",
+         "name_cn" : "太和",
+         "wref" : "太和_(石勒)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "平趙",
+         "name_cn" : "平赵",
+         "offset" : 319,
+         "wref" : "平赵"
+      },
+      {
+         "caption" : "成漢",
+         "name" : "建初",
+         "name_cn" : "建初",
+         "offset" : 302,
+         "wref" : "建初_(成汉)"
+      },
+      {
+         "caption" : "成漢",
+         "name" : "建興",
+         "name_cn" : "建兴",
+         "offset" : 303,
+         "wref" : "建兴_(成汉)"
+      },
+      {
+         "caption" : "成漢",
+         "name" : "晏平",
+         "name_cn" : "晏平",
+         "offset" : 305,
+         "wref" : "晏平"
+      },
+      {
+         "caption" : "成漢",
+         "name" : "玉衡",
+         "name_cn" : "玉衡",
+         "offset" : 310,
+         "wref" : "玉衡_(年号)"
+      },
+      {
+         "caption" : "成漢",
+         "name" : "大武",
+         "name_cn" : "大武",
+         "wref" : "大武_(年号)"
+      },
+      {
+         "caption" : "成漢",
+         "name" : "玉恆",
+         "name_cn" : "玉恒",
+         "offset" : 334,
+         "wref" : "玉恒"
+      },
+      {
+         "caption" : "成漢",
+         "name" : "漢興",
+         "name_cn" : "汉兴",
+         "offset" : 337,
+         "wref" : "汉兴"
+      },
+      {
+         "caption" : "成漢",
+         "name" : "太和",
+         "name_cn" : "太和",
+         "offset" : 343,
+         "wref" : "太和_(成汉)"
+      },
+      {
+         "caption" : "成漢",
+         "name" : "嘉寧",
+         "name_cn" : "嘉宁",
+         "offset" : 345,
+         "wref" : "嘉宁"
+      },
+      {
+         "caption" : "前涼",
+         "dup" : 1,
+         "name" : "建興",
+         "name_cn" : "建兴",
+         "offset" : 316,
+         "wref" : "建兴_(西晋)"
+      },
+      {
+         "caption" : "前涼",
+         "dup" : 1,
+         "name" : "建興",
+         "name_cn" : "建兴",
+         "offset" : 319,
+         "wref" : "建兴_(西晋)"
+      },
+      {
+         "caption" : "前涼",
+         "dup" : 1,
+         "name" : "建興",
+         "name_cn" : "建兴",
+         "offset" : 323,
+         "wref" : "建兴_(西晋)"
+      },
+      {
+         "caption" : "前涼",
+         "dup" : 1,
+         "name" : "建興",
+         "name_cn" : "建兴",
+         "offset" : 345,
+         "wref" : "建兴_(西晋)"
+      },
+      {
+         "caption" : "前涼",
+         "name" : "和平",
+         "name_cn" : "和平",
+         "offset" : 353,
+         "wref" : "和平_(前凉)"
+      },
+      {
+         "caption" : "前涼",
+         "dup" : 1,
+         "name" : "建興",
+         "name_cn" : "建兴",
+         "offset" : 354,
+         "wref" : "建兴_(西晋)"
+      },
+      {
+         "caption" : "前涼",
+         "dup" : 1,
+         "name" : "昇平",
+         "name_cn" : "升平",
+         "offset" : 360,
+         "wref" : "升平"
+      },
+      {
+         "caption" : "前涼",
+         "dup" : 1,
+         "name" : "昇平",
+         "name_cn" : "升平",
+         "offset" : 362,
+         "wref" : "升平"
+      },
+      {
+         "caption" : "misc",
+         "name" : "鳳凰",
+         "name_cn" : "凤凰",
+         "offset" : 385,
+         "wref" : "凤凰_(张大豫)"
+      },
+      {
+         "caption" : "後趙",
+         "name" : "太和",
+         "name_cn" : "太和",
+         "offset" : 327,
+         "wref" : "太和_(后赵)"
+      },
+      {
+         "caption" : "後趙",
+         "name" : "建平",
+         "name_cn" : "建平",
+         "offset" : 329,
+         "wref" : "建平_(后赵)"
+      },
+      {
+         "caption" : "後趙",
+         "name" : "延熙",
+         "name_cn" : "延熙",
+         "offset" : 333,
+         "wref" : "延熙_(后赵)"
+      },
+      {
+         "caption" : "後趙",
+         "name" : "建武",
+         "name_cn" : "建武",
+         "offset" : 334,
+         "wref" : "建武_(后赵)"
+      },
+      {
+         "caption" : "後趙",
+         "name" : "太寧",
+         "name_cn" : "太宁",
+         "offset" : 348,
+         "wref" : "太宁_(后赵)"
+      },
+      {
+         "caption" : "後趙",
+         "name" : "永熙",
+         "name_cn" : "永熙",
+         "wref" : "永熙"
+      },
+      {
+         "caption" : "後趙",
+         "name" : "延興",
+         "name_cn" : "延兴",
+         "wref" : "延兴"
+      },
+      {
+         "caption" : "後趙",
+         "name" : "青龍",
+         "name_cn" : "青龙",
+         "offset" : 349,
+         "wref" : "青龍_(後趙)"
+      },
+      {
+         "caption" : "後趙",
+         "name" : "永寧",
+         "name_cn" : "永宁",
+         "offset" : 349,
+         "wref" : "永宁_(后赵)"
+      },
+      {
+         "caption" : "冉魏",
+         "name" : "永興",
+         "name_cn" : "永兴",
+         "offset" : 349,
+         "wref" : "永兴_(冉魏)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "龍興",
+         "name_cn" : "龙兴",
+         "offset" : 336,
+         "wref" : "龙兴_(侯子光)"
+      },
+      {
+         "caption" : "前燕",
+         "name" : "燕元",
+         "name_cn" : "燕元",
+         "wref" : "燕元"
+      },
+      {
+         "caption" : "前燕",
+         "name" : "元璽",
+         "name_cn" : "元玺",
+         "offset" : 351,
+         "wref" : "元玺"
+      },
+      {
+         "caption" : "前燕",
+         "name" : "光壽",
+         "name_cn" : "光寿",
+         "offset" : 356,
+         "wref" : "光寿"
+      },
+      {
+         "caption" : "前燕",
+         "name" : "建熙",
+         "name_cn" : "建熙",
+         "offset" : 359,
+         "wref" : "建熙"
+      },
+      {
+         "caption" : "前秦",
+         "name" : "皇始",
+         "name_cn" : "皇始",
+         "offset" : 350,
+         "wref" : "皇始_(前秦)"
+      },
+      {
+         "caption" : "前秦",
+         "name" : "壽光",
+         "name_cn" : "寿光",
+         "offset" : 354,
+         "wref" : "寿光_(前秦)"
+      },
+      {
+         "caption" : "前秦",
+         "name" : "永興",
+         "name_cn" : "永兴",
+         "offset" : 356,
+         "wref" : "永兴_(前秦)"
+      },
+      {
+         "caption" : "前秦",
+         "name" : "甘露",
+         "name_cn" : "甘露",
+         "offset" : 358,
+         "wref" : "甘露_(前秦)"
+      },
+      {
+         "caption" : "前秦",
+         "name" : "建元",
+         "name_cn" : "建元",
+         "offset" : 364,
+         "wref" : "建元_(前秦)"
+      },
+      {
+         "caption" : "前秦",
+         "name" : "太安",
+         "name_cn" : "太安",
+         "offset" : 384,
+         "wref" : "太安_(前秦)"
+      },
+      {
+         "caption" : "前秦",
+         "name" : "太初",
+         "name_cn" : "太初",
+         "offset" : 385,
+         "wref" : "太初_(前秦)"
+      },
+      {
+         "caption" : "前秦",
+         "name" : "延初",
+         "name_cn" : "延初",
+         "offset" : 393,
+         "wref" : "延初"
+      },
+      {
+         "caption" : "misc",
+         "name" : "建昌",
+         "name_cn" : "建昌",
+         "offset" : 351,
+         "wref" : "建昌_(張琚)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "黑龍",
+         "name_cn" : "黑龙",
+         "offset" : 373,
+         "wref" : "黑龙"
+      },
+      {
+         "caption" : "misc",
+         "name" : "元光",
+         "name_cn" : "元光",
+         "offset" : 392,
+         "wref" : "元光_(窦冲)"
+      },
+      {
+         "caption" : "後秦",
+         "name" : "白雀",
+         "name_cn" : "白雀",
+         "offset" : 383,
+         "wref" : "白雀"
+      },
+      {
+         "caption" : "後秦",
+         "name" : "建初",
+         "name_cn" : "建初",
+         "offset" : 385,
+         "wref" : "建初_(后秦)"
+      },
+      {
+         "caption" : "後秦",
+         "name" : "皇初",
+         "name_cn" : "皇初",
+         "offset" : 393,
+         "wref" : "皇初"
+      },
+      {
+         "caption" : "後秦",
+         "name" : "弘始",
+         "name_cn" : "弘始",
+         "offset" : 398,
+         "wref" : "弘始"
+      },
+      {
+         "caption" : "後秦",
+         "name" : "永和",
+         "name_cn" : "永和",
+         "offset" : 415,
+         "wref" : "永和_(后秦)"
+      },
+      {
+         "caption" : "後燕",
+         "name" : "燕元",
+         "name_cn" : "燕元",
+         "offset" : 383,
+         "wref" : "燕元"
+      },
+      {
+         "caption" : "後燕",
+         "name" : "建興",
+         "name_cn" : "建兴",
+         "offset" : 385,
+         "wref" : "建興_(後燕)"
+      },
+      {
+         "caption" : "後燕",
+         "name" : "永康",
+         "name_cn" : "永康",
+         "offset" : 395,
+         "wref" : "永康_(后燕)"
+      },
+      {
+         "caption" : "後燕",
+         "name" : "建平",
+         "name_cn" : "建平",
+         "offset" : 397,
+         "wref" : "建平_(后燕)"
+      },
+      {
+         "caption" : "後燕",
+         "name" : "長樂",
+         "name_cn" : "长乐",
+         "offset" : 398,
+         "wref" : "長樂_(後燕)"
+      },
+      {
+         "caption" : "後燕",
+         "name" : "光始",
+         "name_cn" : "光始",
+         "offset" : 400,
+         "wref" : "光始"
+      },
+      {
+         "caption" : "後燕",
+         "name" : "建始",
+         "name_cn" : "建始",
+         "offset" : 406,
+         "wref" : "建始_(后燕)"
+      },
+      {
+         "caption" : "翟魏",
+         "name" : "建光",
+         "name_cn" : "建光",
+         "offset" : 387,
+         "wref" : "建光_(翟遼)"
+      },
+      {
+         "caption" : "翟魏",
+         "name" : "定鼎",
+         "name_cn" : "定鼎",
+         "offset" : 390,
+         "wref" : "定鼎"
+      },
+      {
+         "caption" : "misc",
+         "name" : "建始",
+         "name_cn" : "建始",
+         "offset" : 396,
+         "wref" : "建始_(慕容詳)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "延平",
+         "name_cn" : "延平",
+         "offset" : 396,
+         "wref" : "延平_(慕容麟)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "青龍",
+         "name_cn" : "青龙",
+         "offset" : 397,
+         "wref" : "青龍_(蘭汗)"
+      },
+      {
+         "caption" : "西燕",
+         "name" : "燕興",
+         "name_cn" : "燕兴",
+         "offset" : 383,
+         "wref" : "燕兴"
+      },
+      {
+         "caption" : "西燕",
+         "name" : "更始",
+         "name_cn" : "更始",
+         "offset" : 384,
+         "wref" : "更始_(西燕)"
+      },
+      {
+         "caption" : "西燕",
+         "name" : "昌平",
+         "name_cn" : "昌平",
+         "offset" : 385,
+         "wref" : "昌平_(西燕)"
+      },
+      {
+         "caption" : "西燕",
+         "name" : "建明",
+         "name_cn" : "建明",
+         "offset" : 385,
+         "wref" : "建明_(西燕)"
+      },
+      {
+         "caption" : "西燕",
+         "name" : "建平",
+         "name_cn" : "建平",
+         "offset" : 385,
+         "wref" : "建平_(西燕)"
+      },
+      {
+         "caption" : "西燕",
+         "name" : "建武",
+         "name_cn" : "建武",
+         "offset" : 385,
+         "wref" : "建武_(西燕)"
+      },
+      {
+         "caption" : "西燕",
+         "name" : "中興",
+         "name_cn" : "中兴",
+         "offset" : 385,
+         "wref" : "中興_(西燕)"
+      },
+      {
+         "caption" : "西秦",
+         "name" : "建義",
+         "name_cn" : "建义",
+         "offset" : 384,
+         "wref" : "建义_(西秦)"
+      },
+      {
+         "caption" : "西秦",
+         "name" : "太初",
+         "name_cn" : "太初",
+         "offset" : 387,
+         "wref" : "太初_(西秦)"
+      },
+      {
+         "caption" : "西秦",
+         "name" : "更始",
+         "name_cn" : "更始",
+         "offset" : 408,
+         "wref" : "更始_(西秦)"
+      },
+      {
+         "caption" : "西秦",
+         "name" : "永康",
+         "name_cn" : "永康",
+         "offset" : 411,
+         "wref" : "永康_(西秦)"
+      },
+      {
+         "caption" : "西秦",
+         "name" : "建弘",
+         "name_cn" : "建弘",
+         "offset" : 419,
+         "wref" : "建弘"
+      },
+      {
+         "caption" : "西秦",
+         "name" : "永弘",
+         "name_cn" : "永弘",
+         "offset" : 427,
+         "wref" : "永弘"
+      },
+      {
+         "caption" : "後涼",
+         "name" : "太安",
+         "name_cn" : "太安",
+         "offset" : 385,
+         "wref" : "太安_(后凉)"
+      },
+      {
+         "caption" : "後涼",
+         "name" : "麟嘉",
+         "name_cn" : "麟嘉",
+         "offset" : 388,
+         "wref" : "麟嘉_(后凉)"
+      },
+      {
+         "caption" : "後涼",
+         "name" : "龍飛",
+         "name_cn" : "龙飞",
+         "offset" : 395,
+         "wref" : "龍飛_(後涼)"
+      },
+      {
+         "caption" : "後涼",
+         "name" : "承康",
+         "name_cn" : "承康",
+         "wref" : "承康"
+      },
+      {
+         "caption" : "後涼",
+         "name" : "咸寧",
+         "name_cn" : "咸宁",
+         "offset" : 398,
+         "wref" : "咸寧_(後涼)"
+      },
+      {
+         "caption" : "後涼",
+         "name" : "神鼎",
+         "name_cn" : "神鼎",
+         "offset" : 400,
+         "wref" : "神鼎"
+      },
+      {
+         "caption" : "南涼",
+         "name" : "太初",
+         "name_cn" : "太初",
+         "offset" : 396,
+         "wref" : "太初_(南凉)"
+      },
+      {
+         "caption" : "南涼",
+         "name" : "建和",
+         "name_cn" : "建和",
+         "offset" : 399,
+         "wref" : "建和_(南凉)"
+      },
+      {
+         "caption" : "南涼",
+         "name" : "弘昌",
+         "name_cn" : "弘昌",
+         "offset" : 401,
+         "wref" : "弘昌"
+      },
+      {
+         "caption" : "南涼",
+         "name" : "嘉平",
+         "name_cn" : "嘉平",
+         "offset" : 407,
+         "wref" : "嘉平_(南凉)"
+      },
+      {
+         "caption" : "南燕",
+         "name" : "燕平",
+         "name_cn" : "燕平",
+         "wref" : "燕平"
+      },
+      {
+         "caption" : "南燕",
+         "name" : "建平",
+         "name_cn" : "建平",
+         "offset" : 399,
+         "wref" : "建平_(南燕)"
+      },
+      {
+         "caption" : "南燕",
+         "name" : "太上",
+         "name_cn" : "太上",
+         "offset" : 404,
+         "wref" : "太上"
+      },
+      {
+         "caption" : "misc",
+         "name" : "太平",
+         "name_cn" : "太平",
+         "offset" : 402,
+         "wref" : "太平_(王始)"
+      },
+      {
+         "caption" : "西涼",
+         "name" : "庚子",
+         "name_cn" : "庚子",
+         "offset" : 399,
+         "wref" : "庚子_(西凉)"
+      },
+      {
+         "caption" : "西涼",
+         "name" : "建初",
+         "name_cn" : "建初",
+         "offset" : 404,
+         "wref" : "建初_(西凉)"
+      },
+      {
+         "caption" : "西涼",
+         "name" : "嘉興",
+         "name_cn" : "嘉兴",
+         "offset" : 416,
+         "wref" : "嘉兴_(西凉)"
+      },
+      {
+         "caption" : "西涼",
+         "name" : "永建",
+         "name_cn" : "永建",
+         "offset" : 419,
+         "wref" : "永建_(西凉)"
+      },
+      {
+         "caption" : "夏",
+         "name" : "龍昇",
+         "name_cn" : "龙昇",
+         "offset" : 406,
+         "wref" : "龍昇"
+      },
+      {
+         "caption" : "夏",
+         "name" : "鳳翔",
+         "name_cn" : "凤翔",
+         "offset" : 412,
+         "wref" : "凤翔_(夏)"
+      },
+      {
+         "caption" : "夏",
+         "name" : "昌武",
+         "name_cn" : "昌武",
+         "offset" : 417,
+         "wref" : "昌武"
+      },
+      {
+         "caption" : "夏",
+         "name" : "真興",
+         "name_cn" : "真兴",
+         "offset" : 418,
+         "wref" : "真興"
+      },
+      {
+         "caption" : "夏",
+         "name" : "承光",
+         "name_cn" : "承光",
+         "offset" : 424,
+         "wref" : "承光_(夏)"
+      },
+      {
+         "caption" : "夏",
+         "name" : "勝光",
+         "name_cn" : "胜光",
+         "offset" : 427,
+         "wref" : "胜光"
+      },
+      {
+         "caption" : "北燕",
+         "name" : "正始",
+         "name_cn" : "正始",
+         "offset" : 406,
+         "wref" : "正始_(北燕)"
+      },
+      {
+         "caption" : "北燕",
+         "name" : "太平",
+         "name_cn" : "太平",
+         "offset" : 408,
+         "wref" : "太平_(北燕)"
+      },
+      {
+         "caption" : "北燕",
+         "name" : "太興",
+         "name_cn" : "太兴",
+         "offset" : 430,
+         "wref" : "太兴"
+      },
+      {
+         "caption" : "北涼",
+         "name" : "神璽",
+         "name_cn" : "神玺",
+         "offset" : 396,
+         "wref" : "神玺"
+      },
+      {
+         "caption" : "北涼",
+         "name" : "天璽",
+         "name_cn" : "天玺",
+         "offset" : 398,
+         "wref" : "天玺_(北凉)"
+      },
+      {
+         "caption" : "北涼",
+         "name" : "永安",
+         "name_cn" : "永安",
+         "offset" : 400,
+         "wref" : "永安_(北凉)"
+      },
+      {
+         "caption" : "北涼",
+         "name" : "玄始",
+         "name_cn" : "玄始",
+         "offset" : 411,
+         "wref" : "玄始"
+      },
+      {
+         "caption" : "北涼",
+         "name" : "真興",
+         "name_cn" : "真兴",
+         "wref" : "真興"
+      },
+      {
+         "caption" : "北涼",
+         "name" : "承玄",
+         "name_cn" : "承玄",
+         "offset" : 427,
+         "wref" : "承玄"
+      },
+      {
+         "caption" : "北涼",
+         "name" : "義和",
+         "name_cn" : "义和",
+         "offset" : 430,
+         "wref" : "義和_(北涼)"
+      },
+      {
+         "caption" : "北涼",
+         "name" : "承陽",
+         "name_cn" : "承阳",
+         "wref" : "承陽"
+      },
+      {
+         "caption" : "北涼",
+         "name" : "緣禾",
+         "name_cn" : "缘禾",
+         "wref" : "緣禾"
+      },
+      {
+         "caption" : "北涼",
+         "name" : "承和",
+         "name_cn" : "承和",
+         "offset" : 432,
+         "wref" : "承和_(北凉)"
+      },
+      {
+         "caption" : "北涼",
+         "name" : "太緣",
+         "name_cn" : "太缘",
+         "wref" : "太緣"
+      },
+      {
+         "caption" : "北涼",
+         "name" : "建平",
+         "name_cn" : "建平",
+         "wref" : "建平_(北凉)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "承平",
+         "name_cn" : "承平",
+         "offset" : 442,
+         "wref" : "承平_(沮渠無諱)"
+      },
+      {
+         "caption" : "宋",
+         "name" : "永初",
+         "name_cn" : "永初",
+         "offset" : 419,
+         "wref" : "永初_(刘宋)"
+      },
+      {
+         "caption" : "宋",
+         "name" : "景平",
+         "name_cn" : "景平",
+         "offset" : 422,
+         "wref" : "景平"
+      },
+      {
+         "caption" : "宋",
+         "name" : "元嘉",
+         "name_cn" : "元嘉",
+         "offset" : 423,
+         "wref" : "元嘉_(刘宋)"
+      },
+      {
+         "caption" : "宋",
+         "name" : "孝建",
+         "name_cn" : "孝建",
+         "offset" : 453,
+         "wref" : "孝建"
+      },
+      {
+         "caption" : "宋",
+         "name" : "大明",
+         "name_cn" : "大明",
+         "offset" : 456,
+         "wref" : "大明_(刘宋)"
+      },
+      {
+         "caption" : "宋",
+         "name" : "永光",
+         "name_cn" : "永光",
+         "offset" : 464,
+         "wref" : "永光_(刘宋)"
+      },
+      {
+         "caption" : "宋",
+         "name" : "景和",
+         "name_cn" : "景和",
+         "offset" : 464,
+         "wref" : "景和"
+      },
+      {
+         "caption" : "宋",
+         "name" : "泰始",
+         "name_cn" : "泰始",
+         "offset" : 464,
+         "wref" : "泰始_(刘宋)"
+      },
+      {
+         "caption" : "宋",
+         "name" : "泰豫",
+         "name_cn" : "泰豫",
+         "offset" : 471,
+         "wref" : "泰豫"
+      },
+      {
+         "caption" : "宋",
+         "name" : "元徽",
+         "name_cn" : "元徽",
+         "offset" : 472,
+         "wref" : "元徽"
+      },
+      {
+         "caption" : "宋",
+         "name" : "昇明",
+         "name_cn" : "昇明",
+         "offset" : 476,
+         "wref" : "昇明"
+      },
+      {
+         "caption" : "misc",
+         "name" : "泰始",
+         "name_cn" : "泰始",
+         "offset" : 431,
+         "wref" : "泰始_(程道養)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "建義",
+         "name_cn" : "建义",
+         "offset" : 435,
+         "wref" : "建义_(杨难当)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "太初",
+         "name_cn" : "太初",
+         "offset" : 452,
+         "wref" : "太初_(刘劭)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "建平",
+         "name_cn" : "建平",
+         "offset" : 453,
+         "wref" : "建平_(魯爽)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "永光",
+         "name_cn" : "永光",
+         "offset" : 454,
+         "wref" : "永光_(劉渾)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "義嘉",
+         "name_cn" : "义嘉",
+         "offset" : 465,
+         "wref" : "義嘉"
+      },
+      {
+         "caption" : "齊",
+         "name" : "建元",
+         "name_cn" : "建元",
+         "offset" : 478,
+         "wref" : "建元_(南齐)"
+      },
+      {
+         "caption" : "齊",
+         "name" : "永明",
+         "name_cn" : "永明",
+         "offset" : 482,
+         "wref" : "永明"
+      },
+      {
+         "caption" : "齊",
+         "name" : "隆昌",
+         "name_cn" : "隆昌",
+         "offset" : 493,
+         "wref" : "隆昌_(南齐)"
+      },
+      {
+         "caption" : "齊",
+         "name" : "延興",
+         "name_cn" : "延兴",
+         "offset" : 493,
+         "wref" : "延兴_(南齐)"
+      },
+      {
+         "caption" : "齊",
+         "name" : "建武",
+         "name_cn" : "建武",
+         "offset" : 493,
+         "wref" : "建武_(南齐)"
+      },
+      {
+         "caption" : "齊",
+         "name" : "永泰",
+         "name_cn" : "永泰",
+         "offset" : 497,
+         "wref" : "永泰_(南齐)"
+      },
+      {
+         "caption" : "齊",
+         "name" : "永元",
+         "name_cn" : "永元",
+         "offset" : 498,
+         "wref" : "永元_(南齐)"
+      },
+      {
+         "caption" : "齊",
+         "name" : "中興",
+         "name_cn" : "中兴",
+         "offset" : 500,
+         "wref" : "中兴_(南齐)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "興平",
+         "name_cn" : "兴平",
+         "offset" : 485,
+         "wref" : "兴平_(唐㝢之)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "建義",
+         "name_cn" : "建义",
+         "offset" : 499,
+         "wref" : "建义_(雍道晞)"
+      },
+      {
+         "caption" : "梁",
+         "name" : "天監",
+         "name_cn" : "天监",
+         "offset" : 501,
+         "wref" : "天监"
+      },
+      {
+         "caption" : "梁",
+         "name" : "普通",
+         "name_cn" : "普通",
+         "offset" : 519,
+         "wref" : "普通"
+      },
+      {
+         "caption" : "梁",
+         "name" : "大通",
+         "name_cn" : "大通",
+         "offset" : 526,
+         "wref" : "大通_(南梁)"
+      },
+      {
+         "caption" : "梁",
+         "name" : "中大通",
+         "name_cn" : "中大通",
+         "offset" : 528,
+         "wref" : "中大通"
+      },
+      {
+         "caption" : "梁",
+         "name" : "大同",
+         "name_cn" : "大同",
+         "offset" : 534,
+         "wref" : "大同_(南梁)"
+      },
+      {
+         "caption" : "梁",
+         "name" : "中大同",
+         "name_cn" : "中大同",
+         "offset" : 545,
+         "wref" : "中大同"
+      },
+      {
+         "caption" : "梁",
+         "name" : "太清",
+         "name_cn" : "太清",
+         "offset" : 546,
+         "wref" : "太清"
+      },
+      {
+         "caption" : "梁",
+         "name" : "大寶",
+         "name_cn" : "大宝",
+         "offset" : 549,
+         "wref" : "大宝_(南梁)"
+      },
+      {
+         "caption" : "梁",
+         "name" : "天正",
+         "name_cn" : "天正",
+         "offset" : 550,
+         "wref" : "天正_(南梁)"
+      },
+      {
+         "caption" : "梁",
+         "name" : "承聖",
+         "name_cn" : "承圣",
+         "offset" : 551,
+         "wref" : "承聖"
+      },
+      {
+         "caption" : "梁",
+         "name" : "天成",
+         "name_cn" : "天成",
+         "offset" : 554,
+         "wref" : "天成_(南梁)"
+      },
+      {
+         "caption" : "梁",
+         "name" : "紹泰",
+         "name_cn" : "绍泰",
+         "offset" : 554,
+         "wref" : "紹泰"
+      },
+      {
+         "caption" : "梁",
+         "name" : "太平",
+         "name_cn" : "太平",
+         "offset" : 555,
+         "wref" : "太平_(南梁)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "上願",
+         "name_cn" : "上愿",
+         "offset" : 534,
+         "wref" : "上願"
+      },
+      {
+         "caption" : "misc",
+         "name" : "永漢",
+         "name_cn" : "永汉",
+         "offset" : 541,
+         "wref" : "永漢_(劉敬躬)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "正平",
+         "name_cn" : "正平",
+         "offset" : 547,
+         "wref" : "正平_(蕭正德)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "太始",
+         "name_cn" : "太始",
+         "offset" : 550,
+         "wref" : "太始_(侯景)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天正",
+         "name_cn" : "天正",
+         "offset" : 551,
+         "wref" : "天正_(蕭紀)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天啟",
+         "name_cn" : "天启",
+         "offset" : 557,
+         "wref" : "天启_(萧庄)"
+      },
+      {
+         "caption" : "西梁",
+         "name" : "大定",
+         "name_cn" : "大定",
+         "offset" : 554,
+         "wref" : "大定_(西梁)"
+      },
+      {
+         "caption" : "西梁",
+         "name" : "天保",
+         "name_cn" : "天保",
+         "offset" : 561,
+         "wref" : "天保_(西梁)"
+      },
+      {
+         "caption" : "西梁",
+         "name" : "廣運",
+         "name_cn" : "广运",
+         "offset" : 585,
+         "wref" : "广运_(西梁)"
+      },
+      {
+         "caption" : "陳",
+         "name" : "永定",
+         "name_cn" : "永定",
+         "offset" : 556,
+         "wref" : "永定_(南朝陳)"
+      },
+      {
+         "caption" : "陳",
+         "name" : "天嘉",
+         "name_cn" : "天嘉",
+         "offset" : 559,
+         "wref" : "天嘉"
+      },
+      {
+         "caption" : "陳",
+         "name" : "天康",
+         "name_cn" : "天康",
+         "offset" : 565,
+         "wref" : "天康_(南朝陈)"
+      },
+      {
+         "caption" : "陳",
+         "name" : "光大",
+         "name_cn" : "光大",
+         "offset" : 566,
+         "wref" : "光大"
+      },
+      {
+         "caption" : "陳",
+         "name" : "太建",
+         "name_cn" : "太建",
+         "offset" : 568,
+         "wref" : "太建"
+      },
+      {
+         "caption" : "陳",
+         "name" : "至德",
+         "name_cn" : "至德",
+         "offset" : 582,
+         "wref" : "至德_(南朝陈)"
+      },
+      {
+         "caption" : "陳",
+         "name" : "禎明",
+         "name_cn" : "祯明",
+         "offset" : 586,
+         "wref" : "禎明"
+      },
+      {
+         "caption" : "代國",
+         "name" : "建國",
+         "name_cn" : "建国",
+         "offset" : 337,
+         "wref" : "建国_(代)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "登國",
+         "name_cn" : "登国",
+         "offset" : 385,
+         "wref" : "登国"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "皇始",
+         "name_cn" : "皇始",
+         "offset" : 395,
+         "wref" : "皇始_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "天興",
+         "name_cn" : "天兴",
+         "offset" : 397,
+         "wref" : "天兴_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "天賜",
+         "name_cn" : "天赐",
+         "offset" : 403,
+         "wref" : "天赐_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "永興",
+         "name_cn" : "永兴",
+         "offset" : 408,
+         "wref" : "永兴_(拓跋嗣)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "神瑞",
+         "name_cn" : "神瑞",
+         "offset" : 413,
+         "wref" : "神瑞"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "泰常",
+         "name_cn" : "泰常",
+         "offset" : 415,
+         "wref" : "泰常"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "始光",
+         "name_cn" : "始光",
+         "offset" : 423,
+         "wref" : "始光"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "神䴥",
+         "name_cn" : "神䴥",
+         "offset" : 427,
+         "wref" : "神䴥"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "延和",
+         "name_cn" : "延和",
+         "offset" : 431,
+         "wref" : "延和_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "太延",
+         "name_cn" : "太延",
+         "offset" : 434,
+         "wref" : "太延"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "太平真君",
+         "name_cn" : "太平真君",
+         "offset" : 439,
+         "wref" : "太平真君"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "正平",
+         "name_cn" : "正平",
+         "offset" : 450,
+         "wref" : "正平_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "承平",
+         "name_cn" : "承平",
+         "offset" : 451,
+         "wref" : "承平_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "興安",
+         "name_cn" : "兴安",
+         "offset" : 451,
+         "wref" : "兴安_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "興光",
+         "name_cn" : "兴光",
+         "offset" : 453,
+         "wref" : "兴光"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "太安",
+         "name_cn" : "太安",
+         "offset" : 454,
+         "wref" : "太安_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "和平",
+         "name_cn" : "和平",
+         "offset" : 459,
+         "wref" : "和平_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "天安",
+         "name_cn" : "天安",
+         "offset" : 465,
+         "wref" : "天安_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "皇興",
+         "name_cn" : "皇兴",
+         "offset" : 466,
+         "wref" : "皇兴"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "延興",
+         "name_cn" : "延兴",
+         "offset" : 470,
+         "wref" : "延兴_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "承明",
+         "name_cn" : "承明",
+         "offset" : 475,
+         "wref" : "承明"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "太和",
+         "name_cn" : "太和",
+         "offset" : 476,
+         "wref" : "太和_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "景明",
+         "name_cn" : "景明",
+         "offset" : 499,
+         "wref" : "景明"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "正始",
+         "name_cn" : "正始",
+         "offset" : 503,
+         "wref" : "正始_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "永平",
+         "name_cn" : "永平",
+         "offset" : 507,
+         "wref" : "永平_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "延昌",
+         "name_cn" : "延昌",
+         "offset" : 511,
+         "wref" : "延昌_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "熙平",
+         "name_cn" : "熙平",
+         "offset" : 515,
+         "wref" : "熙平"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "神龜",
+         "name_cn" : "神龟",
+         "offset" : 517,
+         "wref" : "神龜_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "正光",
+         "name_cn" : "正光",
+         "offset" : 519,
+         "wref" : "正光"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "孝昌",
+         "name_cn" : "孝昌",
+         "offset" : 524,
+         "wref" : "孝昌_(年号)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "武泰",
+         "name_cn" : "武泰",
+         "offset" : 527,
+         "wref" : "武泰"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "建義",
+         "name_cn" : "建义",
+         "offset" : 527,
+         "wref" : "建義_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "永安",
+         "name_cn" : "永安",
+         "offset" : 527,
+         "wref" : "永安_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "建明",
+         "name_cn" : "建明",
+         "offset" : 529,
+         "wref" : "建明_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "普泰",
+         "name_cn" : "普泰",
+         "offset" : 530,
+         "wref" : "普泰"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "中興",
+         "name_cn" : "中兴",
+         "offset" : 530,
+         "wref" : "中兴_(北魏)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "太昌",
+         "name_cn" : "太昌",
+         "offset" : 531,
+         "wref" : "太昌"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "永興",
+         "name_cn" : "永兴",
+         "offset" : 531,
+         "wref" : "永兴_(元修)"
+      },
+      {
+         "caption" : "北魏",
+         "name" : "永熙",
+         "name_cn" : "永熙",
+         "offset" : 531,
+         "wref" : "永熙_(北魏)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "建平",
+         "name_cn" : "建平",
+         "offset" : 414,
+         "wref" : "建平_(白亚栗斯)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "聖君",
+         "name_cn" : "圣君",
+         "offset" : 470,
+         "wref" : "聖君"
+      },
+      {
+         "caption" : "misc",
+         "name" : "正始",
+         "name_cn" : "正始",
+         "wref" : "正始_(北魏)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "建明",
+         "name_cn" : "建明",
+         "offset" : 505,
+         "wref" : "建明_(呂苟兒)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "聖明",
+         "name_cn" : "圣明",
+         "offset" : 505,
+         "wref" : "圣明_(陈瞻)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "建平",
+         "name_cn" : "建平",
+         "offset" : 507,
+         "wref" : "建平_(北魏京兆王)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "大乘",
+         "name_cn" : "大乘",
+         "offset" : 514,
+         "wref" : "法慶事件"
+      },
+      {
+         "caption" : "misc",
+         "name" : "真王",
+         "name_cn" : "真王",
+         "offset" : 523,
+         "wref" : "真王_(破六韩拔陵)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天建",
+         "name_cn" : "天建",
+         "offset" : 523,
+         "wref" : "天建"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天啟",
+         "name_cn" : "天启",
+         "offset" : 524,
+         "wref" : "天启_(元法僧)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "真王",
+         "name_cn" : "真王",
+         "offset" : 524,
+         "wref" : "真王_(杜洛周)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "神嘉",
+         "name_cn" : "神嘉",
+         "offset" : 524,
+         "wref" : "神嘉"
+      },
+      {
+         "caption" : "misc",
+         "name" : "魯興",
+         "name_cn" : "鲁兴",
+         "offset" : 525,
+         "wref" : "魯興"
+      },
+      {
+         "caption" : "misc",
+         "name" : "始建",
+         "name_cn" : "始建",
+         "wref" : "始建"
+      },
+      {
+         "caption" : "misc",
+         "name" : "廣安",
+         "name_cn" : "广安",
+         "offset" : 525,
+         "wref" : "广安_(葛荣)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天授",
+         "name_cn" : "天授",
+         "offset" : 526,
+         "wref" : "天授_(刘获)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "隆緒",
+         "name_cn" : "隆绪",
+         "offset" : 526,
+         "wref" : "隆緒"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天統",
+         "name_cn" : "天统",
+         "offset" : 527,
+         "wref" : "天统_(邢杲)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "神獸",
+         "name_cn" : "神兽",
+         "offset" : 527,
+         "wref" : "神獸"
+      },
+      {
+         "caption" : "misc",
+         "name" : "孝基",
+         "name_cn" : "孝基",
+         "offset" : 528,
+         "wref" : "孝基"
+      },
+      {
+         "caption" : "misc",
+         "name" : "建武",
+         "name_cn" : "建武",
+         "offset" : 528,
+         "wref" : "建武_(元顥)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "更興",
+         "name_cn" : "更兴",
+         "offset" : 529,
+         "wref" : "更兴"
+      },
+      {
+         "caption" : "東魏",
+         "name" : "天平",
+         "name_cn" : "天平",
+         "offset" : 533,
+         "wref" : "天平_(东魏)"
+      },
+      {
+         "caption" : "東魏",
+         "name" : "元象",
+         "name_cn" : "元象",
+         "offset" : 537,
+         "wref" : "元象"
+      },
+      {
+         "caption" : "東魏",
+         "name" : "興和",
+         "name_cn" : "兴和",
+         "offset" : 538,
+         "wref" : "兴和_(年号)"
+      },
+      {
+         "caption" : "東魏",
+         "name" : "武定",
+         "name_cn" : "武定",
+         "offset" : 542,
+         "wref" : "武定_(东魏)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "平都",
+         "name_cn" : "平都",
+         "offset" : 535,
+         "wref" : "平都"
+      },
+      {
+         "caption" : "西魏",
+         "name" : "大統",
+         "name_cn" : "大统",
+         "offset" : 534,
+         "wref" : "大统_(西魏)"
+      },
+      {
+         "caption" : "西魏",
+         "name" : "乾明",
+         "name_cn" : "乾明",
+         "wref" : "乾明"
+      },
+      {
+         "caption" : "北齊",
+         "name" : "天保",
+         "name_cn" : "天保",
+         "offset" : 549,
+         "wref" : "天保_(北齐)"
+      },
+      {
+         "caption" : "北齊",
+         "name" : "乾明",
+         "name_cn" : "乾明",
+         "offset" : 559,
+         "wref" : "乾明"
+      },
+      {
+         "caption" : "北齊",
+         "name" : "皇建",
+         "name_cn" : "皇建",
+         "offset" : 559,
+         "wref" : "皇建_(北齐)"
+      },
+      {
+         "caption" : "北齊",
+         "name" : "太寧",
+         "name_cn" : "太宁",
+         "offset" : 560,
+         "wref" : "太宁_(北齐)"
+      },
+      {
+         "caption" : "北齊",
+         "name" : "河清",
+         "name_cn" : "河清",
+         "offset" : 561,
+         "wref" : "河清"
+      },
+      {
+         "caption" : "北齊",
+         "name" : "天統",
+         "name_cn" : "天统",
+         "offset" : 564,
+         "wref" : "天统_(北齐)"
+      },
+      {
+         "caption" : "北齊",
+         "name" : "武平",
+         "name_cn" : "武平",
+         "offset" : 569,
+         "wref" : "武平_(北齐)"
+      },
+      {
+         "caption" : "北齊",
+         "name" : "隆化",
+         "name_cn" : "隆化",
+         "offset" : 575,
+         "wref" : "隆化_(北齐)"
+      },
+      {
+         "caption" : "北齊",
+         "name" : "德昌",
+         "name_cn" : "德昌",
+         "offset" : 575,
+         "wref" : "德昌_(北齐)"
+      },
+      {
+         "caption" : "北齊",
+         "name" : "承光",
+         "name_cn" : "承光",
+         "offset" : 576,
+         "wref" : "承光_(北齐)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "武平",
+         "name_cn" : "武平",
+         "offset" : 577,
+         "wref" : "武平_(北齐)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "安太",
+         "name_cn" : "安太",
+         "wref" : "安太"
+      },
+      {
+         "caption" : "北周",
+         "name" : "武成",
+         "name_cn" : "武成",
+         "offset" : 558,
+         "wref" : "武成_(北周)"
+      },
+      {
+         "caption" : "北周",
+         "name" : "武定",
+         "name_cn" : "武定",
+         "wref" : "武定_(宇文毓)"
+      },
+      {
+         "caption" : "北周",
+         "name" : "保定",
+         "name_cn" : "保定",
+         "offset" : 560,
+         "wref" : "保定_(北周)"
+      },
+      {
+         "caption" : "北周",
+         "name" : "天和",
+         "name_cn" : "天和",
+         "offset" : 565,
+         "wref" : "天和"
+      },
+      {
+         "caption" : "北周",
+         "name" : "建德",
+         "name_cn" : "建德",
+         "offset" : 571,
+         "wref" : "建德_(北周)"
+      },
+      {
+         "caption" : "北周",
+         "name" : "宣政",
+         "name_cn" : "宣政",
+         "offset" : 577,
+         "wref" : "宣政"
+      },
+      {
+         "caption" : "北周",
+         "name" : "大成",
+         "name_cn" : "大成",
+         "offset" : 578,
+         "wref" : "大成_(北周)"
+      },
+      {
+         "caption" : "北周",
+         "name" : "大象",
+         "name_cn" : "大象",
+         "offset" : 578,
+         "wref" : "大象_(年号)"
+      },
+      {
+         "caption" : "北周",
+         "name" : "大定",
+         "name_cn" : "大定",
+         "offset" : 580,
+         "wref" : "大定_(北周)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "石平",
+         "name_cn" : "石平",
+         "offset" : 576,
+         "wref" : "石平"
+      },
+      {
+         "caption" : "柔然",
+         "name" : "永康",
+         "name_cn" : "永康",
+         "offset" : 463,
+         "wref" : "永康_(柔然)"
+      },
+      {
+         "caption" : "柔然",
+         "name" : "太平",
+         "name_cn" : "太平",
+         "offset" : 484,
+         "wref" : "太平_(柔然)"
+      },
+      {
+         "caption" : "柔然",
+         "name" : "太安",
+         "name_cn" : "太安",
+         "offset" : 491,
+         "wref" : "太安_(柔然)"
+      },
+      {
+         "caption" : "柔然",
+         "name" : "始平",
+         "name_cn" : "始平",
+         "offset" : 505,
+         "wref" : "始平"
+      },
+      {
+         "caption" : "柔然",
+         "name" : "建昌",
+         "name_cn" : "建昌",
+         "offset" : 507,
+         "wref" : "建昌_(柔然)"
+      },
+      {
+         "caption" : "高昌",
+         "name" : "建初",
+         "name_cn" : "建初",
+         "offset" : 488,
+         "wref" : "建初_(高昌)"
+      },
+      {
+         "caption" : "高昌",
+         "name" : "承平",
+         "name_cn" : "承平",
+         "offset" : 501,
+         "wref" : "承平_(高昌)"
+      },
+      {
+         "caption" : "高昌",
+         "name" : "義熙",
+         "name_cn" : "义熙",
+         "offset" : 510,
+         "wref" : "义熙_(高昌)"
+      },
+      {
+         "caption" : "高昌",
+         "name" : "甘露",
+         "name_cn" : "甘露",
+         "offset" : 524,
+         "wref" : "甘露_(高昌)"
+      },
+      {
+         "caption" : "高昌",
+         "name" : "章和",
+         "name_cn" : "章和",
+         "offset" : 530,
+         "wref" : "章和_(高昌)"
+      },
+      {
+         "caption" : "高昌",
+         "name" : "永平",
+         "name_cn" : "永平",
+         "offset" : 548,
+         "wref" : "永平_(高昌)"
+      },
+      {
+         "caption" : "高昌",
+         "name" : "和平",
+         "name_cn" : "和平",
+         "offset" : 550,
+         "wref" : "和平_(高昌)"
+      },
+      {
+         "caption" : "高昌",
+         "name" : "建昌",
+         "name_cn" : "建昌",
+         "offset" : 554,
+         "wref" : "建昌_(高昌)"
+      },
+      {
+         "caption" : "高昌",
+         "name" : "延昌",
+         "name_cn" : "延昌",
+         "offset" : 560,
+         "wref" : "延昌_(高昌)"
+      },
+      {
+         "caption" : "高昌",
+         "name" : "延和",
+         "name_cn" : "延和",
+         "offset" : 601,
+         "wref" : "延和_(高昌)"
+      },
+      {
+         "caption" : "高昌",
+         "name" : "義和",
+         "name_cn" : "义和",
+         "offset" : 613,
+         "wref" : "义和_(高昌)"
+      },
+      {
+         "caption" : "高昌",
+         "name" : "重光",
+         "name_cn" : "重光",
+         "offset" : 619,
+         "wref" : "重光_(高昌)"
+      },
+      {
+         "caption" : "高昌",
+         "name" : "延壽",
+         "name_cn" : "延寿",
+         "offset" : 623,
+         "wref" : "延寿_(高昌)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "白雀",
+         "name_cn" : "白雀",
+         "wref" : "白雀"
+      },
+      {
+         "caption" : "隋朝",
+         "name" : "開皇",
+         "name_cn" : "开皇",
+         "offset" : 580,
+         "wref" : "开皇"
+      },
+      {
+         "caption" : "隋朝",
+         "name" : "仁壽",
+         "name_cn" : "仁寿",
+         "offset" : 600,
+         "wref" : "仁寿_(隋朝)"
+      },
+      {
+         "caption" : "隋朝",
+         "name" : "大業",
+         "name_cn" : "大业",
+         "offset" : 604,
+         "wref" : "大業"
+      },
+      {
+         "caption" : "隋朝",
+         "name" : "義寧",
+         "name_cn" : "义宁",
+         "offset" : 616,
+         "wref" : "义宁"
+      },
+      {
+         "caption" : "隋朝",
+         "name" : "皇泰",
+         "name_cn" : "皇泰",
+         "offset" : 617,
+         "wref" : "皇泰"
+      },
+      {
+         "caption" : "misc",
+         "name" : "白鳥",
+         "name_cn" : "白鸟",
+         "offset" : 612,
+         "wref" : "白鳥_(年號)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "大世",
+         "name_cn" : "大世",
+         "offset" : 613,
+         "wref" : "大世"
+      },
+      {
+         "caption" : "misc",
+         "name" : "昌達",
+         "name_cn" : "昌达",
+         "offset" : 614,
+         "wref" : "昌達"
+      },
+      {
+         "caption" : "misc",
+         "name" : "始興",
+         "name_cn" : "始兴",
+         "offset" : 615,
+         "wref" : "始兴_(操师乞)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "太平",
+         "name_cn" : "太平",
+         "offset" : 615,
+         "wref" : "太平_(林士弘)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "丁丑",
+         "name_cn" : "丁丑",
+         "offset" : 616,
+         "wref" : "丁丑_(窦建德)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "五鳳",
+         "name_cn" : "五凤",
+         "offset" : 617,
+         "wref" : "五凤_(窦建德)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "永平",
+         "name_cn" : "永平",
+         "offset" : 616,
+         "wref" : "永平_(李密)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天興",
+         "name_cn" : "天兴",
+         "offset" : 616,
+         "wref" : "天兴_(刘武周)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "永隆",
+         "name_cn" : "永隆",
+         "offset" : 617,
+         "wref" : "永隆_(梁師都)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "正平",
+         "name_cn" : "正平",
+         "offset" : 616,
+         "wref" : "正平_(郭子和)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "秦興",
+         "name_cn" : "秦兴",
+         "offset" : 616,
+         "wref" : "秦兴"
+      },
+      {
+         "caption" : "misc",
+         "name" : "鳴鳳",
+         "name_cn" : "鸣凤",
+         "offset" : 616,
+         "wref" : "鸣凤"
+      },
+      {
+         "caption" : "misc",
+         "name" : "通聖",
+         "name_cn" : "通圣",
+         "offset" : 616,
+         "wref" : "通聖"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "武德",
+         "name_cn" : "武德",
+         "offset" : 617,
+         "wref" : "武德"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "貞觀",
+         "name_cn" : "贞观",
+         "offset" : 626,
+         "wref" : "贞观_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "永徽",
+         "name_cn" : "永徽",
+         "offset" : 649,
+         "wref" : "永徽"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "顯慶",
+         "name_cn" : "显庆",
+         "offset" : 655,
+         "wref" : "显庆"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "龍朔",
+         "name_cn" : "龙朔",
+         "offset" : 660,
+         "wref" : "龙朔"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "麟德",
+         "name_cn" : "麟德",
+         "offset" : 663,
+         "wref" : "麟德"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "乾封",
+         "name_cn" : "乾封",
+         "offset" : 665,
+         "wref" : "乾封"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "總章",
+         "name_cn" : "总章",
+         "offset" : 667,
+         "wref" : "總章"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "咸亨",
+         "name_cn" : "咸亨",
+         "offset" : 669,
+         "wref" : "咸亨"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "上元",
+         "name_cn" : "上元",
+         "offset" : 673,
+         "wref" : "上元_(唐高宗)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "儀鳳",
+         "name_cn" : "仪凤",
+         "offset" : 675,
+         "wref" : "儀鳳"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "調露",
+         "name_cn" : "调露",
+         "offset" : 678,
+         "wref" : "調露"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "永隆",
+         "name_cn" : "永隆",
+         "offset" : 679,
+         "wref" : "永隆_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "開耀",
+         "name_cn" : "开耀",
+         "offset" : 680,
+         "wref" : "开耀"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "永淳",
+         "name_cn" : "永淳",
+         "offset" : 681,
+         "wref" : "永淳"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "弘道",
+         "name_cn" : "弘道",
+         "offset" : 682,
+         "wref" : "弘道"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "嗣聖",
+         "name_cn" : "嗣圣",
+         "offset" : 683,
+         "wref" : "嗣圣"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "文明",
+         "name_cn" : "文明",
+         "offset" : 683,
+         "wref" : "文明_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "光宅",
+         "name_cn" : "光宅",
+         "offset" : 683,
+         "wref" : "光宅"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "垂拱",
+         "name_cn" : "垂拱",
+         "offset" : 684,
+         "wref" : "垂拱"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "永昌",
+         "name_cn" : "永昌",
+         "offset" : 688,
+         "wref" : "永昌_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "載初",
+         "name_cn" : "载初",
+         "offset" : 688,
+         "wref" : "载初_(唐朝)"
+      },
+      {
+         "caption" : "武周",
+         "name" : "天授",
+         "name_cn" : "天授",
+         "offset" : 689,
+         "wref" : "天授_(武周)"
+      },
+      {
+         "caption" : "武周",
+         "name" : "如意",
+         "name_cn" : "如意",
+         "offset" : 691,
+         "wref" : "如意_(年号)"
+      },
+      {
+         "caption" : "武周",
+         "name" : "長壽",
+         "name_cn" : "长寿",
+         "offset" : 691,
+         "wref" : "长寿_(武周)"
+      },
+      {
+         "caption" : "武周",
+         "name" : "延載",
+         "name_cn" : "延载",
+         "offset" : 693,
+         "wref" : "延載"
+      },
+      {
+         "caption" : "武周",
+         "name" : "証聖",
+         "name_cn" : "证圣",
+         "offset" : 694,
+         "wref" : "証聖"
+      },
+      {
+         "caption" : "武周",
+         "name" : "天冊萬歲",
+         "name_cn" : "天册万岁",
+         "offset" : 694,
+         "wref" : "天冊萬歲"
+      },
+      {
+         "caption" : "武周",
+         "name" : "萬歲登封",
+         "name_cn" : "万岁登封",
+         "offset" : 694,
+         "wref" : "萬歲登封"
+      },
+      {
+         "caption" : "武周",
+         "name" : "萬歲通天",
+         "name_cn" : "万岁通天",
+         "offset" : 695,
+         "wref" : "萬歲通天"
+      },
+      {
+         "caption" : "武周",
+         "name" : "神功",
+         "name_cn" : "神功",
+         "offset" : 696,
+         "wref" : "神功"
+      },
+      {
+         "caption" : "武周",
+         "name" : "聖曆",
+         "name_cn" : "圣历",
+         "offset" : 697,
+         "wref" : "聖曆"
+      },
+      {
+         "caption" : "武周",
+         "name" : "久視",
+         "name_cn" : "久视",
+         "offset" : 699,
+         "wref" : "久視"
+      },
+      {
+         "caption" : "武周",
+         "name" : "大足",
+         "name_cn" : "大足",
+         "offset" : 700,
+         "wref" : "大足_(年号)"
+      },
+      {
+         "caption" : "武周",
+         "name" : "長安",
+         "name_cn" : "长安",
+         "offset" : 700,
+         "wref" : "长安_(年号)"
+      },
+      {
+         "caption" : "武周",
+         "name" : "神龍",
+         "name_cn" : "神龙",
+         "offset" : 704,
+         "wref" : "神龍"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "景龍",
+         "name_cn" : "景龙",
+         "offset" : 706,
+         "wref" : "景龙"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "唐隆",
+         "name_cn" : "唐隆",
+         "offset" : 709,
+         "wref" : "唐隆"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "景雲",
+         "name_cn" : "景云",
+         "offset" : 709,
+         "wref" : "景雲"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "太極",
+         "name_cn" : "太极",
+         "offset" : 711,
+         "wref" : "太极_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "延和",
+         "name_cn" : "延和",
+         "offset" : 711,
+         "wref" : "延和_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "先天",
+         "name_cn" : "先天",
+         "offset" : 711,
+         "wref" : "先天_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "開元",
+         "name_cn" : "开元",
+         "offset" : 712,
+         "wref" : "开元"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "天寶",
+         "name_cn" : "天宝",
+         "offset" : 741,
+         "wref" : "天宝_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "至德",
+         "name_cn" : "至德",
+         "offset" : 755,
+         "wref" : "至德_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "乾元",
+         "name_cn" : "乾元",
+         "offset" : 757,
+         "wref" : "乾元_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "上元",
+         "name_cn" : "上元",
+         "offset" : 759,
+         "wref" : "上元_(唐肅宗)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "寶應",
+         "name_cn" : "宝应",
+         "offset" : 761,
+         "wref" : "宝应_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "廣德",
+         "name_cn" : "广德",
+         "offset" : 762,
+         "wref" : "广德_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "永泰",
+         "name_cn" : "永泰",
+         "offset" : 764,
+         "wref" : "永泰_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "大曆",
+         "name_cn" : "大历",
+         "offset" : 765,
+         "wref" : "大曆"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "建中",
+         "name_cn" : "建中",
+         "offset" : 779,
+         "wref" : "建中_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "興元",
+         "name_cn" : "兴元",
+         "offset" : 783,
+         "wref" : "興元"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "貞元",
+         "name_cn" : "贞元",
+         "offset" : 784,
+         "wref" : "贞元_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "永貞",
+         "name_cn" : "永贞",
+         "offset" : 804,
+         "wref" : "永贞_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "元和",
+         "name_cn" : "元和",
+         "offset" : 805,
+         "wref" : "元和_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "永新",
+         "name_cn" : "永新",
+         "offset" : 819,
+         "wref" : "永新_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "長慶",
+         "name_cn" : "长庆",
+         "offset" : 820,
+         "wref" : "長慶"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "寶曆",
+         "name_cn" : "宝历",
+         "offset" : 824,
+         "wref" : "宝历_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "大和",
+         "name_cn" : "大和",
+         "offset" : 826,
+         "wref" : "大和_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "開成",
+         "name_cn" : "开成",
+         "offset" : 835,
+         "wref" : "開成"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "會昌",
+         "name_cn" : "会昌",
+         "offset" : 840,
+         "wref" : "会昌_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "大中",
+         "name_cn" : "大中",
+         "offset" : 846,
+         "wref" : "大中_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "咸通",
+         "name_cn" : "咸通",
+         "offset" : 859,
+         "wref" : "咸通"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "乾符",
+         "name_cn" : "乾符",
+         "offset" : 873,
+         "wref" : "乾符"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "廣明",
+         "name_cn" : "广明",
+         "offset" : 879,
+         "wref" : "广明_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "中和",
+         "name_cn" : "中和",
+         "offset" : 880,
+         "wref" : "中和_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "光啟",
+         "name_cn" : "光启",
+         "offset" : 884,
+         "wref" : "光啟"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "文德",
+         "name_cn" : "文德",
+         "offset" : 887,
+         "wref" : "文德_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "龍紀",
+         "name_cn" : "龙纪",
+         "offset" : 888,
+         "wref" : "龍紀"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "大順",
+         "name_cn" : "大顺",
+         "offset" : 889,
+         "wref" : "大顺_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "景福",
+         "name_cn" : "景福",
+         "offset" : 891,
+         "wref" : "景福_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "乾寧",
+         "name_cn" : "乾宁",
+         "offset" : 893,
+         "wref" : "乾宁"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "光化",
+         "name_cn" : "光化",
+         "offset" : 897,
+         "wref" : "光化"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "天復",
+         "name_cn" : "天复",
+         "offset" : 900,
+         "wref" : "天复_(唐朝)"
+      },
+      {
+         "caption" : "唐朝",
+         "name" : "天祐",
+         "name_cn" : "天祐",
+         "offset" : 903,
+         "wref" : "天祐_(唐朝)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天壽",
+         "name_cn" : "天寿",
+         "offset" : 617,
+         "wref" : "天壽_(宇文化及)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "安樂",
+         "name_cn" : "安乐",
+         "offset" : 617,
+         "wref" : "安乐"
+      },
+      {
+         "caption" : "misc",
+         "name" : "始興",
+         "name_cn" : "始兴",
+         "offset" : 617,
+         "wref" : "始兴_(高开道)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "法輪",
+         "name_cn" : "法轮",
+         "offset" : 617,
+         "wref" : "法輪_(高曇晟)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "開明",
+         "name_cn" : "开明",
+         "offset" : 618,
+         "wref" : "开明_(王世充)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "延康",
+         "name_cn" : "延康",
+         "offset" : 618,
+         "wref" : "延康_(沈法兴)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "明政",
+         "name_cn" : "明政",
+         "offset" : 618,
+         "wref" : "明政_(李子通)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天造",
+         "name_cn" : "天造",
+         "offset" : 621,
+         "wref" : "天造"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天明",
+         "name_cn" : "天明",
+         "offset" : 622,
+         "wref" : "天明_(輔公祏)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "乾德",
+         "name_cn" : "乾德",
+         "wref" : "乾德_(辅公祏)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "進通",
+         "name_cn" : "进通",
+         "offset" : 622,
+         "wref" : "进通"
+      },
+      {
+         "caption" : "misc",
+         "name" : "中元克復",
+         "name_cn" : "中元克复",
+         "offset" : 709,
+         "wref" : "中元克復"
+      },
+      {
+         "caption" : "misc",
+         "name" : "聖武",
+         "name_cn" : "圣武",
+         "offset" : 755,
+         "wref" : "圣武"
+      },
+      {
+         "caption" : "misc",
+         "name" : "載初",
+         "name_cn" : "载初",
+         "offset" : 756,
+         "wref" : "载初_(安庆绪)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天成",
+         "name_cn" : "天成",
+         "offset" : 756,
+         "wref" : "天成_(安庆绪)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "應天",
+         "name_cn" : "应天",
+         "offset" : 758,
+         "wref" : "应天_(史思明)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "順天",
+         "name_cn" : "顺天",
+         "offset" : 758,
+         "wref" : "顺天_(史思明)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "顯聖",
+         "name_cn" : "显圣",
+         "offset" : 760,
+         "wref" : "显圣"
+      },
+      {
+         "caption" : "misc",
+         "name" : "黃龍",
+         "name_cn" : "黄龙",
+         "offset" : 760,
+         "wref" : "黃龍_(段子璋)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "正德",
+         "name_cn" : "正德",
+         "offset" : 760,
+         "wref" : "正德_(李珍)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "寶勝",
+         "name_cn" : "宝胜",
+         "offset" : 761,
+         "wref" : "宝胜"
+      },
+      {
+         "caption" : "misc",
+         "name" : "應天",
+         "name_cn" : "应天",
+         "offset" : 782,
+         "wref" : "应天_(朱泚)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天皇",
+         "name_cn" : "天皇",
+         "offset" : 783,
+         "wref" : "天皇_(朱泚)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "武成",
+         "name_cn" : "武成",
+         "offset" : 783,
+         "wref" : "武成_(李希烈)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "羅平",
+         "name_cn" : "罗平",
+         "offset" : 859,
+         "wref" : "罗平_(裘甫)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "王霸",
+         "name_cn" : "王霸",
+         "offset" : 877,
+         "wref" : "王霸_(年號)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "金統",
+         "name_cn" : "金统",
+         "offset" : 879,
+         "wref" : "金统"
+      },
+      {
+         "caption" : "misc",
+         "name" : "建貞",
+         "name_cn" : "建贞",
+         "offset" : 885,
+         "wref" : "建贞"
+      },
+      {
+         "caption" : "misc",
+         "name" : "順天",
+         "name_cn" : "顺天",
+         "offset" : 894,
+         "wref" : "顺天_(董昌)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天壽",
+         "name_cn" : "天寿",
+         "wref" : "天壽_(唐濮王)"
+      },
+      {
+         "caption" : "吐蕃",
+         "name" : "彝泰",
+         "name_cn" : "彝泰",
+         "offset" : 814,
+         "wref" : "彝泰"
+      },
+      {
+         "caption" : "于闐",
+         "name" : "同慶",
+         "name_cn" : "同庆",
+         "offset" : 911,
+         "wref" : "同慶_(于闐)"
+      },
+      {
+         "caption" : "于闐",
+         "name" : "天尊",
+         "name_cn" : "天尊",
+         "offset" : 966,
+         "wref" : "天尊"
+      },
+      {
+         "caption" : "于闐",
+         "name" : "中興",
+         "name_cn" : "中兴",
+         "offset" : 977,
+         "wref" : "中興_(于闐)"
+      },
+      {
+         "caption" : "于闐",
+         "name" : "天興",
+         "name_cn" : "天兴",
+         "offset" : 985,
+         "wref" : "天兴_(于阗)"
+      },
+      {
+         "caption" : "于闐",
+         "name" : "天壽",
+         "name_cn" : "天寿",
+         "offset" : 998,
+         "wref" : "天壽_(于闐)"
+      },
+      {
+         "caption" : "渤海國",
+         "name" : "仁安",
+         "name_cn" : "仁安",
+         "offset" : 719,
+         "wref" : "仁安_(渤海)"
+      },
+      {
+         "caption" : "渤海國",
+         "name" : "大興",
+         "name_cn" : "大兴",
+         "offset" : 737,
+         "wref" : "大興_(渤海)"
+      },
+      {
+         "caption" : "渤海國",
+         "name" : "寶曆",
+         "name_cn" : "宝历",
+         "offset" : 773,
+         "wref" : "宝历_(渤海)"
+      },
+      {
+         "caption" : "渤海國",
+         "name" : "中興",
+         "name_cn" : "中兴",
+         "offset" : 793,
+         "wref" : "中興_(渤海)"
+      },
+      {
+         "caption" : "渤海國",
+         "name" : "正曆",
+         "name_cn" : "正历",
+         "offset" : 794,
+         "wref" : "正曆_(渤海)"
+      },
+      {
+         "caption" : "渤海國",
+         "name" : "永德",
+         "name_cn" : "永德",
+         "offset" : 809,
+         "wref" : "永德_(渤海)"
+      },
+      {
+         "caption" : "渤海國",
+         "name" : "朱雀",
+         "name_cn" : "朱雀",
+         "offset" : 812,
+         "wref" : "朱雀_(渤海)"
+      },
+      {
+         "caption" : "渤海國",
+         "name" : "太始",
+         "name_cn" : "太始",
+         "offset" : 817,
+         "wref" : "太始_(渤海)"
+      },
+      {
+         "caption" : "渤海國",
+         "name" : "建興",
+         "name_cn" : "建兴",
+         "offset" : 818,
+         "wref" : "建兴_(渤海)"
+      },
+      {
+         "caption" : "渤海國",
+         "name" : "咸和",
+         "name_cn" : "咸和",
+         "offset" : 830,
+         "wref" : "咸和_(渤海)"
+      },
+      {
+         "caption" : "東丹",
+         "name" : "甘露",
+         "name_cn" : "甘露",
+         "offset" : 925,
+         "wref" : "甘露_(东丹)"
+      },
+      {
+         "caption" : "定安",
+         "name" : "元興",
+         "name_cn" : "元兴",
+         "offset" : 975,
+         "wref" : "元興_(定安國)"
+      },
+      {
+         "caption" : "南詔",
+         "name" : "贊普鍾",
+         "name_cn" : "赞普钟",
+         "offset" : 751,
+         "wref" : "赞普钟"
+      },
+      {
+         "caption" : "南詔",
+         "name" : "長壽",
+         "name_cn" : "长寿",
+         "offset" : 768,
+         "wref" : "长寿_(南诏)"
+      },
+      {
+         "caption" : "南詔",
+         "name" : "見龍",
+         "name_cn" : "见龙",
+         "offset" : 779,
+         "wref" : "见龙"
+      },
+      {
+         "caption" : "南詔",
+         "name" : "上元",
+         "name_cn" : "上元",
+         "offset" : 783,
+         "wref" : "上元_(南诏)"
+      },
+      {
+         "caption" : "南詔",
+         "name" : "元封",
+         "name_cn" : "元封",
+         "wref" : "元封_(南诏)"
+      },
+      {
+         "caption" : "南詔",
+         "name" : "應道",
+         "name_cn" : "应道",
+         "offset" : 808,
+         "wref" : "应道"
+      },
+      {
+         "caption" : "南詔",
+         "name" : "龍興",
+         "name_cn" : "龙兴",
+         "offset" : 809,
+         "wref" : "龙兴_(南诏)"
+      },
+      {
+         "caption" : "南詔",
+         "name" : "全義",
+         "name_cn" : "全义",
+         "offset" : 815,
+         "wref" : "全义"
+      },
+      {
+         "caption" : "南詔",
+         "name" : "大豐",
+         "name_cn" : "大丰",
+         "offset" : 819,
+         "wref" : "大豐_(南詔)"
+      },
+      {
+         "caption" : "南詔",
+         "name" : "保和",
+         "name_cn" : "保和",
+         "offset" : 823,
+         "wref" : "保和"
+      },
+      {
+         "caption" : "南詔",
+         "name" : "天啟",
+         "name_cn" : "天启",
+         "offset" : 839,
+         "wref" : "天启_(南诏)"
+      },
+      {
+         "caption" : "南詔",
+         "name" : "建極",
+         "name_cn" : "建极",
+         "offset" : 859,
+         "wref" : "建极"
+      },
+      {
+         "caption" : "南詔",
+         "name" : "法堯",
+         "name_cn" : "法尧",
+         "wref" : "法尧"
+      },
+      {
+         "caption" : "大封民",
+         "name" : "貞明",
+         "name_cn" : "贞明",
+         "offset" : 877,
+         "wref" : "贞明_(大封民)"
+      },
+      {
+         "caption" : "大封民",
+         "name" : "承智",
+         "name_cn" : "承智",
+         "wref" : "承智"
+      },
+      {
+         "caption" : "大封民",
+         "name" : "大同",
+         "name_cn" : "大同",
+         "wref" : "大同_(大封民)"
+      },
+      {
+         "caption" : "大封民",
+         "name" : "嵯耶",
+         "name_cn" : "嵯耶",
+         "offset" : 888,
+         "wref" : "嵯耶"
+      },
+      {
+         "caption" : "大封民",
+         "name" : "中興",
+         "name_cn" : "中兴",
+         "offset" : 896,
+         "wref" : "中兴_(大封民)"
+      },
+      {
+         "caption" : "大長和",
+         "name" : "安國",
+         "name_cn" : "安国",
+         "offset" : 902,
+         "wref" : "安国_(大长和)"
+      },
+      {
+         "caption" : "大長和",
+         "name" : "始元",
+         "name_cn" : "始元",
+         "offset" : 909,
+         "wref" : "始元_(大长和)"
+      },
+      {
+         "caption" : "大長和",
+         "name" : "天瑞景星",
+         "name_cn" : "天瑞景星",
+         "wref" : "天瑞景星"
+      },
+      {
+         "caption" : "大長和",
+         "name" : "安和",
+         "name_cn" : "安和"
+      },
+      {
+         "caption" : "大長和",
+         "name" : "貞祐",
+         "name_cn" : "贞祐"
+      },
+      {
+         "caption" : "大長和",
+         "name" : "初歷",
+         "name_cn" : "初历"
+      },
+      {
+         "caption" : "大長和",
+         "name" : "孝治",
+         "name_cn" : "孝治",
+         "wref" : "孝治"
+      },
+      {
+         "caption" : "大長和",
+         "name" : "天應",
+         "name_cn" : "天应",
+         "offset" : 926,
+         "wref" : "天应_(大长和)"
+      },
+      {
+         "caption" : "大天興",
+         "name" : "尊聖",
+         "name_cn" : "尊圣",
+         "offset" : 927,
+         "wref" : "尊圣"
+      },
+      {
+         "caption" : "大義寧",
+         "name" : "興聖",
+         "name_cn" : "兴圣",
+         "offset" : 929,
+         "wref" : "兴圣"
+      },
+      {
+         "caption" : "大義寧",
+         "name" : "大明",
+         "name_cn" : "大明",
+         "offset" : 930,
+         "wref" : "大明_(大义宁)"
+      },
+      {
+         "caption" : "大義寧",
+         "name" : "鼎新",
+         "name_cn" : "鼎新",
+         "wref" : "鼎新"
+      },
+      {
+         "caption" : "大義寧",
+         "name" : "光聖",
+         "name_cn" : "光圣",
+         "wref" : "光圣"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "文德",
+         "name_cn" : "文德",
+         "offset" : 937,
+         "wref" : "文德_(大理)"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "神武",
+         "name_cn" : "神武",
+         "wref" : "神武"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "文經",
+         "name_cn" : "文经",
+         "offset" : 944,
+         "wref" : "文经"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "至治",
+         "name_cn" : "至治",
+         "offset" : 945,
+         "wref" : "至治_(大理)"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "明德",
+         "name_cn" : "明德",
+         "offset" : 951,
+         "wref" : "明德_(大理)"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "廣德",
+         "name_cn" : "广德",
+         "wref" : "广德_(大理)"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "順德",
+         "name_cn" : "顺德",
+         "offset" : 967,
+         "wref" : "顺德_(大理)"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "明政",
+         "name_cn" : "明政",
+         "offset" : 968,
+         "wref" : "明政_(大理)"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "廣明",
+         "name_cn" : "广明",
+         "offset" : 985,
+         "wref" : "广明_(大理)"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "明應",
+         "name_cn" : "明应",
+         "wref" : "明应"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "明統",
+         "name_cn" : "明统",
+         "wref" : "明统"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "明聖",
+         "name_cn" : "明圣",
+         "wref" : "明圣"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "明德",
+         "name_cn" : "明德",
+         "wref" : "明德"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "明治",
+         "name_cn" : "明治",
+         "wref" : "明治"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "明法",
+         "name_cn" : "明法",
+         "wref" : "明法"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "廣德",
+         "name_cn" : "广德",
+         "wref" : "广德"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "明運",
+         "name_cn" : "明运",
+         "wref" : "明运"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "明啟",
+         "name_cn" : "明启",
+         "offset" : 1009,
+         "wref" : "明启"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "乾興",
+         "name_cn" : "乾兴",
+         "wref" : "乾兴"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "明通",
+         "name_cn" : "明通",
+         "offset" : 1022,
+         "wref" : "明通"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "正治",
+         "name_cn" : "正治",
+         "offset" : 1026,
+         "wref" : "正治_(大理)"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "聖明",
+         "name_cn" : "圣明",
+         "offset" : 1041,
+         "wref" : "圣明_(大理)"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "天明",
+         "name_cn" : "天明",
+         "wref" : "天明_(大理)"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "保安",
+         "name_cn" : "保安",
+         "offset" : 1044,
+         "wref" : "保安_(大理)"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "正安",
+         "name_cn" : "正安",
+         "offset" : 1052,
+         "wref" : "正安_(大理)"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "正德",
+         "name_cn" : "正德",
+         "wref" : "正德"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "保德",
+         "name_cn" : "保德",
+         "wref" : "保德_(大理)"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "太安",
+         "name_cn" : "太安",
+         "wref" : "太安"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "明侯",
+         "name_cn" : "明侯",
+         "wref" : "明侯"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "上德",
+         "name_cn" : "上德",
+         "offset" : 1075,
+         "wref" : "上德"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "廣安",
+         "name_cn" : "广安",
+         "offset" : 1076,
+         "wref" : "广安_(大理)"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "上明",
+         "name_cn" : "上明",
+         "offset" : 1080,
+         "wref" : "上明"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "保立",
+         "name_cn" : "保立",
+         "offset" : 1081,
+         "wref" : "保立"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "建安",
+         "name_cn" : "建安",
+         "wref" : "建安"
+      },
+      {
+         "caption" : "大理國",
+         "name" : "天祐",
+         "name_cn" : "天祐",
+         "wref" : "天祐_(大理)"
+      },
+      {
+         "caption" : "大中國",
+         "name" : "上治",
+         "name_cn" : "上治",
+         "offset" : 1094,
+         "wref" : "上治"
+      },
+      {
+         "caption" : "後理",
+         "name" : "天授",
+         "name_cn" : "天授",
+         "offset" : 1095,
+         "wref" : "天授_(后理)"
+      },
+      {
+         "caption" : "後理",
+         "name" : "開明",
+         "name_cn" : "开明",
+         "offset" : 1096,
+         "wref" : "开明_(后理)"
+      },
+      {
+         "caption" : "後理",
+         "name" : "天政",
+         "name_cn" : "天政",
+         "offset" : 1102,
+         "wref" : "天政"
+      },
+      {
+         "caption" : "後理",
+         "name" : "文安",
+         "name_cn" : "文安",
+         "offset" : 1104,
+         "wref" : "文安_(后理)"
+      },
+      {
+         "caption" : "後理",
+         "name" : "日新",
+         "name_cn" : "日新",
+         "offset" : 1108,
+         "wref" : "日新"
+      },
+      {
+         "caption" : "後理",
+         "name" : "文治",
+         "name_cn" : "文治",
+         "offset" : 1109,
+         "wref" : "文治_(后理)"
+      },
+      {
+         "caption" : "後理",
+         "name" : "永嘉",
+         "name_cn" : "永嘉",
+         "wref" : "永嘉_(后理)"
+      },
+      {
+         "caption" : "後理",
+         "name" : "保天",
+         "name_cn" : "保天",
+         "offset" : 1128,
+         "wref" : "保天"
+      },
+      {
+         "caption" : "後理",
+         "name" : "廣運",
+         "name_cn" : "广运",
+         "wref" : "广运_(后理)"
+      },
+      {
+         "caption" : "後理",
+         "name" : "永貞",
+         "name_cn" : "永贞",
+         "offset" : 1147,
+         "wref" : "永贞_(后理)"
+      },
+      {
+         "caption" : "後理",
+         "name" : "大寶",
+         "name_cn" : "大宝",
+         "offset" : 1148,
+         "wref" : "大宝_(后理)"
+      },
+      {
+         "caption" : "後理",
+         "name" : "龍興",
+         "name_cn" : "龙兴",
+         "offset" : 1154,
+         "wref" : "龙兴_(后理)"
+      },
+      {
+         "caption" : "後理",
+         "name" : "盛明",
+         "name_cn" : "盛明",
+         "wref" : "盛明"
+      },
+      {
+         "caption" : "後理",
+         "name" : "建德",
+         "name_cn" : "建德",
+         "wref" : "建德_(后理)"
+      },
+      {
+         "caption" : "後理",
+         "name" : "利貞",
+         "name_cn" : "利贞",
+         "offset" : 1171,
+         "wref" : "利贞"
+      },
+      {
+         "caption" : "後理",
+         "name" : "盛德",
+         "name_cn" : "盛德",
+         "offset" : 1175,
+         "wref" : "盛德"
+      },
+      {
+         "caption" : "後理",
+         "name" : "嘉會",
+         "name_cn" : "嘉会",
+         "offset" : 1180,
+         "wref" : "嘉会"
+      },
+      {
+         "caption" : "後理",
+         "name" : "元亨",
+         "name_cn" : "元亨",
+         "offset" : 1184,
+         "wref" : "元亨_(后理)"
+      },
+      {
+         "caption" : "後理",
+         "name" : "安定",
+         "name_cn" : "安定",
+         "wref" : "安定_(后理)"
+      },
+      {
+         "caption" : "後理",
+         "name" : "亨時",
+         "name_cn" : "亨时",
+         "wref" : "亨时"
+      },
+      {
+         "caption" : "後理",
+         "name" : "鳳歷",
+         "name_cn" : "凤历",
+         "offset" : 1200,
+         "wref" : "凤历_(后理)"
+      },
+      {
+         "caption" : "後理",
+         "name" : "元壽",
+         "name_cn" : "元寿",
+         "wref" : "元寿_(后理)"
+      },
+      {
+         "caption" : "後理",
+         "name" : "天開",
+         "name_cn" : "天开",
+         "offset" : 1204,
+         "wref" : "天开"
+      },
+      {
+         "caption" : "後理",
+         "name" : "天輔",
+         "name_cn" : "天辅",
+         "offset" : 1225,
+         "wref" : "天辅_(后理)"
+      },
+      {
+         "caption" : "後理",
+         "name" : "仁壽",
+         "name_cn" : "仁寿",
+         "wref" : "仁寿_(后理)"
+      },
+      {
+         "caption" : "後理",
+         "name" : "道隆",
+         "name_cn" : "道隆",
+         "offset" : 1238,
+         "wref" : "道隆"
+      },
+      {
+         "caption" : "後理",
+         "name" : "天定",
+         "name_cn" : "天定",
+         "offset" : 1251,
+         "wref" : "天定_(后理)"
+      },
+      {
+         "caption" : "後理",
+         "name" : "利正",
+         "name_cn" : "利正",
+         "wref" : "利正"
+      },
+      {
+         "caption" : "後理",
+         "name" : "興正",
+         "name_cn" : "兴正",
+         "wref" : "兴正"
+      },
+      {
+         "caption" : "misc",
+         "name" : "順德",
+         "name_cn" : "顺德",
+         "wref" : "顺德_(段思旷)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "興正",
+         "name_cn" : "兴正",
+         "wref" : "兴正"
+      },
+      {
+         "caption" : "misc",
+         "name" : "至德",
+         "name_cn" : "至德",
+         "wref" : "至德_(高观音自)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "大本",
+         "name_cn" : "大本",
+         "wref" : "大本"
+      },
+      {
+         "caption" : "misc",
+         "name" : "鍾元",
+         "name_cn" : "钟元",
+         "wref" : "钟元"
+      },
+      {
+         "caption" : "misc",
+         "name" : "隆德",
+         "name_cn" : "隆德"
+      },
+      {
+         "caption" : "misc",
+         "name" : "永道",
+         "name_cn" : "永道",
+         "wref" : "永道"
+      },
+      {
+         "caption" : "後梁",
+         "name" : "開平",
+         "name_cn" : "开平",
+         "offset" : 906,
+         "wref" : "開平_(後梁)"
+      },
+      {
+         "caption" : "後梁",
+         "name" : "乾化",
+         "name_cn" : "乾化",
+         "offset" : 910,
+         "wref" : "乾化"
+      },
+      {
+         "caption" : "後梁",
+         "name" : "鳳歷",
+         "name_cn" : "凤历",
+         "offset" : 912,
+         "wref" : "凤历_(后梁)"
+      },
+      {
+         "caption" : "後梁",
+         "name" : "乾化",
+         "name_cn" : "乾化",
+         "offset" : 912,
+         "wref" : "乾化"
+      },
+      {
+         "caption" : "後梁",
+         "name" : "貞明",
+         "name_cn" : "贞明",
+         "offset" : 914,
+         "wref" : "贞明_(后梁)"
+      },
+      {
+         "caption" : "後梁",
+         "name" : "龍德",
+         "name_cn" : "龙德",
+         "offset" : 920,
+         "wref" : "龙德"
+      },
+      {
+         "caption" : "misc",
+         "name" : "應天",
+         "name_cn" : "应天",
+         "offset" : 910,
+         "wref" : "应天_(刘守光)"
+      },
+      {
+         "caption" : "後唐",
+         "name" : "同光",
+         "name_cn" : "同光",
+         "offset" : 922,
+         "wref" : "同光"
+      },
+      {
+         "caption" : "後唐",
+         "name" : "天成",
+         "name_cn" : "天成",
+         "offset" : 925,
+         "wref" : "天成_(后唐)"
+      },
+      {
+         "caption" : "後唐",
+         "name" : "長興",
+         "name_cn" : "长兴",
+         "offset" : 929,
+         "wref" : "长兴_(后唐)"
+      },
+      {
+         "caption" : "後唐",
+         "name" : "應順",
+         "name_cn" : "应顺",
+         "offset" : 933,
+         "wref" : "应顺"
+      },
+      {
+         "caption" : "後唐",
+         "name" : "清泰",
+         "name_cn" : "清泰",
+         "offset" : 933,
+         "wref" : "清泰"
+      },
+      {
+         "caption" : "後晉",
+         "name" : "天福",
+         "name_cn" : "天福",
+         "offset" : 935,
+         "wref" : "天福_(后晋)"
+      },
+      {
+         "caption" : "後晉",
+         "name" : "開運",
+         "name_cn" : "开运",
+         "offset" : 943,
+         "wref" : "开运_(后晋)"
+      },
+      {
+         "caption" : "後漢",
+         "dup" : 1,
+         "name" : "天福",
+         "name_cn" : "天福",
+         "offset" : 946,
+         "wref" : "天福_(后晋)"
+      },
+      {
+         "caption" : "後漢",
+         "name" : "乾祐",
+         "name_cn" : "乾祐",
+         "offset" : 947,
+         "wref" : "乾祐_(后汉)"
+      },
+      {
+         "caption" : "後周",
+         "name" : "廣順",
+         "name_cn" : "广顺",
+         "offset" : 950,
+         "wref" : "广顺"
+      },
+      {
+         "caption" : "後周",
+         "name" : "顯德",
+         "name_cn" : "显德",
+         "offset" : 953,
+         "wref" : "显德"
+      },
+      {
+         "caption" : "吳",
+         "dup" : 1,
+         "name" : "天復",
+         "name_cn" : "天复",
+         "offset" : 901,
+         "wref" : "天复_(唐朝)"
+      },
+      {
+         "caption" : "吳",
+         "dup" : 1,
+         "name" : "天祐",
+         "name_cn" : "天祐",
+         "offset" : 903,
+         "wref" : "天祐_(唐朝)"
+      },
+      {
+         "caption" : "吳",
+         "name" : "武義",
+         "name_cn" : "武义",
+         "offset" : 918,
+         "wref" : "武义_(南吴)"
+      },
+      {
+         "caption" : "吳",
+         "name" : "順義",
+         "name_cn" : "顺义",
+         "offset" : 920,
+         "wref" : "顺义_(南吴)"
+      },
+      {
+         "caption" : "吳",
+         "name" : "乾貞",
+         "name_cn" : "乾贞",
+         "offset" : 926,
+         "wref" : "乾貞_(南吳)"
+      },
+      {
+         "caption" : "吳",
+         "name" : "大和",
+         "name_cn" : "大和",
+         "offset" : 928,
+         "wref" : "大和_(南吴)"
+      },
+      {
+         "caption" : "吳",
+         "name" : "天祚",
+         "name_cn" : "天祚",
+         "offset" : 934,
+         "wref" : "天祚"
+      },
+      {
+         "caption" : "南唐",
+         "name" : "昇元",
+         "name_cn" : "昇元",
+         "offset" : 936,
+         "wref" : "昇元"
+      },
+      {
+         "caption" : "南唐",
+         "name" : "保大",
+         "name_cn" : "保大",
+         "offset" : 942,
+         "wref" : "保大_(南唐)"
+      },
+      {
+         "caption" : "南唐",
+         "name" : "中興",
+         "name_cn" : "中兴",
+         "offset" : 957,
+         "wref" : "中兴_(后唐)"
+      },
+      {
+         "caption" : "南唐",
+         "name" : "交泰",
+         "name_cn" : "交泰",
+         "offset" : 957,
+         "wref" : "交泰"
+      },
+      {
+         "caption" : "南唐",
+         "dup" : 1,
+         "name" : "顯德",
+         "name_cn" : "显德",
+         "offset" : 957,
+         "wref" : "显德"
+      },
+      {
+         "caption" : "南唐",
+         "dup" : 1,
+         "name" : "顯德",
+         "name_cn" : "显德",
+         "offset" : 960,
+         "wref" : "显德"
+      },
+      {
+         "caption" : "南唐",
+         "dup" : 1,
+         "name" : "建隆",
+         "name_cn" : "建隆",
+         "offset" : 962,
+         "wref" : "建隆"
+      },
+      {
+         "caption" : "南唐",
+         "dup" : 1,
+         "name" : "乾德",
+         "name_cn" : "乾德",
+         "offset" : 962,
+         "wref" : "乾德_(北宋)"
+      },
+      {
+         "caption" : "南唐",
+         "dup" : 1,
+         "name" : "開寶",
+         "name_cn" : "开宝",
+         "offset" : 967,
+         "wref" : "开宝"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "天祐",
+         "name_cn" : "天祐",
+         "offset" : 906,
+         "wref" : "天祐_(唐朝)"
+      },
+      {
+         "caption" : "吳越",
+         "name" : "天寶",
+         "name_cn" : "天宝",
+         "offset" : 907,
+         "wref" : "天宝_(吴越)"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "鳳歷",
+         "name_cn" : "凤历",
+         "offset" : 912,
+         "wref" : "凤历_(后梁)"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "乾化",
+         "name_cn" : "乾化",
+         "offset" : 912,
+         "wref" : "乾化"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "貞明",
+         "name_cn" : "贞明",
+         "offset" : 914,
+         "wref" : "贞明_(后梁)"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "龍德",
+         "name_cn" : "龙德",
+         "offset" : 920,
+         "wref" : "龙德"
+      },
+      {
+         "caption" : "吳越",
+         "name" : "寶大",
+         "name_cn" : "宝大",
+         "offset" : 923,
+         "wref" : "宝大"
+      },
+      {
+         "caption" : "吳越",
+         "name" : "寶正",
+         "name_cn" : "宝正",
+         "offset" : 925,
+         "wref" : "宝正"
+      },
+      {
+         "caption" : "吳越",
+         "name" : "廣初",
+         "name_cn" : "广初",
+         "wref" : "广初"
+      },
+      {
+         "caption" : "吳越",
+         "name" : "正明",
+         "name_cn" : "正明",
+         "wref" : "正明"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "長興",
+         "name_cn" : "长兴",
+         "offset" : 931,
+         "wref" : "长兴_(后唐)"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "應順",
+         "name_cn" : "应顺",
+         "offset" : 933,
+         "wref" : "应顺"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "清泰",
+         "name_cn" : "清泰",
+         "offset" : 933,
+         "wref" : "清泰"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "天福",
+         "name_cn" : "天福",
+         "offset" : 935,
+         "wref" : "天福_(后晋)"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "天福",
+         "name_cn" : "天福",
+         "offset" : 940,
+         "wref" : "天福_(后晋)"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "開運",
+         "name_cn" : "开运",
+         "offset" : 943,
+         "wref" : "开运_(后晋)"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "天福",
+         "name_cn" : "天福",
+         "offset" : 946,
+         "wref" : "天福_(后晋)"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "乾祐",
+         "name_cn" : "乾祐",
+         "offset" : 947,
+         "wref" : "乾祐_(后汉)"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "廣順",
+         "name_cn" : "广顺",
+         "offset" : 950,
+         "wref" : "广顺"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "顯德",
+         "name_cn" : "显德",
+         "offset" : 953,
+         "wref" : "显德"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "建隆",
+         "name_cn" : "建隆",
+         "offset" : 959,
+         "wref" : "建隆"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "乾德",
+         "name_cn" : "乾德",
+         "offset" : 962,
+         "wref" : "乾德_(北宋)"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "開寶",
+         "name_cn" : "开宝",
+         "offset" : 967,
+         "wref" : "开宝"
+      },
+      {
+         "caption" : "吳越",
+         "dup" : 1,
+         "name" : "太平興國",
+         "name_cn" : "太平兴国",
+         "offset" : 975,
+         "wref" : "太平兴国"
+      },
+      {
+         "caption" : "楚",
+         "dup" : 1,
+         "name" : "天成",
+         "name_cn" : "天成",
+         "offset" : 926,
+         "wref" : "天成_(后唐)"
+      },
+      {
+         "caption" : "楚",
+         "dup" : 1,
+         "name" : "長興",
+         "name_cn" : "长兴",
+         "offset" : 929,
+         "wref" : "长兴_(后唐)"
+      },
+      {
+         "caption" : "楚",
+         "dup" : 1,
+         "name" : "長興",
+         "name_cn" : "长兴",
+         "offset" : 931,
+         "wref" : "长兴_(后唐)"
+      },
+      {
+         "caption" : "楚",
+         "dup" : 1,
+         "name" : "應順",
+         "name_cn" : "应顺",
+         "offset" : 933,
+         "wref" : "应顺"
+      },
+      {
+         "caption" : "楚",
+         "dup" : 1,
+         "name" : "清泰",
+         "name_cn" : "清泰",
+         "offset" : 933,
+         "wref" : "清泰"
+      },
+      {
+         "caption" : "楚",
+         "dup" : 1,
+         "name" : "天福",
+         "name_cn" : "天福",
+         "offset" : 935,
+         "wref" : "天福_(后晋)"
+      },
+      {
+         "caption" : "楚",
+         "dup" : 1,
+         "name" : "開運",
+         "name_cn" : "开运",
+         "offset" : 943,
+         "wref" : "开运_(后晋)"
+      },
+      {
+         "caption" : "楚",
+         "dup" : 1,
+         "name" : "天福",
+         "name_cn" : "天福",
+         "offset" : 946,
+         "wref" : "天福_(后晋)"
+      },
+      {
+         "caption" : "楚",
+         "dup" : 1,
+         "name" : "乾祐",
+         "name_cn" : "乾祐",
+         "offset" : 947,
+         "wref" : "乾祐_(后汉)"
+      },
+      {
+         "caption" : "楚",
+         "dup" : 1,
+         "name" : "保大",
+         "name_cn" : "保大",
+         "offset" : 949,
+         "wref" : "保大_(南唐)"
+      },
+      {
+         "caption" : "閩",
+         "dup" : 1,
+         "name" : "開平",
+         "name_cn" : "开平",
+         "offset" : 908,
+         "wref" : "開平_(後梁)"
+      },
+      {
+         "caption" : "閩",
+         "dup" : 1,
+         "name" : "乾化",
+         "name_cn" : "乾化",
+         "offset" : 910,
+         "wref" : "乾化"
+      },
+      {
+         "caption" : "閩",
+         "dup" : 1,
+         "name" : "貞明",
+         "name_cn" : "贞明",
+         "offset" : 914,
+         "wref" : "贞明_(后梁)"
+      },
+      {
+         "caption" : "閩",
+         "dup" : 1,
+         "name" : "龍德",
+         "name_cn" : "龙德",
+         "offset" : 920,
+         "wref" : "龙德"
+      },
+      {
+         "caption" : "閩",
+         "dup" : 1,
+         "name" : "同光",
+         "name_cn" : "同光",
+         "offset" : 922,
+         "wref" : "同光"
+      },
+      {
+         "caption" : "閩",
+         "dup" : 1,
+         "name" : "天成",
+         "name_cn" : "天成",
+         "offset" : 925,
+         "wref" : "天成_(后唐)"
+      },
+      {
+         "caption" : "閩",
+         "dup" : 1,
+         "name" : "天成",
+         "name_cn" : "天成",
+         "offset" : 925,
+         "wref" : "天成_(后唐)"
+      },
+      {
+         "caption" : "閩",
+         "dup" : 1,
+         "name" : "長興",
+         "name_cn" : "长兴",
+         "offset" : 929,
+         "wref" : "长兴_(后唐)"
+      },
+      {
+         "caption" : "閩",
+         "name" : "龍啟",
+         "name_cn" : "龙启",
+         "offset" : 932,
+         "wref" : "龙启"
+      },
+      {
+         "caption" : "閩",
+         "name" : "永和",
+         "name_cn" : "永和",
+         "offset" : 934,
+         "wref" : "永和_(闽)"
+      },
+      {
+         "caption" : "閩",
+         "name" : "通文",
+         "name_cn" : "通文",
+         "offset" : 935,
+         "wref" : "通文"
+      },
+      {
+         "caption" : "閩",
+         "name" : "永隆",
+         "name_cn" : "永隆",
+         "offset" : 938,
+         "wref" : "永隆_(闽)"
+      },
+      {
+         "caption" : "閩",
+         "name" : "天德",
+         "name_cn" : "天德",
+         "offset" : 942,
+         "wref" : "天德_(闽)"
+      },
+      {
+         "caption" : "南漢",
+         "name" : "乾亨",
+         "name_cn" : "乾亨",
+         "offset" : 916,
+         "wref" : "乾亨_(南汉)"
+      },
+      {
+         "caption" : "南漢",
+         "name" : "白龍",
+         "name_cn" : "白龙",
+         "offset" : 924,
+         "wref" : "白龙_(南汉)"
+      },
+      {
+         "caption" : "南漢",
+         "name" : "大有",
+         "name_cn" : "大有",
+         "offset" : 927,
+         "wref" : "大有"
+      },
+      {
+         "caption" : "南漢",
+         "name" : "光天",
+         "name_cn" : "光天",
+         "offset" : 941,
+         "wref" : "光天_(南汉)"
+      },
+      {
+         "caption" : "南漢",
+         "name" : "應乾",
+         "name_cn" : "应乾",
+         "offset" : 942,
+         "wref" : "应乾"
+      },
+      {
+         "caption" : "南漢",
+         "name" : "乾和",
+         "name_cn" : "乾和",
+         "offset" : 942,
+         "wref" : "乾和"
+      },
+      {
+         "caption" : "南漢",
+         "name" : "大寶",
+         "name_cn" : "大宝",
+         "offset" : 957,
+         "wref" : "大寶_(南漢)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "永樂",
+         "name_cn" : "永乐",
+         "offset" : 941,
+         "wref" : "永乐_(张遇贤)"
+      },
+      {
+         "caption" : "前蜀",
+         "dup" : 1,
+         "name" : "天復",
+         "name_cn" : "天复",
+         "offset" : 906,
+         "wref" : "天复_(唐朝)"
+      },
+      {
+         "caption" : "前蜀",
+         "name" : "武成",
+         "name_cn" : "武成",
+         "offset" : 907,
+         "wref" : "武成_(前蜀)"
+      },
+      {
+         "caption" : "前蜀",
+         "name" : "通正",
+         "name_cn" : "通正",
+         "offset" : 915,
+         "wref" : "通正"
+      },
+      {
+         "caption" : "前蜀",
+         "name" : "天漢",
+         "name_cn" : "天汉",
+         "offset" : 916,
+         "wref" : "天汉_(前蜀)"
+      },
+      {
+         "caption" : "前蜀",
+         "name" : "光天",
+         "name_cn" : "光天",
+         "offset" : 917,
+         "wref" : "光天_(前蜀)"
+      },
+      {
+         "caption" : "前蜀",
+         "name" : "乾德",
+         "name_cn" : "乾德",
+         "offset" : 918,
+         "wref" : "乾德_(前蜀)"
+      },
+      {
+         "caption" : "前蜀",
+         "name" : "咸康",
+         "name_cn" : "咸康",
+         "offset" : 924,
+         "wref" : "咸康_(前蜀)"
+      },
+      {
+         "caption" : "後蜀",
+         "name" : "明德",
+         "name_cn" : "明德",
+         "offset" : 933,
+         "wref" : "明德_(后蜀)"
+      },
+      {
+         "caption" : "後蜀",
+         "name" : "廣政",
+         "name_cn" : "广政",
+         "offset" : 937,
+         "wref" : "广政"
+      },
+      {
+         "caption" : "荊南（南平）",
+         "dup" : 1,
+         "name" : "同光",
+         "name_cn" : "同光",
+         "offset" : 923,
+         "wref" : "同光"
+      },
+      {
+         "caption" : "荊南（南平）",
+         "dup" : 1,
+         "name" : "天成",
+         "name_cn" : "天成",
+         "offset" : 925,
+         "wref" : "天成_(后唐)"
+      },
+      {
+         "caption" : "荊南（南平）",
+         "dup" : 1,
+         "name" : "乾貞",
+         "name_cn" : "乾贞",
+         "offset" : 927,
+         "wref" : "乾貞_(南吳)"
+      },
+      {
+         "caption" : "荊南（南平）",
+         "dup" : 1,
+         "name" : "乾貞",
+         "name_cn" : "乾贞",
+         "offset" : 928,
+         "wref" : "乾貞_(南吳)"
+      },
+      {
+         "caption" : "荊南（南平）",
+         "dup" : 1,
+         "name" : "天成",
+         "name_cn" : "天成",
+         "offset" : 928,
+         "wref" : "天成_(后唐)"
+      },
+      {
+         "caption" : "荊南（南平）",
+         "dup" : 1,
+         "name" : "長興",
+         "name_cn" : "长兴",
+         "offset" : 929,
+         "wref" : "长兴_(后唐)"
+      },
+      {
+         "caption" : "荊南（南平）",
+         "dup" : 1,
+         "name" : "應順",
+         "name_cn" : "应顺",
+         "offset" : 933,
+         "wref" : "应顺"
+      },
+      {
+         "caption" : "荊南（南平）",
+         "dup" : 1,
+         "name" : "清泰",
+         "name_cn" : "清泰",
+         "offset" : 933,
+         "wref" : "清泰"
+      },
+      {
+         "caption" : "荊南（南平）",
+         "dup" : 1,
+         "name" : "天福",
+         "name_cn" : "天福",
+         "offset" : 935,
+         "wref" : "天福_(后晋)"
+      },
+      {
+         "caption" : "荊南（南平）",
+         "dup" : 1,
+         "name" : "開運",
+         "name_cn" : "开运",
+         "offset" : 943,
+         "wref" : "开运_(后晋)"
+      },
+      {
+         "caption" : "荊南（南平）",
+         "dup" : 1,
+         "name" : "天福",
+         "name_cn" : "天福",
+         "offset" : 946,
+         "wref" : "天福_(后晋)"
+      },
+      {
+         "caption" : "荊南（南平）",
+         "dup" : 1,
+         "name" : "乾祐",
+         "name_cn" : "乾祐",
+         "offset" : 947,
+         "wref" : "乾祐_(后汉)"
+      },
+      {
+         "caption" : "荊南（南平）",
+         "dup" : 1,
+         "name" : "乾祐",
+         "name_cn" : "乾祐",
+         "offset" : 947,
+         "wref" : "乾祐_(后汉)"
+      },
+      {
+         "caption" : "荊南（南平）",
+         "dup" : 1,
+         "name" : "廣順",
+         "name_cn" : "广顺",
+         "offset" : 950,
+         "wref" : "广顺"
+      },
+      {
+         "caption" : "荊南（南平）",
+         "dup" : 1,
+         "name" : "顯德",
+         "name_cn" : "显德",
+         "offset" : 953,
+         "wref" : "显德"
+      },
+      {
+         "caption" : "荊南（南平）",
+         "dup" : 1,
+         "name" : "建隆",
+         "name_cn" : "建隆",
+         "offset" : 959,
+         "wref" : "建隆"
+      },
+      {
+         "caption" : "荊南（南平）",
+         "dup" : 1,
+         "name" : "建隆",
+         "name_cn" : "建隆",
+         "offset" : 961,
+         "wref" : "建隆"
+      },
+      {
+         "caption" : "北漢",
+         "dup" : 1,
+         "name" : "乾祐",
+         "name_cn" : "乾祐",
+         "offset" : 950,
+         "wref" : "乾祐_(后汉)"
+      },
+      {
+         "caption" : "北漢",
+         "dup" : 1,
+         "name" : "乾祐",
+         "name_cn" : "乾祐",
+         "offset" : 953,
+         "wref" : "乾祐_(后汉)"
+      },
+      {
+         "caption" : "北漢",
+         "name" : "天會",
+         "name_cn" : "天会",
+         "offset" : 956,
+         "wref" : "天会_(北汉)"
+      },
+      {
+         "caption" : "北漢",
+         "name" : "廣運",
+         "name_cn" : "广运",
+         "offset" : 973,
+         "wref" : "广运_(北汉)"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "建隆",
+         "name_cn" : "建隆",
+         "offset" : 959,
+         "wref" : "建隆"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "乾德",
+         "name_cn" : "乾德",
+         "offset" : 962,
+         "wref" : "乾德_(北宋)"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "開寶",
+         "name_cn" : "开宝",
+         "offset" : 967,
+         "wref" : "开宝"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "太平興國",
+         "name_cn" : "太平兴国",
+         "offset" : 975,
+         "wref" : "太平兴国"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "雍熙",
+         "name_cn" : "雍熙",
+         "offset" : 983,
+         "wref" : "雍熙"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "端拱",
+         "name_cn" : "端拱",
+         "offset" : 987,
+         "wref" : "端拱"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "淳化",
+         "name_cn" : "淳化",
+         "offset" : 989,
+         "wref" : "淳化_(北宋)"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "至道",
+         "name_cn" : "至道",
+         "offset" : 994,
+         "wref" : "至道"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "咸平",
+         "name_cn" : "咸平",
+         "offset" : 997,
+         "wref" : "咸平"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "景德",
+         "name_cn" : "景德",
+         "offset" : 1003,
+         "wref" : "景德"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "大中祥符",
+         "name_cn" : "大中祥符",
+         "offset" : 1007,
+         "wref" : "大中祥符"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "天禧",
+         "name_cn" : "天禧",
+         "offset" : 1016,
+         "wref" : "天禧_(北宋)"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "乾興",
+         "name_cn" : "乾兴",
+         "offset" : 1021,
+         "wref" : "乾兴"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "天聖",
+         "name_cn" : "天圣",
+         "offset" : 1022,
+         "wref" : "天圣"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "明道",
+         "name_cn" : "明道",
+         "offset" : 1031,
+         "wref" : "明道_(北宋)"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "景祐",
+         "name_cn" : "景祐",
+         "offset" : 1033,
+         "wref" : "景祐"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "寶元",
+         "name_cn" : "宝元",
+         "offset" : 1037,
+         "wref" : "宝元"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "康定",
+         "name_cn" : "康定",
+         "offset" : 1039,
+         "wref" : "康定_(北宋)"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "慶曆",
+         "name_cn" : "庆历",
+         "offset" : 1040,
+         "wref" : "慶曆"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "皇祐",
+         "name_cn" : "皇祐",
+         "offset" : 1048,
+         "wref" : "皇祐"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "至和",
+         "name_cn" : "至和",
+         "offset" : 1053,
+         "wref" : "至和"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "嘉祐",
+         "name_cn" : "嘉祐",
+         "offset" : 1055,
+         "wref" : "嘉祐"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "治平",
+         "name_cn" : "治平",
+         "offset" : 1063,
+         "wref" : "治平_(北宋)"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "熙寧",
+         "name_cn" : "熙宁",
+         "offset" : 1067,
+         "wref" : "熙宁"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "元豐",
+         "name_cn" : "元丰",
+         "offset" : 1077,
+         "wref" : "元丰_(北宋)"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "元祐",
+         "name_cn" : "元祐",
+         "offset" : 1085,
+         "wref" : "元祐"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "紹聖",
+         "name_cn" : "绍圣",
+         "offset" : 1093,
+         "wref" : "紹聖"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "元符",
+         "name_cn" : "元符",
+         "offset" : 1097,
+         "wref" : "元符"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "建中靖國",
+         "name_cn" : "建中靖国",
+         "offset" : 1100,
+         "wref" : "建中靖国"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "崇寧",
+         "name_cn" : "崇宁",
+         "offset" : 1101,
+         "wref" : "崇宁"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "大觀",
+         "name_cn" : "大观",
+         "offset" : 1106,
+         "wref" : "大观_(北宋)"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "政和",
+         "name_cn" : "政和",
+         "offset" : 1110,
+         "wref" : "政和_(北宋)"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "重和",
+         "name_cn" : "重和",
+         "offset" : 1117,
+         "wref" : "重和"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "宣和",
+         "name_cn" : "宣和",
+         "offset" : 1118,
+         "wref" : "宣和_(北宋)"
+      },
+      {
+         "caption" : "北宋",
+         "name" : "靖康",
+         "name_cn" : "靖康",
+         "offset" : 1125,
+         "wref" : "靖康"
+      },
+      {
+         "caption" : "misc",
+         "name" : "應運",
+         "name_cn" : "应运",
+         "offset" : 993,
+         "wref" : "应运"
+      },
+      {
+         "caption" : "misc",
+         "name" : "化順",
+         "name_cn" : "化顺",
+         "offset" : 999,
+         "wref" : "化顺"
+      },
+      {
+         "caption" : "misc",
+         "name" : "得聖",
+         "name_cn" : "得圣",
+         "offset" : 1046,
+         "wref" : "得圣"
+      },
+      {
+         "caption" : "misc",
+         "name" : "景瑞",
+         "name_cn" : "景瑞",
+         "offset" : 1048,
+         "wref" : "景瑞_(儂智高)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "啟歷",
+         "name_cn" : "启历",
+         "offset" : 1051,
+         "wref" : "启历"
+      },
+      {
+         "caption" : "misc",
+         "name" : "端懿",
+         "name_cn" : "端懿",
+         "wref" : "端懿"
+      },
+      {
+         "caption" : "misc",
+         "name" : "大曆",
+         "name_cn" : "大历",
+         "wref" : "大历"
+      },
+      {
+         "caption" : "misc",
+         "name" : "隆興",
+         "name_cn" : "隆兴",
+         "wref" : "隆興"
+      },
+      {
+         "caption" : "misc",
+         "name" : "永樂",
+         "name_cn" : "永乐",
+         "offset" : 1119,
+         "wref" : "永乐_(方腊)"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "建炎",
+         "name_cn" : "建炎",
+         "offset" : 1126,
+         "wref" : "建炎"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "紹興",
+         "name_cn" : "绍兴",
+         "offset" : 1130,
+         "wref" : "紹興_(南宋)"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "隆興",
+         "name_cn" : "隆兴",
+         "offset" : 1162,
+         "wref" : "隆興"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "乾道",
+         "name_cn" : "乾道",
+         "offset" : 1164,
+         "wref" : "乾道_(南宋)"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "淳熙",
+         "name_cn" : "淳熙",
+         "offset" : 1173,
+         "wref" : "淳熙"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "紹熙",
+         "name_cn" : "绍熙",
+         "offset" : 1189,
+         "wref" : "绍熙"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "慶元",
+         "name_cn" : "庆元",
+         "offset" : 1194,
+         "wref" : "慶元_(南宋)"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "嘉泰",
+         "name_cn" : "嘉泰",
+         "offset" : 1200,
+         "wref" : "嘉泰"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "開禧",
+         "name_cn" : "开禧",
+         "offset" : 1204,
+         "wref" : "开禧"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "嘉定",
+         "name_cn" : "嘉定",
+         "offset" : 1207,
+         "wref" : "嘉定_(南宋)"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "寶慶",
+         "name_cn" : "宝庆",
+         "offset" : 1224,
+         "wref" : "宝庆"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "紹定",
+         "name_cn" : "绍定",
+         "offset" : 1227,
+         "wref" : "绍定"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "端平",
+         "name_cn" : "端平",
+         "offset" : 1233,
+         "wref" : "端平"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "嘉熙",
+         "name_cn" : "嘉熙",
+         "offset" : 1236,
+         "wref" : "嘉熙"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "淳祐",
+         "name_cn" : "淳祐",
+         "offset" : 1240,
+         "wref" : "淳祐"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "寶祐",
+         "name_cn" : "宝祐",
+         "offset" : 1252,
+         "wref" : "宝祐"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "開慶",
+         "name_cn" : "开庆",
+         "offset" : 1258,
+         "wref" : "开庆"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "景定",
+         "name_cn" : "景定",
+         "offset" : 1259,
+         "wref" : "景定"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "咸淳",
+         "name_cn" : "咸淳",
+         "offset" : 1264,
+         "wref" : "咸淳"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "德祐",
+         "name_cn" : "德祐",
+         "offset" : 1274,
+         "wref" : "德祐"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "景炎",
+         "name_cn" : "景炎",
+         "offset" : 1275,
+         "wref" : "景炎"
+      },
+      {
+         "caption" : "南宋",
+         "name" : "祥興",
+         "name_cn" : "祥兴",
+         "offset" : 1277,
+         "wref" : "祥兴_(南宋)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "明受",
+         "name_cn" : "明受",
+         "offset" : 1128,
+         "wref" : "明受"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天載",
+         "name_cn" : "天载",
+         "offset" : 1129,
+         "wref" : "天载"
+      },
+      {
+         "caption" : "misc",
+         "name" : "正法",
+         "name_cn" : "正法",
+         "wref" : "正法_(李合戎)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "人知",
+         "name_cn" : "人知",
+         "wref" : "人知"
+      },
+      {
+         "caption" : "misc",
+         "name" : "太平",
+         "name_cn" : "太平",
+         "wref" : "太平_(李婆備)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "阜昌",
+         "name_cn" : "阜昌",
+         "offset" : 1130,
+         "wref" : "阜昌"
+      },
+      {
+         "caption" : "misc",
+         "name" : "大聖天王",
+         "name_cn" : "大圣天王",
+         "offset" : 1132,
+         "wref" : "大聖天王"
+      },
+      {
+         "caption" : "misc",
+         "name" : "庚戌",
+         "name_cn" : "庚戌",
+         "wref" : "庚戌"
+      },
+      {
+         "caption" : "misc",
+         "name" : "羅平",
+         "name_cn" : "罗平",
+         "offset" : 1140,
+         "wref" : "罗平_(王法恩)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "乾貞",
+         "name_cn" : "乾贞",
+         "offset" : 1175,
+         "wref" : "乾貞_(阿謝)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "羅平",
+         "name_cn" : "罗平",
+         "offset" : 1178,
+         "wref" : "罗平_(李接)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "轉運",
+         "name_cn" : "转运",
+         "offset" : 1206,
+         "wref" : "轉運"
+      },
+      {
+         "caption" : "misc",
+         "name" : "重德",
+         "name_cn" : "重德",
+         "offset" : 1228,
+         "wref" : "重德"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天戰",
+         "name_cn" : "天战",
+         "wref" : "天战"
+      },
+      {
+         "caption" : "misc",
+         "name" : "龍興",
+         "name_cn" : "龙兴",
+         "wref" : "龙兴"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天定",
+         "name_cn" : "天定",
+         "wref" : "天定"
+      },
+      {
+         "caption" : "遼",
+         "name" : "神冊",
+         "name_cn" : "神册",
+         "offset" : 915,
+         "wref" : "神册"
+      },
+      {
+         "caption" : "遼",
+         "name" : "天贊",
+         "name_cn" : "天赞",
+         "offset" : 921,
+         "wref" : "天赞"
+      },
+      {
+         "caption" : "遼",
+         "name" : "天顯",
+         "name_cn" : "天显",
+         "offset" : 925,
+         "wref" : "天显"
+      },
+      {
+         "caption" : "遼",
+         "name" : "會同",
+         "name_cn" : "会同",
+         "offset" : 937,
+         "wref" : "会同"
+      },
+      {
+         "caption" : "遼",
+         "name" : "大同",
+         "name_cn" : "大同",
+         "offset" : 946,
+         "wref" : "大同_(辽)"
+      },
+      {
+         "caption" : "遼",
+         "name" : "天祿",
+         "name_cn" : "天禄",
+         "offset" : 946,
+         "wref" : "天祿_(遼)"
+      },
+      {
+         "caption" : "遼",
+         "name" : "應曆",
+         "name_cn" : "应历",
+         "offset" : 950,
+         "wref" : "應曆"
+      },
+      {
+         "caption" : "遼",
+         "name" : "保寧",
+         "name_cn" : "保宁",
+         "offset" : 968,
+         "wref" : "保寧"
+      },
+      {
+         "caption" : "遼",
+         "name" : "乾亨",
+         "name_cn" : "乾亨",
+         "offset" : 978,
+         "wref" : "乾亨_(辽)"
+      },
+      {
+         "caption" : "遼",
+         "name" : "統和",
+         "name_cn" : "统和",
+         "offset" : 982,
+         "wref" : "统和"
+      },
+      {
+         "caption" : "遼",
+         "name" : "開泰",
+         "name_cn" : "开泰",
+         "offset" : 1011,
+         "wref" : "開泰_(遼)"
+      },
+      {
+         "caption" : "遼",
+         "name" : "太平",
+         "name_cn" : "太平",
+         "offset" : 1020,
+         "wref" : "太平_(辽)"
+      },
+      {
+         "caption" : "遼",
+         "name" : "景福",
+         "name_cn" : "景福",
+         "offset" : 1030,
+         "wref" : "景福_(辽)"
+      },
+      {
+         "caption" : "遼",
+         "name" : "重熙",
+         "name_cn" : "重熙",
+         "offset" : 1031,
+         "wref" : "重熙"
+      },
+      {
+         "caption" : "遼",
+         "name" : "清寧",
+         "name_cn" : "清宁",
+         "offset" : 1054,
+         "wref" : "清宁"
+      },
+      {
+         "caption" : "遼",
+         "name" : "咸雍",
+         "name_cn" : "咸雍",
+         "offset" : 1064,
+         "wref" : "咸雍"
+      },
+      {
+         "caption" : "遼",
+         "name" : "大康",
+         "name_cn" : "大康",
+         "offset" : 1074,
+         "wref" : "大康"
+      },
+      {
+         "caption" : "遼",
+         "name" : "大安",
+         "name_cn" : "大安",
+         "offset" : 1084,
+         "wref" : "大安_(辽)"
+      },
+      {
+         "caption" : "遼",
+         "name" : "壽昌",
+         "name_cn" : "寿昌",
+         "offset" : 1094,
+         "wref" : "寿昌"
+      },
+      {
+         "caption" : "遼",
+         "name" : "乾統",
+         "name_cn" : "乾统",
+         "offset" : 1100,
+         "wref" : "乾统"
+      },
+      {
+         "caption" : "遼",
+         "name" : "天慶",
+         "name_cn" : "天庆",
+         "offset" : 1110,
+         "wref" : "天庆_(辽)"
+      },
+      {
+         "caption" : "遼",
+         "name" : "保大",
+         "name_cn" : "保大",
+         "offset" : 1120,
+         "wref" : "保大_(辽)"
+      },
+      {
+         "caption" : "北遼",
+         "name" : "建福",
+         "name_cn" : "建福",
+         "offset" : 1121,
+         "wref" : "建福_(北辽)"
+      },
+      {
+         "caption" : "北遼",
+         "name" : "德興",
+         "name_cn" : "德兴",
+         "offset" : 1121,
+         "wref" : "德兴_(北辽)"
+      },
+      {
+         "caption" : "北遼",
+         "name" : "神曆",
+         "name_cn" : "神历",
+         "offset" : 1122,
+         "wref" : "神曆"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天慶",
+         "name_cn" : "天庆",
+         "offset" : 1028,
+         "wref" : "天庆_(大延琳)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "隆基",
+         "name_cn" : "隆基",
+         "offset" : 1115,
+         "wref" : "隆基"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天復",
+         "name_cn" : "天复",
+         "offset" : 1122,
+         "wref" : "天复_(回离保)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天嗣",
+         "name_cn" : "天嗣",
+         "offset" : 1122,
+         "wref" : "天嗣"
+      },
+      {
+         "caption" : "西遼",
+         "name" : "延慶",
+         "name_cn" : "延庆",
+         "wref" : "延慶_(西遼)"
+      },
+      {
+         "caption" : "西遼",
+         "name" : "康國",
+         "name_cn" : "康国",
+         "offset" : 1133,
+         "wref" : "康国_(西辽)"
+      },
+      {
+         "caption" : "西遼",
+         "name" : "咸清",
+         "name_cn" : "咸清",
+         "offset" : 1143,
+         "wref" : "咸清"
+      },
+      {
+         "caption" : "西遼",
+         "name" : "紹興",
+         "name_cn" : "绍兴",
+         "offset" : 1150,
+         "wref" : "绍兴_(西辽)"
+      },
+      {
+         "caption" : "西遼",
+         "name" : "崇福",
+         "name_cn" : "崇福",
+         "offset" : 1163,
+         "wref" : "崇福"
+      },
+      {
+         "caption" : "西遼",
+         "name" : "皇德",
+         "name_cn" : "皇德",
+         "wref" : "皇德"
+      },
+      {
+         "caption" : "西遼",
+         "name" : "重德",
+         "name_cn" : "重德",
+         "wref" : "重德"
+      },
+      {
+         "caption" : "西遼",
+         "name" : "天禧",
+         "name_cn" : "天禧",
+         "offset" : 1177,
+         "wref" : "天禧_(西辽)"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "顯道",
+         "name_cn" : "显道",
+         "offset" : 1031,
+         "wref" : "显道"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "開運",
+         "name_cn" : "开运",
+         "offset" : 1033,
+         "wref" : "开运_(西夏)"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "廣運",
+         "name_cn" : "广运",
+         "offset" : 1033,
+         "wref" : "广运_(西夏)"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "大慶",
+         "name_cn" : "大庆",
+         "offset" : 1035,
+         "wref" : "大庆_(李元昊)"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "天授禮法延祚",
+         "name_cn" : "天授礼法延祚",
+         "offset" : 1037,
+         "wref" : "天授礼法延祚"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "廣熙",
+         "name_cn" : "广熙",
+         "wref" : "广熙"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "廣民",
+         "name_cn" : "广民",
+         "wref" : "广民"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "延嗣寧國",
+         "name_cn" : "延嗣宁国",
+         "offset" : 1048,
+         "wref" : "延嗣宁国"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "天祐垂聖",
+         "name_cn" : "天祐垂圣",
+         "offset" : 1049,
+         "wref" : "天祐垂圣"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "福聖承道",
+         "name_cn" : "福圣承道",
+         "offset" : 1052,
+         "wref" : "福圣承道"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "奲都",
+         "name_cn" : "奲都",
+         "offset" : 1056,
+         "wref" : "奲都"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "拱化",
+         "name_cn" : "拱化",
+         "offset" : 1062,
+         "wref" : "拱化"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "乾道",
+         "name_cn" : "乾道",
+         "offset" : 1066,
+         "wref" : "乾道_(西夏)"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "天賜禮盛國慶",
+         "name_cn" : "天赐礼盛国庆",
+         "offset" : 1068,
+         "wref" : "天赐礼盛国庆"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "大安",
+         "name_cn" : "大安",
+         "offset" : 1074,
+         "wref" : "大安_(西夏)"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "天安禮定",
+         "name_cn" : "天安礼定",
+         "offset" : 1085,
+         "wref" : "天安礼定"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "西安",
+         "name_cn" : "西安",
+         "wref" : "西安"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "天儀治平",
+         "name_cn" : "天仪治平",
+         "offset" : 1085,
+         "wref" : "天儀治平"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "天祐民安",
+         "name_cn" : "天祐民安",
+         "offset" : 1089,
+         "wref" : "天祐民安"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "永安",
+         "name_cn" : "永安",
+         "offset" : 1097,
+         "wref" : "永安_(西夏)"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "貞觀",
+         "name_cn" : "贞观",
+         "offset" : 1100,
+         "wref" : "貞觀_(西夏)"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "雍寧",
+         "name_cn" : "雍宁",
+         "offset" : 1113,
+         "wref" : "雍寧"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "元德",
+         "name_cn" : "元德",
+         "offset" : 1118,
+         "wref" : "元德_(西夏)"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "正德",
+         "name_cn" : "正德",
+         "offset" : 1126,
+         "wref" : "正德_(西夏)"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "大德",
+         "name_cn" : "大德",
+         "offset" : 1134,
+         "wref" : "大德_(西夏)"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "大慶",
+         "name_cn" : "大庆",
+         "offset" : 1139,
+         "wref" : "大庆_(李仁孝)"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "人慶",
+         "name_cn" : "人庆",
+         "offset" : 1143,
+         "wref" : "人慶"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "天盛",
+         "name_cn" : "天盛",
+         "offset" : 1148,
+         "wref" : "天盛_(西夏)"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "乾祐",
+         "name_cn" : "乾祐",
+         "offset" : 1169,
+         "wref" : "乾祐_(西夏)"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "天慶",
+         "name_cn" : "天庆",
+         "offset" : 1193,
+         "wref" : "天慶_(西夏)"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "應天",
+         "name_cn" : "应天",
+         "offset" : 1205,
+         "wref" : "應天_(西夏)"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "皇建",
+         "name_cn" : "皇建",
+         "offset" : 1209,
+         "wref" : "皇建_(西夏)"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "光定",
+         "name_cn" : "光定",
+         "offset" : 1210,
+         "wref" : "光定"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "乾定",
+         "name_cn" : "乾定",
+         "offset" : 1222,
+         "wref" : "乾定"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "寶義",
+         "name_cn" : "宝义",
+         "offset" : 1225,
+         "wref" : "寶義"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "寶慶",
+         "name_cn" : "宝庆",
+         "wref" : "宝庆"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "廣僖",
+         "name_cn" : "广僖",
+         "wref" : "广僖"
+      },
+      {
+         "caption" : "西夏",
+         "name" : "清平",
+         "name_cn" : "清平",
+         "wref" : "清平"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "收國",
+         "name_cn" : "收国",
+         "offset" : 1114,
+         "wref" : "收國"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "天輔",
+         "name_cn" : "天辅",
+         "offset" : 1116,
+         "wref" : "天辅_(金朝)"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "天會",
+         "name_cn" : "天会",
+         "offset" : 1122,
+         "wref" : "天会_(金朝)"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "天眷",
+         "name_cn" : "天眷",
+         "offset" : 1137,
+         "wref" : "天眷"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "皇統",
+         "name_cn" : "皇统",
+         "offset" : 1140,
+         "wref" : "皇統"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "天德",
+         "name_cn" : "天德",
+         "offset" : 1148,
+         "wref" : "天德_(金朝)"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "貞元",
+         "name_cn" : "贞元",
+         "offset" : 1152,
+         "wref" : "贞元_(金朝)"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "正隆",
+         "name_cn" : "正隆",
+         "offset" : 1155,
+         "wref" : "正隆"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "大定",
+         "name_cn" : "大定",
+         "offset" : 1160,
+         "wref" : "大定_(金朝)"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "興慶",
+         "name_cn" : "兴庆",
+         "wref" : "兴庆_(金朝)"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "明昌",
+         "name_cn" : "明昌",
+         "offset" : 1189,
+         "wref" : "明昌"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "承安",
+         "name_cn" : "承安",
+         "offset" : 1195,
+         "wref" : "承安_(金朝)"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "泰和",
+         "name_cn" : "泰和",
+         "offset" : 1200,
+         "wref" : "泰和_(金朝)"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "天定",
+         "name_cn" : "天定",
+         "wref" : "天定"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "大安",
+         "name_cn" : "大安",
+         "offset" : 1208,
+         "wref" : "大安_(金朝)"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "崇慶",
+         "name_cn" : "崇庆",
+         "offset" : 1211,
+         "wref" : "崇慶"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "至寧",
+         "name_cn" : "至宁",
+         "offset" : 1212,
+         "wref" : "至寧"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "貞祐",
+         "name_cn" : "贞祐",
+         "offset" : 1212,
+         "wref" : "贞祐"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "興定",
+         "name_cn" : "兴定",
+         "offset" : 1216,
+         "wref" : "興定"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "元光",
+         "name_cn" : "元光",
+         "offset" : 1221,
+         "wref" : "元光_(金朝)"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "正大",
+         "name_cn" : "正大",
+         "offset" : 1223,
+         "wref" : "正大"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "開興",
+         "name_cn" : "开兴",
+         "offset" : 1231,
+         "wref" : "開興"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "天興",
+         "name_cn" : "天兴",
+         "offset" : 1231,
+         "wref" : "天兴_(金朝)"
+      },
+      {
+         "caption" : "金朝",
+         "name" : "盛昌",
+         "name_cn" : "盛昌",
+         "wref" : "盛昌"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天興",
+         "name_cn" : "天兴",
+         "offset" : 1146,
+         "wref" : "天興_(熬羅孛極烈)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天統",
+         "name_cn" : "天统",
+         "wref" : "天统"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天正",
+         "name_cn" : "天正",
+         "offset" : 1160,
+         "wref" : "天正_(移剌窩幹)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "身聖",
+         "name_cn" : "身圣",
+         "offset" : 1195,
+         "wref" : "身聖"
+      },
+      {
+         "caption" : "misc",
+         "name" : "元統",
+         "name_cn" : "元统",
+         "offset" : 1212,
+         "wref" : "元統_(耶律留哥)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天賜",
+         "name_cn" : "天赐",
+         "offset" : 1213,
+         "wref" : "天賜_(劉永昌)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天順",
+         "name_cn" : "天顺",
+         "offset" : 1213,
+         "wref" : "天順_(楊安兒)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天泰",
+         "name_cn" : "天泰",
+         "offset" : 1214,
+         "wref" : "天泰"
+      },
+      {
+         "caption" : "misc",
+         "name" : "大同",
+         "name_cn" : "大同",
+         "offset" : 1223,
+         "wref" : "大同_(蒲鮮萬奴)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "興隆",
+         "name_cn" : "兴隆",
+         "offset" : 1215,
+         "wref" : "興隆_(張致)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "順天",
+         "name_cn" : "顺天",
+         "offset" : 1215,
+         "wref" : "順天_(郝定)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天威",
+         "name_cn" : "天威",
+         "offset" : 1215,
+         "wref" : "天威"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天祐",
+         "name_cn" : "天祐",
+         "wref" : "天祐_(乞奴)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天德",
+         "name_cn" : "天德",
+         "offset" : 1215,
+         "wref" : "天德_(金山)"
+      },
+      {
+         "caption" : "元朝",
+         "name" : "中統",
+         "name_cn" : "中统",
+         "offset" : 1259,
+         "wref" : "中統_(年號)"
+      },
+      {
+         "caption" : "元朝",
+         "name" : "至元",
+         "name_cn" : "至元",
+         "offset" : 1263,
+         "wref" : "至元_(忽必烈)"
+      },
+      {
+         "caption" : "元朝",
+         "name" : "元貞",
+         "name_cn" : "元贞",
+         "offset" : 1294,
+         "wref" : "元贞"
+      },
+      {
+         "caption" : "元朝",
+         "name" : "大德",
+         "name_cn" : "大德",
+         "offset" : 1296,
+         "wref" : "大德_(元)"
+      },
+      {
+         "caption" : "元朝",
+         "name" : "至大",
+         "name_cn" : "至大",
+         "offset" : 1307,
+         "wref" : "至大"
+      },
+      {
+         "caption" : "元朝",
+         "name" : "皇慶",
+         "name_cn" : "皇庆",
+         "offset" : 1311,
+         "wref" : "皇庆"
+      },
+      {
+         "caption" : "元朝",
+         "name" : "延祐",
+         "name_cn" : "延祐",
+         "offset" : 1313,
+         "wref" : "延祐"
+      },
+      {
+         "caption" : "元朝",
+         "name" : "至治",
+         "name_cn" : "至治",
+         "offset" : 1320,
+         "wref" : "至治_(元)"
+      },
+      {
+         "caption" : "元朝",
+         "name" : "泰定",
+         "name_cn" : "泰定",
+         "offset" : 1323,
+         "wref" : "泰定_(元)"
+      },
+      {
+         "caption" : "元朝",
+         "name" : "致和",
+         "name_cn" : "致和",
+         "offset" : 1327,
+         "wref" : "致和"
+      },
+      {
+         "caption" : "元朝",
+         "name" : "天順",
+         "name_cn" : "天顺",
+         "offset" : 1327,
+         "wref" : "天顺_(元)"
+      },
+      {
+         "caption" : "元朝",
+         "name" : "天曆",
+         "name_cn" : "天历",
+         "offset" : 1327,
+         "wref" : "天历_(元)"
+      },
+      {
+         "caption" : "元朝",
+         "name" : "至順",
+         "name_cn" : "至顺",
+         "offset" : 1329,
+         "wref" : "至顺"
+      },
+      {
+         "caption" : "元朝",
+         "name" : "元統",
+         "name_cn" : "元统",
+         "offset" : 1332,
+         "wref" : "元统_(元)"
+      },
+      {
+         "caption" : "元朝",
+         "name" : "至元",
+         "name_cn" : "至元",
+         "offset" : 1334,
+         "wref" : "至元_(元惠宗)"
+      },
+      {
+         "caption" : "元朝",
+         "name" : "至正",
+         "name_cn" : "至正",
+         "offset" : 1340,
+         "wref" : "至正"
+      },
+      {
+         "caption" : "北元",
+         "name" : "宣光",
+         "name_cn" : "宣光",
+         "offset" : 1370,
+         "wref" : "宣光_(北元)"
+      },
+      {
+         "caption" : "北元",
+         "name" : "天元",
+         "name_cn" : "天元",
+         "offset" : 1378,
+         "wref" : "天元_(北元)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "昌泰",
+         "name_cn" : "昌泰",
+         "offset" : 1280,
+         "wref" : "昌泰_(陳吊眼)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "延康",
+         "name_cn" : "延康",
+         "offset" : 1282,
+         "wref" : "延康_(林桂方)"
+      },
+      {
+         "caption" : "misc",
+         "dup" : 1,
+         "name" : "祥興",
+         "name_cn" : "祥兴",
+         "offset" : 1282,
+         "wref" : "祥兴_(南宋)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "安定",
+         "name_cn" : "安定",
+         "offset" : 1288,
+         "wref" : "安定_(楊鎮龍)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "正治",
+         "name_cn" : "正治",
+         "offset" : 1296,
+         "wref" : "正治_(陳空崖)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "赤符",
+         "name_cn" : "赤符",
+         "offset" : 1336,
+         "wref" : "赤符"
+      },
+      {
+         "caption" : "misc",
+         "name" : "治平",
+         "name_cn" : "治平",
+         "offset" : 1350,
+         "wref" : "治平_(徐寿辉)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "太平",
+         "name_cn" : "太平",
+         "offset" : 1355,
+         "wref" : "太平_(徐寿辉)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天啟",
+         "name_cn" : "天启",
+         "offset" : 1357,
+         "wref" : "天启_(徐寿辉)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天定",
+         "name_cn" : "天定",
+         "offset" : 1358,
+         "wref" : "天定_(徐寿辉)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "正朔",
+         "name_cn" : "正朔",
+         "wref" : "正朔"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天祐",
+         "name_cn" : "天祐",
+         "offset" : 1353,
+         "wref" : "天祐_(張士誠)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "龍鳳",
+         "name_cn" : "龙凤",
+         "offset" : 1354,
+         "wref" : "龍鳳_(韓林兒)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "大義",
+         "name_cn" : "大义",
+         "offset" : 1359,
+         "wref" : "大义"
+      },
+      {
+         "caption" : "misc",
+         "name" : "大定",
+         "name_cn" : "大定",
+         "offset" : 1360,
+         "wref" : "大定_(陈友谅)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "德壽",
+         "name_cn" : "德寿",
+         "offset" : 1362,
+         "wref" : "德壽_(陳理)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天統",
+         "name_cn" : "天统",
+         "offset" : 1362,
+         "wref" : "天统_(明玉珍)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "開熙",
+         "name_cn" : "开熙",
+         "offset" : 1366,
+         "wref" : "开熙"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "洪武",
+         "name_cn" : "洪武",
+         "offset" : 1367,
+         "wref" : "洪武"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "建文",
+         "name_cn" : "建文",
+         "offset" : 1398,
+         "wref" : "建文"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "永樂",
+         "name_cn" : "永乐",
+         "offset" : 1402,
+         "wref" : "永乐_(明)"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "洪熙",
+         "name_cn" : "洪熙",
+         "offset" : 1424,
+         "wref" : "洪熙"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "宣德",
+         "name_cn" : "宣德",
+         "offset" : 1425,
+         "wref" : "宣德"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "正統",
+         "name_cn" : "正统",
+         "offset" : 1435,
+         "wref" : "正统_(年号)"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "景泰",
+         "name_cn" : "景泰",
+         "offset" : 1449,
+         "wref" : "景泰_(明)"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "天順",
+         "name_cn" : "天顺",
+         "offset" : 1456,
+         "wref" : "天顺_(明)"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "成化",
+         "name_cn" : "成化",
+         "offset" : 1464,
+         "wref" : "成化"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "弘治",
+         "name_cn" : "弘治",
+         "offset" : 1487,
+         "wref" : "弘治_(明)"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "正德",
+         "name_cn" : "正德",
+         "offset" : 1505,
+         "wref" : "正德_(明)"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "嘉靖",
+         "name_cn" : "嘉靖",
+         "offset" : 1521,
+         "wref" : "嘉靖"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "隆慶",
+         "name_cn" : "隆庆",
+         "offset" : 1566,
+         "wref" : "隆庆_(明)"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "萬曆",
+         "name_cn" : "万历",
+         "offset" : 1572,
+         "wref" : "万历"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "泰昌",
+         "name_cn" : "泰昌",
+         "wref" : "泰昌"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "天啟",
+         "name_cn" : "天启",
+         "offset" : 1620,
+         "wref" : "天启_(明)"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "崇禎",
+         "name_cn" : "崇祯",
+         "offset" : 1627,
+         "wref" : "崇祯"
+      },
+      {
+         "caption" : "明朝",
+         "name" : "義興",
+         "name_cn" : "义兴",
+         "offset" : 1643,
+         "wref" : "義興_(年號)"
+      },
+      {
+         "caption" : "南明",
+         "name" : "弘光",
+         "name_cn" : "弘光",
+         "offset" : 1644,
+         "wref" : "弘光"
+      },
+      {
+         "caption" : "南明",
+         "name" : "隆武",
+         "name_cn" : "隆武",
+         "offset" : 1644,
+         "wref" : "隆武"
+      },
+      {
+         "caption" : "南明",
+         "name" : "紹武",
+         "name_cn" : "绍武",
+         "offset" : 1645,
+         "wref" : "绍武"
+      },
+      {
+         "caption" : "南明",
+         "name" : "庚寅",
+         "name_cn" : "庚寅",
+         "wref" : "庚寅_(年号)"
+      },
+      {
+         "caption" : "南明",
+         "name" : "定武",
+         "name_cn" : "定武",
+         "offset" : 1645,
+         "wref" : "定武"
+      },
+      {
+         "caption" : "南明",
+         "name" : "永曆",
+         "name_cn" : "永历",
+         "offset" : 1646,
+         "wref" : "永曆_(南明)"
+      },
+      {
+         "caption" : "南明",
+         "name" : "東武",
+         "name_cn" : "东武",
+         "offset" : 1647,
+         "wref" : "东武"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天定",
+         "name_cn" : "天定",
+         "offset" : 1385,
+         "wref" : "天定_(彭玉琳)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "龍鳳",
+         "name_cn" : "龙凤",
+         "offset" : 1396,
+         "wref" : "龙凤_(田九成)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "泰定",
+         "name_cn" : "泰定",
+         "offset" : 1447,
+         "wref" : "泰定_(陳鑑胡)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "東陽",
+         "name_cn" : "东阳",
+         "offset" : 1448,
+         "wref" : "东阳_(黄萧养)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "玄元",
+         "name_cn" : "玄元",
+         "offset" : 1450,
+         "wref" : "玄元"
+      },
+      {
+         "caption" : "misc",
+         "name" : "添元",
+         "name_cn" : "添元",
+         "offset" : 1452,
+         "wref" : "添元"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天順",
+         "name_cn" : "天顺",
+         "offset" : 1455,
+         "wref" : "天顺_(李珍)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天繡",
+         "name_cn" : "天绣",
+         "offset" : 1456,
+         "wref" : "天绣"
+      },
+      {
+         "caption" : "misc",
+         "name" : "武烈",
+         "name_cn" : "武烈",
+         "wref" : "武烈"
+      },
+      {
+         "caption" : "misc",
+         "name" : "德勝",
+         "name_cn" : "德胜",
+         "offset" : 1464,
+         "wref" : "德胜"
+      },
+      {
+         "caption" : "misc",
+         "name" : "明正",
+         "name_cn" : "明正",
+         "wref" : "明正"
+      },
+      {
+         "caption" : "misc",
+         "name" : "順德",
+         "name_cn" : "顺德",
+         "offset" : 1518,
+         "wref" : "顺德_(朱宸濠)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "平定",
+         "name_cn" : "平定",
+         "wref" : "平定_(段鋹)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "大順",
+         "name_cn" : "大顺",
+         "wref" : "大順"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天淵",
+         "name_cn" : "天渊",
+         "offset" : 1545,
+         "wref" : "天渊_(田斌)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "造歷",
+         "name_cn" : "造历",
+         "wref" : "造历"
+      },
+      {
+         "caption" : "misc",
+         "name" : "龍飛",
+         "name_cn" : "龙飞",
+         "wref" : "龍飛"
+      },
+      {
+         "caption" : "misc",
+         "name" : "大寶",
+         "name_cn" : "大宝",
+         "offset" : 1564,
+         "wref" : "大宝_(蔡伯贯)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "洪武",
+         "name_cn" : "洪武",
+         "offset" : 1618,
+         "wref" : "洪武_(李新)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "真混",
+         "name_cn" : "真混",
+         "offset" : 1618,
+         "wref" : "真混"
+      },
+      {
+         "caption" : "misc",
+         "name" : "瑞應",
+         "name_cn" : "瑞应",
+         "offset" : 1620,
+         "wref" : "瑞应"
+      },
+      {
+         "caption" : "misc",
+         "name" : "玄靜",
+         "name_cn" : "玄静",
+         "offset" : 1621,
+         "wref" : "玄静"
+      },
+      {
+         "caption" : "misc",
+         "name" : "大成興勝",
+         "name_cn" : "大成兴胜",
+         "offset" : 1621,
+         "wref" : "大成兴胜"
+      },
+      {
+         "caption" : "misc",
+         "name" : "永興",
+         "name_cn" : "永兴",
+         "offset" : 1627,
+         "wref" : "永兴_(张惟元)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "興武",
+         "name_cn" : "兴武",
+         "offset" : 1634,
+         "wref" : "兴武"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天運",
+         "name_cn" : "天运",
+         "offset" : 1636,
+         "wref" : "天運_(張普薇)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "永昌",
+         "name_cn" : "永昌",
+         "offset" : 1643,
+         "wref" : "永昌_(李自成)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "義武",
+         "name_cn" : "义武",
+         "wref" : "义武"
+      },
+      {
+         "caption" : "misc",
+         "name" : "大順",
+         "name_cn" : "大顺",
+         "offset" : 1643,
+         "wref" : "大顺_(张献忠)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "圓明大寶",
+         "name_cn" : "圆明大宝",
+         "wref" : "圆明大宝"
+      },
+      {
+         "caption" : "misc",
+         "name" : "宏閏",
+         "name_cn" : "宏闰",
+         "wref" : "宏閏"
+      },
+      {
+         "caption" : "misc",
+         "name" : "湧安",
+         "name_cn" : "涌安",
+         "wref" : "湧安"
+      },
+      {
+         "caption" : "後金",
+         "name" : "天命",
+         "name_cn" : "天命",
+         "offset" : 1615,
+         "wref" : "天命_(后金)"
+      },
+      {
+         "caption" : "後金",
+         "name" : "天聰",
+         "name_cn" : "天聪",
+         "offset" : 1626,
+         "wref" : "天聪"
+      },
+      {
+         "caption" : "清朝",
+         "name" : "崇德",
+         "name_cn" : "崇德",
+         "offset" : 1635,
+         "wref" : "崇德"
+      },
+      {
+         "caption" : "清朝",
+         "name" : "順治",
+         "name_cn" : "顺治",
+         "offset" : 1643,
+         "wref" : "顺治"
+      },
+      {
+         "caption" : "清朝",
+         "name" : "康熙",
+         "name_cn" : "康熙",
+         "offset" : 1661,
+         "wref" : "康熙"
+      },
+      {
+         "caption" : "清朝",
+         "name" : "雍正",
+         "name_cn" : "雍正",
+         "offset" : 1722,
+         "wref" : "雍正"
+      },
+      {
+         "caption" : "清朝",
+         "name" : "乾隆",
+         "name_cn" : "乾隆",
+         "offset" : 1735,
+         "wref" : "乾隆"
+      },
+      {
+         "caption" : "清朝",
+         "name" : "嘉慶",
+         "name_cn" : "嘉庆",
+         "offset" : 1795,
+         "wref" : "嘉庆"
+      },
+      {
+         "caption" : "清朝",
+         "name" : "道光",
+         "name_cn" : "道光",
+         "offset" : 1820,
+         "wref" : "道光"
+      },
+      {
+         "caption" : "清朝",
+         "name" : "咸豐",
+         "name_cn" : "咸丰",
+         "offset" : 1850,
+         "wref" : "咸丰_(年号)"
+      },
+      {
+         "caption" : "清朝",
+         "name" : "祺祥",
+         "name_cn" : "祺祥",
+         "wref" : "祺祥"
+      },
+      {
+         "caption" : "清朝",
+         "name" : "同治",
+         "name_cn" : "同治",
+         "offset" : 1861,
+         "wref" : "同治"
+      },
+      {
+         "caption" : "清朝",
+         "name" : "光緒",
+         "name_cn" : "光绪",
+         "offset" : 1874,
+         "wref" : "光绪"
+      },
+      {
+         "caption" : "清朝",
+         "name" : "宣統",
+         "name_cn" : "宣统",
+         "offset" : 1908,
+         "wref" : "宣統"
+      },
+      {
+         "caption" : "misc",
+         "name" : "重興",
+         "name_cn" : "重兴",
+         "offset" : 1643,
+         "wref" : "重兴_(秦尚行)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天定",
+         "name_cn" : "天定",
+         "offset" : 1643,
+         "wref" : "天定_(刘守分)"
+      },
+      {
+         "caption" : "misc",
+         "dup" : 1,
+         "name" : "永昌",
+         "name_cn" : "永昌",
+         "offset" : 1643,
+         "wref" : "永昌_(李自成)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "清光",
+         "name_cn" : "清光",
+         "offset" : 1644,
+         "wref" : "清光"
+      },
+      {
+         "caption" : "misc",
+         "name" : "中興",
+         "name_cn" : "中兴",
+         "offset" : 1646,
+         "wref" : "中兴_(蒋尔恂)"
+      },
+      {
+         "caption" : "misc",
+         "dup" : 1,
+         "name" : "永曆",
+         "name_cn" : "永历",
+         "offset" : 1646,
+         "wref" : "永曆_(南明)"
+      },
+      {
+         "caption" : "misc",
+         "dup" : 1,
+         "name" : "隆武",
+         "name_cn" : "隆武",
+         "offset" : 1646,
+         "wref" : "隆武"
+      },
+      {
+         "caption" : "misc",
+         "name" : "興朝",
+         "name_cn" : "兴朝",
+         "wref" : "兴朝"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天正",
+         "name_cn" : "天正",
+         "offset" : 1647,
+         "wref" : "天正_(东明起义军)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天順",
+         "name_cn" : "天顺",
+         "offset" : 1660,
+         "wref" : "天顺_(萧惟堂)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "大慶",
+         "name_cn" : "大庆",
+         "offset" : 1664,
+         "wref" : "大慶_(王耀祖)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "廣德",
+         "name_cn" : "广德",
+         "offset" : 1672,
+         "wref" : "廣德_(楊起隆)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "昭武",
+         "name_cn" : "昭武",
+         "offset" : 1677,
+         "wref" : "昭武"
+      },
+      {
+         "caption" : "misc",
+         "name" : "利用",
+         "name_cn" : "利用",
+         "wref" : "利用"
+      },
+      {
+         "caption" : "misc",
+         "name" : "洪化",
+         "name_cn" : "洪化",
+         "offset" : 1677,
+         "wref" : "洪化"
+      },
+      {
+         "caption" : "misc",
+         "name" : "裕民",
+         "name_cn" : "裕民",
+         "wref" : "裕民_(耿精忠)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "文興",
+         "name_cn" : "文兴",
+         "offset" : 1703,
+         "wref" : "文兴_(魏枝叶)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "元興",
+         "name_cn" : "元兴",
+         "wref" : "元兴_(清)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "永興",
+         "name_cn" : "永兴",
+         "offset" : 1707,
+         "wref" : "永兴_(钱宝通)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天德",
+         "name_cn" : "天德",
+         "offset" : 1707,
+         "wref" : "天德_(张念一)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "永和",
+         "name_cn" : "永和",
+         "offset" : 1720,
+         "wref" : "永和_(朱一貴)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天運",
+         "name_cn" : "天运",
+         "offset" : 1785,
+         "wref" : "天运_(林爽文)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "順天",
+         "name_cn" : "顺天",
+         "offset" : 1786,
+         "wref" : "顺天_(林爽文)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天運",
+         "name_cn" : "天运",
+         "offset" : 1794,
+         "wref" : "天運_(陳周全)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "萬利",
+         "name_cn" : "万利",
+         "offset" : 1796,
+         "wref" : "万利"
+      },
+      {
+         "caption" : "misc",
+         "name" : "晏朝",
+         "name_cn" : "晏朝",
+         "offset" : 1813,
+         "wref" : "晏朝"
+      },
+      {
+         "caption" : "misc",
+         "name" : "太平天國",
+         "name_cn" : "太平天国",
+         "offset" : 1850,
+         "wref" : "太平天囯_(年號)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天德",
+         "name_cn" : "天德",
+         "offset" : 1850,
+         "wref" : "天德_(林万青)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "洪順",
+         "name_cn" : "洪顺",
+         "offset" : 1852,
+         "wref" : "洪顺_(李明先)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天德",
+         "name_cn" : "天德",
+         "offset" : 1852,
+         "wref" : "天德_(黄威)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "天運",
+         "name_cn" : "天运",
+         "offset" : 1852,
+         "wref" : "天运_(刘丽川)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "洪德",
+         "name_cn" : "洪德",
+         "offset" : 1854,
+         "wref" : "洪德_(大成)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "順天",
+         "name_cn" : "顺天",
+         "offset" : 1859,
+         "wref" : "顺天_(李永和)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "嗣統",
+         "name_cn" : "嗣统",
+         "offset" : 1863,
+         "wref" : "嗣统"
+      },
+      {
+         "caption" : "misc",
+         "name" : "華漢",
+         "name_cn" : "华汉",
+         "wref" : "华汉"
+      },
+      {
+         "caption" : "misc",
+         "name" : "江漢",
+         "name_cn" : "江汉",
+         "wref" : "江汉_(杨龙喜)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "永清",
+         "name_cn" : "永清",
+         "offset" : 1894,
+         "wref" : "永清_(年号)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "大明國",
+         "name_cn" : "大明国",
+         "offset" : 1901,
+         "wref" : "大明国_(年号)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "漢德",
+         "name_cn" : "汉德",
+         "offset" : 1905,
+         "wref" : "漢德_(龔春台)"
+      },
+      {
+         "caption" : "misc",
+         "name" : "共戴",
+         "name_cn" : "共戴",
+         "offset" : 1910,
+         "wref" : "共戴"
+      },
+      {
+         "caption" : "中華民國成立以後的中國君主",
+         "name" : "通志",
+         "name_cn" : "通志",
+         "offset" : 1914,
+         "wref" : "通志_(年号)"
+      },
+      {
+         "caption" : "中華民國成立以後的中國君主",
+         "name" : "洪憲",
+         "name_cn" : "洪宪",
+         "offset" : 1915,
+         "wref" : "洪憲"
+      },
+      {
+         "caption" : "中華民國成立以後的中國君主",
+         "name" : "宣統",
+         "name_cn" : "宣统",
+         "offset" : 1916,
+         "wref" : "宣統"
+      },
+      {
+         "caption" : "中華民國成立以後的中國君主",
+         "name" : "大同",
+         "name_cn" : "大同",
+         "offset" : 1931,
+         "wref" : "大同_(满洲国)"
+      },
+      {
+         "caption" : "中華民國成立以後的中國君主",
+         "name" : "康德",
+         "name_cn" : "康德",
+         "offset" : 1933,
+         "wref" : "康德_(满洲国)"
+      },
+      {
+         "caption" : "中華民國民國紀年",
+         "name" : "民國",
+         "name_cn" : "民国",
+         "wref" : "民國紀年"
+      }
+   ]
+}

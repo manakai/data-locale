@@ -128,8 +128,13 @@ The file contains a JSON object with following name/value pairs:
         are [boolean] true values.  Variants include names without
         suffix (e.g. "神武" for "神武天皇") and names using different
         spelling (e.g. using traditional variant such as "神武" and "神
-        武天皇").  They also include any |name|, |short_name|, |abbr|,
-        and |abbr_latn| of the era.  (The |key| might not be a name.)
+        武天皇").  They also include any |name|, |name_cn|, |name_tw|,
+        |short_name|, |abbr|, and |abbr_latn| of the era.  (The |key|
+        might not be a name.)
+
+      name_cn [string?]
+
+        The name of the era in Simplified Chinese, if known.
 
       name_kana [string?]
 
@@ -143,6 +148,11 @@ The file contains a JSON object with following name/value pairs:
       name_latn [string?]
 
         The primary Latin name of the era, if known.
+
+      name_tw [string?]
+
+        The name of the era in Traditional Chinese as written in
+        Taiwan, if known.
 
       offset [integer?]
 
@@ -177,13 +187,19 @@ The file contains a JSON object with following name/value pairs:
 
         A Wikipedia reference
         <https://github.com/geocol/data-jp-transport/blob/master/doc/datatypes.txt>
-        for the English Wikipedia article on the era.
+        for the English Wikipedia article on the era, if known.
 
       wref_ja [string?]
 
         A Wikipedia reference
         <https://github.com/geocol/data-jp-transport/blob/master/doc/datatypes.txt>
-        for the Japanese Wikipedia article on the era.
+        for the Japanese Wikipedia article on the era, if known.
+
+      wref_zh [string?]
+
+        A Wikipedia reference
+        <https://github.com/geocol/data-jp-transport/blob/master/doc/datatypes.txt>
+        for the Chinese Wikipedia article on the era, if known.
 
       start_day [day?]
       start_year [year?]
@@ -271,6 +287,16 @@ The file contains a JSON object with following name/value pairs:
     Japanese contexts.  Now that Japan is the only country using 元号,
     this should be the global default used when the no context is
     known.
+
+  numbers_in_era_names
+
+    List of era names that contain numeric characters (such that they
+    can cause a problem when a string is parsed into an era name and a
+    year number).  A JSON object whose names are numeric characters
+    and values are list of relevant era names, represented as JSON
+    objects whose names are era names and values are JSON objects
+    whose names are relevant era keys and values are [boolean] true
+    values.
 
 * See also
 
