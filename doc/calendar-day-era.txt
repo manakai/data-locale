@@ -21,6 +21,7 @@ the year can be represented in the era system, it is represented as an
 era key followed by a U+0020 SPACE character followed by a decimal
 integer representing the year in the era, using optional U+002D
 HYPHEN-MINUS character followed by zero or more ASCII digits.
+Otherwise, the string "null" is set instead of the year.
 
 * Sources
 
