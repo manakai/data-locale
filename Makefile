@@ -131,7 +131,8 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     local/era-defs-dates.json src/char-variants.txt \
     src/wp-jp-eras-en.json src/era-data.txt src/era-yomi.txt \
     src/jp-private-eras.txt src/era-variants.txt \
-    src/wp-cn-eras.json src/era-china-dups.txt local/number-values.json
+    src/wp-cn-eras.json src/era-china-dups.txt local/number-values.json \
+    src/era-viet.txt src/era-korea.txt src/era-tw.txt
 	$(PERL) $< > $@
 
 local/era-chars.json: bin/generate-era-chars.pl \
@@ -139,6 +140,12 @@ local/era-chars.json: bin/generate-era-chars.pl \
 	$(PERL) $< > $@
 local/cn-era-name-diff.txt: bin/generate-cn-era-name-diff.pl \
     src/wp-cn-eras.json
+	$(PERL) $< > $@
+local/era-jp-conflicts.json: bin/generate-era-jp-conflicts.pl \
+    data/calendar/era-defs.json
+	$(PERL) $< > $@
+local/era-conflict-count.json: bin/generate-era-conflict-count.pl \
+    data/calendar/era-defs.json
 	$(PERL) $< > $@
 
 local/leap-seconds.txt:

@@ -391,6 +391,7 @@ sub year2kanshi ($) {
     next if $src->{name} eq '宣統' and $src->{offset} == 1916;
     next if $src->{name} eq '明德' and not defined $src->{offset};
     next if $src->{name} eq '廣德' and not defined $src->{offset};
+    $src->{offset} = 1861 - 1 if $src->{name} eq '祺祥' and not defined $src->{offset};
     my $key = (defined $src->{offset} ?
                    ($nc2key->{$src->{name}.'/'.$src->{caption}.'/'.year2kanshi(($src->{offset})+1).'/'.($src->{offset}+1)} ||
                     $nc2key->{$src->{name}.'/'.$src->{caption}.'/'.year2kanshi(($src->{offset})+1)})
@@ -430,6 +431,40 @@ sub year2kanshi ($) {
   }
 
   warn $_ for @dup;
+}
+
+for my $path (
+  $root_path->child ('src/era-tw.txt'),
+  $root_path->child ('src/era-viet.txt'),
+  $root_path->child ('src/era-korea.txt'),
+) {
+  for (split /\x0D?\x0A/, $path->slurp_utf8) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^(\S+)(?:\s+(BC|)(\d+)|)(?:$|-)/) {
+      my $first_year = defined $3 ? $2 ? 1 - $3 : $3 : undef;
+      my @name = split /,/, $1;
+      my @n;
+      for (@name) {
+        if (defined $Data->{name_to_key}->{jp}->{$_}) {
+          warn "Duplicate era |$_| ($_(@{[year2kanshi $first_year]}))";
+        } else {
+          push @n, $_;
+        }
+      }
+      next unless @n;
+      my $d = $Data->{eras}->{$n[0]} ||= {};
+      $d->{key} = $n[0];
+      $d->{name} = drop_kanshi $n[0];
+      $d->{names}->{drop_kanshi $_} = 1 for @n;
+      expand_name $d, $_ for @n;
+      if (defined $first_year) {
+        $d->{offset} = $first_year - 1;
+      }
+    } elsif (/\S/) {
+      die "Bad line |$_|";
+    }
+  }
 }
 
 {
@@ -494,9 +529,15 @@ for my $name (keys %{$Data->{name_conflicts}}) {
   for my $data (values %{$Data->{eras}}) {
     for (keys %{$data->{names}}) {
       while (/($number_pattern)/go) {
-        $Data->{numbers_in_era_names}->{$1}->{$_}->{$data->{key}} = 1;
+        $Data->{numbers_in_era_names}->{$1}->{$_} = 1;
       }
     }
+  }
+}
+
+for my $data (values %{$Data->{eras}}) {
+  for (keys %{$data->{names}}) {
+    $Data->{name_to_keys}->{$_}->{$data->{key}} = 1;
   }
 }
 
