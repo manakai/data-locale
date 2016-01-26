@@ -47,6 +47,7 @@ for (values %$json) {
     $data->{jp_era} = 1;
   }
   $data->{name} = $_->{name};
+  $data->{name_ja} = $_->{name};
   $data->{key} = $_->{name};
   for my $key (qw(wref_ja name_kana name_kanas)) {
     if (defined $_->{$key}) {

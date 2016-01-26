@@ -14,6 +14,7 @@ for (split /\x0D?\x0A/, $src_path->slurp_utf8) {
     my $data = $Data->{eras}->{$3} ||= {};
     $data->{key} = $3;
     $data->{name} = $3;
+    $data->{name_ja} = $3;
     $data->{name_kana} = $4;
     $data->{name_kanas}->{$4} = 1;
     $data->{name_latn} = $5;

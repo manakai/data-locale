@@ -107,3 +107,110 @@ wref_ja 征露
 wref_ja 核時代
 [霊寿]
 wref_ja 璽宇
+
+
+def[AD]
+name AD
+name A.D.
+name Anno Domini
+name CE
+name C.E.
+name Common Era
+name 西暦
+name 西紀
+name 公元紀年
+name 公元
+name 西暦紀元
+name キリスト紀元
+name 耶蘇紀元
+wref_zh 公元
+wref_ja 西暦
+AD1 = 1
+
+[崇禎]
+name 崇禎紀元
+#wref_ja 崇禎紀元
+AD1628 = 1
+
+[神武天皇]
+name 神武天皇即位紀元
+name 神武紀元
+name 皇紀
+name 即位紀元
+name 皇暦
+name 神武暦
+name 日紀
+#wref_ja 神武天皇即位紀元
+wref_zh 皇纪
+
+def[開國]
+name 開國
+name_ko 개국
+name_ja 開国
+name 開国年号
+name 朝鮮開國
+name 大朝鮮國開國
+wref_ja 開国_(李氏朝鮮)
+wref_ko 개국_(조선)
+AD1392 = 1
+
+def[黃帝紀元]
+name_tw 黃帝紀元
+name_cn 黄帝纪元
+name 軒轅紀年
+name_ja 黄帝紀元
+name 黄紀
+wref_zh 黄帝纪元
+wref_ja 黄帝紀元
+AD1911 = 4609
+
+def[中華民國]
+name_tw 中華民國
+name_cn 中华民国
+name_ja 中華民国
+name 民國
+name 民国
+name_abbr 民
+name 民國紀年
+name 民国纪年
+name 民國紀元
+name 民国紀元
+name 中華民国暦
+name 国历
+name 國曆
+name 国暦
+wref_ja 民国紀元
+wref_zh 民國紀年
+AD1912 = 1
+
+def[대한민국]
+name_ko 대한민국
+name_ja 大韓民国
+name_tw 大韓民國
+name 民國
+name 民国
+name 민국
+wref_ja 大韓民国_(年号)
+wref_zh 大韓民國_(年號)
+AD1919 = 1
+
+def[단기]
+name_ko 단기
+name_ja 檀紀
+name 檀君紀元
+name 단군기원
+wref_ja 檀紀
+wref_ko 단군기원
+BC2333 = 1
+
+def[주체]
+name_ko 주체
+name_ja 主体
+name 주체연호
+name 주체력
+name 主体暦
+name 主體年號
+name 主體曆
+wref_ko 주체연호
+wref_ja 主体暦
+AD1912 = 1

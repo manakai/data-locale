@@ -1,5 +1,38 @@
 {
    "eras" : {
+      "AD" : {
+         "key" : "AD",
+         "name" : "AD",
+         "names" : {
+            "A.D." : 1,
+            "AD" : 1,
+            "Anno Domini" : 1,
+            "C.E." : 1,
+            "CE" : 1,
+            "Common Era" : 1,
+            "キリスト紀元" : 1,
+            "キリスト纪元" : 1,
+            "公元" : 1,
+            "公元紀年" : 1,
+            "公元纪年" : 1,
+            "耶蘇紀元" : 1,
+            "耶蘇纪元" : 1,
+            "西历" : 1,
+            "西历紀元" : 1,
+            "西历纪元" : 1,
+            "西暦" : 1,
+            "西暦紀元" : 1,
+            "西暦纪元" : 1,
+            "西曆" : 1,
+            "西曆紀元" : 1,
+            "西曆纪元" : 1,
+            "西紀" : 1,
+            "西纪" : 1
+         },
+         "offset" : 0,
+         "wref_ja" : "西暦",
+         "wref_zh" : "公元"
+      },
       "丁丑" : {
          "key" : "丁丑",
          "name" : "丁丑",
@@ -34,6 +67,7 @@
          "jp_era" : 1,
          "key" : "万寿",
          "name" : "万寿",
+         "name_ja" : "万寿",
          "name_kana" : "まんじゅ",
          "name_kanas" : {
             "まんじゅ" : 1
@@ -94,6 +128,7 @@
          "jp_era" : 1,
          "key" : "万延",
          "name" : "万延",
+         "name_ja" : "万延",
          "name_kana" : "まんえん",
          "name_kanas" : {
             "まんえん" : 1
@@ -150,6 +185,7 @@
          "jp_era" : 1,
          "key" : "万治",
          "name" : "万治",
+         "name_ja" : "万治",
          "name_kana" : "まんじ",
          "name_kanas" : {
             "まんじ" : 1
@@ -266,6 +302,7 @@
          "jp_private_era" : 1,
          "key" : "中元",
          "name" : "中元",
+         "name_ja" : "中元",
          "names" : {
             "中元" : 1
          },
@@ -435,6 +472,70 @@
          "offset" : 500,
          "wref_zh" : "中兴_(南齐)"
       },
+      "中華民國" : {
+         "key" : "中華民國",
+         "name" : "中華民國",
+         "names" : {
+            "中华民囯" : 1,
+            "中华民囯历" : 1,
+            "中华民囯暦" : 1,
+            "中华民囯曆" : 1,
+            "中华民国" : 1,
+            "中华民国历" : 1,
+            "中华民国暦" : 1,
+            "中华民国曆" : 1,
+            "中华民國" : 1,
+            "中华民國历" : 1,
+            "中华民國暦" : 1,
+            "中华民國曆" : 1,
+            "中華民囯" : 1,
+            "中華民囯历" : 1,
+            "中華民囯暦" : 1,
+            "中華民囯曆" : 1,
+            "中華民国" : 1,
+            "中華民国历" : 1,
+            "中華民国暦" : 1,
+            "中華民国曆" : 1,
+            "中華民國" : 1,
+            "中華民國历" : 1,
+            "中華民國暦" : 1,
+            "中華民國曆" : 1,
+            "囯历" : 1,
+            "囯暦" : 1,
+            "囯曆" : 1,
+            "囯歴" : 1,
+            "囯歷" : 1,
+            "国历" : 1,
+            "国暦" : 1,
+            "国曆" : 1,
+            "国歴" : 1,
+            "国歷" : 1,
+            "國历" : 1,
+            "國暦" : 1,
+            "國曆" : 1,
+            "國歴" : 1,
+            "國歷" : 1,
+            "民" : 1,
+            "民囯" : 1,
+            "民囯紀元" : 1,
+            "民囯紀年" : 1,
+            "民囯纪元" : 1,
+            "民囯纪年" : 1,
+            "民国" : 1,
+            "民国紀元" : 1,
+            "民国紀年" : 1,
+            "民国纪元" : 1,
+            "民国纪年" : 1,
+            "民國" : 1,
+            "民國紀元" : 1,
+            "民國紀年" : 1,
+            "民國纪元" : 1,
+            "民國纪年" : 1
+         },
+         "offset" : 1911,
+         "wref_ja" : "民国紀元",
+         "wref_zh" : "民國紀年"
+      },
       "久安" : {
          "actual_end_day" : {
             "gregorian" : "1151-02-21",
@@ -458,6 +559,7 @@
          "jp_era" : 1,
          "key" : "久安",
          "name" : "久安",
+         "name_ja" : "久安",
          "name_kana" : "きゅうあん",
          "name_kanas" : {
             "きゅうあん" : 1
@@ -494,6 +596,7 @@
          "jp_private_era" : 1,
          "key" : "久宝",
          "name" : "久宝",
+         "name_ja" : "久宝",
          "names" : {
             "久宝" : 1,
             "久寳" : 1,
@@ -524,6 +627,7 @@
          "jp_era" : 1,
          "key" : "久寿",
          "name" : "久寿",
+         "name_ja" : "久寿",
          "name_kana" : "きゅうじゅ",
          "name_kanas" : {
             "きゅうじゅ" : 1
@@ -615,6 +719,7 @@
          "jp_era" : 1,
          "key" : "乾元",
          "name" : "乾元",
+         "name_ja" : "乾元",
          "name_kana" : "けんげん",
          "name_kanas" : {
             "けんげん" : 1
@@ -993,6 +1098,7 @@
          "jp_era" : 1,
          "key" : "享保",
          "name" : "享保",
+         "name_ja" : "享保",
          "name_kana" : "きょうほう",
          "name_kanas" : {
             "きょうほ" : 1,
@@ -1049,6 +1155,7 @@
          "jp_era" : 1,
          "key" : "享和",
          "name" : "享和",
+         "name_ja" : "享和",
          "name_kana" : "きょうわ",
          "name_kanas" : {
             "きょうわ" : 1
@@ -1104,6 +1211,7 @@
          "jp_era" : 1,
          "key" : "享徳",
          "name" : "享徳",
+         "name_ja" : "享徳",
          "name_kana" : "きょうとく",
          "name_kanas" : {
             "きょうとく" : 1,
@@ -1142,6 +1250,7 @@
          "jp_private_era" : 1,
          "key" : "享正",
          "name" : "享正",
+         "name_ja" : "享正",
          "names" : {
             "享正" : 1
          },
@@ -1170,6 +1279,7 @@
          "jp_era" : 1,
          "key" : "享禄",
          "name" : "享禄",
+         "name_ja" : "享禄",
          "name_kana" : "きょうろく",
          "name_kanas" : {
             "きょうろく" : 1
@@ -1207,6 +1317,7 @@
          "jp_private_era" : 1,
          "key" : "享高",
          "name" : "享高",
+         "name_ja" : "享高",
          "names" : {
             "享高" : 1
          },
@@ -1257,6 +1368,7 @@
          "jp_era" : 1,
          "key" : "仁和",
          "name" : "仁和",
+         "name_ja" : "仁和",
          "name_kana" : "にんな",
          "name_kanas" : {
             "にんな" : 1,
@@ -1338,6 +1450,7 @@
          "jp_era" : 1,
          "key" : "仁安",
          "name" : "仁安",
+         "name_ja" : "仁安",
          "name_kana" : "にんあん",
          "name_kanas" : {
             "にんあん" : 1,
@@ -1405,6 +1518,7 @@
          "jp_era" : 1,
          "key" : "仁寿",
          "name" : "仁寿",
+         "name_ja" : "仁寿",
          "name_kana" : "にんじゅ",
          "name_kanas" : {
             "にんじゅ" : 1
@@ -1462,6 +1576,7 @@
          "jp_era" : 1,
          "key" : "仁平",
          "name" : "仁平",
+         "name_ja" : "仁平",
          "name_kana" : "にんぺい",
          "name_kanas" : {
             "にんひょう" : 1,
@@ -1538,6 +1653,7 @@
          "jp_emperor_era" : 1,
          "key" : "仁徳天皇",
          "name" : "仁徳天皇",
+         "name_ja" : "仁徳天皇",
          "name_kana" : "にんとくてんのう",
          "name_kanas" : {
             "にんとくてんのう" : 1
@@ -1605,6 +1721,7 @@
          "jp_era" : 1,
          "key" : "仁治",
          "name" : "仁治",
+         "name_ja" : "仁治",
          "name_kana" : "にんじ",
          "name_kanas" : {
             "にんじ" : 1,
@@ -1642,6 +1759,7 @@
          "jp_private_era" : 1,
          "key" : "仁王",
          "name" : "仁王",
+         "name_ja" : "仁王",
          "names" : {
             "仁王" : 1
          },
@@ -1679,6 +1797,7 @@
          "jp_emperor_era" : 1,
          "key" : "仁賢天皇",
          "name" : "仁賢天皇",
+         "name_ja" : "仁賢天皇",
          "name_kana" : "にんけんてんのう",
          "name_kanas" : {
             "にんけんてんのう" : 1
@@ -1755,6 +1874,7 @@
          "jp_emperor_era" : 1,
          "key" : "仲哀天皇",
          "name" : "仲哀天皇",
+         "name_ja" : "仲哀天皇",
          "name_kana" : "ちゅうあいてんのう",
          "name_kanas" : {
             "ちゅうあいてんのう" : 1
@@ -1820,6 +1940,7 @@
          "jp_era" : 1,
          "key" : "保元",
          "name" : "保元",
+         "name_ja" : "保元",
          "name_kana" : "ほうげん",
          "name_kanas" : {
             "ほうげん" : 1
@@ -1927,6 +2048,7 @@
          "jp_era" : 1,
          "key" : "保安",
          "name" : "保安",
+         "name_ja" : "保安",
          "name_kana" : "ほうあん",
          "name_kanas" : {
             "ほうあん" : 1
@@ -1997,6 +2119,7 @@
          "jp_private_era" : 1,
          "key" : "保寿",
          "name" : "保寿",
+         "name_ja" : "保寿",
          "names" : {
             "保壽" : 1,
             "保夀" : 1,
@@ -2026,6 +2149,7 @@
          "jp_era" : 1,
          "key" : "保延",
          "name" : "保延",
+         "name_ja" : "保延",
          "name_kana" : "ほうえん",
          "name_kanas" : {
             "ほうえん" : 1
@@ -2092,6 +2216,7 @@
          "jp_private_era" : 1,
          "key" : "倭京縄",
          "name" : "倭京縄",
+         "name_ja" : "倭京縄",
          "names" : {
             "倭京" : 1,
             "倭京縄" : 1,
@@ -2106,6 +2231,7 @@
          "jp_private_era" : 1,
          "key" : "僧聴",
          "name" : "僧聴",
+         "name_ja" : "僧聴",
          "names" : {
             "僧徳" : 1,
             "僧德" : 1,
@@ -2117,6 +2243,7 @@
          "jp_private_era" : 1,
          "key" : "僧要",
          "name" : "僧要",
+         "name_ja" : "僧要",
          "names" : {
             "僧安" : 1,
             "僧要" : 1
@@ -2169,6 +2296,7 @@
          "jp_emperor_era" : 1,
          "key" : "允恭天皇",
          "name" : "允恭天皇",
+         "name_ja" : "允恭天皇",
          "name_kana" : "いんぎょうてんのう",
          "name_kanas" : {
             "いんぎょうてんのう" : 1
@@ -2215,6 +2343,7 @@
          "jp_south_era" : 1,
          "key" : "元中",
          "name" : "元中",
+         "name_ja" : "元中",
          "name_kana" : "げんちゅう",
          "name_kanas" : {
             "げんちゅう" : 1
@@ -2289,6 +2418,7 @@
          "jp_era" : 1,
          "key" : "元久",
          "name" : "元久",
+         "name_ja" : "元久",
          "name_kana" : "げんきゅう",
          "name_kanas" : {
             "げんきゅう" : 1
@@ -2344,6 +2474,7 @@
          "jp_era" : 1,
          "key" : "元亀",
          "name" : "元亀",
+         "name_ja" : "元亀",
          "name_kana" : "げんき",
          "name_kanas" : {
             "げんき" : 1
@@ -2401,6 +2532,7 @@
          "jp_era" : 1,
          "key" : "元亨",
          "name" : "元亨",
+         "name_ja" : "元亨",
          "name_kana" : "げんこう",
          "name_kanas" : {
             "げんこう" : 1
@@ -2467,6 +2599,7 @@
          "jp_era" : 1,
          "key" : "元仁",
          "name" : "元仁",
+         "name_ja" : "元仁",
          "name_kana" : "げんにん",
          "name_kanas" : {
             "げんにん" : 1
@@ -2566,6 +2699,7 @@
          "jp_era" : 1,
          "key" : "元和",
          "name" : "元和",
+         "name_ja" : "元和",
          "name_kana" : "げんな",
          "name_kanas" : {
             "げんな" : 1,
@@ -2762,6 +2896,7 @@
          "jp_south_era" : 1,
          "key" : "元弘",
          "name" : "元弘",
+         "name_ja" : "元弘",
          "name_kana" : "げんこう",
          "name_kanas" : {
             "げんこう" : 1
@@ -2856,6 +2991,7 @@
          "jp_south_era" : 1,
          "key" : "元徳",
          "name" : "元徳",
+         "name_ja" : "元徳",
          "name_kana" : "げんとく",
          "name_kanas" : {
             "げんとく" : 1
@@ -2992,6 +3128,7 @@
          "jp_era" : 1,
          "key" : "元応",
          "name" : "元応",
+         "name_ja" : "元応",
          "name_kana" : "げんおう",
          "name_kanas" : {
             "げんおう" : 1,
@@ -3050,6 +3187,7 @@
          "jp_era" : 1,
          "key" : "元慶",
          "name" : "元慶",
+         "name_ja" : "元慶",
          "name_kana" : "がんぎょう",
          "name_kanas" : {
             "がんきょう" : 1,
@@ -3113,6 +3251,7 @@
          "jp_era" : 1,
          "key" : "元文",
          "name" : "元文",
+         "name_ja" : "元文",
          "name_kana" : "げんぶん",
          "name_kanas" : {
             "げんぶん" : 1
@@ -3168,6 +3307,7 @@
          "jp_era" : 1,
          "key" : "元暦",
          "name" : "元暦",
+         "name_ja" : "元暦",
          "name_kana" : "げんりゃく",
          "name_kanas" : {
             "げんりゃく" : 1
@@ -3236,6 +3376,7 @@
          "jp_era" : 1,
          "key" : "元永",
          "name" : "元永",
+         "name_ja" : "元永",
          "name_kana" : "げんえい",
          "name_kanas" : {
             "げんえい" : 1
@@ -3291,6 +3432,7 @@
          "jp_era" : 1,
          "key" : "元治",
          "name" : "元治",
+         "name_ja" : "元治",
          "name_kana" : "げんじ",
          "name_kanas" : {
             "げんじ" : 1
@@ -3382,6 +3524,7 @@
          "jp_private_era" : 1,
          "key" : "元真",
          "name" : "元真",
+         "name_ja" : "元真",
          "names" : {
             "元真" : 1
          }
@@ -3420,6 +3563,7 @@
          "jp_era" : 1,
          "key" : "元禄",
          "name" : "元禄",
+         "name_ja" : "元禄",
          "name_kana" : "げんろく",
          "name_kanas" : {
             "げんろく" : 1
@@ -3457,6 +3601,7 @@
          "jp_private_era" : 1,
          "key" : "元禾",
          "name" : "元禾",
+         "name_ja" : "元禾",
          "names" : {
             "元禾" : 1
          }
@@ -3628,6 +3773,7 @@
          "jp_private_era" : 1,
          "key" : "兄弟",
          "name" : "兄弟",
+         "name_ja" : "兄弟",
          "names" : {
             "兄弟" : 1,
             "兄弟和" : 1
@@ -3657,6 +3803,7 @@
          "jp_private_era" : 1,
          "key" : "光充",
          "name" : "光充",
+         "name_ja" : "光充",
          "names" : {
             "光元" : 1,
             "光充" : 1,
@@ -3828,6 +3975,7 @@
          "jp_private_era" : 1,
          "key" : "光永",
          "name" : "光永",
+         "name_ja" : "光永",
          "names" : {
             "光永" : 1
          },
@@ -3966,6 +4114,7 @@
          "jp_private_era" : 1,
          "key" : "列滴",
          "name" : "列滴",
+         "name_ja" : "列滴",
          "names" : {
             "列滴" : 1,
             "烈擲" : 1
@@ -4054,6 +4203,7 @@
          "jp_private_era" : 1,
          "key" : "加平",
          "name" : "加平",
+         "name_ja" : "加平",
          "names" : {
             "加平" : 1
          },
@@ -4075,6 +4225,7 @@
          "jp_private_era" : 1,
          "key" : "勝照",
          "name" : "勝照",
+         "name_ja" : "勝照",
          "names" : {
             "勝烈" : 1,
             "勝照" : 1,
@@ -4137,6 +4288,7 @@
          "jp_emperor_era" : 1,
          "key" : "反正天皇",
          "name" : "反正天皇",
+         "name_ja" : "反正天皇",
          "name_kana" : "はんぜいてんのう",
          "name_kanas" : {
             "はんぜいてんのう" : 1
@@ -4226,6 +4378,7 @@
          "jp_private_era" : 1,
          "key" : "告貴",
          "name" : "告貴",
+         "name_ja" : "告貴",
          "names" : {
             "吉貴" : 1,
             "告言" : 1,
@@ -4239,6 +4392,7 @@
          "jp_private_era" : 1,
          "key" : "命禄",
          "name" : "命禄",
+         "name_ja" : "命禄",
          "names" : {
             "命祿" : 1,
             "命禄" : 1
@@ -4249,6 +4403,7 @@
          "jp_private_era" : 1,
          "key" : "命長",
          "name" : "命長",
+         "name_ja" : "命長",
          "names" : {
             "令長" : 1,
             "令长" : 1,
@@ -4265,6 +4420,7 @@
          "jp_private_era" : 1,
          "key" : "和勝",
          "name" : "和勝",
+         "name_ja" : "和勝",
          "names" : {
             "和勝" : 1,
             "和胜" : 1
@@ -4319,6 +4475,7 @@
          "jp_private_era" : 1,
          "key" : "和重",
          "name" : "和重",
+         "name_ja" : "和重",
          "names" : {
             "和重" : 1
          },
@@ -4347,6 +4504,7 @@
          "jp_era" : 1,
          "key" : "和銅",
          "name" : "和銅",
+         "name_ja" : "和銅",
          "name_kana" : "わどう",
          "name_kanas" : {
             "わどう" : 1
@@ -4567,6 +4725,7 @@
          "jp_private_era" : 1,
          "key" : "品暦",
          "name" : "品暦",
+         "name_ja" : "品暦",
          "names" : {
             "品历" : 1,
             "品暦" : 1,
@@ -4617,6 +4776,7 @@
          "jp_private_era" : 1,
          "key" : "善記",
          "name" : "善記",
+         "name_ja" : "善記",
          "names" : {
             "善化" : 1,
             "善喜" : 1,
@@ -4630,6 +4790,7 @@
          "jp_private_era" : 1,
          "key" : "喜楽",
          "name" : "喜楽",
+         "name_ja" : "喜楽",
          "names" : {
             "喜乐" : 1,
             "喜楽" : 1,
@@ -4693,6 +4854,7 @@
          "jp_era" : 1,
          "key" : "嘉保",
          "name" : "嘉保",
+         "name_ja" : "嘉保",
          "name_kana" : "かほう",
          "name_kanas" : {
             "かほう" : 1
@@ -4748,6 +4910,7 @@
          "jp_era" : 1,
          "key" : "嘉元",
          "name" : "嘉元",
+         "name_ja" : "嘉元",
          "name_kana" : "かげん",
          "name_kanas" : {
             "かげん" : 1
@@ -4803,6 +4966,7 @@
          "jp_era" : 1,
          "key" : "嘉吉",
          "name" : "嘉吉",
+         "name_ja" : "嘉吉",
          "name_kana" : "かきつ",
          "name_kanas" : {
             "かきち" : 1,
@@ -4916,6 +5080,7 @@
          "jp_era" : 1,
          "key" : "嘉応",
          "name" : "嘉応",
+         "name_ja" : "嘉応",
          "name_kana" : "かおう",
          "name_kanas" : {
             "かおう" : 1
@@ -4954,6 +5119,7 @@
          "jp_north_era" : 1,
          "key" : "嘉慶",
          "name" : "嘉慶",
+         "name_ja" : "嘉慶",
          "name_kana" : "かきょう",
          "name_kanas" : {
             "かきょう" : 1,
@@ -5042,6 +5208,7 @@
          "jp_era" : 1,
          "key" : "嘉承",
          "name" : "嘉承",
+         "name_ja" : "嘉承",
          "name_kana" : "かしょう",
          "name_kanas" : {
             "かしょう" : 1,
@@ -5100,6 +5267,7 @@
          "jp_era" : 1,
          "key" : "嘉暦",
          "name" : "嘉暦",
+         "name_ja" : "嘉暦",
          "name_kana" : "かりゃく",
          "name_kanas" : {
             "かりゃく" : 1
@@ -5169,6 +5337,7 @@
          "jp_era" : 1,
          "key" : "嘉永",
          "name" : "嘉永",
+         "name_ja" : "嘉永",
          "name_kana" : "かえい",
          "name_kanas" : {
             "かえい" : 1
@@ -5270,6 +5439,7 @@
          "jp_era" : 1,
          "key" : "嘉祥",
          "name" : "嘉祥",
+         "name_ja" : "嘉祥",
          "name_kana" : "かしょう",
          "name_kanas" : {
             "かしょう" : 1,
@@ -5327,6 +5497,7 @@
          "jp_era" : 1,
          "key" : "嘉禄",
          "name" : "嘉禄",
+         "name_ja" : "嘉禄",
          "name_kana" : "かろく",
          "name_kanas" : {
             "かろく" : 1
@@ -5383,6 +5554,7 @@
          "jp_era" : 1,
          "key" : "嘉禎",
          "name" : "嘉禎",
+         "name_ja" : "嘉禎",
          "name_kana" : "かてい",
          "name_kanas" : {
             "かてい" : 1
@@ -5431,6 +5603,7 @@
          "jp_private_era" : 1,
          "key" : "嘉紀",
          "name" : "嘉紀",
+         "name_ja" : "嘉紀",
          "names" : {
             "嘉紀" : 1,
             "嘉纪" : 1
@@ -5542,6 +5715,7 @@
          "jp_emperor_era" : 1,
          "key" : "垂仁天皇",
          "name" : "垂仁天皇",
+         "name_ja" : "垂仁天皇",
          "name_kana" : "すいにんてんのう",
          "name_kanas" : {
             "すいにんてんのう" : 1
@@ -5700,6 +5874,7 @@
          "jp_era" : 1,
          "key" : "大化",
          "name" : "大化",
+         "name_ja" : "大化",
          "name_kana" : "たいか",
          "name_kanas" : {
             "たいか" : 1
@@ -5755,6 +5930,7 @@
          "jp_era" : 1,
          "key" : "大同",
          "name" : "大同",
+         "name_ja" : "大同",
          "name_kana" : "だいどう",
          "name_kanas" : {
             "だいどう" : 1
@@ -5856,6 +6032,7 @@
          "jp_private_era" : 1,
          "key" : "大和(乙未)",
          "name" : "大和",
+         "name_ja" : "大和",
          "names" : {
             "大和" : 1
          },
@@ -5997,6 +6174,7 @@
          "jp_era" : 1,
          "key" : "大宝",
          "name" : "大宝",
+         "name_ja" : "大宝",
          "name_kana" : "たいほう",
          "name_kanas" : {
             "たいほう" : 1,
@@ -6109,6 +6287,7 @@
          "jp_private_era" : 1,
          "key" : "大延",
          "name" : "大延",
+         "name_ja" : "大延",
          "names" : {
             "大延" : 1
          },
@@ -6223,6 +6402,7 @@
          "jp_private_era" : 1,
          "key" : "大政",
          "name" : "大政",
+         "name_ja" : "大政",
          "names" : {
             "大政" : 1
          },
@@ -6359,6 +6539,7 @@
          "jp_era" : 1,
          "key" : "大正",
          "name" : "大正",
+         "name_ja" : "大正",
          "name_kana" : "たいしょう",
          "name_kanas" : {
             "たいしょう" : 1
@@ -6446,6 +6627,7 @@
          "jp_era" : 1,
          "key" : "大永",
          "name" : "大永",
+         "name_ja" : "大永",
          "name_kana" : "だいえい",
          "name_kanas" : {
             "たいえい" : 1,
@@ -6507,6 +6689,7 @@
          "jp_era" : 1,
          "key" : "大治",
          "name" : "大治",
+         "name_ja" : "大治",
          "name_kana" : "だいじ",
          "name_kanas" : {
             "たいじ" : 1,
@@ -6614,6 +6797,7 @@
          "jp_private_era" : 1,
          "key" : "大花",
          "name" : "大花",
+         "name_ja" : "大花",
          "names" : {
             "大花" : 1
          },
@@ -6683,6 +6867,7 @@
          "jp_private_era" : 1,
          "key" : "大道",
          "name" : "大道",
+         "name_ja" : "大道",
          "names" : {
             "大同" : 1,
             "大筒" : 1,
@@ -6694,6 +6879,7 @@
          "jp_private_era" : 1,
          "key" : "大長",
          "name" : "大長",
+         "name_ja" : "大長",
          "names" : {
             "大屯" : 1,
             "大長" : 1,
@@ -6768,6 +6954,7 @@
          "jp_era" : 1,
          "key" : "天仁",
          "name" : "天仁",
+         "name_ja" : "天仁",
          "name_kana" : "てんにん",
          "name_kanas" : {
             "てんにん" : 1
@@ -6823,6 +7010,7 @@
          "jp_era" : 1,
          "key" : "天保",
          "name" : "天保",
+         "name_ja" : "天保",
          "name_kana" : "てんぽう",
          "name_kanas" : {
             "てんほう" : 1,
@@ -6914,6 +7102,7 @@
          "jp_era" : 1,
          "key" : "天元",
          "name" : "天元",
+         "name_ja" : "天元",
          "name_kana" : "てんげん",
          "name_kanas" : {
             "てんげん" : 1
@@ -7025,6 +7214,7 @@
          "jp_era" : 1,
          "key" : "天和",
          "name" : "天和",
+         "name_ja" : "天和",
          "name_kana" : "てんな",
          "name_kanas" : {
             "てんな" : 1
@@ -7151,6 +7341,7 @@
          "jp_era" : 1,
          "key" : "天喜",
          "name" : "天喜",
+         "name_ja" : "天喜",
          "name_kana" : "てんき",
          "name_kanas" : {
             "てんき" : 1,
@@ -7289,6 +7480,7 @@
          "jp_era" : 1,
          "key" : "天安",
          "name" : "天安",
+         "name_ja" : "天安",
          "name_kana" : "てんあん",
          "name_kanas" : {
             "てんあん" : 1,
@@ -7469,6 +7661,7 @@
          "jp_era" : 1,
          "key" : "天平",
          "name" : "天平",
+         "name_ja" : "天平",
          "name_kana" : "てんぴょう",
          "name_kanas" : {
             "てんびょう" : 1,
@@ -7538,6 +7731,7 @@
          "jp_era" : 1,
          "key" : "天平勝宝",
          "name" : "天平勝宝",
+         "name_ja" : "天平勝宝",
          "name_kana" : "てんぴょうしょうほう",
          "name_kanas" : {
             "てんびょうしょうぼう" : 1,
@@ -7600,6 +7794,7 @@
          "jp_era" : 1,
          "key" : "天平宝字",
          "name" : "天平宝字",
+         "name_ja" : "天平宝字",
          "name_kana" : "てんぴょうほうじ",
          "name_kanas" : {
             "てんびょうほうじ" : 1,
@@ -7659,6 +7854,7 @@
          "jp_era" : 1,
          "key" : "天平感宝",
          "name" : "天平感宝",
+         "name_ja" : "天平感宝",
          "name_kana" : "てんぴょうかんぽう",
          "name_kanas" : {
             "てんびょうかんぽう" : 1,
@@ -7719,6 +7915,7 @@
          "jp_era" : 1,
          "key" : "天平神護",
          "name" : "天平神護",
+         "name_ja" : "天平神護",
          "name_kana" : "てんぴょうじんご",
          "name_kanas" : {
             "てんびょうじんご" : 1,
@@ -7800,6 +7997,7 @@
          "jp_era" : 1,
          "key" : "天延",
          "name" : "天延",
+         "name_ja" : "天延",
          "name_kana" : "てんえん",
          "name_kanas" : {
             "てんえん" : 1
@@ -7908,6 +8106,7 @@
          "jp_era" : 1,
          "key" : "天徳",
          "name" : "天徳",
+         "name_ja" : "天徳",
          "name_kana" : "てんとく",
          "name_kanas" : {
             "てんとく" : 1
@@ -8047,6 +8246,7 @@
          "jp_era" : 1,
          "key" : "天応",
          "name" : "天応",
+         "name_ja" : "天応",
          "name_kana" : "てんおう",
          "name_kanas" : {
             "てんおう" : 1,
@@ -8124,6 +8324,7 @@
          "jp_era" : 1,
          "key" : "天慶",
          "name" : "天慶",
+         "name_ja" : "天慶",
          "name_kana" : "てんぎょう",
          "name_kanas" : {
             "てんきょう" : 1,
@@ -8314,6 +8515,7 @@
          "jp_era" : 1,
          "key" : "天承",
          "name" : "天承",
+         "name_ja" : "天承",
          "name_kana" : "てんしょう",
          "name_kanas" : {
             "てんしょう" : 1,
@@ -8352,6 +8554,7 @@
          "jp_south_era" : 1,
          "key" : "天授",
          "name" : "天授",
+         "name_ja" : "天授",
          "name_kana" : "てんじゅ",
          "name_kanas" : {
             "てんじゅ" : 1
@@ -8460,6 +8663,7 @@
          "jp_private_era" : 1,
          "key" : "天政",
          "name" : "天政",
+         "name_ja" : "天政",
          "names" : {
             "天政" : 1
          }
@@ -8498,6 +8702,7 @@
          "jp_era" : 1,
          "key" : "天文",
          "name" : "天文",
+         "name_ja" : "天文",
          "name_kana" : "てんぶん",
          "name_kanas" : {
             "てんぶん" : 1
@@ -8553,6 +8758,7 @@
          "jp_era" : 1,
          "key" : "天明",
          "name" : "天明",
+         "name_ja" : "天明",
          "name_kana" : "てんめい",
          "name_kanas" : {
             "てんめい" : 1
@@ -8610,6 +8816,7 @@
          "jp_private_era" : 1,
          "key" : "天晴",
          "name" : "天晴",
+         "name_ja" : "天晴",
          "names" : {
             "天政" : 1,
             "天星" : 1,
@@ -8649,6 +8856,7 @@
          "jp_emperor_era" : 1,
          "key" : "天智天皇",
          "name" : "天智天皇",
+         "name_ja" : "天智天皇",
          "name_kana" : "てんじてんのう",
          "name_kanas" : {
             "てんじてんのう" : 1
@@ -8714,6 +8922,7 @@
          "jp_era" : 1,
          "key" : "天暦",
          "name" : "天暦",
+         "name_ja" : "天暦",
          "name_kana" : "てんりゃく",
          "name_kanas" : {
             "てんりゃく" : 1,
@@ -8811,6 +9020,7 @@
          "jp_era" : 1,
          "key" : "天正",
          "name" : "天正",
+         "name_ja" : "天正",
          "name_kana" : "てんしょう",
          "name_kanas" : {
             "てんしょう" : 1
@@ -8917,6 +9127,7 @@
          "jp_emperor_era" : 1,
          "key" : "天武天皇",
          "name" : "天武天皇",
+         "name_ja" : "天武天皇",
          "name_kana" : "てんむてんのう",
          "name_kanas" : {
             "てんむてんのう" : 1
@@ -8982,6 +9193,7 @@
          "jp_era" : 1,
          "key" : "天永",
          "name" : "天永",
+         "name_ja" : "天永",
          "name_kana" : "てんえい",
          "name_kanas" : {
             "てんえい" : 1
@@ -9037,6 +9249,7 @@
          "jp_era" : 1,
          "key" : "天治",
          "name" : "天治",
+         "name_ja" : "天治",
          "name_kana" : "てんじ",
          "name_kanas" : {
             "てんじ" : 1
@@ -9120,6 +9333,7 @@
          "jp_private_era" : 1,
          "key" : "天王",
          "name" : "天王",
+         "name_ja" : "天王",
          "names" : {
             "天王" : 1
          }
@@ -9322,6 +9536,7 @@
          "jp_era" : 1,
          "key" : "天禄",
          "name" : "天禄",
+         "name_ja" : "天禄",
          "name_kana" : "てんろく",
          "name_kanas" : {
             "てんろく" : 1
@@ -9378,6 +9593,7 @@
          "jp_era" : 1,
          "key" : "天福",
          "name" : "天福",
+         "name_ja" : "天福",
          "name_kana" : "てんぷく",
          "name_kanas" : {
             "てんふく" : 1,
@@ -9870,6 +10086,7 @@
          "jp_era" : 1,
          "key" : "天長",
          "name" : "天長",
+         "name_ja" : "天長",
          "name_kana" : "てんちょう",
          "name_kanas" : {
             "てんちょう" : 1
@@ -9928,6 +10145,7 @@
          "jp_private_era" : 1,
          "key" : "天靖",
          "name" : "天靖",
+         "name_ja" : "天靖",
          "names" : {
             "天靖" : 1,
             "天靖" : 1
@@ -10041,6 +10259,7 @@
          "jp_era" : 1,
          "key" : "天養",
          "name" : "天養",
+         "name_ja" : "天養",
          "name_kana" : "てんよう",
          "name_kanas" : {
             "てんよう" : 1
@@ -10727,6 +10946,7 @@
          "jp_private_era" : 1,
          "key" : "始哭",
          "name" : "始哭",
+         "name_ja" : "始哭",
          "names" : {
             "始哭" : 1,
             "始大" : 1
@@ -10795,6 +11015,7 @@
          "jp_private_era" : 1,
          "key" : "子平",
          "name" : "子平",
+         "name_ja" : "子平",
          "names" : {
             "子平" : 1
          },
@@ -10832,6 +11053,7 @@
          "jp_emperor_era" : 1,
          "key" : "孝元天皇",
          "name" : "孝元天皇",
+         "name_ja" : "孝元天皇",
          "name_kana" : "こうげんてんのう",
          "name_kanas" : {
             "こうげんてんのう" : 1
@@ -10917,6 +11139,7 @@
          "jp_emperor_era" : 1,
          "key" : "孝安天皇",
          "name" : "孝安天皇",
+         "name_ja" : "孝安天皇",
          "name_kana" : "こうあんてんのう",
          "name_kanas" : {
             "こうあんてんのう" : 1
@@ -10973,6 +11196,7 @@
       "孝徳天皇" : {
          "key" : "孝徳天皇",
          "name" : "孝徳天皇",
+         "name_ja" : "孝徳天皇",
          "name_kana" : "こうとくてんのう",
          "name_kanas" : {
             "こうとくてんのう" : 1
@@ -11032,6 +11256,7 @@
          "jp_emperor_era" : 1,
          "key" : "孝昭天皇",
          "name" : "孝昭天皇",
+         "name_ja" : "孝昭天皇",
          "name_kana" : "こうしょうてんのう",
          "name_kanas" : {
             "こうしょうてんのう" : 1
@@ -11116,6 +11341,7 @@
          "jp_emperor_era" : 1,
          "key" : "孝霊天皇",
          "name" : "孝霊天皇",
+         "name_ja" : "孝霊天皇",
          "name_kana" : "こうれいてんのう",
          "name_kanas" : {
             "こうれいてんのう" : 1
@@ -11181,6 +11407,7 @@
          "jp_era" : 1,
          "key" : "安元",
          "name" : "安元",
+         "name_ja" : "安元",
          "name_kana" : "あんげん",
          "name_kanas" : {
             "あんげん" : 1
@@ -11236,6 +11463,7 @@
          "jp_era" : 1,
          "key" : "安和",
          "name" : "安和",
+         "name_ja" : "安和",
          "name_kana" : "あんな",
          "name_kanas" : {
             "あんな" : 1,
@@ -11354,6 +11582,7 @@
          "jp_emperor_era" : 1,
          "key" : "安寧天皇",
          "name" : "安寧天皇",
+         "name_ja" : "安寧天皇",
          "name_kana" : "あんねいてんのう",
          "name_kanas" : {
             "あんねいてんのう" : 1
@@ -11430,6 +11659,7 @@
          "jp_emperor_era" : 1,
          "key" : "安康天皇",
          "name" : "安康天皇",
+         "name_ja" : "安康天皇",
          "name_kana" : "あんこうてんのう",
          "name_kanas" : {
             "あんこうてんのう" : 1
@@ -11495,6 +11725,7 @@
          "jp_era" : 1,
          "key" : "安政",
          "name" : "安政",
+         "name_ja" : "安政",
          "name_kana" : "あんせい",
          "name_kanas" : {
             "あんせい" : 1
@@ -11563,6 +11794,7 @@
          "jp_era" : 1,
          "key" : "安永",
          "name" : "安永",
+         "name_ja" : "安永",
          "name_kana" : "あんえい",
          "name_kanas" : {
             "あんえい" : 1
@@ -11618,6 +11850,7 @@
          "jp_era" : 1,
          "key" : "安貞",
          "name" : "安貞",
+         "name_ja" : "安貞",
          "name_kana" : "あんてい",
          "name_kanas" : {
             "あんてい" : 1
@@ -11683,6 +11916,7 @@
          "jp_emperor_era" : 1,
          "key" : "安閑天皇",
          "name" : "安閑天皇",
+         "name_ja" : "安閑天皇",
          "name_kana" : "あんかんてんのう",
          "name_kanas" : {
             "あんかんてんのう" : 1
@@ -11740,6 +11974,7 @@
          "jp_private_era" : 1,
          "key" : "定居",
          "name" : "定居",
+         "name_ja" : "定居",
          "names" : {
             "定光" : 1,
             "定居" : 1
@@ -11791,6 +12026,7 @@
          "jp_era" : 1,
          "key" : "宝亀",
          "name" : "宝亀",
+         "name_ja" : "宝亀",
          "name_kana" : "ほうき",
          "name_kanas" : {
             "ほうき" : 1
@@ -11835,6 +12071,7 @@
          "jp_private_era" : 1,
          "key" : "宝寿",
          "name" : "宝寿",
+         "name_ja" : "宝寿",
          "names" : {
             "宝壽" : 1,
             "宝夀" : 1,
@@ -11871,6 +12108,7 @@
          "jp_era" : 1,
          "key" : "宝徳",
          "name" : "宝徳",
+         "name_ja" : "宝徳",
          "name_kana" : "ほうとく",
          "name_kanas" : {
             "ほうとく" : 1
@@ -11931,6 +12169,7 @@
          "jp_era" : 1,
          "key" : "宝暦",
          "name" : "宝暦",
+         "name_ja" : "宝暦",
          "name_kana" : "ほうれき",
          "name_kanas" : {
             "ほうりゃく" : 1,
@@ -11995,6 +12234,7 @@
          "jp_era" : 1,
          "key" : "宝永",
          "name" : "宝永",
+         "name_ja" : "宝永",
          "name_kana" : "ほうえい",
          "name_kanas" : {
             "ほうえい" : 1
@@ -12057,6 +12297,7 @@
          "jp_era" : 1,
          "key" : "宝治",
          "name" : "宝治",
+         "name_ja" : "宝治",
          "name_kana" : "ほうじ",
          "name_kanas" : {
             "ほうじ" : 1
@@ -12134,6 +12375,7 @@
          "jp_emperor_era" : 1,
          "key" : "宣化天皇",
          "name" : "宣化天皇",
+         "name_ja" : "宣化天皇",
          "name_kana" : "せんかてんのう",
          "name_kanas" : {
             "せんかてんのう" : 1
@@ -12253,6 +12495,7 @@
          "jp_era" : 1,
          "key" : "寛仁",
          "name" : "寛仁",
+         "name_ja" : "寛仁",
          "name_kana" : "かんにん",
          "name_kanas" : {
             "かんにん" : 1
@@ -12309,6 +12552,7 @@
          "jp_era" : 1,
          "key" : "寛保",
          "name" : "寛保",
+         "name_ja" : "寛保",
          "name_kana" : "かんぽう",
          "name_kanas" : {
             "かんほう" : 1,
@@ -12366,6 +12610,7 @@
          "jp_era" : 1,
          "key" : "寛元",
          "name" : "寛元",
+         "name_ja" : "寛元",
          "name_kana" : "かんげん",
          "name_kanas" : {
             "かんげん" : 1
@@ -12422,6 +12667,7 @@
          "jp_era" : 1,
          "key" : "寛和",
          "name" : "寛和",
+         "name_ja" : "寛和",
          "name_kana" : "かんな",
          "name_kanas" : {
             "かんな" : 1,
@@ -12479,6 +12725,7 @@
          "jp_era" : 1,
          "key" : "寛喜",
          "name" : "寛喜",
+         "name_ja" : "寛喜",
          "name_kana" : "かんき",
          "name_kanas" : {
             "かんき" : 1,
@@ -12536,6 +12783,7 @@
          "jp_era" : 1,
          "key" : "寛平",
          "name" : "寛平",
+         "name_ja" : "寛平",
          "name_kana" : "かんぴょう",
          "name_kanas" : {
             "かんぴょう" : 1,
@@ -12595,6 +12843,7 @@
          "jp_era" : 1,
          "key" : "寛延",
          "name" : "寛延",
+         "name_ja" : "寛延",
          "name_kana" : "かんえん",
          "name_kanas" : {
             "かんえん" : 1
@@ -12651,6 +12900,7 @@
          "jp_era" : 1,
          "key" : "寛弘",
          "name" : "寛弘",
+         "name_ja" : "寛弘",
          "name_kana" : "かんこう",
          "name_kanas" : {
             "かんこう" : 1
@@ -12707,6 +12957,7 @@
          "jp_era" : 1,
          "key" : "寛徳",
          "name" : "寛徳",
+         "name_ja" : "寛徳",
          "name_kana" : "かんとく",
          "name_kanas" : {
             "かんとく" : 1
@@ -12765,6 +13016,7 @@
          "jp_era" : 1,
          "key" : "寛政",
          "name" : "寛政",
+         "name_ja" : "寛政",
          "name_kana" : "かんせい",
          "name_kanas" : {
             "かんせい" : 1
@@ -12821,6 +13073,7 @@
          "jp_era" : 1,
          "key" : "寛文",
          "name" : "寛文",
+         "name_ja" : "寛文",
          "name_kana" : "かんぶん",
          "name_kanas" : {
             "かんぶん" : 1
@@ -12877,6 +13130,7 @@
          "jp_era" : 1,
          "key" : "寛正",
          "name" : "寛正",
+         "name_ja" : "寛正",
          "name_kana" : "かんしょう",
          "name_kanas" : {
             "かんしょう" : 1
@@ -12933,6 +13187,7 @@
          "jp_era" : 1,
          "key" : "寛永",
          "name" : "寛永",
+         "name_ja" : "寛永",
          "name_kana" : "かんえい",
          "name_kanas" : {
             "かんえい" : 1
@@ -12989,6 +13244,7 @@
          "jp_era" : 1,
          "key" : "寛治",
          "name" : "寛治",
+         "name_ja" : "寛治",
          "name_kana" : "かんじ",
          "name_kanas" : {
             "かんじ" : 1
@@ -13268,6 +13524,7 @@
          "jp_private_era" : 1,
          "key" : "寿慶",
          "name" : "寿慶",
+         "name_ja" : "寿慶",
          "names" : {
             "壽庆" : 1,
             "壽慶" : 1,
@@ -13300,6 +13557,7 @@
          "jp_era" : 1,
          "key" : "寿永",
          "name" : "寿永",
+         "name_ja" : "寿永",
          "name_kana" : "じゅえい",
          "name_kanas" : {
             "じゅえい" : 1
@@ -13391,6 +13649,7 @@
          "jp_emperor_era" : 1,
          "key" : "履中天皇",
          "name" : "履中天皇",
+         "name_ja" : "履中天皇",
          "name_kana" : "りちゅうてんのう",
          "name_kanas" : {
             "りちゅうてんのう" : 1
@@ -13487,6 +13746,7 @@
          "jp_emperor_era" : 1,
          "key" : "崇峻天皇",
          "name" : "崇峻天皇",
+         "name_ja" : "崇峻天皇",
          "name_kana" : "すしゅんてんのう",
          "name_kanas" : {
             "すしゅんてんのう" : 1
@@ -13593,6 +13853,7 @@
          "jp_emperor_era" : 1,
          "key" : "崇神天皇",
          "name" : "崇神天皇",
+         "name_ja" : "崇神天皇",
          "name_kana" : "すじんてんのう",
          "name_kanas" : {
             "すじんてんのう" : 1
@@ -13644,7 +13905,11 @@
          "name_tw" : "崇禎",
          "names" : {
             "崇祯" : 1,
-            "崇禎" : 1
+            "崇祯紀元" : 1,
+            "崇祯纪元" : 1,
+            "崇禎" : 1,
+            "崇禎紀元" : 1,
+            "崇禎纪元" : 1
          },
          "offset" : 1627,
          "wref_zh" : "崇祯"
@@ -13689,6 +13954,7 @@
          "jp_private_era" : 1,
          "key" : "師安",
          "name" : "師安",
+         "name_ja" : "師安",
          "names" : {
             "師安" : 1
          },
@@ -13698,6 +13964,7 @@
          "jp_private_era" : 1,
          "key" : "常色",
          "name" : "常色",
+         "name_ja" : "常色",
          "names" : {
             "常己" : 1,
             "常色" : 1,
@@ -13721,6 +13988,7 @@
          "jp_era" : 1,
          "key" : "平成",
          "name" : "平成",
+         "name_ja" : "平成",
          "name_kana" : "へいせい",
          "name_kanas" : {
             "へいせい" : 1
@@ -13790,6 +14058,7 @@
          "jp_era" : 1,
          "key" : "平治",
          "name" : "平治",
+         "name_ja" : "平治",
          "name_kana" : "へいじ",
          "name_kanas" : {
             "びょうじ" : 1,
@@ -13910,6 +14179,7 @@
          "jp_era" : 1,
          "key" : "康保",
          "name" : "康保",
+         "name_ja" : "康保",
          "name_kana" : "こうほう",
          "name_kanas" : {
             "こうほう" : 1
@@ -13965,6 +14235,7 @@
          "jp_era" : 1,
          "key" : "康元",
          "name" : "康元",
+         "name_ja" : "康元",
          "name_kana" : "こうげん",
          "name_kanas" : {
             "こうげん" : 1
@@ -14020,6 +14291,7 @@
          "jp_era" : 1,
          "key" : "康和",
          "name" : "康和",
+         "name_ja" : "康和",
          "name_kana" : "こうわ",
          "name_kanas" : {
             "こうわ" : 1
@@ -14069,6 +14341,7 @@
          "jp_north_era" : 1,
          "key" : "康安",
          "name" : "康安",
+         "name_ja" : "康安",
          "name_kana" : "こうあん",
          "name_kanas" : {
             "こうあん" : 1
@@ -14154,6 +14427,7 @@
          "jp_era" : 1,
          "key" : "康平",
          "name" : "康平",
+         "name_ja" : "康平",
          "name_kana" : "こうへい",
          "name_kanas" : {
             "こうへい" : 1,
@@ -14203,6 +14477,7 @@
          "jp_north_era" : 1,
          "key" : "康応",
          "name" : "康応",
+         "name_ja" : "康応",
          "name_kana" : "こうおう",
          "name_kanas" : {
             "こうおう" : 1
@@ -14265,6 +14540,7 @@
          "jp_north_era" : 1,
          "key" : "康暦",
          "name" : "康暦",
+         "name_ja" : "康暦",
          "name_kana" : "こうりゃく",
          "name_kanas" : {
             "こうりゃく" : 1
@@ -14341,6 +14617,7 @@
          "jp_era" : 1,
          "key" : "康正",
          "name" : "康正",
+         "name_ja" : "康正",
          "name_kana" : "こうしょう",
          "name_kanas" : {
             "こうしょう" : 1
@@ -14382,6 +14659,7 @@
          "jp_north_era" : 1,
          "key" : "康永",
          "name" : "康永",
+         "name_ja" : "康永",
          "name_kana" : "こうえい",
          "name_kanas" : {
             "こうえい" : 1
@@ -14456,6 +14734,7 @@
          "jp_era" : 1,
          "key" : "康治",
          "name" : "康治",
+         "name_ja" : "康治",
          "name_kana" : "こうじ",
          "name_kanas" : {
             "こうじ" : 1,
@@ -14790,6 +15069,7 @@
          "jp_era" : 1,
          "key" : "延久",
          "name" : "延久",
+         "name_ja" : "延久",
          "name_kana" : "えんきゅう",
          "name_kanas" : {
             "えんきゅう" : 1
@@ -14845,6 +15125,7 @@
          "jp_era" : 1,
          "key" : "延享",
          "name" : "延享",
+         "name_ja" : "延享",
          "name_kana" : "えんきょう",
          "name_kanas" : {
             "えんきょう" : 1
@@ -14881,6 +15162,7 @@
          "jp_south_era" : 1,
          "key" : "延元",
          "name" : "延元",
+         "name_ja" : "延元",
          "name_kana" : "えんげん",
          "name_kanas" : {
             "えんげん" : 1
@@ -15010,6 +15292,7 @@
          "jp_era" : 1,
          "key" : "延喜",
          "name" : "延喜",
+         "name_ja" : "延喜",
          "name_kana" : "えんぎ",
          "name_kanas" : {
             "えんぎ" : 1
@@ -15110,6 +15393,7 @@
          "jp_era" : 1,
          "key" : "延宝",
          "name" : "延宝",
+         "name_ja" : "延宝",
          "name_kana" : "えんぽう",
          "name_kanas" : {
             "えんぽう" : 1
@@ -15157,6 +15441,7 @@
          "jp_private_era" : 1,
          "key" : "延寿",
          "name" : "延寿",
+         "name_ja" : "延寿",
          "names" : {
             "延壽" : 1,
             "延夀" : 1,
@@ -15242,6 +15527,7 @@
          "jp_era" : 1,
          "key" : "延徳",
          "name" : "延徳",
+         "name_ja" : "延徳",
          "name_kana" : "えんとく",
          "name_kanas" : {
             "えんとく" : 1
@@ -15284,6 +15570,7 @@
          "jp_private_era" : 1,
          "key" : "延徳(庚辰)",
          "name" : "延徳",
+         "name_ja" : "延徳",
          "names" : {
             "延徳" : 1,
             "延德" : 1
@@ -15313,6 +15600,7 @@
          "jp_era" : 1,
          "key" : "延応",
          "name" : "延応",
+         "name_ja" : "延応",
          "name_kana" : "えんおう",
          "name_kanas" : {
             "えんおう" : 1,
@@ -15371,6 +15659,7 @@
          "jp_era" : 1,
          "key" : "延慶",
          "name" : "延慶",
+         "name_ja" : "延慶",
          "name_kana" : "えんきょう",
          "name_kanas" : {
             "えんきょう" : 1,
@@ -15429,6 +15718,7 @@
          "jp_north_era" : 1,
          "key" : "延文",
          "name" : "延文",
+         "name_ja" : "延文",
          "name_kana" : "えんぶん",
          "name_kanas" : {
             "えんぶん" : 1
@@ -15525,6 +15815,7 @@
          "jp_era" : 1,
          "key" : "延暦",
          "name" : "延暦",
+         "name_ja" : "延暦",
          "name_kana" : "えんりゃく",
          "name_kanas" : {
             "えんりゃく" : 1
@@ -15683,6 +15974,7 @@
          "jp_era" : 1,
          "key" : "延長",
          "name" : "延長",
+         "name_ja" : "延長",
          "name_kana" : "えんちょう",
          "name_kanas" : {
             "えんちょう" : 1
@@ -15785,6 +16077,7 @@
          "jp_era" : 1,
          "key" : "建久",
          "name" : "建久",
+         "name_ja" : "建久",
          "name_kana" : "けんきゅう",
          "name_kanas" : {
             "けんきゅう" : 1
@@ -15845,6 +16138,7 @@
          "jp_era" : 1,
          "key" : "建仁",
          "name" : "建仁",
+         "name_ja" : "建仁",
          "name_kana" : "けんにん",
          "name_kanas" : {
             "けんにん" : 1
@@ -15900,6 +16194,7 @@
          "jp_era" : 1,
          "key" : "建保",
          "name" : "建保",
+         "name_ja" : "建保",
          "name_kana" : "けんぽう",
          "name_kanas" : {
             "けんほ" : 1,
@@ -16329,6 +16624,7 @@
          "jp_south_era" : 1,
          "key" : "建徳",
          "name" : "建徳",
+         "name_ja" : "建徳",
          "name_kana" : "けんとく",
          "name_kanas" : {
             "けんとく" : 1
@@ -16408,6 +16704,7 @@
          "jp_private_era" : 1,
          "key" : "建教",
          "name" : "建教",
+         "name_ja" : "建教",
          "names" : {
             "建敎" : 1,
             "建教" : 1
@@ -16533,6 +16830,7 @@
          "jp_era" : 1,
          "key" : "建暦",
          "name" : "建暦",
+         "name_ja" : "建暦",
          "name_kana" : "けんりゃく",
          "name_kanas" : {
             "けんりゃく" : 1
@@ -16584,6 +16882,7 @@
          "jp_south_era" : 1,
          "key" : "建武",
          "name" : "建武",
+         "name_ja" : "建武",
          "name_kana" : "けんむ",
          "name_kanas" : {
             "けんぶ" : 1,
@@ -16785,6 +17084,7 @@
          "jp_era" : 1,
          "key" : "建永",
          "name" : "建永",
+         "name_ja" : "建永",
          "name_kana" : "けんえい",
          "name_kanas" : {
             "けんえい" : 1
@@ -16840,6 +17140,7 @@
          "jp_era" : 1,
          "key" : "建治",
          "name" : "建治",
+         "name_ja" : "建治",
          "name_kana" : "けんじ",
          "name_kanas" : {
             "けんじ" : 1,
@@ -17104,6 +17405,7 @@
          "jp_era" : 1,
          "key" : "建長",
          "name" : "建長",
+         "name_ja" : "建長",
          "name_kana" : "けんちょう",
          "name_kanas" : {
             "けんちょう" : 1
@@ -17180,6 +17482,7 @@
          "jp_era" : 1,
          "key" : "弘仁",
          "name" : "弘仁",
+         "name_ja" : "弘仁",
          "name_kana" : "こうにん",
          "name_kanas" : {
             "こうにん" : 1
@@ -17246,6 +17549,7 @@
          "jp_era" : 1,
          "key" : "弘化",
          "name" : "弘化",
+         "name_ja" : "弘化",
          "name_kana" : "こうか",
          "name_kanas" : {
             "こうか" : 1
@@ -17282,6 +17586,7 @@
          "jp_south_era" : 1,
          "key" : "弘和",
          "name" : "弘和",
+         "name_ja" : "弘和",
          "name_kana" : "こうわ",
          "name_kanas" : {
             "こうわ" : 1
@@ -17367,6 +17672,7 @@
          "jp_era" : 1,
          "key" : "弘安",
          "name" : "弘安",
+         "name_ja" : "弘安",
          "name_kana" : "こうあん",
          "name_kanas" : {
             "こうあん" : 1
@@ -17411,6 +17717,7 @@
          "jp_private_era" : 1,
          "key" : "弘徳",
          "name" : "弘徳",
+         "name_ja" : "弘徳",
          "names" : {
             "弘徳" : 1,
             "弘德" : 1
@@ -17420,6 +17727,7 @@
       "弘文天皇" : {
          "key" : "弘文天皇",
          "name" : "弘文天皇",
+         "name_ja" : "弘文天皇",
          "name_kana" : "こうぶんてんのう",
          "name_kanas" : {
             "こうぶんてんのう" : 1
@@ -17468,6 +17776,7 @@
          "jp_era" : 1,
          "key" : "弘治",
          "name" : "弘治",
+         "name_ja" : "弘治",
          "name_kana" : "こうじ",
          "name_kanas" : {
             "こうじ" : 1
@@ -17545,6 +17854,7 @@
          "jp_era" : 1,
          "key" : "弘長",
          "name" : "弘長",
+         "name_ja" : "弘長",
          "name_kana" : "こうちょう",
          "name_kanas" : {
             "こうちょう" : 1
@@ -17582,6 +17892,7 @@
          "jp_private_era" : 1,
          "key" : "弥勒",
          "name" : "弥勒",
+         "name_ja" : "弥勒",
          "names" : {
             "弥勒" : 1,
             "身祿" : 1,
@@ -17626,6 +17937,7 @@
          "jp_private_era" : 1,
          "key" : "征露",
          "name" : "征露",
+         "name_ja" : "征露",
          "names" : {
             "征露" : 1
          },
@@ -17660,6 +17972,7 @@
          "jp_private_era" : 1,
          "key" : "徳応",
          "name" : "徳応",
+         "name_ja" : "徳応",
          "names" : {
             "徳应" : 1,
             "徳応" : 1,
@@ -17674,6 +17987,7 @@
          "jp_private_era" : 1,
          "key" : "徳昌",
          "name" : "徳昌",
+         "name_ja" : "徳昌",
          "names" : {
             "徳昌" : 1,
             "德昌" : 1
@@ -17702,6 +18016,7 @@
          "jp_era" : 1,
          "key" : "徳治",
          "name" : "徳治",
+         "name_ja" : "徳治",
          "name_kana" : "とくじ",
          "name_kanas" : {
             "とくじ" : 1
@@ -17825,6 +18140,7 @@
          "jp_private_era" : 1,
          "key" : "応享",
          "name" : "応享",
+         "name_ja" : "応享",
          "names" : {
             "应享" : 1,
             "応享" : 1,
@@ -17854,6 +18170,7 @@
          "jp_era" : 1,
          "key" : "応仁",
          "name" : "応仁",
+         "name_ja" : "応仁",
          "name_kana" : "おうにん",
          "name_kanas" : {
             "おうにん" : 1
@@ -17911,6 +18228,7 @@
          "jp_era" : 1,
          "key" : "応保",
          "name" : "応保",
+         "name_ja" : "応保",
          "name_kana" : "おうほう",
          "name_kanas" : {
             "おうほ" : 1,
@@ -17969,6 +18287,7 @@
          "jp_era" : 1,
          "key" : "応和",
          "name" : "応和",
+         "name_ja" : "応和",
          "name_kana" : "おうわ",
          "name_kanas" : {
             "おうわ" : 1
@@ -18007,6 +18326,7 @@
          "jp_north_era" : 1,
          "key" : "応安",
          "name" : "応安",
+         "name_ja" : "応安",
          "name_kana" : "おうあん",
          "name_kanas" : {
             "おうあん" : 1
@@ -18083,6 +18403,7 @@
          "jp_era" : 1,
          "key" : "応徳",
          "name" : "応徳",
+         "name_ja" : "応徳",
          "name_kana" : "おうとく",
          "name_kanas" : {
             "おうとく" : 1
@@ -18148,6 +18469,7 @@
          "jp_era" : 1,
          "key" : "応永",
          "name" : "応永",
+         "name_ja" : "応永",
          "name_kana" : "おうえい",
          "name_kanas" : {
             "おうえい" : 1
@@ -18186,6 +18508,7 @@
          "jp_private_era" : 1,
          "key" : "応治",
          "name" : "応治",
+         "name_ja" : "応治",
          "names" : {
             "应治" : 1,
             "応治" : 1,
@@ -18225,6 +18548,7 @@
          "jp_emperor_era" : 1,
          "key" : "応神天皇",
          "name" : "応神天皇",
+         "name_ja" : "応神天皇",
          "name_kana" : "おうじんてんのう",
          "name_kanas" : {
             "おうじんてんのう" : 1
@@ -18300,6 +18624,7 @@
          "jp_era" : 1,
          "key" : "応長",
          "name" : "応長",
+         "name_ja" : "応長",
          "name_kana" : "おうちょう",
          "name_kanas" : {
             "おうちょう" : 1
@@ -18362,6 +18687,7 @@
          "jp_private_era" : 1,
          "key" : "慶喜",
          "name" : "慶喜",
+         "name_ja" : "慶喜",
          "names" : {
             "庆喜" : 1,
             "慶喜" : 1
@@ -18391,6 +18717,7 @@
          "jp_era" : 1,
          "key" : "慶安",
          "name" : "慶安",
+         "name_ja" : "慶安",
          "name_kana" : "けいあん",
          "name_kanas" : {
             "けいあん" : 1
@@ -18464,6 +18791,7 @@
          "jp_era" : 1,
          "key" : "慶応",
          "name" : "慶応",
+         "name_ja" : "慶応",
          "name_kana" : "けいおう",
          "name_kanas" : {
             "けいおう" : 1
@@ -18551,6 +18879,7 @@
          "jp_era" : 1,
          "key" : "慶長",
          "name" : "慶長",
+         "name_ja" : "慶長",
          "name_kana" : "けいちょう",
          "name_kanas" : {
             "きょうちょう" : 1,
@@ -18610,6 +18939,7 @@
          "jp_era" : 1,
          "key" : "慶雲",
          "name" : "慶雲",
+         "name_ja" : "慶雲",
          "name_kana" : "けいうん",
          "name_kanas" : {
             "きょううん" : 1,
@@ -18834,6 +19164,7 @@
          "jp_emperor_era" : 1,
          "key" : "懿徳天皇",
          "name" : "懿徳天皇",
+         "name_ja" : "懿徳天皇",
          "name_kana" : "いとくてんのう",
          "name_kanas" : {
             "いとくてんのう" : 1
@@ -18910,6 +19241,7 @@
          "jp_emperor_era" : 1,
          "key" : "成務天皇",
          "name" : "成務天皇",
+         "name_ja" : "成務天皇",
          "name_kana" : "せいむてんのう",
          "name_kanas" : {
             "せいむてんのう" : 1
@@ -18994,6 +19326,7 @@
          "jp_era" : 1,
          "key" : "承久",
          "name" : "承久",
+         "name_ja" : "承久",
          "name_kana" : "じょうきゅう",
          "name_kanas" : {
             "しょうきゅう" : 1,
@@ -19051,6 +19384,7 @@
          "jp_era" : 1,
          "key" : "承保",
          "name" : "承保",
+         "name_ja" : "承保",
          "name_kana" : "じょうほう",
          "name_kanas" : {
             "しょうほう" : 1,
@@ -19108,6 +19442,7 @@
          "jp_era" : 1,
          "key" : "承元",
          "name" : "承元",
+         "name_ja" : "承元",
          "name_kana" : "じょうげん",
          "name_kanas" : {
             "しょうげん" : 1,
@@ -19189,6 +19524,7 @@
          "jp_era" : 1,
          "key" : "承和",
          "name" : "承和",
+         "name_ja" : "承和",
          "name_kana" : "じょうわ",
          "name_kanas" : {
             "しょうわ" : 1,
@@ -19259,6 +19595,7 @@
          "jp_era" : 1,
          "key" : "承安",
          "name" : "承安",
+         "name_ja" : "承安",
          "name_kana" : "しょうあん",
          "name_kanas" : {
             "しょうあん" : 1,
@@ -19328,6 +19665,7 @@
          "jp_era" : 1,
          "key" : "承平",
          "name" : "承平",
+         "name_ja" : "承平",
          "name_kana" : "じょうへい",
          "name_kanas" : {
             "しょうへい" : 1,
@@ -19432,6 +19770,7 @@
          "jp_era" : 1,
          "key" : "承徳",
          "name" : "承徳",
+         "name_ja" : "承徳",
          "name_kana" : "じょうとく",
          "name_kanas" : {
             "しょうとく" : 1,
@@ -19491,6 +19830,7 @@
          "jp_era" : 1,
          "key" : "承応",
          "name" : "承応",
+         "name_ja" : "承応",
          "name_kana" : "じょうおう",
          "name_kanas" : {
             "しょうおう" : 1,
@@ -19580,6 +19920,7 @@
          "jp_era" : 1,
          "key" : "承暦",
          "name" : "承暦",
+         "name_ja" : "承暦",
          "name_kana" : "じょうりゃく",
          "name_kanas" : {
             "しょうりゃく" : 1,
@@ -19692,6 +20033,7 @@
          "jp_emperor_era" : 1,
          "key" : "持統天皇",
          "name" : "持統天皇",
+         "name_ja" : "持統天皇",
          "name_kana" : "じとうてんのう",
          "name_kanas" : {
             "じとうてんのう" : 1
@@ -19768,6 +20110,7 @@
          "jp_emperor_era" : 1,
          "key" : "推古天皇",
          "name" : "推古天皇",
+         "name_ja" : "推古天皇",
          "name_kana" : "すいこてんのう",
          "name_kanas" : {
             "すいこてんのう" : 1
@@ -19891,6 +20234,7 @@
          "jp_emperor_era" : 1,
          "key" : "敏達天皇",
          "name" : "敏達天皇",
+         "name_ja" : "敏達天皇",
          "name_kana" : "びだつてんのう",
          "name_kanas" : {
             "びだつてんのう" : 1
@@ -19943,6 +20287,7 @@
          "jp_private_era" : 1,
          "key" : "教到",
          "name" : "教到",
+         "name_ja" : "教到",
          "names" : {
             "敎倒" : 1,
             "敎到" : 1,
@@ -19959,6 +20304,7 @@
          "jp_south_era" : 1,
          "key" : "文中",
          "name" : "文中",
+         "name_ja" : "文中",
          "name_kana" : "ぶんちゅう",
          "name_kanas" : {
             "ぶんちゅう" : 1
@@ -20033,6 +20379,7 @@
          "jp_era" : 1,
          "key" : "文久",
          "name" : "文久",
+         "name_ja" : "文久",
          "name_kana" : "ぶんきゅう",
          "name_kanas" : {
             "ぶんきゅう" : 1
@@ -20088,6 +20435,7 @@
          "jp_era" : 1,
          "key" : "文亀",
          "name" : "文亀",
+         "name_ja" : "文亀",
          "name_kana" : "ぶんき",
          "name_kanas" : {
             "ぶんき" : 1
@@ -20145,6 +20493,7 @@
          "jp_era" : 1,
          "key" : "文保",
          "name" : "文保",
+         "name_ja" : "文保",
          "name_kana" : "ぶんぽう",
          "name_kanas" : {
             "ぶんほう" : 1,
@@ -20201,6 +20550,7 @@
          "jp_era" : 1,
          "key" : "文化",
          "name" : "文化",
+         "name_ja" : "文化",
          "name_kana" : "ぶんか",
          "name_kanas" : {
             "ぶんか" : 1
@@ -20237,6 +20587,7 @@
          "jp_north_era" : 1,
          "key" : "文和",
          "name" : "文和",
+         "name_ja" : "文和",
          "name_kana" : "ぶんな",
          "name_kanas" : {
             "ぶんな" : 1,
@@ -20312,6 +20663,7 @@
          "jp_era" : 1,
          "key" : "文安",
          "name" : "文安",
+         "name_ja" : "文安",
          "name_kana" : "ぶんあん",
          "name_kanas" : {
             "ぶんあん" : 1
@@ -20359,6 +20711,7 @@
          "jp_private_era" : 1,
          "key" : "文徳",
          "name" : "文徳",
+         "name_ja" : "文徳",
          "names" : {
             "文徳" : 1,
             "文德" : 1
@@ -20411,6 +20764,7 @@
          "jp_era" : 1,
          "key" : "文応",
          "name" : "文応",
+         "name_ja" : "文応",
          "name_kana" : "ぶんおう",
          "name_kanas" : {
             "ぶんおう" : 1
@@ -20468,6 +20822,7 @@
          "jp_era" : 1,
          "key" : "文政",
          "name" : "文政",
+         "name_ja" : "文政",
          "name_kana" : "ぶんせい",
          "name_kanas" : {
             "ぶんせい" : 1
@@ -20523,6 +20878,7 @@
          "jp_era" : 1,
          "key" : "文明",
          "name" : "文明",
+         "name_ja" : "文明",
          "name_kana" : "ぶんめい",
          "name_kanas" : {
             "ぶんめい" : 1
@@ -20589,6 +20945,7 @@
          "jp_era" : 1,
          "key" : "文暦",
          "name" : "文暦",
+         "name_ja" : "文暦",
          "name_kana" : "ぶんりゃく",
          "name_kanas" : {
             "ぶんりゃく" : 1,
@@ -20648,6 +21005,7 @@
          "jp_era" : 1,
          "key" : "文正",
          "name" : "文正",
+         "name_ja" : "文正",
          "name_kana" : "ぶんしょう",
          "name_kanas" : {
             "ぶんしょう" : 1,
@@ -20704,6 +21062,7 @@
          "jp_emperor_era" : 1,
          "key" : "文武天皇",
          "name" : "文武天皇",
+         "name_ja" : "文武天皇",
          "name_kana" : "もんむてんのう",
          "name_kanas" : {
             "もんむてんのう" : 1
@@ -20751,6 +21110,7 @@
          "jp_era" : 1,
          "key" : "文永",
          "name" : "文永",
+         "name_ja" : "文永",
          "name_kana" : "ぶんえい",
          "name_kanas" : {
             "ぶんえい" : 1
@@ -20806,6 +21166,7 @@
          "jp_era" : 1,
          "key" : "文治",
          "name" : "文治",
+         "name_ja" : "文治",
          "name_kana" : "ぶんじ",
          "name_kanas" : {
             "ぶんじ" : 1,
@@ -20873,6 +21234,7 @@
          "jp_era" : 1,
          "key" : "文禄",
          "name" : "文禄",
+         "name_ja" : "文禄",
          "name_kana" : "ぶんろく",
          "name_kanas" : {
             "ぶんろく" : 1
@@ -20935,6 +21297,7 @@
          "jp_private_era" : 1,
          "key" : "文鬼",
          "name" : "文鬼",
+         "name_ja" : "文鬼",
          "names" : {
             "文鬼" : 1
          },
@@ -20972,6 +21335,7 @@
          "jp_emperor_era" : 1,
          "key" : "斉明天皇",
          "name" : "斉明天皇",
+         "name_ja" : "斉明天皇",
          "name_kana" : "さいめいてんのう",
          "name_kanas" : {
             "さいめいてんのう" : 1
@@ -21043,6 +21407,7 @@
          "jp_era" : 1,
          "key" : "斉衡",
          "name" : "斉衡",
+         "name_ja" : "斉衡",
          "name_kana" : "さいこう",
          "name_kanas" : {
             "さいこう" : 1
@@ -21170,6 +21535,7 @@
          "jp_era" : 1,
          "key" : "昌泰",
          "name" : "昌泰",
+         "name_ja" : "昌泰",
          "name_kana" : "しょうたい",
          "name_kanas" : {
             "しょうたい" : 1
@@ -21285,6 +21651,7 @@
          "jp_era" : 1,
          "key" : "明和",
          "name" : "明和",
+         "name_ja" : "明和",
          "name_kana" : "めいわ",
          "name_kanas" : {
             "めいわ" : 1
@@ -21334,6 +21701,7 @@
          "jp_south_era" : 1,
          "key" : "明徳",
          "name" : "明徳",
+         "name_ja" : "明徳",
          "name_kana" : "めいとく",
          "name_kanas" : {
             "めいとく" : 1
@@ -21480,6 +21848,7 @@
          "jp_era" : 1,
          "key" : "明応",
          "name" : "明応",
+         "name_ja" : "明応",
          "name_kana" : "めいおう",
          "name_kanas" : {
             "めいおう" : 1
@@ -21523,6 +21892,7 @@
          "jp_private_era" : 1,
          "key" : "明応(己丑)",
          "name" : "明応",
+         "name_ja" : "明応",
          "names" : {
             "明应" : 1,
             "明応" : 1,
@@ -21598,6 +21968,7 @@
          "jp_era" : 1,
          "key" : "明暦",
          "name" : "明暦",
+         "name_ja" : "明暦",
          "name_kana" : "めいれき",
          "name_kanas" : {
             "みょうりゃく" : 1,
@@ -21674,6 +22045,7 @@
          "jp_era" : 1,
          "key" : "明治",
          "name" : "明治",
+         "name_ja" : "明治",
          "name_kana" : "めいじ",
          "name_kanas" : {
             "めいじ" : 1
@@ -21762,6 +22134,7 @@
          "jp_private_era" : 1,
          "key" : "明要",
          "name" : "明要",
+         "name_ja" : "明要",
          "names" : {
             "同安" : 1,
             "同要" : 1,
@@ -21836,6 +22209,7 @@
          "jp_era" : 1,
          "key" : "昭和",
          "name" : "昭和",
+         "name_ja" : "昭和",
          "name_kana" : "しょうわ",
          "name_kanas" : {
             "しょうわ" : 1
@@ -22204,6 +22578,7 @@
          "jp_emperor_era" : 1,
          "key" : "景行天皇",
          "name" : "景行天皇",
+         "name_ja" : "景行天皇",
          "name_kana" : "けいこうてんのう",
          "name_kanas" : {
             "けいこうてんのう" : 1
@@ -22294,6 +22669,7 @@
          "jp_era" : 1,
          "key" : "暦仁",
          "name" : "暦仁",
+         "name_ja" : "暦仁",
          "name_kana" : "りゃくにん",
          "name_kanas" : {
             "りゃくにん" : 1,
@@ -22333,6 +22709,7 @@
          "jp_north_era" : 1,
          "key" : "暦応",
          "name" : "暦応",
+         "name_ja" : "暦応",
          "name_kana" : "りゃくおう",
          "name_kanas" : {
             "りゃくおう" : 1,
@@ -22518,6 +22895,7 @@
          "jp_private_era" : 1,
          "key" : "朱雀",
          "name" : "朱雀",
+         "name_ja" : "朱雀",
          "names" : {
             "朱雀" : 1
          },
@@ -22567,6 +22945,7 @@
          "jp_era" : 1,
          "key" : "朱鳥",
          "name" : "朱鳥",
+         "name_ja" : "朱鳥",
          "name_kana" : "しゅちょう",
          "name_kanas" : {
             "あかみどり" : 1,
@@ -22632,6 +23011,7 @@
          "jp_private_era" : 1,
          "key" : "核時代",
          "name" : "核時代",
+         "name_ja" : "核時代",
          "names" : {
             "核时代" : 1,
             "核時代" : 1
@@ -22671,6 +23051,7 @@
          "jp_emperor_era" : 1,
          "key" : "欽明天皇",
          "name" : "欽明天皇",
+         "name_ja" : "欽明天皇",
          "name_kana" : "きんめいてんのう",
          "name_kanas" : {
             "きんめいてんのう" : 1
@@ -22736,6 +23117,7 @@
          "jp_era" : 1,
          "key" : "正中",
          "name" : "正中",
+         "name_ja" : "正中",
          "name_kana" : "しょうちゅう",
          "name_kanas" : {
             "しょうちゅう" : 1
@@ -22772,6 +23154,7 @@
          "jp_private_era" : 1,
          "key" : "正中(辛酉)",
          "name" : "正中",
+         "name_ja" : "正中",
          "names" : {
             "正中" : 1
          },
@@ -22781,6 +23164,7 @@
          "jp_private_era" : 1,
          "key" : "正久",
          "name" : "正久",
+         "name_ja" : "正久",
          "names" : {
             "正久" : 1
          },
@@ -22790,6 +23174,7 @@
          "jp_private_era" : 1,
          "key" : "正亨",
          "name" : "正亨",
+         "name_ja" : "正亨",
          "names" : {
             "正亨" : 1,
             "正享" : 1,
@@ -22820,6 +23205,7 @@
          "jp_era" : 1,
          "key" : "正保",
          "name" : "正保",
+         "name_ja" : "正保",
          "name_kana" : "しょうほう",
          "name_kanas" : {
             "しょうほう" : 1
@@ -22875,6 +23261,7 @@
          "jp_era" : 1,
          "key" : "正元",
          "name" : "正元",
+         "name_ja" : "正元",
          "name_kana" : "しょうげん",
          "name_kanas" : {
             "しょうげん" : 1
@@ -22952,6 +23339,7 @@
          "jp_era" : 1,
          "key" : "正和",
          "name" : "正和",
+         "name_ja" : "正和",
          "name_kana" : "しょうわ",
          "name_kanas" : {
             "しょうわ" : 1
@@ -22988,6 +23376,7 @@
          "jp_private_era" : 1,
          "key" : "正和(丙午)",
          "name" : "正和",
+         "name_ja" : "正和",
          "names" : {
             "正和" : 1,
             "正治" : 1,
@@ -23026,6 +23415,7 @@
          "jp_era" : 1,
          "key" : "正嘉",
          "name" : "正嘉",
+         "name_ja" : "正嘉",
          "name_kana" : "しょうか",
          "name_kanas" : {
             "しょうか" : 1
@@ -23135,6 +23525,7 @@
          "jp_era" : 1,
          "key" : "正安",
          "name" : "正安",
+         "name_ja" : "正安",
          "name_kana" : "しょうあん",
          "name_kanas" : {
             "しょうあん" : 1
@@ -23182,6 +23573,7 @@
          "jp_south_era" : 1,
          "key" : "正平",
          "name" : "正平",
+         "name_ja" : "正平",
          "name_kana" : "しょうへい",
          "name_kanas" : {
             "しょうへい" : 1
@@ -23289,6 +23681,7 @@
          "jp_era" : 1,
          "key" : "正徳",
          "name" : "正徳",
+         "name_ja" : "正徳",
          "name_kana" : "しょうとく",
          "name_kanas" : {
             "しょうとく" : 1
@@ -23397,6 +23790,7 @@
          "jp_era" : 1,
          "key" : "正応",
          "name" : "正応",
+         "name_ja" : "正応",
          "name_kana" : "しょうおう",
          "name_kanas" : {
             "しょうおう" : 1
@@ -23435,6 +23829,7 @@
          "jp_north_era" : 1,
          "key" : "正慶",
          "name" : "正慶",
+         "name_ja" : "正慶",
          "name_kana" : "しょうきょう",
          "name_kanas" : {
             "しょうきょう" : 1,
@@ -23521,6 +23916,7 @@
          "jp_era" : 1,
          "key" : "正暦",
          "name" : "正暦",
+         "name_ja" : "正暦",
          "name_kana" : "しょうりゃく",
          "name_kanas" : {
             "しょうりゃく" : 1,
@@ -23605,6 +24001,7 @@
          "jp_era" : 1,
          "key" : "正治",
          "name" : "正治",
+         "name_ja" : "正治",
          "name_kana" : "しょうじ",
          "name_kanas" : {
             "しょうじ" : 1
@@ -23671,6 +24068,7 @@
          "jp_private_era" : 1,
          "key" : "正法",
          "name" : "正法",
+         "name_ja" : "正法",
          "names" : {
             "正法" : 1
          },
@@ -23702,6 +24100,7 @@
          "jp_private_era" : 1,
          "key" : "正見",
          "name" : "正見",
+         "name_ja" : "正見",
          "names" : {
             "正見" : 1,
             "正见" : 1
@@ -23730,6 +24129,7 @@
          "jp_era" : 1,
          "key" : "正長",
          "name" : "正長",
+         "name_ja" : "正長",
          "name_kana" : "しょうちょう",
          "name_kanas" : {
             "しょうちょう" : 1
@@ -23940,6 +24340,7 @@
          "jp_emperor_era" : 1,
          "key" : "武烈天皇",
          "name" : "武烈天皇",
+         "name_ja" : "武烈天皇",
          "name_kana" : "ぶれつてんのう",
          "name_kanas" : {
             "ぶれつてんのう" : 1
@@ -24029,6 +24430,7 @@
          "jp_era" : 1,
          "key" : "永万",
          "name" : "永万",
+         "name_ja" : "永万",
          "name_kana" : "えいまん",
          "name_kanas" : {
             "えいまん" : 1,
@@ -24086,6 +24488,7 @@
          "jp_era" : 1,
          "key" : "永久",
          "name" : "永久",
+         "name_ja" : "永久",
          "name_kana" : "えいきゅう",
          "name_kanas" : {
             "えいきゅう" : 1
@@ -24141,6 +24544,7 @@
          "jp_era" : 1,
          "key" : "永享",
          "name" : "永享",
+         "name_ja" : "永享",
          "name_kana" : "えいきょう",
          "name_kanas" : {
             "えいきょう" : 1
@@ -24198,6 +24602,7 @@
          "jp_era" : 1,
          "key" : "永仁",
          "name" : "永仁",
+         "name_ja" : "永仁",
          "name_kana" : "えいにん",
          "name_kanas" : {
             "えいにん" : 1
@@ -24234,6 +24639,7 @@
          "jp_private_era" : 1,
          "key" : "永伝",
          "name" : "永伝",
+         "name_ja" : "永伝",
          "names" : {
             "永伝" : 1
          },
@@ -24271,6 +24677,7 @@
          "jp_era" : 1,
          "key" : "永保",
          "name" : "永保",
+         "name_ja" : "永保",
          "name_kana" : "えいほう",
          "name_kanas" : {
             "えいほう" : 1
@@ -24384,6 +24791,7 @@
          "jp_north_era" : 1,
          "key" : "永和",
          "name" : "永和",
+         "name_ja" : "永和",
          "name_kana" : "えいわ",
          "name_kanas" : {
             "えいわ" : 1
@@ -24494,6 +24902,7 @@
          "jp_private_era" : 1,
          "key" : "永喜",
          "name" : "永喜",
+         "name_ja" : "永喜",
          "names" : {
             "永亀" : 1,
             "永喜" : 1,
@@ -24654,6 +25063,7 @@
          "jp_private_era" : 1,
          "key" : "永宝",
          "name" : "永宝",
+         "name_ja" : "永宝",
          "names" : {
             "永宝" : 1,
             "永寳" : 1,
@@ -24764,6 +25174,7 @@
          "jp_private_era" : 1,
          "key" : "永幻",
          "name" : "永幻",
+         "name_ja" : "永幻",
          "names" : {
             "永幻" : 1
          }
@@ -24853,6 +25264,7 @@
          "jp_era" : 1,
          "key" : "永延",
          "name" : "永延",
+         "name_ja" : "永延",
          "name_kana" : "えいえん",
          "name_kanas" : {
             "えいえん" : 1,
@@ -24923,6 +25335,7 @@
          "jp_north_era" : 1,
          "key" : "永徳",
          "name" : "永徳",
+         "name_ja" : "永徳",
          "name_kana" : "えいとく",
          "name_kanas" : {
             "えいとく" : 1
@@ -25060,6 +25473,7 @@
          "jp_era" : 1,
          "key" : "永承",
          "name" : "永承",
+         "name_ja" : "永承",
          "name_kana" : "えいしょう",
          "name_kanas" : {
             "えいしょう" : 1,
@@ -25173,6 +25587,7 @@
          "jp_era" : 1,
          "key" : "永暦",
          "name" : "永暦",
+         "name_ja" : "永暦",
          "name_kana" : "えいりゃく",
          "name_kanas" : {
             "えいりゃく" : 1,
@@ -25227,6 +25642,7 @@
          "jp_private_era" : 1,
          "key" : "永楽",
          "name" : "永楽",
+         "name_ja" : "永楽",
          "names" : {
             "永乐" : 1,
             "永楽" : 1,
@@ -25306,6 +25722,7 @@
          "jp_era" : 1,
          "key" : "永正",
          "name" : "永正",
+         "name_ja" : "永正",
          "name_kana" : "えいしょう",
          "name_kanas" : {
             "えいしょう" : 1
@@ -25362,6 +25779,7 @@
          "jp_era" : 1,
          "key" : "永治",
          "name" : "永治",
+         "name_ja" : "永治",
          "name_kana" : "えいじ",
          "name_kanas" : {
             "えいじ" : 1,
@@ -25550,6 +25968,7 @@
          "jp_era" : 1,
          "key" : "永祚",
          "name" : "永祚",
+         "name_ja" : "永祚",
          "name_kana" : "えいそ",
          "name_kanas" : {
             "えいそ" : 1
@@ -25613,6 +26032,7 @@
          "jp_era" : 1,
          "key" : "永禄",
          "name" : "永禄",
+         "name_ja" : "永禄",
          "name_kana" : "えいろく",
          "name_kanas" : {
             "えいろく" : 1
@@ -25650,6 +26070,7 @@
          "jp_private_era" : 1,
          "key" : "永福",
          "name" : "永福",
+         "name_ja" : "永福",
          "names" : {
             "永福" : 1,
             "永福" : 1
@@ -25775,6 +26196,7 @@
          "jp_era" : 1,
          "key" : "永観",
          "name" : "永観",
+         "name_ja" : "永観",
          "name_kana" : "えいかん",
          "name_kanas" : {
             "えいかん" : 1,
@@ -25873,6 +26295,7 @@
          "jp_era" : 1,
          "key" : "永長",
          "name" : "永長",
+         "name_ja" : "永長",
          "name_kana" : "えいちょう",
          "name_kanas" : {
             "えいちょう" : 1,
@@ -25911,6 +26334,7 @@
          "jp_private_era" : 1,
          "key" : "永長(丁酉)",
          "name" : "永長",
+         "name_ja" : "永長",
          "names" : {
             "永長" : 1,
             "永长" : 1
@@ -26030,6 +26454,7 @@
          "jp_era" : 1,
          "key" : "治安",
          "name" : "治安",
+         "name_ja" : "治安",
          "name_kana" : "じあん",
          "name_kanas" : {
             "じあん" : 1,
@@ -26124,6 +26549,7 @@
          "jp_era" : 1,
          "key" : "治承",
          "name" : "治承",
+         "name_ja" : "治承",
          "name_kana" : "じしょう",
          "name_kanas" : {
             "じしょう" : 1,
@@ -26182,6 +26608,7 @@
          "jp_era" : 1,
          "key" : "治暦",
          "name" : "治暦",
+         "name_ja" : "治暦",
          "name_kana" : "じりゃく",
          "name_kanas" : {
             "じりゃく" : 1,
@@ -26233,6 +26660,7 @@
          "jp_private_era" : 1,
          "key" : "法徳",
          "name" : "法徳",
+         "name_ja" : "法徳",
          "names" : {
             "宝徳" : 1,
             "宝德" : 1,
@@ -26249,6 +26677,7 @@
          "jp_private_era" : 1,
          "key" : "法清",
          "name" : "法清",
+         "name_ja" : "法清",
          "names" : {
             "法淸" : 1,
             "法清" : 1,
@@ -26263,6 +26692,7 @@
          "jp_private_era" : 1,
          "key" : "法興",
          "name" : "法興",
+         "name_ja" : "法興",
          "names" : {
             "法兴" : 1,
             "法興" : 1
@@ -26362,6 +26792,7 @@
          "jp_private_era" : 1,
          "key" : "泰平",
          "name" : "泰平",
+         "name_ja" : "泰平",
          "names" : {
             "万平" : 1,
             "泰平" : 1,
@@ -26645,6 +27076,7 @@
          "jp_emperor_era" : 1,
          "key" : "清寧天皇",
          "name" : "清寧天皇",
+         "name_ja" : "清寧天皇",
          "name_kana" : "せいねいてんのう",
          "name_kanas" : {
             "せいねいてんのう" : 1
@@ -26971,6 +27403,7 @@
          "jp_private_era" : 1,
          "key" : "王徳",
          "name" : "王徳",
+         "name_ja" : "王徳",
          "names" : {
             "王徳" : 1,
             "王德" : 1
@@ -27005,6 +27438,7 @@
          "jp_private_era" : 1,
          "key" : "璽至",
          "name" : "璽至",
+         "name_ja" : "璽至",
          "names" : {
             "玺至" : 1,
             "璽至" : 1
@@ -27109,6 +27543,7 @@
          "jp_emperor_era" : 1,
          "key" : "用明天皇",
          "name" : "用明天皇",
+         "name_ja" : "用明天皇",
          "name_kana" : "ようめいてんのう",
          "name_kanas" : {
             "ようめいてんのう" : 1
@@ -27168,6 +27603,7 @@
          "jp_private_era" : 1,
          "key" : "白禄",
          "name" : "白禄",
+         "name_ja" : "白禄",
          "names" : {
             "白祿" : 1,
             "白禄" : 1
@@ -27227,6 +27663,7 @@
          "jp_era" : 1,
          "key" : "白雉",
          "name" : "白雉",
+         "name_ja" : "白雉",
          "name_kana" : "はくち",
          "name_kanas" : {
             "はくち" : 1,
@@ -27276,6 +27713,7 @@
          "jp_private_era" : 1,
          "key" : "白鳳",
          "name" : "白鳳",
+         "name_ja" : "白鳳",
          "names" : {
             "白凤" : 1,
             "白鳳" : 1
@@ -27287,6 +27725,7 @@
          "jp_private_era" : 1,
          "key" : "白鳳雉",
          "name" : "白鳳雉",
+         "name_ja" : "白鳳雉",
          "names" : {
             "白凤雉" : 1,
             "白鳳雉" : 1
@@ -27297,6 +27736,7 @@
          "jp_private_era" : 1,
          "key" : "白鹿",
          "name" : "白鹿",
+         "name_ja" : "白鹿",
          "names" : {
             "白鹿" : 1
          },
@@ -27416,6 +27856,7 @@
          "jp_emperor_era" : 1,
          "key" : "皇極天皇",
          "name" : "皇極天皇",
+         "name_ja" : "皇極天皇",
          "name_kana" : "こうぎょくてんのう",
          "name_kanas" : {
             "こうぎょくてんのう" : 1
@@ -27607,6 +28048,7 @@
          "jp_private_era" : 1,
          "key" : "真賀",
          "name" : "真賀",
+         "name_ja" : "真賀",
          "names" : {
             "真賀" : 1
          }
@@ -27615,6 +28057,7 @@
          "jp_private_era" : 1,
          "key" : "知僧",
          "name" : "知僧",
+         "name_ja" : "知僧",
          "names" : {
             "和僧" : 1,
             "知僧" : 1
@@ -27678,6 +28121,7 @@
          "jp_era" : 1,
          "key" : "神亀",
          "name" : "神亀",
+         "name_ja" : "神亀",
          "name_kana" : "じんき",
          "name_kanas" : {
             "しんき" : 1,
@@ -27777,6 +28221,7 @@
          "jp_emperor_era" : 1,
          "key" : "神功皇后摂政",
          "name" : "神功皇后摂政",
+         "name_ja" : "神功皇后摂政",
          "name_kana" : "じんぐうこうごうせっしょう",
          "name_kanas" : {
             "じんぐうこうごうせっしょう" : 1
@@ -27849,6 +28294,7 @@
          "jp_private_era" : 1,
          "key" : "神徳",
          "name" : "神徳",
+         "name_ja" : "神徳",
          "names" : {
             "神徳" : 1,
             "神德" : 1,
@@ -27929,16 +28375,40 @@
          "jp_emperor_era" : 1,
          "key" : "神武天皇",
          "name" : "神武天皇",
+         "name_ja" : "神武天皇",
          "name_kana" : "じんむてんのう",
          "name_kanas" : {
             "じんむてんのう" : 1
          },
          "name_latn" : "Jimmu-tennō",
          "names" : {
+            "即位紀元" : 1,
+            "即位纪元" : 1,
+            "日紀" : 1,
+            "日纪" : 1,
+            "皇历" : 1,
+            "皇暦" : 1,
+            "皇曆" : 1,
+            "皇紀" : 1,
+            "皇纪" : 1,
             "神武" : 1,
+            "神武历" : 1,
             "神武天皇" : 1,
+            "神武天皇即位紀元" : 1,
+            "神武天皇即位纪元" : 1,
+            "神武暦" : 1,
+            "神武曆" : 1,
+            "神武紀元" : 1,
+            "神武纪元" : 1,
             "神武" : 1,
-            "神武天皇" : 1
+            "神武历" : 1,
+            "神武天皇" : 1,
+            "神武天皇即位紀元" : 1,
+            "神武天皇即位纪元" : 1,
+            "神武暦" : 1,
+            "神武曆" : 1,
+            "神武紀元" : 1,
+            "神武纪元" : 1
          },
          "offset" : -660,
          "short_name" : "神武",
@@ -27971,12 +28441,14 @@
          },
          "start_year" : -659,
          "wref_en" : "Emperor_Jimmu",
-         "wref_ja" : "神武天皇"
+         "wref_ja" : "神武天皇",
+         "wref_zh" : "皇纪"
       },
       "神治" : {
          "jp_private_era" : 1,
          "key" : "神治",
          "name" : "神治",
+         "name_ja" : "神治",
          "names" : {
             "神治" : 1,
             "神治" : 1
@@ -28060,6 +28532,7 @@
          "jp_era" : 1,
          "key" : "神護景雲",
          "name" : "神護景雲",
+         "name_ja" : "神護景雲",
          "name_kana" : "じんごけいうん",
          "name_kanas" : {
             "じんごけいうん" : 1
@@ -28209,6 +28682,7 @@
          "jp_private_era" : 1,
          "key" : "福安",
          "name" : "福安",
+         "name_ja" : "福安",
          "names" : {
             "福安" : 1,
             "福安" : 1
@@ -28219,6 +28693,7 @@
          "jp_private_era" : 1,
          "key" : "福寿",
          "name" : "福寿",
+         "name_ja" : "福寿",
          "names" : {
             "福壽" : 1,
             "福夀" : 1,
@@ -28232,6 +28707,7 @@
          "jp_private_era" : 1,
          "key" : "福徳",
          "name" : "福徳",
+         "name_ja" : "福徳",
          "names" : {
             "福徳" : 1,
             "福德" : 1,
@@ -28295,6 +28771,7 @@
          "jp_private_era" : 1,
          "key" : "立徳",
          "name" : "立徳",
+         "name_ja" : "立徳",
          "names" : {
             "立徳" : 1,
             "立德" : 1
@@ -28390,6 +28867,7 @@
          "jp_private_era" : 1,
          "key" : "端政",
          "name" : "端政",
+         "name_ja" : "端政",
          "names" : {
             "端改" : 1,
             "端政" : 1,
@@ -28409,6 +28887,7 @@
          "jp_private_era" : 1,
          "key" : "節中",
          "name" : "節中",
+         "name_ja" : "節中",
          "names" : {
             "節中" : 1,
             "节中" : 1
@@ -28623,6 +29102,7 @@
          "jp_private_era" : 1,
          "key" : "経明",
          "name" : "経明",
+         "name_ja" : "経明",
          "names" : {
             "経明" : 1,
             "經明" : 1,
@@ -28695,6 +29175,7 @@
          "jp_emperor_era" : 1,
          "key" : "綏靖天皇",
          "name" : "綏靖天皇",
+         "name_ja" : "綏靖天皇",
          "name_kana" : "すいぜいてんのう",
          "name_kanas" : {
             "すいぜいてんのう" : 1
@@ -28747,6 +29228,7 @@
          "jp_private_era" : 1,
          "key" : "継体(丁酉)",
          "name" : "継体",
+         "name_ja" : "継体",
          "names" : {
             "継体" : 1,
             "継體" : 1,
@@ -28787,6 +29269,7 @@
          "jp_emperor_era" : 1,
          "key" : "継体天皇",
          "name" : "継体天皇",
+         "name_ja" : "継体天皇",
          "name_kana" : "けいたいてんのう",
          "name_kanas" : {
             "けいたいてんのう" : 1
@@ -29072,6 +29555,7 @@
          "jp_private_era" : 1,
          "key" : "聖徳",
          "name" : "聖徳",
+         "name_ja" : "聖徳",
          "names" : {
             "圣徳" : 1,
             "圣德" : 1,
@@ -29140,6 +29624,7 @@
          "jp_private_era" : 1,
          "key" : "自由自治",
          "name" : "自由自治",
+         "name_ja" : "自由自治",
          "names" : {
             "自由自治" : 1
          },
@@ -29194,6 +29679,7 @@
          "jp_private_era" : 1,
          "key" : "至大(日本)",
          "name" : "至大",
+         "name_ja" : "至大",
          "names" : {
             "至大" : 1
          }
@@ -29214,6 +29700,7 @@
          "jp_north_era" : 1,
          "key" : "至徳",
          "name" : "至徳",
+         "name_ja" : "至徳",
          "name_kana" : "しとく",
          "name_kanas" : {
             "しとく" : 1
@@ -29408,6 +29895,7 @@
          "jp_south_era" : 1,
          "key" : "興国",
          "name" : "興国",
+         "name_ja" : "興国",
          "name_kana" : "こうこく",
          "name_kanas" : {
             "こうこく" : 1
@@ -29530,6 +30018,7 @@
          "jp_private_era" : 1,
          "key" : "興徳",
          "name" : "興徳",
+         "name_ja" : "興徳",
          "names" : {
             "兴徳" : 1,
             "兴德" : 1,
@@ -29694,6 +30183,7 @@
          "jp_emperor_era" : 1,
          "key" : "舒明天皇",
          "name" : "舒明天皇",
+         "name_ja" : "舒明天皇",
          "name_kana" : "じょめいてんのう",
          "name_kanas" : {
             "じょめいてんのう" : 1
@@ -29837,6 +30327,7 @@
          "jp_private_era" : 1,
          "key" : "蔵知",
          "name" : "蔵知",
+         "name_ja" : "蔵知",
          "names" : {
             "蔵和" : 1,
             "蔵知" : 1
@@ -29867,6 +30358,7 @@
          "jp_private_era" : 1,
          "key" : "見聖",
          "name" : "見聖",
+         "name_ja" : "見聖",
          "names" : {
             "見圣" : 1,
             "見知" : 1,
@@ -29897,6 +30389,7 @@
          "jp_north_era" : 1,
          "key" : "観応",
          "name" : "観応",
+         "name_ja" : "観応",
          "name_kana" : "かんのう",
          "name_kanas" : {
             "かんおう" : 1,
@@ -29964,6 +30457,7 @@
          "jp_private_era" : 1,
          "key" : "証明",
          "name" : "証明",
+         "name_ja" : "証明",
          "names" : {
             "証明" : 1,
             "证明" : 1
@@ -30018,6 +30512,7 @@
          "jp_era" : 1,
          "key" : "貞享",
          "name" : "貞享",
+         "name_ja" : "貞享",
          "name_kana" : "じょうきょう",
          "name_kanas" : {
             "じょうきょう" : 1,
@@ -30075,6 +30570,7 @@
          "jp_era" : 1,
          "key" : "貞元",
          "name" : "貞元",
+         "name_ja" : "貞元",
          "name_kana" : "じょうげん",
          "name_kanas" : {
             "じょうげん" : 1,
@@ -30137,6 +30633,7 @@
          "jp_north_era" : 1,
          "key" : "貞和",
          "name" : "貞和",
+         "name_ja" : "貞和",
          "name_kana" : "じょうわ",
          "name_kanas" : {
             "じょうわ" : 1,
@@ -30213,6 +30710,7 @@
          "jp_era" : 1,
          "key" : "貞応",
          "name" : "貞応",
+         "name_ja" : "貞応",
          "name_kana" : "じょうおう",
          "name_kanas" : {
             "じょうおう" : 1,
@@ -30298,6 +30796,7 @@
          "jp_era" : 1,
          "key" : "貞永",
          "name" : "貞永",
+         "name_ja" : "貞永",
          "name_kana" : "じょうえい",
          "name_kanas" : {
             "じょうえい" : 1,
@@ -30336,6 +30835,7 @@
          "jp_north_era" : 1,
          "key" : "貞治",
          "name" : "貞治",
+         "name_ja" : "貞治",
          "name_kana" : "じょうじ",
          "name_kanas" : {
             "じょうじ" : 1,
@@ -30443,6 +30943,7 @@
          "jp_era" : 1,
          "key" : "貞観",
          "name" : "貞観",
+         "name_ja" : "貞観",
          "name_kana" : "じょうがん",
          "name_kanas" : {
             "じょうがん" : 1
@@ -30522,6 +31023,7 @@
          "jp_private_era" : 1,
          "key" : "貴楽",
          "name" : "貴楽",
+         "name_ja" : "貴楽",
          "names" : {
             "貴乐" : 1,
             "貴楽" : 1,
@@ -30533,6 +31035,7 @@
          "jp_private_era" : 1,
          "key" : "賢称",
          "name" : "賢称",
+         "name_ja" : "賢称",
          "names" : {
             "賢伝" : 1,
             "賢接" : 1,
@@ -30644,6 +31147,7 @@
          "jp_private_era" : 1,
          "key" : "迎雲",
          "name" : "迎雲",
+         "name_ja" : "迎雲",
          "names" : {
             "迎云" : 1,
             "迎雲" : 1
@@ -30847,6 +31351,7 @@
          "jp_private_era" : 1,
          "key" : "金光",
          "name" : "金光",
+         "name_ja" : "金光",
          "names" : {
             "金光" : 1
          },
@@ -30879,6 +31384,7 @@
          "jp_private_era" : 1,
          "key" : "鏡常",
          "name" : "鏡常",
+         "name_ja" : "鏡常",
          "names" : {
             "鏡常" : 1,
             "鏡照" : 1
@@ -30889,6 +31395,7 @@
          "jp_private_era" : 1,
          "key" : "鏡當",
          "name" : "鏡當",
+         "name_ja" : "鏡當",
          "names" : {
             "鏡當" : 1
          },
@@ -30917,6 +31424,7 @@
          "jp_era" : 1,
          "key" : "長久",
          "name" : "長久",
+         "name_ja" : "長久",
          "name_kana" : "ちょうきゅう",
          "name_kanas" : {
             "ちょうきゅう" : 1
@@ -30973,6 +31481,7 @@
          "jp_era" : 1,
          "key" : "長享",
          "name" : "長享",
+         "name_ja" : "長享",
          "name_kana" : "ちょうきょう",
          "name_kanas" : {
             "ちょうきょう" : 1
@@ -31034,6 +31543,7 @@
          "jp_era" : 1,
          "key" : "長保",
          "name" : "長保",
+         "name_ja" : "長保",
          "name_kana" : "ちょうほう",
          "name_kanas" : {
             "ちょうほう" : 1
@@ -31090,6 +31600,7 @@
          "jp_era" : 1,
          "key" : "長元",
          "name" : "長元",
+         "name_ja" : "長元",
          "name_kana" : "ちょうげん",
          "name_kanas" : {
             "ちょうげん" : 1
@@ -31146,6 +31657,7 @@
          "jp_era" : 1,
          "key" : "長和",
          "name" : "長和",
+         "name_ja" : "長和",
          "name_kana" : "ちょうわ",
          "name_kanas" : {
             "ちょうわ" : 1
@@ -31183,6 +31695,7 @@
          "jp_private_era" : 1,
          "key" : "長嘉",
          "name" : "長嘉",
+         "name_ja" : "長嘉",
          "names" : {
             "長嘉" : 1,
             "长嘉" : 1
@@ -31255,6 +31768,7 @@
          "jp_era" : 1,
          "key" : "長寛",
          "name" : "長寛",
+         "name_ja" : "長寛",
          "name_kana" : "ちょうかん",
          "name_kanas" : {
             "ちょうかん" : 1
@@ -31313,6 +31827,7 @@
          "jp_era" : 1,
          "key" : "長徳",
          "name" : "長徳",
+         "name_ja" : "長徳",
          "name_kana" : "ちょうとく",
          "name_kanas" : {
             "ちょうとく" : 1
@@ -31352,6 +31867,7 @@
          "jp_private_era" : 1,
          "key" : "長徳(丁卯)",
          "name" : "長徳",
+         "name_ja" : "長徳",
          "names" : {
             "長徳" : 1,
             "長德" : 1,
@@ -31397,6 +31913,7 @@
          "jp_era" : 1,
          "key" : "長承",
          "name" : "長承",
+         "name_ja" : "長承",
          "name_kana" : "ちょうしょう",
          "name_kanas" : {
             "ちょうしょう" : 1
@@ -31455,6 +31972,7 @@
          "jp_era" : 1,
          "key" : "長暦",
          "name" : "長暦",
+         "name_ja" : "長暦",
          "name_kana" : "ちょうりゃく",
          "name_kanas" : {
             "ちょうりゃく" : 1,
@@ -31532,6 +32050,7 @@
          "jp_era" : 1,
          "key" : "長治",
          "name" : "長治",
+         "name_ja" : "長治",
          "name_kana" : "ちょうじ",
          "name_kanas" : {
             "ちょうじ" : 1
@@ -31588,6 +32107,7 @@
          "jp_era" : 1,
          "key" : "長禄",
          "name" : "長禄",
+         "name_ja" : "長禄",
          "name_kana" : "ちょうろく",
          "name_kanas" : {
             "ちょうろく" : 1
@@ -31691,6 +32211,7 @@
          "jp_emperor_era" : 1,
          "key" : "開化天皇",
          "name" : "開化天皇",
+         "name_ja" : "開化天皇",
          "name_kana" : "かいかてんのう",
          "name_kanas" : {
             "かいかてんのう" : 1
@@ -31734,6 +32255,52 @@
          "start_year" : -156,
          "wref_en" : "Emperor_Kaika",
          "wref_ja" : "開化天皇"
+      },
+      "開國" : {
+         "key" : "開國",
+         "name" : "開國",
+         "names" : {
+            "大朝鮮囯开囯" : 1,
+            "大朝鮮囯开国" : 1,
+            "大朝鮮囯开國" : 1,
+            "大朝鮮囯開囯" : 1,
+            "大朝鮮囯開国" : 1,
+            "大朝鮮囯開國" : 1,
+            "大朝鮮国开囯" : 1,
+            "大朝鮮国开国" : 1,
+            "大朝鮮国开國" : 1,
+            "大朝鮮国開囯" : 1,
+            "大朝鮮国開国" : 1,
+            "大朝鮮国開國" : 1,
+            "大朝鮮國开囯" : 1,
+            "大朝鮮國开国" : 1,
+            "大朝鮮國开國" : 1,
+            "大朝鮮國開囯" : 1,
+            "大朝鮮國開国" : 1,
+            "大朝鮮國開國" : 1,
+            "开囯" : 1,
+            "开囯年号" : 1,
+            "开国" : 1,
+            "开国年号" : 1,
+            "开國" : 1,
+            "开國年号" : 1,
+            "朝鮮开囯" : 1,
+            "朝鮮开国" : 1,
+            "朝鮮开國" : 1,
+            "朝鮮開囯" : 1,
+            "朝鮮開国" : 1,
+            "朝鮮開國" : 1,
+            "開囯" : 1,
+            "開囯年号" : 1,
+            "開国" : 1,
+            "開国年号" : 1,
+            "開國" : 1,
+            "開國年号" : 1,
+            "개국" : 1
+         },
+         "offset" : 1391,
+         "wref_ja" : "開国_(李氏朝鮮)",
+         "wref_ko" : "개국_(조선)"
       },
       "開國(辛未)" : {
          "key" : "開國(辛未)",
@@ -32196,6 +32763,7 @@
          "jp_emperor_era" : 1,
          "key" : "雄略天皇",
          "name" : "雄略天皇",
+         "name_ja" : "雄略天皇",
          "name_kana" : "ゆうりゃくてんのう",
          "name_kanas" : {
             "ゆうりゃくてんのう" : 1
@@ -32300,6 +32868,7 @@
          "jp_era" : 1,
          "key" : "霊亀",
          "name" : "霊亀",
+         "name_ja" : "霊亀",
          "name_kana" : "れいき",
          "name_kanas" : {
             "れいき" : 1
@@ -32338,6 +32907,7 @@
          "jp_private_era" : 1,
          "key" : "霊寿",
          "name" : "霊寿",
+         "name_ja" : "霊寿",
          "names" : {
             "霊壽" : 1,
             "霊夀" : 1,
@@ -32594,6 +33164,7 @@
          "jp_emperor_era" : 1,
          "key" : "顕宗天皇",
          "name" : "顕宗天皇",
+         "name_ja" : "顕宗天皇",
          "name_kana" : "けんぞうてんのう",
          "name_kanas" : {
             "けんぞうてんのう" : 1
@@ -32642,6 +33213,7 @@
          "jp_private_era" : 1,
          "key" : "願転",
          "name" : "願転",
+         "name_ja" : "願転",
          "names" : {
             "愿博" : 1,
             "愿転" : 1,
@@ -32747,6 +33319,7 @@
          "jp_era" : 1,
          "key" : "養和",
          "name" : "養和",
+         "name_ja" : "養和",
          "name_kana" : "ようわ",
          "name_kanas" : {
             "ようわ" : 1
@@ -32802,6 +33375,7 @@
          "jp_era" : 1,
          "key" : "養老",
          "name" : "養老",
+         "name_ja" : "養老",
          "name_kana" : "ようろう",
          "name_kanas" : {
             "ようろう" : 1
@@ -33015,6 +33589,25 @@
          },
          "offset" : 219,
          "wref_zh" : "黄初"
+      },
+      "黃帝紀元" : {
+         "key" : "黃帝紀元",
+         "name" : "黃帝紀元",
+         "names" : {
+            "軒轅紀年" : 1,
+            "軒轅纪年" : 1,
+            "黃帝紀元" : 1,
+            "黃帝纪元" : 1,
+            "黃紀" : 1,
+            "黃纪" : 1,
+            "黄帝紀元" : 1,
+            "黄帝纪元" : 1,
+            "黄紀" : 1,
+            "黄纪" : 1
+         },
+         "offset" : -2698,
+         "wref_ja" : "黄帝紀元",
+         "wref_zh" : "黄帝纪元"
       },
       "黃武" : {
          "key" : "黃武",
@@ -33364,6 +33957,60 @@
          },
          "offset" : 1396,
          "wref_zh" : "龙凤_(田九成)"
+      },
+      "단기" : {
+         "key" : "단기",
+         "name" : "단기",
+         "names" : {
+            "檀君紀元" : 1,
+            "檀君纪元" : 1,
+            "檀紀" : 1,
+            "檀纪" : 1,
+            "단군기원" : 1,
+            "단기" : 1
+         },
+         "offset" : -2334,
+         "wref_ja" : "檀紀",
+         "wref_ko" : "단군기원"
+      },
+      "대한민국" : {
+         "key" : "대한민국",
+         "name" : "대한민국",
+         "names" : {
+            "大韓民囯" : 1,
+            "大韓民国" : 1,
+            "大韓民國" : 1,
+            "民囯" : 1,
+            "民国" : 1,
+            "民國" : 1,
+            "대한민국" : 1,
+            "민국" : 1
+         },
+         "offset" : 1918,
+         "wref_ja" : "大韓民国_(年号)",
+         "wref_zh" : "大韓民國_(年號)"
+      },
+      "주체" : {
+         "key" : "주체",
+         "name" : "주체",
+         "names" : {
+            "主体" : 1,
+            "主体历" : 1,
+            "主体年號" : 1,
+            "主体暦" : 1,
+            "主体曆" : 1,
+            "主體" : 1,
+            "主體历" : 1,
+            "主體年號" : 1,
+            "主體暦" : 1,
+            "主體曆" : 1,
+            "주체" : 1,
+            "주체력" : 1,
+            "주체연호" : 1
+         },
+         "offset" : 1911,
+         "wref_ja" : "主体暦",
+         "wref_ko" : "주체연호"
       }
    },
    "name_conflicts" : {
@@ -33696,12 +34343,15 @@
          "建福(甲辰)" : 1
       },
       "开囯" : {
+         "開國" : 1,
          "開國(辛未)" : 1
       },
       "开国" : {
+         "開國" : 1,
          "開國(辛未)" : 1
       },
       "开國" : {
+         "開國" : 1,
          "開國(辛未)" : 1
       },
       "开泰" : {
@@ -33975,12 +34625,15 @@
          "長徳(丁卯)" : 1
       },
       "開囯" : {
+         "開國" : 1,
          "開國(辛未)" : 1
       },
       "開国" : {
+         "開國" : 1,
          "開國(辛未)" : 1
       },
       "開國" : {
+         "開國" : 1,
          "開國(辛未)" : 1
       },
       "開泰" : {
@@ -34052,6 +34705,12 @@
    },
    "name_to_key" : {
       "jp" : {
+         "A.D." : "AD",
+         "AD" : "AD",
+         "Anno Domini" : "AD",
+         "C.E." : "AD",
+         "CE" : "AD",
+         "Common Era" : "AD",
          "H" : "平成",
          "M" : "明治",
          "S" : "昭和",
@@ -34060,6 +34719,8 @@
          "m" : "明治",
          "s" : "昭和",
          "t" : "大正",
+         "キリスト紀元" : "AD",
+         "キリスト纪元" : "AD",
          "㍻" : "平成",
          "㍼" : "昭和",
          "㍽" : "大正",
@@ -34099,6 +34760,18 @@
          "中元克复" : "中元克復",
          "中元克復" : "中元克復",
          "中兴" : "中興",
+         "中华民囯" : "中華民國",
+         "中华民囯历" : "中華民國",
+         "中华民囯暦" : "中華民國",
+         "中华民囯曆" : "中華民國",
+         "中华民国" : "中華民國",
+         "中华民国历" : "中華民國",
+         "中华民国暦" : "中華民國",
+         "中华民国曆" : "中華民國",
+         "中华民國" : "中華民國",
+         "中华民國历" : "中華民國",
+         "中华民國暦" : "中華民國",
+         "中华民國曆" : "中華民國",
          "中和" : "中和",
          "中大同" : "中大同",
          "中大通" : "中大通",
@@ -34106,6 +34779,28 @@
          "中統" : "中統",
          "中统" : "中統",
          "中興" : "中興",
+         "中華民囯" : "中華民國",
+         "中華民囯历" : "中華民國",
+         "中華民囯暦" : "中華民國",
+         "中華民囯曆" : "中華民國",
+         "中華民国" : "中華民國",
+         "中華民国历" : "中華民國",
+         "中華民国暦" : "中華民國",
+         "中華民国曆" : "中華民國",
+         "中華民國" : "中華民國",
+         "中華民國历" : "中華民國",
+         "中華民國暦" : "中華民國",
+         "中華民國曆" : "中華民國",
+         "主体" : "주체",
+         "主体历" : "주체",
+         "主体年號" : "주체",
+         "主体暦" : "주체",
+         "主体曆" : "주체",
+         "主體" : "주체",
+         "主體历" : "주체",
+         "主體年號" : "주체",
+         "主體暦" : "주체",
+         "主體曆" : "주체",
          "久壽" : "久寿",
          "久夀" : "久寿",
          "久安" : "久安",
@@ -34339,6 +35034,9 @@
          "光𤋮" : "光熙",
          "全义" : "全義",
          "全義" : "全義",
+         "公元" : "AD",
+         "公元紀年" : "AD",
+         "公元纪年" : "AD",
          "共戴" : "共戴",
          "兴元" : "興元",
          "兴光" : "興光",
@@ -34403,6 +35101,8 @@
          "华汉" : "華漢",
          "华漢" : "華漢",
          "協和" : "協和",
+         "即位紀元" : "神武天皇",
+         "即位纪元" : "神武天皇",
          "历仁" : "暦仁",
          "历应" : "暦応",
          "历応" : "暦応",
@@ -34525,9 +35225,24 @@
          "嘉𠮷" : "嘉吉",
          "嘉𣴎" : "嘉承",
          "嘉𤋮" : "嘉熙",
+         "囯历" : "中華民國",
+         "囯暦" : "中華民國",
+         "囯曆" : "中華民國",
+         "囯歴" : "中華民國",
+         "囯歷" : "中華民國",
+         "国历" : "中華民國",
+         "国暦" : "中華民國",
+         "国曆" : "中華民國",
+         "国歴" : "中華民國",
+         "国歷" : "中華民國",
          "圆明大宝" : "圓明大寶",
          "圆明大寳" : "圓明大寶",
          "圆明大寶" : "圓明大寶",
+         "國历" : "中華民國",
+         "國暦" : "中華民國",
+         "國曆" : "中華民國",
+         "國歴" : "中華民國",
+         "國歷" : "中華民國",
          "圓明大宝" : "圓明大寶",
          "圓明大寳" : "圓明大寶",
          "圓明大寶" : "圓明大寶",
@@ -34602,6 +35317,24 @@
          "大暦" : "大曆",
          "大曆" : "大曆",
          "大有" : "大有",
+         "大朝鮮囯开囯" : "開國",
+         "大朝鮮囯开国" : "開國",
+         "大朝鮮囯开國" : "開國",
+         "大朝鮮囯開囯" : "開國",
+         "大朝鮮囯開国" : "開國",
+         "大朝鮮囯開國" : "開國",
+         "大朝鮮国开囯" : "開國",
+         "大朝鮮国开国" : "開國",
+         "大朝鮮国开國" : "開國",
+         "大朝鮮国開囯" : "開國",
+         "大朝鮮国開国" : "開國",
+         "大朝鮮国開國" : "開國",
+         "大朝鮮國开囯" : "開國",
+         "大朝鮮國开国" : "開國",
+         "大朝鮮國开國" : "開國",
+         "大朝鮮國開囯" : "開國",
+         "大朝鮮國開国" : "開國",
+         "大朝鮮國開國" : "開國",
          "大本" : "大本",
          "大業" : "大業",
          "大正" : "大正",
@@ -34630,6 +35363,9 @@
          "大長" : "大長",
          "大长" : "大長",
          "大靖" : "大靖",
+         "大韓民囯" : "대한민국",
+         "大韓民国" : "대한민국",
+         "大韓民國" : "대한민국",
          "大順" : "大順",
          "大顺" : "大順",
          "大靖" : "大靖",
@@ -35118,7 +35854,11 @@
          "崇神" : "崇神天皇",
          "崇神天皇" : "崇神天皇",
          "崇祯" : "崇禎",
+         "崇祯紀元" : "崇禎",
+         "崇祯纪元" : "崇禎",
          "崇禎" : "崇禎",
+         "崇禎紀元" : "崇禎",
+         "崇禎纪元" : "崇禎",
          "崇福" : "崇福",
          "崇興大宝" : "崇興大寶",
          "崇興大寳" : "崇興大寶",
@@ -35401,6 +36141,12 @@
          "开凞" : "開熙",
          "开化" : "開化天皇",
          "开化天皇" : "開化天皇",
+         "开囯" : "開國",
+         "开囯年号" : "開國",
+         "开国" : "開國",
+         "开国年号" : "開國",
+         "开國" : "開國",
+         "开國年号" : "開國",
          "开大" : "開大",
          "开宝" : "開寶(戊辰)",
          "开寳" : "開寶(戊辰)",
@@ -35665,6 +36411,8 @@
          "斎明天皇" : "斉明天皇",
          "斎衡" : "斉衡",
          "日新" : "日新",
+         "日紀" : "神武天皇",
+         "日纪" : "神武天皇",
          "昇元" : "昇元",
          "昇平" : "昇平",
          "昇明" : "昇明",
@@ -35777,6 +36525,12 @@
          "會豐" : "會豐",
          "會祥大庆" : "會祥大慶",
          "會祥大慶" : "會祥大慶",
+         "朝鮮开囯" : "開國",
+         "朝鮮开国" : "開國",
+         "朝鮮开國" : "開國",
+         "朝鮮開囯" : "開國",
+         "朝鮮開国" : "開國",
+         "朝鮮開國" : "開國",
          "本初" : "本初",
          "本始" : "本始",
          "朱雀" : "朱雀",
@@ -35788,6 +36542,10 @@
          "栄正" : "永正",
          "核时代" : "核時代",
          "核時代" : "核時代",
+         "檀君紀元" : "단기",
+         "檀君纪元" : "단기",
+         "檀紀" : "단기",
+         "檀纪" : "단기",
          "欽明" : "欽明天皇",
          "欽明天皇" : "欽明天皇",
          "正中" : "正中",
@@ -35842,9 +36600,22 @@
          "武烈天皇" : "武烈天皇",
          "武義" : "武義",
          "殷到" : "教到",
+         "民" : "中華民國",
          "民囯" : "民國",
+         "民囯紀元" : "中華民國",
+         "民囯紀年" : "中華民國",
+         "民囯纪元" : "中華民國",
+         "民囯纪年" : "中華民國",
          "民国" : "民國",
+         "民国紀元" : "中華民國",
+         "民国紀年" : "中華民國",
+         "民国纪元" : "中華民國",
+         "民国纪年" : "中華民國",
          "民國" : "民國",
+         "民國紀元" : "中華民國",
+         "民國紀年" : "中華民國",
+         "民國纪元" : "中華民國",
+         "民國纪年" : "中華民國",
          "永万" : "永万",
          "永久" : "永久",
          "永乐" : "永楽",
@@ -36121,19 +36892,24 @@
          "白龟" : "神亀",
          "皇兴" : "皇興",
          "皇初" : "皇初",
+         "皇历" : "神武天皇",
          "皇始" : "皇始",
          "皇庆" : "皇慶",
          "皇建" : "皇建",
          "皇徳" : "皇德",
          "皇德" : "皇德",
          "皇慶" : "皇慶",
+         "皇暦" : "神武天皇",
+         "皇曆" : "神武天皇",
          "皇极" : "皇極天皇",
          "皇极天皇" : "皇極天皇",
          "皇極" : "皇極天皇",
          "皇極天皇" : "皇極天皇",
          "皇泰" : "皇泰",
          "皇祐" : "皇祐",
+         "皇紀" : "神武天皇",
          "皇統" : "皇統",
+         "皇纪" : "神武天皇",
          "皇统" : "皇統",
          "皇興" : "皇興",
          "盛徳" : "盛德",
@@ -36170,7 +36946,14 @@
          "神暦" : "神曆",
          "神曆" : "神曆",
          "神武" : "神武天皇",
+         "神武历" : "神武天皇",
          "神武天皇" : "神武天皇",
+         "神武天皇即位紀元" : "神武天皇",
+         "神武天皇即位纪元" : "神武天皇",
+         "神武暦" : "神武天皇",
+         "神武曆" : "神武天皇",
+         "神武紀元" : "神武天皇",
+         "神武纪元" : "神武天皇",
          "神歴" : "神曆",
          "神歷" : "神曆",
          "神治" : "神治",
@@ -36347,6 +37130,8 @@
          "義興" : "義興",
          "義𠘕" : "義熙",
          "義𤋮" : "義熙",
+         "耶蘇紀元" : "AD",
+         "耶蘇纪元" : "AD",
          "聖元" : "聖元",
          "聖冊" : "聖冊",
          "聖册" : "聖冊",
@@ -36431,7 +37216,18 @@
          "蔵和" : "蔵知",
          "蔵知" : "蔵知",
          "裕民" : "裕民",
+         "西历" : "AD",
+         "西历紀元" : "AD",
+         "西历纪元" : "AD",
          "西安" : "西安",
+         "西暦" : "AD",
+         "西暦紀元" : "AD",
+         "西暦纪元" : "AD",
+         "西曆" : "AD",
+         "西曆紀元" : "AD",
+         "西曆纪元" : "AD",
+         "西紀" : "AD",
+         "西纪" : "AD",
          "見圣" : "見聖",
          "見知" : "見聖",
          "見竜" : "見龍",
@@ -36524,6 +37320,8 @@
          "身祿" : "弥勒",
          "身禄" : "弥勒",
          "身聖" : "身聖",
+         "軒轅紀年" : "黃帝紀元",
+         "軒轅纪年" : "黃帝紀元",
          "転愿" : "願転",
          "転运" : "轉運",
          "転運" : "轉運",
@@ -36641,6 +37439,12 @@
          "開凞" : "開熙",
          "開化" : "開化天皇",
          "開化天皇" : "開化天皇",
+         "開囯" : "開國",
+         "開囯年号" : "開國",
+         "開国" : "開國",
+         "開国年号" : "開國",
+         "開國" : "開國",
+         "開國年号" : "開國",
          "開大" : "開大",
          "開宝" : "開寶(戊辰)",
          "開寳" : "開寶(戊辰)",
@@ -36776,13 +37580,21 @@
          "麟徳" : "麟德",
          "麟德" : "麟德",
          "黃初" : "黃初",
+         "黃帝紀元" : "黃帝紀元",
+         "黃帝纪元" : "黃帝紀元",
          "黃武" : "黃武",
          "黃竜" : "黃龍",
+         "黃紀" : "黃帝紀元",
+         "黃纪" : "黃帝紀元",
          "黃龍" : "黃龍",
          "黃龙" : "黃龍",
          "黄初" : "黃初",
+         "黄帝紀元" : "黃帝紀元",
+         "黄帝纪元" : "黃帝紀元",
          "黄武" : "黃武",
          "黄竜" : "黃龍",
+         "黄紀" : "黃帝紀元",
+         "黄纪" : "黃帝紀元",
          "黄龍" : "黃龍",
          "黄龙" : "黃龍",
          "黑竜" : "黑龍",
@@ -36833,6 +37645,14 @@
          "龙飛" : "龍飛",
          "龙飞" : "龍飛",
          "龙鳳" : "龍鳳",
+         "개국" : "開國",
+         "단군기원" : "단기",
+         "단기" : "단기",
+         "대한민국" : "대한민국",
+         "민국" : "대한민국",
+         "주체" : "주체",
+         "주체력" : "주체",
+         "주체연호" : "주체",
          "神䴥" : "神䴥",
          "神上" : "神上",
          "神亀" : "神亀",
@@ -36856,7 +37676,14 @@
          "神暦" : "神曆",
          "神曆" : "神曆",
          "神武" : "神武天皇",
+         "神武历" : "神武天皇",
          "神武天皇" : "神武天皇",
+         "神武天皇即位紀元" : "神武天皇",
+         "神武天皇即位纪元" : "神武天皇",
+         "神武暦" : "神武天皇",
+         "神武曆" : "神武天皇",
+         "神武紀元" : "神武天皇",
+         "神武纪元" : "神武天皇",
          "神歴" : "神曆",
          "神歷" : "神曆",
          "神治" : "神治",
@@ -36928,6 +37755,24 @@
       }
    },
    "name_to_keys" : {
+      "A.D." : {
+         "AD" : 1
+      },
+      "AD" : {
+         "AD" : 1
+      },
+      "Anno Domini" : {
+         "AD" : 1
+      },
+      "C.E." : {
+         "AD" : 1
+      },
+      "CE" : {
+         "AD" : 1
+      },
+      "Common Era" : {
+         "AD" : 1
+      },
       "H" : {
          "平成" : 1
       },
@@ -36951,6 +37796,12 @@
       },
       "t" : {
          "大正" : 1
+      },
+      "キリスト紀元" : {
+         "AD" : 1
+      },
+      "キリスト纪元" : {
+         "AD" : 1
       },
       "㍻" : {
          "平成" : 1
@@ -37078,6 +37929,42 @@
          "中興(辛亥)" : 1,
          "中興(辛巳)" : 1
       },
+      "中华民囯" : {
+         "中華民國" : 1
+      },
+      "中华民囯历" : {
+         "中華民國" : 1
+      },
+      "中华民囯暦" : {
+         "中華民國" : 1
+      },
+      "中华民囯曆" : {
+         "中華民國" : 1
+      },
+      "中华民国" : {
+         "中華民國" : 1
+      },
+      "中华民国历" : {
+         "中華民國" : 1
+      },
+      "中华民国暦" : {
+         "中華民國" : 1
+      },
+      "中华民国曆" : {
+         "中華民國" : 1
+      },
+      "中华民國" : {
+         "中華民國" : 1
+      },
+      "中华民國历" : {
+         "中華民國" : 1
+      },
+      "中华民國暦" : {
+         "中華民國" : 1
+      },
+      "中华民國曆" : {
+         "中華民國" : 1
+      },
       "中和" : {
          "中和" : 1
       },
@@ -37105,6 +37992,72 @@
          "中興(甲戌)" : 1,
          "中興(辛亥)" : 1,
          "中興(辛巳)" : 1
+      },
+      "中華民囯" : {
+         "中華民國" : 1
+      },
+      "中華民囯历" : {
+         "中華民國" : 1
+      },
+      "中華民囯暦" : {
+         "中華民國" : 1
+      },
+      "中華民囯曆" : {
+         "中華民國" : 1
+      },
+      "中華民国" : {
+         "中華民國" : 1
+      },
+      "中華民国历" : {
+         "中華民國" : 1
+      },
+      "中華民国暦" : {
+         "中華民國" : 1
+      },
+      "中華民国曆" : {
+         "中華民國" : 1
+      },
+      "中華民國" : {
+         "中華民國" : 1
+      },
+      "中華民國历" : {
+         "中華民國" : 1
+      },
+      "中華民國暦" : {
+         "中華民國" : 1
+      },
+      "中華民國曆" : {
+         "中華民國" : 1
+      },
+      "主体" : {
+         "주체" : 1
+      },
+      "主体历" : {
+         "주체" : 1
+      },
+      "主体年號" : {
+         "주체" : 1
+      },
+      "主体暦" : {
+         "주체" : 1
+      },
+      "主体曆" : {
+         "주체" : 1
+      },
+      "主體" : {
+         "주체" : 1
+      },
+      "主體历" : {
+         "주체" : 1
+      },
+      "主體年號" : {
+         "주체" : 1
+      },
+      "主體暦" : {
+         "주체" : 1
+      },
+      "主體曆" : {
+         "주체" : 1
       },
       "久壽" : {
          "久寿" : 1
@@ -37880,6 +38833,15 @@
       "全義" : {
          "全義" : 1
       },
+      "公元" : {
+         "AD" : 1
+      },
+      "公元紀年" : {
+         "AD" : 1
+      },
+      "公元纪年" : {
+         "AD" : 1
+      },
       "共戴" : {
          "共戴" : 1
       },
@@ -38083,6 +39045,12 @@
       },
       "協和" : {
          "協和" : 1
+      },
+      "即位紀元" : {
+         "神武天皇" : 1
+      },
+      "即位纪元" : {
+         "神武天皇" : 1
       },
       "历仁" : {
          "暦仁" : 1
@@ -38464,6 +39432,36 @@
       "嘉𤋮" : {
          "嘉熙" : 1
       },
+      "囯历" : {
+         "中華民國" : 1
+      },
+      "囯暦" : {
+         "中華民國" : 1
+      },
+      "囯曆" : {
+         "中華民國" : 1
+      },
+      "囯歴" : {
+         "中華民國" : 1
+      },
+      "囯歷" : {
+         "中華民國" : 1
+      },
+      "国历" : {
+         "中華民國" : 1
+      },
+      "国暦" : {
+         "中華民國" : 1
+      },
+      "国曆" : {
+         "中華民國" : 1
+      },
+      "国歴" : {
+         "中華民國" : 1
+      },
+      "国歷" : {
+         "中華民國" : 1
+      },
       "圆明大宝" : {
          "圓明大寶" : 1
       },
@@ -38472,6 +39470,21 @@
       },
       "圆明大寶" : {
          "圓明大寶" : 1
+      },
+      "國历" : {
+         "中華民國" : 1
+      },
+      "國暦" : {
+         "中華民國" : 1
+      },
+      "國曆" : {
+         "中華民國" : 1
+      },
+      "國歴" : {
+         "中華民國" : 1
+      },
+      "國歷" : {
+         "中華民國" : 1
       },
       "圓明大宝" : {
          "圓明大寶" : 1
@@ -38744,6 +39757,60 @@
       "大有" : {
          "大有" : 1
       },
+      "大朝鮮囯开囯" : {
+         "開國" : 1
+      },
+      "大朝鮮囯开国" : {
+         "開國" : 1
+      },
+      "大朝鮮囯开國" : {
+         "開國" : 1
+      },
+      "大朝鮮囯開囯" : {
+         "開國" : 1
+      },
+      "大朝鮮囯開国" : {
+         "開國" : 1
+      },
+      "大朝鮮囯開國" : {
+         "開國" : 1
+      },
+      "大朝鮮国开囯" : {
+         "開國" : 1
+      },
+      "大朝鮮国开国" : {
+         "開國" : 1
+      },
+      "大朝鮮国开國" : {
+         "開國" : 1
+      },
+      "大朝鮮国開囯" : {
+         "開國" : 1
+      },
+      "大朝鮮国開国" : {
+         "開國" : 1
+      },
+      "大朝鮮国開國" : {
+         "開國" : 1
+      },
+      "大朝鮮國开囯" : {
+         "開國" : 1
+      },
+      "大朝鮮國开国" : {
+         "開國" : 1
+      },
+      "大朝鮮國开國" : {
+         "開國" : 1
+      },
+      "大朝鮮國開囯" : {
+         "開國" : 1
+      },
+      "大朝鮮國開国" : {
+         "開國" : 1
+      },
+      "大朝鮮國開國" : {
+         "開國" : 1
+      },
       "大本" : {
          "大本" : 1
       },
@@ -38832,6 +39899,15 @@
       },
       "大靖" : {
          "大靖" : 1
+      },
+      "大韓民囯" : {
+         "대한민국" : 1
+      },
+      "大韓民国" : {
+         "대한민국" : 1
+      },
+      "大韓民國" : {
+         "대한민국" : 1
       },
       "大順" : {
          "大順" : 1,
@@ -40516,7 +41592,19 @@
       "崇祯" : {
          "崇禎" : 1
       },
+      "崇祯紀元" : {
+         "崇禎" : 1
+      },
+      "崇祯纪元" : {
+         "崇禎" : 1
+      },
       "崇禎" : {
+         "崇禎" : 1
+      },
+      "崇禎紀元" : {
+         "崇禎" : 1
+      },
+      "崇禎纪元" : {
          "崇禎" : 1
       },
       "崇福" : {
@@ -41491,13 +42579,25 @@
          "開化天皇" : 1
       },
       "开囯" : {
+         "開國" : 1,
          "開國(辛未)" : 1
+      },
+      "开囯年号" : {
+         "開國" : 1
       },
       "开国" : {
+         "開國" : 1,
          "開國(辛未)" : 1
       },
+      "开国年号" : {
+         "開國" : 1
+      },
       "开國" : {
+         "開國" : 1,
          "開國(辛未)" : 1
+      },
+      "开國年号" : {
+         "開國" : 1
       },
       "开大" : {
          "開大" : 1
@@ -42322,6 +43422,12 @@
       "日新" : {
          "日新" : 1
       },
+      "日紀" : {
+         "神武天皇" : 1
+      },
+      "日纪" : {
+         "神武天皇" : 1
+      },
       "昇元" : {
          "昇元" : 1
       },
@@ -42679,6 +43785,24 @@
       "會祥大慶" : {
          "會祥大慶" : 1
       },
+      "朝鮮开囯" : {
+         "開國" : 1
+      },
+      "朝鮮开国" : {
+         "開國" : 1
+      },
+      "朝鮮开國" : {
+         "開國" : 1
+      },
+      "朝鮮開囯" : {
+         "開國" : 1
+      },
+      "朝鮮開国" : {
+         "開國" : 1
+      },
+      "朝鮮開國" : {
+         "開國" : 1
+      },
       "本初" : {
          "本初" : 1
       },
@@ -42712,6 +43836,18 @@
       },
       "核時代" : {
          "核時代" : 1
+      },
+      "檀君紀元" : {
+         "단기" : 1
+      },
+      "檀君纪元" : {
+         "단기" : 1
+      },
+      "檀紀" : {
+         "단기" : 1
+      },
+      "檀纪" : {
+         "단기" : 1
       },
       "欽明" : {
          "欽明天皇" : 1
@@ -42908,14 +44044,59 @@
       "殷到" : {
          "教到" : 1
       },
+      "民" : {
+         "中華民國" : 1
+      },
       "民囯" : {
-         "民國" : 1
+         "中華民國" : 1,
+         "民國" : 1,
+         "대한민국" : 1
+      },
+      "民囯紀元" : {
+         "中華民國" : 1
+      },
+      "民囯紀年" : {
+         "中華民國" : 1
+      },
+      "民囯纪元" : {
+         "中華民國" : 1
+      },
+      "民囯纪年" : {
+         "中華民國" : 1
       },
       "民国" : {
-         "民國" : 1
+         "中華民國" : 1,
+         "民國" : 1,
+         "대한민국" : 1
+      },
+      "民国紀元" : {
+         "中華民國" : 1
+      },
+      "民国紀年" : {
+         "中華民國" : 1
+      },
+      "民国纪元" : {
+         "中華民國" : 1
+      },
+      "民国纪年" : {
+         "中華民國" : 1
       },
       "民國" : {
-         "民國" : 1
+         "中華民國" : 1,
+         "民國" : 1,
+         "대한민국" : 1
+      },
+      "民國紀元" : {
+         "中華民國" : 1
+      },
+      "民國紀年" : {
+         "中華民國" : 1
+      },
+      "民國纪元" : {
+         "中華民國" : 1
+      },
+      "民國纪年" : {
+         "中華民國" : 1
       },
       "永万" : {
          "永万" : 1
@@ -43858,6 +45039,9 @@
       "皇初" : {
          "皇初" : 1
       },
+      "皇历" : {
+         "神武天皇" : 1
+      },
       "皇始" : {
          "皇始" : 1,
          "皇始(丙申)" : 1
@@ -43878,6 +45062,12 @@
       "皇慶" : {
          "皇慶" : 1
       },
+      "皇暦" : {
+         "神武天皇" : 1
+      },
+      "皇曆" : {
+         "神武天皇" : 1
+      },
       "皇极" : {
          "皇極天皇" : 1
       },
@@ -43896,8 +45086,14 @@
       "皇祐" : {
          "皇祐" : 1
       },
+      "皇紀" : {
+         "神武天皇" : 1
+      },
       "皇統" : {
          "皇統" : 1
+      },
+      "皇纪" : {
+         "神武天皇" : 1
       },
       "皇统" : {
          "皇統" : 1
@@ -44016,7 +45212,28 @@
          "神武(己酉)" : 1,
          "神武天皇" : 1
       },
+      "神武历" : {
+         "神武天皇" : 1
+      },
       "神武天皇" : {
+         "神武天皇" : 1
+      },
+      "神武天皇即位紀元" : {
+         "神武天皇" : 1
+      },
+      "神武天皇即位纪元" : {
+         "神武天皇" : 1
+      },
+      "神武暦" : {
+         "神武天皇" : 1
+      },
+      "神武曆" : {
+         "神武天皇" : 1
+      },
+      "神武紀元" : {
+         "神武天皇" : 1
+      },
+      "神武纪元" : {
          "神武天皇" : 1
       },
       "神歴" : {
@@ -44596,6 +45813,12 @@
          "義熙" : 1,
          "義熙(辛卯)" : 1
       },
+      "耶蘇紀元" : {
+         "AD" : 1
+      },
+      "耶蘇纪元" : {
+         "AD" : 1
+      },
       "聖元" : {
          "聖元" : 1
       },
@@ -44863,8 +46086,41 @@
       "裕民" : {
          "裕民" : 1
       },
+      "西历" : {
+         "AD" : 1
+      },
+      "西历紀元" : {
+         "AD" : 1
+      },
+      "西历纪元" : {
+         "AD" : 1
+      },
       "西安" : {
          "西安" : 1
+      },
+      "西暦" : {
+         "AD" : 1
+      },
+      "西暦紀元" : {
+         "AD" : 1
+      },
+      "西暦纪元" : {
+         "AD" : 1
+      },
+      "西曆" : {
+         "AD" : 1
+      },
+      "西曆紀元" : {
+         "AD" : 1
+      },
+      "西曆纪元" : {
+         "AD" : 1
+      },
+      "西紀" : {
+         "AD" : 1
+      },
+      "西纪" : {
+         "AD" : 1
       },
       "見圣" : {
          "見聖" : 1
@@ -45165,6 +46421,12 @@
       },
       "身聖" : {
          "身聖" : 1
+      },
+      "軒轅紀年" : {
+         "黃帝紀元" : 1
+      },
+      "軒轅纪年" : {
+         "黃帝紀元" : 1
       },
       "転愿" : {
          "願転" : 1
@@ -45535,13 +46797,25 @@
          "開化天皇" : 1
       },
       "開囯" : {
+         "開國" : 1,
          "開國(辛未)" : 1
+      },
+      "開囯年号" : {
+         "開國" : 1
       },
       "開国" : {
+         "開國" : 1,
          "開國(辛未)" : 1
       },
+      "開国年号" : {
+         "開國" : 1
+      },
       "開國" : {
+         "開國" : 1,
          "開國(辛未)" : 1
+      },
+      "開國年号" : {
+         "開國" : 1
       },
       "開大" : {
          "開大" : 1
@@ -45994,6 +47268,12 @@
       "黃初" : {
          "黃初" : 1
       },
+      "黃帝紀元" : {
+         "黃帝紀元" : 1
+      },
+      "黃帝纪元" : {
+         "黃帝紀元" : 1
+      },
       "黃武" : {
          "黃武" : 1
       },
@@ -46001,6 +47281,12 @@
          "黃龍" : 1,
          "黃龍(己酉)" : 1,
          "黃龍(辛丑)" : 1
+      },
+      "黃紀" : {
+         "黃帝紀元" : 1
+      },
+      "黃纪" : {
+         "黃帝紀元" : 1
       },
       "黃龍" : {
          "黃龍" : 1,
@@ -46015,6 +47301,12 @@
       "黄初" : {
          "黃初" : 1
       },
+      "黄帝紀元" : {
+         "黃帝紀元" : 1
+      },
+      "黄帝纪元" : {
+         "黃帝紀元" : 1
+      },
       "黄武" : {
          "黃武" : 1
       },
@@ -46022,6 +47314,12 @@
          "黃龍" : 1,
          "黃龍(己酉)" : 1,
          "黃龍(辛丑)" : 1
+      },
+      "黄紀" : {
+         "黃帝紀元" : 1
+      },
+      "黄纪" : {
+         "黃帝紀元" : 1
       },
       "黄龍" : {
          "黃龍" : 1,
@@ -46205,6 +47503,30 @@
          "龍鳳" : 1,
          "龍鳳(丁丑)" : 1
       },
+      "개국" : {
+         "開國" : 1
+      },
+      "단군기원" : {
+         "단기" : 1
+      },
+      "단기" : {
+         "단기" : 1
+      },
+      "대한민국" : {
+         "대한민국" : 1
+      },
+      "민국" : {
+         "대한민국" : 1
+      },
+      "주체" : {
+         "주체" : 1
+      },
+      "주체력" : {
+         "주체" : 1
+      },
+      "주체연호" : {
+         "주체" : 1
+      },
       "神䴥" : {
          "神䴥" : 1
       },
@@ -46278,7 +47600,28 @@
          "神武(己酉)" : 1,
          "神武天皇" : 1
       },
+      "神武历" : {
+         "神武天皇" : 1
+      },
       "神武天皇" : {
+         "神武天皇" : 1
+      },
+      "神武天皇即位紀元" : {
+         "神武天皇" : 1
+      },
+      "神武天皇即位纪元" : {
+         "神武天皇" : 1
+      },
+      "神武暦" : {
+         "神武天皇" : 1
+      },
+      "神武曆" : {
+         "神武天皇" : 1
+      },
+      "神武紀元" : {
+         "神武天皇" : 1
+      },
+      "神武纪元" : {
          "神武天皇" : 1
       },
       "神歴" : {

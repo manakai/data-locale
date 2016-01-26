@@ -117,10 +117,9 @@ The file contains a JSON object with following name/value pairs:
 
       name [string]
 
-        A name of the era, which can be used as a formal or long name
-        of the era in the official modern spelling of the country
-        where the era is (or was) used, wherever possible.  The name
-        can be used as the default prefix of a year number.
+        A name of the era, which can be used as a default prefix of a
+        year using the era in the official modern spelling of the
+        country where the era is (or was) used, wherever possible.
 
       names [object]
 
@@ -128,9 +127,9 @@ The file contains a JSON object with following name/value pairs:
         are [boolean] true values.  Variants include names without
         suffix (e.g. "神武" for "神武天皇") and names using different
         spelling (e.g. using traditional variant such as "神武" and "神
-        武天皇").  They also include any |name|, |name_cn|, |name_tw|,
-        |short_name|, |abbr|, and |abbr_latn| of the era.  (The |key|
-        might not be a name.)
+        武天皇").  They also include any |name|, |name_cn|, |name_ja|,
+        |name_ko|, |name_tw|, |short_name|, |abbr|, and |abbr_latn| of
+        the era.  (The |key| might not be a name.)
 
       name_cn [string?]
 
@@ -144,6 +143,10 @@ The file contains a JSON object with following name/value pairs:
 
         Known hiragana names of the era.  Names are variants and
         values are [boolean] true values.
+
+      name_ko [string?]
+
+        The name of the era in Korean with Hangul, if known.
 
       name_latn [string?]
 
@@ -194,6 +197,12 @@ The file contains a JSON object with following name/value pairs:
         A Wikipedia reference
         <https://github.com/geocol/data-jp-transport/blob/master/doc/datatypes.txt>
         for the Japanese Wikipedia article on the era, if known.
+
+      wref_ko [string?]
+
+        A Wikipedia reference
+        <https://github.com/geocol/data-jp-transport/blob/master/doc/datatypes.txt>
+        for the Korean Wikipedia article on the era, if known.
 
       wref_zh [string?]
 

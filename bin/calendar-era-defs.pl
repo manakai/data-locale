@@ -213,7 +213,7 @@ for my $era (values %{$Data->{eras}}) {
       my $d = $Data->{eras}->{$n[0]} ||= {};
       $d->{jp_private_era} = 1;
       $d->{key} = $n[0];
-      $d->{name} = drop_kanshi $n[0];
+      $d->{name_ja} = $d->{name} = drop_kanshi $n[0];
       $d->{names}->{drop_kanshi $_} = 1 for @n;
       expand_name $d, $_ for @n;
       if (defined $first_year) {
@@ -495,13 +495,26 @@ for my $path (
       $key = $1;
       die "Bad key |$key|" unless $Data->{eras}->{$key};
       undef $prop;
+    } elsif (/^def\[(.+)\]$/) {
+      $key = $1;
+      die "Bad key |$key|" if $Data->{eras}->{$key};
+      undef $prop;
+      $Data->{eras}->{$key}->{key} = $1;
     } elsif (defined $key and /^(source)$/) {
       push @{$Data->{eras}->{$key}->{sources} ||= []}, $prop = {};
     } elsif (defined $prop and ref $prop eq 'HASH' and
              /^  (title|url):(.+)$/) {
       $prop->{$1} = $2;
-    } elsif (defined $key and /^(wref_ja)\s+(.+)$/) {
-      $Data->{eras}->{$key}->{wref_ja} = $2;
+    } elsif (defined $key and /^(wref_(?:ja|zh|en|ko))\s+(.+)$/) {
+      $Data->{eras}->{$key}->{$1} = $2;
+    } elsif (defined $key and /^(name(?:_ja|_en|_cn|_tw|_ko|_abbr|))\s+(.+)$/) {
+      $Data->{eras}->{$key}->{name} ||= $2;
+      $Data->{eras}->{$key}->{names}->{$2} = 1;
+      expand_name $Data->{eras}->{$key}, $2;
+    } elsif (defined $key and /^(AD|BC)(\d+)\s*=\s*(\d+)$/) {
+      my $g_year = $1 eq 'BC' ? 0 - $2 : $2;
+      my $e_year = $3;
+      $Data->{eras}->{$key}->{offset} = $g_year - $e_year;
     } elsif (/\S/) {
       die "Bad line |$_|";
     }
