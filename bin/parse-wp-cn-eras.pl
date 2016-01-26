@@ -64,7 +64,7 @@ for my $table_el ($doc->query_selector_all ('.wikitable, .mw-headline')->to_list
       $name = decode 'utf-8', $name;
       $data->{wref} = $name;
     }
-    if ($cells->[1]->text_content =~ /^(前|)(\d+)年(\w+月|)(?:\x{2014}|$)/) {
+    if ($cells->[1]->text_content =~ /^(前|)(\d+)年(\w+月(\w+日|)|)(?:\x{2014}|$)/) {
       my $start_year = $1 ? 0 - $2 : $2;
       $data->{offset} = $start_year - 1;
     }

@@ -116,10 +116,10 @@ name Anno Domini
 name CE
 name C.E.
 name Common Era
-name 西暦
+name_ja 西暦
 name 西紀
 name 公元紀年
-name 公元
+name_cn 公元
 name 西暦紀元
 name キリスト紀元
 name 耶蘇紀元
@@ -150,6 +150,7 @@ name_ja 開国
 name 開国年号
 name 朝鮮開國
 name 大朝鮮國開國
+name 大朝鮮
 wref_ja 開国_(李氏朝鮮)
 wref_ko 개국_(조선)
 AD1392 = 1

@@ -10,9 +10,23 @@ my $g2k_map_path = $root_path->child ('data/calendar/kyuureki-map.txt');
 my $g2k_map = {map { split /\t/, $_ } split /\x0D?\x0A/, $g2k_map_path->slurp};
 my $k2g_map = {reverse %$g2k_map};
 
+my $g2rk_map_path = $root_path->child ('data/calendar/kyuureki-ryuukyuu-map.txt');
+my $g2rk_map = {map { split /\t/, $_ } split /\x0D?\x0A/, $g2rk_map_path->slurp};
+my $rk2g_map = {reverse %$g2rk_map};
+
 sub k2g ($) {
   return $k2g_map->{$_[0]} or die "Kyuureki |$_[0]| is not defined";
 } # k2g
+
+sub rk2g ($) {
+  my $v = $_[0];
+  if ($v =~ /^(\d+)-(\d+)$/) {
+    $v = "$v-01";
+  } elsif ($v =~ /^(\d+)$/) {
+    $v = "$v-01-01";
+  }
+  return $rk2g_map->{$v} or die "Ryuukyuu kyuureki |$v| is not defined";
+} # rk2g
 
 {
   ## Derived from |Time::Local|
@@ -83,17 +97,21 @@ for my $path ($root_path->child ('src/eras')->children (qr{\.txt$})) {
     } elsif (/^\*([\w-]+):$/) {
       $def_name = $1;
       $var_name = undef;
-    } elsif (defined $var_name and /^g:([0-9-]+)\s+(\w+)$/) {
+    } elsif (defined $var_name and /^g:([0-9-]+)\s+([\w()]+)$/) {
       push @{$Vars->{$var_name} ||= []}, ['jd', (g2jd $1), $2];
-    } elsif (defined $def_name and /^g:([0-9-]+)\s+(\w+)$/) {
+    } elsif (defined $def_name and /^g:([0-9-]+)\s+([\w()]+)$/) {
       push @{$Defs->{$def_name} ||= []}, ['jd', (g2jd $1), $2];
-    } elsif (defined $var_name and /^k:([0-9'-]+)\s+(\w+)$/) {
+    } elsif (defined $var_name and /^k:([0-9'-]+)\s+([\w()]+)$/) {
       push @{$Vars->{$var_name} ||= []}, ['jd', (g2jd k2g $1), $2];
-    } elsif (defined $def_name and /^k:([0-9'-]+)\s+(\w+)$/) {
+    } elsif (defined $def_name and /^k:([0-9'-]+)\s+([\w()]+)$/) {
       push @{$Defs->{$def_name} ||= []}, ['jd', (g2jd k2g $1), $2];
-    } elsif (defined $var_name and /^y:(-?[0-9]+)\s+(\w+)$/) {
+    } elsif (defined $var_name and /^rk:([0-9'-]+)\s+([\w()]+)$/) {
+      push @{$Vars->{$var_name} ||= []}, ['jd', (g2jd rk2g $1), $2];
+    } elsif (defined $def_name and /^rk:([0-9'-]+)\s+([\w()]+)$/) {
+      push @{$Defs->{$def_name} ||= []}, ['jd', (g2jd rk2g $1), $2];
+    } elsif (defined $var_name and /^y:(-?[0-9]+)\s+([\w()]+)$/) {
       push @{$Vars->{$var_name} ||= []}, ['y', 0+$1, $2];
-    } elsif (defined $def_name and /^y:(-?[0-9]+)\s+(\w+)$/) {
+    } elsif (defined $def_name and /^y:(-?[0-9]+)\s+([\w()]+)$/) {
       push @{$Defs->{$def_name} ||= []}, ['y', 0+$1, $2];
     } elsif (defined $var_name and /^\+\$([\w-]+)$/) {
       push @{$Vars->{$var_name} ||= []}, $1;
@@ -166,6 +184,19 @@ for my $def_name (keys %$Defs) {
     }
   }
   $Data->{systems}->{$def_name}->{points} = [map { delete $_->[3]; $_ } sort { $a->[3] <=> $b->[3] } @$def];
+}
+
+if (0) {
+  my $path = $root_path->child ('data/calendar/era-defs.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $sys_name (keys %{$Data->{systems}}) {
+    for my $point (@{$Data->{systems}->{$sys_name}->{points}}) {
+      my $key = $point->[2];
+      my $era_def = $json->{eras}->{$key};
+      die "Era |$key| not defined" unless defined $era_def;
+      $point->[3] = $era_def->{offset};
+    }
+  }
 }
 
 print perl2json_bytes_for_record $Data;

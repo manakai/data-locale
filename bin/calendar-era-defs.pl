@@ -391,7 +391,7 @@ sub year2kanshi ($) {
     next if $src->{name} eq '宣統' and $src->{offset} == 1916;
     next if $src->{name} eq '明德' and not defined $src->{offset};
     next if $src->{name} eq '廣德' and not defined $src->{offset};
-    $src->{offset} = 1861 - 1 if $src->{name} eq '祺祥' and not defined $src->{offset};
+    #$src->{offset} = 1861 - 1 if $src->{name} eq '祺祥' and not defined $src->{offset};
     my $key = (defined $src->{offset} ?
                    ($nc2key->{$src->{name}.'/'.$src->{caption}.'/'.year2kanshi(($src->{offset})+1).'/'.($src->{offset}+1)} ||
                     $nc2key->{$src->{name}.'/'.$src->{caption}.'/'.year2kanshi(($src->{offset})+1)})
@@ -446,8 +446,9 @@ for my $path (
       my @name = split /,/, $1;
       my @n;
       for (@name) {
-        if (defined $Data->{name_to_key}->{jp}->{$_}) {
-          warn "Duplicate era |$_| ($_(@{[year2kanshi $first_year]}))";
+        if (defined $Data->{name_to_key}->{jp}->{$_} or
+            defined $Data->{eras}->{$_}) {
+          die "Duplicate era |$_| ($_(@{[year2kanshi $first_year]})) in $path";
         } else {
           push @n, $_;
         }
@@ -508,7 +509,8 @@ for my $path (
     } elsif (defined $key and /^(wref_(?:ja|zh|en|ko))\s+(.+)$/) {
       $Data->{eras}->{$key}->{$1} = $2;
     } elsif (defined $key and /^(name(?:_ja|_en|_cn|_tw|_ko|_abbr|))\s+(.+)$/) {
-      $Data->{eras}->{$key}->{name} ||= $2;
+      $Data->{eras}->{$key}->{$1} ||= $2;
+      $Data->{eras}->{$key}->{$1} = $2 unless $1 eq 'name';
       $Data->{eras}->{$key}->{names}->{$2} = 1;
       expand_name $Data->{eras}->{$key}, $2;
     } elsif (defined $key and /^(AD|BC)(\d+)\s*=\s*(\d+)$/) {

@@ -118,7 +118,8 @@ src/wp-cn-eras.json: bin/merge-wp-cn-eras.pl \
     #local/wp-cn-eras-tw.json local/wp-cn-eras-cn.json
 	$(PERL) $< > $@
 data/calendar/era-systems.json: bin/calendar-era-systems.pl \
-    src/eras/*.txt data/calendar/kyuureki-map.txt
+    src/eras/*.txt data/calendar/kyuureki-map.txt \
+    data/calendar/kyuureki-ryuukyuu-map.txt
 	$(PERL) $< > $@
 local/era-defs-dates.json: bin/generate-era-defs-dates.pl \
     data/calendar/era-systems.json local/era-defs-jp.json \
