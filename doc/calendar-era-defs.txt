@@ -319,6 +319,16 @@ The file contains a JSON object with following name/value pairs:
     whose names are relevant era keys and values are [boolean] true
     values.
 
+* Comparison tables
+
+The file |data/calendar/jp-era-start-dates.html| contains a table
+comparing start days of Japanese eras from various era definition
+tables.
+
+The file |data/calendar/jp-era-year-maps.html| cntains a table
+comapring year names using Japanese eras from various AD-era mapping
+tables.
+
 * See also
 
 If you are trying to implement AD to 元号 conversions, see also
