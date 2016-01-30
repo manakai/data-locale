@@ -28,7 +28,7 @@ See documentations for details in doc/ directory.
     doc/datetime-weeks.txt             Weeks
     data/datetime/weeks.json
   Time zones
-    doc/timezones-mail-names.txt       Zone names in mails
+    doc/timezones-mail-names.txt       Zone names in email
     data/timezones/mail-names.json
   Holidays
     doc/calendar-holidays.txt          List of holidays
@@ -48,7 +48,7 @@ the Web, are contained in <https://github.com/manakai/data-web-defs>.
 Wakaba <wakaba@suikawiki.org>.
 
 These files are maintained as part of the manakai project
-<https://github.com/manakai/>.
+<https://manakai.github.io/>.
 
 * License
 
