@@ -523,6 +523,23 @@ for my $path (
   }
 }
 
+{
+  my $path = $root_path->child ('data/calendar/era-systems.json');
+  my $json = json_bytes2perl $path->slurp;
+  for (@{$json->{systems}->{ryuukyuu}->{points}}) {
+    my $key = $_->[2];
+    my $def = $Data->{eras}->{$key} or die "Era |$key| not defined";
+    if ($def->{jp_era} or $def->{jp_north_era} or $def->{jp_south_era} or
+        $def->{jp_emperor_era}) {
+      #
+    } elsif ($key eq 'AD') {
+      #
+    } else {
+      $def->{cn_ryuukyuu_era} = 1;
+    }
+  }
+}
+
 for my $name (keys %{$Data->{name_conflicts}}) {
   if (defined $Data->{name_to_key}->{jp}->{$name}) {
     $Data->{name_conflicts}->{$name}->{$Data->{name_to_key}->{jp}->{$name}} = 1;

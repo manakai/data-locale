@@ -134,7 +134,8 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     src/wp-jp-eras-en.json src/era-data.txt src/era-yomi.txt \
     src/jp-private-eras.txt src/era-variants.txt \
     src/wp-cn-eras.json src/era-china-dups.txt local/number-values.json \
-    src/era-viet.txt src/era-korea.txt src/era-tw.txt
+    src/era-viet.txt src/era-korea.txt src/era-tw.txt \
+    data/calendar/era-systems.json
 	$(PERL) $< > $@
 
 day-era-maps: \

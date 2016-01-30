@@ -77,6 +77,11 @@ The file contains a JSON object with following name/value pairs:
 
         The abbreviation of the era name, using Latin letters, if any.
 
+      cn_ryuukyuu_era [boolean]
+
+        Whether the era is a Chinese era used in Okinawa (Ryuukyuu)
+        area of Japan.
+
       jp_emperor_era [boolean]
 
         Whether the era is used to represent years where no 元号 was
