@@ -557,6 +557,13 @@ for my $name (keys %{$Data->{name_conflicts}}) {
       $is_number->{$_} = 1;
     }
   }
+  my $path2 = $root_path->child ('data/numbers/kanshi.json');
+  my $json2 = json_bytes2perl $path2->slurp;
+  for (split //, $json2->{name_lists}->{kanshi}) {
+    $is_number->{$_} = 1 unless $_ eq ' ';
+  }
+  $is_number->{$_} = 1 for qw(元 初 末 前 中 後); # 元年, 初年, 初期, 前半, ...
+  $is_number->{$_} = 1 for qw(年 月 日 時 分 秒 世 紀 星 期 旬 半);
   my $number_pattern = join '|', map { quotemeta $_ } keys %$is_number;
   for my $data (values %{$Data->{eras}}) {
     for (keys %{$data->{names}}) {

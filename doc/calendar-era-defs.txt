@@ -311,13 +311,14 @@ The file contains a JSON object with following name/value pairs:
 
   numbers_in_era_names
 
-    List of era names that contain numeric characters (such that they
-    can cause a problem when a string is parsed into an era name and a
-    year number).  A JSON object whose names are numeric characters
-    and values are list of relevant era names, represented as JSON
-    objects whose names are era names and values are JSON objects
-    whose names are relevant era keys and values are [boolean] true
-    values.
+    List of era names that contain numeric characters, characters
+    representing ranges in time periods, and delimiter characters
+    (i.e. characters that can cause problems when a string is to be
+    parsed into an era name and a year number).  A JSON object whose
+    names are numeric characters and values are list of relevant era
+    names, represented as JSON objects whose names are era names and
+    values are JSON objects whose names are relevant era keys and
+    values are [boolean] true values.
 
 * Comparison tables
 
