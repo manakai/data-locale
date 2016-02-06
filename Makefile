@@ -57,7 +57,8 @@ data: data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json \
     data/langs/locale-names.json data/langs/plurals.json \
     data/calendar/jp-flagdays.json data/calendar/era-systems.json \
     data/calendar/era-defs.json \
-    day-era-maps
+    day-era-maps \
+    data/numbers/kanshi.json
 clean-data:
 	rm -fr local/cldr-core* local/*.json
 
@@ -236,6 +237,9 @@ local/cldr-plurals.json: \
 
 data/langs/plurals.json: bin/langs-plurals.pl src/plural-exprs.txt \
   src/plural-additional.txt local/cldr-plurals.json
+	$(PERL) $< > $@
+
+data/numbers/kanshi.json: bin/numbers-kanshi.pl
 	$(PERL) $< > $@
 
 ## ------ Tests ------

@@ -1,0 +1,123 @@
+data/numbers/kanshi.json
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+The file contains descriptions of 十干, 十二支, and 干支 numbering
+systems used in East Asian countries.
+
+* Structure
+
+The file contains a JSON object, which contains following name/value
+pairs:
+
+  earthly_branches
+
+    A JSON array which contains description of earthly branches (十二支,
+    地支).  The item with index /i/ in the array describes the /i/-th
+    branch.  The items in the array are [description] objects.
+
+  heavenly_stems
+
+    A JSON array which contains description of heavenly stems
+    (celestial stems, 十干).  The item with index /i/ in the array
+    describes the /i/-th stem.  The items in the array are
+    [description] objects.
+
+  kanshi
+
+    A JSON array which contains description of stems and branches (干支,
+    十干十二支, 六十花甲, sexagenary cycle).  The item with index /i/
+    in the array describes the /i/-th stem.  The items in the array
+    are [description] objects.
+
+  name_lists [object]
+
+    Names are |earthly_branches|, |heavenly_stems|, and |kanshi|.
+    Values are JSON strings of U+0020 SPACE character separated list
+    of the |name| value of the items in the collection denoted by the
+    corresponding names.
+
+* Structure of [description] objects
+
+In this data file, a [description] object is a JSON object with
+following name/value pairs, representing a target:
+
+  ja_kun [string]
+
+    The primary Japanese kun-yomi (訓読み) reading of the target,
+    written in Hiragana.
+
+  ja_kun_latn [string]
+
+    The Latin transliteration of the |ja_kun| value.
+
+  ja_on [string]
+
+    The primary Japanese on-yomi (音読み) reading of the target,
+    written in Hiragana.
+
+  ja_on_latn [string]
+
+    The Latin transliteration of the |ja_on| value.
+
+  kr [string]
+
+    The Korean name of the target in Hangul.
+
+  kr_latn [string]
+
+    The Latin transliteration of the |kr| value.
+
+  manchu [string]
+
+    The Manchu name of the target.
+
+  manchu_latn [string]
+
+    The Latin transliteration of the |manchu| value.
+
+  name [string]
+
+    The word representing the target, in CJK ideographs.
+
+  value [integer]
+
+    The numerical value of the target (1-indexed, i.e. the /i/-th item
+    in the array has the |value| of /i/ + 1).
+
+  vi [string]
+
+    The Vietnamese name of the target.
+
+  wref_ja [string]
+
+    A Wikipedia reference
+    <https://github.com/geocol/data-jp-transport/blob/master/doc/datatypes.txt>
+    for the Japanese Wikipedia article on the target.
+
+* Sources
+
+Celestial stem - Wikipedia, the free encyclopedia
+<https://en.wikipedia.org/wiki/Celestial_stem>.
+
+十干 - Wikipedia <https://ja.wikipedia.org/wiki/%E5%8D%81%E5%B9%B2>.
+
+Earthly Branches - Wikipedia, the free encyclopedia
+<https://en.wikipedia.org/wiki/Earthly_Branches>.
+
+十二支 - Wikipedia
+<https://ja.wikipedia.org/wiki/%E5%8D%81%E4%BA%8C%E6%94%AF>.
+
+Sexagenary cycle - Wikipedia, the free encyclopedia
+<https://en.wikipedia.org/wiki/Sexagenary_cycle>.
+
+干支 - Wikipedia <https://ja.wikipedia.org/wiki/%E5%B9%B2%E6%94%AF>.
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of this file.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON files and this
+document has waived all copyright and related or neighboring rights to
+the JSON files and this document.

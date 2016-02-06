@@ -10,6 +10,9 @@ See documentations for details in doc/ directory.
     data/langs/locale-names.json
     doc/langs-plurals.txt              Plural rules
     data/langs/plurals.json
+  Numbers
+    doc/numbers-kanshi.txt             Kanshi
+    data/numbers/kanshi.json
   Calendars and eras
     doc/datetime-gregorian.txt         Gregorian calendar
     data/datetime/gregorian.json
@@ -43,7 +46,13 @@ See documentations for details in doc/ directory.
 
 List of language tags or codes, country codes, and currency codes, as
 well as data on character encodings and character references used on
-the Web, are contained in <https://github.com/manakai/data-web-defs>.
+the Web, are contained in the data-web-defs repository
+<https://github.com/manakai/data-web-defs>.
+
+Properties of characters (e.g. number values of characters used as
+digits), sets and maps of characters, and other character related data
+are contained in the data-chars repository
+<https://github.com/manakai/data-chars>.
 
 * Author
 

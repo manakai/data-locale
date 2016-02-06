@@ -136,3 +136,8 @@ See also langtags.json in the data-web-defs repository
 
 You are granted a license to use, reproduce and create derivative
 works of this file.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON files and this
+document has waived all copyright and related or neighboring rights to
+the JSON files and this document.

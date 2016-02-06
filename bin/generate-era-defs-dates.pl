@@ -24,17 +24,13 @@ sub jd2g_ymd ($) {
 require POSIX;
 sub jd2j_ymd ($) {
   my $jd = $_[0];
-  my $mjd = $jd - 2400000.5;
-  my $n = $mjd + 678883;
-  my $e = 4 * $n + 3;
-  my $h = 5 * POSIX::floor ( ($e % 1461) / 4 ) + 2;
-  my $D = POSIX::floor (($h % 153) / 5) + 1;
-  my $M = POSIX::floor ($h / 153) + 3;
-  my $Y = POSIX::floor ($e / 1461);
-  if ($M > 12) {
-    $M -= 12;
-    $Y++;
-  }
+  my $c = POSIX::floor ($jd + 0.5) + 32082;
+  my $d = POSIX::floor ((4*$c + 3) / 1461);
+  my $e = $c - POSIX::floor (1461 * $d / 4);
+  my $m = POSIX::floor ((5*$e + 2) / 153);
+  my $D = $e - POSIX::floor ((153*$m + 2) / 5) + 1;
+  my $M = $m + 3 - 12 * POSIX::floor ($m / 10);
+  my $Y = $d - 4800 + POSIX::floor ($m / 10);
   return ($Y, $M, $D);
 } # jd2j_ymd
 
