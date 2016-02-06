@@ -1,0 +1,27 @@
+data/calendar/map-jd-*.txt
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These files are date mapping files
+<https://manakai.github.io/spec-datetime/#date-mapping-file> from all
+the Julian Day Number (JDN) integers in the range [1000000, 2525000]
+to dates in calendars.
+
+  data/calendar/map-jd-gregorian.txt
+
+    Mapping to the Gregorian date strings
+    <https://manakai.github.io/spec-datetime/#gregorian-date-string>.
+
+  data/calendar/map-jd-julian.txt
+
+    Mapping to the Julian date strings
+    <https://manakai.github.io/spec-datetime/#julian-date-string>.
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of these files.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON files and this
+document has waived all copyright and related or neighboring rights to
+the JSON files and this document.
