@@ -122,6 +122,7 @@ name 公元紀年
 name_cn 公元
 name 西暦紀元
 name キリスト紀元
+name 共通紀元
 name 耶蘇紀元
 wref_zh 公元
 wref_ja 西暦
@@ -229,7 +230,71 @@ name 주체력
 name 主体暦
 name 主體年號
 name 主體曆
+name 主体紀元
 wref_ko 주체연호
 wref_ja 主体暦
 AD1912 = 1
 sw 主体暦
+
+def[越南民主共和]
+name_vi Việt Nam Dân chủ Cộng hòa
+name_ja 越南民主共和
+name_kana えつなんみんしゅきょうわ
+wref_ja 越南民主共和
+AD1945 = 1
+sw 越南民主共和
+#vi
+
+def[越南共和]
+name_vi Việt Nam Cộng hòa
+name_ja 越南共和
+name_kana えつなんきょうわ
+wref_ja 越南共和
+AD1955 = 1
+#vi
+
+def[皇清]
+name_ja 皇清
+name_kana こうしん
+wref_ja 皇清
+AD1982 = 1
+#cn
+
+def[正坤]
+name_ja 正坤
+name_kana せいこん
+wref_ja 正坤
+AD1986 = 1
+# 1-3
+#cn
+
+def[太平(乙丑曽応龍)]
+name_ja 太平
+name_kana たいへい
+wref_ja 太平_(曽応龍)
+AD1985 = 1
+#cn
+
+def[頂古永和]
+name_ja 頂古永和
+name_kana ていこえいわ
+wref_ja 頂古永和
+AD1991 = 1
+#cn
+
+[永和(辛丑)]
+wref_ja 永和_(朱一貴)
+[光明]
+name_ja 光明
+wref_ja 光明_(蔡牽)
+name_kana こうめい
+#tw Kong-bêng
+#1-5
+#tw
+
+[大順(段鋹)]
+name 大順平定
+name_kana たいじゅん
+name_kana たいじゅんへいてい
+wref_ja 大順平定
+AD1520 = 1

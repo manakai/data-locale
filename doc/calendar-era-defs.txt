@@ -162,6 +162,10 @@ The file contains a JSON object with following name/value pairs:
         The name of the era in Traditional Chinese as written in
         Taiwan, if known.
 
+      name_vi [string?]
+
+        The name of the era in Vietnamese, if known.
+
       offset [integer?]
 
         The offset of the first year from the year AD1, if known.  The
