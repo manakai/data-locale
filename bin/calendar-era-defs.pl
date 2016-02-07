@@ -517,6 +517,8 @@ for my $path (
       my $g_year = $1 eq 'BC' ? 0 - $2 : $2;
       my $e_year = $3;
       $Data->{eras}->{$key}->{offset} = $g_year - $e_year;
+    } elsif (defined $key and /^(sw)\s+(.+)$/) {
+      $Data->{eras}->{$key}->{suikawiki} = $2;
     } elsif (/\S/) {
       die "Bad line |$_|";
     }
@@ -563,7 +565,7 @@ for my $name (keys %{$Data->{name_conflicts}}) {
     $is_number->{$_} = 1 unless $_ eq ' ';
   }
   $is_number->{$_} = 1 for qw(元 初 末 前 中 後); # 元年, 初年, 初期, 前半, ...
-  $is_number->{$_} = 1 for qw(年 月 日 時 分 秒 世 紀 星 期 旬 半);
+  $is_number->{$_} = 1 for qw(年 載 歳 月 日 時 分 秒 世 紀 星 期 旬 半);
   my $number_pattern = join '|', map { quotemeta $_ } keys %$is_number;
   for my $data (values %{$Data->{eras}}) {
     for (keys %{$data->{names}}) {

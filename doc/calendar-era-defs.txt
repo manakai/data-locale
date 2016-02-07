@@ -191,6 +191,12 @@ The file contains a JSON object with following name/value pairs:
 
             The URL of the source document.
 
+      suikawiki [string?]
+
+        The name of the SuikaWiki article on the era, if any.  It can
+        be converted to a URL by percent-encoding and then appending
+        to <https://wiki.suikawiki.org/n/>.
+
       wref_en [string?]
 
         A Wikipedia reference

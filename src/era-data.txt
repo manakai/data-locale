@@ -126,11 +126,24 @@ name 耶蘇紀元
 wref_zh 公元
 wref_ja 西暦
 AD1 = 1
+sw 西暦
 
 [崇禎]
 name 崇禎紀元
 #wref_ja 崇禎紀元
 AD1628 = 1
+
+def[監国魯]
+name 監国魯
+name 監国
+name 魯監国
+name 魯王監国
+wref_ja 監国魯
+wref_zh 庚寅_(年号)
+sw 監国魯
+#AD1645 = 1
+AD1646 = 1
+#AD1647 = 1
 
 [神武天皇]
 name 神武天皇即位紀元
@@ -142,6 +155,7 @@ name 神武暦
 name 日紀
 #wref_ja 神武天皇即位紀元
 wref_zh 皇纪
+sw 神武天皇即位紀元
 
 def[開國]
 name 開國
@@ -154,6 +168,7 @@ name 大朝鮮
 wref_ja 開国_(李氏朝鮮)
 wref_ko 개국_(조선)
 AD1392 = 1
+sw 開国年号
 
 def[黃帝紀元]
 name_tw 黃帝紀元
@@ -164,6 +179,7 @@ name 黄紀
 wref_zh 黄帝纪元
 wref_ja 黄帝紀元
 AD1911 = 4609
+sw 黄帝紀元
 
 def[中華民國]
 name_tw 中華民國
@@ -183,6 +199,7 @@ name 国暦
 wref_ja 民国紀元
 wref_zh 民國紀年
 AD1912 = 1
+sw 民国紀元
 
 def[대한민국]
 name_ko 대한민국
@@ -215,3 +232,4 @@ name 主體曆
 wref_ko 주체연호
 wref_ja 主体暦
 AD1912 = 1
+sw 主体暦

@@ -40,7 +40,7 @@ BC29 垂仁天皇 すいにんてんのう Suinin-tennō
 655 斉明天皇 さいめいてんのう Saimei-tennō
 662 天智天皇 てんじてんのう Tenji-tennō
 
-671 弘文天皇 こうぶんてんのう Kōbun-tennō
+672 弘文天皇 こうぶんてんのう Kōbun-tennō
 
 672 天武天皇 てんむてんのう Tenmu-tennō
 
