@@ -511,6 +511,7 @@ for my $path (
     } elsif (defined $key and /^(name(?:_ja|_en|_cn|_tw|_ko|_vi|_kana|_abbr|))\s+(.+)$/) {
       $Data->{eras}->{$key}->{$1} ||= $2;
       $Data->{eras}->{$key}->{$1} = $2 unless $1 eq 'name';
+      $Data->{eras}->{$key}->{name} ||= $2 unless $1 eq 'name';
       $Data->{eras}->{$key}->{names}->{$2} = 1;
       $Data->{eras}->{$key}->{name_kanas}->{$2} = 1 if $1 eq 'name_kana';
       expand_name $Data->{eras}->{$key}, $2;

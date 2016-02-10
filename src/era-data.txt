@@ -124,10 +124,22 @@ name 西暦紀元
 name キリスト紀元
 name 共通紀元
 name 耶蘇紀元
+name 西
+name 西元
 wref_zh 公元
 wref_ja 西暦
 AD1 = 1
 sw 西暦
+
+def[共和]
+name_ja 共和
+name_cn 共和
+name_kana きょうわ
+wref_ja 共和_(周)
+wref_zh 共和_(西周)
+wref_en Gonghe_Regency
+BC841 = 1
+sw 共和
 
 [崇禎]
 name 崇禎紀元
@@ -182,6 +194,28 @@ wref_ja 黄帝紀元
 AD1911 = 4609
 sw 黄帝紀元
 
+[共戴]
+name 共戴紀元
+name 共戴
+name 共載
+name_kana きょうたい
+name_kana きょうたいきげん
+wref_ja 共戴紀元
+
+def[モンゴル国]
+name モンゴル国
+name モンゴル国紀元
+wref_ja 共戴紀元
+AD1924 = 14
+sw モンゴル国紀元
+
+def[モンゴル人民共和国]
+name モンゴル人民共和国
+name モンゴル人民共和国紀元
+wref_ja 共戴紀元
+AD1941 = 31
+sw モンゴル人民共和国紀元
+
 def[中華民國]
 name_tw 中華民國
 name_cn 中华民国
@@ -203,6 +237,7 @@ AD1912 = 1
 sw 民国紀元
 
 def[대한민국]
+name 大韓民國
 name_ko 대한민국
 name_ja 大韓民国
 name_tw 大韓民國
@@ -240,9 +275,17 @@ def[越南民主共和]
 name_vi Việt Nam Dân chủ Cộng hòa
 name_ja 越南民主共和
 name_kana えつなんみんしゅきょうわ
+name nam
 wref_ja 越南民主共和
 AD1945 = 1
 sw 越南民主共和
+#vi
+
+def[共和社会主義越南]
+name_ja 共和社会主義越南
+wref_ja 元号
+AD1945 = 1
+sw 共和社会主義越南
 #vi
 
 def[越南共和]
@@ -298,3 +341,28 @@ name_kana たいじゅん
 name_kana たいじゅんへいてい
 wref_ja 大順平定
 AD1520 = 1
+
+[征和]
+name_ja 征和
+name_kana せいわ
+wref_ja 征和
+
+[治平(辛卯)]
+name_ja 治平
+name 太平
+name_kana ちへい
+wref_ja 治平_(徐寿輝)
+
+def[保慶]
+name_ja 保慶
+name_kana ほけい
+wref_ja 保慶
+AD1899 = 1
+wref_ko 보경
+
+def[福聖]
+name 福聖
+wref_zh 福聖
+def[承道]
+name 承道
+wref_zh 承道
