@@ -508,6 +508,10 @@ for my $path (
       $prop->{$1} = $2;
     } elsif (defined $key and /^(wref_(?:ja|zh|en|ko))\s+(.+)$/) {
       $Data->{eras}->{$key}->{$1} = $2;
+    } elsif (defined $key and /^(name)\s*:=\s*(\S+)$/) {
+      $Data->{eras}->{$key}->{$1} = $2;
+      $Data->{eras}->{$key}->{names}->{$2} = 1;
+      expand_name $Data->{eras}->{$key}, $2;
     } elsif (defined $key and /^(name(?:_ja|_en|_cn|_tw|_ko|_vi|_kana|_abbr|))\s+(.+)$/) {
       $Data->{eras}->{$key}->{$1} ||= $2;
       $Data->{eras}->{$key}->{$1} = $2 unless $1 eq 'name';
@@ -566,8 +570,8 @@ for my $name (keys %{$Data->{name_conflicts}}) {
   for (split //, $json2->{name_lists}->{kanshi}) {
     $is_number->{$_} = 1 unless $_ eq ' ';
   }
-  $is_number->{$_} = 1 for qw(元 初 末 前 中 後); # 元年, 初年, 初期, 前半, ...
-  $is_number->{$_} = 1 for qw(年 載 歳 月 日 時 分 秒 世 紀 星 期 旬 半);
+  $is_number->{$_} = 1 for qw(元 正 𠙺 端 冬 臘 腊 初 𡔈 末 前 中 後 建 閏); # 元年, 正月, 初七日, 初年, 初期, 前半, ...
+  $is_number->{$_} = 1 for qw(年 𠡦 𠦚 載 𡕀 𠧋 歳 月 囝 日 𡆠 時 分 秒 世 紀 星 期 曜 旬 半 火 水 木 金 土);
   my $number_pattern = join '|', map { quotemeta $_ } keys %$is_number;
   for my $data (values %{$Data->{eras}}) {
     for (keys %{$data->{names}}) {

@@ -366,3 +366,72 @@ wref_zh 福聖
 def[承道]
 name 承道
 wref_zh 承道
+
+def[正永]
+name 正永
+name_kana しょうえい
+#858-870
+AD858 = 1
+wref_ja 正永_(渤海)
+
+def[寛明]
+name 寛明
+name_kana かんめい
+#872-893
+AD872 = 1
+wref_ja 寛明_(渤海)
+
+def[慶成]
+name 慶成
+name_kana けいせい
+#894-906
+AD894 = 1
+wref_ja 慶成_(渤海)
+
+def[文徳(丁未)]
+name 文徳
+name_kana ぶんとく
+#907-926
+AD907 = 1
+wref_ja 文徳_(渤海)
+
+[天授(庚寅)]
+name := 𠀑𥢓
+name 𠀑授
+name_ja 天授
+name_kana てんじゅ
+wref_ja 天授_(武周)
+
+[延載]
+name := 延𠧋
+name_ja 延載
+name_kana えんさい
+wref_ja 延載
+
+[証聖]
+name := 𨭻𨲢
+name_ja 証聖
+name_kana しょうせい
+name 證聖
+wref_ja 証聖
+
+[天冊萬歲]
+name := 𠀑冊萬歲
+name_ja 天冊万歳
+name_kana てんさくばんざい
+name_kana てんさつばんざい
+wref_ja 天冊万歳
+
+[萬歲通天]
+name := 萬歲通𠀑
+name 万歳通𠀑
+name_ja 万歳通天
+name_kana ばんざいつうてん
+wref_ja 万歳通天
+
+[聖曆]
+name := 𨲢曆
+name 𨲢暦
+name_ja 聖暦
+name_kana せいれき
+wref_ja 聖暦
