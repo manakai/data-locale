@@ -48,8 +48,8 @@ PERL = ./perl
 
 data: data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json \
     data/calendar/kyuureki-genten.json \
-    data/calendar/kyuureki-sansei.json \
     data/calendar/kyuureki-shoki-genten.json \
+    data/calendar/kyuureki-sources.json \
     data/datetime/durations.json data/datetime/gregorian.json \
     data/datetime/weeks.json data/datetime/months.json \
     data/datetime/seconds.json \
@@ -83,7 +83,10 @@ data/calendar/kyuureki-genten.json: bin/calendar-kyuureki-genten.pl
 	mv tables/genten-data.json $@
 data/calendar/kyuureki-shoki-genten.json: bin/calendar-kyuureki-shoki-genten.pl
 	$(PERL) $< > $@
-data/calendar/kyuureki-sansei.json: bin/calendar-kyuureki-sansei.pl
+local/kyuureki-sansei.json: bin/calendar-kyuureki-sansei.pl
+	$(PERL) $< > $@
+data/calendar/kyuureki-sources.json: bin/calendar-kyuureki-sources.pl \
+    local/kyuureki-sansei.json
 	$(PERL) $< > $@
 
 local/wp-jp-eras.html:

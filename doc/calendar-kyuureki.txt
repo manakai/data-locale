@@ -115,19 +115,30 @@ The file contains a JSON object with following name/value pairs:
 
         Whether there is some note for the date or not.
 
-* kyuureki-sansei
+* kyuureki-sources.json
 
-The |data/calendar/kyuureki-sansei.json| file contains some data from
-三正綜覧.
+The |data/calendar/kyuureki-sources.json| file contains some data from
+various kyuureki tables and studies.
 
-The file contains a JSON object with following name/value pair:
+The file contains a JSON object with following name/value pairs, where
+names identify sources and values are JSON objects containing
+following name/value pair, describing the corresponding sources:
 
-  mapping [object]
+  map [object]
 
-    Some of mapping data between Gregorian and Kyuureki days from 三正
-    綜覧.  Note also that this object contains only a few mapping
-    data.  Names are Gregorian date strings and values are
-    corresponding Kyuureki date strings.
+    Some of mapping data between Gregorian and Kyuureki days from the
+    source.  Note also that this object contains only a few mapping
+    data.  Names are kyuureki date strings and values are
+    corresponding Gregorian date strings.
+
+There are following top-level keys, identifying sources:
+
+  c67   <https://wiki.suikawiki.org/n/%E8%BE%B2%E6%9A%A6#anchor-67>
+  j106  <https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6$20368#anchor-106>
+  j245-actual "便覧" from <https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6$20368#anchor-245>
+  j245-computed "推算" from <https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6$20368#anchor-245>
+  j246  <https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6$20368#anchor-246>
+  j247  <https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6$20368#anchor-247>
 
 * kyuureki-diff*
 
