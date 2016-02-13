@@ -17,6 +17,92 @@ my $Input = {};
   }
 }
 
+my @x = qw(
+  j177 1433-08-01
+  j177 1433-09-01
+  j209 1951-01-01
+  j209 1954-01-01
+  j209 1958-01-01
+  j209 1966-01-01
+  j209 1988-01-01
+  j209 1997-01-01
+  156 1947-02-01
+  156 1947-02'-01
+  156 1947-03-01
+  156 1947-03'-01
+  156 1947-04-01
+  156 1969-06-01
+  156 1969-07-01
+  156 1969-07'-01
+  156 1896-01-01
+  156 1896-02-01
+  156 1896-03-01
+  156 1896-04-01
+  156 1896-05-01
+  156 1896-06-01
+  156 1896-07-01
+  156 1896-08-01
+  156 1896-09-01
+  156 1896-10-01
+  156 1896-11-01
+  156 1910-01-01
+  156 1910-02-01
+  156 1910-03-01
+  156 1910-04-01
+  156 1910-05-01
+  156 1910-06-01
+  156 1910-07-01
+  156 1910-08-01
+  156 1910-09-01
+  156 1910-10-01
+  156 1910-11-01
+  156 1910-12-01
+  156 1911-06'-01
+  156 1911-07-01
+  156 1911-08-01
+  156 1911-09-01
+  156 1911-10-01
+  156 1911-11-01
+  156 1911-12-01
+  156 1914-09-01 156 1914-10-01
+  156 1918-10-01 156 1918-11-01
+  156 1924-01-01 156 1924-02-01
+  156 1924-11-01 156 1924-12-01
+  156 1925-07-01 156 1925-08-01
+  156 1933-05-01 156 1933-06-01
+  156 1934-08-01 156 1934-09-01
+  156 1936-02-01 156 1936-03-01
+  156 1936-12-01 156 1937-01-01
+  156 1944-03'-01
+  156 1944-04-01
+  156 1944-04'-01
+  156 1944-05-01
+  156 1944-10-01 156 1944-11-01
+  156 1946-11-01 156 1946-12-01
+  j196 0790-02-01 j196 0790-03-01
+  j196 0791-04-01 j196 0791-05-01
+  j196 0807-09-01 j196 0807-10-01
+  j196 0810-10-01 j196 0810-11-01
+  j196 0818-04-01 j196 0818-05-01
+  j196 0823-09-01 j196 0823-10-01
+  j181 1623-07-01 j181 1623-08-01
+  j174 0756-04-01 j174 0756-05-01
+  j174 1272-01-01 j174 1272-02-01
+  j82  1617-06-01
+  j78  1582-12-01
+  j78  1582-12'-01
+  j78  1583-01-01
+  j78  1583-01'-01
+  j52  1884-04-01
+  j52  1908-09-01
+);
+while (@x) {
+  my $key = shift @x;
+  my $k = shift @x;
+  $Data->{$key}->{partial} = 1;
+  $Data->{$key}->{notes}->{$k}->{misc_note} = 1;
+}
+
 $Input->{j245} = q{
 ## <http://fomalhautpsa.sakura.ne.jp/Science/OgawaKiyohiko/senmyoreki.pdf>
 
@@ -107,9 +193,9 @@ $Input->{j245} = q{
 1336 3 戊申 d d d 丁未
 1344 1 癸亥 d d d 壬戌
 1395 12 辛卯 d d d 庚寅
-1433 8 辛巳 - - - 辛巳
+#1433 8 辛巳 d d d 辛巳
 1433 9 辛巳 d d d 庚辰
-1433 10 庚戌 - - - 庚戌
+1433 10 庚戌 d d d 庚戌
 
 *    *   推算 長暦 通暦 便覧
 1468 10  丁亥 d    d    d
@@ -168,7 +254,7 @@ $Input->{j245} = q{
 1243 9   甲辰 d    d    d
 
 *    *   推算 長暦 通暦 三正 便覧
-1281 7   甲子 d    d    d    d
+1281 7   甲子 d    -    -    -
 1281 7'  -    -    甲子 d    d
 1281 8   甲子 d    癸巳 d    甲午
 1281 8'  甲午 d    -    -    -
@@ -425,7 +511,8 @@ sub ymd_to_string (@) {
 } # ymd_to_string
 
 for my $key (keys %$Input) {
-  my $data = {};
+  my $data = $Data->{$key} ||= {};
+  $data->{partial} = 1;
   my $day;
   my $col1;
   my $col2;
@@ -486,18 +573,29 @@ for my $key (keys %$Input) {
       $col3 = undef;
       $col4 = undef;
       $col5 = undef;
+      $Data->{$col1}->{partial} = 1;
+      $Data->{$col2}->{partial} = 1;
     } elsif (/^\*\s+\*\s+([\w-]+)\s+([\w-]+)\s+([\w-]+)\s+([\w-]+)$/) {
       $col1 = $key_map->{$1} // $1;
       $col2 = $key_map->{$2} // $2;
       $col3 = $key_map->{$3} // $3;
       $col4 = $key_map->{$4} // $4;
       $col5 = undef;
+      $Data->{$col1}->{partial} = 1;
+      $Data->{$col2}->{partial} = 1;
+      $Data->{$col3}->{partial} = 1;
+      $Data->{$col4}->{partial} = 1;
     } elsif (/^\*\s+\*\s+([\w-]+)\s+([\w-]+)\s+([\w-]+)\s+([\w-]+)\s+([\w-]+)$/) {
       $col1 = $key_map->{$1} // $1;
       $col2 = $key_map->{$2} // $2;
       $col3 = $key_map->{$3} // $3;
       $col4 = $key_map->{$4} // $4;
       $col5 = $key_map->{$5} // $5;
+      $Data->{$col1}->{partial} = 1;
+      $Data->{$col2}->{partial} = 1;
+      $Data->{$col3}->{partial} = 1;
+      $Data->{$col4}->{partial} = 1;
+      $Data->{$col5}->{partial} = 1;
     } elsif (/^([0-9]+)\s+([0-9]+)('|)\s+([\w-]+)\s+([\w-]+)(?:\s+([\w-]+)|)(?:\s+([\w-]+)|)(?:\s+([\w-]+)|)$/) {
       my $k_y = $1;
       my $k_m = $2;
@@ -513,7 +611,8 @@ for my $key (keys %$Input) {
         if (defined $Data->{"$col1"}->{map}->{$k}) {
           warn "Duplicate $col1 $k";
         } else {
-          $Data->{"$col1"}->{map}->{$k} = $g;
+          $Data->{$col1}->{map}->{$k} = $g;
+          $Data->{$key}->{notes}->{$k}->{misc_note} = 1;
         }
       }
       unless ($kanshi2 eq '-') {
@@ -523,7 +622,8 @@ for my $key (keys %$Input) {
         if (defined $Data->{"$col2"}->{map}->{$k}) {
           warn "Duplicate $col2 $k";
         } else {
-          $Data->{"$col2"}->{map}->{$k} = $g;
+          $Data->{$col2}->{map}->{$k} = $g;
+          $Data->{$key}->{notes}->{$k}->{misc_note} = 1;
         }
       }
       unless ($kanshi3 eq '-') {
@@ -533,7 +633,8 @@ for my $key (keys %$Input) {
         if (defined $Data->{"$col3"}->{map}->{$k}) {
           warn "Duplicate $col3 $k";
         } else {
-          $Data->{"$col3"}->{map}->{$k} = $g;
+          $Data->{$col3}->{map}->{$k} = $g;
+          $Data->{$key}->{notes}->{$k}->{misc_note} = 1;
         }
       }
       unless ($kanshi4 eq '-') {
@@ -543,7 +644,8 @@ for my $key (keys %$Input) {
         if (defined $Data->{"$col4"}->{map}->{$k}) {
           warn "Duplicate $col4 $k";
         } else {
-          $Data->{"$col4"}->{map}->{$k} = $g;
+          $Data->{$col4}->{map}->{$k} = $g;
+          $Data->{$key}->{notes}->{$k}->{misc_note} = 1;
         }
       }
       unless ($kanshi5 eq '-') {
@@ -553,7 +655,8 @@ for my $key (keys %$Input) {
         if (defined $Data->{"$col5"}->{map}->{$k}) {
           warn "Duplicate $col5 $k";
         } else {
-          $Data->{"$col5"}->{map}->{$k} = $g;
+          $Data->{$col5}->{map}->{$k} = $g;
+          $Data->{$key}->{notes}->{$k}->{misc_note} = 1;
         }
       }
     } elsif (/^([\w-]+)\s+:=\s+([\w-]+)$/) {
@@ -563,7 +666,6 @@ for my $key (keys %$Input) {
       die "Bad line |$_|";
     }
   }
-  $Data->{$key} = $data;
 } # $key
 
 print perl2json_bytes_for_record $Data;

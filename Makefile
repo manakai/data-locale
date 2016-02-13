@@ -86,7 +86,7 @@ data/calendar/kyuureki-shoki-genten.json: bin/calendar-kyuureki-shoki-genten.pl
 local/kyuureki-sansei.json: bin/calendar-kyuureki-sansei.pl
 	$(PERL) $< > $@
 data/calendar/kyuureki-sources.json: bin/calendar-kyuureki-sources.pl \
-    local/kyuureki-sansei.json
+    local/kyuureki-sansei.json data/calendar/kyuureki-map.txt
 	$(PERL) $< > $@
 
 local/wp-jp-eras.html:

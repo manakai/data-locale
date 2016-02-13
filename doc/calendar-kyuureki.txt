@@ -4,14 +4,6 @@ calendar/kyuureki-*
 These files contain descriptions of kyuureki (旧暦), i.e. Japanese
 classic calendar.
 
-* Data types
-
-Gregorian date string
-<https://manakai.github.io/spec-datetime/#gregorian-date-string>
-
-Kyuureki date string
-<https://manakai.github.io/spec-datetime/#kyuureki-date-string>.
-
 * kyuureki-map
 
 The |data/calendar/kyuureki-map.txt| file is a date mapping file
@@ -64,32 +56,9 @@ The file contains a JSON object with following name/value pairs:
     Gregorian date strings and values are corresponding kyuureki date
     strings.
 
-  notes [object]
+  notes [notes-object]
 
-    List of annotations in the table of 日本暦日原典.  Names are
-    kyuureki date strings and values are objects with following
-    name/value pairs:
-
-      might_be_advanced [boolean]
-
-        進朔の可能性が強いが日本暦日原典では進朔していない。
-
-      misc_note [boolean]
-
-        その他の注釈。
-
-      use_computed_value [boolean]
-
-        議論の余地があるものの、日本暦日原典では原則通りの計算値を
-        採用している。
-
-      use_fixed_value [boolean]
-
-        日本暦日原典で計算値でなく修正値を採用している。
-
-      vary_by_algorithm [boolean]
-
-        採用する計算方法により計算値が異なる。
+    List of annotations in the table of 日本暦日原典.
 
 * kyuureki-shoki-genten
 
@@ -105,15 +74,9 @@ The file contains a JSON object with following name/value pairs:
     mapping data.  Names are Gregorian date strings and values are
     corresponding kyuureki date strings.
 
-  notes [object]
+  notes [notes-object]
 
-    List of annotations in the table of 日本書紀暦日原典.  Names are
-    kyuureki date strings and values are objects with following
-    name/value pair:
-
-      has_note [boolean]
-
-        Whether there is some note for the date or not.
+    List of annotations in the table of 日本書紀暦日原典.
 
 * kyuureki-sources.json
 
@@ -131,14 +94,21 @@ following name/value pair, describing the corresponding sources:
     data.  Names are kyuureki date strings and values are
     corresponding Gregorian date strings.
 
+  notes [notes-object]
+
+    List of annotations for the source.
+
+  partial [boolean]
+
+    A [boolean] true value, which represents that the |map| does not
+    contain all dates in the range.
+
 There are following top-level keys, identifying sources:
 
-  c67   <https://wiki.suikawiki.org/n/%E8%BE%B2%E6%9A%A6#anchor-67>
-  j106  <https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6$20368#anchor-106>
+  c/n/  <https://wiki.suikawiki.org/n/%E8%BE%B2%E6%9A%A6#anchor-/n/>
+  j/n/  <https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6$20368#anchor-/n/>
   j245-actual "便覧" from <https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6$20368#anchor-245>
   j245-computed "推算" from <https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6$20368#anchor-245>
-  j246  <https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6$20368#anchor-246>
-  j247  <https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6$20368#anchor-247>
 
 * kyuureki-diff*
 
@@ -150,6 +120,43 @@ The |data/calendar/kyuureki-diff-all.html| and
 visualizations.
 
 See SuikaWiki:旧暦 for more information on data sources.
+
+* Data types
+
+Gregorian date string
+<https://manakai.github.io/spec-datetime/#gregorian-date-string>
+
+Kyuureki date string
+<https://manakai.github.io/spec-datetime/#kyuureki-date-string>.
+
+Type [notes-object] represents a JSON object containing (existence of)
+notes from the relevant source document.  Names are kyuureki date
+strings and values are objects with following name/value pairs:
+
+  has_note [boolean]
+
+    Whether there is some note for the date or not.
+
+  might_be_advanced [boolean]
+
+    進朔の可能性が強いが日本暦日原典では進朔していない。
+
+  misc_note [boolean]
+
+    Any other annotation.
+
+  use_computed_value [boolean]
+
+    議論の余地があるものの、日本暦日原典では原則通りの計算値を採用して
+    いる。
+
+  use_fixed_value [boolean]
+
+    日本暦日原典で計算値でなく修正値を採用している。
+
+  vary_by_algorithm [boolean]
+
+    採用する計算方法により計算値が異なる。
 
 * Sources
 
