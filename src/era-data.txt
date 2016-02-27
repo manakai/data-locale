@@ -126,6 +126,8 @@ name 共通紀元
 name 耶蘇紀元
 name 西
 name 西元
+name 学暦
+name 学
 wref_zh 公元
 wref_ja 西暦
 AD1 = 1
