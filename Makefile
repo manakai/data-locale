@@ -14,7 +14,7 @@ update-submodules:
 	$(GIT) add config
 
 dataautoupdate: clean all
-	$(GIT) add data
+	$(GIT) add data intermediate
 
 ## ------ Setup ------
 
@@ -139,8 +139,10 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     src/jp-private-eras.txt src/era-variants.txt \
     src/wp-cn-eras.json src/era-china-dups.txt local/number-values.json \
     src/era-viet.txt src/era-korea.txt src/era-tw.txt \
-    data/calendar/era-systems.json data/numbers/kanshi.json
+    data/calendar/era-systems.json data/numbers/kanshi.json \
+    intermediate/era-ids.json
 	$(PERL) $< > $@
+#intermediate/era-ids.json: data/calendar/era-defs.json
 
 day-era-maps: \
     data/calendar/day-era/map-jp.txt \

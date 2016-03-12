@@ -588,6 +588,27 @@ for my $data (values %{$Data->{eras}}) {
   }
 }
 
+{
+  my $path = $root_path->child ('intermediate/era-ids.json');
+  my $map = json_bytes2perl $path->slurp;
+  my @need_id;
+  my $max_id = 0;
+  for my $data (sort { $a->{key} cmp $b->{key} } values %{$Data->{eras}}) {
+    my $id = $map->{$data->{key}};
+    if (defined $id) {
+      $data->{id} = $id;
+      $max_id = $id if $max_id < $id;
+    } else {
+      #push @{$Data->{_errors} ||= []}, "ID for key |$data->{key}| not defined";
+      push @need_id, $data;
+    }
+  }
+  for (@need_id) {
+    $map->{$_->{key}} = $_->{id} = ++$max_id;
+  }
+  $path->spew (perl2json_bytes_for_record $map) if @need_id;
+}
+
 print perl2json_bytes_for_record $Data;
 
 ## License: Public Domain.

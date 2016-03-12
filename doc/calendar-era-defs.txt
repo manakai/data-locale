@@ -82,6 +82,11 @@ The file contains a JSON object with following name/value pairs:
         Whether the era is a Chinese era used in Okinawa (Ryuukyuu)
         area of Japan.
 
+      id [integer]
+
+        The ID, which is a positive integer, uniquely assigned to the
+        era.
+
       jp_emperor_era [boolean]
 
         Whether the era is used to represent years where no 元号 was

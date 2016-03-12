@@ -104,7 +104,11 @@ wref_ja 自由自治
 [征露]
 wref_ja 征露
 [核時代]
+name 核時代
+name 核時代後
+name ヒロシマ紀元
 wref_ja 核時代
+sw 核時代
 [霊寿]
 wref_ja 璽宇
 
@@ -168,6 +172,7 @@ name 即位紀元
 name 皇暦
 name 神武暦
 name 日紀
+name 日本紀元
 #wref_ja 神武天皇即位紀元
 wref_zh 皇纪
 sw 神武天皇即位紀元
@@ -218,18 +223,31 @@ wref_ja 共戴紀元
 AD1941 = 31
 sw モンゴル人民共和国紀元
 
+def[成吉思汗紀元]
+name 成紀
+name 成吉思汗紀元
+name ジンギス・ハーン紀元
+name ジンギスハーン紀元
+name ジンギスカン紀元
+name チンギスハーン紀元
+name チンギス・ハーン紀元
+sw 成吉思汗紀元
+AD1936 = 731
+
 def[中華民國]
 name_tw 中華民國
 name_cn 中华民国
 name_ja 中華民国
 name 民國
 name 民国
+name 大中華民國
 name_abbr 民
 name 民國紀年
 name 民国纪年
 name 民國紀元
 name 民国紀元
 name 中華民国暦
+name 中華民国紀年
 name 国历
 name 國曆
 name 国暦
@@ -268,6 +286,7 @@ name 主体暦
 name 主體年號
 name 主體曆
 name 主体紀元
+name チュチェ
 wref_ko 주체연호
 wref_ja 主体暦
 AD1912 = 1
