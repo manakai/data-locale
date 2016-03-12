@@ -62,6 +62,10 @@ day
 
 The file contains a JSON object with following name/value pairs:
 
+  current_jp [string]
+
+    The key of the current era used in Japan.
+
   eras [object]
 
     Names are era keys as used in these data files and values are

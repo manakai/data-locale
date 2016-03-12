@@ -241,7 +241,7 @@ name_ja 中華民国
 name 民國
 name 民国
 name 大中華民國
-name_abbr 民
+abbr 民
 name 民國紀年
 name 民国纪年
 name 民國紀元
@@ -287,6 +287,7 @@ name 主體年號
 name 主體曆
 name 主体紀元
 name チュチェ
+name チュチェ暦
 wref_ko 주체연호
 wref_ja 主体暦
 AD1912 = 1
@@ -296,7 +297,7 @@ def[越南民主共和]
 name_vi Việt Nam Dân chủ Cộng hòa
 name_ja 越南民主共和
 name_kana えつなんみんしゅきょうわ
-name nam
+abbr nam
 wref_ja 越南民主共和
 AD1945 = 1
 sw 越南民主共和

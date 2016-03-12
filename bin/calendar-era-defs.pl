@@ -512,7 +512,7 @@ for my $path (
       $Data->{eras}->{$key}->{$1} = $2;
       $Data->{eras}->{$key}->{names}->{$2} = 1;
       expand_name $Data->{eras}->{$key}, $2;
-    } elsif (defined $key and /^(name(?:_ja|_en|_cn|_tw|_ko|_vi|_kana|_abbr|))\s+(.+)$/) {
+    } elsif (defined $key and /^(name(?:_ja|_en|_cn|_tw|_ko|_vi|_kana|)|abbr)\s+(.+)$/) {
       $Data->{eras}->{$key}->{$1} ||= $2;
       $Data->{eras}->{$key}->{$1} = $2 unless $1 eq 'name';
       $Data->{eras}->{$key}->{name} ||= $2 unless $1 eq 'name';
@@ -608,6 +608,8 @@ for my $data (values %{$Data->{eras}}) {
   }
   $path->spew (perl2json_bytes_for_record $map) if @need_id;
 }
+
+$Data->{current_jp} = '平成';
 
 print perl2json_bytes_for_record $Data;
 
