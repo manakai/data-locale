@@ -150,6 +150,11 @@ sw 共和
 [崇禎]
 name 崇禎紀元
 #wref_ja 崇禎紀元
+name 숭정기원
+name 崇禎紀元後
+name 숭정기원후
+name 崇禎後
+name 숭정후
 AD1628 = 1
 
 def[監国魯]
@@ -164,6 +169,18 @@ sw 監国魯
 AD1646 = 1
 #AD1647 = 1
 
+def[蘭芳]
+name_tw 蘭芳
+name_cn 兰芳
+wref_zh 蘭芳共和國
+AD1777 = 1
+#-1846
+
+def[乾興(丙午)]
+name 乾興
+AD1846 = 1
+#-1886
+
 [神武天皇]
 name 神武天皇即位紀元
 name 神武紀元
@@ -173,6 +190,7 @@ name 皇暦
 name 神武暦
 name 日紀
 name 日本紀元
+name 神武皇紀
 #wref_ja 神武天皇即位紀元
 wref_zh 皇纪
 sw 神武天皇即位紀元
@@ -181,9 +199,12 @@ def[開國]
 name 開國
 name_ko 개국
 name_ja 開国
+name_kana かいこく
 name 開国年号
+name 開国紀元
 name 朝鮮開國
 name 大朝鮮國開國
+name 大朝鮮開國
 name 大朝鮮
 wref_ja 開国_(李氏朝鮮)
 wref_ko 개국_(조선)
@@ -256,6 +277,13 @@ wref_zh 民國紀年
 AD1912 = 1
 sw 民国紀元
 
+def[中華共和國]
+name_tw 中華共和國
+name_ja 中華共和国
+sw 中華共和国 (紀年法)
+wref_ja 中華共和国 (年号)
+AD1933 = 1
+
 def[대한민국]
 name 大韓民國
 name_ko 대한민국
@@ -273,6 +301,8 @@ name_ko 단기
 name_ja 檀紀
 name 檀君紀元
 name 단군기원
+name 開天
+name 檀君
 wref_ja 檀紀
 wref_ko 단군기원
 BC2333 = 1
