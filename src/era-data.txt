@@ -103,14 +103,6 @@ wref_ja 大政_(私年号)
 wref_ja 自由自治
 [征露]
 wref_ja 征露
-[核時代]
-name 核時代
-name 核時代後
-name ヒロシマ紀元
-wref_ja 核時代
-sw 核時代
-[霊寿]
-wref_ja 璽宇
 
 
 def[AD]
@@ -136,11 +128,18 @@ wref_zh 公元
 wref_ja 西暦
 AD1 = 1
 sw 西暦
+# e.g. AD 1433
+# e.g. 1433 AD
+# e.g. 442 BC
+# e.g. 442 BCE
 
 def[共和]
 name_ja 共和
 name_cn 共和
 name_kana きょうわ
+name 共和紀年
+name 周召共和
+name 周召共和紀年
 wref_ja 共和_(周)
 wref_zh 共和_(西周)
 wref_en Gonghe_Regency
@@ -195,6 +194,32 @@ name 神武皇紀
 wref_zh 皇纪
 sw 神武天皇即位紀元
 
+def[孔子卒後]
+name 孔子卒後
+name_kana こうしそつご
+name 孔子卒
+name_kana こうしそつ
+name 孔子
+name 孔子紀年
+name_kana こうしきねん
+name 孔子紀元
+name 孔子卒後紀年
+AD1895 = 2373
+wref_ja 孔子紀年
+sw 孔子紀年
+
+def[孔紀]
+name 孔紀
+name_kana こうき
+name 孔子紀年
+name_kana こうしきねん
+name 孔子紀元
+name 孔子生後紀年
+AD1895 = 2446
+wref_ja 孔子紀年
+wref_zh 孔子紀年
+sw 孔子紀年
+
 def[開國]
 name 開國
 name_ko 개국
@@ -216,11 +241,60 @@ name_tw 黃帝紀元
 name_cn 黄帝纪元
 name 軒轅紀年
 name_ja 黄帝紀元
-name 黄紀
+name_kana こうていきげん
+name 黄帝紀年
+name_kana こうていきねん
+abbr 黄紀
+name 黄帝開国即位紀年
 wref_zh 黄帝纪元
 wref_ja 黄帝紀元
-AD1911 = 4609
+AD1904 = 4602
+#AD1911 = 4609
 sw 黄帝紀元
+
+def[黃帝紀元(庚戌)]
+name_tw 黃帝紀元
+name_cn 黄帝纪元
+name_ja 黄帝紀元
+name_kana こうていきげん
+name 黄帝紀年
+name_kana こうていきねん
+name 黄帝生年紀年
+wref_zh 黄帝纪元
+wref_ja 黄帝紀元
+sw 黄帝紀元
+AD1903 = 4614
+
+def[黃帝紀元(庚寅)]
+name_tw 黃帝紀元
+name_cn 黄帝纪元
+name_ja 黄帝紀元
+name_kana こうていきげん
+name 黄帝紀年
+name_kana こうていきねん
+wref_zh 黄帝纪元
+wref_ja 黄帝紀元
+sw 黄帝紀元
+AD1903 = 4394
+
+def[黄帝甲子紀年]
+name 黄帝甲子紀年
+sw 黄帝紀元
+BC2697 = 1
+
+def[帝堯紀年]
+name 帝堯紀年
+name 唐堯紀年
+sw 帝堯紀年
+
+def[夏禹紀年]
+name 夏禹紀年
+
+def[秦統一紀年]
+name 秦統一紀年
+
+def[亡国紀年]
+name 亡国紀年
 
 [共戴]
 name 共戴紀元
@@ -245,7 +319,7 @@ AD1941 = 31
 sw モンゴル人民共和国紀元
 
 def[成吉思汗紀元]
-name 成紀
+abbr 成紀
 name 成吉思汗紀元
 name ジンギス・ハーン紀元
 name ジンギスハーン紀元
@@ -292,8 +366,10 @@ name_tw 大韓民國
 name 民國
 name 民国
 name 민국
+name 大韓民国暦
 wref_ja 大韓民国_(年号)
 wref_zh 大韓民國_(年號)
+sw 大韓民国 (紀年法)
 AD1919 = 1
 
 def[단기]
@@ -487,3 +563,139 @@ name 𨲢暦
 name_ja 聖暦
 name_kana せいれき
 wref_ja 聖暦
+
+def[人類紀元]
+name_ja 人類紀元
+name_kana じんるいきげん
+name_en Holocene calendar
+name_en Holocene Era
+name_en Human Era
+name_cn 全新世紀年
+name_cn 人類紀年
+name_cn 人元紀年
+name_cn 人元
+abbr HE
+wref_ja 人類紀元
+wref_en Holocene_calendar
+sw 人類紀元
+AD1 = 10001
+# e.g. 10000 HE
+# 人類紀元前 BHE
+# e.g. 20000 BHE
+
+def[科学紀元]
+name 科学紀元
+AD2000 = 0
+sw 科学紀元
+
+def[宇宙暦]
+name 宇宙暦
+name_en Star Date
+abbr S.D.
+sw 宇宙暦
+AD1969 = 1
+
+def[天孫紀元]
+name 天孫紀元
+name_kana てんそんきげん
+name 皇紀
+wref_ja 天孫紀元
+sw 天孫紀元
+AD2016 = 1795149
+
+def[天之御中主天皇即位紀元]
+name 天之御中主天皇即位紀元
+name 皇紀
+sw 天之御中主天皇即位紀元
+
+def[神紀]
+name 神紀
+sw 神紀
+
+def[霊波]
+name 霊波
+name 霊波暦
+AD1915 = 1
+sw 霊波暦
+
+def[聖日]
+name 聖日
+sw 聖日
+AD1987 = 1
+
+def[神の国の紀元]
+name 神の国の紀元
+name 紀元
+name 神の国年
+sw 神の国の紀元
+AD1946 = 1
+
+def[救済]
+name 救済
+sw 救済
+AD1991 = 1
+
+def[真理]
+name 真理
+name 真理暦
+name 真理歴
+sw 真理
+AD1997 = 1
+
+def[天紀(庚子)]
+name 天紀
+sw 統一教会暦
+AD1960 = 1
+
+def[天紀(丁巳)]
+name 天紀
+sw 統一教会暦
+AD1977 = 1
+
+def[成約]
+name 成約
+sw 統一教会暦
+AD1993 = 1
+
+def[天一国]
+name 天一国
+sw 統一教会暦
+AD2001 = 1
+
+def[天基]
+name 天基
+sw 統一教会暦
+AD2010 = 1
+
+def[天一国(癸巳)]
+name 天一国
+sw 統一教会暦
+AD2013 = 1
+
+def[天紀(辛巳)]
+name_ko 천기
+name 天紀
+sw 天紀 (三千年城新世界創造學會)
+AD2001 = 1
+
+[核時代]
+name 核時代
+name 核時代後
+name ヒロシマ紀元
+name ヒロシマ・ナガサキ紀元
+name アフターヒロシマ紀元
+name 原爆紀元
+name 原爆暦
+name_en After Hiroshima
+wref_ja 核時代
+sw 核時代
+
+[霊寿]
+name 霊寿
+name_kana れいじゅ
+wref_ja 璽宇
+
+def[フクシマ紀元]
+name フクシマ紀元
+AD2011 = 1
+sw フクシマ紀元
