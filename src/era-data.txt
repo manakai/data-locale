@@ -156,6 +156,12 @@ name 崇禎後
 name 숭정후
 AD1628 = 1
 
+def[龍飛(馬來西亞)]
+name 龍飛
+
+def[天運(馬來西亞)]
+name 天運
+
 def[監国魯]
 name 監国魯
 name 監国
@@ -619,7 +625,8 @@ AD1915 = 1
 sw 霊波暦
 
 def[聖日]
-name 聖日
+name_ja 聖日
+name_kana せいび
 sw 聖日
 AD1987 = 1
 
@@ -699,3 +706,25 @@ def[フクシマ紀元]
 name フクシマ紀元
 AD2011 = 1
 sw フクシマ紀元
+
+def[命知]
+name_ja 命知
+sw 命知
+AD1932 = 1
+
+## 宣統 2004
+## 復光 2008
+## 昊徳 2010-05-01 <http://jnpva.blog119.fc2.com/blog-entry-414.html>
+## AD 2011-04
+
+def[復光]
+name 復光
+name_kana ふくこう
+AD2008 = 1
+wref_ja 満洲国臨時政府
+
+def[昊徳]
+name 昊徳
+name_kana こうとく
+AD2010 = 1
+wref_ja 満洲国臨時政府

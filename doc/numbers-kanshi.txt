@@ -67,13 +67,13 @@ following name/value pairs, representing a target:
 
     The Latin transliteration of the |kr| value.
 
-  manchu [string]
+  manchu [string?]
 
-    The Manchu name of the target.
+    The Manchu name of the target, if known.
 
-  manchu_latn [string]
+  manchu_latn [string?]
 
-    The Latin transliteration of the |manchu| value.
+    The Latin transliteration of the |manchu| value, if known.
 
   name [string]
 
@@ -93,6 +93,15 @@ following name/value pairs, representing a target:
     A Wikipedia reference
     <https://github.com/geocol/data-jp-transport/blob/master/doc/datatypes.txt>
     for the Japanese Wikipedia article on the target.
+
+  zh_pinyin [string?]
+
+    The Chinese reading of the target, in Latin (Pinyin
+    transliteration).
+
+  zh_zhuyin [string?]
+
+    The Chinese reading of the target, in Bopomofo.
 
 * Sources
 
