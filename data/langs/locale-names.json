@@ -4463,17 +4463,6 @@
          "cldr" : "pt_TL",
          "native_name" : "português (República Democrática de Timor-Leste)"
       },
-      "qc-gt" : {
-         "bcp47_canonical" : "qc-GT",
-         "bcp47_errors" : [
-            {
-               "level" : "m",
-               "type" : "langtag:language:invalid",
-               "value" : "qc"
-            }
-         ],
-         "facebook" : "qc_GT"
-      },
       "qu" : {
          "bcp47_canonical" : "qu",
          "cldr" : "qu",
@@ -4495,6 +4484,10 @@
          "cldr" : "qu_PE",
          "facebook" : "qu_PE",
          "native_name" : "Runasimi (Perú)"
+      },
+      "quc-gt" : {
+         "bcp47_canonical" : "quc-GT",
+         "facebook" : "qc_GT"
       },
       "qug" : {
          "bcp47_canonical" : "qug",
