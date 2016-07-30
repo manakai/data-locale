@@ -494,6 +494,10 @@
          "bcp47_canonical" : "ba",
          "mediawiki" : 1
       },
+      "ban" : {
+         "bcp47_canonical" : "ban",
+         "mediawiki" : 1
+      },
       "bar" : {
          "bcp47_canonical" : "bar",
          "mediawiki" : 1
@@ -1813,6 +1817,11 @@
          "mysql" : "es_BO",
          "native_name" : "español (Bolivia)"
       },
+      "es-br" : {
+         "bcp47_canonical" : "es-BR",
+         "cldr" : "es_BR",
+         "native_name" : "español (Brasil)"
+      },
       "es-cl" : {
          "bcp47_canonical" : "es-CL",
          "cldr" : "es_CL",
@@ -2506,6 +2515,7 @@
       },
       "gn" : {
          "bcp47_canonical" : "gn",
+         "firefox" : "gn",
          "mediawiki" : 1
       },
       "gn-py" : {
@@ -2720,6 +2730,10 @@
       "ht" : {
          "bcp47_canonical" : "ht",
          "mediawiki" : 1
+      },
+      "ht-ht" : {
+         "bcp47_canonical" : "ht-HT",
+         "facebook" : "ht_HT"
       },
       "hu" : {
          "bcp47_canonical" : "hu",
@@ -3493,6 +3507,10 @@
       },
       "liv" : {
          "bcp47_canonical" : "liv",
+         "mediawiki" : 1
+      },
+      "lki" : {
+         "bcp47_canonical" : "lki",
          "mediawiki" : 1
       },
       "lkt" : {
@@ -4390,15 +4408,30 @@
          "mysql" : "pt_BR",
          "native_name" : "português (Brasil)"
       },
+      "pt-ch" : {
+         "bcp47_canonical" : "pt-CH",
+         "cldr" : "pt_CH",
+         "native_name" : "português (Suíça)"
+      },
       "pt-cv" : {
          "bcp47_canonical" : "pt-CV",
          "cldr" : "pt_CV",
          "native_name" : "português (Cabo Verde)"
       },
+      "pt-gq" : {
+         "bcp47_canonical" : "pt-GQ",
+         "cldr" : "pt_GQ",
+         "native_name" : "português (Guiné Equatorial)"
+      },
       "pt-gw" : {
          "bcp47_canonical" : "pt-GW",
          "cldr" : "pt_GW",
          "native_name" : "português (Guiné-Bissau)"
+      },
+      "pt-lu" : {
+         "bcp47_canonical" : "pt-LU",
+         "cldr" : "pt_LU",
+         "native_name" : "português (Luxemburgo)"
       },
       "pt-mo" : {
          "bcp47_canonical" : "pt-MO",
@@ -4429,6 +4462,17 @@
          "bcp47_canonical" : "pt-TL",
          "cldr" : "pt_TL",
          "native_name" : "português (República Democrática de Timor-Leste)"
+      },
+      "qc-gt" : {
+         "bcp47_canonical" : "qc-GT",
+         "bcp47_errors" : [
+            {
+               "level" : "m",
+               "type" : "langtag:language:invalid",
+               "value" : "qc"
+            }
+         ],
+         "facebook" : "qc_GT"
       },
       "qu" : {
          "bcp47_canonical" : "qu",
@@ -4817,6 +4861,10 @@
          "cldr" : "shi_Tfng_MA",
          "native_name" : "ⵜⴰⵛⵍⵃⵉⵜ (Tifinagh, ⵍⵎⵖⵔⵉⴱ)"
       },
+      "shn" : {
+         "bcp47_canonical" : "shn",
+         "mediawiki" : 1
+      },
       "si" : {
          "bcp47_canonical" : "si",
          "cldr" : "si",
@@ -5116,7 +5164,7 @@
       "sw-cd" : {
          "bcp47_canonical" : "sw-CD",
          "cldr" : "sw_CD",
-         "native_name" : "Kiswahili (Kongo (DRC))"
+         "native_name" : "Kiswahili ya Kongo"
       },
       "sw-ke" : {
          "bcp47_canonical" : "sw-KE",
@@ -5345,7 +5393,7 @@
       "tr-cy" : {
          "bcp47_canonical" : "tr-CY",
          "cldr" : "tr_CY",
-         "native_name" : "Türkçe (Güney Kıbrıs Rum Kesimi)"
+         "native_name" : "Türkçe (Kıbrıs)"
       },
       "tr-tr" : {
          "bcp47_canonical" : "tr-TR",
@@ -5733,7 +5781,14 @@
       },
       "yue" : {
          "bcp47_canonical" : "yue",
-         "mediawiki" : 1
+         "cldr" : "yue",
+         "mediawiki" : 1,
+         "native_name" : "粵語"
+      },
+      "yue-hk" : {
+         "bcp47_canonical" : "yue-HK",
+         "cldr" : "yue_HK",
+         "native_name" : "粵語 (香港)"
       },
       "za" : {
          "bcp47_canonical" : "za",
