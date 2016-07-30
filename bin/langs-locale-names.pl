@@ -105,6 +105,7 @@ my $Data = {};
       'cx-ph' => 'ceb-ph',
       'eo-eo' => 'eo',
       'es-la' => 'es-419', # <https://developers.facebook.com/docs/internationalization>
+      'qc-gt' => 'quc-gt',
       'gx-gr' => 'grc-gr',
       'ja-ks' => 'ja-jp-kansai',
       'sy-sy' => 'syc-sy',
