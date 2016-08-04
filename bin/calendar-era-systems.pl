@@ -157,9 +157,10 @@ sub expand_var ($) {
       if (ref $_ eq 'HASH') {
         apply_op $def, $_;
       } else {
-        $_->[2] = undef if defined $_->[2] and $_->[2] eq 'null';
-        $_->[3] = $_->[0] eq 'jd' ? $_->[1] : g2jd "$_->[1]-01-01";
-        push @$def, $_;
+        my $v = [@$_];
+        $v->[2] = undef if defined $v->[2] and $v->[2] eq 'null';
+        $v->[3] = $v->[0] eq 'jd' ? $v->[1] : g2jd "$v->[1]-01-01";
+        push @$def, $v;
       }
     } else {
       push @$def, @{expand_var $_};
@@ -175,9 +176,10 @@ for my $def_name (keys %$Defs) {
       if (ref $_ eq 'HASH') {
         apply_op $def, $_;
       } else {
-        $_->[2] = undef if defined $_->[2] and $_->[2] eq 'null';
-        $_->[3] = $_->[0] eq 'jd' ? $_->[1] : g2jd "$_->[1]-01-01";
-        push @$def, $_;
+        my $v = [@$_];
+        $v->[2] = undef if defined $v->[2] and $v->[2] eq 'null';
+        $v->[3] = $v->[0] eq 'jd' ? $v->[1] : g2jd "$v->[1]-01-01";
+        push @$def, $v;
       }
     } else {
       push @$def, @{expand_var $_};
