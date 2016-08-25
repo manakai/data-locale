@@ -1719,7 +1719,8 @@
       "6:is 0/is 1/is 2/ends in 03-10/ends in 00-02 excluding 0-2/everything else" : {
          "cldr_locales" : {
             "cardinal" : {
-               "ar" : 1
+               "ar" : 1,
+               "ars" : 1
             }
          },
          "expression" : "n==0?0:n==1?1:n==2?2:3\u003C=n%100&&n%100\u003C=10?3:0\u003C=n%100&&n%100\u003C=2&&!(0\u003C=n&&n\u003C=2)?4:5",
