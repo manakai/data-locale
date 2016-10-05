@@ -469,7 +469,7 @@
       "az-cyrl" : {
          "bcp47_canonical" : "az-Cyrl",
          "cldr" : "az_Cyrl",
-         "native_name" : "азәрбајҹан дили (Кирил)"
+         "native_name" : "азәрбајҹан (Кирил)"
       },
       "az-cyrl-az" : {
          "bcp47_canonical" : "az-Cyrl-AZ",
@@ -870,7 +870,7 @@
          "bcp47_canonical" : "chr-US",
          "cldr" : "chr_US",
          "facebook" : "ck_US",
-         "native_name" : "ᏣᎳᎩ (ᎠᎹᏰᏟ)"
+         "native_name" : "ᏣᎳᎩ (US)"
       },
       "chy" : {
          "bcp47_canonical" : "chy",
@@ -936,7 +936,7 @@
          "facebook" : "cs_CZ",
          "java" : "cs_CZ",
          "mysql" : "cs_CZ",
-         "native_name" : "čeština (Česká republika)"
+         "native_name" : "čeština (Česko)"
       },
       "csb" : {
          "bcp47_canonical" : "csb",
@@ -1053,6 +1053,11 @@
             }
          ],
          "mediawiki" : 1
+      },
+      "de-it" : {
+         "bcp47_canonical" : "de-IT",
+         "cldr" : "de_IT",
+         "native_name" : "Deutsch (Italien)"
       },
       "de-li" : {
          "bcp47_canonical" : "de-LI",
@@ -3928,13 +3933,13 @@
          "bcp47_canonical" : "my",
          "cldr" : "my",
          "mediawiki" : 1,
-         "native_name" : "ဗမာ"
+         "native_name" : "မြန်မာ"
       },
       "my-mm" : {
          "bcp47_canonical" : "my-MM",
          "cldr" : "my_MM",
          "facebook" : "my_MM",
-         "native_name" : "ဗမာ (မြန်မာ)"
+         "native_name" : "မြန်မာ (မြန်မာ (Burma))"
       },
       "myv" : {
          "bcp47_canonical" : "myv",
@@ -4010,11 +4015,20 @@
       },
       "nds" : {
          "bcp47_canonical" : "nds",
-         "mediawiki" : 1
+         "cldr" : "nds",
+         "mediawiki" : 1,
+         "native_name" : "Neddersass’sch"
+      },
+      "nds-de" : {
+         "bcp47_canonical" : "nds-DE",
+         "cldr" : "nds_DE",
+         "native_name" : "Neddersass’sch (Düütschland)"
       },
       "nds-nl" : {
          "bcp47_canonical" : "nds-NL",
-         "mediawiki" : 1
+         "cldr" : "nds_NL",
+         "mediawiki" : 1,
+         "native_name" : "Neddersass’sch (Nedderlannen)"
       },
       "ne" : {
          "bcp47_canonical" : "ne",
@@ -4263,7 +4277,7 @@
       "pa-arab-pk" : {
          "bcp47_canonical" : "pa-Arab-PK",
          "cldr" : "pa_Arab_PK",
-         "native_name" : "ਪੰਜਾਬੀ (عربی, پکستان)"
+         "native_name" : "ਪੰਜਾਬੀ (عربی, پاکستان)"
       },
       "pa-guru" : {
          "bcp47_canonical" : "pa",
@@ -4451,7 +4465,7 @@
          "firefox" : "pt-PT",
          "java" : "pt_PT",
          "mysql" : "pt_PT",
-         "native_name" : "português (Portugal)"
+         "native_name" : "português europeu"
       },
       "pt-st" : {
          "bcp47_canonical" : "pt-ST",
@@ -5157,7 +5171,7 @@
       "sw-cd" : {
          "bcp47_canonical" : "sw-CD",
          "cldr" : "sw_CD",
-         "native_name" : "Kiswahili ya Kongo"
+         "native_name" : "Kiswahili (Kongo (DRC))"
       },
       "sw-ke" : {
          "bcp47_canonical" : "sw-KE",
@@ -5548,7 +5562,7 @@
          "bcp47_canonical" : "uz-Cyrl",
          "cldr" : "uz_Cyrl",
          "mediawiki" : 1,
-         "native_name" : "Ўзбек (Кирил)"
+         "native_name" : "ўзбекча (Кирил)"
       },
       "uz-cyrl-uz" : {
          "bcp47_canonical" : "uz-Cyrl-UZ",
