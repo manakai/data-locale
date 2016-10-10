@@ -4,7 +4,7 @@ Encode~2.86
 Exporter~5.72
 Exporter::Lite~0.08
 JSON~2.90
-Path::Tiny~0.096
+Path::Tiny~0.098
 Scalar::Util~1.46
 Test::NoWarnings~1.04
 Test::Tester~1.302059
