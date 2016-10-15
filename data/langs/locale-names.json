@@ -3939,7 +3939,7 @@
          "bcp47_canonical" : "my-MM",
          "cldr" : "my_MM",
          "facebook" : "my_MM",
-         "native_name" : "မြန်မာ (မြန်မာ (Burma))"
+         "native_name" : "မြန်မာ (မြန်မာ)"
       },
       "myv" : {
          "bcp47_canonical" : "myv",
