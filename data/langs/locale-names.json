@@ -3347,6 +3347,10 @@
          "bcp47_canonical" : "krj",
          "mediawiki" : 1
       },
+      "krl" : {
+         "bcp47_canonical" : "krl",
+         "mediawiki" : 1
+      },
       "ks" : {
          "bcp47_canonical" : "ks",
          "cldr" : "ks",
