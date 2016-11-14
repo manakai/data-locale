@@ -2539,6 +2539,10 @@
          "bcp47_canonical" : "gom-Latn",
          "mediawiki" : 1
       },
+      "gor" : {
+         "bcp47_canonical" : "gor",
+         "mediawiki" : 1
+      },
       "got" : {
          "bcp47_canonical" : "got",
          "mediawiki" : 1
