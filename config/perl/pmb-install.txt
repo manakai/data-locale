@@ -8,6 +8,6 @@ Path::Tiny~0.098
 Scalar::Util~1.46
 Test::NoWarnings~1.04
 Test::Tester~1.302062
-Time::Local~1.24
+Time::Local~1.25
 Unicode::Normalize~1.25
 Unicode::Stringprep~1.105
