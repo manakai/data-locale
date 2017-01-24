@@ -124,6 +124,7 @@ name 西
 name 西元
 name 学暦
 name 学
+name 天主降生
 wref_zh 公元
 wref_ja 西暦
 AD1 = 1
@@ -728,3 +729,26 @@ name 昊徳
 name_kana こうとく
 AD2010 = 1
 wref_ja 満洲国臨時政府
+
+def[悪魔暦]
+name_ja 魔暦
+name_ja 悪魔暦
+name D.C.
+# 魔暦前
+# 魔暦紀元前
+# B.C.
+wref_ja 魔暦
+sw 魔暦
+AD1999 = 1
+
+def[明雲]
+name_ja 明雲
+
+def[白雲]
+name_ja 白雲
+
+def[新日本]
+name_ja 新日本
+wref_ja 元号
+sw 新日本
+AD1946 = 1
