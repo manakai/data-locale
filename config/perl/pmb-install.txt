@@ -7,7 +7,7 @@ JSON~2.90
 Path::Tiny~0.104
 Scalar::Util~1.47
 Test::NoWarnings~1.04
-Test::Tester~1.302075
+Test::Tester~1.302078
 Time::Local~1.25
 Unicode::Normalize~1.25
 Unicode::Stringprep~1.105
