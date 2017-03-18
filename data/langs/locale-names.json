@@ -678,6 +678,17 @@
          "cldr" : "bo_IN",
          "native_name" : "བོད་སྐད་ (རྒྱ་གར་)"
       },
+      "bp-in" : {
+         "bcp47_canonical" : "bp-IN",
+         "bcp47_errors" : [
+            {
+               "level" : "m",
+               "type" : "langtag:language:invalid",
+               "value" : "bp"
+            }
+         ],
+         "facebook" : "bp_IN"
+      },
       "bpy" : {
          "bcp47_canonical" : "bpy",
          "mediawiki" : 1
@@ -1443,7 +1454,6 @@
       "en-in" : {
          "bcp47_canonical" : "en-IN",
          "cldr" : "en_IN",
-         "facebook" : "en_IN",
          "java" : "en_IN",
          "mysql" : "en_IN",
          "native_name" : "English (India)"
@@ -1830,7 +1840,6 @@
       "es-cl" : {
          "bcp47_canonical" : "es-CL",
          "cldr" : "es_CL",
-         "facebook" : "es_CL",
          "firefox" : "es-CL",
          "java" : "es_CL",
          "ms" : "13322",
@@ -1840,7 +1849,6 @@
       "es-co" : {
          "bcp47_canonical" : "es-CO",
          "cldr" : "es_CO",
-         "facebook" : "es_CO",
          "java" : "es_CO",
          "ms" : "9226",
          "mysql" : "es_CO",
@@ -1996,7 +2004,6 @@
       "es-ve" : {
          "bcp47_canonical" : "es-VE",
          "cldr" : "es_VE",
-         "facebook" : "es_VE",
          "java" : "es_VE",
          "ms" : "8202",
          "mysql" : "es_VE",
@@ -3372,6 +3379,7 @@
       "ks-in" : {
          "bcp47_canonical" : "ks-IN",
          "cldr" : "ks_IN",
+         "facebook" : "ks_IN",
          "native_name" : "کٲشُر (ہِنٛدوستان)"
       },
       "ksb" : {
@@ -4178,9 +4186,24 @@
          "bcp47_canonical" : "nov",
          "mediawiki" : 1
       },
+      "nr-za" : {
+         "bcp47_canonical" : "nr-ZA",
+         "facebook" : "nr_ZA"
+      },
       "nrm" : {
          "bcp47_canonical" : "nrm",
          "mediawiki" : 1
+      },
+      "ns-za" : {
+         "bcp47_canonical" : "ns-ZA",
+         "bcp47_errors" : [
+            {
+               "level" : "m",
+               "type" : "langtag:language:invalid",
+               "value" : "ns"
+            }
+         ],
+         "facebook" : "ns_ZA"
       },
       "nso" : {
          "bcp47_canonical" : "nso",
@@ -4514,6 +4537,17 @@
       "qug" : {
          "bcp47_canonical" : "qug",
          "mediawiki" : 1
+      },
+      "qz-mm" : {
+         "bcp47_canonical" : "qz-MM",
+         "bcp47_errors" : [
+            {
+               "level" : "m",
+               "type" : "langtag:language:invalid",
+               "value" : "qz"
+            }
+         ],
+         "facebook" : "qz_MM"
       },
       "rgn" : {
          "bcp47_canonical" : "rgn",
@@ -5128,9 +5162,17 @@
          "bcp47_canonical" : "ss",
          "mediawiki" : 1
       },
+      "ss-sz" : {
+         "bcp47_canonical" : "ss-SZ",
+         "facebook" : "ss_SZ"
+      },
       "st" : {
          "bcp47_canonical" : "st",
          "mediawiki" : 1
+      },
+      "st-za" : {
+         "bcp47_canonical" : "st-ZA",
+         "facebook" : "st_ZA"
       },
       "stq" : {
          "bcp47_canonical" : "stq",
@@ -5370,6 +5412,10 @@
          "mediawiki" : 1,
          "ms" : "1074"
       },
+      "tn-bw" : {
+         "bcp47_canonical" : "tn-BW",
+         "facebook" : "tn_BW"
+      },
       "to" : {
          "bcp47_canonical" : "to",
          "cldr" : "to",
@@ -5426,6 +5472,10 @@
          "bcp47_canonical" : "ts",
          "mediawiki" : 1,
          "ms" : "1073"
+      },
+      "ts-za" : {
+         "bcp47_canonical" : "ts-ZA",
+         "facebook" : "ts_ZA"
       },
       "tt" : {
          "bcp47_canonical" : "tt",
@@ -5620,6 +5670,10 @@
       "ve" : {
          "bcp47_canonical" : "ve",
          "mediawiki" : 1
+      },
+      "ve-za" : {
+         "bcp47_canonical" : "ve-ZA",
+         "facebook" : "ve_ZA"
       },
       "vec" : {
          "bcp47_canonical" : "vec",
