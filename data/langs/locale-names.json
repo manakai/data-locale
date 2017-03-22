@@ -1837,6 +1837,11 @@
          "cldr" : "es_BR",
          "native_name" : "español (Brasil)"
       },
+      "es-bz" : {
+         "bcp47_canonical" : "es-BZ",
+         "cldr" : "es_BZ",
+         "native_name" : "español (Belice)"
+      },
       "es-cl" : {
          "bcp47_canonical" : "es-CL",
          "cldr" : "es_CL",
@@ -2924,6 +2929,11 @@
          "bcp47_canonical" : "it-SM",
          "cldr" : "it_SM",
          "native_name" : "italiano (San Marino)"
+      },
+      "it-va" : {
+         "bcp47_canonical" : "it-VA",
+         "cldr" : "it_VA",
+         "native_name" : "italiano (Città del Vaticano)"
       },
       "iu" : {
          "bcp47_canonical" : "iu",
