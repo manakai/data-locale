@@ -435,6 +435,10 @@
          "cldr" : "ast_ES",
          "native_name" : "asturianu (España)"
       },
+      "atj" : {
+         "bcp47_canonical" : "atj",
+         "mediawiki" : 1
+      },
       "av" : {
          "bcp47_canonical" : "av",
          "mediawiki" : 1
