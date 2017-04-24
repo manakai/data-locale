@@ -1088,6 +1088,10 @@
          "mysql" : "de_LU",
          "native_name" : "Deutsch (Luxemburg)"
       },
+      "din" : {
+         "bcp47_canonical" : "din",
+         "mediawiki" : 1
+      },
       "diq" : {
          "bcp47_canonical" : "diq",
          "mediawiki" : 1
