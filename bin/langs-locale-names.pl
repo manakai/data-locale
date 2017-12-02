@@ -93,7 +93,7 @@ my $Data = {};
 }
 
 {
-  my $path = $local_path->child ('facebook-locales.json');
+  my $path = $src_path->child ('facebook-locales.json');
   my $json = json_bytes2perl $path->slurp;
   for my $locale (keys %{$json->{locales}}) {
     my $lang = $locale;

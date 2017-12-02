@@ -218,17 +218,11 @@ local/cldr-native-language-names.json: local/cldr-core-json-files \
   bin/cldr-native-language-names.pl
 	$(PERL) bin/cldr-native-language-names.pl > $@
 
-local/facebook-locales.xml:
-	$(WGET) -O $@ https://www.facebook.com/translations/FacebookLocales.xml
-local/facebook-locales.json: local/facebook-locales.xml \
-  bin/parse-facebook-locales.pl
-	$(PERL) bin/parse-facebook-locales.pl > $@
-
 data/langs/locale-names.json: bin/langs-locale-names.pl \
   local/cldr-locales.txt src/ms-locales.txt src/chromewebstore-locales.txt \
   local/fx-locales.json src/java-locales.txt local/mediawiki-locales.txt \
   local/cldr-native-language-names.json src/lang-names-additional.txt \
-  local/facebook-locales.json
+  src/facebook-locales.json
 	$(PERL) $< > $@
 
 local/cldr-plurals.xml:

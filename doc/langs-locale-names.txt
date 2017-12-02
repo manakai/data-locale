@@ -67,6 +67,9 @@ A JSON object with following name/value pairs:
         as there is no known BCP 47 language tags for them (see
         |bin/langs-locale-names.pl|).
 
+        As Facebook has stopped exposing their list of the locales,
+        this field's values will not be updated.
+
       firefox [string?]
 
         The locale identifier used in Firefox, if exists.
@@ -116,8 +119,11 @@ List of Wikipedias
 
 Mozilla Firefox <ftp://archive.mozilla.org/pub/mozilla.org/firefox/>.
 
-Facebook <https://developers.facebook.com/docs/internationalization>,
-<https://www.facebook.com/translations/FacebookLocales.xml>.
+Facebook <https://developers.facebook.com/docs/internationalization>.
+
+Facebook's locale list
+<https://www.facebook.com/translations/FacebookLocales.xml> (no longer
+available).
 
 MediaWiki <https://github.com/wikimedia/mediawiki>.
 
