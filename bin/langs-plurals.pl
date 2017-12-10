@@ -34,6 +34,7 @@ for (
   [[0..1, 11..99] => 'is 0-1, 11-99'],
   [[0, 3..10] => 'is 0, 3-10'],
   [[1, 5, 7..10] => 'is 1, 5, 7-10'],
+  [[1, 5, 7, 8, 9] => 'is 1, 5, 7-9'],
   [[8, 11, 80, 800] => 'is 8, 11, 80, 800'],
   [[map { $_ * 10 + 1 } 0..99] => 'ends in 1'],
   [[map { $_ * 10 + 2 } 0..99] => 'ends in 2'],
@@ -68,6 +69,7 @@ for (
   [[map { $_ * 100 + 3, $_ * 100 + 4 } 0..9] => 'ends in 03-04'],
   [[map { $_ * 100 + 3, $_ * 100 + 4, $_ * 100 + 5, $_ * 100 + 6, $_ * 100 + 7, $_ * 100 + 8, $_ * 100 + 9, $_ * 100 + 10 } 0..9] => 'ends in 03-10'],
   [[(map { $_ * 100, $_ * 100 + 20, $_ * 100 + 40, $_ * 100 + 60, $_ * 100 + 80 } 0..9), 1000000] => 'ends in 00, 20, 40, 60, 80'],
+  [[10, grep { /[69]$/ } 0..999] => 'is 10 or ends in 6, 9'],
   [[0, 2..19, grep { /(?:0[1-9]|1[0-9])$/ } 100..999] => 'is 0 or ends in 01-19 excluding 1'],
   [[0, 2..19, grep { /(?:0[1-9]|10)$/ } 100..999] => 'is 0, 11-19 or ends in 01-10 excluding 1'],
   [[0, grep { not ($_ == 1) } map { $_ * 100 + 1, $_ * 100 + 2, $_ * 100 + 3, $_ * 100 + 4, $_ * 100 + 5, $_ * 100 + 6, $_ * 100 + 7, $_ * 100 + 8, $_ * 100 + 9, $_ * 100 + 10 } 0..9] => 'is 0 or ends in 01-10 excluding 1'],
@@ -75,7 +77,7 @@ for (
   [[map { $_ * 100 + 11, $_ * 100 + 12, $_ * 100 + 13, $_ * 100 + 14, $_ * 100 + 15, $_ * 100 + 16, $_ * 100 + 17, $_ * 100 + 18, $_ * 100 + 19 } 0..9] => 'ends in 11-19'],
   [[1000000] => 'ends in 000000 excluding 0'],
 ) {
-  $FormNames->{join ' ', @{$_->[0]}} = $_->[1];
+  $FormNames->{join ' ', sort { $a <=> $b } @{$_->[0]}} = $_->[1];
 }
 $Data->{forms} = {reverse %$FormNames};
 die sprintf '%d != %d', scalar keys %{$Data->{forms}}, scalar keys %$FormNames
@@ -109,6 +111,8 @@ for my $name (keys %{$Data->{forms}}) {
     $Data->{forms}->{$name}->{expression} = "n==$1||($2<=n%100&&n%100<=$3)";
   } elsif ($name =~ /^is ([0-9]+) or ends in ([0-9][0-9])-([0-9][0-9]) excluding ([0-9]+)$/) {
     $Data->{forms}->{$name}->{expression} = "n==$1||($2<=n%100&&n%100<=$3&&n!=$4)";
+  } elsif ($name =~ /^is ([0-9][0-9]) or ends in ([0-9]), ([0-9])$/) {
+    $Data->{forms}->{$name}->{expression} = "n==$1||n%10==$2||n%10==$3";
   } elsif ($name =~ /^is ([0-9]+), ([0-9]+)-([0-9]+) or ends in ([0-9][0-9])-([0-9][0-9]) excluding ([0-9]+)$/) {
     $Data->{forms}->{$name}->{expression} = "n==$1||($2<=n&&n<=$3)||($4<=n%100&&n%100<=$5&&n!=$6)";
   } elsif ($name =~ /^is 0 or ends in ([0-9]) or ends in ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9])$/) {
@@ -254,6 +258,7 @@ sub expr ($$;%) {
 } # expr
 
 {
+  warn "Expr...\n";
   my $path = path (__FILE__)->parent->parent->child ('src/plural-exprs.txt');
   for (split /\x0A/, $path->slurp) {
     if (/^nplurals=([0-9]+);plural=(.+?);?$/) {
@@ -265,6 +270,7 @@ sub expr ($$;%) {
 }
 
 {
+  warn "Additional...\n";
   my $path = path (__FILE__)->parent->parent->child ('src/plural-additional.txt');
   for (split /\x0A/, $path->slurp) {
     if (/^nplurals=([0-9]+);plural=(.+?);?$/) {
@@ -276,6 +282,7 @@ sub expr ($$;%) {
 }
 
 {
+  warn "CLDR...\n";
   my $path = path (__FILE__)->parent->parent->child ('local/cldr-plurals.json');
   my $json = json_bytes2perl $path->slurp;
   for my $type (keys %$json) {
