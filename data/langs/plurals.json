@@ -839,6 +839,7 @@
                "rof" : 1,
                "rwk" : 1,
                "saq" : 1,
+               "scn" : 1,
                "sd" : 1,
                "sdh" : 1,
                "seh" : 1,
@@ -931,7 +932,8 @@
       "2:is 8, 11, 80, 800/everything else" : {
          "cldr_locales" : {
             "ordinal" : {
-               "it" : 1
+               "it" : 1,
+               "scn" : 1
             }
          },
          "expression" : "n==8||n==11||n==80||n==800?0:1",
