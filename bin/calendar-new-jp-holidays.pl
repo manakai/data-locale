@@ -24,13 +24,14 @@ my %d = (
     H13 => _d(2003,1,1),	## H13-06-22
     H17 => _d(2007,1,1),	## H17-05-20
     H26 => _d(2016,1,1),        ## H26 (2014)
+    H31 => _d(2019,5,1),        ## H29 Law #63 / H29 Ordinance #302
 );
 
 ## 春分、秋分
 ## <http://www.nao.ac.jp/faq/a0301.html>
 ## <http://www.asahi-net.or.jp/~ci5m-nmr/misc/equinox.html>
-## <http://ja.wikipedia.org/wiki/%E6%98%A5%E5%88%86>
-## <http://ja.wikipedia.org/wiki/%E7%A7%8B%E5%88%86>
+## <https://ja.wikipedia.org/wiki/%E6%98%A5%E5%88%86>
+## <https://ja.wikipedia.org/wiki/%E7%A7%8B%E5%88%86>
 
 my @Shunbun = (
   [qw(1800 1827 21 21 21 21)],
@@ -110,7 +111,8 @@ sub isholiday ($$$) {
     return '建国記念の日' if $day == 11 && $d{S41} <= $time;
     return '紀元節' if $day == 11 && $d{M6} <= $time && $time < $d{S23};
     return '振替休日' if $wday == $MONDAY && $day == 12 && $d{S48} <= $time;
-    
+    return '天皇誕生日' if $day == 23 && $d{H31} <= $time;
+    return '振替休日' if $wday == $MONDAY && $day == 24 && $d{H31} <= $time;
     return '昭和天皇の大喪の礼の行われる日' if $year == 1989 && $day == 24;
     	## Heisei 1 Law No.4
   } elsif ($month == 3) {
@@ -204,9 +206,8 @@ sub isholiday ($$$) {
     return '即位礼正殿の儀の行われる日' if $year == 1990 && $day == 12;
     	## Heisei 2 Law No.24
   } elsif ($month == 12) {
-    return '天皇誕生日' if $day == 23 && $d{H1} <= $time;
-    return '振替休日' if $wday == $MONDAY && $day == 24 && $d{H1} <= $time;
-
+    return '天皇誕生日' if $day == 23 && $d{H1} <= $time && $time < $d{H31};
+    return '振替休日' if $wday == $MONDAY && $day == 24 && $d{H1} <= $time && $time < $d{H31};
     return '大正天皇祭' if $day == 25 && $d{S2} <= $time && $time < $d{S23};
   }
   
