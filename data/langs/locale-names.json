@@ -823,6 +823,10 @@
          "cldr" : "ca_IT",
          "native_name" : "català (Itàlia)"
       },
+      "cak" : {
+         "bcp47_canonical" : "cak",
+         "firefox" : "cak"
+      },
       "cbk-zam" : {
          "bcp47_canonical" : "cbk-zam",
          "bcp47_errors" : [
@@ -3139,6 +3143,7 @@
       "ka" : {
          "bcp47_canonical" : "ka",
          "cldr" : "ka",
+         "firefox" : "ka",
          "mediawiki" : 1,
          "native_name" : "ქართული"
       },
@@ -3155,6 +3160,7 @@
       "kab" : {
          "bcp47_canonical" : "kab",
          "cldr" : "kab",
+         "firefox" : "kab",
          "mediawiki" : 1,
          "native_name" : "Taqbaylit"
       },
@@ -3985,6 +3991,7 @@
       "my" : {
          "bcp47_canonical" : "my",
          "cldr" : "my",
+         "firefox" : "my",
          "mediawiki" : 1,
          "native_name" : "မြန်မာ"
       },
@@ -5636,6 +5643,7 @@
       "ur" : {
          "bcp47_canonical" : "ur",
          "cldr" : "ur",
+         "firefox" : "ur",
          "mediawiki" : 1,
          "ms" : "1056",
          "native_name" : "اردو"
