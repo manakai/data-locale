@@ -4285,6 +4285,10 @@
          "cldr" : "nyn_UG",
          "native_name" : "Runyankore (Uganda)"
       },
+      "nys" : {
+         "bcp47_canonical" : "nys",
+         "mediawiki" : 1
+      },
       "oc" : {
          "bcp47_canonical" : "oc",
          "mediawiki" : 1
