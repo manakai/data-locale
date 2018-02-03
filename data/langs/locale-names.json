@@ -5241,6 +5241,10 @@
          "bcp47_canonical" : "stq",
          "mediawiki" : 1
       },
+      "sty" : {
+         "bcp47_canonical" : "sty",
+         "mediawiki" : 1
+      },
       "su" : {
          "bcp47_canonical" : "su",
          "mediawiki" : 1
