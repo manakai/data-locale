@@ -2526,6 +2526,10 @@
          "bcp47_canonical" : "gan-Hant",
          "mediawiki" : 1
       },
+      "gcr" : {
+         "bcp47_canonical" : "gcr",
+         "mediawiki" : 1
+      },
       "gd" : {
          "bcp47_canonical" : "gd",
          "cldr" : "gd",
@@ -3471,6 +3475,10 @@
       "ku-tr" : {
          "bcp47_canonical" : "ku-TR",
          "facebook" : "ku_TR"
+      },
+      "kum" : {
+         "bcp47_canonical" : "kum",
+         "mediawiki" : 1
       },
       "kv" : {
          "bcp47_canonical" : "kv",
