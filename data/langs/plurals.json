@@ -495,7 +495,8 @@
       "2:ends in 1 not ends in 11/everything else" : {
          "cldr_locales" : {
             "cardinal" : {
-               "is" : 1
+               "is" : 1,
+               "mk" : 1
             }
          },
          "expression" : "n%10==1&&n%100!=11?0:1",
@@ -541,11 +542,6 @@
          }
       },
       "2:ends in 1/everything else" : {
-         "cldr_locales" : {
-            "cardinal" : {
-               "mk" : 1
-            }
-         },
          "expression" : "n%10==1?0:1",
          "forms" : [
             "ends in 1",
