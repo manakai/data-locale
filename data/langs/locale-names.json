@@ -1929,6 +1929,17 @@
          "mysql" : "es_ES",
          "native_name" : "español (España)"
       },
+      "es-formal" : {
+         "bcp47_canonical" : "es-formal",
+         "bcp47_errors" : [
+            {
+               "level" : "m",
+               "type" : "langtag:variant:invalid",
+               "value" : "formal"
+            }
+         ],
+         "mediawiki" : 1
+      },
       "es-gq" : {
          "bcp47_canonical" : "es-GQ",
          "cldr" : "es_GQ",
@@ -4113,6 +4124,7 @@
          "bcp47_canonical" : "ne-NP",
          "cldr" : "ne_NP",
          "facebook" : "ne_NP",
+         "firefox" : "ne-NP",
          "native_name" : "नेपाली (नेपाल)"
       },
       "new" : {
