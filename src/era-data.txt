@@ -689,14 +689,25 @@ AD2001 = 1
 [核時代]
 name 核時代
 name 核時代後
+wref_ja 核時代
+sw 核時代
 name ヒロシマ紀元
 name ヒロシマ・ナガサキ紀元
 name アフターヒロシマ紀元
+name_en After Hiroshima
+AD1946 = 1
+
+def[エコ暦]
 name 原爆紀元
 name 原爆暦
-name_en After Hiroshima
-wref_ja 核時代
-sw 核時代
+name エコ暦
+abbr G
+abbr E
+sw エコ暦
+AD1945 = 1
+source
+  title:エコ暦とは
+  url:http://all-eco.co.jp/column/ekoreki.html
 
 [霊寿]
 name 霊寿
@@ -708,7 +719,7 @@ name フクシマ紀元
 AD2011 = 1
 sw フクシマ紀元
 
-def[命知]
+[命知]
 name_ja 命知
 sw 命知
 AD1932 = 1
@@ -752,3 +763,20 @@ name_ja 新日本
 wref_ja 元号
 sw 新日本
 AD1946 = 1
+
+def[戦後]
+sw 戦後 (紀年法)
+AD1946 = 1
+wref_ja 0年
+
+def[亀光]
+AD1861 = 1
+
+[育喜]
+AD1983 = 1
+source
+  title:私年号(異年号)の世界への誘い
+  url:http://specialcurricularactivities2014.blogspot.jp/2017/11/blog-post.html
+sw 育喜
+
+def[美禄]
