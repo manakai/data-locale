@@ -2807,6 +2807,17 @@
          "ms" : "1038",
          "native_name" : "magyar"
       },
+      "hu-formal" : {
+         "bcp47_canonical" : "hu-formal",
+         "bcp47_errors" : [
+            {
+               "level" : "m",
+               "type" : "langtag:variant:invalid",
+               "value" : "formal"
+            }
+         ],
+         "mediawiki" : 1
+      },
       "hu-hu" : {
          "bcp47_canonical" : "hu-HU",
          "cldr" : "hu_HU",
