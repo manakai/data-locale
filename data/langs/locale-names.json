@@ -407,7 +407,7 @@
          "bcp47_canonical" : "as-IN",
          "cldr" : "as_IN",
          "facebook" : "as_IN",
-         "native_name" : "অসমীয়া (ভারত)"
+         "native_name" : "অসমীয়া (ভাৰত)"
       },
       "asa" : {
          "bcp47_canonical" : "asa",
@@ -5493,13 +5493,13 @@
          "bcp47_canonical" : "tk",
          "cldr" : "tk",
          "mediawiki" : 1,
-         "native_name" : "Türkmen dili"
+         "native_name" : "türkmen dili"
       },
       "tk-tm" : {
          "bcp47_canonical" : "tk-TM",
          "cldr" : "tk_TM",
          "facebook" : "tk_TM",
-         "native_name" : "Türkmen dili (Türkmenistan)"
+         "native_name" : "türkmen dili (Türkmenistan)"
       },
       "tl" : {
          "bcp47_canonical" : "tl",
