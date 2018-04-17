@@ -2845,6 +2845,7 @@
       },
       "ia" : {
          "bcp47_canonical" : "ia",
+         "firefox" : "ia",
          "mediawiki" : 1
       },
       "id" : {
