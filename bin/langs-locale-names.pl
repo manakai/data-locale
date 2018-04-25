@@ -131,7 +131,7 @@ my $Data = {};
       my $code = $1;
       my $tag = $code;
       $tag =~ tr/A-Z_/a-z-/;
-      $Data->{tags}->{$tag}->{mediawiki} = 1;
+      $Data->{tags}->{$tag}->{mediawiki} = $code;
     }
   }
 }

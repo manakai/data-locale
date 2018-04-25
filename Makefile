@@ -46,7 +46,11 @@ local/perl-latest/pm/lib/perl5/JSON/PS.pm:
 
 PERL = ./perl
 
-data: deps \
+data: data-deps data-main
+
+data-deps: deps
+
+data-main: \
     data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json \
     data/calendar/kyuureki-genten.json \
     data/calendar/kyuureki-shoki-genten.json \

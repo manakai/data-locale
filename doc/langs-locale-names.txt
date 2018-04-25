@@ -80,10 +80,9 @@ A JSON object with following name/value pairs:
 
       mediawiki [boolean]
 
-        Whether the language name is included in MediaWiki's source
-        code
-        <https://github.com/wikimedia/mediawiki/blob/master/languages/Names.php>
-        or not.
+        The language identifier used in MediaWiki
+        <https://github.com/wikimedia/mediawiki/blob/master/languages/Names.php>,
+        if exists.
 
       ms [integer?]
 
