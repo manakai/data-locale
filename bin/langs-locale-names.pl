@@ -14,11 +14,6 @@ my $Data = {};
   for (
     ['ja-jpm' => 'ja-jp-mac'],
     ['x-klingon' => 'tlh'],
-
-    ## <http://meta.wikimedia.org/wiki/List_of_Wikipedias#Nonstandard_language_codes>
-    ['be-x-old' => 'be-tarask'],
-    ['bat-smg' => 'sgs'],
-    ['zh-classical' => 'lzh'],
   ) {
     my $lt = Web::LangTag->new;
     $lt->onerror (sub { });
@@ -50,6 +45,10 @@ my $Data = {};
     if (/^([a-z0-9-]+) ([0-9]+)$/) {
       my $tag = $1;
       $tag =~ tr/A-Z/a-z/;
+      $tag = {
+        sb => 'wen',
+        sx => 'st',
+      }->{$tag} || $tag;
       $Data->{tags}->{$tag}->{ms} = $2;
     }
   }
@@ -100,6 +99,7 @@ my $Data = {};
     $lang =~ tr/A-Z_/a-z-/;
     $lang = {
       'ar-ar' => 'ar', # <https://developers.facebook.com/docs/internationalization>
+      'bp-in' => 'bho-in', # Bhojpuri
       'cb-iq' => 'ckb-iq',
       'ck-us' => 'chr-us',
       'cx-ph' => 'ceb-ph',
@@ -131,6 +131,23 @@ my $Data = {};
       my $code = $1;
       my $tag = $code;
       $tag =~ tr/A-Z_/a-z-/;
+      $tag = {
+        ## <http://meta.wikimedia.org/wiki/List_of_Wikipedias#Nonstandard_language_codes>
+        'simple' => 'en-simple',
+        #map-bms
+        'roa-rup' => 'rup',
+        'bat-smg' => 'sgs',
+        #cbk-zam
+        #roa-tara
+        #ksh
+        #nds-NL => nds
+        'nrm' => 'nrf',
+        'fiu-vro' => 'vro',
+        'zh-yue' => 'yue',
+        'zh-min-nan' => 'nan',
+        'zh-classical' => 'lzh',
+        'be-x-old' => 'be-tarask',
+      }->{$tag} || $tag;
       $Data->{tags}->{$tag}->{mediawiki} = $code;
     }
   }

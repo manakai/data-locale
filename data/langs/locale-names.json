@@ -55,11 +55,8 @@
       "vi-vn" : "vi"
    },
    "preferred_tags" : {
-      "bat-smg" : "sgs",
-      "be-x-old" : "be-tarask",
       "ja-jpm" : "ja-jp-mac",
-      "x-klingon" : "tlh",
-      "zh-classical" : "lzh"
+      "x-klingon" : "tlh"
    },
    "tags" : {
       "aa" : {
@@ -516,17 +513,6 @@
          "cldr" : "bas_CM",
          "native_name" : "Ɓàsàa (Kàmɛ̀rûn)"
       },
-      "bat-smg" : {
-         "bcp47_canonical" : "sgs",
-         "bcp47_errors" : [
-            {
-               "level" : "m",
-               "type" : "langtag:extlang:invalid",
-               "value" : "smg"
-            }
-         ],
-         "mediawiki" : "bat-smg"
-      },
       "bbc" : {
          "bcp47_canonical" : "bbc",
          "mediawiki" : "bbc"
@@ -561,17 +547,6 @@
       },
       "be-tarask" : {
          "bcp47_canonical" : "be-tarask",
-         "mediawiki" : "be-tarask"
-      },
-      "be-x-old" : {
-         "bcp47_canonical" : "be-tarask",
-         "bcp47_errors" : [
-            {
-               "level" : "s",
-               "type" : "langtag:privateuse",
-               "value" : "x-old"
-            }
-         ],
          "mediawiki" : "be-x-old"
       },
       "bem" : {
@@ -627,6 +602,10 @@
          "bcp47_canonical" : "bho",
          "mediawiki" : "bho"
       },
+      "bho-in" : {
+         "bcp47_canonical" : "bho-IN",
+         "facebook" : "bp_IN"
+      },
       "bi" : {
          "bcp47_canonical" : "bi",
          "mediawiki" : "bi"
@@ -681,17 +660,6 @@
          "bcp47_canonical" : "bo-IN",
          "cldr" : "bo_IN",
          "native_name" : "བོད་སྐད་ (རྒྱ་གར་)"
-      },
-      "bp-in" : {
-         "bcp47_canonical" : "bp-IN",
-         "bcp47_errors" : [
-            {
-               "level" : "m",
-               "type" : "langtag:language:invalid",
-               "value" : "bp"
-            }
-         ],
-         "facebook" : "bp_IN"
       },
       "bpy" : {
          "bcp47_canonical" : "bpy",
@@ -1693,6 +1661,10 @@
          "cldr" : "en_SI",
          "native_name" : "English (Slovenia)"
       },
+      "en-simple" : {
+         "bcp47_canonical" : "en-simple",
+         "mediawiki" : "simple"
+      },
       "en-sl" : {
          "bcp47_canonical" : "en-SL",
          "cldr" : "en_SL",
@@ -2181,17 +2153,6 @@
       "fit" : {
          "bcp47_canonical" : "fit",
          "mediawiki" : "fit"
-      },
-      "fiu-vro" : {
-         "bcp47_canonical" : "fiu-vro",
-         "bcp47_errors" : [
-            {
-               "level" : "m",
-               "type" : "langtag:extlang:invalid",
-               "value" : "vro"
-            }
-         ],
-         "mediawiki" : "fiu-vro"
       },
       "fj" : {
          "bcp47_canonical" : "fj",
@@ -3761,7 +3722,7 @@
       },
       "lzh" : {
          "bcp47_canonical" : "lzh",
-         "mediawiki" : "lzh"
+         "mediawiki" : "zh-classical"
       },
       "lzz" : {
          "bcp47_canonical" : "lzz",
@@ -4059,7 +4020,7 @@
       },
       "nan" : {
          "bcp47_canonical" : "nan",
-         "mediawiki" : "nan"
+         "mediawiki" : "zh-min-nan"
       },
       "nap" : {
          "bcp47_canonical" : "nap",
@@ -4268,8 +4229,8 @@
          "bcp47_canonical" : "nr-ZA",
          "facebook" : "nr_ZA"
       },
-      "nrm" : {
-         "bcp47_canonical" : "nrm",
+      "nrf" : {
+         "bcp47_canonical" : "nrf",
          "mediawiki" : "nrm"
       },
       "ns-za" : {
@@ -4695,17 +4656,6 @@
          "mysql" : "ro_RO",
          "native_name" : "română (România)"
       },
-      "roa-rup" : {
-         "bcp47_canonical" : "roa-rup",
-         "bcp47_errors" : [
-            {
-               "level" : "m",
-               "type" : "langtag:extlang:invalid",
-               "value" : "rup"
-            }
-         ],
-         "mediawiki" : "roa-rup"
-      },
       "roa-tara" : {
          "bcp47_canonical" : "roa-Tara",
          "bcp47_errors" : [
@@ -4848,17 +4798,6 @@
       "sat" : {
          "bcp47_canonical" : "sat",
          "mediawiki" : "sat"
-      },
-      "sb" : {
-         "bcp47_canonical" : "sb",
-         "bcp47_errors" : [
-            {
-               "level" : "m",
-               "type" : "langtag:language:invalid",
-               "value" : "sb"
-            }
-         ],
-         "ms" : "1070"
       },
       "sbp" : {
          "bcp47_canonical" : "sbp",
@@ -5015,17 +4954,6 @@
          "cldr" : "si_LK",
          "facebook" : "si_LK",
          "native_name" : "සිංහල (ශ්‍රී ලංකාව)"
-      },
-      "simple" : {
-         "bcp47_canonical" : "simple",
-         "bcp47_errors" : [
-            {
-               "level" : "m",
-               "type" : "langtag:language:invalid",
-               "value" : "simple"
-            }
-         ],
-         "mediawiki" : "simple"
       },
       "sk" : {
          "bcp47_canonical" : "sk",
@@ -5265,7 +5193,8 @@
       },
       "st" : {
          "bcp47_canonical" : "st",
-         "mediawiki" : "st"
+         "mediawiki" : "st",
+         "ms" : "1072"
       },
       "st-za" : {
          "bcp47_canonical" : "st-ZA",
@@ -5339,17 +5268,6 @@
          "bcp47_canonical" : "sw-UG",
          "cldr" : "sw_UG",
          "native_name" : "Kiswahili (Uganda)"
-      },
-      "sx" : {
-         "bcp47_canonical" : "sx",
-         "bcp47_errors" : [
-            {
-               "level" : "m",
-               "type" : "langtag:language:invalid",
-               "value" : "sx"
-            }
-         ],
-         "ms" : "1072"
       },
       "syc-sy" : {
          "bcp47_canonical" : "syc-SY",
@@ -5859,6 +5777,10 @@
          "bcp47_canonical" : "war",
          "mediawiki" : "war"
       },
+      "wen" : {
+         "bcp47_canonical" : "wen",
+         "ms" : "1070"
+      },
       "wo" : {
          "bcp47_canonical" : "wo",
          "cldr" : "wo",
@@ -5959,7 +5881,7 @@
       "yue" : {
          "bcp47_canonical" : "yue",
          "cldr" : "yue",
-         "mediawiki" : "yue",
+         "mediawiki" : "zh-yue",
          "native_name" : "粵語"
       },
       "yue-hans" : {
@@ -6005,17 +5927,6 @@
          "cldr" : "zh",
          "mediawiki" : "zh",
          "native_name" : "中文"
-      },
-      "zh-classical" : {
-         "bcp47_canonical" : "lzh",
-         "bcp47_errors" : [
-            {
-               "level" : "m",
-               "type" : "langtag:illegal",
-               "value" : "classical"
-            }
-         ],
-         "mediawiki" : "zh-classical"
       },
       "zh-cn" : {
          "bcp47_canonical" : "zh-CN",
@@ -6084,18 +5995,6 @@
          "mysql" : "zh_HK",
          "native_name" : "中文 (香港)"
       },
-      "zh-min-nan" : {
-         "bcp47_canonical" : "nan",
-         "bcp47_errors" : [
-            {
-               "level" : "s",
-               "text" : "nan",
-               "type" : "langtag:grandfathered:deprecated",
-               "value" : "zh-min-nan"
-            }
-         ],
-         "mediawiki" : "zh-min-nan"
-      },
       "zh-mo" : {
          "bcp47_canonical" : "zh-MO",
          "mediawiki" : "zh-mo",
@@ -6122,24 +6021,6 @@
          "ms" : "1028",
          "mysql" : "zh_TW",
          "native_name" : "中文 (台灣)"
-      },
-      "zh-yue" : {
-         "bcp47_canonical" : "yue",
-         "bcp47_errors" : [
-            {
-               "level" : "s",
-               "text" : "yue",
-               "type" : "langtag:redundant:deprecated",
-               "value" : "zh-yue"
-            },
-            {
-               "level" : "s",
-               "text" : "yue",
-               "type" : "langtag:extlang:preferred",
-               "value" : "yue"
-            }
-         ],
-         "mediawiki" : "zh-yue"
       },
       "zu" : {
          "bcp47_canonical" : "zu",
