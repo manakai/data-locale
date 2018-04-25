@@ -182,7 +182,7 @@ local/era-conflict-count.json: bin/generate-era-conflict-count.pl \
 	$(PERL) $< > $@
 
 local/leap-seconds.txt:
-	$(WGET) -O $@ http://www.ietf.org/timezones/data/leap-seconds.list
+	$(WGET) -O $@ https://www.ietf.org/timezones/data/leap-seconds.list
 	touch $@
 
 data/datetime/durations.json: bin/datetime-durations.pl
@@ -200,7 +200,7 @@ data/timezones/mail-names.json: bin/timezones-mail-names.pl
 	$(PERL) $< > $@
 
 local/cldr-locales.html:
-	$(WGET) -O $@ http://www.unicode.org/repos/cldr/tags/latest/common/main/
+	$(WGET) -O $@ https://www.unicode.org/repos/cldr/tags/latest/common/main/
 local/cldr-locales.txt: local/cldr-locales.html
 	perl -e 'while (<>) { if (/href="([0-9a-zA-Z_]+)\.xml"/) { print "$$1\n" } }' < $< > $@
 local/fx-locales.json:
@@ -211,7 +211,7 @@ local/mediawiki-locales.txt: local/mediawiki-locales.php
 	perl -e 'local $$/ = undef; $$x = <>; $$x =~ s{/\*.*?\*/}{}gs; $$x =~ s{#.*\n}{\n}g; $$q = chr 0x27; while ($$x =~ /$$q([a-z0-9-]+)$$q\s*=>/g) { print "$$1\n" }' < $< > $@
 
 local/cldr-core.zip:
-	$(WGET) -O $@ http://www.unicode.org/Public/cldr/latest/core.zip
+	$(WGET) -O $@ https://www.unicode.org/Public/cldr/latest/core.zip
 local/cldr-core-files: local/cldr-core.zip
 	mkdir -p local/cldr-core
 	cd local/cldr-core && unzip ../cldr-core.zip
@@ -231,9 +231,9 @@ data/langs/locale-names.json: bin/langs-locale-names.pl \
 	$(PERL) $< > $@
 
 local/cldr-plurals.xml:
-	$(WGET) -O $@ http://www.unicode.org/repos/cldr/trunk/common/supplemental/plurals.xml
+	$(WGET) -O $@ https://www.unicode.org/repos/cldr/trunk/common/supplemental/plurals.xml
 local/cldr-plurals-ordinals.xml:
-	$(WGET) -O $@ http://www.unicode.org/repos/cldr/trunk/common/supplemental/ordinals.xml
+	$(WGET) -O $@ https://www.unicode.org/repos/cldr/trunk/common/supplemental/ordinals.xml
 local/cldr-plurals.json: \
   local/cldr-plurals.xml local/cldr-plurals-ordinals.xml \
   bin/parse-cldr-plurals.pl
