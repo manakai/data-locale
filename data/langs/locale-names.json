@@ -3261,8 +3261,7 @@
                "value" : "cyrl"
             }
          ],
-         "mediawiki" : "kk-cyrl",
-         "native_name" : "қазақ тілі (кирилл жазуы)"
+         "mediawiki" : "kk-cyrl"
       },
       "kk-kz" : {
          "bcp47_canonical" : "kk-KZ",
@@ -3402,8 +3401,7 @@
       },
       "ks-arab" : {
          "bcp47_canonical" : "ks-Arab",
-         "mediawiki" : "ks-arab",
-         "native_name" : "کٲشُر (اَربی)"
+         "mediawiki" : "ks-arab"
       },
       "ks-deva" : {
          "bcp47_canonical" : "ks-Deva",
@@ -5562,8 +5560,7 @@
       },
       "ug-arab" : {
          "bcp47_canonical" : "ug-Arab",
-         "mediawiki" : "ug-arab",
-         "native_name" : "ئۇيغۇرچە (ئەرەب)"
+         "mediawiki" : "ug-arab"
       },
       "ug-cn" : {
          "bcp47_canonical" : "ug-CN",
