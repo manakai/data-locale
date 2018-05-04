@@ -67,6 +67,10 @@
          "bcp47_canonical" : "ab",
          "mediawiki" : "ab"
       },
+      "abs" : {
+         "bcp47_canonical" : "abs",
+         "mediawiki" : "abs"
+      },
       "ace" : {
          "bcp47_canonical" : "ace",
          "mediawiki" : "ace"
