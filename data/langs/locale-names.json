@@ -4944,6 +4944,10 @@
          "bcp47_canonical" : "shn",
          "mediawiki" : "shn"
       },
+      "shy-latn" : {
+         "bcp47_canonical" : "shy-Latn",
+         "mediawiki" : "shy-latn"
+      },
       "si" : {
          "bcp47_canonical" : "si",
          "cldr" : "si",
