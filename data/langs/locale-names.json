@@ -747,6 +747,10 @@
          "cldr" : "bs_Latn_BA",
          "native_name" : "bosanski (latinica, Bosna i Hercegovina)"
       },
+      "btm" : {
+         "bcp47_canonical" : "btm",
+         "mediawiki" : "btm"
+      },
       "bto" : {
          "bcp47_canonical" : "bto",
          "mediawiki" : "bto"
