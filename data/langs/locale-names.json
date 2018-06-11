@@ -5924,6 +5924,7 @@
       "zgh" : {
          "bcp47_canonical" : "zgh",
          "cldr" : "zgh",
+         "mediawiki" : "zgh",
          "native_name" : "ⵜⴰⵎⴰⵣⵉⵖⵜ"
       },
       "zgh-ma" : {
