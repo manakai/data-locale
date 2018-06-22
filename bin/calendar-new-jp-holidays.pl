@@ -50,6 +50,7 @@ my @Shunbun = (
   [qw(2124 2155 20 20 21 21)],
   [qw(2156 2187 20 20 20 21)],
   [qw(2188 2199 20 20 20 20)],
+  [qw(2200 2223 21 21 21 21)],
 );
 
 my @Shuubun = (
@@ -68,6 +69,7 @@ my @Shuubun = (
   [qw(2104 2139 23 23 23 23)],
   [qw(2140 2167 22 23 23 23)],
   [qw(2168 2199 22 22 23 23)],
+  [qw(2200 2227 23 23 23 24)],
 );
 
 sub get_sday ($$) {
@@ -234,7 +236,7 @@ use JSON::PS;
 
 my $Data = {};
 
-for my $year (1870..2100) {
+for my $year (1870..2200) {
   for my $month (1..12) {
     for my $day (1..31) {
       my $name = isholiday ($year, $month, $day) or next;
