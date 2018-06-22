@@ -3,8 +3,8 @@
 use Time::Local qw(timegm_nocheck);
 
 ## 祝日、祭日
-## <http://ja.wikipedia.org/wiki/%E7%A5%9D%E7%A5%AD%E6%97%A5>
-## <http://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E7%A5%9D%E6%97%A5>
+## <https://ja.wikipedia.org/wiki/%E7%A5%9D%E7%A5%AD%E6%97%A5>
+## <https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E7%A5%9D%E6%97%A5>
 
 sub _d {$_[0] < 1870? 0: timegm_nocheck(0,0,0,$_[2],$_[1]-1,$_[0])}
 my %d = (
@@ -25,10 +25,11 @@ my %d = (
     H17 => _d(2007,1,1),	## H17-05-20
     H26 => _d(2016,1,1),        ## H26 (2014)
     H31 => _d(2019,5,1),        ## H29 Law #63 / H29 Ordinance #302
+    H32 => _d(2020,1,1),        ## H30 Law #55, #57
 );
 
 ## 春分、秋分
-## <http://www.nao.ac.jp/faq/a0301.html>
+## <https://www.nao.ac.jp/faq/a0301.html>
 ## <http://www.asahi-net.or.jp/~ci5m-nmr/misc/equinox.html>
 ## <https://ja.wikipedia.org/wiki/%E6%98%A5%E5%88%86>
 ## <https://ja.wikipedia.org/wiki/%E7%A7%8B%E5%88%86>
@@ -149,16 +150,19 @@ sub isholiday ($$$) {
     	## Heisei 5 Law No.32
   } elsif ($month == 7) {
     return '海の日' if $day == 20 && $d{H7} <= $time && $time < $d{H13};
-    return '海の日' if $wday == $MONDAY && 15 <= $day && $day <= 21 && $d{H13} <= $time;
+    return '海の日' if $wday == $MONDAY && 15 <= $day && $day <= 21 && $d{H13} <= $time && $year != 2020;
+    return '海の日' if $day == 23 && $year == 2020;
+    return 'スポーツの日' if $day == 24 && $year == 2020;
     return '振替休日' if $wday == $MONDAY && $day == 21 && $d{H7} <= $time && $time < $d{H13};
 
     return '明治天皇祭' if $day == 30 && $d{T1} <= $time && $time < $d{S2};
   } elsif ($month == 8) {
-    ## <http://wiki.suikawiki.org/n/%E6%97%A5%E6%9C%AC%E3%81%AE%E7%A5%9D%E6%97%A5#anchor-211>
+    ## <https://wiki.suikawiki.org/n/%E6%97%A5%E6%9C%AC%E3%81%AE%E7%A5%9D%E6%97%A5#anchor-211>
     return '天長節' if $day == 31 && $year == 1912;
 
     return '天長節' if $day == 31 && $d{T1} <= $time && $time < $d{S2};
-    return '山の日' if $day == 11 && $d{H26} <= $time;
+    return '山の日' if $day == 11 && $d{H26} <= $time && $year != 2020;
+    return '山の日' if $day == 10 && $year == 2020;
     return '振替休日' if $wday == $MONDAY && $day == 12 && $d{H26} <= $time;
   } elsif ($month == 9) {
     return '敬老の日' if $day == 15 && $d{S41} <= $time && $time < $d{H13};
@@ -177,8 +181,10 @@ sub isholiday ($$$) {
     
     return '神嘗祭' if $day == 17 && $d{M6} <= $time && $time < $d{M12};
   } elsif ($month == 10) {
+    return 'スポーツの日' if $wday == $MONDAY && 8 <= $day && $day <= 14 &&
+                $d{H32} <= $time && $year != 2020;
     return '体育の日' if $wday == $MONDAY && 8 <= $day && $day <= 14 &&
-                $d{H10} <= $time;
+                $d{H10} <= $time && $time < $d{H32};
     return '体育の日' if $day == 10 && $d{S41} <= $time && $time < $d{H10};
     return '振替休日' if $wday == $MONDAY && $day == 11 &&
                 $d{S48} <= $time && $time < $d{H10};
@@ -217,7 +223,7 @@ sub isholiday ($$$) {
 1;
 
   ## Derived from
-  ## <http://suika.suikawiki.org/gate/cvs/melon/suikacvs/perl/lib/Calender/Special/JP.pm?revision=1.1&view=markup>
+  ## <https://suika.suikawiki.org/gate/cvs/melon/suikacvs/perl/lib/Calender/Special/JP.pm?revision=1.1&view=markup>
   ## (2001/12/24 08:13:56).
   ##
   ## This program is free software; you can redistribute it and/or
@@ -238,7 +244,7 @@ for my $year (1870..2100) {
 }
 
 ## 国民の休日
-## <http://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E4%BC%91%E6%97%A5>
+## <https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E4%BC%91%E6%97%A5>
 
 ## Government holidays 1873-1876.3
 for my $year (1873..1875) {

@@ -780,3 +780,7 @@ source
 sw 育喜
 
 def[美禄]
+
+def[禅源]
+sw 禅源
+#korea (高麗)
