@@ -1820,6 +1820,7 @@
          "chrome_web_store" : "es_419",
          "cldr" : "es_419",
          "facebook" : "es_LA",
+         "mediawiki" : "es-419",
          "native_name" : "español (Latinoamérica)"
       },
       "es-ar" : {
