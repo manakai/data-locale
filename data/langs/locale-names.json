@@ -3885,6 +3885,10 @@
          "mysql" : "mn_MN",
          "native_name" : "монгол (Монгол)"
       },
+      "mni" : {
+         "bcp47_canonical" : "mni",
+         "mediawiki" : "mni"
+      },
       "mo" : {
          "bcp47_canonical" : "ro",
          "bcp47_errors" : [
