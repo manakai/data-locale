@@ -835,6 +835,7 @@
                "rof" : 1,
                "rwk" : 1,
                "saq" : 1,
+               "sc" : 1,
                "scn" : 1,
                "sd" : 1,
                "sdh" : 1,
@@ -929,6 +930,7 @@
          "cldr_locales" : {
             "ordinal" : {
                "it" : 1,
+               "sc" : 1,
                "scn" : 1
             }
          },
