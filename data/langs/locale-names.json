@@ -4297,6 +4297,7 @@
       },
       "oc" : {
          "bcp47_canonical" : "oc",
+         "firefox" : "oc",
          "mediawiki" : "oc"
       },
       "olo" : {
