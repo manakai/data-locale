@@ -105,7 +105,8 @@
          "firefox" : "af",
          "mediawiki" : "af",
          "ms" : "1078",
-         "native_name" : "Afrikaans"
+         "native_name" : "Afrikaans",
+         "rss2" : "af"
       },
       "af-na" : {
          "bcp47_canonical" : "af-NA",
@@ -539,7 +540,8 @@
          "firefox" : "be",
          "mediawiki" : "be",
          "ms" : "1059",
-         "native_name" : "беларуская"
+         "native_name" : "беларуская",
+         "rss2" : "be"
       },
       "be-by" : {
          "bcp47_canonical" : "be-BY",
@@ -584,7 +586,8 @@
          "firefox" : "bg",
          "mediawiki" : "bg",
          "ms" : "1026",
-         "native_name" : "български"
+         "native_name" : "български",
+         "rss2" : "bg"
       },
       "bg-bg" : {
          "bcp47_canonical" : "bg-BG",
@@ -770,7 +773,8 @@
          "firefox" : "ca",
          "mediawiki" : "ca",
          "ms" : "1027",
-         "native_name" : "català"
+         "native_name" : "català",
+         "rss2" : "ca"
       },
       "ca-ad" : {
          "bcp47_canonical" : "ca-AD",
@@ -938,7 +942,8 @@
          "firefox" : "cs",
          "mediawiki" : "cs",
          "ms" : "1029",
-         "native_name" : "čeština"
+         "native_name" : "čeština",
+         "rss2" : "cs"
       },
       "cs-cz" : {
          "bcp47_canonical" : "cs-CZ",
@@ -987,7 +992,8 @@
          "firefox" : "da",
          "mediawiki" : "da",
          "ms" : "1030",
-         "native_name" : "dansk"
+         "native_name" : "dansk",
+         "rss2" : "da"
       },
       "da-dk" : {
          "bcp47_canonical" : "da-DK",
@@ -1019,7 +1025,8 @@
          "firefox" : "de",
          "mediawiki" : "de",
          "ms" : "1031",
-         "native_name" : "Deutsch"
+         "native_name" : "Deutsch",
+         "rss2" : "de"
       },
       "de-at" : {
          "bcp47_canonical" : "de-AT",
@@ -1028,7 +1035,8 @@
          "mediawiki" : "de-at",
          "ms" : "3079",
          "mysql" : "de_AT",
-         "native_name" : "Deutsch (Österreich)"
+         "native_name" : "Deutsch (Österreich)",
+         "rss2" : "de-at"
       },
       "de-be" : {
          "bcp47_canonical" : "de-BE",
@@ -1043,7 +1051,8 @@
          "mediawiki" : "de-ch",
          "ms" : "2055",
          "mysql" : "de_CH",
-         "native_name" : "Deutsch (Schweiz)"
+         "native_name" : "Deutsch (Schweiz)",
+         "rss2" : "de-ch"
       },
       "de-de" : {
          "bcp47_canonical" : "de-DE",
@@ -1051,7 +1060,8 @@
          "facebook" : "de_DE",
          "java" : "de_DE",
          "mysql" : "de_DE",
-         "native_name" : "Deutsch (Deutschland)"
+         "native_name" : "Deutsch (Deutschland)",
+         "rss2" : "de-de"
       },
       "de-formal" : {
          "bcp47_canonical" : "de-formal",
@@ -1073,7 +1083,8 @@
          "bcp47_canonical" : "de-LI",
          "cldr" : "de_LI",
          "ms" : "5127",
-         "native_name" : "Deutsch (Liechtenstein)"
+         "native_name" : "Deutsch (Liechtenstein)",
+         "rss2" : "de-li"
       },
       "de-lu" : {
          "bcp47_canonical" : "de-LU",
@@ -1081,7 +1092,8 @@
          "java" : "de_LU",
          "ms" : "4103",
          "mysql" : "de_LU",
-         "native_name" : "Deutsch (Luxemburg)"
+         "native_name" : "Deutsch (Luxemburg)",
+         "rss2" : "de-lu"
       },
       "din" : {
          "bcp47_canonical" : "din",
@@ -1193,7 +1205,8 @@
          "firefox" : "el",
          "mediawiki" : "el",
          "ms" : "1032",
-         "native_name" : "Ελληνικά"
+         "native_name" : "Ελληνικά",
+         "rss2" : "el"
       },
       "el-cy" : {
          "bcp47_canonical" : "el-CY",
@@ -1225,7 +1238,8 @@
          "chrome_web_store" : "en",
          "cldr" : "en",
          "mediawiki" : "en",
-         "native_name" : "English"
+         "native_name" : "English",
+         "rss2" : "en"
       },
       "en-001" : {
          "bcp47_canonical" : "en-001",
@@ -1263,7 +1277,8 @@
          "java" : "en_AU",
          "ms" : "3081",
          "mysql" : "en_AU",
-         "native_name" : "English (Australia)"
+         "native_name" : "English (Australia)",
+         "rss2" : "en-au"
       },
       "en-bb" : {
          "bcp47_canonical" : "en-BB",
@@ -1299,7 +1314,8 @@
          "bcp47_canonical" : "en-BZ",
          "cldr" : "en_BZ",
          "ms" : "10249",
-         "native_name" : "English (Belize)"
+         "native_name" : "English (Belize)",
+         "rss2" : "en-bz"
       },
       "en-ca" : {
          "bcp47_canonical" : "en-CA",
@@ -1308,7 +1324,8 @@
          "mediawiki" : "en-ca",
          "ms" : "4105",
          "mysql" : "en_CA",
-         "native_name" : "English (Canada)"
+         "native_name" : "English (Canada)",
+         "rss2" : "en-ca"
       },
       "en-cc" : {
          "bcp47_canonical" : "en-CC",
@@ -1395,7 +1412,8 @@
          "mediawiki" : "en-gb",
          "ms" : "2057",
          "mysql" : "en_GB",
-         "native_name" : "English (UK)"
+         "native_name" : "English (UK)",
+         "rss2" : "en-gb"
       },
       "en-gd" : {
          "bcp47_canonical" : "en-GD",
@@ -1442,7 +1460,8 @@
          "cldr" : "en_IE",
          "java" : "en_IE",
          "ms" : "6153",
-         "native_name" : "English (Ireland)"
+         "native_name" : "English (Ireland)",
+         "rss2" : "en-ie"
       },
       "en-il" : {
          "bcp47_canonical" : "en-IL",
@@ -1475,7 +1494,8 @@
          "bcp47_canonical" : "en-JM",
          "cldr" : "en_JM",
          "ms" : "8201",
-         "native_name" : "English (Jamaica)"
+         "native_name" : "English (Jamaica)",
+         "rss2" : "en-jm"
       },
       "en-ke" : {
          "bcp47_canonical" : "en-KE",
@@ -1594,7 +1614,8 @@
          "java" : "en_NZ",
          "ms" : "5129",
          "mysql" : "en_NZ",
-         "native_name" : "English (New Zealand)"
+         "native_name" : "English (New Zealand)",
+         "rss2" : "en-nz"
       },
       "en-pg" : {
          "bcp47_canonical" : "en-PG",
@@ -1606,7 +1627,8 @@
          "cldr" : "en_PH",
          "java" : "en_PH",
          "mysql" : "en_PH",
-         "native_name" : "English (Philippines)"
+         "native_name" : "English (Philippines)",
+         "rss2" : "en-ph"
       },
       "en-pk" : {
          "bcp47_canonical" : "en-PK",
@@ -1712,7 +1734,8 @@
          "bcp47_canonical" : "en-TT",
          "cldr" : "en_TT",
          "ms" : "11273",
-         "native_name" : "English (Trinidad & Tobago)"
+         "native_name" : "English (Trinidad & Tobago)",
+         "rss2" : "en-tt"
       },
       "en-tv" : {
          "bcp47_canonical" : "en-TV",
@@ -1743,7 +1766,8 @@
          "java" : "en_US",
          "ms" : "1033",
          "mysql" : "en_US",
-         "native_name" : "English (US)"
+         "native_name" : "English (US)",
+         "rss2" : "en-us"
       },
       "en-us-u-va-posix" : {
          "bcp47_canonical" : "en-US-u-va-posix",
@@ -1781,7 +1805,8 @@
          "java" : "en_ZA",
          "ms" : "7177",
          "mysql" : "en_ZA",
-         "native_name" : "English (South Africa)"
+         "native_name" : "English (South Africa)",
+         "rss2" : "en-za"
       },
       "en-zm" : {
          "bcp47_canonical" : "en-ZM",
@@ -1792,7 +1817,8 @@
          "bcp47_canonical" : "en-ZW",
          "cldr" : "en_ZW",
          "mysql" : "en_ZW",
-         "native_name" : "English (Zimbabwe)"
+         "native_name" : "English (Zimbabwe)",
+         "rss2" : "en-zw"
       },
       "eo" : {
          "bcp47_canonical" : "eo",
@@ -1813,7 +1839,8 @@
          "cldr" : "es",
          "mediawiki" : "es",
          "ms" : "1034",
-         "native_name" : "español"
+         "native_name" : "español",
+         "rss2" : "es"
       },
       "es-419" : {
          "bcp47_canonical" : "es-419",
@@ -1830,7 +1857,8 @@
          "java" : "es_AR",
          "ms" : "11274",
          "mysql" : "es_AR",
-         "native_name" : "español (Argentina)"
+         "native_name" : "español (Argentina)",
+         "rss2" : "es-ar"
       },
       "es-bo" : {
          "bcp47_canonical" : "es-BO",
@@ -1838,7 +1866,8 @@
          "java" : "es_BO",
          "ms" : "16394",
          "mysql" : "es_BO",
-         "native_name" : "español (Bolivia)"
+         "native_name" : "español (Bolivia)",
+         "rss2" : "es-bo"
       },
       "es-br" : {
          "bcp47_canonical" : "es-BR",
@@ -1857,7 +1886,8 @@
          "java" : "es_CL",
          "ms" : "13322",
          "mysql" : "es_CL",
-         "native_name" : "español (Chile)"
+         "native_name" : "español (Chile)",
+         "rss2" : "es-cl"
       },
       "es-co" : {
          "bcp47_canonical" : "es-CO",
@@ -1865,7 +1895,8 @@
          "java" : "es_CO",
          "ms" : "9226",
          "mysql" : "es_CO",
-         "native_name" : "español (Colombia)"
+         "native_name" : "español (Colombia)",
+         "rss2" : "es-co"
       },
       "es-cr" : {
          "bcp47_canonical" : "es-CR",
@@ -1873,7 +1904,8 @@
          "java" : "es_CR",
          "ms" : "5130",
          "mysql" : "es_CR",
-         "native_name" : "español (Costa Rica)"
+         "native_name" : "español (Costa Rica)",
+         "rss2" : "es-cr"
       },
       "es-cu" : {
          "bcp47_canonical" : "es-CU",
@@ -1886,7 +1918,8 @@
          "java" : "es_DO",
          "ms" : "7178",
          "mysql" : "es_DO",
-         "native_name" : "español (República Dominicana)"
+         "native_name" : "español (República Dominicana)",
+         "rss2" : "es-do"
       },
       "es-ea" : {
          "bcp47_canonical" : "es-EA",
@@ -1899,7 +1932,8 @@
          "java" : "es_EC",
          "ms" : "12298",
          "mysql" : "es_EC",
-         "native_name" : "español (Ecuador)"
+         "native_name" : "español (Ecuador)",
+         "rss2" : "es-ec"
       },
       "es-es" : {
          "bcp47_canonical" : "es-ES",
@@ -1908,7 +1942,8 @@
          "firefox" : "es-ES",
          "java" : "es_ES",
          "mysql" : "es_ES",
-         "native_name" : "español (España)"
+         "native_name" : "español (España)",
+         "rss2" : "es-es"
       },
       "es-formal" : {
          "bcp47_canonical" : "es-formal",
@@ -1932,7 +1967,8 @@
          "java" : "es_GT",
          "ms" : "4106",
          "mysql" : "es_GT",
-         "native_name" : "español (Guatemala)"
+         "native_name" : "español (Guatemala)",
+         "rss2" : "es-gt"
       },
       "es-hn" : {
          "bcp47_canonical" : "es-HN",
@@ -1940,7 +1976,8 @@
          "java" : "es_HN",
          "ms" : "18442",
          "mysql" : "es_HN",
-         "native_name" : "español (Honduras)"
+         "native_name" : "español (Honduras)",
+         "rss2" : "es-hn"
       },
       "es-ic" : {
          "bcp47_canonical" : "es-IC",
@@ -1955,7 +1992,8 @@
          "java" : "es_MX",
          "ms" : "2058",
          "mysql" : "es_MX",
-         "native_name" : "español (México)"
+         "native_name" : "español (México)",
+         "rss2" : "es-mx"
       },
       "es-ni" : {
          "bcp47_canonical" : "es-NI",
@@ -1963,7 +2001,8 @@
          "java" : "es_NI",
          "ms" : "19466",
          "mysql" : "es_NI",
-         "native_name" : "español (Nicaragua)"
+         "native_name" : "español (Nicaragua)",
+         "rss2" : "es-ni"
       },
       "es-pa" : {
          "bcp47_canonical" : "es-PA",
@@ -1971,7 +2010,8 @@
          "java" : "es_PA",
          "ms" : "6154",
          "mysql" : "es_PA",
-         "native_name" : "español (Panamá)"
+         "native_name" : "español (Panamá)",
+         "rss2" : "es-pa"
       },
       "es-pe" : {
          "bcp47_canonical" : "es-PE",
@@ -1979,7 +2019,8 @@
          "java" : "es_PE",
          "ms" : "10250",
          "mysql" : "es_PE",
-         "native_name" : "español (Perú)"
+         "native_name" : "español (Perú)",
+         "rss2" : "es-pe"
       },
       "es-ph" : {
          "bcp47_canonical" : "es-PH",
@@ -1992,7 +2033,8 @@
          "java" : "es_PR",
          "ms" : "20490",
          "mysql" : "es_PR",
-         "native_name" : "español (Puerto Rico)"
+         "native_name" : "español (Puerto Rico)",
+         "rss2" : "es-pr"
       },
       "es-py" : {
          "bcp47_canonical" : "es-PY",
@@ -2000,7 +2042,8 @@
          "java" : "es_PY",
          "ms" : "15370",
          "mysql" : "es_PY",
-         "native_name" : "español (Paraguay)"
+         "native_name" : "español (Paraguay)",
+         "rss2" : "es-py"
       },
       "es-sv" : {
          "bcp47_canonical" : "es-SV",
@@ -2008,7 +2051,8 @@
          "java" : "es_SV",
          "ms" : "17418",
          "mysql" : "es_SV",
-         "native_name" : "español (El Salvador)"
+         "native_name" : "español (El Salvador)",
+         "rss2" : "es-sv"
       },
       "es-us" : {
          "bcp47_canonical" : "es-US",
@@ -2023,7 +2067,8 @@
          "java" : "es_UY",
          "ms" : "14346",
          "mysql" : "es_UY",
-         "native_name" : "español (Uruguay)"
+         "native_name" : "español (Uruguay)",
+         "rss2" : "es-uy"
       },
       "es-ve" : {
          "bcp47_canonical" : "es-VE",
@@ -2031,7 +2076,8 @@
          "java" : "es_VE",
          "ms" : "8202",
          "mysql" : "es_VE",
-         "native_name" : "español (Venezuela)"
+         "native_name" : "español (Venezuela)",
+         "rss2" : "es-ve"
       },
       "et" : {
          "bcp47_canonical" : "et",
@@ -2040,7 +2086,8 @@
          "firefox" : "et",
          "mediawiki" : "et",
          "ms" : "1061",
-         "native_name" : "eesti"
+         "native_name" : "eesti",
+         "rss2" : "et"
       },
       "et-ee" : {
          "bcp47_canonical" : "et-EE",
@@ -2056,7 +2103,8 @@
          "firefox" : "eu",
          "mediawiki" : "eu",
          "ms" : "1069",
-         "native_name" : "euskara"
+         "native_name" : "euskara",
+         "rss2" : "eu"
       },
       "eu-es" : {
          "bcp47_canonical" : "eu-ES",
@@ -2137,7 +2185,8 @@
          "firefox" : "fi",
          "mediawiki" : "fi",
          "ms" : "1035",
-         "native_name" : "suomi"
+         "native_name" : "suomi",
+         "rss2" : "fi"
       },
       "fi-fi" : {
          "bcp47_canonical" : "fi-FI",
@@ -2172,7 +2221,8 @@
          "cldr" : "fo",
          "mediawiki" : "fo",
          "ms" : "1080",
-         "native_name" : "føroyskt"
+         "native_name" : "føroyskt",
+         "rss2" : "fo"
       },
       "fo-dk" : {
          "bcp47_canonical" : "fo-DK",
@@ -2193,7 +2243,8 @@
          "firefox" : "fr",
          "mediawiki" : "fr",
          "ms" : "1036",
-         "native_name" : "français"
+         "native_name" : "français",
+         "rss2" : "fr"
       },
       "fr-be" : {
          "bcp47_canonical" : "fr-BE",
@@ -2201,7 +2252,8 @@
          "java" : "fr_BE",
          "ms" : "2060",
          "mysql" : "fr_BE",
-         "native_name" : "français (Belgique)"
+         "native_name" : "français (Belgique)",
+         "rss2" : "fr-be"
       },
       "fr-bf" : {
          "bcp47_canonical" : "fr-BF",
@@ -2230,7 +2282,8 @@
          "java" : "fr_CA",
          "ms" : "3084",
          "mysql" : "fr_CA",
-         "native_name" : "français (Canada)"
+         "native_name" : "français (Canada)",
+         "rss2" : "fr-ca"
       },
       "fr-cd" : {
          "bcp47_canonical" : "fr-CD",
@@ -2253,7 +2306,8 @@
          "java" : "fr_CH",
          "ms" : "4108",
          "mysql" : "fr_CH",
-         "native_name" : "français (Suisse)"
+         "native_name" : "français (Suisse)",
+         "rss2" : "fr-ch"
       },
       "fr-ci" : {
          "bcp47_canonical" : "fr-CI",
@@ -2281,7 +2335,8 @@
          "facebook" : "fr_FR",
          "java" : "fr_FR",
          "mysql" : "fr_FR",
-         "native_name" : "français (France)"
+         "native_name" : "français (France)",
+         "rss2" : "fr-fr"
       },
       "fr-ga" : {
          "bcp47_canonical" : "fr-GA",
@@ -2324,7 +2379,8 @@
          "java" : "fr_LU",
          "ms" : "5132",
          "mysql" : "fr_LU",
-         "native_name" : "français (Luxembourg)"
+         "native_name" : "français (Luxembourg)",
+         "rss2" : "fr-lu"
       },
       "fr-ma" : {
          "bcp47_canonical" : "fr-MA",
@@ -2334,7 +2390,8 @@
       "fr-mc" : {
          "bcp47_canonical" : "fr-MC",
          "cldr" : "fr_MC",
-         "native_name" : "français (Monaco)"
+         "native_name" : "français (Monaco)",
+         "rss2" : "fr-mc"
       },
       "fr-mf" : {
          "bcp47_canonical" : "fr-MF",
@@ -2481,7 +2538,8 @@
          "bcp47_canonical" : "ga",
          "cldr" : "ga",
          "mediawiki" : "ga",
-         "native_name" : "Gaeilge"
+         "native_name" : "Gaeilge",
+         "rss2" : "ga"
       },
       "ga-ie" : {
          "bcp47_canonical" : "ga-IE",
@@ -2517,7 +2575,8 @@
          "firefox" : "gd",
          "mediawiki" : "gd",
          "ms" : "1084",
-         "native_name" : "Gàidhlig"
+         "native_name" : "Gàidhlig",
+         "rss2" : "gd"
       },
       "gd-gb" : {
          "bcp47_canonical" : "gd-GB",
@@ -2529,7 +2588,8 @@
          "cldr" : "gl",
          "firefox" : "gl",
          "mediawiki" : "gl",
-         "native_name" : "galego"
+         "native_name" : "galego",
+         "rss2" : "gl"
       },
       "gl-es" : {
          "bcp47_canonical" : "gl-ES",
@@ -2666,7 +2726,8 @@
          "bcp47_canonical" : "haw",
          "cldr" : "haw",
          "mediawiki" : "haw",
-         "native_name" : "ʻŌlelo Hawaiʻi"
+         "native_name" : "ʻŌlelo Hawaiʻi",
+         "rss2" : "haw"
       },
       "haw-us" : {
          "bcp47_canonical" : "haw-US",
@@ -2729,7 +2790,8 @@
          "firefox" : "hr",
          "mediawiki" : "hr",
          "ms" : "1050",
-         "native_name" : "hrvatski"
+         "native_name" : "hrvatski",
+         "rss2" : "hr"
       },
       "hr-ba" : {
          "bcp47_canonical" : "hr-BA",
@@ -2775,7 +2837,8 @@
          "firefox" : "hu",
          "mediawiki" : "hu",
          "ms" : "1038",
-         "native_name" : "magyar"
+         "native_name" : "magyar",
+         "rss2" : "hu"
       },
       "hu-formal" : {
          "bcp47_canonical" : "hu-formal",
@@ -2886,7 +2949,8 @@
                "value" : "in"
             }
          ],
-         "ms" : "1057"
+         "ms" : "1057",
+         "rss2" : "in"
       },
       "in-id" : {
          "bcp47_canonical" : "id-ID",
@@ -2914,7 +2978,8 @@
          "firefox" : "is",
          "mediawiki" : "is",
          "ms" : "1039",
-         "native_name" : "íslenska"
+         "native_name" : "íslenska",
+         "rss2" : "is"
       },
       "is-is" : {
          "bcp47_canonical" : "is-IS",
@@ -2931,7 +2996,8 @@
          "firefox" : "it",
          "mediawiki" : "it",
          "ms" : "1040",
-         "native_name" : "italiano"
+         "native_name" : "italiano",
+         "rss2" : "it"
       },
       "it-ch" : {
          "bcp47_canonical" : "it-CH",
@@ -2939,7 +3005,8 @@
          "java" : "it_CH",
          "ms" : "2064",
          "mysql" : "it_CH",
-         "native_name" : "italiano (Svizzera)"
+         "native_name" : "italiano (Svizzera)",
+         "rss2" : "it-ch"
       },
       "it-it" : {
          "bcp47_canonical" : "it-IT",
@@ -2947,7 +3014,8 @@
          "facebook" : "it_IT",
          "java" : "it_IT",
          "mysql" : "it_IT",
-         "native_name" : "italiano (Italia)"
+         "native_name" : "italiano (Italia)",
+         "rss2" : "it-it"
       },
       "it-sm" : {
          "bcp47_canonical" : "it-SM",
@@ -2982,7 +3050,8 @@
          "firefox" : "ja",
          "mediawiki" : "ja",
          "ms" : "1041",
-         "native_name" : "日本語"
+         "native_name" : "日本語",
+         "rss2" : "ja"
       },
       "ja-2ch" : {
          "bcp47_canonical" : "ja-2ch",
@@ -3352,7 +3421,8 @@
          "firefox" : "ko",
          "mediawiki" : "ko",
          "ms" : "1042",
-         "native_name" : "한국어"
+         "native_name" : "한국어",
+         "rss2" : "ko"
       },
       "ko-kp" : {
          "bcp47_canonical" : "ko-KP",
@@ -3848,7 +3918,8 @@
          "firefox" : "mk",
          "mediawiki" : "mk",
          "ms" : "1071",
-         "native_name" : "македонски"
+         "native_name" : "македонски",
+         "rss2" : "mk"
       },
       "mk-mk" : {
          "bcp47_canonical" : "mk-MK",
@@ -4132,7 +4203,8 @@
          "firefox" : "nl",
          "mediawiki" : "nl",
          "ms" : "1043",
-         "native_name" : "Nederlands"
+         "native_name" : "Nederlands",
+         "rss2" : "nl"
       },
       "nl-aw" : {
          "bcp47_canonical" : "nl-AW",
@@ -4146,7 +4218,8 @@
          "java" : "nl_BE",
          "ms" : "2067",
          "mysql" : "nl_BE",
-         "native_name" : "Nederlands (België)"
+         "native_name" : "Nederlands (België)",
+         "rss2" : "nl-be"
       },
       "nl-bq" : {
          "bcp47_canonical" : "nl-BQ",
@@ -4175,7 +4248,8 @@
          "facebook" : "nl_NL",
          "java" : "nl_NL",
          "mysql" : "nl_NL",
-         "native_name" : "Nederlands (Nederland)"
+         "native_name" : "Nederlands (Nederland)",
+         "rss2" : "nl-nl"
       },
       "nl-sr" : {
          "bcp47_canonical" : "nl-SR",
@@ -4226,7 +4300,8 @@
          "chrome_web_store" : "no",
          "mediawiki" : "no",
          "ms" : "1044",
-         "native_name" : "norsk"
+         "native_name" : "norsk",
+         "rss2" : "no"
       },
       "no-no" : {
          "bcp47_canonical" : "no-NO",
@@ -4439,7 +4514,8 @@
          "firefox" : "pl",
          "mediawiki" : "pl",
          "ms" : "1045",
-         "native_name" : "polski"
+         "native_name" : "polski",
+         "rss2" : "pl"
       },
       "pl-pl" : {
          "bcp47_canonical" : "pl-PL",
@@ -4489,7 +4565,8 @@
          "cldr" : "pt",
          "mediawiki" : "pt",
          "ms" : "2070",
-         "native_name" : "português"
+         "native_name" : "português",
+         "rss2" : "pt"
       },
       "pt-ao" : {
          "bcp47_canonical" : "pt-AO",
@@ -4506,7 +4583,8 @@
          "mediawiki" : "pt-br",
          "ms" : "1046",
          "mysql" : "pt_BR",
-         "native_name" : "português (Brasil)"
+         "native_name" : "português (Brasil)",
+         "rss2" : "pt-br"
       },
       "pt-ch" : {
          "bcp47_canonical" : "pt-CH",
@@ -4551,7 +4629,8 @@
          "firefox" : "pt-PT",
          "java" : "pt_PT",
          "mysql" : "pt_PT",
-         "native_name" : "português europeu"
+         "native_name" : "português europeu",
+         "rss2" : "pt-pt"
       },
       "pt-st" : {
          "bcp47_canonical" : "pt-ST",
@@ -4649,7 +4728,8 @@
          "firefox" : "ro",
          "mediawiki" : "ro",
          "ms" : "1048",
-         "native_name" : "română"
+         "native_name" : "română",
+         "rss2" : "ro"
       },
       "ro-md" : {
          "bcp47_canonical" : "ro-MD",
@@ -4658,7 +4738,8 @@
       },
       "ro-mo" : {
          "bcp47_canonical" : "ro-MO",
-         "ms" : "2072"
+         "ms" : "2072",
+         "rss2" : "ro-mo"
       },
       "ro-ro" : {
          "bcp47_canonical" : "ro-RO",
@@ -4666,7 +4747,8 @@
          "facebook" : "ro_RO",
          "java" : "ro_RO",
          "mysql" : "ro_RO",
-         "native_name" : "română (România)"
+         "native_name" : "română (România)",
+         "rss2" : "ro-ro"
       },
       "roa-tara" : {
          "bcp47_canonical" : "roa-Tara",
@@ -4696,7 +4778,8 @@
          "firefox" : "ru",
          "mediawiki" : "ru",
          "ms" : "1049",
-         "native_name" : "русский"
+         "native_name" : "русский",
+         "rss2" : "ru"
       },
       "ru-by" : {
          "bcp47_canonical" : "ru-BY",
@@ -4720,7 +4803,8 @@
       },
       "ru-mo" : {
          "bcp47_canonical" : "ru-MO",
-         "ms" : "2073"
+         "ms" : "2073",
+         "rss2" : "ru-mo"
       },
       "ru-ru" : {
          "bcp47_canonical" : "ru-RU",
@@ -4728,7 +4812,8 @@
          "facebook" : "ru_RU",
          "java" : "ru_RU",
          "mysql" : "ru_RU",
-         "native_name" : "русский (Россия)"
+         "native_name" : "русский (Россия)",
+         "rss2" : "ru-ru"
       },
       "ru-ua" : {
          "bcp47_canonical" : "ru-UA",
@@ -4978,7 +5063,8 @@
          "firefox" : "sk",
          "mediawiki" : "sk",
          "ms" : "1051",
-         "native_name" : "slovenčina"
+         "native_name" : "slovenčina",
+         "rss2" : "sk"
       },
       "sk-sk" : {
          "bcp47_canonical" : "sk-SK",
@@ -5003,7 +5089,8 @@
          "firefox" : "sl",
          "mediawiki" : "sl",
          "ms" : "1060",
-         "native_name" : "slovenščina"
+         "native_name" : "slovenščina",
+         "rss2" : "sl"
       },
       "sl-si" : {
          "bcp47_canonical" : "sl-SI",
@@ -5084,7 +5171,8 @@
          "firefox" : "sq",
          "mediawiki" : "sq",
          "ms" : "1052",
-         "native_name" : "shqip"
+         "native_name" : "shqip",
+         "rss2" : "sq"
       },
       "sq-al" : {
          "bcp47_canonical" : "sq-AL",
@@ -5111,7 +5199,8 @@
          "firefox" : "sr",
          "mediawiki" : "sr",
          "ms" : "3098",
-         "native_name" : "српски"
+         "native_name" : "српски",
+         "rss2" : "sr"
       },
       "sr-ba" : {
          "bcp47_canonical" : "sr-BA",
@@ -5234,7 +5323,8 @@
          "cldr" : "sv",
          "mediawiki" : "sv",
          "ms" : "1053",
-         "native_name" : "svenska"
+         "native_name" : "svenska",
+         "rss2" : "sv"
       },
       "sv-ax" : {
          "bcp47_canonical" : "sv-AX",
@@ -5246,7 +5336,8 @@
          "cldr" : "sv_FI",
          "ms" : "2077",
          "mysql" : "sv_FI",
-         "native_name" : "svenska (Finland)"
+         "native_name" : "svenska (Finland)",
+         "rss2" : "sv-fi"
       },
       "sv-se" : {
          "bcp47_canonical" : "sv-SE",
@@ -5255,7 +5346,8 @@
          "firefox" : "sv-SE",
          "java" : "sv_SE",
          "mysql" : "sv_SE",
-         "native_name" : "svenska (Sverige)"
+         "native_name" : "svenska (Sverige)",
+         "rss2" : "sv-se"
       },
       "sw" : {
          "bcp47_canonical" : "sw",
@@ -5481,7 +5573,8 @@
          "firefox" : "tr",
          "mediawiki" : "tr",
          "ms" : "1055",
-         "native_name" : "Türkçe"
+         "native_name" : "Türkçe",
+         "rss2" : "tr"
       },
       "tr-cy" : {
          "bcp47_canonical" : "tr-CY",
@@ -5596,7 +5689,8 @@
          "firefox" : "uk",
          "mediawiki" : "uk",
          "ms" : "1058",
-         "native_name" : "українська"
+         "native_name" : "українська",
+         "rss2" : "uk"
       },
       "uk-ua" : {
          "bcp47_canonical" : "uk-UA",
@@ -5953,7 +6047,8 @@
          "mediawiki" : "zh-cn",
          "ms" : "2052",
          "mysql" : "zh_CN",
-         "native_name" : "中文 (中国大陸)"
+         "native_name" : "中文 (中国大陸)",
+         "rss2" : "zh-cn"
       },
       "zh-hans" : {
          "bcp47_canonical" : "zh-Hans",
@@ -6036,7 +6131,8 @@
          "mediawiki" : "zh-tw",
          "ms" : "1028",
          "mysql" : "zh_TW",
-         "native_name" : "中文 (台灣)"
+         "native_name" : "中文 (台灣)",
+         "rss2" : "zh-tw"
       },
       "zu" : {
          "bcp47_canonical" : "zu",
