@@ -97,9 +97,16 @@ A JSON object with following name/value pairs:
         The locale name in that locale, if known, taken from CLDR and
         other sources.
 
+      rss2 [string?]
+
+        The RSS language code, defined as part of the RSS2
+        specification, if exists.
+
 * Sources
 
 Unicode CLDR Project <http://cldr.unicode.org/>.
+
+RSS Language Codes <http://www.rssboard.org/rss-language-codes>.
 
 List of locale IDs (LCIDs)
 <https://msdn.microsoft.com/ja-jp/library/cc392381.aspx>.

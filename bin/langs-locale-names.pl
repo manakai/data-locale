@@ -187,6 +187,22 @@ my $Data = {};
 }
 
 {
+  my $path = $src_path->child ('rss2-language-codes.txt');
+  for (split /\x0A/, $path->slurp) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^(.+?\S)\s+([a-zA-Z0-9-]+)$/) {
+      my $code = $2;
+      my $tag = $code;
+      $tag =~ tr/A-Z/a-z/;
+      $Data->{tags}->{$tag}->{rss2} = $code;
+    } elsif (/\S/) {
+      die "Bad line |$_|";
+    }
+  }
+}
+
+{
   my $path = $src_path->child ('lang-names-additional.txt');
   for (split /\x0A/, $path->slurp_utf8) {
     my ($tag, $name) = split /\s+/, $_, 2;
