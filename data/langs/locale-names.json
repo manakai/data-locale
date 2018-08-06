@@ -2872,6 +2872,17 @@
          "firefox" : "hy-AM",
          "native_name" : "հայերեն (Հայաստան)"
       },
+      "hyw" : {
+         "bcp47_canonical" : "hyw",
+         "bcp47_errors" : [
+            {
+               "level" : "m",
+               "type" : "langtag:language:invalid",
+               "value" : "hyw"
+            }
+         ],
+         "mediawiki" : "hyw"
+      },
       "hz" : {
          "bcp47_canonical" : "hz",
          "mediawiki" : "hz"
