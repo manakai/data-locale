@@ -3971,6 +3971,10 @@
          "bcp47_canonical" : "mni",
          "mediawiki" : "mni"
       },
+      "mnw" : {
+         "bcp47_canonical" : "mnw",
+         "mediawiki" : "mnw"
+      },
       "mo" : {
          "bcp47_canonical" : "ro",
          "bcp47_errors" : [
