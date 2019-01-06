@@ -5,6 +5,7 @@ use Time::Local qw(timegm_nocheck);
 ## 祝日、祭日
 ## <https://ja.wikipedia.org/wiki/%E7%A5%9D%E7%A5%AD%E6%97%A5>
 ## <https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E7%A5%9D%E6%97%A5>
+## <https://wiki.suikawiki.org/n/%E6%97%A5%E6%9C%AC%E3%81%AE%E7%A5%9D%E6%97%A5>
 
 sub _d {$_[0] < 1870? 0: timegm_nocheck(0,0,0,$_[2],$_[1]-1,$_[0])}
 my %d = (
@@ -136,7 +137,10 @@ sub isholiday ($$$) {
 
     return '皇太子明仁親王の結婚の儀の行われる日' if $year == 1959 && $day == 10;
     	## Shouwa 34 Law No.16
+    return '国民の休日' if $year == 2019 && $day == 30;
   } elsif ($month == 5) {
+    return '天皇の即位の日' if $year == 2019 && $day == 1;
+    return '国民の休日' if $year == 2019 && $day == 2;
     return '憲法記念日' if $day == 3 && $d{S23} <= $time;
 
     return '振替休日' if $wday == $MONDAY && $day == 4 &&
@@ -192,7 +196,7 @@ sub isholiday ($$$) {
                 $d{S48} <= $time && $time < $d{H10};
     
     return '神嘗祭' if $day == 17 && $d{M12} <= $time && $time < $d{S23};
-
+    return '即位礼正殿の儀の行われる日' if $year == 2019 && $day == 22;
     return '天長節祝日' if $day == 31 && $d{T2} <= $time && $time < $d{S2};
 
     return '皇大神宮遷御当日' if $day == 2 && $year == 1929;
