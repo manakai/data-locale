@@ -1,5 +1,5 @@
-langs/plurals.json
-~~~~~~~~~~~~~~~~~~
+data/langs/plurals.json
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Plural rules.
 
@@ -109,12 +109,17 @@ gecko-dev/PluralForm.jsm at master - mozilla/gecko-dev
 <https://github.com/mozilla/gecko-dev/blob/master/intl/locale/PluralForm.jsm>.
 
 Language Plural Rules
-<http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html>.
+<https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html>.
 
 * License
 
 You are granted a license to use, reproduce and create derivative
 works of this file.
 
-This file contains data extracted from CLDR.  See |LICENSE.unicode|
-for their license.
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the JSON file and this
+document has waived all copyright and related or neighboring rights to
+the JSON file and this document.
+
+The JSON file contains data extracted from CLDR.  See
+|LICENSE.unicode| for their license.
