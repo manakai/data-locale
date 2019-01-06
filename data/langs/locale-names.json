@@ -2154,29 +2154,74 @@
          "mediawiki" : "ff",
          "native_name" : "Pulaar"
       },
-      "ff-cm" : {
-         "bcp47_canonical" : "ff-CM",
-         "cldr" : "ff_CM",
-         "native_name" : "Pulaar (Kameruun)"
+      "ff-latn" : {
+         "bcp47_canonical" : "ff-Latn",
+         "cldr" : "ff_Latn",
+         "native_name" : "Pulaar (Latin)"
       },
-      "ff-gn" : {
-         "bcp47_canonical" : "ff-GN",
-         "cldr" : "ff_GN",
-         "native_name" : "Pulaar (Gine)"
+      "ff-latn-bf" : {
+         "bcp47_canonical" : "ff-Latn-BF",
+         "cldr" : "ff_Latn_BF",
+         "native_name" : "Pulaar (Latin, Burkibaa Faaso)"
       },
-      "ff-mr" : {
-         "bcp47_canonical" : "ff-MR",
-         "cldr" : "ff_MR",
-         "native_name" : "Pulaar (Muritani)"
+      "ff-latn-cm" : {
+         "bcp47_canonical" : "ff-Latn-CM",
+         "cldr" : "ff_Latn_CM",
+         "native_name" : "Pulaar (Latin, Kameruun)"
+      },
+      "ff-latn-gh" : {
+         "bcp47_canonical" : "ff-Latn-GH",
+         "cldr" : "ff_Latn_GH",
+         "native_name" : "Pulaar (Latin, Ganaa)"
+      },
+      "ff-latn-gm" : {
+         "bcp47_canonical" : "ff-Latn-GM",
+         "cldr" : "ff_Latn_GM",
+         "native_name" : "Pulaar (Latin, Gammbi)"
+      },
+      "ff-latn-gn" : {
+         "bcp47_canonical" : "ff-Latn-GN",
+         "cldr" : "ff_Latn_GN",
+         "native_name" : "Pulaar (Latin, Gine)"
+      },
+      "ff-latn-gw" : {
+         "bcp47_canonical" : "ff-Latn-GW",
+         "cldr" : "ff_Latn_GW",
+         "native_name" : "Pulaar (Latin, Gine-Bisaawo)"
+      },
+      "ff-latn-lr" : {
+         "bcp47_canonical" : "ff-Latn-LR",
+         "cldr" : "ff_Latn_LR",
+         "native_name" : "Pulaar (Latin, Liberiyaa)"
+      },
+      "ff-latn-mr" : {
+         "bcp47_canonical" : "ff-Latn-MR",
+         "cldr" : "ff_Latn_MR",
+         "native_name" : "Pulaar (Latin, Muritani)"
+      },
+      "ff-latn-ne" : {
+         "bcp47_canonical" : "ff-Latn-NE",
+         "cldr" : "ff_Latn_NE",
+         "native_name" : "Pulaar (Latin, Nijeer)"
+      },
+      "ff-latn-ng" : {
+         "bcp47_canonical" : "ff-Latn-NG",
+         "cldr" : "ff_Latn_NG",
+         "native_name" : "Pulaar (Latin, Nijeriyaa)"
+      },
+      "ff-latn-sl" : {
+         "bcp47_canonical" : "ff-Latn-SL",
+         "cldr" : "ff_Latn_SL",
+         "native_name" : "Pulaar (Latin, Seraa liyon)"
+      },
+      "ff-latn-sn" : {
+         "bcp47_canonical" : "ff-Latn-SN",
+         "cldr" : "ff_Latn_SN",
+         "native_name" : "Pulaar (Latin, Senegaal)"
       },
       "ff-ng" : {
          "bcp47_canonical" : "ff-NG",
          "facebook" : "ff_NG"
-      },
-      "ff-sn" : {
-         "bcp47_canonical" : "ff-SN",
-         "cldr" : "ff_SN",
-         "native_name" : "Pulaar (Senegaal)"
       },
       "fi" : {
          "bcp47_canonical" : "fi",
@@ -2889,8 +2934,15 @@
       },
       "ia" : {
          "bcp47_canonical" : "ia",
+         "cldr" : "ia",
          "firefox" : "ia",
-         "mediawiki" : "ia"
+         "mediawiki" : "ia",
+         "native_name" : "interlingua"
+      },
+      "ia-001" : {
+         "bcp47_canonical" : "ia-001",
+         "cldr" : "ia_001",
+         "native_name" : "interlingua (Mundo)"
       },
       "id" : {
          "bcp47_canonical" : "id",
@@ -3211,11 +3263,15 @@
       },
       "jv" : {
          "bcp47_canonical" : "jv",
-         "mediawiki" : "jv"
+         "cldr" : "jv",
+         "mediawiki" : "jv",
+         "native_name" : "Jawa"
       },
       "jv-id" : {
          "bcp47_canonical" : "jv-ID",
-         "facebook" : "jv_ID"
+         "cldr" : "jv_ID",
+         "facebook" : "jv_ID",
+         "native_name" : "Jawa (Indonésia)"
       },
       "ka" : {
          "bcp47_canonical" : "ka",
@@ -3324,6 +3380,10 @@
       "kj" : {
          "bcp47_canonical" : "kj",
          "mediawiki" : "kj"
+      },
+      "kjp" : {
+         "bcp47_canonical" : "kjp",
+         "mediawiki" : "kjp"
       },
       "kk" : {
          "bcp47_canonical" : "kk",
@@ -3536,7 +3596,9 @@
       },
       "ku" : {
          "bcp47_canonical" : "ku",
-         "mediawiki" : "ku"
+         "cldr" : "ku",
+         "mediawiki" : "ku",
+         "native_name" : "kurdî"
       },
       "ku-arab" : {
          "bcp47_canonical" : "ku-Arab",
@@ -3548,7 +3610,9 @@
       },
       "ku-tr" : {
          "bcp47_canonical" : "ku-TR",
-         "facebook" : "ku_TR"
+         "cldr" : "ku_TR",
+         "facebook" : "ku_TR",
+         "native_name" : "kurdî (Tirkiye)"
       },
       "kum" : {
          "bcp47_canonical" : "kum",
@@ -3913,11 +3977,15 @@
       },
       "mi" : {
          "bcp47_canonical" : "mi",
-         "mediawiki" : "mi"
+         "cldr" : "mi",
+         "mediawiki" : "mi",
+         "native_name" : "Māori"
       },
       "mi-nz" : {
          "bcp47_canonical" : "mi-NZ",
-         "facebook" : "mi_NZ"
+         "cldr" : "mi_NZ",
+         "facebook" : "mi_NZ",
+         "native_name" : "Māori (Aotearoa)"
       },
       "min" : {
          "bcp47_canonical" : "min",
@@ -5168,7 +5236,7 @@
       "so-ke" : {
          "bcp47_canonical" : "so-KE",
          "cldr" : "so_KE",
-         "native_name" : "Soomaali (Kiiniya)"
+         "native_name" : "Soomaali (Kenya)"
       },
       "so-so" : {
          "bcp47_canonical" : "so-SO",
@@ -5937,6 +6005,7 @@
       },
       "xh" : {
          "bcp47_canonical" : "xh",
+         "cldr" : "xh",
          "firefox" : "xh",
          "mediawiki" : "xh",
          "ms" : "1076",
@@ -5944,7 +6013,9 @@
       },
       "xh-za" : {
          "bcp47_canonical" : "xh-ZA",
-         "facebook" : "xh_ZA"
+         "cldr" : "xh_ZA",
+         "facebook" : "xh_ZA",
+         "native_name" : "isiXhosa (eMzantsi Afrika)"
       },
       "xmf" : {
          "bcp47_canonical" : "xmf",
