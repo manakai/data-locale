@@ -768,9 +768,13 @@ def[戦後]
 sw 戦後 (紀年法)
 AD1946 = 1
 wref_ja 0年
+name_ja 戦後
+name_ja 戦後暦
 
 def[亀光]
 AD1861 = 1
+name_ja 亀光
+sw 亀光
 
 [育喜]
 AD1983 = 1
@@ -778,9 +782,13 @@ source
   title:私年号(異年号)の世界への誘い
   url:http://specialcurricularactivities2014.blogspot.jp/2017/11/blog-post.html
 sw 育喜
+name_ja 育喜
 
 def[美禄]
+name_ja 美禄
+sw 美禄
 
 def[禅源]
 sw 禅源
 #korea (高麗)
+name_ko 禅源

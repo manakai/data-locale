@@ -10,7 +10,10 @@ my $json = json_bytes2perl $json_path->slurp;
 
 my $chars = {};
 for (values %{$json->{eras}}) {
-  $chars->{$_}++ for split //, $_->{name}
+  unless (defined $_->{name}) {
+    die "Era |name| not defined:", perl2json_bytes $_, "\n";
+  }
+  $chars->{$_}++ for split //, $_->{name};
 }
 
 my $Data = {};
