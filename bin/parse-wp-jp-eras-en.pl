@@ -17,7 +17,7 @@ $doc->inner_html ($html_path->slurp_utf8);
 
 my $Data = {};
 
-for my $a_el ($doc->query_selector_all ('table.infobox td:nth-child(2) > a')->to_list) {
+for my $a_el ($doc->query_selector_all ('table.infobox td:nth-child(2) a')->to_list) {
   my $data = {};
   $data->{name} = $a_el->text_content;
   $data->{url} = $a_el->href;
@@ -26,12 +26,14 @@ for my $a_el ($doc->query_selector_all ('table.infobox td:nth-child(2) > a')->to
     $data->{wref_en} =~ s/%([0-9A-Fa-f]{2})/pack 'C', hex $1/ge;
     $data->{wref_en} = decode 'utf-8', $data->{wref_en};
   }
-  my $pre_cell = $a_el->parent_node->previous_element_sibling;
+  my $cell = $a_el->parent_node;
+  $cell = $cell->parent_node unless $cell->local_name eq 'td';
+  my $pre_cell = $cell->previous_element_sibling;
   my $pre_text = $pre_cell->text_content;
   if ($pre_text =~ /^\s*(\d+)\x{2013}(\d+)\s*$/) {
     $data->{start_year} = $1;
     $data->{end_year} = $2;
-  } elsif ($pre_text =~ /^\s*(\d+)\x{2013}present\s*$/) {
+  } elsif ($pre_text =~ /^\s*(\d+)\x{2013}(?:present|)\s*$/) {
     $data->{start_year} = $1;
   } elsif ($pre_text =~ /^\s*(\d+)\s*$/) {
     $data->{start_year} = $1;

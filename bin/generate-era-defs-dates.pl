@@ -47,11 +47,11 @@ my $g2k_map = {map { split /\t/, $_ } split /\x0D?\x0A/, $g2k_map_path->slurp};
 my $k2g_map = {reverse %$g2k_map};
 
 sub k2g ($) {
-  return $k2g_map->{$_[0]} or die "Kyuureki |$_[0]| is not defined";
+  return $k2g_map->{$_[0]} || die "Kyuureki |$_[0]| is not defined";
 } # k2g
 
 sub g2k ($) {
-  return $g2k_map->{$_[0]} or die "Gregorian |$_[0]| is not defined";
+  return $g2k_map->{$_[0]} || die "Gregorian |$_[0]| is not defined";
 } # g2k
 
 use POSIX;

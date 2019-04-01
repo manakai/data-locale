@@ -28,8 +28,14 @@ my $Data = {};
 for (@{$json->{tables}}) {
   for (@$_) {
     my ($name, $read, $start, $end, $years, $emperor, $note) = map { $_->[0] } @$_;
-    next if {'－' => 1, 元号名 => 1, 漢字 => 1, '　漢字　' => 1}->{$name};
+    next unless defined $emperor;
     next if $name eq $read;
+    for ($name, $read) {
+      s/\s+/ /g;
+      s/^ //;
+      s/ $//;
+    }
+    next if {'－' => 1, 元号名 => 1, 漢字 => 1}->{$name};
     my $data = $Data->{$name} ||= {};
     if (defined $_->[0]->[1] and
         $_->[0]->[1] =~ m{^https://ja.wikipedia.org/wiki/([^?#]+)$}) {
@@ -40,13 +46,13 @@ for (@{$json->{tables}}) {
     $data->{name} = $name;
     $data->{name_kana} ||= $read;
     $data->{name_kanas}->{$read} = 1;
-    if ($start =~ m{^\w+(?:\d+|元)年閏?\d+月(?:\d+日|)(?:\s*\[[0-9]+\]|)\s*（(\d+)年(\d+)月(?:(\d+)日|)）(?:\s*\[[0-9]+\]|)$}) {
+    if ($start =~ m{^\w+(?:\d+|元)年閏?\d+月(?:\d+日|)(?:\s*\[[0-9]+\]|)\s*(?:\[注釈\s*[0-9]+\]\s*|)（(\d+)年(\d+)月(?:(\d+)日|)）?(?:\s*\[(?:注釈|)\s*[0-9]+\])*）?$}) {
       my ($y, $m, $d) = ($1, $2, $3 || 1);
       if ($1 < 1582) {
         ($y, $m, $d) = j2g ($y, $m, $d);
       }
       $data->{start} = sprintf '%04d-%02d-%02d', $y, $m, $d;
-    } elsif ($start =~ m{^\w+(?:\d+|元)年（(\d+)年）\s*(\d+)月(?:(\d+)日|)(?:\s*\[[0-9]+\]|)$}) {
+    } elsif ($start =~ m{^\w+(?:\d+|元)年（(\d+)年）\s*(\d+)月(?:(\d+)日|)(?:\s*\[(?:注釈|)\s*[0-9]+\]|)$}) {
       my ($y, $m, $d) = ($1, $2, $3 || 1);
       if ($1 < 1582) {
         ($y, $m, $d) = j2g ($y, $m, $d);

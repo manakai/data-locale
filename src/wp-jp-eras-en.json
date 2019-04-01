@@ -570,8 +570,8 @@
       "end_year" : "1259",
       "name" : "Shōka",
       "start_year" : "1257",
-      "url" : "https://en.wikipedia.org/wiki/Sh%C5%8Dka",
-      "wref_en" : "Shōka"
+      "url" : "https://en.wikipedia.org/wiki/Sh%C5%8Dka_(era)",
+      "wref_en" : "Shōka_(era)"
    },
    "1259\u001C1260" : {
       "end_year" : "1260",
@@ -736,17 +736,17 @@
    },
    "1334\u001C1336" : {
       "end_year" : "1336",
-      "name" : "Kemmu",
+      "name" : "Kenmu",
       "start_year" : "1334",
-      "url" : "https://en.wikipedia.org/wiki/Kemmu",
-      "wref_en" : "Kemmu"
+      "url" : "https://en.wikipedia.org/wiki/Kenmu",
+      "wref_en" : "Kenmu"
    },
    "1334\u001C1338" : {
       "end_year" : "1338",
-      "name" : "Kemmu",
+      "name" : "Kenmu",
       "start_year" : "1334",
-      "url" : "https://en.wikipedia.org/wiki/Kemmu",
-      "wref_en" : "Kemmu"
+      "url" : "https://en.wikipedia.org/wiki/Kenmu",
+      "wref_en" : "Kenmu"
    },
    "1336\u001C1340" : {
       "end_year" : "1340",
@@ -1074,8 +1074,8 @@
       "end_year" : "1573",
       "name" : "Genki",
       "start_year" : "1570",
-      "url" : "https://en.wikipedia.org/wiki/Genki",
-      "wref_en" : "Genki"
+      "url" : "https://en.wikipedia.org/wiki/Genki_(era)",
+      "wref_en" : "Genki_(era)"
    },
    "1573\u001C1592" : {
       "end_year" : "1592",
@@ -1364,11 +1364,18 @@
       "url" : "https://en.wikipedia.org/wiki/Sh%C5%8Dwa_period",
       "wref_en" : "Shōwa_period"
    },
-   "1989\u001C" : {
+   "1989\u001C2019" : {
+      "end_year" : "2019",
       "name" : "Heisei",
       "start_year" : "1989",
       "url" : "https://en.wikipedia.org/wiki/Heisei_period",
       "wref_en" : "Heisei_period"
+   },
+   "2019\u001C" : {
+      "name" : "Reiwa",
+      "start_year" : "2019",
+      "url" : "https://en.wikipedia.org/wiki/Reiwa_period",
+      "wref_en" : "Reiwa_period"
    },
    "645\u001C650" : {
       "end_year" : "650",
@@ -1526,10 +1533,10 @@
    },
    "848\u001C851" : {
       "end_year" : "851",
-      "name" : "Kajō",
+      "name" : "Kashō",
       "start_year" : "848",
-      "url" : "https://en.wikipedia.org/wiki/Kaj%C5%8D",
-      "wref_en" : "Kajō"
+      "url" : "https://en.wikipedia.org/wiki/Kash%C5%8D",
+      "wref_en" : "Kashō"
    },
    "851\u001C854" : {
       "end_year" : "854",

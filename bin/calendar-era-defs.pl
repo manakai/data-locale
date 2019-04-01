@@ -142,19 +142,22 @@ sub expand_name ($$) {
 } # expand_name
 
 $Data->{eras}->{$_}->{abbr} = substr $_, 0, 1
-    for qw(慶応 明治 大正 昭和 平成);
+    for qw(慶応 明治 大正 昭和 平成 令和);
 $Data->{eras}->{明治}->{abbr_latn} = 'M';
 $Data->{eras}->{大正}->{abbr_latn} = 'T';
 $Data->{eras}->{昭和}->{abbr_latn} = 'S';
 $Data->{eras}->{平成}->{abbr_latn} = 'H';
+$Data->{eras}->{令和}->{abbr_latn} = 'R';
 $Data->{eras}->{明治}->{names}->{'㍾'} = 1;
 $Data->{eras}->{大正}->{names}->{'㍽'} = 1;
 $Data->{eras}->{昭和}->{names}->{'㍼'} = 1;
 $Data->{eras}->{平成}->{names}->{'㍻'} = 1;
+$Data->{eras}->{令和}->{names}->{"\x{32FF}"} = 1;
 expand_name $Data->{eras}->{明治}, '㍾';
 expand_name $Data->{eras}->{大正}, '㍽';
 expand_name $Data->{eras}->{昭和}, '㍼';
 expand_name $Data->{eras}->{平成}, '㍻';
+expand_name $Data->{eras}->{令和}, "\x{32FF}";
 
 for my $era (values %{$Data->{eras}}) {
   my $name = $era->{name};

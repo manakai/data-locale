@@ -98,7 +98,7 @@ local/wp-jp-eras.html:
 	$(WGET) -O $@ https://ja.wikipedia.org/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_%28%E6%97%A5%E6%9C%AC%29
 local/wp-jp-eras-bare.json: bin/parse-wp-jp-eras-html.pl local/wp-jp-eras.html
 	$(PERL) $< > $@
-src/wp-jp-eras.json: #bin/parse-wp-jp-eras.pl local/wp-jp-eras-bare.json
+src/wp-jp-eras.json: bin/parse-wp-jp-eras.pl #local/wp-jp-eras-bare.json
 	$(PERL) $< > $@
 src/eras/wp-jp-era-sets.txt: bin/generate-wp-jp-era-sets.pl \
     src/wp-jp-eras.json
@@ -114,7 +114,7 @@ local/era-defs-jp-emperor.json: bin/generate-jp-emperor-eras-defs.pl \
 	$(PERL) $< > $@
 local/wp-jp-eras-en.html:
 	$(WGET) -O $@ https://en.wikipedia.org/wiki/Template:Japanese_era_names
-src/wp-jp-eras-en.json: #bin/parse-wp-jp-eras-en.pl local/wp-jp-eras-en.html
+src/wp-jp-eras-en.json: bin/parse-wp-jp-eras-en.pl #local/wp-jp-eras-en.html
 	$(PERL) $< > $@
 local/wp-cn-eras-tw.html:
 	$(WGET) -O $@ https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8

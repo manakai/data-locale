@@ -15,7 +15,7 @@ my $g2rk_map = {map { split /\t/, $_ } split /\x0D?\x0A/, $g2rk_map_path->slurp}
 my $rk2g_map = {reverse %$g2rk_map};
 
 sub k2g ($) {
-  return $k2g_map->{$_[0]} or die "Kyuureki |$_[0]| is not defined";
+  return $k2g_map->{$_[0]} || die "Kyuureki |$_[0]| is not defined";
 } # k2g
 
 sub rk2g ($) {
@@ -25,7 +25,7 @@ sub rk2g ($) {
   } elsif ($v =~ /^(\d+)$/) {
     $v = "$v-01-01";
   }
-  return $rk2g_map->{$v} or die "Ryuukyuu kyuureki |$v| is not defined";
+  return $rk2g_map->{$v} || die "Ryuukyuu kyuureki |$v| is not defined";
 } # rk2g
 
 {
