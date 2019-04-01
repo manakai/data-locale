@@ -612,7 +612,7 @@ for my $data (values %{$Data->{eras}}) {
   $path->spew (perl2json_bytes_for_record $map) if @need_id;
 }
 
-$Data->{current_jp} = '平成';
+$Data->{current_jp} = time < 1556636400 ? '平成' : '令和';
 
 print perl2json_bytes_for_record $Data;
 
