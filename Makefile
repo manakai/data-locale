@@ -145,7 +145,8 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     src/wp-cn-eras.json src/era-china-dups.txt local/number-values.json \
     src/era-viet.txt src/era-korea.txt src/era-tw.txt \
     data/calendar/era-systems.json data/numbers/kanshi.json \
-    intermediate/era-ids.json
+    intermediate/era-ids.json \
+    src/era-codes-14.txt src/era-codes-15.txt
 	$(PERL) $< > $@
 #intermediate/era-ids.json: data/calendar/era-defs.json
 

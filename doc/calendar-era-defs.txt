@@ -108,6 +108,16 @@ The file contains a JSON object with following name/value pairs:
         The bit combination of the character for the era, if any, in
         Shift JIS.  The era codes #13 [CODES].
 
+      code14 [integer?]
+
+        The serial number of the era in the 日本年号史大事典, if any.
+        The era codes #14 [CODES].
+
+      code15 [string?]
+
+        The serial number of the era in the 日本年号大観, if any.  The
+        era codes #15 [CODES].
+
       id [integer]
 
         The ID, which is a positive integer, uniquely assigned to the
@@ -426,6 +436,8 @@ List of Emperors of Japan - Wikipedia, the free encyclopedia
 
 [CODES] SuikaWiki:元号コード
 <https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7%E3%82%B3%E3%83%BC%E3%83%89>.
+
+日本年号史大事典, 所功, et al, 2017-01.
 
 * License
 

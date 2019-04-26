@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "1..189"
+echo "1..211"
 basedir=`dirname $0`/..
 jq=$basedir/local/bin/jq
 
@@ -216,5 +216,29 @@ test 186 '.eras["持統天皇"].end_day.kyuureki == "0697-07-29"'
 test 187 '.eras["文武天皇"].start_day.kyuureki == "0697-08-01"'
 test 188 '.eras["持統天皇"].official_end_day | not'
 test 189 '.eras["文武天皇"].official_start_day | not'
+
+test 190 '.eras["大化"].code14 == 1'
+test 191 '.eras["白鳳"].code14 | not'
+test 192 '.eras["朱鳥"].code14 == 3'
+test 193 '.eras["寿永"].code14 == 105'
+test 194 '.eras["元暦"].code14 == 106'
+test 195 '.eras["文治"].code14 == 107'
+test 196 '.eras["元中"].code14 == 164'
+test 197 '.eras["正慶"].code14 == 165'
+test 198 '.eras["康応"].code14 == 180'
+test 199 '.eras["明徳"].code14 == 181'
+test 200 '.eras["平成"].code14 == 247'
+
+test 201 '.eras["大化"].code15 == 1'
+test 202 '.eras["白鳳"].code15 == 3'
+test 203 '.eras["朱鳥"].code15 == 4'
+test 204 '.eras["寿永"].code15 == 106'
+test 205 '.eras["元暦"].code15 | not'
+test 206 '.eras["文治"].code15 == 107'
+test 207 '.eras["元中"].code15 == 164'
+test 208 '.eras["正慶"].code15 == "北1"'
+test 209 '.eras["康応"].code15 == "北16"'
+test 210 '.eras["明徳"].code15 == 165'
+test 211 '.eras["昭和"].code15 == 230'
 
 ## License: Public Domain.

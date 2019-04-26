@@ -170,6 +170,8 @@
             "kyuureki" : "1028-07-25",
             "kyuureki_era" : "万寿5-07-25"
          },
+         "code14" : 56,
+         "code15" : 57,
          "end_day" : {
             "gregorian" : "1028-08-23",
             "gregorian_era" : "万寿5-08-23",
@@ -232,6 +234,8 @@
             "kyuureki" : "1861-02-19",
             "kyuureki_era" : "万延2-02-19"
          },
+         "code14" : 240,
+         "code15" : 224,
          "end_day" : {
             "gregorian" : "1861-03-28",
             "gregorian_era" : "万延2-03-28",
@@ -290,6 +294,8 @@
             "kyuureki" : "1661-04-25",
             "kyuureki_era" : "万治4-04-25"
          },
+         "code14" : 215,
+         "code15" : 199,
          "end_day" : {
             "gregorian" : "1661-05-22",
             "gregorian_era" : "万治4-05-22",
@@ -643,6 +649,8 @@
             "kyuureki" : "1151-01-26",
             "kyuureki_era" : "久安7-01-26"
          },
+         "code14" : 90,
+         "code15" : 91,
          "end_day" : {
             "gregorian" : "1151-02-20",
             "gregorian_era" : "久安7-02-20",
@@ -713,6 +721,8 @@
             "kyuureki" : "1156-04-27",
             "kyuureki_era" : "久寿3-04-27"
          },
+         "code14" : 92,
+         "code15" : 93,
          "end_day" : {
             "gregorian" : "1156-05-24",
             "gregorian_era" : "久寿3-05-24",
@@ -809,6 +819,8 @@
             "kyuureki" : "1303-08-05",
             "kyuureki_era" : "乾元2-08-05"
          },
+         "code14" : 143,
+         "code15" : 143,
          "end_day" : {
             "gregorian" : "1303-09-23",
             "gregorian_era" : "乾元2-09-23",
@@ -1256,6 +1268,8 @@
             "kyuureki" : "1736-04-28",
             "kyuureki_era" : "享保21-04-28"
          },
+         "code14" : 223,
+         "code15" : 207,
          "end_day" : {
             "gregorian" : "1736-06-06",
             "gregorian_era" : "享保21-06-06",
@@ -1314,6 +1328,8 @@
             "kyuureki" : "1804-02-11",
             "kyuureki_era" : "享和4-02-11"
          },
+         "code14" : 233,
+         "code15" : 217,
          "end_day" : {
             "gregorian" : "1804-03-21",
             "gregorian_era" : "享和4-03-21",
@@ -1371,6 +1387,8 @@
             "kyuureki" : "1455-07-25",
             "kyuureki_era" : "享徳4-07-25"
          },
+         "code14" : 188,
+         "code15" : 172,
          "end_day" : {
             "gregorian" : "1455-09-14",
             "gregorian_era" : "享徳4-09-14",
@@ -1441,6 +1459,8 @@
             "kyuureki" : "1532-07-29",
             "kyuureki_era" : "享禄5-07-29"
          },
+         "code14" : 201,
+         "code15" : 185,
          "end_day" : {
             "gregorian" : "1532-09-07",
             "gregorian_era" : "享禄5-09-07",
@@ -1568,6 +1588,8 @@
             "kyuureki" : "0889-04-27",
             "kyuureki_era" : "仁和5-04-27"
          },
+         "code14" : 29,
+         "code15" : 30,
          "end_day" : {
             "gregorian" : "0889-06-02",
             "gregorian_era" : "仁和5-06-02",
@@ -1653,6 +1675,8 @@
             "kyuureki" : "1169-04-08",
             "kyuureki_era" : "仁安4-04-08"
          },
+         "code14" : 99,
+         "code15" : 100,
          "end_day" : {
             "gregorian" : "1169-05-12",
             "gregorian_era" : "仁安4-05-12",
@@ -1723,6 +1747,8 @@
             "kyuureki" : "0854-11-30",
             "kyuureki_era" : "仁寿4-11-30"
          },
+         "code14" : 24,
+         "code15" : 25,
          "end_day" : {
             "gregorian" : "0854-12-26",
             "gregorian_era" : "仁寿4-12-26",
@@ -1782,6 +1808,8 @@
             "kyuureki" : "1154-10-28",
             "kyuureki_era" : "仁平4-10-28"
          },
+         "code14" : 91,
+         "code15" : 92,
          "end_day" : {
             "gregorian" : "1154-12-10",
             "gregorian_era" : "仁平4-12-10",
@@ -1930,6 +1958,8 @@
             "kyuureki" : "1243-02-26",
             "kyuureki_era" : "仁治4-02-26"
          },
+         "code14" : 128,
+         "code15" : 128,
          "end_day" : {
             "gregorian" : "1243-03-24",
             "gregorian_era" : "仁治4-03-24",
@@ -2073,6 +2103,7 @@
          "code1" : 5,
          "code11" : 23058,
          "code12" : 23059,
+         "code14" : 248,
          "code4" : 9,
          "code5" : 3,
          "code6" : 5,
@@ -2214,6 +2245,8 @@
             "kyuureki" : "1159-04-20",
             "kyuureki_era" : "保元4-04-20"
          },
+         "code14" : 93,
+         "code15" : 94,
          "end_day" : {
             "gregorian" : "1159-05-15",
             "gregorian_era" : "保元4-05-15",
@@ -2330,6 +2363,8 @@
             "kyuureki" : "1124-04-03",
             "kyuureki_era" : "保安5-04-03"
          },
+         "code14" : 81,
+         "code15" : 82,
          "end_day" : {
             "gregorian" : "1124-05-24",
             "gregorian_era" : "保安5-05-24",
@@ -2436,6 +2471,8 @@
             "kyuureki" : "1141-07-10",
             "kyuureki_era" : "保延7-07-10"
          },
+         "code14" : 86,
+         "code15" : 87,
          "end_day" : {
             "gregorian" : "1141-08-19",
             "gregorian_era" : "保延7-08-19",
@@ -2682,6 +2719,8 @@
          "wref_ja" : "允恭天皇"
       },
       "元中" : {
+         "code14" : 164,
+         "code15" : 164,
          "id" : 650,
          "jp_south_era" : 1,
          "key" : "元中",
@@ -2748,6 +2787,8 @@
             "kyuureki" : "1206-04-27",
             "kyuureki_era" : "元久3-04-27"
          },
+         "code14" : 111,
+         "code15" : 111,
          "end_day" : {
             "gregorian" : "1206-06-11",
             "gregorian_era" : "元久3-06-11",
@@ -2805,6 +2846,8 @@
             "kyuureki" : "1573-07-28",
             "kyuureki_era" : "元亀4-07-28"
          },
+         "code14" : 205,
+         "code15" : 189,
          "end_day" : {
             "gregorian" : "1573-09-03",
             "gregorian_era" : "元亀4-09-03",
@@ -2864,6 +2907,8 @@
             "kyuureki" : "1324-12-09",
             "kyuureki_era" : "元亨4-12-09"
          },
+         "code14" : 151,
+         "code15" : 151,
          "end_day" : {
             "gregorian" : "1325-01-01",
             "gregorian_era" : "元亨5-01-01",
@@ -2934,6 +2979,8 @@
             "kyuureki" : "1225-04-20",
             "kyuureki_era" : "元仁2-04-20"
          },
+         "code14" : 118,
+         "code15" : 118,
          "end_day" : {
             "gregorian" : "1225-06-03",
             "gregorian_era" : "元仁2-06-03",
@@ -3039,6 +3086,8 @@
             "kyuureki" : "1624-02-30",
             "kyuureki_era" : "元和10-02-30"
          },
+         "code14" : 209,
+         "code15" : 193,
          "end_day" : {
             "gregorian" : "1624-04-16",
             "gregorian_era" : "元和10-04-16",
@@ -3261,6 +3310,8 @@
          "wref_zh" : "元延"
       },
       "元弘" : {
+         "code14" : 155,
+         "code15" : 155,
          "id" : 1301,
          "jp_north_era" : 1,
          "jp_south_era" : 1,
@@ -3357,6 +3408,8 @@
          "wref_ja" : "元弘"
       },
       "元徳" : {
+         "code14" : 154,
+         "code15" : 154,
          "id" : 1182,
          "jp_north_era" : 1,
          "jp_south_era" : 1,
@@ -3490,6 +3543,8 @@
             "kyuureki" : "1321-02-23",
             "kyuureki_era" : "元応3-02-23"
          },
+         "code14" : 150,
+         "code15" : 150,
          "end_day" : {
             "gregorian" : "1321-03-29",
             "gregorian_era" : "元応3-03-29",
@@ -3550,6 +3605,8 @@
             "kyuureki" : "0885-02-21",
             "kyuureki_era" : "元慶9-02-21"
          },
+         "code14" : 28,
+         "code15" : 29,
          "end_day" : {
             "gregorian" : "0885-03-14",
             "gregorian_era" : "元慶9-03-14",
@@ -3615,6 +3672,8 @@
             "kyuureki" : "1741-02-27",
             "kyuureki_era" : "元文6-02-27"
          },
+         "code14" : 224,
+         "code15" : 208,
          "end_day" : {
             "gregorian" : "1741-04-11",
             "gregorian_era" : "元文6-04-11",
@@ -3672,6 +3731,7 @@
             "kyuureki" : "1185-08-14",
             "kyuureki_era" : "元暦2-08-14"
          },
+         "code14" : 106,
          "end_day" : {
             "gregorian" : "1185-09-15",
             "gregorian_era" : "元暦2-09-15",
@@ -3745,6 +3805,8 @@
             "kyuureki" : "1120-04-10",
             "kyuureki_era" : "元永3-04-10"
          },
+         "code14" : 80,
+         "code15" : 81,
          "end_day" : {
             "gregorian" : "1120-05-15",
             "gregorian_era" : "元永3-05-15",
@@ -3802,6 +3864,8 @@
             "kyuureki" : "1865-04-07",
             "kyuureki_era" : "元治2-04-07"
          },
+         "code14" : 242,
+         "code15" : 226,
          "end_day" : {
             "gregorian" : "1865-04-30",
             "gregorian_era" : "元治2-04-30",
@@ -3940,6 +4004,8 @@
             "kyuureki" : "1704-03-13",
             "kyuureki_era" : "元禄17-03-13"
          },
+         "code14" : 220,
+         "code15" : 204,
          "end_day" : {
             "gregorian" : "1704-04-15",
             "gregorian_era" : "元禄17-04-15",
@@ -5058,6 +5124,8 @@
             "kyuureki" : "0715-09-02",
             "kyuureki_era" : "和銅8-09-02"
          },
+         "code14" : 6,
+         "code15" : 7,
          "end_day" : {
             "gregorian" : "0715-10-06",
             "gregorian_era" : "和銅8-10-06",
@@ -5448,6 +5516,8 @@
             "kyuureki" : "1096-12-17",
             "kyuureki_era" : "嘉保3-12-17"
          },
+         "code14" : 71,
+         "code15" : 72,
          "end_day" : {
             "gregorian" : "1097-01-08",
             "gregorian_era" : "嘉保4-01-08",
@@ -5505,6 +5575,8 @@
             "kyuureki" : "1306-12-14",
             "kyuureki_era" : "嘉元4-12-14"
          },
+         "code14" : 144,
+         "code15" : 144,
          "end_day" : {
             "gregorian" : "1307-01-25",
             "gregorian_era" : "嘉元5-01-25",
@@ -5562,6 +5634,8 @@
             "kyuureki" : "1444-02-05",
             "kyuureki_era" : "嘉吉4-02-05"
          },
+         "code14" : 185,
+         "code15" : 169,
          "end_day" : {
             "gregorian" : "1444-03-02",
             "gregorian_era" : "嘉吉4-03-02",
@@ -5683,6 +5757,8 @@
             "kyuureki" : "1171-04-21",
             "kyuureki_era" : "嘉応3-04-21"
          },
+         "code14" : 100,
+         "code15" : 101,
          "end_day" : {
             "gregorian" : "1171-06-02",
             "gregorian_era" : "嘉応3-06-02",
@@ -5736,6 +5812,8 @@
          "wref_ja" : "嘉応"
       },
       "嘉慶" : {
+         "code14" : 179,
+         "code15" : "北15",
          "id" : 1428,
          "jp_north_era" : 1,
          "key" : "嘉慶",
@@ -5818,6 +5896,8 @@
             "kyuureki" : "1108-08-03",
             "kyuureki_era" : "嘉承3-08-03"
          },
+         "code14" : 76,
+         "code15" : 77,
          "end_day" : {
             "gregorian" : "1108-09-15",
             "gregorian_era" : "嘉承3-09-15",
@@ -5878,6 +5958,8 @@
             "kyuureki" : "1329-08-29",
             "kyuureki_era" : "嘉暦4-08-29"
          },
+         "code14" : 153,
+         "code15" : 153,
          "end_day" : {
             "gregorian" : "1329-09-29",
             "gregorian_era" : "嘉暦4-09-29",
@@ -5952,6 +6034,8 @@
             "kyuureki" : "1854-11-27",
             "kyuureki_era" : "嘉永7-11-27"
          },
+         "code14" : 238,
+         "code15" : 222,
          "end_day" : {
             "gregorian" : "1855-01-14",
             "gregorian_era" : "嘉永8-01-14",
@@ -6061,6 +6145,8 @@
             "kyuureki" : "0851-04-28",
             "kyuureki_era" : "嘉祥4-04-28"
          },
+         "code14" : 23,
+         "code15" : 24,
          "end_day" : {
             "gregorian" : "0851-06-04",
             "gregorian_era" : "嘉祥4-06-04",
@@ -6120,6 +6206,8 @@
             "kyuureki" : "1227-12-10",
             "kyuureki_era" : "嘉禄3-12-10"
          },
+         "code14" : 119,
+         "code15" : 119,
          "end_day" : {
             "gregorian" : "1228-01-24",
             "gregorian_era" : "嘉禄4-01-24",
@@ -6178,6 +6266,8 @@
             "kyuureki" : "1238-11-23",
             "kyuureki_era" : "嘉禎4-11-23"
          },
+         "code14" : 125,
+         "code15" : 125,
          "end_day" : {
             "gregorian" : "1239-01-05",
             "gregorian_era" : "嘉禎5-01-05",
@@ -6537,6 +6627,8 @@
             "kyuureki" : "0650-02-15",
             "kyuureki_era" : "大化6-02-15"
          },
+         "code14" : 1,
+         "code15" : 1,
          "end_day" : {
             "gregorian" : "0650-03-24",
             "gregorian_era" : "大化6-03-24",
@@ -6594,6 +6686,8 @@
             "kyuureki" : "0810-09-19",
             "kyuureki_era" : "大同5-09-19"
          },
+         "code14" : 19,
+         "code15" : 20,
          "end_day" : {
             "gregorian" : "0810-10-23",
             "gregorian_era" : "大同5-10-23",
@@ -6859,6 +6953,8 @@
             "kyuureki" : "0704-05-10",
             "kyuureki_era" : "大宝4-05-10"
          },
+         "code14" : 4,
+         "code15" : 5,
          "end_day" : {
             "gregorian" : "0704-06-19",
             "gregorian_era" : "大宝4-06-19",
@@ -7294,6 +7390,8 @@
          "code11" : 7622,
          "code12" : 12042,
          "code13" : 34702,
+         "code14" : 245,
+         "code15" : 229,
          "code4" : 3,
          "code6" : 2,
          "end_day" : {
@@ -7388,6 +7486,8 @@
             "kyuureki" : "1528-08-20",
             "kyuureki_era" : "大永8-08-20"
          },
+         "code14" : 200,
+         "code15" : 184,
          "end_day" : {
             "gregorian" : "1528-09-12",
             "gregorian_era" : "大永8-09-12",
@@ -7451,6 +7551,8 @@
             "kyuureki" : "1131-01-29",
             "kyuureki_era" : "大治6-01-29"
          },
+         "code14" : 83,
+         "code15" : 84,
          "end_day" : {
             "gregorian" : "1131-03-06",
             "gregorian_era" : "大治6-03-06",
@@ -7788,6 +7890,8 @@
             "kyuureki" : "1110-07-13",
             "kyuureki_era" : "天仁3-07-13"
          },
+         "code14" : 77,
+         "code15" : 78,
          "end_day" : {
             "gregorian" : "1110-08-06",
             "gregorian_era" : "天仁3-08-06",
@@ -7845,6 +7949,8 @@
             "kyuureki" : "1844-12-02",
             "kyuureki_era" : "天保15-12-02"
          },
+         "code14" : 236,
+         "code15" : 220,
          "end_day" : {
             "gregorian" : "1845-01-08",
             "gregorian_era" : "天保16-01-08",
@@ -7941,6 +8047,8 @@
             "kyuureki" : "0983-04-15",
             "kyuureki_era" : "天元6-04-15"
          },
+         "code14" : 44,
+         "code15" : 45,
          "end_day" : {
             "gregorian" : "0983-06-02",
             "gregorian_era" : "天元6-06-02",
@@ -8079,6 +8187,8 @@
             "kyuureki" : "1684-02-21",
             "kyuureki_era" : "天和4-02-21"
          },
+         "code14" : 218,
+         "code15" : 202,
          "end_day" : {
             "gregorian" : "1684-04-04",
             "gregorian_era" : "天和4-04-04",
@@ -8223,6 +8333,8 @@
             "kyuureki" : "1058-08-29",
             "kyuureki_era" : "天喜6-08-29"
          },
+         "code14" : 62,
+         "code15" : 63,
          "end_day" : {
             "gregorian" : "1058-09-24",
             "gregorian_era" : "天喜6-09-24",
@@ -8403,6 +8515,8 @@
             "kyuureki" : "0859-04-15",
             "kyuureki_era" : "天安3-04-15"
          },
+         "code14" : 26,
+         "code15" : 27,
          "end_day" : {
             "gregorian" : "0859-05-23",
             "gregorian_era" : "天安3-05-23",
@@ -8596,6 +8710,8 @@
             "kyuureki" : "0749-04-14",
             "kyuureki_era" : "天平21-04-14"
          },
+         "code14" : 10,
+         "code15" : 11,
          "end_day" : {
             "gregorian" : "0749-05-07",
             "gregorian_era" : "天平21-05-07",
@@ -8668,6 +8784,8 @@
             "kyuureki" : "0757-08-18",
             "kyuureki_era" : "天平勝宝9-08-18"
          },
+         "code14" : 12,
+         "code15" : 13,
          "end_day" : {
             "gregorian" : "0757-09-09",
             "gregorian_era" : "天平勝宝9-09-09",
@@ -8732,6 +8850,8 @@
             "kyuureki" : "0765-01-07",
             "kyuureki_era" : "天平宝字9-01-07"
          },
+         "code14" : 13,
+         "code15" : 14,
          "end_day" : {
             "gregorian" : "0765-02-04",
             "gregorian_era" : "天平宝字9-02-04",
@@ -8793,6 +8913,8 @@
             "kyuureki" : "0749-07-02",
             "kyuureki_era" : "天平感宝1-07-02"
          },
+         "code14" : 11,
+         "code15" : 12,
          "end_day" : {
             "gregorian" : "0749-08-22",
             "gregorian_era" : "天平感宝1-08-22",
@@ -8855,6 +8977,8 @@
             "kyuureki" : "0767-08-16",
             "kyuureki_era" : "天平神護3-08-16"
          },
+         "code14" : 14,
+         "code15" : 15,
          "end_day" : {
             "gregorian" : "0767-09-16",
             "gregorian_era" : "天平神護3-09-16",
@@ -8940,6 +9064,8 @@
             "kyuureki" : "0976-07-13",
             "kyuureki_era" : "天延4-07-13"
          },
+         "code14" : 42,
+         "code15" : 43,
          "end_day" : {
             "gregorian" : "0976-08-15",
             "gregorian_era" : "天延4-08-15",
@@ -9055,6 +9181,8 @@
             "kyuureki" : "0961-02-16",
             "kyuureki_era" : "天徳5-02-16"
          },
+         "code14" : 37,
+         "code15" : 38,
          "end_day" : {
             "gregorian" : "0961-03-09",
             "gregorian_era" : "天徳5-03-09",
@@ -9206,6 +9334,8 @@
             "kyuureki" : "0782-08-19",
             "kyuureki_era" : "天応2-08-19"
          },
+         "code14" : 17,
+         "code15" : 18,
          "end_day" : {
             "gregorian" : "0782-10-03",
             "gregorian_era" : "天応2-10-03",
@@ -9287,6 +9417,8 @@
             "kyuureki" : "0947-04-22",
             "kyuureki_era" : "天慶10-04-22"
          },
+         "code14" : 35,
+         "code15" : 36,
          "end_day" : {
             "gregorian" : "0947-05-19",
             "gregorian_era" : "天慶10-05-19",
@@ -9493,6 +9625,8 @@
             "kyuureki" : "1132-08-11",
             "kyuureki_era" : "天承2-08-11"
          },
+         "code14" : 84,
+         "code15" : 85,
          "end_day" : {
             "gregorian" : "1132-09-27",
             "gregorian_era" : "天承2-09-27",
@@ -9543,6 +9677,8 @@
          "wref_ja" : "天承"
       },
       "天授" : {
+         "code14" : 162,
+         "code15" : 162,
          "id" : 1107,
          "jp_south_era" : 1,
          "key" : "天授",
@@ -9700,6 +9836,8 @@
             "kyuureki" : "1555-10-23",
             "kyuureki_era" : "天文24-10-23"
          },
+         "code14" : 202,
+         "code15" : 186,
          "end_day" : {
             "gregorian" : "1555-11-16",
             "gregorian_era" : "天文24-11-16",
@@ -9757,6 +9895,8 @@
             "kyuureki" : "1789-01-25",
             "kyuureki_era" : "天明9-01-25"
          },
+         "code14" : 231,
+         "code15" : 215,
          "end_day" : {
             "gregorian" : "1789-02-18",
             "gregorian_era" : "天明9-02-18",
@@ -9926,6 +10066,8 @@
             "kyuureki" : "0957-10-27",
             "kyuureki_era" : "天暦11-10-27"
          },
+         "code14" : 36,
+         "code15" : 37,
          "end_day" : {
             "gregorian" : "0957-11-25",
             "gregorian_era" : "天暦11-11-25",
@@ -10031,6 +10173,8 @@
             "kyuureki" : "1592-12-08",
             "kyuureki_era" : "天正20-12-08"
          },
+         "code14" : 206,
+         "code15" : 190,
          "end_day" : {
             "gregorian" : "1593-01-09",
             "gregorian_era" : "天正21-01-09",
@@ -10210,6 +10354,8 @@
             "kyuureki" : "1113-07-13",
             "kyuureki_era" : "天永4-07-13"
          },
+         "code14" : 78,
+         "code15" : 79,
          "end_day" : {
             "gregorian" : "1113-08-31",
             "gregorian_era" : "天永4-08-31",
@@ -10267,6 +10413,8 @@
             "kyuureki" : "1126-01-22",
             "kyuureki_era" : "天治3-01-22"
          },
+         "code14" : 82,
+         "code15" : 83,
          "end_day" : {
             "gregorian" : "1126-02-21",
             "gregorian_era" : "天治3-02-21",
@@ -10580,6 +10728,8 @@
             "kyuureki" : "0973-12-20",
             "kyuureki_era" : "天禄4-12-20"
          },
+         "code14" : 41,
+         "code15" : 42,
          "end_day" : {
             "gregorian" : "0974-01-20",
             "gregorian_era" : "天禄5-01-20",
@@ -10638,6 +10788,8 @@
             "kyuureki" : "1234-11-05",
             "kyuureki_era" : "天福2-11-05"
          },
+         "code14" : 123,
+         "code15" : 123,
          "end_day" : {
             "gregorian" : "1234-12-03",
             "gregorian_era" : "天福2-12-03",
@@ -11228,6 +11380,8 @@
             "kyuureki" : "0834-01-03",
             "kyuureki_era" : "天長11-01-03"
          },
+         "code14" : 21,
+         "code15" : 22,
          "end_day" : {
             "gregorian" : "0834-02-17",
             "gregorian_era" : "天長11-02-17",
@@ -11414,6 +11568,8 @@
             "kyuureki" : "1145-07-22",
             "kyuureki_era" : "天養2-07-22"
          },
+         "code14" : 89,
+         "code15" : 90,
          "end_day" : {
             "gregorian" : "1145-08-18",
             "gregorian_era" : "天養2-08-18",
@@ -12768,6 +12924,8 @@
             "kyuureki" : "1177-08-04",
             "kyuureki_era" : "安元3-08-04"
          },
+         "code14" : 102,
+         "code15" : 103,
          "end_day" : {
             "gregorian" : "1177-09-04",
             "gregorian_era" : "安元3-09-04",
@@ -12825,6 +12983,8 @@
             "kyuureki" : "0970-03-25",
             "kyuureki_era" : "安和3-03-25"
          },
+         "code14" : 40,
+         "code15" : 41,
          "end_day" : {
             "gregorian" : "0970-05-07",
             "gregorian_era" : "安和3-05-07",
@@ -13095,6 +13255,8 @@
             "kyuureki" : "1860-03-18",
             "kyuureki_era" : "安政7-03-18"
          },
+         "code14" : 239,
+         "code15" : 223,
          "end_day" : {
             "gregorian" : "1860-04-07",
             "gregorian_era" : "安政7-04-07",
@@ -13166,6 +13328,8 @@
             "kyuureki" : "1781-04-02",
             "kyuureki_era" : "安永10-04-02"
          },
+         "code14" : 230,
+         "code15" : 214,
          "end_day" : {
             "gregorian" : "1781-04-24",
             "gregorian_era" : "安永10-04-24",
@@ -13223,6 +13387,8 @@
             "kyuureki" : "1229-03-05",
             "kyuureki_era" : "安貞3-03-05"
          },
+         "code14" : 120,
+         "code15" : 120,
          "end_day" : {
             "gregorian" : "1229-04-06",
             "gregorian_era" : "安貞3-04-06",
@@ -13417,6 +13583,8 @@
             "kyuureki" : "0781-01-01",
             "kyuureki_era" : "宝亀12-01-01"
          },
+         "code14" : 16,
+         "code15" : 17,
          "end_day" : {
             "gregorian" : "0781-02-02",
             "gregorian_era" : "宝亀12-02-02",
@@ -13514,6 +13682,8 @@
             "kyuureki" : "1452-07-25",
             "kyuureki_era" : "宝徳4-07-25"
          },
+         "code14" : 187,
+         "code15" : 171,
          "end_day" : {
             "gregorian" : "1452-08-18",
             "gregorian_era" : "宝徳4-08-18",
@@ -13576,6 +13746,8 @@
             "kyuureki" : "1764-06-02",
             "kyuureki_era" : "宝暦14-06-02"
          },
+         "code14" : 228,
+         "code15" : 212,
          "end_day" : {
             "gregorian" : "1764-06-29",
             "gregorian_era" : "宝暦14-06-29",
@@ -13648,6 +13820,8 @@
             "kyuureki" : "1711-04-25",
             "kyuureki_era" : "宝永8-04-25"
          },
+         "code14" : 221,
+         "code15" : 205,
          "end_day" : {
             "gregorian" : "1711-06-10",
             "gregorian_era" : "宝永8-06-10",
@@ -13712,6 +13886,8 @@
             "kyuureki" : "1249-03-18",
             "kyuureki_era" : "宝治3-03-18"
          },
+         "code14" : 130,
+         "code15" : 130,
          "end_day" : {
             "gregorian" : "1249-05-08",
             "gregorian_era" : "宝治3-05-08",
@@ -13919,6 +14095,8 @@
             "kyuureki" : "1021-02-02",
             "kyuureki_era" : "寛仁5-02-02"
          },
+         "code14" : 54,
+         "code15" : 55,
          "end_day" : {
             "gregorian" : "1021-03-22",
             "gregorian_era" : "寛仁5-03-22",
@@ -13977,6 +14155,8 @@
             "kyuureki" : "1744-02-21",
             "kyuureki_era" : "寛保4-02-21"
          },
+         "code14" : 225,
+         "code15" : 209,
          "end_day" : {
             "gregorian" : "1744-04-02",
             "gregorian_era" : "寛保4-04-02",
@@ -14036,6 +14216,8 @@
             "kyuureki" : "1247-02-28",
             "kyuureki_era" : "寛元5-02-28"
          },
+         "code14" : 129,
+         "code15" : 129,
          "end_day" : {
             "gregorian" : "1247-04-11",
             "gregorian_era" : "寛元5-04-11",
@@ -14094,6 +14276,8 @@
             "kyuureki" : "0987-04-05",
             "kyuureki_era" : "寛和3-04-05"
          },
+         "code14" : 46,
+         "code15" : 47,
          "end_day" : {
             "gregorian" : "0987-05-09",
             "gregorian_era" : "寛和3-05-09",
@@ -14153,6 +14337,8 @@
             "kyuureki" : "1232-04-02",
             "kyuureki_era" : "寛喜4-04-02"
          },
+         "code14" : 121,
+         "code15" : 121,
          "end_day" : {
             "gregorian" : "1232-04-29",
             "gregorian_era" : "寛喜4-04-29",
@@ -14213,6 +14399,8 @@
             "kyuureki" : "0898-04-26",
             "kyuureki_era" : "寛平10-04-26"
          },
+         "code14" : 30,
+         "code15" : 31,
          "end_day" : {
             "gregorian" : "0898-05-23",
             "gregorian_era" : "寛平10-05-23",
@@ -14274,6 +14462,8 @@
             "kyuureki" : "1751-10-27",
             "kyuureki_era" : "寛延4-10-27"
          },
+         "code14" : 227,
+         "code15" : 211,
          "end_day" : {
             "gregorian" : "1751-12-13",
             "gregorian_era" : "寛延4-12-13",
@@ -14332,6 +14522,8 @@
             "kyuureki" : "1012-12-25",
             "kyuureki_era" : "寛弘9-12-25"
          },
+         "code14" : 52,
+         "code15" : 53,
          "end_day" : {
             "gregorian" : "1013-02-13",
             "gregorian_era" : "寛弘10-02-13",
@@ -14390,6 +14582,8 @@
             "kyuureki" : "1046-04-14",
             "kyuureki_era" : "寛徳3-04-14"
          },
+         "code14" : 60,
+         "code15" : 61,
          "end_day" : {
             "gregorian" : "1046-05-27",
             "gregorian_era" : "寛徳3-05-27",
@@ -14450,6 +14644,8 @@
             "kyuureki" : "1801-02-05",
             "kyuureki_era" : "寛政13-02-05"
          },
+         "code14" : 232,
+         "code15" : 216,
          "end_day" : {
             "gregorian" : "1801-03-18",
             "gregorian_era" : "寛政13-03-18",
@@ -14508,6 +14704,8 @@
             "kyuureki" : "1673-09-21",
             "kyuureki_era" : "寛文13-09-21"
          },
+         "code14" : 216,
+         "code15" : 200,
          "end_day" : {
             "gregorian" : "1673-10-29",
             "gregorian_era" : "寛文13-10-29",
@@ -14582,6 +14780,8 @@
             "kyuureki" : "1466-02-28",
             "kyuureki_era" : "寛正7-02-28"
          },
+         "code14" : 191,
+         "code15" : 175,
          "end_day" : {
             "gregorian" : "1466-03-22",
             "gregorian_era" : "寛正7-03-22",
@@ -14640,6 +14840,8 @@
             "kyuureki" : "1644-12-16",
             "kyuureki_era" : "寛永21-12-16"
          },
+         "code14" : 210,
+         "code15" : 194,
          "end_day" : {
             "gregorian" : "1645-01-12",
             "gregorian_era" : "寛永22-01-12",
@@ -14698,6 +14900,8 @@
             "kyuureki" : "1094-12-15",
             "kyuureki_era" : "寛治8-12-15"
          },
+         "code14" : 70,
+         "code15" : 71,
          "end_day" : {
             "gregorian" : "1095-01-28",
             "gregorian_era" : "寛治9-01-28",
@@ -15050,6 +15254,8 @@
             "kyuureki" : "1184-04-16",
             "kyuureki_era" : "寿永3-04-16"
          },
+         "code14" : 105,
+         "code15" : 106,
          "end_day" : {
             "gregorian" : "1184-06-02",
             "gregorian_era" : "寿永3-06-02",
@@ -15562,6 +15768,7 @@
          "code11" : 8323,
          "code12" : 12044,
          "code13" : 34686,
+         "code14" : 247,
          "code4" : 7,
          "code5" : 2,
          "code6" : 4,
@@ -15638,6 +15845,8 @@
             "kyuureki" : "1160-01-10",
             "kyuureki_era" : "平治2-01-10"
          },
+         "code14" : 94,
+         "code15" : 95,
          "end_day" : {
             "gregorian" : "1160-02-24",
             "gregorian_era" : "平治2-02-24",
@@ -15766,6 +15975,8 @@
             "kyuureki" : "0968-08-13",
             "kyuureki_era" : "康保5-08-13"
          },
+         "code14" : 39,
+         "code15" : 40,
          "end_day" : {
             "gregorian" : "0968-09-12",
             "gregorian_era" : "康保5-09-12",
@@ -15823,6 +16034,8 @@
             "kyuureki" : "1257-03-14",
             "kyuureki_era" : "康元2-03-14"
          },
+         "code14" : 132,
+         "code15" : 132,
          "end_day" : {
             "gregorian" : "1257-04-06",
             "gregorian_era" : "康元2-04-06",
@@ -15880,6 +16093,8 @@
             "kyuureki" : "1104-02-10",
             "kyuureki_era" : "康和6-02-10"
          },
+         "code14" : 74,
+         "code15" : 75,
          "end_day" : {
             "gregorian" : "1104-03-14",
             "gregorian_era" : "康和6-03-14",
@@ -15942,6 +16157,8 @@
          "wref_zh" : "康国_(西辽)"
       },
       "康安" : {
+         "code14" : 172,
+         "code15" : "北8",
          "id" : 1151,
          "jp_north_era" : 1,
          "key" : "康安",
@@ -16020,6 +16237,8 @@
             "kyuureki" : "1065-08-02",
             "kyuureki_era" : "康平8-08-02"
          },
+         "code14" : 63,
+         "code15" : 64,
          "end_day" : {
             "gregorian" : "1065-09-09",
             "gregorian_era" : "康平8-09-09",
@@ -16082,6 +16301,8 @@
          "wref_zh" : "康德_(满洲国)"
       },
       "康応" : {
+         "code14" : 180,
+         "code15" : "北16",
          "id" : 1149,
          "jp_north_era" : 1,
          "key" : "康応",
@@ -16146,6 +16367,8 @@
          "wref_ja" : "康応"
       },
       "康暦" : {
+         "code14" : 176,
+         "code15" : "北12",
          "id" : 112,
          "jp_north_era" : 1,
          "key" : "康暦",
@@ -16216,6 +16439,8 @@
             "kyuureki" : "1457-09-28",
             "kyuureki_era" : "康正3-09-28"
          },
+         "code14" : 189,
+         "code15" : 173,
          "end_day" : {
             "gregorian" : "1457-10-24",
             "gregorian_era" : "康正3-10-24",
@@ -16269,6 +16494,8 @@
          "wref_ja" : "康正"
       },
       "康永" : {
+         "code14" : 167,
+         "code15" : "北3",
          "id" : 282,
          "jp_north_era" : 1,
          "key" : "康永",
@@ -16335,6 +16562,8 @@
             "kyuureki" : "1144-02-23",
             "kyuureki_era" : "康治3-02-23"
          },
+         "code14" : 88,
+         "code15" : 89,
          "end_day" : {
             "gregorian" : "1144-04-03",
             "gregorian_era" : "康治3-04-03",
@@ -16691,6 +16920,8 @@
             "kyuureki" : "1074-08-23",
             "kyuureki_era" : "延久6-08-23"
          },
+         "code14" : 65,
+         "code15" : 66,
          "end_day" : {
             "gregorian" : "1074-09-21",
             "gregorian_era" : "延久6-09-21",
@@ -16748,6 +16979,8 @@
             "kyuureki" : "1748-07-12",
             "kyuureki_era" : "延享5-07-12"
          },
+         "code14" : 226,
+         "code15" : 210,
          "end_day" : {
             "gregorian" : "1748-08-04",
             "gregorian_era" : "延享5-08-04",
@@ -16796,6 +17029,8 @@
          "wref_ja" : "延享"
       },
       "延元" : {
+         "code14" : 157,
+         "code15" : 157,
          "id" : 789,
          "jp_south_era" : 1,
          "key" : "延元",
@@ -16922,6 +17157,8 @@
             "kyuureki" : "0923-04'-11",
             "kyuureki_era" : "延喜23-04'-11"
          },
+         "code14" : 32,
+         "code15" : 33,
          "end_day" : {
             "gregorian" : "0923-06-02",
             "gregorian_era" : "延喜23-06-02",
@@ -17035,6 +17272,8 @@
             "kyuureki" : "1681-09-29",
             "kyuureki_era" : "延宝9-09-29"
          },
+         "code14" : 217,
+         "code15" : 201,
          "end_day" : {
             "gregorian" : "1681-11-08",
             "gregorian_era" : "延宝9-11-08",
@@ -17178,6 +17417,8 @@
             "kyuureki" : "1492-07-19",
             "kyuureki_era" : "延徳4-07-19"
          },
+         "code14" : 196,
+         "code15" : 180,
          "end_day" : {
             "gregorian" : "1492-08-20",
             "gregorian_era" : "延徳4-08-20",
@@ -17253,6 +17494,8 @@
             "kyuureki" : "1240-07-16",
             "kyuureki_era" : "延応2-07-16"
          },
+         "code14" : 127,
+         "code15" : 127,
          "end_day" : {
             "gregorian" : "1240-08-11",
             "gregorian_era" : "延応2-08-11",
@@ -17313,6 +17556,8 @@
             "kyuureki" : "1311-04-28",
             "kyuureki_era" : "延慶4-04-28"
          },
+         "code14" : 146,
+         "code15" : 146,
          "end_day" : {
             "gregorian" : "1311-05-24",
             "gregorian_era" : "延慶4-05-24",
@@ -17385,6 +17630,8 @@
          "offset" : 1577
       },
       "延文" : {
+         "code14" : 171,
+         "code15" : "北7",
          "id" : 204,
          "jp_north_era" : 1,
          "key" : "延文",
@@ -17475,6 +17722,8 @@
             "kyuureki" : "0806-05-18",
             "kyuureki_era" : "延暦25-05-18"
          },
+         "code14" : 18,
+         "code15" : 19,
          "end_day" : {
             "gregorian" : "0806-06-11",
             "gregorian_era" : "延暦25-06-11",
@@ -17655,6 +17904,8 @@
             "kyuureki" : "0931-04-26",
             "kyuureki_era" : "延長9-04-26"
          },
+         "code14" : 33,
+         "code15" : 34,
          "end_day" : {
             "gregorian" : "0931-05-20",
             "gregorian_era" : "延長9-05-20",
@@ -17763,6 +18014,8 @@
             "kyuureki" : "1199-04-27",
             "kyuureki_era" : "建久10-04-27"
          },
+         "code14" : 108,
+         "code15" : 108,
          "end_day" : {
             "gregorian" : "1199-05-29",
             "gregorian_era" : "建久10-05-29",
@@ -17825,6 +18078,8 @@
             "kyuureki" : "1204-02-20",
             "kyuureki_era" : "建仁4-02-20"
          },
+         "code14" : 110,
+         "code15" : 110,
          "end_day" : {
             "gregorian" : "1204-03-29",
             "gregorian_era" : "建仁4-03-29",
@@ -17882,6 +18137,8 @@
             "kyuureki" : "1219-04-12",
             "kyuureki_era" : "建保7-04-12"
          },
+         "code14" : 115,
+         "code15" : 115,
          "end_day" : {
             "gregorian" : "1219-06-02",
             "gregorian_era" : "建保7-06-02",
@@ -18360,6 +18617,8 @@
          "wref_zh" : "建弘"
       },
       "建徳" : {
+         "code14" : 160,
+         "code15" : 160,
          "id" : 456,
          "jp_south_era" : 1,
          "key" : "建徳",
@@ -18570,6 +18829,8 @@
             "kyuureki" : "1213-12-06",
             "kyuureki_era" : "建暦3-12-06"
          },
+         "code14" : 114,
+         "code15" : 114,
          "end_day" : {
             "gregorian" : "1214-01-24",
             "gregorian_era" : "建暦4-01-24",
@@ -18636,6 +18897,8 @@
          "wref_zh" : "建极"
       },
       "建武" : {
+         "code14" : 156,
+         "code15" : 156,
          "id" : 1506,
          "jp_north_era" : 1,
          "jp_south_era" : 1,
@@ -18839,6 +19102,8 @@
             "kyuureki" : "1207-10-25",
             "kyuureki_era" : "建永2-10-25"
          },
+         "code14" : 112,
+         "code15" : 112,
          "end_day" : {
             "gregorian" : "1207-11-22",
             "gregorian_era" : "建永2-11-22",
@@ -18896,6 +19161,8 @@
             "kyuureki" : "1278-02-29",
             "kyuureki_era" : "建治4-02-29"
          },
+         "code14" : 138,
+         "code15" : 138,
          "end_day" : {
             "gregorian" : "1278-03-29",
             "gregorian_era" : "建治4-03-29",
@@ -19191,6 +19458,8 @@
             "kyuureki" : "1256-10-05",
             "kyuureki_era" : "建長8-10-05"
          },
+         "code14" : 131,
+         "code15" : 131,
          "end_day" : {
             "gregorian" : "1256-10-30",
             "gregorian_era" : "建長8-10-30",
@@ -19271,6 +19540,8 @@
             "kyuureki" : "0824-01-05",
             "kyuureki_era" : "弘仁15-01-05"
          },
+         "code14" : 20,
+         "code15" : 21,
          "end_day" : {
             "gregorian" : "0824-02-11",
             "gregorian_era" : "弘仁15-02-11",
@@ -19341,6 +19612,8 @@
             "kyuureki" : "1848-02-28",
             "kyuureki_era" : "弘化5-02-28"
          },
+         "code14" : 237,
+         "code15" : 221,
          "end_day" : {
             "gregorian" : "1848-03-31",
             "gregorian_era" : "弘化5-03-31",
@@ -19389,6 +19662,8 @@
          "wref_ja" : "弘化"
       },
       "弘和" : {
+         "code14" : 163,
+         "code15" : 163,
          "id" : 21,
          "jp_south_era" : 1,
          "key" : "弘和",
@@ -19467,6 +19742,8 @@
             "kyuureki" : "1288-04-28",
             "kyuureki_era" : "弘安11-04-28"
          },
+         "code14" : 139,
+         "code15" : 139,
          "end_day" : {
             "gregorian" : "1288-06-04",
             "gregorian_era" : "弘安11-06-04",
@@ -19577,6 +19854,8 @@
             "kyuureki" : "1558-02-28",
             "kyuureki_era" : "弘治4-02-28"
          },
+         "code14" : 203,
+         "code15" : 187,
          "end_day" : {
             "gregorian" : "1558-03-27",
             "gregorian_era" : "弘治4-03-27",
@@ -19659,6 +19938,8 @@
             "kyuureki" : "1264-02-28",
             "kyuureki_era" : "弘長4-02-28"
          },
+         "code14" : 136,
+         "code15" : 136,
          "end_day" : {
             "gregorian" : "1264-04-02",
             "gregorian_era" : "弘長4-04-02",
@@ -19862,6 +20143,8 @@
             "kyuureki" : "1308-10-09",
             "kyuureki_era" : "徳治3-10-09"
          },
+         "code14" : 145,
+         "code15" : 145,
          "end_day" : {
             "gregorian" : "1308-11-29",
             "gregorian_era" : "徳治3-11-29",
@@ -20025,6 +20308,8 @@
             "kyuureki" : "1469-04-28",
             "kyuureki_era" : "応仁3-04-28"
          },
+         "code14" : 193,
+         "code15" : 177,
          "end_day" : {
             "gregorian" : "1469-06-16",
             "gregorian_era" : "応仁3-06-16",
@@ -20084,6 +20369,8 @@
             "kyuureki" : "1163-03-29",
             "kyuureki_era" : "応保3-03-29"
          },
+         "code14" : 96,
+         "code15" : 97,
          "end_day" : {
             "gregorian" : "1163-05-10",
             "gregorian_era" : "応保3-05-10",
@@ -20144,6 +20431,8 @@
             "kyuureki" : "0964-07-10",
             "kyuureki_era" : "応和4-07-10"
          },
+         "code14" : 38,
+         "code15" : 39,
          "end_day" : {
             "gregorian" : "0964-08-23",
             "gregorian_era" : "応和4-08-23",
@@ -20194,6 +20483,8 @@
          "wref_ja" : "応和"
       },
       "応安" : {
+         "code14" : 174,
+         "code15" : "北10",
          "id" : 621,
          "jp_north_era" : 1,
          "key" : "応安",
@@ -20262,6 +20553,8 @@
             "kyuureki" : "1087-04-07",
             "kyuureki_era" : "応徳4-04-07"
          },
+         "code14" : 69,
+         "code15" : 70,
          "end_day" : {
             "gregorian" : "1087-05-16",
             "gregorian_era" : "応徳4-05-16",
@@ -20329,6 +20622,8 @@
             "kyuureki" : "1428-04-27",
             "kyuureki_era" : "応永35-04-27"
          },
+         "code14" : 182,
+         "code15" : 166,
          "end_day" : {
             "gregorian" : "1428-06-18",
             "gregorian_era" : "応永35-06-18",
@@ -20487,6 +20782,8 @@
             "kyuureki" : "1312-03-20",
             "kyuureki_era" : "応長2-03-20"
          },
+         "code14" : 147,
+         "code15" : 147,
          "end_day" : {
             "gregorian" : "1312-05-04",
             "gregorian_era" : "応長2-05-04",
@@ -20607,6 +20904,8 @@
             "kyuureki" : "1652-09-18",
             "kyuureki_era" : "慶安5-09-18"
          },
+         "code14" : 212,
+         "code15" : 196,
          "end_day" : {
             "gregorian" : "1652-10-19",
             "gregorian_era" : "慶安5-10-19",
@@ -20683,6 +20982,8 @@
             "kyuureki" : "1868-09-08",
             "kyuureki_era" : "慶応4-09-08"
          },
+         "code14" : 243,
+         "code15" : 227,
          "end_day" : {
             "gregorian" : "1868-10-22",
             "gregorian_era" : "慶応4-10-22",
@@ -20789,6 +21090,8 @@
             "kyuureki" : "1615-07-13",
             "kyuureki_era" : "慶長20-07-13"
          },
+         "code14" : 208,
+         "code15" : 192,
          "end_day" : {
             "gregorian" : "1615-09-04",
             "gregorian_era" : "慶長20-09-04",
@@ -20850,6 +21153,8 @@
             "kyuureki" : "0708-01-11",
             "kyuureki_era" : "慶雲5-01-11"
          },
+         "code14" : 5,
+         "code15" : 6,
          "end_day" : {
             "gregorian" : "0708-02-10",
             "gregorian_era" : "慶雲5-02-10",
@@ -21337,6 +21642,8 @@
             "kyuureki" : "1222-04-13",
             "kyuureki_era" : "承久4-04-13"
          },
+         "code14" : 116,
+         "code15" : 116,
          "end_day" : {
             "gregorian" : "1222-05-31",
             "gregorian_era" : "承久4-05-31",
@@ -21396,6 +21703,8 @@
             "kyuureki" : "1077-11-17",
             "kyuureki_era" : "承保4-11-17"
          },
+         "code14" : 66,
+         "code15" : 67,
          "end_day" : {
             "gregorian" : "1077-12-10",
             "gregorian_era" : "承保4-12-10",
@@ -21455,6 +21764,8 @@
             "kyuureki" : "1211-03-09",
             "kyuureki_era" : "承元5-03-09"
          },
+         "code14" : 113,
+         "code15" : 113,
          "end_day" : {
             "gregorian" : "1211-04-29",
             "gregorian_era" : "承元5-04-29",
@@ -21545,6 +21856,8 @@
             "kyuureki" : "0848-06-13",
             "kyuureki_era" : "承和15-06-13"
          },
+         "code14" : 22,
+         "code15" : 23,
          "end_day" : {
             "gregorian" : "0848-07-19",
             "gregorian_era" : "承和15-07-19",
@@ -21619,6 +21932,8 @@
             "kyuureki" : "1175-07-28",
             "kyuureki_era" : "承安5-07-28"
          },
+         "code14" : 101,
+         "code15" : 102,
          "end_day" : {
             "gregorian" : "1175-08-22",
             "gregorian_era" : "承安5-08-22",
@@ -21691,6 +22006,8 @@
             "kyuureki" : "0938-05-22",
             "kyuureki_era" : "承平8-05-22"
          },
+         "code14" : 34,
+         "code15" : 35,
          "end_day" : {
             "gregorian" : "0938-06-26",
             "gregorian_era" : "承平8-06-26",
@@ -21802,6 +22119,8 @@
             "kyuureki" : "1099-08-28",
             "kyuureki_era" : "承徳3-08-28"
          },
+         "code14" : 73,
+         "code15" : 74,
          "end_day" : {
             "gregorian" : "1099-09-20",
             "gregorian_era" : "承徳3-09-20",
@@ -21863,6 +22182,8 @@
             "kyuureki" : "1655-04-13",
             "kyuureki_era" : "承応4-04-13"
          },
+         "code14" : 213,
+         "code15" : 197,
          "end_day" : {
             "gregorian" : "1655-05-17",
             "gregorian_era" : "承応4-05-17",
@@ -21956,6 +22277,8 @@
             "kyuureki" : "1081-02-10",
             "kyuureki_era" : "承暦5-02-10"
          },
+         "code14" : 67,
+         "code15" : 68,
          "end_day" : {
             "gregorian" : "1081-03-27",
             "gregorian_era" : "承暦5-03-27",
@@ -22387,6 +22710,8 @@
          "offset" : 530
       },
       "文中" : {
+         "code14" : 161,
+         "code15" : 161,
          "id" : 634,
          "jp_south_era" : 1,
          "key" : "文中",
@@ -22453,6 +22778,8 @@
             "kyuureki" : "1864-02-20",
             "kyuureki_era" : "文久4-02-20"
          },
+         "code14" : 241,
+         "code15" : 225,
          "end_day" : {
             "gregorian" : "1864-03-26",
             "gregorian_era" : "文久4-03-26",
@@ -22510,6 +22837,8 @@
             "kyuureki" : "1504-02-30",
             "kyuureki_era" : "文亀4-02-30"
          },
+         "code14" : 198,
+         "code15" : 182,
          "end_day" : {
             "gregorian" : "1504-03-25",
             "gregorian_era" : "文亀4-03-25",
@@ -22569,6 +22898,8 @@
             "kyuureki" : "1319-04-28",
             "kyuureki_era" : "文保3-04-28"
          },
+         "code14" : 149,
+         "code15" : 149,
          "end_day" : {
             "gregorian" : "1319-05-25",
             "gregorian_era" : "文保3-05-25",
@@ -22627,6 +22958,8 @@
             "kyuureki" : "1818-04-22",
             "kyuureki_era" : "文化15-04-22"
          },
+         "code14" : 234,
+         "code15" : 218,
          "end_day" : {
             "gregorian" : "1818-05-25",
             "gregorian_era" : "文化15-05-25",
@@ -22675,6 +23008,8 @@
          "wref_ja" : "文化_(元号)"
       },
       "文和" : {
+         "code14" : 170,
+         "code15" : "北6",
          "id" : 1051,
          "jp_north_era" : 1,
          "key" : "文和",
@@ -22742,6 +23077,8 @@
             "kyuureki" : "1449-07-28",
             "kyuureki_era" : "文安6-07-28"
          },
+         "code14" : 186,
+         "code15" : 170,
          "end_day" : {
             "gregorian" : "1449-08-24",
             "gregorian_era" : "文安6-08-24",
@@ -22864,6 +23201,8 @@
             "kyuureki" : "1261-02-20",
             "kyuureki_era" : "文応2-02-20"
          },
+         "code14" : 135,
+         "code15" : 135,
          "end_day" : {
             "gregorian" : "1261-03-28",
             "gregorian_era" : "文応2-03-28",
@@ -22923,6 +23262,8 @@
             "kyuureki" : "1830-12-10",
             "kyuureki_era" : "文政13-12-10"
          },
+         "code14" : 235,
+         "code15" : 219,
          "end_day" : {
             "gregorian" : "1831-01-22",
             "gregorian_era" : "文政14-01-22",
@@ -22980,6 +23321,8 @@
             "kyuureki" : "1487-07-20",
             "kyuureki_era" : "文明19-07-20"
          },
+         "code14" : 194,
+         "code15" : 178,
          "end_day" : {
             "gregorian" : "1487-08-17",
             "gregorian_era" : "文明19-08-17",
@@ -23049,6 +23392,8 @@
             "kyuureki" : "1235-09-19",
             "kyuureki_era" : "文暦2-09-19"
          },
+         "code14" : 124,
+         "code15" : 124,
          "end_day" : {
             "gregorian" : "1235-11-07",
             "gregorian_era" : "文暦2-11-07",
@@ -23112,6 +23457,8 @@
             "kyuureki" : "1467-03-05",
             "kyuureki_era" : "文正2-03-05"
          },
+         "code14" : 192,
+         "code15" : 176,
          "end_day" : {
             "gregorian" : "1467-04-17",
             "gregorian_era" : "文正2-04-17",
@@ -23219,6 +23566,8 @@
             "kyuureki" : "1275-04-25",
             "kyuureki_era" : "文永12-04-25"
          },
+         "code14" : 137,
+         "code15" : 137,
          "end_day" : {
             "gregorian" : "1275-05-28",
             "gregorian_era" : "文永12-05-28",
@@ -23276,6 +23625,8 @@
             "kyuureki" : "1190-04-11",
             "kyuureki_era" : "文治6-04-11"
          },
+         "code14" : 107,
+         "code15" : 107,
          "end_day" : {
             "gregorian" : "1190-05-22",
             "gregorian_era" : "文治6-05-22",
@@ -23346,6 +23697,8 @@
             "kyuureki" : "1596-10-27",
             "kyuureki_era" : "文禄5-10-27"
          },
+         "code14" : 207,
+         "code15" : 191,
          "end_day" : {
             "gregorian" : "1596-12-15",
             "gregorian_era" : "文禄5-12-15",
@@ -23527,6 +23880,8 @@
             "kyuureki" : "0857-02-21",
             "kyuureki_era" : "斉衡4-02-21"
          },
+         "code14" : 25,
+         "code15" : 26,
          "end_day" : {
             "gregorian" : "0857-03-23",
             "gregorian_era" : "斉衡4-03-23",
@@ -23693,6 +24048,8 @@
             "kyuureki" : "0901-07-15",
             "kyuureki_era" : "昌泰4-07-15"
          },
+         "code14" : 31,
+         "code15" : 32,
          "end_day" : {
             "gregorian" : "0901-09-04",
             "gregorian_era" : "昌泰4-09-04",
@@ -23816,6 +24173,8 @@
             "kyuureki" : "1772-11-16",
             "kyuureki_era" : "明和9-11-16"
          },
+         "code14" : 229,
+         "code15" : 213,
          "end_day" : {
             "gregorian" : "1772-12-09",
             "gregorian_era" : "明和9-12-09",
@@ -23884,6 +24243,8 @@
          "wref_zh" : "明启"
       },
       "明徳" : {
+         "code14" : 181,
+         "code15" : 165,
          "id" : 870,
          "jp_north_era" : 1,
          "jp_south_era" : 1,
@@ -24026,6 +24387,8 @@
             "kyuureki" : "1501-02-29",
             "kyuureki_era" : "明応10-02-29"
          },
+         "code14" : 197,
+         "code15" : 181,
          "end_day" : {
             "gregorian" : "1501-03-27",
             "gregorian_era" : "明応10-03-27",
@@ -24153,6 +24516,8 @@
             "kyuureki" : "1658-07-23",
             "kyuureki_era" : "明暦4-07-23"
          },
+         "code14" : 214,
+         "code15" : 198,
          "end_day" : {
             "gregorian" : "1658-08-20",
             "gregorian_era" : "明暦4-08-20",
@@ -24238,6 +24603,8 @@
          "code11" : 7621,
          "code12" : 12041,
          "code13" : 34701,
+         "code14" : 244,
+         "code15" : 228,
          "code4" : 1,
          "code6" : 3,
          "end_day" : {
@@ -24431,6 +24798,8 @@
          "code11" : 7623,
          "code12" : 12043,
          "code13" : 34703,
+         "code14" : 246,
+         "code15" : 230,
          "code4" : 5,
          "code5" : 1,
          "code6" : 1,
@@ -24935,6 +25304,8 @@
             "kyuureki" : "1239-02-07",
             "kyuureki_era" : "暦仁2-02-07"
          },
+         "code14" : 126,
+         "code15" : 126,
          "end_day" : {
             "gregorian" : "1239-03-19",
             "gregorian_era" : "暦仁2-03-19",
@@ -24988,6 +25359,8 @@
          "wref_ja" : "暦仁"
       },
       "暦応" : {
+         "code14" : 166,
+         "code15" : "北2",
          "id" : 292,
          "jp_north_era" : 1,
          "key" : "暦応",
@@ -25216,6 +25589,8 @@
          "wref_zh" : "朱雀_(渤海)"
       },
       "朱鳥" : {
+         "code14" : 3,
+         "code15" : 4,
          "end_gregorian_day" : {
             "gregorian" : "0686-12-31",
             "gregorian_era" : "朱鳥1-12-31",
@@ -25435,6 +25810,8 @@
             "kyuureki" : "1326-04-26",
             "kyuureki_era" : "正中3-04-26"
          },
+         "code14" : 152,
+         "code15" : 152,
          "end_day" : {
             "gregorian" : "1326-06-04",
             "gregorian_era" : "正中3-06-04",
@@ -25527,6 +25904,8 @@
             "kyuureki" : "1648-02-15",
             "kyuureki_era" : "正保5-02-15"
          },
+         "code14" : 211,
+         "code15" : 195,
          "end_day" : {
             "gregorian" : "1648-04-06",
             "gregorian_era" : "正保5-04-06",
@@ -25584,6 +25963,8 @@
             "kyuureki" : "1260-04-13",
             "kyuureki_era" : "正元2-04-13"
          },
+         "code14" : 134,
+         "code15" : 134,
          "end_day" : {
             "gregorian" : "1260-05-30",
             "gregorian_era" : "正元2-05-30",
@@ -25665,6 +26046,8 @@
             "kyuureki" : "1317-02-03",
             "kyuureki_era" : "正和6-02-03"
          },
+         "code14" : 148,
+         "code15" : 148,
          "end_day" : {
             "gregorian" : "1317-03-23",
             "gregorian_era" : "正和6-03-23",
@@ -25744,6 +26127,8 @@
             "kyuureki" : "1259-03-26",
             "kyuureki_era" : "正嘉3-03-26"
          },
+         "code14" : 133,
+         "code15" : 133,
          "end_day" : {
             "gregorian" : "1259-04-26",
             "gregorian_era" : "正嘉3-04-26",
@@ -25876,6 +26261,8 @@
             "kyuureki" : "1302-11-21",
             "kyuureki_era" : "正安4-11-21"
          },
+         "code14" : 142,
+         "code15" : 142,
          "end_day" : {
             "gregorian" : "1302-12-17",
             "gregorian_era" : "正安4-12-17",
@@ -25937,6 +26324,8 @@
          "wref_zh" : "正安_(大理)"
       },
       "正平" : {
+         "code14" : 159,
+         "code15" : 159,
          "id" : 1250,
          "jp_south_era" : 1,
          "key" : "正平",
@@ -26040,6 +26429,8 @@
             "kyuureki" : "1716-06-22",
             "kyuureki_era" : "正徳6-06-22"
          },
+         "code14" : 222,
+         "code15" : 206,
          "end_day" : {
             "gregorian" : "1716-08-08",
             "gregorian_era" : "正徳6-08-08",
@@ -26157,6 +26548,8 @@
             "kyuureki" : "1293-08-05",
             "kyuureki_era" : "正応6-08-05"
          },
+         "code14" : 140,
+         "code15" : 140,
          "end_day" : {
             "gregorian" : "1293-09-12",
             "gregorian_era" : "正応6-09-12",
@@ -26207,6 +26600,8 @@
          "wref_ja" : "正応"
       },
       "正慶" : {
+         "code14" : 165,
+         "code15" : "北1",
          "id" : 1198,
          "jp_north_era" : 1,
          "key" : "正慶",
@@ -26286,6 +26681,8 @@
             "kyuureki" : "0995-02-22",
             "kyuureki_era" : "正暦6-02-22"
          },
+         "code14" : 49,
+         "code15" : 50,
          "end_day" : {
             "gregorian" : "0995-03-29",
             "gregorian_era" : "正暦6-03-29",
@@ -26391,6 +26788,8 @@
             "kyuureki" : "1201-02-13",
             "kyuureki_era" : "正治3-02-13"
          },
+         "code14" : 109,
+         "code15" : 109,
          "end_day" : {
             "gregorian" : "1201-03-25",
             "gregorian_era" : "正治3-03-25",
@@ -26528,6 +26927,8 @@
             "kyuureki" : "1429-09-05",
             "kyuureki_era" : "正長2-09-05"
          },
+         "code14" : 183,
+         "code15" : 167,
          "end_day" : {
             "gregorian" : "1429-10-11",
             "gregorian_era" : "正長2-10-11",
@@ -26934,6 +27335,8 @@
             "kyuureki" : "1166-08-27",
             "kyuureki_era" : "永万2-08-27"
          },
+         "code14" : 98,
+         "code15" : 99,
          "end_day" : {
             "gregorian" : "1166-09-29",
             "gregorian_era" : "永万2-09-29",
@@ -26993,6 +27396,8 @@
             "kyuureki" : "1118-04-03",
             "kyuureki_era" : "永久6-04-03"
          },
+         "code14" : 79,
+         "code15" : 80,
          "end_day" : {
             "gregorian" : "1118-05-01",
             "gregorian_era" : "永久6-05-01",
@@ -27050,6 +27455,8 @@
             "kyuureki" : "1441-02-17",
             "kyuureki_era" : "永享13-02-17"
          },
+         "code14" : 184,
+         "code15" : 168,
          "end_day" : {
             "gregorian" : "1441-03-18",
             "gregorian_era" : "永享13-03-18",
@@ -27109,6 +27516,8 @@
             "kyuureki" : "1299-04-25",
             "kyuureki_era" : "永仁7-04-25"
          },
+         "code14" : 141,
+         "code15" : 141,
          "end_day" : {
             "gregorian" : "1299-05-31",
             "gregorian_era" : "永仁7-05-31",
@@ -27187,6 +27596,8 @@
             "kyuureki" : "1084-02-07",
             "kyuureki_era" : "永保4-02-07"
          },
+         "code14" : 68,
+         "code15" : 69,
          "end_day" : {
             "gregorian" : "1084-03-20",
             "gregorian_era" : "永保4-03-20",
@@ -27321,6 +27732,8 @@
          "wref_zh" : "永初_(刘宋)"
       },
       "永和" : {
+         "code14" : 175,
+         "code15" : "北11",
          "id" : 1084,
          "jp_north_era" : 1,
          "key" : "永和",
@@ -27824,6 +28237,8 @@
             "kyuureki" : "0989-08-08",
             "kyuureki_era" : "永延3-08-08"
          },
+         "code14" : 47,
+         "code15" : 48,
          "end_day" : {
             "gregorian" : "0989-09-14",
             "gregorian_era" : "永延3-09-14",
@@ -27909,6 +28324,8 @@
          "wref_zh" : "永弘"
       },
       "永徳" : {
+         "code14" : 177,
+         "code15" : "北13",
          "id" : 1322,
          "jp_north_era" : 1,
          "key" : "永徳",
@@ -28046,6 +28463,8 @@
             "kyuureki" : "1053-01-11",
             "kyuureki_era" : "永承8-01-11"
          },
+         "code14" : 61,
+         "code15" : 62,
          "end_day" : {
             "gregorian" : "1053-02-07",
             "gregorian_era" : "永承8-02-07",
@@ -28166,6 +28585,8 @@
             "kyuureki" : "1161-09-04",
             "kyuureki_era" : "永暦2-09-04"
          },
+         "code14" : 95,
+         "code15" : 96,
          "end_day" : {
             "gregorian" : "1161-09-30",
             "gregorian_era" : "永暦2-09-30",
@@ -28327,6 +28748,8 @@
             "kyuureki" : "1521-08-23",
             "kyuureki_era" : "永正18-08-23"
          },
+         "code14" : 199,
+         "code15" : 183,
          "end_day" : {
             "gregorian" : "1521-10-02",
             "gregorian_era" : "永正18-10-02",
@@ -28385,6 +28808,8 @@
             "kyuureki" : "1142-04-28",
             "kyuureki_era" : "永治2-04-28"
          },
+         "code14" : 87,
+         "code15" : 88,
          "end_day" : {
             "gregorian" : "1142-05-31",
             "gregorian_era" : "永治2-05-31",
@@ -28586,6 +29011,8 @@
             "kyuureki" : "0990-11-07",
             "kyuureki_era" : "永祚2-11-07"
          },
+         "code14" : 48,
+         "code15" : 49,
          "end_day" : {
             "gregorian" : "0990-11-30",
             "gregorian_era" : "永祚2-11-30",
@@ -28652,6 +29079,8 @@
             "kyuureki" : "1570-04-23",
             "kyuureki_era" : "永禄13-04-23"
          },
+         "code14" : 204,
+         "code15" : 188,
          "end_day" : {
             "gregorian" : "1570-06-05",
             "gregorian_era" : "永禄13-06-05",
@@ -28826,6 +29255,8 @@
             "kyuureki" : "0985-04-27",
             "kyuureki_era" : "永観3-04-27"
          },
+         "code14" : 45,
+         "code15" : 46,
          "end_day" : {
             "gregorian" : "0985-05-23",
             "gregorian_era" : "永観3-05-23",
@@ -28929,6 +29360,8 @@
             "kyuureki" : "1097-11-21",
             "kyuureki_era" : "永長2-11-21"
          },
+         "code14" : 72,
+         "code15" : 73,
          "end_day" : {
             "gregorian" : "1098-01-01",
             "gregorian_era" : "永長3-01-01",
@@ -29099,6 +29532,8 @@
             "kyuureki" : "1024-07-13",
             "kyuureki_era" : "治安4-07-13"
          },
+         "code14" : 55,
+         "code15" : 56,
          "end_day" : {
             "gregorian" : "1024-08-24",
             "gregorian_era" : "治安4-08-24",
@@ -29206,6 +29641,8 @@
             "kyuureki" : "1181-07-14",
             "kyuureki_era" : "治承5-07-14"
          },
+         "code14" : 103,
+         "code15" : 104,
          "end_day" : {
             "gregorian" : "1181-08-31",
             "gregorian_era" : "治承5-08-31",
@@ -29266,6 +29703,8 @@
             "kyuureki" : "1069-04-13",
             "kyuureki_era" : "治暦5-04-13"
          },
+         "code14" : 64,
+         "code15" : 65,
          "end_day" : {
             "gregorian" : "1069-05-11",
             "gregorian_era" : "治暦5-05-11",
@@ -30402,6 +30841,8 @@
          "wref_zh" : "白雀"
       },
       "白雉" : {
+         "code14" : 2,
+         "code15" : 2,
          "end_gregorian_day" : {
             "gregorian" : "0654-12-31",
             "gregorian_era" : "白雉5-12-31",
@@ -30492,6 +30933,7 @@
          "wref_zh" : "白鳥_(年號)"
       },
       "白鳳" : {
+         "code15" : 3,
          "id" : 582,
          "jp_private_era" : 1,
          "key" : "白鳳",
@@ -31038,6 +31480,8 @@
             "kyuureki" : "0729-08-05",
             "kyuureki_era" : "神亀6-08-05"
          },
+         "code14" : 9,
+         "code15" : 10,
          "end_day" : {
             "gregorian" : "0729-09-05",
             "gregorian_era" : "神亀6-09-05",
@@ -31515,6 +31959,8 @@
             "kyuureki" : "0770-10-01",
             "kyuureki_era" : "神護景雲4-10-01"
          },
+         "code14" : 15,
+         "code15" : 16,
          "end_day" : {
             "gregorian" : "0770-10-26",
             "gregorian_era" : "神護景雲4-10-26",
@@ -32884,6 +33330,8 @@
          "wref_zh" : "至寧"
       },
       "至徳" : {
+         "code14" : 178,
+         "code15" : "北14",
          "id" : 443,
          "jp_north_era" : 1,
          "key" : "至徳",
@@ -33098,6 +33546,8 @@
          "wref_zh" : "兴和_(年号)"
       },
       "興国" : {
+         "code14" : 158,
+         "code15" : 158,
          "id" : 1471,
          "jp_south_era" : 1,
          "key" : "興国",
@@ -33658,6 +34108,8 @@
          "wref_zh" : "见龙"
       },
       "観応" : {
+         "code14" : 169,
+         "code15" : "北5",
          "id" : 218,
          "jp_north_era" : 1,
          "key" : "観応",
@@ -33786,6 +34238,8 @@
             "kyuureki" : "1688-09-30",
             "kyuureki_era" : "貞享5-09-30"
          },
+         "code14" : 219,
+         "code15" : 203,
          "end_day" : {
             "gregorian" : "1688-10-22",
             "gregorian_era" : "貞享5-10-22",
@@ -33845,6 +34299,8 @@
             "kyuureki" : "0978-11-29",
             "kyuureki_era" : "貞元3-11-29"
          },
+         "code14" : 43,
+         "code15" : 44,
          "end_day" : {
             "gregorian" : "0979-01-04",
             "gregorian_era" : "貞元4-01-04",
@@ -33921,6 +34377,8 @@
          "wref_zh" : "贞元_(金朝)"
       },
       "貞和" : {
+         "code14" : 168,
+         "code15" : "北4",
          "id" : 156,
          "jp_north_era" : 1,
          "key" : "貞和",
@@ -33989,6 +34447,8 @@
             "kyuureki" : "1224-11-20",
             "kyuureki_era" : "貞応3-11-20"
          },
+         "code14" : 117,
+         "code15" : 117,
          "end_day" : {
             "gregorian" : "1225-01-06",
             "gregorian_era" : "貞応4-01-06",
@@ -34078,6 +34538,8 @@
             "kyuureki" : "1233-04-15",
             "kyuureki_era" : "貞永2-04-15"
          },
+         "code14" : 122,
+         "code15" : 122,
          "end_day" : {
             "gregorian" : "1233-05-31",
             "gregorian_era" : "貞永2-05-31",
@@ -34128,6 +34590,8 @@
          "wref_ja" : "貞永"
       },
       "貞治" : {
+         "code14" : 173,
+         "code15" : "北9",
          "id" : 1221,
          "jp_north_era" : 1,
          "key" : "貞治",
@@ -34230,6 +34694,8 @@
             "kyuureki" : "0877-04-16",
             "kyuureki_era" : "貞観19-04-16"
          },
+         "code14" : 27,
+         "code15" : 28,
          "end_day" : {
             "gregorian" : "0877-06-04",
             "gregorian_era" : "貞観19-06-04",
@@ -34796,6 +35262,8 @@
             "kyuureki" : "1044-11-24",
             "kyuureki_era" : "長久5-11-24"
          },
+         "code14" : 59,
+         "code15" : 60,
          "end_day" : {
             "gregorian" : "1044-12-21",
             "gregorian_era" : "長久5-12-21",
@@ -34854,6 +35322,8 @@
             "kyuureki" : "1489-08-21",
             "kyuureki_era" : "長享3-08-21"
          },
+         "code14" : 195,
+         "code15" : 179,
          "end_day" : {
             "gregorian" : "1489-09-24",
             "gregorian_era" : "長享3-09-24",
@@ -34917,6 +35387,8 @@
             "kyuureki" : "1004-07-20",
             "kyuureki_era" : "長保6-07-20"
          },
+         "code14" : 51,
+         "code15" : 52,
          "end_day" : {
             "gregorian" : "1004-08-13",
             "gregorian_era" : "長保6-08-13",
@@ -34975,6 +35447,8 @@
             "kyuureki" : "1037-04-21",
             "kyuureki_era" : "長元10-04-21"
          },
+         "code14" : 57,
+         "code15" : 58,
          "end_day" : {
             "gregorian" : "1037-05-14",
             "gregorian_era" : "長元10-05-14",
@@ -35033,6 +35507,8 @@
             "kyuureki" : "1017-04-23",
             "kyuureki_era" : "長和6-04-23"
          },
+         "code14" : 53,
+         "code15" : 54,
          "end_day" : {
             "gregorian" : "1017-05-26",
             "gregorian_era" : "長和6-05-26",
@@ -35149,6 +35625,8 @@
             "kyuureki" : "1165-06-05",
             "kyuureki_era" : "長寛3-06-05"
          },
+         "code14" : 97,
+         "code15" : 98,
          "end_day" : {
             "gregorian" : "1165-07-20",
             "gregorian_era" : "長寛3-07-20",
@@ -35209,6 +35687,8 @@
             "kyuureki" : "0999-01-13",
             "kyuureki_era" : "長徳5-01-13"
          },
+         "code14" : 50,
+         "code15" : 51,
          "end_day" : {
             "gregorian" : "0999-02-05",
             "gregorian_era" : "長徳5-02-05",
@@ -35298,6 +35778,8 @@
             "kyuureki" : "1135-04-27",
             "kyuureki_era" : "長承4-04-27"
          },
+         "code14" : 85,
+         "code15" : 86,
          "end_day" : {
             "gregorian" : "1135-06-16",
             "gregorian_era" : "長承4-06-16",
@@ -35358,6 +35840,8 @@
             "kyuureki" : "1040-11-10",
             "kyuureki_era" : "長暦4-11-10"
          },
+         "code14" : 58,
+         "code15" : 59,
          "end_day" : {
             "gregorian" : "1040-12-21",
             "gregorian_era" : "長暦4-12-21",
@@ -35442,6 +35926,8 @@
             "kyuureki" : "1106-04-09",
             "kyuureki_era" : "長治3-04-09"
          },
+         "code14" : 75,
+         "code15" : 76,
          "end_day" : {
             "gregorian" : "1106-05-19",
             "gregorian_era" : "長治3-05-19",
@@ -35500,6 +35986,8 @@
             "kyuureki" : "1460-12-21",
             "kyuureki_era" : "長禄4-12-21"
          },
+         "code14" : 190,
+         "code15" : 174,
          "end_day" : {
             "gregorian" : "1461-02-09",
             "gregorian_era" : "長禄5-02-09",
@@ -36361,6 +36849,8 @@
             "kyuureki" : "0717-11-17",
             "kyuureki_era" : "霊亀3-11-17"
          },
+         "code14" : 7,
+         "code15" : 8,
          "end_day" : {
             "gregorian" : "0717-12-27",
             "gregorian_era" : "霊亀3-12-27",
@@ -36904,6 +37394,8 @@
             "kyuureki" : "1182-05-27",
             "kyuureki_era" : "養和2-05-27"
          },
+         "code14" : 104,
+         "code15" : 105,
          "end_day" : {
             "gregorian" : "1182-07-05",
             "gregorian_era" : "養和2-07-05",
@@ -36961,6 +37453,8 @@
             "kyuureki" : "0724-02-04",
             "kyuureki_era" : "養老8-02-04"
          },
+         "code14" : 8,
+         "code15" : 9,
          "end_day" : {
             "gregorian" : "0724-03-06",
             "gregorian_era" : "養老8-03-06",
