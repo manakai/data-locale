@@ -79,10 +79,12 @@ $doc->inner_html (q{<!DOCTYPE HTML><meta charset=utf-8><title>Era codes</title><
       if (defined $row->[$_]) {
         if ($cols->[$_]->{type} eq 'unicode') {
           my $e = $doc->create_element ('code');
-          $e->text_content (sprintf 'U+%04X', ord $row->[$_]);
+          $e->text_content (sprintf 'U+%04X (%s)', ord $row->[$_], $row->[$_]);
+          $td->append_child ($e);
         } elsif ($cols->[$_]->{type} eq 'hex') {
           my $e = $doc->create_element ('code');
-          $e->text_content (sprintf '%X', $row->[$_]);
+          $e->text_content (sprintf '0x%X', $row->[$_]);
+          $td->append_child ($e);
         } else {
           my $e = $doc->create_element ({
             text => 'span',
