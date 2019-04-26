@@ -46,6 +46,10 @@ sub generate_json ($) {
           }
         }
       }
+    } elsif ($el->local_name eq 'dates') {
+      for (@{$el->query_selector_all ('calendar[type=japanese] > eras > eraAbbr > era')}) {
+        $data->{dates_calendar_japanese_era}->[$_->get_attribute ('type')] = $_->text_content;
+      }
     }
   }
 

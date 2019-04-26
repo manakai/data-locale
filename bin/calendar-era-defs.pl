@@ -563,6 +563,16 @@ for my $path (
 }
 
 {
+  my $path = $root_path->child ('local/cldr-core-json/ja.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $i (0..$#{$json->{"dates_calendar_japanese_era"}}) {
+    my $v = $json->{"dates_calendar_japanese_era"}->[$i];
+    next unless defined $v;
+    ($Data->{eras}->{$v} or die "Era |$v| not found")->{code10} = $i;
+  }
+}
+
+{
   my $path = $root_path->child ('data/calendar/era-systems.json');
   my $json = json_bytes2perl $path->slurp;
   for (@{$json->{systems}->{ryuukyuu}->{points}}) {

@@ -146,7 +146,8 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     src/era-viet.txt src/era-korea.txt src/era-tw.txt \
     data/calendar/era-systems.json data/numbers/kanshi.json \
     intermediate/era-ids.json \
-    src/era-codes-14.txt src/era-codes-15.txt
+    src/era-codes-14.txt src/era-codes-15.txt \
+    local/cldr-core-json/ja.json
 	$(PERL) $< > $@
 #intermediate/era-ids.json: data/calendar/era-defs.json
 
@@ -223,6 +224,7 @@ local/cldr-core-json-files: local/cldr-core-files bin/parse-cldr-main.pl
 local/cldr-native-language-names.json: local/cldr-core-json-files \
   bin/cldr-native-language-names.pl
 	$(PERL) bin/cldr-native-language-names.pl > $@
+local/cldr-core-json/ja.json: local/cldr-core-json-files
 
 data/langs/locale-names.json: bin/langs-locale-names.pl \
   local/cldr-locales.txt src/ms-locales.txt src/chromewebstore-locales.txt \

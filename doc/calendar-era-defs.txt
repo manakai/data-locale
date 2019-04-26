@@ -96,6 +96,11 @@ The file contains a JSON object with following name/value pairs:
         The era codes #1, #4, #5, #6, or #9 codes [CODES] for the era,
         respectively, if any.
 
+      code10 [integer?]
+
+        The type of the era in CLDR, if any.  The era codes #10
+        [CODES].
+
       code11 [integer?]
       code12 [integer?]
 
@@ -438,6 +443,9 @@ List of Emperors of Japan - Wikipedia, the free encyclopedia
 <https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7%E3%82%B3%E3%83%BC%E3%83%89>.
 
 日本年号史大事典, 所功, et al, 2017-01.
+
+CLDR - Unicode Common Locale Data Repository,
+<https://cldr.unicode.org/>.
 
 * License
 
