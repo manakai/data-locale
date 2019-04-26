@@ -75,21 +75,43 @@ The file contains a JSON object with following name/value pairs:
       abbr [string?]
 
         The abbreviation of the era name, using the "native" script,
-        if any.
+        if any.  Era codes #7 [CODES].
 
       abbr_latn [string?]
 
         The abbreviation of the era name, using Latin letters, if any.
+        Era codes #2 [CODES].
 
       cn_ryuukyuu_era [boolean]
 
         Whether the era is a Chinese era used in Okinawa (Ryuukyuu)
         area of Japan.
 
+      code1 [integer?]
+      code4 [integer?]
+      code5 [integer?]
+      code6 [integer?]
+      code9 [integer?]
+
+        The era codes #1, #4, #5, #6, or #9 codes [CODES] for the era,
+        respectively, if any.
+
+      code11 [integer?]
+      code12 [integer?]
+
+        The glyph number of the glyph for the character for the era in
+        the Adobe-Japan1, in horizontal or vertical form, if any,
+        respectively.  The era codes #11 and #12 [CODES].
+      
+      code13 [integer?]
+
+        The bit combination of the character for the era, if any, in
+        Shift JIS.  The era codes #13 [CODES].
+
       id [integer]
 
         The ID, which is a positive integer, uniquely assigned to the
-        era.
+        era.  Era codes #8 [CODES].
 
       jp_emperor_era [boolean]
 
@@ -210,6 +232,11 @@ The file contains a JSON object with following name/value pairs:
         be converted to a URL by percent-encoding and then appending
         to <https://wiki.suikawiki.org/n/>.
 
+      unicode [string?]
+
+        The Unicode character for the era, if any.  Era codes #3
+        [CODES].
+
       wref_en [string?]
 
         A Wikipedia reference
@@ -302,6 +329,9 @@ The file contains a JSON object with following name/value pairs:
         For values with type [day], the parameter /era/ is set to the
         era.
 
+    Note that there is a special era: "unknown", which indicates that
+    the era is unknown or not specified.
+
   name_conflicts
 
     List of eras which share same name but have different definitions.
@@ -393,6 +423,9 @@ List of Emperors of Japan - Wikipedia, the free encyclopedia
 
 朝鮮半島年號列表 - 維基百科,自由的百科全書
 <https://zh.wikipedia.org/zh-tw/%E6%9C%9D%E9%AE%AE%E5%8D%8A%E5%B3%B6%E5%B9%B4%E8%99%9F%E5%88%97%E8%A1%A8>.
+
+[CODES] SuikaWiki:元号コード
+<https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7%E3%82%B3%E3%83%BC%E3%83%89>.
 
 * License
 

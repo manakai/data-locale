@@ -158,6 +158,11 @@ expand_name $Data->{eras}->{大正}, '㍽';
 expand_name $Data->{eras}->{昭和}, '㍼';
 expand_name $Data->{eras}->{平成}, '㍻';
 expand_name $Data->{eras}->{令和}, "\x{32FF}";
+$Data->{eras}->{明治}->{unicode} = '㍾';
+$Data->{eras}->{大正}->{unicode} = '㍽';
+$Data->{eras}->{昭和}->{unicode} = '㍼';
+$Data->{eras}->{平成}->{unicode} = '㍻';
+$Data->{eras}->{令和}->{unicode} = "\x{32FF}";
 
 for my $era (values %{$Data->{eras}}) {
   my $name = $era->{name};
@@ -528,6 +533,10 @@ for my $path (
       $Data->{eras}->{$key}->{offset} = $g_year - $e_year;
     } elsif (defined $key and /^(sw)\s+(.+)$/) {
       $Data->{eras}->{$key}->{suikawiki} = $2;
+    } elsif (defined $key and /^code\s+#([1-9][0-9]*)\s+([0-9]+)$/) {
+      $Data->{eras}->{$key}->{'code' . $1} = 0+$2;
+    } elsif (defined $key and /^code\s+#([1-9][0-9]*)\s+0x([0-9A-Fa-f]+)$/) {
+      $Data->{eras}->{$key}->{'code' . $1} = hex $2;
     } elsif (/\S/) {
       die "Bad line |$_|";
     }

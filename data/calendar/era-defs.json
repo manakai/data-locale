@@ -2,6 +2,7 @@
    "current_jp" : "平成",
    "eras" : {
       "AD" : {
+         "code1" : 0,
          "id" : 20,
          "key" : "AD",
          "name" : "AD",
@@ -60,6 +61,13 @@
          "suikawiki" : "西暦",
          "wref_ja" : "西暦",
          "wref_zh" : "公元"
+      },
+      "unknown" : {
+         "code1" : 9,
+         "id" : 1764,
+         "key" : "unknown",
+         "names" : {
+         }
       },
       "エコ暦" : {
          "abbr" : "E",
@@ -2062,6 +2070,13 @@
       "令和" : {
          "abbr" : "令",
          "abbr_latn" : "R",
+         "code1" : 5,
+         "code11" : 23058,
+         "code12" : 23059,
+         "code4" : 9,
+         "code5" : 3,
+         "code6" : 5,
+         "code9" : 2,
          "id" : 5,
          "jp_era" : 1,
          "key" : "令和",
@@ -2109,6 +2124,7 @@
          },
          "start_year" : 2019,
          "suikawiki" : "令和",
+         "unicode" : "㋿",
          "wref_en" : "Reiwa_period",
          "wref_ja" : "令和"
       },
@@ -7274,6 +7290,12 @@
             "kyuureki" : "1926-11-21",
             "kyuureki_era" : "大正15-11-21"
          },
+         "code1" : 2,
+         "code11" : 7622,
+         "code12" : 12042,
+         "code13" : 34702,
+         "code4" : 3,
+         "code6" : 2,
          "end_day" : {
             "gregorian" : "1926-12-24",
             "gregorian_era" : "大正15-12-24",
@@ -7332,6 +7354,7 @@
             "kyuureki_era" : "大正1-06-17"
          },
          "start_year" : 1912,
+         "unicode" : "㍽",
          "wref_en" : "Taishō_period",
          "wref_ja" : "大正"
       },
@@ -15535,6 +15558,14 @@
             "kyuureki" : "2019-03-26",
             "kyuureki_era" : "平成31-03-26"
          },
+         "code1" : 4,
+         "code11" : 8323,
+         "code12" : 12044,
+         "code13" : 34686,
+         "code4" : 7,
+         "code5" : 2,
+         "code6" : 4,
+         "code9" : 1,
          "end_day" : {
             "gregorian" : "2019-04-30",
             "gregorian_era" : "平成31-04-30",
@@ -15593,6 +15624,7 @@
             "kyuureki_era" : "平成0-12-01"
          },
          "start_year" : 1989,
+         "unicode" : "㍻",
          "wref_en" : "Heisei_period",
          "wref_ja" : "平成"
       },
@@ -24202,6 +24234,12 @@
             "kyuureki" : "1912-06-17",
             "kyuureki_era" : "明治45-06-17"
          },
+         "code1" : 1,
+         "code11" : 7621,
+         "code12" : 12041,
+         "code13" : 34701,
+         "code4" : 1,
+         "code6" : 3,
          "end_day" : {
             "gregorian" : "1912-07-29",
             "gregorian_era" : "明治45-07-29",
@@ -24256,6 +24294,7 @@
             "kyuureki_era" : "明治1-09-08"
          },
          "start_year" : 1868,
+         "unicode" : "㍾",
          "wref_en" : "Meiji_period",
          "wref_ja" : "明治"
       },
@@ -24388,6 +24427,13 @@
             "kyuureki" : "1988-11-30",
             "kyuureki_era" : "昭和63-11-30"
          },
+         "code1" : 3,
+         "code11" : 7623,
+         "code12" : 12043,
+         "code13" : 34703,
+         "code4" : 5,
+         "code5" : 1,
+         "code6" : 1,
          "end_day" : {
             "gregorian" : "1989-01-07",
             "gregorian_era" : "昭和64-01-07",
@@ -24450,6 +24496,7 @@
             "kyuureki_era" : "昭和1-11-21"
          },
          "start_year" : 1926,
+         "unicode" : "㍼",
          "wref_en" : "Shōwa_period",
          "wref_ja" : "昭和"
       },
