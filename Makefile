@@ -61,7 +61,7 @@ data-main: \
     data/timezones/mail-names.json \
     data/langs/locale-names.json data/langs/plurals.json \
     data/calendar/jp-flagdays.json data/calendar/era-systems.json \
-    data/calendar/era-defs.json \
+    data/calendar/era-defs.json data/calendar/era-codes.html \
     day-era-maps \
     data/numbers/kanshi.json
 clean-data:
@@ -150,6 +150,9 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     local/cldr-core-json/ja.json
 	$(PERL) $< > $@
 #intermediate/era-ids.json: data/calendar/era-defs.json
+data/calendar/era-codes.html: bin/calendar-era-codes.pl \
+    data/calendar/era-defs.json
+	$(PERL) $< > $@
 
 day-era-maps: \
     data/calendar/day-era/map-jp.txt \
