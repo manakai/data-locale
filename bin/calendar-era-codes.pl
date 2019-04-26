@@ -11,6 +11,9 @@ my $root_path = path (__FILE__)->parent->parent;
 my $json = json_bytes2perl $root_path->child ('data/calendar/era-defs.json')->slurp;
 
 my $cols = [
+  {key => 'start_year', hidden => 1, info => 1},
+  {key => 'south_start_year', hidden => 1, info => 1},
+  {key => 'north_start_year', hidden => 1, info => 1},
   {key => 'name', type => 'text', info => 1},
   {key => 'key', type => 'code', info => 1},
   {key => 'abbr', type => 'text', label => '#7 (abbr)'},
@@ -44,8 +47,9 @@ ERA: for my $era (values %{$json->{eras}}) {
 {
   no warnings 'uninitialized';
   $rows = [sort {
-    $a->[11] <=> $b->[11] || # #14
-    $a->[4] <=> $b->[4]; # #8
+    ($a->[0] || $a->[1] || $a->[2] || 99999) <=> ($b->[0] || $b->[1] || $b->[2] || 99999) ||
+    $a->[14] <=> $b->[14] || # 14
+    $a->[7] <=> $b->[7]; # #8
   } @$rows];
 }
 
@@ -56,6 +60,7 @@ $doc->inner_html (q{<!DOCTYPE HTML><meta charset=utf-8><title>Era codes</title><
 {
   my $tr = $doc->query_selector ('thead tr');
   for (@$cols) {
+    next if $_->{hidden};
     my $td = $doc->create_element ('th');
     if (defined $_->{label}) {
       $td->text_content ($_->{label});
@@ -75,6 +80,7 @@ $doc->inner_html (q{<!DOCTYPE HTML><meta charset=utf-8><title>Era codes</title><
   for my $row (@$rows) {
     my $tr = $doc->create_element ('tr');
     for (0..$#$cols) {
+      next if $cols->[$_]->{hidden};
       my $td = $doc->create_element ('td');
       if (defined $row->[$_]) {
         if ($cols->[$_]->{type} eq 'unicode') {
