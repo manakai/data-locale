@@ -22,52 +22,14 @@ for my $file_name (qw(
   }
 }
 
-for my $file_name (qw(era-defs-dates.json)) {
-  my $path = $root_path->child ('local')->child ($file_name);
+for my $file_name (qw(local/era-defs-dates.json
+                      local/era-defs-jp-wp-en.json)) {
+  my $path = $root_path->child ($file_name);
   my $json = json_bytes2perl $path->slurp;
   for my $key (keys %{$json->{eras}}) {
     my $data = $json->{eras}->{$key};
     for (keys %$data) {
       $Data->{eras}->{$key}->{$_} = $data->{$_};
-    }
-  }
-}
-
-{
-  my $path = $root_path->child ('src/wp-jp-eras-en.json');
-  my $json = json_bytes2perl $path->slurp;
-  for my $data (values %{$Data->{eras}}) {
-    next unless $data->{jp_era} or $data->{jp_north_era} or $data->{jp_south_era};
-    my $en;
-    if (defined $data->{start_year} and defined $data->{end_year}) {
-      $en ||= $json->{$data->{start_year}, $data->{end_year}};
-    }
-    if (defined $data->{north_start_year} and defined $data->{north_end_year}) {
-      $en ||= $json->{$data->{north_start_year}, $data->{north_end_year}};
-    }
-    if (defined $data->{south_start_year} and defined $data->{south_end_year}) {
-      $en ||= $json->{$data->{south_start_year}, $data->{south_end_year}};
-    }
-    if (defined $data->{start_year} and not defined $data->{end_year}) {
-      $en ||= $json->{$data->{start_year}, ''};
-    }
-    if ($data->{name} eq '宝亀') {
-      $en ||= $json->{770, 781};
-    }
-    if ($data->{name} eq '永延') {
-      $en ||= $json->{987, 988};
-    }
-    if ($data->{name} eq '永祚') {
-      $en ||= $json->{988, 990};
-    }
-    if ($data->{name} eq '文亀') {
-      $en ||= $json->{1501, 1521};
-    }
-    if (defined $en) {
-      $data->{name_latn} = $en->{name};
-      $data->{wref_en} = $en->{wref_en} if defined $en->{wref_en};
-    } else {
-      warn "Era |$data->{name}| not defined in English Wikipedia";
     }
   }
 }

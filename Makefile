@@ -62,6 +62,7 @@ data-main: \
     data/langs/locale-names.json data/langs/plurals.json \
     data/calendar/jp-flagdays.json data/calendar/era-systems.json \
     data/calendar/era-defs.json data/calendar/era-codes.html \
+    data/calendar/era-yomis.html \
     day-era-maps \
     data/numbers/kanshi.json
 clean-data:
@@ -135,12 +136,23 @@ local/era-defs-dates.json: bin/generate-era-defs-dates.pl \
     data/calendar/era-systems.json local/era-defs-jp.json \
     local/era-defs-jp-emperor.json
 	$(PERL) $< > $@
+local/era-defs-jp-wp-en.json: bin/era-defs-jp-wp-en.pl \
+    local/era-defs-jp.json \
+    local/era-defs-dates.json src/wp-jp-eras-en.json
+	$(PERL) $< > $@
 local/number-values.json:
 	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-chars/master/data/number-values.json
+local/era-yomi-list.json: bin/era-yomi-list.pl \
+    src/wp-jp-eras.json src/era-yomi-2.txt src/era-yomi-3.txt \
+    local/era-defs-jp-wp-en.json
+	$(PERL) $< > $@
+data/calendar/era-yomis.html: bin/calendar-era-yomis.pl \
+    local/era-yomi-list.json
+	$(PERL) $< > $@
 data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     local/era-defs-jp.json local/era-defs-jp-emperor.json \
     local/era-defs-dates.json src/char-variants.txt \
-    src/wp-jp-eras-en.json src/era-data.txt src/era-yomi.txt \
+    local/era-defs-jp-wp-en.json src/era-data.txt src/era-yomi.txt \
     src/jp-private-eras.txt src/era-variants.txt \
     src/wp-cn-eras.json src/era-china-dups.txt local/number-values.json \
     src/era-viet.txt src/era-korea.txt src/era-tw.txt \
