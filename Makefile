@@ -143,8 +143,7 @@ local/era-defs-jp-wp-en.json: bin/era-defs-jp-wp-en.pl \
 local/number-values.json:
 	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-chars/master/data/number-values.json
 local/era-yomi-list.json: bin/era-yomi-list.pl \
-    src/wp-jp-eras.json src/era-yomi-2.txt src/era-yomi-3.txt \
-    src/era-yomi-6041.txt \
+    src/wp-jp-eras.json src/era-yomi*.txt \
     local/era-defs-jp-wp-en.json
 	$(PERL) $< > $@
 data/calendar/era-yomis.html: bin/calendar-era-yomis.pl \

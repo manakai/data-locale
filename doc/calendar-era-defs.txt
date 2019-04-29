@@ -447,6 +447,9 @@ List of Emperors of Japan - Wikipedia, the free encyclopedia
 CLDR - Unicode Common Locale Data Repository,
 <https://cldr.unicode.org/>.
 
+SuikaWiki:元号の読み方
+<https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9>.
+
 * License
 
 You are granted a license to use, reproduce and create derivative

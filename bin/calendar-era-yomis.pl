@@ -18,8 +18,8 @@ my $cols = [
   #{key => 'key', type => 'code', info => 1},
   (map {
     {key => $_, type => 'text'};
-  } (6001, 6002, 6011, 6012, 6013..6020, 6031..6036,
-     6041..6046)),
+  } (6001, 6002, 6011, 6012, 6013..6020, 6031..6036, 6040,
+     6041..6046, 6047..6048, 6049..6050, 6071..6083)),
 ];
 
 my $rows = [];
@@ -42,7 +42,7 @@ ERA: for my $era (values %{$json->{eras}}) {
 
 my $doc = new Web::DOM::Document;
 $doc->manakai_is_html (1);
-$doc->inner_html (q[<!DOCTYPE HTML><meta charset=utf-8><title>Era codes</title>
+$doc->inner_html (q[<!DOCTYPE HTML><meta charset=utf-8><title>Era yomis</title>
 <style>
   td > span + span {
     margin-left: 1em;
@@ -103,7 +103,10 @@ $doc->inner_html (q[<!DOCTYPE HTML><meta charset=utf-8><title>Era codes</title>
     da だ di ぢ du づ de で do ど
     ba ば bi び bu ぶ be べ bo ぼ
     pa ぱ pi ぴ pu ぷ pe ぺ po ぽ
+    kya きゃ kyu きゅ kyo きょ
     rya りゃ ryu りゅ ryo りょ
+    gya ぎゃ gyu ぎゅ gyo ぎょ
+    pya ぴゃ pyu ぴゅ pyo ぴょ
   )};
   my $tbody = $doc->query_selector ('tbody');
   for my $row (@$rows) {
@@ -116,11 +119,15 @@ $doc->inner_html (q[<!DOCTYPE HTML><meta charset=utf-8><title>Era codes</title>
       $key =~ tr/A-Z\x{014C}/a-z\x{014D}/;
       $key =~ s/shi/し/g;
       $key =~ s/shu/しゅ/g;
+      $key =~ s/sho/しょ/g;
       $key =~ s/chi/ち/g;
+      $key =~ s/cho/ちょ/g;
+      $key =~ s/chu/ちゅ/g;
       $key =~ s/tsu/つ/g;
       $key =~ s/ji/じ/g;
       $key =~ s/ju/じゅ/g;
       $key =~ s/ja/じゃ/g;
+      $key =~ s/jo/じょ/g;
       $key =~ s/ch[\x{F4}\x{014D}]/ちょう/g;
       $key =~ s/sh[\x{F4}\x{014D}]/しょう/g;
       $key =~ s/n[\x{F4}\x{014D}]/のう/g;
@@ -137,7 +144,7 @@ $doc->inner_html (q[<!DOCTYPE HTML><meta charset=utf-8><title>Era codes</title>
       $key =~ s/ch[\x{FB}\x{016B}]/ちゅう/g;
       $key =~ s/ky[\x{FB}\x{016B}]/きゅう/g;
       $key =~ s/([kstnhmrgzdbp][aiueo])/$L2K->{$1}/g;
-      $key =~ s/([r]y[auo])/$L2K->{$1}/g;
+      $key =~ s/([kgrp]y[auo])/$L2K->{$1}/g;
       $key =~ s/(y[auo])/$L2K->{$1}/g;
       $key =~ s/(w[aieo])/$L2K->{$1}/g;
       $key =~ s/([aiueonm])/$L2K->{$1}/g;

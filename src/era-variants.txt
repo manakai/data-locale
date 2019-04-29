@@ -172,3 +172,6 @@
 
 # <https://hiramatu-hifuka.com/onyak/rekisi/nenngo.html>
 文録 = 文禄
+
+# <http://www.i-sagami.com/walking/nengou/nengouitiran.html>
+健保 = 建保

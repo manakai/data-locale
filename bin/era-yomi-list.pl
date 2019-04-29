@@ -151,6 +151,74 @@ my $Data = {};
   }
 }
 
+{
+  my $path = $RootPath->child ('src/era-yomi-6047.txt');
+  for (split /\x0D?\x0A/, $path->slurp_utf8) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^(\w+)( .+)$/) {
+      my $key = $1;
+      my $v = $2;
+      while ($v =~ s/^ (\p{Hiragana}+)//o) {
+        my $n1 = $1;
+        push @{$Data->{eras}->{$key}->{6047} ||= []}, $n1;
+      }
+      while ($v =~ s/^ (\@)//o) {
+        while ($v =~ s/^ (\p{Hiragana}+)//o) {
+          my $n2 = $1;
+          push @{$Data->{eras}->{$key}->{6048} ||= []}, $n2;
+        }
+      }
+      if (length $v) {
+        die "Bad line |$_|";
+      }
+    } elsif (/\S/) {
+      die "Bad line |$_|";
+    }
+  }
+}
+
+{
+  my $path = $RootPath->child ('src/era-yomi-6049.txt');
+  for (split /\x0D?\x0A/, $path->slurp_utf8) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^(\w+)( .+)$/) {
+      my $key = $1;
+      my $v = $2;
+      while ($v =~ s/^ (\p{Hiragana}+)//o) {
+        my $n1 = $1;
+        push @{$Data->{eras}->{$key}->{6049} ||= []}, $n1;
+      }
+      while ($v =~ s/^ ([A-Z]+)//o) {
+        my $n2 = ucfirst lc $1;
+        push @{$Data->{eras}->{$key}->{6050} ||= []}, $n2;
+      }
+      if (length $v) {
+        die "Bad line |$_|";
+      }
+    } elsif (/\S/) {
+      die "Bad line |$_|";
+    }
+  }
+}
+
+for my $id (6040, 6071..6083) {
+  my $path = $RootPath->child ('src/era-yomi-'.$id.'.txt');
+  for (split /\x0D?\x0A/, $path->slurp_utf8) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^(\w+)((?: \p{Hiragana}+)+)$/) {
+      my $key = $1;
+      for (grep { length } split / /, $2) {
+        push @{$Data->{eras}->{$key}->{$id} ||= []}, $_;
+      }
+    } elsif (/\S/) {
+      die "Bad line |$_|";
+    }
+  }
+}
+
 print perl2json_bytes_for_record $Data;
 
 ## License: Public Domain.
