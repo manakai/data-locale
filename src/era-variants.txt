@@ -170,8 +170,11 @@
 
 興源 = 尊聖
 
-# <https://hiramatu-hifuka.com/onyak/rekisi/nenngo.html>
-文録 = 文禄
+## <https://hiramatu-hifuka.com/onyak/rekisi/nenngo.html>
+#文録 = 文禄
 
-# <http://www.i-sagami.com/walking/nengou/nengouitiran.html>
-健保 = 建保
+## <http://www.i-sagami.com/walking/nengou/nengouitiran.html>
+#健保 = 建保
+
+## <https://www.sljfaq.org/afaq/era-list.html>
+#健治 = 建治

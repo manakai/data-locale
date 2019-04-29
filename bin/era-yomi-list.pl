@@ -203,15 +203,53 @@ my $Data = {};
   }
 }
 
-for my $id (6040, 6071..6083) {
+for my $id (6051) {
   my $path = $RootPath->child ('src/era-yomi-'.$id.'.txt');
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
       #
-    } elsif (/^(\w+)((?: \p{Hiragana}+)+)$/) {
+    } elsif (/^(.+) (\w+) (\p{Hiragana}+)$/) {
+      my $key = $2;
+      my $n2 = $3;
+      for (grep { length } split / /, $1) {
+        my $n1 = $_;
+        $n1 =~ s/_/ /g;
+        push @{$Data->{eras}->{$key}->{$id} ||= []}, $n1;
+      }
+      push @{$Data->{eras}->{$key}->{$id+1} ||= []}, $n2;
+    } elsif (/\S/) {
+      die "Bad line |$_|";
+    }
+  }
+}
+
+for my $id (6040, 6071..6084) {
+  my $path = $RootPath->child ('src/era-yomi-'.$id.'.txt');
+  for (split /\x0D?\x0A/, $path->slurp_utf8) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^(\w+)((?: (?:\p{Hiragana}+|[\p{Latin}'-]+))+)$/) {
       my $key = $1;
       for (grep { length } split / /, $2) {
         push @{$Data->{eras}->{$key}->{$id} ||= []}, $_;
+      }
+    } elsif (/\S/) {
+      die "Bad line |$_|";
+    }
+  }
+}
+
+for my $id (6090..6091) {
+  my $path = $RootPath->child ('src/era-yomi-'.$id.'.txt');
+  for (split /\x0D?\x0A/, $path->slurp_utf8) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^(.+) (\w+)$/) {
+      my $key = $2;
+      for (grep { length } split / /, $1) {
+        my $n1 = $_;
+        $n1 =~ s/_/ /g;
+        push @{$Data->{eras}->{$key}->{$id} ||= []}, $n1;
       }
     } elsif (/\S/) {
       die "Bad line |$_|";
