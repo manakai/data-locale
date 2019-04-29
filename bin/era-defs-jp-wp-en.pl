@@ -62,6 +62,9 @@ for my $file_name (qw(era-defs-dates.json)) {
     if ($data->{key} eq '文亀') {
       $en ||= $json->{1501, 1521};
     }
+    if ($data->{key} eq '永徳') { # 弘和/永徳
+      $en = $json->{1381, 1384.2};
+    }
     if (defined $en) {
       my $dd = $Data->{eras}->{$data->{key}} ||= {};
       $dd->{name_latn} = $en->{name};

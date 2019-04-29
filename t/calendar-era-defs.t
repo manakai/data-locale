@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "1..214"
+echo "1..216"
 basedir=`dirname $0`/..
 jq=$basedir/local/bin/jq
 
@@ -244,5 +244,8 @@ test 211 '.eras["昭和"].code15 == 230'
 test 212 '.eras["大化"].code10 == 0'
 test 213 '.eras["平成"].code10 == 235'
 test 214 '.eras["令和"].code10 == 236'
+
+test 215 '.eras["弘和"].name_latn == "Kōwa"'
+test 216 '.eras["永徳"].name_latn == "Eitoku"'
 
 ## License: Public Domain.

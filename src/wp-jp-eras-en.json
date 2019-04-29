@@ -869,6 +869,13 @@
    },
    "1381\u001C1384" : {
       "end_year" : "1384",
+      "name" : "Kōwa",
+      "start_year" : "1381",
+      "url" : "https://en.wikipedia.org/wiki/K%C5%8Dwa_(Muromachi_period)",
+      "wref_en" : "Kōwa_(Muromachi_period)"
+   },
+   "1381\u001C1384.2" : {
+      "end_year" : "1384",
       "name" : "Eitoku",
       "start_year" : "1381",
       "url" : "https://en.wikipedia.org/wiki/Eitoku",

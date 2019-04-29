@@ -169,3 +169,6 @@
 明永暦紀年 = 永曆(丁亥)
 
 興源 = 尊聖
+
+# <https://hiramatu-hifuka.com/onyak/rekisi/nenngo.html>
+文録 = 文禄

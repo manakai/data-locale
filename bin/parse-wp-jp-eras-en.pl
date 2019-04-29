@@ -43,10 +43,15 @@ for my $a_el ($doc->query_selector_all ('table.infobox td:nth-child(2) a')->to_l
   }
   $data->{name} =~ s/^\s+//g;
   $data->{name} =~ s/\s+$//g;
-  if (defined $Data->{$data->{start_year}, $data->{end_year} // ''}) {
-    warn "Duplicate ($data->{start_year}, $data->{end_year})";
+
+  my $ey = $data->{end_year} // '';
+  if ($data->{name} eq 'Eitoku') { # 弘和/永徳
+    $ey = 1384.2; # {1381, 1384.2}
+  }
+  if (defined $Data->{$data->{start_year}, $ey}) {
+    warn "Duplicate ($data->{start_year}, $ey)";
   } else {
-    $Data->{$data->{start_year}, $data->{end_year} // ''} = $data;
+    $Data->{$data->{start_year}, $ey} = $data;
   }
 }
 

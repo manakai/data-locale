@@ -117,6 +117,40 @@ my $Data = {};
   }
 }
 
+{
+  my $path = $RootPath->child ('src/era-yomi-6041.txt');
+  for (split /\x0D?\x0A/, $path->slurp_utf8) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^(\w+)( .+)$/) {
+      my $key = $1;
+      my $v = $2;
+      while ($v =~ s/^ (\p{Hiragana}+)//o) {
+        my $n1 = $1;
+        push @{$Data->{eras}->{$key}->{6041} ||= []}, $n1;
+      }
+      while ($v =~ s/^ (G|A|NK|NY|K)//o) {
+        my $id = {
+          G => 6042,
+          A => 6043,
+          NK => 6044,
+          NY => 6045,
+          K => 6046,
+        }->{$1} || die;
+        while ($v =~ s/^ (\p{Hiragana}+)//o) {
+          my $n2 = $1;
+          push @{$Data->{eras}->{$key}->{$id} ||= []}, $n2;
+        }
+      }
+      if (length $v) {
+        die "Bad line |$_|";
+      }
+    } elsif (/\S/) {
+      die "Bad line |$_|";
+    }
+  }
+}
+
 print perl2json_bytes_for_record $Data;
 
 ## License: Public Domain.

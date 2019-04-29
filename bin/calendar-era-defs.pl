@@ -29,7 +29,7 @@ for my $file_name (qw(local/era-defs-dates.json
   for my $key (keys %{$json->{eras}}) {
     my $data = $json->{eras}->{$key};
     for (keys %$data) {
-      $Data->{eras}->{$key}->{$_} = $data->{$_};
+      $Data->{eras}->{$key}->{$_} = $data->{$_} if defined $data->{$_};
     }
   }
 }

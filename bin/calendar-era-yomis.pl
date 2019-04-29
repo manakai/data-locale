@@ -18,7 +18,8 @@ my $cols = [
   #{key => 'key', type => 'code', info => 1},
   (map {
     {key => $_, type => 'text'};
-  } (6001, 6002, 6011, 6012, 6013..6020, 6031..6036)),
+  } (6001, 6002, 6011, 6012, 6013..6020, 6031..6036,
+     6041..6046)),
 ];
 
 my $rows = [];
@@ -70,8 +71,11 @@ $doc->inner_html (q[<!DOCTYPE HTML><meta charset=utf-8><title>Era codes</title>
     my $td = $doc->create_element ('th');
     if (defined $_->{label}) {
       $td->text_content ($_->{label});
-    } elsif ($_->{key} =~ /^code([0-9]+)$/) {
-      $td->text_content ('#' . $1);
+    } elsif ($_->{key} =~ /^([0-9]+)$/) {
+      my $a = $doc->create_element ('a');
+      $a->set_attribute (href => q<https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9#anchor-> . $1);
+      $a->text_content ('#' . $1);
+      $td->append_child ($a);
     } else {
       my $e = $doc->create_element ('code');
       $e->text_content ($_->{key});
@@ -171,10 +175,3 @@ $doc->inner_html (q[<!DOCTYPE HTML><meta charset=utf-8><title>Era codes</title>
 print $doc->inner_html;
 
 ## License: Public Domain.
-
-__END__
-
-XXX
-
-    弘和こうわEitoku
-    永徳えいとくEitoku
