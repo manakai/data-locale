@@ -257,6 +257,20 @@ for my $id (6090..6091) {
   }
 }
 
+{
+  my $path1 = $RootPath->child ('local/cldr-core-json/ja.json');
+  my $path2 = $RootPath->child ('local/cldr-core-json/root.json');
+  my $json1 = json_bytes2perl $path1->slurp;
+  my $json2 = json_bytes2perl $path2->slurp;
+  for (0..$#{$json2->{"dates_calendar_japanese_era"}}) {
+    my $key = $json1->{"dates_calendar_japanese_era"}->[$_];
+    my $latn = $json2->{"dates_calendar_japanese_era"}->[$_];
+    $latn =~ s/\s+\(.+\)$//g;
+    $Data->{eras}->{$key}->{6060} = $latn;
+  }
+  ## Wrong: "Meitoku (1384–1387)"
+}
+
 print perl2json_bytes_for_record $Data;
 
 ## License: Public Domain.

@@ -4,6 +4,7 @@ use utf8;
 use Path::Tiny;
 use JSON::PS;
 use lib glob path (__FILE__)->parent->child ('modules/*/lib');
+use Web::URL::Encoding;
 use Web::DOM::Document;
 binmode STDOUT, qw(:encoding(utf-8));
 
@@ -14,12 +15,12 @@ my $cols = [
   {key => 'start_year', hidden => 1, info => 1},
   {key => 'south_start_year', hidden => 1, info => 1},
   {key => 'north_start_year', hidden => 1, info => 1},
-  {key => 'name', type => 'text', info => 1},
-  #{key => 'key', type => 'code', info => 1},
+  #{key => 'name', type => 'text', info => 1},
+  {key => 'key', type => 'key', info => 1},
   (map {
     {key => $_, type => 'text'};
   } (6001, 6002, 6011, 6012, 6013..6020, 6031..6036, 6040,
-     6041..6046, 6047..6048, 6049..6050, 6051..6052,
+     6041..6046, 6047..6048, 6049..6050, 6051..6052, 6060,
      6071..6084, 6090..6091)),
 ];
 
@@ -44,6 +45,13 @@ ERA: for my $era (values %{$json->{eras}}) {
 my $doc = new Web::DOM::Document;
 $doc->manakai_is_html (1);
 $doc->inner_html (q[<!DOCTYPE HTML><meta charset=utf-8><title>Era yomis</title>
+<!--
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of this document has waived all
+copyright and related or neighboring rights to this document.
+
+-->
 <style>
   td > span + span {
     margin-left: 1em;
@@ -63,7 +71,7 @@ $doc->inner_html (q[<!DOCTYPE HTML><meta charset=utf-8><title>Era yomis</title>
   .pattern-12 { background-color: #FFA07A }
 
 </style>
-<h1>Era codes</h1><table><thead><tr><tbody></table>]);
+<h1>Era yomis</h1><table><thead><tr><tbody></table>]);
 
 {
   my $tr = $doc->query_selector ('thead tr');
@@ -151,14 +159,19 @@ $doc->inner_html (q[<!DOCTYPE HTML><meta charset=utf-8><title>Era yomis</title>
       $key =~ s/([aiueonm])/$L2K->{$1}/g;
       $key =~ s/[\x{F4}\x{014D}]/おう/g;
       $key =~ tr/ゃゅょ/やゆよ/;
-      $key =~ s/[ '-]//g;
+      $key =~ s/[ '’-]//g;
       return 'pattern-' . ($patterns->{$key} ||= $next_pattern++);
     };
     for (0..$#$cols) {
       next if $cols->[$_]->{hidden};
       my $td = $doc->create_element ('td');
       if (defined $row->[$_]) {
-        if (ref $row->[$_] eq 'ARRAY') {
+        if ($cols->[$_]->{type} eq 'key') {
+          my $e = $doc->create_element ('a');
+          $e->href ('https://data.suikawiki.org/era/' . percent_encode_c $row->[$_]);
+          $e->text_content ($row->[$_]);
+          $td->append_child ($e);
+        } elsif (ref $row->[$_] eq 'ARRAY') {
           for my $x (@{$row->[$_]}) {
             my $e = $doc->create_element ('span');
             $e->set_attribute ('class', $pattern->($x))

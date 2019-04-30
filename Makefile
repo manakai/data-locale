@@ -144,7 +144,8 @@ local/number-values.json:
 	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-chars/master/data/number-values.json
 local/era-yomi-list.json: bin/era-yomi-list.pl \
     src/wp-jp-eras.json src/era-yomi*.txt \
-    local/era-defs-jp-wp-en.json
+    local/era-defs-jp-wp-en.json \
+    local/cldr-core-json/root.json local/cldr-core-json/ja.json
 	$(PERL) $< > $@
 data/calendar/era-yomis.html: bin/calendar-era-yomis.pl \
     local/era-yomi-list.json
