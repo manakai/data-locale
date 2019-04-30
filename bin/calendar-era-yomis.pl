@@ -18,8 +18,25 @@ my $cols = [
   #{key => 'name', type => 'text', info => 1},
   {key => 'key', type => 'key', info => 1},
   (map {
-    {key => $_, type => 'text'};
-  } (6001, 6002, 6011, 6012, 6013..6020, 6031..6036, 6040,
+    {key => $_, type => 'text', text_type => {
+      6012 => 'kana-old',
+      6013 => 'kana-old',
+      6014 => 'kana-old',
+      6015 => 'kana-old',
+      6016 => 'kana-old',
+      6017 => 'kana-old',
+      6018 => 'kana-old',
+      6019 => 'kana-old',
+      6020 => 'kana-old',
+      6032 => 'kana-old',
+      6035 => 'wrong',
+      6036 => 'wrong',
+      6040 => 'kana-old',
+      6101 => 'kana-old',
+      6102 => 'kana-old',
+    }->{$_}};
+  } (6100..6103,
+     6001, 6002, 6011, 6012, 6013..6020, 6031..6036, 6040,
      6041..6046, 6047..6048, 6049..6050, 6051..6052, 6060,
      6071..6084, 6090..6091)),
 ];
@@ -53,6 +70,15 @@ copyright and related or neighboring rights to this document.
 
 -->
 <style>
+  .kana-old {
+    background: #eee;
+    color: black;
+  }
+  .wrong {
+    background: #fee;
+    color: black;
+  }
+
   td > span + span {
     margin-left: 1em;
   }
@@ -71,7 +97,19 @@ copyright and related or neighboring rights to this document.
   .pattern-12 { background-color: #FFA07A }
 
 </style>
-<h1>Era yomis</h1><table><thead><tr><tbody></table>]);
+<h1>Era yomis</h1><table><colgroup><thead><tr><tbody></table>]);
+
+{
+  my $tr = $doc->query_selector ('colgroup');
+  for (@$cols) {
+    next if $_->{hidden};
+    my $td = $doc->create_element ('col');
+    if (defined $_->{text_type}) {
+      $td->set_attribute ('class', $_->{text_type});
+    }
+    $tr->append_child ($td);
+  }
+}
 
 {
   my $tr = $doc->query_selector ('thead tr');
@@ -94,6 +132,7 @@ copyright and related or neighboring rights to this document.
   }
 }
 
+my $Data = {eras => []};
 {
   my $L2K = {qw(
     a あ i い u う e え o お
@@ -122,9 +161,12 @@ copyright and related or neighboring rights to this document.
     my $tr = $doc->create_element ('tr');
     my $patterns = {};
     my $next_pattern = 1;
+    my $data_by_key = {};
+    my $data = [];
+    my $era_key;
     my $pattern = sub {
       use utf8;
-      my $key = shift;
+      my $text = my $key = shift;
       $key =~ tr/A-Z\x{014C}/a-z\x{014D}/;
       $key =~ s/shi/し/g;
       $key =~ s/shu/しゅ/g;
@@ -160,6 +202,10 @@ copyright and related or neighboring rights to this document.
       $key =~ s/[\x{F4}\x{014D}]/おう/g;
       $key =~ tr/ゃゅょ/やゆよ/;
       $key =~ s/[ '’-]//g;
+      unless (defined $data_by_key->{$key}) {
+        push @$data, $data_by_key->{$key} = [];
+      }
+      push @{$data_by_key->{$key}}, $text;
       return 'pattern-' . ($patterns->{$key} ||= $next_pattern++);
     };
     for (0..$#$cols) {
@@ -171,6 +217,7 @@ copyright and related or neighboring rights to this document.
           $e->href ('https://data.suikawiki.org/era/' . percent_encode_c $row->[$_]);
           $e->text_content ($row->[$_]);
           $td->append_child ($e);
+          $era_key = $row->[$_];
         } elsif (ref $row->[$_] eq 'ARRAY') {
           for my $x (@{$row->[$_]}) {
             my $e = $doc->create_element ('span');
@@ -190,9 +237,34 @@ copyright and related or neighboring rights to this document.
       $tr->append_child ($td);
     }
     $tbody->append_child ($tr);
+    if (defined $era_key and $ENV{DATA}) {
+      use utf8;
+      for (@$data) {
+        for (@$_) {
+          s/’/'/g;
+          s/[\x{F4}\x{014D}ǒ]/o~/g;
+          s/[\x{FB}\x{016B}ǔ]/u~/g;
+        }
+        my $found = {};
+        $_ = [grep { not $found->{$_}++ } @$_];
+      }
+      unshift @$data, [$era_key];
+      push @{$Data->{eras}}, $data;
+    }
   }
 }
 
-print $doc->inner_html;
+if ($ENV{DATA}) {
+  if ($ENV{DATA} == 1) {
+    print perl2json_chars_for_record $Data;
+  } else {
+    for (@{$Data->{eras}}) {
+      print join ' ', map { join ',', sort { $b cmp $a } @$_ } @$_;
+      print "\n";
+    }
+  }
+} else {
+  print $doc->inner_html;
+}
 
 ## License: Public Domain.

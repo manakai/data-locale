@@ -150,6 +150,12 @@ local/era-yomi-list.json: bin/era-yomi-list.pl \
 data/calendar/era-yomis.html: bin/calendar-era-yomis.pl \
     local/era-yomi-list.json
 	$(PERL) $< > $@
+local/calendar-era-yomis.json: bin/calendar-era-yomis.pl \
+    local/era-yomi-list.json
+	DATA=1 $(PERL) $< > $@
+local/calendar-era-yomis.txt: bin/calendar-era-yomis.pl \
+    local/era-yomi-list.json
+	DATA=2 $(PERL) $< > $@
 data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     local/era-defs-jp.json local/era-defs-jp-emperor.json \
     local/era-defs-dates.json src/char-variants.txt \

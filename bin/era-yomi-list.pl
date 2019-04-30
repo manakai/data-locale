@@ -95,7 +95,7 @@ my $Data = {};
       my $v = $5;
 
       $Data->{eras}->{$key}->{6031} = $n1;
-      $Data->{eras}->{$key}->{6033} = [$n2] if defined $n2;
+      $Data->{eras}->{$key}->{6032} = [$n2] if defined $n2;
       $Data->{eras}->{$key}->{6032} = [$n2, $n3] if defined $n3;
       next unless defined $v;
       for (split / /, $v) {
@@ -269,6 +269,38 @@ for my $id (6090..6091) {
     $Data->{eras}->{$key}->{6060} = $latn;
   }
   ## Wrong: "Meitoku (1384–1387)"
+}
+
+{
+  my $path = $RootPath->child ('src/era-yomi-6100.txt');
+  for (split /\x0D?\x0A/, $path->slurp_utf8) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^(\w+) (.+)$/) {
+      my $key = $1;
+      my $v = $2;
+      for (split / /, $v, -1) {
+        if (/^\p{Hiragana}+$/) {
+          push @{$Data->{eras}->{$key}->{6103} ||= []}, $_;
+          next;
+        }
+        
+        my ($new, $old, @others) = split /,/, $_, -1;
+        s/\|/ /g for grep { defined } ($new, $old, @others);
+        if (length $new) {
+          push @{$Data->{eras}->{$key}->{6100} ||= []}, $new;
+        }
+        if (defined $old and length $old) {
+          push @{$Data->{eras}->{$key}->{6101} ||= []}, $old;
+        }
+        for (@others) {
+          push @{$Data->{eras}->{$key}->{6102} ||= []}, $_;
+        }
+      }
+    } elsif (/\S/) {
+      die "Bad line |$_|";
+    }
+  }
 }
 
 print perl2json_bytes_for_record $Data;
