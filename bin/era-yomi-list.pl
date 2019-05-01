@@ -329,37 +329,68 @@ for my $id (6090..6091) {
       #
     } elsif (/^(\w+) (.+)$/) {
       my $key = $1;
-      my $v = $2;
-      for (split / /, $v, -1) {
+      for (split / /, $2, -1) {
         if (/^\p{Hiragana}+$/) {
-          push @{$Data->{eras}->{$key}->{6104} ||= []}, $_;
-          push @{$Data->{eras}->{$key}->{6104} ||= []}, romaji $_;
-          push @{$Data->{eras}->{$key}->{6104} ||= []}, romaji2 $_;
+          my $v = {};
+          push @{$Data->{eras}->{$key}->{6104} ||= []},
+              $v->{kana} = $v->{kana_modern} = $v->{kana_classic} = $_;
+          push @{$Data->{eras}->{$key}->{6104} ||= []},
+              $v->{latin_normal} = romaji $_;
+          push @{$Data->{eras}->{$key}->{6104} ||= []},
+              $v->{latin} = $v->{latin_macron} = romaji2 $_;
+          push @{$Data->{eras}->{$key}->{ja_readings} ||= []}, $v;
           next;
         }
         
         my ($new, $old, @others) = split /,/, $_, -1;
         s/\|/ /g for grep { defined } ($new, $old, @others);
+        my $v = {};
         if (length $new) {
-          push @{$Data->{eras}->{$key}->{6100} ||= []}, $new;
-          push @{$Data->{eras}->{$key}->{6102} ||= []}, romaji $new;
-          push @{$Data->{eras}->{$key}->{6103} ||= []}, romaji2 $new;
+          push @{$Data->{eras}->{$key}->{6100} ||= []},
+              $v->{kana} = $v->{kana_modern} = $new;
+          push @{$Data->{eras}->{$key}->{6102} ||= []},
+              $v->{latin_normal} = romaji $new;
+          push @{$Data->{eras}->{$key}->{6103} ||= []},
+              $v->{latin} = $v->{latin_macron} = romaji2 $new;
         }
         use utf8;
         if (defined $old and length $old) {
-          push @{$Data->{eras}->{$key}->{6101} ||= []}, $old;
+          push @{$Data->{eras}->{$key}->{6101} ||= []},
+              $v->{kana_classic} = $old;
+          $v->{kana} //= $v->{kana_classic};
         } elsif (length $new and not $new =~ /[ゃゅょ]/) {
-          push @{$Data->{eras}->{$key}->{6101} ||= []}, $new;
+          push @{$Data->{eras}->{$key}->{6101} ||= []},
+              $v->{kana_classic} = $new;
         }
         if (@others and $others[0] =~ /^\p{Latin}+$/) {
-          push @{$Data->{eras}->{$key}->{6104} ||= []}, shift @others;
+          push @{$Data->{eras}->{$key}->{6104} ||= []},
+              $v->{latin} = shift @others;
+          push @{$v->{latin_others} ||= []}, $v->{latin};
         }
         for (@others) {
           if (/^\p{Latin}+$/) {
             push @{$Data->{eras}->{$key}->{6104} ||= []}, $_;
+            push @{$v->{latin_others} ||= []}, $_;
           } else {
             push @{$Data->{eras}->{$key}->{6104} ||= []}, $_;
+            push @{$v->{kana_others} ||= []}, $_;
+            $v->{kana} //= $_;
           }
+        }
+        push @{$Data->{eras}->{$key}->{ja_readings} ||= []}, $v;
+      }
+      for my $v (@{$Data->{eras}->{$key}->{ja_readings}}) {
+        $Data->{eras}->{$key}->{name_latn} //= $v->{latin};
+        $Data->{eras}->{$key}->{name_kana} //= $v->{kana};
+        $Data->{eras}->{$key}->{name_kana} =~ s/ //g;
+        for (grep { length }
+                 $v->{kana} // '',
+                 $v->{kana_modern} // '',
+                 $v->{kana_classic} // '',
+                 @{$v->{kana_others} or []}) {
+          my $v = $_;
+          $v =~ s/ //g;
+          $Data->{eras}->{$key}->{name_kanas}->{$v} = 1;
         }
       }
     } elsif (/\S/) {

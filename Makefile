@@ -166,7 +166,8 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     data/calendar/era-systems.json data/numbers/kanshi.json \
     intermediate/era-ids.json \
     src/era-codes-14.txt src/era-codes-15.txt \
-    local/cldr-core-json/ja.json
+    local/cldr-core-json/ja.json \
+    local/era-yomi-list.json
 	$(PERL) $< > $@
 #intermediate/era-ids.json: data/calendar/era-defs.json
 data/calendar/era-codes.html: bin/calendar-era-codes.pl \

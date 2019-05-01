@@ -128,6 +128,62 @@ The file contains a JSON object with following name/value pairs:
         The ID, which is a positive integer, uniquely assigned to the
         era.  Era codes #8 [CODES].
 
+      ja_readings [array?]
+
+        Japanese readings of the era, if known [JAREADINGS}.  The
+        value is a JSON array of the objects representing different
+        readings, with following name/value pairs:
+
+          kana [string]
+
+            The primary Hiragana representation of the reading.  Same
+            as |kana_modern|, if any, or |kana_classic|, or the first
+            item of |kana_others|, if any.
+
+          kana_classic [string?]
+
+            The Hiragana representation of the reading, in the most
+            popular 歴史的仮名遣い spelling, if known.
+
+          kana_modern [string?]
+
+            The Hiragana representation of the reading, in the 現代仮
+            名遣い (Modern Kana Spelling) spelling, if known.
+
+          kana_others [array?]
+
+            A JSON array of the other known Hiragana representations
+            of the readings, i.e. 歴史的仮名遣い spelling variations,
+            if any.
+
+          latin [string?]
+
+            The primary Latin representation (Roma-ji transliteration)
+            of the reading.  The commonly used Roma-ji representation,
+            if any, or |latin_macron|, if any.
+
+          latin_macron [string?]
+
+            The Hepburn Romanization of the reading, using letters
+            with macrons, if |kana_modern| is known.
+
+          latin_normal [string?]
+
+            The Hepburn Romanization of the reading, transliterating
+            |kana_modern| as is, if any.
+
+          latin_others [array?]
+
+            A JSON array of the other commonly used Latin
+            representations of the readings, if any.
+
+        For these fields, a U+0020 SPACE character is inserted at
+        Kanji boundaries in Hiragana representations unless they are
+        native Japanese words.  The first letters in the Latin
+        representations are uppercased and the other letters are
+        lowercased.  The characters |-| and |'| are used as Roma-ji
+        punctuations.
+
       jp_emperor_era [boolean]
 
         Whether the era is used to represent years where no 元号 was
@@ -188,12 +244,14 @@ The file contains a JSON object with following name/value pairs:
 
       name_kana [string?]
 
-        The primary hiragana name of the era, if known.
+        The primary Japanese reading of the era, in Hiragana (without
+        spaces), if known.  [JAREADINGS]
 
       name_kanas [object?]
 
-        Known hiragana names of the era.  Names are variants and
-        values are [boolean] true values.
+        Known Japanese readings of the era, in Hiragana modern,
+        classic, and other spellings.  Names are variants and values
+        are [boolean] true values.  [JAREADINGS]
 
       name_ko [string?]
 
@@ -201,7 +259,10 @@ The file contains a JSON object with following name/value pairs:
 
       name_latn [string?]
 
-        The primary Latin name of the era, if known.
+        The primary Latin name of the era, if known.  For Japanese
+        eras, the modern common Roma-ji transliteration of the
+        |name_kana|, using same rules as in |ja_readings|.
+        [JAREADINGS]
 
       name_tw [string?]
 
@@ -390,9 +451,15 @@ The file |data/calendar/jp-era-start-dates.html| contains a table
 comparing start days of Japanese eras from various era definition
 tables.
 
-The file |data/calendar/jp-era-year-maps.html| cntains a table
-comapring year names using Japanese eras from various AD-era mapping
+The file |data/calendar/jp-era-year-maps.html| contains a table
+comparing year names using Japanese eras from various AD-era mapping
 tables.
+
+The file |data/calendar/era-codes.html| contains a table comparing
+various era codes.  [CODES]
+
+The file |data/calendar/era-yomis.html| contains a table comparing
+Japanese era name readings from various sources.  [JAREADINGS]
 
 * See also
 
@@ -447,7 +514,7 @@ List of Emperors of Japan - Wikipedia, the free encyclopedia
 CLDR - Unicode Common Locale Data Repository,
 <https://cldr.unicode.org/>.
 
-SuikaWiki:元号の読み方
+[JAREADINGS] SuikaWiki:元号の読み方
 <https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9>.
 
 * License

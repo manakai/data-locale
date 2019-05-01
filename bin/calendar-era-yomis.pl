@@ -235,7 +235,7 @@ my $Data = {eras => []};
                 unless $cols->[$_]->{info};
             $e->text_content ($x);
             $td->append_child ($e);
-            $td->append_child ($doc->create_text_node (' '));
+            $td->append_child ($doc->create_text_node ("\x0A"));
           }
         } else {
           my $e = $doc->create_element ('span');

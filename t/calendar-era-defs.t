@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "1..216"
+echo "1..222"
 basedir=`dirname $0`/..
 jq=$basedir/local/bin/jq
 
@@ -247,5 +247,12 @@ test 214 '.eras["令和"].code10 == 236'
 
 test 215 '.eras["弘和"].name_latn == "Kōwa"'
 test 216 '.eras["永徳"].name_latn == "Eitoku"'
+
+test 217 '.eras["昭和"].name_kana == "しょうわ"'
+test 218 '.eras["昭和"].name_latn == "Showa"'
+test 219 '.eras["昭和"].ja_readings[0].kana == "しょう わ"'
+test 220 '.eras["昭和"].ja_readings[0].kana_modern == "しょう わ"'
+test 221 '.eras["昭和"].ja_readings[0].kana_classic == "せう わ"'
+test 222 '.eras["昭和"].ja_readings[0].latin == "Showa"'
 
 ## License: Public Domain.

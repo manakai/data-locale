@@ -22,13 +22,24 @@ for my $file_name (qw(
   }
 }
 
-for my $file_name (qw(local/era-defs-dates.json
-                      local/era-defs-jp-wp-en.json)) {
+for (
+  ['local/era-defs-dates.json' => [map {
+    ($_.'start_year', $_.'start_day',
+     $_.'official_start_day', $_.'actual_start_day',
+     $_.'start_kyuureki_day', $_.'start_gregorian_day', $_.'start_julian_day',
+     $_.'end_year', $_.'end_day',
+     $_.'official_end_day', $_.'actual_end_day',
+     $_.'end_kyuureki_day', $_.'end_gregorian_day', $_.'end_julian_day');
+  } '', 'north_', 'south_']],
+  ['local/era-defs-jp-wp-en.json' => ['wref_en']],
+  ['local/era-yomi-list.json' => ['ja_readings', 'name_kana', 'name_kanas', 'name_latn']],
+) {
+  my ($file_name, $data_keys) = @$_;
   my $path = $root_path->child ($file_name);
   my $json = json_bytes2perl $path->slurp;
   for my $key (keys %{$json->{eras}}) {
     my $data = $json->{eras}->{$key};
-    for (keys %$data) {
+    for (@$data_keys) {
       $Data->{eras}->{$key}->{$_} = $data->{$_} if defined $data->{$_};
     }
   }
@@ -56,6 +67,9 @@ sub drop_kanshi ($) {
 
 sub expand_name ($$) {
   my ($era, $name) = @_;
+  unless (defined $name) {
+    warn perl2json_chars [$era, $name], Carp::longmess;
+  }
   $era->{names}->{drop_kanshi $name} = 1;
   my @name = split //, $name;
   @name = map { [keys %$_] } map { $Variants->{$_} || {$_ => 1} } @name;
@@ -125,6 +139,8 @@ $Data->{eras}->{大正}->{unicode} = '㍽';
 $Data->{eras}->{昭和}->{unicode} = '㍼';
 $Data->{eras}->{平成}->{unicode} = '㍻';
 $Data->{eras}->{令和}->{unicode} = "\x{32FF}";
+
+$Data->{eras}->{白鳳}->{name} = '白鳳';
 
 for my $era (values %{$Data->{eras}}) {
   my $name = $era->{name};
