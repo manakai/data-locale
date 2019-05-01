@@ -5,6 +5,13 @@ use JSON::PS;
 
 my $Data = {};
 
+my @TestedZeros = (
+  (map { $_ * 1000 } 1..100),
+  (map { 10_0000 + $_ * 1000 } 1..100),
+  1000_000,
+);
+my @Tested = (0..999, @TestedZeros);
+
 my $FormNames = {};
 for (
   [[] => 'never'],
@@ -49,34 +56,40 @@ for (
   [[grep { not /[179]2$/ } map { $_ * 10 + 2 } 0..99] => 'ends in 2 not ends in 12, 72, 92'],
   [[grep { not /13$/ } map { $_ * 10 + 3 } 0..99] => 'ends in 3 not ends in 13'],
   [[grep { not /14$/ } map { $_ * 10 + 4 } 0..99] => 'ends in 4 not ends in 14'],
-  [[grep { /[469]$/ } 0..999] => 'ends in 4, 6, 9'],
-  [[grep { /[349]$/ and not /[179][349]$/ } 0..999] => 'ends in 3, 4, 9 not ends in 13, 14, 19, 73, 74, 79, 93, 94, 99'],
+  [[grep { /[469]$/ } @Tested] => 'ends in 4, 6, 9'],
+  [[grep { /[349]$/ and not /[179][349]$/ } @Tested] => 'ends in 3, 4, 9 not ends in 13, 14, 19, 73, 74, 79, 93, 94, 99'],
   [[map { $_ * 10 + 2, $_ * 10 + 3, $_ * 10 + 4 } 0..99] => 'ends in 2-4'],
   [[map { $_ * 10 + 3, $_ * 10 + 4, $_ * 10 + 5, $_ * 10 + 6 } 0..99] => 'ends in 3-6'],
   [[grep { not /1[2-4]$/ } map { $_ * 10 + 2, $_ * 10 + 3, $_ * 10 + 4 } 0..99] => 'ends in 2-4 not ends in 12-14'],
   [[grep { not /1[78]$/ } map { $_ * 10 + 7, $_ * 10 + 8 } 0..99] => 'ends in 7-8 not ends in 17-18'],
-  [[0, map { $_ * 10 } 2..99, 100000] => 'ends in 0 excluding 10'],
-  [[map { $_ * 10 } 2..99, 100000] => 'ends in 0 excluding 0, 10'],
-  [[grep { not $_ == 0 } (map { $_ * 10, $_ * 10 + 6, $_ * 10 + 9 } 0..99), 1000000] => 'ends in 0, 6, 9 excluding 0'],
-  [[grep { /(?:0|1[1-9])$/ } 0..999, 1000000] => 'ends in 0 or ends in 11-19'],
-  [[grep { /(?:0|1[2-9])$/ } 0..999, 1000000] => 'ends in 0 or ends in 12-19'],
-  [[grep { /(?:[12578]|[2578]0)$/ } 0..999, 1000000] => 'ends in 1, 2, 5, 7, 8 or ends in 20, 50, 70, 80'],
-  [[grep { /(?:[34]|00)$/ and not /000$/ } 0..999, 1000000] => 'ends in 3-4 or ends in 00 not ends in 000'],
-  [[0, grep { /(?:6|[469]0)$/ } 0..999, 1000000] => 'is 0 or ends in 6 or ends in 40, 60, 90'],
-  [[0, 2..9, grep { /(?:0[2-9]|1[0-9]|[2468]0)$/ } 0..999, 1000000] => 'is 0 or ends in 02-20, 40, 60, 80'],
+  [[0, (map { $_ * 10 } 2..99), @TestedZeros] => 'ends in 0 excluding 10'],
+  [[(map { $_ * 10 } 2..99), @TestedZeros] => 'ends in 0 excluding 0, 10'],
+  [[grep { not $_ == 0 } (map { $_ * 10, $_ * 10 + 6, $_ * 10 + 9 } 0..99), @TestedZeros] => 'ends in 0, 6, 9 excluding 0'],
+  [[grep { /(?:0|1[1-9])$/ } @Tested] => 'ends in 0 or ends in 11-19'],
+  [[grep { /(?:0|1[2-9])$/ } @Tested] => 'ends in 0 or ends in 12-19'],
+  [[0, grep { 2 <= ($_ % 100) and ($_ % 100) <= 19 } @Tested] => 'is 0, 2-19, or ends in 02-19'],
+  [[grep { /(?:[12578]|[2578]0)$/ } @Tested] => 'ends in 1, 2, 5, 7, 8 or ends in 20, 50, 70, 80'],
+  [[grep { /(?:[34]|00)$/ and not /000$/ } @Tested] => 'ends in 3-4 or ends in 00 not ends in 000'],
+  [[0, grep { /(?:6|[469]0)$/ } @Tested] => 'is 0 or ends in 6 or ends in 40, 60, 90'],
+  [[0, 2..9, grep { /(?:0[2-9]|1[0-9]|[2468]0)$/ } @Tested] => 'is 0 or ends in 02-20, 40, 60, 80'],
   [[map { $_ * 100 + 1 } 0..9] => 'ends in 01'],
   [[map { $_ * 100 + 2 } 0..9] => 'ends in 02'],
-  [[(map { $_ * 100, $_ * 100 + 1, $_ * 100 + 2 } 1..9), 1000000] => 'ends in 00-02 excluding 0-2'],
+  [[map { $_ * 100 + 5 } 0..9] => 'is 5 or ends in 05'],
+  [[(map { $_ * 100, $_ * 100 + 1, $_ * 100 + 2 } 1..9), @TestedZeros] => 'ends in 00-02 excluding 0-2'],
   [[map { $_ * 100 + 3, $_ * 100 + 4 } 0..9] => 'ends in 03-04'],
   [[map { $_ * 100 + 3, $_ * 100 + 4, $_ * 100 + 5, $_ * 100 + 6, $_ * 100 + 7, $_ * 100 + 8, $_ * 100 + 9, $_ * 100 + 10 } 0..9] => 'ends in 03-10'],
-  [[(map { $_ * 100, $_ * 100 + 20, $_ * 100 + 40, $_ * 100 + 60, $_ * 100 + 80 } 0..9), 1000000] => 'ends in 00, 20, 40, 60, 80'],
-  [[10, grep { /[69]$/ } 0..999] => 'is 10 or ends in 6, 9'],
-  [[0, 2..19, grep { /(?:0[1-9]|1[0-9])$/ } 100..999] => 'is 0 or ends in 01-19 excluding 1'],
-  [[0, 2..19, grep { /(?:0[1-9]|10)$/ } 100..999] => 'is 0, 11-19 or ends in 01-10 excluding 1'],
+  [[(map { $_ * 100, $_ * 100 + 20, $_ * 100 + 40, $_ * 100 + 60, $_ * 100 + 80 } 0..9), @TestedZeros] => 'is 0 or ends in 02468 0'],
+  [[grep { $_ != 1 } map { $_ * 100 + 1, $_ * 100 + 21, $_ * 100 + 41, $_ * 100 + 61, $_ * 100 + 81 } 0..9] => 'ends in 02468 1'],
+  [[10, grep { /[69]$/ } @Tested] => 'is 10 or ends in 6, 9'],
+  [[0, 2..19, grep { /(?:0[1-9]|1[0-9])$/ } grep { length >= 3 } @Tested] => 'is 0 or ends in 01-19 excluding 1'],
+  [[0, 2..19, grep { /(?:0[1-9]|10)$/ } grep { length >= 3 } @Tested] => 'is 0, 11-19 or ends in 01-10 excluding 1'],
+  [[2, (map { $_ * 1000 } 1..9), grep { /(?:[02468]2|0[1-9]000|1[0-9]000|[2468]0000|100000)$/ } grep { length >= 2 } @Tested] => 'is 2, 1000-9000 or ends in 02468 2 or ends in 01-19 000, 2468 0000, or 100000'],
+  [[3, grep { /(?:[02468]3)$/ } grep { length >= 2 } @Tested] => 'is 3 or ends in 02468 3'],
+  [[1..4, grep { /(?:[02468][1-4])$/ } grep { length >= 2 } @Tested] => 'is 1-4 or ends in 02468 1-4'],
   [[0, grep { not ($_ == 1) } map { $_ * 100 + 1, $_ * 100 + 2, $_ * 100 + 3, $_ * 100 + 4, $_ * 100 + 5, $_ * 100 + 6, $_ * 100 + 7, $_ * 100 + 8, $_ * 100 + 9, $_ * 100 + 10 } 0..9] => 'is 0 or ends in 01-10 excluding 1'],
   [[0, map { $_ * 100 + 2, $_ * 100 + 3, $_ * 100 + 4, $_ * 100 + 5, $_ * 100 + 6, $_ * 100 + 7, $_ * 100 + 8, $_ * 100 + 9, $_ * 100 + 10 } 0..9] => 'is 0 or ends in 02-10'],
   [[map { $_ * 100 + 11, $_ * 100 + 12, $_ * 100 + 13, $_ * 100 + 14, $_ * 100 + 15, $_ * 100 + 16, $_ * 100 + 17, $_ * 100 + 18, $_ * 100 + 19 } 0..9] => 'ends in 11-19'],
-  [[1000000] => 'ends in 000000 excluding 0'],
+  [[grep { /000000$/ } @Tested] => 'ends in 000000 excluding 0'],
 ) {
   $FormNames->{join ' ', sort { $a <=> $b } @{$_->[0]}} = $_->[1];
 }
@@ -112,6 +125,10 @@ for my $name (keys %{$Data->{forms}}) {
     $Data->{forms}->{$name}->{expression} = "n==$1||($2<=n%100&&n%100<=$3)";
   } elsif ($name =~ /^is ([0-9]+) or ends in ([0-9][0-9])-([0-9][0-9]) excluding ([0-9]+)$/) {
     $Data->{forms}->{$name}->{expression} = "n==$1||($2<=n%100&&n%100<=$3&&n!=$4)";
+  } elsif ($name =~ /^is ([0-9]+) or ends in 0([0-9])$/) {
+    $Data->{forms}->{$name}->{expression} = "n==$1||n%100==$2";
+  } elsif ($name =~ /^is ([0-9]+), ([0-9])-([0-9]+), or ends in 0\2-\3$/) {
+    $Data->{forms}->{$name}->{expression} = "n==$1||($2<=n%100&&n%100<=$3)";
   } elsif ($name =~ /^is ([0-9][0-9]) or ends in ([0-9]), ([0-9])$/) {
     $Data->{forms}->{$name}->{expression} = "n==$1||n%10==$2||n%10==$3";
   } elsif ($name =~ /^is ([0-9]+), ([0-9]+)-([0-9]+) or ends in ([0-9][0-9])-([0-9][0-9]) excluding ([0-9]+)$/) {
@@ -166,6 +183,14 @@ for my $name (keys %{$Data->{forms}}) {
     $Data->{forms}->{$name}->{expression} = "n%10==$1||n%10==$2||n%100==$3&&n%1000!=$4";
   } elsif ($name =~ /^ends in ([0-9]), ([0-9]), ([0-9]), ([0-9]), ([0-9]) or ends in ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9]), ([0-9][0-9])$/) {
     $Data->{forms}->{$name}->{expression} = "n%10==$1||n%10==$2||n%10==$3||n%10==$4||n%10==$5||n%100==$6||n%100==$7||n%100==$8||n%100==$9";
+  } elsif ($name =~ /^is (([0-9])-([0-9])) or ends in 02468 \1$/) {
+    $Data->{forms}->{$name}->{expression} = "($2<=n%100&&n%100<=$3)||(2$2<=n%100&&n%100<=2$3)||(4$2<=n%100&&n%100<=4$3)||(6$2<=n%100&&n%100<=6$3)||(8$2<=n%100&&n%100<=8$3)";
+  } elsif ($name =~ /^ends in 02468 ([0-9])$/) {
+    $Data->{forms}->{$name}->{expression} = "n!=$1&&(n%100==$1||n%100==2$1||n%100==4$1||n%100==6$1||n%100==8$1)";
+  } elsif ($name =~ /^is ([0-9]) or ends in 02468 \1$/) {
+    $Data->{forms}->{$name}->{expression} = "n%100==$1||n%100==2$1||n%100==4$1||n%100==6$1||n%100==8$1";
+  } elsif ($name =~ /^is 2, 1000-9000 or ends in 02468 2 or ends in 01-19 000, 2468 0000, or 100000$/) {
+    $Data->{forms}->{$name}->{expression} = "(n%100==2||n%100==22||n%100==42||n%100==62||n%100==82)||(n%1000==0)&&(1000<=n%100000&&n%100000<=20000||n%100000==40000||n%100000==60000||n%100000==80000)||(n%1000000==100000)";
   } elsif ($name eq 'never') {
     $Data->{forms}->{$name}->{expression} = "1==0";
   } else {
@@ -176,7 +201,7 @@ for my $name (keys %{$Data->{forms}}) {
   my $expr = $Data->{forms}->{$name}->{expression};
   $expr =~ s/n/\$n/g;
   my @num;
-  for my $n (0..999, 1000000) {
+  for my $n (@Tested) {
     my $r = eval $expr;
     die "|$expr|: $@" if $@;
     push @num, $n if $r;
@@ -195,7 +220,7 @@ sub expr ($$;%) {
   my $expr = $expr_orig;
   $expr =~ s/([nivwft])/\$$1/g;
   $data->{forms}->[$n-1] ||= [];
-  for my $n (0..999, 1000000) {
+  for my $n (@Tested) {
     ## <http://unicode.org/reports/tr35/tr35-numbers.html#Operands>
     ## XXX fractions are not supported in fact...
     my $i = int $n;
@@ -294,8 +319,12 @@ sub expr ($$;%) {
       for my $label (keys %$forms) {
         my $x = $forms->{$label};
         next unless length $x;
+        $x =~ s/\s+/ /g;
         $x =~ s/and/&&/g;
         $x =~ s/or/||/g;
+        $x =~ s/\s*%\s*/ % /g;
+        $x =~ s/\s*([!<>]?=)\s*/ $1 /g;
+        $x =~ s/\s*\.\.\s*/../g;
         $x =~ s/([a-z](?: % [0-9]+|)) != ([0-9]+)\.\.([0-9]+),([0-9]+)\.\.([0-9]+),([0-9]+)\.\.([0-9]+)/!(($2 <= $1 && $1 <= $3) || ($4 <= $1 && $1 <= $5) || ($6 <= $1 && $1 <= $7))/g;
         $x =~ s/([a-z](?: % [0-9]+|)) != ([0-9]+)\.\.([0-9]+)/!($2 <= $1 && $1 <= $3)/g;
         $x =~ s{([a-z](?: % [0-9]+|)) = ([0-9]+(?:\.\.[0-9]+|)(?:,[0-9]+(?:\.\.[0-9]+|))*)}{
