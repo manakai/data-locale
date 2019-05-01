@@ -33,9 +33,9 @@ my $cols = [
       6036 => 'wrong',
       6040 => 'kana-old',
       6101 => 'kana-old',
-      6102 => 'kana-old',
+      6104 => 'kana-old',
     }->{$_}};
-  } (6100..6103,
+  } (6100..6104,
      6001, 6002, 6011, 6012, 6013..6020, 6031..6036, 6040,
      6041..6046, 6047..6048, 6049..6050, 6051..6052, 6060,
      6071..6084, 6090..6091)),
@@ -70,6 +70,10 @@ copyright and related or neighboring rights to this document.
 
 -->
 <style>
+  html {
+    font-size: 80%;
+  }
+
   .kana-old {
     background: #eee;
     color: black;
@@ -154,6 +158,7 @@ my $Data = {eras => []};
     kya きゃ kyu きゅ kyo きょ
     rya りゃ ryu りゅ ryo りょ
     gya ぎゃ gyu ぎゅ gyo ぎょ
+    bya びゃ byu びゅ byo びょ
     pya ぴゃ pyu ぴゅ pyo ぴょ
   )};
   my $tbody = $doc->query_selector ('tbody');
@@ -179,6 +184,7 @@ my $Data = {eras => []};
       $key =~ s/ju/じゅ/g;
       $key =~ s/ja/じゃ/g;
       $key =~ s/jo/じょ/g;
+      $key =~ s/fu/ふ/g;
       $key =~ s/ch[\x{F4}\x{014D}]/ちょう/g;
       $key =~ s/sh[\x{F4}\x{014D}]/しょう/g;
       $key =~ s/n[\x{F4}\x{014D}]/のう/g;
@@ -186,16 +192,20 @@ my $Data = {eras => []};
       $key =~ s/k[\x{F4}\x{014D}]/こう/g;
       $key =~ s/j[\x{F4}\x{014D}]/じょう/g;
       $key =~ s/d[\x{F4}\x{014D}]/どう/g;
+      $key =~ s/b[\x{F4}\x{014D}]/ぼう/g;
       $key =~ s/p[\x{F4}\x{014D}]/ぽう/g;
       $key =~ s/r[\x{F4}\x{014D}]/ろう/g;
       $key =~ s/gy[\x{F4}\x{014D}]/ぎょう/g;
       $key =~ s/ky[\x{F4}\x{014D}]/きょう/g;
+      $key =~ s/by[\x{F4}\x{014D}]/びょう/g;
       $key =~ s/py[\x{F4}\x{014D}]/ぴょう/g;
       $key =~ s/y[\x{F4}\x{014D}]/よう/g;
       $key =~ s/ch[\x{FB}\x{016B}]/ちゅう/g;
       $key =~ s/ky[\x{FB}\x{016B}]/きゅう/g;
+      $key =~ s/\x{016B}/uu/g;
+      #$key =~ s/\x{012B}/ii/g;
       $key =~ s/([kstnhmrgzdbp][aiueo])/$L2K->{$1}/g;
-      $key =~ s/([kgrp]y[auo])/$L2K->{$1}/g;
+      $key =~ s/([kgrpb]y[auo])/$L2K->{$1}/g;
       $key =~ s/(y[auo])/$L2K->{$1}/g;
       $key =~ s/(w[aieo])/$L2K->{$1}/g;
       $key =~ s/([aiueonm])/$L2K->{$1}/g;
@@ -225,6 +235,7 @@ my $Data = {eras => []};
                 unless $cols->[$_]->{info};
             $e->text_content ($x);
             $td->append_child ($e);
+            $td->append_child ($doc->create_text_node (' '));
           }
         } else {
           my $e = $doc->create_element ('span');

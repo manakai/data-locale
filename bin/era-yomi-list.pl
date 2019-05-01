@@ -272,6 +272,57 @@ for my $id (6090..6091) {
 }
 
 {
+  use utf8;
+  my $ToLatin = {qw(
+    あ a い i う u え e お o
+    か ka き ki く ku け ke こ ko
+    さ sa し shi す su せ se そ so
+    た ta ち chi つ tsu て te と to
+    な na に ni ぬ nu ね ne の no
+    は ha ひ hi ふ fu へ he ほ ho
+    ま ma み mi む mu め me も mo
+    や ya ゆ yu よ yo
+    ら ra り ri る ru れ re ろ ro
+    わ wa ん n
+    が ga ぎ gi ぐ gu げ ge ご go
+    ざ za じ ji ず zu ぜ ze ぞ zo
+    だ da で de ど do
+    ば ba び bi ぶ bu べ be ぼ bo
+    ぱ pa ぴ pi ぷ pu ぺ pe ぽ po
+    きゃ kya きゅ kyu きょ kyo
+    しゃ sha しゅ shu しょ sho
+    ちゃ cha ちゅ chu ちょ cho
+    にゃ nya にゅ nyu にょ nyo
+    ひゃ hya ひゅ hyu ひょ hyo
+    みゃ mya みゅ myu みょ myo
+    りゃ rya りゅ ryu りょ ryo
+    ぎゃ gya ぎゅ gyu ぎょ gyo
+    じゃ ja じゅ ju じょ jo
+    びゃ bya びゅ byu びょ byo
+    ぴゃ pya ぴゅ pyu ぴょ pyo
+  )};
+  sub romaji ($) {
+    my $s = shift;
+    $s =~ s/([きしちにひみりぎじびぴ][ゃゅょ])/$ToLatin->{$1}/g;
+    $s =~ s/([あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわんがぎぐげござじずぜぞだでどばびぶべぼぱぴぷぺぽ])/$ToLatin->{$1}/g;
+    $s =~ s/^(\S+ \S+) (\S+ \S+)$/$1-$2/g;
+    $s =~ s/n ([aiueoy])/n'$1/g;
+    $s =~ s/ //g;
+    $s =~ s/n([mpb])/m$1/g;
+    die $s if $s =~ /\p{Hiragana}/;
+    return ucfirst $s;
+  }
+
+  sub romaji2 ($) {
+    my $s = lcfirst romaji $_[0];
+    $s =~ s/ou/\x{014D}/g;
+    $s =~ s/uu/\x{016B}/g;
+    #$s =~ s/ii/\x{012B}/g;
+    return ucfirst $s;
+  }
+}
+
+{
   my $path = $RootPath->child ('src/era-yomi-6100.txt');
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
@@ -281,7 +332,9 @@ for my $id (6090..6091) {
       my $v = $2;
       for (split / /, $v, -1) {
         if (/^\p{Hiragana}+$/) {
-          push @{$Data->{eras}->{$key}->{6103} ||= []}, $_;
+          push @{$Data->{eras}->{$key}->{6104} ||= []}, $_;
+          push @{$Data->{eras}->{$key}->{6104} ||= []}, romaji $_;
+          push @{$Data->{eras}->{$key}->{6104} ||= []}, romaji2 $_;
           next;
         }
         
@@ -289,12 +342,24 @@ for my $id (6090..6091) {
         s/\|/ /g for grep { defined } ($new, $old, @others);
         if (length $new) {
           push @{$Data->{eras}->{$key}->{6100} ||= []}, $new;
+          push @{$Data->{eras}->{$key}->{6102} ||= []}, romaji $new;
+          push @{$Data->{eras}->{$key}->{6103} ||= []}, romaji2 $new;
         }
+        use utf8;
         if (defined $old and length $old) {
           push @{$Data->{eras}->{$key}->{6101} ||= []}, $old;
+        } elsif (length $new and not $new =~ /[ゃゅょ]/) {
+          push @{$Data->{eras}->{$key}->{6101} ||= []}, $new;
+        }
+        if (@others and $others[0] =~ /^\p{Latin}+$/) {
+          push @{$Data->{eras}->{$key}->{6104} ||= []}, shift @others;
         }
         for (@others) {
-          push @{$Data->{eras}->{$key}->{6102} ||= []}, $_;
+          if (/^\p{Latin}+$/) {
+            push @{$Data->{eras}->{$key}->{6104} ||= []}, $_;
+          } else {
+            push @{$Data->{eras}->{$key}->{6104} ||= []}, $_;
+          }
         }
       }
     } elsif (/\S/) {
