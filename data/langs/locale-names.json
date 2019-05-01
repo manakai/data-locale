@@ -850,11 +850,15 @@
       },
       "ceb" : {
          "bcp47_canonical" : "ceb",
-         "mediawiki" : "ceb"
+         "cldr" : "ceb",
+         "mediawiki" : "ceb",
+         "native_name" : "Cebuano"
       },
       "ceb-ph" : {
          "bcp47_canonical" : "ceb-PH",
-         "facebook" : "cx_PH"
+         "cldr" : "ceb_PH",
+         "facebook" : "cx_PH",
+         "native_name" : "Cebuano (Pilipinas)"
       },
       "cgg" : {
          "bcp47_canonical" : "cgg",
@@ -1251,6 +1255,11 @@
          "cldr" : "en_150",
          "native_name" : "English (Europe)"
       },
+      "en-ae" : {
+         "bcp47_canonical" : "en-AE",
+         "cldr" : "en_AE",
+         "native_name" : "English (United Arab Emirates)"
+      },
       "en-ag" : {
          "bcp47_canonical" : "en-AG",
          "cldr" : "en_AG",
@@ -1545,7 +1554,7 @@
       "en-mo" : {
          "bcp47_canonical" : "en-MO",
          "cldr" : "en_MO",
-         "native_name" : "English (Macau)"
+         "native_name" : "English (Macao)"
       },
       "en-mp" : {
          "bcp47_canonical" : "en-MP",
@@ -1831,7 +1840,7 @@
       "eo-001" : {
          "bcp47_canonical" : "eo-001",
          "cldr" : "eo_001",
-         "native_name" : "esperanto (World)"
+         "native_name" : "esperanto (Mondo)"
       },
       "es" : {
          "bcp47_canonical" : "es",
@@ -2967,13 +2976,13 @@
          "bcp47_canonical" : "ig",
          "cldr" : "ig",
          "mediawiki" : "ig",
-         "native_name" : "Igbo"
+         "native_name" : "Asụsụ Igbo"
       },
       "ig-ng" : {
          "bcp47_canonical" : "ig-NG",
          "cldr" : "ig_NG",
          "facebook" : "ig_NG",
-         "native_name" : "Igbo (Naịjịrịa)"
+         "native_name" : "Asụsụ Igbo (Naịjịrịa)"
       },
       "ii" : {
          "bcp47_canonical" : "ii",
@@ -3561,7 +3570,7 @@
          "bcp47_canonical" : "ks-IN",
          "cldr" : "ks_IN",
          "facebook" : "ks_IN",
-         "native_name" : "کٲشُر (ہِنٛدوستان)"
+         "native_name" : "کٲشُر (ہِندوستان)"
       },
       "ksb" : {
          "bcp47_canonical" : "ksb",
@@ -4006,7 +4015,7 @@
          "facebook" : "mk_MK",
          "java" : "mk_MK",
          "mysql" : "mk_MK",
-         "native_name" : "македонски (Република Македонија)"
+         "native_name" : "македонски (Северна Македонија)"
       },
       "ml" : {
          "bcp47_canonical" : "ml",
@@ -4394,6 +4403,10 @@
          "bcp47_canonical" : "nov",
          "mediawiki" : "nov"
       },
+      "nqo" : {
+         "bcp47_canonical" : "nqo",
+         "mediawiki" : "nqo"
+      },
       "nr-za" : {
          "bcp47_canonical" : "nr-ZA",
          "facebook" : "nr_ZA"
@@ -4642,6 +4655,11 @@
          "cldr" : "ps_AF",
          "facebook" : "ps_AF",
          "native_name" : "پښتو (افغانستان)"
+      },
+      "ps-pk" : {
+         "bcp47_canonical" : "ps-PK",
+         "cldr" : "ps_PK",
+         "native_name" : "پښتو (پاکستان)"
       },
       "pt" : {
          "bcp47_canonical" : "pt",
@@ -5268,7 +5286,7 @@
       "sq-mk" : {
          "bcp47_canonical" : "sq-MK",
          "cldr" : "sq_MK",
-         "native_name" : "shqip (Maqedoni (IRJM))"
+         "native_name" : "shqip (Maqedonia e Veriut)"
       },
       "sq-xk" : {
          "bcp47_canonical" : "sq-XK",
@@ -6031,6 +6049,10 @@
          "cldr" : "xog_UG",
          "native_name" : "Olusoga (Yuganda)"
       },
+      "xsy" : {
+         "bcp47_canonical" : "xsy",
+         "mediawiki" : "xsy"
+      },
       "yav" : {
          "bcp47_canonical" : "yav",
          "cldr" : "yav",
@@ -6071,7 +6093,7 @@
          "bcp47_canonical" : "yo-NG",
          "cldr" : "yo_NG",
          "facebook" : "yo_NG",
-         "native_name" : "Èdè Yorùbá (Orílẹ́ède Nàìjíríà)"
+         "native_name" : "Èdè Yorùbá (Orilẹ̀-èdè Nàìjíríà)"
       },
       "yue" : {
          "bcp47_canonical" : "yue",
