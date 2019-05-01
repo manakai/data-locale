@@ -2447,6 +2447,7 @@
          "code5" : 3,
          "code6" : 5,
          "code9" : 2,
+         "en_desc" : "beautiful harmony",
          "id" : 5,
          "ja_readings" : [
             {
@@ -2487,10 +2488,16 @@
          "short_name" : "令和",
          "sources" : [
             {
-               "title" : "元号を改める政令(平成三十一年四月一日政令第百四十三号)"
+               "title" : "元号を改める政令(平成三十一年四月一日政令第百四十三号)",
+               "url" : "https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=431CO0000000143_20190501_000000000000000&openerCode=1"
             },
             {
-               "title" : "平成三十一年四月一日内閣告示第一号"
+               "title" : "平成三十一年四月一日内閣告示第一号",
+               "url" : "https://kanpou.npb.go.jp/20190401/20190401t00009/20190401t000090001f.html"
+            },
+            {
+               "title" : "改元に伴う情報システムの改修等を進めていく上でよくご質問いただく事項について",
+               "url" : "https://www.meti.go.jp/policy/it_policy/kaigen/faq.html"
             }
          ],
          "start_day" : {

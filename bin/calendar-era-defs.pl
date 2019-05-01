@@ -164,22 +164,6 @@ for my $era (values %{$Data->{eras}}) {
 }
 
 {
-  my $path = $root_path->child ('src/era-yomi.txt');
-  my $key;
-  my $prop;
-  for (split /\x0D?\x0A/, $path->slurp_utf8) {
-    if (/^\s*#/) {
-      #
-    } elsif (/^(\S+)\s+(\S+)$/) {
-      die "Bad key |$1|" unless $Data->{eras}->{$1};
-      $Data->{eras}->{$1}->{name_kanas}->{$2} = 1;
-    } elsif (/\S/) {
-      die "Bad line |$_|";
-    }
-  }
-}
-
-{
   my $path = $root_path->child ('src/jp-private-eras.txt');
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
@@ -517,6 +501,8 @@ for my $path (
       $Data->{eras}->{$key}->{'code' . $1} = $2;
     } elsif (defined $key and /^code\s+#([1-9][0-9]*)\s+0x([0-9A-Fa-f]+)$/) {
       $Data->{eras}->{$key}->{'code' . $1} = hex $2;
+    } elsif (defined $key and /^en\s+desc\s+(\S+(?: \S+)*)\s*$/) {
+      $Data->{eras}->{$key}->{en_desc} = $1;
     } elsif (/\S/) {
       die "Bad line |$_|";
     }

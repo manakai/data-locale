@@ -123,6 +123,10 @@ The file contains a JSON object with following name/value pairs:
         The serial number of the era in the 日本年号大観, if any.  The
         era codes #15 [CODES].
 
+      en_desc [string?]
+
+        The official English short description of the era, if any.
+
       id [integer]
 
         The ID, which is a positive integer, uniquely assigned to the
