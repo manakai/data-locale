@@ -29763,20 +29763,20 @@
                "latin_normal" : "Suchou"
             },
             {
-               "kana" : "あかみどり",
-               "kana_classic" : "あかみどり",
-               "kana_modern" : "あかみどり",
-               "latin" : "Akamidori",
-               "latin_macron" : "Akamidori",
-               "latin_normal" : "Akamidori"
-            },
-            {
                "kana" : "あかみとり",
                "kana_classic" : "あかみとり",
                "kana_modern" : "あかみとり",
                "latin" : "Akamitori",
                "latin_macron" : "Akamitori",
                "latin_normal" : "Akamitori"
+            },
+            {
+               "kana" : "あかみどり",
+               "kana_classic" : "あかみどり",
+               "kana_modern" : "あかみどり",
+               "latin" : "Akamidori",
+               "latin_macron" : "Akamidori",
+               "latin_normal" : "Akamidori"
             }
          ],
          "jp_era" : 1,
