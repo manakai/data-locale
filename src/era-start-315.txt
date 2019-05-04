@@ -589,6 +589,9 @@
   ! -1-7
     # <https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7#anchor-45>
 
+  u 99
+    #
+
 2019-05-01	令和
   not renaming year
   start at day boundary
@@ -597,3 +600,6 @@
 
   s -4-1 外国通告
     # <https://wiki.suikawiki.org/n/%E4%BB%A4%E5%92%8C%E6%94%B9%E5%85%83>
+
+  u 99
+    #

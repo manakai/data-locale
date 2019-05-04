@@ -181,6 +181,9 @@ sub day ($$$) {
       } elsif (/^(north|south) ->(\w+)(?: ([0-9]+)-([0-9]+)('|)-([0-9]+)|)$/) {
         $this->{_next_key}->{$1 . '_'} = $2;
         $this->{_next_jd}->{$1 . '_'} = g2jd jp2g $this->{_first_year}+$3-1, $4, $5, $6 if defined $3;
+      } elsif (/^u\s+([0-9]+)(?:-([0-9]+)('|)(?:-([0-9]+)|)|)(?:\s+(\w+)|)$/) {
+        push @{$this->{_usages} ||= []},
+            [[0+$1, $2?0+$2:undef, $3?1:0, $4?0+$4:undef], $5];
       } elsif (/\S/) {
         # XXX
       }
@@ -232,6 +235,16 @@ for my $era (values %{$Data->{eras}}) {
           = day $era->{_key}, $era->{_first_year},
                 (g2jd jp2g $era->{_first_year}, 1, 0, 1);
     }
+
+    for (qw(gregorian julian kyuureki)) {
+      $era->{$pfx.'start_day'}->{$_} =~ /^(-?[0-9]+)/ or die;
+      $era->{known_oldest_year} = $1 if
+          not defined $era->{known_oldest_year} or
+          $era->{known_oldest_year} > $1;
+      $era->{known_latest_year} = $1 if
+          not defined $era->{known_latest_year} or
+          $era->{known_latest_year} < $1;
+    }
   }
 
   for my $pfx ('', 'north_', 'south_') {
@@ -250,6 +263,23 @@ for my $era (values %{$Data->{eras}}) {
           = day $era->{_key}, $era->{_first_year}, $jd;
       $era->{$pfx.'end_year'} = jd2jpy $jd;
     }
+
+    for (qw(gregorian julian kyuureki)) {
+      $era->{$pfx.'actual_end_day'}->{$_} =~ /^(-?[0-9]+)/ or die;
+      $era->{known_latest_year} = $1 if
+          not defined $era->{known_latest_year} or
+          $era->{known_latest_year} < $1;
+    }
+  }
+
+  for (@{$era->{_usages} or []}) {
+    my $y = $era->{_first_year} + $_->[0]->[0] - 1;
+    $era->{known_oldest_year} = $y if
+        not defined $era->{known_oldest_year} or
+        $era->{known_oldest_year} > $y;
+    $era->{known_latest_year} = $y if
+        not defined $era->{known_latest_year} or
+        $era->{known_latest_year} < $y;
   }
 } # $era
 {

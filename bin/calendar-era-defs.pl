@@ -37,7 +37,8 @@ for (
      $_.'official_start_day', $_.'actual_start_day',
      $_.'end_year', $_.'end_day',
      $_.'official_end_day', $_.'actual_end_day',
-     'jp_'.$_.'era');
+     'jp_'.$_.'era',
+     'known_oldest_year', 'known_latest_year');
   } '', 'north_', 'south_']],
   ['local/era-defs-jp-wp-en.json' => ['wref_en']],
   ['local/era-yomi-list.json' => ['ja_readings', 'name_kana', 'name_kanas', 'name_latn']],
