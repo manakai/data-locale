@@ -23,6 +23,7 @@ for my $file_name (qw(
 }
 
 for (
+  # XXX
   ['local/era-defs-dates.json' => [map {
     ($_.'start_year', $_.'start_day',
      $_.'official_start_day', $_.'actual_start_day',
@@ -30,6 +31,13 @@ for (
      $_.'end_year', $_.'end_day',
      $_.'official_end_day', $_.'actual_end_day',
      $_.'end_kyuureki_day', $_.'end_gregorian_day', $_.'end_julian_day');
+  } '', 'north_', 'south_']],
+  ['local/era-date-list.json' => [map {
+    ($_.'start_year', $_.'start_day',
+     $_.'official_start_day', $_.'actual_start_day',
+     $_.'end_year', $_.'end_day',
+     $_.'official_end_day', $_.'actual_end_day',
+     'jp_'.$_.'era');
   } '', 'north_', 'south_']],
   ['local/era-defs-jp-wp-en.json' => ['wref_en']],
   ['local/era-yomi-list.json' => ['ja_readings', 'name_kana', 'name_kanas', 'name_latn']],
@@ -614,7 +622,7 @@ for my $data (values %{$Data->{eras}}) {
   $path->spew (perl2json_bytes_for_record $map) if @need_id;
 }
 
-$Data->{current_jp} = time < 1556636400 ? '平成' : '令和';
+$Data->{current_jp} = '令和';
 
 print perl2json_bytes_for_record $Data;
 

@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "1..222"
+echo "1..252"
 basedir=`dirname $0`/..
 jq=$basedir/local/bin/jq
 
@@ -80,9 +80,6 @@ test 65 '.eras["平成"].start_day.gregorian == "1989-01-08"'
 test 66 '.eras["平成"].start_day.gregorian_era == "平成1-01-08"'
 test 67 '.eras["平成"].official_start_day.gregorian == "1989-01-08"'
 test 68 '.eras["平成"].official_start_day.gregorian_era == "平成1-01-08"'
-#test 51 '.eras["平成"].end_year | not'
-#test 52 '.eras["平成"].end_day | not'
-#test 53 '.eras["平成"].actual_end_day | not'
 
 test 69 '.eras["大化"].start_year == 645'
 test 70 '.eras["大化"].start_day.julian == "0645-07-17"'
@@ -204,7 +201,7 @@ test 176 '.eras["元中"].north_start_year | not'
 test 177 '.eras["元中"].north_end_year | not'
 
 test 178 '.eras["明徳"].start_year | not'
-test 179 '.eras["明徳"].end_year | not'
+test 179 '.eras["明徳"].end_year == 1394'
 test 180 '.eras["明徳"].north_start_year == 1390'
 test 181 '.eras["明徳"].south_start_year == 1392'
 test 182 '.eras["明徳"].north_start_day.kyuureki == "1390-03-26"'
@@ -254,5 +251,41 @@ test 219 '.eras["昭和"].ja_readings[0].kana == "しょう わ"'
 test 220 '.eras["昭和"].ja_readings[0].kana_modern == "しょう わ"'
 test 221 '.eras["昭和"].ja_readings[0].kana_classic == "せう わ"'
 test 222 '.eras["昭和"].ja_readings[0].latin == "Showa"'
+
+test 223 '.eras["宝亀"].end_day.kyuureki == "0780-12-30"'
+test 224 '.eras["宝亀"].actual_end_day.kyuureki == "0781-01-01"'
+test 225 '.eras["宝亀"].end_year == 781'
+
+test 226 '.eras["嘉暦"].start_day.kyuureki == "1326-04-26"'
+test 227 '.eras["嘉暦"].end_day.kyuureki == "1329-08-28"'
+test 228 '.eras["嘉暦"].actual_end_day.kyuureki == "1329-08-29"'
+test 229 '.eras["嘉暦"].north_start_day | not'
+test 230 '.eras["嘉暦"].south_start_day | not'
+test 231 '.eras["嘉暦"].north_end_day | not'
+test 232 '.eras["嘉暦"].south_end_day | not'
+
+test 233 '.eras["正慶"].north_start_day.kyuureki == "1332-04-28"'
+test 234 '.eras["正慶"].north_end_day.kyuureki == "1333-05-24"'
+test 235 '.eras["正慶"].north_actual_end_day.kyuureki == "1333-05-25"'
+test 236 '.eras["正慶"].start_day | not'
+test 237 '.eras["正慶"].end_day | not'
+test 238 '.eras["正慶"].south_start_day | not'
+test 239 '.eras["正慶"].south_end_day | not'
+
+test 240 '.eras["明徳"].end_day.kyuureki == "1394-07-04"'
+
+test 241 '.eras["応永"].start_day.kyuureki == "1394-07-05"'
+test 242 '.eras["応永"].end_day.kyuureki == "1428-04-26"'
+test 243 '.eras["応永"].actual_end_day.kyuureki == "1428-04-27"'
+test 244 '.eras["応永"].north_start_day | not'
+test 245 '.eras["応永"].south_start_day | not'
+test 246 '.eras["応永"].north_end_day | not'
+test 247 '.eras["応永"].south_end_day | not'
+
+test 248 '.eras["元弘"].north_official_start_day.kyuureki == "1333-05-25"'
+test 249 '.eras["元弘"].north_official_start_day.kyuureki_era == "元弘3-05-25"'
+test 250 '.eras["元弘"].south_official_start_day.kyuureki == "1331-01-01"'
+test 251 '.eras["明徳"].north_official_start_day.kyuureki == "1390-01-01"'
+test 252 '.eras["明徳"].south_official_start_day.kyuureki == "1392-10'"'"'-05"'
 
 ## License: Public Domain.

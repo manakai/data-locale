@@ -393,10 +393,8 @@ The file contains a JSON object with following name/value pairs:
         |jp_north_era| flag is not set to the 正平 era.
 
         If the start or end is defined in terms of day, |start_year|
-        or |end_year| is set to the first or last year, i.e. the year
-        to which the start or end day belongs, in the "native"
-        calendar used at the start or end of the era (e.g. kyuureki
-        for older Japanese eras or Gregorian for newer Japanese eras).
+        or |end_year| is set to the year of the |start_day| or the
+        |actual_end_day| in the "native" calendar.
 
         If the start or end is defined in terms of year, |start_year|
         or |end_year| is set to that year.

@@ -402,3 +402,9 @@ for my $id (6090..6091) {
 print perl2json_bytes_for_record $Data;
 
 ## License: Public Domain.
+
+__END__
+
+XXX
+QEICHO (慶長)
+    <https://wiki.suikawiki.org/n/%E6%97%A5%E6%9C%AC%E3%81%AE%E5%85%83%E5%8F%B7#anchor-620>

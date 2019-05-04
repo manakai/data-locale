@@ -49,7 +49,7 @@ for (values %$json) {
   $data->{name} = $_->{name};
   $data->{name_ja} = $_->{name};
   $data->{key} = $_->{name};
-  for my $key (qw(wref_ja name_kana name_kanas)) {
+  for my $key (qw(wref_ja)) { # name_kana name_kanas
     if (defined $_->{$key}) {
       $data->{$key} = $_->{$key};
     }

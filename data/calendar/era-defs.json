@@ -3913,13 +3913,13 @@
          },
          "north_end_year" : 1334,
          "north_official_start_day" : {
-            "gregorian" : "1331-02-16",
-            "gregorian_era" : "元弘1-02-16",
-            "jd" : 2207243.5,
-            "julian" : "1331-02-08",
-            "julian_era" : "元弘1-02-08",
-            "kyuureki" : "1331-01-01",
-            "kyuureki_era" : "元弘1-01-01"
+            "gregorian" : "1333-07-15",
+            "gregorian_era" : "元弘3-07-15",
+            "jd" : 2208123.5,
+            "julian" : "1333-07-07",
+            "julian_era" : "元弘3-07-07",
+            "kyuureki" : "1333-05-25",
+            "kyuureki_era" : "元弘3-05-25"
          },
          "north_start_day" : {
             "gregorian" : "1333-07-15",
@@ -15480,7 +15480,7 @@
             "kyuureki" : "0780-12-30",
             "kyuureki_era" : "宝亀11-12-30"
          },
-         "end_year" : 780,
+         "end_year" : 781,
          "id" : 416,
          "ja_readings" : [
             {
@@ -28230,9 +28230,28 @@
          "wref_zh" : "明启"
       },
       "明徳" : {
+         "actual_end_day" : {
+            "gregorian" : "1394-08-10",
+            "gregorian_era" : "明徳5-08-10",
+            "jd" : 2230429.5,
+            "julian" : "1394-08-02",
+            "julian_era" : "明徳5-08-02",
+            "kyuureki" : "1394-07-05",
+            "kyuureki_era" : "明徳5-07-05"
+         },
          "code10" : 169,
          "code14" : 181,
          "code15" : 165,
+         "end_day" : {
+            "gregorian" : "1394-08-09",
+            "gregorian_era" : "明徳5-08-09",
+            "jd" : 2230428.5,
+            "julian" : "1394-08-01",
+            "julian_era" : "明徳5-08-01",
+            "kyuureki" : "1394-07-04",
+            "kyuureki_era" : "明徳5-07-04"
+         },
+         "end_year" : 1394,
          "id" : 870,
          "ja_readings" : [
             {
@@ -28318,13 +28337,13 @@
          },
          "south_end_year" : 1394,
          "south_official_start_day" : {
-            "gregorian" : "1390-01-25",
-            "gregorian_era" : "明徳1-01-25",
-            "jd" : 2228771.5,
-            "julian" : "1390-01-17",
-            "julian_era" : "明徳1-01-17",
-            "kyuureki" : "1390-01-01",
-            "kyuureki_era" : "明徳1-01-01"
+            "gregorian" : "1392-11-27",
+            "gregorian_era" : "明徳3-11-27",
+            "jd" : 2229808.5,
+            "julian" : "1392-11-19",
+            "julian_era" : "明徳3-11-19",
+            "kyuureki" : "1392-10'-05",
+            "kyuureki_era" : "明徳3-10'-05"
          },
          "south_start_day" : {
             "gregorian" : "1392-11-27",
