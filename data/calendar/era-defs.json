@@ -10292,13 +10292,13 @@
             "天平寶字" : 1
          },
          "official_start_day" : {
-            "gregorian" : "0757-01-29",
-            "gregorian_era" : "天平宝字1-01-29",
-            "jd" : 1997576.5,
-            "julian" : "0757-01-25",
-            "julian_era" : "天平宝字1-01-25",
-            "kyuureki" : "0757-01-01",
-            "kyuureki_era" : "天平宝字1-01-01"
+            "gregorian" : "0757-09-10",
+            "gregorian_era" : "天平宝字1-09-10",
+            "jd" : 1997800.5,
+            "julian" : "0757-09-06",
+            "julian_era" : "天平宝字1-09-06",
+            "kyuureki" : "0757-08-18",
+            "kyuureki_era" : "天平宝字1-08-18"
          },
          "offset" : 756,
          "short_name" : "天平宝字",
@@ -21464,13 +21464,13 @@
             "kyuureki_era" : "建徳1-01-01"
          },
          "south_start_day" : {
-            "gregorian" : "1370-08-24",
-            "gregorian_era" : "建徳1-08-24",
-            "jd" : 2221677.5,
-            "julian" : "1370-08-16",
-            "julian_era" : "建徳1-08-16",
-            "kyuureki" : "1370-07-24",
-            "kyuureki_era" : "建徳1-07-24"
+            "gregorian" : "1370-03-11",
+            "gregorian_era" : "建徳1-03-11",
+            "jd" : 2221511.5,
+            "julian" : "1370-03-03",
+            "julian_era" : "建徳1-03-03",
+            "kyuureki" : "1370-02-05",
+            "kyuureki_era" : "建徳1-02-05"
          },
          "south_start_year" : 1370,
          "wref_en" : "Kentoku",
@@ -30655,22 +30655,22 @@
          "offset" : 1345,
          "short_name" : "正平",
          "south_actual_end_day" : {
-            "gregorian" : "1370-08-24",
-            "gregorian_era" : "正平25-08-24",
-            "jd" : 2221677.5,
-            "julian" : "1370-08-16",
-            "julian_era" : "正平25-08-16",
-            "kyuureki" : "1370-07-24",
-            "kyuureki_era" : "正平25-07-24"
+            "gregorian" : "1370-03-11",
+            "gregorian_era" : "正平25-03-11",
+            "jd" : 2221511.5,
+            "julian" : "1370-03-03",
+            "julian_era" : "正平25-03-03",
+            "kyuureki" : "1370-02-05",
+            "kyuureki_era" : "正平25-02-05"
          },
          "south_end_day" : {
-            "gregorian" : "1370-08-23",
-            "gregorian_era" : "正平25-08-23",
-            "jd" : 2221676.5,
-            "julian" : "1370-08-15",
-            "julian_era" : "正平25-08-15",
-            "kyuureki" : "1370-07-23",
-            "kyuureki_era" : "正平25-07-23"
+            "gregorian" : "1370-03-10",
+            "gregorian_era" : "正平25-03-10",
+            "jd" : 2221510.5,
+            "julian" : "1370-03-02",
+            "julian_era" : "正平25-03-02",
+            "kyuureki" : "1370-02-04",
+            "kyuureki_era" : "正平25-02-04"
          },
          "south_end_year" : 1370,
          "south_official_start_day" : {
