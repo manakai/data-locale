@@ -127,6 +127,10 @@ The file contains a JSON object with following name/value pairs:
 
         The official English short description of the era, if any.
 
+      ends [events]
+
+        The end days of the era.
+
       id [integer]
 
         The ID, which is a positive integer, uniquely assigned to the
@@ -314,6 +318,10 @@ The file contains a JSON object with following name/value pairs:
 
             The URL of the source document.
 
+      starts [events]
+
+        The start days of the era.
+
       suikawiki [string?]
 
         The name of the SuikaWiki article on the era, if any.  It can
@@ -454,6 +462,107 @@ The file contains a JSON object with following name/value pairs:
     names, represented as JSON objects whose names are era names and
     values are JSON objects whose names are relevant era keys and
     values are [boolean] true values.
+
+* The |events| data type
+
+If the value's type is |events|, i.e. it is a |starts| or |ends|
+fields, its value is a JSON array of relevant events.  If there is no
+event, the value can be null or omitted.
+
+An event is a JSON object with following name/value pairs:
+
+  day
+
+    The day.  If an exact day is known, a [day] value.  Otherwise, a
+    JSON array of start and end [day] values representing a range.
+
+  group [string?]
+
+    The group or city the event is relevant, for relevant |type|.
+
+  next [string?]
+  prev [string?]
+
+    starts: The |prev| value is the key of the previous era before the
+    transition represented by the event.
+
+    ends: The |next| value is the key of the previous era after the
+    transition represented by the event.
+    
+  type [string]
+
+    The type of the event.
+
+      dayretroactivated
+
+        ends: The day before the establishment day of the |next| era.
+        Same as |end_day|.
+
+      decreed
+
+        starts: The day the era had been officially enforced in the
+        government (覆奏).
+
+        ends: The day the |next| era was decreed.
+
+      diplomatically-notified
+
+        starts: The day the era was sent to foreign governments.
+
+      established
+      established/possible
+      established/incorrect
+
+        starts: The day the era has been defined.
+
+        ends: The day the |next| era has been defined.
+
+        There is at most one |established| event.  The "/possible"
+        events represent other possible days, if the exact day of the
+        establishment is not recorded.  The "/incorrect" events
+        represent other days that had been considered as the
+        establishment day but then was known as incorrect.
+
+      proclaimed
+
+        starts: The day the era had been announced (but not yet used).
+
+      received
+
+        starts: The day the era had been received by |group|.
+
+        ends: The day the |next| era was received.
+
+      retroactivated
+
+        starts: The first day of the first calendar year of the era,
+        retroactively considered as the start of the era.
+
+        ends: The previous day of the |next| era's retroactivated day.
+
+      end-of-year
+
+        ends: The last day of the year the era was exited.
+
+      shogunate-enforced
+
+        starts: The day the era had been enforced (吉書始) in the
+        Shogunate (幕府).
+
+        ends: The day the |next| era was shogunate-enforced.
+
+      succeed
+
+        starts: The day of the succeed of the |prev| era.
+
+        ends: The day of the succession of the Emperor.
+
+      wartime
+
+        starts: The day the era was changed as part of irregular
+        wartime process by |group|.
+
+        ends: The day the |next| era was "wartime"-changed.
 
 * Comparison tables
 
