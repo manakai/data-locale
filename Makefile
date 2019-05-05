@@ -104,9 +104,6 @@ src/wp-jp-eras.json: bin/parse-wp-jp-eras.pl #local/wp-jp-eras-bare.json
 src/eras/wp-jp-era-sets.txt: bin/generate-wp-jp-era-sets.pl \
     src/wp-jp-eras.json
 	$(PERL) $< > $@
-src/eras/jp-emperor-era-sets.txt: bin/generate-jp-emperor-eras-sets.pl \
-    src/jp-emperor-eras.txt
-	$(PERL) $< > $@
 local/era-defs-jp.json: bin/generate-era-defs-jp.pl \
     src/wp-jp-eras.json data/calendar/kyuureki-map.txt
 	$(PERL) $< > $@

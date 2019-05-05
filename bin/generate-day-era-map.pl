@@ -30,8 +30,7 @@ my $day = $min_day;
 while ($day <= $max_day) {
   my ($year, $m, $d) = jd2g_ymd $day;
   while (@$points and
-         (($points->[0]->[0] eq 'jd' and $points->[0]->[1] <= $day) or
-          ($points->[0]->[0] eq 'y' and $points->[0]->[1] <= $year))) {
+         (($points->[0]->[0] eq 'jd' and $points->[0]->[1] <= $day))) {
     $point = shift @$points;
   }
   my $g;

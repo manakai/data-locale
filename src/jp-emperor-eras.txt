@@ -25,7 +25,7 @@ BC29 垂仁天皇 すいにんてんのう Suinin-tennō
 488 仁賢天皇 にんけんてんのう Ninken-tennō
 499 武烈天皇 ぶれつてんのう Buretsu-tennō
 507 継体天皇 けいたいてんのう Keitai-tennō
-532 安閑天皇 あんかんてんのう Ankan-tennō
+534 安閑天皇 あんかんてんのう Ankan-tennō
 536 宣化天皇 せんかてんのう Senka-tennō
 540 欽明天皇 きんめいてんのう Kinmei-tennō
 572 敏達天皇 びだつてんのう Bidatsu-tennō
