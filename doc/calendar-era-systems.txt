@@ -20,8 +20,8 @@ The file contains a JSON object with following name/value pair:
         The items of the array represent the points, as JSON arrays
         with following items:
 
-          0  The type of the point, either |jd| (Julian Day) or |y| (Year).
-          1  The value of the point, a JD day number or an AD number.
+          0  The type of the point, must be |jd| (Julian Day).
+          1  The value of the point, a JD day number.
           2  The key of the era of the point.
 
 * Era systems

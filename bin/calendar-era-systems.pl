@@ -109,10 +109,6 @@ for my $path ($root_path->child ('src/eras')->children (qr{\.txt$})) {
       push @{$Vars->{$var_name} ||= []}, ['jd', (g2jd rk2g $1), $2];
     } elsif (defined $def_name and /^rk:([0-9'-]+)\s+([\w()]+)$/) {
       push @{$Defs->{$def_name} ||= []}, ['jd', (g2jd rk2g $1), $2];
-    } elsif (defined $var_name and /^y:(-?[0-9]+)\s+([\w()]+)$/) {
-      push @{$Vars->{$var_name} ||= []}, ['y', 0+$1, $2];
-    } elsif (defined $def_name and /^y:(-?[0-9]+)\s+([\w()]+)$/) {
-      push @{$Defs->{$def_name} ||= []}, ['y', 0+$1, $2];
     } elsif (defined $var_name and /^\+\$([\w-]+)$/) {
       push @{$Vars->{$var_name} ||= []}, $1;
     } elsif (defined $def_name and /^\+\$([\w-]+)$/) {

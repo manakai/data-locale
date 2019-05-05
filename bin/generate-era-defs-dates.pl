@@ -196,29 +196,6 @@ for my $point (@{$systems->{systems}->{$system_name}->{points}}) {
       $current_era_data = undef;
       $current_era_def = undef;
     }
-  } elsif ($point->[0] eq 'y') {
-    if (defined $current_era_data) {
-      if ($current_era_data->{start_year} < $point->[1] - 1) {
-        $current_era_data->{end_year} = $point->[1] - 1;
-      } else {
-        $current_era_data->{end_year} = $current_era_data->{start_year};
-      }
-      $current_era_data->{end_kyuureki_day} = day g2jd (k2g ymd2string $current_era_data->{end_year} + 1, 1, 1) - 1, $current_era_def;
-      $current_era_data->{end_gregorian_day} = day g2jd (ymd2string $current_era_data->{end_year} + 1, 1, 1) - 1, $current_era_def;
-      $current_era_data->{end_julian_day} = day g2jd (&ymd2string (j_ymd2g_ymd $current_era_data->{end_year} + 1, 1, 1)) - 1, $current_era_def;
-    }
-    if (defined $point->[2]) {
-      $current_era_data = $Data->{eras}->{$point->[2]} ||= {key => $point->[2]};
-      $current_era_def = $defs->{eras}->{$current_era_data->{key}} ||
-                         $defs_e->{eras}->{$current_era_data->{key}}
-              || die "Era |$current_era_data->{key}| not defined";
-      $current_era_data->{start_year} = $year = $point->[1];
-      $current_era_data->{start_kyuureki_day} = day g2jd (k2g ymd2string $current_era_data->{start_year}, 1, 1), $current_era_def;
-      $current_era_data->{start_gregorian_day} = day g2jd (ymd2string $current_era_data->{start_year}, 1, 1), $current_era_def;
-      $current_era_data->{start_julian_day} = day g2jd (&ymd2string (j_ymd2g_ymd $current_era_data->{start_year}, 1, 1)), $current_era_def;
-    } else {
-      $current_era_data = undef;
-    }
   } else {
     die "Unknown point type |$point->[0]|";
   }

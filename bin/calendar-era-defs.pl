@@ -27,10 +27,8 @@ for (
   ['local/era-defs-dates.json' => [map {
     ($_.'start_year', $_.'start_day',
      $_.'official_start_day', $_.'actual_start_day',
-     $_.'start_kyuureki_day', $_.'start_gregorian_day', $_.'start_julian_day',
      $_.'end_year', $_.'end_day',
-     $_.'official_end_day', $_.'actual_end_day',
-     $_.'end_kyuureki_day', $_.'end_gregorian_day', $_.'end_julian_day');
+     $_.'official_end_day', $_.'actual_end_day');
   } '', 'north_', 'south_']],
   ['local/era-date-list.json' => [map {
     ($_.'start_year', $_.'start_day',
