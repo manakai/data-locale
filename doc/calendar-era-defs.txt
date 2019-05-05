@@ -534,10 +534,6 @@ An event is a JSON object with following name/value pairs:
 
         ends: The previous day of the |next| era's retroactivated day.
 
-      end-of-year
-
-        ends: The last day of the year the era was exited.
-
       shogunate-enforced
 
         starts: The day the era had been enforced (吉書始) in the
@@ -557,6 +553,14 @@ An event is a JSON object with following name/value pairs:
         wartime process by |group|.
 
         ends: The day the |next| era was "wartime"-changed.
+
+      year-end
+
+        ends: The last day of the year the era was exited.
+
+      year-start
+
+        starts: The first day of the year the era was started.
 
 * Comparison tables
 

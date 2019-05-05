@@ -163,7 +163,7 @@ local/era-date-list.json: bin/era-date-list.pl src/era-start-315.txt
 
 data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     local/era-defs-jp.json local/era-defs-jp-emperor.json \
-    local/era-defs-dates.json src/char-variants.txt \
+    src/char-variants.txt \
     local/era-defs-jp-wp-en.json src/era-data.txt \
     src/jp-private-eras.txt src/era-variants.txt \
     src/wp-cn-eras.json src/era-china-dups.txt local/number-values.json \

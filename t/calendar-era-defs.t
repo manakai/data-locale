@@ -212,7 +212,7 @@ test 185 '.eras["明徳"].south_end_day.kyuureki == "1394-07-04"'
 test 186 '.eras["持統天皇"].end_day.kyuureki == "0697-07-29"'
 test 187 '.eras["文武天皇"].start_day.kyuureki == "0697-08-01"'
 test 188 '.eras["持統天皇"].official_end_day | not'
-test 189 '.eras["文武天皇"].official_start_day | not'
+test 189 '.eras["文武天皇"].official_start_day.kyuureki == "0697-01-01"'
 
 test 190 '.eras["大化"].code14 == 1'
 test 191 '.eras["白鳳"].code14 | not'

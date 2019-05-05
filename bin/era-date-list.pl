@@ -211,20 +211,28 @@ sub resolve_range ($$) {
       $prev->{_next_key}->{''} = $this->{_key};
     }
     
-    $prev = $this->{_no_next} ? undef : $this;
+    $prev = $this;
   }; # $end_this
   
   my $path = $RootPath->child ('src/era-start-315.txt');
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
       #
-    } elsif (/^([0-9]+)-([0-9]+)('|)-([0-9]+)\s+(\w+)$/) {
+    } elsif (/^(-?[0-9]+)-([0-9]+)('|)-([0-9]+)\s+(\w+)$/) {
       my ($y, $m, $lm, $d, $key) = ($1, $2, $3, $4, $5);
       my $g = jp2g ($y, $m, $lm, $d);
       $end_this->();
       $this = {_key => $key, _first_year => $y, _jd => g2jd $g};
+      use utf8;
+      if ($this->{_key} =~ /(?:天皇|皇后摂政)$/) {
+        $this->{_emperor} = 1;
+        unless ($this->{_key} eq '持統天皇' or $this->{_key} eq '文武天皇') {
+          $this->{_start_at_day_boundary} = 1;
+          $this->{_not_renaming_year} = 1;
+        }
+      }
     } elsif (s/^\s+//) {
-      if (/^(not renaming year|start at day boundary|no next)$/) {
+      if (/^(not renaming year|start at day boundary)$/) {
         my $k = $1;
         $k =~ s/ /_/g;
         $this->{'_'.$k} = 1;
@@ -277,7 +285,9 @@ for my $era (values %{$Data->{eras}}) {
 
 my @era = values %{$Data->{eras}};
 for my $era (@era) {
-  if (not $era->{_next_key}->{north_} and not $era->{_next_key}->{south_}) {
+  if ($era->{_emperor}) {
+    $era->{jp_emperor_era} = 1;
+  } elsif (not $era->{_next_key}->{north_} and not $era->{_next_key}->{south_}) {
     $era->{jp_era} = 1;
   } elsif ($era->{_next_key}->{north_}) {
     $era->{jp_north_era} = 1;
@@ -305,7 +315,9 @@ for my $era (@era) {
     }
     use utf8;
     if (($era->{_key} eq '元弘' and $pfx eq 'south_') or
-        ($era->{'jp_'.$pfx.'era'} and $era->{_key} ne '元弘')) {
+        ($era->{'jp_'.$pfx.'era'} and $era->{_key} ne '元弘') or
+        $era->{_key} eq '持統天皇' or
+        $era->{_key} eq '文武天皇') {
       if (grep {
         defined $_->[2]->{label} and $_->[2]->{label} eq '公布';
       } @{$era->{_start_dates}}) {
@@ -320,36 +332,47 @@ for my $era (@era) {
       } else {
         my $v = {day => sday $jd, type => 'established',
                  prev => ($era->{_prev_key}->{$pfx} // {
+                   '持統天皇' => '朱鳥',
                    '元徳' => '嘉暦',
-                   # XXX
-                   '大化' => '皇極天皇',
-                   '朱鳥' => '天武天皇',
-                   '大宝' => '文武天皇',
                  }->{$era->{_key}})};
         push @{$era->{starts} ||= []}, $v;
-        $v = {%$v};
-        my $prev_era = $Data->{eras}->{delete $v->{prev}};
-        $v->{next} = $era->{_key};
-        push @{$prev_era->{ends} ||= []}, $v;
-        $v = {%$v};
-        $v->{type} = 'dayretroactivated';
-        $v->{day} = sday $jd - 1;
-        push @{$prev_era->{ends} ||= []}, $v;
+        unless ($era->{_key} eq '持統天皇') {
+          $v = {%$v};
+          my $prev_era = $Data->{eras}->{delete $v->{prev}};
+          $v->{next} = $era->{_key};
+          push @{$prev_era->{ends} ||= []}, $v;
+          $v = {%$v};
+          $v->{type} = 'dayretroactivated';
+          $v->{day} = sday $jd - 1;
+          push @{$prev_era->{ends} ||= []}, $v;
+        }
       }
-      if (defined $jd0) {
+      if (defined $jd0 and not $era->{_key} eq '持統天皇') {
         my $v = {day => sday $jd0, type => 'retroactivated',
                  prev => ($era->{_prev_key}->{$pfx} // {
                    '元徳' => '嘉暦',
-                   # XXX
-                   '大化' => '皇極天皇',
-                   '朱鳥' => '天武天皇',
-                   '大宝' => '文武天皇',
                  }->{$era->{_key}})};
         push @{$era->{starts} ||= []}, $v;
         $v = {%$v};
         my $prev_era = $Data->{eras}->{delete $v->{prev}};
         $v->{next} = $era->{_key};
         $v->{day} = sday $jd0 - 1;
+        push @{$prev_era->{ends} ||= []}, $v;
+      }
+    }
+    if ($era->{jp_emperor_era} and
+        not $era->{_key} eq '持統天皇' and
+        not $era->{_key} eq '文武天皇') {
+      my $jd = $era->{_jds}->{$pfx} // $era->{_jd};
+      my $v = {day => sday $jd, type => 'year-start',
+               prev => $era->{_prev_key}->{$pfx}};
+      push @{$era->{starts} ||= []}, $v;
+      if (defined $v->{prev}) {
+        $v = {%$v};
+        my $prev_era = $Data->{eras}->{delete $v->{prev}};
+        $v->{next} = $era->{_key};
+        $v->{day} = sday $jd-1;
+        $v->{type} = 'year-end';
         push @{$prev_era->{ends} ||= []}, $v;
       }
     }
@@ -438,7 +461,8 @@ for my $era (@era) {
              $_->[2]->{label} eq '関東州' or
              $_->[2]->{label} eq '満鉄附属地' or
              $_->[2]->{label} eq '南樺太' or
-             $_->[2]->{label} eq '千島') {
+             $_->[2]->{label} eq '千島' or
+             $_->[2]->{label} eq '膠州湾') {
       $v->{type} = 'wartime';
       $v->{group} = $_->[2]->{label};
       die $era->{_key} unless defined $v->{prev};
@@ -473,10 +497,9 @@ for my $era (@era) {
       die $era->{_key};
     } elsif ($_->[2]->{label} eq '崩御') {
       $v->{type} = 'succeed';
-      $v->{group} = $_->[2]->{label};
     } elsif ($_->[2]->{label} eq '年末') {
-      $v->{type} = 'end-of-year';
-      $v->{group} = $_->[2]->{label};
+      $v->{type} = 'year-end';
+      $no_reverse = 1;
     } elsif ($_->[2]->{label} eq '鎌倉') {
       $v->{type} = 'received';
       $v->{group} = $_->[2]->{label};
@@ -494,7 +517,8 @@ for my $era (@era) {
              $_->[2]->{label} eq '関東州' or
              $_->[2]->{label} eq '北樺太' or
              $_->[2]->{label} eq '南樺太' or
-             $_->[2]->{label} eq '千島') {
+             $_->[2]->{label} eq '千島' or
+             $_->[2]->{label} eq '膠州湾') {
       $v->{type} = 'wartime';
       $v->{group} = $_->[2]->{label};
       die $era->{_key} unless defined $v->{next};
@@ -549,7 +573,7 @@ for my $era (values %{$Data->{eras}}) {
       if defined $era->{ends};
 
   my @enforce = grep { $_->{type} eq 'established' or $_->{type} eq 'enforced' } @{$era->{starts} or []};
-  die $era->{_key} unless @enforce == 1;
+  die $era->{_key} unless @enforce == 1 or $era->{jp_emperor_era};
   my @retro = grep { $_->{type} eq 'retroactivated' } @{$era->{starts} or []};
   die $era->{_key} unless @retro <= 1;
 }

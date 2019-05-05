@@ -23,19 +23,12 @@ for my $file_name (qw(
 }
 
 for (
-  # XXX
-  ['local/era-defs-dates.json' => [map {
-    ($_.'start_year', $_.'start_day',
-     $_.'official_start_day', $_.'actual_start_day',
-     $_.'end_year', $_.'end_day',
-     $_.'official_end_day', $_.'actual_end_day');
-  } '', 'north_', 'south_']],
   ['local/era-date-list.json' => [map {
     ($_.'start_year', $_.'start_day',
      $_.'official_start_day', $_.'actual_start_day',
      $_.'end_year', $_.'end_day',
      $_.'official_end_day', $_.'actual_end_day',
-     'jp_'.$_.'era',
+     'jp_'.$_.'era', 'jp_emperor_era',
      'starts', 'ends',
      'known_oldest_year', 'known_latest_year');
   } '', 'north_', 'south_']],

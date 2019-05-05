@@ -2950,13 +2950,13 @@
       },
       "仁徳天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0400-02-12",
-            "gregorian_era" : "仁徳天皇88-02-12",
-            "jd" : 1867198.5,
-            "julian" : "0400-02-11",
-            "julian_era" : "仁徳天皇88-02-11",
-            "kyuureki" : "0400-01-01",
-            "kyuureki_era" : "仁徳天皇88-01-01"
+            "gregorian" : "0400-02-11",
+            "gregorian_era" : "仁徳天皇88-02-11",
+            "jd" : 1867197.5,
+            "julian" : "0400-02-10",
+            "julian_era" : "仁徳天皇88-02-10",
+            "kyuureki" : "0399-12-29",
+            "kyuureki_era" : "仁徳天皇87-12-29"
          },
          "end_day" : {
             "gregorian" : "0400-02-11",
@@ -2968,9 +2968,22 @@
             "kyuureki_era" : "仁徳天皇87-12-29"
          },
          "end_year" : 399,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0400-02-11",
+                  "jd" : 1867197.5,
+                  "kyuureki" : "0399-12-29"
+               },
+               "next" : "履中天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 192,
          "jp_emperor_era" : 1,
          "key" : "仁徳天皇",
+         "known_latest_year" : 400,
+         "known_oldest_year" : 313,
          "name" : "仁徳天皇",
          "name_ja" : "仁徳天皇",
          "name_kana" : "にんとくてんのう",
@@ -2984,6 +2997,15 @@
             "仁德" : 1,
             "仁德天皇" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "0313-02-13",
+            "gregorian_era" : "仁徳天皇1-02-13",
+            "jd" : 1835423.5,
+            "julian" : "0313-02-12",
+            "julian_era" : "仁徳天皇1-02-12",
+            "kyuureki" : "0313-01-01",
+            "kyuureki_era" : "仁徳天皇1-01-01"
+         },
          "offset" : 312,
          "short_name" : "仁徳",
          "start_day" : {
@@ -2996,6 +3018,17 @@
             "kyuureki_era" : "仁徳天皇1-01-01"
          },
          "start_year" : 313,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0313-02-13",
+                  "jd" : 1835423.5,
+                  "kyuureki" : "0313-01-01"
+               },
+               "prev" : "応神天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Nintoku",
          "wref_ja" : "仁徳天皇"
       },
@@ -3163,13 +3196,13 @@
       },
       "仁賢天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0499-01-29",
-            "gregorian_era" : "仁賢天皇12-01-29",
-            "jd" : 1903344.5,
-            "julian" : "0499-01-28",
-            "julian_era" : "仁賢天皇12-01-28",
-            "kyuureki" : "0499-01-01",
-            "kyuureki_era" : "仁賢天皇12-01-01"
+            "gregorian" : "0499-01-28",
+            "gregorian_era" : "仁賢天皇12-01-28",
+            "jd" : 1903343.5,
+            "julian" : "0499-01-27",
+            "julian_era" : "仁賢天皇12-01-27",
+            "kyuureki" : "0498-12-30",
+            "kyuureki_era" : "仁賢天皇11-12-30"
          },
          "end_day" : {
             "gregorian" : "0499-01-28",
@@ -3181,9 +3214,22 @@
             "kyuureki_era" : "仁賢天皇11-12-30"
          },
          "end_year" : 498,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0499-01-28",
+                  "jd" : 1903343.5,
+                  "kyuureki" : "0498-12-30"
+               },
+               "next" : "武烈天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 740,
          "jp_emperor_era" : 1,
          "key" : "仁賢天皇",
+         "known_latest_year" : 499,
+         "known_oldest_year" : 488,
          "name" : "仁賢天皇",
          "name_ja" : "仁賢天皇",
          "name_kana" : "にんけんてんのう",
@@ -3197,6 +3243,15 @@
             "仁贤" : 1,
             "仁贤天皇" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "0488-01-30",
+            "gregorian_era" : "仁賢天皇1-01-30",
+            "jd" : 1899327.5,
+            "julian" : "0488-01-29",
+            "julian_era" : "仁賢天皇1-01-29",
+            "kyuureki" : "0488-01-01",
+            "kyuureki_era" : "仁賢天皇1-01-01"
+         },
          "offset" : 487,
          "short_name" : "仁賢",
          "start_day" : {
@@ -3209,6 +3264,17 @@
             "kyuureki_era" : "仁賢天皇1-01-01"
          },
          "start_year" : 488,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0488-01-30",
+                  "jd" : 1899327.5,
+                  "kyuureki" : "0488-01-01"
+               },
+               "prev" : "顕宗天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Ninken",
          "wref_ja" : "仁賢天皇"
       },
@@ -3324,13 +3390,13 @@
       },
       "仲哀天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0201-01-22",
-            "gregorian_era" : "仲哀天皇10-01-22",
-            "jd" : 1794494.5,
-            "julian" : "0201-01-22",
-            "julian_era" : "仲哀天皇10-01-22",
-            "kyuureki" : "0201-01-01",
-            "kyuureki_era" : "仲哀天皇10-01-01"
+            "gregorian" : "0201-01-21",
+            "gregorian_era" : "仲哀天皇10-01-21",
+            "jd" : 1794493.5,
+            "julian" : "0201-01-21",
+            "julian_era" : "仲哀天皇10-01-21",
+            "kyuureki" : "0200-12-30",
+            "kyuureki_era" : "仲哀天皇9-12-30"
          },
          "end_day" : {
             "gregorian" : "0201-01-21",
@@ -3342,9 +3408,22 @@
             "kyuureki_era" : "仲哀天皇9-12-30"
          },
          "end_year" : 200,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0201-01-21",
+                  "jd" : 1794493.5,
+                  "kyuureki" : "0200-12-30"
+               },
+               "next" : "神功皇后摂政",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1209,
          "jp_emperor_era" : 1,
          "key" : "仲哀天皇",
+         "known_latest_year" : 201,
+         "known_oldest_year" : 192,
          "name" : "仲哀天皇",
          "name_ja" : "仲哀天皇",
          "name_kana" : "ちゅうあいてんのう",
@@ -3355,6 +3434,15 @@
          "names" : {
             "仲哀" : 1,
             "仲哀天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0192-01-31",
+            "gregorian_era" : "仲哀天皇1-01-31",
+            "jd" : 1791216.5,
+            "julian" : "0192-02-01",
+            "julian_era" : "仲哀天皇1-02-01",
+            "kyuureki" : "0192-01-01",
+            "kyuureki_era" : "仲哀天皇1-01-01"
          },
          "offset" : 191,
          "short_name" : "仲哀",
@@ -3368,6 +3456,17 @@
             "kyuureki_era" : "仲哀天皇1-01-01"
          },
          "start_year" : 192,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0192-01-31",
+                  "jd" : 1791216.5,
+                  "kyuureki" : "0192-01-01"
+               },
+               "prev" : "成務天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Chūai",
          "wref_ja" : "仲哀天皇"
       },
@@ -3989,13 +4088,13 @@
       },
       "允恭天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0454-02-15",
-            "gregorian_era" : "允恭天皇43-02-15",
-            "jd" : 1886925.5,
-            "julian" : "0454-02-14",
-            "julian_era" : "允恭天皇43-02-14",
-            "kyuureki" : "0454-01-01",
-            "kyuureki_era" : "允恭天皇43-01-01"
+            "gregorian" : "0454-02-14",
+            "gregorian_era" : "允恭天皇43-02-14",
+            "jd" : 1886924.5,
+            "julian" : "0454-02-13",
+            "julian_era" : "允恭天皇43-02-13",
+            "kyuureki" : "0453-12-30",
+            "kyuureki_era" : "允恭天皇42-12-30"
          },
          "end_day" : {
             "gregorian" : "0454-02-14",
@@ -4007,9 +4106,22 @@
             "kyuureki_era" : "允恭天皇42-12-30"
          },
          "end_year" : 453,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0454-02-14",
+                  "jd" : 1886924.5,
+                  "kyuureki" : "0453-12-30"
+               },
+               "next" : "安康天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 430,
          "jp_emperor_era" : 1,
          "key" : "允恭天皇",
+         "known_latest_year" : 454,
+         "known_oldest_year" : 412,
          "name" : "允恭天皇",
          "name_ja" : "允恭天皇",
          "name_kana" : "いんぎょうてんのう",
@@ -4020,6 +4132,15 @@
          "names" : {
             "允恭" : 1,
             "允恭天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0412-01-31",
+            "gregorian_era" : "允恭天皇1-01-31",
+            "jd" : 1871569.5,
+            "julian" : "0412-01-30",
+            "julian_era" : "允恭天皇1-01-30",
+            "kyuureki" : "0412-01-01",
+            "kyuureki_era" : "允恭天皇1-01-01"
          },
          "offset" : 411,
          "short_name" : "允恭",
@@ -4033,6 +4154,17 @@
             "kyuureki_era" : "允恭天皇1-01-01"
          },
          "start_year" : 412,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0412-01-31",
+                  "jd" : 1871569.5,
+                  "kyuureki" : "0412-01-01"
+               },
+               "prev" : "反正天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Ingyō",
          "wref_ja" : "允恭天皇"
       },
@@ -7445,13 +7577,13 @@
       },
       "反正天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0412-01-31",
-            "gregorian_era" : "反正天皇7-01-31",
-            "jd" : 1871569.5,
-            "julian" : "0412-01-30",
-            "julian_era" : "反正天皇7-01-30",
-            "kyuureki" : "0412-01-01",
-            "kyuureki_era" : "反正天皇7-01-01"
+            "gregorian" : "0412-01-30",
+            "gregorian_era" : "反正天皇7-01-30",
+            "jd" : 1871568.5,
+            "julian" : "0412-01-29",
+            "julian_era" : "反正天皇7-01-29",
+            "kyuureki" : "0411-12-30",
+            "kyuureki_era" : "反正天皇6-12-30"
          },
          "end_day" : {
             "gregorian" : "0412-01-30",
@@ -7463,9 +7595,22 @@
             "kyuureki_era" : "反正天皇6-12-30"
          },
          "end_year" : 411,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0412-01-30",
+                  "jd" : 1871568.5,
+                  "kyuureki" : "0411-12-30"
+               },
+               "next" : "允恭天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1461,
          "jp_emperor_era" : 1,
          "key" : "反正天皇",
+         "known_latest_year" : 412,
+         "known_oldest_year" : 406,
          "name" : "反正天皇",
          "name_ja" : "反正天皇",
          "name_kana" : "はんぜいてんのう",
@@ -7476,6 +7621,15 @@
          "names" : {
             "反正" : 1,
             "反正天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0406-02-05",
+            "gregorian_era" : "反正天皇1-02-05",
+            "jd" : 1869383.5,
+            "julian" : "0406-02-04",
+            "julian_era" : "反正天皇1-02-04",
+            "kyuureki" : "0406-01-01",
+            "kyuureki_era" : "反正天皇1-01-01"
          },
          "offset" : 405,
          "short_name" : "反正",
@@ -7489,6 +7643,17 @@
             "kyuureki_era" : "反正天皇1-01-01"
          },
          "start_year" : 406,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0406-02-05",
+                  "jd" : 1869383.5,
+                  "kyuureki" : "0406-01-01"
+               },
+               "prev" : "履中天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Hanzei",
          "wref_ja" : "反正天皇"
       },
@@ -9902,13 +10067,13 @@
       },
       "垂仁天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0071-02-16",
-            "gregorian_era" : "垂仁天皇100-02-16",
-            "jd" : 1747038.5,
-            "julian" : "0071-02-18",
-            "julian_era" : "垂仁天皇100-02-18",
-            "kyuureki" : "0071-01-01",
-            "kyuureki_era" : "垂仁天皇100-01-01"
+            "gregorian" : "0071-02-15",
+            "gregorian_era" : "垂仁天皇100-02-15",
+            "jd" : 1747037.5,
+            "julian" : "0071-02-17",
+            "julian_era" : "垂仁天皇100-02-17",
+            "kyuureki" : "0070-12-29",
+            "kyuureki_era" : "垂仁天皇99-12-29"
          },
          "end_day" : {
             "gregorian" : "0071-02-15",
@@ -9920,9 +10085,22 @@
             "kyuureki_era" : "垂仁天皇99-12-29"
          },
          "end_year" : 70,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0071-02-15",
+                  "jd" : 1747037.5,
+                  "kyuureki" : "0070-12-29"
+               },
+               "next" : "景行天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 239,
          "jp_emperor_era" : 1,
          "key" : "垂仁天皇",
+         "known_latest_year" : 71,
+         "known_oldest_year" : -28,
          "name" : "垂仁天皇",
          "name_ja" : "垂仁天皇",
          "name_kana" : "すいにんてんのう",
@@ -9933,6 +10111,15 @@
          "names" : {
             "垂仁" : 1,
             "垂仁天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "-0028-02-01",
+            "gregorian_era" : "垂仁天皇1-02-01",
+            "jd" : 1710863.5,
+            "julian" : "-0028-02-03",
+            "julian_era" : "垂仁天皇1-02-03",
+            "kyuureki" : "-0028-01-01",
+            "kyuureki_era" : "垂仁天皇1-01-01"
          },
          "offset" : -29,
          "short_name" : "垂仁",
@@ -9946,6 +10133,17 @@
             "kyuureki_era" : "垂仁天皇1-01-01"
          },
          "start_year" : -28,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "-0028-02-01",
+                  "jd" : 1710863.5,
+                  "kyuureki" : "-0028-01-01"
+               },
+               "prev" : "崇神天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Suinin",
          "wref_ja" : "垂仁天皇"
       },
@@ -11105,6 +11303,16 @@
          "ends" : [
             {
                "day" : {
+                  "gregorian" : "1922-06-02",
+                  "jd" : 2423207.5,
+                  "kyuureki" : "1922-05-07"
+               },
+               "group" : "膠州湾",
+               "next" : "民國",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
                   "gregorian" : "1926-12-24",
                   "jd" : 2424873.5,
                   "kyuureki" : "1926-11-20"
@@ -11239,6 +11447,16 @@
                "type" : "established/incorrect"
             },
             {
+               "day" : {
+                  "gregorian" : "1914-11-07",
+                  "jd" : 2420443.5,
+                  "kyuureki" : "1914-09-20"
+               },
+               "group" : "膠州湾",
+               "prev" : "AD",
+               "type" : "wartime"
+            },
+            {
                "day" : [
                   {
                      "gregorian" : "1914-12-01",
@@ -11249,6 +11467,40 @@
                      "gregorian" : "1914-12-31",
                      "jd" : 2420497.5,
                      "kyuureki" : "1914-11-15"
+                  }
+               ],
+               "group" : "南洋群島",
+               "prev" : "AD",
+               "type" : "wartime"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1919-01-01",
+                     "jd" : 2421959.5,
+                     "kyuureki" : "1918-11-29"
+                  },
+                  {
+                     "gregorian" : "1919-12-31",
+                     "jd" : 2422323.5,
+                     "kyuureki" : "1919-11-10"
+                  }
+               ],
+               "group" : "膠州湾",
+               "prev" : "AD",
+               "type" : "wartime"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1919-01-01",
+                     "jd" : 2421959.5,
+                     "kyuureki" : "1918-11-29"
+                  },
+                  {
+                     "gregorian" : "1919-12-31",
+                     "jd" : 2422323.5,
+                     "kyuureki" : "1919-11-10"
                   }
                ],
                "group" : "南洋群島",
@@ -15550,13 +15802,13 @@
       },
       "天智天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0672-02-07",
-            "gregorian_era" : "天智天皇11-02-07",
-            "jd" : 1966539.5,
-            "julian" : "0672-02-04",
-            "julian_era" : "天智天皇11-02-04",
-            "kyuureki" : "0672-01-01",
-            "kyuureki_era" : "天智天皇11-01-01"
+            "gregorian" : "0672-02-06",
+            "gregorian_era" : "天智天皇11-02-06",
+            "jd" : 1966538.5,
+            "julian" : "0672-02-03",
+            "julian_era" : "天智天皇11-02-03",
+            "kyuureki" : "0671-12-30",
+            "kyuureki_era" : "天智天皇10-12-30"
          },
          "end_day" : {
             "gregorian" : "0672-02-06",
@@ -15568,9 +15820,22 @@
             "kyuureki_era" : "天智天皇10-12-30"
          },
          "end_year" : 671,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0672-02-06",
+                  "jd" : 1966538.5,
+                  "kyuureki" : "0671-12-30"
+               },
+               "next" : "天武天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1100,
          "jp_emperor_era" : 1,
          "key" : "天智天皇",
+         "known_latest_year" : 672,
+         "known_oldest_year" : 662,
          "name" : "天智天皇",
          "name_ja" : "天智天皇",
          "name_kana" : "てんじてんのう",
@@ -15581,6 +15846,15 @@
          "names" : {
             "天智" : 1,
             "天智天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0662-01-28",
+            "gregorian_era" : "天智天皇1-01-28",
+            "jd" : 1962877.5,
+            "julian" : "0662-01-25",
+            "julian_era" : "天智天皇1-01-25",
+            "kyuureki" : "0662-01-01",
+            "kyuureki_era" : "天智天皇1-01-01"
          },
          "offset" : 661,
          "short_name" : "天智",
@@ -15594,6 +15868,17 @@
             "kyuureki_era" : "天智天皇1-01-01"
          },
          "start_year" : 662,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0662-01-28",
+                  "jd" : 1962877.5,
+                  "kyuureki" : "0662-01-01"
+               },
+               "prev" : "斉明天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Tenji",
          "wref_ja" : "天智天皇"
       },
@@ -15985,9 +16270,49 @@
             "kyuureki_era" : "天武天皇15-07-19"
          },
          "end_year" : 686,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0686-02-01",
+                  "jd" : 1971647.5,
+                  "kyuureki" : "0685-12-30"
+               },
+               "next" : "朱鳥",
+               "type" : "retroactivated"
+            },
+            {
+               "day" : {
+                  "gregorian" : "0686-02-02",
+                  "jd" : 1971648.5,
+                  "kyuureki" : "0686-01-01"
+               },
+               "next" : "朱鳥",
+               "type" : "established/incorrect"
+            },
+            {
+               "day" : {
+                  "gregorian" : "0686-08-16",
+                  "jd" : 1971843.5,
+                  "kyuureki" : "0686-07-19"
+               },
+               "next" : "朱鳥",
+               "type" : "dayretroactivated"
+            },
+            {
+               "day" : {
+                  "gregorian" : "0686-08-17",
+                  "jd" : 1971844.5,
+                  "kyuureki" : "0686-07-20"
+               },
+               "next" : "朱鳥",
+               "type" : "established"
+            }
+         ],
          "id" : 168,
          "jp_emperor_era" : 1,
          "key" : "天武天皇",
+         "known_latest_year" : 686,
+         "known_oldest_year" : 672,
          "name" : "天武天皇",
          "name_ja" : "天武天皇",
          "name_kana" : "てんむてんのう",
@@ -15998,6 +16323,15 @@
          "names" : {
             "天武" : 1,
             "天武天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0672-02-07",
+            "gregorian_era" : "天武天皇1-02-07",
+            "jd" : 1966539.5,
+            "julian" : "0672-02-04",
+            "julian_era" : "天武天皇1-02-04",
+            "kyuureki" : "0672-01-01",
+            "kyuureki_era" : "天武天皇1-01-01"
          },
          "offset" : 671,
          "short_name" : "天武",
@@ -16011,6 +16345,17 @@
             "kyuureki_era" : "天武天皇1-01-01"
          },
          "start_year" : 672,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0672-02-07",
+                  "jd" : 1966539.5,
+                  "kyuureki" : "0672-01-01"
+               },
+               "prev" : "天智天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Tenmu",
          "wref_ja" : "天武天皇"
       },
@@ -18652,13 +18997,13 @@
       },
       "孝元天皇" : {
          "actual_end_day" : {
-            "gregorian" : "-0156-02-05",
-            "gregorian_era" : "孝元天皇58-02-05",
-            "jd" : 1664116.5,
-            "julian" : "-0156-02-08",
-            "julian_era" : "孝元天皇58-02-08",
-            "kyuureki" : "-0156-01-01",
-            "kyuureki_era" : "孝元天皇58-01-01"
+            "gregorian" : "-0156-02-04",
+            "gregorian_era" : "孝元天皇58-02-04",
+            "jd" : 1664115.5,
+            "julian" : "-0156-02-07",
+            "julian_era" : "孝元天皇58-02-07",
+            "kyuureki" : "-0157-12-29",
+            "kyuureki_era" : "孝元天皇57-12-29"
          },
          "end_day" : {
             "gregorian" : "-0156-02-04",
@@ -18670,9 +19015,22 @@
             "kyuureki_era" : "孝元天皇57-12-29"
          },
          "end_year" : -157,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "-0156-02-04",
+                  "jd" : 1664115.5,
+                  "kyuureki" : "-0157-12-29"
+               },
+               "next" : "開化天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 406,
          "jp_emperor_era" : 1,
          "key" : "孝元天皇",
+         "known_latest_year" : -156,
+         "known_oldest_year" : -213,
          "name" : "孝元天皇",
          "name_ja" : "孝元天皇",
          "name_kana" : "こうげんてんのう",
@@ -18683,6 +19041,15 @@
          "names" : {
             "孝元" : 1,
             "孝元天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "-0213-02-04",
+            "gregorian_era" : "孝元天皇1-02-04",
+            "jd" : 1643297.5,
+            "julian" : "-0213-02-08",
+            "julian_era" : "孝元天皇1-02-08",
+            "kyuureki" : "-0213-01-01",
+            "kyuureki_era" : "孝元天皇1-01-01"
          },
          "offset" : -214,
          "short_name" : "孝元",
@@ -18696,6 +19063,17 @@
             "kyuureki_era" : "孝元天皇1-01-01"
          },
          "start_year" : -213,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "-0213-02-04",
+                  "jd" : 1643297.5,
+                  "kyuureki" : "-0213-01-01"
+               },
+               "prev" : "孝霊天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Kōgen",
          "wref_ja" : "孝元天皇"
       },
@@ -18713,13 +19091,13 @@
       },
       "孝安天皇" : {
          "actual_end_day" : {
-            "gregorian" : "-0289-02-04",
-            "gregorian_era" : "孝安天皇103-02-04",
-            "jd" : 1615538.5,
-            "julian" : "-0289-02-08",
-            "julian_era" : "孝安天皇103-02-08",
-            "kyuureki" : "-0289-01-01",
-            "kyuureki_era" : "孝安天皇103-01-01"
+            "gregorian" : "-0289-02-03",
+            "gregorian_era" : "孝安天皇103-02-03",
+            "jd" : 1615537.5,
+            "julian" : "-0289-02-07",
+            "julian_era" : "孝安天皇103-02-07",
+            "kyuureki" : "-0290-12-29",
+            "kyuureki_era" : "孝安天皇102-12-29"
          },
          "end_day" : {
             "gregorian" : "-0289-02-03",
@@ -18731,9 +19109,22 @@
             "kyuureki_era" : "孝安天皇102-12-29"
          },
          "end_year" : -290,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "-0289-02-03",
+                  "jd" : 1615537.5,
+                  "kyuureki" : "-0290-12-29"
+               },
+               "next" : "孝霊天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1174,
          "jp_emperor_era" : 1,
          "key" : "孝安天皇",
+         "known_latest_year" : -289,
+         "known_oldest_year" : -391,
          "name" : "孝安天皇",
          "name_ja" : "孝安天皇",
          "name_kana" : "こうあんてんのう",
@@ -18744,6 +19135,15 @@
          "names" : {
             "孝安" : 1,
             "孝安天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "-0391-01-22",
+            "gregorian_era" : "孝安天皇1-01-22",
+            "jd" : 1578271.5,
+            "julian" : "-0391-01-27",
+            "julian_era" : "孝安天皇1-01-27",
+            "kyuureki" : "-0391-01-01",
+            "kyuureki_era" : "孝安天皇1-01-01"
          },
          "offset" : -392,
          "short_name" : "孝安",
@@ -18757,6 +19157,17 @@
             "kyuureki_era" : "孝安天皇1-01-01"
          },
          "start_year" : -391,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "-0391-01-22",
+                  "jd" : 1578271.5,
+                  "kyuureki" : "-0391-01-01"
+               },
+               "prev" : "孝昭天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Kōan",
          "wref_ja" : "孝安天皇"
       },
@@ -18807,13 +19218,13 @@
       },
       "孝昭天皇" : {
          "actual_end_day" : {
-            "gregorian" : "-0391-01-22",
-            "gregorian_era" : "孝昭天皇84-01-22",
-            "jd" : 1578271.5,
-            "julian" : "-0391-01-27",
-            "julian_era" : "孝昭天皇84-01-27",
-            "kyuureki" : "-0391-01-01",
-            "kyuureki_era" : "孝昭天皇84-01-01"
+            "gregorian" : "-0391-01-21",
+            "gregorian_era" : "孝昭天皇84-01-21",
+            "jd" : 1578270.5,
+            "julian" : "-0391-01-26",
+            "julian_era" : "孝昭天皇84-01-26",
+            "kyuureki" : "-0392-12-30",
+            "kyuureki_era" : "孝昭天皇83-12-30"
          },
          "end_day" : {
             "gregorian" : "-0391-01-21",
@@ -18825,9 +19236,22 @@
             "kyuureki_era" : "孝昭天皇83-12-30"
          },
          "end_year" : -392,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "-0391-01-21",
+                  "jd" : 1578270.5,
+                  "kyuureki" : "-0392-12-30"
+               },
+               "next" : "孝安天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 335,
          "jp_emperor_era" : 1,
          "key" : "孝昭天皇",
+         "known_latest_year" : -391,
+         "known_oldest_year" : -474,
          "name" : "孝昭天皇",
          "name_ja" : "孝昭天皇",
          "name_kana" : "こうしょうてんのう",
@@ -18838,6 +19262,15 @@
          "names" : {
             "孝昭" : 1,
             "孝昭天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "-0474-02-08",
+            "gregorian_era" : "孝昭天皇1-02-08",
+            "jd" : 1547972.5,
+            "julian" : "-0474-02-13",
+            "julian_era" : "孝昭天皇1-02-13",
+            "kyuureki" : "-0474-01-01",
+            "kyuureki_era" : "孝昭天皇1-01-01"
          },
          "offset" : -475,
          "short_name" : "孝昭",
@@ -18851,6 +19284,17 @@
             "kyuureki_era" : "孝昭天皇1-01-01"
          },
          "start_year" : -474,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "-0474-02-08",
+                  "jd" : 1547972.5,
+                  "kyuureki" : "-0474-01-01"
+               },
+               "prev" : "懿徳天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Kōshō",
          "wref_ja" : "孝昭天皇"
       },
@@ -18867,13 +19311,13 @@
       },
       "孝霊天皇" : {
          "actual_end_day" : {
-            "gregorian" : "-0213-02-04",
-            "gregorian_era" : "孝霊天皇77-02-04",
-            "jd" : 1643297.5,
-            "julian" : "-0213-02-08",
-            "julian_era" : "孝霊天皇77-02-08",
-            "kyuureki" : "-0213-01-01",
-            "kyuureki_era" : "孝霊天皇77-01-01"
+            "gregorian" : "-0213-02-03",
+            "gregorian_era" : "孝霊天皇77-02-03",
+            "jd" : 1643296.5,
+            "julian" : "-0213-02-07",
+            "julian_era" : "孝霊天皇77-02-07",
+            "kyuureki" : "-0214-12-29",
+            "kyuureki_era" : "孝霊天皇76-12-29"
          },
          "end_day" : {
             "gregorian" : "-0213-02-03",
@@ -18885,9 +19329,22 @@
             "kyuureki_era" : "孝霊天皇76-12-29"
          },
          "end_year" : -214,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "-0213-02-03",
+                  "jd" : 1643296.5,
+                  "kyuureki" : "-0214-12-29"
+               },
+               "next" : "孝元天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1544,
          "jp_emperor_era" : 1,
          "key" : "孝霊天皇",
+         "known_latest_year" : -213,
+         "known_oldest_year" : -289,
          "name" : "孝霊天皇",
          "name_ja" : "孝霊天皇",
          "name_kana" : "こうれいてんのう",
@@ -18901,6 +19358,15 @@
             "孝靈" : 1,
             "孝靈天皇" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "-0289-02-04",
+            "gregorian_era" : "孝霊天皇1-02-04",
+            "jd" : 1615538.5,
+            "julian" : "-0289-02-08",
+            "julian_era" : "孝霊天皇1-02-08",
+            "kyuureki" : "-0289-01-01",
+            "kyuureki_era" : "孝霊天皇1-01-01"
+         },
          "offset" : -290,
          "short_name" : "孝霊",
          "start_day" : {
@@ -18913,6 +19379,17 @@
             "kyuureki_era" : "孝霊天皇1-01-01"
          },
          "start_year" : -289,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "-0289-02-04",
+                  "jd" : 1615538.5,
+                  "kyuureki" : "-0289-01-01"
+               },
+               "prev" : "孝安天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Kōrei",
          "wref_ja" : "孝霊天皇"
       },
@@ -19268,13 +19745,13 @@
       },
       "安寧天皇" : {
          "actual_end_day" : {
-            "gregorian" : "-0509-02-05",
-            "gregorian_era" : "安寧天皇39-02-05",
-            "jd" : 1535186.5,
-            "julian" : "-0509-02-11",
-            "julian_era" : "安寧天皇39-02-11",
-            "kyuureki" : "-0509-01-01",
-            "kyuureki_era" : "安寧天皇39-01-01"
+            "gregorian" : "-0509-02-04",
+            "gregorian_era" : "安寧天皇39-02-04",
+            "jd" : 1535185.5,
+            "julian" : "-0509-02-10",
+            "julian_era" : "安寧天皇39-02-10",
+            "kyuureki" : "-0510-12-30",
+            "kyuureki_era" : "安寧天皇38-12-30"
          },
          "end_day" : {
             "gregorian" : "-0509-02-04",
@@ -19286,9 +19763,22 @@
             "kyuureki_era" : "安寧天皇38-12-30"
          },
          "end_year" : -510,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "-0509-02-04",
+                  "jd" : 1535185.5,
+                  "kyuureki" : "-0510-12-30"
+               },
+               "next" : "懿徳天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1681,
          "jp_emperor_era" : 1,
          "key" : "安寧天皇",
+         "known_latest_year" : -509,
+         "known_oldest_year" : -547,
          "name" : "安寧天皇",
          "name_ja" : "安寧天皇",
          "name_kana" : "あんねいてんのう",
@@ -19302,6 +19792,15 @@
             "安寧" : 1,
             "安寧天皇" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "-0547-02-04",
+            "gregorian_era" : "安寧天皇1-02-04",
+            "jd" : 1521306.5,
+            "julian" : "-0547-02-10",
+            "julian_era" : "安寧天皇1-02-10",
+            "kyuureki" : "-0547-01-01",
+            "kyuureki_era" : "安寧天皇1-01-01"
+         },
          "offset" : -548,
          "short_name" : "安寧",
          "start_day" : {
@@ -19314,18 +19813,29 @@
             "kyuureki_era" : "安寧天皇1-01-01"
          },
          "start_year" : -547,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "-0547-02-04",
+                  "jd" : 1521306.5,
+                  "kyuureki" : "-0547-01-01"
+               },
+               "prev" : "綏靖天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Annei",
          "wref_ja" : "安寧天皇"
       },
       "安康天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0457-02-11",
-            "gregorian_era" : "安康天皇4-02-11",
-            "jd" : 1888017.5,
-            "julian" : "0457-02-10",
-            "julian_era" : "安康天皇4-02-10",
-            "kyuureki" : "0457-01-01",
-            "kyuureki_era" : "安康天皇4-01-01"
+            "gregorian" : "0457-02-10",
+            "gregorian_era" : "安康天皇4-02-10",
+            "jd" : 1888016.5,
+            "julian" : "0457-02-09",
+            "julian_era" : "安康天皇4-02-09",
+            "kyuureki" : "0456-12-29",
+            "kyuureki_era" : "安康天皇3-12-29"
          },
          "end_day" : {
             "gregorian" : "0457-02-10",
@@ -19337,9 +19847,22 @@
             "kyuureki_era" : "安康天皇3-12-29"
          },
          "end_year" : 456,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0457-02-10",
+                  "jd" : 1888016.5,
+                  "kyuureki" : "0456-12-29"
+               },
+               "next" : "雄略天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 399,
          "jp_emperor_era" : 1,
          "key" : "安康天皇",
+         "known_latest_year" : 457,
+         "known_oldest_year" : 454,
          "name" : "安康天皇",
          "name_ja" : "安康天皇",
          "name_kana" : "あんこうてんのう",
@@ -19350,6 +19873,15 @@
          "names" : {
             "安康" : 1,
             "安康天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0454-02-15",
+            "gregorian_era" : "安康天皇1-02-15",
+            "jd" : 1886925.5,
+            "julian" : "0454-02-14",
+            "julian_era" : "安康天皇1-02-14",
+            "kyuureki" : "0454-01-01",
+            "kyuureki_era" : "安康天皇1-01-01"
          },
          "offset" : 453,
          "short_name" : "安康",
@@ -19363,6 +19895,17 @@
             "kyuureki_era" : "安康天皇1-01-01"
          },
          "start_year" : 454,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0454-02-15",
+                  "jd" : 1886925.5,
+                  "kyuureki" : "0454-01-01"
+               },
+               "prev" : "允恭天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Ankō",
          "wref_ja" : "安康天皇"
       },
@@ -19803,27 +20346,40 @@
       },
       "安閑天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0536-02-10",
-            "gregorian_era" : "安閑天皇5-02-10",
-            "jd" : 1916869.5,
-            "julian" : "0536-02-08",
-            "julian_era" : "安閑天皇5-02-08",
-            "kyuureki" : "0536-01-01",
-            "kyuureki_era" : "安閑天皇5-01-01"
+            "gregorian" : "0536-02-09",
+            "gregorian_era" : "安閑天皇3-02-09",
+            "jd" : 1916868.5,
+            "julian" : "0536-02-07",
+            "julian_era" : "安閑天皇3-02-07",
+            "kyuureki" : "0535-12-30",
+            "kyuureki_era" : "安閑天皇2-12-30"
          },
          "end_day" : {
             "gregorian" : "0536-02-09",
-            "gregorian_era" : "安閑天皇5-02-09",
+            "gregorian_era" : "安閑天皇3-02-09",
             "jd" : 1916868.5,
             "julian" : "0536-02-07",
-            "julian_era" : "安閑天皇5-02-07",
+            "julian_era" : "安閑天皇3-02-07",
             "kyuureki" : "0535-12-30",
-            "kyuureki_era" : "安閑天皇4-12-30"
+            "kyuureki_era" : "安閑天皇2-12-30"
          },
          "end_year" : 535,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0536-02-09",
+                  "jd" : 1916868.5,
+                  "kyuureki" : "0535-12-30"
+               },
+               "next" : "宣化天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 853,
          "jp_emperor_era" : 1,
          "key" : "安閑天皇",
+         "known_latest_year" : 536,
+         "known_oldest_year" : 534,
          "name" : "安閑天皇",
          "name_ja" : "安閑天皇",
          "name_kana" : "あんかんてんのう",
@@ -19835,18 +20391,38 @@
             "安閑" : 1,
             "安閑天皇" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "0534-02-01",
+            "gregorian_era" : "安閑天皇1-02-01",
+            "jd" : 1916130.5,
+            "julian" : "0534-01-30",
+            "julian_era" : "安閑天皇1-01-30",
+            "kyuureki" : "0534-01-01",
+            "kyuureki_era" : "安閑天皇1-01-01"
+         },
          "offset" : 531,
          "short_name" : "安閑",
          "start_day" : {
-            "gregorian" : "0532-01-25",
-            "gregorian_era" : "安閑天皇1-01-25",
-            "jd" : 1915392.5,
-            "julian" : "0532-01-23",
-            "julian_era" : "安閑天皇1-01-23",
-            "kyuureki" : "0532-01-01",
+            "gregorian" : "0534-02-01",
+            "gregorian_era" : "安閑天皇1-02-01",
+            "jd" : 1916130.5,
+            "julian" : "0534-01-30",
+            "julian_era" : "安閑天皇1-01-30",
+            "kyuureki" : "0534-01-01",
             "kyuureki_era" : "安閑天皇1-01-01"
          },
-         "start_year" : 532,
+         "start_year" : 534,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0534-02-01",
+                  "jd" : 1916130.5,
+                  "kyuureki" : "0534-01-01"
+               },
+               "prev" : "継体天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Ankan",
          "wref_ja" : "安閑天皇"
       },
@@ -20629,13 +21205,13 @@
       },
       "宣化天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0540-01-27",
-            "gregorian_era" : "宣化天皇5-01-27",
-            "jd" : 1918316.5,
-            "julian" : "0540-01-25",
-            "julian_era" : "宣化天皇5-01-25",
-            "kyuureki" : "0540-01-01",
-            "kyuureki_era" : "宣化天皇5-01-01"
+            "gregorian" : "0540-01-26",
+            "gregorian_era" : "宣化天皇5-01-26",
+            "jd" : 1918315.5,
+            "julian" : "0540-01-24",
+            "julian_era" : "宣化天皇5-01-24",
+            "kyuureki" : "0539-12-30",
+            "kyuureki_era" : "宣化天皇4-12-30"
          },
          "end_day" : {
             "gregorian" : "0540-01-26",
@@ -20647,9 +21223,22 @@
             "kyuureki_era" : "宣化天皇4-12-30"
          },
          "end_year" : 539,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0540-01-26",
+                  "jd" : 1918315.5,
+                  "kyuureki" : "0539-12-30"
+               },
+               "next" : "欽明天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 152,
          "jp_emperor_era" : 1,
          "key" : "宣化天皇",
+         "known_latest_year" : 540,
+         "known_oldest_year" : 536,
          "name" : "宣化天皇",
          "name_ja" : "宣化天皇",
          "name_kana" : "せんかてんのう",
@@ -20660,6 +21249,15 @@
          "names" : {
             "宣化" : 1,
             "宣化天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0536-02-10",
+            "gregorian_era" : "宣化天皇1-02-10",
+            "jd" : 1916869.5,
+            "julian" : "0536-02-08",
+            "julian_era" : "宣化天皇1-02-08",
+            "kyuureki" : "0536-01-01",
+            "kyuureki_era" : "宣化天皇1-01-01"
          },
          "offset" : 535,
          "short_name" : "宣化",
@@ -20673,6 +21271,17 @@
             "kyuureki_era" : "宣化天皇1-01-01"
          },
          "start_year" : 536,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0536-02-10",
+                  "jd" : 1916869.5,
+                  "kyuureki" : "0536-01-01"
+               },
+               "prev" : "安閑天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Senka",
          "wref_ja" : "宣化天皇"
       },
@@ -23195,13 +23804,13 @@
       },
       "履中天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0406-02-05",
-            "gregorian_era" : "履中天皇7-02-05",
-            "jd" : 1869383.5,
-            "julian" : "0406-02-04",
-            "julian_era" : "履中天皇7-02-04",
-            "kyuureki" : "0406-01-01",
-            "kyuureki_era" : "履中天皇7-01-01"
+            "gregorian" : "0406-02-04",
+            "gregorian_era" : "履中天皇7-02-04",
+            "jd" : 1869382.5,
+            "julian" : "0406-02-03",
+            "julian_era" : "履中天皇7-02-03",
+            "kyuureki" : "0405-12-29",
+            "kyuureki_era" : "履中天皇6-12-29"
          },
          "end_day" : {
             "gregorian" : "0406-02-04",
@@ -23213,9 +23822,22 @@
             "kyuureki_era" : "履中天皇6-12-29"
          },
          "end_year" : 405,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0406-02-04",
+                  "jd" : 1869382.5,
+                  "kyuureki" : "0405-12-29"
+               },
+               "next" : "反正天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 76,
          "jp_emperor_era" : 1,
          "key" : "履中天皇",
+         "known_latest_year" : 406,
+         "known_oldest_year" : 400,
          "name" : "履中天皇",
          "name_ja" : "履中天皇",
          "name_kana" : "りちゅうてんのう",
@@ -23226,6 +23848,15 @@
          "names" : {
             "履中" : 1,
             "履中天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0400-02-12",
+            "gregorian_era" : "履中天皇1-02-12",
+            "jd" : 1867198.5,
+            "julian" : "0400-02-11",
+            "julian_era" : "履中天皇1-02-11",
+            "kyuureki" : "0400-01-01",
+            "kyuureki_era" : "履中天皇1-01-01"
          },
          "offset" : 399,
          "short_name" : "履中",
@@ -23239,6 +23870,17 @@
             "kyuureki_era" : "履中天皇1-01-01"
          },
          "start_year" : 400,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0400-02-12",
+                  "jd" : 1867198.5,
+                  "kyuureki" : "0400-01-01"
+               },
+               "prev" : "仁徳天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Richū",
          "wref_ja" : "履中天皇"
       },
@@ -23268,13 +23910,13 @@
       },
       "崇峻天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0593-02-09",
-            "gregorian_era" : "崇峻天皇6-02-09",
-            "jd" : 1937688.5,
-            "julian" : "0593-02-07",
-            "julian_era" : "崇峻天皇6-02-07",
-            "kyuureki" : "0593-01-01",
-            "kyuureki_era" : "崇峻天皇6-01-01"
+            "gregorian" : "0593-02-08",
+            "gregorian_era" : "崇峻天皇6-02-08",
+            "jd" : 1937687.5,
+            "julian" : "0593-02-06",
+            "julian_era" : "崇峻天皇6-02-06",
+            "kyuureki" : "0592-12-30",
+            "kyuureki_era" : "崇峻天皇5-12-30"
          },
          "end_day" : {
             "gregorian" : "0593-02-08",
@@ -23286,9 +23928,22 @@
             "kyuureki_era" : "崇峻天皇5-12-30"
          },
          "end_year" : 592,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0593-02-08",
+                  "jd" : 1937687.5,
+                  "kyuureki" : "0592-12-30"
+               },
+               "next" : "推古天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1005,
          "jp_emperor_era" : 1,
          "key" : "崇峻天皇",
+         "known_latest_year" : 593,
+         "known_oldest_year" : 588,
          "name" : "崇峻天皇",
          "name_ja" : "崇峻天皇",
          "name_kana" : "すしゅんてんのう",
@@ -23299,6 +23954,15 @@
          "names" : {
             "崇峻" : 1,
             "崇峻天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0588-02-05",
+            "gregorian_era" : "崇峻天皇1-02-05",
+            "jd" : 1935857.5,
+            "julian" : "0588-02-03",
+            "julian_era" : "崇峻天皇1-02-03",
+            "kyuureki" : "0588-01-01",
+            "kyuureki_era" : "崇峻天皇1-01-01"
          },
          "offset" : 587,
          "short_name" : "崇峻",
@@ -23312,6 +23976,17 @@
             "kyuureki_era" : "崇峻天皇1-01-01"
          },
          "start_year" : 588,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0588-02-05",
+                  "jd" : 1935857.5,
+                  "kyuureki" : "0588-01-01"
+               },
+               "prev" : "用明天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Sushun",
          "wref_ja" : "崇峻天皇"
       },
@@ -23352,13 +24027,13 @@
       },
       "崇神天皇" : {
          "actual_end_day" : {
-            "gregorian" : "-0028-02-01",
-            "gregorian_era" : "崇神天皇69-02-01",
-            "jd" : 1710863.5,
-            "julian" : "-0028-02-03",
-            "julian_era" : "崇神天皇69-02-03",
-            "kyuureki" : "-0028-01-01",
-            "kyuureki_era" : "崇神天皇69-01-01"
+            "gregorian" : "-0028-01-31",
+            "gregorian_era" : "崇神天皇69-01-31",
+            "jd" : 1710862.5,
+            "julian" : "-0028-02-02",
+            "julian_era" : "崇神天皇69-02-02",
+            "kyuureki" : "-0029-12-29",
+            "kyuureki_era" : "崇神天皇68-12-29"
          },
          "end_day" : {
             "gregorian" : "-0028-01-31",
@@ -23370,9 +24045,22 @@
             "kyuureki_era" : "崇神天皇68-12-29"
          },
          "end_year" : -29,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "-0028-01-31",
+                  "jd" : 1710862.5,
+                  "kyuureki" : "-0029-12-29"
+               },
+               "next" : "垂仁天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1295,
          "jp_emperor_era" : 1,
          "key" : "崇神天皇",
+         "known_latest_year" : -28,
+         "known_oldest_year" : -96,
          "name" : "崇神天皇",
          "name_ja" : "崇神天皇",
          "name_kana" : "すじんてんのう",
@@ -23386,6 +24074,15 @@
             "崇神" : 1,
             "崇神天皇" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "-0096-02-03",
+            "gregorian_era" : "崇神天皇1-02-03",
+            "jd" : 1686028.5,
+            "julian" : "-0096-02-05",
+            "julian_era" : "崇神天皇1-02-05",
+            "kyuureki" : "-0096-01-01",
+            "kyuureki_era" : "崇神天皇1-01-01"
+         },
          "offset" : -97,
          "short_name" : "崇神",
          "start_day" : {
@@ -23398,6 +24095,17 @@
             "kyuureki_era" : "崇神天皇1-01-01"
          },
          "start_year" : -96,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "-0096-02-03",
+                  "jd" : 1686028.5,
+                  "kyuureki" : "-0096-01-01"
+               },
+               "prev" : "開化天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Sujin",
          "wref_ja" : "崇神天皇"
       },
@@ -28614,12 +29322,30 @@
             },
             {
                "day" : {
+                  "gregorian" : "1370-02-25",
+                  "jd" : 2221497.5,
+                  "kyuureki" : "1370-01-21"
+               },
+               "prev" : "正平",
+               "type" : "established/possible"
+            },
+            {
+               "day" : {
                   "gregorian" : "1370-03-11",
                   "jd" : 2221511.5,
                   "kyuureki" : "1370-02-05"
                },
                "prev" : "正平",
                "type" : "established"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1370-05-25",
+                  "jd" : 2221586.5,
+                  "kyuureki" : "1370-04-22"
+               },
+               "prev" : "正平",
+               "type" : "established/possible"
             },
             {
                "day" : [
@@ -32137,13 +32863,13 @@
       },
       "応神天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0313-02-13",
-            "gregorian_era" : "応神天皇44-02-13",
-            "jd" : 1835423.5,
-            "julian" : "0313-02-12",
-            "julian_era" : "応神天皇44-02-12",
-            "kyuureki" : "0313-01-01",
-            "kyuureki_era" : "応神天皇44-01-01"
+            "gregorian" : "0313-02-12",
+            "gregorian_era" : "応神天皇44-02-12",
+            "jd" : 1835422.5,
+            "julian" : "0313-02-11",
+            "julian_era" : "応神天皇44-02-11",
+            "kyuureki" : "0312-12-29",
+            "kyuureki_era" : "応神天皇43-12-29"
          },
          "end_day" : {
             "gregorian" : "0313-02-12",
@@ -32155,9 +32881,22 @@
             "kyuureki_era" : "応神天皇43-12-29"
          },
          "end_year" : 312,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0313-02-12",
+                  "jd" : 1835422.5,
+                  "kyuureki" : "0312-12-29"
+               },
+               "next" : "仁徳天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 309,
          "jp_emperor_era" : 1,
          "key" : "応神天皇",
+         "known_latest_year" : 313,
+         "known_oldest_year" : 270,
          "name" : "応神天皇",
          "name_ja" : "応神天皇",
          "name_kana" : "おうじんてんのう",
@@ -32179,6 +32918,15 @@
             "應神" : 1,
             "應神天皇" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "0270-02-08",
+            "gregorian_era" : "応神天皇1-02-08",
+            "jd" : 1819713.5,
+            "julian" : "0270-02-08",
+            "julian_era" : "応神天皇1-02-08",
+            "kyuureki" : "0270-01-01",
+            "kyuureki_era" : "応神天皇1-01-01"
+         },
          "offset" : 269,
          "short_name" : "応神",
          "start_day" : {
@@ -32191,6 +32939,17 @@
             "kyuureki_era" : "応神天皇1-01-01"
          },
          "start_year" : 270,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0270-02-08",
+                  "jd" : 1819713.5,
+                  "kyuureki" : "0270-01-01"
+               },
+               "prev" : "神功皇后摂政",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Ōjin",
          "wref_ja" : "応神天皇"
       },
@@ -33206,13 +33965,13 @@
       },
       "懿徳天皇" : {
          "actual_end_day" : {
-            "gregorian" : "-0474-02-08",
-            "gregorian_era" : "懿徳天皇36-02-08",
-            "jd" : 1547972.5,
-            "julian" : "-0474-02-13",
-            "julian_era" : "懿徳天皇36-02-13",
-            "kyuureki" : "-0474-01-01",
-            "kyuureki_era" : "懿徳天皇36-01-01"
+            "gregorian" : "-0474-02-07",
+            "gregorian_era" : "懿徳天皇36-02-07",
+            "jd" : 1547971.5,
+            "julian" : "-0474-02-12",
+            "julian_era" : "懿徳天皇36-02-12",
+            "kyuureki" : "-0475-12-29",
+            "kyuureki_era" : "懿徳天皇35-12-29"
          },
          "end_day" : {
             "gregorian" : "-0474-02-07",
@@ -33224,9 +33983,22 @@
             "kyuureki_era" : "懿徳天皇35-12-29"
          },
          "end_year" : -475,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "-0474-02-07",
+                  "jd" : 1547971.5,
+                  "kyuureki" : "-0475-12-29"
+               },
+               "next" : "孝昭天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 390,
          "jp_emperor_era" : 1,
          "key" : "懿徳天皇",
+         "known_latest_year" : -474,
+         "known_oldest_year" : -509,
          "name" : "懿徳天皇",
          "name_ja" : "懿徳天皇",
          "name_kana" : "いとくてんのう",
@@ -33240,6 +34012,15 @@
             "懿德" : 1,
             "懿德天皇" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "-0509-02-05",
+            "gregorian_era" : "懿徳天皇1-02-05",
+            "jd" : 1535186.5,
+            "julian" : "-0509-02-11",
+            "julian_era" : "懿徳天皇1-02-11",
+            "kyuureki" : "-0509-01-01",
+            "kyuureki_era" : "懿徳天皇1-01-01"
+         },
          "offset" : -510,
          "short_name" : "懿徳",
          "start_day" : {
@@ -33252,18 +34033,29 @@
             "kyuureki_era" : "懿徳天皇1-01-01"
          },
          "start_year" : -509,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "-0509-02-05",
+                  "jd" : 1535186.5,
+                  "kyuureki" : "-0509-01-01"
+               },
+               "prev" : "安寧天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Itoku",
          "wref_ja" : "懿徳天皇"
       },
       "成務天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0192-01-31",
-            "gregorian_era" : "成務天皇62-01-31",
-            "jd" : 1791216.5,
-            "julian" : "0192-02-01",
-            "julian_era" : "成務天皇62-02-01",
-            "kyuureki" : "0192-01-01",
-            "kyuureki_era" : "成務天皇62-01-01"
+            "gregorian" : "0192-01-30",
+            "gregorian_era" : "成務天皇62-01-30",
+            "jd" : 1791215.5,
+            "julian" : "0192-01-31",
+            "julian_era" : "成務天皇62-01-31",
+            "kyuureki" : "0191-12-30",
+            "kyuureki_era" : "成務天皇61-12-30"
          },
          "end_day" : {
             "gregorian" : "0192-01-30",
@@ -33275,9 +34067,22 @@
             "kyuureki_era" : "成務天皇61-12-30"
          },
          "end_year" : 191,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0192-01-30",
+                  "jd" : 1791215.5,
+                  "kyuureki" : "0191-12-30"
+               },
+               "next" : "仲哀天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 492,
          "jp_emperor_era" : 1,
          "key" : "成務天皇",
+         "known_latest_year" : 192,
+         "known_oldest_year" : 131,
          "name" : "成務天皇",
          "name_ja" : "成務天皇",
          "name_kana" : "せいむてんのう",
@@ -33288,6 +34093,15 @@
          "names" : {
             "成務" : 1,
             "成務天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0131-02-14",
+            "gregorian_era" : "成務天皇1-02-14",
+            "jd" : 1768950.5,
+            "julian" : "0131-02-15",
+            "julian_era" : "成務天皇1-02-15",
+            "kyuureki" : "0131-01-01",
+            "kyuureki_era" : "成務天皇1-01-01"
          },
          "offset" : 130,
          "short_name" : "成務",
@@ -33301,6 +34115,17 @@
             "kyuureki_era" : "成務天皇1-01-01"
          },
          "start_year" : 131,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0131-02-14",
+                  "jd" : 1768950.5,
+                  "kyuureki" : "0131-01-01"
+               },
+               "prev" : "景行天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Seimu",
          "wref_ja" : "成務天皇"
       },
@@ -35042,9 +35867,40 @@
             "kyuureki_era" : "持統天皇11-07-29"
          },
          "end_year" : 697,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0697-01-30",
+                  "jd" : 1975663.5,
+                  "kyuureki" : "0696-12-29"
+               },
+               "next" : "文武天皇",
+               "type" : "retroactivated"
+            },
+            {
+               "day" : {
+                  "gregorian" : "0697-08-24",
+                  "jd" : 1975869.5,
+                  "kyuureki" : "0697-07-29"
+               },
+               "next" : "文武天皇",
+               "type" : "dayretroactivated"
+            },
+            {
+               "day" : {
+                  "gregorian" : "0697-08-25",
+                  "jd" : 1975870.5,
+                  "kyuureki" : "0697-08-01"
+               },
+               "next" : "文武天皇",
+               "type" : "established"
+            }
+         ],
          "id" : 541,
          "jp_emperor_era" : 1,
          "key" : "持統天皇",
+         "known_latest_year" : 697,
+         "known_oldest_year" : 687,
          "name" : "持統天皇",
          "name_ja" : "持統天皇",
          "name_kana" : "じとうてんのう",
@@ -35058,6 +35914,15 @@
             "持统" : 1,
             "持统天皇" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "0687-02-21",
+            "gregorian_era" : "持統天皇1-02-21",
+            "jd" : 1972032.5,
+            "julian" : "0687-02-18",
+            "julian_era" : "持統天皇1-02-18",
+            "kyuureki" : "0687-01-01",
+            "kyuureki_era" : "持統天皇1-01-01"
+         },
          "offset" : 686,
          "short_name" : "持統",
          "start_day" : {
@@ -35070,18 +35935,38 @@
             "kyuureki_era" : "持統天皇1-01-01"
          },
          "start_year" : 687,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0686-10-04",
+                  "jd" : 1971892.5,
+                  "kyuureki" : "0686-09-09"
+               },
+               "prev" : "朱鳥",
+               "type" : "succeed"
+            },
+            {
+               "day" : {
+                  "gregorian" : "0687-02-21",
+                  "jd" : 1972032.5,
+                  "kyuureki" : "0687-01-01"
+               },
+               "prev" : "朱鳥",
+               "type" : "established"
+            }
+         ],
          "wref_en" : "Emperor_Jitō",
          "wref_ja" : "持統天皇"
       },
       "推古天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0629-02-02",
-            "gregorian_era" : "推古天皇37-02-02",
-            "jd" : 1950829.5,
-            "julian" : "0629-01-30",
-            "julian_era" : "推古天皇37-01-30",
-            "kyuureki" : "0629-01-01",
-            "kyuureki_era" : "推古天皇37-01-01"
+            "gregorian" : "0629-02-01",
+            "gregorian_era" : "推古天皇37-02-01",
+            "jd" : 1950828.5,
+            "julian" : "0629-01-29",
+            "julian_era" : "推古天皇37-01-29",
+            "kyuureki" : "0628-12-30",
+            "kyuureki_era" : "推古天皇36-12-30"
          },
          "end_day" : {
             "gregorian" : "0629-02-01",
@@ -35093,9 +35978,22 @@
             "kyuureki_era" : "推古天皇36-12-30"
          },
          "end_year" : 628,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0629-02-01",
+                  "jd" : 1950828.5,
+                  "kyuureki" : "0628-12-30"
+               },
+               "next" : "舒明天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1370,
          "jp_emperor_era" : 1,
          "key" : "推古天皇",
+         "known_latest_year" : 629,
+         "known_oldest_year" : 593,
          "name" : "推古天皇",
          "name_ja" : "推古天皇",
          "name_kana" : "すいこてんのう",
@@ -35106,6 +36004,15 @@
          "names" : {
             "推古" : 1,
             "推古天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0593-02-09",
+            "gregorian_era" : "推古天皇1-02-09",
+            "jd" : 1937688.5,
+            "julian" : "0593-02-07",
+            "julian_era" : "推古天皇1-02-07",
+            "kyuureki" : "0593-01-01",
+            "kyuureki_era" : "推古天皇1-01-01"
          },
          "offset" : 592,
          "short_name" : "推古",
@@ -35119,6 +36026,17 @@
             "kyuureki_era" : "推古天皇1-01-01"
          },
          "start_year" : 593,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0593-02-09",
+                  "jd" : 1937688.5,
+                  "kyuureki" : "0593-01-01"
+               },
+               "prev" : "崇峻天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Suiko",
          "wref_ja" : "推古天皇"
       },
@@ -35177,13 +36095,13 @@
       },
       "敏達天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0586-01-27",
-            "gregorian_era" : "敏達天皇15-01-27",
-            "jd" : 1935118.5,
-            "julian" : "0586-01-25",
-            "julian_era" : "敏達天皇15-01-25",
-            "kyuureki" : "0586-01-01",
-            "kyuureki_era" : "敏達天皇15-01-01"
+            "gregorian" : "0586-01-26",
+            "gregorian_era" : "敏達天皇15-01-26",
+            "jd" : 1935117.5,
+            "julian" : "0586-01-24",
+            "julian_era" : "敏達天皇15-01-24",
+            "kyuureki" : "0585-12-29",
+            "kyuureki_era" : "敏達天皇14-12-29"
          },
          "end_day" : {
             "gregorian" : "0586-01-26",
@@ -35195,9 +36113,22 @@
             "kyuureki_era" : "敏達天皇14-12-29"
          },
          "end_year" : 585,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0586-01-26",
+                  "jd" : 1935117.5,
+                  "kyuureki" : "0585-12-29"
+               },
+               "next" : "用明天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1462,
          "jp_emperor_era" : 1,
          "key" : "敏達天皇",
+         "known_latest_year" : 586,
+         "known_oldest_year" : 572,
          "name" : "敏達天皇",
          "name_ja" : "敏達天皇",
          "name_kana" : "びだつてんのう",
@@ -35215,6 +36146,15 @@
             "敏達" : 1,
             "敏達天皇" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "0572-02-02",
+            "gregorian_era" : "敏達天皇1-02-02",
+            "jd" : 1930010.5,
+            "julian" : "0572-01-31",
+            "julian_era" : "敏達天皇1-01-31",
+            "kyuureki" : "0572-01-01",
+            "kyuureki_era" : "敏達天皇1-01-01"
+         },
          "offset" : 571,
          "short_name" : "敏達",
          "start_day" : {
@@ -35227,6 +36167,17 @@
             "kyuureki_era" : "敏達天皇1-01-01"
          },
          "start_year" : 572,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0572-02-02",
+                  "jd" : 1930010.5,
+                  "kyuureki" : "0572-01-01"
+               },
+               "prev" : "欽明天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Bidatsu",
          "wref_ja" : "敏達天皇"
       },
@@ -37152,9 +38103,40 @@
             "kyuureki_era" : "文武天皇5-03-20"
          },
          "end_year" : 701,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0701-02-16",
+                  "jd" : 1977140.5,
+                  "kyuureki" : "0700-12-30"
+               },
+               "next" : "大宝",
+               "type" : "retroactivated"
+            },
+            {
+               "day" : {
+                  "gregorian" : "0701-05-06",
+                  "jd" : 1977219.5,
+                  "kyuureki" : "0701-03-20"
+               },
+               "next" : "大宝",
+               "type" : "dayretroactivated"
+            },
+            {
+               "day" : {
+                  "gregorian" : "0701-05-07",
+                  "jd" : 1977220.5,
+                  "kyuureki" : "0701-03-21"
+               },
+               "next" : "大宝",
+               "type" : "established"
+            }
+         ],
          "id" : 1093,
          "jp_emperor_era" : 1,
          "key" : "文武天皇",
+         "known_latest_year" : 701,
+         "known_oldest_year" : 697,
          "name" : "文武天皇",
          "name_ja" : "文武天皇",
          "name_kana" : "もんむてんのう",
@@ -37165,6 +38147,15 @@
          "names" : {
             "文武" : 1,
             "文武天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0697-01-31",
+            "gregorian_era" : "文武天皇1-01-31",
+            "jd" : 1975664.5,
+            "julian" : "0697-01-28",
+            "julian_era" : "文武天皇1-01-28",
+            "kyuureki" : "0697-01-01",
+            "kyuureki_era" : "文武天皇1-01-01"
          },
          "offset" : 696,
          "short_name" : "文武",
@@ -37178,6 +38169,26 @@
             "kyuureki_era" : "文武天皇1-08-01"
          },
          "start_year" : 697,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0697-01-31",
+                  "jd" : 1975664.5,
+                  "kyuureki" : "0697-01-01"
+               },
+               "prev" : "持統天皇",
+               "type" : "retroactivated"
+            },
+            {
+               "day" : {
+                  "gregorian" : "0697-08-25",
+                  "jd" : 1975870.5,
+                  "kyuureki" : "0697-08-01"
+               },
+               "prev" : "持統天皇",
+               "type" : "established"
+            }
+         ],
          "wref_en" : "Emperor_Monmu",
          "wref_ja" : "文武天皇"
       },
@@ -37641,13 +38652,13 @@
       },
       "斉明天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0662-01-28",
-            "gregorian_era" : "斉明天皇8-01-28",
-            "jd" : 1962877.5,
-            "julian" : "0662-01-25",
-            "julian_era" : "斉明天皇8-01-25",
-            "kyuureki" : "0662-01-01",
-            "kyuureki_era" : "斉明天皇8-01-01"
+            "gregorian" : "0662-01-27",
+            "gregorian_era" : "斉明天皇8-01-27",
+            "jd" : 1962876.5,
+            "julian" : "0662-01-24",
+            "julian_era" : "斉明天皇8-01-24",
+            "kyuureki" : "0661-12-29",
+            "kyuureki_era" : "斉明天皇7-12-29"
          },
          "end_day" : {
             "gregorian" : "0662-01-27",
@@ -37659,9 +38670,22 @@
             "kyuureki_era" : "斉明天皇7-12-29"
          },
          "end_year" : 661,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0662-01-27",
+                  "jd" : 1962876.5,
+                  "kyuureki" : "0661-12-29"
+               },
+               "next" : "天智天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1566,
          "jp_emperor_era" : 1,
          "key" : "斉明天皇",
+         "known_latest_year" : 662,
+         "known_oldest_year" : 655,
          "name" : "斉明天皇",
          "name_ja" : "斉明天皇",
          "name_kana" : "さいめいてんのう",
@@ -37679,6 +38703,15 @@
             "齋明" : 1,
             "齋明天皇" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "0655-02-15",
+            "gregorian_era" : "斉明天皇1-02-15",
+            "jd" : 1960338.5,
+            "julian" : "0655-02-12",
+            "julian_era" : "斉明天皇1-02-12",
+            "kyuureki" : "0655-01-01",
+            "kyuureki_era" : "斉明天皇1-01-01"
+         },
          "offset" : 654,
          "short_name" : "斉明",
          "start_day" : {
@@ -37691,6 +38724,26 @@
             "kyuureki_era" : "斉明天皇1-01-01"
          },
          "start_year" : 655,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0654-11-27",
+                  "jd" : 1960258.5,
+                  "kyuureki" : "0654-10-10"
+               },
+               "prev" : "白雉",
+               "type" : "succeed"
+            },
+            {
+               "day" : {
+                  "gregorian" : "0655-02-15",
+                  "jd" : 1960338.5,
+                  "kyuureki" : "0655-01-01"
+               },
+               "prev" : "白雉",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Saimei",
          "wref_ja" : "斉明天皇"
       },
@@ -39915,13 +40968,13 @@
       },
       "景行天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0131-02-14",
-            "gregorian_era" : "景行天皇61-02-14",
-            "jd" : 1768950.5,
-            "julian" : "0131-02-15",
-            "julian_era" : "景行天皇61-02-15",
-            "kyuureki" : "0131-01-01",
-            "kyuureki_era" : "景行天皇61-01-01"
+            "gregorian" : "0131-02-13",
+            "gregorian_era" : "景行天皇61-02-13",
+            "jd" : 1768949.5,
+            "julian" : "0131-02-14",
+            "julian_era" : "景行天皇61-02-14",
+            "kyuureki" : "0130-12-30",
+            "kyuureki_era" : "景行天皇60-12-30"
          },
          "end_day" : {
             "gregorian" : "0131-02-13",
@@ -39933,9 +40986,22 @@
             "kyuureki_era" : "景行天皇60-12-30"
          },
          "end_year" : 130,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0131-02-13",
+                  "jd" : 1768949.5,
+                  "kyuureki" : "0130-12-30"
+               },
+               "next" : "成務天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1228,
          "jp_emperor_era" : 1,
          "key" : "景行天皇",
+         "known_latest_year" : 131,
+         "known_oldest_year" : 71,
          "name" : "景行天皇",
          "name_ja" : "景行天皇",
          "name_kana" : "けいこうてんのう",
@@ -39946,6 +41012,15 @@
          "names" : {
             "景行" : 1,
             "景行天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0071-02-16",
+            "gregorian_era" : "景行天皇1-02-16",
+            "jd" : 1747038.5,
+            "julian" : "0071-02-18",
+            "julian_era" : "景行天皇1-02-18",
+            "kyuureki" : "0071-01-01",
+            "kyuureki_era" : "景行天皇1-01-01"
          },
          "offset" : 70,
          "short_name" : "景行",
@@ -39959,6 +41034,17 @@
             "kyuureki_era" : "景行天皇1-01-01"
          },
          "start_year" : 71,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0071-02-16",
+                  "jd" : 1747038.5,
+                  "kyuureki" : "0071-01-01"
+               },
+               "prev" : "垂仁天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Keikō",
          "wref_ja" : "景行天皇"
       },
@@ -40481,7 +41567,7 @@
             "kyuureki" : "0686-12'-30",
             "kyuureki_era" : "朱鳥1-12'-30"
          },
-         "end_year" : 686,
+         "end_year" : 687,
          "ends" : [
             {
                "day" : {
@@ -40489,7 +41575,6 @@
                   "jd" : 1971892.5,
                   "kyuureki" : "0686-09-09"
                },
-               "group" : "崩御",
                "next" : "持統天皇",
                "type" : "succeed"
             },
@@ -40499,9 +41584,8 @@
                   "jd" : 1972031.5,
                   "kyuureki" : "0686-12'-30"
                },
-               "group" : "年末",
                "next" : "持統天皇",
-               "type" : "end-of-year"
+               "type" : "year-end"
             }
          ],
          "id" : 1391,
@@ -40683,13 +41767,13 @@
       },
       "欽明天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0572-02-02",
-            "gregorian_era" : "欽明天皇33-02-02",
-            "jd" : 1930010.5,
-            "julian" : "0572-01-31",
-            "julian_era" : "欽明天皇33-01-31",
-            "kyuureki" : "0572-01-01",
-            "kyuureki_era" : "欽明天皇33-01-01"
+            "gregorian" : "0572-02-01",
+            "gregorian_era" : "欽明天皇33-02-01",
+            "jd" : 1930009.5,
+            "julian" : "0572-01-30",
+            "julian_era" : "欽明天皇33-01-30",
+            "kyuureki" : "0571-12-30",
+            "kyuureki_era" : "欽明天皇32-12-30"
          },
          "end_day" : {
             "gregorian" : "0572-02-01",
@@ -40701,9 +41785,22 @@
             "kyuureki_era" : "欽明天皇32-12-30"
          },
          "end_year" : 571,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0572-02-01",
+                  "jd" : 1930009.5,
+                  "kyuureki" : "0571-12-30"
+               },
+               "next" : "敏達天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 683,
          "jp_emperor_era" : 1,
          "key" : "欽明天皇",
+         "known_latest_year" : 572,
+         "known_oldest_year" : 540,
          "name" : "欽明天皇",
          "name_ja" : "欽明天皇",
          "name_kana" : "きんめいてんのう",
@@ -40714,6 +41811,15 @@
          "names" : {
             "欽明" : 1,
             "欽明天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0540-01-27",
+            "gregorian_era" : "欽明天皇1-01-27",
+            "jd" : 1918316.5,
+            "julian" : "0540-01-25",
+            "julian_era" : "欽明天皇1-01-25",
+            "kyuureki" : "0540-01-01",
+            "kyuureki_era" : "欽明天皇1-01-01"
          },
          "offset" : 539,
          "short_name" : "欽明",
@@ -40727,6 +41833,17 @@
             "kyuureki_era" : "欽明天皇1-01-01"
          },
          "start_year" : 540,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0540-01-27",
+                  "jd" : 1918316.5,
+                  "kyuureki" : "0540-01-01"
+               },
+               "prev" : "宣化天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Kinmei",
          "wref_ja" : "欽明天皇"
       },
@@ -41769,6 +42886,15 @@
             },
             {
                "day" : {
+                  "gregorian" : "1370-02-25",
+                  "jd" : 2221497.5,
+                  "kyuureki" : "1370-01-21"
+               },
+               "next" : "建徳",
+               "type" : "established/possible"
+            },
+            {
+               "day" : {
                   "gregorian" : "1370-03-10",
                   "jd" : 2221510.5,
                   "kyuureki" : "1370-02-04"
@@ -41784,6 +42910,15 @@
                },
                "next" : "建徳",
                "type" : "established"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1370-05-25",
+                  "jd" : 2221586.5,
+                  "kyuureki" : "1370-04-22"
+               },
+               "next" : "建徳",
+               "type" : "established/possible"
             },
             {
                "day" : [
@@ -43254,13 +44389,13 @@
       },
       "武烈天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0507-01-31",
-            "gregorian_era" : "武烈天皇9-01-31",
-            "jd" : 1906267.5,
-            "julian" : "0507-01-29",
-            "julian_era" : "武烈天皇9-01-29",
-            "kyuureki" : "0507-01-01",
-            "kyuureki_era" : "武烈天皇9-01-01"
+            "gregorian" : "0507-01-30",
+            "gregorian_era" : "武烈天皇9-01-30",
+            "jd" : 1906266.5,
+            "julian" : "0507-01-28",
+            "julian_era" : "武烈天皇9-01-28",
+            "kyuureki" : "0506-12-29",
+            "kyuureki_era" : "武烈天皇8-12-29"
          },
          "end_day" : {
             "gregorian" : "0507-01-30",
@@ -43272,9 +44407,22 @@
             "kyuureki_era" : "武烈天皇8-12-29"
          },
          "end_year" : 506,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0507-01-30",
+                  "jd" : 1906266.5,
+                  "kyuureki" : "0506-12-29"
+               },
+               "next" : "継体天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1073,
          "jp_emperor_era" : 1,
          "key" : "武烈天皇",
+         "known_latest_year" : 507,
+         "known_oldest_year" : 499,
          "name" : "武烈天皇",
          "name_ja" : "武烈天皇",
          "name_kana" : "ぶれつてんのう",
@@ -43285,6 +44433,15 @@
          "names" : {
             "武烈" : 1,
             "武烈天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0499-01-29",
+            "gregorian_era" : "武烈天皇1-01-29",
+            "jd" : 1903344.5,
+            "julian" : "0499-01-28",
+            "julian_era" : "武烈天皇1-01-28",
+            "kyuureki" : "0499-01-01",
+            "kyuureki_era" : "武烈天皇1-01-01"
          },
          "offset" : 498,
          "short_name" : "武烈",
@@ -43298,6 +44455,17 @@
             "kyuureki_era" : "武烈天皇1-01-01"
          },
          "start_year" : 499,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0499-01-29",
+                  "jd" : 1903344.5,
+                  "kyuureki" : "0499-01-01"
+               },
+               "prev" : "仁賢天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Buretsu",
          "wref_ja" : "武烈天皇"
       },
@@ -47864,13 +49032,13 @@
       },
       "清寧天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0485-02-02",
-            "gregorian_era" : "清寧天皇6-02-02",
-            "jd" : 1898235.5,
-            "julian" : "0485-02-01",
-            "julian_era" : "清寧天皇6-02-01",
-            "kyuureki" : "0485-01-01",
-            "kyuureki_era" : "清寧天皇6-01-01"
+            "gregorian" : "0485-02-01",
+            "gregorian_era" : "清寧天皇6-02-01",
+            "jd" : 1898234.5,
+            "julian" : "0485-01-31",
+            "julian_era" : "清寧天皇6-01-31",
+            "kyuureki" : "0484-12-30",
+            "kyuureki_era" : "清寧天皇5-12-30"
          },
          "end_day" : {
             "gregorian" : "0485-02-01",
@@ -47882,9 +49050,22 @@
             "kyuureki_era" : "清寧天皇5-12-30"
          },
          "end_year" : 484,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0485-02-01",
+                  "jd" : 1898234.5,
+                  "kyuureki" : "0484-12-30"
+               },
+               "next" : "顕宗天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1586,
          "jp_emperor_era" : 1,
          "key" : "清寧天皇",
+         "known_latest_year" : 485,
+         "known_oldest_year" : 480,
          "name" : "清寧天皇",
          "name_ja" : "清寧天皇",
          "name_kana" : "せいねいてんのう",
@@ -47902,6 +49083,15 @@
             "清寧" : 1,
             "清寧天皇" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "0480-01-29",
+            "gregorian_era" : "清寧天皇1-01-29",
+            "jd" : 1896404.5,
+            "julian" : "0480-01-28",
+            "julian_era" : "清寧天皇1-01-28",
+            "kyuureki" : "0480-01-01",
+            "kyuureki_era" : "清寧天皇1-01-01"
+         },
          "offset" : 479,
          "short_name" : "清寧",
          "start_day" : {
@@ -47914,6 +49104,17 @@
             "kyuureki_era" : "清寧天皇1-01-01"
          },
          "start_year" : 480,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0480-01-29",
+                  "jd" : 1896404.5,
+                  "kyuureki" : "0480-01-01"
+               },
+               "prev" : "雄略天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Seinei",
          "wref_ja" : "清寧天皇"
       },
@@ -48351,13 +49552,13 @@
       },
       "用明天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0588-02-05",
-            "gregorian_era" : "用明天皇3-02-05",
-            "jd" : 1935857.5,
-            "julian" : "0588-02-03",
-            "julian_era" : "用明天皇3-02-03",
-            "kyuureki" : "0588-01-01",
-            "kyuureki_era" : "用明天皇3-01-01"
+            "gregorian" : "0588-02-04",
+            "gregorian_era" : "用明天皇3-02-04",
+            "jd" : 1935856.5,
+            "julian" : "0588-02-02",
+            "julian_era" : "用明天皇3-02-02",
+            "kyuureki" : "0587-12-30",
+            "kyuureki_era" : "用明天皇2-12-30"
          },
          "end_day" : {
             "gregorian" : "0588-02-04",
@@ -48369,9 +49570,22 @@
             "kyuureki_era" : "用明天皇2-12-30"
          },
          "end_year" : 587,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0588-02-04",
+                  "jd" : 1935856.5,
+                  "kyuureki" : "0587-12-30"
+               },
+               "next" : "崇峻天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 766,
          "jp_emperor_era" : 1,
          "key" : "用明天皇",
+         "known_latest_year" : 588,
+         "known_oldest_year" : 586,
          "name" : "用明天皇",
          "name_ja" : "用明天皇",
          "name_kana" : "ようめいてんのう",
@@ -48382,6 +49596,15 @@
          "names" : {
             "用明" : 1,
             "用明天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0586-01-27",
+            "gregorian_era" : "用明天皇1-01-27",
+            "jd" : 1935118.5,
+            "julian" : "0586-01-25",
+            "julian_era" : "用明天皇1-01-25",
+            "kyuureki" : "0586-01-01",
+            "kyuureki_era" : "用明天皇1-01-01"
          },
          "offset" : 585,
          "short_name" : "用明",
@@ -48395,6 +49618,17 @@
             "kyuureki_era" : "用明天皇1-01-01"
          },
          "start_year" : 586,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0586-01-27",
+                  "jd" : 1935118.5,
+                  "kyuureki" : "0586-01-01"
+               },
+               "prev" : "敏達天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Yōmei",
          "wref_ja" : "用明天皇"
       },
@@ -48449,13 +49683,13 @@
       },
       "白雉" : {
          "actual_end_day" : {
-            "gregorian" : "0655-02-15",
-            "gregorian_era" : "白雉6-02-15",
-            "jd" : 1960338.5,
-            "julian" : "0655-02-12",
-            "julian_era" : "白雉6-02-12",
-            "kyuureki" : "0655-01-01",
-            "kyuureki_era" : "白雉6-01-01"
+            "gregorian" : "0655-02-14",
+            "gregorian_era" : "白雉6-02-14",
+            "jd" : 1960337.5,
+            "julian" : "0655-02-11",
+            "julian_era" : "白雉6-02-11",
+            "kyuureki" : "0654-12-30",
+            "kyuureki_era" : "白雉5-12-30"
          },
          "code10" : 1,
          "code14" : 2,
@@ -48477,7 +49711,6 @@
                   "jd" : 1960258.5,
                   "kyuureki" : "0654-10-10"
                },
-               "group" : "崩御",
                "next" : "斉明天皇",
                "type" : "succeed"
             },
@@ -48487,9 +49720,8 @@
                   "jd" : 1960337.5,
                   "kyuureki" : "0654-12-30"
                },
-               "group" : "年末",
                "next" : "斉明天皇",
-               "type" : "end-of-year"
+               "type" : "year-end"
             }
          ],
          "id" : 126,
@@ -48784,9 +50016,49 @@
             "kyuureki_era" : "皇極天皇4-06-18"
          },
          "end_year" : 645,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0645-02-04",
+                  "jd" : 1956675.5,
+                  "kyuureki" : "0644-12-30"
+               },
+               "next" : "大化",
+               "type" : "retroactivated"
+            },
+            {
+               "day" : {
+                  "gregorian" : "0645-02-05",
+                  "jd" : 1956676.5,
+                  "kyuureki" : "0645-01-01"
+               },
+               "next" : "大化",
+               "type" : "established/incorrect"
+            },
+            {
+               "day" : {
+                  "gregorian" : "0645-07-19",
+                  "jd" : 1956840.5,
+                  "kyuureki" : "0645-06-18"
+               },
+               "next" : "大化",
+               "type" : "dayretroactivated"
+            },
+            {
+               "day" : {
+                  "gregorian" : "0645-07-20",
+                  "jd" : 1956841.5,
+                  "kyuureki" : "0645-06-19"
+               },
+               "next" : "大化",
+               "type" : "established"
+            }
+         ],
          "id" : 946,
          "jp_emperor_era" : 1,
          "key" : "皇極天皇",
+         "known_latest_year" : 645,
+         "known_oldest_year" : 642,
          "name" : "皇極天皇",
          "name_ja" : "皇極天皇",
          "name_kana" : "こうぎょくてんのう",
@@ -48800,6 +50072,15 @@
             "皇極" : 1,
             "皇極天皇" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "0642-02-08",
+            "gregorian_era" : "皇極天皇1-02-08",
+            "jd" : 1955583.5,
+            "julian" : "0642-02-05",
+            "julian_era" : "皇極天皇1-02-05",
+            "kyuureki" : "0642-01-01",
+            "kyuureki_era" : "皇極天皇1-01-01"
+         },
          "offset" : 641,
          "short_name" : "皇極",
          "start_day" : {
@@ -48812,6 +50093,17 @@
             "kyuureki_era" : "皇極天皇1-01-01"
          },
          "start_year" : 642,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0642-02-08",
+                  "jd" : 1955583.5,
+                  "kyuureki" : "0642-01-01"
+               },
+               "prev" : "舒明天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Kōgyoku",
          "wref_ja" : "皇極天皇"
       },
@@ -49315,13 +50607,13 @@
       },
       "神功皇后摂政" : {
          "actual_end_day" : {
-            "gregorian" : "0270-02-08",
-            "gregorian_era" : "神功皇后摂政70-02-08",
-            "jd" : 1819713.5,
-            "julian" : "0270-02-08",
-            "julian_era" : "神功皇后摂政70-02-08",
-            "kyuureki" : "0270-01-01",
-            "kyuureki_era" : "神功皇后摂政70-01-01"
+            "gregorian" : "0270-02-07",
+            "gregorian_era" : "神功皇后摂政70-02-07",
+            "jd" : 1819712.5,
+            "julian" : "0270-02-07",
+            "julian_era" : "神功皇后摂政70-02-07",
+            "kyuureki" : "0269-12-30",
+            "kyuureki_era" : "神功皇后摂政69-12-30"
          },
          "end_day" : {
             "gregorian" : "0270-02-07",
@@ -49333,9 +50625,22 @@
             "kyuureki_era" : "神功皇后摂政69-12-30"
          },
          "end_year" : 269,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0270-02-07",
+                  "jd" : 1819712.5,
+                  "kyuureki" : "0269-12-30"
+               },
+               "next" : "応神天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 662,
          "jp_emperor_era" : 1,
          "key" : "神功皇后摂政",
+         "known_latest_year" : 270,
+         "known_oldest_year" : 201,
          "name" : "神功皇后摂政",
          "name_ja" : "神功皇后摂政",
          "name_kana" : "じんぐうこうごうせっしょう",
@@ -49377,6 +50682,15 @@
             "神功皇後摄政" : 1,
             "神功皇後攝政" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "0201-01-22",
+            "gregorian_era" : "神功皇后摂政1-01-22",
+            "jd" : 1794494.5,
+            "julian" : "0201-01-22",
+            "julian_era" : "神功皇后摂政1-01-22",
+            "kyuureki" : "0201-01-01",
+            "kyuureki_era" : "神功皇后摂政1-01-01"
+         },
          "offset" : 200,
          "short_name" : "神功皇后",
          "start_day" : {
@@ -49389,6 +50703,17 @@
             "kyuureki_era" : "神功皇后摂政1-01-01"
          },
          "start_year" : 201,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0201-01-22",
+                  "jd" : 1794494.5,
+                  "kyuureki" : "0201-01-01"
+               },
+               "prev" : "仲哀天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Empress_Jingū",
          "wref_ja" : "神功皇后"
       },
@@ -49464,13 +50789,13 @@
       },
       "神武天皇" : {
          "actual_end_day" : {
-            "gregorian" : "-0580-02-10",
-            "gregorian_era" : "神武天皇80-02-10",
-            "jd" : 1509258.5,
-            "julian" : "-0580-02-16",
-            "julian_era" : "神武天皇80-02-16",
-            "kyuureki" : "-0580-01-01",
-            "kyuureki_era" : "神武天皇80-01-01"
+            "gregorian" : "-0580-02-09",
+            "gregorian_era" : "神武天皇80-02-09",
+            "jd" : 1509257.5,
+            "julian" : "-0580-02-15",
+            "julian_era" : "神武天皇80-02-15",
+            "kyuureki" : "-0581-12-30",
+            "kyuureki_era" : "神武天皇79-12-30"
          },
          "end_day" : {
             "gregorian" : "-0580-02-09",
@@ -49482,9 +50807,22 @@
             "kyuureki_era" : "神武天皇79-12-30"
          },
          "end_year" : -581,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "-0580-02-09",
+                  "jd" : 1509257.5,
+                  "kyuureki" : "-0581-12-30"
+               },
+               "next" : "綏靖天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 756,
          "jp_emperor_era" : 1,
          "key" : "神武天皇",
+         "known_latest_year" : -580,
+         "known_oldest_year" : -659,
          "name" : "神武天皇",
          "name_ja" : "神武天皇",
          "name_kana" : "じんむてんのう",
@@ -49539,6 +50877,15 @@
             "神武紀元" : 1,
             "神武纪元" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "-0659-02-11",
+            "gregorian_era" : "神武天皇1-02-11",
+            "jd" : 1480406.5,
+            "julian" : "-0659-02-18",
+            "julian_era" : "神武天皇1-02-18",
+            "kyuureki" : "-0659-01-01",
+            "kyuureki_era" : "神武天皇1-01-01"
+         },
          "offset" : -660,
          "short_name" : "神武",
          "start_day" : {
@@ -49551,6 +50898,17 @@
             "kyuureki_era" : "神武天皇1-01-01"
          },
          "start_year" : -659,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "-0659-02-11",
+                  "jd" : 1480406.5,
+                  "kyuureki" : "-0659-01-01"
+               },
+               "prev" : null,
+               "type" : "year-start"
+            }
+         ],
          "suikawiki" : "神武天皇即位紀元",
          "wref_en" : "Emperor_Jimmu",
          "wref_ja" : "神武天皇",
@@ -50458,13 +51816,13 @@
       },
       "綏靖天皇" : {
          "actual_end_day" : {
-            "gregorian" : "-0547-02-04",
-            "gregorian_era" : "綏靖天皇34-02-04",
-            "jd" : 1521306.5,
-            "julian" : "-0547-02-10",
-            "julian_era" : "綏靖天皇34-02-10",
-            "kyuureki" : "-0547-01-01",
-            "kyuureki_era" : "綏靖天皇34-01-01"
+            "gregorian" : "-0547-02-03",
+            "gregorian_era" : "綏靖天皇34-02-03",
+            "jd" : 1521305.5,
+            "julian" : "-0547-02-09",
+            "julian_era" : "綏靖天皇34-02-09",
+            "kyuureki" : "-0548-12-29",
+            "kyuureki_era" : "綏靖天皇33-12-29"
          },
          "end_day" : {
             "gregorian" : "-0547-02-03",
@@ -50476,9 +51834,22 @@
             "kyuureki_era" : "綏靖天皇33-12-29"
          },
          "end_year" : -548,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "-0547-02-03",
+                  "jd" : 1521305.5,
+                  "kyuureki" : "-0548-12-29"
+               },
+               "next" : "安寧天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1110,
          "jp_emperor_era" : 1,
          "key" : "綏靖天皇",
+         "known_latest_year" : -547,
+         "known_oldest_year" : -580,
          "name" : "綏靖天皇",
          "name_ja" : "綏靖天皇",
          "name_kana" : "すいぜいてんのう",
@@ -50496,6 +51867,15 @@
             "绥靖" : 1,
             "绥靖天皇" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "-0580-02-10",
+            "gregorian_era" : "綏靖天皇1-02-10",
+            "jd" : 1509258.5,
+            "julian" : "-0580-02-16",
+            "julian_era" : "綏靖天皇1-02-16",
+            "kyuureki" : "-0580-01-01",
+            "kyuureki_era" : "綏靖天皇1-01-01"
+         },
          "offset" : -581,
          "short_name" : "綏靖",
          "start_day" : {
@@ -50508,6 +51888,17 @@
             "kyuureki_era" : "綏靖天皇1-01-01"
          },
          "start_year" : -580,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "-0580-02-10",
+                  "jd" : 1509258.5,
+                  "kyuureki" : "-0580-01-01"
+               },
+               "prev" : "神武天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Suizei",
          "wref_ja" : "綏靖天皇"
       },
@@ -50527,27 +51918,40 @@
       },
       "継体天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0532-01-25",
-            "gregorian_era" : "継体天皇26-01-25",
-            "jd" : 1915392.5,
-            "julian" : "0532-01-23",
-            "julian_era" : "継体天皇26-01-23",
-            "kyuureki" : "0532-01-01",
-            "kyuureki_era" : "継体天皇26-01-01"
+            "gregorian" : "0534-01-31",
+            "gregorian_era" : "継体天皇28-01-31",
+            "jd" : 1916129.5,
+            "julian" : "0534-01-29",
+            "julian_era" : "継体天皇28-01-29",
+            "kyuureki" : "0533-12-29",
+            "kyuureki_era" : "継体天皇27-12-29"
          },
          "end_day" : {
-            "gregorian" : "0532-01-24",
-            "gregorian_era" : "継体天皇26-01-24",
-            "jd" : 1915391.5,
-            "julian" : "0532-01-22",
-            "julian_era" : "継体天皇26-01-22",
-            "kyuureki" : "0531-12-30",
-            "kyuureki_era" : "継体天皇25-12-30"
+            "gregorian" : "0534-01-31",
+            "gregorian_era" : "継体天皇28-01-31",
+            "jd" : 1916129.5,
+            "julian" : "0534-01-29",
+            "julian_era" : "継体天皇28-01-29",
+            "kyuureki" : "0533-12-29",
+            "kyuureki_era" : "継体天皇27-12-29"
          },
-         "end_year" : 531,
+         "end_year" : 533,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0534-01-31",
+                  "jd" : 1916129.5,
+                  "kyuureki" : "0533-12-29"
+               },
+               "next" : "安閑天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 568,
          "jp_emperor_era" : 1,
          "key" : "継体天皇",
+         "known_latest_year" : 534,
+         "known_oldest_year" : 507,
          "name" : "継体天皇",
          "name_ja" : "継体天皇",
          "name_kana" : "けいたいてんのう",
@@ -50565,6 +51969,15 @@
             "繼體" : 1,
             "繼體天皇" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "0507-01-31",
+            "gregorian_era" : "継体天皇1-01-31",
+            "jd" : 1906267.5,
+            "julian" : "0507-01-29",
+            "julian_era" : "継体天皇1-01-29",
+            "kyuureki" : "0507-01-01",
+            "kyuureki_era" : "継体天皇1-01-01"
+         },
          "offset" : 506,
          "short_name" : "継体",
          "start_day" : {
@@ -50577,6 +51990,17 @@
             "kyuureki_era" : "継体天皇1-01-01"
          },
          "start_year" : 507,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0507-01-31",
+                  "jd" : 1906267.5,
+                  "kyuureki" : "0507-01-01"
+               },
+               "prev" : "武烈天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Keitai",
          "wref_ja" : "継体天皇"
       },
@@ -51726,13 +53150,13 @@
       },
       "舒明天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0642-02-08",
-            "gregorian_era" : "舒明天皇14-02-08",
-            "jd" : 1955583.5,
-            "julian" : "0642-02-05",
-            "julian_era" : "舒明天皇14-02-05",
-            "kyuureki" : "0642-01-01",
-            "kyuureki_era" : "舒明天皇14-01-01"
+            "gregorian" : "0642-02-07",
+            "gregorian_era" : "舒明天皇14-02-07",
+            "jd" : 1955582.5,
+            "julian" : "0642-02-04",
+            "julian_era" : "舒明天皇14-02-04",
+            "kyuureki" : "0641-12-29",
+            "kyuureki_era" : "舒明天皇13-12-29"
          },
          "end_day" : {
             "gregorian" : "0642-02-07",
@@ -51744,9 +53168,22 @@
             "kyuureki_era" : "舒明天皇13-12-29"
          },
          "end_year" : 641,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0642-02-07",
+                  "jd" : 1955582.5,
+                  "kyuureki" : "0641-12-29"
+               },
+               "next" : "皇極天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1569,
          "jp_emperor_era" : 1,
          "key" : "舒明天皇",
+         "known_latest_year" : 642,
+         "known_oldest_year" : 629,
          "name" : "舒明天皇",
          "name_ja" : "舒明天皇",
          "name_kana" : "じょめいてんのう",
@@ -51757,6 +53194,15 @@
          "names" : {
             "舒明" : 1,
             "舒明天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0629-02-02",
+            "gregorian_era" : "舒明天皇1-02-02",
+            "jd" : 1950829.5,
+            "julian" : "0629-01-30",
+            "julian_era" : "舒明天皇1-01-30",
+            "kyuureki" : "0629-01-01",
+            "kyuureki_era" : "舒明天皇1-01-01"
          },
          "offset" : 628,
          "short_name" : "舒明",
@@ -51770,6 +53216,17 @@
             "kyuureki_era" : "舒明天皇1-01-01"
          },
          "start_year" : 629,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0629-02-02",
+                  "jd" : 1950829.5,
+                  "kyuureki" : "0629-01-01"
+               },
+               "prev" : "推古天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Jomei",
          "wref_ja" : "舒明天皇"
       },
@@ -55737,13 +57194,13 @@
       },
       "開化天皇" : {
          "actual_end_day" : {
-            "gregorian" : "-0096-02-03",
-            "gregorian_era" : "開化天皇61-02-03",
-            "jd" : 1686028.5,
-            "julian" : "-0096-02-05",
-            "julian_era" : "開化天皇61-02-05",
-            "kyuureki" : "-0096-01-01",
-            "kyuureki_era" : "開化天皇61-01-01"
+            "gregorian" : "-0096-02-02",
+            "gregorian_era" : "開化天皇61-02-02",
+            "jd" : 1686027.5,
+            "julian" : "-0096-02-04",
+            "julian_era" : "開化天皇61-02-04",
+            "kyuureki" : "-0097-12-30",
+            "kyuureki_era" : "開化天皇60-12-30"
          },
          "end_day" : {
             "gregorian" : "-0096-02-02",
@@ -55755,9 +57212,22 @@
             "kyuureki_era" : "開化天皇60-12-30"
          },
          "end_year" : -97,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "-0096-02-02",
+                  "jd" : 1686027.5,
+                  "kyuureki" : "-0097-12-30"
+               },
+               "next" : "崇神天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1175,
          "jp_emperor_era" : 1,
          "key" : "開化天皇",
+         "known_latest_year" : -96,
+         "known_oldest_year" : -156,
          "name" : "開化天皇",
          "name_ja" : "開化天皇",
          "name_kana" : "かいかてんのう",
@@ -55771,6 +57241,15 @@
             "開化" : 1,
             "開化天皇" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "-0156-02-05",
+            "gregorian_era" : "開化天皇1-02-05",
+            "jd" : 1664116.5,
+            "julian" : "-0156-02-08",
+            "julian_era" : "開化天皇1-02-08",
+            "kyuureki" : "-0156-01-01",
+            "kyuureki_era" : "開化天皇1-01-01"
+         },
          "offset" : -157,
          "short_name" : "開化",
          "start_day" : {
@@ -55783,6 +57262,17 @@
             "kyuureki_era" : "開化天皇1-01-01"
          },
          "start_year" : -156,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "-0156-02-05",
+                  "jd" : 1664116.5,
+                  "kyuureki" : "-0156-01-01"
+               },
+               "prev" : "孝元天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Kaika",
          "wref_ja" : "開化天皇"
       },
@@ -56353,13 +57843,13 @@
       },
       "雄略天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0480-01-29",
-            "gregorian_era" : "雄略天皇24-01-29",
-            "jd" : 1896404.5,
-            "julian" : "0480-01-28",
-            "julian_era" : "雄略天皇24-01-28",
-            "kyuureki" : "0480-01-01",
-            "kyuureki_era" : "雄略天皇24-01-01"
+            "gregorian" : "0480-01-28",
+            "gregorian_era" : "雄略天皇24-01-28",
+            "jd" : 1896403.5,
+            "julian" : "0480-01-27",
+            "julian_era" : "雄略天皇24-01-27",
+            "kyuureki" : "0479-12-30",
+            "kyuureki_era" : "雄略天皇23-12-30"
          },
          "end_day" : {
             "gregorian" : "0480-01-28",
@@ -56371,9 +57861,22 @@
             "kyuureki_era" : "雄略天皇23-12-30"
          },
          "end_year" : 479,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0480-01-28",
+                  "jd" : 1896403.5,
+                  "kyuureki" : "0479-12-30"
+               },
+               "next" : "清寧天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 372,
          "jp_emperor_era" : 1,
          "key" : "雄略天皇",
+         "known_latest_year" : 480,
+         "known_oldest_year" : 457,
          "name" : "雄略天皇",
          "name_ja" : "雄略天皇",
          "name_kana" : "ゆうりゃくてんのう",
@@ -56384,6 +57887,15 @@
          "names" : {
             "雄略" : 1,
             "雄略天皇" : 1
+         },
+         "official_start_day" : {
+            "gregorian" : "0457-02-11",
+            "gregorian_era" : "雄略天皇1-02-11",
+            "jd" : 1888017.5,
+            "julian" : "0457-02-10",
+            "julian_era" : "雄略天皇1-02-10",
+            "kyuureki" : "0457-01-01",
+            "kyuureki_era" : "雄略天皇1-01-01"
          },
          "offset" : 456,
          "short_name" : "雄略",
@@ -56397,6 +57909,17 @@
             "kyuureki_era" : "雄略天皇1-01-01"
          },
          "start_year" : 457,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0457-02-11",
+                  "jd" : 1888017.5,
+                  "kyuureki" : "0457-01-01"
+               },
+               "prev" : "安康天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Yūryaku",
          "wref_ja" : "雄略天皇"
       },
@@ -56884,13 +58407,13 @@
       },
       "顕宗天皇" : {
          "actual_end_day" : {
-            "gregorian" : "0488-01-30",
-            "gregorian_era" : "顕宗天皇4-01-30",
-            "jd" : 1899327.5,
-            "julian" : "0488-01-29",
-            "julian_era" : "顕宗天皇4-01-29",
-            "kyuureki" : "0488-01-01",
-            "kyuureki_era" : "顕宗天皇4-01-01"
+            "gregorian" : "0488-01-29",
+            "gregorian_era" : "顕宗天皇4-01-29",
+            "jd" : 1899326.5,
+            "julian" : "0488-01-28",
+            "julian_era" : "顕宗天皇4-01-28",
+            "kyuureki" : "0487-12-29",
+            "kyuureki_era" : "顕宗天皇3-12-29"
          },
          "end_day" : {
             "gregorian" : "0488-01-29",
@@ -56902,9 +58425,22 @@
             "kyuureki_era" : "顕宗天皇3-12-29"
          },
          "end_year" : 487,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "0488-01-29",
+                  "jd" : 1899326.5,
+                  "kyuureki" : "0487-12-29"
+               },
+               "next" : "仁賢天皇",
+               "type" : "year-end"
+            }
+         ],
          "id" : 1335,
          "jp_emperor_era" : 1,
          "key" : "顕宗天皇",
+         "known_latest_year" : 488,
+         "known_oldest_year" : 485,
          "name" : "顕宗天皇",
          "name_ja" : "顕宗天皇",
          "name_kana" : "けんぞうてんのう",
@@ -56918,6 +58454,15 @@
             "顯宗" : 1,
             "顯宗天皇" : 1
          },
+         "official_start_day" : {
+            "gregorian" : "0485-02-02",
+            "gregorian_era" : "顕宗天皇1-02-02",
+            "jd" : 1898235.5,
+            "julian" : "0485-02-01",
+            "julian_era" : "顕宗天皇1-02-01",
+            "kyuureki" : "0485-01-01",
+            "kyuureki_era" : "顕宗天皇1-01-01"
+         },
          "offset" : 484,
          "short_name" : "顕宗",
          "start_day" : {
@@ -56930,6 +58475,17 @@
             "kyuureki_era" : "顕宗天皇1-01-01"
          },
          "start_year" : 485,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "0485-02-02",
+                  "jd" : 1898235.5,
+                  "kyuureki" : "0485-01-01"
+               },
+               "prev" : "清寧天皇",
+               "type" : "year-start"
+            }
+         ],
          "wref_en" : "Emperor_Kenzō",
          "wref_ja" : "顕宗天皇"
       },
