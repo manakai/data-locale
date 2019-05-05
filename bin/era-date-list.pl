@@ -427,13 +427,27 @@ for my $era (@era) {
              $_->[2]->{label} eq '足利尊氏' or
              $_->[2]->{label} eq '足利義詮' or
              $_->[2]->{label} eq '北朝' or
-             $_->[2]->{label} eq '南朝') {
+             $_->[2]->{label} eq '南朝' or
+             $_->[2]->{label} eq '台湾' or
+             $_->[2]->{label} eq '南洋群島' or
+             $_->[2]->{label} eq '吐噶喇列島' or
+             $_->[2]->{label} eq '奄美群島' or
+             $_->[2]->{label} eq '小笠原' or
+             $_->[2]->{label} eq '沖縄' or
+             $_->[2]->{label} eq '竹島' or
+             $_->[2]->{label} eq '関東州' or
+             $_->[2]->{label} eq '満鉄附属地' or
+             $_->[2]->{label} eq '南樺太' or
+             $_->[2]->{label} eq '千島') {
       $v->{type} = 'wartime';
       $v->{group} = $_->[2]->{label};
       die $era->{_key} unless defined $v->{prev};
     } elsif ($_->[2]->{label} eq '足利持氏') {
       $v->{type} = 'wartime';
       $v->{group} = '鎌倉';
+    } elsif ($_->[2]->{label} eq '朝鮮') {
+      $v->{type} = 'succeed';
+      $v->{group} = $_->[2]->{label};
     } else {
       die "Bad label |$_->[2]->{label}|";
     }
@@ -471,10 +485,22 @@ for my $era (@era) {
              $_->[2]->{label} eq '足利義詮' or
              $_->[2]->{label} eq '北朝' or
              $_->[2]->{label} eq '南朝' or
-             $_->[2]->{label} eq '平氏') {
+             $_->[2]->{label} eq '平氏' or
+             $_->[2]->{label} eq '台湾' or
+             $_->[2]->{label} eq '朝鮮' or
+             $_->[2]->{label} eq '沖縄' or
+             $_->[2]->{label} eq '行政分離' or
+             $_->[2]->{label} eq '平和条約' or
+             $_->[2]->{label} eq '関東州' or
+             $_->[2]->{label} eq '北樺太' or
+             $_->[2]->{label} eq '南樺太' or
+             $_->[2]->{label} eq '千島') {
       $v->{type} = 'wartime';
       $v->{group} = $_->[2]->{label};
       die $era->{_key} unless defined $v->{next};
+    } elsif ($_->[2]->{label} eq '満鉄附属地') {
+      $v->{type} = 'succeed'; # returned
+      $v->{group} = $_->[2]->{label};
     } else {
       die "Bad label |$_->[2]->{label}|";
     }

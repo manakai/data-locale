@@ -11399,6 +11399,23 @@
                },
                "prev" : "明治",
                "type" : "established/incorrect"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1914-12-01",
+                     "jd" : 2420467.5,
+                     "kyuureki" : "1914-10-14"
+                  },
+                  {
+                     "gregorian" : "1914-12-31",
+                     "jd" : 2420497.5,
+                     "kyuureki" : "1914-11-15"
+                  }
+               ],
+               "group" : "南洋群島",
+               "prev" : "AD",
+               "type" : "wartime"
             }
          ],
          "unicode" : "㍽",
@@ -19742,6 +19759,16 @@
          },
          "end_year" : 1860,
          "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "1856-01-28",
+                  "jd" : 2398976.5,
+                  "kyuureki" : "1855-12-21"
+               },
+               "group" : "千島",
+               "next" : "AD",
+               "type" : "wartime"
+            },
             {
                "day" : {
                   "gregorian" : "1860-01-22",
@@ -39580,6 +39607,36 @@
          "ends" : [
             {
                "day" : {
+                  "gregorian" : "1875-08-22",
+                  "jd" : 2406122.5,
+                  "kyuureki" : "1875-07-22"
+               },
+               "group" : "北樺太",
+               "next" : "AD",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1875-08-22",
+                  "jd" : 2406122.5,
+                  "kyuureki" : "1875-07-22"
+               },
+               "group" : "南樺太",
+               "next" : "AD",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1895-11-08",
+                  "jd" : 2413505.5,
+                  "kyuureki" : "1895-09-22"
+               },
+               "group" : "関東州",
+               "next" : "光緒",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
                   "gregorian" : "1912-07-29",
                   "jd" : 2419612.5,
                   "kyuureki" : "1912-06-16"
@@ -39726,6 +39783,76 @@
                },
                "prev" : "慶応",
                "type" : "diplomatically-notified"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1875-08-22",
+                  "jd" : 2406122.5,
+                  "kyuureki" : "1875-07-22"
+               },
+               "group" : "千島",
+               "prev" : "AD",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1895-05-08",
+                  "jd" : 2413321.5,
+                  "kyuureki" : "1895-04-14"
+               },
+               "group" : "台湾",
+               "prev" : "光緒",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1895-05-08",
+                  "jd" : 2413321.5,
+                  "kyuureki" : "1895-04-14"
+               },
+               "group" : "関東州",
+               "prev" : "光緒",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1905-11-25",
+                  "jd" : 2417174.5,
+                  "kyuureki" : "1905-10-29"
+               },
+               "group" : "関東州",
+               "prev" : "AD",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1905-11-25",
+                  "jd" : 2417174.5,
+                  "kyuureki" : "1905-10-29"
+               },
+               "group" : "満鉄附属地",
+               "prev" : "AD",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1905-11-25",
+                  "jd" : 2417174.5,
+                  "kyuureki" : "1905-10-29"
+               },
+               "group" : "南樺太",
+               "prev" : "AD",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1910-09-10",
+                  "jd" : 2418924.5,
+                  "kyuureki" : "1910-08-07"
+               },
+               "group" : "朝鮮",
+               "prev" : "隆煕",
+               "type" : "succeed"
             }
          ],
          "unicode" : "㍾",
@@ -39883,6 +40010,97 @@
          "end_year" : 1989,
          "ends" : [
             {
+               "day" : [
+                  {
+                     "gregorian" : "1937-01-01",
+                     "jd" : 2428534.5,
+                     "kyuureki" : "1936-11-19"
+                  },
+                  {
+                     "gregorian" : "1937-12-31",
+                     "jd" : 2428898.5,
+                     "kyuureki" : "1937-11-29"
+                  }
+               ],
+               "group" : "満鉄附属地",
+               "next" : "康德",
+               "type" : "succeed"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1945-06-01",
+                     "jd" : 2431607.5,
+                     "kyuureki" : "1945-04-21"
+                  },
+                  {
+                     "gregorian" : "1946-02-02",
+                     "jd" : 2431853.5,
+                     "kyuureki" : "1946-01-01"
+                  }
+               ],
+               "group" : "沖縄",
+               "next" : "AD",
+               "type" : "wartime"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1945-08-31",
+                     "jd" : 2431698.5,
+                     "kyuureki" : "1945-07-24"
+                  },
+                  {
+                     "gregorian" : "1945-09-07",
+                     "jd" : 2431705.5,
+                     "kyuureki" : "1945-08-02"
+                  }
+               ],
+               "group" : "朝鮮",
+               "next" : "AD",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1945-10-25",
+                  "jd" : 2431753.5,
+                  "kyuureki" : "1945-09-20"
+               },
+               "group" : "台湾",
+               "next" : "民國",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1946-02-02",
+                  "jd" : 2431853.5,
+                  "kyuureki" : "1946-01-01"
+               },
+               "group" : "行政分離",
+               "next" : "AD",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1946-02-02",
+                  "jd" : 2431853.5,
+                  "kyuureki" : "1946-01-01"
+               },
+               "group" : "行政分離",
+               "next" : "民國",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1952-04-28",
+                  "jd" : 2434130.5,
+                  "kyuureki" : "1952-04-05"
+               },
+               "group" : "平和条約",
+               "next" : "AD",
+               "type" : "wartime"
+            },
+            {
                "day" : {
                   "gregorian" : "1989-01-07",
                   "jd" : 2447533.5,
@@ -40001,6 +40219,56 @@
                },
                "prev" : "大正",
                "type" : "established/incorrect"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1952-02-10",
+                  "jd" : 2434052.5,
+                  "kyuureki" : "1952-01-15"
+               },
+               "group" : "吐噶喇列島",
+               "prev" : "AD",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1953-04-20",
+                  "jd" : 2434487.5,
+                  "kyuureki" : "1953-03-07"
+               },
+               "group" : "竹島",
+               "prev" : "단기",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1953-12-25",
+                  "jd" : 2434736.5,
+                  "kyuureki" : "1953-11-20"
+               },
+               "group" : "奄美群島",
+               "prev" : "AD",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1968-06-26",
+                  "jd" : 2440033.5,
+                  "kyuureki" : "1968-06-01"
+               },
+               "group" : "小笠原",
+               "prev" : "AD",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1972-05-15",
+                  "jd" : 2441452.5,
+                  "kyuureki" : "1972-04-03"
+               },
+               "group" : "沖縄",
+               "prev" : "AD",
+               "type" : "wartime"
             }
          ],
          "unicode" : "㍼",
