@@ -1,6 +1,6 @@
 *ryuukyuu:
 
-+$jp
++$DEF-jp
 -1187 1879
 +$ryuukyuu-china
 g:1879-03-11 明治

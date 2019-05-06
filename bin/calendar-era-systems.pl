@@ -87,7 +87,8 @@ my $Data = {};
 
 my $Defs = {};
 my $Vars = {};
-for my $path ($root_path->child ('src/eras')->children (qr{\.txt$})) {
+for my $path (($root_path->child ('src/eras')->children (qr{\.txt$})),
+              ($root_path->child ('local/eras')->children (qr{\.txt$}))) {
   my $var_name;
   my $def_name;
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
@@ -97,6 +98,8 @@ for my $path ($root_path->child ('src/eras')->children (qr{\.txt$})) {
     } elsif (/^\*([\w-]+):$/) {
       $def_name = $1;
       $var_name = undef;
+    } elsif (defined $var_name and /^jd:([0-9.]+)\s+([\w()]+)$/) {
+      push @{$Vars->{$var_name} ||= []}, ['jd', 0+$1, $2];
     } elsif (defined $var_name and /^g:([0-9-]+)\s+([\w()]+)$/) {
       push @{$Vars->{$var_name} ||= []}, ['jd', (g2jd $1), $2];
     } elsif (defined $def_name and /^g:([0-9-]+)\s+([\w()]+)$/) {

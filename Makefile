@@ -101,11 +101,7 @@ local/wp-jp-eras-bare.json: bin/parse-wp-jp-eras-html.pl local/wp-jp-eras.html
 	$(PERL) $< > $@
 src/wp-jp-eras.json: bin/parse-wp-jp-eras.pl #local/wp-jp-eras-bare.json
 	$(PERL) $< > $@
-src/eras/wp-jp-era-sets.txt: bin/generate-wp-jp-era-sets.pl \
-    src/wp-jp-eras.json
-	$(PERL) $< > $@
-local/era-defs-jp.json: bin/generate-era-defs-jp.pl \
-    src/wp-jp-eras.json data/calendar/kyuureki-map.txt
+local/era-defs-jp.json: bin/generate-era-defs-jp.pl src/wp-jp-eras.json
 	$(PERL) $< > $@
 local/era-defs-jp-emperor.json: bin/generate-jp-emperor-eras-defs.pl \
     src/jp-emperor-eras.txt
@@ -129,10 +125,6 @@ local/cn-ryuukyuu-era-list.json: bin/cn-ryuukyuu-era-list.pl \
     src/eras/ryuukyuu.txt
 	$(PERL) $< > $@
 
-data/calendar/era-systems.json: bin/calendar-era-systems.pl \
-    src/eras/*.txt data/calendar/kyuureki-map.txt \
-    data/calendar/kyuureki-ryuukyuu-map.txt
-	$(PERL) $< > $@
 local/era-defs-jp-wp-en.json: bin/era-defs-jp-wp-en.pl \
     local/era-defs-jp.json \
     local/era-date-list.json src/wp-jp-eras-en.json
@@ -176,6 +168,61 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
 #intermediate/era-ids.json: data/calendar/era-defs.json
 data/calendar/era-codes.html: bin/calendar-era-codes.pl \
     data/calendar/era-defs.json
+	$(PERL) $< > $@
+
+local/eras/all: \
+    local/eras/jp.txt \
+    local/eras/jp-south.txt \
+    local/eras/jp-north.txt \
+    local/eras/jp-heishi.txt \
+    local/eras/jp-kyoto.txt \
+    local/eras/jp-east.txt
+	touch $@
+local/eras/jp.txt: bin/extract-era-system-def.pl \
+    data/calendar/era-defs.json
+	mkdir -p local/eras
+	FILTER_FLAGS=jp_emperor_era,jp_era,jp_south_era \
+	ERA_SYSTEM_NAME=jp \
+	$(PERL) $< > $@
+local/eras/jp-south.txt: bin/extract-era-system-def.pl \
+    data/calendar/era-defs.json
+	mkdir -p local/eras
+	FILTER_FLAGS=jp_emperor_era,jp_era,jp_south_era \
+	ERA_SYSTEM_NAME=jp-south \
+	$(PERL) $< > $@
+local/eras/jp-north.txt: bin/extract-era-system-def.pl \
+    data/calendar/era-defs.json
+	mkdir -p local/eras
+	FILTER_FLAGS=jp_emperor_era,jp_era,jp_north_era \
+	FILTER_GROUPS=北朝 \
+	ERA_SYSTEM_NAME=jp-north \
+	$(PERL) $< > $@
+local/eras/jp-heishi.txt: bin/extract-era-system-def.pl \
+    data/calendar/era-defs.json
+	mkdir -p local/eras
+	FILTER_FLAGS=jp_emperor_era,jp_era,jp_south_era \
+	FILTER_GROUPS=平氏 \
+	ERA_SYSTEM_NAME=jp-heishi \
+	$(PERL) $< > $@
+local/eras/jp-kyoto.txt: bin/extract-era-system-def.pl \
+    data/calendar/era-defs.json
+	mkdir -p local/eras
+	FILTER_FLAGS=jp_emperor_era,jp_era,jp_north_era \
+	FILTER_GROUPS=京都 \
+	ERA_SYSTEM_NAME=jp-kyoto \
+	$(PERL) $< > $@
+local/eras/jp-east.txt: bin/extract-era-system-def.pl \
+    data/calendar/era-defs.json
+	mkdir -p local/eras
+	FILTER_FLAGS=jp_emperor_era,jp_era,jp_north_era \
+	FILTER_GROUPS=関東 \
+	FILTER_EXCLUDED=養和 \
+	ERA_SYSTEM_NAME=jp-east \
+	$(PERL) $< > $@
+data/calendar/era-systems.json: bin/calendar-era-systems.pl \
+    src/eras/*.txt data/calendar/kyuureki-map.txt \
+    data/calendar/kyuureki-ryuukyuu-map.txt \
+    local/eras/all
 	$(PERL) $< > $@
 
 day-era-maps: \

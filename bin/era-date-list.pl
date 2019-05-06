@@ -222,7 +222,8 @@ sub resolve_range ($$) {
       my ($y, $m, $lm, $d, $key) = ($1, $2, $3, $4, $5);
       my $g = jp2g ($y, $m, $lm, $d);
       $end_this->();
-      $this = {_key => $key, _first_year => $y, _jd => g2jd $g};
+      $this = {_key => $key, _first_year => $y, _jd => g2jd $g,
+               offset => $y-1};
       use utf8;
       if ($this->{_key} =~ /(?:天皇|皇后摂政)$/) {
         $this->{_emperor} = 1;
@@ -443,6 +444,7 @@ for my $era (@era) {
              $_->[2]->{label} eq '幕府') {
       $v->{type} = 'shogunate-enforced';
     } elsif ($_->[2]->{label} eq '鎌倉' or
+             $_->[2]->{label} eq '関東' or
              $_->[2]->{label} eq '奈良') {
       $v->{type} = 'received';
       $v->{group} = $_->[2]->{label};
@@ -450,6 +452,7 @@ for my $era (@era) {
              $_->[2]->{label} eq '足利直冬' or
              $_->[2]->{label} eq '足利尊氏' or
              $_->[2]->{label} eq '足利義詮' or
+             $_->[2]->{label} eq '京都' or
              $_->[2]->{label} eq '北朝' or
              $_->[2]->{label} eq '南朝' or
              $_->[2]->{label} eq '台湾' or
@@ -479,7 +482,7 @@ for my $era (@era) {
     push @{$era->{starts} ||= []}, $v;
     $v = {%$v};
     unless ($no_reverse) {
-      my $prev_era = $Data->{eras}->{delete $v->{prev}};
+      my $prev_era = $Data->{eras}->{delete $v->{prev}} ||= {};
       $v->{next} = $era->{_key};
       push @{$prev_era->{ends} ||= []}, $v;
     }
@@ -494,6 +497,7 @@ for my $era (@era) {
                                $era->{jp_south_era} ? 'south_' : ''}
         // die "No next era of |$era->{_key}|";
     my $no_reverse;
+    my $end_increment = 0;
     if (not defined $_->[2]->{label}) {
       die $era->{_key};
     } elsif ($_->[2]->{label} eq '崩御') {
@@ -501,15 +505,16 @@ for my $era (@era) {
     } elsif ($_->[2]->{label} eq '年末') {
       $v->{type} = 'year-end';
       $no_reverse = 1;
-    } elsif ($_->[2]->{label} eq '鎌倉') {
+    } elsif ($_->[2]->{label} eq '鎌倉' or
+             $_->[2]->{label} eq '関東') {
       $v->{type} = 'received';
       $v->{group} = $_->[2]->{label};
     } elsif ($_->[2]->{label} eq '足利直冬' or
              $_->[2]->{label} eq '足利尊氏' or
              $_->[2]->{label} eq '足利義詮' or
+             $_->[2]->{label} eq '京都' or
              $_->[2]->{label} eq '北朝' or
              $_->[2]->{label} eq '南朝' or
-             $_->[2]->{label} eq '平氏' or
              $_->[2]->{label} eq '台湾' or
              $_->[2]->{label} eq '朝鮮' or
              $_->[2]->{label} eq '沖縄' or
@@ -523,6 +528,11 @@ for my $era (@era) {
       $v->{type} = 'wartime';
       $v->{group} = $_->[2]->{label};
       die $era->{_key} unless defined $v->{next};
+    } elsif ($_->[2]->{label} eq '平氏') {
+      $v->{type} = 'wartime';
+      $v->{group} = $_->[2]->{label};
+      die $era->{_key} unless defined $v->{next};
+      $end_increment = 1;
     } elsif ($_->[2]->{label} eq '満鉄附属地') {
       $v->{type} = 'succeed'; # returned
       $v->{group} = $_->[2]->{label};
@@ -534,6 +544,7 @@ for my $era (@era) {
     unless ($no_reverse) {
       my $next_era = $Data->{eras}->{delete $v->{next}};
       $v->{prev} = $era->{_key};
+      $v->{day} = sday $v->{day}->{jd}+1 if $end_increment;
       push @{$next_era->{starts} ||= []}, $v;
     }
   }
@@ -574,9 +585,17 @@ for my $era (values %{$Data->{eras}}) {
       if defined $era->{ends};
 
   my @enforce = grep { $_->{type} eq 'established' or $_->{type} eq 'enforced' } @{$era->{starts} or []};
-  die $era->{_key} unless @enforce == 1 or $era->{jp_emperor_era};
+  if ($era->{jp_era} or $era->{jp_north_era} or $era->{jp_south_era}) {
+    die $era->{_key} unless @enforce == 1;
+  }
   my @retro = grep { $_->{type} eq 'retroactivated' } @{$era->{starts} or []};
   die $era->{_key} unless @retro <= 1;
+}
+
+{
+  use utf8;
+  $Data->{eras}->{$_}->{jp_south_era} = 1
+      for qw(元弘 元徳 建武 明徳);
 }
 
 print perl2json_bytes_for_record $Data;

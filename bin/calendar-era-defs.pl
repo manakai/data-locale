@@ -23,15 +23,6 @@ for my $file_name (qw(
 }
 
 for (
-  ['local/era-date-list.json' => [map {
-    ($_.'start_year', $_.'start_day',
-     $_.'official_start_day', $_.'actual_start_day',
-     $_.'end_year', $_.'end_day',
-     $_.'official_end_day', $_.'actual_end_day',
-     'jp_'.$_.'era', 'jp_emperor_era',
-     'starts', 'ends',
-     'known_oldest_year', 'known_latest_year');
-  } '', 'north_', 'south_']],
   ['local/era-defs-jp-wp-en.json' => ['wref_en']],
   ['local/era-yomi-list.json' => ['ja_readings', 'name_kana', 'name_kanas', 'name_latn']],
 ) {
@@ -439,7 +430,22 @@ for my $path (
   }
 }
 
+{
+  use utf8;
+  $Data->{eras}->{단기}->{key} = '단기';
+  $Data->{eras}->{AD}->{key} = 'AD';
+}
+
 for (
+  ['local/era-date-list.json' => [map {
+    ($_.'start_year', $_.'start_day',
+     $_.'official_start_day', $_.'actual_start_day',
+     $_.'end_year', $_.'end_day',
+     $_.'official_end_day', $_.'actual_end_day',
+     'jp_'.$_.'era', 'jp_emperor_era',
+     'starts', 'ends', 'offset',
+     'known_oldest_year', 'known_latest_year');
+  } '', 'north_', 'south_']],
   ['local/cn-ryuukyuu-era-list.json' => ['cn_ryuukyuu_era']],
 ) {
   my ($file_name, $data_keys) = @$_;

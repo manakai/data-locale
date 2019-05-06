@@ -3,6 +3,149 @@
    "eras" : {
       "AD" : {
          "code1" : 0,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "1875-08-22",
+                  "jd" : 2406122.5,
+                  "kyuureki" : "1875-07-22"
+               },
+               "group" : "千島",
+               "next" : "明治",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1905-11-25",
+                  "jd" : 2417174.5,
+                  "kyuureki" : "1905-10-29"
+               },
+               "group" : "関東州",
+               "next" : "明治",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1905-11-25",
+                  "jd" : 2417174.5,
+                  "kyuureki" : "1905-10-29"
+               },
+               "group" : "満鉄附属地",
+               "next" : "明治",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1905-11-25",
+                  "jd" : 2417174.5,
+                  "kyuureki" : "1905-10-29"
+               },
+               "group" : "南樺太",
+               "next" : "明治",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1914-11-07",
+                  "jd" : 2420443.5,
+                  "kyuureki" : "1914-09-20"
+               },
+               "group" : "膠州湾",
+               "next" : "大正",
+               "type" : "wartime"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1914-12-01",
+                     "jd" : 2420467.5,
+                     "kyuureki" : "1914-10-14"
+                  },
+                  {
+                     "gregorian" : "1914-12-31",
+                     "jd" : 2420497.5,
+                     "kyuureki" : "1914-11-15"
+                  }
+               ],
+               "group" : "南洋群島",
+               "next" : "大正",
+               "type" : "wartime"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1919-01-01",
+                     "jd" : 2421959.5,
+                     "kyuureki" : "1918-11-29"
+                  },
+                  {
+                     "gregorian" : "1919-12-31",
+                     "jd" : 2422323.5,
+                     "kyuureki" : "1919-11-10"
+                  }
+               ],
+               "group" : "膠州湾",
+               "next" : "大正",
+               "type" : "wartime"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1919-01-01",
+                     "jd" : 2421959.5,
+                     "kyuureki" : "1918-11-29"
+                  },
+                  {
+                     "gregorian" : "1919-12-31",
+                     "jd" : 2422323.5,
+                     "kyuureki" : "1919-11-10"
+                  }
+               ],
+               "group" : "南洋群島",
+               "next" : "大正",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1952-02-10",
+                  "jd" : 2434052.5,
+                  "kyuureki" : "1952-01-15"
+               },
+               "group" : "吐噶喇列島",
+               "next" : "昭和",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1953-12-25",
+                  "jd" : 2434736.5,
+                  "kyuureki" : "1953-11-20"
+               },
+               "group" : "奄美群島",
+               "next" : "昭和",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1968-06-26",
+                  "jd" : 2440033.5,
+                  "kyuureki" : "1968-06-01"
+               },
+               "group" : "小笠原",
+               "next" : "昭和",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1972-05-15",
+                  "jd" : 2441452.5,
+                  "kyuureki" : "1972-04-03"
+               },
+               "group" : "沖縄",
+               "next" : "昭和",
+               "type" : "wartime"
+            }
+         ],
          "id" : 20,
          "key" : "AD",
          "name" : "AD",
@@ -58,6 +201,92 @@
             "西纪" : 1
          },
          "offset" : 0,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "1856-01-28",
+                  "jd" : 2398976.5,
+                  "kyuureki" : "1855-12-21"
+               },
+               "group" : "千島",
+               "prev" : "安政",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1875-08-22",
+                  "jd" : 2406122.5,
+                  "kyuureki" : "1875-07-22"
+               },
+               "group" : "北樺太",
+               "prev" : "明治",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1875-08-22",
+                  "jd" : 2406122.5,
+                  "kyuureki" : "1875-07-22"
+               },
+               "group" : "南樺太",
+               "prev" : "明治",
+               "type" : "wartime"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1945-06-01",
+                     "jd" : 2431607.5,
+                     "kyuureki" : "1945-04-21"
+                  },
+                  {
+                     "gregorian" : "1946-02-02",
+                     "jd" : 2431853.5,
+                     "kyuureki" : "1946-01-01"
+                  }
+               ],
+               "group" : "沖縄",
+               "prev" : "昭和",
+               "type" : "wartime"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1945-08-31",
+                     "jd" : 2431698.5,
+                     "kyuureki" : "1945-07-24"
+                  },
+                  {
+                     "gregorian" : "1945-09-07",
+                     "jd" : 2431705.5,
+                     "kyuureki" : "1945-08-02"
+                  }
+               ],
+               "group" : "朝鮮",
+               "prev" : "昭和",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1946-02-02",
+                  "jd" : 2431853.5,
+                  "kyuureki" : "1946-01-01"
+               },
+               "group" : "行政分離",
+               "prev" : "昭和",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1952-04-28",
+                  "jd" : 2434130.5,
+                  "kyuureki" : "1952-04-05"
+               },
+               "group" : "平和条約",
+               "prev" : "昭和",
+               "type" : "wartime"
+            }
+         ],
          "suikawiki" : "西暦",
          "wref_ja" : "西暦",
          "wref_zh" : "公元"
@@ -3092,6 +3321,16 @@
                "group" : "鎌倉",
                "next" : "寛元",
                "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1243-03-30",
+                  "jd" : 2175144.5,
+                  "kyuureki" : "1243-03-02"
+               },
+               "group" : "関東",
+               "next" : "寛元",
+               "type" : "received"
             }
          ],
          "id" : 1018,
@@ -3176,6 +3415,16 @@
                   "kyuureki" : "1240-07-27"
                },
                "group" : "鎌倉",
+               "prev" : "延応",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1240-08-23",
+                  "jd" : 2174195.5,
+                  "kyuureki" : "1240-07-27"
+               },
+               "group" : "関東",
                "prev" : "延応",
                "type" : "received"
             }
@@ -4776,6 +5025,16 @@
                "group" : "鎌倉",
                "next" : "嘉禄",
                "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1225-06-16",
+                  "jd" : 2168648.5,
+                  "kyuureki" : "1225-05-02"
+               },
+               "group" : "関東",
+               "next" : "嘉禄",
+               "type" : "received"
             }
          ],
          "id" : 486,
@@ -4866,6 +5125,16 @@
                   "kyuureki" : "1224-12-04"
                },
                "group" : "鎌倉",
+               "prev" : "貞応",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1225-01-21",
+                  "jd" : 2168502.5,
+                  "kyuureki" : "1224-12-04"
+               },
+               "group" : "関東",
                "prev" : "貞応",
                "type" : "received"
             }
@@ -5252,6 +5521,16 @@
          "ends" : [
             {
                "day" : {
+                  "gregorian" : "1331-10-04",
+                  "jd" : 2207473.5,
+                  "kyuureki" : "1331-08-24"
+               },
+               "group" : "京都",
+               "next" : "元徳",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
                   "gregorian" : "1334-02-12",
                   "jd" : 2208335.5,
                   "kyuureki" : "1333-12-29"
@@ -5276,6 +5555,26 @@
                },
                "next" : "建武",
                "type" : "established"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1334-03-13",
+                  "jd" : 2208364.5,
+                  "kyuureki" : "1334-01-29"
+               },
+               "group" : "北朝",
+               "next" : "建武",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1334-03-13",
+                  "jd" : 2208364.5,
+                  "kyuureki" : "1334-01-29"
+               },
+               "group" : "京都",
+               "next" : "建武",
+               "type" : "wartime"
             }
          ],
          "id" : 1301,
@@ -5414,9 +5713,29 @@
             },
             {
                "day" : {
-                  "gregorian" : "1333-07-13",
-                  "jd" : 2208121.5,
-                  "kyuureki" : "1333-05-23"
+                  "gregorian" : "1331-09-19",
+                  "jd" : 2207458.5,
+                  "kyuureki" : "1331-08-09"
+               },
+               "group" : "京都",
+               "prev" : "元徳",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1333-07-15",
+                  "jd" : 2208123.5,
+                  "kyuureki" : "1333-05-25"
+               },
+               "group" : "関東",
+               "prev" : "正慶",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1333-07-15",
+                  "jd" : 2208123.5,
+                  "kyuureki" : "1333-05-25"
                },
                "group" : "北朝",
                "prev" : "正慶",
@@ -5428,7 +5747,7 @@
                   "jd" : 2208123.5,
                   "kyuureki" : "1333-05-25"
                },
-               "group" : "北朝",
+               "group" : "京都",
                "prev" : "正慶",
                "type" : "wartime"
             }
@@ -5467,6 +5786,16 @@
                },
                "next" : "元弘",
                "type" : "established"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1331-09-19",
+                  "jd" : 2207458.5,
+                  "kyuureki" : "1331-08-09"
+               },
+               "group" : "京都",
+               "next" : "元弘",
+               "type" : "wartime"
             },
             {
                "day" : {
@@ -5638,6 +5967,26 @@
                },
                "prev" : "嘉暦",
                "type" : "established"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1329-09-30",
+                  "jd" : 2206739.5,
+                  "kyuureki" : "1329-08-29"
+               },
+               "group" : "京都",
+               "prev" : "嘉暦",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1331-10-04",
+                  "jd" : 2207473.5,
+                  "kyuureki" : "1331-08-24"
+               },
+               "group" : "京都",
+               "prev" : "元弘",
+               "type" : "wartime"
             }
          ],
          "wref_en" : "Gentoku",
@@ -6278,9 +6627,9 @@
             },
             {
                "day" : {
-                  "gregorian" : "1185-05-02",
-                  "jd" : 2153993.5,
-                  "kyuureki" : "1185-03-24"
+                  "gregorian" : "1185-05-03",
+                  "jd" : 2153994.5,
+                  "kyuureki" : "1185-03-25"
                },
                "group" : "平氏",
                "prev" : "寿永",
@@ -7265,6 +7614,28 @@
       },
       "光緒" : {
          "cn_ryuukyuu_era" : 1,
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "1895-05-08",
+                  "jd" : 2413321.5,
+                  "kyuureki" : "1895-04-14"
+               },
+               "group" : "台湾",
+               "next" : "明治",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1895-05-08",
+                  "jd" : 2413321.5,
+                  "kyuureki" : "1895-04-14"
+               },
+               "group" : "関東州",
+               "next" : "明治",
+               "type" : "wartime"
+            }
+         ],
          "id" : 681,
          "key" : "光緒",
          "name" : "光緒",
@@ -7275,6 +7646,18 @@
             "光绪" : 1
          },
          "offset" : 1874,
+         "starts" : [
+            {
+               "day" : {
+                  "gregorian" : "1895-11-08",
+                  "jd" : 2413505.5,
+                  "kyuureki" : "1895-09-22"
+               },
+               "group" : "関東州",
+               "prev" : "明治",
+               "type" : "wartime"
+            }
+         ],
          "wref_zh" : "光绪"
       },
       "光聖" : {
@@ -9254,6 +9637,16 @@
                },
                "next" : "元徳",
                "type" : "established"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1329-09-30",
+                  "jd" : 2206739.5,
+                  "kyuureki" : "1329-08-29"
+               },
+               "group" : "京都",
+               "next" : "元徳",
+               "type" : "wartime"
             }
          ],
          "id" : 1229,
@@ -9720,6 +10113,16 @@
                   "jd" : 2169617.5,
                   "kyuureki" : "1227-12-26"
                },
+               "group" : "関東",
+               "next" : "安貞",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1228-02-10",
+                  "jd" : 2169617.5,
+                  "kyuureki" : "1227-12-26"
+               },
                "next" : "安貞",
                "type" : "shogunate-enforced"
             }
@@ -9799,6 +10202,16 @@
                "group" : "鎌倉",
                "prev" : "元仁",
                "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1225-06-16",
+                  "jd" : 2168648.5,
+                  "kyuureki" : "1225-05-02"
+               },
+               "group" : "関東",
+               "prev" : "元仁",
+               "type" : "received"
             }
          ],
          "wref_en" : "Karoku",
@@ -9862,6 +10275,16 @@
                   "kyuureki" : "1238-12-09"
                },
                "group" : "鎌倉",
+               "next" : "暦仁",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1239-01-22",
+                  "jd" : 2173616.5,
+                  "kyuureki" : "1238-12-09"
+               },
+               "group" : "関東",
                "next" : "暦仁",
                "type" : "received"
             }
@@ -9939,6 +10362,16 @@
                   "kyuureki" : "1235-10-08"
                },
                "group" : "鎌倉",
+               "prev" : "文暦",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1235-12-02",
+                  "jd" : 2172469.5,
+                  "kyuureki" : "1235-10-14"
+               },
+               "group" : "関東",
                "prev" : "文暦",
                "type" : "received"
             },
@@ -17130,6 +17563,16 @@
                "group" : "鎌倉",
                "prev" : "貞永",
                "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1233-06-09",
+                  "jd" : 2171563.5,
+                  "kyuureki" : "1233-04-23"
+               },
+               "group" : "関東",
+               "prev" : "貞永",
+               "type" : "received"
             }
          ],
          "wref_en" : "Tenpuku",
@@ -20246,6 +20689,16 @@
                   "jd" : 2170059.5,
                   "kyuureki" : "1229-03-25"
                },
+               "group" : "関東",
+               "next" : "寛喜",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1229-04-27",
+                  "jd" : 2170059.5,
+                  "kyuureki" : "1229-03-25"
+               },
                "next" : "寛喜",
                "type" : "shogunate-enforced"
             }
@@ -20328,6 +20781,16 @@
                   "kyuureki" : "1227-12-25"
                },
                "group" : "鎌倉",
+               "prev" : "嘉禄",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1228-02-10",
+                  "jd" : 2169617.5,
+                  "kyuureki" : "1227-12-26"
+               },
+               "group" : "関東",
                "prev" : "嘉禄",
                "type" : "received"
             },
@@ -21743,6 +22206,16 @@
                "group" : "鎌倉",
                "prev" : "仁治",
                "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1243-03-30",
+                  "jd" : 2175144.5,
+                  "kyuureki" : "1243-03-02"
+               },
+               "group" : "関東",
+               "prev" : "仁治",
+               "type" : "received"
             }
          ],
          "wref_en" : "Kangen",
@@ -22069,6 +22542,16 @@
                   "kyuureki" : "1229-03-05"
                },
                "group" : "鎌倉",
+               "prev" : "安貞",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1229-04-27",
+                  "jd" : 2170059.5,
+                  "kyuureki" : "1229-03-25"
+               },
+               "group" : "関東",
                "prev" : "安貞",
                "type" : "received"
             },
@@ -22956,6 +23439,23 @@
                "type" : "received"
             },
             {
+               "day" : [
+                  {
+                     "gregorian" : "1462-01-10",
+                     "jd" : 2255053.5,
+                     "kyuureki" : "1461-12-01"
+                  },
+                  {
+                     "gregorian" : "1462-02-08",
+                     "jd" : 2255082.5,
+                     "kyuureki" : "1461-12-30"
+                  }
+               ],
+               "group" : "関東",
+               "next" : "延徳(庚辰)",
+               "type" : "received"
+            },
+            {
                "day" : {
                   "gregorian" : "1466-01-25",
                   "jd" : 2256529.5,
@@ -23055,6 +23555,26 @@
                "type" : "established"
             },
             {
+               "day" : {
+                  "gregorian" : "1461-02-10",
+                  "jd" : 2254719.5,
+                  "kyuureki" : "1460-12-21"
+               },
+               "group" : "鎌倉",
+               "prev" : "長禄",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1461-02-10",
+                  "jd" : 2254719.5,
+                  "kyuureki" : "1460-12-21"
+               },
+               "group" : "関東",
+               "prev" : "長禄",
+               "type" : "received"
+            },
+            {
                "day" : [
                   {
                      "gregorian" : "1462-08-05",
@@ -23068,6 +23588,23 @@
                   }
                ],
                "group" : "鎌倉",
+               "prev" : "延徳(庚辰)",
+               "type" : "received"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1462-08-05",
+                     "jd" : 2255260.5,
+                     "kyuureki" : "1462-07-01"
+                  },
+                  {
+                     "gregorian" : "1462-09-02",
+                     "jd" : 2255288.5,
+                     "kyuureki" : "1462-07-29"
+                  }
+               ],
+               "group" : "関東",
                "prev" : "延徳(庚辰)",
                "type" : "received"
             }
@@ -23758,6 +24295,16 @@
                },
                "prev" : "養和",
                "type" : "established"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1183-11-07",
+                  "jd" : 2153451.5,
+                  "kyuureki" : "1183-10-14"
+               },
+               "group" : "関東",
+               "prev" : "治承",
+               "type" : "received"
             },
             {
                "day" : {
@@ -24791,6 +25338,16 @@
                "group" : "鎌倉",
                "next" : "正嘉",
                "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1257-04-11",
+                  "jd" : 2180270.5,
+                  "kyuureki" : "1257-03-18"
+               },
+               "group" : "関東",
+               "next" : "正嘉",
+               "type" : "received"
             }
          ],
          "id" : 655,
@@ -24879,6 +25436,16 @@
                   "kyuureki" : "1256-10-09"
                },
                "group" : "鎌倉",
+               "prev" : "建長",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1256-11-04",
+                  "jd" : 2180112.5,
+                  "kyuureki" : "1256-10-09"
+               },
+               "group" : "関東",
                "prev" : "建長",
                "type" : "received"
             }
@@ -26579,17 +27146,27 @@
                   "jd" : 2209235.5,
                   "kyuureki" : "1336-06-15"
                },
+               "group" : "関東",
+               "next" : "建武",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1336-07-31",
+                  "jd" : 2209235.5,
+                  "kyuureki" : "1336-06-15"
+               },
                "group" : "北朝",
                "next" : "建武",
                "type" : "wartime"
             },
             {
                "day" : {
-                  "gregorian" : "1336-09-28",
-                  "jd" : 2209294.5,
-                  "kyuureki" : "1336-08-15"
+                  "gregorian" : "1336-07-31",
+                  "jd" : 2209235.5,
+                  "kyuureki" : "1336-06-15"
                },
-               "group" : "北朝",
+               "group" : "京都",
                "next" : "建武",
                "type" : "wartime"
             },
@@ -26734,6 +27311,36 @@
                },
                "prev" : "建武",
                "type" : "established"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1336-04-19",
+                  "jd" : 2209132.5,
+                  "kyuureki" : "1336-02-29"
+               },
+               "group" : "関東",
+               "prev" : "建武",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1336-04-19",
+                  "jd" : 2209132.5,
+                  "kyuureki" : "1336-02-29"
+               },
+               "group" : "北朝",
+               "prev" : "建武",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1336-04-19",
+                  "jd" : 2209132.5,
+                  "kyuureki" : "1336-02-29"
+               },
+               "group" : "京都",
+               "prev" : "建武",
+               "type" : "wartime"
             }
          ],
          "wref_en" : "Engen",
@@ -27359,6 +27966,42 @@
          "wref_ja" : "延徳"
       },
       "延徳(庚辰)" : {
+         "ends" : [
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1462-08-05",
+                     "jd" : 2255260.5,
+                     "kyuureki" : "1462-07-01"
+                  },
+                  {
+                     "gregorian" : "1462-09-02",
+                     "jd" : 2255288.5,
+                     "kyuureki" : "1462-07-29"
+                  }
+               ],
+               "group" : "鎌倉",
+               "next" : "寛正",
+               "type" : "received"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1462-08-05",
+                     "jd" : 2255260.5,
+                     "kyuureki" : "1462-07-01"
+                  },
+                  {
+                     "gregorian" : "1462-09-02",
+                     "jd" : 2255288.5,
+                     "kyuureki" : "1462-07-29"
+                  }
+               ],
+               "group" : "関東",
+               "next" : "寛正",
+               "type" : "received"
+            }
+         ],
          "id" : 536,
          "jp_private_era" : 1,
          "key" : "延徳(庚辰)",
@@ -27368,7 +28011,43 @@
             "延徳" : 1,
             "延德" : 1
          },
-         "offset" : 1459
+         "offset" : 1459,
+         "starts" : [
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1462-01-10",
+                     "jd" : 2255053.5,
+                     "kyuureki" : "1461-12-01"
+                  },
+                  {
+                     "gregorian" : "1462-02-08",
+                     "jd" : 2255082.5,
+                     "kyuureki" : "1461-12-30"
+                  }
+               ],
+               "group" : "鎌倉",
+               "prev" : "寛正",
+               "type" : "received"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1462-01-10",
+                     "jd" : 2255053.5,
+                     "kyuureki" : "1461-12-01"
+                  },
+                  {
+                     "gregorian" : "1462-02-08",
+                     "jd" : 2255082.5,
+                     "kyuureki" : "1461-12-30"
+                  }
+               ],
+               "group" : "関東",
+               "prev" : "寛正",
+               "type" : "received"
+            }
+         ]
       },
       "延応" : {
          "actual_end_day" : {
@@ -27428,6 +28107,16 @@
                   "kyuureki" : "1240-07-27"
                },
                "group" : "鎌倉",
+               "next" : "仁治",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1240-08-23",
+                  "jd" : 2174195.5,
+                  "kyuureki" : "1240-07-27"
+               },
+               "group" : "関東",
                "next" : "仁治",
                "type" : "received"
             }
@@ -27521,6 +28210,16 @@
                   "kyuureki" : "1239-02-16"
                },
                "group" : "鎌倉",
+               "prev" : "暦仁",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1239-03-29",
+                  "jd" : 2173682.5,
+                  "kyuureki" : "1239-02-16"
+               },
+               "group" : "関東",
                "prev" : "暦仁",
                "type" : "received"
             }
@@ -28551,6 +29250,16 @@
                   "kyuureki" : "1201-02-22"
                },
                "group" : "鎌倉",
+               "prev" : "正治",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1201-04-04",
+                  "jd" : 2159809.5,
+                  "kyuureki" : "1201-02-22"
+               },
+               "group" : "関東",
                "prev" : "正治",
                "type" : "received"
             }
@@ -29659,6 +30368,16 @@
                "group" : "鎌倉",
                "prev" : "承元",
                "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1211-05-10",
+                  "jd" : 2163497.5,
+                  "kyuureki" : "1211-03-19"
+               },
+               "group" : "関東",
+               "prev" : "承元",
+               "type" : "received"
             }
          ],
          "wref_en" : "Kenryaku",
@@ -29709,6 +30428,36 @@
                },
                "next" : "延元",
                "type" : "established"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1336-04-19",
+                  "jd" : 2209132.5,
+                  "kyuureki" : "1336-02-29"
+               },
+               "group" : "関東",
+               "next" : "延元",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1336-04-19",
+                  "jd" : 2209132.5,
+                  "kyuureki" : "1336-02-29"
+               },
+               "group" : "北朝",
+               "next" : "延元",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1336-04-19",
+                  "jd" : 2209132.5,
+                  "kyuureki" : "1336-02-29"
+               },
+               "group" : "京都",
+               "next" : "延元",
+               "type" : "wartime"
             },
             {
                "day" : {
@@ -29890,6 +30639,36 @@
             },
             {
                "day" : {
+                  "gregorian" : "1334-03-13",
+                  "jd" : 2208364.5,
+                  "kyuureki" : "1334-01-29"
+               },
+               "group" : "北朝",
+               "prev" : "元弘",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1334-03-13",
+                  "jd" : 2208364.5,
+                  "kyuureki" : "1334-01-29"
+               },
+               "group" : "京都",
+               "prev" : "元弘",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1336-07-31",
+                  "jd" : 2209235.5,
+                  "kyuureki" : "1336-06-15"
+               },
+               "group" : "関東",
+               "prev" : "延元",
+               "type" : "received"
+            },
+            {
+               "day" : {
                   "gregorian" : "1336-07-31",
                   "jd" : 2209235.5,
                   "kyuureki" : "1336-06-15"
@@ -29900,11 +30679,11 @@
             },
             {
                "day" : {
-                  "gregorian" : "1336-09-28",
-                  "jd" : 2209294.5,
-                  "kyuureki" : "1336-08-15"
+                  "gregorian" : "1336-07-31",
+                  "jd" : 2209235.5,
+                  "kyuureki" : "1336-06-15"
                },
-               "group" : "北朝",
+               "group" : "京都",
                "prev" : "延元",
                "type" : "wartime"
             }
@@ -30067,6 +30846,16 @@
                   "kyuureki" : "1207-11-05"
                },
                "group" : "鎌倉",
+               "next" : "承元",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1207-12-02",
+                  "jd" : 2162242.5,
+                  "kyuureki" : "1207-11-05"
+               },
+               "group" : "関東",
                "next" : "承元",
                "type" : "received"
             }
@@ -30585,6 +31374,16 @@
                   "kyuureki" : "1256-10-09"
                },
                "group" : "鎌倉",
+               "next" : "康元",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1256-11-04",
+                  "jd" : 2180112.5,
+                  "kyuureki" : "1256-10-09"
+               },
+               "group" : "関東",
                "next" : "康元",
                "type" : "received"
             }
@@ -31617,6 +32416,16 @@
                "group" : "鎌倉",
                "prev" : "文応",
                "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1261-04-04",
+                  "jd" : 2181724.5,
+                  "kyuureki" : "1261-02-26"
+               },
+               "group" : "関東",
+               "prev" : "文応",
+               "type" : "received"
             }
          ],
          "wref_en" : "Kōchō",
@@ -32446,6 +33255,16 @@
                },
                "next" : "永和",
                "type" : "established"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1375-04-18",
+                  "jd" : 2223375.5,
+                  "kyuureki" : "1375-03-09"
+               },
+               "group" : "関東",
+               "next" : "永和",
+               "type" : "received"
             },
             {
                "day" : {
@@ -34603,6 +35422,16 @@
                "group" : "鎌倉",
                "next" : "建暦",
                "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1211-05-10",
+                  "jd" : 2163497.5,
+                  "kyuureki" : "1211-03-19"
+               },
+               "group" : "関東",
+               "next" : "建暦",
+               "type" : "received"
             }
          ],
          "id" : 1648,
@@ -34717,6 +35546,16 @@
                   "kyuureki" : "1207-11-05"
                },
                "group" : "鎌倉",
+               "prev" : "建永",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1207-12-02",
+                  "jd" : 2162242.5,
+                  "kyuureki" : "1207-11-05"
+               },
+               "group" : "関東",
                "prev" : "建永",
                "type" : "received"
             }
@@ -37092,23 +37931,6 @@
          "short_name" : "文和",
          "starts" : [
             {
-               "day" : [
-                  {
-                     "gregorian" : "1351-12-27",
-                     "jd" : 2214862.5,
-                     "kyuureki" : "1351-12-01"
-                  },
-                  {
-                     "gregorian" : "1352-01-25",
-                     "jd" : 2214891.5,
-                     "kyuureki" : "1351-12-30"
-                  }
-               ],
-               "group" : "鎌倉",
-               "prev" : "観応",
-               "type" : "received"
-            },
-            {
                "day" : {
                   "gregorian" : "1352-01-26",
                   "jd" : 2214892.5,
@@ -37403,6 +38225,16 @@
                "group" : "鎌倉",
                "next" : "弘長",
                "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1261-04-04",
+                  "jd" : 2181724.5,
+                  "kyuureki" : "1261-02-26"
+               },
+               "group" : "関東",
+               "next" : "弘長",
+               "type" : "received"
             }
          ],
          "id" : 1252,
@@ -37508,6 +38340,16 @@
                   "kyuureki" : "1260-04-18"
                },
                "group" : "鎌倉",
+               "prev" : "正元",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1260-06-05",
+                  "jd" : 2181421.5,
+                  "kyuureki" : "1260-04-18"
+               },
+               "group" : "関東",
                "prev" : "正元",
                "type" : "received"
             }
@@ -37836,6 +38678,16 @@
                   "kyuureki" : "1235-10-08"
                },
                "group" : "鎌倉",
+               "next" : "嘉禎",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1235-12-02",
+                  "jd" : 2172469.5,
+                  "kyuureki" : "1235-10-14"
+               },
+               "group" : "関東",
                "next" : "嘉禎",
                "type" : "received"
             },
@@ -40220,7 +41072,7 @@
                   "kyuureki" : "1910-08-07"
                },
                "group" : "朝鮮",
-               "prev" : "隆煕",
+               "prev" : "隆熙",
                "type" : "succeed"
             }
          ],
@@ -41135,6 +41987,16 @@
                "group" : "鎌倉",
                "next" : "延応",
                "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1239-03-29",
+                  "jd" : 2173682.5,
+                  "kyuureki" : "1239-02-16"
+               },
+               "group" : "関東",
+               "next" : "延応",
+               "type" : "received"
             }
          ],
          "id" : 773,
@@ -41223,6 +42085,16 @@
                   "kyuureki" : "1238-12-09"
                },
                "group" : "鎌倉",
+               "prev" : "嘉禎",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1239-01-22",
+                  "jd" : 2173616.5,
+                  "kyuureki" : "1238-12-09"
+               },
+               "group" : "関東",
                "prev" : "嘉禎",
                "type" : "received"
             }
@@ -42209,6 +43081,16 @@
                "group" : "鎌倉",
                "next" : "文応",
                "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1260-06-05",
+                  "jd" : 2181421.5,
+                  "kyuureki" : "1260-04-18"
+               },
+               "group" : "関東",
+               "next" : "文応",
+               "type" : "received"
             }
          ],
          "id" : 707,
@@ -42601,6 +43483,16 @@
                "group" : "鎌倉",
                "prev" : "康元",
                "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1257-04-11",
+                  "jd" : 2180270.5,
+                  "kyuureki" : "1257-03-18"
+               },
+               "group" : "関東",
+               "prev" : "康元",
+               "type" : "received"
             }
          ],
          "wref_en" : "Shōka_(era)",
@@ -42838,6 +43730,23 @@
                      "kyuureki" : "1352-03-10"
                   }
                ],
+               "group" : "関東",
+               "next" : "観応",
+               "type" : "received"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1350-02-16",
+                     "jd" : 2214183.5,
+                     "kyuureki" : "1350-01-01"
+                  },
+                  {
+                     "gregorian" : "1352-05-02",
+                     "jd" : 2214989.5,
+                     "kyuureki" : "1352-03-10"
+                  }
+               ],
                "group" : "足利尊氏",
                "next" : "観応",
                "type" : "wartime"
@@ -42856,6 +43765,26 @@
                   }
                ],
                "group" : "足利義詮",
+               "next" : "観応",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1352-05-07",
+                  "jd" : 2214994.5,
+                  "kyuureki" : "1352-03-15"
+               },
+               "group" : "北朝",
+               "next" : "観応",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1352-05-07",
+                  "jd" : 2214994.5,
+                  "kyuureki" : "1352-03-15"
+               },
+               "group" : "京都",
                "next" : "観応",
                "type" : "wartime"
             },
@@ -43104,9 +44033,63 @@
                   "jd" : 2214839.5,
                   "kyuureki" : "1351-11-07"
                },
+               "group" : "関東",
+               "prev" : "観応",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1351-12-04",
+                  "jd" : 2214839.5,
+                  "kyuureki" : "1351-11-07"
+               },
                "group" : "北朝",
                "prev" : "観応",
                "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1351-12-04",
+                  "jd" : 2214839.5,
+                  "kyuureki" : "1351-11-07"
+               },
+               "group" : "京都",
+               "prev" : "観応",
+               "type" : "wartime"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1351-12-27",
+                     "jd" : 2214862.5,
+                     "kyuureki" : "1351-12-01"
+                  },
+                  {
+                     "gregorian" : "1352-01-25",
+                     "jd" : 2214891.5,
+                     "kyuureki" : "1351-12-30"
+                  }
+               ],
+               "group" : "鎌倉",
+               "prev" : "観応",
+               "type" : "received"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1351-12-27",
+                     "jd" : 2214862.5,
+                     "kyuureki" : "1351-12-01"
+                  },
+                  {
+                     "gregorian" : "1352-01-25",
+                     "jd" : 2214891.5,
+                     "kyuureki" : "1351-12-30"
+                  }
+               ],
+               "group" : "関東",
+               "prev" : "観応",
+               "type" : "received"
             },
             {
                "day" : [
@@ -43490,9 +44473,19 @@
          "ends" : [
             {
                "day" : {
-                  "gregorian" : "1333-07-13",
-                  "jd" : 2208121.5,
-                  "kyuureki" : "1333-05-23"
+                  "gregorian" : "1333-07-15",
+                  "jd" : 2208123.5,
+                  "kyuureki" : "1333-05-25"
+               },
+               "group" : "関東",
+               "next" : "元弘",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1333-07-15",
+                  "jd" : 2208123.5,
+                  "kyuureki" : "1333-05-25"
                },
                "group" : "北朝",
                "next" : "元弘",
@@ -43504,7 +44497,7 @@
                   "jd" : 2208123.5,
                   "kyuureki" : "1333-05-25"
                },
-               "group" : "北朝",
+               "group" : "京都",
                "next" : "元弘",
                "type" : "wartime"
             }
@@ -43918,6 +44911,16 @@
                "group" : "鎌倉",
                "next" : "建仁",
                "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1201-04-04",
+                  "jd" : 2159809.5,
+                  "kyuureki" : "1201-02-22"
+               },
+               "group" : "関東",
+               "next" : "建仁",
+               "type" : "received"
             }
          ],
          "id" : 1279,
@@ -44134,6 +45137,23 @@
                },
                "next" : "永享",
                "type" : "established"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1431-09-16",
+                     "jd" : 2243979.5,
+                     "kyuureki" : "1431-08-01"
+                  },
+                  {
+                     "gregorian" : "1431-10-15",
+                     "jd" : 2244008.5,
+                     "kyuureki" : "1431-08-30"
+                  }
+               ],
+               "group" : "関東",
+               "next" : "永享",
+               "type" : "received"
             },
             {
                "day" : [
@@ -45003,6 +46023,23 @@
                      "kyuureki" : "1431-08-30"
                   }
                ],
+               "group" : "関東",
+               "prev" : "正長",
+               "type" : "received"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1431-09-16",
+                     "jd" : 2243979.5,
+                     "kyuureki" : "1431-08-01"
+                  },
+                  {
+                     "gregorian" : "1431-10-15",
+                     "jd" : 2244008.5,
+                     "kyuureki" : "1431-08-30"
+                  }
+               ],
                "group" : "鎌倉",
                "prev" : "正長",
                "type" : "wartime"
@@ -45511,6 +46548,16 @@
                },
                "prev" : "応安",
                "type" : "established"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1375-04-18",
+                  "jd" : 2223375.5,
+                  "kyuureki" : "1375-03-09"
+               },
+               "group" : "関東",
+               "prev" : "応安",
+               "type" : "received"
             },
             {
                "day" : {
@@ -48315,6 +49362,16 @@
                },
                "next" : "養和",
                "type" : "established"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1183-11-07",
+                  "jd" : 2153451.5,
+                  "kyuureki" : "1183-10-14"
+               },
+               "group" : "関東",
+               "next" : "寿永",
+               "type" : "received"
             },
             {
                "day" : {
@@ -53460,7 +54517,27 @@
                   "jd" : 2214839.5,
                   "kyuureki" : "1351-11-07"
                },
+               "group" : "関東",
+               "next" : "正平",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1351-12-04",
+                  "jd" : 2214839.5,
+                  "kyuureki" : "1351-11-07"
+               },
                "group" : "北朝",
+               "next" : "正平",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1351-12-04",
+                  "jd" : 2214839.5,
+                  "kyuureki" : "1351-11-07"
+               },
+               "group" : "京都",
                "next" : "正平",
                "type" : "wartime"
             },
@@ -53478,7 +54555,24 @@
                   }
                ],
                "group" : "鎌倉",
-               "next" : "文和",
+               "next" : "正平",
+               "type" : "received"
+            },
+            {
+               "day" : [
+                  {
+                     "gregorian" : "1351-12-27",
+                     "jd" : 2214862.5,
+                     "kyuureki" : "1351-12-01"
+                  },
+                  {
+                     "gregorian" : "1352-01-25",
+                     "jd" : 2214891.5,
+                     "kyuureki" : "1351-12-30"
+                  }
+               ],
+               "group" : "関東",
+               "next" : "正平",
                "type" : "received"
             },
             {
@@ -53619,6 +54713,23 @@
          "short_name" : "観応",
          "starts" : [
             {
+               "day" : [
+                  {
+                     "gregorian" : "1350-02-16",
+                     "jd" : 2214183.5,
+                     "kyuureki" : "1350-01-01"
+                  },
+                  {
+                     "gregorian" : "1352-05-02",
+                     "jd" : 2214989.5,
+                     "kyuureki" : "1352-03-10"
+                  }
+               ],
+               "group" : "関東",
+               "prev" : "正平",
+               "type" : "received"
+            },
+            {
                "day" : {
                   "gregorian" : "1350-02-16",
                   "jd" : 2214183.5,
@@ -53655,6 +54766,36 @@
             },
             {
                "day" : {
+                  "gregorian" : "1350-04-12",
+                  "jd" : 2214238.5,
+                  "kyuureki" : "1350-02-27"
+               },
+               "group" : "関東",
+               "prev" : "貞和",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1350-04-12",
+                  "jd" : 2214238.5,
+                  "kyuureki" : "1350-02-27"
+               },
+               "group" : "北朝",
+               "prev" : "貞和",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1350-04-12",
+                  "jd" : 2214238.5,
+                  "kyuureki" : "1350-02-27"
+               },
+               "group" : "京都",
+               "prev" : "貞和",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
                   "gregorian" : "1351-07-11",
                   "jd" : 2214693.5,
                   "kyuureki" : "1351-06-10"
@@ -53677,6 +54818,26 @@
                   }
                ],
                "group" : "足利義詮",
+               "prev" : "正平",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1352-05-07",
+                  "jd" : 2214994.5,
+                  "kyuureki" : "1352-03-15"
+               },
+               "group" : "北朝",
+               "prev" : "正平",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1352-05-07",
+                  "jd" : 2214994.5,
+                  "kyuureki" : "1352-03-15"
+               },
+               "group" : "京都",
                "prev" : "正平",
                "type" : "wartime"
             }
@@ -54136,6 +55297,36 @@
             },
             {
                "day" : {
+                  "gregorian" : "1350-04-12",
+                  "jd" : 2214238.5,
+                  "kyuureki" : "1350-02-27"
+               },
+               "group" : "関東",
+               "next" : "観応",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1350-04-12",
+                  "jd" : 2214238.5,
+                  "kyuureki" : "1350-02-27"
+               },
+               "group" : "北朝",
+               "next" : "観応",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1350-04-12",
+                  "jd" : 2214238.5,
+                  "kyuureki" : "1350-02-27"
+               },
+               "group" : "京都",
+               "next" : "観応",
+               "type" : "wartime"
+            },
+            {
+               "day" : {
                   "gregorian" : "1351-07-11",
                   "jd" : 2214693.5,
                   "kyuureki" : "1351-06-10"
@@ -54314,6 +55505,16 @@
                   "kyuureki" : "1224-12-04"
                },
                "group" : "鎌倉",
+               "next" : "元仁",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1225-01-21",
+                  "jd" : 2168502.5,
+                  "kyuureki" : "1224-12-04"
+               },
+               "group" : "関東",
                "next" : "元仁",
                "type" : "received"
             }
@@ -54507,6 +55708,16 @@
                   "kyuureki" : "1233-04-23"
                },
                "group" : "鎌倉",
+               "next" : "天福",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1233-06-09",
+                  "jd" : 2171563.5,
+                  "kyuureki" : "1233-04-23"
+               },
+               "group" : "関東",
                "next" : "天福",
                "type" : "received"
             }
@@ -57074,6 +58285,26 @@
                },
                "next" : "寛正",
                "type" : "established"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1461-02-10",
+                  "jd" : 2254719.5,
+                  "kyuureki" : "1460-12-21"
+               },
+               "group" : "鎌倉",
+               "next" : "寛正",
+               "type" : "received"
+            },
+            {
+               "day" : {
+                  "gregorian" : "1461-02-10",
+                  "jd" : 2254719.5,
+                  "kyuureki" : "1460-12-21"
+               },
+               "group" : "関東",
+               "next" : "寛正",
+               "type" : "received"
             }
          ],
          "id" : 213,
@@ -57784,6 +59015,18 @@
          "offset" : 1593
       },
       "隆熙" : {
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "1910-09-10",
+                  "jd" : 2418924.5,
+                  "kyuureki" : "1910-08-07"
+               },
+               "group" : "朝鮮",
+               "next" : "明治",
+               "type" : "succeed"
+            }
+         ],
          "id" : 1274,
          "key" : "隆熙",
          "name" : "隆熙",
@@ -59583,6 +60826,18 @@
          "wref_zh" : "龙凤_(田九成)"
       },
       "단기" : {
+         "ends" : [
+            {
+               "day" : {
+                  "gregorian" : "1953-04-20",
+                  "jd" : 2434487.5,
+                  "kyuureki" : "1953-03-07"
+               },
+               "group" : "竹島",
+               "next" : "昭和",
+               "type" : "wartime"
+            }
+         ],
          "id" : 913,
          "key" : "단기",
          "name" : "단기",

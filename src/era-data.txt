@@ -197,7 +197,7 @@ wref_ja 自由自治
 wref_ja 征露
 
 
-def[AD]
+[AD]
 name AD
 name A.D.
 name Anno Domini
@@ -473,7 +473,7 @@ wref_zh 大韓民國_(年號)
 sw 大韓民国 (紀年法)
 AD1919 = 1
 
-def[단기]
+[단기]
 name_ko 단기
 name_ja 檀紀
 name 檀君紀元
