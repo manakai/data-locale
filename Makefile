@@ -132,6 +132,9 @@ local/era-defs-jp-wp-en.json: bin/era-defs-jp-wp-en.pl \
 local/number-values.json:
 	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-chars/master/data/number-values.json
 
+local/era-date-list.json: bin/era-date-list.pl src/era-start-315.txt
+	$(PERL) $< > $@
+
 local/era-yomi-list.json: bin/era-yomi-list.pl \
     src/wp-jp-eras.json src/era-yomi*.txt \
     local/era-defs-jp-wp-en.json \
@@ -146,9 +149,6 @@ local/calendar-era-yomis.json: bin/calendar-era-yomis.pl \
 local/calendar-era-yomis.txt: bin/calendar-era-yomis.pl \
     local/era-yomi-list.json
 	DATA=2 $(PERL) $< > $@
-
-local/era-date-list.json: bin/era-date-list.pl src/era-start-315.txt
-	$(PERL) $< > $@
 
 data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     local/era-defs-jp.json local/era-defs-jp-emperor.json \

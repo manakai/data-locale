@@ -506,7 +506,9 @@ for my $era (@era) {
       $v->{type} = 'year-end';
       $no_reverse = 1;
     } elsif ($_->[2]->{label} eq '鎌倉' or
-             $_->[2]->{label} eq '関東') {
+             $_->[2]->{label} eq '関東' or
+             $_->[2]->{label} eq '青ヶ島' or
+             $_->[2]->{label} eq '新島') {
       $v->{type} = 'received';
       $v->{group} = $_->[2]->{label};
     } elsif ($_->[2]->{label} eq '足利直冬' or

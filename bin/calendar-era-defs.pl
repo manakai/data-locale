@@ -37,77 +37,11 @@ for (
   }
 }
 
-my $Variants = {};
-{
-  my $path = $root_path->child ('src/char-variants.txt');
-  for (split /\n/, $path->slurp_utf8) {
-    my @char = split /\s+/, $_;
-    @char = map { s/^j://; $_ } @char;
-    for my $c1 (@char) {
-      for my $c2 (@char) {
-        $Variants->{$c1}->{$c2} = 1;
-      }
-    }
-  }
-}
-
 sub drop_kanshi ($) {
   my $name = shift;
   $name =~ s/\(\w+\)$//;
   return $name;
 } # drop_kanshi
-
-sub expand_name ($$) {
-  my ($era, $name) = @_;
-  unless (defined $name) {
-    warn perl2json_chars [$era, $name], Carp::longmess;
-  }
-  $era->{names}->{drop_kanshi $name} = 1;
-  my @name = split //, $name;
-  @name = map { [keys %$_] } map { $Variants->{$_} || {$_ => 1} } @name;
-  my $current = [''];
-  while (@name) {
-    my $char = shift @name;
-    my @next;
-    for my $p (@$current) {
-      for my $c (@$char) {
-        push @next, $p.$c;
-      }
-    }
-    $current = \@next;
-  }
-  for (@$current) {
-    if (/^(.+?)\(\w+\)$/) {
-      $era->{names}->{$1} = 1;
-    } else {
-      $era->{names}->{$_} = 1;
-    }
-  }
-  my @all = @$current;
-  for my $name (@$current) {
-    if ($name =~ s/摂政$//) {
-      $era->{names}->{$name} = 1,
-      push @all, $name
-          if length $name;
-    }
-    if ($name =~ s/天皇$//) {
-      $era->{names}->{$name} = 1,
-      push @all, $name
-          if length $name;
-    }
-  }
-
-  for (@all) {
-    if (/^(.+)\(\w+\)$/) {
-      $Data->{name_conflicts}->{$1}->{$era->{key}} = 1;
-    } elsif (defined $Data->{name_to_key}->{jp}->{$_} and
-             not $Data->{name_to_key}->{jp}->{$_} eq $era->{key}) {
-      #warn "Duplicate era |$_| (|$era->{key}| vs |$Data->{name_to_key}->{jp}->{$_}|)";
-    } else {
-      $Data->{name_to_key}->{jp}->{$_} = $era->{key};
-    }
-  }
-} # expand_name
 
 $Data->{eras}->{$_}->{abbr} = substr $_, 0, 1
     for qw(慶応 明治 大正 昭和 平成 令和);
@@ -121,11 +55,6 @@ $Data->{eras}->{大正}->{names}->{'㍽'} = 1;
 $Data->{eras}->{昭和}->{names}->{'㍼'} = 1;
 $Data->{eras}->{平成}->{names}->{'㍻'} = 1;
 $Data->{eras}->{令和}->{names}->{"\x{32FF}"} = 1;
-expand_name $Data->{eras}->{明治}, '㍾';
-expand_name $Data->{eras}->{大正}, '㍽';
-expand_name $Data->{eras}->{昭和}, '㍼';
-expand_name $Data->{eras}->{平成}, '㍻';
-expand_name $Data->{eras}->{令和}, "\x{32FF}";
 $Data->{eras}->{明治}->{unicode} = '㍾';
 $Data->{eras}->{大正}->{unicode} = '㍽';
 $Data->{eras}->{昭和}->{unicode} = '㍼';
@@ -136,22 +65,22 @@ $Data->{eras}->{白鳳}->{name} = '白鳳';
 
 for my $era (values %{$Data->{eras}}) {
   my $name = $era->{name};
-  expand_name $era, $name;
+  $era->{names}->{$name} = 1;
   $era->{short_name} = $name;
   $name =~ s/摂政$//;
+  $era->{names}->{$name} = 1 if length $name;
+  $era->{short_name} = $name if length $name;
+  $name =~ s/皇后$//;
   $era->{names}->{$name} = 1 if length $name;
   $era->{short_name} = $name if length $name;
   $name =~ s/天皇$//;
   $era->{names}->{$name} = 1 if length $name;
   $era->{short_name} = $name if length $name;
-  if ($name ne $era->{name}) {
-    expand_name $era, $name;
-  }
-  $era->{names}->{$era->{abbr}} = 1, expand_name $era, $era->{abbr}
+  $era->{names}->{$era->{abbr}} = 1
       if defined $era->{abbr};
-  $era->{names}->{$era->{abbr_latn}} = 1, expand_name $era, $era->{abbr_latn}
+  $era->{names}->{$era->{abbr_latn}} = 1
       if defined $era->{abbr_latn};
-  $era->{names}->{lc $era->{abbr_latn}} = 1, expand_name $era, lc $era->{abbr_latn}
+  $era->{names}->{lc $era->{abbr_latn}} = 1
       if defined $era->{abbr_latn};
 }
 
@@ -177,7 +106,6 @@ for my $era (values %{$Data->{eras}}) {
       $d->{key} = $n[0];
       $d->{name_ja} = $d->{name} = drop_kanshi $n[0];
       $d->{names}->{drop_kanshi $_} = 1 for @n;
-      expand_name $d, $_ for @n;
       if (defined $first_year) {
         $d->{offset} = $first_year - 1;
       }
@@ -388,8 +316,6 @@ sub year2kanshi ($) {
     $data->{names}->{$src->{name_cn}} = 1;
     $data->{offset} = $src->{offset} if defined $src->{offset};
     $data->{wref_zh} = $src->{wref} if defined $src->{wref};
-    expand_name $data, $src->{name};
-    expand_name $data, $src->{name_cn};
   }
 
   warn $_ for @dup;
@@ -420,7 +346,6 @@ for my $path (
       $d->{key} = $n[0];
       $d->{name} = drop_kanshi $n[0];
       $d->{names}->{drop_kanshi $_} = 1 for @n;
-      expand_name $d, $_ for @n;
       if (defined $first_year) {
         $d->{offset} = $first_year - 1;
       }
@@ -469,7 +394,6 @@ for (
       my $key = $2;
       die "Era |$key| not defined" unless defined $Data->{eras}->{$key};
       $Data->{eras}->{$key}->{names}->{drop_kanshi $variant} = 1;
-      expand_name $Data->{eras}->{$key}, $variant;
     } elsif (/\S/) {
       die "Bad line |$_|";
     }
@@ -502,14 +426,12 @@ for (
     } elsif (defined $key and /^(name)\s*:=\s*(\S+)$/) {
       $Data->{eras}->{$key}->{$1} = $2;
       $Data->{eras}->{$key}->{names}->{$2} = 1;
-      expand_name $Data->{eras}->{$key}, $2;
     } elsif (defined $key and /^(name(?:_ja|_en|_cn|_tw|_ko|_vi|_kana|)|abbr)\s+(.+)$/) {
       $Data->{eras}->{$key}->{$1} ||= $2;
       $Data->{eras}->{$key}->{$1} = $2 unless $1 eq 'name';
       $Data->{eras}->{$key}->{name} ||= $2 unless $1 eq 'name';
       $Data->{eras}->{$key}->{names}->{$2} = 1;
       $Data->{eras}->{$key}->{name_kanas}->{$2} = 1 if $1 eq 'name_kana';
-      expand_name $Data->{eras}->{$key}, $2;
     } elsif (defined $key and /^(AD|BC)(\d+)\s*=\s*(\d+)$/) {
       my $g_year = $1 eq 'BC' ? 0 - $2 : $2;
       my $e_year = $3;
@@ -546,7 +468,6 @@ for (
     $i++;
   }
 }
-
 {
   my $path = $root_path->child ('local/cldr-core-json/ja.json');
   my $json = json_bytes2perl $path->slurp;
@@ -557,11 +478,64 @@ for (
   }
 }
 
-for my $name (keys %{$Data->{name_conflicts}}) {
-  if (defined $Data->{name_to_key}->{jp}->{$name}) {
-    $Data->{name_conflicts}->{$name}->{$Data->{name_to_key}->{jp}->{$name}} = 1;
-  } else {
-    warn "Era name |$name| not defined";
+{
+  my $Variants = {};
+  {
+    my $path = $root_path->child ('src/char-variants.txt');
+    for (split /\n/, $path->slurp_utf8) {
+      my @char = split /\s+/, $_;
+      @char = map { s/^j://; $_ } @char;
+      for my $c1 (@char) {
+        for my $c2 (@char) {
+          $Variants->{$c1}->{$c2} = 1;
+        }
+      }
+    }
+  }
+  my $Scores = {};
+  for my $era (values %{$Data->{eras}}) {
+    $Scores->{$era->{key}} = 0;
+    $Scores->{$era->{key}} += 50000
+        if $era->{jp_era} or $era->{jp_emperor_era} or
+           $era->{jp_north_era} or $era->{jp_south_era};
+    $Scores->{$era->{key}} += 40000 if $era->{jp_private_era};
+    $Scores->{$era->{key}} += 10000
+        if defined $era->{name_cn};
+    $Scores->{$era->{key}} += 10000 - $era->{offset} if defined $era->{offset};
+  }
+  my $Names = {};
+  for my $era (sort {
+    $Scores->{$b->{key}} <=> $Scores->{$a->{key}} ||
+    $a->{key} cmp $b->{key};
+  } values %{$Data->{eras}}) {
+    my @all_name = keys %{$era->{names} or {}};
+    my @new_name;
+    for my $name (@all_name) {
+      my @name = split //, $name;
+      @name = map { [keys %$_] } map { $Variants->{$_} || {$_ => 1} } @name;
+      my $current = [''];
+      while (@name) {
+        my $char = shift @name;
+        my @next;
+        for my $p (@$current) {
+          for my $c (@$char) {
+            push @next, $p.$c;
+          }
+        }
+        $current = \@next;
+      }
+      push @new_name, @$current;
+    }
+    $era->{names}->{$_} = 1 for @new_name;
+    for (sort { $a cmp $b } @all_name, @new_name) {
+      $Names->{$_}->{$era->{key}} = 1;
+      $Data->{name_to_key}->{jp}->{$_} //= $era->{key};
+    }
+  }
+
+  for my $name (keys %$Names) {
+    next unless 2 <= keys %{$Names->{$name}};
+    $Data->{name_conflicts}->{$name} = $Names->{$name};
   }
 }
 
