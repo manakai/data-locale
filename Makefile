@@ -152,7 +152,7 @@ local/calendar-era-yomis.txt: bin/calendar-era-yomis.pl \
 
 data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     local/era-defs-jp.json local/era-defs-jp-emperor.json \
-    src/char-variants.txt \
+    local/char-variants.json \
     local/era-defs-jp-wp-en.json src/era-data.txt \
     src/jp-private-eras.txt src/era-variants.txt \
     src/wp-cn-eras.json src/era-china-dups.txt local/number-values.json \
@@ -168,6 +168,12 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
 #intermediate/era-ids.json: data/calendar/era-defs.json
 data/calendar/era-codes.html: bin/calendar-era-codes.pl \
     data/calendar/era-defs.json
+	$(PERL) $< > $@
+
+local/chars-maps.json:
+	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-chars/master/data/maps.json
+local/char-variants.json: bin/char-variants.pl \
+    local/chars-maps.json src/char-variants.txt
 	$(PERL) $< > $@
 
 local/eras/all: \

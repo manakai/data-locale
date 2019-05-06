@@ -412,7 +412,7 @@ for (
       $Data->{eras}->{$key}->{$1} ||= $2;
       $Data->{eras}->{$key}->{$1} = $2 unless $1 eq 'name';
       $Data->{eras}->{$key}->{name} ||= $2 unless $1 eq 'name';
-      $Data->{eras}->{$key}->{names}->{$2} = 1;
+      $Data->{eras}->{$key}->{names}->{$2} = 1 unless $1 eq 'name_kana';
       $Data->{eras}->{$key}->{name_kanas}->{$2} = 1 if $1 eq 'name_kana';
     } elsif (defined $key and /^(unicode)\s+(.+)$/) {
       $Data->{eras}->{$key}->{$1} = $2;
@@ -466,19 +466,9 @@ for (
 }
 
 {
-  my $Variants = {};
-  {
-    my $path = $root_path->child ('src/char-variants.txt');
-    for (split /\n/, $path->slurp_utf8) {
-      my @char = split /\s+/, $_;
-      @char = map { s/^j://; $_ } @char;
-      for my $c1 (@char) {
-        for my $c2 (@char) {
-          $Variants->{$c1}->{$c2} = 1;
-        }
-      }
-    }
-  }
+  my $variants_path = $root_path->child ('local/char-variants.json');
+  my $variants_json = json_bytes2perl $variants_path->slurp;
+  my $Variants = $variants_json->{variants};
   my $Scores = {};
   for my $era (values %{$Data->{eras}}) {
     $Scores->{$era->{key}} = 0;
