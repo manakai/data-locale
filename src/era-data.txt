@@ -14,6 +14,11 @@ code #6 3
 code #11 7621
 code #12 12041
 code #13 0x878D
+unicode ㍾
+abbr 明
+abbr_latn M
+code #7 明
+code #2 M
 
 [大正]
 
@@ -30,6 +35,11 @@ code #6 2
 code #11 7622
 code #12 12042
 code #13 0x878E
+unicode ㍽
+abbr 大
+abbr_latn T
+code #7 大
+code #2 T
 
 [昭和]
 
@@ -50,6 +60,11 @@ code #6 1
 code #11 7623
 code #12 12043
 code #13 0x878F
+unicode ㍼
+abbr 昭
+abbr_latn S
+code #7 昭
+code #2 S
 
 [平成]
 
@@ -70,6 +85,11 @@ code #9 1
 code #11 8323
 code #12 12044
 code #13 0x877E
+unicode ㍻
+abbr 平
+abbr_latn H
+code #7 平
+code #2 H
 
 [令和]
 AD2019 = 1
@@ -82,6 +102,11 @@ code #6 5
 code #9 2
 code #11 23058
 code #12 23059
+unicode ㋿
+abbr 令
+abbr_latn R
+code #7 令
+code #2 R
 
 en desc beautiful harmony
 
@@ -94,6 +119,9 @@ source
 source
   title:改元に伴う情報システムの改修等を進めていく上でよくご質問いただく事項について
   url:https://www.meti.go.jp/policy/it_policy/kaigen/faq.html
+source
+  title:新元号「令和」の手話表現について
+  url:https://www.newsigns.jp/reiwa
 
 [正慶]
 code #15 北1
@@ -182,6 +210,8 @@ source
 [慶応]
 source
   url:http://d.hatena.ne.jp/hakuriku/20070701#keo
+abbr 慶
+code #7 慶
 
 [白鳳]
 wref_ja 白鳳

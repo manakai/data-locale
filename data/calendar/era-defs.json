@@ -154,10 +154,18 @@
          "names" : {
             "A.D." : 1,
             "AD" : 1,
+            "ANNO DOMINI" : 1,
             "Anno Domini" : 1,
             "C.E." : 1,
             "CE" : 1,
+            "COMMON ERA" : 1,
             "Common Era" : 1,
+            "a.d." : 1,
+            "ad" : 1,
+            "anno domini" : 1,
+            "c.e." : 1,
+            "ce" : 1,
+            "common era" : 1,
             "キリスト紀元" : 1,
             "キリスト纪元" : 1,
             "公元" : 1,
@@ -306,6 +314,8 @@
          "names" : {
             "E" : 1,
             "G" : 1,
+            "e" : 1,
+            "g" : 1,
             "エコ历" : 1,
             "エコ暦" : 1,
             "エコ曆" : 1,
@@ -2510,9 +2520,16 @@
          },
          "names" : {
             "HE" : 1,
+            "HOLOCENE CALENDAR" : 1,
+            "HOLOCENE ERA" : 1,
+            "HUMAN ERA" : 1,
             "Holocene Era" : 1,
             "Holocene calendar" : 1,
             "Human Era" : 1,
+            "he" : 1,
+            "holocene calendar" : 1,
+            "holocene era" : 1,
+            "human era" : 1,
             "じんるいきげん" : 1,
             "人元" : 1,
             "人元紀年" : 1,
@@ -3534,9 +3551,11 @@
          "code10" : 236,
          "code11" : 23058,
          "code12" : 23059,
+         "code2" : "R",
          "code4" : 9,
          "code5" : 3,
          "code6" : 5,
+         "code7" : "令",
          "code9" : 2,
          "en_desc" : "beautiful harmony",
          "id" : 5,
@@ -3591,6 +3610,10 @@
             {
                "title" : "改元に伴う情報システムの改修等を進めていく上でよくご質問いただく事項について",
                "url" : "https://www.meti.go.jp/policy/it_policy/kaigen/faq.html"
+            },
+            {
+               "title" : "新元号「令和」の手話表現について",
+               "url" : "https://www.newsigns.jp/reiwa"
             }
          ],
          "start_day" : {
@@ -11721,8 +11744,10 @@
          "code13" : 34702,
          "code14" : 245,
          "code15" : 229,
+         "code2" : "T",
          "code4" : 3,
          "code6" : 2,
+         "code7" : "大",
          "end_day" : {
             "gregorian" : "1926-12-24",
             "gregorian_era" : "大正15-12-24",
@@ -19871,7 +19896,10 @@
          "name_en" : "Star Date",
          "names" : {
             "S.D." : 1,
+            "STAR DATE" : 1,
             "Star Date" : 1,
+            "s.d." : 1,
+            "star date" : 1,
             "宇宙历" : 1,
             "宇宙暦" : 1,
             "宇宙曆" : 1,
@@ -24830,9 +24858,11 @@
          "code12" : 12044,
          "code13" : 34686,
          "code14" : 247,
+         "code2" : "H",
          "code4" : 7,
          "code5" : 2,
          "code6" : 4,
+         "code7" : "平",
          "code9" : 1,
          "end_day" : {
             "gregorian" : "2019-04-30",
@@ -33941,6 +33971,7 @@
          "name_ja" : "悪魔暦",
          "names" : {
             "D.C." : 1,
+            "d.c." : 1,
             "悪魔历" : 1,
             "悪魔暦" : 1,
             "悪魔曆" : 1,
@@ -34155,6 +34186,7 @@
          "code10" : 231,
          "code14" : 243,
          "code15" : 227,
+         "code7" : "慶",
          "end_day" : {
             "gregorian" : "1868-10-22",
             "gregorian_era" : "慶応4-10-22",
@@ -40850,8 +40882,10 @@
          "code13" : 34701,
          "code14" : 244,
          "code15" : 228,
+         "code2" : "M",
          "code4" : 1,
          "code6" : 3,
+         "code7" : "明",
          "end_day" : {
             "gregorian" : "1912-07-29",
             "gregorian_era" : "明治45-07-29",
@@ -41253,9 +41287,11 @@
          "code13" : 34703,
          "code14" : 246,
          "code15" : 230,
+         "code2" : "S",
          "code4" : 5,
          "code5" : 1,
          "code6" : 1,
+         "code7" : "昭",
          "end_day" : {
             "gregorian" : "1989-01-07",
             "gregorian_era" : "昭和64-01-07",
@@ -42673,7 +42709,9 @@
          "name_en" : "After Hiroshima",
          "name_ja" : "核時代",
          "names" : {
+            "AFTER HIROSHIMA" : 1,
             "After Hiroshima" : 1,
+            "after hiroshima" : 1,
             "アフターヒロシマ紀元" : 1,
             "アフターヒロシマ纪元" : 1,
             "ヒロシマ・ナガサキ紀元" : 1,
@@ -56361,7 +56399,9 @@
          },
          "name_vi" : "Việt Nam Cộng hòa",
          "names" : {
+            "VIỆT NAM CỘNG HÒA" : 1,
             "Việt Nam Cộng hòa" : 1,
+            "việt nam cộng hòa" : 1,
             "えつなんきょうわ" : 1,
             "越南共和" : 1
          },
@@ -56380,8 +56420,11 @@
          },
          "name_vi" : "Việt Nam Dân chủ Cộng hòa",
          "names" : {
+            "NAM" : 1,
+            "VIỆT NAM DÂN CHỦ CỘNG HÒA" : 1,
             "Việt Nam Dân chủ Cộng hòa" : 1,
             "nam" : 1,
+            "việt nam dân chủ cộng hòa" : 1,
             "えつなんみんしゅきょうわ" : 1,
             "越南民主共和" : 1
          },
@@ -63996,33 +64039,61 @@
       "jp" : {
          "A.D." : "AD",
          "AD" : "AD",
+         "AFTER HIROSHIMA" : "核時代",
+         "ANNO DOMINI" : "AD",
          "After Hiroshima" : "核時代",
          "Anno Domini" : "AD",
          "C.E." : "AD",
          "CE" : "AD",
+         "COMMON ERA" : "AD",
          "Common Era" : "AD",
          "D.C." : "悪魔暦",
          "E" : "エコ暦",
          "G" : "エコ暦",
          "H" : "平成",
          "HE" : "人類紀元",
+         "HOLOCENE CALENDAR" : "人類紀元",
+         "HOLOCENE ERA" : "人類紀元",
+         "HUMAN ERA" : "人類紀元",
          "Holocene Era" : "人類紀元",
          "Holocene calendar" : "人類紀元",
          "Human Era" : "人類紀元",
          "M" : "明治",
+         "NAM" : "越南民主共和",
          "R" : "令和",
          "S" : "昭和",
          "S.D." : "宇宙暦",
+         "STAR DATE" : "宇宙暦",
          "Star Date" : "宇宙暦",
          "T" : "大正",
+         "VIỆT NAM CỘNG HÒA" : "越南共和",
+         "VIỆT NAM DÂN CHỦ CỘNG HÒA" : "越南民主共和",
          "Việt Nam Cộng hòa" : "越南共和",
          "Việt Nam Dân chủ Cộng hòa" : "越南民主共和",
+         "a.d." : "AD",
+         "ad" : "AD",
+         "after hiroshima" : "核時代",
+         "anno domini" : "AD",
+         "c.e." : "AD",
+         "ce" : "AD",
+         "common era" : "AD",
+         "d.c." : "悪魔暦",
+         "e" : "エコ暦",
+         "g" : "エコ暦",
          "h" : "平成",
+         "he" : "人類紀元",
+         "holocene calendar" : "人類紀元",
+         "holocene era" : "人類紀元",
+         "human era" : "人類紀元",
          "m" : "明治",
          "nam" : "越南民主共和",
          "r" : "令和",
          "s" : "昭和",
+         "s.d." : "宇宙暦",
+         "star date" : "宇宙暦",
          "t" : "大正",
+         "việt nam cộng hòa" : "越南共和",
+         "việt nam dân chủ cộng hòa" : "越南民主共和",
          "えつなんきょうわ" : "越南共和",
          "えつなんみんしゅきょうわ" : "越南民主共和",
          "えんさい" : "延載",
@@ -67999,6 +68070,12 @@
       "AD" : {
          "AD" : 1
       },
+      "AFTER HIROSHIMA" : {
+         "核時代" : 1
+      },
+      "ANNO DOMINI" : {
+         "AD" : 1
+      },
       "After Hiroshima" : {
          "核時代" : 1
       },
@@ -68009,6 +68086,9 @@
          "AD" : 1
       },
       "CE" : {
+         "AD" : 1
+      },
+      "COMMON ERA" : {
          "AD" : 1
       },
       "Common Era" : {
@@ -68029,6 +68109,15 @@
       "HE" : {
          "人類紀元" : 1
       },
+      "HOLOCENE CALENDAR" : {
+         "人類紀元" : 1
+      },
+      "HOLOCENE ERA" : {
+         "人類紀元" : 1
+      },
+      "HUMAN ERA" : {
+         "人類紀元" : 1
+      },
       "Holocene Era" : {
          "人類紀元" : 1
       },
@@ -68041,6 +68130,9 @@
       "M" : {
          "明治" : 1
       },
+      "NAM" : {
+         "越南民主共和" : 1
+      },
       "R" : {
          "令和" : 1
       },
@@ -68050,11 +68142,20 @@
       "S.D." : {
          "宇宙暦" : 1
       },
+      "STAR DATE" : {
+         "宇宙暦" : 1
+      },
       "Star Date" : {
          "宇宙暦" : 1
       },
       "T" : {
          "大正" : 1
+      },
+      "VIỆT NAM CỘNG HÒA" : {
+         "越南共和" : 1
+      },
+      "VIỆT NAM DÂN CHỦ CỘNG HÒA" : {
+         "越南民主共和" : 1
       },
       "Việt Nam Cộng hòa" : {
          "越南共和" : 1
@@ -68062,8 +68163,50 @@
       "Việt Nam Dân chủ Cộng hòa" : {
          "越南民主共和" : 1
       },
+      "a.d." : {
+         "AD" : 1
+      },
+      "ad" : {
+         "AD" : 1
+      },
+      "after hiroshima" : {
+         "核時代" : 1
+      },
+      "anno domini" : {
+         "AD" : 1
+      },
+      "c.e." : {
+         "AD" : 1
+      },
+      "ce" : {
+         "AD" : 1
+      },
+      "common era" : {
+         "AD" : 1
+      },
+      "d.c." : {
+         "悪魔暦" : 1
+      },
+      "e" : {
+         "エコ暦" : 1
+      },
+      "g" : {
+         "エコ暦" : 1
+      },
       "h" : {
          "平成" : 1
+      },
+      "he" : {
+         "人類紀元" : 1
+      },
+      "holocene calendar" : {
+         "人類紀元" : 1
+      },
+      "holocene era" : {
+         "人類紀元" : 1
+      },
+      "human era" : {
+         "人類紀元" : 1
       },
       "m" : {
          "明治" : 1
@@ -68077,8 +68220,20 @@
       "s" : {
          "昭和" : 1
       },
+      "s.d." : {
+         "宇宙暦" : 1
+      },
+      "star date" : {
+         "宇宙暦" : 1
+      },
       "t" : {
          "大正" : 1
+      },
+      "việt nam cộng hòa" : {
+         "越南共和" : 1
+      },
+      "việt nam dân chủ cộng hòa" : {
+         "越南民主共和" : 1
       },
       "えつなんきょうわ" : {
          "越南共和" : 1

@@ -75,12 +75,12 @@ The file contains a JSON object with following name/value pairs:
       abbr [string?]
 
         The abbreviation of the era name, using the "native" script,
-        if any.  Era codes #7 [CODES].
+        if any.  Similar to |code7|.
 
       abbr_latn [string?]
 
         The abbreviation of the era name, using Latin letters, if any.
-        Era codes #2 [CODES].
+        Similar to |code2|.
 
       cn_ryuukyuu_era [boolean]
 
@@ -88,13 +88,15 @@ The file contains a JSON object with following name/value pairs:
         area of Japan.
 
       code1 [integer?]
+      code2 [string?]
       code4 [integer?]
       code5 [integer?]
       code6 [integer?]
+      code7 [string?]
       code9 [integer?]
 
-        The era codes #1, #4, #5, #6, or #9 codes [CODES] for the era,
-        respectively, if any.
+        The era codes #1, #2, #4, #5, #6, #7, or #9 codes [CODES] for
+        the era, respectively, if any.
 
       code10 [integer?]
 

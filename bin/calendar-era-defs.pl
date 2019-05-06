@@ -43,24 +43,6 @@ sub drop_kanshi ($) {
   return $name;
 } # drop_kanshi
 
-$Data->{eras}->{$_}->{abbr} = substr $_, 0, 1
-    for qw(慶応 明治 大正 昭和 平成 令和);
-$Data->{eras}->{明治}->{abbr_latn} = 'M';
-$Data->{eras}->{大正}->{abbr_latn} = 'T';
-$Data->{eras}->{昭和}->{abbr_latn} = 'S';
-$Data->{eras}->{平成}->{abbr_latn} = 'H';
-$Data->{eras}->{令和}->{abbr_latn} = 'R';
-$Data->{eras}->{明治}->{names}->{'㍾'} = 1;
-$Data->{eras}->{大正}->{names}->{'㍽'} = 1;
-$Data->{eras}->{昭和}->{names}->{'㍼'} = 1;
-$Data->{eras}->{平成}->{names}->{'㍻'} = 1;
-$Data->{eras}->{令和}->{names}->{"\x{32FF}"} = 1;
-$Data->{eras}->{明治}->{unicode} = '㍾';
-$Data->{eras}->{大正}->{unicode} = '㍽';
-$Data->{eras}->{昭和}->{unicode} = '㍼';
-$Data->{eras}->{平成}->{unicode} = '㍻';
-$Data->{eras}->{令和}->{unicode} = "\x{32FF}";
-
 $Data->{eras}->{白鳳}->{name} = '白鳳';
 
 for my $era (values %{$Data->{eras}}) {
@@ -426,18 +408,23 @@ for (
     } elsif (defined $key and /^(name)\s*:=\s*(\S+)$/) {
       $Data->{eras}->{$key}->{$1} = $2;
       $Data->{eras}->{$key}->{names}->{$2} = 1;
-    } elsif (defined $key and /^(name(?:_ja|_en|_cn|_tw|_ko|_vi|_kana|)|abbr)\s+(.+)$/) {
+    } elsif (defined $key and /^(name(?:_ja|_en|_cn|_tw|_ko|_vi|_kana|)|abbr|abbr_latn)\s+(.+)$/) {
       $Data->{eras}->{$key}->{$1} ||= $2;
       $Data->{eras}->{$key}->{$1} = $2 unless $1 eq 'name';
       $Data->{eras}->{$key}->{name} ||= $2 unless $1 eq 'name';
       $Data->{eras}->{$key}->{names}->{$2} = 1;
       $Data->{eras}->{$key}->{name_kanas}->{$2} = 1 if $1 eq 'name_kana';
+    } elsif (defined $key and /^(unicode)\s+(.+)$/) {
+      $Data->{eras}->{$key}->{$1} = $2;
+      $Data->{eras}->{$key}->{names}->{$2} = 1;
     } elsif (defined $key and /^(AD|BC)(\d+)\s*=\s*(\d+)$/) {
       my $g_year = $1 eq 'BC' ? 0 - $2 : $2;
       my $e_year = $3;
       $Data->{eras}->{$key}->{offset} = $g_year - $e_year;
     } elsif (defined $key and /^(sw)\s+(.+)$/) {
       $Data->{eras}->{$key}->{suikawiki} = $2;
+    } elsif (defined $key and /^code\s+#(7|2)\s+(.)$/) {
+      $Data->{eras}->{$key}->{'code' . $1} = $2;
     } elsif (defined $key and /^code\s+#([1-9][0-9]*)\s+([0-9]+)$/) {
       $Data->{eras}->{$key}->{'code' . $1} = 0+$2;
     } elsif (defined $key and /^code\s+#([1-9][0-9]*)\s+(北[1-9][0-9]*)$/) {
@@ -525,6 +512,8 @@ for (
         $current = \@next;
       }
       push @new_name, @$current;
+      push @new_name, uc $name;
+      push @new_name, lc $name;
     }
     $era->{names}->{$_} = 1 for @new_name;
     for (sort { $a cmp $b } @all_name, @new_name) {
