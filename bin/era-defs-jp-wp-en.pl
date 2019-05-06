@@ -20,8 +20,8 @@ for my $file_name (qw(
   }
 }
 
-for my $file_name (qw(era-defs-dates.json)) {
-  my $path = $RootPath->child ('local')->child ($file_name);
+for my $file_name (qw(local/era-date-list.json)) {
+  my $path = $RootPath->child ($file_name);
   my $json = json_bytes2perl $path->slurp;
   for my $key (keys %{$json->{eras}}) {
     my $data = $json->{eras}->{$key};

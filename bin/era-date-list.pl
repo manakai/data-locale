@@ -226,8 +226,9 @@ sub resolve_range ($$) {
       use utf8;
       if ($this->{_key} =~ /(?:天皇|皇后摂政)$/) {
         $this->{_emperor} = 1;
+        $this->{_start_at_day_boundary} = 1
+            unless $this->{_key} eq '文武天皇';
         unless ($this->{_key} eq '持統天皇' or $this->{_key} eq '文武天皇') {
-          $this->{_start_at_day_boundary} = 1;
           $this->{_not_renaming_year} = 1;
         }
       }

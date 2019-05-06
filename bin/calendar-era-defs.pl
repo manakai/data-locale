@@ -439,6 +439,20 @@ for my $path (
   }
 }
 
+for (
+  ['local/cn-ryuukyuu-era-list.json' => ['cn_ryuukyuu_era']],
+) {
+  my ($file_name, $data_keys) = @$_;
+  my $path = $root_path->child ($file_name);
+  my $json = json_bytes2perl $path->slurp;
+  for my $key (keys %{$json->{eras}}) {
+    my $data = $json->{eras}->{$key};
+    for (@$data_keys) {
+      $Data->{eras}->{$key}->{$_} = $data->{$_} if defined $data->{$_};
+    }
+  }
+}
+
 {
   my $path = $root_path->child ('src/era-variants.txt');
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
@@ -534,23 +548,6 @@ for my $path (
     my $v = $json->{"dates_calendar_japanese_era"}->[$i];
     next unless defined $v;
     ($Data->{eras}->{$v} or die "Era |$v| not found")->{code10} = $i;
-  }
-}
-
-{
-  my $path = $root_path->child ('data/calendar/era-systems.json');
-  my $json = json_bytes2perl $path->slurp;
-  for (@{$json->{systems}->{ryuukyuu}->{points}}) {
-    my $key = $_->[2];
-    my $def = $Data->{eras}->{$key} or die "Era |$key| not defined";
-    if ($def->{jp_era} or $def->{jp_north_era} or $def->{jp_south_era} or
-        $def->{jp_emperor_era}) {
-      #
-    } elsif ($key eq 'AD') {
-      #
-    } else {
-      $def->{cn_ryuukyuu_era} = 1;
-    }
   }
 }
 

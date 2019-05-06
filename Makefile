@@ -125,17 +125,17 @@ local/wp-cn-eras-cn.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-cn.html
 src/wp-cn-eras.json: bin/merge-wp-cn-eras.pl \
     #local/wp-cn-eras-tw.json local/wp-cn-eras-cn.json
 	$(PERL) $< > $@
+local/cn-ryuukyuu-era-list.json: bin/cn-ryuukyuu-era-list.pl \
+    src/eras/ryuukyuu.txt
+	$(PERL) $< > $@
+
 data/calendar/era-systems.json: bin/calendar-era-systems.pl \
     src/eras/*.txt data/calendar/kyuureki-map.txt \
     data/calendar/kyuureki-ryuukyuu-map.txt
 	$(PERL) $< > $@
-local/era-defs-dates.json: bin/generate-era-defs-dates.pl \
-    data/calendar/era-systems.json local/era-defs-jp.json \
-    local/era-defs-jp-emperor.json
-	$(PERL) $< > $@
 local/era-defs-jp-wp-en.json: bin/era-defs-jp-wp-en.pl \
     local/era-defs-jp.json \
-    local/era-defs-dates.json src/wp-jp-eras-en.json
+    local/era-date-list.json src/wp-jp-eras-en.json
 	$(PERL) $< > $@
 local/number-values.json:
 	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-chars/master/data/number-values.json
@@ -165,12 +165,13 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     src/jp-private-eras.txt src/era-variants.txt \
     src/wp-cn-eras.json src/era-china-dups.txt local/number-values.json \
     src/era-viet.txt src/era-korea.txt src/era-tw.txt \
-    data/calendar/era-systems.json data/numbers/kanshi.json \
+    data/numbers/kanshi.json \
     intermediate/era-ids.json \
     src/era-codes-14.txt src/era-codes-15.txt \
     local/cldr-core-json/ja.json \
     local/era-yomi-list.json \
-    local/era-date-list.json
+    local/era-date-list.json \
+    local/cn-ryuukyuu-era-list.json
 	$(PERL) $< > $@
 #intermediate/era-ids.json: data/calendar/era-defs.json
 data/calendar/era-codes.html: bin/calendar-era-codes.pl \

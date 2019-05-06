@@ -41547,13 +41547,13 @@
       },
       "朱鳥" : {
          "actual_end_day" : {
-            "gregorian" : "0687-02-21",
-            "gregorian_era" : "朱鳥2-02-21",
-            "jd" : 1972032.5,
-            "julian" : "0687-02-18",
-            "julian_era" : "朱鳥2-02-18",
-            "kyuureki" : "0687-01-01",
-            "kyuureki_era" : "朱鳥2-01-01"
+            "gregorian" : "0687-02-20",
+            "gregorian_era" : "朱鳥2-02-20",
+            "jd" : 1972031.5,
+            "julian" : "0687-02-17",
+            "julian_era" : "朱鳥2-02-17",
+            "kyuureki" : "0686-12'-30",
+            "kyuureki_era" : "朱鳥1-12'-30"
          },
          "code10" : 3,
          "code14" : 3,
@@ -41567,7 +41567,7 @@
             "kyuureki" : "0686-12'-30",
             "kyuureki_era" : "朱鳥1-12'-30"
          },
-         "end_year" : 687,
+         "end_year" : 686,
          "ends" : [
             {
                "day" : {
