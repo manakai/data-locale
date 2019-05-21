@@ -21,6 +21,8 @@ my $cols = [
   {key => 'abbr_latn', type => 'text', label => '#2 (abbr_latn)', id => 2},
   {key => 'id', type => 'int', label => '#8 (id)', info => 1, id => 8},
   {key => 'code1', type => 'int', id => 1},
+  {key => 'code17', type => 'int', id => 1},
+  {key => 'code16', type => 'int', id => 1},
   {key => 'code4', type => 'int', id => 4},
   {key => 'code5', type => 'int', id => 5},
   {key => 'code6', type => 'int', id => 6},
@@ -122,6 +124,7 @@ copyright and related or neighboring rights to this document.
         }
       }
       $tr->append_child ($td);
+      $tr->append_child ($doc->create_text_node ("\n"));
     }
     $tbody->append_child ($tr);
   }

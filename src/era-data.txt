@@ -1,7 +1,5 @@
 def[unknown]
 
-code #1 9
-
 [明治]
 
 source
@@ -9,6 +7,8 @@ source
   url:https://ja.wikisource.org/wiki/%E4%BB%8A%E5%BE%8C%E5%B9%B4%E8%99%9F%E3%83%8F%E5%BE%A1%E4%B8%80%E4%BB%A3%E4%B8%80%E8%99%9F%E3%83%8B%E5%AE%9A%E3%83%A1%E6%85%B6%E6%87%89%E5%9B%9B%E5%B9%B4%E3%83%B2%E6%94%B9%E3%83%86%E6%98%8E%E6%B2%BB%E5%85%83%E5%B9%B4%E3%83%88%E7%88%B2%E3%82%B9%E5%8F%8A%E8%A9%94%E6%9B%B8
 
 code #1 1
+code #16 1
+code #17 1
 code #4 1
 code #6 3
 code #11 7621
@@ -30,6 +30,8 @@ source
   url:https://wiki.suikawiki.org/n/%E5%A4%A7%E6%AD%A3#anchor-12
 
 code #1 2
+code #16 2
+code #17 2
 code #4 3
 code #6 2
 code #11 7622
@@ -54,6 +56,8 @@ source
   url:http://law.e-gov.go.jp/htmldata/S54/S54HO043.html
 
 code #1 3
+code #16 3
+code #17 3
 code #4 5
 code #5 1
 code #6 1
@@ -78,6 +82,8 @@ source
 #  url:https://ja.wikisource.org/wiki/%E5%85%83%E5%8F%B7%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E4%BB%B6
 
 code #1 4
+code #16 4
+code #17 4
 code #4 7
 code #5 2
 code #6 4
@@ -96,6 +102,8 @@ AD2019 = 1
 sw 令和
 
 code #1 5
+code #16 5
+code #17 5
 code #4 9
 code #5 3
 code #6 5
@@ -207,11 +215,16 @@ source
 [永観]
 source
   url:http://d.hatena.ne.jp/hakuriku/20070701#eikan
+[元治]
+abbr 元
+code #7 元
+code #16 Y
 [慶応]
 source
   url:http://d.hatena.ne.jp/hakuriku/20070701#keo
 abbr 慶
 code #7 慶
+code #16 Z
 
 [白鳳]
 wref_ja 白鳳
@@ -256,7 +269,7 @@ sw 西暦
 # e.g. 442 BC
 # e.g. 442 BCE
 
-code #1 0
+code #17 0
 
 def[共和]
 name_ja 共和
