@@ -10,7 +10,10 @@ my $Data = {};
 my $EraOffset = {};
 {
   use utf8;
+  $EraOffset->{皇極} = 642-1;
   $EraOffset->{孝徳} = 645-1;
+  $EraOffset->{大化} = 645-1;
+  $EraOffset->{斉明} = 655-1;
   $EraOffset->{天智} = 662-1;
   $EraOffset->{天武} = 672-1;
   $EraOffset->{持統} = 687-1;
@@ -18,11 +21,11 @@ my $EraOffset = {};
 }
 sub year ($) {
   my $v = $_[0];
-  if ($v =~ /^[0-9]+$/) {
+  if ($v =~ /^[0-9]{3,}$/) {
     return 0+$v;
   } elsif ($v =~ /^BC([0-9]+)$/) {
     return 1-$1;
-  } elsif ($v =~ /^(\p{Hani}+)([0-9]+)$/ and defined $EraOffset->{$1}) {
+  } elsif ($v =~ /^([\p{Hani}]+)([0-9]+)$/ and defined $EraOffset->{$1}) {
     return $EraOffset->{$1} + $2;
   } elsif ($v eq '?') {
     return undef;
@@ -53,6 +56,19 @@ sub era_length ($$) {
 } # era_length
 
 {
+  use utf8;
+  my $IndexToKanshi = {map { my $x = $_; $x =~ s/\s+//g; $x =~ s/(\d+)/' '.($1-1).' '/ge;
+                           grep { length } split /\s+/, $x } q{
+1甲子2乙丑3丙寅4丁卯5戊辰6己巳7庚午8辛未9壬申10癸酉11甲戌12乙亥13丙子
+14丁丑15戊寅16己卯17庚辰18辛巳19壬午20癸未21甲申22乙酉23丙戌24丁亥25戊子
+26己丑27庚寅28辛卯29壬辰30癸巳31甲午32乙未33丙申34丁酉35戊戌36己亥
+37庚子38辛丑39壬寅40癸卯41甲辰42乙巳43丙午44丁未45戊申46己酉47庚戌48辛亥
+49壬子50癸丑51甲寅52乙卯53丙辰54丁巳55戊午56己未57庚申58辛酉59壬戌60癸亥
+}};
+  sub year2kanshi ($) { $IndexToKanshi->{($_[0]-4)%60} }
+}
+
+{
   my $path = $RootPath->child ('src/era-kodai.txt');
   my $ref;
   my $data;
@@ -65,7 +81,7 @@ sub era_length ($$) {
       $data = $Data->{$ref} = {eras => []};
     } elsif (not defined $ref and /\S/) {
       die "Bad line |$_|";
-    } elsif (/^([\w\x{25A1},]+)\s+([\w,?]+)\s+([0-9,+]+)(?:\s+#[0-9]+|)$/) {
+    } elsif (/^([\w\x{25A1}\x{2FF0}-\x{2FFF},]+)\s+([\w,?]+)\s+([0-9,+]+)(?:\s+#[0-9]+|)$/) {
       my $names = $1;
       my $v = {};
       era_length $3 => $v;
@@ -105,6 +121,17 @@ sub era_length ($$) {
         $data->{eras}->[-2]->{length} = $data->{eras}->[-1]->{start_year} - $data->{eras}->[-2]->{start_year};
       }
       $fill_prev_length = 1 if $ref == 6000;
+    } elsif (m{^(\w+)/(\w\w)\s+(\w+)(?:\s+([0-9]+)|)$}) {
+      my $fy = $EraOffset->{$1} // die "Bad era |$1|";
+      for (0..59) {
+        if (year2kanshi ($fy+$_) eq $2) {
+          $fy += $_;
+          last;
+        }
+      }
+      my $v = {start_year => $fy, names => [$3]};
+      era_length $4 // '1+', $v;
+      push @{$data->{eras}}, $v;
     } elsif (/\S/) {
       die "Bad line |$_|";
     }
