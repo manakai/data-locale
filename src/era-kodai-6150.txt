@@ -1,0 +1,82 @@
+# p.125
+#n=43
+烈擲   ________xxxxx__xxx
+璽至   _________xxxx_xxxx
+嘉紀   ___________x__xxxx
+是□   ___________x__xxxx
+定和   __________x______x
+発□   _____________x____
+善記   _xxxxxxxxxxxxxxxxx
+正和   _xxxxxxxxxxxxxxxxx
+教到   _xxxxxxxxxxxx__xxx
+宝元   ______________xxxx
+僧聴   _xxxxxxxxxxxxx_xxx
+明要   _xxxxxxxxxxxxxxxxx
+得□   ___________x___xxx
+貴楽   xxxxxxxxxxxxxx_xxx
+法清   xxxxxxxxxxxxxxxxxx
+兄弟   xxxxxxxxxxxxxx_xxx
+蔵知   xxxxxxxxxxxxxxxxxx
+師安   xxxxxxxxxxxxxxxxxx
+知僧   xxxxxxxxxxxxxx_xxx
+金光   xxxxxxxxxxxxxxxxxx
+賢称   xxxxxxxxxxxxxx_xxx
+鏡常   xxxxxxxxxxxxxx_xxx
+勝照   xxxxxxxxxxxxxxxxxx
+和重   _________xxxx_xx_x
+端政   xxxxxxxxxxxxxxxxxx
+告貴   xxxxxxxxxxxxxxxxxx
+始哭   _________xxxx__xxx
+願転轉 xxxxxxxxxxxxxx_xxx
+光充   xxxxxxxxxxxxxxxxxx
+定居   xxxxxxxxxxxxxxxxxx
+見聖   ___________x__xxxx
+倭京繩 xxxxxxxxxxxxxxxxxx
+節中   _________xxxx__xxx
+仁王   xxxxx_xxxxxxxxxxxx
+聖徳   xx_xxxxxxxxxxxxxxx
+僧要   xxxxxxxxxxxxxx_xxx
+命長   x_xxxxxxxxxxxx_xxx
+常色   _xxxxxxxx_x_xx_xxx
+中元   _________xxx__xx_x
+果安   _________xxx___xxx
+大屯   ________x_________
+大長   _x__xxxxxxx_x_xxxx
+大和   ____x___xxxxxxxxxx
+
+# p.143
+#n=47
+
+A-I
+貴楽 法清 兄弟 蔵知 師安 知僧 金光 賢称 鏡常 勝照 端政 告貴
+願転 光充 定居 倭京繩 仁王 聖徳 僧要 命長
+#n=20
+
+A-II
+善記 正和 教到 僧聴 明要 常色 大長 大和
+#n=8
+
+B-I
+烈擲 璽至 定和 始哭 和重 節中 喜楽 中元 果安
+#n=9
+
+B-II
+宝元 見聖 得□ 発□ 是□ 嘉紀
+#n=6
+
+B-III
+証明 大屯 大化 経明
+
+# p.527
+# n=47
+
+烈擲 x
+嘉紀 ->善記
+是□ x
+定和 x ->正和
+発□ x ->教到
+宝元 x
+得□ x
+果安 x
+大屯 ->大長
+善喜 x ->善記

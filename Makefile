@@ -132,6 +132,11 @@ local/era-defs-jp-wp-en.json: bin/era-defs-jp-wp-en.pl \
 local/number-values.json:
 	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-chars/master/data/number-values.json
 
+local/era-kodai.json: bin/era-kodai.pl src/era-kodai.txt
+	$(PERL) $< > $@
+local/calendar-era-kodai.html: bin/calendar-era-kodai.pl local/era-kodai.json
+	$(PERL) $< > $@
+
 local/era-date-list.json: bin/era-date-list.pl src/era-start-315.txt
 	$(PERL) $< > $@
 
