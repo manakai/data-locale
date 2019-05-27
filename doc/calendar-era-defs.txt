@@ -582,6 +582,12 @@ various era codes.  [CODES]
 The file |data/calendar/era-yomis.html| contains a table comparing
 Japanese era name readings from various sources.  [JAREADINGS]
 
+The file |data/calendar/era-kodai-years.html| contains a table
+comparing Kodai era year ranges from various sources.  [KODAI]
+
+The file |data/calendar/era-kodai-starts.html| contains a table
+comparing Kodai era start years from various sources.  [KODAI]
+
 * See also
 
 If you are trying to implement AD to 元号 conversions, see also
@@ -637,6 +643,9 @@ CLDR - Unicode Common Locale Data Repository,
 
 [JAREADINGS] SuikaWiki:元号の読み方
 <https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9>.
+
+[KODAI] SuikaWiki:古代年号
+<https://wiki.suikawiki.org/n/%E5%8F%A4%E4%BB%A3%E5%B9%B4%E5%8F%B7>.
 
 * License
 
