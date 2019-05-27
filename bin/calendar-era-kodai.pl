@@ -25,12 +25,18 @@ my $IndexToKanshi = {map { my $x = $_; $x =~ s/\s+//g; $x =~ s/(\d+)/' '.($1-1).
 }};
 
 my $YearData = {};
+my $RefData;
 my $Refs;
 {
-  my $json = json_bytes2perl $RootPath->child ('local/era-kodai.json')->slurp;
-  $Refs = [sort { $a <=> $b } keys %{$json}];
-  for my $ref (@$Refs) {
-    push @$cols, {key => $ref};
+  $RefData = my $json = json_bytes2perl $RootPath->child ('local/era-kodai.json')->slurp;
+  for my $ref (sort {
+    ($json->{$a}->{published_year_start} || $json->{$a}->{published_year_end})
+        <=>
+    ($json->{$b}->{published_year_start} || $json->{$b}->{published_year_end})
+        ||
+    $a <=> $b;
+  } keys %{$json}) {
+    my $has_data;
     for my $era (@{$json->{$ref}->{eras}}) {
       if (defined $era->{start_year}) {
         for my $y (1..$era->{length}) {
@@ -38,6 +44,7 @@ my $Refs;
           push @{$YearData->{$ady}->{$ref} ||= []}, map {
             [$_ . $y, $_ . $era->{start_year}]
           } @{$era->{names}};
+          $has_data = 1;
         }
       } else {
         push @{$YearData->{unknown}->{$ref} ||= []}, map {
@@ -45,10 +52,28 @@ my $Refs;
         } @{$era->{names}};
       } # start_year
     }
+    if ($has_data) {
+      push @$cols, {key => $ref};
+      $cols->[-1]->{highlighted} = 1 if
+          $ref == 6151 or $ref == 6251 or $ref == 6001;
+      push @$Refs, $ref;
+    }
   }
 }
 
 my $rows = [];
+
+{
+  my $row = [];
+  push @$row, [['', '']], [['', '']];
+  for my $ref (@$Refs) {
+    push @$row, [[(sprintf '%s-%s',
+        $RefData->{$ref}->{published_year_start} // '',
+        $RefData->{$ref}->{published_year_end}), '']];
+  }
+  push @$rows, $row;
+}
+
 for my $ady (-660..701, 'unknown') {
   my $row = [];
   push @$row, [[$ady eq 'unknown' ? '?' : $ady, '']];
@@ -78,6 +103,10 @@ copyright and related or neighboring rights to this document.
     content: " ";
   }
 
+  .highlighted {
+    background: #eee;
+  }
+
   .pattern-1 { background-color: #ffdddd }
   .pattern-2 { background-color: #ffffdd }
   .pattern-3 { background-color: #ddffdd }
@@ -99,8 +128,8 @@ copyright and related or neighboring rights to this document.
   for (@$cols) {
     next if $_->{hidden};
     my $td = $doc->create_element ('col');
-    if (defined $_->{text_type}) {
-      $td->set_attribute ('class', $_->{text_type});
+    if (defined $_->{highlighted}) {
+      $td->set_attribute ('class', 'highlighted');
     }
     $tr->append_child ($td);
   }
@@ -134,8 +163,11 @@ copyright and related or neighboring rights to this document.
   my $next_pattern = 1;
   my $pattern = sub {
     my $key = shift;
+    return '' unless length $key;
     use utf8;
     $key =~ s/繩/縄/g;
+    $key =~ s/當/当/g;
+    $key =~ s/稱/称/g;
     return 'pattern-' . (($patterns->{$key} ||= $next_pattern++) % 12);
   };
 

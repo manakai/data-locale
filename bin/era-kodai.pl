@@ -132,6 +132,12 @@ sub era_length ($$) {
       my $v = {start_year => $fy, names => [$3]};
       era_length $4 // '1+', $v;
       push @{$data->{eras}}, $v;
+    } elsif (/^p\s+([0-9]+)?-([0-9]+)$/) {
+      $data->{published_year_start} = 0+$1 if defined $1;
+      $data->{published_year_end} = 0+$2;
+    } elsif (/^p\s+([0-9]+)$/) {
+      $data->{published_year_start} = 0+$1;
+      $data->{published_year_end} = 0+$1;
     } elsif (/\S/) {
       die "Bad line |$_|";
     }
