@@ -63,6 +63,7 @@ data-main: \
     data/calendar/jp-flagdays.json data/calendar/era-systems.json \
     data/calendar/era-defs.json data/calendar/era-codes.html \
     data/calendar/era-yomis.html \
+    data/calendar/era-kodai-years.html \
     day-era-maps \
     data/numbers/kanshi.json
 clean-data:
@@ -134,7 +135,8 @@ local/number-values.json:
 
 local/era-kodai.json: bin/era-kodai.pl src/era-kodai.txt
 	$(PERL) $< > $@
-local/calendar-era-kodai.html: bin/calendar-era-kodai.pl local/era-kodai.json
+data/calendar/era-kodai-years.html: bin/calendar-era-kodai-years.pl \
+    local/era-kodai.json
 	$(PERL) $< > $@
 
 local/era-date-list.json: bin/era-date-list.pl src/era-start-315.txt
