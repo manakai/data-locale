@@ -144,6 +144,26 @@ sub era_length ($$) {
   }
 }
 
+for my $ref (
+  6100,
+  6150,
+) {
+  my $path = $RootPath->child ("src/era-kodai-$ref.txt");
+  for (split /\x0D?\x0A/, $path->slurp_utf8) {
+    if (/^(\w+)\s+([_x]+)$/) {
+      my $name = $1;
+      my $v = [split //, $2];
+      for (0..$#$v) {
+        if ($v->[$_] eq 'x') {
+          push @{$Data->{$ref+21+$_}->{eras} ||= []}, {
+            names => [$name],
+          };
+          $Data->{$ref+21+$_}->{published_year_end} = $Data->{$ref}->{published_year_end};
+        }
+      }
+    }
+  }
+} # $ref
 
 print perl2json_bytes_for_record $Data;
 
