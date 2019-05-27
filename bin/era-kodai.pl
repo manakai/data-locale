@@ -158,7 +158,7 @@ for my $ref (
           push @{$Data->{$ref+21+$_}->{eras} ||= []}, {
             names => [$name],
           };
-          $Data->{$ref+21+$_}->{published_year_end} = $Data->{$ref}->{published_year_end};
+          $Data->{$ref+21+$_}->{published_year_end} //= $Data->{$ref}->{published_year_end};
         }
       }
     }

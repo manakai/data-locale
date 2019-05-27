@@ -75,7 +75,7 @@ my $rows = [];
 
 {
   my $row = [];
-  push @$row, [''], [''];
+  push @$row, [''];
   for my $ref (@$Refs) {
     push @$row, [(sprintf '%s--%s',
         $RefData->{$ref}->{published_year_start} // '',
@@ -178,6 +178,7 @@ copyright and related or neighboring rights to this document.
   my $pattern = sub {
     my $key = shift;
     return '' unless length $key;
+    return '' if $key eq 'x';
     use utf8;
     $key =~ s/繩/縄/g;
     $key =~ s/當/当/g;
