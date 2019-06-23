@@ -223,7 +223,7 @@ for my $id (6051) {
   }
 }
 
-for my $id (6040, 6062, 6071..6084, 6099) {
+for my $id (6040, 6062, 6063, 6071..6084, 6099) {
   my $path = $RootPath->child ('src/era-yomi-'.$id.'.txt');
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
