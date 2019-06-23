@@ -381,10 +381,10 @@ for my $era (@era) {
 
     for (qw(gregorian julian kyuureki)) {
       $era->{$pfx.'start_day'}->{$_} =~ /^(-?[0-9]+)/ or die;
-      $era->{known_oldest_year} = $1 if
+      $era->{known_oldest_year} = 0+$1 if
           not defined $era->{known_oldest_year} or
           $era->{known_oldest_year} > $1;
-      $era->{known_latest_year} = $1 if
+      $era->{known_latest_year} = 0+$1 if
           not defined $era->{known_latest_year} or
           $era->{known_latest_year} < $1;
     }

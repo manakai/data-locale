@@ -929,3 +929,8 @@ def[禅源]
 sw 禅源
 #korea (高麗)
 name_ko 禅源
+
+def[統仁]
+name 統仁
+sw 孝明天皇即位紀年
+AD1866 = 20

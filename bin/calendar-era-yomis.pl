@@ -38,7 +38,8 @@ my $cols = [
   } (6100..6104,
      6001, 6002, 6011, 6012, 6013..6020, 6031..6036, 6040,
      6041..6046, 6047..6048, 6049..6050, 6051..6052, 6060,
-     6071..6084, 6090..6091)),
+     6062, 6071..6084, 6090..6091, 6099)),
+  {key => 'missing_yomis', type => 'text', text_type => 'wrong'},
 ];
 
 my $rows = [];
@@ -126,7 +127,7 @@ copyright and related or neighboring rights to this document.
       $td->text_content ($_->{label});
     } elsif ($_->{key} =~ /^([0-9]+)$/) {
       my $a = $doc->create_element ('a');
-      $a->set_attribute (href => q<https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9#anchor-> . $1);
+      $a->set_attribute (href => q<https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7#anchor-> . $1);
       $a->text_content ('#' . $1);
       $td->append_child ($a);
     } else {

@@ -223,7 +223,7 @@ for my $id (6051) {
   }
 }
 
-for my $id (6040, 6071..6084) {
+for my $id (6040, 6062, 6071..6084, 6099) {
   my $path = $RootPath->child ('src/era-yomi-'.$id.'.txt');
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
@@ -399,12 +399,20 @@ for my $id (6090..6091) {
   }
 }
 
+sub xx ($) { my $s = shift; $s =~ s/ //g; return $s }
+for my $data (values %{$Data->{eras}}) {
+  my $all = {};
+  for (keys %$data) {
+    next unless /^[0-9]+$/;
+    $all->{$_} = 1 for map { xx $_ } ref $data->{$_} ? @{$data->{$_}} : $data->{$_};
+  }
+  for (keys %$data) {
+    next unless /^[0-9]+$/ and 6100 <= $_ and $_ <= 6104;
+    delete $all->{$_} for map { xx $_ } ref $data->{$_} ? @{$data->{$_}} : $data->{$_};
+  }
+  $data->{missing_yomis} = [sort { $a cmp $b } keys %$all];
+}
+
 print perl2json_bytes_for_record $Data;
 
 ## License: Public Domain.
-
-__END__
-
-XXX
-QEICHO (慶長)
-    <https://wiki.suikawiki.org/n/%E6%97%A5%E6%9C%AC%E3%81%AE%E5%85%83%E5%8F%B7#anchor-620>

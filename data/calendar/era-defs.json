@@ -9045,7 +9045,7 @@
          "jp_era" : 1,
          "key" : "嘉保",
          "known_latest_year" : 1097,
-         "known_oldest_year" : "1094",
+         "known_oldest_year" : 1094,
          "name" : "嘉保",
          "name_ja" : "嘉保",
          "name_kana" : "かほう",
@@ -13088,7 +13088,7 @@
          "jp_era" : 1,
          "key" : "天保",
          "known_latest_year" : 1845,
-         "known_oldest_year" : "1830",
+         "known_oldest_year" : 1830,
          "name" : "天保",
          "name_ja" : "天保",
          "name_kana" : "てんぽう",
@@ -14303,6 +14303,9 @@
                "kana" : "てん ぴょう",
                "kana_classic" : "てん ぴやう",
                "kana_modern" : "てん ぴょう",
+               "kana_others" : [
+                  "てん ぴよう"
+               ],
                "latin" : "Tempyō",
                "latin_macron" : "Tempyō",
                "latin_normal" : "Tempyou"
@@ -14358,6 +14361,7 @@
             "てんびわう" : 1,
             "てんぴやう" : 1,
             "てんぴょう" : 1,
+            "てんぴよう" : 1,
             "てんへい" : 1,
             "てんへう" : 1,
             "てんぺい" : 1
@@ -14654,6 +14658,9 @@
                "kana" : "てん ぴょう ほう じ",
                "kana_classic" : "てん ぴやう ほう じ",
                "kana_modern" : "てん ぴょう ほう じ",
+               "kana_others" : [
+                  "てん ぴよう ほう じ"
+               ],
                "latin" : "Tempyō-hōji",
                "latin_macron" : "Tempyō-hōji",
                "latin_normal" : "Tempyou-houji"
@@ -14687,6 +14694,7 @@
             "てんびょうほうじ" : 1,
             "てんぴやうほうじ" : 1,
             "てんぴょうほうじ" : 1,
+            "てんぴようほうじ" : 1,
             "てんぺいほうじ" : 1
          },
          "name_latn" : "Tempyō-hōji",
@@ -14789,6 +14797,9 @@
                "kana" : "てん ぴょう かん ぽう",
                "kana_classic" : "てん ぴやう かん ぽう",
                "kana_modern" : "てん ぴょう かん ぽう",
+               "kana_others" : [
+                  "てん ぴよう かん ぽう"
+               ],
                "latin" : "Tempyō-kampō",
                "latin_macron" : "Tempyō-kampō",
                "latin_normal" : "Tempyou-kampou"
@@ -14830,6 +14841,7 @@
             "てんぴやうかんぽう" : 1,
             "てんぴょうかんほう" : 1,
             "てんぴょうかんぽう" : 1,
+            "てんぴようかんぽう" : 1,
             "てんぺいかんほう" : 1
          },
          "name_latn" : "Tempyō-kampō",
@@ -14941,6 +14953,9 @@
                "kana" : "てん ぴょう じん ご",
                "kana_classic" : "てん ぴやう じん ご",
                "kana_modern" : "てん ぴょう じん ご",
+               "kana_others" : [
+                  "てん ぴよう じん ご"
+               ],
                "latin" : "Tempyō-jingo",
                "latin_macron" : "Tempyō-jingo",
                "latin_normal" : "Tempyou-jingo"
@@ -15006,6 +15021,7 @@
             "てんぴょうしんこ" : 1,
             "てんぴょうしんご" : 1,
             "てんぴょうじんご" : 1,
+            "てんぴようじんご" : 1,
             "てんへいじんご" : 1,
             "てんぺいじんご" : 1
          },
@@ -15156,7 +15172,7 @@
          "jp_era" : 1,
          "key" : "天延",
          "known_latest_year" : 976,
-         "known_oldest_year" : "0973",
+         "known_oldest_year" : 973,
          "name" : "天延",
          "name_ja" : "天延",
          "name_kana" : "てんえん",
@@ -15716,6 +15732,9 @@
                "kana" : "てん ぎょう",
                "kana_classic" : "てん ぎやう",
                "kana_modern" : "てん ぎょう",
+               "kana_others" : [
+                  "てん ぎよう"
+               ],
                "latin" : "Tengyō",
                "latin_macron" : "Tengyō",
                "latin_normal" : "Tengyou"
@@ -15749,6 +15768,7 @@
             "てんきょう" : 1,
             "てんぎやう" : 1,
             "てんぎょう" : 1,
+            "てんぎよう" : 1,
             "てんけい" : 1
          },
          "name_latn" : "Tengyō",
@@ -18707,6 +18727,9 @@
                "kana" : "てん ちょう",
                "kana_classic" : "てん ちやう",
                "kana_modern" : "てん ちょう",
+               "kana_others" : [
+                  "てん ちよう"
+               ],
                "latin" : "Tenchō",
                "latin_macron" : "Tenchō",
                "latin_normal" : "Tenchou"
@@ -18726,7 +18749,8 @@
          "name_kanas" : {
             "てんじやう" : 1,
             "てんちやう" : 1,
-            "てんちょう" : 1
+            "てんちょう" : 1,
+            "てんちよう" : 1
          },
          "name_latn" : "Tenchō",
          "names" : {
@@ -21026,7 +21050,7 @@
          "jp_era" : 1,
          "key" : "安政",
          "known_latest_year" : 1860,
-         "known_oldest_year" : "1854",
+         "known_oldest_year" : 1854,
          "name" : "安政",
          "name_ja" : "安政",
          "name_kana" : "あんせい",
@@ -21322,7 +21346,7 @@
          "jp_era" : 1,
          "key" : "安貞",
          "known_latest_year" : 1229,
-         "known_oldest_year" : "1227",
+         "known_oldest_year" : 1227,
          "name" : "安貞",
          "name_ja" : "安貞",
          "name_kana" : "あんてい",
@@ -21939,7 +21963,7 @@
          ],
          "jp_era" : 1,
          "key" : "宝暦",
-         "known_latest_year" : 1764,
+         "known_latest_year" : 1765,
          "known_oldest_year" : 1751,
          "name" : "宝暦",
          "name_ja" : "宝暦",
@@ -22645,7 +22669,7 @@
          ],
          "jp_era" : 1,
          "key" : "寛保",
-         "known_latest_year" : 1744,
+         "known_latest_year" : 1745,
          "known_oldest_year" : 1741,
          "name" : "寛保",
          "name_ja" : "寛保",
@@ -23466,7 +23490,7 @@
          ],
          "jp_era" : 1,
          "key" : "寛延",
-         "known_latest_year" : 1751,
+         "known_latest_year" : 1752,
          "known_oldest_year" : 1748,
          "name" : "寛延",
          "name_ja" : "寛延",
@@ -23964,7 +23988,7 @@
          ],
          "jp_era" : 1,
          "key" : "寛文",
-         "known_latest_year" : 1673,
+         "known_latest_year" : 1674,
          "known_oldest_year" : 1661,
          "name" : "寛文",
          "name_ja" : "寛文",
@@ -24140,7 +24164,7 @@
          "jp_era" : 1,
          "key" : "寛正",
          "known_latest_year" : 1466,
-         "known_oldest_year" : "1460",
+         "known_oldest_year" : 1460,
          "name" : "寛正",
          "name_ja" : "寛正",
          "name_kana" : "かんしょう",
@@ -28483,7 +28507,7 @@
          ],
          "jp_era" : 1,
          "key" : "延宝",
-         "known_latest_year" : 1681,
+         "known_latest_year" : 1682,
          "known_oldest_year" : 1673,
          "name" : "延宝",
          "name_ja" : "延宝",
@@ -30183,7 +30207,7 @@
          "jp_era" : 1,
          "key" : "建保",
          "known_latest_year" : 1219,
-         "known_oldest_year" : "1213",
+         "known_oldest_year" : 1213,
          "name" : "建保",
          "name_ja" : "建保",
          "name_kana" : "けんぽう",
@@ -33493,7 +33517,7 @@
          "jp_era" : 1,
          "key" : "徳治",
          "known_latest_year" : 1308,
-         "known_oldest_year" : "1306",
+         "known_oldest_year" : 1306,
          "name" : "徳治",
          "name_ja" : "徳治",
          "name_kana" : "とくじ",
@@ -34896,7 +34920,7 @@
          ],
          "jp_era" : 1,
          "key" : "慶安",
-         "known_latest_year" : 1652,
+         "known_latest_year" : 1653,
          "known_oldest_year" : 1648,
          "name" : "慶安",
          "name_ja" : "慶安",
@@ -36904,7 +36928,8 @@
                "kana_modern" : "しょう へい",
                "kana_others" : [
                   "せう へい",
-                  "しやう へい"
+                  "しやう へい",
+                  "しゃう へい"
                ],
                "latin" : "Shōhei",
                "latin_macron" : "Shōhei",
@@ -36919,6 +36944,7 @@
          "name_ja" : "承平",
          "name_kana" : "じょうへい",
          "name_kanas" : {
+            "しゃうへい" : 1,
             "しやうへい" : 1,
             "しょうへい" : 1,
             "しようへい" : 1,
@@ -41062,7 +41088,7 @@
          ],
          "jp_era" : 1,
          "key" : "明和",
-         "known_latest_year" : 1772,
+         "known_latest_year" : 1773,
          "known_oldest_year" : 1764,
          "name" : "明和",
          "name_ja" : "明和",
@@ -43963,7 +43989,7 @@
          "jp_era" : 1,
          "key" : "正保",
          "known_latest_year" : 1648,
-         "known_oldest_year" : "1644",
+         "known_oldest_year" : 1644,
          "name" : "正保",
          "name_ja" : "正保",
          "name_kana" : "しょうほう",
@@ -44908,7 +44934,7 @@
          "jp_south_era" : 1,
          "key" : "正平",
          "known_latest_year" : 1370,
-         "known_oldest_year" : "1346",
+         "known_oldest_year" : 1346,
          "name" : "正平",
          "name_ja" : "正平",
          "name_kana" : "しょうへい",
@@ -50178,7 +50204,7 @@
          "jp_era" : 1,
          "key" : "永長",
          "known_latest_year" : 1098,
-         "known_oldest_year" : "1096",
+         "known_oldest_year" : 1096,
          "name" : "永長",
          "name_ja" : "永長",
          "name_kana" : "えいちょう",
@@ -50615,7 +50641,8 @@
                "kana_classic" : "ぢ しよう",
                "kana_modern" : "じ しょう",
                "kana_others" : [
-                  "ぢ せう"
+                  "ぢ せう",
+                  "じ しよう"
                ],
                "latin" : "Jishō",
                "latin_macron" : "Jishō",
@@ -50665,6 +50692,7 @@
          "name_kana" : "じしょう",
          "name_kanas" : {
             "じしょう" : 1,
+            "じしよう" : 1,
             "じじょう" : 1,
             "ちしょう" : 1,
             "ちしよう" : 1,
@@ -54407,6 +54435,17 @@
          },
          "offset" : -19
       },
+      "統仁" : {
+         "id" : 1765,
+         "key" : "統仁",
+         "name" : "統仁",
+         "names" : {
+            "統仁" : 1,
+            "统仁" : 1
+         },
+         "offset" : 1846,
+         "suikawiki" : "孝明天皇即位紀年"
+      },
       "統元" : {
          "id" : 1557,
          "key" : "統元",
@@ -56621,7 +56660,7 @@
          ],
          "jp_era" : 1,
          "key" : "貞享",
-         "known_latest_year" : 1688,
+         "known_latest_year" : 1689,
          "known_oldest_year" : 1684,
          "name" : "貞享",
          "name_ja" : "貞享",
@@ -57743,7 +57782,9 @@
                "kana_others" : [
                   "ぢゃうぐわん じよう がん",
                   "でう ぐわん",
-                  "でう がん"
+                  "でう がん",
+                  "じよう がん",
+                  "ぢゃう ぐわん"
                ],
                "latin" : "Jōgan",
                "latin_macron" : "Jōgan",
@@ -57759,6 +57800,8 @@
          "name_kana" : "じょうがん",
          "name_kanas" : {
             "じょうがん" : 1,
+            "じようがん" : 1,
+            "ぢゃうぐわん" : 1,
             "ぢゃうぐわんじようがん" : 1,
             "ぢやうぐわん" : 1,
             "でうがん" : 1,
@@ -58995,7 +59038,7 @@
          "jp_era" : 1,
          "key" : "長和",
          "known_latest_year" : 1017,
-         "known_oldest_year" : "1012",
+         "known_oldest_year" : 1012,
          "name" : "長和",
          "name_ja" : "長和",
          "name_kana" : "ちょうわ",
@@ -71113,6 +71156,7 @@
          "結靖" : "法清",
          "結靖" : "法清",
          "結靖" : "法清",
+         "統仁" : "統仁",
          "統元" : "統元",
          "統和" : "統和",
          "綏和" : "綏和",
@@ -71173,6 +71217,7 @@
          "绍寳" : "紹寶",
          "绍成" : "紹聖(辛巳)",
          "经明" : "経明",
+         "统仁" : "統仁",
          "统元" : "統元",
          "统和" : "統和",
          "绥和" : "綏和",
@@ -86289,6 +86334,9 @@
       "結靖" : {
          "法清" : 1
       },
+      "統仁" : {
+         "統仁" : 1
+      },
       "統元" : {
          "統元" : 1
       },
@@ -86478,6 +86526,9 @@
       },
       "经明" : {
          "経明" : 1
+      },
+      "统仁" : {
+         "統仁" : 1
       },
       "统元" : {
          "統元" : 1
