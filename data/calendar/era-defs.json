@@ -2061,7 +2061,8 @@
                "kana_classic" : "きやう ほう",
                "kana_modern" : "きょう ほう",
                "kana_others" : [
-                  "きよう ほう"
+                  "きよう ほう",
+                  "きやう はう"
                ],
                "latin" : "Kyōhō",
                "latin_macron" : "Kyōhō",
@@ -2083,6 +2084,7 @@
          "name_ja" : "享保",
          "name_kana" : "きょうほう",
          "name_kanas" : {
+            "きやうはう" : 1,
             "きやうほう" : 1,
             "きょうほ" : 1,
             "きょうほう" : 1,
@@ -3914,7 +3916,8 @@
                "kana_classic" : "ほう ぐえん",
                "kana_modern" : "ほう げん",
                "kana_others" : [
-                  "ほう ぐぇん"
+                  "ほう ぐぇん",
+                  "はう ぐゑん"
                ],
                "latin" : "Hōgen",
                "latin_macron" : "Hōgen",
@@ -3937,6 +3940,7 @@
          "name_ja" : "保元",
          "name_kana" : "ほうげん",
          "name_kanas" : {
+            "はうぐゑん" : 1,
             "ほうぐぇん" : 1,
             "ほうぐえん" : 1,
             "ほうけん" : 1,
@@ -4116,6 +4120,9 @@
                "kana" : "ほう あん",
                "kana_classic" : "ほう あん",
                "kana_modern" : "ほう あん",
+               "kana_others" : [
+                  "はう あん"
+               ],
                "latin" : "Hōan",
                "latin_macron" : "Hōan",
                "latin_normal" : "Houan"
@@ -4129,6 +4136,7 @@
          "name_ja" : "保安",
          "name_kana" : "ほうあん",
          "name_kanas" : {
+            "はうあん" : 1,
             "ほうあん" : 1
          },
          "name_latn" : "Hōan",
@@ -4290,6 +4298,9 @@
                "kana" : "ほう えん",
                "kana_classic" : "ほう えん",
                "kana_modern" : "ほう えん",
+               "kana_others" : [
+                  "はう えん"
+               ],
                "latin" : "Hōen",
                "latin_macron" : "Hōen",
                "latin_normal" : "Houen"
@@ -4303,6 +4314,7 @@
          "name_ja" : "保延",
          "name_kana" : "ほうえん",
          "name_kanas" : {
+            "はうえん" : 1,
             "ほうえん" : 1
          },
          "name_latn" : "Hōen",
@@ -4593,7 +4605,8 @@
                "kana_modern" : "げん ちゅう",
                "kana_others" : [
                   "げん ちゆう",
-                  "げん ちう"
+                  "げん ちう",
+                  "ぐゑん ちゆう"
                ],
                "latin" : "Genchū",
                "latin_macron" : "Genchū",
@@ -4609,6 +4622,7 @@
          "name_kana" : "げんちゅう",
          "name_kanas" : {
             "ぐゑんちう" : 1,
+            "ぐゑんちゆう" : 1,
             "げんちう" : 1,
             "げんちゅう" : 1,
             "げんちゆう" : 1
@@ -5404,6 +5418,9 @@
                "kana" : "げん な",
                "kana_classic" : "げん な",
                "kana_modern" : "げん な",
+               "kana_others" : [
+                  "ぐゑん な"
+               ],
                "latin" : "Genna",
                "latin_macron" : "Genna",
                "latin_normal" : "Genna"
@@ -5434,6 +5451,7 @@
          "name_kana" : "げんな",
          "name_kanas" : {
             "くゑんわ" : 1,
+            "ぐゑんな" : 1,
             "ぐゑんわ" : 1,
             "けんわ" : 1,
             "げんな" : 1,
@@ -5741,6 +5759,9 @@
                "kana" : "げん こう",
                "kana_classic" : "ぐゑん かう",
                "kana_modern" : "げん こう",
+               "kana_others" : [
+                  "ぐゑん こう"
+               ],
                "latin" : "Genkō",
                "latin_macron" : "Genkō",
                "latin_normal" : "Genkou"
@@ -5765,6 +5786,7 @@
          "name_kanas" : {
             "くわんこう" : 1,
             "ぐゑんかう" : 1,
+            "ぐゑんこう" : 1,
             "けんかう" : 1,
             "げんこう" : 1
          },
@@ -6258,6 +6280,9 @@
                "kana" : "げん のう",
                "kana_classic" : "げん のう",
                "kana_modern" : "げん のう",
+               "kana_others" : [
+                  "ぐゑん のう"
+               ],
                "latin" : "Gennō",
                "latin_macron" : "Gennō",
                "latin_normal" : "Gennou"
@@ -6272,6 +6297,7 @@
          "name_kana" : "げんおう",
          "name_kanas" : {
             "ぐゑんおう" : 1,
+            "ぐゑんのう" : 1,
             "けんわう" : 1,
             "けんをう" : 1,
             "げんおう" : 1,
@@ -6386,6 +6412,9 @@
                "kana" : "がん ぎょう",
                "kana_classic" : "ぐわん ぎやう",
                "kana_modern" : "がん ぎょう",
+               "kana_others" : [
+                  "がん ぎよう"
+               ],
                "latin" : "Gangyō",
                "latin_macron" : "Gangyō",
                "latin_normal" : "Gangyou"
@@ -6433,6 +6462,7 @@
          "name_kanas" : {
             "がんきょう" : 1,
             "がんぎょう" : 1,
+            "がんぎよう" : 1,
             "くわんきょう" : 1,
             "ぐわんきゃう" : 1,
             "ぐわんきやう" : 1,
@@ -6869,6 +6899,9 @@
                "kana" : "げん えい",
                "kana_classic" : "ぐえん えい",
                "kana_modern" : "げん えい",
+               "kana_others" : [
+                  "ぐゑん えい"
+               ],
                "latin" : "Gen'ei",
                "latin_macron" : "Gen'ei",
                "latin_normal" : "Gen'ei"
@@ -6899,6 +6932,7 @@
             "くえねい" : 1,
             "くえんえい" : 1,
             "ぐえんえい" : 1,
+            "ぐゑんえい" : 1,
             "けんえい" : 1,
             "げんえい" : 1
          },
@@ -9037,6 +9071,9 @@
                "kana" : "か ほう",
                "kana_classic" : "か ほう",
                "kana_modern" : "か ほう",
+               "kana_others" : [
+                  "か はう"
+               ],
                "latin" : "Kahō",
                "latin_macron" : "Kahō",
                "latin_normal" : "Kahou"
@@ -9050,6 +9087,7 @@
          "name_ja" : "嘉保",
          "name_kana" : "かほう",
          "name_kanas" : {
+            "かはう" : 1,
             "かほう" : 1
          },
          "name_latn" : "Kahō",
@@ -9939,6 +9977,14 @@
                "latin" : "Karyaku",
                "latin_macron" : "Karyaku",
                "latin_normal" : "Karyaku"
+            },
+            {
+               "kana" : "か れき",
+               "kana_classic" : "か れき",
+               "kana_modern" : "か れき",
+               "latin" : "Kareki",
+               "latin_macron" : "Kareki",
+               "latin_normal" : "Kareki"
             }
          ],
          "jp_era" : 1,
@@ -9950,7 +9996,8 @@
          "name_kana" : "かりゃく",
          "name_kanas" : {
             "かりゃく" : 1,
-            "かりやく" : 1
+            "かりやく" : 1,
+            "かれき" : 1
          },
          "name_latn" : "Karyaku",
          "names" : {
@@ -11567,6 +11614,9 @@
                "kana" : "たい ほう",
                "kana_classic" : "たい ほう",
                "kana_modern" : "たい ほう",
+               "kana_others" : [
+                  "たい はう"
+               ],
                "latin" : "Taihō",
                "latin_macron" : "Taihō",
                "latin_normal" : "Taihou"
@@ -11588,6 +11638,7 @@
          "name_ja" : "大宝",
          "name_kana" : "たいほう",
          "name_kanas" : {
+            "たいはう" : 1,
             "たいほう" : 1,
             "だいほう" : 1
          },
@@ -13268,6 +13319,9 @@
                "kana" : "てん げん",
                "kana_classic" : "てん ぐえん",
                "kana_modern" : "てん げん",
+               "kana_others" : [
+                  "てん ぐゑん"
+               ],
                "latin" : "Tengen",
                "latin_macron" : "Tengen",
                "latin_normal" : "Tengen"
@@ -13298,6 +13352,7 @@
          "name_kana" : "てんげん",
          "name_kanas" : {
             "てんぐえん" : 1,
+            "てんぐゑん" : 1,
             "てんぐん" : 1,
             "てんけん" : 1,
             "てんげん" : 1
@@ -14496,7 +14551,8 @@
                "kana_classic" : "てん びやう せう ほう",
                "kana_modern" : "てん びょう しょう ほう",
                "kana_others" : [
-                  "てん びやう しよう ほう"
+                  "てん びやう しよう ほう",
+                  "てん びやう しよう はう"
                ],
                "latin" : "Tembyō-shōhō",
                "latin_macron" : "Tembyō-shōhō",
@@ -14531,6 +14587,7 @@
          "name_ja" : "天平勝宝",
          "name_kana" : "てんぴょうしょうほう",
          "name_kanas" : {
+            "てんびやうしようはう" : 1,
             "てんびやうしようほう" : 1,
             "てんびやうしようぼう" : 1,
             "てんびやうせうほう" : 1,
@@ -14669,6 +14726,9 @@
                "kana" : "てん びょう ほう じ",
                "kana_classic" : "てん びやう ほう じ",
                "kana_modern" : "てん びょう ほう じ",
+               "kana_others" : [
+                  "てん びやう はう じ"
+               ],
                "latin" : "Tembyō-hōji",
                "latin_macron" : "Tembyō-hōji",
                "latin_normal" : "Tembyou-houji"
@@ -14690,6 +14750,7 @@
          "name_ja" : "天平宝字",
          "name_kana" : "てんぴょうほうじ",
          "name_kanas" : {
+            "てんびやうはうじ" : 1,
             "てんびやうほうじ" : 1,
             "てんびょうほうじ" : 1,
             "てんぴやうほうじ" : 1,
@@ -14826,6 +14887,16 @@
                "latin" : "Tempei-kanhō",
                "latin_macron" : "Tempei-kanhō",
                "latin_normal" : "Tempei-kanhou"
+            },
+            {
+               "kana" : "てん びょう かん ほう",
+               "kana_modern" : "てん びょう かん ほう",
+               "kana_others" : [
+                  "てん びやう かん はう"
+               ],
+               "latin" : "Tembyō-kanhō",
+               "latin_macron" : "Tembyō-kanhō",
+               "latin_normal" : "Tembyou-kanhou"
             }
          ],
          "jp_era" : 1,
@@ -14836,7 +14907,9 @@
          "name_ja" : "天平感宝",
          "name_kana" : "てんぴょうかんぽう",
          "name_kanas" : {
+            "てんびやうかんはう" : 1,
             "てんびやうかんぽう" : 1,
+            "てんびょうかんほう" : 1,
             "てんびょうかんぽう" : 1,
             "てんぴやうかんぽう" : 1,
             "てんぴょうかんほう" : 1,
@@ -17302,6 +17375,10 @@
             {
                "kana" : "てん やう",
                "kana_classic" : "てん やう"
+            },
+            {
+               "kana" : "てん ねい",
+               "kana_classic" : "てん ねい"
             }
          ],
          "jp_era" : 1,
@@ -17313,6 +17390,7 @@
          "name_kana" : "てんえい",
          "name_kanas" : {
             "てんえい" : 1,
+            "てんねい" : 1,
             "てんやう" : 1
          },
          "name_latn" : "Ten'ei",
@@ -21632,6 +21710,9 @@
                "kana" : "ほう き",
                "kana_classic" : "ほう き",
                "kana_modern" : "ほう き",
+               "kana_others" : [
+                  "はう き"
+               ],
                "latin" : "Hōki",
                "latin_macron" : "Hōki",
                "latin_normal" : "Houki"
@@ -21645,6 +21726,7 @@
          "name_ja" : "宝亀",
          "name_kana" : "ほうき",
          "name_kanas" : {
+            "はうき" : 1,
             "ほうき" : 1
          },
          "name_latn" : "Hōki",
@@ -22240,7 +22322,8 @@
                "kana_classic" : "ほう ぢ",
                "kana_modern" : "ほう じ",
                "kana_others" : [
-                  "はう ぢ"
+                  "はう ぢ",
+                  "はう じ"
                ],
                "latin" : "Hōji",
                "latin_macron" : "Hōji",
@@ -22263,6 +22346,7 @@
          "name_ja" : "宝治",
          "name_kana" : "ほうじ",
          "name_kanas" : {
+            "はうじ" : 1,
             "はうぢ" : 1,
             "ほうじ" : 1,
             "ほうち" : 1,
@@ -22787,6 +22871,9 @@
                "kana" : "かん げん",
                "kana_classic" : "くわん げん",
                "kana_modern" : "かん げん",
+               "kana_others" : [
+                  "くわん ぐゑん"
+               ],
                "latin" : "Kangen",
                "latin_macron" : "Kangen",
                "latin_normal" : "Kangen"
@@ -22814,6 +22901,7 @@
             "かんけん" : 1,
             "かんげん" : 1,
             "くわんくゑん" : 1,
+            "くわんぐゑん" : 1,
             "くわんけん" : 1,
             "くわんげん" : 1
          },
@@ -23336,6 +23424,9 @@
                "kana" : "かん ぺい",
                "kana_classic" : "かん ぺい",
                "kana_modern" : "かん ぺい",
+               "kana_others" : [
+                  "くわん ぺい"
+               ],
                "latin" : "Kampei",
                "latin_macron" : "Kampei",
                "latin_normal" : "Kampei"
@@ -23356,7 +23447,8 @@
             "かんぺい" : 1,
             "くわんぴやう" : 1,
             "くわんへい" : 1,
-            "くわんべい" : 1
+            "くわんべい" : 1,
+            "くわんぺい" : 1
          },
          "name_latn" : "Kampyō",
          "names" : {
@@ -23486,6 +23578,10 @@
                "latin" : "Kan'en",
                "latin_macron" : "Kan'en",
                "latin_normal" : "Kan'en"
+            },
+            {
+               "kana" : "くわん ねん",
+               "kana_classic" : "くわん ねん"
             }
          ],
          "jp_era" : 1,
@@ -23497,7 +23593,8 @@
          "name_kana" : "かんえん",
          "name_kanas" : {
             "かんえん" : 1,
-            "くわんえん" : 1
+            "くわんえん" : 1,
+            "くわんねん" : 1
          },
          "name_latn" : "Kan'en",
          "names" : {
@@ -26007,6 +26104,9 @@
                "kana" : "こう ほう",
                "kana_classic" : "かう ほう",
                "kana_modern" : "こう ほう",
+               "kana_others" : [
+                  "かう はう"
+               ],
                "latin" : "Kōhō",
                "latin_macron" : "Kōhō",
                "latin_normal" : "Kouhou"
@@ -26028,6 +26128,7 @@
          "name_ja" : "康保",
          "name_kana" : "こうほう",
          "name_kanas" : {
+            "かうはう" : 1,
             "かうほう" : 1,
             "こうほ" : 1,
             "こうほう" : 1
@@ -28489,6 +28590,9 @@
                "kana" : "えん ぽう",
                "kana_classic" : "えん ぽう",
                "kana_modern" : "えん ぽう",
+               "kana_others" : [
+                  "えん ぱう"
+               ],
                "latin" : "Empō",
                "latin_macron" : "Empō",
                "latin_normal" : "Empou"
@@ -28513,6 +28617,7 @@
          "name_ja" : "延宝",
          "name_kana" : "えんぽう",
          "name_kanas" : {
+            "えんぱう" : 1,
             "えんほう" : 1,
             "えんぽう" : 1,
             "ゑんほう" : 1
@@ -30175,6 +30280,9 @@
                "kana" : "けん ぽう",
                "kana_classic" : "けん ぽう",
                "kana_modern" : "けん ぽう",
+               "kana_others" : [
+                  "けん ぱう"
+               ],
                "latin" : "Kempō",
                "latin_macron" : "Kempō",
                "latin_normal" : "Kempou"
@@ -30212,6 +30320,7 @@
          "name_ja" : "建保",
          "name_kana" : "けんぽう",
          "name_kanas" : {
+            "けんぱう" : 1,
             "けんほ" : 1,
             "けんほう" : 1,
             "けんぽ" : 1,
@@ -33884,7 +33993,8 @@
                "kana_modern" : "おう ほう",
                "kana_others" : [
                   "をう ほう",
-                  "わう ほう"
+                  "わう ほう",
+                  "おう はう"
                ],
                "latin" : "Ōhō",
                "latin_macron" : "Ōhō",
@@ -33910,6 +34020,7 @@
          "name_ja" : "応保",
          "name_kana" : "おうほう",
          "name_kanas" : {
+            "おうはう" : 1,
             "おうほ" : 1,
             "おうほう" : 1,
             "わうほ" : 1,
@@ -36191,7 +36302,8 @@
                "kana_classic" : "じよう ほう",
                "kana_modern" : "じょう ほう",
                "kana_others" : [
-                  "ぜう ほう"
+                  "ぜう ほう",
+                  "じよう はう"
                ],
                "latin" : "Jōhō",
                "latin_macron" : "Jōhō",
@@ -36237,6 +36349,7 @@
             "しようほう" : 1,
             "じょうほ" : 1,
             "じょうほう" : 1,
+            "じようはう" : 1,
             "じようほう" : 1,
             "せうほ" : 1,
             "せうほう" : 1,
@@ -38550,6 +38663,9 @@
                "kana" : "ぶん ぽう",
                "kana_classic" : "ぶん ぽう",
                "kana_modern" : "ぶん ぽう",
+               "kana_others" : [
+                  "ぶん ぱう"
+               ],
                "latin" : "Bumpō",
                "latin_macron" : "Bumpō",
                "latin_normal" : "Bumpou"
@@ -38597,6 +38713,7 @@
          "name_kanas" : {
             "ふんほう" : 1,
             "ぶんはう" : 1,
+            "ぶんぱう" : 1,
             "ぶんほ" : 1,
             "ぶんほう" : 1,
             "ぶんぽ" : 1,
@@ -44450,6 +44567,14 @@
                "latin" : "Shōka",
                "latin_macron" : "Shōka",
                "latin_normal" : "Shouka"
+            },
+            {
+               "kana" : "しょう が",
+               "kana_classic" : "しやう が",
+               "kana_modern" : "しょう が",
+               "latin" : "Shōga",
+               "latin_macron" : "Shōga",
+               "latin_normal" : "Shouga"
             }
          ],
          "jp_era" : 1,
@@ -44461,7 +44586,9 @@
          "name_kana" : "しょうか",
          "name_kanas" : {
             "しやうか" : 1,
+            "しやうが" : 1,
             "しょうか" : 1,
+            "しょうが" : 1,
             "しようか" : 1
          },
          "name_latn" : "Shōka",
@@ -47408,6 +47535,9 @@
                "kana" : "えい ほう",
                "kana_classic" : "えい ほう",
                "kana_modern" : "えい ほう",
+               "kana_others" : [
+                  "えい はう"
+               ],
                "latin" : "Eihō",
                "latin_macron" : "Eihō",
                "latin_normal" : "Eihou"
@@ -47433,6 +47563,7 @@
          "name_ja" : "永保",
          "name_kana" : "えいほう",
          "name_kanas" : {
+            "えいはう" : 1,
             "えいほ" : 1,
             "えいほう" : 1,
             "やうぼう" : 1
@@ -56828,7 +56959,8 @@
                   "じよう げん",
                   "じゃう ぐえん",
                   "ぢやう げん",
-                  "ぢゃう げん"
+                  "ぢゃう げん",
+                  "ぢやう ぐゑん"
                ],
                "latin" : "Jōgen",
                "latin_macron" : "Jōgen",
@@ -56872,6 +57004,7 @@
             "じようげん" : 1,
             "ぢゃうげん" : 1,
             "ぢやうぐえん" : 1,
+            "ぢやうぐゑん" : 1,
             "ぢやうげん" : 1,
             "ていぐえん" : 1,
             "ていぐん" : 1,
@@ -58730,6 +58863,10 @@
                "kana" : "ちょう ほう",
                "kana_classic" : "ちやう ほう",
                "kana_modern" : "ちょう ほう",
+               "kana_others" : [
+                  "ちよう ほう",
+                  "ちやう はう"
+               ],
                "latin" : "Chōhō",
                "latin_macron" : "Chōhō",
                "latin_normal" : "Chouhou"
@@ -58759,12 +58896,14 @@
          "name_ja" : "長保",
          "name_kana" : "ちょうほう",
          "name_kanas" : {
+            "ちやうはう" : 1,
             "ちやうほう" : 1,
             "ちやうぼう" : 1,
             "ちょうほ" : 1,
             "ちょうほう" : 1,
             "ちょうぼう" : 1,
-            "ちようほ" : 1
+            "ちようほ" : 1,
+            "ちようほう" : 1
          },
          "name_latn" : "Chōhō",
          "names" : {
