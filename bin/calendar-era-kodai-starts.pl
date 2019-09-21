@@ -54,15 +54,15 @@ my $Refs = [];
 }
 
 my $CommonEraYear = {};
-for my $name (keys %$EraData) {
+for my $name (sort { $a cmp $b } keys %$EraData) {
   my $found = {};
-  for my $ref (keys %{$EraData->{$name}}) {
-    for my $year (keys %{$EraData->{$name}->{$ref}}) {
+  for my $ref (sort { $a <=> $b } keys %{$EraData->{$name}}) {
+    for my $year (sort { $a cmp $b } keys %{$EraData->{$name}->{$ref}}) {
       $found->{$year}++;
     }
   }
   delete $found->{x};
-  $CommonEraYear->{$name} = [sort { $found->{$b} <=> $found->{$a} } keys %$found]->[0]; # or undef
+  $CommonEraYear->{$name} = [sort { $found->{$b} <=> $found->{$a} || $a <=> $b } keys %$found]->[0]; # or undef
 }
 my $EraNames = [sort {
   use utf8;
@@ -202,6 +202,10 @@ copyright and related or neighboring rights to this document.
           }
           $td->append_child ($e);
           $td->append_child ($doc->create_text_node ("\x0A"));
+        }
+        if ($cols->[$_]->{key} eq 'name') {
+          # DEBUG
+          #$td->append_child ($doc->create_text_node ($CommonEraYear->{$row->[$_]->[0]} // 9999));
         }
       }
       $tr->append_child ($td);
