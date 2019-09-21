@@ -96,9 +96,12 @@ The file contains a JSON object with following name/value pairs:
       code9 [integer?]
       code16 [string?]
       code17 [integer?]
+      code18 [integer?]
+      code19 [integer?]
+      code20 [integer?]
 
-        The era codes #1, #2, #4, #5, #6, #7, #9, #16, or #17 codes
-        [CODES] for the era, respectively, if any.
+        The era codes #1, #2, #4, #5, #6, #7, #9, #16, #17, #18, #19,
+        or #20 codes [CODES] for the era, respectively, if any.
 
       code10 [integer?]
 

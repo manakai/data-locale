@@ -1,4 +1,6 @@
 def[unknown]
+code #18 9
+code #6 9
 
 [明治]
 
@@ -9,6 +11,8 @@ source
 code #1 1
 code #16 1
 code #17 1
+code #18 1
+code #19 1
 code #4 1
 code #6 3
 code #11 7621
@@ -19,6 +23,7 @@ abbr 明
 abbr_latn M
 code #7 明
 code #2 M
+code #20 -1
 
 [大正]
 
@@ -32,6 +37,8 @@ source
 code #1 2
 code #16 2
 code #17 2
+code #18 2
+code #19 2
 code #4 3
 code #6 2
 code #11 7622
@@ -42,6 +49,7 @@ abbr 大
 abbr_latn T
 code #7 大
 code #2 T
+code #20 0
 
 [昭和]
 
@@ -58,8 +66,11 @@ source
 code #1 3
 code #16 3
 code #17 3
+code #18 3
+code #19 3
 code #4 5
 code #5 1
+code #20 1
 code #6 1
 code #11 7623
 code #12 12043
@@ -84,8 +95,11 @@ source
 code #1 4
 code #16 4
 code #17 4
+code #18 4
+code #19 4
 code #4 7
 code #5 2
+code #20 2
 code #6 4
 code #9 1
 code #11 8323
@@ -104,8 +118,11 @@ sw 令和
 code #1 5
 code #16 5
 code #17 5
+code #18 5
+code #19 5
 code #4 9
 code #5 3
+code #20 3
 code #6 5
 code #9 2
 code #11 23058
@@ -270,6 +287,7 @@ sw 西暦
 # e.g. 442 BCE
 
 code #17 0
+#code #19 0
 
 def[共和]
 name_ja 共和
@@ -934,3 +952,9 @@ def[統仁]
 name 統仁
 sw 孝明天皇即位紀年
 AD1866 = 20
+
+def[庆丰]
+name_cn 庆丰
+name_ja 慶豊
+name_tw 慶豐
+AD2013 = 1

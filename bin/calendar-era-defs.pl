@@ -427,6 +427,8 @@ for (
       $Data->{eras}->{$key}->{'code' . $1} = $2;
     } elsif (defined $key and /^code\s+#([1-9][0-9]*)\s+([0-9]+)$/) {
       $Data->{eras}->{$key}->{'code' . $1} = 0+$2;
+    } elsif (defined $key and /^code\s+#(20)\s+(-[0-9]+)$/) {
+      $Data->{eras}->{$key}->{'code' . $1} = 0+$2;
     } elsif (defined $key and /^code\s+#(16)\s+([A-Z])$/) {
       $Data->{eras}->{$key}->{'code' . $1} = $2;
     } elsif (defined $key and /^code\s+#([1-9][0-9]*)\s+(北[1-9][0-9]*)$/) {
