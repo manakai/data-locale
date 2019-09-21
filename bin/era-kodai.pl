@@ -92,6 +92,10 @@ sub era_length ($$) {
         for (@$years) {
           if (defined $_) {
             push @{$data->{eras}}, {%$v, start_year => $_};
+            use utf8;
+            if ($ref == 6000 and $v->{names}->[0] =~ /^(\w+)天皇$/) {
+              $EraOffset->{$1} //= $years->[0] - 1;
+            }
           } else {
             push @{$data->{eras}}, $v;
           }
