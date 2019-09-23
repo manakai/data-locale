@@ -21,7 +21,7 @@ my $EraOffset = {};
 }
 sub year ($) {
   my $v = $_[0];
-  if ($v =~ /^[0-9]{3,}$/) {
+  if ($v =~ /^-?[0-9]{3,}$/) {
     return 0+$v;
   } elsif ($v =~ /^BC([0-9]+)$/) {
     return 1-$1;
@@ -81,7 +81,7 @@ sub era_length ($$) {
       $data = $Data->{$ref} = {eras => []};
     } elsif (not defined $ref and /\S/) {
       die "Bad line |$_|";
-    } elsif (/^([\w\x{25A1}\x{2FF0}-\x{2FFF},]+)\s+([\w,?]+)\s+([0-9,+]+)(?:\s+#[0-9]+|)$/) {
+    } elsif (/^([\w\x{25A1}\x{2FF0}-\x{2FFF},]+)\s+([\w,?-]+)\s+([0-9,+]+)(?:\s+#[0-9]+|)$/) {
       my $names = $1;
       my $v = {};
       era_length $3 => $v;

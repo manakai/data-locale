@@ -11,7 +11,7 @@ binmode STDOUT, qw(:encoding(utf-8));
 my $RootPath = path (__FILE__)->parent->parent;
 
 my $cols = [
-  {key => 'ad', type => 'text', info => 1},
+  {key => 'ad, bc/ad, kouki', type => 'text', info => 1},
   {key => 'kanshi', type => 'text', info => 1},
 ];
 
@@ -74,9 +74,11 @@ my $rows = [];
   push @$rows, $row;
 }
 
-for my $ady (-660..701, 'unknown') {
+for my $ady (-666..701, 'unknown') {
   my $row = [];
-  push @$row, [[$ady eq 'unknown' ? '?' : $ady, '']];
+  push @$row, [[$ady eq 'unknown' ? '?' : $ady, ''],
+               [$ady eq 'unknown' ? '?' : $ady > 0 ? $ady : 'BC'.(1-$ady), ''],
+               [$ady eq 'unknown' ? '?' : $ady+660, '']];
   push @$row, [[$ady eq 'unknown' ? '?' : $IndexToKanshi->{($ady-4)%60}, '']];
   for my $ref (@$Refs) {
     push @$row, $YearData->{$ady}->{$ref} || [];
