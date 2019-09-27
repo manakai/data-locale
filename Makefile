@@ -65,6 +65,8 @@ data-main: \
     data/calendar/era-yomis.html \
     data/calendar/era-kodai-years.html \
     data/calendar/era-kodai-starts.html \
+    data/calendar/dts.json \
+    data/calendar/serialized/dtsjp1.txt \
     day-era-maps \
     data/numbers/kanshi.json
 clean-data:
@@ -261,6 +263,13 @@ data/calendar/day-era/map-ryuukyuu.txt: bin/generate-day-era-map.pl \
 data/calendar/day-era/map-ryuukyuu-filtered.txt: bin/filter-day-era-map.pl \
     data/calendar/day-era/map-ryuukyuu.txt
 	$(PERL) $< data/calendar/day-era/map-ryuukyuu.txt > $@
+
+data/calendar/dts.json: bin/calendar-dts-jp.pl \
+    data/calendar/era-defs.json data/calendar/era-systems.json
+	$(PERL) $< > $@
+data/calendar/serialized/dtsjp1.txt: bin/calendar-serialize-dts.pl \
+    data/calendar/dts.json
+	$(PERL) $< dtsjp1 > $@
 
 local/era-chars.json: bin/generate-era-chars.pl \
     data/calendar/era-defs.json
