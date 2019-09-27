@@ -67,6 +67,7 @@ data-main: \
     data/calendar/era-kodai-starts.html \
     data/calendar/dts.json \
     data/calendar/serialized/dtsjp1.txt \
+    data/calendar/serialized/dtsjp2.txt \
     day-era-maps \
     data/numbers/kanshi.json
 clean-data:
@@ -264,12 +265,21 @@ data/calendar/day-era/map-ryuukyuu-filtered.txt: bin/filter-day-era-map.pl \
     data/calendar/day-era/map-ryuukyuu.txt
 	$(PERL) $< data/calendar/day-era/map-ryuukyuu.txt > $@
 
-data/calendar/dts.json: bin/calendar-dts-jp.pl \
-    data/calendar/era-defs.json data/calendar/era-systems.json
+data/calendar/dts.json: bin/calendar-dts.pl \
+    local/dtsjp1.json local/dtsjp2.json
 	$(PERL) $< > $@
+local/dtsjp1.json: bin/calendar-dts-jp.pl \
+    data/calendar/era-defs.json data/calendar/era-systems.json
+	$(PERL) $< dtsjp1 > $@
+local/dtsjp2.json: bin/calendar-dts-jp.pl \
+    data/calendar/era-defs.json data/calendar/era-systems.json
+	$(PERL) $< dtsjp2 > $@
 data/calendar/serialized/dtsjp1.txt: bin/calendar-serialize-dts.pl \
     data/calendar/dts.json
 	$(PERL) $< dtsjp1 > $@
+data/calendar/serialized/dtsjp2.txt: bin/calendar-serialize-dts.pl \
+    data/calendar/dts.json
+	$(PERL) $< dtsjp2 > $@
 
 local/era-chars.json: bin/generate-era-chars.pl \
     data/calendar/era-defs.json

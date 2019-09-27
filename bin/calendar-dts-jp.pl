@@ -6,6 +6,8 @@ use JSON::PS;
 my $RootPath = path (__FILE__)->parent->parent;
 my $Data = {};
 
+my $Key = shift or die;
+
 my $EraDefs;
 {
   my $json_path = $RootPath->child ('data/calendar/era-defs.json');
@@ -22,16 +24,32 @@ sub dclone ($) {
   return json_chars2perl perl2json_chars $_[0];
 } # dclone
 
+sub era_name ($) {
+  my $era_def = shift;
+  if ($Key eq 'dtsjp2') {
+    my $name = $era_def->{abbr_latn} || $era_def->{name_ja} || die;
+    # XXX
+    {
+      use utf8;
+      $name =~ s/天皇$//;
+      $name =~ s/皇后摂政$//;
+    }
+    return $name;
+  } else {
+    return $era_def->{name_ja} || die;
+  }
+} # era_name
+
 {
   my $jp = $EraSystems->{systems}->{jp} or die;
   my $jpn = $EraSystems->{systems}->{'jp-north'} or die;
-  my $def = $Data->{dts}->{dtsjp1} = {};
+  my $def = $Data->{dts}->{$Key} = {};
   my $patterns = [];
   $def->{patterns} = [];
   {
     use utf8;
     my $era_def = $EraDefs->{eras}->{AD} or die 'AD';
-    push @{$def->{patterns}}, [undef, [['グレゴリオ暦'.$era_def->{name_ja}, 0]]];
+    push @{$def->{patterns}}, [undef, [['グレゴリオ暦'.era_name ($era_def), 0]]];
   }
   {
     use utf8;
@@ -49,7 +67,7 @@ sub dclone ($) {
       $g_done = 1;
     }
     my $era_def = $EraDefs->{eras}->{$pt->[2]} or die $pt->[2];
-    push @$patterns, [$pt->[1], [[$era_def->{name_ja} || die, $era_def->{offset} // die $pt->[2]]]];
+    push @$patterns, [$pt->[1], [[era_name ($era_def), $era_def->{offset} // die $pt->[2]]]];
   }
   my $north;
   my $south;
@@ -75,7 +93,7 @@ sub dclone ($) {
     }
     if (@$patterns and $pt->[1] < $patterns->[0]->[0]) {
       my $era_def = $EraDefs->{eras}->{$pt->[2]} or die $pt->[2]; 
-      $north = ['/' . ($era_def->{name_ja} || die), $era_def->{offset} // die $pt->[2]];
+      $north = ['/' . era_name ($era_def), $era_def->{offset} // die $pt->[2]];
       $south = $def->{patterns}->[-1]->[1]->[1];
       use utf8;
       if ('/'.$south->[0] eq $north->[0] and
@@ -102,7 +120,11 @@ sub dclone ($) {
         if ($_->[1] eq 'k') {
           push @$x, ['k'];
         } else {
-          push @$x, ['y', $_->[1]];
+          if ($Key eq 'dtsjp2') {
+            push @$x, ['y', $_->[1]];
+          } else {
+            push @$x, ['Y', $_->[1]];
+          }
         }
       } else {
         if (ref $x->[-1]) {

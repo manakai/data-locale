@@ -44,9 +44,12 @@ sub to_dts ($$) {
     if (ref $rule) {
       if ($rule->[0] eq 'k') {
         $year .= year2kanshi $y;
-      } elsif ($rule->[0] eq 'y') {
+      } elsif ($rule->[0] eq 'Y') {
         my $v = $y - $rule->[1];
         $v = '元' if $v == 1;
+        $year .= $v;
+      } elsif ($rule->[0] eq 'y') {
+        my $v = $y - $rule->[1];
         $year .= $v;
       } else {
         die $rule->[0];
@@ -57,8 +60,12 @@ sub to_dts ($$) {
   }
 
   $wd = (qw(日 月 火 水 木 金 土))[$wd];
-  
-  return sprintf '%s年%s月%s日(%s)', $year, $m, $d, $wd;
+
+  if ($Key eq 'dtsjp2') {
+    return sprintf '%s.%s.%s', $year, $m, $d;
+  } else {
+    return sprintf '%s年%s月%s日(%s)', $year, $m, $d, $wd;
+  }
 } # to_dts
 
 {
