@@ -179,6 +179,7 @@ for (split /\n/, $data) {
   die $index if not defined $vi or defined $x;
   $Data->{heavenly_stems}->[$index-1] = {
     value => 0+$index,
+    value0 => $index-1,
     name => $char,
     zh_zhuyin => $zh_zhuyin,
     zh_pinyin => $zh_pinyin,
@@ -207,6 +208,7 @@ for (split /\n/, $data2) {
   die $index if not defined $vi or defined $x;
   $Data->{earthly_branches}->[$index-1] = {
     value => 0+$index,
+    value0 => $index-1,
     name => $char,
     zh_zhuyin => $zh_zhuyin,
     zh_pinyin => $zh_pinyin,
@@ -232,6 +234,7 @@ for (split /\n/, $data3) {
   die $index if not defined $vi_2 or defined $x;
   $Data->{kanshi}->[$index-1] = {
     value => 0+$index,
+    value => $index-1,
     name => $char,
     zh_pinyin => $zh_pinyin,
     ja_on_latn => $ja_on_latn,

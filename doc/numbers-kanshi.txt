@@ -84,6 +84,11 @@ following name/value pairs, representing a target:
     The numerical value of the target (1-indexed, i.e. the /i/-th item
     in the array has the |value| of /i/ + 1).
 
+  value0 [integer]
+
+    The numerical value of the target (0-indexed, i.e. the /i/-th item
+    in the array has the |value| of /i/).
+
   vi [string]
 
     The Vietnamese name of the target.
@@ -120,6 +125,8 @@ Sexagenary cycle - Wikipedia, the free encyclopedia
 <https://en.wikipedia.org/wiki/Sexagenary_cycle>.
 
 干支 - Wikipedia <https://ja.wikipedia.org/wiki/%E5%B9%B2%E6%94%AF>.
+
+SuikaWiki:干支 <https://wiki.suikawiki.org/n/%E5%B9%B2%E6%94%AF>.
 
 * License
 
