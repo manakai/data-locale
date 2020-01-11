@@ -64,12 +64,14 @@ for my $name (sort { $a cmp $b } keys %$EraData) {
   delete $found->{x};
   $CommonEraYear->{$name} = [sort { $found->{$b} <=> $found->{$a} || $a <=> $b } keys %$found]->[0]; # or undef
 }
-my $EraNames = [sort {
+my $EraNames = do {
   use utf8;
-  ($a =~ /天皇|皇后/ ? 1 : 0) <=> ($b =~ /天皇|皇后/ ? 1 : 0) ||
-  ($CommonEraYear->{$a} // 9999) <=> ($CommonEraYear->{$b} // 9999) ||
-  $a cmp $b;
-} keys %{$EraData}];
+  [sort {
+    ($a =~ /天皇|皇后/ ? 1 : 0) <=> ($b =~ /天皇|皇后/ ? 1 : 0) ||
+    ($CommonEraYear->{$a} // 9999) <=> ($CommonEraYear->{$b} // 9999) ||
+    $a cmp $b;
+  } keys %{$EraData}];
+};
 
 my $rows = [];
 
