@@ -1,0 +1,94 @@
+langtags.json
+~~~~~~~~~~~~~
+
+This file contains language tag components and their properties.
+
+* Structure
+
+_deprecated [boolean]
+
+  For "U" extension, whether the |deprecated| attribute has the |true|
+  value in LDML's XML data file, if any.
+
+_preferred [string?]
+
+  For "U" extension, the preferred value in the |preferred| attribute
+  of LDML's XML data file, if any.  Normalized to lowercase.
+
+  Please note that the value can contain multiple subtags.
+
+_registry [object?]
+
+  List of registries in which the value appears, represented as pairs
+  of registry names and boolean values of appearance.
+
+    "iana"       IANA Language Subtag Registry or IANA Language Tag
+                 Extensions Registry
+    "unicode"    Unicode Locale Extensions for BCP 47 (or LDML spec text)
+
+_value_type [string?]
+
+  For keys in |u_key|, definition of the |type| value.  Unless the
+  value is not specified, only a value in the |u_/key/| list can be
+  used as the |type| value.  The definition can be one of followings:
+
+    |CODEPOINTS|
+      List of code points, as specified in
+      <http://www.unicode.org/reports/tr35/tr35.html#Unicode_Locale_Extension_Data_Files>.
+
+    |REORDER_CODE|
+      List of reorder_codes, as specified in
+      <http://www.unicode.org/reports/tr35/tr35.html#Unicode_Locale_Extension_Data_Files>
+      and
+      <http://www.unicode.org/reports/tr35/tr35-collation.html#Script_Reordering>.
+      Available reorder_codes are listed in |u_/key/|.
+
+* Extracting country codes
+
+As the two-letter country codes and some three-letter country codes
+are registered with IANA as language subtags, they can be extracted
+from the |langtag.json| file.  They are included in |region| value of
+the entire JSON object.
+
+Two-letter country codes and its properties can be extracted by the
+following jq filter:
+
+  $ cat data/langtags.json | \
+    ./jq ".region | to_entries | map(select(.key | length == 2)) | from_entries"
+
+* Extracting currency codes
+
+As the three-letter currency codes are registered as language tag "U"
+extension subtags, they can be extracted from the |langtag.json| file.
+They are included in |u_cu| value of the entire JSON object.
+
+Three-letter country codes and its properties can be extracted by the
+following jq filter:
+
+  $ cat data/langtags.json | ./jq ".u_cu"
+
+* Script codes
+
+The file contains script codes as subtags.  There is also more
+comprehensive data file for script codes at
+<https://github.com/manakai/data-chars/blob/master/data/scripts.json>.
+
+* Sources
+
+IANA Language Subtag Registry
+<http://www.iana.org/assignments/language-subtag-registry>.
+
+IANA Language Tag Extensions Registry
+<http://www.iana.org/assignments/language-tag-extensions-registry/language-tag-extensions-registry>.
+
+Unicode Locale Extensions for BCP 47
+<http://cldr.unicode.org/index/bcp47-extension>,
+<http://unicode.org/repos/cldr/trunk/common/bcp47/>.
+
+* License
+
+The file partially derived from CLDR data.  Copyright © 1991-2014
+Unicode, Inc.  All rights reserved.  Distributed under the Terms of
+Use in <http://www.unicode.org/copyright.html>.  See
+<http://unicode.org/repos/cldr/trunk/unicode-license.txt> for full
+license text.

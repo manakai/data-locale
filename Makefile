@@ -364,6 +364,41 @@ data/langs/plurals.json: bin/langs-plurals.pl src/plural-exprs.txt \
 data/numbers/kanshi.json: bin/numbers-kanshi.pl
 	$(PERL) $< > $@
 
+## ------ Language tags ------
+
+all-langtags: data/langs/langtags.json
+clean-langtags:
+	rm -f local/langtags/subtag-registry local/langtags/ext-registry
+	rm -f local/langtags/cldr-bcp47/update
+	rm -fr local/chars-*.json
+
+local/langtags/subtag-registry:
+	mkdir -p local/langtags
+	$(WGET) https://www.iana.org/assignments/language-subtag-registry -O $@
+local/langtags/ext-registry:
+	mkdir -p local/langtags
+	$(WGET) https://www.iana.org/assignments/language-tag-extensions-registry -O $@
+local/langtags/cldr-bcp47:
+	mkdir -p local/langtags/cldr-bcp47
+	touch $@/update
+local/langtags/cldr-bcp47/update: local/langtags/cldr-bcp47
+	cd local/langtags/cldr-bcp47 && \
+	$(CURL) https://www.unicode.org/repos/cldr/trunk/common/bcp47/ | \
+	perl -n -e 'print "$$1\n" if /([A-Za-z0-9_.-]+\.xml)/' | \
+	xargs -i% -- $(SAVEURL) % https://www.unicode.org/repos/cldr/trunk/common/bcp47/%
+	touch $@
+
+local/chars-scripts.json:
+	$(SAVEURL) $@ https://raw.githubusercontent.com/manakai/data-chars/master/data/scripts.json
+
+data/langs/langtags.json: bin/langs-langtags.pl \
+  local/langtags/subtag-registry local/langtags/ext-registry \
+  local/langtags/cldr-bcp47/update \
+  local/chars-scripts.json
+	$(PERL) $< \
+	  local/langtags/subtag-registry local/langtags/ext-registry \
+	  local/langtags/cldr-bcp47/*.xml > $@
+
 ## ------ Tests ------
 
 PROVE = ./prove

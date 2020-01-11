@@ -8,6 +8,8 @@ See documentations for details in doc/ directory.
   Languages
     doc/langs-locale-names.txt         Locale identifiers
     data/langs/locale-names.json
+    doc/langs-langtags.txt             Language tags
+    data/langs/langtags.json
     doc/langs-plurals.txt              Plural rules
     data/langs/plurals.json
   Numbers
@@ -48,9 +50,8 @@ See documentations for details in doc/ directory.
     doc/datetime-durations.txt         Durations
     data/datetime/durations.json
 
-List of language tags or codes, country codes, and currency codes, as
-well as data on character encodings and character references used on
-the Web, are contained in the data-web-defs repository
+Data on character encodings and character references used on the Web,
+are contained in the data-web-defs repository
 <https://github.com/manakai/data-web-defs>.
 
 Properties of characters (e.g. number values of characters used as
