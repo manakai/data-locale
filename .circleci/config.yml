@@ -1,0 +1,58 @@
+{
+   "jobs" : {
+      "gaa4" : {
+         "environment" : {
+            "CIRCLE_ARTIFACTS" : "/tmp/circle-artifacts"
+         },
+         "machine" : {
+            "enabled" : true
+         },
+         "steps" : [
+            "checkout",
+            {
+               "run" : {
+                  "command" : "make deps"
+               }
+            },
+            {
+               "run" : {
+                  "command" : "make updatenightly"
+               }
+            },
+            {
+               "deploy" : {
+                  "command" : "git commit -m auto"
+               }
+            },
+            {
+               "deploy" : {
+                  "command" : "git push origin \u002Bnightly"
+               }
+            }
+         ]
+      }
+   },
+   "version" : 2,
+   "workflows" : {
+      "gaa4" : {
+         "jobs" : [
+            "gaa4"
+         ],
+         "triggers" : [
+            {
+               "schedule" : {
+                  "cron" : "3 8 * * *",
+                  "filters" : {
+                     "branches" : {
+                        "only" : [
+                           "staging"
+                        ]
+                     }
+                  }
+               }
+            }
+         ]
+      },
+      "version" : 2
+   }
+}
