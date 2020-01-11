@@ -11,6 +11,11 @@
             "checkout",
             {
                "run" : {
+                  "command" : "git config --global user.email \u0022temp@circleci.test\u0022;git config --global user.name \u0022CircleCI\u0022"
+               }
+            },
+            {
+               "run" : {
                   "command" : "make deps"
                }
             },
@@ -41,7 +46,7 @@
          "triggers" : [
             {
                "schedule" : {
-                  "cron" : "34 8 * * *",
+                  "cron" : "56 8 * * *",
                   "filters" : {
                      "branches" : {
                         "only" : [
