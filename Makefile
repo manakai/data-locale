@@ -69,8 +69,9 @@ data-main: \
     data/calendar/serialized/dtsjp1.txt \
     data/calendar/serialized/dtsjp2.txt \
     day-era-maps \
-    data/numbers/kanshi.json
-clean-data:
+    data/numbers/kanshi.json \
+    all-langtags
+clean-data: clean-langtags
 	rm -fr local/cldr-core* local/*.json
 
 data/calendar/jp-holidays.json: bin/calendar-jp-holidays.pl \
@@ -378,26 +379,17 @@ local/langtags/subtag-registry:
 local/langtags/ext-registry:
 	mkdir -p local/langtags
 	$(WGET) https://www.iana.org/assignments/language-tag-extensions-registry -O $@
-local/langtags/cldr-bcp47:
-	mkdir -p local/langtags/cldr-bcp47
-	touch $@/update
-local/langtags/cldr-bcp47/update: local/langtags/cldr-bcp47
-	cd local/langtags/cldr-bcp47 && \
-	$(CURL) https://www.unicode.org/repos/cldr/trunk/common/bcp47/ | \
-	perl -n -e 'print "$$1\n" if /([A-Za-z0-9_.-]+\.xml)/' | \
-	xargs -i% -- $(SAVEURL) % https://www.unicode.org/repos/cldr/trunk/common/bcp47/%
-	touch $@
 
 local/chars-scripts.json:
-	$(SAVEURL) $@ https://raw.githubusercontent.com/manakai/data-chars/master/data/scripts.json
+	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-chars/master/data/scripts.json
 
 data/langs/langtags.json: bin/langs-langtags.pl \
   local/langtags/subtag-registry local/langtags/ext-registry \
-  local/langtags/cldr-bcp47/update \
-  local/chars-scripts.json
+  local/chars-scripts.json \
+  local/cldr-repo
 	$(PERL) $< \
 	  local/langtags/subtag-registry local/langtags/ext-registry \
-	  local/langtags/cldr-bcp47/*.xml > $@
+	  local/cldr-repo/common/bcp47/*.xml > $@
 
 ## ------ Tests ------
 

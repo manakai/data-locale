@@ -1,10 +1,10 @@
 use strict;
 use warnings;
-use Path::Class;
-use lib glob file (__FILE__)->dir->subdir ('modules', '*', 'lib')->stringify;
-use Encode;
+use Path::Tiny;
+use lib glob path (__FILE__)->parent->child ('modules/*/lib');
+use Web::Encoding;
 use Web::DOM::Document;
-use JSON::PS qw(file2perl perl2json_bytes_for_record);
+use JSON::PS;
 
 my $full = 1;
 my $subtags;
@@ -16,7 +16,7 @@ my $subtags;
   local $/ = undef;
 
   ## NOTE: Based on RFC 4646 3.1.'s syntax, but more error-tolerant.
-  for (split /\x0D?+\x0A%%[\x20\x09]*\x0D?+\x0A/, decode 'utf-8', <$langreg_source_file>) {
+  for (split /\x0D?+\x0A%%[\x20\x09]*\x0D?+\x0A/, decode_web_utf8 <$langreg_source_file>) {
     my $fields = [['' => '']];
     for (split /\x0D?+\x0A/, $_) {
       if (/^\s/) { ## Part of continuous line
@@ -80,7 +80,7 @@ if ($full) {
   local $/ = undef;
 
   ## NOTE: Based on RFC 4646 3.1.'s syntax, but more error-tolerant.
-  for (split /\x0D?+\x0A%%[\x20\x09]*\x0D?+\x0A/, decode 'utf-8', <$langreg_source_file>) {
+  for (split /\x0D?+\x0A%%[\x20\x09]*\x0D?+\x0A/, decode_web_utf8 <$langreg_source_file>) {
     my $fields = [['' => '']];
     for (split /\x0D?+\x0A/, $_) {
       if (/^\s/) { ## Part of continuous line
@@ -120,7 +120,7 @@ for my $xml_file_name (@ARGV) {
   open my $file, '<', $xml_file_name or die "$0: $xml_file_name: $!";
 
   my $doc = new Web::DOM::Document;
-  $doc->inner_html (decode 'utf-8', scalar <$file>);
+  $doc->inner_html (decode_web_utf8 scalar <$file>);
 
   my $keys = $doc->query_selector_all ('key');
   for my $key (@$keys) {
@@ -232,7 +232,7 @@ for my $type (grep {!/^_/} keys %{$subtags}) {
 }
 
 {
-  my $scripts = file2perl file (__FILE__)->dir->parent->file ('local', 'chars-scripts.json');
+  my $scripts = json_bytes2perl path (__FILE__)->parent->parent->child ('local/chars-scripts.json')->slurp;
   for (values %{$scripts->{scripts}}) {
     next unless defined $_->{collation_reorder};
     my $code = lc $_->{collation_reorder};
@@ -256,38 +256,45 @@ __END__
 =head1 SEE ALSO
 
 RFC 4646: Tags for Identifying Languages
-<http://tools.ietf.org/html/rfc4646>.
+<https://tools.ietf.org/html/rfc4646>.
 
 RFC 5646: Tags for Identifying Languages
-<http://tools.ietf.org/html/rfc5646>.
+<https://tools.ietf.org/html/rfc5646>.
 
-RFC 6067: BCP 47 Extension U <http://tools.ietf.org/html/rfc6067>.
+RFC 6067: BCP 47 Extension U <https://tools.ietf.org/html/rfc6067>.
 
 RFC 6497: BCP 47 Extension T - Transformed Content
-<http://tools.ietf.org/html/rfc6497>.
+<https://tools.ietf.org/html/rfc6497>.
 
 IANA Language Subtag Registry
-<http://www.iana.org/assignments/language-subtag-registry>.
+<https://www.iana.org/assignments/language-subtag-registry>.
 
 IANA Language Tag Extensions Registry
-<http://www.iana.org/assignments/language-tag-extensions-registry/language-tag-extensions-registry>.
+<https://www.iana.org/assignments/language-tag-extensions-registry/language-tag-extensions-registry>.
 
 UTS #35: Unicode Locale Data Markup Language
-<http://unicode.org/reports/tr35/>.
+<https://unicode.org/reports/tr35/>.
 
 Unicode Locale Extensions for BCP 47
-<http://cldr.unicode.org/index/bcp47-extension>,
-<http://unicode.org/repos/cldr/trunk/common/bcp47/>.
+<https://cldr.unicode.org/index/bcp47-extension>,
+<https://unicode.org/repos/cldr/trunk/common/bcp47/>.
 
 =head1 AUTHOR
 
 Wakaba <wakaba@suikawiki.org>.
 
-=head1 LICENSE
+=head1 HISTORY
+
+The C<langs-langtags.pl> file derived from C<bin/langtags.pl> in the
+<https://github.com/manakai/data-web-defs> repository.
 
 C<langtags.pl> is derived from C<mklangreg.pl> in the manakai-core
 package <https://github.com/wakaba/manakai>.
 
 The C<mklangreg.pl> is in the Public Domain.
+
+=head1 LICENSE
+
+Public Domain.
 
 =cut
