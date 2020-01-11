@@ -314,8 +314,9 @@ data/timezones/mail-names.json: bin/timezones-mail-names.pl
 
 local/cldr-locales.html:
 	$(WGET) -O $@ https://www.unicode.org/repos/cldr/tags/latest/common/main/
-local/cldr-locales.txt: local/cldr-locales.html
-	perl -e 'while (<>) { if (/href="([0-9a-zA-Z_]+)\.xml"/) { print "$$1\n" } }' < $< > $@
+local/cldr-locales.txt: local/cldr-repo always
+	ls local/cldr-repo/common/main/*.xml | \
+	perl -e 'while (<>) { if (/\/([0-9a-zA-Z_]+)\.xml/) { print "$$1\n" } }' > $@
 local/fx-locales.json:
 	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-web-impls/staging/data/firefox-locales.json
 local/mediawiki-locales.php:
@@ -323,6 +324,9 @@ local/mediawiki-locales.php:
 local/mediawiki-locales.txt: local/mediawiki-locales.php
 	perl -e 'local $$/ = undef; $$x = <>; $$x =~ s{/\*.*?\*/}{}gs; $$x =~ s{#.*\n}{\n}g; $$q = chr 0x27; while ($$x =~ /$$q([a-z0-9-]+)$$q\s*=>/g) { print "$$1\n" }' < $< > $@
 
+local/cldr-repo: always
+	$(GIT) clone --depth 1 https://github.com/unicode-org/cldr $@ || true
+	cd local/cldr-repo && $(GIT) pull
 local/cldr-core.zip:
 	$(WGET) -O $@ https://www.unicode.org/Public/cldr/latest/core.zip
 local/cldr-core-files: local/cldr-core.zip
@@ -344,10 +348,10 @@ data/langs/locale-names.json: bin/langs-locale-names.pl \
   src/facebook-locales.json
 	$(PERL) $< > $@
 
-local/cldr-plurals.xml:
-	$(WGET) -O $@ https://www.unicode.org/repos/cldr/trunk/common/supplemental/plurals.xml
-local/cldr-plurals-ordinals.xml:
-	$(WGET) -O $@ https://www.unicode.org/repos/cldr/trunk/common/supplemental/ordinals.xml
+local/cldr-plurals.xml: local/cldr-repo
+	cp local/cldr-repo/common/supplemental/plurals.xml $@
+local/cldr-plurals-ordinals.xml: local/cldr-repo
+	cp local/cldr-repo/common/supplemental/ordinals.xml $@
 local/cldr-plurals.json: \
   local/cldr-plurals.xml local/cldr-plurals-ordinals.xml \
   bin/parse-cldr-plurals.pl
