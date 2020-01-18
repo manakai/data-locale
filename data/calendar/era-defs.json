@@ -238,16 +238,6 @@
          "starts" : [
             {
                "day" : {
-                  "gregorian" : "1856-01-28",
-                  "jd" : 2398976.5,
-                  "kyuureki" : "1855-12-21"
-               },
-               "group" : "千島",
-               "prev" : "安政",
-               "type" : "wartime"
-            },
-            {
-               "day" : {
                   "gregorian" : "1875-08-22",
                   "jd" : 2406122.5,
                   "kyuureki" : "1875-07-22"
