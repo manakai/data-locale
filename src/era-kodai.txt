@@ -1549,6 +1549,8 @@ p 1820-2006
 ## Other sources
 p 720-2019
 
+法興元世 621 1
+
 ## <https://wiki.suikawiki.org/n/%E7%A5%9E%E6%AD%A6%E5%A4%A9%E7%9A%87%E5%8D%B3%E4%BD%8D%E5%89%8D>
 神武天皇前 -666 7
 神武天皇即位前七 -666 1
@@ -1564,6 +1566,9 @@ p 720-2019
 安閑天皇即位前一 532 1
 欽明天皇 532 40
 安閑天皇 531 4
+
+## <https://wiki.suikawiki.org/n/%E6%97%A5%E6%9C%AC%E5%8F%A4%E4%BB%A3%E3%81%AE%E6%97%A5%E6%99%82$5190#anchor-376>
+小治田 12=604
 
 ## <https://wiki.suikawiki.org/n/%E6%97%A5%E6%9C%AC%E5%8F%A4%E4%BB%A3%E3%81%AE%E6%97%A5%E6%99%82$5190#header-section-%E5%85%83%E5%8F%B7%E3%81%AE%E5%B0%8E%E5%85%A5%E2%80%A8%E5%A3%AC%E7%94%B3%E3%81%AE%E4%B9%B1>
 天智天皇 662 11
@@ -1604,3 +1609,32 @@ p 720-2019
 晋元康 291 9
 斉建武 494 5
 唐永昌 689 1
+
+## <https://wiki.suikawiki.org/n/%E6%97%A5%E6%9C%AC%E5%8F%A4%E4%BB%A3%E3%81%AE%E6%97%A5%E6%99%82#anchor-644>
+豊御炊 22=614
+後崗本 4=645
+#白鳳14
+#摂政7
+#即位2
+#白鳳 5=654
+白鳳 16=665
+
+## <https://wiki.suikawiki.org/n/%E6%97%A5%E6%9C%AC%E5%8F%A4%E4%BB%A3%E3%81%AE%E6%97%A5%E6%99%82$5190#anchor-524>
+#白鳳 9=680
+
+## <https://wiki.suikawiki.org/n/%E6%97%A5%E6%9C%AC%E5%8F%A4%E4%BB%A3%E3%81%AE%E6%97%A5%E6%99%82$5190#anchor-666>
+朱雀 1=672
+白鳳 15=686
+#朱鳥 686 1
+白鳳 47=697 56
+
+## <https://wiki.suikawiki.org/n/%E6%97%A5%E6%9C%AC%E5%8F%A4%E4%BB%A3%E3%81%AE%E6%97%A5%E6%99%82$5190#anchor-571>
+白鳳 4=674
+#朱雀 672 1
+#朱雀3
+
+## <https://wiki.suikawiki.org/n/%E6%97%A5%E6%9C%AC%E5%8F%A4%E4%BB%A3%E3%81%AE%E6%97%A5%E6%99%82$5190#anchor-683>
+#朱雀 1=672
+#白鳳 15=686
+#朱鳥 686 8
+大化 697=3 4

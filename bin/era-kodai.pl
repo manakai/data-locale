@@ -107,6 +107,26 @@ sub era_length ($$) {
         $prev->{length} = $years->[0] - $prev->{start_year};
       }
       $fill_prev_length = 0;
+    } elsif (/^([\w]+)\s+([0-9]+)=([0-9]+)(?:\s+([0-9]+)|)$/) {
+      my $names = $1;
+      my $ey = 0+$2;
+      my $gy = 0+$3;
+      my $max = defined $4 ? 0+$4 : $ey;
+      my $v = {};
+      era_length $max => $v;
+      my $years = start_years $gy-$ey+1;
+      $v->{names} = [split /,/, $names];
+      if (@$years) {
+        for (@$years) {
+          if (defined $_) {
+            push @{$data->{eras}}, {%$v, start_year => $_};
+          } else {
+            push @{$data->{eras}}, $v;
+          }
+        }
+      } else {
+        push @{$data->{eras}}, $v;
+      }
     } elsif (/^([0-9]+|BC[0-9]+)\s+([\w,]+)(?:\s+([\p{Hiragana},]+)|)$/) {
       my $names = $2;
       my $yomis = $3 // '';
