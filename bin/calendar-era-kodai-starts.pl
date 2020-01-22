@@ -12,6 +12,7 @@ my $RootPath = path (__FILE__)->parent->parent;
 
 my $cols = [
   {key => 'name', type => 'text', info => 1},
+  {key => 'summary', type => 'text'},
 ];
 
 {
@@ -77,7 +78,7 @@ my $rows = [];
 
 {
   my $row = [];
-  push @$row, [''];
+  push @$row, [''], [''];
   for my $ref (@$Refs) {
     push @$row, [(sprintf '%s--%s',
         $RefData->{$ref}->{published_year_start} // '',
@@ -88,13 +89,17 @@ my $rows = [];
 
 for my $name (@$EraNames) {
   my $row = [];
-  push @$row, [$name];
+  my $summary = [];
   for my $ref (@$Refs) {
     push @$row, [sort {
       ($a eq 'x') cmp ($b eq 'x') ||
       $a <=> $b;
     } keys %{$EraData->{$name}->{$ref} or {}}];
+    push @$summary, keys %{$EraData->{$name}->{$ref} or {}};
   }
+  my $found = {x => 1};
+  unshift @$row, [sort { $a <=> $b } grep { not $found->{$_}++ } @$summary];
+  unshift @$row, [$name];
   push @$rows, $row;
 }
 
