@@ -61,7 +61,7 @@ sub to_dts ($$) {
 
   $wd = (qw(日 月 火 水 木 金 土))[$wd];
 
-  if ($Key eq 'dtsjp2') {
+  if ($Key eq 'dtsjp2' or $Key eq 'dtsjp3') {
     return sprintf '%s.%s.%s', $year, $m, $d;
   } else {
     return sprintf '%s年%s月%s日(%s)', $year, $m, $d, $wd;
