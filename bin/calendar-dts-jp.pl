@@ -26,7 +26,7 @@ sub dclone ($) {
 
 sub era_name ($) {
   my $era_def = shift;
-  if ($Key eq 'dtsjp2') {
+  if ($Key eq 'dtsjp2' or $Key eq 'dtsjp3') {
     my $name = $era_def->{abbr_latn} || $era_def->{name_ja} || die;
     # XXX
     {
@@ -48,12 +48,16 @@ sub era_name ($) {
   $def->{patterns} = [];
   {
     use utf8;
-    my $era_def = $EraDefs->{eras}->{AD} or die 'AD';
-    push @{$def->{patterns}}, [undef, [['グレゴリオ暦'.era_name ($era_def), 0]]];
+    if ($Key eq 'dtsjp3') {
+      push @{$def->{patterns}}, [undef, [['グレゴリオ暦', 0]]];
+    } else {
+      my $era_def = $EraDefs->{eras}->{AD} or die 'AD';
+      push @{$def->{patterns}}, [undef, [['グレゴリオ暦' . era_name ($era_def), 0]]];
+    }
   }
   {
     use utf8;
-    push @{$def->{patterns}}, [1477837.5, [['グレゴリオ暦神武天皇即位前', 'k']]]; # k:-0666-01-01
+    push @{$def->{patterns}}, [1477837.5, ['グレゴリオ暦', ['神武天皇即位前', 'k']]]; # k:-0666-01-01
   }
   my $g_done = 0;
   for my $pt (@{$jp->{points}}) {
@@ -105,8 +109,20 @@ sub era_name ($) {
     }
   }
   push @{$def->{patterns}}, @$patterns;
-  for (1..$#{$def->{patterns}}) {
-    push @{$def->{patterns}->[$_]->[1]}, ['(', 0], ')';
+  if ($Key eq 'dtsjp3') {
+    use utf8;
+    for (1..$#{$def->{patterns}}) {
+      if ($def->{patterns}->[$_]->[1]->[0] eq 'グレゴリオ暦') {
+        splice @{$def->{patterns}->[$_]->[1]}, 1, 0, (['', 0], '(');
+      } else {
+        unshift @{$def->{patterns}->[$_]->[1]}, ['', 0], '(';
+      }
+      push @{$def->{patterns}->[$_]->[1]}, ')';
+    }
+  } else {
+    for (1..$#{$def->{patterns}}) {
+      push @{$def->{patterns}->[$_]->[1]}, ['(', 0], ')';
+    }
   }
   for (@{$def->{patterns}}) {
     my $x = [''];
@@ -120,7 +136,7 @@ sub era_name ($) {
         if ($_->[1] eq 'k') {
           push @$x, ['k'];
         } else {
-          if ($Key eq 'dtsjp2') {
+          if ($Key eq 'dtsjp2' or $Key eq 'dtsjp3') {
             push @$x, ['y', $_->[1]];
           } else {
             push @$x, ['Y', $_->[1]];
