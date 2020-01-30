@@ -958,3 +958,10 @@ name_cn 庆丰
 name_ja 慶豊
 name_tw 慶豐
 AD2013 = 1
+
+def[朱雀(戊寅)]
+name_ja ◆朱雀
+name_kana すざく
+name 朱雀
+AD1998 = 1
+sw ◆朱雀
