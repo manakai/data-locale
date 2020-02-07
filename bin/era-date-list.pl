@@ -268,7 +268,7 @@ sub resolve_range ($$) {
   $Data->{eras}->{嘉暦}->{_next_key}->{''} = '元徳';
 }
 
-for my $era (values %{$Data->{eras}}) {
+for my $era (sort { $a->{_key} cmp $b->{_key} } values %{$Data->{eras}}) {
   for my $pfx ('', 'north_', 'south_') {
     if (defined $era->{_next_key}->{$pfx}) {
       my $next_era = $Data->{eras}->{$era->{_next_key}->{$pfx}}
@@ -285,7 +285,7 @@ for my $era (values %{$Data->{eras}}) {
   }
 }
 
-my @era = values %{$Data->{eras}};
+my @era = sort { $a->{_key} cmp $b->{_key} } values %{$Data->{eras}};
 for my $era (@era) {
   if ($era->{_emperor}) {
     $era->{jp_emperor_era} = 1;
