@@ -59,7 +59,7 @@ ERA: for my $era (values %{$json->{eras}}) {
   $rows = [sort {
     ($a->[0] || $a->[1] || $a->[2] || 99999) <=> ($b->[0] || $b->[1] || $b->[2] || 99999) ||
     $a->[3] cmp $b->[3] ||
-    [grep { defined } @$a]->[0] cmp [grep { defined } @$b]->[0];
+    [join $;, grep { defined } @$a]->[0] cmp [join $;, grep { defined } @$b]->[0];
   } @$rows];
 }
 
