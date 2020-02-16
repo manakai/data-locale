@@ -2163,6 +2163,58 @@
          "mediawiki" : "ff",
          "native_name" : "Pulaar"
       },
+      "ff-adlm" : {
+         "bcp47_canonical" : "ff-Adlm",
+         "cldr" : "ff_Adlm"
+      },
+      "ff-adlm-bf" : {
+         "bcp47_canonical" : "ff-Adlm-BF",
+         "cldr" : "ff_Adlm_BF"
+      },
+      "ff-adlm-cm" : {
+         "bcp47_canonical" : "ff-Adlm-CM",
+         "cldr" : "ff_Adlm_CM"
+      },
+      "ff-adlm-gh" : {
+         "bcp47_canonical" : "ff-Adlm-GH",
+         "cldr" : "ff_Adlm_GH"
+      },
+      "ff-adlm-gm" : {
+         "bcp47_canonical" : "ff-Adlm-GM",
+         "cldr" : "ff_Adlm_GM"
+      },
+      "ff-adlm-gn" : {
+         "bcp47_canonical" : "ff-Adlm-GN",
+         "cldr" : "ff_Adlm_GN"
+      },
+      "ff-adlm-gw" : {
+         "bcp47_canonical" : "ff-Adlm-GW",
+         "cldr" : "ff_Adlm_GW"
+      },
+      "ff-adlm-lr" : {
+         "bcp47_canonical" : "ff-Adlm-LR",
+         "cldr" : "ff_Adlm_LR"
+      },
+      "ff-adlm-mr" : {
+         "bcp47_canonical" : "ff-Adlm-MR",
+         "cldr" : "ff_Adlm_MR"
+      },
+      "ff-adlm-ne" : {
+         "bcp47_canonical" : "ff-Adlm-NE",
+         "cldr" : "ff_Adlm_NE"
+      },
+      "ff-adlm-ng" : {
+         "bcp47_canonical" : "ff-Adlm-NG",
+         "cldr" : "ff_Adlm_NG"
+      },
+      "ff-adlm-sl" : {
+         "bcp47_canonical" : "ff-Adlm-SL",
+         "cldr" : "ff_Adlm_SL"
+      },
+      "ff-adlm-sn" : {
+         "bcp47_canonical" : "ff-Adlm-SN",
+         "cldr" : "ff_Adlm_SN"
+      },
       "ff-latn" : {
          "bcp47_canonical" : "ff-Latn",
          "cldr" : "ff_Latn",
