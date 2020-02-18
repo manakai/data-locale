@@ -3953,8 +3953,13 @@
       },
       "mai" : {
          "bcp47_canonical" : "mai",
+         "cldr" : "mai",
          "firefox" : "mai",
          "mediawiki" : "mai"
+      },
+      "mai-in" : {
+         "bcp47_canonical" : "mai-IN",
+         "cldr" : "mai_IN"
       },
       "map-bms" : {
          "bcp47_canonical" : "map-bms",
@@ -4108,7 +4113,16 @@
       },
       "mni" : {
          "bcp47_canonical" : "mni",
+         "cldr" : "mni",
          "mediawiki" : "mni"
+      },
+      "mni-beng" : {
+         "bcp47_canonical" : "mni-Beng",
+         "cldr" : "mni_Beng"
+      },
+      "mni-beng-in" : {
+         "bcp47_canonical" : "mni-Beng-IN",
+         "cldr" : "mni_Beng_IN"
       },
       "mnw" : {
          "bcp47_canonical" : "mnw",
@@ -4645,6 +4659,14 @@
          "bcp47_canonical" : "pcd",
          "mediawiki" : "pcd"
       },
+      "pcm" : {
+         "bcp47_canonical" : "pcm",
+         "cldr" : "pcm"
+      },
+      "pcm-ng" : {
+         "bcp47_canonical" : "pcm-NG",
+         "cldr" : "pcm_NG"
+      },
       "pdc" : {
          "bcp47_canonical" : "pdc",
          "mediawiki" : "pdc"
@@ -5057,7 +5079,16 @@
       },
       "sat" : {
          "bcp47_canonical" : "sat",
+         "cldr" : "sat",
          "mediawiki" : "sat"
+      },
+      "sat-olck" : {
+         "bcp47_canonical" : "sat-Olck",
+         "cldr" : "sat_Olck"
+      },
+      "sat-olck-in" : {
+         "bcp47_canonical" : "sat-Olck-IN",
+         "cldr" : "sat_Olck_IN"
       },
       "sbp" : {
          "bcp47_canonical" : "sbp",
@@ -5099,10 +5130,13 @@
          "bcp47_canonical" : "sd-Arab-PK",
          "cldr" : "sd_Arab_PK"
       },
-      "sd-pk" : {
-         "bcp47_canonical" : "sd-PK",
-         "cldr" : "sd_PK",
-         "native_name" : "سنڌي (پاڪستان)"
+      "sd-deva" : {
+         "bcp47_canonical" : "sd-Deva",
+         "cldr" : "sd_Deva"
+      },
+      "sd-deva-in" : {
+         "bcp47_canonical" : "sd-Deva-IN",
+         "cldr" : "sd_Deva_IN"
       },
       "sdc" : {
          "bcp47_canonical" : "sdc",
@@ -5486,7 +5520,16 @@
       },
       "su" : {
          "bcp47_canonical" : "su",
+         "cldr" : "su",
          "mediawiki" : "su"
+      },
+      "su-latn" : {
+         "bcp47_canonical" : "su-Latn",
+         "cldr" : "su_Latn"
+      },
+      "su-latn-id" : {
+         "bcp47_canonical" : "su-Latn-ID",
+         "cldr" : "su_Latn_ID"
       },
       "sv" : {
          "bcp47_canonical" : "sv",
