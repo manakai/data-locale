@@ -3630,7 +3630,6 @@
       },
       "ks-in" : {
          "bcp47_canonical" : "ks-IN",
-         "cldr" : "ks_IN",
          "facebook" : "ks_IN",
          "native_name" : "کٲشُر (ہِندوستان)"
       },
