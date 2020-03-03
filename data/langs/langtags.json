@@ -96784,6 +96784,14 @@
             "unicode" : 1
          }
       },
+      "segment" : {
+         "Description" : [
+            "Legacy computing segmented digits"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "shrd" : {
          "Description" : [
             "Sharada digits"
