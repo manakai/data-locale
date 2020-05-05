@@ -149,8 +149,9 @@ sub isholiday ($$$) {
     return 'みどりの日' if $wday != $SUNDAY && $day == 4 && $d{H17} <= $time;
 
     return 'こどもの日' if $day == 5 && $d{S23} <= $time;
-    return '振替休日' if $wday == $MONDAY && $day == 6 && $d{S48} <= $time;
-    return '振替休日' if $wday == $MONDAY+1 && $day == 6 && $d{H17} <= $time;
+    return '振替休日' if $wday == $MONDAY && $day == 6 && $d{S48} <= $time; # 5/5 is Sunday
+    return '振替休日' if $wday == $MONDAY+1 && $day == 6 && $d{H17} <= $time; # 5/4 is Sunday
+    return '振替休日' if $wday == $MONDAY+2 && $day == 6 && $d{H17} <= $time; # 5/3 is Sunday
   } elsif ($month == 6) {
       return '皇太子徳仁親王の結婚の儀の行われる日' if $year == 1993 && $day == 9;
     	## Heisei 5 Law No.32

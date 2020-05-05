@@ -921,6 +921,8 @@
     # 昭和暦
   u 111
     # <https://wiki.suikawiki.org/n/%E6%9E%B6%E7%A9%BA%E3%81%AE%E5%85%83%E5%8F%B7#anchor-260>
+  u 200
+    # <https://wiki.suikawiki.org/n/%E6%98%AD%E5%92%8C%E3%81%AE%E5%BB%B6%E9%95%B7%E5%B9%B4%E5%8F%B7#anchor-58>
 
   # [54]
   u 3

@@ -13,6 +13,7 @@ my $desc = {
   1027 => 'BE zeta',
   948 => 'BE eta',
   565 => 'BE theta',
+  542 => 'BE iota',
 
   1028 => 'BE zeta-1',
   960 => 'BE gamma-11',
@@ -25,7 +26,10 @@ my $desc = {
   554 => 'BE theta-9',
   
   941 => '(BE) eta+7',
-  
+
+  -638 => 'Burma',
+  -590 => 'Fasli-',
+  -591 => 'Fasli+',
   -1918 => 'ROK',
   2333 => 'Dangi',
   -1945 => 'AH-',
@@ -51,6 +55,17 @@ sub to_ykanshi ($) {
   return ($k, $v0, $v1);
 } # to_ykanshi
 
+sub to_year_desc ($) {
+  my $ad = shift;
+  return sprintf "AD %d = BC %d = Shouou %d = Bokuou %d = Kyouou %d (%s 0:%d 1:%d)",
+      $ad,
+      1 - $ad,
+      - -1051 + $ad + 1,
+      - -1000 + $ad + 1,
+      - -945 + $ad + 1,
+      (to_ykanshi $ad);
+} # to_year_desc
+
 binmode STDOUT, qw(:encoding(utf-8));
 
 printf "Year %d (%s)\n",
@@ -59,22 +74,12 @@ printf "... is year %d (if year 0 is AD %d)\n",
     $base_year - 1 + $year, $base_year;
 printf "... is year %d (if year 1 is AD %d)\n",
     $base_year - 1 + $year + 1, $base_year;
-printf "... is AD %d (%s 0:%d 1:%d), then:\n",
-    $base_year, (to_ykanshi $base_year);
-printf "    year 0 is AD %d = BC %d = Shouou %d = Bokuou %d = Kyouou %d (%s 0:%d 1:%d);\n",
-    $base_year - $year,
-    1 - ($base_year - $year),
-    - -1051 + ($base_year - $year) + 1,
-    - -948 + ($base_year - $year) + 1,
-    - -945 + ($base_year - $year) + 1,
-    (to_ykanshi $base_year - $year);
-printf "    year 1 is AD %d = BC %d = Shouou %d = Bokuou %d = Kyouou %d (%s 0:%d 1:%d);\n",
-    $base_year - $year + 1,
-    1 - ($base_year - $year + 1),
-    - -1051 + ($base_year - $year + 1) + 1,
-    - -948 + ($base_year - $year + 1) + 1,
-    - -945 + ($base_year - $year + 1) + 1,
-    (to_ykanshi $base_year - $year + 1);
+printf "... is %s, then:\n",
+    to_year_desc $base_year;
+printf "    year 0 is %s;\n",
+    to_year_desc $base_year - $year;
+printf "    year 1 is %s;\n",
+    to_year_desc $base_year - $year + 1;
 printf "    Y = AD + %d %s\n",
     $year - $base_year,
     $desc->{$year - $base_year} // '';
