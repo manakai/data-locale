@@ -1,6 +1,6 @@
 {
    "_ext_file_date" : "2014-04-02",
-   "_file_date" : "2019-09-16",
+   "_file_date" : "2020-04-01",
    "extension" : {
       "t" : {
          "Comments" : [
@@ -518,6 +518,7 @@
             "ar"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_macro" : "ar",
          "_preferred" : "bbz",
          "_registry" : {
@@ -726,6 +727,21 @@
             "iana" : 1
          }
       },
+      "cnp" : {
+         "Description" : [
+            "Northern Ping Chinese",
+            "Northern Pinghua"
+         ],
+         "Prefix" : [
+            "zh"
+         ],
+         "_added" : "2020-03-28",
+         "_macro" : "zh",
+         "_preferred" : "cnp",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "coa" : {
          "Description" : [
             "Cocos Islands Malay"
@@ -843,6 +859,21 @@
          ],
          "_added" : "2009-07-29",
          "_preferred" : "csn",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "csp" : {
+         "Description" : [
+            "Southern Ping Chinese",
+            "Southern Pinghua"
+         ],
+         "Prefix" : [
+            "zh"
+         ],
+         "_added" : "2020-03-28",
+         "_macro" : "zh",
+         "_preferred" : "csp",
          "_registry" : {
             "iana" : 1
          }
@@ -4206,7 +4237,7 @@
       },
       "adb" : {
          "Description" : [
-            "Adabe"
+            "Atauran"
          ],
          "_added" : "2009-07-29",
          "_registry" : {
@@ -6364,6 +6395,7 @@
             "Arma"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -8308,6 +8340,7 @@
             "Tayabas Ayta"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -8900,6 +8933,7 @@
             "Babalia Creole Arabic"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_macro" : "ar",
          "_registry" : {
             "iana" : 1
@@ -11958,6 +11992,7 @@
             "Barbacoas"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -12426,7 +12461,7 @@
       },
       "brf" : {
          "Description" : [
-            "Bera"
+            "Bira"
          ],
          "_added" : "2009-07-29",
          "_registry" : {
@@ -14890,6 +14925,7 @@
             "Cauca"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -15084,6 +15120,7 @@
             "Chamari"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -15808,6 +15845,15 @@
             "iana" : 1
          }
       },
+      "ckm" : {
+         "Description" : [
+            "Chakavian"
+         ],
+         "_added" : "2020-03-28",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "ckn" : {
          "Description" : [
             "Kaang Chin"
@@ -16244,6 +16290,17 @@
             "Con"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "cnp" : {
+         "Description" : [
+            "Northern Ping Chinese",
+            "Northern Pinghua"
+         ],
+         "_added" : "2020-03-28",
+         "_macro" : "zh",
          "_registry" : {
             "iana" : 1
          }
@@ -17064,6 +17121,17 @@
             "Sochiapan Chinantec"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "csp" : {
+         "Description" : [
+            "Southern Ping Chinese",
+            "Southern Pinghua"
+         ],
+         "_added" : "2020-03-28",
+         "_macro" : "zh",
          "_registry" : {
             "iana" : 1
          }
@@ -18472,7 +18540,8 @@
       },
       "dgr" : {
          "Description" : [
-            "Dogrib"
+            "Dogrib",
+            "Tłı̨chǫ"
          ],
          "_added" : "2005-10-16",
          "_registry" : {
@@ -18502,6 +18571,7 @@
             "Degaru"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -19184,6 +19254,15 @@
             "iana" : 1
          }
       },
+      "dmf" : {
+         "Description" : [
+            "Medefaidrin"
+         ],
+         "_added" : "2020-03-28",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "dmg" : {
          "Description" : [
             "Upper Kinabatangan"
@@ -19761,6 +19840,8 @@
             "Dororo"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "kzk",
          "_registry" : {
             "iana" : 1
          }
@@ -20288,6 +20369,15 @@
             "iana" : 1
          }
       },
+      "dwk" : {
+         "Description" : [
+            "Dawik Kui"
+         ],
+         "_added" : "2020-03-28",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "dwl" : {
          "Comments" : [
             "see dbt, dbw"
@@ -20521,6 +20611,15 @@
             "iana" : 1
          }
       },
+      "ebc" : {
+         "Description" : [
+            "Beginci"
+         ],
+         "_added" : "2020-03-28",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "ebg" : {
          "Description" : [
             "Ebughu"
@@ -20747,6 +20846,7 @@
             "Eastern Karnic"
          ],
          "_added" : "2013-09-10",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -23231,7 +23331,8 @@
       },
       "gdh" : {
          "Description" : [
-            "Gadjerawang"
+            "Gadjerawang",
+            "Gajirrabeng"
          ],
          "_added" : "2009-07-29",
          "_registry" : {
@@ -23388,6 +23489,15 @@
             "Gade"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "gef" : {
+         "Description" : [
+            "Gerai"
+         ],
+         "_added" : "2020-03-28",
          "_registry" : {
             "iana" : 1
          }
@@ -24135,6 +24245,8 @@
             "Guliguli"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "kzk",
          "_registry" : {
             "iana" : 1
          }
@@ -24304,6 +24416,16 @@
             "collection"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "gmr" : {
+         "Description" : [
+            "Mirning",
+            "Mirniny"
+         ],
+         "_added" : "2020-03-28",
          "_registry" : {
             "iana" : 1
          }
@@ -25553,6 +25675,7 @@
       },
       "gwc" : {
          "Description" : [
+            "Gawri",
             "Kalami"
          ],
          "_added" : "2009-07-29",
@@ -26821,6 +26944,15 @@
             "iana" : 1
          }
       },
+      "hng" : {
+         "Description" : [
+            "Hungu"
+         ],
+         "_added" : "2020-03-28",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "hnh" : {
          "Description" : [
             "ǁAni"
@@ -27357,7 +27489,8 @@
       },
       "huc" : {
          "Description" : [
-            "ǂHua"
+            "ǂHua",
+            "ǂʼAmkhoe"
          ],
          "_added" : "2009-07-29",
          "_registry" : {
@@ -30738,7 +30871,8 @@
       },
       "kaa" : {
          "Description" : [
-            "Kara-Kalpak"
+            "Kara-Kalpak",
+            "Karakalpak"
          ],
          "_added" : "2005-10-16",
          "_registry" : {
@@ -32843,9 +32977,10 @@
       },
       "kjf" : {
          "Description" : [
-            "Khalaj"
+            "Khalaj [Indo-Iranian]"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -33178,7 +33313,7 @@
       },
       "kkq" : {
          "Description" : [
-            "Kaiku"
+            "Kaeku"
          ],
          "_added" : "2009-07-29",
          "_registry" : {
@@ -33361,7 +33496,7 @@
       },
       "klj" : {
          "Description" : [
-            "Turkic Khalaj"
+            "Khalaj"
          ],
          "_added" : "2009-07-29",
          "_registry" : {
@@ -35487,7 +35622,8 @@
       },
       "kui" : {
          "Description" : [
-            "Kuikúro-Kalapálo"
+            "Kuikúro-Kalapálo",
+            "Kalapalo"
          ],
          "_added" : "2009-07-29",
          "_registry" : {
@@ -36237,6 +36373,8 @@
             "Nepali Kurux"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "kru",
          "_registry" : {
             "iana" : 1
          }
@@ -36314,10 +36452,14 @@
          }
       },
       "kxu" : {
+         "Comments" : [
+            "see dwk, uki"
+         ],
          "Description" : [
             "Kui (India)"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -38840,6 +38982,7 @@
             "Lumbee"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -43353,6 +43496,7 @@
       },
       "moe" : {
          "Description" : [
+            "Innu",
             "Montagnais"
          ],
          "_added" : "2009-07-29",
@@ -49596,6 +49740,15 @@
             "iana" : 1
          }
       },
+      "nsb" : {
+         "Description" : [
+            "Lower Nossob"
+         ],
+         "_added" : "2020-03-28",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "nsc" : {
          "Description" : [
             "Nshi"
@@ -50444,6 +50597,8 @@
             "Narau"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "bpp",
          "_registry" : {
             "iana" : 1
          }
@@ -53205,7 +53360,7 @@
       },
       "pfe" : {
          "Description" : [
-            "Peere"
+            "Pere"
          ],
          "_added" : "2009-07-29",
          "_registry" : {
@@ -53951,6 +54106,7 @@
             "Palpa"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -64835,10 +64991,14 @@
          }
       },
       "sdm" : {
+         "Comments" : [
+            "see ebc, gef, sdq"
+         ],
          "Description" : [
             "Semandang"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -64867,6 +65027,15 @@
             "Sherdukpen"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "sdq" : {
+         "Description" : [
+            "Semandang"
+         ],
+         "_added" : "2020-03-28",
          "_registry" : {
             "iana" : 1
          }
@@ -69281,6 +69450,7 @@
             "Tapeba"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -74323,6 +74493,15 @@
             "iana" : 1
          }
       },
+      "uki" : {
+         "Description" : [
+            "Kui (India)"
+         ],
+         "_added" : "2020-03-28",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "ukk" : {
          "Description" : [
             "Muak Sa-aak"
@@ -74374,6 +74553,15 @@
             "Ukue"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "ukv" : {
+         "Description" : [
+            "Kuku"
+         ],
+         "_added" : "2020-03-28",
          "_registry" : {
             "iana" : 1
          }
@@ -77103,6 +77291,15 @@
             "iana" : 1
          }
       },
+      "wlh" : {
+         "Description" : [
+            "Welaun"
+         ],
+         "_added" : "2020-03-28",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "wli" : {
          "Description" : [
             "Waioli"
@@ -79754,6 +79951,15 @@
             "iana" : 1
          }
       },
+      "xnm" : {
+         "Description" : [
+            "Ngumbarl"
+         ],
+         "_added" : "2020-03-28",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "xnn" : {
          "Description" : [
             "Northern Kankanay"
@@ -79936,11 +80142,30 @@
             "iana" : 1
          }
       },
+      "xpb" : {
+         "Description" : [
+            "Northeastern Tasmanian",
+            "Pyemmairrener"
+         ],
+         "_added" : "2020-03-28",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "xpc" : {
          "Description" : [
             "Pecheneg"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "xpd" : {
+         "Description" : [
+            "Oyster Bay Tasmanian"
+         ],
+         "_added" : "2020-03-28",
          "_registry" : {
             "iana" : 1
          }
@@ -79955,11 +80180,31 @@
             "iana" : 1
          }
       },
+      "xpf" : {
+         "Description" : [
+            "Southeast Tasmanian",
+            "Nuenonne"
+         ],
+         "_added" : "2020-03-28",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "xpg" : {
          "Description" : [
             "Phrygian"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "xph" : {
+         "Description" : [
+            "North Midlands Tasmanian",
+            "Tyerrenoterpanner"
+         ],
+         "_added" : "2020-03-28",
          "_registry" : {
             "iana" : 1
          }
@@ -79987,6 +80232,15 @@
             "Kulina Pano"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "xpl" : {
+         "Description" : [
+            "Port Sorell Tasmanian"
+         ],
+         "_added" : "2020-03-28",
          "_registry" : {
             "iana" : 1
          }
@@ -80072,11 +80326,50 @@
             "iana" : 1
          }
       },
+      "xpv" : {
+         "Description" : [
+            "Northern Tasmanian",
+            "Tommeginne"
+         ],
+         "_added" : "2020-03-28",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "xpw" : {
+         "Description" : [
+            "Northwestern Tasmanian",
+            "Peerapper"
+         ],
+         "_added" : "2020-03-28",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "xpx" : {
+         "Description" : [
+            "Southwestern Tasmanian",
+            "Toogee"
+         ],
+         "_added" : "2020-03-28",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "xpy" : {
          "Description" : [
             "Puyo"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "xpz" : {
+         "Description" : [
+            "Bruny Island Tasmanian"
+         ],
+         "_added" : "2020-03-28",
          "_registry" : {
             "iana" : 1
          }
@@ -80176,6 +80469,8 @@
             "Karranga"
          ],
          "_added" : "2013-09-10",
+         "_deprecated" : 1,
+         "_preferred" : "dmw",
          "_registry" : {
             "iana" : 1
          }
@@ -80590,10 +80885,14 @@
          }
       },
       "xtz" : {
+         "Comments" : [
+            "see xpb, xpd, xpf, xph, xpl, xpv, xpw, xpx, xpz"
+         ],
          "Description" : [
             "Tasmanian"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -80645,7 +80944,8 @@
       },
       "xul" : {
          "Description" : [
-            "Ngunawal"
+            "Ngunawal",
+            "Nunukul"
          ],
          "_added" : "2013-09-10",
          "_registry" : {
@@ -83516,6 +83816,15 @@
             "iana" : 1
          }
       },
+      "zba" : {
+         "Description" : [
+            "Balaibalan"
+         ],
+         "_added" : "2020-03-28",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "zbc" : {
          "Description" : [
             "Central Berawan"
@@ -83817,6 +84126,8 @@
             "Ziriya"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "scv",
          "_registry" : {
             "iana" : 1
          }
@@ -101731,6 +102042,23 @@
             "djk"
          ],
          "_added" : "2009-09-05",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "peano" : {
+         "Comments" : [
+            "Peano’s Interlingua, created in 1903 by Giuseppe Peano as an  international auxiliary language"
+         ],
+         "Description" : [
+            "Latino Sine Flexione",
+            "Interlingua de API",
+            "Interlingua de Peano"
+         ],
+         "Prefix" : [
+            "la"
+         ],
+         "_added" : "2020-03-12",
          "_registry" : {
             "iana" : 1
          }
