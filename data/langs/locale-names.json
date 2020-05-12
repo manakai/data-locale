@@ -162,6 +162,10 @@
          "facebook" : "am_ET",
          "native_name" : "አማርኛ (ኢትዮጵያ)"
       },
+      "ami" : {
+         "bcp47_canonical" : "ami",
+         "mediawiki" : "ami"
+      },
       "an" : {
          "bcp47_canonical" : "an",
          "firefox" : "an",
@@ -2165,55 +2169,68 @@
       },
       "ff-adlm" : {
          "bcp47_canonical" : "ff-Adlm",
-         "cldr" : "ff_Adlm"
+         "cldr" : "ff_Adlm",
+         "native_name" : "𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃)"
       },
       "ff-adlm-bf" : {
          "bcp47_canonical" : "ff-Adlm-BF",
-         "cldr" : "ff_Adlm_BF"
+         "cldr" : "ff_Adlm_BF",
+         "native_name" : "Pulaar (𞤀𞤁𞤂𞤢𞤃, 𞤄𞤵𞤪𞤳𞤭𞤲𞤢 𞤊𞤢𞤧𞤮𞥅)"
       },
       "ff-adlm-cm" : {
          "bcp47_canonical" : "ff-Adlm-CM",
-         "cldr" : "ff_Adlm_CM"
+         "cldr" : "ff_Adlm_CM",
+         "native_name" : "Pulaar (𞤀𞤁𞤂𞤢𞤃, 𞤑𞤢𞤥𞤢𞤪𞤵𞥅𞤲)"
       },
       "ff-adlm-gh" : {
          "bcp47_canonical" : "ff-Adlm-GH",
-         "cldr" : "ff_Adlm_GH"
+         "cldr" : "ff_Adlm_GH",
+         "native_name" : "Pulaar (𞤀𞤁𞤂𞤢𞤃, 𞤘𞤢𞤲𞤢)"
       },
       "ff-adlm-gm" : {
          "bcp47_canonical" : "ff-Adlm-GM",
-         "cldr" : "ff_Adlm_GM"
+         "cldr" : "ff_Adlm_GM",
+         "native_name" : "Pulaar (𞤀𞤁𞤂𞤢𞤃, 𞤘𞤢𞤥𞤦𞤭𞤴𞤢)"
       },
       "ff-adlm-gn" : {
          "bcp47_canonical" : "ff-Adlm-GN",
-         "cldr" : "ff_Adlm_GN"
+         "cldr" : "ff_Adlm_GN",
+         "native_name" : "Pulaar (𞤀𞤁𞤂𞤢𞤃, 𞤘𞤭𞤲𞤫)"
       },
       "ff-adlm-gw" : {
          "bcp47_canonical" : "ff-Adlm-GW",
-         "cldr" : "ff_Adlm_GW"
+         "cldr" : "ff_Adlm_GW",
+         "native_name" : "Pulaar (𞤀𞤁𞤂𞤢𞤃, 𞤘𞤭𞤲𞤫-𞤄𞤭𞤧𞤢𞤱𞤮𞥅)"
       },
       "ff-adlm-lr" : {
          "bcp47_canonical" : "ff-Adlm-LR",
-         "cldr" : "ff_Adlm_LR"
+         "cldr" : "ff_Adlm_LR",
+         "native_name" : "Pulaar (𞤀𞤁𞤂𞤢𞤃, 𞤂𞤢𞤦𞤭𞤪𞤭𞤴𞤢𞥄)"
       },
       "ff-adlm-mr" : {
          "bcp47_canonical" : "ff-Adlm-MR",
-         "cldr" : "ff_Adlm_MR"
+         "cldr" : "ff_Adlm_MR",
+         "native_name" : "Pulaar (𞤀𞤁𞤂𞤢𞤃, 𞤃𞤮𞤪𞤼𞤢𞤲𞤭𞥅)"
       },
       "ff-adlm-ne" : {
          "bcp47_canonical" : "ff-Adlm-NE",
-         "cldr" : "ff_Adlm_NE"
+         "cldr" : "ff_Adlm_NE",
+         "native_name" : "Pulaar (𞤀𞤁𞤂𞤢𞤃, 𞤐𞤭𞥅𞤶𞤫𞤪)"
       },
       "ff-adlm-ng" : {
          "bcp47_canonical" : "ff-Adlm-NG",
-         "cldr" : "ff_Adlm_NG"
+         "cldr" : "ff_Adlm_NG",
+         "native_name" : "Pulaar (𞤀𞤁𞤂𞤢𞤃, 𞤐𞤢𞤶𞤫𞤪𞤭𞤴𞤢𞥄)"
       },
       "ff-adlm-sl" : {
          "bcp47_canonical" : "ff-Adlm-SL",
-         "cldr" : "ff_Adlm_SL"
+         "cldr" : "ff_Adlm_SL",
+         "native_name" : "Pulaar (𞤀𞤁𞤂𞤢𞤃, 𞤅𞤢𞤪𞤢𞤤𞤮𞤲)"
       },
       "ff-adlm-sn" : {
          "bcp47_canonical" : "ff-Adlm-SN",
-         "cldr" : "ff_Adlm_SN"
+         "cldr" : "ff_Adlm_SN",
+         "native_name" : "Pulaar (𞤀𞤁𞤂𞤢𞤃, 𞤅𞤫𞤲𞤫𞤺𞤢𞥄𞤤)"
       },
       "ff-latn" : {
          "bcp47_canonical" : "ff-Latn",
@@ -3618,11 +3635,13 @@
       "ks-arab" : {
          "bcp47_canonical" : "ks-Arab",
          "cldr" : "ks_Arab",
-         "mediawiki" : "ks-arab"
+         "mediawiki" : "ks-arab",
+         "native_name" : "کٲشُر (اَربی)"
       },
       "ks-arab-in" : {
          "bcp47_canonical" : "ks-Arab-IN",
-         "cldr" : "ks_Arab_IN"
+         "cldr" : "ks_Arab_IN",
+         "native_name" : "کٲشُر (اَربی, ہِندوستان)"
       },
       "ks-deva" : {
          "bcp47_canonical" : "ks-Deva",
@@ -3630,8 +3649,7 @@
       },
       "ks-in" : {
          "bcp47_canonical" : "ks-IN",
-         "facebook" : "ks_IN",
-         "native_name" : "کٲشُر (ہِندوستان)"
+         "facebook" : "ks_IN"
       },
       "ksb" : {
          "bcp47_canonical" : "ksb",
@@ -3803,6 +3821,10 @@
          "cldr" : "lkt_US",
          "native_name" : "Lakȟólʼiyapi (Mílahaŋska Tȟamákȟočhe)"
       },
+      "lld" : {
+         "bcp47_canonical" : "lld",
+         "mediawiki" : "lld"
+      },
       "lmo" : {
          "bcp47_canonical" : "lmo",
          "mediawiki" : "lmo"
@@ -3954,11 +3976,13 @@
          "bcp47_canonical" : "mai",
          "cldr" : "mai",
          "firefox" : "mai",
-         "mediawiki" : "mai"
+         "mediawiki" : "mai",
+         "native_name" : "मैथिली"
       },
       "mai-in" : {
          "bcp47_canonical" : "mai-IN",
-         "cldr" : "mai_IN"
+         "cldr" : "mai_IN",
+         "native_name" : "मैथिली (भारत)"
       },
       "map-bms" : {
          "bcp47_canonical" : "map-bms",
@@ -4113,15 +4137,18 @@
       "mni" : {
          "bcp47_canonical" : "mni",
          "cldr" : "mni",
-         "mediawiki" : "mni"
+         "mediawiki" : "mni",
+         "native_name" : "মৈতৈলোন্"
       },
       "mni-beng" : {
          "bcp47_canonical" : "mni-Beng",
-         "cldr" : "mni_Beng"
+         "cldr" : "mni_Beng",
+         "native_name" : "মৈতৈলোন্ (বাংলা)"
       },
       "mni-beng-in" : {
          "bcp47_canonical" : "mni-Beng-IN",
-         "cldr" : "mni_Beng_IN"
+         "cldr" : "mni_Beng_IN",
+         "native_name" : "মৈতৈলোন্ (বাংলা, ইন্দিয়া)"
       },
       "mnw" : {
          "bcp47_canonical" : "mnw",
@@ -4170,6 +4197,11 @@
          "bcp47_canonical" : "ms-BN",
          "cldr" : "ms_BN",
          "native_name" : "Melayu (Brunei)"
+      },
+      "ms-id" : {
+         "bcp47_canonical" : "ms-ID",
+         "cldr" : "ms_ID",
+         "native_name" : "Melayu (Indonesia)"
       },
       "ms-my" : {
          "bcp47_canonical" : "ms-MY",
@@ -4660,11 +4692,13 @@
       },
       "pcm" : {
          "bcp47_canonical" : "pcm",
-         "cldr" : "pcm"
+         "cldr" : "pcm",
+         "native_name" : "Naijíriá Píjin"
       },
       "pcm-ng" : {
          "bcp47_canonical" : "pcm-NG",
-         "cldr" : "pcm_NG"
+         "cldr" : "pcm_NG",
+         "native_name" : "Naijíriá Píjin (Naijíria)"
       },
       "pdc" : {
          "bcp47_canonical" : "pdc",
@@ -5079,15 +5113,18 @@
       "sat" : {
          "bcp47_canonical" : "sat",
          "cldr" : "sat",
-         "mediawiki" : "sat"
+         "mediawiki" : "sat",
+         "native_name" : "ᱥᱟᱱᱛᱟᱲᱤ"
       },
       "sat-olck" : {
          "bcp47_canonical" : "sat-Olck",
-         "cldr" : "sat_Olck"
+         "cldr" : "sat_Olck",
+         "native_name" : "ᱥᱟᱱᱛᱟᱲᱤ (ᱚᱞ ᱪᱤᱠᱤ)"
       },
       "sat-olck-in" : {
          "bcp47_canonical" : "sat-Olck-IN",
-         "cldr" : "sat_Olck_IN"
+         "cldr" : "sat_Olck_IN",
+         "native_name" : "ᱥᱟᱱᱛᱟᱲᱤ (ᱚᱞ ᱪᱤᱠᱤ, ᱤᱱᱰᱤᱭᱟ)"
       },
       "sbp" : {
          "bcp47_canonical" : "sbp",
@@ -5123,19 +5160,23 @@
       },
       "sd-arab" : {
          "bcp47_canonical" : "sd-Arab",
-         "cldr" : "sd_Arab"
+         "cldr" : "sd_Arab",
+         "native_name" : "سنڌي (عربي)"
       },
       "sd-arab-pk" : {
          "bcp47_canonical" : "sd-Arab-PK",
-         "cldr" : "sd_Arab_PK"
+         "cldr" : "sd_Arab_PK",
+         "native_name" : "سنڌي (عربي, پاڪستان)"
       },
       "sd-deva" : {
          "bcp47_canonical" : "sd-Deva",
-         "cldr" : "sd_Deva"
+         "cldr" : "sd_Deva",
+         "native_name" : "सिन्धी (देवनागिरी)"
       },
       "sd-deva-in" : {
          "bcp47_canonical" : "sd-Deva-IN",
-         "cldr" : "sd_Deva_IN"
+         "cldr" : "sd_Deva_IN",
+         "native_name" : "سنڌي (देवनागिरी, भारत)"
       },
       "sdc" : {
          "bcp47_canonical" : "sdc",
@@ -5319,6 +5360,7 @@
       "smn" : {
          "bcp47_canonical" : "smn",
          "cldr" : "smn",
+         "mediawiki" : "smn",
          "native_name" : "anarâškielâ"
       },
       "smn-fi" : {
@@ -5520,15 +5562,18 @@
       "su" : {
          "bcp47_canonical" : "su",
          "cldr" : "su",
-         "mediawiki" : "su"
+         "mediawiki" : "su",
+         "native_name" : "Basa Sunda"
       },
       "su-latn" : {
          "bcp47_canonical" : "su-Latn",
-         "cldr" : "su_Latn"
+         "cldr" : "su_Latn",
+         "native_name" : "Basa Sunda (Latin)"
       },
       "su-latn-id" : {
          "bcp47_canonical" : "su-Latn-ID",
-         "cldr" : "su_Latn_ID"
+         "cldr" : "su_Latn_ID",
+         "native_name" : "Basa Sunda (Latin, Indonesia)"
       },
       "sv" : {
          "bcp47_canonical" : "sv",
