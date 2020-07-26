@@ -74,10 +74,6 @@ The file contains a JSON object with following name/value pairs:
     mapping data.  Names are Gregorian date strings and values are
     corresponding kyuureki date strings.
 
-  notes [notes-object]
-
-    List of annotations in the table of 日本書紀暦日原典.
-
 * kyuureki-sources.json
 
 The |data/calendar/kyuureki-sources.json| file contains some data from

@@ -33,7 +33,7 @@ my $Data = {};
       my $value = $2;
       $value =~ s/\s*$//g;
       $Data->{props}->{$name}->{$key} = $value;
-    } elsif (/^(data|broken)$/) {
+    } elsif (/^(data|broken|old)$/) {
       $Data->{props}->{$name}->{$1} = 1;
     } elsif (/^(data)\s+(partial)$/) {
       $Data->{props}->{$name}->{$1.'_'.$2} = 1;
