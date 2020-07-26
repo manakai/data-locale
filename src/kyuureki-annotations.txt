@@ -377,3 +377,15 @@ m 1934-08-01 1934-09-01
 m 1936-02-01 1936-03-01 1936-12-01 1937-01-01
 m 1944-03'-01 1944-04-01 1944-04'-01 1944-05-01 1944-10-01 1944-11-01
 m 1946-11-01 1946-12-01
+
+* j450
+title 旧暦変換表|暦の計算|計算サイト
+url https://www.calc-site.com/calendars/old_calendar
+
+* j451
+title 宿曜経の二十七宿暦 宿曜カレンダー
+url https://nakshatra.tokyo/pc/calendar/27/
+
+* j171
+title 高精度計算サイト
+url http://keisan.casio.jp/exec/system/1239884744

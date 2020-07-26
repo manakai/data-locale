@@ -2090,6 +2090,10 @@
       "j157" : {
          "title" : "HuTime: 時間基盤情報-暦変換(和暦(明治以降の旧暦)-民間の暦)"
       },
+      "j171" : {
+         "title" : "高精度計算サイト",
+         "url" : "http://keisan.casio.jp/exec/system/1239884744"
+      },
       "j177" : {
          "title" : "『看聞御記』に見えた新月の観測と 『三正綜覧』の1誤謬",
          "url" : "http://fomalhautpsa.sakura.ne.jp/Science/OgawaKiyohiko/sanseisoran.pdf"
@@ -2146,6 +2150,14 @@
          "data" : 1,
          "title" : "仏教手帳: 仏教カレンダー",
          "url" : "http://bukkyo.info/calender/index.shtml"
+      },
+      "j450" : {
+         "title" : "旧暦変換表|暦の計算|計算サイト",
+         "url" : "https://www.calc-site.com/calendars/old_calendar"
+      },
+      "j451" : {
+         "title" : "宿曜経の二十七宿暦 宿曜カレンダー",
+         "url" : "https://nakshatra.tokyo/pc/calendar/27/"
       },
       "j453" : {
          "data_partial" : 1,
