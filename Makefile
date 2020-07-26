@@ -56,6 +56,7 @@ data-main: \
     data/calendar/kyuureki-genten.json \
     data/calendar/kyuureki-shoki-genten.json \
     data/calendar/kyuureki-sources.json \
+    intermediate/calendar-kyuureki-annotations.json \
     data/datetime/durations.json data/datetime/gregorian.json \
     data/datetime/weeks.json data/datetime/months.json \
     data/datetime/seconds.json \
@@ -101,6 +102,10 @@ local/kyuureki-sansei.json: bin/calendar-kyuureki-sansei.pl
 	$(PERL) $< > $@
 data/calendar/kyuureki-sources.json: bin/calendar-kyuureki-sources.pl \
     local/kyuureki-sansei.json data/calendar/kyuureki-map.txt
+	$(PERL) $< > $@
+intermediate/calendar-kyuureki-annotations.json: \
+    bin/calendar-kyuureki-annotations.pl data/calendar/kyuureki-genten.json \
+    src/kyuureki-annotations.txt
 	$(PERL) $< > $@
 
 local/wp-jp-eras.html:
