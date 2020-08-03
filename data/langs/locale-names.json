@@ -149,6 +149,10 @@
          "bcp47_canonical" : "als",
          "mediawiki" : "als"
       },
+      "alt" : {
+         "bcp47_canonical" : "alt",
+         "mediawiki" : "alt"
+      },
       "am" : {
          "bcp47_canonical" : "am",
          "chrome_web_store" : "am",
@@ -5861,6 +5865,10 @@
       "tru" : {
          "bcp47_canonical" : "tru",
          "mediawiki" : "tru"
+      },
+      "trv" : {
+         "bcp47_canonical" : "trv",
+         "mediawiki" : "trv"
       },
       "ts" : {
          "bcp47_canonical" : "ts",
