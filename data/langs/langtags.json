@@ -1,6 +1,6 @@
 {
    "_ext_file_date" : "2014-04-02",
-   "_file_date" : "2020-04-01",
+   "_file_date" : "2020-07-17",
    "extension" : {
       "t" : {
          "Comments" : [
@@ -22085,6 +22085,15 @@
             "Fyer"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "fif" : {
+         "Description" : [
+            "Faifi"
+         ],
+         "_added" : "2020-06-08",
          "_registry" : {
             "iana" : 1
          }
@@ -70761,6 +70770,8 @@
             "Thudam"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "ola",
          "_registry" : {
             "iana" : 1
          }
@@ -91926,6 +91937,16 @@
             "iana" : 1
          }
       },
+      "toto" : {
+         "Description" : [
+            "Toto"
+         ],
+         "_added" : "2020-05-12",
+         "_canon" : "_titlecase",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "ugar" : {
          "Description" : [
             "Ugaritic"
@@ -102317,6 +102338,38 @@
             "be"
          ],
          "_added" : "2007-04-27",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "tongyong" : {
+         "Comments" : [
+            "Former official transcription standard for Mandarin Chinese in  Taiwan."
+         ],
+         "Description" : [
+            "Tongyong Pinyin romanization"
+         ],
+         "Prefix" : [
+            "zh-latn"
+         ],
+         "_added" : "2020-06-08",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "tunumiit" : {
+         "Comments" : [
+            "Also known as Tunumiit oraasiat"
+         ],
+         "Description" : [
+            "Tunumiisiut",
+            "East Greenlandic",
+            "Østgrønlandsk"
+         ],
+         "Prefix" : [
+            "kl"
+         ],
+         "_added" : "2020-07-16",
          "_registry" : {
             "iana" : 1
          }
