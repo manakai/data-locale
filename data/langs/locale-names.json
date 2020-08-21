@@ -149,6 +149,10 @@
          "bcp47_canonical" : "als",
          "mediawiki" : "als"
       },
+      "alt" : {
+         "bcp47_canonical" : "alt",
+         "mediawiki" : "alt"
+      },
       "am" : {
          "bcp47_canonical" : "am",
          "chrome_web_store" : "am",
@@ -967,14 +971,8 @@
       },
       "cu" : {
          "bcp47_canonical" : "cu",
-         "cldr" : "cu",
          "mediawiki" : "cu",
          "native_name" : "церковнослове́нскїй"
-      },
-      "cu-ru" : {
-         "bcp47_canonical" : "cu-RU",
-         "cldr" : "cu_RU",
-         "native_name" : "церковнослове́нскїй (рѡссі́а)"
       },
       "cv" : {
          "bcp47_canonical" : "cv",
@@ -4752,14 +4750,8 @@
       },
       "prg" : {
          "bcp47_canonical" : "prg",
-         "cldr" : "prg",
          "mediawiki" : "prg",
          "native_name" : "prūsiskan"
-      },
-      "prg-001" : {
-         "bcp47_canonical" : "prg-001",
-         "cldr" : "prg_001",
-         "native_name" : "prūsiskan (swītai)"
       },
       "ps" : {
          "bcp47_canonical" : "ps",
@@ -5862,6 +5854,10 @@
          "bcp47_canonical" : "tru",
          "mediawiki" : "tru"
       },
+      "trv" : {
+         "bcp47_canonical" : "trv",
+         "mediawiki" : "trv"
+      },
       "ts" : {
          "bcp47_canonical" : "ts",
          "mediawiki" : "ts",
@@ -6110,14 +6106,8 @@
       },
       "vo" : {
          "bcp47_canonical" : "vo",
-         "cldr" : "vo",
          "mediawiki" : "vo",
          "native_name" : "Volapük"
-      },
-      "vo-001" : {
-         "bcp47_canonical" : "vo-001",
-         "cldr" : "vo_001",
-         "native_name" : "Volapük (World)"
       },
       "vot" : {
          "bcp47_canonical" : "vot",
