@@ -1119,6 +1119,14 @@
          "cldr" : "dje_NE",
          "native_name" : "Zarmaciine (Nižer)"
       },
+      "doi" : {
+         "bcp47_canonical" : "doi",
+         "cldr" : "doi"
+      },
+      "doi-in" : {
+         "bcp47_canonical" : "doi-IN",
+         "cldr" : "doi_IN"
+      },
       "dsb" : {
          "bcp47_canonical" : "dsb",
          "cldr" : "dsb",
@@ -5075,10 +5083,12 @@
       },
       "sa" : {
          "bcp47_canonical" : "sa",
+         "cldr" : "sa",
          "mediawiki" : "sa"
       },
       "sa-in" : {
          "bcp47_canonical" : "sa-IN",
+         "cldr" : "sa_IN",
          "facebook" : "sa_IN"
       },
       "sah" : {
