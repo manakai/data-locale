@@ -71,6 +71,7 @@ for (
   [[grep { /(?:[12578]|[2578]0)$/ } @Tested] => 'ends in 1, 2, 5, 7, 8 or ends in 20, 50, 70, 80'],
   [[grep { /(?:[34]|00)$/ and not /000$/ } @Tested] => 'ends in 3-4 or ends in 00 not ends in 000'],
   [[0, grep { /(?:6|[469]0)$/ } @Tested] => 'is 0 or ends in 6 or ends in 40, 60, 90'],
+  [[11, 8, 80..89, 800..890] => 'is 8, 11, 80-89, 800-890'],
   [[0, 2..9, grep { /(?:0[2-9]|1[0-9]|[2468]0)$/ } @Tested] => 'is 0 or ends in 02-20, 40, 60, 80'],
   [[map { $_ * 100 + 1 } 0..9] => 'ends in 01'],
   [[map { $_ * 100 + 2 } 0..9] => 'ends in 02'],
@@ -121,6 +122,8 @@ for my $name (keys %{$Data->{forms}}) {
     $Data->{forms}->{$name}->{expression} = "n==$1||n==$2||n==$3||n==$4";
   } elsif ($name =~ /^is ([0-9]+)-([0-9]+), ([0-9]+)-([0-9]+)$/) {
     $Data->{forms}->{$name}->{expression} = "($1<=n&&n<=$2)||($3<=n&&n<=$4)";
+  } elsif ($name =~ /^is ([0-9]+), ([0-9]+), ([0-9]+)-([0-9]+), ([0-9]+)-([0-9]+)$/) {
+    $Data->{forms}->{$name}->{expression} = "n==$1||n==$2||($3<=n&&n<=$4)||($5<=n&&n<=$6)";
   } elsif ($name =~ /^is ([0-9]+) or ends in ([0-9][0-9])-([0-9][0-9])$/) {
     $Data->{forms}->{$name}->{expression} = "n==$1||($2<=n%100&&n%100<=$3)";
   } elsif ($name =~ /^is ([0-9]+) or ends in ([0-9][0-9])-([0-9][0-9]) excluding ([0-9]+)$/) {
@@ -221,7 +224,7 @@ sub expr ($$;%) {
   $expr =~ s/([nivwft])/\$$1/g;
   $data->{forms}->[$n-1] ||= [];
   for my $n (@Tested) {
-    ## <http://unicode.org/reports/tr35/tr35-numbers.html#Operands>
+    ## <https://unicode.org/reports/tr35/tr35-numbers.html#Operands>
     ## XXX fractions are not supported in fact...
     my $i = int $n;
     my $v = $n =~ /\.([0-9]+)$/ ? length $1 : 0;

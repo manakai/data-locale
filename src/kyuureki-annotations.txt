@@ -389,3 +389,7 @@ url https://nakshatra.tokyo/pc/calendar/27/
 * j171
 title 高精度計算サイト
 url http://keisan.casio.jp/exec/system/1239884744
+
+* j207
+title 吾妻鏡
+data partial
