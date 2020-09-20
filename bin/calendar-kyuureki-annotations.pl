@@ -70,7 +70,7 @@ sub ymmd2string (@) {
       my $value = $2;
       $value =~ s/\s*$//g;
       $Data->{props}->{$name}->{$key} = $value;
-    } elsif (/^(data|broken|old|qreki)$/) {
+    } elsif (/^(data|broken|old|qreki|reference)$/) {
       $Data->{props}->{$name}->{$1} = 1;
       $Data->{props}->{$name}->{broken} = 1 if $1 eq 'qreki';
     } elsif (/^(data)\s+(partial)$/) {
