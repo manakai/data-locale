@@ -4687,6 +4687,7 @@
          "title" : "HuTime: 時間基盤情報-暦変換(和暦(明治以降の旧暦)-民間の暦)"
       },
       "j171" : {
+         "data" : 1,
          "title" : "高精度計算サイト",
          "url" : "http://keisan.casio.jp/exec/system/1239884744"
       },
@@ -4712,6 +4713,8 @@
          "title" : "琉球新報: 旧正月の日付が違います 中国と日本"
       },
       "j212" : {
+         "data" : 1,
+         "reference" : 1,
          "title" : "旧暦データファイル3",
          "url" : "https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB#anchor-212"
       },
@@ -4734,6 +4737,7 @@
       },
       "j378" : {
          "data" : 1,
+         "reference" : 1,
          "title" : "日本の暦日データベース",
          "url" : "http://eco.mtk.nao.ac.jp/cgi-bin/koyomi/caldb.cgi"
       },
@@ -4756,6 +4760,7 @@
          "url" : "http://bukkyo.info/calender/index.shtml"
       },
       "j450" : {
+         "data" : 1,
          "title" : "旧暦変換表|暦の計算|計算サイト",
          "url" : "https://www.calc-site.com/calendars/old_calendar"
       },
@@ -4763,8 +4768,8 @@
          "broken" : 1,
          "data_partial" : 1,
          "qreki" : 1,
-         "title" : "月の占星学(月のうらないがく)",
-         "url" : "https://nakshatra.tokyo/"
+         "title" : "宿曜経の二十七宿暦 宿曜カレンダー",
+         "url" : "https://nakshatra.tokyo/pc/calendar/27/"
       },
       "j453" : {
          "data_partial" : 1,
@@ -4883,10 +4888,12 @@
       "j501" : {
          "data_partial" : 1,
          "old" : 1,
+         "reference" : 1,
          "title" : "日本暦日原典1"
       },
       "j504" : {
          "data_partial" : 1,
+         "reference" : 1,
          "title" : "日本暦日原典4"
       },
       "j71" : {
@@ -4912,7 +4919,9 @@
          "title" : "旧暦2033年問題"
       },
       "j95" : {
+         "data" : 1,
          "old" : 1,
+         "reference" : 1,
          "title" : "旧暦データファイル2",
          "url" : "https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB#anchor-95"
       },

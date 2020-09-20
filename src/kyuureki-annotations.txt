@@ -61,6 +61,7 @@ m 1872-11-01 1872-12-01
 
 * j504
 title 日本暦日原典4
+reference
 data partial
 * j459
 title 日本暦日原典4: 矛盾する史料等があるが計算値のまま修正せず
@@ -76,6 +77,7 @@ title 日本暦日原典4: 注釈
 * j501
 title 日本暦日原典1
 old
+reference
 
 data partial
 # p.13
@@ -164,6 +166,7 @@ m 0619-03-01 0619-03'-01
 title 日本の暦日データベース
 url http://eco.mtk.nao.ac.jp/cgi-bin/koyomi/caldb.cgi
 data
+reference
 * j453
 title 日本の暦日データベース: 計算結果
 old
@@ -468,30 +471,32 @@ m 1946-11-01 1946-12-01
 * j450
 title 旧暦変換表|暦の計算|計算サイト
 url https://www.calc-site.com/calendars/old_calendar
-
-* j451
-title 宿曜経の二十七宿暦 宿曜カレンダー
-url https://nakshatra.tokyo/pc/calendar/27/
+data
 
 * j171
 title 高精度計算サイト
 url http://keisan.casio.jp/exec/system/1239884744
+data
 
 * j207
 title 吾妻鏡
 data partial
 
 * j451
-title 月の占星学(月のうらないがく)
-url https://nakshatra.tokyo/
+title 宿曜経の二十七宿暦 宿曜カレンダー
+url https://nakshatra.tokyo/pc/calendar/27/
 data partial
 qreki
 
 * j95
 title 旧暦データファイル2
 url https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB#anchor-95
+data
 old
+reference
 
 * j212
 title 旧暦データファイル3
 url https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB#anchor-212
+data
+reference
