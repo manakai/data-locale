@@ -24,6 +24,26 @@ my $Data = {};
     $Data->{maps}->{j504}->{$genten->{mapping}->{$_}} = $_;
   }
 }
+{
+  my $path = $RootPath->child ('data/calendar/kyuureki-shoki-genten.json');
+  my $input = json_bytes2perl $path->slurp;
+  for (keys %{$input->{mapping}}) {
+    $Data->{maps}->{j192}->{$input->{mapping}->{$_}} = $_;
+  }
+}
+{
+  my $path = $RootPath->child ('data/calendar/kyuureki-sources.json');
+  my $input = json_bytes2perl $path->slurp;
+  for my $name (keys %{$input}) {
+    for my $month (keys %{$input->{$name}->{notes}}) {
+      $Data->{months}->{$month}->{$name} = 1
+          if $input->{$name}->{notes}->{$month}->{misc_note};
+    }
+    if ($input->{$name}->{partial}) {
+      $Data->{props}->{$name}->{data_partial} = 1;
+    }
+  }
+}
 
 use POSIX;
 sub j2jd (@) {
@@ -113,6 +133,14 @@ sub ymmd2string (@) {
         $Data->{maps}->{$name}->{$k} = $g;
       }
       $prev_data = [$ymd->[0], $jd];
+    } elsif (/^=\s+([0-9-]+)\s+([0-9'-]+)\s*$/) {
+      my $g = $1;
+      my $k = $2;
+      if (defined $Data->{maps}->{$name}->{$k} and
+          not $Data->{maps}->{$name}->{$k} eq $g) {
+        die "Conflict |$k|: |$g| (was: |$Data->{maps}->{$name}->{$k}|)";
+      }
+      $Data->{maps}->{$name}->{$k} = $g;
     } elsif (/^\s*#/) {
       #
     } elsif (/\S/) {

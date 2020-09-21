@@ -64,9 +64,11 @@ $Input->{j245} = q{
 1411 11  - 丁亥
 
 推算 := j245-computed
+       #j448
 長暦 := j246
 通暦 := j247
 便覧 := j245-actual
+       #j449
 三正 := j106
 
 * *          推算 長暦 通暦 便覧
@@ -528,7 +530,7 @@ my $g2k_map = {map { split /\t/, $_ } split /\x0D?\x0A/, $g2k_map_path->slurp};
 my $k2g_map = {reverse %$g2k_map};
 
 sub k2g ($) {
-  return $k2g_map->{$_[0]} or die "Kyuureki |$_[0]| is not defined";
+  return $k2g_map->{$_[0]} || die "Kyuureki |$_[0]| is not defined";
 } # k2g
 
 sub jd2g_ymd ($) {

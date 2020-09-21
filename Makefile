@@ -104,7 +104,10 @@ data/calendar/kyuureki-sources.json: bin/calendar-kyuureki-sources.pl \
     local/kyuureki-sansei.json data/calendar/kyuureki-map.txt
 	$(PERL) $< > $@
 intermediate/calendar-kyuureki-annotations.json: \
-    bin/calendar-kyuureki-annotations.pl data/calendar/kyuureki-genten.json \
+    bin/calendar-kyuureki-annotations.pl \
+    data/calendar/kyuureki-genten.json \
+    data/calendar/kyuureki-shoki-genten.json \
+    data/calendar/kyuureki-sources.json \
     src/kyuureki-annotations.txt
 	$(PERL) $< > $@
 
