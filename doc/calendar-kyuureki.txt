@@ -1,20 +1,26 @@
 calendar/kyuureki-*
 ~~~~~~~~~~~~~~~~~~~
 
-These files contain descriptions of kyuureki (旧暦), i.e. Japanese
-classic calendar.
+These files contain descriptions of Kyuureki (旧暦, Old Style Calendar
+of Japan).
 
 * kyuureki-map
+
+Web page:
+<https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB>
 
 The |data/calendar/kyuureki-map.txt| file is a date mapping file
 <https://manakai.github.io/spec-datetime/#date-mapping-file> from the
 Gregorian days
 <https://manakai.github.io/spec-datetime/#gregorian-day> serialized as
-Gregorian date strings to the kyuureki days
+Gregorian date strings to the Kyuureki days
 <https://manakai.github.io/spec-datetime/#kyuureki-day> serialized as
-kyuureki date strings, in the range kyuureki 667BC-01-01 (the first
-day of the kyuureki year -666) - kyuureki 2100-12-29 (the last day of
-the kyuureki year 2100), inclusive.
+Kyuureki date strings, in the range Kyuureki -0666-01-01 (the first
+day of the Kyuureki year -666 = 667BC) - Kyuureki 2100-01-01 (the
+first day of the Kyuureki year 2101), inclusive.
+
+Revision history:
+<https://wiki.suikawiki.org/n/%E6%97%A7%E6%9A%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB#header-section-%E6%94%B9%E8%A8%82%E5%B1%A5%E6%AD%B4>.
 
 Likewise, the |data/calendar/kyuureki-ryuukyuu-map.txt| file is a date
 mapping file from the Gregorian days to the kyuureki days as used in
@@ -31,14 +37,14 @@ Various existing mapping tables and convertion tools use different
 mappings (see kyuureki-diff* files).  These tables adopt mappings from
 following sources:
 
-  日本暦日原典
-  日本書紀暦日原典
+  日本の暦日データベース provided by 国立天文台 of Japan
   20世紀暦
   21世紀暦
   兩千年中西曆轉換 (for Chinese calendar)
 
-The month numbers of year 2033 and 2034 are chosen as recommended by 一
-般社団法人日本カレンダー暦文化振興協会 (暦文協).
+The month numbers of year 2033 and 2034 (c.f. 旧暦2033年問題) are
+chosen as recommended as the 閏11月 method by 一般社団法人日本カレンダー
+暦文化振興協会 (暦文協).
 
 * kyuureki-genten
 
