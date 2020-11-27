@@ -253,6 +253,7 @@ title when.exe: 日本
 #url http://www2u.biglobe.ne.jp/~suchowan/when_exe_wiki.html
 url http://hosi.org/a/when/when2.html#2
 data
+old
 * j42
 title when.exe: 日本: 日付の異同
 url http://hosi.org/u/wiki.cgi?Calendar%2FWhen%2FExe%2F%E6%9A%A6%E8%AA%AC%E6%98%8E%2F%E6%9C%AC%E7%B7%A8%2F%E6%97%A5%E6%9C%AC
@@ -281,6 +282,14 @@ m 1870-10'-01 1871-11-01 1870-12-01
 m 2033-07-01 2033-07'-01 2033-08-01 2033-08'-01 2033-09-01 2033-10-01
 m 2033-10-01 2033-11-01 2033-11'-01 2033-12-01 2034-01-01 2034-01'-01
 #2728 - 2729
+* j527
+title when.exe: 日本の朔閏表
+url https://github.com/suchowan/when_exe/blob/master/lib/when_exe/region/japanese/calendars.rb
+data
+* j528
+title when.exe: 『唐・日本における進朔に関する研究』(2013-10版)を使用する場合の朔閏表
+url https://github.com/suchowan/when_exe/blob/master/lib/when_exe/region/japanese/calendars.rb
+data
 
 * j480
 title ザ・ランス: 旧暦/グレゴリオ暦対照表: 2014.1.3
@@ -481,6 +490,9 @@ m 1968-01-01
 m 2057-08-01 2057-09-01 2089-07-01 2089-08-01 2097-06-01 2097-07-01
 
 * j156
+title HuTime
+url http://www.hutime.jp/
+data
 * j184
 title HuTime: 時間基盤情報-暦変換(和暦(明治以降の旧暦))
 m 1947-02-01 1947-02'-01 1947-03-01 1947-03'-01 1947-04-01
@@ -552,3 +564,54 @@ data
 * j245
 title 宣明暦行用時代における推算と暦日
 url http://fomalhautpsa.sakura.ne.jp/Science/OgawaKiyohiko/senmyoreki.pdf
+
+* j327
+title Japanese date conversion
+url https://homepages.cwi.nl/~aeb/go/misc/jdate.html
+data
+
+* j37
+title 海上保安庁: 1997-2000年の新暦・旧暦対応表
+url http://www1.kaiho.mlit.go.jp/KOHO/reki/kyuu9700.htm
+data
+
+* j351
+title mk-mode SITE : カレンダーCSVデータダウンロード
+url https://www.mk-mode.com/rails/calendar/csv
+data
+
+* j101
+title 月の大小 - CyberLibrarian
+url http://www.asahi-net.or.jp/~ax2s-kmtn/ref/month_ls.html
+data
+
+* j102
+title 西暦・和暦対照表 - CyberLibrarian
+url http://www.asahi-net.or.jp/~ax2s-kmtn/ref/year_jw.html
+data partial
+
+* j55
+title DateTime::Calendar::Japanese
+data
+broken
+
+* j170
+title 暦API
+url http://koyomi.zing2.org/
+data
+qreki
+
+* j9
+title qreki
+data
+qreki
+
+* j190
+title れきちにおける和暦
+url http://www.sen2.net/contents/history/rekichi/wareki.html
+data
+
+* j197
+title 旧暦-西暦の相互変換
+url http://can-chan.com/koyomi/qreki-seireki.html
+data

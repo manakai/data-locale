@@ -5205,6 +5205,16 @@
       "c67" : {
          "data_partial" : 1
       },
+      "j101" : {
+         "data" : 1,
+         "title" : "月の大小 - CyberLibrarian",
+         "url" : "http://www.asahi-net.or.jp/~ax2s-kmtn/ref/month_ls.html"
+      },
+      "j102" : {
+         "data_partial" : 1,
+         "title" : "西暦・和暦対照表 - CyberLibrarian",
+         "url" : "http://www.asahi-net.or.jp/~ax2s-kmtn/ref/year_jw.html"
+      },
       "j106" : {
          "data_partial" : 1
       },
@@ -5218,8 +5228,20 @@
          "qreki" : 1,
          "title" : "qreki"
       },
+      "j156" : {
+         "data" : 1,
+         "title" : "HuTime",
+         "url" : "http://www.hutime.jp/"
+      },
       "j157" : {
          "title" : "HuTime: 時間基盤情報-暦変換(和暦(明治以降の旧暦)-民間の暦)"
+      },
+      "j170" : {
+         "broken" : 1,
+         "data" : 1,
+         "qreki" : 1,
+         "title" : "暦API",
+         "url" : "http://koyomi.zing2.org/"
       },
       "j171" : {
          "data" : 1,
@@ -5233,6 +5255,11 @@
       "j184" : {
          "title" : "HuTime: 時間基盤情報-暦変換(和暦(明治以降の旧暦))"
       },
+      "j190" : {
+         "data" : 1,
+         "title" : "れきちにおける和暦",
+         "url" : "http://www.sen2.net/contents/history/rekichi/wareki.html"
+      },
       "j192" : {
          "data_partial" : 1,
          "reference" : 1,
@@ -5241,6 +5268,11 @@
       "j196" : {
          "title" : "和暦・西暦対照表〔インデックス〕-公卿類別譜(公家の歴史)",
          "url" : "http://www.geocities.jp/okugesan_com/taishohyo/index.html"
+      },
+      "j197" : {
+         "data" : 1,
+         "title" : "旧暦-西暦の相互変換",
+         "url" : "http://can-chan.com/koyomi/qreki-seireki.html"
       },
       "j207" : {
          "data_partial" : 1,
@@ -5278,6 +5310,11 @@
       "j257" : {
          "title" : "日本民間暦"
       },
+      "j327" : {
+         "data" : 1,
+         "title" : "Japanese date conversion",
+         "url" : "https://homepages.cwi.nl/~aeb/go/misc/jdate.html"
+      },
       "j334" : {
          "title" : "20世紀暦―曜日・干支・九星・旧暦・六曜, 21世紀暦―曜日・干支・九星・旧暦・六曜: 計算法の違い"
       },
@@ -5286,8 +5323,19 @@
       },
       "j35" : {
          "data" : 1,
+         "old" : 1,
          "title" : "when.exe: 日本",
          "url" : "http://hosi.org/a/when/when2.html#2"
+      },
+      "j351" : {
+         "data" : 1,
+         "title" : "mk-mode SITE : カレンダーCSVデータダウンロード",
+         "url" : "https://www.mk-mode.com/rails/calendar/csv"
+      },
+      "j37" : {
+         "data" : 1,
+         "title" : "海上保安庁: 1997-2000年の新暦・旧暦対応表",
+         "url" : "http://www1.kaiho.mlit.go.jp/KOHO/reki/kyuu9700.htm"
       },
       "j378" : {
          "data" : 1,
@@ -5455,6 +5503,21 @@
          "title" : "iCalendar形式の旧暦カレンダー",
          "url" : "http://www8.plala.or.jp/garden/note/kyureki.html"
       },
+      "j527" : {
+         "data" : 1,
+         "title" : "when.exe: 日本の朔閏表",
+         "url" : "https://github.com/suchowan/when_exe/blob/master/lib/when_exe/region/japanese/calendars.rb"
+      },
+      "j528" : {
+         "data" : 1,
+         "title" : "when.exe: 『唐・日本における進朔に関する研究』(2013-10版)を使用する場合の朔閏表",
+         "url" : "https://github.com/suchowan/when_exe/blob/master/lib/when_exe/region/japanese/calendars.rb"
+      },
+      "j55" : {
+         "broken" : 1,
+         "data" : 1,
+         "title" : "DateTime::Calendar::Japanese"
+      },
       "j71" : {
          "data_partial" : 1,
          "title" : "20世紀暦―曜日・干支・九星・旧暦・六曜, 21世紀暦―曜日・干支・九星・旧暦・六曜"
@@ -5473,6 +5536,12 @@
       },
       "j88" : {
          "title" : "大坂暦"
+      },
+      "j9" : {
+         "broken" : 1,
+         "data" : 1,
+         "qreki" : 1,
+         "title" : "qreki"
       },
       "j92" : {
          "title" : "旧暦2033年問題"
