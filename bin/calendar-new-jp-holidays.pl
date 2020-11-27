@@ -27,6 +27,7 @@ my %d = (
     H26 => _d(2016,1,1),        ## H26 (2014)
     H31 => _d(2019,5,1),        ## H29 Law #63 / H29 Ordinance #302
     H32 => _d(2020,1,1),        ## H30 Law #55, #57
+    R3  => _d(2021,1,1),    ## XXX R2 Law #?? / R? Ordinance #?
 );
 
 ## 春分、秋分
@@ -157,9 +158,11 @@ sub isholiday ($$$) {
     	## Heisei 5 Law No.32
   } elsif ($month == 7) {
     return '海の日' if $day == 20 && $d{H7} <= $time && $time < $d{H13};
-    return '海の日' if $wday == $MONDAY && 15 <= $day && $day <= 21 && $d{H13} <= $time && $year != 2020;
+    return '海の日' if $wday == $MONDAY && 15 <= $day && $day <= 21 && $d{H13} <= $time && $year != 2020 && $year != 2021;
     return '海の日' if $day == 23 && $year == 2020;
+    return '海の日' if $day == 22 && $year == 2021;
     return 'スポーツの日' if $day == 24 && $year == 2020;
+    return 'スポーツの日' if $day == 23 && $year == 2021;
     return '振替休日' if $wday == $MONDAY && $day == 21 && $d{H7} <= $time && $time < $d{H13};
 
     return '明治天皇祭' if $day == 30 && $d{T1} <= $time && $time < $d{S2};
@@ -168,8 +171,9 @@ sub isholiday ($$$) {
     return '天長節' if $day == 31 && $year == 1912;
 
     return '天長節' if $day == 31 && $d{T1} <= $time && $time < $d{S2};
-    return '山の日' if $day == 11 && $d{H26} <= $time && $year != 2020;
+    return '山の日' if $day == 11 && $d{H26} <= $time && $year != 2020 && $year != 2021;
     return '山の日' if $day == 10 && $year == 2020;
+    return '山の日' if $day == 8 && $year == 2021;
     return '振替休日' if $wday == $MONDAY && $day == 12 && $d{H26} <= $time;
   } elsif ($month == 9) {
     return '敬老の日' if $day == 15 && $d{S41} <= $time && $time < $d{H13};
@@ -189,7 +193,7 @@ sub isholiday ($$$) {
     return '神嘗祭' if $day == 17 && $d{M6} <= $time && $time < $d{M12};
   } elsif ($month == 10) {
     return 'スポーツの日' if $wday == $MONDAY && 8 <= $day && $day <= 14 &&
-                $d{H32} <= $time && $year != 2020;
+                $d{H32} <= $time && $year != 2020 && $year != 2021;
     return '体育の日' if $wday == $MONDAY && 8 <= $day && $day <= 14 &&
                 $d{H10} <= $time && $time < $d{H32};
     return '体育の日' if $day == 10 && $d{S41} <= $time && $time < $d{H10};
