@@ -171,10 +171,13 @@ sub isholiday ($$$) {
     return '天長節' if $day == 31 && $year == 1912;
 
     return '天長節' if $day == 31 && $d{T1} <= $time && $time < $d{S2};
-    return '山の日' if $day == 11 && $d{H26} <= $time && $year != 2020 && $year != 2021;
+    if ($year != 2020 && $year != 2021) {
+      return '山の日' if $day == 11 && $d{H26} <= $time;
+      return '振替休日' if $wday == $MONDAY && $day == 12 && $d{H26} <= $time;
+    }
     return '山の日' if $day == 10 && $year == 2020;
     return '山の日' if $day == 8 && $year == 2021;
-    return '振替休日' if $wday == $MONDAY && $day == 12 && $d{H26} <= $time;
+    return '振替休日' if $wday == $MONDAY && $day == 9 && $year == 2021;
   } elsif ($month == 9) {
     return '敬老の日' if $day == 15 && $d{S41} <= $time && $time < $d{H13};
     return '敬老の日' if $wday == $MONDAY && 15 <= $day && $day <= 21 && $d{H13} <= $time;
