@@ -253,6 +253,16 @@ wref_ja 福徳_(私年号)
 wref_ja 大政_(私年号)
 [自由自治]
 wref_ja 自由自治
+name 自由・自治
+name_kana じゆうじち
+sw 自由自治
+# u 1-11-2
+# u 129-1-1
+# u 134-1
+# u 137-5-10
+# gov 困民党
+# region 大日本帝国埼玉県秩父郡
+# people 日本人
 [征露]
 wref_ja 征露
 
@@ -876,8 +886,17 @@ sw フクシマ紀元
 
 [命知]
 name_ja 命知
+name_kana めいち
+# XXX name_long
+# transliteration Meichi
+name_cn 命知
+name 創業命知
 sw 命知
 AD1932 = 1
+# preferred style g第y年
+# org 松下電器産業株式会社
+# 1932-05-05 establishment
+# u 75
 
 ## 宣統 2004
 ## 復光 2008
@@ -965,3 +984,80 @@ name_kana すざく
 name 朱雀
 AD1998 = 1
 sw ◆朱雀
+
+[永清]
+name_kana えいしん
+sw 永清
+# u 1-5
+# <-光緒 y~681
+# <-明治 y~1
+# 1895-05-08           Taiwan transferred from 清 to Japan
+# 1895-05-23           independence proclamation
+# 1895-05-25 (農暦5-2) independence celemony
+# ->明治 y~1
+# 1895-農暦5
+# 1895-06-17           JP government's celemony of establishment
+# 1895-10-19           president went back to 清
+# cal 清國暦
+# gov 台湾民主国
+# region 大日本帝国台湾
+# people 漢民族
+
+[大靖]
+name 太靖
+name_ja たいせい
+# region 大日本帝国台湾
+# people 漢民族
+# <-明治
+# 1897
+# 1897-01
+# 1897-01 (農暦12)
+# u 1-6
+# 1897-6-28 or 農暦6-28
+# ->明治
+# 1898-11-25 支配地域消滅
+# 1899-03    government discontinued
+# gov 大靖政権
+
+def[大新]
+name_ja 大新
+sw 大新
+AD1945 = 1
+# region 中国共産党占領地満州
+# people 日本人
+# <-昭和
+# u 2-3-24
+
+def[大新 (丙戌)]
+name_ja 大新
+sw 大新
+AD1946 = 1
+# region 中国共産党占領地満州
+# region ソ連領シベリア
+# people 日本人
+# <-昭和
+# u 1
+
+def[新日本 (乙酉)]
+name_ja 新日本
+AD1945 = 1
+# <-昭和
+# 1945-12-29 proposed to the emperor
+# 1946-01    proposed to 衆議院議長
+# u 1-12-10
+# u 3-5
+# u 5-1-1
+# u 9-2
+# 1954-10-6 尾崎行雄 dead
+# people 日本人
+# region 日本国
+[新日本]
+# people 日本人
+# region 日本国
+# incorrect -> 新日本 (乙酉)
+
+def[新日本紀元]
+name_ja 新日本紀元
+AD1952 = 1
+# u 1952-5-1
+
