@@ -375,6 +375,11 @@
          "expression" : "n==8||n==11||n==80||n==800",
          "typical" : "8"
       },
+      "is 8, 11, 80-89, 800-899" : {
+         "examples" : "8 11 80 81 82 83 84 85 86 87 88 89 800 801 802 803 804 805 806 807 808 809 810 811 812 813 814 815 816 817 818 819 820 821 822 823 824 825 826 827 828 829 830 831 832 833 834 835 836 837 838 839 840 841 842 843 844 845 846 847 848 849 850 851 852 853 854 855 856 857 858 859 860 861 862 863 864 865 866 867 868 869 870 871 872 873 874 875 876 877 878 879 880 881 882 883 884 885 886 887 888 889 890 891 892 893 894 895 896 897 898 899",
+         "expression" : "n==8||n==11||(80\u003C=n&&n\u003C=89)||(800\u003C=n&&n\u003C=899)",
+         "typical" : "8"
+      },
       "never" : {
          "examples" : "",
          "expression" : "1==0",
@@ -460,6 +465,7 @@
                "my" : 1,
                "nb" : 1,
                "nl" : 1,
+               "no" : 1,
                "pa" : 1,
                "pl" : 1,
                "prg" : 1,
@@ -669,7 +675,6 @@
                "doi" : 1,
                "fa" : 1,
                "ff" : 1,
-               "fr" : 1,
                "gu" : 1,
                "guw" : 1,
                "hi" : 1,
@@ -853,6 +858,7 @@
                "ky" : 1,
                "lb" : 1,
                "lg" : 1,
+               "lij" : 1,
                "mas" : 1,
                "mgo" : 1,
                "ml" : 1,
@@ -992,6 +998,26 @@
             }
          }
       },
+      "2:is 8, 11, 80-89, 800-899/everything else" : {
+         "cldr_locales" : {
+            "ordinal" : {
+               "lij" : 1
+            }
+         },
+         "expression" : "n==8||n==11||(80\u003C=n&&n\u003C=89)||(800\u003C=n&&n\u003C=899)?0:1",
+         "forms" : [
+            "is 8, 11, 80-89, 800-899",
+            "everything else"
+         ],
+         "serializations" : {
+            "2:is 8, 11, 80-89, 800-899/everything else" : {
+               "expressions" : {
+                  "n==8||n==11||(80\u003C=n&&n\u003C=89)||(800\u003C=n&&n\u003C=899)?0:1" : 1
+               },
+               "fields" : "0/1"
+            }
+         }
+      },
       "3:ends in 1 not ends in 11/ends in 0 or ends in 11-19/everything else" : {
          "cldr_locales" : {
             "cardinal" : {
@@ -1107,6 +1133,27 @@
                },
                "fields" : "0/1/2",
                "mozilla_rule" : 14
+            }
+         }
+      },
+      "3:is 0, 1/ends in 000000 excluding 0/everything else" : {
+         "cldr_locales" : {
+            "cardinal" : {
+               "fr" : 1
+            }
+         },
+         "expression" : "n==0||n==1?0:n%1000000==0&&n!=0?1:2",
+         "forms" : [
+            "is 0, 1",
+            "ends in 000000 excluding 0",
+            "everything else"
+         ],
+         "serializations" : {
+            "3:is 0, 1/ends in 000000 excluding 0/everything else" : {
+               "expressions" : {
+                  "n==0||n==1?0:n%1000000==0&&n!=0?1:2" : 1
+               },
+               "fields" : "0/1/2"
             }
          }
       },

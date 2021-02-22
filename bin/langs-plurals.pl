@@ -71,7 +71,7 @@ for (
   [[grep { /(?:[12578]|[2578]0)$/ } @Tested] => 'ends in 1, 2, 5, 7, 8 or ends in 20, 50, 70, 80'],
   [[grep { /(?:[34]|00)$/ and not /000$/ } @Tested] => 'ends in 3-4 or ends in 00 not ends in 000'],
   [[0, grep { /(?:6|[469]0)$/ } @Tested] => 'is 0 or ends in 6 or ends in 40, 60, 90'],
-  [[11, 8, 80..89, 800..890] => 'is 8, 11, 80-89, 800-890'],
+  [[11, 8, 80..89, 800..899] => 'is 8, 11, 80-89, 800-899'],
   [[0, 2..9, grep { /(?:0[2-9]|1[0-9]|[2468]0)$/ } @Tested] => 'is 0 or ends in 02-20, 40, 60, 80'],
   [[map { $_ * 100 + 1 } 0..9] => 'ends in 01'],
   [[map { $_ * 100 + 2 } 0..9] => 'ends in 02'],
@@ -221,18 +221,19 @@ sub expr ($$;%) {
   my ($n, $expr_orig, %args) = @_;
   my $data = {};
   my $expr = $expr_orig;
-  $expr =~ s/([nivwft])/\$$1/g;
+  $expr =~ s/([nivwftce])/\$$1/g;
   $data->{forms}->[$n-1] ||= [];
   for my $n (@Tested) {
     ## <https://unicode.org/reports/tr35/tr35-numbers.html#Operands>
-    ## XXX fractions are not supported in fact...
+    ## XXX fractions (ivwftce) are not supported in fact...
+    my $c = my $e = $n =~ /e([0-9]+)$/ ? $1 : 0;
     my $i = int $n;
     my $v = $n =~ /\.([0-9]+)$/ ? length $1 : 0;
     my $w = $n =~ /\.([0-9]*?)0*$/ ? length $1 : 0;
     my $f = $n =~ /\.([0-9]+)$/ ? $1 : 0;
     my $t = $n =~ /\.([0-9]*?)0*$/ ? $1 : 0;
     my $r = eval qq{ use warnings 'FATAL' => 'all'; $expr };
-    die "|$expr|: $@" if $@;
+    die "expr: |$expr|: $@" if $@;
     push @{$data->{forms}->[$r] ||= []}, $n;
   }
 
@@ -255,9 +256,9 @@ sub expr ($$;%) {
   if (@{$data->{forms}} != $replaced_count) {
     warn sprintf "%d - %d\n", 0+ @{$data->{forms}}, $replaced_count;
     for (@{$data->{forms}}) {
-      warn "[$_]\n" unless $replaced->{$_};
+      warn "New form found: [$_]\n" unless $replaced->{$_};
     }
-    die "An unknown form found ($expr_orig)";
+    die "An unknown form found from expression |$expr_orig|";
   }
   my @sorted_key = sort {
     $Data->{forms}->{$a}->{typical} <=>
