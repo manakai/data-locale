@@ -1,6 +1,6 @@
 {
    "_ext_file_date" : "2014-04-02",
-   "_file_date" : "2020-07-17",
+   "_file_date" : "2021-02-16",
    "extension" : {
       "t" : {
          "Comments" : [
@@ -90914,6 +90914,16 @@
             "iana" : 1
          }
       },
+      "ougr" : {
+         "Description" : [
+            "Old Uyghur"
+         ],
+         "_added" : "2021-02-12",
+         "_canon" : "_titlecase",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "palm" : {
          "Description" : [
             "Palmyrene"
@@ -90929,6 +90939,26 @@
             "Pau Cin Hau"
          ],
          "_added" : "2013-12-02",
+         "_canon" : "_titlecase",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "pcun" : {
+         "Description" : [
+            "Proto-Cuneiform"
+         ],
+         "_added" : "2021-02-12",
+         "_canon" : "_titlecase",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "pelm" : {
+         "Description" : [
+            "Proto-Elamite"
+         ],
+         "_added" : "2021-02-12",
          "_canon" : "_titlecase",
          "_registry" : {
             "iana" : 1
@@ -91020,6 +91050,16 @@
             "Inscriptional Parthian"
          ],
          "_added" : "2007-12-05",
+         "_canon" : "_titlecase",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "psin" : {
+         "Description" : [
+            "Proto-Sinaitic"
+         ],
+         "_added" : "2021-02-12",
          "_canon" : "_titlecase",
          "_registry" : {
             "iana" : 1
@@ -91520,6 +91560,16 @@
             "Private use"
          ],
          "_added" : "2005-10-16",
+         "_canon" : "_titlecase",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "ranj" : {
+         "Description" : [
+            "Ranjana"
+         ],
+         "_added" : "2021-02-12",
          "_canon" : "_titlecase",
          "_registry" : {
             "iana" : 1
@@ -95855,6 +95905,15 @@
          "_registry" : {
             "unicode" : 1
          }
+      },
+      "dx" : {
+         "Description" : [
+            "Scripts to exclude from dictionary break"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         },
+         "_value_type" : "SCRIPT_CODE"
       },
       "em" : {
          "Description" : [
@@ -101243,6 +101302,22 @@
             "iana" : 1
          }
       },
+      "arkaika" : {
+         "Comments" : [
+            "Archaic Esperanto variant devised by Manuel Halvelik"
+         ],
+         "Description" : [
+            "Arcaicam Esperantom",
+            "Arkaika Esperanto"
+         ],
+         "Prefix" : [
+            "eo"
+         ],
+         "_added" : "2020-12-17",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "asante" : {
          "Description" : [
             "Asante Twi",
@@ -102467,6 +102542,21 @@
             "rm"
          ],
          "_added" : "2010-06-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "vecdruka" : {
+         "Comments" : [
+            "The subtag represents the old orthography of the Latvian  language used during c. 1600s–1920s."
+         ],
+         "Description" : [
+            "Latvian orthography used before 1920s (\u0022vecā druka\u0022)"
+         ],
+         "Prefix" : [
+            "lv"
+         ],
+         "_added" : "2020-09-26",
          "_registry" : {
             "iana" : 1
          }
