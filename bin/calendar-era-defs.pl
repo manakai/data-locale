@@ -410,7 +410,7 @@ for (
       $Data->{eras}->{$key}->{names}->{$2} = 1;
     } elsif (defined $key and /^(name(?:_ja|_en|_cn|_tw|_ko|_vi|_kana|)|abbr|abbr_latn)\s+(.+)$/) {
       $Data->{eras}->{$key}->{$1} ||= $2;
-      $Data->{eras}->{$key}->{$1} = $2 unless $1 eq 'name';
+      #$Data->{eras}->{$key}->{$1} = $2 unless $1 eq 'name';
       $Data->{eras}->{$key}->{name} ||= $2 unless $1 eq 'name';
       $Data->{eras}->{$key}->{names}->{$2} = 1 unless $1 eq 'name_kana';
       $Data->{eras}->{$key}->{name_kanas}->{$2} = 1 if $1 eq 'name_kana';
