@@ -851,18 +851,6 @@ name 天紀
 sw 天紀 (三千年城新世界創造學會)
 AD2001 = 1
 
-def[エコ暦]
-name 原爆紀元
-name 原爆暦
-name エコ暦
-abbr G
-abbr E
-sw エコ暦
-AD1945 = 1
-source
-  title:エコ暦とは
-  url:http://all-eco.co.jp/column/ekoreki.html
-
 [霊寿]
 name 霊寿
 name_kana れいじゅ
@@ -1081,6 +1069,7 @@ name_en After The War
 # u 52-5-3
 # u 59-1-31
 # u 76
+# 戦前0, 戦前1, ...
 
 def[戦後 (乙酉)]
 # y~1772
@@ -1109,6 +1098,7 @@ AD1945 = 1
 # u 3
 # people 日本人
 # gov 司王国
+#B・A
 
 def[被爆]
 # y~1774
@@ -1128,13 +1118,82 @@ sw 原爆暦
 #
 name_ja 原爆
 name_ja 原爆暦
+name_kana げんばくれき
 name_ja 原爆紀元
+abbr G
+abbr A
 AD1945 = 1
 # people 日本人
 # region 日本国
 # u 43-2-25
 # u 25-8-6
 # u 76-11-22
+#
+# u 1-7
+# u 10
+#
+# u 41-5
+# u 36
+# u 58-2-27
+# u 70-10
+# ->エコ暦
+#
+# u 78-10
+# u 76-1-15
+
+def[原爆紀元]
+# y~1781
+## Source:
+sw 原爆紀元
+#
+name_ja 原爆紀元
+name_ja 原爆暦
+name_en Post Atomic-bomb Calender
+name_en GENBAKU CALENDER
+name_ja GENBAKU
+name_ja 原爆
+name_en the atomic bomb
+name_en Atomic Bomb Calendar
+abbr G
+AD1946 = 1
+# people 日本人
+# region 日本国
+# region 豪州
+# u 46
+# u 47-1-1
+#
+# u 0
+# u 62
+
+def[エコ暦]
+# y~1762
+## Source:
+sw エコ暦
+#
+name_ja エコ暦
+name_kana えこれき
+name_ja eco
+abbr E
+AD1945 = 1
+# <-原爆暦 y~1775
+# u 58-2-27
+# u 58-3-6
+# u 62
+# u 65
+# u 71-8-8
+# u 71-12-8
+
+def[原爆(エコ)暦]
+# y~1783
+## Source:
+sw 原爆(エコ)暦
+#
+name_ja 原爆(エコ)暦
+name_ja eco
+AD1945 = 0
+#u 60
+# u 72-8-8
+# u 72-12-8
 
 def[PH]
 # y~1776
@@ -1167,8 +1226,9 @@ def[ヒロシマ紀元]
 sw ヒロシマ紀元
 #
 name_ja ヒロシマ紀元
+name_ja ヒロシマ・ナガサキ紀元
 name_ja ヒロシマ、ナガサキ
-AD1946 = 1
+AD1945 = 0
 # people 日本人
 # region 日本国
 # 1978? proposed
@@ -1177,6 +1237,27 @@ AD1946 = 1
 # ->核時代
 # u 51
 # u 70-8-26
+
+def[aH]
+# y~1782
+## Source:
+sw aH
+#
+AD1946 = 0
+name_en AH
+name_en A.H.
+name_en aH
+name_en after Hiroshima
+name après Hiroshima
+name d.H.
+name dopo Hiroshima
+name_ja 広島紀元
+name_ja アフターヒロシマ紀元
+name_ja AH暦
+# u 41-8
+# u 75-10-10
+# cal aH
+# ラエリアンムーブメント
 
 [核時代]
 # y~601
@@ -1189,9 +1270,8 @@ name_en Atomic Age
 name_en Nuclear Age
 name_en AN
 name_ja 核年代
-name 核時代後
 wref_ja 核時代
-AD1946 = 1
+AD1945 = 0
 # <-ヒロシマ紀元
 # u 42-12-25
 # u 56-3-14
@@ -1211,3 +1291,24 @@ name_en Nuclear Age
 name_ja 各時代
 AD1945 = 1
 # u 42-5
+
+def[核時代後]
+# y~1780
+## Source:
+sw 核時代後
+#
+name_ja 核時代後
+name_ja 核時代後年号
+name_ja 核時代年号
+name_ja 核紀元
+name_ja 広島・長崎紀元
+name_ja 広島・長崎元号
+name_ja 地球暦
+name_ja 世界暦
+name_en AN
+name_en after N
+name_en after nuclear
+# 核時代前 BN before nuclear
+AD1945 = 0
+# u 47-1-1
+# u 75
