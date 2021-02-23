@@ -5836,6 +5836,10 @@
          "bcp47_canonical" : "tly",
          "mediawiki" : "tly"
       },
+      "tly-cyrl" : {
+         "bcp47_canonical" : "tly-Cyrl",
+         "mediawiki" : "tly-cyrl"
+      },
       "tn" : {
          "bcp47_canonical" : "tn",
          "mediawiki" : "tn",
