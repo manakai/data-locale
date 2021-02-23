@@ -851,17 +851,6 @@ name 天紀
 sw 天紀 (三千年城新世界創造學會)
 AD2001 = 1
 
-[核時代]
-name 核時代
-name 核時代後
-wref_ja 核時代
-sw 核時代
-name ヒロシマ紀元
-name ヒロシマ・ナガサキ紀元
-name アフターヒロシマ紀元
-name_en After Hiroshima
-AD1946 = 1
-
 def[エコ暦]
 name 原爆紀元
 name 原爆暦
@@ -932,19 +921,6 @@ name_ja 明雲
 def[白雲]
 name_ja 白雲
 
-def[新日本]
-name_ja 新日本
-wref_ja 元号
-sw 新日本
-AD1946 = 1
-
-def[戦後]
-sw 戦後 (紀年法)
-AD1946 = 1
-wref_ja 0年
-name_ja 戦後
-name_ja 戦後暦
-
 def[亀光]
 AD1861 = 1
 name_ja 亀光
@@ -979,15 +955,19 @@ name_tw 慶豐
 AD2013 = 1
 
 def[朱雀(戊寅)]
+## Source:
+sw ◆朱雀
+#
 name_ja ◆朱雀
 name_kana すざく
 name 朱雀
 AD1998 = 1
-sw ◆朱雀
 
 [永清]
-name_kana えいしん
+## Source:
 sw 永清
+#
+name_kana えいしん
 # u 1-5
 # <-光緒 y~681
 # <-明治 y~1
@@ -1004,6 +984,9 @@ sw 永清
 # people 漢民族
 
 [大靖]
+## Source:
+sw 太靖
+#
 name 太靖
 name_ja たいせい
 # region 大日本帝国台湾
@@ -1020,6 +1003,9 @@ name_ja たいせい
 # gov 大靖政権
 
 def[大新]
+## Source:
+sw 大新
+#
 name_ja 大新
 sw 大新
 AD1945 = 1
@@ -1029,8 +1015,10 @@ AD1945 = 1
 # u 2-3-24
 
 def[大新 (丙戌)]
-name_ja 大新
+## Source:
 sw 大新
+#
+name_ja 大新
 AD1946 = 1
 # region 中国共産党占領地満州
 # region ソ連領シベリア
@@ -1039,6 +1027,9 @@ AD1946 = 1
 # u 1
 
 def[新日本 (乙酉)]
+## Source:
+sw 新日本
+#
 name_ja 新日本
 AD1945 = 1
 # <-昭和
@@ -1051,13 +1042,172 @@ AD1945 = 1
 # 1954-10-6 尾崎行雄 dead
 # people 日本人
 # region 日本国
-[新日本]
+def[新日本]
+## Source:
+sw 新日本
+#
 # people 日本人
 # region 日本国
 # incorrect -> 新日本 (乙酉)
+name_ja 新日本
+wref_ja 元号
+AD1946 = 1
 
 def[新日本紀元]
+## Source:
+sw 新日本紀元
+#
 name_ja 新日本紀元
 AD1952 = 1
 # u 1952-5-1
 
+def[戦後]
+# y~1759
+## Source:
+sw 戦後 (紀年法)
+#
+AD1946 = 1
+wref_ja 0年
+name_ja 戦後
+name_ja 戦後暦
+name_ja 戦後歴
+name_ja 戦後紀元
+name_en After The War
+# cal Gregorian
+# cal 戦後暦
+# people 日本人
+# region 日本国
+# u 40
+# u 52-5-3
+# u 59-1-31
+# u 76
+
+def[戦後 (乙酉)]
+# y~1772
+## Source:
+sw 戦後 (紀年法)
+#
+AD1945 = 1
+name_ja 戦後
+name_ja 戦後暦
+# people 日本人
+# region 日本
+# u 63-8-6  established
+# u 63-8-11
+# ->戦後 y~1759
+# 2007-8-15 revised
+
+def[原子]
+# y~1773
+## Source:
+sw 原子暦
+#
+name_ja 原子
+name_ja 原子暦
+name A・A
+AD1945 = 1
+# u 3
+# people 日本人
+# gov 司王国
+
+def[被爆]
+# y~1774
+## Source:
+sw 被爆
+#
+name_ja 被爆
+# u 29
+# u 30-12-20
+# people 日本人
+# region 日本国
+
+def[原爆]
+# y~1775
+## Source:
+sw 原爆暦
+#
+name_ja 原爆
+name_ja 原爆暦
+name_ja 原爆紀元
+AD1945 = 1
+# people 日本人
+# region 日本国
+# u 43-2-25
+# u 25-8-6
+# u 76-11-22
+
+def[PH]
+# y~1776
+## Source:
+sw ポストヒロシマ
+#
+name_en PH
+name_en P.H.
+name_en Post HIROSHIMA
+name_ja ポストヒロシマ
+name_ja ポスト・ヒロシマ
+AD1945 = 1
+# 1978-2-1 proposed
+
+def[PH (丙戌)]
+# y~1777
+## Source:
+sw ポストヒロシマ
+#
+name_en PH
+name_en P.H.
+name_ja ポストヒロシマ
+name_ja ポスト・ヒロシマ
+name_ja ポスト広島
+AD1946 = 1
+
+def[ヒロシマ紀元]
+# y~1778
+## Source:
+sw ヒロシマ紀元
+#
+name_ja ヒロシマ紀元
+name_ja ヒロシマ、ナガサキ
+AD1946 = 1
+# people 日本人
+# region 日本国
+# 1978? proposed
+# u 37
+# u 37-6-18
+# ->核時代
+# u 51
+# u 70-8-26
+
+[核時代]
+# y~601
+## Source:
+sw 核時代
+#
+name_ja 核時代
+name_ja かくじだい
+name_en Atomic Age
+name_en Nuclear Age
+name_en AN
+name_ja 核年代
+name 核時代後
+wref_ja 核時代
+AD1946 = 1
+# <-ヒロシマ紀元
+# u 42-12-25
+# u 56-3-14
+# u 75-8
+# people 日本人
+# region 日本国
+
+def[核時代 (乙酉)]
+# y~1779
+## Source:
+sw 核時代
+#
+name_ja 核時代
+name_ja かくじだい
+name_en Atomic Age
+name_en Nuclear Age
+name_ja 各時代
+AD1945 = 1
+# u 42-5
