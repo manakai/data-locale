@@ -756,9 +756,20 @@ AD1 = 10001
 # e.g. 20000 BHE
 
 def[科学紀元]
+# y~1733
+## Source:
+sw 科学紀元
+#
 name 科学紀元
 AD2000 = 0
 sw 科学紀元
+# <-AD 2000-01-01
+# 2000-01-08 (or -09) established
+# u -2
+# u 0
+# u 14-10
+# people 日本人
+# region 日本国
 
 def[宇宙暦]
 name 宇宙暦
@@ -875,33 +886,25 @@ AD1932 = 1
 # 1932-05-05 establishment
 # u 75
 
-## 宣統 2004
-## 復光 2008
-## 昊徳 2010-05-01 <http://jnpva.blog119.fc2.com/blog-entry-414.html>
-## AD 2011-04
-
-def[復光]
-name 復光
-name_kana ふくこう
-AD2008 = 1
-wref_ja 満洲国臨時政府
-
-def[昊徳]
-name 昊徳
-name_kana こうとく
-AD2010 = 1
-wref_ja 満洲国臨時政府
-
 def[悪魔暦]
+# y~1754
+## Source:
+sw 魔暦
+#
 name_ja 魔暦
+name_kana まれき
 name_ja 悪魔暦
+name_kana あくまれき
 name D.C.
+# = Devil’s Calendar
 # 魔暦前
 # 魔暦紀元前
-# B.C.
+# B.D.
+# = Before Demon
 wref_ja 魔暦
-sw 魔暦
 AD1999 = 1
+# u 1
+# u 23
 
 def[明雲]
 name_ja 明雲
@@ -1312,3 +1315,76 @@ name_en after nuclear
 AD1945 = 0
 # u 47-1-1
 # u 75
+
+def[豊国]
+# y~1784
+## Source:
+sw 豊国
+#
+name_ja 豊国
+name_kana ほうこく
+AD1977 = 1
+# 1977-8-1 established
+# u 5-4
+# u 11-8-13
+# people 日本人
+# region 日本国大分県新邪馬台国
+
+[宣統]
+# y~1095
+## Source:
+sw 宣統
+# @清
+#
+# people 満州人
+#
+## Source: <https://wiki.suikawiki.org/n/%E6%BB%BF%E6%B4%B2%E5%9C%8B%E8%87%A8%E6%99%82%E6%94%BF%E5%BA%9C%E3%81%AE%E5%85%83%E5%8F%B7>
+# org 満洲国臨時政府
+# u 97-4-16
+# u 100-3-31
+# ->復光 y~1752 2008-4-10
+
+def[復光]
+# y~1752
+## Source:
+sw 復光
+#
+name_ja 復光
+name_kana ふくこう
+AD2008 = 1
+# org 満洲国臨時政府
+# <-宣統 2008-4-10
+# ->昊徳 2010-05-01
+
+def[昊徳]
+# y~1753
+## Source:
+sw 昊徳
+#
+name_ja 昊徳
+name_kana こうとく
+# org 満洲国臨時政府
+AD2010 = 1
+# <-復光 2010-05-01
+# ->AD 2011-04-12
+
+[康德]
+# y~1158
+## Source:
+sw 康徳
+#
+name_ja 康徳
+name_tw 康徳
+#name_hk 康徳
+# region 満州国
+# people 満州人
+# people 日本人
+# people 朝鮮人
+# people 蒙古人
+# people 漢民族
+#
+## Source: <https://wiki.suikawiki.org/n/%E6%BB%BF%E6%B4%B2%E5%9C%8B%E8%87%A8%E6%99%82%E6%94%BF%E5%BA%9C%E3%81%AE%E5%85%83%E5%8F%B7>
+# org 満洲国臨時政府
+# 2019-03-07 established
+# u 86-3-1
+# u 88-1-1
