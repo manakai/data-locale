@@ -867,11 +867,6 @@ name 霊寿
 name_kana れいじゅ
 wref_ja 璽宇
 
-def[フクシマ紀元]
-name フクシマ紀元
-AD2011 = 1
-sw フクシマ紀元
-
 [命知]
 name_ja 命知
 name_kana めいち
@@ -905,6 +900,22 @@ wref_ja 魔暦
 AD1999 = 1
 # u 1
 # u 23
+
+def[真那暦]
+# y~1785
+## Source:
+sw 真那暦
+#
+name_ja 真那暦
+name_kana まさなれき
+name_ja 真那歴
+AD1991 = 0
+# 2014-10-15 established
+# u 24-1-2
+# u 25
+# u 30-1-1
+# people 日本人
+# region 日本国
 
 def[明雲]
 name_ja 明雲
@@ -944,6 +955,21 @@ name_cn 庆丰
 name_ja 慶豊
 name_tw 慶豐
 AD2013 = 1
+
+def[強小]
+# y~1786
+## Source:
+sw 強小
+#
+name_ja 強小
+name_kana きょうしょう
+name_en KYŌSHŌ
+AD2009 = 1
+# u 1
+# u 11
+# u 12
+# region 日本国鳥取県
+# people 日本人
 
 def[朱雀(戊寅)]
 ## Source:
@@ -1388,3 +1414,75 @@ name_tw 康徳
 # 2019-03-07 established
 # u 86-3-1
 # u 88-1-1
+
+def[震災]
+# y~1788
+## Source:
+sw 震災元年
+#
+name_ja 震災
+name_kana しんさい
+AD2011 = 1
+# people 日本人
+# region 日本国
+#
+# 2012-01-09 established
+# u 1
+# u 10-2-28
+# ->コロナ 2020-03-08
+#
+# u 1-6
+# u 1-4
+
+def[フクシマ]
+# y~1787
+## Source:
+sw フクシマ元年
+#
+name_ja フクシマ
+AD2011 = 0
+# people 日本人
+# region 日本国
+# u 0
+# u 10
+
+def[フクシマ紀元]
+# y~1738
+## Source:
+sw フクシマ紀元
+#
+name_ja フクシマ紀元
+name_kana ふくしまきげん
+name_ja 震災紀元
+name_ja フクシマ紀
+AD2011 = 1
+# people 日本人
+# region 日本国
+# u 1
+# u 2-7-3
+# u 3
+
+def[江戸]
+# y~1789
+## Source:
+sw 江戸 (私年号)
+#
+name_ja 江戸
+# region 日本国
+# people 日本人
+AD1603 = 0
+# u 416-5-14
+# u 418-1-27
+
+def[大元暦]
+# y~1790
+## Source:
+sw 大元暦
+#
+name_ja 大元暦
+#name_kana "だいげん" + "れき"?
+AD1952 = 1
+# u 61
+# people 日本人
+# region 日本国
+# org 大元密教
