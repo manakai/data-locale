@@ -772,11 +772,21 @@ sw 科学紀元
 # region 日本国
 
 def[宇宙暦]
+# y~1730
+## Source:
+sw 宇宙暦
+#
 name 宇宙暦
 name_en Star Date
 abbr S.D.
-sw 宇宙暦
 AD1969 = 1
+# 宇宙暦紀元前
+# region 日本国
+# people 日本人
+# u 1-7-21
+# u 48
+# u 宇宙暦紀元前11-1-6
+# u 53-3-2
 
 def[天孫紀元]
 name 天孫紀元
@@ -867,6 +877,33 @@ name 霊寿
 name_kana れいじゅ
 wref_ja 璽宇
 
+[大延]
+# y~1294
+## Source:
+sw 大延
+#
+name_ja 大延
+# region 日本国
+# people 日本人
+# gov 熊沢寛道
+AD1915 = 1
+# u 35-10-29
+# u 39
+
+def[芦原太陽暦]
+# y~1791
+## Source:
+sw 芦原太陽暦
+#
+name_ja 芦原太陽暦
+name_ja 葦原太陽暦
+name_ja 即位
+AD-23107 = 1
+# region 大日本帝国
+# people 日本人
+# gov 芦原金次郎
+# u 25004
+
 [命知]
 name_ja 命知
 name_kana めいち
@@ -880,6 +917,19 @@ AD1932 = 1
 # org 松下電器産業株式会社
 # 1932-05-05 establishment
 # u 75
+
+def[金蛙]
+# y~1792
+## Source:
+sw 金蛙
+#
+name_ja 金蛙
+AD2003 = 1
+# region 日本国福岡県
+# people 日本人
+# org 全国かえる奉賛会 げこげこ大王7世
+# u 1-7-27
+# u 3-9-20
 
 def[悪魔暦]
 # y~1754
@@ -917,6 +967,18 @@ AD1991 = 0
 # people 日本人
 # region 日本国
 
+def[白王寂滅]
+## Source:
+sw 白王寂滅
+#
+name_ja 白王寂滅
+# u 9-7-17
+# u 9-6-19
+# u 10-1-16
+AD2012 = 1
+# region 日本国
+# people 日本人
+
 def[明雲]
 name_ja 明雲
 
@@ -929,12 +991,46 @@ name_ja 亀光
 sw 亀光
 
 [育喜]
-AD1983 = 1
-source
-  title:私年号(異年号)の世界への誘い
-  url:http://specialcurricularactivities2014.blogspot.jp/2017/11/blog-post.html
+# y~1761
+## Source:
 sw 育喜
+#
+AD1983 = 1
 name_ja 育喜
+# region 日本国
+# people 日本人
+# u 30
+# u 36-1-4
+
+def[急行志摩紀元]
+# y~1797
+## Source:
+sw 急行志摩紀元
+#
+name_ja 急行志摩紀元
+name_ja 志摩紀元
+AD1972 = 1
+#region 日本国
+# people 日本人
+# u 45-1-1
+# u 49-1-1
+
+def[希哲]
+# y~1796
+## Source:
+sw 希哲紀元
+#
+name_ja 希哲
+name_ja 希哲紀元
+name_kana きてつきげん
+name_ja 希紀
+name_en Kitetu Era
+name_en KE
+AD2007 = 1
+# 希哲前
+# 2014 established
+# u 8
+# u 15-1
 
 def[美禄]
 name_ja 美禄
@@ -956,6 +1052,17 @@ name_ja 慶豊
 name_tw 慶豐
 AD2013 = 1
 
+def[阪神タイガース]
+# y~1793
+## Source:
+sw 阪神タイガース
+#
+name_ja 阪神タイガース
+name_ja 阪神優勝
+name_ja 優勝
+name_ja 阪神暦
+AD1985 = 1
+
 def[強小]
 # y~1786
 ## Source:
@@ -972,13 +1079,18 @@ AD2009 = 1
 # people 日本人
 
 def[朱雀(戊寅)]
+# y~1767
 ## Source:
 sw ◆朱雀
 #
 name_ja ◆朱雀
 name_kana すざく
-name 朱雀
+name_ja 朱雀
 AD1998 = 1
+# region 日本国
+# people 日本人
+# u 1
+# u 22
 
 [永清]
 ## Source:
@@ -1429,7 +1541,7 @@ AD2011 = 1
 # 2012-01-09 established
 # u 1
 # u 10-2-28
-# ->コロナ 2020-03-08
+# ->コロナ y~1794 2020-03-08
 #
 # u 1-6
 # u 1-4
@@ -1461,6 +1573,27 @@ AD2011 = 1
 # u 1
 # u 2-7-3
 # u 3
+#
+name_ja 福島
+# u 7-8-4
+# u 9
+# u 11-1-22
+
+def[コロナ]
+# y~1794
+## Source:
+sw コロナ元年
+#
+name_ja コロナ
+name_ja アフターコロナ
+AD2020 = 1
+# <-震災 y~1788 2020-03-08
+# u 1-3-8
+# u 1-5-25
+# u 1-7-20
+# u 2-1-11
+# region 日本国
+# people 日本人
 
 def[江戸]
 # y~1789

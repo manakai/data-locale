@@ -417,7 +417,7 @@ for (
     } elsif (defined $key and /^(unicode)\s+(.+)$/) {
       $Data->{eras}->{$key}->{$1} = $2;
       $Data->{eras}->{$key}->{names}->{$2} = 1;
-    } elsif (defined $key and /^(AD|BC)(\d+)\s*=\s*(\d+)$/) {
+    } elsif (defined $key and /^(AD|BC)(-?\d+)\s*=\s*(\d+)$/) {
       my $g_year = $1 eq 'BC' ? 0 - $2 : $2;
       my $e_year = $3;
       $Data->{eras}->{$key}->{offset} = $g_year - $e_year;
