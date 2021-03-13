@@ -1,0 +1,273 @@
+country
+  key 日本国
+  label_ja 日本国 (現代)
+  label_en Japan (Modern)
+  name_ja 日本国
+  name_ja 日本國
+  name_ja 日本
+  name_en Japan
+  ## S22(1947).11.3 - now
+
+  period of 日本
+
+country
+  key 大日本帝国
+  label_ja 大日本帝国 (明治-昭和初期)
+  name_ja 大日本帝國
+  name_ja 大日本帝国
+  name_ja 日本国
+  name_ja 日本
+  ## 慶応3.12.9 - S22.11.2
+
+  period of 日本
+  region of 大東亜共栄圏
+
+country
+  name_ja 日本
+  name_ja 日本国
+  name_en Japan
+
+region
+  label_ja 日本国鳥取県
+  name_ja 鳥取県
+  name 鳥取
+  region of 日本国
+
+region
+  label_ja 日本国福岡県
+  name_ja 福岡県
+  name 福岡
+  region of 日本国
+
+region
+  label_ja 日本国大分県
+  name_ja 大分県
+  name_ja 大分
+  region of 日本国
+
+region
+  name_ja 司王国
+  region of 日本国
+
+region
+  name_ja 新邪馬台国
+  region of 日本国大分県
+
+country
+  name_ja 中華民国
+  name_ja 中華民國
+  name_en Republic of China
+
+  period of 中国
+
+country
+  name_ja 中華民国台湾
+  name_ja 台湾
+
+  period of 中華民国
+  period of 台湾
+
+country
+  name_ja 中華人民共和国
+
+  period of 中国
+
+country
+  name_ja 中国
+
+region
+  name_ja 漢土
+  name_ja 支那
+  name_ja 支那本部
+  name_en China
+
+  region of 中華民国
+  region of 中華人民共和国
+
+region
+  key 大日本帝国台湾
+  name_ja 大日本帝國臺灣
+  name_ja 大日本帝国台湾
+  region of 大日本帝国
+  period of 台湾
+
+org
+  name_ja 台湾民主国
+  region of 大日本帝国台湾
+
+org
+  name_ja 大靖政権
+  region of 大日本帝国台湾
+
+region
+  name_ja 台湾
+
+country
+  name_ja 満州国
+
+  period of 満州
+  period of 中華民国
+  region of 大東亜共栄圏
+
+region
+  name_ja 中国共産党占領地満州
+  period of 中華民国
+  period of 満州
+
+region
+  name_ja 満州
+
+region
+  name_ja ソ連領シベリア
+  region of ソビエト社会主義共和国連邦
+
+country
+  name_ja ソビエト社会主義共和国連邦
+  name_ja ソビエト連邦
+  name_ja ソ連
+
+country
+  name_ja 大韓民国
+  name_ja 韓国
+
+  period of 朝鮮
+
+country
+  name_ja 朝鮮民主主義人民共和国
+  name_ja 北朝鮮
+
+  period of 朝鮮
+
+region
+  name_ja 朝鮮
+
+region
+  name_ja 大東亜共栄圏
+
+country
+  name_ja 豪州
+  name_ja オーストラリア
+
+country
+  key 米国
+  name_ja アメリカ合衆国
+  name_ja 米国
+  name_ja アメリカ
+
+country
+  name_ja ブラジル
+
+people
+  name_ja 日本人
+  name_en Japanese
+
+people
+  name_ja 漢民族
+
+people
+  name_ja 満州人
+
+people
+  name_ja 大韓民国国民
+  name_ja 韓国人
+
+  group of 朝鮮人
+
+people
+  name_ja 朝鮮民主主義人民共和国国民
+  name_ja 北朝鮮人
+
+  group of 朝鮮人
+
+people
+  name_ja 朝鮮人
+
+people
+  name_ja 蒙古人
+
+people
+  name_ja チベット人
+
+people
+  name_ja ウイグル人
+
+people
+  name_ja ベトナム人
+
+people
+  name_ja 日系ブラジル人
+  group of ブラジル人
+
+people
+  name_ja ブラジル人
+
+religion
+  name_ja 仏教
+
+religion
+  name_ja 神道
+
+religion
+  name_ja キリスト教
+
+religion
+  name_ja 大元密教
+  group of 仏教
+
+religion
+  name_ja 天照皇大神宮教
+  group of 神道
+
+religion
+  name_ja 神示教会
+  group of 神道
+
+religion
+  name_ja 璽宇
+  group of 神道
+
+religion
+  name_ja 松緑神道大和山
+  group of 神道
+
+religion
+  name_ja 霊波之光
+
+religion
+  name_ja 統一教会
+
+religion
+  name_ja 天祖光教
+
+religion
+  name_ja 平等大慧会
+  group of 仏教
+
+religion
+  name_ja ラエリアンムーブメント
+
+religion
+  name_ja オウム真理教
+
+religion
+  name_ja 共産主義
+
+org
+  name_ja 松下電器産業株式会社
+
+org
+  name_ja 満洲国臨時政府
+
+org
+  name_ja 全国かえる奉賛会
+
+person
+  name_ja げこげこ大王7世
+
+person
+  name_ja 熊沢寛道
+  group of 神道
+
+person
+  name_ja 芦原金次郎
+
