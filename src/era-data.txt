@@ -262,7 +262,7 @@ sw 自由自治
 # u 137-5-10
 # gov 困民党
 # region 大日本帝国埼玉県秩父郡
-# people 日本人
+tag 日本人
 [征露]
 wref_ja 征露
 
@@ -768,8 +768,8 @@ sw 科学紀元
 # u -2
 # u 0
 # u 14-10
-# people 日本人
-# region 日本国
+tag 日本人
+tag 日本国
 
 def[宇宙暦]
 # y~1730
@@ -781,8 +781,8 @@ name_en Star Date
 abbr S.D.
 AD1969 = 1
 # 宇宙暦紀元前
-# region 日本国
-# people 日本人
+tag 日本国
+tag 日本人
 # u 1-7-21
 # u 48
 # u 宇宙暦紀元前11-1-6
@@ -806,8 +806,9 @@ name_ja 天祖降跡紀元
 name_ja 天降皇紀
 wref_ja 天孫紀元
 AD2016 = 1795149
-# people 日本人
-# region 日本国
+tag 日本人
+tag 日本国
+tag 神道
 # u 1795096-7-10
 # u 1795153
 
@@ -823,8 +824,9 @@ name_ja 天孫降臨以來
 name_ja 中興紀元
 name_ja 神仙紀元
 AD2009 = 5009
-# region 日本国
-# people 日本人
+tag 日本国
+tag 日本人
+tag 神道
 # u 5009
 # u 5020
 
@@ -847,9 +849,9 @@ name_ja 霊波暦
 name_kana れいは
 abbr R
 AD1915 = 1
-# region 日本国
-# people 日本人
-# org 霊波之光
+tag 日本国
+tag 日本人
+tag 霊波之光
 # u 86
 # u 43
 # u 106-5-8
@@ -862,9 +864,9 @@ sw 聖日
 name_ja 聖日
 name_kana せいび
 AD1987 = 1
-# people 日本人
-# region 日本国
-# org 神示教会
+tag 日本人
+tag 日本国
+tag 神示教会
 # u 28-7
 # u 34
 
@@ -879,9 +881,9 @@ name_ja 神の国の紀元
 name_ja 神の国年
 name_ja 神の国開元の年
 AD1946 = 1
-# people 日本人
-# region 日本国
-# org 天照皇大神宮教
+tag 日本人
+tag 日本国
+tag 天照皇大神宮教
 # u 1
 # u 5-4
 # u 9-12
@@ -894,9 +896,9 @@ sw 救済
 #
 name_ja 救済
 AD1991 = 1
-# region 日本国
-# people 日本人
-# org オウム真理教
+tag 日本国
+tag 日本人
+tag オウム真理教
 # u 1
 # u 4
 
@@ -909,9 +911,9 @@ name_ja 真理
 name_ja 真理暦
 name_ja 真理歴
 AD1997 = 1
-# region 日本国
-# people 日本人
-# org オウム真理教
+tag 日本国
+tag 日本人
+tag オウム真理教
 # u 1
 
 def[天紀(庚子)]
@@ -922,11 +924,11 @@ sw 統一教会暦
 name_ja 天紀
 name_ko 천기
 AD1960 = 1
-# people 日本人
-# people 大韓民国人
-# region 日本国
-# region 大韓民国
-# org 統一教会
+tag 日本人
+tag 大韓民国国民
+tag 日本国
+tag 大韓民国
+tag 統一教会
 
 def[天紀(丁巳)]
 # y~1742
@@ -936,11 +938,11 @@ sw 統一教会暦
 name_ja 天紀
 name_ko 천기
 AD1977 = 1
-# people 日本人
-# people 大韓民国人
-# region 日本国
-# region 大韓民国
-# org 統一教会
+tag 日本人
+tag 大韓民国国民
+tag 日本国
+tag 大韓民国
+tag 統一教会
 # <- y~1743 1977-02-23
 
 def[成約]
@@ -951,11 +953,11 @@ sw 統一教会暦
 name_ja 成約
 name_ko 성약
 AD1993 = 1
-# people 日本人
-# people 大韓民国人
-# region 日本国
-# region 大韓民国
-# org 統一教会
+tag 日本人
+tag 大韓民国国民
+tag 日本国
+tag 大韓民国
+tag 統一教会
 # <- y~1742 1993
 # u 9
 
@@ -967,11 +969,11 @@ sw 統一教会暦
 name_ja 天一国
 name_ko 천일국
 AD2001 = 1
-# people 日本人
-# people 大韓民国人
-# region 日本国
-# region 大韓民国
-# org 統一教会
+tag 日本人
+tag 大韓民国国民
+tag 日本国
+tag 大韓民国
+tag 統一教会
 # <- y~1745 2001-01-13
 # u 10
 
@@ -983,11 +985,11 @@ sw 統一教会暦
 name_ja 天基
 name_ko 천기
 AD2010 = 1
-# people 日本人
-# people 大韓民国人
-# region 日本国
-# region 大韓民国
-# org 統一教会
+tag 日本人
+tag 大韓民国国民
+tag 日本国
+tag 大韓民国
+tag 統一教会
 # <- y~1739 2010-02-14
 # 2010-02-14 announced
 # 2010-02-26 proclaimed
@@ -1000,11 +1002,11 @@ sw 統一教会暦
 name_ja 天一国
 name_ko 천일국
 AD2013 = 1
-# people 日本人
-# people 大韓民国人
-# region 日本国
-# region 大韓民国
-# org 統一教会
+tag 日本人
+tag 大韓民国国民
+tag 日本国
+tag 大韓民国
+tag 統一教会
 # <- y~1741 2013 天一国元年天暦1月13日
 # u 8
 
@@ -1023,9 +1025,9 @@ name_ja 霊寿
 name_kana れいじゅ
 name_ja 靈壽
 wref_ja 璽宇
-# region 日本国
-# people 日本人
-# org 璽宇
+tag 日本国
+tag 日本人
+tag 璽宇
 AD1946 = 1
 # <-昭和 1946-5-1
 # u 14-2-12
@@ -1036,9 +1038,9 @@ AD1946 = 1
 sw 大延
 #
 name_ja 大延
-# region 日本国
-# people 日本人
-# gov 熊沢寛道
+tag 日本国
+tag 日本人
+tag 熊沢寛道
 AD1915 = 1
 # u 35-10-29
 # u 39
@@ -1052,9 +1054,9 @@ name_ja 芦原太陽暦
 name_ja 葦原太陽暦
 name_ja 即位
 AD-23107 = 1
-# region 大日本帝国
-# people 日本人
-# gov 芦原金次郎
+tag 大日本帝国
+tag 日本人
+tag 芦原金次郎
 # u 25004
 
 def[立教]
@@ -1071,11 +1073,11 @@ name_en Tenrikyo
 #name_po R.D.
 #name_po RD
 AD1838 = 1
-# region 日本国
-# region 米国
-# region ブラジル
-# people 日本人
-# people 日系ブラジル人
+tag 日本国
+tag 米国
+tag ブラジル
+tag 日本人
+tag 日系ブラジル人
 # u 1
 # u 5
 # u 88-11-5
@@ -1090,8 +1092,8 @@ sw 立教 (大和山)
 name_ja 立教
 AD2018 = 100
 # region 日本国
-# people 日本人
-# org 松緑神道大和山
+tag 日本人
+tag 松緑神道大和山
 # u 97
 # u 103
 
@@ -1104,9 +1106,9 @@ name_ja 天暦
 AD2018 = 54
 # u 34-10-10
 # u 54
-# region 日本国
-# people 日本人
-# org 天祖光教
+tag 日本国
+tag 日本人
+tag 天祖光教
 
 def[弥勒(庚子)]
 # y~1801
@@ -1116,9 +1118,9 @@ sw 弥勒 (平等大慧会)
 name_ja 弥勒
 AD1960 = 1
 # u 40
-# people 日本人
-# region 日本国
-# org 平等大慧会
+tag 日本人
+tag 日本国
+tag 平等大慧会
 
 def[弥勒(癸巳)]
 # y~1805
@@ -1127,8 +1129,8 @@ sw 弥勒 (空の真法)
 #
 name_ja 弥勒
 AD2013 = 1
-# people 日本人
-# region 日本国
+tag 日本人
+tag 日本国
 # u 1-1-1
 # u 2-3
 
@@ -1145,7 +1147,9 @@ name_cn 命知
 name 創業命知
 AD1932 = 1
 # preferred style g第y年
-# org 松下電器産業株式会社
+tag 松下電器産業株式会社
+tag 日本国
+tag 日本人
 # 1932-05-05 establishment
 # u 75
 
@@ -1156,9 +1160,10 @@ sw 金蛙
 #
 name_ja 金蛙
 AD2003 = 1
-# region 日本国福岡県
-# people 日本人
-# org 全国かえる奉賛会 げこげこ大王7世
+tag 日本国福岡県
+tag 日本人
+tag 全国かえる奉賛会
+tag げこげこ大王7世
 # u 1-7-27
 # u 3-9-20
 
@@ -1181,6 +1186,8 @@ wref_ja 魔暦
 AD1999 = 1
 # u 1
 # u 23
+tag 日本国
+tag 日本人
 
 def[真那暦]
 # y~1785
@@ -1195,8 +1202,8 @@ AD1991 = 0
 # u 24-1-2
 # u 25
 # u 30-1-1
-# people 日本人
-# region 日本国
+tag 日本人
+tag 日本国
 
 def[白王寂滅]
 ## Source:
@@ -1207,8 +1214,8 @@ name_ja 白王寂滅
 # u 9-6-19
 # u 10-1-16
 AD2012 = 1
-# region 日本国
-# people 日本人
+tag 日本国
+tag 日本人
 
 def[明雲]
 name_ja 明雲
@@ -1228,8 +1235,8 @@ sw 育喜
 #
 AD1983 = 1
 name_ja 育喜
-# region 日本国
-# people 日本人
+tag 日本国
+tag 日本人
 # u 30
 # u 36-1-4
 
@@ -1241,8 +1248,8 @@ sw 急行志摩紀元
 name_ja 急行志摩紀元
 name_ja 志摩紀元
 AD1972 = 1
-#region 日本国
-# people 日本人
+tag 日本国
+tag 日本人
 # u 45-1-1
 # u 49-1-1
 
@@ -1306,8 +1313,8 @@ AD2009 = 1
 # u 1
 # u 11
 # u 12
-# region 日本国鳥取県
-# people 日本人
+tag 日本国鳥取県
+tag 日本人
 
 def[朱雀(戊寅)]
 # y~1767
@@ -1318,8 +1325,8 @@ name_ja ◆朱雀
 name_kana すざく
 name_ja 朱雀
 AD1998 = 1
-# region 日本国
-# people 日本人
+tag 日本国
+tag 日本人
 # u 1
 # u 22
 
@@ -1339,9 +1346,9 @@ name_kana えいしん
 # 1895-06-17           JP government's celemony of establishment
 # 1895-10-19           president went back to 清
 # cal 清國暦
-# gov 台湾民主国
-# region 大日本帝国台湾
-# people 漢民族
+tag 台湾民主国
+tag 大日本帝国台湾
+tag 漢民族
 
 [大靖]
 ## Source:
@@ -1349,8 +1356,8 @@ sw 太靖
 #
 name 太靖
 name_ja たいせい
-# region 大日本帝国台湾
-# people 漢民族
+tag 大日本帝国台湾
+tag 漢民族
 # <-明治
 # 1897
 # 1897-01
@@ -1360,7 +1367,7 @@ name_ja たいせい
 # ->明治
 # 1898-11-25 支配地域消滅
 # 1899-03    government discontinued
-# gov 大靖政権
+tag 大靖政権
 
 def[大新]
 ## Source:
@@ -1369,8 +1376,8 @@ sw 大新
 name_ja 大新
 sw 大新
 AD1945 = 1
-# region 中国共産党占領地満州
-# people 日本人
+tag 中国共産党占領地満州
+tag 日本人
 # <-昭和
 # u 2-3-24
 
@@ -1380,9 +1387,9 @@ sw 大新
 #
 name_ja 大新
 AD1946 = 1
-# region 中国共産党占領地満州
-# region ソ連領シベリア
-# people 日本人
+tag 中国共産党占領地満州
+tag ソ連領シベリア
+tag 日本人
 # <-昭和
 # u 1
 
@@ -1400,14 +1407,14 @@ AD1945 = 1
 # u 5-1-1
 # u 9-2
 # 1954-10-6 尾崎行雄 dead
-# people 日本人
-# region 日本国
+tag 日本人
+tag 日本国
 def[新日本]
 ## Source:
 sw 新日本
 #
-# people 日本人
-# region 日本国
+tag 日本人
+tag 日本国
 # incorrect -> 新日本(乙酉)
 name_ja 新日本
 wref_ja 元号
@@ -1420,6 +1427,8 @@ sw 新日本紀元
 name_ja 新日本紀元
 AD1952 = 1
 # u 1952-5-1
+tag 日本国
+tag 日本人
 
 def[戦後]
 # y~1759
@@ -1435,8 +1444,8 @@ name_ja 戦後紀元
 name_en After The War
 # cal Gregorian
 # cal 戦後暦
-# people 日本人
-# region 日本国
+tag 日本人
+tag 日本国
 # u 40
 # u 52-5-3
 # u 59-1-31
@@ -1451,8 +1460,8 @@ sw 戦後 (紀年法)
 AD1945 = 1
 name_ja 戦後
 name_ja 戦後暦
-# people 日本人
-# region 日本
+tag 日本人
+tag 日本国
 # u 63-8-6  established
 # u 63-8-11
 # ->戦後 y~1759
@@ -1463,8 +1472,8 @@ def[非戦]
 sw 非戦
 #
 name_ja 非戦
-# people 日本人
-# region 日本国
+tag 日本人
+tag 日本国
 AD2002 = 1
 # u 1-6-1
 # u 8
@@ -1475,8 +1484,9 @@ def[労農]
 sw 労農 (元号)
 #
 name_ja 労農
-# region 日本国
-# people 日本人
+tag 日本国
+tag 日本人
+tag 共産主義
 # u 10-8-10
 AD1926 = 10
 
@@ -1490,8 +1500,8 @@ name_ja 原子暦
 name A・A
 AD1945 = 1
 # u 3
-# people 日本人
-# gov 司王国
+tag 日本人
+tag 司王国
 #B・A
 
 def[被爆]
@@ -1502,8 +1512,8 @@ sw 被爆
 name_ja 被爆
 # u 29
 # u 30-12-20
-# people 日本人
-# region 日本国
+tag 日本人
+tag 日本国
 
 def[原爆]
 # y~1775
@@ -1517,8 +1527,8 @@ name_ja 原爆紀元
 abbr G
 abbr A
 AD1945 = 1
-# people 日本人
-# region 日本国
+tag 日本人
+tag 日本国
 # u 43-2-25
 # u 25-8-6
 # u 76-11-22
@@ -1550,9 +1560,9 @@ name_en the atomic bomb
 name_en Atomic Bomb Calendar
 abbr G
 AD1946 = 1
-# people 日本人
-# region 日本国
-# region 豪州
+tag 日本人
+tag 日本国
+tag 豪州
 # u 46
 # u 47-1-1
 #
@@ -1576,6 +1586,8 @@ AD1945 = 1
 # u 65
 # u 71-8-8
 # u 71-12-8
+tag 日本人
+tag 日本国
 
 def[原爆(エコ)暦]
 # y~1783
@@ -1588,6 +1600,8 @@ AD1945 = 0
 #u 60
 # u 72-8-8
 # u 72-12-8
+tag 日本人
+tag 日本国
 
 def[PH]
 # y~1776
@@ -1623,8 +1637,8 @@ name_ja ヒロシマ紀元
 name_ja ヒロシマ・ナガサキ紀元
 name_ja ヒロシマ、ナガサキ
 AD1945 = 0
-# people 日本人
-# region 日本国
+tag 日本人
+tag 日本国
 # 1978? proposed
 # u 37
 # u 37-6-18
@@ -1651,7 +1665,7 @@ name_ja AH暦
 # u 41-8
 # u 75-10-10
 # cal aH
-# ラエリアンムーブメント
+tag ラエリアンムーブメント
 
 [核時代]
 # y~601
@@ -1670,8 +1684,8 @@ AD1945 = 0
 # u 42-12-25
 # u 56-3-14
 # u 75-8
-# people 日本人
-# region 日本国
+tag 日本人
+tag 日本国
 
 def[核時代(乙酉)]
 # y~1779
@@ -1718,8 +1732,8 @@ AD1977 = 1
 # 1977-8-1 established
 # u 5-4
 # u 11-8-13
-# people 日本人
-# region 日本国大分県新邪馬台国
+tag 日本人
+tag 新邪馬台国
 
 [宣統]
 # y~1095
@@ -1727,10 +1741,10 @@ AD1977 = 1
 sw 宣統
 # @清
 #
-# people 満州人
+tag 満州人
 #
 ## Source: <https://wiki.suikawiki.org/n/%E6%BB%BF%E6%B4%B2%E5%9C%8B%E8%87%A8%E6%99%82%E6%94%BF%E5%BA%9C%E3%81%AE%E5%85%83%E5%8F%B7>
-# org 満洲国臨時政府
+tag 満洲国臨時政府
 # u 97-4-16
 # u 100-3-31
 # ->復光 y~1752 2008-4-10
@@ -1743,7 +1757,7 @@ sw 復光
 name_ja 復光
 name_kana ふくこう
 AD2008 = 1
-# org 満洲国臨時政府
+tag 満洲国臨時政府
 # <-宣統 2008-4-10
 # ->昊徳 2010-05-01
 
@@ -1754,7 +1768,7 @@ sw 昊徳
 #
 name_ja 昊徳
 name_kana こうとく
-# org 満洲国臨時政府
+tag 満洲国臨時政府
 AD2010 = 1
 # <-復光 2010-05-01
 # ->AD 2011-04-12
@@ -1767,15 +1781,15 @@ sw 康徳
 name_ja 康徳
 name_tw 康徳
 #name_hk 康徳
-# region 満州国
-# people 満州人
-# people 日本人
-# people 朝鮮人
-# people 蒙古人
-# people 漢民族
+tag 満州国
+tag 満州人
+tag 日本人
+tag 朝鮮人
+tag 蒙古人
+tag 漢民族
 #
 ## Source: <https://wiki.suikawiki.org/n/%E6%BB%BF%E6%B4%B2%E5%9C%8B%E8%87%A8%E6%99%82%E6%94%BF%E5%BA%9C%E3%81%AE%E5%85%83%E5%8F%B7>
-# org 満洲国臨時政府
+tag 満洲国臨時政府
 # 2019-03-07 established
 # u 86-3-1
 # u 88-1-1
@@ -1788,8 +1802,8 @@ sw 震災元年
 name_ja 震災
 name_kana しんさい
 AD2011 = 1
-# people 日本人
-# region 日本国
+tag 日本人
+tag 日本国
 #
 # 2012-01-09 established
 # u 1
@@ -1806,8 +1820,8 @@ sw フクシマ元年
 #
 name_ja フクシマ
 AD2011 = 0
-# people 日本人
-# region 日本国
+tag 日本人
+tag 日本国
 # u 0
 # u 10
 
@@ -1821,8 +1835,8 @@ name_kana ふくしまきげん
 name_ja 震災紀元
 name_ja フクシマ紀
 AD2011 = 1
-# people 日本人
-# region 日本国
+tag 日本人
+tag 日本国
 # u 1
 # u 2-7-3
 # u 3
@@ -1845,8 +1859,8 @@ AD2020 = 1
 # u 1-5-25
 # u 1-7-20
 # u 2-1-11
-# region 日本国
-# people 日本人
+tag 日本国
+tag 日本人
 
 def[江戸]
 # y~1789
@@ -1854,8 +1868,8 @@ def[江戸]
 sw 江戸 (私年号)
 #
 name_ja 江戸
-# region 日本国
-# people 日本人
+tag 日本国
+tag 日本人
 AD1603 = 0
 # u 416-5-14
 # u 418-1-27
@@ -1869,6 +1883,6 @@ name_ja 大元暦
 #name_kana "だいげん" + "れき"?
 AD1952 = 1
 # u 61
-# people 日本人
-# region 日本国
-# org 大元密教
+tag 日本人
+tag 日本国
+tag 大元密教

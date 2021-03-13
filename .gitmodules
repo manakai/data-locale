@@ -26,3 +26,6 @@
 	path = bin/modules/web-url
 	url = https://github.com/manakai/perl-web-url
 	track = master
+[submodule "bin/modules/generation"]
+	path = bin/modules/generation
+	url = https://github.com/geocol/generation

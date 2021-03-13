@@ -52,6 +52,7 @@ data: data-deps data-main
 data-deps: deps
 
 data-main: \
+    data/tags.json \
     data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json \
     data/calendar/kyuureki-genten.json \
     data/calendar/kyuureki-shoki-genten.json \
@@ -76,6 +77,9 @@ data-main: \
     all-langtags
 clean-data: clean-langtags
 	rm -fr local/cldr-core* local/*.json
+
+data/tags.json: bin/tags.pl src/tags.txt
+	$(PERL) $< > $@
 
 data/calendar/jp-holidays.json: bin/calendar-jp-holidays.pl \
     local/calendar-new-jp-holidays.json \
@@ -189,7 +193,8 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     local/cldr-core-json/ja.json \
     local/era-yomi-list.json \
     local/era-date-list.json \
-    local/cn-ryuukyuu-era-list.json
+    local/cn-ryuukyuu-era-list.json \
+    data/tags.json
 	$(PERL) $< > $@
 #intermediate/era-ids.json: data/calendar/era-defs.json
 data/calendar/era-codes.html: bin/calendar-era-codes.pl \

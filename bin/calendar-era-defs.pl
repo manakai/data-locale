@@ -9,6 +9,16 @@ my $root_path = path (__FILE__)->parent->parent;
 
 my $Data = {};
 
+my $Tags;
+my $TagByKey = {};
+{
+  my $path = $root_path->child ('data/tags.json');
+  $Tags = (json_bytes2perl $path->slurp)->{tags};
+  for my $item (values %$Tags) {
+    $TagByKey->{$item->{key}} = $item;
+  }
+}
+
 for my $file_name (qw(
   era-defs-jp.json era-defs-jp-emperor.json
 )) {
@@ -437,6 +447,23 @@ for (
       $Data->{eras}->{$key}->{'code' . $1} = hex $2;
     } elsif (defined $key and /^en\s+desc\s+(\S+(?: \S+)*)\s*$/) {
       $Data->{eras}->{$key}->{en_desc} = $1;
+    } elsif (defined $key and /^tag\s+(\S.*\S)\s*$/) {
+      my $tkey = $1;
+      my $item = $TagByKey->{$tkey};
+      die "Tag |$tkey| not defined" unless defined $item;
+      $Data->{eras}->{$key}->{tag_ids}->{$item->{id}} = $item->{key};
+      for (qw(region_of group_of period_of)) {
+        for (keys %{$item->{$_} or {}}) {
+          my $item2 = $Tags->{$_};
+          $Data->{eras}->{$key}->{tag_ids}->{$item2->{id}} = $item2->{key};
+          if ($item2->{type} eq 'country') {
+            for (keys %{$item2->{period_of} or {}}) {
+              my $item3 = $Tags->{$_};
+              $Data->{eras}->{$key}->{tag_ids}->{$item3->{id}} = $item3->{key};
+            }
+          }
+        }
+      }
     } elsif (/\S/) {
       die "Bad line |$_|";
     }
