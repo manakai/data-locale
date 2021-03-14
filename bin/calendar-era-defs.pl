@@ -490,6 +490,19 @@ for (
 }
 
 {
+  for my $era (values %{$Data->{eras}}) {
+    if (not defined $era->{known_oldest_year} and
+        defined $era->{offset}) {
+      $era->{known_oldest_year} = $era->{offset} + 1;
+    }
+    if (defined $era->{known_oldest_year} and
+        not defined $era->{known_latest_year}) {
+      $era->{known_latest_year} = $era->{known_oldest_year};
+    }
+  }
+}
+
+{
   my $path = $root_path->child ('src/era-codes-14.txt');
   my $i = 1;
   for (grep { length } split /\x0D?\x0A/, $path->slurp_utf8) {
