@@ -736,6 +736,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Manju_(era)",
          "wref_ja" : "万寿"
       },
@@ -858,6 +861,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Man'en",
          "wref_ja" : "万延"
       },
@@ -981,6 +987,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Manji_(era)",
          "wref_ja" : "万治"
       },
@@ -1407,6 +1416,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kyūan",
          "wref_ja" : "久安"
       },
@@ -1570,6 +1582,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kyūju",
          "wref_ja" : "久寿"
       },
@@ -1746,6 +1761,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kengen",
          "wref_ja" : "乾元_(日本)"
       },
@@ -2308,6 +2326,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kyōhō",
          "wref_ja" : "享保"
       },
@@ -2434,6 +2455,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kyōwa",
          "wref_ja" : "享和"
       },
@@ -2573,6 +2597,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kyōtoku",
          "wref_ja" : "享徳"
       },
@@ -2712,6 +2739,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kyōroku",
          "wref_ja" : "享禄"
       },
@@ -2972,6 +3002,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ninna",
          "wref_ja" : "仁和"
       },
@@ -3133,6 +3166,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Nin'an",
          "wref_ja" : "仁安_(日本)"
       },
@@ -3288,6 +3324,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ninju",
          "wref_ja" : "仁寿"
       },
@@ -3461,6 +3500,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ninpei",
          "wref_ja" : "仁平"
       },
@@ -3724,6 +3766,9 @@
                "type" : "received"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ninji",
          "wref_ja" : "仁治"
       },
@@ -3950,6 +3995,11 @@
             }
          ],
          "suikawiki" : "令和",
+         "tag_ids" : {
+            "1001" : "日本国",
+            "1003" : "日本",
+            "1068" : "元号法"
+         },
          "unicode" : "㋿",
          "wref_en" : "Reiwa_period",
          "wref_ja" : "令和"
@@ -4179,6 +4229,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Hōgen_(era)",
          "wref_ja" : "保元"
       },
@@ -4363,6 +4416,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Hōan",
          "wref_ja" : "保安_(元号)"
       },
@@ -4542,6 +4598,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Hōen",
          "wref_ja" : "保延"
       },
@@ -4896,6 +4955,10 @@
                "type" : "established/possible"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1066" : "日本南朝"
+         },
          "wref_en" : "Genchū",
          "wref_ja" : "元中"
       },
@@ -5031,6 +5094,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Genkyū",
          "wref_ja" : "元久"
       },
@@ -5158,6 +5224,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Genki_(era)",
          "wref_ja" : "元亀"
       },
@@ -5298,6 +5367,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Genkō_(first)",
          "wref_ja" : "元亨"
       },
@@ -5489,6 +5561,9 @@
                "type" : "received"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Gennin",
          "wref_ja" : "元仁"
       },
@@ -5698,6 +5773,9 @@
                "type" : "received"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Genna",
          "wref_ja" : "元和_(日本)"
       },
@@ -6116,6 +6194,11 @@
                "type" : "wartime"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝",
+            "1066" : "日本南朝"
+         },
          "wref_en" : "Genkō_(second)",
          "wref_ja" : "元弘"
       },
@@ -6353,6 +6436,11 @@
                "type" : "wartime"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝",
+            "1066" : "日本南朝"
+         },
          "wref_en" : "Gentoku",
          "wref_ja" : "元徳"
       },
@@ -6535,6 +6623,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Gen'ō",
          "wref_ja" : "元応"
       },
@@ -6715,6 +6806,9 @@
                "type" : "established/incorrect"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Gangyō",
          "wref_ja" : "元慶"
       },
@@ -6855,6 +6949,9 @@
                "type" : "decreed"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Genbun",
          "wref_ja" : "元文"
       },
@@ -7010,6 +7107,9 @@
                "type" : "wartime"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Genryaku",
          "wref_ja" : "元暦"
       },
@@ -7165,6 +7265,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Gen'ei",
          "wref_ja" : "元永"
       },
@@ -7295,6 +7398,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Genji_(era)",
          "wref_ja" : "元治"
       },
@@ -7507,6 +7613,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Genroku",
          "wref_ja" : "元禄"
       },
@@ -8987,6 +9096,9 @@
                "type" : "established/incorrect"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Wadō_(era)",
          "wref_ja" : "和銅"
       },
@@ -9520,6 +9632,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kahō",
          "wref_ja" : "嘉保"
       },
@@ -9655,6 +9770,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kagen",
          "wref_ja" : "嘉元"
       },
@@ -9795,6 +9913,9 @@
                "type" : "shogunate-enforced"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kakitsu",
          "wref_ja" : "嘉吉"
       },
@@ -9992,6 +10113,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kaō_(era)",
          "wref_ja" : "嘉応"
       },
@@ -10128,6 +10252,10 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝"
+         },
          "wref_en" : "Kakei",
          "wref_ja" : "嘉慶_(日本)"
       },
@@ -10290,6 +10418,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kajō",
          "wref_ja" : "嘉承"
       },
@@ -10437,6 +10568,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Karyaku",
          "wref_ja" : "嘉暦"
       },
@@ -10571,6 +10705,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kaei",
          "wref_ja" : "嘉永"
       },
@@ -10763,6 +10900,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kashō",
          "wref_ja" : "嘉祥"
       },
@@ -10935,6 +11075,9 @@
                "type" : "received"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Karoku",
          "wref_ja" : "嘉禄"
       },
@@ -11107,6 +11250,9 @@
                "type" : "shogunate-enforced"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Katei",
          "wref_ja" : "嘉禎"
       },
@@ -11612,6 +11758,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Taika_(era)",
          "wref_ja" : "大化"
       },
@@ -11760,6 +11909,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Daidō",
          "wref_ja" : "大同_(日本)"
       },
@@ -12109,6 +12261,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Taihō_(era)",
          "wref_ja" : "大宝_(日本)"
       },
@@ -12815,6 +12970,12 @@
                "type" : "wartime"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1031" : "大東亜共栄圏",
+            "1040" : "大日本帝国",
+            "1067" : "登極令"
+         },
          "unicode" : "㍽",
          "wref_en" : "Taishō_period",
          "wref_ja" : "大正"
@@ -12971,6 +13132,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Daiei_(era)",
          "wref_ja" : "大永"
       },
@@ -13112,6 +13276,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Daiji_(era)",
          "wref_ja" : "大治_(日本)"
       },
@@ -13563,6 +13730,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tennin",
          "wref_ja" : "天仁"
       },
@@ -13712,6 +13882,9 @@
                "type" : "received"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tenpō",
          "wref_ja" : "天保"
       },
@@ -13956,6 +14129,9 @@
                "type" : "established/incorrect"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tengen_(era)",
          "wref_ja" : "天元_(日本)"
       },
@@ -14173,6 +14349,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tenna",
          "wref_ja" : "天和_(日本)"
       },
@@ -14399,6 +14578,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tengi",
          "wref_ja" : "天喜"
       },
@@ -14789,6 +14971,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ten'an",
          "wref_ja" : "天安_(日本)"
       },
@@ -15097,6 +15282,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tenpyō",
          "wref_ja" : "天平"
       },
@@ -15286,6 +15474,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tenpyō-shōhō",
          "wref_ja" : "天平勝宝"
       },
@@ -15429,6 +15620,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tenpyō-hōji",
          "wref_ja" : "天平宝字"
       },
@@ -15620,6 +15814,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tenpyō-kanpō",
          "wref_ja" : "天平感宝"
       },
@@ -15799,6 +15996,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tenpyō-jingo",
          "wref_ja" : "天平神護"
       },
@@ -15953,6 +16153,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ten'en",
          "wref_ja" : "天延"
       },
@@ -16136,6 +16339,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tentoku",
          "wref_ja" : "天徳_(日本)"
       },
@@ -16368,6 +16574,9 @@
                "type" : "retroactivated"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ten'ō",
          "wref_ja" : "天応_(日本)"
       },
@@ -16554,6 +16763,9 @@
                "type" : "decreed"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tengyō",
          "wref_ja" : "天慶"
       },
@@ -16849,6 +17061,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tenshō_(Heian_period)",
          "wref_ja" : "天承"
       },
@@ -17028,6 +17243,10 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1066" : "日本南朝"
+         },
          "wref_en" : "Tenju",
          "wref_ja" : "天授_(日本)"
       },
@@ -17241,6 +17460,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tenbun",
          "wref_ja" : "天文_(元号)"
       },
@@ -17362,6 +17584,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tenmei",
          "wref_ja" : "天明"
       },
@@ -17628,6 +17853,9 @@
                "type" : "decreed"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tenryaku",
          "wref_ja" : "天暦"
       },
@@ -17830,6 +18058,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tenshō_(Momoyama_period)",
          "wref_ja" : "天正"
       },
@@ -18118,6 +18349,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ten'ei",
          "wref_ja" : "天永"
       },
@@ -18249,6 +18483,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tenji_(era)",
          "wref_ja" : "天治"
       },
@@ -18645,6 +18882,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tenroku",
          "wref_ja" : "天禄"
       },
@@ -18797,6 +19037,9 @@
                "type" : "received"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tenpuku",
          "wref_ja" : "天福_(日本)"
       },
@@ -19593,6 +19836,9 @@
                "type" : "established/incorrect"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tenchō",
          "wref_ja" : "天長"
       },
@@ -19922,6 +20168,9 @@
                "type" : "established/possible"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ten'yō",
          "wref_ja" : "天養"
       },
@@ -21450,6 +21699,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Angen",
          "wref_ja" : "安元"
       },
@@ -21589,6 +21841,9 @@
                "type" : "established/possible"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Anna_(era)",
          "wref_ja" : "安和"
       },
@@ -21950,6 +22205,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ansei",
          "wref_ja" : "安政"
       },
@@ -22092,6 +22350,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "An'ei",
          "wref_ja" : "安永"
       },
@@ -22277,6 +22538,9 @@
                "type" : "shogunate-enforced"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Antei",
          "wref_ja" : "安貞"
       },
@@ -22567,6 +22831,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Hōki",
          "wref_ja" : "宝亀"
       },
@@ -22743,6 +23010,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Hōtoku",
          "wref_ja" : "宝徳"
       },
@@ -22901,6 +23171,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Hōreki",
          "wref_ja" : "宝暦"
       },
@@ -23034,6 +23307,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Hōei",
          "wref_ja" : "宝永"
       },
@@ -23174,6 +23450,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Hōji",
          "wref_ja" : "宝治"
       },
@@ -23456,6 +23735,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kannin",
          "wref_ja" : "寛仁"
       },
@@ -23589,6 +23871,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kanpō",
          "wref_ja" : "寛保"
       },
@@ -23750,6 +24035,9 @@
                "type" : "received"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kangen",
          "wref_ja" : "寛元"
       },
@@ -23934,6 +24222,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kanna_(era)",
          "wref_ja" : "寛和"
       },
@@ -24106,6 +24397,9 @@
                "type" : "shogunate-enforced"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kangi",
          "wref_ja" : "寛喜"
       },
@@ -24302,6 +24596,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kanpyō_(era)",
          "wref_ja" : "寛平"
       },
@@ -24430,6 +24727,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kan'en",
          "wref_ja" : "寛延"
       },
@@ -24559,6 +24859,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kankō",
          "wref_ja" : "寛弘"
       },
@@ -24684,6 +24987,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kantoku",
          "wref_ja" : "寛徳"
       },
@@ -24807,6 +25113,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kansei",
          "wref_ja" : "寛政"
       },
@@ -24930,6 +25239,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kanbun_(era)",
          "wref_ja" : "寛文"
       },
@@ -25160,6 +25472,9 @@
                "type" : "received"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kanshō",
          "wref_ja" : "寛正"
       },
@@ -25287,6 +25602,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kan'ei",
          "wref_ja" : "寛永"
       },
@@ -25415,6 +25733,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kanji_(era)",
          "wref_ja" : "寛治"
       },
@@ -25933,6 +26254,9 @@
                "type" : "wartime"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Juei",
          "wref_ja" : "寿永"
       },
@@ -26637,6 +26961,11 @@
                "type" : "enforced"
             }
          ],
+         "tag_ids" : {
+            "1001" : "日本国",
+            "1003" : "日本",
+            "1068" : "元号法"
+         },
          "unicode" : "㍻",
          "wref_en" : "Heisei_period",
          "wref_ja" : "平成"
@@ -26786,6 +27115,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Heiji",
          "wref_ja" : "平治"
       },
@@ -27018,6 +27350,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kōhō",
          "wref_ja" : "康保"
       },
@@ -27193,6 +27528,9 @@
                "type" : "received"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kōgen",
          "wref_ja" : "康元"
       },
@@ -27315,6 +27653,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kōwa_(Heian_period)",
          "wref_ja" : "康和"
       },
@@ -27450,6 +27791,10 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝"
+         },
          "wref_en" : "Kōan_(Muromachi_period)",
          "wref_ja" : "康安"
       },
@@ -27598,6 +27943,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kōhei",
          "wref_ja" : "康平"
       },
@@ -27763,6 +28111,10 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝"
+         },
          "wref_en" : "Kōō_(Nanboku-chō_period)",
          "wref_ja" : "康応"
       },
@@ -27913,6 +28265,10 @@
                "type" : "established/incorrect"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝"
+         },
          "wref_en" : "Kōryaku",
          "wref_ja" : "康暦"
       },
@@ -28046,6 +28402,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kōshō",
          "wref_ja" : "康正"
       },
@@ -28171,6 +28530,10 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝"
+         },
          "wref_en" : "Kōei",
          "wref_ja" : "康永"
       },
@@ -28334,6 +28697,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kōji_(Heian_period)",
          "wref_ja" : "康治"
       },
@@ -28780,6 +29146,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Enkyū",
          "wref_ja" : "延久"
       },
@@ -28906,6 +29275,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Enkyō_(Edo_period)",
          "wref_ja" : "延享"
       },
@@ -29117,6 +29489,10 @@
                "type" : "wartime"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1066" : "日本南朝"
+         },
          "wref_en" : "Engen",
          "wref_ja" : "延元"
       },
@@ -29316,6 +29692,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Engi_(era)",
          "wref_ja" : "延喜"
       },
@@ -29534,6 +29913,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Enpō",
          "wref_ja" : "延宝"
       },
@@ -29772,6 +30154,9 @@
                "type" : "shogunate-enforced"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Entoku",
          "wref_ja" : "延徳"
       },
@@ -30034,6 +30419,9 @@
                "type" : "received"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "En'ō",
          "wref_ja" : "延応"
       },
@@ -30184,6 +30572,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Enkyō_(Kamakura_period)",
          "wref_ja" : "延慶_(日本)"
       },
@@ -30331,6 +30722,10 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝"
+         },
          "wref_en" : "Enbun",
          "wref_ja" : "延文"
       },
@@ -30483,6 +30878,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Enryaku",
          "wref_ja" : "延暦"
       },
@@ -30753,6 +31151,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Enchō",
          "wref_ja" : "延長_(元号)"
       },
@@ -30937,6 +31338,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kenkyū",
          "wref_ja" : "建久"
       },
@@ -31084,6 +31488,9 @@
                "type" : "received"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kennin",
          "wref_ja" : "建仁"
       },
@@ -31236,6 +31643,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kempo_(era)",
          "wref_ja" : "建保"
       },
@@ -31924,6 +32334,10 @@
                "type" : "established/possible"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1066" : "日本南朝"
+         },
          "wref_en" : "Kentoku",
          "wref_ja" : "建徳"
       },
@@ -32215,6 +32629,9 @@
                "type" : "received"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kenryaku",
          "wref_ja" : "建暦"
       },
@@ -32523,6 +32940,11 @@
                "type" : "wartime"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝",
+            "1066" : "日本南朝"
+         },
          "wref_en" : "Kenmu",
          "wref_ja" : "建武_(日本)"
       },
@@ -32771,6 +33193,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ken'ei",
          "wref_ja" : "建永"
       },
@@ -32912,6 +33337,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kenji_(era)",
          "wref_ja" : "建治"
       },
@@ -33305,6 +33733,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kenchō",
          "wref_ja" : "建長"
       },
@@ -33472,6 +33903,9 @@
                "type" : "established/incorrect"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kōnin_(era)",
          "wref_ja" : "弘仁"
       },
@@ -33609,6 +34043,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kōka",
          "wref_ja" : "弘化"
       },
@@ -33781,6 +34218,10 @@
                "type" : "established/possible"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1066" : "日本南朝"
+         },
          "wref_en" : "Kōwa_(Muromachi_period)",
          "wref_ja" : "弘和"
       },
@@ -33922,6 +34363,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kōan_(Kamakura_period)",
          "wref_ja" : "弘安"
       },
@@ -34108,6 +34552,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kōji_(Muromachi_period)",
          "wref_ja" : "弘治_(日本)"
       },
@@ -34291,6 +34738,9 @@
                "type" : "received"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Kōchō",
          "wref_ja" : "弘長"
       },
@@ -34634,6 +35084,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Tokuji",
          "wref_ja" : "徳治"
       },
@@ -34876,6 +35329,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ōnin",
          "wref_ja" : "応仁"
       },
@@ -35029,6 +35485,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ōhō",
          "wref_ja" : "応保"
       },
@@ -35161,6 +35620,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ōwa",
          "wref_ja" : "応和"
       },
@@ -35326,6 +35788,10 @@
                "type" : "established/incorrect"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝"
+         },
          "wref_en" : "Ōan",
          "wref_ja" : "応安"
       },
@@ -35472,6 +35938,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ōtoku",
          "wref_ja" : "応徳"
       },
@@ -35603,6 +36072,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ōei",
          "wref_ja" : "応永"
       },
@@ -35843,6 +36315,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ōchō",
          "wref_ja" : "応長"
       },
@@ -36114,6 +36589,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Keian",
          "wref_ja" : "慶安"
       },
@@ -36296,6 +36774,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Keiō",
          "wref_ja" : "慶応"
       },
@@ -36487,6 +36968,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Keichō",
          "wref_ja" : "慶長"
       },
@@ -36634,6 +37118,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Keiun",
          "wref_ja" : "慶雲"
       },
@@ -37367,6 +37854,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jōkyū",
          "wref_ja" : "承久"
       },
@@ -37530,6 +38020,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jōhō",
          "wref_ja" : "承保"
       },
@@ -37733,6 +38226,9 @@
                "type" : "received"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jōgen_(Kamakura_period)",
          "wref_ja" : "承元"
       },
@@ -37925,6 +38421,9 @@
                "type" : "established/incorrect"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jōwa_(Heian_period)",
          "wref_ja" : "承和_(日本)"
       },
@@ -38093,6 +38592,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jōan_(era)",
          "wref_ja" : "承安_(日本)"
       },
@@ -38278,6 +38780,9 @@
                "type" : "established/possible"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jōhei",
          "wref_ja" : "承平_(日本)"
       },
@@ -38494,6 +38999,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jōtoku",
          "wref_ja" : "承徳"
       },
@@ -38646,6 +39154,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jōō_(Edo_period)",
          "wref_ja" : "承応"
       },
@@ -38852,6 +39363,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jōryaku",
          "wref_ja" : "承暦"
       },
@@ -39551,6 +40065,10 @@
                "type" : "established/incorrect"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1066" : "日本南朝"
+         },
          "wref_en" : "Bunchū",
          "wref_ja" : "文中"
       },
@@ -39677,6 +40195,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Bunkyū",
          "wref_ja" : "文久"
       },
@@ -39812,6 +40333,9 @@
                "type" : "shogunate-enforced"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Bunki",
          "wref_ja" : "文亀"
       },
@@ -39974,6 +40498,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Bunpō",
          "wref_ja" : "文保"
       },
@@ -40096,6 +40623,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Bunka",
          "wref_ja" : "文化_(元号)"
       },
@@ -40234,6 +40764,10 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝"
+         },
          "wref_en" : "Bunna",
          "wref_ja" : "文和"
       },
@@ -40382,6 +40916,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Bun'an",
          "wref_ja" : "文安"
       },
@@ -40638,6 +41175,9 @@
                "type" : "received"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Bun'ō",
          "wref_ja" : "文応"
       },
@@ -40769,6 +41309,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Bunsei",
          "wref_ja" : "文政"
       },
@@ -40899,6 +41442,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Bunmei",
          "wref_ja" : "文明_(日本)"
       },
@@ -41092,6 +41638,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Bunryaku",
          "wref_ja" : "文暦"
       },
@@ -41228,6 +41777,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Bunshō",
          "wref_ja" : "文正"
       },
@@ -41471,6 +42023,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Bun'ei",
          "wref_ja" : "文永"
       },
@@ -41620,6 +42175,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Bunji_(era)",
          "wref_ja" : "文治"
       },
@@ -41755,6 +42313,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Bunroku",
          "wref_ja" : "文禄"
       },
@@ -42030,6 +42591,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Saikō",
          "wref_ja" : "斉衡"
       },
@@ -42324,6 +42888,9 @@
                "type" : "established/possible"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Shōtai",
          "wref_ja" : "昌泰"
       },
@@ -42512,6 +43079,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Meiwa",
          "wref_ja" : "明和"
       },
@@ -42725,6 +43295,11 @@
                "type" : "wartime"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝",
+            "1066" : "日本南朝"
+         },
          "wref_en" : "Meitoku",
          "wref_ja" : "明徳"
       },
@@ -42913,6 +43488,9 @@
                "type" : "shogunate-enforced"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Meiō",
          "wref_ja" : "明応"
       },
@@ -43128,6 +43706,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Meireki",
          "wref_ja" : "明暦"
       },
@@ -43431,6 +44012,11 @@
                "type" : "succeed"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1031" : "大東亜共栄圏",
+            "1040" : "大日本帝国"
+         },
          "unicode" : "㍾",
          "wref_en" : "Meiji_period",
          "wref_ja" : "明治"
@@ -43871,6 +44457,14 @@
                "type" : "wartime"
             }
          ],
+         "tag_ids" : {
+            "1001" : "日本国",
+            "1003" : "日本",
+            "1031" : "大東亜共栄圏",
+            "1040" : "大日本帝国",
+            "1067" : "登極令",
+            "1068" : "元号法"
+         },
          "unicode" : "㍼",
          "wref_en" : "Shōwa_period",
          "wref_ja" : "昭和"
@@ -44494,6 +45088,9 @@
                "type" : "received"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Ryakunin",
          "wref_ja" : "暦仁"
       },
@@ -44659,6 +45256,10 @@
                "type" : "shogunate-enforced"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝"
+         },
          "wref_en" : "Ryakuō",
          "wref_ja" : "暦応"
       },
@@ -44998,6 +45599,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Shuchō",
          "wref_ja" : "朱鳥"
       },
@@ -45397,6 +46001,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Shōchū_(era)",
          "wref_ja" : "正中_(元号)"
       },
@@ -45558,6 +46165,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Shōhō",
          "wref_ja" : "正保"
       },
@@ -45724,6 +46334,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Shōgen",
          "wref_ja" : "正元_(日本)"
       },
@@ -45876,6 +46489,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Shōwa_(Kamakura_period)",
          "wref_ja" : "正和"
       },
@@ -46054,6 +46670,9 @@
                "type" : "received"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Shōka_(era)",
          "wref_ja" : "正嘉"
       },
@@ -46254,6 +46873,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Shōan",
          "wref_ja" : "正安"
       },
@@ -46667,6 +47289,10 @@
                "type" : "wartime"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1066" : "日本南朝"
+         },
          "wref_en" : "Shōhei",
          "wref_ja" : "正平_(日本)"
       },
@@ -46836,6 +47462,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Shōtoku_(era)",
          "wref_ja" : "正徳_(日本)"
       },
@@ -47022,6 +47651,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Shōō_(Kamakura_period)",
          "wref_ja" : "正応"
       },
@@ -47176,6 +47808,10 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝"
+         },
          "wref_en" : "Shōkyō",
          "wref_ja" : "正慶"
       },
@@ -47366,6 +48002,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Shōryaku",
          "wref_ja" : "正暦"
       },
@@ -47565,6 +48204,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Shōji_(era)",
          "wref_ja" : "正治"
       },
@@ -47807,6 +48449,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Shōchō",
          "wref_ja" : "正長"
       },
@@ -48403,6 +49048,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Eiman",
          "wref_ja" : "永万"
       },
@@ -48539,6 +49187,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Eikyū",
          "wref_ja" : "永久_(元号)"
       },
@@ -48720,6 +49371,9 @@
                "type" : "wartime"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Eikyō",
          "wref_ja" : "永享"
       },
@@ -48850,6 +49504,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Einin",
          "wref_ja" : "永仁"
       },
@@ -49011,6 +49668,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Eihō",
          "wref_ja" : "永保"
       },
@@ -49251,6 +49911,10 @@
                "type" : "shogunate-enforced"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝"
+         },
          "wref_en" : "Eiwa",
          "wref_ja" : "永和_(日本)"
       },
@@ -49860,6 +50524,9 @@
                "type" : "established/possible"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Eien",
          "wref_ja" : "永延"
       },
@@ -50031,6 +50698,10 @@
                "type" : "established/incorrect"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝"
+         },
          "wref_en" : "Eitoku",
          "wref_ja" : "永徳"
       },
@@ -50266,6 +50937,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Eishō_(Heian_period)",
          "wref_ja" : "永承"
       },
@@ -50464,6 +51138,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Eiryaku",
          "wref_ja" : "永暦"
       },
@@ -50747,6 +51424,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Eishō_(Muromachi_period)",
          "wref_ja" : "永正"
       },
@@ -50887,6 +51567,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Eiji_(era)",
          "wref_ja" : "永治"
       },
@@ -51186,6 +51869,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Eiso",
          "wref_ja" : "永祚_(日本)"
       },
@@ -51322,6 +52008,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Eiroku",
          "wref_ja" : "永禄"
       },
@@ -51630,6 +52319,9 @@
                "type" : "established/incorrect"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Eikan",
          "wref_ja" : "永観"
       },
@@ -51814,6 +52506,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Eichō",
          "wref_ja" : "永長"
       },
@@ -52078,6 +52773,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jian_(era)",
          "wref_ja" : "治安_(元号)"
       },
@@ -52322,6 +53020,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jishō",
          "wref_ja" : "治承"
       },
@@ -52466,6 +53167,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jiryaku",
          "wref_ja" : "治暦"
       },
@@ -53823,6 +54527,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Hakuchi_(era)",
          "wref_ja" : "白雉"
       },
@@ -54815,6 +55522,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jinki_(era)",
          "wref_ja" : "神亀"
       },
@@ -55425,6 +56135,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jingo-keiun",
          "wref_ja" : "神護景雲"
       },
@@ -57071,6 +57784,10 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝"
+         },
          "wref_en" : "Shitoku",
          "wref_ja" : "至徳_(日本)"
       },
@@ -57403,6 +58120,10 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1066" : "日本南朝"
+         },
          "wref_en" : "Kōkoku",
          "wref_ja" : "興国"
       },
@@ -58373,6 +59094,10 @@
                "type" : "wartime"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝"
+         },
          "wref_en" : "Kannō",
          "wref_ja" : "観応"
       },
@@ -58591,6 +59316,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jōkyō",
          "wref_ja" : "貞享"
       },
@@ -58799,6 +59527,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jōgen_(Heian_period)",
          "wref_ja" : "貞元_(日本)"
       },
@@ -59008,6 +59739,10 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝"
+         },
          "wref_en" : "Jōwa_(Muromachi_period)",
          "wref_ja" : "貞和"
       },
@@ -59185,6 +59920,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jōō_(Kamakura_period)",
          "wref_ja" : "貞応"
       },
@@ -59385,6 +60123,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jōei",
          "wref_ja" : "貞永"
       },
@@ -59546,6 +60287,10 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本",
+            "1065" : "日本北朝"
+         },
          "wref_en" : "Jōji",
          "wref_ja" : "貞治"
       },
@@ -59743,6 +60488,9 @@
                "type" : "established/possible"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Jōgan",
          "wref_ja" : "貞観_(日本)"
       },
@@ -60427,6 +61175,9 @@
                "type" : "established/possible"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Chōkyū",
          "wref_ja" : "長久"
       },
@@ -60568,6 +61319,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Chōkyō",
          "wref_ja" : "長享"
       },
@@ -60717,6 +61471,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Chōhō_(era)",
          "wref_ja" : "長保"
       },
@@ -60871,6 +61628,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Chōgen",
          "wref_ja" : "長元"
       },
@@ -60998,6 +61758,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Chōwa",
          "wref_ja" : "長和"
       },
@@ -61211,6 +61974,9 @@
                "type" : "established/possible"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Chōkan",
          "wref_ja" : "長寛"
       },
@@ -61367,6 +62133,9 @@
                "type" : "established/possible"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Chōtoku",
          "wref_ja" : "長徳"
       },
@@ -61547,6 +62316,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Chōshō",
          "wref_ja" : "長承"
       },
@@ -61723,6 +62495,9 @@
                "type" : "established/incorrect"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Chōryaku",
          "wref_ja" : "長暦"
       },
@@ -61878,6 +62653,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Chōji",
          "wref_ja" : "長治"
       },
@@ -62031,6 +62809,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Chōroku",
          "wref_ja" : "長禄"
       },
@@ -63196,6 +63977,9 @@
                "type" : "established/incorrect"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Reiki_(era)",
          "wref_ja" : "霊亀"
       },
@@ -63872,6 +64656,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Yōwa",
          "wref_ja" : "養和"
       },
@@ -63995,6 +64782,9 @@
                "type" : "established"
             }
          ],
+         "tag_ids" : {
+            "1003" : "日本"
+         },
          "wref_en" : "Yōrō",
          "wref_ja" : "養老"
       },

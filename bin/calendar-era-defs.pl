@@ -347,6 +347,26 @@ for my $path (
   }
 }
 
+sub set_tag ($$) {
+  my ($key, $tkey) = @_;
+  my $item = $TagByKey->{$tkey};
+  die "Tag |$tkey| not defined" unless defined $item;
+
+  $Data->{eras}->{$key}->{tag_ids}->{$item->{id}} = $item->{key};
+      for (qw(region_of group_of period_of)) {
+        for (keys %{$item->{$_} or {}}) {
+          my $item2 = $Tags->{$_};
+          $Data->{eras}->{$key}->{tag_ids}->{$item2->{id}} = $item2->{key};
+          if ($item2->{type} eq 'country') {
+            for (keys %{$item2->{period_of} or {}}) {
+              my $item3 = $Tags->{$_};
+              $Data->{eras}->{$key}->{tag_ids}->{$item3->{id}} = $item3->{key};
+            }
+          }
+        }
+      }
+} # set_tag
+
 {
   use utf8;
   $Data->{eras}->{단기}->{key} = '단기';
@@ -372,6 +392,16 @@ for (
     my $data = $json->{eras}->{$key};
     for (@$data_keys) {
       $Data->{eras}->{$key}->{$_} = $data->{$_} if defined $data->{$_};
+      use utf8;
+      if ($data->{jp_era}) {
+        set_tag $key, '日本';
+      }
+      if ($data->{jp_north_era}) {
+        set_tag $key, '日本北朝';
+      }
+      if ($data->{jp_south_era}) {
+        set_tag $key, '日本南朝';
+      }
     }
   }
 }
@@ -449,21 +479,7 @@ for (
       $Data->{eras}->{$key}->{en_desc} = $1;
     } elsif (defined $key and /^tag\s+(\S.*\S)\s*$/) {
       my $tkey = $1;
-      my $item = $TagByKey->{$tkey};
-      die "Tag |$tkey| not defined" unless defined $item;
-      $Data->{eras}->{$key}->{tag_ids}->{$item->{id}} = $item->{key};
-      for (qw(region_of group_of period_of)) {
-        for (keys %{$item->{$_} or {}}) {
-          my $item2 = $Tags->{$_};
-          $Data->{eras}->{$key}->{tag_ids}->{$item2->{id}} = $item2->{key};
-          if ($item2->{type} eq 'country') {
-            for (keys %{$item2->{period_of} or {}}) {
-              my $item3 = $Tags->{$_};
-              $Data->{eras}->{$key}->{tag_ids}->{$item3->{id}} = $item3->{key};
-            }
-          }
-        }
-      }
+      set_tag $key => $tkey;
     } elsif (/\S/) {
       die "Bad line |$_|";
     }
