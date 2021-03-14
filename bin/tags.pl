@@ -34,7 +34,7 @@ my $TagByKey = {};
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
       #
-    } elsif (/^(region|country|people|religion|org|person)$/) {
+    } elsif (/^(region|country|people|religion|org|person|law)$/) {
       $add_item->($item) if defined $item;
       $item = {type => $1};
     } elsif (defined $item and /^  (name|key)\s+(\S.*\S)\s*$/) {

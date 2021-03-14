@@ -25,6 +25,8 @@ code #7 明
 code #2 M
 code #20 -1
 
+tag 大日本帝国
+
 [大正]
 
 source
@@ -50,6 +52,9 @@ abbr_latn T
 code #7 大
 code #2 T
 code #20 0
+
+tag 大日本帝国
+tag 登極令
 
 [昭和]
 
@@ -81,6 +86,11 @@ abbr_latn S
 code #7 昭
 code #2 S
 
+tag 大日本帝国
+tag 日本国
+tag 登極令
+tag 元号法
+
 [平成]
 
 source
@@ -110,6 +120,9 @@ abbr 平
 abbr_latn H
 code #7 平
 code #2 H
+
+tag 日本国
+tag 元号法
 
 [令和]
 AD2019 = 1
@@ -147,6 +160,9 @@ source
 source
   title:新元号「令和」の手話表現について
   url:https://www.newsigns.jp/reiwa
+
+tag 日本国
+tag 元号法
 
 [正慶]
 code #15 北1

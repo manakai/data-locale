@@ -23,6 +23,20 @@ country
   region of 大東亜共栄圏
 
 country
+  key 日本北朝
+  label_ja 北朝 (日本)
+  name_ja 北朝
+
+  period of 日本
+
+country
+  key 日本南朝
+  label_ja 南朝 (日本)
+  name_ja 南朝
+
+  period of 日本
+
+country
   name_ja 日本
   name_ja 日本国
   name_en Japan
@@ -271,3 +285,8 @@ person
 person
   name_ja 芦原金次郎
 
+law
+  name_ja 登極令
+
+law
+  name_ja 元号法
