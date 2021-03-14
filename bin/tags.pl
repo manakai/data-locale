@@ -34,7 +34,7 @@ my $TagByKey = {};
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
       #
-    } elsif (/^(region|country|people|religion|org|person|law)$/) {
+    } elsif (/^(region|country|people|religion|org|person|law|tag)$/) {
       $add_item->($item) if defined $item;
       $item = {type => $1};
     } elsif (defined $item and /^  (name|key)\s+(\S.*\S)\s*$/) {
@@ -64,17 +64,24 @@ for my $x (qw(period group region)) {
   } # $id
   {
     my $changed = 0;
-    for my $item (values %{$Data->{tags}}) {
-      for (keys %{$item->{$x.'s'} or {}}) {
+    for my $item1 (values %{$Data->{tags}}) {
+      for (keys %{$item1->{$x.'s'} or {}}) {
+        my $l1 = $item1->{$x.'s'}->{$_};
         my $item2 = $Data->{tags}->{$_};
         for (keys %{$item2->{$x.'s'} or {}}) {
-          if (not $item->{$x.'s'}->{$_}) {
-            $item2->{$x.'_of'}->{$item->{id}} =
-            $item->{$x.'s'}->{$_} = 1 + $item2->{$x.'s'}->{$_};
+          my $l2 = $item2->{$x.'s'}->{$_};
+          my $item3 = $Data->{tags}->{$_};
+          ## 1 child 2 and 2 child 3 -> 1 child 3 and 3 parent 1
+          if (not $item1->{$x.'s'}->{$item3->{id}}) {
+            $item3->{$x.'_of'}->{$item1->{id}} =
+            $item1->{$x.'s'}->{$item3->{id}} =
+                $l1 + $item2->{$x.'s'}->{$item3->{id}};
             $changed = 1;
-          } elsif ($item->{$x.'s'}->{$_} > 1 + $item2->{$x.'s'}->{$_}) {
-            $item2->{$x.'_of'}->{$item->{id}} =
-            $item->{$x.'s'}->{$_} = 1 + $item2->{$x.'s'}->{$_};
+          } elsif ($item1->{$x.'s'}->{$item3->{id}}
+                       > $l1 + $item2->{$x.'s'}->{$item3->{id}}) {
+            $item3->{$x.'_of'}->{$item1->{id}} =
+            $item1->{$x.'s'}->{$item3->{id}} =
+                $l1 + $item2->{$x.'s'}->{$item3->{id}};
             $changed = 1;
           }
         }

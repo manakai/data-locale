@@ -42,6 +42,15 @@ country
   name_en Japan
 
 region
+  label_ja 日本国埼玉県
+  region of 日本国
+
+region
+  label_ja 大日本帝国埼玉県秩父郡
+  name_ja 秩父郡
+  region of 日本国埼玉県
+
+region
   label_ja 日本国鳥取県
   name_ja 鳥取県
   name 鳥取
@@ -267,6 +276,9 @@ religion
   name_ja 共産主義
 
 org
+  name_ja 困民党
+
+org
   name_ja 松下電器産業株式会社
 
 org
@@ -290,3 +302,18 @@ law
 
 law
   name_ja 元号法
+
+tag
+  name_ja 即位紀年
+
+tag
+  name_ja 天皇即位紀年
+  group of 即位紀年
+
+tag
+  name_ja 天皇即位紀年 (古代)
+
+  group of 天皇即位紀年
+
+tag
+  name_ja 日本の私年号
