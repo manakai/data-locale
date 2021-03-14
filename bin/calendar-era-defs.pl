@@ -402,6 +402,9 @@ for (
       if ($data->{jp_south_era}) {
         set_tag $key, '日本南朝';
       }
+      if ($data->{jp_emperor_era}) {
+        set_tag $key, '天皇即位紀年 (古代)';
+      }
     }
   }
 }
@@ -518,6 +521,10 @@ for (
   my $Variants = $variants_json->{variants};
   my $Scores = {};
   for my $era (values %{$Data->{eras}}) {
+    use utf8;
+    if ($era->{tag_ids}->{$TagByKey->{'日本の私年号'}->{id}}) {
+      $era->{jp_private_era} = 1;
+    }
     $Scores->{$era->{key}} = 0;
     $Scores->{$era->{key}} += 50000
         if $era->{jp_era} or $era->{jp_emperor_era} or
