@@ -374,7 +374,7 @@ sub set_tag ($$) {
 }
 
 for (
-  ['local/era-date-list.json' => [map {
+  ['local/era-date-list.json' => ['_usages', map {
     ($_.'start_year', $_.'start_day',
      $_.'official_start_day', $_.'actual_start_day',
      $_.'end_year', $_.'end_day',
@@ -464,6 +464,10 @@ for (
       my $g_year = $1 eq 'BC' ? 0 - $2 : $2;
       my $e_year = $3;
       $Data->{eras}->{$key}->{offset} = $g_year - $e_year;
+    } elsif (defined $key and
+             /^u\s+(-?[0-9]+)(?:-([0-9]+)('|)(?:-([0-9]+)|)|)(?:\s+(\w+)|)$/) {
+      push @{$Data->{eras}->{$key}->{_usages} ||= []},
+          [[0+$1, $2?0+$2:undef, $3?1:0, $4?0+$4:undef], $5];
     } elsif (defined $key and /^(sw)\s+(.+)$/) {
       $Data->{eras}->{$key}->{suikawiki} = $2;
     } elsif (defined $key and /^code\s+#(7|2)\s+(.)$/) {
@@ -491,6 +495,18 @@ for (
 
 {
   for my $era (values %{$Data->{eras}}) {
+    if (defined $era->{offset}) {
+      for (@{$era->{_usages} or []}) {
+        my $y = $era->{offset} + $_->[0]->[0];
+        $era->{known_oldest_year} = $y if
+            not defined $era->{known_oldest_year} or
+            $era->{known_oldest_year} > $y;
+        $era->{known_latest_year} = $y if
+            not defined $era->{known_latest_year} or
+            $era->{known_latest_year} < $y;
+      }
+    }
+    delete $era->{_usages};
     if (not defined $era->{known_oldest_year} and
         defined $era->{offset}) {
       $era->{known_oldest_year} = $era->{offset} + 1;
@@ -499,7 +515,7 @@ for (
         not defined $era->{known_latest_year}) {
       $era->{known_latest_year} = $era->{known_oldest_year};
     }
-  }
+  } # $era
 }
 
 {
