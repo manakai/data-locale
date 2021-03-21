@@ -59,7 +59,8 @@ ERA: for my $era (values %{$json->{eras}}) {
   $rows = [sort {
     ($a->[0] || $a->[1] || $a->[2] || 99999) <=> ($b->[0] || $b->[1] || $b->[2] || 99999) ||
     $a->[3] cmp $b->[3] ||
-    [join $;, grep { defined } @$a]->[0] cmp [join $;, grep { defined } @$b]->[0];
+    [join $;, map { ref $_ ? @$_ : $_ } grep { defined } @$a]->[0] cmp
+    [join $;, map { ref $_ ? @$_ : $_ } grep { defined } @$b]->[0];
   } @$rows];
 }
 
@@ -105,7 +106,9 @@ copyright and related or neighboring rights to this document.
   .pattern-12 { background-color: #FFA07A }
 
 </style>
-<h1>Era yomis</h1><table><colgroup><thead><tr><tbody></table>]);
+<h1>Era yomis</h1>
+<p><a href=https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9>Notes</a>
+<table><colgroup><thead><tr><tbody></table>]);
 
 {
   my $tr = $doc->query_selector ('colgroup');

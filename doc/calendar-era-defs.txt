@@ -193,9 +193,9 @@ The file contains a JSON object with following name/value pairs:
             representations of the readings, if any.
 
         For these fields, a U+0020 SPACE character is inserted at
-        Kanji boundaries in Hiragana representations unless they are
-        native Japanese words.  The first letters in the Latin
-        representations are uppercased and the other letters are
+        Kanji boundaries in Hiragana and Latin representations unless
+        they are native Japanese words.  The first letters in the
+        Latin representations are uppercased and the other letters are
         lowercased.  The characters |-| and |'| are used as Roma-ji
         punctuations.
 

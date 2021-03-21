@@ -305,20 +305,23 @@ for my $id (6090..6091) {
     my $s = shift;
     $s =~ s/([きしちにひみりぎじびぴ][ゃゅょ])/$ToLatin->{$1}/g;
     $s =~ s/([あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわんがぎぐげござじずぜぞだでどばびぶべぼぱぴぷぺぽ])/$ToLatin->{$1}/g;
-    $s =~ s/^(\S+ \S+) (\S+ \S+)$/$1-$2/g;
-    $s =~ s/n ([aiueoy])/n'$1/g;
-    $s =~ s/ //g;
-    $s =~ s/n([mpb])/m$1/g;
+    $s =~ s/^(\S+ \S+) (\S+ \S+)$/$1 - $2/g;
+    $s =~ s/n ([aiueoy])/n ' $1/g;
+    #$s =~ s/ //g;
+    $s =~ s/n( ?[mpb])/m$1/g;
     die $s if $s =~ /\p{Hiragana}/;
-    return ucfirst $s;
+    #return ucfirst $s;
+    return $s;
   }
 
   sub romaji2 ($) {
-    my $s = lcfirst romaji $_[0];
+    #my $s = lcfirst romaji $_[0];
+    my $s = romaji $_[0];
     $s =~ s/ou/\x{014D}/g;
     $s =~ s/uu/\x{016B}/g;
     #$s =~ s/ii/\x{012B}/g;
-    return ucfirst $s;
+    #return ucfirst $s;
+    return $s;
   }
 }
 
@@ -392,6 +395,12 @@ for my $id (6090..6091) {
           $v =~ s/ //g;
           $Data->{eras}->{$key}->{name_kanas}->{$v} = 1;
         }
+      } # $v
+      my $w = $Data->{eras}->{$key}->{name_latn};
+      if (defined $w) {
+        $w =~ s/ //g;
+        $w = ucfirst $w;
+        $Data->{eras}->{$key}->{name_latn} = $w;
       }
     } elsif (/\S/) {
       die "Bad line |$_|";

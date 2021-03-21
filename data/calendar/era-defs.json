@@ -700,16 +700,16 @@
                "kana" : "まん じゅ",
                "kana_classic" : "まん じゆ",
                "kana_modern" : "まん じゅ",
-               "latin" : "Manju",
-               "latin_macron" : "Manju",
-               "latin_normal" : "Manju"
+               "latin" : "man ju",
+               "latin_macron" : "man ju",
+               "latin_normal" : "man ju"
             },
             {
                "kana" : "まん しゅ",
                "kana_modern" : "まん しゅ",
-               "latin" : "Manshu",
-               "latin_macron" : "Manshu",
-               "latin_normal" : "Manshu"
+               "latin" : "man shu",
+               "latin_macron" : "man shu",
+               "latin_normal" : "man shu"
             }
          ],
          "jp_era" : 1,
@@ -842,9 +842,9 @@
                "kana" : "まん えん",
                "kana_classic" : "まん えん",
                "kana_modern" : "まん えん",
-               "latin" : "Man'en",
-               "latin_macron" : "Man'en",
-               "latin_normal" : "Man'en"
+               "latin" : "man ' en",
+               "latin_macron" : "man ' en",
+               "latin_normal" : "man ' en"
             }
          ],
          "jp_era" : 1,
@@ -967,9 +967,9 @@
                "kana" : "まん じ",
                "kana_classic" : "まん ぢ",
                "kana_modern" : "まん じ",
-               "latin" : "Manji",
-               "latin_macron" : "Manji",
-               "latin_normal" : "Manji"
+               "latin" : "man ji",
+               "latin_macron" : "man ji",
+               "latin_normal" : "man ji"
             }
          ],
          "jp_era" : 1,
@@ -1488,9 +1488,9 @@
                "kana_others" : [
                   "きゆう あん"
                ],
-               "latin" : "Kyūan",
-               "latin_macron" : "Kyūan",
-               "latin_normal" : "Kyuuan"
+               "latin" : "kyū an",
+               "latin_macron" : "kyū an",
+               "latin_normal" : "kyuu an"
             }
          ],
          "jp_era" : 1,
@@ -1644,9 +1644,9 @@
                "kana_others" : [
                   "きゆう じゆ"
                ],
-               "latin" : "Kyūju",
-               "latin_macron" : "Kyūju",
-               "latin_normal" : "Kyuuju"
+               "latin" : "kyū ju",
+               "latin_macron" : "kyū ju",
+               "latin_normal" : "kyuu ju"
             },
             {
                "kana" : "きう しゆ",
@@ -1835,9 +1835,9 @@
                "kana" : "けん げん",
                "kana_classic" : "けん ぐゑん",
                "kana_modern" : "けん げん",
-               "latin" : "Kengen",
-               "latin_macron" : "Kengen",
-               "latin_normal" : "Kengen"
+               "latin" : "ken gen",
+               "latin_macron" : "ken gen",
+               "latin_normal" : "ken gen"
             },
             {
                "kana" : "けん けん",
@@ -1847,9 +1847,9 @@
                   "けむ けん",
                   "けん くえん"
                ],
-               "latin" : "Kenken",
-               "latin_macron" : "Kenken",
-               "latin_normal" : "Kenken"
+               "latin" : "ken ken",
+               "latin_macron" : "ken ken",
+               "latin_normal" : "ken ken"
             }
          ],
          "jp_era" : 1,
@@ -2525,16 +2525,16 @@
                   "きよう ほう",
                   "きやう はう"
                ],
-               "latin" : "Kyōhō",
-               "latin_macron" : "Kyōhō",
-               "latin_normal" : "Kyouhou"
+               "latin" : "kyō hō",
+               "latin_macron" : "kyō hō",
+               "latin_normal" : "kyou hou"
             },
             {
                "kana" : "きょう ほ",
                "kana_modern" : "きょう ほ",
-               "latin" : "Kyōho",
-               "latin_macron" : "Kyōho",
-               "latin_normal" : "Kyouho"
+               "latin" : "kyō ho",
+               "latin_macron" : "kyō ho",
+               "latin_normal" : "kyou ho"
             }
          ],
          "jp_era" : 1,
@@ -2663,9 +2663,9 @@
                "kana_others" : [
                   "きよう わ"
                ],
-               "latin" : "Kyōwa",
-               "latin_macron" : "Kyōwa",
-               "latin_normal" : "Kyouwa"
+               "latin" : "kyō wa",
+               "latin_macron" : "kyō wa",
+               "latin_normal" : "kyou wa"
             }
          ],
          "jp_era" : 1,
@@ -2793,17 +2793,17 @@
                   "きよう とく",
                   "けう とく"
                ],
-               "latin" : "Kyōtoku",
-               "latin_macron" : "Kyōtoku",
-               "latin_normal" : "Kyoutoku"
+               "latin" : "kyō toku",
+               "latin_macron" : "kyō toku",
+               "latin_normal" : "kyou toku"
             },
             {
                "kana" : "こう とく",
                "kana_classic" : "かう とく",
                "kana_modern" : "こう とく",
-               "latin" : "Kōtoku",
-               "latin_macron" : "Kōtoku",
-               "latin_normal" : "Koutoku"
+               "latin" : "kō toku",
+               "latin_macron" : "kō toku",
+               "latin_normal" : "kou toku"
             }
          ],
          "jp_era" : 1,
@@ -2949,9 +2949,9 @@
                "kana_others" : [
                   "きよう ろく"
                ],
-               "latin" : "Kyōroku",
-               "latin_macron" : "Kyōroku",
-               "latin_normal" : "Kyouroku"
+               "latin" : "kyō roku",
+               "latin_macron" : "kyō roku",
+               "latin_normal" : "kyou roku"
             }
          ],
          "jp_era" : 1,
@@ -3212,25 +3212,25 @@
                "kana" : "にん な",
                "kana_classic" : "にん な",
                "kana_modern" : "にん な",
-               "latin" : "Ninna",
-               "latin_macron" : "Ninna",
-               "latin_normal" : "Ninna"
+               "latin" : "nin na",
+               "latin_macron" : "nin na",
+               "latin_normal" : "nin na"
             },
             {
                "kana" : "にん わ",
                "kana_classic" : "にん わ",
                "kana_modern" : "にん わ",
-               "latin" : "Ninwa",
-               "latin_macron" : "Ninwa",
-               "latin_normal" : "Ninwa"
+               "latin" : "nin wa",
+               "latin_macron" : "nin wa",
+               "latin_normal" : "nin wa"
             },
             {
                "kana" : "にい わ",
                "kana_classic" : "にい わ",
                "kana_modern" : "にい わ",
-               "latin" : "Niiwa",
-               "latin_macron" : "Niiwa",
-               "latin_normal" : "Niiwa"
+               "latin" : "nii wa",
+               "latin_macron" : "nii wa",
+               "latin_normal" : "nii wa"
             }
          ],
          "jp_era" : 1,
@@ -3391,17 +3391,17 @@
                "kana" : "にん あん",
                "kana_classic" : "にん あん",
                "kana_modern" : "にん あん",
-               "latin" : "Nin'an",
-               "latin_macron" : "Nin'an",
-               "latin_normal" : "Nin'an"
+               "latin" : "nin ' an",
+               "latin_macron" : "nin ' an",
+               "latin_normal" : "nin ' an"
             },
             {
                "kana" : "にん なん",
                "kana_classic" : "にん なん",
                "kana_modern" : "にん なん",
-               "latin" : "Ninnan",
-               "latin_macron" : "Ninnan",
-               "latin_normal" : "Ninnan"
+               "latin" : "nin nan",
+               "latin_macron" : "nin nan",
+               "latin_normal" : "nin nan"
             }
          ],
          "jp_era" : 1,
@@ -3549,16 +3549,16 @@
                "kana" : "にん じゅ",
                "kana_classic" : "にん じゆ",
                "kana_modern" : "にん じゅ",
-               "latin" : "Ninju",
-               "latin_macron" : "Ninju",
-               "latin_normal" : "Ninju"
+               "latin" : "nin ju",
+               "latin_macron" : "nin ju",
+               "latin_normal" : "nin ju"
             },
             {
                "kana" : "にん しゅ",
                "kana_modern" : "にん しゅ",
-               "latin" : "Ninshu",
-               "latin_macron" : "Ninshu",
-               "latin_normal" : "Ninshu"
+               "latin" : "nin shu",
+               "latin_macron" : "nin shu",
+               "latin_normal" : "nin shu"
             }
          ],
          "jp_era" : 1,
@@ -3686,9 +3686,9 @@
                "kana" : "にん ぺい",
                "kana_classic" : "にん ぺい",
                "kana_modern" : "にん ぺい",
-               "latin" : "Nimpei",
-               "latin_macron" : "Nimpei",
-               "latin_normal" : "Nimpei"
+               "latin" : "nim pei",
+               "latin_macron" : "nim pei",
+               "latin_normal" : "nim pei"
             },
             {
                "kana" : "にん ぴょう",
@@ -3697,41 +3697,41 @@
                "kana_others" : [
                   "にん ぴよう"
                ],
-               "latin" : "Nimpyō",
-               "latin_macron" : "Nimpyō",
-               "latin_normal" : "Nimpyou"
+               "latin" : "nim pyō",
+               "latin_macron" : "nim pyō",
+               "latin_normal" : "nim pyou"
             },
             {
                "kana" : "にん びょう",
                "kana_classic" : "にん びやう",
                "kana_modern" : "にん びょう",
-               "latin" : "Nimbyō",
-               "latin_macron" : "Nimbyō",
-               "latin_normal" : "Nimbyou"
+               "latin" : "nim byō",
+               "latin_macron" : "nim byō",
+               "latin_normal" : "nim byou"
             },
             {
                "kana" : "にん べい",
                "kana_classic" : "にん べい",
                "kana_modern" : "にん べい",
-               "latin" : "Nimbei",
-               "latin_macron" : "Nimbei",
-               "latin_normal" : "Nimbei"
+               "latin" : "nim bei",
+               "latin_macron" : "nim bei",
+               "latin_normal" : "nim bei"
             },
             {
                "kana" : "にん へい",
                "kana_classic" : "にん へい",
                "kana_modern" : "にん へい",
-               "latin" : "Ninhei",
-               "latin_macron" : "Ninhei",
-               "latin_normal" : "Ninhei"
+               "latin" : "nin hei",
+               "latin_macron" : "nin hei",
+               "latin_normal" : "nin hei"
             },
             {
                "kana" : "にん ひょう",
                "kana_classic" : "にん ひやう",
                "kana_modern" : "にん ひょう",
-               "latin" : "Ninhyō",
-               "latin_macron" : "Ninhyō",
-               "latin_normal" : "Ninhyou"
+               "latin" : "nin hyō",
+               "latin_macron" : "nin hyō",
+               "latin_normal" : "nin hyou"
             }
          ],
          "jp_era" : 1,
@@ -3981,17 +3981,17 @@
                "kana" : "にん じ",
                "kana_classic" : "にん ぢ",
                "kana_modern" : "にん じ",
-               "latin" : "Ninji",
-               "latin_macron" : "Ninji",
-               "latin_normal" : "Ninji"
+               "latin" : "nin ji",
+               "latin_macron" : "nin ji",
+               "latin_normal" : "nin ji"
             },
             {
                "kana" : "にん ち",
                "kana_classic" : "にん ち",
                "kana_modern" : "にん ち",
-               "latin" : "Ninchi",
-               "latin_macron" : "Ninchi",
-               "latin_normal" : "Ninchi"
+               "latin" : "nin chi",
+               "latin_macron" : "nin chi",
+               "latin_normal" : "nin chi"
             }
          ],
          "jp_era" : 1,
@@ -4207,9 +4207,9 @@
                "kana" : "れい わ",
                "kana_classic" : "れい わ",
                "kana_modern" : "れい わ",
-               "latin" : "Reiwa",
-               "latin_macron" : "Reiwa",
-               "latin_normal" : "Reiwa"
+               "latin" : "rei wa",
+               "latin_macron" : "rei wa",
+               "latin_normal" : "rei wa"
             }
          ],
          "jp_era" : 1,
@@ -4467,17 +4467,17 @@
                   "ほう ぐぇん",
                   "はう ぐゑん"
                ],
-               "latin" : "Hōgen",
-               "latin_macron" : "Hōgen",
-               "latin_normal" : "Hougen"
+               "latin" : "hō gen",
+               "latin_macron" : "hō gen",
+               "latin_normal" : "hou gen"
             },
             {
                "kana" : "ほう けん",
                "kana_classic" : "ほう けん",
                "kana_modern" : "ほう けん",
-               "latin" : "Hōken",
-               "latin_macron" : "Hōken",
-               "latin_normal" : "Houken"
+               "latin" : "hō ken",
+               "latin_macron" : "hō ken",
+               "latin_normal" : "hou ken"
             }
          ],
          "jp_era" : 1,
@@ -4694,9 +4694,9 @@
                "kana_others" : [
                   "はう あん"
                ],
-               "latin" : "Hōan",
-               "latin_macron" : "Hōan",
-               "latin_normal" : "Houan"
+               "latin" : "hō an",
+               "latin_macron" : "hō an",
+               "latin_normal" : "hou an"
             }
          ],
          "jp_era" : 1,
@@ -4890,9 +4890,9 @@
                "kana_others" : [
                   "はう えん"
                ],
-               "latin" : "Hōen",
-               "latin_macron" : "Hōen",
-               "latin_normal" : "Houen"
+               "latin" : "hō en",
+               "latin_macron" : "hō en",
+               "latin_normal" : "hou en"
             }
          ],
          "jp_era" : 1,
@@ -5235,9 +5235,9 @@
                   "げん ちう",
                   "ぐゑん ちゆう"
                ],
-               "latin" : "Genchū",
-               "latin_macron" : "Genchū",
-               "latin_normal" : "Genchuu"
+               "latin" : "gen chū",
+               "latin_macron" : "gen chū",
+               "latin_normal" : "gen chuu"
             }
          ],
          "jp_south_era" : 1,
@@ -5413,9 +5413,9 @@
                   "げん きう",
                   "ぐえん きう"
                ],
-               "latin" : "Genkyū",
-               "latin_macron" : "Genkyū",
-               "latin_normal" : "Genkyuu"
+               "latin" : "gen kyū",
+               "latin_macron" : "gen kyū",
+               "latin_normal" : "gen kyuu"
             },
             {
                "kana" : "けん きう",
@@ -5546,9 +5546,9 @@
                "kana" : "げん き",
                "kana_classic" : "ぐゑん き",
                "kana_modern" : "げん き",
-               "latin" : "Genki",
-               "latin_macron" : "Genki",
-               "latin_normal" : "Genki"
+               "latin" : "gen ki",
+               "latin_macron" : "gen ki",
+               "latin_normal" : "gen ki"
             }
          ],
          "jp_era" : 1,
@@ -5679,9 +5679,9 @@
                "kana_others" : [
                   "げん かう"
                ],
-               "latin" : "Genkō",
-               "latin_macron" : "Genkō",
-               "latin_normal" : "Genkou"
+               "latin" : "gen kō",
+               "latin_macron" : "gen kō",
+               "latin_normal" : "gen kou"
             },
             {
                "kana" : "けん かう",
@@ -5861,17 +5861,17 @@
                   "ぐえん にん",
                   "くゑん にん"
                ],
-               "latin" : "Gennin",
-               "latin_macron" : "Gennin",
-               "latin_normal" : "Gennin"
+               "latin" : "gen nin",
+               "latin_macron" : "gen nin",
+               "latin_normal" : "gen nin"
             },
             {
                "kana" : "けん にん",
                "kana_classic" : "けん にん",
                "kana_modern" : "けん にん",
-               "latin" : "Kennin",
-               "latin_macron" : "Kennin",
-               "latin_normal" : "Kennin"
+               "latin" : "ken nin",
+               "latin_macron" : "ken nin",
+               "latin_normal" : "ken nin"
             }
          ],
          "jp_era" : 1,
@@ -6085,25 +6085,25 @@
                "kana_others" : [
                   "ぐゑん な"
                ],
-               "latin" : "Genna",
-               "latin_macron" : "Genna",
-               "latin_normal" : "Genna"
+               "latin" : "gen na",
+               "latin_macron" : "gen na",
+               "latin_normal" : "gen na"
             },
             {
                "kana" : "げん わ",
                "kana_classic" : "ぐゑん わ",
                "kana_modern" : "げん わ",
-               "latin" : "Genwa",
-               "latin_macron" : "Genwa",
-               "latin_normal" : "Genwa"
+               "latin" : "gen wa",
+               "latin_macron" : "gen wa",
+               "latin_normal" : "gen wa"
             },
             {
                "kana" : "けん わ",
                "kana_classic" : "くゑん わ",
                "kana_modern" : "けん わ",
-               "latin" : "Kenwa",
-               "latin_macron" : "Kenwa",
-               "latin_normal" : "Kenwa"
+               "latin" : "ken wa",
+               "latin_macron" : "ken wa",
+               "latin_normal" : "ken wa"
             }
          ],
          "jp_era" : 1,
@@ -6483,9 +6483,9 @@
                "kana_others" : [
                   "ぐゑん こう"
                ],
-               "latin" : "Genkō",
-               "latin_macron" : "Genkō",
-               "latin_normal" : "Genkou"
+               "latin" : "gen kō",
+               "latin_macron" : "gen kō",
+               "latin_normal" : "gen kou"
             },
             {
                "kana" : "けん かう",
@@ -6747,17 +6747,17 @@
                "kana" : "げん とく",
                "kana_classic" : "ぐゑん とく",
                "kana_modern" : "げん とく",
-               "latin" : "Gentoku",
-               "latin_macron" : "Gentoku",
-               "latin_normal" : "Gentoku"
+               "latin" : "gen toku",
+               "latin_macron" : "gen toku",
+               "latin_normal" : "gen toku"
             },
             {
                "kana" : "けん とく",
                "kana_classic" : "けん とく",
                "kana_modern" : "けん とく",
-               "latin" : "Kentoku",
-               "latin_macron" : "Kentoku",
-               "latin_normal" : "Kentoku"
+               "latin" : "ken toku",
+               "latin_macron" : "ken toku",
+               "latin_normal" : "ken toku"
             }
          ],
          "jp_north_era" : 1,
@@ -6997,17 +6997,17 @@
                "kana" : "げん おう",
                "kana_classic" : "ぐゑん おう",
                "kana_modern" : "げん おう",
-               "latin" : "Gen'ō",
-               "latin_macron" : "Gen'ō",
-               "latin_normal" : "Gen'ou"
+               "latin" : "gen ' ō",
+               "latin_macron" : "gen ' ō",
+               "latin_normal" : "gen ' ou"
             },
             {
                "kana" : "げん そう",
                "kana_classic" : "げん そう",
                "kana_modern" : "げん そう",
-               "latin" : "Gensō",
-               "latin_macron" : "Gensō",
-               "latin_normal" : "Gensou"
+               "latin" : "gen sō",
+               "latin_macron" : "gen sō",
+               "latin_normal" : "gen sou"
             },
             {
                "kana" : "けん わう",
@@ -7023,9 +7023,9 @@
                "kana_others" : [
                   "ぐゑん のう"
                ],
-               "latin" : "Gennō",
-               "latin_macron" : "Gennō",
-               "latin_normal" : "Gennou"
+               "latin" : "gen nō",
+               "latin_macron" : "gen nō",
+               "latin_normal" : "gen nou"
             }
          ],
          "jp_era" : 1,
@@ -7158,17 +7158,17 @@
                "kana_others" : [
                   "がん ぎよう"
                ],
-               "latin" : "Gangyō",
-               "latin_macron" : "Gangyō",
-               "latin_normal" : "Gangyou"
+               "latin" : "gan gyō",
+               "latin_macron" : "gan gyō",
+               "latin_normal" : "gan gyou"
             },
             {
                "kana" : "けん けい",
                "kana_classic" : "けん けい",
                "kana_modern" : "けん けい",
-               "latin" : "Kenkei",
-               "latin_macron" : "Kenkei",
-               "latin_normal" : "Kenkei"
+               "latin" : "ken kei",
+               "latin_macron" : "ken kei",
+               "latin_normal" : "ken kei"
             },
             {
                "kana" : "くわん きょう",
@@ -7182,17 +7182,17 @@
                   "ぐわん きゃう",
                   "ぐわん きわう"
                ],
-               "latin" : "Gankyō",
-               "latin_macron" : "Gankyō",
-               "latin_normal" : "Gankyou"
+               "latin" : "gan kyō",
+               "latin_macron" : "gan kyō",
+               "latin_normal" : "gan kyou"
             },
             {
                "kana" : "げん けい",
                "kana_classic" : "げん けい",
                "kana_modern" : "げん けい",
-               "latin" : "Genkei",
-               "latin_macron" : "Genkei",
-               "latin_normal" : "Genkei"
+               "latin" : "gen kei",
+               "latin_macron" : "gen kei",
+               "latin_normal" : "gen kei"
             }
          ],
          "jp_era" : 1,
@@ -7338,17 +7338,17 @@
                "kana" : "げん ぶん",
                "kana_classic" : "ぐゑん ぶん",
                "kana_modern" : "げん ぶん",
-               "latin" : "Gembun",
-               "latin_macron" : "Gembun",
-               "latin_normal" : "Gembun"
+               "latin" : "gem bun",
+               "latin_macron" : "gem bun",
+               "latin_normal" : "gem bun"
             },
             {
                "kana" : "けん ふん",
                "kana_classic" : "けん ふん",
                "kana_modern" : "けん ふん",
-               "latin" : "Kenfun",
-               "latin_macron" : "Kenfun",
-               "latin_normal" : "Kenfun"
+               "latin" : "ken fun",
+               "latin_macron" : "ken fun",
+               "latin_normal" : "ken fun"
             }
          ],
          "jp_era" : 1,
@@ -7484,9 +7484,9 @@
                   "げん りやく",
                   "ぐえん りやく"
                ],
-               "latin" : "Genryaku",
-               "latin_macron" : "Genryaku",
-               "latin_normal" : "Genryaku"
+               "latin" : "gen ryaku",
+               "latin_macron" : "gen ryaku",
+               "latin_normal" : "gen ryaku"
             },
             {
                "kana" : "けん りゃく",
@@ -7494,9 +7494,9 @@
                "kana_others" : [
                   "けん りやく"
                ],
-               "latin" : "Kenryaku",
-               "latin_macron" : "Kenryaku",
-               "latin_normal" : "Kenryaku"
+               "latin" : "ken ryaku",
+               "latin_macron" : "ken ryaku",
+               "latin_normal" : "ken ryaku"
             }
          ],
          "jp_era" : 1,
@@ -7658,17 +7658,17 @@
                "kana_others" : [
                   "ぐゑん えい"
                ],
-               "latin" : "Gen'ei",
-               "latin_macron" : "Gen'ei",
-               "latin_normal" : "Gen'ei"
+               "latin" : "gen ' ei",
+               "latin_macron" : "gen ' ei",
+               "latin_normal" : "gen ' ei"
             },
             {
                "kana" : "けん えい",
                "kana_classic" : "くえん えい",
                "kana_modern" : "けん えい",
-               "latin" : "Ken'ei",
-               "latin_macron" : "Ken'ei",
-               "latin_normal" : "Ken'ei"
+               "latin" : "ken ' ei",
+               "latin_macron" : "ken ' ei",
+               "latin_normal" : "ken ' ei"
             },
             {
                "kana" : "くえ ねい",
@@ -7807,9 +7807,9 @@
                "kana_others" : [
                   "げん ぢ"
                ],
-               "latin" : "Genji",
-               "latin_macron" : "Genji",
-               "latin_normal" : "Genji"
+               "latin" : "gen ji",
+               "latin_macron" : "gen ji",
+               "latin_normal" : "gen ji"
             }
          ],
          "jp_era" : 1,
@@ -8044,9 +8044,9 @@
                "kana" : "げん ろく",
                "kana_classic" : "ぐゑん ろく",
                "kana_modern" : "げん ろく",
-               "latin" : "Genroku",
-               "latin_macron" : "Genroku",
-               "latin_normal" : "Genroku"
+               "latin" : "gen roku",
+               "latin_macron" : "gen roku",
+               "latin_normal" : "gen roku"
             }
          ],
          "jp_era" : 1,
@@ -9824,17 +9824,17 @@
                "kana" : "わ どう",
                "kana_classic" : "わ どう",
                "kana_modern" : "わ どう",
-               "latin" : "Wadō",
-               "latin_macron" : "Wadō",
-               "latin_normal" : "Wadou"
+               "latin" : "wa dō",
+               "latin_macron" : "wa dō",
+               "latin_normal" : "wa dou"
             },
             {
                "kana" : "わ とう",
                "kana_classic" : "わ とう",
                "kana_modern" : "わ とう",
-               "latin" : "Watō",
-               "latin_macron" : "Watō",
-               "latin_normal" : "Watou"
+               "latin" : "wa tō",
+               "latin_macron" : "wa tō",
+               "latin_normal" : "wa tou"
             }
          ],
          "jp_era" : 1,
@@ -10475,9 +10475,9 @@
                "kana_others" : [
                   "か はう"
                ],
-               "latin" : "Kahō",
-               "latin_macron" : "Kahō",
-               "latin_normal" : "Kahou"
+               "latin" : "ka hō",
+               "latin_macron" : "ka hō",
+               "latin_normal" : "ka hou"
             }
          ],
          "jp_era" : 1,
@@ -10603,17 +10603,17 @@
                "kana_others" : [
                   "か ぐえん"
                ],
-               "latin" : "Kagen",
-               "latin_macron" : "Kagen",
-               "latin_normal" : "Kagen"
+               "latin" : "ka gen",
+               "latin_macron" : "ka gen",
+               "latin_normal" : "ka gen"
             },
             {
                "kana" : "か けん",
                "kana_classic" : "か けん",
                "kana_modern" : "か けん",
-               "latin" : "Kaken",
-               "latin_macron" : "Kaken",
-               "latin_normal" : "Kaken"
+               "latin" : "ka ken",
+               "latin_macron" : "ka ken",
+               "latin_normal" : "ka ken"
             }
          ],
          "jp_era" : 1,
@@ -10738,17 +10738,17 @@
                "kana" : "か きつ",
                "kana_classic" : "か きつ",
                "kana_modern" : "か きつ",
-               "latin" : "Kakitsu",
-               "latin_macron" : "Kakitsu",
-               "latin_normal" : "Kakitsu"
+               "latin" : "ka kitsu",
+               "latin_macron" : "ka kitsu",
+               "latin_normal" : "ka kitsu"
             },
             {
                "kana" : "か きち",
                "kana_classic" : "か きち",
                "kana_modern" : "か きち",
-               "latin" : "Kakichi",
-               "latin_macron" : "Kakichi",
-               "latin_normal" : "Kakichi"
+               "latin" : "ka kichi",
+               "latin_macron" : "ka kichi",
+               "latin_normal" : "ka kichi"
             }
          ],
          "jp_era" : 1,
@@ -10970,9 +10970,9 @@
                   "か をう",
                   "か わう"
                ],
-               "latin" : "Kaō",
-               "latin_macron" : "Kaō",
-               "latin_normal" : "Kaou"
+               "latin" : "ka ō",
+               "latin_macron" : "ka ō",
+               "latin_normal" : "ka ou"
             }
          ],
          "jp_era" : 1,
@@ -11082,9 +11082,9 @@
                "kana" : "か けい",
                "kana_classic" : "か けい",
                "kana_modern" : "か けい",
-               "latin" : "Kakei",
-               "latin_macron" : "Kakei",
-               "latin_normal" : "Kakei"
+               "latin" : "ka kei",
+               "latin_macron" : "ka kei",
+               "latin_normal" : "ka kei"
             },
             {
                "kana" : "か きょう",
@@ -11093,9 +11093,9 @@
                "kana_others" : [
                   "か きやう"
                ],
-               "latin" : "Kakyō",
-               "latin_macron" : "Kakyō",
-               "latin_normal" : "Kakyou"
+               "latin" : "ka kyō",
+               "latin_macron" : "ka kyō",
+               "latin_normal" : "ka kyou"
             }
          ],
          "jp_north_era" : 1,
@@ -11259,9 +11259,9 @@
                "kana" : "か しょう",
                "kana_classic" : "か せう",
                "kana_modern" : "か しょう",
-               "latin" : "Kashō",
-               "latin_macron" : "Kashō",
-               "latin_normal" : "Kashou"
+               "latin" : "ka shō",
+               "latin_macron" : "ka shō",
+               "latin_normal" : "ka shou"
             },
             {
                "kana" : "か じょう",
@@ -11270,17 +11270,17 @@
                "kana_others" : [
                   "か ぜう"
                ],
-               "latin" : "Kajō",
-               "latin_macron" : "Kajō",
-               "latin_normal" : "Kajou"
+               "latin" : "ka jō",
+               "latin_macron" : "ka jō",
+               "latin_normal" : "ka jou"
             },
             {
                "kana" : "か そう",
                "kana_classic" : "か そう",
                "kana_modern" : "か そう",
-               "latin" : "Kasō",
-               "latin_macron" : "Kasō",
-               "latin_normal" : "Kasou"
+               "latin" : "ka sō",
+               "latin_macron" : "ka sō",
+               "latin_normal" : "ka sou"
             }
          ],
          "jp_era" : 1,
@@ -11420,17 +11420,17 @@
                "kana" : "か りゃく",
                "kana_classic" : "か りやく",
                "kana_modern" : "か りゃく",
-               "latin" : "Karyaku",
-               "latin_macron" : "Karyaku",
-               "latin_normal" : "Karyaku"
+               "latin" : "ka ryaku",
+               "latin_macron" : "ka ryaku",
+               "latin_normal" : "ka ryaku"
             },
             {
                "kana" : "か れき",
                "kana_classic" : "か れき",
                "kana_modern" : "か れき",
-               "latin" : "Kareki",
-               "latin_macron" : "Kareki",
-               "latin_normal" : "Kareki"
+               "latin" : "ka reki",
+               "latin_macron" : "ka reki",
+               "latin_normal" : "ka reki"
             }
          ],
          "jp_era" : 1,
@@ -11577,9 +11577,9 @@
                "kana" : "か えい",
                "kana_classic" : "か えい",
                "kana_modern" : "か えい",
-               "latin" : "Kaei",
-               "latin_macron" : "Kaei",
-               "latin_normal" : "Kaei"
+               "latin" : "ka ei",
+               "latin_macron" : "ka ei",
+               "latin_normal" : "ka ei"
             }
          ],
          "jp_era" : 1,
@@ -11775,17 +11775,17 @@
                "kana_others" : [
                   "か しよう"
                ],
-               "latin" : "Kashō",
-               "latin_macron" : "Kashō",
-               "latin_normal" : "Kashou"
+               "latin" : "ka shō",
+               "latin_macron" : "ka shō",
+               "latin_normal" : "ka shou"
             },
             {
                "kana" : "か じょう",
                "kana_classic" : "か じやう",
                "kana_modern" : "か じょう",
-               "latin" : "Kajō",
-               "latin_macron" : "Kajō",
-               "latin_normal" : "Kajou"
+               "latin" : "ka jō",
+               "latin_macron" : "ka jō",
+               "latin_normal" : "ka jou"
             }
          ],
          "jp_era" : 1,
@@ -11941,9 +11941,9 @@
                "kana" : "か ろく",
                "kana_classic" : "か ろく",
                "kana_modern" : "か ろく",
-               "latin" : "Karoku",
-               "latin_macron" : "Karoku",
-               "latin_normal" : "Karoku"
+               "latin" : "ka roku",
+               "latin_macron" : "ka roku",
+               "latin_normal" : "ka roku"
             }
          ],
          "jp_era" : 1,
@@ -12107,9 +12107,9 @@
                "kana" : "か てい",
                "kana_classic" : "か てい",
                "kana_modern" : "か てい",
-               "latin" : "Katei",
-               "latin_macron" : "Katei",
-               "latin_normal" : "Katei"
+               "latin" : "ka tei",
+               "latin_macron" : "ka tei",
+               "latin_normal" : "ka tei"
             }
          ],
          "jp_era" : 1,
@@ -12697,17 +12697,17 @@
                "kana" : "たい か",
                "kana_classic" : "たい くわ",
                "kana_modern" : "たい か",
-               "latin" : "Taika",
-               "latin_macron" : "Taika",
-               "latin_normal" : "Taika"
+               "latin" : "tai ka",
+               "latin_macron" : "tai ka",
+               "latin_normal" : "tai ka"
             },
             {
                "kana" : "だい か",
                "kana_classic" : "だい くわ",
                "kana_modern" : "だい か",
-               "latin" : "Daika",
-               "latin_macron" : "Daika",
-               "latin_normal" : "Daika"
+               "latin" : "dai ka",
+               "latin_macron" : "dai ka",
+               "latin_normal" : "dai ka"
             }
          ],
          "jp_era" : 1,
@@ -12850,25 +12850,25 @@
                "kana" : "だい どう",
                "kana_classic" : "だい どう",
                "kana_modern" : "だい どう",
-               "latin" : "Daidō",
-               "latin_macron" : "Daidō",
-               "latin_normal" : "Daidou"
+               "latin" : "dai dō",
+               "latin_macron" : "dai dō",
+               "latin_normal" : "dai dou"
             },
             {
                "kana" : "たい どう",
                "kana_classic" : "たい どう",
                "kana_modern" : "たい どう",
-               "latin" : "Taidō",
-               "latin_macron" : "Taidō",
-               "latin_normal" : "Taidou"
+               "latin" : "tai dō",
+               "latin_macron" : "tai dō",
+               "latin_normal" : "tai dou"
             },
             {
                "kana" : "たい とう",
                "kana_classic" : "たい とう",
                "kana_modern" : "たい とう",
-               "latin" : "Taitō",
-               "latin_macron" : "Taitō",
-               "latin_normal" : "Taitou"
+               "latin" : "tai tō",
+               "latin_macron" : "tai tō",
+               "latin_normal" : "tai tou"
             }
          ],
          "jp_era" : 1,
@@ -13273,17 +13273,17 @@
                "kana_others" : [
                   "たい はう"
                ],
-               "latin" : "Taihō",
-               "latin_macron" : "Taihō",
-               "latin_normal" : "Taihou"
+               "latin" : "tai hō",
+               "latin_macron" : "tai hō",
+               "latin_normal" : "tai hou"
             },
             {
                "kana" : "だい ほう",
                "kana_classic" : "だい ほう",
                "kana_modern" : "だい ほう",
-               "latin" : "Daihō",
-               "latin_macron" : "Daihō",
-               "latin_normal" : "Daihou"
+               "latin" : "dai hō",
+               "latin_macron" : "dai hō",
+               "latin_normal" : "dai hou"
             }
          ],
          "jp_era" : 1,
@@ -14021,8 +14021,8 @@
                   "たい しゃう"
                ],
                "latin" : "Taisho",
-               "latin_macron" : "Taishō",
-               "latin_normal" : "Taishou",
+               "latin_macron" : "tai shō",
+               "latin_normal" : "tai shou",
                "latin_others" : [
                   "Taisho"
                ]
@@ -14264,17 +14264,17 @@
                "kana" : "だい えい",
                "kana_classic" : "だい えい",
                "kana_modern" : "だい えい",
-               "latin" : "Daiei",
-               "latin_macron" : "Daiei",
-               "latin_normal" : "Daiei"
+               "latin" : "dai ei",
+               "latin_macron" : "dai ei",
+               "latin_normal" : "dai ei"
             },
             {
                "kana" : "たい えい",
                "kana_classic" : "たい えい",
                "kana_modern" : "たい えい",
-               "latin" : "Taiei",
-               "latin_macron" : "Taiei",
-               "latin_normal" : "Taiei"
+               "latin" : "tai ei",
+               "latin_macron" : "tai ei",
+               "latin_normal" : "tai ei"
             }
          ],
          "jp_era" : 1,
@@ -14402,25 +14402,25 @@
                "kana" : "だい じ",
                "kana_classic" : "だい ぢ",
                "kana_modern" : "だい じ",
-               "latin" : "Daiji",
-               "latin_macron" : "Daiji",
-               "latin_normal" : "Daiji"
+               "latin" : "dai ji",
+               "latin_macron" : "dai ji",
+               "latin_normal" : "dai ji"
             },
             {
                "kana" : "たい じ",
                "kana_classic" : "たい ぢ",
                "kana_modern" : "たい じ",
-               "latin" : "Taiji",
-               "latin_macron" : "Taiji",
-               "latin_normal" : "Taiji"
+               "latin" : "tai ji",
+               "latin_macron" : "tai ji",
+               "latin_normal" : "tai ji"
             },
             {
                "kana" : "たい ち",
                "kana_classic" : "たい ち",
                "kana_modern" : "たい ち",
-               "latin" : "Taichi",
-               "latin_macron" : "Taichi",
-               "latin_normal" : "Taichi"
+               "latin" : "tai chi",
+               "latin_macron" : "tai chi",
+               "latin_normal" : "tai chi"
             }
          ],
          "jp_era" : 1,
@@ -14952,9 +14952,9 @@
                "kana" : "てん にん",
                "kana_classic" : "てん にん",
                "kana_modern" : "てん にん",
-               "latin" : "Tennin",
-               "latin_macron" : "Tennin",
-               "latin_normal" : "Tennin"
+               "latin" : "ten nin",
+               "latin_macron" : "ten nin",
+               "latin_normal" : "ten nin"
             }
          ],
          "jp_era" : 1,
@@ -15076,25 +15076,25 @@
                "kana" : "てん ぽう",
                "kana_classic" : "てん ぽう",
                "kana_modern" : "てん ぽう",
-               "latin" : "Tempō",
-               "latin_macron" : "Tempō",
-               "latin_normal" : "Tempou"
+               "latin" : "tem pō",
+               "latin_macron" : "tem pō",
+               "latin_normal" : "tem pou"
             },
             {
                "kana" : "てん ほう",
                "kana_classic" : "てん ほう",
                "kana_modern" : "てん ほう",
-               "latin" : "Tenhō",
-               "latin_macron" : "Tenhō",
-               "latin_normal" : "Tenhou"
+               "latin" : "ten hō",
+               "latin_macron" : "ten hō",
+               "latin_normal" : "ten hou"
             },
             {
                "kana" : "てん ぽ",
                "kana_classic" : "てん ぽ",
                "kana_modern" : "てん ぽ",
-               "latin" : "Tempo",
-               "latin_macron" : "Tempo",
-               "latin_normal" : "Tempo"
+               "latin" : "tem po",
+               "latin_macron" : "tem po",
+               "latin_normal" : "tem po"
             }
          ],
          "jp_era" : 1,
@@ -15298,25 +15298,25 @@
                "kana_others" : [
                   "てん ぐゑん"
                ],
-               "latin" : "Tengen",
-               "latin_macron" : "Tengen",
-               "latin_normal" : "Tengen"
+               "latin" : "ten gen",
+               "latin_macron" : "ten gen",
+               "latin_normal" : "ten gen"
             },
             {
                "kana" : "てん けん",
                "kana_classic" : "てん けん",
                "kana_modern" : "てん けん",
-               "latin" : "Tenken",
-               "latin_macron" : "Tenken",
-               "latin_normal" : "Tenken"
+               "latin" : "ten ken",
+               "latin_macron" : "ten ken",
+               "latin_normal" : "ten ken"
             },
             {
                "kana" : "てん ぐん",
                "kana_classic" : "てん ぐん",
                "kana_modern" : "てん ぐん",
-               "latin" : "Tengun",
-               "latin_macron" : "Tengun",
-               "latin_normal" : "Tengun"
+               "latin" : "ten gun",
+               "latin_macron" : "ten gun",
+               "latin_normal" : "ten gun"
             }
          ],
          "jp_era" : 1,
@@ -15590,17 +15590,17 @@
                "kana" : "てん な",
                "kana_classic" : "てん な",
                "kana_modern" : "てん な",
-               "latin" : "Tenna",
-               "latin_macron" : "Tenna",
-               "latin_normal" : "Tenna"
+               "latin" : "ten na",
+               "latin_macron" : "ten na",
+               "latin_normal" : "ten na"
             },
             {
                "kana" : "てん わ",
                "kana_classic" : "てん わ",
                "kana_modern" : "てん わ",
-               "latin" : "Tenwa",
-               "latin_macron" : "Tenwa",
-               "latin_normal" : "Tenwa"
+               "latin" : "ten wa",
+               "latin_macron" : "ten wa",
+               "latin_normal" : "ten wa"
             }
          ],
          "jp_era" : 1,
@@ -15840,17 +15840,17 @@
                "kana" : "てん ぎ",
                "kana_classic" : "てん ぎ",
                "kana_modern" : "てん ぎ",
-               "latin" : "Tengi",
-               "latin_macron" : "Tengi",
-               "latin_normal" : "Tengi"
+               "latin" : "ten gi",
+               "latin_macron" : "ten gi",
+               "latin_normal" : "ten gi"
             },
             {
                "kana" : "てん き",
                "kana_classic" : "てん き",
                "kana_modern" : "てん き",
-               "latin" : "Tenki",
-               "latin_macron" : "Tenki",
-               "latin_normal" : "Tenki"
+               "latin" : "ten ki",
+               "latin_macron" : "ten ki",
+               "latin_normal" : "ten ki"
             }
          ],
          "jp_era" : 1,
@@ -16266,17 +16266,17 @@
                "kana" : "てん あん",
                "kana_classic" : "てん あん",
                "kana_modern" : "てん あん",
-               "latin" : "Ten'an",
-               "latin_macron" : "Ten'an",
-               "latin_normal" : "Ten'an"
+               "latin" : "ten ' an",
+               "latin_macron" : "ten ' an",
+               "latin_normal" : "ten ' an"
             },
             {
                "kana" : "てん なん",
                "kana_classic" : "てん なん",
                "kana_modern" : "てん なん",
-               "latin" : "Tennan",
-               "latin_macron" : "Tennan",
-               "latin_normal" : "Tennan"
+               "latin" : "ten nan",
+               "latin_macron" : "ten nan",
+               "latin_normal" : "ten nan"
             }
          ],
          "jp_era" : 1,
@@ -16581,9 +16581,9 @@
                "kana_others" : [
                   "てん ぴよう"
                ],
-               "latin" : "Tempyō",
-               "latin_macron" : "Tempyō",
-               "latin_normal" : "Tempyou"
+               "latin" : "tem pyō",
+               "latin_macron" : "tem pyō",
+               "latin_normal" : "tem pyou"
             },
             {
                "kana" : "てん びょう",
@@ -16593,33 +16593,33 @@
                   "てん びゃう",
                   "てん びわう"
                ],
-               "latin" : "Tembyō",
-               "latin_macron" : "Tembyō",
-               "latin_normal" : "Tembyou"
+               "latin" : "tem byō",
+               "latin_macron" : "tem byō",
+               "latin_normal" : "tem byou"
             },
             {
                "kana" : "てん へい",
                "kana_classic" : "てん へい",
                "kana_modern" : "てん へい",
-               "latin" : "Tenhei",
-               "latin_macron" : "Tenhei",
-               "latin_normal" : "Tenhei"
+               "latin" : "ten hei",
+               "latin_macron" : "ten hei",
+               "latin_normal" : "ten hei"
             },
             {
                "kana" : "てん へう",
                "kana_classic" : "てん へう",
                "kana_modern" : "てん へう",
-               "latin" : "Tenheu",
-               "latin_macron" : "Tenheu",
-               "latin_normal" : "Tenheu"
+               "latin" : "ten heu",
+               "latin_macron" : "ten heu",
+               "latin_normal" : "ten heu"
             },
             {
                "kana" : "てん ぺい",
                "kana_classic" : "てん ぺい",
                "kana_modern" : "てん ぺい",
-               "latin" : "Tempei",
-               "latin_macron" : "Tempei",
-               "latin_normal" : "Tempei"
+               "latin" : "tem pei",
+               "latin_macron" : "tem pei",
+               "latin_normal" : "tem pei"
             }
          ],
          "jp_era" : 1,
@@ -16761,17 +16761,17 @@
                   "てん ぴよう しよう ほう",
                   "てん ぴやう せう ほう"
                ],
-               "latin" : "Tempyō-shōhō",
-               "latin_macron" : "Tempyō-shōhō",
-               "latin_normal" : "Tempyou-shouhou"
+               "latin" : "tem pyō - shō hō",
+               "latin_macron" : "tem pyō - shō hō",
+               "latin_normal" : "tem pyou - shou hou"
             },
             {
                "kana" : "てん びょう しょう ぼう",
                "kana_classic" : "てん びやう しよう ぼう",
                "kana_modern" : "てん びょう しょう ぼう",
-               "latin" : "Tembyō-shōbō",
-               "latin_macron" : "Tembyō-shōbō",
-               "latin_normal" : "Tembyou-shoubou"
+               "latin" : "tem byō - shō bō",
+               "latin_macron" : "tem byō - shō bō",
+               "latin_normal" : "tem byou - shou bou"
             },
             {
                "kana" : "てん びょう しょう ほう",
@@ -16781,17 +16781,17 @@
                   "てん びやう しよう ほう",
                   "てん びやう しよう はう"
                ],
-               "latin" : "Tembyō-shōhō",
-               "latin_macron" : "Tembyō-shōhō",
-               "latin_normal" : "Tembyou-shouhou"
+               "latin" : "tem byō - shō hō",
+               "latin_macron" : "tem byō - shō hō",
+               "latin_normal" : "tem byou - shou hou"
             },
             {
                "kana" : "てん ぺい しょう ほう",
                "kana_classic" : "てん ぺい せう ほう",
                "kana_modern" : "てん ぺい しょう ほう",
-               "latin" : "Tempei-shōhō",
-               "latin_macron" : "Tempei-shōhō",
-               "latin_normal" : "Tempei-shouhou"
+               "latin" : "tem pei - shō hō",
+               "latin_macron" : "tem pei - shō hō",
+               "latin_normal" : "tem pei - shou hou"
             },
             {
                "kana" : "てん へう せう ほう",
@@ -16801,9 +16801,9 @@
                "kana" : "てん ぺい せい ほう",
                "kana_classic" : "てん ぺい せい ほう",
                "kana_modern" : "てん ぺい せい ほう",
-               "latin" : "Tempei-seihō",
-               "latin_macron" : "Tempei-seihō",
-               "latin_normal" : "Tempei-seihou"
+               "latin" : "tem pei - sei hō",
+               "latin_macron" : "tem pei - sei hō",
+               "latin_normal" : "tem pei - sei hou"
             }
          ],
          "jp_era" : 1,
@@ -16949,9 +16949,9 @@
                "kana_others" : [
                   "てん ぴよう ほう じ"
                ],
-               "latin" : "Tempyō-hōji",
-               "latin_macron" : "Tempyō-hōji",
-               "latin_normal" : "Tempyou-houji"
+               "latin" : "tem pyō - hō ji",
+               "latin_macron" : "tem pyō - hō ji",
+               "latin_normal" : "tem pyou - hou ji"
             },
             {
                "kana" : "てん びょう ほう じ",
@@ -16960,17 +16960,17 @@
                "kana_others" : [
                   "てん びやう はう じ"
                ],
-               "latin" : "Tembyō-hōji",
-               "latin_macron" : "Tembyō-hōji",
-               "latin_normal" : "Tembyou-houji"
+               "latin" : "tem byō - hō ji",
+               "latin_macron" : "tem byō - hō ji",
+               "latin_normal" : "tem byou - hou ji"
             },
             {
                "kana" : "てん ぺい ほう じ",
                "kana_classic" : "てん ぺい ほう じ",
                "kana_modern" : "てん ぺい ほう じ",
-               "latin" : "Tempei-hōji",
-               "latin_macron" : "Tempei-hōji",
-               "latin_normal" : "Tempei-houji"
+               "latin" : "tem pei - hō ji",
+               "latin_macron" : "tem pei - hō ji",
+               "latin_normal" : "tem pei - hou ji"
             }
          ],
          "jp_era" : 1,
@@ -17095,32 +17095,32 @@
                "kana_others" : [
                   "てん ぴよう かん ぽう"
                ],
-               "latin" : "Tempyō-kampō",
-               "latin_macron" : "Tempyō-kampō",
-               "latin_normal" : "Tempyou-kampou"
+               "latin" : "tem pyō - kam pō",
+               "latin_macron" : "tem pyō - kam pō",
+               "latin_normal" : "tem pyou - kam pou"
             },
             {
                "kana" : "てん びょう かん ぽう",
                "kana_classic" : "てん びやう かん ぽう",
                "kana_modern" : "てん びょう かん ぽう",
-               "latin" : "Tembyō-kampō",
-               "latin_macron" : "Tembyō-kampō",
-               "latin_normal" : "Tembyou-kampou"
+               "latin" : "tem byō - kam pō",
+               "latin_macron" : "tem byō - kam pō",
+               "latin_normal" : "tem byou - kam pou"
             },
             {
                "kana" : "てん ぴょう かん ほう",
                "kana_modern" : "てん ぴょう かん ほう",
-               "latin" : "Tempyō-kanhō",
-               "latin_macron" : "Tempyō-kanhō",
-               "latin_normal" : "Tempyou-kanhou"
+               "latin" : "tem pyō - kan hō",
+               "latin_macron" : "tem pyō - kan hō",
+               "latin_normal" : "tem pyou - kan hou"
             },
             {
                "kana" : "てん ぺい かん ほう",
                "kana_classic" : "てん ぺい かん ほう",
                "kana_modern" : "てん ぺい かん ほう",
-               "latin" : "Tempei-kanhō",
-               "latin_macron" : "Tempei-kanhō",
-               "latin_normal" : "Tempei-kanhou"
+               "latin" : "tem pei - kan hō",
+               "latin_macron" : "tem pei - kan hō",
+               "latin_normal" : "tem pei - kan hou"
             },
             {
                "kana" : "てん びょう かん ほう",
@@ -17128,9 +17128,9 @@
                "kana_others" : [
                   "てん びやう かん はう"
                ],
-               "latin" : "Tembyō-kanhō",
-               "latin_macron" : "Tembyō-kanhō",
-               "latin_normal" : "Tembyou-kanhou"
+               "latin" : "tem byō - kan hō",
+               "latin_macron" : "tem byō - kan hō",
+               "latin_normal" : "tem byou - kan hou"
             }
          ],
          "jp_era" : 1,
@@ -17289,54 +17289,54 @@
                "kana_others" : [
                   "てん ぴよう じん ご"
                ],
-               "latin" : "Tempyō-jingo",
-               "latin_macron" : "Tempyō-jingo",
-               "latin_normal" : "Tempyou-jingo"
+               "latin" : "tem pyō - jin go",
+               "latin_macron" : "tem pyō - jin go",
+               "latin_normal" : "tem pyou - jin go"
             },
             {
                "kana" : "てん びょう じん ご",
                "kana_classic" : "てん びやう じん ご",
                "kana_modern" : "てん びょう じん ご",
-               "latin" : "Tembyō-jingo",
-               "latin_macron" : "Tembyō-jingo",
-               "latin_normal" : "Tembyou-jingo"
+               "latin" : "tem byō - jin go",
+               "latin_macron" : "tem byō - jin go",
+               "latin_normal" : "tem byou - jin go"
             },
             {
                "kana" : "てん ぺい じん ご",
                "kana_classic" : "てん ぺい じん ご",
                "kana_modern" : "てん ぺい じん ご",
-               "latin" : "Tempei-jingo",
-               "latin_macron" : "Tempei-jingo",
-               "latin_normal" : "Tempei-jingo"
+               "latin" : "tem pei - jin go",
+               "latin_macron" : "tem pei - jin go",
+               "latin_normal" : "tem pei - jin go"
             },
             {
                "kana" : "てん ぴょう しん こ",
                "kana_modern" : "てん ぴょう しん こ",
-               "latin" : "Tempyō-shinko",
-               "latin_macron" : "Tempyō-shinko",
-               "latin_normal" : "Tempyou-shinko"
+               "latin" : "tem pyō - shin ko",
+               "latin_macron" : "tem pyō - shin ko",
+               "latin_normal" : "tem pyou - shin ko"
             },
             {
                "kana" : "てん へい じん ご",
                "kana_classic" : "てん へい じん ご",
                "kana_modern" : "てん へい じん ご",
-               "latin" : "Tenhei-jingo",
-               "latin_macron" : "Tenhei-jingo",
-               "latin_normal" : "Tenhei-jingo"
+               "latin" : "ten hei - jin go",
+               "latin_macron" : "ten hei - jin go",
+               "latin_normal" : "ten hei - jin go"
             },
             {
                "kana" : "てん ぴょう しん ご",
                "kana_modern" : "てん ぴょう しん ご",
-               "latin" : "Tempyō-shingo",
-               "latin_macron" : "Tempyō-shingo",
-               "latin_normal" : "Tempyou-shingo"
+               "latin" : "tem pyō - shin go",
+               "latin_macron" : "tem pyō - shin go",
+               "latin_normal" : "tem pyou - shin go"
             },
             {
                "kana" : "てん びょう しん ご",
                "kana_modern" : "てん びょう しん ご",
-               "latin" : "Tembyō-shingo",
-               "latin_macron" : "Tembyō-shingo",
-               "latin_normal" : "Tembyou-shingo"
+               "latin" : "tem byō - shin go",
+               "latin_macron" : "tem byō - shin go",
+               "latin_normal" : "tem byou - shin go"
             }
          ],
          "jp_era" : 1,
@@ -17500,17 +17500,17 @@
                "kana" : "てん えん",
                "kana_classic" : "てん えん",
                "kana_modern" : "てん えん",
-               "latin" : "Ten'en",
-               "latin_macron" : "Ten'en",
-               "latin_normal" : "Ten'en"
+               "latin" : "ten ' en",
+               "latin_macron" : "ten ' en",
+               "latin_normal" : "ten ' en"
             },
             {
                "kana" : "てん ねん",
                "kana_classic" : "てん ねん",
                "kana_modern" : "てん ねん",
-               "latin" : "Tennen",
-               "latin_macron" : "Tennen",
-               "latin_normal" : "Tennen"
+               "latin" : "ten nen",
+               "latin_macron" : "ten nen",
+               "latin_normal" : "ten nen"
             }
          ],
          "jp_era" : 1,
@@ -17714,9 +17714,9 @@
                "kana" : "てん とく",
                "kana_classic" : "てん とく",
                "kana_modern" : "てん とく",
-               "latin" : "Tentoku",
-               "latin_macron" : "Tentoku",
-               "latin_normal" : "Tentoku"
+               "latin" : "ten toku",
+               "latin_macron" : "ten toku",
+               "latin_normal" : "ten toku"
             }
          ],
          "jp_era" : 1,
@@ -17965,17 +17965,17 @@
                   "てん をう",
                   "てん わう"
                ],
-               "latin" : "Ten'ō",
-               "latin_macron" : "Ten'ō",
-               "latin_normal" : "Ten'ou"
+               "latin" : "ten ' ō",
+               "latin_macron" : "ten ' ō",
+               "latin_normal" : "ten ' ou"
             },
             {
                "kana" : "てん のう",
                "kana_classic" : "てん のう",
                "kana_modern" : "てん のう",
-               "latin" : "Tennō",
-               "latin_macron" : "Tennō",
-               "latin_normal" : "Tennou"
+               "latin" : "ten nō",
+               "latin_macron" : "ten nō",
+               "latin_normal" : "ten nou"
             }
          ],
          "jp_era" : 1,
@@ -18144,25 +18144,25 @@
                "kana_others" : [
                   "てん ぎよう"
                ],
-               "latin" : "Tengyō",
-               "latin_macron" : "Tengyō",
-               "latin_normal" : "Tengyou"
+               "latin" : "ten gyō",
+               "latin_macron" : "ten gyō",
+               "latin_normal" : "ten gyou"
             },
             {
                "kana" : "てん きょう",
                "kana_classic" : "てん きやう",
                "kana_modern" : "てん きょう",
-               "latin" : "Tenkyō",
-               "latin_macron" : "Tenkyō",
-               "latin_normal" : "Tenkyou"
+               "latin" : "ten kyō",
+               "latin_macron" : "ten kyō",
+               "latin_normal" : "ten kyou"
             },
             {
                "kana" : "てん けい",
                "kana_classic" : "てん けい",
                "kana_modern" : "てん けい",
-               "latin" : "Tenkei",
-               "latin_macron" : "Tenkei",
-               "latin_normal" : "Tenkei"
+               "latin" : "ten kei",
+               "latin_macron" : "ten kei",
+               "latin_normal" : "ten kei"
             }
          ],
          "jp_era" : 1,
@@ -18500,9 +18500,9 @@
                "kana_others" : [
                   "てん せう"
                ],
-               "latin" : "Tenshō",
-               "latin_macron" : "Tenshō",
-               "latin_normal" : "Tenshou"
+               "latin" : "ten shō",
+               "latin_macron" : "ten shō",
+               "latin_normal" : "ten shou"
             },
             {
                "kana" : "てん じょう",
@@ -18511,9 +18511,9 @@
                "kana_others" : [
                   "てん ぜう"
                ],
-               "latin" : "Tenjō",
-               "latin_macron" : "Tenjō",
-               "latin_normal" : "Tenjou"
+               "latin" : "ten jō",
+               "latin_macron" : "ten jō",
+               "latin_normal" : "ten jou"
             }
          ],
          "jp_era" : 1,
@@ -18649,9 +18649,9 @@
                "kana" : "てん じゅ",
                "kana_classic" : "てん じゆ",
                "kana_modern" : "てん じゅ",
-               "latin" : "Tenju",
-               "latin_macron" : "Tenju",
-               "latin_normal" : "Tenju"
+               "latin" : "ten ju",
+               "latin_macron" : "ten ju",
+               "latin_normal" : "ten ju"
             }
          ],
          "jp_south_era" : 1,
@@ -18944,9 +18944,9 @@
                "kana" : "てん ぶん",
                "kana_classic" : "てん ぶん",
                "kana_modern" : "てん ぶん",
-               "latin" : "Tembun",
-               "latin_macron" : "Tembun",
-               "latin_normal" : "Tembun"
+               "latin" : "tem bun",
+               "latin_macron" : "tem bun",
+               "latin_normal" : "tem bun"
             }
          ],
          "jp_era" : 1,
@@ -19068,9 +19068,9 @@
                "kana" : "てん めい",
                "kana_classic" : "てん めい",
                "kana_modern" : "てん めい",
-               "latin" : "Temmei",
-               "latin_macron" : "Temmei",
-               "latin_normal" : "Temmei"
+               "latin" : "tem mei",
+               "latin_macron" : "tem mei",
+               "latin_normal" : "tem mei"
             }
          ],
          "jp_era" : 1,
@@ -19327,17 +19327,17 @@
                "kana" : "てん りゃく",
                "kana_classic" : "てん りやく",
                "kana_modern" : "てん りゃく",
-               "latin" : "Tenryaku",
-               "latin_macron" : "Tenryaku",
-               "latin_normal" : "Tenryaku"
+               "latin" : "ten ryaku",
+               "latin_macron" : "ten ryaku",
+               "latin_normal" : "ten ryaku"
             },
             {
                "kana" : "てん れき",
                "kana_classic" : "てん れき",
                "kana_modern" : "てん れき",
-               "latin" : "Tenreki",
-               "latin_macron" : "Tenreki",
-               "latin_normal" : "Tenreki"
+               "latin" : "ten reki",
+               "latin_macron" : "ten reki",
+               "latin_normal" : "ten reki"
             }
          ],
          "jp_era" : 1,
@@ -19561,9 +19561,9 @@
                "kana_others" : [
                   "てん しよう"
                ],
-               "latin" : "Tenshō",
-               "latin_macron" : "Tenshō",
-               "latin_normal" : "Tenshou"
+               "latin" : "ten shō",
+               "latin_macron" : "ten shō",
+               "latin_normal" : "ten shou"
             }
          ],
          "jp_era" : 1,
@@ -19873,9 +19873,9 @@
                "kana" : "てん えい",
                "kana_classic" : "てん えい",
                "kana_modern" : "てん えい",
-               "latin" : "Ten'ei",
-               "latin_macron" : "Ten'ei",
-               "latin_normal" : "Ten'ei"
+               "latin" : "ten ' ei",
+               "latin_macron" : "ten ' ei",
+               "latin_normal" : "ten ' ei"
             },
             {
                "kana" : "てん やう",
@@ -20007,17 +20007,17 @@
                "kana" : "てん じ",
                "kana_classic" : "てん ぢ",
                "kana_modern" : "てん じ",
-               "latin" : "Tenji",
-               "latin_macron" : "Tenji",
-               "latin_normal" : "Tenji"
+               "latin" : "ten ji",
+               "latin_macron" : "ten ji",
+               "latin_normal" : "ten ji"
             },
             {
                "kana" : "てん ち",
                "kana_classic" : "てん ち",
                "kana_modern" : "てん ち",
-               "latin" : "Tenchi",
-               "latin_macron" : "Tenchi",
-               "latin_normal" : "Tenchi"
+               "latin" : "ten chi",
+               "latin_macron" : "ten chi",
+               "latin_normal" : "ten chi"
             }
          ],
          "jp_era" : 1,
@@ -20490,9 +20490,9 @@
                "kana" : "てん ろく",
                "kana_classic" : "てん ろく",
                "kana_modern" : "てん ろく",
-               "latin" : "Tenroku",
-               "latin_macron" : "Tenroku",
-               "latin_normal" : "Tenroku"
+               "latin" : "ten roku",
+               "latin_macron" : "ten roku",
+               "latin_normal" : "ten roku"
             }
          ],
          "jp_era" : 1,
@@ -20616,17 +20616,17 @@
                "kana" : "てん ぷく",
                "kana_classic" : "てん ぷく",
                "kana_modern" : "てん ぷく",
-               "latin" : "Tempuku",
-               "latin_macron" : "Tempuku",
-               "latin_normal" : "Tempuku"
+               "latin" : "tem puku",
+               "latin_macron" : "tem puku",
+               "latin_normal" : "tem puku"
             },
             {
                "kana" : "てん ふく",
                "kana_classic" : "てん ふく",
                "kana_modern" : "てん ふく",
-               "latin" : "Tenfuku",
-               "latin_macron" : "Tenfuku",
-               "latin_normal" : "Tenfuku"
+               "latin" : "ten fuku",
+               "latin_macron" : "ten fuku",
+               "latin_normal" : "ten fuku"
             }
          ],
          "jp_era" : 1,
@@ -21581,9 +21581,9 @@
                "kana_others" : [
                   "てん ちよう"
                ],
-               "latin" : "Tenchō",
-               "latin_macron" : "Tenchō",
-               "latin_normal" : "Tenchou"
+               "latin" : "ten chō",
+               "latin_macron" : "ten chō",
+               "latin_normal" : "ten chou"
             },
             {
                "kana" : "てん じやう",
@@ -21943,17 +21943,17 @@
                "kana" : "てん よう",
                "kana_classic" : "てん やう",
                "kana_modern" : "てん よう",
-               "latin" : "Ten'yō",
-               "latin_macron" : "Ten'yō",
-               "latin_normal" : "Ten'you"
+               "latin" : "ten ' yō",
+               "latin_macron" : "ten ' yō",
+               "latin_normal" : "ten ' you"
             },
             {
                "kana" : "てん にょう",
                "kana_classic" : "てん にやう",
                "kana_modern" : "てん にょう",
-               "latin" : "Tennyō",
-               "latin_macron" : "Tennyō",
-               "latin_normal" : "Tennyou"
+               "latin" : "ten nyō",
+               "latin_macron" : "ten nyō",
+               "latin_normal" : "ten nyou"
             }
          ],
          "jp_era" : 1,
@@ -23798,17 +23798,17 @@
                "kana_others" : [
                   "あん ぐえん"
                ],
-               "latin" : "Angen",
-               "latin_macron" : "Angen",
-               "latin_normal" : "Angen"
+               "latin" : "an gen",
+               "latin_macron" : "an gen",
+               "latin_normal" : "an gen"
             },
             {
                "kana" : "あん けん",
                "kana_classic" : "あん けん",
                "kana_modern" : "あん けん",
-               "latin" : "Anken",
-               "latin_macron" : "Anken",
-               "latin_normal" : "Anken"
+               "latin" : "an ken",
+               "latin_macron" : "an ken",
+               "latin_normal" : "an ken"
             }
          ],
          "jp_era" : 1,
@@ -23933,17 +23933,17 @@
                "kana" : "あん な",
                "kana_classic" : "あん な",
                "kana_modern" : "あん な",
-               "latin" : "Anna",
-               "latin_macron" : "Anna",
-               "latin_normal" : "Anna"
+               "latin" : "an na",
+               "latin_macron" : "an na",
+               "latin_normal" : "an na"
             },
             {
                "kana" : "あん わ",
                "kana_classic" : "あん わ",
                "kana_modern" : "あん わ",
-               "latin" : "Anwa",
-               "latin_macron" : "Anwa",
-               "latin_normal" : "Anwa"
+               "latin" : "an wa",
+               "latin_macron" : "an wa",
+               "latin_normal" : "an wa"
             }
          ],
          "jp_era" : 1,
@@ -24339,9 +24339,9 @@
                "kana" : "あん せい",
                "kana_classic" : "あん せい",
                "kana_modern" : "あん せい",
-               "latin" : "Ansei",
-               "latin_macron" : "Ansei",
-               "latin_normal" : "Ansei"
+               "latin" : "an sei",
+               "latin_macron" : "an sei",
+               "latin_normal" : "an sei"
             }
          ],
          "jp_era" : 1,
@@ -24487,9 +24487,9 @@
                "kana_others" : [
                   "あん ゑい"
                ],
-               "latin" : "An'ei",
-               "latin_macron" : "An'ei",
-               "latin_normal" : "An'ei"
+               "latin" : "an ' ei",
+               "latin_macron" : "an ' ei",
+               "latin_normal" : "an ' ei"
             }
          ],
          "jp_era" : 1,
@@ -24641,9 +24641,9 @@
                "kana" : "あん てい",
                "kana_classic" : "あん てい",
                "kana_modern" : "あん てい",
-               "latin" : "Antei",
-               "latin_macron" : "Antei",
-               "latin_normal" : "Antei"
+               "latin" : "an tei",
+               "latin_macron" : "an tei",
+               "latin_normal" : "an tei"
             },
             {
                "kana" : "あん ちやう",
@@ -24966,9 +24966,9 @@
                "kana_others" : [
                   "はう き"
                ],
-               "latin" : "Hōki",
-               "latin_macron" : "Hōki",
-               "latin_normal" : "Houki"
+               "latin" : "hō ki",
+               "latin_macron" : "hō ki",
+               "latin_normal" : "hou ki"
             }
          ],
          "jp_era" : 1,
@@ -25169,9 +25169,9 @@
                "kana_others" : [
                   "はう とく"
                ],
-               "latin" : "Hōtoku",
-               "latin_macron" : "Hōtoku",
-               "latin_normal" : "Houtoku"
+               "latin" : "hō toku",
+               "latin_macron" : "hō toku",
+               "latin_normal" : "hou toku"
             }
          ],
          "jp_era" : 1,
@@ -25301,17 +25301,17 @@
                "kana" : "ほう れき",
                "kana_classic" : "ほう れき",
                "kana_modern" : "ほう れき",
-               "latin" : "Hōreki",
-               "latin_macron" : "Hōreki",
-               "latin_normal" : "Houreki"
+               "latin" : "hō reki",
+               "latin_macron" : "hō reki",
+               "latin_normal" : "hou reki"
             },
             {
                "kana" : "ほう りゃく",
                "kana_classic" : "ほう りやく",
                "kana_modern" : "ほう りゃく",
-               "latin" : "Hōryaku",
-               "latin_macron" : "Hōryaku",
-               "latin_normal" : "Houryaku"
+               "latin" : "hō ryaku",
+               "latin_macron" : "hō ryaku",
+               "latin_normal" : "hou ryaku"
             }
          ],
          "jp_era" : 1,
@@ -25465,9 +25465,9 @@
                "kana_others" : [
                   "はう えい"
                ],
-               "latin" : "Hōei",
-               "latin_macron" : "Hōei",
-               "latin_normal" : "Houei"
+               "latin" : "hō ei",
+               "latin_macron" : "hō ei",
+               "latin_normal" : "hou ei"
             }
          ],
          "jp_era" : 1,
@@ -25602,17 +25602,17 @@
                   "はう ぢ",
                   "はう じ"
                ],
-               "latin" : "Hōji",
-               "latin_macron" : "Hōji",
-               "latin_normal" : "Houji"
+               "latin" : "hō ji",
+               "latin_macron" : "hō ji",
+               "latin_normal" : "hou ji"
             },
             {
                "kana" : "ほう ち",
                "kana_classic" : "ほう ち",
                "kana_modern" : "ほう ち",
-               "latin" : "Hōchi",
-               "latin_macron" : "Hōchi",
-               "latin_normal" : "Houchi"
+               "latin" : "hō chi",
+               "latin_macron" : "hō chi",
+               "latin_normal" : "hou chi"
             }
          ],
          "jp_era" : 1,
@@ -25927,9 +25927,9 @@
                "kana" : "かん にん",
                "kana_classic" : "くわん にん",
                "kana_modern" : "かん にん",
-               "latin" : "Kannin",
-               "latin_macron" : "Kannin",
-               "latin_normal" : "Kannin"
+               "latin" : "kan nin",
+               "latin_macron" : "kan nin",
+               "latin_normal" : "kan nin"
             }
          ],
          "jp_era" : 1,
@@ -26053,17 +26053,17 @@
                "kana" : "かん ぽう",
                "kana_classic" : "くわん ぽう",
                "kana_modern" : "かん ぽう",
-               "latin" : "Kampō",
-               "latin_macron" : "Kampō",
-               "latin_normal" : "Kampou"
+               "latin" : "kam pō",
+               "latin_macron" : "kam pō",
+               "latin_normal" : "kam pou"
             },
             {
                "kana" : "かん ほう",
                "kana_classic" : "くわん ほう",
                "kana_modern" : "かん ほう",
-               "latin" : "Kanhō",
-               "latin_macron" : "Kanhō",
-               "latin_normal" : "Kanhou"
+               "latin" : "kan hō",
+               "latin_macron" : "kan hō",
+               "latin_normal" : "kan hou"
             }
          ],
          "jp_era" : 1,
@@ -26192,9 +26192,9 @@
                "kana_others" : [
                   "くわん ぐゑん"
                ],
-               "latin" : "Kangen",
-               "latin_macron" : "Kangen",
-               "latin_normal" : "Kangen"
+               "latin" : "kan gen",
+               "latin_macron" : "kan gen",
+               "latin_normal" : "kan gen"
             },
             {
                "kana" : "かん けん",
@@ -26203,9 +26203,9 @@
                "kana_others" : [
                   "くわん くゑん"
                ],
-               "latin" : "Kanken",
-               "latin_macron" : "Kanken",
-               "latin_normal" : "Kanken"
+               "latin" : "kan ken",
+               "latin_macron" : "kan ken",
+               "latin_normal" : "kan ken"
             }
          ],
          "jp_era" : 1,
@@ -26374,9 +26374,9 @@
                "kana_others" : [
                   "くわん な"
                ],
-               "latin" : "Kanna",
-               "latin_macron" : "Kanna",
-               "latin_normal" : "Kanna"
+               "latin" : "kan na",
+               "latin_macron" : "kan na",
+               "latin_normal" : "kan na"
             },
             {
                "kana" : "かん わ",
@@ -26385,9 +26385,9 @@
                "kana_others" : [
                   "くわんわ"
                ],
-               "latin" : "Kanwa",
-               "latin_macron" : "Kanwa",
-               "latin_normal" : "Kanwa"
+               "latin" : "kan wa",
+               "latin_macron" : "kan wa",
+               "latin_normal" : "kan wa"
             }
          ],
          "jp_era" : 1,
@@ -26540,17 +26540,17 @@
                "kana" : "かん ぎ",
                "kana_classic" : "くわんぎ",
                "kana_modern" : "かん ぎ",
-               "latin" : "Kangi",
-               "latin_macron" : "Kangi",
-               "latin_normal" : "Kangi"
+               "latin" : "kan gi",
+               "latin_macron" : "kan gi",
+               "latin_normal" : "kan gi"
             },
             {
                "kana" : "かん き",
                "kana_classic" : "くわん き",
                "kana_modern" : "かん き",
-               "latin" : "Kanki",
-               "latin_macron" : "Kanki",
-               "latin_normal" : "Kanki"
+               "latin" : "kan ki",
+               "latin_macron" : "kan ki",
+               "latin_normal" : "kan ki"
             }
          ],
          "jp_era" : 1,
@@ -26736,25 +26736,25 @@
                "kana_others" : [
                   "かん ぴよう"
                ],
-               "latin" : "Kampyō",
-               "latin_macron" : "Kampyō",
-               "latin_normal" : "Kampyou"
+               "latin" : "kam pyō",
+               "latin_macron" : "kam pyō",
+               "latin_normal" : "kam pyou"
             },
             {
                "kana" : "かん べい",
                "kana_classic" : "くわん べい",
                "kana_modern" : "かん べい",
-               "latin" : "Kambei",
-               "latin_macron" : "Kambei",
-               "latin_normal" : "Kambei"
+               "latin" : "kam bei",
+               "latin_macron" : "kam bei",
+               "latin_normal" : "kam bei"
             },
             {
                "kana" : "かん へい",
                "kana_classic" : "くわん へい",
                "kana_modern" : "かん へい",
-               "latin" : "Kanhei",
-               "latin_macron" : "Kanhei",
-               "latin_normal" : "Kanhei"
+               "latin" : "kan hei",
+               "latin_macron" : "kan hei",
+               "latin_normal" : "kan hei"
             },
             {
                "kana" : "かん ぺい",
@@ -26763,9 +26763,9 @@
                "kana_others" : [
                   "くわん ぺい"
                ],
-               "latin" : "Kampei",
-               "latin_macron" : "Kampei",
-               "latin_normal" : "Kampei"
+               "latin" : "kam pei",
+               "latin_macron" : "kam pei",
+               "latin_normal" : "kam pei"
             }
          ],
          "jp_era" : 1,
@@ -26914,9 +26914,9 @@
                "kana" : "かん えん",
                "kana_classic" : "くわん えん",
                "kana_modern" : "かん えん",
-               "latin" : "Kan'en",
-               "latin_macron" : "Kan'en",
-               "latin_normal" : "Kan'en"
+               "latin" : "kan ' en",
+               "latin_macron" : "kan ' en",
+               "latin_normal" : "kan ' en"
             },
             {
                "kana" : "くわん ねん",
@@ -27048,9 +27048,9 @@
                "kana_others" : [
                   "くわん かう"
                ],
-               "latin" : "Kankō",
-               "latin_macron" : "Kankō",
-               "latin_normal" : "Kankou"
+               "latin" : "kan kō",
+               "latin_macron" : "kan kō",
+               "latin_normal" : "kan kou"
             }
          ],
          "jp_era" : 1,
@@ -27177,9 +27177,9 @@
                "kana" : "かん とく",
                "kana_classic" : "くわん とく",
                "kana_modern" : "かん とく",
-               "latin" : "Kantoku",
-               "latin_macron" : "Kantoku",
-               "latin_normal" : "Kantoku"
+               "latin" : "kan toku",
+               "latin_macron" : "kan toku",
+               "latin_normal" : "kan toku"
             }
          ],
          "jp_era" : 1,
@@ -27305,9 +27305,9 @@
                "kana" : "かん せい",
                "kana_classic" : "くわん せい",
                "kana_modern" : "かん せい",
-               "latin" : "Kansei",
-               "latin_macron" : "Kansei",
-               "latin_normal" : "Kansei"
+               "latin" : "kan sei",
+               "latin_macron" : "kan sei",
+               "latin_normal" : "kan sei"
             }
          ],
          "jp_era" : 1,
@@ -27431,9 +27431,9 @@
                "kana" : "かん ぶん",
                "kana_classic" : "くわん ぶん",
                "kana_modern" : "かん ぶん",
-               "latin" : "Kambun",
-               "latin_macron" : "Kambun",
-               "latin_normal" : "Kambun"
+               "latin" : "kam bun",
+               "latin_macron" : "kam bun",
+               "latin_normal" : "kam bun"
             }
          ],
          "jp_era" : 1,
@@ -27613,9 +27613,9 @@
                "kana_others" : [
                   "かん しよう"
                ],
-               "latin" : "Kanshō",
-               "latin_macron" : "Kanshō",
-               "latin_normal" : "Kanshou"
+               "latin" : "kan shō",
+               "latin_macron" : "kan shō",
+               "latin_normal" : "kan shou"
             }
          ],
          "jp_era" : 1,
@@ -27797,9 +27797,9 @@
                "kana_others" : [
                   "くわん ゑい"
                ],
-               "latin" : "Kan'ei",
-               "latin_macron" : "Kan'ei",
-               "latin_normal" : "Kan'ei"
+               "latin" : "kan ' ei",
+               "latin_macron" : "kan ' ei",
+               "latin_normal" : "kan ' ei"
             }
          ],
          "jp_era" : 1,
@@ -27924,9 +27924,9 @@
                "kana" : "かん じ",
                "kana_classic" : "くわん ぢ",
                "kana_modern" : "かん じ",
-               "latin" : "Kanji",
-               "latin_macron" : "Kanji",
-               "latin_normal" : "Kanji"
+               "latin" : "kan ji",
+               "latin_macron" : "kan ji",
+               "latin_normal" : "kan ji"
             },
             {
                "kana" : "くわん ち",
@@ -28486,9 +28486,9 @@
                "kana" : "じゅ えい",
                "kana_classic" : "じゆ えい",
                "kana_modern" : "じゅ えい",
-               "latin" : "Juei",
-               "latin_macron" : "Juei",
-               "latin_normal" : "Juei"
+               "latin" : "ju ei",
+               "latin_macron" : "ju ei",
+               "latin_normal" : "ju ei"
             },
             {
                "kana" : "しゆ えい",
@@ -29274,9 +29274,9 @@
                "kana" : "へい せい",
                "kana_classic" : "へい せい",
                "kana_modern" : "へい せい",
-               "latin" : "Heisei",
-               "latin_macron" : "Heisei",
-               "latin_normal" : "Heisei"
+               "latin" : "hei sei",
+               "latin_macron" : "hei sei",
+               "latin_normal" : "hei sei"
             }
          ],
          "jp_era" : 1,
@@ -29425,32 +29425,32 @@
                "kana" : "へい じ",
                "kana_classic" : "へい ぢ",
                "kana_modern" : "へい じ",
-               "latin" : "Heiji",
-               "latin_macron" : "Heiji",
-               "latin_normal" : "Heiji"
+               "latin" : "hei ji",
+               "latin_macron" : "hei ji",
+               "latin_normal" : "hei ji"
             },
             {
                "kana" : "へい ち",
                "kana_classic" : "へい ち",
                "kana_modern" : "へい ち",
-               "latin" : "Heichi",
-               "latin_macron" : "Heichi",
-               "latin_normal" : "Heichi"
+               "latin" : "hei chi",
+               "latin_macron" : "hei chi",
+               "latin_normal" : "hei chi"
             },
             {
                "kana" : "えい ち",
                "kana_classic" : "えい ち",
                "kana_modern" : "えい ち",
-               "latin" : "Eichi",
-               "latin_macron" : "Eichi",
-               "latin_normal" : "Eichi"
+               "latin" : "ei chi",
+               "latin_macron" : "ei chi",
+               "latin_normal" : "ei chi"
             },
             {
                "kana" : "びょう じ",
                "kana_modern" : "びょう じ",
-               "latin" : "Byōji",
-               "latin_macron" : "Byōji",
-               "latin_normal" : "Byouji"
+               "latin" : "byō ji",
+               "latin_macron" : "byō ji",
+               "latin_normal" : "byou ji"
             }
          ],
          "jp_era" : 1,
@@ -29700,17 +29700,17 @@
                "kana_others" : [
                   "かう はう"
                ],
-               "latin" : "Kōhō",
-               "latin_macron" : "Kōhō",
-               "latin_normal" : "Kouhou"
+               "latin" : "kō hō",
+               "latin_macron" : "kō hō",
+               "latin_normal" : "kou hou"
             },
             {
                "kana" : "こう ほ",
                "kana_classic" : "こう ほ",
                "kana_modern" : "こう ほ",
-               "latin" : "Kōho",
-               "latin_macron" : "Kōho",
-               "latin_normal" : "Kouho"
+               "latin" : "kō ho",
+               "latin_macron" : "kō ho",
+               "latin_normal" : "kou ho"
             }
          ],
          "jp_era" : 1,
@@ -29858,9 +29858,9 @@
                "kana_others" : [
                   "かう げん"
                ],
-               "latin" : "Kōgen",
-               "latin_macron" : "Kōgen",
-               "latin_normal" : "Kougen"
+               "latin" : "kō gen",
+               "latin_macron" : "kō gen",
+               "latin_normal" : "kou gen"
             },
             {
                "kana" : "かう けん",
@@ -30013,9 +30013,9 @@
                "kana" : "こう わ",
                "kana_classic" : "かう わ",
                "kana_modern" : "こう わ",
-               "latin" : "Kōwa",
-               "latin_macron" : "Kōwa",
-               "latin_normal" : "Kouwa"
+               "latin" : "kō wa",
+               "latin_macron" : "kō wa",
+               "latin_normal" : "kou wa"
             }
          ],
          "jp_era" : 1,
@@ -30136,9 +30136,9 @@
                "kana" : "こう あん",
                "kana_classic" : "かう あん",
                "kana_modern" : "こう あん",
-               "latin" : "Kōan",
-               "latin_macron" : "Kōan",
-               "latin_normal" : "Kouan"
+               "latin" : "kō an",
+               "latin_macron" : "kō an",
+               "latin_normal" : "kou an"
             }
          ],
          "jp_north_era" : 1,
@@ -30297,9 +30297,9 @@
                "kana" : "こう へい",
                "kana_classic" : "かう へい",
                "kana_modern" : "こう へい",
-               "latin" : "Kōhei",
-               "latin_macron" : "Kōhei",
-               "latin_normal" : "Kouhei"
+               "latin" : "kō hei",
+               "latin_macron" : "kō hei",
+               "latin_normal" : "kou hei"
             },
             {
                "kana" : "かう べい",
@@ -30309,9 +30309,9 @@
                "kana" : "こう ぺい",
                "kana_classic" : "こう ぺい",
                "kana_modern" : "こう ぺい",
-               "latin" : "Kōpei",
-               "latin_macron" : "Kōpei",
-               "latin_normal" : "Koupei"
+               "latin" : "kō pei",
+               "latin_macron" : "kō pei",
+               "latin_normal" : "kou pei"
             }
          ],
          "jp_era" : 1,
@@ -30452,9 +30452,9 @@
                   "こう をう",
                   "かう あう"
                ],
-               "latin" : "Kōō",
-               "latin_macron" : "Kōō",
-               "latin_normal" : "Kouou"
+               "latin" : "kō ō",
+               "latin_macron" : "kō ō",
+               "latin_normal" : "kou ou"
             }
          ],
          "jp_north_era" : 1,
@@ -30600,9 +30600,9 @@
                "kana_others" : [
                   "こう りやく"
                ],
-               "latin" : "Kōryaku",
-               "latin_macron" : "Kōryaku",
-               "latin_normal" : "Kouryaku"
+               "latin" : "kō ryaku",
+               "latin_macron" : "kō ryaku",
+               "latin_normal" : "kou ryaku"
             }
          ],
          "jp_north_era" : 1,
@@ -30765,9 +30765,9 @@
                   "こう しよう",
                   "こう しやう"
                ],
-               "latin" : "Kōshō",
-               "latin_macron" : "Kōshō",
-               "latin_normal" : "Koushou"
+               "latin" : "kō shō",
+               "latin_macron" : "kō shō",
+               "latin_normal" : "kou shou"
             }
          ],
          "jp_era" : 1,
@@ -30880,9 +30880,9 @@
                "kana_others" : [
                   "かう ゑい"
                ],
-               "latin" : "Kōei",
-               "latin_macron" : "Kōei",
-               "latin_normal" : "Kouei"
+               "latin" : "kō ei",
+               "latin_macron" : "kō ei",
+               "latin_normal" : "kou ei"
             }
          ],
          "jp_north_era" : 1,
@@ -31047,17 +31047,17 @@
                "kana_others" : [
                   "こう ぢ"
                ],
-               "latin" : "Kōji",
-               "latin_macron" : "Kōji",
-               "latin_normal" : "Kouji"
+               "latin" : "kō ji",
+               "latin_macron" : "kō ji",
+               "latin_normal" : "kou ji"
             },
             {
                "kana" : "こう ち",
                "kana_classic" : "かう ち",
                "kana_modern" : "こう ち",
-               "latin" : "Kōchi",
-               "latin_macron" : "Kōchi",
-               "latin_normal" : "Kouchi"
+               "latin" : "kō chi",
+               "latin_macron" : "kō chi",
+               "latin_normal" : "kou chi"
             }
          ],
          "jp_era" : 1,
@@ -31573,16 +31573,16 @@
                "kana_others" : [
                   "えん きゆう"
                ],
-               "latin" : "Enkyū",
-               "latin_macron" : "Enkyū",
-               "latin_normal" : "Enkyuu"
+               "latin" : "en kyū",
+               "latin_macron" : "en kyū",
+               "latin_normal" : "en kyuu"
             },
             {
                "kana" : "えん ぎゅう",
                "kana_modern" : "えん ぎゅう",
-               "latin" : "Engyū",
-               "latin_macron" : "Engyū",
-               "latin_normal" : "Engyuu"
+               "latin" : "en gyū",
+               "latin_macron" : "en gyū",
+               "latin_normal" : "en gyuu"
             }
          ],
          "jp_era" : 1,
@@ -31710,9 +31710,9 @@
                "kana_others" : [
                   "えん きよう"
                ],
-               "latin" : "Enkyō",
-               "latin_macron" : "Enkyō",
-               "latin_normal" : "Enkyou"
+               "latin" : "en kyō",
+               "latin_macron" : "en kyō",
+               "latin_normal" : "en kyou"
             }
          ],
          "jp_era" : 1,
@@ -31863,9 +31863,9 @@
                "kana" : "えん げん",
                "kana_classic" : "えん ぐゑん",
                "kana_modern" : "えん げん",
-               "latin" : "Engen",
-               "latin_macron" : "Engen",
-               "latin_normal" : "Engen"
+               "latin" : "en gen",
+               "latin_macron" : "en gen",
+               "latin_normal" : "en gen"
             },
             {
                "kana" : "えん けん",
@@ -31874,9 +31874,9 @@
                "kana_others" : [
                   "ゑん けん"
                ],
-               "latin" : "Enken",
-               "latin_macron" : "Enken",
-               "latin_normal" : "Enken"
+               "latin" : "en ken",
+               "latin_macron" : "en ken",
+               "latin_normal" : "en ken"
             }
          ],
          "jp_south_era" : 1,
@@ -32132,9 +32132,9 @@
                "kana" : "えん ぎ",
                "kana_classic" : "えん ぎ",
                "kana_modern" : "えん ぎ",
-               "latin" : "Engi",
-               "latin_macron" : "Engi",
-               "latin_normal" : "Engi"
+               "latin" : "en gi",
+               "latin_macron" : "en gi",
+               "latin_normal" : "en gi"
             },
             {
                "kana" : "えん き",
@@ -32143,9 +32143,9 @@
                "kana_others" : [
                   "えむ き"
                ],
-               "latin" : "Enki",
-               "latin_macron" : "Enki",
-               "latin_normal" : "Enki"
+               "latin" : "en ki",
+               "latin_macron" : "en ki",
+               "latin_normal" : "en ki"
             }
          ],
          "jp_era" : 1,
@@ -32365,9 +32365,9 @@
                "kana_others" : [
                   "えん ぱう"
                ],
-               "latin" : "Empō",
-               "latin_macron" : "Empō",
-               "latin_normal" : "Empou"
+               "latin" : "em pō",
+               "latin_macron" : "em pō",
+               "latin_normal" : "em pou"
             },
             {
                "kana" : "えん ほう",
@@ -32376,9 +32376,9 @@
                "kana_others" : [
                   "ゑん ほう"
                ],
-               "latin" : "Enhō",
-               "latin_macron" : "Enhō",
-               "latin_normal" : "Enhou"
+               "latin" : "en hō",
+               "latin_macron" : "en hō",
+               "latin_normal" : "en hou"
             }
          ],
          "jp_era" : 1,
@@ -32635,9 +32635,9 @@
                "kana_others" : [
                   "ゑん とく"
                ],
-               "latin" : "Entoku",
-               "latin_macron" : "Entoku",
-               "latin_normal" : "Entoku"
+               "latin" : "en toku",
+               "latin_macron" : "en toku",
+               "latin_normal" : "en toku"
             }
          ],
          "jp_era" : 1,
@@ -32887,17 +32887,17 @@
                   "えん をう",
                   "えん わう"
                ],
-               "latin" : "En'ō",
-               "latin_macron" : "En'ō",
-               "latin_normal" : "En'ou"
+               "latin" : "en ' ō",
+               "latin_macron" : "en ' ō",
+               "latin_normal" : "en ' ou"
             },
             {
                "kana" : "えん のう",
                "kana_classic" : "えん のう",
                "kana_modern" : "えん のう",
-               "latin" : "Ennō",
-               "latin_macron" : "Ennō",
-               "latin_normal" : "Ennou"
+               "latin" : "en nō",
+               "latin_macron" : "en nō",
+               "latin_normal" : "en nou"
             }
          ],
          "jp_era" : 1,
@@ -33048,16 +33048,16 @@
                   "えん きよう",
                   "ゑん きやう"
                ],
-               "latin" : "Enkyō",
-               "latin_macron" : "Enkyō",
-               "latin_normal" : "Enkyou"
+               "latin" : "en kyō",
+               "latin_macron" : "en kyō",
+               "latin_normal" : "en kyou"
             },
             {
                "kana" : "えん ぎょう",
                "kana_modern" : "えん ぎょう",
-               "latin" : "Engyō",
-               "latin_macron" : "Engyō",
-               "latin_normal" : "Engyou"
+               "latin" : "en gyō",
+               "latin_macron" : "en gyō",
+               "latin_normal" : "en gyou"
             },
             {
                "kana" : "えん けい",
@@ -33066,9 +33066,9 @@
                "kana_others" : [
                   "ゑん けい"
                ],
-               "latin" : "Enkei",
-               "latin_macron" : "Enkei",
-               "latin_normal" : "Enkei"
+               "latin" : "en kei",
+               "latin_macron" : "en kei",
+               "latin_normal" : "en kei"
             }
          ],
          "jp_era" : 1,
@@ -33205,9 +33205,9 @@
                "kana" : "えん ぶん",
                "kana_classic" : "えん ぶん",
                "kana_modern" : "えん ぶん",
-               "latin" : "Embun",
-               "latin_macron" : "Embun",
-               "latin_normal" : "Embun"
+               "latin" : "em bun",
+               "latin_macron" : "em bun",
+               "latin_normal" : "em bun"
             },
             {
                "kana" : "ゑん ふん",
@@ -33386,9 +33386,9 @@
                "kana" : "えん りゃく",
                "kana_classic" : "えん りやく",
                "kana_modern" : "えん りゃく",
-               "latin" : "Enryaku",
-               "latin_macron" : "Enryaku",
-               "latin_normal" : "Enryaku"
+               "latin" : "en ryaku",
+               "latin_macron" : "en ryaku",
+               "latin_normal" : "en ryaku"
             }
          ],
          "jp_era" : 1,
@@ -33692,9 +33692,9 @@
                   "えん ちよう",
                   "えん ちゃう"
                ],
-               "latin" : "Enchō",
-               "latin_macron" : "Enchō",
-               "latin_normal" : "Enchou"
+               "latin" : "en chō",
+               "latin_macron" : "en chō",
+               "latin_normal" : "en chou"
             }
          ],
          "jp_era" : 1,
@@ -33892,9 +33892,9 @@
                "kana_others" : [
                   "けん きゆう"
                ],
-               "latin" : "Kenkyū",
-               "latin_macron" : "Kenkyū",
-               "latin_normal" : "Kenkyuu"
+               "latin" : "ken kyū",
+               "latin_macron" : "ken kyū",
+               "latin_normal" : "ken kyuu"
             }
          ],
          "jp_era" : 1,
@@ -34027,9 +34027,9 @@
                   "けむ にん",
                   "けむ にむ"
                ],
-               "latin" : "Kennin",
-               "latin_macron" : "Kennin",
-               "latin_normal" : "Kennin"
+               "latin" : "ken nin",
+               "latin_macron" : "ken nin",
+               "latin_normal" : "ken nin"
             }
          ],
          "jp_era" : 1,
@@ -34176,33 +34176,33 @@
                "kana_others" : [
                   "けん ぱう"
                ],
-               "latin" : "Kempō",
-               "latin_macron" : "Kempō",
-               "latin_normal" : "Kempou"
+               "latin" : "kem pō",
+               "latin_macron" : "kem pō",
+               "latin_normal" : "kem pou"
             },
             {
                "kana" : "けん ほう",
                "kana_classic" : "けん ほう",
                "kana_modern" : "けん ほう",
-               "latin" : "Kenhō",
-               "latin_macron" : "Kenhō",
-               "latin_normal" : "Kenhou"
+               "latin" : "ken hō",
+               "latin_macron" : "ken hō",
+               "latin_normal" : "ken hou"
             },
             {
                "kana" : "けん ぽ",
                "kana_classic" : "けん ぽ",
                "kana_modern" : "けん ぽ",
-               "latin" : "Kempo",
-               "latin_macron" : "Kempo",
-               "latin_normal" : "Kempo"
+               "latin" : "kem po",
+               "latin_macron" : "kem po",
+               "latin_normal" : "kem po"
             },
             {
                "kana" : "けん ほ",
                "kana_classic" : "けん ほ",
                "kana_modern" : "けん ほ",
-               "latin" : "Kenho",
-               "latin_macron" : "Kenho",
-               "latin_normal" : "Kenho"
+               "latin" : "ken ho",
+               "latin_macron" : "ken ho",
+               "latin_normal" : "ken ho"
             }
          ],
          "jp_era" : 1,
@@ -34947,9 +34947,9 @@
                "kana" : "けん とく",
                "kana_classic" : "けん とく",
                "kana_modern" : "けん とく",
-               "latin" : "Kentoku",
-               "latin_macron" : "Kentoku",
-               "latin_normal" : "Kentoku"
+               "latin" : "ken toku",
+               "latin_macron" : "ken toku",
+               "latin_normal" : "ken toku"
             }
          ],
          "jp_south_era" : 1,
@@ -35349,9 +35349,9 @@
                "kana" : "けん りゃく",
                "kana_classic" : "けん りやく",
                "kana_modern" : "けん りゃく",
-               "latin" : "Kenryaku",
-               "latin_macron" : "Kenryaku",
-               "latin_normal" : "Kenryaku"
+               "latin" : "ken ryaku",
+               "latin_macron" : "ken ryaku",
+               "latin_normal" : "ken ryaku"
             }
          ],
          "jp_era" : 1,
@@ -35565,25 +35565,25 @@
                "kana" : "けん む",
                "kana_classic" : "けん む",
                "kana_modern" : "けん む",
-               "latin" : "Kemmu",
-               "latin_macron" : "Kemmu",
-               "latin_normal" : "Kemmu"
+               "latin" : "kem mu",
+               "latin_macron" : "kem mu",
+               "latin_normal" : "kem mu"
             },
             {
                "kana" : "けん ふ",
                "kana_classic" : "けん ふ",
                "kana_modern" : "けん ふ",
-               "latin" : "Kenfu",
-               "latin_macron" : "Kenfu",
-               "latin_normal" : "Kenfu"
+               "latin" : "ken fu",
+               "latin_macron" : "ken fu",
+               "latin_normal" : "ken fu"
             },
             {
                "kana" : "けん ぶ",
                "kana_classic" : "けん ぶ",
                "kana_modern" : "けん ぶ",
-               "latin" : "Kembu",
-               "latin_macron" : "Kembu",
-               "latin_normal" : "Kembu"
+               "latin" : "kem bu",
+               "latin_macron" : "kem bu",
+               "latin_normal" : "kem bu"
             }
          ],
          "jp_north_era" : 1,
@@ -35966,17 +35966,17 @@
                "kana" : "けん えい",
                "kana_classic" : "けん えい",
                "kana_modern" : "けん えい",
-               "latin" : "Ken'ei",
-               "latin_macron" : "Ken'ei",
-               "latin_normal" : "Ken'ei"
+               "latin" : "ken ' ei",
+               "latin_macron" : "ken ' ei",
+               "latin_normal" : "ken ' ei"
             },
             {
                "kana" : "けん よう",
                "kana_classic" : "けん やう",
                "kana_modern" : "けん よう",
-               "latin" : "Ken'yō",
-               "latin_macron" : "Ken'yō",
-               "latin_normal" : "Ken'you"
+               "latin" : "ken ' yō",
+               "latin_macron" : "ken ' yō",
+               "latin_normal" : "ken ' you"
             }
          ],
          "jp_era" : 1,
@@ -36100,25 +36100,25 @@
                "kana" : "けん じ",
                "kana_classic" : "けん ぢ",
                "kana_modern" : "けん じ",
-               "latin" : "Kenji",
-               "latin_macron" : "Kenji",
-               "latin_normal" : "Kenji"
+               "latin" : "ken ji",
+               "latin_macron" : "ken ji",
+               "latin_normal" : "ken ji"
             },
             {
                "kana" : "けん ち",
                "kana_classic" : "けん ち",
                "kana_modern" : "けん ち",
-               "latin" : "Kenchi",
-               "latin_macron" : "Kenchi",
-               "latin_normal" : "Kenchi"
+               "latin" : "ken chi",
+               "latin_macron" : "ken chi",
+               "latin_normal" : "ken chi"
             },
             {
                "kana" : "けん し",
                "kana_classic" : "けん し",
                "kana_modern" : "けん し",
-               "latin" : "Kenshi",
-               "latin_macron" : "Kenshi",
-               "latin_normal" : "Kenshi"
+               "latin" : "ken shi",
+               "latin_macron" : "ken shi",
+               "latin_normal" : "ken shi"
             }
          ],
          "jp_era" : 1,
@@ -36583,9 +36583,9 @@
                "kana_others" : [
                   "けん ちよう"
                ],
-               "latin" : "Kenchō",
-               "latin_macron" : "Kenchō",
-               "latin_normal" : "Kenchou"
+               "latin" : "ken chō",
+               "latin_macron" : "ken chō",
+               "latin_normal" : "ken chou"
             }
          ],
          "jp_era" : 1,
@@ -36753,9 +36753,9 @@
                "kana_others" : [
                   "かう にん"
                ],
-               "latin" : "Kōnin",
-               "latin_macron" : "Kōnin",
-               "latin_normal" : "Kounin"
+               "latin" : "kō nin",
+               "latin_macron" : "kō nin",
+               "latin_normal" : "kou nin"
             }
          ],
          "jp_era" : 1,
@@ -36906,9 +36906,9 @@
                "kana" : "こう か",
                "kana_classic" : "こう くわ",
                "kana_modern" : "こう か",
-               "latin" : "Kōka",
-               "latin_macron" : "Kōka",
-               "latin_normal" : "Kouka"
+               "latin" : "kō ka",
+               "latin_macron" : "kō ka",
+               "latin_normal" : "kou ka"
             }
          ],
          "jp_era" : 1,
@@ -37038,9 +37038,9 @@
                "kana" : "こう わ",
                "kana_classic" : "こう わ",
                "kana_modern" : "こう わ",
-               "latin" : "Kōwa",
-               "latin_macron" : "Kōwa",
-               "latin_normal" : "Kouwa"
+               "latin" : "kō wa",
+               "latin_macron" : "kō wa",
+               "latin_normal" : "kou wa"
             }
          ],
          "jp_south_era" : 1,
@@ -37229,9 +37229,9 @@
                   "かう あん",
                   "こう あむ"
                ],
-               "latin" : "Kōan",
-               "latin_macron" : "Kōan",
-               "latin_normal" : "Kouan"
+               "latin" : "kō an",
+               "latin_macron" : "kō an",
+               "latin_normal" : "kou an"
             }
          ],
          "jp_era" : 1,
@@ -37434,9 +37434,9 @@
                "kana_others" : [
                   "かう ぢ"
                ],
-               "latin" : "Kōji",
-               "latin_macron" : "Kōji",
-               "latin_normal" : "Kouji"
+               "latin" : "kō ji",
+               "latin_macron" : "kō ji",
+               "latin_normal" : "kou ji"
             }
          ],
          "jp_era" : 1,
@@ -37600,9 +37600,9 @@
                   "こう ちよう",
                   "かう ちやう"
                ],
-               "latin" : "Kōchō",
-               "latin_macron" : "Kōchō",
-               "latin_normal" : "Kouchou"
+               "latin" : "kō chō",
+               "latin_macron" : "kō chō",
+               "latin_normal" : "kou chou"
             },
             {
                "kana" : "ほう ちやう",
@@ -38016,17 +38016,17 @@
                "kana" : "とく じ",
                "kana_classic" : "とく ぢ",
                "kana_modern" : "とく じ",
-               "latin" : "Tokuji",
-               "latin_macron" : "Tokuji",
-               "latin_normal" : "Tokuji"
+               "latin" : "toku ji",
+               "latin_macron" : "toku ji",
+               "latin_normal" : "toku ji"
             },
             {
                "kana" : "とく ち",
                "kana_classic" : "とく ち",
                "kana_modern" : "とく ち",
-               "latin" : "Tokuchi",
-               "latin_macron" : "Tokuchi",
-               "latin_normal" : "Tokuchi"
+               "latin" : "toku chi",
+               "latin_macron" : "toku chi",
+               "latin_normal" : "toku chi"
             }
          ],
          "jp_era" : 1,
@@ -38298,9 +38298,9 @@
                   "をう にん",
                   "わう にん"
                ],
-               "latin" : "Ōnin",
-               "latin_macron" : "Ōnin",
-               "latin_normal" : "Ounin"
+               "latin" : "ō nin",
+               "latin_macron" : "ō nin",
+               "latin_normal" : "ou nin"
             }
          ],
          "jp_era" : 1,
@@ -38440,9 +38440,9 @@
                   "わう ほう",
                   "おう はう"
                ],
-               "latin" : "Ōhō",
-               "latin_macron" : "Ōhō",
-               "latin_normal" : "Ouhou"
+               "latin" : "ō hō",
+               "latin_macron" : "ō hō",
+               "latin_normal" : "ou hou"
             },
             {
                "kana" : "おう ほ",
@@ -38451,9 +38451,9 @@
                "kana_others" : [
                   "わう ほ"
                ],
-               "latin" : "Ōho",
-               "latin_macron" : "Ōho",
-               "latin_normal" : "Ouho"
+               "latin" : "ō ho",
+               "latin_macron" : "ō ho",
+               "latin_normal" : "ou ho"
             }
          ],
          "jp_era" : 1,
@@ -38585,9 +38585,9 @@
                "kana_others" : [
                   "をう わ"
                ],
-               "latin" : "Ōwa",
-               "latin_macron" : "Ōwa",
-               "latin_normal" : "Ouwa"
+               "latin" : "ō wa",
+               "latin_macron" : "ō wa",
+               "latin_normal" : "ou wa"
             },
             {
                "kana" : "わう あ",
@@ -38720,9 +38720,9 @@
                   "をう あん",
                   "わう あん"
                ],
-               "latin" : "Ōan",
-               "latin_macron" : "Ōan",
-               "latin_normal" : "Ouan"
+               "latin" : "ō an",
+               "latin_macron" : "ō an",
+               "latin_normal" : "ou an"
             }
          ],
          "jp_north_era" : 1,
@@ -38890,9 +38890,9 @@
                   "をう とく",
                   "わう とく"
                ],
-               "latin" : "Ōtoku",
-               "latin_macron" : "Ōtoku",
-               "latin_normal" : "Outoku"
+               "latin" : "ō toku",
+               "latin_macron" : "ō toku",
+               "latin_normal" : "ou toku"
             },
             {
                "kana" : "やう とく",
@@ -39040,9 +39040,9 @@
                   "わう ゑい",
                   "おう ゑい"
                ],
-               "latin" : "Ōei",
-               "latin_macron" : "Ōei",
-               "latin_normal" : "Ouei"
+               "latin" : "ō ei",
+               "latin_macron" : "ō ei",
+               "latin_normal" : "ou ei"
             }
          ],
          "jp_era" : 1,
@@ -39288,9 +39288,9 @@
                   "わう ちやう",
                   "おう ちやう"
                ],
-               "latin" : "Ōchō",
-               "latin_macron" : "Ōchō",
-               "latin_normal" : "Ouchou"
+               "latin" : "ō chō",
+               "latin_macron" : "ō chō",
+               "latin_normal" : "ou chou"
             }
          ],
          "jp_era" : 1,
@@ -39571,17 +39571,17 @@
                "kana" : "けい あん",
                "kana_classic" : "けい あん",
                "kana_modern" : "けい あん",
-               "latin" : "Keian",
-               "latin_macron" : "Keian",
-               "latin_normal" : "Keian"
+               "latin" : "kei an",
+               "latin_macron" : "kei an",
+               "latin_normal" : "kei an"
             },
             {
                "kana" : "きょう あん",
                "kana_classic" : "きやう あん",
                "kana_modern" : "きょう あん",
-               "latin" : "Kyōan",
-               "latin_macron" : "Kyōan",
-               "latin_normal" : "Kyouan"
+               "latin" : "kyō an",
+               "latin_macron" : "kyō an",
+               "latin_normal" : "kyou an"
             }
          ],
          "jp_era" : 1,
@@ -39761,8 +39761,8 @@
                   "けい をう"
                ],
                "latin" : "Keio",
-               "latin_macron" : "Keiō",
-               "latin_normal" : "Keiou",
+               "latin_macron" : "kei ō",
+               "latin_normal" : "kei ou",
                "latin_others" : [
                   "Keio"
                ]
@@ -39963,17 +39963,17 @@
                "kana_others" : [
                   "けい ちよう"
                ],
-               "latin" : "Keichō",
-               "latin_macron" : "Keichō",
-               "latin_normal" : "Keichou"
+               "latin" : "kei chō",
+               "latin_macron" : "kei chō",
+               "latin_normal" : "kei chou"
             },
             {
                "kana" : "きょうちょう",
                "kana_classic" : "きやう ちやう",
                "kana_modern" : "きょうちょう",
-               "latin" : "Kyōchō",
-               "latin_macron" : "Kyōchō",
-               "latin_normal" : "Kyouchou"
+               "latin" : "kyōchō",
+               "latin_macron" : "kyōchō",
+               "latin_normal" : "kyouchou"
             }
          ],
          "jp_era" : 1,
@@ -40111,9 +40111,9 @@
                "kana" : "けい うん",
                "kana_classic" : "けい うん",
                "kana_modern" : "けい うん",
-               "latin" : "Keiun",
-               "latin_macron" : "Keiun",
-               "latin_normal" : "Keiun"
+               "latin" : "kei un",
+               "latin_macron" : "kei un",
+               "latin_normal" : "kei un"
             },
             {
                "kana" : "きょう うん",
@@ -40122,9 +40122,9 @@
                "kana_others" : [
                   "きゃう うん"
                ],
-               "latin" : "Kyōun",
-               "latin_macron" : "Kyōun",
-               "latin_normal" : "Kyouun"
+               "latin" : "kyō un",
+               "latin_macron" : "kyō un",
+               "latin_normal" : "kyou un"
             }
          ],
          "jp_era" : 1,
@@ -40913,9 +40913,9 @@
                   "じよう きゆう",
                   "ぜう きう"
                ],
-               "latin" : "Jōkyū",
-               "latin_macron" : "Jōkyū",
-               "latin_normal" : "Joukyuu"
+               "latin" : "jō kyū",
+               "latin_macron" : "jō kyū",
+               "latin_normal" : "jou kyuu"
             },
             {
                "kana" : "しょう きゅう",
@@ -40925,9 +40925,9 @@
                   "せう きう",
                   "しやう きう"
                ],
-               "latin" : "Shōkyū",
-               "latin_macron" : "Shōkyū",
-               "latin_normal" : "Shoukyuu"
+               "latin" : "shō kyū",
+               "latin_macron" : "shō kyū",
+               "latin_normal" : "shou kyuu"
             },
             {
                "kana" : "そう きう",
@@ -41068,9 +41068,9 @@
                   "ぜう ほう",
                   "じよう はう"
                ],
-               "latin" : "Jōhō",
-               "latin_macron" : "Jōhō",
-               "latin_normal" : "Jouhou"
+               "latin" : "jō hō",
+               "latin_macron" : "jō hō",
+               "latin_normal" : "jou hou"
             },
             {
                "kana" : "しょう ほう",
@@ -41079,24 +41079,24 @@
                "kana_others" : [
                   "せう ほう"
                ],
-               "latin" : "Shōhō",
-               "latin_macron" : "Shōhō",
-               "latin_normal" : "Shouhou"
+               "latin" : "shō hō",
+               "latin_macron" : "shō hō",
+               "latin_normal" : "shou hou"
             },
             {
                "kana" : "じょう ほ",
                "kana_modern" : "じょう ほ",
-               "latin" : "Jōho",
-               "latin_macron" : "Jōho",
-               "latin_normal" : "Jouho"
+               "latin" : "jō ho",
+               "latin_macron" : "jō ho",
+               "latin_normal" : "jou ho"
             },
             {
                "kana" : "しょう ほ",
                "kana_classic" : "せう ほ",
                "kana_modern" : "しょう ほ",
-               "latin" : "Shōho",
-               "latin_macron" : "Shōho",
-               "latin_normal" : "Shouho"
+               "latin" : "shō ho",
+               "latin_macron" : "shō ho",
+               "latin_normal" : "shou ho"
             }
          ],
          "jp_era" : 1,
@@ -41254,9 +41254,9 @@
                   "じよう げん",
                   "じよう ぐえん"
                ],
-               "latin" : "Jōgen",
-               "latin_macron" : "Jōgen",
-               "latin_normal" : "Jougen"
+               "latin" : "jō gen",
+               "latin_macron" : "jō gen",
+               "latin_normal" : "jou gen"
             },
             {
                "kana" : "しょう げん",
@@ -41265,17 +41265,17 @@
                "kana_others" : [
                   "せう げん"
                ],
-               "latin" : "Shōgen",
-               "latin_macron" : "Shōgen",
-               "latin_normal" : "Shougen"
+               "latin" : "shō gen",
+               "latin_macron" : "shō gen",
+               "latin_normal" : "shou gen"
             },
             {
                "kana" : "せい げん",
                "kana_classic" : "せい げん",
                "kana_modern" : "せい げん",
-               "latin" : "Seigen",
-               "latin_macron" : "Seigen",
-               "latin_normal" : "Seigen"
+               "latin" : "sei gen",
+               "latin_macron" : "sei gen",
+               "latin_normal" : "sei gen"
             },
             {
                "kana" : "せう けん",
@@ -41483,25 +41483,25 @@
                "kana" : "じょう わ",
                "kana_classic" : "じよう わ",
                "kana_modern" : "じょう わ",
-               "latin" : "Jōwa",
-               "latin_macron" : "Jōwa",
-               "latin_normal" : "Jouwa"
+               "latin" : "jō wa",
+               "latin_macron" : "jō wa",
+               "latin_normal" : "jou wa"
             },
             {
                "kana" : "しょう わ",
                "kana_classic" : "せう わ",
                "kana_modern" : "しょう わ",
-               "latin" : "Shōwa",
-               "latin_macron" : "Shōwa",
-               "latin_normal" : "Shouwa"
+               "latin" : "shō wa",
+               "latin_macron" : "shō wa",
+               "latin_normal" : "shou wa"
             },
             {
                "kana" : "そう わ",
                "kana_classic" : "そう わ",
                "kana_modern" : "そう わ",
-               "latin" : "Sōwa",
-               "latin_macron" : "Sōwa",
-               "latin_normal" : "Souwa"
+               "latin" : "sō wa",
+               "latin_macron" : "sō wa",
+               "latin_normal" : "sou wa"
             }
          ],
          "jp_era" : 1,
@@ -41662,9 +41662,9 @@
                "kana_others" : [
                   "ぜう あん"
                ],
-               "latin" : "Jōan",
-               "latin_macron" : "Jōan",
-               "latin_normal" : "Jouan"
+               "latin" : "jō an",
+               "latin_macron" : "jō an",
+               "latin_normal" : "jou an"
             },
             {
                "kana" : "しょう あん",
@@ -41673,17 +41673,17 @@
                "kana_others" : [
                   "せう あん"
                ],
-               "latin" : "Shōan",
-               "latin_macron" : "Shōan",
-               "latin_normal" : "Shouan"
+               "latin" : "shō an",
+               "latin_macron" : "shō an",
+               "latin_normal" : "shou an"
             },
             {
                "kana" : "そう あん",
                "kana_classic" : "そう あん",
                "kana_modern" : "そう あん",
-               "latin" : "Sōan",
-               "latin_macron" : "Sōan",
-               "latin_normal" : "Souan"
+               "latin" : "sō an",
+               "latin_macron" : "sō an",
+               "latin_normal" : "sou an"
             }
          ],
          "jp_era" : 1,
@@ -41842,9 +41842,9 @@
                "kana" : "じょう へい",
                "kana_classic" : "じよう へい",
                "kana_modern" : "じょう へい",
-               "latin" : "Jōhei",
-               "latin_macron" : "Jōhei",
-               "latin_normal" : "Jouhei"
+               "latin" : "jō hei",
+               "latin_macron" : "jō hei",
+               "latin_normal" : "jou hei"
             },
             {
                "kana" : "しょう へい",
@@ -41855,9 +41855,9 @@
                   "しやう へい",
                   "しゃう へい"
                ],
-               "latin" : "Shōhei",
-               "latin_macron" : "Shōhei",
-               "latin_normal" : "Shouhei"
+               "latin" : "shō hei",
+               "latin_macron" : "shō hei",
+               "latin_normal" : "shou hei"
             }
          ],
          "jp_era" : 1,
@@ -42083,9 +42083,9 @@
                "kana_others" : [
                   "ぜう とく"
                ],
-               "latin" : "Jōtoku",
-               "latin_macron" : "Jōtoku",
-               "latin_normal" : "Joutoku"
+               "latin" : "jō toku",
+               "latin_macron" : "jō toku",
+               "latin_normal" : "jou toku"
             },
             {
                "kana" : "しょう とく",
@@ -42094,9 +42094,9 @@
                "kana_others" : [
                   "せう とく"
                ],
-               "latin" : "Shōtoku",
-               "latin_macron" : "Shōtoku",
-               "latin_normal" : "Shoutoku"
+               "latin" : "shō toku",
+               "latin_macron" : "shō toku",
+               "latin_normal" : "shou toku"
             }
          ],
          "jp_era" : 1,
@@ -42241,9 +42241,9 @@
                "kana_others" : [
                   "じよう おう"
                ],
-               "latin" : "Jōō",
-               "latin_macron" : "Jōō",
-               "latin_normal" : "Jouou"
+               "latin" : "jō ō",
+               "latin_macron" : "jō ō",
+               "latin_normal" : "jou ou"
             },
             {
                "kana" : "しょう おう",
@@ -42251,9 +42251,9 @@
                "kana_others" : [
                   "せう をう"
                ],
-               "latin" : "Shōō",
-               "latin_macron" : "Shōō",
-               "latin_normal" : "Shouou"
+               "latin" : "shō ō",
+               "latin_macron" : "shō ō",
+               "latin_normal" : "shou ou"
             }
          ],
          "jp_era" : 1,
@@ -42432,9 +42432,9 @@
                "kana_others" : [
                   "ぜう りやく"
                ],
-               "latin" : "Jōryaku",
-               "latin_macron" : "Jōryaku",
-               "latin_normal" : "Jouryaku"
+               "latin" : "jō ryaku",
+               "latin_macron" : "jō ryaku",
+               "latin_normal" : "jou ryaku"
             },
             {
                "kana" : "しょう りゃく",
@@ -42443,17 +42443,17 @@
                "kana_others" : [
                   "せう りやく"
                ],
-               "latin" : "Shōryaku",
-               "latin_macron" : "Shōryaku",
-               "latin_normal" : "Shouryaku"
+               "latin" : "shō ryaku",
+               "latin_macron" : "shō ryaku",
+               "latin_normal" : "shou ryaku"
             },
             {
                "kana" : "しょう れき",
                "kana_classic" : "せう れき",
                "kana_modern" : "しょう れき",
-               "latin" : "Shōreki",
-               "latin_macron" : "Shōreki",
-               "latin_normal" : "Shoureki"
+               "latin" : "shō reki",
+               "latin_macron" : "shō reki",
+               "latin_normal" : "shou reki"
             }
          ],
          "jp_era" : 1,
@@ -43149,17 +43149,17 @@
                "kana_others" : [
                   "ぶん ちゆう"
                ],
-               "latin" : "Bunchū",
-               "latin_macron" : "Bunchū",
-               "latin_normal" : "Bunchuu"
+               "latin" : "bun chū",
+               "latin_macron" : "bun chū",
+               "latin_normal" : "bun chuu"
             },
             {
                "kana" : "ふん ちう",
                "kana_classic" : "ふん ちう",
                "kana_modern" : "ふん ちう",
-               "latin" : "Funchiu",
-               "latin_macron" : "Funchiu",
-               "latin_normal" : "Funchiu"
+               "latin" : "fun chiu",
+               "latin_macron" : "fun chiu",
+               "latin_normal" : "fun chiu"
             }
          ],
          "jp_south_era" : 1,
@@ -43368,9 +43368,9 @@
                "kana_others" : [
                   "ぶん きゆう"
                ],
-               "latin" : "Bunkyū",
-               "latin_macron" : "Bunkyū",
-               "latin_normal" : "Bunkyuu"
+               "latin" : "bun kyū",
+               "latin_macron" : "bun kyū",
+               "latin_normal" : "bun kyuu"
             }
          ],
          "jp_era" : 1,
@@ -43494,9 +43494,9 @@
                "kana" : "ぶん き",
                "kana_classic" : "ぶん き",
                "kana_modern" : "ぶん き",
-               "latin" : "Bunki",
-               "latin_macron" : "Bunki",
-               "latin_normal" : "Bunki"
+               "latin" : "bun ki",
+               "latin_macron" : "bun ki",
+               "latin_normal" : "bun ki"
             }
          ],
          "jp_era" : 1,
@@ -43635,41 +43635,41 @@
                "kana_others" : [
                   "ぶん ぱう"
                ],
-               "latin" : "Bumpō",
-               "latin_macron" : "Bumpō",
-               "latin_normal" : "Bumpou"
+               "latin" : "bum pō",
+               "latin_macron" : "bum pō",
+               "latin_normal" : "bum pou"
             },
             {
                "kana" : "ぶん ほう",
                "kana_classic" : "ぶん ほう",
                "kana_modern" : "ぶん ほう",
-               "latin" : "Bunhō",
-               "latin_macron" : "Bunhō",
-               "latin_normal" : "Bunhou"
+               "latin" : "bun hō",
+               "latin_macron" : "bun hō",
+               "latin_normal" : "bun hou"
             },
             {
                "kana" : "ぶん ぽ",
                "kana_classic" : "ぶん ぽ",
                "kana_modern" : "ぶん ぽ",
-               "latin" : "Bumpo",
-               "latin_macron" : "Bumpo",
-               "latin_normal" : "Bumpo"
+               "latin" : "bum po",
+               "latin_macron" : "bum po",
+               "latin_normal" : "bum po"
             },
             {
                "kana" : "ぶん ほ",
                "kana_classic" : "ぶん ほ",
                "kana_modern" : "ぶん ほ",
-               "latin" : "Bunho",
-               "latin_macron" : "Bunho",
-               "latin_normal" : "Bunho"
+               "latin" : "bun ho",
+               "latin_macron" : "bun ho",
+               "latin_normal" : "bun ho"
             },
             {
                "kana" : "ふん ほう",
                "kana_classic" : "ぶん はう",
                "kana_modern" : "ふん ほう",
-               "latin" : "Funhō",
-               "latin_macron" : "Funhō",
-               "latin_normal" : "Funhou"
+               "latin" : "fun hō",
+               "latin_macron" : "fun hō",
+               "latin_normal" : "fun hou"
             }
          ],
          "jp_era" : 1,
@@ -43797,9 +43797,9 @@
                "kana" : "ぶん か",
                "kana_classic" : "ぶん くわ",
                "kana_modern" : "ぶん か",
-               "latin" : "Bunka",
-               "latin_macron" : "Bunka",
-               "latin_normal" : "Bunka"
+               "latin" : "bun ka",
+               "latin_macron" : "bun ka",
+               "latin_normal" : "bun ka"
             }
          ],
          "jp_era" : 1,
@@ -43902,25 +43902,25 @@
                "kana" : "ぶん な",
                "kana_classic" : "ぶん な",
                "kana_modern" : "ぶん な",
-               "latin" : "Bunna",
-               "latin_macron" : "Bunna",
-               "latin_normal" : "Bunna"
+               "latin" : "bun na",
+               "latin_macron" : "bun na",
+               "latin_normal" : "bun na"
             },
             {
                "kana" : "ぶん わ",
                "kana_classic" : "ぶん わ",
                "kana_modern" : "ぶん わ",
-               "latin" : "Bunwa",
-               "latin_macron" : "Bunwa",
-               "latin_normal" : "Bunwa"
+               "latin" : "bun wa",
+               "latin_macron" : "bun wa",
+               "latin_normal" : "bun wa"
             },
             {
                "kana" : "ふん わ",
                "kana_classic" : "ふん わ",
                "kana_modern" : "ふん わ",
-               "latin" : "Funwa",
-               "latin_macron" : "Funwa",
-               "latin_normal" : "Funwa"
+               "latin" : "fun wa",
+               "latin_macron" : "fun wa",
+               "latin_normal" : "fun wa"
             }
          ],
          "jp_north_era" : 1,
@@ -44064,33 +44064,33 @@
                "kana" : "ぶん あん",
                "kana_classic" : "ぶん あん",
                "kana_modern" : "ぶん あん",
-               "latin" : "Bun'an",
-               "latin_macron" : "Bun'an",
-               "latin_normal" : "Bun'an"
+               "latin" : "bun ' an",
+               "latin_macron" : "bun ' an",
+               "latin_normal" : "bun ' an"
             },
             {
                "kana" : "ふん あん",
                "kana_classic" : "ふん あん",
                "kana_modern" : "ふん あん",
-               "latin" : "Fun'an",
-               "latin_macron" : "Fun'an",
-               "latin_normal" : "Fun'an"
+               "latin" : "fun ' an",
+               "latin_macron" : "fun ' an",
+               "latin_normal" : "fun ' an"
             },
             {
                "kana" : "ぶん なん",
                "kana_classic" : "ぶん なん",
                "kana_modern" : "ぶん なん",
-               "latin" : "Bunnan",
-               "latin_macron" : "Bunnan",
-               "latin_normal" : "Bunnan"
+               "latin" : "bun nan",
+               "latin_macron" : "bun nan",
+               "latin_normal" : "bun nan"
             },
             {
                "kana" : "ふ あん",
                "kana_classic" : "ふ あん",
                "kana_modern" : "ふ あん",
-               "latin" : "Fuan",
-               "latin_macron" : "Fuan",
-               "latin_normal" : "Fuan"
+               "latin" : "fu an",
+               "latin_macron" : "fu an",
+               "latin_normal" : "fu an"
             }
          ],
          "jp_era" : 1,
@@ -44321,17 +44321,17 @@
                   "ぶん をう",
                   "ぶん わう"
                ],
-               "latin" : "Bun'ō",
-               "latin_macron" : "Bun'ō",
-               "latin_normal" : "Bun'ou"
+               "latin" : "bun ' ō",
+               "latin_macron" : "bun ' ō",
+               "latin_normal" : "bun ' ou"
             },
             {
                "kana" : "ぶん のう",
                "kana_classic" : "ぶん のう",
                "kana_modern" : "ぶん のう",
-               "latin" : "Bunnō",
-               "latin_macron" : "Bunnō",
-               "latin_normal" : "Bunnou"
+               "latin" : "bun nō",
+               "latin_macron" : "bun nō",
+               "latin_normal" : "bun nou"
             },
             {
                "kana" : "ふん をう",
@@ -44502,9 +44502,9 @@
                "kana" : "ぶん せい",
                "kana_classic" : "ぶん せい",
                "kana_modern" : "ぶん せい",
-               "latin" : "Bunsei",
-               "latin_macron" : "Bunsei",
-               "latin_normal" : "Bunsei"
+               "latin" : "bun sei",
+               "latin_macron" : "bun sei",
+               "latin_normal" : "bun sei"
             }
          ],
          "jp_era" : 1,
@@ -44626,17 +44626,17 @@
                "kana" : "ぶん めい",
                "kana_classic" : "ぶん めい",
                "kana_modern" : "ぶん めい",
-               "latin" : "Bummei",
-               "latin_macron" : "Bummei",
-               "latin_normal" : "Bummei"
+               "latin" : "bum mei",
+               "latin_macron" : "bum mei",
+               "latin_normal" : "bum mei"
             },
             {
                "kana" : "ふん めい",
                "kana_classic" : "ふん めい",
                "kana_modern" : "ふん めい",
-               "latin" : "Fummei",
-               "latin_macron" : "Fummei",
-               "latin_normal" : "Fummei"
+               "latin" : "fum mei",
+               "latin_macron" : "fum mei",
+               "latin_normal" : "fum mei"
             }
          ],
          "jp_era" : 1,
@@ -44804,25 +44804,25 @@
                "kana" : "ぶん りゃく",
                "kana_classic" : "ぶん りやく",
                "kana_modern" : "ぶん りゃく",
-               "latin" : "Bunryaku",
-               "latin_macron" : "Bunryaku",
-               "latin_normal" : "Bunryaku"
+               "latin" : "bun ryaku",
+               "latin_macron" : "bun ryaku",
+               "latin_normal" : "bun ryaku"
             },
             {
                "kana" : "もん りゃく",
                "kana_classic" : "もん りやく",
                "kana_modern" : "もん りゃく",
-               "latin" : "Monryaku",
-               "latin_macron" : "Monryaku",
-               "latin_normal" : "Monryaku"
+               "latin" : "mon ryaku",
+               "latin_macron" : "mon ryaku",
+               "latin_normal" : "mon ryaku"
             },
             {
                "kana" : "もん れき",
                "kana_classic" : "もん れき",
                "kana_modern" : "もん れき",
-               "latin" : "Monreki",
-               "latin_macron" : "Monreki",
-               "latin_normal" : "Monreki"
+               "latin" : "mon reki",
+               "latin_macron" : "mon reki",
+               "latin_normal" : "mon reki"
             },
             {
                "kana" : "ふん りやく",
@@ -44962,17 +44962,17 @@
                "kana_others" : [
                   "ぶん しよう"
                ],
-               "latin" : "Bunshō",
-               "latin_macron" : "Bunshō",
-               "latin_normal" : "Bunshou"
+               "latin" : "bun shō",
+               "latin_macron" : "bun shō",
+               "latin_normal" : "bun shou"
             },
             {
                "kana" : "もん しょう",
                "kana_classic" : "もん しやう",
                "kana_modern" : "もん しょう",
-               "latin" : "Monshō",
-               "latin_macron" : "Monshō",
-               "latin_normal" : "Monshou"
+               "latin" : "mon shō",
+               "latin_macron" : "mon shō",
+               "latin_normal" : "mon shou"
             }
          ],
          "jp_era" : 1,
@@ -45212,9 +45212,9 @@
                "kana" : "ぶん えい",
                "kana_classic" : "ぶん えい",
                "kana_modern" : "ぶん えい",
-               "latin" : "Bun'ei",
-               "latin_macron" : "Bun'ei",
-               "latin_normal" : "Bun'ei"
+               "latin" : "bun ' ei",
+               "latin_macron" : "bun ' ei",
+               "latin_normal" : "bun ' ei"
             },
             {
                "kana" : "ふん えい",
@@ -45223,9 +45223,9 @@
                "kana_others" : [
                   "ふん ゑい"
                ],
-               "latin" : "Fun'ei",
-               "latin_macron" : "Fun'ei",
-               "latin_normal" : "Fun'ei"
+               "latin" : "fun ' ei",
+               "latin_macron" : "fun ' ei",
+               "latin_normal" : "fun ' ei"
             }
          ],
          "jp_era" : 1,
@@ -45349,33 +45349,33 @@
                "kana" : "ぶん じ",
                "kana_classic" : "ぶん ぢ",
                "kana_modern" : "ぶん じ",
-               "latin" : "Bunji",
-               "latin_macron" : "Bunji",
-               "latin_normal" : "Bunji"
+               "latin" : "bun ji",
+               "latin_macron" : "bun ji",
+               "latin_normal" : "bun ji"
             },
             {
                "kana" : "ふん ち",
                "kana_classic" : "ふん ち",
                "kana_modern" : "ふん ち",
-               "latin" : "Funchi",
-               "latin_macron" : "Funchi",
-               "latin_normal" : "Funchi"
+               "latin" : "fun chi",
+               "latin_macron" : "fun chi",
+               "latin_normal" : "fun chi"
             },
             {
                "kana" : "もん ち",
                "kana_classic" : "もん ち",
                "kana_modern" : "もん ち",
-               "latin" : "Monchi",
-               "latin_macron" : "Monchi",
-               "latin_normal" : "Monchi"
+               "latin" : "mon chi",
+               "latin_macron" : "mon chi",
+               "latin_normal" : "mon chi"
             },
             {
                "kana" : "ぶん ち",
                "kana_classic" : "ぶん ち",
                "kana_modern" : "ぶん ち",
-               "latin" : "Bunchi",
-               "latin_macron" : "Bunchi",
-               "latin_normal" : "Bunchi"
+               "latin" : "bun chi",
+               "latin_macron" : "bun chi",
+               "latin_normal" : "bun chi"
             }
          ],
          "jp_era" : 1,
@@ -45517,9 +45517,9 @@
                "kana" : "ぶん ろく",
                "kana_classic" : "ぶん ろく",
                "kana_modern" : "ぶん ろく",
-               "latin" : "Bunroku",
-               "latin_macron" : "Bunroku",
-               "latin_normal" : "Bunroku"
+               "latin" : "bun roku",
+               "latin_macron" : "bun roku",
+               "latin_normal" : "bun roku"
             }
          ],
          "jp_era" : 1,
@@ -45801,9 +45801,9 @@
                "kana" : "さい こう",
                "kana_classic" : "さい かう",
                "kana_modern" : "さい こう",
-               "latin" : "Saikō",
-               "latin_macron" : "Saikō",
-               "latin_normal" : "Saikou"
+               "latin" : "sai kō",
+               "latin_macron" : "sai kō",
+               "latin_normal" : "sai kou"
             }
          ],
          "jp_era" : 1,
@@ -46128,9 +46128,9 @@
                   "しよう たい",
                   "しゃう たい"
                ],
-               "latin" : "Shōtai",
-               "latin_macron" : "Shōtai",
-               "latin_normal" : "Shoutai"
+               "latin" : "shō tai",
+               "latin_macron" : "shō tai",
+               "latin_normal" : "shou tai"
             }
          ],
          "jp_era" : 1,
@@ -46362,9 +46362,9 @@
                "kana" : "めい わ",
                "kana_classic" : "めい わ",
                "kana_modern" : "めい わ",
-               "latin" : "Meiwa",
-               "latin_macron" : "Meiwa",
-               "latin_normal" : "Meiwa"
+               "latin" : "mei wa",
+               "latin_macron" : "mei wa",
+               "latin_normal" : "mei wa"
             }
          ],
          "jp_era" : 1,
@@ -46513,9 +46513,9 @@
                "kana" : "めい とく",
                "kana_classic" : "めい とく",
                "kana_modern" : "めい とく",
-               "latin" : "Meitoku",
-               "latin_macron" : "Meitoku",
-               "latin_normal" : "Meitoku"
+               "latin" : "mei toku",
+               "latin_macron" : "mei toku",
+               "latin_normal" : "mei toku"
             }
          ],
          "jp_north_era" : 1,
@@ -46769,9 +46769,9 @@
                   "めい をう",
                   "めい わう"
                ],
-               "latin" : "Meiō",
-               "latin_macron" : "Meiō",
-               "latin_normal" : "Meiou"
+               "latin" : "mei ō",
+               "latin_macron" : "mei ō",
+               "latin_normal" : "mei ou"
             }
          ],
          "jp_era" : 1,
@@ -46992,25 +46992,25 @@
                "kana" : "めい れき",
                "kana_classic" : "めい れき",
                "kana_modern" : "めい れき",
-               "latin" : "Meireki",
-               "latin_macron" : "Meireki",
-               "latin_normal" : "Meireki"
+               "latin" : "mei reki",
+               "latin_macron" : "mei reki",
+               "latin_normal" : "mei reki"
             },
             {
                "kana" : "めい りゃく",
                "kana_classic" : "めい りやく",
                "kana_modern" : "めい りゃく",
-               "latin" : "Meiryaku",
-               "latin_macron" : "Meiryaku",
-               "latin_normal" : "Meiryaku"
+               "latin" : "mei ryaku",
+               "latin_macron" : "mei ryaku",
+               "latin_normal" : "mei ryaku"
             },
             {
                "kana" : "みょう りゃく",
                "kana_classic" : "みやう りやく",
                "kana_modern" : "みょう りゃく",
-               "latin" : "Myōryaku",
-               "latin_macron" : "Myōryaku",
-               "latin_normal" : "Myouryaku"
+               "latin" : "myō ryaku",
+               "latin_macron" : "myō ryaku",
+               "latin_normal" : "myou ryaku"
             }
          ],
          "jp_era" : 1,
@@ -47214,9 +47214,9 @@
                "kana" : "めい じ",
                "kana_classic" : "めい ぢ",
                "kana_modern" : "めい じ",
-               "latin" : "Meiji",
-               "latin_macron" : "Meiji",
-               "latin_normal" : "Meiji"
+               "latin" : "mei ji",
+               "latin_macron" : "mei ji",
+               "latin_normal" : "mei ji"
             }
          ],
          "jp_era" : 1,
@@ -47705,8 +47705,8 @@
                   "しよう わ"
                ],
                "latin" : "Showa",
-               "latin_macron" : "Shōwa",
-               "latin_normal" : "Shouwa",
+               "latin_macron" : "shō wa",
+               "latin_normal" : "shou wa",
                "latin_others" : [
                   "Showa",
                   "Syowa"
@@ -48520,17 +48520,17 @@
                "kana" : "りゃく にん",
                "kana_classic" : "りやく にん",
                "kana_modern" : "りゃく にん",
-               "latin" : "Ryakunin",
-               "latin_macron" : "Ryakunin",
-               "latin_normal" : "Ryakunin"
+               "latin" : "ryaku nin",
+               "latin_macron" : "ryaku nin",
+               "latin_normal" : "ryaku nin"
             },
             {
                "kana" : "れき にん",
                "kana_classic" : "れき にん",
                "kana_modern" : "れき にん",
-               "latin" : "Rekinin",
-               "latin_macron" : "Rekinin",
-               "latin_normal" : "Rekinin"
+               "latin" : "reki nin",
+               "latin_macron" : "reki nin",
+               "latin_normal" : "reki nin"
             }
          ],
          "jp_era" : 1,
@@ -48660,17 +48660,17 @@
                "kana" : "りゃく おう",
                "kana_classic" : "りやく おう",
                "kana_modern" : "りゃく おう",
-               "latin" : "Ryakuō",
-               "latin_macron" : "Ryakuō",
-               "latin_normal" : "Ryakuou"
+               "latin" : "ryaku ō",
+               "latin_macron" : "ryaku ō",
+               "latin_normal" : "ryaku ou"
             },
             {
                "kana" : "れき おう",
                "kana_classic" : "れき わう",
                "kana_modern" : "れき おう",
-               "latin" : "Rekiō",
-               "latin_macron" : "Rekiō",
-               "latin_normal" : "Rekiou"
+               "latin" : "reki ō",
+               "latin_macron" : "reki ō",
+               "latin_normal" : "reki ou"
             },
             {
                "kana" : "りやく をう",
@@ -49079,33 +49079,33 @@
                "kana_others" : [
                   "しゆ てう"
                ],
-               "latin" : "Shuchō",
-               "latin_macron" : "Shuchō",
-               "latin_normal" : "Shuchou"
+               "latin" : "shu chō",
+               "latin_macron" : "shu chō",
+               "latin_normal" : "shu chou"
             },
             {
                "kana" : "す ちょう",
                "kana_classic" : "す てう",
                "kana_modern" : "す ちょう",
-               "latin" : "Suchō",
-               "latin_macron" : "Suchō",
-               "latin_normal" : "Suchou"
+               "latin" : "su chō",
+               "latin_macron" : "su chō",
+               "latin_normal" : "su chou"
             },
             {
                "kana" : "あかみとり",
                "kana_classic" : "あかみとり",
                "kana_modern" : "あかみとり",
-               "latin" : "Akamitori",
-               "latin_macron" : "Akamitori",
-               "latin_normal" : "Akamitori"
+               "latin" : "akamitori",
+               "latin_macron" : "akamitori",
+               "latin_normal" : "akamitori"
             },
             {
                "kana" : "あかみどり",
                "kana_classic" : "あかみどり",
                "kana_modern" : "あかみどり",
-               "latin" : "Akamidori",
-               "latin_macron" : "Akamidori",
-               "latin_normal" : "Akamidori"
+               "latin" : "akamidori",
+               "latin_macron" : "akamidori",
+               "latin_normal" : "akamidori"
             }
          ],
          "jp_era" : 1,
@@ -49548,9 +49548,9 @@
                   "しやう ちゆう",
                   "しゃう ちゅう"
                ],
-               "latin" : "Shōchū",
-               "latin_macron" : "Shōchū",
-               "latin_normal" : "Shouchuu"
+               "latin" : "shō chū",
+               "latin_macron" : "shō chū",
+               "latin_normal" : "shou chuu"
             }
          ],
          "jp_era" : 1,
@@ -49727,9 +49727,9 @@
                "kana_others" : [
                   "しよう ほう"
                ],
-               "latin" : "Shōhō",
-               "latin_macron" : "Shōhō",
-               "latin_normal" : "Shouhou"
+               "latin" : "shō hō",
+               "latin_macron" : "shō hō",
+               "latin_normal" : "shou hou"
             }
          ],
          "jp_era" : 1,
@@ -49886,9 +49886,9 @@
                   "しよう げん",
                   "しやう げん"
                ],
-               "latin" : "Shōgen",
-               "latin_macron" : "Shōgen",
-               "latin_normal" : "Shougen"
+               "latin" : "shō gen",
+               "latin_macron" : "shō gen",
+               "latin_normal" : "shou gen"
             },
             {
                "kana" : "しよう けん",
@@ -50058,9 +50058,9 @@
                   "しよう わ",
                   "しゃう は"
                ],
-               "latin" : "Shōwa",
-               "latin_macron" : "Shōwa",
-               "latin_normal" : "Shouwa"
+               "latin" : "shō wa",
+               "latin_macron" : "shō wa",
+               "latin_normal" : "shou wa"
             }
          ],
          "jp_era" : 1,
@@ -50218,17 +50218,17 @@
                "kana_others" : [
                   "しよう か"
                ],
-               "latin" : "Shōka",
-               "latin_macron" : "Shōka",
-               "latin_normal" : "Shouka"
+               "latin" : "shō ka",
+               "latin_macron" : "shō ka",
+               "latin_normal" : "shou ka"
             },
             {
                "kana" : "しょう が",
                "kana_classic" : "しやう が",
                "kana_modern" : "しょう が",
-               "latin" : "Shōga",
-               "latin_macron" : "Shōga",
-               "latin_normal" : "Shouga"
+               "latin" : "shō ga",
+               "latin_macron" : "shō ga",
+               "latin_normal" : "shou ga"
             }
          ],
          "jp_era" : 1,
@@ -50473,9 +50473,9 @@
                "kana_others" : [
                   "しよう あん"
                ],
-               "latin" : "Shōan",
-               "latin_macron" : "Shōan",
-               "latin_normal" : "Shouan"
+               "latin" : "shō an",
+               "latin_macron" : "shō an",
+               "latin_normal" : "shou an"
             }
          ],
          "jp_era" : 1,
@@ -50739,9 +50739,9 @@
                "kana_others" : [
                   "しよう へい"
                ],
-               "latin" : "Shōhei",
-               "latin_macron" : "Shōhei",
-               "latin_normal" : "Shouhei"
+               "latin" : "shō hei",
+               "latin_macron" : "shō hei",
+               "latin_normal" : "shou hei"
             }
          ],
          "jp_south_era" : 1,
@@ -51072,9 +51072,9 @@
                "kana_others" : [
                   "しよう とく"
                ],
-               "latin" : "Shōtoku",
-               "latin_macron" : "Shōtoku",
-               "latin_normal" : "Shoutoku"
+               "latin" : "shō toku",
+               "latin_macron" : "shō toku",
+               "latin_normal" : "shou toku"
             }
          ],
          "jp_era" : 1,
@@ -51277,9 +51277,9 @@
                   "しやう をう",
                   "しやう わう"
                ],
-               "latin" : "Shōō",
-               "latin_macron" : "Shōō",
-               "latin_normal" : "Shouou"
+               "latin" : "shō ō",
+               "latin_macron" : "shō ō",
+               "latin_normal" : "shou ou"
             }
          ],
          "jp_era" : 1,
@@ -51394,9 +51394,9 @@
                   "しよう きよう",
                   "しゃう きゃう"
                ],
-               "latin" : "Shōkyō",
-               "latin_macron" : "Shōkyō",
-               "latin_normal" : "Shoukyou"
+               "latin" : "shō kyō",
+               "latin_macron" : "shō kyō",
+               "latin_normal" : "shou kyou"
             },
             {
                "kana" : "しょう けい",
@@ -51405,9 +51405,9 @@
                "kana_others" : [
                   "しゃうけい"
                ],
-               "latin" : "Shōkei",
-               "latin_macron" : "Shōkei",
-               "latin_normal" : "Shoukei"
+               "latin" : "shō kei",
+               "latin_macron" : "shō kei",
+               "latin_normal" : "shou kei"
             }
          ],
          "jp_north_era" : 1,
@@ -51608,25 +51608,25 @@
                "kana_others" : [
                   "しよう りやく"
                ],
-               "latin" : "Shōryaku",
-               "latin_macron" : "Shōryaku",
-               "latin_normal" : "Shouryaku"
+               "latin" : "shō ryaku",
+               "latin_macron" : "shō ryaku",
+               "latin_normal" : "shou ryaku"
             },
             {
                "kana" : "じょう りゃく",
                "kana_classic" : "じやう りやく",
                "kana_modern" : "じょう りゃく",
-               "latin" : "Jōryaku",
-               "latin_macron" : "Jōryaku",
-               "latin_normal" : "Jouryaku"
+               "latin" : "jō ryaku",
+               "latin_macron" : "jō ryaku",
+               "latin_normal" : "jou ryaku"
             },
             {
                "kana" : "しょう れき",
                "kana_classic" : "しやう れき",
                "kana_modern" : "しょう れき",
-               "latin" : "Shōreki",
-               "latin_macron" : "Shōreki",
-               "latin_normal" : "Shoureki"
+               "latin" : "shō reki",
+               "latin_macron" : "shō reki",
+               "latin_normal" : "shou reki"
             }
          ],
          "jp_era" : 1,
@@ -51836,9 +51836,9 @@
                "kana_others" : [
                   "しよう じ"
                ],
-               "latin" : "Shōji",
-               "latin_macron" : "Shōji",
-               "latin_normal" : "Shouji"
+               "latin" : "shō ji",
+               "latin_macron" : "shō ji",
+               "latin_normal" : "shou ji"
             },
             {
                "kana" : "じやう ち",
@@ -52114,9 +52114,9 @@
                "kana_others" : [
                   "しよう ちよう"
                ],
-               "latin" : "Shōchō",
-               "latin_macron" : "Shōchō",
-               "latin_normal" : "Shouchou"
+               "latin" : "shō chō",
+               "latin_macron" : "shō chō",
+               "latin_normal" : "shou chou"
             }
          ],
          "jp_era" : 1,
@@ -52770,17 +52770,17 @@
                "kana" : "えい まん",
                "kana_classic" : "えい まん",
                "kana_modern" : "えい まん",
-               "latin" : "Eiman",
-               "latin_macron" : "Eiman",
-               "latin_normal" : "Eiman"
+               "latin" : "ei man",
+               "latin_macron" : "ei man",
+               "latin_normal" : "ei man"
             },
             {
                "kana" : "よう まん",
                "kana_classic" : "やう まん",
                "kana_modern" : "よう まん",
-               "latin" : "Yōman",
-               "latin_macron" : "Yōman",
-               "latin_normal" : "Youman"
+               "latin" : "yō man",
+               "latin_macron" : "yō man",
+               "latin_normal" : "you man"
             }
          ],
          "jp_era" : 1,
@@ -52908,17 +52908,17 @@
                "kana_others" : [
                   "えい きゆう"
                ],
-               "latin" : "Eikyū",
-               "latin_macron" : "Eikyū",
-               "latin_normal" : "Eikyuu"
+               "latin" : "ei kyū",
+               "latin_macron" : "ei kyū",
+               "latin_normal" : "ei kyuu"
             },
             {
                "kana" : "よう きゅう",
                "kana_classic" : "やう きう",
                "kana_modern" : "よう きゅう",
-               "latin" : "Yōkyū",
-               "latin_macron" : "Yōkyū",
-               "latin_normal" : "Youkyuu"
+               "latin" : "yō kyū",
+               "latin_macron" : "yō kyū",
+               "latin_normal" : "you kyuu"
             }
          ],
          "jp_era" : 1,
@@ -53057,9 +53057,9 @@
                   "えい きよう",
                   "ゑい きやう"
                ],
-               "latin" : "Eikyō",
-               "latin_macron" : "Eikyō",
-               "latin_normal" : "Eikyou"
+               "latin" : "ei kyō",
+               "latin_macron" : "ei kyō",
+               "latin_normal" : "ei kyou"
             },
             {
                "kana" : "えい かう",
@@ -53231,9 +53231,9 @@
                "kana_others" : [
                   "ゑい にん"
                ],
-               "latin" : "Einin",
-               "latin_macron" : "Einin",
-               "latin_normal" : "Einin"
+               "latin" : "ei nin",
+               "latin_macron" : "ei nin",
+               "latin_normal" : "ei nin"
             },
             {
                "kana" : "ゑん にん",
@@ -53394,17 +53394,17 @@
                "kana_others" : [
                   "えい はう"
                ],
-               "latin" : "Eihō",
-               "latin_macron" : "Eihō",
-               "latin_normal" : "Eihou"
+               "latin" : "ei hō",
+               "latin_macron" : "ei hō",
+               "latin_normal" : "ei hou"
             },
             {
                "kana" : "えい ほ",
                "kana_classic" : "えい ほ",
                "kana_modern" : "えい ほ",
-               "latin" : "Eiho",
-               "latin_macron" : "Eiho",
-               "latin_normal" : "Eiho"
+               "latin" : "ei ho",
+               "latin_macron" : "ei ho",
+               "latin_normal" : "ei ho"
             },
             {
                "kana" : "やう ぼう",
@@ -53641,9 +53641,9 @@
                "kana_others" : [
                   "ゑい わ"
                ],
-               "latin" : "Eiwa",
-               "latin_macron" : "Eiwa",
-               "latin_normal" : "Eiwa"
+               "latin" : "ei wa",
+               "latin_macron" : "ei wa",
+               "latin_normal" : "ei wa"
             }
          ],
          "jp_north_era" : 1,
@@ -54405,17 +54405,17 @@
                "kana" : "えい えん",
                "kana_classic" : "えい えん",
                "kana_modern" : "えい えん",
-               "latin" : "Eien",
-               "latin_macron" : "Eien",
-               "latin_normal" : "Eien"
+               "latin" : "ei en",
+               "latin_macron" : "ei en",
+               "latin_normal" : "ei en"
             },
             {
                "kana" : "よう えん",
                "kana_classic" : "やう えん",
                "kana_modern" : "よう えん",
-               "latin" : "Yōen",
-               "latin_macron" : "Yōen",
-               "latin_normal" : "Youen"
+               "latin" : "yō en",
+               "latin_macron" : "yō en",
+               "latin_normal" : "you en"
             }
          ],
          "jp_era" : 1,
@@ -54589,9 +54589,9 @@
                "kana_others" : [
                   "ゑい とく"
                ],
-               "latin" : "Eitoku",
-               "latin_macron" : "Eitoku",
-               "latin_normal" : "Eitoku"
+               "latin" : "ei toku",
+               "latin_macron" : "ei toku",
+               "latin_normal" : "ei toku"
             }
          ],
          "jp_north_era" : 1,
@@ -54842,9 +54842,9 @@
                   "えい しやう",
                   "えい せう"
                ],
-               "latin" : "Eishō",
-               "latin_macron" : "Eishō",
-               "latin_normal" : "Eishou"
+               "latin" : "ei shō",
+               "latin_macron" : "ei shō",
+               "latin_normal" : "ei shou"
             },
             {
                "kana" : "えい じょう",
@@ -54854,9 +54854,9 @@
                   "えい じやう",
                   "えい ぜう"
                ],
-               "latin" : "Eijō",
-               "latin_macron" : "Eijō",
-               "latin_normal" : "Eijou"
+               "latin" : "ei jō",
+               "latin_macron" : "ei jō",
+               "latin_normal" : "ei jou"
             },
             {
                "kana" : "よう じょう",
@@ -54865,9 +54865,9 @@
                "kana_others" : [
                   "よう じよう"
                ],
-               "latin" : "Yōjō",
-               "latin_macron" : "Yōjō",
-               "latin_normal" : "Youjou"
+               "latin" : "yō jō",
+               "latin_macron" : "yō jō",
+               "latin_normal" : "you jou"
             }
          ],
          "jp_era" : 1,
@@ -55082,17 +55082,17 @@
                "kana" : "えい りゃく",
                "kana_classic" : "えい りやく",
                "kana_modern" : "えい りゃく",
-               "latin" : "Eiryaku",
-               "latin_macron" : "Eiryaku",
-               "latin_normal" : "Eiryaku"
+               "latin" : "ei ryaku",
+               "latin_macron" : "ei ryaku",
+               "latin_normal" : "ei ryaku"
             },
             {
                "kana" : "よう りゃく",
                "kana_classic" : "やう りやく",
                "kana_modern" : "よう りゃく",
-               "latin" : "Yōryaku",
-               "latin_macron" : "Yōryaku",
-               "latin_normal" : "Youryaku"
+               "latin" : "yō ryaku",
+               "latin_macron" : "yō ryaku",
+               "latin_normal" : "you ryaku"
             }
          ],
          "jp_era" : 1,
@@ -55405,9 +55405,9 @@
                   "えい しよう",
                   "ゑい しやう"
                ],
-               "latin" : "Eishō",
-               "latin_macron" : "Eishō",
-               "latin_normal" : "Eishou"
+               "latin" : "ei shō",
+               "latin_macron" : "ei shō",
+               "latin_normal" : "ei shou"
             }
          ],
          "jp_era" : 1,
@@ -55542,17 +55542,17 @@
                "kana" : "えい じ",
                "kana_classic" : "えい ぢ",
                "kana_modern" : "えい じ",
-               "latin" : "Eiji",
-               "latin_macron" : "Eiji",
-               "latin_normal" : "Eiji"
+               "latin" : "ei ji",
+               "latin_macron" : "ei ji",
+               "latin_normal" : "ei ji"
             },
             {
                "kana" : "えい ち",
                "kana_classic" : "えい ち",
                "kana_modern" : "えい ち",
-               "latin" : "Eichi",
-               "latin_macron" : "Eichi",
-               "latin_normal" : "Eichi"
+               "latin" : "ei chi",
+               "latin_macron" : "ei chi",
+               "latin_normal" : "ei chi"
             }
          ],
          "jp_era" : 1,
@@ -55884,17 +55884,17 @@
                "kana" : "えい そ",
                "kana_classic" : "えい そ",
                "kana_modern" : "えい そ",
-               "latin" : "Eiso",
-               "latin_macron" : "Eiso",
-               "latin_normal" : "Eiso"
+               "latin" : "ei so",
+               "latin_macron" : "ei so",
+               "latin_normal" : "ei so"
             },
             {
                "kana" : "よう そ",
                "kana_classic" : "やう そ",
                "kana_modern" : "よう そ",
-               "latin" : "Yōso",
-               "latin_macron" : "Yōso",
-               "latin_normal" : "Youso"
+               "latin" : "yō so",
+               "latin_macron" : "yō so",
+               "latin_normal" : "you so"
             }
          ],
          "jp_era" : 1,
@@ -56034,9 +56034,9 @@
                "kana_others" : [
                   "ゑい ろく"
                ],
-               "latin" : "Eiroku",
-               "latin_macron" : "Eiroku",
-               "latin_normal" : "Eiroku"
+               "latin" : "ei roku",
+               "latin_macron" : "ei roku",
+               "latin_normal" : "ei roku"
             }
          ],
          "jp_era" : 1,
@@ -56341,9 +56341,9 @@
                "kana" : "えい かん",
                "kana_classic" : "えい くわん",
                "kana_modern" : "えい かん",
-               "latin" : "Eikan",
-               "latin_macron" : "Eikan",
-               "latin_normal" : "Eikan"
+               "latin" : "ei kan",
+               "latin_macron" : "ei kan",
+               "latin_normal" : "ei kan"
             },
             {
                "kana" : "よう かん",
@@ -56353,9 +56353,9 @@
                   "えう かん",
                   "えう くわん"
                ],
-               "latin" : "Yōkan",
-               "latin_macron" : "Yōkan",
-               "latin_normal" : "Youkan"
+               "latin" : "yō kan",
+               "latin_macron" : "yō kan",
+               "latin_normal" : "you kan"
             }
          ],
          "jp_era" : 1,
@@ -56568,17 +56568,17 @@
                   "えい ちよう",
                   "えい ちやう"
                ],
-               "latin" : "Eichō",
-               "latin_macron" : "Eichō",
-               "latin_normal" : "Eichou"
+               "latin" : "ei chō",
+               "latin_macron" : "ei chō",
+               "latin_normal" : "ei chou"
             },
             {
                "kana" : "よう ちょう",
                "kana_classic" : "やう ちやう",
                "kana_modern" : "よう ちょう",
-               "latin" : "Yōchō",
-               "latin_macron" : "Yōchō",
-               "latin_normal" : "Youchou"
+               "latin" : "yō chō",
+               "latin_macron" : "yō chō",
+               "latin_normal" : "you chou"
             }
          ],
          "jp_era" : 1,
@@ -56876,17 +56876,17 @@
                "kana" : "じ あん",
                "kana_classic" : "ぢ あん",
                "kana_modern" : "じ あん",
-               "latin" : "Jian",
-               "latin_macron" : "Jian",
-               "latin_normal" : "Jian"
+               "latin" : "ji an",
+               "latin_macron" : "ji an",
+               "latin_normal" : "ji an"
             },
             {
                "kana" : "ち あん",
                "kana_classic" : "ち あん",
                "kana_modern" : "ち あん",
-               "latin" : "Chian",
-               "latin_macron" : "Chian",
-               "latin_normal" : "Chian"
+               "latin" : "chi an",
+               "latin_macron" : "chi an",
+               "latin_normal" : "chi an"
             }
          ],
          "jp_era" : 1,
@@ -57097,9 +57097,9 @@
                   "ぢ せう",
                   "じ しよう"
                ],
-               "latin" : "Jishō",
-               "latin_macron" : "Jishō",
-               "latin_normal" : "Jishou"
+               "latin" : "ji shō",
+               "latin_macron" : "ji shō",
+               "latin_normal" : "ji shou"
             },
             {
                "kana" : "ち しょう",
@@ -57108,9 +57108,9 @@
                "kana_others" : [
                   "ち せう"
                ],
-               "latin" : "Chishō",
-               "latin_macron" : "Chishō",
-               "latin_normal" : "Chishou"
+               "latin" : "chi shō",
+               "latin_macron" : "chi shō",
+               "latin_normal" : "chi shou"
             },
             {
                "kana" : "じ じょう",
@@ -57119,9 +57119,9 @@
                "kana_others" : [
                   "ぢ じょう"
                ],
-               "latin" : "Jijō",
-               "latin_macron" : "Jijō",
-               "latin_normal" : "Jijou"
+               "latin" : "ji jō",
+               "latin_macron" : "ji jō",
+               "latin_normal" : "ji jou"
             },
             {
                "kana" : "ち ぜう",
@@ -57131,9 +57131,9 @@
                "kana" : "ち そう",
                "kana_classic" : "ち そう",
                "kana_modern" : "ち そう",
-               "latin" : "Chisō",
-               "latin_macron" : "Chisō",
-               "latin_normal" : "Chisou"
+               "latin" : "chi sō",
+               "latin_macron" : "chi sō",
+               "latin_normal" : "chi sou"
             }
          ],
          "jp_era" : 1,
@@ -57273,17 +57273,17 @@
                   "じ りやく",
                   "ぢ りゃく"
                ],
-               "latin" : "Jiryaku",
-               "latin_macron" : "Jiryaku",
-               "latin_normal" : "Jiryaku"
+               "latin" : "ji ryaku",
+               "latin_macron" : "ji ryaku",
+               "latin_normal" : "ji ryaku"
             },
             {
                "kana" : "ち りゃく",
                "kana_classic" : "ち りやく",
                "kana_modern" : "ち りゃく",
-               "latin" : "Chiryaku",
-               "latin_macron" : "Chiryaku",
-               "latin_normal" : "Chiryaku"
+               "latin" : "chi ryaku",
+               "latin_macron" : "chi ryaku",
+               "latin_normal" : "chi ryaku"
             }
          ],
          "jp_era" : 1,
@@ -58912,24 +58912,24 @@
                "kana" : "はく ち",
                "kana_classic" : "はく ち",
                "kana_modern" : "はく ち",
-               "latin" : "Hakuchi",
-               "latin_macron" : "Hakuchi",
-               "latin_normal" : "Hakuchi"
+               "latin" : "haku chi",
+               "latin_macron" : "haku chi",
+               "latin_normal" : "haku chi"
             },
             {
                "kana" : "びゃく ち",
                "kana_modern" : "びゃく ち",
-               "latin" : "Byakuchi",
-               "latin_macron" : "Byakuchi",
-               "latin_normal" : "Byakuchi"
+               "latin" : "byaku chi",
+               "latin_macron" : "byaku chi",
+               "latin_normal" : "byaku chi"
             },
             {
                "kana" : "しらきすす",
                "kana_classic" : "しらきすす",
                "kana_modern" : "しらきすす",
-               "latin" : "Shirakisusu",
-               "latin_macron" : "Shirakisusu",
-               "latin_normal" : "Shirakisusu"
+               "latin" : "shirakisusu",
+               "latin_macron" : "shirakisusu",
+               "latin_normal" : "shirakisusu"
             }
          ],
          "jp_era" : 1,
@@ -59042,9 +59042,9 @@
                "kana" : "はく ほう",
                "kana_classic" : "はく ほう",
                "kana_modern" : "はく ほう",
-               "latin" : "Hakuhō",
-               "latin_macron" : "Hakuhō",
-               "latin_normal" : "Hakuhou"
+               "latin" : "haku hō",
+               "latin_macron" : "haku hō",
+               "latin_normal" : "haku hou"
             }
          ],
          "jp_private_era" : 1,
@@ -60036,17 +60036,17 @@
                "kana" : "じん き",
                "kana_classic" : "じん き",
                "kana_modern" : "じん き",
-               "latin" : "Jinki",
-               "latin_macron" : "Jinki",
-               "latin_normal" : "Jinki"
+               "latin" : "jin ki",
+               "latin_macron" : "jin ki",
+               "latin_normal" : "jin ki"
             },
             {
                "kana" : "しん き",
                "kana_classic" : "しん き",
                "kana_modern" : "しん き",
-               "latin" : "Shinki",
-               "latin_macron" : "Shinki",
-               "latin_normal" : "Shinki"
+               "latin" : "shin ki",
+               "latin_macron" : "shin ki",
+               "latin_normal" : "shin ki"
             }
          ],
          "jp_era" : 1,
@@ -60712,25 +60712,25 @@
                "kana" : "じん ご けい うん",
                "kana_classic" : "じん ご けい うん",
                "kana_modern" : "じん ご けい うん",
-               "latin" : "Jingo-keiun",
-               "latin_macron" : "Jingo-keiun",
-               "latin_normal" : "Jingo-keiun"
+               "latin" : "jin go - kei un",
+               "latin_macron" : "jin go - kei un",
+               "latin_normal" : "jin go - kei un"
             },
             {
                "kana" : "しん こ けい うん",
                "kana_classic" : "しん こ けい うん",
                "kana_modern" : "しん こ けい うん",
-               "latin" : "Shinko-keiun",
-               "latin_macron" : "Shinko-keiun",
-               "latin_normal" : "Shinko-keiun"
+               "latin" : "shin ko - kei un",
+               "latin_macron" : "shin ko - kei un",
+               "latin_normal" : "shin ko - kei un"
             },
             {
                "kana" : "しん ご けい うん",
                "kana_classic" : "しん ご けい うん",
                "kana_modern" : "しん ご けい うん",
-               "latin" : "Shingo-keiun",
-               "latin_macron" : "Shingo-keiun",
-               "latin_normal" : "Shingo-keiun"
+               "latin" : "shin go - kei un",
+               "latin_macron" : "shin go - kei un",
+               "latin_normal" : "shin go - kei un"
             }
          ],
          "jp_era" : 1,
@@ -62697,9 +62697,9 @@
                "kana" : "し とく",
                "kana_classic" : "し とく",
                "kana_modern" : "し とく",
-               "latin" : "Shitoku",
-               "latin_macron" : "Shitoku",
-               "latin_normal" : "Shitoku"
+               "latin" : "shi toku",
+               "latin_macron" : "shi toku",
+               "latin_normal" : "shi toku"
             }
          ],
          "jp_north_era" : 1,
@@ -63059,9 +63059,9 @@
                "kana" : "こう こく",
                "kana_classic" : "こう こく",
                "kana_modern" : "こう こく",
-               "latin" : "Kōkoku",
-               "latin_macron" : "Kōkoku",
-               "latin_normal" : "Koukoku"
+               "latin" : "kō koku",
+               "latin_macron" : "kō koku",
+               "latin_normal" : "kou koku"
             }
          ],
          "jp_south_era" : 1,
@@ -64032,9 +64032,9 @@
                "kana" : "かん のう",
                "kana_classic" : "くわん のう",
                "kana_modern" : "かん のう",
-               "latin" : "Kannō",
-               "latin_macron" : "Kannō",
-               "latin_normal" : "Kannou"
+               "latin" : "kan nō",
+               "latin_macron" : "kan nō",
+               "latin_normal" : "kan nou"
             },
             {
                "kana" : "かん おう",
@@ -64043,9 +64043,9 @@
                "kana_others" : [
                   "くわん をう"
                ],
-               "latin" : "Kan'ō",
-               "latin_macron" : "Kan'ō",
-               "latin_normal" : "Kan'ou"
+               "latin" : "kan ' ō",
+               "latin_macron" : "kan ' ō",
+               "latin_normal" : "kan ' ou"
             }
          ],
          "jp_north_era" : 1,
@@ -64414,16 +64414,16 @@
                   "じよう きよう",
                   "じやう きやう"
                ],
-               "latin" : "Jōkyō",
-               "latin_macron" : "Jōkyō",
-               "latin_normal" : "Joukyou"
+               "latin" : "jō kyō",
+               "latin_macron" : "jō kyō",
+               "latin_normal" : "jou kyou"
             },
             {
                "kana" : "ちょう きょう",
                "kana_modern" : "ちょう きょう",
-               "latin" : "Chōkyō",
-               "latin_macron" : "Chōkyō",
-               "latin_normal" : "Choukyou"
+               "latin" : "chō kyō",
+               "latin_macron" : "chō kyō",
+               "latin_normal" : "chou kyou"
             }
          ],
          "jp_era" : 1,
@@ -64602,33 +64602,33 @@
                   "ぢゃう げん",
                   "ぢやう ぐゑん"
                ],
-               "latin" : "Jōgen",
-               "latin_macron" : "Jōgen",
-               "latin_normal" : "Jougen"
+               "latin" : "jō gen",
+               "latin_macron" : "jō gen",
+               "latin_normal" : "jou gen"
             },
             {
                "kana" : "てい げん",
                "kana_classic" : "てい ぐえん",
                "kana_modern" : "てい げん",
-               "latin" : "Teigen",
-               "latin_macron" : "Teigen",
-               "latin_normal" : "Teigen"
+               "latin" : "tei gen",
+               "latin_macron" : "tei gen",
+               "latin_normal" : "tei gen"
             },
             {
                "kana" : "てい ぐん",
                "kana_classic" : "てい ぐん",
                "kana_modern" : "てい ぐん",
-               "latin" : "Teigun",
-               "latin_macron" : "Teigun",
-               "latin_normal" : "Teigun"
+               "latin" : "tei gun",
+               "latin_macron" : "tei gun",
+               "latin_normal" : "tei gun"
             },
             {
                "kana" : "てい けん",
                "kana_classic" : "てい けん",
                "kana_modern" : "てい けん",
-               "latin" : "Teiken",
-               "latin_macron" : "Teiken",
-               "latin_normal" : "Teiken"
+               "latin" : "tei ken",
+               "latin_macron" : "tei ken",
+               "latin_normal" : "tei ken"
             }
          ],
          "jp_era" : 1,
@@ -64820,17 +64820,17 @@
                   "ぢやう わ",
                   "でう わ"
                ],
-               "latin" : "Jōwa",
-               "latin_macron" : "Jōwa",
-               "latin_normal" : "Jouwa"
+               "latin" : "jō wa",
+               "latin_macron" : "jō wa",
+               "latin_normal" : "jou wa"
             },
             {
                "kana" : "てい わ",
                "kana_classic" : "てい わ",
                "kana_modern" : "てい わ",
-               "latin" : "Teiwa",
-               "latin_macron" : "Teiwa",
-               "latin_normal" : "Teiwa"
+               "latin" : "tei wa",
+               "latin_macron" : "tei wa",
+               "latin_normal" : "tei wa"
             },
             {
                "kana" : "ちやう わ",
@@ -65007,9 +65007,9 @@
                   "じやう おう",
                   "ぢやう をう"
                ],
-               "latin" : "Jōō",
-               "latin_macron" : "Jōō",
-               "latin_normal" : "Jouou"
+               "latin" : "jō ō",
+               "latin_macron" : "jō ō",
+               "latin_normal" : "jou ou"
             },
             {
                "kana" : "てい おう",
@@ -65018,9 +65018,9 @@
                "kana_others" : [
                   "てい をう"
                ],
-               "latin" : "Teiō",
-               "latin_macron" : "Teiō",
-               "latin_normal" : "Teiou"
+               "latin" : "tei ō",
+               "latin_macron" : "tei ō",
+               "latin_normal" : "tei ou"
             },
             {
                "kana" : "ちやう おう",
@@ -65219,9 +65219,9 @@
                "kana_others" : [
                   "じよう えい"
                ],
-               "latin" : "Jōei",
-               "latin_macron" : "Jōei",
-               "latin_normal" : "Jouei"
+               "latin" : "jō ei",
+               "latin_macron" : "jō ei",
+               "latin_normal" : "jou ei"
             },
             {
                "kana" : "ぢやう やう",
@@ -65234,9 +65234,9 @@
                "kana_others" : [
                   "てい ゑい"
                ],
-               "latin" : "Teiei",
-               "latin_macron" : "Teiei",
-               "latin_normal" : "Teiei"
+               "latin" : "tei ei",
+               "latin_macron" : "tei ei",
+               "latin_normal" : "tei ei"
             },
             {
                "kana" : "ちやう えい",
@@ -65375,17 +65375,17 @@
                   "じよう じ",
                   "でう ぢ"
                ],
-               "latin" : "Jōji",
-               "latin_macron" : "Jōji",
-               "latin_normal" : "Jouji"
+               "latin" : "jō ji",
+               "latin_macron" : "jō ji",
+               "latin_normal" : "jou ji"
             },
             {
                "kana" : "てい じ",
                "kana_classic" : "てい ぢ",
                "kana_modern" : "てい じ",
-               "latin" : "Teiji",
-               "latin_macron" : "Teiji",
-               "latin_normal" : "Teiji"
+               "latin" : "tei ji",
+               "latin_macron" : "tei ji",
+               "latin_normal" : "tei ji"
             },
             {
                "kana" : "ちやう ち",
@@ -65602,9 +65602,9 @@
                   "じよう がん",
                   "ぢゃう ぐわん"
                ],
-               "latin" : "Jōgan",
-               "latin_macron" : "Jōgan",
-               "latin_normal" : "Jougan"
+               "latin" : "jō gan",
+               "latin_macron" : "jō gan",
+               "latin_normal" : "jou gan"
             }
          ],
          "jp_era" : 1,
@@ -66437,9 +66437,9 @@
                "kana_others" : [
                   "ちよう きゆう"
                ],
-               "latin" : "Chōkyū",
-               "latin_macron" : "Chōkyū",
-               "latin_normal" : "Choukyuu"
+               "latin" : "chō kyū",
+               "latin_macron" : "chō kyū",
+               "latin_normal" : "chou kyuu"
             }
          ],
          "jp_era" : 1,
@@ -66585,9 +66585,9 @@
                "kana_others" : [
                   "ちよう きよう"
                ],
-               "latin" : "Chōkyō",
-               "latin_macron" : "Chōkyō",
-               "latin_normal" : "Choukyou"
+               "latin" : "chō kyō",
+               "latin_macron" : "chō kyō",
+               "latin_normal" : "chou kyou"
             }
          ],
          "jp_era" : 1,
@@ -66721,25 +66721,25 @@
                   "ちよう ほう",
                   "ちやう はう"
                ],
-               "latin" : "Chōhō",
-               "latin_macron" : "Chōhō",
-               "latin_normal" : "Chouhou"
+               "latin" : "chō hō",
+               "latin_macron" : "chō hō",
+               "latin_normal" : "chou hou"
             },
             {
                "kana" : "ちょう ぼう",
                "kana_classic" : "ちやう ぼう",
                "kana_modern" : "ちょう ぼう",
-               "latin" : "Chōbō",
-               "latin_macron" : "Chōbō",
-               "latin_normal" : "Choubou"
+               "latin" : "chō bō",
+               "latin_macron" : "chō bō",
+               "latin_normal" : "chou bou"
             },
             {
                "kana" : "ちょう ほ",
                "kana_classic" : "ちよう ほ",
                "kana_modern" : "ちょう ほ",
-               "latin" : "Chōho",
-               "latin_macron" : "Chōho",
-               "latin_normal" : "Chouho"
+               "latin" : "chō ho",
+               "latin_macron" : "chō ho",
+               "latin_normal" : "chou ho"
             }
          ],
          "jp_era" : 1,
@@ -66892,9 +66892,9 @@
                   "ちやう げん",
                   "ちやう ぐえん"
                ],
-               "latin" : "Chōgen",
-               "latin_macron" : "Chōgen",
-               "latin_normal" : "Chougen"
+               "latin" : "chō gen",
+               "latin_macron" : "chō gen",
+               "latin_normal" : "chou gen"
             },
             {
                "kana" : "ちやう けん",
@@ -67029,9 +67029,9 @@
                "kana_others" : [
                   "ちよう わ"
                ],
-               "latin" : "Chōwa",
-               "latin_macron" : "Chōwa",
-               "latin_normal" : "Chouwa"
+               "latin" : "chō wa",
+               "latin_macron" : "chō wa",
+               "latin_normal" : "chou wa"
             }
          ],
          "jp_era" : 1,
@@ -67239,9 +67239,9 @@
                "kana_others" : [
                   "ちよう かん"
                ],
-               "latin" : "Chōkan",
-               "latin_macron" : "Chōkan",
-               "latin_normal" : "Choukan"
+               "latin" : "chō kan",
+               "latin_macron" : "chō kan",
+               "latin_normal" : "chou kan"
             },
             {
                "kana" : "ちやう ぐわん",
@@ -67389,9 +67389,9 @@
                "kana_others" : [
                   "ちよう とく"
                ],
-               "latin" : "Chōtoku",
-               "latin_macron" : "Chōtoku",
-               "latin_normal" : "Choutoku"
+               "latin" : "chō toku",
+               "latin_macron" : "chō toku",
+               "latin_normal" : "chou toku"
             }
          ],
          "jp_era" : 1,
@@ -67586,9 +67586,9 @@
                   "ちよう しよう",
                   "ちやう せう"
                ],
-               "latin" : "Chōshō",
-               "latin_macron" : "Chōshō",
-               "latin_normal" : "Choushou"
+               "latin" : "chō shō",
+               "latin_macron" : "chō shō",
+               "latin_normal" : "chou shou"
             },
             {
                "kana" : "ちょう じょう",
@@ -67598,9 +67598,9 @@
                   "ちやう ぜう",
                   "ちやう じやう"
                ],
-               "latin" : "Chōjō",
-               "latin_macron" : "Chōjō",
-               "latin_normal" : "Choujou"
+               "latin" : "chō jō",
+               "latin_macron" : "chō jō",
+               "latin_normal" : "chou jou"
             }
          ],
          "jp_era" : 1,
@@ -67748,17 +67748,17 @@
                "kana_others" : [
                   "ちよう りやく"
                ],
-               "latin" : "Chōryaku",
-               "latin_macron" : "Chōryaku",
-               "latin_normal" : "Chouryaku"
+               "latin" : "chō ryaku",
+               "latin_macron" : "chō ryaku",
+               "latin_normal" : "chou ryaku"
             },
             {
                "kana" : "ちょう れき",
                "kana_classic" : "ちやう れき",
                "kana_modern" : "ちょう れき",
-               "latin" : "Chōreki",
-               "latin_macron" : "Chōreki",
-               "latin_normal" : "Choureki"
+               "latin" : "chō reki",
+               "latin_macron" : "chō reki",
+               "latin_normal" : "chou reki"
             }
          ],
          "jp_era" : 1,
@@ -67945,9 +67945,9 @@
                "kana_others" : [
                   "ちよう じ"
                ],
-               "latin" : "Chōji",
-               "latin_macron" : "Chōji",
-               "latin_normal" : "Chouji"
+               "latin" : "chō ji",
+               "latin_macron" : "chō ji",
+               "latin_normal" : "chou ji"
             },
             {
                "kana" : "ちやう ち",
@@ -68100,9 +68100,9 @@
                "kana_others" : [
                   "ちやう ろく"
                ],
-               "latin" : "Chōroku",
-               "latin_macron" : "Chōroku",
-               "latin_normal" : "Chouroku"
+               "latin" : "chō roku",
+               "latin_macron" : "chō roku",
+               "latin_normal" : "chou roku"
             }
          ],
          "jp_era" : 1,
@@ -69439,9 +69439,9 @@
                "kana" : "れい き",
                "kana_classic" : "れい き",
                "kana_modern" : "れい き",
-               "latin" : "Reiki",
-               "latin_macron" : "Reiki",
-               "latin_normal" : "Reiki"
+               "latin" : "rei ki",
+               "latin_macron" : "rei ki",
+               "latin_normal" : "rei ki"
             }
          ],
          "jp_era" : 1,
@@ -70251,9 +70251,9 @@
                "kana" : "よう わ",
                "kana_classic" : "やう わ",
                "kana_modern" : "よう わ",
-               "latin" : "Yōwa",
-               "latin_macron" : "Yōwa",
-               "latin_normal" : "Youwa"
+               "latin" : "yō wa",
+               "latin_macron" : "yō wa",
+               "latin_normal" : "you wa"
             }
          ],
          "jp_era" : 1,
@@ -70376,9 +70376,9 @@
                "kana" : "よう ろう",
                "kana_classic" : "やう らう",
                "kana_modern" : "よう ろう",
-               "latin" : "Yōrō",
-               "latin_macron" : "Yōrō",
-               "latin_normal" : "Yourou"
+               "latin" : "yō rō",
+               "latin_macron" : "yō rō",
+               "latin_normal" : "you rou"
             }
          ],
          "jp_era" : 1,
