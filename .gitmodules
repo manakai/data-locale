@@ -29,3 +29,4 @@
 [submodule "bin/modules/generation"]
 	path = bin/modules/generation
 	url = https://github.com/geocol/generation
+	track = master
