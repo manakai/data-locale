@@ -386,33 +386,13 @@ for my $id (6090..6091) {
         }
         push @{$Data->{eras}->{$key}->{ja_readings} ||= []}, $v;
       }
-      for my $v (@{$Data->{eras}->{$key}->{ja_readings}}) {
-        $Data->{eras}->{$key}->{name_latn} //= $v->{latin};
-        $Data->{eras}->{$key}->{name_kana} //= $v->{kana};
-        $Data->{eras}->{$key}->{name_kana} =~ s/ //g;
-        for (grep { length }
-                 $v->{kana} // '',
-                 $v->{kana_modern} // '',
-                 $v->{kana_classic} // '',
-                 @{$v->{kana_others} or []}) {
-          my $v = $_;
-          $v =~ s/ //g;
-          $Data->{eras}->{$key}->{name_kanas}->{$v} = 1;
-        }
-      } # $v
-      my $w = $Data->{eras}->{$key}->{name_latn};
-      if (defined $w) {
-        $w =~ s/ //g;
-        $w = ucfirst $w;
-        $Data->{eras}->{$key}->{name_latn} = $w;
-      }
     } elsif (/\S/) {
       die "Bad line |$_|";
     }
   }
 }
 
-sub xx ($) { my $s = shift; $s =~ s/ //g; return $s }
+sub xx ($) { my $s = shift; $s =~ s/ //g; return lc $s }
 for my $data (values %{$Data->{eras}}) {
   my $all = {};
   for (keys %$data) {
@@ -424,6 +404,11 @@ for my $data (values %{$Data->{eras}}) {
     delete $all->{$_} for map { xx $_ } ref $data->{$_} ? @{$data->{$_}} : $data->{$_};
   }
   $data->{missing_yomis} = [sort { $a cmp $b } keys %$all];
+}
+
+{
+  use utf8;
+  $Data->{eras}->{白鳳}->{key} = '白鳳';
 }
 
 print perl2json_bytes_for_record $Data;

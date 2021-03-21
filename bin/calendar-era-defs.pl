@@ -34,13 +34,14 @@ for my $file_name (qw(
 
 for (
   ['local/era-defs-jp-wp-en.json' => ['wref_en']],
-  ['local/era-yomi-list.json' => ['ja_readings', 'name_kana', 'name_kanas', 'name_latn']],
+  ['local/era-yomi-list.json' => ['ja_readings']],
 ) {
   my ($file_name, $data_keys) = @$_;
   my $path = $root_path->child ($file_name);
   my $json = json_bytes2perl $path->slurp;
   for my $key (keys %{$json->{eras}}) {
     my $data = $json->{eras}->{$key};
+    next if not defined $data->{key};
     for (@$data_keys) {
       $Data->{eras}->{$key}->{$_} = $data->{$_} if defined $data->{$_};
     }
@@ -516,6 +517,31 @@ for (
       $era->{known_latest_year} = $era->{known_oldest_year};
     }
   } # $era
+}
+
+{
+  for my $key (keys %{$Data->{eras}}) {
+    for my $v (@{$Data->{eras}->{$key}->{ja_readings} or []}) {
+        $Data->{eras}->{$key}->{name_latn} //= $v->{latin};
+        $Data->{eras}->{$key}->{name_kana} //= $v->{kana};
+        $Data->{eras}->{$key}->{name_kana} =~ s/ //g;
+        for (grep { length }
+                 $v->{kana} // '',
+                 $v->{kana_modern} // '',
+                 $v->{kana_classic} // '',
+                 @{$v->{kana_others} or []}) {
+          my $v = $_;
+          $v =~ s/ //g;
+          $Data->{eras}->{$key}->{name_kanas}->{$v} = 1;
+        }
+      } # $v
+      my $w = $Data->{eras}->{$key}->{name_latn};
+      if (defined $w) {
+        $w =~ s/ //g;
+        $w = ucfirst $w;
+        $Data->{eras}->{$key}->{name_latn} = $w;
+      }
+  } # $key
 }
 
 {
