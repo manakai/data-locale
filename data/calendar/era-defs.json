@@ -14020,11 +14020,11 @@
                   "たい しよう",
                   "たい しゃう"
                ],
-               "latin" : "Taisho",
+               "latin" : "tai sho",
                "latin_macron" : "tai shō",
                "latin_normal" : "tai shou",
                "latin_others" : [
-                  "Taisho"
+                  "tai sho"
                ]
             }
          ],
@@ -39760,11 +39760,11 @@
                "kana_others" : [
                   "けい をう"
                ],
-               "latin" : "Keio",
+               "latin" : "kei o",
                "latin_macron" : "kei ō",
                "latin_normal" : "kei ou",
                "latin_others" : [
-                  "Keio"
+                  "kei o"
                ]
             }
          ],
@@ -47704,12 +47704,12 @@
                "kana_others" : [
                   "しよう わ"
                ],
-               "latin" : "Showa",
+               "latin" : "sho wa",
                "latin_macron" : "shō wa",
                "latin_normal" : "shou wa",
                "latin_others" : [
-                  "Showa",
-                  "Syowa"
+                  "sho wa",
+                  "syo wa"
                ]
             }
          ],

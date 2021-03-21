@@ -149,18 +149,18 @@ The file contains a JSON object with following name/value pairs:
         value is a JSON array of the objects representing different
         readings, with following name/value pairs:
 
-          kana [string]
+          kana [segmented-Hiragana?]
 
             The primary Hiragana representation of the reading.  Same
             as |kana_modern|, if any, or |kana_classic|, or the first
             item of |kana_others|, if any.
 
-          kana_classic [string?]
+          kana_classic [segmented-Hiragana?]
 
             The Hiragana representation of the reading, in the most
             popular 歴史的仮名遣い spelling, if known.
 
-          kana_modern [string?]
+          kana_modern [segmented-Hiragana?]
 
             The Hiragana representation of the reading, in the 現代仮
             名遣い (Modern Kana Spelling) spelling, if known.
@@ -169,20 +169,20 @@ The file contains a JSON object with following name/value pairs:
 
             A JSON array of the other known Hiragana representations
             of the readings, i.e. 歴史的仮名遣い spelling variations,
-            if any.
+            in [segmented-Hiragana] format, if any.
 
-          latin [string?]
+          latin [segmented-Romaji?]
 
             The primary Latin representation (Roma-ji transliteration)
             of the reading.  The commonly used Roma-ji representation,
             if any, or |latin_macron|, if any.
 
-          latin_macron [string?]
+          latin_macron [segmented-Romaji?]
 
             The Hepburn Romanization of the reading, using letters
             with macrons, if |kana_modern| is known.
 
-          latin_normal [string?]
+          latin_normal [segmented-Romaji?]
 
             The Hepburn Romanization of the reading, transliterating
             |kana_modern| as is, if any.
@@ -190,14 +190,12 @@ The file contains a JSON object with following name/value pairs:
           latin_others [array?]
 
             A JSON array of the other commonly used Latin
-            representations of the readings, if any.
+            representations of the readings, in [segmented-Romaji]
+            format, if any.
 
-        For these fields, a U+0020 SPACE character is inserted at
-        Kanji boundaries in Hiragana and Latin representations unless
-        they are native Japanese words.  The first letters in the
-        Latin representations are uppercased and the other letters are
-        lowercased.  The characters |-| and |'| are used as Roma-ji
-        punctuations.
+        For these fields, Hiragana and Romaji representations are
+        segmented at Kanji boundaries, unless they are native Japanese
+        words.
 
       jp_emperor_era [boolean]
 
@@ -568,6 +566,14 @@ An event is a JSON object with following name/value pairs:
       year-start
 
         starts: The first day of the year the era was started.
+
+* Segmented name data types
+
+The following data types are defined by Segmented Name Strings
+<https://wiki.suikawiki.org/n/Segmented%20Name%20Strings>:
+
+  [segmented-Hiragana] segmented Hiragana name string
+  [segmented-Romaji] segmented Romaji name string
 
 * Comparison tables
 

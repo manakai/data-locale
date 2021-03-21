@@ -365,15 +365,19 @@ for my $id (6090..6091) {
           push @{$Data->{eras}->{$key}->{6101} ||= []},
               $v->{kana_classic} = $new;
         }
-        if (@others and $others[0] =~ /^\p{Latin}+$/) {
+        if (@others and $others[0] =~ /^[\p{Latin} ]+$/) {
+          my $x = shift @others;
+          $x = lc $x;
           push @{$Data->{eras}->{$key}->{6104} ||= []},
-              $v->{latin} = shift @others;
+              $v->{latin} = $x;
           push @{$v->{latin_others} ||= []}, $v->{latin};
         }
         for (@others) {
-          if (/^\p{Latin}+$/) {
-            push @{$Data->{eras}->{$key}->{6104} ||= []}, $_;
-            push @{$v->{latin_others} ||= []}, $_;
+          if (/^[\p{Latin} ]+$/) {
+            my $x = $_;
+            $x = lc $_;
+            push @{$Data->{eras}->{$key}->{6104} ||= []}, $x;
+            push @{$v->{latin_others} ||= []}, $x;
           } else {
             push @{$Data->{eras}->{$key}->{6104} ||= []}, $_;
             push @{$v->{kana_others} ||= []}, $_;
