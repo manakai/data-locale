@@ -184,7 +184,7 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     local/era-defs-jp.json local/era-defs-jp-emperor.json \
     local/char-variants.json \
     local/era-defs-jp-wp-en.json src/era-data.txt \
-    src/jp-private-eras.txt src/era-variants.txt \
+    src/era-variants.txt \
     src/wp-cn-eras.json src/era-china-dups.txt local/number-values.json \
     src/era-viet.txt src/era-korea.txt src/era-tw.txt \
     data/numbers/kanshi.json \

@@ -77,37 +77,6 @@ for my $era (values %{$Data->{eras}}) {
       if defined $era->{abbr_latn};
 }
 
-{
-  my $path = $root_path->child ('src/jp-private-eras.txt');
-  for (split /\x0D?\x0A/, $path->slurp_utf8) {
-    if (/^\s*#/) {
-      #
-    } elsif (/^(\S+)(?:\s+(BC|)(\d+)|)$/) {
-      my $first_year = defined $3 ? $2 ? 1 - $3 : $3 : undef;
-      my @name = split /,/, $1;
-      my @n;
-      for (@name) {
-        if (defined $Data->{name_to_key}->{jp}->{$_}) {
-          warn "Duplicate era |$_|";
-        } else {
-          push @n, $_;
-        }
-      }
-      next unless @n;
-      my $d = $Data->{eras}->{$n[0]} ||= {};
-      $d->{jp_private_era} = 1;
-      $d->{key} = $n[0];
-      $d->{name_ja} = $d->{name} = drop_kanshi $n[0];
-      $d->{names}->{drop_kanshi $_} = 1 for @n;
-      if (defined $first_year) {
-        $d->{offset} = $first_year - 1;
-      }
-    } elsif (/\S/) {
-      die "Bad line |$_|";
-    }
-  }
-}
-
 my $IndexToKanshi = {map { my $x = $_; $x =~ s/\s+//g; $x =~ s/(\d+)/ $1 /g;
                            grep { length } split /\s+/, $x } q{
 1甲子2乙丑3丙寅4丁卯5戊辰6己巳7庚午8辛未9壬申10癸酉11甲戌12乙亥13丙子
@@ -439,7 +408,9 @@ for (
       undef $prop;
     } elsif (/^def\[(.+)\]$/) {
       $key = $1;
-      die "Bad key |$key|" if $Data->{eras}->{$key};
+      die "Bad key |$key|"
+          if defined $Data->{eras}->{$key} and
+             defined $Data->{eras}->{$key}->{key};
       undef $prop;
       $Data->{eras}->{$key}->{key} = $1;
     } elsif (defined $key and /^(source)$/) {
@@ -462,7 +433,7 @@ for (
       $Data->{eras}->{$key}->{$1} = $2;
       $Data->{eras}->{$key}->{names}->{$2} = 1;
     } elsif (defined $key and /^(AD|BC)(-?\d+)\s*=\s*(\d+)$/) {
-      my $g_year = $1 eq 'BC' ? 0 - $2 : $2;
+      my $g_year = $1 eq 'BC' ? 1 - $2 : $2;
       my $e_year = $3;
       $Data->{eras}->{$key}->{offset} = $g_year - $e_year;
     } elsif (defined $key and
