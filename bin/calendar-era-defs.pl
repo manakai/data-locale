@@ -54,29 +54,6 @@ sub drop_kanshi ($) {
   return $name;
 } # drop_kanshi
 
-$Data->{eras}->{白鳳}->{name} = '白鳳';
-
-for my $era (values %{$Data->{eras}}) {
-  my $name = $era->{name};
-  $era->{names}->{$name} = 1;
-  $era->{short_name} = $name;
-  $name =~ s/摂政$//;
-  $era->{names}->{$name} = 1 if length $name;
-  $era->{short_name} = $name if length $name;
-  $name =~ s/皇后$//;
-  $era->{names}->{$name} = 1 if length $name;
-  $era->{short_name} = $name if length $name;
-  $name =~ s/天皇$//;
-  $era->{names}->{$name} = 1 if length $name;
-  $era->{short_name} = $name if length $name;
-  $era->{names}->{$era->{abbr}} = 1
-      if defined $era->{abbr};
-  $era->{names}->{$era->{abbr_latn}} = 1
-      if defined $era->{abbr_latn};
-  $era->{names}->{lc $era->{abbr_latn}} = 1
-      if defined $era->{abbr_latn};
-}
-
 my $IndexToKanshi = {map { my $x = $_; $x =~ s/\s+//g; $x =~ s/(\d+)/ $1 /g;
                            grep { length } split /\s+/, $x } q{
 1甲子2乙丑3丙寅4丁卯5戊辰6己巳7庚午8辛未9壬申10癸酉11甲戌12乙亥13丙子
@@ -491,28 +468,51 @@ for (
 }
 
 {
-  for my $key (keys %{$Data->{eras}}) {
-    for my $v (@{$Data->{eras}->{$key}->{ja_readings} or []}) {
-        $Data->{eras}->{$key}->{name_latn} //= $v->{latin};
-        $Data->{eras}->{$key}->{name_kana} //= $v->{kana};
-        $Data->{eras}->{$key}->{name_kana} =~ s/ //g;
-        for (grep { length }
+  for my $era (values %{$Data->{eras}}) {
+    my $name = $era->{name};
+    next unless defined $name;
+    
+  $era->{names}->{$name} = 1;
+  $era->{short_name} = $name;
+  $name =~ s/摂政$//;
+  $era->{names}->{$name} = 1 if length $name;
+  $era->{short_name} = $name if length $name;
+  $name =~ s/皇后$//;
+  $era->{names}->{$name} = 1 if length $name;
+  $era->{short_name} = $name if length $name;
+  $name =~ s/天皇$//;
+  $era->{names}->{$name} = 1 if length $name;
+  $era->{short_name} = $name if length $name;
+  delete $era->{short_name} if $era->{short_name} eq $era->{name};
+  
+  $era->{names}->{$era->{abbr}} = 1
+      if defined $era->{abbr};
+  $era->{names}->{$era->{abbr_latn}} = 1
+      if defined $era->{abbr_latn};
+  $era->{names}->{lc $era->{abbr_latn}} = 1
+      if defined $era->{abbr_latn};
+
+    for my $v (@{$era->{ja_readings} or []}) {
+      $era->{name_latn} //= $v->{latin};
+      $era->{name_kana} //= $v->{kana};
+      $era->{name_kana} =~ s/ //g;
+      for (grep { length }
                  $v->{kana} // '',
                  $v->{kana_modern} // '',
                  $v->{kana_classic} // '',
                  @{$v->{kana_others} or []}) {
-          my $v = $_;
-          $v =~ s/ //g;
-          $Data->{eras}->{$key}->{name_kanas}->{$v} = 1;
-        }
-      } # $v
-      my $w = $Data->{eras}->{$key}->{name_latn};
-      if (defined $w) {
-        $w =~ s/ //g;
-        $w = ucfirst $w;
-        $Data->{eras}->{$key}->{name_latn} = $w;
+        my $v = $_;
+        $v =~ s/ //g;
+        $era->{name_kanas}->{$v} = 1;
       }
-  } # $key
+    } # $v
+    my $w = $era->{name_latn};
+    if (defined $w) {
+      $w =~ s/ //g;
+      $w = ucfirst $w;
+      $era->{name_latn} = $w;
+    }
+  } # $era
 }
 
 {

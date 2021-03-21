@@ -75,7 +75,9 @@ The file contains a JSON object with following name/value pairs:
       abbr [string?]
 
         The abbreviation of the era name, using the "native" script,
-        if any.  Similar to |code7|.
+        if any.  Similar to |code7|.  If the value is not specified,
+        another name (|short_name| or |name| value) should be used
+        instead.
 
       abbr_latn [string?]
 
@@ -302,10 +304,12 @@ The file contains a JSON object with following name/value pairs:
         <https://manakai.github.io/spec-datetime/#ad-year>.  Note that
         the offset can be negative.
 
-      short_name [string]
+      short_name [string?]
 
         A shorter name of the era, omitting common suffixes (e.g. "神武"
-        for name "神武天皇"), if any, or same value as |name|.
+        for name "神武天皇"), if any.  If the value is not
+        specified, non-short name (|name|'s value) should be used
+        instead.
 
       sources
 
