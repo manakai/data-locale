@@ -245,6 +245,10 @@ The file contains a JSON object with following name/value pairs:
 
         The last year the era is used, if known.
 
+      labels
+
+        A JSON array.  XXX
+
       name [string]
 
         A name of the era, which can be used as a default prefix of a

@@ -265,7 +265,7 @@ sw 自由自治
 #
 name_ja 自由自治
 name_ja 自由・自治
-name_kana じゆうじち
+name_kana じ ゆう じ ち
 wref_ja 自由自治
 u 1-11-2
 u 129-1-1
@@ -286,33 +286,38 @@ tag 日本の私年号
 AD1904 = 1
 
 [AD]
-name AD
-name A.D.
-&
-name_ja 西暦
+acronym AD
+acronym A.D.
 &
 name Anno Domini
+&
 name_ja キリスト紀元
+&
 name_ja 耶蘇紀元
 &
 name 天主降生
 &
-name CE
-name C.E.
-&
-name Common Era
-name_cn 公元
-&
-name 公元紀年
-name 共通紀元
+name_ja! 西暦
 &
 name_ja 西紀
 name_ko 西紀
+&
 name 西元
 &
 name 西暦紀元
 &
 abbr 西
+&
+acronym CE
+acronym C.E.
+&
+name Common Era
+&
+name_cn 公元
+&
+name 公元紀年
+&
+name 共通紀元
 &
 name 学暦
 &
@@ -332,7 +337,7 @@ code #17 0
 def[共和]
 name_ja 共和
 name_cn 共和
-name_kana きょうわ
+name_kana きょう わ
 name 共和紀年
 name 周召共和
 name 周召共和紀年
@@ -398,12 +403,12 @@ sw 神武天皇即位紀元
 
 def[孔子卒後]
 name 孔子卒後
-name_kana こうしそつご
+name_kana こう し そつ ご
 name 孔子卒
-name_kana こうしそつ
+name_kana こう し そつ
 name 孔子
 name 孔子紀年
-name_kana こうしきねん
+name_kana こう し き ねん
 name 孔子紀元
 name 孔子卒後紀年
 AD1895 = 2373
@@ -412,9 +417,9 @@ sw 孔子紀年
 
 def[孔紀]
 name 孔紀
-name_kana こうき
+name_kana こう き
 name 孔子紀年
-name_kana こうしきねん
+name_kana こう し き ねん
 name 孔子紀元
 name 孔子生後紀年
 AD1895 = 2446
@@ -426,7 +431,7 @@ def[開國]
 name 開國
 name_ko 개국
 name_ja 開国
-name_kana かいこく
+name_kana かい こく
 name 開国年号
 name 開国紀元
 name 朝鮮開國
@@ -443,9 +448,9 @@ name_tw 黃帝紀元
 name_cn 黄帝纪元
 name 軒轅紀年
 name_ja 黄帝紀元
-name_kana こうていきげん
+name_kana こう てい き げん
 name 黄帝紀年
-name_kana こうていきねん
+name_kana こう てい き ねん
 abbr 黄紀
 name 黄帝開国即位紀年
 wref_zh 黄帝纪元
@@ -458,9 +463,9 @@ def[黃帝紀元(庚戌)]
 name_tw 黃帝紀元
 name_cn 黄帝纪元
 name_ja 黄帝紀元
-name_kana こうていきげん
+name_kana こう てい き げん
 name 黄帝紀年
-name_kana こうていきねん
+name_kana こう てい き ねん
 name 黄帝生年紀年
 wref_zh 黄帝纪元
 wref_ja 黄帝紀元
@@ -471,9 +476,9 @@ def[黃帝紀元(庚寅)]
 name_tw 黃帝紀元
 name_cn 黄帝纪元
 name_ja 黄帝紀元
-name_kana こうていきげん
+name_kana こう てい き げん
 name 黄帝紀年
-name_kana こうていきねん
+name_kana こう てい き ねん
 wref_zh 黄帝纪元
 wref_ja 黄帝紀元
 sw 黄帝紀元
@@ -502,8 +507,8 @@ name 亡国紀年
 name 共戴紀元
 name 共戴
 name 共載
-name_kana きょうたい
-name_kana きょうたいきげん
+name_kana きょう たい
+name_kana きょう たい き げん
 wref_ja 共戴紀元
 
 def[モンゴル国]
@@ -604,7 +609,7 @@ sw 主体暦
 def[越南民主共和]
 name_vi Việt Nam Dân chủ Cộng hòa
 name_ja 越南民主共和
-name_kana えつなんみんしゅきょうわ
+name_kana えつ なん みん しゅ きょう わ
 abbr nam
 wref_ja 越南民主共和
 AD1945 = 1
@@ -621,21 +626,21 @@ sw 共和社会主義越南
 def[越南共和]
 name_vi Việt Nam Cộng hòa
 name_ja 越南共和
-name_kana えつなんきょうわ
+name_kana えつ なん きょう わ
 wref_ja 越南共和
 AD1955 = 1
 #vi
 
 def[皇清]
 name_ja 皇清
-name_kana こうしん
+name_kana こう しん
 wref_ja 皇清
 AD1982 = 1
 #cn
 
 def[正坤]
 name_ja 正坤
-name_kana せいこん
+name_kana せい こん
 wref_ja 正坤
 AD1986 = 1
 # 1-3
@@ -643,14 +648,14 @@ AD1986 = 1
 
 def[太平(乙丑曽応龍)]
 name_ja 太平
-name_kana たいへい
+name_kana たい へい
 wref_ja 太平_(曽応龍)
 AD1985 = 1
 #cn
 
 def[頂古永和]
 name_ja 頂古永和
-name_kana ていこえいわ
+name_kana てい こ えい わ
 wref_ja 頂古永和
 AD1991 = 1
 #cn
@@ -660,32 +665,32 @@ wref_ja 永和_(朱一貴)
 [光明]
 name_ja 光明
 wref_ja 光明_(蔡牽)
-name_kana こうめい
+name_kana こう めい
 #tw Kong-bêng
 #1-5
 #tw
 
 [大順(段鋹)]
 name 大順平定
-name_kana たいじゅん
-name_kana たいじゅんへいてい
+name_kana たい じゅん
+name_kana たい じゅん へい てい
 wref_ja 大順平定
 AD1520 = 1
 
 [征和]
 name_ja 征和
-name_kana せいわ
+name_kana せい わ
 wref_ja 征和
 
 [治平(辛卯)]
 name_ja 治平
 name 太平
-name_kana ちへい
+name_kana ち へい
 wref_ja 治平_(徐寿輝)
 
 def[保慶]
 name_ja 保慶
-name_kana ほけい
+name_kana ほ けい
 wref_ja 保慶
 AD1899 = 1
 wref_ko 보경
@@ -699,28 +704,28 @@ wref_zh 承道
 
 def[正永]
 name 正永
-name_kana しょうえい
+name_kana しょう えい
 #858-870
 AD858 = 1
 wref_ja 正永_(渤海)
 
 def[寛明]
 name 寛明
-name_kana かんめい
+name_kana かん めい
 #872-893
 AD872 = 1
 wref_ja 寛明_(渤海)
 
 def[慶成]
 name 慶成
-name_kana けいせい
+name_kana けい せい
 #894-906
 AD894 = 1
 wref_ja 慶成_(渤海)
 
 def[文徳(丁未)]
 name 文徳
-name_kana ぶんとく
+name_kana ぶん とく
 #907-926
 AD907 = 1
 wref_ja 文徳_(渤海)
@@ -729,46 +734,46 @@ wref_ja 文徳_(渤海)
 name := 𠀑𥢓
 name 𠀑授
 name_ja 天授
-name_kana てんじゅ
+name_kana てん じゅ
 wref_ja 天授_(武周)
 
 [延載]
 name := 延𠧋
 name_ja 延載
-name_kana えんさい
+name_kana えん さい
 wref_ja 延載
 
 [証聖]
 name := 𨭻𨲢
 name_ja 証聖
-name_kana しょうせい
+name_kana しょう せい
 name 證聖
 wref_ja 証聖
 
 [天冊萬歲]
 name := 𠀑冊萬歲
 name_ja 天冊万歳
-name_kana てんさくばんざい
-name_kana てんさつばんざい
+name_kana てん さく ばん ざい
+name_kana てん さつ ばん ざい
 wref_ja 天冊万歳
 
 [萬歲通天]
 name := 萬歲通𠀑
 name 万歳通𠀑
 name_ja 万歳通天
-name_kana ばんざいつうてん
+name_kana ばん ざい つう てん
 wref_ja 万歳通天
 
 [聖曆]
 name := 𨲢曆
 name 𨲢暦
 name_ja 聖暦
-name_kana せいれき
+name_kana せい れき
 wref_ja 聖暦
 
 def[人類紀元]
 name_ja 人類紀元
-name_kana じんるいきげん
+name_kana じん るい き げん
 name_en Holocene calendar
 name_en Holocene Era
 name_en Human Era
@@ -824,7 +829,7 @@ def[天孫紀元]
 sw 天孫紀元
 #
 name_ja 天孫紀元
-name_kana てんそんきげん
+name_kana てん そん き げん
 name_ja 皇紀
 name_ja 天降紀元
 name_ja 天祖紀年
@@ -848,7 +853,9 @@ def[天降紀元]
 sw 天降紀元
 #
 name_ja 天降紀元
-name_kana あもりきげん
+#XXX
+#天降 紀 元
+#name_kana あもり き げん
 name_ja 天降
 name_ja 天孫降臨以來
 name_ja 中興紀元
@@ -876,7 +883,7 @@ sw 霊波暦
 #
 name_ja 霊波
 name_ja 霊波暦
-name_kana れいは
+name_kana れい は
 abbr R
 AD1915 = 1
 tag 日本国
@@ -892,7 +899,7 @@ def[聖日]
 sw 聖日
 #
 name_ja 聖日
-name_kana せいび
+name_kana せい び
 AD1987 = 1
 tag 日本人
 tag 日本国
@@ -1052,7 +1059,7 @@ def[霊寿]
 sw 霊寿
 #
 name_ja 霊寿
-name_kana れいじゅ
+name_kana れい じゅ
 name_ja 靈壽
 wref_ja 璽宇
 tag 日本国
@@ -1097,7 +1104,7 @@ def[立教]
 sw 立教
 #
 name_ja 立教
-name_kana りっきょう
+name_kana りっ きょう
 abbr R
 name_en Tenrikyo
 #name_es Rikkyo
@@ -1172,7 +1179,7 @@ def[命知]
 sw 命知
 #
 name_ja 命知
-name_kana めいち
+name_kana めい ち
 # XXX name_long
 # transliteration Meichi
 name_cn 命知
@@ -1207,9 +1214,9 @@ def[悪魔暦]
 sw 魔暦
 #
 name_ja 魔暦
-name_kana まれき
+name_kana ま れき
 name_ja 悪魔暦
-name_kana あくまれき
+name_kana あく ま れき
 name D.C.
 # = Devil’s Calendar
 # 魔暦前
@@ -1229,7 +1236,7 @@ def[真那暦]
 sw 真那暦
 #
 name_ja 真那暦
-name_kana まさなれき
+name_kana まさ な れき
 name_ja 真那歴
 AD1991 = 0
 # 2014-10-15 established
@@ -1297,7 +1304,7 @@ sw 希哲紀元
 #
 name_ja 希哲
 name_ja 希哲紀元
-name_kana きてつきげん
+name_kana き てつ き げん
 name_ja 希紀
 name_en Kitetu Era
 name_en KE
@@ -1345,7 +1352,7 @@ def[強小]
 sw 強小
 #
 name_ja 強小
-name_kana きょうしょう
+name_kana きょう しょう
 name_en KYŌSHŌ
 AD2009 = 1
 u 1
@@ -1361,8 +1368,8 @@ def[朱雀(戊寅)]
 sw ◆朱雀
 #
 name_ja ◆朱雀
-name_kana すざく
 name_ja 朱雀
+name_kana す ざく
 AD1998 = 1
 tag 日本国
 tag 日本人
@@ -1374,7 +1381,7 @@ tag 日本の私年号
 ## Source:
 sw 永清
 #
-name_kana えいしん
+name_kana えい しん
 u 1-5
 # <-光緒 y~681
 # <-明治 y~1
@@ -1574,7 +1581,7 @@ sw 原爆暦
 #
 name_ja 原爆
 name_ja 原爆暦
-name_kana げんばくれき
+name_kana げん ばく れき
 name_ja 原爆紀元
 abbr G
 abbr A
@@ -1628,7 +1635,7 @@ def[エコ暦]
 sw エコ暦
 #
 name_ja エコ暦
-name_kana えこれき
+name_kana え こ れき
 name_ja eco
 abbr E
 AD1945 = 1
@@ -1783,7 +1790,7 @@ def[豊国]
 sw 豊国
 #
 name_ja 豊国
-name_kana ほうこく
+name_kana ほう こく
 AD1977 = 1
 # 1977-8-1 established
 u 5-4
@@ -1812,7 +1819,7 @@ def[復光]
 sw 復光
 #
 name_ja 復光
-name_kana ふくこう
+name_kana ふく こう
 AD2008 = 1
 tag 満洲国臨時政府
 # <-宣統 2008-4-10
@@ -1825,7 +1832,7 @@ def[昊徳]
 sw 昊徳
 #
 name_ja 昊徳
-name_kana こうとく
+name_kana こう とく
 tag 満洲国臨時政府
 AD2010 = 1
 # <-復光 2010-05-01
@@ -1859,7 +1866,7 @@ def[震災]
 sw 震災元年
 #
 name_ja 震災
-name_kana しんさい
+name_kana しん さい
 AD2011 = 1
 tag 日本人
 tag 日本国
@@ -1892,7 +1899,7 @@ def[フクシマ紀元]
 sw フクシマ紀元
 #
 name_ja フクシマ紀元
-name_kana ふくしまきげん
+name_kana ふ く し ま き げん
 name_ja 震災紀元
 name_ja フクシマ紀
 AD2011 = 1
