@@ -182,6 +182,7 @@ local/calendar-era-yomis.txt: bin/calendar-era-yomis.pl \
 
 data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     local/era-defs-jp.json local/era-defs-jp-emperor.json \
+    src/wp-jp-eras.json \
     local/char-variants.json \
     local/era-defs-jp-wp-en.json src/era-data.txt \
     src/era-variants.txt \

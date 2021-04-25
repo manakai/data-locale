@@ -288,23 +288,35 @@ AD1904 = 1
 [AD]
 name AD
 name A.D.
+&
+name_ja 西暦
+&
 name Anno Domini
+name_ja キリスト紀元
+name_ja 耶蘇紀元
+&
+name 天主降生
+&
 name CE
 name C.E.
+&
 name Common Era
-name_ja 西暦
-name 西紀
-name 公元紀年
 name_cn 公元
-name 西暦紀元
-name キリスト紀元
+&
+name 公元紀年
 name 共通紀元
-name 耶蘇紀元
-name 西
+&
+name_ja 西紀
+name_ko 西紀
 name 西元
+&
+name 西暦紀元
+&
+abbr 西
+&
 name 学暦
-name 学
-name 天主降生
+&
+abbr 学
 wref_zh 公元
 wref_ja 西暦
 AD1 = 1
@@ -2300,7 +2312,7 @@ tag 日本人
 tag 日本
 tag 日本の私年号
 
-def[白鳳]
+[白鳳]
 name_ja 白鳳
 AD650 = 1
 #白鳳 661

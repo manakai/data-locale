@@ -19,33 +19,53 @@ my $TagByKey = {};
   }
 }
 
-for my $file_name (qw(
-  era-defs-jp.json era-defs-jp-emperor.json
-)) {
-  my $path = $root_path->child ('local')->child ($file_name);
-  my $json = json_bytes2perl $path->slurp;
-  for my $key (keys %{$json->{eras}}) {
-    if (defined $Data->{eras}->{$key}) {
-      die "Duplicate era key |$key|";
-    }
-    $Data->{eras}->{$key} = $json->{eras}->{$key};
-  }
-}
-
+## Japanese official eras && pre-大宝 emperor eras
 for (
-  ['local/era-defs-jp-wp-en.json' => ['wref_en']],
-  ['local/era-yomi-list.json' => ['ja_readings']],
+  ['src/wp-jp-eras.json', undef, 'name' => ['name', 'wref_ja']],
+  ['local/era-defs-jp-emperor.json', 'eras', 'name' => ['name_ja', 'name_kana', 'name_latn', 'offset', 'wref_ja', 'wref_en']],
+  ['local/era-defs-jp-wp-en.json', 'eras', 'key' => ['wref_en']],
+  ['local/era-yomi-list.json', 'eras', 'key' => ['ja_readings']],
 ) {
-  my ($file_name, $data_keys) = @$_;
+  my ($file_name, $first_level, $key_key, $data_keys) = @$_;
   my $path = $root_path->child ($file_name);
   my $json = json_bytes2perl $path->slurp;
-  for my $key (keys %{$json->{eras}}) {
-    my $data = $json->{eras}->{$key};
-    next if not defined $data->{key};
+  $json = $json->{$first_level} if defined $first_level;
+  for my $key (keys %$json) {
+    my $data = $json->{$key};
+    next if not defined $data->{$key_key};
+    $Data->{eras}->{$key}->{key} //= $data->{$key_key};
     for (@$data_keys) {
-      $Data->{eras}->{$key}->{$_} = $data->{$_} if defined $data->{$_};
+      if (defined $data->{$_}) {
+        if ($_ eq 'name_ja' or $_ eq 'name') {
+          my $name = $data->{$_};
+          push @{$Data->{eras}->{$key}->{labels}->[0] ||= []},
+              {value => $name, name => 1, ja => 1};
+
+          $name =~ s/摂政$// &&
+          push @{$Data->{eras}->{$key}->{labels}},
+              [{value => $name, name => 1, ja => 1}];
+
+          $name =~ s/皇后$// &&
+          push @{$Data->{eras}->{$key}->{labels}},
+              [{value => $name, name => 1, ja => 1}];
+          
+          $name =~ s/天皇$// &&
+          push @{$Data->{eras}->{$key}->{labels}},
+              [{value => $name, name => 1, ja => 1}];
+
+          $Data->{eras}->{$key}->{short_name} = $name
+              unless $name eq $data->{$_};
+
+          next;
+          # XXX name_kana name_latn
+        } elsif ($_ eq 'ja_readings') {
+          push @{$Data->{eras}->{$key}->{labels}->[0] ||= []},
+              map { {%$_, yomi => 1} } @{$data->{$_}};
+        }
+        $Data->{eras}->{$key}->{$_} = $data->{$_};
+      }
     }
-  }
+  } # $json
 }
 
 sub drop_kanshi ($) {
@@ -248,14 +268,19 @@ sub year2kanshi ($) {
     }
     $Data->{eras}->{$key} = my $data = {};
     $data->{key} = $key;
-    $data->{name} = $src->{name};
-    $data->{name_cn} = $src->{name_cn};
-    $data->{name_tw} = $src->{name};
-    $data->{names}->{$src->{name}} = 1;
-    $data->{names}->{$src->{name_cn}} = 1;
     $data->{offset} = $src->{offset} if defined $src->{offset};
     $data->{wref_zh} = $src->{wref} if defined $src->{wref};
-  }
+
+    if ($src->{name} eq $src->{name_cn}) {
+      push @{$data->{labels}},
+          [{value => $src->{name}, name => 1, cn => 1, tw => 1}];
+    } else {
+      push @{$data->{labels}},
+          [{value => $src->{name}, name => 1, tw => 1}];
+      push @{$data->{labels}},
+          [{value => $src->{name_cn}, name => 1, cn => 1}];
+    }
+  } # $src
 
   warn $_ for @dup;
 }
@@ -283,11 +308,13 @@ for my $path (
       next unless @n;
       my $d = $Data->{eras}->{$n[0]} ||= {};
       $d->{key} = $n[0];
-      $d->{name} = drop_kanshi $n[0];
-      $d->{names}->{drop_kanshi $_} = 1 for @n;
       if (defined $first_year) {
         $d->{offset} = $first_year - 1;
       }
+
+      my @nn = map { drop_kanshi $_ } @n;
+      push @{$d->{labels}},
+          [{value => $_, name => 1}] for @nn;
     } elsif (/\S/) {
       die "Bad line |$_|";
     }
@@ -365,7 +392,10 @@ for (
       my $variant = $1;
       my $key = $2;
       die "Era |$key| not defined" unless defined $Data->{eras}->{$key};
-      $Data->{eras}->{$key}->{names}->{drop_kanshi $variant} = 1;
+
+      my $name = drop_kanshi $variant;
+      push @{$Data->{eras}->{$key}->{labels}},
+          [{value => $name, name => 1}];
     } elsif (/\S/) {
       die "Bad line |$_|";
     }
@@ -399,13 +429,27 @@ for (
       $Data->{eras}->{$key}->{$1} = $2;
     } elsif (defined $key and /^(name)\s*:=\s*(\S+)$/) {
       $Data->{eras}->{$key}->{$1} = $2;
-      $Data->{eras}->{$key}->{names}->{$2} = 1;
-    } elsif (defined $key and /^(name(?:_ja|_en|_cn|_tw|_ko|_vi|_kana|)|abbr|abbr_latn)\s+(.+)$/) {
-      $Data->{eras}->{$key}->{$1} ||= $2;
-      #$Data->{eras}->{$key}->{$1} = $2 unless $1 eq 'name';
-      $Data->{eras}->{$key}->{name} ||= $2 unless $1 eq 'name';
-      $Data->{eras}->{$key}->{names}->{$2} = 1 unless $1 eq 'name_kana';
-      $Data->{eras}->{$key}->{name_kanas}->{$2} = 1 if $1 eq 'name_kana';
+      push @{$Data->{eras}->{$key}->{labels}->[0] ||= []},
+          {value => $2, name => 1};
+    } elsif (defined $key and /^name\s+(.+)$/) {
+      push @{$Data->{eras}->{$key}->{labels}->[0] ||= []},
+          {value => $1, name => 1};
+    } elsif (defined $key and /^name_kana\s+(.+)$/) {
+      $Data->{eras}->{$key}->{name_kana} = $1;
+      #XXX
+      #push @{$Data->{eras}->{$key}->{labels}->[0] ||= []},
+      #    {value => $1, name => 1};
+    } elsif (defined $key and /^name_(ja|en|cn|tw|ko|vi)\s+(.+)$/) {
+      push @{$Data->{eras}->{$key}->{labels}->[0] ||= []},
+          {value => $2, name => 1, $1 => 1};
+    } elsif (defined $key and /^abbr\s+(.+)$/) {
+      push @{$Data->{eras}->{$key}->{labels}->[0] ||= []},
+          {value => $1, name => 1, abbr => 'han'};
+    } elsif (defined $key and /^abbr_latn\s+(.+)$/) {
+      push @{$Data->{eras}->{$key}->{labels}->[0] ||= []},
+          {value => $1, name => 1, abbr => 'latin'};
+    } elsif (defined $key and /^&$/) {
+      # XXX
     } elsif (defined $key and /^(unicode)\s+(.+)$/) {
       $Data->{eras}->{$key}->{$1} = $2;
       $Data->{eras}->{$key}->{names}->{$2} = 1;
@@ -467,31 +511,26 @@ for (
   } # $era
 }
 
+## Name shorthands
 {
   for my $era (values %{$Data->{eras}}) {
-    my $name = $era->{name};
-    next unless defined $name;
+    for my $label_set (@{$era->{labels}}) {
+      for my $label (@$label_set) {
+        if ($label->{name}) {
+          $era->{names}->{$label->{value}} = 1;
+          $era->{name} //= $label->{value};
+          $era->{name_ja} //= $label->{value} if $label->{ja};
+          $era->{name_tw} //= $label->{value} if $label->{tw};
+          $era->{name_cn} //= $label->{value} if $label->{cn};
+          $era->{name_ko} //= $label->{value} if $label->{ko};
+          $era->{name_vi} //= $label->{value} if $label->{vi};
+          $era->{name_en} //= $label->{value} if $label->{en};
+          $era->{abbr} //= $label->{value} if ($label->{abbr} // '') eq 'han';
+          $era->{abbr_latn} //= $label->{value} if ($label->{abbr} // '') eq 'latin';
+        }
+      }
+    } # $label_set
     
-  $era->{names}->{$name} = 1;
-  $era->{short_name} = $name;
-  $name =~ s/摂政$//;
-  $era->{names}->{$name} = 1 if length $name;
-  $era->{short_name} = $name if length $name;
-  $name =~ s/皇后$//;
-  $era->{names}->{$name} = 1 if length $name;
-  $era->{short_name} = $name if length $name;
-  $name =~ s/天皇$//;
-  $era->{names}->{$name} = 1 if length $name;
-  $era->{short_name} = $name if length $name;
-  delete $era->{short_name} if $era->{short_name} eq $era->{name};
-  
-  $era->{names}->{$era->{abbr}} = 1
-      if defined $era->{abbr};
-  $era->{names}->{$era->{abbr_latn}} = 1
-      if defined $era->{abbr_latn};
-  $era->{names}->{lc $era->{abbr_latn}} = 1
-      if defined $era->{abbr_latn};
-
     for my $v (@{$era->{ja_readings} or []}) {
       $era->{name_latn} //= $v->{latin};
       $era->{name_kana} //= $v->{kana};
@@ -512,6 +551,11 @@ for (
       $w = ucfirst $w;
       $era->{name_latn} = $w;
     }
+
+    $era->{name_kanas}->{$era->{name_kana}} = 1 if defined $era->{name_kana};
+
+    # XXX
+    delete $era->{labels};
   } # $era
 }
 

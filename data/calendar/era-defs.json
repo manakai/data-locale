@@ -2,6 +2,7 @@
    "current_jp" : "令和",
    "eras" : {
       "AD" : {
+         "abbr" : "西",
          "code17" : 0,
          "ends" : [
             {
@@ -153,6 +154,7 @@
          "name" : "AD",
          "name_cn" : "公元",
          "name_ja" : "西暦",
+         "name_ko" : "西紀",
          "names" : {
             "A.D." : 1,
             "AD" : 1,
@@ -8985,9 +8987,8 @@
          "known_oldest_year" : 1911,
          "name" : "共戴",
          "name_cn" : "共戴",
-         "name_kana" : "きょうたい",
+         "name_kana" : "きょうたいきげん",
          "name_kanas" : {
-            "きょうたい" : 1,
             "きょうたいきげん" : 1
          },
          "name_tw" : "共戴",
@@ -14821,9 +14822,8 @@
          "known_oldest_year" : 1520,
          "name" : "大順",
          "name_cn" : "大顺",
-         "name_kana" : "たいじゅん",
+         "name_kana" : "たいじゅんへいてい",
          "name_kanas" : {
-            "たいじゅん" : 1,
             "たいじゅんへいてい" : 1
          },
          "name_tw" : "大順",
@@ -15508,9 +15508,8 @@
          "name" : "𠀑冊萬歲",
          "name_cn" : "天册万岁",
          "name_ja" : "天冊万歳",
-         "name_kana" : "てんさくばんざい",
+         "name_kana" : "てんさつばんざい",
          "name_kanas" : {
-            "てんさくばんざい" : 1,
             "てんさつばんざい" : 1
          },
          "name_tw" : "天冊萬歲",
@@ -23218,11 +23217,9 @@
          "known_latest_year" : -477,
          "known_oldest_year" : -477,
          "name" : "孔子卒後",
-         "name_kana" : "こうしそつご",
+         "name_kana" : "こうしきねん",
          "name_kanas" : {
-            "こうしきねん" : 1,
-            "こうしそつ" : 1,
-            "こうしそつご" : 1
+            "こうしきねん" : 1
          },
          "names" : {
             "孔子" : 1,
@@ -23263,9 +23260,8 @@
          "known_latest_year" : -550,
          "known_oldest_year" : -550,
          "name" : "孔紀",
-         "name_kana" : "こうき",
+         "name_kana" : "こうしきねん",
          "name_kanas" : {
-            "こうき" : 1,
             "こうしきねん" : 1
          },
          "names" : {
@@ -39432,10 +39428,9 @@
          "known_oldest_year" : 1999,
          "name" : "魔暦",
          "name_ja" : "魔暦",
-         "name_kana" : "まれき",
+         "name_kana" : "あくまれき",
          "name_kanas" : {
-            "あくまれき" : 1,
-            "まれき" : 1
+            "あくまれき" : 1
          },
          "names" : {
             "D.C." : 1,
@@ -52512,7 +52507,7 @@
          "known_latest_year" : 1912,
          "known_oldest_year" : 1912,
          "name" : "民國",
-         "name_cn" : "民国",
+         "name_cn" : "中华民国",
          "name_ja" : "中華民国",
          "name_tw" : "民國",
          "names" : {
@@ -70806,9 +70801,8 @@
          "name" : "黃帝紀元",
          "name_cn" : "黄帝纪元",
          "name_ja" : "黄帝紀元",
-         "name_kana" : "こうていきげん",
+         "name_kana" : "こうていきねん",
          "name_kanas" : {
-            "こうていきげん" : 1,
             "こうていきねん" : 1
          },
          "name_tw" : "黃帝紀元",
@@ -71291,9 +71285,8 @@
          "name" : "黃帝紀元",
          "name_cn" : "黄帝纪元",
          "name_ja" : "黄帝紀元",
-         "name_kana" : "こうていきげん",
+         "name_kana" : "こうていきねん",
          "name_kanas" : {
-            "こうていきげん" : 1,
             "こうていきねん" : 1
          },
          "name_tw" : "黃帝紀元",
@@ -71332,9 +71325,8 @@
          "name" : "黃帝紀元",
          "name_cn" : "黄帝纪元",
          "name_ja" : "黄帝紀元",
-         "name_kana" : "こうていきげん",
+         "name_kana" : "こうていきねん",
          "name_kanas" : {
-            "こうていきげん" : 1,
             "こうていきねん" : 1
          },
          "name_tw" : "黃帝紀元",
