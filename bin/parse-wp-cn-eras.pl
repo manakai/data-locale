@@ -1,14 +1,15 @@
 use strict;
 use warnings;
 use utf8;
-use Encode;
 use Path::Tiny;
 use lib glob path (__FILE__)->parent->child ('modules/*/lib');
+use Web::Encoding;
+use Web::URL::Encoding;
 use Web::DOM::Document;
 use JSON::PS;
 
 local $/ = undef;
-my $input = decode 'utf-8', <>;
+my $input = decode_web_utf8 <>;
 my $doc = new Web::DOM::Document;
 $doc->manakai_is_html (1);
 $doc->manakai_set_url (q<https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8>);
@@ -37,8 +38,6 @@ for my $table_el ($doc->query_selector_all ('.wikitable, .mw-headline')->to_list
         $caption =~ /^(\w+)時期建立的其他政權的年號$/ or
         $caption =~ /^(\w+)統治地區出現的其他割據勢力的年號$/) {
       $caption = 'misc';
-    } elsif ($caption eq '隋末農民起義時各割據勢力年號') {
-      $caption = 'misc';
     } elsif ($caption =~ /^(\w+)政權年號$/) {
       $caption = $1;
     } elsif ($caption =~ /^(\w+)年號$/) {
@@ -47,6 +46,10 @@ for my $table_el ($doc->query_selector_all ('.wikitable, .mw-headline')->to_list
   } else {
     $caption = $headline;
   }
+  $caption =~ s/^續唐/唐/g;
+  $caption = 'misc'
+      if $caption eq '隋末農民起義時各割據勢力年號' or
+         $caption eq '隋末農民起義時各割據勢力';
   my @row = $table_el->rows->to_list;
   shift @row;
   for my $tr (@row) {
@@ -60,8 +63,7 @@ for my $table_el ($doc->query_selector_all ('.wikitable, .mw-headline')->to_list
     if (defined $link and
         $link->href =~ m{^https://zh.wikipedia.org/wiki/([^?#]+)}) {
       my $name = $1;
-      $name =~ s/%([0-9A-Fa-f]{2})/pack 'C', hex $1/ge;
-      $name = decode 'utf-8', $name;
+      $name = percent_decode_c $name;
       $data->{wref} = $name;
     }
     if ($cells->[1]->text_content =~ /^(前|)(\d+)年(\w+月(\w+日|)|)(?:\x{2014}|$)/) {

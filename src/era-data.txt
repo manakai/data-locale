@@ -536,7 +536,7 @@ name チンギス・ハーン紀元
 sw 成吉思汗紀元
 AD1936 = 731
 
-[民國]
+def[民國]
 name_tw 中華民國
 name_cn 中华民国
 name_ja 中華民国
@@ -1758,6 +1758,7 @@ tag 日本の私年号
 ## Source:
 sw 宣統
 # @清
+AD1909 = 1
 #
 tag 満州人
 #
@@ -2784,3 +2785,48 @@ wref_ja 白鳳
 wref_ja 朱雀
 [福徳]
 wref_ja 福徳_(私年号)
+
+def[利正]
+name_cn 利正
+name_tw 利正
+#was: wref_zh 中国年号列表
+
+def[孝治]
+name_cn 孝治
+name_tw 孝治
+#was: wref_zh 中国年号列表
+
+def[庚寅]
+name_cn 庚寅
+name_tw 庚寅
+#was: wref_zh 中国年号列表
+
+def[正安(癸巳)]
+name_cn 正安
+name_tw 正安
+name 政安
+#was: wref_zh 中国年号列表
+#was: wref_zh 正安_(大理)
+AD1053 = 1
+
+def[法堯]
+name_cn 法堯
+name_tw 法堯
+#was: wref_zh 中国年号列表
+
+def[義興]
+name_cn 義興
+name_tw 義興
+#was: wref_zh 中国年号列表
+AD1644 = 1
+
+def[興正]
+name_cn 興正
+name_tw 興正
+#was: wref_zh 中国年号列表
+
+def[開明]
+name_cn 開明
+name_tw 開明
+#was: wref_zh 中国年号列表
+AD1097 = 1

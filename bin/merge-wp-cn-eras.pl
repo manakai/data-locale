@@ -3,21 +3,25 @@ use warnings;
 use Path::Tiny;
 use JSON::PS;
 
-my $root_path = path (__FILE__)->parent->parent;
+my $RootPath = path (__FILE__)->parent->parent;
+my $Langs = [qw(cn hk mo my sg tw)];
 
-my $cn_path = $root_path->child ('local/wp-cn-eras-cn.json');
-my $tw_path = $root_path->child ('local/wp-cn-eras-tw.json');
-my $cn = json_bytes2perl $cn_path->slurp;
-my $tw = json_bytes2perl $tw_path->slurp;
+my $Inputs = {};
+for my $lang (@$Langs) {
+  my $path = $RootPath->child ("local/wp-cn-eras-$lang.json");
+  $Inputs->{$lang} = json_bytes2perl $path->slurp;
+}
 
-my $Data = $tw;
+my $Data = $Inputs->{tw};
 
-for (0..$#{$Data->{eras}}) {
-  my $t = $Data->{eras}->[$_];
-  my $c = $cn->{eras}->[$_];
-  die if defined $t->{wref} and defined $c->{wref} and not $t->{wref} eq $c->{wref};
-  die if defined $t->{offset} and defined $c->{offset} and not $t->{offset} == $c->{offset};
-  $t->{name_cn} = $c->{name};
+for my $i (0..$#{$Data->{eras}}) {
+  for my $lang (@$Langs) {
+    my $c = $Inputs->{$lang}->{eras}->[$i];
+    my $t = $Data->{eras}->[$i];
+    die if defined $t->{wref} and defined $c->{wref} and not $t->{wref} eq $c->{wref};
+    die if defined $t->{offset} and defined $c->{offset} and not $t->{offset} == $c->{offset};
+    $t->{$lang} = $c->{name};
+  }
 }
 
 print perl2json_bytes_for_record $Data;

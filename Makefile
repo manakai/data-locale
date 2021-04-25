@@ -134,12 +134,33 @@ local/wp-cn-eras-tw.html:
 	$(WGET) -O $@ https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8
 local/wp-cn-eras-cn.html:
 	$(WGET) -O $@ https://zh.wikipedia.org/zh-cn/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8
+local/wp-cn-eras-hk.html:
+	$(WGET) -O $@ https://zh.wikipedia.org/zh-hk/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8
+local/wp-cn-eras-mo.html:
+	$(WGET) -O $@ https://zh.wikipedia.org/zh-mo/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8
+local/wp-cn-eras-my.html:
+	$(WGET) -O $@ https://zh.wikipedia.org/zh-my/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8
+local/wp-cn-eras-sg.html:
+	$(WGET) -O $@ https://zh.wikipedia.org/zh-sg/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8
 local/wp-cn-eras-tw.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-tw.html
 	$(PERL) $< < local/wp-cn-eras-tw.html > $@
 local/wp-cn-eras-cn.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-cn.html
 	$(PERL) $< < local/wp-cn-eras-cn.html > $@
+local/wp-cn-eras-hk.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-hk.html
+	$(PERL) $< < local/wp-cn-eras-hk.html > $@
+local/wp-cn-eras-mo.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-mo.html
+	$(PERL) $< < local/wp-cn-eras-mo.html > $@
+local/wp-cn-eras-my.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-my.html
+	$(PERL) $< < local/wp-cn-eras-my.html > $@
+local/wp-cn-eras-sg.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-sg.html
+	$(PERL) $< < local/wp-cn-eras-sg.html > $@
 src/wp-cn-eras.json: bin/merge-wp-cn-eras.pl \
-    #local/wp-cn-eras-tw.json local/wp-cn-eras-cn.json
+    local/wp-cn-eras-tw.json \
+    local/wp-cn-eras-cn.json \
+    local/wp-cn-eras-hk.json \
+    local/wp-cn-eras-mo.json \
+    local/wp-cn-eras-my.json \
+    local/wp-cn-eras-sg.json
 	$(PERL) $< > $@
 local/cn-ryuukyuu-era-list.json: bin/cn-ryuukyuu-era-list.pl \
     src/eras/ryuukyuu.txt

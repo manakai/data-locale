@@ -237,9 +237,12 @@ sub year2kanshi ($) {
     next if $src->{dup};
     next if $src->{name} eq '中平' and $src->{offset} == 189-1;
     next if $src->{name} eq '乾化' and $src->{offset} == 913-1;
-    next if $src->{name} eq '宣統' and $src->{offset} == 1916;
+    #next if $src->{name} eq '宣統' and $src->{offset} == 1916;
     next if $src->{name} eq '明德' and not defined $src->{offset};
     next if $src->{name} eq '廣德' and not defined $src->{offset};
+    next if $src->{name} eq '永天' and $src->{offset} == 1420-1; # viet
+    next if $src->{name} eq '監國' and $src->{offset} == 1646-1;
+    next if $src->{name} eq '？？';
     #$src->{offset} = 1861 - 1 if $src->{name} eq '祺祥' and not defined $src->{offset};
     my $key = (defined $src->{offset} ?
                    ($nc2key->{$src->{name}.'/'.$src->{caption}.'/'.year2kanshi(($src->{offset})+1).'/'.($src->{offset}+1)} ||
@@ -271,14 +274,14 @@ sub year2kanshi ($) {
     $data->{offset} = $src->{offset} if defined $src->{offset};
     $data->{wref_zh} = $src->{wref} if defined $src->{wref};
 
-    if ($src->{name} eq $src->{name_cn}) {
+    if ($src->{name} eq $src->{cn}) {
       push @{$data->{labels}},
           [{value => $src->{name}, name => 1, cn => 1, tw => 1}];
     } else {
       push @{$data->{labels}},
           [{value => $src->{name}, name => 1, tw => 1}];
       push @{$data->{labels}},
-          [{value => $src->{name_cn}, name => 1, cn => 1}];
+          [{value => $src->{cn}, name => 1, cn => 1}];
     }
   } # $src
 
