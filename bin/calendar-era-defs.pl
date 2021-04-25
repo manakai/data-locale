@@ -286,7 +286,6 @@ sub year2kanshi ($) {
 }
 
 for my $path (
-  $root_path->child ('src/era-tw.txt'),
   $root_path->child ('src/era-viet.txt'),
   $root_path->child ('src/era-korea.txt'),
 ) {
@@ -402,8 +401,10 @@ for (
   }
 }
 
-{
-  my $path = $root_path->child ('src/era-data.txt');
+for my $path (
+  $root_path->child ('src/era-data.txt'),
+  $root_path->child ('src/era-data-tw.txt'),
+) {
   my $key;
   my $prop;
   for (split /\x0D?\x0A/, $path->slurp_utf8) {

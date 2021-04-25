@@ -662,13 +662,6 @@ AD1991 = 1
 
 [永和(辛丑)]
 wref_ja 永和_(朱一貴)
-[光明]
-name_ja 光明
-wref_ja 光明_(蔡牽)
-name_kana こう めい
-#tw Kong-bêng
-#1-5
-#tw
 
 [大順(段鋹)]
 name 大順平定
@@ -1376,45 +1369,6 @@ tag 日本人
 u 1
 u 22
 tag 日本の私年号
-
-[永清]
-## Source:
-sw 永清
-#
-name_kana えい しん
-u 1-5
-# <-光緒 y~681
-# <-明治 y~1
-# 1895-05-08           Taiwan transferred from 清 to Japan
-# 1895-05-23           independence proclamation
-# 1895-05-25 (農暦5-2) independence celemony
-# ->明治 y~1
-# 1895-農暦5
-# 1895-06-17           JP government's celemony of establishment
-# 1895-10-19           president went back to 清
-# cal 清國暦
-tag 台湾民主国
-tag 大日本帝国台湾
-tag 漢民族
-
-[大靖]
-## Source:
-sw 太靖
-#
-name 太靖
-name_ja たいせい
-tag 大日本帝国台湾
-tag 漢民族
-# <-明治
-# 1897
-# 1897-01
-# 1897-01 (農暦12)
-u 1-6
-# 1897-6-28 or 農暦6-28
-# ->明治
-# 1898-11-25 支配地域消滅
-# 1899-03    government discontinued
-tag 大靖政権
 
 def[大新]
 ## Source:

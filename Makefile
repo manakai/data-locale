@@ -184,10 +184,12 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     local/era-defs-jp.json local/era-defs-jp-emperor.json \
     src/wp-jp-eras.json \
     local/char-variants.json \
-    local/era-defs-jp-wp-en.json src/era-data.txt \
+    local/era-defs-jp-wp-en.json \
+    src/era-data.txt \
+    src/era-data-tw.txt \
     src/era-variants.txt \
     src/wp-cn-eras.json src/era-china-dups.txt local/number-values.json \
-    src/era-viet.txt src/era-korea.txt src/era-tw.txt \
+    src/era-viet.txt src/era-korea.txt \
     data/numbers/kanshi.json \
     intermediate/era-ids.json \
     src/era-codes-14.txt src/era-codes-15.txt \
