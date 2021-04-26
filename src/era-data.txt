@@ -19,8 +19,8 @@ code #11 7621
 code #12 12041
 code #13 0x878D
 unicode ㍾
-abbr 明
-abbr_latn M
+abbr_ja 明 明治
+abbr_ja M Meiji
 code #7 明
 code #2 M
 code #20 -1
@@ -47,8 +47,8 @@ code #11 7622
 code #12 12042
 code #13 0x878E
 unicode ㍽
-abbr 大
-abbr_latn T
+abbr_ja 大 大正
+abbr_ja T Taisho
 code #7 大
 code #2 T
 code #20 0
@@ -81,8 +81,8 @@ code #11 7623
 code #12 12043
 code #13 0x878F
 unicode ㍼
-abbr 昭
-abbr_latn S
+abbr_ja 昭 昭和
+abbr_ja S Showa
 code #7 昭
 code #2 S
 
@@ -116,8 +116,8 @@ code #11 8323
 code #12 12044
 code #13 0x877E
 unicode ㍻
-abbr 平
-abbr_latn H
+abbr_ja 平 平成
+abbr_ja H Heisei
 code #7 平
 code #2 H
 
@@ -141,8 +141,8 @@ code #9 2
 code #11 23058
 code #12 23059
 unicode ㋿
-abbr 令
-abbr_latn R
+abbr_ja 令 令和
+abbr_ja R Reiwa
 code #7 令
 code #2 R
 
@@ -249,13 +249,13 @@ source
 source
   url:http://d.hatena.ne.jp/hakuriku/20070701#eikan
 [元治]
-abbr 元
+abbr_ja 元 元治
 code #7 元
 code #16 Y
 [慶応]
 source
   url:http://d.hatena.ne.jp/hakuriku/20070701#keo
-abbr 慶
+abbr_ja 慶 慶応
 code #7 慶
 code #16 Z
 
@@ -306,7 +306,7 @@ name 西元
 &
 name 西暦紀元
 &
-abbr 西
+abbr_ja 西 西暦
 &
 acronym CE
 acronym C.E.
@@ -321,7 +321,7 @@ name 共通紀元
 &
 name 学暦
 &
-abbr 学
+abbr_ja 学 学曆
 wref_zh 公元
 wref_ja 西暦
 AD1 = 1
@@ -451,7 +451,7 @@ name_ja 黄帝紀元
 name_kana こう てい き げん
 name 黄帝紀年
 name_kana こう てい き ねん
-abbr 黄紀
+name 黄紀
 name 黄帝開国即位紀年
 wref_zh 黄帝纪元
 wref_ja 黄帝紀元
@@ -526,7 +526,7 @@ AD1941 = 31
 sw モンゴル人民共和国紀元
 
 def[成吉思汗紀元]
-abbr 成紀
+name 成紀
 name 成吉思汗紀元
 name ジンギス・ハーン紀元
 name ジンギスハーン紀元
@@ -543,7 +543,7 @@ name_ja 中華民国
 name 民國
 name 民国
 name 大中華民國
-abbr 民
+abbr_tw 民 民國
 name 民國紀年
 name 民国纪年
 name 民國紀元
@@ -610,7 +610,7 @@ def[越南民主共和]
 name_vi Việt Nam Dân chủ Cộng hòa
 name_ja 越南民主共和
 name_kana えつ なん みん しゅ きょう わ
-abbr nam
+abbr_vi nam
 wref_ja 越南民主共和
 AD1945 = 1
 sw 越南民主共和
@@ -774,7 +774,7 @@ name_cn 全新世紀年
 name_cn 人類紀年
 name_cn 人元紀年
 name_cn 人元
-abbr HE
+acronym HE
 wref_ja 人類紀元
 wref_en Holocene_calendar
 sw 人類紀元
@@ -806,7 +806,7 @@ sw 宇宙暦
 #
 name 宇宙暦
 name_en Star Date
-abbr S.D.
+acronym S.D.
 AD1969 = 1
 # 宇宙暦紀元前
 tag 日本国
@@ -877,7 +877,7 @@ sw 霊波暦
 name_ja 霊波
 name_ja 霊波暦
 name_kana れい は
-abbr R
+abbr_ja R Reiha
 AD1915 = 1
 tag 日本国
 tag 日本人
@@ -1098,7 +1098,7 @@ sw 立教
 #
 name_ja 立教
 name_kana りっ きょう
-abbr R
+abbr_ja R Rikkyo
 name_en Tenrikyo
 #name_es Rikkyo
 #name_po Revelação Divina
@@ -1537,7 +1537,7 @@ name_ja 原爆
 name_ja 原爆暦
 name_kana げん ばく れき
 name_ja 原爆紀元
-abbr G
+abbr_ja G
 abbr A
 AD1945 = 1
 tag 日本人
@@ -1572,7 +1572,7 @@ name_ja GENBAKU
 name_ja 原爆
 name_en the atomic bomb
 name_en Atomic Bomb Calendar
-abbr G
+abbr_ja G
 AD1946 = 1
 tag 日本人
 tag 日本国
@@ -1591,7 +1591,7 @@ sw エコ暦
 name_ja エコ暦
 name_kana え こ れき
 name_ja eco
-abbr E
+abbr_ja E
 AD1945 = 1
 # <-原爆暦 y~1775
 u 58-2-27
