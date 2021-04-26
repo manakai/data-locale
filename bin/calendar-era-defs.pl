@@ -34,31 +34,32 @@ for (
     my $data = $json->{$key};
     next if not defined $data->{$key_key};
     $Data->{eras}->{$key}->{key} //= $data->{$key_key};
+    $Data->{eras}->{$key}->{label_sets} //= [{labels => [{reps => []}]}];
     for (@$data_keys) {
       if (defined $data->{$_}) {
         if ($_ eq 'name_ja' or $_ eq 'name') {
           my $name = $data->{$_};
-          push @{$Data->{eras}->{$key}->{labels}->[0] ||= []},
+          push @{$Data->{eras}->{$key}->{label_sets}->[0]->{labels}->[0]->{reps}},
               {han => 1, name => 1, values => [{value => $name, ja => 1}]};
 
           $name =~ s/摂政$// &&
-          push @{$Data->{eras}->{$key}->{labels}},
-              [{han => 1, name => 1, values => [{value => $name, ja => 1}]}];
+          push @{$Data->{eras}->{$key}->{label_sets}->[0]->{labels}},
+              {reps => [{han => 1, name => 1, values => [{value => $name, ja => 1}]}]};
 
           $name =~ s/皇后$// &&
-          push @{$Data->{eras}->{$key}->{labels}},
-              [{han => 1, name => 1, values => [{value => $name, ja => 1}]}];
+          push @{$Data->{eras}->{$key}->{label_sets}->[0]->{labels}},
+              {reps => [{han => 1, name => 1, values => [{value => $name, ja => 1}]}]};
           
           $name =~ s/天皇$// &&
-          push @{$Data->{eras}->{$key}->{labels}},
-              [{han => 1, name => 1, values => [{value => $name, ja => 1}]}];
+          push @{$Data->{eras}->{$key}->{label_sets}->[0]->{labels}},
+              {reps => [{han => 1, name => 1, values => [{value => $name, ja => 1}]}]};
 
           $Data->{eras}->{$key}->{short_name} = $name
               unless $name eq $data->{$_};
 
           # XXX name_kana name_latn
         } elsif ($_ eq 'ja_readings') {
-          push @{$Data->{eras}->{$key}->{labels}->[0] ||= []},
+          push @{$Data->{eras}->{$key}->{label_sets}->[0]->{labels}->[0]->{reps}},
               map { {%$_, yomi => 1} } @{$data->{$_}};
         } else {
           $Data->{eras}->{$key}->{$_} = $data->{$_};
@@ -271,19 +272,19 @@ sub year2kanshi ($) {
     }
     $Data->{eras}->{$key} = my $data = {};
     $data->{key} = $key;
+    $data->{label_sets} //= [{labels => [{reps => []}]}];
     $data->{offset} = $src->{offset} if defined $src->{offset};
     $data->{wref_zh} = $src->{wref} if defined $src->{wref};
 
     if ($src->{cn} eq $src->{name}) {
-      push @{$data->{labels}},
-          [{han => 1, name => 1,
-            values => [{value => $src->{name}, cn => 1, tw => 1}]}];
+      push @{$data->{label_sets}->[0]->{labels}->[0]->{reps}},
+          {han => 1, name => 1,
+           values => [{value => $src->{name}, cn => 1, tw => 1}]};
     } else {
-      push @{$data->{labels}},
-          [{han => 1, name => 1,
-            values => [{value => $src->{name}, tw => 1}]}],
-          [{han => 1, name => 1,
-            values => [{value => $src->{cn}, cn => 1}]}];
+      push @{$data->{label_sets}->[0]->{labels}->[0]->{reps}},
+          {han => 1, name => 1,
+           values => [{value => $src->{name}, tw => 1},
+                      {value => $src->{cn}, cn => 1}]};
     }
     warn "Wikipedia cn != my: $src->{cn} $src->{my}"
         if $src->{cn} ne $src->{my};
@@ -320,13 +321,14 @@ for my $path (
       next unless @n;
       my $d = $Data->{eras}->{$n[0]} ||= {};
       $d->{key} = $n[0];
+      $d->{label_sets} //= [{labels => [{reps => []}]}];
       if (defined $first_year) {
         $d->{offset} = $first_year - 1;
       }
 
       my @nn = map { drop_kanshi $_ } @n;
-      push @{$d->{labels}},
-          [{han => 1, name => 1, values => [{value => $_}]}] for @nn;
+      push @{$d->{label_sets}->[0]->{labels}->[0]->{reps}},
+          {han => 1, name => 1, values => [{value => $_}]} for @nn;
     } elsif (/\S/) {
       die "Bad line |$_|";
     }
@@ -357,6 +359,8 @@ sub set_tag ($$) {
   use utf8;
   $Data->{eras}->{단기}->{key} = '단기';
   $Data->{eras}->{AD}->{key} = 'AD';
+  $Data->{eras}->{단기}->{label_sets} //= [{labels => [{reps => []}]}];
+  $Data->{eras}->{AD}->{label_sets} //= [{labels => [{reps => []}]}];
 }
 
 for (
@@ -406,8 +410,8 @@ for (
       die "Era |$key| not defined" unless defined $Data->{eras}->{$key};
 
       my $name = drop_kanshi $variant;
-      push @{$Data->{eras}->{$key}->{labels}},
-          [{han => 1, name => 1, values => [{value => $name}]}];
+      push @{$Data->{eras}->{$key}->{label_sets}->[0]->{labels}->[0]->{reps}},
+          {han => 1, name => 1, values => [{value => $name}]};
     } elsif (/\S/) {
       die "Bad line |$_|";
     }
@@ -434,6 +438,7 @@ for my $path (
              defined $Data->{eras}->{$key}->{key};
       undef $prop;
       $Data->{eras}->{$key}->{key} = $1;
+      $Data->{eras}->{$key}->{label_sets} //= [{labels => [{reps => []}]}];
     } elsif (defined $key and /^(source)$/) {
       push @{$Data->{eras}->{$key}->{sources} ||= []}, $prop = {};
     } elsif (defined $prop and ref $prop eq 'HASH' and
@@ -443,79 +448,56 @@ for my $path (
       $Data->{eras}->{$key}->{$1} = $2;
     } elsif (defined $key and /^(name)\s*:=\s*(\S+)$/) {
       $Data->{eras}->{$key}->{$1} = $2;
-      push @{$Data->{eras}->{$key}->{labels}}, []
-          unless @{$Data->{eras}->{$key}->{labels} or []};
-      push @{$Data->{eras}->{$key}->{labels}->[-1] ||= []},
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {han => 1, name => 1, values => [{value => $2}]};
     } elsif (defined $key and /^name\s+(.+)$/) {
-      push @{$Data->{eras}->{$key}->{labels}}, []
-          unless @{$Data->{eras}->{$key}->{labels} or []};
-      push @{$Data->{eras}->{$key}->{labels}->[-1] ||= []},
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {han => 1, name => 1, values => [{value => $1}]};
     } elsif (defined $key and /^name_kana\s+(.+)$/) {
-      push @{$Data->{eras}->{$key}->{labels}}, []
-          unless @{$Data->{eras}->{$key}->{labels} or []};
-      push @{$Data->{eras}->{$key}->{labels}->[-1] ||= []},
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {kana => $1, yomi => 1};
     } elsif (defined $key and /^name_(ja|cn|tw)(!|)\s+(.+)$/) {
-      push @{$Data->{eras}->{$key}->{labels}}, []
-          unless @{$Data->{eras}->{$key}->{labels} or []};
-      push @{$Data->{eras}->{$key}->{labels}->[-1] ||= []},
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {han => 1, name => 1,
            values => [{value => $3, $1 => 1, _preferred => $2}]};
     } elsif (defined $key and /^name_(ko|vi)(!|)\s+(.+)$/) {
-      push @{$Data->{eras}->{$key}->{labels}}, []
-          unless @{$Data->{eras}->{$key}->{labels} or []};
-      push @{$Data->{eras}->{$key}->{labels}->[-1] ||= []},
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {$1 => 1, name => 1,
            value => $3,
            _preferred => $2};
     } elsif (defined $key and /^name_(en)(!|)\s+(.+)$/) {
-      push @{$Data->{eras}->{$key}->{labels}}, []
-          unless @{$Data->{eras}->{$key}->{labels} or []};
-      push @{$Data->{eras}->{$key}->{labels}->[-1] ||= []},
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {alphabetical => 1, name => 1,
            $1 => 1,
            value => $3,
            _preferred => $2};
     } elsif (defined $key and /^abbr_ja\s+([A-Z])\s+(\1[a-z]*)$/) {
-      push @{$Data->{eras}->{$key}->{labels}}, []
-          unless @{$Data->{eras}->{$key}->{labels} or []};
-      push @{$Data->{eras}->{$key}->{labels}->[-1] ||= []},
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {ja => 1, abbr => 'first',
            latin => $1, expanded => $2};
     } elsif (defined $key and /^abbr_(ja|tw)\s+(\p{Hani})\s+(\2\p{Hani}*)$/) {
-      push @{$Data->{eras}->{$key}->{labels}}, []
-          unless @{$Data->{eras}->{$key}->{labels} or []};
-      push @{$Data->{eras}->{$key}->{labels}->[-1] ||= []},
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {han => 1, abbr => 'first',
            values => [{value => $2, $1 => 1, expanded => $3}]};
     } elsif (defined $key and /^abbr_(ja)\s+(\p{Latn}+)$/) {
-      push @{$Data->{eras}->{$key}->{labels}}, []
-          unless @{$Data->{eras}->{$key}->{labels} or []};
-      push @{$Data->{eras}->{$key}->{labels}->[-1] ||= []},
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {$1 => 1, abbr => 'first',
            latin => $2};
     } elsif (defined $key and /^abbr_(vi)\s+(\p{Latn}+)$/) {
-      push @{$Data->{eras}->{$key}->{labels}}, []
-          unless @{$Data->{eras}->{$key}->{labels} or []};
-      push @{$Data->{eras}->{$key}->{labels}->[-1] ||= []},
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {$1 => 1, abbr => 'first',
            value => $2};
     } elsif (defined $key and /^abbr\s+(\p{Latn}+)$/) {
-      push @{$Data->{eras}->{$key}->{labels}}, []
-          unless @{$Data->{eras}->{$key}->{labels} or []};
-      push @{$Data->{eras}->{$key}->{labels}->[-1] ||= []},
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {alphabetical => 1, abbr => 'first',
            value => $1};
     } elsif (defined $key and /^acronym\s+([\p{Latn}.]+)$/) {
-      push @{$Data->{eras}->{$key}->{labels}}, []
-          unless @{$Data->{eras}->{$key}->{labels} or []};
-      push @{$Data->{eras}->{$key}->{labels}->[-1] ||= []},
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {alphabetical => 1, abbr => 'acronym', name => 1,
            value => $1};
     } elsif (defined $key and /^&$/) {
-      push @{$Data->{eras}->{$key}->{labels}}, [];
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}},
+          {reps => []};
     } elsif (defined $key and /^(unicode)\s+(.+)$/) {
       $Data->{eras}->{$key}->{$1} = $2;
       $Data->{eras}->{$key}->{names}->{$2} = 1;
@@ -580,8 +562,9 @@ for my $path (
 ## Name shorthands
 {
   for my $era (values %{$Data->{eras}}) {
-    for my $label_set (@{$era->{labels}}) {
-      for my $label (@$label_set) {
+    for my $label_set (@{$era->{label_sets}}) {
+    for my $label (@{$label_set->{labels}}) {
+      for my $label (@{$label->{reps}}) {
         if ($label->{name}) {
           if ($label->{han}) {
             for my $value (@{$label->{values}}) {
@@ -627,8 +610,9 @@ for my $path (
         delete $label->{_preferred};
       } # $label
     } # $label_set
+    } # $label_set0
 
-    $era->{ja_readings} = [map { my $v = {%$_}; delete $v->{yomi}; $v } grep { $_->{yomi} } map { @$_ } @{$era->{labels}}];
+    $era->{ja_readings} = [map { my $v = {%$_}; delete $v->{yomi}; $v } grep { $_->{yomi} } map { @{$_->{reps}} } map { @{$_->{labels}} } @{$era->{label_sets}}];
     delete $era->{ja_readings} unless @{$era->{ja_readings}};
     for my $v (@{$era->{ja_readings} or []}) {
       $era->{name_latn} //= $v->{latin} if defined $v->{latin};
