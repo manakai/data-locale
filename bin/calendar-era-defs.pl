@@ -491,13 +491,36 @@ for my $path (
       push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {alphabetical => 1, abbr => 'first',
            value => $1};
-    } elsif (defined $key and /^acronym\s+([\p{Latn}.]+)$/) {
+    } elsif (defined $key and /^acronym\s+(\p{Latn}+)$/) {
       push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {alphabetical => 1, abbr => 'acronym', name => 1,
-           value => $1};
+           dotless => $1};
+    } elsif (defined $key and /^acronym\s+(\p{Latn}+)\s+(\p{Latn}+(?: \p{Latn}+)+)$/) {
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
+          {alphabetical => 1, abbr => 'acronym', name => 1,
+           dotless => $1, expanded => $2};
+    } elsif (defined $key and /^acronym\s+((?:\p{Latn}\.)+)$/) {
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
+          {alphabetical => 1, abbr => 'acronym', name => 1,
+           dotted => $1};
+    } elsif (defined $key and /^acronym\s+((?:\p{Latn}\.)+)\s+(\p{Latn}+(?: \p{Latn}+)+)$/) {
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
+          {alphabetical => 1, abbr => 'acronym', name => 1,
+           dotted => $1, expanded => $2};
+    } elsif (defined $key and /^acronym\s+(\p{Latn}+)\s+((?:\p{Latn}\.)+)$/) {
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
+          {alphabetical => 1, abbr => 'acronym', name => 1,
+           dotless => $1, dotted => $2};
+    } elsif (defined $key and /^acronym\s+(\p{Latn}+)\s+((?:\p{Latn}\.)+)\s+(\p{Latn}+(?: \p{Latn}+)+)$/) {
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
+          {alphabetical => 1, abbr => 'acronym', name => 1,
+           dotless => $1, dotted => $2, expanded => $3};
     } elsif (defined $key and /^&$/) {
       push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}},
           {reps => []};
+    } elsif (defined $key and /^&&$/) {
+      push @{$Data->{eras}->{$key}->{label_sets}},
+          {labels => [{reps => []}]};
     } elsif (defined $key and /^(unicode)\s+(.+)$/) {
       $Data->{eras}->{$key}->{$1} = $2;
       $Data->{eras}->{$key}->{names}->{$2} = 1;
@@ -590,10 +613,12 @@ for my $path (
             $era->{name_vi} = $label->{value} if $label->{_preferred};
           }
           if ($label->{alphabetical}) {
-            $era->{name} //= $label->{value};
+            $era->{name} //= $label->{dotless} // $label->{value};
             if ($label->{en}) {
-              $era->{name_en} //= $label->{value};
-              $era->{name_en} = $label->{value} if $label->{_preferred};
+              if (defined $label->{value}) {
+                $era->{name_en} //= $label->{value};
+                $era->{name_en} = $label->{value} if $label->{_preferred};
+              }
             }
           }
         } # name

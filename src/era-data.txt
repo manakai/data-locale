@@ -286,8 +286,7 @@ tag 日本の私年号
 AD1904 = 1
 
 [AD]
-acronym AD
-acronym A.D.
+acronym AD A.D.
 &
 name Anno Domini
 &
@@ -296,7 +295,7 @@ name_ja キリスト紀元
 name_ja 耶蘇紀元
 &
 name 天主降生
-&
+&&
 name_ja! 西暦
 &
 name_ja 西紀
@@ -307,9 +306,8 @@ name 西元
 name 西暦紀元
 &
 abbr_ja 西 西暦
-&
-acronym CE
-acronym C.E.
+&&
+acronym CE C.E.
 &
 name Common Era
 &
@@ -318,7 +316,7 @@ name_cn 公元
 name 公元紀年
 &
 name 共通紀元
-&
+&&
 name 学暦
 &
 abbr_ja 学 学曆
@@ -765,16 +763,24 @@ name_kana せい れき
 wref_ja 聖暦
 
 def[人類紀元]
+name_en Holocene calendar
+&
+name_en Holocene Era
+&
+name_cn 全新世紀年
+&
+acronym HE
+&&
+name_en Human Era
+&
 name_ja 人類紀元
 name_kana じん るい き げん
-name_en Holocene calendar
-name_en Holocene Era
-name_en Human Era
-name_cn 全新世紀年
+&
 name_cn 人類紀年
+&
 name_cn 人元紀年
+&
 name_cn 人元
-acronym HE
 wref_ja 人類紀元
 wref_en Holocene_calendar
 sw 人類紀元
@@ -804,7 +810,8 @@ def[宇宙暦]
 ## Source:
 sw 宇宙暦
 #
-name 宇宙暦
+name_ja 宇宙暦
+&
 name_en Star Date
 acronym S.D.
 AD1969 = 1
@@ -823,14 +830,23 @@ sw 天孫紀元
 #
 name_ja 天孫紀元
 name_kana てん そん き げん
+&
 name_ja 皇紀
+&
 name_ja 天降紀元
+&
 name_ja 天祖紀年
+&
 name_ja 天孫降臨紀元
+&
 name_ja 皇孫降臨紀年
+&
 name_ja 天孫皇紀
+&
 name_ja 肇国紀元
+&
 name_ja 天祖降跡紀元
+&
 name_ja 天降皇紀
 wref_ja 天孫紀元
 AD2016 = 1795149
@@ -850,8 +866,11 @@ name_ja 天降紀元
 #天降 紀 元
 #name_kana あもり き げん
 name_ja 天降
+&
 name_ja 天孫降臨以來
+&
 name_ja 中興紀元
+&
 name_ja 神仙紀元
 AD2009 = 5009
 tag 日本国
@@ -861,8 +880,9 @@ u 5009
 u 5020
 
 def[天之御中主天皇即位紀元]
-name 天之御中主天皇即位紀元
-name 皇紀
+name_ja 天之御中主天皇即位紀元
+&
+name_ja 皇紀
 sw 天之御中主天皇即位紀元
 
 def[神紀]
@@ -875,8 +895,9 @@ def[霊波]
 sw 霊波暦
 #
 name_ja 霊波
-name_ja 霊波暦
 name_kana れい は
+&
+name_ja 霊波暦
 abbr_ja R Reiha
 AD1915 = 1
 tag 日本国
@@ -906,9 +927,13 @@ def[神の国の紀元]
 sw 神の国の紀元
 #
 name_ja 紀元
+&
 name_ja 大神様紀元
+&
 name_ja 神の国の紀元
+&
 name_ja 神の国年
+&
 name_ja 神の国開元の年
 AD1946 = 1
 tag 日本人
@@ -938,6 +963,7 @@ def[真理]
 sw 真理
 #
 name_ja 真理
+&
 name_ja 真理暦
 name_ja 真理歴
 AD1997 = 1
@@ -1084,6 +1110,7 @@ sw 芦原太陽暦
 #
 name_ja 芦原太陽暦
 name_ja 葦原太陽暦
+&
 name_ja 即位
 AD-23107 = 1
 tag 大日本帝国
@@ -1098,12 +1125,17 @@ sw 立教
 #
 name_ja 立教
 name_kana りっ きょう
+&
+#lang:es
+name Rikkyo
+&
 abbr_ja R Rikkyo
+&&
 name_en Tenrikyo
-#name_es Rikkyo
-#name_po Revelação Divina
-#name_po R.D.
-#name_po RD
+&&
+#lang:po
+name Revelação Divina
+acronym RD R.D. Revelação Divina
 AD1838 = 1
 tag 日本国
 tag 米国
@@ -1171,12 +1203,13 @@ def[命知]
 ## Source
 sw 命知
 #
+name_ja 創業命知
+&
 name_ja 命知
 name_kana めい ち
 # XXX name_long
 # transliteration Meichi
 name_cn 命知
-name 創業命知
 AD1932 = 1
 # preferred style g第y年
 tag 松下電器産業株式会社
@@ -1208,6 +1241,7 @@ sw 魔暦
 #
 name_ja 魔暦
 name_kana ま れき
+&
 name_ja 悪魔暦
 name_kana あく ま れき
 name D.C.
@@ -1283,6 +1317,7 @@ def[急行志摩紀元]
 sw 急行志摩紀元
 #
 name_ja 急行志摩紀元
+&
 name_ja 志摩紀元
 AD1972 = 1
 tag 日本国
@@ -1296,11 +1331,15 @@ def[希哲]
 sw 希哲紀元
 #
 name_ja 希哲
+&
 name_ja 希哲紀元
 name_kana き てつ き げん
+&
 name_ja 希紀
+&
 name_en Kitetu Era
-name_en KE
+&
+acronym KE Kitetu Era
 AD2007 = 1
 # 希哲前
 # 2014 established
@@ -1333,8 +1372,11 @@ def[阪神タイガース]
 sw 阪神タイガース
 #
 name_ja 阪神タイガース
+&
 name_ja 阪神優勝
+&
 name_ja 優勝
+&
 name_ja 阪神暦
 AD1985 = 1
 tag 日本の私年号
@@ -1444,9 +1486,12 @@ sw 戦後 (紀年法)
 AD1946 = 1
 wref_ja 0年
 name_ja 戦後
+&
 name_ja 戦後暦
 name_ja 戦後歴
+&
 name_ja 戦後紀元
+&
 name_en After The War
 # cal Gregorian
 # cal 戦後暦
@@ -1466,6 +1511,7 @@ sw 戦後 (紀年法)
 #
 AD1945 = 1
 name_ja 戦後
+&
 name_ja 戦後暦
 tag 日本人
 tag 日本国
@@ -1507,7 +1553,9 @@ def[原子]
 sw 原子暦
 #
 name_ja 原子
+&
 name_ja 原子暦
+&
 name A・A
 AD1945 = 1
 u 3
@@ -1534,10 +1582,14 @@ def[原爆]
 sw 原爆暦
 #
 name_ja 原爆
+&
 name_ja 原爆暦
 name_kana げん ばく れき
+&
 name_ja 原爆紀元
+&
 abbr_ja G
+&
 abbr A
 AD1945 = 1
 tag 日本人
@@ -1565,13 +1617,21 @@ def[原爆紀元]
 sw 原爆紀元
 #
 name_ja 原爆紀元
+&
 name_ja 原爆暦
+&
 name_en Post Atomic-bomb Calender
+&
 name_en GENBAKU CALENDER
+&
 name_ja GENBAKU
+&
 name_ja 原爆
+&
 name_en the atomic bomb
+&
 name_en Atomic Bomb Calendar
+&
 abbr_ja G
 AD1946 = 1
 tag 日本人
@@ -1590,7 +1650,9 @@ sw エコ暦
 #
 name_ja エコ暦
 name_kana え こ れき
+&
 name_ja eco
+&
 abbr_ja E
 AD1945 = 1
 # <-原爆暦 y~1775
@@ -1609,6 +1671,7 @@ def[原爆(エコ)暦]
 sw 原爆(エコ)暦
 #
 name_ja 原爆(エコ)暦
+&
 name_ja eco
 AD1945 = 0
 u 60
@@ -1622,8 +1685,8 @@ def[PH]
 ## Source:
 sw ポストヒロシマ
 #
-name_en PH
-name_en P.H.
+acronym PH P.H. Post HIROSHIMA
+&
 name_en Post HIROSHIMA
 name_ja ポストヒロシマ
 name_ja ポスト・ヒロシマ
@@ -1635,11 +1698,12 @@ def[PH(丙戌)]
 ## Source:
 sw ポストヒロシマ
 #
-name_en PH
-name_en P.H.
+acronym PH P.H.
+&
 name_ja ポストヒロシマ
 name_ja ポスト・ヒロシマ
 name_ja ポスト広島
+name_kana ぽ す と ひろ しま
 AD1946 = 1
 
 def[ヒロシマ紀元]
@@ -1648,7 +1712,9 @@ def[ヒロシマ紀元]
 sw ヒロシマ紀元
 #
 name_ja ヒロシマ紀元
+&
 name_ja ヒロシマ・ナガサキ紀元
+&
 name_ja ヒロシマ、ナガサキ
 AD1945 = 0
 tag 日本人
@@ -1666,15 +1732,20 @@ def[aH]
 sw aH
 #
 AD1946 = 0
-name_en AH
-name_en A.H.
-name_en aH
+acronym AH A.H. after Hiroshima
+acronym aH after Hiroshima
+&
 name_en after Hiroshima
 name après Hiroshima
-name d.H.
+&
+acronym d.H. dopo Hiroshima
+&
 name dopo Hiroshima
+&
 name_ja 広島紀元
+&
 name_ja アフターヒロシマ紀元
+&
 name_ja AH暦
 u 41-8
 u 75-10-10
@@ -1687,10 +1758,14 @@ def[核時代]
 sw 核時代
 #
 name_ja 核時代
-name_ja かくじだい
+name_kana かく じ だい
+&
 name_en Atomic Age
+&
 name_en Nuclear Age
+&
 name_en AN
+&
 name_ja 核年代
 wref_ja 核時代
 AD1945 = 0
@@ -1708,9 +1783,12 @@ def[核時代(乙酉)]
 sw 核時代
 #
 name_ja 核時代
-name_ja かくじだい
+name_kana かく じ だい
+&
 name_en Atomic Age
+&
 name_en Nuclear Age
+&
 name_ja 各時代
 AD1945 = 1
 u 42-5
@@ -1722,16 +1800,26 @@ def[核時代後]
 sw 核時代後
 #
 name_ja 核時代後
+&
 name_ja 核時代後年号
+&
 name_ja 核時代年号
+&
 name_ja 核紀元
-name_ja 広島・長崎紀元
-name_ja 広島・長崎元号
-name_ja 地球暦
-name_ja 世界暦
-name_en AN
+&
+acronym AN after nuclear
+&
 name_en after N
+&
 name_en after nuclear
+&&
+name_ja 広島・長崎紀元
+&
+name_ja 広島・長崎元号
+&&
+name_ja 地球暦
+&
+name_ja 世界暦
 # 核時代前 BN before nuclear
 AD1945 = 0
 u 47-1-1
@@ -1855,7 +1943,9 @@ sw フクシマ紀元
 #
 name_ja フクシマ紀元
 name_kana ふ く し ま き げん
+&
 name_ja 震災紀元
+&
 name_ja フクシマ紀
 AD2011 = 1
 tag 日本人
@@ -1875,6 +1965,7 @@ def[コロナ]
 sw コロナ元年
 #
 name_ja コロナ
+&
 name_ja アフターコロナ
 AD2020 = 1
 # <-震災 y~1788 2020-03-08
