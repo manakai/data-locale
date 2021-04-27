@@ -661,12 +661,36 @@ AD1991 = 1
 [永和(辛丑)]
 wref_ja 永和_(朱一貴)
 
-[大順(段鋹)]
+def[大順(段鋹)]
+name_tw 大順
+name_cn 大顺
 name 大順平定
 name_kana たい じゅん
 name_kana たい じゅん へい てい
 wref_ja 大順平定
+wref_zh 大順平定
 AD1520 = 1
+#was: wref_zh 中国年号列表
+
+def[安和(大長和)]
+name_tw 安和
+name_cn 安和
+#was: wref_zh 中国年号列表
+
+def[安國聖治]
+name_tw 安國聖治
+name_cn 安国圣治
+#was: wref_zh 中国年号列表
+
+def[隆德]
+name_tw 隆德
+name_cn 隆德
+#was: wref_zh 中国年号列表
+
+def[貞祐]
+name_tw 貞祐
+name_cn 贞祐
+#was: wref_zh 中国年号列表
 
 [征和]
 name_ja 征和

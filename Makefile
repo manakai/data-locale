@@ -214,7 +214,7 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     src/era-data-tw.txt \
     src/era-variants.txt \
     intermediate/wp-cn-eras.json \
-    src/era-china-dups.txt local/number-values.json \
+    local/number-values.json \
     src/era-viet.txt src/era-korea.txt \
     data/numbers/kanshi.json \
     intermediate/era-ids.json \
