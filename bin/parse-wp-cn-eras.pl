@@ -69,6 +69,9 @@ for my $table_el ($doc->query_selector_all ('.wikitable, .mw-headline')->to_list
     if ($cells->[1]->text_content =~ /^(前|)(\d+)年(\w+月(\w+日|)|)(?:\x{2014}|$)/) {
       my $start_year = $1 ? 0 - $2 : $2;
       $data->{offset} = $start_year - 1;
+    } elsif ($cells->[1]->text_content =~ /^(\d{4})$/) {
+      my $start_year = $1;
+      $data->{offset} = $start_year - 1;
     }
     $data->{caption} = $caption;
   }

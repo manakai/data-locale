@@ -160,10 +160,14 @@ intermediate/wp-cn-eras.json: bin/merge-wp-cn-eras.pl \
     local/wp-cn-eras-hk.json \
     local/wp-cn-eras-mo.json \
     local/wp-cn-eras-my.json \
-    local/wp-cn-eras-sg.json
+    local/wp-cn-eras-sg.json \
+    src/wp-zh-era-id-map.txt
 	$(PERL) $< > $@
 local/cn-ryuukyuu-era-list.json: bin/cn-ryuukyuu-era-list.pl \
     src/eras/ryuukyuu.txt
+	$(PERL) $< > $@
+local/wp-zh-era-id-map.txt: bin/wp-zh-era-id-map.pl \
+    data/calendar/era-defs.json
 	$(PERL) $< > $@
 
 local/era-defs-jp-wp-en.json: bin/era-defs-jp-wp-en.pl \

@@ -12,6 +12,23 @@ for my $lang (@$Langs) {
   $Inputs->{$lang} = json_bytes2perl $path->slurp;
 }
 
+my $IDMap = {};
+{
+  my $path = $RootPath->child ('src/wp-zh-era-id-map.txt');
+  for (split /\x0A/, $path->slurp_utf8) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^(\S+)\s+([0-9]+)$/) {
+      if (defined $IDMap->{$1}) {
+        die "Duplicate ukey |$1|";
+      }
+      $IDMap->{$1} = $2;
+    } elsif (/\S/) {
+      die "Bad line |$_|";
+    }
+  }
+}
+
 my $Data = $Inputs->{tw};
 
 for my $i (0..$#{$Data->{eras}}) {
@@ -21,6 +38,33 @@ for my $i (0..$#{$Data->{eras}}) {
     die if defined $t->{wref} and defined $c->{wref} and not $t->{wref} eq $c->{wref};
     die if defined $t->{offset} and defined $c->{offset} and not $t->{offset} == $c->{offset};
     $t->{$lang} = $c->{name};
+  }
+}
+
+my $found = {};
+for my $data (@{$Data->{eras}}) {
+  if (defined $data->{offset}) {
+    $data->{ukey} = $data->{tw} . ',' . $data->{offset};
+  } else {
+    $data->{ukey} = $data->{tw};
+    use utf8;
+    if ($data->{ukey} eq '天定') {
+      $data->{ukey} .= '[' . $data->{caption} . ']';
+    }
+  }
+  my $dup_key = defined $data->{offset} ? 'dup_offsets' : 'dups';
+  if ($found->{$data->{ukey}}) {
+    push @{$Data->{$dup_key}->{$data->{ukey}} ||= [$found->{$data->{ukey}}]},
+        perl2json_chars_for_record $data;
+  } else {
+    $found->{$data->{ukey}} = perl2json_chars_for_record $data;
+
+    if (defined $IDMap->{$data->{ukey}}) {
+      $data->{era_id} = $IDMap->{$data->{ukey}};
+    } else {
+      push @{$Data->{_errors} ||= []},
+          ["Era not found", $data->{ukey}];
+    }
   }
 }
 
