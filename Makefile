@@ -154,7 +154,7 @@ local/wp-cn-eras-my.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-my.html
 	$(PERL) $< < local/wp-cn-eras-my.html > $@
 local/wp-cn-eras-sg.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-sg.html
 	$(PERL) $< < local/wp-cn-eras-sg.html > $@
-src/wp-cn-eras.json: bin/merge-wp-cn-eras.pl \
+intermediate/wp-cn-eras.json: bin/merge-wp-cn-eras.pl \
     local/wp-cn-eras-tw.json \
     local/wp-cn-eras-cn.json \
     local/wp-cn-eras-hk.json \
@@ -209,7 +209,8 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     src/era-data.txt \
     src/era-data-tw.txt \
     src/era-variants.txt \
-    src/wp-cn-eras.json src/era-china-dups.txt local/number-values.json \
+    intermediate/wp-cn-eras.json \
+    src/era-china-dups.txt local/number-values.json \
     src/era-viet.txt src/era-korea.txt \
     data/numbers/kanshi.json \
     intermediate/era-ids.json \
@@ -331,7 +332,7 @@ local/era-chars.json: bin/generate-era-chars.pl \
     data/calendar/era-defs.json
 	$(PERL) $< > $@
 local/cn-era-name-diff.txt: bin/generate-cn-era-name-diff.pl \
-    src/wp-cn-eras.json
+    intermediate/wp-cn-eras.json
 	$(PERL) $< > $@
 local/era-jp-conflicts.json: bin/generate-era-jp-conflicts.pl \
     data/calendar/era-defs.json

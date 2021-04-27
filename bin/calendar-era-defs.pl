@@ -90,7 +90,7 @@ sub year2kanshi ($) {
 } # year2kanshi
 
 {
-  my $path = $root_path->child ('src/wp-cn-eras.json');
+  my $path = $root_path->child ('intermediate/wp-cn-eras.json');
   my $json = json_bytes2perl $path->slurp;
   my @era;
   push @era, grep { $_->{caption} ne 'misc' } @{$json->{eras}};

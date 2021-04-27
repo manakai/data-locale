@@ -4,14 +4,14 @@ use Path::Tiny;
 use JSON::PS;
 
 my $root_path = path (__FILE__)->parent->parent;
-my $path = $root_path->child ('src/wp-cn-eras.json');
+my $path = $root_path->child ('intermediate/wp-cn-eras.json');
 my $json = json_bytes2perl $path->slurp;
 
 my $variants = {};
 
 for (@{$json->{eras}}) {
-  my @t = split //, $_->{name};
-  my @c = split //, $_->{name_cn};
+  my @t = split //, $_->{tw};
+  my @c = split //, $_->{cn};
   for (0..$#t) {
     if ($t[$_] ne $c[$_]) {
       my @v = sort { $a cmp $b } $t[$_], $c[$_];
