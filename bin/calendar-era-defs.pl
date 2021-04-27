@@ -231,6 +231,7 @@ for (
 for my $path (
   $root_path->child ('src/era-data.txt'),
   $root_path->child ('src/era-data-tw.txt'),
+  $root_path->child ('src/era-data-manchu.txt'),
 ) {
   my $key;
   my $prop;

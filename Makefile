@@ -212,6 +212,7 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     local/era-defs-jp-wp-en.json \
     src/era-data.txt \
     src/era-data-tw.txt \
+    src/era-data-manchu.txt \
     src/era-variants.txt \
     intermediate/wp-cn-eras.json \
     local/number-values.json \
