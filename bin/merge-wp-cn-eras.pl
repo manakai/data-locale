@@ -18,11 +18,11 @@ my $IDMap = {};
   for (split /\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
       #
-    } elsif (/^(\S+)\s+([0-9]+)$/) {
+    } elsif (/^(\S+)\s+([0-9]+)\s+(\S+)$/) {
       if (defined $IDMap->{$1}) {
         die "Duplicate ukey |$1|";
       }
-      $IDMap->{$1} = $2;
+      $IDMap->{$1} = [$2, $3];
     } elsif (/\S/) {
       die "Bad line |$_|";
     }
@@ -60,7 +60,8 @@ for my $data (@{$Data->{eras}}) {
     $found->{$data->{ukey}} = perl2json_chars_for_record $data;
 
     if (defined $IDMap->{$data->{ukey}}) {
-      $data->{era_id} = $IDMap->{$data->{ukey}};
+      $data->{era_id} = $IDMap->{$data->{ukey}}->[0];
+      $data->{era_key} = $IDMap->{$data->{ukey}}->[1];
     } else {
       push @{$Data->{_errors} ||= []},
           ["Era not found", $data->{ukey}];
