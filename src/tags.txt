@@ -295,4 +295,16 @@ tag
   group of 天皇即位紀年
 
 tag
+  name_ja 公年号
+tag
+  name_ja 日本の公年号
+  group of 公年号
+tag
+  name_ja 日本北朝の公年号
+  group of 日本の公年号
+tag
+  name_ja 日本南朝の公年号
+  group of 日本の公年号
+
+tag
   name_ja 日本の私年号

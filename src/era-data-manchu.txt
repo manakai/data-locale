@@ -8,9 +8,14 @@
 %tag   key 清
 %tag   name_ja 大清帝国
 
+%tag tag
+%tag   name_ja 清の公年号
+%tag   group of 公年号
+
 [咸豐]
 AD1851 = 1
 tag 清
+tag 清の公年号
 tag 満州人
 tag 漢民族
 tag ウイグル人
@@ -29,6 +34,7 @@ name_mn %E1%A0%B2%E1%A0%A6%E1%A0%AD%E1%A0%A1%E1%A0%AE%E1%A0%A1%E1%A0%AF %E1%A0%A
 [同治]
 AD1862 = 1
 tag 清
+tag 清の公年号
 tag 満州人
 tag 漢民族
 tag ウイグル人
@@ -50,6 +56,7 @@ name_mn %E1%A0%AA%E1%A0%A6%E1%A0%B7%E1%A0%A2%E1%A0%A8 %E1%A0%B5%E1%A0%A0%E1%A0%B
 AD1875 = 1
 #<-同治
 tag 清
+tag 清の公年号
 tag 満州人
 tag 漢民族
 tag ウイグル人
@@ -75,6 +82,7 @@ sw 宣統
 #
 AD1909 = 1
 tag 清
+tag 清の公年号
 tag 満州人
 tag 漢民族
 tag ウイグル人
@@ -110,9 +118,14 @@ u 100-3-31
 %tag   period of 中華民国
 %tag   region of 大東亜共栄圏
 
+%tag tag
+%tag   name_ja 満州国の公年号
+%tag   group of 公年号
+
 [大同(壬申)]
 # y~1578
 tag 満州国
+tag 満州国の公年号
 tag 満州人
 tag 日本人
 tag 朝鮮人
@@ -128,6 +141,7 @@ name_ja 康徳
 name_tw 康徳
 #name_hk 康徳
 tag 満州国
+tag 満州国の公年号
 tag 満州人
 tag 日本人
 tag 朝鮮人

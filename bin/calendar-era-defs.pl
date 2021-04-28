@@ -197,12 +197,15 @@ for (
       use utf8;
       if ($data->{jp_era}) {
         set_tag $key, '日本';
+        set_tag $key, '日本の公年号';
       }
       if ($data->{jp_north_era}) {
         set_tag $key, '日本北朝';
+        set_tag $key, '日本北朝の公年号';
       }
       if ($data->{jp_south_era}) {
         set_tag $key, '日本南朝';
+        set_tag $key, '日本南朝の公年号';
       }
       if ($data->{jp_emperor_era}) {
         set_tag $key, '天皇即位紀年 (古代)';
