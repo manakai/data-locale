@@ -2,7 +2,9 @@ use strict;
 use warnings;
 use utf8;
 use Path::Tiny;
+use lib glob path (__FILE__)->parent->child ('modules/*/lib');
 use JSON::PS;
+use Web::URL::Encoding;
 binmode STDERR, qw(:encoding(utf-8));
 
 my $root_path = path (__FILE__)->parent->parent;
@@ -284,6 +286,18 @@ for my $path (
            $1 => 1,
            value => $3,
            _preferred => $2};
+    } elsif (defined $key and /^name_man\s+((?:%[0-9A-F]{2})+(?: (?:%[0-9A-F]{2})+)*),([a-z ]+),([a-z ]+)$/) {
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
+          {manchu => 1, name => 1,
+           manchu => (percent_decode_c $1),
+           moellendorff => $2, # 穆麟德 メレンドルフ
+           abkai => $3, # 太清
+          };
+    } elsif (defined $key and /^name_mn\s+((?:%[0-9A-F]{2})+(?: (?:%[0-9A-F]{2})+)*),([\p{Cyrl} ]+)$/) {
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
+          {monglian => 1, name => 1,
+           monglian => (percent_decode_c $1),
+           cyrillic => $2};
     } elsif (defined $key and /^abbr_ja\s+([A-Z])\s+(\1[a-z]*)$/) {
       push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {ja => 1, abbr => 'first',
