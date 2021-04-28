@@ -13,7 +13,7 @@ year
 
 day
 
-  A day, represnted by a JSON object with following name/value pairs,
+  A day, represented by a JSON object with following name/value pairs,
   which all represent the same day:
 
     gregorian
