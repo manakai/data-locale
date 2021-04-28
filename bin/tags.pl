@@ -29,27 +29,31 @@ my $TagByKey = {};
     $TagByKey->{$key} = $item;
   }; # $add_item
   
-  my $path = $RootPath->child ('src/tags.txt');
-  my $item;
-  for (split /\x0D?\x0A/, $path->slurp_utf8) {
-    if (/^\s*#/) {
-      #
-    } elsif (/^(region|country|people|religion|org|person|law|tag)$/) {
-      $add_item->($item) if defined $item;
-      $item = {type => $1};
-    } elsif (defined $item and /^  (name|key)\s+(\S.*\S)\s*$/) {
-      $item->{$1} //= $2;
-    } elsif (defined $item and /^  (name|label)_(ja|en)\s+(\S.*\S)\s*$/) {
-      $item->{$1} //= $3;
-      $item->{$1.'_'.$2} //= $3;
-      $item->{$1.'s'}->{$3} = 1;
-    } elsif (defined $item and /^  (group|period|region)\s*of\s*(\S.*\S)\s*$/) {
-      $item->{'_'.$1.'_of'}->{$2} = 1;
-    } elsif (/\S/) {
-      die "Bad line |$_|";
+  for my $path (
+    $RootPath->child ('src/tags.txt'),
+    $RootPath->child ('local/era-data-tags.txt'),
+  ) {
+    my $item;
+    for (split /\x0D?\x0A/, $path->slurp_utf8) {
+      if (/^\s*#/) {
+        #
+      } elsif (/^(region|country|people|religion|org|person|law|tag)$/) {
+        $add_item->($item) if defined $item;
+        $item = {type => $1};
+      } elsif (defined $item and /^  (name|key)\s+(\S.*\S|\S)\s*$/) {
+        $item->{$1} //= $2;
+      } elsif (defined $item and /^  (name|label)_(ja|en)\s+(\S.*\S|\S)\s*$/) {
+        $item->{$1} //= $3;
+        $item->{$1.'_'.$2} //= $3;
+        $item->{$1.'s'}->{$3} = 1;
+      } elsif (defined $item and /^  (group|period|region)\s*of\s*(\S.*\S|\S)\s*$/) {
+        $item->{'_'.$1.'_of'}->{$2} = 1;
+      } elsif (/\S/) {
+        die "$path: Bad line |$_|";
+      }
     }
-  }
-  $add_item->($item) if defined $item;
+    $add_item->($item) if defined $item;
+  } # $path
 }
 
 for my $x (qw(period group region)) {

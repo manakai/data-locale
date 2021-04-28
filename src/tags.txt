@@ -125,21 +125,6 @@ org
 region
   name_ja 台湾
 
-country
-  name_ja 満州国
-
-  period of 満州
-  period of 中華民国
-  region of 大東亜共栄圏
-
-region
-  name_ja 中国共産党占領地満州
-  period of 中華民国
-  period of 満州
-
-region
-  name_ja 満州
-
 region
   name_ja ソ連領シベリア
   region of ソビエト社会主義共和国連邦
@@ -186,9 +171,6 @@ people
 
 people
   name_ja 漢民族
-
-people
-  name_ja 満州人
 
 people
   name_ja 大韓民国国民
@@ -280,9 +262,6 @@ org
 
 org
   name_ja 松下電器産業株式会社
-
-org
-  name_ja 満洲国臨時政府
 
 org
   name_ja 全国かえる奉賛会

@@ -78,7 +78,9 @@ data-main: \
 clean-data: clean-langtags
 	rm -fr local/cldr-core* local/*.json
 
-data/tags.json: bin/tags.pl src/tags.txt
+local/era-data-tags.txt: src/era-data*.txt
+	grep '^%tag ' --no-filename src/era-data*.txt | sed -e 's/^%tag //' > $@
+data/tags.json: bin/tags.pl src/tags.txt local/era-data-tags.txt
 	$(PERL) $< > $@
 
 data/calendar/jp-holidays.json: bin/calendar-jp-holidays.pl \

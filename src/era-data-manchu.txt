@@ -1,17 +1,44 @@
+%tag region
+%tag   name_ja 満州
+%tag 
+%tag people
+%tag   name_ja 満州人
+
+%tag country
+%tag   key 清
+%tag   name_ja 大清帝国
+
 [同治]
 AD1862 = 1
+tag 清
+tag 満州人
+tag 漢民族
+tag ウイグル人
+tag チベット人
+tag 蒙古人
 
 [光緒]
 AD1875 = 1
 #<-同治
+tag 清
+tag 満州人
+tag 漢民族
+tag ウイグル人
+tag チベット人
+tag 蒙古人
 
 [宣統]
 # y~1095
 ## Source:
 sw 宣統
 #
-# @清
 AD1909 = 1
+tag 清
+tag 満州人
+tag 漢民族
+tag ウイグル人
+tag チベット人
+tag 蒙古人
 # <-光緒
 # 1912-01-01 辛亥革命
 # 1912-02-12 ->民国
@@ -24,6 +51,51 @@ tag 満洲国臨時政府
 u 97-4-16
 u 100-3-31
 # ->復光 y~1752 2008-4-10
+
+%tag country
+%tag   name_ja 満州国
+%tag 
+%tag   period of 満州
+%tag   period of 中華民国
+%tag   region of 大東亜共栄圏
+
+[大同(壬申)]
+# y~1578
+tag 満州国
+tag 満州人
+tag 日本人
+tag 朝鮮人
+tag 蒙古人
+tag 漢民族
+
+[康德]
+# y~1158
+## Source:
+sw 康徳
+#
+name_ja 康徳
+name_tw 康徳
+#name_hk 康徳
+tag 満州国
+tag 満州人
+tag 日本人
+tag 朝鮮人
+tag 蒙古人
+tag 漢民族
+#
+## Source: <https://wiki.suikawiki.org/n/%E6%BB%BF%E6%B4%B2%E5%9C%8B%E8%87%A8%E6%99%82%E6%94%BF%E5%BA%9C%E3%81%AE%E5%85%83%E5%8F%B7>
+tag 満洲国臨時政府
+# 2019-03-07 established
+u 86-3-1
+u 88-1-1
+
+%tag region
+%tag   name_ja 中国共産党占領地満州
+%tag   period of 中華民国
+%tag   period of 満州
+
+%tag org
+%tag   name_ja 満洲国臨時政府
 
 def[復光]
 # y~1752
@@ -50,24 +122,3 @@ AD2010 = 1
 # <-復光 2010-05-01
 # ->AD 2011-04-12
 tag 日本の私年号
-
-[康德]
-# y~1158
-## Source:
-sw 康徳
-#
-name_ja 康徳
-name_tw 康徳
-#name_hk 康徳
-tag 満州国
-tag 満州人
-tag 日本人
-tag 朝鮮人
-tag 蒙古人
-tag 漢民族
-#
-## Source: <https://wiki.suikawiki.org/n/%E6%BB%BF%E6%B4%B2%E5%9C%8B%E8%87%A8%E6%99%82%E6%94%BF%E5%BA%9C%E3%81%AE%E5%85%83%E5%8F%B7>
-tag 満洲国臨時政府
-# 2019-03-07 established
-u 86-3-1
-u 88-1-1

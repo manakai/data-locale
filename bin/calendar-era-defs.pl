@@ -238,6 +238,8 @@ for my $path (
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
       #
+    } elsif (/^%tag /) {
+      #
     } elsif (/^\[(.+)\]$/) {
       $key = $1;
       die "Bad key |$key|" unless $Data->{eras}->{$key};
@@ -359,7 +361,7 @@ for my $path (
       $Data->{eras}->{$key}->{'code' . $1} = hex $2;
     } elsif (defined $key and /^en\s+desc\s+(\S+(?: \S+)*)\s*$/) {
       $Data->{eras}->{$key}->{en_desc} = $1;
-    } elsif (defined $key and /^tag\s+(\S.*\S)\s*$/) {
+    } elsif (defined $key and /^tag\s+(\S.*\S|\S)\s*$/) {
       my $tkey = $1;
       set_tag $key => $tkey;
     } elsif (/\S/) {
