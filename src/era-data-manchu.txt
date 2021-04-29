@@ -1,89 +1,594 @@
 %tag region
 %tag   name_ja 満州
 %tag 
+%tag region
+%tag   name_ja 外満州
+%tag   region of 満州
+%tag 
+%tag region
+%tag   name_ja 内満州
+%tag   region of 満州
+%tag 
 %tag people
 %tag   name_ja 満州人
+
+## Sources
+## [158] <https://zh.wikipedia.org/wiki/%E5%BE%8C%E9%87%91%E5%8F%8A%E6%B8%85%E6%9C%9D%E5%B9%B4%E8%99%9F%E5%88%97%E8%A1%A8>
+## [102] zh.wikipedia era pages
+## [103] ja.wikipedia era pages
+## [104] 中国歴代年号考 修訂本
+# XXX 清太祖武皇帝實錄
+# XXX 清史稿
+
+%tag country
+%tag   name_tw 後金
+%tag   name_cn 后金
+
+%tag tag
+%tag   name_ja 後金の公年号
+%tag   group of 公年号
+
+[天命]
+#y~244
+name_tw 天命
+name_cn 天命
+#&swc271;命
+AD1616 = 1
+tag 後金
+tag 満州
+tag 満州人
+tag 後金の公年号
+tag 一世一元
+tag 追号説のある元号
+
+## [158]
+#<- 1616-02-29 established
+
+## [103]
+wref_ja 天命 (後金)
+name_ja 天命
+name_kana てん めい
+&
+name_man %E1%A0%A0%E1%A0%AA%E1%A1%A3%E1%A0%A0%E1%A0%A2 %E1%A0%B8%E1%A1%A0%E1%A0%AF%E1%A0%A2%E1%A0%A9%E1%A1%A4%E1%A0%A0,abkai fulingga
+
+## [102]
+name_man %E1%A0%A0%E1%A0%AA%E1%A1%B4%E1%A0%A0%E1%A1%B3 %E1%A1%B6%E1%A1%A0%E1%A0%AF%E1%A1%B3%E1%A0%A9%E1%A1%A4%E1%A0%A0,abkai fulingga
+
+
+[天聰]
+#y~938
+name_tw 天聰
+name_cn 天聪
+#&swc271;聰
+AD1627 = 1
+tag 後金
+tag 満州
+tag 満州人
+tag 後金の公年号
+tag 追号説のある元号
+# 9 = AD1635 北元 滅
+#     AD1636
+tag 内蒙古
+tag 蒙古人
+
+## [158]
+<-天命 1627-02-16
+
+## [103]
+wref_ja 天聡
+name_ja 天聡
+name_kana てん そう
+&
+name_man %E1%A0%B0%E1%A1%A0%E1%A0%B7%E1%A1%9D %E1%A1%A5%E1%A0%A0%E1%A0%A8,sure han
+&
+name_man %E1%A0%A0%E1%A0%AA%E1%A1%B4%E1%A0%A0%E1%A1%B3 %E1%A0%B0%E1%A1%A0%E1%A0%B7%E1%A1%9D,abkai sure
+
+## [102]
+#name_man %E1%A0%A0%E1%A0%AA%E1%A1%B4%E1%A0%A0%E1%A1%B3 %E1%A0%B0%E1%A1%A0%E1%A1%B5%E1%A1%9D,abkai sure
 
 %tag country
 %tag   key 清
 %tag   name_ja 大清帝国
+%tag   name_tw 清朝
+%tag   name_ja 清朝
+%tag   name_ja 清
 
 %tag tag
 %tag   name_ja 清の公年号
 %tag   group of 公年号
 
-## Sources
-## [101] <https://zh.wikipedia.org/wiki/%E5%BE%8C%E9%87%91%E5%8F%8A%E6%B8%85%E6%9C%9D%E5%B9%B4%E8%99%9F%E5%88%97%E8%A1%A8>
+[崇德]
+#y~1136
+name_tw 崇德
+name_cn 崇德
+AD1636 = 1
+tag 清
+tag 清の公年号
+tag 満州
+tag 満州人
+tag 内蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+# 2 = AD1637 李氏朝鮮 属国
+tag 清領朝鮮
+tag 朝鮮人
+
+## [158]
+<-天聰 1636-05-15
+# established, country name changed, emperor ascended
+## [104]
+# 1636-03/1636-04
+
+## [103]
+wref_ja 崇徳
+name_ja 崇徳
+name_kana すう とく
+&
+name_man %E1%A0%B8%E1%A1%9D%E1%A0%B0%E1%A0%A2%E1%A1%A5%E1%A1%A0%E1%A0%A8 %E1%A0%A1%E1%A0%B7%E1%A1%A9%E1%A1%9D%E1%A0%AE%E1%A1%A0%E1%A0%A9%E1%A1%AC%E1%A1%9D,wesihun erdemungge
+
+## [102]
+name_man %E1%A0%B8%E1%A1%9D%E1%A0%B0%E1%A1%B3%E1%A1%A5%E1%A1%A0%E1%A0%A8 %E1%A1%9D%E1%A1%B5%E1%A1%A9%E1%A1%9D%E1%A0%AE%E1%A1%A0%E1%A0%A9%E1%A1%A4%E1%A1%9D,wesihun erdemungge
+name_mn %E1%A0%B3%E1%A0%A1%E1%A0%AD%E1%A0%A1%E1%A0%B3%E1%A0%A6 %E1%A0%A1%E1%A0%B7%E1%A0%B3%E1%A0%A1%E1%A0%AE%E1%A0%B3%E1%A0%A1%E1%A0%A2,Дээд эрдэмт
+
+[順治]
+#y~502
+name_tw 順治
+name_cn 顺治
+AD1644 = 1
+tag 清
+tag 清の公年号
+tag 満州
+tag 満州人
+tag 内蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+tag 清領朝鮮
+tag 朝鮮人
+tag 一世一元
+tag 君主名の元号
+#<-永昌(甲申) 1643-04 順 滅
+#y~314
+
+## [158]
+<-崇德 1644-02-08
+
+## [103]
+wref_ja 順治
+name_ja 順治
+name_kana じゅん ち
+&
+#name_man %E1%A1%9E%E1%A0%B5%E1%A1%9E%E1%A0%B0%E1%A1%A5%E1%A1%A1%E1%A0%A8 %E1%A1%A9%E1%A0%A0%E1%A0%B0%E1%A0%A0%E1%A0%A8,ijish%C5%ABn dasan
+
+## [102]
+name_man %E1%A1%B3%E1%A0%B5%E1%A1%B3%E1%A0%B0%E1%A1%A5%E1%A1%A1%E1%A0%A8 %E1%A1%A9%E1%A0%A0%E1%A0%B0%E1%A0%A0%E1%A0%A8,ijish%C5%ABn dasan,ijishvn dasan,izhis'huun dasan
+name_mn %E1%A0%A1%E1%A0%B6%E1%A0%A1%E1%A0%B7%E1%A0%A1%E1%A0%B7%E1%A0%A2 %E1%A0%B5%E1%A0%A0%E1%A0%B0%E1%A0%A0%E1%A0%AD%E1%A0%B4%E1%A0%A2,%D0%AD%D0%B5%D1%8D%D1%80 %D0%97%D0%B0%D1%81%D0%B0%D0%B3%D1%87
+
+[康熙]
+#y~757
+name_tw 康熙
+name_cn 康熙
+AD1662 = 1
+tag 清
+tag 清の公年号
+tag 満州
+tag 蒙古
+tag 漢土
+tag チベット
+tag ウイグル
+tag 満州人
+tag 漢民族
+tag ウイグル人
+tag チベット人
+tag 蒙古人
+tag 清領朝鮮
+tag 朝鮮人
+tag 清領台湾
+tag 台湾人
+tag 一世一元
+tag 君主名の元号
+## ネルチンスク条約 尼布楚条约 尼布楚條約 Нерчинский договор
+##   清 - Russia
+##   g:1689-09-07 j:1689-08-27 清:康熙28-07-24
+
+## [158]
+<-順治 1662-02-18
+
+## [103]
+wref_ja 康熙
+name_ja 康熙
+name_kana こう き
+&
+name_man %E1%A1%9D%E1%A0%AF%E1%A1%A5%E1%A1%9D %E1%A1%A8%E1%A0%A0%E1%A1%B3%E1%A0%8C%E1%A1%B6%E1%A1%B3%E1%A0%A8,elhe taifin
+
+## [102]
+name_man %E1%A1%9D%E1%A0%AF%E1%A1%A5%E1%A1%9D %E1%A1%A8%E1%A0%A0%E1%A1%B3%E1%A1%B6%E1%A1%B3%E1%A0%A8,elhe taifin,elhe taifin
+name_mn %E1%A0%A1%E1%A0%A9%E1%A0%AC%E1%A0%A1 %E1%A0%A0%E1%A0%AE%E1%A0%A4%E1%A0%AD%E1%A0%A4%E1%A0%AF%E1%A0%A0%E1%A0%A9,%D0%AD%D0%BD%D1%85 %D0%B0%D0%BC%D0%B3%D0%B0%D0%BB%D0%B0%D0%BD,engke amu%CE%B3ulang
+#%D0%AD%D0%BD%D1%85-%D0%B0%D0%BC%D0%B3%D0%B0%D0%BB%D0%B0%D0%BD
+
+[雍正]
+#y~1548
+name_tw 雍正
+name_cn 雍正
+AD1723 = 1
+tag 清
+tag 清の公年号
+tag 満州
+tag 蒙古
+tag 漢土
+tag チベット
+tag ウイグル
+tag 満州人
+tag 漢民族
+tag ウイグル人
+tag チベット人
+tag 蒙古人
+tag 清領朝鮮
+tag 朝鮮人
+tag 清領台湾
+tag 台湾人
+tag 一世一元
+tag 君主名の元号
+
+## [158]
+<-康熙 1723-02-05
+
+## [103]
+wref_ja 雍正
+name_ja 雍正
+name_kana よう せい
+&
+#name_man %E1%A1%A5%E1%A1%A1%E1%A0%B8%E1%A0%A0%E1%A0%AF%E1%A1%B3%E1%A0%B6%E1%A0%A0%E1%A0%B0%E1%A1%A0%E1%A0%A8 %E1%A1%A8%E1%A0%A3%E1%A0%AA,h%C5%ABwaliyasun tob
+
+## [102]
+name_man %E1%A1%A5%E1%A1%A1%E1%A0%B8%E1%A0%A0%E1%A0%AF%E1%A1%B3%E1%A0%B6%E1%A0%A0%E1%A0%B0%E1%A1%A0%E1%A0%A8 %E1%A1%A8%E1%A0%A3%E1%A0%AA,h%C5%ABwaliyasun tob,hvwaliyasun tob,huuwaliyasun tob
+name_mn %E1%A0%A8%E1%A0%A2%E1%A0%B6%E1%A0%A2%E1%A0%B7%E1%A0%A0%E1%A0%AF%E1%A0%B2%E1%A0%A4 %E1%A0%B2%E1%A0%A5%E1%A0%AA,%D0%BD%D0%B0%D0%B9%D1%80%D0%B0%D0%BB%D1%82 %D1%82%D3%A9%D0%B2,nayiraltu t%C3%B6b
+
+[乾隆]
+#y~860
+name_tw 乾隆
+name_cn 乾隆
+name 乾隆
+AD1736 = 1
+tag 清
+tag 清の公年号
+tag 満州
+tag 蒙古
+tag 漢土
+tag チベット
+tag ウイグル
+tag 満州人
+tag 漢民族
+tag ウイグル人
+tag チベット人
+tag 蒙古人
+tag 清領朝鮮
+tag 朝鮮人
+tag 清領台湾
+tag 台湾人
+tag 一世一元
+tag 君主名の元号
+
+## [158]
+<-雍正 1736-02-12
+
+## [103]
+wref_ja 乾隆
+name_ja 乾隆
+name_kana けん りゅう
+&
+#name_man %E1%A0%A0%E1%A0%AA%E1%A1%B4%E1%A0%A0%E1%A1%B3 %E1%A0%B8%E1%A1%9D%E1%A1%A5%E1%A1%B3%E1%A0%B6%E1%A1%9D%E1%A1%A5%E1%A1%9D,abkai wehiyehe
+
+## [102]
+name_man %E1%A0%A0%E1%A0%AA%E1%A1%B4%E1%A0%A0%E1%A1%B3 %E1%A0%B8%E1%A1%9D%E1%A1%A5%E1%A1%B3%E1%A0%B6%E1%A1%9D%E1%A1%A5%E1%A1%9D,abkai wehiyehe
+name_mn %E1%A0%B2%E1%A0%A9%E1%A0%B7%E1%A0%A2%E1%A0%B6%E1%A0%8B%E1%A0%A2%E1%A0%A8 %E1%A0%B2%E1%A0%A1%E1%A0%B3%E1%A0%AD%E1%A0%A6%E1%A0%AD%E1%A0%8D%E1%A0%B0%E1%A0%A1%E1%A0%A8,%D0%A2%D1%8D%D0%BD%D0%B3%D1%8D%D1%80 %D1%82%D1%8D%D1%82%D0%B3%D1%8D%D0%B3%D1%87,tengryin tedg%C3%BCg%C4%8Di
+u 63
+u 64
+#->嘉慶(丙辰) 嘉庆四年正月初三 1799-02-07 乾隆帝崩
+
+[嘉慶(丙辰)]
+#y~1639
+name_tw 嘉慶
+name_cn 嘉庆
+AD1796 = 1
+tag 清
+tag 清の公年号
+tag 満州
+tag 蒙古
+tag 漢土
+tag チベット
+tag ウイグル
+tag 満州人
+tag 漢民族
+tag ウイグル人
+tag チベット人
+tag 蒙古人
+tag 清領朝鮮
+tag 朝鮮人
+tag 清領台湾
+tag 台湾人
+tag 一世一元
+tag 君主名の元号
+
+## [158]
+<-乾隆 1796-02-09
+
+## [103]
+wref_ja 嘉慶 (清)
+name_ja 嘉慶
+name_kana か けい
+&
+#name_man %E1%A0%B0%E1%A0%A0%E1%A1%B3%E1%A0%B4%E1%A1%A0%E1%A0%A9%E1%A1%A4%E1%A0%A0 %E1%A1%B6%E1%A1%9D%E1%A0%A9%E1%A1%A7%E1%A1%9D%E1%A0%A8,saicungga feng%C5%A1en
+
+## [102]
+name_man %E1%A0%B0%E1%A0%A0%E1%A1%B3%E1%A0%B4%E1%A1%A0%E1%A0%A9%E1%A1%A4%E1%A0%A0 %E1%A1%B6%E1%A1%9D%E1%A0%A9%E1%A1%A7%E1%A1%9D%E1%A0%A8,saicungga feng%C5%A1en,saiqungga fengxen,saichungga fengshen
+name_mn %E1%A0%B0%E1%A0%A0%E1%A0%B6%E1%A0%A2%E1%A0%B0%E1%A0%A2%E1%A0%B6%E1%A0%A0%E1%A0%AF%E1%A0%B2%E1%A0%A4 %E1%A0%A2%E1%A0%B7%E1%A0%A6%E1%A0%AD%E1%A0%A1%E1%A0%AF%E1%A0%B2%E1%A0%A6,%D0%A1%D0%B0%D0%B9%D1%88%D0%B0%D0%B0%D0%BB%D1%82 %D0%B5%D1%80%D3%A9%D3%A9%D0%BB%D1%82
+
+[道光]
+#y~687
+name_tw 道光
+name_cn 道光
+AD1821 = 1
+tag 清
+tag 清の公年号
+tag 満州
+tag 蒙古
+tag 漢土
+tag チベット
+tag ウイグル
+tag 満州人
+tag 漢民族
+tag ウイグル人
+tag チベット人
+tag 蒙古人
+tag 清領朝鮮
+tag 朝鮮人
+tag 清領台湾
+tag 台湾人
+tag 一世一元
+tag 君主名の元号
+#->AD 1842 香港
+                                                                               ## [158]
+<-嘉慶(丙辰) 1821-02-03
+
+## [103]
+wref_ja 道光
+name_ja 道光
+name_kana どう こう
+&
+name_man %E1%A1%A9%E1%A0%A3%E1%A0%B7%E1%A0%A3 %E1%A0%A1%E1%A0%AF%E1%A1%A9%E1%A1%9D%E1%A0%A9%E1%A1%A4%E1%A1%9D,doro eldengge
+
+## [102]
+name_man %E1%A1%A9%E1%A0%A3%E1%A1%B5%E1%A0%A3 %E1%A1%9D%E1%A0%AF%E1%A1%A9%E1%A1%9D%E1%A0%A9%E1%A1%A4%E1%A1%9D,doro eldengge,doro eldengge
+name_mn %E1%A0%B2%E1%A0%A5%E1%A0%B7%E1%A0%A5 %E1%A0%AD%E1%A0%A1%E1%A0%B7%E1%A0%A1%E1%A0%AF%E1%A0%B2%E1%A0%A6,%D0%A2%D3%A9%D1%80 %D0%93%D1%8D%D1%80%D1%8D%D0%BB%D1%82
 
 [咸豐]
+#y~738
+name_tw 咸豐
+name_cn 咸丰
 AD1851 = 1
 tag 清
 tag 清の公年号
+tag 満州
+tag 蒙古
+tag 漢土
+tag チベット
+tag ウイグル
 tag 満州人
 tag 漢民族
 tag ウイグル人
 tag チベット人
 tag 蒙古人
-name_ja 咸豊
-name_tw 咸豐
+tag 清領朝鮮
+tag 朝鮮人
+tag 清領台湾
+tag 台湾人
+tag 一世一元
+tag 君主名の元号
+#->AD part of 外満州 1858
+#->AD 外満州 1860
+#->AD 九龍 1860
 
-## Source: Wikipedia ja
+## [103]
+wref_ja 咸豊
+name_ja 咸豊
+name 咸豐
 name_kana かん ぽう
+&
 #name_man %E1%A1%A4%E1%A1%A0%E1%A0%AA%E1%A0%B4%E1%A1%9E %E1%A0%A1%E1%A0%AF%E1%A1%A4%E1%A1%9E%E1%A0%B6%E1%A1%9D%E1%A0%A9%E1%A1%AC%E1%A1%9D,gubci elgiyengge
-## Source: Wikipedia zh
+
+## [102]
 name_man %E1%A1%A4%E1%A1%A0%E1%A0%AA%E1%A0%B4%E1%A1%B3 %E1%A1%9D%E1%A0%AF%E1%A1%A4%E1%A1%B3%E1%A0%B6%E1%A1%9D%E1%A0%A9%E1%A1%A4%E1%A1%9D,gubci elgiyengge,gubqi elgiyengge
 name_mn %E1%A0%B2%E1%A0%A6%E1%A0%AD%E1%A0%A1%E1%A0%AE%E1%A0%A1%E1%A0%AF %E1%A0%A1%E1%A0%AF%E1%A0%AA%E1%A0%A1%E1%A0%AD%E1%A0%B2%E1%A0%A6,Түгээмэл Элбэгт
 
-## [101]
-<-道光 1821-02-03
+## [158]
+<-道光 1851-02-01
+
+def[祺祥(辛酉)]
+#y~1825
+## Source:
+sw 祺祥
+#
+name_tw 祺祥
+name_cn 祺祥
+
+## [104]
+#祺󠄂祥
+AD1861 = 1
+#<-咸豐 清:1861-07
+#->同治 清:1861-12/1862
+
+tag 清
+tag 施行中止
+
+[祺祥]
+#y~162
+name_tw 祺祥
+name_cn 祺祥
+#祺󠄂祥
+AD1862 = 1
+u 1
+<-咸豐 1862-01-30
+tag 清
+tag 清の公年号
+tag 内満州
+tag 蒙古
+tag 漢土
+tag チベット
+tag ウイグル
+tag 満州人
+tag 漢民族
+tag ウイグル人
+tag チベット人
+tag 蒙古人
+tag 清領台湾
+tag 清領朝鮮
+tag 朝鮮人
+tag 清領台湾
+tag 台湾人
+tag 施行中止
+
+## [103]
+wref_ja 祺祥
+name_ja 祺祥
+name_kana き しょう
+
+&
+## [158]
+name_man %E1%A1%B6%E1%A1%9D%E1%A0%A9%E1%A0%B0%E1%A1%9D%E1%A0%A9%E1%A1%A4%E1%A1%9D %E1%A0%B0%E1%A0%A0%E1%A0%AA%E1%A1%B3%E1%A0%A9%E1%A1%A4%E1%A0%A0
 
 [同治]
+#y~1292
 AD1862 = 1
 tag 清
 tag 清の公年号
+tag 内満州
+tag 蒙古
+tag 漢土
+tag チベット
+tag ウイグル
 tag 満州人
 tag 漢民族
 tag ウイグル人
 tag チベット人
 tag 蒙古人
+tag 清領朝鮮
+tag 朝鮮人
+tag 清領台湾
+tag 台湾人
 name_ja 同治
 name_tw 同治
 name_cn 同治
+tag 一世一元
+tag 君主名の元号
+#->AD part of トルキスタン 1864
+## 琉球処分 (dup)
+#->明治 琉球 1872
 
-## Source: Wikipedia ja
+## [103]
+wref_ja 同治
+name_ja 同治
 name_kana どう ち
+&
 #name_man %E1%A0%B6%E1%A0%A3%E1%A0%A3%E1%A0%A8%E1%A0%A1%E1%A0%A9%E1%A1%A4%E1%A0%A0 %E1%A1%A9%E1%A0%A0%E1%A0%B0%E1%A0%A0%E1%A0%A8,yooningga dasan
-## Source: Wikipedia zh
+
+## [102]
 name_man %E1%A0%B6%E1%A0%A3%E1%A0%A3%E1%A0%A8%E1%A1%B3%E1%A0%A9%E1%A1%A4%E1%A0%A0 %E1%A1%A9%E1%A0%A0%E1%A0%B0%E1%A0%A0%E1%A0%A8,yooningga dasan,youningga dasan
 name_mn %E1%A0%AA%E1%A0%A6%E1%A0%B7%E1%A0%A2%E1%A0%A8 %E1%A0%B5%E1%A0%A0%E1%A0%B0%E1%A0%A0%E1%A0%AD%E1%A0%B4%E1%A0%A2,Бүрэн засагч
 
-## [101]
+## [158]
 <-咸豐 1862-01-30
 
 [光緒]
+#y~681
 AD1875 = 1
 tag 清
 tag 清の公年号
+tag 内満州
+tag 蒙古
+tag 漢土
+tag チベット
+tag ウイグル
 tag 満州人
 tag 漢民族
 tag ウイグル人
 tag チベット人
 tag 蒙古人
+tag 清領朝鮮
+tag 朝鮮人
+tag 清領台湾
+tag 台湾人
 name_ja 光緒
 name 光緖
 name_tw 光緒
+name_cn 光绪
+#光&swc273;
+tag 一世一元
+tag 君主名の元号
+#->AD part of トルキスタン 1881,1882,1884,1892
+#->AD Macau 1887-03-36 リスボン議定書
+## 下関条約 (dup)
+#->明治 関東州
+#->明治 台湾
+#XXX
+#->開国 李氏朝鮮
+## 遼東還付交渉 (dup)
+#<-明治 関東州
+## 旅順・大連租借に関する露清条約
+#XXX
+#->AD 1898-03-27 signed 関東州/附属地
+#->AD 1897-11-14 膠州湾租借地
+#->AD 1898-03-06 膠州湾租借地 signed
+#->AD 1899-07-01 膠州湾租借地
+#->AD 1898-05-24 威海衛租借地
+#->AD 1898-07 威海衛租借地 signed
+#->AD 1898-04-22 広州湾租借地
+#->AD 1899-11-16 広州湾租借地 中仏互訂広州湾租界条約 signed
+#->AD 1900-02-19 広州湾租借地 中仏互訂広州湾租界条約
 
-## Source: Wikipedia ja
+## [103]
+wref_ja 光緒
+name_ja 光緒
+name 光緖
 name_kana こう しょ
 name_kana こう ちょ
-#pinyin Guāngxù
-#name_man %E1%A0%AA%E1%A0%A0%E1%A1%A9%E1%A0%A0%E1%A0%B7%E1%A0%A0%E1%A0%A9%E1%A1%A4%E1%A0%A0 %E1%A1%A9%E1%A0%A3%E1%A0%B7%E1%A0%A3,badarangga doro
-## Source: Wikipedia zh
+#pinyin Gu%C4%81ngx%C3%B9
+&
+name_man %E1%A0%AA%E1%A0%A0%E1%A1%A9%E1%A0%A0%E1%A0%B7%E1%A0%A0%E1%A0%A9%E1%A1%A4%E1%A0%A0 %E1%A1%A9%E1%A0%A3%E1%A0%B7%E1%A0%A3,badarangga doro
+
+## [102]
 name_man %E1%A0%AA%E1%A0%A0%E1%A1%A9%E1%A0%A0%E1%A1%B5%E1%A0%A0%E1%A0%A9%E1%A1%A4%E1%A0%A0 %E1%A1%A9%E1%A0%A3%E1%A1%B5%E1%A0%A3,badarangga doro,badarangga doro
 name_mn %E1%A0%AA%E1%A0%A0%E1%A0%B3%E1%A0%A0%E1%A0%B7%E1%A0%A0%E1%A0%AD%E1%A0%A4%E1%A0%AF%E1%A0%B2%E1%A0%A4 %E1%A0%B2%E1%A0%A5%E1%A0%B7%E1%A0%A5,Бадаргуулт төр
 
-## [101]
+## [158]
 <-同治 1875-02-06
+
+def[保慶]
+#y~1187
+## Source:
+sw 保慶
+#
+tag 清
+tag 清の公年号
+tag 一世一元
+tag 君主名の元号
+tag 施行中止
+
+## [103]
+name_ja 保慶
+name_kana ほ けい
+wref_ja 保慶
+AD1899 = 1
+
+wref_ko 보경
+
+## [102]
+wref_zh 溥儁
+#       己亥建储
+name_tw 保慶
+name_cn 保庆
+
 
 [宣統]
 # y~1095
@@ -93,31 +598,56 @@ sw 宣統
 AD1909 = 1
 tag 清
 tag 清の公年号
+tag 内満州
+tag 蒙古
+tag 漢土
+tag チベット
+tag ウイグル
 tag 満州人
 tag 漢民族
 tag ウイグル人
 tag チベット人
 tag 蒙古人
+tag 朝鮮人
 name_ja 宣統
 name_tw 宣統
+name_cn 宣统
+#宣&swc274;
+tag 君主名の元号
 
-## Source: Wikipedia ja
+## [103]
+wref_ja 宣統
+name_ja 宣統
 name_kana せん とう
-#name_man %E1%A1%A4%E1%A1%9D%E1%A1%A5%E1%A1%A0%E1%A0%A9%E1%A1%A4%E1%A1%9D %E1%A0%B6%E1%A0%A4%E1%A0%B0%E1%A0%A4,gehungge yoso
-## Source: Wikipedia zh
+&
+name_man %E1%A1%A4%E1%A1%9D%E1%A1%A5%E1%A1%A0%E1%A0%A9%E1%A1%A4%E1%A1%9D %E1%A0%B6%E1%A0%A4%E1%A0%B0%E1%A0%A4,gehungge yoso
+#XXX
+#name_mn ケブト・ヨスン
+
+## [102]
 name_man %E1%A1%A4%E1%A1%9D%E1%A1%A5%E1%A1%A0%E1%A0%A9%E1%A1%A4%E1%A1%9D %E1%A0%B6%E1%A0%A3%E1%A0%B0%E1%A0%A3,gehungge yoso,gehungge yoso
 name_mn %E1%A0%AC%E1%A0%A1%E1%A0%AA%E1%A0%B2%E1%A0%A6 %E1%A0%B6%E1%A0%A3%E1%A0%B0%E1%A0%A3,Хэвт Ёс
 
-## [101]
+## [158]
 <-光緒 1909-01-22
-# 1912-01-01 辛亥革命
-# 1912-02-12 ->民國
-# 1924
-<-民國 1917-07-01
-  # 7月1日 五月初十日
 
-tag 満州人
-#
+## 辛亥革命
+# 1911-10-10 辛亥革命
+# 1911-12-29 蒙古 independence
+# 宣統3-11-13 1912-01-01 中華民国臨時政府 樹立
+# 宣統3-12-25 1912-02-12 宣統帝退位詔書
+## 張勳復辟
+<-民國 1917-07-01
+  # 1917-07-01 五月初十日 [158]
+  # 1917-07-01 宣统九年五月十三 [102]
+#->民國 1917-07-12 宣统九年五月廿四 退位
+# 1924-11-05 中華民國十三年十一月五日  清室優待條件 revised
+u 16
+
+%tag org
+%tag   name_ja 遜清皇室小朝廷
+tag 遜清皇室小朝廷
+
 ## Source: <https://wiki.suikawiki.org/n/%E6%BB%BF%E6%B4%B2%E5%9C%8B%E8%87%A8%E6%99%82%E6%94%BF%E5%BA%9C%E3%81%AE%E5%85%83%E5%8F%B7>
 tag 満洲国臨時政府
 u 97-4-16
@@ -139,6 +669,8 @@ u 100-3-31
 # y~1578
 tag 満州国
 tag 満州国の公年号
+tag 内満州
+tag 東蒙古
 tag 満州人
 tag 日本人
 tag 朝鮮人
@@ -155,6 +687,8 @@ name_tw 康徳
 #name_hk 康徳
 tag 満州国
 tag 満州国の公年号
+tag 内満州
+tag 東蒙古
 tag 満州人
 tag 日本人
 tag 朝鮮人

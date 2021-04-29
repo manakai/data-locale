@@ -84,13 +84,6 @@ country
   period of 中国
 
 country
-  name_ja 中華民国台湾
-  name_ja 台湾
-
-  period of 中華民国
-  period of 台湾
-
-country
   name_ja 中華人民共和国
 
   period of 中国
@@ -104,26 +97,26 @@ region
   name_ja 支那本部
   name_en China
 
-  region of 中華民国
-  region of 中華人民共和国
+region
+  name_ja 蒙古
 
 region
-  key 大日本帝国台湾
-  name_ja 大日本帝國臺灣
-  name_ja 大日本帝国台湾
-  region of 大日本帝国
-  period of 台湾
-
-org
-  name_ja 台湾民主国
-  region of 大日本帝国台湾
-
-org
-  name_ja 大靖政権
-  region of 大日本帝国台湾
+  name_ja 外蒙古
+  region of 蒙古
 
 region
-  name_ja 台湾
+  name_ja 内蒙古
+  region of 蒙古
+
+region
+  name_ja 東蒙古
+  region of 内蒙古
+
+region
+  name_ja ウイグル
+
+region
+  name_ja チベット
 
 region
   name_ja ソ連領シベリア
@@ -133,6 +126,14 @@ country
   name_ja ソビエト社会主義共和国連邦
   name_ja ソビエト連邦
   name_ja ソ連
+
+country
+  name_ja 李氏朝鮮
+  period of 朝鮮
+
+country
+  name_ja 清領朝鮮
+  period of 李氏朝鮮
 
 country
   name_ja 大韓民国
@@ -308,3 +309,15 @@ tag
 
 tag
   name_ja 日本の私年号
+
+tag
+  name_ja 一世一元
+
+tag
+  name_ja 追号説のある元号
+
+tag
+  name_ja 君主名の元号
+
+tag
+  name_ja 施行中止

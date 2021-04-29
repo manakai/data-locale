@@ -312,9 +312,9 @@ for (
 }
 
 for my $path (
-  $root_path->child ('src/era-data.txt'),
-  $root_path->child ('src/era-data-tw.txt'),
-  $root_path->child ('src/era-data-manchu.txt'),
+  map { path ($_) }
+  sort { $a cmp $b } 
+  glob $root_path->child ('src/era-data*.txt')
 ) {
   my $key;
   my $prop;
@@ -367,18 +367,44 @@ for my $path (
            $1 => 1,
            value => $3,
            _preferred => $2};
-    } elsif (defined $key and /^name_man\s+((?:%[0-9A-F]{2})+(?: (?:%[0-9A-F]{2})+)*),([a-z ]+),([a-z ]+)$/) {
+    } elsif (defined $key and /^name_man\s+((?:%[0-9A-F]{2})+(?: (?:%[0-9A-F]{2})+)*),([a-z%0-9A-F ]+),([a-z ]+),([a-z'%0-9A-F ]+)$/) {
       push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {manchu => 1, name => 1,
            manchu => (percent_decode_c $1),
-           moellendorff => $2, # 穆麟德 メレンドルフ
+           moellendorff => (percent_decode_c $2), # 穆麟德 メレンドルフ
+           abkai => $3, # 太清
+           xinmanhan => (percent_decode_c $4), # 新满汉大词典
+          };
+    } elsif (defined $key and /^name_man\s+((?:%[0-9A-F]{2})+(?: (?:%[0-9A-F]{2})+)*),([a-z%0-9A-F ]+),([a-z ]+)$/) {
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
+          {manchu => 1, name => 1,
+           manchu => (percent_decode_c $1),
+           moellendorff => (percent_decode_c $2), # 穆麟德 メレンドルフ
            abkai => $3, # 太清
           };
-    } elsif (defined $key and /^name_mn\s+((?:%[0-9A-F]{2})+(?: (?:%[0-9A-F]{2})+)*),([\p{Cyrl} ]+)$/) {
+    } elsif (defined $key and /^name_man\s+((?:%[0-9A-F]{2})+(?: (?:%[0-9A-F]{2})+)*),([a-z%0-9A-F ]+)$/) {
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
+          {manchu => 1, name => 1,
+           manchu => (percent_decode_c $1),
+           moellendorff => (percent_decode_c $2), # 穆麟德 メレンドルフ
+          };
+    } elsif (defined $key and /^name_man\s+((?:%[0-9A-F]{2})+(?: (?:%[0-9A-F]{2})+)*)$/) {
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
+          {manchu => 1, name => 1,
+           manchu => (percent_decode_c $1),
+          };
+    } elsif (defined $key and /^name_mn\s+((?:%[0-9A-F]{2})+(?: (?:%[0-9A-F]{2})+)*),([\p{Cyrl}%0-9A-F ]+),([a-z%0-9A-F ]+)$/) {
       push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {monglian => 1, name => 1,
            monglian => (percent_decode_c $1),
-           cyrillic => $2};
+           cyrillic => (percent_decode_c $2),
+           vpmc => (percent_decode_c $3), # 鲍培氏回鹘式蒙古文转写
+          };
+    } elsif (defined $key and /^name_mn\s+((?:%[0-9A-F]{2})+(?: (?:%[0-9A-F]{2})+)*),([\p{Cyrl}%0-9A-F ]+)$/) {
+      push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
+          {monglian => 1, name => 1,
+           monglian => (percent_decode_c $1),
+           cyrillic => (percent_decode_c $2)};
     } elsif (defined $key and /^abbr_ja\s+([A-Z])\s+(\1[a-z]*)$/) {
       push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {ja => 1, abbr => 'first',

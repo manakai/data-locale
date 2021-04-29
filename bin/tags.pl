@@ -42,7 +42,7 @@ my $TagByKey = {};
         $item = {type => $1};
       } elsif (defined $item and /^  (name|key)\s+(\S.*\S|\S)\s*$/) {
         $item->{$1} //= $2;
-      } elsif (defined $item and /^  (name|label)_(ja|en)\s+(\S.*\S|\S)\s*$/) {
+      } elsif (defined $item and /^  (name|label)_(ja|en|tw|cn)\s+(\S.*\S|\S)\s*$/) {
         $item->{$1} //= $3;
         $item->{$1.'_'.$2} //= $3;
         $item->{$1.'s'}->{$3} = 1;

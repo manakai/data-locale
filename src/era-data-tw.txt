@@ -1,3 +1,30 @@
+
+%tag region
+%tag   name_ja 清領台湾
+%tag   period of 台湾
+%tag   region of 清
+
+%tag region
+%tag   key 大日本帝国台湾
+%tag   name_ja 大日本帝國臺灣
+%tag   name_ja 大日本帝国台湾
+%tag   region of 大日本帝国
+%tag   period of 台湾
+
+%tag org
+%tag   name_ja 台湾民主国
+%tag   region of 大日本帝国台湾
+
+%tag org
+%tag   name_ja 大靖政権
+%tag   region of 大日本帝国台湾
+
+%tag region
+%tag   name_ja 台湾
+
+%tag people
+%tag   name_ja 台湾人
+
 def[光明]
 name_ja 光明
 wref_ja 光明_(蔡牽)
@@ -28,6 +55,7 @@ u 1-5
 # <-光緒 y~681
 # <-明治 y~1
 # 1895-05-08           Taiwan transferred from 清 to Japan
+<-光緒 1895-05-08
 # 1895-05-23           independence proclamation
 # 1895-05-25 (農暦5-2) independence celemony
 # ->明治 y~1
@@ -61,3 +89,47 @@ u 1-6
 u 2
 tag 大靖政権
 wref_ja 大靖
+
+%tag country
+%tag   name_ja 中華民国台湾
+%tag   name_ja 台湾
+%tag 
+%tag   period of 中華民国
+%tag   period of 台湾
+
+def[民國]
+name_tw 中華民國
+name_cn 中华民国
+name_ja 中華民国
+name 民國
+name 民国
+name 大中華民國
+abbr_tw 民 民國
+name 民國紀年
+name 民国纪年
+name 民國紀元
+name 民国紀元
+name 中華民国暦
+name 中華民国紀年
+name 国历
+name 國曆
+name 国暦
+wref_ja 民国紀元
+wref_zh 民國紀年
+AD1912 = 1
+sw 民国紀元
+tag 中華民国
+tag 中華民国台湾
+tag 漢土
+tag 内満州
+tag 内蒙古
+tag チベット
+tag ウイグル
+tag 漢民族
+tag 満州人
+tag ウイグル人
+tag チベット人
+tag 蒙古人
+tag 朝鮮人
+#<-AD 1930-10-01 威海衛租借地
+#<-AD 1945-11-16 広州湾租借地
