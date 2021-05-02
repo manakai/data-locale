@@ -1,0 +1,511 @@
+
+%tag country
+%tag   name_ja 中国
+
+%tag region
+%tag   name_ja 漢土
+%tag   name_ja 支那
+%tag   name_ja 支那本部
+%tag   name_en China
+
+%tag people
+%tag   name_ja 漢民族
+
+%tag country
+%tag   name_ja 明
+%tag   period of 中国
+
+%tag tag
+%tag   name_ja 明の公年号
+%tag   group of 公年号
+
+def[呉]
+#y~1828
+AD1367 = 1
+sw 呉元年
+wref_ja 洪武
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+#<-至正 1367
+
+name_ja 呉
+name_kana ご
+u 1
+
+[洪武]
+#y~127
+AD1368 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+tag 明領高麗
+tag 君主名の元号
+tag 再開
+#<-呉 1368
+
+## [102]
+name_tw 洪武
+name_cn 洪武
+wref_zh 洪武
+
+## [103]
+name_ja 洪武
+name_kana こう ぶ
+
+[建文]
+#y~1251
+AD1399 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+tag 君主名の元号
+tag 一世一元
+#<-洪武 1399
+
+## 靖難の変
+#->洪武 1399-1402 永楽帝支配地域 一説
+#
+#->洪武 1402-07-01
+#->洪武 1402-06-17 一説
+tag 建元撤回
+#
+#1595
+tag 建元撤回撤回
+
+## [102]
+name_tw 建文
+name_cn 建文
+
+## [103]
+name_ja 建文
+name_kana けん ぶん
+
+[永樂(癸未)]
+#y~1499
+AD1403 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永樂
+name_cn 永乐
+
+## [103]
+name_ja 永楽
+name_kana えい らく
+
+[洪熙]
+#y~887
+AD1425 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 洪熙
+name_cn 洪熙
+
+[宣德]
+#y~511
+AD1426 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_cn 宣德
+name_tw 宣德
+
+[正統]
+#y~562
+AD1436 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 正統
+name_cn 正统
+
+[景泰]
+#y~350
+AD1450 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 景泰
+name_cn 景泰
+
+[天順(丁丑)]
+#y~1138
+AD1457 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 天順
+name_cn 天顺
+
+[成化]
+#y~146
+AD1465 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 成化
+name_cn 成化
+
+[弘治(戊申)]
+#y~38
+AD1488 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 弘治
+name_cn 弘治
+
+[正德(丙寅)]
+#y~1712
+AD1506 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 正德
+name_cn 正德
+
+[嘉靖]
+#y~1501
+AD1522 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 嘉靖
+name_cn 嘉靖
+
+[隆慶]
+#y~699
+AD1567 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 隆慶
+name_cn 隆庆
+                                                      
+[萬曆]
+#y~413
+AD1573 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 萬曆
+name_cn 万历
+
+[泰昌]
+#y~440
+AD1620 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 泰昌
+name_cn 泰昌
+
+[天啟(辛酉)]
+#y~598
+AD1621 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_cn 天启
+name_tw 天啟
+
+[崇禎]
+#y~250
+AD1628 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 崇禎
+name_cn 崇祯
+
+&
+name 崇禎紀元
+#wref_ja 崇禎紀元
+name 숭정기원
+&
+name 崇禎紀元後
+name 숭정기원후
+&
+name 崇禎後
+name 숭정후
+
+%tag country
+%tag   name_ja 南明
+%tag   period of 明
+
+[弘光]
+#y~1392
+AD1645 = 1
+tag 南明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 弘光
+name_cn 弘光
+
+[隆武]
+#y~360
+AD1645 = 1
+tag 南明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 隆武
+name_cn 隆武
+
+[紹武]
+#y~200
+tag 南明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+tag 施行中止
+
+## [102]
+name_tw 紹武
+name_cn 绍武
+
+[興業]
+#y~1821
+AD1645 = 1
+tag 南明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 興業
+name_cn 兴业
+
+[監国魯]
+name 監国魯
+name 監国
+name 魯監国
+name 魯王監国
+wref_ja 監国魯
+wref_zh 庚寅_(年号)
+sw 監国魯
+#AD1645 = 1
+AD1646 = 1
+#AD1647 = 1
+tag 南明
+tag 漢土
+tag 漢民族
+
+## [102]
+wref_zh 监国_(鲁王)
+name_tw 監國
+name_cn 监国
+#AD1646 = 1
+
+[定武]
+#y~1670
+AD1646 = 1
+
+## [102]
+name_tw 定武
+name_cn 定武
+
+[永曆(丁亥)]
+#y~1684
+AD1647 = 1
+tag 南明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+tag 台湾
+
+## [102]
+name_tw 永曆
+name_cn 永历
+
+[東武]
+#y~890
+AD1648 = 1
+tag 南明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 東武
+name_cn 东武
+
+%tag country
+%tag   name_ja 順
+
+[永昌(甲申)]
+#y~314
+AD1644 = 1
+tag 順
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永昌
+name_cn 永昌
+                                                      
+
+%tag region
+%tag   name_ja 英領香港
+%tag   region of 英国
+%tag   region of 漢土
+
+def[孔子卒後]
+name 孔子卒後
+name_kana こう し そつ ご
+name 孔子卒
+name_kana こう し そつ
+name 孔子
+name 孔子紀年
+name_kana こう し き ねん
+name 孔子紀元
+name 孔子卒後紀年
+AD1895 = 2373
+wref_ja 孔子紀年
+sw 孔子紀年
+
+def[孔紀]
+name 孔紀
+name_kana こう き
+name 孔子紀年
+name_kana こう し き ねん
+name 孔子紀元
+name 孔子生後紀年
+AD1895 = 2446
+wref_ja 孔子紀年
+wref_zh 孔子紀年
+sw 孔子紀年
+
+def[黃帝紀元]
+name_tw 黃帝紀元
+name_cn 黄帝纪元
+name 軒轅紀年
+name_ja 黄帝紀元
+name_kana こう てい き げん
+name 黄帝紀年
+name_kana こう てい き ねん
+name 黄紀
+name 黄帝開国即位紀年
+wref_zh 黄帝纪元
+wref_ja 黄帝紀元
+AD1904 = 4602
+#AD1911 = 4609
+sw 黄帝紀元
+
+def[黃帝紀元(庚戌)]
+name_tw 黃帝紀元
+name_cn 黄帝纪元
+name_ja 黄帝紀元
+name_kana こう てい き げん
+name 黄帝紀年
+name_kana こう てい き ねん
+name 黄帝生年紀年
+wref_zh 黄帝纪元
+wref_ja 黄帝紀元
+sw 黄帝紀元
+AD1903 = 4614
+
+def[黃帝紀元(庚寅)]
+name_tw 黃帝紀元
+name_cn 黄帝纪元
+name_ja 黄帝紀元
+name_kana こう てい き げん
+name 黄帝紀年
+name_kana こう てい き ねん
+wref_zh 黄帝纪元
+wref_ja 黄帝紀元
+sw 黄帝紀元
+AD1903 = 4394
+
+def[黄帝甲子紀年]
+name 黄帝甲子紀年
+sw 黄帝紀元
+BC2697 = 1
+
+def[帝堯紀年]
+name 帝堯紀年
+name 唐堯紀年
+sw 帝堯紀年
+
+def[夏禹紀年]
+name 夏禹紀年
+
+def[秦統一紀年]
+name 秦統一紀年
+
+def[亡国紀年]
+name 亡国紀年
+
+%tag country
+%tag   name_ja 中華民国
+%tag   name_ja 中華民國
+%tag   name_en Republic of China
+%tag 
+%tag   period of 中国
+
+def[中華共和國]
+name_tw 中華共和國
+name_ja 中華共和国
+sw 中華共和国 (紀年法)
+wref_ja 中華共和国 (年号)
+AD1933 = 1
+
+%tag country
+%tag   name_ja 中華人民共和国
+%tag 
+%tag   period of 中国

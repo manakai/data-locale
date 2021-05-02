@@ -86,6 +86,7 @@ name_cn 天命
 name_ja 天命
 name_kana てん めい
 sw 天命
+u 36
 
 def[天命(戊午)]
 #y~1826
@@ -104,6 +105,8 @@ name_cn 天命
 name_ja 天命
 name_kana てん めい
 sw 天命
+u 1
+u 2
 
 [天聰]
 #y~938
@@ -762,6 +765,10 @@ name_mn %E1%A0%AC%E1%A0%A1%E1%A0%AA%E1%A0%B2%E1%A0%A6 %E1%A0%B6%E1%A0%A3%E1%A0%B
 ## <https://www.ntl.edu.tw/fp.asp?fpage=cp&xItem=69746&ctNode=1756&mp=1>
 # 宣統3-12-30 1912-02-17 退位
 
+%tag org
+%tag   name_ja 遜清皇室小朝廷
+tag 遜清皇室小朝廷
+
 ## 張勳復辟
 <-民國 1917-07-01
   # 1917-07-01 五月初十日 [158]
@@ -769,16 +776,38 @@ name_mn %E1%A0%AC%E1%A0%A1%E1%A0%AA%E1%A0%B2%E1%A0%A6 %E1%A0%B6%E1%A0%A3%E1%A0%B
 #->民國 1917-07-12 宣统九年五月廿四 退位
 # 1924-11-05 中華民國十三年十一月五日  清室優待條件 revised
 u 16
-
-%tag org
-%tag   name_ja 遜清皇室小朝廷
-tag 遜清皇室小朝廷
+tag 再開
 
 ## Source: <https://wiki.suikawiki.org/n/%E6%BB%BF%E6%B4%B2%E5%9C%8B%E8%87%A8%E6%99%82%E6%94%BF%E5%BA%9C%E3%81%AE%E5%85%83%E5%8F%B7>
 tag 満洲国臨時政府
 u 97-4-16
 u 100-3-31
 # ->復光 y~1752 2008-4-10
+
+%tag region
+%tag   name_ja 露領外満州
+%tag   region of ロシア帝国
+%tag   region of 満州
+
+%tag region
+%tag   name_ja 露領東清鉄道附属地
+%tag   region of ロシア帝国
+%tag   region of 満州
+
+%tag region
+%tag   name_ja 露領関東州
+%tag   region of ロシア帝国
+%tag   region of 満州
+
+%tag region
+%tag   name_ja 日本領満鉄附属地
+%tag   region of 大日本帝国
+%tag   region of 満州
+
+%tag region
+%tag   name_ja 日本領関東州
+%tag   region of 大日本帝国
+%tag   region of 満州
 
 %tag country
 %tag   name_ja 満州国
@@ -802,15 +831,26 @@ tag 日本人
 tag 朝鮮人
 tag 蒙古人
 tag 漢民族
+tag 日本領満鉄附属地
+tag 日本領関東州
+## Established, defined using
+<-AD 1932-03-01
+## Effectively,
+<-民國 1932-03-01
+
+## [102]
+name_tw 大同
+name_cn 大同
+
+## [103]
+name_ja 大同
+name_kana だい どう
 
 [康德]
 # y~1158
 ## Source:
 sw 康徳
 #
-name_ja 康徳
-name_tw 康徳
-#name_hk 康徳
 tag 満州国
 tag 満州国の公年号
 tag 内満州
@@ -820,7 +860,22 @@ tag 日本人
 tag 朝鮮人
 tag 蒙古人
 tag 漢民族
-#
+tag 日本領満鉄附属地
+tag 日本領関東州
+<-大同(壬申) 1934-03-01
+#<-昭和 1937 満鉄附属地 returned
+#1945-08-18 溥儀 退位
+
+#name_official 康德
+
+## [102]
+name_tw 康德
+name_cn 康德
+
+## [103]
+name_ja 康徳
+name_kana こう とく
+
 ## Source: <https://wiki.suikawiki.org/n/%E6%BB%BF%E6%B4%B2%E5%9C%8B%E8%87%A8%E6%99%82%E6%94%BF%E5%BA%9C%E3%81%AE%E5%85%83%E5%8F%B7>
 tag 満洲国臨時政府
 # 2019-03-07 established

@@ -76,31 +76,6 @@ region
   name_ja 新邪馬台国
   region of 日本国大分県
 
-country
-  name_ja 中華民国
-  name_ja 中華民國
-  name_en Republic of China
-
-  period of 中国
-
-country
-  name_ja 中華人民共和国
-
-  period of 中国
-
-country
-  name_ja 中国
-
-region
-  name_ja 漢土
-  name_ja 支那
-  name_ja 支那本部
-  name_en China
-
-country
-  name_ja 明
-  period of 中国
-
 region
   name_ja 蒙古
 
@@ -123,13 +98,29 @@ region
   name_ja チベット
 
 region
+  name_ja 露領シベリア
+  region of ロシア帝国
+
+region
   name_ja ソ連領シベリア
   region of ソビエト社会主義共和国連邦
+
+country
+  name_ja ロシア帝国
 
 country
   name_ja ソビエト社会主義共和国連邦
   name_ja ソビエト連邦
   name_ja ソ連
+
+country
+  name_ja 高麗
+  period of 朝鮮
+
+country
+  name_ja 明領高麗
+  period of 高麗
+  region of 明
 
 country
   name_ja 李氏朝鮮
@@ -138,10 +129,17 @@ country
 country
   name_ja 明領朝鮮
   period of 李氏朝鮮
+  region of 明
 
 country
   name_ja 清領朝鮮
   period of 李氏朝鮮
+  region of 清
+
+country
+  name_ja 日本領朝鮮
+  period of 朝鮮
+  region of 大日本帝国
 
 country
   name_ja 大韓民国
@@ -171,15 +169,19 @@ country
   name_ja 米国
   name_ja アメリカ
 
+region
+  name_ja 日本領南洋群島
+  region of 大日本帝国
+
 country
   name_ja ブラジル
+
+country
+  name_ja 英国
 
 people
   name_ja 日本人
   name_en Japanese
-
-people
-  name_ja 漢民族
 
 people
   name_ja 大韓民国国民
@@ -328,4 +330,13 @@ tag
   name_ja 君主名の元号
 
 tag
+  name_ja 再開
+
+tag
   name_ja 施行中止
+
+tag
+  name_ja 建元撤回
+
+tag
+  name_ja 建元撤回撤回

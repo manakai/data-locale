@@ -49,6 +49,17 @@ sw 西暦
 code #17 0
 #code #19 0
 
+tag 英国
+tag 英領香港
+tag ロシア帝国
+tag 露領シベリア
+tag 露領外満州
+tag 露領東清鉄道附属地
+
+tag 中華人民共和国
+tag 大韓民国
+tag 朝鮮民主主義人民共和国
+
 def[共和]
 name_ja 共和
 name_cn 共和
@@ -62,33 +73,12 @@ wref_en Gonghe_Regency
 BC841 = 1
 sw 共和
 
-[崇禎]
-name 崇禎紀元
-#wref_ja 崇禎紀元
-name 숭정기원
-name 崇禎紀元後
-name 숭정기원후
-name 崇禎後
-name 숭정후
-AD1628 = 1
 
 def[龍飛(馬來西亞)]
 name 龍飛
 
 def[天運(馬來西亞)]
 name 天運
-
-def[監国魯]
-name 監国魯
-name 監国
-name 魯監国
-name 魯王監国
-wref_ja 監国魯
-wref_zh 庚寅_(年号)
-sw 監国魯
-#AD1645 = 1
-AD1646 = 1
-#AD1647 = 1
 
 def[蘭芳]
 name_tw 蘭芳
@@ -116,32 +106,6 @@ name 神武皇紀
 wref_zh 皇纪
 sw 神武天皇即位紀元
 
-def[孔子卒後]
-name 孔子卒後
-name_kana こう し そつ ご
-name 孔子卒
-name_kana こう し そつ
-name 孔子
-name 孔子紀年
-name_kana こう し き ねん
-name 孔子紀元
-name 孔子卒後紀年
-AD1895 = 2373
-wref_ja 孔子紀年
-sw 孔子紀年
-
-def[孔紀]
-name 孔紀
-name_kana こう き
-name 孔子紀年
-name_kana こう し き ねん
-name 孔子紀元
-name 孔子生後紀年
-AD1895 = 2446
-wref_ja 孔子紀年
-wref_zh 孔子紀年
-sw 孔子紀年
-
 def[開國]
 name 開國
 name_ko 개국
@@ -157,66 +121,6 @@ wref_ja 開国_(李氏朝鮮)
 wref_ko 개국_(조선)
 AD1392 = 1
 sw 開国年号
-
-def[黃帝紀元]
-name_tw 黃帝紀元
-name_cn 黄帝纪元
-name 軒轅紀年
-name_ja 黄帝紀元
-name_kana こう てい き げん
-name 黄帝紀年
-name_kana こう てい き ねん
-name 黄紀
-name 黄帝開国即位紀年
-wref_zh 黄帝纪元
-wref_ja 黄帝紀元
-AD1904 = 4602
-#AD1911 = 4609
-sw 黄帝紀元
-
-def[黃帝紀元(庚戌)]
-name_tw 黃帝紀元
-name_cn 黄帝纪元
-name_ja 黄帝紀元
-name_kana こう てい き げん
-name 黄帝紀年
-name_kana こう てい き ねん
-name 黄帝生年紀年
-wref_zh 黄帝纪元
-wref_ja 黄帝紀元
-sw 黄帝紀元
-AD1903 = 4614
-
-def[黃帝紀元(庚寅)]
-name_tw 黃帝紀元
-name_cn 黄帝纪元
-name_ja 黄帝紀元
-name_kana こう てい き げん
-name 黄帝紀年
-name_kana こう てい き ねん
-wref_zh 黄帝纪元
-wref_ja 黄帝紀元
-sw 黄帝紀元
-AD1903 = 4394
-
-def[黄帝甲子紀年]
-name 黄帝甲子紀年
-sw 黄帝紀元
-BC2697 = 1
-
-def[帝堯紀年]
-name 帝堯紀年
-name 唐堯紀年
-sw 帝堯紀年
-
-def[夏禹紀年]
-name 夏禹紀年
-
-def[秦統一紀年]
-name 秦統一紀年
-
-def[亡国紀年]
-name 亡国紀年
 
 [共戴]
 name 共戴紀元
@@ -250,13 +154,6 @@ name チンギスハーン紀元
 name チンギス・ハーン紀元
 sw 成吉思汗紀元
 AD1936 = 731
-
-def[中華共和國]
-name_tw 中華共和國
-name_ja 中華共和国
-sw 中華共和国 (紀年法)
-wref_ja 中華共和国 (年号)
-AD1933 = 1
 
 def[대한민국]
 name 大韓民國
