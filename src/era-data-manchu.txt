@@ -17,6 +17,9 @@
 ## [102] zh.wikipedia era pages
 ## [103] ja.wikipedia era pages
 ## [104] 中国歴代年号考 修訂本
+## [105] <http://gaowei.cocolog-nifty.com/nengo/2005/10/post_c23b.html>
+    # mn: 文語ローマ字転写,現代モンゴル語ハルハ方言片仮名転写
+## [106] <http://gaowei.cocolog-nifty.com/nengo/2005/04/post_13bd.html>
 # XXX 清太祖武皇帝實錄
 # XXX 清史稿
 
@@ -35,11 +38,16 @@ name_cn 天命
 #&swc271;命
 AD1616 = 1
 tag 後金
+tag 清
 tag 満州
 tag 満州人
 tag 後金の公年号
+tag 清の公年号
 tag 一世一元
 tag 追号説のある元号
+tag 君主名の元号
+tag 明
+tag 明領朝鮮
 
 ## [158]
 #<- 1616-02-29 established
@@ -54,6 +62,48 @@ name_man %E1%A0%A0%E1%A0%AA%E1%A1%A3%E1%A0%A0%E1%A0%A2 %E1%A0%B8%E1%A1%A0%E1%A0%
 ## [102]
 name_man %E1%A0%A0%E1%A0%AA%E1%A1%B4%E1%A0%A0%E1%A1%B3 %E1%A1%B6%E1%A1%A0%E1%A0%AF%E1%A1%B3%E1%A0%A9%E1%A1%A4%E1%A0%A0,abkai fulingga
 
+## [105]
+#mn テンゲリーン・ボシグト,tegri-yin bosugtu
+## [106]
+#man abkai fulingga
+
+## French translation of Latin transliteration [SW]
+#Thienmin
+
+def[天命(甲申)]
+#y~1827
+AD1619 = 36
+tag 後金
+tag 清
+tag 満州
+tag 満州人
+tag 後金の公年号
+tag 清の公年号
+tag 朝鮮人
+tag 明領朝鮮
+name_tw 天命
+name_cn 天命
+name_ja 天命
+name_kana てん めい
+sw 天命
+
+def[天命(戊午)]
+#y~1826
+AD1619 = 2
+tag 後金
+tag 清
+tag 満州
+tag 満州人
+tag 後金の公年号
+tag 清の公年号
+tag 明
+tag 明領朝鮮
+tag 清領朝鮮
+name_tw 天命
+name_cn 天命
+name_ja 天命
+name_kana てん めい
+sw 天命
 
 [天聰]
 #y~938
@@ -66,6 +116,7 @@ tag 満州
 tag 満州人
 tag 後金の公年号
 tag 追号説のある元号
+tag 君主名の元号
 # 9 = AD1635 北元 滅
 #     AD1636
 tag 内蒙古
@@ -79,12 +130,21 @@ wref_ja 天聡
 name_ja 天聡
 name_kana てん そう
 &
-name_man %E1%A0%B0%E1%A1%A0%E1%A0%B7%E1%A1%9D %E1%A1%A5%E1%A0%A0%E1%A0%A8,sure han
-&
 name_man %E1%A0%A0%E1%A0%AA%E1%A1%B4%E1%A0%A0%E1%A1%B3 %E1%A0%B0%E1%A1%A0%E1%A0%B7%E1%A1%9D,abkai sure
 
 ## [102]
 #name_man %E1%A0%A0%E1%A0%AA%E1%A1%B4%E1%A0%A0%E1%A1%B3 %E1%A0%B0%E1%A1%A0%E1%A1%B5%E1%A1%9D,abkai sure
+## [105]
+#mn テンゲリーン・セツェン,tegri-yin cecen
+
+&
+## [103]
+name_man %E1%A0%B0%E1%A1%A0%E1%A0%B7%E1%A1%9D %E1%A1%A5%E1%A0%A0%E1%A0%A8,sure han
+## [106]
+#man sure han
+
+#old man "sure" spelling
+#<http://www.for.aichi-pu.ac.jp/museum/manju/manju5.html>
 
 %tag country
 %tag   key 清
@@ -131,6 +191,13 @@ name_man %E1%A0%B8%E1%A1%9D%E1%A0%B0%E1%A0%A2%E1%A1%A5%E1%A1%A0%E1%A0%A8 %E1%A0%
 name_man %E1%A0%B8%E1%A1%9D%E1%A0%B0%E1%A1%B3%E1%A1%A5%E1%A1%A0%E1%A0%A8 %E1%A1%9D%E1%A1%B5%E1%A1%A9%E1%A1%9D%E1%A0%AE%E1%A1%A0%E1%A0%A9%E1%A1%A4%E1%A1%9D,wesihun erdemungge
 name_mn %E1%A0%B3%E1%A0%A1%E1%A0%AD%E1%A0%A1%E1%A0%B3%E1%A0%A6 %E1%A0%A1%E1%A0%B7%E1%A0%B3%E1%A0%A1%E1%A0%AE%E1%A0%B3%E1%A0%A1%E1%A0%A2,Дээд эрдэмт
 
+## [105]
+#man ウェシフン・エルデムンゲ
+#mn デード・エルデムト
+#mn デート・エルデムト,degedu erdemtu
+## [106]
+#man wesihun erdemungge
+
 [順治]
 #y~502
 name_tw 順治
@@ -164,6 +231,11 @@ name_kana じゅん ち
 ## [102]
 name_man %E1%A1%B3%E1%A0%B5%E1%A1%B3%E1%A0%B0%E1%A1%A5%E1%A1%A1%E1%A0%A8 %E1%A1%A9%E1%A0%A0%E1%A0%B0%E1%A0%A0%E1%A0%A8,ijish%C5%ABn dasan,ijishvn dasan,izhis'huun dasan
 name_mn %E1%A0%A1%E1%A0%B6%E1%A0%A1%E1%A0%B7%E1%A0%A1%E1%A0%B7%E1%A0%A2 %E1%A0%B5%E1%A0%A0%E1%A0%B0%E1%A0%A0%E1%A0%AD%E1%A0%B4%E1%A0%A2,%D0%AD%D0%B5%D1%8D%D1%80 %D0%97%D0%B0%D1%81%D0%B0%D0%B3%D1%87
+
+## [105]
+#mn エイェール・ザサグチ,ey-e berjasagci
+## [106]
+#man ijish{umacron}n dasan
 
 [康熙]
 #y~757
@@ -207,6 +279,13 @@ name_man %E1%A1%9D%E1%A0%AF%E1%A1%A5%E1%A1%9D %E1%A1%A8%E1%A0%A0%E1%A1%B3%E1%A1%
 name_mn %E1%A0%A1%E1%A0%A9%E1%A0%AC%E1%A0%A1 %E1%A0%A0%E1%A0%AE%E1%A0%A4%E1%A0%AD%E1%A0%A4%E1%A0%AF%E1%A0%A0%E1%A0%A9,%D0%AD%D0%BD%D1%85 %D0%B0%D0%BC%D0%B3%D0%B0%D0%BB%D0%B0%D0%BD,engke amu%CE%B3ulang
 #%D0%AD%D0%BD%D1%85-%D0%B0%D0%BC%D0%B3%D0%B0%D0%BB%D0%B0%D0%BD
 
+## [105]
+#man エルヘ・タイフィン
+#mn エンケ・アムグラン
+#mn エンフ・アムガラン,engke amugulang
+## [106]
+#man elhe taifin
+
 [雍正]
 #y~1548
 name_tw 雍正
@@ -244,6 +323,11 @@ name_kana よう せい
 ## [102]
 name_man %E1%A1%A5%E1%A1%A1%E1%A0%B8%E1%A0%A0%E1%A0%AF%E1%A1%B3%E1%A0%B6%E1%A0%A0%E1%A0%B0%E1%A1%A0%E1%A0%A8 %E1%A1%A8%E1%A0%A3%E1%A0%AA,h%C5%ABwaliyasun tob,hvwaliyasun tob,huuwaliyasun tob
 name_mn %E1%A0%A8%E1%A0%A2%E1%A0%B6%E1%A0%A2%E1%A0%B7%E1%A0%A0%E1%A0%AF%E1%A0%B2%E1%A0%A4 %E1%A0%B2%E1%A0%A5%E1%A0%AA,%D0%BD%D0%B0%D0%B9%D1%80%D0%B0%D0%BB%D1%82 %D1%82%D3%A9%D0%B2,nayiraltu t%C3%B6b
+
+## [105]
+#mn ナイラルト・トゥブ,nayiraltu tub
+## [106]
+#man h{umacron}waliyasun tob
 
 [乾隆]
 #y~860
@@ -287,6 +371,11 @@ u 63
 u 64
 #->嘉慶(丙辰) 嘉庆四年正月初三 1799-02-07 乾隆帝崩
 
+## [105]
+#mn テンゲリーン・テトゲセン,tegri-yin tedkugsen
+## [106]
+#man abkai wehiyehe
+
 [嘉慶(丙辰)]
 #y~1639
 name_tw 嘉慶
@@ -324,6 +413,11 @@ name_kana か けい
 ## [102]
 name_man %E1%A0%B0%E1%A0%A0%E1%A1%B3%E1%A0%B4%E1%A1%A0%E1%A0%A9%E1%A1%A4%E1%A0%A0 %E1%A1%B6%E1%A1%9D%E1%A0%A9%E1%A1%A7%E1%A1%9D%E1%A0%A8,saicungga feng%C5%A1en,saiqungga fengxen,saichungga fengshen
 name_mn %E1%A0%B0%E1%A0%A0%E1%A0%B6%E1%A0%A2%E1%A0%B0%E1%A0%A2%E1%A0%B6%E1%A0%A0%E1%A0%AF%E1%A0%B2%E1%A0%A4 %E1%A0%A2%E1%A0%B7%E1%A0%A6%E1%A0%AD%E1%A0%A1%E1%A0%AF%E1%A0%B2%E1%A0%A6,%D0%A1%D0%B0%D0%B9%D1%88%D0%B0%D0%B0%D0%BB%D1%82 %D0%B5%D1%80%D3%A9%D3%A9%D0%BB%D1%82
+
+## [105]
+#mn サイシャールタイ・ユルールト,sayisiyatai irugeltu
+## [106]
+#man saicungga feng{scaron}en
 
 [道光]
 #y~687
@@ -363,6 +457,11 @@ name_man %E1%A1%A9%E1%A0%A3%E1%A0%B7%E1%A0%A3 %E1%A0%A1%E1%A0%AF%E1%A1%A9%E1%A1%
 name_man %E1%A1%A9%E1%A0%A3%E1%A1%B5%E1%A0%A3 %E1%A1%9D%E1%A0%AF%E1%A1%A9%E1%A1%9D%E1%A0%A9%E1%A1%A4%E1%A1%9D,doro eldengge,doro eldengge
 name_mn %E1%A0%B2%E1%A0%A5%E1%A0%B7%E1%A0%A5 %E1%A0%AD%E1%A0%A1%E1%A0%B7%E1%A0%A1%E1%A0%AF%E1%A0%B2%E1%A0%A6,%D0%A2%D3%A9%D1%80 %D0%93%D1%8D%D1%80%D1%8D%D0%BB%D1%82
 
+## [105]
+#mn トゥル・ゲレルト,tur gereltu
+## [106]
+#man doro eldengge
+
 [咸豐]
 #y~738
 name_tw 咸豐
@@ -401,6 +500,11 @@ name_kana かん ぽう
 ## [102]
 name_man %E1%A1%A4%E1%A1%A0%E1%A0%AA%E1%A0%B4%E1%A1%B3 %E1%A1%9D%E1%A0%AF%E1%A1%A4%E1%A1%B3%E1%A0%B6%E1%A1%9D%E1%A0%A9%E1%A1%A4%E1%A1%9D,gubci elgiyengge,gubqi elgiyengge
 name_mn %E1%A0%B2%E1%A0%A6%E1%A0%AD%E1%A0%A1%E1%A0%AE%E1%A0%A1%E1%A0%AF %E1%A0%A1%E1%A0%AF%E1%A0%AA%E1%A0%A1%E1%A0%AD%E1%A0%B2%E1%A0%A6,Түгээмэл Элбэгт
+
+## [105]
+#mn トゥゲーメル・エルベグト,tugemel elbegtu
+## [106]
+#man gubci elgiyengge
 
 ## [158]
 <-道光 1851-02-01
@@ -458,6 +562,9 @@ name_kana き しょう
 ## [158]
 name_man %E1%A1%B6%E1%A1%9D%E1%A0%A9%E1%A0%B0%E1%A1%9D%E1%A0%A9%E1%A1%A4%E1%A1%9D %E1%A0%B0%E1%A0%A0%E1%A0%AA%E1%A1%B3%E1%A0%A9%E1%A1%A4%E1%A0%A0
 
+&
+name 棋祥
+
 [同治]
 #y~1292
 AD1862 = 1
@@ -496,6 +603,11 @@ name_kana どう ち
 ## [102]
 name_man %E1%A0%B6%E1%A0%A3%E1%A0%A3%E1%A0%A8%E1%A1%B3%E1%A0%A9%E1%A1%A4%E1%A0%A0 %E1%A1%A9%E1%A0%A0%E1%A0%B0%E1%A0%A0%E1%A0%A8,yooningga dasan,youningga dasan
 name_mn %E1%A0%AA%E1%A0%A6%E1%A0%B7%E1%A0%A2%E1%A0%A8 %E1%A0%B5%E1%A0%A0%E1%A0%B0%E1%A0%A0%E1%A0%AD%E1%A0%B4%E1%A0%A2,Бүрэн засагч
+
+## [105]
+#mn ブレント・ザサグチ,burintu jasagci
+## [106]
+#man yooningga dasan
 
 ## [158]
 <-咸豐 1862-01-30
@@ -560,6 +672,11 @@ name_man %E1%A0%AA%E1%A0%A0%E1%A1%A9%E1%A0%A0%E1%A0%B7%E1%A0%A0%E1%A0%A9%E1%A1%A
 ## [102]
 name_man %E1%A0%AA%E1%A0%A0%E1%A1%A9%E1%A0%A0%E1%A1%B5%E1%A0%A0%E1%A0%A9%E1%A1%A4%E1%A0%A0 %E1%A1%A9%E1%A0%A3%E1%A1%B5%E1%A0%A3,badarangga doro,badarangga doro
 name_mn %E1%A0%AA%E1%A0%A0%E1%A0%B3%E1%A0%A0%E1%A0%B7%E1%A0%A0%E1%A0%AD%E1%A0%A4%E1%A0%AF%E1%A0%B2%E1%A0%A4 %E1%A0%B2%E1%A0%A5%E1%A0%B7%E1%A0%A5,Бадаргуулт төр
+
+## [105]
+#mn バダルゴールト・トゥル,badaragultu tur
+## [106]
+#man badarangga doro
 
 ## [158]
 <-同治 1875-02-06
@@ -628,6 +745,11 @@ name_man %E1%A1%A4%E1%A1%9D%E1%A1%A5%E1%A1%A0%E1%A0%A9%E1%A1%A4%E1%A1%9D %E1%A0%
 name_man %E1%A1%A4%E1%A1%9D%E1%A1%A5%E1%A1%A0%E1%A0%A9%E1%A1%A4%E1%A1%9D %E1%A0%B6%E1%A0%A3%E1%A0%B0%E1%A0%A3,gehungge yoso,gehungge yoso
 name_mn %E1%A0%AC%E1%A0%A1%E1%A0%AA%E1%A0%B2%E1%A0%A6 %E1%A0%B6%E1%A0%A3%E1%A0%B0%E1%A0%A3,Хэвт Ёс
 
+## [105]
+#mn ヘフト・ヨス,kebtu yosun
+## [106]
+#man gehungge yoso
+
 ## [158]
 <-光緒 1909-01-22
 
@@ -636,6 +758,10 @@ name_mn %E1%A0%AC%E1%A0%A1%E1%A0%AA%E1%A0%B2%E1%A0%A6 %E1%A0%B6%E1%A0%A3%E1%A0%B
 # 1911-12-29 蒙古 independence
 # 宣統3-11-13 1912-01-01 中華民国臨時政府 樹立
 # 宣統3-12-25 1912-02-12 宣統帝退位詔書
+
+## <https://www.ntl.edu.tw/fp.asp?fpage=cp&xItem=69746&ctNode=1756&mp=1>
+# 宣統3-12-30 1912-02-17 退位
+
 ## 張勳復辟
 <-民國 1917-07-01
   # 1917-07-01 五月初十日 [158]
@@ -734,3 +860,9 @@ AD2010 = 1
 # <-復光 2010-05-01
 # ->AD 2011-04-12
 tag 日本の私年号
+
+
+# XXX
+#[共戴]
+## [105]
+#mn オラナー・エルグクデクセン

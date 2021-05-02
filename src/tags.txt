@@ -97,6 +97,10 @@ region
   name_ja 支那本部
   name_en China
 
+country
+  name_ja 明
+  period of 中国
+
 region
   name_ja 蒙古
 
@@ -130,6 +134,10 @@ country
 country
   name_ja 李氏朝鮮
   period of 朝鮮
+
+country
+  name_ja 明領朝鮮
+  period of 李氏朝鮮
 
 country
   name_ja 清領朝鮮
