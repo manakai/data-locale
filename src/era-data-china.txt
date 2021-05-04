@@ -1,3 +1,8 @@
+## Sources:
+## [102] zh.wikipedia era pages
+## [103] ja.wikipedia era pages
+## [104] 中国歴代年号考 修訂本
+## [112] <http://okinawa-rekishi.cocolog-nifty.com/tora/2009/06/post-72ef.html>
 
 %tag country
 %tag   name_ja 中国
@@ -55,6 +60,9 @@ wref_zh 洪武
 name_ja 洪武
 name_kana こう ぶ
 
+## [112]
+#name_kana こう ぶ
+
 [建文]
 #y~1251
 AD1399 = 1
@@ -67,7 +75,10 @@ tag 一世一元
 #<-洪武 1399
 
 ## 靖難の変
-#->洪武 1399-1402 永楽帝支配地域 一説
+#->洪武   1399 永楽帝 一説
+#->洪武   1399-1402 永楽帝 一説
+#->干支年 1400 永楽帝
+#->洪武   1401 永楽帝 一説
 #
 #->洪武 1402-07-01
 #->洪武 1402-06-17 一説
@@ -84,6 +95,16 @@ name_cn 建文
 name_ja 建文
 name_kana けん ぶん
 
+## [112]
+#name_kana けん ぶん
+
+&&
+name_tw 革除
+
+#XXX
+##&&
+## empty string
+
 [永樂(癸未)]
 #y~1499
 AD1403 = 1
@@ -91,6 +112,8 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 君主名の元号
+tag 一世一元
 
 ## [102]
 name_tw 永樂
@@ -100,6 +123,9 @@ name_cn 永乐
 name_ja 永楽
 name_kana えい らく
 
+## [112]
+#name_kana えい らく
+
 [洪熙]
 #y~887
 AD1425 = 1
@@ -107,10 +133,19 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 君主名の元号
+tag 一世一元
 
 ## [102]
 name_tw 洪熙
 name_cn 洪熙
+
+## [103]
+name_ja 洪熙
+name_kana こう き
+
+## [112]
+#name_kana こう き
 
 [宣德]
 #y~511
@@ -119,10 +154,19 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 君主名の元号
+tag 一世一元
 
 ## [102]
 name_cn 宣德
 name_tw 宣德
+
+## [103]
+name_ja 宣徳
+name_kana せん とく
+
+## [112]
+#name_kana せん とく
 
 [正統]
 #y~562
@@ -131,10 +175,19 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 君主名の元号
+tag 一世一元
 
 ## [102]
 name_tw 正統
 name_cn 正统
+
+## [103]
+name_ja 正統
+name_kana せい とう
+
+## [112]
+#name_kana せい とう
 
 [景泰]
 #y~350
@@ -143,10 +196,19 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 君主名の元号
+tag 一世一元
 
 ## [102]
 name_tw 景泰
 name_cn 景泰
+
+## [103]
+name_ja 景泰
+name_kana けい たい
+
+## [112]
+name_kana けい たい
 
 [天順(丁丑)]
 #y~1138
@@ -155,10 +217,27 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 君主名の元号
+tag 一世一元
 
 ## [102]
 name_tw 天順
 name_cn 天顺
+
+## 奪門の変
+# 景泰8-01-16
+## <https://zh.wikipedia.org/wiki/%E6%99%AF%E6%B3%B0_(%E5%B9%B4%E5%8F%B7)>
+# 景泰8-01-17 (1457-02-11) 即位
+<-景泰 1457-02-15
+     #景泰8-01-21
+
+## [103]
+name_ja 天順
+name_kana てん じゅん
+
+## [112]
+#name_kana てん じゅん
+
 
 [成化]
 #y~146
@@ -167,10 +246,19 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 君主名の元号
+tag 一世一元
 
 ## [102]
 name_tw 成化
 name_cn 成化
+
+## [103]
+name_ja 成化
+name_kana せい か
+
+## [112]
+#name_kana せい か
 
 [弘治(戊申)]
 #y~38
@@ -179,10 +267,19 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 君主名の元号
+tag 一世一元
 
 ## [102]
 name_tw 弘治
 name_cn 弘治
+
+## [103]
+name_ja 弘治
+name_kana こう ち
+
+## [112]
+name_kana こう じ
 
 [正德(丙寅)]
 #y~1712
@@ -191,10 +288,20 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 君主名の元号
+tag 一世一元
 
 ## [102]
 name_tw 正德
 name_cn 正德
+
+## [103]
+name_ja 正徳
+name_kana せい とく
+
+## [112]
+#name_kana せい とく
+
 
 [嘉靖]
 #y~1501
@@ -203,10 +310,19 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 君主名の元号
+tag 一世一元
 
 ## [102]
 name_tw 嘉靖
 name_cn 嘉靖
+
+## [103]
+name_ja 嘉靖
+name_kana か せい
+
+## [112]
+#name_kana か せい
 
 [隆慶]
 #y~699
@@ -215,10 +331,19 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 君主名の元号
+tag 一世一元
 
 ## [102]
 name_tw 隆慶
 name_cn 隆庆
+
+## [103]
+name_ja 隆慶
+name_kana りゅう けい
+
+## [112]
+#name_kana りゅう けい
                                                       
 [萬曆]
 #y~413
@@ -227,10 +352,48 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 君主名の元号
+tag 一世一元
 
 ## [102]
 name_tw 萬曆
 name_cn 万历
+#避諱 清乾隆帝"弘曆"
+name 萬歷
+name 萬厯
+name 萬厤
+
+## [103]
+name_ja 万暦
+name_kana ばん れき
+
+## [112]
+#name_kana ばん れき
+
+def[泰昌(辛酉)]
+#y~1829
+AD1621 = 1
+tag 明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+tag 君主名の元号
+tag 一世一元
+tag 実施中止
+
+## [102]
+name_tw 泰昌
+name_cn 泰昌
+wref_zh 泰昌
+
+## [103]
+name_ja 泰昌
+name_kana たい しょう
+wref_ja 泰昌
+
+#XXX
+#<-萬曆 1621-01-01
+#明暦1620-09-20 canceled
 
 [泰昌]
 #y~440
@@ -239,10 +402,21 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 君主名の元号
+tag 一世一元
 
 ## [102]
 name_tw 泰昌
 name_cn 泰昌
+
+## [103]
+name_ja 泰昌
+name_kana たい しょう
+
+<-萬曆 1620-08-28
+      #明暦1620-08-01
+#XXX
+#明暦1620-09-20 proclaimed
 
 [天啟(辛酉)]
 #y~598
@@ -251,10 +425,19 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 君主名の元号
+tag 一世一元
 
 ## [102]
 name_cn 天启
 name_tw 天啟
+
+## [103]
+name_ja 天啓
+name_kana てん けい
+
+<-萬曆 1621-01-22
+  #明暦1621-01-01
 
 [崇禎]
 #y~250
@@ -263,17 +446,42 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 君主名の元号
+tag 一世一元
 
 ## [102]
 name_tw 崇禎
 name_cn 崇祯
+u 265
+
+## [103]
+name_ja 崇禎
+name_kana すう てい
+
+#->永昌 崇禎17-01 順(李自成)
+#崇禎17-03-19 滅亡
+#崇禎17-05-15 弘光帝 即位
+#->弘光 崇禎18
+
+## [104]
+# 1628 - 明1644-03
 
 &
-name 崇禎紀元
+## [102]
+name_tw 崇禎紀元
+name_cn 崇祯纪元
+
+name_ja 崇禎紀元
 #wref_ja 崇禎紀元
 name 숭정기원
 &
-name 崇禎紀元後
+
+## [102]
+name_tw 崇禎紀元後
+name_cn 崇祯纪元后
+u 83
+
+name_ja 崇禎紀元後
 name 숭정기원후
 &
 name 崇禎後
@@ -290,10 +498,26 @@ tag 南明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 君主名の元号
+tag 一世一元
 
 ## [102]
 name_tw 弘光
 name_cn 弘光
+#崇禎->弘光 1644-05 proclaimed
+#1645-01 - 1645-05
+
+## <https://baike.baidu.com/item/%E5%BC%98%E5%85%89/580071>
+#1644-06-19 - 1645-05-23
+
+## [103]
+name_ja 弘光
+name_kana こう こう
+#1644-05-15 proclaimed
+#1645-01 - 1645-06
+
+## [104]
+#1645-01 - 05
 
 [隆武]
 #y~360
@@ -302,66 +526,210 @@ tag 南明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 君主名の元号
+tag 一世一元
 
 ## [102]
 name_tw 隆武
 name_cn 隆武
+#1645-07 - 1646-08
+#->绍武
+#1647-09
+u 5
+#->永曆
 
-[紹武]
-#y~200
+## [103]
+name_ja 隆武
+name_kana りゅう ぶ
+#<-弘光 1645-07-01
+
+## [104]
+#1645-06' - 1646-08
+#明史 順治2-06'-丁未
+
+def[紹武(丙戌)]
+#y~1832
+## Source:
+sw 紹武
+#
 tag 南明
-tag 明の公年号
 tag 漢土
 tag 漢民族
-tag 施行中止
+tag 君主名の元号
+tag 一世一元
+AD1646 = 1
 
 ## [102]
 name_tw 紹武
 name_cn 绍武
+#<-隆武 1646-11
+
+## [104]
+#1646-11 - 1646-12
+#明史 順治3-11
+
+[紹武]
+#y~200
+## Source:
+sw 紹武
+#
+tag 南明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+tag 実施中止
+tag 君主名の元号
+tag 一世一元
+AD1647 = 1
+
+## [102]
+name_tw 紹武
+name_cn 绍武
+#1646-11 proclaimed
+#1646-12 滅亡
+#<- 1647
+
+## [103]
+name_ja 紹武
+name_kana しょう ぶ
+#<-隆武 1647-01-01
 
 [興業]
 #y~1821
 AD1645 = 1
 tag 南明
-tag 明の公年号
 tag 漢土
 tag 漢民族
 
 ## [102]
 name_tw 興業
 name_cn 兴业
+#1645-08
 
 [監国魯]
-name 監国魯
-name 監国
-name 魯監国
-name 魯王監国
-wref_ja 監国魯
-wref_zh 庚寅_(年号)
+#y~1503
+## Source:
 sw 監国魯
-#AD1645 = 1
-AD1646 = 1
-#AD1647 = 1
+
+## [103]
+wref_ja 監国魯
+name_ja 監国魯
+name_kana かん こく ろ
+
+name_cn 监国鲁
+name_tw 監國魯
+&
+name_ja 監国
+name_cn 监国
+name_tw 監國
+&
+name_ja 魯監国
+name_tw 魯監國
+name_cn 鲁监国
+&
+name_ja 魯王監国
 tag 南明
 tag 漢土
 tag 漢民族
 
 ## [102]
 wref_zh 监国_(鲁王)
-name_tw 監國
-name_cn 监国
-#AD1646 = 1
+#name_tw 監國
+#name_cn 监国
+AD1646 = 1
+#wref_zh 庚寅_(年号)
+u 1
+u 17
+
+def[監国魯(乙酉)]
+#y~1834
+## Source:
+sw 監国魯
+#
+tag 南明
+tag 漢土
+tag 漢民族
+AD1645 = 1
+
+## [103]
+wref_ja 監国魯
+name_ja 監国魯
+name_kana かん こく ろ
+u 1
+u 7
+
+def[魯王監國後]
+#y~1833
+## Source:
+sw 監国魯
+#
+name_tw 魯王監國後
+name_cn 鲁王监国后
+&
+name_tw 後
+name_cn 后
+AD1650 = 1
+u 1
+u 4-3
+tag 南明
+tag 漢土
+tag 漢民族
+
+def[庚寅]
+#y~725
+## Source:
+sw 監国魯
+#
+name_cn 庚寅
+name_tw 庚寅
+name_ja 庚寅
+#was: wref_zh 中国年号列表
+wref_zh 监国_(鲁王)
+wref_ja 監国魯
+AD1650 = 1
+u 1
+tag 南明
+tag 漢土
+tag 漢民族
 
 [定武]
 #y~1670
 AD1646 = 1
+tag 南明
+tag 漢土
+tag 漢民族
 
 ## [102]
 name_tw 定武
 name_cn 定武
+#1646 - 1664
+u 18
+
+## [103]
+name_ja 定武
+name_kana てい ぶ
+wref_ja 定武
+#1646 - 1663
+u 18
+
+def[永曆(丙戌)]
+#y~1831
+## Source:
+sw 永曆
+#
+tag 南明
+tag 漢土
+tag 漢民族
+
+## [102] (明史)
+AD1646 = 1
+wref_zh 永曆 (南明)
 
 [永曆(丁亥)]
 #y~1684
+## Source:
+sw 永曆
+#
 AD1647 = 1
 tag 南明
 tag 明の公年号
@@ -372,18 +740,35 @@ tag 台湾
 ## [102]
 name_tw 永曆
 name_cn 永历
+u 1
+u 16
+#-> 1662-05-01 南明
+#明暦1662-04-15
+u 37
+#-> 1683-12 台湾:清
+
+## [103]
+name_ja 永暦
+name_kana えい れき
+
+## [104]
+#1647 - 1661
 
 [東武]
 #y~890
 AD1648 = 1
 tag 南明
-tag 明の公年号
 tag 漢土
 tag 漢民族
 
 ## [102]
 name_tw 東武
 name_cn 东武
+
+## [103]
+name_ja 東武
+name_kana とう ぶ
+wref_ja 東武 (元号)
 
 %tag country
 %tag   name_ja 順
@@ -398,7 +783,11 @@ tag 漢民族
 ## [102]
 name_tw 永昌
 name_cn 永昌
-                                                      
+u 21
+
+## [103]
+name_ja 永昌
+name_kana えい しょう
 
 %tag region
 %tag   name_ja 英領香港

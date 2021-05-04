@@ -527,7 +527,7 @@ AD1861 = 1
 #->同治 清:1861-12/1862
 
 tag 清
-tag 施行中止
+tag 実施中止
 
 [祺祥]
 #y~162
@@ -554,7 +554,7 @@ tag 清領朝鮮
 tag 朝鮮人
 tag 清領台湾
 tag 台湾人
-tag 施行中止
+tag 実施中止
 
 ## [103]
 wref_ja 祺祥
@@ -684,8 +684,8 @@ name_mn %E1%A0%AA%E1%A0%A0%E1%A0%B3%E1%A0%A0%E1%A0%B7%E1%A0%A0%E1%A0%AD%E1%A0%A4
 ## [158]
 <-同治 1875-02-06
 
-def[保慶]
-#y~1187
+def[保慶(庚子)]
+#y~1830
 ## Source:
 sw 保慶
 #
@@ -693,7 +693,28 @@ tag 清
 tag 清の公年号
 tag 一世一元
 tag 君主名の元号
-tag 施行中止
+tag 実施中止
+AD1900 = 1
+
+## [103]
+name_ja 保慶
+name_kana ほ けい
+wref_ja 保慶
+
+## [102]
+wref_zh 溥儁
+#       己亥建储
+name_tw 保慶
+name_cn 保庆
+
+def[保慶]
+#y~1187
+## Source:
+sw 保慶
+#
+tag 清
+name_tw 保慶
+name_cn 保庆
 
 ## [103]
 name_ja 保慶
@@ -702,13 +723,6 @@ wref_ja 保慶
 AD1899 = 1
 
 wref_ko 보경
-
-## [102]
-wref_zh 溥儁
-#       己亥建储
-name_tw 保慶
-name_cn 保庆
-
 
 [宣統]
 # y~1095

@@ -333,7 +333,7 @@ tag
   name_ja 再開
 
 tag
-  name_ja 施行中止
+  name_ja 実施中止
 
 tag
   name_ja 建元撤回

@@ -2434,11 +2434,6 @@ name_cn 孝治
 name_tw 孝治
 #was: wref_zh 中国年号列表
 
-def[庚寅]
-name_cn 庚寅
-name_tw 庚寅
-#was: wref_zh 中国年号列表
-
 def[正安(癸巳)]
 name_cn 正安
 name_tw 正安
