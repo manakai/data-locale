@@ -122,39 +122,6 @@ wref_ko 개국_(조선)
 AD1392 = 1
 sw 開国年号
 
-[共戴]
-name 共戴紀元
-name 共戴
-name 共載
-name_kana きょう たい
-name_kana きょう たい き げん
-wref_ja 共戴紀元
-
-def[モンゴル国]
-name モンゴル国
-name モンゴル国紀元
-wref_ja 共戴紀元
-AD1924 = 14
-sw モンゴル国紀元
-
-def[モンゴル人民共和国]
-name モンゴル人民共和国
-name モンゴル人民共和国紀元
-wref_ja 共戴紀元
-AD1941 = 31
-sw モンゴル人民共和国紀元
-
-def[成吉思汗紀元]
-name 成紀
-name 成吉思汗紀元
-name ジンギス・ハーン紀元
-name ジンギスハーン紀元
-name ジンギスカン紀元
-name チンギスハーン紀元
-name チンギス・ハーン紀元
-sw 成吉思汗紀元
-AD1936 = 731
-
 def[대한민국]
 name 大韓民國
 name_ko 대한민국

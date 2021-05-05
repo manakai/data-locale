@@ -1,3 +1,15 @@
+%tag region
+%tag   name_ja 樺太
+%tag   region of 日本
+
+%tag region
+%tag   name_ja 北樺太
+%tag   region of 樺太
+
+%tag region
+%tag   name_ja 南樺太
+%tag   region of 樺太
+
 [大化]
 tag 追号説のある元号
 
@@ -133,6 +145,8 @@ tag 大日本帝国台湾
 tag 日本領朝鮮
 tag 日本領関東州
 tag 日本領満鉄附属地
+tag 樺太
+tag 南樺太
 
 [大正]
 
@@ -169,6 +183,7 @@ tag 日本領朝鮮
 tag 日本領関東州
 tag 日本領満鉄附属地
 tag 日本領南洋群島
+tag 南樺太
 
 [昭和]
 
@@ -213,6 +228,7 @@ tag 日本領満鉄附属地
 tag 日本領南洋群島
 tag 満州国
 tag 再開
+tag 南樺太
 
 [平成]
 

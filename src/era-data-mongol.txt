@@ -1,0 +1,483 @@
+## Sources:
+## [102] zh.wikipedia era pages
+## [103] ja.wikipedia era pages
+## [104] 中国歴代年号考 修訂本
+
+%tag people
+%tag   name_ja 蒙古人
+%tag 
+%tag region
+%tag   name_ja 蒙古
+%tag 
+%tag region
+%tag   name_ja 外蒙古
+%tag   region of 蒙古
+%tag 
+%tag region
+%tag   name_ja 内蒙古
+%tag   region of 蒙古
+%tag 
+%tag region
+%tag   name_ja 東蒙古
+%tag   region of 内蒙古
+
+%tag country
+%tag   name_ja 蒙古帝国
+
+%tag country
+%tag   name_ja 元
+%tag   region of 蒙古帝国
+
+%tag tag
+%tag   name_ja 元の公年号
+%tag   group of 公年号
+
+[中統]
+#y~1262
+AD1260 = 1
+tag 元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+tag 満州
+
+## [102]
+name_tw 中統
+name_cn 中统
+
+## [103]
+name_ja 中統
+name_kana ちゅう とう
+#<- 元1260-05-19
+#-> 4 (1263) 一説
+#-> 5 (1264) 一説
+u 5-8-16
+
+## <https://baike.baidu.com/item/%E4%B8%AD%E7%BB%9F/19140493>
+#元1260-5 - 1264-7
+
+[至元]
+#y~1082
+AD1264 = 1
+tag 元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+tag 満州
+tag 樺太
+
+## [102]
+name_tw 至元
+name_cn 至元
+
+## [103]
+name_ja 至元
+name_kana し げん
+#<-中統 元:1264-08-16
+
+&
+## <https://zh.wikipedia.org/wiki/%E8%87%B3%E5%85%83_(%E5%85%83%E9%A1%BA%E5%B8%9D)>
+name_tw 前至元
+name_cn 前至元
+
+[元貞]
+#y~1539
+AD1295 = 1
+tag 元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+tag 満州
+
+## [102]
+name_tw 元貞
+name_cn 元贞
+
+## [103]
+name_ja 元貞
+name_kana げん てい
+#<- 1294-11-27 proclaimed
+#<-至元 1295
+
+[大德(丁酉)]
+#y~1041
+AD1297 = 1
+tag 元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+tag 満州
+
+## [102]
+name_tw 大德
+name_cn 大德
+
+## [103]
+name_ja 大徳
+name_kana だい とく
+#<-元貞 1297-02-27
+
+[至大]
+#y~1242
+AD1308 = 1
+tag 元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+tag 満州
+
+## [102]
+name_tw 至大
+name_cn 至大
+
+## [103]
+name_ja 至大
+name_kana し だい
+#<-大德(丁酉) 1307-12-29 proclaimed
+#<-大德(丁酉) 1308
+
+[皇慶]
+#y~1422
+AD1312 = 1
+tag 元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+tag 満州
+
+## [102]
+name_tw 皇慶
+name_cn 皇庆
+
+## [103]
+name_ja 皇慶
+name_kana こう けい
+#<-至大 1311-03-18 proclaimed
+#<-至大 1312
+
+[延祐]
+#y~366
+AD1314 = 1
+tag 元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+tag 満州
+
+## [102]
+name_tw 延祐
+name_cn 延祐
+
+## [103]
+name_ja 延祐
+name_kana えん ゆう
+#<-皇慶 1314-01-22
+
+[至治(辛酉)]
+#y~71
+AD1321 = 1
+tag 元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+tag 満州
+
+## [102]
+name_tw 至治
+name_cn 至治
+
+## [103]
+name_ja 至治
+name_kana し ち
+#<-延祐 1320-12-01 proclaimed
+#<-延祐 1321
+
+[泰定]
+#y~1043
+AD1324 = 1
+tag 元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+tag 君主名の元号
+tag 満州
+
+## [102]
+name_tw 泰定
+name_cn 泰定
+
+## [103]
+name_ja 泰定
+name_kana たい てい
+#<-至治(辛酉) 1323-12-30 proclaimed
+#<-至治(辛酉) 1324
+
+[致和]
+#y~1505
+AD1328 = 1
+tag 元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+tag 満州
+
+## [102]
+name_tw 致和
+name_cn 致和
+
+## [103]
+name_ja 致和
+name_kana ち わ
+#<-泰定 1328-02-27
+
+[天順]
+#y~1040
+AD1328 = 1
+tag 元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+tag 君主名の元号
+tag 満州
+
+## [102]
+name_tw 天順
+name_cn 天顺
+# 1328-9 - 1328-10
+
+## [103]
+name_ja 天順
+name_kana てん じゅん
+#<-致和 1328-9
+#1328-10 陥落
+
+[天曆(戊辰)]
+#y~848
+AD1328 = 1
+tag 元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+tag 満州
+
+## [102]
+name_tw 天曆
+name_cn 天历
+
+## [103]
+name_ja 天暦
+name_kana てん れき
+#<-致和 1328-9-13
+#<-天順 1328-10 陥落
+
+[至順]
+#y~1605
+AD1330 = 1
+tag 元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+tag 満州
+
+## [102]
+name_tw 至順
+name_cn 至顺
+
+## [103]
+name_ja 至順
+name_kana し じゅん
+#<-天曆(戊辰) 1330-5-8
+
+[元統]
+#y~1491
+AD1333 = 1
+tag 元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+tag 満州
+
+## [102]
+name_tw 元統
+name_cn 元统
+
+## [103]
+name_ja 元統
+name_kana げん とう
+#<-至順 1333-10-8
+
+[至元(乙亥)]
+#y~1495
+AD1335 = 1
+tag 元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+tag 満州
+
+## [102]
+name_tw 至元
+name_cn 至元
+
+## [103]
+name_ja 至元
+name_kana し げん
+#<-元統 1335-11-23
+u 7
+
+&
+## [102]
+name_ja 後至元
+name_kana こう し げん
+name (後)至元
+
+## [103]
+name_tw 後至元
+name_cn 后至元
+&
+name_tw 至元再元
+name_cn 至元再元
+&
+name_tw 仍紀之至元
+name_cn 仍纪之至元
+&
+name_tw 重紀之至元
+name_cn 重纪之至元
+
+## <https://baike.baidu.com/item/%E8%87%B3%E5%85%83/17388392>
+#name_cn 至元
+#name_cn 后至元
+
+%tag country
+%tag   name_ja 北元
+%tag   period of 元
+
+[至正]
+#y~1576
+AD1341 = 1
+tag 元
+#1368
+tag 北元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 漢土
+tag 漢民族
+tag 満州
+
+## [102]
+name_tw 至正
+name_cn 至正
+
+## [103]
+name_ja 至正
+name_kana し せい
+#<-至元(乙亥) 1341-1-1
+
+[宣光]
+#y~210
+AD1371 = 1
+tag 北元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 満州
+
+## [102]
+name_tw 宣光
+name_cn 宣光
+# 1371 - 1379-6
+# 鍾淵映"歴代建元考" 1370 - 1380
+
+## [103]
+name_ja 宣光
+name_kana せん こう
+u 30
+#一説 1371 (1) - 1379 (9)
+
+[天元(己未)]
+#y~1163
+AD1379 = 1
+tag 北元
+tag 元の公年号
+tag 蒙古
+tag 蒙古人
+tag 満州
+
+## [102]
+name_tw 天元
+name_cn 天元
+# 1379-6 - 1387
+# 明实録 - 1388
+# 明史 太祖本紀 - 1389; 韃靼传 - 1388
+# 鍾淵映"歴代建元考" 1380 -
+
+## [103]
+name_ja 天元
+name_kana てん げん
+#一説 1379 (1) - 1388 (10)
+
+
+
+[共戴]
+name 共戴紀元
+name 共戴
+name 共載
+name_kana きょう たい
+name_kana きょう たい き げん
+wref_ja 共戴紀元
+
+def[モンゴル国]
+name モンゴル国
+name モンゴル国紀元
+wref_ja 共戴紀元
+AD1924 = 14
+sw モンゴル国紀元
+
+def[モンゴル人民共和国]
+name モンゴル人民共和国
+name モンゴル人民共和国紀元
+wref_ja 共戴紀元
+AD1941 = 31
+sw モンゴル人民共和国紀元
+
+def[成吉思汗紀元]
+name 成紀
+name 成吉思汗紀元
+name ジンギス・ハーン紀元
+name ジンギスハーン紀元
+name ジンギスカン紀元
+name チンギスハーン紀元
+name チンギス・ハーン紀元
+sw 成吉思汗紀元
+AD1936 = 731

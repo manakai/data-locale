@@ -77,21 +77,6 @@ region
   region of 日本国大分県
 
 region
-  name_ja 蒙古
-
-region
-  name_ja 外蒙古
-  region of 蒙古
-
-region
-  name_ja 内蒙古
-  region of 蒙古
-
-region
-  name_ja 東蒙古
-  region of 内蒙古
-
-region
   name_ja ウイグル
 
 region
@@ -197,9 +182,6 @@ people
 
 people
   name_ja 朝鮮人
-
-people
-  name_ja 蒙古人
 
 people
   name_ja チベット人
