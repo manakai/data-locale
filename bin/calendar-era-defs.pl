@@ -276,6 +276,11 @@ for (
       if ($data->{jp_era}) {
         set_tag $key, '日本';
         set_tag $key, '日本の公年号';
+        if (defined $data->{end_year} and
+            $data->{end_year} > 1475 and
+            $data->{start_year} < 1868) {
+          set_tag $key, '樺太';
+        }
       }
       if ($data->{jp_north_era}) {
         set_tag $key, '日本北朝';

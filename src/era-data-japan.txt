@@ -53,6 +53,9 @@ code #15 北15
 [康応]
 code #15 北16
 
+[応仁]
+#<- 1475 樺太 武田信広
+
 [応徳]
 source
   url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html

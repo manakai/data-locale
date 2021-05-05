@@ -658,6 +658,18 @@ name_kana かん こく ろ
 u 1
 u 7
 
+def[監国魯(丁亥)]
+#y~1842
+## Source:
+sw 監国魯
+#
+tag 南明
+tag 漢土
+tag 漢民族
+AD1647 = 1
+name_ja 魯監国
+name_kana ろ かん こく
+
 def[魯王監國後]
 #y~1833
 ## Source:
@@ -736,6 +748,7 @@ tag 明の公年号
 tag 漢土
 tag 漢民族
 tag 台湾
+tag 君主名の元号
 
 ## [102]
 name_tw 永曆

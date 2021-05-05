@@ -23,6 +23,112 @@
 
 %tag country
 %tag   name_ja 蒙古帝国
+#prefix:
+#蒙古帝国
+#蒙古
+#大元
+#元
+
+def[太祖]
+#y~1836
+AD1227 = 22
+u 1
+u 22-7-12
+sw 蒙古王即位紀年
+tag 蒙古帝国
+tag 蒙古
+
+name_ja 太祖
+name_tw 太祖
+&
+name_tw 成吉思汗
+&
+name_tw 太祖成吉思汗
+
+def[拖雷監国]
+#y~1839
+AD1228 = 1
+u 1
+u 2
+sw 蒙古王即位紀年
+tag 蒙古帝国
+tag 蒙古
+name_ja トルイ監国
+&
+name_cn 拖雷(监国)
+
+def[太宗]
+#y~1835
+AD1241 = 13
+u 1
+u 13-11-8
+sw 蒙古王即位紀年
+tag 蒙古帝国
+tag 蒙古
+name_ja 太宗
+name_tw 太宗
+&
+name_tw 窩闊台汗
+
+
+def[昭慈后称制]
+#y~1840
+sw 蒙古王即位紀年
+tag 蒙古帝国
+tag 蒙古
+AD1840 = 1
+u 1
+u 5
+name_ja ドレゲネ称制
+&
+name_ja 脱列哥那皇后(ドレゲネ)称制
+&
+name_ja 昭慈后(称制)
+name_tw 昭慈后(稱制)
+
+def[定宗]
+#y~1837
+AD1248 = 3
+u 1
+u 3-3-25
+sw 蒙古王即位紀年
+tag 蒙古帝国
+tag 蒙古
+name_ja 定宗
+name_tw 定宗
+&
+name_tw 貴由汗
+
+
+def[欽淑后称制]
+#y~1841
+sw 蒙古王即位紀年
+tag 蒙古帝国
+tag 蒙古
+AD1249 = 1
+u 1
+u 3
+name_ja 欽淑后(オグルガイミシュ)称制
+&
+name_cn 钦淑后(称制)
+
+def[憲宗]
+#y~1838
+AD1259 = 9
+u 1
+u 9-7-21
+sw 蒙古王即位紀年
+tag 蒙古帝国
+tag 蒙古
+name_ja 憲宗
+&
+name_ja 蒙哥
+&
+name_tw 蒙哥汗
+&
+name_cn 宪宗蒙哥汗
+&
+name_ja 憲宗(モンケ)
 
 %tag country
 %tag   name_ja 元
@@ -43,6 +149,12 @@ tag 漢土
 tag 漢民族
 tag 満州
 
+## <https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7004>
+#中統元年春三月戊辰朔 即位
+u 1-3
+#[中統元年][五月戊辰朔]丙戌
+#<- 元1260-05-19
+
 ## [102]
 name_tw 中統
 name_cn 中统
@@ -50,7 +162,6 @@ name_cn 中统
 ## [103]
 name_ja 中統
 name_kana ちゅう とう
-#<- 元1260-05-19
 #-> 4 (1263) 一説
 #-> 5 (1264) 一説
 u 5-8-16
