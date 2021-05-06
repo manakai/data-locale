@@ -297,47 +297,6 @@ name_kana ぶん とく
 AD907 = 1
 wref_ja 文徳_(渤海)
 
-[天授(庚寅)]
-name := 𠀑𥢓
-name 𠀑授
-name_ja 天授
-name_kana てん じゅ
-wref_ja 天授_(武周)
-
-[延載]
-name := 延𠧋
-name_ja 延載
-name_kana えん さい
-wref_ja 延載
-
-[証聖]
-name := 𨭻𨲢
-name_ja 証聖
-name_kana しょう せい
-name 證聖
-wref_ja 証聖
-
-[天冊萬歲]
-name := 𠀑冊萬歲
-name_ja 天冊万歳
-name_kana てん さく ばん ざい
-name_kana てん さつ ばん ざい
-wref_ja 天冊万歳
-
-[萬歲通天]
-name := 萬歲通𠀑
-name 万歳通𠀑
-name_ja 万歳通天
-name_kana ばん ざい つう てん
-wref_ja 万歳通天
-
-[聖曆]
-name := 𨲢曆
-name 𨲢暦
-name_ja 聖暦
-name_kana せい れき
-wref_ja 聖暦
-
 def[人類紀元]
 name_en Holocene calendar
 &

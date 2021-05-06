@@ -1,0 +1,1764 @@
+%tag people
+%tag   name_ja 鮮卑
+
+%tag country
+%tag   name_ja 唐
+
+%tag tag
+%tag   name_ja 唐の公年号
+
+[武德]
+#y~1106
+AD618 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 武德
+name_cn 武德
+# 618-5 - 626-12
+
+## [103]
+wref_ja 武徳
+name_ja 武徳
+name_kana ぶ とく
+#<-隋 618-5
+
+[貞觀(丁亥)]
+#y~104
+AD627 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 貞觀
+name_cn 贞观
+# 627-1 - 649-12
+
+## [103]
+wref_ja 貞観 (唐)
+name_ja 貞観
+name_kana じょう がん
+
+&
+## <https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E5%94%90%E6%9C%9D>
+name_tw 正觀
+name_cn 正观
+
+[永徽]
+#y~422
+AD650 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永徽
+name_cn 永徽
+# 650-1 - 655-12
+
+## [103]
+wref_ja 永徽
+name_ja 永徽
+name_kana えい き
+
+[顯慶]
+#y~724
+AD656 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [103]
+wref_ja 顕慶
+name_ja 顕慶
+name_kana けん けい
+
+## [102]
+name_tw 顯慶
+name_cn 显庆
+# 656-1 - 661-2
+&
+#避諱 唐中宗李顯
+name_tw 明慶
+name_cn 明庆
+&
+name_tw 光慶
+name_cn 光庆
+
+[龍朔]
+#y~205
+AD661 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 龍朔
+name_cn 龙朔
+# 661-3 - 663
+u 4
+
+## [103]
+wref_ja 龍朔
+name_ja 龍朔
+name_kana りゅう さく
+
+[麟德]
+#y~1192
+AD664 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 麟德
+name_cn 麟德
+# 664-1 - 665-12
+#旧唐书,新唐书
+#<-龍朔 龙朔3(663)-12 proclamation
+#<-龍朔 664-1-1
+#新疆吐鲁番出土"唐纪元钞"
+#<-龍朔 664-6-1
+
+## [103]
+wref_ja 麟徳
+name_ja 麟徳
+name_kana りん とく
+
+[乾封]
+#y~377
+AD666 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 乾封
+name_cn 乾封
+# 666-1 - 668-2
+
+## [103]
+wref_ja 乾封
+name_ja 乾封
+name_kana けん ふう
+# 666-1 - 668-3
+
+[總章]
+#y~1272
+AD668 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 總章
+name_cn 总章
+# 668-2 - 670-2
+#旧唐书,新疆出土"唐纪元钞"
+#<-乾封 乾封3-2
+#新唐书,资治通鉴
+#<-乾封 乾封3-3
+#崔穆墓志 "乾封三年", "總章元年歲次戊辰三月乙酉朔一日乙酉"
+
+## [103]
+wref_ja 総章
+name_ja 総章
+name_kana そう しょう
+
+[咸亨]
+#y~245
+AD670 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 咸亨
+name_cn 咸亨
+# 670-3 - 674-8
+
+## [103]
+wref_ja 咸亨
+name_ja 咸亨
+name_kana かん こう
+
+[上元]
+#y~1212
+AD674 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 上元
+name_cn 上元
+# 674-8 - 676-11
+
+## [103]
+wref_ja 上元
+name_ja 上元
+name_kana じょう げん
+# 674-8 - 676-11
+
+[儀鳳]
+#y~824
+AD676 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 儀鳳
+name_cn 仪凤
+# 676-11 - 679-6
+
+## [103]
+wref_ja 儀鳳
+name_ja 儀鳳
+name_kana ぎ ほう
+
+[調露]
+#y~770
+AD679 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 調露
+name_cn 调露
+# 679-6 - 680-8
+
+## [103]
+wref_ja 調露
+name_ja 調露
+name_kana ちょう ろ
+
+[永隆]
+#y~1445
+AD680 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+
+## [103]
+wref_ja 永隆 (唐)
+name_ja 永隆
+name_kana えい りゅう
+
+## [102]
+name_tw 永隆
+name_cn 永隆
+# 680-8 - 681-9
+&
+#避諱 唐玄宗李隆基
+name_tw 永崇
+name_cn 永崇
+
+[開耀]
+#y~594
+AD681 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 開耀
+name_cn 开耀
+# 681-9 - 682-2
+
+## [103]
+wref_ja 開耀
+name_ja 開耀
+name_kana かい よう
+
+[永淳]
+#y~1264
+AD682 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永淳
+name_cn 永淳
+# 682-2 - 683-12
+u 2-12
+
+## [103]
+wref_ja 永淳
+name_ja 永淳
+name_kana えい じゅん
+
+[弘道]
+#y~1157
+AD683 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 弘道
+name_cn 弘道
+# 683-12
+
+## [103]
+wref_ja 弘道 (唐)
+name_ja 弘道
+name_kana こう どう
+
+[嗣聖]
+#y~1630
+AD684 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 嗣聖
+name_cn 嗣圣
+#pinyin sì shèng
+#bopomofo ㄙˋ ㄕㄥˋ
+# 684-1-23 - 684-2-27
+#<-弘道 684-1-23 弘道2-1-1 "第二年正月初一甲申日元旦"
+#XXXtag 新羅
+#
+#徐敬业
+#-> 684-9
+
+## [103]
+wref_ja 嗣聖
+name_ja 嗣聖
+name_kana し せい
+
+[文明(甲申)]
+#y~1657
+AD684 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 文明
+name_cn 文明
+# 684-2-27 - 684-10-18
+#<-嗣聖 嗣聖1-2-7己未 684-2-27
+
+## [103]
+wref_ja 文明 (唐)
+name_ja 文明
+name_kana ぶん めい
+
+[光宅]
+#y~1470
+AD684 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 光宅
+name_cn 光宅
+# 684-9 - 684-12
+#<-文明(甲申) 684-10-18 文明1-9-5甲寅
+## <https://zh.wikisource.org/wiki/%E6%94%B9%E5%85%83%E5%85%89%E5%AE%85%E8%B5%A6%E6%96%87>
+
+## [103]
+wref_ja 光宅
+name_ja 光宅
+name_kana こう たく
+#684-9-甲寅 - 684-12
+
+[垂拱]
+#y~1481
+AD685 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 垂拱
+name_cn 垂拱
+# 685-1 - 688-12
+
+## [103]
+wref_ja 垂拱
+name_ja 垂拱
+name_kana すい きょう
+tag 武周
+
+[永昌(己丑)]
+#y~1365
+AD689 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永昌
+name_cn 永昌
+# 689-1 - 689-11
+
+## [103]
+wref_ja 永昌 (唐)
+name_ja 永昌
+name_kana えい しょう
+tag 武周
+tag 日本
+
+[載初]
+#y~493
+AD689 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 載初
+name_cn 载初
+name 𡕀𡔈
+# 690-正 - 690-9
+#<-永昌(己丑) 永昌1-11-1庚辰 689-12-18
+
+## [103]
+wref_ja 載初
+name_ja 載初
+#name 𡕀𡔈
+name_kana さい しょ
+tag 武周
+#永昌1-11 = 載初1-正
+u 1
+u 2
+
+%tag country
+%tag   name_ja 武周
+
+%tag tag
+%tag   name_ja 武周の公年号
+
+[天授(庚寅)]
+#y~505
+AD690 = 1
+tag 唐
+tag 武周
+tag 鮮卑
+tag 唐の公年号
+tag 武周の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 天授
+name_cn 天授
+# 690-9 - 692-3
+#<-載初 690-9-9壬午 690-10-16
+  # also, country name changed to 周
+
+## [103]
+wref_ja 天授 (武周)
+name_ja 天授
+name! 𠀑𥢓
+name_kana てん じゅ
+u 1
+u 3
+
+name 𠀑授
+
+[如意]
+#y~1574
+AD692 = 1
+tag 唐
+tag 武周
+tag 鮮卑
+tag 唐の公年号
+tag 武周の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 如意
+name_cn 如意
+# 692-4 - 692-9
+#<-天授(庚寅) 692-4-22 天授3-4-1丙申
+
+## [103]
+wref_ja 如意 (元号)
+name_ja 如意
+name_kana にょ い
+u 1
+
+[長壽]
+#y~409
+AD692 = 1
+tag 唐
+tag 武周
+tag 鮮卑
+tag 唐の公年号
+tag 武周の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 長壽
+name_cn 长寿
+# 692-9 - 694-5
+#<-如意 如意1-9-9庚子 692-10-23
+
+## [103]
+wref_ja 長寿 (武周)
+name_ja 長寿
+name_kana ちょう じゅ
+u 1
+u 3
+
+[延載]
+#y~291
+AD694 = 1
+tag 唐
+tag 武周
+tag 鮮卑
+tag 唐の公年号
+tag 武周の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 延載
+name_cn 延载
+# 694-5 - 694-10
+#<-長壽 長壽3-5-11甲午 694-6-9
+u 2-1
+
+## [103]
+wref_ja 延載
+name_ja 延載
+name! 延𠧋
+name_kana えん さい
+u 1
+
+[証聖]
+#y~1291
+AD695 = 1
+tag 唐
+tag 武周
+tag 鮮卑
+tag 唐の公年号
+tag 武周の公年号
+tag 漢土
+tag 漢民族
+
+## [103]
+wref_ja 証聖
+name_ja 証聖
+name! 𨭻𨲢
+name_kana しょう せい
+
+## [102]
+name_tw 証聖
+name_cn 证圣
+&
+name 證聖
+#695-正 - 695-9
+#<-延載 延載1-正-1辛巳 694-11-23
+
+[天冊萬歲]
+#y~489
+AD695 = 1
+tag 唐
+tag 武周
+tag 鮮卑
+tag 唐の公年号
+tag 武周の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 天冊萬歲
+name_cn 天册万岁
+
+## [103]
+wref_ja 天冊万歳
+name_ja 天冊万歳
+name 𠀑冊万歳
+name_kana てん さく ばん ざい
+name_kana てん さつ ばん ざい
+u 1
+#695-9 - 695-腊
+#<-証聖 証聖1-9-9甲寅 695-10-22
+
+name! 𠀑冊萬歲
+
+[萬歲登封]
+#y~589
+AD695 = 1
+tag 唐
+tag 武周
+tag 鮮卑
+tag 唐の公年号
+tag 武周の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 萬歲登封
+name_cn 万岁登封
+#696-腊 - 696-3
+#<-天冊萬歲 天冊萬歲2-臘-11 696-1-20
+
+## [103]
+wref_ja 万歳登封
+name_ja 万歳登封
+name_kana ばん ざい とう ほう
+name_kana ばん ざい とう ふう
+u 1
+u 2
+
+[萬歲通天]
+#y~1016
+AD696 = 1
+tag 唐
+tag 武周
+tag 鮮卑
+tag 唐の公年号
+tag 武周の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 萬歲通天
+name_cn 万岁通天
+# 696-3 - 697-9
+#<-萬歲登封 萬歲登封1-3-16丁巳 696-4-22
+
+## [103]
+wref_ja 万歳通天
+name_ja 万歳通天
+name 万歳通𠀑
+name_kana ばん ざい つう てん
+u 1
+u 2
+
+name! 萬歲通𠀑
+
+[神功]
+#y~775
+AD697 = 1
+tag 唐
+tag 武周
+tag 鮮卑
+tag 唐の公年号
+tag 武周の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 神功
+name_cn 神功
+#697-9 - 697-10'
+#<-萬歲通天 萬歲通天2-9-9壬寅 697-9-29
+
+## [103]
+wref_ja 神功
+name_ja 神功
+name_kana しん こう
+u 1
+
+[聖曆]
+#y~906
+AD698 = 1
+tag 唐
+tag 武周
+tag 鮮卑
+tag 唐の公年号
+tag 武周の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 聖曆
+name_cn 圣历
+#698-1 - 700-5
+#<-神功 697-1-1甲子 697-12-20
+
+## [103]
+wref_ja 聖暦
+name_ja 聖暦
+name! 𨲢暦
+name_kana せい れき
+u 1
+u 3
+
+[久視]
+#y~290
+AD700 = 1
+tag 唐
+tag 武周
+tag 鮮卑
+tag 唐の公年号
+tag 武周の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 久視
+name_cn 久视
+#700-5 - 701-1
+#<-聖曆 聖曆3-5-5癸丑 700-5-27
+#久視1-10-甲寅 700-11-24 寅正
+
+## [103]
+wref_ja 久視
+name_ja 久視
+name_kana きゅう し
+u 1
+u 2
+
+[大足]
+#y~1154
+AD701 = 1
+tag 唐
+tag 武周
+tag 鮮卑
+tag 唐の公年号
+tag 武周の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 大足
+name_cn 大足
+# 701-1 - 701-10
+#<-久視 久視2-1-3丁丑 701-2-15
+
+## [103]
+wref_ja 大足
+name_ja 大足
+name_kana だい そく
+u 1
+
+[長安]
+#y~550
+AD701 = 1
+tag 唐
+tag 武周
+tag 鮮卑
+tag 唐の公年号
+tag 武周の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 長安
+name_cn 长安
+#701-10 - 705-1
+#<-大足 大足1-10-22辛酉 701-11-26
+
+## [103]
+wref_ja 長安 (元号)
+name_ja 長安
+name_kana ちょう あん
+u 1
+u 4
+
+[神龍]
+#y~285
+AD705 = 1
+tag 唐
+tag 武周
+tag 鮮卑
+tag 唐の公年号
+tag 武周の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 神龍
+name_cn 神龙
+#705-1 - 707-9
+#<-長安 長安5-1-23甲辰 705-2-21
+
+## [103]
+wref_ja 神龍 (唐)
+name_ja 神龍
+name_kana しん りゅう
+u 1
+u 3
+
+[景龍]
+#y~1610
+AD707 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 景龍
+name_cn 景龙
+#707-9 - 710-6
+#<-神龍 神龍3-9-5庚子 707-10-5
+
+## [103]
+wref_ja 景龍 (唐)
+name_ja 景龍
+name_kana けい りゅう
+
+[唐隆]
+#y~987
+AD710 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 唐隆
+name_cn 唐隆
+#710-6-4 - 710-7-20
+#<-景龍 景龍4-6-甲申
+
+## [103]
+wref_ja 唐隆
+name_ja 唐隆
+name_kana とう りゅう
+
+&
+## [102]
+#避諱 唐玄宗李隆基
+name_tw 唐元
+name_cn 唐元
+&
+name_tw 唐興
+name_cn 唐兴
+&
+name_tw 唐安
+name_cn 唐安
+
+[景雲]
+#y~1691
+AD710 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 景雲
+name_cn 景云
+#710-7 - 712-1
+#<-唐隆 唐隆1-7-己巳
+
+## [103]
+wref_ja 景雲 (唐)
+name_ja 景雲
+name_kana けい うん
+
+[中元克復]
+#y~719
+AD710 = 1
+tag 唐
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 中元克復
+name_cn 中元克復
+#710-7 - 710-8
+#710-9-10 李重福 沒
+
+## [103]
+wref_ja 中元克復
+name_ja 中元克復
+name_kana ちゅう げん こく ふく
+u 1
+
+&
+## <https://ja.wikipedia.org/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_(%E4%B8%AD%E5%9B%BD)#%E5%94%90>
+name_ja 中宗克復
+
+## [102]
+name_tw 中宗克復
+name_cn 中宗克復
+
+[太極]
+#y~746
+AD712 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 太極
+name_cn 太极
+#712-1 - 712-4
+#<-景雲 景雲3-1-己丑
+
+## [103]
+wref_ja 太極 (唐)
+name_ja 太極
+name_kana たい きょく
+
+[延和(壬子)]
+#y~273
+AD712 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 延和
+name_cn 延和
+#712-5 - 712-8
+#<-太極 太極1-5-辛未
+
+## [103]
+wref_ja 延和 (唐)
+name_ja 延和
+name_kana えん わ
+
+[先天]
+#y~592
+AD712 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 先天
+name_cn 先天
+#712-8 - 713-11
+#<-延和(壬子) 延和(壬子)8-甲辰
+
+## [103]
+wref_ja 先天 (唐)
+name_ja 先天
+name_kana せん てん
+
+[開元]
+#y~1518
+AD713 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 開元
+name_cn 开元
+#713-12 - 741-12
+#<-先天 713-12-庚寅朔
+
+## [103]
+wref_ja 開元
+name_ja 開元
+name_kana かい げん
+
+[天寶]
+#y~810
+AD742 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 天寶
+name_cn 天宝
+#742-1 - 756-7
+
+## [103]
+wref_ja 天宝 (唐)
+name_ja 天宝
+name_kana てん ぽう
+
+[至德(丙申)]
+#y~1039
+AD756 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 至德
+name_cn 至德
+# 756-7 - 758-2
+
+## [103]
+wref_ja 至徳 (唐)
+name_ja 至徳
+name_kana し とく
+#<-天寶 756-6 757-7
+
+[乾元(戊戌)]
+#y~579
+AD758 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 乾元
+name_cn 乾元
+#758-2 - 760-4'
+
+## [103]
+wref_ja 乾元 (唐)
+name_ja 乾元
+name_kana けん げん
+
+[上元(庚子)]
+#y~1666
+AD760 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 上元
+name_cn 上元
+# 760-4' - 761-9
+
+## [103]
+wref_ja 上元 (唐粛宗)
+name_ja 上元
+name_kana じょう げん
+# 760-4' - 761-8
+
+#XXX元年
+## [103]
+#wref_zh 上元 (唐肅宗)
+#<-上元 上元2-9-21
+## <https://zh.wikisource.org/wiki/%E5%8E%BB%E4%B8%8A%E5%85%83%E5%B9%B4%E8%99%9F%E5%A4%A7%E8%B5%A6%E6%96%87>
+
+[寶應]
+#y~1599
+AD762 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 寶應
+name_cn 宝应
+#762-4 - 763-6
+#<- 762-4-16乙丑
+
+## [103]
+wref_ja 宝応
+name_ja 宝応
+name_kana ほう おう
+
+[廣德]
+#y~175
+AD763 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 廣德
+name_cn 广德
+#763-7 - 764-12
+#
+#西域
+u 4
+
+## [103]
+wref_ja 広徳 (唐)
+name_ja 広徳
+name_kana こう とく
+# 763-3 - 764-12
+
+[永泰(乙巳)]
+#y~835
+AD765 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永泰
+name_cn 永泰
+#765-1 - 766-11
+
+## [103]
+wref_ja 永泰 (唐)
+name_ja 永泰
+name_kana えい たい
+# 765-1 - 766-11
+#
+#西州
+#吐鲁番出土"唐永泰三年后麦粟帐"
+u 3
+
+[大曆]
+#y~769
+AD766 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 大曆
+name_cn 大历
+#766-11 - 779-12
+
+## [103]
+wref_ja 大暦
+name_ja 大暦
+name_kana だい れき
+#<-永泰(乙巳) 766-11
+
+[建中]
+#y~322
+AD780 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建中
+name_cn 建中
+#780-1 - 783-12
+
+## [103]
+wref_ja 建中 (唐)
+name_ja 建中
+name_kana けん ちゅう
+# 780-1 - 783-12
+#<-大曆 779 proclaimed
+#<-大曆 780
+
+[興元]
+#y~1715
+AD784 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 興元
+name_cn 兴元
+#784-1 - 784-12
+
+## [103]
+wref_ja 興元
+name_ja 興元
+name_kana こう げん
+# 784-1 - 784-12
+
+[貞元(乙丑)]
+#y~1570
+AD785 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 貞元
+name_cn 贞元
+#785-1 - 805-8
+
+## [103]
+wref_ja 貞元 (唐)
+name_ja 貞元
+name_kana てい げん
+
+[永貞]
+#y~476
+AD805 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永貞
+name_cn 永贞
+#805-8 - 805-12
+
+## [103]
+wref_ja 永貞 (唐) 
+name_ja 永貞
+name_kana えい てい
+# 805-8 - 805-12
+
+[元和(丙戌)]
+#y~181
+AD806 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元和
+name_cn 元和
+#806-1 - 820-12
+
+## [103]
+wref_ja 元和 (唐)
+name_ja 元和
+name_kana げん わ
+# 806-8 - 820-12
+
+[永新]
+#y~1383
+AD820 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永新
+name_cn 永新
+#820-2
+#<-元和 元和15-2-5丁丑
+#->元和 永新1
+tag 建元撤回
+
+[長慶]
+#y~1118
+AD821 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 長慶
+name_cn 长庆
+#821-1 - 824-12
+
+## [103]
+wref_ja 長慶
+name_ja 長慶
+name_kana ちょう けい
+# 821-1 - 824-12
+
+[寶曆(乙巳)]
+#y~822
+AD825 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 寶曆
+name_cn 宝历
+#825-1 - 827-2
+
+## [103]
+wref_ja 宝暦 (唐)
+name_ja 宝暦
+name_kana ほう れき
+# 825-1 - 827-2
+
+[大和]
+#y~553
+AD827 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 大和
+name_cn 大和
+#827-2 - 835-12
+
+## [103]
+wref_ja 大和 (唐)
+name_ja 大和
+name_kana だい わ
+# 827-12 - 835-12
+
+&
+## <https://ja.wikipedia.org/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_(%E4%B8%AD%E5%9B%BD)#%E5%94%90>
+name_ja 太和
+sw 太和
+
+## [102]
+name_tw 太和
+name_cn 太和
+
+[開成]
+#y~94
+AD836 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 開成
+name_cn 开成
+#836-1 - 840-12
+
+## [103]
+wref_ja 開成 (唐)
+name_ja 開成
+name_kana かい せい
+# 836-1 - 840-12
+    
+[會昌]
+#y~616
+AD841 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 會昌
+name_cn 会昌
+#841-1 - 846-12
+
+## [103]
+wref_ja 会昌
+name_ja 会昌
+name_kana かい しょう
+# 841-1 - 846-12
+    
+[大中]
+#y~1065
+AD847 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 大中
+name_cn 大中
+#847-1 - 860-10
+
+## [103]
+wref_ja 大中
+name_ja 大中
+name_kana だい ちゅう
+# 847-1 - 860-10
+
+[咸通]
+#y~939
+AD860 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 咸通
+name_cn 咸通
+#860-11 - 874-11
+
+## [103]
+wref_ja 咸通
+name_ja 咸通
+name_kana かん つう
+# 860-11 - 874-11
+
+[乾符]
+#y~1366
+AD874 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 乾符
+name_cn 乾符
+#874-11 - 879-12
+
+## [103]
+wref_ja 乾符
+name_ja 乾符
+name_kana けん ふ
+# 874-11 - 879-12
+
+[廣明]
+#y~398
+AD880 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 廣明
+name_cn 广明
+#880-1- - 881-7
+
+## [103]
+wref_ja 広明 (唐)
+name_ja 広明
+name_kana こう めい
+#<-乾符 880-11
+
+[中和]
+#y~421
+AD881 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 中和
+name_cn 中和
+#881-7 - 885-3
+
+## [103]
+wref_ja 中和 (唐)
+name_ja 中和
+name_kana ちゅう わ
+# 881-7 - 885-3
+#<-廣明 881-7
+
+[光啟]
+#y~1700
+AD885 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 光啟
+name_cn 光启
+#885-3 - 888-1
+
+## [103]
+wref_ja 光啓
+name_ja 光啓
+name_kana こう けい
+# 885-3 - 888-1
+
+[建貞]
+#y~1708
+AD886 = 1
+tag 唐
+tag 漢土
+tag 漢民族
+
+## [103]
+name_ja 建貞
+name_kana けんてい
+&
+name_ja 永貞
+#<- 886-5-庚辰 李熅
+
+[文德(戊申)]
+#y~1675
+AD888 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 文德
+name_cn 文德
+#888-2 - 888-12
+
+## [103]
+wref_ja 文徳 (唐)
+name_ja 文徳
+name_kana ぶん とく
+# 888-2 - 888-12
+
+[龍紀]
+#y~32
+AD889 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 龍紀
+name_cn 龙纪
+#889-1 - 889-12
+
+## [103]
+wref_ja 龍紀 (唐)
+name_ja 龍紀
+name_kana りゅう き
+
+[大順]
+#y~521
+AD890 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 大順
+name_cn 大顺
+#890-1 - 891-12
+
+## [103]
+wref_ja 大順 (唐)
+name_ja 大順
+name_kana だい じゅん
+# 890-1 - 891-12
+
+[景福]
+#y~39
+AD892 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 景福
+name_cn 景福
+#892-1 - 893-12
+
+## [103]
+wref_ja 景福 (唐)
+name_ja 景福
+name_kana けい ふく
+# 892-1 - 893-12
+                                                              
+[乾寧]
+#y~289
+AD894 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 乾寧
+name_cn 乾宁
+#894-1 - 898-8
+
+## [103]
+wref_ja 乾寧
+name_ja 乾寧
+name_kana けん ねい
+# 894-1 - 898-8
+
+[光化]
+#y~1699
+AD898 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 光化
+name_cn 光化
+#898-8 - 901-3
+
+## [103]
+wref_ja 光化
+name_ja 光化
+name_kana こう か
+# 898-8 - 901-3
+
+[天復]
+#y~1290
+AD901 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 天復
+name_cn 天复
+#901-4 - 904-4'
+#907-9
+#
+#南吴太祖楊行密
+#902-3 - 904-4'
+#
+#王建
+#- 907-9 -
+#-> 908
+u 7
+#
+#李克用
+#u 4+
+
+## [103]
+wref_ja 天復 (唐)
+name_ja 天復
+name_kana てん ふく
+# 901-4 - 904-4'
+#
+#呉 楊行密
+#
+#前蜀 王建
+#<-天祐 907-9 前蜀
+u 7
+#
+#李茂贞
+u 22
+#->天祐 922
+
+[天祐]
+#y~203
+AD904 = 1
+tag 唐
+tag 鮮卑
+tag 唐の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 天祐
+name_cn 天祐
+#904-4' - 907-4
+#
+#前蜀王建
+#南汉刘隐
+#
+#吴越 錢鏐
+#907-5 - 907-5
+#吴越
+#904-4' - 907-12
+#
+#李克用
+#904-4' - 913-4
+u 4
+#
+#李茂贞
+#<-天復 922
+u 19
+#904-4' - 924
+#
+#南吳 楊行密
+#<- 904-4'
+#-> 919-4
+#
+#契丹
+#904-4' - 916-12
+#
+u 21
+
+## [103]
+wref_ja 天祐 (唐)
+name_ja 天祐
+name_kana てん ゆう
+&
+name_ja 天佑
+# 904 - 907
+#<-天復 904-4'
+#-> 907-3 禅譲
+#
+#河東,鳳翔,淮南
+u 20
+#
+#前蜀
+#南漢
+#呉
+#呉越

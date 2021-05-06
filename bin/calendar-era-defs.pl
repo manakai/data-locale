@@ -351,9 +351,9 @@ for my $path (
       $Data->{eras}->{$key}->{$1} = $2;
       push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {han => 1, name => 1, values => [{value => $2}]};
-    } elsif (defined $key and /^name\s+(.+)$/) {
+    } elsif (defined $key and /^name(!|)\s+(.+)$/) {
       push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
-          {han => 1, name => 1, values => [{value => $1}]};
+          {han => 1, name => 1, values => [{value => $2, _preferred => $1}]};
     } elsif (defined $key and /^name_kana\s+(.+)$/) {
       push @{$Data->{eras}->{$key}->{label_sets}->[-1]->{labels}->[-1]->{reps}},
           {kana => $1, yomi => 1};
@@ -548,6 +548,7 @@ for my $path (
               $era->{name_ja} //= $value->{value} if $value->{ja};
               $era->{name_tw} //= $value->{value} if $value->{tw};
               $era->{name_cn} //= $value->{value} if $value->{cn};
+              $era->{name} = $value->{value} if $value->{_preferred};
               $era->{name_ja} = $value->{value} if $value->{ja} and $value->{_preferred};
               $era->{name_tw} = $value->{value} if $value->{tw} and $value->{_preferred};
               $era->{name_cn} = $value->{value} if $value->{cn} and $value->{_preferred};
