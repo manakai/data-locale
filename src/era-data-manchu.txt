@@ -857,6 +857,7 @@ name_tw 大同
 name_cn 大同
 
 ## [103]
+wref_ja 大同 (満州)
 name_ja 大同
 name_kana だい どう
 
@@ -887,6 +888,7 @@ name_tw 康德
 name_cn 康德
 
 ## [103]
+wref_ja 康徳
 name_ja 康徳
 name_kana こう とく
 
