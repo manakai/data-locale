@@ -483,6 +483,7 @@ tag 鮮卑
 tag 唐の公年号
 tag 漢土
 tag 漢民族
+tag 再開
 
 ## [102]
 name_tw 嗣聖
@@ -1435,6 +1436,7 @@ tag 鮮卑
 tag 唐の公年号
 tag 漢土
 tag 漢民族
+tag 再開
 
 ## [102]
 name_tw 元和

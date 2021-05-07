@@ -18,7 +18,7 @@ name_ja! 西暦
 name_ja 西紀
 name_ko 西紀
 &
-name 西元
+name_tw 西元
 &
 name 西暦紀元
 &
