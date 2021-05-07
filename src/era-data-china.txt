@@ -21,6 +21,692 @@
 %tag   name_ja 漢民族
 
 %tag country
+%tag   name_ja 漢
+
+[建安]
+## <https://zh.wikipedia.org/wiki/%E9%BB%84%E5%88%9D>
+tag 蜀
+tag 呉
+## <https://web.archive.org/web/20120104144951/http://xiangyata.net/data/articles/e01/185.html>
+u 25
+u 26
+u 27
+u 28
+
+%tag tag
+%tag   name_ja 漢の公年号
+%tag   group of 中華王朝の公年号
+
+%tag country
+%tag   name_ja 魏
+
+%tag tag
+%tag   name_ja 魏の公年号
+%tag   group of 中華王朝の公年号
+
+[黃初]
+#y~423
+AD220 = 1
+tag 魏
+tag 魏の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 黃初
+name_cn 黄初
+u 1
+u 7
+#
+tag 呉
+u 1
+u 3
+
+## [103]
+wref_ja 黄初
+name_ja 黄初
+name_kana こう しょ
+#<- 後漢 1-10-29 禅譲
+
+[太和]
+#y~1389
+AD227 = 1
+tag 魏
+tag 魏の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 太和
+name_cn 太和
+
+## [103]
+wref_ja 太和 (魏)
+name_ja 太和
+name_kana たい わ
+# 227 - 233-1
+
+[青龍]
+#y~1142
+AD233 = 1
+tag 魏
+tag 魏の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 青龍
+name_cn 青龙
+
+## [103]
+wref_ja 青龍 (魏)
+name_ja 青龍
+name_kana せい りゅう
+#233-2 - 237-2
+u 1
+u 4-12
+
+[景初]
+#y~1376
+AD237 = 1
+tag 魏
+tag 魏の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 景初
+name_cn 景初
+# 237-4 - 239
+#<-青龍 237-3=4
+
+## [103]
+wref_ja 景初
+name_ja 景初
+name_kana けい しょ
+#<-青龍 237-3
+u 1
+u 3
+u 4
+
+## [103]
+#[景初(丙辰)]
+#景初の年代に関する試論, 平勢隆郎
+
+[正始]
+#y~872
+AD240 = 1
+tag 魏
+tag 魏の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 正始
+name_cn 正始
+# 240 - 249-4
+
+## [103]
+wref_ja 正始 (魏)
+name_ja 正始
+name_kana せい し
+
+[嘉平]
+#y~573
+AD249 = 1
+tag 魏
+tag 魏の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 嘉平
+name_cn 嘉平
+
+## [103]
+wref_ja 嘉平 (魏)
+name_ja 嘉平
+name_kana か へい
+#<-正始 249-4
+
+[正元(甲戌)]
+#y~1443
+AD254 = 1
+tag 魏
+tag 魏の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 正元
+name_cn 正元
+# 254-10 - 256-5
+
+## [103]
+wref_ja 正元 (魏)
+name_ja 正元
+name_kana せい げん
+#<-嘉平 254-10
+
+[甘露(丙子)]
+#y~1009
+AD256 = 1
+tag 魏
+tag 魏の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 甘露
+name_cn 甘露
+# 256-6 - 260-5
+#<-正元(甲戌) 256-6
+
+## [103]
+wref_ja 甘露 (魏)
+name_ja 甘露
+name_kana かん ろ
+# 256-6 - 260-5
+#<-正元(甲戌) 256-6
+
+[景元]
+#y~361
+AD260 = 1
+tag 魏
+tag 魏の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 景元
+name_cn 景元
+
+## [103]
+wref_ja 景元
+name_ja 景元
+name_kana けい げん
+# 260-6 - 264-5
+#<-甘露(丙子) 260-8
+
+[咸熙]
+#y~1161
+AD264 = 1
+tag 魏
+tag 魏の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 咸熙
+name_cn 咸熙
+# 264-5 - 265-11'
+#-> 晋 265-12-13 禅譲
+
+## [103]
+wref_ja 咸熙
+name_ja 咸熙
+name_kana かん き
+# 264-5 - 265-12
+#<-景元 264-5
+#-> 晋 265-12-13 禅譲
+
+%tag country
+%tag   name_ja 蜀
+%tag   period of 漢
+
+%tag tag
+%tag   name_ja 蜀の公年号
+%tag   group of 漢の公年号
+
+[章武]
+#y~1275
+AD221 = 1
+tag 蜀
+tag 蜀の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 章武
+name_cn 章武
+
+## [103]
+wref_ja 章武
+name_ja 章武
+name_kana しょう ぶ
+# 221-4 - 223-4
+#<-建安 建安26
+
+[建興]
+#y~124
+AD223 = 1
+tag 蜀
+tag 蜀の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建興
+name_cn 建兴
+
+## [103]
+wref_ja 建興 (蜀)
+name_ja 建興
+name_kana けん こう
+# 223-5 - 237-12
+#<-章武 223-5
+
+[延熙]
+#y~226
+AD238 = 1
+tag 蜀
+tag 蜀の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 延熙
+name_cn 延熙
+
+## [103]
+wref_ja 延熙 (蜀)
+name_ja 延熙
+name_kana えん き
+
+[景耀]
+#y~36
+AD258 = 1
+tag 蜀
+tag 蜀の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 景耀
+name_cn 景耀
+
+## [103]
+wref_ja 景耀
+name_ja 景耀
+name_kana けい よう
+# 258-1 - 263-7
+
+[炎興]
+#y~1425
+AD263 = 1
+tag 蜀
+tag 蜀の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 炎興
+name_cn 炎兴
+
+## [103]
+wref_ja 炎興
+name_ja 炎興
+name_kana えん こう
+# 263-8 - 263-11
+
+%tag country
+%tag   name_ja 呉
+
+%tag tag
+%tag   name_ja 呉の公年号
+%tag   group of 中華王朝の公年号
+
+[黃武]
+#y~500
+AD222 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 黃武
+name_cn 黄武
+#<-黄初3..1 <-延康1 <-建安25
+
+## [103]
+wref_ja 黄武
+name_ja 黄武
+name_kana こう ぶ
+u 1-6'
+#<-黄初 222-10
+u 1-10
+
+[黃龍(己酉)]
+#y~319
+AD229 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 黃龍
+name_cn 黄龙
+
+## [103]
+wref_ja 黄龍 (呉)
+name_ja 黄龍
+name_kana こう りゅう
+#<-黃武 229-4
+
+[嘉禾]
+#y~480
+AD232 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 嘉禾
+name_cn 嘉禾
+
+## [103]
+wref_ja 嘉禾
+name_ja 嘉禾
+name_kana か か
+u 1
+u 7-8
+
+[赤烏]
+#y~1003
+AD238 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 赤烏
+name_cn 赤乌
+
+## [103]
+wref_ja 赤烏
+name_ja 赤烏
+name_kana せき う
+# 238-8 - 251-4
+#<-嘉禾 238-8
+
+[太元]
+#y~1363
+AD251 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 太元
+name_cn 太元
+# 251-5 - 252-1
+
+## [103]
+wref_ja 太元 (呉)
+name_ja 太元
+name_kana たい げん
+# 251-5 - 252-1
+#<-赤烏 251-5
+
+[神鳳]
+#y~215
+AD252 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 神鳳
+name_cn 神凤
+
+## [103]
+wref_ja 神鳳 (呉)
+name_ja 神鳳
+name_kana しん ぽう
+# 252-2 - 252-4
+#<-太元 252-2
+
+[建興(壬申)]
+#y~716
+AD252 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建興
+name_cn 建兴
+#<-神鳳 252-4-28丁酉
+
+## [103]
+wref_ja 建興 (呉)
+name_ja 建興
+name_kana けん こう
+#<-神鳳 252-4
+
+[五鳳(甲戌)]
+#y~1096
+AD254 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 五鳳
+name_cn 五凤
+
+## [103]
+wref_ja 五鳳 (呉)
+name_ja 五鳳
+name_kana ご ほう
+
+[太平]
+#y~1543
+AD256 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 太平
+name_cn 太平
+
+## [103]
+wref_ja 太平 (呉)
+name_ja 太平
+name_kana たい へい
+u 1-9
+#<-五鳳(甲戌) 256-10
+u 1-10
+
+[永安]
+#y~778
+AD258 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永安
+name_cn 永安
+# 258-10 - 264-6
+
+## [103]
+wref_ja 永安 (呉)
+name_ja 永安
+name_kana えい あん
+# 258-10 - 264-6
+#<-太平 258-10
+
+[元興(甲申)]
+#y~1583
+AD264 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元興
+name_cn 元兴
+# 264-8-3 - 265-3
+
+## [103]
+wref_ja 元興 (呉)
+name_ja 元興
+name_kana げん こう
+# 264-8-3 - 265-3
+#<-永安 264-7
+
+[甘露(乙酉)]
+#y~907
+AD265 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 甘露
+name_cn 甘露
+
+## [103]
+wref_ja 甘露 (呉)
+name_ja 甘露
+name_kana かん ろ
+# 265-4 - 266-7
+#<-元興(甲申) 265-4
+
+[寶鼎]
+#y~947
+AD266 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 寶鼎
+name_cn 宝鼎
+
+## [103]
+wref_ja 宝鼎
+name_ja 宝鼎
+name_kana ほう てい
+# 266-8 - 269-9
+#<-甘露(乙酉) 266-8
+
+[建衡]
+#y~956
+AD269 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建衡
+name_cn 建衡
+
+## [103]
+wref_ja 建衡
+name_ja 建衡
+name_kana けん こう
+# 269-10 - 271
+#<-寶鼎 269-10
+
+[鳳凰]
+#y~1408
+AD272 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 鳳凰
+name_cn 凤凰
+
+## [103]
+wref_ja 鳳凰 (呉)
+name_ja 鳳凰
+name_kana ほう おう
+
+[天冊]
+#y~744
+AD275 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 天冊
+name_cn 天册
+
+## [103]
+wref_ja 天冊
+name_ja 天冊
+name_kana てん さく
+# 275 - 276-6
+
+&
+## [102]
+name_tw 天策
+name_cn 天策
+#三国志陆胤传
+
+[天璽]
+#y~1654
+AD276 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 天璽
+name_cn 天玺
+
+## [103]
+wref_ja 天璽 (呉)
+name_ja 天璽
+name_kana てん じ
+# 276-7 - 276-12
+#<-天冊 276-7
+
+[天紀]
+#y~1092
+AD277 = 1
+tag 呉
+tag 呉の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 天紀
+name_cn 天纪
+
+## [103]
+wref_ja 天紀
+name_ja 天紀
+name_kana てん き
+# 277 - 280-3
+u 1
+# 天紀4-3-壬寅 280-5-1 滅
+u 4-3
+
+%tag country
 %tag   name_ja 晋
 
 %tag tag
