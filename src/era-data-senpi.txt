@@ -331,12 +331,18 @@ name_kana かん こう
 
 [上元]
 #y~1212
+## Source:
+sw 上元
+#
 AD674 = 1
 tag 唐
 tag 鮮卑
 tag 唐の公年号
 tag 漢土
 tag 漢民族
+u 1
+u 2
+u 3
 
 ## [102]
 name_tw 上元
@@ -1216,11 +1222,41 @@ name_ja 上元
 name_kana じょう げん
 # 760-4' - 761-8
 
-#XXX元年
+def[肅宗]
+#y~1846
+## Source:
+sw 粛宗
+#
+name_ja 粛宗
+name_tw 肅宗
+name_cn 肃宗
+AD762 = 1
+u 1
+tag 唐
+tag 鮮卑
+tag 漢土
+tag 漢民族
+
 ## [103]
-#wref_zh 上元 (唐肅宗)
+wref_zh 上元 (唐肅宗)
 #<-上元 上元2-9-21
 ## <https://zh.wikisource.org/wiki/%E5%8E%BB%E4%B8%8A%E5%85%83%E5%B9%B4%E8%99%9F%E5%A4%A7%E8%B5%A6%E6%96%87>
+
+def[肅宗(辛丑)]
+#y~1847
+## Source:
+sw 粛宗
+#
+name_ja 粛宗
+name_tw 肅宗
+name_cn 肃宗
+AD761 = 1
+u 1
+u 2
+tag 唐
+tag 鮮卑
+tag 漢土
+tag 漢民族
 
 [寶應]
 #y~1599
@@ -1230,12 +1266,13 @@ tag 鮮卑
 tag 唐の公年号
 tag 漢土
 tag 漢民族
+#<-肅宗 762-4-甲子
 
 ## [102]
 name_tw 寶應
 name_cn 宝应
 #762-4 - 763-6
-#<- 762-4-16乙丑
+#<-肅宗 762-4-16乙丑
 
 ## [103]
 wref_ja 宝応
