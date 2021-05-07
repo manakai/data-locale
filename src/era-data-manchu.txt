@@ -29,7 +29,7 @@
 
 %tag tag
 %tag   name_ja 後金の公年号
-%tag   group of 公年号
+%tag   group of 中華王朝の公年号
 
 [天命]
 #y~244
@@ -158,7 +158,7 @@ name_man %E1%A0%B0%E1%A1%A0%E1%A0%B7%E1%A1%9D %E1%A1%A5%E1%A0%A0%E1%A0%A8,sure h
 
 %tag tag
 %tag   name_ja 清の公年号
-%tag   group of 公年号
+%tag   group of 中華王朝の公年号
 
 [崇德]
 #y~1136
@@ -832,7 +832,7 @@ u 100-3-31
 
 %tag tag
 %tag   name_ja 満州国の公年号
-%tag   group of 公年号
+%tag   group of 中華王朝の公年号
 
 [大同(壬申)]
 # y~1578

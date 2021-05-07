@@ -2,10 +2,136 @@
 %tag   name_ja 鮮卑
 
 %tag country
+%tag   name_ja 隋
+
+%tag tag
+%tag   name_ja 隋の公年号
+%tag   group of 中華王朝の公年号
+
+[開皇]
+#y~1439
+AD581 = 1
+tag 隋
+tag 鮮卑
+tag 隋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 開皇
+name_cn 开皇
+#581-2 - 600-12
+
+## [103]
+wref_ja 開皇
+name_ja 開皇
+name_kana かい こう
+
+[仁壽(辛酉)]
+#y~876
+AD601 = 1
+tag 隋
+tag 鮮卑
+tag 隋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 仁壽
+name_cn 仁寿
+#601-1 - 604-12
+
+## [103]
+wref_ja 仁寿 (隋)
+name_ja 仁寿
+name_kana じん じゅ
+
+[大業]
+#y~1682
+AD605 = 1
+tag 隋
+tag 鮮卑
+tag 隋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 大業
+name_cn 大业
+#605-1 - 618-3
+#隋书, 北史, 赵翼则
+u 13
+#资治通鉴
+u 12
+#隋史 许善心伝, 卢文构夫人月相墓志铭(写)
+u 14
+#王德备墓志
+u 14-1-15
+
+## [103]
+wref_ja 大業
+name_ja 大業
+name_kana たい ぎょう
+#->義寧 恭帝
+u 13-11
+#
+#煬帝 没
+u 14-3
+
+[義寧]
+#y~969
+AD617 = 1
+tag 隋
+tag 鮮卑
+tag 隋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 義寧
+name_cn 义宁
+#617-11 - 618-5
+
+## [103]
+wref_ja 義寧
+name_ja 義寧
+name_kana ぎ ねい
+#<-大業 617-11
+u 1-11
+#-> 唐 618-5 禅譲
+u 2-5
+
+[皇泰]
+#y~854
+AD618 = 1
+tag 隋
+tag 鮮卑
+tag 隋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 皇泰
+name_cn 皇泰
+#618-5 - 619-4
+
+## [103]
+wref_ja 皇泰
+name_ja 皇泰
+name_kana こう たい
+#皇泰主楊侗
+tag 君主名の元号
+#<-大業 618-5
+u 1-5
+#-> 王世充 619-4 禅譲
+u 2-4
+
+%tag country
 %tag   name_ja 唐
 
 %tag tag
 %tag   name_ja 唐の公年号
+%tag   group of 中華王朝の公年号
 
 [武德]
 #y~1106
@@ -483,6 +609,7 @@ u 2
 
 %tag tag
 %tag   name_ja 武周の公年号
+%tag   group of 中華王朝の公年号
 
 [天授(庚寅)]
 #y~505

@@ -137,7 +137,7 @@ name_ja 憲宗(モンケ)
 
 %tag tag
 %tag   name_ja 元の公年号
-%tag   group of 公年号
+%tag   group of 中華王朝の公年号
 
 [中統]
 #y~1262

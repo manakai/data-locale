@@ -13,8 +13,886 @@
 %tag   name_ja 支那本部
 %tag   name_en China
 
+%tag tag
+%tag   name_ja 中華王朝の公年号
+%tag   group of 公年号
+
 %tag people
 %tag   name_ja 漢民族
+
+%tag country
+%tag   name_ja 晋
+
+%tag tag
+%tag   name_ja 晋の公年号
+%tag   group of 中華王朝の公年号
+
+%tag country
+%tag   name_ja 西晋
+%tag   group of 晋
+
+%tag tag
+%tag   name_ja 西晋の公年号
+%tag   group of 晋の公年号
+
+[泰始]
+#y~910
+AD265 = 1
+tag 西晋
+tag 西晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 泰始
+name_cn 泰始
+
+## [103]
+wref_ja 泰始 (晋)
+name_ja 泰始
+name_kana たい し
+#<- 魏 265-12 禅譲
+
+[咸寧]
+#y~102
+AD275 = 1
+tag 西晋
+tag 西晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 咸寧
+name_cn 咸宁
+# 275 - 280-4
+
+## [103]
+wref_ja 咸寧 (晋)
+name_ja 咸寧
+name_kana かん ねい
+
+[太康]
+#y~538
+AD280 = 1
+tag 西晋
+tag 西晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 太康
+name_cn 太康
+# 280-4 - 289
+
+## [103]
+wref_ja 太康 (晋)
+name_ja 太康
+name_kana たい こう
+#<-咸寧 280-3
+#<-咸寧 280-4
+
+[太熙]
+#y~46
+AD290 = 1
+tag 西晋
+tag 西晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 太熙
+name_cn 太熙
+# 290-1 - 290-4
+
+## [103]
+wref_ja 太熙
+name_ja 太熙
+name 太煕
+name 太熈
+name_kana たい き
+# 290-1 - 290-4
+
+[永熙]
+#y~524
+AD290 = 1
+tag 西晋
+tag 西晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永熙
+name_cn 永熙
+# 290-4 - 290-12
+u 2-1-1
+
+## [103]
+wref_ja 永熙 (晋)
+name_ja 永熙
+name_kana えい き
+# 290-4 - 290-12
+#<-太熙 290-4
+
+[永平(辛亥)]
+#y~279
+AD291 = 1
+tag 西晋
+tag 西晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永平
+name_cn 永平
+# 291-1 - 291-3
+#<-永熙 永熙2-1-1乙酉
+
+## [103]
+wref_ja 永平 (晋)
+name_ja 永平
+name_kana えい へい
+# 291-1 - 291-3
+#<-永熙 291-1
+
+[元康(辛亥)]
+#y~442
+AD291 = 1
+tag 西晋
+tag 西晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元康
+name_cn 元康
+#<-永平(辛亥) 1-3-壬辰
+
+## [103]
+wref_ja 元康 (晋)
+name_ja 元康
+name_kana げん こう
+#<-永平(辛亥) 291-3
+
+[永康(庚申)]
+#y~484
+AD300 = 1
+tag 西晋
+tag 西晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永康
+name_cn 永康
+# 300 - 301-4
+
+## [103]
+wref_ja 永康 (晋)
+name_ja 永康
+name_kana えい こう
+# 300 - 301-4
+
+[永寧(辛酉)]
+#y~884
+AD301 = 1
+tag 西晋
+tag 西晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永寧
+name_cn 永宁
+# 301-4 - 302-11
+
+## [103]
+wref_ja 永寧 (晋)
+name_ja 永寧
+name_kana えい ねい
+# 301-4 - 302-11
+#<-永康(庚申) 301-4
+
+[建始(辛酉)]
+#y~606
+AD301 = 1
+tag 西晋
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建始
+name_cn 建始
+#司马伦
+# 301-1 - 301-4
+#<-永寧(辛酉) 301-1
+
+## [103]
+wref_ja 建始 (司馬倫)
+name_ja 建始
+name_kana けん し
+#司馬倫
+# 301-1 - 301-4
+
+[太安]
+#y~1168
+AD302 = 1
+tag 西晋
+tag 西晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 太安
+name_cn 太安
+#<-永寧(辛酉) 302-12
+
+## [103]
+wref_ja 太安 (晋)
+name_ja 太安
+name_kana たい あん
+# 302-12 - 303
+#<-永寧(辛酉) 302-12
+
+&
+## [102]
+name_tw 大安
+name_cn 大安
+
+[永安(甲子)]
+#y~1397
+AD304 = 1
+tag 西晋
+tag 西晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永安
+name_cn 永安
+# 304-1 - 304-7, 304-11
+#->建武(甲子) 304-7
+#<-建武(甲子) 304-11
+
+## [103]
+wref_ja 永安 (晋)
+name_ja 永安
+name_kana えい あん
+# 304-1 - 304-7, 304-11 - 304-11
+#<-太安 304-1
+#<-建武(甲子) 304-11
+
+[建武(甲子)]
+#y~545
+AD304 = 1
+tag 西晋
+tag 西晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建武
+name_cn 建武
+# 304-7 - 304-11
+
+## [103]
+wref_ja 建武 (西晋)
+name_ja 建武
+name_kana けん ぶ
+# 304-7 - 304-11
+#<-永安(甲子) 304-7
+
+[永興(甲子)]
+#y~807
+AD304 = 1
+tag 西晋
+tag 西晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永興
+name_cn 永兴
+# 304-12 - 306-6
+
+## [103]
+wref_ja 永興 (晋)
+name_ja 永興
+name_kana えい こう
+# 304-12 - 306-6
+#<-永安(甲子) 304-11
+#<-永安(甲子) 304-12
+
+[光熙]
+#y~1113
+AD306 = 1
+tag 西晋
+tag 西晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 光熙
+name_cn 光熙
+# 306-6 - 306-12
+#<-永興(甲子) 306-6
+
+## [103]
+wref_ja 光熙
+name_ja 光熙
+name_kana こう き
+# 306-6 - 306-12
+#<-永興(甲子) 306-6
+
+[永嘉]
+#y~51
+AD307 = 1
+tag 西晋
+tag 西晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永嘉
+name_cn 永嘉
+# 307 - 313-4
+
+## [103]
+wref_ja 永嘉 (晋)
+name_ja 永嘉
+name_kana えい か
+# 307 - 313-4
+#<-光熙 307-1
+
+[建興(癸酉)]
+#y~1112
+AD313 = 1
+tag 西晋
+tag 西晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建興
+name_cn 建兴
+# 313-4 - 317-3
+# 317 - 353
+# 355-9' - 361-11
+#
+#中国历代帝王年号手册
+u 4
+#
+#東晋
+#<-建武
+u 5-3
+#
+#前凉
+u 5
+#
+#张玄靓
+u 43
+u 49
+#永安, 永元, 太元, 永楽, 太始
+#
+#新疆
+u 36
+
+## [103]
+wref_ja 建興 (晋)
+name_ja 建興
+name_kana けん こう
+# 313-4 - 317-3
+#-> 前趙 316 西晋 滅
+#愍帝
+#-> 317-12-20 (318-2-7) 没
+u 5
+#
+#前涼
+u 49
+#永安, 永元, 太元, 永楽, 太始
+
+%tag country
+%tag   name_ja 東晋
+%tag   group of 晋
+
+%tag tag
+%tag   name_ja 東晋の公年号
+%tag   group of 晋の公年号
+
+[建武(丁丑)]
+#y~1200
+AD317 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建武
+name_cn 建武
+# 317-3 - 318-3
+
+## [103]
+wref_ja 建武 (東晋)
+name_ja 建武
+name_kana けん ぶ
+# 317-3 - 318-3
+#<-建興(癸酉) 317-3
+
+[大興]
+#y~1695
+AD318 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 大興
+name_cn 大兴
+# 318-3 - 321
+
+## [103]
+wref_ja 大興 (東晋)
+name_ja 大興
+name 太興
+name_kana たい こう
+#<-建武(丁丑) 318-3
+
+&
+## [102]
+name_tw 太興
+name_cn 太兴
+
+[永昌]
+#y~899
+AD322 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永昌
+name_cn 永昌
+# 322 - 323-2
+#李廆墓表
+u 3
+
+## [103]
+wref_ja 永昌 (東晋)
+name_ja 永昌
+name_kana えい しょう
+# 322 - 323-2
+
+[太寧]
+#y~1669
+AD323 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 太寧
+name_cn 太宁
+# 323-3 - 326-1
+
+## [103]
+wref_ja 太寧 (東晋)
+name_ja 太寧
+name_kana たい ねい
+# 323-3 - 326-1
+#<-永昌 323-3
+
+[咸和]
+#y~576
+AD326 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 咸和
+name_cn 咸和
+# 326-2 - 334
+
+## [103]
+wref_ja 咸和 (東晋)
+name_ja 咸和
+name_kana かん わ
+# 326-2 - 334
+#<-太寧 326-2
+
+[咸康]
+#y~1671
+AD335 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 咸康
+name_cn 咸康
+
+## [103]
+wref_ja 咸康 (東晋)
+name_ja 咸康
+name_kana かん こう
+
+[建元(癸卯)]
+#y~1307
+AD343 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建元
+name_cn 建元
+
+## [103]
+wref_ja 建元 (東晋)
+name_ja 建元
+name_kana けん げん
+
+[永和(乙巳)]
+#y~709
+AD345 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永和
+name_cn 永和
+
+## [103]
+wref_ja 永和 (東晋)
+name_ja 永和
+name_kana えい わ
+
+[昇平]
+#y~934
+AD357 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 昇平
+name_cn 升平
+#
+#前凉
+u 20-8
+#
+#新疆
+u 11
+
+## [103]
+wref_ja 升平
+name_ja 升平
+name_kana しょう へい
+u 5
+#
+#前涼
+u 20
+
+[隆和]
+#y~330
+AD362 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 隆和
+name_cn 隆和
+# 362 - 363-2
+#<-昇平 361-5
+
+## [103]
+wref_ja 隆和
+name_ja 隆和
+name_kana りゅう わ
+
+&
+## [102]
+#避諱 唐玄宗李隆
+name_tw 崇和
+name_cn 崇和
+
+[興寧]
+#y~1298
+AD363 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 興寧
+name_cn 兴宁
+
+## [103]
+wref_ja 興寧
+name_ja 興寧
+name_kana こう ねい
+#<-隆和 363-2
+
+[太和(丙寅)]
+#y~868
+AD366 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 太和
+name_cn 太和
+
+## [103]
+wref_ja 太和 (東晋)
+name_ja 太和
+name_kana たい わ
+
+&
+## [102]
+name_tw 泰和
+name_cn 泰和
+#高崧墓志
+u 1-8-22
+
+[咸安]
+#y~1060
+AD371 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 咸安
+name_cn 咸安
+
+## [103]
+wref_ja 咸安 (東晋)
+name_ja 咸安
+name_kana かん あん
+#<-太和(丙寅) 371-11
+
+[寧康]
+#y~723
+AD373 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 寧康
+name_cn 宁康
+
+## [103]
+wref_ja 寧康
+name_ja 寧康
+name_kana ねい こう
+
+&
+## [102]
+#魏书 错写
+name_tw 康寧
+name_cn 康宁
+
+
+[太元(丙子)]
+#y~153
+AD376 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 太元
+name_cn 太元
+
+## [103]
+wref_ja 太元 (東晋)
+name_ja 太元
+name_kana たい げん
+
+[隆安]
+#y~1696
+AD397 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 隆安
+name_cn 隆安
+
+## [103]
+wref_ja 隆安
+name_ja 隆安
+name_kana りゅう あん
+#397 - 401
+u 1
+u 6
+
+&
+## [102]
+#避諱 唐玄宗李隆
+name_tw 崇安
+name_cn 崇安
+
+[元興(壬寅)]
+#y~1582
+AD402 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元興
+name_cn 元兴
+# 402 - 404
+
+## [103]
+wref_ja 元興 (東晋)
+name_ja 元興
+name_kana げん こう
+#->隆安 402-3-壬申
+
+[大亨]
+#y~1269
+AD402 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 大亨
+name_cn 大亨
+# 402-3 - 402-12
+
+## [103]
+wref_ja 大亨
+name_ja 大亨
+name_kana だい こう
+# 402 - 403
+#<-元興(壬寅) 402-3-癸酉
+u 1
+#405 隆安6, 大亨, 永始, 天康 廃
+u 3
+
+def[建始(癸卯)]
+#y~1845
+AD403 = 1
+tag 東晋
+tag 漢土
+tag 漢民族
+
+## [103]
+## <https://ja.wikipedia.org/wiki/%E5%85%83%E8%88%88_(%E6%9D%B1%E6%99%8B)>
+#楚 桓玄
+wref_ja 永始 (桓玄)
+name_ja 建始
+#<-大亨 403-12
+
+[永始(癸卯)]
+#y~441
+AD403 = 1
+tag 東晋
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永始
+name_cn 永始
+
+## [103]
+## <https://ja.wikipedia.org/wiki/%E5%85%83%E8%88%88_(%E6%9D%B1%E6%99%8B)>
+## <https://ja.wikipedia.org/wiki/%E5%A4%A7%E4%BA%A8>
+#楚 桓玄
+wref_ja 永始 (桓玄)
+name_ja 永始
+#<-建始(癸卯) 403-12
+# 403-12 - 404-5
+tag 建元撤回
+
+[天康]
+#y~1021
+AD404 = 1
+tag 東晋
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 天康
+name_cn 天康
+
+## [103]
+## <https://ja.wikipedia.org/wiki/%E5%A4%A7%E4%BA%A8>
+wref_ja 天康 (東晋)
+name_ja 天康
+name_kana てん こう
+&
+name_ja 天安
+#404 - 405
+u 1
+u 2
+tag 建元撤回
+
+[義熙]
+#y~591
+AD405 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 義熙
+name_cn 义熙
+# 405-419
+
+## [103]
+wref_ja 義熙
+name_ja 義熙
+name_kana ぎ き
+#405 - 418
+
+[元熙]
+#y~676
+AD419 = 1
+tag 東晋
+tag 東晋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元熙
+name_cn 元熙
+
+## [103]
+wref_ja 元熙 (東晋)
+name_ja 元熙
+name_kana げん き
+# 419 - 420
+u 1
+#-> 劉裕 420-6 禅譲
+u 2-6
 
 %tag country
 %tag   name_ja 宋
@@ -22,7 +900,7 @@
 
 %tag tag
 %tag   name_ja 宋の公年号
-%tag   group of 公年号
+%tag   group of 中華王朝の公年号
 
 %tag country
 %tag   name_ja 北宋
@@ -1211,7 +2089,7 @@ u 5
 
 %tag tag
 %tag   name_ja 明の公年号
-%tag   group of 公年号
+%tag   group of 中華王朝の公年号
 
 def[呉]
 #y~1828
