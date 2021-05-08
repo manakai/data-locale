@@ -21,6 +21,77 @@
 %tag   name_ja 漢民族
 
 %tag country
+%tag   name_ja 秦
+
+def[秦始皇]
+## Source:
+sw 秦始皇
+#
+tag 秦
+tag 漢民族
+tag 漢土
+
+name_tw 秦王政
+name_ja 秦王政
+&
+name_tw 秦始皇
+name_ja 秦始皇
+&
+name_tw 始皇
+name_ja 始皇
+&
+name_tw 始皇帝
+name_ja 始皇帝
+
+## [102]
+wref_zh 秦始皇
+BC246 = 1
+u 1
+u 25
+#
+u 26
+u 37
+
+def[秦二世]
+## Source:
+sw 秦二世
+#
+tag 秦
+tag 漢民族
+tag 漢土
+
+name_tw 秦二世
+name_ja 秦二世
+&
+name_ja 二世
+&
+name_ja 秦二世皇帝
+
+## [102]
+wref_zh 秦二世
+BC209 = 1
+u 1
+u 3
+
+def[秦王子嬰]
+## Source:
+sw 秦子嬰
+#
+tag 秦
+tag 漢民族
+tag 漢土
+BC206 = 1
+u 1
+
+name_ja 秦王子嬰
+name_cn 秦王子婴
+&
+name_ja 秦子嬰
+&
+name_ja 子嬰
+name_tw 子嬰
+
+%tag country
 %tag   name_ja 漢
 
 %tag tag
