@@ -35,6 +35,258 @@
 %tag   name_ja 前漢の公年号
 %tag   group of 漢の公年号
 
+def[漢]
+#y~1849
+tag 前漢
+tag 漢土
+tag 漢民族
+name_tw 漢
+name_cn 汉
+name_ja 漢
+&
+name_tw 高帝劉邦
+&
+name_tw 高祖
+name_cn 高祖
+&
+name_ja 漢高祖
+name_cn 汉高祖
+&
+name_ja 漢高帝
+name_cn 汉高帝
+&
+name_ja 前漢高祖
+&
+name_cn 西汉高祖
+&
+name_tw 劉邦
+name_cn 刘邦
+&
+name_cn 汉刘邦
+&
+name_tw 漢王劉邦
+name_cn 汉王刘邦
+&
+name_tw 漢王
+name_cn 汉王
+&
+name_tw 漢高祖劉邦
+&
+name_tw 漢高帝劉邦
+&
+name_cn 武安侯刘邦
+&
+name_tw 漢王邦元年
+name_cn 汉王邦元年
+
+## [102]
+wref_zh 刘邦
+BC206 = 1
+u 1
+u 12
+
+def[恵帝]
+## Source:
+sw 孝惠
+tag 前漢
+tag 漢土
+tag 漢民族
+name_ja 恵帝
+&
+name_tw 孝惠皇帝
+&
+name_ja 孝恵帝
+&
+name_ja 孝恵
+name_tw 孝惠
+&
+name_ja 漢恵帝
+name_tw 漢恵帝
+name_cn 汉恵帝
+&
+name_tw 西漢恵帝
+
+## [102]
+wref_zh 汉惠帝
+BC194 = 1
+u 1
+u 7
+
+def[呂后]
+## Source:
+sw 呂后
+#
+tag 前漢
+tag 漢土
+tag 漢民族
+
+BC187 = 1
+u 1
+# 8 (BC180-8-18) 没
+u 8
+
+name_ja 呂后
+name_tw 呂后
+&
+name_tw 高后
+&
+name_ja 高皇后
+
+def[前少帝]
+tag 前漢
+tag 漢土
+tag 漢民族
+name_tw 前少帝
+&
+name_cn 汉前少帝
+&
+name_tw 少帝
+&
+name_cn 汉少帝
+
+## [102]
+wref_zh 西汉前少帝
+BC187 = 1
+u 1
+u 4
+
+def[後少帝]
+tag 前漢
+tag 漢土
+tag 漢民族
+name_tw 後少帝
+
+## [102]
+wref_zh 劉弘
+BC184 = 1
+u 1
+u 4
+
+def[漢文帝前]
+## Source:
+sw 文帝前
+#
+tag 前漢
+tag 漢土
+tag 漢民族
+tag 前元
+
+wref_ja 文帝 (漢)
+
+## [102]
+wref_zh 汉文帝
+BC179 = 1
+u 1
+u 16
+name_tw 漢文帝
+name_cn 汉文帝
+
+name_ja 漢文帝
+&
+name_ja 文帝
+name_tw 文帝
+name_cn 文帝
+&
+name_tw 文帝前
+name_ja 文帝前
+&
+name_tw 前
+name_cn 前
+
+def[漢文帝後]
+## Source:
+sw 文帝後
+#
+tag 前漢
+tag 漢土
+tag 漢民族
+tag 後元
+
+## [102]
+wref_zh 汉文帝
+BC163 = 1
+u 1
+u 7
+name_tw 後
+name_cn 后
+
+## [103]
+wref_ja 文帝 (漢)
+name_ja 後
+
+def[漢景帝前]
+## Source:
+sw 景帝前
+#
+tag 前漢
+tag 漢土
+tag 漢民族
+tag 前元
+
+name_ja 景帝前
+name_tw 景帝前
+name_cn 景帝前
+&
+
+## [102]
+wref_zh 汉景帝
+BC156 = 1
+u 1
+u 7
+name_tw 景帝前元
+name_cn 景帝前元
+&
+name_cn 汉景帝前元
+
+&
+name_ja 景帝
+
+def[漢景帝中]
+## Source:
+sw 景帝中
+#
+tag 前漢
+tag 漢土
+tag 漢民族
+tag 中元
+BC149 = 1
+u 1
+u 6
+
+name_ja 景帝中
+&
+name_ja 景帝中元
+name_tw 景帝中元
+&
+name_tw 中元
+name_cn 中元
+&
+
+## [102]
+wref_zh 汉景帝
+name_tw 中
+name_cn 中
+
+def[漢景帝後]
+## Source:
+sw 景帝後
+#
+tag 前漢
+tag 漢土
+tag 漢民族
+tag 後元
+
+name_ja 景帝後元
+&
+
+## [102]
+wref_zh 汉景帝
+BC143 = 1
+u 1
+u 3
+name_tw 後
+name_cn 后
+
 [建元]
 #y~332
 AD-140 = 1
@@ -265,6 +517,7 @@ name_tw 後元
 name_cn 后元
 u 1-9
 tag 追号説のある元号
+tag 後元
 
 ## [103]
 wref_ja 後元

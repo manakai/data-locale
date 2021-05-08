@@ -322,3 +322,13 @@ tag
 
 tag
   name_ja 建元撤回撤回
+
+tag
+  name_ja 前元
+
+tag
+  name_ja 中元
+
+tag
+  name_ja 後元
+
