@@ -6,3 +6,5 @@
 - "../../bin/modules/web-css" tests
 - "../../bin/modules/web-langtag" tests
 - "../../bin/modules/charclass" tests
+
+- "../../bin/modules/json-ps" build tests

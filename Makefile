@@ -3,7 +3,7 @@ GIT = git
 
 all: deps data
 
-clean: clean-data clean-json-ps
+clean: clean-data
 
 updatenightly: update-submodules dataautoupdate
 
@@ -19,7 +19,7 @@ dataautoupdate: clean all
 
 ## ------ Setup ------
 
-deps: git-submodules pmbp-install json-ps
+deps: git-submodules pmbp-install
 
 git-submodules:
 	$(GIT) submodule update --init
@@ -36,16 +36,9 @@ pmbp-install: pmbp-upgrade
             --create-perl-command-shortcut perl \
             --create-perl-command-shortcut prove
 
-json-ps: local/perl-latest/pm/lib/perl5/JSON/PS.pm
-clean-json-ps:
-	rm -fr local/perl-latest/pm/lib/perl5/JSON/PS.pm
-local/perl-latest/pm/lib/perl5/JSON/PS.pm:
-	mkdir -p local/perl-latest/pm/lib/perl5/JSON
-	$(WGET) -O $@ https://raw.githubusercontent.com/wakaba/perl-json-ps/master/lib/JSON/PS.pm
-
 ## ------ Generation ------
 
-PERL = ./perl
+PERL = ./perl -I bin/modules/json-ps/lib
 
 data: data-deps data-main
 

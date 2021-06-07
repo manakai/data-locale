@@ -30,3 +30,7 @@
 	path = bin/modules/generation
 	url = https://github.com/geocol/generation
 	track = master
+[submodule "bin/modules/json-ps"]
+	path = bin/modules/json-ps
+	url = https://github.com/wakaba/perl-json-ps
+	track = master
