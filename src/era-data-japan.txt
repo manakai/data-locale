@@ -1,3 +1,83 @@
+%tag country
+%tag   key 日本国
+%tag   label_ja 日本国 (現代)
+%tag   label_en Japan (Modern)
+%tag   name_ja 日本国
+%tag   name_ja 日本國
+%tag   name_ja 日本
+%tag   name_en Japan
+%tag   ## S22(1947).11.3 - now
+%tag 
+%tag   period of 日本
+
+%tag country
+%tag   key 大日本帝国
+%tag   label_ja 大日本帝国 (明治-昭和初期)
+%tag   name_ja 大日本帝國
+%tag   name_ja 大日本帝国
+%tag   name_ja 日本国
+%tag   name_ja 日本
+%tag   ## 慶応3.12.9 - S22.11.2
+%tag 
+%tag   period of 日本
+%tag   region of 大東亜共栄圏
+
+%tag country
+%tag   key 日本北朝
+%tag   label_ja 北朝 (日本)
+%tag   name_ja 北朝
+%tag 
+%tag   period of 日本
+
+%tag country
+%tag   key 日本南朝
+%tag   label_ja 南朝 (日本)
+%tag   name_ja 南朝
+%tag 
+%tag   period of 日本
+
+%tag country
+%tag   name_ja 日本
+%tag   name_ja 日本国
+%tag   name_en Japan
+
+%tag region
+%tag   label_ja 日本国福島県
+%tag   name_ja 福島県
+%tag   name 福島
+%tag   region of 日本国
+
+%tag region
+%tag   label_ja 日本国埼玉県
+%tag   region of 日本国
+
+%tag region
+%tag   label_ja 大日本帝国埼玉県秩父郡
+%tag   name_ja 秩父郡
+%tag   region of 日本国埼玉県
+
+%tag region
+%tag   label_ja 日本国鳥取県
+%tag   name_ja 鳥取県
+%tag   name 鳥取
+%tag   region of 日本国
+
+%tag region
+%tag   label_ja 日本国福岡県
+%tag   name_ja 福岡県
+%tag   name 福岡
+%tag   region of 日本国
+
+%tag region
+%tag   label_ja 日本国大分県
+%tag   name_ja 大分県
+%tag   name_ja 大分
+%tag   region of 日本国
+
+%tag region
+%tag   name_ja 司王国
+%tag   region of 日本国
+
 %tag region
 %tag   name_ja 樺太
 %tag   region of 日本
@@ -310,6 +390,20 @@ tag 一世一元
 
 
 
+[神武天皇]
+name 神武天皇即位紀元
+name 神武紀元
+name 皇紀
+name 即位紀元
+name 皇暦
+name 神武暦
+name 日紀
+name 日本紀元
+name 神武皇紀
+#wref_ja 神武天皇即位紀元
+wref_zh 皇纪
+sw 神武天皇即位紀元
+
 def[自由自治]
 ## Source:
 sw 自由自治
@@ -336,3 +430,1055 @@ tag 日本国
 tag 日本人
 tag 日本の私年号
 AD1904 = 1
+
+def[亀光]
+AD1861 = 1
+name_ja 亀光
+sw 亀光
+tag 日本の私年号
+
+def[霊寿]
+# y~1390
+## Source:
+sw 霊寿
+#
+name_ja 霊寿
+name_kana れい じゅ
+name_ja 靈壽
+wref_ja 璽宇
+tag 日本国
+tag 日本人
+tag 璽宇
+AD1946 = 1
+# <-昭和 1946-5-1
+u 14-2-12
+tag 日本の私年号
+
+def[大延]
+# y~1294
+## Source:
+sw 大延
+#
+name_ja 大延
+tag 日本国
+tag 日本人
+tag 熊沢寛道
+AD1915 = 1
+u 35-10-29
+u 39
+tag 日本の私年号
+
+def[芦原太陽暦]
+# y~1791
+## Source:
+sw 芦原太陽暦
+#
+name_ja 芦原太陽暦
+name_ja 葦原太陽暦
+&
+name_ja 即位
+AD-23107 = 1
+tag 大日本帝国
+tag 日本人
+tag 芦原金次郎
+u 25004
+
+def[立教]
+# y~1798
+## Source:
+sw 立教
+#
+name_ja 立教
+name_kana りっ きょう
+&
+#lang:es
+name Rikkyo
+&
+abbr_ja R Rikkyo
+&&
+name_en Tenrikyo
+&&
+#lang:po
+name Revelação Divina
+acronym RD R.D. Revelação Divina
+AD1838 = 1
+tag 日本国
+tag 米国
+tag ブラジル
+tag 日本人
+tag 日系ブラジル人
+u 1
+u 5
+u 88-11-5
+u 181
+u 183
+
+def[立教(己未)]
+# y~1799
+## Source:
+sw 立教 (大和山)
+#
+name_ja 立教
+AD2018 = 100
+# region 日本国
+tag 日本人
+tag 松緑神道大和山
+u 97
+u 103
+
+def[天暦(乙巳)]
+# y~1800
+## Source:
+sw 天暦 (天祖光教)
+#
+name_ja 天暦
+AD2018 = 54
+u 34-10-10
+u 54
+tag 日本国
+tag 日本人
+tag 天祖光教
+
+def[弥勒(庚子)]
+# y~1801
+## Source:
+sw 弥勒 (平等大慧会)
+#
+name_ja 弥勒
+AD1960 = 1
+u 40
+tag 日本人
+tag 日本国
+tag 平等大慧会
+
+def[弥勒(癸巳)]
+# y~1805
+## Source:
+sw 弥勒 (空の真法)
+#
+name_ja 弥勒
+AD2013 = 1
+tag 日本人
+tag 日本国
+u 1-1-1
+u 2-3
+
+def[命知]
+# y~1749
+## Source
+sw 命知
+#
+name_ja 創業命知
+&
+name_ja 命知
+name_kana めい ち
+# XXX name_long
+# transliteration Meichi
+name_cn 命知
+AD1932 = 1
+# preferred style g第y年
+tag 松下電器産業株式会社
+tag 日本国
+tag 日本人
+# 1932-05-05 establishment
+u 75
+tag 日本の私年号
+
+def[科学紀元]
+# y~1733
+## Source:
+sw 科学紀元
+#
+name 科学紀元
+AD2000 = 0
+sw 科学紀元
+# <-AD 2000-01-01
+# 2000-01-08 (or -09) established
+u -2
+u 0
+u 14-10
+tag 日本人
+tag 日本国
+
+def[宇宙暦]
+# y~1730
+## Source:
+sw 宇宙暦
+#
+name_ja 宇宙暦
+&
+name_en Star Date
+acronym S.D.
+AD1969 = 1
+# 宇宙暦紀元前
+tag 日本国
+tag 日本人
+u 1-7-21
+u 48
+# u 宇宙暦紀元前11-1-6
+u 53-3-2
+
+def[天孫紀元]
+# y~1729
+## Source:
+sw 天孫紀元
+#
+name_ja 天孫紀元
+name_kana てん そん き げん
+&
+name_ja 皇紀
+&
+name_ja 天降紀元
+&
+name_ja 天祖紀年
+&
+name_ja 天孫降臨紀元
+&
+name_ja 皇孫降臨紀年
+&
+name_ja 天孫皇紀
+&
+name_ja 肇国紀元
+&
+name_ja 天祖降跡紀元
+&
+name_ja 天降皇紀
+wref_ja 天孫紀元
+AD2016 = 1795149
+tag 日本人
+tag 日本国
+tag 神道
+u 1795096-7-10
+u 1795153
+
+def[天降紀元]
+# y~1802
+## Source:
+sw 天降紀元
+#
+name_ja 天降紀元
+#XXX
+#天降 紀 元
+#name_kana あもり き げん
+name_ja 天降
+&
+name_ja 天孫降臨以來
+&
+name_ja 中興紀元
+&
+name_ja 神仙紀元
+AD2009 = 5009
+tag 日本国
+tag 日本人
+tag 神道
+u 5009
+u 5020
+
+def[天之御中主天皇即位紀元]
+name_ja 天之御中主天皇即位紀元
+&
+name_ja 皇紀
+sw 天之御中主天皇即位紀元
+
+def[神紀]
+name 神紀
+sw 神紀
+
+def[霊波]
+# y~1735
+## Source:
+sw 霊波暦
+#
+name_ja 霊波
+name_kana れい は
+&
+name_ja 霊波暦
+abbr_ja R Reiha
+AD1915 = 1
+tag 日本国
+tag 日本人
+tag 霊波之光
+u 86
+u 43
+u 106-5-8
+
+def[聖日]
+# y~1737
+## Source:
+sw 聖日
+#
+name_ja 聖日
+name_kana せい び
+AD1987 = 1
+tag 日本人
+tag 日本国
+tag 神示教会
+u 28-7
+u 34
+
+def[神の国の紀元]
+# y~1748
+## Source:
+sw 神の国の紀元
+#
+name_ja 紀元
+&
+name_ja 大神様紀元
+&
+name_ja 神の国の紀元
+&
+name_ja 神の国年
+&
+name_ja 神の国開元の年
+AD1946 = 1
+tag 日本人
+tag 日本国
+tag 天照皇大神宮教
+u 1
+u 5-4
+u 9-12
+u 66
+
+def[救済]
+# y~1746
+## Source:
+sw 救済
+#
+name_ja 救済
+AD1991 = 1
+tag 日本国
+tag 日本人
+tag オウム真理教
+u 1
+u 4
+
+def[真理]
+# y~1747
+## Source:
+sw 真理
+#
+name_ja 真理
+&
+name_ja 真理暦
+name_ja 真理歴
+AD1997 = 1
+tag 日本国
+tag 日本人
+tag オウム真理教
+u 1
+
+def[金蛙]
+# y~1792
+## Source:
+sw 金蛙
+#
+name_ja 金蛙
+AD2003 = 1
+tag 日本国福岡県
+tag 日本人
+tag 全国かえる奉賛会
+tag げこげこ大王7世
+u 1-7-27
+u 3-9-20
+tag 日本の私年号
+
+def[悪魔暦]
+# y~1754
+## Source:
+sw 魔暦
+#
+name_ja 魔暦
+name_kana ま れき
+&
+name_ja 悪魔暦
+name_kana あく ま れき
+name D.C.
+# = Devil’s Calendar
+# 魔暦前
+# 魔暦紀元前
+# B.D.
+# = Before Demon
+wref_ja 魔暦
+AD1999 = 1
+u 1
+u 23
+tag 日本国
+tag 日本人
+
+def[真那暦]
+# y~1785
+## Source:
+sw 真那暦
+#
+name_ja 真那暦
+name_kana まさ な れき
+name_ja 真那歴
+AD1991 = 0
+# 2014-10-15 established
+u 24-1-2
+u 25
+u 30-1-1
+tag 日本人
+tag 日本国
+
+def[白王寂滅]
+## Source:
+sw 白王寂滅
+#
+name_ja 白王寂滅
+u 9-7-17
+u 9-6-19
+u 10-1-16
+AD2012 = 1
+tag 日本国
+tag 日本人
+tag 日本の私年号
+
+def[育喜]
+# y~1761
+## Source:
+sw 育喜
+#
+AD1983 = 1
+name_ja 育喜
+tag 日本国
+tag 日本人
+u 30
+u 36-1-4
+tag 日本の私年号
+
+def[急行志摩紀元]
+# y~1797
+## Source:
+sw 急行志摩紀元
+#
+name_ja 急行志摩紀元
+&
+name_ja 志摩紀元
+AD1972 = 1
+tag 日本国
+tag 日本人
+u 45-1-1
+u 49-1-1
+
+def[希哲]
+# y~1796
+## Source:
+sw 希哲紀元
+#
+name_ja 希哲
+&
+name_ja 希哲紀元
+name_kana き てつ き げん
+&
+name_ja 希紀
+&
+name_en Kitetu Era
+&
+acronym KE Kitetu Era
+&
+abbr K
+AD2007 = 1
+# 希哲前
+# 2014 established
+u 8
+u 15-1
+
+def[統仁]
+name 統仁
+sw 孝明天皇即位紀年
+AD1866 = 20
+
+def[阪神タイガース]
+# y~1793
+## Source:
+sw 阪神タイガース
+#
+name_ja 阪神タイガース
+&
+name_ja 阪神優勝
+&
+name_ja 優勝
+&
+name_ja 阪神暦
+AD1985 = 1
+tag 日本の私年号
+
+def[強小]
+# y~1786
+## Source:
+sw 強小
+#
+name_ja 強小
+name_kana きょう しょう
+name_en KYŌSHŌ
+AD2009 = 1
+u 1
+u 11
+u 12
+tag 日本国鳥取県
+tag 日本人
+tag 日本の私年号
+
+def[朱雀(戊寅)]
+# y~1767
+## Source:
+sw ◆朱雀
+#
+name_ja ◆朱雀
+name_ja 朱雀
+name_kana す ざく
+AD1998 = 1
+tag 日本国
+tag 日本人
+u 1
+u 22
+tag 日本の私年号
+
+def[大新]
+## Source:
+sw 大新
+#
+name_ja 大新
+sw 大新
+AD1945 = 1
+tag 中国共産党占領地満州
+tag 日本人
+# <-昭和
+u 2-3-24
+tag 日本の私年号
+
+def[大新(丙戌)]
+## Source:
+sw 大新
+#
+name_ja 大新
+AD1946 = 1
+tag 中国共産党占領地満州
+tag ソ連領シベリア
+tag 日本人
+# <-昭和
+u 1
+tag 日本の私年号
+
+def[新日本(乙酉)]
+## Source:
+sw 新日本
+#
+name_ja 新日本
+AD1945 = 1
+# <-昭和
+# 1945-12-29 proposed to the emperor
+# 1946-01    proposed to 衆議院議長
+u 1-12-10
+u 3-5
+u 5-1-1
+u 9-2
+# 1954-10-6 尾崎行雄 dead
+tag 日本人
+tag 日本国
+tag 日本の私年号
+
+def[新日本]
+## Source:
+sw 新日本
+#
+tag 日本人
+tag 日本国
+# incorrect -> 新日本(乙酉)
+name_ja 新日本
+wref_ja 元号
+AD1946 = 1
+tag 日本の私年号
+
+def[新日本紀元]
+## Source:
+sw 新日本紀元
+#
+name_ja 新日本紀元
+AD1952 = 1
+u 1-5-1
+tag 日本国
+tag 日本人
+
+def[戦後]
+# y~1759
+## Source:
+sw 戦後 (紀年法)
+#
+AD1946 = 1
+wref_ja 0年
+name_ja 戦後
+&
+name_ja 戦後暦
+name_ja 戦後歴
+&
+name_ja 戦後紀元
+&
+name_en After The War
+# cal Gregorian
+# cal 戦後暦
+tag 日本人
+tag 日本国
+u 40
+u 52-5-3
+u 59-1-31
+u 76
+# 戦前0, 戦前1, ...
+tag 日本の私年号
+
+def[戦後(乙酉)]
+# y~1772
+## Source:
+sw 戦後 (紀年法)
+#
+AD1945 = 1
+name_ja 戦後
+&
+name_ja 戦後暦
+tag 日本人
+tag 日本国
+u 63-8-6
+  # established
+u 63-8-11
+# ->戦後 y~1759
+# 2007-8-15 revised
+tag 日本の私年号
+
+def[非戦]
+## Source:
+sw 非戦
+#
+name_ja 非戦
+tag 日本人
+tag 日本国
+AD2002 = 1
+u 1-6-1
+u 8
+tag 日本の私年号
+
+def[労農]
+# y~1803
+## Source:
+sw 労農 (元号)
+#
+name_ja 労農
+tag 日本国
+tag 日本人
+tag 共産主義
+u 10-8-10
+AD1926 = 10
+tag 日本の私年号
+
+def[原子]
+# y~1773
+## Source:
+sw 原子暦
+#
+name_ja 原子
+&
+name_ja 原子暦
+&
+name A・A
+AD1945 = 1
+u 3
+tag 日本人
+tag 司王国
+#B・A
+tag 日本の私年号
+
+def[被爆]
+# y~1774
+## Source:
+sw 被爆
+#
+name_ja 被爆
+u 29
+u 30-12-20
+tag 日本人
+tag 日本国
+tag 日本の私年号
+
+def[原爆]
+# y~1775
+## Source:
+sw 原爆暦
+#
+name_ja 原爆
+&
+name_ja 原爆暦
+name_kana げん ばく れき
+&
+name_ja 原爆紀元
+&
+abbr_ja G
+&
+abbr A
+AD1945 = 1
+tag 日本人
+tag 日本国
+u 43-2-25
+u 25-8-6
+u 76-11-22
+#
+u 1-7
+u 10
+#
+u 41-5
+u 36
+u 58-2-27
+u 70-10
+# ->エコ暦
+#
+u 78-10
+u 76-1-15
+tag 日本の私年号
+
+def[原爆紀元]
+# y~1781
+## Source:
+sw 原爆紀元
+#
+name_ja 原爆紀元
+&
+name_ja 原爆暦
+&
+name_en Post Atomic-bomb Calender
+&
+name_en GENBAKU CALENDER
+&
+name_ja GENBAKU
+&
+name_ja 原爆
+&
+name_en the atomic bomb
+&
+name_en Atomic Bomb Calendar
+&
+abbr_ja G
+AD1946 = 1
+tag 日本人
+tag 日本国
+tag 豪州
+u 46
+u 47-1-1
+#
+u 0
+u 62
+
+def[エコ暦]
+# y~1762
+## Source:
+sw エコ暦
+#
+name_ja エコ暦
+name_kana え こ れき
+&
+name_ja eco
+&
+abbr_ja E
+AD1945 = 1
+# <-原爆暦 y~1775
+u 58-2-27
+u 58-3-6
+u 62
+u 65
+u 71-8-8
+u 71-12-8
+tag 日本人
+tag 日本国
+
+def[原爆(エコ)暦]
+# y~1783
+## Source:
+sw 原爆(エコ)暦
+#
+name_ja 原爆(エコ)暦
+&
+name_ja eco
+AD1945 = 0
+u 60
+u 72-8-8
+u 72-12-8
+tag 日本人
+tag 日本国
+
+def[PH]
+# y~1776
+## Source:
+sw ポストヒロシマ
+#
+acronym PH P.H. Post HIROSHIMA
+&
+name_en Post HIROSHIMA
+name_ja ポストヒロシマ
+name_ja ポスト・ヒロシマ
+AD1945 = 1
+# 1978-2-1 proposed
+
+def[PH(丙戌)]
+# y~1777
+## Source:
+sw ポストヒロシマ
+#
+acronym PH P.H.
+&
+name_ja ポストヒロシマ
+name_ja ポスト・ヒロシマ
+name_ja ポスト広島
+name_kana ぽ す と ひろ しま
+AD1946 = 1
+
+def[ヒロシマ紀元]
+# y~1778
+## Source:
+sw ヒロシマ紀元
+#
+name_ja ヒロシマ紀元
+&
+name_ja ヒロシマ・ナガサキ紀元
+&
+name_ja ヒロシマ、ナガサキ
+AD1945 = 0
+tag 日本人
+tag 日本国
+# 1978? proposed
+u 37
+u 37-6-18
+# ->核時代
+u 51
+u 70-8-26
+
+def[aH]
+# y~1782
+## Source:
+sw aH
+#
+AD1946 = 0
+acronym AH A.H. after Hiroshima
+acronym aH after Hiroshima
+&
+name_en after Hiroshima
+name après Hiroshima
+&
+acronym d.H. dopo Hiroshima
+&
+name dopo Hiroshima
+&
+name_ja 広島紀元
+&
+name_ja アフターヒロシマ紀元
+&
+name_ja AH暦
+u 41-8
+u 75-10-10
+# cal aH
+tag ラエリアンムーブメント
+
+def[核時代]
+# y~601
+## Source:
+sw 核時代
+#
+name_ja 核時代
+name_kana かく じ だい
+&
+name_en Atomic Age
+&
+name_en Nuclear Age
+&
+name_en AN
+&
+name_ja 核年代
+wref_ja 核時代
+AD1945 = 0
+# <-ヒロシマ紀元
+u 42-12-25
+u 56-3-14
+u 75-8
+tag 日本人
+tag 日本国
+tag 日本の私年号
+
+def[核時代(乙酉)]
+# y~1779
+## Source:
+sw 核時代
+#
+name_ja 核時代
+name_kana かく じ だい
+&
+name_en Atomic Age
+&
+name_en Nuclear Age
+&
+name_ja 各時代
+AD1945 = 1
+u 42-5
+tag 日本の私年号
+
+def[核時代後]
+# y~1780
+## Source:
+sw 核時代後
+#
+name_ja 核時代後
+&
+name_ja 核時代後年号
+&
+name_ja 核時代年号
+&
+name_ja 核紀元
+&
+acronym AN after nuclear
+&
+name_en after N
+&
+name_en after nuclear
+&&
+name_ja 広島・長崎紀元
+&
+name_ja 広島・長崎元号
+&&
+name_ja 地球暦
+&
+name_ja 世界暦
+# 核時代前 BN before nuclear
+AD1945 = 0
+u 47-1-1
+u 75
+tag 日本の私年号
+
+def[豊国]
+# y~1784
+## Source:
+sw 豊国
+#
+name_ja 豊国
+name_kana ほう こく
+AD1977 = 1
+# 1977-8-1 established
+u 5-4
+u 11-8-13
+tag 日本人
+tag 新邪馬台国
+tag 日本の私年号
+%tag region
+%tag   name_ja 新邪馬台国
+%tag   region of 日本国大分県
+
+def[震災]
+# y~1788
+## Source:
+sw 震災元年
+#
+name_ja 震災
+name_kana しん さい
+AD2011 = 1
+tag 日本人
+tag 日本国
+#
+# 2012-01-09 established
+u 1
+u 10-2-28
+# ->コロナ y~1794 2020-03-08
+#
+u 1-6
+u 1-4
+tag 日本の私年号
+
+def[フクシマ]
+# y~1787
+## Source:
+sw フクシマ元年
+#
+name_ja フクシマ
+AD2011 = 0
+tag 日本人
+tag 日本国
+u 0
+u 10
+tag 日本の私年号
+
+def[フクシマ紀元]
+# y~1738
+## Source:
+sw フクシマ紀元
+#
+name_ja フクシマ紀元
+name_kana ふ く し ま き げん
+&
+name_ja 震災紀元
+&
+name_ja フクシマ紀
+AD2011 = 1
+tag 日本人
+tag 日本国
+u 1
+u 2-7-3
+u 3
+#
+name_ja 福島
+u 7-8-4
+u 9
+u 11-1-22
+
+def[コロナ]
+# y~1794
+## Source:
+sw コロナ元年
+#
+name_ja コロナ
+&
+name_ja アフターコロナ
+AD2020 = 1
+# <-震災 y~1788 2020-03-08
+u 1-3-8
+u 1-5-25
+u 1-7-20
+u 2-1-11
+tag 日本国
+tag 日本人
+tag 日本の私年号
+
+def[江戸]
+# y~1789
+## Source:
+sw 江戸 (私年号)
+#
+name_ja 江戸
+tag 日本国
+tag 日本人
+AD1603 = 0
+u 416-5-14
+u 418-1-27
+tag 日本の私年号
+
+def[大元暦]
+# y~1790
+## Source:
+sw 大元暦
+#
+name_ja 大元暦
+#name_kana "だいげん" + "れき"?
+AD1952 = 1
+u 61
+tag 日本人
+tag 日本国
+tag 大元密教
+
+def[ニコニコ共和国]
+#y~1862
+## Source:
+sw ニコニコ共和国元年
+#
+name_ja ニコニコ共和国
+AD1982 = 1
+u 1-4-28
+tag 日本人
+tag 日本国
+tag ニコニコ共和国
+tag 日本の私年号
+%tag region
+%tag   name_ja ニコニコ共和国
+%tag   region of 日本国福島県

@@ -5729,6 +5729,14 @@ sw 中華共和国 (紀年法)
 wref_ja 中華共和国 (年号)
 AD1933 = 1
 
+## <https://ja.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E5%85%B1%E5%92%8C%E5%9B%BD>
+u 1-11-22
+#<-民国 established
+u 2-1-21
+#2-1-13 陥落
+#2-1-21 完全滅亡
+#->民国
+
 %tag country
 %tag   name_ja 中華人民共和国
 %tag 
