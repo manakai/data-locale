@@ -1,4 +1,5 @@
 def[unknown]
+#y~1764
 code #18 9
 code #6 9
 
@@ -877,6 +878,8 @@ name_ja 希紀
 name_en Kitetu Era
 &
 acronym KE Kitetu Era
+&
+abbr K
 AD2007 = 1
 # 希哲前
 # 2014 established

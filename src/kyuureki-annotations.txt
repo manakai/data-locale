@@ -291,6 +291,16 @@ title when.exe: 『唐・日本における進朔に関する研究』(2013-10�
 url https://github.com/suchowan/when_exe/blob/master/lib/when_exe/region/japanese/calendars.rb
 data
 
+* c31
+title when.exe: Chinese
+url https://github.com/suchowan/when_exe/blob/master/lib/when_exe/region/chinese/calendars.rb
+data
+* c293
+title when.exe: ChineseLuniSolar?time_basis=+08
+data
+# not valid data for historical dates
+broken
+
 * j480
 title ザ・ランス: 旧暦/グレゴリオ暦対照表: 2014.1.3
 data
@@ -427,6 +437,15 @@ m 0835-04-01
 m 0836-12-01
 m 0837-06-01
 
+* c34
+title 中華暦(からごよみ)
+url http://www.wagoyomi.info/karagoyomi/
+data
+
+## <http://www.wagoyomi.info/karagoyomi/karagoyomi_note.html>
+m 2089-08-01
+m 0699-11-01
+
 * j151
 title qreki
 m 2224-02'-01 2224-03-01
@@ -556,6 +575,11 @@ m 0794-05-01
 m 0820-02-01
 m 2101-01-01
 
+* c337
+title 農暦データファイル1
+data
+reference
+
 * j512
 title iCalendar形式の旧暦カレンダー
 url http://www8.plala.or.jp/garden/note/kyureki.html
@@ -615,3 +639,111 @@ data
 title 旧暦-西暦の相互変換
 url http://can-chan.com/koyomi/qreki-seireki.html
 data
+
+* c400
+title 兩千年中西曆轉換
+url http://sinocal.sinica.edu.tw/
+data
+reference
+
+* c44
+title 改年始
+
+m -0104-10-01 -0104-11-01 -0104-12-01
+m -0103-10-01 -0103-11-01 -0103-12-01
+
+m 0008-12-01
+m 0009-01-01 0009-02-01 0009-03-01 0009-04-01 0009-05-01 0009-06-01
+m 0009-07-01 0009-08-01 0009-09-01 0009-10-01 0009-11-01 0009-12-01
+
+m 0023-01-01 0023-02-01 0023-03-01 0023-04-01 0023-05-01 0023-06-01
+m 0023-07-01 0023-08-01 0023-09-01 0023-10-01 0023-11-01 0023-12-01
+m 0023-09'-01
+
+m 0237-03-01 0237-04-01 0237-05-01 0237-06-01
+m 0237-07-01 0237-08-01 0237-09-01 0237-10-01 0237-11-01 0237-12-01
+m 0238-01-01 0238-02-01 0238-03-01 0238-04-01 0238-05-01 0238-06-01
+m 0238-07-01 0238-08-01 0238-09-01 0238-10-01 0238-11-01 0238-12-01
+m 0239-01-01 0239-02-01 0239-03-01 0239-04-01 0239-05-01 0239-06-01
+m 0239-07-01 0239-08-01 0239-09-01 0239-10-01 0239-11-01 0239-12-01
+m 0239-12'-01
+
+m 0689-11-01 0689-12-01
+m 0690-01-01 0690-02-01 0690-03-01 0690-04-01 0690-05-01 0690-06-01
+m 0690-07-01 0690-08-01 0690-09-01 0690-10-01 0690-11-01 0690-12-01
+
+m 0699-01-01 0699-02-01 0699-03-01 0699-04-01 0699-05-01 0699-06-01
+m 0699-07-01 0699-08-01 0699-09-01 0699-10-01 0699-11-01 0699-12-01
+m 0700-01-01 0700-02-01 0700-03-01 0700-04-01 0700-05-01 0700-06-01
+m 0700-07-01 0700-08-01 0700-09-01 0700-10-01 0700-11-01 0700-12-01
+
+m 0761-11-01 0761-12-01
+m 0762-01-01 0762-02-01 0762-03-01 0762-04-01
+
+m 1119-11-01 1119-12-01
+m 1120-01-01 1120-02-01 1120-03-01 1120-04-01 1120-05-01 1120-06-01
+m 1120-07-01 1120-08-01 1120-09-01 1120-10-01 1120-11-01 1120-12-01
+
+* c551
+title 佛學規範資料庫: 時間規範: chinese
+url https://authority.dila.edu.tw/time/
+data
+* j552
+title 佛學規範資料庫: 時間規範: japanese
+url https://authority.dila.edu.tw/time/
+data
+* k553
+title 佛學規範資料庫: 時間規範: korean
+url https://authority.dila.edu.tw/time/
+data
+
+* c15
+url 天文
+#url http://www.cwb.gov.tw/V7/astronomy/cdata/calpdf/calpdf.htm
+#url https://www.cwb.gov.tw/V7/astronomy/calendar.htm
+data partial
+reference
+
+* c14
+title 公曆與農曆對照表
+#url http://www.weather.gov.hk/gts/time/conversionc.htm
+url https://www.weather.gov.hk/tc/gts/time/conversion.htm
+data
+reference
+
+* c93
+title 无标题文档
+url http://almanac.pmo.ac.cn/cx/
+data
+
+* c302
+title Chrome: zh-u-ca-chinese
+data
+broken
+* c303
+title Firefox: zh-u-ca-chinese
+data
+broken
+* c276
+title Foundation: Calendar.Identifier.chinese
+data
+broken
+
+* c157
+title 公曆和農曆日期對照 (公元前722年—公元2200年)
+url https://ytliu0.github.io/ChineseCalendar/
+data
+m 0236-12-01 0237-01-01 0237-02-01 0237-03-01 0237-04-01 0237-05-01 0237-06-01
+m 0238-10'-01 0238-11-01
+m 0447-10-01 0447-10'-01 0447-11-01 0447-12-01
+m 0575-08'-01 0575-09-01 0575-09'-01
+m 0502-04'-01 0502-05-01 0502-05'-01
+m 0575-08'-01 0575-09-01 0575-09'-01
+m 0678-10'-01 0678-11-01 0678-11'-01
+m 1462-11-01
+m 1581-10-01 1588-03-01 1588-04-01 1588-12-01
+m 1600-01-01
+m 1609-01-01
+m 2057-09-01 2089-08-01 2097-07-01 2115-02-01 2116-04-01 2133-09-01
+m 2165-11-01 2172-09-01
+
