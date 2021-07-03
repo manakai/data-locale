@@ -7,14 +7,6 @@ use JSON::PS;
 use Web::URL::Encoding;
 binmode STDERR, qw(:encoding(utf-8));
 
-sub ymd2string ($$$) {
-  if ($_[0] < 0) {
-    return sprintf '-%04d-%02d-%02d', -$_[0], $_[1], $_[2];
-  } else {
-    return sprintf '%04d-%02d-%02d', $_[0], $_[1], $_[2];
-  }
-} # ymd2string
-
 {
   ## Derived from |Time::Local|
   ## <http://cpansearch.perl.org/src/DROLSKY/Time-Local-1.2300/lib/Time/Local.pm>.
@@ -60,29 +52,6 @@ sub ymd2string ($$$) {
            + ( SECS_PER_DAY * $days );
   }
 }
-
-sub gymd2jd ($$$) {
-  my ($y, $m, $d) = @_;
-
-  my $unix = timegm_nocheck (0, 0, 0, $d, $m-1, $y);
-  my $jd = $unix / (24*60*60) + 2440587.5;
-
-  return $jd;
-} # gymd2jd
-
-sub jd2g_ymd ($) {
-  my @time = gmtime (($_[0] - 2440587.5) * 24 * 60 * 60);
-  return undef unless defined $time[5];
-  return ($time[5]+1900, $time[4]+1, $time[3]);
-} # jd2g_ymd
-
-sub ssday ($) {
-  my ($jd) = @_;
-  my ($y, $m, $d) = jd2g_ymd ($jd);
-  my $g = ymd2string ($y, $m, $d);
-  return {jd => $jd,
-          gregorian => $g};
-} # ssday
 
 
 my $root_path = path (__FILE__)->parent->parent;
@@ -492,16 +461,7 @@ for my $path (
       set_tag $key => $tkey;
 
     } elsif (defined $key and /^<-(\S+)\s+([0-9]+)-([0-9]+)-([0-9]+)$/) {
-      my $from_key = $1;
-      my $jd = gymd2jd $2, $3, $4;
-      push @{$Data->{eras}->{$key}->{starts} ||= []},
-          {day => (ssday $jd),
-           prev => $from_key,
-           type => 'established'};
-      push @{$Data->{eras}->{$from_key}->{ends} ||= []},
-          {day => (ssday $jd),
-           next => $key,
-           type => 'established'};
+      push @{$Data->{_TRANSITIONS} ||= []}, [$1 => $key, $2, $3, $4];
       
     } elsif (/\S/) {
       die "Bad line |$_|";

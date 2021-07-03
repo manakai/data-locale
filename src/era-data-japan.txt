@@ -411,6 +411,9 @@ sw 自由自治
 name_ja 自由自治
 name_ja 自由・自治
 name_kana じ ゆう じ ち
+&&
+name_ja 日本共和国
+
 wref_ja 自由自治
 u 1-11-2
 u 129-1-1

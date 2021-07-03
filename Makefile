@@ -200,7 +200,11 @@ local/calendar-era-yomis.txt: bin/calendar-era-yomis.pl \
     local/era-yomi-list.json
 	DATA=2 $(PERL) $< > $@
 
-data/calendar/era-defs.json: bin/calendar-era-defs.pl \
+data/calendar/era-defs.json: bin/calendar-era-defs-events.pl \
+    local/calendar-era-defs-0.json
+	$(PERL) $< > $@
+
+local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
     local/era-defs-jp.json local/era-defs-jp-emperor.json \
     src/wp-jp-eras.json \
     local/char-variants.json \
