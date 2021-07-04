@@ -194,24 +194,29 @@ for my $path (
   }
 }
 
-sub set_tag ($$) {
-  my ($key, $tkey) = @_;
+sub set_object_tag ($$) {
+  my ($obj, $tkey) = @_;
   my $item = $TagByKey->{$tkey};
   die "Tag |$tkey| not defined" unless defined $item;
 
-  $Data->{eras}->{$key}->{tag_ids}->{$item->{id}} = $item->{key};
-      for (qw(region_of group_of period_of)) {
-        for (keys %{$item->{$_} or {}}) {
-          my $item2 = $Tags->{$_};
-          $Data->{eras}->{$key}->{tag_ids}->{$item2->{id}} = $item2->{key};
-          if ($item2->{type} eq 'country') {
-            for (keys %{$item2->{period_of} or {}}) {
-              my $item3 = $Tags->{$_};
-              $Data->{eras}->{$key}->{tag_ids}->{$item3->{id}} = $item3->{key};
-            }
-          }
+  $obj->{tag_ids}->{$item->{id}} = $item->{key};
+  for (qw(region_of group_of period_of)) {
+    for (keys %{$item->{$_} or {}}) {
+      my $item2 = $Tags->{$_};
+      $obj->{tag_ids}->{$item2->{id}} = $item2->{key};
+      if ($item2->{type} eq 'country') {
+        for (keys %{$item2->{period_of} or {}}) {
+          my $item3 = $Tags->{$_};
+          $obj->{tag_ids}->{$item3->{id}} = $item3->{key};
         }
       }
+    }
+  }
+} # set_object_tag
+
+sub set_tag ($$) {
+  my ($key, $tkey) = @_;
+  set_object_tag $Data->{eras}->{$key} ||= {}, $tkey;
 } # set_tag
 
 {
@@ -460,8 +465,10 @@ for my $path (
       my $tkey = $1;
       set_tag $key => $tkey;
 
-    } elsif (defined $key and /^<-(\S+)\s+([0-9]+)-([0-9]+)-([0-9]+)$/) {
-      push @{$Data->{_TRANSITIONS} ||= []}, [$1 => $key, $2, $3, $4];
+    } elsif (defined $key and /^<-(\S+)\s+(\S.+\S)\s*$/) {
+      push @{$Data->{_TRANSITIONS} ||= []}, [$1 => $key, $2];
+    } elsif (defined $key and /^->(\S+)\s+(\S.+\S)\s*$/) {
+      push @{$Data->{_TRANSITIONS} ||= []}, [$key => $1, $2];
       
     } elsif (/\S/) {
       die "Bad line |$_|";

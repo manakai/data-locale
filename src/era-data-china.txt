@@ -2394,15 +2394,24 @@ name_kana えん こう
 %tag country
 %tag   name_ja 呉
 
+%tag country
+%tag   name_ja 孫呉
+%tag 
+%tag   period of 呉
+
 %tag tag
 %tag   name_ja 呉の公年号
 %tag   group of 中華王朝の公年号
 
+%tag tag
+%tag   name_ja 孫呉の公年号
+%tag   group of 呉の公年号
+
 [黃武]
 #y~500
 AD222 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -2422,8 +2431,8 @@ u 1-10
 [黃龍(己酉)]
 #y~319
 AD229 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -2440,8 +2449,8 @@ name_kana こう りゅう
 [嘉禾]
 #y~480
 AD232 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -2459,8 +2468,8 @@ u 7-8
 [赤烏]
 #y~1003
 AD238 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -2478,8 +2487,8 @@ name_kana せき う
 [太元]
 #y~1363
 AD251 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -2498,8 +2507,8 @@ name_kana たい げん
 [神鳳]
 #y~215
 AD252 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -2517,8 +2526,8 @@ name_kana しん ぽう
 [建興(壬申)]
 #y~716
 AD252 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -2536,8 +2545,8 @@ name_kana けん こう
 [五鳳(甲戌)]
 #y~1096
 AD254 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -2553,8 +2562,8 @@ name_kana ご ほう
 [太平]
 #y~1543
 AD256 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -2573,8 +2582,8 @@ u 1-10
 [永安]
 #y~778
 AD258 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -2593,8 +2602,8 @@ name_kana えい あん
 [元興(甲申)]
 #y~1583
 AD264 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -2613,8 +2622,8 @@ name_kana げん こう
 [甘露(乙酉)]
 #y~907
 AD265 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -2632,8 +2641,8 @@ name_kana かん ろ
 [寶鼎]
 #y~947
 AD266 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -2651,8 +2660,8 @@ name_kana ほう てい
 [建衡]
 #y~956
 AD269 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -2670,8 +2679,8 @@ name_kana けん こう
 [鳳凰]
 #y~1408
 AD272 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -2687,8 +2696,8 @@ name_kana ほう おう
 [天冊]
 #y~744
 AD275 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -2711,8 +2720,8 @@ name_cn 天策
 [天璽]
 #y~1654
 AD276 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -2730,8 +2739,8 @@ name_kana てん じ
 [天紀]
 #y~1092
 AD277 = 1
-tag 呉
-tag 呉の公年号
+tag 孫呉
+tag 孫呉の公年号
 tag 漢土
 tag 漢民族
 
@@ -4824,18 +4833,31 @@ u 5
 
 def[呉]
 #y~1828
-AD1367 = 1
+## Source:
 sw 呉元年
+#
+AD1367 = 1
 wref_ja 洪武
 tag 明
 tag 明の公年号
+tag 王の即位紀年
 tag 漢土
 tag 漢民族
-#<-至正 1367
-
+tag 呉
+tag 新規称元
 name_ja 呉
 name_kana ご
-u 1
+name_cn 吴
+name_tw 吳
+&
+name_ja 呉王
+name_kana ご おう
+#1366-12 proclaimed
+<-至正 明:1367-1-1(戊寅) #明 #呉
+#<-干支年
+u 1-1-1
+->洪武 明:1368-1-乙亥 #明 #呉
+u 2-1
 
 [洪武]
 #y~127
@@ -4846,8 +4868,8 @@ tag 漢土
 tag 漢民族
 tag 明領高麗
 tag 君主名の元号
+tag 即位紀年から改元建元
 tag 再開
-#<-呉 1368
 
 ## [102]
 name_tw 洪武
