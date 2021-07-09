@@ -110,6 +110,10 @@ sub label_to_kanshi0 ($) {
   return $kanshi - 1;
 } # label_to_kanshi0
 
+sub year2kanshi0 ($) {
+  return (($_[0]-4)%60);
+} # year2kanshi0
+
 my $KMaps = {};
 my $GToKMapKey = {
   明 => 'zuitou',
@@ -135,16 +139,48 @@ sub nymmd2jd ($$$$$) {
 
   my $gr;
   my $delta = 0;
-  my $k = ymmd2string $y, $m, $lm, $d;
-  if (defined $kmap->{$k}) {
-    $gr = $kmap->{$k};
-  } else {
-    my $k1 = ymmd2string $y, $m, $lm, 1;
-    if (defined $kmap->{$k1}) {
-      $gr = $kmap->{$k1};
-      $delta = $d - 1;
+  if ($d eq '末') {
+    if ($lm) {
+      $lm = 0;
+      $m++;
+      if ($m == 13) {
+        $y++;
+        $m = 1;
+      }
+      my $k1 = ymmd2string $y, $m, $lm, 1;
+      if (defined $kmap->{$k1}) {
+        $gr = $kmap->{$k1};
+      } else {
+        die "Bad date ($g, $y, $m, $lm, 1)";
+      }
+      $delta = -1;
     } else {
-      die "Bad date ($g, $y, $m, $lm, $d)";
+      my $k1 = ymmd2string $y, $m, 1, 1;
+      if (defined $kmap->{$k1}) {
+        $gr = $kmap->{$k1};
+        $delta = -1;
+      } else {
+        my $k1 = ymmd2string $y, $m+1, 0, 1;
+        if (defined $kmap->{$k1}) {
+          $gr = $kmap->{$k1};
+          $delta = -1;
+        } else {
+          die "Bad date ($g, $y, $m+1, $lm, 1)";
+        }
+      }
+    }
+  } else {
+    my $k = ymmd2string $y, $m, $lm, $d;
+    if (defined $kmap->{$k}) {
+      $gr = $kmap->{$k};
+    } else {
+      my $k1 = ymmd2string $y, $m, $lm, 1;
+      if (defined $kmap->{$k1}) {
+        $gr = $kmap->{$k1};
+        $delta = $d - 1;
+      } else {
+        die "Bad date ($g, $y, $m, $lm, $d)";
+      }
     }
   }
 
@@ -235,7 +271,8 @@ sub ssday ($$) {
              kanshi_label => (kanshi0_to_label $kanshi),
              gregorian => $g};
 
-  if ($tag_ids->{1103}) { # 明
+  if ($tag_ids->{1103} or # 明
+      $tag_ids->{1199}) { # 永楽帝
     $day->{nongli_tiger} = ymmd2string gymd2nymmd '明', $y, $m, $d;
   }
   
@@ -272,44 +309,154 @@ sub set_object_tag ($$) {
   }
 } # set_object_tag
 
+sub parse_date ($$;%) {
+  my ($all, $v, %args) = @_;
+
+  my @jd;
+  while (length $v) {
+    if ($v =~ s{^([0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
+      push @jd, gymd2jd $1, $2, $3; # XXX
+    } elsif ($v =~ s{^g:([0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
+      push @jd, gymd2jd $1, $2, $3;
+    } elsif ($v =~ s{^(明):([0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
+      push @jd, nymmd2jd $1, $2, $4, $5, $6;
+      push @jd, nymmk2jd $1, $2, $4, $5, $7;
+      if (defined $3) {
+        my $ky2 = label_to_kanshi0 $3;
+        my $ky1 = year2kanshi0 $2;
+        unless ($ky1 == $ky2) {
+          die "Year mismatch ($ky1 vs $ky2) |$all|";
+        }
+      }
+    } elsif ($v =~ s{^(明):([0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
+      push @jd, nymmd2jd $1, $2, $3, $4, $5;
+    } elsif ($v =~ s{^(明):([0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
+      push @jd, nymmk2jd $1, $2, $3, $4, $5;
+    } elsif ($v =~ s{^(明):([0-9]+)-([0-9]+)('|)\s*}{}) {
+      if ($args{start}) {
+        push @jd, nymmd2jd $1, $2, $3, $4, 1;
+      } elsif ($args{end}) {
+        push @jd, nymmd2jd $1, $2, $3, $4, '末';
+      } else {
+        die "Bad date |$v| ($all)";
+      }
+    } elsif ($v =~ s{^(明):([0-9]+)\s*}{}) {
+      if ($args{start}) {
+        push @jd, nymmd2jd $1, $2, 1, '', 1;
+      } elsif ($args{end}) {
+        push @jd, -1 + nymmd2jd $1, $2+1, 1, '', 1;
+      } else {
+        die "Bad date |$v| ($all)";
+      }
+    } else {
+      die "Bad date |$v| ($all)";
+    }
+  } # $v
+  die "Bad date ($all)" unless @jd;
+  
+  my $jd = $jd[0];
+  for (@jd) {
+    unless ($jd == $_) {
+      die "Date mismatch ($jd vs $_) |$all|";
+    }
+  }
+
+  return $jd;
+} # parse_date
+
+$Data->{eras}->{干支年}->{id} = 0;
 for my $tr (@{delete $Data->{_TRANSITIONS}}) {
-  my $from_key = $tr->[0];
-  my $to_key = $tr->[1];
+  my $from_keys = [defined $tr->[0] ? split /,/, $tr->[0] : ()];
+  my $to_keys = [defined $tr->[1] ? split /,/, $tr->[1] : ()];
   my $v = $tr->[2];
+  my $x = {};
 
   my $tags = {};
   while ($v =~ s{\s*#(\w+)$}{}) {
     set_object_tag $tags, $1;
   }
-  my $x = {};
   $x->{tag_ids} = $tags->{tag_ids} if keys %{$tags->{tag_ids} or {}};
 
-  my $jd;
-  if ($v =~ m{^([0-9]+)-([0-9]+)-([0-9]+)$}) {
-    $jd = gymd2jd $1, $2, $3;
-  } elsif ($v =~ m{^(明):([0-9]+)-([0-9]+)('|)-([0-9]+)$}) {
-    $jd = nymmd2jd $1, $2, $3, $4, $5;
-  } elsif ($v =~ m{^(明):([0-9]+)-([0-9]+)('|)-(\w\w)$}) {
-    $jd = nymmk2jd $1, $2, $3, $4, $5;
-  } elsif ($v =~ m{^(明):([0-9]+)-([0-9]+)('|)-([0-9]+)\((\w\w)\)$}) {
-    $jd = nymmd2jd $1, $2, $3, $4, $5;
-    my $jd2 = nymmk2jd $1, $2, $3, $4, $6;
-    unless ($jd == $jd2) {
-      die "Date mismatch ($jd [$1 $2 $3 $4 $5] vs $jd2 [$1 $2 $3 $4 $6])";
+  if ($v =~ m{^\[([^,]+)\]$}) {
+    my $jd1 = parse_date $tr->[2], $1, start => 1;
+    my $jd2 = parse_date $tr->[2], $1, end => 1;
+    $x->{day_start} = (ssday $jd1, $tags->{tag_ids});
+    $x->{day_end} = (ssday $jd2, $tags->{tag_ids});
+  } elsif ($v =~ m{^\[([^,]+),([^,]+)\]$}) {
+    my $jd1 = parse_date $tr->[2], $1, start => 1;
+    my $jd2 = parse_date $tr->[2], $2, end => 1;
+    $x->{day_start} = (ssday $jd1, $tags->{tag_ids});
+    $x->{day_end} = (ssday $jd2, $tags->{tag_ids});
+  } else {
+    my $jd = parse_date $tr->[2], $v;
+    $x->{day} = (ssday $jd, $tags->{tag_ids});
+  }
+  if (defined $x->{day_start} and
+      not $x->{day_start}->{jd} < $x->{day_end}->{jd}) {
+    die "Bad date range [$x->{day_start}->{jd}, $x->{day_end}->{jd}] ($tr->[2])";
+  }
+  
+  my $type;
+  if ($tags->{tag_ids}->{1186}) { # 適用開始日
+    $type = 'established';
+    if ($tags->{tag_ids}->{1198}) { # 異説
+      $type .= '/possible';
+    }
+  } elsif ($tags->{tag_ids}->{1182}) { # 制定
+    $type = 'proclaimed';
+  } elsif ($tags->{tag_ids}->{1191}) { # 事由
+    $type = 'triggering';
+  } else {
+    if (@$from_keys and not @$to_keys) {
+      $type = 'other';
+    } else {
+      $type = 'established';
+      #XXXdie "No action tag |$v|";
+    }
+  }
+  $x->{type} = $type;
+
+  if (@$from_keys and not @$to_keys) {
+    die "Bad transition type |$type| ($tr->[2])" unless $type eq 'other';
+    for my $from_key (@$from_keys) {
+      push @{$Data->{eras}->{$from_key}->{transitions} ||= []},
+          {direction => 'other', %$x};
     }
   } else {
-    die "Bad transition |$v|";
+    for my $to_key (@$to_keys) {
+      my $w = {direction => 'incoming', %$x};
+      for my $from_key (@$from_keys) {
+        next if $from_key eq '干支年';
+        my $def = $Data->{eras}->{$from_key}
+            // die "Bad era key |$from_key| ($tr->[2])";
+        $w->{prev_era_ids}->{$def->{id}} = $from_key;
+      }
+      push @{$Data->{eras}->{$to_key}->{transitions} ||= []}, $w;
+    }
+    for my $from_key (@$from_keys) {
+      my $w = {direction => 'outgoing', %$x};
+      for my $to_key (@$to_keys) {
+        next if $to_key eq '干支年';
+        my $def = $Data->{eras}->{$to_key}
+            // die "Bad era key |$to_key| ($tr->[2])";
+        $w->{next_era_ids}->{$def->{id}} = $to_key;
+      }
+      push @{$Data->{eras}->{$from_key}->{transitions} ||= []}, $w;
+    }
   }
-
-  push @{$Data->{eras}->{$to_key}->{starts} ||= []},
-      {day => (ssday $jd, $tags->{tag_ids}),
-       prev => $from_key,
-       type => 'established', %$x};
-  push @{$Data->{eras}->{$from_key}->{ends} ||= []},
-      {day => (ssday $jd, $tags->{tag_ids}),
-       next => $to_key,
-       type => 'established', %$x};
 } # $tr
+delete $Data->{eras}->{干支年};
+
+for (values %{$Data->{eras}}) {
+  $_->{transitions} = [map { $_->[0] } sort {
+    $a->[1] <=> $b->[1] ||
+    $a->[2] <=> $b->[2];
+  } map {
+    [$_,
+     ($_->{day} || $_->{day_start} || {})->{mjd},
+     ($_->{day} || $_->{day_end} || {})->{mjd}];
+  } @{$_->{transitions} ||= []}];
+}
 
 print perl2json_bytes_for_record $Data;
 

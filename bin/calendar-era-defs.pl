@@ -469,6 +469,8 @@ for my $path (
       push @{$Data->{_TRANSITIONS} ||= []}, [$1 => $key, $2];
     } elsif (defined $key and /^->(\S+)\s+(\S.+\S)\s*$/) {
       push @{$Data->{_TRANSITIONS} ||= []}, [$key => $1, $2];
+    } elsif (defined $key and /^><\s+(\S.+\S)\s*$/) {
+      push @{$Data->{_TRANSITIONS} ||= []}, [$key => undef, $1];
       
     } elsif (/\S/) {
       die "Bad line |$_|";

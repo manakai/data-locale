@@ -214,6 +214,36 @@ tag
   name_ja 王の即位紀年
   group of 即位紀年
 
+action
+  name_ja 事由
+
+action
+  name_ja 即位
+
+action
+  name_ja 建元前の即位
+  group of 事由
+  group of 即位
+
+action
+  name_ja 死去
+
+action
+  name_ja 改元前の死去
+  group of 事由
+  group of 死去
+
+tag
+  name_ja 君主
+
+tag
+  name_ja 王
+  group of 君主
+
+tag
+  name_ja 皇帝
+  group of 君主
+
 tag
   name_ja 公年号
 tag
@@ -238,26 +268,51 @@ tag
 tag
   name_ja 君主名の元号
 
-tag
-  name_ja 再開
+action
+  name_ja 制定
 
-tag
+action
+  name_ja 利用開始
+
+action
+  name_ja 適用開始日
+
+action
+  label_ja 日本改元日
+  name_ja 改元日
+
+  group of 制定
+  group of 適用開始日
+
+action
+  name_ja 年始改元決定
+  group of 制定
+
+action
+  name_ja 年始改元実施
+  group of 適用開始日
+
+action
+  name_ja 再開
+  group of 適用開始日
+
+action
   name_ja 実施中止
 
-tag
+action
   name_ja 建元撤回
 
-tag
+action
   name_ja 建元撤回撤回
 
-tag
+action
   name_ja 新規称元
 
-tag
+action
   name_ja 新規建元
   group of 新規称元
 
-tag
+action
   name_ja 即位紀年から改元建元
   group of 新規建元
 
@@ -270,3 +325,9 @@ tag
 tag
   name_ja 後元
 
+tag
+  name_ja 異説
+
+tag
+  name_ja 旧説
+  group of 異説

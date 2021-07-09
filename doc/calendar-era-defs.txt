@@ -530,6 +530,10 @@ An event is a JSON object with following name/value pairs:
         represent other days that had been considered as the
         establishment day but then was known as incorrect.
 
+      other
+
+        Any other kind of event.
+
       proclaimed
 
         starts: The day the era had been announced (but not yet used).
