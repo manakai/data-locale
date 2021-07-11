@@ -1,5 +1,19 @@
 
 %tag region
+%tag   name_ja 蘭領台湾
+%tag   period of 台湾
+%tag   region of オランダ
+
+%tag region
+%tag   name_ja 鄭氏政権
+%tag   period of 台湾
+%tag   region of 南明
+
+%tag region
+%tag   name_ja 東寧王国
+%tag   period of 鄭氏政権
+
+%tag region
 %tag   name_ja 清領台湾
 %tag   period of 台湾
 %tag   region of 清
@@ -21,6 +35,18 @@
 
 %tag region
 %tag   name_ja 台湾
+
+%tag region
+%tag   name_ja 基隆
+%tag   region of 台湾
+
+%tag region
+%tag   name_ja 台南
+%tag   region of 台湾
+
+%tag region
+%tag   name_ja 澎湖諸島
+%tag   region of 台湾
 
 %tag people
 %tag   name_ja 台湾人

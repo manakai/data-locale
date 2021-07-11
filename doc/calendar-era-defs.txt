@@ -500,6 +500,10 @@ An event is a JSON object with following name/value pairs:
 
     The type of the event.
 
+      canceled
+
+        The transition is cancelled.
+
       dayretroactivated
 
         ends: The day before the establishment day of the |next| era.
@@ -515,6 +519,12 @@ An event is a JSON object with following name/value pairs:
       diplomatically-notified
 
         starts: The day the era was sent to foreign governments.
+
+      enforced
+      enforced/possible
+      enforced/incorrect
+
+        The era's first day.
 
       established
       established/possible

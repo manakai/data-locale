@@ -117,6 +117,7 @@ sub year2kanshi0 ($) {
 my $KMaps = {};
 my $GToKMapKey = {
   明 => 'zuitou',
+  清 => 'shin',
 };
 sub get_kmap ($) {
   my $g = shift;
@@ -134,6 +135,11 @@ sub get_kmap ($) {
 
 sub nymmd2jd ($$$$$) {
   my ($g, $y, $m, $lm, $d) = @_;
+
+  if ($g eq '明' and (1663 <= $y and $y <= 1683+1)) {
+    ## No calendar available
+    $g = '清';
+  }
 
   my $kmap = get_kmap ($g);
 
@@ -154,18 +160,23 @@ sub nymmd2jd ($$$$$) {
         die "Bad date ($g, $y, $m, $lm, 1)";
       }
       $delta = -1;
-    } else {
-      my $k1 = ymmd2string $y, $m, 1, 1;
+    } else { # not $lm
+      my $k1 = ymmd2string $y, $m, 1, 1; # same $m with leap
       if (defined $kmap->{$k1}) {
         $gr = $kmap->{$k1};
         $delta = -1;
       } else {
-        my $k1 = ymmd2string $y, $m+1, 0, 1;
+        $m++;
+        if ($m == 13) {
+          $y++;
+          $m = 1;
+        }
+        my $k1 = ymmd2string $y, $m, 0, 1;
         if (defined $kmap->{$k1}) {
           $gr = $kmap->{$k1};
           $delta = -1;
         } else {
-          die "Bad date ($g, $y, $m+1, $lm, 1)";
+          die "Bad date ($g, $y, $m, $lm, 1)";
         }
       }
     }
@@ -233,6 +244,11 @@ sub gymd2nymmd ($$$$) {
   my ($g, $y, $m, $d) = @_;
   my $jd = gymd2jd $y, $m, $d;
 
+  if ($g eq '明' and (1663 <= $y and $y <= 1683+1)) {
+    ## No calendar available
+    $g = '清';
+  }
+  
   my $kmap = get_kmap ($g);
 
   my $prev_jd;
@@ -271,8 +287,8 @@ sub ssday ($$) {
              kanshi_label => (kanshi0_to_label $kanshi),
              gregorian => $g};
 
-  if ($tag_ids->{1103} or # 明
-      $tag_ids->{1199}) { # 永楽帝
+  if ($tag_ids->{1008}) { # 中国
+    # 1103 # 明
     $day->{nongli_tiger} = ymmd2string gymd2nymmd '明', $y, $m, $d;
   }
   
@@ -340,11 +356,33 @@ sub parse_date ($$;%) {
       } else {
         die "Bad date |$v| ($all)";
       }
+    } elsif ($v =~ s{^g:([0-9]+)-([0-9]+)\s*}{}) {
+      if ($args{start}) {
+        push @jd, gymd2jd $1, $2, 1;
+      } elsif ($args{end}) {
+        my $y = $1;
+        my $m = $2+1;
+        if ($m == 13) {
+          $y++;
+          $m = 1;
+        }
+        push @jd, -1 + gymd2jd $y, $m, 1;
+      } else {
+        die "Bad date |$v| ($all)";
+      }
     } elsif ($v =~ s{^(明):([0-9]+)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, $2, 1, '', 1;
       } elsif ($args{end}) {
         push @jd, -1 + nymmd2jd $1, $2+1, 1, '', 1;
+      } else {
+        die "Bad date |$v| ($all)";
+      }
+    } elsif ($v =~ s{^g:([0-9]+)\s*}{}) {
+      if ($args{start}) {
+        push @jd, gymd2jd $1, 1, 1;
+      } elsif ($args{end}) {
+        push @jd, -1 + gymd2jd $1+1, 1, 1;
       } else {
         die "Bad date |$v| ($all)";
       }
@@ -398,14 +436,27 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
   
   my $type;
   if ($tags->{tag_ids}->{1186}) { # 適用開始日
-    $type = 'established';
-    if ($tags->{tag_ids}->{1198}) { # 異説
+    $type = 'enforced';
+    if ($tags->{tag_ids}->{1200}) { # 旧説
+      $type .= '/incorrect';
+    } elsif ($tags->{tag_ids}->{1198}) { # 異説
       $type .= '/possible';
     }
   } elsif ($tags->{tag_ids}->{1182}) { # 制定
     $type = 'proclaimed';
+  } elsif ($tags->{tag_ids}->{1185}) { # 利用開始
+    $type = 'established';
+    if ($tags->{tag_ids}->{1200}) { # 旧説
+      $type .= '/incorrect';
+    } elsif ($tags->{tag_ids}->{1198}) { # 異説
+      $type .= '/possible';
+    }
+  } elsif ($tags->{tag_ids}->{1124}) { # 実施中止
+    $type = 'canceled';
   } elsif ($tags->{tag_ids}->{1191}) { # 事由
     $type = 'triggering';
+  } elsif ($tags->{tag_ids}->{1230}) { # 戦時異動
+    $type = 'wartime';
   } else {
     if (@$from_keys and not @$to_keys) {
       $type = 'other';

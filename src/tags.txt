@@ -77,6 +77,9 @@ country
   name_ja 米国
   name_ja アメリカ
 
+country
+  name_ja オランダ
+
 region
   name_ja 日本領南洋群島
   region of 大日本帝国
@@ -233,6 +236,27 @@ action
   group of 事由
   group of 死去
 
+action
+  name_ja 改元前の退位
+  group of 事由
+
+action
+  name_ja 改元実施日前死去
+  group of 事由
+  group of 死去
+
+action
+  name_ja 改元実施日前退位
+  group of 事由
+
+action
+  name_ja 勢力統合
+  group of 事由
+
+action
+  name_ja 捕縛
+  group of 事由
+
 tag
   name_ja 君主
 
@@ -261,6 +285,9 @@ tag
 
 tag
   name_ja 一世一元
+
+tag
+  name_ja 重祚各一元
 
 tag
   name_ja 追号説のある元号
@@ -293,6 +320,18 @@ action
   group of 適用開始日
 
 action
+  name_ja 年始改元実施予定
+  group of 適用開始日
+
+action
+  name_ja 月始改元決定
+  group of 制定
+
+action
+  name_ja 月始改元実施
+  group of 適用開始日
+
+action
   name_ja 再開
   group of 適用開始日
 
@@ -315,6 +354,17 @@ action
 action
   name_ja 即位紀年から改元建元
   group of 新規建元
+
+action
+  name_ja 戦時異動
+
+action
+  name_ja 陥落
+  group of 戦時異動
+
+action
+  name_ja 撤退
+  group of 戦時異動
 
 tag
   name_ja 前元
