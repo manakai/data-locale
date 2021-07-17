@@ -341,6 +341,18 @@ The file contains a JSON object with following name/value pairs:
         be converted to a URL by percent-encoding and then appending
         to <https://wiki.suikawiki.org/n/>.
 
+      table_oldest_year [year?]
+
+        The earliest year that should be shown in the table of the
+        era's transition events, if known.  If specified, the value is
+        less than or equal to the |known_oldest_year|.
+
+      table_latest_year [year?]
+
+        The latest year that should be shown in the table of the era's
+        transition events, if known.  If specified, the value is
+        greater than or equal to the |known_oldest_year|.
+
       unicode [string?]
 
         The Unicode character for the era, if any.  Era codes #3
@@ -580,7 +592,6 @@ An event is a JSON object with following name/value pairs:
         wartime process by |group|.
 
         ends: The day the |next| era was "wartime"-changed.
-
       year-end
 
         ends: The last day of the year the era was exited.

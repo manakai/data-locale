@@ -25,6 +25,11 @@
 %tag   name_ja 西安
 %tag   region of 漢土
 
+%tag region
+%tag   name_ja 成都
+%tag   name_ja 西京
+%tag   region of 漢土
+
 %tag tag
 %tag   name_ja 中華王朝の公年号
 %tag   group of 公年号
@@ -5496,8 +5501,8 @@ tag 一世一元
 <-天啟(辛酉) 明:1627-8-丁巳 #明 #崇禎帝 #年始改元決定
 <-天啟(辛酉) 明:1628-1-1    #明 #崇禎帝 #年始改元実施
 AD1628 = 1
-->永昌 明:1644-3-19(丁未) #明 #順 #北京 #陥落
-->弘光,永昌 明:1644-3-19(丁未) #明 #崇禎帝 #改元前の死去 #北京 #陥落
+->永昌(甲申) 明:1644-3-19(丁未) #明 #順 #北京 #陥落
+->弘光,永昌(甲申) 明:1644-3-19(丁未) #明 #崇禎帝 #改元前の死去 #北京 #陥落
 
 ## [102]
 name_tw 崇禎
@@ -5535,9 +5540,13 @@ name 숭정기원후
 name 崇禎後
 name 숭정후
 
+%tag tag
+%tag   name_ja 清初反清勢力
+
 %tag country
 %tag   name_ja 南明
 %tag   period of 明
+%tag   group of 清初反清勢力
 
 [弘光]
 #y~1392
@@ -5885,6 +5894,8 @@ tag 漢民族
 tag 旧説
 u 1
 
+name_ja 永曆
+
 <-隆武 [明:1646-10] #南明 #朱以海 #支那改元日 #旧説
 <-隆武 [明:1646-11] #南明 #永暦帝 #支那改元日
 
@@ -6014,6 +6025,8 @@ name_en Dongwu
 %tag country
 %tag   name_ja 順
 %tag   period of 中国
+%tag   group of 清初反清勢力
+#XXX prefix 大顺
 tag 順
 
 tag 漢土
@@ -6026,22 +6039,117 @@ tag 李自成
 %tag tag
 %tag   name_ja 大順王
 %tag   group of 王
+%tag tag
+%tag   name_ja 大順皇帝
+%tag   group of 支那皇帝
 
 ## <https://zh.wikisource.org/wiki/%E6%98%8E%E5%8F%B2/%E5%8D%B7309>
 <-崇禎 明:1644-1-1(庚寅) #順 #李自成 #大順王 #建元前の即位 #西安
+<-崇禎 明:1644-1-1(庚寅) #順 #李自成 #大順王 #支那改元日 #西安
 AD1644 = 1
+>< 明:1644-4-29 #順 #李自成 #大順皇帝 #即位
 ->順治 明:1644-5-2 #順 #清 #北京 #陥落
 
 ## [102]
 name_tw 永昌
 name_cn 永昌
+#1644-1664
 u 21
+
+## <https://zh.wikipedia.org/wiki/%E5%AE%AE%E6%96%87%E5%BD%A9>
+## <https://zh.wikipedia.org/wiki/%E6%B0%B8%E6%98%8C_(%E5%A4%A7%E9%A0%86)>
+%tag person
+%tag   name_cn 宫文彩
+%tag   name_ja 宮文彩
+tag 宫文彩
+# #順 擎天王 1644-1645
+
+## <https://zh.wikipedia.org/wiki/%E6%9D%8E%E8%87%AA%E6%95%AC>
+## <https://zh.wikipedia.org/wiki/%E6%B0%B8%E6%98%8C_(%E5%A4%A7%E9%A0%86)>
+%tag person
+%tag   name_tw 李自敬
+tag 李自敬
+>< [明:1645-5-17,明:1645] #順 #李自敬 #大順皇帝 #即位
+>< [明:1646-3] #順 #李自敬 #死去
+
+## <https://zh.wikipedia.org/wiki/%E6%9D%8E%E9%81%8E>
+## <https://zh.wikipedia.org/wiki/%E6%B0%B8%E6%98%8C_(%E5%A4%A7%E9%A0%86)>
+%tag person
+%tag   name_tw 李過
+tag 李過
+#1646 - 1649-11
+
+## <https://zh.wikipedia.org/wiki/%E6%9D%8E%E4%BE%86%E4%BA%A8>
+## <https://zh.wikipedia.org/wiki/%E6%B0%B8%E6%98%8C_(%E5%A4%A7%E9%A0%86)>
+%tag person
+%tag   name_tw 李來亨
+tag 李來亨
+# - 1664-8
+->康熙 明:1664-8-4 #順 #清 #李來亨 #死去 #陥落
 
 ## [103]
 wref_ja 永昌 (李自成)
 name_ja 永昌
 name_kana えい しょう
+#1627-1628 反乱 started (高迎祥)
+#1636 高迎祥 dead
+#1637 #李自成 闖王
+#1641 #洛陽 #陥落
+#1643 #西安 #陥落
+#1644-1645
+#<-崇禎 [明:1644-3] #明 #順 #北京 #陥落
+->順治 明:1645-5-17 #順 #清 #李自成 #死去 #陥落
+#残党 ->(南明) 明:1645-5-17 #順 #南明 #李自成 #勢力統合
 
+
+[大順(甲申)]
+
+name_ja 大順
+
+## <https://zh.wikisource.org/wiki/%E6%98%8E%E5%8F%B2/%E5%8D%B7309>
+#<-崇禎 [1644,明:1644-11-庚寅] #張献忠 #成都 #大西 #大西皇帝 #支那改元日
+#>< 明:1644-11-庚寅 #張献忠 #成都 #大西 #大西皇帝 #即位
+
+
+## [102]
+#1644-12-4 - 1647-1-2
+## <https://zh.wikipedia.org/wiki/%E5%BC%A0%E7%8C%AE%E5%BF%A0>
+#1644-8-16 #張献忠 秦王 (by 李自成)
+<-崇禎 明:1644-11-庚寅 g:1644-12-4 #張献忠 #成都 #大西 #大西皇帝 #建元前の即位
+<-崇禎 明:1644-11-庚寅 #張献忠 #成都 #大西 #大西皇帝 #支那改元日
+
+## [103]
+wref_ja 大順 (張献忠)
+#1644-11 - 1646
+name_ja 大順
+name_kana だい じゅん
+## <https://ja.wikipedia.org/wiki/%E5%BC%B5%E7%8C%AE%E5%BF%A0>
+%tag person
+%tag   name_ja 張献忠
+tag 張献忠
+<-崇禎 明:1644-8-9 #明 #張献忠 #成都 #陥落
+%tag tag
+%tag   name_ja 大西
+%tag   period of 中国
+%tag   group of 清初反清勢力
+tag 大西
+#1639 挙兵
+#1643 大西王
+%tag tag
+%tag   name_ja 大西皇帝
+%tag   group of 支那皇帝
+<-崇禎 明:1644-8-15 #張献忠 #成都 #大西 #大西皇帝 #建元前の即位 #旧説
+<-崇禎 明:1644-8-15 #張献忠 #成都 #大西 #大西皇帝 #支那改元日 #旧説
+AD1644 = 1
+->順治 明:1646-11-27 g:1647-1-2 #張献忠 #死去 #陥落
+u 3-11-27
+#残党 ->順治 1659 #重慶 #陥落
+
+## [102]
+&
+name_cn 天顺
+name_tw 天順
+#誤
 
 
 %tag region

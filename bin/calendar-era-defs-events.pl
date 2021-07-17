@@ -77,6 +77,19 @@ sub jd2g_ymd ($) {
   return ($time[5]+1900, $time[4]+1, $time[3]);
 } # jd2g_ymd
 
+require POSIX;
+sub jd2j_ymd ($) {
+  my $jd = $_[0];
+  my $c = POSIX::floor ($jd + 0.5) + 32082;
+  my $d = POSIX::floor ((4*$c + 3) / 1461);
+  my $e = $c - POSIX::floor (1461 * $d / 4);
+  my $m = POSIX::floor ((5*$e + 2) / 153);
+  my $D = $e - POSIX::floor ((153*$m + 2) / 5) + 1;
+  my $M = $m + 3 - 12 * POSIX::floor ($m / 10);
+  my $Y = $d - 4800 + POSIX::floor ($m / 10);
+  return ($Y, $M, $D);
+} # jd2j_ymd
+
 sub gymd2jd ($$$) {
   my ($y, $m, $d) = @_;
 
@@ -277,15 +290,20 @@ sub gymd2nymmd ($$$$) {
 
 sub ssday ($$) {
   my ($jd, $tag_ids) = @_;
+  
   my ($y, $m, $d) = jd2g_ymd ($jd);
   my $g = ymd2string ($y, $m, $d);
+
+  my ($jjy, $jjm, $jjd) = jd2j_ymd ($jd);
+  my $jj = ymd2string ($jjy, $jjm, $jjd);
 
   my $kanshi = jd2kanshi0 $jd;
   my $day = {jd => $jd,
              mjd => (jd2mjd $jd),
              kanshi0 => $kanshi,
              kanshi_label => (kanshi0_to_label $kanshi),
-             gregorian => $g};
+             gregorian => $g,
+             julian => $jj};
 
   if ($tag_ids->{1008}) { # 中国
     # 1103 # 明
@@ -499,6 +517,11 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
 delete $Data->{eras}->{干支年};
 
 for (values %{$Data->{eras}}) {
+  $_->{table_oldest_year} //= $_->{known_oldest_year}
+      if defined $_->{known_oldest_year};
+  $_->{table_latest_year} //= $_->{known_latest_year}
+      if defined $_->{known_latest_year};
+  
   $_->{transitions} = [map { $_->[0] } sort {
     $a->[1] <=> $b->[1] ||
     $a->[2] <=> $b->[2];
@@ -507,7 +530,44 @@ for (values %{$Data->{eras}}) {
      ($_->{day} || $_->{day_start} || {})->{mjd},
      ($_->{day} || $_->{day_end} || {})->{mjd}];
   } @{$_->{transitions} ||= []}];
-}
+
+  for my $tr (@{$_->{transitions}}) {
+    for my $dk (grep { defined $tr->{$_} } qw(day day_start day_end)) {
+      for my $key (qw(gregorian julian kyuureki nongli_tiger)) {
+        next unless defined $tr->{$dk}->{$key};
+        if ($tr->{$dk}->{$key} =~ m{^(-?[0-9]+)}) {
+          my $year = $1;
+          if ({
+            dayretroactivated => 1,
+            decreed => 1,
+            enforced => 1,
+            'enforced/possible' => 1,
+            'enforced/incorrect' => 1,
+            'established' => 1,
+            'established/possible' => 1,
+            'established/incorrect' => 1,
+            received => 1,
+            retroactivated => 1,
+            'shogunate-enforced' => 1,
+            'wartime' => 1,
+            'year-end' => 1,
+            'year-start' => 1,
+          }->{$tr->{type}}) {
+            $_->{known_oldest_year} //= $year;
+            $_->{known_oldest_year} = $year if $year < $_->{known_oldest_year};
+            $_->{known_latest_year} //= $year;
+            $_->{known_latest_year} = $year if $_->{known_latest_year} < $year;
+          }
+
+          $_->{table_oldest_year} //= $year;
+          $_->{table_oldest_year} = $year if $year < $_->{table_oldest_year};
+          $_->{table_latest_year} //= $year;
+          $_->{table_latest_year} = $year if $_->{table_latest_year} < $year;
+        }
+      }
+    }
+  } # $tr
+} # era
 
 print perl2json_bytes_for_record $Data;
 
