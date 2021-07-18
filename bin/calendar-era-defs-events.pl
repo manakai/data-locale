@@ -305,7 +305,8 @@ sub ssday ($$) {
              gregorian => $g,
              julian => $jj};
 
-  if ($tag_ids->{1008}) { # 中国
+  if ($tag_ids->{1008} or # 中国
+      $tag_ids->{1009}) { # 漢土
     # 1103 # 明
     $day->{nongli_tiger} = ymmd2string gymd2nymmd '明', $y, $m, $d;
   }
@@ -352,7 +353,7 @@ sub parse_date ($$;%) {
       push @jd, gymd2jd $1, $2, $3; # XXX
     } elsif ($v =~ s{^g:([0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
       push @jd, gymd2jd $1, $2, $3;
-    } elsif ($v =~ s{^(明):([0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
+    } elsif ($v =~ s{^(明|清):([0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
       push @jd, nymmd2jd $1, $2, $4, $5, $6;
       push @jd, nymmk2jd $1, $2, $4, $5, $7;
       if (defined $3) {
@@ -362,11 +363,11 @@ sub parse_date ($$;%) {
           die "Year mismatch ($ky1 vs $ky2) |$all|";
         }
       }
-    } elsif ($v =~ s{^(明):([0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(明|清):([0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
       push @jd, nymmd2jd $1, $2, $3, $4, $5;
-    } elsif ($v =~ s{^(明):([0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
+    } elsif ($v =~ s{^(明|清):([0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
       push @jd, nymmk2jd $1, $2, $3, $4, $5;
-    } elsif ($v =~ s{^(明):([0-9]+)-([0-9]+)('|)\s*}{}) {
+    } elsif ($v =~ s{^(明|清):([0-9]+)-([0-9]+)('|)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, $2, $3, $4, 1;
       } elsif ($args{end}) {
@@ -388,7 +389,7 @@ sub parse_date ($$;%) {
       } else {
         die "Bad date |$v| ($all)";
       }
-    } elsif ($v =~ s{^(明):([0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(明|清):([0-9]+)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, $2, 1, '', 1;
       } elsif ($args{end}) {
@@ -460,7 +461,8 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
     } elsif ($tags->{tag_ids}->{1198}) { # 異説
       $type .= '/possible';
     }
-  } elsif ($tags->{tag_ids}->{1182}) { # 制定
+  } elsif ($tags->{tag_ids}->{1182} or # 制定
+           $tags->{tag_ids}->{1264}) { # 発表
     $type = 'proclaimed';
   } elsif ($tags->{tag_ids}->{1185}) { # 利用開始
     $type = 'established';

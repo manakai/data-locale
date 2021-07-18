@@ -1331,12 +1331,6 @@ name_cn 法堯
 name_tw 法堯
 #was: wref_zh 中国年号列表
 
-def[義興]
-name_cn 義興
-name_tw 義興
-#was: wref_zh 中国年号列表
-AD1644 = 1
-
 def[興正]
 name_cn 興正
 name_tw 興正

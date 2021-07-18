@@ -296,6 +296,9 @@ tag
   name_ja 君主名の元号
 
 action
+  name_ja 発表
+
+action
   name_ja 制定
 
 action
@@ -357,6 +360,10 @@ action
 
 action
   name_ja 戦時異動
+
+action
+  name_ja 蜂起
+  group of 戦時異動
 
 action
   name_ja 陥落
