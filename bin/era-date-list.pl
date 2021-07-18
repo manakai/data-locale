@@ -323,7 +323,7 @@ for my $era (@era) {
       if (grep {
         defined $_->[2]->{label} and $_->[2]->{label} eq '公布';
       } @{$era->{_start_dates}}) {
-        my $v = {day => sday $jd, type => 'enforced',
+        my $v = {day => sday $jd, type => 'firstday',
                  prev => $era->{_prev_key}->{$pfx}};
         push @{$era->{starts} ||= []}, $v;
         $v = {%$v};
@@ -576,7 +576,7 @@ for my $era (values %{$Data->{eras}}) {
   } @{$era->{ends}}]
       if defined $era->{ends};
 
-  my @enforce = grep { $_->{type} eq 'established' or $_->{type} eq 'enforced' } @{$era->{starts} or []};
+  my @enforce = grep { $_->{type} eq 'established' or $_->{type} eq 'firstday' } @{$era->{starts} or []};
   if ($era->{jp_era} or $era->{jp_north_era} or $era->{jp_south_era}) {
     die $era->{_key} unless @enforce == 1;
   }

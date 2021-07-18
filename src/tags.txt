@@ -305,14 +305,22 @@ action
   name_ja 利用開始
 
 action
+  name_ja 適用開始前日
+
+action
+  name_ja 適用開始
+
+action
   name_ja 適用開始日
+  group of 適用開始
+  ## There are hardcoded rules in |bin/calendar-era-defs-events.pl|.
 
 action
   label_ja 日本改元日
   name_ja 改元日
 
   group of 制定
-  group of 適用開始日
+  group of 適用開始
 
 action
   name_ja 年始改元決定
@@ -320,7 +328,7 @@ action
 
 action
   name_ja 年始改元実施
-  group of 適用開始日
+  group of 年始改元実施予定
 
 action
   name_ja 年始改元実施予定

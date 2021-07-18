@@ -422,6 +422,7 @@ sub parse_date ($$;%) {
 } # parse_date
 
 $Data->{eras}->{干支年}->{id} = 0;
+my $Transitions = [];
 for my $tr (@{delete $Data->{_TRANSITIONS}}) {
   my $from_keys = [defined $tr->[0] ? split /,/, $tr->[0] : ()];
   my $to_keys = [defined $tr->[1] ? split /,/, $tr->[1] : ()];
@@ -452,30 +453,58 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
       not $x->{day_start}->{jd} < $x->{day_end}->{jd}) {
     die "Bad date range [$x->{day_start}->{jd}, $x->{day_end}->{jd}] ($tr->[2])";
   }
+
+  if ($x->{tag_ids}->{1186} and # 適用開始日
+      defined $x->{day}) {
+    my $y = json_bytes2perl perl2json_bytes $x;
+
+    delete $y->{tag_ids}->{1278}; # 適用開始
+    delete $y->{tag_ids}->{1186}; # 適用開始日
+    delete $y->{tag_ids}->{1188}; # 年始改元実施
+    delete $y->{tag_ids}->{1215}; # 年始改元実施予定
+    delete $y->{tag_ids}->{1221}; # 月始改元実施
+    set_object_tag $y, '適用開始前日';
+
+    $y->{day} = ssday $x->{day}->{jd} - 1, $y->{tag_ids};
+    
+    push @$Transitions, [$from_keys, $to_keys, $y, $tr->[2]];
+  }
   
+  push @$Transitions, [$from_keys, $to_keys, $x, $tr->[2]];
+} # $tr
+for (@$Transitions) {
+  my ($from_keys, $to_keys, $x, $source) = @$_;
+
   my $type;
-  if ($tags->{tag_ids}->{1186}) { # 適用開始日
-    $type = 'enforced';
-    if ($tags->{tag_ids}->{1200}) { # 旧説
+  if ($x->{tag_ids}->{1278}) { # 適用開始
+    $type = 'firstday';
+    if ($x->{tag_ids}->{1200}) { # 旧説
       $type .= '/incorrect';
-    } elsif ($tags->{tag_ids}->{1198}) { # 異説
+    } elsif ($x->{tag_ids}->{1198}) { # 異説
       $type .= '/possible';
     }
-  } elsif ($tags->{tag_ids}->{1182} or # 制定
-           $tags->{tag_ids}->{1264}) { # 発表
+  } elsif ($x->{tag_ids}->{1277}) { # 適用開始前日
+    $type = 'prevfirstday';
+    if ($x->{tag_ids}->{1200}) { # 旧説
+      $type .= '/incorrect';
+    } elsif ($x->{tag_ids}->{1198}) { # 異説
+      $type .= '/possible';
+    }
+  } elsif ($x->{tag_ids}->{1182} or # 制定
+           $x->{tag_ids}->{1264}) { # 発表
     $type = 'proclaimed';
-  } elsif ($tags->{tag_ids}->{1185}) { # 利用開始
+  } elsif ($x->{tag_ids}->{1185}) { # 利用開始
     $type = 'established';
-    if ($tags->{tag_ids}->{1200}) { # 旧説
+    if ($x->{tag_ids}->{1200}) { # 旧説
       $type .= '/incorrect';
-    } elsif ($tags->{tag_ids}->{1198}) { # 異説
+    } elsif ($x->{tag_ids}->{1198}) { # 異説
       $type .= '/possible';
     }
-  } elsif ($tags->{tag_ids}->{1124}) { # 実施中止
+  } elsif ($x->{tag_ids}->{1124}) { # 実施中止
     $type = 'canceled';
-  } elsif ($tags->{tag_ids}->{1191}) { # 事由
+  } elsif ($x->{tag_ids}->{1191}) { # 事由
     $type = 'triggering';
-  } elsif ($tags->{tag_ids}->{1230}) { # 戦時異動
+  } elsif ($x->{tag_ids}->{1230}) { # 戦時異動
     $type = 'wartime';
   } else {
     if (@$from_keys and not @$to_keys) {
@@ -488,7 +517,8 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
   $x->{type} = $type;
 
   if (@$from_keys and not @$to_keys) {
-    die "Bad transition type |$type| ($tr->[2])" unless $type eq 'other';
+    die "Bad transition type |$x->{type}| ($source)"
+        unless $x->{type} eq 'other';
     for my $from_key (@$from_keys) {
       push @{$Data->{eras}->{$from_key}->{transitions} ||= []},
           {direction => 'other', %$x};
@@ -499,7 +529,7 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
       for my $from_key (@$from_keys) {
         next if $from_key eq '干支年';
         my $def = $Data->{eras}->{$from_key}
-            // die "Bad era key |$from_key| ($tr->[2])";
+            // die "Bad era key |$from_key| ($source)";
         $w->{prev_era_ids}->{$def->{id}} = $from_key;
       }
       push @{$Data->{eras}->{$to_key}->{transitions} ||= []}, $w;
@@ -509,7 +539,7 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
       for my $to_key (@$to_keys) {
         next if $to_key eq '干支年';
         my $def = $Data->{eras}->{$to_key}
-            // die "Bad era key |$to_key| ($tr->[2])";
+            // die "Bad era key |$to_key| ($source)";
         $w->{next_era_ids}->{$def->{id}} = $to_key;
       }
       push @{$Data->{eras}->{$from_key}->{transitions} ||= []}, $w;
@@ -542,9 +572,12 @@ for (values %{$Data->{eras}}) {
           if ({
             dayretroactivated => 1,
             decreed => 1,
-            enforced => 1,
-            'enforced/possible' => 1,
-            'enforced/incorrect' => 1,
+            firstday => 1,
+            'firstday/possible' => 1,
+            'firstday/incorrect' => 1,
+            prevfirstday => $tr->{direction} eq 'outgoing',
+            'prevfirstday/possible' => $tr->{direction} eq 'outgoing',
+            'prevfirstday/incorrect' => $tr->{direction} eq 'outgoing',
             'established' => 1,
             'established/possible' => 1,
             'established/incorrect' => 1,
