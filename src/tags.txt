@@ -371,7 +371,7 @@ action
 
 action
   name_ja 蜂起
-  group of 戦時異動
+  group of 事由
 
 action
   name_ja 陥落

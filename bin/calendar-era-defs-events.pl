@@ -307,8 +307,11 @@ sub ssday ($$) {
 
   if ($tag_ids->{1008} or # 中国
       $tag_ids->{1009}) { # 漢土
-    # 1103 # 明
-    $day->{nongli_tiger} = ymmd2string gymd2nymmd '明', $y, $m, $d;
+    if ($y >= 1645+1) {
+      $day->{nongli_tiger} = ymmd2string gymd2nymmd '清', $y, $m, $d;
+    } else {
+      $day->{nongli_tiger} = ymmd2string gymd2nymmd '明', $y, $m, $d;
+    }
   }
   
   return $day;
