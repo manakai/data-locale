@@ -370,11 +370,15 @@ action
   name_ja 戦時異動
 
 action
+  name_ja 進攻
+
+action
   name_ja 蜂起
   group of 事由
 
 action
   name_ja 陥落
+  group of 進攻
   group of 戦時異動
 
 action

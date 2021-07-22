@@ -45,6 +45,10 @@
 %tag   region of 台湾
 
 %tag region
+%tag   name_ja 高雄
+%tag   region of 台湾
+
+%tag region
 %tag   name_ja 澎湖諸島
 %tag   region of 台湾
 
