@@ -566,37 +566,68 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
       not $x->{day_start}->{jd} < $x->{day_end}->{jd}) {
     die "Bad date range [$x->{day_start}->{jd}, $x->{day_end}->{jd}] ($tr->[2])";
   }
+  } # $v
 
-  if ($x->{tag_ids}->{1186} and # 適用開始日
+  if ($x->{tag_ids}->{1278} and # 適用開始
+      not $x->{tag_ids}->{1198} and # 異説
       defined $x->{day}) {
-    my $y = json_bytes2perl perl2json_bytes $x;
+    my $y = {};
+    for (keys %{$x->{tag_ids}}) {
+      set_object_tag $y, $x->{tag_ids}->{$_} if {
+        country => 1,
+        region => 1,
+        calendar => 1,
+      }->{$Tags->{$_}->{type}};
+    }
+    my $z = json_bytes2perl perl2json_bytes $y;
+    my $z2 = json_bytes2perl perl2json_bytes $y;
 
-    delete $y->{tag_ids}->{1278}; # 適用開始
-    delete $y->{tag_ids}->{1186}; # 適用開始日
-    delete $y->{tag_ids}->{1188}; # 年始改元実施
-    delete $y->{tag_ids}->{1215}; # 年始改元実施予定
-    delete $y->{tag_ids}->{1221}; # 月始改元実施
     set_object_tag $y, '適用開始前日';
-
     $y->{day} = ssday $x->{day}->{jd} - 1, $y->{tag_ids};
-    
+    push @$Transitions, [$from_keys, $to_keys, $y, $tr->[2]];
+
+    $y->{day}->{gregorian} =~ /^(-?[0-9]+)/ or die;
+    my $year = $1;
+    my $jd = year_start_jd $year+1, $z->{tag_ids};
+    if (defined $jd) {
+      set_object_tag $z2, '末年翌日';
+      $z2->{day} = ssday $jd, $z2->{tag_ids};
+      push @$Transitions, [$from_keys, $to_keys, $z2, $tr->[2]];
+      
+      set_object_tag $z, '末年末';
+      $z->{day} = ssday $jd - 1, $z->{tag_ids};
+      push @$Transitions, [$from_keys, $to_keys, $z, $tr->[2]];
+    }
+  } elsif ($x->{tag_ids}->{1347} and # 初年始
+           defined $x->{day}) {
+    my $y = {};
+    for (keys %{$x->{tag_ids}}) {
+      set_object_tag $y, $x->{tag_ids}->{$_} if {
+        country => 1,
+        region => 1,
+        calendar => 1,
+      }->{$Tags->{$_}->{type}};
+    }
+    my $z = json_bytes2perl perl2json_bytes $y;
+
+    set_object_tag $y, '初年前日';
+    $y->{day} = ssday $x->{day}->{jd} - 1, $y->{tag_ids};
     push @$Transitions, [$from_keys, $to_keys, $y, $tr->[2]];
   }
-  } # $v
   
   push @$Transitions, [$from_keys, $to_keys, $x, $tr->[2]];
 } # $tr
 
 my $NewTransitions = [];
-ERA: for my $era (values %{$Data->{eras}}) {
+ERA: for my $era (sort { $a->{id} <=> $b->{id} } values %{$Data->{eras}}) {
   if (defined $era->{offset}) {
     my $prev_eras = [];
-    my $tag_ids = {};
+    my $w = {};
     for (grep { !! grep { $era->{key} eq $_ } @{$_->[1]} } @$Transitions) {
       my $x = $_->[2];
-      next ERA if $x->{tag_ids}->{1347}; # 元年年始
+      next ERA if $x->{tag_ids}->{1347}; # 初年始
       for (keys %{$x->{tag_ids}}) {
-        $tag_ids->{$_} = 1 if {
+        set_object_tag $w, $x->{tag_ids}->{$_} if {
           country => 1,
           region => 1,
           calendar => 1,
@@ -604,24 +635,24 @@ ERA: for my $era (values %{$Data->{eras}}) {
       }
       push @$prev_eras, @{$_->[0]};
     }
-    delete $tag_ids->{1344} if $era->{id} == 1; # グレゴリオ暦, 明治
-    $tag_ids->{1347} = 1; # 元年年始
+    delete $w->{tag_ids}->{1344} if $era->{id} == 1; # グレゴリオ暦, 明治
+    my $v = json_bytes2perl perl2json_bytes $w;
     $prev_eras = [grep {
       $_ ne '干支年' and
       defined $Data->{eras}->{$_}->{offset} and
       $Data->{eras}->{$_}->{offset} <= $era->{offset};
     } @$prev_eras];
-    $prev_eras = ['EMPTY'] unless @$prev_eras;
+    
+    my $jd = year_start_jd ($era->{offset} + 1, $w->{tag_ids});
+    next unless defined $jd;
+    
+    set_object_tag $w, '初年始';
+    $w->{day} = ssday $jd, $w->{tag_ids};
+    push @$NewTransitions, [$prev_eras, [$era->{key}], $w];
 
-    my $jd = year_start_jd ($era->{offset} + 1, $tag_ids);
-    if (defined $jd) {
-      my $day = ssday $jd, $tag_ids;
-      my $w = {
-        tag_ids => $tag_ids,
-        day => $day,
-      };
-      push @$NewTransitions, [$prev_eras, [$era->{key}], $w];
-    }
+    set_object_tag $v, '初年前日';
+    $v->{day} = ssday $jd - 1, $v->{tag_ids};
+    push @$NewTransitions, [$prev_eras, [$era->{key}], $v];
   }
 } # ERA
 unshift @$Transitions, @$NewTransitions;
@@ -639,11 +670,13 @@ for (@$Transitions) {
     } elsif ($x->{tag_ids}->{1198}) { # 異説
       $type .= '/possible';
     }
-  } elsif ($x->{tag_ids}->{1277}) { # 適用開始前日
+  } elsif ($x->{tag_ids}->{1349}) { # 適用開始前日
     $type = 'prevfirstday';
     if ($x->{tag_ids}->{1200}) { # 旧説
+      die "XX"."X";
       $type .= '/incorrect';
     } elsif ($x->{tag_ids}->{1198}) { # 異説
+      die "XX"."X";
       $type .= '/possible';
     }
   } elsif ($x->{tag_ids}->{1182} or # 制定
@@ -668,8 +701,14 @@ for (@$Transitions) {
     $type = 'received';
   } elsif ($x->{tag_ids}->{1337}) { # 通知発出
     $type = 'notified';
-  } elsif ($x->{tag_ids}->{1347}) { # 元年年始
+  } elsif ($x->{tag_ids}->{1347}) { # 初年始
     $type = 'firstyearstart';
+  } elsif ($x->{tag_ids}->{1277}) { # 初年前日
+    $type = 'prevfirstyearstart';
+  } elsif ($x->{tag_ids}->{1350}) { # 末年末
+    $type = 'lastyearend';
+  } elsif ($x->{tag_ids}->{1351}) { # 末年翌日
+    $type = 'nextlastyearend';
   } else {
     if (@$from_keys and not @$to_keys) {
       $type = 'other';
@@ -691,7 +730,7 @@ for (@$Transitions) {
     for my $to_key (@$to_keys) {
       my $w = {direction => 'incoming', %$x};
       for my $from_key (@$from_keys) {
-        next if $from_key eq '干支年' or $from_key eq 'EMPTY';
+        next if $from_key eq '干支年';
         my $def = $Data->{eras}->{$from_key}
             // die "Bad era key |$from_key| ($source)";
         $w->{prev_era_ids}->{$def->{id}} = $from_key;
@@ -701,7 +740,7 @@ for (@$Transitions) {
     for my $from_key (@$from_keys) {
       my $w = {direction => 'outgoing', %$x};
       for my $to_key (@$to_keys) {
-        next if $to_key eq '干支年' or $to_key eq 'EMPTY';
+        next if $to_key eq '干支年';
         my $def = $Data->{eras}->{$to_key}
             // die "Bad era key |$to_key| ($source)";
         $w->{next_era_ids}->{$def->{id}} = $to_key;
@@ -734,20 +773,11 @@ for (values %{$Data->{eras}}) {
         if ($tr->{$dk}->{$key} =~ m{^(-?[0-9]+)}) {
           my $year = $1;
           if ({
-            dayretroactivated => 1,
-            decreed => 1,
             firstday => 1,
             'firstday/possible' => 1,
             'firstday/incorrect' => 1,
             prevfirstday => $tr->{direction} eq 'outgoing',
-            'prevfirstday/possible' => $tr->{direction} eq 'outgoing',
-            'prevfirstday/incorrect' => $tr->{direction} eq 'outgoing',
-            'established' => 1,
-            'established/possible' => 1,
-            'established/incorrect' => 1,
             received => 1,
-            retroactivated => 1,
-            'shogunate-enforced' => 1,
             'wartime' => 1,
           }->{$tr->{type}}) {
             $_->{known_oldest_year} //= $year;

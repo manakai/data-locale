@@ -521,32 +521,6 @@ An event is a JSON object with following name/value pairs:
 
         The transition is cancelled.
 
-      dayretroactivated
-
-        ends: The day before the establishment day of the |next| era.
-        Same as |end_day|.
-
-      decreed
-
-        starts: The day the era had been officially enforced in the
-        government (覆奏).
-
-        ends: The day the |next| era was decreed.
-
-      diplomatically-notified
-
-        starts: The day the era was sent to foreign governments.
-
-      established
-      established/possible
-      established/incorrect
-
-        starts: The day the era has been defined.
-
-        ends: The day the |next| era has been defined.
-
-        There is at most one |established| event.
-
       firstday
       firstday/possible
       firstday/incorrect
@@ -563,6 +537,14 @@ An event is a JSON object with following name/value pairs:
 
         The first day of the first year of the new era.
 
+      lastyearend
+
+        The last day of the year of the |prevfirstday|.
+
+      nextlastyearend
+
+        The next day of the |lastyearend|.
+
       notified
 
         The day the notification of the new era was sent.  It may or
@@ -573,10 +555,12 @@ An event is a JSON object with following name/value pairs:
         The day some other kind of event was happened.
 
       prevfirstday
-      prevfirstday/possible
-      prevfirstday/incorrect
 
         The previous day of the |firstday|.
+
+      prevfirstyearstart
+
+        The previous day of the |firstyearstart|.
 
       proclaimed
 
@@ -588,34 +572,10 @@ An event is a JSON object with following name/value pairs:
         or may not be the same day as any corresponding |notified|
         day.
 
-      retroactivated
-
-        starts: The first day of the first calendar year of the era,
-        retroactively considered as the start of the era.
-
-        ends: The previous day of the |next| era's retroactivated day.
-
-      shogunate-enforced
-
-        starts: The day the era had been enforced (吉書始) in the
-        Shogunate (幕府).
-
-        ends: The day the |next| era was shogunate-enforced.
-
-      succeed
-
-        starts: The day of the succeed of the |prev| era.
-
-        ends: The day of the succession of the Emperor.
-
       wartime
 
         The day the era was changed as part of irregular wartime
         process.
-
-      year-end
-
-        ends: The last day of the year the era was exited.
 
     The type might be suffixed by |/possible| or |/incorrect|, as
     shown above.  The |/possible| variant type represent another

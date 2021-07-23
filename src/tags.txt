@@ -308,7 +308,7 @@ action
 action
   name_ja 利用開始
 
-action
+tag
   name_ja 適用開始前日
 
 action
@@ -420,15 +420,27 @@ tag
   name_ja 年始
 
 tag
-  name_ja 元年年始
+  name_ja 初年始
   group of 年始
 
 tag
+  name_ja 初年前日
+  group of 年末
+
+tag
   name_ja 天皇即位元年年始
-  group of 元年年始
+  group of 初年始
 
 tag
   name_ja 年末
+
+tag
+  name_ja 末年末
+  group of 年末
+
+tag
+  name_ja 末年翌日
+  group of 年始
 
 calendar
   name_ja グレゴリオ暦
