@@ -140,6 +140,12 @@ The file contains a JSON object with following name/value pairs:
 
         The end days of the era.
 
+      end_year [year?]
+
+        The last year of the era, if known.  It is the year of the
+        last outgoing transition event of type |prevfirstday|, if any,
+        or |lastyearend|.
+
       id [integer]
 
         The ID, which is a positive integer, uniquely assigned to the
@@ -300,6 +306,20 @@ The file contains a JSON object with following name/value pairs:
 
         The name of the era in Vietnamese, if known.
 
+      north_end_year [year?]
+
+        The last year of the era for the Northern Court of Japan (日本
+        北朝), if applicable.  It is the year of the last outgoing
+        transition event of type |prevfirstday| for the Northern Court
+        of Japan (日本北朝).
+
+      north_start_year [year?]
+
+        The first year of the era for the Northern Court of Japan (日
+        本北朝), if applicable.  It is the year of the first incoming
+        transition event of type |firstday| for the Northern Court of
+        Japan (日本北朝).
+
       offset [integer?]
 
         The offset of the first year from the year AD1, if known.  The
@@ -331,9 +351,29 @@ The file contains a JSON object with following name/value pairs:
 
             The URL of the source document.
 
+      south_end_year [year?]
+
+        The last year of the era for the Southern Court of Japan (日本
+        南朝), if applicable.  It is the year of the last outgoing
+        transition event of type |prevfirstday| for the Southern Court
+        of Japan (日本南朝).
+
+      south_start_year [year?]
+
+        The first year of the era for the Southern Court of Japan (日
+        本南朝), if applicable.  It is the year of the first incoming
+        transition event of type |firstday| for the Southern Court of
+        Japan (日本南朝).
+
       starts [events]
 
         The start days of the era.
+
+      start_year [year?]
+
+        The first year of the era, if known.  It is the year of the
+        first incoming transition event of type |firstday|, if any, or
+        |firstyearstart|.
 
       suikawiki [string?]
 
@@ -383,21 +423,15 @@ The file contains a JSON object with following name/value pairs:
         for the Chinese Wikipedia article on the era, if known.
 
       start_day [day?]
-      start_year [year?]
       end_day [day?]
-      end_year [year?]
       official_start_day [day?]
       actual_end_day [day?]
       north_start_day [day?]
-      north_start_year [year?]
       north_official_start_day [day?]
       north_actual_end_day [day?]
       north_end_day [day?]
-      north_end_year [year?]
       south_start_day [day?]
-      south_start_year [year?]
       south_end_day [day?]
-      south_end_year [year?]
       south_official_start_day [day?]
       south_actual_end_day [day?]
 
@@ -426,13 +460,6 @@ The file contains a JSON object with following name/value pairs:
         their values can be different for 北朝 and 南朝.  Note that 正
         平の一統 is not reflected to these properties.  The
         |jp_north_era| flag is not set to the 正平 era.
-
-        If the start or end is defined in terms of day, |start_year|
-        or |end_year| is set to the year of the |start_day| or the
-        |actual_end_day| in the "native" calendar.
-
-        If the start or end is defined in terms of year, |start_year|
-        or |end_year| is set to that year.
 
         If start or end is defined in terms of year, |start_*_day| and
         |end_*_day| name/value pairs, where * is |gregorian|,

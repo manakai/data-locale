@@ -331,6 +331,7 @@ for my $era (@era) {
           change_day => 1,
           day => $v->{day},
           tags => $tags,
+          prefix => $pfx,
         }];
         push @{$era->{starts} ||= []}, $v;
         $v = {%$v};
@@ -352,6 +353,7 @@ for my $era (@era) {
           change_day => 1,
           day => $v->{day},
           tags => $tags,
+          prefix => $pfx,
         }];
         unless ($era->{_key} eq '持統天皇') {
           $v = {%$v};
@@ -387,6 +389,7 @@ for my $era (@era) {
       push @{$Data->{_TRANSITIONS}}, [$v->{prev}, $era->{_key}, {
         change_day => 1,
         day => $v->{day},
+        prefix => $pfx,
       }];
       if (defined $v->{prev}) {
         $v = {%$v};
@@ -521,6 +524,7 @@ for my $era (@era) {
       type => $v->{type},
       day => $v->{day},
       tags => $tags,
+      prefix => '',
     }];
     
     $v = {%$v};
@@ -605,6 +609,7 @@ for my $era (@era) {
       type => $v->{type},
       day => $v->{day},
       tags => $tags,
+      prefix => '',
     }];
 
     $v = {%$v};

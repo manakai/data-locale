@@ -25,6 +25,15 @@ sub ymmd2string (@) {
   }
 } # ymmd2string
 
+sub parse_ystring ($) {
+  my $s = shift;
+  if ($s =~ m{^(-?[0-9]+)}) {
+    return 0+$1;
+  }
+
+  die "Bad ystring |$s|";
+} # parse_ystring
+
 {
   ## Derived from |Time::Local|
   ## <http://cpansearch.perl.org/src/DROLSKY/Time-Local-1.2300/lib/Time/Local.pm>.
@@ -380,6 +389,27 @@ sub ssday ($$) {
   return $day;
 } # ssday
 
+sub extract_day_year ($$) {
+  my ($day, $tag_ids) = @_;
+
+  if (($tag_ids->{1008} or # 中国
+       $tag_ids->{1009}) and # 漢土
+      not $tag_ids->{1344}) { # グレゴリオ暦
+    if (defined $day->{nongli_tiger}) {
+      return parse_ystring $day->{nongli_tiger};
+    }
+  }
+
+  if ($tag_ids->{1003} and # 日本
+      not $tag_ids->{1344}) { # グレゴリオ暦
+    if (defined $day->{kyuureki}) {
+      return parse_ystring $day->{kyuureki};
+    }
+  }
+  
+  return parse_ystring $day->{gregorian};
+} # extract_day_year
+
 my $Tags;
 my $TagByKey = {};
 {
@@ -499,8 +529,11 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
     next if defined $v->{label} and $v->{label} eq '年末';
     
     set_object_tag $x, '日本';
-    (ref $v->{day} eq 'ARRAY' ? $v->{day}->[0] : $v->{day})->{gregorian} =~ /^(-?[0-9]+)/;
-    my $y = 0+$1;
+    set_object_tag $x, '日本北朝' if $v->{prefix} eq 'north_';
+    set_object_tag $x, '日本南朝' if $v->{prefix} eq 'south_';
+    
+    my $y = parse_ystring
+        ((ref $v->{day} eq 'ARRAY' ? $v->{day}->[0] : $v->{day})->{gregorian});
     my $change;
     if ($tr->[1] eq '文武天皇') {
       $change = '日本改元日';
@@ -586,8 +619,7 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
     $y->{day} = ssday $x->{day}->{jd} - 1, $y->{tag_ids};
     push @$Transitions, [$from_keys, $to_keys, $y, $tr->[2]];
 
-    $y->{day}->{gregorian} =~ /^(-?[0-9]+)/ or die;
-    my $year = $1;
+    my $year = parse_ystring $y->{day}->{gregorian};
     my $jd = year_start_jd $year+1, $z->{tag_ids};
     if (defined $jd) {
       set_object_tag $z2, '末年翌日';
@@ -751,27 +783,26 @@ for (@$Transitions) {
 } # $tr
 delete $Data->{eras}->{干支年};
 
-for (values %{$Data->{eras}}) {
-  $_->{table_oldest_year} //= $_->{known_oldest_year}
-      if defined $_->{known_oldest_year};
-  $_->{table_latest_year} //= $_->{known_latest_year}
-      if defined $_->{known_latest_year};
-  
-  $_->{transitions} = [map { $_->[0] } sort {
+for my $era (values %{$Data->{eras}}) {
+  $era->{table_oldest_year} //= $era->{known_oldest_year}
+      if defined $era->{known_oldest_year};
+  $era->{table_latest_year} //= $era->{known_latest_year}
+      if defined $era->{known_latest_year};
+
+  $era->{transitions} = [map { $_->[0] } sort {
     $a->[1] <=> $b->[1] ||
     $a->[2] <=> $b->[2];
   } map {
     [$_,
      ($_->{day} || $_->{day_start} || {})->{mjd},
      ($_->{day} || $_->{day_end} || {})->{mjd}];
-  } @{$_->{transitions} ||= []}];
+  } @{$era->{transitions} ||= []}];
 
-  for my $tr (@{$_->{transitions}}) {
+  for my $tr (@{$era->{transitions}}) {
     for my $dk (grep { defined $tr->{$_} } qw(day day_start day_end)) {
       for my $key (qw(gregorian julian kyuureki nongli_tiger)) {
         next unless defined $tr->{$dk}->{$key};
-        if ($tr->{$dk}->{$key} =~ m{^(-?[0-9]+)}) {
-          my $year = $1;
+        my $year = parse_ystring $tr->{$dk}->{$key};
           if ({
             firstday => 1,
             'firstday/possible' => 1,
@@ -780,20 +811,85 @@ for (values %{$Data->{eras}}) {
             received => 1,
             'wartime' => 1,
           }->{$tr->{type}}) {
-            $_->{known_oldest_year} //= $year;
-            $_->{known_oldest_year} = $year if $year < $_->{known_oldest_year};
-            $_->{known_latest_year} //= $year;
-            $_->{known_latest_year} = $year if $_->{known_latest_year} < $year;
+            $era->{known_oldest_year} //= $year;
+            $era->{known_oldest_year} = $year if $year < $era->{known_oldest_year};
+            $era->{known_latest_year} //= $year;
+            $era->{known_latest_year} = $year if $era->{known_latest_year} < $year;
           }
 
-          $_->{table_oldest_year} //= $year;
-          $_->{table_oldest_year} = $year if $year < $_->{table_oldest_year};
-          $_->{table_latest_year} //= $year;
-          $_->{table_latest_year} = $year if $_->{table_latest_year} < $year;
-        }
+          $era->{table_oldest_year} //= $year;
+          $era->{table_oldest_year} = $year if $year < $era->{table_oldest_year};
+          $era->{table_latest_year} //= $year;
+          $era->{table_latest_year} = $year if $era->{table_latest_year} < $year;
+      }
+    }
+    
+    if ($tr->{direction} eq 'incoming' and
+        ($tr->{type} eq 'firstday' or
+         $tr->{type} eq 'wartime')) { # has day or day_start
+      my $y = extract_day_year $tr->{day} // $tr->{day_start}, $tr->{tag_ids};
+      unless ($tr->{type} eq 'wartime') {
+        $era->{start_year} //= $y;
+        $era->{start_year} = $y if $y < $era->{start_year};
+      }
+      if ($tr->{tag_ids}->{1065}) { # 日本北朝
+        $era->{north_start_year} //= $y;
+        $era->{north_start_year} = $y if $y < $era->{north_start_year};
+      }
+      if ($tr->{tag_ids}->{1066}) { # 日本南朝
+        $era->{south_start_year} //= $y;
+        $era->{south_start_year} = $y if $y < $era->{south_start_year};
+      }
+    }
+    if ($tr->{direction} eq 'outgoing' and
+        ($tr->{type} eq 'prevfirstday' or
+         $tr->{type} eq 'wartime')) { # has day or day_end
+      my $y = extract_day_year $tr->{day} // $tr->{day_end}, $tr->{tag_ids};
+      unless ($tr->{type} eq 'wartime') {
+        $era->{end_year} //= $y;
+        $era->{end_year} = $y if $era->{end_year} < $y;
+      }
+      if ($tr->{tag_ids}->{1065}) { # 日本北朝
+        $era->{north_end_year} //= $y;
+        $era->{north_end_year} = $y if $era->{north_end_year} < $y;
+      }
+      if ($tr->{tag_ids}->{1066}) { # 日本南朝
+        $era->{south_end_year} //= $y;
+        $era->{south_end_year} = $y if $era->{south_end_year} < $y;
       }
     }
   } # $tr
+  for my $tr (@{$era->{transitions}}) {
+    if (not defined $era->{start_year} and
+        $tr->{direction} eq 'incoming' and
+        $tr->{type} eq 'firstyearstart') { # has day
+      my $y = extract_day_year $tr->{day}, $tr->{tag_ids};
+      $era->{start_year} //= $y;
+      $era->{start_year} = $y if $y < $era->{start_year};
+    }
+    if (not defined $era->{end_year} and
+        $tr->{direction} eq 'outgoing' and
+        $tr->{type} eq 'prevfirstyearstart') { # has day
+      my $y = extract_day_year $tr->{day}, $tr->{tag_ids};
+      $era->{end_year} //= $y;
+      $era->{end_year} = $y if $era->{end_year} < $y;
+    }
+  } # $tr
+  $era->{north_start_year} //= $era->{start_year}
+      if defined $era->{north_end_year};
+  $era->{south_start_year} //= $era->{start_year}
+      if defined $era->{south_end_year};
+  $era->{north_end_year} //= $era->{end_year}
+      if defined $era->{north_start_year};
+  $era->{south_end_year} //= $era->{end_year}
+      if defined $era->{south_start_year};
+
+  if ($era->{jp_era} and
+      defined $era->{end_year} and
+      $era->{end_year} > 1475 and
+      $era->{start_year} < 1868) {
+    set_object_tag $era, '樺太';
+  }
 } # era
 
 print perl2json_bytes_for_record $Data;

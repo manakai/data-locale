@@ -229,9 +229,11 @@ sub set_tag ($$) {
 
 for (
   ['local/era-date-list.json' => ['_usages', map {
-    ($_.'start_year', $_.'start_day',
+    (#$_.'start_year',
+     $_.'start_day',
      $_.'official_start_day', $_.'actual_start_day',
-     $_.'end_year', $_.'end_day',
+     #$_.'end_year',
+     $_.'end_day',
      $_.'official_end_day', $_.'actual_end_day',
      'jp_'.$_.'era', 'jp_emperor_era',
      'starts', 'ends', 'offset',
@@ -250,11 +252,6 @@ for (
       if ($data->{jp_era}) {
         set_tag $key, '日本';
         set_tag $key, '日本の公年号';
-        if (defined $data->{end_year} and
-            $data->{end_year} > 1475 and
-            $data->{start_year} < 1868) {
-          set_tag $key, '樺太';
-        }
       }
       if ($data->{jp_north_era}) {
         set_tag $key, '日本北朝';
