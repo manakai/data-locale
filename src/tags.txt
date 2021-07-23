@@ -420,12 +420,16 @@ tag
   name_ja 年始
 
 tag
-  name_ja 天皇即位元年年始
+  name_ja 元年年始
   group of 年始
+
+tag
+  name_ja 天皇即位元年年始
+  group of 元年年始
 
 tag
   name_ja 年末
 
-tag
+calendar
   name_ja グレゴリオ暦
 

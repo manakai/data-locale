@@ -297,10 +297,53 @@ sub k2g ($) {
   return $k2g_map->{$_[0]} || die "Kyuureki |$_[0]| is not defined", Carp::longmess;
 } # k2g
 
-sub g2k ($) {
-  return $g2k_map->{$_[0]} || die "Gregorian |$_[0]| is not defined", Carp::longmess;
-} # g2k
+  sub g2k ($) {
+    return $g2k_map->{$_[0]} || die "Gregorian |$_[0]| is not defined", Carp::longmess;
+  } # g2k
+
+  sub g2k_undef ($) {
+    return $g2k_map->{$_[0]}; # or undef
+  } # g2k_undef
 }
+
+sub year_start_jd ($$) {
+  my ($year, $tag_ids) = @_;
+
+  my @jd;
+
+  if (($tag_ids->{1008} or # 中国
+       $tag_ids->{1009}) and # 漢土
+      not $tag_ids->{1344}) { # グレゴリオ暦
+    if ($year >= 1645+1) {
+      push @jd, nymmd2jd '清', $year, 1, 0, 1;
+    } elsif ($year >= 1000) { # XXX
+      push @jd, nymmd2jd '明', $year, 1, 0, 1;
+    }
+  }
+
+  if ($tag_ids->{1003} and # 日本
+      not $tag_ids->{1344}) { # グレゴリオ暦
+    my $g = k2g ymmd2string $year, 1, 0, 1;
+    $g =~ /^(-?[0-9]+)-([0-9]+)-([0-9]+)$/
+        or die "Bad gregorian date |$g|";
+    push @jd, gymd2jd $1, $2, $3;
+  }
+
+  if ($tag_ids->{1344}) { # グレゴリオ暦
+    push @jd, gymd2jd $year, 1, 1;
+  }
+
+  return undef unless @jd;
+
+  my $jd = shift @jd;
+  for (@jd) {
+    if ($jd != $_) {
+      die "Conflicting days $jd @jd";
+    }
+  }
+
+  return $jd;
+} # year_start_jd
 
 sub ssday ($$) {
   my ($jd, $tag_ids) = @_;
@@ -323,15 +366,15 @@ sub ssday ($$) {
       $tag_ids->{1009}) { # 漢土
     if ($y >= 1645+1) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '清', $y, $m, $d;
-    } else {
+    } elsif ($y >= 1000) { # XXX
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '明', $y, $m, $d;
     }
   }
 
   if ($tag_ids->{1003}) { # 日本
-    my $k = g2k ymd2string $y, $m, $d;
-    $day->{kyuureki} = $k
-        // die "No kyuureki date for ($y, $m, $d)";
+    my $k = g2k_undef ymd2string $y, $m, $d;
+    $day->{kyuureki} = $k if defined $k;
+    #// die "No kyuureki date for ($y, $m, $d)";
   }
   
   return $day;
@@ -543,8 +586,50 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
   
   push @$Transitions, [$from_keys, $to_keys, $x, $tr->[2]];
 } # $tr
+
+my $NewTransitions = [];
+ERA: for my $era (values %{$Data->{eras}}) {
+  if (defined $era->{offset}) {
+    my $prev_eras = [];
+    my $tag_ids = {};
+    for (grep { !! grep { $era->{key} eq $_ } @{$_->[1]} } @$Transitions) {
+      my $x = $_->[2];
+      next ERA if $x->{tag_ids}->{1347}; # 元年年始
+      for (keys %{$x->{tag_ids}}) {
+        $tag_ids->{$_} = 1 if {
+          country => 1,
+          region => 1,
+          calendar => 1,
+        }->{$Tags->{$_}->{type}};
+      }
+      push @$prev_eras, @{$_->[0]};
+    }
+    delete $tag_ids->{1344} if $era->{id} == 1; # グレゴリオ暦, 明治
+    $tag_ids->{1347} = 1; # 元年年始
+    $prev_eras = [grep {
+      $_ ne '干支年' and
+      defined $Data->{eras}->{$_}->{offset} and
+      $Data->{eras}->{$_}->{offset} <= $era->{offset};
+    } @$prev_eras];
+    $prev_eras = ['EMPTY'] unless @$prev_eras;
+
+    my $jd = year_start_jd ($era->{offset} + 1, $tag_ids);
+    if (defined $jd) {
+      my $day = ssday $jd, $tag_ids;
+      my $w = {
+        tag_ids => $tag_ids,
+        day => $day,
+      };
+      push @$NewTransitions, [$prev_eras, [$era->{key}], $w];
+    }
+  }
+} # ERA
+unshift @$Transitions, @$NewTransitions;
+
 for (@$Transitions) {
   my ($from_keys, $to_keys, $x, $source) = @$_;
+  $from_keys = [keys %{{map { $_ => 1 } @$from_keys}}];
+  $to_keys = [keys %{{map { $_ => 1 } @$to_keys}}];
 
   my $type;
   if ($x->{tag_ids}->{1278}) { # 適用開始
@@ -583,8 +668,8 @@ for (@$Transitions) {
     $type = 'received';
   } elsif ($x->{tag_ids}->{1337}) { # 通知発出
     $type = 'notified';
-  } elsif ($x->{tag_ids}->{1342}) { # 天皇即位元年年始
-    $type = 'year-start';
+  } elsif ($x->{tag_ids}->{1347}) { # 元年年始
+    $type = 'firstyearstart';
   } else {
     if (@$from_keys and not @$to_keys) {
       $type = 'other';
@@ -606,7 +691,7 @@ for (@$Transitions) {
     for my $to_key (@$to_keys) {
       my $w = {direction => 'incoming', %$x};
       for my $from_key (@$from_keys) {
-        next if $from_key eq '干支年';
+        next if $from_key eq '干支年' or $from_key eq 'EMPTY';
         my $def = $Data->{eras}->{$from_key}
             // die "Bad era key |$from_key| ($source)";
         $w->{prev_era_ids}->{$def->{id}} = $from_key;
@@ -616,7 +701,7 @@ for (@$Transitions) {
     for my $from_key (@$from_keys) {
       my $w = {direction => 'outgoing', %$x};
       for my $to_key (@$to_keys) {
-        next if $to_key eq '干支年';
+        next if $to_key eq '干支年' or $to_key eq 'EMPTY';
         my $def = $Data->{eras}->{$to_key}
             // die "Bad era key |$to_key| ($source)";
         $w->{next_era_ids}->{$def->{id}} = $to_key;
@@ -664,8 +749,6 @@ for (values %{$Data->{eras}}) {
             retroactivated => 1,
             'shogunate-enforced' => 1,
             'wartime' => 1,
-            'year-end' => 1,
-            'year-start' => 1,
           }->{$tr->{type}}) {
             $_->{known_oldest_year} //= $year;
             $_->{known_oldest_year} = $year if $year < $_->{known_oldest_year};

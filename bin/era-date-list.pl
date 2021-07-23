@@ -563,6 +563,7 @@ for my $era (@era) {
              $_->[2]->{label} eq '台湾' or
              $_->[2]->{label} eq '朝鮮' or
              $_->[2]->{label} eq '沖縄' or
+             $_->[2]->{label} eq '竹島' or
              $_->[2]->{label} eq '行政分離' or
              $_->[2]->{label} eq '平和条約' or
              $_->[2]->{label} eq '関東州' or
