@@ -34,6 +34,10 @@
 %tag   name_ja 西京
 %tag   region of 漢土
 
+%tag region
+%tag   name_ja 膠州湾
+%tag   region of 漢土
+
 %tag tag
 %tag   name_ja 中華王朝の公年号
 %tag   group of 公年号
@@ -43,8 +47,7 @@
 
 %tag action
 %tag   label_ja 支那改元日
-%tag   name_ja 改元日
-%tag 
+%tag   group of 改元日
 %tag   group of 制定
 %tag   group of 適用開始
 

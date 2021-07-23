@@ -90,6 +90,141 @@
 %tag   name_ja 南樺太
 %tag   region of 樺太
 
+%tag region
+%tag   name_ja 北海道
+%tag   region of 日本
+
+%tag region
+%tag   name_ja 千島
+%tag   region of 北海道
+
+%tag region
+%tag   name_ja 関東
+%tag   region of 日本
+
+%tag region
+%tag   name_ja 鎌倉
+%tag   region of 関東
+
+%tag region
+%tag   name_ja 伊豆諸島
+%tag   region of 日本
+
+%tag region
+%tag   name_ja 青ヶ島
+%tag   region of 伊豆諸島
+
+%tag region
+%tag   name_ja 新島
+%tag   region of 伊豆諸島
+
+%tag region
+%tag   name_ja 小笠原
+%tag   region of 日本
+
+%tag region
+%tag   name_ja 奈良
+%tag   region of 日本
+
+%tag region
+%tag   name_ja 京都
+%tag   region of 日本
+
+%tag region
+%tag   name_ja 竹島
+%tag   region of 日本
+
+%tag region
+%tag   name_ja 吐噶喇列島
+%tag   region of 日本
+
+%tag region
+%tag   name_ja 奄美群島
+%tag   region of 日本
+
+%tag region
+%tag   name_ja 沖縄
+%tag   region of 日本
+
+%tag action
+%tag   name_ja 覆奏
+
+%tag tag
+%tag   name_ja 幕府
+
+%tag action
+%tag   name_ja 室町幕府施行
+%tag   group of 利用開始
+
+%tag action
+%tag   name_ja 吉書始
+%tag   group of 利用開始
+
+%tag action
+%tag   name_ja 行政官布告
+%tag   group of 通知発出
+
+%tag action
+%tag   name_ja 日本改元日
+%tag   group of 改元日
+%tag   group of 制定
+%tag   group of 適用開始
+
+%tag action
+%tag   name_ja 日本朝廷改元日
+%tag   group of 日本改元日
+
+%tag action
+%tag   name_ja 大日本帝国改元日
+%tag   group of 日本改元日
+
+%tag action
+%tag   name_ja 日本国改元日
+%tag   group of 日本改元日
+
+%tag action
+%tag   name_ja 政令公布
+%tag   group of 制定
+
+%tag action
+%tag   name_ja 政令施行
+%tag   group of 日本国改元日
+
+%tag action
+%tag   name_ja 行政分離
+%tag   group of 戦時異動
+
+%tag action
+%tag   name_ja 日本国との平和条約
+%tag   group of 戦時異動
+
+%tag person
+%tag   name_ja 平氏
+
+%tag person
+%tag   name_ja 源頼朝
+
+%tag person
+%tag   name_ja 足利尊氏
+
+%tag person
+%tag   name_ja 足利義詮
+
+%tag person
+%tag   name_ja 足利直冬
+
+%tag person
+%tag   name_ja 足利持氏
+
+%tag tag
+%tag   name_ja 崩御
+%tag   group of 死去
+
+%tag tag
+%tag   name_ja 改元前の崩御
+%tag   group of 崩御
+%tag   group of 改元前の死去
+
 [大化]
 tag 追号説のある元号
 

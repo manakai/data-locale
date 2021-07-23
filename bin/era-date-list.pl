@@ -325,6 +325,13 @@ for my $era (@era) {
       } @{$era->{_start_dates}}) {
         my $v = {day => sday $jd, type => 'firstday',
                  prev => $era->{_prev_key}->{$pfx}};
+        my $tags = [];
+        push @$tags, 'グレゴリオ暦', '政令施行';
+        push @{$Data->{_TRANSITIONS}}, [$v->{prev}, $era->{_key}, {
+          change_day => 1,
+          day => $v->{day},
+          tags => $tags,
+        }];
         push @{$era->{starts} ||= []}, $v;
         $v = {%$v};
         my $prev_era = $Data->{eras}->{delete $v->{prev}};
@@ -338,6 +345,14 @@ for my $era (@era) {
                    '元徳' => '嘉暦',
                  }->{$era->{_key}})};
         push @{$era->{starts} ||= []}, $v;
+        my $tags = [];
+        push @$tags, 'グレゴリオ暦' if ref $v->{day} eq 'HASH' and
+            ($v->{day}->{jd} >= 2405159.5); # M6.1.1
+        push @{$Data->{_TRANSITIONS}}, [$v->{prev}, $era->{_key}, {
+          change_day => 1,
+          day => $v->{day},
+          tags => $tags,
+        }];
         unless ($era->{_key} eq '持統天皇') {
           $v = {%$v};
           my $prev_era = $Data->{eras}->{delete $v->{prev}};
@@ -369,6 +384,10 @@ for my $era (@era) {
       my $v = {day => sday $jd, type => 'year-start',
                prev => $era->{_prev_key}->{$pfx}};
       push @{$era->{starts} ||= []}, $v;
+      push @{$Data->{_TRANSITIONS}}, [$v->{prev}, $era->{_key}, {
+        change_day => 1,
+        day => $v->{day},
+      }];
       if (defined $v->{prev}) {
         $v = {%$v};
         my $prev_era = $Data->{eras}->{delete $v->{prev}};
@@ -480,6 +499,30 @@ for my $era (@era) {
       die "Bad label |$_->[2]->{label}|";
     }
     push @{$era->{starts} ||= []}, $v;
+    my $tags = [];
+    push @$tags, 'グレゴリオ暦' if ref $v->{day} eq 'HASH' and
+        ($v->{day}->{gregorian} eq '1868-01-01' or
+         $v->{day}->{gregorian} eq '1868-09-08' or
+         $v->{day}->{jd} >= 2405159.5); # M6.1.1
+    push @{$Data->{_TRANSITIONS}}, [$v->{prev}, $era->{_key}, {
+      %{$_->[2]},
+      label => {
+        北朝 => '日本北朝',
+        南朝 => '日本南朝',
+        南洋群島 => '日本領南洋群島',
+        関東州 => '日本領関東州',
+        満鉄附属地 => '日本領満鉄附属地',
+        朝鮮 => '日本領朝鮮',
+        台湾 => '大日本帝国台湾',
+        幕府 => '室町幕府施行',
+        崩御 => '改元前の崩御',
+        公布 => '政令公布',
+      }->{$_->[2]->{label} // ''} // $_->[2]->{label},
+      type => $v->{type},
+      day => $v->{day},
+      tags => $tags,
+    }];
+    
     $v = {%$v};
     unless ($no_reverse) {
       my $prev_era = $Data->{eras}->{delete $v->{prev}} ||= {};
@@ -542,6 +585,27 @@ for my $era (@era) {
       die "Bad label |$_->[2]->{label}|";
     }
     push @{$era->{ends} ||= []}, $v;
+    my $tags = [];
+    push @$tags, 'グレゴリオ暦' if ref $v->{day} eq 'HASH' and
+        ($v->{day}->{jd} >= 2405159.5); # M6.1.1
+    push @{$Data->{_TRANSITIONS}}, [$era->{_key}, $v->{next}, {
+      %{$_->[2]},
+      label => {
+        北朝 => '日本北朝',
+        南朝 => '日本南朝',
+        南洋群島 => '日本領南洋群島',
+        関東州 => '日本領関東州',
+        満鉄附属地 => '日本領満鉄附属地',
+        朝鮮 => '日本領朝鮮',
+        台湾 => '大日本帝国台湾',
+        平和条約 => '日本国との平和条約',
+        崩御 => '改元前の崩御',
+      }->{$_->[2]->{label} // ''} // $_->[2]->{label},
+      type => $v->{type},
+      day => $v->{day},
+      tags => $tags,
+    }];
+
     $v = {%$v};
     unless ($no_reverse) {
       my $next_era = $Data->{eras}->{delete $v->{next}};

@@ -914,7 +914,7 @@
     # +09:00
     # <https://wiki.suikawiki.org/n/%E5%8D%97%E8%A5%BF%E8%AB%B8%E5%B3%B6%E3%81%AE%E6%97%A5%E6%99%82>
     # <https://wiki.suikawiki.org/n/%E5%B0%8F%E7%AC%A0%E5%8E%9F%E3%81%AE%E6%97%A5%E6%99%82>
-  s 28-4-20 <-단기 竹島
+  s 28-4-20 ->단기 竹島
     # 
 
   u 99

@@ -8,7 +8,11 @@
 %tag region
 %tag   name_ja 内満州
 %tag   region of 満州
-%tag 
+
+%tag region
+%tag   name_ja 関東州
+%tag   region of 内満州
+
 %tag people
 %tag   name_ja 満州人
 
@@ -813,9 +817,11 @@ u 100-3-31
 %tag   name_ja 露領関東州
 %tag   region of ロシア帝国
 %tag   region of 満州
+%tag   period of 関東州
 
 %tag region
 %tag   name_ja 日本領満鉄附属地
+%tag   name_ja 満鉄附属地
 %tag   region of 大日本帝国
 %tag   region of 満州
 
@@ -823,6 +829,7 @@ u 100-3-31
 %tag   name_ja 日本領関東州
 %tag   region of 大日本帝国
 %tag   region of 満州
+%tag   period of 関東州
 
 %tag country
 %tag   name_ja 満州国

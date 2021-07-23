@@ -512,6 +512,11 @@ An event is a JSON object with following name/value pairs:
 
     The type of the event.
 
+      administrative
+
+        The day a peacetime administrative change was enforced such
+        that the era was changed accordingly.
+
       canceled
 
         The transition is cancelled.
@@ -546,7 +551,7 @@ An event is a JSON object with following name/value pairs:
       firstday/possible
       firstday/incorrect
 
-        The first day of the new era, if known.
+        The first day of the new era.
 
         It may be the day before the day the era is defined or the
         first day the era is used.
@@ -554,16 +559,20 @@ An event is a JSON object with following name/value pairs:
         It might or might not be known yet at the time when the day
         was started that the new era was to be started at the day.
 
+      notified
+
+        The day the notification of the new era was sent.  It may or
+        may not be the same day as any corresponding |received| day.
+
       other
 
-        Any other kind of event.
+        The day some other kind of event was happened.
 
       prevfirstday
       prevfirstday/possible
       prevfirstday/incorrect
 
-        The previous day of the |firstday|, if the exact |firstday| is
-        known.
+        The previous day of the |firstday|.
 
       proclaimed
 
@@ -571,9 +580,9 @@ An event is a JSON object with following name/value pairs:
 
       received
 
-        starts: The day the era had been received by |group|.
-
-        ends: The day the |next| era was received.
+        The day the notification of the new era was received.  It may
+        or may not be the same day as any corresponding |notified|
+        day.
 
       retroactivated
 
@@ -597,17 +606,16 @@ An event is a JSON object with following name/value pairs:
 
       wartime
 
-        starts: The day the era was changed as part of irregular
-        wartime process by |group|.
+        The day the era was changed as part of irregular wartime
+        process.
 
-        ends: The day the |next| era was "wartime"-changed.
       year-end
 
         ends: The last day of the year the era was exited.
 
       year-start
 
-        starts: The first day of the year the era was started.
+        The first day of the first year of the new era.
 
     The type might be suffixed by |/possible| or |/incorrect|, as
     shown above.  The |/possible| variant type represent another

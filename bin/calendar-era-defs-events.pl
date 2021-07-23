@@ -288,6 +288,20 @@ sub gymd2nymmd ($$$$) {
   die "Bad date $y, $m, $d ($g)";
 } # gymd2nymmd
 
+{
+my $g2k_map_path = $RootPath->child ('data/calendar/kyuureki-map.txt');
+my $g2k_map = {map { split /\t/, $_ } split /\x0D?\x0A/, $g2k_map_path->slurp};
+my $k2g_map = {reverse %$g2k_map};
+
+sub k2g ($) {
+  return $k2g_map->{$_[0]} || die "Kyuureki |$_[0]| is not defined", Carp::longmess;
+} # k2g
+
+sub g2k ($) {
+  return $g2k_map->{$_[0]} || die "Gregorian |$_[0]| is not defined", Carp::longmess;
+} # g2k
+}
+
 sub ssday ($$) {
   my ($jd, $tag_ids) = @_;
   
@@ -312,6 +326,12 @@ sub ssday ($$) {
     } else {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '明', $y, $m, $d;
     }
+  }
+
+  if ($tag_ids->{1003}) { # 日本
+    my $k = g2k ymd2string $y, $m, $d;
+    $day->{kyuureki} = $k
+        // die "No kyuureki date for ($y, $m, $d)";
   }
   
   return $day;
@@ -432,25 +452,72 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
   my $v = $tr->[2];
   my $x = {};
 
-  my $tags = {};
-  while ($v =~ s{\s*#(\w+)$}{}) {
-    set_object_tag $tags, $1;
-  }
-  $x->{tag_ids} = $tags->{tag_ids} if keys %{$tags->{tag_ids} or {}};
+  if (ref $v eq 'HASH') { # comes from |bin/era-date-list.pl|.
+    next if defined $v->{label} and $v->{label} eq '年末';
+    
+    set_object_tag $x, '日本';
+    (ref $v->{day} eq 'ARRAY' ? $v->{day}->[0] : $v->{day})->{gregorian} =~ /^(-?[0-9]+)/;
+    my $y = 0+$1;
+    my $change;
+    if ($tr->[1] eq '文武天皇') {
+      $change = '日本改元日';
+    } elsif ($tr->[1] =~ /天皇$/) {
+      $change = '天皇即位元年年始';
+    } elsif ($y < 1870) {
+      $change = '日本朝廷改元日';
+    } elsif ($y < 1960) {
+      $change = '大日本帝国改元日';
+    } else {
+      $change = '日本国改元日';
+    }
+    if ($v->{change_day}) {
+      set_object_tag $x, $change;
+      die 'XX'.'X' if $v->{incorrect};
+    } else {
+      if (defined $v->{label}) {
+        set_object_tag $x, $v->{label};
+        die 'XX'.'X' if $v->{incorrect};
+        set_object_tag $x, '戦時異動' if $v->{type} eq 'wartime';
+        set_object_tag $x, '行政異動'
+            if $v->{type} eq 'succeed' and not $v->{label} eq '改元前の崩御';
+        set_object_tag $x, '通知受領' if $v->{type} eq 'received';
+      } else {
+        set_object_tag $x, $change;
+        if ($v->{incorrect}) {
+          set_object_tag $x, '旧説';
+        } else {
+          set_object_tag $x, '異説';
+        }
+      }
+    }
+    for (@{$v->{tags} or []}) {
+      set_object_tag $x, $_;
+    }
+    
+    if (ref $v->{day} eq 'ARRAY') {
+      $x->{day_start} = ssday $v->{day}->[0]->{jd}, $x->{tag_ids};
+      $x->{day_end} = ssday $v->{day}->[1]->{jd}, $x->{tag_ids};
+    } else {
+      $x->{day} = ssday $v->{day}->{jd}, $x->{tag_ids};
+    }
+  } else { # comes from |bin/calendar-era-defs.pl|.
+    while ($v =~ s{\s*#(\w+)$}{}) {
+      set_object_tag $x, $1;
+    }
 
   if ($v =~ m{^\[([^,]+)\]$}) {
     my $jd1 = parse_date $tr->[2], $1, start => 1;
     my $jd2 = parse_date $tr->[2], $1, end => 1;
-    $x->{day_start} = (ssday $jd1, $tags->{tag_ids});
-    $x->{day_end} = (ssday $jd2, $tags->{tag_ids});
+    $x->{day_start} = (ssday $jd1, $x->{tag_ids});
+    $x->{day_end} = (ssday $jd2, $x->{tag_ids});
   } elsif ($v =~ m{^\[([^,]+),([^,]+)\]$}) {
     my $jd1 = parse_date $tr->[2], $1, start => 1;
     my $jd2 = parse_date $tr->[2], $2, end => 1;
-    $x->{day_start} = (ssday $jd1, $tags->{tag_ids});
-    $x->{day_end} = (ssday $jd2, $tags->{tag_ids});
+    $x->{day_start} = (ssday $jd1, $x->{tag_ids});
+    $x->{day_end} = (ssday $jd2, $x->{tag_ids});
   } else {
     my $jd = parse_date $tr->[2], $v;
-    $x->{day} = (ssday $jd, $tags->{tag_ids});
+    $x->{day} = (ssday $jd, $x->{tag_ids});
   }
   if (defined $x->{day_start} and
       not $x->{day_start}->{jd} < $x->{day_end}->{jd}) {
@@ -472,6 +539,7 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
     
     push @$Transitions, [$from_keys, $to_keys, $y, $tr->[2]];
   }
+  } # $v
   
   push @$Transitions, [$from_keys, $to_keys, $x, $tr->[2]];
 } # $tr
@@ -509,6 +577,14 @@ for (@$Transitions) {
     $type = 'triggering';
   } elsif ($x->{tag_ids}->{1230}) { # 戦時異動
     $type = 'wartime';
+  } elsif ($x->{tag_ids}->{1339}) { # 行政異動
+    $type = 'administrative';
+  } elsif ($x->{tag_ids}->{1338}) { # 通知受領
+    $type = 'received';
+  } elsif ($x->{tag_ids}->{1337}) { # 通知発出
+    $type = 'notified';
+  } elsif ($x->{tag_ids}->{1342}) { # 天皇即位元年年始
+    $type = 'year-start';
   } else {
     if (@$from_keys and not @$to_keys) {
       $type = 'other';

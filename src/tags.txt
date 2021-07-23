@@ -81,8 +81,12 @@ country
   name_ja オランダ
 
 region
+  name_ja 南洋群島
+
+region
   name_ja 日本領南洋群島
   region of 大日本帝国
+  period of 南洋群島
 
 country
   name_ja ブラジル
@@ -316,11 +320,17 @@ action
   ## There are hardcoded rules in |bin/calendar-era-defs-events.pl|.
 
 action
-  label_ja 日本改元日
   name_ja 改元日
 
-  group of 制定
-  group of 適用開始
+action
+  name_ja 通知発出
+
+action
+  name_ja 通知受領
+
+action
+  name_ja 外国通告
+  group of 通知発出
 
 action
   name_ja 年始改元決定
@@ -329,10 +339,12 @@ action
 action
   name_ja 年始改元実施
   group of 年始改元実施予定
+  group of 年始
 
 action
   name_ja 年始改元実施予定
   group of 適用開始日
+  group of 年始
 
 action
   name_ja 月始改元決定
@@ -365,6 +377,9 @@ action
 action
   name_ja 即位紀年から改元建元
   group of 新規建元
+
+action
+  name_ja 行政異動
 
 action
   name_ja 戦時異動
@@ -400,3 +415,17 @@ tag
 tag
   name_ja 旧説
   group of 異説
+
+tag
+  name_ja 年始
+
+tag
+  name_ja 天皇即位元年年始
+  group of 年始
+
+tag
+  name_ja 年末
+
+tag
+  name_ja グレゴリオ暦
+

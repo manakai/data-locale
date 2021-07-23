@@ -265,10 +265,13 @@ for (
         set_tag $key, '日本南朝の公年号';
       }
       if ($data->{jp_emperor_era}) {
+        set_tag $key, '日本';
         set_tag $key, '天皇即位紀年 (古代)';
       }
     }
-  }
+  } # $key
+
+  push @{$Data->{_TRANSITIONS}}, @{$json->{_TRANSITIONS} or []};
 }
 
 {
