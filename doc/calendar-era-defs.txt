@@ -136,9 +136,11 @@ The file contains a JSON object with following name/value pairs:
 
         The official English short description of the era, if any.
 
-      ends [events]
+      end_day [day?]
 
-        The end days of the era.
+        The last day of the era, if known.  It is same as the last
+        outgoing transition event of type |prevfirstday|, if any, or
+        |lastyearend|.
 
       end_year [year?]
 
@@ -306,19 +308,14 @@ The file contains a JSON object with following name/value pairs:
 
         The name of the era in Vietnamese, if known.
 
+      north_end_day [day?]
       north_end_year [year?]
-
-        The last year of the era for the Northern Court of Japan (日本
-        北朝), if applicable.  It is the year of the last outgoing
-        transition event of type |prevfirstday| for the Northern Court
-        of Japan (日本北朝).
-
+      north_start_day [day?]
       north_start_year [year?]
 
-        The first year of the era for the Northern Court of Japan (日
-        本北朝), if applicable.  It is the year of the first incoming
-        transition event of type |firstday| for the Northern Court of
-        Japan (日本北朝).
+        Similar to |end_day|, |end_year|, |start_day|, and
+        |start_year| values, respectively, but for the Northern Court
+        of Japan (日本北朝), if applicable.
 
       offset [integer?]
 
@@ -351,23 +348,20 @@ The file contains a JSON object with following name/value pairs:
 
             The URL of the source document.
 
+      south_end_day [day?]
       south_end_year [year?]
-
-        The last year of the era for the Southern Court of Japan (日本
-        南朝), if applicable.  It is the year of the last outgoing
-        transition event of type |prevfirstday| for the Southern Court
-        of Japan (日本南朝).
-
+      south_start_day [day?]
       south_start_year [year?]
 
-        The first year of the era for the Southern Court of Japan (日
-        本南朝), if applicable.  It is the year of the first incoming
-        transition event of type |firstday| for the Southern Court of
-        Japan (日本南朝).
+        Similar to |end_day|, |end_year|, |start_day|, and
+        |start_year| values, respectively, but for the Southern Court
+        of Japan (日本南朝), if applicable.
 
-      starts [events]
+      start_day [day?]
 
-        The start days of the era.
+        The first day of the era, if known.  It is same as the first
+        incoming transition event of type |firstday|, if any, or
+        |firstyearstart|.
 
       start_year [year?]
 
@@ -392,6 +386,10 @@ The file contains a JSON object with following name/value pairs:
         The latest year that should be shown in the table of the era's
         transition events, if known.  If specified, the value is
         greater than or equal to the |known_oldest_year|.
+
+      transitions [events]
+
+        The transition events related to the era.
 
       unicode [string?]
 
@@ -422,52 +420,17 @@ The file contains a JSON object with following name/value pairs:
         <https://github.com/geocol/data-jp-transport/blob/master/doc/datatypes.txt>
         for the Chinese Wikipedia article on the era, if known.
 
-      start_day [day?]
-      end_day [day?]
       official_start_day [day?]
       actual_end_day [day?]
-      north_start_day [day?]
       north_official_start_day [day?]
       north_actual_end_day [day?]
-      north_end_day [day?]
-      south_start_day [day?]
-      south_end_day [day?]
       south_official_start_day [day?]
       south_actual_end_day [day?]
 
-        The start and end of the era, if defined and known.
+        Deprecated.  Applications should not use these values.
 
-        The start or end of the era can be defined in terms of day or
-        year.
-
-        If the start or end is defined in terms of day, |start_day| or
-        |end_day| is set to the value which should be used when a date
-        represented in other format is converted into the era-based
-        format (according to the era system "jp" for |jp_era| eras).
-
-        If the start is defined in terms of day and there is an
-        "official" start day, |official_start_day| is set to that day.
-        It can be different from the |start_day| if the era was
-        defined after its actual start day.  See also
-        <https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7#anchor-159>.
-
-        If the end is defined in terms of day, |actual_end_day| is set
-        to that day.  It can be different from the |end_day| if a new
-        era had been started before the end of the |actual_end_day|.
-
-        For eras with |jp_north_era| or |jp_south_era| flag, |north_|
-        or |south_| prefixed name/value pairs are used instead, as
-        their values can be different for 北朝 and 南朝.  Note that 正
-        平の一統 is not reflected to these properties.  The
-        |jp_north_era| flag is not set to the 正平 era.
-
-        If start or end is defined in terms of year, |start_*_day| and
-        |end_*_day| name/value pairs, where * is |gregorian|,
-        |julian|, or |kyuureki|, are set to the first or last days in
-        those calendars.
-
-        For values with type [day], the parameter /era/ is set to the
-        era.
+        These values represent start and end dates and years derived
+        from the transition events of the era.
 
     Note that there is a special era: "unknown", which indicates that
     the era is unknown or not specified.

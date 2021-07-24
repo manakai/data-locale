@@ -175,12 +175,28 @@
 %tag   group of 日本改元日
 
 %tag action
+%tag   name_ja 日本朝廷改元前日
+%tag   group of 適用開始前日
+
+%tag action
+%tag   name_ja 日本朝廷改元年始
+%tag   group of 年始
+
+%tag action
 %tag   name_ja 大日本帝国改元日
 %tag   group of 日本改元日
 
 %tag action
+%tag   name_ja 大日本帝国改元前日
+%tag   group of 適用開始前日
+
+%tag action
 %tag   name_ja 日本国改元日
 %tag   group of 日本改元日
+
+%tag action
+%tag   name_ja 日本国改元前日
+%tag   group of 適用開始前日
 
 %tag action
 %tag   name_ja 政令公布

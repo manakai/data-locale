@@ -389,6 +389,20 @@ sub ssday ($$) {
   return $day;
 } # ssday
 
+sub set_day_era_dates ($$) {
+  my ($day, $era) = @_;
+
+  $day->{gregorian_era} = $day->{gregorian};
+  $day->{julian_era} = $day->{julian};
+  $day->{kyuureki_era} = $day->{kyuureki};
+
+  for (qw(gregorian_era julian_era kyuureki_era)) {
+    $day->{$_} =~ s{^(-?[0-9]+)}{
+      $era->{key} . ($1 - $era->{offset});
+    }e;
+  }
+} # set_day_era_dates
+
 sub extract_day_year ($$) {
   my ($day, $tag_ids) = @_;
 
@@ -537,7 +551,7 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
     my $change;
     if ($tr->[1] eq '文武天皇') {
       $change = '日本改元日';
-    } elsif ($tr->[1] =~ /天皇$/) {
+    } elsif ($tr->[1] =~ /天皇$|摂政$/) {
       $change = '天皇即位元年年始';
     } elsif ($y < 1870) {
       $change = '日本朝廷改元日';
@@ -605,15 +619,22 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
       not $x->{tag_ids}->{1198} and # 異説
       defined $x->{day}) {
     my $y = {};
+    my $z = {};
+    my $z2 = {};
     for (keys %{$x->{tag_ids}}) {
-      set_object_tag $y, $x->{tag_ids}->{$_} if {
+      do {
+        set_object_tag $y, $x->{tag_ids}->{$_};
+        set_object_tag $z, $x->{tag_ids}->{$_};
+        set_object_tag $z2, $x->{tag_ids}->{$_};
+      } if {
         country => 1,
         region => 1,
         calendar => 1,
       }->{$Tags->{$_}->{type}};
+      set_object_tag $y, '日本朝廷改元前日' if $_ == 1325; # 日本朝廷改元日
+      set_object_tag $y, '大日本帝国改元前日' if $_ == 1326; # 大日本帝国改元日
+      set_object_tag $y, '日本国改元前日' if $_ == 1327; # 日本国改元日
     }
-    my $z = json_bytes2perl perl2json_bytes $y;
-    my $z2 = json_bytes2perl perl2json_bytes $y;
 
     set_object_tag $y, '適用開始前日';
     $y->{day} = ssday $x->{day}->{jd} - 1, $y->{tag_ids};
@@ -664,6 +685,9 @@ ERA: for my $era (sort { $a->{id} <=> $b->{id} } values %{$Data->{eras}}) {
           region => 1,
           calendar => 1,
         }->{$Tags->{$_}->{type}};
+        if ($_ == 1325) { # 日本朝廷改元日
+          set_object_tag $w, '日本朝廷改元年始';
+        }
       }
       push @$prev_eras, @{$_->[0]};
     }
@@ -831,31 +855,122 @@ for my $era (values %{$Data->{eras}}) {
       unless ($tr->{type} eq 'wartime') {
         $era->{start_year} //= $y;
         $era->{start_year} = $y if $y < $era->{start_year};
+        if (defined $tr->{day}) {
+          $era->{start_day} //= $tr->{day};
+          $era->{start_day} = $tr->{day}
+              if $tr->{day}->{mjd} < $era->{start_day}->{mjd};
+          $era->{official_start_day} = $era->{start_day}
+              if $tr->{tag_ids}->{1326} or # 大日本帝国改元日
+                 $tr->{tag_ids}->{1327}; # 日本国改元日
+        }
       }
       if ($tr->{tag_ids}->{1065}) { # 日本北朝
         $era->{north_start_year} //= $y;
         $era->{north_start_year} = $y if $y < $era->{north_start_year};
+        if (defined $tr->{day}) {
+          $era->{north_start_day} //= $tr->{day};
+          $era->{north_start_day} = $tr->{day}
+              if $tr->{day}->{mjd} < $era->{north_start_day}->{mjd};
+        }
       }
       if ($tr->{tag_ids}->{1066}) { # 日本南朝
         $era->{south_start_year} //= $y;
         $era->{south_start_year} = $y if $y < $era->{south_start_year};
+        if (defined $tr->{day}) {
+          $era->{south_start_day} //= $tr->{day};
+          $era->{south_start_day} = $tr->{day}
+              if $tr->{day}->{mjd} < $era->{south_start_day}->{mjd};
+        }
+      }
+    }
+    if ($tr->{direction} eq 'incoming' and
+        $tr->{type} eq 'firstyearstart') { # has day
+      if ($tr->{tag_ids}->{1352} or # 日本朝廷改元年始
+          $era->{key} eq '文武天皇') {
+        $era->{official_start_day} //= $tr->{day};
+        $era->{official_start_day} = $tr->{day}
+            if $tr->{day}->{mjd} < $era->{official_start_day}->{mjd};
+      }
+      if ($tr->{tag_ids}->{1065}) { # 日本北朝
+        $era->{north_official_start_day} //= $tr->{day};
+        $era->{north_official_start_day} = $tr->{day}
+            if $tr->{day}->{mjd} < $era->{north_official_start_day}->{mjd};
+      }
+      if ($tr->{tag_ids}->{1066}) { # 日本南朝
+        $era->{south_official_start_day} //= $tr->{day};
+        $era->{south_official_start_day} = $tr->{day}
+            if $tr->{day}->{mjd} < $era->{south_official_start_day}->{mjd};
       }
     }
     if ($tr->{direction} eq 'outgoing' and
         ($tr->{type} eq 'prevfirstday' or
          $tr->{type} eq 'wartime')) { # has day or day_end
-      my $y = extract_day_year $tr->{day} // $tr->{day_end}, $tr->{tag_ids};
+      my $day = $tr->{day};
+      if (defined $day and $tr->{type} eq 'wartime') {
+        $day = ssday $day->{jd} - 1, $tr->{tag_ids};
+      }
+      my $y = extract_day_year $day // $tr->{day_end}, $tr->{tag_ids};
       unless ($tr->{type} eq 'wartime') {
         $era->{end_year} //= $y;
         $era->{end_year} = $y if $era->{end_year} < $y;
+        if (defined $day) {
+          $era->{end_day} //= $day;
+          $era->{end_day} = $day
+              if $era->{end_day}->{mjd} < $day->{mjd};
+          $era->{actual_end_day} = $era->{end_day}
+              if $tr->{tag_ids}->{1355}; # 日本国改元前日
+        }
       }
       if ($tr->{tag_ids}->{1065}) { # 日本北朝
         $era->{north_end_year} //= $y;
         $era->{north_end_year} = $y if $era->{north_end_year} < $y;
+        if (defined $day) {
+          $era->{north_end_day} //= $day;
+          $era->{north_end_day} = $day
+              if $era->{north_end_day}->{mjd} < $day->{mjd};
+        }
       }
       if ($tr->{tag_ids}->{1066}) { # 日本南朝
         $era->{south_end_year} //= $y;
         $era->{south_end_year} = $y if $era->{south_end_year} < $y;
+        if (defined $day) {
+          $era->{south_end_day} //= $day;
+          $era->{south_end_day} = $day
+              if $era->{south_end_day}->{mjd} < $day->{mjd};
+        }
+      }
+    }
+    if ($tr->{direction} eq 'outgoing' and
+        ($tr->{type} eq 'firstday' or
+         $tr->{type} eq 'wartime') and
+        defined $tr->{day}) {
+      if ($tr->{tag_ids}->{1325}) { # 日本朝廷改元日
+        $era->{actual_end_day} //= $tr->{day};
+        $era->{actual_end_day} = $tr->{day}
+            if $era->{actual_end_day}->{mjd} < $tr->{day}->{mjd};
+      }
+      if ($tr->{tag_ids}->{1326}) { # 大日本帝国改元日
+        $era->{actual_end_day} //= $tr->{day};
+        $era->{actual_end_day} = $tr->{day}
+            if $era->{actual_end_day}->{mjd} < $tr->{day}->{mjd};
+      }
+      if ($tr->{tag_ids}->{1065}) { # 日本北朝
+        $era->{north_actual_end_day} //= $tr->{day};
+        $era->{north_actual_end_day} = $tr->{day}
+            if $era->{north_actual_end_day}->{mjd} < $tr->{day}->{mjd};
+      }
+      if ($tr->{tag_ids}->{1066}) { # 日本南朝
+        $era->{south_actual_end_day} //= $tr->{day};
+        $era->{south_actual_end_day} = $tr->{day}
+            if $era->{south_actual_end_day}->{mjd} < $tr->{day}->{mjd};
+      }
+    }
+    if ($tr->{direction} eq 'outgoing' and
+        $tr->{type} eq 'prevfirstyearstart') { # has day
+      if ($era->{key} eq '朱鳥') {
+        $era->{actual_end_day} //= $tr->{day};
+        $era->{actual_end_day} = $tr->{day}
+            if $era->{actual_end_day}->{mjd} < $tr->{day}->{mjd};
       }
     }
   } # $tr
@@ -866,6 +981,12 @@ for my $era (values %{$Data->{eras}}) {
       my $y = extract_day_year $tr->{day}, $tr->{tag_ids};
       $era->{start_year} //= $y;
       $era->{start_year} = $y if $y < $era->{start_year};
+
+      $era->{start_day} //= $tr->{day};
+      $era->{start_day} = $tr->{day}
+          if $tr->{day}->{mjd} < $era->{start_day}->{mjd};
+      $era->{official_start_day} = $era->{start_day}
+          if $era->{jp_emperor_era};
     }
     if (not defined $era->{end_year} and
         $tr->{direction} eq 'outgoing' and
@@ -873,6 +994,12 @@ for my $era (values %{$Data->{eras}}) {
       my $y = extract_day_year $tr->{day}, $tr->{tag_ids};
       $era->{end_year} //= $y;
       $era->{end_year} = $y if $era->{end_year} < $y;
+
+      $era->{end_day} //= $tr->{day};
+      $era->{end_day} = $tr->{day}
+          if $era->{end_day}->{mjd} < $tr->{day}->{mjd};
+      $era->{actual_end_day} = $era->{end_day}
+          if $era->{jp_emperor_era};
     }
   } # $tr
   $era->{north_start_year} //= $era->{start_year}
@@ -883,6 +1010,97 @@ for my $era (values %{$Data->{eras}}) {
       if defined $era->{north_start_year};
   $era->{south_end_year} //= $era->{end_year}
       if defined $era->{south_start_year};
+  $era->{north_start_day} //= $era->{start_day}
+      if defined $era->{north_end_day};
+  $era->{south_start_day} //= $era->{start_day}
+      if defined $era->{south_end_day};
+  $era->{north_end_day} //= $era->{end_day}
+      if defined $era->{north_start_day};
+  $era->{south_end_day} //= $era->{end_day}
+      if defined $era->{south_start_day};
+  $era->{north_official_start_day} //= $era->{official_start_day}
+      if defined $era->{north_end_day};
+  $era->{south_official_start_day} //= $era->{official_start_day}
+      if defined $era->{south_end_day};
+  $era->{north_actual_end_day} //= $era->{actual_end_day}
+      if defined $era->{north_start_day};
+  $era->{south_actual_end_day} //= $era->{actual_end_day}
+      if defined $era->{south_start_day};
+  if (defined $era->{north_official_start_day} and
+      not grep {
+        $_->{direction} eq 'incoming' and
+        $_->{type} eq 'firstday' and
+        $_->{tag_ids}->{1065}; # 日本北朝
+      } @{$era->{transitions}} and
+      grep {
+        $_->{direction} eq 'incoming' and
+        $_->{type} eq 'firstday' and
+        $_->{tag_ids}->{1066}; # 日本南朝
+      } @{$era->{transitions}}) {
+    $era->{north_official_start_day} = $era->{north_start_day};
+  }
+  if (defined $era->{south_official_start_day} and
+      not grep {
+        $_->{direction} eq 'incoming' and
+        $_->{type} eq 'firstday' and
+        $_->{tag_ids}->{1066}; # 日本南朝
+      } @{$era->{transitions}} and
+      grep {
+        $_->{direction} eq 'incoming' and
+        $_->{type} eq 'firstday' and
+        $_->{tag_ids}->{1065}; # 日本北朝
+      } @{$era->{transitions}}) {
+    $era->{south_official_start_day} = $era->{south_start_day};
+  }
+  if (defined $era->{south_actual_end_day} and
+      not grep {
+        $_->{direction} eq 'outgoing' and
+        $_->{type} eq 'firstday' and
+        $_->{tag_ids}->{1066}; # 日本南朝
+      } @{$era->{transitions}}) {
+    $era->{south_actual_end_day} = ssday $era->{south_end_day}->{jd} + 1, $era->{tag_ids};
+  }
+  if ($era->{key} eq '持統天皇') {
+    $era->{actual_end_day} = ssday $era->{end_day}->{jd} + 1, $era->{tag_ids};
+  } elsif ($era->{key} eq '白雉') {
+    $era->{actual_end_day} = $era->{end_day};
+  } elsif ($era->{key} eq '天平宝字') {
+    $era->{official_start_day} = $era->{start_day};
+  }
+
+  if (($era->{jp_north_era} or $era->{jp_south_era}) and
+      not ($era->{jp_north_era} and $era->{jp_south_era})) {
+    delete $era->{$_} for qw(official_start_day actual_end_day);
+  }
+  unless ($era->{jp_north_era}) {
+    delete $era->{$_} for qw(north_start_year north_end_year
+                             north_start_day north_end_day
+                             north_official_start_day 
+                             north_actual_end_day);
+  }
+  unless ($era->{jp_south_era}) {
+    delete $era->{$_} for qw(south_start_year south_end_year
+                             south_start_day south_end_day
+                             south_official_start_day 
+                             south_actual_end_day);
+  }
+
+  if ($era->{jp_era} or
+      $era->{jp_north_era} or
+      $era->{jp_south_era} or
+      $era->{jp_emperor_era}) {
+    for (qw(start_day end_day
+            north_start_day north_end_day
+            south_start_day south_end_day
+            official_start_day
+            north_official_start_day south_official_start_day
+            actual_end_day
+            north_actual_end_day south_actual_end_day)) {
+      next unless defined $era->{$_};
+      $era->{$_} = {%{$era->{$_}}};
+      set_day_era_dates $era->{$_}, $era;
+    }
+  }
 
   if ($era->{jp_era} and
       defined $era->{end_year} and

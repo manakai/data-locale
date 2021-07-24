@@ -353,7 +353,8 @@ for my $era (@era) {
           change_day => 1,
           day => $v->{day},
           tags => $tags,
-          prefix => $pfx,
+          prefix => (($era->{_key} eq '元徳' or
+                      $era->{_key} eq '建武') ? '' : $pfx),
         }];
         unless ($era->{_key} eq '持統天皇') {
           $v = {%$v};
