@@ -123,75 +123,13 @@ while (1) {
 
 binmode STDOUT, qw(:encoding(utf-8));
 for my $item (@$items) {
-  printf "# k:%s g:%s%s\njd:%s %s\n",
-      $item->{day}->{kyuureki},
-      $item->{day}->{gregorian},
-      $item->{delta} ? ' +' . $item->{delta} : '',
-      $item->{day}->{jd} + $item->{delta},
-      $item->{era}->{key};
-}
-if (0) {
-binmode STDERR, qw(:encoding(utf-8));
-for my $item (@$items) {
-  warn sprintf "g:%s+%d y~%d (%s) %s\n",
+  printf "# g:%s+%d y~%d %s\njd:%s %s\n",
       $item->{day}->{gregorian},
       $item->{delta},
       $item->{era}->{id},
-      $item->{era}->{key},
-      $item->{transition}->{type};
+      $item->{transition}->{type},
+      $item->{day}->{jd} + $item->{delta},
+      $item->{era}->{key};
 }
-}
-
-__END__
-
-   ERA: for my $era (values %{$json->{eras}}) {
-    {
-      last if $EraIncluded->{$era->{key}};
-      next ERA if $EraExcluded->{$era->{key}};
-      next ERA unless !!grep { $_ } map { $era->{tag_ids}->{$_} } @$EraTags;
-    }
-
-    my $matched1 = [];
-    my $matched2 = [];
-    my $fday;
-    my $fystart;
-    for my $tr (@{$era->{transitions}}) {
-      if ($tr->{direction} eq 'incoming') {
-        $fday = $tr if $tr->{type} eq 'firstday';
-        $fystart = $tr if $tr->{type} eq 'firstyearstart';
-      }
-    }
-
-    my @tr = @$matched1 ? @$matched1 : @$matched2 ? @$matched2 : $fday || $fystart || ();
-    die "Empty transition" unless @tr;
-    for my $tr (@tr) {
-      my $day = $tr->{day} // $tr->{day_end};
-      my $line;
-      if ($tr->{tag_ids}->{1226}) { # 陥落
-        $line = sprintf "# k:%s+1 g:%s+1\njd:%s %s\n",
-            $day->{kyuureki},
-            $day->{gregorian},
-            $day->{jd}+1,
-            $era->{key};
-      } else {
-        $line = sprintf "# k:%s g:%s\njd:%s %s\n",
-            $day->{kyuureki},
-            $day->{gregorian},
-            $day->{jd},
-            $era->{key};
-      }
-      push @$Data, [$day->{jd}, $line];
-    } # $tr
-  } # ERA
-}
-
-binmode STDOUT, qw(:encoding(utf-8));
-my $name = $ENV{ERA_SYSTEM_NAME};
-print '*'.$name.":\n";
-print '+$DEF-'.$name."\n";
-print '$DEF-'.$name.":\n";
-my $found = {};
-print join '', #grep { not $found->{$_}++ }
-    map { $_->[1] } sort { $a->[0] <=> $b->[0] } @$Data;
 
 ## License: Public Domain.
