@@ -201,7 +201,8 @@ local/calendar-era-yomis.txt: bin/calendar-era-yomis.pl \
 	DATA=2 $(PERL) $< > $@
 
 data/calendar/era-defs.json: bin/calendar-era-defs-events.pl \
-    local/calendar-era-defs-0.json
+    local/calendar-era-defs-0.json \
+    data/tags.json
 	$(PERL) $< > $@
 
 local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
@@ -242,50 +243,42 @@ local/eras/all: \
     local/eras/jp-kyoto.txt \
     local/eras/jp-east.txt
 	touch $@
-local/eras/jp.txt: bin/extract-era-system-def.pl \
-    data/calendar/era-defs.json
+local/eras/jp.txt: bin/extract-era-transitions.pl \
+    data/calendar/era-defs.json \
+    data/tags.json
 	mkdir -p local/eras
-	ERA_TAGS="天皇即位紀年 (古代),日本の公年号 (南北朝を除く),日本南朝の公年号" \
-	TRANSITION_TAGS="日本南朝" \
-	ERA_SYSTEM_NAME=jp \
-	$(PERL) $< > $@
-local/eras/jp-south.txt: bin/extract-era-system-def.pl \
-    data/calendar/era-defs.json
+	echo '*jp:\n+$$DEF-jp\n$$DEF-jp:' > $@
+	TAGS_INCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
+local/eras/jp-south.txt: bin/extract-era-transitions.pl \
+    data/calendar/era-defs.json \
+    data/tags.json
 	mkdir -p local/eras
-	ERA_TAGS="天皇即位紀年 (古代),日本の公年号 (南北朝を除く),日本南朝の公年号" \
-	TRANSITION_TAGS="日本南朝" \
-	ERA_SYSTEM_NAME=jp-south \
-	$(PERL) $< > $@
-local/eras/jp-north.txt: bin/extract-era-system-def.pl \
-    data/calendar/era-defs.json
+	echo '*jp-south:\n+$$DEF-jp-south\n$$DEF-jp-south:' > $@
+	TAGS_INCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
+local/eras/jp-north.txt: bin/extract-era-transitions.pl \
+    data/calendar/era-defs.json \
+    data/tags.json
 	mkdir -p local/eras
-	ERA_TAGS="天皇即位紀年 (古代),日本の公年号 (南北朝を除く),日本北朝の公年号" \
-	TRANSITION_TAGS="日本北朝" \
-	ERA_SYSTEM_NAME=jp-north \
-	$(PERL) $< > $@
-local/eras/jp-heishi.txt: bin/extract-era-system-def.pl \
-    data/calendar/era-defs.json
+	echo '*jp-north:\n+$$DEF-jp-north\n$$DEF-jp-north:' > $@
+	TAGS_INCLUDED=日本北朝 TAGS_EXCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
+local/eras/jp-heishi.txt: bin/extract-era-transitions.pl \
+    data/calendar/era-defs.json \
+    data/tags.json
 	mkdir -p local/eras
-	ERA_TAGS="天皇即位紀年 (古代),日本の公年号 (南北朝を除く),日本南朝の公年号" \
-	TRANSITION_TAGS="平氏,日本南朝" \
-	ERA_SYSTEM_NAME=jp-heishi \
-	$(PERL) $< > $@
-local/eras/jp-kyoto.txt: bin/extract-era-system-def.pl \
-    data/calendar/era-defs.json
+	echo '*jp-heishi:\n+$$DEF-jp-heishi\n$$DEF-jp-heishi:' > $@
+	TAGS_INCLUDED=平氏,日本南朝 $(PERL) $< 神武天皇 >> $@
+local/eras/jp-kyoto.txt: bin/extract-era-transitions.pl \
+    data/calendar/era-defs.json \
+    data/tags.json
 	mkdir -p local/eras
-	ERA_TAGS="天皇即位紀年 (古代),日本の公年号 (南北朝を除く),日本北朝の公年号" \
-	TRANSITION_TAGS="京都" \
-	ERA_SYSTEM_NAME=jp-kyoto \
-	$(PERL) $< > $@
-local/eras/jp-east.txt: bin/extract-era-system-def.pl \
-    data/calendar/era-defs.json
+	echo '*jp-kyoto:\n+$$DEF-jp-kyoto\n$$DEF-jp-kyoto:' > $@
+	TAGS_INCLUDED=京都 TAGS_EXCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
+local/eras/jp-east.txt: bin/extract-era-transitions.pl \
+    data/calendar/era-defs.json \
+    data/tags.json
 	mkdir -p local/eras
-	ERA_TAGS="天皇即位紀年 (古代),日本の公年号 (南北朝を除く),日本北朝の公年号" \
-	TRANSITION_TAGS="関東" \
-	ERA_INCLUDED="延徳(庚辰)" \
-	ERA_EXCLUDED="養和" \
-	ERA_SYSTEM_NAME=jp-east \
-	$(PERL) $< > $@
+	echo '*jp-east:\n+$$DEF-jp-east\n$$DEF-jp-east:' > $@
+	TAGS_INCLUDED=関東 TAGS_EXCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
 data/calendar/era-systems.json: bin/calendar-era-systems.pl \
     src/eras/*.txt data/calendar/kyuureki-map.txt \
     data/calendar/kyuureki-ryuukyuu-map.txt \
