@@ -1031,6 +1031,21 @@ for my $era (values %{$Data->{eras}}) {
       if defined $era->{end_year} and
          (not defined $era->{start_year} or
           not $era->{start_year} <= $era->{end_year});
+
+  $era->{known_oldest_year} //= $era->{start_year}
+      if defined $era->{start_year};
+  $era->{known_oldest_year} = $era->{start_year}
+      if defined $era->{start_year} and
+         $era->{start_year} < $era->{known_oldest_year};
+  $era->{known_latest_year} //= $era->{end_year}
+      if defined $era->{end_year};
+  $era->{known_latest_year} = $era->{end_year}
+      if defined $era->{end_year} and
+         $era->{known_latest_year} < $era->{end_year};
+  die "Bad known year range ($era->{known_oldest_year}, $era->{known_latest_year})"
+      if defined $era->{known_oldest_year} and
+         defined $era->{known_latest_year} and
+         not $era->{known_oldest_year} <= $era->{known_latest_year};
   
   $era->{north_start_year} //= $era->{start_year}
       if defined $era->{north_end_year};

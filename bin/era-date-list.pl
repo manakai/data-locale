@@ -123,35 +123,13 @@ sub g2jd ($) {
   return $jd;
 } # g2jd
 
-sub day ($$$) {
-  my ($era_key, $era_first_year, $jd) = @_;
-  my $era_offset = $era_first_year - 1;
-  #my $jd = g2jd $g;
-  my ($y, $m, $d) = jd2g_ymd ($jd);
-  my ($j_y, $j_m, $j_d) = jd2j_ymd ($jd);
-  my $g = ymd2string ($y, $m, $d);
-  my $k = g2k $g;
-  $k =~ /^(-?[0-9]+)-([0-9]+'?-[0-9]+)$/;
-  my $k_y = $1;
-  my $k_md = $2;
-  die $k unless defined $k_md;
-  return {jd => $jd,
-          julian => ymd2string ($j_y, $j_m, $j_d),
-          gregorian => $g,
-          kyuureki => $k,
-          julian_era => (sprintf '%s%d-%02d-%02d', $era_key, $j_y - $era_offset, $j_m, $j_d),
-          gregorian_era => (sprintf '%s%d-%02d-%02d', $era_key, $y - $era_offset, $m, $d),
-          kyuureki_era => (sprintf '%s%d-%s', $era_key, $k_y - $era_offset, $k_md)};
-} # day
-
 sub sday ($) {
   my ($jd) = @_;
   my ($y, $m, $d) = jd2g_ymd ($jd);
   my $g = ymd2string ($y, $m, $d);
-  my $k = g2k $g;
   return {jd => $jd,
           gregorian => $g,
-          kyuureki => $k};
+         };
 } # sday
 
 sub resolve_range ($$) {
@@ -397,16 +375,6 @@ for my $era (@era) {
         push @{$prev_era->{ends} ||= []}, $v;
       }
     }
-
-    {
-      $era->{$pfx.'start_year'} =~ /^(-?[0-9]+)/ or die;
-      $era->{known_oldest_year} = 0+$1 if
-          not defined $era->{known_oldest_year} or
-          $era->{known_oldest_year} > $1;
-      $era->{known_latest_year} = 0+$1 if
-          not defined $era->{known_latest_year} or
-          $era->{known_latest_year} < $1;
-    }
   }
 
   for my $pfx ('', 'north_', 'south_') {
@@ -414,23 +382,10 @@ for my $era (@era) {
     my $next_era = $Data->{eras}->{$era->{_next_key}->{$pfx}}
         // die $era->{_next_key}->{$pfx};
     my $jd = $next_era->{_jds}->{$pfx} // $next_era->{_jd};
-    $era->{$pfx.'end_day'}
-        = day $era->{_key}, $era->{_first_year}, $jd-1;
     if ($next_era->{_start_at_day_boundary}) {
-      $era->{$pfx.'actual_end_day'}
-          = day $era->{_key}, $era->{_first_year}, $jd-1;
       $era->{$pfx.'end_year'} = jd2jpy $jd-1;
     } else {
-      $era->{$pfx.'actual_end_day'}
-          = day $era->{_key}, $era->{_first_year}, $jd;
       $era->{$pfx.'end_year'} = jd2jpy $jd;
-    }
-
-    for (qw(gregorian julian kyuureki)) {
-      $era->{$pfx.'actual_end_day'}->{$_} =~ /^(-?[0-9]+)/ or die;
-      $era->{known_latest_year} = $1 if
-          not defined $era->{known_latest_year} or
-          $era->{known_latest_year} < $1;
     }
   }
 
