@@ -8,6 +8,7 @@ my $RootPath = path (__FILE__)->parent->parent;
 
 my $DataPath = $RootPath->child ('local/calendar-era-defs-0.json');
 my $Data = json_bytes2perl $DataPath->slurp;
+my $ThisYear = [gmtime]->[5] + 1900;
 
 sub ymd2string (@) {
   if ($_[0] < 0) {
@@ -436,6 +437,7 @@ my $TagByKey = {};
 
 sub set_object_tag ($$) {
   my ($obj, $tkey) = @_;
+  $tkey =~ s/_/ /g;
   my $item = $TagByKey->{$tkey};
   die "Tag |$tkey| not defined" unless defined $item;
 
@@ -591,7 +593,7 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
       $x->{day} = ssday $v->{day}->{jd}, $x->{tag_ids};
     }
   } else { # comes from |bin/calendar-era-defs.pl|.
-    while ($v =~ s{\s*#(\w+)$}{}) {
+    while ($v =~ s{\s*#([\w_()]+)$}{}) {
       set_object_tag $x, $1;
     }
 
@@ -719,8 +721,11 @@ for (@$Transitions) {
   $to_keys = [keys %{{map { $_ => 1 } @$to_keys}}];
 
   my $type;
-  if ($x->{tag_ids}->{1278}) { # 適用開始
+  if ($x->{tag_ids}->{1360}) { # 適用開始予定
     $type = 'firstday';
+    if ($x->{tag_ids}->{1361}) { # 適用開始 (中止)
+      $type .= '/canceled';
+    }
     if ($x->{tag_ids}->{1200}) { # 旧説
       $type .= '/incorrect';
     } elsif ($x->{tag_ids}->{1198}) { # 異説
@@ -1002,6 +1007,31 @@ for my $era (values %{$Data->{eras}}) {
           if $era->{jp_emperor_era};
     }
   } # $tr
+
+  $era->{start_year} = $era->{offset} + 1
+      if not defined $era->{start_year} and
+         defined $era->{end_year};
+  delete $era->{end_year}
+      if defined $era->{end_year} and
+         defined $era->{start_year} and
+         $era->{end_year} < $era->{start_year};
+  if (defined $era->{start_year} and
+      not defined $era->{end_year}) {
+    if ($era->{tag_ids}->{1124}) { # 実施中止
+      $era->{end_year} = $era->{start_year};
+    }
+  }
+  if (defined $era->{start_year} and
+      not defined $era->{end_year} and
+      defined $era->{known_latest_year} and
+      $era->{known_latest_year} + 10 < $ThisYear) { # XXX constant
+    $era->{end_year} = $era->{known_latest_year};
+  }
+  die "Bad year range for era |$era->{key}| ($era->{start_year}, $era->{end_year})"
+      if defined $era->{end_year} and
+         (not defined $era->{start_year} or
+          not $era->{start_year} <= $era->{end_year});
+  
   $era->{north_start_year} //= $era->{start_year}
       if defined $era->{north_end_year};
   $era->{south_start_year} //= $era->{start_year}

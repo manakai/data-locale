@@ -554,6 +554,11 @@ and has following name/value pairs:
         It might or might not be known yet at the time when the day
         was started that the new era was to be started at the day.
 
+      firstday/canceled
+
+        The day once scheduled as the first day of the new era but
+        then canceled, if applicable.
+
       firstyearstart
 
         The first day of the first year of the new era.
@@ -606,6 +611,9 @@ A set data type represents a set of values.
 It is represented by a JSON object, where the object's names are the
 values.  The object's values may be any value and has no defined
 semantics.  Applications must ignore the object's values.
+
+If the value is a JSON null value, or no value is specified, the set
+is empty.
 
 ** The |tag ID set| data type
 
