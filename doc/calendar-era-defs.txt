@@ -387,6 +387,10 @@ The file contains a JSON object with following name/value pairs:
         transition events, if known.  If specified, the value is
         greater than or equal to the |known_oldest_year|.
 
+      tag_ids [tag ID set]
+
+        The set of tags representing characteristics of the era.
+
       transitions [events]
 
         The transition events related to the era.
@@ -474,30 +478,44 @@ The file contains a JSON object with following name/value pairs:
 
 * The |events| data type
 
-If the value's type is |events|, i.e. it is a |starts| or |ends|
-fields, its value is a JSON array of relevant events.  If there is no
-event, the value can be null or omitted.
+The |events| data type represents a JSON array of transition events.
 
-An event is a JSON object with following name/value pairs:
+A transition event is a JSON object, representing an event related to
+the era-to-era transition, or changing some characteristic of the era,
+and has following name/value pairs:
 
-  day
+  day [day?]
 
-    The day.  If an exact day is known, a [day] value.  Otherwise, a
-    JSON array of start and end [day] values representing a range.
+    The day of the event, if known.
 
-  group [string?]
+  day_start [day?]
+  day_end [day?]
 
-    The group or city the event is relevant, for relevant |type|.
+    The range of the possible range of the days in which the event
+    occurred.  If |day| is not specified, both |day_start| and
+    |day_end| are specified.  Otherwise, none of |day_start| and
+    |day_end| is specified.
 
-  next [string?]
-  prev [string?]
+  direction [string]
 
-    starts: The |prev| value is the key of the previous era before the
-    transition represented by the event.
+    The kind of the transition.  One of the following values:
 
-    ends: The |next| value is the key of the previous era after the
-    transition represented by the event.
-    
+      incoming    The transition is from another eras to the era.
+      outgoing    The transition is from the era to another eras.
+      other       The transition modifies the era itself.
+
+  prev_era_ids [era ID set]
+  next_era_ids [era ID set]
+
+    The set of eras.  If the |direction| is |incoming|, the IDs of the
+    previous eras of the transition are contained in the
+    |prev_era_ids|.  If the |direction| is |outgoing|, the IDs of the
+    next eras of the transition are contained in |next_era_ids|.
+
+  tag_ids [tag ID set]
+
+    The set of tags representing characteristics of the transition.
+
   type [string]
 
     The type of the event.
@@ -565,10 +583,6 @@ An event is a JSON object with following name/value pairs:
 
         The previous day of the |firstyearstart|.
 
-      proclaimed
-
-        starts: The day the era had been announced (but not yet used).
-
       received
 
         The day the notification of the new era was received.  It may
@@ -584,6 +598,24 @@ An event is a JSON object with following name/value pairs:
     shown above.  The |/possible| variant type represent another
     possible day.  The |/incorrect| variant type represent another day
     that were historically considered as the day of the event.
+
+* Set data types
+
+A set data type represents a set of values.
+
+It is represented by a JSON object, where the object's names are the
+values.  The object's values may be any value and has no defined
+semantics.  Applications must ignore the object's values.
+
+** The |tag ID set| data type
+
+A set data type.
+
+XXX
+
+** The |era ID set| data type
+
+A set data type of era IDs.
 
 * Segmented name data types
 

@@ -306,14 +306,10 @@ for my $era (@era) {
 
     my $jd = $era->{_jds}->{$pfx} // $era->{_jd};
     $era->{$pfx.'start_year'} = jd2jpy $jd;
-    $era->{$pfx.'start_day'} = day $era->{_key}, $era->{_first_year}, $jd;
     my $jd0;
     if ($era->{_not_renaming_year} or defined $era->{_jds}->{$pfx}) {
-      $era->{$pfx.'official_start_day'} = $era->{$pfx.'start_day'};
     } else {
       $jd0 = g2jd jp2g $era->{_first_year}, 1, 0, 1;
-      $era->{$pfx.'official_start_day'}
-          = day $era->{_key}, $era->{_first_year}, $jd0;
     }
     use utf8;
     if (($era->{_key} eq '元弘' and $pfx eq 'south_') or
@@ -402,8 +398,8 @@ for my $era (@era) {
       }
     }
 
-    for (qw(gregorian julian kyuureki)) {
-      $era->{$pfx.'start_day'}->{$_} =~ /^(-?[0-9]+)/ or die;
+    {
+      $era->{$pfx.'start_year'} =~ /^(-?[0-9]+)/ or die;
       $era->{known_oldest_year} = 0+$1 if
           not defined $era->{known_oldest_year} or
           $era->{known_oldest_year} > $1;
@@ -615,14 +611,6 @@ for my $era (@era) {
       tags => $tags,
       prefix => '',
     }];
-
-    $v = {%$v};
-    unless ($no_reverse) {
-      my $next_era = $Data->{eras}->{delete $v->{next}};
-      $v->{prev} = $era->{_key};
-      $v->{day} = sday $v->{day}->{jd}+1 if $end_increment;
-      push @{$next_era->{starts} ||= []}, $v;
-    }
   }
 } # $era
 {
@@ -630,32 +618,6 @@ for my $era (@era) {
   delete $Data->{eras}->{明徳}->{$_} for qw(
     start_year start_day official_start_day
   );
-}
-
-for my $era (values %{$Data->{eras}}) {
-  $era->{starts} = [sort {
-    ((ref $a->{day} eq 'HASH' ? $a->{day}->{jd} : $a->{day}->[0]->{jd})
-         <=>
-     (ref $b->{day} eq 'HASH' ? $b->{day}->{jd} : $b->{day}->[0]->{jd}))
-        ||
-    $a->{type} cmp $b->{type}
-  } @{$era->{starts}}]
-      if defined $era->{starts};
-  $era->{ends} = [sort {
-    ((ref $a->{day} eq 'HASH' ? $a->{day}->{jd} : $a->{day}->[0]->{jd})
-         <=>
-     (ref $b->{day} eq 'HASH' ? $b->{day}->{jd} : $b->{day}->[0]->{jd}))
-        ||
-    $a->{type} cmp $b->{type}
-  } @{$era->{ends}}]
-      if defined $era->{ends};
-
-  my @enforce = grep { $_->{type} eq 'established' or $_->{type} eq 'firstday' } @{$era->{starts} or []};
-  if ($era->{jp_era} or $era->{jp_north_era} or $era->{jp_south_era}) {
-    die $era->{_key} unless @enforce == 1;
-  }
-  my @retro = grep { $_->{type} eq 'retroactivated' } @{$era->{starts} or []};
-  die $era->{_key} unless @retro <= 1;
 }
 
 {
