@@ -252,6 +252,7 @@ for (
       if ($data->{jp_era}) {
         set_tag $key, '日本';
         set_tag $key, '日本の公年号';
+        set_tag $key, '日本の公年号 (南北朝を除く)';
       }
       if ($data->{jp_north_era}) {
         set_tag $key, '日本北朝';

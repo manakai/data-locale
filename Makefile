@@ -245,42 +245,45 @@ local/eras/all: \
 local/eras/jp.txt: bin/extract-era-system-def.pl \
     data/calendar/era-defs.json
 	mkdir -p local/eras
-	FILTER_FLAGS=jp_emperor_era,jp_era,jp_south_era \
+	ERA_TAGS="天皇即位紀年 (古代),日本の公年号 (南北朝を除く),日本南朝の公年号" \
+	TRANSITION_TAGS="日本南朝" \
 	ERA_SYSTEM_NAME=jp \
 	$(PERL) $< > $@
 local/eras/jp-south.txt: bin/extract-era-system-def.pl \
     data/calendar/era-defs.json
 	mkdir -p local/eras
-	FILTER_FLAGS=jp_emperor_era,jp_era,jp_south_era \
+	ERA_TAGS="天皇即位紀年 (古代),日本の公年号 (南北朝を除く),日本南朝の公年号" \
+	TRANSITION_TAGS="日本南朝" \
 	ERA_SYSTEM_NAME=jp-south \
 	$(PERL) $< > $@
 local/eras/jp-north.txt: bin/extract-era-system-def.pl \
     data/calendar/era-defs.json
 	mkdir -p local/eras
-	FILTER_FLAGS=jp_emperor_era,jp_era,jp_north_era \
-	FILTER_GROUPS=北朝 \
+	ERA_TAGS="天皇即位紀年 (古代),日本の公年号 (南北朝を除く),日本北朝の公年号" \
+	TRANSITION_TAGS="日本北朝" \
 	ERA_SYSTEM_NAME=jp-north \
 	$(PERL) $< > $@
 local/eras/jp-heishi.txt: bin/extract-era-system-def.pl \
     data/calendar/era-defs.json
 	mkdir -p local/eras
-	FILTER_FLAGS=jp_emperor_era,jp_era,jp_south_era \
-	FILTER_GROUPS=平氏 \
+	ERA_TAGS="天皇即位紀年 (古代),日本の公年号 (南北朝を除く),日本南朝の公年号" \
+	TRANSITION_TAGS="平氏,日本南朝" \
 	ERA_SYSTEM_NAME=jp-heishi \
 	$(PERL) $< > $@
 local/eras/jp-kyoto.txt: bin/extract-era-system-def.pl \
     data/calendar/era-defs.json
 	mkdir -p local/eras
-	FILTER_FLAGS=jp_emperor_era,jp_era,jp_north_era \
-	FILTER_GROUPS=京都 \
+	ERA_TAGS="天皇即位紀年 (古代),日本の公年号 (南北朝を除く),日本北朝の公年号" \
+	TRANSITION_TAGS="京都" \
 	ERA_SYSTEM_NAME=jp-kyoto \
 	$(PERL) $< > $@
 local/eras/jp-east.txt: bin/extract-era-system-def.pl \
     data/calendar/era-defs.json
 	mkdir -p local/eras
-	FILTER_FLAGS=jp_emperor_era,jp_era,jp_north_era \
-	FILTER_GROUPS=関東 \
-	FILTER_EXCLUDED=養和 \
+	ERA_TAGS="天皇即位紀年 (古代),日本の公年号 (南北朝を除く),日本北朝の公年号" \
+	TRANSITION_TAGS="関東" \
+	ERA_INCLUDED="延徳(庚辰)" \
+	ERA_EXCLUDED="養和" \
 	ERA_SYSTEM_NAME=jp-east \
 	$(PERL) $< > $@
 data/calendar/era-systems.json: bin/calendar-era-systems.pl \

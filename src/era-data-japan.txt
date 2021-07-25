@@ -153,12 +153,21 @@
 %tag   name_ja 幕府
 
 %tag action
+%tag   name_ja 吉書始
+
+%tag action
+%tag   name_ja 鎌倉幕府改元吉書始
+%tag   group of 吉書始
+%tag   group of 利用開始
+
+%tag action
 %tag   name_ja 室町幕府施行
 %tag   group of 利用開始
 
 %tag action
-%tag   name_ja 吉書始
-%tag   group of 利用開始
+%tag   name_ja 室町幕府改元吉書始
+%tag   group of 吉書始
+%tag   group of 室町幕府施行
 
 %tag action
 %tag   name_ja 行政官布告
@@ -250,6 +259,10 @@ tag 追号説のある元号
 [朱鳥]
 tag 追号説のある元号
 
+[延元]
+tag 日本北朝の公年号
+[正平]
+tag 日本北朝の公年号
 
 [正慶]
 code #15 北1

@@ -511,6 +511,19 @@ An event is a JSON object with following name/value pairs:
 
         The transition is cancelled.
 
+      commenced
+      commenced/possible
+      commenced/incorrect
+
+        The day the era is formally used for the first time, if known.
+        There might be different commence days for a single era,
+        depending on the subregion or organization.
+
+        Note that there is no |commenced| transition event entry when
+        it is same day as the |firstday| and there is no formal
+        commence process different from the defining process of the
+        era.
+
       firstday
       firstday/possible
       firstday/incorrect

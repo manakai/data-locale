@@ -283,6 +283,9 @@ tag
 tag
   name_ja 日本南朝の公年号
   group of 日本の公年号
+tag
+  name_ja 日本の公年号 (南北朝を除く)
+  group of 日本の公年号
 
 tag
   name_ja 日本の私年号

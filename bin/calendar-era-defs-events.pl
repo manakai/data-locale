@@ -739,7 +739,7 @@ for (@$Transitions) {
            $x->{tag_ids}->{1264}) { # 発表
     $type = 'proclaimed';
   } elsif ($x->{tag_ids}->{1185}) { # 利用開始
-    $type = 'established';
+    $type = 'commenced';
     if ($x->{tag_ids}->{1200}) { # 旧説
       $type .= '/incorrect';
     } elsif ($x->{tag_ids}->{1198}) { # 異説

@@ -463,7 +463,8 @@ for my $era (@era) {
     } elsif ($_->[2]->{label} eq '外国通告') {
       $v->{type} = 'diplomatically-notified';
       $no_reverse = 1;
-    } elsif ($_->[2]->{label} eq '吉書始' or
+    } elsif ($_->[2]->{label} eq '鎌倉幕府改元吉書始' or
+             $_->[2]->{label} eq '室町幕府改元吉書始' or
              $_->[2]->{label} eq '幕府') {
       $v->{type} = 'shogunate-enforced';
     } elsif ($_->[2]->{label} eq '鎌倉' or
@@ -508,6 +509,7 @@ for my $era (@era) {
         ($v->{day}->{gregorian} eq '1868-01-01' or
          $v->{day}->{gregorian} eq '1868-09-08' or
          $v->{day}->{jd} >= 2405159.5); # M6.1.1
+    push @$tags, '関東' if ($_->[2]->{label} // '') eq '鎌倉幕府改元吉書始';
     push @{$Data->{_TRANSITIONS}}, [$v->{prev}, $era->{_key}, {
       %{$_->[2]},
       label => {
@@ -594,6 +596,7 @@ for my $era (@era) {
     my $tags = [];
     push @$tags, 'グレゴリオ暦' if ref $v->{day} eq 'HASH' and
         ($v->{day}->{jd} >= 2405159.5); # M6.1.1
+    push @$tags, '陥落' if $_->[2]->{label} eq '平氏';
     push @{$Data->{_TRANSITIONS}}, [$era->{_key}, $v->{next}, {
       %{$_->[2]},
       label => {
