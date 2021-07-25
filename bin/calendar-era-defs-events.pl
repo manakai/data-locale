@@ -141,6 +141,7 @@ my $KMaps = {};
 my $GToKMapKey = {
   明 => 'zuitou',
   清 => 'shin',
+  中華民国 => 'hk',
 };
 sub get_kmap ($) {
   my $g = shift;
@@ -303,9 +304,13 @@ my $g2k_map_path = $RootPath->child ('data/calendar/kyuureki-map.txt');
 my $g2k_map = {map { split /\t/, $_ } split /\x0D?\x0A/, $g2k_map_path->slurp};
 my $k2g_map = {reverse %$g2k_map};
 
-sub k2g ($) {
-  return $k2g_map->{$_[0]} || die "Kyuureki |$_[0]| is not defined", Carp::longmess;
-} # k2g
+  sub k2g ($) {
+    return $k2g_map->{$_[0]} || die "Kyuureki |$_[0]| is not defined", Carp::longmess;
+  } # k2g
+
+  sub k2g_undef ($) {
+    return $k2g_map->{$_[0]}; # or undef
+  } # k2g_undef
 
   sub g2k ($) {
     return $g2k_map->{$_[0]} || die "Gregorian |$_[0]| is not defined", Carp::longmess;
@@ -324,7 +329,9 @@ sub year_start_jd ($$) {
   if (($tag_ids->{1008} or # 中国
        $tag_ids->{1009}) and # 漢土
       not $tag_ids->{1344}) { # グレゴリオ暦
-    if ($year >= 1645+1) {
+    if ($year >= 1912) {
+      push @jd, nymmd2jd '中華民国', $year, 1, 0, 1;
+    } elsif ($year >= 1645+1) {
       push @jd, nymmd2jd '清', $year, 1, 0, 1;
     } elsif ($year >= 1000) { # XXX
       push @jd, nymmd2jd '明', $year, 1, 0, 1;
@@ -333,10 +340,12 @@ sub year_start_jd ($$) {
 
   if ($tag_ids->{1003} and # 日本
       not $tag_ids->{1344}) { # グレゴリオ暦
-    my $g = k2g ymmd2string $year, 1, 0, 1;
-    $g =~ /^(-?[0-9]+)-([0-9]+)-([0-9]+)$/
-        or die "Bad gregorian date |$g|";
-    push @jd, gymd2jd $1, $2, $3;
+    my $g = k2g_undef ymmd2string $year, 1, 0, 1;
+    if (defined $g) {
+      $g =~ /^(-?[0-9]+)-([0-9]+)-([0-9]+)$/
+          or die "Bad gregorian date |$g|";
+      push @jd, gymd2jd $1, $2, $3;
+    }
   }
 
   if ($tag_ids->{1344}) { # グレゴリオ暦
@@ -374,7 +383,9 @@ sub ssday ($$) {
 
   if ($tag_ids->{1008} or # 中国
       $tag_ids->{1009}) { # 漢土
-    if ($y >= 1645+1) {
+    if ($y >= 1912) {
+      $day->{nongli_tiger} = ymmd2string gymd2nymmd '中華民国', $y, $m, $d;
+    } elsif ($y >= 1645+1) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '清', $y, $m, $d;
     } elsif ($y >= 1000) { # XXX
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '明', $y, $m, $d;
@@ -396,6 +407,8 @@ sub set_day_era_dates ($$) {
   $day->{gregorian_era} = $day->{gregorian};
   $day->{julian_era} = $day->{julian};
   $day->{kyuureki_era} = $day->{kyuureki};
+  die "No kyuureki date for era |$era->{key}|, |$day->{gregorian}|"
+      unless defined $day->{kyuureki};
 
   for (qw(gregorian_era julian_era kyuureki_era)) {
     $day->{$_} =~ s{^(-?[0-9]+)}{
@@ -455,6 +468,17 @@ sub set_object_tag ($$) {
     }
   }
 } # set_object_tag
+
+sub copy_transition_tags ($$) {
+  my ($from, $to) = @_;
+  for (keys %{$from->{tag_ids}}) {
+    set_object_tag $to, $from->{tag_ids}->{$_} if {
+      country => 1,
+      region => 1,
+      calendar => 1,
+    }->{$Tags->{$_}->{type}};
+  }
+} # copy_transition_tags
 
 sub parse_date ($$;%) {
   my ($all, $v, %args) = @_;
@@ -623,21 +647,16 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
     my $y = {};
     my $z = {};
     my $z2 = {};
-    for (keys %{$x->{tag_ids}}) {
-      do {
-        set_object_tag $y, $x->{tag_ids}->{$_};
-        set_object_tag $z, $x->{tag_ids}->{$_};
-        set_object_tag $z2, $x->{tag_ids}->{$_};
-      } if {
-        country => 1,
-        region => 1,
-        calendar => 1,
-      }->{$Tags->{$_}->{type}};
-      set_object_tag $y, '日本朝廷改元前日' if $_ == 1325; # 日本朝廷改元日
-      set_object_tag $y, '大日本帝国改元前日' if $_ == 1326; # 大日本帝国改元日
-      set_object_tag $y, '日本国改元前日' if $_ == 1327; # 日本国改元日
-    }
-
+    copy_transition_tags $x => $y;
+    copy_transition_tags $x => $z;
+    copy_transition_tags $x => $z2;
+    set_object_tag $y, '日本朝廷改元前日'
+        if $x->{tag_ids}->{1325}; # 日本朝廷改元日
+    set_object_tag $y, '大日本帝国改元前日'
+        if $x->{tag_ids}->{1326}; # 大日本帝国改元日
+    set_object_tag $y, '日本国改元前日'
+        if $x->{tag_ids}->{1327}; # 日本国改元日
+    
     set_object_tag $y, '適用開始前日';
     $y->{day} = ssday $x->{day}->{jd} - 1, $y->{tag_ids};
     push @$Transitions, [$from_keys, $to_keys, $y, $tr->[2]];
@@ -656,14 +675,9 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
   } elsif ($x->{tag_ids}->{1347} and # 初年始
            defined $x->{day}) {
     my $y = {};
-    for (keys %{$x->{tag_ids}}) {
-      set_object_tag $y, $x->{tag_ids}->{$_} if {
-        country => 1,
-        region => 1,
-        calendar => 1,
-      }->{$Tags->{$_}->{type}};
-    }
-    my $z = json_bytes2perl perl2json_bytes $y;
+    my $z = {};
+    copy_transition_tags $x => $y;
+    copy_transition_tags $x => $z;
 
     set_object_tag $y, '初年前日';
     $y->{day} = ssday $x->{day}->{jd} - 1, $y->{tag_ids};
@@ -675,35 +689,33 @@ for my $tr (@{delete $Data->{_TRANSITIONS}}) {
 
 my $NewTransitions = [];
 ERA: for my $era (sort { $a->{id} <=> $b->{id} } values %{$Data->{eras}}) {
-  if (defined $era->{offset}) {
-    my $prev_eras = [];
-    my $w = {};
-    for (grep { !! grep { $era->{key} eq $_ } @{$_->[1]} } @$Transitions) {
-      my $x = $_->[2];
-      next ERA if $x->{tag_ids}->{1347}; # 初年始
-      for (keys %{$x->{tag_ids}}) {
-        set_object_tag $w, $x->{tag_ids}->{$_} if {
-          country => 1,
-          region => 1,
-          calendar => 1,
-        }->{$Tags->{$_}->{type}};
-        if ($_ == 1325) { # 日本朝廷改元日
-          set_object_tag $w, '日本朝廷改元年始';
-        }
-      }
-      push @$prev_eras, @{$_->[0]};
-    }
-    delete $w->{tag_ids}->{1344} if $era->{id} == 1; # グレゴリオ暦, 明治
-    my $v = json_bytes2perl perl2json_bytes $w;
-    $prev_eras = [grep {
-      $_ ne '干支年' and
-      defined $Data->{eras}->{$_}->{offset} and
-      $Data->{eras}->{$_}->{offset} <= $era->{offset};
-    } @$prev_eras];
-    
-    my $jd = year_start_jd ($era->{offset} + 1, $w->{tag_ids});
-    next unless defined $jd;
-    
+  next unless defined $era->{offset};
+
+  my $prev_eras = [];
+  my $w = {};
+  my $has_tr = 0;
+  for (grep { !! grep { $era->{key} eq $_ } @{$_->[1]} } @$Transitions) {
+    my $x = $_->[2];
+    next ERA if $x->{tag_ids}->{1347}; # 初年始
+    copy_transition_tags $x => $w;
+    set_object_tag $w, '日本朝廷改元年始'
+        if $x->{tag_ids}->{1325}; # 日本朝廷改元日
+    push @$prev_eras, @{$_->[0]};
+    $has_tr = 1;
+  } # $_
+  delete $w->{tag_ids}->{1344} if $era->{id} == 1; # グレゴリオ暦, 明治
+  copy_transition_tags $era => $w unless $has_tr;
+
+  my $v = json_bytes2perl perl2json_bytes $w;
+  $prev_eras = [grep {
+    $_ ne '干支年' and
+    defined $Data->{eras}->{$_}->{offset} and
+    $Data->{eras}->{$_}->{offset} <= $era->{offset};
+  } @$prev_eras];
+  
+  my $jd = year_start_jd ($era->{offset} + 1, $w->{tag_ids});
+  next unless defined $jd;
+  
     set_object_tag $w, '初年始';
     $w->{day} = ssday $jd, $w->{tag_ids};
     push @$NewTransitions, [$prev_eras, [$era->{key}], $w];
@@ -711,7 +723,6 @@ ERA: for my $era (sort { $a->{id} <=> $b->{id} } values %{$Data->{eras}}) {
     set_object_tag $v, '初年前日';
     $v->{day} = ssday $jd - 1, $v->{tag_ids};
     push @$NewTransitions, [$prev_eras, [$era->{key}], $v];
-  }
 } # ERA
 unshift @$Transitions, @$NewTransitions;
 
