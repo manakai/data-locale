@@ -101,9 +101,10 @@ The file contains a JSON object with following name/value pairs:
       code18 [integer?]
       code19 [integer?]
       code20 [integer?]
+      code24 [integer?]
 
         The era codes #1, #2, #4, #5, #6, #7, #9, #16, #17, #18, #19,
-        or #20 codes [CODES] for the era, respectively, if any.
+        #20, or #24 codes [CODES] for the era, respectively, if any.
 
       code10 [integer?]
 
@@ -118,9 +119,20 @@ The file contains a JSON object with following name/value pairs:
         respectively.  The era codes #11 and #12 [CODES].
       
       code13 [integer?]
+      code21 [integer?]
 
         The bit combination of the character for the era, if any, in
-        Shift JIS.  The era codes #13 [CODES].
+        Shift JIS variants.  The era codes #13 and #21 [CODES].
+
+      code22 [string?]
+
+        The Men-Ku-Ten position of the character for the era, if any,
+        in JIS X 0213 coded character set.  The era code #22 [CODES].
+
+      code23 [integer?]
+
+        The bit combination of the character for the era, if any, in
+        IBM EBCDIC.  The era code #23 [CODES].
 
       code14 [integer?]
 

@@ -455,6 +455,8 @@ for my $path (
       $Data->{eras}->{$key}->{'code' . $1} = $2;
     } elsif (defined $key and /^code\s+#([1-9][0-9]*)\s+0x([0-9A-Fa-f]+)$/) {
       $Data->{eras}->{$key}->{'code' . $1} = hex $2;
+    } elsif (defined $key and /^code\s+#(22)\s+(1-13-[1-9][0-9]?)$/) {
+      $Data->{eras}->{$key}->{'code' . $1} = $2;
     } elsif (defined $key and /^en\s+desc\s+(\S+(?: \S+)*)\s*$/) {
       $Data->{eras}->{$key}->{en_desc} = $1;
     } elsif (defined $key and /^tag\s+(\S.*\S|\S)\s*$/) {
@@ -595,6 +597,14 @@ for my $path (
   my $i = 1;
   for (grep { length } split /\x0D?\x0A/, $path->slurp_utf8) {
     ($Data->{eras}->{$_} or die "Era |$_| not found")->{code15} = $i;
+    $i++;
+  }
+}
+{
+  my $path = $root_path->child ('src/era-codes-24.txt');
+  my $i = 1;
+  for (grep { length } split /\x0D?\x0A/, $path->slurp_utf8) {
+    ($Data->{eras}->{$_} or die "Era |$_| not found")->{code24} = $i;
     $i++;
   }
 }

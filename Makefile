@@ -217,7 +217,9 @@ local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
     src/era-viet.txt src/era-korea.txt \
     data/numbers/kanshi.json \
     intermediate/era-ids.json \
-    src/era-codes-14.txt src/era-codes-15.txt \
+    src/era-codes-14.txt \
+    src/era-codes-15.txt \
+    src/era-codes-24.txt \
     local/cldr-core-json/ja.json \
     local/era-yomi-list.json \
     local/era-date-list.json \

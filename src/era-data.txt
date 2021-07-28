@@ -13,6 +13,8 @@ name_ja キリスト紀元
 name_ja 耶蘇紀元
 &
 name 天主降生
+&
+acronym A A.D.
 &&
 name_ja! 西暦
 &

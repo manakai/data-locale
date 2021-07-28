@@ -259,6 +259,9 @@ tag 追号説のある元号
 [朱鳥]
 tag 追号説のある元号
 
+[神護景雲]
+#XXXabbr_ja 云
+
 [延元]
 tag 日本北朝の公年号
 [正平]
@@ -384,6 +387,9 @@ abbr_ja M Meiji
 code #7 明
 code #2 M
 code #20 -1
+code #21 0x87E5
+code #23 0xE8DB
+code #22 1-13-77
 
 tag 大日本帝国
 tag 一世一元
@@ -420,6 +426,9 @@ abbr_ja T Taisho
 code #7 大
 code #2 T
 code #20 0
+code #21 0x87E6
+code #23 0xE8DA
+code #22 1-13-78
 
 tag 大日本帝国
 tag 登極令
@@ -461,6 +470,9 @@ abbr_ja 昭 昭和
 abbr_ja S Showa
 code #7 昭
 code #2 S
+code #21 0x87E7
+code #23 0xE8D9
+code #22 1-13-79
 
 tag 大日本帝国
 tag 日本国
@@ -506,6 +518,9 @@ abbr_ja 平 平成
 abbr_ja H Heisei
 code #7 平
 code #2 H
+code #21 0x87E8
+code #23 0xE8D8
+code #22 1-13-63
 
 tag 日本国
 tag 元号法
@@ -532,6 +547,7 @@ abbr_ja 令 令和
 abbr_ja R Reiwa
 code #7 令
 code #2 R
+code #23 0xE860
 
 en desc beautiful harmony
 
