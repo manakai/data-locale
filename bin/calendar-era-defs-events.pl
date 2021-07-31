@@ -2,6 +2,7 @@ use strict;
 use warnings;
 use utf8;
 use Path::Tiny;
+use Carp;
 use JSON::PS;
 
 my $RootPath = path (__FILE__)->parent->parent;
@@ -357,7 +358,7 @@ sub year_start_jd ($$) {
   my $jd = shift @jd;
   for (@jd) {
     if ($jd != $_) {
-      die "Conflicting days $jd @jd";
+      die "Conflicting days $jd @jd (year start, @{[join ',', values %$tag_ids]})", Carp::longmess;
     }
   }
 
@@ -712,7 +713,7 @@ ERA: for my $era (sort { $a->{id} <=> $b->{id} } values %{$Data->{eras}}) {
     defined $Data->{eras}->{$_}->{offset} and
     $Data->{eras}->{$_}->{offset} <= $era->{offset};
   } @$prev_eras];
-  
+
   my $jd = year_start_jd ($era->{offset} + 1, $w->{tag_ids});
   next unless defined $jd;
   
@@ -767,6 +768,11 @@ for (@$Transitions) {
     $type = 'triggering';
   } elsif ($x->{tag_ids}->{1230}) { # 戦時異動
     $type = 'wartime';
+    if ($x->{tag_ids}->{1200}) { # 旧説
+      $type .= '/incorrect';
+    } elsif ($x->{tag_ids}->{1198}) { # 異説
+      $type .= '/possible';
+    }
   } elsif ($x->{tag_ids}->{1339}) { # 行政異動
     $type = 'administrative';
   } elsif ($x->{tag_ids}->{1338}) { # 通知受領
@@ -803,8 +809,9 @@ for (@$Transitions) {
       my $w = {direction => 'incoming', %$x};
       for my $from_key (@$from_keys) {
         next if $from_key eq '干支年';
-        my $def = $Data->{eras}->{$from_key}
-            // die "Bad era key |$from_key| ($source)";
+        my $def = $Data->{eras}->{$from_key};
+        die "Bad era key |$from_key| ($source)"
+            unless defined $def and defined $def->{id};
         $w->{prev_era_ids}->{$def->{id}} = $from_key;
       }
       push @{$Data->{eras}->{$to_key}->{transitions} ||= []}, $w;
@@ -925,7 +932,8 @@ for my $era (values %{$Data->{eras}}) {
       if (defined $day and $tr->{type} eq 'wartime') {
         $day = ssday $day->{jd} - 1, $tr->{tag_ids};
       }
-      my $y = extract_day_year $day // $tr->{day_end}, $tr->{tag_ids};
+      $day //= $tr->{day_start};
+      my $y = extract_day_year $day, $tr->{tag_ids};
       unless ($tr->{type} eq 'wartime') {
         $era->{end_year} //= $y;
         $era->{end_year} = $y if $era->{end_year} < $y;
@@ -990,6 +998,7 @@ for my $era (values %{$Data->{eras}}) {
       }
     }
   } # $tr
+  my $has_end_year = defined $era->{end_year};
   for my $tr (@{$era->{transitions}}) {
     if (not defined $era->{start_year} and
         $tr->{direction} eq 'incoming' and
@@ -1003,6 +1012,22 @@ for my $era (values %{$Data->{eras}}) {
           if $tr->{day}->{mjd} < $era->{start_day}->{mjd};
       $era->{official_start_day} = $era->{start_day}
           if $era->{jp_emperor_era};
+    }
+    if (not $has_end_year and
+        $tr->{direction} eq 'outgoing' and
+        $tr->{type} eq 'wartime') { # has day or day_end
+      my $day = $tr->{day};
+      if (defined $day) {
+        $day = ssday $day->{jd} - 1, $tr->{tag_ids};
+      }
+      $day //= $tr->{day_end};
+      my $y = extract_day_year $day, $tr->{tag_ids};
+      $era->{end_year} //= $y;
+      $era->{end_year} = $y if $era->{end_year} < $y;
+
+      $era->{end_day} //= $day;
+      $era->{end_day} = $day
+          if $era->{end_day}->{mjd} < $day->{mjd};
     }
     if (not defined $era->{end_year} and
         $tr->{direction} eq 'outgoing' and
@@ -1021,7 +1046,8 @@ for my $era (values %{$Data->{eras}}) {
 
   $era->{start_year} = $era->{offset} + 1
       if not defined $era->{start_year} and
-         defined $era->{end_year};
+         defined $era->{end_year} and
+         defined $era->{offset};
   delete $era->{end_year}
       if defined $era->{end_year} and
          defined $era->{start_year} and
@@ -1038,6 +1064,8 @@ for my $era (values %{$Data->{eras}}) {
       $era->{known_latest_year} + 10 < $ThisYear) { # XXX constant
     $era->{end_year} = $era->{known_latest_year};
   }
+  delete $era->{end_year}
+      if not defined $era->{start_year};
   die "Bad year range for era |$era->{key}| ($era->{start_year}, $era->{end_year})"
       if defined $era->{end_year} and
          (not defined $era->{start_year} or

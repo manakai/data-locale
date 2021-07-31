@@ -38,6 +38,14 @@
 %tag   name_ja 膠州湾
 %tag   region of 漢土
 
+%tag region
+%tag   name_ja 貴州
+%tag   name_cn 贵州
+%tag   region of 漢土
+
+%tag region
+%tag   name_ja 雲南
+
 %tag tag
 %tag   name_ja 中華王朝の公年号
 %tag   group of 公年号
@@ -4897,6 +4905,7 @@ name_kana ご おう
 %tag   name_ja 洪武帝
 %tag   name_ja 朱元璋
 tag 洪武帝
+tag 白蓮教
 
 ## <https://zh.wikisource.org/wiki/%E5%A4%A7%E6%98%8E%E5%A4%AA%E7%A5%96%E9%AB%98%E7%9A%87%E5%B8%9D%E5%AF%A6%E9%8C%84/%E5%8D%B7014>
 <-至正 明:1364(甲辰)-1-1(丙寅) #明 #呉 #洪武帝 #呉王 #建元前の即位
@@ -5926,6 +5935,7 @@ name_tw 定武
 name_cn 定武
 #1646 - 1664
 u 18
+tag 異説
 
 ## [103]
 name_ja 定武
@@ -6150,63 +6160,51 @@ tag 李自成
 %tag   name_ja 大順皇帝
 %tag   group of 支那皇帝
 
-## <https://zh.wikisource.org/wiki/%E6%98%8E%E5%8F%B2/%E5%8D%B7309>
+## [103]
+#1627-1628 反乱 started (高迎祥)
+#1636 高迎祥 dead
+#1637 #李自成 闖王
+#1641 #洛陽 #陥落
+#1643 #西安 #陥落
+#残党 ->(南明) 明:1645-5-17 #順 #南明 #李自成 #勢力統合
+
 <-崇禎 明:1644-1-1(庚寅) #順 #李自成 #大順王 #建元前の即位 #西安
 <-崇禎 明:1644-1-1(庚寅) #順 #李自成 #大順王 #支那改元日 #西安 #起事建元
 AD1644 = 1
->< 明:1644-4-29 #順 #李自成 #大順皇帝 #即位
+<-崇禎 明:1644-3-19 #明 #順 #北京 #陥落
+>< 明:1644-4-29 #順 #李自成 #大順皇帝 #即位 #北京
 ->順治 明:1644-5-2 #順 #清 #北京 #陥落
+->順治 明:1645-5-17 g:1645-6-10 #順 #清 #李自成 #死去 #陥落
 
-## [102]
 name_tw 永昌
 name_cn 永昌
-#1644-1664
 u 21
 
-## <https://zh.wikipedia.org/wiki/%E5%AE%AE%E6%96%87%E5%BD%A9>
-## <https://zh.wikipedia.org/wiki/%E6%B0%B8%E6%98%8C_(%E5%A4%A7%E9%A0%86)>
 %tag person
 %tag   name_cn 宫文彩
 %tag   name_ja 宮文彩
 tag 宫文彩
-# #順 擎天王 1644-1645
 
-## <https://zh.wikipedia.org/wiki/%E6%9D%8E%E8%87%AA%E6%95%AC>
-## <https://zh.wikipedia.org/wiki/%E6%B0%B8%E6%98%8C_(%E5%A4%A7%E9%A0%86)>
 %tag person
 %tag   name_tw 李自敬
 tag 李自敬
 >< [明:1645-5-17,明:1645] #順 #李自敬 #大順皇帝 #即位
 >< [明:1646-3] #順 #李自敬 #死去
 
-## <https://zh.wikipedia.org/wiki/%E6%9D%8E%E9%81%8E>
-## <https://zh.wikipedia.org/wiki/%E6%B0%B8%E6%98%8C_(%E5%A4%A7%E9%A0%86)>
 %tag person
 %tag   name_tw 李過
 tag 李過
 #1646 - 1649-11
 
-## <https://zh.wikipedia.org/wiki/%E6%9D%8E%E4%BE%86%E4%BA%A8>
-## <https://zh.wikipedia.org/wiki/%E6%B0%B8%E6%98%8C_(%E5%A4%A7%E9%A0%86)>
 %tag person
 %tag   name_tw 李來亨
 tag 李來亨
 # - 1664-8
 ->康熙 明:1664-8-4 #順 #清 #李來亨 #死去 #陥落
 
-## [103]
 wref_ja 永昌 (李自成)
 name_ja 永昌
 name_kana えい しょう
-#1627-1628 反乱 started (高迎祥)
-#1636 高迎祥 dead
-#1637 #李自成 闖王
-#1641 #洛陽 #陥落
-#1643 #西安 #陥落
-#1644-1645
-#<-崇禎 [明:1644-3] #明 #順 #北京 #陥落
-->順治 明:1645-5-17 #順 #清 #李自成 #死去 #陥落
-#残党 ->(南明) 明:1645-5-17 #順 #南明 #李自成 #勢力統合
 
 
 [大順(甲申)]
@@ -6259,9 +6257,6 @@ AD1644 = 1
 u 3-11-27
 #残党 ->順治 1659 #重慶 #陥落
 
-#sw 興朝
-->干支年,興朝 [明:1646-11-27,明:1646] #孫可望 #蜂起 #大西
-
 ## [102]
 &
 name_cn 天顺
@@ -6291,6 +6286,11 @@ name_ja 興朝
 name_kana こう ちょう
 # 1646 - 1647
 
+#
+[大順(甲申)]
+->興朝 [明:1646-11-27,明:1646] #孫可望 #蜂起 #大西 #戦時異動 #旧説
+->干支年 [明:1646-11-27,明:1646] #孫可望 #蜂起 #大西 #戦時異動
+#
 [順治]
 <-興朝,干支年 [清:1657] #孫可望 #南明 #清 #陥落
 
@@ -6667,6 +6667,7 @@ sw 文興
 
 tag 清
 tag 漢土
+tag 雲南
 tag 漢民族
 tag 清初反清勢力
 tag 南明
@@ -6702,6 +6703,7 @@ tag 南明
 tag 李天極
 %tag person
 %tag   name_ja 朱六非
+%tag   name_ja 朱文非
 tag 朱六非
 
 tag 旧説
@@ -6709,7 +6711,7 @@ tag 旧説
 
 AD1707 = 1
 <-康熙 [清:1707] #李天極 #朱六非 #清 #支那改元日 #起事建元 #旧説
-->康熙 [清:1707] #李天極 #朱六非 #清 #陥落
+->康熙 [清:1707] #李天極 #朱六非 #清 #陥落 #旧説
 
 ## [103]
 wref_ja 元興 (李天極)
@@ -6734,12 +6736,33 @@ tag 旧説
 
 AD1705 = 1
 <-康熙 [清:1705] #李天極 #朱六非 #清 #支那改元日 #起事建元 #旧説
-->康熙 [清:1705] #李天極 #朱六非 #清 #陥落
+->康熙 [清:1705] #李天極 #朱六非 #清 #陥落 #旧説
 
 ## [103]
 wref_ja 元興 (李天極)
 name_ja 元興
 name_kana げん こう
+
+def[永興(丙戌)]
+#y~1872
+
+sw 元興
+#XXX => 元興 y~686
+tag 旧説
+
+name_ja 永興
+name_kana えい こう
+wref_ja 永興 (朱文非)
+
+tag 清
+tag 漢土
+tag 漢民族
+tag 清初反清勢力
+tag 朱六非
+
+AD1706 = 1
+<-康熙 [清:1706] #朱六非 #清 #支那改元日 #起事建元 #旧説
+->康熙 [清:1706] #朱六非 #清 #陥落 #旧説
 
 [永興(戊子)]
 #y~451
@@ -6823,7 +6846,7 @@ tag 朱一貴
 
 AD1721 = 1
 <-康熙 清:1721-4-19 #朱一貴 #高雄 #明 #清 #蜂起
-<-康熙 清:1721-5-1 #朱一貴 #台南 #明 #清 #進攻
+<-康熙 清:1721-5-1 #朱一貴 #台南 #明 #清 #陥落
 <-康熙 清:1721-5-1 #朱一貴 #台湾 #明 #清 #支那改元日 #起事建元
 ->康熙 清:1721-6-23 #朱一貴 #台南 #明 #清 #陥落
 ->康熙 清:1721-6'-5 #朱一貴 #台湾 #明 #清 #陥落
@@ -6835,12 +6858,373 @@ name_kana えい わ
 #XXX 台湾語 Éng-hô
 # 1721
 
+%tag religion
+%tag   name_ja 白蓮教
+%tag   name_cn 白莲教
+
+[萬利]
+#y~1091
+
+sw 萬利
+
+AD1797 = 1
+tag 清
+tag 漢民族
+tag 漢土
+tag 白蓮教
+%tag person
+%tag   name_ja 黎樹
+%tag   name_cn 黎树
+tag 黎樹
+
+wref_ja 大慶
+name_ja 万利
+
+def[大慶(丁巳)]
+#y~1869
+
+sw 大慶
+
+AD1797 = 1
+tag 清
+tag 漢民族
+tag 漢土
+tag 白蓮教
+tag 黎樹
+%tag person
+%tag   name_ja 王大叔
+tag 王大叔
+
+## [103]
+wref_ja 大慶
+name_ja 大慶
+name_kana だいけい
+
+#
+[嘉慶(丙辰)]
+->萬利,大慶(丁巳) [清:1797-2] #清 #黎樹 #王大叔 #蜂起
+->萬利,大慶(丁巳) [清:1797-2] #清 #黎樹 #王大叔 #支那改元日 #起事建元
+<-萬利,大慶(丁巳) [清:1797-2,清:1797] #清 #黎樹 #王大叔 #陥落
+
+[晏朝]
+#y~1645
+
+tag 清
+tag 明
+tag 漢民族
+tag 漢土
+%tag person
+%tag   name_ja 朱毛俚
+tag 朱毛俚
+
+sw 晏朝
+name_ja 晏朝
+name_kana あん ちょう
+&
+wref_ja 後明晏朝
+name_kana こう めい あん ちょう
+
+AD1814 = 1
+<-嘉慶(丙辰) [清:1814-10] #清 #明 #朱毛俚 #蜂起
+<-嘉慶(丙辰) [清:1814-10] #清 #明 #朱毛俚 #支那改元日 #起事建元
+->嘉慶(丙辰) [清:1814-10,清:1814] #清 #明 #朱毛俚 #陥落
+
+[洪順]
+#y~702
+
+sw 洪順
+
+tag 清
+tag 漢民族
+tag 漢土
+
+## [102]
+%tag person
+%tag   name_ja 李明先
+tag 李明先
+#1853
+<-咸豐 [清:1853-5] #李明先 #明 #清 #蜂起
+<-咸豐 [清:1853-5] #李明先 #明 #清 #支那改元日 #起事建元
+->咸豐 [清:1853-5,清:1853] #李明先 #明 #清 #陥落
+
+## [103]
+wref_ja 洪順 (李明先)
+name_ja 洪順
+name_kana こう じゅん
+#1853
+tag 明
+
+[江漢]
+#y~263
+
+sw 江漢
+
+name_ja 江漢
+
+tag 清
+tag 漢民族
+tag 漢土
+
+%tag person
+%tag   name_tw 楊龍喜
+%tag   name_ja 楊竜喜
+%tag   name_cn 杨龙喜
+tag 楊龍喜
+tag 貴州
+
+AD1854 = 1
+<-咸豐 [清:1854-8] #清 #楊龍喜 #蜂起
+<-咸豐 [清:1854-8] #清 #楊龍喜 #支那改元日 #起事建元
+->咸豐 [清:1854-8,清:1854] #清 #楊龍喜 #陥落
+
+%tag person
+%tag   name_cn 刘仪顺
+tag 刘仪顺
+tag 白蓮教
+tag 貴州
+>< [清:1857] #清 #刘仪顺
+
+%tag person
+%tag   name_tw 朱明月
+%tag   name_tw 嗣統真主
+tag 朱明月
+tag 明
+>< [清:1859-4] #清 #明 #刘仪顺 #朱明月
+u 8
+#XXX prefix 大明
+
+u 11
+
+def[姜漢]
+#y~1870
+
+sw 姜漢
+
+name_cn 姜汉
+name_tw 姜漢
+
+tag 清
+tag 漢民族
+tag 漢土
+tag 楊龍喜
+
+tag 旧説
+#-> 江漢
+
+[嗣統]
+#y~53
+
+sw 嗣統
+
+name_ja 嗣統
+name_kana し とう
+
+tag 清
+tag 漢民族
+tag 漢土
+tag 朱明月
+tag 明
+tag 刘仪顺
+tag 白蓮教
+tag 貴州
+
+AD1864 = 1
+<-江漢 [清:1864] #清 #明 #朱明月 #支那改元日
+<-江漢 [清:1865] #清 #明 #朱明月 #支那皇帝 #建元前の即位 #支那改元日 #異説
+->同治 [清:1868] #清 #明 #朱明月 #刘仪顺 #陥落
+
+tag 君主名の元号
+tag 一世一元
+
+def[嗣統(己未)]
+#y~1871
+
+sw 嗣統
+
+name_ja 嗣統
+name_kana し とう
+wref_ja 嗣統
+
+tag 清
+tag 漢民族
+tag 漢土
+tag 朱明月
+tag 明
+tag 刘仪顺
+tag 白蓮教
+tag 貴州
+
+AD1859 = 1
+<-江漢 [清:1859-4] #清 #明 #刘仪顺 #朱明月 #支那改元日 #旧説
+->同治 [清:1868] #清 #明 #朱明月 #刘仪顺 #陥落
+u 10
+
+tag 旧説
+
+[華漢]
+#y~882
+
+tag 清
+tag 漢民族
+tag 漢土
+tag 朱明月
+tag 明
+tag 貴州
+
+#AD? = 1
+
+>< [清:1859-4] #清 #明 #刘仪顺 #朱明月
+->同治 [清:1868] #清 #明 #朱明月 #刘仪顺 #陥落
+
+[天縱]
+#y~1807
+
+tag 清
+tag 漢民族
+tag 漢土
+
+%tag person
+%tag   name_ja 宋継鵬
+tag 宋継鵬
+tag 白蓮教
+
+<-咸豐 [清:1860] #清 #宋継鵬 #蜂起
+<-咸豐 [清:1860] #清 #宋継鵬 #支那改元日 #起事建元
+->咸豐 [清:1863] #清 #宋継鵬 #死去 #陥落
+
+## [103]
+wref_ja 天縦
+name_ja 天縦
+name_kana てん じゅう
+AD1860 = 1
+u 4
+
+[洪德]
+#y~567
+
+sw 洪德
+
+AD1855 = 1
+u 10
+
+name_ja 洪徳
+name_kana こう とく
+wref_ja 洪徳 (陳開)
+
+%tag region
+%tag   name_cn 大成国
+%tag   region of 漢土
+tag 大成国
+tag 天地会
+%tag person
+%tag   name_cn 陈开
+%tag   name_tw 陳開
+%tag   name_ja 陳開
+tag 陈开
+  #平潯王
+%tag person
+%tag   name_cn 黄鼎凤
+%tag   name_ja 黄鼎鳳
+tag 黄鼎凤
+%tag person
+%tag   name_ja 李文茂
+tag 李文茂
+  #平靖王
+
+%tag region
+%tag   name_cn 浔州
+%tag   name_ja 潯州
+%tag   name_cn 今桂平
+%tag   name_cn 秀京
+%tag   region of 漢土
+tag 浔州
+
+<-咸豐 [清:1854] #清 #陈开 #李文茂 #蜂起
+<-咸豐 [清:1855-8] #清 #大成国 #陈开 #李文茂 #浔州 #陥落
+<-咸豐 [清:1855-8] #清 #大成国 #陈开 #李文茂 #浔州 #支那改元日 #起事建元
+->咸豐 [清:1858] #清 #大成国 #李文茂 #死去 #陥落
+->咸豐 [清:1861-8] #清 #大成国 #陈开 #死去 #陥落
+->同治 [清:1864] #清 #大成国 #陥落
+
 
 
 %tag region
 %tag   name_ja 英領香港
 %tag   region of 英国
 %tag   region of 漢土
+
+%tag country
+%tag   name_ja 太平天国
+%tag   region of 漢土
+
+[大明國]
+#y~1549
+
+sw 大明國
+
+name_ja 大明国
+&
+name_ja 大明順天国
+name_cn 大明顺天国
+name_tw 大明順天國
+
+%tag person
+%tag   name_ja 洪全福
+tag 洪全福
+tag 太平天国
+%tag org
+%tag   name_ja 天地会
+tag 天地会
+%tag org
+%tag   name_ja 興中会
+tag 興中会
+
+%tag country
+%tag   name_ja 大明順天国
+%tag   name_cn 大明顺天国
+%tag   name_tw 大明順天國
+tag 大明順天国
+tag 建国紀元
+
+tag 漢民族
+tag 漢土
+tag 英領香港
+
+AD1902 = 1
+u 1
+
+<-光緒 [清:1902] #清 #大明順天国 #洪全福 #蜂起
+<-光緒 [清:1902] #清 #大明順天国 #洪全福 #支那改元日 #起事建元
+->光緒 [清:1902] #清 #大明順天国 #洪全福 #陥落
+
+[漢德]
+#y~700
+
+sw 漢徳
+
+## [103]
+wref_ja 漢徳
+name_ja 漢徳
+name_kana かん とく
+#1906
+
+tag 漢土
+tag 漢民族
+tag 清
+
+AD1906 = 1
+
+%tag person
+%tag   name_ja 龔春台
+%tag   name_cn 龚春台
+tag 龔春台
+%tag org
+%tag   name_ja 中華国民軍南軍革命先鋒隊
+tag 中華国民軍南軍革命先鋒隊
+<-光緒 [清:1906-12] #清 #中華国民軍南軍革命先鋒隊 #龔春台 #蜂起
+<-光緒 [清:1906-12] #清 #中華国民軍南軍革命先鋒隊 #龔春台 #支那改元日 #起事建元
+->光緒 [清:1906-12] #清 #中華国民軍南軍革命先鋒隊 #龔春台 #陥落
+
 
 def[孔子卒後]
 name 孔子卒後
@@ -6934,6 +7318,44 @@ name 亡国紀年
 %tag   name_en Republic of China
 %tag 
 %tag   period of 中国
+
+def[大同(己巳)]
+#y~1875
+
+sw 大同
+
+name_tw 大同
+name_cn 大同
+name_ja 大同
+
+AD1929 = 1
+
+tag 漢土
+tag 漢民族
+tag 中華民国
+%tag country
+%tag   name_ja 大同国
+%tag   region of 漢土
+tag 大同国
+%tag person
+%tag   name_ja 薛幹臣
+%tag   name_ja 大同皇帝
+tag 薛幹臣
+%tag religion
+%tag   name_ja 小刀会
+%tag   name_ja 刀会
+tag 小刀会
+
+tag 君主名の元号
+tag 一世一元
+
+<-民國 g:1929-04-12 #大同国 #中華民国 #支那皇帝 #薛幹臣 #建元前の即位
+<-民國 g:1929-04-12 #大同国 #中華民国 #支那皇帝 #薛幹臣 #支那改元日 #起事建元
+->民國 g:1929-04-16 #大同国 #中華民国 #薛幹臣 #死去 #陥落
+
+#大同中华十八年三月二日
+#大同中华民国十八年
+
 
 def[中華共和國]
 name_tw 中華共和國

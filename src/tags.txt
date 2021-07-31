@@ -3,9 +3,6 @@ region
   name_ja ウイグル
 
 region
-  name_ja チベット
-
-region
   name_ja 露領シベリア
   region of ロシア帝国
 
@@ -112,9 +109,6 @@ people
 
 people
   name_ja 朝鮮人
-
-people
-  name_ja チベット人
 
 people
   name_ja ウイグル人
@@ -231,6 +225,9 @@ action
   name_ja 建元前の即位
   group of 事由
   group of 即位
+
+action
+  name_ja 退位
 
 action
   name_ja 死去
@@ -408,7 +405,14 @@ action
   group of 事由
 
 action
+  name_ja 建国
+  group of 行政異動
+
+action
   name_ja 起事建元
+
+action
+  name_ja 国名変更
 
 action
   name_ja 陥落
@@ -464,3 +468,5 @@ tag
 calendar
   name_ja グレゴリオ暦
 
+tag
+  name_ja 建国紀元

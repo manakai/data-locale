@@ -607,6 +607,8 @@ and has following name/value pairs:
         day.
 
       wartime
+      wartime/possible
+      wartime/incorrect
 
         The day the era was changed as part of irregular wartime
         process.

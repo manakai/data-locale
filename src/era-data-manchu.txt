@@ -160,6 +160,7 @@ name_man %E1%A0%B0%E1%A1%A0%E1%A0%B7%E1%A1%9D %E1%A1%A5%E1%A0%A0%E1%A0%A8,sure h
 %tag   name_ja 清朝
 %tag   name_ja 清
 %tag   period of 中国
+#XXX prefix 大清
 
 %tag tag
 %tag   name_ja 清の公年号
@@ -752,7 +753,16 @@ name_ja 宣統
 name_tw 宣統
 name_cn 宣统
 #宣&swc274;
+tag 一世一元
 tag 君主名の元号
+
+%tag person
+%tag   key 溥儀
+%tag   name_ja 愛新覚羅溥儀
+%tag   name_ja 溥儀
+%tag   name_ja 宣統帝
+%tag   name_ja 康徳帝
+tag 溥儀
 
 ## [103]
 wref_ja 宣統
@@ -838,6 +848,10 @@ u 100-3-31
 %tag   period of 中華民国
 %tag   region of 大東亜共栄圏
 
+%tag country
+%tag   name_ja 大満州帝国
+%tag   period of 満州国
+
 %tag tag
 %tag   name_ja 満州国の公年号
 %tag   group of 中華王朝の公年号
@@ -855,10 +869,11 @@ tag 蒙古人
 tag 漢民族
 tag 日本領満鉄附属地
 tag 日本領関東州
-## Established, defined using
-<-AD 1932-03-01
-## Effectively,
-<-民國 1932-03-01
+tag 溥儀
+
+<-AD,民國 [g:1931-9-18,g:1933-5-31] #内満州 #大日本帝国 #満州国 #中華民国 #陥落
+<-AD,民國 g:1932-03-01 #満州国 #建国 #中華民国
+<-AD,民國 g:1932-03-01 #満州国 #溥儀 #支那改元日 #起事建元
 
 ## [102]
 name_tw 大同
@@ -868,13 +883,16 @@ name_cn 大同
 wref_ja 大同 (満州)
 name_ja 大同
 name_kana だい どう
+name_man %E1%A0%A0%E1%A0%AE%E1%A0%AA%E1%A0%A0%E1%A1%A0%E1%A1%A5%E1%A1%9D%E1%A1%A8%E1%A1%A0%E1%A0%A8,amba uhetun
+
+name_ko 대동
 
 [康德]
 # y~1158
 ## Source:
 sw 康徳
 #
-tag 満州国
+tag 大満州帝国
 tag 満州国の公年号
 tag 内満州
 tag 東蒙古
@@ -885,9 +903,16 @@ tag 蒙古人
 tag 漢民族
 tag 日本領満鉄附属地
 tag 日本領関東州
-<-大同(壬申) 1934-03-01
-#<-昭和 1937 満鉄附属地 returned
-#1945-08-18 溥儀 退位
+
+<-大同(壬申) g:1934-03-01 #大満州帝国 #溥儀 #建元前の即位 #国名変更
+<-大同(壬申) g:1934-03-01 #大満州帝国 #溥儀 #皇帝 #支那改元日
+tag 一世一元
+tag 君主名の元号
+
+#<-昭和 1937 満鉄附属地 (dup)
+
+->AD [g:1945-08-9,g:1945-08-20] #ソビエト社会主義共和国連邦 #大満州帝国 #陥落
+->AD,民國 g:1945-08-18 #大満州帝国 #溥儀 #退位 #陥落
 
 #name_official 康德
 
@@ -899,6 +924,10 @@ name_cn 康德
 wref_ja 康徳
 name_ja 康徳
 name_kana こう とく
+name_man %E1%A1%9D%E1%A0%AF%E1%A1%A5%E1%A1%9D%E1%A1%9D%E1%A1%B5%E1%A1%A9%E1%A1%9D%E1%A0%AE%E1%A1%A0%E1%A0%A9%E1%A1%A4%E1%A1%9D,elhe erdemungge
+name_man %E1%A1%9D%E1%A0%AF%E1%A1%A5%E1%A1%9D%E1%A1%9D%E1%A1%B5%E1%A1%A9%E1%A1%9D%E1%A0%AE%E1%A1%A0,elhe erdemu
+
+name_ko 강덕
 
 ## Source: <https://wiki.suikawiki.org/n/%E6%BB%BF%E6%B4%B2%E5%9C%8B%E8%87%A8%E6%99%82%E6%94%BF%E5%BA%9C%E3%81%AE%E5%85%83%E5%8F%B7>
 tag 満洲国臨時政府
