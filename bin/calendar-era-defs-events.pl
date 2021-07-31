@@ -755,6 +755,11 @@ for (@$Transitions) {
   } elsif ($x->{tag_ids}->{1182} or # 制定
            $x->{tag_ids}->{1264}) { # 発表
     $type = 'proclaimed';
+    if ($x->{tag_ids}->{1200}) { # 旧説
+      $type .= '/incorrect';
+    } elsif ($x->{tag_ids}->{1198}) { # 異説
+      $type .= '/possible';
+    }
   } elsif ($x->{tag_ids}->{1185}) { # 利用開始
     $type = 'commenced';
     if ($x->{tag_ids}->{1200}) { # 旧説
@@ -763,6 +768,8 @@ for (@$Transitions) {
       $type .= '/possible';
     }
   } elsif ($x->{tag_ids}->{1124}) { # 実施中止
+    $type = 'canceled';
+  } elsif ($x->{tag_ids}->{1121}) { # 建元撤回
     $type = 'canceled';
   } elsif ($x->{tag_ids}->{1191}) { # 事由
     $type = 'triggering';

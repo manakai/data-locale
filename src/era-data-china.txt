@@ -7319,6 +7319,101 @@ name 亡国紀年
 %tag 
 %tag   period of 中国
 
+
+def[民國]
+name_tw 中華民國
+name_cn 中华民国
+name_ja 中華民国
+name 民國
+name 民国
+name 大中華民國
+abbr_tw 民 民國
+name 民國紀年
+name 民国纪年
+name 民國紀元
+name 民国紀元
+name 中華民国暦
+name 中華民国紀年
+name 国历
+name 國曆
+name 国暦
+wref_ja 民国紀元
+wref_zh 民國紀年
+AD1912 = 1
+sw 民国紀元
+tag 中華民国
+tag 中華民国台湾
+tag 漢土
+tag 内満州
+tag 内蒙古
+tag チベット
+tag ウイグル
+tag 漢民族
+tag 満州人
+tag ウイグル人
+tag チベット人
+tag 蒙古人
+tag 朝鮮人
+#<-AD 1930-10-01 威海衛租借地
+#<-AD 1945-11-16 広州湾租借地
+tag 中華王朝の公年号
+tag 建国紀元
+tag 再開
+
+[洪憲]
+#y~1098
+
+sw 洪憲
+
+## [103]
+wref_ja 洪憲
+name_ja 洪憲
+name_kana こう けん
+
+# XXX HUNG SHUAN
+
+# XXX <https://es.wikipedia.org/wiki/Hongxian>
+# XXX wref_es Hongxian
+#XXX name_es Hongxian
+
+tag 中華民国
+tag 漢土
+tag 内満州
+tag 内蒙古
+tag チベット
+tag ウイグル
+tag 漢民族
+tag 満州人
+tag ウイグル人
+tag チベット人
+tag 蒙古人
+tag 朝鮮人
+tag 中華王朝の公年号
+
+%tag person
+%tag   name_ja 袁世凱
+%tag   name_cn 袁世凯
+tag 袁世凱
+%tag country
+%tag   name_ja 中華帝国
+%tag   period of 中華民国
+tag 中華帝国
+#XXX prefix 中華帝國
+
+AD1916 = 1
+<-民國 g:1915-12-12 #中華帝国 #袁世凱 #支那皇帝 #建元前の即位 #中華民国 #グレゴリオ暦
+<-民國 g:1915-12-12 #中華帝国 #袁世凱 #年始改元決定 #グレゴリオ暦 #旧説
+<-民國 g:1915-12-31 #中華帝国 #袁世凱 #年始改元決定 #グレゴリオ暦
+<-民國 g:1916-1-1 #中華帝国 #袁世凱 #年始改元実施 #グレゴリオ暦
+<-民國 [g:1916-1-1,g:1916-1-28] #中華帝国 #奉天 #旧制度禁止命令 #グレゴリオ暦
+->民國 g:1916-2-28 #中華民国 #中華帝国 #グレゴリオ暦 #建元撤回
+    #総統府会議決定
+tag 建元撤回
+->民國 g:1916-3-22 #中華民国 #中華帝国 #袁世凱 #退位 #事由 #グレゴリオ暦
+->民國 g:1916-3-23 #中華民国 #再開 #グレゴリオ暦
+u 1-3-23
+
+
 def[大同(己巳)]
 #y~1875
 
@@ -7337,6 +7432,7 @@ tag 中華民国
 %tag   name_ja 大同国
 %tag   region of 漢土
 tag 大同国
+tag 建国紀元
 %tag person
 %tag   name_ja 薛幹臣
 %tag   name_ja 大同皇帝

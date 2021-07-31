@@ -13,6 +13,10 @@
 %tag   name_ja 関東州
 %tag   region of 内満州
 
+%tag region
+%tag   name_ja 奉天
+%tag   region of 内満州
+
 %tag people
 %tag   name_ja 満州人
 

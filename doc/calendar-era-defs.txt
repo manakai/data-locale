@@ -600,6 +600,13 @@ and has following name/value pairs:
 
         The previous day of the |firstyearstart|.
 
+      proclaimed
+      proclaimed/possible
+      proclaimed/incorrect
+
+        The day the era was formally defined.  If it is same day as
+        |firstday|, this event might be omitted.
+
       received
 
         The day the notification of the new era was received.  It may

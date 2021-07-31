@@ -333,6 +333,10 @@ action
   name_ja 通知発出
 
 action
+  name_ja 旧制度禁止命令
+  group of 通知発出
+
+action
   name_ja 通知受領
 
 action
