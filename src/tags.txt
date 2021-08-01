@@ -516,3 +516,10 @@ tag
 
 tag
   name_ja 風刺
+
+tag
+  name_ja 元号
+
+tag
+  name_ja マイクロネーションの元号
+  group of 元号

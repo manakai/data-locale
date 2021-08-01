@@ -7169,6 +7169,11 @@ tag 浔州
 %tag   region of 英国
 %tag   period of 香港
 
+%tag region
+%tag   name_ja 中華人民共和国領香港
+%tag   region of 中華人民共和国
+%tag   period of 香港
+
 %tag country
 %tag   name_ja 太平天国
 %tag   region of 漢土
