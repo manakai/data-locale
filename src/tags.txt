@@ -1,6 +1,9 @@
+region
+  name_ja トルキスタン
 
 region
   name_ja ウイグル
+  region of トルキスタン
 
 region
   name_ja 露領シベリア
@@ -76,6 +79,12 @@ country
 
 country
   name_ja オランダ
+
+country
+  name_ja スペイン
+
+country
+  name_ja ポルトガル
 
 region
   name_ja 南洋群島
@@ -194,6 +203,9 @@ person
   name_ja 芦原金次郎
 
 law
+  name_ja 条約
+
+law
   name_ja 登極令
 
 law
@@ -217,6 +229,12 @@ tag
 
 action
   name_ja 事由
+
+action
+  name_ja 即位決定
+
+action
+  name_ja 即位予定 (中止)
 
 action
   name_ja 即位
@@ -251,11 +269,18 @@ action
   group of 事由
 
 action
+  name_ja 元号名変更
+
+action
   name_ja 勢力統合
   group of 事由
 
 action
   name_ja 捕縛
+  group of 事由
+
+action
+  name_ja 政変
   group of 事由
 
 tag
@@ -403,6 +428,10 @@ action
   name_ja 行政異動
 
 action
+  name_ja 租借地返還
+  group of 行政異動
+
+action
   name_ja 戦時異動
 
 action
@@ -421,6 +450,9 @@ action
 
 action
   name_ja 起事建元
+
+action
+  name_ja 建元不承認
 
 action
   name_ja 国名変更

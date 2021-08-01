@@ -4,6 +4,7 @@ code #18 9
 code #6 9
 
 [AD]
+#y~20
 acronym AD A.D.
 &
 name Anno Domini
@@ -58,12 +59,28 @@ tag ロシア帝国
 tag 露領シベリア
 tag 露領外満州
 tag 露領東清鉄道附属地
+tag オランダ
+tag 蘭領台湾
+tag スペイン
+tag ポルトガル
 
-tag 中華人民共和国
-tag 中華王朝の公年号
+%tag country
+%tag   name_ja 仏国
+tag 仏国
+%tag country
+%tag   name_ja 仏領インドシナ
+%tag   region of 仏国
+tag 仏領インドシナ
 
 tag 大韓民国
 tag 朝鮮民主主義人民共和国
+tag 朝鮮人
+
+tag 日本
+tag 日本国
+tag 日本人
+tag 台湾
+tag 台湾人
 
 def[共和]
 name_ja 共和

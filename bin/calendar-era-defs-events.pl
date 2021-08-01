@@ -110,6 +110,25 @@ sub gymd2jd ($$$) {
   return $jd;
 } # gymd2jd
 
+use POSIX;
+sub j2g ($$$) {
+  my ($jy, $jm, $jd) = @_;
+  my $y = $jy + floor (($jm - 3) / 12);
+  my $m = ($jm - 3) % 12;
+  my $d = $jd - 1;
+  my $n = $d + floor ((153 * $m + 2) / 5) + 365 * $y + floor ($y / 4);
+  my $mjd = $n - 678883;
+  my $time = ($mjd + 2400000.5 - 2440587.5) * 24 * 60 * 60;
+  my @time = gmtime $time;
+  return ($time[5]+1900, $time[4]+1, $time[3]);
+} # j2g
+
+sub jymd2jd ($$$) {
+  my ($y, $m, $d) = @_;
+
+  return &gymd2jd (j2g $y, $m, $d);
+} # jymd2jd
+
 sub jd2mjd ($) {
   return $_[0] - 2400000.5;
 } # jd2mjd
@@ -165,6 +184,9 @@ sub nymmd2jd ($$$$$) {
   if ($g eq '明' and (1663 <= $y and $y <= 1683+1)) {
     ## No calendar available
     $g = '清';
+  } elsif ($g eq '清' and $y <= 1644) {
+    ## No calendar available
+    $g = '明';
   }
 
   my $kmap = get_kmap ($g);
@@ -216,7 +238,7 @@ sub nymmd2jd ($$$$$) {
         $gr = $kmap->{$k1};
         $delta = $d - 1;
       } else {
-        die "Bad date ($g, $y, $m, $lm, $d)";
+        die "Bad date ($g, $y, $m, $lm, $d)", Carp::longmess;
       }
     }
   }
@@ -329,6 +351,7 @@ sub year_start_jd ($$) {
   my @jd;
 
   if (($tag_ids->{1008} or # 中国
+       $tag_ids->{1084} or # 後金
        $tag_ids->{1009}) and # 漢土
       not $tag_ids->{1344}) { # グレゴリオ暦
     if ($year >= 1912) {
@@ -384,6 +407,7 @@ sub ssday ($$) {
              julian => $jj};
 
   if ($tag_ids->{1008} or # 中国
+      $tag_ids->{1084} or # 後金
       $tag_ids->{1009}) { # 漢土
     if ($y >= 1912) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '中華民国', $y, $m, $d;
@@ -423,6 +447,7 @@ sub extract_day_year ($$) {
   my ($day, $tag_ids) = @_;
 
   if (($tag_ids->{1008} or # 中国
+       $tag_ids->{1084} or # 後金
        $tag_ids->{1009}) and # 漢土
       not $tag_ids->{1344}) { # グレゴリオ暦
     if (defined $day->{nongli_tiger}) {
@@ -491,6 +516,8 @@ sub parse_date ($$;%) {
       push @jd, gymd2jd $1, $2, $3; # XXX
     } elsif ($v =~ s{^g:([0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
       push @jd, gymd2jd $1, $2, $3;
+    } elsif ($v =~ s{^j:([0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
+      push @jd, jymd2jd $1, $2, $3;
     } elsif ($v =~ s{^(明|清|中華人民共和国):([0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
       push @jd, nymmd2jd $1, $2, $4, $5, $6;
       push @jd, nymmk2jd $1, $2, $4, $5, $7;
@@ -792,6 +819,8 @@ for (@$Transitions) {
     $type = 'received';
   } elsif ($x->{tag_ids}->{1337}) { # 通知発出
     $type = 'notified';
+  } elsif ($x->{tag_ids}->{1431}) { # 建元不承認
+    $type = 'rejected';
   } elsif ($x->{tag_ids}->{1347}) { # 初年始
     $type = 'firstyearstart';
   } elsif ($x->{tag_ids}->{1277}) { # 初年前日

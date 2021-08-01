@@ -47,6 +47,15 @@
 %tag   name_ja 雲南
 
 %tag tag
+%tag   name_ja マカオ
+%tag   region of 漢土
+
+%tag tag
+%tag   name_ja ポルトガル領マカオ
+%tag   period of マカオ
+%tag   region of ポルトガル
+
+%tag tag
 %tag   name_ja 中華王朝の公年号
 %tag   group of 公年号
 
@@ -7147,11 +7156,18 @@ tag 浔州
 ->同治 [清:1864] #清 #大成国 #陥落
 
 
+%tag region
+%tag   name_ja 香港
+%tag   region of 漢土
+
+%tag region
+%tag   name_tw 九龍
+%tag   region of 漢土
 
 %tag region
 %tag   name_ja 英領香港
 %tag   region of 英国
-%tag   region of 漢土
+%tag   period of 香港
 
 %tag country
 %tag   name_ja 太平天国
@@ -7321,26 +7337,37 @@ name 亡国紀年
 
 
 def[民國]
+#y~971
 name_tw 中華民國
 name_cn 中华民国
 name_ja 中華民国
-name 民國
-name 民国
-name 大中華民國
+&
+name_tw 民國
+name_ja 民国
+name_cn 民国
+&
+name_tw 大中華民國
+&
 abbr_tw 民 民國
-name 民國紀年
-name 民国纪年
-name 民國紀元
-name 民国紀元
-name 中華民国暦
-name 中華民国紀年
-name 国历
-name 國曆
-name 国暦
+&
+name_tw 民國紀年
+name_cn 民国纪年
+&
+name_tw 民國紀元
+name_ja 民国紀元
+&
+name_ja 中華民国暦
+&
+name_ja 中華民国紀年
+&
+name_cn 国历
+name_tw 國曆
+name_ja 国暦
+
 wref_ja 民国紀元
 wref_zh 民國紀年
-AD1912 = 1
 sw 民国紀元
+
 tag 中華民国
 tag 中華民国台湾
 tag 漢土
@@ -7354,11 +7381,29 @@ tag ウイグル人
 tag チベット人
 tag 蒙古人
 tag 朝鮮人
-#<-AD 1930-10-01 威海衛租借地
-#<-AD 1945-11-16 広州湾租借地
+
+AD1912 = 1
+%tag org
+%tag   name_ja 中華民国臨時政府
+%tag   group of 中華民国
+tag 中華民国臨時政府
+
 tag 中華王朝の公年号
 tag 建国紀元
 tag 再開
+
+%tag region
+%tag   name_ja 威海衛租借地
+%tag   region of 英国
+%tag   region of 漢土
+tag 威海衛租借地
+<-AD g:1930-10-01 #威海衛租借地 #中華民国 #英国 #租借地返還 #グレゴリオ暦
+%tag region
+%tag   name_ja 広州湾租借地
+%tag   region of 仏領インドシナ
+%tag   region of 漢土
+<-AD g:1945-11-16 #広州湾租借地 #中華民国 #仏国 #租借地返還 #グレゴリオ暦
+tag 広州湾租借地
 
 [洪憲]
 #y~1098
@@ -7472,6 +7517,26 @@ u 2-1-21
 %tag   name_ja 中華人民共和国
 %tag 
 %tag   period of 中国
+
+[AD]
+tag 中華人民共和国
+tag 中華王朝の公年号
+tag 漢土
+tag 内満州
+tag 内蒙古
+tag チベット
+tag ウイグル
+tag 漢民族
+tag 満州人
+tag ウイグル人
+tag チベット人
+tag 蒙古人
+tag 朝鮮人
+
+<-民國 g:1949-9-27 #中華人民共和国 #グレゴリオ暦 #利用開始
+  #中国人民政治協商会議第一回総会決議
+<-民國 g:1949-10-1 #中華人民共和国 #グレゴリオ暦 #建国 #事由
+
 
 def[太平(乙丑曽応龍)]
 #y~22

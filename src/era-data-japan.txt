@@ -135,16 +135,51 @@
 %tag   region of 日本
 
 %tag region
-%tag   name_ja 吐噶喇列島
+%tag   name_ja 南西諸島
 %tag   region of 日本
+
+%tag region
+%tag   name_ja 吐噶喇列島
+%tag   region of 南西諸島
 
 %tag region
 %tag   name_ja 奄美群島
-%tag   region of 日本
+%tag   region of 南西諸島
 
 %tag region
 %tag   name_ja 沖縄
-%tag   region of 日本
+%tag   region of 南西諸島
+
+%tag region
+%tag   name_ja 琉球
+%tag   region of 南西諸島
+
+%tag region
+%tag   name_ja 琉球国
+%tag   period of 琉球
+
+%tag region
+%tag   name_ja 清領琉球
+%tag   period of 琉球国
+
+%tag region
+%tag   name_ja 琉球藩
+%tag   period of 琉球
+%tag   region of 大日本帝国
+
+%tag region
+%tag   name_ja 沖縄県
+%tag   period of 沖縄
+
+%tag region
+%tag   name_ja 大日本帝国沖縄県
+%tag   period of 沖縄県
+%tag   region of 大日本帝国
+
+%tag region
+%tag   name_ja 日本国沖縄県
+%tag   period of 沖縄県
+%tag   region of 日本国
 
 %tag action
 %tag   name_ja 覆奏

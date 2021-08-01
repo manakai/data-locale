@@ -613,6 +613,10 @@ and has following name/value pairs:
         or may not be the same day as any corresponding |notified|
         day.
 
+      rejected
+
+        The day the enforcement of the new era is rejected.
+
       triggering
       triggering/possible
       triggering/incorrect
