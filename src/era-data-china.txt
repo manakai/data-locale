@@ -7472,3 +7472,161 @@ u 2-1-21
 %tag   name_ja 中華人民共和国
 %tag 
 %tag   period of 中国
+
+def[太平(乙丑曽応龍)]
+#y~22
+sw 太平
+
+name_ja 太平
+name_tw 太平
+name_cn 太平
+name_kana たい へい
+wref_ja 太平_(曽応龍)
+
+AD1985 = 1
+<-AD [g:1985] #大有国 #中華人民共和国 #グレゴリオ暦 #曽応竜 #建元前の即位
+<-AD [g:1985] #大有国 #中華人民共和国 #グレゴリオ暦 #曽応竜 #支那改元日 #起事建元
+->AD [g:1985] #大有国 #中華人民共和国 #グレゴリオ暦 #陥落
+
+tag 中華人民共和国
+tag 四川
+
+%tag person
+%tag   name_ja 曽応竜
+%tag   name_ja 曽応龍
+%tag   name_cn 曾应龙
+tag 曽応竜
+tag 漢民族
+
+%tag country
+%tag   name_cn 大有国
+%tag   period of 中国
+tag 大有国
+wref_zh 大有国
+
+def[皇清]
+#y~1071
+sw 皇清
+
+name_cn 中原皇清国
+name_tw 中原皇清國
+name_ja 中原皇清国
+wref_zh 中原皇清国
+&
+name_ja 皇清
+name_kana こう しん
+wref_ja 皇清
+
+<-AD g:1982-5-21 #中原皇清国 #中華人民共和国 #張清安 #建国 #適用開始
+AD1982 = 1
+u 1-10-17
+->AD g:1982-12-21 #中原皇清国 #中華人民共和国 #張清安 #捕縛 #陥落
+
+tag 漢民族
+tag 四川
+tag 中華人民共和国
+
+%tag country
+%tag   name_cn 中原皇清国
+%tag   period of 中国
+tag 中原皇清国
+wref_zh 中原皇清国
+tag 建国紀元
+
+%tag person
+%tag   name_ja 張清安
+tag 張清安
+
+
+def[正坤]
+#y~966
+sw 正坤
+
+name_ja 正坤
+name_kana せい こん
+wref_ja 正坤
+name_cn 正坤
+name_tw 正坤
+
+<-AD 中華人民共和国:1986-9-9 g:1986-10-12 #曹秀花 #大聖王朝 #建元前の即位 #支那皇帝 #中華人民共和国
+<-AD 中華人民共和国:1986-9-9 g:1986-10-12 #曹秀花 #大聖王朝 #支那改元日
+->AD g:1988-8-8 #大聖王朝 #中華人民共和国 #陥落
+AD1986 = 1
+u 3
+
+tag 中華人民共和国
+tag 漢土
+tag 漢民族
+
+%tag country
+%tag   name_ja 大聖王朝
+%tag   name_cn 大圣王朝
+%tag   period of 中国
+tag 大聖王朝
+wref_zh 大圣王朝
+
+%tag person
+%tag   name_ja 曹秀花
+%tag   name_cn 圣朝女皇
+tag 曹秀花
+
+
+def[頂古永和]
+#y~696
+
+sw 頂古永和
+
+name_ja 頂古永和
+name_kana てい こ えい わ
+wref_ja 頂古永和
+name_tw 頂古永和
+name_cn 顶古永和
+
+AD1991 = 1
+<-AD [g:1991] #龔賢哲 #中華国 #建元前の即位 #支那皇帝 #中華人民共和国 #グレゴリオ暦
+<-AD [g:1991] #龔賢哲 #中華国 #支那改元日 #グレゴリオ暦
+->AD [g:1991] #中華国 #中華人民共和国 #陥落 #グレゴリオ暦
+
+tag 中華人民共和国
+tag 雲南
+tag 漢民族
+
+%tag country
+%tag   name_ja 中華国
+%tag   name_cn 中华国
+%tag   period of 漢土
+tag 中華国
+
+%tag person
+%tag   name_ja 龔賢哲
+%tag   name_cn 龚贤哲
+tag 龔賢哲
+
+%tag religion
+%tag   name_cn 先天大道
+%tag   name_cn 先天道
+tag 先天大道
+
+def[庆丰]
+#y~1766
+
+sw 庆丰
+
+name_cn 庆丰
+name_ja 慶豊
+name_tw 慶豐
+
+AD2013 = 1
+<-AD g:2013-12-28 #中華人民共和国 #グレゴリオ暦 #発生
+u 3
+u 9
+
+tag 中華人民共和国
+tag 漢土
+tag 漢民族
+tag 日本
+tag 風刺
+
+%tag person
+%tag   name_ja 習近平
+tag 習近平

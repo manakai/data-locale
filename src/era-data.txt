@@ -179,38 +179,6 @@ wref_ja 越南共和
 AD1955 = 1
 #vi
 
-def[皇清]
-name_ja 皇清
-name_kana こう しん
-wref_ja 皇清
-AD1982 = 1
-#cn
-
-def[正坤]
-name_ja 正坤
-name_kana せい こん
-wref_ja 正坤
-AD1986 = 1
-# 1-3
-#cn
-
-def[太平(乙丑曽応龍)]
-name_ja 太平
-name_kana たい へい
-wref_ja 太平_(曽応龍)
-AD1985 = 1
-#cn
-
-def[頂古永和]
-name_ja 頂古永和
-name_kana てい こ えい わ
-wref_ja 頂古永和
-AD1991 = 1
-#cn
-
-[永和(辛丑)]
-wref_ja 永和_(朱一貴)
-
 def[大順(段鋹)]
 name_tw 大順
 name_cn 大顺
@@ -430,11 +398,6 @@ sw 禅源
 #korea (高麗)
 name_ko 禅源
 
-def[庆丰]
-name_cn 庆丰
-name_ja 慶豊
-name_tw 慶豐
-AD2013 = 1
 
 
 

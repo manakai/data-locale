@@ -613,6 +613,13 @@ and has following name/value pairs:
         or may not be the same day as any corresponding |notified|
         day.
 
+      triggering
+      triggering/possible
+      triggering/incorrect
+
+        The day of an event that triggers the start or the end of the
+        era, directly or indirectly.
+
       wartime
       wartime/possible
       wartime/incorrect

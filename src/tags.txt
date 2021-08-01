@@ -308,6 +308,10 @@ action
 action
   name_ja 利用開始
 
+action
+  name_ja 発生
+  group of 利用開始
+
 tag
   name_ja 適用開始前日
 
@@ -410,7 +414,10 @@ action
 
 action
   name_ja 建国
-  group of 行政異動
+
+action
+  name_ja 消滅
+  group of 戦時異動
 
 action
   name_ja 起事建元
@@ -474,3 +481,6 @@ calendar
 
 tag
   name_ja 建国紀元
+
+tag
+  name_ja 風刺
