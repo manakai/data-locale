@@ -163,6 +163,7 @@ my $GToKMapKey = {
   清 => 'shin',
   中華民国 => 'hk',
   中華人民共和国 => 'hk',
+  k => 'kyuureki',
 };
 sub get_kmap ($) {
   my $g = shift;
@@ -327,6 +328,7 @@ sub gymd2nymmd ($$$$) {
 my $g2k_map_path = $RootPath->child ('data/calendar/kyuureki-map.txt');
 my $g2k_map = {map { split /\t/, $_ } split /\x0D?\x0A/, $g2k_map_path->slurp};
 my $k2g_map = {reverse %$g2k_map};
+$KMaps->{kyuureki} = $k2g_map;
 
   sub k2g ($) {
     return $k2g_map->{$_[0]} || die "Kyuureki |$_[0]| is not defined", Carp::longmess;
@@ -528,11 +530,11 @@ sub parse_date ($$;%) {
           die "Year mismatch ($ky1 vs $ky2) |$all|";
         }
       }
-    } elsif ($v =~ s{^(明|清|中華人民共和国):([0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
       push @jd, nymmd2jd $1, $2, $3, $4, $5;
     } elsif ($v =~ s{^(明|清|中華人民共和国):([0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
       push @jd, nymmk2jd $1, $2, $3, $4, $5;
-    } elsif ($v =~ s{^(明|清|中華人民共和国):([0-9]+)-([0-9]+)('|)\s*}{}) {
+    } elsif ($v =~ s{^(明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, $2, $3, $4, 1;
       } elsif ($args{end}) {
@@ -554,7 +556,7 @@ sub parse_date ($$;%) {
       } else {
         die "Bad date |$v| ($all)";
       }
-    } elsif ($v =~ s{^(明|清|中華人民共和国):([0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(明|清|中華人民共和国|k):([0-9]+)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, $2, 1, '', 1;
       } elsif ($args{end}) {

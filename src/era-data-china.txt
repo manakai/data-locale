@@ -44,6 +44,10 @@
 %tag   region of 漢土
 
 %tag region
+%tag   name_ja 福州
+%tag   region of 漢土
+
+%tag region
 %tag   name_ja 雲南
 
 %tag tag
@@ -7504,19 +7508,46 @@ tag 一世一元
 
 
 def[中華共和國]
+#y~1718
+
 name_tw 中華共和國
+name_cn 中華共和国
 name_ja 中華共和国
+&
+name_tw 中華共和
+
+
 sw 中華共和国 (紀年法)
 wref_ja 中華共和国 (年号)
-AD1933 = 1
+wref_zh 中華共和國
+  # <https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E5%85%B1%E5%92%8C%E5%9C%8B#%E6%88%90%E7%AB%8B>
 
-## <https://ja.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E5%85%B1%E5%92%8C%E5%9B%BD>
+tag 漢土
+tag 福州
+tag 漢民族
+tag 共産主義
+tag 中華民国
+tag 公年号
+
+%tag country
+%tag   name_tw 中華共和國
+%tag   period of 中国
+tag 中華共和國
+#中華共和国人民革命政府
+tag 建国紀元
+
+AD1933 = 1
+#福建事変
+<-民國,AD g:1933-11-20 #中華共和國 #蜂起 #中華民国 #グレゴリオ暦
+<-民國,AD g:1933-11-22 #中華共和國 #建国 #福州 #事由 #中華民国 #グレゴリオ暦
+<-民國,AD g:1933-11-22 #中華共和國 #支那改元日 #グレゴリオ暦
 u 1-11-22
-#<-民国 established
 u 2-1-21
+#g:1934-1-1 #中華民国 #蒋介石 #進攻 #グレゴリオ暦
+->民國 g:1934-1-13 #中華共和國 #福州 #陥落 #中華民国 #グレゴリオ暦
 #2-1-13 陥落
-#2-1-21 完全滅亡
-#->民国
+->民國 g:1934-1-21 #中華共和國 #陥落 #中華民国 #グレゴリオ暦
+
 
 %tag country
 %tag   name_ja 中華人民共和国
@@ -7537,6 +7568,7 @@ tag ウイグル人
 tag チベット人
 tag 蒙古人
 tag 朝鮮人
+tag 共産主義
 
 <-民國 g:1949-9-27 #中華人民共和国 #グレゴリオ暦 #利用開始
   #中国人民政治協商会議第一回総会決議
@@ -7700,3 +7732,4 @@ tag 風刺
 %tag person
 %tag   name_ja 習近平
 tag 習近平
+tag 共産主義
