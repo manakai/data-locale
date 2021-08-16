@@ -43,6 +43,7 @@ sub add ($$) {
 {
   my $path = $RootPath->child ('src/char-variants.txt');
   for (split /\n/, $path->slurp_utf8) {
+    next if /^\s*#/;
     my @char = split /\s+/, $_;
     @char = map { s/^j://; $_ } @char;
     for my $c2 (@char) {

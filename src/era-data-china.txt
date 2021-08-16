@@ -7254,12 +7254,17 @@ tag 中華国民軍南軍革命先鋒隊
 def[孔子卒後]
 name 孔子卒後
 name_kana こう し そつ ご
+&
 name 孔子卒
 name_kana こう し そつ
+&
 name 孔子
+&
 name 孔子紀年
 name_kana こう し き ねん
+&
 name 孔子紀元
+&
 name 孔子卒後紀年
 AD1895 = 2373
 wref_ja 孔子紀年
@@ -7268,9 +7273,12 @@ sw 孔子紀年
 def[孔紀]
 name 孔紀
 name_kana こう き
+&
 name 孔子紀年
 name_kana こう し き ねん
+&
 name 孔子紀元
+&
 name 孔子生後紀年
 AD1895 = 2446
 wref_ja 孔子紀年
