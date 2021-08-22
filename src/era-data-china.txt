@@ -5916,7 +5916,7 @@ u 11-6
 name_cn 庚寅
 name_tw 庚寅
 name_ja 庚寅
-name_en Gengyin
+name(en) Gengyin
 
 def[庚寅(丙戌)]
 #y~1864
@@ -5934,7 +5934,7 @@ u 2
 name_cn 庚寅
 name_tw 庚寅
 name_ja 庚寅
-name_en Gengyin
+name(en) Gengyin
 
 [定武]
 #y~1670
@@ -6093,7 +6093,7 @@ name_kana とう ぶ
 wref_ja 東武 (元号)
 
 ## <https://en.wikipedia.org/wiki/Zhu_Changqing>
-name_en Dongwu
+name(en) Dongwu
 #1648-1649
 
 [洪武(己未)]
@@ -7436,7 +7436,7 @@ name_kana こう けん
 
 # XXX <https://es.wikipedia.org/wiki/Hongxian>
 # XXX wref_es Hongxian
-#XXX name_es Hongxian
+name(es) Hongxian
 
 tag 中華民国
 tag 漢土

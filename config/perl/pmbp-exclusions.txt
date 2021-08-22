@@ -8,3 +8,5 @@
 - "../../bin/modules/charclass" tests
 
 - "../../bin/modules/json-ps" build tests
+
+- JSON::PS

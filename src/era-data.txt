@@ -5,9 +5,13 @@ code #6 9
 
 [AD]
 #y~20
-acronym AD A.D.
+acronym(la) A.D.
+acronym(en) A.D.
+expanded(la) [a]nn%C5%8D [D]omin%C4%AB
+expanded(en_la) [A]nno [D]omini
 &
-name Anno Domini
+name(la) ann%C5%8D Domin%C4%AB
+name(en_la) Anno Domini
 &
 name_ja キリスト紀元
 &
@@ -15,7 +19,9 @@ name_ja 耶蘇紀元
 &
 name 天主降生
 &
-acronym A A.D.
+acronym(en) A
+expanded(la) [a]nn%C5%8D Domin%C4%AB
+expanded(en_la) [A]nno Domini
 &&
 name_ja! 西暦
 &
@@ -28,9 +34,10 @@ name 西暦紀元
 &
 abbr_ja 西 西暦
 &&
-acronym CE C.E.
+acronym(en) C.E.
+expanded(en) [C]ommon [E]ra
 &
-name Common Era
+name(en) Common Era
 &
 name_cn 公元
 &
@@ -172,10 +179,11 @@ AD1912 = 1
 sw 主体暦
 
 def[越南民主共和]
-name_vi Việt Nam Dân chủ Cộng hòa
+name(vi) Việt Nam Dân chủ Cộng hòa
 name_ja 越南民主共和
 name_kana えつ なん みん しゅ きょう わ
-abbr_vi nam
+&
+name(vi) nam
 wref_ja 越南民主共和
 AD1945 = 1
 sw 越南民主共和
@@ -189,7 +197,7 @@ sw 共和社会主義越南
 #vi
 
 def[越南共和]
-name_vi Việt Nam Cộng hòa
+name(vi) Việt Nam Cộng hòa
 name_ja 越南共和
 name_kana えつ なん きょう わ
 wref_ja 越南共和
@@ -274,15 +282,16 @@ AD907 = 1
 wref_ja 文徳_(渤海)
 
 def[人類紀元]
-name_en Holocene calendar
+name(en) Holocene calendar
 &
-name_en Holocene Era
+name(en) Holocene Era
 &
 name_cn 全新世紀年
 &
-acronym HE
+acronym(en) HE
+expanded(en) [H]uman [E]ra
 &&
-name_en Human Era
+name(en) Human Era
 &
 name_ja 人類紀元
 name_kana じん るい き げん

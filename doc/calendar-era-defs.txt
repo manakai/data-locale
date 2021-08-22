@@ -74,14 +74,12 @@ The file contains a JSON object with following name/value pairs:
 
       abbr [string?]
 
-        The abbreviation of the era name, using the "native" script,
-        if any.  Similar to |code7|.  If the value is not specified,
-        another name (|short_name| or |name| value) should be used
-        instead.
+        The one-Han-character abbreviation of the era name, if any.
+        Similar to |code7|.
 
       abbr_latn [string?]
 
-        The abbreviation of the era name, using Latin letters, if any.
+        The one-Latin-letter abbreviation of the era name, if any.
         Similar to |code2|.
 
       cn_ryuukyuu_era [boolean]
