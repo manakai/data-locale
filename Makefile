@@ -367,7 +367,7 @@ local/cldr-locales.txt: local/cldr-repo always
 local/fx-locales.json:
 	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-web-impls/staging/data/firefox-locales.json
 local/mediawiki-locales.php:
-	$(WGET) -O $@ https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/data/Names.php
+	$(WGET) -O $@ https://raw.githubusercontent.com/wikimedia/mediawiki/master/includes/languages/data/Names.php
 local/mediawiki-locales.txt: local/mediawiki-locales.php
 	perl -e 'local $$/ = undef; $$x = <>; $$x =~ s{/\*.*?\*/}{}gs; $$x =~ s{#.*\n}{\n}g; $$q = chr 0x27; while ($$x =~ /$$q([a-z0-9-]+)$$q\s*=>/g) { print "$$1\n" }' < $< > $@
 
