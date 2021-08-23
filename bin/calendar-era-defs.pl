@@ -327,23 +327,32 @@ for my $path (
     } elsif (defined $key and /^name_kana\s+(.+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kana => $1, yomi => 1};
-    } elsif (defined $key and /^name_(ja|cn|tw)(!|)\s+(.+)$/) {
+    } elsif (defined $key and /^name_(ja|cn|tw|ko)(!|)\s+(.+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {han => 1, name => 1,
            values => [{value => $3, $1 => 1, _preferred => $2}]};
-    } elsif (defined $key and /^name_(ko)(!|)\s+(.+)$/) {
-      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
-          {$1 => 1, name => 1,
-           value => $3,
-           _preferred => $2};
-    } elsif (defined $key and /^name\((en|la|en_la|it|fr|es|po|vi|ja_latn)\)(!|)\s+([\p{Latn}\s%0-9A-F-]+)$/) {
+    } elsif (defined $key and /^name\((en|la|en_la|it|fr|es|po|vi|ja_latn)\)(!|)\s+([\p{Latn}\s%0-9A-F'-]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'alphabetical',
            lang => $1,
            preferred => $2,
            value => percent_decode_c $3};
-    } elsif (defined $key and /^expanded\((en|la|en_la|it|fr|es|po|vi|ja_latn)\)\s+([\p{Latn}\s%0-9A-F\[\]-]+)$/) {
+    } elsif (defined $key and /^name\((ja)\)(!|)\s+([\p{Hiragana}|\p{Katakana}|\x{30FC}|\N{KATAKANA MIDDLE DOT}|\x{3001}|\p{Han}\p{Latn}\[\]()\p{Geometric Shapes}\s]+)$/) {
+      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
+          {kind => 'name',
+           type => 'jpan',
+           lang => $1,
+           preferred => $2,
+           value => $3};
+    } elsif (defined $key and /^name\((ko|kr|kp)\)(!|)\s+([\p{Hang}]+)$/) {
+      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
+          {kind => 'name',
+           type => 'korean',
+           lang => $1,
+           preferred => $2,
+           value => $3};
+    } elsif (defined $key and /^expanded\((en|la|en_la|it|fr|es|po|vi|ja_latn)\)\s+([\p{Latn}\s%0-9A-F'\[\]-]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'expanded',
            type => 'alphabetical',
@@ -395,7 +404,7 @@ for my $path (
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {han => 1, abbr => 'first',
            values => [{value => $2, $1 => 1, expanded => $3}]};
-    } elsif (defined $key and /^acronym\((en|la|en_la|it|fr|es|po|vi|ja_latn)\)\s+([\p{Latn}.%0-9A-F]+)$/) {
+    } elsif (defined $key and /^acronym\((en|la|en_la|it|fr|es|po|vi|ja_latn)\)\s+([\p{Latn}.\N{KATAKANA MIDDLE DOT}%0-9A-F]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'alphabetical',
@@ -519,20 +528,24 @@ for my $path (
           $rep->{kind} = '(expanded)';
           $value->{expandeds} ||= [];
           reps_to_labels [$rep] => $value->{expandeds};
+        } else {
+          my $v = {};
+          my $v_added = 0;
 
-        } elsif ($rep->{type} eq 'alphabetical') {
-          if (@{$label->{texts}} and
-              $label->{texts}->[-1]->{type} eq 'alphabetical') {
-            $value = $label->{texts}->[-1];
-            $value_added = 1;
-          }
-              $value->{type} = 'alphabetical';
+          if ($rep->{type} eq 'alphabetical') {
+            if (@{$label->{texts}} and
+                $label->{texts}->[-1]->{type} eq 'alphabetical') {
+              $value = $label->{texts}->[-1];
+              $value_added = 1;
+            }
+            $value->{type} = 'alphabetical';
           my $w;
           my $abbr_indexes;
               if (defined $rep->{abbr}) {
                 if ($rep->{abbr} eq 'acronym') {
-                  if ($rep->{value} =~ /\./) {
-                    $w = [map { $_ eq '.' ? '..' : $_ } split /(\.)/, $rep->{value}];
+                  use utf8;
+                  if ($rep->{value} =~ /[.・]/) {
+                    $w = [map { ($_ eq '.' or $_ eq "・") ? '..' : $_ } split /([.・])/, $rep->{value}];
                   } else {
                     $w = [split //, $rep->{value}];
                   }
@@ -562,8 +575,6 @@ for my $path (
                 $abbr_indexes = \@abbr unless $j == 0;
               }
 
-          my $v = {};
-          my $v_added = 0;
           if (@{$value->{values}} and
               ((not defined $abbr_indexes and
                 not defined $value->{values}->[-1]->{abbr_indexes}) or
@@ -581,21 +592,86 @@ for my $path (
             push @{$v->{values} ||= []}, $w;
           }
           $v->{abbr_indexes} = $abbr_indexes if defined $abbr_indexes;
-          if ($rep->{kind} eq 'name') {
-                $label->{is_name} = \1;
-                $v->{is_preferred}->{$rep->{lang}} = \1 if $rep->{preferred};
-              } elsif ($rep->{kind} eq '(expanded)') {
-                #
+          } elsif ($rep->{type} eq 'jpan') {
+            my @value;
+            while (length $rep->{value}) {
+              use utf8;
+              if ($rep->{value} =~ s/\A([\p{Hiragana}|\p{Katakana}・ー、]+)//) {
+                $value->{type} = 'kana';
+                my $w = [map {
+                  /^\s+$/ ? '._' : $_ eq "・" ? '.・' : $_ eq "、" ? '.・' : $_;
+                } grep { length } split /([・、]|\s+)/, $1];
+                push @{$v->{values} ||= []}, $w;
+              } elsif ($rep->{value} =~ s/\A(\p{Han}+)//) {
+                $value->{type} = 'han';
+                my $w = [split //, $1];
+                push @{$v->{values} ||= []}, $w;
+                if ($rep->{value} =~ s/\A\[(\p{Hiragana}+(?:\s+\p{Hiragana}+)*)\]//) {
+                  push @{$value->{values}}, $v;
+                  $v = {};
+                  
+                  my $w = [split /\s+/, $1];
+                  $v->{type} = 'yomi';
+                  $v->{kana} = $w;
+                }
+              } elsif ($rep->{value} =~ s/\A(\p{Latn}+)//) {
+                $value->{type} = 'alphabetical';
+                my $w = [$1];
+                push @{$v->{values} ||= []}, $w;
+              } elsif ($rep->{value} =~ s/\A([()\p{Geometric Shapes}]+)//) {
+                $value->{type} = 'symbols';
+                my $w = [$1];
+                push @{$v->{values} ||= []}, $w;
               } else {
-                die "Unknown type |$rep->{kind}|";
+                die "Bad |jpan| value |$rep->{value}|";
               }
-              push @{$value->{values}}, $v unless $v_added;
-            } else {
-              die "Unknown language |$rep->{lang}|";
+              push @{$value->{values}}, $v;
+              $v = {};
+              push @value, $value;
+              $value = {values => []};
             }
-          } else { # XXX old style
-            $value = $rep;
+            if (@value == 1) {
+              $value = $value[0];
+            } else {
+              $value = {type => 'compound', items => \@value};
+            }
+            $v_added = 1;
+          } elsif ($rep->{type} eq 'korean') { # Korean alphabet
+            if (@{$label->{texts}} and
+                $label->{texts}->[-1]->{type} eq 'korean') {
+              $value = $label->{texts}->[-1];
+              $value_added = 1;
+            }
+            $value->{type} = 'korean';
+            my $w = [split //, $rep->{value}];
+            if (not defined $v->{$rep->{lang}}) {
+              $v->{$rep->{lang}} = $w;
+            } else {
+              push @{$v->{values} ||= []}, $w;
+            }
+          } else {
+            die "Unknown type |$rep->{type}|";
           }
+
+          if ($rep->{kind} eq 'name') {
+            $label->{is_name} = \1;
+            if ($rep->{preferred}) {
+              if ($value->{type} eq 'compound') {
+                $value->{is_preferred}->{$rep->{lang}} = \1;
+              } else {
+                $v->{is_preferred}->{$rep->{lang}} = \1;
+              }
+            }
+          } elsif ($rep->{kind} eq '(expanded)') {
+            #
+          } else {
+            die "Unknown type |$rep->{kind}|";
+          }
+          push @{$value->{values}}, $v unless $v_added;
+        }
+      } else { # XXX old style
+        $value = $rep;
+      }
       
       $value->{expandeds} = filter_labels $value->{expandeds}
           if defined $value->{expandeds};
@@ -605,12 +681,22 @@ for my $path (
     push @$labels, $label unless $label_added;
   } # reps_to_labels
 
+sub to_hiragana ($) {
+  use utf8;
+  my $s = shift;
+  $s =~ tr/アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮ/あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎ/;
+  return $s;
+} # to_hiragana
+
   sub serialize_segmented_text ($) {
     my $st = shift;
+    die $st, Carp::longmess () if not ref $st or not ref $st eq 'ARRAY';
     return join '', map {
       if (/^\./) {
+        use utf8;
         {
           '._' => ' ',
+          '.・' => '',
           '..' => '',
         }->{$_} // die "Bad segment separator |$_|";
       } else {
@@ -698,6 +784,53 @@ for my $path (
                        $text->{abbr} eq 'one') {
                     $era->{abbr_latn} = serialize_segmented_text $value->{ja_latn};
                   }
+                }
+              } elsif ($text->{type} eq 'kana') {
+                for my $value (@{$text->{values}}) {
+                  if (@{$value->{values}} and
+                      (not defined $era->{name_ja} or
+                       ($value->{is_preferred} or {})->{ja})) {
+                    $era->{name_ja} = serialize_segmented_text $value->{values}->[0];
+                    $era->{name} //= $era->{name_ja};
+                  }
+                }
+              } elsif ($text->{type} eq 'korean') {
+                for my $value (@{$text->{values}}) {
+                  for my $lang (qw(ko kr kp)) {
+                    if (defined $value->{$lang} and
+                        (not defined $era->{name_ko} or
+                         ($value->{is_preferred} or {})->{$lang})) {
+                      $era->{name_ko} = serialize_segmented_text $value->{$lang};
+                      $era->{name} //= $era->{name_ko};
+                    }
+                  }
+                }
+              } elsif ($text->{type} eq 'compound') {
+                if ((not defined $era->{name_ja} or
+                     ($text->{is_preferred} or {})->{ja})) {
+                  $era->{name_ja} = join '', map {
+                    my $v = serialize_segmented_text ($_->{values}->[0]->{values}->[0] // die);
+                    $v;
+                  } @{$text->{items}};
+                  my $no_kana = 0;
+                  my $kana = join '', map {
+                    if ($_->{type} eq 'kana') {
+                      to_hiragana serialize_segmented_text ($_->{values}->[0]->{values}->[0] // die);
+                    } elsif ($_->{type} eq 'han') {
+                      my $yomi = [grep { $_->{type} eq 'yomi' } @{$_->{values}}]->[0];
+                      if (defined $yomi) {
+                        serialize_segmented_text $yomi->{kana};
+                      } else {
+                        $no_kana = 1;
+                      }
+                    } elsif ($_->{type} eq 'symbols') {
+                      #
+                    } else {
+                      $no_kana = 1;
+                    }
+                  } @{$text->{items}};
+                  $era->{name_kana} = $kana unless $no_kana;
+                  $era->{name} //= $era->{name_ja};
                 }
               }
             }

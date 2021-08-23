@@ -1090,7 +1090,7 @@ name_ja 大同
 name_kana だい どう
 name_man %E1%A0%A0%E1%A0%AE%E1%A0%AA%E1%A0%A0%E1%A1%A0%E1%A1%A5%E1%A1%9D%E1%A1%A8%E1%A1%A0%E1%A0%A8,amba uhetun
 
-name_ko 대동
+name(ko) 대동
 
 tag 満洲国臨時政府
 tag マイクロネーションの元号
@@ -1135,7 +1135,7 @@ name_kana こう とく
 name_man %E1%A1%9D%E1%A0%AF%E1%A1%A5%E1%A1%9D%E1%A1%9D%E1%A1%B5%E1%A1%A9%E1%A1%9D%E1%A0%AE%E1%A1%A0%E1%A0%A9%E1%A1%A4%E1%A1%9D,elhe erdemungge
 name_man %E1%A1%9D%E1%A0%AF%E1%A1%A5%E1%A1%9D%E1%A1%9D%E1%A1%B5%E1%A1%A9%E1%A1%9D%E1%A0%AE%E1%A1%A0,elhe erdemu
 
-name_ko 강덕
+name(ko) 강덕
 
 
 %tag region

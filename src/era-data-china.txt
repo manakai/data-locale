@@ -6053,7 +6053,7 @@ name_kana えい れき
 tag 李氏朝鮮
 tag 朝鮮人
 u 200
-name_ko 영력
+name(ko) 영력
 &
 name_ja 霊力
 

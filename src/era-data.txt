@@ -13,7 +13,7 @@ expanded(en_la) [A]nno [D]omini
 name(la) ann%C5%8D Domin%C4%AB
 name(en_la) Anno Domini
 &
-name_ja キリスト紀元
+name(ja) キリスト紀元
 &
 name_ja 耶蘇紀元
 &
@@ -123,14 +123,20 @@ AD1846 = 1
 
 def[開國]
 name 開國
-name_ko 개국
+name(kr) 개국
 name_ja 開国
 name_kana かい こく
+&
 name 開国年号
+&
 name 開国紀元
+&
 name 朝鮮開國
+&
 name 大朝鮮國開國
+&
 name 大朝鮮開國
+&
 name 大朝鮮
 wref_ja 開国_(李氏朝鮮)
 wref_ko 개국_(조선)
@@ -138,13 +144,14 @@ AD1392 = 1
 sw 開国年号
 
 def[대한민국]
-name 大韓民國
-name_ko 대한민국
-name_ja 大韓民国
 name_tw 大韓民國
+name_ja 大韓民国
+name(kr) 대한민국
+&
 name 民國
 name 民国
-name 민국
+name(kr) 민국
+&
 name 大韓民国暦
 wref_ja 大韓民国_(年号)
 wref_zh 大韓民國_(年號)
@@ -152,27 +159,33 @@ sw 大韓民国 (紀年法)
 AD1919 = 1
 
 [단기]
-name_ko 단기
+name(kr) 단기
 name_ja 檀紀
+&
 name 檀君紀元
-name 단군기원
-name 開天
+name(kr) 단군기원
+&
 name 檀君
+&&
+name 開天
 wref_ja 檀紀
 wref_ko 단군기원
 BC2333 = 1
 
 def[주체]
-name_ko 주체
+name(kp) 주체
 name_ja 主体
-name 주체연호
-name 주체력
-name 主体暦
+name(ja) チュチェ
+&
+name(kp) 주체연호
 name 主體年號
-name 主體曆
-name 主体紀元
-name チュチェ
-name チュチェ暦
+&
+name 주체력
+name_ja 主体暦
+name_tw 主體曆
+name(ja) チュチェ暦
+&
+name_ja 主体紀元
 wref_ko 주체연호
 wref_ja 主体暦
 AD1912 = 1
@@ -315,7 +328,7 @@ def[天紀(庚子)]
 sw 統一教会暦
 #
 name_ja 天紀
-name_ko 천기
+name(kr) 천기
 AD1960 = 1
 tag 日本人
 tag 大韓民国国民
@@ -329,7 +342,7 @@ def[天紀(丁巳)]
 sw 統一教会暦
 #
 name_ja 天紀
-name_ko 천기
+name(kr) 천기
 AD1977 = 1
 tag 日本人
 tag 大韓民国国民
@@ -344,7 +357,7 @@ def[成約]
 sw 統一教会暦
 #
 name_ja 成約
-name_ko 성약
+name(kr) 성약
 AD1993 = 1
 tag 日本人
 tag 大韓民国国民
@@ -360,7 +373,7 @@ def[天一国]
 sw 統一教会暦
 #
 name_ja 天一国
-name_ko 천일국
+name(kr) 천일국
 AD2001 = 1
 tag 日本人
 tag 大韓民国国民
@@ -376,7 +389,7 @@ def[天基]
 sw 統一教会暦
 #
 name_ja 天基
-name_ko 천기
+name(kr) 천기
 AD2010 = 1
 tag 日本人
 tag 大韓民国国民
@@ -393,7 +406,7 @@ def[天一国(癸巳)]
 sw 統一教会暦
 #
 name_ja 天一国
-name_ko 천일국
+name(kr) 천일국
 AD2013 = 1
 tag 日本人
 tag 大韓民国国民
@@ -404,7 +417,7 @@ tag 統一教会
 u 8
 
 def[天紀(辛巳)]
-name_ko 천기
+name(kr) 천기
 name 天紀
 sw 天紀 (三千年城新世界創造學會)
 AD2001 = 1
