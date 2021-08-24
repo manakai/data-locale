@@ -360,41 +360,42 @@ for my $path (
            value => percent_decode_c $2};
     } elsif (defined $key and /^name_man\s+((?:%[0-9A-F]{2})+(?: (?:%[0-9A-F]{2})+)*),([a-z%0-9A-F ]+),([a-z ]+),([a-z'%0-9A-F ]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
-          {manchu => 1, name => 1,
+          {kind => 'name',
+           type => 'manchu',
            manchu => (percent_decode_c $1),
-           moellendorff => (percent_decode_c $2), # 穆麟德 メレンドルフ
-           abkai => $3, # 太清
-           xinmanhan => (percent_decode_c $4), # 新满汉大词典
-          };
+           moellendorff => (percent_decode_c $2),
+           abkai => $3,
+           xinmanhan => (percent_decode_c $4)};
     } elsif (defined $key and /^name_man\s+((?:%[0-9A-F]{2})+(?: (?:%[0-9A-F]{2})+)*),([a-z%0-9A-F ]+),([a-z ]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
-          {manchu => 1, name => 1,
+          {kind => 'name',
+           type => 'manchu',
            manchu => (percent_decode_c $1),
-           moellendorff => (percent_decode_c $2), # 穆麟德 メレンドルフ
-           abkai => $3, # 太清
-          };
+           moellendorff => (percent_decode_c $2),
+           abkai => $3};
     } elsif (defined $key and /^name_man\s+((?:%[0-9A-F]{2})+(?: (?:%[0-9A-F]{2})+)*),([a-z%0-9A-F ]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
-          {manchu => 1, name => 1,
+          {kind => 'name',
+           type => 'manchu',
            manchu => (percent_decode_c $1),
-           moellendorff => (percent_decode_c $2), # 穆麟德 メレンドルフ
-          };
+           moellendorff => (percent_decode_c $2)};
     } elsif (defined $key and /^name_man\s+((?:%[0-9A-F]{2})+(?: (?:%[0-9A-F]{2})+)*)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
-          {manchu => 1, name => 1,
-           manchu => (percent_decode_c $1),
-          };
+          {kind => 'name',
+           type => 'manchu',
+           manchu => (percent_decode_c $1)};
     } elsif (defined $key and /^name_mn\s+((?:%[0-9A-F]{2})+(?: (?:%[0-9A-F]{2})+)*),([\p{Cyrl}%0-9A-F ]+),([a-z%0-9A-F ]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
-          {monglian => 1, name => 1,
-           monglian => (percent_decode_c $1),
+          {kind => 'name',
+           type => 'mongolian',
+           mongolian => (percent_decode_c $1),
            cyrillic => (percent_decode_c $2),
-           vpmc => (percent_decode_c $3), # 鲍培氏回鹘式蒙古文转写
-          };
+           vpmc => (percent_decode_c $3)};
     } elsif (defined $key and /^name_mn\s+((?:%[0-9A-F]{2})+(?: (?:%[0-9A-F]{2})+)*),([\p{Cyrl}%0-9A-F ]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
-          {monglian => 1, name => 1,
-           monglian => (percent_decode_c $1),
+          {kind => 'name',
+           type => 'mongolian',
+           mongolian => (percent_decode_c $1),
            cyrillic => (percent_decode_c $2)};
     } elsif (defined $key and /^abbr_ja\s+([A-Z])\s+(\1[a-z]*)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
@@ -515,7 +516,7 @@ for my $path (
         next;
       }
       
-      my $value = {values => []};
+      my $value = {};
       my $value_added = 0;
 
       if (defined $rep->{kind}) {
@@ -575,7 +576,7 @@ for my $path (
                 $abbr_indexes = \@abbr unless $j == 0;
               }
 
-          if (@{$value->{values}} and
+          if (@{$value->{values} || []} and
               ((not defined $abbr_indexes and
                 not defined $value->{values}->[-1]->{abbr_indexes}) or
                 (defined $abbr_indexes and
@@ -649,6 +650,22 @@ for my $path (
             } else {
               push @{$v->{values} ||= []}, $w;
             }
+          } elsif ($rep->{type} eq 'manchu') {
+            $value->{type} = 'manchu';
+            for my $key (qw(manchu),
+                         qw(moellendorff abkai xinmanhan)) { # latin
+              $v->{$key} = [map { $_ =~ /\s/ ? '._' : $_ } split /(\s+)/, $rep->{$key}]
+                  if defined $rep->{$key};
+            }
+          } elsif ($rep->{type} eq 'mongolian') {
+            $value->{type} = 'mongolian';
+            $rep->{cyrillic} = lc $rep->{cyrillic} if defined $rep->{cyrillic};
+            for my $key (qw(mongolian),
+                         qw(cyrillic),
+                         qw(vpmc)) { # latin
+              $v->{$key} = [map { $_ =~ /\s/ ? '._' : $_ } split /(\s+)/, $rep->{$key}]
+                  if defined $rep->{$key};
+            }
           } else {
             die "Unknown type |$rep->{type}|";
           }
@@ -667,7 +684,7 @@ for my $path (
           } else {
             die "Unknown type |$rep->{kind}|";
           }
-          push @{$value->{values}}, $v unless $v_added;
+          push @{$value->{values}}, $v if not $v_added and keys %$v;
         }
       } else { # XXX old style
         $value = $rep;
