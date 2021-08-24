@@ -149,7 +149,8 @@ local/wp-cn-eras-my.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-my.html
 	$(PERL) $< < local/wp-cn-eras-my.html > $@
 local/wp-cn-eras-sg.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-sg.html
 	$(PERL) $< < local/wp-cn-eras-sg.html > $@
-intermediate/wp-cn-eras.json: bin/merge-wp-cn-eras.pl \
+#intermediate/wp-cn-eras.json
+intermediate-wp-cn-eras.json: bin/merge-wp-cn-eras.pl \
     local/wp-cn-eras-tw.json \
     local/wp-cn-eras-cn.json \
     local/wp-cn-eras-hk.json \
