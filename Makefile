@@ -149,7 +149,8 @@ local/wp-cn-eras-my.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-my.html
 	$(PERL) $< < local/wp-cn-eras-my.html > $@
 local/wp-cn-eras-sg.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-sg.html
 	$(PERL) $< < local/wp-cn-eras-sg.html > $@
-intermediate/wp-cn-eras.json: bin/merge-wp-cn-eras.pl \
+#intermediate/wp-cn-eras.json
+intermediate-wp-cn-eras.json: bin/merge-wp-cn-eras.pl \
     local/wp-cn-eras-tw.json \
     local/wp-cn-eras-cn.json \
     local/wp-cn-eras-hk.json \
@@ -200,7 +201,12 @@ local/calendar-era-yomis.txt: bin/calendar-era-yomis.pl \
     local/era-yomi-list.json
 	DATA=2 $(PERL) $< > $@
 
-data/calendar/era-defs.json: bin/calendar-era-defs.pl \
+data/calendar/era-defs.json: bin/calendar-era-defs-events.pl \
+    local/calendar-era-defs-0.json \
+    data/tags.json
+	$(PERL) $< > $@
+
+local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
     local/era-defs-jp.json local/era-defs-jp-emperor.json \
     src/wp-jp-eras.json \
     local/char-variants.json \
@@ -212,7 +218,9 @@ data/calendar/era-defs.json: bin/calendar-era-defs.pl \
     src/era-viet.txt src/era-korea.txt \
     data/numbers/kanshi.json \
     intermediate/era-ids.json \
-    src/era-codes-14.txt src/era-codes-15.txt \
+    src/era-codes-14.txt \
+    src/era-codes-15.txt \
+    src/era-codes-24.txt \
     local/cldr-core-json/ja.json \
     local/era-yomi-list.json \
     local/era-date-list.json \
@@ -238,47 +246,42 @@ local/eras/all: \
     local/eras/jp-kyoto.txt \
     local/eras/jp-east.txt
 	touch $@
-local/eras/jp.txt: bin/extract-era-system-def.pl \
-    data/calendar/era-defs.json
+local/eras/jp.txt: bin/extract-era-transitions.pl \
+    data/calendar/era-defs.json \
+    data/tags.json
 	mkdir -p local/eras
-	FILTER_FLAGS=jp_emperor_era,jp_era,jp_south_era \
-	ERA_SYSTEM_NAME=jp \
-	$(PERL) $< > $@
-local/eras/jp-south.txt: bin/extract-era-system-def.pl \
-    data/calendar/era-defs.json
+	echo '*jp:\n+$$DEF-jp\n$$DEF-jp:' > $@
+	TAGS_INCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
+local/eras/jp-south.txt: bin/extract-era-transitions.pl \
+    data/calendar/era-defs.json \
+    data/tags.json
 	mkdir -p local/eras
-	FILTER_FLAGS=jp_emperor_era,jp_era,jp_south_era \
-	ERA_SYSTEM_NAME=jp-south \
-	$(PERL) $< > $@
-local/eras/jp-north.txt: bin/extract-era-system-def.pl \
-    data/calendar/era-defs.json
+	echo '*jp-south:\n+$$DEF-jp-south\n$$DEF-jp-south:' > $@
+	TAGS_INCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
+local/eras/jp-north.txt: bin/extract-era-transitions.pl \
+    data/calendar/era-defs.json \
+    data/tags.json
 	mkdir -p local/eras
-	FILTER_FLAGS=jp_emperor_era,jp_era,jp_north_era \
-	FILTER_GROUPS=北朝 \
-	ERA_SYSTEM_NAME=jp-north \
-	$(PERL) $< > $@
-local/eras/jp-heishi.txt: bin/extract-era-system-def.pl \
-    data/calendar/era-defs.json
+	echo '*jp-north:\n+$$DEF-jp-north\n$$DEF-jp-north:' > $@
+	TAGS_INCLUDED=日本北朝 TAGS_EXCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
+local/eras/jp-heishi.txt: bin/extract-era-transitions.pl \
+    data/calendar/era-defs.json \
+    data/tags.json
 	mkdir -p local/eras
-	FILTER_FLAGS=jp_emperor_era,jp_era,jp_south_era \
-	FILTER_GROUPS=平氏 \
-	ERA_SYSTEM_NAME=jp-heishi \
-	$(PERL) $< > $@
-local/eras/jp-kyoto.txt: bin/extract-era-system-def.pl \
-    data/calendar/era-defs.json
+	echo '*jp-heishi:\n+$$DEF-jp-heishi\n$$DEF-jp-heishi:' > $@
+	TAGS_INCLUDED=平氏,日本南朝 $(PERL) $< 神武天皇 >> $@
+local/eras/jp-kyoto.txt: bin/extract-era-transitions.pl \
+    data/calendar/era-defs.json \
+    data/tags.json
 	mkdir -p local/eras
-	FILTER_FLAGS=jp_emperor_era,jp_era,jp_north_era \
-	FILTER_GROUPS=京都 \
-	ERA_SYSTEM_NAME=jp-kyoto \
-	$(PERL) $< > $@
-local/eras/jp-east.txt: bin/extract-era-system-def.pl \
-    data/calendar/era-defs.json
+	echo '*jp-kyoto:\n+$$DEF-jp-kyoto\n$$DEF-jp-kyoto:' > $@
+	TAGS_INCLUDED=京都 TAGS_EXCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
+local/eras/jp-east.txt: bin/extract-era-transitions.pl \
+    data/calendar/era-defs.json \
+    data/tags.json
 	mkdir -p local/eras
-	FILTER_FLAGS=jp_emperor_era,jp_era,jp_north_era \
-	FILTER_GROUPS=関東 \
-	FILTER_EXCLUDED=養和 \
-	ERA_SYSTEM_NAME=jp-east \
-	$(PERL) $< > $@
+	echo '*jp-east:\n+$$DEF-jp-east\n$$DEF-jp-east:' > $@
+	TAGS_INCLUDED=関東 TAGS_EXCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
 data/calendar/era-systems.json: bin/calendar-era-systems.pl \
     src/eras/*.txt data/calendar/kyuureki-map.txt \
     data/calendar/kyuureki-ryuukyuu-map.txt \
@@ -365,7 +368,7 @@ local/cldr-locales.txt: local/cldr-repo always
 local/fx-locales.json:
 	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-web-impls/staging/data/firefox-locales.json
 local/mediawiki-locales.php:
-	$(WGET) -O $@ https://raw.githubusercontent.com/wikimedia/mediawiki/master/languages/data/Names.php
+	$(WGET) -O $@ https://raw.githubusercontent.com/wikimedia/mediawiki/master/includes/languages/data/Names.php
 local/mediawiki-locales.txt: local/mediawiki-locales.php
 	perl -e 'local $$/ = undef; $$x = <>; $$x =~ s{/\*.*?\*/}{}gs; $$x =~ s{#.*\n}{\n}g; $$q = chr 0x27; while ($$x =~ /$$q([a-z0-9-]+)$$q\s*=>/g) { print "$$1\n" }' < $< > $@
 

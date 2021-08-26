@@ -1,5 +1,19 @@
 
 %tag region
+%tag   name_ja 蘭領台湾
+%tag   period of 台湾
+%tag   region of オランダ
+
+%tag region
+%tag   name_ja 鄭氏政権
+%tag   period of 台湾
+%tag   region of 南明
+
+%tag region
+%tag   name_ja 東寧王国
+%tag   period of 鄭氏政権
+
+%tag region
 %tag   name_ja 清領台湾
 %tag   period of 台湾
 %tag   region of 清
@@ -22,10 +36,29 @@
 %tag region
 %tag   name_ja 台湾
 
+%tag region
+%tag   name_ja 基隆
+%tag   region of 台湾
+
+%tag region
+%tag   name_ja 台南
+%tag   region of 台湾
+
+%tag region
+%tag   name_ja 高雄
+%tag   region of 台湾
+
+%tag region
+%tag   name_ja 澎湖諸島
+%tag   region of 台湾
+
 %tag people
 %tag   name_ja 台湾人
 
 def[光明]
+
+sw 光明
+
 name_ja 光明
 wref_ja 光明_(蔡牽)
 name_kana こう めい
@@ -35,6 +68,20 @@ AD1805 = 1
 u 1
 u 5
 tag 台湾
+
+%tag country
+%tag   name_ja 鎮海
+%tag   region of 台湾
+tag 鎮海
+%tag tag
+%tag   name_ja 鎮海王
+%tag person
+%tag   name_ja 蔡牽
+tag 蔡牽
+<-嘉慶(丙辰) [清:1805] #清 #鎮海 #鎮海王 #蔡牽 #建元前の即位
+<-嘉慶(丙辰) [清:1805] #清 #鎮海 #鎮海王 #蔡牽 #支那改元日 #起事建元
+->嘉慶(丙辰) [清:1809] #清 #鎮海 #蔡牽 #陥落
+
 
 [天運(壬辰)]
 name 天運
@@ -97,40 +144,28 @@ wref_ja 大靖
 %tag   period of 中華民国
 %tag   period of 台湾
 
-def[民國]
-name_tw 中華民國
-name_cn 中华民国
-name_ja 中華民国
-name 民國
-name 民国
-name 大中華民國
-abbr_tw 民 民國
-name 民國紀年
-name 民国纪年
-name 民國紀元
-name 民国紀元
-name 中華民国暦
-name 中華民国紀年
-name 国历
-name 國曆
-name 国暦
-wref_ja 民国紀元
-wref_zh 民國紀年
-AD1912 = 1
-sw 民国紀元
-tag 中華民国
-tag 中華民国台湾
-tag 漢土
-tag 内満州
-tag 内蒙古
-tag チベット
-tag ウイグル
-tag 漢民族
-tag 満州人
-tag ウイグル人
-tag チベット人
-tag 蒙古人
-tag 朝鮮人
-#<-AD 1930-10-01 威海衛租借地
-#<-AD 1945-11-16 広州湾租借地
-tag 中華王朝の公年号
+## Source:
+#sw 昭和
+%tag org
+%tag   name_tw 台灣共和國臨時政府
+%tag person
+%tag   name_tw 廖文毅
+%tag person
+%tag   name_tw 郭泰成
+%tag person
+%tag   name_tw 林台元
+[昭和]
+<-民國 g:1956-2-28 #台灣共和國臨時政府 #台湾 #日本 #廖文毅 #建国 #戦時異動 #旧説
+->民國 g:1977-9-16 #台灣共和國臨時政府 #台湾 #日本 #林台元 #死去 #消滅 #旧説
+tag 台灣共和國臨時政府
+tag 廖文毅
+tag 郭泰成
+tag 林台元
+[AD]
+<-民國 g:1956-2-28 #台灣共和國臨時政府 #台湾 #日本 #廖文毅 #建国 #戦時異動 #旧説
+->民國 g:1977-9-16 #台灣共和國臨時政府 #台湾 #日本 #林台元 #死去 #消滅
+->民國 g:1977-1-7 #台灣共和國臨時政府 #台湾 #日本 #林台元 #死去 #消滅 #異説
+tag 台灣共和國臨時政府
+tag 廖文毅
+tag 郭泰成
+tag 林台元

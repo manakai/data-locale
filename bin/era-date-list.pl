@@ -123,35 +123,13 @@ sub g2jd ($) {
   return $jd;
 } # g2jd
 
-sub day ($$$) {
-  my ($era_key, $era_first_year, $jd) = @_;
-  my $era_offset = $era_first_year - 1;
-  #my $jd = g2jd $g;
-  my ($y, $m, $d) = jd2g_ymd ($jd);
-  my ($j_y, $j_m, $j_d) = jd2j_ymd ($jd);
-  my $g = ymd2string ($y, $m, $d);
-  my $k = g2k $g;
-  $k =~ /^(-?[0-9]+)-([0-9]+'?-[0-9]+)$/;
-  my $k_y = $1;
-  my $k_md = $2;
-  die $k unless defined $k_md;
-  return {jd => $jd,
-          julian => ymd2string ($j_y, $j_m, $j_d),
-          gregorian => $g,
-          kyuureki => $k,
-          julian_era => (sprintf '%s%d-%02d-%02d', $era_key, $j_y - $era_offset, $j_m, $j_d),
-          gregorian_era => (sprintf '%s%d-%02d-%02d', $era_key, $y - $era_offset, $m, $d),
-          kyuureki_era => (sprintf '%s%d-%s', $era_key, $k_y - $era_offset, $k_md)};
-} # day
-
 sub sday ($) {
   my ($jd) = @_;
   my ($y, $m, $d) = jd2g_ymd ($jd);
   my $g = ymd2string ($y, $m, $d);
-  my $k = g2k $g;
   return {jd => $jd,
           gregorian => $g,
-          kyuureki => $k};
+         };
 } # sday
 
 sub resolve_range ($$) {
@@ -306,14 +284,10 @@ for my $era (@era) {
 
     my $jd = $era->{_jds}->{$pfx} // $era->{_jd};
     $era->{$pfx.'start_year'} = jd2jpy $jd;
-    $era->{$pfx.'start_day'} = day $era->{_key}, $era->{_first_year}, $jd;
     my $jd0;
     if ($era->{_not_renaming_year} or defined $era->{_jds}->{$pfx}) {
-      $era->{$pfx.'official_start_day'} = $era->{$pfx.'start_day'};
     } else {
       $jd0 = g2jd jp2g $era->{_first_year}, 1, 0, 1;
-      $era->{$pfx.'official_start_day'}
-          = day $era->{_key}, $era->{_first_year}, $jd0;
     }
     use utf8;
     if (($era->{_key} eq '元弘' and $pfx eq 'south_') or
@@ -323,8 +297,16 @@ for my $era (@era) {
       if (grep {
         defined $_->[2]->{label} and $_->[2]->{label} eq '公布';
       } @{$era->{_start_dates}}) {
-        my $v = {day => sday $jd, type => 'enforced',
+        my $v = {day => sday $jd, type => 'firstday',
                  prev => $era->{_prev_key}->{$pfx}};
+        my $tags = [];
+        push @$tags, 'グレゴリオ暦', '政令施行';
+        push @{$Data->{_TRANSITIONS}}, [$v->{prev}, $era->{_key}, {
+          change_day => 1,
+          day => $v->{day},
+          tags => $tags,
+          prefix => $pfx,
+        }];
         push @{$era->{starts} ||= []}, $v;
         $v = {%$v};
         my $prev_era = $Data->{eras}->{delete $v->{prev}};
@@ -338,6 +320,16 @@ for my $era (@era) {
                    '元徳' => '嘉暦',
                  }->{$era->{_key}})};
         push @{$era->{starts} ||= []}, $v;
+        my $tags = [];
+        push @$tags, 'グレゴリオ暦' if ref $v->{day} eq 'HASH' and
+            ($v->{day}->{jd} >= 2405159.5); # M6.1.1
+        push @{$Data->{_TRANSITIONS}}, [$v->{prev}, $era->{_key}, {
+          change_day => 1,
+          day => $v->{day},
+          tags => $tags,
+          prefix => (($era->{_key} eq '元徳' or
+                      $era->{_key} eq '建武') ? '' : $pfx),
+        }];
         unless ($era->{_key} eq '持統天皇') {
           $v = {%$v};
           my $prev_era = $Data->{eras}->{delete $v->{prev}};
@@ -369,6 +361,11 @@ for my $era (@era) {
       my $v = {day => sday $jd, type => 'year-start',
                prev => $era->{_prev_key}->{$pfx}};
       push @{$era->{starts} ||= []}, $v;
+      push @{$Data->{_TRANSITIONS}}, [$v->{prev}, $era->{_key}, {
+        change_day => 1,
+        day => $v->{day},
+        prefix => $pfx,
+      }];
       if (defined $v->{prev}) {
         $v = {%$v};
         my $prev_era = $Data->{eras}->{delete $v->{prev}};
@@ -378,16 +375,6 @@ for my $era (@era) {
         push @{$prev_era->{ends} ||= []}, $v;
       }
     }
-
-    for (qw(gregorian julian kyuureki)) {
-      $era->{$pfx.'start_day'}->{$_} =~ /^(-?[0-9]+)/ or die;
-      $era->{known_oldest_year} = 0+$1 if
-          not defined $era->{known_oldest_year} or
-          $era->{known_oldest_year} > $1;
-      $era->{known_latest_year} = 0+$1 if
-          not defined $era->{known_latest_year} or
-          $era->{known_latest_year} < $1;
-    }
   }
 
   for my $pfx ('', 'north_', 'south_') {
@@ -395,23 +382,10 @@ for my $era (@era) {
     my $next_era = $Data->{eras}->{$era->{_next_key}->{$pfx}}
         // die $era->{_next_key}->{$pfx};
     my $jd = $next_era->{_jds}->{$pfx} // $next_era->{_jd};
-    $era->{$pfx.'end_day'}
-        = day $era->{_key}, $era->{_first_year}, $jd-1;
     if ($next_era->{_start_at_day_boundary}) {
-      $era->{$pfx.'actual_end_day'}
-          = day $era->{_key}, $era->{_first_year}, $jd-1;
       $era->{$pfx.'end_year'} = jd2jpy $jd-1;
     } else {
-      $era->{$pfx.'actual_end_day'}
-          = day $era->{_key}, $era->{_first_year}, $jd;
       $era->{$pfx.'end_year'} = jd2jpy $jd;
-    }
-
-    for (qw(gregorian julian kyuureki)) {
-      $era->{$pfx.'actual_end_day'}->{$_} =~ /^(-?[0-9]+)/ or die;
-      $era->{known_latest_year} = $1 if
-          not defined $era->{known_latest_year} or
-          $era->{known_latest_year} < $1;
     }
   }
 
@@ -440,7 +414,8 @@ for my $era (@era) {
     } elsif ($_->[2]->{label} eq '外国通告') {
       $v->{type} = 'diplomatically-notified';
       $no_reverse = 1;
-    } elsif ($_->[2]->{label} eq '吉書始' or
+    } elsif ($_->[2]->{label} eq '鎌倉幕府改元吉書始' or
+             $_->[2]->{label} eq '室町幕府改元吉書始' or
              $_->[2]->{label} eq '幕府') {
       $v->{type} = 'shogunate-enforced';
     } elsif ($_->[2]->{label} eq '鎌倉' or
@@ -480,6 +455,32 @@ for my $era (@era) {
       die "Bad label |$_->[2]->{label}|";
     }
     push @{$era->{starts} ||= []}, $v;
+    my $tags = [];
+    push @$tags, 'グレゴリオ暦' if ref $v->{day} eq 'HASH' and
+        ($v->{day}->{gregorian} eq '1868-01-01' or
+         $v->{day}->{gregorian} eq '1868-09-08' or
+         $v->{day}->{jd} >= 2405159.5); # M6.1.1
+    push @$tags, '関東' if ($_->[2]->{label} // '') eq '鎌倉幕府改元吉書始';
+    push @{$Data->{_TRANSITIONS}}, [$v->{prev}, $era->{_key}, {
+      %{$_->[2]},
+      label => {
+        北朝 => '日本北朝',
+        南朝 => '日本南朝',
+        南洋群島 => '日本領南洋群島',
+        関東州 => '日本領関東州',
+        満鉄附属地 => '日本領満鉄附属地',
+        朝鮮 => '日本領朝鮮',
+        台湾 => '大日本帝国台湾',
+        幕府 => '室町幕府施行',
+        崩御 => '改元前の崩御',
+        公布 => '政令公布',
+      }->{$_->[2]->{label} // ''} // $_->[2]->{label},
+      type => $v->{type},
+      day => $v->{day},
+      tags => $tags,
+      prefix => '',
+    }];
+    
     $v = {%$v};
     unless ($no_reverse) {
       my $prev_era = $Data->{eras}->{delete $v->{prev}} ||= {};
@@ -520,6 +521,7 @@ for my $era (@era) {
              $_->[2]->{label} eq '台湾' or
              $_->[2]->{label} eq '朝鮮' or
              $_->[2]->{label} eq '沖縄' or
+             $_->[2]->{label} eq '竹島' or
              $_->[2]->{label} eq '行政分離' or
              $_->[2]->{label} eq '平和条約' or
              $_->[2]->{label} eq '関東州' or
@@ -542,13 +544,28 @@ for my $era (@era) {
       die "Bad label |$_->[2]->{label}|";
     }
     push @{$era->{ends} ||= []}, $v;
-    $v = {%$v};
-    unless ($no_reverse) {
-      my $next_era = $Data->{eras}->{delete $v->{next}};
-      $v->{prev} = $era->{_key};
-      $v->{day} = sday $v->{day}->{jd}+1 if $end_increment;
-      push @{$next_era->{starts} ||= []}, $v;
-    }
+    my $tags = [];
+    push @$tags, 'グレゴリオ暦' if ref $v->{day} eq 'HASH' and
+        ($v->{day}->{jd} >= 2405159.5); # M6.1.1
+    push @$tags, '陥落' if $_->[2]->{label} eq '平氏';
+    push @{$Data->{_TRANSITIONS}}, [$era->{_key}, $v->{next}, {
+      %{$_->[2]},
+      label => {
+        北朝 => '日本北朝',
+        南朝 => '日本南朝',
+        南洋群島 => '日本領南洋群島',
+        関東州 => '日本領関東州',
+        満鉄附属地 => '日本領満鉄附属地',
+        朝鮮 => '日本領朝鮮',
+        台湾 => '大日本帝国台湾',
+        平和条約 => '日本国との平和条約',
+        崩御 => '改元前の崩御',
+      }->{$_->[2]->{label} // ''} // $_->[2]->{label},
+      type => $v->{type},
+      day => $v->{day},
+      tags => $tags,
+      prefix => '',
+    }];
   }
 } # $era
 {
@@ -556,32 +573,6 @@ for my $era (@era) {
   delete $Data->{eras}->{明徳}->{$_} for qw(
     start_year start_day official_start_day
   );
-}
-
-for my $era (values %{$Data->{eras}}) {
-  $era->{starts} = [sort {
-    ((ref $a->{day} eq 'HASH' ? $a->{day}->{jd} : $a->{day}->[0]->{jd})
-         <=>
-     (ref $b->{day} eq 'HASH' ? $b->{day}->{jd} : $b->{day}->[0]->{jd}))
-        ||
-    $a->{type} cmp $b->{type}
-  } @{$era->{starts}}]
-      if defined $era->{starts};
-  $era->{ends} = [sort {
-    ((ref $a->{day} eq 'HASH' ? $a->{day}->{jd} : $a->{day}->[0]->{jd})
-         <=>
-     (ref $b->{day} eq 'HASH' ? $b->{day}->{jd} : $b->{day}->[0]->{jd}))
-        ||
-    $a->{type} cmp $b->{type}
-  } @{$era->{ends}}]
-      if defined $era->{ends};
-
-  my @enforce = grep { $_->{type} eq 'established' or $_->{type} eq 'enforced' } @{$era->{starts} or []};
-  if ($era->{jp_era} or $era->{jp_north_era} or $era->{jp_south_era}) {
-    die $era->{_key} unless @enforce == 1;
-  }
-  my @retro = grep { $_->{type} eq 'retroactivated' } @{$era->{starts} or []};
-  die $era->{_key} unless @retro <= 1;
 }
 
 {

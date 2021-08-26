@@ -74,14 +74,12 @@ The file contains a JSON object with following name/value pairs:
 
       abbr [string?]
 
-        The abbreviation of the era name, using the "native" script,
-        if any.  Similar to |code7|.  If the value is not specified,
-        another name (|short_name| or |name| value) should be used
-        instead.
+        The one-Han-character abbreviation of the era name, if any.
+        Similar to |code7|.
 
       abbr_latn [string?]
 
-        The abbreviation of the era name, using Latin letters, if any.
+        The one-Latin-letter abbreviation of the era name, if any.
         Similar to |code2|.
 
       cn_ryuukyuu_era [boolean]
@@ -101,9 +99,10 @@ The file contains a JSON object with following name/value pairs:
       code18 [integer?]
       code19 [integer?]
       code20 [integer?]
+      code24 [integer?]
 
         The era codes #1, #2, #4, #5, #6, #7, #9, #16, #17, #18, #19,
-        or #20 codes [CODES] for the era, respectively, if any.
+        #20, or #24 codes [CODES] for the era, respectively, if any.
 
       code10 [integer?]
 
@@ -118,9 +117,20 @@ The file contains a JSON object with following name/value pairs:
         respectively.  The era codes #11 and #12 [CODES].
       
       code13 [integer?]
+      code21 [integer?]
 
         The bit combination of the character for the era, if any, in
-        Shift JIS.  The era codes #13 [CODES].
+        Shift JIS variants.  The era codes #13 and #21 [CODES].
+
+      code22 [string?]
+
+        The Men-Ku-Ten position of the character for the era, if any,
+        in JIS X 0213 coded character set.  The era code #22 [CODES].
+
+      code23 [integer?]
+
+        The bit combination of the character for the era, if any, in
+        IBM EBCDIC.  The era code #23 [CODES].
 
       code14 [integer?]
 
@@ -136,9 +146,17 @@ The file contains a JSON object with following name/value pairs:
 
         The official English short description of the era, if any.
 
-      ends [events]
+      end_day [day?]
 
-        The end days of the era.
+        The last day of the era, if known.  It is same as the last
+        outgoing transition event of type |prevfirstday|, if any, or
+        |lastyearend|.
+
+      end_year [year?]
+
+        The last year of the era, if known.  It is the year of the
+        last outgoing transition event of type |prevfirstday|, if any,
+        or |lastyearend|.
 
       id [integer]
 
@@ -269,6 +287,10 @@ The file contains a JSON object with following name/value pairs:
 
         The name of the era in Simplified Chinese, if known.
 
+      name_ja [string?]
+
+        The name of the era in contemporary Japanese, if known.
+
       name_kana [string?]
 
         The primary Japanese reading of the era, in Hiragana (without
@@ -299,6 +321,15 @@ The file contains a JSON object with following name/value pairs:
       name_vi [string?]
 
         The name of the era in Vietnamese, if known.
+
+      north_end_day [day?]
+      north_end_year [year?]
+      north_start_day [day?]
+      north_start_year [year?]
+
+        Similar to |end_day|, |end_year|, |start_day|, and
+        |start_year| values, respectively, but for the Northern Court
+        of Japan (日本北朝), if applicable.
 
       offset [integer?]
 
@@ -331,15 +362,52 @@ The file contains a JSON object with following name/value pairs:
 
             The URL of the source document.
 
-      starts [events]
+      south_end_day [day?]
+      south_end_year [year?]
+      south_start_day [day?]
+      south_start_year [year?]
 
-        The start days of the era.
+        Similar to |end_day|, |end_year|, |start_day|, and
+        |start_year| values, respectively, but for the Southern Court
+        of Japan (日本南朝), if applicable.
+
+      start_day [day?]
+
+        The first day of the era, if known.  It is same as the first
+        incoming transition event of type |firstday|, if any, or
+        |firstyearstart|.
+
+      start_year [year?]
+
+        The first year of the era, if known.  It is the year of the
+        first incoming transition event of type |firstday|, if any, or
+        |firstyearstart|.
 
       suikawiki [string?]
 
         The name of the SuikaWiki article on the era, if any.  It can
         be converted to a URL by percent-encoding and then appending
         to <https://wiki.suikawiki.org/n/>.
+
+      table_oldest_year [year?]
+
+        The earliest year that should be shown in the table of the
+        era's transition events, if known.  If specified, the value is
+        less than or equal to the |known_oldest_year|.
+
+      table_latest_year [year?]
+
+        The latest year that should be shown in the table of the era's
+        transition events, if known.  If specified, the value is
+        greater than or equal to the |known_oldest_year|.
+
+      tag_ids [tag ID set]
+
+        The set of tags representing characteristics of the era.
+
+      transitions [events]
+
+        The transition events related to the era.
 
       unicode [string?]
 
@@ -370,65 +438,17 @@ The file contains a JSON object with following name/value pairs:
         <https://github.com/geocol/data-jp-transport/blob/master/doc/datatypes.txt>
         for the Chinese Wikipedia article on the era, if known.
 
-      start_day [day?]
-      start_year [year?]
-      end_day [day?]
-      end_year [year?]
       official_start_day [day?]
       actual_end_day [day?]
-      north_start_day [day?]
-      north_start_year [year?]
       north_official_start_day [day?]
       north_actual_end_day [day?]
-      north_end_day [day?]
-      north_end_year [year?]
-      south_start_day [day?]
-      south_start_year [year?]
-      south_end_day [day?]
-      south_end_year [year?]
       south_official_start_day [day?]
       south_actual_end_day [day?]
 
-        The start and end of the era, if defined and known.
+        Deprecated.  Applications should not use these values.
 
-        The start or end of the era can be defined in terms of day or
-        year.
-
-        If the start or end is defined in terms of day, |start_day| or
-        |end_day| is set to the value which should be used when a date
-        represented in other format is converted into the era-based
-        format (according to the era system "jp" for |jp_era| eras).
-
-        If the start is defined in terms of day and there is an
-        "official" start day, |official_start_day| is set to that day.
-        It can be different from the |start_day| if the era was
-        defined after its actual start day.  See also
-        <https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7#anchor-159>.
-
-        If the end is defined in terms of day, |actual_end_day| is set
-        to that day.  It can be different from the |end_day| if a new
-        era had been started before the end of the |actual_end_day|.
-
-        For eras with |jp_north_era| or |jp_south_era| flag, |north_|
-        or |south_| prefixed name/value pairs are used instead, as
-        their values can be different for 北朝 and 南朝.  Note that 正
-        平の一統 is not reflected to these properties.  The
-        |jp_north_era| flag is not set to the 正平 era.
-
-        If the start or end is defined in terms of day, |start_year|
-        or |end_year| is set to the year of the |start_day| or the
-        |actual_end_day| in the "native" calendar.
-
-        If the start or end is defined in terms of year, |start_year|
-        or |end_year| is set to that year.
-
-        If start or end is defined in terms of year, |start_*_day| and
-        |end_*_day| name/value pairs, where * is |gregorian|,
-        |julian|, or |kyuureki|, are set to the first or last days in
-        those calendars.
-
-        For values with type [day], the parameter /era/ is set to the
-        era.
+        These values represent start and end dates and years derived
+        from the transition events of the era.
 
     Note that there is a special era: "unknown", which indicates that
     the era is unknown or not specified.
@@ -472,108 +492,172 @@ The file contains a JSON object with following name/value pairs:
 
 * The |events| data type
 
-If the value's type is |events|, i.e. it is a |starts| or |ends|
-fields, its value is a JSON array of relevant events.  If there is no
-event, the value can be null or omitted.
+The |events| data type represents a JSON array of transition events.
 
-An event is a JSON object with following name/value pairs:
+A transition event is a JSON object, representing an event related to
+the era-to-era transition, or changing some characteristic of the era,
+and has following name/value pairs:
 
-  day
+  day [day?]
 
-    The day.  If an exact day is known, a [day] value.  Otherwise, a
-    JSON array of start and end [day] values representing a range.
+    The day of the event, if known.
 
-  group [string?]
+  day_start [day?]
+  day_end [day?]
 
-    The group or city the event is relevant, for relevant |type|.
+    The range of the possible range of the days in which the event
+    occurred.  If |day| is not specified, both |day_start| and
+    |day_end| are specified.  Otherwise, none of |day_start| and
+    |day_end| is specified.
 
-  next [string?]
-  prev [string?]
+  direction [string]
 
-    starts: The |prev| value is the key of the previous era before the
-    transition represented by the event.
+    The kind of the transition.  One of the following values:
 
-    ends: The |next| value is the key of the previous era after the
-    transition represented by the event.
-    
+      incoming    The transition is from another eras to the era.
+      outgoing    The transition is from the era to another eras.
+      other       The transition modifies the era itself.
+
+  prev_era_ids [era ID set]
+  next_era_ids [era ID set]
+
+    The set of eras.  If the |direction| is |incoming|, the IDs of the
+    previous eras of the transition are contained in the
+    |prev_era_ids|.  If the |direction| is |outgoing|, the IDs of the
+    next eras of the transition are contained in |next_era_ids|.
+
+  tag_ids [tag ID set]
+
+    The set of tags representing characteristics of the transition.
+
   type [string]
 
     The type of the event.
 
-      dayretroactivated
+      administrative
 
-        ends: The day before the establishment day of the |next| era.
-        Same as |end_day|.
+        The day a peacetime administrative change was enforced such
+        that the era was changed accordingly.
 
-      decreed
+      canceled
 
-        starts: The day the era had been officially enforced in the
-        government (覆奏).
+        The transition is cancelled.
 
-        ends: The day the |next| era was decreed.
+      commenced
+      commenced/possible
+      commenced/incorrect
 
-      diplomatically-notified
+        The day the era is formally used for the first time, if known.
+        There might be different commence days for a single era,
+        depending on the subregion or organization.
 
-        starts: The day the era was sent to foreign governments.
+        Note that there is no |commenced| transition event entry when
+        it is same day as the |firstday| and there is no formal
+        commence process different from the defining process of the
+        era.
 
-      established
-      established/possible
-      established/incorrect
+      firstday
+      firstday/possible
+      firstday/incorrect
 
-        starts: The day the era has been defined.
+        The first day of the new era.
 
-        ends: The day the |next| era has been defined.
+        It may be the day before the day the era is defined or the
+        first day the era is used.
 
-        There is at most one |established| event.  The "/possible"
-        events represent other possible days, if the exact day of the
-        establishment is not recorded.  The "/incorrect" events
-        represent other days that had been considered as the
-        establishment day but then was known as incorrect.
+        It might or might not be known yet at the time when the day
+        was started that the new era was to be started at the day.
+
+      firstday/canceled
+
+        The day once scheduled as the first day of the new era but
+        then canceled, if applicable.
+
+      firstyearstart
+
+        The first day of the first year of the new era.
+
+      lastyearend
+
+        The last day of the year of the |prevfirstday|.
+
+      nextlastyearend
+
+        The next day of the |lastyearend|.
+
+      notified
+
+        The day the notification of the new era was sent.  It may or
+        may not be the same day as any corresponding |received| day.
+
+      other
+
+        The day some other kind of event was happened.
+
+      prevfirstday
+
+        The previous day of the |firstday|.
+
+      prevfirstyearstart
+
+        The previous day of the |firstyearstart|.
 
       proclaimed
+      proclaimed/possible
+      proclaimed/incorrect
 
-        starts: The day the era had been announced (but not yet used).
+        The day the era was formally defined.  If it is same day as
+        |firstday|, this event might be omitted.
 
       received
 
-        starts: The day the era had been received by |group|.
+        The day the notification of the new era was received.  It may
+        or may not be the same day as any corresponding |notified|
+        day.
 
-        ends: The day the |next| era was received.
+      rejected
 
-      retroactivated
+        The day the enforcement of the new era is rejected.
 
-        starts: The first day of the first calendar year of the era,
-        retroactively considered as the start of the era.
+      triggering
+      triggering/possible
+      triggering/incorrect
 
-        ends: The previous day of the |next| era's retroactivated day.
-
-      shogunate-enforced
-
-        starts: The day the era had been enforced (吉書始) in the
-        Shogunate (幕府).
-
-        ends: The day the |next| era was shogunate-enforced.
-
-      succeed
-
-        starts: The day of the succeed of the |prev| era.
-
-        ends: The day of the succession of the Emperor.
+        The day of an event that triggers the start or the end of the
+        era, directly or indirectly.
 
       wartime
+      wartime/possible
+      wartime/incorrect
 
-        starts: The day the era was changed as part of irregular
-        wartime process by |group|.
+        The day the era was changed as part of irregular wartime
+        process.
 
-        ends: The day the |next| era was "wartime"-changed.
+    The type might be suffixed by |/possible| or |/incorrect|, as
+    shown above.  The |/possible| variant type represent another
+    possible day.  The |/incorrect| variant type represent another day
+    that were historically considered as the day of the event.
 
-      year-end
+* Set data types
 
-        ends: The last day of the year the era was exited.
+A set data type represents a set of values.
 
-      year-start
+It is represented by a JSON object, where the object's names are the
+values.  The object's values may be any value and has no defined
+semantics.  Applications must ignore the object's values.
 
-        starts: The first day of the year the era was started.
+If the value is a JSON null value, or no value is specified, the set
+is empty.
+
+** The |tag ID set| data type
+
+A set data type.
+
+XXX
+
+** The |era ID set| data type
+
+A set data type of era IDs.
 
 * Segmented name data types
 

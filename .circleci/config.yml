@@ -1,11 +1,65 @@
 {
    "jobs" : {
-      "gaa4" : {
+      "build" : {
          "environment" : {
-            "CIRCLE_ARTIFACTS" : "/tmp/circle-artifacts"
+            "CIRCLE_ARTIFACTS" : "/tmp/circle-artifacts/build"
          },
          "machine" : {
-            "enabled" : true
+            "image" : "ubuntu-2004:202101-01"
+         },
+         "steps" : [
+            "checkout",
+            {
+               "run" : {
+                  "command" : "mkdir -p $CIRCLE_ARTIFACTS"
+               }
+            },
+            {
+               "run" : {
+                  "command" : "make test-deps"
+               }
+            },
+            {
+               "run" : {
+                  "command" : "make test"
+               }
+            },
+            {
+               "store_artifacts" : {
+                  "path" : "/tmp/circle-artifacts/build"
+               }
+            }
+         ]
+      },
+      "deploy_nightly" : {
+         "machine" : {
+            "image" : "ubuntu-2004:202101-01"
+         },
+         "steps" : [
+            "checkout",
+            {
+               "deploy" : {
+                  "command" : "git rev-parse HEAD > head.txt\u000Acurl -f -s -S --request POST --header \u0022Authorization:token $GITHUB_ACCESS_TOKEN\u0022 --header \u0022Content-Type:application/json\u0022 --data-binary \u0022{\u005C\u0022base\u005C\u0022:\u005C\u0022master\u005C\u0022,\u005C\u0022head\u005C\u0022:\u005C\u0022`cat head.txt`\u005C\u0022,\u005C\u0022commit_message\u005C\u0022:\u005C\u0022auto-merge $CIRCLE_BRANCH into master\u005C\u0022}\u0022 \u0022https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/merges\u0022 && curl -f https://$BWALL_TOKEN:@$BWALL_HOST/ping/merger.$CIRCLE_BRANCH/$CIRCLE_PROJECT_USERNAME%2F$CIRCLE_PROJECT_REPONAME -X POST"
+               }
+            }
+         ]
+      },
+      "deploy_staging" : {
+         "machine" : {
+            "image" : "ubuntu-2004:202101-01"
+         },
+         "steps" : [
+            "checkout",
+            {
+               "deploy" : {
+                  "command" : "git rev-parse HEAD > head.txt\u000Acurl -f -s -S --request POST --header \u0022Authorization:token $GITHUB_ACCESS_TOKEN\u0022 --header \u0022Content-Type:application/json\u0022 --data-binary \u0022{\u005C\u0022base\u005C\u0022:\u005C\u0022master\u005C\u0022,\u005C\u0022head\u005C\u0022:\u005C\u0022`cat head.txt`\u005C\u0022,\u005C\u0022commit_message\u005C\u0022:\u005C\u0022auto-merge $CIRCLE_BRANCH into master\u005C\u0022}\u0022 \u0022https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/merges\u0022 && curl -f https://$BWALL_TOKEN:@$BWALL_HOST/ping/merger.$CIRCLE_BRANCH/$CIRCLE_PROJECT_USERNAME%2F$CIRCLE_PROJECT_REPONAME -X POST"
+               }
+            }
+         ]
+      },
+      "gaa4" : {
+         "machine" : {
+            "image" : "ubuntu-2004:202101-01"
          },
          "steps" : [
             "checkout",
@@ -26,7 +80,7 @@
             },
             {
                "deploy" : {
-                  "command" : "git commit -m auto"
+                  "command" : "git diff-index --quiet HEAD --cached || git commit -m auto"
                }
             },
             {
@@ -39,6 +93,45 @@
    },
    "version" : 2,
    "workflows" : {
+      "build" : {
+         "jobs" : [
+            "build",
+            {
+               "deploy_nightly" : {
+                  "context" : [
+                     "deploy-context"
+                  ],
+                  "filters" : {
+                     "branches" : {
+                        "only" : [
+                           "nightly"
+                        ]
+                     }
+                  },
+                  "requires" : [
+                     "build"
+                  ]
+               }
+            },
+            {
+               "deploy_staging" : {
+                  "context" : [
+                     "deploy-context"
+                  ],
+                  "filters" : {
+                     "branches" : {
+                        "only" : [
+                           "staging"
+                        ]
+                     }
+                  },
+                  "requires" : [
+                     "build"
+                  ]
+               }
+            }
+         ]
+      },
       "gaa4" : {
          "jobs" : [
             "gaa4"
@@ -46,11 +139,11 @@
          "triggers" : [
             {
                "schedule" : {
-                  "cron" : "52 14 * * *",
+                  "cron" : "43 13 * * *",
                   "filters" : {
                      "branches" : {
                         "only" : [
-                           "staging"
+                           "master"
                         ]
                      }
                   }

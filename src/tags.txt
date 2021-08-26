@@ -1,86 +1,9 @@
-country
-  key 日本国
-  label_ja 日本国 (現代)
-  label_en Japan (Modern)
-  name_ja 日本国
-  name_ja 日本國
-  name_ja 日本
-  name_en Japan
-  ## S22(1947).11.3 - now
-
-  period of 日本
-
-country
-  key 大日本帝国
-  label_ja 大日本帝国 (明治-昭和初期)
-  name_ja 大日本帝國
-  name_ja 大日本帝国
-  name_ja 日本国
-  name_ja 日本
-  ## 慶応3.12.9 - S22.11.2
-
-  period of 日本
-  region of 大東亜共栄圏
-
-country
-  key 日本北朝
-  label_ja 北朝 (日本)
-  name_ja 北朝
-
-  period of 日本
-
-country
-  key 日本南朝
-  label_ja 南朝 (日本)
-  name_ja 南朝
-
-  period of 日本
-
-country
-  name_ja 日本
-  name_ja 日本国
-  name_en Japan
-
 region
-  label_ja 日本国埼玉県
-  region of 日本国
-
-region
-  label_ja 大日本帝国埼玉県秩父郡
-  name_ja 秩父郡
-  region of 日本国埼玉県
-
-region
-  label_ja 日本国鳥取県
-  name_ja 鳥取県
-  name 鳥取
-  region of 日本国
-
-region
-  label_ja 日本国福岡県
-  name_ja 福岡県
-  name 福岡
-  region of 日本国
-
-region
-  label_ja 日本国大分県
-  name_ja 大分県
-  name_ja 大分
-  region of 日本国
-
-region
-  name_ja 司王国
-  region of 日本国
-
-region
-  name_ja 新邪馬台国
-  region of 日本国大分県
+  name_ja トルキスタン
 
 region
   name_ja ウイグル
-
-region
-  name_ja チベット
+  region of トルキスタン
 
 region
   name_ja 露領シベリア
@@ -154,9 +77,22 @@ country
   name_ja 米国
   name_ja アメリカ
 
+country
+  name_ja オランダ
+
+country
+  name_ja スペイン
+
+country
+  name_ja ポルトガル
+
+region
+  name_ja 南洋群島
+
 region
   name_ja 日本領南洋群島
   region of 大日本帝国
+  period of 南洋群島
 
 country
   name_ja ブラジル
@@ -182,9 +118,6 @@ people
 
 people
   name_ja 朝鮮人
-
-people
-  name_ja チベット人
 
 people
   name_ja ウイグル人
@@ -270,6 +203,9 @@ person
   name_ja 芦原金次郎
 
 law
+  name_ja 条約
+
+law
   name_ja 登極令
 
 law
@@ -288,6 +224,77 @@ tag
   group of 天皇即位紀年
 
 tag
+  name_ja 王の即位紀年
+  group of 即位紀年
+
+action
+  name_ja 事由
+
+action
+  name_ja 即位決定
+
+action
+  name_ja 即位予定 (中止)
+
+action
+  name_ja 即位
+
+action
+  name_ja 建元前の即位
+  group of 事由
+  group of 即位
+
+action
+  name_ja 退位
+
+action
+  name_ja 死去
+
+action
+  name_ja 改元前の死去
+  group of 事由
+  group of 死去
+
+action
+  name_ja 改元前の退位
+  group of 事由
+
+action
+  name_ja 改元実施日前死去
+  group of 事由
+  group of 死去
+
+action
+  name_ja 改元実施日前退位
+  group of 事由
+
+action
+  name_ja 元号名変更
+
+action
+  name_ja 勢力統合
+  group of 事由
+
+action
+  name_ja 捕縛
+  group of 事由
+
+action
+  name_ja 政変
+  group of 事由
+
+tag
+  name_ja 君主
+
+tag
+  name_ja 王
+  group of 君主
+
+tag
+  name_ja 皇帝
+  group of 君主
+
+tag
   name_ja 公年号
 tag
   name_ja 日本の公年号
@@ -298,6 +305,9 @@ tag
 tag
   name_ja 日本南朝の公年号
   group of 日本の公年号
+tag
+  name_ja 日本の公年号 (南北朝を除く)
+  group of 日本の公年号
 
 tag
   name_ja 日本の私年号
@@ -306,22 +316,155 @@ tag
   name_ja 一世一元
 
 tag
+  name_ja 重祚各一元
+
+tag
   name_ja 追号説のある元号
 
 tag
   name_ja 君主名の元号
 
-tag
-  name_ja 再開
+action
+  name_ja 発表
+
+action
+  name_ja 制定
+
+action
+  name_ja 利用開始
+
+action
+  name_ja 発生
+  group of 利用開始
 
 tag
+  name_ja 適用開始前日
+
+action
+  name_ja 適用開始予定
+
+action
+  name_ja 適用開始
+  group of 適用開始予定
+
+action
+  name_ja 適用開始 (中止)
+  group of 適用開始予定
+
+action
+  name_ja 適用開始日
+  group of 適用開始
+
+action
+  name_ja 改元日
+
+action
+  name_ja 通知発出
+
+action
+  name_ja 旧制度禁止命令
+  group of 通知発出
+
+action
+  name_ja 通知受領
+
+action
+  name_ja 外国通告
+  group of 通知発出
+
+action
+  name_ja 年始改元決定
+  group of 制定
+
+action
+  name_ja 年始改元実施
+  group of 適用開始日
+  group of 年始改元実施予定
+  group of 年始
+
+action
+  name_ja 年始改元実施予定
+  group of 適用開始予定
+  group of 年始
+
+action
+  name_ja 年始改元実施予定 (中止)
+  group of 年始改元実施予定
+  group of 適用開始 (中止)
+
+action
+  name_ja 月始改元決定
+  group of 制定
+
+action
+  name_ja 月始改元実施
+  group of 適用開始日
+
+action
+  name_ja 再開
+  group of 適用開始日
+
+action
   name_ja 実施中止
 
-tag
+action
   name_ja 建元撤回
 
-tag
+action
   name_ja 建元撤回撤回
+
+action
+  name_ja 新規称元
+
+action
+  name_ja 新規建元
+  group of 新規称元
+
+action
+  name_ja 即位紀年から改元建元
+  group of 新規建元
+
+action
+  name_ja 行政異動
+
+action
+  name_ja 租借地返還
+  group of 行政異動
+
+action
+  name_ja 戦時異動
+
+action
+  name_ja 進攻
+
+action
+  name_ja 蜂起
+  group of 事由
+
+action
+  name_ja 建国
+
+action
+  name_ja 消滅
+  group of 戦時異動
+
+action
+  name_ja 起事建元
+
+action
+  name_ja 建元不承認
+
+action
+  name_ja 国名変更
+
+action
+  name_ja 陥落
+  group of 進攻
+  group of 戦時異動
+
+action
+  name_ja 撤退
+  group of 戦時異動
 
 tag
   name_ja 前元
@@ -332,3 +475,51 @@ tag
 tag
   name_ja 後元
 
+tag
+  name_ja 異説
+
+tag
+  name_ja 旧説
+  group of 異説
+
+tag
+  name_ja 年始
+
+tag
+  name_ja 初年始
+  group of 年始
+
+tag
+  name_ja 初年前日
+  group of 年末
+
+tag
+  name_ja 天皇即位元年年始
+  group of 初年始
+
+tag
+  name_ja 年末
+
+tag
+  name_ja 末年末
+  group of 年末
+
+tag
+  name_ja 末年翌日
+  group of 年始
+
+calendar
+  name_ja グレゴリオ暦
+
+tag
+  name_ja 建国紀元
+
+tag
+  name_ja 風刺
+
+tag
+  name_ja 元号
+
+tag
+  name_ja マイクロネーションの元号
+  group of 元号

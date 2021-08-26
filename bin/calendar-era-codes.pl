@@ -19,21 +19,26 @@ my $cols = [
   {key => 'key', type => 'key', info => 1},
   {key => 'abbr', type => 'text', label => '#7 (abbr)', id => 7},
   {key => 'abbr_latn', type => 'text', label => '#2 (abbr_latn)', id => 2},
-  {key => 'id', type => 'int', label => '#8 (id)', info => 1, id => 8},
+  {key => 'id', type => 'id', label => '#8 (id)', info => 1, id => 8},
   {key => 'code1', type => 'int', id => 1},
   {key => 'code17', type => 'int', id => 1},
   {key => 'code16', type => 'int', id => 1},
   {key => 'code4', type => 'int', id => 4},
   {key => 'code5', type => 'int', id => 5},
+  {key => 'code20', type => 'int', id => 20},
   {key => 'code6', type => 'int', id => 6},
   {key => 'code9', type => 'int', id => 9},
   {key => 'code15', type => 'code', label => '#15 (森本)', id => 15},
   {key => 'code14', type => 'int', label => '#14 (所)', id => 14},
   {key => 'code10', type => 'int', label => '#10 (CLDR)', id => 10},
-  {key => 'unicode', label => 'Unicode', type => 'unicode', id => 3},
-  {key => 'code11', label => 'AJ1 (横)', type => 'int', id => 11},
-  {key => 'code12', label => 'AJ1 (縦)', type => 'int', id => 12},
-  {key => 'code13', label => 'SJIS', type => 'hex', id => 13},
+  {key => 'code24', type => 'int', label => '#24', id => 24},
+  {key => 'unicode', label => '#3 (Unicode)', type => 'unicode', id => 3},
+  {key => 'code11', label => '#11 (AJ1 横)', type => 'int', id => 11},
+  {key => 'code12', label => '#12 (AJ1 縦)', type => 'int', id => 12},
+  {key => 'code13', label => '#13 (SJIS)', type => 'hex', id => 13},
+  {key => 'code21', label => '#21 (Mac)', type => 'hex', id => 21},
+  {key => 'code22', label => '#22 (JIS)', type => 'text', id => 22},
+  {key => 'code23', label => '#23 (IBM)', type => 'hex', id => 23},
 ];
 
 my $rows = [];
@@ -52,7 +57,7 @@ ERA: for my $era (values %{$json->{eras}}) {
   $rows = [sort {
     ($a->[0] || $a->[1] || $a->[2] || 99999) <=> ($b->[0] || $b->[1] || $b->[2] || 99999) ||
     $a->[14] <=> $b->[14] || # 14
-    $a->[7] <=> $b->[7]; # #8
+    $a->[7] <=> $b->[7]; # #8 (era ID)
   } @$rows];
 }
 
@@ -64,7 +69,11 @@ Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
 extent possible under law, the author of this document has waived all
 copyright and related or neighboring rights to this document.
 
---><h1>Era codes</h1><table><thead><tr><tbody></table>});
+--><h1>Era codes</h1>
+
+<p>[<a href=https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7%E3%82%B3%E3%83%BC%E3%83%89>Notes</a>]</p>
+
+<table><thead><tr><tbody></table>});
 
 {
   my $tr = $doc->query_selector ('thead tr');
@@ -112,6 +121,11 @@ copyright and related or neighboring rights to this document.
           my $e = $doc->create_element ('a');
           $e->href ('https://data.suikawiki.org/era/' . percent_encode_c $row->[$_]);
           $e->text_content ($row->[$_]);
+          $td->append_child ($e);
+        } elsif ($cols->[$_]->{type} eq 'id') {
+          my $e = $doc->create_element ('a');
+          $e->href ('https://data.suikawiki.org/e/' . (percent_encode_c $row->[$_]) . '/');
+          $e->text_content ('y~'.$row->[$_]);
           $td->append_child ($e);
         } else {
           my $e = $doc->create_element ({
