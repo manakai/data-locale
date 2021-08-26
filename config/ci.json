@@ -1,11 +1,7 @@
 {
-  "travisci": {
-    "merger": true,
-    "pmbp": "latest",
-    "notifications": "suika"
-  },
   "circleci": {
-    "empty": true,
+    "pmbp": "latest",
+    "merger": true,
     "gaa": true
   }
 }
