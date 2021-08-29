@@ -855,9 +855,6 @@
   u 16
     # 暦書
 
-  e 16-12 青ヶ島
-    # <http://yamaiga.com/road/tpr236_seihou/main10.html>
-
   # [54]
   #u 
   u 16
