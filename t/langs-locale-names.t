@@ -9,7 +9,7 @@ test() {
 
 test 1 '.tags.en.cldr == "en"'
 test 2 '.tags["en-gb"].ms == "2057"'
-test 3 '.tags["en-za"].firefox == "en-ZA"'
+test 3 '.tags["en-ca"].firefox == "en-CA"'
 test 4 '.tags.und.cldr == "root"'
 test 5 '.tags["ja-jp-u-ca-japanese"].java == "ja_JP_JP"'
 test 6 '.tags["zh-hk"].mediawiki | not | not'
