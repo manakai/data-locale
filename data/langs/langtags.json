@@ -1,6 +1,6 @@
 {
    "_ext_file_date" : "2014-04-02",
-   "_file_date" : "2021-02-16",
+   "_file_date" : "2021-08-06",
    "extension" : {
       "t" : {
          "Comments" : [
@@ -904,6 +904,19 @@
             "iana" : 1
          }
       },
+      "csx" : {
+         "Description" : [
+            "Cambodian Sign Language"
+         ],
+         "Prefix" : [
+            "sgn"
+         ],
+         "_added" : "2021-02-20",
+         "_preferred" : "csx",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "czh" : {
          "Description" : [
             "Huizhou Chinese"
@@ -994,6 +1007,19 @@
          ],
          "_added" : "2009-07-29",
          "_preferred" : "ecs",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "ehs" : {
+         "Description" : [
+            "Miyakubo Sign Language"
+         ],
+         "Prefix" : [
+            "sgn"
+         ],
+         "_added" : "2021-02-20",
+         "_preferred" : "ehs",
          "_registry" : {
             "iana" : 1
          }
@@ -1516,6 +1542,19 @@
             "iana" : 1
          }
       },
+      "jks" : {
+         "Description" : [
+            "Amami Koniya Sign Language"
+         ],
+         "Prefix" : [
+            "sgn"
+         ],
+         "_added" : "2021-02-20",
+         "_preferred" : "jks",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "jls" : {
          "Description" : [
             "Jamaican Sign Language"
@@ -1715,6 +1754,20 @@
          ],
          "_added" : "2009-07-29",
          "_preferred" : "lls",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "lsb" : {
+         "Description" : [
+            "Burundian Sign Language",
+            "Langue des Signes Burundaise"
+         ],
+         "Prefix" : [
+            "sgn"
+         ],
+         "_added" : "2021-02-20",
+         "_preferred" : "lsb",
          "_registry" : {
             "iana" : 1
          }
@@ -2640,6 +2693,19 @@
             "iana" : 1
          }
       },
+      "sqx" : {
+         "Description" : [
+            "Kufr Qassem Sign Language (KQSL)"
+         ],
+         "Prefix" : [
+            "sgn"
+         ],
+         "_added" : "2021-02-20",
+         "_preferred" : "sqx",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "ssh" : {
          "Description" : [
             "Shihhi Arabic"
@@ -3160,6 +3226,19 @@
          ],
          "_added" : "2009-07-29",
          "_preferred" : "ysl",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "ysm" : {
+         "Description" : [
+            "Myanmar Sign Language"
+         ],
+         "Prefix" : [
+            "sgn"
+         ],
+         "_added" : "2021-02-20",
+         "_preferred" : "ysm",
          "_registry" : {
             "iana" : 1
          }
@@ -6787,6 +6866,15 @@
             "iana" : 1
          }
       },
+      "aqk" : {
+         "Description" : [
+            "Aninka"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "aql" : {
          "Description" : [
             "Algic languages"
@@ -10385,6 +10473,8 @@
             "Bikaru"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "bir",
          "_registry" : {
             "iana" : 1
          }
@@ -10426,10 +10516,14 @@
          }
       },
       "bij" : {
+         "Comments" : [
+            "see dkg, jbm, tyy"
+         ],
          "Description" : [
             "Vaghat-Ya-Bijim-Legeri"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -11104,6 +11198,8 @@
             "Balau"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "iba",
          "_registry" : {
             "iana" : 1
          }
@@ -12002,6 +12098,15 @@
             "Banda-Banda"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "bpe" : {
+         "Description" : [
+            "Bauni"
+         ],
+         "_added" : "2021-02-20",
          "_registry" : {
             "iana" : 1
          }
@@ -17203,6 +17308,15 @@
             "iana" : 1
          }
       },
+      "csx" : {
+         "Description" : [
+            "Cambodian Sign Language"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "csy" : {
          "Description" : [
             "Siyin Chin"
@@ -17344,6 +17458,15 @@
             "Chol"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "cty" : {
+         "Description" : [
+            "Moundadan Chetty"
+         ],
+         "_added" : "2021-02-20",
          "_registry" : {
             "iana" : 1
          }
@@ -19123,6 +19246,15 @@
             "iana" : 1
          }
       },
+      "dkg" : {
+         "Description" : [
+            "Kadung"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "dkk" : {
          "Description" : [
             "Dakka"
@@ -20787,6 +20919,15 @@
             "iana" : 1
          }
       },
+      "ehs" : {
+         "Description" : [
+            "Miyakubo Sign Language"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "ehu" : {
          "Description" : [
             "Ehueun"
@@ -21130,6 +21271,15 @@
             "iana" : 1
          }
       },
+      "emq" : {
+         "Description" : [
+            "Eastern Minyag"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "ems" : {
          "Description" : [
             "Pacific Gulf Yupik"
@@ -21171,6 +21321,15 @@
             "Epigraphic Mayan"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "emz" : {
+         "Description" : [
+            "Mbessa"
+         ],
+         "_added" : "2021-02-20",
          "_registry" : {
             "iana" : 1
          }
@@ -23962,6 +24121,15 @@
             "iana" : 1
          }
       },
+      "gii" : {
+         "Description" : [
+            "Girirra"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "gil" : {
          "Description" : [
             "Gilbertese"
@@ -24093,10 +24261,14 @@
          }
       },
       "gji" : {
+         "Comments" : [
+            "see gyz, zbu"
+         ],
          "Description" : [
             "Geji"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -24220,6 +24392,15 @@
             "iana" : 1
          },
          "_suppress" : "latn"
+      },
+      "glb" : {
+         "Description" : [
+            "Belning"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
       },
       "glc" : {
          "Description" : [
@@ -25936,6 +26117,16 @@
             "iana" : 1
          }
       },
+      "gyz" : {
+         "Description" : [
+            "Geji",
+            "Gyaazi"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "gza" : {
          "Description" : [
             "Ganza"
@@ -26577,6 +26768,16 @@
             "Hunde"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "hkh" : {
+         "Description" : [
+            "Khah",
+            "Poguli"
+         ],
+         "_added" : "2021-02-20",
          "_registry" : {
             "iana" : 1
          }
@@ -29814,6 +30015,15 @@
             "iana" : 1
          }
       },
+      "jbm" : {
+         "Description" : [
+            "Bijim"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "jbn" : {
          "Description" : [
             "Nafusi"
@@ -30108,7 +30318,7 @@
       },
       "jid" : {
          "Description" : [
-            "Bu"
+            "Bu (Kaduna State)"
          ],
          "_added" : "2009-07-29",
          "_registry" : {
@@ -30285,6 +30495,15 @@
             "Koro (India)"
          ],
          "_added" : "2012-08-12",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "jks" : {
+         "Description" : [
+            "Amami Koniya Sign Language"
+         ],
+         "_added" : "2021-02-20",
          "_registry" : {
             "iana" : 1
          }
@@ -30603,7 +30822,7 @@
       },
       "jrt" : {
          "Description" : [
-            "Jorto"
+            "Jakattoe"
          ],
          "_added" : "2009-07-29",
          "_registry" : {
@@ -34184,7 +34403,7 @@
       },
       "koe" : {
          "Description" : [
-            "Kacipo-Balesi"
+            "Kacipo-Bale Suri"
          ],
          "_added" : "2009-07-29",
          "_registry" : {
@@ -39561,6 +39780,16 @@
             "iana" : 1
          }
       },
+      "lsb" : {
+         "Description" : [
+            "Burundian Sign Language",
+            "Langue des Signes Burundaise"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "lsd" : {
          "Description" : [
             "Lishana Deni"
@@ -40155,6 +40384,15 @@
             "Lewo"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "lxm" : {
+         "Description" : [
+            "Lakurumau"
+         ],
+         "_added" : "2021-02-20",
          "_registry" : {
             "iana" : 1
          }
@@ -45178,10 +45416,14 @@
          }
       },
       "mvm" : {
+         "Comments" : [
+            "see emq, wmg"
+         ],
          "Description" : [
             "Muya"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -47581,10 +47823,14 @@
          }
       },
       "ngo" : {
+         "Comments" : [
+            "see xnj, xnq"
+         ],
          "Description" : [
             "Ngoni"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -49566,6 +49812,15 @@
             "iana" : 1
          }
       },
+      "nqt" : {
+         "Description" : [
+            "Nteng"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "nqy" : {
          "Description" : [
             "Akyaung Ari Naga"
@@ -51079,6 +51334,15 @@
             "iana" : 1
          }
       },
+      "ocm" : {
+         "Description" : [
+            "Old Cham"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "oco" : {
          "Description" : [
             "Old Cornish"
@@ -51348,6 +51612,15 @@
             "iana" : 1
          }
       },
+      "okc" : {
+         "Description" : [
+            "Kobo"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "okd" : {
          "Description" : [
             "Okodia"
@@ -51489,6 +51762,15 @@
             "Okpe (Northwestern Edo)"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "okz" : {
+         "Description" : [
+            "Old Khmer"
+         ],
+         "_added" : "2021-02-20",
          "_registry" : {
             "iana" : 1
          }
@@ -51752,6 +52034,15 @@
             "Old Mon"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "omy" : {
+         "Description" : [
+            "Old Malay"
+         ],
+         "_added" : "2021-02-20",
          "_registry" : {
             "iana" : 1
          }
@@ -52195,6 +52486,15 @@
             "Osing"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "osn" : {
+         "Description" : [
+            "Old Sundanese"
+         ],
+         "_added" : "2021-02-20",
          "_registry" : {
             "iana" : 1
          }
@@ -52722,6 +53022,8 @@
             "Papitalai"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "kxr",
          "_registry" : {
             "iana" : 1
          }
@@ -54463,6 +54765,7 @@
       },
       "png" : {
          "Description" : [
+            "Pangu",
             "Pongu"
          ],
          "_added" : "2009-07-29",
@@ -64158,6 +64461,15 @@
             "iana" : 1
          }
       },
+      "rwl" : {
+         "Description" : [
+            "Ruwila"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "rwm" : {
          "Description" : [
             "Amba (Uganda)"
@@ -67671,6 +67983,15 @@
             "iana" : 1
          }
       },
+      "sqx" : {
+         "Description" : [
+            "Kufr Qassem Sign Language (KQSL)"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "sr" : {
          "Comments" : [
             "see cnr for Montenegrin"
@@ -68460,8 +68781,18 @@
             "iana" : 1
          }
       },
+      "suo" : {
+         "Description" : [
+            "Bouni"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "suq" : {
          "Description" : [
+            "Tirmaga-Chai Suri",
             "Suri"
          ],
          "_added" : "2009-07-29",
@@ -74105,6 +74436,15 @@
             "iana" : 1
          }
       },
+      "tyy" : {
+         "Description" : [
+            "Tiyaa"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "tyz" : {
          "Description" : [
             "Tày"
@@ -74858,6 +75198,15 @@
             "Ngarinyin"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "uni" : {
+         "Description" : [
+            "Uni"
+         ],
+         "_added" : "2021-02-20",
          "_registry" : {
             "iana" : 1
          }
@@ -75789,10 +76138,14 @@
          }
       },
       "vki" : {
+         "Comments" : [
+            "see vkn, vkz"
+         ],
          "Description" : [
             "Ija-Zuba"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -75834,6 +76187,15 @@
             "iana" : 1
          }
       },
+      "vkn" : {
+         "Description" : [
+            "Koro Nulu"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "vko" : {
          "Description" : [
             "Kodeoha"
@@ -75867,6 +76229,15 @@
             "Kurrama"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "vkz" : {
+         "Description" : [
+            "Koro Zuba"
+         ],
+         "_added" : "2021-02-20",
          "_registry" : {
             "iana" : 1
          }
@@ -76304,7 +76675,8 @@
       },
       "wad" : {
          "Description" : [
-            "Wandamen"
+            "Wamesa",
+            "Wondama"
          ],
          "_added" : "2009-07-29",
          "_registry" : {
@@ -77464,6 +77836,15 @@
             "iana" : 1
          }
       },
+      "wmg" : {
+         "Description" : [
+            "Western Minyag"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "wmh" : {
          "Description" : [
             "Waima'a"
@@ -77836,10 +78217,14 @@
          }
       },
       "wra" : {
+         "Comments" : [
+            "see bpe, suo, uni"
+         ],
          "Description" : [
             "Warapu"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -79953,6 +80338,15 @@
             "iana" : 1
          }
       },
+      "xnj" : {
+         "Description" : [
+            "Ngoni (Tanzania)"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "xnk" : {
          "Description" : [
             "Nganakarti"
@@ -79985,6 +80379,15 @@
             "Anglo-Norman"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "xnq" : {
+         "Description" : [
+            "Ngoni (Mozambique)"
+         ],
+         "_added" : "2021-02-20",
          "_registry" : {
             "iana" : 1
          }
@@ -83066,6 +83469,15 @@
             "iana" : 1
          }
       },
+      "ysm" : {
+         "Description" : [
+            "Myanmar Sign Language"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "ysn" : {
          "Description" : [
             "Sani"
@@ -83875,6 +84287,15 @@
             "iana" : 1
          }
       },
+      "zbu" : {
+         "Description" : [
+            "Bu (Bauchi State)"
+         ],
+         "_added" : "2021-02-20",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "zbw" : {
          "Description" : [
             "West Berawan"
@@ -84283,6 +84704,15 @@
             "Khazar"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "zla" : {
+         "Description" : [
+            "Zula"
+         ],
+         "_added" : "2021-02-20",
          "_registry" : {
             "iana" : 1
          }
@@ -91987,6 +92417,16 @@
             "iana" : 1
          }
       },
+      "tnsa" : {
+         "Description" : [
+            "Tangsa"
+         ],
+         "_added" : "2021-03-05",
+         "_canon" : "_titlecase",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "toto" : {
          "Description" : [
             "Toto"
@@ -92022,6 +92462,16 @@
             "Visible Speech"
          ],
          "_added" : "2005-10-16",
+         "_canon" : "_titlecase",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "vith" : {
+         "Description" : [
+            "Vithkuqi"
+         ],
+         "_added" : "2021-03-05",
          "_canon" : "_titlecase",
          "_registry" : {
             "iana" : 1
@@ -97287,6 +97737,14 @@
             "unicode" : 1
          }
       },
+      "tnsa" : {
+         "Description" : [
+            "Tangsa digits"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "traditio" : {
          "Description" : [
             "Traditional numerals — may be algorithmic"
@@ -97339,6 +97797,14 @@
       }
    },
    "u_tz" : {
+      "acre" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "adalv" : {
          "Description" : [
             "Andorra"
@@ -97355,9 +97821,49 @@
             "unicode" : 1
          }
       },
+      "afce" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "afea" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "afgh" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "afkbl" : {
          "Description" : [
             "Kabul, Afghanistan"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "afso" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "afwe" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -97379,6 +97885,22 @@
             "unicode" : 1
          }
       },
+      "alam" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "alas" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "altia" : {
          "Description" : [
             "Tirane, Albania"
@@ -97387,9 +97909,57 @@
             "unicode" : 1
          }
       },
+      "amaz" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "amce" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "amea" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "amevn" : {
          "Description" : [
             "Yerevan, Armenia"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "ammo" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "ampa" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "anad" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -97406,6 +97976,14 @@
       "aolad" : {
          "Description" : [
             "Luanda, Angola"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "apia" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -97485,6 +98063,22 @@
             "unicode" : 1
          }
       },
+      "aqta" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "aqto" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "aqtrl" : {
          "Description" : [
             "Troll Station, Queen Maud Land"
@@ -97496,6 +98090,14 @@
       "aqvos" : {
          "Description" : [
             "Vostok Station, Lake Vostok"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "arab" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -97520,6 +98122,14 @@
       "arctc" : {
          "Description" : [
             "Catamarca, Argentina"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "arge" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -97552,6 +98162,14 @@
       "armdz" : {
          "Description" : [
             "Mendoza, Argentina"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "arme" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -97597,9 +98215,25 @@
             "unicode" : 1
          }
       },
+      "arwe" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "asppg" : {
          "Description" : [
             "Pago Pago, American Samoa"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "atla" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -97637,9 +98271,33 @@
             "unicode" : 1
          }
       },
+      "auce" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "aucw" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "audrw" : {
          "Description" : [
             "Darwin, Australia"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "auea" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -97717,6 +98375,14 @@
             "unicode" : 1
          }
       },
+      "auwe" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "awaua" : {
          "Description" : [
             "Aruba"
@@ -97728,6 +98394,30 @@
       "azbak" : {
          "Description" : [
             "Baku, Azerbaijan"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "azer" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "azor" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "bang" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -97789,6 +98479,14 @@
             "unicode" : 1
          }
       },
+      "bhut" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "bibjm" : {
          "Description" : [
             "Bujumbura, Burundi"
@@ -97821,6 +98519,14 @@
             "unicode" : 1
          }
       },
+      "boli" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "bolpb" : {
          "Description" : [
             "La Paz, Bolivia"
@@ -97832,6 +98538,14 @@
       "bqkra" : {
          "Description" : [
             "Bonaire, Sint Estatius and Saba"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "bras" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -97960,6 +98674,14 @@
       "brstm" : {
          "Description" : [
             "Santarém, Brazil"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "brun" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -98118,6 +98840,14 @@
             "unicode" : 1
          }
       },
+      "case" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "casjf" : {
          "Description" : [
             "St. John's, Canada"
@@ -98145,6 +98875,14 @@
       "cavan" : {
          "Description" : [
             "Vancouver, Canada"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "cave" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -98278,6 +99016,54 @@
             "unicode" : 1
          }
       },
+      "cham" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "chat" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "chil" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "chin" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "choi" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "chri" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "chzrh" : {
          "Description" : [
             "Zurich, Switzerland"
@@ -98388,6 +99174,30 @@
             "unicode" : 1
          }
       },
+      "coco" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "colo" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "cook" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "crsjo" : {
          "Description" : [
             "Costa Rica"
@@ -98399,6 +99209,14 @@
       "cst6cdt" : {
          "Description" : [
             "POSIX style time zone for US Central Time"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "cuba" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -98452,6 +99270,14 @@
             "unicode" : 1
          }
       },
+      "davi" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "deber" : {
          "Description" : [
             "Berlin, Germany"
@@ -98500,9 +99326,33 @@
             "unicode" : 1
          }
       },
+      "dumo" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "dzalg" : {
          "Description" : [
             "Algiers, Algeria"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "east" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "eati" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -98519,6 +99369,14 @@
       "ecgye" : {
          "Description" : [
             "Guayaquil, Ecuador"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "ecua" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -98596,9 +99454,57 @@
             "unicode" : 1
          }
       },
+      "euce" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "euea" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "eufe" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "euwe" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "falk" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "fihel" : {
          "Description" : [
             "Helsinki, Finland"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "fiji" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -98660,9 +99566,33 @@
             "unicode" : 1
          }
       },
+      "frgu" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "frpar" : {
          "Description" : [
             "Paris, France"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "frso" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "gala" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -98676,7 +99606,24 @@
             "unicode" : 1
          }
       },
+      "gamb" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "gaza" : {
+         "Description" : [
+            "Gaza Strip, Palestinian Territories"
+         ],
+         "_deprecated" : 1,
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "gazastrp" : {
          "Description" : [
             "Gaza Strip, Palestinian Territories"
          ],
@@ -98695,6 +99642,14 @@
       "gdgnd" : {
          "Description" : [
             "Grenada"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "geor" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -98735,6 +99690,14 @@
       "gigib" : {
          "Description" : [
             "Gibraltar"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "giis" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -98836,6 +99799,22 @@
             "unicode" : 1
          }
       },
+      "grea" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "grwe" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "gsgrv" : {
          "Description" : [
             "South Georgia and the South Sandwich Islands"
@@ -98852,9 +99831,33 @@
             "unicode" : 1
          }
       },
+      "guam" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "gugum" : {
          "Description" : [
             "Guam"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "gulf" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "guya" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -98871,6 +99874,14 @@
       "gygeo" : {
          "Description" : [
             "Guyana"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "haal" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -98895,6 +99906,22 @@
       "hntgu" : {
          "Description" : [
             "Tegucigalpa, Honduras"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "hoko" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "hovd" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -98980,6 +100007,54 @@
             "unicode" : 1
          }
       },
+      "ince" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "indi" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "indo" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "inea" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "inoc" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "inwe" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "iodga" : {
          "Description" : [
             "Chagos Archipelago"
@@ -98996,9 +100071,33 @@
             "unicode" : 1
          }
       },
+      "iran" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "irku" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "irthr" : {
          "Description" : [
             "Tehran, Iran"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "isra" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -99015,6 +100114,14 @@
       "itrom" : {
          "Description" : [
             "Rome, Italy"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "japa" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -99055,6 +100162,30 @@
       "jptyo" : {
          "Description" : [
             "Tokyo, Japan"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "kaea" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "kamc" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "kawe" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -99124,9 +100255,33 @@
             "unicode" : 1
          }
       },
+      "kore" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "kosr" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "kpfnj" : {
          "Description" : [
             "Pyongyang, North Korea"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "kras" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -99151,6 +100306,14 @@
       "kygec" : {
          "Description" : [
             "Cayman Islands"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "kyrg" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -99212,6 +100375,14 @@
             "unicode" : 1
          }
       },
+      "lank" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "lavte" : {
          "Description" : [
             "Vientiane, Laos"
@@ -99236,6 +100407,14 @@
             "unicode" : 1
          }
       },
+      "liis" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "livdz" : {
          "Description" : [
             "Vaduz, Liechtenstein"
@@ -99247,6 +100426,14 @@
       "lkcmb" : {
          "Description" : [
             "Colombo, Sri Lanka"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "loho" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -99300,9 +100487,81 @@
             "unicode" : 1
          }
       },
+      "maca" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "macas" : {
          "Description" : [
             "Casablanca, Morocco"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "macq" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "maga" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "mais" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "mala" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "mald" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "marq" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "maur" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "maws" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -99324,9 +100583,33 @@
             "unicode" : 1
          }
       },
+      "meno" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "mepa" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "metgd" : {
          "Description" : [
             "Podgorica, Montenegro"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "mgmt" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -99407,6 +100690,22 @@
       "momfm" : {
          "Description" : [
             "Macau SAR China"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "mong" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "mosc" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -99580,6 +100879,14 @@
             "unicode" : 1
          }
       },
+      "myan" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "mykch" : {
          "Description" : [
             "Kuching, Malaysia"
@@ -99604,6 +100911,14 @@
             "unicode" : 1
          }
       },
+      "naur" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "nawdh" : {
          "Description" : [
             "Windhoek, Namibia"
@@ -99620,9 +100935,41 @@
             "unicode" : 1
          }
       },
+      "neca" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "nenim" : {
          "Description" : [
             "Niamey, Niger"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "nepa" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "newf" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "neze" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -99652,6 +100999,14 @@
             "unicode" : 1
          }
       },
+      "niue" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "nlams" : {
          "Description" : [
             "Amsterdam, Netherlands"
@@ -99660,9 +101015,41 @@
             "unicode" : 1
          }
       },
+      "noma" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "noosl" : {
          "Description" : [
             "Oslo, Norway"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "norf" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "noro" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "novo" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -99716,6 +101103,38 @@
             "unicode" : 1
          }
       },
+      "omsk" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "paki" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "pala" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "pang" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "papty" : {
          "Description" : [
             "Panama"
@@ -99724,9 +101143,25 @@
             "unicode" : 1
          }
       },
+      "para" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "pelim" : {
          "Description" : [
             "Lima, Peru"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "peru" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -99772,9 +101207,41 @@
             "unicode" : 1
          }
       },
+      "phil" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "phis" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "phmnl" : {
          "Description" : [
             "Manila, Philippines"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "pimi" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "pitc" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -99807,6 +101274,14 @@
       "pnpcn" : {
          "Description" : [
             "Pitcairn Islands"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "pona" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -99868,9 +101343,25 @@
             "unicode" : 1
          }
       },
+      "pyon" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "qadoh" : {
          "Description" : [
             "Qatar"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "qyzy" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -99884,9 +101375,25 @@
             "unicode" : 1
          }
       },
+      "reun" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "robuh" : {
          "Description" : [
             "Bucharest, Romania"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "roth" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -100116,6 +101623,30 @@
             "unicode" : 1
          }
       },
+      "sakh" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "sama" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "samo" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "saruh" : {
          "Description" : [
             "Riyadh, Saudi Arabia"
@@ -100156,6 +101687,14 @@
             "unicode" : 1
          }
       },
+      "seyc" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "sgsin" : {
          "Description" : [
             "Singapore"
@@ -100175,6 +101714,14 @@
       "silju" : {
          "Description" : [
             "Ljubljana, Slovenia"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "sing" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -100220,6 +101767,22 @@
             "unicode" : 1
          }
       },
+      "soge" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "solo" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "somgq" : {
          "Description" : [
             "Mogadishu, Somalia"
@@ -100252,6 +101815,14 @@
             "unicode" : 1
          }
       },
+      "suri" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "svsal" : {
          "Description" : [
             "El Salvador"
@@ -100276,9 +101847,41 @@
             "unicode" : 1
          }
       },
+      "syow" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "szqmn" : {
          "Description" : [
             "Mbabane, Swaziland"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "tahi" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "taip" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "taji" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -100364,6 +101967,22 @@
             "unicode" : 1
          }
       },
+      "toke" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "tong" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "totbu" : {
          "Description" : [
             "Tongatapu, Tonga"
@@ -100380,9 +101999,33 @@
             "unicode" : 1
          }
       },
+      "truk" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "ttpos" : {
          "Description" : [
             "Port of Spain, Trinidad and Tobago"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "turk" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "tuva" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -100479,6 +102122,14 @@
       "unk" : {
          "Description" : [
             "Unknown time zone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "urug" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -100950,6 +102601,14 @@
             "unicode" : 1
          }
       },
+      "uzbe" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "uzskd" : {
          "Description" : [
             "Samarkand, Uzbekistan"
@@ -100961,6 +102620,14 @@
       "uztas" : {
          "Description" : [
             "Tashkent, Uzbekistan"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "vanu" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -100990,6 +102657,14 @@
             "unicode" : 1
          }
       },
+      "vene" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "vgtov" : {
          "Description" : [
             "Tortola, British Virgin Islands"
@@ -101006,6 +102681,14 @@
             "unicode" : 1
          }
       },
+      "vlad" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "vnsgn" : {
          "Description" : [
             "Ho Chi Minh City, Vietnam"
@@ -101014,9 +102697,41 @@
             "unicode" : 1
          }
       },
+      "volg" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "vost" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "vuvli" : {
          "Description" : [
             "Efate, Vanuatu"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "wake" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "wall" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -101038,9 +102753,25 @@
             "unicode" : 1
          }
       },
+      "yaku" : {
+         "Description" : [
+            "Metazone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "yeade" : {
          "Description" : [
             "Aden, Yemen"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "yeka" : {
+         "Description" : [
+            "Metazone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -101642,6 +103373,18 @@
             "iana" : 1
          }
       },
+      "gallo" : {
+         "Description" : [
+            "Gallo"
+         ],
+         "Prefix" : [
+            "fr"
+         ],
+         "_added" : "2021-08-05",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "gascon" : {
          "Comments" : [
             "Occitan variant spoken in Gascony"
@@ -101665,6 +103408,16 @@
             "Classical Occitan orthography"
          ],
          "Prefix" : [
+            "oc-lengadoc",
+            "oc-vivaraup",
+            "oc-lemosin",
+            "oc-provenc",
+            "oc-aranes",
+            "oc-auvern",
+            "oc-cisaup",
+            "oc-creiss",
+            "oc-gascon",
+            "oc-nicard",
             "oc"
          ],
          "_added" : "2018-04-22",
@@ -101677,6 +103430,9 @@
             "Italian-inspired Occitan orthography"
          ],
          "Prefix" : [
+            "oc-provenc",
+            "oc-cisaup",
+            "oc-nicard",
             "oc"
          ],
          "_added" : "2018-04-22",
@@ -101692,6 +103448,16 @@
             "Mistralian or Mistralian-inspired Occitan orthography"
          ],
          "Prefix" : [
+            "oc-lengadoc",
+            "oc-vivaraup",
+            "oc-lemosin",
+            "oc-provenc",
+            "oc-aranes",
+            "oc-auvern",
+            "oc-cisaup",
+            "oc-creiss",
+            "oc-gascon",
+            "oc-nicard",
             "oc"
          ],
          "_added" : "2018-04-22",
@@ -102398,6 +104164,19 @@
             "rm"
          ],
          "_added" : "2010-06-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "synnejyl" : {
+         "Description" : [
+            "Synnejysk",
+            "South Jutish"
+         ],
+         "Prefix" : [
+            "da"
+         ],
+         "_added" : "2021-07-17",
          "_registry" : {
             "iana" : 1
          }

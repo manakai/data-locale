@@ -393,6 +393,7 @@
                "bm" : 1,
                "bo" : 1,
                "dz" : 1,
+               "hnj" : 1,
                "id" : 1,
                "ig" : 1,
                "ii" : 1,
@@ -418,6 +419,7 @@
                "su" : 1,
                "th" : 1,
                "to" : 1,
+               "tpi" : 1,
                "vi" : 1,
                "wo" : 1,
                "yo" : 1,
@@ -483,6 +485,7 @@
                "ta" : 1,
                "te" : 1,
                "th" : 1,
+               "tpi" : 1,
                "tr" : 1,
                "ur" : 1,
                "uz" : 1,
@@ -686,7 +689,6 @@
                "nso" : 1,
                "pa" : 1,
                "pcm" : 1,
-               "pt" : 1,
                "si" : 1,
                "ti" : 1,
                "wa" : 1,
@@ -812,6 +814,7 @@
                "asa" : 1,
                "ast" : 1,
                "az" : 1,
+               "bal" : 1,
                "bem" : 1,
                "bez" : 1,
                "bg" : 1,
@@ -828,7 +831,6 @@
                "el" : 1,
                "en" : 1,
                "eo" : 1,
-               "es" : 1,
                "et" : 1,
                "eu" : 1,
                "fi" : 1,
@@ -842,7 +844,6 @@
                "hu" : 1,
                "ia" : 1,
                "io" : 1,
-               "it" : 1,
                "jgo" : 1,
                "ji" : 1,
                "jmc" : 1,
@@ -880,7 +881,6 @@
                "os" : 1,
                "pap" : 1,
                "ps" : 1,
-               "pt_PT" : 1,
                "rm" : 1,
                "rof" : 1,
                "rwk" : 1,
@@ -919,6 +919,7 @@
                "yi" : 1
             },
             "ordinal" : {
+               "bal" : 1,
                "fil" : 1,
                "fr" : 1,
                "ga" : 1,
@@ -1139,7 +1140,8 @@
       "3:is 0, 1/ends in 000000 excluding 0/everything else" : {
          "cldr_locales" : {
             "cardinal" : {
-               "fr" : 1
+               "fr" : 1,
+               "pt" : 1
             }
          },
          "expression" : "n==0||n==1?0:n%1000000==0&&n!=0?1:2",
@@ -1241,6 +1243,29 @@
             "3:is 1-4 or ends in 02468 1-4/is 5 or ends in 05/everything else" : {
                "expressions" : {
                   "(1\u003C=n%100&&n%100\u003C=4)||(21\u003C=n%100&&n%100\u003C=24)||(41\u003C=n%100&&n%100\u003C=44)||(61\u003C=n%100&&n%100\u003C=64)||(81\u003C=n%100&&n%100\u003C=84)?0:n==5||n%100==5?1:2" : 1
+               },
+               "fields" : "0/1/2"
+            }
+         }
+      },
+      "3:is 1/ends in 000000 excluding 0/everything else" : {
+         "cldr_locales" : {
+            "cardinal" : {
+               "es" : 1,
+               "it" : 1,
+               "pt_PT" : 1
+            }
+         },
+         "expression" : "n==1?0:n%1000000==0&&n!=0?1:2",
+         "forms" : [
+            "is 1",
+            "ends in 000000 excluding 0",
+            "everything else"
+         ],
+         "serializations" : {
+            "3:is 1/ends in 000000 excluding 0/everything else" : {
+               "expressions" : {
+                  "n==1?0:n%1000000==0&&n!=0?1:2" : 1
                },
                "fields" : "0/1/2"
             }

@@ -2,7 +2,6 @@
    "countryless_tags" : {
       "be-by" : "be",
       "bg-bg" : "bg",
-      "bn-bd" : "bn",
       "ca-es" : "ca",
       "cs-cz" : "cs",
       "da-dk" : "da",
@@ -409,7 +408,6 @@
       "as" : {
          "bcp47_canonical" : "as",
          "cldr" : "as",
-         "firefox" : "as",
          "mediawiki" : "as",
          "native_name" : "অসমীয়া"
       },
@@ -542,6 +540,10 @@
          "bcp47_canonical" : "bcc",
          "mediawiki" : "bcc"
       },
+      "bci" : {
+         "bcp47_canonical" : "bci",
+         "mediawiki" : "bci"
+      },
       "bcl" : {
          "bcp47_canonical" : "bcl",
          "mediawiki" : "bcl"
@@ -565,6 +567,7 @@
       },
       "be-tarask" : {
          "bcp47_canonical" : "be-tarask",
+         "cldr" : "be_TARASK",
          "mediawiki" : "be-x-old"
       },
       "bem" : {
@@ -648,20 +651,19 @@
          "bcp47_canonical" : "bn",
          "chrome_web_store" : "bn",
          "cldr" : "bn",
+         "firefox" : "bn",
          "mediawiki" : "bn",
          "native_name" : "বাংলা"
       },
       "bn-bd" : {
          "bcp47_canonical" : "bn-BD",
          "cldr" : "bn_BD",
-         "firefox" : "bn-BD",
          "native_name" : "বাংলা (বাংলাদেশ)"
       },
       "bn-in" : {
          "bcp47_canonical" : "bn-IN",
          "cldr" : "bn_IN",
          "facebook" : "bn_IN",
-         "firefox" : "bn-IN",
          "native_name" : "বাংলা (ভারত)"
       },
       "bo" : {
@@ -1017,6 +1019,10 @@
          "cldr" : "da_GL",
          "native_name" : "dansk (Grønland)"
       },
+      "dag" : {
+         "bcp47_canonical" : "dag",
+         "mediawiki" : "dag"
+      },
       "dav" : {
          "bcp47_canonical" : "dav",
          "cldr" : "dav",
@@ -1263,7 +1269,7 @@
       "en-001" : {
          "bcp47_canonical" : "en-001",
          "cldr" : "en_001",
-         "native_name" : "English (World)"
+         "native_name" : "English (world)"
       },
       "en-150" : {
          "bcp47_canonical" : "en-150",
@@ -1344,6 +1350,7 @@
       "en-ca" : {
          "bcp47_canonical" : "en-CA",
          "cldr" : "en_CA",
+         "firefox" : "en-CA",
          "java" : "en_CA",
          "mediawiki" : "en-ca",
          "ms" : "4105",
@@ -1825,7 +1832,6 @@
       "en-za" : {
          "bcp47_canonical" : "en-ZA",
          "cldr" : "en_ZA",
-         "firefox" : "en-ZA",
          "java" : "en_ZA",
          "ms" : "7177",
          "mysql" : "en_ZA",
@@ -2814,6 +2820,14 @@
          "mysql" : "gu_IN",
          "native_name" : "ગુજરાતી (ભારત)"
       },
+      "guc" : {
+         "bcp47_canonical" : "guc",
+         "mediawiki" : "guc"
+      },
+      "guw" : {
+         "bcp47_canonical" : "guw",
+         "mediawiki" : "guw"
+      },
       "guz" : {
          "bcp47_canonical" : "guz",
          "cldr" : "guz",
@@ -3446,6 +3460,14 @@
          "bcp47_canonical" : "kg",
          "mediawiki" : "kg"
       },
+      "kgp" : {
+         "bcp47_canonical" : "kgp",
+         "cldr" : "kgp"
+      },
+      "kgp-br" : {
+         "bcp47_canonical" : "kgp-BR",
+         "cldr" : "kgp_BR"
+      },
       "khq" : {
          "bcp47_canonical" : "khq",
          "cldr" : "khq",
@@ -3994,7 +4016,6 @@
       "mai" : {
          "bcp47_canonical" : "mai",
          "cldr" : "mai",
-         "firefox" : "mai",
          "mediawiki" : "mai",
          "native_name" : "मैथिली"
       },
@@ -4130,7 +4151,6 @@
          "bcp47_canonical" : "ml",
          "chrome_web_store" : "ml",
          "cldr" : "ml",
-         "firefox" : "ml",
          "mediawiki" : "ml",
          "native_name" : "മലയാളം"
       },
@@ -4215,6 +4235,10 @@
          "mediawiki" : "ms",
          "ms" : "1086",
          "native_name" : "Melayu"
+      },
+      "ms-arab" : {
+         "bcp47_canonical" : "ms-Arab",
+         "mediawiki" : "ms-arab"
       },
       "ms-bn" : {
          "bcp47_canonical" : "ms-BN",
@@ -4344,8 +4368,7 @@
          "bcp47_canonical" : "nb",
          "cldr" : "nb",
          "java" : "no_NO",
-         "mediawiki" : "nb",
-         "native_name" : "norsk bokmål"
+         "mediawiki" : "nb"
       },
       "nb-no" : {
          "bcp47_canonical" : "nb-NO",
@@ -4353,12 +4376,12 @@
          "facebook" : "nb_NO",
          "firefox" : "nb-NO",
          "mysql" : "nb_NO",
-         "native_name" : "norsk bokmål (Norge)"
+         "native_name" : "Norwegian Bokmål (Norway)"
       },
       "nb-sj" : {
          "bcp47_canonical" : "nb-SJ",
          "cldr" : "nb_SJ",
-         "native_name" : "norsk bokmål (Svalbard og Jan Mayen)"
+         "native_name" : "Norwegian Bokmål (Svalbard & Jan Mayen)"
       },
       "nd" : {
          "bcp47_canonical" : "nd",
@@ -4501,15 +4524,14 @@
          "bcp47_canonical" : "nn",
          "cldr" : "nn",
          "java" : "no_NO_NY",
-         "mediawiki" : "nn",
-         "native_name" : "norsk nynorsk"
+         "mediawiki" : "nn"
       },
       "nn-no" : {
          "bcp47_canonical" : "nn-NO",
          "cldr" : "nn_NO",
          "facebook" : "nn_NO",
          "firefox" : "nn-NO",
-         "native_name" : "norsk nynorsk (Noreg)"
+         "native_name" : "Norwegian Nynorsk (Noreg)"
       },
       "nnh" : {
          "bcp47_canonical" : "nnh",
@@ -4606,6 +4628,10 @@
          "firefox" : "oc",
          "mediawiki" : "oc"
       },
+      "ojb" : {
+         "bcp47_canonical" : "ojb",
+         "mediawiki" : "ojb"
+      },
       "olo" : {
          "bcp47_canonical" : "olo",
          "mediawiki" : "olo"
@@ -4629,7 +4655,6 @@
       "or" : {
          "bcp47_canonical" : "or",
          "cldr" : "or",
-         "firefox" : "or",
          "mediawiki" : "or",
          "native_name" : "ଓଡ଼ିଆ"
       },
@@ -4881,6 +4906,10 @@
          "cldr" : "pt_TL",
          "native_name" : "português (República Democrática de Timor-Leste)"
       },
+      "pwn" : {
+         "bcp47_canonical" : "pwn",
+         "mediawiki" : "pwn"
+      },
       "qu" : {
          "bcp47_canonical" : "qu",
          "cldr" : "qu",
@@ -4944,6 +4973,10 @@
          "facebook" : "rm_CH",
          "mysql" : "rm_CH",
          "native_name" : "rumantsch (Svizra)"
+      },
+      "rmc" : {
+         "bcp47_canonical" : "rmc",
+         "mediawiki" : "rmc"
       },
       "rmy" : {
          "bcp47_canonical" : "rmy",
@@ -5163,10 +5196,12 @@
       },
       "sc" : {
          "bcp47_canonical" : "sc",
+         "cldr" : "sc",
          "mediawiki" : "sc"
       },
       "sc-it" : {
          "bcp47_canonical" : "sc-IT",
+         "cldr" : "sc_IT",
          "facebook" : "sc_IT"
       },
       "scn" : {
@@ -5308,6 +5343,10 @@
       "shn" : {
          "bcp47_canonical" : "shn",
          "mediawiki" : "shn"
+      },
+      "shy" : {
+         "bcp47_canonical" : "shy",
+         "mediawiki" : "shy"
       },
       "shy-latn" : {
          "bcp47_canonical" : "shy-Latn",
@@ -5826,6 +5865,7 @@
       },
       "tl" : {
          "bcp47_canonical" : "tl",
+         "firefox" : "tl",
          "mediawiki" : "tl"
       },
       "tlh" : {
@@ -5886,6 +5926,10 @@
          "java" : "tr_TR",
          "mysql" : "tr_TR",
          "native_name" : "Türkçe (Türkiye)"
+      },
+      "trs" : {
+         "bcp47_canonical" : "trs",
+         "firefox" : "trs"
       },
       "tru" : {
          "bcp47_canonical" : "tru",
@@ -6185,6 +6229,10 @@
          "bcp47_canonical" : "wen",
          "ms" : "1070"
       },
+      "wls" : {
+         "bcp47_canonical" : "wls",
+         "mediawiki" : "wls"
+      },
       "wo" : {
          "bcp47_canonical" : "wo",
          "cldr" : "wo",
@@ -6288,6 +6336,22 @@
          "cldr" : "yo_NG",
          "facebook" : "yo_NG",
          "native_name" : "Èdè Yorùbá (Nàìjíríà)"
+      },
+      "yrl" : {
+         "bcp47_canonical" : "yrl",
+         "cldr" : "yrl"
+      },
+      "yrl-br" : {
+         "bcp47_canonical" : "yrl-BR",
+         "cldr" : "yrl_BR"
+      },
+      "yrl-co" : {
+         "bcp47_canonical" : "yrl-CO",
+         "cldr" : "yrl_CO"
+      },
+      "yrl-ve" : {
+         "bcp47_canonical" : "yrl-VE",
+         "cldr" : "yrl_VE"
       },
       "yue" : {
          "bcp47_canonical" : "yue",
