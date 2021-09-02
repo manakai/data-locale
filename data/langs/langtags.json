@@ -99619,6 +99619,7 @@
             "Gaza Strip, Palestinian Territories"
          ],
          "_deprecated" : 1,
+         "_preferred" : "gazastrp",
          "_registry" : {
             "unicode" : 1
          }
