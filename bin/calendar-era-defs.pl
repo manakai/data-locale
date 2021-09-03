@@ -483,6 +483,17 @@ for my $path (
 
 ## Name shorthands
 {
+  sub is_same_han ($$) {
+    my ($v, $w) = @_;
+    return 0 unless @$v == @$w;
+    for (0..$#$v) {
+      return 0 unless $v->[$_] eq $w->[$_];
+    }
+    return 2;
+    ## 0 not equal
+    ## 1 equivalent but not same
+    ## 2 same
+  } # is_same_han
 
   sub filter_labels ($) {
     my $labels = shift;
@@ -526,9 +537,29 @@ for my $path (
           my $v_added = 0;
 
           if ($rep->{type} eq 'han') {
+            if (@{$label->{texts}} and
+                $label->{texts}->[-1]->{type} eq 'han') {
+              $value = $label->{texts}->[-1];
+              $value_added = 1;
+            }
             $value->{type} = 'han';
-
+            
             my $w = [split //, $rep->{value}];
+            for my $x (@{$value->{values}}) {
+              my $eq = is_same_han $w,
+                      $x->{ja} //
+                      $x->{tw} //
+                      $x->{cn} //
+                      $x->{ko} //
+                      $x->{values}->[0];
+              if ($eq == 2 and
+                  (not defined $rep->{lang} or defined $x->{$rep->{lang}})) {
+                $v_added = 1;
+              } elsif ($eq) {
+                $v = $x;
+                $v_added = 1;
+              }
+            }
 
             if (defined $rep->{lang} and
                 not defined $v->{$rep->{lang}}) {
@@ -752,6 +783,7 @@ sub to_hiragana ($) {
                         (not defined $era->{'name_'.$lang} or
                          ($value->{is_preferred} or {})->{$lang})) {
                       $era->{'name_'.$lang} = serialize_segmented_text $value->{$lang};
+                      $value->{is_preferred}->{$lang} = 1;
                       $era->{name} //= $era->{'name_'.$lang};
                     }
                     if (defined $value->{$lang} and
