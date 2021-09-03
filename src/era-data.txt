@@ -180,7 +180,7 @@ name(ja) チュチェ
 name(kp) 주체연호
 name 主體年號
 &
-name 주체력
+name(kp) 주체력
 name_ja 主体暦
 name_tw 主體曆
 name(ja) チュチェ暦

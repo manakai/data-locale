@@ -89,24 +89,26 @@ for (
         if ($_ eq 'name_ja' or $_ eq 'name') {
           my $name = $data->{$_};
           push @{$Data->{eras}->{$key}->{_LABELS}->[0]->{labels}->[0]->{reps}},
-              {han => 1, name => 1, values => [{value => $name, ja => 1}]};
+              {kind => 'name', type => 'han',
+               lang => 'ja', value => $name};
 
           $name =~ s/摂政$// &&
           push @{$Data->{eras}->{$key}->{_LABELS}->[0]->{labels}},
-              {reps => [{han => 1, name => 1, values => [{value => $name, ja => 1}]}]};
+              {reps => [{kind => 'name', type => 'han',
+                         lang => 'ja', value => $name}]};
 
           $name =~ s/皇后$// &&
           push @{$Data->{eras}->{$key}->{_LABELS}->[0]->{labels}},
-              {reps => [{han => 1, name => 1, values => [{value => $name, ja => 1}]}]};
+              {reps => [{kind => 'name', type => 'han',
+                         lang => 'ja', value => $name}]};
           
           $name =~ s/天皇$// &&
           push @{$Data->{eras}->{$key}->{_LABELS}->[0]->{labels}},
-              {reps => [{han => 1, name => 1, values => [{value => $name, ja => 1}]}]};
+              {reps => [{kind => 'name', type => 'han',
+                         lang => 'ja', value => $name}]};
 
           $Data->{eras}->{$key}->{short_name} = $name
               unless $name eq $data->{$_};
-
-          # XXX name_kana name_latn
         } elsif ($_ eq 'ja_readings') {
           push @{$Data->{eras}->{$key}->{_LABELS}->[0]->{labels}->[0]->{reps}},
               map { {%$_, yomi => 1} } @{$data->{$_}};
@@ -137,16 +139,10 @@ sub drop_kanshi ($) {
     $data->{offset} = $src->{offset} if defined $src->{offset};
     $data->{wref_zh} = $src->{wref} if defined $src->{wref};
 
-    if ($src->{cn} eq $src->{name}) {
-      push @{$data->{_LABELS}->[0]->{labels}->[0]->{reps}},
-          {han => 1, name => 1,
-           values => [{value => $src->{name}, cn => 1, tw => 1}]};
-    } else {
-      push @{$data->{_LABELS}->[0]->{labels}->[0]->{reps}},
-          {han => 1, name => 1,
-           values => [{value => $src->{name}, tw => 1},
-                      {value => $src->{cn}, cn => 1}]};
-    }
+    push @{$data->{_LABELS}->[0]->{labels}->[0]->{reps}},
+        {kind => 'name', type => 'han', lang => 'tw', value => $src->{name}},
+        {kind => 'name', type => 'han', lang => 'cn', value => $src->{cn}};
+    
     warn "Wikipedia cn != my: $src->{cn} $src->{my}"
         if $src->{cn} ne $src->{my};
     warn "Wikipedia cn != sg: $src->{cn} $src->{sg}"
@@ -187,7 +183,7 @@ for my $path (
 
       my @nn = map { drop_kanshi $_ } @n;
       push @{$d->{_LABELS}->[0]->{labels}->[0]->{reps}},
-          {han => 1, name => 1, values => [{value => $_}]} for @nn;
+          {kind => 'name', type => 'han', value => $_} for @nn;
     } elsif (/\S/) {
       die "Bad line |$_|";
     }
@@ -279,7 +275,7 @@ for (
 
       my $name = drop_kanshi $variant;
       push @{$Data->{eras}->{$key}->{_LABELS}->[0]->{labels}->[0]->{reps}},
-          {han => 1, name => 1, values => [{value => $name}]};
+          {kind => 'name', type => 'han', value => $name};
     } elsif (/\S/) {
       die "Bad line |$_|";
     }
@@ -317,20 +313,16 @@ for my $path (
       $prop->{$1} = $2;
     } elsif (defined $key and /^(wref_(?:ja|zh|en|ko))\s+(.+)$/) {
       $Data->{eras}->{$key}->{$1} = $2;
-    } elsif (defined $key and /^(name)\s*:=\s*(\S+)$/) {
-      $Data->{eras}->{$key}->{$1} = $2;
+    } elsif (defined $key and /^name(!|)\s+(\p{Han}+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
-          {han => 1, name => 1, values => [{value => $2}]};
-    } elsif (defined $key and /^name(!|)\s+(.+)$/) {
-      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
-          {han => 1, name => 1, values => [{value => $2, _preferred => $1}]};
+          {kind => 'name', type => 'han', value => $2, preferred => $1};
     } elsif (defined $key and /^name_kana\s+(.+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kana => $1, yomi => 1};
-    } elsif (defined $key and /^name_(ja|cn|tw|ko)(!|)\s+(.+)$/) {
+    } elsif (defined $key and /^name_(ja|cn|tw|ko)(!|)\s+([\p{Han}()]+)$/) { # XXX ()
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
-          {han => 1, name => 1,
-           values => [{value => $3, $1 => 1, _preferred => $2}]};
+          {kind => 'name', type => 'han', lang => $1, value => $3,
+           preferred => $2};
     } elsif (defined $key and /^name\((en|la|en_la|it|fr|es|po|vi|ja_latn)\)(!|)\s+([\p{Latn}\s%0-9A-F'-]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
@@ -397,14 +389,14 @@ for my $path (
            type => 'mongolian',
            mongolian => (percent_decode_c $1),
            cyrillic => (percent_decode_c $2)};
-    } elsif (defined $key and /^abbr_ja\s+([A-Z])\s+(\1[a-z]*)$/) {
-      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
-          {ja => 1, abbr => 'first',
-           latin => $1, expanded => $2};
     } elsif (defined $key and /^abbr_(ja|tw)\s+(\p{Hani})\s+(\2\p{Hani}*)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
-          {han => 1, abbr => 'first',
-           values => [{value => $2, $1 => 1, expanded => $3}]};
+          {kind => 'name', abbr => 'first', type => 'han',
+           lang => $1, value => $2},
+          {kind => 'expanded',
+           type => 'han',
+           lang => $1,
+           value => percent_decode_c $3};
     } elsif (defined $key and /^acronym\((en|la|en_la|it|fr|es|po|vi|ja_latn)\)\s+([\p{Latn}.\N{KATAKANA MIDDLE DOT}%0-9A-F]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
@@ -533,7 +525,20 @@ for my $path (
           my $v = {};
           my $v_added = 0;
 
-          if ($rep->{type} eq 'alphabetical') {
+          if ($rep->{type} eq 'han') {
+            $value->{type} = 'han';
+
+            my $w = [split //, $rep->{value}];
+
+            if (defined $rep->{lang} and
+                not defined $v->{$rep->{lang}}) {
+              $v->{$rep->{lang}} = $w;
+            } else {
+              push @{$v->{values} ||= []}, $w;
+            }
+
+            $value->{abbr} = $rep->{abbr} if defined $rep->{abbr};
+          } elsif ($rep->{type} eq 'alphabetical') {
             if (@{$label->{texts}} and
                 $label->{texts}->[-1]->{type} eq 'alphabetical') {
               $value = $label->{texts}->[-1];
@@ -589,11 +594,11 @@ for my $path (
             $v = $value->{values}->[-1];
             $v_added = 1;
           }
-          if (not defined $v->{$rep->{lang}}) {
-            $v->{$rep->{lang}} = $w;
-          } else {
-            push @{$v->{values} ||= []}, $w;
-          }
+            if (not defined $v->{$rep->{lang}}) {
+              $v->{$rep->{lang}} = $w;
+            } else {
+              push @{$v->{values} ||= []}, $w;
+            }
             $v->{segment_length} = $w_length;
             $v->{abbr_indexes} = $abbr_indexes if defined $abbr_indexes;
           } elsif ($rep->{type} eq 'jpan') {
@@ -738,58 +743,32 @@ sub to_hiragana ($) {
   for my $era (values %{$Data->{eras}}) {
     for my $label_set (@{$era->{label_sets}}) {
       for my $label (@{$label_set->{labels}}) {
-        for my $label (@{$label->{texts}}) {
-        if ($label->{name}) {
-          if ($label->{han}) {
-            for my $value (@{$label->{values}}) {
-              $era->{names}->{$value->{value}} = 1;
-              $era->{name} //= $value->{value};
-              $era->{name_ja} //= $value->{value} if $value->{ja};
-              $era->{name_tw} //= $value->{value} if $value->{tw};
-              $era->{name_cn} //= $value->{value} if $value->{cn};
-              $era->{name} = $value->{value} if $value->{_preferred};
-              $era->{name_ja} = $value->{value} if $value->{ja} and $value->{_preferred};
-              $era->{name_tw} = $value->{value} if $value->{tw} and $value->{_preferred};
-              $era->{name_cn} = $value->{value} if $value->{cn} and $value->{_preferred};
-              delete $value->{_preferred};
-            } # $value
-          }
-          if ($label->{ko}) {
-            $era->{name} //= $label->{value};
-            $era->{name_ko} //= $label->{value};
-            $era->{name_ko} = $label->{value} if $label->{_preferred};
-          }
-          if ($label->{vi}) {
-            $era->{name} //= $label->{value};
-            $era->{name_vi} //= $label->{value};
-            $era->{name_vi} = $label->{value} if $label->{_preferred};
-          }
-          if ($label->{alphabetical}) {
-            $era->{name} //= $label->{dotless} // $label->{value};
-            if ($label->{en}) {
-              if (defined $label->{value}) {
-                $era->{name_en} //= $label->{value};
-                $era->{name_en} = $label->{value} if $label->{_preferred};
-              }
-            }
-          }
-        } # name
-        if ($label->{abbr}) {
-          if ($label->{han} and $label->{abbr} eq 'first') {
-            $era->{abbr} //= $label->{values}->[0]->{value};
-            $era->{names}->{$label->{values}->[0]->{value}} = 1;
-          }
-          if ($label->{ja} and $label->{abbr} eq 'first' and
-              length $label->{latin} == 1) {
-            $era->{abbr_latn} //= $label->{latin};
-          }
-        }
-        delete $label->{_preferred};
-      } # $label
-        for my $label (@{$label_set->{labels}}) {
-          if ($label->{is_name}) {
+        if ($label->{is_name}) {
             for my $text (@{$label->{texts}}) {
-              if ($text->{type} eq 'alphabetical') {
+              if ($text->{type} eq 'han') {
+                for my $value (@{$text->{values}}) {
+                  for my $lang (qw(ja cn tw)) {
+                    if (defined $value->{$lang} and
+                        (not defined $era->{'name_'.$lang} or
+                         ($value->{is_preferred} or {})->{$lang})) {
+                      $era->{'name_'.$lang} = serialize_segmented_text $value->{$lang};
+                      $era->{name} //= $era->{'name_'.$lang};
+                    }
+                    if (defined $value->{$lang} and
+                        defined $text->{abbr} and $text->{abbr} eq 'first') {
+                      $era->{abbr} //= serialize_segmented_text $value->{$lang};
+                    }
+                    $era->{names}->{serialize_segmented_text $value->{$lang}} = 1
+                        if defined $value->{$lang};
+                  }
+                  for ($value->{ko} // undef, @{$value->{values} or []}) {
+                    next unless defined;
+                    my $s = serialize_segmented_text $_;
+                    $era->{names}->{$s} = 1;
+                    $era->{name} //= $s;
+                  }
+                }
+              } elsif ($text->{type} eq 'alphabetical') {
                 for my $value (@{$text->{values}}) {
                   if (defined $value->{en} and
                       (not defined $era->{name_en} or
@@ -854,7 +833,6 @@ sub to_hiragana ($) {
                 }
               }
             }
-          }
         } # is_name
       } # $label_set
     } # $label_set0

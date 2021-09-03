@@ -5557,7 +5557,7 @@ tag 李氏朝鮮
 tag 朝鮮人
 name_ja 崇禎紀元
 #wref_ja 崇禎紀元
-name 숭정기원
+name(ko) 숭정기원
 &
 
 ## [102]
@@ -5566,10 +5566,10 @@ name_cn 崇祯纪元后
 u 83
 
 name_ja 崇禎紀元後
-name 숭정기원후
+name(ko) 숭정기원후
 &
 name 崇禎後
-name 숭정후
+name(ko) 숭정후
 
 %tag tag
 %tag   name_ja 清初反清勢力
