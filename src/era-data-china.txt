@@ -7288,12 +7288,16 @@ sw 孔子紀年
 def[黃帝紀元]
 name_tw 黃帝紀元
 name_cn 黄帝纪元
-name 軒轅紀年
 name_ja 黄帝紀元
 name_kana こう てい き げん
+&
 name 黄帝紀年
 name_kana こう てい き ねん
+&
+name 軒轅紀年
+&
 name 黄紀
+&
 name 黄帝開国即位紀年
 wref_zh 黄帝纪元
 wref_ja 黄帝紀元
@@ -7306,8 +7310,10 @@ name_tw 黃帝紀元
 name_cn 黄帝纪元
 name_ja 黄帝紀元
 name_kana こう てい き げん
+&
 name 黄帝紀年
 name_kana こう てい き ねん
+&
 name 黄帝生年紀年
 wref_zh 黄帝纪元
 wref_ja 黄帝紀元
@@ -7319,6 +7325,7 @@ name_tw 黃帝紀元
 name_cn 黄帝纪元
 name_ja 黄帝紀元
 name_kana こう てい き げん
+&
 name 黄帝紀年
 name_kana こう てい き ねん
 wref_zh 黄帝纪元
@@ -7432,7 +7439,7 @@ wref_ja 洪憲
 name_ja 洪憲
 name_kana こう けん
 
-# XXX HUNG SHUAN
+name(en) HUNG SHUAN
 
 # XXX <https://es.wikipedia.org/wiki/Hongxian>
 # XXX wref_es Hongxian

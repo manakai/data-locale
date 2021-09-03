@@ -576,14 +576,16 @@ for my $path (
                 $abbr_indexes = \@abbr unless $j == 0;
               }
 
-          if (@{$value->{values} || []} and
-              ((not defined $abbr_indexes and
-                not defined $value->{values}->[-1]->{abbr_indexes}) or
-                (defined $abbr_indexes and
-                 defined $value->{values}->[-1]->{abbr_indexes} and
-                 @$abbr_indexes == @{$value->{values}->[-1]->{abbr_indexes}} and
-                 join ($;, map { $_ // '' } @$abbr_indexes) eq
-                 join ($;, map { $_ // '' } @{$value->{values}->[-1]->{abbr_indexes}})))) {
+            my $w_length = @{[grep { not /^\./ } @$w]};
+            if (@{$value->{values} || []} and
+                ((not defined $abbr_indexes and
+                  not defined $value->{values}->[-1]->{abbr_indexes}) or
+                  (defined $abbr_indexes and
+                   defined $value->{values}->[-1]->{abbr_indexes} and
+                   @$abbr_indexes == @{$value->{values}->[-1]->{abbr_indexes}} and
+                   join ($;, map { $_ // '' } @$abbr_indexes) eq
+                   join ($;, map { $_ // '' } @{$value->{values}->[-1]->{abbr_indexes}}))) and
+                   ($value->{values}->[-1]->{segment_length} == $w_length)) {
             $v = $value->{values}->[-1];
             $v_added = 1;
           }
@@ -592,7 +594,8 @@ for my $path (
           } else {
             push @{$v->{values} ||= []}, $w;
           }
-          $v->{abbr_indexes} = $abbr_indexes if defined $abbr_indexes;
+            $v->{segment_length} = $w_length;
+            $v->{abbr_indexes} = $abbr_indexes if defined $abbr_indexes;
           } elsif ($rep->{type} eq 'jpan') {
             my @value;
             while (length $rep->{value}) {

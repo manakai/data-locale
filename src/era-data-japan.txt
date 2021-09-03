@@ -681,21 +681,44 @@ tag 日本国
 tag 元号法
 tag 一世一元
 
+%tag religion
+%tag   name_ja 神道
 
+%tag religion
+%tag   name_ja 国家神道
+%tag   group of 神道
 
 [神武天皇]
-name 神武天皇即位紀元
-name 神武紀元
-name 皇紀
-name 即位紀元
-name 皇暦
-name 神武暦
-name 日紀
-name 日本紀元
-name 神武皇紀
+&
+name_ja 神武天皇即位紀元
+&
+name_ja 神武紀元
+&
+name_ja 神武暦
+&
+name_ja 神武皇紀
+&
+name_ja 即位紀元
+&&
+name_ja 皇紀
+&
+name_ja 皇暦
+&&
+name_ja 日紀
+&
+name_ja 日本紀元
 #wref_ja 神武天皇即位紀元
 wref_zh 皇纪
 sw 神武天皇即位紀元
+
+tag 日本
+tag 大日本帝国
+tag 日本国
+tag 建国紀元
+tag 日本人
+tag 神道
+tag 国家神道
+tag 宗教創設紀年
 
 def[自由自治]
 ## Source:
@@ -707,12 +730,21 @@ name(ja) 自由[じ ゆう]・自治[じ ち]
 &&
 name_ja 日本共和国
 
+%tag tag
+%tag   name_ja 自由民権運動
+
+%tag org
+%tag   name_ja 困民党
+
 wref_ja 自由自治
 u 1-11-2
 u 129-1-1
 u 134-1
 u 137-5-10
 tag 困民党
+tag 農民反乱
+tag 起事建元
+tag 自由民権運動
 tag 大日本帝国埼玉県秩父郡
 tag 日本人
 tag 日本の私年号
@@ -728,10 +760,21 @@ tag 日本の私年号
 AD1904 = 1
 
 def[亀光]
-AD1861 = 1
-name_ja 亀光
+#y~1758
 sw 亀光
+
 tag 日本の私年号
+tag 日本 (江戸時代)
+tag 日本人
+
+name_ja 亀光
+name_kana き こう
+name_kana きっ こう
+
+AD1862 = 1
+u 1-3-5
+u 1-11
+
 
 def[霊寿]
 # y~1390
@@ -744,11 +787,23 @@ name_ja 靈壽
 wref_ja 璽宇
 tag 日本国
 tag 日本人
-tag 璽宇
-AD1946 = 1
-# <-昭和 1946-5-1
-u 14-2-12
 tag 日本の私年号
+tag 璽宇
+tag 宗教創設紀年
+tag 起事建元
+
+%tag person
+%tag   name_ja 長岡良子
+tag 長岡良子
+#璽光尊 じ こう そん
+
+AD1946 = 1
+<-昭和 g:1946-5-1 #璽宇 #長岡良子 #建元前の即位 #日本 #グレゴリオ暦
+<-昭和 g:1946-5-1 #璽宇 #長岡良子 #起事建元 #制定 #日本 #グレゴリオ暦
+
+u 14-2-12
+
+>< [g:1984] #璽宇 #長岡良子 #死去 #日本 #グレゴリオ暦
 
 def[大延]
 # y~1294
