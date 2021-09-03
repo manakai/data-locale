@@ -344,25 +344,26 @@ for my $id (6090..6091) {
           push @{$Data->{eras}->{$key}->{ja_readings} ||= []}, $v;
           next;
         }
+        my $is_ja = s/^J://;
         
         my ($new, $old, @others) = split /,/, $_, -1;
         s/\|/ /g for grep { defined } ($new, $old, @others);
         my $v = {};
         if (length $new) {
-          push @{$Data->{eras}->{$key}->{6100} ||= []},
+          push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6100} ||= []},
               $v->{kana} = $v->{kana_modern} = $new;
-          push @{$Data->{eras}->{$key}->{6102} ||= []},
+          push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6102} ||= []},
               $v->{latin_normal} = romaji $new;
-          push @{$Data->{eras}->{$key}->{6103} ||= []},
+          push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6103} ||= []},
               $v->{latin} = $v->{latin_macron} = romaji2 $new;
         }
         use utf8;
         if (defined $old and length $old) {
-          push @{$Data->{eras}->{$key}->{6101} ||= []},
+          push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6101} ||= []},
               $v->{kana_classic} = $old;
           $v->{kana} //= $v->{kana_classic};
         } elsif (length $new and not $new =~ /[ゃゅょ]/) {
-          push @{$Data->{eras}->{$key}->{6101} ||= []},
+          push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6101} ||= []},
               $v->{kana_classic} = $new;
         }
         if (@others and $others[0] =~ /^[\p{Latin} ]+$/) {

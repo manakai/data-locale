@@ -136,9 +136,6 @@ religion
   name_ja 仏教
 
 religion
-  name_ja 神道
-
-religion
   name_ja キリスト教
 
 religion
@@ -182,9 +179,6 @@ religion
 
 religion
   name_ja 共産主義
-
-org
-  name_ja 困民党
 
 org
   name_ja 松下電器産業株式会社
@@ -451,6 +445,9 @@ action
 action
   name_ja 起事建元
 
+tag
+  name_ja 農民反乱
+
 action
   name_ja 建元不承認
 
@@ -513,6 +510,9 @@ calendar
 
 tag
   name_ja 建国紀元
+
+tag
+  name_ja 宗教創設紀年
 
 tag
   name_ja 風刺
