@@ -334,7 +334,6 @@ for my $path (
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'jpan',
-           lang => $1,
            preferred => $2,
            value => $3};
     } elsif (defined $key and /^name\((ko|kr|kp)\)(!|)\s+([\p{Hang}]+)$/) {
@@ -481,28 +480,186 @@ for my $path (
   } # $era
 }
 
-## Name shorthands
 {
+
+  sub serialize_segmented_text ($) {
+    my $st = shift;
+    die $st, Carp::longmess () if not ref $st or not ref $st eq 'ARRAY';
+    return join '', map {
+      if (ref $_) {
+        join '', map {
+          if (/^:/) {
+            return undef; # not serializable
+          } else {
+            $_;
+          }
+        } @$_;
+      } elsif (/^\./) {
+        use utf8;
+        {
+          '._' => ' ',
+          '.・' => '',
+          '..' => '',
+        }->{$_} // die "Bad segment separator |$_|";
+      } else {
+        $_;
+      }
+    } @$st;
+  } # serialize_segmented_text
+
+  sub serialize_segmented_text_for_key ($) {
+    my $st = shift;
+    return join '', map {
+      if (ref $_) {
+        '['.(join '', map {
+          '['.$_.']';
+        } @$_).']';
+      } else {
+        '[['.$_.']]';
+      }
+    } @$st;
+  } # serialize_segmented_text_for_key
+}
+
+my $LeaderKeys = [];
+{
+  my $Leaders = {};
+
+  my $rpath = $root_path->child ("local/cluster-root.json");
+  my $root = json_bytes2perl $rpath->slurp;
+  my $x = [];
+  $x->[0] = 'all';
+  for (values %{$root->{leader_types}}) {
+    $x->[$_->{index}] = $_->{key};
+    push @$LeaderKeys, $_->{key};
+  }
+  
+  my $path = $root_path->child ("local/char-leaders.jsonl");
+  my $file = $path->openr;
+  local $/ = "\x0A";
+  while (<$file>) {
+    my $json = json_bytes2perl $_;
+    my $r = {};
+    for (0..$#$x) {
+      $r->{$x->[$_]} = $json->[1]->[$_]; # or undef
+    }
+    $Leaders->{$json->[0]} = $r;
+  }
+
+  #XXX
+  if (0) {
+  my $level_index = @{$root->{cluster_levels}} - [grep { $_->{key} eq 'EQUIV' } @{$root->{cluster_levels}}]->[0]->{index};
+  my $cpath = $root_path->child ("local/char-cluster.jsonl");
+  my $cfile = $cpath->openr;
+  local $/ = "\x0A";
+  my $leader_to_cluster_index = {};
+  my $cluster_index_to_chars = [];
+  while (<$cfile>) {
+    my $json = json_bytes2perl $_;
+    my $c = $json->[0];
+    my $leader = $Leaders->{$c}->{all};
+    next unless defined $leader;
+    my $cluster_index = $json->[1]->[$level_index];
+    $leader_to_cluster_index->{$leader} = $cluster_index;
+    push @{$cluster_index_to_chars->[$cluster_index] ||= []}, $c;
+  }
+
+  sub to_han_variants ($) {
+    my $c = shift;
+    my $s = $Leaders->{$c}->{all} // return undef;
+    my $ci = $leader_to_cluster_index->{$s} // return undef;
+    my $cc = $cluster_index_to_chars->[$ci] // return undef;
+    return $cc;
+  } # to_han_variants
+  }
+
+  sub segmented_text_to_han_variants ($) {
+    my $ss = shift;
+
+    my @r;
+    for (@$ss) {
+      for (ref $_ ? @$_ : split //, $_) {
+        my $v = to_han_variants $_;
+        return undef unless defined $v;
+        warn "<$_> => @$v";
+        push @r, $v;
+      }
+    }
+
+    return \@r;
+  } # segmented_text_to_han_variants
+
   sub is_same_han ($$) {
     my ($v, $w) = @_;
     return 0 unless @$v == @$w;
+    my $r = 2;
     for (0..$#$v) {
-      return 0 unless $v->[$_] eq $w->[$_];
+      if ($v->[$_] eq $w->[$_]) {
+        #
+      } else {
+        my $vv = $Leaders->{$v->[$_]}->{all} // $v->[$_];
+        my $ww = $Leaders->{$w->[$_]}->{all} // $w->[$_];
+        if ($vv eq $ww) {
+          $r = 1;
+        } else {
+          return 0;
+        }
+      }
     }
-    return 2;
+    return $r;
     ## 0 not equal
     ## 1 equivalent but not same
     ## 2 same
   } # is_same_han
 
+  sub fill_han_variants ($) {
+    my $x = shift;
+    my $w = $x->{jp} //
+            $x->{tw} //
+            $x->{cn} //
+            $x->{kr} //
+            $x->{values}->[0];
+
+    my $has_value = {};
+    for my $lang (@$LeaderKeys) {
+      if (not defined $x->{$lang}) {
+        my $v = [map {
+          my $c = $Leaders->{$_}->{$lang};
+          if (not defined $c or 1 == length $c) {
+            $c;
+          } else {
+            [$c];
+          }
+        } @$w];
+        $x->{$lang} = $v if not grep { not defined $_ } @$v;
+      }
+
+      $has_value->{serialize_segmented_text_for_key $x->{$lang}} = 1
+          if defined $x->{$lang};
+    }
+    $x->{values} = [grep {
+      my $v = serialize_segmented_text_for_key $_;
+      if ($has_value->{$v}) {
+        0;
+      } else {
+        $has_value->{$v} = 1;
+        1;
+      }
+    } @{$x->{values} or []}];
+    delete $x->{values} unless @{$x->{values}};
+  } # fill_han_variants
+}
+
+## Name shorthands
+{
   sub filter_labels ($) {
     my $labels = shift;
     return [grep { @{$_->{texts}} or @{$_->{expandeds} or []} } @$labels];
   } # filter_labels
   
-  sub reps_to_labels ($$);
-  sub reps_to_labels ($$) {
-    my ($reps => $labels) = @_;
+  sub reps_to_labels ($$$);
+  sub reps_to_labels ($$$) {
+    my ($reps => $labels, $has_preferred) = @_;
 
     my $label = {texts => []};
     my $label_added = 0;
@@ -510,7 +667,7 @@ for my $path (
       $label = $labels->[-1];
       $label_added = 1;
     }
-    
+
     for my $rep (@$reps) {
       if ($rep->{next_label}) {
         push @$labels, $label unless $label_added;
@@ -531,26 +688,27 @@ for my $path (
           }
           $rep->{kind} = '(expanded)';
           $value->{expandeds} ||= [];
-          reps_to_labels [$rep] => $value->{expandeds};
+          reps_to_labels [$rep] => $value->{expandeds}, {jp=>1,cn=>1,tw=>1};
         } else {
           my $v = {};
           my $v_added = 0;
 
           if ($rep->{type} eq 'han') {
-            if (@{$label->{texts}} and
-                $label->{texts}->[-1]->{type} eq 'han') {
-              $value = $label->{texts}->[-1];
-              $value_added = 1;
+            for (@{$label->{texts}}) {
+              if ($_->{type} eq 'han') {
+                $value = $_;
+                $value_added = 1;
+              }
             }
             $value->{type} = 'han';
             
             my $w = [split //, $rep->{value}];
             for my $x (@{$value->{values}}) {
               my $eq = is_same_han $w,
-                      $x->{ja} //
+                      $x->{jp} //
                       $x->{tw} //
                       $x->{cn} //
-                      $x->{ko} //
+                      $x->{kr} //
                       $x->{values}->[0];
               if ($eq == 2 and
                   (not defined $rep->{lang} or defined $x->{$rep->{lang}})) {
@@ -561,9 +719,19 @@ for my $path (
               }
             }
 
-            if (defined $rep->{lang} and
-                not defined $v->{$rep->{lang}}) {
-              $v->{$rep->{lang}} = $w;
+            my $lang = {
+              ja => 'jp',
+              ko => 'kr',
+            }->{$rep->{lang} // ''} // $rep->{lang};
+            if (defined $lang and
+                not defined $v->{$lang}) {
+              $v->{$lang} = $w;
+              if ($lang eq 'jp' or $lang eq 'tw' or $lang eq 'cn') {
+                if (not $has_preferred->{$lang}) {
+                  $v->{is_preferred}->{$lang} = 1;
+                  $has_preferred->{$lang} = 1;
+                }
+              }
             } else {
               push @{$v->{values} ||= []}, $w;
             }
@@ -673,7 +841,11 @@ for my $path (
             if (@value == 1) {
               $value = $value[0];
             } else {
-              $value = {type => 'compound', items => \@value};
+              $value = {type => 'compound', lang => 'jp', items => \@value};
+              if (not $has_preferred->{jp}) {
+                $value->{is_preferred}->{jp} = 1;
+                $has_preferred->{jp} = 1;
+              }
             }
             $v_added = 1;
           } elsif ($rep->{type} eq 'korean') { # Korean alphabet
@@ -712,10 +884,14 @@ for my $path (
           if ($rep->{kind} eq 'name') {
             $label->{is_name} = \1;
             if ($rep->{preferred}) {
+              my $lang = {
+                ja => 'jp',
+                ko => 'kr',
+              }->{$rep->{lang}} // $rep->{lang};
               if ($value->{type} eq 'compound') {
-                $value->{is_preferred}->{$rep->{lang}} = \1;
+                $value->{is_preferred}->{$lang} = \1;
               } else {
-                $v->{is_preferred}->{$rep->{lang}} = \1;
+                $v->{is_preferred}->{$lang} = \1;
               }
             }
           } elsif ($rep->{kind} eq '(expanded)') {
@@ -743,29 +919,23 @@ sub to_hiragana ($) {
   $s =~ tr/アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮ/あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎ/;
   return $s;
 } # to_hiragana
-
-  sub serialize_segmented_text ($) {
-    my $st = shift;
-    die $st, Carp::longmess () if not ref $st or not ref $st eq 'ARRAY';
-    return join '', map {
-      if (/^\./) {
-        use utf8;
-        {
-          '._' => ' ',
-          '.・' => '',
-          '..' => '',
-        }->{$_} // die "Bad segment separator |$_|";
-      } else {
-        $_;
-      }
-    } @$st;
-  } # serialize_segmented_text
   
   for my $era (values %{$Data->{eras}}) {
+    my $has_preferred = {};
+    for my $label_set (@{$era->{_LABELS}}) {
+      for my $label (@{$label_set->{labels}}) {
+        for my $rep (@{$label->{reps}}) {
+          if ($rep->{preferred}) {
+            $has_preferred->{$rep->{lang}} = 1;
+          }
+        }
+      }
+    }
+
     $era->{label_sets} = [];
     for my $label_set (@{$era->{_LABELS}}) {
       my $new_label_set = {labels => []};
-      reps_to_labels [map { (@{$_->{reps}}, {next_label => 1}) } @{$label_set->{labels}}] => $new_label_set->{labels};
+      reps_to_labels [map { (@{$_->{reps}}, {next_label => 1}) } @{$label_set->{labels}}] => $new_label_set->{labels}, $has_preferred;
       $new_label_set->{labels} = filter_labels $new_label_set->{labels};
       push @{$era->{label_sets}}, $new_label_set;
     }
@@ -775,32 +945,31 @@ sub to_hiragana ($) {
     for my $label_set (@{$era->{label_sets}}) {
       for my $label (@{$label_set->{labels}}) {
         if ($label->{is_name}) {
-            for my $text (@{$label->{texts}}) {
-              if ($text->{type} eq 'han') {
-                for my $value (@{$text->{values}}) {
-                  for my $lang (qw(ja cn tw)) {
-                    if (defined $value->{$lang} and
-                        (not defined $era->{'name_'.$lang} or
-                         ($value->{is_preferred} or {})->{$lang})) {
-                      $era->{'name_'.$lang} = serialize_segmented_text $value->{$lang};
-                      $value->{is_preferred}->{$lang} = 1;
-                      $era->{name} //= $era->{'name_'.$lang};
-                    }
-                    if (defined $value->{$lang} and
-                        defined $text->{abbr} and $text->{abbr} eq 'first') {
-                      $era->{abbr} //= serialize_segmented_text $value->{$lang};
-                    }
-                    $era->{names}->{serialize_segmented_text $value->{$lang}} = 1
-                        if defined $value->{$lang};
+          for my $text (@{$label->{texts}}) {
+            if ($text->{type} eq 'han') {
+              for my $value (@{$text->{values}}) {
+                for my $lang (qw(jp tw cn)) {
+                  if (defined $value->{$lang} and
+                      (not defined $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} or
+                       ($value->{is_preferred} or {})->{$lang})) {
+                    $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} = serialize_segmented_text $value->{$lang};
+                    $era->{name} //= $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang};
                   }
-                  for ($value->{ko} // undef, @{$value->{values} or []}) {
-                    next unless defined;
-                    my $s = serialize_segmented_text $_;
-                    $era->{names}->{$s} = 1;
-                    $era->{name} //= $s;
+                  if (defined $value->{$lang} and
+                      defined $text->{abbr} and $text->{abbr} eq 'first') {
+                    $era->{abbr} //= serialize_segmented_text $value->{$lang};
                   }
+                  $era->{names}->{serialize_segmented_text $value->{$lang}} = 1
+                      if defined $value->{$lang};
                 }
-              } elsif ($text->{type} eq 'alphabetical') {
+                for ($value->{kr} // undef, @{$value->{values} or []}) {
+                  next unless defined;
+                  my $s = serialize_segmented_text $_;
+                  $era->{names}->{$s} = 1;
+                  $era->{name} //= $s;
+                }
+              }
+            } elsif ($text->{type} eq 'alphabetical') {
                 for my $value (@{$text->{values}}) {
                   if (defined $value->{en} and
                       (not defined $era->{name_en} or
@@ -820,7 +989,7 @@ sub to_hiragana ($) {
                 for my $value (@{$text->{values}}) {
                   if (@{$value->{values}} and
                       (not defined $era->{name_ja} or
-                       ($value->{is_preferred} or {})->{ja})) {
+                       ($value->{is_preferred} or {})->{jp})) {
                     $era->{name_ja} = serialize_segmented_text $value->{values}->[0];
                     $era->{name} //= $era->{name_ja};
                   }
@@ -838,7 +1007,7 @@ sub to_hiragana ($) {
                 }
               } elsif ($text->{type} eq 'compound') {
                 if ((not defined $era->{name_ja} or
-                     ($text->{is_preferred} or {})->{ja})) {
+                     ($text->{is_preferred} or {})->{jp})) {
                   $era->{name_ja} = join '', map {
                     my $v = serialize_segmented_text ($_->{values}->[0]->{values}->[0] // die);
                     $v;
@@ -866,9 +1035,83 @@ sub to_hiragana ($) {
               }
             }
         } # is_name
-      } # $label_set
-    } # $label_set0
+      } # $label
+    } # $label_set
+    for my $label_set (@{$era->{label_sets}}) {
+      for my $label (@{$label_set->{labels}}) {
+        #XXX
+        if ($label->{is_name}) {
+          for my $text (@{$label->{texts}}) {
+            if ($text->{type} eq 'han') {
+              for my $value (@{$text->{values}}) {
+                for my $lang (qw(jp tw cn)) {
+                  if (defined $value->{$lang} and
+                      defined $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} and
+                      not (($value->{is_preferred} or {})->{$lang})) {
+                    my $v = serialize_segmented_text $value->{$lang};
+                    if ($v eq $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang}) {
+                    #  $value->{is_preferred}->{$lang} = 1;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        } # is_name
 
+        for my $text (@{$label->{texts}}) {
+          if ($text->{type} eq 'han') {
+            for my $value (@{$text->{values}}) {
+              next if defined $value->{type};
+              fill_han_variants $value;
+              for my $lang (qw(tw jp cn)) {
+                if ($label->{is_name} and
+                    defined $value->{$lang} and
+                    not defined $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang}) {
+                  $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} = serialize_segmented_text $value->{$lang};
+                  $era->{name} //= $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang};
+                }
+              }
+              for my $lang (@$LeaderKeys) {
+                if ($label->{is_name} and defined $value->{$lang}) {
+                  my $v = serialize_segmented_text $value->{$lang};
+                  $era->{names}->{$v} = 1 if defined $v;
+                }
+              }
+
+              #XXX
+              #my $vars = segmented_text_to_han_variants
+              #    $value->{tw} //
+              #    $value->{ja} //
+              #    $value->{cn} //
+              #    $value->{values}->[0];
+              #
+              ##...
+            }
+          } elsif ($text->{type} eq 'compound') {
+            for my $text (@{$text->{items}}) {
+              if ($text->{type} eq 'han') {
+                for my $value (@{$text->{values}}) {
+                  next if defined $value->{type};
+                  fill_han_variants $value;
+                }
+              }
+            }
+          }
+          for my $label (@{$text->{expandeds} or []}) {
+            for my $text (@{$label->{texts}}) {
+              if ($text->{type} eq 'han') {
+                for my $value (@{$text->{values}}) {
+                  next if defined $value->{type};
+                  fill_han_variants $value;
+                }
+              }
+            }
+          }
+        } # $text
+      }
+    }
+    
     $era->{ja_readings} = [map { my $v = {%$_}; delete $v->{yomi}; $v } grep { $_->{yomi} } map { @{$_->{texts}} } map { @{$_->{labels}} } @{$era->{label_sets}}];
     delete $era->{ja_readings} unless @{$era->{ja_readings}};
     for my $v (@{$era->{ja_readings} or []}) {
@@ -933,9 +1176,6 @@ sub to_hiragana ($) {
 }
 
 {
-  my $variants_path = $root_path->child ('local/char-variants.json');
-  my $variants_json = json_bytes2perl $variants_path->slurp;
-  my $Variants = $variants_json->{variants};
   my $Scores = {};
   for my $era (values %{$Data->{eras}}) {
     use utf8;
@@ -957,27 +1197,7 @@ sub to_hiragana ($) {
     $a->{key} cmp $b->{key};
   } values %{$Data->{eras}}) {
     my @all_name = keys %{$era->{names} or {}};
-    my @new_name;
-    for my $name (@all_name) {
-      my @name = split //, $name;
-      @name = map { [keys %$_] } map { $Variants->{$_} || {$_ => 1} } @name;
-      my $current = [''];
-      while (@name) {
-        my $char = shift @name;
-        my @next;
-        for my $p (@$current) {
-          for my $c (@$char) {
-            push @next, $p.$c;
-          }
-        }
-        $current = \@next;
-      }
-      push @new_name, @$current;
-      push @new_name, uc $name;
-      push @new_name, lc $name;
-    }
-    $era->{names}->{$_} = 1 for @new_name;
-    for (sort { $a cmp $b } @all_name, @new_name) {
+    for (sort { $a cmp $b } @all_name) {
       $Names->{$_}->{$era->{key}} = 1;
       $Data->{name_to_key}->{jp}->{$_} //= $era->{key};
     }

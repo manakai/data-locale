@@ -209,7 +209,9 @@ data/calendar/era-defs.json: bin/calendar-era-defs-events.pl \
 local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
     local/era-defs-jp.json local/era-defs-jp-emperor.json \
     src/wp-jp-eras.json \
-    local/char-variants.json \
+    local/cluster-root.json \
+    local/char-leaders.jsonl \
+    local/char-cluster.jsonl \
     local/era-defs-jp-wp-en.json \
     src/era-data*.txt \
     src/era-variants.txt \
@@ -234,9 +236,12 @@ data/calendar/era-codes.html: bin/calendar-era-codes.pl \
 
 local/chars-maps.json:
 	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-chars/master/data/maps.json
-local/char-variants.json: bin/char-variants.pl \
-    local/chars-maps.json src/char-variants.txt
-	$(PERL) $< > $@
+local/char-leaders.jsonl:
+	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-chars/master/intermediate/variants/char-leaders.jsonl
+local/char-cluster.jsonl:
+	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-chars/master/intermediate/variants/char-cluster.jsonl
+local/cluster-root.json:
+	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-chars/master/intermediate/variants/cluster-root.json
 
 local/eras/all: \
     local/eras/jp.txt \
