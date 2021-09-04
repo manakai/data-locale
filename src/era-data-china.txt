@@ -229,10 +229,10 @@ name_ja 孝恵
 name_tw 孝惠
 &
 name_ja 漢恵帝
-name_tw 漢恵帝
-name_cn 汉恵帝
+name_tw 漢惠帝
+name_cn 汉惠帝
 &
-name_tw 西漢恵帝
+name_tw 西漢惠帝
 
 ## [102]
 wref_zh 汉惠帝
@@ -846,6 +846,8 @@ tag 漢民族
 name_tw 黃龍
 name_cn 黄龙
 
+name_ja 黄竜
+
 ## [103]
 wref_ja 黄龍 (漢)
 name_ja 黄龍
@@ -1279,10 +1281,10 @@ name_kana ち こう
 
 &
 ## [102]
-name_tw 始建国地皇上戊
+name_tw 始建國地皇上戊
 name_cn 始建国地皇上戊
 &
-name_tw 始建国地皇
+name_tw 始建國地皇
 name_cn 始建国地皇
 
 [更始]
@@ -2197,6 +2199,8 @@ tag 漢民族
 name_tw 青龍
 name_cn 青龙
 
+name_ja 青竜
+
 ## [103]
 wref_ja 青龍 (魏)
 name_ja 青龍
@@ -2496,6 +2500,8 @@ tag 漢民族
 ## [102]
 name_tw 黃龍
 name_cn 黄龙
+
+name_ja 黄竜
 
 ## [103]
 wref_ja 黄龍 (呉)
@@ -5968,7 +5974,7 @@ tag 漢民族
 tag 旧説
 u 1
 
-name_ja 永曆
+name 永曆
 
 <-隆武 [明:1646-10] #南明 #朱以海 #支那改元日 #旧説
 <-隆武 [明:1646-11] #南明 #永暦帝 #支那改元日 #旧説
@@ -7526,7 +7532,7 @@ def[中華共和國]
 #y~1718
 
 name_tw 中華共和國
-name_cn 中華共和国
+name_cn 中华共和国
 name_ja 中華共和国
 &
 name_tw 中華共和

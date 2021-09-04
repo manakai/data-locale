@@ -47,7 +47,7 @@ name 共通紀元
 &&
 name 学暦
 &
-abbr_ja 学 学曆
+abbr_ja 学 学暦
 wref_zh 公元
 wref_ja 西暦
 AD1 = 1
@@ -299,7 +299,8 @@ name(en) Holocene calendar
 &
 name(en) Holocene Era
 &
-name_cn 全新世紀年
+name_tw 全新世紀年
+name_cn 全新世纪年
 &
 acronym(en) HE
 expanded(en) [H]uman [E]ra
@@ -309,10 +310,13 @@ name(en) Human Era
 name_ja 人類紀元
 name_kana じん るい き げん
 &
-name_cn 人類紀年
+name_tw 人類紀年
+name_cn 人类纪年
 &
-name_cn 人元紀年
+name_tw 人元紀年
+name_cn 人元纪年
 &
+name_tw 人元
 name_cn 人元
 wref_ja 人類紀元
 wref_en Holocene_calendar
@@ -435,7 +439,7 @@ sw 美禄
 def[禅源]
 sw 禅源
 #korea (高麗)
-name_ko 禅源
+name_ja 禅源
 
 
 
@@ -615,9 +619,14 @@ tag 日本の私年号
 
 def[勝照]
 name_ja 勝照
+&
 name_ja 照勝
+&
 name_ja 勝烈
+&
 name_ja 照烈
+&
+name_ja 勝熙
 name_ja 勝煕
 AD585 = 1
 tag 日本人
@@ -1331,12 +1340,12 @@ name 政安
 AD1053 = 1
 
 def[法堯]
-name_cn 法堯
+name_cn 法尧
 name_tw 法堯
 #was: wref_zh 中国年号列表
 
 def[興正]
-name_cn 興正
+name_cn 兴正
 name_tw 興正
 #was: wref_zh 中国年号列表
 

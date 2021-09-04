@@ -1016,7 +1016,7 @@ name_ja 天降紀元
 &
 name_ja 天降
 &
-name_ja 天孫降臨以來
+name 天孫降臨以來
 &
 name_ja 中興紀元
 &

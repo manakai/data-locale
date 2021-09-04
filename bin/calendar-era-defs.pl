@@ -627,16 +627,27 @@ my $LeaderKeys = [];
 
     my $has_value = {};
     for my $lang (@$LeaderKeys) {
-      if (not defined $x->{$lang}) {
-        my $v = [map {
-          my $c = $Leaders->{$_}->{$lang};
-          if (not defined $c or 1 == length $c) {
-            $c;
-          } else {
-            [$c];
+      my $v = [map {
+        my $c = $Leaders->{$_}->{$lang};
+        if (not defined $c or 1 == length $c) {
+          $c;
+        } else {
+          [$c];
+        }
+      } @$w];
+      undef $v if grep { not defined $_ } @$v;
+
+      if (defined $v) {
+        if (not defined $x->{$lang}) {
+          $x->{$lang} = $v;
+        } else {
+          my $vs = serialize_segmented_text_for_key $v;
+          my $xs = serialize_segmented_text_for_key $x->{$lang};
+          unless ($vs eq $xs) {
+            push @{$x->{values} ||= []}, $v;
+            push @{$x->{_ERRORS} ||= []}, "$lang=$xs ($vs expected)";
           }
-        } @$w];
-        $x->{$lang} = $v if not grep { not defined $_ } @$v;
+        }
       }
 
       $has_value->{serialize_segmented_text_for_key $x->{$lang}} = 1
