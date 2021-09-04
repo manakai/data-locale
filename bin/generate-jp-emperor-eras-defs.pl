@@ -10,7 +10,7 @@ my $Data = {};
 
 my $src_path = $root_path->child ('src/jp-emperor-eras.txt');
 for (split /\x0D?\x0A/, $src_path->slurp_utf8) {
-  if (/^(BC|)(\d+)\s+(\w+)\s+(\w+)\s+([\w-]+)$/) {
+  if (/^(BC|)(\d+)\s+(\w+)\s+([\w|]+)\s+([\w-]+)$/) {
     my $data = $Data->{eras}->{$3} ||= {};
     $data->{key} = $3;
     $data->{name} = $3;
@@ -23,6 +23,7 @@ for (split /\x0D?\x0A/, $src_path->slurp_utf8) {
         unless $3 eq '弘文天皇' or $3 eq '孝徳天皇';
     $data->{wref_ja} = $3;
     $data->{wref_en} = "Emperor_$5";
+    $data->{name_kana} =~ s/\|/ /g;
     $data->{wref_ja} =~ s/摂政$//;
     $data->{wref_en} =~ s/-tenn.$//;
     $data->{wref_en} = 'Empress_Jingū'
