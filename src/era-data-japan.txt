@@ -648,7 +648,7 @@ abbr_ja 令 令和
 code #7 令
 &
 acronym(ja_latn) R
-expanded(ja_latn) Reiwa
+expanded(ja_latn) [R]eiwa
 code #2 R
 code #1 5
 code #16 5
@@ -826,7 +826,7 @@ sw 芦原太陽暦
 #
 name_ja 芦原太陽暦
 name_ja 葦原太陽暦
-&
+&&
 name_ja 即位
 AD-23107 = 1
 tag 大日本帝国
@@ -841,7 +841,7 @@ sw 立教
 #
 name_ja 立教
 name_kana りっ きょう
-&
+#
 name(es) Rikkyo
 &
 acronym(ja_latn) R
@@ -1149,7 +1149,7 @@ name_ja 悪魔暦
 name_kana あく ま れき
 &
 acronym(en) D.C.
-expanded(en) Devil's Calendar
+expanded(en) [D]evil's [C]alendar
 # 魔暦前
 # 魔暦紀元前
 # B.D.

@@ -56,7 +56,7 @@ tag 蒙古帝国
 tag 蒙古
 name(ja) トルイ監国
 &
-name_cn 拖雷(监国)
+name(cn) 拖雷(监国)
 
 def[太宗]
 #y~1835
@@ -85,7 +85,7 @@ name(ja) ドレゲネ称制
 name(ja) 脱列哥那皇后(ドレゲネ)称制
 &
 name(ja) 昭慈后(称制)
-name_tw 昭慈后(稱制)
+name(tw) 昭慈后(稱制)
 
 def[定宗]
 #y~1837
@@ -111,7 +111,7 @@ u 1
 u 3
 name(ja) 欽淑后(オグルガイミシュ)称制
 &
-name_cn 钦淑后(称制)
+name(cn) 钦淑后(称制)
 
 def[憲宗]
 #y~1838

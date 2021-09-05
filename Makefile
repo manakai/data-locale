@@ -1,7 +1,7 @@
 WGET = wget
 GIT = git
 
-all: deps data
+all: deps data view
 
 clean: clean-data
 
@@ -442,6 +442,9 @@ data/langs/langtags.json: bin/langs-langtags.pl \
 	$(PERL) $< \
 	  local/langtags/subtag-registry local/langtags/ext-registry \
 	  local/cldr-repo/common/bcp47/*.xml > $@
+
+view: always
+	cd view && $(MAKE) all
 
 ## ------ Tests ------
 
