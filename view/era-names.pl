@@ -53,49 +53,49 @@ print q{<!DOCTYPE html>
   table.all > tbody > tr > td {
   }
 
-  .text-values {
+  .form-sets {
     writing-mode: vertical-lr;
     border-collapse: collapse;
     border: 1px solid gray;
   }
 
-  .text-values tbody {
+  .form-sets tbody {
     border-block-start: 1px solid gray;
     border-block-end: 1px solid gray;
   }
 
-  .text-values th {
+  .form-sets th {
     padding: 4px;
     font-size: 80%;
     font-weight: normal;
     text-align: end;
   }
 
-  th.value-header {
+  th.form-set-header {
     writing-mode: horizontal-tb;
     border-bottom: 1px solid white;
     text-align: center;
   }
 
-  .text-values tr:not(:first-child) {
+  .form-sets tr:not(:first-child) {
     border-block-start: 1px solid #eee;
   }
 
-  .text-values tr:not(:first-child) > th {
+  .form-sets tr:not(:first-child) > th {
     border-block-start: 1px solid white;
   }
 
-  .text-values td {
+  .form-sets td {
     font-size: 200%;
     min-inline-size: 1em;
     text-align: center;
   }
 
-  .text-values td {
+  .form-sets td {
     border-inline-start: 1px #eee solid;
   }
 
-  .value-type-on td {
+  .form-set-type-on td {
     font-size: 90%;
   }
 
@@ -185,7 +185,7 @@ printf q{<table class=all>
 for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
   my $lses = [@{$era->{label_sets} or []}];
   
-  printf q{<tbody><tr><th rowspan="%d"><code>y~%d</code><p class=info><code>%s</code>},
+  printf qq{\n<tbody><tr><th rowspan="%d"><code>y~%d</code><p class=info><code>%s</code>},
       1+@{[map { (1,1) } map { @{$_->{texts}} } map { @{$_->{labels}} } @$lses]} || 1,
       $era->{id}, $era->{key};
 
@@ -251,15 +251,15 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
           my $print_values = sub {
             my ($values, $patterns, $short_patterns) = @_;
             for my $value (@$values) {
-              printf qq{<tbody class="value-type-%s">\n},
-                  $value->{type} // '';
+              printf qq{\n<tbody class="form-set-type-%s">\n},
+                  $value->{form_set_type} // die;
               my $ai = $value->{abbr_indexes} || [];
               my $preferred = $value->{is_preferred} || {};
               my @kv = map {
                 if ({
                   kana_others => 1,
                   latin_others => 1,
-                  values => 1,
+                  others => 1,
                 }->{$_}) {
                   my $key = $_;
                   map { [$key => $_] } @{$value->{$_}};
@@ -268,13 +268,13 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
                 }
               } sort { $a cmp $b } grep { not {
                 abbr_indexes => 1,
-                type => 1,
+                form_set_type => 1,
                 segment_length => 1,
                 is_preferred => 1,
               }->{$_} } keys %$value;
-              printf q{<tr><th rowspan=%d class=value-header><code>%s</code>},
+              printf q{<tr><th rowspan=%d class=form-set-header>form set <code>%s</code>},
                   @kv+(defined $short_patterns ? 1 : 0),
-                  $value->{type} // '-';
+                  $value->{form_set_type};
               for my $kv (@kv) {
                 my $v = $kv->[1];
                 print qq{<tr>\n} unless $kv eq $kv[0];
@@ -342,16 +342,16 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
                   htescape $item->{type};
 
               my $patterns = {};
-              print q{<table class=text-values>};
-              $print_values->($item->{values}, $patterns, undef);
+              print q{<table class=form-sets>};
+              $print_values->($item->{form_sets}, $patterns, undef);
               print q{</table>};
               
               printf q{</v-item>};
             }
           } else {
             my $patterns = {};
-            print q{<table class=text-values>};
-            $print_values->($rep->{values}, $patterns, undef);
+            print q{<table class=form-sets>};
+            $print_values->($rep->{form_sets}, $patterns, undef);
             print q{</table>};
 
             for my $label (@{$rep->{expandeds} or []}) {
@@ -361,7 +361,7 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
                     htescape $text->{type};
                 
                 print q{<table>};
-                $print_values->($text->{values}, {}, $patterns);
+                $print_values->($text->{form_sets}, {}, $patterns);
                 print q{</table>};
               }
               print q{</v-expanded>};
