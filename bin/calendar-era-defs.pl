@@ -694,7 +694,6 @@ my $LeaderKeys = [];
        e => "\x{0113}", o => "\x{014D}"}->{$1};
     }ge;
     #$s =~ s/ //g;
-    $s =~ s/n( ?[mpb])/m$1/g;
     die $s if $s =~ /\p{Hiragana}/;
     #return ucfirst $s;
     return $s;
@@ -710,6 +709,44 @@ my $LeaderKeys = [];
     return $s;
   }
 
+  sub romaji_variants (@) {
+    my @s = @_;
+    my $found = {};
+    $found->{$_} = 1 for @s;
+    my @r = @s;
+    for (@s) {
+      {
+        my $s = $_;
+        $s =~ s/n( ?[mpb])/m$1/g;
+        push @r, $s;
+
+        $s =~ s/m m([aiueo\x{0101}\x{016B}\x{016B}\x{0113}\x{014D}y])/m ' m$1/g;
+        push @r, $s;
+      }
+      {
+        my $s = $_;
+        $s =~ s/n ' n/n n/g;
+        push @r, $s;
+      }
+    }
+    {
+      my @t = @r;
+      for (@t) {
+        my $s = $_;
+        $s =~ s/m( ?)(?:' |)([mpb])/n$1$2/g;
+        $s =~ s/sh([i\x{012B}])/s$1/g;
+        $s =~ s/ch([i\x{012B}])/t$1/g;
+        $s =~ s/j([i\x{012B}])/z$1/g;
+        $s =~ s/ts([u\x{016B}])/t$1/g;
+        $s =~ s/sh([aueo\x{0101}\x{016B}\x{0113}\x{014D}])/sy$1/g;
+        $s =~ s/ch([aueo\x{0101}\x{016B}\x{0113}\x{014D}])/ty$1/g;
+        $s =~ s/j([aueo\x{0101}\x{016B}\x{0113}\x{014D}])/zy$1/g;
+        push @r, $s;
+      }
+    }
+    return [grep { not $found->{$_}++ } sort { $a cmp $b } @r];
+  } # romaji_variants
+
   sub to_hiragana ($) {
     use utf8;
     my $s = shift;
@@ -724,28 +761,6 @@ my $LeaderKeys = [];
     return $s;
   } # to_katakana
 
-  sub fill_kana ($) {
-    my $s = shift;
-    use utf8;
-
-    my $v = $s->{kana};
-    $s->{hiragana_modern} //= [map {
-      to_hiragana $_;
-    } @$v];
-    $s->{hiragana} //= $s->{hiragana_modern};
-    $s->{katakana_modern} //= [map {
-      to_katakana $_;
-    } @$v];
-    $s->{katakana} //= $s->{katakana_modern};
-    $s->{latin_normal} //= [map { {'.・' => '._'}->{$_} // $_ } map {
-      romaji $_;
-    } @{$s->{hiragana}}];
-    $s->{latin_macron} //= [map { {'.・' => '._'}->{$_} // $_ } map {
-      romaji2 $_;
-    } @{$s->{hiragana}}];
-    $s->{latin} //= $s->{latin_macron};
-  } # fill_kana
-
   sub fill_on ($) {
     my $rep = shift;
 
@@ -754,8 +769,41 @@ my $LeaderKeys = [];
       $rep->{latin_normal} //= romaji $rep->{kana_modern};
       $rep->{latin_macron} //= romaji2 $rep->{kana_modern};
       $rep->{latin} //= $rep->{latin_macron};
+
+      my $variants = romaji_variants $rep->{latin_normal}, $rep->{latin_macron};
+      push @{$rep->{latin_others}}, @$variants;
     }
   } # fill_on
+
+  sub fill_kana ($) {
+    my $v = shift;
+    use utf8;
+
+    my $s = $v->{kana};
+    $v->{hiragana_modern} //= [map {
+      to_hiragana $_;
+    } @$s];
+    $v->{hiragana} //= $v->{hiragana_modern};
+    $v->{katakana_modern} //= [map {
+      to_katakana $_;
+    } @$s];
+    $v->{katakana} //= $v->{katakana_modern};
+
+    my $rep = {};
+    $rep->{kana_modern} = join ' ', map {
+      {'.・' => '._'}->{$_} // $_;
+    } @{$v->{hiragana_modern}};
+    fill_on $rep;
+
+    for (qw(latin latin_normal latin_macron)) {
+      $v->{$_} = [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $rep->{$_}]
+          if defined $rep->{$_};
+    }
+    for (@{$rep->{latin_others} or []}) {
+      push @{$v->{latin_others} ||= []},
+          [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $_];
+    }
+  } # fill_kana
 }
 
 ## Name shorthands
@@ -874,16 +922,22 @@ my $LeaderKeys = [];
             fill_on $rep;
 
             $v->{form_set_type} = 'on';
-            for (qw(kana kana_modern kana_classic)) {
-              $v->{$_} = [split / /, $rep->{$_}]
-                  if defined $rep->{$_};
-            }
+            $v->{hiragana} = [split / /, $rep->{kana}]
+                if defined $rep->{kana};
+            $v->{hiragana_modern} = [split / /, $rep->{kana_modern}]
+                if defined $rep->{kana_modern};
+            $v->{hiragana_classic} = [split / /, $rep->{kana_classic}]
+                if defined $rep->{kana_classic};
             for (@{$rep->{kana_others} or []}) {
-              push @{$v->{kana_others} ||= []}, [split / /, $_];
+              push @{$v->{hiragana_others} ||= []}, [split / /, $_];
             }
             for (qw(latin latin_normal latin_macron)) {
               $v->{$_} = [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $rep->{$_}]
                   if defined $rep->{$_};
+            }
+            for (@{$rep->{latin_others} or []}) {
+              push @{$v->{latin_others} ||= []},
+                  [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $_];
             }
           } elsif ($rep->{type} eq 'alphabetical') {
             if (@{$label->{texts}} and
@@ -973,17 +1027,23 @@ my $LeaderKeys = [];
                   my $rep = {kana_modern => $1};
                   fill_on $rep;
                   $v->{form_set_type} = 'on';
-
-                  for (qw(kana kana_modern kana_classic)) {
-                    $v->{$_} = [split / /, $rep->{$_}]
-                        if defined $rep->{$_};
-                  }
+                  
+                  $v->{hiragana} = [split / /, $rep->{kana}]
+                      if defined $rep->{kana};
+                  $v->{hiragana_modern} = [split / /, $rep->{kana_modern}]
+                      if defined $rep->{kana_modern};
+                  $v->{hiragana_classic} = [split / /, $rep->{kana_classic}]
+                      if defined $rep->{kana_classic};
                   for (@{$rep->{kana_others} or []}) {
-                    push @{$v->{kana_others} ||= []}, [split / /, $_];
+                    push @{$v->{hiragana_others} ||= []}, [split / /, $_];
                   }
                   for (qw(latin latin_normal latin_macron)) {
                     $v->{$_} = [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $rep->{$_}]
                         if defined $rep->{$_};
+                  }
+                  for (@{$rep->{latin_others} or []}) {
+                    push @{$v->{latin_others} ||= []},
+                        [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $_];
                   }
                 }
               } elsif ($rep->{value} =~ s/\A(\p{Latn}+)//) {
@@ -1206,7 +1266,7 @@ my $LeaderKeys = [];
                         $_->{form_set_type} eq 'on';
                       } @{$_->{form_sets}}]->[0];
                       if (defined $yomi) {
-                        serialize_segmented_text $yomi->{kana};
+                        serialize_segmented_text $yomi->{hiragana_modern};
                       } else {
                         $no_kana = 1;
                       }
@@ -1257,12 +1317,12 @@ my $LeaderKeys = [];
                   }
                 }
               } elsif ($value->{form_set_type} eq 'on') {
-                $era->{name_kana} //= serialize_segmented_text $value->{kana};
-                for (grep { length }
-                     $value->{kana} // '',
-                     $value->{kana_modern} // '',
-                     $value->{kana_classic} // '',
-                     @{$value->{kana_others} or []}) {
+                $era->{name_kana} //= serialize_segmented_text $value->{hiragana_modern};
+                for (grep { defined }
+                     $value->{hiragana} // undef,
+                     $value->{hiragana_modern} // undef,
+                     $value->{hiragana_classic} // undef,
+                     @{$value->{hiragana_others} or []}) {
                   my $v = serialize_segmented_text $_;
                   $era->{name_kanas}->{$v} = 1;
                 }

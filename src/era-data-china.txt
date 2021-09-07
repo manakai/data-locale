@@ -1144,7 +1144,7 @@ u 26
 ## [103]
 wref_ja 元始 (漢)
 name_ja 元始
-name_kana げんし
+name_kana げん し
 u 1
 u 5
 #

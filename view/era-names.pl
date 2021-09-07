@@ -95,7 +95,20 @@ print q{<!DOCTYPE html>
     border-inline-start: 1px #eee solid;
   }
 
-  .form-set-type-on td {
+  .form-set-type-on td,
+  .form-set-type-kana .form-type-hiragana td,
+  .form-set-type-kana .form-type-hiragana_modern td,
+  .form-set-type-kana .form-type-katakana td,
+  .form-set-type-kana .form-type-katakana_modern td,
+  .form-set-type-kana .form-type-latin td,
+  .form-set-type-kana .form-type-latin_macron td,
+  .form-set-type-kana .form-type-latin_normal td,
+  .form-set-type-kana .form-type-latin_others td,
+  .form-set-type-manchu .form-type-moellendorff td,
+  .form-set-type-manchu .form-type-abkai td,
+  .form-set-type-manchu .form-type-xinmanhan td,
+  .form-set-type-mongolian .form-type-cyrillic td,
+  .form-set-type-mongolian .form-type-vpmc td {
     font-size: 90%;
   }
 
@@ -256,9 +269,14 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
                   $value->{form_set_type} // die;
               my $ai = $value->{abbr_indexes} || [];
               my $preferred = $value->{is_preferred} || {};
+              my $kmap = {
+                kana => {kana => '0'},
+                manchu => {manchu => '0'},
+                mongolian => {mongolian => '0'},
+              }->{$value->{form_set_type}} || {};
               my @kv = map {
                 if ({
-                  kana_others => 1,
+                  hiragana_others => 1,
                   latin_others => 1,
                   others => 1,
                 }->{$_}) {
@@ -267,18 +285,28 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
                 } else {
                   [$_ => $value->{$_}];
                 }
-              } sort { $a cmp $b } grep { not {
+              } map { $_->[0] } sort {
+                $a->[1] cmp $b->[1] ||
+                $a->[0] cmp $b->[0];
+              } map {
+                my $key = $kmap->{$_} // $_;
+                $key =~ s/normal/\x{0000}/g;
+                $key =~ s/other/\x{10FFFF}/g;
+                [$_, $key];
+              } grep { not {
                 abbr_indexes => 1,
                 form_set_type => 1,
                 segment_length => 1,
                 is_preferred => 1,
               }->{$_} } keys %$value;
-              printf q{<tr><th rowspan=%d class=form-set-header>form set <code>%s</code>},
+              printf q{<tr class="form-type-%s"><th rowspan=%d class=form-set-header>form set <code>%s</code>},
+                  $kv[0]->[0],
                   @kv+(defined $short_patterns ? 1 : 0),
                   $value->{form_set_type};
               for my $kv (@kv) {
                 my $v = $kv->[1];
-                print qq{<tr>\n} unless $kv eq $kv[0];
+                printf qq{<tr class="form-type-%s">\n},
+                    $kv->[0] unless $kv eq $kv[0];
                 if (ref $v eq 'ARRAY') {
                   printf qq{<th>};
                   print q{<mark>} if $preferred->{$kv->[0]};

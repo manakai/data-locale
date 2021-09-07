@@ -308,7 +308,6 @@ for my $id (6090..6091) {
     $s =~ s/^(\S+ \S+) (\S+ \S+)$/$1 - $2/g;
     $s =~ s/n ([aiueoyn])/n ' $1/g;
     #$s =~ s/ //g;
-    $s =~ s/n( ?[mpb])/m$1/g;
     die $s if $s =~ /\p{Hiragana}/;
     #return ucfirst $s;
     return $s;
@@ -323,6 +322,44 @@ for my $id (6090..6091) {
     #return ucfirst $s;
     return $s;
   }
+  
+  sub romaji_variants (@) {
+    my @s = @_;
+    my $found = {};
+    $found->{$_} = 1 for @s;
+    my @r = @s;
+    for (@s) {
+      {
+        my $s = $_;
+        $s =~ s/n( ?[mpb])/m$1/g;
+        push @r, $s;
+
+        $s =~ s/m m([aiueo\x{0101}\x{016B}\x{016B}\x{0113}\x{014D}y])/m ' m$1/g;
+        push @r, $s;
+      }
+      {
+        my $s = $_;
+        $s =~ s/n ' n/n n/g;
+        push @r, $s;
+      }
+    }
+    {
+      my @t = @r;
+      for (@t) {
+        my $s = $_;
+        $s =~ s/m( ?)(?:' |)([mpb])/n$1$2/g;
+        $s =~ s/sh([i\x{012B}])/s$1/g;
+        $s =~ s/ch([i\x{012B}])/t$1/g;
+        $s =~ s/j([i\x{012B}])/z$1/g;
+        $s =~ s/ts([u\x{016B}])/t$1/g;
+        $s =~ s/sh([aueo\x{0101}\x{016B}\x{0113}\x{014D}])/sy$1/g;
+        $s =~ s/ch([aueo\x{0101}\x{016B}\x{0113}\x{014D}])/ty$1/g;
+        $s =~ s/j([aueo\x{0101}\x{016B}\x{0113}\x{014D}])/zy$1/g;
+        push @r, $s;
+      }
+    }
+    return [grep { not $found->{$_}++ } sort { $a cmp $b } @r];
+  } # romaji_variants
 }
 
 {
@@ -356,6 +393,10 @@ for my $id (6090..6091) {
               $v->{latin_normal} = romaji $new;
           push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6103} ||= []},
               $v->{latin} = $v->{latin_macron} = romaji2 $new;
+          my $variants = romaji_variants $v->{latin_normal}, $v->{latin_macron};
+          push @{$v->{latin_others}}, @$variants;
+          push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6103} ||= []},
+              @$variants;
         }
         use utf8;
         if (defined $old and length $old) {
