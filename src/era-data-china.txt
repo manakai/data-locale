@@ -6917,7 +6917,7 @@ tag 王大叔
 ## [103]
 wref_ja 大慶
 name_ja 大慶
-name_kana だいけい
+name_kana だい けい
 
 #
 [嘉慶(丙辰)]

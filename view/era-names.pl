@@ -192,7 +192,8 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
   {
     my $patterns = {};
     printf qq{<td colspan=3 class=summary><p>\n};
-    for my $key (qw(name name_tw name_ja name_cn name_ko name_en name_kana)) {
+    for my $key (qw(name name_tw name_ja name_cn name_ko name_kana
+                    name_en name_latn)) {
       printf q{ <code>%s</code>: },
           $key;
       my $v = $era->{$key};

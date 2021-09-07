@@ -287,6 +287,10 @@ The file contains a JSON object with following name/value pairs:
 
         The name of the era in Simplified Chinese, if known.
 
+      name_en [string?]
+
+        The name of the era in English, if known.
+
       name_ja [string?]
 
         The name of the era in contemporary Japanese, if known.

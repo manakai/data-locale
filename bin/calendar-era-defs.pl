@@ -71,7 +71,7 @@ my $TagByKey = {};
 ## Japanese official eras && pre-大宝 emperor eras
 for (
   ['src/wp-jp-eras.json', undef, 'name' => ['name', 'wref_ja']],
-  ['local/era-defs-jp-emperor.json', 'eras', 'name' => ['name_ja', 'name_kana', 'name_latn', 'offset', 'wref_ja', 'wref_en']],
+  ['local/era-defs-jp-emperor.json', 'eras', 'name' => ['name_ja', 'name_kana', 'offset', 'wref_ja', 'wref_en']],
   ['local/era-defs-jp-wp-en.json', 'eras', 'key' => ['wref_en']],
   ['local/era-yomi-list.json', 'eras', 'key' => ['ja_readings']],
 ) {
@@ -114,7 +114,8 @@ for (
               map { {%$_, kind => 'yomi', type => 'on'} } @{$data->{$_}};
         } elsif ($_ eq 'name_kana') {
           push @{$Data->{eras}->{$key}->{_LABELS}->[0]->{labels}->[0]->{reps}},
-              map { {kana => $_, kind => 'yomi', type => 'on'} } $data->{$_};
+              map { {kind => 'yomi', type => 'on',
+                     kana_modern => $_} } $data->{$_};
         } else {
           $Data->{eras}->{$key}->{$_} = $data->{$_};
         }
@@ -321,7 +322,7 @@ for my $path (
           {kind => 'name', type => 'han', value => $2, preferred => $1};
     } elsif (defined $key and /^name_kana\s+(.+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
-          {kind => 'yomi', type => 'on', kana => $1};
+          {kind => 'yomi', type => 'on', kana_modern => $1};
     } elsif (defined $key and /^name_(ja|cn|tw|ko)(!|)\s+([\p{Han}]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name', type => 'han', lang => $1, value => $3,
@@ -559,33 +560,6 @@ my $LeaderKeys = [];
     $Leaders->{$json->[0]} = $r;
   }
 
-  #XXX
-  if (0) {
-  my $level_index = @{$root->{cluster_levels}} - [grep { $_->{key} eq 'EQUIV' } @{$root->{cluster_levels}}]->[0]->{index};
-  my $cpath = $root_path->child ("local/char-cluster.jsonl");
-  my $cfile = $cpath->openr;
-  local $/ = "\x0A";
-  my $leader_to_cluster_index = {};
-  my $cluster_index_to_chars = [];
-  while (<$cfile>) {
-    my $json = json_bytes2perl $_;
-    my $c = $json->[0];
-    my $leader = $Leaders->{$c}->{all};
-    next unless defined $leader;
-    my $cluster_index = $json->[1]->[$level_index];
-    $leader_to_cluster_index->{$leader} = $cluster_index;
-    push @{$cluster_index_to_chars->[$cluster_index] ||= []}, $c;
-  }
-
-  sub to_han_variants ($) {
-    my $c = shift;
-    my $s = $Leaders->{$c}->{all} // return undef;
-    my $ci = $leader_to_cluster_index->{$s} // return undef;
-    my $cc = $cluster_index_to_chars->[$ci] // return undef;
-    return $cc;
-  } # to_han_variants
-  }
-
   sub segmented_text_to_han_variants ($) {
     my $ss = shift;
 
@@ -672,6 +646,116 @@ my $LeaderKeys = [];
     } @{$x->{others} or []}];
     delete $x->{others} unless @{$x->{others}};
   } # fill_han_variants
+}
+
+{
+  my $ToLatin = {qw(
+    あ a い i う u え e お o
+    か ka き ki く ku け ke こ ko
+    さ sa し shi す su せ se そ so
+    た ta ち chi つ tsu て te と to
+    な na に ni ぬ nu ね ne の no
+    は ha ひ hi ふ fu へ he ほ ho
+    ま ma み mi む mu め me も mo
+    や ya ゆ yu よ yo
+    ら ra り ri る ru れ re ろ ro
+    わ wa ん n
+    が ga ぎ gi ぐ gu げ ge ご go
+    ざ za じ ji ず zu ぜ ze ぞ zo
+    だ da で de ど do
+    ば ba び bi ぶ bu べ be ぼ bo
+    ぱ pa ぴ pi ぷ pu ぺ pe ぽ po
+    きゃ kya きゅ kyu きょ kyo
+    しゃ sha しゅ shu しょ sho
+    ちゃ cha ちゅ chu ちょ cho
+    にゃ nya にゅ nyu にょ nyo
+    ひゃ hya ひゅ hyu ひょ hyo
+    みゃ mya みゅ myu みょ myo
+    りゃ rya りゅ ryu りょ ryo
+    ぎゃ gya ぎゅ gyu ぎょ gyo
+    じゃ ja じゅ ju じょ jo
+    びゃ bya びゅ byu びょ byo
+    ぴゃ pya ぴゅ pyu ぴょ pyo
+
+    ちぇ che
+  )};
+  sub romaji ($) {
+    my $s = shift;
+    $s =~ s/([きしちにひみりぎじびぴ][ゃゅょぇ])/$ToLatin->{$1}/g;
+    $s =~ s/([あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわんがぎぐげござじずぜぞだでどばびぶべぼぱぴぷぺぽ])/$ToLatin->{$1}/g;
+    #$s =~ s/^(\S+ \S+) (\S+ \S+)$/$1 - $2/g;
+    $s =~ s/ (ten nou|ki [gn]en)$/ - $1/g;
+    $s =~ s/ (kou gou) (seっ shou)$/ - $1 - $2/g;
+    $s =~ s/^(\S+) (\S+) (reki)$/$1 $2 - $3/g;
+    $s =~ s/n ([aiueoyn])/n ' $1/g;
+    $s =~ s/っ ([ksthyrwgzdbp])/$1 $1/g;
+    $s =~ s{([aiueo])ー}{
+      {a => "\x{0101}", i => "\x{012B}", u => "\x{016B}",
+       e => "\x{0113}", o => "\x{014D}"}->{$1};
+    }ge;
+    #$s =~ s/ //g;
+    $s =~ s/n( ?[mpb])/m$1/g;
+    die $s if $s =~ /\p{Hiragana}/;
+    #return ucfirst $s;
+    return $s;
+  }
+
+  sub romaji2 ($) {
+    #my $s = lcfirst romaji $_[0];
+    my $s = romaji $_[0];
+    $s =~ s/ou/\x{014D}/g;
+    $s =~ s/uu/\x{016B}/g;
+    #$s =~ s/ii/\x{012B}/g;
+    #return ucfirst $s;
+    return $s;
+  }
+
+  sub to_hiragana ($) {
+    use utf8;
+    my $s = shift;
+    $s =~ tr/アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮ/あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎ/;
+    return $s;
+  } # to_hiragana
+
+  sub to_katakana ($) {
+    use utf8;
+    my $s = shift;
+    $s =~ tr/あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎ/アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮ/;
+    return $s;
+  } # to_katakana
+
+  sub fill_kana ($) {
+    my $s = shift;
+    use utf8;
+
+    my $v = $s->{kana};
+    $s->{hiragana_modern} //= [map {
+      to_hiragana $_;
+    } @$v];
+    $s->{hiragana} //= $s->{hiragana_modern};
+    $s->{katakana_modern} //= [map {
+      to_katakana $_;
+    } @$v];
+    $s->{katakana} //= $s->{katakana_modern};
+    $s->{latin_normal} //= [map { {'.・' => '._'}->{$_} // $_ } map {
+      romaji $_;
+    } @{$s->{hiragana}}];
+    $s->{latin_macron} //= [map { {'.・' => '._'}->{$_} // $_ } map {
+      romaji2 $_;
+    } @{$s->{hiragana}}];
+    $s->{latin} //= $s->{latin_macron};
+  } # fill_kana
+
+  sub fill_on ($) {
+    my $rep = shift;
+
+    if (defined $rep->{kana_modern}) {
+      $rep->{kana} //= $rep->{kana_modern};
+      $rep->{latin_normal} //= romaji $rep->{kana_modern};
+      $rep->{latin_macron} //= romaji2 $rep->{kana_modern};
+      $rep->{latin} //= $rep->{latin_macron};
+    }
+  } # fill_on
 }
 
 ## Name shorthands
@@ -787,6 +871,7 @@ my $LeaderKeys = [];
               }
             }
             $value->{type} = 'han';
+            fill_on $rep;
 
             $v->{form_set_type} = 'on';
             for (qw(kana kana_modern kana_classic)) {
@@ -875,7 +960,7 @@ my $LeaderKeys = [];
                 my $w = [map {
                   /^\s+$/ ? '._' : $_ eq "・" ? '.・' : $_ eq "、" ? '.・' : $_;
                 } grep { length } split /([・、]|\s+)/, $1];
-                push @{$v->{others} ||= []}, $w;
+                $v->{kana} = $w;
               } elsif ($rep->{value} =~ s/\A(\p{Han}+)//) {
                 $value->{type} = 'han';
                 $v->{form_set_type} = 'hanzi';
@@ -884,10 +969,22 @@ my $LeaderKeys = [];
                 if ($rep->{value} =~ s/\A\[(\p{Hiragana}+(?:\s+\p{Hiragana}+)*)\]//) {
                   push @{$value->{form_sets}}, $v;
                   $v = {};
-                  
-                  my $w = [split /\s+/, $1];
+
+                  my $rep = {kana_modern => $1};
+                  fill_on $rep;
                   $v->{form_set_type} = 'on';
-                  $v->{kana} = $w;
+
+                  for (qw(kana kana_modern kana_classic)) {
+                    $v->{$_} = [split / /, $rep->{$_}]
+                        if defined $rep->{$_};
+                  }
+                  for (@{$rep->{kana_others} or []}) {
+                    push @{$v->{kana_others} ||= []}, [split / /, $_];
+                  }
+                  for (qw(latin latin_normal latin_macron)) {
+                    $v->{$_} = [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $rep->{$_}]
+                        if defined $rep->{$_};
+                  }
                 }
               } elsif ($rep->{value} =~ s/\A(\p{Latn}+)//) {
                 $value->{type} = 'alphabetical';
@@ -992,13 +1089,6 @@ my $LeaderKeys = [];
 
     push @$labels, $label unless $label_added;
   } # reps_to_labels
-
-sub to_hiragana ($) {
-  use utf8;
-  my $s = shift;
-  $s =~ tr/アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮ/あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎ/;
-  return $s;
-} # to_hiragana
   
   for my $era (values %{$Data->{eras}}) {
     my $has_preferred = {};
@@ -1078,10 +1168,9 @@ sub to_hiragana ($) {
                 }
               } elsif ($text->{type} eq 'kana') {
                 for my $value (@{$text->{form_sets}}) {
-                  my $name = serialize_segmented_text $value->{others}->[0];
-                  if (@{$value->{others}} and
-                      (not defined $era->{name_ja} or
-                       ($value->{is_preferred} or {})->{jp})) {
+                  my $name = serialize_segmented_text $value->{kana};
+                  if (not defined $era->{name_ja} or
+                      ($value->{is_preferred} or {})->{jp}) {
                     $era->{name_ja} = $name;
                     $era->{name} //= $era->{name_ja};
                   }
@@ -1100,7 +1189,8 @@ sub to_hiragana ($) {
                 }
               } elsif ($text->{type} eq 'compound') {
                 my $name = join '', map {
-                  my $v = serialize_segmented_text ($_->{form_sets}->[0]->{others}->[0] // die);
+                  my $x = $_->{form_sets}->[0];
+                  my $v = serialize_segmented_text (($x->{form_set_type} eq 'kana' ? $x->{kana} : $x->{others}->[0]) // die);
                   $v;
                 } @{$text->{items}};
                 $era->{names}->{$name} = 1;
@@ -1110,7 +1200,7 @@ sub to_hiragana ($) {
                   my $no_kana = 0;
                   my $kana = join '', map {
                     if ($_->{type} eq 'kana') {
-                      to_hiragana serialize_segmented_text ($_->{form_sets}->[0]->{others}->[0] // die);
+                      to_hiragana serialize_segmented_text ($_->{form_sets}->[0]->{kana} // die);
                     } elsif ($_->{type} eq 'han') {
                       my $yomi = [grep {
                         $_->{form_set_type} eq 'on';
@@ -1147,26 +1237,6 @@ sub to_hiragana ($) {
     } # $label_set
     for my $label_set (@{$era->{label_sets}}) {
       for my $label (@{$label_set->{labels}}) {
-        #XXX
-        if ($label->{is_name}) {
-          for my $text (@{$label->{texts}}) {
-            if ($text->{type} eq 'han') {
-              for my $value (@{$text->{form_sets}}) {
-                for my $lang (qw(jp tw cn)) {
-                  if (defined $value->{$lang} and
-                      defined $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} and
-                      not (($value->{is_preferred} or {})->{$lang})) {
-                    my $v = serialize_segmented_text $value->{$lang};
-                    if ($v eq $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang}) {
-                    #  $value->{is_preferred}->{$lang} = 1;
-                    }
-                  }
-                }
-              }
-            }
-          }
-        } # is_name
-
         for my $text (@{$label->{texts}}) {
           if ($text->{type} eq 'han') {
             for my $value (@{$text->{form_sets}}) {
@@ -1204,6 +1274,15 @@ sub to_hiragana ($) {
                 }
               }
             }
+          } elsif ($text->{type} eq 'kana') {
+            for my $value (@{$text->{form_sets}}) {
+              fill_kana $value;
+              if (defined $value->{latin} and
+                  not defined $era->{name_latn}) {
+                $era->{name_latn} = serialize_segmented_text $value->{latin};
+                $era->{name_latn} =~ s/^([a-zāīūēō])/uc $1/e;
+              }
+            }
           } elsif ($text->{type} eq 'compound') {
             for my $text (@{$text->{items}}) {
               if ($text->{type} eq 'han') {
@@ -1211,6 +1290,10 @@ sub to_hiragana ($) {
                   if ($value->{form_set_type} eq 'hanzi') {
                     fill_han_variants $value;
                   }
+                }
+              } elsif ($text->{type} eq 'kana') {
+                for my $value (@{$text->{form_sets}}) {
+                  fill_kana $value;
                 }
               }
             }
