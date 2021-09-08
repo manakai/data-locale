@@ -305,6 +305,9 @@ tag 追号説のある元号
 [神護景雲]
 #XXXabbr_ja 云
 
+[仁安]
+name(ja) 人[J:]の[J:]やすけき[J:]
+
 [延元]
 tag 日本北朝の公年号
 [正平]
@@ -1010,9 +1013,7 @@ def[天降紀元]
 sw 天降紀元
 #
 name_ja 天降紀元
-#XXX
-#天降 紀 元
-#name_kana あもり き げん
+name(ja) 天降[J:あもり]紀元[き げん]
 &
 name_ja 天降
 &
@@ -1078,13 +1079,13 @@ sw 神の国の紀元
 #
 name_ja 紀元
 &
-name_ja 大神様紀元
+name(ja) 大|神|様[J:]紀元
 &
-name(ja) 神の国の紀元
+name(ja) 神[J:]の[J:]国[J:]の[J:]紀元
 &
-name(ja) 神の国年
+name(ja) 神[J:]の[J:]国[J:]年
 &
-name(ja) 神の国開元の年
+name(ja) 神[J:]の[J:]国[J:]開元の[J:]年
 AD1946 = 1
 tag 日本人
 tag 日本国

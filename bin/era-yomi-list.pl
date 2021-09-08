@@ -386,6 +386,7 @@ for my $id (6090..6091) {
         my ($new, $old, @others) = split /,/, $_, -1;
         s/\|/ /g for grep { defined } ($new, $old, @others);
         my $v = {};
+        $v->{is_ja} = 1 if $is_ja;
         if (length $new) {
           push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6100} ||= []},
               $v->{kana} = $v->{kana_modern} = $new;

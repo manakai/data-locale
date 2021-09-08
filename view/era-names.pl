@@ -95,11 +95,15 @@ print q{<!DOCTYPE html>
     border-inline-start: 1px #eee solid;
   }
 
-  .form-set-type-on td,
+  .form-set-type-yomi td,
   .form-set-type-kana .form-type-hiragana td,
   .form-set-type-kana .form-type-hiragana_modern td,
+  .form-set-type-kana .form-type-hiragana_classic td,
+  .form-set-type-kana .form-type-hiragana_others td,
   .form-set-type-kana .form-type-katakana td,
   .form-set-type-kana .form-type-katakana_modern td,
+  .form-set-type-kana .form-type-katakana_classic td,
+  .form-set-type-kana .form-type-katakana_others td,
   .form-set-type-kana .form-type-latin td,
   .form-set-type-kana .form-type-latin_macron td,
   .form-set-type-kana .form-type-latin_normal td,
@@ -171,6 +175,11 @@ print q{<!DOCTYPE html>
   .pattern-10 { background-color: #ADD8E6 }
   .pattern-11 { background-color: #F0E68C }
   .pattern-12 { background-color: #FFA07A }
+
+  code.char {
+    border: 1px green solid;
+    line-height: 1.0;
+  }
 
   .source {
     line-height: 1.0;
@@ -326,9 +335,15 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
                     }
                     my $s;
                     if (ref $segment) {
-                      $s = join ", ", map { "<code>$_</code>" } map { htescape $_ } @$segment;
+                      $s = join "", map {
+                        if (1 < length $_) {
+                          sprintf "<code class=char>%s</code>", htescape $_;
+                        } else {
+                          htescape $_;
+                        }
+                      } @$segment;
                     } else {
-                      $s = join '', map { "<code>$_</code>" } htescape $segment;
+                      $s = htescape $segment;
                     }
                     print q{<mark>} if defined $ai->[$i];
                     my $pp = $patterns->{$i} ||= {};
