@@ -100,6 +100,7 @@ print q{<!DOCTYPE html>
   .form-set-type-kana .form-type-hiragana_modern td,
   .form-set-type-kana .form-type-hiragana_classic td,
   .form-set-type-kana .form-type-hiragana_others td,
+  .form-set-type-kana .form-type-hiragana_wrongs td,
   .form-set-type-kana .form-type-katakana td,
   .form-set-type-kana .form-type-katakana_modern td,
   .form-set-type-kana .form-type-katakana_classic td,
@@ -280,12 +281,16 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
               my $preferred = $value->{is_preferred} || {};
               my $kmap = {
                 kana => {kana => '0'},
+                yomi => {han_others => 'hiragana_z'},
                 manchu => {manchu => '0'},
                 mongolian => {mongolian => '0'},
               }->{$value->{form_set_type}} || {};
               my @kv = map {
                 if ({
                   hiragana_others => 1,
+                  hiragana_wrongs => 1,
+                  han_others => 1,
+                  ja_latin_old_wrongs => 1,
                   latin_others => 1,
                   others => 1,
                 }->{$_}) {
@@ -300,7 +305,8 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
               } map {
                 my $key = $kmap->{$_} // $_;
                 $key =~ s/normal/\x{0000}/g;
-                $key =~ s/other/\x{10FFFF}/g;
+                $key =~ s/other/\x{10FFFE}/g;
+                $key =~ s/wrong/\x{10FFFF}/g;
                 [$_, $key];
               } grep { not {
                 abbr_indexes => 1,

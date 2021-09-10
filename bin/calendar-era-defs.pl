@@ -73,7 +73,7 @@ for (
   ['src/wp-jp-eras.json', undef, 'name' => ['name', 'wref_ja']],
   ['local/era-defs-jp-emperor.json', 'eras', 'name' => ['name_ja', 'name_kana', 'offset', 'wref_ja', 'wref_en']],
   ['local/era-defs-jp-wp-en.json', 'eras', 'key' => ['wref_en']],
-  ['local/era-yomi-list.json', 'eras', 'key' => ['ja_readings']],
+  ['local/era-yomi-list.json', 'eras', 'key' => ['ja_readings', '6034', '6036']],
 ) {
   my ($file_name, $first_level, $key_key, $data_keys) = @$_;
   my $path = $root_path->child ($file_name);
@@ -111,7 +111,13 @@ for (
               unless $name eq $data->{$_};
         } elsif ($_ eq 'ja_readings') {
           push @{$Data->{eras}->{$key}->{_LABELS}->[0]->{labels}->[0]->{reps}},
+              grep { not $_->{is_ja} }
               map { {%$_, kind => 'yomi', type => 'yomi'} } @{$data->{$_}};
+        } elsif ($_ eq '6034' or $_ eq '6036') {
+          my $s = $_;
+          push @{$Data->{eras}->{$key}->{_LABELS}->[0]->{labels}->[0]->{reps}},
+              map { {kind => 'yomi', type => 'yomi',
+                     source => $s, value => $_} } $data->{$_};
         } elsif ($_ eq 'name_kana') {
           push @{$Data->{eras}->{$key}->{_LABELS}->[0]->{labels}->[0]->{reps}},
               map { {kind => 'yomi', type => 'yomi',
@@ -327,14 +333,14 @@ for my $path (
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name', type => 'han', lang => $1, value => $3,
            preferred => $2};
-    } elsif (defined $key and /^name\((en|la|en_la|it|fr|es|po|vi|ja_latn)\)(!|)\s+([\p{Latn}\s%0-9A-F'-]+)$/) {
+    } elsif (defined $key and /^name\((en|la|en_la|it|fr|es|po|vi|ja_latin|ja_latin_old)\)(!|)\s+([\p{Latn}\s%0-9A-F'-]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'alphabetical',
            lang => $1,
            preferred => $2,
            value => percent_decode_c $3};
-    } elsif (defined $key and /^name\((ja)\)(!|)\s+([\p{Hiragana}\p{Katakana}\x{30FC}\N{KATAKANA MIDDLE DOT}\x{3001}\p{Han}\p{Latn}\[\]|:()\p{Geometric Shapes}\s]+)$/) {
+    } elsif (defined $key and /^name\((ja)\)(!|)\s+([\p{Hiragana}\p{Katakana}\x{30FC}\N{KATAKANA MIDDLE DOT}\x{3001}\p{Han}\p{Latn}\[\]|:!,()\p{Geometric Shapes}\s]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'jpan',
@@ -354,7 +360,7 @@ for my $path (
            lang => $1,
            preferred => $2,
            value => $3};
-    } elsif (defined $key and /^expanded\((en|la|en_la|it|fr|es|po|vi|ja_latn)\)\s+([\p{Latn}\s%0-9A-F'\[\]-]+)$/) {
+    } elsif (defined $key and /^expanded\((en|la|en_la|it|fr|es|po|vi|ja_latin)\)\s+([\p{Latn}\s%0-9A-F'\[\]-]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'expanded',
            type => 'alphabetical',
@@ -401,14 +407,24 @@ for my $path (
            cyrillic => (percent_decode_c $2)};
     } elsif (defined $key and /^abbr_(ja|tw)\s+(\p{Hani})\s+(\2\p{Hani}*)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
-          {kind => 'name', abbr => 'first', type => 'han',
+          {kind => 'name', abbr => 'single', type => 'han',
            lang => $1, value => $2},
           {kind => 'expanded',
-           to_abbr => 'first',
+           to_abbr => 'single',
            type => 'han',
            lang => $1,
            value => percent_decode_c $3};
-    } elsif (defined $key and /^acronym\((en|la|en_la|it|fr|es|po|vi|ja_latn)\)\s+([\p{Latn}.\N{KATAKANA MIDDLE DOT}%0-9A-F]+)$/) {
+    } elsif (defined $key and /^abbr_(ja|tw)\s+(\p{Hani})\s+(\p{Hani}*)\[(\p{Hani})\](\p{Hani}*)$/) {
+      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
+          {kind => 'name', abbr => 'single', type => 'han',
+           lang => $1, value => $2},
+          {kind => 'expanded',
+           to_abbr => 'single',
+           type => 'han',
+           lang => $1,
+           value => $3.$4.$5,
+           abbr_index => length $3};
+    } elsif (defined $key and /^acronym\((en|la|en_la|it|fr|es|po|vi|ja_latin)\)\s+([\p{Latn}.\N{KATAKANA MIDDLE DOT}%0-9A-F]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'alphabetical',
@@ -909,13 +925,14 @@ my $LeaderKeys = [];
             }
 
             $value->{abbr} = $rep->{abbr} if defined $rep->{abbr};
-            if (defined $rep->{to_abbr} and $rep->{to_abbr} eq 'first') {
+            if (defined $rep->{to_abbr} and $rep->{to_abbr} eq 'single') {
               $v->{abbr_indexes} = [map { undef } @$w];
-              $v->{abbr_indexes}->[0] = 0;
+              $v->{abbr_indexes}->[$rep->{abbr_index} // 0] = 0;
             }
           } elsif ($rep->{type} eq 'yomi') {
-            my $vtype = $rep->{is_ja} ? 'ja' : 'han';
-            my $han_value;
+            if (not defined $rep->{source}) {
+              my $vtype = $rep->{is_ja} ? 'ja' : 'han';
+              my $han_value;
             for (@{$label->{texts}}) {
               if ($_->{type} eq $vtype) {
                 $value = $_;
@@ -930,9 +947,10 @@ my $LeaderKeys = [];
                 }
               }
             }
-            $value->{type} = $vtype;
-            fill_yomi $rep;
 
+              $value->{type} = $vtype;
+              fill_yomi $rep;
+              
             if ($vtype eq 'ja' and defined $han_value and
                 not @{$value->{form_sets} or []}) {
               for my $fs (@{$han_value->{form_sets}}) {
@@ -957,15 +975,22 @@ my $LeaderKeys = [];
               }
             }
 
-            $v->{form_set_type} = 'yomi';
-            $v->{hiragana} = [split / /, $rep->{kana}]
-                if defined $rep->{kana};
+              $v->{form_set_type} = 'yomi';
+            $v->{hiragana} = [split / /,
+                              $rep->{kana} //
+                              $rep->{kana_modern} //
+                              $rep->{kana_classic} //
+                              $rep->{kana_others}->[0] // ''];
+            delete $v->{hiragana} unless @{$v->{hiragana}};
             $v->{hiragana_modern} = [split / /, $rep->{kana_modern}]
                 if defined $rep->{kana_modern};
             $v->{hiragana_classic} = [split / /, $rep->{kana_classic}]
                 if defined $rep->{kana_classic};
             for (@{$rep->{kana_others} or []}) {
               push @{$v->{hiragana_others} ||= []}, [split / /, $_];
+            }
+            for (@{$rep->{kana_wrongs} or []}) {
+              push @{$v->{hiragana_wrongs} ||= []}, [split / /, $_];
             }
             for (qw(latin latin_normal latin_macron)) {
               $v->{$_} = [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $rep->{$_}]
@@ -975,9 +1000,34 @@ my $LeaderKeys = [];
               push @{$v->{latin_others} ||= []},
                   [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $_];
             }
+              for (@{$rep->{hans} or []}) {
+                push @{$v->{han_others} ||= []}, [split / /, to_hiragana $_];
+              }
+            } elsif ($rep->{source} eq '6034') {
+              $value_added = 1;
+              $v_added = 1;
+              my $found = {};
+              for (map { [split / /, $_] } grep { not $found->{$_}++ } sort { $a cmp $b } @{$rep->{value}}) {
+                my $value = {};
+                $value->{type} = 'alphabetical';
+                my $v = {};
+                $v->{form_set_type} = 'alphabetical';
+                $v->{ja_latin_old} = $_;
+                push @{$value->{form_sets} ||= []}, $v;
+                push @{$label->{texts} ||= []}, $value;
+              }
+            } elsif ($rep->{source} eq '6036') {
+              $value->{type} = 'alphabetical';
+              $v->{form_set_type} = 'alphabetical';
+              my $found = {};
+              $v->{ja_latin_old_wrongs} = [map { [split / /, $_] } sort { $a cmp $b } grep { not $found->{$_}++ } @{$rep->{value}}];
+            } else {
+              die "Bad source |$rep->{source}|";
+            }
           } elsif ($rep->{type} eq 'alphabetical') {
             if (@{$label->{texts}} and
-                $label->{texts}->[-1]->{type} eq 'alphabetical') {
+                $label->{texts}->[-1]->{type} eq 'alphabetical' and
+                not $rep->{lang} eq 'ja_latin_old') {
               $value = $label->{texts}->[-1];
               $value_added = 1;
             }
@@ -1059,8 +1109,9 @@ my $LeaderKeys = [];
                 $v->{form_set_type} = 'hanzi';
                 my $w = [split //, $1];
                 push @{$v->{others} ||= []}, $w;
-                if ($rep->{value} =~ s/\A\[(J:|)(\p{Hiragana}+(?:\s+\p{Hiragana}+)*)\]//) {
-                  my $is_ja = $1;
+                while ($rep->{value} =~ s/\A\[(!|)(J:|)(,*\p{Hiragana}+(?:[\s,]\p{Hiragana}+)*)\]//) {
+                  my $is_wrong = $1;
+                  my $is_ja = $2;
                   if ($is_ja) {
                     $value->{type} = 'ja';
                     $v->{others} = [map {
@@ -1073,23 +1124,44 @@ my $LeaderKeys = [];
                         }
                       }
                       $r;
-                    } @{$v->{others}}];
+                    } @{$v->{others}}] if $v->{form_set_type} eq 'hanzi';
                   }
                   push @{$value->{form_sets}}, $v;
                   $v = {};
 
-                  $v->{form_set_type} = 'yomi';
-                  my $rep = {kana_modern => $2};
+                  my $kanas = [split /,/, $3];
+                  my $rep = {};
+                  die if $is_wrong and
+                         (length $kanas->[0] or length $kanas->[1]);
+                  $rep->{kana_modern} = $kanas->[0]
+                      if @$kanas >= 1 and length $kanas->[0];
+                  $rep->{kana_classic} = $kanas->[1]
+                      if @$kanas >= 2 and length $kanas->[1];
+                  shift @$kanas;
+                  shift @$kanas;
+                  if ($is_wrong) {
+                    $rep->{kana_wrongs} = $kanas;
+                  } else {
+                    $rep->{kana_others} = $kanas;
+                  }
                   fill_yomi $rep;
-                  
-                  $v->{hiragana} = [split / /, $rep->{kana}]
-                      if defined $rep->{kana};
+
+                  $v->{form_set_type} = 'yomi';
+                  $v->{hiragana} = [split / /,
+                                    $rep->{kana} //
+                                    $rep->{kana_modern} //
+                                    $rep->{kana_classic} //
+                                    $rep->{kana_others}->[0] // ''];
+                  delete $v->{hiragana} unless @{$v->{hiragana}};
                   $v->{hiragana_modern} = [split / /, $rep->{kana_modern}]
                       if defined $rep->{kana_modern};
                   $v->{hiragana_classic} = [split / /, $rep->{kana_classic}]
                       if defined $rep->{kana_classic};
                   for (@{$rep->{kana_others} or []}) {
                     push @{$v->{hiragana_others} ||= []}, [split / /, $_];
+                  }
+                  for (@{$rep->{kana_wrongs} or []}) {
+                    push @{$v->{hiragana_wrongs} ||= []}, [split / /, $_];
                   }
                   for (qw(latin latin_normal latin_macron)) {
                     $v->{$_} = [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $rep->{$_}]
@@ -1099,7 +1171,8 @@ my $LeaderKeys = [];
                     push @{$v->{latin_others} ||= []},
                         [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $_];
                   }
-                } elsif ($rep->{value} =~ s/\A\[J:\]//) {
+                }
+                if ($rep->{value} =~ s/\A\[J:\]//) {
                   $value->{type} = 'ja';
                   $v->{others} = [map {
                     my $r = [[]];
@@ -1112,10 +1185,6 @@ my $LeaderKeys = [];
                     }
                     $r;
                   } @{$v->{others}}];
-                } else {
-                  if ((join $;, @$w) =~ /\|/) {
-                    die "Bad input |@$w|";
-                  }
                 }
               } elsif ($rep->{value} =~ s/\A(\p{Latn}+)//) {
                 $value->{type} = 'alphabetical';
@@ -1254,13 +1323,14 @@ my $LeaderKeys = [];
                 if ($value->{form_set_type} eq 'hanzi') {
                   for my $lang (qw(jp tw cn)) {
                     if (defined $value->{$lang} and
+                        not defined $text->{abbr} and
                         (not defined $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} or
                          ($value->{is_preferred} or {})->{$lang})) {
                       $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} = serialize_segmented_text $value->{$lang};
                       $era->{name} //= $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang};
                     }
                   if (defined $value->{$lang} and
-                      defined $text->{abbr} and $text->{abbr} eq 'first') {
+                      defined $text->{abbr} and $text->{abbr} eq 'single') {
                     $era->{abbr} //= serialize_segmented_text $value->{$lang};
                   }
                     $era->{names}->{serialize_segmented_text $value->{$lang}} = 1
@@ -1307,12 +1377,12 @@ my $LeaderKeys = [];
                     $era->{name_en} = serialize_segmented_text $value->{en};
                     $era->{name} //= $era->{name_en};
                   }
-                  if (defined $value->{ja_latn} and
+                  if (defined $value->{ja_latin} and
                       (not defined $era->{abbr_latn} or
-                       ($value->{is_preferred} or {})->{ja_latn}) and
+                       ($value->{is_preferred} or {})->{ja_latin}) and
                        defined $text->{abbr} and
                        $text->{abbr} eq 'one') {
-                    $era->{abbr_latn} = serialize_segmented_text $value->{ja_latn};
+                    $era->{abbr_latn} = serialize_segmented_text $value->{ja_latin};
                   }
                 }
               } elsif ($text->{type} eq 'korean') {
@@ -1394,6 +1464,7 @@ my $LeaderKeys = [];
               for my $lang (qw(tw jp cn)) {
                 if ($label->{is_name} and
                     defined $value->{$lang} and
+                    not defined $text->{abbr} and
                     not defined $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang}) {
                   $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} = serialize_segmented_text $value->{$lang};
                   $era->{name} //= $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang};

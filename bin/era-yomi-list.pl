@@ -107,6 +107,8 @@ my $Data = {};
           push @{$Data->{eras}->{$key}->{6035} ||= []}, $1;
         } elsif (/^!([A-Za-z_^~-]+)$/) {
           push @{$Data->{eras}->{$key}->{6036} ||= []}, latin $1;
+        } elsif (/^[\p{Hiragana}\p{Katakana}\p{Han}]*\p{Han}[\p{Hiragana}\p{Katakana}\p{Han}]*$/) {
+          push @{$Data->{eras}->{$key}->{6037} ||= []}, $_;
         } else {
           die "Bad value |$_|";
         }
@@ -381,6 +383,7 @@ for my $id (6090..6091) {
           push @{$Data->{eras}->{$key}->{ja_readings} ||= []}, $v;
           next;
         }
+        my $is_wrong = s/^!//;
         my $is_ja = s/^J://;
         
         my ($new, $old, @others) = split /,/, $_, -1;
@@ -388,6 +391,7 @@ for my $id (6090..6091) {
         my $v = {};
         $v->{is_ja} = 1 if $is_ja;
         if (length $new) {
+          die if $is_wrong;
           push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6100} ||= []},
               $v->{kana} = $v->{kana_modern} = $new;
           push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6102} ||= []},
@@ -401,10 +405,12 @@ for my $id (6090..6091) {
         }
         use utf8;
         if (defined $old and length $old) {
+          die if $is_wrong;
           push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6101} ||= []},
               $v->{kana_classic} = $old;
           $v->{kana} //= $v->{kana_classic};
         } elsif (length $new and not $new =~ /[ゃゅょ]/) {
+          die if $is_wrong;
           push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6101} ||= []},
               $v->{kana_classic} = $new;
         }
@@ -417,14 +423,23 @@ for my $id (6090..6091) {
         }
         for (@others) {
           if (/^[\p{Latin} ]+$/) {
+            die if $is_wrong;
             my $x = $_;
             $x = lc $_;
             push @{$Data->{eras}->{$key}->{6104} ||= []}, $x;
             push @{$v->{latin_others} ||= []}, $x;
+          } elsif (/\p{Han}/) {
+            push @{$Data->{eras}->{$key}->{6106} ||= []}, $_;
+            push @{$v->{hans} ||= []}, $_;
           } else {
-            push @{$Data->{eras}->{$key}->{6104} ||= []}, $_;
-            push @{$v->{kana_others} ||= []}, $_;
-            $v->{kana} //= $_;
+            if ($is_wrong) {
+              push @{$Data->{eras}->{$key}->{6105} ||= []}, $_;
+              push @{$v->{kana_wrongs} ||= []}, $_;
+            } else {
+              push @{$Data->{eras}->{$key}->{6104} ||= []}, $_;
+              push @{$v->{kana_others} ||= []}, $_;
+              $v->{kana} //= $_;
+            }
           }
         }
         push @{$Data->{eras}->{$key}->{ja_readings} ||= []}, $v;
@@ -443,7 +458,7 @@ for my $data (values %{$Data->{eras}}) {
     $all->{$_} = 1 for map { xx $_ } ref $data->{$_} ? @{$data->{$_}} : $data->{$_};
   }
   for (keys %$data) {
-    next unless /^[0-9]+$/ and 6100 <= $_ and $_ <= 6104;
+    next unless /^[0-9]+$/ and 6100 <= $_ and $_ <= 6106;
     delete $all->{$_} for map { xx $_ } ref $data->{$_} ? @{$data->{$_}} : $data->{$_};
   }
   $data->{missing_yomis} = [sort { $a cmp $b } keys %$all];

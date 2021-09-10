@@ -22,6 +22,13 @@ name 天主降生
 acronym(en) A
 expanded(la) [a]nn%C5%8D Domin%C4%AB
 expanded(en_la) [A]nno Domini
+&
+
+## <https://wiki.suikawiki.org/n/GOX%20IRAI>
+name_ja 御出生以来
+&
+name(ja_latin_old) GOX IRAI
+
 &&
 name_ja! 西暦
 &
