@@ -59,7 +59,6 @@ data-main: \
     data/calendar/jp-flagdays.json data/calendar/era-systems.json \
     data/calendar/era-defs.json data/calendar/era-codes.html \
     data/calendar/era-yomi-sources.json \
-    data/calendar/era-yomis.html \
     data/calendar/era-kodai-years.html \
     data/calendar/era-kodai-starts.html \
     data/calendar/dts.json \
@@ -192,15 +191,9 @@ local/era-yomi-list.json: bin/era-yomi-list.pl \
     local/era-defs-jp-wp-en.json \
     local/cldr-core-json/root.json local/cldr-core-json/ja.json
 	$(PERL) $< > $@
-data/calendar/era-yomis.html: bin/calendar-era-yomis.pl \
-    local/era-yomi-list.json
-	$(PERL) $< > $@
 local/calendar-era-yomis.json: bin/calendar-era-yomis.pl \
     local/era-yomi-list.json
 	DATA=1 $(PERL) $< > $@
-local/calendar-era-yomis.txt: bin/calendar-era-yomis.pl \
-    local/era-yomi-list.json
-	DATA=2 $(PERL) $< > $@
 data/calendar/era-yomi-sources.json: bin/calendar-era-yomi-sources.pl \
     data/calendar/era-defs.json local/calendar-era-yomis.json
 	$(PERL) $< > $@

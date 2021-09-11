@@ -274,97 +274,6 @@ for my $id (6090..6091) {
 }
 
 {
-  use utf8;
-  my $ToLatin = {qw(
-    あ a い i う u え e お o
-    か ka き ki く ku け ke こ ko
-    さ sa し shi す su せ se そ so
-    た ta ち chi つ tsu て te と to
-    な na に ni ぬ nu ね ne の no
-    は ha ひ hi ふ fu へ he ほ ho
-    ま ma み mi む mu め me も mo
-    や ya ゆ yu よ yo
-    ら ra り ri る ru れ re ろ ro
-    わ wa ん n
-    が ga ぎ gi ぐ gu げ ge ご go
-    ざ za じ ji ず zu ぜ ze ぞ zo
-    だ da で de ど do
-    ば ba び bi ぶ bu べ be ぼ bo
-    ぱ pa ぴ pi ぷ pu ぺ pe ぽ po
-    きゃ kya きゅ kyu きょ kyo
-    しゃ sha しゅ shu しょ sho
-    ちゃ cha ちゅ chu ちょ cho
-    にゃ nya にゅ nyu にょ nyo
-    ひゃ hya ひゅ hyu ひょ hyo
-    みゃ mya みゅ myu みょ myo
-    りゃ rya りゅ ryu りょ ryo
-    ぎゃ gya ぎゅ gyu ぎょ gyo
-    じゃ ja じゅ ju じょ jo
-    びゃ bya びゅ byu びょ byo
-    ぴゃ pya ぴゅ pyu ぴょ pyo
-  )};
-  sub romaji ($) {
-    my $s = shift;
-    $s =~ s/([きしちにひみりぎじびぴ][ゃゅょ])/$ToLatin->{$1}/g;
-    $s =~ s/([あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわんがぎぐげござじずぜぞだでどばびぶべぼぱぴぷぺぽ])/$ToLatin->{$1}/g;
-    $s =~ s/^(\S+ \S+) (\S+ \S+)$/$1 - $2/g;
-    $s =~ s/n ([aiueoyn])/n ' $1/g;
-    #$s =~ s/ //g;
-    die $s if $s =~ /\p{Hiragana}/;
-    #return ucfirst $s;
-    return $s;
-  }
-
-  sub romaji2 ($) {
-    #my $s = lcfirst romaji $_[0];
-    my $s = romaji $_[0];
-    $s =~ s/ou/\x{014D}/g;
-    $s =~ s/uu/\x{016B}/g;
-    #$s =~ s/ii/\x{012B}/g;
-    #return ucfirst $s;
-    return $s;
-  }
-  
-  sub romaji_variants (@) {
-    my @s = @_;
-    my $found = {};
-    $found->{$_} = 1 for @s;
-    my @r = @s;
-    for (@s) {
-      {
-        my $s = $_;
-        $s =~ s/n( ?[mpb])/m$1/g;
-        push @r, $s;
-
-        $s =~ s/m m([aiueo\x{0101}\x{016B}\x{016B}\x{0113}\x{014D}y])/m ' m$1/g;
-        push @r, $s;
-      }
-      {
-        my $s = $_;
-        $s =~ s/n ' n/n n/g;
-        push @r, $s;
-      }
-    }
-    {
-      my @t = @r;
-      for (@t) {
-        my $s = $_;
-        $s =~ s/m( ?)(?:' |)([mpb])/n$1$2/g;
-        $s =~ s/sh([i\x{012B}])/s$1/g;
-        $s =~ s/ch([i\x{012B}])/t$1/g;
-        $s =~ s/j([i\x{012B}])/z$1/g;
-        $s =~ s/ts([u\x{016B}])/t$1/g;
-        $s =~ s/sh([aueo\x{0101}\x{016B}\x{0113}\x{014D}])/sy$1/g;
-        $s =~ s/ch([aueo\x{0101}\x{016B}\x{0113}\x{014D}])/ty$1/g;
-        $s =~ s/j([aueo\x{0101}\x{016B}\x{0113}\x{014D}])/zy$1/g;
-        push @r, $s;
-      }
-    }
-    return [grep { not $found->{$_}++ } sort { $a cmp $b } @r];
-  } # romaji_variants
-}
-
-{
   my $path = $RootPath->child ('src/era-yomi-6100.txt');
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
@@ -374,12 +283,12 @@ for my $id (6090..6091) {
       for (split / /, $2, -1) {
         if (/^\p{Hiragana}+$/) {
           my $v = {};
-          push @{$Data->{eras}->{$key}->{6104} ||= []},
+          #push @{$Data->{eras}->{$key}->{6104} ||= []},
               $v->{kana} = $v->{kana_modern} = $v->{kana_classic} = $_;
-          push @{$Data->{eras}->{$key}->{6104} ||= []},
-              $v->{latin_normal} = romaji $_;
-          push @{$Data->{eras}->{$key}->{6104} ||= []},
-              $v->{latin} = $v->{latin_macron} = romaji2 $_;
+          #push @{$Data->{eras}->{$key}->{6104} ||= []},
+          #    $v->{latin_normal} = romaji $_;
+          #push @{$Data->{eras}->{$key}->{6104} ||= []},
+          #    $v->{latin} = $v->{latin_macron} = romaji2 $_;
           push @{$Data->{eras}->{$key}->{ja_readings} ||= []}, $v;
           next;
         }
@@ -392,16 +301,16 @@ for my $id (6090..6091) {
         $v->{is_ja} = 1 if $is_ja;
         if (length $new) {
           die if $is_wrong;
-          push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6100} ||= []},
+          #push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6100} ||= []},
               $v->{kana} = $v->{kana_modern} = $new;
-          push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6102} ||= []},
-              $v->{latin_normal} = romaji $new;
-          push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6103} ||= []},
-              $v->{latin} = $v->{latin_macron} = romaji2 $new;
-          my $variants = romaji_variants $v->{latin_normal}, $v->{latin_macron};
-          push @{$v->{latin_others}}, @$variants;
-          push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6103} ||= []},
-              @$variants;
+          #push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6102} ||= []},
+          #    $v->{latin_normal} = romaji $new;
+          #push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6103} ||= []},
+          #    $v->{latin} = $v->{latin_macron} = romaji2 $new;
+          #my $variants = romaji_variants $v->{latin_normal}, $v->{latin_macron};
+          #push @{$v->{latin_others}}, @$variants;
+          #push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6103} ||= []},
+          #    @$variants;
         }
         use utf8;
         if (defined $old and length $old) {

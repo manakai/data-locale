@@ -112,7 +112,8 @@ for (
         } elsif ($_ eq 'ja_readings') {
           push @{$Data->{eras}->{$key}->{_LABELS}->[0]->{labels}->[0]->{reps}},
               grep { not $_->{is_ja} }
-              map { {%$_, kind => 'yomi', type => 'yomi'} } @{$data->{$_}};
+              map { {%$_, kind => 'yomi', type => 'yomi',
+                     insert_22hyphen => 1} } @{$data->{$_}};
         } elsif ($_ eq '6034' or $_ eq '6036') {
           my $s = $_;
           push @{$Data->{eras}->{$key}->{_LABELS}->[0]->{labels}->[0]->{reps}},
@@ -785,19 +786,82 @@ my $LeaderKeys = [];
     return $s;
   } # to_katakana
 
-  sub fill_yomi ($) {
+  sub fill_rep_yomi ($) {
     my $rep = shift;
 
     if (defined $rep->{kana_modern}) {
+      my $ih = sub {
+        if ($rep->{insert_22hyphen}) {
+          my $s = shift;
+          $s =~ s/^(\S+ \S+) (\S+ \S+)$/$1 - $2/g;
+          return $s;
+        } else {
+          return $_[0];
+        }
+      };
+      
       $rep->{kana} //= $rep->{kana_modern};
-      $rep->{latin_normal} //= romaji $rep->{kana_modern};
-      $rep->{latin_macron} //= romaji2 $rep->{kana_modern};
+      $rep->{latin_normal} //= $ih->(romaji $rep->{kana_modern});
+      $rep->{latin_macron} //= $ih->(romaji2 $rep->{kana_modern});
       $rep->{latin} //= $rep->{latin_macron};
 
       my $variants = romaji_variants $rep->{latin_normal}, $rep->{latin_macron};
       push @{$rep->{latin_others}}, @$variants;
     }
-  } # fill_yomi
+  } # fill_rep_yomi
+
+  sub fill_yomi_from_rep ($$) {
+    my ($rep => $v) = @_;
+
+    $v->{hiragana} = [split / /,
+                      $rep->{kana} //
+                      $rep->{kana_modern} //
+                      $rep->{kana_classic} //
+                      $rep->{kana_others}->[0] // ''];
+    delete $v->{hiragana} unless @{$v->{hiragana}};
+    $v->{hiragana_modern} = [split / /, $rep->{kana_modern}]
+        if defined $rep->{kana_modern};
+    $v->{hiragana_classic} = [split / /, $rep->{kana_classic}]
+        if defined $rep->{kana_classic};
+
+    for (@{$rep->{kana_others} or []}) {
+      push @{$v->{hiragana_others} ||= []}, [split / /, $_];
+    }
+    for (@{$rep->{kana_wrongs} or []}) {
+      push @{$v->{hiragana_wrongs} ||= []}, [split / /, $_];
+    }
+    for (@{$rep->{hans} or []}) {
+      push @{$v->{han_others} ||= []}, [split / /, to_hiragana $_];
+    }
+    for my $key (qw(hiragana_others hiragana_wrongs han_others)) {
+      next unless defined $v->{$key};
+      my $found = {};
+      $v->{$key} = [map { $_->[0] } sort { $a->[1] cmp $b->[1] } grep {
+        not $found->{$_->[1]}++;
+      } map {
+        [$_, serialize_segmented_text_for_key $_];
+      } @{$v->{$key}}];
+    }
+
+    my $found = {};
+    for (qw(latin latin_normal latin_macron)) {
+      $v->{$_} = [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $rep->{$_}]
+          if defined $rep->{$_};
+      $found->{serialize_segmented_text_for_key $v->{$_}} = 1
+          if defined $v->{$_};
+    }
+    for (@{$rep->{latin_others} or []}) {
+      push @{$v->{latin_others} ||= []},
+          [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $_];
+    }
+    if (defined $v->{latin_others}) {
+      $v->{latin_others} = [map {
+        $_->[0];
+      } grep { not $found->{$_->[1]}++ } map {
+        [$_, serialize_segmented_text_for_key $_];
+      } @{$v->{latin_others}}];
+    } # fill_yomi_from_rep
+  }
 
   sub fill_kana ($) {
     my $v = shift;
@@ -817,15 +881,20 @@ my $LeaderKeys = [];
     $rep->{kana_modern} = join ' ', map {
       {'.・' => '._'}->{$_} // $_;
     } @{$v->{hiragana_modern}};
-    fill_yomi $rep;
+    fill_rep_yomi $rep;
 
+    my $found = {};
     for (qw(latin latin_normal latin_macron)) {
       $v->{$_} = [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $rep->{$_}]
           if defined $rep->{$_};
+      $found->{serialize_segmented_text_for_key $v->{$_}} = 1
+          if defined $v->{$_};
     }
     for (@{$rep->{latin_others} or []}) {
       push @{$v->{latin_others} ||= []},
-          [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $_];
+          grep { not $found->{serialize_segmented_text_for_key $_}++ }
+          [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ }
+           split /( (?:['-] |))/, $_];
     }
   } # fill_kana
 }
@@ -949,7 +1018,7 @@ my $LeaderKeys = [];
             }
 
               $value->{type} = $vtype;
-              fill_yomi $rep;
+              fill_rep_yomi $rep;
               
             if ($vtype eq 'ja' and defined $han_value and
                 not @{$value->{form_sets} or []}) {
@@ -976,33 +1045,7 @@ my $LeaderKeys = [];
             }
 
               $v->{form_set_type} = 'yomi';
-            $v->{hiragana} = [split / /,
-                              $rep->{kana} //
-                              $rep->{kana_modern} //
-                              $rep->{kana_classic} //
-                              $rep->{kana_others}->[0] // ''];
-            delete $v->{hiragana} unless @{$v->{hiragana}};
-            $v->{hiragana_modern} = [split / /, $rep->{kana_modern}]
-                if defined $rep->{kana_modern};
-            $v->{hiragana_classic} = [split / /, $rep->{kana_classic}]
-                if defined $rep->{kana_classic};
-            for (@{$rep->{kana_others} or []}) {
-              push @{$v->{hiragana_others} ||= []}, [split / /, $_];
-            }
-            for (@{$rep->{kana_wrongs} or []}) {
-              push @{$v->{hiragana_wrongs} ||= []}, [split / /, $_];
-            }
-            for (qw(latin latin_normal latin_macron)) {
-              $v->{$_} = [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $rep->{$_}]
-                  if defined $rep->{$_};
-            }
-            for (@{$rep->{latin_others} or []}) {
-              push @{$v->{latin_others} ||= []},
-                  [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $_];
-            }
-              for (@{$rep->{hans} or []}) {
-                push @{$v->{han_others} ||= []}, [split / /, to_hiragana $_];
-              }
+              fill_yomi_from_rep $rep => $v;
             } elsif ($rep->{source} eq '6034') {
               $value_added = 1;
               $v_added = 1;
@@ -1150,36 +1193,10 @@ my $LeaderKeys = [];
                       }
                     }
                   }
-                  fill_yomi $rep;
+                  fill_rep_yomi $rep;
 
                   $v->{form_set_type} = 'yomi';
-                  $v->{hiragana} = [split / /,
-                                    $rep->{kana} //
-                                    $rep->{kana_modern} //
-                                    $rep->{kana_classic} //
-                                    $rep->{kana_others}->[0] // ''];
-                  delete $v->{hiragana} unless @{$v->{hiragana}};
-                  $v->{hiragana_modern} = [split / /, $rep->{kana_modern}]
-                      if defined $rep->{kana_modern};
-                  $v->{hiragana_classic} = [split / /, $rep->{kana_classic}]
-                      if defined $rep->{kana_classic};
-                  for (@{$rep->{kana_others} or []}) {
-                    push @{$v->{hiragana_others} ||= []}, [split / /, $_];
-                  }
-                  for (@{$rep->{kana_wrongs} or []}) {
-                    push @{$v->{hiragana_wrongs} ||= []}, [split / /, $_];
-                  }
-                  for (@{$rep->{hans} or []}) {
-                    push @{$v->{han_others} ||= []}, [split / /, $_];
-                  }
-                  for (qw(latin latin_normal latin_macron)) {
-                    $v->{$_} = [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $rep->{$_}]
-                        if defined $rep->{$_};
-                  }
-                  for (@{$rep->{latin_others} or []}) {
-                    push @{$v->{latin_others} ||= []},
-                        [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $_];
-                  }
+                  fill_yomi_from_rep $rep => $v;
                 }
                 if ($rep->{value} =~ s/\A\[J:\]//) {
                   $value->{type} = 'ja';

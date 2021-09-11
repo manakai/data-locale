@@ -117,7 +117,6 @@
                "mei ji"
             ],
             "6104" : [
-               "mei zi",
                "mei zi"
             ]
          }
@@ -246,8 +245,6 @@
             ],
             "6104" : [
                "ちよう とく",
-               "tyou toku",
-               "tyō toku",
                "tyou toku",
                "tyō toku"
             ]
@@ -420,9 +417,6 @@
                "ぶん ぱう",
                "bum pou",
                "bum pō",
-               "bum pou",
-               "bum pō",
-               "bum po",
                "bum po"
             ]
          }
@@ -587,23 +581,13 @@
                "てん ぴよう かん ぽう",
                "tem pyou - kam pou",
                "tem pyō - kam pō",
-               "tem pyou - kam pou",
-               "tem pyō - kam pō",
-               "tem byou - kam pou",
-               "tem byō - kam pō",
                "tem byou - kam pou",
                "tem byō - kam pō",
                "tem pyou - kan hou",
                "tem pyō - kan hō",
-               "tem pyou - kan hou",
-               "tem pyō - kan hō",
-               "tem pei - kan hou",
-               "tem pei - kan hō",
                "tem pei - kan hou",
                "tem pei - kan hō",
                "てん びやう かん はう",
-               "tem byou - kan hou",
-               "tem byō - kan hō",
                "tem byou - kan hou",
                "tem byō - kan hō"
             ]
@@ -973,7 +957,6 @@
                "kan ' nin"
             ],
             "6104" : [
-               "kan nin",
                "kan nin"
             ],
             "6108" : [
@@ -1168,8 +1151,6 @@
             ],
             "6104" : [
                "nin zi",
-               "nin zi",
-               "nin ti",
                "nin ti"
             ],
             "6107" : [
@@ -1357,23 +1338,11 @@
                "tem pyō - hō ji",
                "ten pyou - hou zi",
                "ten pyō - hō zi",
-               "tem pyou - hou ji",
-               "tem pyō - hō ji",
-               "ten pyou - hou zi",
-               "ten pyō - hō zi",
                "てん びやう はう じ",
                "tem byou - hou ji",
                "tem byō - hō ji",
                "ten byou - hou zi",
                "ten byō - hō zi",
-               "tem byou - hou ji",
-               "tem byō - hō ji",
-               "ten byou - hou zi",
-               "ten byō - hō zi",
-               "tem pei - hou ji",
-               "tem pei - hō ji",
-               "ten pei - hou zi",
-               "ten pei - hō zi",
                "tem pei - hou ji",
                "tem pei - hō ji",
                "ten pei - hou zi",
@@ -1614,15 +1583,9 @@
                "ぜう りやく",
                "zyou ryaku",
                "zyō ryaku",
-               "zyou ryaku",
-               "zyō ryaku",
                "せう りやく",
                "syou ryaku",
                "syō ryaku",
-               "syou ryaku",
-               "syō ryaku",
-               "syou reki",
-               "syō reki",
                "syou reki",
                "syō reki"
             ],
@@ -2082,8 +2045,6 @@
             ],
             "6104" : [
                "zin ki",
-               "zin ki",
-               "sin ki",
                "sin ki"
             ]
          }
@@ -2235,7 +2196,6 @@
                "fun wa"
             ],
             "6104" : [
-               "bun na",
                "bun na"
             ],
             "6107" : [
@@ -2434,15 +2394,10 @@
                "てん ぴよう",
                "tem pyou",
                "tem pyō",
-               "tem pyou",
-               "tem pyō",
                "てん びゃう",
                "てん びわう",
                "tem byou",
                "tem byō",
-               "tem byou",
-               "tem byō",
-               "tem pei",
                "tem pei"
             ],
             "6107" : [
@@ -2580,8 +2535,6 @@
             ],
             "6104" : [
                "しよう ほう",
-               "syou hou",
-               "syō hō",
                "syou hou",
                "syō hō"
             ],
@@ -2849,44 +2802,21 @@
                "tem pyō - jin go",
                "ten pyou - zin go",
                "ten pyō - zin go",
-               "tem pyou - jin go",
-               "tem pyō - jin go",
-               "ten pyou - zin go",
-               "ten pyō - zin go",
-               "tem byou - jin go",
-               "tem byō - jin go",
-               "ten byou - zin go",
-               "ten byō - zin go",
                "tem byou - jin go",
                "tem byō - jin go",
                "ten byou - zin go",
                "ten byō - zin go",
                "tem pei - jin go",
                "ten pei - zin go",
-               "tem pei - jin go",
-               "ten pei - zin go",
-               "tem pyou - shin ko",
-               "tem pyō - shin ko",
-               "ten pyou - sin ko",
-               "ten pyō - sin ko",
                "tem pyou - shin ko",
                "tem pyō - shin ko",
                "ten pyou - sin ko",
                "ten pyō - sin ko",
                "ten hei - zin go",
-               "ten hei - zin go",
                "tem pyou - shin go",
                "tem pyō - shin go",
                "ten pyou - sin go",
                "ten pyō - sin go",
-               "tem pyou - shin go",
-               "tem pyō - shin go",
-               "ten pyou - sin go",
-               "ten pyō - sin go",
-               "tem byou - shin go",
-               "tem byō - shin go",
-               "ten byou - sin go",
-               "ten byō - sin go",
                "tem byou - shin go",
                "tem byō - shin go",
                "ten byou - sin go",
@@ -3816,11 +3746,7 @@
             "6104" : [
                "ka syou",
                "ka syō",
-               "ka syou",
-               "ka syō",
                "か ぜう",
-               "ka zyou",
-               "ka zyō",
                "ka zyou",
                "ka zyō"
             ],
@@ -4016,7 +3942,6 @@
             "6104" : [
                "くわん な",
                "kan na",
-               "kan na",
                "くわんわ"
             ],
             "6108" : [
@@ -4210,8 +4135,8 @@
                "ō nin"
             ],
             "6104" : [
-               "をう にん",
-               "わう にん"
+               "わう にん",
+               "をう にん"
             ],
             "6107" : [
                "Onin",
@@ -4355,7 +4280,6 @@
                "ten ju"
             ],
             "6104" : [
-               "ten zyu",
                "ten zyu"
             ],
             "6107" : [
@@ -4510,8 +4434,6 @@
                "じ りやく",
                "ぢ りゃく",
                "zi ryaku",
-               "zi ryaku",
-               "ti ryaku",
                "ti ryaku"
             ],
             "6108" : [
@@ -4722,10 +4644,8 @@
                "shō tai"
             ],
             "6104" : [
-               "しよう たい",
                "しゃう たい",
-               "syou tai",
-               "syō tai",
+               "しよう たい",
                "syou tai",
                "syō tai"
             ]
@@ -5426,9 +5346,9 @@
                "kō ō"
             ],
             "6104" : [
+               "かう あう",
                "かう をう",
-               "こう をう",
-               "かう あう"
+               "こう をう"
             ],
             "6107" : [
                "Cavo",
@@ -5876,8 +5796,6 @@
             ],
             "6104" : [
                "ten zi",
-               "ten zi",
-               "ten ti",
                "ten ti"
             ],
             "6107" : [
@@ -6089,7 +6007,6 @@
                "ten ' nan"
             ],
             "6104" : [
-               "ten nan",
                "ten nan"
             ],
             "6107" : [
@@ -6254,8 +6171,6 @@
                "ten ' nyō"
             ],
             "6104" : [
-               "ten nyou",
-               "ten nyō",
                "ten nyou",
                "ten nyō"
             ],
@@ -6795,10 +6710,6 @@
                "こう ぢ",
                "kou zi",
                "kō zi",
-               "kou zi",
-               "kō zi",
-               "kou ti",
-               "kō ti",
                "kou ti",
                "kō ti"
             ],
@@ -6964,14 +6875,10 @@
                "hō chi"
             ],
             "6104" : [
-               "はう ぢ",
                "はう じ",
+               "はう ぢ",
                "hou zi",
                "hō zi",
-               "hou zi",
-               "hō zi",
-               "hou ti",
-               "hō ti",
                "hou ti",
                "hō ti"
             ]
@@ -7211,17 +7118,11 @@
             ],
             "6104" : [
                "nim pei",
-               "nim pei",
                "にん ぴよう",
                "nim pyou",
                "nim pyō",
-               "nim pyou",
-               "nim pyō",
                "nim byou",
                "nim byō",
-               "nim byou",
-               "nim byō",
-               "nim bei",
                "nim bei"
             ],
             "6107" : [
@@ -7523,15 +7424,11 @@
                "shō kei"
             ],
             "6104" : [
-               "しよう きよう",
                "しゃう きゃう",
-               "syou kyou",
-               "syō kyō",
+               "しよう きよう",
                "syou kyou",
                "syō kyō",
                "しゃうけい",
-               "syou kei",
-               "syō kei",
                "syou kei",
                "syō kei"
             ],
@@ -7910,9 +7807,9 @@
                "ō ei"
             ],
             "6104" : [
-               "をう えい",
+               "おう ゑい",
                "わう ゑい",
-               "おう ゑい"
+               "をう えい"
             ],
             "6107" : [
                "Oo Jei",
@@ -8270,9 +8167,6 @@
                "でう ぢ",
                "zyou zi",
                "zyō zi",
-               "zyou zi",
-               "zyō zi",
-               "tei zi",
                "tei zi"
             ],
             "6107" : [
@@ -8634,7 +8528,6 @@
                "nin ' nan"
             ],
             "6104" : [
-               "nin nan",
                "nin nan"
             ],
             "6106" : [
@@ -8869,8 +8762,6 @@
             "6104" : [
                "しよう へい",
                "syou hei",
-               "syō hei",
-               "syou hei",
                "syō hei"
             ],
             "6107" : [
@@ -9045,10 +8936,8 @@
                "bun ' nō"
             ],
             "6104" : [
-               "ぶん をう",
                "ぶん わう",
-               "bun nou",
-               "bun nō",
+               "ぶん をう",
                "bun nou",
                "bun nō"
             ]
@@ -9219,9 +9108,9 @@
                "gen kyū"
             ],
             "6104" : [
-               "げん きゆう",
+               "ぐえん きう",
                "げん きう",
-               "ぐえん きう"
+               "げん きゆう"
             ],
             "6107" : [
                "Genkiu"
@@ -9359,8 +9248,6 @@
             ],
             "6104" : [
                "haku ti",
-               "haku ti",
-               "byaku ti",
                "byaku ti",
                "sira kigisu",
                "しら ききす"
@@ -9653,8 +9540,6 @@
             ],
             "6104" : [
                "しよう じ",
-               "syou zi",
-               "syō zi",
                "syou zi",
                "syō zi"
             ]
@@ -10276,8 +10161,6 @@
             ],
             "6104" : [
                "nin zyu",
-               "nin zyu",
-               "nin syu",
                "nin syu"
             ]
          }
@@ -10461,12 +10344,8 @@
                "ぜう きう",
                "zyou kyuu",
                "zyō kyū",
-               "zyou kyuu",
-               "zyō kyū",
-               "せう きう",
                "しやう きう",
-               "syou kyuu",
-               "syō kyū",
+               "せう きう",
                "syou kyuu",
                "syō kyū"
             ],
@@ -10648,11 +10527,9 @@
                "en ' nō"
             ],
             "6104" : [
-               "えん をう",
                "えん わう",
+               "えん をう",
                "えん なう",
-               "en nou",
-               "en nō",
                "en nou",
                "en nō"
             ],
@@ -10810,10 +10687,6 @@
             "6104" : [
                "bum ' mei",
                "bum mei",
-               "bum ' mei",
-               "bum mei",
-               "fum ' mei",
-               "fum mei",
                "fum ' mei",
                "fum mei"
             ],
@@ -11102,7 +10975,6 @@
                "kan ji"
             ],
             "6104" : [
-               "kan zi",
                "kan zi"
             ],
             "6107" : [
@@ -11311,11 +11183,9 @@
                "chō gen"
             ],
             "6104" : [
-               "ちよう げん",
-               "ちやう げん",
                "ちやう ぐえん",
-               "tyou gen",
-               "tyō gen",
+               "ちやう げん",
+               "ちよう げん",
                "tyou gen",
                "tyō gen"
             ],
@@ -11466,18 +11336,12 @@
                "chō ho"
             ],
             "6104" : [
-               "ちよう ほう",
                "ちやう はう",
-               "tyou hou",
-               "tyō hō",
+               "ちよう ほう",
                "tyou hou",
                "tyō hō",
                "tyou bou",
                "tyō bō",
-               "tyou bou",
-               "tyō bō",
-               "tyou ho",
-               "tyō ho",
                "tyou ho",
                "tyō ho"
             ]
@@ -11809,13 +11673,11 @@
                "tei ken"
             ],
             "6104" : [
-               "じよう げん",
                "じゃう ぐえん",
-               "ぢやう げん",
+               "じよう げん",
                "ぢゃう げん",
                "ぢやう ぐゑん",
-               "zyou gen",
-               "zyō gen",
+               "ぢやう げん",
                "zyou gen",
                "zyō gen"
             ],
@@ -11963,8 +11825,8 @@
                "ken ryaku"
             ],
             "6104" : [
-               "げん りやく",
                "ぐえん りやく",
+               "げん りやく",
                "けん りやく"
             ],
             "6107" : [
@@ -12919,10 +12781,6 @@
                "しゆ てう",
                "syu tyou",
                "syu tyō",
-               "syu tyou",
-               "syu tyō",
-               "su tyou",
-               "su tyō",
                "su tyou",
                "su tyō"
             ],
@@ -13233,10 +13091,8 @@
                "en chō"
             ],
             "6104" : [
-               "えん ちよう",
                "えん ちゃう",
-               "en tyou",
-               "en tyō",
+               "えん ちよう",
                "en tyou",
                "en tyō"
             ],
@@ -13955,12 +13811,10 @@
                "shō chū"
             ],
             "6104" : [
-               "しよう ちゆう",
                "しゃう ちう",
-               "しやう ちゆう",
                "しゃう ちゅう",
-               "syou tyuu",
-               "syō tyū",
+               "しやう ちゆう",
+               "しよう ちゆう",
                "syou tyuu",
                "syō tyū"
             ],
@@ -14125,11 +13979,9 @@
                "tei ō"
             ],
             "6104" : [
-               "じよう おう",
                "じやう おう",
+               "じよう おう",
                "ぢやう をう",
-               "zyou ou",
-               "zyō ō",
                "zyou ou",
                "zyō ō",
                "てい をう",
@@ -14313,7 +14165,6 @@
                "ten fuku"
             ],
             "6104" : [
-               "tem puku",
                "tem puku"
             ]
          }
@@ -14526,16 +14377,12 @@
                "chō jō"
             ],
             "6104" : [
-               "ちよう しよう",
                "ちやう せう",
+               "ちよう しよう",
                "tyou syou",
                "tyō syō",
-               "tyou syou",
-               "tyō syō",
-               "ちやう ぜう",
                "ちやう じやう",
-               "tyou zyou",
-               "tyō zyō",
+               "ちやう ぜう",
                "tyou zyou",
                "tyō zyō"
             ],
@@ -14838,8 +14685,6 @@
             ],
             "6104" : [
                "しよう あん",
-               "syou an",
-               "syō an",
                "syou an",
                "syō an"
             ],
@@ -15380,8 +15225,6 @@
                "じよう えい",
                "zyou ei",
                "zyō ei",
-               "zyou ei",
-               "zyō ei",
                "てい ゑい",
                "ちやう ゑい"
             ],
@@ -15706,7 +15549,6 @@
                "ten wa"
             ],
             "6104" : [
-               "ten na",
                "ten na"
             ],
             "6107" : [
@@ -15900,8 +15742,6 @@
             "6104" : [
                "しよう とく",
                "syou toku",
-               "syō toku",
-               "syou toku",
                "syō toku"
             ]
          }
@@ -16079,9 +15919,6 @@
             "6104" : [
                "tem pou",
                "tem pō",
-               "tem pou",
-               "tem pō",
-               "tem po",
                "tem po",
                "ame tamotu"
             ],
@@ -16417,10 +16254,8 @@
                "shō wa"
             ],
             "6104" : [
-               "しよう わ",
                "しゃう は",
-               "syou wa",
-               "syō wa",
+               "しよう わ",
                "syou wa",
                "syō wa"
             ],
@@ -16620,9 +16455,6 @@
                "けん ぱう",
                "kem pou",
                "kem pō",
-               "kem pou",
-               "kem pō",
-               "kem po",
                "kem po"
             ]
          }
@@ -16813,9 +16645,6 @@
             "6104" : [
                "kem ' mu",
                "kem mu",
-               "kem ' mu",
-               "kem mu",
-               "kem bu",
                "kem bu"
             ]
          }
@@ -16956,12 +16785,10 @@
                "ō chō"
             ],
             "6104" : [
-               "おう ちよう",
-               "をう ちやう",
-               "わう ちやう",
                "おう ちやう",
-               "ou tyou",
-               "ō tyō",
+               "おう ちよう",
+               "わう ちやう",
+               "をう ちやう",
                "ou tyou",
                "ō tyō"
             ]
@@ -17115,7 +16942,6 @@
                "man ji"
             ],
             "6104" : [
-               "man zi",
                "man zi"
             ],
             "6107" : [
@@ -17484,10 +17310,6 @@
                "けい ちよう",
                "kei tyou",
                "kei tyō",
-               "kei tyou",
-               "kei tyō",
-               "kyou tyou",
-               "kyō tyō",
                "kyou tyou",
                "kyō tyō"
             ],
@@ -17804,8 +17626,8 @@
                "ka ō"
             ],
             "6104" : [
-               "か をう",
-               "か わう"
+               "か わう",
+               "か をう"
             ]
          }
       },
@@ -18122,10 +17944,7 @@
             ],
             "6104" : [
                "ken zi",
-               "ken zi",
                "ken ti",
-               "ken ti",
-               "ken si",
                "ken si"
             ],
             "6107" : [
@@ -18330,14 +18149,10 @@
                "chō kyō"
             ],
             "6104" : [
-               "じよう きよう",
                "じやう きやう",
+               "じよう きよう",
                "zyou kyou",
                "zyō kyō",
-               "zyou kyou",
-               "zyō kyō",
-               "tyou kyou",
-               "tyō kyō",
                "tyou kyou",
                "tyō kyō"
             ],
@@ -18546,8 +18361,6 @@
                "じよう わ",
                "ぢやう わ",
                "でう わ",
-               "zyou wa",
-               "zyō wa",
                "zyou wa",
                "zyō wa"
             ],
@@ -18933,8 +18746,6 @@
             ],
             "6104" : [
                "zi an",
-               "zi an",
-               "ti an",
                "ti an"
             ],
             "6107" : [
@@ -19231,11 +19042,7 @@
                "じよう おう",
                "zyou ou",
                "zyō ō",
-               "zyou ou",
-               "zyō ō",
                "せう をう",
-               "syou ou",
-               "syō ō",
                "syou ou",
                "syō ō"
             ],
@@ -19392,7 +19199,6 @@
                "kan bun"
             ],
             "6104" : [
-               "kam bun",
                "kam bun"
             ],
             "6107" : [
@@ -19557,14 +19363,8 @@
                "しよう りやく",
                "syou ryaku",
                "syō ryaku",
-               "syou ryaku",
-               "syō ryaku",
                "zyou ryaku",
                "zyō ryaku",
-               "zyou ryaku",
-               "zyō ryaku",
-               "syou reki",
-               "syō reki",
                "syou reki",
                "syō reki"
             ]
@@ -19875,8 +19675,6 @@
             ],
             "6104" : [
                "ちよう じ",
-               "tyou zi",
-               "tyō zi",
                "tyou zi",
                "tyō zi"
             ]
@@ -20386,8 +20184,6 @@
             ],
             "6104" : [
                "tem ' mei",
-               "tem mei",
-               "tem ' mei",
                "tem mei"
             ]
          }
@@ -20606,8 +20402,6 @@
             "6104" : [
                "ちよう わ",
                "tyou wa",
-               "tyō wa",
-               "tyou wa",
                "tyō wa"
             ],
             "6108" : [
@@ -20798,15 +20592,11 @@
                "sei gen"
             ],
             "6104" : [
-               "じよう げん",
                "じよう ぐえん",
-               "zyou gen",
-               "zyō gen",
+               "じよう げん",
                "zyou gen",
                "zyō gen",
                "せう げん",
-               "syou gen",
-               "syō gen",
                "syou gen",
                "syō gen",
                "しよう けむ"
@@ -20988,8 +20778,6 @@
             ],
             "6104" : [
                "けん ちよう",
-               "ken tyou",
-               "ken tyō",
                "ken tyou",
                "ken tyō"
             ],
@@ -21471,8 +21259,6 @@
             ],
             "6104" : [
                "ka kitu",
-               "ka kitu",
-               "ka kiti",
                "ka kiti"
             ],
             "6107" : [
@@ -21677,7 +21463,6 @@
                "ten ' nin"
             ],
             "6104" : [
-               "ten nin",
                "ten nin"
             ]
          }
@@ -23204,24 +22989,16 @@
                "chi sō"
             ],
             "6104" : [
-               "ぢ せう",
                "じ しよう",
-               "zi syou",
-               "zi syō",
+               "ぢ せう",
                "zi syou",
                "zi syō",
                "ち せう",
                "ti syou",
                "ti syō",
-               "ti syou",
-               "ti syō",
                "ぢ じょう",
                "zi zyou",
                "zi zyō",
-               "zi zyou",
-               "zi zyō",
-               "ti sou",
-               "ti sō",
                "ti sou",
                "ti sō"
             ]
@@ -23453,8 +23230,6 @@
             ],
             "6104" : [
                "man zyu",
-               "man zyu",
-               "man syu",
                "man syu"
             ]
          }
@@ -23739,7 +23514,6 @@
                "ken fun"
             ],
             "6104" : [
-               "gem bun",
                "gem bun"
             ]
          }
@@ -23861,11 +23635,9 @@
                "tai shō"
             ],
             "6104" : [
-               "たい しよう",
-               "たい しゃう",
-               "tai syou",
-               "tai syō",
                "tai sho",
+               "たい しゃう",
+               "たい しよう",
                "tai syou",
                "tai syō"
             ]
@@ -24039,8 +23811,6 @@
             "6104" : [
                "かう ぢ",
                "kou zi",
-               "kō zi",
-               "kou zi",
                "kō zi"
             ],
             "6107" : [
@@ -24189,7 +23959,6 @@
                "en bun"
             ],
             "6104" : [
-               "em bun",
                "em bun"
             ],
             "6107" : [
@@ -24645,8 +24414,6 @@
             "6104" : [
                "ちやう ろく",
                "tyou roku",
-               "tyō roku",
-               "tyou roku",
                "tyō roku"
             ],
             "6107" : [
@@ -25000,8 +24767,6 @@
             "6104" : [
                "kan nou",
                "kan nō",
-               "kan nou",
-               "kan nō",
                "くわん をう"
             ],
             "6107" : [
@@ -25180,7 +24945,6 @@
                "ten ' nen"
             ],
             "6104" : [
-               "ten nen",
                "ten nen"
             ],
             "6108" : [
@@ -25364,8 +25128,6 @@
             ],
             "6104" : [
                "えん ぱう",
-               "em pou",
-               "em pō",
                "em pou",
                "em pō",
                "ゑん ほう"
@@ -25643,8 +25405,8 @@
                "hō ken"
             ],
             "6104" : [
-               "ほう ぐぇん",
-               "はう ぐゑん"
+               "はう ぐゑん",
+               "ほう ぐぇん"
             ]
          }
       },
@@ -25923,13 +25685,8 @@
             ],
             "6104" : [
                "hei zi",
-               "hei zi",
-               "hei ti",
                "hei ti",
                "ei ti",
-               "ei ti",
-               "byou zi",
-               "byō zi",
                "byou zi",
                "byō zi"
             ],
@@ -26152,11 +25909,7 @@
                "てん せう",
                "ten syou",
                "ten syō",
-               "ten syou",
-               "ten syō",
                "てん ぜう",
-               "ten zyou",
-               "ten zyō",
                "ten zyou",
                "ten zyō"
             ],
@@ -26902,10 +26655,8 @@
                "shō wa"
             ],
             "6104" : [
-               "しよう わ",
-               "syou wa",
-               "syō wa",
                "sho wa",
+               "しよう わ",
                "syo wa",
                "syou wa",
                "syō wa"
@@ -27044,8 +26795,8 @@
                "kyō ho"
             ],
             "6104" : [
-               "きよう ほう",
-               "きやう はう"
+               "きやう はう",
+               "きよう ほう"
             ]
          }
       },
@@ -27355,17 +27106,11 @@
                "えい せう",
                "ei syou",
                "ei syō",
-               "ei syou",
-               "ei syō",
                "えい じやう",
                "えい ぜう",
                "ei zyou",
                "ei zyō",
-               "ei zyou",
-               "ei zyō",
                "よう じよう",
-               "you zyou",
-               "yō zyō",
                "you zyou",
                "yō zyō"
             ],
@@ -27551,10 +27296,6 @@
                "しよう か",
                "syou ka",
                "syō ka",
-               "syou ka",
-               "syō ka",
-               "syou ga",
-               "syō ga",
                "syou ga",
                "syō ga"
             ]
@@ -28230,8 +27971,6 @@
             ],
             "6104" : [
                "toku zi",
-               "toku zi",
-               "toku ti",
                "toku ti"
             ],
             "6108" : [
@@ -28383,14 +28122,10 @@
                "yō chō"
             ],
             "6104" : [
-               "えい ちよう",
                "えい ちやう",
+               "えい ちよう",
                "ei tyou",
                "ei tyō",
-               "ei tyou",
-               "ei tyō",
-               "you tyou",
-               "yō tyō",
                "you tyou",
                "yō tyō"
             ],
@@ -28876,7 +28611,6 @@
                "an wa"
             ],
             "6104" : [
-               "an na",
                "an na"
             ],
             "6107" : [
@@ -29239,8 +28973,6 @@
             ],
             "6104" : [
                "きゆう じゆ",
-               "kyuu zyu",
-               "kyū zyu",
                "kyuu zyu",
                "kyū zyu"
             ],
@@ -29659,10 +29391,6 @@
                "ぶん しよう",
                "bun syou",
                "bun syō",
-               "bun syou",
-               "bun syō",
-               "mon syou",
-               "mon syō",
                "mon syou",
                "mon syō"
             ],
@@ -30044,8 +29772,6 @@
                "けん をう",
                "ぐゑん のう",
                "gen nou",
-               "gen nō",
-               "gen nou",
                "gen nō"
             ],
             "6107" : [
@@ -30249,8 +29975,6 @@
             ],
             "6104" : [
                "ちよう かん",
-               "tyou kan",
-               "tyō kan",
                "tyou kan",
                "tyō kan",
                "ちよう ぐわん"
@@ -30715,7 +30439,6 @@
                "nii wa"
             ],
             "6104" : [
-               "nin na",
                "nin na"
             ],
             "6106" : [
@@ -30996,8 +30719,6 @@
             ],
             "6104" : [
                "ei zi",
-               "ei zi",
-               "ei ti",
                "ei ti"
             ],
             "6107" : [
@@ -31628,8 +31349,8 @@
                "mei ō"
             ],
             "6104" : [
-               "めい をう",
-               "めい わう"
+               "めい わう",
+               "めい をう"
             ],
             "6107" : [
                "Me O",
@@ -32225,10 +31946,7 @@
             ],
             "6104" : [
                "zin go - kei un",
-               "zin go - kei un",
                "sin ko - kei un",
-               "sin ko - kei un",
-               "sin go - kei un",
                "sin go - kei un"
             ],
             "6107" : [
@@ -32366,7 +32084,6 @@
                "ju ei"
             ],
             "6104" : [
-               "zyu ei",
                "zyu ei"
             ],
             "6107" : [
@@ -32581,12 +32298,8 @@
                "ten pei - sei hō"
             ],
             "6104" : [
-               "てん ぴよう しよう ほう",
                "てん ぴやう せう ほう",
-               "tem pyou - shou hou",
-               "tem pyō - shō hō",
-               "ten pyou - syou hou",
-               "ten pyō - syō hō",
+               "てん ぴよう しよう ほう",
                "tem pyou - shou hou",
                "tem pyō - shō hō",
                "ten pyou - syou hou",
@@ -32595,16 +32308,8 @@
                "tem byō - shō bō",
                "ten byou - syou bou",
                "ten byō - syō bō",
-               "tem byou - shou bou",
-               "tem byō - shō bō",
-               "ten byou - syou bou",
-               "ten byō - syō bō",
-               "てん びやう しよう ほう",
                "てん びやう しよう はう",
-               "tem byou - shou hou",
-               "tem byō - shō hō",
-               "ten byou - syou hou",
-               "ten byō - syō hō",
+               "てん びやう しよう ほう",
                "tem byou - shou hou",
                "tem byō - shō hō",
                "ten byou - syou hou",
@@ -32613,12 +32318,6 @@
                "tem pei - shō hō",
                "ten pei - syou hou",
                "ten pei - syō hō",
-               "tem pei - shou hou",
-               "tem pei - shō hō",
-               "ten pei - syou hou",
-               "ten pei - syō hō",
-               "tem pei - sei hou",
-               "tem pei - sei hō",
                "tem pei - sei hou",
                "tem pei - sei hō"
             ],
@@ -32807,7 +32506,6 @@
                "shi toku"
             ],
             "6104" : [
-               "si toku",
                "si toku"
             ],
             "6107" : [
@@ -32990,7 +32688,6 @@
             ],
             "6104" : [
                "ぐゑん な",
-               "gen na",
                "gen na"
             ],
             "6107" : [
@@ -33340,10 +33037,6 @@
             "6104" : [
                "zyou wa",
                "zyō wa",
-               "zyou wa",
-               "zyō wa",
-               "syou wa",
-               "syō wa",
                "syou wa",
                "syō wa"
             ]
@@ -33561,8 +33254,6 @@
             "6104" : [
                "てん ちよう",
                "ten tyou",
-               "ten tyō",
-               "ten tyou",
                "ten tyō"
             ]
          }
@@ -33746,11 +33437,9 @@
                "ken ' nin"
             ],
             "6104" : [
-               "ぐえん にん",
                "くゑん にん",
+               "ぐえん にん",
                "gen nin",
-               "gen nin",
-               "ken nin",
                "ken nin"
             ],
             "6107" : [
@@ -34565,8 +34254,6 @@
             "6104" : [
                "しよう ちよう",
                "syou tyou",
-               "syō tyō",
-               "syou tyou",
                "syō tyō"
             ],
             "6107" : [
@@ -34934,8 +34621,6 @@
                "えい しよう",
                "ゑい しやう",
                "ei syou",
-               "ei syō",
-               "ei syou",
                "ei syō"
             ],
             "6107" : [
@@ -35209,13 +34894,9 @@
             "6104" : [
                "zyou hei",
                "zyō hei",
-               "zyou hei",
-               "zyō hei",
-               "せう へい",
-               "しやう へい",
                "しゃう へい",
-               "syou hei",
-               "syō hei",
+               "しやう へい",
+               "せう へい",
                "syou hei",
                "syō hei"
             ],
@@ -35862,8 +35543,6 @@
             "6104" : [
                "ちよう きゆう",
                "tyou kyuu",
-               "tyō kyū",
-               "tyou kyuu",
                "tyō kyū"
             ]
          }
@@ -36057,8 +35736,6 @@
             ],
             "6104" : [
                "てん しよう",
-               "ten syou",
-               "ten syō",
                "ten syou",
                "ten syō"
             ],
@@ -36535,11 +36212,7 @@
                "ぜう とく",
                "zyou toku",
                "zyō toku",
-               "zyou toku",
-               "zyō toku",
                "せう とく",
-               "syou toku",
-               "syō toku",
                "syou toku",
                "syō toku"
             ],
@@ -37022,8 +36695,8 @@
                "ō an"
             ],
             "6104" : [
-               "をう あん",
-               "わう あん"
+               "わう あん",
+               "をう あん"
             ]
          }
       },
@@ -37182,9 +36855,6 @@
                "ぶん ちゆう",
                "bun tyuu",
                "bun tyū",
-               "bun tyuu",
-               "bun tyū",
-               "fun tiu",
                "fun tiu"
             ],
             "6107" : [
@@ -37340,10 +37010,8 @@
                "kō chō"
             ],
             "6104" : [
-               "こう ちよう",
                "かう ちやう",
-               "kou tyou",
-               "kō tyō",
+               "こう ちよう",
                "kou tyou",
                "kō tyō"
             ]
@@ -37722,11 +37390,9 @@
                "gen chū"
             ],
             "6104" : [
-               "げん ちゆう",
-               "げん ちう",
                "ぐゑん ちゆう",
-               "gen tyuu",
-               "gen tyū",
+               "げん ちう",
+               "げん ちゆう",
                "gen tyuu",
                "gen tyū"
             ],
@@ -38720,12 +38386,8 @@
             ],
             "6104" : [
                "bun zi",
-               "bun zi",
-               "fun ti",
                "fun ti",
                "mon ti",
-               "mon ti",
-               "bun ti",
                "bun ti"
             ]
          }
@@ -38976,8 +38638,8 @@
                "ō toku"
             ],
             "6104" : [
-               "をう とく",
                "わう とく",
+               "をう とく",
                "いよう とく"
             ],
             "6106" : [
@@ -39288,10 +38950,8 @@
                "shō gen"
             ],
             "6104" : [
-               "しよう げん",
                "しやう げん",
-               "syou gen",
-               "syō gen",
+               "しよう げん",
                "syou gen",
                "syō gen",
                "しよう けむ"
@@ -39561,11 +39221,9 @@
                "shō ō"
             ],
             "6104" : [
-               "しよう おう",
-               "しやう をう",
                "しやう わう",
-               "syou ou",
-               "syō ō",
+               "しやう をう",
+               "しよう おう",
                "syou ou",
                "syō ō"
             ]
@@ -39957,7 +39615,6 @@
                "ten bun"
             ],
             "6104" : [
-               "tem bun",
                "tem bun"
             ],
             "6107" : [
@@ -40548,23 +40205,15 @@
                "shō ho"
             ],
             "6104" : [
-               "ぜう ほう",
                "じよう はう",
-               "zyou hou",
-               "zyō hō",
+               "ぜう ほう",
                "zyou hou",
                "zyō hō",
                "せう ほう",
                "syou hou",
                "syō hō",
-               "syou hou",
-               "syō hō",
                "zyou ho",
                "zyō ho",
-               "zyou ho",
-               "zyō ho",
-               "syou ho",
-               "syō ho",
                "syou ho",
                "syō ho"
             ],
@@ -40871,10 +40520,7 @@
             ],
             "6104" : [
                "dai zi",
-               "dai zi",
                "tai zi",
-               "tai zi",
-               "tai ti",
                "tai ti"
             ]
          }
@@ -41084,10 +40730,6 @@
                "ちよう りやく",
                "tyou ryaku",
                "tyō ryaku",
-               "tyou ryaku",
-               "tyō ryaku",
-               "tyou reki",
-               "tyō reki",
                "tyou reki",
                "tyō reki"
             ],
@@ -41240,11 +40882,9 @@
                "ten ' nō"
             ],
             "6104" : [
-               "てん をう",
                "てん わう",
+               "てん をう",
                "てん なう",
-               "ten nou",
-               "ten nō",
                "ten nou",
                "ten nō"
             ]
@@ -41612,12 +41252,8 @@
                "かん ぴよう",
                "kam pyou",
                "kam pyō",
-               "kam pyou",
-               "kam pyō",
-               "kam bei",
                "kam bei",
                "くわん ぺい",
-               "kam pei",
                "kam pei"
             ],
             "6107" : [
@@ -41954,9 +41590,9 @@
                "ō ho"
             ],
             "6104" : [
-               "をう ほう",
-               "わう ほう",
                "おう はう",
+               "わう ほう",
+               "をう ほう",
                "わう ほ"
             ]
          }
@@ -42151,10 +41787,8 @@
                "kō shō"
             ],
             "6104" : [
-               "こう しよう",
                "こう しやう",
-               "kou syou",
-               "kō syō",
+               "こう しよう",
                "kou syou",
                "kō syō"
             ],
@@ -42675,8 +42309,6 @@
             "6104" : [
                "かん しよう",
                "kan syou",
-               "kan syō",
-               "kan syou",
                "kan syō"
             ],
             "6107" : [
@@ -42990,8 +42622,8 @@
                "kei ō"
             ],
             "6104" : [
-               "けい をう",
-               "kei o"
+               "kei o",
+               "けい をう"
             ],
             "6107" : [
                "Kei-oo",
@@ -43340,11 +42972,7 @@
                "ぜう あん",
                "zyou an",
                "zyō an",
-               "zyou an",
-               "zyō an",
                "せう あん",
-               "syou an",
-               "syō an",
                "syou an",
                "syō an"
             ],
@@ -43521,7 +43149,6 @@
                "fu an"
             ],
             "6104" : [
-               "bun nan",
                "bun nan"
             ],
             "6107" : [
@@ -44136,14 +43763,10 @@
                "jō gan"
             ],
             "6104" : [
-               "ぢゃう ぐわん",
                "じよう がん",
-               "でう ぐわん",
+               "ぢゃう ぐわん",
                "でう がん",
-               "じよう がん",
-               "ぢゃう ぐわん",
-               "zyou gan",
-               "zyō gan",
+               "でう ぐわん",
                "zyou gan",
                "zyō gan"
             ],
@@ -44305,7 +43928,6 @@
             ],
             "6104" : [
                "げん ぢ",
-               "gen zi",
                "gen zi"
             ],
             "6107" : [
@@ -44894,9 +44516,8 @@
                "ken ' nin"
             ],
             "6104" : [
-               "けむ にん",
                "けむ にむ",
-               "ken nin",
+               "けむ にん",
                "ken nin"
             ]
          }
@@ -45065,8 +44686,6 @@
                "kan hō"
             ],
             "6104" : [
-               "kam pou",
-               "kam pō",
                "kam pou",
                "kam pō"
             ]
@@ -45332,10 +44951,6 @@
                "か しよう",
                "ka syou",
                "ka syō",
-               "ka syou",
-               "ka syō",
-               "ka zyou",
-               "ka zyō",
                "ka zyou",
                "ka zyō"
             ]
@@ -46291,8 +45906,6 @@
             ],
             "6104" : [
                "ちよう きよう",
-               "tyou kyou",
-               "tyō kyō",
                "tyou kyou",
                "tyō kyō"
             ],
