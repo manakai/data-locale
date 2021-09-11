@@ -327,9 +327,16 @@ for my $path (
     } elsif (defined $key and /^name(!|)\s+(\p{Han}+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name', type => 'han', value => $2, preferred => $1};
-    } elsif (defined $key and /^name_kana\s+(.+)$/) {
+    } elsif (defined $key and /^name_kana\s+([\p{Hiragana} ]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'yomi', type => 'yomi', kana_modern => $1};
+    } elsif (defined $key and /^name_kana\s+([\p{Hiragana} ]+)$/) {
+      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
+          {kind => 'yomi', type => 'yomi', kana_modern => $1};
+    } elsif (defined $key and /^name_kana\s+([\p{Hiragana} ]+),,([\p{Hiragana} ]+)$/) {
+      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
+          {kind => 'yomi', type => 'yomi', kana_modern => $1,
+           kana_others => [$2]};
     } elsif (defined $key and /^name_(ja|cn|tw|ko)(!|)\s+([\p{Han}]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name', type => 'han', lang => $1, value => $3,
@@ -341,10 +348,11 @@ for my $path (
            lang => $1,
            preferred => $2,
            value => percent_decode_c $3};
-    } elsif (defined $key and /^name\((ja)\)(!|)\s+([\p{Hiragana}\p{Katakana}\x{30FC}\N{KATAKANA MIDDLE DOT}\x{3001}\p{Han}\p{Latn}\[\]|:!,()\p{Geometric Shapes}\s]+)$/) {
+    } elsif (defined $key and /^name\((ja|ja_old)\)(!|)\s+([\p{Hiragana}\p{Katakana}\x{30FC}\N{KATAKANA MIDDLE DOT}\x{1B001}-\x{1B11F}\x{3001}\p{Han}\p{Latn}\[\]|:!,()\p{Geometric Shapes}\s]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'jpan',
+           lang => $1,
            preferred => $2,
            value => $3};
     } elsif (defined $key and /^name\((cn|tw)\)(!|)\s+([\N{KATAKANA MIDDLE DOT}\p{Han}()]+)$/) {
@@ -775,14 +783,14 @@ my $LeaderKeys = [];
   sub to_hiragana ($) {
     use utf8;
     my $s = shift;
-    $s =~ tr/アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮ/あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎ/;
+    $s =~ tr/アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮ𛀄𛃚𛁩/あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎあもつ/;
     return $s;
   } # to_hiragana
 
   sub to_katakana ($) {
     use utf8;
     my $s = shift;
-    $s =~ tr/あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎ/アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮ/;
+    $s =~ tr/あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎ𛀄𛃚𛁩/アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮアモツ/;
     return $s;
   } # to_katakana
 
@@ -868,19 +876,32 @@ my $LeaderKeys = [];
     use utf8;
 
     my $s = $v->{kana} // $v->{hiragana};
-    $v->{hiragana_modern} //= [map {
+    $v->{hiragana} //= [map {
       to_hiragana $_;
     } @$s];
-    $v->{hiragana} //= $v->{hiragana_modern};
-    $v->{katakana_modern} //= [map {
+    $v->{katakana} //= [map {
       to_katakana $_;
     } @$s];
-    $v->{katakana} //= $v->{katakana_modern};
 
+    if (not defined $v->{hiragana_classic}) {
+      $v->{hiragana_modern} //= $v->{hiragana};
+      $v->{katakana_modern} //= $v->{katakana};
+    }
+
+    $v->{katakana_classic} //= [map {
+      if (ref $_) {
+        map { to_katakana $_ } @$_;
+      } else {
+        to_katakana $_;
+      }
+    } @{$v->{hiragana_classic}}]
+        if defined $v->{hiragana_classic};
+    
     my $rep = {};
     $rep->{kana_modern} = join ' ', map {
       {'.・' => '._'}->{$_} // $_;
-    } @{$v->{hiragana_modern}};
+    } @{$v->{hiragana_modern}}
+        if defined $v->{hiragana_modern};
     fill_rep_yomi $rep;
 
     my $found = {};
@@ -1137,13 +1158,16 @@ my $LeaderKeys = [];
             my @value;
             while (length $rep->{value}) {
               use utf8;
-              if ($rep->{value} =~ s/\A([\p{Hiragana}|\p{Katakana}ー、][\p{Hiragana}|\p{Katakana}ー、・]*)//) {
+              if ($rep->{value} =~ s/\A([\p{Hiragana}\p{Katakana}\x{1B001}-\x{1B11F}ー、][\p{Hiragana}\p{Katakana}\x{1B001}-\x{1B11F}ー、・|]*)//) {
                 $value->{type} = 'kana';
                 $v->{form_set_type} = 'kana';
                 my $w = [map {
                   /^\s+$/ ? '._' : $_ eq "・" ? '.・' : $_ eq "、" ? '.・' : $_;
-                } grep { length } split /([・、]|\s+)/, $1];
+                } grep { length } split /([・、]|\s+)|\|/, $1];
                 $v->{kana} = $w;
+                if (defined $rep->{lang} and $rep->{lang} eq 'ja_old') {
+                  $v->{hiragana_classic} = [map { to_hiragana $_ } @$w];
+                }
                 if ($rep->{value} =~ s/\A\[J:\]//) {
                   $value->{type} = 'ja';
                 }
@@ -1152,7 +1176,7 @@ my $LeaderKeys = [];
                 $v->{form_set_type} = 'hanzi';
                 my $w = [split //, $1];
                 push @{$v->{others} ||= []}, $w;
-                while ($rep->{value} =~ s/\A\[(!|)(J:|)(,*[\p{Hiragana}\p{Han}]+(?:[\s,]+[\p{Hiragana}\p{Han}]+)*)\]//) {
+                while ($rep->{value} =~ s/\A\[(!|)(J:|)(,*[\p{Hiragana}\p{Han}\x{1B001}-\x{1B11F}]+(?:[\s,]+[\p{Hiragana}\p{Han}\x{1B001}-\x{1B11F}]+)*)\]//) {
                   my $is_wrong = $1;
                   my $is_ja = $2;
                   if ($is_ja) {
@@ -1236,6 +1260,8 @@ my $LeaderKeys = [];
               $value = {type => 'compound', items => \@value};
               my $lang = {
                 jpan => 'jp',
+                ja => 'jp',
+                ja_old => 'jp',
                 cn => 'cn',
                 tw => 'tw',
               }->{$rep->{lang} // $rep->{type}};

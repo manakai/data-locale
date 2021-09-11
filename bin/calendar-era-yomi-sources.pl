@@ -139,7 +139,14 @@ my $EraNameToKey;
   }
 }
 
-sub xx ($) { my $s = shift; $s =~ s/ //g; return lc $s }
+  sub to_hiragana ($) {
+    use utf8;
+    my $s = shift;
+    $s =~ tr/アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮ/あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎ/;
+    $s =~ s/’/'/;
+    return $s;
+  } # to_hiragana
+sub xx ($) { my $s = to_hiragana shift; $s =~ s/ //g; return lc $s }
 for my $era (values %{$Data->{eras}}) {
   my $all = {};
   for (keys %{$era->{yomis}}) {

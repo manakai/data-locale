@@ -2900,8 +2900,7 @@
          "id" : 1077,
          "key" : "文永",
          "missing_yomis" : [
-            "bunei",
-            "bun’ei"
+            "bunei"
          ],
          "name" : "文永",
          "start_year" : 1264,
@@ -3042,8 +3041,7 @@
          "id" : 1080,
          "key" : "元永",
          "missing_yomis" : [
-            "genei",
-            "gen’ei"
+            "genei"
          ],
          "name" : "元永",
          "start_year" : 1118,
@@ -3402,8 +3400,7 @@
          "id" : 1090,
          "key" : "安永",
          "missing_yomis" : [
-            "anei",
-            "an’ei"
+            "anei"
          ],
          "name" : "安永",
          "start_year" : 1772,
@@ -6040,8 +6037,7 @@
          "id" : 1171,
          "key" : "天養",
          "missing_yomis" : [
-            "tenyou",
-            "ten’yō"
+            "tenyou"
          ],
          "name" : "天養",
          "start_year" : 1144,
@@ -8388,8 +8384,7 @@
          "id" : 1233,
          "key" : "仁安",
          "missing_yomis" : [
-            "ninan",
-            "nin’an"
+            "ninan"
          ],
          "name" : "仁安",
          "start_year" : 1166,
@@ -8795,8 +8790,7 @@
          "id" : 1252,
          "key" : "文応",
          "missing_yomis" : [
-            "bunou",
-            "bun’ō"
+            "bunou"
          ],
          "name" : "文応",
          "start_year" : 1260,
@@ -10380,8 +10374,7 @@
          "id" : 1315,
          "key" : "延応",
          "missing_yomis" : [
-            "enou",
-            "en’ō"
+            "enou"
          ],
          "name" : "延応",
          "start_year" : 1239,
@@ -15895,32 +15888,27 @@
             "6100" : [
                "てん ぽう",
                "てん ほう",
-               "てん ぽ",
-               "あめ たもつ"
+               "てん ぽ"
             ],
             "6101" : [
                "てん ぽう",
                "てん ほう",
-               "てん ぽ",
-               "あめ たもつ"
+               "てん ぽ"
             ],
             "6102" : [
                "ten pou",
                "ten hou",
-               "ten po",
-               "ame tamotsu"
+               "ten po"
             ],
             "6103" : [
                "ten pō",
                "ten hō",
-               "ten po",
-               "ame tamotsu"
+               "ten po"
             ],
             "6104" : [
                "tem pou",
                "tem pō",
-               "tem po",
-               "ame tamotu"
+               "tem po"
             ],
             "6107" : [
                "Ten fô",
@@ -19748,7 +19736,6 @@
          "key" : "寛永",
          "missing_yomis" : [
             "kanei",
-            "kan’ei",
             "くわんねい"
          ],
          "name" : "寛永",
@@ -20436,8 +20423,6 @@
          "id" : 1648,
          "key" : "承元",
          "missing_yomis" : [
-            "せうくゑ",
-            "シヨウ願"
          ],
          "name" : "承元",
          "start_year" : 1207,
@@ -20600,6 +20585,9 @@
                "syou gen",
                "syō gen",
                "しよう けむ"
+            ],
+            "6105" : [
+               "せう くゑ"
             ],
             "6106" : [
                "しよう 願"
@@ -23651,6 +23639,25 @@
          "name" : "AD",
          "start_year" : 2011,
          "yomis" : {
+            "6100" : [
+               "きりすと き げん",
+               "せい れき",
+               "せい き",
+               "せい れき き げん",
+               "がく れき"
+            ],
+            "6102" : [
+               "sei reki",
+               "sei ki",
+               "sei reki - ki gen",
+               "gaku reki"
+            ],
+            "6103" : [
+               "sei reki",
+               "sei ki",
+               "sei reki - ki gen",
+               "gaku reki"
+            ],
             "6107" : [
                "GOX   IRAI"
             ]
@@ -24820,8 +24827,7 @@
          "id" : 225,
          "key" : "天延",
          "missing_yomis" : [
-            "tenen",
-            "ten’en"
+            "tenen"
          ],
          "name" : "天延",
          "start_year" : 973,
@@ -29126,8 +29132,7 @@
          "id" : 374,
          "key" : "寛延",
          "missing_yomis" : [
-            "kanen",
-            "kan’en"
+            "kanen"
          ],
          "name" : "寛延",
          "start_year" : 1748,
@@ -32116,8 +32121,7 @@
          "missing_yomis" : [
             "tempyōshōhō",
             "tenpyoushouhou",
-            "tenpyōshōhō",
-            "せうほう"
+            "tenpyōshōhō"
          ],
          "name" : "天平勝宝",
          "start_year" : 749,
@@ -32273,7 +32277,8 @@
                "てん びょう しょう ぼう",
                "てん びょう しょう ほう",
                "てん ぺい しょう ほう",
-               "てん ぺい せい ほう"
+               "てん ぺい せい ほう",
+               "しょう ほう"
             ],
             "6101" : [
                "てん ぴやう しよう ほう",
@@ -32288,14 +32293,16 @@
                "ten byou - shou bou",
                "ten byou - shou hou",
                "ten pei - shou hou",
-               "ten pei - sei hou"
+               "ten pei - sei hou",
+               "shou hou"
             ],
             "6103" : [
                "ten pyō - shō hō",
                "ten byō - shō bō",
                "ten byō - shō hō",
                "ten pei - shō hō",
-               "ten pei - sei hō"
+               "ten pei - sei hō",
+               "shō hō"
             ],
             "6104" : [
                "てん ぴやう せう ほう",
@@ -32319,7 +32326,10 @@
                "ten pei - syou hou",
                "ten pei - syō hō",
                "tem pei - sei hou",
-               "tem pei - sei hō"
+               "tem pei - sei hō",
+               "せう ほう",
+               "syou hou",
+               "syō hō"
             ],
             "6107" : [
                "Tempe Seofo"
@@ -35283,8 +35293,7 @@
          "id" : 557,
          "key" : "建永",
          "missing_yomis" : [
-            "kenei",
-            "ken’ei"
+            "kenei"
          ],
          "name" : "建永",
          "start_year" : 1206,
@@ -37894,7 +37903,6 @@
          "missing_yomis" : [
             "man'ei",
             "manen",
-            "man’en",
             "まんえい"
          ],
          "name" : "万延",
@@ -42948,8 +42956,7 @@
             "6100" : [
                "じょう あん",
                "しょう あん",
-               "そう あん",
-               "うけ やすき"
+               "そう あん"
             ],
             "6101" : [
                "じよう あん",
@@ -42959,14 +42966,12 @@
             "6102" : [
                "jou an",
                "shou an",
-               "sou an",
-               "uke yasuki"
+               "sou an"
             ],
             "6103" : [
                "jō an",
                "shō an",
-               "sō an",
-               "uke yasuki"
+               "sō an"
             ],
             "6104" : [
                "ぜう あん",
@@ -43007,7 +43012,6 @@
          "id" : 874,
          "key" : "文安",
          "missing_yomis" : [
-            "bun’an"
          ],
          "name" : "文安",
          "start_year" : 1444,

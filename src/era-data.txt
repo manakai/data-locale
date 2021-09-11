@@ -15,7 +15,7 @@ name(en_la) Anno Domini
 &
 name(en) in the year of our Lord
 &
-name(ja) キリスト紀元
+name(ja) キリスト紀元[J:き げん]
 &
 name_ja 耶蘇紀元
 &
@@ -33,14 +33,17 @@ name(ja_latin_old) GOX IRAI
 
 &&
 name_ja! 西暦
+name_kana せい れき
 name(vi) Tây lịch
 &
 name_ja 西紀
+name_kana せい き
 name_ko 西紀
 &
 name_tw 西元
 &
 name 西暦紀元
+name_kana せい れき き げん
 &
 abbr_ja 西 西暦
 &&
@@ -62,6 +65,7 @@ expanded(en) [C]urrent [E]ra
 &&
 name 學曆
 name_ja 学暦
+name_kana がく れき
 &
 abbr_ja 学 学暦
 &&

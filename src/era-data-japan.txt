@@ -308,17 +308,24 @@ tag 追号説のある元号
 &
 name(ja) 朱|鳥[J:あかみ とり,,阿訶美 苔利][J:あかみ どり][J:あか とり]
 
+[天平勝宝]
+&
+name_ja 勝宝
+name_kana しょう ほう,,せう ほう
+
 [神護景雲]
 &
 abbr_ja 云 神護景[雲]
 
 [仁安]
 &
+## <https://wiki.suikawiki.org/n/era%20name#section-%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E5%85%83%E5%8F%B7%E5%90%8D%E2%80%A8%E5%92%8C%E8%AA%9E%E8%A1%A8%E7%8F%BE>
 name(ja) 人[J:]の[J:]やすけき[J:]
 
 [承安]
 &
-name(ja) 承|安[J:うけ やすき]
+## <https://wiki.suikawiki.org/n/era%20name#section-%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E5%85%83%E5%8F%B7%E5%90%8D%E2%80%A8%E5%92%8C%E8%AA%9E%E8%A1%A8%E7%8F%BE>
+name(ja_old) うけ|やすき
 
 [延元]
 tag 日本北朝の公年号
@@ -418,23 +425,6 @@ source
 source
   url:http://d.hatena.ne.jp/hakuriku/20070701#eikan
 
-[天保]
-&
-name(ja) 天|保[J:あめ たもつ,あめ たもつ]
-
-[元治]
-name_ja 元治
-&
-abbr_ja 元 元治
-code #7 元
-code #16 Y
-[慶応]
-name_ja 慶応
-&
-abbr_ja 慶 慶応
-code #7 慶
-code #16 Z
-
 %tag country
 %tag   name_ja 江戸幕府
 %tag   region of 日本 (江戸時代)
@@ -492,6 +482,24 @@ code #16 Z
 <-寛政 k:1801-2-23 #盛岡藩 #藩庁施行
 <-寛政 k:1801-2-25 #盛岡藩 #領内施行
 #
+
+[天保]
+&
+## <https://wiki.suikawiki.org/n/era%20name#section-%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E5%85%83%E5%8F%B7%E5%90%8D%E2%80%A8%E5%92%8C%E8%AA%9E%E8%A1%A8%E7%8F%BE>
+name(ja_old) 𛀄め|た𛃚𛁩
+
+[元治]
+name_ja 元治
+&
+abbr_ja 元 元治
+code #7 元
+code #16 Y
+[慶応]
+name_ja 慶応
+&
+abbr_ja 慶 慶応
+code #7 慶
+code #16 Z
 
 
 [明治]
