@@ -192,6 +192,10 @@ print q{<!DOCTYPE html>
 
 <h1>Era names</h1>
 
+<p>[<a href=era-names.html>Names</a> <a href=era-yomis.html>Yomis</a>]
+[<a
+href=https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9>Notes</a>]
+
 <p class=info>This document is generated from <a
 href=../data/calendar/era-defs.json><code>data/calendar/era-defs.json</code></a>.
 

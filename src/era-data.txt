@@ -13,6 +13,8 @@ expanded(en_la) [A]nno [D]omini
 name(la) ann%C5%8D Domin%C4%AB
 name(en_la) Anno Domini
 &
+name(en) in the year of our Lord
+&
 name(ja) キリスト紀元
 &
 name_ja 耶蘇紀元
@@ -31,6 +33,7 @@ name(ja_latin_old) GOX IRAI
 
 &&
 name_ja! 西暦
+name(vi) Tây lịch
 &
 name_ja 西紀
 name_ko 西紀
@@ -52,9 +55,18 @@ name 公元紀年
 &
 name 共通紀元
 &&
-name 学暦
+name_ja 国際暦
+&&
+acronym(en) C.E.
+expanded(en) [C]urrent [E]ra
+&&
+name 學曆
+name_ja 学暦
 &
 abbr_ja 学 学暦
+&&
+name_ja 和蘭紀元
+
 wref_zh 公元
 wref_ja 西暦
 AD1 = 1

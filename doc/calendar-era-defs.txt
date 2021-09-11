@@ -1,66 +1,15 @@
-data/calendar/era-defs.json
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Era data
+~~~~~~~~
 
-The file contains various properties of eras.
+The |data/calendar/era-defs.json| file contains various properties of
+eras.
 
-* Data types
+* Structure of the era data file
 
-The following data types are used in this document:
+The |data/calendar/era-defs.json| file contains properties of known
+eras.
 
-year
-
-  An AD year <https://manakai.github.io/spec-datetime/#ad-year>.
-
-day
-
-  A day, represented by a JSON object with following name/value pairs,
-  which all represent the same day:
-
-    gregorian
-
-      The Gregorian date string
-      <https://manakai.github.io/spec-datetime/#gregorian-date-string>
-      of the day.
-
-    gregorian_era
-
-      The Gregorian era date string
-      <https://manakai.github.io/spec-datetime/#gregorian-era-date-string>
-      of the day with /era/.
-
-    jd
-
-      The JD day number
-      <https://manakai.github.io/spec-datetime/#jd-day-number> of the
-      day.
-
-    julian
-
-      The Julian date string
-      <https://manakai.github.io/spec-datetime/#julian-date-string> of
-      the day.
-
-    julian_era
-
-      The Julian era date string
-      <https://manakai.github.io/spec-datetime/#julian-era-date-string>
-      of the day with /era/.
-
-    kyuureki
-
-      The kyuureki date string
-      <https://manakai.github.io/spec-datetime/#kyuureki-date-string>
-      of the day.
-
-    kyuureki_era
-
-      The kyuureki era date string
-      <https://manakai.github.io/spec-datetime/#kyuureki-era-date-string>
-      of the day with /era/.
-
-* Structure
-
-The file contains a JSON object with following name/value pairs:
+It is a JSON object with following name/value pairs:
 
   current_jp [string]
 
@@ -494,6 +443,61 @@ The file contains a JSON object with following name/value pairs:
     values are JSON objects whose names are relevant era keys and
     values are [boolean] true values.
 
+* Data types
+
+The following data types are used in this document:
+
+year
+
+  An AD year <https://manakai.github.io/spec-datetime/#ad-year>.
+
+day
+
+  A day, represented by a JSON object with following name/value pairs,
+  which all represent the same day:
+
+    gregorian
+
+      The Gregorian date string
+      <https://manakai.github.io/spec-datetime/#gregorian-date-string>
+      of the day.
+
+    gregorian_era
+
+      The Gregorian era date string
+      <https://manakai.github.io/spec-datetime/#gregorian-era-date-string>
+      of the day with /era/.
+
+    jd
+
+      The JD day number
+      <https://manakai.github.io/spec-datetime/#jd-day-number> of the
+      day.
+
+    julian
+
+      The Julian date string
+      <https://manakai.github.io/spec-datetime/#julian-date-string> of
+      the day.
+
+    julian_era
+
+      The Julian era date string
+      <https://manakai.github.io/spec-datetime/#julian-era-date-string>
+      of the day with /era/.
+
+    kyuureki
+
+      The kyuureki date string
+      <https://manakai.github.io/spec-datetime/#kyuureki-date-string>
+      of the day.
+
+    kyuureki_era
+
+      The kyuureki era date string
+      <https://manakai.github.io/spec-datetime/#kyuureki-era-date-string>
+      of the day with /era/.
+
 * The |events| data type
 
 The |events| data type represents a JSON array of transition events.
@@ -642,6 +646,85 @@ and has following name/value pairs:
     possible day.  The |/incorrect| variant type represent another day
     that were historically considered as the day of the event.
 
+* Structure of the era yomi source list
+
+The |data/calendar/era-yomi-sources.json| file contains the sources of
+the Japanese era name readings.
+
+It is a JSON object with following name/value pairs:
+
+  eras [object]
+
+    The names are the era IDs.  The values are JSON objects describing
+    the era with the corresponding era IDs, with following name/value
+    pairs:
+
+      id [id]
+      key [key]
+      name [string]
+      start_year [year?]
+
+        The ID, key, name, and start year of the era.  These fields
+        are copies of the fields with the same names in the
+        |data/calendar/era-defs.json| file.
+
+      yomis [object]
+
+        The names are source IDs.  The values are the names taken from
+        the sources identified by the corresponding source IDs.
+
+        The source IDs are opaque string identifying the sources, as
+        listed in the |source_ids| array.
+
+        The values are JSON arrays, whose items are strings that are
+        the Japanese readings from the source.  The items might or
+        might not be sorted according to the source.
+
+        The value strings are the text as shown in the relevant
+        sources.  It might or might not be exactly same as the
+        original form.  For example, Katakana letter might be replaced
+        by Hiragana letters representing the same syllable.
+
+        If the value is the empty, the name/value pair can be omitted.
+
+      missing_yomis [array?]
+
+        The array items are the Japanese readings from the sources,
+        which are not found in the labels of the
+        |data/calendar/era-defs.json|.  Any string that is apparently
+        considered as incorrect and its source is not important enough
+        are omitted from the file.
+
+    Note that only eras with relevant data are listed in this file.
+
+  source_ids [array]
+
+    The array items are the opaque strings that identifies the sources
+    of the Japanese readings.  The items are sorted in order that
+    might (or might not) be good for presentation.
+
+  sources [object]
+
+    The IDs are source IDs.  The values are the descriptions of the
+    sources, which are JSON objects with following name/value pairs:
+
+      is_kana_old [boolean]
+
+        Whether the source's readings are represented with Kana
+        letters spelled using one of rules that are different from the
+        Contemporary Kana Spelling (現代仮名遣い).
+
+      is_latin_old [boolean]
+
+        Whether the source's readings are represented with Latin
+        letters spelled using one of rules that are different from the
+        Hepburn system (ヘボン式) and its variants.
+
+      suikawiki_url [string]
+
+        The URL of the (part of) SuikaWiki article that describes the
+        source.
+
 * Set data types
 
 A set data type represents a set of values.
@@ -683,9 +766,6 @@ tables.
 
 The file |data/calendar/era-codes.html| contains a table comparing
 various era codes.  [CODES]
-
-The file |data/calendar/era-yomis.html| contains a table comparing
-Japanese era name readings from various sources.  [JAREADINGS]
 
 The file |data/calendar/era-kodai-years.html| contains a table
 comparing Kodai era year ranges from various sources.  [KODAI]
@@ -758,6 +838,6 @@ You are granted a license to use, reproduce and create derivative
 works of these files.
 
 Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
-extent possible under law, the author of the JSON files and this
-document has waived all copyright and related or neighboring rights to
-the JSON files and this document.
+extent possible under law, the author of the files and this document
+has waived all copyright and related or neighboring rights to the JSON
+files and this document.

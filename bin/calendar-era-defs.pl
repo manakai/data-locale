@@ -1109,7 +1109,7 @@ my $LeaderKeys = [];
                 $v->{form_set_type} = 'hanzi';
                 my $w = [split //, $1];
                 push @{$v->{others} ||= []}, $w;
-                while ($rep->{value} =~ s/\A\[(!|)(J:|)(,*\p{Hiragana}+(?:[\s,]\p{Hiragana}+)*)\]//) {
+                while ($rep->{value} =~ s/\A\[(!|)(J:|)(,*[\p{Hiragana}\p{Han}]+(?:[\s,]+[\p{Hiragana}\p{Han}]+)*)\]//) {
                   my $is_wrong = $1;
                   my $is_ja = $2;
                   if ($is_ja) {
@@ -1142,7 +1142,13 @@ my $LeaderKeys = [];
                   if ($is_wrong) {
                     $rep->{kana_wrongs} = $kanas;
                   } else {
-                    $rep->{kana_others} = $kanas;
+                    for (@$kanas) {
+                      if (/\p{Han}/) {
+                        push @{$rep->{hans} ||= []}, $_;
+                      } else {
+                        push @{$rep->{kana_others} ||= []}, $_;
+                      }
+                    }
                   }
                   fill_yomi $rep;
 
@@ -1162,6 +1168,9 @@ my $LeaderKeys = [];
                   }
                   for (@{$rep->{kana_wrongs} or []}) {
                     push @{$v->{hiragana_wrongs} ||= []}, [split / /, $_];
+                  }
+                  for (@{$rep->{hans} or []}) {
+                    push @{$v->{han_others} ||= []}, [split / /, $_];
                   }
                   for (qw(latin latin_normal latin_macron)) {
                     $v->{$_} = [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $rep->{$_}]
