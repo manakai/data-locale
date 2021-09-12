@@ -27,11 +27,13 @@ See documentations for details in doc/ directory.
       view/era-names.html
       data/calendar/era-yomi-sources.json
       view/era-yomis.html
+      view/era-kanjions.html
       data/calendar/jp-era-start-dates.html
       data/calendar/jp-era-year-maps.html
       data/calendar/era-codes.html
       data/calendar/era-kodai-years.html
       data/calendar/era-kodai-starts.html
+      data/calendar/era-stats.json
     doc/calendar-era-systems.txt       Era systems
     data/calendar/era-systems.json
     doc/calendar-day-era.txt           Era mapping data

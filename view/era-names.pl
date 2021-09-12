@@ -117,6 +117,11 @@ print q{<!DOCTYPE html>
     font-size: 90%;
   }
 
+  td.on-type { writing-mode: horizontal-tb; font-size: 50% }
+  .on-type-KG { background: yellowgreen; color: black }
+  .on-type-K { background: yellow; color: black }
+  .on-type-G { background: green; color: white }
+
   .abbr_indexes td {
     text-align: center;
   }
@@ -192,8 +197,8 @@ print q{<!DOCTYPE html>
 
 <h1>Era names</h1>
 
-<p>[<a href=era-names.html>Names</a> <a href=era-yomis.html>Yomis</a>]
-[<a
+<p>[<a href=era-names.html>Names</a> <a href=era-yomis.html>Yomis</a>
+<a href=era-kanjions.html>Kanji-ons</a>] [<a
 href=https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9>Notes</a>]
 
 <p class=info>This document is generated from <a
@@ -213,7 +218,7 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
   my $lses = [@{$era->{label_sets} or []}];
   
   printf qq{\n<tbody><tr><th rowspan="%d"><code>y~%d</code><p class=info><code>%s</code>},
-      1+@{[map { (1,1) } map { @{$_->{texts}} } map { @{$_->{labels}} } @$lses]} || 1,
+      1+@{[map { (1,1) } map { @{$_->{form_groups}} } map { @{$_->{labels}} } @$lses]} || 1,
       $era->{id}, $era->{key};
 
   {
@@ -247,25 +252,25 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
       print q{<v-error>ERROR: <code>labels</code> is empty</v-error>};
     }
     printf q{<th rowspan="%d">#%d},
-        0+@{[map { (1,1) } map { @{$_->{texts}} } @{$ls->{labels}}]} || 1,
+        0+@{[map { (1,1) } map { @{$_->{form_groups}} } @{$ls->{labels}}]} || 1,
         $_;
     for (0..$#{$ls->{labels}}) {
       my $label = $ls->{labels}->[$_];
       print q{<tr>} unless $_ == 0;
       printf q{<th rowspan="%d">%d},
-          0+@{[ map { (1,1) } @{$label->{texts}} ]},
+          0+@{[ map { (1,1) } @{$label->{form_groups}} ]},
           $_;
 
       my $names = {};
       my $refnames = {};
 
-      if (@{$label->{texts}}) {
-        for (0..$#{$label->{texts}}) {
-          my $rep = $label->{texts}->[$_];
+      if (@{$label->{form_groups}}) {
+        for (0..$#{$label->{form_groups}}) {
+          my $rep = $label->{form_groups}->[$_];
           print q{<tr>} unless $_ == 0;
 
-          printf q{<td><p>[<code>%s</code>]},
-              htescape $rep->{type};
+          printf q{<td><p>form group [<code>%s</code>]},
+              htescape $rep->{form_group_type};
           if (defined $rep->{abbr}) {
             printf q{ (<code>abbr:%s</code>)},
                 htescape $rep->{abbr};
@@ -332,6 +337,21 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
                   printf qq{<code>%s</code>\n},
                       htescape $kv->[0];
                   print q{</mark>} if $preferred->{$kv->[0]};
+
+                  if ($kv->[0] eq 'on_types') {
+                    for (@$v) {
+                      use utf8;
+                      my $t = defined $_ ? {
+                        KG => '漢~呉',
+                        K => '漢',
+                        G => '呉',
+                      }->{$_} // $_ : '?';
+                      printf q{<td class="on-type on-type-%s">}, $_ // '';
+                      print $t;
+                    }
+                    next;
+                  }
+
                   my $i = 0;
                   my $has_segment = 0;
                   for my $segment (@$v) {
@@ -390,10 +410,10 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
             } # $value
           }; # $print_values
 
-          if ($rep->{type} eq 'compound') {
+          if ($rep->{form_group_type} eq 'compound') {
             for my $item (@{$rep->{items}}) {
-              printf q{<v-item><p>[<code>%s</code>]},
-                  htescape $item->{type};
+              printf q{<v-item><p>form group [<code>%s</code>]},
+                  htescape $item->{form_group_type};
 
               my $patterns = {};
               print q{<table class=form-sets>};
@@ -410,9 +430,9 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
 
             for my $label (@{$rep->{expandeds} or []}) {
               print qq{<v-expanded><p>Expanded:\n};
-              for my $text (@{$label->{texts}}) {
-                printf qq{<p>[<code>%s</code>]\n},
-                    htescape $text->{type};
+              for my $text (@{$label->{form_groups}}) {
+                printf qq{<p>form group [<code>%s</code>]\n},
+                    htescape $text->{form_group_type};
                 
                 print q{<table>};
                 $print_values->($text->{form_sets}, {}, $patterns);

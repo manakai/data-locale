@@ -61,13 +61,15 @@ data-main: \
     data/calendar/era-yomi-sources.json \
     data/calendar/era-kodai-years.html \
     data/calendar/era-kodai-starts.html \
+    data/calendar/era-stats.json \
     data/calendar/dts.json \
     data/calendar/serialized/dtsjp1.txt \
     data/calendar/serialized/dtsjp2.txt \
     data/calendar/serialized/dtsjp3.txt \
     day-era-maps \
     data/numbers/kanshi.json \
-    all-langtags
+    all-langtags \
+    intermediate/variants.json
 clean-data: clean-langtags
 	rm -fr local/cldr-core* local/*.json
 
@@ -209,6 +211,7 @@ local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
     local/cluster-root.json \
     local/char-leaders.jsonl \
     local/char-cluster.jsonl \
+    intermediate/kanjion-binran.txt \
     local/era-defs-jp-wp-en.json \
     src/era-data*.txt \
     src/era-variants.txt \
@@ -228,6 +231,12 @@ local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
 	$(PERL) $< > $@
 #intermediate/era-ids.json: data/calendar/era-defs.json
 data/calendar/era-codes.html: bin/calendar-era-codes.pl \
+    data/calendar/era-defs.json
+	$(PERL) $< > $@
+
+data/calendar/era-stats.json: bin/calendar-era-stats.pl \
+    local/cluster-root.json \
+    local/char-leaders.jsonl \
     data/calendar/era-defs.json
 	$(PERL) $< > $@
 
@@ -439,6 +448,9 @@ data/langs/langtags.json: bin/langs-langtags.pl \
 	$(PERL) $< \
 	  local/langtags/subtag-registry local/langtags/ext-registry \
 	  local/cldr-repo/common/bcp47/*.xml > $@
+
+intermediate/variants.json: data/calendar/era-stats.json always
+	cd intermediate && $(MAKE) variants.json
 
 view: always
 	cd view && $(MAKE) all

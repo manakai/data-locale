@@ -6940,8 +6940,9 @@ sw 晏朝
 name_ja 晏朝
 name_kana あん ちょう
 &
-wref_ja 後明晏朝
+name_ja 後明晏朝
 name_kana こう めい あん ちょう
+wref_ja 後明晏朝
 
 AD1814 = 1
 <-嘉慶(丙辰) [清:1814-10] #清 #明 #朱毛俚 #蜂起

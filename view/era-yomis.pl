@@ -226,8 +226,8 @@ copyright and related or neighboring rights to this document.
 </style>
 <h1>Era yomis</h1>
 
-<p>[<a href=era-names.html>Names</a> <a href=era-yomis.html>Yomis</a>]
-[<a
+<p>[<a href=era-names.html>Names</a> <a href=era-yomis.html>Yomis</a>
+<a href=era-kanjions.html>Kanji-ons</a>] [<a
 href=https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9>Notes</a>]
 
 <p class=info>This document is generated from <a

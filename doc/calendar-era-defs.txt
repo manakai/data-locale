@@ -725,6 +725,23 @@ It is a JSON object with following name/value pairs:
         The URL of the (part of) SuikaWiki article that describes the
         source.
 
+* Structure of the era stats data
+
+The |data/calendar/era-stats.json| file contains the summary of eras,
+computed from other era data.
+
+It is a JSON object with following name/value pairs:
+
+  han_chars [object]
+
+    A JSON object with following name/value pairs:
+
+      all [object]
+
+        Names are the Han characters used in era names, where variants
+        are normalized into "cluster leaders" of equivalent Han
+        variant clusters the characters belong to.
+
 * Set data types
 
 A set data type represents a set of values.
@@ -772,6 +789,14 @@ comparing Kodai era year ranges from various sources.  [KODAI]
 
 The file |data/calendar/era-kodai-starts.html| contains a table
 comparing Kodai era start years from various sources.  [KODAI]
+
+The files:
+
+  view/era-names.html
+  view/era-yomis.html
+  view/era-kanjions.html
+
+... are visualization of portions of JSON data files.
 
 * See also
 

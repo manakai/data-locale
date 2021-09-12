@@ -1711,7 +1711,7 @@ tag 漢民族
 
 ## [103]
 name_ja 建貞
-name_kana けんてい
+name_kana けん てい
 &
 name_ja 永貞
 #<- 886-5-庚辰 李熅

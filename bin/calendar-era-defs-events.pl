@@ -1236,7 +1236,10 @@ for my $era (values %{$Data->{eras}}) {
       $era->{start_year} < 1868) {
     set_object_tag $era, '樺太';
   }
+
+  delete $era->{_FORM_GROUP_ONS};
 } # era
+delete $Data->{_ONS};
 
 print perl2json_bytes_for_record $Data;
 

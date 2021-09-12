@@ -15,7 +15,7 @@ name(en_la) Anno Domini
 &
 name(en) in the year of our Lord
 &
-name(ja) キリスト紀元[J:き げん]
+name(ja) キリスト紀|元[J:き げん]
 &
 name_ja 耶蘇紀元
 &

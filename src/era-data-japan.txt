@@ -365,6 +365,11 @@ code #15 北15
 [康応]
 code #15 北16
 
+[建治]
+&
+## <https://wiki.suikawiki.org/n/%E6%94%B9%E5%85%83%E6%89%8B%E7%B6%9A#anchor-87>
+name(ja_old) ケン|チ
+
 [応仁]
 #<- 1475 樺太 武田信広
 
