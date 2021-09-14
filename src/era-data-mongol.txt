@@ -32,9 +32,12 @@
 
 def[太祖]
 #y~1836
+
 AD1227 = 22
 u 1
 u 22-7-12
+wref_zh 成吉思汗
+
 sw 蒙古王即位紀年
 tag 蒙古帝国
 tag 蒙古
@@ -48,9 +51,12 @@ name_tw 太祖成吉思汗
 
 def[拖雷監国]
 #y~1839
+
 AD1228 = 1
 u 1
 u 2
+wref_zh 拖雷
+
 sw 蒙古王即位紀年
 tag 蒙古帝国
 tag 蒙古
@@ -60,9 +66,12 @@ name(cn) 拖雷(监国)
 
 def[太宗]
 #y~1835
+
 AD1241 = 13
 u 1
 u 13-11-8
+wref_zh 窝阔台
+
 sw 蒙古王即位紀年
 tag 蒙古帝国
 tag 蒙古
@@ -77,21 +86,31 @@ def[昭慈后称制]
 sw 蒙古王即位紀年
 tag 蒙古帝国
 tag 蒙古
-AD1840 = 1
+
+AD1242 = 1
 u 1
 u 5
+wref_zh 昭慈皇后
+
 name(ja) ドレゲネ称制
 &
 name(ja) 脱列哥那皇后(ドレゲネ)称制
 &
 name(ja) 昭慈后(称制)
 name(tw) 昭慈后(稱制)
+&
+name_cn 乃马真后称制
+&
+name_ja 乃馬真后
 
 def[定宗]
 #y~1837
+
 AD1248 = 3
 u 1
 u 3-3-25
+wref_zh 贵由
+
 sw 蒙古王即位紀年
 tag 蒙古帝国
 tag 蒙古
@@ -106,18 +125,24 @@ def[欽淑后称制]
 sw 蒙古王即位紀年
 tag 蒙古帝国
 tag 蒙古
+
 AD1249 = 1
 u 1
 u 3
+wref_zh 欽淑皇后
+
 name(ja) 欽淑后(オグルガイミシュ)称制
 &
 name(cn) 钦淑后(称制)
 
 def[憲宗]
 #y~1838
+
 AD1259 = 9
 u 1
 u 9-7-21
+wref_zh 蒙哥
+
 sw 蒙古王即位紀年
 tag 蒙古帝国
 tag 蒙古
