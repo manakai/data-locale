@@ -5365,6 +5365,14 @@
          "facebook" : "si_LK",
          "native_name" : "සිංහල (ශ්‍රී ලංකාව)"
       },
+      "sjd" : {
+         "bcp47_canonical" : "sjd",
+         "mediawiki" : "sjd"
+      },
+      "sje" : {
+         "bcp47_canonical" : "sje",
+         "mediawiki" : "sje"
+      },
       "sk" : {
          "bcp47_canonical" : "sk",
          "chrome_web_store" : "sk",
