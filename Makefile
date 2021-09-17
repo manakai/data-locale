@@ -203,6 +203,7 @@ data/calendar/era-yomi-sources.json: bin/calendar-era-yomi-sources.pl \
 
 data/calendar/era-defs.json: bin/calendar-era-defs-events.pl \
     local/calendar-era-defs-0.json \
+    data/calendar/era-transitions.json \
     data/tags.json
 	$(PERL) $< > $@
 
@@ -236,8 +237,8 @@ data/calendar/era-codes.html: bin/calendar-era-codes.pl \
 	$(PERL) $< > $@
 
 data/calendar/era-transitions.json: bin/calendar-era-transitions.pl \
-	data/calendar/era-defs.json
-#    local/calendar-era-defs-0.json
+    local/calendar-era-defs-0.json \
+    data/tags.json
 	$(PERL) $< > $@
 
 data/calendar/era-stats.json: bin/calendar-era-stats.pl \
@@ -265,36 +266,42 @@ local/eras/all: \
 	touch $@
 local/eras/jp.txt: bin/extract-era-transitions.pl \
     data/calendar/era-defs.json \
+    data/calendar/era-transitions.json \
     data/tags.json
 	mkdir -p local/eras
 	echo '*jp:\n+$$DEF-jp\n$$DEF-jp:' > $@
 	TAGS_INCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
 local/eras/jp-south.txt: bin/extract-era-transitions.pl \
     data/calendar/era-defs.json \
+    data/calendar/era-transitions.json \
     data/tags.json
 	mkdir -p local/eras
 	echo '*jp-south:\n+$$DEF-jp-south\n$$DEF-jp-south:' > $@
 	TAGS_INCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
 local/eras/jp-north.txt: bin/extract-era-transitions.pl \
     data/calendar/era-defs.json \
+    data/calendar/era-transitions.json \
     data/tags.json
 	mkdir -p local/eras
 	echo '*jp-north:\n+$$DEF-jp-north\n$$DEF-jp-north:' > $@
 	TAGS_INCLUDED=日本北朝 TAGS_EXCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
 local/eras/jp-heishi.txt: bin/extract-era-transitions.pl \
     data/calendar/era-defs.json \
+    data/calendar/era-transitions.json \
     data/tags.json
 	mkdir -p local/eras
 	echo '*jp-heishi:\n+$$DEF-jp-heishi\n$$DEF-jp-heishi:' > $@
 	TAGS_INCLUDED=平氏,日本南朝 $(PERL) $< 神武天皇 >> $@
 local/eras/jp-kyoto.txt: bin/extract-era-transitions.pl \
     data/calendar/era-defs.json \
+    data/calendar/era-transitions.json \
     data/tags.json
 	mkdir -p local/eras
 	echo '*jp-kyoto:\n+$$DEF-jp-kyoto\n$$DEF-jp-kyoto:' > $@
 	TAGS_INCLUDED=京都 TAGS_EXCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
 local/eras/jp-east.txt: bin/extract-era-transitions.pl \
     data/calendar/era-defs.json \
+    data/calendar/era-transitions.json \
     data/tags.json
 	mkdir -p local/eras
 	echo '*jp-east:\n+$$DEF-jp-east\n$$DEF-jp-east:' > $@

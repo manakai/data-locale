@@ -4,6 +4,9 @@ Era data
 The |data/calendar/era-defs.json| file contains various properties of
 eras.
 
+The |data/calendar/era-transitions.json| file contains era to era
+transition events.
+
 * Structure of the era data file
 
 The |data/calendar/era-defs.json| file contains properties of known
@@ -358,10 +361,6 @@ It is a JSON object with following name/value pairs:
 
         The set of tags representing characteristics of the era.
 
-      transitions [events]
-
-        The transition events related to the era.
-
       unicode [string?]
 
         The Unicode character for the era, if any.  Era codes #3
@@ -401,7 +400,7 @@ It is a JSON object with following name/value pairs:
         Deprecated.  Applications should not use these values.
 
         These values represent start and end dates and years derived
-        from the transition events of the era.
+        from the transition events relevant to the era.
 
     Note that there is a special era: "unknown", which indicates that
     the era is unknown or not specified.
@@ -646,7 +645,7 @@ and has following name/value pairs:
     possible day.  The |/incorrect| variant type represent another day
     that were historically considered as the day of the event.
 
-* Structure of the era yomi source list
+* Structure of the era yomi source list file
 
 The |data/calendar/era-yomi-sources.json| file contains the sources of
 the Japanese era name readings.
@@ -725,7 +724,18 @@ It is a JSON object with following name/value pairs:
         The URL of the (part of) SuikaWiki article that describes the
         source.
 
-* Structure of the era stats data
+* Structure of the era transition data file
+
+The |data/calendar/era-transitions.json| file contains era-to-era
+transition events.
+
+It is a JSON object with following name/value pair:
+
+  transitions [events.]
+
+    Transition events.
+
+* Structure of the era stats data file
 
 The |data/calendar/era-stats.json| file contains the summary of eras,
 computed from other era data.

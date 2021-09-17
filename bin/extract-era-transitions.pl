@@ -29,12 +29,18 @@ my $StartEraKey = decode_web_utf8 shift or die;
 
 my $EraData;
 my $EraById;
+my $Transitions;
 {
   my $path = $RootPath->child ('data/calendar/era-defs.json');
   $EraData = json_bytes2perl $path->slurp;
   for my $item (values %{$EraData->{eras}}) {
     $EraById->{$item->{id}} = $item;
   }
+}
+{
+  my $path = $RootPath->child ('data/calendar/era-transitions.json');
+  my $json = json_bytes2perl $path->slurp;
+  $Transitions = $json->{transitions};
 }
 
 sub get_transition ($$$) {
@@ -45,7 +51,7 @@ sub get_transition ($$$) {
   my $matched1 = [];
   my $matched2 = [];
 
-  for my $tr (@{$era->{transitions}}) {
+  for my $tr (grep { $_->{relevant_era_ids}->{$era->{id}} } @$Transitions) {
     if (defined $tr->{day}) {
       next if $tr->{day}->{mjd} <= $mjd;
     } elsif (defined $tr->{day_start}) {
@@ -53,8 +59,12 @@ sub get_transition ($$$) {
     } else {
       die "Bad transition";
     }
-    
-    if ($tr->{direction} eq $direction) {
+
+    if (do {
+      ($direction eq 'incoming' and $tr->{next_era_ids}->{$era->{id}})
+          or
+      ($direction eq 'outgoing' and $tr->{prev_era_ids}->{$era->{id}})
+    }) {
       if ($tr->{type} eq 'firstyearstart') {
         if ((!!grep { $_ } map { $tr->{tag_ids}->{$_} } @$TagsIncluded) or
             (!grep { $_ } map { $tr->{tag_ids}->{$_} } @$TagsExcluded)) {

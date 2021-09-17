@@ -12,8 +12,6 @@
          "next_era_ids" : {
             "913" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "913" : 1
          },
@@ -37,8 +35,6 @@
          },
          "next_era_ids" : {
             "913" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "913" : 1
@@ -65,8 +61,6 @@
          "next_era_ids" : {
             "756" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "756" : 1
          },
@@ -89,8 +83,6 @@
          },
          "next_era_ids" : {
             "756" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "756" : 1
@@ -418,8 +410,6 @@
          "next_era_ids" : {
             "1329" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1329" : 1
          },
@@ -470,8 +460,6 @@
          },
          "next_era_ids" : {
             "1329" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1329" : 1
@@ -716,8 +704,6 @@
          "next_era_ids" : {
             "365" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "365" : 1
          },
@@ -741,8 +727,6 @@
          "next_era_ids" : {
             "365" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "365" : 1
          },
@@ -765,8 +749,6 @@
          },
          "next_era_ids" : {
             "20" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "20" : 1
@@ -834,8 +816,6 @@
          },
          "next_era_ids" : {
             "20" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "20" : 1
@@ -1151,8 +1131,6 @@
          "next_era_ids" : {
             "572" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "572" : 1
          },
@@ -1203,8 +1181,6 @@
          },
          "next_era_ids" : {
             "572" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "572" : 1
@@ -1724,8 +1700,6 @@
          "next_era_ids" : {
             "617" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "617" : 1
          },
@@ -1748,8 +1722,6 @@
          },
          "next_era_ids" : {
             "617" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "617" : 1
@@ -1884,8 +1856,6 @@
          "next_era_ids" : {
             "64" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "64" : 1
          },
@@ -1908,8 +1878,6 @@
          },
          "next_era_ids" : {
             "64" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "64" : 1
@@ -1934,8 +1902,6 @@
          "next_era_ids" : {
             "1626" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1626" : 1
          },
@@ -1958,8 +1924,6 @@
          },
          "next_era_ids" : {
             "1626" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1626" : 1
@@ -1984,8 +1948,6 @@
          "next_era_ids" : {
             "56" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "56" : 1
          },
@@ -2008,8 +1970,6 @@
          },
          "next_era_ids" : {
             "56" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "56" : 1
@@ -2034,8 +1994,6 @@
          "next_era_ids" : {
             "1409" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1409" : 1
          },
@@ -2058,8 +2016,6 @@
          },
          "next_era_ids" : {
             "1409" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1409" : 1
@@ -2084,8 +2040,6 @@
          "next_era_ids" : {
             "1241" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1241" : 1
          },
@@ -2108,8 +2062,6 @@
          },
          "next_era_ids" : {
             "1241" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1241" : 1
@@ -2189,8 +2141,6 @@
          "next_era_ids" : {
             "915" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "915" : 1
          },
@@ -2213,8 +2163,6 @@
          },
          "next_era_ids" : {
             "915" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "915" : 1
@@ -2321,8 +2269,6 @@
          "next_era_ids" : {
             "940" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "940" : 1
          },
@@ -2374,8 +2320,6 @@
          "next_era_ids" : {
             "940" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "940" : 1
          },
@@ -2398,8 +2342,6 @@
          },
          "next_era_ids" : {
             "797" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "797" : 1
@@ -2424,8 +2366,6 @@
          "next_era_ids" : {
             "797" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "797" : 1
          },
@@ -2448,8 +2388,6 @@
          },
          "next_era_ids" : {
             "1048" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1048" : 1
@@ -2474,8 +2412,6 @@
          "next_era_ids" : {
             "1048" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1048" : 1
          },
@@ -2498,8 +2434,6 @@
          },
          "next_era_ids" : {
             "125" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "125" : 1
@@ -2524,8 +2458,6 @@
          "next_era_ids" : {
             "125" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "125" : 1
          },
@@ -2548,8 +2480,6 @@
          },
          "next_era_ids" : {
             "24" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "24" : 1
@@ -2574,8 +2504,6 @@
          "next_era_ids" : {
             "24" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "24" : 1
          },
@@ -2598,8 +2526,6 @@
          },
          "next_era_ids" : {
             "1679" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1679" : 1
@@ -2624,8 +2550,6 @@
          "next_era_ids" : {
             "1679" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1679" : 1
          },
@@ -2648,8 +2572,6 @@
          },
          "next_era_ids" : {
             "924" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "924" : 1
@@ -2674,8 +2596,6 @@
          "next_era_ids" : {
             "924" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "924" : 1
          },
@@ -2699,8 +2619,6 @@
          "next_era_ids" : {
             "128" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "128" : 1
          },
@@ -2723,8 +2641,6 @@
          },
          "next_era_ids" : {
             "128" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "128" : 1
@@ -2804,8 +2720,6 @@
          "next_era_ids" : {
             "1017" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1017" : 1
          },
@@ -2828,8 +2742,6 @@
          },
          "next_era_ids" : {
             "1017" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1017" : 1
@@ -2854,8 +2766,6 @@
          "next_era_ids" : {
             "1240" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1240" : 1
          },
@@ -2878,8 +2788,6 @@
          },
          "next_era_ids" : {
             "1240" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1240" : 1
@@ -2904,8 +2812,6 @@
          "next_era_ids" : {
             "96" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "96" : 1
          },
@@ -2928,8 +2834,6 @@
          },
          "next_era_ids" : {
             "96" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "96" : 1
@@ -3009,8 +2913,6 @@
          "next_era_ids" : {
             "796" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "796" : 1
          },
@@ -3033,8 +2935,6 @@
          },
          "next_era_ids" : {
             "796" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "796" : 1
@@ -3114,8 +3014,6 @@
          "next_era_ids" : {
             "648" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "648" : 1
          },
@@ -3138,8 +3036,6 @@
          },
          "next_era_ids" : {
             "648" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "648" : 1
@@ -3164,8 +3060,6 @@
          "next_era_ids" : {
             "1223" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1223" : 1
          },
@@ -3188,8 +3082,6 @@
          },
          "next_era_ids" : {
             "1223" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1223" : 1
@@ -3240,8 +3132,6 @@
          },
          "next_era_ids" : {
             "1347" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1347" : 1
@@ -3294,8 +3184,6 @@
          "next_era_ids" : {
             "1347" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1347" : 1
          },
@@ -3318,8 +3206,6 @@
          },
          "next_era_ids" : {
             "1413" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1413" : 1
@@ -3344,8 +3230,6 @@
          "next_era_ids" : {
             "1413" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1413" : 1
          },
@@ -3368,8 +3252,6 @@
          },
          "next_era_ids" : {
             "1579" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1579" : 1
@@ -3394,8 +3276,6 @@
          "next_era_ids" : {
             "1579" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1579" : 1
          },
@@ -3418,8 +3298,6 @@
          },
          "next_era_ids" : {
             "471" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "471" : 1
@@ -3444,8 +3322,6 @@
          "next_era_ids" : {
             "471" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "471" : 1
          },
@@ -3468,8 +3344,6 @@
          },
          "next_era_ids" : {
             "428" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "428" : 1
@@ -3494,8 +3368,6 @@
          "next_era_ids" : {
             "428" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "428" : 1
          },
@@ -3518,8 +3390,6 @@
          },
          "next_era_ids" : {
             "711" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "711" : 1
@@ -3544,8 +3414,6 @@
          "next_era_ids" : {
             "711" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "711" : 1
          },
@@ -3568,8 +3436,6 @@
          },
          "next_era_ids" : {
             "1515" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1515" : 1
@@ -3594,8 +3460,6 @@
          "next_era_ids" : {
             "1515" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1515" : 1
          },
@@ -3618,8 +3482,6 @@
          },
          "next_era_ids" : {
             "795" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "795" : 1
@@ -3644,8 +3506,6 @@
          "next_era_ids" : {
             "795" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "795" : 1
          },
@@ -3668,8 +3528,6 @@
          },
          "next_era_ids" : {
             "736" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "736" : 1
@@ -3694,8 +3552,6 @@
          "next_era_ids" : {
             "736" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "736" : 1
          },
@@ -3719,8 +3575,6 @@
          "next_era_ids" : {
             "631" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "631" : 1
          },
@@ -3744,8 +3598,6 @@
          "next_era_ids" : {
             "885" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "885" : 1
          },
@@ -3769,8 +3621,6 @@
          "next_era_ids" : {
             "631" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "631" : 1
          },
@@ -3794,8 +3644,6 @@
          "next_era_ids" : {
             "885" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "885" : 1
          },
@@ -3818,8 +3666,6 @@
          },
          "next_era_ids" : {
             "1038" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1038" : 1
@@ -3870,8 +3716,6 @@
          },
          "next_era_ids" : {
             "1038" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1038" : 1
@@ -3924,8 +3768,6 @@
          "next_era_ids" : {
             "1398" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1398" : 1
          },
@@ -3948,8 +3790,6 @@
          },
          "next_era_ids" : {
             "1398" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1398" : 1
@@ -3974,8 +3814,6 @@
          "next_era_ids" : {
             "304" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "304" : 1
          },
@@ -3998,8 +3836,6 @@
          },
          "next_era_ids" : {
             "304" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "304" : 1
@@ -4281,8 +4117,6 @@
          "next_era_ids" : {
             "444" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "444" : 1
          },
@@ -4305,8 +4139,6 @@
          },
          "next_era_ids" : {
             "444" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "444" : 1
@@ -4359,8 +4191,6 @@
          },
          "next_era_ids" : {
             "582" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "582" : 1
@@ -4445,8 +4275,6 @@
          },
          "next_era_ids" : {
             "582" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "582" : 1
@@ -4695,8 +4523,6 @@
          "next_era_ids" : {
             "673" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "673" : 1
          },
@@ -4748,8 +4574,6 @@
          "next_era_ids" : {
             "673" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "673" : 1
          },
@@ -4799,8 +4623,6 @@
          },
          "next_era_ids" : {
             "564" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "564" : 1
@@ -4852,8 +4674,6 @@
          },
          "next_era_ids" : {
             "564" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "564" : 1
@@ -4877,8 +4697,6 @@
          },
          "next_era_ids" : {
             "1332" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1332" : 1
@@ -4902,8 +4720,6 @@
          },
          "next_era_ids" : {
             "1336" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1336" : 1
@@ -4957,8 +4773,6 @@
          "next_era_ids" : {
             "1332" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1332" : 1
          },
@@ -4981,8 +4795,6 @@
          },
          "next_era_ids" : {
             "1336" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1336" : 1
@@ -5265,8 +5077,6 @@
          "next_era_ids" : {
             "1365" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1365" : 1
          },
@@ -5292,8 +5102,6 @@
          },
          "next_era_ids" : {
             "1365" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1365" : 1
@@ -5321,8 +5129,6 @@
          "next_era_ids" : {
             "1064" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1064" : 1
          },
@@ -5345,8 +5151,6 @@
          },
          "next_era_ids" : {
             "1064" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1064" : 1
@@ -5371,8 +5175,6 @@
          "next_era_ids" : {
             "1577" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1577" : 1
          },
@@ -5395,8 +5197,6 @@
          },
          "next_era_ids" : {
             "1577" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1577" : 1
@@ -7341,8 +7141,6 @@
          "next_era_ids" : {
             "274" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "274" : 1
          },
@@ -7365,8 +7163,6 @@
          },
          "next_era_ids" : {
             "274" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "274" : 1
@@ -14795,8 +14591,6 @@
          "next_era_ids" : {
             "755" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "755" : 1
          },
@@ -14850,8 +14644,6 @@
          },
          "next_era_ids" : {
             "755" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "755" : 1
@@ -14991,8 +14783,6 @@
          "next_era_ids" : {
             "1482" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1482" : 1
          },
@@ -15018,8 +14808,6 @@
          },
          "next_era_ids" : {
             "1482" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1482" : 1
@@ -15245,8 +15033,6 @@
          "next_era_ids" : {
             "1525" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1525" : 1
          },
@@ -15300,8 +15086,6 @@
          },
          "next_era_ids" : {
             "1525" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1525" : 1
@@ -15583,8 +15367,6 @@
          "next_era_ids" : {
             "1321" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1321" : 1
          },
@@ -15638,8 +15420,6 @@
          "next_era_ids" : {
             "1321" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1321" : 1
          },
@@ -15666,8 +15446,6 @@
          "next_era_ids" : {
             "1466" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1466" : 1
          },
@@ -15693,8 +15471,6 @@
          },
          "next_era_ids" : {
             "1466" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1466" : 1
@@ -16060,8 +15836,6 @@
          "next_era_ids" : {
             "267" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "267" : 1
          },
@@ -16087,8 +15861,6 @@
          },
          "next_era_ids" : {
             "267" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "267" : 1
@@ -16116,8 +15888,6 @@
          "next_era_ids" : {
             "1318" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1318" : 1
          },
@@ -16143,8 +15913,6 @@
          },
          "next_era_ids" : {
             "1318" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1318" : 1
@@ -16353,8 +16121,6 @@
          "next_era_ids" : {
             "1601" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1601" : 1
          },
@@ -16408,8 +16174,6 @@
          "next_era_ids" : {
             "1601" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1601" : 1
          },
@@ -16462,8 +16226,6 @@
          },
          "next_era_ids" : {
             "1436" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1436" : 1
@@ -16519,8 +16281,6 @@
          },
          "next_era_ids" : {
             "1436" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1436" : 1
@@ -16693,8 +16453,6 @@
          "next_era_ids" : {
             "861" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "861" : 1
          },
@@ -16747,8 +16505,6 @@
          },
          "next_era_ids" : {
             "861" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "861" : 1
@@ -17114,8 +16870,6 @@
          "next_era_ids" : {
             "522" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "522" : 1
          },
@@ -17141,8 +16895,6 @@
          },
          "next_era_ids" : {
             "522" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "522" : 1
@@ -17285,8 +17037,6 @@
          "next_era_ids" : {
             "130" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "130" : 1
          },
@@ -17339,8 +17089,6 @@
          },
          "next_era_ids" : {
             "130" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "130" : 1
@@ -17395,8 +17143,6 @@
          "next_era_ids" : {
             "1494" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1494" : 1
          },
@@ -17422,8 +17168,6 @@
          },
          "next_era_ids" : {
             "1494" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1494" : 1
@@ -17620,8 +17364,6 @@
          "next_era_ids" : {
             "1594" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1594" : 1
          },
@@ -17647,8 +17389,6 @@
          },
          "next_era_ids" : {
             "1594" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1594" : 1
@@ -17845,8 +17585,6 @@
          "next_era_ids" : {
             "1006" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1006" : 1
          },
@@ -17872,8 +17610,6 @@
          },
          "next_era_ids" : {
             "1006" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1006" : 1
@@ -18354,8 +18090,6 @@
          "next_era_ids" : {
             "117" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "117" : 1
          },
@@ -18408,8 +18142,6 @@
          },
          "next_era_ids" : {
             "117" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "117" : 1
@@ -18802,8 +18534,6 @@
          "next_era_ids" : {
             "1572" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1572" : 1
          },
@@ -18829,8 +18559,6 @@
          },
          "next_era_ids" : {
             "1572" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1572" : 1
@@ -19056,8 +18784,6 @@
          "next_era_ids" : {
             "1448" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1448" : 1
          },
@@ -19111,8 +18837,6 @@
          },
          "next_era_ids" : {
             "1448" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1448" : 1
@@ -19541,8 +19265,6 @@
          "next_era_ids" : {
             "352" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "352" : 1
          },
@@ -19595,8 +19317,6 @@
          },
          "next_era_ids" : {
             "352" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "352" : 1
@@ -19847,8 +19567,6 @@
          "next_era_ids" : {
             "318" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "318" : 1
          },
@@ -19874,8 +19592,6 @@
          },
          "next_era_ids" : {
             "318" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "318" : 1
@@ -19903,8 +19619,6 @@
          "next_era_ids" : {
             "1089" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1089" : 1
          },
@@ -19930,8 +19644,6 @@
          },
          "next_era_ids" : {
             "1089" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1089" : 1
@@ -20270,8 +19982,6 @@
          "next_era_ids" : {
             "771" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "771" : 1
          },
@@ -20324,8 +20034,6 @@
          },
          "next_era_ids" : {
             "771" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "771" : 1
@@ -20637,8 +20345,6 @@
          "next_era_ids" : {
             "1304" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1304" : 1
          },
@@ -20691,8 +20397,6 @@
          },
          "next_era_ids" : {
             "1304" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1304" : 1
@@ -20916,8 +20620,6 @@
          "next_era_ids" : {
             "1522" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1522" : 1
          },
@@ -20972,8 +20674,6 @@
          },
          "next_era_ids" : {
             "1522" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1522" : 1
@@ -21114,8 +20814,6 @@
          "next_era_ids" : {
             "65" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "65" : 1
          },
@@ -21168,8 +20866,6 @@
          },
          "next_era_ids" : {
             "65" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "65" : 1
@@ -21535,8 +21231,6 @@
          "next_era_ids" : {
             "50" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "50" : 1
          },
@@ -21591,8 +21285,6 @@
          },
          "next_era_ids" : {
             "50" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "50" : 1
@@ -21706,8 +21398,6 @@
          "next_era_ids" : {
             "284" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "284" : 1
          },
@@ -21760,8 +21450,6 @@
          },
          "next_era_ids" : {
             "284" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "284" : 1
@@ -21816,8 +21504,6 @@
          "next_era_ids" : {
             "170" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "170" : 1
          },
@@ -21844,8 +21530,6 @@
          "next_era_ids" : {
             "170" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "170" : 1
          },
@@ -21871,8 +21555,6 @@
          },
          "next_era_ids" : {
             "35" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "35" : 1
@@ -21928,8 +21610,6 @@
          },
          "next_era_ids" : {
             "35" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "35" : 1
@@ -24254,8 +23934,6 @@
          "next_era_ids" : {
             "1352" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1352" : 1
          },
@@ -24310,8 +23988,6 @@
          },
          "next_era_ids" : {
             "1352" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1352" : 1
@@ -24511,8 +24187,6 @@
          "next_era_ids" : {
             "1293" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1293" : 1
          },
@@ -24567,8 +24241,6 @@
          },
          "next_era_ids" : {
             "1293" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1293" : 1
@@ -25189,8 +24861,6 @@
          "next_era_ids" : {
             "301" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "301" : 1
          },
@@ -25240,8 +24910,6 @@
          },
          "next_era_ids" : {
             "301" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "301" : 1
@@ -25293,8 +24961,6 @@
          "next_era_ids" : {
             "1611" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1611" : 1
          },
@@ -25321,8 +24987,6 @@
          "next_era_ids" : {
             "1818" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1818" : 1
          },
@@ -25349,8 +25013,6 @@
          "next_era_ids" : {
             "1611" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1611" : 1
          },
@@ -25376,8 +25038,6 @@
          },
          "next_era_ids" : {
             "1818" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1818" : 1
@@ -26508,8 +26168,6 @@
          "next_era_ids" : {
             "1369" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1369" : 1
          },
@@ -26532,8 +26190,6 @@
          },
          "next_era_ids" : {
             "1402" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1402" : 1
@@ -26590,8 +26246,6 @@
          "next_era_ids" : {
             "1369" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1369" : 1
          },
@@ -26614,8 +26268,6 @@
          },
          "next_era_ids" : {
             "1402" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1402" : 1
@@ -26783,8 +26435,6 @@
          "next_era_ids" : {
             "1624" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1624" : 1
          },
@@ -26811,8 +26461,6 @@
          "next_era_ids" : {
             "1624" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1624" : 1
          },
@@ -26838,8 +26486,6 @@
          },
          "next_era_ids" : {
             "731" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "731" : 1
@@ -26892,8 +26538,6 @@
          },
          "next_era_ids" : {
             "731" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "731" : 1
@@ -27058,8 +26702,6 @@
          "next_era_ids" : {
             "1463" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1463" : 1
          },
@@ -27116,8 +26758,6 @@
          },
          "next_era_ids" : {
             "1463" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1463" : 1
@@ -27430,8 +27070,6 @@
          "next_era_ids" : {
             "1349" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1349" : 1
          },
@@ -27484,8 +27122,6 @@
          },
          "next_era_ids" : {
             "1349" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1349" : 1
@@ -27883,8 +27519,6 @@
          "next_era_ids" : {
             "960" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "960" : 1
          },
@@ -27937,8 +27571,6 @@
          },
          "next_era_ids" : {
             "960" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "960" : 1
@@ -28821,8 +28453,6 @@
          "next_era_ids" : {
             "187" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "187" : 1
          },
@@ -28845,8 +28475,6 @@
          },
          "next_era_ids" : {
             "378" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "378" : 1
@@ -28905,8 +28533,6 @@
          "next_era_ids" : {
             "187" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "187" : 1
          },
@@ -28929,8 +28555,6 @@
          },
          "next_era_ids" : {
             "378" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "378" : 1
@@ -29358,8 +28982,6 @@
          "next_era_ids" : {
             "642" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "642" : 1
          },
@@ -29385,8 +29007,6 @@
          },
          "next_era_ids" : {
             "642" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "642" : 1
@@ -30070,8 +29690,6 @@
          "next_era_ids" : {
             "1460" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1460" : 1
          },
@@ -30152,8 +29770,6 @@
          },
          "next_era_ids" : {
             "1460" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1460" : 1
@@ -30523,8 +30139,6 @@
          "next_era_ids" : {
             "1334" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1334" : 1
          },
@@ -30550,8 +30164,6 @@
          },
          "next_era_ids" : {
             "1334" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1334" : 1
@@ -31155,8 +30767,6 @@
          "next_era_ids" : {
             "1387" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1387" : 1
          },
@@ -31209,8 +30819,6 @@
          },
          "next_era_ids" : {
             "1387" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1387" : 1
@@ -31777,8 +31385,6 @@
          "next_era_ids" : {
             "334" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "334" : 1
          },
@@ -31804,8 +31410,6 @@
          },
          "next_era_ids" : {
             "334" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "334" : 1
@@ -32264,8 +31868,6 @@
          "next_era_ids" : {
             "641" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "641" : 1
          },
@@ -32319,8 +31921,6 @@
          },
          "next_era_ids" : {
             "641" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "641" : 1
@@ -32406,8 +32006,6 @@
          "next_era_ids" : {
             "1262" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1262" : 1
          },
@@ -32461,8 +32059,6 @@
          },
          "next_era_ids" : {
             "326" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "326" : 1
@@ -32521,8 +32117,6 @@
          "next_era_ids" : {
             "1262" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1262" : 1
          },
@@ -32576,8 +32170,6 @@
          },
          "next_era_ids" : {
             "326" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "326" : 1
@@ -33010,8 +32602,6 @@
          "next_era_ids" : {
             "1082" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1082" : 1
          },
@@ -33070,8 +32660,6 @@
          },
          "next_era_ids" : {
             "1082" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1082" : 1
@@ -33188,8 +32776,6 @@
          "next_era_ids" : {
             "470" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "470" : 1
          },
@@ -33242,8 +32828,6 @@
          },
          "next_era_ids" : {
             "470" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "470" : 1
@@ -33327,8 +32911,6 @@
          "next_era_ids" : {
             "1394" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1394" : 1
          },
@@ -33382,8 +32964,6 @@
          },
          "next_era_ids" : {
             "1394" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1394" : 1
@@ -33496,8 +33076,6 @@
          "next_era_ids" : {
             "578" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "578" : 1
          },
@@ -33550,8 +33128,6 @@
          },
          "next_era_ids" : {
             "578" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "578" : 1
@@ -33608,8 +33184,6 @@
          "next_era_ids" : {
             "1132" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1132" : 1
          },
@@ -33663,8 +33237,6 @@
          },
          "next_era_ids" : {
             "1132" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1132" : 1
@@ -33777,8 +33349,6 @@
          "next_era_ids" : {
             "1844" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1844" : 1
          },
@@ -33831,8 +33401,6 @@
          },
          "next_era_ids" : {
             "1844" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1844" : 1
@@ -34198,8 +33766,6 @@
          "next_era_ids" : {
             "1539" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1539" : 1
          },
@@ -34226,8 +33792,6 @@
          },
          "next_era_ids" : {
             "1539" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1539" : 1
@@ -34256,8 +33820,6 @@
          "next_era_ids" : {
             "1041" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1041" : 1
          },
@@ -34284,8 +33846,6 @@
          },
          "next_era_ids" : {
             "1041" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1041" : 1
@@ -34314,8 +33874,6 @@
          "next_era_ids" : {
             "508" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "508" : 1
          },
@@ -34338,8 +33896,6 @@
          },
          "next_era_ids" : {
             "508" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "508" : 1
@@ -34986,8 +34542,6 @@
          "next_era_ids" : {
             "1242" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1242" : 1
          },
@@ -35070,8 +34624,6 @@
          },
          "next_era_ids" : {
             "1242" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1242" : 1
@@ -35382,8 +34934,6 @@
          "next_era_ids" : {
             "1422" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1422" : 1
          },
@@ -35466,8 +35016,6 @@
          },
          "next_era_ids" : {
             "1422" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1422" : 1
@@ -35663,8 +35211,6 @@
          "next_era_ids" : {
             "366" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "366" : 1
          },
@@ -35691,8 +35237,6 @@
          },
          "next_era_ids" : {
             "366" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "366" : 1
@@ -35890,8 +35434,6 @@
          "next_era_ids" : {
             "265" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "265" : 1
          },
@@ -35943,8 +35485,6 @@
          },
          "next_era_ids" : {
             "265" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "265" : 1
@@ -36138,8 +35678,6 @@
          "next_era_ids" : {
             "71" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "71" : 1
          },
@@ -36194,8 +35732,6 @@
          },
          "next_era_ids" : {
             "71" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "71" : 1
@@ -36336,8 +35872,6 @@
          "next_era_ids" : {
             "1043" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1043" : 1
          },
@@ -36393,8 +35927,6 @@
          },
          "next_era_ids" : {
             "1043" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1043" : 1
@@ -36732,8 +36264,6 @@
          "next_era_ids" : {
             "1040" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1040" : 1
          },
@@ -36761,8 +36291,6 @@
          "next_era_ids" : {
             "1505" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1505" : 1
          },
@@ -36789,8 +36317,6 @@
          },
          "next_era_ids" : {
             "848" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "848" : 1
@@ -36818,8 +36344,6 @@
          },
          "next_era_ids" : {
             "1040" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1040" : 1
@@ -36848,8 +36372,6 @@
          "next_era_ids" : {
             "1505" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1505" : 1
          },
@@ -36876,8 +36398,6 @@
          },
          "next_era_ids" : {
             "848" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "848" : 1
@@ -37077,8 +36597,6 @@
          "next_era_ids" : {
             "1605" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1605" : 1
          },
@@ -37132,8 +36650,6 @@
          },
          "next_era_ids" : {
             "1605" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1605" : 1
@@ -37577,8 +37093,6 @@
          "next_era_ids" : {
             "1491" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1491" : 1
          },
@@ -37633,8 +37147,6 @@
          },
          "next_era_ids" : {
             "1491" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1491" : 1
@@ -37919,8 +37431,6 @@
          "next_era_ids" : {
             "1495" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1495" : 1
          },
@@ -37975,8 +37485,6 @@
          "next_era_ids" : {
             "1495" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1495" : 1
          },
@@ -38030,8 +37538,6 @@
          },
          "next_era_ids" : {
             "256" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "256" : 1
@@ -38088,8 +37594,6 @@
          },
          "next_era_ids" : {
             "256" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "256" : 1
@@ -38787,8 +38291,6 @@
          "next_era_ids" : {
             "1576" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1576" : 1
          },
@@ -38844,8 +38346,6 @@
          },
          "next_era_ids" : {
             "1576" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1576" : 1
@@ -39078,8 +38578,6 @@
          "next_era_ids" : {
             "1120" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1120" : 1
          },
@@ -39133,8 +38631,6 @@
          "next_era_ids" : {
             "623" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "623" : 1
          },
@@ -39157,8 +38653,6 @@
          },
          "next_era_ids" : {
             "1120" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1120" : 1
@@ -39211,8 +38705,6 @@
          },
          "next_era_ids" : {
             "623" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "623" : 1
@@ -43618,8 +43110,6 @@
          "next_era_ids" : {
             "496" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "496" : 1
          },
@@ -43700,8 +43190,6 @@
          },
          "next_era_ids" : {
             "496" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "496" : 1
@@ -44031,8 +43519,6 @@
          "next_era_ids" : {
             "1483" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1483" : 1
          },
@@ -44085,8 +43571,6 @@
          },
          "next_era_ids" : {
             "1483" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1483" : 1
@@ -44754,8 +44238,6 @@
          "next_era_ids" : {
             "759" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "759" : 1
          },
@@ -44805,8 +44287,6 @@
          },
          "next_era_ids" : {
             "759" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "759" : 1
@@ -45113,8 +44593,6 @@
             "mjd" : -167922,
             "nongli_tiger" : "1399-01-01"
          },
-         "next_era_ids" : {
-         },
          "prev_era_ids" : {
             "1251" : 1
          },
@@ -45207,8 +44685,6 @@
          },
          "next_era_ids" : {
             "127" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "127" : 1
@@ -47068,8 +46544,6 @@
          "next_era_ids" : {
             "307" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "307" : 1
          },
@@ -47093,8 +46567,6 @@
          "next_era_ids" : {
             "307" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "307" : 1
          },
@@ -47117,8 +46589,6 @@
          },
          "next_era_ids" : {
             "1608" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1608" : 1
@@ -47171,8 +46641,6 @@
          },
          "next_era_ids" : {
             "1608" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1608" : 1
@@ -47740,8 +47208,6 @@
          "next_era_ids" : {
             "1273" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1273" : 1
          },
@@ -47793,8 +47259,6 @@
          },
          "next_era_ids" : {
             "1273" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1273" : 1
@@ -47959,8 +47423,6 @@
          "next_era_ids" : {
             "1441" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1441" : 1
          },
@@ -48012,8 +47474,6 @@
          },
          "next_era_ids" : {
             "1441" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1441" : 1
@@ -48760,8 +48220,6 @@
          "next_era_ids" : {
             "1632" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1632" : 1
          },
@@ -48784,8 +48242,6 @@
          },
          "next_era_ids" : {
             "1632" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1632" : 1
@@ -49540,8 +48996,6 @@
          "next_era_ids" : {
             "1297" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1297" : 1
          },
@@ -49593,8 +49047,6 @@
          },
          "next_era_ids" : {
             "1297" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1297" : 1
@@ -50136,8 +49588,6 @@
          "next_era_ids" : {
             "1592" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1592" : 1
          },
@@ -50217,8 +49667,6 @@
          },
          "next_era_ids" : {
             "1592" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1592" : 1
@@ -50384,8 +49832,6 @@
          "next_era_ids" : {
             "1555" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1555" : 1
          },
@@ -50408,8 +49854,6 @@
          },
          "next_era_ids" : {
             "320" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "320" : 1
@@ -50461,8 +49905,6 @@
          "next_era_ids" : {
             "481" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "481" : 1
          },
@@ -50486,8 +49928,6 @@
          "next_era_ids" : {
             "1555" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1555" : 1
          },
@@ -50510,8 +49950,6 @@
          },
          "next_era_ids" : {
             "320" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "320" : 1
@@ -50562,8 +50000,6 @@
          },
          "next_era_ids" : {
             "481" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "481" : 1
@@ -50786,8 +50222,6 @@
          "next_era_ids" : {
             "1373" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1373" : 1
          },
@@ -50840,8 +50274,6 @@
          "next_era_ids" : {
             "460" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "460" : 1
          },
@@ -50864,8 +50296,6 @@
          },
          "next_era_ids" : {
             "1373" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1373" : 1
@@ -50917,8 +50347,6 @@
          },
          "next_era_ids" : {
             "460" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "460" : 1
@@ -51030,8 +50458,6 @@
          "next_era_ids" : {
             "1706" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1706" : 1
          },
@@ -51081,8 +50507,6 @@
          },
          "next_era_ids" : {
             "1706" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1706" : 1
@@ -51450,8 +50874,6 @@
          "next_era_ids" : {
             "667" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "667" : 1
          },
@@ -51536,8 +50958,6 @@
          "next_era_ids" : {
             "667" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "667" : 1
          },
@@ -51617,8 +51037,6 @@
          "next_era_ids" : {
             "926" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "926" : 1
          },
@@ -51641,8 +51059,6 @@
          },
          "next_era_ids" : {
             "926" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "926" : 1
@@ -52100,8 +51516,6 @@
          "next_era_ids" : {
             "1540" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1540" : 1
          },
@@ -52124,8 +51538,6 @@
          },
          "next_era_ids" : {
             "1540" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1540" : 1
@@ -52461,8 +51873,6 @@
          "next_era_ids" : {
             "776" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "776" : 1
          },
@@ -52513,8 +51923,6 @@
          "next_era_ids" : {
             "776" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "776" : 1
          },
@@ -52538,8 +51946,6 @@
          "next_era_ids" : {
             "656" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "656" : 1
          },
@@ -52562,8 +51968,6 @@
          },
          "next_era_ids" : {
             "656" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "656" : 1
@@ -53792,8 +53196,6 @@
          "next_era_ids" : {
             "462" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "462" : 1
          },
@@ -53816,8 +53218,6 @@
          },
          "next_era_ids" : {
             "462" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "462" : 1
@@ -53851,8 +53251,6 @@
          "next_era_ids" : {
             "1827" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1827" : 1
          },
@@ -53879,8 +53277,6 @@
          "next_era_ids" : {
             "1827" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1827" : 1
          },
@@ -53905,8 +53301,6 @@
          },
          "next_era_ids" : {
             "1827" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1827" : 1
@@ -54098,8 +53492,6 @@
             "kanshi_label" : "乙酉",
             "mjd" : -96089,
             "nongli_tiger" : "1595-09-16"
-         },
-         "next_era_ids" : {
          },
          "prev_era_ids" : {
             "1251" : 1
@@ -54297,8 +53689,6 @@
          "next_era_ids" : {
             "1789" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1789" : 1
          },
@@ -54322,8 +53712,6 @@
          },
          "next_era_ids" : {
             "1789" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1789" : 1
@@ -54349,8 +53737,6 @@
          "next_era_ids" : {
             "403" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "403" : 1
          },
@@ -54373,8 +53759,6 @@
          },
          "next_era_ids" : {
             "403" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "403" : 1
@@ -54543,8 +53927,6 @@
          "next_era_ids" : {
             "244" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "244" : 1
          },
@@ -54595,8 +53977,6 @@
          "next_era_ids" : {
             "244" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "244" : 1
          },
@@ -54627,8 +54007,6 @@
          "next_era_ids" : {
             "244" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "244" : 1
          },
@@ -54651,8 +54029,6 @@
          },
          "next_era_ids" : {
             "244" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "244" : 1
@@ -54706,8 +54082,6 @@
          "next_era_ids" : {
             "244" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "244" : 1
          },
@@ -54738,8 +54112,6 @@
          "next_era_ids" : {
             "1826" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1826" : 1
          },
@@ -54765,8 +54137,6 @@
          "next_era_ids" : {
             "1826" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1826" : 1
          },
@@ -54791,8 +54161,6 @@
          },
          "next_era_ids" : {
             "1826" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1826" : 1
@@ -54828,8 +54196,6 @@
          },
          "next_era_ids" : {
             "1826" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1826" : 1
@@ -54925,8 +54291,6 @@
          "next_era_ids" : {
             "1826" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1826" : 1
          },
@@ -54959,8 +54323,6 @@
          },
          "next_era_ids" : {
             "1827" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1827" : 1
@@ -55720,8 +55082,6 @@
          "next_era_ids" : {
             "1114" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1114" : 1
          },
@@ -55744,8 +55104,6 @@
          },
          "next_era_ids" : {
             "1114" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1114" : 1
@@ -57027,8 +56385,6 @@
          "next_era_ids" : {
             "609" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "609" : 1
          },
@@ -57079,8 +56435,6 @@
          },
          "next_era_ids" : {
             "609" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "609" : 1
@@ -58253,8 +57607,6 @@
             "mjd" : -78328,
             "nongli_tiger" : "1644-04-29"
          },
-         "next_era_ids" : {
-         },
          "prev_era_ids" : {
             "314" : 1
          },
@@ -58427,8 +57779,6 @@
             "kanshi_label" : "乙亥",
             "mjd" : -78279,
             "nongli_tiger" : "1644-06-19"
-         },
-         "next_era_ids" : {
          },
          "prev_era_ids" : {
             "1251" : 1
@@ -58909,8 +58259,6 @@
          "next_era_ids" : {
             "1834" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1834" : 1
          },
@@ -58937,8 +58285,6 @@
          },
          "next_era_ids" : {
             "1864" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1864" : 1
@@ -59242,8 +58588,6 @@
          "next_era_ids" : {
             "1834" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1834" : 1
          },
@@ -59270,8 +58614,6 @@
          },
          "next_era_ids" : {
             "1864" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1864" : 1
@@ -59663,8 +59005,6 @@
             "kanshi_label" : "戊戌",
             "mjd" : -77956,
             "nongli_tiger" : "1645-05-17"
-         },
-         "next_era_ids" : {
          },
          "prev_era_ids" : {
             "314" : 1
@@ -60320,8 +59660,6 @@
          "next_era_ids" : {
             "1670" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1670" : 1
          },
@@ -60376,8 +59714,6 @@
          "next_era_ids" : {
             "1832" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1832" : 1
          },
@@ -60404,8 +59740,6 @@
          },
          "next_era_ids" : {
             "1863" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1863" : 1
@@ -60670,8 +60004,6 @@
          "next_era_ids" : {
             "1670" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1670" : 1
          },
@@ -60726,8 +60058,6 @@
          "next_era_ids" : {
             "1832" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1832" : 1
          },
@@ -60754,8 +60084,6 @@
          },
          "next_era_ids" : {
             "1863" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1863" : 1
@@ -61037,8 +60365,6 @@
             "kanshi_label" : "戊申",
             "mjd" : -77646,
             "nongli_tiger" : "1646-03-01"
-         },
-         "next_era_ids" : {
          },
          "prev_era_ids" : {
             "314" : 1
@@ -61442,8 +60768,6 @@
             "mjd" : -77385,
             "nongli_tiger" : "1646-11-27"
          },
-         "next_era_ids" : {
-         },
          "prev_era_ids" : {
             "169" : 1
          },
@@ -61547,8 +60871,6 @@
          },
          "next_era_ids" : {
             "1842" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1842" : 1
@@ -61708,8 +61030,6 @@
          },
          "next_era_ids" : {
             "1842" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1842" : 1
@@ -62736,8 +62056,6 @@
             "mjd" : -76655,
             "nongli_tiger" : "1648-11-19"
          },
-         "next_era_ids" : {
-         },
          "prev_era_ids" : {
             "890" : 1
          },
@@ -62862,8 +62180,6 @@
          "next_era_ids" : {
             "1833" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1833" : 1
          },
@@ -62891,8 +62207,6 @@
          "next_era_ids" : {
             "725" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "725" : 1
          },
@@ -62920,8 +62234,6 @@
          "next_era_ids" : {
             "1833" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1833" : 1
          },
@@ -62948,8 +62260,6 @@
          },
          "next_era_ids" : {
             "725" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "725" : 1
@@ -63859,8 +63169,6 @@
          "next_era_ids" : {
             "297" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "297" : 1
          },
@@ -64032,8 +63340,6 @@
          },
          "next_era_ids" : {
             "297" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "297" : 1
@@ -65702,8 +65008,6 @@
             "kanshi_label" : "乙丑",
             "mjd" : -67429,
             "nongli_tiger" : "1674-03-01"
-         },
-         "next_era_ids" : {
          },
          "prev_era_ids" : {
             "757" : 1
@@ -73211,8 +72515,6 @@
          "next_era_ids" : {
             "1167" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1167" : 1
          },
@@ -73235,8 +72537,6 @@
          },
          "next_era_ids" : {
             "1167" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1167" : 1
@@ -73261,8 +72561,6 @@
          "next_era_ids" : {
             "295" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "295" : 1
          },
@@ -73286,8 +72584,6 @@
          "next_era_ids" : {
             "295" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "295" : 1
          },
@@ -73310,8 +72606,6 @@
          },
          "next_era_ids" : {
             "1798" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1798" : 1
@@ -73338,8 +72632,6 @@
          },
          "next_era_ids" : {
             "1798" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1798" : 1
@@ -74762,8 +74054,6 @@
             "mjd" : -660,
             "nongli_tiger" : "1857-01-01"
          },
-         "next_era_ids" : {
-         },
          "prev_era_ids" : {
             "263" : 1
          },
@@ -74935,8 +74225,6 @@
             "mjd" : 167,
             "nongli_tiger" : "1859-04-01"
          },
-         "next_era_ids" : {
-         },
          "prev_era_ids" : {
             "263" : 1
          },
@@ -75015,8 +74303,6 @@
             "kanshi_label" : "辛丑",
             "mjd" : 167,
             "nongli_tiger" : "1859-04-01"
-         },
-         "next_era_ids" : {
          },
          "prev_era_ids" : {
             "882" : 1
@@ -75975,8 +75261,6 @@
          "next_era_ids" : {
             "1758" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1758" : 1
          },
@@ -76189,8 +75473,6 @@
          },
          "next_era_ids" : {
             "1758" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1758" : 1
@@ -76937,8 +76219,6 @@
          "next_era_ids" : {
             "1300" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1300" : 1
          },
@@ -76962,8 +76242,6 @@
          "next_era_ids" : {
             "1687" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1687" : 1
          },
@@ -76986,8 +76264,6 @@
          },
          "next_era_ids" : {
             "252" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "252" : 1
@@ -77012,8 +76288,6 @@
          "next_era_ids" : {
             "912" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "912" : 1
          },
@@ -77037,8 +76311,6 @@
          "next_era_ids" : {
             "1300" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1300" : 1
          },
@@ -77062,8 +76334,6 @@
          "next_era_ids" : {
             "1687" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1687" : 1
          },
@@ -77087,8 +76357,6 @@
          "next_era_ids" : {
             "252" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "252" : 1
          },
@@ -77111,8 +76379,6 @@
          },
          "next_era_ids" : {
             "912" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "912" : 1
@@ -77227,8 +76493,6 @@
          "next_era_ids" : {
             "1703" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1703" : 1
          },
@@ -77251,8 +76515,6 @@
          },
          "next_era_ids" : {
             "247" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "247" : 1
@@ -77332,8 +76594,6 @@
          "next_era_ids" : {
             "1703" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1703" : 1
          },
@@ -77356,8 +76616,6 @@
          },
          "next_era_ids" : {
             "247" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "247" : 1
@@ -78238,8 +77496,6 @@
          "next_era_ids" : {
             "468" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "468" : 1
          },
@@ -78265,8 +77521,6 @@
          },
          "next_era_ids" : {
             "468" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "468" : 1
@@ -78480,8 +77734,6 @@
          "next_era_ids" : {
             "1180" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1180" : 1
          },
@@ -78508,8 +77760,6 @@
          },
          "next_era_ids" : {
             "1180" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1180" : 1
@@ -78538,8 +77788,6 @@
          "next_era_ids" : {
             "798" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "798" : 1
          },
@@ -78566,8 +77814,6 @@
          },
          "next_era_ids" : {
             "798" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "798" : 1
@@ -79243,8 +78489,6 @@
          "next_era_ids" : {
             "1148" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1148" : 1
          },
@@ -79268,8 +78512,6 @@
          },
          "next_era_ids" : {
             "1148" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1148" : 1
@@ -80468,8 +79710,6 @@
          "next_era_ids" : {
             "1294" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1294" : 1
          },
@@ -80493,8 +79733,6 @@
          },
          "next_era_ids" : {
             "1735" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1735" : 1
@@ -80548,8 +79786,6 @@
          "next_era_ids" : {
             "1294" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1294" : 1
          },
@@ -80573,8 +79809,6 @@
          },
          "next_era_ids" : {
             "1735" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1735" : 1
@@ -81270,8 +80504,6 @@
          "next_era_ids" : {
             "1803" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1803" : 1
          },
@@ -81351,8 +80583,6 @@
          },
          "next_era_ids" : {
             "1803" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1803" : 1
@@ -82858,8 +82088,6 @@
          "next_era_ids" : {
             "1749" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1749" : 1
          },
@@ -82920,8 +82148,6 @@
          },
          "next_era_ids" : {
             "1749" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1749" : 1
@@ -84070,8 +83296,6 @@
          "next_era_ids" : {
             "1762" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1762" : 1
          },
@@ -84095,8 +83319,6 @@
          },
          "next_era_ids" : {
             "1768" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1768" : 1
@@ -84124,8 +83346,6 @@
          "next_era_ids" : {
             "1770" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1770" : 1
          },
@@ -84150,8 +83370,6 @@
          "next_era_ids" : {
             "1772" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1772" : 1
          },
@@ -84175,8 +83393,6 @@
          },
          "next_era_ids" : {
             "1773" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1773" : 1
@@ -84203,8 +83419,6 @@
          "next_era_ids" : {
             "1775" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1775" : 1
          },
@@ -84228,8 +83442,6 @@
          },
          "next_era_ids" : {
             "1762" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1762" : 1
@@ -84255,8 +83467,6 @@
          "next_era_ids" : {
             "1768" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1768" : 1
          },
@@ -84283,8 +83493,6 @@
          "next_era_ids" : {
             "1770" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1770" : 1
          },
@@ -84309,8 +83517,6 @@
          "next_era_ids" : {
             "1772" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1772" : 1
          },
@@ -84334,8 +83540,6 @@
          },
          "next_era_ids" : {
             "1773" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1773" : 1
@@ -84361,8 +83565,6 @@
          },
          "next_era_ids" : {
             "1775" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1775" : 1
@@ -84662,8 +83864,6 @@
          "next_era_ids" : {
             "1748" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1748" : 1
          },
@@ -84688,8 +83888,6 @@
          "next_era_ids" : {
             "1757" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1757" : 1
          },
@@ -84713,8 +83911,6 @@
          },
          "next_era_ids" : {
             "1759" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1759" : 1
@@ -84740,8 +83936,6 @@
          "next_era_ids" : {
             "1769" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1769" : 1
          },
@@ -84770,8 +83964,6 @@
          "next_era_ids" : {
             "1778" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1778" : 1
          },
@@ -84795,8 +83987,6 @@
          },
          "next_era_ids" : {
             "1781" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1781" : 1
@@ -84823,8 +84013,6 @@
          "next_era_ids" : {
             "1783" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1783" : 1
          },
@@ -84849,8 +84037,6 @@
          "next_era_ids" : {
             "601" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "601" : 1
          },
@@ -84875,8 +84061,6 @@
          "next_era_ids" : {
             "1748" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1748" : 1
          },
@@ -84901,8 +84085,6 @@
          "next_era_ids" : {
             "1757" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1757" : 1
          },
@@ -84926,8 +84108,6 @@
          },
          "next_era_ids" : {
             "1759" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1759" : 1
@@ -84953,8 +84133,6 @@
          "next_era_ids" : {
             "1769" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1769" : 1
          },
@@ -84983,8 +84161,6 @@
          "next_era_ids" : {
             "1778" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1778" : 1
          },
@@ -85008,8 +84184,6 @@
          },
          "next_era_ids" : {
             "1781" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1781" : 1
@@ -85035,8 +84209,6 @@
          },
          "next_era_ids" : {
             "1783" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1783" : 1
@@ -85117,8 +84289,6 @@
          },
          "next_era_ids" : {
             "601" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "601" : 1
@@ -85264,8 +84434,6 @@
          "next_era_ids" : {
             "1771" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1771" : 1
          },
@@ -85290,8 +84458,6 @@
          "next_era_ids" : {
             "1790" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1790" : 1
          },
@@ -85316,8 +84482,6 @@
          "next_era_ids" : {
             "1771" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1771" : 1
          },
@@ -85341,8 +84505,6 @@
          },
          "next_era_ids" : {
             "1790" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1790" : 1
@@ -85546,8 +84708,6 @@
          "next_era_ids" : {
             "1743" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1743" : 1
          },
@@ -85574,8 +84734,6 @@
          "next_era_ids" : {
             "1801" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1801" : 1
          },
@@ -85599,8 +84757,6 @@
          },
          "next_era_ids" : {
             "1743" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1743" : 1
@@ -85628,8 +84784,6 @@
          "next_era_ids" : {
             "1801" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1801" : 1
          },
@@ -85654,8 +84808,6 @@
          "next_era_ids" : {
             "1800" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1800" : 1
          },
@@ -85679,8 +84831,6 @@
          },
          "next_era_ids" : {
             "1800" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1800" : 1
@@ -85734,8 +84884,6 @@
          "next_era_ids" : {
             "1730" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1730" : 1
          },
@@ -85759,8 +84907,6 @@
          },
          "next_era_ids" : {
             "1730" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1730" : 1
@@ -85786,8 +84932,6 @@
          "next_era_ids" : {
             "1797" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1797" : 1
          },
@@ -85811,8 +84955,6 @@
          },
          "next_era_ids" : {
             "1797" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1797" : 1
@@ -85899,8 +85041,6 @@
          "next_era_ids" : {
             "1742" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1742" : 1
          },
@@ -85926,8 +85066,6 @@
          },
          "next_era_ids" : {
             "1784" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1784" : 1
@@ -85955,8 +85093,6 @@
          "next_era_ids" : {
             "1742" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1742" : 1
          },
@@ -85982,8 +85118,6 @@
          },
          "next_era_ids" : {
             "1784" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1784" : 1
@@ -86075,8 +85209,6 @@
          "next_era_ids" : {
             "1862" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1862" : 1
          },
@@ -86131,8 +85263,6 @@
          },
          "next_era_ids" : {
             "1862" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1862" : 1
@@ -86281,8 +85411,6 @@
          "next_era_ids" : {
             "1761" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1761" : 1
          },
@@ -86335,8 +85463,6 @@
          },
          "next_era_ids" : {
             "1761" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1761" : 1
@@ -86396,8 +85522,6 @@
             "kanshi_label" : "甲午",
             "kyuureki" : "1983-11-29",
             "mjd" : 45700
-         },
-         "next_era_ids" : {
          },
          "prev_era_ids" : {
             "1390" : 1
@@ -86764,8 +85888,6 @@
          "next_era_ids" : {
             "1737" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1737" : 1
          },
@@ -86817,8 +85939,6 @@
          },
          "next_era_ids" : {
             "1737" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1737" : 1
@@ -87327,8 +86447,6 @@
          "next_era_ids" : {
             "1746" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1746" : 1
          },
@@ -87352,8 +86470,6 @@
          },
          "next_era_ids" : {
             "1746" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1746" : 1
@@ -87379,8 +86495,6 @@
          "next_era_ids" : {
             "1785" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1785" : 1
          },
@@ -87405,8 +86519,6 @@
          "next_era_ids" : {
             "1785" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1785" : 1
          },
@@ -87430,8 +86542,6 @@
          },
          "next_era_ids" : {
             "1745" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1745" : 1
@@ -87459,8 +86569,6 @@
          "next_era_ids" : {
             "1745" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1745" : 1
          },
@@ -87487,8 +86595,6 @@
          "next_era_ids" : {
             "1747" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1747" : 1
          },
@@ -87512,8 +86618,6 @@
          },
          "next_era_ids" : {
             "1747" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1747" : 1
@@ -87539,8 +86643,6 @@
          "next_era_ids" : {
             "1767" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1767" : 1
          },
@@ -87564,8 +86666,6 @@
          },
          "next_era_ids" : {
             "1767" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1767" : 1
@@ -87591,8 +86691,6 @@
          "next_era_ids" : {
             "1754" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1754" : 1
          },
@@ -87616,8 +86714,6 @@
          },
          "next_era_ids" : {
             "1754" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1754" : 1
@@ -87643,8 +86739,6 @@
          "next_era_ids" : {
             "1733" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1733" : 1
          },
@@ -87668,8 +86762,6 @@
          },
          "next_era_ids" : {
             "1739" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1739" : 1
@@ -87697,8 +86789,6 @@
          "next_era_ids" : {
             "1733" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1733" : 1
          },
@@ -87722,8 +86812,6 @@
          },
          "next_era_ids" : {
             "1739" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1739" : 1
@@ -87751,8 +86839,6 @@
          "next_era_ids" : {
             "1804" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1804" : 1
          },
@@ -87776,8 +86862,6 @@
          },
          "next_era_ids" : {
             "1804" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1804" : 1
@@ -87803,8 +86887,6 @@
          "next_era_ids" : {
             "1792" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1792" : 1
          },
@@ -87829,8 +86911,6 @@
          },
          "next_era_ids" : {
             "1792" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1792" : 1
@@ -88325,8 +87405,6 @@
          "next_era_ids" : {
             "1786" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1786" : 1
          },
@@ -88351,8 +87429,6 @@
          },
          "next_era_ids" : {
             "1786" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1786" : 1
@@ -88505,8 +87581,6 @@
          "next_era_ids" : {
             "1741" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1741" : 1
          },
@@ -88532,8 +87606,6 @@
          },
          "next_era_ids" : {
             "1741" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1741" : 1
@@ -88826,8 +87898,6 @@
          "next_era_ids" : {
             "1738" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1738" : 1
          },
@@ -88852,8 +87922,6 @@
          "next_era_ids" : {
             "1788" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1788" : 1
          },
@@ -88878,8 +87946,6 @@
          "next_era_ids" : {
             "1738" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1738" : 1
          },
@@ -88903,8 +87969,6 @@
          },
          "next_era_ids" : {
             "1788" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1788" : 1
@@ -89306,8 +88370,6 @@
          "next_era_ids" : {
             "1787" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1787" : 1
          },
@@ -89332,8 +88394,6 @@
          "next_era_ids" : {
             "1795" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1795" : 1
          },
@@ -89358,8 +88418,6 @@
          "next_era_ids" : {
             "1787" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1787" : 1
          },
@@ -89383,8 +88441,6 @@
          },
          "next_era_ids" : {
             "1795" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1795" : 1
@@ -89468,8 +88524,6 @@
          "next_era_ids" : {
             "1740" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1740" : 1
          },
@@ -89496,8 +88550,6 @@
          "next_era_ids" : {
             "1805" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1805" : 1
          },
@@ -89521,8 +88573,6 @@
          },
          "next_era_ids" : {
             "1740" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1740" : 1
@@ -89549,8 +88599,6 @@
          },
          "next_era_ids" : {
             "1805" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1805" : 1
@@ -90152,8 +89200,6 @@
          "next_era_ids" : {
             "1794" : 1
          },
-         "prev_era_ids" : {
-         },
          "relevant_era_ids" : {
             "1794" : 1
          },
@@ -90177,8 +89223,6 @@
          },
          "next_era_ids" : {
             "1794" : 1
-         },
-         "prev_era_ids" : {
          },
          "relevant_era_ids" : {
             "1794" : 1
