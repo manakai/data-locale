@@ -757,6 +757,7 @@ ERA: for my $era (sort { $a->{id} <=> $b->{id} } values %{$Data->{eras}}) {
 } # ERA
 unshift @$Transitions, @$NewTransitions;
 
+$Data->{_TRANSITIONS} = [];
 for (@$Transitions) {
   my ($from_keys, $to_keys, $x, $source) = @$_;
   $from_keys = [keys %{{map { $_ => 1 } @$from_keys}}];
@@ -841,6 +842,21 @@ for (@$Transitions) {
   }
   $x->{type} = $type;
 
+  my $y = {%$x};
+  for my $from_key (@$from_keys) {
+    next if $from_key eq q{干支年};
+    my $era = $Data->{eras}->{$from_key};
+    $y->{prev_era_ids}->{$era->{id}} = 1;
+    $y->{relevant_era_ids}->{$era->{id}} = 1;
+  }
+  for my $to_key (@$to_keys) {
+    next if $to_key eq q{干支年};
+    my $era = $Data->{eras}->{$to_key};
+    $y->{next_era_ids}->{$era->{id}} = 1;
+    $y->{relevant_era_ids}->{$era->{id}} = 1;
+  }
+  push @{$Data->{_TRANSITIONS}}, $y;
+
   if (@$from_keys and not @$to_keys) {
     die "Bad transition type |$x->{type}| ($source)"
         unless $x->{type} eq 'other';
@@ -873,6 +889,17 @@ for (@$Transitions) {
   }
 } # $tr
 delete $Data->{eras}->{干支年};
+$Data->{_TRANSITIONS} = [map { $_->[0] } sort {
+  $a->[1] <=> $b->[1] ||
+  $a->[2] <=> $b->[2] ||
+  $a->[3] cmp $b->[3] ||
+  $a->[0]->{type} cmp $b->[0]->{type};
+} map {
+  [$_,
+   ($_->{day} || $_->{day_start})->{mjd},
+   ($_->{day} || $_->{day_end})->{mjd},
+   (join $;, sort { $a <=> $b } keys %{$_->{relevant_era_ids}})];
+} @{$Data->{_TRANSITIONS}}];
 
 for my $era (values %{$Data->{eras}}) {
   $era->{table_oldest_year} //= $era->{known_oldest_year}
@@ -889,7 +916,10 @@ for my $era (values %{$Data->{eras}}) {
      ($_->{day} || $_->{day_end} || {})->{mjd}];
   } @{$era->{transitions} ||= []}];
 
-  for my $tr (@{$era->{transitions}}) {
+  my $era_trs = [grep {
+    $_->{relevant_era_ids}->{$era->{id}};
+  } @{$Data->{_TRANSITIONS}}];
+  for my $tr (@$era_trs) {
     for my $dk (grep { defined $tr->{$_} } qw(day day_start day_end)) {
       for my $key (qw(gregorian julian kyuureki nongli_tiger)) {
         next unless defined $tr->{$dk}->{$key};
@@ -898,7 +928,7 @@ for my $era (values %{$Data->{eras}}) {
             firstday => 1,
             'firstday/possible' => 1,
             'firstday/incorrect' => 1,
-            prevfirstday => $tr->{direction} eq 'outgoing',
+            prevfirstday => $tr->{prev_era_ids}->{$era->{id}},
             received => 1,
             'wartime' => 1,
           }->{$tr->{type}}) {
@@ -915,7 +945,7 @@ for my $era (values %{$Data->{eras}}) {
       }
     }
     
-    if ($tr->{direction} eq 'incoming' and
+    if ($tr->{next_era_ids}->{$era->{id}} and
         ($tr->{type} eq 'firstday' or
          $tr->{type} eq 'wartime')) { # has day or day_start
       my $y = extract_day_year $tr->{day} // $tr->{day_start}, $tr->{tag_ids};
@@ -950,7 +980,7 @@ for my $era (values %{$Data->{eras}}) {
         }
       }
     }
-    if ($tr->{direction} eq 'incoming' and
+    if ($tr->{next_era_ids}->{$era->{id}} and
         $tr->{type} eq 'firstyearstart') { # has day
       if ($tr->{tag_ids}->{1352} or # 日本朝廷改元年始
           $era->{key} eq '文武天皇') {
@@ -969,7 +999,7 @@ for my $era (values %{$Data->{eras}}) {
             if $tr->{day}->{mjd} < $era->{south_official_start_day}->{mjd};
       }
     }
-    if ($tr->{direction} eq 'outgoing' and
+    if ($tr->{prev_era_ids}->{$era->{id}} and
         ($tr->{type} eq 'prevfirstday' or
          $tr->{type} eq 'wartime')) { # has day or day_end
       my $day = $tr->{day};
@@ -1008,7 +1038,7 @@ for my $era (values %{$Data->{eras}}) {
         }
       }
     }
-    if ($tr->{direction} eq 'outgoing' and
+    if ($tr->{prev_era_ids}->{$era->{id}} and
         ($tr->{type} eq 'firstday' or
          $tr->{type} eq 'wartime') and
         defined $tr->{day}) {
@@ -1033,7 +1063,7 @@ for my $era (values %{$Data->{eras}}) {
             if $era->{south_actual_end_day}->{mjd} < $tr->{day}->{mjd};
       }
     }
-    if ($tr->{direction} eq 'outgoing' and
+    if ($tr->{prev_era_ids}->{$era->{id}} and
         $tr->{type} eq 'prevfirstyearstart') { # has day
       if ($era->{key} eq '朱鳥') {
         $era->{actual_end_day} //= $tr->{day};
@@ -1043,9 +1073,9 @@ for my $era (values %{$Data->{eras}}) {
     }
   } # $tr
   my $has_end_year = defined $era->{end_year};
-  for my $tr (@{$era->{transitions}}) {
+  for my $tr (@$era_trs) {
     if (not defined $era->{start_year} and
-        $tr->{direction} eq 'incoming' and
+        $tr->{next_era_ids}->{$era->{id}} and
         $tr->{type} eq 'firstyearstart') { # has day
       my $y = extract_day_year $tr->{day}, $tr->{tag_ids};
       $era->{start_year} //= $y;
@@ -1058,7 +1088,7 @@ for my $era (values %{$Data->{eras}}) {
           if $era->{jp_emperor_era};
     }
     if (not $has_end_year and
-        $tr->{direction} eq 'outgoing' and
+        $tr->{prev_era_ids}->{$era->{id}} and 
         $tr->{type} eq 'wartime') { # has day or day_end
       my $day = $tr->{day};
       if (defined $day) {
@@ -1074,7 +1104,7 @@ for my $era (values %{$Data->{eras}}) {
           if $era->{end_day}->{mjd} < $day->{mjd};
     }
     if (not defined $era->{end_year} and
-        $tr->{direction} eq 'outgoing' and
+        $tr->{prev_era_ids}->{$era->{id}} and
         $tr->{type} eq 'prevfirstyearstart') { # has day
       my $y = extract_day_year $tr->{day}, $tr->{tag_ids};
       $era->{end_year} //= $y;
@@ -1156,36 +1186,36 @@ for my $era (values %{$Data->{eras}}) {
       if defined $era->{south_start_day};
   if (defined $era->{north_official_start_day} and
       not grep {
-        $_->{direction} eq 'incoming' and
+        $_->{next_era_ids}->{$era->{id}} and 
         $_->{type} eq 'firstday' and
         $_->{tag_ids}->{1065}; # 日本北朝
-      } @{$era->{transitions}} and
+      } @$era_trs and
       grep {
-        $_->{direction} eq 'incoming' and
+        $_->{next_era_ids}->{$era->{id}} and 
         $_->{type} eq 'firstday' and
         $_->{tag_ids}->{1066}; # 日本南朝
-      } @{$era->{transitions}}) {
+      } @$era_trs) {
     $era->{north_official_start_day} = $era->{north_start_day};
   }
   if (defined $era->{south_official_start_day} and
       not grep {
-        $_->{direction} eq 'incoming' and
+        $_->{next_era_ids}->{$era->{id}} and 
         $_->{type} eq 'firstday' and
         $_->{tag_ids}->{1066}; # 日本南朝
-      } @{$era->{transitions}} and
+      } @$era_trs and
       grep {
-        $_->{direction} eq 'incoming' and
+        $_->{next_era_ids}->{$era->{id}} and 
         $_->{type} eq 'firstday' and
         $_->{tag_ids}->{1065}; # 日本北朝
-      } @{$era->{transitions}}) {
+      } @$era_trs) {
     $era->{south_official_start_day} = $era->{south_start_day};
   }
   if (defined $era->{south_actual_end_day} and
       not grep {
-        $_->{direction} eq 'outgoing' and
+        $_->{prev_era_ids}->{$era->{id}} and 
         $_->{type} eq 'firstday' and
         $_->{tag_ids}->{1066}; # 日本南朝
-      } @{$era->{transitions}}) {
+      } @$era_trs) {
     $era->{south_actual_end_day} = ssday $era->{south_end_day}->{jd} + 1, $era->{tag_ids};
   }
   if ($era->{key} eq '持統天皇') {

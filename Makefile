@@ -61,6 +61,7 @@ data-main: \
     data/calendar/era-yomi-sources.json \
     data/calendar/era-kodai-years.html \
     data/calendar/era-kodai-starts.html \
+    data/calendar/era-transitions.json \
     data/calendar/era-stats.json \
     data/calendar/dts.json \
     data/calendar/serialized/dtsjp1.txt \
@@ -232,6 +233,11 @@ local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
 #intermediate/era-ids.json: data/calendar/era-defs.json
 data/calendar/era-codes.html: bin/calendar-era-codes.pl \
     data/calendar/era-defs.json
+	$(PERL) $< > $@
+
+data/calendar/era-transitions.json: bin/calendar-era-transitions.pl \
+	data/calendar/era-defs.json
+#    local/calendar-era-defs-0.json
 	$(PERL) $< > $@
 
 data/calendar/era-stats.json: bin/calendar-era-stats.pl \

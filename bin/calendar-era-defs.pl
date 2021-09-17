@@ -334,6 +334,10 @@ for my $path (
     } elsif (defined $key and /^name_kana\s+([\p{Hiragana} ]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'yomi', type => 'yomi', kana_modern => $1};
+    } elsif (defined $key and /^name_kana\s+([\p{Hiragana} ]+),([\p{Hiragana} ]+)$/) {
+      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
+          {kind => 'yomi', type => 'yomi', kana_modern => $1,
+           kana_classic => $2};
     } elsif (defined $key and /^name_kana\s+([\p{Hiragana} ]+),,([\p{Hiragana} ]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'yomi', type => 'yomi', kana_modern => $1,
