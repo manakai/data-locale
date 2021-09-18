@@ -301,7 +301,16 @@ for my $path (
 ) {
   my $key;
   my $prop;
+  my $can_continue = 0;
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
+    if ($can_continue and /^\s+(\S.*)$/) {
+      $Data->{_TRANSITIONS}->[-1]->[2] .= " " . $1;
+      $can_continue = 0;
+      next;
+    } else {
+      $can_continue = 0;
+    }
+
     if (/^\s*#/) {
       #
     } elsif (/^%tag /) {
@@ -459,9 +468,9 @@ for my $path (
       my $e_year = $3;
       $Data->{eras}->{$key}->{offset} = $g_year - $e_year;
     } elsif (defined $key and
-             /^u\s+(-?[0-9]+)(?:-([0-9]+)('|)(?:-([0-9]+)|)|)(?:\s+(\w+)|)$/) {
+             /^u\s+(-?[0-9]+)(?:-([0-9]+)('|)(?:-([0-9]+|\w\w)|)|)(?:\s+(\w+)|)$/) {
       push @{$Data->{eras}->{$key}->{_usages} ||= []},
-          [[0+$1, $2?0+$2:undef, $3?1:0, $4?0+$4:undef], $5];
+          [[0+$1, $2?0+$2:undef, $3?1:0, $4?$4:undef], $5];
     } elsif (defined $key and /^(sw)\s+(.+)$/) {
       $Data->{eras}->{$key}->{suikawiki} = $2;
     } elsif (defined $key and /^code\s+#(7|2)\s+(.)$/) {
@@ -484,12 +493,21 @@ for my $path (
       my $tkey = $1;
       set_tag $key => $tkey;
 
-    } elsif (defined $key and /^<-(\S+)\s+(\S.+\S)\s*$/) {
-      push @{$Data->{_TRANSITIONS} ||= []}, [$1 => $key, $2];
+    } elsif (defined $key and /^<-(\S+)\s+->(\S+)\s+(\S.+\S)\s*$/) {
+      push @{$Data->{_TRANSITIONS} ||= []}, [$1 => $2, $3];
+      $can_continue = 1;
+    } elsif (defined $key and /^->(\S+)\s+<-(\S+)\s+(\S.+\S)\s*$/) {
+      push @{$Data->{_TRANSITIONS} ||= []}, [$2 => $1, $3];
+      $can_continue = 1;
+    } elsif (defined $key and /^(\+|)<-(\S+)\s+(\S.+\S)\s*$/) {
+      push @{$Data->{_TRANSITIONS} ||= []}, [$2 => $key, $1.$3];
+      $can_continue = 1;
     } elsif (defined $key and /^->(\S+)\s+(\S.+\S)\s*$/) {
       push @{$Data->{_TRANSITIONS} ||= []}, [$key => $1, $2];
+      $can_continue = 1;
     } elsif (defined $key and /^><\s+(\S.+\S)\s*$/) {
       push @{$Data->{_TRANSITIONS} ||= []}, [$key => undef, $1];
+      $can_continue = 1;
       
     } elsif (/\S/) {
       die "Bad line |$_|";

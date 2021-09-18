@@ -5825,7 +5825,7 @@
          "missing_yomis" : [
          ],
          "name" : "天元",
-         "start_year" : null,
+         "start_year" : 1379,
          "yomis" : {
             "6100" : [
                "てん げん"
@@ -22761,7 +22761,7 @@
          "missing_yomis" : [
          ],
          "name" : "宣光",
-         "start_year" : null,
+         "start_year" : 1370,
          "yomis" : {
             "6100" : [
                "せん こう"
@@ -24287,7 +24287,7 @@
          "missing_yomis" : [
          ],
          "name" : "宣光",
-         "start_year" : null,
+         "start_year" : 1371,
          "yomis" : {
             "6100" : [
                "せん こう"

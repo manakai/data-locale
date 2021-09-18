@@ -130,6 +130,7 @@ print q{<table>
   <th>Transition type
   <th>From
   <th>To
+  <th>Action
   <th>Tags
 <tbody>};
 for my $tr (@$Transitions) {
@@ -151,6 +152,31 @@ for my $tr (@$Transitions) {
   print_eras $tr->{prev_era_ids};
   print q{<td>};
   print_eras $tr->{next_era_ids};
+  print q{<td>};
+  if (defined $tr->{action_tag_id}) {
+    print q{<p>Action: };
+    print_tags {$tr->{action_tag_id} => 1};
+  }
+  if (defined $tr->{event_tag_id}) {
+    print q{<p>Event: };
+    print_tags {$tr->{event_tag_id} => 1};
+  }
+  if (defined $tr->{authority_tag_id}) {
+    print q{<p>Authority: };
+    print_tags {$tr->{authority_tag_id} => 1};
+  }
+  if (defined $tr->{position_tag_id}) {
+    print q{<p>Position: };
+    print_tags {$tr->{position_tag_id} => 1};
+  }
+  if (keys %{$tr->{subject_tag_ids} or {}}) {
+    print q{<p>Subject: };
+    print_tags $tr->{subject_tag_ids};
+  }
+  if (keys %{$tr->{object_tag_ids} or {}}) {
+    print q{<p>Object: };
+    print_tags $tr->{object_tag_ids};
+  }
   print q{<td>};
   print_tags $tr->{tag_ids};
 }

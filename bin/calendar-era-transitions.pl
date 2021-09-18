@@ -166,6 +166,7 @@ sub year2kanshi0 ($) {
 
 my $KMaps = {};
 my $GToKMapKey = {
+  元 => 'zuitou',
   明 => 'zuitou',
   清 => 'shin',
   中華民国 => 'hk',
@@ -360,6 +361,7 @@ sub year_start_jd ($$) {
   my @jd;
 
   if (($tag_ids->{1008} or # 中国
+       $tag_ids->{1086} or # 蒙古
        $tag_ids->{1084} or # 後金
        $tag_ids->{1009}) and # 漢土
       not $tag_ids->{1344}) { # グレゴリオ暦
@@ -416,6 +418,7 @@ sub ssday ($$) {
              julian => $jj};
 
   if ($tag_ids->{1008} or # 中国
+      $tag_ids->{1086} or # 蒙古
       $tag_ids->{1084} or # 後金
       $tag_ids->{1009}) { # 漢土
     if ($y >= 1912) {
@@ -441,6 +444,7 @@ sub extract_day_year ($$) {
 
   if (($tag_ids->{1008} or # 中国
        $tag_ids->{1084} or # 後金
+       $tag_ids->{1086} or # 蒙古
        $tag_ids->{1009}) and # 漢土
       not $tag_ids->{1344}) { # グレゴリオ暦
     if (defined $day->{nongli_tiger}) {
@@ -511,7 +515,7 @@ sub parse_date ($$;%) {
       push @jd, gymd2jd $1, $2, $3;
     } elsif ($v =~ s{^j:([0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
       push @jd, jymd2jd $1, $2, $3;
-    } elsif ($v =~ s{^(明|清|中華人民共和国):([0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
+    } elsif ($v =~ s{^(元|明|清|中華人民共和国):([0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
       push @jd, nymmd2jd $1, $2, $4, $5, $6;
       push @jd, nymmk2jd $1, $2, $4, $5, $7;
       if (defined $3) {
@@ -521,11 +525,11 @@ sub parse_date ($$;%) {
           die "Year mismatch ($ky1 vs $ky2) |$all|";
         }
       }
-    } elsif ($v =~ s{^(明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(元|明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
       push @jd, nymmd2jd $1, $2, $3, $4, $5;
-    } elsif ($v =~ s{^(明|清|中華人民共和国):([0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
+    } elsif ($v =~ s{^(元|明|清|中華人民共和国):([0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
       push @jd, nymmk2jd $1, $2, $3, $4, $5;
-    } elsif ($v =~ s{^(明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)\s*}{}) {
+    } elsif ($v =~ s{^(元|明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, $2, $3, $4, 1;
       } elsif ($args{end}) {
@@ -547,7 +551,7 @@ sub parse_date ($$;%) {
       } else {
         die "Bad date |$v| ($all)";
       }
-    } elsif ($v =~ s{^(明|清|中華人民共和国|k):([0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(元|明|清|中華人民共和国|k):([0-9]+)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, $2, 1, '', 1;
       } elsif ($args{end}) {
@@ -639,8 +643,78 @@ for my $tr (@$Input) {
       $x->{day} = ssday $v->{day}->{jd}, $x->{tag_ids};
     }
   } else { # comes from |bin/calendar-era-defs.pl|.
-    while ($v =~ s{\s*#([\w_()]+)$}{}) {
-      set_object_tag $x, $1;
+    my $is_fork = $v =~ s/^\+//;
+    set_object_tag $x, '併用' if $is_fork;
+
+    $v =~ s/\s+$//;
+    while (1) {
+      if ($v =~ s{\s*#([\w_()]+)$}{}) {
+        set_object_tag $x, $1;
+      } elsif ($v =~ s{\s*#([\w_()]+)\{([#\w_()\s]*)(?:,([#\w_()\s]*)|)\}$}{}) {
+        my $tags = $2;
+        my $tags2 = $3;
+        my $tag = $TagByKey->{$1};
+        die "Tag |$1| not found" unless defined $tag;
+        die "Not an action tag: |$1|" unless $tag->{type} eq 'action';
+        set_object_tag $x, $1;
+        die "Duplicate action tag: |$1|" if defined $x->{action_tag_id};
+        $x->{action_tag_id} = $tag->{id};
+        my $param_tags = {};
+        {
+          while ($tags =~ s{\s*#([\w_()]+)$}{}) {
+            my $tag = $TagByKey->{$1};
+            die "Tag |$1| not found" unless defined $tag;
+            $param_tags->{$1} = 1;
+            if ($tag->{type} eq 'country' or
+                $tag->{type} eq 'region' or
+                $tag->{type} eq 'org') {
+              if (defined $tags2) {
+                $x->{subject_tag_ids}->{$tag->{id}} = 1;
+              } else {
+                die "Duplicate authority tag: |$1|"
+                    if defined $x->{authority_tag_id};
+                $x->{authority_tag_id} = $tag->{id};
+              }
+            } elsif ($tag->{type} eq 'person') {
+              $x->{subject_tag_ids}->{$tag->{id}} = 1;
+            } elsif ($tag->{type} eq 'position') {
+              die "Duplicate position tag: |$1|"
+                  if defined $x->{position_tag_id};
+              $x->{position_tag_id} = $tag->{id};
+            } elsif ($tag->{type} eq 'event' or
+                     $tag->{type} eq 'law') {
+              die "Duplicate event tag: |$1|"
+                  if defined $x->{event_tag_id};
+              $x->{event_tag_id} = $tag->{id};
+            } else {
+              die "Bad parameter tag: |$1| (type: $tag->{type})";
+            }
+          }
+          $tags =~ s/^\s+//;
+          die "Bad tags |$tags|" if length $tags;
+        }
+        if (defined $tags2) {
+          while ($tags2 =~ s{\s*#([\w_()]+)$}{}) {
+            my $tag = $TagByKey->{$1};
+            die "Tag |$1| not found" unless defined $tag;
+            $param_tags->{$1} = 1;
+            if ($tag->{type} eq 'country' or
+                $tag->{type} eq 'region' or
+                $tag->{type} eq 'person') {
+              $x->{object_tag_ids}->{$tag->{id}} = 1;
+            } else {
+              die "Bad parameter tag: |$1| (type: $tag->{type})";
+            }
+          }
+          $tags2 =~ s/^\s+//;
+          die "Bad tags |$tags2|" if length $tags2;
+        }
+        for (keys %$param_tags) {
+          set_object_tag $x, $_;
+        }
+      } else {
+        last;
+      }
     }
 
   if ($v =~ m{^\[([^,]+)\]$}) {
@@ -713,10 +787,12 @@ my $NewTransitions = [];
 ERA: for my $era (sort { $a->{id} <=> $b->{id} } values %$Eras) {
   next unless defined $era->{offset};
 
+  my $to_trs = [grep { !! grep { $era->{key} eq $_ } @{$_->[1]} } @$Transitions];
+
   my $prev_eras = [];
   my $w = {};
   my $has_tr = 0;
-  for (grep { !! grep { $era->{key} eq $_ } @{$_->[1]} } @$Transitions) {
+  for (@$to_trs) {
     my $x = $_->[2];
     next ERA if $x->{tag_ids}->{1347}; # 初年始
     copy_transition_tags $x => $w;
@@ -849,16 +925,20 @@ for (@$Transitions) {
   push @{$Data->{_TRANSITIONS}}, $y;
 } # $tr
 
+my $TypeOrder = {
+  triggering => "_0",
+};
 $Data->{transitions} = [map { $_->[0] } sort {
   $a->[1] <=> $b->[1] ||
   $a->[2] <=> $b->[2] ||
   $a->[3] cmp $b->[3] ||
-  $a->[0]->{type} cmp $b->[0]->{type};
+  $a->[4] cmp $b->[4];
 } map {
   [$_,
    ($_->{day} || $_->{day_start})->{mjd},
    ($_->{day} || $_->{day_end})->{mjd},
-   (join $;, sort { $a <=> $b } keys %{$_->{relevant_era_ids}})];
+   (join $;, sort { $a <=> $b } keys %{$_->{relevant_era_ids}}),
+   $TypeOrder->{$_->{type}} || $_->{type}];
 } @{delete $Data->{_TRANSITIONS}}];
 
 print perl2json_bytes_for_record $Data;

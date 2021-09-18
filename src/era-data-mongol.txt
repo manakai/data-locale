@@ -30,6 +30,14 @@
 #大元
 #元
 
+%tag tag
+%tag   name_ja 蒙古即位紀年
+%tag   group of 即位紀年
+
+%tag position
+%tag   name_ja 汗
+%tag   group of 君主
+
 def[太祖]
 #y~1836
 
@@ -38,9 +46,23 @@ u 1
 u 22-7-12
 wref_zh 成吉思汗
 
+## <https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7001>
++<-干支年 [元:1206] #建元前の即位{#蒙古帝国 #チンギスハン #汗} #蒙古 #元
+->干支年,拖雷監国 元:1227-7-己丑 j:1227-8-25
+    #改元前の死去{#蒙古帝国 #チンギスハン} #蒙古 #元 #異説
+
+->干支年,拖雷監国 j:1227-8-18 #改元前の死去{#蒙古帝国 #チンギスハン} #蒙古 #元
+->干支年,拖雷監国 j:1227-8-28 #改元前の死去{#蒙古帝国 #チンギスハン} #蒙古 #元
+    #異説
+
 sw 蒙古王即位紀年
 tag 蒙古帝国
 tag 蒙古
+tag 蒙古即位紀年
+
+%tag person
+%tag   name_ja チンギスハン
+%tag   name_ja 成吉思汗
 
 name_ja 太祖
 name_tw 太祖
@@ -57,12 +79,25 @@ u 1
 u 2
 wref_zh 拖雷
 
-sw 蒙古王即位紀年
+sw 蒙古即位紀年
 tag 蒙古帝国
+tag 元
 tag 蒙古
+tag 蒙古即位紀年
+tag 称制紀年
+
 name(ja) トルイ監国
 &
 name(cn) 拖雷(监国)
+
+%tag person
+%tag   name_ja トルイ
+%tag   name_tw 拖雷
+tag トルイ
+
+## <https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7001>
+<-太祖 [元:1228] #建元前の即位{#蒙古帝国 #トルイ #監国} #蒙古 #元
+#      #戊子
 
 def[太宗]
 #y~1835
@@ -74,11 +109,26 @@ wref_zh 窝阔台
 
 sw 蒙古王即位紀年
 tag 蒙古帝国
+tag 元
 tag 蒙古
+tag 蒙古即位紀年
+
+%tag person
+%tag   name_ja オゴデイ
+%tag   name_ja 太宗
+tag オゴデイ
+
 name_ja 太宗
 name_tw 太宗
 &
 name_tw 窩闊台汗
+
+## <https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7002>
+<-干支年,拖雷監国 元:1229-8-己未 j:1229-9-13
+    #建元前の即位{#蒙古帝国 #オゴデイ #汗} #蒙古 #元
+u 13-11-辛卯
+->干支年,昭慈后称制 元:1241-11-辛卯 j:1241-12-11
+    #改元前の死去{#蒙古帝国 #オゴデイ} #蒙古 #元
 
 
 def[昭慈后称制]
@@ -86,11 +136,19 @@ def[昭慈后称制]
 sw 蒙古王即位紀年
 tag 蒙古帝国
 tag 蒙古
+tag 元
+tag 蒙古即位紀年
+tag 称制紀年
 
 AD1242 = 1
 u 1
 u 5
 wref_zh 昭慈皇后
+
+%tag person
+%tag   name_ja ドレゲネ
+%tag   name_tw 乃馬真
+tag ドレゲネ
 
 name(ja) ドレゲネ称制
 &
@@ -103,6 +161,12 @@ name_cn 乃马真后称制
 &
 name_ja 乃馬真后
 
+## <https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7002>
+<-太宗 [元:1242-1,元:1242-3]
+    #建元前の即位{#蒙古帝国 #ドレゲネ #称制者} #蒙古 #元
+#      #壬寅年春
+
+
 def[定宗]
 #y~1837
 
@@ -113,23 +177,49 @@ wref_zh 贵由
 
 sw 蒙古王即位紀年
 tag 蒙古帝国
+tag 元
 tag 蒙古
+tag 蒙古即位紀年
+
+%tag person
+%tag   name_ja グユク
+%tag   name_ja 定宗
+tag グユク
+
 name_ja 定宗
 name_tw 定宗
 &
 name_tw 貴由汗
+
+## <https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7002>
+#<- 元:1246-7
+#-> 元:3-3
+u 3-3
+
+<-干支年,昭慈后称制 j:1246-8-24
+    #建元前の即位{#蒙古帝国 #グユク #汗} #蒙古 #元
+->干支年,欽淑后称制 元:1248-3-25 j:1248-4-20
+    #改元前の死去{#蒙古帝国 #グユク} #蒙古 #元
 
 
 def[欽淑后称制]
 #y~1841
 sw 蒙古王即位紀年
 tag 蒙古帝国
+tag 元
 tag 蒙古
+tag 蒙古即位紀年
+tag 称制紀年
 
 AD1249 = 1
 u 1
 u 3
 wref_zh 欽淑皇后
+
+%tag person
+%tag   name_ja オグルガイミシュ
+%tag   name_tw 欽淑后
+tag オグルガイミシュ
 
 name(ja) 欽淑后(オグルガイミシュ)称制
 &
@@ -145,7 +235,15 @@ wref_zh 蒙哥
 
 sw 蒙古王即位紀年
 tag 蒙古帝国
+tag 元
 tag 蒙古
+tag 蒙古即位紀年
+
+%tag person
+%tag   name_ja モンケ
+%tag   name_ja 憲宗
+tag モンケ
+
 name_ja 憲宗
 &
 name_ja 蒙哥
@@ -155,6 +253,15 @@ name_tw 蒙哥汗
 name_cn 宪宗蒙哥汗
 &
 name(ja) 憲宗(モンケ)
+
+## <https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7003>
+#<- 辛亥-6
+
+<-干支年,欽淑后称制 j:1251-7-1
+    #建元前の即位{#蒙古帝国 #モンケ #汗} #蒙古 #元
+->中統 元:1259-7-21(癸亥) j:1259-8-11
+    #改元前の死去{#蒙古帝国 #モンケ} #蒙古 #元
+
 
 %tag country
 %tag   name_ja 元
@@ -175,11 +282,17 @@ tag 漢土
 tag 漢民族
 tag 満州
 
+%tag person
+%tag   name_ja フビライ
+%tag   name_ja クビライ
+tag フビライ
+
 ## <https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7004>
-#中統元年春三月戊辰朔 即位
+<-憲宗,干支年 元:1260-3-24(辛卯) j:1260-5-5
+    #建元前の即位{#蒙古帝国 #フビライ #汗} #蒙古 #元 #支那皇帝
 u 1-3
 #[中統元年][五月戊辰朔]丙戌
-#<- 元1260-05-19
+<-憲宗,干支年 元:1260-05-19(丙戌) #支那改元日{#蒙古帝国 #フビライ} #元
 
 ## [102]
 name_tw 中統

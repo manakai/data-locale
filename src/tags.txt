@@ -199,6 +199,11 @@ person
 law
   name_ja 条約
 
+action
+  name_ja 和約締結
+  group of 条約
+  group of 戦時異動
+
 law
   name_ja 登極令
 
@@ -221,11 +226,16 @@ tag
   name_ja 王の即位紀年
   group of 即位紀年
 
+tag
+  name_ja 称制紀年
+  group of 即位紀年
+
 action
   name_ja 事由
 
 action
   name_ja 即位決定
+  group of 事由
 
 action
   name_ja 即位予定 (中止)
@@ -277,15 +287,19 @@ action
   name_ja 政変
   group of 事由
 
-tag
+position
   name_ja 君主
 
-tag
+position
   name_ja 王
   group of 君主
 
-tag
+position
   name_ja 皇帝
+  group of 君主
+
+position
+  name_ja 称制者
   group of 君主
 
 tag
@@ -523,3 +537,6 @@ tag
 tag
   name_ja マイクロネーションの元号
   group of 元号
+
+tag
+  name_ja 併用
