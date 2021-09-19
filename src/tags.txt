@@ -276,7 +276,11 @@ action
   name_ja 元号名変更
 
 action
+  name_ja 連合
+
+action
   name_ja 勢力統合
+  group of 連合
   group of 事由
 
 action
