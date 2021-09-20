@@ -1756,7 +1756,7 @@ sw 天順
 
 tag 清
 tag 漢土
-#福建
+tag 福建
 tag 漢民族
 tag 清初反清勢力
 %tag person

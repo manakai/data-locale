@@ -191,7 +191,8 @@
             "1413" : 1,
             "1415" : 1,
             "1468" : 1,
-            "1469" : 1
+            "1469" : 1,
+            "1524" : 1
          },
          "type" : "country"
       },
@@ -231,7 +232,9 @@
             "1439" : 1,
             "1441" : 1,
             "1457" : 1,
-            "1467" : 1
+            "1467" : 1,
+            "1536" : 1,
+            "1551" : 1
          },
          "type" : "region"
       },
@@ -7943,6 +7946,354 @@
             "宣統帝退位詔書" : 1
          },
          "type" : "law"
+      },
+      "1524" : {
+         "id" : 1524,
+         "key" : "後周",
+         "label" : "後周",
+         "label_ja" : "後周",
+         "name" : "後周",
+         "name_ja" : "後周",
+         "names" : {
+            "後周" : 1
+         },
+         "period_of" : {
+            "1008" : 1
+         },
+         "type" : "country"
+      },
+      "1525" : {
+         "id" : 1525,
+         "key" : "趙匡胤",
+         "label" : "趙匡胤",
+         "label_ja" : "趙匡胤",
+         "name" : "趙匡胤",
+         "name_ja" : "趙匡胤",
+         "names" : {
+            "趙匡胤" : 1
+         },
+         "type" : "person"
+      },
+      "1526" : {
+         "id" : 1526,
+         "key" : "沙陀族",
+         "label" : "沙陀族",
+         "label_ja" : "沙陀族",
+         "name" : "沙陀族",
+         "name_ja" : "沙陀族",
+         "names" : {
+            "沙陀族" : 1
+         },
+         "type" : "people"
+      },
+      "1527" : {
+         "id" : 1527,
+         "key" : "宋太宗",
+         "label" : "宋太宗",
+         "label_ja" : "宋太宗",
+         "name" : "宋太宗",
+         "name_ja" : "宋太宗",
+         "names" : {
+            "宋太宗" : 1
+         },
+         "type" : "person"
+      },
+      "1528" : {
+         "id" : 1528,
+         "key" : "真宗",
+         "label" : "真宗",
+         "label_ja" : "真宗",
+         "name" : "真宗",
+         "name_ja" : "真宗",
+         "names" : {
+            "真宗" : 1
+         },
+         "type" : "person"
+      },
+      "1529" : {
+         "id" : 1529,
+         "key" : "道教",
+         "label" : "道教",
+         "label_ja" : "道教",
+         "name" : "道教",
+         "name_ja" : "道教",
+         "names" : {
+            "道教" : 1
+         },
+         "type" : "religion"
+      },
+      "1530" : {
+         "id" : 1530,
+         "key" : "仁宗",
+         "label" : "仁宗",
+         "label_ja" : "仁宗",
+         "name" : "仁宗",
+         "name_ja" : "仁宗",
+         "names" : {
+            "仁宗" : 1
+         },
+         "type" : "person"
+      },
+      "1531" : {
+         "id" : 1531,
+         "key" : "趙曙",
+         "label" : "趙曙",
+         "label_ja" : "趙曙",
+         "name" : "趙曙",
+         "name_ja" : "趙曙",
+         "names" : {
+            "趙曙" : 1
+         },
+         "type" : "person"
+      },
+      "1532" : {
+         "id" : 1532,
+         "key" : "神宗",
+         "label" : "神宗",
+         "label_ja" : "神宗",
+         "name" : "神宗",
+         "name_ja" : "神宗",
+         "names" : {
+            "神宗" : 1
+         },
+         "type" : "person"
+      },
+      "1533" : {
+         "id" : 1533,
+         "key" : "哲宗",
+         "label" : "哲宗",
+         "label_ja" : "哲宗",
+         "name" : "哲宗",
+         "name_ja" : "哲宗",
+         "names" : {
+            "哲宗" : 1
+         },
+         "type" : "person"
+      },
+      "1534" : {
+         "id" : 1534,
+         "key" : "徽宗",
+         "label" : "徽宗",
+         "label_ja" : "徽宗",
+         "name" : "徽宗",
+         "name_ja" : "徽宗",
+         "names" : {
+            "徽宗" : 1
+         },
+         "type" : "person"
+      },
+      "1535" : {
+         "id" : 1535,
+         "key" : "欽宗",
+         "label" : "欽宗",
+         "label_ja" : "欽宗",
+         "name" : "欽宗",
+         "name_ja" : "欽宗",
+         "names" : {
+            "欽宗" : 1
+         },
+         "type" : "person"
+      },
+      "1536" : {
+         "id" : 1536,
+         "key" : "開封",
+         "label" : "開封",
+         "label_ja" : "開封",
+         "name" : "開封",
+         "name_ja" : "開封",
+         "names" : {
+            "開封" : 1
+         },
+         "region_of" : {
+            "1009" : 1
+         },
+         "type" : "region"
+      },
+      "1537" : {
+         "id" : 1537,
+         "key" : "金",
+         "label" : "金",
+         "label_tw" : "金",
+         "name" : "金",
+         "name_tw" : "金",
+         "names" : {
+            "金" : 1
+         },
+         "type" : "country"
+      },
+      "1538" : {
+         "id" : 1538,
+         "key" : "靖康の変",
+         "label" : "靖康の変",
+         "label_ja" : "靖康の変",
+         "name" : "靖康の変",
+         "name_ja" : "靖康の変",
+         "names" : {
+            "靖康の変" : 1
+         },
+         "type" : "event"
+      },
+      "1539" : {
+         "id" : 1539,
+         "key" : "高宗",
+         "label" : "高宗",
+         "label_ja" : "高宗",
+         "name" : "高宗",
+         "name_ja" : "高宗",
+         "names" : {
+            "高宗" : 1
+         },
+         "type" : "person"
+      },
+      "1540" : {
+         "id" : 1540,
+         "key" : "赵旉",
+         "label" : "赵旉",
+         "label_cn" : "赵旉",
+         "label_ja" : "趙旉",
+         "name" : "赵旉",
+         "name_cn" : "赵旉",
+         "name_ja" : "趙旉",
+         "names" : {
+            "赵旉" : 1,
+            "趙旉" : 1
+         },
+         "type" : "person"
+      },
+      "1541" : {
+         "id" : 1541,
+         "key" : "孝宗",
+         "label" : "孝宗",
+         "label_ja" : "孝宗",
+         "name" : "孝宗",
+         "name_ja" : "孝宗",
+         "names" : {
+            "孝宗" : 1
+         },
+         "type" : "person"
+      },
+      "1542" : {
+         "id" : 1542,
+         "key" : "苗劉兵變",
+         "label" : "苗劉兵變",
+         "label_tw" : "苗劉兵變",
+         "name" : "苗劉兵變",
+         "name_tw" : "苗劉兵變",
+         "names" : {
+            "苗劉兵變" : 1
+         },
+         "type" : "event"
+      },
+      "1543" : {
+         "id" : 1543,
+         "key" : "光宗",
+         "label" : "光宗",
+         "label_ja" : "光宗",
+         "name" : "光宗",
+         "name_ja" : "光宗",
+         "names" : {
+            "光宗" : 1
+         },
+         "type" : "person"
+      },
+      "1544" : {
+         "id" : 1544,
+         "key" : "寧宗",
+         "label" : "寧宗",
+         "label_ja" : "寧宗",
+         "name" : "寧宗",
+         "name_ja" : "寧宗",
+         "names" : {
+            "寧宗" : 1
+         },
+         "type" : "person"
+      },
+      "1545" : {
+         "id" : 1545,
+         "key" : "理宗",
+         "label" : "理宗",
+         "label_ja" : "理宗",
+         "name" : "理宗",
+         "name_ja" : "理宗",
+         "names" : {
+            "理宗" : 1
+         },
+         "type" : "person"
+      },
+      "1546" : {
+         "id" : 1546,
+         "key" : "度宗",
+         "label" : "度宗",
+         "label_ja" : "度宗",
+         "name" : "度宗",
+         "name_ja" : "度宗",
+         "names" : {
+            "度宗" : 1
+         },
+         "type" : "person"
+      },
+      "1547" : {
+         "id" : 1547,
+         "key" : "恭帝",
+         "label" : "恭帝",
+         "label_ja" : "恭帝",
+         "name" : "恭帝",
+         "name_ja" : "恭帝",
+         "names" : {
+            "恭帝" : 1
+         },
+         "type" : "person"
+      },
+      "1548" : {
+         "id" : 1548,
+         "key" : "端宗",
+         "label" : "端宗",
+         "label_ja" : "端宗",
+         "name" : "端宗",
+         "name_ja" : "端宗",
+         "names" : {
+            "端宗" : 1
+         },
+         "type" : "person"
+      },
+      "1549" : {
+         "id" : 1549,
+         "key" : "祥興帝",
+         "label" : "祥興帝",
+         "label_ja" : "祥興帝",
+         "name" : "祥興帝",
+         "name_ja" : "祥興帝",
+         "names" : {
+            "祥興帝" : 1
+         },
+         "type" : "person"
+      },
+      "1550" : {
+         "id" : 1550,
+         "key" : "黄華",
+         "label" : "黄華",
+         "label_ja" : "黄華",
+         "name" : "黄華",
+         "name_ja" : "黄華",
+         "names" : {
+            "黄華" : 1
+         },
+         "type" : "person"
+      },
+      "1551" : {
+         "id" : 1551,
+         "key" : "福建",
+         "label" : "福建",
+         "label_ja" : "福建",
+         "name" : "福建",
+         "name_ja" : "福建",
+         "names" : {
+            "福建" : 1
+         },
+         "region_of" : {
+            "1009" : 1
+         },
+         "type" : "region"
       }
    }
 }

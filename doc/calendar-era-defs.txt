@@ -626,6 +626,10 @@ and has following name/value pairs:
 
         The day the enforcement of the new era is rejected.
 
+      renamed
+
+        The day the era name had been changed.
+
       triggering
       triggering/possible
       triggering/incorrect

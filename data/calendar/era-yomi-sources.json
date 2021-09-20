@@ -5031,7 +5031,7 @@
          "missing_yomis" : [
          ],
          "name" : "咸平",
-         "start_year" : null,
+         "start_year" : 998,
          "yomis" : {
             "6100" : [
                "かん ぺい"
@@ -6905,7 +6905,7 @@
          "missing_yomis" : [
          ],
          "name" : "至道",
-         "start_year" : null,
+         "start_year" : 995,
          "yomis" : {
             "6100" : [
                "し どう"
@@ -8367,7 +8367,7 @@
          "missing_yomis" : [
          ],
          "name" : "雍熙",
-         "start_year" : null,
+         "start_year" : 984,
          "yomis" : {
             "6100" : [
                "よう き"
@@ -8943,7 +8943,7 @@
          "missing_yomis" : [
          ],
          "name" : "端拱",
-         "start_year" : null,
+         "start_year" : 988,
          "yomis" : {
             "6100" : [
                "たん きょう"
@@ -14187,7 +14187,7 @@
          "missing_yomis" : [
          ],
          "name" : "建隆",
-         "start_year" : null,
+         "start_year" : 960,
          "yomis" : {
             "6100" : [
                "けん りゅう"
@@ -25731,7 +25731,7 @@
          "missing_yomis" : [
          ],
          "name" : "乾徳",
-         "start_year" : null,
+         "start_year" : 963,
          "yomis" : {
             "6100" : [
                "けん とく"
@@ -32107,7 +32107,7 @@
          "missing_yomis" : [
          ],
          "name" : "開宝",
-         "start_year" : null,
+         "start_year" : 968,
          "yomis" : {
             "6100" : [
                "かい ほう"
@@ -42007,7 +42007,7 @@
          "missing_yomis" : [
          ],
          "name" : "淳化",
-         "start_year" : null,
+         "start_year" : 990,
          "yomis" : {
             "6100" : [
                "じゅん か"
@@ -44391,7 +44391,7 @@
          "missing_yomis" : [
          ],
          "name" : "太平興国",
-         "start_year" : null,
+         "start_year" : 976,
          "yomis" : {
             "6100" : [
                "たい へい こう こく"

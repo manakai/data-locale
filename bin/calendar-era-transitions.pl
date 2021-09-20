@@ -166,6 +166,7 @@ sub year2kanshi0 ($) {
 
 my $KMaps = {};
 my $GToKMapKey = {
+  宋 => 'sou',
   元 => 'zuitou',
   明 => 'zuitou',
   清 => 'shin',
@@ -425,8 +426,12 @@ sub ssday ($$) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '中華民国', $y, $m, $d;
     } elsif ($y >= 1645+1) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '清', $y, $m, $d;
-    } elsif ($y >= 1000) { # XXX
+    } elsif ($y >= 1367) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '明', $y, $m, $d;
+    } elsif ($y >= 1260) {
+      $day->{nongli_tiger} = ymmd2string gymd2nymmd '元', $y, $m, $d;
+    } elsif ($y >= 960) {
+      $day->{nongli_tiger} = ymmd2string gymd2nymmd '宋', $y, $m, $d;
     }
   }
 
@@ -515,7 +520,7 @@ sub parse_date ($$;%) {
       push @jd, gymd2jd $1, $2, $3;
     } elsif ($v =~ s{^j:([0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
       push @jd, jymd2jd $1, $2, $3;
-    } elsif ($v =~ s{^(元|明|清|中華人民共和国):([0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
+    } elsif ($v =~ s{^(宋|元|明|清|中華人民共和国):([0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
       push @jd, nymmd2jd $1, $2, $4, $5, $6;
       push @jd, nymmk2jd $1, $2, $4, $5, $7;
       if (defined $3) {
@@ -525,11 +530,11 @@ sub parse_date ($$;%) {
           die "Year mismatch ($ky1 vs $ky2) |$all|";
         }
       }
-    } elsif ($v =~ s{^(元|明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(宋|元|明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
       push @jd, nymmd2jd $1, $2, $3, $4, $5;
-    } elsif ($v =~ s{^(元|明|清|中華人民共和国):([0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
+    } elsif ($v =~ s{^(宋|元|明|清|中華人民共和国):([0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
       push @jd, nymmk2jd $1, $2, $3, $4, $5;
-    } elsif ($v =~ s{^(元|明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)\s*}{}) {
+    } elsif ($v =~ s{^(宋|元|明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, $2, $3, $4, 1;
       } elsif ($args{end}) {
@@ -551,7 +556,7 @@ sub parse_date ($$;%) {
       } else {
         die "Bad date |$v| ($all)";
       }
-    } elsif ($v =~ s{^(元|明|清|中華人民共和国|k):([0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(宋|元|明|清|中華人民共和国|k):([0-9]+)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, $2, 1, '', 1;
       } elsif ($args{end}) {
@@ -653,41 +658,45 @@ for my $tr (@$Input) {
       } elsif ($v =~ s{\s*#([\w_()]+)\{([#\w_()\s]*)(?:,([#\w_()\s]*)|)\}$}{}) {
         my $tags = $2;
         my $tags2 = $3;
-        my $tag = $TagByKey->{$1};
-        die "Tag |$1| not found" unless defined $tag;
-        die "Not an action tag: |$1|" unless $tag->{type} eq 'action';
-        set_object_tag $x, $1;
-        die "Duplicate action tag: |$1|" if defined $x->{action_tag_id};
+        my $t1 = $1;
+        $t1 =~ s/_/ /g;
+        my $tag = $TagByKey->{$t1};
+        die "Tag |$t1| not found" unless defined $tag;
+        die "Not an action tag: |$t1|" unless $tag->{type} eq 'action';
+        set_object_tag $x, $t1;
+        die "Duplicate action tag: |$t1|" if defined $x->{action_tag_id};
         $x->{action_tag_id} = $tag->{id};
         my $param_tags = {};
         {
           while ($tags =~ s{\s*#([\w_()]+)$}{}) {
-            my $tag = $TagByKey->{$1};
-            die "Tag |$1| not found" unless defined $tag;
-            $param_tags->{$1} = 1;
+            my $t1 = $1;
+            $t1 =~ s/_/ /g;
+            my $tag = $TagByKey->{$t1};
+            die "Tag |$t1| not found" unless defined $tag;
+            $param_tags->{$t1} = 1;
             if ($tag->{type} eq 'country' or
                 $tag->{type} eq 'region' or
                 $tag->{type} eq 'org') {
               if (defined $tags2) {
                 $x->{subject_tag_ids}->{$tag->{id}} = 1;
               } else {
-                die "Duplicate authority tag: |$1|"
+                die "Duplicate authority tag: |$t1|"
                     if defined $x->{authority_tag_id};
                 $x->{authority_tag_id} = $tag->{id};
               }
             } elsif ($tag->{type} eq 'person') {
               $x->{subject_tag_ids}->{$tag->{id}} = 1;
             } elsif ($tag->{type} eq 'position') {
-              die "Duplicate position tag: |$1|"
+              die "Duplicate position tag: |$t1|"
                   if defined $x->{position_tag_id};
               $x->{position_tag_id} = $tag->{id};
             } elsif ($tag->{type} eq 'event' or
                      $tag->{type} eq 'law') {
-              die "Duplicate event tag: |$1|"
+              die "Duplicate event tag: |$t1|"
                   if defined $x->{event_tag_id};
               $x->{event_tag_id} = $tag->{id};
             } else {
-              die "Bad parameter tag: |$1| (type: $tag->{type})";
+              die "Bad parameter tag: |$t1| (type: $tag->{type})";
             }
           }
           $tags =~ s/^\s+//;
@@ -695,15 +704,17 @@ for my $tr (@$Input) {
         }
         if (defined $tags2) {
           while ($tags2 =~ s{\s*#([\w_()]+)$}{}) {
-            my $tag = $TagByKey->{$1};
-            die "Tag |$1| not found" unless defined $tag;
-            $param_tags->{$1} = 1;
+            my $t1 = $1;
+            $t1 =~ s/_/ /g;
+            my $tag = $TagByKey->{$t1};
+            die "Tag |$t1| not found" unless defined $tag;
+            $param_tags->{$t1} = 1;
             if ($tag->{type} eq 'country' or
                 $tag->{type} eq 'region' or
                 $tag->{type} eq 'person') {
               $x->{object_tag_ids}->{$tag->{id}} = 1;
             } else {
-              die "Bad parameter tag: |$1| (type: $tag->{type})";
+              die "Bad parameter tag: |$t1| (type: $tag->{type})";
             }
           }
           $tags2 =~ s/^\s+//;
@@ -858,6 +869,8 @@ for (@$Transitions) {
     } elsif ($x->{tag_ids}->{1198}) { # 異説
       $type .= '/possible';
     }
+  } elsif ($x->{tag_ids}->{1442}) { # 元号名変更
+    $type = 'renamed';
   } elsif ($x->{tag_ids}->{1185}) { # 利用開始
     $type = 'commenced';
     if ($x->{tag_ids}->{1200}) { # 旧説
@@ -926,13 +939,22 @@ for (@$Transitions) {
 } # $tr
 
 my $TypeOrder = {
-  triggering => "_0",
+  nextlastyearend => "_00",
+  firstyearstart => "_01",
+  
+  triggering => "_10",
+
+  "firstday-canceled" => "firstday_0",
+  firstday => "firstday_1",
+
+  lastyearend => "~98",
+  prevfirstyearstart => "~99",
 };
 $Data->{transitions} = [map { $_->[0] } sort {
   $a->[1] <=> $b->[1] ||
   $a->[2] <=> $b->[2] ||
-  $a->[3] cmp $b->[3] ||
-  $a->[4] cmp $b->[4];
+  $a->[4] cmp $b->[4] ||
+  $a->[3] cmp $b->[3];
 } map {
   [$_,
    ($_->{day} || $_->{day_start})->{mjd},

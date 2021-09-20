@@ -51,6 +51,14 @@
 %tag   region of 漢土
 
 %tag region
+%tag   name_ja 開封
+%tag   region of 漢土
+
+%tag region
+%tag   name_ja 福建
+%tag   region of 漢土
+
+%tag region
 %tag   name_ja 雲南
 
 %tag tag
@@ -82,6 +90,9 @@
 
 %tag position
 %tag   name_ja 監国
+
+%tag religion
+%tag   name_ja 道教
 
 %tag country
 %tag   name_ja 秦

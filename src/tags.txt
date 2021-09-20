@@ -479,6 +479,8 @@ action
 
 action
   name_ja 国名変更
+  #subject: old
+  #object: new
 
 action
   name_ja 陥落
