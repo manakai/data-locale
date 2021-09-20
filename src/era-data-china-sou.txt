@@ -1,0 +1,1193 @@
+## Sources:
+## [102] zh.wikipedia era pages
+## [103] ja.wikipedia era pages
+## [104] 中国歴代年号考 修訂本
+
+%tag country
+%tag   name_ja 宋
+%tag   period of 中国
+
+%tag tag
+%tag   name_ja 宋の公年号
+%tag   group of 中華王朝の公年号
+
+%tag country
+%tag   name_ja 北宋
+%tag   period of 宋
+
+[建隆(庚申)]
+#y~144
+AD960 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建隆
+name_cn 建隆
+wref_zh 建隆
+# 960 - 963-11
+#<-南唐顕徳 963
+#吳越忠懿王钱俶
+#<- 960-8 高保勗,高繼沖
+
+## [103]
+name_ja 建隆
+name_kana けん りゅう
+#<-後周顕徳 960-1-乙巳(5)
+wref_ja 建隆
+
+[峻豐]
+wref_zh 建隆
+
+[乾德(癸亥)]
+#y~261
+AD963 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+wref_zh 乾德
+name_tw 乾德
+name_cn 乾德
+# 963-11 - 968-11
+#南唐后主李煜
+#吳越忠懿王钱俶
+
+## [103]
+wref_ja 乾徳 (宋)
+name_ja 乾徳
+name_kana けん とく
+#<-建隆(庚申) 963-11
+
+[開寶(戊辰)]
+#y~436
+AD968 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+wref_zh 開寶
+name_tw 開寶
+name_cn 开宝
+# 968-11 - 976
+#吳越忠懿王钱俶
+#南唐后主李煜
+#->干支 974-12 南唐后主李煜
+
+## [103]
+wref_ja 開宝
+name_ja 開宝
+name_kana かい ほう
+#<-乾德(癸亥) 968-11
+
+[太平興國(丙子)]
+#y~929
+AD976 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+wref_zh 太平兴国
+name_tw 太平興國
+name_cn 太平兴国
+# 976-12 - 984-11
+#吳越忠懿王钱俶
+#-> 978-5
+
+## [103]
+wref_ja 太平興国
+name_ja 太平興国
+name_kana たい へい こう こく
+#<-開寶(戊辰) 976-12
+
+[雍熙]
+#y~1232
+AD984 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+# 984-11 - 987
+name_tw 雍熙
+name_cn 雍熙
+
+## [103]
+wref_ja 雍熙
+name_ja 雍熙
+name_kana よう き
+#<-太平興國(丙子) 984-11
+
+[端拱]
+#y~1253
+AD988 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 端拱
+name_cn 端拱
+
+## [103]
+wref_ja 端拱
+name_ja 端拱
+name_kana たん きょう
+#<-雍熙
+
+[淳化]
+#y~849
+AD990 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 淳化
+name_cn 淳化
+
+## [103]
+wref_ja 淳化
+name_ja 淳化
+name_kana じゅん か
+#<-端拱
+
+[至道]
+#y~1193
+AD995 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 至道
+name_cn 至道
+
+## [103]
+wref_ja 至道
+name_ja 至道
+name_kana し どう
+#<-淳化
+
+[咸平]
+#y~114
+AD998 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 咸平
+name_cn 咸平
+
+## [103]
+wref_ja 咸平
+name_ja 咸平
+name_kana かん ぺい
+#<-至道
+
+[景德]
+#y~755
+AD1004 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 景德
+name_cn 景德
+
+## [103]
+wref_ja 景徳
+name_ja 景徳
+name_kana けい とく
+#<-咸平
+
+[大中祥符]
+#y~1482
+AD1008 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 大中祥符
+name_cn 大中祥符
+
+## [103]
+wref_ja 大中祥符
+name_ja 大中祥符
+name_kana たい ちゅう しょう ふ
+#<-景德
+
+[天禧]
+#y~1525
+AD1017 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 天禧
+name_cn 天禧
+#<-大中祥符 大中祥符9-11-乙卯 [宋朝事實] proclaimed
+#<-大中祥符 1017
+
+## [103]
+wref_ja 天禧 (宋)
+name_ja 天禧
+name_kana てん き
+#<-大中祥符
+
+[乾興(壬戌)]
+#y~1321
+AD1022 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 乾興
+name_cn 乾兴
+#大理国皇帝段素廉["滇载记"等]
+#^ incorrect - "用文物补正南诏及大理国的纪年"(李家瑞, "历史研究"1958年第7期)
+
+## [103]
+wref_ja 乾興 (宋)
+name_ja 乾興
+name_kana けん こう
+#<-天禧
+
+[天聖]
+#y~1466
+AD1023 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 天聖
+name_cn 天圣
+# 1023 - 1032-11
+
+## [103]
+wref_ja 天聖
+name_ja 天聖
+name_kana てん せい
+#<-乾興(壬戌)
+
+[明道]
+#y~267
+AD1032 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+# 1032-11 - 1033
+name_tw 明道
+name_cn 明道
+
+## [103]
+wref_ja 明道 (北宋)
+name_ja 明道
+name_kana めい とう
+#<-天聖
+
+[景祐]
+#y~1318
+AD1034 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 景祐
+name_cn 景祐
+# 1034 - 1038-11
+
+## [103]
+wref_ja 景祐
+name_ja 景祐
+name_kana けい ゆう
+#<-明道
+
+[寶元]
+#y~1601
+AD1038 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 寶元
+name_cn 宝元
+# 1038-11 - 1040-2
+
+## [103]
+wref_ja 宝元
+name_ja 宝元
+name_kana ほう げん
+#<-景祐
+
+[康定]
+#y~1436
+AD1040 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 康定
+name_cn 康定
+# 1040-2 - 1041-11
+
+## [103]
+wref_ja 康定 (宋)
+name_ja 康定
+name_kana こう てい
+#<-寶元
+
+[慶曆]
+#y~861
+AD1041 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 慶曆
+name_cn 庆历
+# 1041-11 - 1048
+
+## [103]
+wref_ja 慶暦
+name_ja 慶暦
+name_kana けい れき
+#<-康定
+
+&
+## [102]
+#清乾隆帝忌諱
+name_tw 慶厯
+name_cn 慶厯
+
+[皇祐]
+#y~522
+AD1049 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 皇祐
+name_cn 皇祐
+#<-慶曆 1048-12-1乙丑 = 1049-1-7 proclaimed [宋史]
+#<-慶曆 1049
+# 1049 - 1054-3
+
+## [103]
+wref_ja 皇祐
+name_ja 皇祐
+name_kana こう ゆう
+#<-慶曆
+
+[至和]
+#y~130
+AD1054 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 至和
+name_cn 至和
+# 1054-3 - 1056-9
+
+## [103]
+wref_ja 至和
+name_ja 至和
+name_kana し わ
+#<-皇祐
+
+[嘉祐]
+#y~1494
+AD1056 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 嘉祐
+name_cn 嘉祐
+# 1056-9 - 1063
+
+## [103]
+wref_ja 嘉祐
+name_ja 嘉祐
+name_kana か ゆう
+#<-至和
+
+[治平]
+#y~1594
+AD1064 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 治平
+name_cn 治平
+
+## [103]
+wref_ja 治平 (宋)
+name_ja 治平
+name_kana ち へい
+#<-嘉祐
+
+[熙寧]
+#y~1006
+AD1068 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 熙寧
+name_cn 熙宁
+
+## [103]
+wref_ja 熙寧
+name_ja 熙寧
+name_kana き ねい
+#<-治平
+
+[元豐]
+#y~117
+AD1078 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元豐
+name_cn 元丰
+
+## [103]
+wref_ja 元豊 (宋)
+name_ja 元豊
+name_kana げん ほう
+#<-熙寧
+
+[元祐]
+#y~1572
+AD1086 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元祐
+name_cn 元祐
+# 1086 - 1094-4
+#<-元豐 1086-1-1
+
+## [103]
+wref_ja 元祐
+name_ja 元祐
+name_kana げん ゆう
+#<-元豐
+
+[紹聖]
+#y~1448
+AD1094 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 紹聖
+name_cn 绍圣
+# 1094-4 - 1098-5
+
+## [103]
+wref_ja 紹聖
+name_ja 紹聖
+name_kana しょう せい
+#<-元祐
+
+[元符]
+#y~352
+AD1098 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元符
+name_cn 元符
+# 1098-6 - 1100
+
+## [103]
+wref_ja 元符
+name_ja 元符
+name_kana げん ぷ
+#<-紹聖
+
+[建中靖國]
+#y~318
+AD1101 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建中靖國
+name_cn 建中靖国
+
+## [103]
+wref_ja 建中靖国
+name_ja 建中靖国
+name_kana けん ちゅう せい こく
+#<-元符
+
+[崇寧]
+#y~1089
+AD1102 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 崇寧
+name_cn 崇宁
+
+## [103]
+wref_ja 崇寧
+name_ja 崇寧
+name_kana すう ねい
+#<-建中靖國
+
+[大觀]
+#y~771
+AD1107 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 大觀
+name_cn 大观
+
+## [103]
+wref_ja 大観 (宋)
+name_ja 大観
+name_kana だい かん
+#<-崇寧
+
+[政和]
+#y~1304
+AD1111 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 政和
+name_cn 政和
+# 1111 - 1118-10
+
+## [103]
+wref_ja 政和
+name_ja 政和
+name_kana せい わ
+#<-大觀
+
+[重和]
+#y~1522
+AD1118 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 重和
+name_cn 重和
+# 1118-11 - 1119-2
+
+## [103]
+wref_ja 重和
+name_ja 重和
+name_kana ちょう わ
+#<-政和
+
+[宣和]
+#y~65
+AD1119 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 宣和
+name_cn 宣和
+# 1119-2 - 1125
+
+## [103]
+wref_ja 宣和
+name_ja 宣和
+name_kana せん わ
+name_kana せん な
+#<-重和
+
+[靖康]
+#y~50
+AD1126 = 1
+tag 北宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 靖康
+name_cn 靖康
+# 1126 - 1127-4
+
+## [103]
+wref_ja 靖康
+name_ja 靖康
+name_kana せい こう
+#<-宣和
+#-> 1126-11 靖康の変
+
+%tag country
+%tag   name_ja 南宋
+%tag   period of 宋
+
+[建炎]
+#y~284
+AD1127 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建炎
+name_cn 建炎
+# 1127-5 - 1130
+
+## [103]
+wref_ja 建炎
+name_ja 建炎
+name_kana けん えん
+#<-靖康 1127-5-1
+u 5
+
+[明受]
+#y~170
+AD1129 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [103]
+name_tw 明受
+name_cn 明受
+# 1129-3 - 1129-4
+
+## <https://zh.wikipedia.org/wiki/%E8%B5%B5%E6%97%89>
+## 苗劉兵變
+#<-建炎 1129-3-11己丑 = 1129-4-1
+#1129-4-1戊申 = 1129-4-20 高宗復位
+#->建炎 1129-4-3庚戌 = 1129-4-22
+
+## <https://zh.wikipedia.org/wiki/%E5%BB%BA%E7%82%8E>
+tag 再開
+
+[紹興]
+#y~35
+AD1131 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 紹興
+name_cn 绍兴
+
+## [103]
+wref_ja 紹興 (宋)
+name_ja 紹興
+name_kana しょう こう
+#<-建炎 1131-1-1
+
+[隆興]
+#y~1352
+AD1163 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 隆興
+name_cn 隆兴
+
+## [103]
+wref_ja 隆興
+name_ja 隆興
+name_kana りゅう こう
+#<-紹興 1162-11-16 proclaimed
+#<-紹興 1163-1-1
+u 3
+
+[乾道]
+#y~1293
+AD1165 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 乾道
+name_cn 乾道
+
+## [103]
+wref_ja 乾道 (宋)
+name_ja 乾道
+name_kana けん どう
+#<-隆興 1165-1-1
+
+[純熙]
+#y~1818
+AD1174 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 純熙
+name_cn 纯熙
+#建炎以来朝野杂记
+#<-乾道 1173-11-9戊戌 proclaimed
+#<-乾道 1174
+tag 実施中止
+
+[淳熙]
+#y~1611
+AD1174 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 淳熙
+name_cn 淳熙
+#建炎以来朝野杂记
+#<-乾道/純熙 1173-11-15甲辰 renamed
+&
+name_tw 湻熙
+name_cn 湻熙
+
+## [103]
+wref_ja 淳熙
+name_ja 淳熙
+name_kana じゅん き
+#<-乾道 1173-11-9 proclaimed
+#<-乾道 1174
+
+[紹熙]
+#y~1402
+AD1190 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 紹熙
+name_cn 绍熙
+
+## [103]
+wref_ja 紹熙
+name_ja 紹熙
+name_kana しょう き
+#<-淳熙 1189-11-14 proclaimed
+#<-淳熙 1190
+
+[慶元]
+#y~1624
+AD1195 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 慶元
+name_cn 庆元
+
+## [103]
+wref_ja 慶元
+name_ja 慶元
+name_kana けい げん
+#<-紹熙 1194-10'-25 proclaimed
+#<-紹熙 1195
+
+[嘉泰]
+#y~1463
+AD1201 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 嘉泰
+name_cn 嘉泰
+
+## [103]
+wref_ja 嘉泰 (宋)
+name_ja 嘉泰
+name_kana か たい
+#<-慶元 1200-12-11 proclaimed
+#<-慶元 1201
+
+[開禧]
+#y~1349
+AD1205 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 開禧
+name_cn 开禧
+
+## [103]
+wref_ja 開禧
+name_ja 開禧
+name_kana かい き
+#<-嘉泰 1204-12-11 proclaimed
+#<-嘉泰 1205
+
+[嘉定]
+#y~960
+AD1208 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 嘉定
+name_cn 嘉定
+
+## [103]
+wref_ja 嘉定 (南宋)
+name_ja 嘉定
+name_kana か てい
+#<-開禧 1207-12-26 proclaimed
+#<-開禧 1208
+
+[寶慶]
+#y~378
+AD1225 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 寶慶
+name_cn 宝庆
+#西夏末主李睍["西夏紀事本末"(張鑑春)所收"西夏紀事年表"]
+name 宝慶
+#^ incorrect [104]
+
+## [103]
+wref_ja 宝慶
+name_ja 宝慶
+name_kana ほう けい
+name_kana ほう きょう
+#<-嘉定 1224-11-25 proclaimed
+#<-嘉定 1225
+
+[紹定]
+#y~642
+AD1228 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 紹定
+name_cn 绍定
+
+## [103]
+wref_ja 紹定
+name_ja 紹定
+name_kana しょう てい
+#<-寶慶 1227-11-06 proclaimed
+#<-寶慶 1228
+
+[端平]
+#y~1460
+AD1234 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 端平
+name_cn 端平
+
+## [103]
+wref_ja 端平
+name_ja 端平
+name_kana たん ぺい
+#<-紹定 1233-11-6 proclaimed
+#<-紹定 1234
+
+[嘉熙]
+#y~1334
+AD1237 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 嘉熙
+name_cn 嘉熙
+
+## [103]
+wref_ja 嘉熙
+name_ja 嘉熙
+name_kana か き
+#<-端平 1236-12-19 proclaimed
+#<-端平 1237
+
+[淳祐]
+#y~1387
+AD1241 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 淳祐
+name_cn 淳祐
+
+## [103]
+wref_ja 淳祐 (南宋)
+name_ja 淳祐
+name_kana じゅん ゆう
+#<-嘉熙 1240-10-3 proclaimed
+#<-嘉熙 1241
+
+[寶祐]
+#y~334
+AD1253 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 寶祐
+name_cn 宝祐
+
+## [103]
+wref_ja 宝祐
+name_ja 宝祐
+name_kana ほう ゆう
+#<-淳祐 1252-8-29 proclaimed
+#<-淳祐 1253
+
+[開慶]
+#y~641
+AD1259 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 開慶
+name_cn 开庆
+
+## [103]
+wref_ja 開慶
+name_ja 開慶
+name_kana かい けい
+#<-寶祐 1258-12-3 proclaimed
+#       元憲宗8(1258)-12-4
+#<-寶祐 1259
+
+[景定]
+#y~326
+AD1260 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 景定
+name_cn 景定
+
+## [103]
+wref_ja 景定
+name_ja 景定
+name_kana けい てい
+#<-開慶 1259-12-13 proclaimed
+#<-開慶 1260
+
+[咸淳]
+#y~470
+AD1265 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 咸淳
+name_cn 咸淳
+
+## [103]
+wref_ja 咸淳
+name_ja 咸淳
+name_kana かん じゅん
+#<-景定 1264-12-1 proclaimed
+#<-景定 1265
+
+[德祐]
+#y~1394
+AD1275 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 德祐
+name_cn 德祐
+# 1275 - 1276-4
+
+## [103]
+wref_ja 徳祐
+name_ja 徳祐
+name_kana とく ゆう
+#<-咸淳 1274-10-22 proclaimed
+#<-咸淳 1275
+#->至元 1276-02-05 臨安陥落
+#     至元13-2-6
+
+[景炎]
+#y~578
+AD1276 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 景炎
+name_cn 景炎
+# 1276-5 - 1278-4
+
+## [103]
+wref_ja 景炎
+name_ja 景炎
+name_kana けい えん
+#<-德祐 1276-5-1
+#-> 1278-04
+
+[祥興]
+#y~1132
+AD1278 = 1
+tag 南宋
+tag 宋の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 祥興
+name_cn 祥兴
+# 1278-5 - 1279-2
+#黄华 至元20(1283)-10
+u 5
+
+## [103]
+wref_ja 祥興
+name_ja 祥興
+name_kana しょう こう
+#<-景炎 1278-5-1
+#-> 1279-2-6 宋 滅亡
+#宋史
+#続資治通鑑
+
+def[祥興(己卯)]
+#y~1844
+AD1279 = 1
+tag 南宋
+tag 漢土
+tag 漢民族
+
+## [103]
+wref_ja 祥興
+name_ja 祥興
+name_kana しょう こう
+#<-景炎 1279-1
+#元史: 黄華
+u 5
