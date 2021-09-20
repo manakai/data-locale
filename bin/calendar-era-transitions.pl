@@ -927,13 +927,13 @@ for (@$Transitions) {
     next if $from_key eq q{干支年};
     my $era = $Eras->{$from_key};
     $y->{prev_era_ids}->{$era->{id}} = 1;
-    $y->{relevant_era_ids}->{$era->{id}} = 1;
+    $y->{relevant_era_ids}->{$era->{id}} = {};
   }
   for my $to_key (@$to_keys) {
     next if $to_key eq q{干支年};
     my $era = $Eras->{$to_key};
     $y->{next_era_ids}->{$era->{id}} = 1;
-    $y->{relevant_era_ids}->{$era->{id}} = 1;
+    $y->{relevant_era_ids}->{$era->{id}} = {};
   }
   push @{$Data->{_TRANSITIONS}}, $y;
 } # $tr
@@ -962,6 +962,43 @@ $Data->{transitions} = [map { $_->[0] } sort {
    (join $;, sort { $a <=> $b } keys %{$_->{relevant_era_ids}}),
    $TypeOrder->{$_->{type}} || $_->{type}];
 } @{delete $Data->{_TRANSITIONS}}];
+
+ERA: for my $era (sort { $a->{id} <=> $b->{id} } values %$Eras) {
+  my $to_trs = [grep { $_->{next_era_ids}->{$era->{id}} } @{$Data->{transitions}}];
+
+  my $first_day;
+  for my $tr (@$to_trs) {
+    if ($tr->{type} eq 'firstday') {
+      $first_day = $tr->{day} // $tr->{day_start};
+      last;
+    }
+  }
+  next ERA unless defined $first_day;
+
+  for my $tr (@$to_trs) {
+    if ({
+      triggering => 1,
+      'triggering/possible' => 1,
+      'triggering/incorrect' => 1,
+      proclaimed => 1,
+      'proclaimed/possible' => 1,
+      'proclaimed/incorrect' => 1,
+      received => 1,
+      'received/possible' => 1,
+      'received/incorrect' => 1,
+      notified => 1,
+      'notified/possible' => 1,
+      'notified/incorrect' => 1,
+      commenced => 1,
+      'commenced/possible' => 1,
+      'commenced/incorrect' => 1,
+    }->{$tr->{type}}) {
+      my $day = $tr->{day} // $tr->{day_start};
+      my $delta = $first_day->{mjd} - $day->{mjd};
+      $tr->{relevant_era_ids}->{$era->{id}}->{until_first_day} = $delta;
+    }
+  }
+} # ERA
 
 print perl2json_bytes_for_record $Data;
 

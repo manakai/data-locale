@@ -533,6 +533,28 @@ and has following name/value pairs:
     |prev_era_ids|.  If the |direction| is |outgoing|, the IDs of the
     next eras of the transition are contained in |next_era_ids|.
 
+  relevant_era_ids [object]
+
+    Eras that are relevant to the transition.
+
+    The names are the era IDs, and the values are their corresponding
+    descriptions, represented as JSON objects with following
+    name/value pair:
+
+      until_first_day [integer?]
+
+        The number of the days between the day of the transition and
+        the first day of the era (i.e. the transition whose |type| is
+        |firstday|).
+
+        For example, if the transition's |type| is |triggering|, the
+        value represents how many days it takes before the era has
+        been changed.
+
+        If the transition is before the |firstday|, the value is
+        positive.  If the transition is after the |firstday|, the
+        value is negative.
+
   tag_ids [tag ID set]
 
     The set of tags representing characteristics of the transition.
