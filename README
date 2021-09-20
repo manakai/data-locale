@@ -54,6 +54,9 @@ See documentations for details in doc/ directory.
   Durations
     doc/datetime-durations.txt         Durations
     data/datetime/durations.json
+  Metadata
+    doc/tags.txt                       Tags
+      data/tags.json
 
 Data on character encodings and character references used on the Web,
 are contained in the data-web-defs repository

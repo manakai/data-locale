@@ -1,0 +1,83 @@
+Tags
+~~~~
+
+The |data/tags.json| file contains the tags and their properties used
+in the data files in this repository.
+
+* Structure of the tag data file
+
+The |data/tags.json| file contains the tags, which are used to
+represent characteristics of concepts described in data files in this
+repository.
+
+It is a JSON object with following name/value pairs:
+
+  tags [object]
+
+    Names are tag ids [id].  Values are their corresponding
+    descriptions, which are JSON objects with following name/value
+    pairs:
+
+      XXX
+
+      type [tag-type]
+
+        The type of the tag.
+
+* Data types
+
+The data type [tag-type] is one of followings:
+
+  action
+
+    A type of action.
+
+  calendar
+
+    A calendar scheme.
+
+  country
+
+    A country.
+
+  event
+
+    An event such as political change and war.
+
+  law
+
+    A law.
+
+  org
+
+    A organization (used when no more specific [tag-type] is found).
+
+  people
+
+    A people.
+
+  position
+
+    A position or title in a country or organization.
+
+  region
+
+    A geographical region.
+
+  religion
+
+    A religion.
+
+  tag
+
+    A concept (used when no more specific [tag-type] is found).
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of these files.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the files and this document
+has waived all copyright and related or neighboring rights to the JSON
+file and this document.

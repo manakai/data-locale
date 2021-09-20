@@ -244,6 +244,14 @@ action
   name_ja 即位
 
 action
+  name_ja 重祚前の即位
+  group of 即位
+
+action
+  name_ja 重祚
+  group of 即位
+
+action
   name_ja 建元前の即位
   group of 事由
   group of 即位
