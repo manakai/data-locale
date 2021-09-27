@@ -292,6 +292,11 @@ action
   group of 事由
 
 action
+  name_ja 勢力吸収
+  group of 連合
+  group of 行政異動
+
+action
   name_ja 捕縛
   group of 事由
 
@@ -343,6 +348,9 @@ tag
 
 tag
   name_ja 君主名の元号
+
+tag
+  name_ja 干支元号名
 
 action
   name_ja 発表
@@ -490,6 +498,18 @@ action
 action
   name_ja 撤退
   group of 戦時異動
+
+event
+  name_ja 祥瑞
+  group of 事由
+
+event
+  name_ja 天象
+
+event
+  name_ja 天象災異
+  group of 天象
+  group of 事由
 
 tag
   name_ja 前元

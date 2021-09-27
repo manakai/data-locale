@@ -166,6 +166,8 @@ sub year2kanshi0 ($) {
 
 my $KMaps = {};
 my $GToKMapKey = {
+  隋 => 'zuitou',
+  唐 => 'zuitou',
   宋 => 'sou',
   元 => 'zuitou',
   明 => 'zuitou',
@@ -432,6 +434,8 @@ sub ssday ($$) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '元', $y, $m, $d;
     } elsif ($y >= 960) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '宋', $y, $m, $d;
+    } elsif ($y >= 581) { # 隋, 唐
+      $day->{nongli_tiger} = ymmd2string gymd2nymmd '唐', $y, $m, $d;
     }
   }
 
@@ -520,7 +524,7 @@ sub parse_date ($$;%) {
       push @jd, gymd2jd $1, $2, $3;
     } elsif ($v =~ s{^j:([0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
       push @jd, jymd2jd $1, $2, $3;
-    } elsif ($v =~ s{^(宋|元|明|清|中華人民共和国):([0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
+    } elsif ($v =~ s{^(隋|唐|宋|元|明|清|中華人民共和国):([0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
       push @jd, nymmd2jd $1, $2, $4, $5, $6;
       push @jd, nymmk2jd $1, $2, $4, $5, $7;
       if (defined $3) {
@@ -530,11 +534,11 @@ sub parse_date ($$;%) {
           die "Year mismatch ($ky1 vs $ky2) |$all|";
         }
       }
-    } elsif ($v =~ s{^(宋|元|明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(隋|唐|宋|元|明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
       push @jd, nymmd2jd $1, $2, $3, $4, $5;
-    } elsif ($v =~ s{^(宋|元|明|清|中華人民共和国):([0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
+    } elsif ($v =~ s{^(隋|唐|宋|元|明|清|中華人民共和国):([0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
       push @jd, nymmk2jd $1, $2, $3, $4, $5;
-    } elsif ($v =~ s{^(宋|元|明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)\s*}{}) {
+    } elsif ($v =~ s{^(隋|唐|宋|元|明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, $2, $3, $4, 1;
       } elsif ($args{end}) {
@@ -556,7 +560,7 @@ sub parse_date ($$;%) {
       } else {
         die "Bad date |$v| ($all)";
       }
-    } elsif ($v =~ s{^(宋|元|明|清|中華人民共和国|k):([0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(隋|唐|宋|元|明|清|中華人民共和国|k):([0-9]+)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, $2, 1, '', 1;
       } elsif ($args{end}) {
@@ -676,7 +680,8 @@ for my $tr (@$Input) {
             $param_tags->{$t1} = 1;
             if ($tag->{type} eq 'country' or
                 $tag->{type} eq 'region' or
-                $tag->{type} eq 'org') {
+                $tag->{type} eq 'org' or
+                $tag->{type} eq 'people') {
               if (defined $tags2) {
                 $x->{subject_tag_ids}->{$tag->{id}} = 1;
               } else {
@@ -838,8 +843,8 @@ unshift @$Transitions, @$NewTransitions;
 $Data->{_TRANSITIONS} = [];
 for (@$Transitions) {
   my ($from_keys, $to_keys, $x, $source) = @$_;
-  $from_keys = [keys %{{map { $_ => 1 } @$from_keys}}];
-  $to_keys = [keys %{{map { $_ => 1 } @$to_keys}}];
+  $from_keys = [grep { $_ ne '-' } keys %{{map { $_ => 1 } @$from_keys}}];
+  $to_keys = [grep { $_ ne '-' } keys %{{map { $_ => 1 } @$to_keys}}];
 
   my $type;
   if ($x->{tag_ids}->{1360}) { # 適用開始予定

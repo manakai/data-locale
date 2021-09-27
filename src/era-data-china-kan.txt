@@ -4,7 +4,10 @@
 ## [104] 中国歴代年号考 修訂本
 
 %tag country
+%tag   label_ja 両漢
 %tag   name_ja 漢
+%tag   period of 漢
+%tag   period of 中国
 
 %tag tag
 %tag   name_ja 漢の公年号

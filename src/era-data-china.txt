@@ -13,6 +13,14 @@
 %tag   name_en China
 
 %tag region
+%tag   name_ja 夏
+%tag   region of 漢土
+
+%tag position
+%tag   name_ja 夏王
+%tag   group of 王 (支那)
+
+%tag region
 %tag   name_ja 周
 %tag   region of 漢土
 
@@ -29,7 +37,16 @@
 %tag   region of 漢土
 
 %tag region
+%tag   name_ja 長安
+%tag   region of 漢土
+
+%tag region
 %tag   name_ja 西安
+%tag   region of 漢土
+%tag   period of 長安
+
+%tag region
+%tag   name_ja 洛陽
 %tag   region of 漢土
 
 %tag region
@@ -89,21 +106,99 @@
 %tag   group of 皇帝
 
 %tag position
+%tag   name_ja 王 (支那)
+%tag   group of 王
+
+%tag position
 %tag   name_ja 監国
+
+%tag region
+%tag   name_ja 漢
+%tag   region of 漢土
+
+%tag position
+%tag   name_ja 漢皇帝
+%tag   group of 支那皇帝
+
+%tag region
+%tag   name_ja 魏
+%tag   region of 漢土
+
+%tag region
+%tag   name_ja 呉
+%tag   region of 漢土
+
+%tag region
+%tag   name_ja 燕
+%tag   region of 漢土
+
+%tag position
+%tag   name_ja 燕王
+%tag   group of 王 (支那)
+
+%tag region
+%tag   name_ja 楚
+%tag   region of 漢土
+
+%tag position
+%tag   name_ja 楚皇帝
+%tag   group of 支那皇帝
+
+%tag position
+%tag   name_ja 楚王
+%tag   group of 王 (支那)
 
 %tag religion
 %tag   name_ja 道教
 
-%tag country
+%tag region
+%tag   name_ja 涼
+%tag   region of 漢土
+
+%tag position
+%tag   name_tw 涼王
+%tag   group of 王 (支那)
+
+%tag region
+%tag   name_ja 梁
+%tag   region of 漢土
+
+%tag position
+%tag   name_ja 梁皇帝
+%tag   group of 支那皇帝
+
+%tag region
+%tag   name_ja 宋
+%tag   region of 漢土
+
+%tag position
+%tag   name_ja 宋皇帝
+%tag   group of 支那皇帝
+
+%tag region
 %tag   name_ja 秦
+%tag   region of 漢土
+
+%tag position
+%tag   name_ja 秦王
+%tag   group of 王 (支那)
 
 def[秦始皇]
 ## Source:
 sw 秦始皇
 #
-tag 秦
 tag 漢民族
 tag 漢土
+
+%tag country
+%tag   name_ja 秦帝国
+%tag   period of 秦
+%tag   period of 中国
+tag 秦帝国
+
+%tag position
+%tag   name_ja 秦皇帝
+%tag   group of 支那皇帝
 
 name_tw 秦王政
 name_ja 秦王政
@@ -130,7 +225,7 @@ def[秦二世]
 ## Source:
 sw 秦二世
 #
-tag 秦
+tag 秦帝国
 tag 漢民族
 tag 漢土
 
@@ -151,7 +246,7 @@ def[秦王子嬰]
 ## Source:
 sw 秦子嬰
 #
-tag 秦
+tag 秦帝国
 tag 漢民族
 tag 漢土
 BC206 = 1
@@ -165,6 +260,1072 @@ name_ja 秦子嬰
 name_ja 子嬰
 name_tw 子嬰
 
+
+
+[白鳥]
+
+%tag person
+%tag   name_ja 向海明
+tag 向海明
+
+tag 漢土
+tag 仏教
+tag 隋
+tag 隋末唐初
+tag 漢民族
+
+## [102]
+#613-12
+
+## [103]
+wref_ja 白烏 (向海明)
+name_ja 白烏
+name_kana はく う
+#613
+
+## <https://ja.wikipedia.org/wiki/%E5%90%91%E6%B5%B7%E6%98%8E>
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B704>"白烏"
+<-大業 隋:613-12-丁亥 #建元前の即位{#向海明 #支那皇帝} #隋
+<-大業 隋:613-12-丁亥 #支那改元日{#向海明} #起事建元 #隋
+->大業 [隋:613-12-丁亥,隋:613-12] #陥落{#隋, #向海明} #隋
+
+[大世]
+
+%tag person
+%tag   name_ja 劉迦論
+tag 劉迦論
+
+tag 漢土
+tag 仏教
+tag 隋
+tag 隋末唐初
+tag 漢民族
+
+## [102]
+#614-5
+
+## [103]
+wref_ja 大世
+name_ja 大世
+name_kana だい せ
+#614
+
+%tag position
+%tag   name_ja 皇王
+%tag   group of 支那皇帝
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B704>"大世"
+<-大業 隋:614-5-庚申 #建元前の即位{#劉迦論 #皇王} #隋
+<-大業 隋:614-5-庚申 #支那改元日{#劉迦論} #起事建元 #隋
+
+->大業 [隋:614-5-庚申,隋:614-5] #陥落{#隋, #劉迦論}
+
+
+def[明政(乙亥)]
+#y~1883
+
+## [102]
+name_tw 明政
+name_cn 明政
+wref_zh 明政 (李子通)
+#隋書
+AD615=1
+u 1-10
+
+tag 旧説
+tag 李子通
+tag 呉 (李子通)
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B704>"明政"
+<-皇泰 隋:615-10-壬申 #建元前の即位{#李子通 #呉_(李子通) #楚王}
+<-皇泰 隋:615-10-壬申 #支那改元日{#李子通 #呉_(李子通)} #起事建元 #旧説
+
+
+[明政(己卯)]
+#y~466
+
+%tag person
+%tag   name_ja 李子通 
+tag 李子通
+
+%tag country
+%tag   label_ja 呉 (李子通)
+%tag   name_ja 呉
+%tag   period of 呉
+%tag   period of 中国
+tag 呉 (李子通)
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+## [102]
+#619-9 - 621-11
+u 3
+<-皇泰 [隋:619-9] #建元前の即位{#李子通 #呉_(李子通) #呉皇帝}
+<-皇泰 [隋:619-9] #支那改元日{#李子通 #呉_(李子通)} #起事建元
+
+## [103]
+wref_ja 明政 (李子通)
+name_ja 明政
+name_kana めい せい
+# 619 - 621
+u 3
+
+## <https://ja.wikipedia.org/wiki/%E6%9D%8E%E5%AD%90%E9%80%9A>
+->武德 [隋:621] #陥落{#唐, #隋}
+
+[昌達]
+#y~166
+
+AD615 = 1
+
+tag 旧説
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+%tag country
+%tag   label_ja 楚 (朱粲)
+%tag   name_ja 朱粲
+%tag   period of 楚
+%tag   period of 中国
+tag 楚 (朱粲)
+
+%tag person
+%tag   name_ja 朱粲
+tag 朱粲
+
+## [102]
+#618-10 - 619-2'
+#[中国历代年号考] 615-12 - 619-2'
+
+## [103]
+wref_ja 昌達
+name_ja 昌達
+name_kana しょう たつ
+#615 - 619
+u 5
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B704>"昌達"
+<-大業 隋:615-12-庚辰 #建元前の即位{#朱粲 #楚_(朱粲) #楚皇帝} #旧説
+<-大業 隋:615-12-庚辰 #支那改元日{#朱粲 #楚_(朱粲)} #起事建元 #旧説
+
+->開明(己卯) <-昌達,昌達(戊寅) [隋:619-2'] #勢力吸収{#王世充 #鄭, #朱粲 #楚}
+
+def[昌達(戊寅)]
+
+AD618 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+tag 楚 (朱粲)
+tag 朱粲
+
+## [102]
+wref_zh 昌達
+name_tw 昌達
+name_cn 昌達
+#618-10 - 619-2'
+#[中国历代年号考] 615-12 - 619-2'
+
+<-大業 [唐:618-10] #建元前の即位{#朱粲 #楚_(朱粲) #楚皇帝}
+<-大業 [唐:618-10] #支那改元日{#朱粲 #楚_(朱粲)} #起事建元
+
+[法輪]
+#y~1059
+
+AD618 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+%tag person
+%tag   name_ja 高曇晟
+tag 高曇晟
+
+%tag position
+%tag   name_tw 大乘皇帝
+
+tag 仏教
+
+## [102]
+#618-12
+<-大業 [隋:618-12] #建元前の即位{#高曇晟 #大乘皇帝}
+<-大業 [隋:618-12] #支那改元日{#高曇晟} #起事建元
+<-始興(戊寅),天成(戊寅) [隋:618-12] #勢力吸収{#高曇晟, #高開道 #燕_(高開道)}
+# : 3 months
+->始興(戊寅),天成(戊寅) [隋:618-12] #陥落{#高開道 #燕_(高開道), #高曇晟}
+    #死去
+
+## [103]
+wref_ja 法輪 (高曇晟)
+name_ja 法輪
+name_kana ほう りん
+#618
+
+
+[始興(戊寅)]
+#y~875
+
+AD618 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+%tag person
+%tag   name_ja 高開道
+tag 高開道
+
+%tag country
+%tag   name_ja 燕 (高開道)
+%tag   period of 燕
+%tag   period of 中国
+tag 燕 (高開道)
+
+## [102]
+#618-12 - 624-2
+
+## [103]
+wref_ja 始興 (高開道)
+name_ja 始興
+name_kana し こう
+#618 - 624
+
+## <https://zh.wikipedia.org/wiki/%E9%AB%98%E5%BC%80%E9%81%93>
+<-大業 ->始興(戊寅),天成(戊寅) [唐:618-12]
+    #建元前の即位{#高開道 #燕_(高開道) #燕王}
+<-大業 [唐:618-12] #支那改元日{#高開道 #燕_(高開道)} #起事建元
+<-法輪 ->始興(戊寅),天成(戊寅) [唐:618-12,唐:619]
+    #即位{#高開道 #燕_(高開道) #燕王} #戦時異動
+->武德 <-始興(戊寅),天成(戊寅) [唐:620] #勢力吸収{#唐, #高開道 #燕_(高開道)}
+<-武德 ->始興(戊寅),天成(戊寅) [唐:621]
+    #即位{#高開道 #燕_(高開道) #燕王} #戦時異動
+
+%tag person
+%tag   name_ja 張金樹
+tag 張金樹
+->武德 <-始興(戊寅),天成(戊寅) [唐:624-2]
+    #陥落{#張金樹, #高開道 #燕_(高開道)} #唐 #死去
+
+
+[始興]
+#y~83
+
+AD616 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+%tag position
+%tag   name_ja 元興王
+%tag   group of 王 (支那)
+
+%tag person
+%tag   name_ja 操師乞
+%tag   name_ja 操天成
+tag 操師乞
+
+## [102]
+#616-12
+
+## [103]
+wref_ja 始興 (操師乞)
+name_ja 始興
+name_kana し こう
+#隋書
+#616
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B704>"始興"
+<-大業 隋:616-12-癸未 #建元前の即位{#操師乞 #元興王} #隋
+<-大業 隋:616-12-癸未 #支那改元日{#操師乞} #起事建元 #隋
+<-始興,天成(丙子) ->太平(林士弘) [隋:616-12-癸未,隋:616-12]
+    #改元前の死去{#操師乞} #隋
+
+def[天成(戊寅)]
+
+AD618 = 1
+
+tag 異説
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+tag 高開道
+tag 燕 (高開道)
+
+## [102]
+wref_zh 始兴 (高开道)
+name_tw 天成
+name_cn 天成
+
+def[天成(丙子)]
+#y~1885
+
+AD616 = 1
+
+tag 異説
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+tag 君主名の元号
+
+## [103]
+wref_ja 始興 (操師乞)
+name_ja 天成
+#新唐書
+
+## <https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8/%E5%8D%B7087#%E6%9E%97%E5%A3%AB%E5%BC%98>
+<-大業 [隋:616] #建元前の即位{#操師乞 #元興王}
+<-大業 [隋:616] #支那改元日{#操師乞} #起事建元
+
+%tag person
+%tag   name_ja 林士弘
+
+tag 林士弘
+tag 楚 (林士弘)
+#tag 異説
+
+#wref_zh 太平 (林士弘)
+## <https://ja.wikipedia.org/wiki/%E5%A4%A9%E6%88%90>
+#616
+
+#<-始興 隋:616-12-壬辰 #建元前の即位{#林士弘 #楚_(林士弘) #楚皇帝}
+
+
+[太平(林士弘)]
+#y~865
+
+AD616 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+tag 林士弘
+
+%tag country
+%tag   label_ja 楚 (林士弘)
+%tag   name_ja 楚
+%tag   period of 楚
+%tag   period of 中国
+tag 楚 (林士弘)
+
+## [102]
+#616-12 - 622-10
+
+## [103]
+wref_ja 太平 (林士弘)
+name_ja 太平
+name_kana たい へい
+#616 - 622
+
+## <https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8/%E5%8D%B7087#%E6%9E%97%E5%A3%AB%E5%BC%98>
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B704>"太平"
+<-始興,天成(丙子) ->太平(林士弘),太平(丁丑),延康(丙子),天成(丙子) 隋:616-12-壬辰
+    #建元前の即位{#林士弘 #楚_(林士弘) #楚皇帝}
+<-始興,天成(丙子) 隋:616-12-壬辰
+    #支那改元日{#林士弘 #楚_(林士弘)} #起事建元
+
+## <https://ja.wikipedia.org/wiki/%E6%9E%97%E5%A3%AB%E5%BC%98>
+->鳴鳳 <-太平(林士弘),太平(丁丑),延康(丙子) [唐:618]
+    #陥落{#蕭銑 #後梁, #楚_(林士弘)}
+## partial
+
+->武德 <-太平(林士弘),太平(丁丑),延康(丙子) [唐:622]
+    #陥落{#唐, #林士弘 #楚_(林士弘)}
+
+def[太平(丁丑)]
+
+AD617 = 1
+
+tag 旧説
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+tag 林士弘
+tag 楚 (林士弘)
+
+## [102]
+wref_zh 太平 (林士弘)
+name_tw 太平
+name_cn 太平
+# year list 617 - 622
+u 1
+u 6
+
+## [103]
+wref_ja 太平 (林士弘)
+name_ja 太平
+# year list 617 - 622
+u 1
+u 6
+
+## <https://ja.wikipedia.org/wiki/%E6%9E%97%E5%A3%AB%E5%BC%98>
+
+<-始興,天成(丙子) [隋:617] #支那改元日{#林士弘 #楚_(林士弘)} #起事建元
+    #旧説
+
+def[延康(丙子)]
+
+tag 漢土
+tag 隋
+tag 唐
+tag 漢民族
+
+tag 林士弘
+tag 楚 (林士弘)
+
+## [102]
+wref_zh 太平 (林士弘)
+name_tw 延康
+name_cn 延康
+
+## <https://zh.wikipedia.org/wiki/%E6%9E%97%E5%A3%AB%E5%BC%98>
+AD616 = 1
+
+#<-始興,天成(丙子) 隋:616-12-壬辰
+#    #支那改元日{#林士弘 #楚_(林士弘)} #起事建元
+
+[延康(己卯)]
+#y~287
+
+AD619 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+%tag country
+%tag   label_ja 梁 (沈法興)
+%tag   name_ja 梁
+%tag   period of 梁
+%tag   period of 中国
+tag 梁 (沈法興)
+
+%tag person
+%tag   name_ja 沈法興
+tag 沈法興
+
+## [102]
+#619-9 - 620-12
+
+## [103]
+wref_ja 延康 (沈法興)
+name_ja 延康
+name_kana えん こう
+#619 - 620
+
+## <https://ja.wikipedia.org/wiki/%E6%B2%88%E6%B3%95%E8%88%88>
+<-大業 [隋:619-9] #建元前の即位{#沈法興 #梁王 #梁_(沈法興)}
+<-大業 [隋:619-9] #支那改元日{#沈法興 #梁_(沈法興)} #起事建元
+->- [唐:620] #陥落{#聞人遂安, #沈法興 #梁_(沈法興)} #死去
+%tag person
+%tag   name_ja 聞人遂安
+
+
+[丁丑]
+#y~988
+
+AD617 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+%tag country
+%tag   key 夏 (竇建徳)
+%tag   name_ja 夏
+%tag   period of 夏
+%tag   period of 中国
+tag 夏 (竇建徳)
+
+%tag person
+%tag   name_ja 竇建徳
+tag 竇建徳
+
+## [102]
+#617-1 - 618-11
+
+## [103]
+wref_ja 丁丑 (夏)
+name_ja 丁丑
+name_kana てい ちゅう
+# 617 - 618
+## <https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%88%3A%E4%B8%81%E4%B8%91_(%E5%A4%8F)>
+tag 追号説のある元号
+tag 干支元号名
+
+%tag position
+%tag   name_ja 長樂王
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B704>"建元丁丑"
+<-大業 隋:617-1-丙辰 #建元前の即位{#夏_(竇建徳) #竇建徳 #長樂王}
+<-大業 隋:617-1-丙辰 #支那改元日{#夏_(竇建徳) #竇建徳} #起事建元
+
+
+[五鳳(戊寅)]
+#y~949
+
+AD618 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+tag 夏 (竇建徳)
+tag 竇建徳
+
+## [102]
+#wref_zh 五凤 (窦建德)
+#618-11 - 621-5
+#唐书窦建德传
+<-丁丑 [唐:618,唐:618-11] #祥瑞 #夏_(竇建徳) #竇建徳
+
+
+## [103]
+wref_ja 五鳳 (夏)
+name_ja 五鳳
+name_kana ご ほう
+# 618 - 621
+
+## <https://ja.wikipedia.org/wiki/%E7%AB%87%E5%BB%BA%E5%BE%B3>
+<-丁丑 [唐:618,唐:618-7] #建元前の即位{#夏_(竇建徳) #竇建徳 #夏王} #異説
+<-丁丑 [唐:618,唐:618-7] #支那改元日{#夏_(竇建徳) #竇建徳} #起事建元 #異説
+
+## <https://zh.wikipedia.org/wiki/%E7%AA%A6%E5%BB%BA%E5%BE%B7>
+#618-冬至
+<-丁丑 唐:618-11-27 #建元前の即位{#夏_(竇建徳) #竇建徳 #夏王}
+<-丁丑 唐:618-11-27 #支那改元日{#夏_(竇建徳) #竇建徳} #起事建元
+
+->武德 [唐:621] #陥落{#唐, #夏_(竇建徳) #竇建徳}
+->武德 [唐:621-7] #改元前の死去{#夏_(竇建徳) #竇建徳} #唐
+
+[天造]
+#y~82
+
+AD622 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+%tag position
+%tag   name_ja 漢東王
+
+%tag person
+%tag   name_ja 劉黒闥
+tag 劉黒闥
+
+## [102]
+#622-1 - 623-1
+
+## [103]
+wref_ja 天造
+name_ja 天造
+name_kana てん ぞう
+#622 - 623
+
+## <https://ja.wikipedia.org/wiki/%E5%8A%89%E9%BB%92%E9%97%A5>
+## <https://zh.wikipedia.org/wiki/%E5%88%98%E9%BB%91%E9%97%BC>
+tag 夏 (竇建徳)
+<-五鳳(戊寅) [唐:622-1] #建元前の即位{#劉黒闥 #漢東王}
+<-五鳳(戊寅) [唐:622-1] #支那改元日{#劉黒闥} #起事建元
+tag 突厥
+->武德 唐:623-1-5 j:623-2-9 #陥落{#唐, #劉黒闥}
+
+[秦興]
+#y~243
+
+AD617 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+%tag person
+%tag   name_ja 秦 (薛挙)
+%tag   period of 秦
+%tag   period of 中国
+tag 秦 (薛挙)
+
+%tag person
+%tag   name_ja 薛挙
+tag 薛挙
+
+## [102]
+#617-4 - 618-11
+%tag person
+%tag   name_ja 薛仁果
+tag 薛仁果
+#618-8
+
+## [103]
+wref_ja 秦興
+name_ja 秦興
+name_kana しん こう
+#617 - 618
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B704>"秦興"
+<-大業 隋:617-4-癸未 #建元前の即位{#秦_(薛挙) #薛挙 #西秦霸王}
+<-大業 隋:617-4-癸未 #支那改元日{#秦_(薛挙) #薛挙} #起事建元 #旧説
+
+## <https://zh.wikipedia.org/wiki/%E8%96%9B%E8%88%89>
+%tag position
+%tag   name_tw 西秦霸王
+<-大業 [隋:617-4] #建元前の即位{#秦_(薛挙) #薛挙 #西秦霸王}
+<-大業 [隋:617-7] #建元前の即位{#秦_(薛挙) #薛挙 #秦皇帝}
+<-大業 [唐:617-7] #支那改元日{#秦_(薛挙) #薛挙} #起事建元
+
+## <https://zh.wikipedia.org/wiki/%E6%B7%BA%E6%B0%B4%E5%8E%9F%E4%B9%8B%E6%88%B0>
+%tag event
+%tag   name_tw 淺水原之戰
+>< [唐:618-8] #死去{#秦_(薛挙) #薛挙} #淺水原之戰
+>< [唐:618-8] #即位{#秦_(薛挙) #薛仁果 #支那皇帝} #淺水原之戰
+->武德 [唐:618-11] #陥落{#唐, #秦_(薛挙) #薛仁果} #淺水原之戰
+
+## <https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B755#%E8%96%9B%E8%88%89>
+## <https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8/%E5%8D%B7086#%E8%96%9B%E8%88%89>
+
+## <https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B705>
+#[義寧元年]十二月癸未，薛舉自稱天子，寇扶風。秦公為元帥，擊破之。
+
+&
+## [102]
+name_tw 泰興
+name_cn 泰兴
+
+
+[安樂]
+#y~1165
+
+AD617 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+%tag person
+%tag   name_ja 李軌
+tag 李軌
+
+## [102]
+#617-7 - 619-5
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B704>"安樂"
+%tag country
+%tag   name_tw 涼 (李軌)
+%tag   period of 涼
+%tag   period of 中国
+tag 涼
+<-大業 隋:617-7-丙辰 #建元前の即位{#李軌 #涼 #涼王}
+<-大業 隋:617-7-丙辰 #支那改元日{#李軌 #涼}
+
+## <https://zh.wikipedia.org/wiki/%E6%9D%8E%E8%BD%A8>
+->武德 <-安樂,安樂(戊寅) [唐:619-5,唐:619] #陥落{#唐, #李軌 #涼}
+
+## <https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B755#%E6%9D%8E%E8%BB%8C>
+## <https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8/%E5%8D%B7086#%E6%9D%8E%E8%BB%8C>
+
+def[安樂(戊寅)]
+
+tag 旧説
+
+AD618 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+tag 李軌
+tag 涼
+
+## [102]
+#618 - 619
+wref_ja 安楽 (年号)
+name_ja 安楽
+name_kana あん らく
+
+## <https://ja.wikipedia.org/wiki/%E6%9D%8E%E8%BB%8C>
+<-大業 [隋:618-11] #建元前の即位{#李軌 #涼 #涼王}
+<-大業 [隋:618-11] #支那改元日{#李軌 #涼}
+
+[通聖]
+#y~658
+
+AD617 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+%tag person
+%tag   name_ja 曹武徹
+tag 曹武徹
+
+## [102]
+#617-12
+->鳴鳳 [隋:617-12,隋:618] #陥落{#蕭銑 #後梁, #曹武徹}
+
+## [103]
+wref_ja 通聖
+name_ja 通聖
+name_kana つう せい
+#617
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B705>"通聖"
+<-大業 隋:617-12-丁亥 #蜂起{#曹武徹} #隋
+<-大業 隋:617-12-丁亥 #支那改元日{#曹武徹} #起事建元 #隋
+
+## <https://ja.wikipedia.org/wiki/%E6%9B%B9%E6%AD%A6%E5%BE%B9>
+#618
+
+[鳴鳳]
+#y~1351
+
+AD617 = 1
+                            
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+%tag person
+%tag   name_ja 蕭銑
+tag 蕭銑
+
+%tag country
+%tag   name_ja 後梁
+%tag   period of 梁
+%tag   period of 中国
+tag 後梁
+
+## [102]
+#617-4 - 621-10
+<-大業 [隋:617-4] #支那改元日{#後梁 #梁公 #蕭銑} #起事建元 #異説
+#617 - 618
+&
+name_cn 凤鸣
+name_tw 鳳鳴
+
+## [103]
+wref_ja 鳳鳴
+name_ja 鳳鳴
+name_kana ほう めい
+#617 - 618
+#『隋書』巻4 帝紀第4 煬帝下
+## (not found in <https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B704>)
+#自称梁王。以有異鳥之瑞，建元為鳳鳴。
+<-大業 [隋:617,隋:617-12-10] #祥瑞 #後梁 #蕭銑
+
+## <https://ja.wikipedia.org/wiki/%E8%95%AD%E9%8A%91>
+#鳳鳴 617 - 621
+%tag position
+%tag   name_ja 梁公
+%tag position
+%tag   name_ja 梁王
+%tag   group of 王 (支那)
+<-大業 隋:617-10-19(丙申) #建元前の即位{#後梁 #梁公 #蕭銑}
+<-大業 隋:617-12-10 #建元前の即位{#後梁 #梁王 #蕭銑}
+<-大業 隋:617-12-10 #支那改元日{#後梁 #梁公 #蕭銑} #起事建元
+>< [隋:618] #即位{#後梁 #梁皇帝 #蕭銑}
+->武德 唐:621-10-21 #陥落{#唐, #後梁 #蕭銑}
+#
+->太平(林士弘),太平(丁丑) [唐:621-10-21,唐:622] #勢力吸収{#林士弘 #楚_(林士弘), #後梁}
+## 残党
+
+## <https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B704>
+<-大業 隋:617-10-丙申 #建元前の即位{#後梁 #梁王 #蕭銑} #異説
+
+## <https://zh.wikipedia.org/wiki/%E8%90%A7%E9%93%A3>
+#鸣凤（一作凤鸣）
+#617 -
+
+[永平(丁丑)]
+#y~230
+
+AD617 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+%tag person
+%tag   name_ja 李密
+tag 李密
+
+%tag country
+%tag   label_ja 魏 (李密)
+%tag   name_ja 魏
+%tag   period of 魏
+%tag   period of 中国
+tag 魏 (李密)
+%tag position
+%tag   name_ja 魏公
+
+## [102]
+#617-2 - 618-12
+
+## [103]
+wref_ja 永平 (李密)
+name_ja 永平
+name_kana えい へい
+#617 - 618
+
+## <https://ja.wikipedia.org/wiki/%E6%9D%8E%E5%AF%86_(%E9%9A%8B)>
+#<-大業 [隋:617] #建元前の即位{#魏_(李密) #魏公 #李密}
+#<-大業 [隋:617] #支那改元日{#魏_(李密) #李密} #起事建元
+->皇泰 [隋:618-5-24,隋:618-9] #勢力吸収{#隋 #恭帝侗, #魏_(李密) #李密}
+->皇泰 [隋:618-9] #陥落{#隋 #王世充, #魏_(李密) #李密}
+
+## <https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%AF%86_(%E9%9A%8B%E6%9C%9D)>
+<-大業 [隋:617-2] #建元前の即位{#魏_(李密) #魏公 #李密}
+<-大業 [隋:617-2] #支那改元日{#魏_(李密) #李密} #起事建元
+->武德 [隋:618-9,隋:618-12-30] #勢力吸収{#唐, #魏_(李密) #李密}
+#腊-30
+->武德 隋:618-12-30 j:619-1-20 #陥落{#唐, #魏_(李密) #李密} #死去
+
+[正平(丁丑)]
+#y~1126
+
+AD617 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+%tag person
+%tag   name_ja 郭子和
+tag 郭子和
+
+## [102]
+#617-3 - 618-7
+
+## [103]
+wref_ja 正平 (郭子和)
+name_ja 正平
+name_kana せい へい
+#617 - 618
+
+%tag position
+%tag   name_ja 永楽王
+
+## <https://ja.wikipedia.org/wiki/%E9%83%AD%E5%AD%90%E5%92%8C>
+<-大業 ->正平(丁丑),丑平 [隋:617-3] #建元前の即位{#永楽王 #郭子和}
+<-大業 ->正平(丁丑),丑平 [隋:617-3] #支那改元日{#郭子和} #起事建元
+->武德 <-正平(丁丑),丑平 [唐:618-7] #勢力吸収{#唐, #郭子和}
+
+def[丑平]
+#y~1889
+
+AD617 = 1
+
+tag 異説
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+tag 郭子和
+
+## [102]
+wref_zh 正平 (郭子和)
+name_tw 丑平
+name_cn 丑平
+
+[天興(丁丑)]
+#y~881
+
+AD617 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+%tag person
+%tag   name_ja 劉武周
+tag 劉武周
+
+%tag country
+%tag   label_ja 漢 (劉武周)
+%tag   name_ja 漢
+tag 漢 (劉武周)
+
+## [102]
+#617-3 - 620-4
+
+## [103]
+wref_ja 天興 (劉武周)
+name_ja 天興
+name_kana てん こう
+#617 - 620
+
+## <https://zh.wikipedia.org/wiki/%E5%88%98%E6%AD%A6%E5%91%A8>
+tag 突厥
+<-大業 [隋:617-3] #建元前の即位{#漢_(劉武周) #劉武周 #漢皇帝}
+<-大業 [隋:617-3] #支那改元日{#漢_(劉武周) #劉武周} #起事建元
+->武德 [唐:620-4] #陥落{#唐, #漢_(劉武周) #劉武周}
+# 622 #死去
+
+## <https://ja.wikipedia.org/wiki/%E5%8A%89%E6%AD%A6%E5%91%A8>
+# - 621 在位
+# 621 #死去
+
+
+[進通]
+#y~323
+
+AD623 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+%tag person
+%tag   name_tw 王摩沙
+tag 王摩沙
+
+##[102]
+#623
+
+##[103]
+wref_ja 進通
+name_ja 進通
+name_kana しん つう
+#623
+
+%tag position
+%tag   name_cn 元帅
+
+## <https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%91%A9%E6%B2%99>
+<-武德 唐:623-1-壬午 j:623-2-10 #建元前の即位{#元帅 #王摩沙}
+<-武德 唐:623-1-壬午 #支那改元日{#王摩沙} #起事建元
+->武德 [唐:623-1-壬午,唐:623] #陥落{#唐, #王摩沙}
+
+
+[天明(癸未)]
+#y~1676
+
+AD623 = 1
+
+tag 輔公祏
+tag 宋 (輔公祏)
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+## [102]
+#623-8 - 624-3
+
+## [103]
+wref_ja 天明 (輔公祏)
+name_ja 天明
+name_kana てん めい
+#623 - 624
+
+## <https://zh.wikipedia.org/wiki/%E8%BE%85%E5%85%AC%E7%A5%8F>
+<-武德 [唐:623-8,唐:623-8-21] #建元前の即位{#宋_(輔公祏) #輔公祏 #宋皇帝}
+<-武德 [唐:623-8,唐:623-8-21] #支那改元日{#宋_(輔公祏) #輔公祏} #起事建元
+->武德 唐:624-3-28 #陥落{#唐, #宋_(輔公祏) #輔公祏}
+
+[乾德(輔公祏)]
+#y~121
+
+%tag person
+%tag   name_ja 輔公祏
+tag 輔公祏
+
+%tag country
+%tag   label_ja 宋 (輔公祏)
+%tag   name_ja 宋
+%tag   period of 宋
+%tag   period of 中国
+#XXXprefix 大宋
+tag 宋 (輔公祏)
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+tag 漢民族
+
+## [102]
+name_tw 乾德
+name_cn 乾德
+#《廿二史考异》引《杨文公谈苑》江南曾发现有石志
+u 4
+#玉海
+#中国历代年号考: 存疑
+
+## [103]
+wref_ja 乾徳 (輔公祏)
+name_ja 乾徳
+name_kana けん とく
+#廿二史考異
+u 4
+#存疑
 
 
 

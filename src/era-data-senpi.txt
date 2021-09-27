@@ -1,12 +1,35 @@
 %tag people
 %tag   name_ja 鮮卑
 
+%tag position
+%tag   name_ja 北周皇帝
+%tag   group of 支那皇帝
+
+#XXX
+#<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B721>
+#<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B722>
+#<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B769>
+
+#XXX
+# s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B716>"改元天和"
+
+%tag person
+%tag   name_ja 静帝
+
 %tag country
 %tag   name_ja 隋
+%tag   period of 中国
 
 %tag tag
 %tag   name_ja 隋の公年号
 %tag   group of 中華王朝の公年号
+
+%tag position
+%tag   name_ja 隋皇帝
+%tag   group of 支那皇帝
+
+%tag tag
+%tag   name_ja 隋書
 
 [開皇]
 #y~1439
@@ -17,6 +40,10 @@ tag 隋の公年号
 tag 漢土
 tag 漢民族
 
+%tag person
+%tag   name_ja 楊堅
+tag 楊堅
+
 ## [102]
 name_tw 開皇
 name_cn 开皇
@@ -26,6 +53,19 @@ name_cn 开皇
 wref_ja 開皇
 name_ja 開皇
 name_kana かい こう
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B701>"開皇元年"
+<-大定(辛丑) 隋:581-2-13(甲子) #改元前の退位{#隋 #静帝 #北周皇帝}
+<-大定(辛丑) 隋:581-2-13(甲子) #建元前の即位{#隋 #楊堅 #隋皇帝}
+<-大定(辛丑) 隋:581-2-13(甲子) #支那改元日{#隋 #楊堅}
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B709>"改元"
+#<-大定(辛丑) 隋:581-2-13(甲子) #支那改元日{#隋 #楊堅}
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B721>"十九年十二月"
+->仁壽(辛酉) 隋:599-12-乙未 #天象災異 #隋
+->仁壽(辛酉) [隋:600-10] #天象災異 #隋
+
 
 [仁壽(辛酉)]
 #y~876
@@ -46,6 +86,14 @@ wref_ja 仁寿 (隋)
 name_ja 仁寿
 name_kana じん じゅ
 
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B719>"改元"
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B702>"仁壽元年"
+<-開皇 隋:601-1-1(乙酉) #支那改元日{#隋 #楊堅}
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B702>"崩於大寶殿"
+->大業 隋:604-7-13(丁未) #改元前の死去{#隋 #楊堅}
+
+
 [大業]
 #y~1682
 AD605 = 1
@@ -54,6 +102,10 @@ tag 鮮卑
 tag 隋の公年号
 tag 漢土
 tag 漢民族
+
+%tag person
+%tag   name_ja 煬帝
+tag 煬帝
 
 ## [102]
 name_tw 大業
@@ -78,6 +130,21 @@ u 13-11
 #煬帝 没
 u 14-3
 
+<-仁壽(辛酉) 隋:604-7-21 #建元前の即位{#隋 #煬帝 #隋皇帝}
+->天壽(戊寅) 隋:618-3-11 j:618-4-11 #改元前の死去{#隋 #煬帝}
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B704>"改元"
+<-仁壽(辛酉) 隋:605-1-1(壬辰) #支那改元日{#隋 #煬帝}
+->義寧 隋:617-11-丙辰 #勢力統合{#唐 #李淵, #隋 #恭帝侑} #長安
+->義寧 隋:617-11-辛酉 #建元前の即位{#隋 #恭帝侑 #隋皇帝} #李淵 #旧説
+->義寧 隋:617-11-辛酉 #支那改元日{#隋 #恭帝侑} #李淵 #旧説
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B722>"號年曰大業"
+
+%tag tag
+%tag   name_ja 隋末唐初
+tag 隋末唐初
+
 [義寧]
 #y~969
 AD617 = 1
@@ -86,6 +153,10 @@ tag 鮮卑
 tag 隋の公年号
 tag 漢土
 tag 漢民族
+
+%tag person
+%tag   name_ja 恭帝侑
+tag 恭帝侑
 
 ## [102]
 name_tw 義寧
@@ -101,6 +172,16 @@ u 1-11
 #-> 唐 618-5 禅譲
 u 2-5
 
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B705>"義寧"
+<-大業 隋:617-11-壬戌 #建元前の即位{#隋 #恭帝侑 #隋皇帝} #李淵
+<-大業 隋:617-11-壬戌 #支那改元日{#隋 #恭帝侑} #李淵
+->武德 隋:618-5-14(戊午) j:618-6-12 #改元前の退位{#隋 #恭帝侑 #隋皇帝}
+->武德 隋:618-5-14(戊午) #建元前の即位{#唐 #李淵 #唐皇帝}
+
+tag 唐
+tag 隋末唐初
+
+
 [皇泰]
 #y~854
 AD618 = 1
@@ -109,6 +190,10 @@ tag 鮮卑
 tag 隋の公年号
 tag 漢土
 tag 漢民族
+
+%tag person
+%tag   name_ja 恭帝侗
+tag 恭帝侗
 
 ## [102]
 name_tw 皇泰
@@ -126,12 +211,191 @@ u 1-5
 #-> 王世充 619-4 禅譲
 u 2-4
 
+<-大業 隋:618-5-24 j:618-6-22 #建元前の即位{#隋 #恭帝侗 #隋皇帝} #洛陽
+<-大業 隋:618-5-24 #支那改元日{#隋 #恭帝侗}
+
+## <https://zh.wikipedia.org/wiki/%E7%9A%87%E6%B3%B0%E4%B8%BB>
+## <https://ja.wikipedia.org/wiki/%E6%81%AD%E5%B8%9D%E4%BE%97>
+->開明(己卯) 隋:619-4-5(癸卯) j:619-5-23 #改元前の退位{#隋 #恭帝侗 #隋皇帝}
+    #王世充 #異説
+->開明(己卯) 隋:619-4-5(癸卯) #建元前の即位{#鄭 #王世充 #鄭皇帝} #異説
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B759>"改元"
+
+tag 鄭
+tag 隋末唐初
+
+[開明(己卯)]
+
+%tag people
+%tag   name_ja 胡
+tag 胡
+
+tag 鄭
+
+%tag country
+%tag   name_ja 鄭
+%tag   period of 中国
+tag 鄭
+tag 隋
+tag 唐
+tag 隋末唐初
+
+%tag position
+%tag   name_ja 鄭皇帝
+%tag   group of 支那皇帝
+
+%tag person
+%tag   name_ja 王世充
+tag 王世充
+
+## [102]
+#619-4 - 621-5
+u 3-5
+
+## [103]
+name_ja 開明
+name_kana かい めい
+wref_ja 開明 (王世充)
+#619 - 621
+
+## <https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E5%85%85>
+<-皇泰 隋:619-4-7(乙巳) j:619-5-25 #改元前の退位{#隋 #恭帝侗 #隋皇帝} #王世充
+<-皇泰 隋:619-4-7 #建元前の即位{#鄭 #王世充 #鄭皇帝}
+->武德 隋:621-5-丙寅 j:621-6-4 #陥落{#唐, #鄭 #王世充}
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B785>"開明"
+
+[天壽(戊寅)]
+
+%tag people
+%tag   name_ja 突厥
+tag 突厥
+
+## <https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B785>
+## <https://ja.wikipedia.org/wiki/%E5%AE%87%E6%96%87%E5%8C%96%E5%8F%8A>
+
+%tag person
+%tag   name_ja 宇文化及
+tag 宇文化及
+
+%tag country
+%tag   name_ja 許
+%tag   period of 中国
+tag 許
+
+%tag position
+%tag   name_ja 許皇帝
+%tag   group of 支那皇帝
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+
+## [102]
+#618-9 - 619-2
+#
+#玉海
+tag 楊浩
+
+## [103]
+wref_ja 天寿 (宇文化及)
+name_ja 天寿
+name_kana てん じゅ
+#618 - 619
+u 2
+
+## <https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B785>
+
+%tag person
+%tag   name_ja 楊浩
+
+## <https://ja.wikipedia.org/wiki/%E6%A5%8A%E6%B5%A9>
+<-大業 [隋:618-3] #建元前の即位{#隋 #楊浩 #隋皇帝} #宇文化及
+<-大業 [隋:618-9] #改元前の退位{#隋 #楊浩 #隋皇帝} #宇文化及
+<-大業 [隋:618-9] #建元前の即位{#許 #宇文化及 #許皇帝}
+
+## <https://zh.wikipedia.org/wiki/%E5%AE%87%E6%96%87%E5%8C%96%E5%8F%8A>
+->五鳳(戊寅) [隋:619-2] #陥落{#夏_(竇建徳) #竇建徳, #許 #宇文化及}
+
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B785>"天壽"
+
+[永隆(戊寅)]
+#y~903
+
+AD618 = 1
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+
+name_ja 永隆
+
+## [102]
+#618 - 628-4
+
+## <https://zh.wikipedia.org/wiki/%E6%A2%81%E5%B8%AB%E9%83%BD>
+<-大業 [隋:618] #建元前の即位{#梁師都 #梁_(梁師都) #梁皇帝}
+<-大業 [隋:618] #支那改元日{#梁師都 #梁_(梁師都)}
+tag 突厥
+->武德 <-永隆(戊寅),永隆(丁丑) 唐:628-4-26 #陥落{#唐, #梁師都} #死去
+
+## <https://zh.wikisource.org/wiki/%E6%A2%81%E6%98%8E%E9%81%94%E5%A2%93%E8%AA%8C>
+#永隆二年歲次己卯十一月丙寅朔七日壬申
+
+def[永隆(丁丑)]
+
+AD617 = 1
+
+tag 旧説
+
+tag 漢土
+tag 隋
+tag 唐
+tag 隋末唐初
+
+%tag country
+%tag   label_ja 梁 (梁師都)
+%tag   name_ja 梁
+%tag   period of 梁
+%tag   period of 中国
+tag 梁 (梁師都)
+
+%tag person
+%tag   name_ja 梁師都
+tag 梁師都
+
+## [103]
+wref_ja 永隆 (梁師都)
+name_ja 永隆
+name_kana えい りゅう
+#617-3 - 628-4
+
+name_tw 永隆
+name_cn 永隆
+
+## <https://ja.wikipedia.org/wiki/%E6%A2%81%E5%B8%AB%E9%83%BD>
+#617 - 628
+->- [唐:624,唐:628] #勢力吸収{#突厥, #梁師都}
+tag 突厥
+#->武德 [唐:628] #陥落{#唐, #梁師都}
+
+<-大業 [隋:617-3] #建元前の即位{#梁師都 #梁_(梁師都) #梁皇帝}
+<-大業 [隋:617-3] #支那改元日{#梁師都 #梁_(梁師都)} #旧説
+
+
 %tag country
 %tag   name_ja 唐
+%tag   period of 中国
 
 %tag tag
 %tag   name_ja 唐の公年号
 %tag   group of 中華王朝の公年号
+
+%tag position
+%tag   name_ja 唐皇帝
 
 [武德]
 #y~1106
@@ -141,6 +405,11 @@ tag 鮮卑
 tag 唐の公年号
 tag 漢土
 tag 漢民族
+tag 隋末唐初
+
+%tag person
+%tag   name_ja 李淵
+tag 李淵
 
 ## [102]
 name_tw 武德

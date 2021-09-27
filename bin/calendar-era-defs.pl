@@ -493,6 +493,13 @@ for my $path (
       my $tkey = $1;
       set_tag $key => $tkey;
 
+    } elsif (defined $key and /^s\s*#([\w_()]+)\s*<([^<>]+)>\s*"([^"]+)"\s*$/) {
+      my $tkey = $1;
+      my $url = $2;
+      my $text = $3;
+      $tkey =~ s/_/ /g;
+      set_tag $key => $tkey;
+      
     } elsif (defined $key and /^<-(\S+)\s+->(\S+)\s+(\S.+\S)\s*$/) {
       push @{$Data->{_TRANSITIONS} ||= []}, [$1 => $2, $3];
       $can_continue = 1;
