@@ -2975,6 +2975,10 @@
          "cldr" : "hsb_DE",
          "native_name" : "hornjoserbšćina (Němska)"
       },
+      "hsn" : {
+         "bcp47_canonical" : "hsn",
+         "mediawiki" : "hsn"
+      },
       "ht" : {
          "bcp47_canonical" : "ht",
          "mediawiki" : "ht"
