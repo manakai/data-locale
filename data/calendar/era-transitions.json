@@ -4493,12 +4493,13 @@
          },
          "position_tag_id" : 1580,
          "prev_era_ids" : {
-            "854" : 1
+            "1682" : 1
          },
          "relevant_era_ids" : {
-            "1883" : {
+            "1682" : {
             },
-            "854" : {
+            "1883" : {
+               "until_first_day" : 0
             }
          },
          "subject_tag_ids" : {
@@ -4535,12 +4536,12 @@
             "1883" : 1
          },
          "prev_era_ids" : {
-            "854" : 1
+            "1682" : 1
          },
          "relevant_era_ids" : {
-            "1883" : {
+            "1682" : {
             },
-            "854" : {
+            "1883" : {
             }
          },
          "subject_tag_ids" : {
@@ -4626,6 +4627,7 @@
          },
          "relevant_era_ids" : {
             "166" : {
+               "until_first_day" : 0
             },
             "1682" : {
             }
@@ -4962,6 +4964,7 @@
                "until_first_day" : -364
             },
             "1886" : {
+               "until_first_day" : 20
             },
             "1887" : {
             },
@@ -5424,6 +5427,7 @@
             "1682" : {
             },
             "1890" : {
+               "until_first_day" : 0
             }
          },
          "subject_tag_ids" : {
@@ -7167,6 +7171,7 @@
             "1682" : {
             },
             "207" : {
+               "until_first_day" : 177
             }
          },
          "subject_tag_ids" : {
@@ -7209,6 +7214,7 @@
             "1682" : {
             },
             "207" : {
+               "until_first_day" : 167
             }
          },
          "subject_tag_ids" : {
@@ -7757,6 +7763,7 @@
             "1682" : {
             },
             "207" : {
+               "until_first_day" : 0
             }
          },
          "subject_tag_ids" : {
@@ -7808,6 +7815,7 @@
             "1682" : {
             },
             "207" : {
+               "until_first_day" : 0
             }
          },
          "subject_tag_ids" : {
@@ -7826,6 +7834,54 @@
             "1572" : "許皇帝"
          },
          "type" : "triggering"
+      },
+      {
+         "action_tag_id" : 1189,
+         "authority_tag_id" : 1568,
+         "day_end" : {
+            "gregorian" : "0618-10-26",
+            "jd" : 1947077.5,
+            "julian" : "0618-10-23",
+            "kanshi0" : 7,
+            "kanshi_label" : "辛未",
+            "mjd" : -452923,
+            "nongli_tiger" : "0618-09-29"
+         },
+         "day_start" : {
+            "gregorian" : "0618-09-28",
+            "jd" : 1947049.5,
+            "julian" : "0618-09-25",
+            "kanshi0" : 39,
+            "kanshi_label" : "癸卯",
+            "mjd" : -452951,
+            "nongli_tiger" : "0618-09-01"
+         },
+         "next_era_ids" : {
+            "207" : 1
+         },
+         "prev_era_ids" : {
+            "1682" : 1
+         },
+         "relevant_era_ids" : {
+            "1682" : {
+            },
+            "207" : {
+            }
+         },
+         "subject_tag_ids" : {
+            "1567" : 1
+         },
+         "tag_ids" : {
+            "1008" : "中国",
+            "1182" : "制定",
+            "1189" : "支那改元日",
+            "1278" : "適用開始",
+            "1324" : "改元日",
+            "1360" : "適用開始予定",
+            "1567" : "宇文化及",
+            "1568" : "許"
+         },
+         "type" : "firstday"
       },
       {
          "action_tag_id" : 1226,
@@ -18667,15 +18723,19 @@
             "1035" : {
             },
             "1683" : {
+               "until_first_day" : 291
             },
             "1895" : {
                "until_first_day" : 380
             },
             "1896" : {
+               "until_first_day" : 291
             },
             "1897" : {
+               "until_first_day" : 291
             },
             "721" : {
+               "until_first_day" : 0
             }
          },
          "subject_tag_ids" : {
@@ -18721,15 +18781,19 @@
             "1035" : {
             },
             "1683" : {
+               "until_first_day" : 291
             },
             "1895" : {
                "until_first_day" : 380
             },
             "1896" : {
+               "until_first_day" : 291
             },
             "1897" : {
+               "until_first_day" : 291
             },
             "721" : {
+               "until_first_day" : 0
             }
          },
          "subject_tag_ids" : {
@@ -90697,6 +90761,7 @@
          },
          "relevant_era_ids" : {
             "244" : {
+               "until_first_day" : 0
             }
          },
          "tag_ids" : {
@@ -102986,6 +103051,7 @@
          },
          "relevant_era_ids" : {
             "147" : {
+               "until_first_day" : 0
             },
             "1866" : {
                "until_first_day" : 134
@@ -103039,6 +103105,7 @@
          },
          "relevant_era_ids" : {
             "147" : {
+               "until_first_day" : 0
             },
             "1866" : {
                "until_first_day" : 134
@@ -113285,6 +113352,7 @@
          },
          "relevant_era_ids" : {
             "1825" : {
+               "until_first_day" : 0
             },
             "738" : {
             }
@@ -116581,6 +116649,7 @@
          },
          "relevant_era_ids" : {
             "1187" : {
+               "until_first_day" : 0
             },
             "681" : {
             }
@@ -118683,6 +118752,7 @@
          },
          "relevant_era_ids" : {
             "1873" : {
+               "until_first_day" : 0
             },
             "971" : {
             }
@@ -119538,6 +119608,7 @@
          },
          "relevant_era_ids" : {
             "1629" : {
+               "until_first_day" : 0
             },
             "971" : {
             }

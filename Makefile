@@ -203,7 +203,7 @@ data/calendar/era-yomi-sources.json: bin/calendar-era-yomi-sources.pl \
 
 data/calendar/era-defs.json: bin/calendar-era-defs-events.pl \
     local/calendar-era-defs-0.json \
-    data/calendar/era-transitions.json \
+    local/era-transitions-0.json \
     data/tags.json
 	$(PERL) $< > $@
 
@@ -236,9 +236,12 @@ data/calendar/era-codes.html: bin/calendar-era-codes.pl \
     data/calendar/era-defs.json
 	$(PERL) $< > $@
 
-data/calendar/era-transitions.json: bin/calendar-era-transitions.pl \
+local/era-transitions-0.json: bin/calendar-era-transitions.pl \
     local/calendar-era-defs-0.json \
     data/tags.json
+	$(PERL) $< > $@
+data/calendar/era-transitions.json: bin/calendar-era-transitions-1.pl \
+    local/era-transitions-0.json
 	$(PERL) $< > $@
 
 data/calendar/era-stats.json: bin/calendar-era-stats.pl \

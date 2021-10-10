@@ -302,6 +302,7 @@ for my $path (
   my $key;
   my $prop;
   my $can_continue = 0;
+  my $current_source;
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
     if ($can_continue and /^\s+(\S.*)$/) {
       $Data->{_TRANSITIONS}->[-1]->[2] .= " " . $1;
@@ -319,12 +320,14 @@ for my $path (
       $key = $1;
       die "Bad key |$key|" unless $Data->{eras}->{$key};
       undef $prop;
+      undef $current_source;
     } elsif (/^def\[(.+)\]$/) {
       $key = $1;
       die "Bad key |$key|"
           if defined $Data->{eras}->{$key} and
              defined $Data->{eras}->{$key}->{key};
       undef $prop;
+      undef $current_source;
       $Data->{eras}->{$key}->{key} = $1;
       $Data->{eras}->{$key}->{_LABELS} //= [{labels => [{reps => []}]}];
     } elsif (defined $key and /^(source)$/) {
@@ -498,26 +501,36 @@ for my $path (
       my $url = $2;
       my $text = $3;
       $tkey =~ s/_/ /g;
-      set_tag $key => $tkey;
-      
+      my $source = {tag => $tkey};
+      push @{$Data->{eras}->{$key}->{_TEMP}->{sources} ||= []}, $source;
+      $current_source = $source;
+
+    } elsif (defined $key and defined $current_source and
+             defined $current_source->{tag} and
+             /^s\+(\S*)\s*$/) {
+      my $x = $1;
+      my @x = length $1 ? split /,/, $x : ($key);
+      set_tag $_ => $current_source->{tag} for @x;
     } elsif (defined $key and /^<-(\S+)\s+->(\S+)\s+(\S.+\S)\s*$/) {
-      push @{$Data->{_TRANSITIONS} ||= []}, [$1 => $2, $3];
+      push @{$Data->{_TRANSITIONS} ||= []}, [$1 => $2, $3, $current_source];
       $can_continue = 1;
     } elsif (defined $key and /^->(\S+)\s+<-(\S+)\s+(\S.+\S)\s*$/) {
-      push @{$Data->{_TRANSITIONS} ||= []}, [$2 => $1, $3];
+      push @{$Data->{_TRANSITIONS} ||= []}, [$2 => $1, $3, $current_source];
       $can_continue = 1;
     } elsif (defined $key and /^(\+|)<-(\S+)\s+(\S.+\S)\s*$/) {
-      push @{$Data->{_TRANSITIONS} ||= []}, [$2 => $key, $1.$3];
+      push @{$Data->{_TRANSITIONS} ||= []}, [$2 => $key, $1.$3, $current_source];
       $can_continue = 1;
     } elsif (defined $key and /^->(\S+)\s+(\S.+\S)\s*$/) {
-      push @{$Data->{_TRANSITIONS} ||= []}, [$key => $1, $2];
+      push @{$Data->{_TRANSITIONS} ||= []}, [$key => $1, $2, $current_source];
       $can_continue = 1;
     } elsif (defined $key and /^><\s+(\S.+\S)\s*$/) {
-      push @{$Data->{_TRANSITIONS} ||= []}, [$key => undef, $1];
+      push @{$Data->{_TRANSITIONS} ||= []}, [$key => undef, $1, $current_source];
       $can_continue = 1;
       
     } elsif (/\S/) {
       die "Bad line |$_|";
+    } else {
+      undef $current_source;
     }
   }
 }

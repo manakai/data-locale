@@ -598,6 +598,7 @@ for my $tr (@$Input) {
   my $from_keys = [defined $tr->[0] ? split /,/, $tr->[0] : ()];
   my $to_keys = [defined $tr->[1] ? split /,/, $tr->[1] : ()];
   my $v = $tr->[2];
+  my $source_info = $tr->[3];
   my $x = {};
 
   if (ref $v eq 'HASH') { # comes from |bin/era-date-list.pl|.
@@ -776,18 +777,18 @@ for my $tr (@$Input) {
     
     set_object_tag $y, '適用開始前日';
     $y->{day} = ssday $x->{day}->{jd} - 1, $y->{tag_ids};
-    push @$Transitions, [$from_keys, $to_keys, $y, $tr->[2]];
+    push @$Transitions, [$from_keys, $to_keys, $y, $tr->[2], $source_info];
 
     my $year = parse_ystring $y->{day}->{gregorian};
     my $jd = year_start_jd $year+1, $z->{tag_ids};
     if (defined $jd) {
       set_object_tag $z2, '末年翌日';
       $z2->{day} = ssday $jd, $z2->{tag_ids};
-      push @$Transitions, [$from_keys, $to_keys, $z2, $tr->[2]];
+      push @$Transitions, [$from_keys, $to_keys, $z2, $tr->[2], $source_info];
       
       set_object_tag $z, '末年末';
       $z->{day} = ssday $jd - 1, $z->{tag_ids};
-      push @$Transitions, [$from_keys, $to_keys, $z, $tr->[2]];
+      push @$Transitions, [$from_keys, $to_keys, $z, $tr->[2], $source_info];
     }
   } elsif ($x->{tag_ids}->{1347} and # 初年始
            defined $x->{day}) {
@@ -798,10 +799,10 @@ for my $tr (@$Input) {
 
     set_object_tag $y, '初年前日';
     $y->{day} = ssday $x->{day}->{jd} - 1, $y->{tag_ids};
-    push @$Transitions, [$from_keys, $to_keys, $y, $tr->[2]];
+    push @$Transitions, [$from_keys, $to_keys, $y, $tr->[2], $source_info];
   }
   
-  push @$Transitions, [$from_keys, $to_keys, $x, $tr->[2]];
+  push @$Transitions, [$from_keys, $to_keys, $x, $tr->[2], $source_info];
 } # $tr
 
 my $NewTransitions = [];
@@ -837,17 +838,17 @@ ERA: for my $era (sort { $a->{id} <=> $b->{id} } values %$Eras) {
   
     set_object_tag $w, '初年始';
     $w->{day} = ssday $jd, $w->{tag_ids};
-    push @$NewTransitions, [$prev_eras, [$era->{key}], $w];
+    push @$NewTransitions, [$prev_eras, [$era->{key}], $w, undef, undef];
 
     set_object_tag $v, '初年前日';
     $v->{day} = ssday $jd - 1, $v->{tag_ids};
-    push @$NewTransitions, [$prev_eras, [$era->{key}], $v];
+    push @$NewTransitions, [$prev_eras, [$era->{key}], $v, undef, undef];
 } # ERA
 unshift @$Transitions, @$NewTransitions;
 
 $Data->{_TRANSITIONS} = [];
 for (@$Transitions) {
-  my ($from_keys, $to_keys, $x, $source) = @$_;
+  my ($from_keys, $to_keys, $x, $source_line_text, $source_info) = @$_;
   $from_keys = [grep { $_ ne '-' } keys %{{map { $_ => 1 } @$from_keys}}];
   $to_keys = [grep { $_ ne '-' } keys %{{map { $_ => 1 } @$to_keys}}];
 
@@ -946,6 +947,16 @@ for (@$Transitions) {
     $y->{relevant_era_ids}->{$era->{id}} = {};
   }
   push @{$Data->{_TRANSITIONS}}, $y;
+
+  if (defined $source_info and
+      defined $source_info->{tag} and
+      ($type eq 'firstday' or
+       $type eq 'firstday/possible' or
+       $type eq 'firstday/incorrect') and
+      @$to_keys == 1 and $to_keys->[0] ne '干支年') {
+    my $era = $Eras->{$to_keys->[0]};
+    $Data->{_ERA_TAGS}->{$era->{key}}->{$source_info->{tag}} = 1;
+  }
 } # $tr
 
 my $TypeOrder = {
@@ -981,6 +992,14 @@ ERA: for my $era (sort { $a->{id} <=> $b->{id} } values %$Eras) {
     if ($tr->{type} eq 'firstday') {
       $first_day = $tr->{day} // $tr->{day_start};
       last;
+    }
+  }
+  if (not defined $first_day) {
+    for my $tr (@$to_trs) {
+      if ($tr->{type} eq 'firstday/incorrect') {
+        $first_day = $tr->{day} // $tr->{day_start};
+        last;
+      }
     }
   }
   next ERA unless defined $first_day;

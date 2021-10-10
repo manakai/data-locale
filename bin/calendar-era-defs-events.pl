@@ -12,10 +12,12 @@ my $Data = json_bytes2perl $DataPath->slurp;
 my $ThisYear = [gmtime]->[5] + 1900;
 
 my $EraTransitions;
+my $EraTags;
 {
-  my $path = $RootPath->child ('data/calendar/era-transitions.json');
+  my $path = $RootPath->child ('local/era-transitions-0.json');
   my $json = json_bytes2perl $path->slurp;
   $EraTransitions = $json->{transitions};
+  $EraTags = $json->{_ERA_TAGS};
 }
 
 sub ymd2string (@) {
@@ -627,6 +629,12 @@ for my $era (values %{$Data->{eras}}) {
   my $has_end_year = defined $era->{end_year};
   for my $tr (@$era_trs) {
     if (not defined $era->{start_year} and
+        $tr->{type} eq 'firstday/incorrect') {
+      my $y = extract_day_year $tr->{day} // $tr->{day_start}, $tr->{tag_ids};
+      $era->{start_year} //= $y;
+      $era->{start_day} //= $tr->{day} // $tr->{day_start};
+    }
+    if (not defined $era->{start_year} and
         $tr->{next_era_ids}->{$era->{id}} and
         $tr->{type} eq 'firstyearstart') { # has day
       my $y = extract_day_year $tr->{day}, $tr->{tag_ids};
@@ -820,9 +828,17 @@ for my $era (values %{$Data->{eras}}) {
   }
 
   delete $era->{_FORM_GROUP_ONS};
+  delete $era->{_TEMP};
 } # era
-delete $Data->{_ONS};
 
+for my $key (sort { $a cmp $b } keys %$EraTags) {
+  my $era = $Data->{eras}->{$key};
+  for my $tag_key (sort { $a cmp $b } keys %{$EraTags->{$key}}) {
+    set_object_tag $era, $tag_key;
+  }
+}
+
+delete $Data->{_ONS};
 delete $Data->{_TRANSITIONS};
 
 print perl2json_bytes_for_record $Data;
