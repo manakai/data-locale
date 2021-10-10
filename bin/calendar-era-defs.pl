@@ -305,7 +305,7 @@ for my $path (
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
     if ($can_continue and /^\s+(\S.*)$/) {
       $Data->{_TRANSITIONS}->[-1]->[2] .= " " . $1;
-      $can_continue = 0;
+      $can_continue = 1;
       next;
     } else {
       $can_continue = 0;

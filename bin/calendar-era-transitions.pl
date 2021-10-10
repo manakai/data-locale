@@ -679,15 +679,20 @@ for my $tr (@$Input) {
             die "Tag |$t1| not found" unless defined $tag;
             $param_tags->{$t1} = 1;
             if ($tag->{type} eq 'country' or
-                $tag->{type} eq 'region' or
                 $tag->{type} eq 'org' or
                 $tag->{type} eq 'people') {
               if (defined $tags2) {
                 $x->{subject_tag_ids}->{$tag->{id}} = 1;
               } else {
-                die "Duplicate authority tag: |$t1|"
+                die "Duplicate authority tag: |$t1| [$tr->[2]]"
                     if defined $x->{authority_tag_id};
                 $x->{authority_tag_id} = $tag->{id};
+              }
+            } elsif ($tag->{type} eq 'region') {
+              if (defined $tags2) {
+                $x->{subject_tag_ids}->{$tag->{id}} = 1;
+              } else {
+                $x->{subject_tag_ids}->{$tag->{id}} = 1;
               }
             } elsif ($tag->{type} eq 'person') {
               $x->{subject_tag_ids}->{$tag->{id}} = 1;

@@ -6,6 +6,11 @@ region
   region of トルキスタン
 
 region
+  name_ja トルファン
+  name_cn 吐鲁番
+  region of ウイグル
+
+region
   name_ja 露領シベリア
   region of ロシア帝国
 
@@ -502,6 +507,26 @@ action
 event
   name_ja 祥瑞
   group of 事由
+
+event
+  name_ja 鳳祥瑞
+  group of 祥瑞
+
+event
+  name_ja 竜祥瑞
+  group of 祥瑞
+
+event
+  name_ja 雲祥瑞
+  group of 祥瑞
+
+event
+  name_ja 災異
+  group of 事由
+
+event
+  name_ja 星災異
+  group of 災異
 
 event
   name_ja 天象
