@@ -1,6 +1,6 @@
 Carp~1.50
 Data::Dumper~2.183
-Encode~3.15
+Encode~3.16
 Exporter~5.74
 Exporter::Lite~0.08
 JSON~4.03
