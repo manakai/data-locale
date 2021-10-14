@@ -3723,6 +3723,10 @@
          "cldr" : "ksh_DE",
          "native_name" : "Kölsch (Doütschland)"
       },
+      "ksw" : {
+         "bcp47_canonical" : "ksw",
+         "mediawiki" : "ksw"
+      },
       "ku" : {
          "bcp47_canonical" : "ku",
          "cldr" : "ku",
