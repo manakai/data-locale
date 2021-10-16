@@ -2088,6 +2088,153 @@
          "type" : "firstday"
       },
       {
+         "action_tag_id" : 1275,
+         "day_end" : {
+            "gregorian" : "0301-01-26",
+            "jd" : 1831022.5,
+            "julian" : "0301-01-25",
+            "kanshi0" : 52,
+            "kanshi_label" : "丙辰",
+            "mjd" : -568978,
+            "nongli_tiger" : "0300-12-29"
+         },
+         "day_start" : {
+            "gregorian" : "0300-12-29",
+            "jd" : 1830994.5,
+            "julian" : "0300-12-28",
+            "kanshi0" : 24,
+            "kanshi_label" : "戊子",
+            "mjd" : -569006,
+            "nongli_tiger" : "0300-12-01"
+         },
+         "next_era_ids" : {
+            "563" : 1
+         },
+         "prev_era_ids" : {
+            "484" : 1
+         },
+         "relevant_era_ids" : {
+            "484" : {
+            },
+            "563" : {
+               "until_first_day" : 0
+            }
+         },
+         "subject_tag_ids" : {
+            "1747" : 1
+         },
+         "tag_ids" : {
+            "1008" : "中国",
+            "1144" : "晋",
+            "1146" : "西晋",
+            "1191" : "事由",
+            "1275" : "蜂起",
+            "1713" : "司馬晋",
+            "1747" : "趙廞"
+         },
+         "type" : "triggering"
+      },
+      {
+         "action_tag_id" : 1189,
+         "day_end" : {
+            "gregorian" : "0301-01-26",
+            "jd" : 1831022.5,
+            "julian" : "0301-01-25",
+            "kanshi0" : 52,
+            "kanshi_label" : "丙辰",
+            "mjd" : -568978,
+            "nongli_tiger" : "0300-12-29"
+         },
+         "day_start" : {
+            "gregorian" : "0300-12-29",
+            "jd" : 1830994.5,
+            "julian" : "0300-12-28",
+            "kanshi0" : 24,
+            "kanshi_label" : "戊子",
+            "mjd" : -569006,
+            "nongli_tiger" : "0300-12-01"
+         },
+         "next_era_ids" : {
+            "563" : 1
+         },
+         "prev_era_ids" : {
+            "484" : 1
+         },
+         "relevant_era_ids" : {
+            "484" : {
+            },
+            "563" : {
+            }
+         },
+         "subject_tag_ids" : {
+            "1747" : 1
+         },
+         "tag_ids" : {
+            "1008" : "中国",
+            "1144" : "晋",
+            "1146" : "西晋",
+            "1182" : "制定",
+            "1189" : "支那改元日",
+            "1278" : "適用開始",
+            "1324" : "改元日",
+            "1359" : "起事建元",
+            "1360" : "適用開始予定",
+            "1713" : "司馬晋",
+            "1747" : "趙廞"
+         },
+         "type" : "firstday"
+      },
+      {
+         "action_tag_id" : 1226,
+         "day_end" : {
+            "gregorian" : "0301-02-25",
+            "jd" : 1831052.5,
+            "julian" : "0301-02-24",
+            "kanshi0" : 22,
+            "kanshi_label" : "丙戌",
+            "mjd" : -568948,
+            "nongli_tiger" : "0301-01-30"
+         },
+         "day_start" : {
+            "gregorian" : "0301-01-27",
+            "jd" : 1831023.5,
+            "julian" : "0301-01-26",
+            "kanshi0" : 53,
+            "kanshi_label" : "丁巳",
+            "mjd" : -568977,
+            "nongli_tiger" : "0301-01-01"
+         },
+         "next_era_ids" : {
+            "484" : 1
+         },
+         "object_tag_ids" : {
+            "1747" : 1
+         },
+         "prev_era_ids" : {
+            "563" : 1
+         },
+         "relevant_era_ids" : {
+            "484" : {
+            },
+            "563" : {
+            }
+         },
+         "subject_tag_ids" : {
+            "1146" : 1
+         },
+         "tag_ids" : {
+            "1008" : "中国",
+            "1144" : "晋",
+            "1146" : "西晋",
+            "1226" : "陥落",
+            "1230" : "戦時異動",
+            "1296" : "進攻",
+            "1713" : "司馬晋",
+            "1747" : "趙廞"
+         },
+         "type" : "wartime"
+      },
+      {
          "day" : {
             "gregorian" : "0301-02-03",
             "jd" : 1831030.5,
@@ -2484,6 +2631,260 @@
             "1715" : "晋恵帝"
          },
          "type" : "firstday"
+      },
+      {
+         "action_tag_id" : 1275,
+         "authority_tag_id" : 1749,
+         "day_end" : {
+            "gregorian" : "0303-07-01",
+            "jd" : 1831908.5,
+            "julian" : "0303-06-30",
+            "kanshi0" : 38,
+            "kanshi_label" : "壬寅",
+            "mjd" : -568092,
+            "nongli_tiger" : "0303-05-29"
+         },
+         "day_start" : {
+            "gregorian" : "0303-06-03",
+            "jd" : 1831880.5,
+            "julian" : "0303-06-02",
+            "kanshi0" : 10,
+            "kanshi_label" : "甲戌",
+            "mjd" : -568120,
+            "nongli_tiger" : "0303-05-01"
+         },
+         "next_era_ids" : {
+            "595" : 1
+         },
+         "prev_era_ids" : {
+            "1168" : 1
+         },
+         "relevant_era_ids" : {
+            "1168" : {
+            },
+            "595" : {
+               "until_first_day" : 0
+            }
+         },
+         "subject_tag_ids" : {
+            "1748" : 1
+         },
+         "tag_ids" : {
+            "1008" : "中国",
+            "1144" : "晋",
+            "1146" : "西晋",
+            "1150" : "漢",
+            "1191" : "事由",
+            "1275" : "蜂起",
+            "1713" : "司馬晋",
+            "1748" : "張昌",
+            "1749" : "漢 (張昌)"
+         },
+         "type" : "triggering"
+      },
+      {
+         "action_tag_id" : 1192,
+         "authority_tag_id" : 1749,
+         "day_end" : {
+            "gregorian" : "0303-07-01",
+            "jd" : 1831908.5,
+            "julian" : "0303-06-30",
+            "kanshi0" : 38,
+            "kanshi_label" : "壬寅",
+            "mjd" : -568092,
+            "nongli_tiger" : "0303-05-29"
+         },
+         "day_start" : {
+            "gregorian" : "0303-06-03",
+            "jd" : 1831880.5,
+            "julian" : "0303-06-02",
+            "kanshi0" : 10,
+            "kanshi_label" : "甲戌",
+            "mjd" : -568120,
+            "nongli_tiger" : "0303-05-01"
+         },
+         "next_era_ids" : {
+            "595" : 1
+         },
+         "position_tag_id" : 1646,
+         "prev_era_ids" : {
+            "1168" : 1
+         },
+         "relevant_era_ids" : {
+            "1168" : {
+            },
+            "595" : {
+               "until_first_day" : 0
+            }
+         },
+         "subject_tag_ids" : {
+            "1750" : 1
+         },
+         "tag_ids" : {
+            "1008" : "中国",
+            "1150" : "漢",
+            "1177" : "即位",
+            "1178" : "君主",
+            "1191" : "事由",
+            "1192" : "建元前の即位",
+            "1193" : "皇帝",
+            "1194" : "支那皇帝",
+            "1646" : "漢皇帝",
+            "1749" : "漢 (張昌)",
+            "1750" : "丘沈"
+         },
+         "type" : "triggering"
+      },
+      {
+         "action_tag_id" : 1652,
+         "authority_tag_id" : 1749,
+         "day_end" : {
+            "gregorian" : "0303-07-01",
+            "jd" : 1831908.5,
+            "julian" : "0303-06-30",
+            "kanshi0" : 38,
+            "kanshi_label" : "壬寅",
+            "mjd" : -568092,
+            "nongli_tiger" : "0303-05-29"
+         },
+         "day_start" : {
+            "gregorian" : "0303-06-03",
+            "jd" : 1831880.5,
+            "julian" : "0303-06-02",
+            "kanshi0" : 10,
+            "kanshi_label" : "甲戌",
+            "mjd" : -568120,
+            "nongli_tiger" : "0303-05-01"
+         },
+         "next_era_ids" : {
+            "595" : 1
+         },
+         "prev_era_ids" : {
+            "1168" : 1
+         },
+         "relevant_era_ids" : {
+            "1168" : {
+            },
+            "595" : {
+               "until_first_day" : 0
+            }
+         },
+         "tag_ids" : {
+            "1008" : "中国",
+            "1150" : "漢",
+            "1191" : "事由",
+            "1594" : "祥瑞",
+            "1652" : "鳳祥瑞",
+            "1749" : "漢 (張昌)"
+         },
+         "type" : "triggering"
+      },
+      {
+         "action_tag_id" : 1189,
+         "authority_tag_id" : 1749,
+         "day_end" : {
+            "gregorian" : "0303-07-01",
+            "jd" : 1831908.5,
+            "julian" : "0303-06-30",
+            "kanshi0" : 38,
+            "kanshi_label" : "壬寅",
+            "mjd" : -568092,
+            "nongli_tiger" : "0303-05-29"
+         },
+         "day_start" : {
+            "gregorian" : "0303-06-03",
+            "jd" : 1831880.5,
+            "julian" : "0303-06-02",
+            "kanshi0" : 10,
+            "kanshi_label" : "甲戌",
+            "mjd" : -568120,
+            "nongli_tiger" : "0303-05-01"
+         },
+         "next_era_ids" : {
+            "595" : 1
+         },
+         "prev_era_ids" : {
+            "1168" : 1
+         },
+         "relevant_era_ids" : {
+            "1168" : {
+            },
+            "595" : {
+            }
+         },
+         "subject_tag_ids" : {
+            "1748" : 1
+         },
+         "tag_ids" : {
+            "1008" : "中国",
+            "1144" : "晋",
+            "1146" : "西晋",
+            "1150" : "漢",
+            "1182" : "制定",
+            "1189" : "支那改元日",
+            "1278" : "適用開始",
+            "1324" : "改元日",
+            "1359" : "起事建元",
+            "1360" : "適用開始予定",
+            "1713" : "司馬晋",
+            "1748" : "張昌",
+            "1749" : "漢 (張昌)"
+         },
+         "type" : "firstday"
+      },
+      {
+         "action_tag_id" : 1226,
+         "day_end" : {
+            "gregorian" : "0303-09-28",
+            "jd" : 1831997.5,
+            "julian" : "0303-09-27",
+            "kanshi0" : 7,
+            "kanshi_label" : "辛未",
+            "mjd" : -568003,
+            "nongli_tiger" : "0303-08-30"
+         },
+         "day_start" : {
+            "gregorian" : "0303-08-30",
+            "jd" : 1831968.5,
+            "julian" : "0303-08-29",
+            "kanshi0" : 38,
+            "kanshi_label" : "壬寅",
+            "mjd" : -568032,
+            "nongli_tiger" : "0303-08-01"
+         },
+         "next_era_ids" : {
+            "1168" : 1
+         },
+         "object_tag_ids" : {
+            "1748" : 1,
+            "1749" : 1
+         },
+         "prev_era_ids" : {
+            "595" : 1
+         },
+         "relevant_era_ids" : {
+            "1168" : {
+            },
+            "595" : {
+            }
+         },
+         "subject_tag_ids" : {
+            "1146" : 1
+         },
+         "tag_ids" : {
+            "1008" : "中国",
+            "1144" : "晋",
+            "1146" : "西晋",
+            "1150" : "漢",
+            "1196" : "死去",
+            "1226" : "陥落",
+            "1230" : "戦時異動",
+            "1296" : "進攻",
+            "1713" : "司馬晋",
+            "1748" : "張昌",
+            "1749" : "漢 (張昌)"
+         },
+         "type" : "wartime"
       },
       {
          "day" : {
@@ -5112,6 +5513,153 @@
             "1737" : "司馬奕"
          },
          "type" : "triggering"
+      },
+      {
+         "action_tag_id" : 1275,
+         "day_end" : {
+            "gregorian" : "0370-10-06",
+            "jd" : 1856477.5,
+            "julian" : "0370-10-05",
+            "kanshi0" : 7,
+            "kanshi_label" : "辛未",
+            "mjd" : -543523,
+            "nongli_tiger" : "0370-08-29"
+         },
+         "day_start" : {
+            "gregorian" : "0370-09-08",
+            "jd" : 1856449.5,
+            "julian" : "0370-09-07",
+            "kanshi0" : 39,
+            "kanshi_label" : "癸卯",
+            "mjd" : -543551,
+            "nongli_tiger" : "0370-08-01"
+         },
+         "next_era_ids" : {
+            "1432" : 1
+         },
+         "prev_era_ids" : {
+            "868" : 1
+         },
+         "relevant_era_ids" : {
+            "1432" : {
+               "until_first_day" : 0
+            },
+            "868" : {
+            }
+         },
+         "subject_tag_ids" : {
+            "1751" : 1
+         },
+         "tag_ids" : {
+            "1008" : "中国",
+            "1144" : "晋",
+            "1148" : "東晋",
+            "1191" : "事由",
+            "1275" : "蜂起",
+            "1713" : "司馬晋",
+            "1751" : "李弘"
+         },
+         "type" : "triggering"
+      },
+      {
+         "action_tag_id" : 1189,
+         "day_end" : {
+            "gregorian" : "0370-10-06",
+            "jd" : 1856477.5,
+            "julian" : "0370-10-05",
+            "kanshi0" : 7,
+            "kanshi_label" : "辛未",
+            "mjd" : -543523,
+            "nongli_tiger" : "0370-08-29"
+         },
+         "day_start" : {
+            "gregorian" : "0370-09-08",
+            "jd" : 1856449.5,
+            "julian" : "0370-09-07",
+            "kanshi0" : 39,
+            "kanshi_label" : "癸卯",
+            "mjd" : -543551,
+            "nongli_tiger" : "0370-08-01"
+         },
+         "next_era_ids" : {
+            "1432" : 1
+         },
+         "prev_era_ids" : {
+            "868" : 1
+         },
+         "relevant_era_ids" : {
+            "1432" : {
+            },
+            "868" : {
+            }
+         },
+         "subject_tag_ids" : {
+            "1751" : 1
+         },
+         "tag_ids" : {
+            "1008" : "中国",
+            "1144" : "晋",
+            "1148" : "東晋",
+            "1182" : "制定",
+            "1189" : "支那改元日",
+            "1278" : "適用開始",
+            "1324" : "改元日",
+            "1359" : "起事建元",
+            "1360" : "適用開始予定",
+            "1713" : "司馬晋",
+            "1751" : "李弘"
+         },
+         "type" : "firstday"
+      },
+      {
+         "action_tag_id" : 1226,
+         "day_end" : {
+            "gregorian" : "0370-11-05",
+            "jd" : 1856507.5,
+            "julian" : "0370-11-04",
+            "kanshi0" : 37,
+            "kanshi_label" : "辛丑",
+            "mjd" : -543493,
+            "nongli_tiger" : "0370-09-30"
+         },
+         "day_start" : {
+            "gregorian" : "0370-10-07",
+            "jd" : 1856478.5,
+            "julian" : "0370-10-06",
+            "kanshi0" : 8,
+            "kanshi_label" : "壬申",
+            "mjd" : -543522,
+            "nongli_tiger" : "0370-09-01"
+         },
+         "next_era_ids" : {
+            "868" : 1
+         },
+         "object_tag_ids" : {
+            "1751" : 1
+         },
+         "prev_era_ids" : {
+            "1432" : 1
+         },
+         "relevant_era_ids" : {
+            "1432" : {
+            },
+            "868" : {
+            }
+         },
+         "subject_tag_ids" : {
+            "1148" : 1
+         },
+         "tag_ids" : {
+            "1008" : "中国",
+            "1144" : "晋",
+            "1148" : "東晋",
+            "1226" : "陥落",
+            "1230" : "戦時異動",
+            "1296" : "進攻",
+            "1713" : "司馬晋",
+            "1751" : "李弘"
+         },
+         "type" : "wartime"
       },
       {
          "day" : {
