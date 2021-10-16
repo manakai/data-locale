@@ -166,6 +166,7 @@ sub year2kanshi0 ($) {
 
 my $KMaps = {};
 my $GToKMapKey = {
+  晋 => 'gishin',
   隋 => 'zuitou',
   唐 => 'zuitou',
   宋 => 'sou',
@@ -436,6 +437,8 @@ sub ssday ($$) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '宋', $y, $m, $d;
     } elsif ($y >= 581) { # 隋, 唐
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '唐', $y, $m, $d;
+    } elsif ($y >= 265) {
+      $day->{nongli_tiger} = ymmd2string gymd2nymmd '晋', $y, $m, $d;
     }
   }
 
@@ -524,7 +527,7 @@ sub parse_date ($$;%) {
       push @jd, gymd2jd $1, $2, $3;
     } elsif ($v =~ s{^j:([0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
       push @jd, jymd2jd $1, $2, $3;
-    } elsif ($v =~ s{^(隋|唐|宋|元|明|清|中華人民共和国):([0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
+    } elsif ($v =~ s{^(晋|隋|唐|宋|元|明|清|中華人民共和国):([0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
       push @jd, nymmd2jd $1, $2, $4, $5, $6;
       push @jd, nymmk2jd $1, $2, $4, $5, $7;
       if (defined $3) {
@@ -534,11 +537,11 @@ sub parse_date ($$;%) {
           die "Year mismatch ($ky1 vs $ky2) |$all|";
         }
       }
-    } elsif ($v =~ s{^(隋|唐|宋|元|明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(晋|隋|唐|宋|元|明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
       push @jd, nymmd2jd $1, $2, $3, $4, $5;
-    } elsif ($v =~ s{^(隋|唐|宋|元|明|清|中華人民共和国):([0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
+    } elsif ($v =~ s{^(晋|隋|唐|宋|元|明|清|中華人民共和国):([0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
       push @jd, nymmk2jd $1, $2, $3, $4, $5;
-    } elsif ($v =~ s{^(隋|唐|宋|元|明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)\s*}{}) {
+    } elsif ($v =~ s{^(晋|隋|唐|宋|元|明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, $2, $3, $4, 1;
       } elsif ($args{end}) {
@@ -560,7 +563,7 @@ sub parse_date ($$;%) {
       } else {
         die "Bad date |$v| ($all)";
       }
-    } elsif ($v =~ s{^(隋|唐|宋|元|明|清|中華人民共和国|k):([0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(晋|隋|唐|宋|元|明|清|中華人民共和国|k):([0-9]+)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, $2, 1, '', 1;
       } elsif ($args{end}) {
@@ -891,7 +894,8 @@ for (@$Transitions) {
     }
   } elsif ($x->{tag_ids}->{1124}) { # 実施中止
     $type = 'canceled';
-  } elsif ($x->{tag_ids}->{1121}) { # 建元撤回
+  } elsif ($x->{tag_ids}->{1121} or # 建元撤回
+           $x->{tag_ids}->{1739}) { # 改元撤回
     $type = 'canceled';
   } elsif ($x->{tag_ids}->{1191}) { # 事由
     $type = 'triggering';

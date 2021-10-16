@@ -37,6 +37,10 @@
 %tag   region of 漢土
 
 %tag region
+%tag   name_ja 建康
+%tag   period of 南京
+
+%tag region
 %tag   name_ja 長安
 %tag   region of 漢土
 
@@ -95,7 +99,13 @@
 %tag   name_ja 漢民族
 
 %tag action
-%tag   label_ja 支那改元日
+%tag   name_ja 支那改元日
+%tag   group of 改元日
+%tag   group of 制定
+%tag   group of 適用開始
+
+%tag action
+%tag   name_ja 支那改元詔
 %tag   group of 改元日
 %tag   group of 制定
 %tag   group of 適用開始
@@ -178,6 +188,10 @@
 %tag position
 %tag   name_ja 宋皇帝
 %tag   group of 支那皇帝
+
+%tag region
+%tag   name_ja 趙
+%tag   region of 漢土
 
 %tag region
 %tag   name_ja 秦

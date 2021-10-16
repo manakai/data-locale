@@ -30,7 +30,7 @@ The data type [tag-type] is one of followings:
 
   action
 
-    A type of action.
+    A type or class of action or event.
 
   calendar
 
@@ -42,7 +42,9 @@ The data type [tag-type] is one of followings:
 
   event
 
-    An event such as political change and war.
+    An event such as political change and war.  Note that a tag whose
+    |type| is |event| is an instance, not a class of instances (see
+    also |action|).
 
   law
 

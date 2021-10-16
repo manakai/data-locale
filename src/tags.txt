@@ -265,6 +265,9 @@ action
   name_ja 退位
 
 action
+  name_ja 禅譲
+
+action
   name_ja 死去
 
 action
@@ -442,9 +445,13 @@ action
 
 action
   name_ja 建元撤回
+  group of 改元撤回
 
 action
   name_ja 建元撤回撤回
+
+action
+  name_ja 改元撤回
 
 action
   name_ja 新規称元
@@ -504,34 +511,37 @@ action
   name_ja 撤退
   group of 戦時異動
 
-event
+action
+  name_ja 元服
+
+action
   name_ja 祥瑞
   group of 事由
 
-event
+action
   name_ja 鳳祥瑞
   group of 祥瑞
 
-event
+action
   name_ja 竜祥瑞
   group of 祥瑞
 
-event
+action
   name_ja 雲祥瑞
   group of 祥瑞
 
-event
+action
   name_ja 災異
   group of 事由
 
-event
+action
   name_ja 星災異
   group of 災異
 
-event
+action
   name_ja 天象
 
-event
+action
   name_ja 天象災異
   group of 天象
   group of 事由
