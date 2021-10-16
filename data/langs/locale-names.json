@@ -2975,6 +2975,10 @@
          "cldr" : "hsb_DE",
          "native_name" : "hornjoserbšćina (Němska)"
       },
+      "hsn" : {
+         "bcp47_canonical" : "hsn",
+         "mediawiki" : "hsn"
+      },
       "ht" : {
          "bcp47_canonical" : "ht",
          "mediawiki" : "ht"
@@ -3718,6 +3722,10 @@
          "bcp47_canonical" : "ksh-DE",
          "cldr" : "ksh_DE",
          "native_name" : "Kölsch (Doütschland)"
+      },
+      "ksw" : {
+         "bcp47_canonical" : "ksw",
+         "mediawiki" : "ksw"
       },
       "ku" : {
          "bcp47_canonical" : "ku",
@@ -5364,6 +5372,14 @@
          "cldr" : "si_LK",
          "facebook" : "si_LK",
          "native_name" : "සිංහල (ශ්‍රී ලංකාව)"
+      },
+      "sjd" : {
+         "bcp47_canonical" : "sjd",
+         "mediawiki" : "sjd"
+      },
+      "sje" : {
+         "bcp47_canonical" : "sje",
+         "mediawiki" : "sje"
       },
       "sk" : {
          "bcp47_canonical" : "sk",
