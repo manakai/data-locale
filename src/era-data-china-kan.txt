@@ -1927,6 +1927,7 @@ name_kana こう へい
 [建安]
 #y~651
 AD196 = 1
+tag 三国時代
 tag 後漢
 tag 前漢の公年号
 tag 漢土
@@ -1971,10 +1972,13 @@ u 26
 u 27
 u 28
 
+tag 曹操
+tag 劉備
 
 [延康]
 #y~487
 AD220 = 1
+tag 三国時代
 tag 後漢
 tag 前漢の公年号
 tag 漢土
@@ -1995,10 +1999,15 @@ u 1-3
 #-> 魏 1-10-辛未 禅譲
 u 1-10
 
+s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B702>"延康元年"
+s+
+#改建安二十五年爲延康元年。
+
 
 %tag country
 %tag   name_ja 蜀
 %tag   period of 漢
+%tag   period of 中国
 
 %tag tag
 %tag   name_ja 蜀の公年号
@@ -2007,10 +2016,15 @@ u 1-10
 [章武]
 #y~1275
 AD221 = 1
+tag 三国時代
 tag 蜀
 tag 蜀の公年号
 tag 漢土
 tag 漢民族
+
+%tag person
+%tag   name_ja 劉備
+tag 劉備
 
 ## [102]
 name_tw 章武
@@ -2023,13 +2037,35 @@ name_kana しょう ぶ
 # 221-4 - 223-4
 #<-建安 建安26
 
+s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B732>"即皇帝位"
+<-建安 漢:221-4-6(丙午) j:221-5-15 #建元前の即位{#蜀 #劉備 #漢皇帝}
+s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B732>"章武元年"
+<-建安 [漢:221-4-丙午,漢:221-4] #支那改元日{#蜀 #劉備}
+s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B732>"先主殂"
+#->建興 漢:223-4-癸巳 #改元前の死去{#蜀 #劉備}
+# no such day
+
+## 二十五史干支通検
+->建興 漢:223-5-6(癸巳) #改元前の死去{#蜀 #劉備} #異説
+
+## <https://ja.wikipedia.org/wiki/%E5%8A%89%E5%82%99>
+->建興 漢:223-4-24 j:223-6-10 #改元前の死去{#蜀 #劉備}
+## <https://zh.wikipedia.org/wiki/%E5%88%98%E5%A4%87>
+# -4-24 223-6-10
+
+
 [建興]
 #y~124
 AD223 = 1
+tag 三国時代
 tag 蜀
 tag 蜀の公年号
 tag 漢土
 tag 漢民族
+
+%tag person
+%tag   name_ja 劉禅
+tag 劉禅
 
 ## [102]
 name_tw 建興
@@ -2042,13 +2078,24 @@ name_kana けん こう
 # 223-5 - 237-12
 #<-章武 223-5
 
+s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B732>"三年夏四月"
+#<-章武 [漢:223-4] #改元前の死去{#蜀 #劉備}
+<-章武 [漢:223-5] #建元前の即位{#蜀 #劉禅 #漢皇帝} #異説
+<-章武 [漢:223-5] #支那改元日{#蜀 #劉禅}
+
+## <https://ja.wikipedia.org/wiki/%E5%8A%89%E7%A6%85>
+<-章武 漢:223-4-24 j:223-6-10 #建元前の即位{#蜀 #劉禅 #漢皇帝}
+
 [延熙]
 #y~226
 AD238 = 1
+tag 三国時代
 tag 蜀
 tag 蜀の公年号
 tag 漢土
 tag 漢民族
+
+tag 劉禅
 
 ## [102]
 name_tw 延熙
@@ -2059,13 +2106,20 @@ wref_ja 延熙 (蜀)
 name_ja 延熙
 name_kana えん き
 
+s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B732>"延熙元年"
+name 延熙
+<-建興 [漢:238-1] #支那改元日{#蜀 #劉禅}
+
 [景耀]
 #y~36
 AD258 = 1
+tag 三国時代
 tag 蜀
 tag 蜀の公年号
 tag 漢土
 tag 漢民族
+
+tag 劉禅
 
 ## [102]
 name_tw 景耀
@@ -2077,13 +2131,21 @@ name_ja 景耀
 name_kana けい よう
 # 258-1 - 263-7
 
+s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B732>"景耀元年"
+name 景耀
+<-延熙 [漢:258-1] #景星祥瑞{#蜀 #劉禅}
+<-延熙 [漢:258-1] #支那改元日{#蜀 #劉禅}
+
 [炎興]
 #y~1425
 AD263 = 1
+tag 三国時代
 tag 蜀
 tag 蜀の公年号
 tag 漢土
 tag 漢民族
+
+tag 劉禅
 
 ## [102]
 name_tw 炎興
@@ -2094,3 +2156,10 @@ wref_ja 炎興
 name_ja 炎興
 name_kana えん こう
 # 263-8 - 263-11
+<-景耀 [漢:263-8] #支那改元日{#蜀 #劉禅}
+
+s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B732>"改元為炎興"
+#<-景耀 [漢:263-夏] #支那改元日{#蜀 #劉禅}
+
+## <https://ja.wikipedia.org/wiki/%E5%8A%89%E7%A6%85>
+->景元 漢:263-11-6 j:263-12-23 #陥落{#曹魏, #蜀 #劉禅}

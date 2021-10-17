@@ -531,6 +531,10 @@ action
   group of 祥瑞
 
 action
+  name_ja 景星祥瑞
+  group of 祥瑞
+
+action
   name_ja 災異
   group of 事由
 

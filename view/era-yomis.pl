@@ -260,7 +260,7 @@ for my $era (sort {
   ($a->{start_year} || 0+"Inf") <=> ($b->{start_year} || 0+"Inf") ||
   $a->{id} <=> $b->{id};
 } values %{$Data->{eras}}) {
-  printf qq{<tr><th><a href=https://data.suikawiki.org/e/%d/><code>y~%s</code></a><p class=info>(<code>%s</code>)<p class=info>[%s]\n},
+  printf qq{\x0A<tr><th><a href=https://data.suikawiki.org/e/%d/><code>y~%s</code></a><p class=info>(<code>%s</code>)<p class=info>[%s]\x0A},
       $era->{id},
       $era->{id},
       $era->{key},

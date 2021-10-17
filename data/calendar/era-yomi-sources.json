@@ -817,7 +817,7 @@
          "missing_yomis" : [
          ],
          "name" : "甘露",
-         "start_year" : null,
+         "start_year" : 256,
          "yomis" : {
             "6100" : [
                "かん ろ"
@@ -5110,7 +5110,7 @@
          "missing_yomis" : [
          ],
          "name" : "青竜",
-         "start_year" : null,
+         "start_year" : 233,
          "yomis" : {
             "6100" : [
                "せい りゅう"
@@ -8673,7 +8673,7 @@
          "missing_yomis" : [
          ],
          "name" : "建興",
-         "start_year" : null,
+         "start_year" : 223,
          "yomis" : {
             "6100" : [
                "けん こう"
@@ -9480,7 +9480,7 @@
          "missing_yomis" : [
          ],
          "name" : "章武",
-         "start_year" : null,
+         "start_year" : 221,
          "yomis" : {
             "6100" : [
                "しょう ぶ"
@@ -12549,7 +12549,7 @@
          "missing_yomis" : [
          ],
          "name" : "景初",
-         "start_year" : null,
+         "start_year" : 237,
          "yomis" : {
             "6100" : [
                "けい しょ"
@@ -12747,7 +12747,7 @@
          "missing_yomis" : [
          ],
          "name" : "太和",
-         "start_year" : null,
+         "start_year" : 227,
          "yomis" : {
             "6100" : [
                "たい わ"
@@ -13692,7 +13692,7 @@
          "missing_yomis" : [
          ],
          "name" : "炎興",
-         "start_year" : null,
+         "start_year" : 263,
          "yomis" : {
             "6100" : [
                "えん こう"
@@ -14418,7 +14418,7 @@
          "missing_yomis" : [
          ],
          "name" : "正元",
-         "start_year" : null,
+         "start_year" : 254,
          "yomis" : {
             "6100" : [
                "せい げん"
@@ -25448,7 +25448,7 @@
          "missing_yomis" : [
          ],
          "name" : "延熙",
-         "start_year" : null,
+         "start_year" : 238,
          "yomis" : {
             "6100" : [
                "えん き"
@@ -29217,7 +29217,7 @@
          "missing_yomis" : [
          ],
          "name" : "景耀",
-         "start_year" : null,
+         "start_year" : 258,
          "yomis" : {
             "6100" : [
                "けい よう"
@@ -29255,7 +29255,7 @@
          "missing_yomis" : [
          ],
          "name" : "景元",
-         "start_year" : null,
+         "start_year" : 260,
          "yomis" : {
             "6100" : [
                "けい げん"
@@ -31807,7 +31807,7 @@
          "missing_yomis" : [
          ],
          "name" : "黄初",
-         "start_year" : null,
+         "start_year" : 220,
          "yomis" : {
             "6100" : [
                "こう しょ"
@@ -34129,7 +34129,7 @@
          "missing_yomis" : [
          ],
          "name" : "延康",
-         "start_year" : null,
+         "start_year" : 220,
          "yomis" : {
             "6100" : [
                "えん こう"
@@ -36468,7 +36468,7 @@
          "missing_yomis" : [
          ],
          "name" : "嘉平",
-         "start_year" : null,
+         "start_year" : 249,
          "yomis" : {
             "6100" : [
                "か へい"
@@ -43848,7 +43848,7 @@
          "missing_yomis" : [
          ],
          "name" : "正始",
-         "start_year" : null,
+         "start_year" : 240,
          "yomis" : {
             "6100" : [
                "せい し"

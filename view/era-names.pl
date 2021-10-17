@@ -247,7 +247,7 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
   
   for (0..$#$lses) {
     my $ls = $lses->[$_];
-    print q{<tr>};
+    print qq{\x0A<tr>};
     if (not @{$ls->{labels}}) {
       print q{<v-error>ERROR: <code>labels</code> is empty</v-error>};
     }
@@ -256,7 +256,7 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
         $_;
     for (0..$#{$ls->{labels}}) {
       my $label = $ls->{labels}->[$_];
-      print q{<tr>} unless $_ == 0;
+      print qq{\x0A<tr>} unless $_ == 0;
       printf q{<th rowspan="%d">%d},
           0+@{[ map { (1,1) } @{$label->{form_groups}} ]},
           $_;
@@ -267,7 +267,7 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
       if (@{$label->{form_groups}}) {
         for (0..$#{$label->{form_groups}}) {
           my $rep = $label->{form_groups}->[$_];
-          print q{<tr>} unless $_ == 0;
+          print qq{\x0A<tr>} unless $_ == 0;
 
           printf q{<td><p>form group [<code>%s</code>]},
               htescape $rep->{form_group_type};
@@ -442,7 +442,7 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
             }
           }
           
-          printf q{<tr><td class=source>%s},
+          printf qq{\x0A<tr><td class=source>%s},
               perl2json_chars_for_record $rep;
         }
       } else {

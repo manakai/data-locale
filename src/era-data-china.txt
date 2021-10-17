@@ -100,14 +100,22 @@
 
 %tag action
 %tag   name_ja 支那改元日
-%tag   group of 改元日
 %tag   group of 制定
-%tag   group of 適用開始
+%tag   group of 支那改元実施
 
 %tag action
 %tag   name_ja 支那改元詔
 %tag   group of 改元日
+%tag   group of 適用開始
+%tag   group of 支那改元決定詔
+
+%tag action
+%tag   name_ja 支那改元決定詔
 %tag   group of 制定
+
+%tag action
+%tag   name_ja 支那改元実施
+%tag   group of 改元日
 %tag   group of 適用開始
 
 %tag position
@@ -133,6 +141,10 @@
 %tag region
 %tag   name_ja 魏
 %tag   region of 漢土
+
+%tag position
+%tag   name_ja 魏皇帝
+%tag   group of 支那皇帝
 
 %tag region
 %tag   name_ja 呉
