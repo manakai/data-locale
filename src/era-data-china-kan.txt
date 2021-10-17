@@ -1942,7 +1942,7 @@ u 25-2
 tag 蜀
 u 26
 #
-tag 呉
+tag 孫呉
 #->延康 ->黃初
 #<-黃初
 u 27
@@ -1965,15 +1965,21 @@ u 26
 
 ## <https://zh.wikipedia.org/wiki/%E9%BB%84%E5%88%9D>
 tag 蜀
-tag 呉
+tag 孫呉
 ## <https://web.archive.org/web/20120104144951/http://xiangyata.net/data/articles/e01/185.html>
 u 25
 u 26
 u 27
 u 28
 
+tag 曹魏
 tag 曹操
+
+tag 蜀
 tag 劉備
+
+tag 孫呉
+tag 孫権
 
 [延康]
 #y~487
@@ -2002,6 +2008,13 @@ u 1-10
 s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B702>"延康元年"
 s+
 #改建安二十五年爲延康元年。
+
+s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B747>"改年爲延康"
+#<-建安 [漢:220-1] #支那改元日
+s+
+
+tag 曹魏
+tag 魏文帝
 
 
 %tag country
@@ -2078,6 +2091,8 @@ name_kana けん こう
 # 223-5 - 237-12
 #<-章武 223-5
 
+name(kr) 건흥
+
 s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B732>"三年夏四月"
 #<-章武 [漢:223-4] #改元前の死去{#蜀 #劉備}
 <-章武 [漢:223-5] #建元前の即位{#蜀 #劉禅 #漢皇帝} #異説
@@ -2105,6 +2120,8 @@ name_cn 延熙
 wref_ja 延熙 (蜀)
 name_ja 延熙
 name_kana えん き
+
+name(kr) 연희
 
 s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B732>"延熙元年"
 name 延熙

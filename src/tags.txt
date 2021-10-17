@@ -67,9 +67,6 @@ country
   period of 朝鮮
 
 region
-  name_ja 朝鮮
-
-region
   name_ja 大東亜共栄圏
 
 country
@@ -523,6 +520,10 @@ action
   group of 祥瑞
 
 action
+  name_ja 麒麟祥瑞
+  group of 祥瑞
+
+action
   name_ja 竜祥瑞
   group of 祥瑞
 
@@ -532,6 +533,14 @@ action
 
 action
   name_ja 景星祥瑞
+  group of 祥瑞
+
+action
+  name_ja 甘露祥瑞
+  group of 祥瑞
+
+action
+  name_ja 鼎祥瑞
   group of 祥瑞
 
 action
