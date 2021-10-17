@@ -1,0 +1,2165 @@
+## Sources:
+## [102] zh.wikipedia era pages
+## [103] ja.wikipedia era pages
+## [104] 中国歴代年号考 修訂本
+
+%tag country
+%tag   label_ja 両漢
+%tag   name_ja 漢
+%tag   period of 漢
+%tag   period of 中国
+
+%tag tag
+%tag   name_ja 漢の公年号
+%tag   group of 中華王朝の公年号
+
+%tag country
+%tag   name_ja 前漢
+%tag   group of 漢
+
+%tag tag
+%tag   name_ja 前漢の公年号
+%tag   group of 漢の公年号
+
+def[漢]
+#y~1849
+tag 前漢
+tag 漢土
+tag 漢民族
+name_tw 漢
+name_cn 汉
+name_ja 漢
+&
+name_tw 高帝劉邦
+&
+name_tw 高祖
+name_cn 高祖
+&
+name_ja 漢高祖
+name_cn 汉高祖
+&
+name_ja 漢高帝
+name_cn 汉高帝
+&
+name_ja 前漢高祖
+&
+name_cn 西汉高祖
+&
+name_tw 劉邦
+name_cn 刘邦
+&
+name_cn 汉刘邦
+&
+name_tw 漢王劉邦
+name_cn 汉王刘邦
+&
+name_tw 漢王
+name_cn 汉王
+&
+name_tw 漢高祖劉邦
+&
+name_tw 漢高帝劉邦
+&
+name_cn 武安侯刘邦
+&
+name_tw 漢王邦元年
+name_cn 汉王邦元年
+
+## [102]
+wref_zh 刘邦
+BC206 = 1
+u 1
+u 12
+
+def[恵帝]
+## Source:
+sw 孝惠
+tag 前漢
+tag 漢土
+tag 漢民族
+name_ja 恵帝
+&
+name_tw 孝惠皇帝
+&
+name_ja 孝恵帝
+&
+name_ja 孝恵
+name_tw 孝惠
+&
+name_ja 漢恵帝
+name_tw 漢惠帝
+name_cn 汉惠帝
+&
+name_tw 西漢惠帝
+
+## [102]
+wref_zh 汉惠帝
+BC194 = 1
+u 1
+u 7
+
+def[呂后]
+## Source:
+sw 呂后
+#
+tag 前漢
+tag 漢土
+tag 漢民族
+
+BC187 = 1
+u 1
+# 8 (BC180-8-18) 没
+u 8
+
+name_ja 呂后
+name_tw 呂后
+&
+name_tw 高后
+&
+name_ja 高皇后
+
+def[前少帝]
+tag 前漢
+tag 漢土
+tag 漢民族
+name_tw 前少帝
+&
+name_cn 汉前少帝
+&
+name_tw 少帝
+&
+name_cn 汉少帝
+
+## [102]
+wref_zh 西汉前少帝
+BC187 = 1
+u 1
+u 4
+
+def[後少帝]
+tag 前漢
+tag 漢土
+tag 漢民族
+name_tw 後少帝
+
+## [102]
+wref_zh 劉弘
+BC184 = 1
+u 1
+u 4
+
+def[漢文帝前]
+## Source:
+sw 文帝前
+#
+tag 前漢
+tag 漢土
+tag 漢民族
+tag 前元
+
+wref_ja 文帝 (漢)
+
+## [102]
+wref_zh 汉文帝
+BC179 = 1
+u 1
+u 16
+name_tw 漢文帝
+name_cn 汉文帝
+
+name_ja 漢文帝
+&
+name_ja 文帝
+name_tw 文帝
+name_cn 文帝
+&
+name_tw 文帝前
+name_ja 文帝前
+&
+name_tw 前
+name_cn 前
+
+def[漢文帝後]
+## Source:
+sw 文帝後
+#
+tag 前漢
+tag 漢土
+tag 漢民族
+tag 後元
+
+## [102]
+wref_zh 汉文帝
+BC163 = 1
+u 1
+u 7
+name_tw 後
+name_cn 后
+
+## [103]
+wref_ja 文帝 (漢)
+name_ja 後
+
+def[漢景帝前]
+## Source:
+sw 景帝前
+#
+tag 前漢
+tag 漢土
+tag 漢民族
+tag 前元
+
+name_ja 景帝前
+name_tw 景帝前
+name_cn 景帝前
+&
+
+## [102]
+wref_zh 汉景帝
+BC156 = 1
+u 1
+u 7
+name_tw 景帝前元
+name_cn 景帝前元
+&
+name_cn 汉景帝前元
+
+&
+name_ja 景帝
+
+def[漢景帝中]
+## Source:
+sw 景帝中
+#
+tag 前漢
+tag 漢土
+tag 漢民族
+tag 中元
+BC149 = 1
+u 1
+u 6
+
+name_ja 景帝中
+&
+name_ja 景帝中元
+name_tw 景帝中元
+&
+name_tw 中元
+name_cn 中元
+&
+
+## [102]
+wref_zh 汉景帝
+name_tw 中
+name_cn 中
+
+def[漢景帝後]
+## Source:
+sw 景帝後
+#
+tag 前漢
+tag 漢土
+tag 漢民族
+tag 後元
+
+name_ja 景帝後元
+&
+
+## [102]
+wref_zh 汉景帝
+BC143 = 1
+u 1
+u 3
+name_tw 後
+name_cn 后
+
+[建元]
+#y~332
+AD-140 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建元
+name_cn 建元
+
+## [103]
+wref_ja 建元 (漢)
+name_ja 建元
+name_kana けん げん
+tag 追号説のある元号
+
+&&
+## [102]
+name_tw 一元
+name_cn 一元
+
+[元光]
+#y~259
+AD-134 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元光
+name_cn 元光
+
+## [103]
+wref_ja 元光 (漢)
+name_ja 元光
+name_kana げん こう
+tag 追号説のある元号
+
+&&
+## [102]
+name_tw 二元
+name_cn 二元
+
+[元朔]
+#y~427
+AD-128 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元朔
+name_cn 元朔
+
+## [103]
+wref_ja 元朔
+name_ja 元朔
+name_kana げん さく
+tag 追号説のある元号
+
+&&
+## [102]
+name_tw 三元
+name_cn 三元
+
+[元狩]
+#y~1523
+AD-122 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元狩
+name_cn 元狩
+#<-元朔 元狩元年十月
+
+## [103]
+wref_ja 元狩
+name_ja 元狩
+name_kana げん しゅ
+tag 追号説のある元号
+
+&&
+## [102]
+name_tw 四元
+name_cn 四元
+#四元七年正月甲寅造
+u 7-1
+
+[元鼎]
+#y~1560
+AD-116 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+tag 追号説のある元号
+
+## [102]
+name_tw 元鼎
+name_cn 元鼎
+
+## [103]
+wref_ja 元鼎
+name_ja 元鼎
+name_kana げん てい
+
+&&
+## [102]
+name_tw 五元
+name_cn 五元
+
+[元封]
+#y~767
+AD-110 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元封
+name_cn 元封
+#<-元鼎 1-十月
+tag 追号説のある元号
+
+## [103]
+wref_ja 元封 (漢)
+name_ja 元封
+name_kana げん ぽう
+u 1
+u 7
+
+[太初]
+#y~503
+AD-104 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 太初
+name_cn 太初
+
+## [103]
+wref_ja 太初 (漢)
+name_ja 太初
+name_kana たい しょ
+
+[天漢]
+#y~1211
+AD-100 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 天漢
+name_cn 天汉
+
+## [103]
+wref_ja 天漢 (漢)
+name_ja 天漢
+name_kana てん かん
+
+[太始]
+#y~1486
+AD-96 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 太始
+name_cn 太始
+
+## [103]
+wref_ja 太始 (漢)
+name_ja 太始
+name_kana たい し
+
+[征和]
+#y~1464
+AD-92 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 征和
+name_cn 征和
+#居延漢簡
+#征和五年正月庚申朔庚
+u 5
+#[後元]元年九月丙戌朔丙戌
+
+## [103]
+wref_ja 征和
+name_ja 征和
+name_kana せい わ
+&
+name_ja 延和
+
+## [102]
+name_tw 延和
+name_cn 延和
+
+[後元]
+#y~1709
+AD-88 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 後元
+name_cn 后元
+u 1-9
+tag 追号説のある元号
+tag 後元
+
+## [103]
+wref_ja 後元
+name_ja 後元
+name_kana こう げん
+
+&
+## [102]
+name_tw 後
+name_cn 后
+#
+#有说"征和后元"
+
+[始元]
+#y~1412
+AD-86 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 始元
+name_cn 始元
+
+
+## [103]
+wref_ja 始元 (漢)
+name_ja 始元
+name_kana し げん
+# BC86 - BC80-7
+
+[元鳳]
+#y~531
+AD-80 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元鳳
+name_cn 元凤
+#<-始元 BC80-8
+
+## [103]
+wref_ja 元鳳
+name_ja 元鳳
+name_kana げん ぽう
+#BC80-8 - BC75
+#<-始元 BC80-8
+
+[元平]
+#y~829
+AD-74 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元平
+name_cn 元平
+
+## [103]
+wref_ja 元平
+name_ja 元平
+name_kana げん ぺい
+
+[本始]
+#y~894
+AD-73 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 本始
+name_cn 本始
+u 1
+u 4
+u 6-5-14
+
+## [103]
+wref_ja 本始
+name_ja 本始
+name_kana ほん し
+
+[地節]
+#y~527
+AD-69 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 地節
+name_cn 地节
+#<-本始 地節2
+
+## [103]
+wref_ja 地節
+name_ja 地節
+name_kana ち せつ
+
+[元康]
+#y~1014
+AD-65 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元康
+name_cn 元康
+# BC65 - BC61-2
+u 1
+#->神爵 5-3
+u 5-2
+u 5-3
+#5-5-2壬子
+u 5-5-2
+
+## [103]
+wref_ja 元康 (漢)
+name_ja 元康
+name_kana げん こう
+# BC65 - BC61-2
+
+[神爵]
+#y~548
+AD-61 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 神爵
+name_cn 神爵
+# BC61-3 - BC58
+#<-元康 BC61-2
+#<-元康 BC61-3
+
+## [103]
+wref_ja 神爵
+name_ja 神爵
+name_kana しん しゃく
+# BC61-3 - BC58
+
+[五鳳]
+#y~118
+AD-57 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 五鳳
+name_cn 五凤
+
+## [103]
+wref_ja 五鳳 (漢)
+name_ja 五鳳
+name_kana ご ほう
+
+[甘露]
+#y~896
+AD-53 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 甘露
+name_cn 甘露
+#<-五鳳 BC53-4
+
+## [103]
+wref_ja 甘露 (漢)
+name_ja 甘露
+name_kana かん ろ
+
+[黃龍]
+#y~1314
+AD-49 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 黃龍
+name_cn 黄龙
+
+name_ja 黄竜
+
+## [103]
+wref_ja 黄龍 (漢)
+name_ja 黄龍
+name_kana こう りょう
+name_kana こう りゅう
+
+[初元]
+#y~227
+AD-48 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 初元
+name_cn 初元
+
+## [103]
+wref_ja 初元
+name_ja 初元
+name_kana しょ げん
+
+[永光]
+#y~1673
+AD-43 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永光
+name_cn 永光
+
+## [103]
+wref_ja 永光 (漢)
+name_ja 永光
+name_kana えい こう
+
+[建昭]
+#y~216
+AD-38 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建昭
+name_cn 建昭
+#<-永光 BC39-[7,8]
+
+## [103]
+wref_ja 建昭
+name_ja 建昭
+name_kana けん しょう
+
+[竟寧]
+#y~1086
+AD-33 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 竟寧
+name_cn 竟宁
+
+## [103]
+wref_ja 竟寧
+name_ja 竟寧
+name_kana きょう ねい
+
+[建始]
+#y~1310
+AD-32 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建始
+name_cn 建始
+
+## [103]
+wref_ja 建始 (漢)
+name_ja 建始
+name_kana けん し
+# BC32 - BC28-2
+
+[河平]
+#y~464
+AD-28 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 河平
+name_cn 河平
+#<-建始 BC28-2
+#<-建始 BC28-3
+
+## [103]
+wref_ja 河平
+name_ja 河平
+name_kana か へい
+# BC28-3 - BC25
+
+[陽朔]
+#y~154
+AD-24 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 陽朔
+name_cn 阳朔
+
+## [103]
+wref_ja 陽朔
+name_ja 陽朔
+name_kana よう さく
+
+[鴻嘉]
+#y~965
+AD-20 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 鴻嘉
+name_cn 鸿嘉
+#1-2-壬午
+u 1-2
+#<-陽朔 BC20-[4,5]
+
+## [103]
+wref_ja 鴻嘉
+name_ja 鴻嘉
+name_kana こう か
+
+[永始]
+#y~1312
+AD-16 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永始
+name_cn 永始
+
+## [103]
+wref_ja 永始 (漢)
+name_ja 永始
+name_kana えい し
+u 1-6
+
+[元延]
+#y~1075
+AD-12 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元延
+name_cn 元延
+#<-永始 BC13-[6,7]
+
+## [103]
+wref_ja 元延
+name_ja 元延
+name_kana げん えん
+
+[綏和]
+#y~1226
+AD-8 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 綏和
+name_cn 绥和
+#<-元延 BC8-4
+
+## [103]
+wref_ja 綏和
+name_ja 綏和
+name_kana すい わ
+
+[建平]
+#y~629
+AD-6 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建平
+name_cn 建平
+u 1
+u 2-6
+u 2-8
+u 4
+# 5-[12,12']
+u 5
+
+## [103]
+wref_ja 建平 (漢)
+name_ja 建平
+name_kana けん ぺい
+# BC6 - BC5-6
+# BC5-8 - BC3
+tag 再開
+#<-太初元將 BC5-8
+
+[太初元將]
+#y~814
+AD-5 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 太初元將
+name_cn 太初元将
+
+## [103]
+wref_ja 太初元将
+name_ja 太初元将
+name_kana たい しょ げん しょう
+# BC5-6 - BC5-8
+#<-建平 BC5-6
+
+&
+## [103]
+name_tw 太初
+name_cn 太初
+
+[元壽]
+#y~678
+AD-2 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元壽
+name_cn 元寿
+#<-建平 BC2-[12,12']
+
+## [103]
+wref_ja 元寿 (漢)
+name_ja 元寿
+name_kana げん じゅ
+
+&
+## [102]
+name_tw 元受
+name_cn 元受
+
+[元始]
+#y~109
+AD1 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元始
+name_cn 元始
+u 1
+u 5
+u 26
+
+## [103]
+wref_ja 元始 (漢)
+name_ja 元始
+name_kana げん し
+u 1
+u 5
+#
+#居延漢簡
+tag 内蒙古
+u 26
+
+[居攝]
+#y~754
+AD6 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 居攝
+name_cn 居摄
+
+## [103]
+wref_ja 居摂
+name_ja 居摂
+name_kana きょ せつ
+# 0006 - 0008-11
+
+[初始]
+#y~706
+AD8 = 1
+tag 前漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 初始
+name_cn 初始
+# 0008-12-17 - 0009-1-14
+#<- 初始1-12-1癸酉 = 始建国1-1-1
+#
+#兩千年中西曆轉換
+#<- 戊辰-11-1 (0008-12-17)
+#-> 0009-01-14
+#
+#"“初始”年号始用时间辨析"(張小鋒)
+#<- 居攝3-11-21 (0009-01-06)
+
+## [103]
+wref_ja 初始
+name_ja 初始
+name_kana しょ し
+# 0008-11 - 0008-12
+#<-居攝 0008-11
+u 1
+#
+tag 新
+#初始1-12-1 = 始建国1-1-1
+
+&
+## [102]
+name_tw 始初
+name_cn 始初
+
+%tag country
+%tag   name_ja 新
+
+%tag tag
+%tag   name_ja 新の公年号
+%tag   group of 中華王朝の公年号
+
+[始建國]
+#y~1419
+AD9 = 1
+tag 新
+tag 新の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 始建國
+name_cn 始建国
+
+## [103]
+wref_ja 始建国
+name_ja 始建国
+name_kana し けん こく
+
+&
+## [102]
+name_tw 建國
+name_cn 建国
+
+[天鳳]
+#y~1196
+AD14 = 1
+tag 新
+tag 新の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 天鳳
+name_cn 天凤
+
+## [103]
+wref_ja 天鳳 (元号)
+name_ja 天鳳
+name_kana てん ぽう
+
+## [102]
+&
+name_tw 始建國天鳳上戊
+name_cn 始建国天凤上戊
+&
+name_tw 始建國天鳳
+name_cn 始建国天凤
+
+[地皇]
+#y~668
+AD20 = 1
+tag 新
+tag 新の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 地皇
+name_cn 地皇
+
+## [103]
+wref_ja 地皇 (元号)
+name_ja 地皇
+name_kana ち こう
+# 0020 - 0023-9
+
+&
+## [102]
+name_tw 始建國地皇上戊
+name_cn 始建国地皇上戊
+&
+name_tw 始建國地皇
+name_cn 始建国地皇
+
+[更始]
+#y~1131
+AD23 = 1
+tag 漢土
+tag 漢民族
+tag 漢
+tag 漢の公年号
+
+## [102]
+name_tw 更始
+name_cn 更始
+u 1
+u 3
+u 5
+u 6
+
+## [103]
+wref_ja 更始 (漢)
+name_ja 更始
+name_kana こう し
+# 0023-2 - 0025-9
+#<- 0023-2 established
+u 1-2
+#0023-9 王莽 没
+#0024 長安遷都
+u 3-10
+
+
+%tag country
+%tag   name_ja 後漢
+%tag   group of 漢
+
+%tag tag
+%tag   name_ja 後漢の公年号
+%tag   group of 漢の公年号
+
+[建武(乙酉)]
+#y~672
+AD25 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建武
+name_cn 建武
+# 0025-6 - 0056-4
+#更始3-6-22己未 (25-8-5)
+#<-0025-6 更始
+#<- 0025-9 長安 陥落
+#<- 0025-10 赤眉 滅
+u 31
+u 32-4-11
+
+## [103]
+wref_ja 建武 (漢)
+name_ja 建武
+name_kana けん ぶ
+#<-0025-6 更始
+
+[建武中元]
+#y~869
+AD56 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建武中元
+name_cn 建武中元
+#建武32-4-11己卯
+#<-建武(乙酉) 0056-5-14
+u 2-6
+
+## [103]
+wref_ja 建武中元
+name_ja 建武中元
+name_kana けん ぶ ちゅう げん
+u 1-2
+#<-建武(乙酉) 0056-4
+u 1-4
+&
+name_ja 中元
+name_kana ちゅう げん
+
+## [102]
+name_tw 中元
+name_cn 中元
+
+[永平(戊午)]
+#y~1848
+AD58 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永平
+name_cn 永平
+#<-建武中元 0058-1-1 (0058-2-13)
+
+## [103]
+wref_ja 永平 (漢)
+name_ja 永平
+name_kana えい へい
+
+[建初]
+#y~400
+AD76 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建初
+name_cn 建初
+#<-永平(戊午) 0076-1-1 (0076-2-24)
+
+## [103]
+wref_ja 建初 (漢)
+name_ja 建初
+name_kana けん しょ
+
+[元和(甲申)]
+#y~1581
+AD84 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元和
+name_cn 元和
+#<-建初 0084-8-20癸酉 (0084-10-08)
+
+## [103]
+wref_ja 元和 (漢)
+name_ja 元和
+name_kana げん わ
+#<-建初 0084-8
+
+[章和]
+#y~1476
+AD87 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 章和
+name_cn 章和
+#<-元和(甲申) 0087-7-27壬戌 (0087-9-12)
+
+## [103]
+wref_ja 章和 (漢)
+name_ja 章和
+name_kana しょう わ
+#<-元和(甲申) 0087-7
+
+[永元]
+#y~542
+AD89 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永元
+name_cn 永元
+#<-章和 0089-1-1 (0089-1-30)
+
+## [103]
+wref_ja 永元 (漢)
+name_ja 永元
+name_kana えい げん
+# 89 - 105-3
+
+[元興]
+#y~1216
+AD105 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元興
+name_cn 元兴
+# 105-4 - 105-12
+#<-永元 105-4-庚午 (105-5)
+#           3-庚午 (105-4-18)
+#           5-庚午 (105-6-17)
+
+## [103]
+wref_ja 元興 (漢)
+name_ja 元興
+name_kana げん こう
+# 105-4 - 105-12
+#<-永元 105-4
+
+[延平]
+#y~1553
+AD106 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 延平
+name_cn 延平
+#<-元興 106-01-01 (106-2-21)
+
+## [103]
+wref_ja 延平 (漢)
+name_ja 延平
+name_kana えん ぺい
+
+[永初]
+#y~698
+AD107 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永初
+name_cn 永初
+# 107 - 114
+#<-延平 107-1-1 (107-2-10)
+
+## [103]
+wref_ja 永初 (漢)
+name_ja 永初
+name_kana えい しょ
+
+[元初]
+#y~404
+AD114 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元初
+name_cn 元初
+#<-永初 114-1-2甲子 114-2-22
+
+## [103]
+wref_ja 元初
+name_ja 元初
+name_kana げん しょ
+# 114 - 120-4
+#<-永初 114-1
+
+[永寧]
+#y~1245
+AD120 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永寧
+name_cn 永宁
+#<-元初 120-4-11丙寅 120-5-25
+
+## [103]
+wref_ja 永寧 (漢)
+name_ja 永寧
+name_kana えい ねい
+# 120-4 - 121-6
+#<-元初 120-4
+
+[建光]
+#y~1111
+AD121 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建光
+name_cn 建光
+#<-永寧 121-7-1己卯 121-8-1
+
+## [103]
+wref_ja 建光 (漢)
+name_ja 建光
+name_kana けん こう
+# 121-7 - 122-3
+u 1-3
+#<-永寧 121-7
+u 1-7
+u 2-3
+
+[延光]
+#y~993
+AD122 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 延光
+name_cn 延光
+#<-建光 122-3
+
+## [103]
+wref_ja 延光
+name_ja 延光
+name_kana えん こう
+#<-建光 122-3
+
+[永建]
+#y~669
+AD126 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永建
+name_cn 永建
+
+## [103]
+wref_ja 永建 (漢)
+name_ja 永建
+name_kana えい けん
+
+[陽嘉]
+#y~1236
+AD132 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 陽嘉
+name_cn 阳嘉
+#<-永建 132-3
+
+## [103]
+wref_ja 陽嘉
+name_ja 陽嘉
+name_kana よう か
+#<-永建 132-3
+
+[永和(丙子)]
+#y~1472
+AD136 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永和
+name_cn 永和
+
+## [103]
+wref_ja 永和 (漢)
+name_ja 永和
+name_kana えい わ
+#<-陽嘉 136-1
+
+[漢安]
+#y~1029
+AD142 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 漢安
+name_cn 汉安
+
+## [103]
+wref_ja 漢安
+name_ja 漢安
+name_kana かん あん
+#<-永和(丙子) 142-1
+
+[建康]
+#y~886
+AD144 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建康
+name_cn 建康
+
+## [103]
+wref_ja 建康 (漢)
+name_ja 建康
+name_kana けん こう
+# 144-4 - 144-12
+#<-漢安 144-4
+
+[永憙]
+#y~649
+AD145 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永憙
+name_cn 永憙
+
+## [103]
+wref_ja 永憙
+name_ja 永憙
+name_kana えい き
+
+&
+## [102]
+name_tw 永嘉
+name_cn 永嘉
+## [103]
+name_ja 永嘉
+
+&
+## [102]
+name_tw 永熹
+name_cn 永熹
+## [103]
+name_ja 永熹
+
+&
+## [103]
+name_tw 元嘉
+name_cn 元嘉
+
+[本初]
+#y~1031
+AD146 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 本初
+name_cn 本初
+
+## [103]
+wref_ja 本初
+name_ja 本初
+name_kana ほん しょ
+
+[建和]
+#y~1260
+AD147 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建和
+name_cn 建和
+
+## [103]
+wref_ja 建和 (漢)
+name_ja 建和
+name_kana けん わ
+
+[和平]
+#y~1480
+AD150 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 和平
+name_cn 和平
+
+## [103]
+wref_ja 和平 (漢)
+name_ja 和平
+name_kana わ へい
+
+[元嘉]
+#y~1020
+AD151 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 元嘉
+name_cn 元嘉
+
+## [103]
+wref_ja 元嘉 (漢)
+name_ja 元嘉
+name_kana げん か
+#<-和平 151-1
+
+[永興]
+#y~801
+AD153 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永興
+name_cn 永兴
+
+## [103]
+wref_ja 永興 (漢)
+name_ja 永興
+name_kana えい こう
+#<-元嘉 153-5
+
+[永壽]
+#y~206
+AD155 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永壽
+name_cn 永寿
+
+## [103]
+wref_ja 永寿 (漢)
+name_ja 永寿
+name_kana えい じゅ
+#<-永興 155-1
+
+[延熹]
+#y~485
+AD158 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 延熹
+name_cn 延熹
+
+## [103]
+wref_ja 延熹
+name_ja 延熹
+name_kana えん き
+#<-永壽 158-6
+
+[永康]
+#y~465
+AD167 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永康
+name_cn 永康
+
+## [103]
+wref_ja 永康 (漢)
+name_ja 永康
+name_kana えい こう
+# 167-6 - 167-12
+#<-延熹 167-6
+
+[建寧]
+#y~1635
+AD168 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建寧
+name_cn 建宁
+
+## [103]
+wref_ja 建寧 (漢)
+name_ja 建寧
+name_kana けん ねい
+#<-永康 1-1
+
+[熹平]
+#y~308
+AD172 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 熹平
+name_cn 熹平
+
+## [103]
+wref_ja 熹平
+name_ja 熹平
+name_kana き へい
+# 172-5 - 178-3
+#<-建寧 172-5
+
+[光和]
+#y~843
+AD178 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 光和
+name_cn 光和
+
+## [103]
+wref_ja 光和
+name_ja 光和
+name_kana こう わ
+# 178-3 - 184
+#<-熹平 178-7
+
+[中平]
+#y~539
+AD184 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 中平
+name_cn 中平
+
+## [103]
+wref_ja 中平
+name_ja 中平
+name_kana ちゅう へい
+# 184-12 - 189-3
+u 1-2
+#<-光和 184-12
+u 1-12
+#189-12 - 189-12
+tag 再開
+#<-永漢 189-12
+u 6-12
+
+[光熹]
+#y~644
+AD189 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 光熹
+name_cn 光熹
+
+## [103]
+wref_ja 光熹
+name_ja 光熹
+name_kana こう き
+#189-4-13 - 189-8-28
+#<-中平 189-4-戊午
+tag 建元撤回
+#189-12
+
+[昭寧]
+#y~1202
+AD189 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 昭寧
+name_cn 昭宁
+#189-8-28辛未 - 189-9-1甲戌
+
+## [103]
+wref_ja 昭寧
+name_ja 昭寧
+name_kana しょう ねい
+#189-8-28 - 189-9-1
+#<-光熹 189-8-辛未
+tag 建元撤回
+#189-12
+
+[永漢]
+#y~1230
+AD189 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 永漢
+name_cn 永汉
+
+## [103]
+wref_ja 永漢 (漢)
+name_ja 永漢
+name_kana えい かん
+#189-9 - 189-12
+#<-昭寧 189-9-甲戌
+tag 建元撤回
+#189-12
+
+[初平]
+#y~1554
+AD190 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 初平
+name_cn 初平
+u 1
+u 4
+#
+#劉璋
+u 6
+
+## [103]
+wref_ja 初平
+name_ja 初平
+name_kana しょ へい
+
+[興平]
+#y~461
+AD194 = 1
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 興平
+name_cn 兴平
+
+## [103]
+wref_ja 興平 (漢)
+name_ja 興平
+name_kana こう へい
+
+[建安]
+#y~651
+AD196 = 1
+tag 三国時代
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 建安
+name_cn 建安
+u 1
+u 25-2
+#
+tag 蜀
+u 26
+#
+tag 呉
+#->延康 ->黃初
+#<-黃初
+u 27
+#->黃武
+#
+#建康實錄
+u 28
+
+## [103]
+wref_ja 建安 (漢)
+name_ja 建安
+name_kana けん あん
+#196 - 220-2
+#<-興平 196-1
+#
+u 25-3
+#
+tag 蜀
+u 26
+
+## <https://zh.wikipedia.org/wiki/%E9%BB%84%E5%88%9D>
+tag 蜀
+tag 呉
+## <https://web.archive.org/web/20120104144951/http://xiangyata.net/data/articles/e01/185.html>
+u 25
+u 26
+u 27
+u 28
+
+tag 曹操
+tag 劉備
+
+[延康]
+#y~487
+AD220 = 1
+tag 三国時代
+tag 後漢
+tag 前漢の公年号
+tag 漢土
+tag 漢民族
+
+## [102]
+name_tw 延康
+name_cn 延康
+
+## [103]
+wref_ja 延康 (漢)
+name_ja 延康
+name_kana えん こう
+#220-3 - 220-10
+u 1-1
+#<-建安 220-3
+u 1-3
+#-> 魏 1-10-辛未 禅譲
+u 1-10
+
+s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B702>"延康元年"
+s+
+#改建安二十五年爲延康元年。
+
+
+%tag country
+%tag   name_ja 蜀
+%tag   period of 漢
+%tag   period of 中国
+
+%tag tag
+%tag   name_ja 蜀の公年号
+%tag   group of 漢の公年号
+
+[章武]
+#y~1275
+AD221 = 1
+tag 三国時代
+tag 蜀
+tag 蜀の公年号
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 劉備
+tag 劉備
+
+## [102]
+name_tw 章武
+name_cn 章武
+
+## [103]
+wref_ja 章武
+name_ja 章武
+name_kana しょう ぶ
+# 221-4 - 223-4
+#<-建安 建安26
+
+s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B732>"即皇帝位"
+<-建安 漢:221-4-6(丙午) j:221-5-15 #建元前の即位{#蜀 #劉備 #漢皇帝}
+s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B732>"章武元年"
+<-建安 [漢:221-4-丙午,漢:221-4] #支那改元日{#蜀 #劉備}
+s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B732>"先主殂"
+#->建興 漢:223-4-癸巳 #改元前の死去{#蜀 #劉備}
+# no such day
+
+## 二十五史干支通検
+->建興 漢:223-5-6(癸巳) #改元前の死去{#蜀 #劉備} #異説
+
+## <https://ja.wikipedia.org/wiki/%E5%8A%89%E5%82%99>
+->建興 漢:223-4-24 j:223-6-10 #改元前の死去{#蜀 #劉備}
+## <https://zh.wikipedia.org/wiki/%E5%88%98%E5%A4%87>
+# -4-24 223-6-10
+
+
+[建興]
+#y~124
+AD223 = 1
+tag 三国時代
+tag 蜀
+tag 蜀の公年号
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 劉禅
+tag 劉禅
+
+## [102]
+name_tw 建興
+name_cn 建兴
+
+## [103]
+wref_ja 建興 (蜀)
+name_ja 建興
+name_kana けん こう
+# 223-5 - 237-12
+#<-章武 223-5
+
+s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B732>"三年夏四月"
+#<-章武 [漢:223-4] #改元前の死去{#蜀 #劉備}
+<-章武 [漢:223-5] #建元前の即位{#蜀 #劉禅 #漢皇帝} #異説
+<-章武 [漢:223-5] #支那改元日{#蜀 #劉禅}
+
+## <https://ja.wikipedia.org/wiki/%E5%8A%89%E7%A6%85>
+<-章武 漢:223-4-24 j:223-6-10 #建元前の即位{#蜀 #劉禅 #漢皇帝}
+
+[延熙]
+#y~226
+AD238 = 1
+tag 三国時代
+tag 蜀
+tag 蜀の公年号
+tag 漢土
+tag 漢民族
+
+tag 劉禅
+
+## [102]
+name_tw 延熙
+name_cn 延熙
+
+## [103]
+wref_ja 延熙 (蜀)
+name_ja 延熙
+name_kana えん き
+
+s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B732>"延熙元年"
+name 延熙
+<-建興 [漢:238-1] #支那改元日{#蜀 #劉禅}
+
+[景耀]
+#y~36
+AD258 = 1
+tag 三国時代
+tag 蜀
+tag 蜀の公年号
+tag 漢土
+tag 漢民族
+
+tag 劉禅
+
+## [102]
+name_tw 景耀
+name_cn 景耀
+
+## [103]
+wref_ja 景耀
+name_ja 景耀
+name_kana けい よう
+# 258-1 - 263-7
+
+s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B732>"景耀元年"
+name 景耀
+<-延熙 [漢:258-1] #景星祥瑞{#蜀 #劉禅}
+<-延熙 [漢:258-1] #支那改元日{#蜀 #劉禅}
+
+[炎興]
+#y~1425
+AD263 = 1
+tag 三国時代
+tag 蜀
+tag 蜀の公年号
+tag 漢土
+tag 漢民族
+
+tag 劉禅
+
+## [102]
+name_tw 炎興
+name_cn 炎兴
+
+## [103]
+wref_ja 炎興
+name_ja 炎興
+name_kana えん こう
+# 263-8 - 263-11
+<-景耀 [漢:263-8] #支那改元日{#蜀 #劉禅}
+
+s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B732>"改元為炎興"
+#<-景耀 [漢:263-夏] #支那改元日{#蜀 #劉禅}
+
+## <https://ja.wikipedia.org/wiki/%E5%8A%89%E7%A6%85>
+->景元 漢:263-11-6 j:263-12-23 #陥落{#曹魏, #蜀 #劉禅}

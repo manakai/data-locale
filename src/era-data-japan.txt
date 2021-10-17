@@ -293,17 +293,51 @@
 %tag   group of 崩御
 %tag   group of 改元前の死去
 
+[神功皇后摂政]
+tag 称制紀年
+
 [大化]
 tag 追号説のある元号
+&
+name(ja) 大化[J:はじめてなる][J:,,はしめてなる]
 
 [白雉]
 tag 追号説のある元号
+&
+name(ja) 白|雉[J:しら きぎす][J:,,しら ききす][!J:,,しら きすす]
+
+[白鳳]
+name_kana はく ほう,はく ほう
+
+[天智天皇]
+tag 称制紀年
 
 [朱鳥]
 tag 追号説のある元号
+&
+name(ja) 朱|鳥[J:あかみ とり,,阿訶美 苔利][J:あかみ どり][J:あか とり]
+
+[持統天皇]
+tag 称制紀年
+
+[天平勝宝]
+&
+name_ja 勝宝
+name_kana しょう ほう,,せう ほう
 
 [神護景雲]
-#XXXabbr_ja 云
+&
+abbr_ja 云 神護景[雲]
+
+[仁安]
+&
+## <https://wiki.suikawiki.org/n/era%20name#section-%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E5%85%83%E5%8F%B7%E5%90%8D%E2%80%A8%E5%92%8C%E8%AA%9E%E8%A1%A8%E7%8F%BE>
+name(ja) 人[J:]の[J:]やすけき[J:]
+
+[承安]
+&
+## <https://wiki.suikawiki.org/n/era%20name#section-%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E5%85%83%E5%8F%B7%E5%90%8D%E2%80%A8%E5%92%8C%E8%AA%9E%E8%A1%A8%E7%8F%BE>
+name(ja_old) うけ|やすき
 
 [延元]
 tag 日本北朝の公年号
@@ -343,6 +377,11 @@ code #15 北15
 [康応]
 code #15 北16
 
+[建治]
+&
+## <https://wiki.suikawiki.org/n/%E6%94%B9%E5%85%83%E6%89%8B%E7%B6%9A#anchor-87>
+name(ja_old) ケン|チ
+
 [応仁]
 #<- 1475 樺太 武田信広
 
@@ -373,6 +412,11 @@ source
 [天正]
 source
   url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
+
+[慶長]
+## <https://wiki.suikawiki.org/n/GOX%20IRAI>
+name(ja_latin_old) QEICHO
+
 [元和]
 source
   url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
@@ -397,18 +441,6 @@ source
 [永観]
 source
   url:http://d.hatena.ne.jp/hakuriku/20070701#eikan
-[元治]
-name_ja 元治
-&
-abbr_ja 元 元治
-code #7 元
-code #16 Y
-[慶応]
-name_ja 慶応
-&
-abbr_ja 慶 慶応
-code #7 慶
-code #16 Z
 
 %tag country
 %tag   name_ja 江戸幕府
@@ -440,7 +472,7 @@ code #16 Z
 <-寛永 k:1645-1-22 #盛岡藩 #藩庁施行 #領内施行
 [慶安]
 <-正保 k:1648-3-4 #盛岡藩 #藩庁到着
-  #卯刻 飛脚到着
+#  #卯刻 飛脚到着
 <-正保 k:1648-3-4 #盛岡藩 #藩庁施行 #領内施行
 [承応]
 <-慶安 k:1652-9-28 #日本 #日本朝廷改元日 #旧説
@@ -448,9 +480,9 @@ code #16 Z
 <-慶安 k:1652-10-8 #盛岡藩 #藩庁施行 #領内施行
 [万治]
 <-明暦 k:1658-8-12 #盛岡藩 #通知受領
-  #速報
+#  #速報
 <-明暦 k:1658-9-12 #盛岡藩 #藩庁到着
-  #正式
+#  #正式
 <-明暦 k:1658-9-12 #盛岡藩 #藩庁施行 #領内施行
 [寛文]
 <-万治 k:1661-5-19 #盛岡藩 #藩庁到着
@@ -468,6 +500,24 @@ code #16 Z
 <-寛政 k:1801-2-25 #盛岡藩 #領内施行
 #
 
+[天保]
+&
+## <https://wiki.suikawiki.org/n/era%20name#section-%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E5%85%83%E5%8F%B7%E5%90%8D%E2%80%A8%E5%92%8C%E8%AA%9E%E8%A1%A8%E7%8F%BE>
+name(ja_old) 𛀄め|た𛃚𛁩
+
+[元治]
+name_ja 元治
+&
+abbr_ja 元 元治
+code #7 元
+code #16 Y
+[慶応]
+name_ja 慶応
+&
+abbr_ja 慶 慶応
+code #7 慶
+code #16 Z
+
 
 [明治]
 name_ja 明治
@@ -476,8 +526,8 @@ unicode ㍾
 abbr_ja 明 明治
 code #7 明
 &
-acronym(ja_latn) M
-expanded(ja_latn) [M]eiji
+acronym(ja_latin) M
+expanded(ja_latin) [M]eiji
 code #2 M
 code #1 1
 code #16 1
@@ -517,8 +567,8 @@ unicode ㍽
 abbr_ja 大 大正
 code #7 大
 &
-acronym(ja_latn) T
-expanded(ja_latn) [T]aisho
+acronym(ja_latin) T
+expanded(ja_latin) [T]aisho
 code #2 T
 code #1 2
 code #16 2
@@ -561,8 +611,8 @@ unicode ㍼
 abbr_ja 昭 昭和
 code #7 昭
 &
-acronym(ja_latn) S
-expanded(ja_latn) [S]howa
+acronym(ja_latin) S
+expanded(ja_latin) [S]howa
 code #2 S
 code #1 3
 code #16 3
@@ -612,8 +662,8 @@ unicode ㍻
 abbr_ja 平 平成
 code #7 平
 &
-acronym(ja_latn) H
-expanded(ja_latn) [H]eisei
+acronym(ja_latin) H
+expanded(ja_latin) [H]eisei
 code #2 H
 code #1 4
 code #16 4
@@ -647,8 +697,8 @@ en desc beautiful harmony
 abbr_ja 令 令和
 code #7 令
 &
-acronym(ja_latn) R
-expanded(ja_latn) Reiwa
+acronym(ja_latin) R
+expanded(ja_latin) [R]eiwa
 code #2 R
 code #1 5
 code #16 5
@@ -826,7 +876,7 @@ sw 芦原太陽暦
 #
 name_ja 芦原太陽暦
 name_ja 葦原太陽暦
-&
+&&
 name_ja 即位
 AD-23107 = 1
 tag 大日本帝国
@@ -841,11 +891,11 @@ sw 立教
 #
 name_ja 立教
 name_kana りっ きょう
-&
+#
 name(es) Rikkyo
 &
-acronym(ja_latn) R
-expanded(ja_latn) [R]ikkyo
+acronym(ja_latin) R
+expanded(ja_latin) [R]ikkyo
 &&
 name(en) Tenrikyo
 &&
@@ -1010,13 +1060,11 @@ def[天降紀元]
 sw 天降紀元
 #
 name_ja 天降紀元
-#XXX
-#天降 紀 元
-#name_kana あもり き げん
+name(ja) 天降[J:あもり]紀元[き げん]
 &
 name_ja 天降
 &
-name_ja 天孫降臨以來
+name 天孫降臨以來
 &
 name_ja 中興紀元
 &
@@ -1047,8 +1095,8 @@ name_ja 霊波
 name_kana れい は
 &
 name_ja 霊波暦
-acronym(ja_latn) R
-expanded(ja_latn) [R]eiha
+acronym(ja_latin) R
+expanded(ja_latin) [R]eiha
 AD1915 = 1
 tag 日本国
 tag 日本人
@@ -1078,13 +1126,13 @@ sw 神の国の紀元
 #
 name_ja 紀元
 &
-name_ja 大神様紀元
+name(ja) 大|神|様[J:]紀元
 &
-name(ja) 神の国の紀元
+name(ja) 神[J:]の[J:]国[J:]の[J:]紀元
 &
-name(ja) 神の国年
+name(ja) 神[J:]の[J:]国[J:]年
 &
-name(ja) 神の国開元の年
+name(ja) 神[J:]の[J:]国[J:]開元の[J:]年
 AD1946 = 1
 tag 日本人
 tag 日本国
@@ -1149,7 +1197,7 @@ name_ja 悪魔暦
 name_kana あく ま れき
 &
 acronym(en) D.C.
-expanded(en) Devil's Calendar
+expanded(en) [D]evil's [C]alendar
 # 魔暦前
 # 魔暦紀元前
 # B.D.
@@ -1469,7 +1517,7 @@ name_kana げん ばく れき
 &
 name_ja 原爆紀元
 &
-acronym(ja_latn) G
+acronym(ja_latin) G
 &
 acronym(en) A
 AD1945 = 1
@@ -1505,7 +1553,7 @@ name(en) Post Atomic-bomb Calender
 &
 name(en) GENBAKU CALENDER
 &
-name(ja_latn) GENBAKU
+name(ja_latin) GENBAKU
 &
 name_ja 原爆
 &
@@ -1513,7 +1561,7 @@ name(en) the atomic bomb
 &
 name(en) Atomic Bomb Calendar
 &
-acronym(ja_latn) G
+acronym(ja_latin) G
 AD1946 = 1
 tag 日本人
 tag 日本国
@@ -1531,10 +1579,10 @@ sw エコ暦
 #
 name(ja) エコ暦[れき]
 &
-name(ja_latn) eco
+name(ja_latin) eco
 &
-acronym(ja_latn) E
-expanded(ja_latn) [e]co
+acronym(ja_latin) E
+expanded(ja_latin) [e]co
 AD1945 = 1
 # <-原爆暦 y~1775
 u 58-2-27
@@ -1553,7 +1601,7 @@ sw 原爆(エコ)暦
 #
 name(ja) 原爆(エコ)暦
 &
-name(ja_latn) eco
+name(ja_latin) eco
 AD1945 = 0
 u 60
 u 72-8-8

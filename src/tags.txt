@@ -6,6 +6,11 @@ region
   region of トルキスタン
 
 region
+  name_ja トルファン
+  name_cn 吐鲁番
+  region of ウイグル
+
+region
   name_ja 露領シベリア
   region of ロシア帝国
 
@@ -199,6 +204,11 @@ person
 law
   name_ja 条約
 
+action
+  name_ja 和約締結
+  group of 条約
+  group of 戦時異動
+
 law
   name_ja 登極令
 
@@ -221,11 +231,16 @@ tag
   name_ja 王の即位紀年
   group of 即位紀年
 
+tag
+  name_ja 称制紀年
+  group of 即位紀年
+
 action
   name_ja 事由
 
 action
   name_ja 即位決定
+  group of 事由
 
 action
   name_ja 即位予定 (中止)
@@ -234,12 +249,23 @@ action
   name_ja 即位
 
 action
+  name_ja 重祚前の即位
+  group of 即位
+
+action
+  name_ja 重祚
+  group of 即位
+
+action
   name_ja 建元前の即位
   group of 事由
   group of 即位
 
 action
   name_ja 退位
+
+action
+  name_ja 禅譲
 
 action
   name_ja 死去
@@ -266,8 +292,17 @@ action
   name_ja 元号名変更
 
 action
+  name_ja 連合
+
+action
   name_ja 勢力統合
+  group of 連合
   group of 事由
+
+action
+  name_ja 勢力吸収
+  group of 連合
+  group of 行政異動
 
 action
   name_ja 捕縛
@@ -277,15 +312,19 @@ action
   name_ja 政変
   group of 事由
 
-tag
+position
   name_ja 君主
 
-tag
+position
   name_ja 王
   group of 君主
 
-tag
+position
   name_ja 皇帝
+  group of 君主
+
+position
+  name_ja 称制者
   group of 君主
 
 tag
@@ -317,6 +356,9 @@ tag
 
 tag
   name_ja 君主名の元号
+
+tag
+  name_ja 干支元号名
 
 action
   name_ja 発表
@@ -403,9 +445,13 @@ action
 
 action
   name_ja 建元撤回
+  group of 改元撤回
 
 action
   name_ja 建元撤回撤回
+
+action
+  name_ja 改元撤回
 
 action
   name_ja 新規称元
@@ -453,6 +499,8 @@ action
 
 action
   name_ja 国名変更
+  #subject: old
+  #object: new
 
 action
   name_ja 陥落
@@ -462,6 +510,45 @@ action
 action
   name_ja 撤退
   group of 戦時異動
+
+action
+  name_ja 元服
+
+action
+  name_ja 祥瑞
+  group of 事由
+
+action
+  name_ja 鳳祥瑞
+  group of 祥瑞
+
+action
+  name_ja 竜祥瑞
+  group of 祥瑞
+
+action
+  name_ja 雲祥瑞
+  group of 祥瑞
+
+action
+  name_ja 景星祥瑞
+  group of 祥瑞
+
+action
+  name_ja 災異
+  group of 事由
+
+action
+  name_ja 星災異
+  group of 災異
+
+action
+  name_ja 天象
+
+action
+  name_ja 天象災異
+  group of 天象
+  group of 事由
 
 tag
   name_ja 前元
@@ -523,3 +610,6 @@ tag
 tag
   name_ja マイクロネーションの元号
   group of 元号
+
+tag
+  name_ja 併用

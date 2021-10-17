@@ -13,7 +13,9 @@ expanded(en_la) [A]nno [D]omini
 name(la) ann%C5%8D Domin%C4%AB
 name(en_la) Anno Domini
 &
-name(ja) キリスト紀元
+name(en) in the year of our Lord
+&
+name(ja) キリスト紀|元[J:き げん]
 &
 name_ja 耶蘇紀元
 &
@@ -22,15 +24,26 @@ name 天主降生
 acronym(en) A
 expanded(la) [a]nn%C5%8D Domin%C4%AB
 expanded(en_la) [A]nno Domini
+&
+
+## <https://wiki.suikawiki.org/n/GOX%20IRAI>
+name_ja 御出生以来
+&
+name(ja_latin_old) GOX IRAI
+
 &&
 name_ja! 西暦
+name_kana せい れき
+name(vi) Tây lịch
 &
 name_ja 西紀
+name_kana せい き
 name_ko 西紀
 &
 name_tw 西元
 &
 name 西暦紀元
+name_kana せい れき き げん
 &
 abbr_ja 西 西暦
 &&
@@ -45,9 +58,19 @@ name 公元紀年
 &
 name 共通紀元
 &&
-name 学暦
+name_ja 国際暦
+&&
+acronym(en) C.E.
+expanded(en) [C]urrent [E]ra
+&&
+name 學曆
+name_ja 学暦
+name_kana がく れき
 &
-abbr_ja 学 学曆
+abbr_ja 学 学暦
+&&
+name_ja 和蘭紀元
+
 wref_zh 公元
 wref_ja 西暦
 AD1 = 1
@@ -180,7 +203,7 @@ name(ja) チュチェ
 name(kp) 주체연호
 name 主體年號
 &
-name 주체력
+name(kp) 주체력
 name_ja 主体暦
 name_tw 主體曆
 name(ja) チュチェ暦
@@ -299,7 +322,8 @@ name(en) Holocene calendar
 &
 name(en) Holocene Era
 &
-name_cn 全新世紀年
+name_tw 全新世紀年
+name_cn 全新世纪年
 &
 acronym(en) HE
 expanded(en) [H]uman [E]ra
@@ -309,10 +333,13 @@ name(en) Human Era
 name_ja 人類紀元
 name_kana じん るい き げん
 &
-name_cn 人類紀年
+name_tw 人類紀年
+name_cn 人类纪年
 &
-name_cn 人元紀年
+name_tw 人元紀年
+name_cn 人元纪年
 &
+name_tw 人元
 name_cn 人元
 wref_ja 人類紀元
 wref_en Holocene_calendar
@@ -435,7 +462,7 @@ sw 美禄
 def[禅源]
 sw 禅源
 #korea (高麗)
-name_ko 禅源
+name_ja 禅源
 
 
 
@@ -615,9 +642,14 @@ tag 日本の私年号
 
 def[勝照]
 name_ja 勝照
+&
 name_ja 照勝
+&
 name_ja 勝烈
+&
 name_ja 照烈
+&
+name_ja 勝熙
 name_ja 勝煕
 AD585 = 1
 tag 日本人
@@ -1331,12 +1363,12 @@ name 政安
 AD1053 = 1
 
 def[法堯]
-name_cn 法堯
+name_cn 法尧
 name_tw 法堯
 #was: wref_zh 中国年号列表
 
 def[興正]
-name_cn 興正
+name_cn 兴正
 name_tw 興正
 #was: wref_zh 中国年号列表
 

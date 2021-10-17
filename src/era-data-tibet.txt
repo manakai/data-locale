@@ -8,6 +8,9 @@
 %tag people
 %tag   name_ja チベット人
 
+%tag country
+%tag   name_ja 吐蕃
+
 def[通治]
 #y~1874
 
@@ -80,7 +83,7 @@ def[波巴人民共和国]
 #y~1882
 
 name_cn 波巴人民共和国
-name_ja ボバ人民共和国
+name(ja) ボバ人民共和国
 name_ja 波巴人民共和国
 &
 name_ja 人民共和国

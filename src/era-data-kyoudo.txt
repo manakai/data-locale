@@ -1,0 +1,20 @@
+%tag country
+%tag   label_ja 趙 (劉淵)
+%tag   name_ja 趙
+%tag   period of 趙
+%tag   period of 中国
+
+%tag country
+%tag   label_ja 匈奴漢
+%tag   name_ja 漢
+%tag   period of 趙 (劉淵)
+%tag   period of 漢
+%tag   period of 中国
+
+%tag person
+%tag   name_ja 劉聡
+
+%tag country
+%tag   label_ja 前趙
+%tag   name_ja 趙
+%tag   period of 趙 (劉淵)

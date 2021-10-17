@@ -37,7 +37,7 @@ my $TagByKey = {};
     for (split /\x0D?\x0A/, $path->slurp_utf8) {
       if (/^\s*#/) {
         #
-      } elsif (/^(region|country|people|religion|org|person|law|action|calendar|tag)$/) {
+      } elsif (/^(region|country|people|religion|org|person|law|action|calendar|position|event|tag)$/) {
         $add_item->($item) if defined $item;
         $item = {type => $1};
       } elsif (defined $item and /^  (name|key)\s+(\S.*\S|\S)\s*$/) {
@@ -48,6 +48,8 @@ my $TagByKey = {};
         $item->{$1.'s'}->{$3} = 1;
       } elsif (defined $item and /^  (group|period|region)\s*of\s*(\S.*\S|\S)\s*$/) {
         $item->{'_'.$1.'_of'}->{$2} = 1;
+      } elsif (defined $item and /^  name\([a-z]+\)/) {
+        #XXX
       } elsif (/\S/) {
         die "$path: Bad line |$_|";
       }
