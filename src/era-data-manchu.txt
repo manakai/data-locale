@@ -17,6 +17,10 @@
 %tag   name_ja 奉天
 %tag   region of 内満州
 
+%tag region
+%tag   name_ja 遼東
+%tag   region of 内満州
+
 %tag country
 %tag   name_tw 金
 
