@@ -444,14 +444,23 @@ action
   name_ja 実施中止
 
 action
+  name_ja 撤回
+
+action
   name_ja 建元撤回
   group of 改元撤回
 
 action
   name_ja 建元撤回撤回
+  group of 撤回
 
 action
   name_ja 改元撤回
+  group of 撤回
+
+action
+  name_ja 再開撤回
+  group of 撤回
 
 action
   name_ja 新規称元
@@ -565,15 +574,6 @@ action
   name_ja 天象災異
   group of 天象
   group of 事由
-
-tag
-  name_ja 前元
-
-tag
-  name_ja 中元
-
-tag
-  name_ja 後元
 
 tag
   name_ja 異説

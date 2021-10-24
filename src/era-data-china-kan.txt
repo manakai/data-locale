@@ -22,6 +22,9 @@
 %tag   group of 漢の公年号
 
 %tag tag
+%tag   name_ja 漢書
+
+%tag tag
 %tag   name_ja 居延漢簡
 
 def[漢]
@@ -29,6 +32,13 @@ def[漢]
 tag 前漢
 tag 漢土
 tag 漢民族
+
+%tag person
+%tag   name_ja 劉邦
+tag 劉邦
+tag 王の即位紀年
+tag 支那皇帝即位紀年
+
 name_tw 漢
 name_cn 汉
 name_ja 漢
@@ -74,12 +84,52 @@ BC206 = 1
 u 1
 u 12
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8A>"元年冬十月"
+s+
+u 1-10
+<-秦王子嬰 [秦:BC207-10] #陥落{#劉邦 #前漢, #秦帝国 #子嬰}
+#          BC206-10[秦]
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8A>"沛公歸數日"
+<-秦王子嬰 [秦:BC207-12] #陥落{#項羽, #秦帝国 #子嬰} #死去
+#          BC206-12[秦]
+%tag country
+%tag   label_ja 楚 (項羽)
+%tag   name_ja 楚
+%tag   period of 楚
+%tag   period of 中国
+%tag person
+%tag   name_ja 義帝
+>< [秦:BC206-1] #即位{#義帝 #楚皇帝 #楚_(項羽)}
+%tag position
+%tag   name_ja 西楚霸王
+%tag   group of 王 (支那)
+>< [秦:BC206-2] #即位{#項羽 #楚_(項羽) #西楚霸王}
+%tag person
+%tag   name_ja 項羽
+<-秦王子嬰 [秦:BC206-2] #建元前の即位{#劉邦 #漢王 #楚_(項羽)}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8A>"二年冬十月"
+>< [秦:BC206-10] #死去{#義帝 #楚_(項羽)} #項羽
+#      BC205-10[秦]
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8B>"四面皆楚歌"
+>< [秦:BC203-12] #陥落{#前漢 #劉邦, #項羽 #楚_(項羽)}
+#      BC202-12[秦]
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8B>"漢王即皇帝位"
+>< 漢:BC202-2-3(甲午) j:BC202-2-28 #即位{#劉邦 #前漢 #漢皇帝}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8B>"帝崩"
+->恵帝 漢:BC195-4-25(甲辰) j:BC195-6-1 #改元前の死去{#劉邦 #前漢}
+
 def[恵帝]
 ## Source:
 sw 孝惠
 tag 前漢
 tag 漢土
 tag 漢民族
+
+%tag person
+%tag   name_ja 漢恵帝
+tag 漢恵帝
+tag 支那皇帝即位紀年
+
 name_ja 恵帝
 &
 name_tw 孝惠皇帝
@@ -101,6 +151,13 @@ BC194 = 1
 u 1
 u 7
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7002>"即皇帝位"
+<-漢 漢:BC195-5-丙寅 #建元前の即位{#前漢 #漢恵帝 #漢皇帝}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7002>"元年"
+s+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7002>"帝崩"
+->呂后,前少帝 漢:BC188-8-戊寅 #改元前の死去{#前漢 #漢恵帝}
+
 def[呂后]
 ## Source:
 sw 呂后
@@ -108,6 +165,11 @@ sw 呂后
 tag 前漢
 tag 漢土
 tag 漢民族
+
+%tag person
+%tag   name_ja 呂后
+tag 呂后
+tag 称制紀年
 
 BC187 = 1
 u 1
@@ -121,10 +183,21 @@ name_tw 高后
 &
 name_ja 高皇后
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7003>"元年"
+s+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7003>"秋七月辛巳"
+->漢文帝前 漢:BC180-7-辛巳 j:BC180-8-18 #改元前の死去{#前漢 #呂后 #称制者}
+
 def[前少帝]
 tag 前漢
 tag 漢土
 tag 漢民族
+
+%tag person
+%tag   name_ja 前少帝
+tag 前少帝
+tag 支那皇帝即位紀年
+
 name_tw 前少帝
 &
 name_cn 汉前少帝
@@ -139,10 +212,25 @@ BC187 = 1
 u 1
 u 4
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7003>"立為皇帝"
+<-恵帝 ->前少帝 [漢:BC188-8-戊寅,漢:BC188-9]
+    #建元前の即位{#前漢 #前少帝 #漢皇帝}
+<-恵帝 ->呂后 [漢:BC188-8-戊寅,漢:BC188-9] #建元前の即位{#前漢 #呂后 #称制者}
+    #前少帝
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7003>"四年夏"
+->後少帝 [漢:BC184-4,漢:BC184-5-丙辰] #改元前の退位{#前漢 #前少帝 #漢皇帝} #呂后
+->後少帝 漢:BC184-5-丙辰 #建元前の即位{#前漢 #後少帝 #漢皇帝} #呂后
+
 def[後少帝]
 tag 前漢
 tag 漢土
 tag 漢民族
+
+%tag person
+%tag   name_ja 後少帝
+tag 後少帝
+tag 支那皇帝即位紀年
+
 name_tw 後少帝
 
 ## [102]
@@ -150,6 +238,9 @@ wref_zh 劉弘
 BC184 = 1
 u 1
 u 4
+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7003>"秋七月辛巳"
+->漢文帝前 漢:BC180-8-辛酉 #改元前の退位{#前漢 #後少帝 #漢皇帝}
 
 def[漢文帝前]
 ## Source:
@@ -159,6 +250,11 @@ tag 前漢
 tag 漢土
 tag 漢民族
 tag 前元
+tag 支那皇帝即位紀年
+
+%tag person
+%tag   name_ja 漢文帝
+tag 漢文帝
 
 wref_ja 文帝 (漢)
 
@@ -182,6 +278,13 @@ name_ja 文帝前
 name_tw 前
 name_cn 前
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7004>"即天子位"
+<-呂后,後少帝 漢:BC180-9'-29(己酉) j:BC180-11-14
+    #建元前の即位{#前漢 #漢文帝 #漢皇帝}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7004>"元年冬十月辛亥"
+s+
+u 1-10-辛亥
+
 def[漢文帝後]
 ## Source:
 sw 文帝後
@@ -190,6 +293,11 @@ tag 前漢
 tag 漢土
 tag 漢民族
 tag 後元
+
+tag 漢文帝
+
+name_ja 文帝後
+&
 
 ## [102]
 wref_zh 汉文帝
@@ -203,6 +311,19 @@ name_cn 后
 wref_ja 文帝 (漢)
 name_ja 後
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7004>"改元"
+#"秋九月，得玉杯，刻曰「人主延壽」。令天下大酺，明年改元。 "
+<-漢文帝前 [漢:BC162-9] #祥瑞{#前漢 #漢文帝} #事由
+<-漢文帝前 [漢:BC162-9] #年始改元決定{#前漢 #漢文帝}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7004>"後元年冬十月"
+<-漢文帝前 [漢:BC162-10] #年始改元実施{#前漢 #漢文帝}
+#           漢:BC161-10[秦]
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7004>"帝崩"
+->漢景帝前 漢:BC157-6-1(己亥) j:BC157-7-6 #改元前の死去{#前漢 #漢文帝}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7004>"孝文皇帝即位二十三年"
+&
+name 孝文皇帝即位
+
 def[漢景帝前]
 ## Source:
 sw 景帝前
@@ -211,6 +332,10 @@ tag 前漢
 tag 漢土
 tag 漢民族
 tag 前元
+
+%tag person
+%tag   name_ja 漢景帝
+tag 漢景帝
 
 name_ja 景帝前
 name_tw 景帝前
@@ -230,6 +355,11 @@ name_cn 汉景帝前元
 &
 name_ja 景帝
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7005>"即皇帝位"
+<-漢文帝後 漢:BC157-6-丁未 #建元前の即位{#前漢 #漢景帝 #漢皇帝}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7005>"元年冬十月"
+s+
+
 def[漢景帝中]
 ## Source:
 sw 景帝中
@@ -241,6 +371,8 @@ tag 中元
 BC149 = 1
 u 1
 u 6
+
+tag 漢景帝
 
 name_ja 景帝中
 &
@@ -256,6 +388,12 @@ wref_zh 汉景帝
 name_tw 中
 name_cn 中
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7005>"中元年夏四月"
+s+
+
+<-漢景帝前 [漢:BC150-10,漢:BC149-9] #支那改元日{#前漢 #漢景帝}
+#           漢:BC149[秦]
+
 def[漢景帝後]
 ## Source:
 sw 景帝後
@@ -265,6 +403,10 @@ tag 漢土
 tag 漢民族
 tag 後元
 
+tag 漢景帝
+
+name_ja 景帝後
+&
 name_ja 景帝後元
 &
 
@@ -276,13 +418,26 @@ u 3
 name_tw 後
 name_cn 后
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7005>"後元年春正月"
+s+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7005>"帝崩"
+->建元 漢:BC141-1-27(甲子) j:BC141-3-9 #改元前の死去{#前漢 #漢景帝}
+
+<-漢景帝中 [漢:BC144-10,漢:BC143-9] #支那改元日{#前漢 #漢景帝}
+#           漢:BC143[秦]
+
 [建元]
 #y~332
-AD-140 = 1
+BC140 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+tag 前元
+
+%tag person
+%tag   name_ja 漢武帝
+tag 漢武帝
 
 ## [102]
 name_tw 建元
@@ -293,6 +448,13 @@ wref_ja 建元 (漢)
 name_ja 建元
 name_kana けん げん
 tag 追号説のある元号
+tag 支那皇帝改元後紀年
+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"即皇帝位"
+<-漢景帝後 漢:BC141-1-甲子 j:BC141-3-9 #建元前の即位{#前漢 #漢武帝 #漢皇帝}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"建元元年"
+s+
+u 1-10
 
 &&
 ## [102]
@@ -301,11 +463,13 @@ name_cn 一元
 
 [元光]
 #y~259
-AD-134 = 1
+BC134 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢武帝
 
 ## [102]
 name_tw 元光
@@ -316,6 +480,10 @@ wref_ja 元光 (漢)
 name_ja 元光
 name_kana げん こう
 tag 追号説のある元号
+tag 支那皇帝改元後紀年
+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"元光元年"
+s+
 
 &&
 ## [102]
@@ -324,11 +492,13 @@ name_cn 二元
 
 [元朔]
 #y~427
-AD-128 = 1
+BC128 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢武帝
 
 ## [102]
 name_tw 元朔
@@ -339,6 +509,10 @@ wref_ja 元朔
 name_ja 元朔
 name_kana げん さく
 tag 追号説のある元号
+tag 支那皇帝改元後紀年
+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"元朔元年"
+s+
 
 &&
 ## [102]
@@ -347,38 +521,49 @@ name_cn 三元
 
 [元狩]
 #y~1523
-AD-122 = 1
+BC122 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
 
+tag 漢武帝
+
 ## [102]
 name_tw 元狩
 name_cn 元狩
 #<-元朔 元狩元年十月
+<-元朔 [漢:BC123-10] #支那改元日{#前漢 #漢武帝}
+#          BC122-10[秦]
 
 ## [103]
 wref_ja 元狩
 name_ja 元狩
 name_kana げん しゅ
 tag 追号説のある元号
+tag 支那皇帝改元後紀年
+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"元狩元年"
+s+
 
 &&
 ## [102]
 name_tw 四元
 name_cn 四元
 #四元七年正月甲寅造
-u 7-1
+u 7-1-甲寅
 
 [元鼎]
 #y~1560
-AD-116 = 1
+BC116 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
 tag 追号説のある元号
+tag 支那皇帝改元後紀年
+
+tag 漢武帝
 
 ## [102]
 name_tw 元鼎
@@ -389,6 +574,11 @@ wref_ja 元鼎
 name_ja 元鼎
 name_kana げん てい
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"元鼎元年"
+s+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"寶鼎"
+<-元狩 [漢:BC113-6] #鼎祥瑞{#前漢 #漢武帝}
+
 &&
 ## [102]
 name_tw 五元
@@ -396,17 +586,22 @@ name_cn 五元
 
 [元封]
 #y~767
-AD-110 = 1
+BC110 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
 
+tag 漢武帝
+
 ## [102]
 name_tw 元封
 name_cn 元封
 #<-元鼎 1-十月
+<-元鼎 [漢:BC111-10] #支那改元日{#前漢 #漢武帝}
+#      BC110-10[秦]
 tag 追号説のある元号
+tag 支那皇帝改元後紀年
 
 ## [103]
 wref_ja 元封 (漢)
@@ -415,13 +610,18 @@ name_kana げん ぽう
 u 1
 u 7
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"元封元年"
+s+
+
 [太初]
 #y~503
-AD-104 = 1
+BC104 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢武帝
 
 ## [102]
 name_tw 太初
@@ -432,13 +632,19 @@ wref_ja 太初 (漢)
 name_ja 太初
 name_kana たい しょ
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"太初元年冬十月"
+s+
+#"夏五月，正曆，以正月為歲首。色上黃，數用五，定官名，協音律。 "
+
 [天漢]
 #y~1211
-AD-100 = 1
+BC100 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢武帝
 
 ## [102]
 name_tw 天漢
@@ -449,13 +655,18 @@ wref_ja 天漢 (漢)
 name_ja 天漢
 name_kana てん かん
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"天漢元年"
+s+
+
 [太始]
 #y~1486
-AD-96 = 1
+BC96 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢武帝
 
 ## [102]
 name_tw 太始
@@ -466,20 +677,25 @@ wref_ja 太始 (漢)
 name_ja 太始
 name_kana たい し
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"太始元年"
+s+
+
 [征和]
 #y~1464
-AD-92 = 1
+BC92 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢武帝
 
 ## [102]
 name_tw 征和
 name_cn 征和
 #居延漢簡
 #征和五年正月庚申朔庚
-u 5
+u 5-1
 #[後元]元年九月丙戌朔丙戌
 
 ## [103]
@@ -493,13 +709,19 @@ name_ja 延和
 name_tw 延和
 name_cn 延和
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"征和元年"
+name 征和
+s+
+
 [後元]
 #y~1709
-AD-88 = 1
+BC88 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢武帝
 
 ## [102]
 name_tw 後元
@@ -513,6 +735,11 @@ wref_ja 後元
 name_ja 後元
 name_kana こう げん
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"後元元年春正月"
+s+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"帝崩于"
+->始元 漢:BC87-2-14(丁卯) j:BC87-3-29 #改元前の死去{#前漢 #漢武帝}
+
 &
 ## [102]
 name_tw 後
@@ -522,16 +749,20 @@ name_cn 后
 
 [始元]
 #y~1412
-AD-86 = 1
+BC86 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+tag 前元
+
+%tag person
+%tag   name_ja 漢昭帝
+tag 漢昭帝
 
 ## [102]
 name_tw 始元
 name_cn 始元
-
 
 ## [103]
 wref_ja 始元 (漢)
@@ -539,13 +770,20 @@ name_ja 始元
 name_kana し げん
 # BC86 - BC80-7
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7007>"即皇帝位"
+<-後元 漢:BC87-2-戊辰 #建元前の即位{#前漢 #漢昭帝 #漢皇帝}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7007>"始元元年春二月"
+s+
+
 [元鳳]
 #y~531
-AD-80 = 1
+BC80 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢昭帝
 
 ## [102]
 name_tw 元鳳
@@ -559,13 +797,18 @@ name_kana げん ぽう
 #BC80-8 - BC75
 #<-始元 BC80-8
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7007>"元鳳元年春"
+<-始元 [漢:BC80-8] #支那改元日{#前漢 #漢昭帝}
+
 [元平]
 #y~829
-AD-74 = 1
+BC74 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢昭帝
 
 ## [102]
 name_tw 元平
@@ -576,13 +819,21 @@ wref_ja 元平
 name_ja 元平
 name_kana げん ぺい
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7007>"元平元年春二月"
+s+
+->本始 漢:BC74-4-癸未 #改元前の死去{#前漢 #漢昭帝}
+
 [本始]
 #y~894
-AD-73 = 1
+BC73 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+%tag person
+%tag   name_ja 漢宣帝
+tag 漢宣帝
 
 ## [102]
 name_tw 本始
@@ -596,13 +847,20 @@ wref_ja 本始
 name_ja 本始
 name_kana ほん し
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7008>"即皇帝位"
+<-元平 漢:BC74-7-庚申 #建元前の即位{#前漢 #漢宣帝 #漢皇帝}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7008>"本始元年春正月"
+s+
+
 [地節]
 #y~527
-AD-69 = 1
+BC69 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢宣帝
 
 ## [102]
 name_tw 地節
@@ -614,13 +872,18 @@ wref_ja 地節
 name_ja 地節
 name_kana ち せつ
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7008>"地節元年春正月"
+s+
+
 [元康]
 #y~1014
-AD-65 = 1
+BC65 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢宣帝
 
 ## [102]
 name_tw 元康
@@ -639,13 +902,18 @@ name_ja 元康
 name_kana げん こう
 # BC65 - BC61-2
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7008>"元康元年春"
+s+
+
 [神爵]
 #y~548
-AD-61 = 1
+BC61 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢宣帝
 
 ## [102]
 name_tw 神爵
@@ -660,13 +928,18 @@ name_ja 神爵
 name_kana しん しゃく
 # BC61-3 - BC58
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7008>"神爵元年春正月"
+<-元康 [漢:BC61-3] #支那改元詔{#前漢 #漢宣帝}
+
 [五鳳]
 #y~118
-AD-57 = 1
+BC57 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢宣帝
 
 ## [102]
 name_tw 五鳳
@@ -677,13 +950,19 @@ wref_ja 五鳳 (漢)
 name_ja 五鳳
 name_kana ご ほう
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7008>"五鳳元年春正月"
+name 五鳳
+s+
+
 [甘露]
 #y~896
-AD-53 = 1
+BC53 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢宣帝
 
 ## [102]
 name_tw 甘露
@@ -695,13 +974,18 @@ wref_ja 甘露 (漢)
 name_ja 甘露
 name_kana かん ろ
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7008>"甘露元年春正月"
+s+
+
 [黃龍]
 #y~1314
-AD-49 = 1
+BC49 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢宣帝
 
 ## [102]
 name_tw 黃龍
@@ -715,13 +999,23 @@ name_ja 黄龍
 name_kana こう りょう
 name_kana こう りゅう
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7008>"黃龍元年春正月"
+name 黃龍
+s+
+->初元 漢:BC49-12-甲戌 #改元前の死去{#前漢 #漢宣帝}
+
 [初元]
 #y~227
-AD-48 = 1
+BC48 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+tag 前元
+
+%tag person
+%tag   name_ja 漢元帝
+tag 漢元帝
 
 ## [102]
 name_tw 初元
@@ -732,13 +1026,20 @@ wref_ja 初元
 name_ja 初元
 name_kana しょ げん
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7009>"即皇帝位"
+<-黃龍 漢:BC49-12-癸巳 #建元前の即位{#前漢 #漢元帝 #漢皇帝}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7009>"初元元年春正月辛丑"
+s+
+
 [永光]
 #y~1673
-AD-43 = 1
+BC43 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢元帝
 
 ## [102]
 name_tw 永光
@@ -749,31 +1050,42 @@ wref_ja 永光 (漢)
 name_ja 永光
 name_kana えい こう
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7009>"永光元年春正月"
+s+
+
 [建昭]
 #y~216
-AD-38 = 1
+BC38 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
 
+tag 漢元帝
+
 ## [102]
 name_tw 建昭
 name_cn 建昭
-#<-永光 BC39-[7,8]
+#建元與改元: <-永光 BC38-[7,8]
+<-永光 [漢:BC38-7,漢:BC38-8] #支那改元日{#前漢 #漢元帝}
 
 ## [103]
 wref_ja 建昭
 name_ja 建昭
 name_kana けん しょう
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7009>"建昭元年春三月"
+s+
+
 [竟寧]
 #y~1086
-AD-33 = 1
+BC33 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢元帝
 
 ## [102]
 name_tw 竟寧
@@ -784,13 +1096,22 @@ wref_ja 竟寧
 name_ja 竟寧
 name_kana きょう ねい
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7009>"竟寧元年春正月"
+name 竟寧
+<-建昭 [漢:BC33-1] #支那改元詔{#前漢 #漢元帝}
+->建始 漢:BC33-5-壬辰 #改元前の死去{#前漢 #漢元帝}
+
 [建始]
 #y~1310
-AD-32 = 1
+BC32 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+%tag person
+%tag   name_ja 漢成帝
+tag 漢成帝
 
 ## [102]
 name_tw 建始
@@ -802,13 +1123,20 @@ name_ja 建始
 name_kana けん し
 # BC32 - BC28-2
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7010>"即皇帝位"
+<-竟寧 漢:BC33-6-己未 #建元前の即位{#前漢 #漢成帝 #漢皇帝}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7010>"建始元年春正月乙丑"
+s+
+
 [河平]
 #y~464
-AD-28 = 1
+BC28 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢成帝
 
 ## [102]
 name_tw 河平
@@ -822,13 +1150,18 @@ name_ja 河平
 name_kana か へい
 # BC28-3 - BC25
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7010>"河平元年春三月"
+<-建始 [漢:BC28-3] #支那改元詔{#前漢 #漢成帝}
+
 [陽朔]
 #y~154
-AD-24 = 1
+BC24 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢成帝
 
 ## [102]
 name_tw 陽朔
@@ -839,33 +1172,45 @@ wref_ja 陽朔
 name_ja 陽朔
 name_kana よう さく
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7010>"陽朔元年"
+s+
+#"山陽火生石中，改元爲陽朔。陽朔元年。"
+
 [鴻嘉]
 #y~965
-AD-20 = 1
+BC20 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢成帝
 
 ## [102]
 name_tw 鴻嘉
 name_cn 鸿嘉
 #1-2-壬午
 u 1-2
-#<-陽朔 BC20-[4,5]
+#建元与改元
+<-陽朔 [漢:BC20-4,漢:BC20-5] #支那改元詔{#前漢 #漢成帝}
 
 ## [103]
 wref_ja 鴻嘉
 name_ja 鴻嘉
 name_kana こう か
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7010>"鴻嘉元年春二月"
+s+
+
 [永始]
 #y~1312
-AD-16 = 1
+BC16 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢成帝
 
 ## [102]
 name_tw 永始
@@ -877,49 +1222,69 @@ name_ja 永始
 name_kana えい し
 u 1-6
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7010>"永始元年春正月癸丑"
+s+
+
 [元延]
 #y~1075
-AD-12 = 1
+BC12 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
 
+tag 漢成帝
+
 ## [102]
 name_tw 元延
 name_cn 元延
-#<-永始 BC13-[6,7]
+<-永始 [漢:BC12-6,漢:BC12-7] #支那改元日{#前漢 #漢成帝}
 
 ## [103]
 wref_ja 元延
 name_ja 元延
 name_kana げん えん
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7010>"元延元年春正月己亥朔"
+s+
+
 [綏和]
 #y~1226
-AD-8 = 1
+BC8 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
 
+tag 漢成帝
+
 ## [102]
 name_tw 綏和
 name_cn 绥和
-#<-元延 BC8-4
+<-元延 [漢:BC8-4] #支那改元日{#前漢 #漢成帝}
 
 ## [103]
 wref_ja 綏和
 name_ja 綏和
 name_kana すい わ
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7010>"綏和元年春正月"
+name 綏和
+s+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7010>"帝崩于"
+->建平 漢:BC7-3-丙戌 #改元前の死去{#前漢 #漢成帝}
+
 [建平]
 #y~629
-AD-6 = 1
+BC6 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+%tag person
+%tag   name_ja 漢哀帝
+tag 漢哀帝
 
 ## [102]
 name_tw 建平
@@ -940,13 +1305,20 @@ name_kana けん ぺい
 tag 再開
 #<-太初元將 BC5-8
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7011>"即皇帝位"
+<-綏和 漢:BC7-4-丙午 #建元前の即位{#前漢 #漢哀帝 #漢皇帝}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7011>"建平元年春正月"
+s+
+
 [太初元將]
 #y~814
-AD-5 = 1
+BC5 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 漢哀帝
 
 ## [102]
 name_tw 太初元將
@@ -959,6 +1331,17 @@ name_kana たい しょ げん しょう
 # BC5-6 - BC5-8
 #<-建平 BC5-6
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7011>"太初元將"
+name 太初元將
+%tag person
+%tag   name_ja 丁氏
+tag 丁氏
+<-建平 漢:BC5-6-庚申 #改元前の死去{#前漢 #丁氏}
+<-建平 漢:BC5-6-甲子 #支那改元詔{#前漢 #漢哀帝}
+<-建平 [漢:BC5-8] #建元撤回{#前漢 #漢哀帝}
+->建平 [漢:BC5-8] #再開{#前漢 #漢哀帝}
+tag 建元撤回
+
 &
 ## [103]
 name_tw 太初
@@ -966,21 +1349,28 @@ name_cn 太初
 
 [元壽]
 #y~678
-AD-2 = 1
+BC2 = 1
 tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
 
+tag 漢哀帝
+
 ## [102]
 name_tw 元壽
 name_cn 元寿
-#<-建平 BC2-[12,12']
+<-建平 [漢:BC2-12,漢:BC2-12'] #支那改元日{#前漢 #漢哀帝}
 
 ## [103]
 wref_ja 元寿 (漢)
 name_ja 元寿
 name_kana げん じゅ
+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7011>"元壽元年春正月辛丑朔"
+s+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7011>"帝崩于"
+->元始 漢:BC1-6-戊午 #改元前の死去{#前漢 #漢哀帝}
 
 &
 ## [102]
@@ -994,6 +1384,10 @@ tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+%tag person
+%tag   name_ja 漢平帝
+tag 漢平帝
 
 ## [102]
 name_tw 元始
@@ -1009,9 +1403,23 @@ name_kana げん し
 u 1
 u 5
 #
-#居延漢簡
+tag 居延漢簡
 tag 内蒙古
 u 26
+
+## <https://read01.com/o0Q4dL.html#:~:text=元始廿六年>
+#"元始廿六年": "據考是竇融所採用的年號", "河西漢簡之中"
+tag 河西
+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7011>"即皇帝位"
+<-元壽 漢:BC1-9-辛酉 #建元前の即位{#前漢 #漢平帝 #漢皇帝}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7011>"元始元年春正月"
+s+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7011>"帝崩于"
+#->居攝 漢:5-12-丙午 #改元前の死去{#前漢 #漢平帝}
+#no such day
+
+->居攝 漢:5-12-16 j:6-2-3 #改元前の死去{#前漢 #漢平帝}
 
 [居攝]
 #y~754
@@ -1070,6 +1478,7 @@ name_cn 始初
 
 %tag country
 %tag   name_ja 新
+%tag   period of 中国
 
 %tag person
 %tag   name_ja 王莽
@@ -1230,6 +1639,16 @@ s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B7
 ->建世 [漢:25-9] #陥落{#赤眉, #漢_(更始朝) #更始帝 #長安} #赤眉 #後漢
 ->建世 [漢:25-9] #改元前の退位{#漢_(更始朝) #更始帝 #漢皇帝} #赤眉 #後漢
 
+## <https://tohoku.repo.nii.ac.jp/?action=repository_uri&item_id=51048&file_id=18&file_no=1>
+u 3
+tag 居延漢簡
+tag 河西
+<-復漢 [漢:23-7,漢:25-9] #勢力吸収{#漢_(更始朝), #河西 #竇融}
+tag 竇融
+
+%tag person
+%tag   name_ja 竇融
+
 [建世]
 #y~664
 
@@ -1283,9 +1702,18 @@ s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B7
 ->建武(乙酉) <-建世,建始(乙酉) 漢:27-1'-丙午 j:27-3-15
     #陥落{#後漢, #漢_(赤眉) #劉盆子}
 
+## <https://tohoku.repo.nii.ac.jp/?action=repository_uri&item_id=51048&file_id=18&file_no=1>
+u 2
+tag 居延漢簡
+tag 河西
+tag 竇融
+
+## <https://read01.com/o0Q4dL.html#:~:text=建世二年>
+#"因為「建世二年」簡所載月份有正月、二月、三月等不同，則竇融在建武二年二月未受建武正朔據此是可以確定的(13)。"
+
 def[建始(乙酉)]
 
-tag 異説
+tag 旧説
 
 tag 漢土
 tag 漢民族
@@ -1306,7 +1734,7 @@ name_cn 建始
 
 AD23 = 1
 
-tag 異説
+tag 旧説
 
 tag 漢土
 tag 漢民族
@@ -1331,7 +1759,7 @@ name_ja 漢復
 name_kana かん ふく
 #23 - 34
 #中国歴代年号考: - 34-10
-#>< [漢:33-1,漢:33-4] #死去{#隗囂}
+#>< [漢:33-1,漢:33-3] #死去{#隗囂}
 #      33-春
 %tag person
 %tag   name_ja 隗純
@@ -1359,14 +1787,19 @@ u 1-7-己巳
 <-更始 ->漢復,復漢,朔寧 [漢:25,漢:25-9]
                       #勢力吸収{#隗囂, #漢_(更始朝)} #後漢 #赤眉
 #                                       残党
+<-更始 ->漢復,復漢,朔寧 [漢:25,漢:25-9] #勢力吸収{#隗囂, #竇融} #後漢
+->建武(乙酉) <-漢復,復漢,朔寧 [漢:27] #勢力吸収{#後漢 #光武帝, #隗囂}
 ->龍興(乙酉) <-漢復,復漢,朔寧 [漢:30] #勢力吸収{#成家 #公孫述, #隗囂} #後漢
 %tag position
 %tag   name_ja 朔寧王
 ->龍興(乙酉),朔寧王隗囂 [漢:31] #建元前の即位{#隗囂 #朔寧王 #成家} #後漢
-#>< [漢:33-1,漢:33-4] #死去{#隗囂} #後漢
+#>< [漢:33-1,漢:33-3] #死去{#隗囂} #後漢
 #  33-春
 #->建武(乙酉) [漢:34] #陥落{#後漢, #隗純}
 #->龍興(乙酉) [漢:34] #勢力吸収{#成家 #公孫述, #王元} #後漢
+
+## <https://ja.wikipedia.org/wiki/%E7%AB%87%E8%9E%8D>
+#"隗囂が、光武帝に服属して建武の元号を使用していた"
 
 ## <https://ja.wikipedia.org/wiki/%E9%9A%97%E7%B4%94>
 ->建武(乙酉) <-漢復,復漢,朔寧,朔寧王隗囂 [漢:33-1]
@@ -1380,6 +1813,8 @@ u 1-7-己巳
     #建元前の即位{#隗純 #朔寧王 #成家} #後漢
 
 def[復漢]
+
+AD23 = 1
 
 tag 漢土
 tag 漢民族
@@ -1401,6 +1836,12 @@ tag 居延漢簡
 tag 内蒙古
 #"復漢元年"
 u 1
+
+## <https://tohoku.repo.nii.ac.jp/?action=repository_uri&item_id=51048&file_id=18&file_no=1>
+u 1
+tag 居延漢簡
+tag 河西
+tag 竇融
 
 def[朔寧]
 
@@ -1558,6 +1999,17 @@ s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B7
 <-更始 漢:25-6-己未 #建元前の即位{#後漢 #光武帝 #漢皇帝}
 #春秋演孔圖
 <-更始 漢:25-6-己未 #支那改元日{#後漢 #光武帝} #起事建元
+
+## <https://tohoku.repo.nii.ac.jp/?action=repository_uri&item_id=51048&file_id=18&file_no=1>
+u 3-12
+tag 居延漢簡
+tag 河西
+tag 竇融
+
+## <https://ja.wikipedia.org/wiki/%E7%AB%87%E8%9E%8D>
+>< [漢:29-4,漢:29-6] #連合{#後漢 #光武帝, #竇融}
+#   漢:29-夏
+
 
 [建武中元]
 #y~869
@@ -2520,6 +2972,12 @@ s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B7
 #"以黃巾既平，故改年為中平。"
 <-光和 [漢:184-10] #鎮圧{#後漢, #黄巾党} #事由 #黄巾の乱
 
+%tag country
+%tag   name_ja 公孫氏政権
+tag 遼東
+tag 楽浪郡
+tag 公孫氏政権
+
 [光熹]
 #y~644
 AD189 = 1
@@ -2641,12 +3099,14 @@ name_kana しょ へい
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B79>"詔除光熹"
 #"詔除光熹、昭寧、永漢三號，還復中平六年。 "
 <-中平 ->光熹,昭寧,永漢 漢:189-12-戊戌 #建元撤回{#後漢 #献帝} #董卓
+->中平 <-永漢 漢:189-12-戊戌 #再開{#後漢 #献帝} #董卓
 #no such day; -12'-戊戌
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B79>"初平元年"
 s+
 
 <-中平 [漢:190] #支那改元日{#後漢 #献帝} #董卓
 <-中平 ->光熹,昭寧,永漢 [漢:189-12] #建元撤回{#後漢 #献帝} #董卓 #異説
+->中平 <-永漢 [漢:189-12] #再開{#後漢 #献帝} #董卓 #異説
 
 [興平]
 #y~461
@@ -2732,6 +3192,11 @@ tag 劉備
 
 tag 孫呉
 tag 孫権
+
+tag 遼東
+tag 楽浪郡
+tag 帯方郡
+tag 公孫氏政権
 
 [延康]
 #y~487

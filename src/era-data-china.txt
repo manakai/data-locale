@@ -96,6 +96,25 @@
 %tag   group of 即位紀年
 
 %tag tag
+%tag   name_ja 支那皇帝即位紀年
+%tag   group of 東洋式即位紀年
+
+%tag tag
+%tag   name_ja 前元
+%tag   group of 支那皇帝即位紀年
+
+%tag tag
+%tag   name_ja 支那皇帝改元後紀年
+
+%tag tag
+%tag   name_ja 中元
+%tag   group of 支那皇帝改元後紀年
+
+%tag tag
+%tag   name_ja 後元
+%tag   group of 支那皇帝改元後紀年
+
+%tag tag
 %tag   name_ja 中華王朝の公年号
 %tag   group of 公年号
 
@@ -137,6 +156,10 @@
 %tag region
 %tag   name_ja 漢
 %tag   region of 漢土
+
+%tag position
+%tag   name_ja 漢王
+%tag   group of 王 (支那)
 
 %tag position
 %tag   name_ja 漢皇帝
@@ -221,6 +244,14 @@
 %tag   name_ja 秦王
 %tag   group of 王 (支那)
 
+%tag position
+%tag   name_ja 秦皇帝
+%tag   group of 支那皇帝
+
+%tag region
+%tag   name_ja 河西
+%tag   region of 漢土
+
 def[秦始皇]
 ## Source:
 sw 秦始皇
@@ -234,9 +265,10 @@ tag 漢土
 %tag   period of 中国
 tag 秦帝国
 
-%tag position
-%tag   name_ja 秦皇帝
-%tag   group of 支那皇帝
+%tag person
+%tag   name_ja 始皇帝
+tag 始皇帝
+tag 支那皇帝即位紀年
 
 name_tw 秦王政
 name_ja 秦王政
@@ -259,6 +291,8 @@ u 25
 u 26
 u 37
 
+->秦二世 [秦:BC210-7] #改元前の死去{#秦帝国 #始皇帝 #秦皇帝}
+
 def[秦二世]
 ## Source:
 sw 秦二世
@@ -266,6 +300,11 @@ sw 秦二世
 tag 秦帝国
 tag 漢民族
 tag 漢土
+tag 支那皇帝即位紀年
+
+%tag person
+%tag   name_ja 胡亥
+tag 胡亥
 
 name_tw 秦二世
 name_ja 秦二世
@@ -273,12 +312,29 @@ name_ja 秦二世
 name_ja 二世
 &
 name_ja 秦二世皇帝
+&
+name_ja 秦
 
 ## [102]
 wref_zh 秦二世
 BC209 = 1
 u 1
 u 3
+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8A>"秦二世元年秋七月"
+s+
+u 1
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8A>"秦二年十月"
+s+
+u 2
+u 3
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8A>"秦相趙高"
+->秦王子嬰 [秦:BC207-8] #改元前の死去{#秦帝国 #胡亥}
+
+## <https://ja.wikipedia.org/wiki/%E8%83%A1%E4%BA%A5>
+# BC210-9 - BC207-10 (julian ?)
+# BC210-7...-9 - BC207-8
+<-秦始皇 [秦:BC210-7] #建元前の即位{#秦帝国 #胡亥 #秦皇帝}
 
 def[秦王子嬰]
 ## Source:
@@ -290,6 +346,11 @@ tag 漢土
 BC206 = 1
 u 1
 
+%tag person
+%tag   name_ja 子嬰
+tag 子嬰
+tag 王の即位紀年
+
 name_ja 秦王子嬰
 name_cn 秦王子婴
 &
@@ -298,6 +359,8 @@ name_ja 秦子嬰
 name_ja 子嬰
 name_tw 子嬰
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8A>"子嬰"
+<-秦二世 [秦:BC207-9] #建元前の即位{#秦帝国 #子嬰 #秦王}
 
 
 [白鳥]
@@ -903,17 +966,17 @@ name_kana ご ほう
 
 ## <https://ja.wikipedia.org/wiki/%E7%AB%87%E5%BB%BA%E5%BE%B3>
 <-丁丑 [唐:618,唐:618-7] #建元前の即位{#夏_(竇建徳) #竇建徳 #夏王} #異説
-<-丁丑 [唐:618,唐:618-7] #支那改元日{#夏_(竇建徳) #竇建徳} #起事建元 #異説
+<-丁丑 [唐:618,唐:618-7] #支那改元日{#夏_(竇建徳) #竇建徳} #異説
 
 ## <https://zh.wikipedia.org/wiki/%E7%AA%A6%E5%BB%BA%E5%BE%B7>
 #618-冬至
 #<-丁丑 唐:618-11-27 #建元前の即位{#夏_(竇建徳) #竇建徳 #夏王}
-#<-丁丑 唐:618-11-27 #支那改元日{#夏_(竇建徳) #竇建徳} #起事建元
+#<-丁丑 唐:618-11-27 #支那改元日{#夏_(竇建徳) #竇建徳}
 
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B754>"為五鳳"
 #武德元年冬至日
 <-丁丑 唐:618-11-27 #建元前の即位{#夏_(竇建徳) #竇建徳 #夏王}
-<-丁丑 唐:618-11-27 #支那改元日{#夏_(竇建徳) #竇建徳} #起事建元
+<-丁丑 唐:618-11-27 #支那改元日{#夏_(竇建徳) #竇建徳}
 
 ->武德 [唐:621] #陥落{#唐, #夏_(竇建徳) #竇建徳}
 ->武德 [唐:621-7] #改元前の死去{#夏_(竇建徳) #竇建徳} #唐
