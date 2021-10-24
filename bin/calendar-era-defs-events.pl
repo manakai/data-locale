@@ -168,6 +168,16 @@ sub year2kanshi0 ($) {
 
 my $KMaps = {};
 my $GToKMapKey = {
+  秦 => 'shinkan',
+  漢 => 'shinkan',
+  蜀 => 'shinkan',
+  呉 => 'go',
+  魏 => 'gishin',
+  晋 => 'gishin',
+  隋 => 'zuitou',
+  唐 => 'zuitou',
+  宋 => 'sou',
+  元 => 'zuitou',
   明 => 'zuitou',
   清 => 'shin',
   中華民国 => 'hk',
@@ -373,15 +383,41 @@ sub ssday ($$) {
              gregorian => $g,
              julian => $jj};
 
+  if ($tag_ids->{1344}) { # グレゴリオ暦
+    $day->{year} = $y;
+  }
+
   if ($tag_ids->{1008} or # 中国
+      $tag_ids->{1086} or # 蒙古
       $tag_ids->{1084} or # 後金
       $tag_ids->{1009}) { # 漢土
     if ($y >= 1912) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '中華民国', $y, $m, $d;
     } elsif ($y >= 1645+1) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '清', $y, $m, $d;
-    } elsif ($y >= 1000) { # XXX
+    } elsif ($y >= 1367) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '明', $y, $m, $d;
+    } elsif ($y >= 1260) {
+      $day->{nongli_tiger} = ymmd2string gymd2nymmd '元', $y, $m, $d;
+    } elsif ($y >= 960) {
+      $day->{nongli_tiger} = ymmd2string gymd2nymmd '宋', $y, $m, $d;
+    } elsif ($y >= 618) {
+      $day->{nongli_tiger} = ymmd2string gymd2nymmd '唐', $y, $m, $d;
+    } elsif ($y >= 581) {
+      $day->{nongli_tiger} = ymmd2string gymd2nymmd '隋', $y, $m, $d;
+    } elsif ($y >= 265) {
+      $day->{nongli_tiger} = ymmd2string gymd2nymmd '晋', $y, $m, $d;
+    } elsif ($y >= 237) {
+      $day->{nongli_tiger} = ymmd2string gymd2nymmd '魏', $y, $m, $d;
+    } elsif ($y >= -205) {
+      $day->{nongli_tiger} = ymmd2string gymd2nymmd '漢', $y, $m, $d;
+    } elsif ($y >= -245) {
+      $day->{nongli_tiger} = ymmd2string gymd2nymmd '秦', $y, $m, $d;
+    }
+    if (not defined $day->{year} and
+        defined $day->{nongli_tiger} and
+        $day->{nongli_tiger} =~ m{^(-?[0-9]+)}) {
+      $day->{year} = 0+$1;
     }
   }
 
@@ -389,8 +425,16 @@ sub ssday ($$) {
     my $k = g2k_undef ymd2string $y, $m, $d;
     $day->{kyuureki} = $k if defined $k;
     #// die "No kyuureki date for ($y, $m, $d)";
+    if (not $tag_ids->{1344} and # グレゴリオ暦
+        defined $k and $k =~ m{^(-?[0-9]+)}) {
+      die "($y, $m, $d) $1, $day->{year}; ", perl2json_bytes $tag_ids
+          if defined $day->{year} and $day->{year} != $1;
+      $day->{year} = 0+$1;
+    }
   }
   
+  $day->{year} //= $y;
+
   return $day;
 } # ssday
 
@@ -503,7 +547,7 @@ for my $era (values %{$Data->{eras}}) {
         ($tr->{type} eq 'firstday' or
          $tr->{type} eq 'wartime')) { # has day or day_start
       my $y = extract_day_year $tr->{day} // $tr->{day_start}, $tr->{tag_ids};
-      unless ($tr->{type} eq 'wartime') {
+      if (not $tr->{type} eq 'wartime') {
         $era->{start_year} //= $y;
         $era->{start_year} = $y if $y < $era->{start_year};
         if (defined $tr->{day}) {
@@ -562,7 +606,8 @@ for my $era (values %{$Data->{eras}}) {
       }
       $day //= $tr->{day_start};
       my $y = extract_day_year $day, $tr->{tag_ids};
-      unless ($tr->{type} eq 'wartime') {
+      if (not $tr->{type} eq 'wartime' and
+          not $tr->{tag_ids}->{1359}) { # 起事建元
         $era->{end_year} //= $y;
         $era->{end_year} = $y if $era->{end_year} < $y;
         if (defined $day) {
@@ -705,6 +750,12 @@ for my $era (values %{$Data->{eras}}) {
          (not defined $era->{start_year} or
           not $era->{start_year} <= $era->{end_year});
 
+  if (defined $era->{end_year} and
+      defined $era->{end_day} and
+      $era->{end_year} != $era->{end_day}->{year}) {
+    delete $era->{end_day};
+  }
+  
   $era->{known_oldest_year} //= $era->{start_year}
       if defined $era->{start_year};
   $era->{known_oldest_year} = $era->{start_year}

@@ -373,7 +373,7 @@ $KMaps->{kyuureki} = $k2g_map;
 }
 
 sub year_start_jd ($$) {
-  my ($year, $tag_ids) = @_;
+  my ($y, $tag_ids) = @_;
 
   my @jd;
 
@@ -382,18 +382,49 @@ sub year_start_jd ($$) {
        $tag_ids->{1084} or # 後金
        $tag_ids->{1009}) and # 漢土
       not $tag_ids->{1344}) { # グレゴリオ暦
-    if ($year >= 1912) {
-      push @jd, nymmd2jd '中華民国', $year, 1, 0, 1;
-    } elsif ($year >= 1645+1) {
-      push @jd, nymmd2jd '清', $year, 1, 0, 1;
-    } elsif ($year >= 1000) { # XXX
-      push @jd, nymmd2jd '明', $year, 1, 0, 1;
+    if ($y >= 1912) {
+      push @jd, nymmd2jd '中華民国', $y, 1, 0, 1;
+    } elsif ($y >= 1645+1) {
+      push @jd, nymmd2jd '清', $y, 1, 0, 1;
+    } elsif ($y >= 1367) {
+      push @jd, nymmd2jd '明', $y, 1, 0, 1;
+    } elsif ($y >= 1260) {
+      push @jd, nymmd2jd '元', $y, 1, 0, 1;
+    } elsif ($y >= 960) {
+      push @jd, nymmd2jd '宋', $y, 1, 0, 1;
+    } elsif ($y >= 618) {
+      if ((690 <= $y and $y <= 700) or $y == 762) {
+        push @jd, nymmd2jd '唐', $y-1, 11, 0, 1;
+      } else {
+        push @jd, nymmd2jd '唐', $y, 1, 0, 1;
+      }
+    } elsif ($y >= 581) {
+      push @jd, nymmd2jd '隋', $y, 1, 0, 1;
+    } elsif ($y >= 265) {
+      push @jd, nymmd2jd '晋', $y, 1, 0, 1;
+    } elsif ($y >= 237) {
+      if (($y == 238 or $y == 239) and
+          $tag_ids->{1153}) { # 魏の公年号
+        push @jd, nymmd2jd '魏', $y-1, 12, 0, 1;
+      } else {
+        push @jd, nymmd2jd '魏', $y, 1, 0, 1;
+      }
+    } elsif ($y >= -205) {
+      if ($tag_ids->{1161}) { # 新の公年号
+        push @jd, nymmd2jd '漢', $y-1, 12, 0, 1;
+      } elsif ($y <= -103) {
+        push @jd, nymmd2jd '漢', $y-1, 10, 0, 1;
+      } else {
+        push @jd, nymmd2jd '漢', $y, 1, 0, 1;
+      }
+    } elsif ($y >= -245) {
+      push @jd, nymmd2jd '秦', $y-1, 10, 0, 1;
     }
   }
 
   if ($tag_ids->{1003} and # 日本
       not $tag_ids->{1344}) { # グレゴリオ暦
-    my $g = k2g_undef ymmd2string $year, 1, 0, 1;
+    my $g = k2g_undef ymmd2string $y, 1, 0, 1;
     if (defined $g) {
       $g =~ /^(-?[0-9]+)-([0-9]+)-([0-9]+)$/
           or die "Bad gregorian date |$g|";
@@ -402,7 +433,7 @@ sub year_start_jd ($$) {
   }
 
   if ($tag_ids->{1344}) { # グレゴリオ暦
-    push @jd, gymd2jd $year, 1, 1;
+    push @jd, gymd2jd $y, 1, 1;
   }
 
   return undef unless @jd;
@@ -434,6 +465,10 @@ sub ssday ($$) {
              gregorian => $g,
              julian => $jj};
 
+  if ($tag_ids->{1344}) { # グレゴリオ暦
+    $day->{year} = $y;
+  }
+
   if ($tag_ids->{1008} or # 中国
       $tag_ids->{1086} or # 蒙古
       $tag_ids->{1084} or # 後金
@@ -461,13 +496,26 @@ sub ssday ($$) {
     } elsif ($y >= -245) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '秦', $y, $m, $d;
     }
+    if (not defined $day->{year} and
+        defined $day->{nongli_tiger} and
+        $day->{nongli_tiger} =~ m{^(-?[0-9]+)}) {
+      $day->{year} = 0+$1;
+    }
   }
 
   if ($tag_ids->{1003}) { # 日本
     my $k = g2k_undef ymd2string $y, $m, $d;
     $day->{kyuureki} = $k if defined $k;
     #// die "No kyuureki date for ($y, $m, $d)";
+    if (not $tag_ids->{1344} and # グレゴリオ暦
+        defined $k and $k =~ m{^(-?[0-9]+)}) {
+      die "($y, $m, $d) $1, $day->{year}; ", perl2json_bytes $tag_ids
+          if defined $day->{year} and $day->{year} != $1;
+      $day->{year} = 0+$1;
+    }
   }
+
+  $day->{year} //= $y;
   
   return $day;
 } # ssday
@@ -526,16 +574,32 @@ sub set_object_tag ($$) {
   }
 } # set_object_tag
 
-sub copy_transition_tags ($$) {
-  my ($from, $to) = @_;
+sub copy_transition_tags ($$;%) {
+  my ($from, $to, %args) = @_;
   for (keys %{$from->{tag_ids}}) {
     set_object_tag $to, $from->{tag_ids}->{$_} if {
       country => 1,
       region => 1,
       calendar => 1,
     }->{$Tags->{$_}->{type}};
+    set_object_tag $to, $from->{tag_ids}->{$_}
+        if not $args{tail} and
+           {
+             1359 => '起事建元',
+             1161 => '新の公年号',
+             1153 => '魏の公年号',
+           }->{$_};
   }
 } # copy_transition_tags
+
+sub parse_year ($) {
+  my $s = shift;
+  if ($s =~ s/^BC//) {
+    return 1 - $s;
+  } else {
+    return 0+$s;
+  }
+} # parse_year
 
 sub parse_date ($$;%) {
   my ($all, $v, %args) = @_;
@@ -544,13 +608,13 @@ sub parse_date ($$;%) {
   while (length $v) {
     if ($v =~ s{^([0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
       push @jd, gymd2jd $1, $2, $3; # XXX
-    } elsif ($v =~ s{^g:([0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
-      push @jd, gymd2jd $1, $2, $3;
-    } elsif ($v =~ s{^j:([0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
-      push @jd, jymd2jd $1, $2, $3;
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|隋|唐|宋|元|明|清|中華人民共和国):([0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
-      push @jd, nymmd2jd $1, $2, $4, $5, $6;
-      push @jd, nymmk2jd $1, $2, $4, $5, $7;
+    } elsif ($v =~ s{^g:((?:-|BC|)[0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
+      push @jd, gymd2jd parse_year ($1), $2, $3;
+    } elsif ($v =~ s{^j:((?:-|BC|)[0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
+      push @jd, jymd2jd parse_year ($1), $2, $3;
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|隋|唐|宋|元|明|清|中華人民共和国):((?:-|BC|)[0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
+      push @jd, nymmd2jd $1, parse_year ($2), $4, $5, $6;
+      push @jd, nymmk2jd $1, parse_year ($2), $4, $5, $7;
       if (defined $3) {
         my $ky2 = label_to_kanshi0 $3;
         my $ky1 = year2kanshi0 $2;
@@ -558,15 +622,15 @@ sub parse_date ($$;%) {
           die "Year mismatch ($ky1 vs $ky2) |$all|";
         }
       }
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|隋|唐|宋|元|明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
-      push @jd, nymmd2jd $1, $2, $3, $4, $5;
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|隋|唐|宋|元|明|清|中華人民共和国):([0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
-      push @jd, nymmk2jd $1, $2, $3, $4, $5;
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|隋|唐|宋|元|明|清|中華人民共和国|k):([0-9]+)-([0-9]+)('|)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|隋|唐|宋|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
+      push @jd, nymmd2jd $1, parse_year ($2), $3, $4, $5;
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|隋|唐|宋|元|明|清|中華人民共和国):((?:-|BC|)[0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
+      push @jd, nymmk2jd $1, parse_year ($2), $3, $4, $5;
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|隋|唐|宋|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)\s*}{}) {
       if ($args{start}) {
-        push @jd, nymmd2jd $1, $2, $3, $4, 1;
+        push @jd, nymmd2jd $1, parse_year ($2), $3, $4, 1;
       } elsif ($args{end}) {
-        push @jd, nymmd2jd $1, $2, $3, $4, '末';
+        push @jd, nymmd2jd $1, parse_year ($2), $3, $4, '末';
       } else {
         die "Bad date |$v| ($all)";
       }
@@ -584,11 +648,11 @@ sub parse_date ($$;%) {
       } else {
         die "Bad date |$v| ($all)";
       }
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|隋|唐|宋|元|明|清|中華人民共和国|k):([0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|隋|唐|宋|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)\s*}{}) {
       if ($args{start}) {
-        push @jd, nymmd2jd $1, $2, 1, '', 1;
+        push @jd, nymmd2jd $1, parse_year ($2), 1, '', 1;
       } elsif ($args{end}) {
-        push @jd, -1 + nymmd2jd $1, $2+1, 1, '', 1;
+        push @jd, -1 + nymmd2jd $1, parse_year ($2) + 1, 1, '', 1;
       } else {
         die "Bad date |$v| ($all)";
       }
@@ -790,8 +854,8 @@ for my $tr (@$Input) {
     my $z = {};
     my $z2 = {};
     copy_transition_tags $x => $y;
-    copy_transition_tags $x => $z;
-    copy_transition_tags $x => $z2;
+    copy_transition_tags $x => $z, tail => 1;
+    copy_transition_tags $x => $z2, tail => 1;
     set_object_tag $y, '日本朝廷改元前日'
         if $x->{tag_ids}->{1325}; # 日本朝廷改元日
     set_object_tag $y, '大日本帝国改元前日'
@@ -915,8 +979,7 @@ for (@$Transitions) {
     }
   } elsif ($x->{tag_ids}->{1124}) { # 実施中止
     $type = 'canceled';
-  } elsif ($x->{tag_ids}->{1121} or # 建元撤回
-           $x->{tag_ids}->{1739}) { # 改元撤回
+  } elsif ($x->{tag_ids}->{1843}) { # 撤回
     $type = 'canceled';
   } elsif ($x->{tag_ids}->{1191}) { # 事由
     $type = 'triggering';
