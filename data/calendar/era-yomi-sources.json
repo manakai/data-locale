@@ -1581,6 +1581,8 @@
             ],
             "6104" : [
                "ぜう りやく",
+               "jyou ryaku",
+               "jyō ryaku",
                "zyou ryaku",
                "zyō ryaku",
                "せう りやく",
@@ -1736,6 +1738,8 @@
                "jō gan"
             ],
             "6104" : [
+               "jyou gan",
+               "jyō gan",
                "zyou gan",
                "zyō gan"
             ]
@@ -1759,6 +1763,7 @@
                "ten jun"
             ],
             "6104" : [
+               "ten jyun",
                "ten zyun"
             ]
          }
@@ -3782,6 +3787,8 @@
                "ka syou",
                "ka syō",
                "か ぜう",
+               "ka jyou",
+               "ka jyō",
                "ka zyou",
                "ka zyō"
             ],
@@ -4315,6 +4322,7 @@
                "ten ju"
             ],
             "6104" : [
+               "ten jyu",
                "ten zyu"
             ],
             "6107" : [
@@ -5078,6 +5086,7 @@
                "ten jun"
             ],
             "6104" : [
+               "ten jyun",
                "ten zyun"
             ]
          }
@@ -7945,6 +7954,8 @@
                "jō gen"
             ],
             "6104" : [
+               "jyou gen",
+               "jyō gen",
                "zyou gen",
                "zyō gen"
             ]
@@ -8256,6 +8267,8 @@
             "6104" : [
                "じよう じ",
                "でう ぢ",
+               "jyou zi",
+               "jyō zi",
                "zyou zi",
                "zyō zi",
                "tei zi"
@@ -9409,6 +9422,7 @@
                "ei jun"
             ],
             "6104" : [
+               "ei jyun",
                "ei zyun"
             ]
          }
@@ -10249,6 +10263,7 @@
                "nin shu"
             ],
             "6104" : [
+               "nin jyu",
                "nin zyu",
                "nin syu"
             ]
@@ -10431,6 +10446,8 @@
             "6104" : [
                "じよう きゆう",
                "ぜう きう",
+               "jyou kyuu",
+               "jyō kyū",
                "zyou kyuu",
                "zyō kyū",
                "しやう きう",
@@ -11823,6 +11840,8 @@
                "ぢゃう げん",
                "ぢやう ぐゑん",
                "ぢやう げん",
+               "jyou gen",
+               "jyō gen",
                "zyou gen",
                "zyō gen"
             ],
@@ -12148,6 +12167,7 @@
                "jun ten"
             ],
             "6104" : [
+               "jyun ten",
                "zyun ten"
             ]
          }
@@ -12539,6 +12559,7 @@
                "ten jun"
             ],
             "6104" : [
+               "ten jyun",
                "ten zyun"
             ]
          }
@@ -12736,6 +12757,8 @@
                "jun ' yū"
             ],
             "6104" : [
+               "jyun ' yuu",
+               "jyun ' yū",
                "zyun ' yuu",
                "zyun ' yū"
             ]
@@ -12778,6 +12801,7 @@
                "rei ju"
             ],
             "6104" : [
+               "rei jyu",
                "rei zyu"
             ]
          }
@@ -14187,6 +14211,8 @@
                "じやう おう",
                "じよう おう",
                "ぢやう をう",
+               "jyou ou",
+               "jyō ō",
                "zyou ou",
                "zyō ō",
                "てい をう",
@@ -14588,7 +14614,9 @@
                "tyō syō",
                "ちやう じやう",
                "ちやう ぜう",
+               "tyou jyou",
                "tyou zyou",
+               "tyō jyō",
                "tyō zyō"
             ],
             "6107" : [
@@ -15428,6 +15456,8 @@
             ],
             "6104" : [
                "じよう えい",
+               "jyou ei",
+               "jyō ei",
                "zyou ei",
                "zyō ei",
                "てい ゑい",
@@ -16501,6 +16531,7 @@
                "jun ten"
             ],
             "6104" : [
+               "jyun ten",
                "zyun ten"
             ]
          }
@@ -18373,6 +18404,8 @@
             "6104" : [
                "じやう きやう",
                "じよう きよう",
+               "jyou kyou",
+               "jyō kyō",
                "zyou kyou",
                "zyō kyō",
                "tyou kyou",
@@ -18583,6 +18616,8 @@
                "じよう わ",
                "ぢやう わ",
                "でう わ",
+               "jyou wa",
+               "jyō wa",
                "zyou wa",
                "zyō wa"
             ],
@@ -18661,6 +18696,10 @@
             "6104" : [
                "jo mei - ten nou",
                "jo mei - ten nō",
+               "jyo mei - ten ' nou",
+               "jyo mei - ten ' nō",
+               "jyo mei - ten nou",
+               "jyo mei - ten nō",
                "zyo mei - ten ' nou",
                "zyo mei - ten ' nō",
                "zyo mei - ten nou",
@@ -19262,6 +19301,8 @@
             ],
             "6104" : [
                "じよう おう",
+               "jyou ou",
+               "jyō ō",
                "zyou ou",
                "zyō ō",
                "せう をう",
@@ -19585,6 +19626,8 @@
                "しよう りやく",
                "syou ryaku",
                "syō ryaku",
+               "jyou ryaku",
+               "jyō ryaku",
                "zyou ryaku",
                "zyō ryaku",
                "syou reki",
@@ -19920,6 +19963,7 @@
                "shi jun"
             ],
             "6104" : [
+               "si jyun",
                "si zyun"
             ]
          }
@@ -19961,6 +20005,7 @@
                "jun ki"
             ],
             "6104" : [
+               "jyun ki",
                "zyun ki"
             ]
          }
@@ -20818,6 +20863,8 @@
             "6104" : [
                "じよう ぐえん",
                "じよう げん",
+               "jyou gen",
+               "jyō gen",
                "zyou gen",
                "zyō gen",
                "せう げん",
@@ -21198,6 +21245,8 @@
                "jō gen"
             ],
             "6104" : [
+               "jyou gen",
+               "jyō gen",
                "zyou gen",
                "zyō gen"
             ]
@@ -21615,6 +21664,7 @@
                "dai jun"
             ],
             "6104" : [
+               "dai jyun",
                "dai zyun"
             ]
          }
@@ -22588,7 +22638,7 @@
          "key" : "PH(丙戌)",
          "missing_yomis" : [
          ],
-         "name" : "PH",
+         "name" : "ポスト広島",
          "start_year" : null,
          "yomis" : {
             "6100" : [
@@ -22916,6 +22966,8 @@
                "ten jū"
             ],
             "6104" : [
+               "ten jyuu",
+               "ten jyū",
                "ten zyuu",
                "ten zyū"
             ]
@@ -23346,6 +23398,8 @@
                "ti syou",
                "ti syō",
                "ぢ じょう",
+               "zi jyou",
+               "zi jyō",
                "zi zyou",
                "zi zyō",
                "ti sou",
@@ -23597,6 +23651,7 @@
                "man shu"
             ],
             "6104" : [
+               "man jyu",
                "man zyu",
                "man syu"
             ]
@@ -24495,6 +24550,7 @@
                "ei ju"
             ],
             "6104" : [
+               "ei jyu",
                "ei zyu"
             ]
          }
@@ -24517,6 +24573,7 @@
                "ten ju"
             ],
             "6104" : [
+               "ten jyu",
                "ten zyu"
             ]
          }
@@ -26526,6 +26583,8 @@
                "ten syou",
                "ten syō",
                "てん ぜう",
+               "ten jyou",
+               "ten jyō",
                "ten zyou",
                "ten zyō"
             ],
@@ -27743,10 +27802,14 @@
                "ei syō",
                "えい じやう",
                "えい ぜう",
+               "ei jyou",
+               "ei jyō",
                "ei zyou",
                "ei zyō",
                "よう じよう",
+               "you jyou",
                "you zyou",
+               "yō jyō",
                "yō zyō"
             ],
             "6107" : [
@@ -29631,7 +29694,9 @@
             ],
             "6104" : [
                "きゆう じゆ",
+               "kyuu jyu",
                "kyuu zyu",
+               "kyū jyu",
                "kyū zyu"
             ],
             "6108" : [
@@ -31165,7 +31230,9 @@
                "tai jun hei tei"
             ],
             "6104" : [
+               "tai jyun",
                "tai zyun",
+               "tai jyun hei tei",
                "tai zyun hei tei"
             ]
          }
@@ -31233,7 +31300,9 @@
                "chō ju"
             ],
             "6104" : [
+               "tyou jyu",
                "tyou zyu",
+               "tyō jyu",
                "tyō zyu"
             ]
          }
@@ -32760,6 +32829,7 @@
                "ju ei"
             ],
             "6104" : [
+               "jyu ei",
                "zyu ei"
             ],
             "6107" : [
@@ -33776,6 +33846,8 @@
                "sō wa"
             ],
             "6104" : [
+               "jyou wa",
+               "jyō wa",
                "zyou wa",
                "zyō wa",
                "syou wa",
@@ -33824,6 +33896,7 @@
                "kan jun"
             ],
             "6104" : [
+               "kan jyun",
                "kan zyun"
             ]
          }
@@ -34654,6 +34727,7 @@
                "jun chi"
             ],
             "6104" : [
+               "jyun ti",
                "zyun ti"
             ]
          }
@@ -34698,6 +34772,7 @@
                "ten ju"
             ],
             "6104" : [
+               "ten jyu",
                "ten zyu"
             ]
          }
@@ -35411,6 +35486,7 @@
                "dai jun"
             ],
             "6104" : [
+               "dai jyun",
                "dai zyun"
             ]
          }
@@ -35656,6 +35732,8 @@
                "shō hei"
             ],
             "6104" : [
+               "jyou hei",
+               "jyō hei",
                "zyou hei",
                "zyō hei",
                "しゃう へい",
@@ -36992,6 +37070,8 @@
             ],
             "6104" : [
                "ぜう とく",
+               "jyou toku",
+               "jyō toku",
                "zyou toku",
                "zyō toku",
                "せう とく",
@@ -38703,6 +38783,7 @@
                "gen ju"
             ],
             "6104" : [
+               "gen jyu",
                "gen zyu"
             ]
          }
@@ -39335,7 +39416,9 @@
                "kō jun"
             ],
             "6104" : [
+               "kou jyun",
                "kou zyun",
+               "kō jyun",
                "kō zyun"
             ]
          }
@@ -40115,6 +40198,8 @@
                "jū kō"
             ],
             "6104" : [
+               "jyuu kou",
+               "jyū kō",
                "zyuu kou",
                "zyū kō"
             ]
@@ -41094,11 +41179,15 @@
             "6104" : [
                "じよう はう",
                "ぜう ほう",
+               "jyou hou",
+               "jyō hō",
                "zyou hou",
                "zyō hō",
                "せう ほう",
                "syou hou",
                "syō hō",
+               "jyou ho",
+               "jyō ho",
                "zyou ho",
                "zyō ho",
                "syou ho",
@@ -42954,6 +43043,7 @@
                "jun ka"
             ],
             "6104" : [
+               "jyun ka",
                "zyun ka"
             ]
          }
@@ -43929,6 +44019,8 @@
             ],
             "6104" : [
                "ぜう あん",
+               "jyou an",
+               "jyō an",
                "zyou an",
                "zyō an",
                "せう あん",
@@ -44156,6 +44248,7 @@
                "jin ju"
             ],
             "6104" : [
+               "zin jyu",
                "zin zyu"
             ]
          }
@@ -44767,6 +44860,8 @@
                "ぢゃう ぐわん",
                "でう がん",
                "でう ぐわん",
+               "jyou gan",
+               "jyō gan",
                "zyou gan",
                "zyō gan"
             ],
@@ -45989,6 +46084,8 @@
                "か しよう",
                "ka syou",
                "ka syō",
+               "ka jyou",
+               "ka jyō",
                "ka zyou",
                "ka zyō"
             ]
@@ -46196,6 +46293,8 @@
                "shin jō"
             ],
             "6104" : [
+               "sin jyou",
+               "sin jyō",
                "sin zyou",
                "sin zyō"
             ]
