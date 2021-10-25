@@ -117,6 +117,9 @@ s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8B
 >< 漢:BC202-2-3(甲午) j:BC202-2-28 #即位{#劉邦 #前漢 #漢皇帝}
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8B>"帝崩"
 ->恵帝 漢:BC195-4-25(甲辰) j:BC195-6-1 #改元前の死去{#劉邦 #前漢}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7026>"漢元年"
+s+
+#"漢元年十月"
 
 def[恵帝]
 ## Source:
@@ -157,6 +160,8 @@ s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7002>"元年"
 s+
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7002>"帝崩"
 ->呂后,前少帝 漢:BC188-8-戊寅 #改元前の死去{#前漢 #漢恵帝}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7026>"孝惠二年"
+s+
 
 def[呂后]
 ## Source:
@@ -187,6 +192,8 @@ s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7003>"元年"
 s+
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7003>"秋七月辛巳"
 ->漢文帝前 漢:BC180-7-辛巳 j:BC180-8-18 #改元前の死去{#前漢 #呂后 #称制者}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7027%E4%B8%8A>"高后元年五月丙申"
+s+
 
 def[前少帝]
 tag 前漢
@@ -324,6 +331,14 @@ s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7004>"孝文�
 &
 name 孝文皇帝即位
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7027%E4%B8%8A>"文帝後"
+s+
+#"文帝後三年秋"
+&
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7026>"孝文後二年正月壬寅"
+s+
+name 孝文後
+
 def[漢景帝前]
 ## Source:
 sw 景帝前
@@ -359,6 +374,10 @@ s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7005>"即皇�
 <-漢文帝後 漢:BC157-6-丁未 #建元前の即位{#前漢 #漢景帝 #漢皇帝}
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7005>"元年冬十月"
 s+
+&
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7026>"孝景元年正月癸酉"
+s+
+name 孝景
 
 def[漢景帝中]
 ## Source:
@@ -390,6 +409,9 @@ name_cn 中
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7005>"中元年夏四月"
 s+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7027%E4%B8%8A>"景帝中"
+s+
+#"景帝中五年八月己酉"
 
 <-漢景帝前 [漢:BC150-10,漢:BC149-9] #支那改元日{#前漢 #漢景帝}
 #           漢:BC149[秦]
@@ -437,6 +459,7 @@ tag 前元
 
 %tag person
 %tag   name_ja 漢武帝
+#XXX prefix 孝武
 tag 漢武帝
 
 ## [102]
@@ -455,6 +478,8 @@ s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"即皇�
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"建元元年"
 s+
 u 1-10
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7026>"孝武建元三年三月"
+s+
 
 &&
 ## [102]
@@ -545,6 +570,8 @@ tag 支那皇帝改元後紀年
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"元狩元年"
 s+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7064%E4%B8%8B>"元狩"
+s+
 
 &&
 ## [102]
@@ -611,6 +638,8 @@ u 1
 u 7
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"元封元年"
+s+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7025%E4%B8%8A>"元封"
 s+
 
 [太初]
@@ -758,6 +787,7 @@ tag 前元
 
 %tag person
 %tag   name_ja 漢昭帝
+#XXX prefix 孝昭
 tag 漢昭帝
 
 ## [102]
@@ -833,6 +863,7 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 漢宣帝
+#XXX prefix 孝宣
 tag 漢宣帝
 
 ## [102]
@@ -929,7 +960,13 @@ name_kana しん しゃく
 # BC61-3 - BC58
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7008>"神爵元年春正月"
+<-元康 [漢:BC61-3] #神爵祥瑞{#前漢 #漢宣帝}
 <-元康 [漢:BC61-3] #支那改元詔{#前漢 #漢宣帝}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7025%E4%B8%8B>"神爵"
+s+
+#<-元康 [漢:BC61-3] #神爵祥瑞{#前漢 #漢宣帝}
+#<-元康 [漢:BC61-3] #支那改元詔{#前漢 #漢宣帝}
+
 
 [五鳳]
 #y~118
@@ -953,6 +990,8 @@ name_kana ご ほう
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7008>"五鳳元年春正月"
 name 五鳳
 s+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7025%E4%B8%8B>"五鳳"
+s+
 
 [甘露]
 #y~896
@@ -975,6 +1014,8 @@ name_ja 甘露
 name_kana かん ろ
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7008>"甘露元年春正月"
+s+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7025%E4%B8%8B>"甘露"
 s+
 
 [黃龍]
@@ -1003,6 +1044,8 @@ s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7008>"黃龍�
 name 黃龍
 s+
 ->初元 漢:BC49-12-甲戌 #改元前の死去{#前漢 #漢宣帝}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7025%E4%B8%8B>"黃龍"
+s+
 
 [初元]
 #y~227
@@ -1015,6 +1058,7 @@ tag 前元
 
 %tag person
 %tag   name_ja 漢元帝
+#XXX prefix 元帝
 tag 漢元帝
 
 ## [102]
@@ -1111,6 +1155,7 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 漢成帝
+#XXX prefix 孝成
 tag 漢成帝
 
 ## [102]
@@ -1152,6 +1197,8 @@ name_kana か へい
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7010>"河平元年春三月"
 <-建始 [漢:BC28-3] #支那改元詔{#前漢 #漢成帝}
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7100%E4%B8%8B>"河平"
+s+
 
 [陽朔]
 #y~154
@@ -1284,6 +1331,7 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 漢哀帝
+#XXX prefix 哀帝
 tag 漢哀帝
 
 ## [102]
@@ -1421,6 +1469,9 @@ s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7011>"帝崩�
 
 ->居攝 漢:5-12-16 j:6-2-3 #改元前の死去{#前漢 #漢平帝}
 
+tag 王莽
+tag 新
+
 [居攝]
 #y~754
 AD6 = 1
@@ -1428,6 +1479,10 @@ tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+%tag person
+%tag   name_ja 劉嬰
+tag 劉嬰
 
 ## [102]
 name_tw 居攝
@@ -1439,6 +1494,14 @@ name_ja 居摂
 name_kana きょ せつ
 # 0006 - 0008-11
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7099%E4%B8%8A>"改元曰居攝"
+tag 王莽
+tag 新
+<-元始 [漢:5-12-16,漢:5] #建元前の即位{#前漢 #王莽 #摂政}
+#摂皇帝
+<-元始 [漢:6] #支那改元日{#前漢 #王莽}
+<-元始 漢:6-3-己丑 #建元前の即位{#前漢 #劉嬰 #皇太子}
+
 [初始]
 #y~706
 AD8 = 1
@@ -1446,6 +1509,8 @@ tag 前漢
 tag 前漢の公年号
 tag 漢土
 tag 漢民族
+
+tag 劉嬰
 
 ## [102]
 name_tw 初始
@@ -1470,6 +1535,18 @@ u 1
 #
 tag 新
 #初始1-12-1 = 始建国1-1-1
+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7099%E4%B8%8A>"居攝三年"
+tag 王莽
+tag 新
+#"莽上奏太后曰：「"..."以居攝三年為初始元年，漏刻以百二十為度，用應天命。"..."」奏可。"
+<-居攝 漢:8-11-甲子 #支那改元詔{#前漢 #王莽} #新
+#..."以戊辰直定，御王冠，即真天子位，定有天下之號曰新。其改正朔，易服色，變犧牲，殊徽幟，異器制。以十二月朔癸酉為建國元年正月之朔，以雞鳴為時。"...
+->始建國 漢:8-11-戊辰 #建元前の即位{#新 #王莽 #支那皇帝} #前漢 #禅譲
+->始建國 漢:8-11-戊辰 #国名変更{#前漢, #新} #王莽 #禅譲 #事由
+->始建國 漢:8-11-戊辰 #年始改元決定{#新 #王莽}
+->始建國 漢:8-12-1 #年始改元実施{#新 #王莽}
+#        漢:9-1-1[新]
 
 &
 ## [102]
@@ -1504,11 +1581,16 @@ wref_ja 始建国
 name_ja 始建国
 name_kana し けん こく
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7099%E4%B8%AD>"始建國元年正月朔"
+s+
+
 &
 ## [102]
 name_tw 建國
 name_cn 建国
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7098>"建國五年二月癸丑"
+s+
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B71%E4%B8%8A>"建國"
 s+
 #"王莽天鳳中，〈王莽建國六年改為天鳳。〉"
@@ -1538,6 +1620,10 @@ name_cn 始建国天凤上戊
 name_tw 始建國天鳳
 name_cn 始建国天凤
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7099%E4%B8%AD>"天鳳"
+#"明年改元曰天鳳。天鳳元年正月，赦天下。 "
+s+
+
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B71%E4%B8%8A>"天鳳"
 s+
 #"王莽天鳳中，〈王莽建國六年改為天鳳。〉"
@@ -1559,6 +1645,10 @@ wref_ja 地皇 (元号)
 name_ja 地皇
 name_kana ち こう
 # 0020 - 0023-9
+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7099%E4%B8%8B>"地皇"
+#"明年改元曰地皇，從三萬六千歲曆號也。地皇元年正月乙未，赦天下。"
+s+
 
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B71%E4%B8%8A>"地皇"
 s+
@@ -1627,17 +1717,28 @@ name(kr) 갱시
 ## <https://zh-min-nan.wikipedia.org/wiki/Keng-s%C3%AD_(H%C3%A0n)>
 #XXX Keng-sí
 
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7099%E4%B8%8B>"更始元年"
+s+
+#漢:23-3-1(辛巳)[新]
+# #建元前の即位
+# #支那改元日
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7099%E4%B8%8B>"三日庚戌"
+<-地皇 漢:23-9-3(庚戌) #陥落{#漢_(更始朝) #更始帝, #新 #王莽 #長安}
+#       漢:23-10-3(庚戌)[新]
+
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B71%E4%B8%8A>"更始元年"
 s+
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B711>"二月辛巳"
 <-地皇 漢:23-2-辛巳 #建元前の即位{#漢_(更始朝) #更始帝 #漢皇帝} #新
 <-地皇 漢:23-2-辛巳 #支那改元日{#漢_(更始朝) #更始帝} #起事建元 #新
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B711>"長安"
-<-地皇 [漢:23-9] #陥落{#漢_(更始朝) #更始帝, #新 #王莽 #長安}
-<-地皇 [漢:23-9] #陥落{#漢_(更始朝) #更始帝, #新 #洛陽}
+#<-地皇 [漢:23-9] #陥落{#漢_(更始朝) #更始帝, #新 #王莽 #長安}
+#<-地皇 [漢:23-9] #陥落{#漢_(更始朝) #更始帝, #新 #洛陽}
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B711>"赤眉入城"
 ->建世 [漢:25-9] #陥落{#赤眉, #漢_(更始朝) #更始帝 #長安} #赤眉 #後漢
 ->建世 [漢:25-9] #改元前の退位{#漢_(更始朝) #更始帝 #漢皇帝} #赤眉 #後漢
+
+<-地皇 [漢:23-9-3,漢:23-9] #陥落{#漢_(更始朝) #更始帝, #新 #洛陽}
 
 ## <https://tohoku.repo.nii.ac.jp/?action=repository_uri&item_id=51048&file_id=18&file_no=1>
 u 3

@@ -831,7 +831,9 @@ my $LeaderKeys = [];
         $s =~ s/ts([u\x{016B}])/t$1/g;
         $s =~ s/sh([aueo\x{0101}\x{016B}\x{0113}\x{014D}])/sy$1/g;
         $s =~ s/ch([aueo\x{0101}\x{016B}\x{0113}\x{014D}])/ty$1/g;
-        $s =~ s/j([aueo\x{0101}\x{016B}\x{0113}\x{014D}])/zy$1/g;
+        $s =~ s/j([aueo\x{0101}\x{016B}\x{0113}\x{014D}])/jy$1/g;
+        push @r, $s;
+        $s =~ s/jy([aueo\x{0101}\x{016B}\x{0113}\x{014D}])/zy$1/g;
         push @r, $s;
       }
     }
@@ -1634,7 +1636,11 @@ sub compute_form_group_ons ($) {
       for my $label (@{$label_set->{labels}}) {
         for my $rep (@{$label->{reps}}) {
           if ($rep->{preferred} and defined $rep->{lang}) {
-            $has_preferred->{$rep->{lang}} = 1;
+            my $lang = {
+              ja => 'jp',
+              ko => 'kr',
+            }->{$rep->{lang}} // $rep->{lang};
+            $has_preferred->{$lang} = 1;
           }
         }
       }
@@ -1657,6 +1663,7 @@ sub compute_form_group_ons ($) {
             if ($text->{form_group_type} eq 'han' or
                 $text->{form_group_type} eq 'ja' or
                 $text->{form_group_type} eq 'kana') {
+              my $jp_preferred = 0;
               for my $value (@{$text->{form_sets}}) {
                 if ($value->{form_set_type} eq 'hanzi') {
                   for my $lang (qw(jp tw cn)) {
@@ -1665,6 +1672,7 @@ sub compute_form_group_ons ($) {
                         (not defined $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} or
                          ($value->{is_preferred} or {})->{$lang})) {
                       $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} = serialize_segmented_text $value->{$lang};
+                      $jp_preferred = 1 if $lang eq 'jp';
                       $era->{name} //= $era->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang};
                     }
                   if (defined $value->{$lang} and
@@ -1680,8 +1688,10 @@ sub compute_form_group_ons ($) {
                     $era->{names}->{$s} = 1;
                     $era->{name} //= $s;
                   }
-                } elsif ($text->{form_group_type} eq 'kana') {
-                  if (defined $value->{kana}) {
+                } elsif ($value->{form_set_type} eq 'yomi' or
+                         $value->{form_set_type} eq 'kana') {
+                  if ($text->{form_group_type} eq 'kana' and
+                      defined $value->{kana}) {
                     my $name = serialize_segmented_text $value->{kana};
                     if (not defined $era->{name_ja} or
                         ($value->{is_preferred} or {})->{jp}) {
@@ -1694,7 +1704,15 @@ sub compute_form_group_ons ($) {
                   if (defined $value->{hiragana_modern}) {
                     my $kana = serialize_segmented_text $value->{hiragana_modern};
                     $era->{name_kana} //= $kana;
+                    $era->{name_kana} = $kana if $jp_preferred;
                     $era->{name_kanas}->{$kana} = 1;
+
+                    my $latin = serialize_segmented_text $value->{latin};
+                    $latin =~ s/^([a-zāīūēō])/uc $1/e;
+                    $era->{name_latn} //= $latin;
+                    $era->{name_latn} = $latin if $jp_preferred;
+
+                    $jp_preferred = 0;
                   }
                 } elsif ($value->{form_set_type} eq 'korean') {
                   for my $lang (qw(ko kr kp)) {
@@ -1733,58 +1751,6 @@ sub compute_form_group_ons ($) {
                       $era->{name} //= $era->{name_ko};
                     }
                   }
-                }
-              } elsif ($text->{form_group_type} eq 'compound') {
-                my $name = join '', map {
-                  my $x = $_->{form_sets}->[0];
-                  my $v = serialize_segmented_text (($x->{form_set_type} eq 'kana' ? $x->{kana} : $x->{others}->[0]) // die);
-                  $v;
-                } @{$text->{items}};
-                $era->{names}->{$name} = 1;
-                if ((not defined $era->{name_ja} or
-                     ($text->{is_preferred} or {})->{jp})) {
-                  $era->{name_ja} = $name;
-                  my $no_kana = 0;
-                  my $kana = join '', map {
-                    if ($_->{form_group_type} eq 'kana') {
-                      to_hiragana serialize_segmented_text ($_->{form_sets}->[0]->{kana} // die);
-                    } elsif ($_->{form_group_type} eq 'han') {
-                      my $yomi = [grep {
-                        $_->{form_set_type} eq 'yomi';
-                      } @{$_->{form_sets}}]->[0];
-                      if (defined $yomi) {
-                        serialize_segmented_text $yomi->{hiragana_modern};
-                      } else {
-                        $no_kana = 1;
-                      }
-                    } elsif ($_->{form_group_type} eq 'ja') {
-                      my $yomi = [grep {
-                        $_->{form_set_type} eq 'kana';
-                      } @{$_->{form_sets}}]->[0];
-                      if (defined $yomi) {
-                        serialize_segmented_text $yomi->{hiragana_modern};
-                      } else {
-                        $no_kana = 1;
-                      }
-                    } elsif ($_->{form_group_type} eq 'symbols') {
-                      #
-                    } else {
-                      $no_kana = 1;
-                    }
-                  } @{$text->{items}};
-                  unless ($no_kana) {
-                    $era->{name_kana} = $kana;
-                    $era->{name_kanas}->{$kana} = 1;
-                  }
-                  $era->{name} //= $era->{name_ja};
-                }
-                if ((#not defined $era->{name_cn} or
-                     ($text->{is_preferred} or {})->{cn})) {
-                  $era->{name_cn} = $name;
-                }
-                if ((#not defined $era->{name_tw} or
-                     ($text->{is_preferred} or {})->{tw})) {
-                  $era->{name_tw} = $name;
                 }
               }
             }
@@ -1851,23 +1817,110 @@ sub compute_form_group_ons ($) {
               }
             }
           } elsif ($text->{form_group_type} eq 'compound') {
-            for my $text (@{$text->{items}}) {
-              if ($text->{form_group_type} eq 'han' or
-                  $text->{form_group_type} eq 'ja') {
-                for my $value (@{$text->{form_sets}}) {
-                  if ($value->{form_set_type} eq 'hanzi') {
-                    fill_han_variants $value;
-                  } elsif ($value->{form_set_type} eq 'kana') {
-                    fill_kana $value;
+            my $name_jp = ''; my $name_cn = ''; my $name_tw = '';
+            my $kana = ''; my $no_kana = 0;
+            my $latin = ''; my $no_latin = 0;
+            for my $item_fg (@{$text->{items}}) {
+              if ($item_fg->{form_group_type} eq 'han' or
+                  $item_fg->{form_group_type} eq 'ja' or
+                  $item_fg->{form_group_type} eq 'kana') {
+                my $has_kana = 0;
+                my $has_latin = 0;
+                for my $item_fs (@{$item_fg->{form_sets}}) {
+                  if ($item_fs->{form_set_type} eq 'hanzi') {
+                    fill_han_variants $item_fs;
+                    $name_jp .= serialize_segmented_text
+                        ($item_fs->{jp} //
+                         $item_fs->{tw} //
+                         $item_fs->{cn} //
+                         $item_fs->{kr} //
+                         $item_fs->{others}->[0]);
+                    $name_cn .= serialize_segmented_text
+                        ($item_fs->{cn} //
+                         $item_fs->{jp} //
+                         $item_fs->{tw} //
+                         $item_fs->{kr} //
+                         $item_fs->{others}->[0]);
+                    $name_tw .= serialize_segmented_text
+                        ($item_fs->{tw} //
+                         $item_fs->{kr} //
+                         $item_fs->{jp} //
+                         $item_fs->{cn} //
+                         $item_fs->{others}->[0]);
+                  } elsif ($item_fs->{form_set_type} eq 'kana' or
+                           $item_fs->{form_set_type} eq 'yomi') {
+                    if ($item_fs->{form_set_type} eq 'kana') {
+                      fill_kana $item_fs;
+                      my $v = serialize_segmented_text ($item_fs->{kana} // die);
+                      $name_jp .= $v;
+                      $name_cn .= $v;
+                      $name_tw .= $v;
+                    }
+                    $kana .= serialize_segmented_text ($item_fs->{hiragana_modern} // die);
+                    $has_kana = 1;
+                    $latin .= ' ' if length $latin;
+                    $latin .= serialize_segmented_text ($item_fs->{latin} // die);
+                    $has_latin = 1;
+                  }
+                } # $item_fs
+                $no_kana = 1 unless $has_kana;
+                $no_latin = 1 unless $has_latin;
+              } elsif ($item_fg->{form_group_type} eq 'alphabetical') {
+                for my $item_fs (@{$item_fg->{form_sets}}) {
+                  if ($item_fs->{form_set_type} eq 'alphabetical') {
+                    my $v = serialize_segmented_text ($item_fs->{others}->[0] // die);
+                    $name_jp .= $v;
+                    $name_cn .= $v;
+                    $name_tw .= $v;
+                    $latin .= ' ' if length $latin;
+                    $latin .= $v;
                   }
                 }
-              } elsif ($text->{form_group_type} eq 'kana') {
-                for my $value (@{$text->{form_sets}}) {
-                  fill_kana $value;
+                $no_kana = 1;
+              } elsif ($item_fg->{form_group_type} eq 'symbols') {
+                for my $item_fs (@{$item_fg->{form_sets}}) {
+                  my $v = serialize_segmented_text ($item_fs->{others}->[0] // die);
+                  $name_jp .= $v;
+                  $name_cn .= $v;
+                  $name_tw .= $v;
                 }
+              } else {
+                die "Unknown form group type |$item_fg->{form_group_type}|";
               }
+            } # $item_fg
+
+            $era->{names}->{$name_jp} = 1;
+            $era->{names}->{$name_cn} = 1;
+            $era->{names}->{$name_tw} = 1;
+            if ((not defined $era->{name_ja} or
+                 ($text->{is_preferred} or {})->{jp})) {
+              $era->{name_ja} = $name_jp;
+              $era->{name} //= $era->{name_ja};
+              $era->{name} = $era->{name_ja}
+                  if ($text->{is_preferred} or {})->{jp};
             }
-          }
+            if (not $no_kana) {
+              if ((not defined $era->{name_kana} or
+                  ($text->{is_preferred} or {})->{jp})) {
+                $era->{name_kana} = $kana;
+              }
+              $era->{name_kanas}->{$kana} = 1;
+            }
+            if (not $no_latin and
+                ((not defined $era->{name_latn} or
+                 ($text->{is_preferred} or {})->{jp}))) {
+              $era->{name_latn} = $latin;
+              $era->{name_latn} =~ s/(?:^| )([a-zāīūēō])/uc $1/e;
+            }
+            if ((#not defined $era->{name_cn} or
+                 ($text->{is_preferred} or {})->{cn})) {
+              $era->{name_cn} = $name_cn;
+            }
+            if ((#not defined $era->{name_tw} or
+                 ($text->{is_preferred} or {})->{tw})) {
+              $era->{name_tw} = $name_tw;
+            }
+          } # form_group_type
           for my $label (@{$text->{expandeds} or []}) {
             for my $text (@{$label->{form_groups}}) {
               if ($text->{form_group_type} eq 'han') {

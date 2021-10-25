@@ -324,8 +324,14 @@ position
   group of 君主
 
 position
+  name_ja 摂政
+
+position
   name_ja 称制者
   group of 君主
+
+position
+  name_ja 皇太子
 
 tag
   name_ja 公年号
@@ -533,6 +539,10 @@ action
 
 action
   name_ja 鳳祥瑞
+  group of 祥瑞
+
+action
+  name_ja 神爵祥瑞
   group of 祥瑞
 
 action
