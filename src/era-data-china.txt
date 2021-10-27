@@ -252,6 +252,28 @@
 %tag   name_ja 河西
 %tag   region of 漢土
 
+%tag calendar
+%tag   name_ja 非寅正
+
+%tag calendar
+%tag   name_ja 子正
+%tag   group of 非寅正
+
+%tag calendar
+%tag   name_ja 丑正
+%tag   group of 非寅正
+
+%tag calendar
+%tag   name_ja 寅正
+
+%tag calendar
+%tag   name_ja 秦正
+%tag   group of 非寅正
+
+%tag calendar
+%tag   name_ja 武周正
+%tag   group of 非寅正
+
 def[秦始皇]
 ## Source:
 sw 秦始皇
@@ -264,6 +286,7 @@ tag 漢土
 %tag   period of 秦
 %tag   period of 中国
 tag 秦帝国
+tag 秦正
 
 %tag person
 %tag   name_ja 始皇帝
@@ -291,7 +314,7 @@ u 25
 u 26
 u 37
 
-->秦二世 [秦:BC210-7] #改元前の死去{#秦帝国 #始皇帝 #秦皇帝}
+->秦二世 [秦:BC210-7] #改元前の死去{#秦帝国 #始皇帝 #秦皇帝} #秦正
 
 def[秦二世]
 ## Source:
@@ -301,6 +324,7 @@ tag 秦帝国
 tag 漢民族
 tag 漢土
 tag 支那皇帝即位紀年
+tag 秦正
 
 %tag person
 %tag   name_ja 胡亥
@@ -329,12 +353,12 @@ s+
 u 2
 u 3
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8A>"秦相趙高"
-->秦王子嬰 [秦:BC207-8] #改元前の死去{#秦帝国 #胡亥}
+->秦王子嬰 [秦:BC207-8] #改元前の死去{#秦帝国 #胡亥} #秦正
 
 ## <https://ja.wikipedia.org/wiki/%E8%83%A1%E4%BA%A5>
 # BC210-9 - BC207-10 (julian ?)
 # BC210-7...-9 - BC207-8
-<-秦始皇 [秦:BC210-7] #建元前の即位{#秦帝国 #胡亥 #秦皇帝}
+<-秦始皇 [秦:BC210-7] #建元前の即位{#秦帝国 #胡亥 #秦皇帝} #秦正
 
 def[秦王子嬰]
 ## Source:
@@ -345,6 +369,7 @@ tag 漢民族
 tag 漢土
 BC206 = 1
 u 1
+tag 秦正
 
 %tag person
 %tag   name_ja 子嬰
@@ -360,7 +385,8 @@ name_ja 子嬰
 name_tw 子嬰
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8A>"子嬰"
-<-秦二世 [秦:BC207-9] #建元前の即位{#秦帝国 #子嬰 #秦王}
+<-秦二世 [秦:BC207-9] #建元前の即位{#秦帝国 #子嬰 #秦王} #秦正
+
 
 
 [白鳥]
@@ -1546,10 +1572,11 @@ name_ja 宝勝
 name_kana ほう しょう
 #762 - 763
 #新唐書: 建元宝勝，以建丑為正月
+tag 丑正
 
 ## <https://zh.wikipedia.org/wiki/%E8%A2%81%E6%99%81>
-<-寶應 ->寶勝,升國 [唐:762-8] #蜂起{#袁晁} #唐
-<-寶應 [唐:762-8] #支那改元日{#袁晁} #唐 #起事建元
+<-寶應 ->寶勝,升國 [唐:762-8] #蜂起{#袁晁} #唐 #丑正
+<-寶應 [唐:762-8] #支那改元日{#袁晁} #唐 #起事建元 #丑正
 ->寶應 <-寶勝,升國 [唐:763-4] #陥落{#唐, #袁晁}
 
 def[升國]

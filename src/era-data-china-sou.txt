@@ -22,7 +22,7 @@
 
 %tag country
 %tag   name_ja 北宋
-%tag   period of 宋
+%tag   period of 趙宋
 
 [建隆(庚申)]
 #y~144
@@ -1021,7 +1021,7 @@ name_kana せい こう
 
 %tag country
 %tag   name_ja 南宋
-%tag   period of 宋
+%tag   period of 趙宋
 
 [建炎]
 #y~284

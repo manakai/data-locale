@@ -45,6 +45,8 @@ name_tw 西元
 name 西暦紀元
 name_kana せい れき き げん
 &
+name 洋曆
+&
 abbr_ja 西 西暦
 &&
 acronym(en) C.E.
