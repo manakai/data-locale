@@ -37,7 +37,9 @@ sub print_day ($) {
   printf qq{<p><a href=https://data.suikawiki.org/datetime/jd:%.1f>JD:%.1f</a> MJD:%d %s (%d)</p>},
       $day->{jd}, $day->{jd}, $day->{mjd},
       $day->{kanshi_label}, $day->{kanshi0};
-  for my $key (qw(gregorian julian kyuureki nongli_tiger year)) {
+  for my $key (qw(gregorian julian kyuureki
+                  nongli_tiger nongli_ox nongli_rat nongli_qin nongli_wuzhou
+                  year)) {
     if (defined $day->{$key}) {
       printf qq{<p>%s: %s</p>\n},
           $key, $day->{$key};

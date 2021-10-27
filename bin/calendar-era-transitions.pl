@@ -482,23 +482,111 @@ sub ssday ($$) {
     } elsif ($y >= 1260) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '元', $y, $m, $d;
     } elsif ($y >= 960) {
-      $day->{nongli_tiger} = ymmd2string gymd2nymmd '宋', $y, $m, $d;
+      my @ymmd = gymd2nymmd '宋', $y, $m, $d;
+      $day->{nongli_tiger} = ymmd2string @ymmd;
+
+      if ($ymmd[0] == 1119 and $ymmd[1] >= 11) {
+        $day->{nongli_rat} = ymmd2string $ymmd[0]+1, $ymmd[1]-10, $ymmd[2], $ymmd[3];
+      } elsif ($ymmd[0] == 1120 and $ymmd[1] <= 10) {
+        $day->{nongli_rat} = ymmd2string $ymmd[0], $ymmd[1]+2, $ymmd[2], $ymmd[3];
+      }
     } elsif ($y >= 618) {
-      $day->{nongli_tiger} = ymmd2string gymd2nymmd '唐', $y, $m, $d;
+      my @ymmd = gymd2nymmd '唐', $y, $m, $d;
+      $day->{nongli_tiger} = ymmd2string @ymmd;
+
+      if ($ymmd[0] > 689 and $ymmd[0] < 700) {
+        if ($ymmd[1] == 11 or $ymmd[1] == 12) {
+          $day->{nongli_wuzhou} = ymmd2string $ymmd[0]+1, $ymmd[1], $ymmd[2], $ymmd[3];
+        } else {
+          $day->{nongli_wuzhou} = $day->{nongli_tiger};
+        }
+      } elsif ($ymmd[0] == 689) {
+        if ($ymmd[1] == 11 or $ymmd[1] == 12) {
+          $day->{nongli_wuzhou} = ymmd2string $ymmd[0]+1, $ymmd[1], $ymmd[2], $ymmd[3];
+        }
+      } elsif ($ymmd[0] == 700) {
+        if ($ymmd[1] == 11 or $ymmd[1] == 12) {
+          #
+        } else {
+          $day->{nongli_wuzhou} = $day->{nongli_tiger};
+        }
+      }
+
+      if ($ymmd[0] == 761 and $ymmd[1] >= 11) {
+        $day->{nongli_rat} = ymmd2string $ymmd[0]+1, $ymmd[1]-10, $ymmd[2], $ymmd[3];
+      } elsif ($ymmd[0] == 762 and $ymmd[1] <= 10) {
+        $day->{nongli_rat} = ymmd2string $ymmd[0], $ymmd[1]+2, $ymmd[2], $ymmd[3];
+      }
+      
+      if ($ymmd[0] == 762 and $ymmd[1] >= 8 and $ymmd[1] <= 11) {
+        $day->{nongli_ox} = ymmd2string $ymmd[0], $ymmd[1]+1, $ymmd[2], $ymmd[3];
+      } elsif ($ymmd[0] == 763 and $ymmd[1] <= 11) {
+        $day->{nongli_ox} = ymmd2string $ymmd[0], $ymmd[1]+1, $ymmd[2], $ymmd[3];
+      }
     } elsif ($y >= 581) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '隋', $y, $m, $d;
     } elsif ($y >= 265) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '晋', $y, $m, $d;
     } elsif ($y >= 237) {
-      $day->{nongli_tiger} = ymmd2string gymd2nymmd '魏', $y, $m, $d;
+      my @ymmd = gymd2nymmd '魏', $y, $m, $d;
+      $day->{nongli_tiger} = ymmd2string @ymmd;
+      
+      if ($ymmd[0] == 237 and $ymmd[1] >= 3 and $ymmd[1] <= 11) {
+        $day->{nongli_ox} = ymmd2string $ymmd[0], $ymmd[1]+1, $ymmd[2], $ymmd[3];
+      } elsif ($ymmd[0] >= 237 and $ymmd[0] <= 238 and $ymmd[1] == 12) {
+        $day->{nongli_ox} = ymmd2string $ymmd[0]+1, $ymmd[1]-11, $ymmd[2], $ymmd[3];
+      } elsif ($ymmd[0] >= 238 and $ymmd[0] <= 239 and $ymmd[1] <= 11) {
+        $day->{nongli_ox} = ymmd2string $ymmd[0], $ymmd[1]+1, $ymmd[2], $ymmd[3];
+      }
     } elsif ($y >= -205) {
-      $day->{nongli_tiger} = ymmd2string gymd2nymmd '漢', $y, $m, $d;
+      my @ymmd = gymd2nymmd '漢', $y, $m, $d;
+      $day->{nongli_tiger} = ymmd2string @ymmd;
+      
+      if ($ymmd[0] >= 8 and $ymmd[0] <= 22 and $ymmd[1] == 12) {
+        $day->{nongli_ox} = ymmd2string $ymmd[0]+1, $ymmd[1]-11, $ymmd[2], $ymmd[3];
+      } elsif ($ymmd[0] >= 9 and $ymmd[0] <= 23 and $ymmd[1] <= 11) {
+        $day->{nongli_ox} = ymmd2string $ymmd[0], $ymmd[1]+1, $ymmd[2], $ymmd[3];
+      }
+
+      if ($ymmd[0] < 1-104 and $ymmd[1] >= 10) {
+        $day->{nongli_qin} = ymmd2string $ymmd[0]+1, $ymmd[1], $ymmd[2], $ymmd[3];
+      } elsif ($ymmd[0] <= 1-104 and $ymmd[1] <= 9) {
+        $day->{nongli_qin} = $day->{nongli_tiger};
+      }
     } elsif ($y >= -245) {
-      $day->{nongli_tiger} = ymmd2string gymd2nymmd '秦', $y, $m, $d;
+      my @ymmd = gymd2nymmd '秦', $y, $m, $d;
+      $day->{nongli_tiger} = ymmd2string @ymmd;
+
+      if ($ymmd[1] >= 10) {
+        $day->{nongli_qin} = ymmd2string $ymmd[0]+1, $ymmd[1], $ymmd[2], $ymmd[3];
+      } else {
+        $day->{nongli_qin} = $day->{nongli_tiger};
+      }
     }
+    
     if (not defined $day->{year} and
         defined $day->{nongli_tiger} and
         $day->{nongli_tiger} =~ m{^(-?[0-9]+)}) {
+      $day->{year} = 0+$1;
+    }
+    if ($tag_ids->{1852} and # 秦正
+        defined $day->{nongli_qin} and
+        $day->{nongli_qin} =~ m{^(-?[0-9]+)}) {
+      $day->{year} = 0+$1;
+    }
+    if ($tag_ids->{1853} and # 武周正
+        defined $day->{nongli_wuzhou} and
+        $day->{nongli_wuzhou} =~ m{^(-?[0-9]+)}) {
+      $day->{year} = 0+$1;
+    }
+    if ($tag_ids->{1851} and # 丑正
+        defined $day->{nongli_ox} and
+        $day->{nongli_ox} =~ m{^(-?[0-9]+)}) {
+      $day->{year} = 0+$1;
+    }
+    if ($tag_ids->{1850} and # 子正
+        defined $day->{nongli_rat} and
+        $day->{nongli_rat} =~ m{^(-?[0-9]+)}) {
       $day->{year} = 0+$1;
     }
   }
