@@ -495,6 +495,9 @@ u 1-10
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7026>"孝武建元三年三月"
 s+
 
+s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B739>"漢武建元五年"
+s+
+
 &&
 ## [102]
 name_tw 一元

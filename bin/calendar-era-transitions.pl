@@ -172,6 +172,7 @@ my $GToKMapKey = {
   呉 => 'go',
   魏 => 'gishin',
   晋 => 'gishin',
+  南 => 'south',
   隋 => 'zuitou',
   唐 => 'zuitou',
   宋 => 'sou',
@@ -400,6 +401,8 @@ sub year_start_jd ($$) {
       }
     } elsif ($y >= 581) {
       push @jd, nymmd2jd '隋', $y, 1, 0, 1;
+    } elsif ($y >= 445) {
+      push @jd, nymmd2jd '南', $y, 1, 0, 1;
     } elsif ($y >= 265) {
       push @jd, nymmd2jd '晋', $y, 1, 0, 1;
     } elsif ($y >= 237) {
@@ -525,6 +528,8 @@ sub ssday ($$) {
       }
     } elsif ($y >= 581) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '隋', $y, $m, $d;
+    } elsif ($y >= 445) {
+      $day->{nongli_tiger} = ymmd2string gymd2nymmd '南', $y, $m, $d;
     } elsif ($y >= 265) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '晋', $y, $m, $d;
     } elsif ($y >= 237) {
@@ -700,7 +705,7 @@ sub parse_date ($$;%) {
       push @jd, gymd2jd parse_year ($1), $2, $3;
     } elsif ($v =~ s{^j:((?:-|BC|)[0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
       push @jd, jymd2jd parse_year ($1), $2, $3;
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|隋|唐|宋|元|明|清|中華人民共和国):((?:-|BC|)[0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|隋|唐|宋|元|明|清|中華人民共和国):((?:-|BC|)[0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
       push @jd, nymmd2jd $1, parse_year ($2), $4, $5, $6;
       push @jd, nymmk2jd $1, parse_year ($2), $4, $5, $7;
       if (defined $3) {
@@ -710,11 +715,11 @@ sub parse_date ($$;%) {
           die "Year mismatch ($ky1 vs $ky2) |$all|";
         }
       }
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|隋|唐|宋|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|隋|唐|宋|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
       push @jd, nymmd2jd $1, parse_year ($2), $3, $4, $5;
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|隋|唐|宋|元|明|清|中華人民共和国):((?:-|BC|)[0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|隋|唐|宋|元|明|清|中華人民共和国):((?:-|BC|)[0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
       push @jd, nymmk2jd $1, parse_year ($2), $3, $4, $5;
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|隋|唐|宋|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|隋|唐|宋|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, parse_year ($2), $3, $4, 1;
       } elsif ($args{end}) {
@@ -736,7 +741,7 @@ sub parse_date ($$;%) {
       } else {
         die "Bad date |$v| ($all)";
       }
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|隋|唐|宋|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|南|晋|隋|唐|宋|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, parse_year ($2), 1, '', 1;
       } elsif ($args{end}) {

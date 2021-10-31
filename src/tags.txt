@@ -585,6 +585,15 @@ action
   group of 天象
   group of 事由
 
+action
+  name_ja 罹患
+
+action
+  name_ja 彗星
+
+action
+  name_ja 前兆
+
 tag
   name_ja 異説
 
@@ -639,3 +648,6 @@ tag
 
 tag
   name_ja 併用
+
+tag
+  name_ja 国名と衝突

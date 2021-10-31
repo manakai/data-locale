@@ -174,6 +174,7 @@ my $GToKMapKey = {
   呉 => 'go',
   魏 => 'gishin',
   晋 => 'gishin',
+  南 => 'south',
   隋 => 'zuitou',
   唐 => 'zuitou',
   宋 => 'sou',
@@ -443,6 +444,8 @@ sub ssday ($$) {
       }
     } elsif ($y >= 581) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '隋', $y, $m, $d;
+    } elsif ($y >= 445) {
+      $day->{nongli_tiger} = ymmd2string gymd2nymmd '南', $y, $m, $d;
     } elsif ($y >= 265) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '晋', $y, $m, $d;
     } elsif ($y >= 237) {
