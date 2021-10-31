@@ -205,6 +205,10 @@
 %tag   name_ja 斉
 %tag   region of 漢土
 
+%tag position
+%tag   name_ja 斉皇帝
+%tag   group of 支那皇帝
+
 %tag religion
 %tag   name_ja 道教
 
