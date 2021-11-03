@@ -175,6 +175,7 @@ my $GToKMapKey = {
   魏 => 'gishin',
   晋 => 'gishin',
   南 => 'south',
+  北魏 => 'zuitou',
   隋 => 'zuitou',
   唐 => 'zuitou',
   宋 => 'sou',
@@ -619,6 +620,7 @@ for my $era (values %{$Data->{eras}}) {
             'firstday/incorrect' => 1,
             prevfirstday => $tr->{prev_era_ids}->{$era->{id}},
             received => 1,
+            'administrative' => 1,
             'wartime' => 1,
           }->{$tr->{type}}) {
             $era->{known_oldest_year} //= $year;
@@ -636,6 +638,7 @@ for my $era (values %{$Data->{eras}}) {
     
     if ($tr->{next_era_ids}->{$era->{id}} and
         ($tr->{type} eq 'firstday' or
+         $tr->{type} eq 'administrative' or
          $tr->{type} eq 'wartime')) { # has day or day_start
       my $y = extract_day_year $tr->{day} // $tr->{day_start}, $tr->{tag_ids};
       if (not $tr->{type} eq 'wartime') {
@@ -690,14 +693,18 @@ for my $era (values %{$Data->{eras}}) {
     }
     if ($tr->{prev_era_ids}->{$era->{id}} and
         ($tr->{type} eq 'prevfirstday' or
+         $tr->{type} eq 'administrative' or
          $tr->{type} eq 'wartime')) { # has day or day_end
       my $day = $tr->{day};
-      if (defined $day and $tr->{type} eq 'wartime') {
+      if (defined $day and
+          ($tr->{type} eq 'wartime' or
+           $tr->{type} eq 'administrative')) {
         $day = ssday $day->{jd} - 1, $tr->{tag_ids};
       }
       $day //= $tr->{day_start};
       my $y = extract_day_year $day, $tr->{tag_ids};
       if (not $tr->{type} eq 'wartime' and
+          not $tr->{type} eq 'administrative' and
           not $tr->{tag_ids}->{1359}) { # 起事建元
         $era->{end_year} //= $y;
         $era->{end_year} = $y if $era->{end_year} < $y;
@@ -730,6 +737,7 @@ for my $era (values %{$Data->{eras}}) {
     }
     if ($tr->{prev_era_ids}->{$era->{id}} and
         ($tr->{type} eq 'firstday' or
+         $tr->{type} eq 'administrative' or
          $tr->{type} eq 'wartime') and
         defined $tr->{day}) {
       if ($tr->{tag_ids}->{1325}) { # 日本朝廷改元日
@@ -785,7 +793,7 @@ for my $era (values %{$Data->{eras}}) {
     }
     if (not $has_end_year and
         $tr->{prev_era_ids}->{$era->{id}} and 
-        $tr->{type} eq 'wartime') { # has day or day_end
+        ($tr->{type} eq 'administrative' or $tr->{type} eq 'wartime')) { # has day or day_end
       my $day = $tr->{day};
       if (defined $day) {
         $day = ssday $day->{jd} - 1, $tr->{tag_ids};

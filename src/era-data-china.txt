@@ -80,7 +80,14 @@
 %tag   region of 漢土
 
 %tag region
+%tag   name_ja 江陵
+%tag   region of 漢土
+
+%tag region
 %tag   name_ja 雲南
+
+%tag region
+%tag   name_ja 甘粛
 
 %tag tag
 %tag   name_ja マカオ
@@ -120,6 +127,9 @@
 
 %tag people
 %tag   name_ja 漢民族
+
+%tag people
+%tag   name_ja 中華異民族
 
 %tag action
 %tag   name_ja 支那改元日
