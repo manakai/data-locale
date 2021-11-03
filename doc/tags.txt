@@ -70,6 +70,10 @@ The data type [tag-type] is one of followings:
 
     A religion.
 
+  source
+
+    A source reference, e.g. a book.
+
   tag
 
     A concept (used when no more specific [tag-type] is found).

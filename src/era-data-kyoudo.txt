@@ -1,3 +1,6 @@
+%tag people
+%tag   name_ja 匈奴
+
 %tag country
 %tag   label_ja 趙 (劉淵)
 %tag   name_ja 趙
@@ -18,3 +21,117 @@
 %tag   label_ja 前趙
 %tag   name_ja 趙
 %tag   period of 趙 (劉淵)
+
+
+def[神平]
+
+AD528 = 1
+
+tag 北魏
+tag 匈奴
+
+%tag person
+%tag   name_ja 万俟醜奴
+tag 万俟醜奴
+
+%tag country
+%tag   label_ja 趙 (万俟醜奴)
+%tag   name_ja 趙
+%tag   period of 趙
+%tag   period of 中国
+tag 趙 (万俟醜奴)
+
+name_ja 神平
+
+## [102]
+wref_zh 神獸_(年號)
+name_tw 神平
+name_cn 神平
+#王司徒墓誌
+u 2
+tag 甘粛
+
+## [103]
+wref_ja 神獣 (年号)
+#王司徒墓誌
+u 2
+tag 甘粛
+
+## <https://www.getit01.com/p201806143015802/>
+#"大趙神平二年歲次己酉十一月戊寅朔十三日庚寅記"
+
+<-建義(戊申) [北魏:528-7]
+    #支那改元日{#趙_(万俟醜奴) #万俟醜奴} #起事建元
+<-神獸 [北魏:528-7,北魏:528]
+    #支那改元日{#趙_(万俟醜奴) #万俟醜奴} #旧説
+
+def[神虎]
+
+AD528 = 1
+
+tag 旧説
+
+tag 北魏
+tag 匈奴
+
+tag 趙 (万俟醜奴)
+
+name_ja 神虎
+
+## [102]
+wref_zh 神獸_(年號)
+name_tw 神虎
+name_cn 神虎
+
+## <https://zh.wikipedia.org/wiki/%E4%B8%87%E4%BF%9F%E9%86%9C%E5%A5%B4>
+#"定年號神獸（神虎）"
+<-建義(戊申) ->神平,神獸,神虎 [北魏:528-7]
+    #建元前の即位{#趙_(万俟醜奴) #万俟醜奴 #支那皇帝}
+<-建義(戊申) ->神平,神獸,神虎 [北魏:528-7] #祥瑞{#趙_(万俟醜奴) #万俟醜奴}
+<-建義(戊申) ->神獸,神虎 [北魏:528-7]
+    #支那改元日{#趙_(万俟醜奴) #万俟醜奴} #起事建元 #旧説
+#->永安(戊申) <-神平,神獸,神虎 [北魏:530]
+    #陥落{#北魏, #趙_(万俟醜奴) #万俟醜奴}
+
+## <https://ja.wikipedia.org/wiki/%E4%B8%87%E4%BF%9F%E9%86%9C%E5%A5%B4>
+->永安(戊申) <-神平,神獸,神虎 [北魏:530-4]
+    #陥落{#北魏, #趙_(万俟醜奴) #万俟醜奴} #死去
+
+[神獸]
+#y~431
+
+AD528 = 1
+
+tag 旧説
+
+tag 北魏
+tag 匈奴
+
+tag 趙 (万俟醜奴)
+
+## [102]
+#528-7 - 530-4
+#王司徒墓誌: "大趙神平二年歲次己酉"
+#甘肅張家川發現「大趙神平二年」墓(秦明智,任步雲/AD1973):
+#  - "神平" - 訛傳 -> "神虎"/"神獸"
+#  - "神平" - 得獅子,改元 -> "神獸"
+#甘肅張家川出土北魏《王真保墓誌》試析(周偉洲/AD1978):
+#  - 得獅子(北魏,~AD525) -> "神平" - 訛傳 -> "神獸"
+
+## [103]
+wref_ja 神獣 (年号)
+name_ja 神獣
+name_kana しん じゅう
+#528 - 530
+#王司徒墓誌: "大趙神平二年歳次己酉"
+
+## <https://zh-classical.wikipedia.org/wiki/%E7%A5%9E%E7%8D%B8_(%E5%8C%97%E9%AD%8F)>
+#神獸（又作神虎、神平）
+#528 - 530
+
+## <https://ko.wikipedia.org/wiki/%EB%AC%B5%EA%B8%B0%EC%B6%94%EB%85%B8>
+#wref_ko 묵기추노
+name(kr) 신수
+
+## <https://vi.wikipedia.org/wiki/M%E1%BA%B7c_K%E1%BB%B3_S%E1%BB%ADu_N%C3%B4>
+name(vi) Thần Thú

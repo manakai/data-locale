@@ -335,7 +335,7 @@ for my $path (
     } elsif (defined $prop and ref $prop eq 'HASH' and
              /^  (title|url):(.+)$/) {
       $prop->{$1} = $2;
-    } elsif (defined $key and /^(wref_(?:ja|zh|en|ko))\s+(.+)$/) {
+    } elsif (defined $key and /^(wref_(?:ja|zh|en|ko|vi))\s+(.+)$/) {
       $Data->{eras}->{$key}->{$1} = $2;
     } elsif (defined $key and /^name(!|)\s+(\p{Han}+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},

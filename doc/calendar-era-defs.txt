@@ -384,6 +384,12 @@ It is a JSON object with following name/value pairs:
         <https://github.com/geocol/data-jp-transport/blob/master/doc/datatypes.txt>
         for the Korean Wikipedia article on the era, if known.
 
+      wref_vi [string?]
+
+        A Wikipedia reference
+        <https://github.com/geocol/data-jp-transport/blob/master/doc/datatypes.txt>
+        for the Vietnamese Wikipedia article on the era, if known.
+
       wref_zh [string?]
 
         A Wikipedia reference

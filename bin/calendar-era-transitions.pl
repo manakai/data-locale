@@ -173,6 +173,7 @@ my $GToKMapKey = {
   魏 => 'gishin',
   晋 => 'gishin',
   南 => 'south',
+  北魏 => 'zuitou',
   隋 => 'zuitou',
   唐 => 'zuitou',
   宋 => 'sou',
@@ -705,7 +706,7 @@ sub parse_date ($$;%) {
       push @jd, gymd2jd parse_year ($1), $2, $3;
     } elsif ($v =~ s{^j:((?:-|BC|)[0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
       push @jd, jymd2jd parse_year ($1), $2, $3;
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|隋|唐|宋|元|明|清|中華人民共和国):((?:-|BC|)[0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|隋|唐|宋|元|明|清|中華人民共和国):((?:-|BC|)[0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
       push @jd, nymmd2jd $1, parse_year ($2), $4, $5, $6;
       push @jd, nymmk2jd $1, parse_year ($2), $4, $5, $7;
       if (defined $3) {
@@ -715,11 +716,11 @@ sub parse_date ($$;%) {
           die "Year mismatch ($ky1 vs $ky2) |$all|";
         }
       }
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|隋|唐|宋|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|隋|唐|宋|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
       push @jd, nymmd2jd $1, parse_year ($2), $3, $4, $5;
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|隋|唐|宋|元|明|清|中華人民共和国):((?:-|BC|)[0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|隋|唐|宋|元|明|清|中華人民共和国):((?:-|BC|)[0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
       push @jd, nymmk2jd $1, parse_year ($2), $3, $4, $5;
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|隋|唐|宋|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|隋|唐|宋|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, parse_year ($2), $3, $4, 1;
       } elsif ($args{end}) {
@@ -741,7 +742,7 @@ sub parse_date ($$;%) {
       } else {
         die "Bad date |$v| ($all)";
       }
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|南|晋|隋|唐|宋|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|南|北魏|晋|隋|唐|宋|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, parse_year ($2), 1, '', 1;
       } elsif ($args{end}) {
@@ -862,7 +863,8 @@ for my $tr (@$Input) {
             $param_tags->{$t1} = 1;
             if ($tag->{type} eq 'country' or
                 $tag->{type} eq 'org' or
-                $tag->{type} eq 'people') {
+                $tag->{type} eq 'people' or
+                $tag->{type} eq 'source') {
               if (defined $tags2) {
                 $x->{subject_tag_ids}->{$tag->{id}} = 1;
               } else {
@@ -1148,6 +1150,7 @@ my $TypeOrder = {
 
   "firstday-canceled" => "firstday_0",
   firstday => "firstday_1",
+  commenced => 'firstday_2',
 
   lastyearend => "~98",
   prevfirstyearstart => "~99",
