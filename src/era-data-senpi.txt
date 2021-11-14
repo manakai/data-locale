@@ -67,6 +67,9 @@ s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B721>"十九�
 ->仁壽(辛酉) 隋:599-12-乙未 #天象災異 #隋
 ->仁壽(辛酉) [隋:600-10] #天象災異 #隋
 
+s#陳書<https://zh.wikisource.org/wiki/%E9%99%B3%E6%9B%B8/%E5%8D%B76>"仁壽"
+tag 陳叔宝
+
 
 [仁壽(辛酉)]
 #y~876
@@ -94,6 +97,9 @@ s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B702>"仁壽�
 <-開皇 隋:601-1-1(乙酉) #支那改元日{#隋 #楊堅}
 s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B702>"崩於大寶殿"
 ->大業 隋:604-7-13(丁未) #改元前の死去{#隋 #楊堅}
+
+s#陳書<https://zh.wikisource.org/wiki/%E9%99%B3%E6%9B%B8/%E5%8D%B76>"仁壽"
+tag 陳叔宝
 
 
 [大業]
