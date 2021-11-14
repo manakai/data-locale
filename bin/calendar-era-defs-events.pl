@@ -609,6 +609,7 @@ for my $era (values %{$Data->{eras}}) {
   my $era_trs = [grep {
     $_->{relevant_era_ids}->{$era->{id}};
   } @$EraTransitions];
+  my $has_prevfirstday = 0;
   for my $tr (@$era_trs) {
     for my $dk (grep { defined $tr->{$_} } qw(day day_start day_end)) {
       for my $key (qw(gregorian julian kyuureki nongli_tiger)) {
@@ -695,6 +696,7 @@ for my $era (values %{$Data->{eras}}) {
         ($tr->{type} eq 'prevfirstday' or
          $tr->{type} eq 'administrative' or
          $tr->{type} eq 'wartime')) { # has day or day_end
+      $has_prevfirstday = 1 if $tr->{type} eq 'prevfirstday';
       my $day = $tr->{day};
       if (defined $day and
           ($tr->{type} eq 'wartime' or
@@ -791,9 +793,13 @@ for my $era (values %{$Data->{eras}}) {
       $era->{official_start_day} = $era->{start_day}
           if $era->{jp_emperor_era};
     }
-    if (not $has_end_year and
-        $tr->{prev_era_ids}->{$era->{id}} and 
-        ($tr->{type} eq 'administrative' or $tr->{type} eq 'wartime')) { # has day or day_end
+    if ((not $has_end_year and
+         $tr->{prev_era_ids}->{$era->{id}} and 
+         ($tr->{type} eq 'administrative' or $tr->{type} eq 'wartime')) or # has day or day_end
+        (not $has_prevfirstday and
+         ($tr->{type} eq 'firstday' or $tr->{type} eq 'commenced') and
+         $tr->{prev_era_ids}->{$era->{id}} and
+         not $tr->{tag_ids}->{1359})) { # 起事建元
       my $day = $tr->{day};
       if (defined $day) {
         $day = ssday $day->{jd} - 1, $tr->{tag_ids};

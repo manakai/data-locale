@@ -3017,6 +3017,10 @@ name_kana こう わ
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B78>"改元光和"
 <-熹平 漢:178-3-辛丑 #支那改元日{#後漢 #漢霊帝}
 
+%tag tag
+%tag   name_ja 漢末
+%tag   period of 魏晋南北朝時代
+tag 漢末
 
 [神上]
 #y~962
@@ -3026,6 +3030,7 @@ AD184 = 1
 tag 後漢
 tag 漢土
 tag 漢民族
+tag 漢末
 
 %tag event
 %tag   name_ja 黄巾の乱
@@ -3073,6 +3078,7 @@ tag 後漢
 tag 後漢の公年号
 tag 漢土
 tag 漢民族
+tag 漢末
 
 tag 漢霊帝
 
@@ -3113,6 +3119,7 @@ tag 後漢
 tag 後漢の公年号
 tag 漢土
 tag 漢民族
+tag 漢末
 
 %tag person
 %tag   name_ja 劉弁
@@ -3145,6 +3152,7 @@ tag 後漢
 tag 後漢の公年号
 tag 漢土
 tag 漢民族
+tag 漢末
 
 tag 劉弁
 
@@ -3176,6 +3184,7 @@ tag 後漢
 tag 後漢の公年号
 tag 漢土
 tag 漢民族
+tag 漢末
 
 %tag person
 %tag   name_ja 献帝
@@ -3207,6 +3216,7 @@ tag 後漢
 tag 後漢の公年号
 tag 漢土
 tag 漢民族
+tag 漢末
 
 tag 献帝
 
@@ -3243,6 +3253,7 @@ tag 後漢
 tag 後漢の公年号
 tag 漢土
 tag 漢民族
+tag 漢末
 
 tag 献帝
 
@@ -3266,6 +3277,7 @@ tag 後漢
 tag 後漢の公年号
 tag 漢土
 tag 漢民族
+tag 漢末
 
 tag 献帝
 
