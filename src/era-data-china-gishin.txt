@@ -3,7 +3,11 @@
 ## [103] ja.wikipedia era pages
 
 %tag tag
+%tag   name_ja 魏晋南北朝時代
+
+%tag tag
 %tag   name_ja 三国時代
+%tag   period of 魏晋南北朝時代
 
 %tag person
 %tag   name_ja 三国志
@@ -412,11 +416,15 @@ s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B7
 ->泰始 魏:265-12-13(壬戌)
     #改元前の退位{#曹魏 #曹奐 #魏皇帝} #禅譲 #西晋 #司馬炎
 
+%tag tag
+%tag   name_ja 六朝時代
+%tag   period of 中国
 
 %tag country
 %tag   name_ja 孫呉
 %tag   period of 呉
 %tag   period of 中国
+%tag   period of 六朝時代
 
 %tag position
 %tag   name_ja 呉皇帝
@@ -1048,6 +1056,8 @@ s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B7
 %tag   name_ja 晋
 %tag   period of 晋
 %tag   period of 中国
+%tag   period of 魏晋南北朝時代
+%tag   period of 六朝時代
 
 %tag tag
 %tag   name_ja 晋の公年号
@@ -1423,6 +1433,7 @@ s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7004>"太安�
 
 %tag tag
 %tag   name_ja 五胡十六国時代
+%tag   period of 魏晋南北朝時代
 
 [神鳳(癸亥)]
 #y~595
@@ -2572,14 +2583,20 @@ s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7010>"年號�
 %tag tag
 %tag   name_ja 支那南北朝時代
 %tag   period of 中国
+%tag   period of 魏晋南北朝時代
 
 %tag tag
 %tag   name_ja 支那北朝
 %tag   group of 支那南北朝時代
+%tag   period of 中国
+%tag   period of 魏晋南北朝時代
 
 %tag tag
 %tag   name_ja 支那南朝
 %tag   group of 支那南北朝時代
+%tag   period of 六朝時代
+%tag   period of 中国
+%tag   period of 魏晋南北朝時代
 
 %tag country
 %tag   label_ja 南朝宋
