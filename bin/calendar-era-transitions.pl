@@ -155,7 +155,9 @@ my $IndexToKanshi = {map { my $x = $_; $x =~ s/\s+//g; $x =~ s/(\d+)/ $1 /g;
 my $KanshiToIndex = {reverse %$IndexToKanshi};
 sub kanshi0_to_label ($) { $IndexToKanshi->{$_[0]+1} // die $_[0] }
 sub label_to_kanshi0 ($) {
-  my $kanshi = $KanshiToIndex->{$_[0]}
+  my $v = $_[0];
+  $v =~ s/景/丙/g;
+  my $kanshi = $KanshiToIndex->{$v}
       // die "Bad kanshi |$_[0]|";
   return $kanshi - 1;
 } # label_to_kanshi0
