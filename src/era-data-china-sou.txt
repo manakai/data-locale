@@ -32,6 +32,7 @@ tag 宋の公年号
 tag 漢土
 tag 沙陀族
 tag 漢民族
+tag 五代
 
 %tag person
 %tag   name_ja 趙匡胤
@@ -73,6 +74,7 @@ tag 宋の公年号
 tag 漢土
 tag 沙陀族
 tag 漢民族
+tag 五代
 
 tag 趙匡胤
 
@@ -104,6 +106,7 @@ tag 宋の公年号
 tag 漢土
 tag 沙陀族
 tag 漢民族
+tag 五代
 
 tag 趙匡胤
 
@@ -136,6 +139,7 @@ tag 北宋
 tag 宋の公年号
 tag 漢土
 tag 漢民族
+tag 五代
 
 %tag person
 %tag   name_ja 宋太宗

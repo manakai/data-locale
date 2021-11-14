@@ -1,0 +1,2 @@
+%tag country
+%tag   name_ja 新羅
