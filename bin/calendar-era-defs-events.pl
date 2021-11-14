@@ -796,7 +796,8 @@ for my $era (values %{$Data->{eras}}) {
     if ((not $has_end_year and
          $tr->{prev_era_ids}->{$era->{id}} and 
          ($tr->{type} eq 'administrative' or $tr->{type} eq 'wartime')) or # has day or day_end
-        (not $has_prevfirstday and $tr->{type} eq 'firstday' and
+        (not $has_prevfirstday and
+         ($tr->{type} eq 'firstday' or $tr->{type} eq 'commenced') and
          $tr->{prev_era_ids}->{$era->{id}} and
          not $tr->{tag_ids}->{1359})) { # 起事建元
       my $day = $tr->{day};
