@@ -471,7 +471,7 @@ for my $path (
       my $e_year = $3;
       $Data->{eras}->{$key}->{offset} = $g_year - $e_year;
     } elsif (defined $key and
-             /^u\s+(-?[0-9]+)(?:-([0-9]+)('|)(?:-([0-9]+|\w\w)|)|)(?:\s+(\w+)|)$/) {
+             /^u\s+(-?[0-9]+)(?:-([0-9]+)('|)(?:-([0-9]+(?:\(\w\w\)|)|\w\w)|)|)(?:\s+(\w+)|)$/) {
       push @{$Data->{eras}->{$key}->{_usages} ||= []},
           [[0+$1, $2?0+$2:undef, $3?1:0, $4?$4:undef], $5];
     } elsif (defined $key and /^(sw)\s+(.+)$/) {

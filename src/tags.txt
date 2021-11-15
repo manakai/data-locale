@@ -487,6 +487,16 @@ action
   group of 行政異動
 
 action
+  name_ja 領有権移転
+  group of 割譲
+  group of 行政異動
+
+action
+  name_ja 割譲
+  #subject: old
+  #object: new
+
+action
   name_ja 戦時異動
 
 action

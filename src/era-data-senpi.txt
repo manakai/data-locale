@@ -2743,6 +2743,12 @@ name_kana ちゅう わ
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B719%E4%B8%8B>"為中和元年"
 <-廣明 唐:881-7-丁巳 #支那改元日{#李唐 #僖宗}
 
+## <https://ja.wikipedia.org/wiki/%E6%9D%8E%E5%85%8B%E7%94%A8>
+#AD882 唐 雁門節度使
+tag 李克用
+tag 突厥
+tag 沙陀族
+
 [光啟]
 #y~1700
 AD885 = 1
@@ -2951,6 +2957,14 @@ name 乾甯
 name 乾寧
 <-景福 唐:894-1-1(乙丑) #支那改元日{#李唐 #昭宗}
 
+## <https://ja.wikipedia.org/wiki/%E6%9D%8E%E5%85%8B%E7%94%A8>
+>< [唐:895] #即位{#晋_(李克用) #晋王} #李唐
+tag 李克用
+tag 突厥
+tag 沙陀族
+tag 山西
+tag 晋 (李克用)
+
 [光化]
 #y~1699
 AD898 = 1
@@ -3043,6 +3057,11 @@ name_cn 天复
 u 7
 #
 #李克用
+tag 李克用
+tag 突厥
+tag 沙陀族
+tag 山西
+tag 晋 (李克用)
 #u 4+
 
 ## [103]
@@ -3090,7 +3109,8 @@ name_cn 天祐
 #904-4' - 907-12
 #
 #李克用
-#904-4' - 913-4
+tag 李克用
+#904-4' - 923-4
 u 4
 #
 #李茂贞
@@ -3102,7 +3122,8 @@ u 19
 #<- 904-4'
 #-> 919-4
 #
-#契丹
+tag 契丹人
+tag 契丹国
 #904-4' - 916-12
 #
 u 21
@@ -3142,8 +3163,8 @@ s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7
 tag 唐哀帝
 
 ->開平 唐:907-3-27(甲辰) j:907-5-12 #改元前の退位{#李唐 #唐哀帝 #唐皇帝}
+    #禅譲 #朱梁
 #時太原、幽州、鳳翔、西川猶稱天祐正朔。
-                                               
 
 %tag person
 %tag   name_ja 楊行密
@@ -3156,6 +3177,27 @@ tag 楊行密
 %tag   group of 十国
 %tag   period of 中国
 tag 十国呉
+
+tag 李克用
+tag 突厥
+tag 沙陀族
+tag 山西
+tag 晋 (李克用)
+tag 李存勗
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B726>"崩"
+>< 唐:908-1-辛卯 #死去{#晋_(李克用) #李克用} #李唐 #旧説
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B727>"嗣王位"
+>< [唐:908-1-20,唐:908] #即位{#晋_(李克用) #晋王 #李存勗} #李唐
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B729>"天祐十九年"
+u 19-12
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B729>"改天佑二十年"
+u 20
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B735>"二十年"
+u 20-10-己卯
+
+## <https://ja.wikipedia.org/wiki/%E6%9D%8E%E5%85%8B%E7%94%A8>
+## <https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%85%8B%E7%94%A8>
+>< 唐:908-1-20 j:908-2-24 #死去{#晋_(李克用) #李克用} #李唐
 
 
 
@@ -3207,6 +3249,13 @@ s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%
 <-天祐 唐:907-4-戊辰 #支那改元詔{#朱梁 #朱全忠}
 #<-天祐 唐:907-3-甲辰 #改元前の退位{#李唐 #唐哀帝 #唐皇帝}
 <-天祐 唐:907-4-甲子 #建元前の即位{#朱梁 #朱全忠 #梁皇帝} #禅譲 #李唐
+
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B726>"開平"
+#<-天祐 [唐:907-4] #改元前の退位{#李唐 #唐哀帝 #唐皇帝} #禅譲 #朱梁
+#<-天祐 [唐:907-4] #建元前の即位{#朱梁 #朱全忠 #梁皇帝} #禅譲 #李唐 #旧説
+#<-天祐 [唐:907-4] #国名変更{#李唐, #朱梁} #禅譲 #朱全忠 #事由
+#<-天祐 [唐:907-4] #支那改元日{#朱梁 #朱全忠}
+s+
 
 ## [102]
 #907-4 - 911-4
@@ -3291,6 +3340,9 @@ name(kr) 건화
 tag 朱友貞
 tag 再開
 
+## <https://zh-yue.wikipedia.org/wiki/%E4%B9%BE%E5%8C%96>
+#911-913 913-915
+
 tag 桀燕
 tag 劉守光
 
@@ -3334,6 +3386,9 @@ name_ja 鳳暦
 name_kana ほう れき
 #913-1 - 913-2
 
+## <https://zh-yue.wikipedia.org/wiki/%E9%B3%B3%E6%9B%86_(%E5%BE%8C%E6%A2%81)>
+#913
+
 ## <https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%88:%E9%B3%B3%E6%9A%A6_(%E4%BA%94%E4%BB%A3%E5%BE%8C%E6%A2%81)>
 name 鳳歴
 name 鳳暦
@@ -3371,7 +3426,7 @@ tag 劉守光
 
 ## <https://zh.wikipedia.org/wiki/%E5%8A%89%E5%AE%88%E5%85%89>
 #<-乾化 j:911-9-8 #建元前の即位{#桀燕 #劉守光 #燕皇帝}
-#->天祐 [唐:913] #陥落{#李存勗 #後唐, #桀燕 #劉守光}
+#->天祐 [唐:913] #陥落{#晋_(李克用) #李存勗, #桀燕 #劉守光}
 ->天祐 j:914-1-4 #退位{#桀燕 #劉守光 #燕皇帝} #戦時異動
 >< j:914-2-16 #死去{#桀燕 #劉守光}
 #911-9-8 - 914-1-4
@@ -3384,13 +3439,13 @@ name_kana おう てん
 
 ## <https://ja.wikipedia.org/wiki/%E5%8A%89%E5%AE%88%E5%85%89>
 <-乾化 j:911-9-8 #建元前の即位{#桀燕 #劉守光 #燕皇帝}
-#->天祐 [唐:913] #陥落{#李存勗 #後唐, #桀燕 #劉守光}
+#->天祐 [唐:913] #陥落{#李存勗 #晋_(李克用), #桀燕 #劉守光}
 #>< j:914-1-4 #退位{#桀燕 #劉守光 #燕皇帝}
 >< 唐:914-1-15 j:914-2-12 #死去{#桀燕 #劉守光} #異説
 
 ## <https://ja.wikipedia.org/wiki/%E6%A1%80%E7%87%95>
 #<-乾化 [唐:911-8] #建元前の即位{#桀燕 #劉守光 #燕皇帝}
-->天祐 [唐:913-11] #陥落{#李存勗 #後唐, #桀燕 #劉守光}
+->天祐 [唐:913-11] #陥落{#李存勗 #晋_(李克用), #桀燕 #劉守光}
 
 
 [貞明(乙亥)]
@@ -3428,6 +3483,9 @@ name(kr) 정명
 #915-8 - 921-4
 #915-11-9 -
 
+## <https://zh-yue.wikipedia.org/wiki/%E8%B2%9E%E6%98%8E>
+#915 - 921
+
 [龍德]
 #y~1266
 
@@ -3464,10 +3522,29 @@ wref_ko 용덕
 name(kr) 용덕
 #921-5-1 - 923-10
 
+## <https://zh-yue.wikipedia.org/wiki/%E9%BE%8D%E5%BE%B7_(%E5%BE%8C%E6%A2%81)>
+#921 - 923
+
+
+%tag country
+%tag   name_ja 李克用政権
+%tag   period of 五代
+%tag   period of 中国
+
+%tag country
+%tag   label_ja 晋 (李克用)
+%tag   name_ja 晋
+%tag   period of 晋
+%tag   period of 李克用政権
+%tag   period of 五代
+%tag   period of 中国
+%tag   region of 李唐
 
 %tag country
 %tag   name_ja 後唐
+%tag   name_ja 唐
 %tag   period of 唐
+%tag   period of 李克用政権
 %tag   period of 五代
 %tag   period of 中国
 
@@ -3475,15 +3552,234 @@ name(kr) 용덕
 %tag   name_ja 後唐の公年号
 %tag   group of 中華王朝の公年号
 
+%tag person
+%tag   name_ja 李克用
+
 [同光]
 
+AD923 = 1
+
+tag 漢土
+tag 漢民族
 tag 後唐
 tag 後唐の公年号
+tag 突厥
+tag 沙陀族
+tag 朱梁
 
 %tag person
 %tag   name_ja 李存勗
 tag 李存勗
 
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B729>"同光元年"
+<-天祐 唐:923-4-己巳 #建元前の即位{#後唐 #李存勗 #唐皇帝}
+<-天祐 唐:923-4-己巳 #支那改元詔{#後唐 #李存勗} #起事建元
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B734>"崩"
+#->天成(丙戌) 唐:926-4-1(丁丑) #改元前の死去{#後唐 #李存勗}
+#day not found
+
+->天成(丙戌) 唐:926-4-1(丁亥) #改元前の死去{#後唐 #李存勗}
+
+## [102]
+#923-4 - 926-4
+tag 十国閩
+tag 王審知
+#923-4 - 925
+#荆南武信王高季兴
+#924-3 - 926-4
+
+wref_ja 同光
+name_ja 同光
+name_kana どう こう
+#923-4 - 926-4
+
+## <https://zh-yue.wikipedia.org/wiki/%E5%90%8C%E5%85%89>
+#923 - 926
+
+wref_ko 동광 (후당)
+name(kr) 동광
+#923-4-25 - 926-4
+
+[天成(丙戌)]
+#y~1440
+
+AD926 = 1
+
+tag 漢土
+tag 漢民族
+tag 後唐
+tag 突厥
+tag 沙陀族
+tag 後唐の公年号
+
+%tag person
+%tag   name_ja 李嗣源
+tag 李嗣源
+
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B736>"即皇帝位"
+<-同光 唐:926-4-丙午 #建元前の即位{#後唐 #李嗣源 #唐皇帝}
+<-同光 唐:926-4-甲寅 #支那改元詔{#後唐 #李嗣源}
+
+## [102]
+#926-4 - 930-2
+#楚武穆王马殷 927-6 - 930
+#闽嗣王王延翰
+#惠宗王延钧
+#荆南武信王高季兴 926-4 - 928-6 ->乾貞
+#荆南文獻王高從誨 929-5謝罪, 929-7 -
+
+wref_ja 天成 (後唐)
+name_ja 天成
+name_kana てん せい
+#926-4 - 930-2
+
+## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E6%88%90_(%E5%BE%8C%E5%94%90)>
+#926 - 930
+
+wref_ko 천성 (후당)
+name(kr) 천성
+#926-5 - 930-2
+<-同光 [唐:926-5] #支那改元日{#後唐 #李嗣源} #旧説
+#926-4-29 -
+
+[長興]
+#y~1488
+
+AD930 = 1
+
+tag 漢土
+tag 漢民族
+tag 後唐
+tag 突厥
+tag 沙陀族
+tag 後唐の公年号
+
+tag 李嗣源
+
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B741>"為長興"
+<-天成(丙戌) 唐:930-2-乙卯 #支那改元詔{#後唐 #李嗣源}
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B744>"崩"
+->應順 唐:933-11-戊戌 #改元前の死去{#後唐 #李嗣源}
+
+## [102]
+#930-2 - 933
+#吳越世宗錢元瓘 932-4 - 933 <-宝正
+#马楚衡阳王馬希聲, 文昭王馬希範 930-11 - 933
+#闽惠宗王延钧 930-2 - 932 ->龙启
+#荆南文獻王高從誨 930-2 - 933
+#
+#后唐河东节度使石敬瑭 936 - (-11) <-清泰 ->天福
+u 7
+
+wref_ja 長興
+name_ja 長興
+name_kana ちょう こう
+#930-2 - 933-12
+
+## <https://zh-yue.wikipedia.org/wiki/%E9%95%B7%E8%88%88_(%E5%BE%8C%E5%94%90)>
+#930 - 933
+
+wref_ko 장흥 (후당)
+name(kr) 장흥
+#930-5 - 933
+<-天成(丙戌) [唐:930-5] #支那改元日{#後唐 #李嗣源} #旧説
+#930-2-21 j:930-3-23 -
+
+
+[應順]
+#y~1545
+
+AD934 = 1
+
+tag 漢土
+tag 漢民族
+tag 後唐
+tag 突厥
+tag 沙陀族
+tag 後唐の公年号
+
+%tag person
+%tag   name_ja 李従厚
+tag 李従厚
+
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B745>"即位"
+<-長興 唐:933-12-1(癸卯) #建元前の即位{#後唐 #唐皇帝 #李従厚}
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B745>"為應順元年"
+<-長興 唐:934-1-戊寅 #支那改元詔{#後唐 #李従厚}
+
+## [102]
+#934-1 - 934-4
+#吳越世宗錢元瓘
+#楚文昭王馬希範
+#荆南文獻王高從誨
+
+wref_ja 応順
+name_ja 応順
+name_kana おう じゅん
+#934-1 - 934-4
+
+## <https://zh-yue.wikipedia.org/wiki/%E6%87%89%E9%A0%86>
+#934
+
+wref_ko 응순
+name(kr) 응순
+#934-1-7 - 934-4
+
+[清泰]
+#y~417
+
+AD934 = 1
+
+tag 漢土
+tag 漢民族
+tag 後唐
+tag 突厥
+tag 沙陀族
+tag 後唐の公年号
+
+%tag person
+%tag   name_ja 李従珂
+tag 李従珂
+
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B745>"四月三日"
+<-應順 唐:934-4-5 #建元前の即位{#後唐 #唐皇帝 #李従珂} #旧説
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B746>"癸酉"
+<-應順 唐:934-4-癸酉 #改元前の退位{#後唐 #唐皇帝 #李従厚}
+<-應順 唐:934-4-甲戌 #建元前の即位{#後唐 #唐皇帝 #李従珂}
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B746>"為清泰元年"
+<-應順 唐:934-4-乙酉 #支那改元詔{#後唐 #李従厚}
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B746>"年五十二"
+->天福(丙申) 唐:936-11'-辛巳 #陥落{#後晋, #後唐 #李従厚} #死去
+
+## [102]
+#934-4 - 936-11'
+#吳越世宗錢元瓘
+#楚文昭王馬希範
+#荆南文獻王高從誨 934-4 - 936-11'
+
+## <https://zh.wikipedia.org/wiki/%E5%94%90%E9%96%94%E5%B8%9D>
+#<-應順 [唐:934-4] #改元前の退位{#後唐 #唐皇帝 #李従厚}
+
+wref_ja 清泰
+name_ja 清泰
+name_kana せい たい
+#934-4 - 936-11'
+
+## <https://ja.wikipedia.org/wiki/%E6%9D%8E%E5%BE%93%E5%8E%9A>
+#<-應順 唐:934-4-4 j:934-5-19 #改元前の退位{#後唐 #唐皇帝 #李従厚}
+## <https://ja.wikipedia.org/wiki/%E6%9D%8E%E5%BE%93%E7%8F%82>
+#<-應順 唐:934-4-6 j:934-5-21 #建元前の即位{#後唐 #唐皇帝 #李従珂}
+## <https://ja.wikipedia.org/wiki/%E6%9D%8E%E5%BE%93%E7%8F%82>
+#->天福(丙申) 唐:936-11'-辛巳 #陥落{#後晋, #後唐 #李従厚} #死去
+
+## <https://zh-yue.wikipedia.org/wiki/%E6%B8%85%E6%B3%B0>
+#934 - 936
+
+wref_ko 청태
+name(kr) 청태
+#934-5 - 936-11
+#            ^^
+#934-4-16 j:934-5-31 -
 
 %tag country
 %tag   name_ja 後晋
@@ -3495,18 +3791,345 @@ tag 李存勗
 %tag   name_ja 後晋の公年号
 %tag   group of 中華王朝の公年号
 
+[天福(丙申)]
+#y~921
+
+AD936 = 1
+
+tag 漢土
+tag 漢民族
+tag 後晋
+tag 突厥
+tag 沙陀族
+tag ソグド人
+tag 後晋の公年号
+tag 後唐
+tag 契丹国
+
+%tag person
+%tag   name_ja 石敬瑭
+tag 石敬瑭
+
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B775>"三年五月"
+<-清泰 ->天顯 [唐:936-5] #勢力吸収{#契丹国, #石敬瑭} #後晋 #後唐
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B775>"大晉皇帝"
+<-天顯 唐:936-10-甲子 #建元前の即位{#契丹国 #石敬瑭 #晋王} #後晋
+<-天顯 唐:936-11-丁酉 #建元前の即位{#後晋 #石敬瑭 #晋皇帝} #契丹国
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B776>"己亥"
+<-天顯 唐:936-11-己亥 #支那改元詔{#後晋 #石敬瑭}
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B780>"崩"
+#->開運 唐:942-6-乙丑 #改元前の死去{#後晋 #石敬瑭}
+
+## [102]
+#936-11-己亥 - 944-6 977
+#石敬瑭
+#石重贵
+#后汉劉知遠 947-2 - 947-12 <-开运 ->乾祐
+#吳越世宗錢元瓘, 成宗钱弘佐
+#吳越忠遜王錢弘倧 947 ->乾祐
+#楚文昭王馬希範
+#楚废王馬希廣 947-4 ->乾祐
+#荆南文獻王高從誨也
+#荆南文獻王高從誨 947 ->乾祐
+
+wref_ja 天福 (後晋)
+name_ja 天福
+name_kana てん ふく
+#936-11 - 944-6
+tag 石敬瑭
+#947-2 - 947/948-1
+tag 劉知遠
+
+## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E7%A6%8F_(%E5%BE%8C%E6%99%89)>
+#936 - 944, 947
+u 12
+
+wref_ko 천복 (후진)
+name(kr) 천복
+#936-11-14 - 944-6, 947-2-15 - 948
+u 13
+
+## <https://ja.wikipedia.org/wiki/%E7%87%95%E9%9B%B2%E5%8D%81%E5%85%AD%E5%B7%9E>
+->天顯 [唐:936] #領有権移転{#後晋, #契丹国 #燕雲十六州}
+## <https://ja.wikipedia.org/wiki/%E8%80%B6%E5%BE%8B%E5%A0%AF%E9%AA%A8>
+#->天顯 [唐:933,唐:942] #領有権移転{#後晋, #契丹国 #燕雲十六州}
+
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B799>"天福二年"
+tag 五代後漢
+tag 劉知遠
+s+
+u 2-4
+u 8-3
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B799>"天福十二年"
+u 12-1-1(丁亥)
+u 12-2-辛未
+<-開運 唐:947-2-辛未 #建元前の即位{#五代後漢 #劉知遠 #漢皇帝} #後晋
+<-開運 唐:947-2-辛未 #支那改元詔{#五代後漢 #劉知遠} #後晋
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7100>"天福十三年"
+s+
+u 13
+
+[開運]
+#y~450
+
+AD944 = 1
+
+tag 漢土
+tag 漢民族
+tag 後晋
+tag 突厥
+tag 沙陀族
+tag ソグド人
+tag 後晋の公年号
+tag 契丹国
+
+%tag person
+%tag   name_ja 石重貴
+tag 石重貴
+
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B781>"即皇帝位"
+<-天福(丙申) 唐:942-6-13(乙丑) #改元前の死去{#後晋 #石敬瑭}
+<-天福(丙申) 唐:942-6-13(乙丑) #建元前の即位{#後晋 #石重貴 #晋皇帝}
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B783>"為開運元年"
+<-天福(丙申) 唐:944-7-1(辛未) #支那改元日{#後晋 #石重貴}
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B785>"十二月"
+#->會同 [唐:946-12] #鎮圧{#契丹国, #後晋 #石重貴} #事由
+#                 -癸酉
+
+## [102]
+#944-7 - 946
+#吳越成宗钱弘佐
+#楚文昭王馬希範
+#荆南文獻王高從誨
+
+wref_ja 開運 (後晋)
+name_ja 開運
+name_kana かい うん
+#944-7 - 946-12
+
+## <https://ja.wikipedia.org/wiki/%E8%80%B6%E5%BE%8B%E5%A0%AF%E9%AA%A8>
+->會同 [唐:946] #鎮圧{#契丹国, #後晋 #石重貴} #事由
+## <https://ja.wikipedia.org/wiki/%E7%9F%B3%E9%87%8D%E8%B2%B4>
+->會同 唐:946-12-17 j:947-1-11 #鎮圧{#契丹国, #後晋 #石重貴} #退位 #事由
+
+## <https://zh-yue.wikipedia.org/wiki/%E9%96%8B%E9%81%8B_(%E5%BE%8C%E6%99%89)>
+#944 - 946
+
+wref_ko 개운 (후진)
+name(kr) 개운
+#944-7-1 - 946
+
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B799>"開運元年"
+s+
+tag 五代後漢
+tag 劉知遠
+u 1-1
+u 2-12-17
 
 %tag country
 %tag   label_ja 五代漢
 %tag   name_ja 漢
-%tag   label_ja 後漢
 %tag   period of 漢
+%tag   period of 五代
+%tag   period of 中国
+
+%tag country
+%tag   label_ja 五代後漢
+%tag   name_ja 漢
+%tag   label_ja 後漢
+%tag   period of 五代漢
 %tag   period of 五代
 %tag   period of 中国
 
 %tag tag
 %tag   name_ja 五代漢の公年号
 %tag   group of 中華王朝の公年号
+
+%tag tag
+%tag   name_ja 五代後漢の公年号
+%tag   group of 五代漢の公年号
+
+[乾祐]
+#y~328
+
+AD948 = 1
+
+tag 漢土
+tag 漢民族
+tag 五代後漢
+tag 突厥
+tag 沙陀族
+tag 五代後漢の公年号
+
+%tag person
+%tag   name_ja 劉知遠
+tag 劉知遠
+
+%tag person
+%tag   name_ja 劉承祐
+tag 劉承祐
+
+%tag person
+%tag   name_ja 劉贇
+tag 劉贇
+
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7100>"天福十三年"
+<-天福(丙申) 唐:948-1-乙卯 #支那改元詔{#五代後漢 #劉知遠}
+>< 唐:948-1-27(丁丑) #死去{#五代後漢 #劉知遠}
+>< 唐:948-2-1(辛巳) #即位{#五代後漢 #劉承祐 #漢皇帝}
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7101>"高祖崩"
+#>< 唐:948-1-27 #死去{#五代後漢 #劉知遠}
+#>< 唐:948-2-辛巳 #即位{#五代後漢 #劉承祐 #漢皇帝}
+#"初，高祖欲改年號，中書門下進擬「乾和」二字，高祖改為乾祐，至是與御名相符。"
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7103>"崩"
+->廣順 唐:950-11-乙酉 #改元前の死去{#五代後漢 #劉承祐} #死去 #後周
+
+## [102]
+#948 - 956
+tag 劉知遠
+tag 劉承祐
+#吳越忠懿王钱俶 ->广顺
+#荆南文獻王高從誨 ->广顺
+#貞懿王高保融
+#楚废王馬希廣 - 950-11 ->保大
+#北汉劉旻, 劉鈞 951 - 956 ->天会
+u 9
+
+## <https://zh.wikipedia.org/wiki/%E5%8A%89%E6%97%BB>
+#劉旻 951-1 - 954-10
+#>< [唐:951-1] #即位{#北漢 #劉旻 #漢皇帝}
+>< [唐:954-10] #死去{#北漢 #劉旻}
+## <https://zh.wikipedia.org/wiki/%E5%88%98%E9%92%A7_(%E5%8C%97%E6%B1%89)>
+#刘钧 954-11 - 956
+>< [唐:954-11] #即位{#北漢 #劉旻 #漢皇帝}
+
+wref_ja 乾祐 (五代後漢)
+name_ja 乾祐
+name_kana けん ゆう
+#948 - 950
+tag 劉知遠
+tag 劉承祐
+#呉越忠懿王銭俶 ->広順
+#楚廃王馬希広 ->保大
+#
+#951 - 956
+#北漢劉旻, 劉鈞 ->天会
+
+## <https://zh-yue.wikipedia.org/wiki/%E4%B9%BE%E7%A5%90_(%E5%BE%8C%E6%BC%A2)>
+#948 - 950
+#951 - 956
+
+wref_ko 건우 (후한)
+name(kr) 건우
+#948-1-5 - 950 - 956
+
+%tag country
+%tag   label_ja 北漢
+%tag   name_ja 漢
+%tag   period of 五代漢
+%tag   period of 十国
+%tag   period of 中国
+tag 北漢
+
+%tag tag
+%tag   name_ja 北漢の公年号
+%tag   period of 五代漢の公年号
+tag 北漢の公年号
+
+%tag person
+%tag   name_ja 劉旻
+tag 劉旻
+>< [唐:951-1-丁卯,唐:951-1] #即位{#北漢 #劉旻 #漢皇帝}
+u 4
+tag 遼
+
+%tag person
+%tag   name_ja 劉鈞
+tag 劉鈞
+u 9
+tag 遼
+
+[天會]
+#y~774
+
+AD957 = 1
+                                     
+tag 漢土
+tag 漢民族
+tag 北漢
+tag 突厥
+tag 沙陀族
+tag 北漢の公年号
+tag 遼
+
+tag 劉鈞
+
+%tag person
+%tag   name_ja 劉継恩
+tag 劉継恩
+
+%tag person
+%tag   name_ja 劉継元
+tag 劉継元
+
+## [102]
+#957 - 973 - 974
+
+wref_ja 天会 (北漢)
+name_ja 天会
+name_kana てん かい
+#957 - 973
+
+## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E6%9C%83_(%E5%8C%97%E6%BC%A2)>
+#957 - 973
+
+wref_ko 천회 (십국)
+name(kr) 천회
+#957 - 974
+
+<-乾祐 [唐:957] #支那改元日{#北漢 #劉鈞}
+>< [唐:968] #死去{#北漢 #劉鈞}
+>< [唐:968] #即位{#北漢 #劉継恩 #漢皇帝}
+>< [唐:968] #死去{#北漢 #劉継恩}
+>< [唐:968] #即位{#北漢 #劉継元 #漢皇帝}
+
+[廣運(甲戌)]
+#y~108
+
+AD974 = 1
+
+tag 漢土
+tag 漢民族
+tag 北漢
+tag 突厥
+tag 沙陀族
+tag 北漢の公年号
+tag 遼
+
+tag 劉継元
+
+## [102]
+#974-1 - 979-5
+<-天會 [唐:974-1] #支那改元日{#北漢 #劉継元}
+
+wref_ja 広運 (北漢)
+name_ja 広運
+name_kana こう うん
+#974 - 979
+
+wref_ko 광운 (십국)
+name(kr) 광운
+#974 - 979
+
+## <https://zh-classical.wikipedia.org/wiki/%E5%BB%A3%E9%81%8B_(%E5%8C%97%E6%BC%A2)>
+#974-1 - 979-5
+
+## <https://zh-yue.wikipedia.org/wiki/%E5%BB%A3%E9%81%8B_(%E5%8C%97%E6%BC%A2)>
+#974 - 979
+
+>< [唐:975] #即位{#遼 #漢皇帝 #劉継元} #北漢
+->太平興國(丙子) [唐:979-5] #陥落{#北宋, #北漢 #劉継元}
+
 
 
 
@@ -3519,6 +4142,124 @@ tag 李存勗
 %tag tag
 %tag   name_ja 後周の公年号
 %tag   group of 中華王朝の公年号
+
+[廣順]
+#y~945
+
+AD951 = 1
+
+tag 漢土
+tag 漢民族
+tag 突厥
+tag 沙陀族
+tag 後周
+tag 後周の公年号
+
+%tag person
+%tag   name_ja 郭威
+tag 郭威
+
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7103>"踐阼"
+#<-乾祐 唐:951-1-丁卯 #建元前の即位{#後周 #郭威 #周皇帝} #五代後漢
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7110>"即皇帝位"
+<-乾祐 唐:951-1-丁卯 #建元前の即位{#後周 #郭威 #周皇帝} #五代後漢
+<-乾祐 唐:951-1-丁卯 #国名変更{#五代後漢, #後周} #事由
+<-乾祐 唐:951-1-丁卯 #支那改元詔{#後周 #郭威}
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7113>"顯德元年"
+u 4
+
+## [102]
+#951 - 953
+tag 郭威
+#吳越忠懿王钱俶
+#荆南貞懿王高保融
+
+wref_ja 広順
+name_ja 広順
+name_kana こう じゅん
+#951 - 953
+
+## <https://zh-yue.wikipedia.org/wiki/%E5%BB%A3%E9%A0%86>
+#951 - 953
+
+wref_ko 광순 (후주)
+name(kr) 광순
+#951-1-5 - 953
+
+[顯德]
+#y~618
+
+AD954 = 1
+
+tag 漢土
+tag 漢民族
+tag 突厥
+tag 沙陀族
+tag 後周
+tag 後周の公年号
+
+tag 郭威
+
+%tag person
+%tag   name_ja 柴栄
+tag 柴栄
+
+%tag person
+%tag   name_ja 柴宗訓
+tag 柴宗訓
+
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7113>"顯德元年"
+<-廣順 唐:954-1-1(丙子) #支那改元詔{#後周 #郭威}
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7113>"崩"
+>< 唐:954-1-17(壬辰) #死去{#後周 #郭威}
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7114>"即皇帝位"
+#>< 唐:954-1-17(壬辰) #死去{#後周 #郭威}
+>< 唐:954-1-21(丙申) #即位{#後周 #柴栄 #周皇帝}
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7119>"崩"
+>< 唐:959-6-19(癸巳) #死去{#後周 #柴栄}
+>< 唐:959-6-20(甲午) #即位{#後周 #柴宗訓 #周皇帝}
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7120>"即皇帝位"
+#>< 唐:959-6-19(癸巳) #死去{#後周 #柴栄}
+#>< 唐:959-6-20(甲午) #即位{#後周 #柴宗訓 #周皇帝}
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7120>"顯德七年"
+->建隆(庚申) 唐:960-1-癸卯 #改元前の退位{#後周 #柴宗訓 #周皇帝} #趙匡胤 #禅譲
+    #北宋
+#->建隆(庚申) 唐:960-1-癸卯 #建元前の即位{#北宋 #趙匡胤 #宋皇帝} #禅譲 #後周
+tag 趙匡胤
+
+## [102]
+#954 - 960-1 - 962
+tag 郭威
+u 1-1
+tag 柴栄
+u 1-1
+u 6
+tag 柴宗訓
+u 6-6
+u 7-1
+#
+#南唐元宗李璟 958-5
+u 1-5
+#  對外: 後周顯德
+#  對內: 中興
+# - 962-11 宋朝正式向南唐頒布明年的《建隆四年曆》為止
+#
+#荆南貞懿王高保融 - 960-7
+#
+#吳越忠懿王钱俶亦
+
+wref_ja 顕徳
+name_ja 顕徳
+name_kana けん とく
+#954 - 960
+
+wref_ko 현덕 (후주)
+name(kr) 현덕
+#954-1-1 - 960-1
+
+## <https://zh-yue.wikipedia.org/wiki/%E9%A1%AF%E5%BE%B7>
+#954 - 960
+
 
 
 
@@ -3535,6 +4276,11 @@ AD911 = 1
 #XXX 前蜀
 
 name(kr) 영평
+
+#XXX
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B746>"明德"
+#934-4-"庚寅，鳳翔奏，西川孟知祥僭稱大蜀，年號明德。"
+#"稱「大蜀皇帝獻書於大唐皇帝」，且言「見迫群情，以今年四月十二日即皇帝位」"
 
 
 %tag country
@@ -3559,3 +4305,45 @@ name(kr) 동경
 #XXX
 #燕: 응천
 #호탄 왕국: 동경 천존 중흥 천흥 천수
+
+%tag people
+%tag   label_ja 契丹人
+%tag   name_ja 契丹
+
+%tag country
+%tag   label_ja 契丹国
+%tag   name_ja 契丹
+
+%tag country
+%tag   name_ja 遼
+
+[天顯]
+#y~1218
+
+AD926 = 1
+
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B775>"天顯九年"
+name 天顯
+s+
+
+## <https://ja.wikipedia.org/wiki/%E8%80%B6%E5%BE%8B%E5%A0%AF%E9%AA%A8>
+#927 - 938
+#"天顕元年（926年）"
+
+tag 燕雲十六州
+
+[會同]
+#y~220
+
+AD938 = 1
+
+## <https://ja.wikipedia.org/wiki/%E8%80%B6%E5%BE%8B%E5%A0%AF%E9%AA%A8>
+#938 - 947
+
+tag 燕雲十六州
+
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B799>"天福十二年"
+<-開運 唐:947-2-1(丁巳) #国名変更{#後晋, #遼} #事由 #契丹国
+<-開運 唐:947-2-1(丁巳) #支那改元日{#遼} #後晋
+#"號會同十年"
+name 會同

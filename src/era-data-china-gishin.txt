@@ -1043,14 +1043,6 @@ s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B7
 ## <https://ja.wikipedia.org/wiki/%E5%85%AC%E5%AD%AB%E6%B7%B5>
 ->景初 魏:238-8-23 #陥落{#曹魏, #燕_(公孫淵) #公孫淵} #死去 #異説 #丑正
 
-%tag region
-%tag   name_ja 晋
-%tag   region of 漢土
-
-%tag position
-%tag   name_ja 晋王
-%tag   group of 王 (支那)
-
 %tag country
 %tag   label_ja 司馬晋
 %tag   name_ja 晋
@@ -1070,10 +1062,6 @@ s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B7
 %tag tag
 %tag   name_ja 西晋の公年号
 %tag   group of 晋の公年号
-
-%tag position
-%tag   name_ja 晋皇帝
-%tag   group of 支那皇帝
 
 %tag tag
 %tag   name_ja 晋書
