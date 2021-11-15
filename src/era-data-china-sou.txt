@@ -13,13 +13,6 @@
 %tag   name_ja 宋の公年号
 %tag   group of 中華王朝の公年号
 
-%tag people
-%tag   name_ja 沙陀族
-
-%tag country
-%tag   name_ja 後周
-%tag   period of 中国
-
 %tag country
 %tag   name_ja 北宋
 %tag   period of 趙宋

@@ -1,5 +1,8 @@
-%tag people
+%tag country
 %tag   name_ja 突厥
+
+%tag people
+%tag   name_ja 沙陀族
 
 [天壽(戊寅)]
 #y~207

@@ -247,6 +247,14 @@
 %tag   group of 支那皇帝
 
 %tag region
+%tag   name_ja 唐
+%tag   region of 漢土
+
+%tag position
+%tag   name_ja 唐皇帝
+%tag   group of 支那皇帝
+
+%tag region
 %tag   name_ja 趙
 %tag   region of 漢土
 
@@ -1782,6 +1790,8 @@ tag 黄巣
 %tag   name_ja 黄巣の乱
 tag 黄巣の乱
 
+tag 五代十国
+
 ## [102]
 #878-2 - 880-11
 
@@ -1830,6 +1840,7 @@ AD880 = 1
 tag 李唐
 tag 漢土
 tag 漢民族
+tag 五代十国
 
 #大齊
 %tag country
@@ -1877,6 +1888,7 @@ tag 漢土
 tag 漢民族
 tag 董昌
 tag 羅平國
+tag 五代十国
 
 ## [102]
 #895-2 - 896-5
@@ -1913,6 +1925,7 @@ tag 異説
 tag 李唐
 tag 漢土
 tag 漢民族
+tag 五代十国
 
 %tag person
 %tag   name_ja 董昌
@@ -1953,6 +1966,7 @@ tag 漢土
 tag 漢民族
 tag 董昌
 tag 羅平國
+tag 五代十国
 
 ## [102]
 wref_zh 顺天 (董昌)
@@ -1977,6 +1991,7 @@ tag 漢土
 tag 漢民族
 tag 董昌
 tag 羅平國
+tag 五代十国
 
 ## [102]
 wref_zh 顺天 (董昌)

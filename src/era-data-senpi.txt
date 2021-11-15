@@ -357,17 +357,14 @@ tag 突厥
 <-大業 [隋:617-3] #建元前の即位{#梁師都 #梁_(梁師都) #梁皇帝}
 <-大業 [隋:617-3] #支那改元日{#梁師都 #梁_(梁師都)} #旧説
 
-
 %tag country
 %tag   name_ja 李唐
+%tag   period of 唐
 %tag   period of 中国
 
 %tag tag
 %tag   name_ja 唐の公年号
 %tag   group of 中華王朝の公年号
-
-%tag position
-%tag   name_ja 唐皇帝
 
 [武德]
 #y~1106
@@ -3470,15 +3467,58 @@ name(kr) 용덕
 
 %tag country
 %tag   name_ja 後唐
-#%tag   period of 唐
+%tag   period of 唐
+%tag   period of 五代
+%tag   period of 中国
+
+%tag tag
+%tag   name_ja 後唐の公年号
+%tag   group of 中華王朝の公年号
 
 [同光]
 
 tag 後唐
+tag 後唐の公年号
 
 %tag person
 %tag   name_ja 李存勗
 tag 李存勗
+
+
+%tag country
+%tag   name_ja 後晋
+%tag   period of 晋
+%tag   period of 五代
+%tag   period of 中国
+
+%tag tag
+%tag   name_ja 後晋の公年号
+%tag   group of 中華王朝の公年号
+
+
+%tag country
+%tag   label_ja 五代漢
+%tag   name_ja 漢
+%tag   label_ja 後漢
+%tag   period of 漢
+%tag   period of 五代
+%tag   period of 中国
+
+%tag tag
+%tag   name_ja 五代漢の公年号
+%tag   group of 中華王朝の公年号
+
+
+
+%tag country
+%tag   name_ja 後周
+%tag   period of 周
+%tag   period of 五代
+%tag   period of 中国
+
+%tag tag
+%tag   name_ja 後周の公年号
+%tag   group of 中華王朝の公年号
 
 
 
