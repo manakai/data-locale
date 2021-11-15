@@ -205,7 +205,7 @@ for my $path (
 sub set_object_tag ($$) {
   my ($obj, $tkey) = @_;
   my $item = $TagByKey->{$tkey};
-  die "Tag |$tkey| not defined" unless defined $item;
+  die "Tag |$tkey| not defined", Carp::longmess unless defined $item;
 
   $obj->{tag_ids}->{$item->{id}} = $item->{key};
   for (qw(region_of group_of period_of)) {
