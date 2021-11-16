@@ -707,7 +707,9 @@ for my $era (values %{$Data->{eras}}) {
       my $y = extract_day_year $day, $tr->{tag_ids};
       if (not $tr->{type} eq 'wartime' and
           not $tr->{type} eq 'administrative' and
-          not $tr->{tag_ids}->{1359}) { # 起事建元
+          not $tr->{tag_ids}->{1359} and # 起事建元
+          not ($era->{tag_ids}->{1078} and # 公年号
+               $tr->{tag_ids}->{2008})) { # マイクロネーション改元前日
         $era->{end_year} //= $y;
         $era->{end_year} = $y if $era->{end_year} < $y;
         if (defined $day) {
@@ -799,7 +801,9 @@ for my $era (values %{$Data->{eras}}) {
         (not $has_prevfirstday and
          ($tr->{type} eq 'firstday' or $tr->{type} eq 'commenced') and
          $tr->{prev_era_ids}->{$era->{id}} and
-         not $tr->{tag_ids}->{1359})) { # 起事建元
+         not $tr->{tag_ids}->{1359} and # 起事建元
+         not ($era->{tag_ids}->{1078} and # 公年号
+              $tr->{tag_ids}->{2007}))) { # マイクロネーション改元日
       my $day = $tr->{day};
       if (defined $day) {
         $day = ssday $day->{jd} - 1, $tr->{tag_ids};

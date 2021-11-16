@@ -1490,6 +1490,7 @@ AD1945 = 1
 u 3
 tag 日本人
 tag 司王国
+tag マイクロネーションの紀年法
 #B・A
 tag 日本の私年号
 
@@ -1771,6 +1772,7 @@ u 5-4
 u 11-8-13
 tag 日本人
 tag 新邪馬台国
+tag ミニ独立国の元号
 tag 日本の私年号
 %tag region
 %tag   name_ja 新邪馬台国
@@ -1886,6 +1888,7 @@ u 1-4-28
 tag 日本人
 tag 日本国
 tag ニコニコ共和国
+tag ミニ独立国の建国紀元
 tag 日本の私年号
 %tag region
 %tag   name_ja ニコニコ共和国

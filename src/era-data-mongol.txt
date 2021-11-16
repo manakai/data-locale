@@ -990,6 +990,12 @@ name_kana きょう たい
 name_kana きょう たい き げん
 wref_ja 共戴紀元
 
+# XXX
+## [105] <http://gaowei.cocolog-nifty.com/nengo/2005/10/post_c23b.html>
+    # mn: 文語ローマ字転写,現代モンゴル語ハルハ方言片仮名転写
+## [105]
+#mn オラナー・エルグクデクセン
+
 def[モンゴル国]
 name(ja) モンゴル国
 &
