@@ -702,9 +702,7 @@ sub parse_date ($$;%) {
 
   my @jd;
   while (length $v) {
-    if ($v =~ s{^([0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
-      push @jd, gymd2jd $1, $2, $3; # XXX
-    } elsif ($v =~ s{^g:((?:-|BC|)[0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
+    if ($v =~ s{^g:((?:-|BC|)[0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
       push @jd, gymd2jd parse_year ($1), $2, $3;
     } elsif ($v =~ s{^j:((?:-|BC|)[0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
       push @jd, jymd2jd parse_year ($1), $2, $3;
