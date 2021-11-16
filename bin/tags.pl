@@ -68,35 +68,39 @@ for my $x (qw(period group region)) {
     }
     delete $item->{'_'.$x.'_of'};
   } # $id
-  {
-    my $changed = 0;
-    for my $item1 (values %{$Data->{tags}}) {
-      for (keys %{$item1->{$x.'s'} or {}}) {
-        my $l1 = $item1->{$x.'s'}->{$_};
-        my $item2 = $Data->{tags}->{$_};
-        for (keys %{$item2->{$x.'s'} or {}}) {
-          my $l2 = $item2->{$x.'s'}->{$_};
-          my $item3 = $Data->{tags}->{$_};
-          ## 1 child 2 and 2 child 3 -> 1 child 3 and 3 parent 1
-          if (not $item1->{$x.'s'}->{$item3->{id}}) {
-            $item3->{$x.'_of'}->{$item1->{id}} =
-            $item1->{$x.'s'}->{$item3->{id}} =
-                $l1 + $item2->{$x.'s'}->{$item3->{id}};
-            $changed = 1;
-          } elsif ($item1->{$x.'s'}->{$item3->{id}}
-                       > $l1 + $item2->{$x.'s'}->{$item3->{id}}) {
-            $item3->{$x.'_of'}->{$item1->{id}} =
-            $item1->{$x.'s'}->{$item3->{id}} =
-                $l1 + $item2->{$x.'s'}->{$item3->{id}};
-            $changed = 1;
+} # $x
+{
+  my $changed = 0;
+  for my $x (qw(period group region)) {
+    for my $y ($x, 'group') {
+      for my $item1 (values %{$Data->{tags}}) {
+        for (keys %{$item1->{$y.'s'} or {}}) {
+          my $l1 = $item1->{$y.'s'}->{$_};
+          my $item2 = $Data->{tags}->{$_};
+          for (keys %{$item2->{$x.'s'} or {}}) {
+            my $l2 = $item2->{$x.'s'}->{$_};
+            my $item3 = $Data->{tags}->{$_};
+            ## 1 child 2 and 2 child 3 -> 1 child 3 and 3 parent 1
+            if (not $item1->{$x.'s'}->{$item3->{id}}) {
+              $item3->{$x.'_of'}->{$item1->{id}} =
+              $item1->{$x.'s'}->{$item3->{id}} =
+                  $l1 + $item2->{$x.'s'}->{$item3->{id}};
+              $changed = 1;
+            } elsif ($item1->{$x.'s'}->{$item3->{id}}
+                         > $l1 + $item2->{$x.'s'}->{$item3->{id}}) {
+              $item3->{$x.'_of'}->{$item1->{id}} =
+              $item1->{$x.'s'}->{$item3->{id}} =
+              $l1 + $item2->{$x.'s'}->{$item3->{id}};
+              $changed = 1;
+            }
           }
         }
       }
-    }
-    last unless $changed;
-    redo;
-  }
-} # $x
+    } # $y
+  } # $x
+  last unless $changed;
+  redo;
+} # $changed
 
 IDs::save_id_set 'tags';
 
