@@ -203,8 +203,11 @@ law
 
 action
   name_ja 和約締結
-  group of 条約
   group of 戦時異動
+
+action
+  name_ja 停戦協定締結
+  group of 和約締結
 
 law
   name_ja 登極令
@@ -373,7 +376,21 @@ action
   name_ja 制定
 
 action
+  name_ja 詔制定
+  group of 制定
+
+action
   name_ja 利用開始
+
+action
+  name_ja 建国紀元制定
+  group of 制定
+  group of 利用開始
+
+action
+  name_ja 建国記念日
+  group of 事由
+  group of 建国
 
 action
   name_ja 発生
@@ -399,6 +416,15 @@ action
 
 action
   name_ja 改元日
+
+action
+  name_ja マイクロネーション改元前日
+
+action
+  name_ja マイクロネーション改元日
+  group of 改元日
+  group of 適用開始
+  group of 制定
 
 action
   name_ja 通知発出
@@ -500,14 +526,34 @@ action
   name_ja 戦時異動
 
 action
+  name_ja 宣戦布告
+  #subject: from
+  #object: to
+
+action
+  name_ja 開戦
+  #subject: group 1
+  #object: group 2
+
+action
   name_ja 進攻
 
 action
+  name_ja 活動開始
+
+action
   name_ja 蜂起
+  group of 活動開始
   group of 事由
 
 action
   name_ja 建国
+  group of 活動開始
+
+action
+  name_ja 蜂起建国
+  group of 蜂起
+  group of 建国
 
 action
   name_ja 消滅
@@ -644,6 +690,11 @@ tag
   name_ja 建国紀元
 
 tag
+  name_ja ミニ独立国の建国紀元
+  group of 建国紀元
+  group of ミニ独立国の紀年法
+
+tag
   name_ja 宗教創設紀年
 
 tag
@@ -653,11 +704,27 @@ tag
   name_ja 元号
 
 tag
+  name_ja マイクロネーションの紀年法
+
+tag
+  name_ja ミニ独立国の紀年法
+  group of マイクロネーションの紀年法
+
+tag
   name_ja マイクロネーションの元号
   group of 元号
+  group of マイクロネーションの紀年法
+
+tag
+  name_ja ミニ独立国の元号
+  group of マイクロネーションの元号
+  group of ミニ独立国の紀年法
 
 tag
   name_ja 併用
 
 tag
   name_ja 国名と衝突
+
+event
+  name_ja 第二次世界大戦

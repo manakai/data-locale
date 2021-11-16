@@ -702,9 +702,7 @@ sub parse_date ($$;%) {
 
   my @jd;
   while (length $v) {
-    if ($v =~ s{^([0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
-      push @jd, gymd2jd $1, $2, $3; # XXX
-    } elsif ($v =~ s{^g:((?:-|BC|)[0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
+    if ($v =~ s{^g:((?:-|BC|)[0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
       push @jd, gymd2jd parse_year ($1), $2, $3;
     } elsif ($v =~ s{^j:((?:-|BC|)[0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
       push @jd, jymd2jd parse_year ($1), $2, $3;
@@ -959,6 +957,8 @@ for my $tr (@$Input) {
         if $x->{tag_ids}->{1326}; # 大日本帝国改元日
     set_object_tag $y, '日本国改元前日'
         if $x->{tag_ids}->{1327}; # 日本国改元日
+    set_object_tag $y, 'マイクロネーション改元前日'
+        if $x->{tag_ids}->{2007}; # マイクロネーション改元日
     
     set_object_tag $y, '適用開始前日';
     $y->{day} = ssday $x->{day}->{jd} - 1, $y->{tag_ids};
@@ -1113,7 +1113,7 @@ for (@$Transitions) {
       $type = 'other';
     } else {
       $type = 'established';
-      #XXXdie "No action tag |$v|";
+      #XXXdie "No action tag @$from_keys @$to_keys";
     }
   }
   $x->{type} = $type;

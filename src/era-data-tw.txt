@@ -102,7 +102,7 @@ u 1-5
 # <-光緒 y~681
 # <-明治 y~1
 # 1895-05-08           Taiwan transferred from 清 to Japan
-<-光緒 1895-05-08
+<-光緒 g:1895-05-08
 # 1895-05-23           independence proclamation
 # 1895-05-25 (農暦5-2) independence celemony
 # ->明治 y~1
