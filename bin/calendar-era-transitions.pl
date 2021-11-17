@@ -959,6 +959,8 @@ for my $tr (@$Input) {
         if $x->{tag_ids}->{1327}; # 日本国改元日
     set_object_tag $y, 'マイクロネーション改元前日'
         if $x->{tag_ids}->{2007}; # マイクロネーション改元日
+    set_object_tag $y, 'マイクロネーション再開前日'
+        if $x->{tag_ids}->{2032}; # マイクロネーション再開
     
     set_object_tag $y, '適用開始前日';
     $y->{day} = ssday $x->{day}->{jd} - 1, $y->{tag_ids};

@@ -610,6 +610,8 @@ for my $era (values %{$Data->{eras}}) {
     $_->{relevant_era_ids}->{$era->{id}};
   } @$EraTransitions];
   my $has_prevfirstday = 0;
+  my $not_end_before_year;
+  my $not_end_before_day;
   for my $tr (@$era_trs) {
     for my $dk (grep { defined $tr->{$_} } qw(day day_start day_end)) {
       for my $key (qw(gregorian julian kyuureki nongli_tiger)) {
@@ -645,10 +647,33 @@ for my $era (values %{$Data->{eras}}) {
       if (not $tr->{type} eq 'wartime') {
         $era->{start_year} //= $y;
         $era->{start_year} = $y if $y < $era->{start_year};
+        if (not $tr->{tag_ids}->{1359} and # 起事建元
+            not ($era->{tag_ids}->{1078} and # 公年号
+                 ($tr->{tag_ids}->{2032} or # マイクロネーション再開
+                  $tr->{tag_ids}->{2007}))) { # マイクロネーション改元日
+          if (defined $era->{end_year} and $era->{end_year} < $y) {
+            delete $era->{end_year};
+            delete $era->{end_day};
+          }
+          $not_end_before_year //= $y;
+          $not_end_before_year = $y if $not_end_before_year < $y;
+        }
         if (defined $tr->{day}) {
           $era->{start_day} //= $tr->{day};
           $era->{start_day} = $tr->{day}
               if $tr->{day}->{mjd} < $era->{start_day}->{mjd};
+          if (not $tr->{tag_ids}->{1359} and # 起事建元
+              not ($era->{tag_ids}->{1078} and # 公年号
+                   ($tr->{tag_ids}->{2032} or # マイクロネーション再開
+                    $tr->{tag_ids}->{2007}))) { # マイクロネーション改元日
+            $not_end_before_day //= $tr->{day}->{mjd};
+            $not_end_before_day = $tr->{day}->{mjd}
+                if $not_end_before_day < $tr->{day}->{mjd};
+            if (defined $era->{end_day} and
+                    $era->{end_day}->{mjd} < $tr->{day}->{mjd}) {
+              delete $era->{end_day};
+            }
+          }
           $era->{official_start_day} = $era->{start_day}
               if $tr->{tag_ids}->{1326} or # 大日本帝国改元日
                  $tr->{tag_ids}->{1327}; # 日本国改元日
@@ -709,7 +734,8 @@ for my $era (values %{$Data->{eras}}) {
           not $tr->{type} eq 'administrative' and
           not $tr->{tag_ids}->{1359} and # 起事建元
           not ($era->{tag_ids}->{1078} and # 公年号
-               $tr->{tag_ids}->{2008})) { # マイクロネーション改元前日
+               ($tr->{tag_ids}->{2031} or # マイクロネーション再開前日
+                $tr->{tag_ids}->{2008}))) { # マイクロネーション改元前日
         $era->{end_year} //= $y;
         $era->{end_year} = $y if $era->{end_year} < $y;
         if (defined $day) {
@@ -803,32 +829,43 @@ for my $era (values %{$Data->{eras}}) {
          $tr->{prev_era_ids}->{$era->{id}} and
          not $tr->{tag_ids}->{1359} and # 起事建元
          not ($era->{tag_ids}->{1078} and # 公年号
-              $tr->{tag_ids}->{2007}))) { # マイクロネーション改元日
+              ($tr->{tag_ids}->{2032} or # マイクロネーション再開
+               $tr->{tag_ids}->{2007})))) { # マイクロネーション改元日
       my $day = $tr->{day};
       if (defined $day) {
         $day = ssday $day->{jd} - 1, $tr->{tag_ids};
       }
       $day //= $tr->{day_end};
       my $y = extract_day_year $day, $tr->{tag_ids};
-      $era->{end_year} //= $y;
-      $era->{end_year} = $y if $era->{end_year} < $y;
+      if ((not defined $not_end_before_year or
+           $not_end_before_year <= $y) and
+          (not defined $not_end_before_day or
+           $not_end_before_day <= $day->{mjd})) {
+        $era->{end_year} //= $y;
+        $era->{end_year} = $y if $era->{end_year} < $y;
 
-      $era->{end_day} //= $day;
-      $era->{end_day} = $day
-          if $era->{end_day}->{mjd} < $day->{mjd};
+        $era->{end_day} //= $day;
+        $era->{end_day} = $day
+            if $era->{end_day}->{mjd} < $day->{mjd};
+      }
     }
     if (not defined $era->{end_year} and
         $tr->{prev_era_ids}->{$era->{id}} and
         $tr->{type} eq 'prevfirstyearstart') { # has day
       my $y = extract_day_year $tr->{day}, $tr->{tag_ids};
-      $era->{end_year} //= $y;
-      $era->{end_year} = $y if $era->{end_year} < $y;
+      if ((not defined $not_end_before_year or
+           $not_end_before_year <= $y) and
+          (not defined $not_end_before_day or
+           $not_end_before_day <= $tr->{day}->{mjd})) {
+        $era->{end_year} //= $y;
+        $era->{end_year} = $y if $era->{end_year} < $y;
 
-      $era->{end_day} //= $tr->{day};
-      $era->{end_day} = $tr->{day}
-          if $era->{end_day}->{mjd} < $tr->{day}->{mjd};
-      $era->{actual_end_day} = $era->{end_day}
-          if $era->{jp_emperor_era};
+        $era->{end_day} //= $tr->{day};
+        $era->{end_day} = $tr->{day}
+            if $era->{end_day}->{mjd} < $tr->{day}->{mjd};
+        $era->{actual_end_day} = $era->{end_day}
+            if $era->{jp_emperor_era};
+      }
     }
   } # $tr
 
