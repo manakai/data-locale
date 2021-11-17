@@ -309,7 +309,6 @@ action
 
 action
   name_ja 捕縛
-  group of 事由
 
 action
   name_ja 政変
@@ -425,6 +424,13 @@ action
   group of 改元日
   group of 適用開始
   group of 制定
+
+action
+  name_ja マイクロネーション再開前日
+
+action
+  name_ja マイクロネーション再開
+  group of 再開
 
 action
   name_ja 通知発出
@@ -572,6 +578,11 @@ action
   name_ja 国名変更
   #subject: old
   #object: new
+
+action
+  name_ja 降伏
+  #subject: winner
+  #object: loser
 
 action
   name_ja 鎮圧

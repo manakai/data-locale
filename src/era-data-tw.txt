@@ -144,6 +144,13 @@ wref_ja 大靖
 %tag   period of 中華民国
 %tag   period of 台湾
 
+%tag region
+%tag   name_ja 中華人民共和国台湾省
+%tag   region of 中華人民共和国
+%tag region
+%tag   name_ja 中華人民共和国福建省未解放地区
+%tag   region of 中華人民共和国
+
 ## Source:
 #sw 昭和
 %tag org

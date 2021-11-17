@@ -553,6 +553,8 @@ tag 日本領関東州
 tag 日本領満鉄附属地
 tag 樺太
 tag 南樺太
+tag 尖閣諸島
+tag 竹島
 
 u 46-1-1
 
@@ -595,6 +597,8 @@ tag 日本領関東州
 tag 日本領満鉄附属地
 tag 日本領南洋群島
 tag 南樺太
+tag 尖閣諸島
+tag 竹島
 
 tag 硫黄島
 <-明治 g:1912-08-20 #日本 #硫黄島 #通知受領 #グレゴリオ暦
@@ -655,6 +659,22 @@ tag 鉄山
 tag 青ヶ島
 <-大正 [g:1928-12] #日本 #青ヶ島 #通知受領 #グレゴリオ暦
 
+%tag region
+%tag   name_ja 尖閣諸島
+%tag   region of 大日本帝国沖縄県
+%tag   region of 日本国沖縄県
+tag 尖閣諸島
+%tag region
+%tag   name_ja 中華人民共和国釣魚島
+%tag   region of 中華人民共和国
+tag 中華人民共和国釣魚島
+
+tag 竹島
+%tag region
+%tag   name_ja 大韓民国独島
+%tag   region of 大韓民国
+tag 大韓民国独島
+
 [平成]
 name_ja 平成
 unicode ㍻
@@ -685,6 +705,11 @@ code #22 1-13-63
 tag 日本国
 tag 元号法
 tag 一世一元
+
+tag 尖閣諸島
+tag 中華人民共和国釣魚島
+tag 竹島
+tag 大韓民国独島
 
 [令和]
 AD2019 = 1
@@ -730,6 +755,12 @@ source
 tag 日本国
 tag 元号法
 tag 一世一元
+
+tag 尖閣諸島
+tag 中華人民共和国釣魚島
+tag 竹島
+tag 大韓民国独島
+
 
 %tag religion
 %tag   name_ja 神道

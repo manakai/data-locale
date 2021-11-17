@@ -95,6 +95,7 @@ tag オランダ
 tag 蘭領台湾
 tag スペイン
 tag ポルトガル
+tag 米国
 
 %tag country
 %tag   name_ja 仏国
