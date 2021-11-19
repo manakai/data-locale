@@ -104,6 +104,9 @@ tag 仏国
 %tag   name_ja 仏領インドシナ
 %tag   region of 仏国
 tag 仏領インドシナ
+tag タイ
+
+tag シンガポール
 
 tag 大韓民国
 tag 朝鮮民主主義人民共和国
@@ -112,7 +115,9 @@ tag 朝鮮人
 tag 日本
 tag 日本国
 tag 日本人
+
 tag 台湾
+tag 中華民国
 tag 台湾人
 
 def[共和]
