@@ -555,6 +555,8 @@ tag 樺太
 tag 南樺太
 tag 尖閣諸島
 tag 竹島
+tag 清
+tag 中華民国
 
 u 46-1-1
 
@@ -599,6 +601,7 @@ tag 日本領南洋群島
 tag 南樺太
 tag 尖閣諸島
 tag 竹島
+tag 中華民国
 
 tag 硫黄島
 <-明治 g:1912-08-20 #日本 #硫黄島 #通知受領 #グレゴリオ暦
@@ -648,6 +651,7 @@ tag 日本領南洋群島
 tag 満州国
 tag 再開
 tag 南樺太
+tag 中華民国
 
 %tag region
 %tag   key 鉄山
@@ -668,6 +672,10 @@ tag 尖閣諸島
 %tag   name_ja 中華人民共和国釣魚島
 %tag   region of 中華人民共和国
 tag 中華人民共和国釣魚島
+%tag region
+%tag   name_ja 中華民国釣魚島
+%tag   region of 中華民国
+tag 中華民国釣魚島
 
 tag 竹島
 %tag region
@@ -708,6 +716,7 @@ tag 一世一元
 
 tag 尖閣諸島
 tag 中華人民共和国釣魚島
+tag 中華民国釣魚島
 tag 竹島
 tag 大韓民国独島
 
@@ -758,6 +767,7 @@ tag 一世一元
 
 tag 尖閣諸島
 tag 中華人民共和国釣魚島
+tag 中華民国釣魚島
 tag 竹島
 tag 大韓民国独島
 

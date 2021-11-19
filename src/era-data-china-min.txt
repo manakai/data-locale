@@ -29,6 +29,7 @@ name_ja 呉
 name_kana ご
 name_cn 吴
 name_tw 吳
+tag 国名即位紀年
 &
 name_ja 呉王
 name_kana ご おう
@@ -1461,6 +1462,8 @@ name_tw 周王
 %tag   group of 清初反清勢力
 #XXX prefix 大周
 tag 呉周
+tag 国名即位紀年
+
 tag 清
 tag 漢土
 tag 漢民族

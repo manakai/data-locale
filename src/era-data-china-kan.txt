@@ -43,6 +43,7 @@ tag 支那皇帝即位紀年
 name_tw 漢
 name_cn 汉
 name_ja 漢
+tag 国名即位紀年
 &
 name_tw 高帝劉邦
 &

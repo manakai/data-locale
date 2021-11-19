@@ -88,6 +88,12 @@ country
 country
   name_ja ポルトガル
 
+country
+  name_ja タイ
+
+country
+  name_ja シンガポール
+
 region
   name_ja 南洋群島
 
@@ -217,6 +223,10 @@ law
 
 tag
   name_ja 即位紀年
+
+tag
+  name_ja 国名即位紀年
+  group of 即位紀年
 
 tag
   name_ja 天皇即位紀年
