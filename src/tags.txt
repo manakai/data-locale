@@ -434,6 +434,7 @@ action
   group of 改元日
   group of 適用開始
   group of 制定
+  group of マイクロネーション建元
 
 action
   name_ja マイクロネーション再開前日
@@ -441,6 +442,7 @@ action
 action
   name_ja マイクロネーション再開
   group of 再開
+  group of マイクロネーション建元
 
 action
   name_ja 通知発出
@@ -577,6 +579,12 @@ action
 
 action
   name_ja 起事建元
+
+action
+  name_ja 起事廃元
+
+action
+  name_ja マイクロネーション建元
 
 tag
   name_ja 農民反乱
