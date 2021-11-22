@@ -2825,6 +2825,11 @@ s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7
 <-光啟 [唐:886-10] #支那改元日{#李唐 #僖宗} #起事建元
 #-12 死去
 
+## <https://ja.wikipedia.org/wiki/%E5%91%89%E8%B6%8A>
+#887-1 唐 杭州刺史
+tag 呉越
+tag 錢鏐
+
 [文德(戊申)]
 #y~1675
 AD888 = 1
@@ -2988,6 +2993,11 @@ tag 晋 (李克用)
 tag 馬楚
 tag 馬殷
 
+## <https://ja.wikipedia.org/wiki/%E5%91%89%E8%B6%8A>
+#896 唐 鎮海・鎮東両軍節度使
+tag 呉越
+tag 錢鏐
+
 [光化]
 #y~1699
 AD898 = 1
@@ -3072,6 +3082,9 @@ name_cn 天复
 #907-9
 #
 #南吴太祖楊行密
+tag 楊行密
+tag 楊呉
+<-光化 [唐:902-3] #利用開始{#楊行密 #楊呉} #李唐
 #902-3 - 904-4'
 #
 #王建
@@ -3141,10 +3154,12 @@ name_cn 天祐
 #前蜀王建
 #南汉刘隐
 #
-#吴越 錢鏐
-#907-5 - 907-5
 #吴越
 #904-4' - 907-12
+#吴越 錢鏐
+#907-5 - 907-5
+tag 呉越
+tag 錢鏐
 #
 #李克用
 tag 李克用
@@ -3240,6 +3255,22 @@ u 20-10-己卯
 tag 李茂貞
 tag 岐
 ->同光 [唐:924] #陥落{#後唐, #岐 #李茂貞}
+
+tag 呉越
+tag 錢鏐
+<-天復 [唐:907-5] #利用開始{#呉越 #錢鏐} #李唐 #旧説
+->天寶(戊辰) [唐:907-5] #利用開始{#呉越 #錢鏐} #李唐 #旧説
+->天寶(戊辰) 唐:908-1-1 #利用開始{#呉越 #錢鏐} #李唐 #旧説
+#            907-12/908
+
+##中国历代帝王年号手册
+#天祐4, 天宝元, ...
+
+## <https://ja.wikipedia.org/wiki/%E9%8A%AD%E9%8F%90>
+#"天祐4年（907年）に後梁より呉越王に封じられ"...
+#"開平元年5月3日 -"
+<-開平 ->天寶(戊辰) 唐:907-5-3 #建元前の即位{#錢鏐 #朱梁 #呉越王} #呉越
+
 
 
 %tag tag
@@ -3785,6 +3816,14 @@ name(kr) 장흥
 <-天成(丙戌) [唐:930-5] #支那改元日{#後唐 #李嗣源} #旧説
 #930-2-21 j:930-3-23 -
 
+tag 呉越
+%tag person
+%tag   name_ja 銭元瓘
+tag 銭元瓘
+<-寶正 [唐:932-4] #利用開始{#呉越 #銭元瓘}
+## <https://ja.wikipedia.org/wiki/%E9%8A%AD%E5%85%83%E7%93%98>
+<-寶正 唐:932-4-7 #建元前の即位{#呉越 #銭元瓘}
+
 
 [應順]
 #y~1545
@@ -3810,6 +3849,8 @@ s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%
 ## [102]
 #934-1 - 934-4
 #吳越世宗錢元瓘
+tag 呉越
+tag 銭元瓘
 #楚文昭王馬希範
 tag 馬楚
 #荆南文獻王高從誨
@@ -3856,6 +3897,8 @@ s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%
 ## [102]
 #934-4 - 936-11'
 #吳越世宗錢元瓘
+tag 呉越
+tag 銭元瓘
 #楚文昭王馬希範
 tag 馬楚
 #荆南文獻王高從誨 934-4 - 936-11'
@@ -3935,6 +3978,9 @@ s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%
 #后汉劉知遠 947-2 - 947-12 <-开运 ->乾祐
 #吳越世宗錢元瓘, 成宗钱弘佐
 #吳越忠遜王錢弘倧 947 ->乾祐
+tag 呉越
+tag 銭元瓘
+<-開運 [唐:947] #再開{#呉越 #銭元瓘} #五代後漢
 #楚文昭王馬希範
 #楚废王馬希廣 947-4 ->乾祐
 tag 馬楚
@@ -3947,6 +3993,12 @@ tag 荊南
 tag 馬楚
 #清泰   934年四月—936年闰十一月
 #天福   936年十一月—944年六月
+
+## <https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E5%90%B4%E8%B6%8A>
+tag 呉越
+tag 銭元瓘
+#清泰   934年四月—936年闰十一月
+#天福   936年十一月—
 
 wref_ja 天福 (後晋)
 name_ja 天福
@@ -4015,6 +4067,7 @@ s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%
 ## [102]
 #944-7 - 946
 #吳越成宗钱弘佐
+tag 呉越
 #楚文昭王馬希範
 tag 馬楚
 #荆南文獻王高從誨
@@ -4106,6 +4159,7 @@ s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%
 tag 劉知遠
 tag 劉承祐
 #吳越忠懿王钱俶 ->广顺
+tag 呉越
 #荆南文獻王高從誨 ->广顺
 tag 荊南
 #貞懿王高保融
@@ -4305,6 +4359,7 @@ u 4
 #951 - 953
 tag 郭威
 #吳越忠懿王钱俶
+tag 呉越
 #荆南貞懿王高保融
 tag 荊南
 
@@ -4387,6 +4442,7 @@ tag 荊南
 ->建隆(庚申) [唐:960-7] #利用開始{#荊南} #北宋
 #
 #吳越忠懿王钱俶亦
+tag 呉越
 
 wref_ja 顕徳
 name_ja 顕徳
@@ -4742,6 +4798,157 @@ name(kr) 교태
 
 
 
+%tag country
+%tag   name_ja 呉越
+%tag   group of 十国
+%tag   period of 中国
+## <https://data.suikawiki.org/tag/1933/graph?sequence=1366%2B1945>
+
+%tag position
+%tag   name_ja 呉越王
+%tag   group of 王 (支那)
+
+%tag person
+%tag   name_tw 錢鏐
+
+[天寶(戊辰)]
+#y~1692
+
+AD908 = 1
+
+tag 漢土
+tag 漢民族
+tag 呉越
+
+tag 錢鏐
+
+<-開平 [唐:908] #支那改元日{#錢鏐 #呉越} #起事建元
+->鳳歷(癸酉) [唐:913-1-甲子,唐:913-1] #利用開始{#錢鏐 #呉越}
+#            912/913-1
+
+## [102]
+#908 - 912
+
+wref_ja 天宝 (呉越)
+name_ja 天宝
+name_kana てん ほう
+
+wref_ko 천보 (오월)
+name(kr) 천보
+#908 - 912
+
+## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E5%AF%B6_(%E5%90%B3%E8%B6%8A)>
+#908 - 912
+
+## <http://www.eonet.ne.jp/~yuzo/rekisiwoaruku111.html>
+#盤門修築記: "五代十国の呉越の天宝十五年、西暦922年"
+u 15
+
+[寶大]
+#y~1217
+
+AD924 = 1
+
+tag 漢土
+tag 漢民族
+tag 呉越
+
+tag 錢鏐
+
+<-龍德 [唐:924] #支那改元日{#呉越 #錢鏐}
+#      923/924
+
+## [102]
+#924 - 925
+
+wref_ja 宝大
+name_ja 宝大
+name_kana ほう だい
+#924 - 925
+
+wref_ko 보대 (오월)
+name(kr) 보대
+#924 - 925
+
+## <https://zh-yue.wikipedia.org/wiki/%E5%AF%B6%E5%A4%A7>
+#924 - 925
+
+
+&
+## [102]
+name_cn 宝太
+name_tw 寶太
+
+[寶正]
+#y~393
+
+AD926 = 1
+
+tag 漢土
+tag 漢民族
+tag 呉越
+
+tag 錢鏐
+
+<-寶大 [唐:926] #支那改元日{#呉越 #錢鏐}
+#     925/926
+->長興 唐:932-3-28 #改元前の死去{#呉越 #錢鏐}
+
+## [102]
+#926 - 931
+
+wref_ja 宝正
+name_ja 宝正
+name_kana ほう せい
+#926 - 932
+
+wref_ko 보정 (오월)
+name(kr) 보정
+#926 - 931
+
+## <https://zh-yue.wikipedia.org/wiki/%E5%AF%B6%E6%AD%A3>
+#926 - 931
+
+
+## <https://zh.wikipedia.org/w/index.php?title=%E5%AE%9D%E6%AD%A3&diff=59088204&oldid=45111717>
+&
+name_tw 寶貞
+name_cn 宝贞
+&
+name_tw 保貞
+name_cn 保贞
+
+[廣初]
+#y~1181
+
+tag 漢土
+tag 漢民族
+
+## [102]
+#?
+
+## <https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E5%90%B4%E8%B6%8A>
+tag 呉越
+tag 錢鏐
+#玉海
+
+[正明]
+#y~1215
+
+tag 漢土
+tag 漢民族
+
+## [102]
+#?
+
+## <https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E5%90%B4%E8%B6%8A>
+tag 呉越
+tag 錢鏐
+#纪元编
+
+
+
+
 
 
 %tag country
@@ -4764,10 +4971,6 @@ s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%
 
 
 
-%tag country
-%tag   name_ja 呉越
-%tag person
-%tag   name_tw 錢鏐
 
 
 
