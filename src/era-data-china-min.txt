@@ -23,7 +23,7 @@ tag 明の公年号
 tag 王の即位紀年
 tag 漢土
 tag 漢民族
-tag 呉
+tag 呉 (明)
 tag 新規称元
 name_ja 呉
 name_kana ご
@@ -34,9 +34,11 @@ tag 国名即位紀年
 name_ja 呉王
 name_kana ご おう
 
-%tag tag
-%tag   name_ja 呉王
-%tag   group of 王
+%tag country
+%tag   label_ja 呉 (明)
+%tag   name_ja 呉
+%tag   period of 呉
+%tag   period of 中国
 
 %tag person
 %tag   name_ja 洪武帝
@@ -45,7 +47,7 @@ tag 洪武帝
 tag 白蓮教
 
 ## <https://zh.wikisource.org/wiki/%E5%A4%A7%E6%98%8E%E5%A4%AA%E7%A5%96%E9%AB%98%E7%9A%87%E5%B8%9D%E5%AF%A6%E9%8C%84/%E5%8D%B7014>
-<-至正 明:1364(甲辰)-1-1(丙寅) #明 #呉 #洪武帝 #呉王 #建元前の即位
+<-至正 明:1364(甲辰)-1-1(丙寅) #建元前の即位{#呉王 #洪武帝 #呉_(明)} #明
 
 <-至正 明:1366-12-己未 #明 #呉 #洪武帝 #年始改元決定
 <-至正,干支年 明:1367-1-1(戊寅) #明 #呉 #年始改元実施 #起事建元
