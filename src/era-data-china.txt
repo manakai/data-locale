@@ -209,6 +209,11 @@
 %tag   group of 詔制定
 
 %tag action
+%tag   name_ja 支那再開詔
+%tag   group of 再開
+%tag   group of 詔制定
+
+%tag action
 %tag   name_ja 支那改元実施
 %tag   group of 改元日
 %tag   group of 適用開始
@@ -248,6 +253,10 @@
 %tag region
 %tag   name_ja 呉
 %tag   region of 漢土
+
+%tag position
+%tag   name_ja 呉王
+%tag   group of 王 (支那)
 
 %tag region
 %tag   name_ja 蜀
