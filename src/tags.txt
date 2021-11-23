@@ -131,9 +131,6 @@ people
   name_ja ウイグル人
 
 people
-  name_ja ベトナム人
-
-people
   name_ja 日系ブラジル人
   group of ブラジル人
 
@@ -362,6 +359,9 @@ tag
 
 tag
   name_ja 日本の私年号
+
+tag
+  name_ja 私年号 (ウィキペディア)
 
 tag
   name_ja 一世一元
@@ -610,6 +610,9 @@ action
   name_ja 陥落
   group of 鎮圧
   group of 戦時異動
+
+action
+  name_ja 国交断絶
 
 action
   name_ja 撤退

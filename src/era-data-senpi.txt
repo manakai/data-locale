@@ -3196,6 +3196,7 @@ u 20
 #
 #前蜀
 #南漢
+tag 南漢
 #呉
 #呉越
 
@@ -3271,6 +3272,10 @@ tag 錢鏐
 #"開平元年5月3日 -"
 <-開平 ->天寶(戊辰) 唐:907-5-3 #建元前の即位{#錢鏐 #朱梁 #呉越王} #呉越
 
+## <https://ja.wikipedia.org/wiki/%E5%8A%89%E9%9A%A0>
+#905 唐 清海軍節度使
+tag 劉隠
+tag 南漢
 
 
 %tag tag
@@ -3332,11 +3337,14 @@ s+
 ## [102]
 #907-4 - 911-4
 #闽太祖王審知 909-4 - 911-4
-%tag person
-%tag   name_ja 王審知
 tag 王審知
 tag 十国閩
 <-天祐 [唐:909-4] #利用開始{#王審知 #十国閩} #朱梁
+
+## <https://ja.wikipedia.org/wiki/%E7%8E%8B%E5%AF%A9%E7%9F%A5>
+tag 王審知
+tag 十国閩
+<-天祐 [唐:909] #建元前の即位{#朱梁 #王審知 #閩王} #十国閩
 
 ## <https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E5%BE%8C%E6%A2%81>
 tag 新羅
@@ -3376,6 +3384,11 @@ tag 馬殷
 
 tag 荊南
 
+## <https://ja.wikipedia.org/wiki/%E5%8A%89%E9%9A%A0>
+#909-4 後梁 南平王
+tag 劉隠
+tag 南漢
+
 [乾化]
 #y~143
 
@@ -3408,6 +3421,8 @@ tag 錢鏐
 #闽太祖王審知 911-5 - 915-7
 tag 十国閩
 tag 王審知
+<-開平 [唐:911-5] #利用開始{#十国閩 #王審知} #朱梁
+#       911-4/5
 
 wref_ja 乾化
 name_ja 乾化
@@ -3432,6 +3447,16 @@ tag 劉守光
 tag 荊南
 #->? [912(#朱全忠 死去)]
 #<-? [#朱友貞 即位]
+
+## <https://ja.wikipedia.org/wiki/%E5%8A%89%E9%9A%A0>
+#911/乾化元 後梁 南海王
+tag 劉隠
+tag 南漢
+
+## <http://s-ir.sap.hokkyodai.ac.jp/dspace/bitstream/123456789/4339/1/19-1-1B-03.pdf#page=6>
+#912 後梁 清海軍節度使
+tag 劉龑
+tag 南漢
 
 [鳳歷(癸酉)]
 #y~1447
@@ -3485,6 +3510,11 @@ name_tw 鳳曆
 wref_ko 봉력
 name(kr) 봉력
 #913-1-1 - 913-2
+
+## <http://s-ir.sap.hokkyodai.ac.jp/dspace/bitstream/123456789/4339/1/19-1-1B-03.pdf#page=6>
+#913 後梁 南海王
+tag 劉龑
+tag 南漢
 
 
 [應天(辛未)]
@@ -3572,6 +3602,14 @@ name(kr) 정명
 
 ## <https://zh-yue.wikipedia.org/wiki/%E8%B2%9E%E6%98%8E>
 #915 - 921
+
+<-乾化 [唐:915-11-乙丑,唐:915-11] #利用開始{#十国閩 #王審知} #朱梁
+#       915-7/11
+
+## <http://s-ir.sap.hokkyodai.ac.jp/dspace/bitstream/123456789/4339/1/19-1-1B-03.pdf#page=8>
+# - 915
+tag 劉龑
+tag 南漢
 
 [龍德]
 #y~1266
@@ -3695,6 +3733,12 @@ name(kr) 동광
 tag 荊南
 <-龍德 [唐:924-3] #利用開始{#荊南} #後唐 #朱梁
 
+tag 十国閩
+tag 王審知
+<-龍德 [唐:923-4-己巳,唐:923-4] #利用開始{#十国閩 #王審知} #朱梁 #後唐
+#       923-3/4
+
+
 [天成(丙戌)]
 #y~1440
 
@@ -3720,6 +3764,8 @@ s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%
 #楚武穆王马殷 927-6 - 930
 #闽嗣王王延翰
 #惠宗王延钧
+tag 十国閩
+tag 王延鈞
 #荆南武信王高季兴 926-4 - 928-6 ->乾貞
 #荆南文獻王高從誨 929-5謝罪, 929-7 -
 tag 荊南
@@ -3796,6 +3842,8 @@ s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%
 <-天成(丙戌) [唐:930-11] #利用開始{#馬楚}
 tag 馬楚
 #闽惠宗王延钧 930-2 - 932 ->龙启
+tag 十国閩
+tag 王延鈞
 #荆南文獻王高從誨 930-2 - 933
 tag 荊南
 #
@@ -4948,12 +4996,567 @@ tag 錢鏐
 
 
 
-
-
+%tag region
+%tag   name_ja 閩
 
 %tag country
 %tag   label_ja 十国閩
 %tag   name_ja 閩
+%tag   period of 閩
+%tag   group of 十国
+%tag   period of 中国
+## <https://data.suikawiki.org/tag/1933/graph?sequence=1366%2B1942>
+
+%tag person
+%tag   name_ja 王審知
+
+%tag position
+%tag   name_ja 閩主
+
+%tag position
+%tag   name_ja 閩王
+%tag   group of 王 (支那)
+
+%tag position
+%tag   name_ja 閩皇帝
+%tag   group of 支那皇帝
+
+[龍啟]
+#y~1385
+
+AD933 = 1
+
+tag 漢土
+tag 漢民族
+tag 十国閩
+
+%tag person
+%tag   name_ja 王延鈞
+tag 王延鈞
+
+name_ja 竜啓
+
+## [102]
+#933-934
+
+wref_ja 龍啓
+name_ja 龍啓
+name_kana りゅう けい
+#933 - 934
+
+## <https://ja.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E9%88%9E>
+<-長興 [唐:932] #国交断絶{#十国閩 #王延鈞, #後唐} #事由
+#<-長興 [唐:933] #建元前の即位{#十国閩 #王延鈞 #閩皇帝}
+#<-長興 [唐:933] #支那改元日{#十国閩 #王延鈞} #起事建元
+
+wref_ko 용계
+name(kr) 용계
+#933-1-1 - 934
+<-長興 唐:933-1-1 #支那改元日{#十国閩 #王延鈞} #起事建元
+
+<-長興 唐:933-1-1 #建元前の即位{#十国閩 #王延鈞 #閩皇帝}
+
+## <https://zh-yue.wikipedia.org/wiki/%E9%BE%8D%E5%95%9F>
+#933 - 934
+
+[永和(乙未)]
+#y~75
+
+AD935 = 1
+
+tag 漢土
+tag 漢民族
+tag 十国閩
+
+tag 王延鈞
+
+## [102]
+#935 - 936-2
+
+wref_ja 永和 (閩)
+name_ja 永和
+name_kana えい わ
+#935
+
+## <https://ja.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E9%88%9E>
+->通文 唐:935-10-19 #改元前の死去{#十国閩 #王延鈞}
+
+wref_ko 영화 (십국)
+name(kr) 영화
+#935-1-1 - 936
+<-龍啟 唐:935-1-1 #支那改元日{#十国閩 #王延鈞}
+
+## <https://zh-yue.wikipedia.org/wiki/%E6%B0%B8%E5%92%8C_(%E9%96%A9)>
+#935 - 936
+
+[通文]
+#y~1362
+
+AD936 = 1
+
+tag 漢土
+tag 漢民族
+tag 十国閩
+
+%tag person
+%tag   name_ja 王継鵬
+tag 王継鵬
+
+<-永和(乙未) [唐:936] #支那改元日{#十国閩 #王継鵬}
+
+## [102]
+#936-3 - 939-7'
+
+wref_ja 通文
+name_ja 通文
+name_kana つう ぶん
+#936 - 938
+
+## <https://ja.wikipedia.org/wiki/%E7%8E%8B%E7%B6%99%E9%B5%AC>
+<-永和(乙未) 唐:935-10-20 #建元前の即位{#十国閩 #王継鵬 #閩皇帝}
+
+## <https://ja.wikipedia.org/wiki/%E7%8E%8B%E7%B6%99%E9%B5%AC>
+->永隆(己亥) 唐:939-7'-12 j:939-8-29
+    #改元前の死去{#十国閩 #王継鵬} #王延羲 #朱文進 #連重遇
+
+wref_ko 통문
+name(kr) 통문
+#936 - 939
+
+## <https://zh-yue.wikipedia.org/wiki/%E9%80%9A%E6%96%87>
+#936 - 939
+
+[永隆(己亥)]
+#y~1079
+
+AD939 = 1
+
+tag 漢土
+tag 漢民族
+tag 十国閩
+
+%tag person
+%tag   name_ja 王延羲
+tag 王延羲
+
+## [102]
+#939-7' - 944-3
+#资治通鉴后晋高祖天福四年 考异: 诸书皆作通文四年改元永隆。
+#闽国人林志仁"闽中启运图": 通文四年闰七月王延羲即位，明年改元永隆，五年被杀。
+
+wref_ja 永隆 (閩)
+name(ja) 永隆
+name_kana えい りゅう
+#939 - 944
+
+tag 連重遇
+tag 朱文進
+
+## <https://ja.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E7%BE%B2>
+<-通文 [唐:939,唐:939-7'-13] #蜂起{#王延羲 #朱文進 #連重遇} #十国閩
+<-通文 唐:939-7'-13 #建元前の即位{#十国閩 #王延羲 #閩王}
+    #朱文進 #連重遇
+<-通文 [唐:939-7'-13,唐:939] #支那改元日{#十国閩 #王延羲}
+tag 後晋
+#->天德(癸卯) [唐:940] #開戦{#十国閩 #王延羲, #王延政} #事由
+>< [唐:941] #即位{#十国閩 #王延羲 #閩皇帝}
+->天福(丙申) 唐:944-3-13 #陥落{#朱文進 #連重遇, #十国閩 #王延羲} #死去
+
+## <https://zh-yue.wikipedia.org/wiki/%E6%B0%B8%E9%9A%86_(%E9%96%A9)>
+#939 - 944
+
+wref_ko 영륭 (십국)
+name(kr) 영륭
+#939 - 944
+
+%tag person
+%tag   name_ja 朱文進
+tag 朱文進
+%tag person
+%tag   name_ja 連重遇
+tag 連重遇
+
+## <https://ja.wikipedia.org/wiki/%E6%9C%B1%E6%96%87%E9%80%B2>
+->天福(丙申) 唐:944-3-13 #建元前の即位{#十国閩 #朱文進 #閩主}
+#在位期間       天福9年3月13日 - 開運元年閏12月29日
+#"まもなく朱文進は帝号を取り消し"
+->天福(丙申) [唐:944-3-13,唐:944-12-15] #勢力吸収{#後晋, #十国閩 #朱文進}
+[天福(丙申)]
+tag 十国閩
+tag 朱文進
+[開運]
+tag 十国閩
+tag 朱文進
+>< 唐:944-12-15 #即位{#後晋 #朱文進 #閩王} #十国閩
+->天德(癸卯) 唐:944-12'-29 #陥落{#王延政, #朱文進 #連重遇} #十国閩
+
+[天德(癸卯)]
+#y~689
+
+AD943 = 1
+
+tag 漢土
+tag 漢民族
+tag 十国閩
+
+%tag person
+%tag   name_ja 王延政
+tag 王延政
+
+%tag country
+%tag   label_ja 殷 (王延政)
+%tag   name_ja 殷
+%tag   period of 殷
+%tag   period of 中国
+tag 殷 (王延政)
+
+## [102]
+#943-2 - 945-8
+<-永隆(己亥) [唐:943-2] #支那改元日{#殷_(王延政) #王延政} #起事建元
+
+wref_ja 天徳 (閩)
+name_ja 天徳
+name_kana てん とく
+#943 - 945
+
+## <https://ja.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E6%94%BF>
+#<-永隆(己亥) [唐:940] #開戦{#十国閩 #王延羲, #王延政} #事由
+#<-永隆(己亥) [唐:941] #停戦協定締結{#十国閩 #王延羲, #王延政}
+<-永隆(己亥) [唐:941] #開戦{#十国閩 #王延羲, #王延政} #事由
+<-永隆(己亥) [唐:943] #建元前の即位{#殷_(王延政) #王延政 #殷皇帝}
+#<-永隆(己亥) [唐:943] #支那改元日{#殷_(王延政) #王延政} #起事建元
+>< [唐:945,唐:945-8-24] #即位{#十国閩 #王延政 #閩皇帝}
+->保大 唐:945-8-24 #陥落{#南唐, #十国閩 #王延政} #退位
+   
+## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E5%BE%B7_(%E9%96%A9)>
+#943 - 945
+
+wref_ko 천덕 (십국)
+name(kr) 천덕
+#943 - 945
+
+
+%tag country
+%tag   label_ja 大越 (南漢)
+%tag   name_ja 大越
+%tag   period of 越
+%tag   period of 中国
+
+%tag country
+%tag   label_ja 南漢
+%tag   name_ja 漢
+%tag   period of 漢
+%tag   group of 十国
+%tag   period of 中国
+## <https://data.suikawiki.org/tag/1933/graph?sequence=1366%2B2081>
+
+%tag people
+%tag   name_ja 劉隠
+
+[乾亨]
+#y~1508
+
+AD917 = 1
+
+tag 漢民族
+tag 南漢
+tag 漢土
+tag 広西
+
+%tag person
+%tag   name_ja 劉龑
+tag 劉龑
+
+## [102]
+#917-7 - 925-10
+
+wref_ja 乾亨 (南漢)
+name_ja 乾亨
+name_kana けん こう
+#917 - 925
+
+## <https://ja.wikipedia.org/w/index.php?title=%E4%B9%BE%E4%BA%A8_(%E5%8D%97%E6%BC%A2)&oldid=10386204>,
+## Yonoemon, 2007年2月2日 (金) 08:54
+## <https://ja.wikipedia.org/w/index.php?title=%E4%B9%BE%E4%BA%A8_(%E5%8D%97%E6%BC%A2)&diff=12044994&oldid=12044952>,
+## Oxhop, 2007年4月21日 (土) 12:53
+## <https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%88:%E4%B9%BE%E4%BA%A8_(%E5%8D%97%E6%BC%A2)>
+#913 - 925
+
+## <https://ja.wikipedia.org/wiki/%E5%8A%89%E9%BE%91>
+<-貞明(乙亥) 唐:917-8-16 #建元前の即位{#大越_(南漢) #劉龑 #越皇帝} #南漢
+    #漢皇帝
+<-貞明(乙亥) 唐:917-8-16 #支那改元日{#大越_(南漢) #劉龑} #起事建元 #南漢
+>< [唐:918] #国名変更{#大越_(南漢), #南漢}
+
+wref_ko 건형 (십국)
+name(kr) 건형
+#917-8-17 - 925
+<-貞明(乙亥) 唐:917-8-17 #支那改元日{#大越_(南漢) #劉龑} #起事建元 #南漢 #異説
+
+## <https://zh-yue.wikipedia.org/wiki/%E4%B9%BE%E4%BA%A8_(%E5%8D%97%E6%BC%A2)>
+#917 - 925
+
+## <http://s-ir.sap.hokkyodai.ac.jp/dspace/bitstream/123456789/4339/1/19-1-1B-03.pdf#page=8>
+<-貞明(乙亥) [唐:915] #国交断絶{#南漢 #劉龑, #朱梁} #事由
+
+[白龍]
+#y~1246
+
+AD925 = 1
+
+tag 漢民族
+tag 南漢
+tag 漢土
+tag 広西
+
+tag 劉龑
+
+name_ja 白竜
+
+## [102]
+#925-12 - 928-2
+
+wref_ja 白龍 (南漢)
+name_ja 白龍
+name_kana はく りゅう
+#925 - 928
+
+wref_ko 백룡 (연호)
+name(kr) 백룡
+#925-12-1 - 928
+<-乾亨 唐:925-12-1 #支那改元日{#劉龑 #南漢}
+
+## <https://zh-yue.wikipedia.org/wiki/%E7%99%BD%E9%BE%8D>
+#925 - 928
+
+
+## <http://s-ir.sap.hokkyodai.ac.jp/dspace/bitstream/123456789/4339/1/19-1-1B-03.pdf#page=10>
+<-乾亨 [唐:925,唐:925-12-1] #竜祥瑞{#劉龑 #南漢}
+
+[大有]
+#y~74
+
+AD928 = 1
+
+tag 漢民族
+tag 南漢
+tag 漢土
+tag 広西
+
+tag 劉龑
+
+## [102]
+#928-3 - 942-3
+
+wref_ja 大有
+name_ja 大有
+name_kana だい ゆう
+#928 - 942
+
+## <https://ja.wikipedia.org/wiki/%E5%8A%89%E9%BE%91>
+->光天 唐:942-4-24 #改元前の死去{#南漢 #劉龑}
+
+wref_ko 대유 (연호)
+name(kr) 대유
+#928-3-1 - 942
+<-白龍 唐:928-3-1 #支那改元日{#劉龑 #南漢}
+
+## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A7%E6%9C%89_(%E5%B9%B4%E8%99%9F)>
+# 928 - 942
+
+## <http://s-ir.sap.hokkyodai.ac.jp/dspace/bitstream/123456789/4339/1/19-1-1B-03.pdf#page=8>
+<-白龍 [唐:928,唐:928-3-1] #進攻{#馬楚, #南漢} #事由
+tag 周易
+
+[光天]
+#y~113
+
+AD942 = 1
+
+tag 漢民族
+tag 南漢
+tag 漢土
+tag 広西
+
+%tag person
+%tag   name_ja 劉玢
+tag 劉玢
+
+## [102]
+#942-4 - 943-2
+<-大有 [唐:942-4] #支那改元日{#南漢 #劉玢}
+
+wref_ja 光天 (南漢)
+name_ja 光天
+name_kana こう てん
+#942 - 943
+
+## <https://ja.wikipedia.org/wiki/%E5%8A%89%E7%8E%A2>
+<-大有 唐:942-4-24 #建元前の即位{#南漢 #劉玢 #漢皇帝}
+->應乾 唐:943-3-8 #改元前の死去{#南漢 #劉玢}
+
+wref_ko 광천 (남한)
+name(kr) 광천
+#942-3-1 - 943
+<-大有 唐:942-3-1 #支那改元日{#南漢 #劉玢} #旧説
+
+## <https://zh-yue.wikipedia.org/wiki/%E5%85%89%E5%A4%A9_(%E5%8D%97%E6%BC%A2)>
+# 924 - 943
+
+[應乾]
+#y~597
+
+AD943 = 1
+
+tag 漢民族
+tag 南漢
+tag 漢土
+tag 広西
+
+%tag person
+%tag   name_ja 劉晟
+tag 劉晟
+
+## [102]
+#943-3 - 943-10
+
+wref_ja 応乾
+name_ja 応乾
+name_kana おう かん
+#943
+
+## <https://ja.wikipedia.org/wiki/%E5%8A%89%E6%99%9F>
+<-光天 唐:943-3-9 #建元前の即位{#南漢 #劉晟 #漢皇帝}
+
+## <https://zh-yue.wikipedia.org/wiki/%E6%87%89%E4%B9%BE>
+#943
+
+wref_ko 응건
+name(kr) 응건
+#943-3-1 - 943
+<-光天 唐:943-3-1 #支那改元日{#南漢 #劉晟} #旧説
+
+<-光天 [唐:943-3-9,唐:943-3] #支那改元日{#南漢 #劉晟}
+
+[乾和]
+#y~904
+
+AD943 = 1
+
+tag 漢民族
+tag 南漢
+tag 漢土
+tag 広西
+
+tag 劉晟
+
+## [102]
+#943-11 - 958-7
+
+wref_ja 乾和
+name_ja 乾和
+name_kana けん わ
+#943-11 - 958-8
+
+## <https://ja.wikipedia.org/wiki/%E5%8A%89%E6%99%9F>
+->大寶(戊午) 唐:958-8-3 #改元前の死去{#南漢 #劉晟}
+
+wref_ko 건화 (십국)
+name(kr) 건화
+#943-11-13 - 958
+<-應乾 唐:943-11-13 #支那改元日{#南漢 #劉晟}
+
+## <https://zh-yue.wikipedia.org/wiki/%E4%B9%BE%E5%92%8C>
+#943 - 958
+
+[大寶(戊午)]
+#y~679
+
+AD958 = 1
+
+tag 漢民族
+tag 南漢
+tag 漢土
+tag 広西
+
+%tag person
+%tag   name_ja 劉鋹
+tag 劉鋹
+
+## [102]
+#958-8 - 971-2
+
+wref_ja 大宝 (南漢)
+name_ja 大宝
+name_kana だい ほう
+#958 - 971
+
+## <https://ja.wikipedia.org/wiki/%E5%8A%89%E9%8B%B9>
+<-乾和 唐:958-8-3 #建元前の即位{#南漢 #劉鋹 #漢皇帝}
+->開寶(戊辰) 宋:971-2-5 #陥落{#北宋, #南漢 #劉鋹} #捕縛
+
+wref_ko 대보 (십국)
+name(kr) 대보
+#958-8-3 - 971
+<-乾和 唐:958-8-3 #支那改元日{#南漢 #劉鋹}
+
+## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A7%E5%AF%B6_(%E5%8D%97%E6%BC%A2)>
+#958 - 971
+
+
+[永樂(壬寅)]
+#y~574
+
+AD942 = 1
+
+tag 漢民族
+tag 南漢
+tag 南唐
+tag 漢土
+
+%tag person
+%tag   name_ja 張遇賢
+tag 張遇賢
+
+## [102]
+#942-7 - 943-10
+%tag country
+%tag   name_ja 中天八国
+%tag   period of 中国
+tag 中天八国 
+<-光天 [唐:942-7] #支那改元日{#張遇賢} #起事建元
+
+## <https://zh.wikipedia.org/wiki/%E5%BC%B5%E9%81%87%E8%B3%A2>
+%tag position
+%tag   name_ja 中天八国王
+%tag   group of 王 (支那)
+<-光天 [唐:942-7] #建元前の即位{#張遇賢 #中天八国 #中天八国王}
+#<-光天 [唐:942-7] #支那改元日{#張遇賢} #起事建元
+->保大 [唐:943-10] #陥落{#南唐, #張遇賢} #捕縛
+
+wref_ja 永楽 (張遇賢)
+name_ja 永楽
+name_kana えい らく
+tag 私年号 (ウィキペディア)
+#942 - 943
+#新五代史 62
+
+&
+## [102]
+name_tw 長樂
+name_cn 长乐
+#十國春秋 南漢殤帝紀
+
+## [103]
+name_ja 長楽
+
+
+
+
+
+
+
+
 
 [永平]
 #y~1510

@@ -231,6 +231,14 @@
 %tag   name_ja 監国
 
 %tag region
+%tag   name_ja 殷
+%tag   region of 漢土
+
+%tag position
+%tag   name_ja 殷皇帝
+%tag   group of 支那皇帝
+
+%tag region
 %tag   name_ja 漢
 %tag   region of 漢土
 
@@ -366,6 +374,9 @@
 %tag calendar
 %tag   name_ja 武周正
 %tag   group of 非寅正
+
+%tag religion
+%tag   name_ja 周易
 
 def[秦始皇]
 ## Source:
@@ -2966,6 +2977,11 @@ tag 国共内戦
 <-民國 [g:1950-3,g:1950-6] #鎮圧{#中国共産党, #中華民国 #ウイグル} #国共内戦
     #グレゴリオ暦 #事由 #新疆進攻 #中華人民共和国
 #             -春
+
+<-民國 g:1949-12-11 #進攻{#中国共産党, #中華民国 #広西} #国共内戦
+    #グレゴリオ暦 #事由 #中華人民共和国
+tag 広西
+tag 壮族
 
 def[太平(乙丑曽応龍)]
 #y~22

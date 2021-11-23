@@ -1,0 +1,48 @@
+%tag region
+%tag   name_ja 越南
+
+%tag people
+%tag   name_ja ベトナム人
+
+%tag region
+%tag   name_ja 越
+
+%tag position
+%tag   name_ja 越皇帝
+%tag   group of 支那皇帝
+
+%tag region
+%tag   name_ja 嶺南
+
+%tag region
+%tag   name_ja 広西
+%tag   region of 嶺南
+
+%tag people
+%tag   name_ja 壮族
+
+def[越南民主共和]
+name(vi) Việt Nam Dân chủ Cộng hòa
+name_ja 越南民主共和
+name_kana えつ なん みん しゅ きょう わ
+&
+name(vi) nam
+wref_ja 越南民主共和
+AD1945 = 1
+sw 越南民主共和
+#vi
+
+def[共和社会主義越南]
+name_ja 共和社会主義越南
+wref_ja 元号
+AD1945 = 1
+sw 共和社会主義越南
+#vi
+
+def[越南共和]
+name(vi) Việt Nam Cộng hòa
+name_ja 越南共和
+name_kana えつ なん きょう わ
+wref_ja 越南共和
+AD1955 = 1
+#vi
