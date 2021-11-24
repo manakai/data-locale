@@ -270,6 +270,14 @@
 %tag   name_ja 蜀
 %tag   region of 漢土
 
+%tag position
+%tag   name_ja 蜀王
+%tag   group of 王 (支那)
+
+%tag position
+%tag   name_ja 蜀皇帝
+%tag   group of 支那皇帝
+
 %tag region
 %tag   name_ja 燕
 %tag   region of 漢土

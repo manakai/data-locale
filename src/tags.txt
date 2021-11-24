@@ -453,6 +453,8 @@ action
 
 action
   name_ja 通知受領
+  #subject: from
+  #object: to
 
 action
   name_ja 外国通告
@@ -492,6 +494,11 @@ action
 
 action
   name_ja 実施中止
+
+action
+  name_ja 改元非難
+  #subject: criticized by
+  #object: switched by
 
 action
   name_ja 撤回
