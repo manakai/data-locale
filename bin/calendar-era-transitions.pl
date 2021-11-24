@@ -1110,6 +1110,8 @@ for (@$Transitions) {
     $type = 'lastyearend';
   } elsif ($x->{tag_ids}->{1351}) { # 末年翌日
     $type = 'nextlastyearend';
+  } elsif ($x->{tag_ids}->{2098}) { # 改元非難
+    $type = 'other';
   } else {
     if (@$from_keys and not @$to_keys) {
       $type = 'other';
