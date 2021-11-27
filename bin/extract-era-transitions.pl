@@ -72,14 +72,9 @@ sub get_transition ($$$) {
       ($direction eq 'outgoing' and $tr->{prev_era_ids}->{$era->{id}})
     }) {
       my $fd_matched = 0;
-      if (($tr->{type} eq 'firstday' ||
-           $tr->{type} eq 'renamed') &&
-          (!($tr->{tag_ids}->{1359} or
-             $tr->{tag_ids}->{2043} or
-             $tr->{tag_ids}->{1420} or
-             ($era->{tag_ids}->{1078} and $tr->{tag_ids}->{2045}) or
-             $tr->{tag_ids}->{1492}) or
-            $direction eq 'incoming')) {
+      if (($tr->{type} eq 'firstday' || $tr->{type} eq 'renamed') &&
+          (!$tr->{tag_ids}->{2107} or # 分離
+           $direction eq 'incoming')) {
         $fd_matched = 1;
         if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
           push @$matched2, $tr;
@@ -89,11 +84,8 @@ sub get_transition ($$$) {
         }
       }
 
-      if (($tr->{type} eq 'commenced' and
-           !($tr->{tag_ids}->{1420} or
-             ($era->{tag_ids}->{1078} and $tr->{tag_ids}->{2045}) or
-             $tr->{tag_ids}->{1492})) or
-          $tr->{type} eq 'administrative') {
+      if (($tr->{type} eq 'commenced' or $tr->{type} eq 'administrative') and
+          not $tr->{tag_ids}->{2107}) { # 分離
         if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
           push @$matched1, $tr;
         } else {
@@ -101,10 +93,11 @@ sub get_transition ($$$) {
         }
       }
       
-      if ($tr->{type} eq 'wartime' or
-          $tr->{type} eq 'received' or
-          (($tr->{type} eq 'firstday' or $tr->{type} eq 'renamed') and
-           not $fd_matched)) {
+      if (($tr->{type} eq 'wartime' or
+           $tr->{type} eq 'received' or
+           $tr->{type} eq 'firstday' or
+           $tr->{type} eq 'renamed') and
+          not $fd_matched) {
         if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
           push @$matched2, $tr;
         } else {
@@ -112,10 +105,9 @@ sub get_transition ($$$) {
         }
       }
       
-      if ($tr->{type} eq 'firstyearstart') {
-        if ($tr->{tag_ids}->{1342}) { # 天皇即位元年年始
-          $fys //= $tr;
-        }
+      if ($tr->{type} eq 'firstyearstart' and
+          $tr->{tag_ids}->{2108}) { # 即位元年年始
+        $fys //= $tr;
       }
     } # direction matched
 
@@ -155,8 +147,13 @@ push @$items, my $last_item = {
 while (1) {
   my $tr = get_transition ($last_item->{era}, $last_item->{day}->{mjd}, 'outgoing');
   last unless defined $tr;
-  my $next_era_ids = [keys %{$tr->{next_era_ids}}];
-  die "Multiple nexts" if @$next_era_ids != 1;
+  my $next_era_ids = [sort { $a <=> $b } keys %{$tr->{next_era_ids}}];
+  #die "Multiple nexts" if @$next_era_ids != 1;
+  if (@$next_era_ids != 1) {
+    printf STDOUT "# y~%d has multiple nexts: %s\n",
+        $last_item->{era}->{id},
+        join ',', @$next_era_ids;
+  }
   my $delta = 0;
   if ($tr->{type} eq 'wartime' and
       $tr->{tag_ids}->{1226}) { # 陥落

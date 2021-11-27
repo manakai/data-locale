@@ -1,0 +1,51 @@
+# y~1366 乾符
+# + tag 1952 #後唐
+# + tag 1955 #後晋
+# - tag 1969 #燕雲十六州
+# <https://data.suikawiki.org/tag/1933/graph?sequence=1366%2B1952%2B1955-1969>
+# g:0874-12-21+0 y~1366 firstday
+mjd:-359364 乾符
+# g:0880-02-18+0 y~398 firstday
+mjd:-357479 廣明
+# g:0881-08-13+0 y~421 firstday
+mjd:-356937 中和
+# g:0885-04-06+0 y~1700 firstday
+mjd:-355605 光啟
+# g:0888-03-21+0 y~1675 firstday
+mjd:-354525 文德(戊申)
+# g:0889-02-08+0 y~32 firstday
+mjd:-354201 龍紀
+# g:0890-01-29+0 y~521 firstday
+mjd:-353846 大順
+# g:0892-02-06+0 y~39 firstday
+mjd:-353108 景福
+# g:0894-02-14+0 y~289 firstday
+mjd:-352369 乾寧
+# g:0898-09-20+0 y~1699 firstday
+mjd:-350690 光化
+# g:0900-12-29+0 y~1656 firstday
+mjd:-349860 天壽(濮王)
+# g:0901-02-26+0 y~1699 firstday
+mjd:-349801 光化
+# g:0901-05-18+0 y~1290 firstday
+mjd:-349720 天復
+# g:0904-06-02+0 y~203 firstday
+mjd:-348609 天祐
+# g:0923-05-18+0 y~982 firstday
+mjd:-341685 同光
+# g:0926-06-17+0 y~1440 commenced
+mjd:-340559 天成(丙戌)
+# g:0930-03-28+0 y~1488 firstday
+mjd:-339179 長興
+# g:0934-01-29+0 y~1545 firstday
+mjd:-337776 應順
+# g:0934-06-05+0 y~417 firstday
+mjd:-337649 清泰
+# g:0936-06-26+0 y~1218 administrative
+mjd:-336897 天顯
+# g:0936-12-05+0 y~921 firstday
+mjd:-336735 天福(丙申)
+# g:0944-07-28+0 y~450 firstday
+mjd:-333943 開運
+# g:0947-03-01+0 y~220 firstday
+mjd:-332997 會同

@@ -1004,6 +1004,13 @@ ERA: for my $era (sort { $a->{id} <=> $b->{id} } values %$Eras) {
   for (@$to_trs) {
     my $x = $_->[2];
     next ERA if $x->{tag_ids}->{1347}; # 初年始
+
+    if ($era->{tag_ids}->{1078}) { # 公年号
+      if ($x->{tag_ids}->{2045}) { # マイクロネーション建元
+        set_object_tag $x, '分離';
+      }
+    }
+    
     copy_transition_tags $x => $w;
     set_object_tag $w, '日本朝廷改元年始'
         if $x->{tag_ids}->{1325}; # 日本朝廷改元日
@@ -1024,6 +1031,7 @@ ERA: for my $era (sort { $a->{id} <=> $b->{id} } values %$Eras) {
   next unless defined $jd;
   
     set_object_tag $w, '初年始';
+    set_object_tag $w, '即位元年年始' if $era->{tag_ids}->{1069}; # 即位紀年
     $w->{day} = ssday $jd, $w->{tag_ids};
     push @$NewTransitions, [$prev_eras, [$era->{key}], $w, undef, undef];
 
