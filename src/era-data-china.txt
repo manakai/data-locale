@@ -2035,6 +2035,10 @@ s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7
 #    #陥落{#李唐, #羅平國 #董昌} #異説
 #4-1壬午 day not found - 3-1 or 5-1
 
+s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7133>"羅平國王"
+name 大聖
+s+
+
 ## [102]
 wref_zh 顺天 (董昌)
 name_tw 大聖

@@ -83,6 +83,10 @@ sub g2jd ($) {
   return $jd;
 } # g2jd
 
+sub mjd2jd ($) {
+  return $_[0] + 2400000.5;
+} # mjd2jd
+
 my $Data = {};
 
 my $Defs = {};
@@ -98,8 +102,10 @@ for my $path (($root_path->child ('src/eras')->children (qr{\.txt$})),
     } elsif (/^\*([\w-]+):$/) {
       $def_name = $1;
       $var_name = undef;
-    } elsif (defined $var_name and /^jd:([0-9.]+)\s+([\w()]+)$/) {
+    } elsif (defined $var_name and /^jd:(-?[0-9.]+)\s+([\w()]+)$/) {
       push @{$Vars->{$var_name} ||= []}, ['jd', 0+$1, $2];
+    } elsif (defined $var_name and /^mjd:(-?[0-9.]+)\s+([\w()]+)$/) {
+      push @{$Vars->{$var_name} ||= []}, ['jd', mjd2jd $1, $2];
     } elsif (defined $var_name and /^g:([0-9-]+)\s+([\w()]+)$/) {
       push @{$Vars->{$var_name} ||= []}, ['jd', (g2jd $1), $2];
     } elsif (defined $def_name and /^g:([0-9-]+)\s+([\w()]+)$/) {

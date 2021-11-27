@@ -43,6 +43,11 @@ my $Transitions;
   $Transitions = $json->{transitions};
 }
 
+sub has_tag ($$) {
+  my ($tr, $tags) = @_;
+  return !!grep { $_ } map { $tr->{tag_ids}->{$_} } @$tags;
+} # has_tag
+
 sub get_transition ($$$) {
   my ($era, $mjd, $direction) = @_;
 
@@ -50,6 +55,7 @@ sub get_transition ($$$) {
   my $fd;
   my $matched1 = [];
   my $matched2 = [];
+  my $matched0 = [];
 
   for my $tr (grep { $_->{relevant_era_ids}->{$era->{id}} } @$Transitions) {
     if (defined $tr->{day}) {
@@ -65,37 +71,70 @@ sub get_transition ($$$) {
           or
       ($direction eq 'outgoing' and $tr->{prev_era_ids}->{$era->{id}})
     }) {
-      if ($tr->{type} eq 'firstyearstart') {
-        if ((!!grep { $_ } map { $tr->{tag_ids}->{$_} } @$TagsIncluded) or
-            (!grep { $_ } map { $tr->{tag_ids}->{$_} } @$TagsExcluded)) {
-          $fys //= $tr;
+      my $fd_matched = 0;
+      if (($tr->{type} eq 'firstday' ||
+           $tr->{type} eq 'renamed') &&
+          (!($tr->{tag_ids}->{1359} or
+             $tr->{tag_ids}->{2043} or
+             $tr->{tag_ids}->{1420} or
+             ($era->{tag_ids}->{1078} and $tr->{tag_ids}->{2045}) or
+             $tr->{tag_ids}->{1492}) or
+            $direction eq 'incoming')) {
+        $fd_matched = 1;
+        if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
+          push @$matched2, $tr;
         }
-      }
-      if ($tr->{type} eq 'firstday') {
-        if ((!!grep { $_ } map { $tr->{tag_ids}->{$_} } @$TagsIncluded) or
-            (!grep { $_ } map { $tr->{tag_ids}->{$_} } @$TagsExcluded)) {
+        if (not has_tag $tr, $TagsExcluded) {
           $fd //= $tr;
         }
       }
 
-      if ($tr->{type} eq 'commenced') {
-        if (!!grep { $_ } map { $tr->{tag_ids}->{$_} } @$TagsIncluded) {
+      if (($tr->{type} eq 'commenced' and
+           !($tr->{tag_ids}->{1420} or
+             ($era->{tag_ids}->{1078} and $tr->{tag_ids}->{2045}) or
+             $tr->{tag_ids}->{1492})) or
+          $tr->{type} eq 'administrative') {
+        if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
           push @$matched1, $tr;
+        } else {
+          push @$matched0, $tr;
         }
       }
+      
       if ($tr->{type} eq 'wartime' or
-          $tr->{type} eq 'received') {
-        if (!!grep { $_ } map { $tr->{tag_ids}->{$_} } @$TagsIncluded) {
+          $tr->{type} eq 'received' or
+          (($tr->{type} eq 'firstday' or $tr->{type} eq 'renamed') and
+           not $fd_matched)) {
+        if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
           push @$matched2, $tr;
+        } else {
+          push @$matched0, $tr;
         }
+      }
+      
+      if ($tr->{type} eq 'firstyearstart') {
+        if ($tr->{tag_ids}->{1342}) { # 天皇即位元年年始
+          $fys //= $tr;
+        }
+      }
+    } # direction matched
+
+    if (@$matched1 or @$matched2) {
+      if (do {
+        ($direction eq 'outgoing' and $tr->{next_era_ids}->{$era->{id}})
+            or
+        ($direction eq 'incoming' and $tr->{prev_era_ids}->{$era->{id}})
+      }) {
+        last;
       }
     }
-  }
+  } # $tr
 
   return $matched1->[0] if @$matched1;
   return $matched2->[0] if @$matched2;
   return $fd if defined $fd;
   return $fys if defined $fys;
+  return $matched0->[-1] if @$matched0;
   return undef;
 } # get_transition
 
@@ -133,12 +172,12 @@ while (1) {
 
 binmode STDOUT, qw(:encoding(utf-8));
 for my $item (@$items) {
-  printf "# g:%s+%d y~%d %s\njd:%s %s\n",
+  printf "# g:%s+%d y~%d %s\nmjd:%s %s\n",
       $item->{day}->{gregorian},
       $item->{delta},
       $item->{era}->{id},
       $item->{transition}->{type},
-      $item->{day}->{jd} + $item->{delta},
+      $item->{day}->{mjd} + $item->{delta},
       $item->{era}->{key};
 }
 

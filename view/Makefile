@@ -4,7 +4,11 @@ DATA_PATH = $(ROOT_PATH)/data
 PERL = $(ROOT_PATH)/perl
 
 all: era-names.html era-yomis.html era-kanjions.html \
-    era-transitions.html
+    era-transitions.html \
+    era-transition-sequences-all
+
+era-transition-sequences-all:
+	cd era-transition-sequences && $(MAKE) all
 
 era-names.html: era-names.pl $(DATA_PATH)/calendar/era-defs.json
 	$(PERL) $< > $@
