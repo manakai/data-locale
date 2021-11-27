@@ -1,3 +1,6 @@
+# y~756 神武天皇
+# + tag 1066 #日本南朝
+# <https://data.suikawiki.org/tag/1003/graph?sequence=756%2B1066>
 # g:-0659-02-11+0 y~756 firstyearstart
 mjd:-919594 神武天皇
 # g:-0580-02-10+0 y~1110 firstyearstart

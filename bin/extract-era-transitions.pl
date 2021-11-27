@@ -156,7 +156,12 @@ while (1) {
   my $tr = get_transition ($last_item->{era}, $last_item->{day}->{mjd}, 'outgoing');
   last unless defined $tr;
   my $next_era_ids = [keys %{$tr->{next_era_ids}}];
-  die "Multiple nexts" if @$next_era_ids != 1;
+  #die "Multiple nexts" if @$next_era_ids != 1;
+  if (@$next_era_ids != 1) {
+    printf STDOUT "# y~%d has multiple nexts: %s\n",
+        $last_item->{era}->{id},
+        join ',', @$next_era_ids;
+  }
   my $delta = 0;
   if ($tr->{type} eq 'wartime' and
       $tr->{tag_ids}->{1226}) { # 陥落
