@@ -172,12 +172,12 @@ while (1) {
 
 binmode STDOUT, qw(:encoding(utf-8));
 for my $item (@$items) {
-  printf "# g:%s+%d y~%d %s\njd:%s %s\n",
+  printf "# g:%s+%d y~%d %s\nmjd:%s %s\n",
       $item->{day}->{gregorian},
       $item->{delta},
       $item->{era}->{id},
       $item->{transition}->{type},
-      $item->{day}->{jd} + $item->{delta},
+      $item->{day}->{mjd} + $item->{delta},
       $item->{era}->{key};
 }
 

@@ -1,0 +1,572 @@
+# g:-0659-02-11+0 y~756 firstyearstart
+mjd:-919594 神武天皇
+# g:-0580-02-10+0 y~1110 firstyearstart
+mjd:-890742 綏靖天皇
+# g:-0547-02-04+0 y~1681 firstyearstart
+mjd:-878694 安寧天皇
+# g:-0509-02-05+0 y~390 firstyearstart
+mjd:-864814 懿徳天皇
+# g:-0474-02-08+0 y~335 firstyearstart
+mjd:-852028 孝昭天皇
+# g:-0391-01-22+0 y~1174 firstyearstart
+mjd:-821729 孝安天皇
+# g:-0289-02-04+0 y~1544 firstyearstart
+mjd:-784462 孝霊天皇
+# g:-0213-02-04+0 y~406 firstyearstart
+mjd:-756703 孝元天皇
+# g:-0156-02-05+0 y~1175 firstyearstart
+mjd:-735884 開化天皇
+# g:-0096-02-03+0 y~1295 firstyearstart
+mjd:-713972 崇神天皇
+# g:-0028-02-01+0 y~239 firstyearstart
+mjd:-689137 垂仁天皇
+# g:0071-02-16+0 y~1228 firstyearstart
+mjd:-652962 景行天皇
+# g:0131-02-14+0 y~492 firstyearstart
+mjd:-631050 成務天皇
+# g:0192-01-31+0 y~1209 firstyearstart
+mjd:-608784 仲哀天皇
+# g:0201-01-22+0 y~662 firstyearstart
+mjd:-605506 神功皇后摂政
+# g:0270-02-08+0 y~309 firstyearstart
+mjd:-580287 応神天皇
+# g:0313-02-13+0 y~192 firstyearstart
+mjd:-564577 仁徳天皇
+# g:0400-02-12+0 y~76 firstyearstart
+mjd:-532802 履中天皇
+# g:0406-02-05+0 y~1461 firstyearstart
+mjd:-530617 反正天皇
+# g:0412-01-31+0 y~430 firstyearstart
+mjd:-528431 允恭天皇
+# g:0454-02-15+0 y~399 firstyearstart
+mjd:-513075 安康天皇
+# g:0457-02-11+0 y~372 firstyearstart
+mjd:-511983 雄略天皇
+# g:0480-01-29+0 y~1586 firstyearstart
+mjd:-503596 清寧天皇
+# g:0485-02-02+0 y~1335 firstyearstart
+mjd:-501765 顕宗天皇
+# g:0488-01-30+0 y~740 firstyearstart
+mjd:-500673 仁賢天皇
+# g:0499-01-29+0 y~1073 firstyearstart
+mjd:-496656 武烈天皇
+# g:0507-01-31+0 y~568 firstyearstart
+mjd:-493733 継体天皇
+# g:0534-02-01+0 y~853 firstyearstart
+mjd:-483870 安閑天皇
+# g:0536-02-10+0 y~152 firstyearstart
+mjd:-483131 宣化天皇
+# g:0540-01-27+0 y~683 firstyearstart
+mjd:-481684 欽明天皇
+# g:0572-02-02+0 y~1462 firstyearstart
+mjd:-469990 敏達天皇
+# g:0586-01-27+0 y~766 firstyearstart
+mjd:-464882 用明天皇
+# g:0588-02-05+0 y~1005 firstyearstart
+mjd:-464143 崇峻天皇
+# g:0593-02-09+0 y~1370 firstyearstart
+mjd:-462312 推古天皇
+# g:0629-02-02+0 y~1569 firstyearstart
+mjd:-449171 舒明天皇
+# g:0642-02-08+0 y~946 firstyearstart
+mjd:-444417 皇極天皇
+# g:0645-07-20+0 y~1621 firstday
+mjd:-443159 大化
+# g:0650-03-25+0 y~126 firstday
+mjd:-441450 白雉
+# g:0655-02-15+0 y~1566 firstyearstart
+mjd:-439662 斉明天皇
+# g:0662-01-28+0 y~1100 firstyearstart
+mjd:-437123 天智天皇
+# g:0672-02-07+0 y~168 firstyearstart
+mjd:-433461 天武天皇
+# g:0686-08-17+0 y~1391 firstday
+mjd:-428156 朱鳥
+# g:0687-02-21+0 y~541 firstyearstart
+mjd:-427968 持統天皇
+# g:0697-08-25+0 y~1093 firstday
+mjd:-424130 文武天皇
+# g:0701-05-07+0 y~554 firstday
+mjd:-422780 大宝
+# g:0704-06-20+0 y~506 firstday
+mjd:-421640 慶雲
+# g:0708-02-11+0 y~303 firstday
+mjd:-420309 和銅
+# g:0715-10-07+0 y~371 firstday
+mjd:-417514 霊亀
+# g:0717-12-28+0 y~914 firstday
+mjd:-416701 養老
+# g:0724-03-07+0 y~1045 firstday
+mjd:-414440 神亀
+# g:0729-09-06+0 y~1052 firstday
+mjd:-412431 天平
+# g:0749-05-08+0 y~1002 firstday
+mjd:-405247 天平感宝
+# g:0749-08-23+0 y~437 firstday
+mjd:-405140 天平勝宝
+# g:0757-09-10+0 y~1019 firstday
+mjd:-402200 天平宝字
+# g:0765-02-05+0 y~1067 firstday
+mjd:-399495 天平神護
+# g:0767-09-17+0 y~432 firstday
+mjd:-398541 神護景雲
+# g:0770-10-27+0 y~416 firstday
+mjd:-397405 宝亀
+# g:0781-02-03+0 y~804 firstday
+mjd:-393653 天応
+# g:0782-10-04+0 y~499 firstday
+mjd:-393045 延暦
+# g:0806-06-12+0 y~1007 firstday
+mjd:-384393 大同
+# g:0810-10-24+0 y~1371 firstday
+mjd:-382798 弘仁
+# g:0824-02-12+0 y~483 firstday
+mjd:-377939 天長
+# g:0834-02-18+0 y~467 firstday
+mjd:-374280 承和
+# g:0848-07-20+0 y~951 firstday
+mjd:-369014 嘉祥
+# g:0851-06-05+0 y~1311 firstday
+mjd:-367964 仁寿
+# g:0854-12-27+0 y~69 firstday
+mjd:-366663 斉衡
+# g:0857-03-24+0 y~1169 firstday
+mjd:-365845 天安
+# g:0859-05-24+0 y~897 firstday
+mjd:-365054 貞観
+# g:0877-06-05+0 y~1467 firstday
+mjd:-358467 元慶
+# g:0885-03-15+0 y~40 firstday
+mjd:-355627 仁和
+# g:0889-06-03+0 y~81 firstday
+mjd:-354086 寛平
+# g:0898-05-24+0 y~1116 firstday
+mjd:-350809 昌泰
+# g:0901-09-05+0 y~1144 firstday
+mjd:-349610 延喜
+# g:0923-06-03+0 y~1395 firstday
+mjd:-341669 延長
+# g:0931-05-21+0 y~530 firstday
+mjd:-338760 承平
+# g:0938-06-27+0 y~276 firstday
+mjd:-336166 天慶
+# g:0947-05-20+0 y~992 firstday
+mjd:-332917 天暦
+# g:0957-11-26+0 y~1152 firstday
+mjd:-329074 天徳
+# g:0961-03-10+0 y~174 firstday
+mjd:-327874 応和
+# g:0964-08-24+0 y~513 firstday
+mjd:-326611 康保
+# g:0968-09-13+0 y~358 firstday
+mjd:-325130 安和
+# g:0970-05-08+0 y~964 firstday
+mjd:-324528 天禄
+# g:0974-01-21+0 y~225 firstday
+mjd:-323174 天延
+# g:0976-08-16+0 y~1356 firstday
+mjd:-322236 貞元
+# g:0979-01-05+0 y~978 firstday
+mjd:-321364 天元
+# g:0983-06-03+0 y~1172 firstday
+mjd:-319754 永観
+# g:0985-05-24+0 y~1097 firstday
+mjd:-319033 寛和
+# g:0987-05-10+0 y~209 firstday
+mjd:-318317 永延
+# g:0989-09-15+0 y~705 firstday
+mjd:-317458 永祚
+# g:0990-12-01+0 y~1597 firstday
+mjd:-317016 正暦
+# g:0995-03-30+0 y~100 firstday
+mjd:-315436 長徳
+# g:0999-02-06+0 y~1345 firstday
+mjd:-314027 長保
+# g:1004-08-14+0 y~1602 firstday
+mjd:-312012 寛弘
+# g:1013-02-14+0 y~1640 firstday
+mjd:-308906 長和
+# g:1017-05-27+0 y~1011 firstday
+mjd:-307343 寛仁
+# g:1021-03-23+0 y~1584 firstday
+mjd:-305947 治安
+# g:1024-08-25+0 y~189 firstday
+mjd:-304696 万寿
+# g:1028-08-24+0 y~1342 firstday
+mjd:-303236 長元
+# g:1037-05-15+0 y~803 firstday
+mjd:-300050 長暦
+# g:1040-12-22+0 y~558 firstday
+mjd:-298733 長久
+# g:1044-12-22+0 y~577 firstday
+mjd:-297272 寛徳
+# g:1046-05-28+0 y~305 firstday
+mjd:-296750 永承
+# g:1053-02-08+0 y~640 firstday
+mjd:-294302 天喜
+# g:1058-09-25+0 y~333 firstday
+mjd:-292247 康平
+# g:1065-09-10+0 y~111 firstday
+mjd:-289705 治暦
+# g:1069-05-12+0 y~1286 firstday
+mjd:-288365 延久
+# g:1074-09-22+0 y~788 firstday
+mjd:-286406 承保
+# g:1077-12-11+0 y~1022 firstday
+mjd:-285230 承暦
+# g:1081-03-28+0 y~367 firstday
+mjd:-284027 永保
+# g:1084-03-21+0 y~704 firstday
+mjd:-282938 応徳
+# g:1087-05-17+0 y~1326 firstday
+mjd:-281786 寛治
+# g:1095-01-29+0 y~236 firstday
+mjd:-278972 嘉保
+# g:1097-01-09+0 y~342 firstday
+mjd:-278261 永長
+# g:1098-01-02+0 y~593 firstday
+mjd:-277903 承徳
+# g:1099-09-21+0 y~172 firstday
+mjd:-277276 康和
+# g:1104-03-15+0 y~1603 firstday
+mjd:-275640 長治
+# g:1106-05-20+0 y~1094 firstday
+mjd:-274844 嘉承
+# g:1108-09-16+0 y~1697 firstday
+mjd:-273994 天仁
+# g:1110-08-07+0 y~1533 firstday
+mjd:-273304 天永
+# g:1113-09-01+0 y~397 firstday
+mjd:-272183 永久
+# g:1118-05-02+0 y~1080 firstday
+mjd:-270479 元永
+# g:1120-05-16+0 y~1521 firstday
+mjd:-269734 保安
+# g:1124-05-25+0 y~1160 firstday
+mjd:-268264 天治
+# g:1126-02-22+0 y~79 firstday
+mjd:-267626 大治
+# g:1131-03-07+0 y~271 firstday
+mjd:-265787 天承
+# g:1132-09-28+0 y~1444 firstday
+mjd:-265216 長承
+# g:1135-06-17+0 y~425 firstday
+mjd:-264224 保延
+# g:1141-08-20+0 y~414 firstday
+mjd:-261968 永治
+# g:1142-06-01+0 y~1186 firstday
+mjd:-261683 康治
+# g:1144-04-04+0 y~1171 firstday
+mjd:-261010 天養
+# g:1145-08-19+0 y~858 firstday
+mjd:-260508 久安
+# g:1151-02-21+0 y~1194 firstday
+mjd:-258496 仁平
+# g:1154-12-11+0 y~370 firstday
+mjd:-257107 久寿
+# g:1156-05-25+0 y~237 firstday
+mjd:-256576 保元
+# g:1159-05-16+0 y~257 firstday
+mjd:-255490 平治
+# g:1160-02-25+0 y~381 firstday
+mjd:-255205 永暦
+# g:1161-10-01+0 y~819 firstday
+mjd:-254621 応保
+# g:1163-05-11+0 y~391 firstday
+mjd:-254034 長寛
+# g:1165-07-21+0 y~842 firstday
+mjd:-253232 永万
+# g:1166-09-30+0 y~1233 firstday
+mjd:-252796 仁安
+# g:1169-05-13+0 y~1534 firstday
+mjd:-251840 嘉応
+# g:1171-06-03+0 y~871 firstday
+mjd:-251089 承安
+# g:1175-08-23+0 y~429 firstday
+mjd:-249547 安元
+# g:1177-09-05+0 y~186 firstday
+mjd:-248803 治承
+# g:1183-11-07+0 y~434 received
+mjd:-246549 寿永
+# g:1184-06-03+0 y~1357 firstday
+mjd:-246340 元暦
+# g:1185-09-16+0 y~695 firstday
+mjd:-245870 文治
+# g:1190-05-23+0 y~959 firstday
+mjd:-244160 建久
+# g:1199-05-30+0 y~1279 firstday
+mjd:-240866 正治
+# g:1201-04-04+0 y~933 received
+mjd:-240191 建仁
+# g:1204-03-30+0 y~1259 firstday
+mjd:-239100 元久
+# g:1206-06-12+0 y~557 firstday
+mjd:-238296 建永
+# g:1207-12-02+0 y~1648 received
+mjd:-237758 承元
+# g:1211-05-10+0 y~599 received
+mjd:-236503 建暦
+# g:1214-01-25+0 y~1502 firstday
+mjd:-235512 建保
+# g:1219-06-03+0 y~1313 firstday
+mjd:-233557 承久
+# g:1222-06-01+0 y~1433 firstday
+mjd:-232463 貞応
+# g:1225-01-21+0 y~486 received
+mjd:-231498 元仁
+# g:1225-06-16+0 y~608 received
+mjd:-231352 嘉禄
+# g:1228-02-10+0 y~852 commenced
+mjd:-230383 安貞
+# g:1229-04-27+0 y~137 commenced
+mjd:-229941 寛喜
+# g:1232-04-30+0 y~1469 firstday
+mjd:-228842 貞永
+# g:1233-06-09+0 y~1437 received
+mjd:-228437 天福
+# g:1234-12-04+0 y~1405 firstday
+mjd:-227894 文暦
+# g:1235-12-02+0 y~972 commenced
+mjd:-227531 嘉禎
+# g:1239-01-22+0 y~773 received
+mjd:-226384 暦仁
+# g:1239-03-29+0 y~1315 received
+mjd:-226318 延応
+# g:1240-08-23+0 y~1018 received
+mjd:-225805 仁治
+# g:1243-03-30+0 y~180 received
+mjd:-224856 寛元
+# g:1247-04-12+0 y~1189 firstday
+mjd:-223382 宝治
+# g:1249-05-09+0 y~1659 firstday
+mjd:-222624 建長
+# g:1256-11-04+0 y~655 received
+mjd:-219888 康元
+# g:1257-04-11+0 y~310 received
+mjd:-219730 正嘉
+# g:1259-04-27+0 y~707 firstday
+mjd:-218984 正元
+# g:1260-06-05+0 y~1252 received
+mjd:-218579 文応
+# g:1261-04-04+0 y~639 received
+mjd:-218276 弘長
+# g:1264-04-03+0 y~1077 firstday
+mjd:-217181 文永
+# g:1275-05-29+0 y~1541 firstday
+mjd:-213108 建治
+# g:1278-03-30+0 y~1042 firstday
+mjd:-212072 弘安
+# g:1288-06-05+0 y~734 firstday
+mjd:-208352 正応
+# g:1293-09-13+0 y~1119 firstday
+mjd:-206426 永仁
+# g:1299-06-01+0 y~1454 firstday
+mjd:-204339 正安
+# g:1302-12-18+0 y~1380 firstday
+mjd:-203044 乾元
+# g:1303-09-24+0 y~415 firstday
+mjd:-202764 嘉元
+# g:1307-01-26+0 y~339 firstday
+mjd:-201544 徳治
+# g:1308-11-30+0 y~895 firstday
+mjd:-200870 延慶
+# g:1311-05-25+0 y~1509 firstday
+mjd:-199964 応長
+# g:1312-05-05+0 y~1498 firstday
+mjd:-199618 正和
+# g:1317-03-24+0 y~1000 firstday
+mjd:-197834 文保
+# g:1319-05-26+0 y~382 firstday
+mjd:-197041 元応
+# g:1321-03-30+0 y~739 firstday
+mjd:-196367 元亨
+# g:1325-01-02+0 y~1429 firstday
+mjd:-194993 正中
+# g:1326-06-05+0 y~1229 firstday
+mjd:-194474 嘉暦
+# g:1329-09-30+0 y~1182 firstday
+mjd:-193261 元徳
+# g:1332-05-31+0 y~1198 firstday
+mjd:-192287 正慶
+# g:1333-07-15+0 y~1301 received
+mjd:-191877 元弘
+# g:1334-03-13+0 y~1506 firstday
+mjd:-191636 建武
+# g:1336-04-19+0 y~789 received
+mjd:-190868 延元
+# g:1336-07-31+0 y~1506 received
+mjd:-190765 建武
+# g:1338-10-19+0 y~292 firstday
+mjd:-189955 暦応
+# g:1342-06-09+0 y~282 firstday
+mjd:-188626 康永
+# g:1345-11-23+0 y~156 firstday
+mjd:-187363 貞和
+# g:1350-04-12+0 y~218 received
+mjd:-185762 観応
+# g:1352-01-25+0 y~1250 received
+mjd:-185109 正平
+# g:1352-05-02+0 y~218 received
+mjd:-185011 観応
+# g:1352-11-12+0 y~1051 firstday
+mjd:-184817 文和
+# g:1356-05-07+0 y~204 firstday
+mjd:-183545 延文
+# g:1361-05-12+0 y~1151 firstday
+mjd:-181714 康安
+# g:1362-10-19+0 y~1221 firstday
+mjd:-181189 貞治
+# g:1368-03-15+0 y~621 firstday
+mjd:-179215 応安
+# g:1375-04-06+0 y~1084 firstday
+mjd:-176637 永和
+# g:1379-04-17+0 y~112 firstday
+mjd:-175165 康暦
+# g:1381-03-28+0 y~1322 firstday
+mjd:-174454 永徳
+# g:1384-03-27+0 y~443 firstday
+mjd:-173359 至徳
+# g:1387-10-13+0 y~1428 firstday
+mjd:-172064 嘉慶
+# g:1389-03-15+0 y~1149 firstday
+mjd:-171545 康応
+# g:1390-04-20+0 y~870 firstday
+mjd:-171144 明徳
+# g:1394-08-10+0 y~1210 firstday
+mjd:-169571 応永
+# g:1428-06-19+0 y~507 firstday
+mjd:-157205 正長
+# g:1431-10-15+0 y~217 received
+mjd:-155992 永享
+# g:1441-03-19+0 y~1688 firstday
+mjd:-152549 嘉吉
+# g:1444-03-03+0 y~874 firstday
+mjd:-151469 文安
+# g:1449-08-25+0 y~1496 firstday
+mjd:-149468 宝徳
+# g:1452-08-19+0 y~336 firstday
+mjd:-148378 享徳
+# g:1455-09-15+0 y~832 firstday
+mjd:-147256 康正
+# g:1457-10-25+0 y~213 firstday
+mjd:-146485 長禄
+# g:1461-02-10+0 y~855 received
+mjd:-145281 寛正
+# g:1462-02-08+0 y~536 received
+mjd:-144918 延徳(庚辰)
+# g:1462-09-02+0 y~855 received
+mjd:-144712 寛正
+# g:1466-03-23+0 y~376 firstday
+mjd:-143414 文正
+# g:1467-04-18+0 y~1103 firstday
+mjd:-143023 応仁
+# g:1469-06-17+0 y~132 firstday
+mjd:-142232 文明
+# g:1487-08-18+0 y~996 firstday
+mjd:-135596 長享
+# g:1489-09-25+0 y~419 firstday
+mjd:-134827 延徳
+# g:1492-08-21+0 y~424 firstday
+mjd:-133766 明応
+# g:1501-03-28+0 y~353 firstday
+mjd:-130626 文亀
+# g:1504-03-26+0 y~52 firstday
+mjd:-129532 永正
+# g:1521-10-03+0 y~1360 firstday
+mjd:-123132 大永
+# g:1528-09-13+0 y~43 firstday
+mjd:-120595 享禄
+# g:1532-09-08+0 y~753 firstday
+mjd:-119139 天文
+# g:1555-11-17+0 y~202 firstday
+mjd:-110669 弘治
+# g:1558-03-28+0 y~344 firstday
+mjd:-109807 永禄
+# g:1570-06-06+0 y~660 firstday
+mjd:-105354 元亀
+# g:1573-09-04+0 y~570 firstday
+mjd:-104168 天正
+# g:1593-01-10+0 y~889 firstday
+mjd:-97100 文禄
+# g:1596-12-16+0 y~1529 firstday
+mjd:-95664 慶長
+# g:1615-09-05+0 y~453 firstday
+mjd:-88827 元和
+# g:1624-04-17+0 y~1614 firstday
+mjd:-85680 寛永
+# g:1645-01-13+0 y~1055 firstday
+mjd:-78104 正保
+# g:1648-04-07+0 y~1220 firstday
+mjd:-76924 慶安
+# g:1652-10-20+0 y~1591 firstday
+mjd:-75267 承応
+# g:1655-05-18+0 y~808 firstday
+mjd:-74327 明暦
+# g:1658-08-21+0 y~1519 firstday
+mjd:-73136 万治
+# g:1661-05-23+0 y~1595 firstday
+mjd:-72130 寛文
+# g:1673-10-30+0 y~231 firstday
+mjd:-67587 延宝
+# g:1681-11-09+0 y~1478 firstday
+mjd:-64655 天和
+# g:1684-04-05+0 y~1550 firstday
+mjd:-63777 貞享
+# g:1688-10-23+0 y~491 firstday
+mjd:-62115 元禄
+# g:1704-04-16+0 y~1197 firstday
+mjd:-56462 宝永
+# g:1711-06-11+0 y~1484 firstday
+mjd:-53850 正徳
+# g:1716-08-09+0 y~302 firstday
+mjd:-51964 享保
+# g:1736-06-07+0 y~198 firstday
+mjd:-44722 元文
+# g:1741-04-12+0 y~935 firstday
+mjd:-42952 寛保
+# g:1744-04-03+0 y~927 firstday
+mjd:-41865 延享
+# g:1748-08-05+0 y~374 firstday
+mjd:-40280 寛延
+# g:1751-12-14+0 y~1199 firstday
+mjd:-39054 宝暦
+# g:1764-06-30+0 y~1406 firstday
+mjd:-34472 明和
+# g:1772-12-10+0 y~1090 firstday
+mjd:-31387 安永
+# g:1781-04-25+0 y~1627 firstday
+mjd:-28329 天明
+# g:1789-02-19+0 y~197 firstday
+mjd:-25472 寛政
+# g:1801-03-19+0 y~1393 firstday
+mjd:-21062 享和
+# g:1804-03-22+0 y~817 firstday
+mjd:-19963 文化
+# g:1818-05-26+0 y~1538 firstday
+mjd:-14785 文政
+# g:1831-01-23+0 y~149 firstday
+mjd:-10160 天保
+# g:1845-01-09+0 y~1585 firstday
+mjd:-5060 弘化
+# g:1848-04-01+0 y~1354 firstday
+mjd:-3882 嘉永
+# g:1855-01-15+0 y~1660 firstday
+mjd:-1402 安政
+# g:1860-04-08+0 y~682 firstday
+mjd:508 万延
+# g:1861-03-29+0 y~91 firstday
+mjd:863 文久
+# g:1864-03-27+0 y~905 firstday
+mjd:1957 元治
+# g:1865-05-01+0 y~863 firstday
+mjd:2357 慶応
+# g:1868-10-23+0 y~1 firstday
+mjd:3628 明治
+# g:1912-07-30+0 y~2 firstday
+mjd:19613 大正
+# g:1926-12-25+0 y~3 firstday
+mjd:24874 昭和
+# g:1989-01-08+0 y~4 firstday
+mjd:47534 平成
+# g:2019-05-01+0 y~5 firstday
+mjd:58604 令和
