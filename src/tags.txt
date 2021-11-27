@@ -404,6 +404,7 @@ action
 action
   name_ja 発生
   group of 利用開始
+  group of 分離
 
 tag
   name_ja 適用開始前日
@@ -586,9 +587,11 @@ action
 
 action
   name_ja 起事建元
+  group of 分離
 
 action
   name_ja 起事廃元
+  group of 分離
 
 action
   name_ja マイクロネーション建元
@@ -708,8 +711,12 @@ tag
   group of 年末
 
 tag
-  name_ja 天皇即位元年年始
+  name_ja 即位元年年始
   group of 初年始
+
+tag
+  name_ja 天皇即位元年年始
+  group of 即位元年年始
 
 tag
   name_ja 年末
@@ -760,7 +767,11 @@ tag
   group of ミニ独立国の紀年法
 
 tag
+  name_ja 分離
+
+tag
   name_ja 併用
+  group of 分離
 
 tag
   name_ja 国名と衝突

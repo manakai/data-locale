@@ -1,7 +1,7 @@
 # y~651 建安
 # + tag 1171 #孫呉
 # <https://data.suikawiki.org/tag/1756/graph?sequence=651%2B1171>
-# y~1365 has multiple nexts: 1892,493
+# y~1365 has multiple nexts: 493,1892
 # y~489 has multiple nexts: 589,1893
 # y~1666 has multiple nexts: 1846,1847
 # g:0196-02-22+0 y~651 firstday
@@ -244,8 +244,8 @@ mjd:-428796 光宅
 mjd:-428678 垂拱
 # g:0689-01-30+0 y~1365 firstday
 mjd:-427259 永昌(己丑)
-# g:0689-12-21+0 y~1892 firstday
-mjd:-426934 載初(己丑)
+# g:0689-12-21+0 y~493 firstday
+mjd:-426934 載初
 # g:0690-10-19+0 y~505 firstday
 mjd:-426632 天授(庚寅)
 # g:0692-05-24+0 y~1574 firstday

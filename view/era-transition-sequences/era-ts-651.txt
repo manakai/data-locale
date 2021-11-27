@@ -2,7 +2,7 @@
 # <https://data.suikawiki.org/tag/1756/graph?sequence=651>
 # y~1365 has multiple nexts: 493,1892
 # y~489 has multiple nexts: 589,1893
-# y~1666 has multiple nexts: 1847,1846
+# y~1666 has multiple nexts: 1846,1847
 # g:0196-02-22+0 y~651 firstday
 mjd:-607301 建安
 # g:0220-05-19+0 y~487 firstday
@@ -283,8 +283,8 @@ mjd:-402590 至德(丙申)
 mjd:-402007 乾元(戊戌)
 # g:0760-06-11+0 y~1666 firstday
 mjd:-401195 上元(庚子)
-# g:0761-08-28+0 y~1847 firstday
-mjd:-400752 肅宗(辛丑)
+# g:0761-08-28+0 y~1846 firstday
+mjd:-400752 肅宗
 # g:0762-05-18+0 y~1599 firstday
 mjd:-400489 寶應
 # g:0763-08-28+0 y~175 firstday
