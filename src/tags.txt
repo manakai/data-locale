@@ -243,6 +243,12 @@ tag
   group of 東洋式即位紀年
 
 action
+  name_ja 称元
+  group of 制定
+  group of 改元日
+  group of 適用開始
+
+action
   name_ja 事由
 
 action

@@ -485,7 +485,6 @@ wref_ja 建元 (漢)
 name_ja 建元
 name_kana けん げん
 tag 追号説のある元号
-tag 支那皇帝改元後紀年
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"即皇帝位"
 <-漢景帝後 漢:BC141-1-甲子 j:BC141-3-9 #建元前の即位{#前漢 #漢武帝 #漢皇帝}

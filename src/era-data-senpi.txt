@@ -1,6 +1,515 @@
 %tag people
 %tag   name_ja 鮮卑
 
+%tag people
+%tag   name_ja 拓跋部
+%tag   group of 鮮卑
+
+%tag source
+%tag   name_ja 魏書
+
+%tag country
+%tag   label_ja 北魏
+%tag   name_ja 魏
+%tag   period of 魏
+%tag   period of 中国
+
+%tag country
+%tag   name_ja 北魏 (建国前)
+%tag   period of 北魏
+
+%tag position
+%tag   name_ja 大人
+
+%tag tag
+%tag   name_ja 拓跋即位紀年
+%tag   group of 東洋式即位紀年
+
+def[神元皇帝]
+#y~1917
+
+tag 拓跋部
+tag 北魏 (建国前)
+tag 内蒙古
+tag 拓跋即位紀年
+
+%tag person
+%tag   name_ja 拓跋力微
+tag 拓跋力微
+
+# no known name
+name_ja 拓跋力微
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"神元皇帝"
+s+
+#first year in #魏書
+u 1
+#"元年，歲在庚子"
+u 42
+#"魏景元二年"
+AD261 = 42
+u 58
+->拓跋悉鹿 [魏:277] #改元前の死去{#北魏_(建国前) #拓跋力微}
+
+## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E5%8A%9B%E5%BE%AE>
+#-> [魏:277] #改元前の死去{#北魏_(建国前) #拓跋力微}
+
+>< [魏:220] #建元前の即位{#北魏_(建国前) #拓跋力微 #大人}
+
+def[拓跋悉鹿]
+#y~1918
+
+AD278 = 1
+
+tag 拓跋部
+tag 北魏 (建国前)
+tag 内蒙古
+tag 拓跋即位紀年
+
+%tag person
+%tag   name_ja 拓跋悉鹿
+tag 拓跋悉鹿
+
+# no known name
+name_ja 拓跋悉鹿
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"章皇帝"
+#9 years
+
+## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E6%82%89%E9%B9%BF>
+<-神元皇帝 [魏:277] #建元前の即位{#北魏_(建国前) #拓跋悉鹿 #大人}
+->拓跋綽 [魏:286] #改元前の死去{#北魏_(建国前) #拓跋悉鹿}
+
+def[拓跋綽]
+#y~1919
+
+tag 拓跋部
+tag 北魏 (建国前)
+tag 内蒙古
+tag 拓跋即位紀年
+
+%tag person
+%tag   name_ja 拓跋綽
+tag 拓跋綽
+
+# no known name
+name_ja 拓跋綽
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"平皇帝"
+u 7
+#匈奴宇文部...
+
+## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E7%B6%BD>
+<-拓跋悉鹿 [魏:286] #建元前の即位{#北魏_(建国前) #拓跋綽 #大人}
+#293: 匈奴宇文部...
+->拓跋弗 [魏:293] #改元前の死去{#北魏_(建国前) #拓跋綽}
+
+AD293 = 7
+
+def[拓跋弗]
+
+AD294 = 1
+
+tag 拓跋部
+tag 北魏 (建国前)
+tag 内蒙古
+tag 拓跋即位紀年
+
+%tag person
+%tag   name_ja 拓跋弗
+tag 拓跋弗
+
+# no known name
+name_ja 拓跋弗
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"思皇帝"
+#1 year
+
+## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E5%BC%97>
+<-拓跋綽 [魏:293] #建元前の即位{#北魏_(建国前) #拓跋弗 #大人}
+->拓跋禄官 [魏:294] #改元前の死去{#北魏_(建国前) #拓跋弗}
+
+def[拓跋禄官]
+#y~1922
+
+tag 拓跋部
+tag 北魏 (建国前)
+tag 内蒙古
+tag 拓跋即位紀年
+
+%tag person
+%tag   name_ja 拓跋禄官
+tag 拓跋禄官
+
+# no known name
+name_ja 拓跋禄官
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"昭皇帝"
+u 2
+u 13
+
+## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E7%A6%84%E5%AE%98>
+<-拓跋弗 [魏:294] #建元前の即位{#北魏_(建国前) #拓跋禄官 #大人}
+->拓跋猗盧 [魏:307] #改元前の死去{#北魏_(建国前) #拓跋禄官}
+
+AD307 = 13
+
+%tag region
+%tag   name_ja 代
+
+%tag position
+%tag   name_ja 代王
+%tag   group of 王 (支那)
+
+%tag country
+%tag   label_ja 代国
+%tag   name_ja 代
+%tag   period of 代
+%tag   period of 中国
+%tag   period of 北魏 (建国前)
+
+def[拓跋猗盧]
+#y~1921
+
+tag 拓跋部
+tag 北魏 (建国前)
+tag 代国
+tag 内蒙古
+tag 拓跋即位紀年
+
+%tag person
+%tag   name_ja 拓跋猗盧
+tag 拓跋猗盧
+
+# no known name
+name_ja 拓跋猗盧
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"穆皇帝"
+u 1
+u 8
+#>< [晋:315] #即位{#西晋 #拓跋猗盧 #代王} #愍帝 #代国
+u 9
+
+## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E7%8C%97%E7%9B%A7>
+<-拓跋禄官 [晋:307] #建元前の即位{#拓跋猗盧 #大人 #北魏_(建国前)} #代国
+>< [晋:315-2] #即位{#西晋 #拓跋猗盧 #代王} #愍帝 #代国
+tag 西晋
+#-> [晋:316] #改元前の死去{#代国 #拓跋猗盧}
+
+AD316 = 9
+
+->拓跋鬱律 [晋:316-3] #改元前の死去{#代国 #拓跋猗盧}
+->拓跋鬱律 [晋:316-3,晋:316-4] #建元前の即位{#代国 #拓跋普根 #代王}
+#拓跋普根 1 month
+%tag person
+%tag   name_ja 拓跋普根
+tag 拓跋普根
+->拓跋鬱律 [晋:316-3,晋:316-4] #建元前の即位{#代国 #拓跋普根 #代王}
+->拓跋鬱律 [晋:316-3,晋:316-4] #改元前の死去{#代国 #拓跋普根の子}
+#普根 子 months
+%tag person
+%tag   name_ja 拓跋普根の子
+tag 拓跋普根の子
+->拓跋鬱律 [晋:316-4,晋:316] #改元前の死去{#代国 #拓跋普根の子}
+
+def[拓跋鬱律]
+#y~1923
+
+tag 拓跋部
+tag 代国
+tag 内蒙古
+tag 拓跋即位紀年
+
+%tag person
+%tag   name_ja 拓跋鬱律
+tag 拓跋鬱律
+
+# no known name
+name_ja 拓跋鬱律
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"平文皇帝"
+#"元年，歲在丁丑。"
+AD317 = 1
+u 1
+u 5
+
+## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E9%AC%B1%E5%BE%8B>
+<-拓跋猗盧 [晋:316] #建元前の即位{#代国 #拓跋鬱律 #代王}
+->拓跋賀傉 [晋:321] #改元前の死去{#代国 #拓跋鬱律}
+
+def[拓跋賀傉]
+
+AD321 = 1
+
+tag 拓跋部
+tag 代国
+tag 内蒙古
+tag 拓跋即位紀年
+
+%tag person
+%tag   name_ja 拓跋賀傉
+tag 拓跋賀傉
+
+# no known name
+name_ja 拓跋賀傉
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"惠皇帝"
+<-拓跋鬱律 [晋:321] #建元前の即位{#代国 #拓跋賀傉 #代王}
+#"以五年為元年"
+<-拓跋鬱律 [晋:321] #称元{#代国 #拓跋賀傉}
+u 5
+#->拓跋紇那 [晋:325] #改元前の死去{#代国 #拓跋賀傉}
+
+## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E8%B3%80%E3%83%AB>
+#<-拓跋鬱律 [晋:321] #建元前の即位{#代国 #拓跋賀傉 #代王}
+->拓跋紇那 [晋:325-12] #改元前の死去{#代国 #拓跋賀傉}
+
+def[拓跋紇那]
+
+AD325 = 1
+
+tag 拓跋部
+tag 代国
+tag 内蒙古
+tag 拓跋即位紀年
+tag 前元
+
+%tag person
+%tag   name_ja 拓跋紇那
+tag 拓跋紇那
+
+# no known name
+name_ja 拓跋紇那
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"煬皇帝"
+u 1
+#"以五年為元年"
+#<-拓跋賀傉 [晋:325] #称元{#代国 #拓跋紇那}
+u 5
+
+## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E7%B4%87%E9%82%A3>
+<-拓跋賀傉 [晋:325-12] #建元前の即位{#代国 #拓跋紇那 #代王} #重祚前の即位
+->拓跋翳槐 [晋:329] #改元前の退位{#代国 #拓跋紇那 #代王}
+
+<-拓跋賀傉 [晋:325-12] #称元{#代国 #拓跋紇那}
+
+def[拓跋翳槐]
+
+AD329 = 1
+
+tag 拓跋部
+tag 代国
+tag 内蒙古
+tag 拓跋即位紀年
+tag 前元
+
+%tag person
+%tag   name_ja 拓跋翳槐
+tag 拓跋翳槐
+
+# no known name
+name_ja 拓跋翳槐
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"烈皇帝"
+u 1
+#"以五年為元年"
+<-拓跋賀傉 [晋:329] #称元{#代国 #拓跋翳槐}
+u 7
+
+## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E7%B4%87%E9%82%A3>
+<-拓跋紇那 [晋:329] #建元前の即位{#代国 #拓跋翳槐 #代王} #重祚前の即位
+->拓跋紇那後 [晋:335] #改元前の退位{#代国 #拓跋翳槐 #代王}
+
+def[拓跋紇那後]
+#y~1927
+
+AD335 = 1
+
+tag 拓跋部
+tag 代国
+tag 内蒙古
+tag 拓跋即位紀年
+
+tag 拓跋紇那
+
+name_ja 拓跋紇那後
+&
+name_ja 後
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"煬皇帝復立"
+#"以七年為後元年"
+u 1
+<-拓跋翳槐 [晋:335] #称元{#代国 #拓跋翳槐}
+tag 後元
+u 3
+
+## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E7%B4%87%E9%82%A3>
+<-拓跋翳槐 [晋:335] #建元前の即位{#代国 #拓跋紇那 #代王} #重祚
+->拓跋翳槐後 [晋:337] #改元前の退位{#代国 #拓跋紇那 #代王}
+
+def[拓跋翳槐後]
+
+AD337 = 1
+
+tag 拓跋部
+tag 代国
+tag 内蒙古
+tag 拓跋即位紀年
+
+tag 拓跋翳槐
+
+name_ja 拓跋翳槐後
+&
+name_ja 後
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"烈皇帝復立"
+u 1
+#"以三年為後元年"
+<-拓跋紇那後 [晋:337] #称元{#代国 #拓跋翳槐}
+tag 後元
+
+## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E7%B4%87%E9%82%A3>
+<-拓跋紇那後 [晋:337] #建元前の即位{#代国 #拓跋翳槐 #代王} #重祚
+->建國 [晋:338] #改元前の退位{#代国 #拓跋翳槐 #代王}
+
+[建國]
+#y~1012
+
+AD338 = 1
+
+tag 拓跋部
+tag 代国
+tag 内蒙古
+
+%tag person
+%tag   name_ja 拓跋什翼犍
+tag 拓跋什翼犍
+
+#no known name
+name_ja 拓跋什翼犍
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"昭成皇帝"
+name 建國
+<-拓跋翳槐後 [晋:338-11] #建元前の即位{#代国 #拓跋什翼犍 #代王}
+<-拓跋翳槐後 [晋:338-11] #支那改元日{#代国 #拓跋什翼犍}
+u 39-12
+#376-12 #陥落 #死去
+
+## [102]
+#338-11 - 376
+
+wref_ja 建国 (代)
+name_ja 建国
+name_kana けん こく
+#338-10 - 376
+<-拓跋翳槐後 [晋:338-10] #支那改元日{#代国 #拓跋什翼犍} #旧説
+
+## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E4%BB%80%E7%BF%BC%E7%8A%8D>
+#<-拓跋翳槐後 [晋:338-11] #建元前の即位{#代国 #拓跋什翼犍 #代王}
+->建元(乙丑) [晋:376-12] #陥落{#前秦, #代国 #拓跋什翼犍} #死去
+
+wref_ko 건국 (대)
+name(kr) 건국
+#338-10 - 376
+
+
+#%tag   name_ja 北魏
+#XXX https://zh.wikisource.org/wiki/%E5%8D%97%E9%BD%8A%E6%9B%B8/%E5%8D%B757
+
+%tag country
+%tag   name_ja 西魏
+
+%tag country
+%tag   name_ja 北斉
+
+%tag country
+%tag   name_ja 北周
+
+%tag country
+%tag   name_ja 前秦
+
+
+
+[隆緒]
+#y~89
+
+AD527 = 1
+
+tag 漢土
+tag 漢民族
+tag 南斉
+tag 北魏
+
+%tag person
+%tag   name_ja 蕭宝寅
+tag 蕭宝寅
+
+## [102]
+#527-10 - 528-1
+<-孝昌 [南:527-10] #建元前の即位{#南斉 #蕭宝寅 #斉皇帝} #北魏
+<-孝昌 [南:527-10] #支那改元日{#南斉 #蕭宝寅} #北魏 #起事建元
+
+## [103]
+wref_ja 隆緒
+name_ja 隆緒
+name_kana りゅう しょ
+#527 - 528
+
+## <https://ja.wikipedia.org/wiki/%E8%95%AD%E5%AE%9D%E5%AF%85>
+<-中興(辛巳) ->景明 [南:502-3] #勢力吸収{#北魏, #蕭宝寅}
+[景明]
+tag 蕭宝寅
+[正始(甲申)]
+tag 蕭宝寅
+[永平(戊子)]
+tag 蕭宝寅
+[延昌]
+tag 蕭宝寅
+[熙平]
+tag 蕭宝寅
+[神龜(戊戌)]
+tag 蕭宝寅
+[正光]
+tag 蕭宝寅
+[孝昌]
+tag 蕭宝寅
+[隆緒]
+#<-孝昌 [南:527-10] #建元前の即位{#南斉 #蕭宝寅 #斉皇帝} #北魏
+#<-孝昌 [南:527-10] #支那改元日{#南斉 #蕭宝寅} #北魏 #起事建元
+->神平 [南:528-1,南:528] #勢力吸収{#万俟醜奴 #趙_(万俟醜奴), #南斉 #蕭宝寅}
+#530-4 #死去
+
+[孝基]
+#y~1417
+
+AD529 = 1
+
+s#梁書<https://zh.wikisource.org/wiki/%E6%A2%81%E6%9B%B8/%E5%8D%B732>"改元"
+#"大通初，魏北海王元顥"...
+#no name
+tag 南梁
+%tag person
+%tag   name_ja 陳慶之
+tag 陳慶之
+
+## <https://ja.wikipedia.org/wiki/%E5%85%83%E9%A1%A5>
+                           
+
+[承平(癸未)]
+#y~983
+
+AD443 = 1
+
+name(kr) 승평
+                              
+[天成(丙戌)]
+#y~1440
+
+AD926 = 1
+
+name(kr) 천성
+
+
 %tag position
 %tag   name_ja 北周皇帝
 %tag   group of 支那皇帝
