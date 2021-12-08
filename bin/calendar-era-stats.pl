@@ -86,6 +86,11 @@ sub process_han ($) {
         }
       }
     } # $ls
+
+    $Data->{eras}->{all}++;
+    $Data->{eras}->{no_offset}++ if not defined $era->{offset};
+    $Data->{eras}->{no_start_year}++ if not defined $era->{start_year};
+    $Data->{eras}->{no_tag}++ if not keys %{$era->{tag_ids} or {}};
   } # $era
 }
 

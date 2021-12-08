@@ -255,6 +255,10 @@
 %tag   region of 漢土
 
 %tag position
+%tag   name_ja 魏王
+%tag   group of 王 (支那)
+
+%tag position
 %tag   name_ja 魏皇帝
 %tag   group of 支那皇帝
 

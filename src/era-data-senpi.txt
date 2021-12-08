@@ -9,13 +9,11 @@
 %tag   name_ja 魏書
 
 %tag country
-%tag   label_ja 北魏
-%tag   name_ja 魏
-%tag   period of 魏
-%tag   period of 中国
+%tag   name_ja 拓跋政権
 
 %tag country
 %tag   name_ja 北魏 (建国前)
+%tag   period of 拓跋政権
 %tag   period of 北魏
 
 %tag position
@@ -168,6 +166,10 @@ AD307 = 13
 %tag   period of 中国
 %tag   period of 北魏 (建国前)
 
+%tag tag
+%tag   name_ja 代の公年号
+%tag   group of 中華王朝の公年号
+
 def[拓跋猗盧]
 #y~1921
 
@@ -238,6 +240,7 @@ u 5
 ->拓跋賀傉 [晋:321] #改元前の死去{#代国 #拓跋鬱律}
 
 def[拓跋賀傉]
+#y~1924
 
 AD321 = 1
 
@@ -313,7 +316,7 @@ name_ja 拓跋翳槐
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"烈皇帝"
 u 1
 #"以五年為元年"
-<-拓跋賀傉 [晋:329] #称元{#代国 #拓跋翳槐}
+<-拓跋紇那 [晋:329] #称元{#代国 #拓跋翳槐}
 u 7
 
 ## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E7%B4%87%E9%82%A3>
@@ -379,6 +382,7 @@ AD338 = 1
 
 tag 拓跋部
 tag 代国
+tag 代の公年号
 tag 内蒙古
 
 %tag person
@@ -412,21 +416,918 @@ wref_ko 건국 (대)
 name(kr) 건국
 #338-10 - 376
 
-
-#%tag   name_ja 北魏
-#XXX https://zh.wikisource.org/wiki/%E5%8D%97%E9%BD%8A%E6%9B%B8/%E5%8D%B757
-
-%tag country
-%tag   name_ja 西魏
-
-%tag country
-%tag   name_ja 北斉
+%tag tag
+%tag   name_ja 支那北朝
+%tag   group of 支那南北朝時代
+%tag   period of 中国
+%tag   period of 魏晋南北朝時代
 
 %tag country
-%tag   name_ja 北周
+%tag   label_ja 北魏
+%tag   name_ja 魏
+%tag   period of 拓跋政権
+%tag   period of 魏
+%tag   period of 中国
+%tag   period of 支那北朝
 
-%tag country
-%tag   name_ja 前秦
+%tag tag
+%tag   name_ja 北魏の公年号
+%tag   group of 中華王朝の公年号
+
+def[拓跋珪]
+
+AD377 = 1
+
+tag 拓跋部
+tag 代国
+tag 内蒙古
+tag 拓跋即位紀年
+
+%tag person
+%tag   name_ja 拓跋珪
+tag 拓跋珪
+
+# no known name
+name_ja 拓跋珪
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B72>"元年"
+u 1
+<-建國 [魏:377] #適用開始{#魏書} #代国 #拓跋珪
+u 9-8
+## <https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B72#cite_note-1>
+#"七年冬十月　諸本「七年」都作「二年」。北史卷一魏本紀一、冊府卷六〈六四頁〉
+#作「七年」。按苻堅淝水之敗在晉太元八年〈三八三〉，
+#拓跋珪沒有建號前的所謂二年是三七八年，顯誤，今據改。"
+
+[登國]
+#y~1133
+
+AD386 = 1
+
+tag 拓跋部
+tag 代国
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 拓跋珪
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B72>"登國"
+<-拓跋珪 魏:386-1-戊申 #建元前の即位{#代国 #拓跋珪 #代王}
+<-拓跋珪 魏:386-1-戊申 #支那改元日{#代国 #拓跋珪}
+#改称
+<-拓跋珪 [魏:386-4] #建元前の即位{#北魏 #拓跋珪 #魏王}
+
+## [102]
+#386-1 - 396-6
+
+wref_ja 登国
+name_ja 登国
+name_kana とう こく
+#386-1 - 396-6
+
+## <https://ja.wikipedia.org/wiki/%E9%81%93%E6%AD%A6%E5%B8%9D>
+#<-拓跋珪 [魏:386] #建元前の即位{#代国 #拓跋珪 #代王}
+#<-拓跋珪 [魏:386] #国名変更{#代国, #北魏} #事由
+#<-拓跋珪 [魏:386] #建元前の即位{#北魏 #拓跋珪 #魏王}
+
+<-拓跋珪 [魏:386-4] #国名変更{#代国, #北魏} #事由
+
+wref_ko 등국
+name(kr) 등국
+#386-1-6 - 396
+
+[皇始(丙申)]
+#y~898
+
+AD396 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 拓跋珪
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B72>"改元"
+#"秋七月，左司馬許謙上書勸進尊號，帝始建天子旌旗，出入警蹕，於是改元。"
+#<-登國 [魏:396-7] #支那改元日{#北魏 #拓跋珪}
+
+## [102]
+#396-7 - 398-12
+
+wref_ja 皇始 (北魏)
+name_ja 皇始
+name_kana こう し
+#396-7 - 398-12
+
+wref_ko 황시 (북위)
+name(kr) 황시
+#396-7-1 - 398-12
+<-登國 魏:396-7-1 #支那改元日{#北魏 #拓跋珪}
+
+[天興]
+#y~1511
+
+AD398 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 拓跋珪
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B72>"改年"
+<-皇始(丙申) 魏:398-12-己丑 #支那改元日{#北魏 #拓跋珪}
+
+## <https://zh.wikipedia.org/wiki/%E9%AD%8F%E9%81%93%E6%AD%A6%E5%B8%9D>
+<-皇始(丙申) 魏:398-12-2 j:399-1-24 #建元前の即位{#北魏 #拓跋珪 #魏皇帝}
+
+## [102]
+#398-12 - 404-10
+
+wref_ja 天興 (北魏)
+name_ja 天興
+name_kana てん こう
+#398-7 - 404-10
+<-皇始(丙申) [魏:398-7] #支那改元日{#北魏 #拓跋珪} #旧説
+
+## <https://ja.wikipedia.org/wiki/%E9%81%93%E6%AD%A6%E5%B8%9D>
+#<- [魏:398] #建元前の即位{#北魏 #拓跋珪 #魏皇帝}
+
+wref_ko 천흥 (북위)
+name(kr) 천흥
+#398-12-2 - 404-10
+
+[天賜]
+#y~251
+
+AD404 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 拓跋珪
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B72>"天賜元年"
+<-天興 魏:404-10-辛巳 #支那改元日{#北魏 #拓跋珪}
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B72>"帝崩"
+->永興(己酉) 魏:409-10-13(戊辰) j:409-11-6 #改元前の死去{#北魏 #拓跋珪}
+
+## [102]
+#404-10 - 409-10
+
+wref_ja 天賜 (北魏)
+name_ja 天賜
+name_kana てん し
+#404-10 - 409-10
+
+## <https://ja.wikipedia.org/wiki/%E9%81%93%E6%AD%A6%E5%B8%9D>
+#-> 魏:409-10-13 j:409-11-6 #改元前の死去{#北魏 #拓跋珪}
+
+wref_ko 천사 (북위)
+name(kr) 천사
+#404-10-28 - 409-10
+
+
+[永興(己酉)]
+#y~1558
+
+AD409 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 拓跋嗣
+tag 拓跋嗣
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B73>"即皇帝位"
+<-天賜 魏:409-10-壬申 #建元前の即位{#北魏 #拓跋嗣 #魏皇帝}
+<-天賜 魏:409-10-壬申 #支那改元日{#北魏 #拓跋嗣}
+#"北史卷一魏紀一「壬申」作「壬午」。按是年十月丙辰朔，壬申是十七日，
+#壬午是二十七日。拓跋珪被殺在本月戊辰即十三日，"..."決非二三天能辦，
+#疑作「壬午」是。"
+<-天賜 魏:409-10-壬午 #建元前の即位{#北魏 #拓跋嗣 #魏皇帝} #旧説
+<-天賜 魏:409-10-壬午 #支那改元日{#北魏 #拓跋嗣} #旧説
+
+## [102]
+#409-10' - 413-12
+<-天賜 [魏:409-10'] #支那改元日{#北魏 #拓跋嗣} #旧説
+
+wref_ja 永興 (明元帝)
+name_ja 永興
+name_kana えい こう
+#409-10' - 413-12
+#孝武帝
+
+## <https://ja.wikipedia.org/wiki/%E6%98%8E%E5%85%83%E5%B8%9D>
+#<-天賜 魏:409-10-17 #建元前の即位{#北魏 #拓跋嗣 #魏皇帝}
+
+wref_ko 영흥 (북위 명원제)
+name(kr) 영흥
+#409-10' - 413
+#409-10-27(壬午) -
+
+[神瑞]
+#y~268
+
+AD414 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 拓跋嗣
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B73>"神瑞"
+#"以禎瑞頻集"
+<-永興(己酉) 魏:414-1-辛酉 #祥瑞{#北魏 #拓跋嗣}
+<-永興(己酉) 魏:414-1-辛酉 #支那改元日{#北魏 #拓跋嗣}
+
+## [102]
+#414-1 - 416-4
+
+wref_ja 神瑞
+name_ja 神瑞
+name_kana じん ずい
+#414-1 - 416-4
+
+wref_ko 신서 (북위)
+name(kr) 신서
+#414-1-1 - 416-4
+
+
+[建平(乙卯)]
+#y~1102
+
+AD415 = 1
+
+tag 北魏
+tag 内蒙古
+tag 漢土
+
+%tag person
+%tag   name_ja 白亜栗斯
+tag 白亜栗斯
+%tag person
+%tag   name_ja 劉虎
+tag 劉虎
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B73>"建平"
+%tag position
+%tag   name_ja 大将軍
+<-神瑞 [魏:415-3] #建元前の即位{#白亜栗斯 #大将軍}
+<-神瑞 [魏:415-3] #建元前の即位{#白亜栗斯 #単于}
+<-神瑞 [魏:415-3] #支那改元日{#白亜栗斯} #起事建元
+>< [魏:415-4] #退位{#白亜栗斯 #単于}
+%tag position
+%tag   name_ja 率善王
+>< [魏:415-4] #即位{#劉虎 #率善王}
+->泰常 魏:416-9-戊午 #陥落{#北魏, #劉虎} #死去
+
+## [102]
+#415-3 - 416-9
+
+## <https://zh.wikipedia.org/wiki/%E7%99%BD%E4%BA%9E%E6%A0%97%E6%96%AF>
+tag 白亜栗斯
+tag 胡
+#大將軍, 單于
+
+## <https://zh.wikipedia.org/wiki/%E5%8A%89%E8%99%8E_(%E5%8C%97%E9%AD%8F)>
+tag 劉虎
+tag 胡
+#率善王
+
+wref_ja 建平 (白亜栗斯)
+name_ja 建平
+name_kana けん へい
+#415-3 - 416-9
+tag 私年号 (ウィキペディア)
+
+
+[泰常]
+#y~1590
+
+AD416 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 拓跋嗣
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B73>"夏四月壬子"
+<-神瑞 魏:416-4-壬子 #支那改元日{#北魏 #拓跋嗣}
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B73>"帝崩"
+->始光 魏:423-11-己巳 #改元前の死去{#北魏 #拓跋嗣}
+
+## [102]
+#416-4 - 423-12
+
+wref_ja 泰常
+name_ja 泰常
+name_kana たい じょう
+#416-4 - 423-12
+
+## <https://ja.wikipedia.org/wiki/%E6%98%8E%E5%85%83%E5%B8%9D>
+#->始光 魏:423-11-6 #改元前の死去{#北魏 #拓跋嗣}
+
+wref_ko 태상 (북위)
+name(kr) 태상
+#416-4-5 - 423
+
+[始光]
+#y~1135
+
+AD424 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 拓跋燾
+tag 拓跋燾
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B74%E4%B8%8A>"即皇帝位"
+<-泰常 魏:423-11-壬申 #建元前の即位{#北魏 #拓跋燾 #魏皇帝}
+#"八年十一月壬申　諸本脫「一」字，據北史卷二魏紀二、御覽卷一０二〈四八七頁〉、
+#冊府卷八三〈九七三頁〉補。"
+#<-泰常 魏:423-10-壬申 #建元前の即位{#北魏 #拓跋燾 #魏皇帝} #旧説
+#day not found
+name 始光
+s+
+
+## [102]
+#424-1 - 428-1
+
+wref_ja 始光
+name_ja 始光
+name_kana し こう
+#424-1 - 428-1
+
+## <https://ja.wikipedia.org/wiki/%E5%A4%AA%E6%AD%A6%E5%B8%9D>
+#<-泰常 魏:423-11-9 #建元前の即位{#北魏 #拓跋燾 #魏皇帝}
+
+wref_ko 시광
+name(kr) 시광
+#424-1-1 - 428
+<-泰常 魏:424-1-1 #支那改元日{#北魏 #拓跋燾}
+
+[神䴥]
+#y~856
+
+AD428 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 拓跋燾
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B74%E4%B8%8A>"神䴥"
+name 神䴥
+#<-始光 [魏:428-2] #支那改元日{#北魏 #拓跋燾}
+
+## [102]
+#428-2 - 431-12
+
+wref_ja 神カ
+name_ja 神䴥
+name(ja) 神カ
+name_kana しん か
+#428-2 - 431-12
+
+wref_ko 신가
+name(kr) 신가
+#428-2-1 - 431
+<-始光 魏:428-2-1 #支那改元日{#北魏 #拓跋燾}
+
+name 神麚
+name 神麝
+
+[延和]
+#y~278
+
+AD432 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 拓跋燾
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B74%E4%B8%8A>"延和"
+name 延和
+<-神䴥 魏:432-1-丙午 #支那改元日{#北魏 #拓跋燾}
+
+## [102]
+#432-1 - 435-1
+#"北凉和高昌政权曾以與延和諧音的緣禾作爲年號。"
+
+wref_ja 延和 (北魏)
+name_ja 延和
+name_kana えん わ
+#432-1 - 435-1
+
+wref_ko 연화 (북위)
+name(kr) 연화
+#432-1-1 - 435
+
+[太延]
+#y~222
+
+AD435 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 拓跋燾
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B74%E4%B8%8A>"太延"
+name 太延
+<-延和 魏:435-1-壬午 #支那改元日{#北魏 #拓跋燾}
+
+## [102]
+#435-1 - 440-6
+#"北凉政权曾以與太延諧音的太緣作爲年號。 "
+
+wref_ja 太延
+name_ja 太延
+name_kana たい えん
+#435-1 - 440-6
+
+wref_ko 태연 (북위)
+name(kr) 태연
+#435-1-26 - 440
+<-延和 魏:435-1-26(甲申) #支那改元日{#北魏 #拓跋燾} #旧説
+
+[太平真君]
+#y~1686
+
+AD440 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+tag 道教
+
+tag 拓跋燾
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B74%E4%B8%8B>"太平真君"
+name 太平真君
+<-太延 魏:440-6-丁丑 #支那改元日{#北魏 #拓跋燾}
+
+## [102]
+#440-6 - 451-6
+
+wref_ja 太平真君
+name_ja 太平真君
+name_kana たい へい しん くん
+#440-6 - 451-6
+
+wref_ko 태평진군
+name(kr) 태평진군
+#440-6-21 - 451-6
+
+&
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B74%E4%B8%8B>"真君四年"
+name 真君
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B75>"真君元年"
+name 真君
+
+[正平(辛卯)]
+#y~122
+
+AD451 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 拓跋燾
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B74%E4%B8%8B>"正平"
+name 正平
+<-太平真君 魏:451-6-壬戌 #支那改元日{#北魏 #拓跋燾}
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B74%E4%B8%8B>"帝崩"
+#->承平(壬辰) 魏:452-3-甲寅 #改元前の死去{#北魏 #拓跋燾}
+#day not found
+
+#452 new calendar
+
+## [102]
+#451-6 - 452-2
+
+wref_ja 正平 (北魏)
+name_ja 正平
+name_kana せい へい
+#451-6 - 452-2
+
+## <https://ja.wikipedia.org/wiki/%E5%A4%AA%E6%AD%A6%E5%B8%9D>
+->承平(壬辰) 魏:452-2-5 #改元前の死去{#北魏 #拓跋燾}
+
+wref_ko 정평 (북위)
+name(kr) 정평
+#451-6-9 - 452-2
+#452-2 - 452-10
+
+[承平(壬辰)]
+#y~902
+
+AD452 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 拓跋余
+tag 拓跋余
+
+## [102]
+#452-2 - 452-10
+#魏書: 永平
+#宋書, 資治通鑒: 承平
+#中国历代年号考: 永平=北魏宣武帝年號; 認爲宣武帝應不會承繼舊年號，所以從承平
+
+wref_ja 承平 (北魏)
+name_ja 承平
+name_kana しょう へい
+#452-2 - 452-10
+
+## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E4%BD%99>
+<-正平(辛卯) 魏:452-2-5 #建元前の即位{#北魏 #拓跋余 #魏皇帝}
+#->興安 魏:452-10-1 #改元前の死去{#北魏 #拓跋余}
+
+wref_ko 승평 (북위)
+name(kr) 승평
+#452-2-5 - 452-10
+#recorded as 正平
+
+## <https://ko.wikipedia.org/wiki/%EC%A0%95%ED%8F%89_(%EB%B6%81%EC%9C%84)>
+tag 改元撤回
+
+<-正平(辛卯) [魏:452-10-1,魏:452-10-戊申] #改元撤回{#北魏 #拓跋濬}
+->正平(辛卯) [魏:452-10-1,魏:452-10-戊申] #再開{#北魏 #拓跋濬}
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B74%E4%B8%8B>"帝崩"
+#<-正平(辛卯) 魏:452-3-甲寅 #建元前の即位{#北魏 #拓跋余 #魏皇帝}
+#<-正平(辛卯) 魏:452-3-甲寅 #支那改元日{#北魏 #拓跋余}
+<-正平(辛卯) 魏:452-2-甲寅 #支那改元日{#北魏 #拓跋余}
+->興安 魏:452-10-1(丙午) #改元前の死去{#北魏 #拓跋余}
+#->興安 魏:452-10-1(丙午) #建元前の即位{#北魏 #拓跋濬 #魏皇帝}
+name 永平
+
+wref_ja 承平 (北魏)
+name_ja 永平
+
+[興安]
+#y~449
+
+AD452 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 拓跋濬
+tag 拓跋濬
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B75>"即皇帝位"
+<-正平(辛卯) 魏:452-10-戊申 #建元前の即位{#北魏 #拓跋濬 #魏皇帝}
+<-正平(辛卯) 魏:452-10-戊申 #支那改元日{#北魏 #拓跋濬}
+
+## [102]
+#452-2 - 454-7
+<-正平(辛卯) [魏:452-2] #支那改元日{#北魏 #拓跋濬} #旧説
+
+wref_ja 興安 (北魏)
+name_ja 興安
+name_kana こう あん
+#452-2 - 454-7
+
+## <https://ja.wikipedia.org/wiki/%E6%96%87%E6%88%90%E5%B8%9D_(%E5%8C%97%E9%AD%8F)>
+#<-承平(壬辰) 魏:452-10-3 j:452-10-31 #建元前の即位{#北魏 #拓跋濬 #魏皇帝}
+
+wref_ko 흥안
+name(kr) 흥안
+#452-10-3 - 454-7
+
+[興光]
+#y~1206
+
+AD454 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 拓跋濬
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B75>"興光"
+<-興安 魏:454-7-辛丑 #支那改元日{#北魏 #拓跋濬}
+
+## [102]
+#454-7 - 455-6
+
+wref_ja 興光
+name_ja 興光
+name_kana こう こう
+#454-7 - 455-6
+
+wref_ko 흥광 (북위)
+name(kr) 흥광
+#454-7-6 - 455-6
+
+[太安(乙未)]
+#y~646
+
+AD455 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 拓跋濬
+
+## [102]
+#455-6 - 459-12
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B75>"太安"
+<-興光 魏:455-6-壬戌 #支那改元日{#北魏 #拓跋濬}
+
+wref_ja 太安 (北魏)
+name_ja 太安
+name_kana たい あん
+#455-6 - 459-12
+
+wref_ko 태안 (북위)
+name(kr) 태안
+#455-6 - 459-12
+#魏書: 455-6-2 -
+#北史: 455-4-10 -
+<-興光 魏:455-4-10 #支那改元日{#北魏 #拓跋濬} #異説
+
+[和平(庚子)]
+#y~596
+
+AD460 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 拓跋濬
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B75>"和平元年"
+<-太安(乙未) 魏:460-1-1(甲子) #支那改元日{#北魏 #拓跋濬}
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B75>"帝崩"
+->天安(丙午) 魏:465-5-癸卯 #改元前の死去{#北魏 #拓跋濬}
+
+## [102]
+#460-1 - 465-12
+
+wref_ja 和平 (北魏)
+name_ja 和平
+name_kana わ へい
+#460-1 - 465-12
+
+## <https://ja.wikipedia.org/wiki/%E6%96%87%E6%88%90%E5%B8%9D_(%E5%8C%97%E9%AD%8F)>
+#->天安(丙午) 魏:465-5-11 j:465-6-20 #改元前の死去{#北魏 #拓跋濬}
+
+wref_ko 화평 (북위)
+name(kr) 화평
+#460-1-1 - 465
+
+[天安(丙午)]
+#y~1276
+
+AD466 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 拓跋弘
+tag 拓跋弘
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B76>"即皇帝位"
+<-和平(庚子) 魏:465-5-甲辰 #建元前の即位{#北魏 #拓跋弘 #魏皇帝}
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B76>"改年"
+#<-和平(庚子) 魏:466-1-1(乙丑) #支那改元日{#北魏 #拓跋弘}
+#day not found
+
+<-和平(庚子) 魏:466-1-1(己丑) #支那改元日{#北魏 #拓跋弘}
+
+## [102]
+#466-1 - 467-8
+
+wref_ja 天安 (北魏)
+name_ja 天安
+name_kana てん あん
+#466-1 - 467-8
+
+## <https://ja.wikipedia.org/wiki/%E7%8C%AE%E6%96%87%E5%B8%9D>
+#<-和平(庚子) 魏:465-5-12 j:465-6-21 #建元前の即位{#北魏 #拓跋弘 #魏皇帝}
+
+wref_ko 천안 (북위)
+name(kr) 천안
+#466-1-1 - 467-8
+
+[皇興]
+#y~1537
+
+AD467 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 拓跋弘
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B76>"皇興"
+#"皇子宏生"
+<-天安(丙午) 魏:467-8-戊申 #支那改元日{#北魏 #拓跋弘}
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B76>"欲禪位"
+->延興(辛亥) 魏:471-8-丙午 #改元前の退位{#北魏 #拓跋弘 #魏皇帝}
+
+## [102]
+#467-8 - 471-8
+
+wref_ja 皇興
+name_ja 皇興
+name_kana こう こう
+#467-8 - 471-8
+
+## <https://ja.wikipedia.org/wiki/%E7%8C%AE%E6%96%87%E5%B8%9D>
+#->延興(辛亥) 魏:471-8-20 j:471-9-20 #改元前の退位{#北魏 #拓跋弘}
+
+wref_ko 황흥 (북위)
+name(kr) 황흥
+#467-8-29 - 471-8
+
+[延興(辛亥)]
+#y~1589
+
+AD471 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 元宏
+tag 元宏
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B77%E4%B8%8A>"即皇帝位"
+<-皇興 魏:471-8-丙午 #建元前の即位{#北魏 #元宏 #魏皇帝}
+<-皇興 魏:471-8-丙午 #支那改元日{#北魏 #元宏}
+
+## [102]
+#471-8 - 476-6
+
+wref_ja 延興 (北魏)
+name_ja 延興
+name_kana えん こう
+#471-8 - 476-6
+
+## <https://ja.wikipedia.org/wiki/%E5%AD%9D%E6%96%87%E5%B8%9D>
+#<-皇興 魏:471-8-20 j:471-9-20 #建元前の即位{#北魏 #元宏 #魏皇帝}
+
+wref_ko 연흥 (북위)
+name(kr) 연흥
+#471-8-20 - 476-6
+
+[承明]
+#y~61
+
+AD476 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 元宏
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B77%E4%B8%8A>"改年"
+<-延興(辛亥) 魏:476-6-壬申 #支那改元日{#北魏 #元宏}
+
+## [102]
+#476-6 - 476-12
+
+wref_ja 承明
+name_ja 承明
+name_kana しょう めい
+#476-6 - 476-12
+
+wref_ko 승명 (북위)
+name(kr) 승명
+#476-6-14 - 476-12
+
+[太和(丁巳)]
+#y~1355
+
+AD477 = 1
+                           
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 元宏
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B77%E4%B8%8A>"太和元年"
+<-承明 魏:477-1-1(乙酉) #支那改元詔{#北魏 #元宏}
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B77%E4%B8%8B>"帝崩"
+->景明 魏:499-4-1(丙午) #改元前の死去{#北魏 #元宏}
+
+## {102]
+#477-1 - 499-12
+
+wref_ja 太和 (北魏)
+name_ja 太和
+name_kana たい わ
+#477-1 - 499-12
+
+## <https://ja.wikipedia.org/wiki/%E5%AD%9D%E6%96%87%E5%B8%9D>
+#->景明 魏:499-4-1 j:499-4-26 #改元前の死去{#北魏 #元宏}
+
+wref_ko 태화 (북위)
+name(kr) 태화
+#477-1-1 - 499
 
 
 
@@ -457,51 +1358,1160 @@ name_kana りゅう しょ
 
 ## <https://ja.wikipedia.org/wiki/%E8%95%AD%E5%AE%9D%E5%AF%85>
 <-中興(辛巳) ->景明 [南:502-3] #勢力吸収{#北魏, #蕭宝寅}
+
+
 [景明]
+#y~840
+
+AD500 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 元恪
+tag 元恪
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B78>"即皇帝位"
+<-太和(丁巳) 魏:499-4-丁巳 #建元前の即位{#北魏 #元恪 #魏皇帝}
+<-太和(丁巳) 魏:500-1-乙巳 #支那改元日{#北魏 #元恪}
+
+## [102]
+#500-1 - 504-1
+
+wref_ja 景明
+name_ja 景明
+name_kana けい めい
+#500-1 - 504-1
+
+## <https://ja.wikipedia.org/wiki/%E5%AE%A3%E6%AD%A6%E5%B8%9D>
+#<-太和(丁巳) 魏:499-4-12 j:499-5-7 #建元前の即位{#北魏 #元恪 #魏皇帝}
+
+wref_ko 경명
+name(kr) 경명
+#500-1-5 - 504-1
+
 tag 蕭宝寅
+
 [正始(甲申)]
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 元恪
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B78>"正始"
+<-景明 魏:504-1-丙寅 #支那改元日{#北魏 #元恪}
+
+## [102]
+#504-1 - 508-8
+#
+#incorrect:
+#紀元通考, 紀元編: 樊素安の私年号
+tag 私年号 (ウィキペディア)
+tag 樊素安
+
+wref_ja 正始 (北魏)
+name_ja 正始
+name_kana せい し
+#504-1 - 508-8
+#
+#incorrect:
+#紀元通考, 紀元編: 樊素安の私年号
+tag 私年号 (ウィキペディア)
+tag 樊素安
+%tag person
+%tag   name_ja 樊素安
+
+wref_ko 정시 (북위)
+name(kr) 정시
+#504-1-19 - 508-8
+
 tag 蕭宝寅
+
 [永平(戊子)]
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 元恪
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B78>"永平"
+<-正始(甲申) 魏:508-8-丁卯 #支那改元日{#北魏 #元恪}
+
+## [102]
+#508-8 - 512-4
+
+wref_ja 永平 (北魏)
+name_ja 永平
+name_kana えい へい
+#508-8 - 512-4
+
+wref_ko 영평 (북위)
+name(kr) 영평
+#508-8-16 - 512-4
+
 tag 蕭宝寅
+
 [延昌]
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 元恪
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B78>"延昌"
+<-永平(戊子) 魏:512-4-乙酉 #支那改元日{#北魏 #元恪}
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B78>"崩于"
+->熙平 魏:515-1-丁巳 #改元前の死去{#北魏 #元恪}
+
+## [102]
+#512-4 - 515-12
+
+wref_ja 延昌 (北魏)
+name_ja 延昌
+name_kana えん しょう
+#512-4 - 515-12
+
+## <https://ja.wikipedia.org/wiki/%E5%AE%A3%E6%AD%A6%E5%B8%9D>
+#->熙平 魏:515-1-13 j:515-2-12 #改元前の死去{#北魏 #元恪}
+
+wref_ko 연창
+name(kr) 연창
+#512-4-25 - 515
+
 tag 蕭宝寅
+
 [熙平]
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 元詡
+tag 元詡
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B79>"即皇帝位"
+<-延昌 魏:515-1-丁巳 #建元前の即位{#北魏 #元詡 #魏皇帝}
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B79>"熙平"
+name 熙平
+<-延昌 魏:516-1-1(戊辰) #支那改元日{#北魏 #元詡}
+
+## [102]
+#516-1 - 518-2
+
+wref_ja 熙平
+name_ja 熙平
+name_kana き へい
+#516-1 - 518-2
+
+## <https://ja.wikipedia.org/wiki/%E5%AD%9D%E6%98%8E%E5%B8%9D>
+#<-延昌 魏:515-1-13 j:515-2-12 #建元前の即位{#北魏 #元詡 #魏皇帝}
+
+wref_ko 희평 (북위)
+name(kr) 희평
+#516-1-1 - 518-2
+
 tag 蕭宝寅
+
 [神龜(戊戌)]
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 元詡
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B79>"神龜"
+#"詔以神龜表瑞，大赦改年"
+name 神龜
+<-熙平 魏:518-2-己酉 #亀祥瑞{#北魏 #元詡}
+<-熙平 魏:518-2-己酉 #支那改元詔{#北魏 #元詡}
+
+## [102]
+#518-2 - 520-7
+
+wref_ja 神亀 (北魏)
+name_ja 神亀
+name_kana しん き
+#518-2 - 520-7
+
+wref_ko 신귀 (북위)
+name(kr) 신귀
+#518-2-23 - 520-7
+
+
 tag 蕭宝寅
+
 [正光]
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 元詡
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B79>"帝加元服"
+<-神龜(戊戌) 魏:520-7-辛卯 #元服{#北魏 #元詡} #事由
+<-神龜(戊戌) 魏:520-7-辛卯 #支那改元日{#北魏 #元詡}
+
+## [102]
+#520-7 - 525-6
+
+wref_ja 正光
+name_ja 正光
+name_kana せい こう
+#520-7 - 525-6
+
+wref_ko 정광 (북위)
+name(kr) 정광
+#520-7-19 - 525-6
+
 tag 蕭宝寅
+
 [孝昌]
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 元詡
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B79>"六月癸未"
+<-正光 魏:525-6-癸未 #支那改元日{#北魏 #元詡}
+
+## [102]
+#525-6 - 528-1
+
+wref_ja 孝昌
+name_ja 孝昌
+name_kana こう しょう
+#525-6 - 528-1
+
+wref_ko 효창
+name(kr) 효창
+#525-6-10 - 528-1
+
 tag 蕭宝寅
+
+[武泰]
+#y~494
+
+AD528 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 元詡
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B79>"武泰"
+<-孝昌 魏:528-1-丙寅 #支那改元日{#北魏 #元詡}
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B79>"帝崩"
+->建義(戊申) 魏:528-2-癸丑 #改元前の死去{#北魏 #元詡}
+#"皇子即位"
+->建義(戊申) 魏:528-2-甲寅 #建元前の即位{#北魏 #元詡の子 #魏皇帝}
+#"幼主即位"
+->建義(戊申) 魏:528-2-乙卯 #建元前の即位{#北魏 #元釗 #魏皇帝}
+->建義(戊申) 魏:528-4-庚子 #改元前の死去{#北魏 #元釗}
+%tag person
+%tag   name_ja 元釗
+tag 元釗
+
+->建義(戊申) 魏:528-2-乙卯 #改元前の退位{#北魏 #元詡の子 #魏皇帝}
+%tag person
+%tag   name_ja 元詡の子
+tag 元詡の子
+
+## [102]
+#528-1 - 528-4
+
+wref_ja 武泰 (北魏)
+name_ja 武泰
+name_kana ぶ たい
+#528-1 - 528-4
+
+## <https://ja.wikipedia.org/wiki/%E5%AD%9D%E6%98%8E%E5%B8%9D>
+#->建義(戊申) 魏:528-2-25 j:528-3-31 #改元前の死去{#北魏 #元詡}
+
+wref_ko 무태 (북위)
+name(kr) 무태
+#528-1-8 - 528-4
+
+
 [隆緒]
 #<-孝昌 [南:527-10] #建元前の即位{#南斉 #蕭宝寅 #斉皇帝} #北魏
 #<-孝昌 [南:527-10] #支那改元日{#南斉 #蕭宝寅} #北魏 #起事建元
 ->神平 [南:528-1,南:528] #勢力吸収{#万俟醜奴 #趙_(万俟醜奴), #南斉 #蕭宝寅}
 #530-4 #死去
+tag 北魏
+tag 蕭宝寅
+
+
+[建義(戊申)]
+#y~1237
+
+AD528 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 元子攸
+tag 元子攸
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B710>"即帝位"
+<-武泰 魏:528-4-戊戌 #建元前の即位{#北魏 #元子攸 #魏皇帝}
+<-武泰 魏:528-4-辛丑 #支那改元詔{#北魏 #元子攸}
+
+## [102]
+#528-4 - 528-9
+
+wref_ja 建義 (北魏)
+name_ja 建義
+name_kana けん ぎ
+#528-4 - 528-9
+
+## <https://ja.wikipedia.org/wiki/%E5%AD%9D%E8%8D%98%E5%B8%9D>
+#<-武泰 魏:528-4-11 j:528-5-15 #建元前の即位{#北魏 #元子攸 #魏皇帝}
+
+wref_ko 건의 (북위)
+name(kr) 건의
+#528-4-14 - 528-9
+
+[永安(戊申)]
+#y~850
+
+AD528 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 元子攸
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B710>"永安"
+<-建義(戊申) 魏:528-9-乙亥 #支那改元日{#北魏 #元子攸}
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B710>"崩於"
+->建明(庚戌) 魏:530-12-甲子 #陥落{#元曄, #北魏 #元子攸} #死去
+
+## [102]
+#528-9 - 530-10
+
+wref_ja 永安 (北魏)
+name_ja 永安
+name_kana えい あん
+#528-9 - 530-10
+
+## <https://ja.wikipedia.org/wiki/%E5%AD%9D%E8%8D%98%E5%B8%9D>
+->建明(庚戌) [魏:530-12,魏:530-12-13] #陥落{#元曄, #北魏 #元子攸 #洛陽} #捕縛
+#->建明(庚戌) 魏:530-12-13 #陥落{#元曄, #北魏 #元子攸} #死去
+
+wref_ko 영안 (북위)
+name(kr) 영안
+#528-9-21 - 530-12
+#530-10 - 530-12 two eras
+#530-12 obsoleted
+
 
 [孝基]
 #y~1417
 
 AD529 = 1
 
+tag 拓跋部
+tag 北魏
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 元顥
+tag 元顥
+
+%tag country
+%tag   label_ja 北魏 (南梁)
+%tag   name_ja 魏
+%tag   period of 拓跋政権
+%tag   period of 北魏
+%tag   period of 中国
+%tag   period of 支那北朝
+tag 北魏 (南梁)
+
+tag 南梁
+
+## [102]
+#529-4 - 529-5
+
+wref_ja 孝基
+name_ja 孝基
+name_kana こう き
+#529
+tag 私年号 (ウィキペディア)
+
+## <https://ja.wikipedia.org/wiki/%E5%85%83%E9%A1%A5>
+<-永安(戊申) [魏:529-4] #建元前の即位{#北魏_(南梁) #元顥 #魏皇帝} #南梁
+<-永安(戊申) [魏:529-4] #支那改元日{#北魏_(南梁) #元顥} #起事建元 #南梁
+#元顥: 529-4 即位 - 529-6 死去
+<-永安(戊申) [魏:529-5] #陥落{#北魏_(南梁) #元顥, #北魏 #元子攸 #洛陽}
+
+[建武(己酉)]
+#y~1331
+
+AD529 = 1
+
+tag 拓跋部
+tag 北魏 (南梁)
+tag 内蒙古
+tag 漢土
+tag 漢民族
+tag 南梁
+
+tag 元顥
+
 s#梁書<https://zh.wikisource.org/wiki/%E6%A2%81%E6%9B%B8/%E5%8D%B732>"改元"
 #"大通初，魏北海王元顥"...
+s+
 #no name
 tag 南梁
 %tag person
 %tag   name_ja 陳慶之
 tag 陳慶之
 
+## [102]
+#529-5-丙子 - 529-6'
+<-孝基 魏:529-5-丙子 #支那改元日{#北魏_(南梁) #元顥}
+
+wref_ja 建武 (元顥)
+name_ja 建武
+name_kana けん ぶ
+# 529-5 - 529-6'
+tag 私年号 (ウィキペディア)
+
+# 529 has no 6', there are 7 and 7' (according to commonly used tables)
+
 ## <https://ja.wikipedia.org/wiki/%E5%85%83%E9%A1%A5>
+#<-孝基 [魏:529-5] #支那改元日{#北魏_(南梁) #元顥}
+->永安(戊申) [魏:529-6] #陥落{#北魏_(南梁) #元顥 #洛陽, #北魏 #元子攸} #死去
+    #異説
+
+## <https://zh.wikipedia.org/wiki/%E5%85%83%E9%A2%A2>
+->永安(戊申) 魏:529-7-21 j:529-8-11 #陥落{#北魏_(南梁) #元顥 #洛陽,
+    #北魏 #元子攸} #死去
+
+
+[建明(庚戌)]
+#y~488
+
+AD530 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 元曄
+tag 元曄
+
+## [102]
+#530-10 - 531-2
+
+wref_ja 建明 (北魏)
+name_ja 建明
+name_kana けん めい
+#530-10 - 531-2
+
+## <https://ja.wikipedia.org/wiki/%E5%85%83%E6%9B%84>
+<-永安(戊申) 魏:530-10-30 j:530-12-5 #建元前の即位{#北魏 #元曄 #魏皇帝}
+->普泰 魏:531-2-29 j:531-4-1 #改元前の退位{#北魏 #元曄 #魏皇帝}
+
+wref_ko 건명 (북위)
+name(kr) 건명
+#530-10-30 - 531-2
+#531-2 obsoleted
+<-永安(戊申) 魏:530-10-30 #支那改元日{#北魏 #元曄} #起事建元
+
+
+[普泰]
+#y~1343
+
+AD531 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 元恭
+tag 元恭
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B711>"禪讓"
+<-建明(庚戌) 魏:531-2-己巳 #建元前の即位{#北魏 #元恭 #魏皇帝}
+<-建明(庚戌) 魏:531-2-己巳 #支那改元詔{#北魏 #元恭}
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B711>"夏四月辛巳"
+->中興(辛亥) 魏:532-4-辛巳 #改元前の退位{#北魏 #元恭 #魏皇帝}
+
+## [102]
+# 531-2 - 532-4
+
+wref_ja 普泰
+name_ja 普泰
+name_kana ふ たい
+# 531-2 - 531-10 - 532-4
+
+## <https://ja.wikipedia.org/wiki/%E5%85%83%E6%81%AD>
+#<-建明(庚戌) 魏:531-2-29 j:531-4-1 #建元前の即位{#北魏 #元恭 #魏皇帝}
+#->中興(辛亥) 魏:532-4-18 j:532-6-6 #改元前の退位{#北魏 #元恭 #魏皇帝}
+
+wref_ko 보태
+name(kr) 보태
+#531-2-29 - 531-10 - 532-4
+
+%tag person
+%tag   name_ja 高歓
+tag 高歓
+
+[中興(辛亥)]
+#y~1146
+
+AD531 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 元朗
+tag 元朗
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B711>"稱中興元年"
+<-普泰 魏:531-10-壬寅 #建元前の即位{#北魏 #元朗 #魏皇帝} #高歓
+<-普泰 魏:531-10-壬寅 #支那改元日{#北魏 #元朗} #起事建元
+->太昌 魏:532-4-辛巳 #改元前の退位{#北魏 #元朗 #魏皇帝} #高歓
+
+## [102]
+#531-10 - 532-4
+
+wref_ja 中興 (北魏)
+name_ja 中興
+name_kana ちゅう こう
+#531-10 - 532-4
+
+## <https://ja.wikipedia.org/wiki/%E5%85%83%E6%9C%97_(%E5%8C%97%E9%AD%8F)>
+tag 高歓
+<-普泰 [魏:531-6] #蜂起{#高歓} #北魏 #元朗
+<-普泰 魏:531-10-5 j:531-10-30 #建元前の即位{#北魏 #元朗 #魏皇帝} #高歓 #異説
+<-普泰 [魏:532-4,魏:532-4-18] #鎮圧{#北魏 #元朗 #高歓, #元恭} #事由
+#->太昌 魏:532-4-18 j:532-6-6 #改元前の退位{#北魏 #元朗 #魏皇帝} #高歓
+
+wref_ko 중흥 (북위)
+name(kr) 중흥
+#541-10-6 - 532-4
+
+
+[更興]
+#y~1604
+
+AD530 = 1
+
+tag 拓跋部
+tag 北魏
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 元悦
+tag 元悦
+
+tag 北魏 (南梁)
+
+tag 南梁
+
+## [102]
+#530-6 - 532-12
+<-建武(己酉) [魏:530-6] #支那改元日{#北魏_(南梁) #元悦} #南梁 #起事建元
+#-> [魏:532-12] #異説
+
+wref_ja 更興
+name_ja 更興
+name_kana こう こう
+#530 - 532
+tag 私年号 (ウィキペディア)
+
+## <https://ja.wikipedia.org/wiki/%E5%85%83%E6%82%A6>
+<-建武(己酉) [魏:530-6] #建元前の即位{#北魏_(南梁) #元悦 #魏皇帝} #南梁
+<-普泰 [魏:532,魏:532-4] #陥落{#北魏_(南梁) #元悦, #北魏 #洛陽} #南梁
+->太昌 [魏:532-4] #改元前の退位{#北魏_(南梁) #元悦 #魏皇帝} #高歓
+->太昌 [魏:532-4] #勢力吸収{#北魏, #北魏_(南梁) #元悦} #高歓
+
+&
+## [102]
+name_tw 更新
+name_cn 更新
+
+
+
+
+
+[太昌]
+#y~1101
+
+AD532 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 元脩
+tag 元脩
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B711>"即帝位"
+name 太昌
+<-中興(辛亥),太昌 魏:532-4-戊子 #建元前の即位{#北魏 #元脩 #魏皇帝}
+<-中興(辛亥) 魏:532-4-戊子 #支那改元詔{#北魏 #元脩} #起事建元
+
+## [102]
+#532-4 - 532-12
+
+wref_ja 太昌
+name_ja 太昌
+name_kana たい しょう
+#532-4 - 532-12
+
+wref_ko 태창 (북위)
+name(kr) 태창
+#532-4-25 - 532-12
+
+tag 高歓
+
+[永興(壬子)]
+#y~446
+
+AD532 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 元脩
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B711>"永興"
+#"丁亥，殺大司馬、汝南王悅。大赦天下，改太昌為永興，以太宗號，尋改為永熙元年。"
+<-太昌 魏:532-12-丁亥 #支那改元日{#北魏 #元脩}
+
+## [102]
+#532-12-丁亥 - 532-12
+
+wref_ja 永興 (孝武帝)
+name_ja 永興
+name_kana えい こう
+#532-12
+
+wref_ko 영흥 (북위 효무제)
+name(kr) 영흥
+#532-12-28 - 532-12
+
+tag 高歓
+
+[永熙(壬子)]
+#y~1674
+
+AD532 = 1
+
+tag 拓跋部
+tag 北魏
+tag 北魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 元脩
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B711>"永興"
+#"丁亥，殺大司馬、汝南王悅。大赦天下，改太昌為永興，以太宗號，尋改為永熙元年。"
+name 永熙
+<-永興(壬子) 魏:532-12-丁亥 #支那改元日{#北魏 #元脩}
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B711>"閏十二月"
+->天平(甲寅) 魏:534-12'-癸巳 #改元前の死去{#北魏 #元脩} #宇文泰
+tag 宇文泰
+
+## [102]
+#532-12 - 534-12
+
+wref_ja 永熙 (北魏)
+name_ja 永熙
+#532-12 - 534-12
+
+wref_ko 영희 (북위)
+name(kr) 영희
+# 532-12-28 - 534
+
+## <https://ja.wikipedia.org/wiki/%E5%AD%9D%E6%AD%A6%E5%B8%9D_(%E5%8C%97%E9%AD%8F)>
+#->天平(甲寅) 魏:534-12'-15 j:535-2-3 #改元前の死去{#北魏 #元脩}
+
+tag 高歓
+
+
+%tag country
+%tag   label_ja 東魏
+%tag   name_ja 魏
+%tag   period of 拓跋政権
+%tag   period of 北魏
+%tag   period of 支那北朝
+
+%tag tag
+%tag   name_ja 東魏の公年号
+%tag   group of 中華王朝の公年号
+
+[天平(甲寅)]
+#y~543
+
+AD534 = 1
+
+tag 拓跋部
+tag 東魏
+tag 東魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 元善見
+tag 元善見
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B712>"即位"
+<-永熙(壬子) 魏:534-10-丙寅 #建元前の即位{#東魏 #元善見 #魏皇帝}
+    #洛陽 #高歓
+<-永熙(壬子) 魏:534-10-丙寅 #支那改元日{#東魏 #元善見} #起事建元 #高歓
+
+## [102]
+#534-10 - 537-12
+
+wref_ja 天平 (東魏)
+name_ja 天平
+name_kana てん へい
+#534-10 - 537-12
+
+## <https://ja.wikipedia.org/wiki/%E5%AD%9D%E9%9D%99%E5%B8%9D>
+#<-永熙(壬子) 魏:534-10-17 j:534-11-8 #建元前の即位{#東魏 #元善見 #魏皇帝}
+#    #洛陽 #高歓
+#<-永熙(壬子) 魏:534-10-17 j:534-11-8 #支那改元日{#東魏 #元善見} #起事建元
+#    #高歓
+tag 高歓
+
+wref_ko 천평
+name(kr) 천평
+#534-10-17 - 537
+
+[元象]
+#y~1620
+
+AD538 = 1
+
+tag 拓跋部
+tag 東魏
+tag 東魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 元善見
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B712>"元象"
+<-天平(甲寅) 魏:538-1-丁卯 #支那改元日{#東魏 #元善見}
+
+## [102]
+#538-1 - 539-11
+
+wref_ja 元象
+name_ja 元象
+name_kana げん しょう
+#538-1 - 539-11
+
+wref_ko 원상 (동위)
+name(kr) 원상
+#538-1-7 - 539-11
+
+tag 高歓
+
+[興和]
+#y~619
+
+AD539 = 1
+
+tag 拓跋部
+tag 東魏
+tag 東魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 元善見
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B712>"興和"
+<-元象 魏:539-11-癸亥 #支那改元日{#東魏 #元善見}
+
+## {102]
+#539-11 - 542-12
+
+wref_ja 興和 (東魏)
+name_ja 興和
+name_kana こう わ
+#539-11 - 542-12
+
+wref_ko 흥화
+name(kr) 흥화
+#539-11-14 - 542
+
+tag 高歓
+
+[武定]
+#y~1713
+
+AD543 = 1
+
+tag 拓跋部
+tag 東魏
+tag 東魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+tag 元善見
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B712>"武定"
+<-興和 魏:543-1-1(壬戌) #支那改元日{#東魏 #元善見}
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B712>"詔歸帝位於齊國"
+->天保(庚午) 魏:550-5-丙辰 #改元前の退位{#東魏 #元善見 #魏皇帝}
+    #禅譲 #高洋
+
+## [102]
+#543-1 - 550-5
+
+wref_ja 武定 (東魏)
+name_ja 武定
+name_kana ぶ てい
+#543-1 - 550-5
+
+## <https://ja.wikipedia.org/wiki/%E5%AD%9D%E9%9D%99%E5%B8%9D>
+#->天保(庚午) 魏:550-5-8 j:550-6-7 #改元前の退位{#東魏 #元善見 #魏皇帝}
+#    #禅譲 #高洋
+
+wref_ko 무정 (동위)
+name(kr) 무정
+#543-1-1 - 550-5
+
+tag 高歓
+%tag person
+%tag   name_ja 高澄
+tag 高澄
+tag 高洋
+
+%tag country
+%tag   name_ja 北斉
+
+%tag person
+%tag   name_ja 高洋
+
+[天保(庚午)]
+#y~727
+
+AD550 = 1
+
+
+
+
+
+
+
+
+
+%tag country
+%tag   label_ja 西魏
+%tag   name_ja 魏
+%tag   period of 拓跋政権
+%tag   period of 北魏
+%tag   period of 支那北朝
+
+%tag tag
+%tag   name_ja 西魏の公年号
+%tag   group of 中華王朝の公年号
+
+[大統]
+#y~1652
+
+AD535 = 1
+
+tag 拓跋部
+tag 西魏
+tag 西魏の公年号
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 元宝炬
+tag 元宝炬
+
+## [102]
+#535-1 - 551-12
+
+wref_ja 大統
+name_ja 大統
+name_kana だい とう
+#535-1 - 551-12
+
+## <https://ja.wikipedia.org/wiki/%E6%96%87%E5%B8%9D_(%E8%A5%BF%E9%AD%8F)>
+<-永熙(壬子) 魏:535-1-1 j:535-2-18 #建元前の即位{#西魏 #元宝炬 #魏皇帝}
+    #宇文泰 #長安
+->西魏廃帝 魏:551-3-6 j:551-3-28 #改元前の死去{#西魏 #元宝炬} #長安
+tag 宇文泰
+
+wref_ko 대통 (서위)
+name(kr) 대통
+#535 - 551
+
+<-永熙(壬子) [魏:535-1-1,魏:535-1] #支那改元日{#西魏 #元宝炬}
+
+def[西魏廃帝]
+
+AD552 = 1
+
+tag 拓跋部
+tag 西魏
+tag 内蒙古
+tag 漢土
+tag 漢民族
+tag 拓跋即位紀年
+
+%tag person
+%tag   name_ja 元欽
+tag 元欽
+
+wref_zh 元钦
+#"大統十七年（551年），文帝駕崩，太子元欽即位，沿用文帝年号，
+#次年（552年）去年号，称元年。"
+#"登位第三年（554年）二月"...
+u 1
+u 3-2
+#"恭帝元年四月庚戌（554年），"...
+
+#wref_zh 大统 (西魏)
+#宇文觉 : no era
+
+wref_ja 廃帝 (西魏)
+name_ja 西魏廃帝
+name_kana せい ぎ はい てい
+#<-大統 [魏:551-3] #建元前の即位{#西魏 #元欽 #魏皇帝} #宇文泰
+->西魏恭帝 [魏:554-1] #改元前の退位{#西魏 #元欽 #魏皇帝} #宇文泰
+tag 宇文泰
+#"元欽の在位中には元号が建てられなかったため、後世の史書では552年・553年を
+#「西魏廃帝元年・2年」と呼んでいる。 "
+u 1
+u 2
+
+<-大統 [魏:551-3-6,魏:551-3] #建元前の即位{#西魏 #元欽 #魏皇帝} #宇文泰
+
+#wref_ko 대통 (서위)
+#552-1-1 - 556 : 即位紀年, no era
+
+wref_ko 서위 폐제
+u 1
+u 3
+
+## <https://ko.wikipedia.org/wiki/%EC%B2%9C%EB%B3%B4_(%EB%B6%81%EC%A0%9C)#cite_note-3>
+name(kr) 폐제
+name_ko 廢帝
+
+def[西魏恭帝]
+
+AD554 = 1
+
+tag 拓跋部
+tag 西魏
+tag 内蒙古
+tag 漢土
+tag 漢民族
+tag 拓跋即位紀年
+
+%tag person
+%tag   name_ja 拓跋廓
+tag 拓跋廓
+
+wref_zh 魏恭帝
+#"554年即位，去年号称元年，"...
+u 1
+
+#wref_zh 大统 (西魏)
+#宇文觉 : no era
+
+#wref_zh 元钦
+#"恭帝元年四月庚戌（554年），"...
+u 1-4-庚戌
+name_tw 恭帝
+name_cn 恭帝
+
+#wref_ko 북주 효민제
+name(kr) 공제
+name_ko 恭帝
+#"서위 공제(恭帝) 3년 12월 17일
+#(557년 2월 1일)"
+
+## <https://ko.wikipedia.org/wiki/%EC%B2%9C%EB%B3%B4_(%EB%B6%81%EC%A0%9C)#cite_note-3>
+name(kr) 공제
+name_ko 恭帝
+&
+
+wref_ja 恭帝 (西魏)
+name_ja 西魏恭帝
+name_kana せい ぎ きょう てい
+<-西魏廃帝 [魏:554-1] #建元前の即位{#拓跋廓 #西魏 #魏皇帝} #宇文泰
+tag 宇文泰
+tag 宇文護
+tag 宇文覚
+->孝閔帝 [魏:556-12] #改元前の退位{#拓跋廓 #西魏 #魏皇帝}
+    #宇文護 #宇文覚 #禅譲 #北周
+#"恭帝の在位中には元号が建てられなかったため、後世の史書では
+#554年・555年・556年を「西魏恭帝元年・2年・3年」と呼んでいる。"
+u 1
+u 3
+
+#wref_ko 대통 (서위)
+#552-1-1 - 556 : 即位紀年, no era
+
+wref_ko 서위 공제
+u 1
+u 3
+
+
+%tag country
+%tag   label_ja 北周
+%tag   name_ja 周
+%tag   period of 周
+%tag   period of 中国
+%tag   group of 支那北朝
+
+%tag person
+%tag   name_ja 宇文泰
+
+%tag person
+%tag   name_ja 宇文護
+
+def[孝閔帝]
+
+AD557 = 1
+
+%tag person
+%tag   name_ja 宇文覚
+tag 宇文覚
+
+tag 宇文泰
+
+wref_ko 북주 효민제
+name(kr) 효민제
+name_ko 孝閔帝
+#"효민제(孝閔帝) 원년 1월 1일
+#(557년 2월 15일)"
+u 1
+
+def[明帝]
+
+AD557 = 1
+
+wref_ko 북주 명제
+name(kr) 명제
+name_ko 明帝
+#"명제(明帝) 원년 9월 28일
+#(557년 11월 5일)"
+u 1
+u 4
+
+## <https://ko.wikipedia.org/wiki/%EC%B2%9C%EB%B3%B4_(%EB%B6%81%EC%A0%9C)#cite_note-3>
+u 1
+u 2
+
+[武定(北周)]
+
+
+
+#%tag   name_ja 北魏
+#XXX https://zh.wikisource.org/wiki/%E5%8D%97%E9%BD%8A%E6%9B%B8/%E5%8D%B757
+
+
+
+
+
+%tag country
+%tag   name_ja 前秦
+
+
                            
 
+#XXX
 [承平(癸未)]
 #y~983
 
 AD443 = 1
 
 name(kr) 승평
-                              
+
+#XXX
 [天成(丙戌)]
 #y~1440
 

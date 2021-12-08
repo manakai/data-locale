@@ -658,6 +658,10 @@ action
   group of 祥瑞
 
 action
+  name_ja 亀祥瑞
+  group of 祥瑞
+
+action
   name_ja 雲祥瑞
   group of 祥瑞
 

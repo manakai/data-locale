@@ -4,7 +4,8 @@ PERL = $(ROOT_PATH)/perl
 
 all: build
 
-build: build.pl \
+build: era-ts-*.txt
+era-ts-*.txt: build.pl \
     $(ROOT_PATH)/bin/extract-era-transitions.pl \
     $(ROOT_PATH)/data/calendar/era-defs.json \
     $(ROOT_PATH)/data/calendar/era-transitions.json \
