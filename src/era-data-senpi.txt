@@ -1,5 +1,6 @@
 %tag people
 %tag   name_ja 鮮卑
+%tag   group of 五胡
 
 %tag people
 %tag   name_ja 拓跋部
@@ -429,12 +430,14 @@ name(kr) 건국
 %tag   period of 魏
 %tag   period of 中国
 %tag   period of 支那北朝
+#XXX prefix 大魏 大代大魏 北魏 元魏
 
 %tag tag
 %tag   name_ja 北魏の公年号
 %tag   group of 中華王朝の公年号
 
 def[拓跋珪]
+#y~1930
 
 AD377 = 1
 
@@ -475,10 +478,10 @@ tag 漢民族
 tag 拓跋珪
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B72>"登國"
-<-拓跋珪 魏:386-1-戊申 #建元前の即位{#代国 #拓跋珪 #代王}
+<-拓跋珪 ->登國,大魏(丙戌) 魏:386-1-戊申 #建元前の即位{#代国 #拓跋珪 #代王}
 <-拓跋珪 魏:386-1-戊申 #支那改元日{#代国 #拓跋珪}
 #改称
-<-拓跋珪 [魏:386-4] #建元前の即位{#北魏 #拓跋珪 #魏王}
+<-拓跋珪 ->登國,大魏(丙戌) [魏:386-4] #建元前の即位{#北魏 #拓跋珪 #魏王}
 
 ## [102]
 #386-1 - 396-6
@@ -1248,7 +1251,7 @@ tag 漢民族
 tag 元宏
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B77%E4%B8%8A>"即皇帝位"
-<-皇興 魏:471-8-丙午 #建元前の即位{#北魏 #元宏 #魏皇帝}
+<-皇興 ->延興(辛亥),大魏(辛亥) 魏:471-8-丙午 #建元前の即位{#北魏 #元宏 #魏皇帝}
 <-皇興 魏:471-8-丙午 #支那改元日{#北魏 #元宏}
 
 ## [102]
@@ -1891,10 +1894,11 @@ tag 漢民族
 tag 元恭
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B711>"禪讓"
-<-建明(庚戌) 魏:531-2-己巳 #建元前の即位{#北魏 #元恭 #魏皇帝}
+<-建明(庚戌) ->普泰,大魏(普泰) 魏:531-2-己巳
+    #建元前の即位{#北魏 #元恭 #魏皇帝}
 <-建明(庚戌) 魏:531-2-己巳 #支那改元詔{#北魏 #元恭}
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B711>"夏四月辛巳"
-->中興(辛亥) 魏:532-4-辛巳 #改元前の退位{#北魏 #元恭 #魏皇帝}
+->中興(辛亥) <-普泰,大魏(普泰) 魏:532-4-辛巳 #改元前の退位{#北魏 #元恭 #魏皇帝}
 
 ## [102]
 # 531-2 - 532-4
@@ -1911,6 +1915,18 @@ name_kana ふ たい
 wref_ko 보태
 name(kr) 보태
 #531-2-29 - 531-10 - 532-4
+
+## <https://uk.wikipedia.org/wiki/%D0%9F%D1%83%D1%82%D0%B0%D0%B9>
+#XXX
+#Пута́й
+#Pǔtài
+#Повсюдний Спокій
+#531-2/3 531-2-11 - 532-4
+#"历代建元考": 普嘉, 注"诸书皆作普嘉"
+
+## <https://baike.baidu.com/item/%E6%99%AE%E6%B3%B0/9547246#viewPageContent>
+#531-2 - 531-10
+#"历代建元考": 普嘉, 注"诸书皆作普嘉"
 
 %tag person
 %tag   name_ja 高歓
@@ -2090,6 +2106,8 @@ name 永熙
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B711>"閏十二月"
 ->天平(甲寅) 魏:534-12'-癸巳 #改元前の死去{#北魏 #元脩} #宇文泰
 tag 宇文泰
+tag 北周
+tag 宇文部
 
 ## [102]
 #532-12 - 534-12
@@ -2304,6 +2322,8 @@ tag 西魏の公年号
 tag 内蒙古
 tag 漢土
 tag 漢民族
+tag 北周
+tag 宇文部
 
 %tag person
 %tag   name_ja 元宝炬
@@ -2329,9 +2349,14 @@ name(kr) 대통
 
 <-永熙(壬子) [魏:535-1-1,魏:535-1] #支那改元日{#西魏 #元宝炬}
 
+tag 元号廃止前の元号
+
 def[西魏廃帝]
+#y~1931
 
 AD552 = 1
+
+sw 西魏の即位紀年
 
 tag 拓跋部
 tag 西魏
@@ -2339,6 +2364,8 @@ tag 内蒙古
 tag 漢土
 tag 漢民族
 tag 拓跋即位紀年
+tag 北周
+tag 宇文部
 
 %tag person
 %tag   name_ja 元欽
@@ -2353,20 +2380,23 @@ u 3-2
 #"恭帝元年四月庚戌（554年），"...
 
 #wref_zh 大统 (西魏)
-#宇文觉 : no era
+#no era
 
 wref_ja 廃帝 (西魏)
 name_ja 西魏廃帝
 name_kana せい ぎ はい てい
 #<-大統 [魏:551-3] #建元前の即位{#西魏 #元欽 #魏皇帝} #宇文泰
-->西魏恭帝 [魏:554-1] #改元前の退位{#西魏 #元欽 #魏皇帝} #宇文泰
+->西魏恭帝,魏後,後魏 [魏:554-1] #改元前の退位{#西魏 #元欽 #魏皇帝} #宇文泰
 tag 宇文泰
 #"元欽の在位中には元号が建てられなかったため、後世の史書では552年・553年を
 #「西魏廃帝元年・2年」と呼んでいる。 "
 u 1
 u 2
 
-<-大統 [魏:551-3-6,魏:551-3] #建元前の即位{#西魏 #元欽 #魏皇帝} #宇文泰
+<-大統 ->西魏廃帝,魏前,前魏 [魏:551-3-6,魏:551-3]
+    #建元前の即位{#西魏 #元欽 #魏皇帝} #宇文泰
+<-大統 ->西魏廃帝 [魏:551-3-6,魏:551]
+    #称元{#西魏 #元欽} #宇文泰
 
 #wref_ko 대통 (서위)
 #552-1-1 - 556 : 即位紀年, no era
@@ -2375,13 +2405,37 @@ wref_ko 서위 폐제
 u 1
 u 3
 
+name_cn 西魏废帝
+&
+name_ja 魏廃帝
+name_tw 魏廢帝
+name_cn 魏废帝
+&
+name_ja 廃帝
+name_kana はい てい
+name_tw 廢帝
+u 1
+u 2
+u 3
+
 ## <https://ko.wikipedia.org/wiki/%EC%B2%9C%EB%B3%B4_(%EB%B6%81%EC%A0%9C)#cite_note-3>
 name(kr) 폐제
 name_ko 廢帝
 
-def[西魏恭帝]
+&
+name_ja 大魏国
+#XXX name (variant)
+u 1
+&
+name_ja 魏
+tag 国名即位紀年
 
-AD554 = 1
+def[魏前]
+#y~1938
+
+AD552 = 1
+
+sw 西魏の即位紀年
 
 tag 拓跋部
 tag 西魏
@@ -2389,17 +2443,82 @@ tag 内蒙古
 tag 漢土
 tag 漢民族
 tag 拓跋即位紀年
+tag 北周
+tag 宇文部
+
+tag 元欽
+
+tag 前元
+name_ja 魏前
+#XXX name {swc334}前
+u 1
+u 2
+u 3
+
+&
+name 後魏前
+
+def[前魏]
+#y~1935
+
+AD552 = 1
+
+sw 西魏の即位紀年
+
+tag 拓跋部
+tag 西魏
+tag 内蒙古
+tag 漢土
+tag 漢民族
+tag 拓跋即位紀年
+tag 北周
+tag 宇文部
+
+tag 元欽
+
+tag 前元
+name_ja 前魏
+u 1
+
+def[西魏恭帝]
+#y~1932
+
+AD554 = 1
+
+sw 西魏の即位紀年
+
+tag 拓跋部
+tag 西魏
+tag 内蒙古
+tag 漢土
+tag 漢民族
+tag 拓跋即位紀年
+tag 北周
+tag 宇文部
 
 %tag person
 %tag   name_ja 拓跋廓
 tag 拓跋廓
+
+name_ja 西魏恭帝
+name_kana せい ぎ きょう てい
+#name(ja) 西魏恭帝の
+&
+name_ja 魏恭帝
+u 1
+u 2
+u 3
+&
+name_ja 恭帝
+name_kana きょう てい
+#name(ja) 恭帝の
 
 wref_zh 魏恭帝
 #"554年即位，去年号称元年，"...
 u 1
 
 #wref_zh 大统 (西魏)
-#宇文觉 : no era
+#no era
 
 #wref_zh 元钦
 #"恭帝元年四月庚戌（554年），"...
@@ -2414,18 +2533,18 @@ name_ko 恭帝
 #(557년 2월 1일)"
 
 ## <https://ko.wikipedia.org/wiki/%EC%B2%9C%EB%B3%B4_(%EB%B6%81%EC%A0%9C)#cite_note-3>
-name(kr) 공제
+#name(kr) 공제
 name_ko 恭帝
-&
 
 wref_ja 恭帝 (西魏)
-name_ja 西魏恭帝
-name_kana せい ぎ きょう てい
-<-西魏廃帝 [魏:554-1] #建元前の即位{#拓跋廓 #西魏 #魏皇帝} #宇文泰
+#&
+#name_ja 西魏恭帝
+#name_kana せい ぎ きょう てい
+<-西魏廃帝,前魏,魏前 [魏:554-1] #建元前の即位{#拓跋廓 #西魏 #魏皇帝} #宇文泰
 tag 宇文泰
 tag 宇文護
 tag 宇文覚
-->孝閔帝 [魏:556-12] #改元前の退位{#拓跋廓 #西魏 #魏皇帝}
+->孝閔帝,北周,大魏 [魏:556-12] #改元前の退位{#拓跋廓 #西魏 #魏皇帝}
     #宇文護 #宇文覚 #禅譲 #北周
 #"恭帝の在位中には元号が建てられなかったため、後世の史書では
 #554年・555年・556年を「西魏恭帝元年・2年・3年」と呼んでいる。"
@@ -2439,6 +2558,72 @@ wref_ko 서위 공제
 u 1
 u 3
 
+<-西魏廃帝,前魏,魏前 [魏:554-1,魏:554] #称元{#拓跋廓 #西魏} #宇文泰
+
+&
+name 大魏
+u 1
+u 2
+u 3-5-5
+&
+name 元魏
+u 2
+
+def[魏後]
+#y~1939
+
+AD554 = 1
+
+sw 西魏の即位紀年
+
+tag 拓跋部
+tag 西魏
+tag 内蒙古
+tag 漢土
+tag 漢民族
+tag 拓跋即位紀年
+tag 北周
+tag 宇文部
+
+tag 拓跋廓
+
+tag 後元
+name_ja 魏後
+#XXX name {swc334}後
+#XXX name {swc335}後
+name_cn 魏后
+u 1
+u 2
+u 3
+&
+name_cn 后
+u 2
+
+def[後魏]
+#y~1937
+
+AD554 = 1
+
+sw 西魏の即位紀年
+
+tag 拓跋部
+tag 西魏
+tag 内蒙古
+tag 漢土
+tag 漢民族
+tag 拓跋即位紀年
+tag 北周
+tag 宇文部
+
+tag 拓跋廓
+
+tag 後元
+name_ja 後魏
+name_cn 后魏
+u 1
+u 2
+u 3
+
 
 %tag country
 %tag   label_ja 北周
@@ -2447,21 +2632,61 @@ u 3
 %tag   period of 中国
 %tag   group of 支那北朝
 
+%tag people
+%tag   name_ja 宇文部
+%tag   group of 鮮卑
+%tag   group of 匈奴
+
 %tag person
 %tag   name_ja 宇文泰
 
 %tag person
 %tag   name_ja 宇文護
 
+%tag tag
+%tag   name_ja 北周の公年号
+%tag   group of 中華王朝の公年号
+
+%tag position
+%tag   name_ja 天王
+
+%tag position
+%tag   name_ja 周天王
+%tag   group of 天王
+
 def[孝閔帝]
+#y~1933
 
 AD557 = 1
+
+tag 北周
+tag 宇文部
+tag 内蒙古
+tag 漢土
+tag 漢民族
+tag 拓跋即位紀年
+tag 拓跋部
+tag 西魏
 
 %tag person
 %tag   name_ja 宇文覚
 tag 宇文覚
 
 tag 宇文泰
+
+sw 北周の即位紀年
+
+name_ja 孝閔帝
+u 1
+
+#wref_zh 大统 (西魏)
+#no era
+
+## <https://ja.wikipedia.org/wiki/%E5%AD%9D%E9%96%94%E5%B8%9D>
+<-西魏恭帝,魏後,後魏 ->孝閔帝,北周,大魏 j:557-2-15
+    #建元前の即位{#北周 #宇文覚 #周天王} #宇文護
+->明帝 [魏:557-9] #改元前の退位{#北周 #宇文覚 #周天王} #宇文護
+
 
 wref_ko 북주 효민제
 name(kr) 효민제
@@ -2471,8 +2696,38 @@ name_ko 孝閔帝
 u 1
 
 def[明帝]
+#y~1934
 
 AD557 = 1
+
+tag 北周
+tag 宇文部
+tag 内蒙古
+tag 漢土
+tag 漢民族
+tag 拓跋即位紀年
+tag 拓跋部
+tag 西魏
+
+%tag person
+%tag   name_ja 宇文毓
+tag 宇文毓
+
+sw 北周の即位紀年
+
+name_ja 北周明帝
+&
+name_ja 周明帝宇文毓
+&
+name_ja 明帝
+u 1
+u 2
+
+#wref_zh 大统 (西魏)
+#no era - 559-8
+
+## <https://ja.wikipedia.org/wiki/%E6%98%8E%E5%B8%9D_(%E5%8C%97%E5%91%A8)>
+<-孝閔帝 魏:557-9-28 #建元前の即位{#北周 #宇文毓 #周天王}
 
 wref_ko 북주 명제
 name(kr) 명제
@@ -2486,7 +2741,181 @@ u 4
 u 1
 u 2
 
+def[北周]
+#y~1936
+
+AD557 = 1
+
+tag 北周
+tag 宇文部
+tag 内蒙古
+tag 漢土
+tag 漢民族
+tag 拓跋即位紀年
+tag 拓跋部
+tag 西魏
+
+tag 宇文覚
+tag 宇文泰
+
+sw 北周の即位紀年
+
+tag 国名即位紀年
+name_ja 周
+u 1
+u 2
+#name 周之
+&
+name_ja 北周
+
+def[大魏]
+#y~1940
+
+AD557 = 1
+
+tag 拓跋部
+tag 西魏
+tag 内蒙古
+tag 漢土
+tag 漢民族
+tag 拓跋即位紀年
+tag 北周
+tag 宇文部
+tag 宇文覚
+tag 宇文泰
+
+sw 北周の即位紀年
+
+tag 国名即位紀年
+
+name 大魏
+u 1
+u 2
+&
+name 元魏
+u 2
+
+def[大魏(普泰)]
+#y~1943
+
+AD531 = 1
+
+tag 旧説
+
+tag 拓跋部
+tag 北魏
+tag 内蒙古
+tag 漢土
+tag 漢民族
+tag 拓跋即位紀年
+tag 国名即位紀年
+
+sw 西魏の即位紀年
+
+name 大魏
+&
+name 元魏
+u 2
+
+def[大魏(辛亥)]
+#y~1945
+
+AD471 = 1
+
+tag 旧説
+
+tag 拓跋部
+tag 北魏
+tag 内蒙古
+tag 漢土
+tag 漢民族
+tag 拓跋即位紀年
+tag 国名即位紀年
+
+sw 西魏の即位紀年
+
+name 大魏
+&
+name 元魏
+u 2
+
+def[大魏(丙戌)]
+#y~1942
+
+AD386 = 1
+
+tag 旧説
+
+tag 拓跋部
+tag 北魏
+tag 内蒙古
+tag 漢土
+tag 漢民族
+tag 拓跋即位紀年
+tag 国名即位紀年
+
+sw 西魏の即位紀年
+
+name 大魏
+&
+name 元魏
+u 2
+
+def[大魏(丙子)]
+#y~1941
+
+AD496 = 1
+
+tag 旧説
+
+tag 拓跋部
+tag 北魏
+tag 内蒙古
+tag 漢土
+tag 漢民族
+tag 拓跋即位紀年
+
+sw 西魏の即位紀年
+
+name 元魏
+u 2
+&
+name 大魏
+
+<-太和(丁巳) [魏:496] #事由 #漢化政策 #元恪 #北魏
+
+def[大魏(癸酉)]
+#y~1944
+
+AD493 = 1
+
+tag 旧説
+
+tag 拓跋部
+tag 北魏
+tag 内蒙古
+tag 漢土
+tag 漢民族
+tag 拓跋即位紀年
+
+sw 西魏の即位紀年
+
+name 元魏
+u 2
+
+<-太和(丁巳) [魏:493] #支那改元日{#北魏} #旧説
+
 [武定(北周)]
+
+tag 北周
+tag 北周の公年号
+tag 宇文部
+tag 内蒙古
+tag 漢土
+tag 漢民族
+
+## <https://ja.wikipedia.org/wiki/%E6%98%8E%E5%B8%9D_(%E5%8C%97%E5%91%A8)>
+#XXX -> 魏:560-4-20 #改元前の死去{#北周 #宇文毓}
 
 
 
@@ -2763,8 +3192,6 @@ tag 隋末唐初
 
 [開明(己卯)]
 
-%tag people
-%tag   name_ja 胡
 tag 胡
 
 tag 鄭
@@ -4533,6 +4960,7 @@ name_kana せい とく
 <-上元(庚子) [唐:761] #支那改元日{#李珍} #李唐 #起事建元
 ->上元(庚子) [唐:761] #陥落{#李唐, #李珍} #死去
 
+tag 元号廃止前の元号
 
 def[肅宗]
 #y~1846
@@ -4604,6 +5032,7 @@ tag 漢土
 tag 漢民族
 
 <-肅宗,肅宗(辛丑) 唐:762-4-甲子 #支那改元日{#李唐 #粛宗} #異説
+tag 元号復活
 
 tag 粛宗
 
@@ -8516,6 +8945,7 @@ name(kr) 동경
 %tag people
 %tag   label_ja 契丹人
 %tag   name_ja 契丹
+%tag   group of 中華異民族
 
 %tag country
 %tag   label_ja 契丹国

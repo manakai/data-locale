@@ -25320,16 +25320,19 @@
          "missing_yomis" : [
          ],
          "name" : "西魏廃帝",
-         "start_year" : 552,
+         "start_year" : 551,
          "yomis" : {
             "6100" : [
-               "せい ぎ はい てい"
+               "せい ぎ はい てい",
+               "はい てい"
             ],
             "6102" : [
-               "sei gi hai tei"
+               "sei gi hai tei",
+               "hai tei"
             ],
             "6103" : [
-               "sei gi hai tei"
+               "sei gi hai tei",
+               "hai tei"
             ]
          }
       },
@@ -25338,17 +25341,20 @@
          "key" : "西魏恭帝",
          "missing_yomis" : [
          ],
-         "name" : "恭帝",
+         "name" : "西魏恭帝",
          "start_year" : 554,
          "yomis" : {
             "6100" : [
-               "せい ぎ きょう てい"
+               "せい ぎ きょう てい",
+               "きょう てい"
             ],
             "6102" : [
-               "sei gi kyou tei"
+               "sei gi kyou tei",
+               "kyou tei"
             ],
             "6103" : [
-               "sei gi kyō tei"
+               "sei gi kyō tei",
+               "kyō tei"
             ]
          }
       },

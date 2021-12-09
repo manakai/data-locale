@@ -1,5 +1,6 @@
 %tag people
 %tag   name_ja 匈奴
+%tag   group of 五胡
 
 %tag people
 %tag   name_ja 北匈奴

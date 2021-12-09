@@ -3,6 +3,7 @@
 
 %tag people
 %tag   name_ja ベトナム人
+%tag   group of 中華異民族
 
 %tag region
 %tag   name_ja 越
@@ -20,6 +21,7 @@
 
 %tag people
 %tag   name_ja 壮族
+%tag   group of 中華異民族
 
 def[越南民主共和]
 name(vi) Việt Nam Dân chủ Cộng hòa

@@ -26,46 +26,6 @@ country
   name_ja ソビエト連邦
   name_ja ソ連
 
-country
-  name_ja 高麗
-  period of 朝鮮
-
-country
-  name_ja 明領高麗
-  period of 高麗
-  region of 明
-
-country
-  name_ja 李氏朝鮮
-  period of 朝鮮
-
-country
-  name_ja 明領朝鮮
-  period of 李氏朝鮮
-  region of 明
-
-country
-  name_ja 清領朝鮮
-  period of 李氏朝鮮
-  region of 清
-
-country
-  name_ja 日本領朝鮮
-  period of 朝鮮
-  region of 大日本帝国
-
-country
-  name_ja 大韓民国
-  name_ja 韓国
-
-  period of 朝鮮
-
-country
-  name_ja 朝鮮民主主義人民共和国
-  name_ja 北朝鮮
-
-  period of 朝鮮
-
 region
   name_ja 大東亜共栄圏
 
@@ -107,25 +67,6 @@ country
 
 country
   name_ja 英国
-
-people
-  name_ja 日本人
-  name_en Japanese
-
-people
-  name_ja 大韓民国国民
-  name_ja 韓国人
-
-  group of 朝鮮人
-
-people
-  name_ja 朝鮮民主主義人民共和国国民
-  name_ja 北朝鮮人
-
-  group of 朝鮮人
-
-people
-  name_ja 朝鮮人
 
 people
   name_ja ウイグル人
@@ -247,6 +188,14 @@ action
   group of 制定
   group of 改元日
   group of 適用開始
+
+tag
+  name_ja 元号廃止前の元号
+  group of 元号
+
+tag
+  name_ja 元号復活
+  group of 元号
 
 action
   name_ja 事由
