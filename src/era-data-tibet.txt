@@ -7,6 +7,7 @@
 
 %tag people
 %tag   name_ja チベット人
+%tag   group of 中華異民族
 
 %tag country
 %tag   name_ja 吐蕃

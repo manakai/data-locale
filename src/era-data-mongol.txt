@@ -5,7 +5,8 @@
 
 %tag people
 %tag   name_ja 蒙古人
-%tag 
+%tag   group of 中華異民族
+
 %tag region
 %tag   name_ja 蒙古
 %tag 

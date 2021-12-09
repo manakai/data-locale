@@ -190,9 +190,6 @@
 %tag people
 %tag   name_ja 漢民族
 
-%tag people
-%tag   name_ja 中華異民族
-
 %tag action
 %tag   name_ja 支那改元日
 %tag   group of 制定
@@ -253,6 +250,10 @@
 %tag region
 %tag   name_ja 魏
 %tag   region of 漢土
+
+%tag position
+%tag   name_ja 魏王
+%tag   group of 王 (支那)
 
 %tag position
 %tag   name_ja 魏皇帝
@@ -385,6 +386,20 @@
 
 %tag religion
 %tag   name_ja 周易
+
+%tag action
+%tag   name_ja 漢化政策
+
+%tag people
+%tag   name_ja 中華異民族
+
+%tag people
+%tag   name_ja 胡
+%tag   group of 中華異民族
+
+%tag people
+%tag   name_ja 五胡
+%tag   group of 胡
 
 def[秦始皇]
 ## Source:
@@ -2823,6 +2838,8 @@ tag 建元撤回
 ->民國 g:1916-3-22 #中華民国 #中華帝国 #袁世凱 #退位 #事由 #グレゴリオ暦
 ->民國 g:1916-3-23 #中華民国 #再開 #グレゴリオ暦
 u 1-3-23
+
+tag 元号復活
 
 
 def[大同(己巳)]

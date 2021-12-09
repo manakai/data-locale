@@ -203,7 +203,9 @@ sub get_kmap ($) {
 sub nymmd2jd ($$$$$) {
   my ($g, $y, $m, $lm, $d) = @_;
 
-  if ($g eq '明' and (1663 <= $y and $y <= 1683+1)) {
+  if ($g eq '魏' and 452 <= $y) {
+    $g = '隋';
+  } elsif ($g eq '明' and (1663 <= $y and $y <= 1683+1)) {
     ## No calendar available
     $g = '清';
   } elsif ($g eq '清' and $y <= 1644) {

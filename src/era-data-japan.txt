@@ -1,3 +1,9 @@
+
+%tag people
+%tag   name_ja 日本人
+%tag   name_en Japanese
+%tag   group of 中華異民族
+
 %tag country
 %tag   key 日本国
 %tag   label_ja 日本国 (現代)
