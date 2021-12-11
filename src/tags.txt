@@ -1,22 +1,93 @@
 region
-  name_ja トルキスタン
+  name_ja 地球
 
 region
-  name_ja ウイグル
-  region of トルキスタン
+  name_ja ユーラシア
+  region of 地球
 
 region
-  name_ja トルファン
-  name_cn 吐鲁番
-  region of ウイグル
+  name_ja 欧州
+  region of ユーラシア
+
+region
+  name_ja アジア
+  region of ユーラシア
+
+region
+  name_ja 中東
+  region of アジア
+
+region
+  name_ja 南アジア
+  region of アジア
+
+region
+  name_ja 中央アジア
+  region of アジア
+
+region
+  name_ja 北アジア
+  region of アジア
+
+region
+  name_ja 東アジア
+  region of アジア
+
+region
+  name_ja 東南アジア
+  region of アジア
+  region of 南洋
+
+region
+  name_ja 太平洋
+  region of 地球
+
+region
+  name_ja 西太平洋
+  region of 太平洋
+  region of 南洋
+
+region
+  name_ja オセアニア
+  region of 地球
+
+region
+  name_ja アフリカ
+  region of 地球
+
+region
+  name_ja 米大陸
+  region of 地球
+
+region
+  name_ja 北米
+  region of 米大陸
+
+region
+  name_ja 中南米
+  region of 米大陸
+
+region
+  name_ja 中米
+  region of 中南米
+
+region
+  name_ja 南米
+  region of 中南米
+
+region
+  name_ja 南極
+  region of 地球
 
 region
   name_ja 露領シベリア
   region of ロシア帝国
+  region of 北アジア
 
 region
   name_ja ソ連領シベリア
   region of ソビエト社会主義共和国連邦
+  region of 北アジア
 
 country
   name_ja ロシア帝国
@@ -27,35 +98,53 @@ country
   name_ja ソ連
 
 region
+  name_ja 大東亜
+  region of 地球
+
+region
   name_ja 大東亜共栄圏
+  region of 大東亜
 
 country
   name_ja 豪州
   name_ja オーストラリア
+  region of オセアニア
 
 country
   key 米国
   name_ja アメリカ合衆国
   name_ja 米国
   name_ja アメリカ
+  region of 米大陸
 
 country
   name_ja オランダ
+  region of 欧州
 
 country
   name_ja スペイン
+  region of 欧州
 
 country
   name_ja ポルトガル
+  region of 欧州
 
 country
   name_ja タイ
+  region of 東南アジア
 
 country
   name_ja シンガポール
+  region of 東南アジア
+
+region
+  name_ja 南洋
+  region of 大東亜
 
 region
   name_ja 南洋群島
+  region of 南洋
+  region of 西太平洋
 
 region
   name_ja 日本領南洋群島
@@ -64,9 +153,11 @@ region
 
 country
   name_ja ブラジル
+  region of 南米
 
 country
   name_ja 英国
+  region of 欧州
 
 people
   name_ja ウイグル人
@@ -402,6 +493,8 @@ action
 
 action
   name_ja 通知発出
+  #subject: from
+  #object: to
 
 action
   name_ja 旧制度禁止命令
@@ -415,6 +508,8 @@ action
 action
   name_ja 外国通告
   group of 通知発出
+  #subject: from
+  #object: to
 
 action
   name_ja 年始改元決定

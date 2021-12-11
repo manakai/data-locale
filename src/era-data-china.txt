@@ -5,12 +5,14 @@
 
 %tag country
 %tag   name_ja 中国
+%tag   region of アジア
 
 %tag region
 %tag   name_ja 漢土
 %tag   name_ja 支那
 %tag   name_ja 支那本部
 %tag   name_en China
+%tag   region of 東アジア
 
 %tag region
 %tag   name_ja 夏

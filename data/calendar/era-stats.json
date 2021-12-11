@@ -1,9 +1,9 @@
 {
    "eras" : {
       "all" : 1919,
-      "no_offset" : 144,
-      "no_start_year" : 752,
-      "no_tag" : 722
+      "no_offset" : 143,
+      "no_start_year" : 745,
+      "no_tag" : 715
    },
    "han_chars" : {
       "all" : {

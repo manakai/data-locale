@@ -9,6 +9,8 @@
 
 %tag region
 %tag   name_ja 蒙古
+%tag   region of 中央アジア
+%tag   region of 東アジア
 %tag 
 %tag region
 %tag   name_ja 外蒙古
