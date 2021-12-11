@@ -1,5 +1,7 @@
 %tag region
 %tag   name_ja 越南
+%tag   region of 東南アジア
+%tag   region of 東アジア
 
 %tag people
 %tag   name_ja ベトナム人

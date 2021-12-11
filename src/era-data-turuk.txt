@@ -5,6 +5,18 @@
 %tag   name_ja 沙陀族
 %tag   group of 中華異民族
 
+%tag region
+%tag   name_ja トルキスタン
+
+%tag region
+%tag   name_ja ウイグル
+%tag   region of トルキスタン
+
+%tag region
+%tag   name_ja トルファン
+%tag   name_cn 吐鲁番
+%tag   region of ウイグル
+
 [天壽(戊寅)]
 #y~207
 

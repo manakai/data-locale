@@ -35,6 +35,8 @@
 
 %tag region
 %tag   name_ja 台湾
+%tag   region of 西太平洋
+%tag   region of 東アジア
 
 %tag region
 %tag   name_ja 基隆

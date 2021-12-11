@@ -907,7 +907,8 @@ for my $tr (@$Input) {
             $param_tags->{$t1} = 1;
             if ($tag->{type} eq 'country' or
                 $tag->{type} eq 'region' or
-                $tag->{type} eq 'person') {
+                $tag->{type} eq 'person' or
+                $tag->{type} eq 'org') {
               $x->{object_tag_ids}->{$tag->{id}} = 1;
             } else {
               die "Bad parameter tag: |$t1| (type: $tag->{type})";

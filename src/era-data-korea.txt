@@ -61,6 +61,7 @@
 
 %tag region
 %tag   name_ja 朝鮮
+%tag   region of 東アジア
 
 %tag region
 %tag   name_ja 帯方郡

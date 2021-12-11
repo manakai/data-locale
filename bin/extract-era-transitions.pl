@@ -59,9 +59,9 @@ sub get_transition ($$$) {
 
   for my $tr (grep { $_->{relevant_era_ids}->{$era->{id}} } @$Transitions) {
     if (defined $tr->{day}) {
-      next if $tr->{day}->{mjd} <= $mjd;
+      next if $tr->{day}->{mjd} < $mjd;
     } elsif (defined $tr->{day_start}) {
-      next if $tr->{day_end}->{mjd} <= $mjd;
+      next if $tr->{day_end}->{mjd} < $mjd;
     } else {
       die "Bad transition";
     }

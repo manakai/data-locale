@@ -1,6 +1,7 @@
 
 %tag region
 %tag   name_ja チベット
+%tag   region of 南アジア
 
 %tag region
 %tag   name_ja 四川

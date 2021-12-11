@@ -50,6 +50,8 @@
 %tag   name_ja 日本
 %tag   name_ja 日本国
 %tag   name_en Japan
+%tag   region of 西太平洋
+%tag   region of 東アジア
 
 %tag region
 %tag   label_ja 日本国福島県
@@ -217,6 +219,14 @@
 %tag   name_ja 室町幕府改元吉書始
 %tag   group of 吉書始
 %tag   group of 室町幕府施行
+
+%tag org
+%tag   name_ja 日本政府
+
+%tag org
+%tag   label_ja 日本外務省
+%tag   name_ja 外務省
+%tag   group of 日本政府
 
 %tag action
 %tag   name_ja 行政官布告
