@@ -53,7 +53,8 @@ sub get_transition ($$$) {
 
   my $fys;
   my $fd;
-  my $matched = [];
+  my $matched1 = [];
+  my $matched2 = [];
   my $matched_others = [];
 
   for my $tr (grep { $_->{relevant_era_ids}->{$era->{id}} } @$Transitions) {
@@ -76,7 +77,7 @@ sub get_transition ($$$) {
            $direction eq 'incoming')) {
         $fd_matched = 1;
         if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
-          push @$matched, $tr;
+          push @$matched2, $tr;
         }
         if (not has_tag $tr, $TagsExcluded) {
           $fd //= $tr;
@@ -86,7 +87,7 @@ sub get_transition ($$$) {
       if (($tr->{type} eq 'commenced' or $tr->{type} eq 'administrative') and
           not $tr->{tag_ids}->{2107}) { # 分離
         if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
-          push @$matched, $tr;
+          push @$matched1, $tr;
         } else {
           push @$matched_others, $tr;
         }
@@ -98,7 +99,7 @@ sub get_transition ($$$) {
            $tr->{type} eq 'renamed') and
           not $fd_matched) {
         if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
-          push @$matched, $tr;
+          push @$matched2, $tr;
         } else {
           push @$matched_others, $tr;
         }
@@ -110,7 +111,7 @@ sub get_transition ($$$) {
       }
     } # direction matched
 
-    if (@$matched) {
+    if (@$matched1 or @$matched2) {
       if (do {
         ($direction eq 'outgoing' and $tr->{next_era_ids}->{$era->{id}})
             or
@@ -121,7 +122,8 @@ sub get_transition ($$$) {
     }
   } # $tr
 
-  return $matched->[0] if @$matched;
+  return $matched1->[0] if @$matched1;
+  return $matched2->[0] if @$matched2;
   return $fd if defined $fd;
   return $fys if defined $fys;
   return $matched_others->[-1] if @$matched_others;
