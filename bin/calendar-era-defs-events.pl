@@ -176,6 +176,7 @@ my $GToKMapKey = {
   晋 => 'gishin',
   南 => 'south',
   北魏 => 'zuitou',
+  東魏 => 'tougi',
   隋 => 'zuitou',
   唐 => 'zuitou',
   宋 => 'sou',

@@ -452,6 +452,10 @@ action
   group of 利用開始
   group of 分離
 
+action
+  name_ja 派生
+  group of 発生
+
 tag
   name_ja 適用開始前日
 
