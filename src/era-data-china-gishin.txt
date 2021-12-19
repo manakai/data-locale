@@ -2717,6 +2717,77 @@ s+
 
 
 
+
+
+
+[聖君]
+#y~838
+
+AD471 = 1
+
+tag 北魏
+tag 漢土
+
+%tag country
+%tag   label_ja 晋 (司馬小君)
+%tag   name_ja 晋
+tag 晋 (司馬小君)
+
+%tag person
+%tag   name_ja 司馬小君
+tag 司馬小君
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B716>"聖君"
+#"高祖時，妖賊司馬小君，自稱晉後，聚黨三千餘人，屯聚平陵，號年聖君。
+#攻破郡縣，殺害長吏。平原身自討擊，殺七人，擒小君，送京師斬之。"
+name 聖君
+s+
+
+## [102]
+#471
+
+## <https://zh.wikipedia.org/wiki/%E5%8F%B8%E9%A6%AC%E5%B0%8F%E5%90%9B>
+<-延興(辛亥) ->聖君,聖君(己酉) [魏:471-11]
+    #建元前の即位{#晋_(司馬小君) #司馬小君} #北魏
+<-延興(辛亥) [魏:471-11] #支那改元日{#晋_(司馬小君) #司馬小君} #起事建元
+    #北魏
+->延興(辛亥) <-聖君,聖君(己酉) [魏:471-11]
+    #陥落{#北魏, #晋_(司馬小君) #司馬小君} #捕縛
+
+wref_ja 聖君
+name_ja 聖君
+name_kana せい くん
+#471
+#529 辛亥
+tag 私年号 (ウィキペディア)
+
+## AD471 辛亥
+## AD529 己酉
+
+def[聖君(己酉)]
+
+AD529 = 1
+
+tag 旧説
+
+tag 北魏
+tag 漢土
+
+tag 晋 (司馬小君)
+tag 司馬小君
+
+wref_ja 聖君
+name_ja 聖君
+name_kana せい くん
+#471
+#529 辛亥
+tag 私年号 (ウィキペディア)
+## <https://ja.wikipedia.org/w/index.php?title=%E8%81%96%E5%90%9B&oldid=12101333>
+#<-聖君
+>< g:2007-4-24 #初出 #グレゴリオ暦
+
+
+
 %tag tag
 %tag   name_ja 支那南北朝時代
 %tag   period of 中国
@@ -3692,6 +3763,8 @@ name 天監
 s+
 # [景明三年,五月]
 ## AD502
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B7105%E4%B9%8B%E5%9B%9B>"改元"
 
 [普通]
 #y~498

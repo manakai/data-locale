@@ -18,6 +18,7 @@
 %tag   name_ja 羌
 %tag   group of チベット人
 
+
 [天建]
 #y~516
 

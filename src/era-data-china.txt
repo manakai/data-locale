@@ -333,6 +333,10 @@
 %tag   region of 漢土
 
 %tag position
+%tag   name_ja 宋王
+%tag   group of 王 (支那)
+
+%tag position
 %tag   name_ja 宋皇帝
 %tag   group of 支那皇帝
 

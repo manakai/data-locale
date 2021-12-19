@@ -1,6 +1,7 @@
 # y~1917 神元皇帝
 # + tag 2166 #東魏
-# <https://data.suikawiki.org/tag/1922/graph?sequence=1917%2B2166>
+# - tag 2241 #曹弐竜
+# <https://data.suikawiki.org/tag/1922/graph?sequence=1917%2B2166-2241>
 # y~1365 has multiple nexts: 493,1892
 # y~489 has multiple nexts: 589,1893
 # y~1666 has multiple nexts: 1846,1847

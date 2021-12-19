@@ -853,3 +853,6 @@ event
 
 action
   name_ja 初出土
+
+action
+  name_ja 初出
