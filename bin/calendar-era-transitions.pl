@@ -871,6 +871,7 @@ for my $tr (@$Input) {
             if ($tag->{type} eq 'country' or
                 $tag->{type} eq 'org' or
                 $tag->{type} eq 'people' or
+                $tag->{type} eq 'religion' or
                 $tag->{type} eq 'source') {
               if (defined $tags2) {
                 $x->{subject_tag_ids}->{$tag->{id}} = 1;
@@ -913,6 +914,7 @@ for my $tr (@$Input) {
             if ($tag->{type} eq 'country' or
                 $tag->{type} eq 'region' or
                 $tag->{type} eq 'person' or
+                $tag->{type} eq 'religion' or
                 $tag->{type} eq 'org') {
               $x->{object_tag_ids}->{$tag->{id}} = 1;
             } else {

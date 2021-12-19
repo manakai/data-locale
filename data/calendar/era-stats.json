@@ -1,9 +1,9 @@
 {
    "eras" : {
-      "all" : 1933,
-      "no_offset" : 144,
-      "no_start_year" : 733,
-      "no_tag" : 699
+      "all" : 1936,
+      "no_offset" : 143,
+      "no_start_year" : 719,
+      "no_tag" : 684
    },
    "han_chars" : {
       "all" : {
@@ -27,6 +27,7 @@
          "之" : 1,
          "乌" : 1,
          "乐" : 1,
+         "乗" : 1,
          "乘" : 1,
          "乾" : 1,
          "亀" : 1,

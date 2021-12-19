@@ -1,9 +1,13 @@
+%tag people
+%tag   name_ja トゥルク人
+%tag   group of 中華異民族
+
 %tag country
 %tag   name_ja 突厥
 
 %tag people
 %tag   name_ja 沙陀族
-%tag   group of 中華異民族
+%tag   group of トゥルク人
 
 %tag region
 %tag   name_ja トルキスタン
@@ -16,6 +20,89 @@
 %tag   name_ja トルファン
 %tag   name_cn 吐鲁番
 %tag   region of ウイグル
+
+%tag people
+%tag   name_ja 丁零
+%tag   group of トゥルク人
+
+
+[魯興]
+#y~1489
+
+AD526 = 1
+
+tag 丁零
+tag 北魏
+tag 内蒙古
+
+%tag person
+%tag   name_ja 鮮于修礼
+tag 鮮于修礼
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B79>"魯興"
+name 魯興
+s+
+#526-1 #蜂起 #改元
+->廣安(丙午) <-魯興,魯興(戊申) 魏:526-8-癸巳
+    #鎮圧{#元洪業, #鮮于修礼} #北魏 #事由 #死去
+->廣安(丙午) <-魯興,魯興(戊申) 魏:526-8-癸巳
+    #鎮圧{#葛栄, #元洪業} #北魏 #事由 #死去
+
+%tag person
+%tag   name_ja 元洪業
+tag 元洪業
+
+## [102] <https://zh.wikipedia.org/wiki/%E9%B2%9C%E4%BA%8E%E4%BF%AE%E7%A4%BC>
+#526-1 - 526-8
+#528
+#->廣安(丙午) [魏:526-8] #鎮圧{#元洪業, #鮮于修礼} #北魏 #事由 #死去
+#->廣安(丙午) [魏:526-8] #勢力吸収{#葛栄, #鮮于修礼}
+#                                         残党
+
+wref_ja 魯興
+name_ja 魯興
+name_kana ろ こう
+#526
+tag 私年号 (ウィキペディア)
+
+## <https://ja.wikipedia.org/wiki/%E9%AE%AE%E4%BA%8E%E4%BF%AE%E7%A4%BC>
+<-孝昌 ->魯興,魯興(戊申) [魏:526-1] #建元前の即位{#鮮于修礼} #北魏
+<-孝昌 [魏:526-1] #支那改元日{#鮮于修礼} #起事建元 #北魏
+#-> [魏:526-8] #鎮圧{#元洪業, #鮮于修礼} #北魏 #事由 #死去
+
+## <https://vi.wikipedia.org/wiki/Ti%C3%AAn_Vu_Tu_L%E1%BB%85>
+name(vi) Lỗ Hưng
+
+&
+## [102]
+name_tw 普興
+name_cn 鲁兴
+
+def[魯興(戊申)]
+#y~1961
+
+AD528 = 1
+
+tag 旧説
+
+tag 丁零
+tag 北魏
+tag 内蒙古
+
+tag 鮮于修礼
+
+## [102] <https://zh.wikipedia.org/wiki/%E9%B2%9C%E4%BA%8E%E4%BF%AE%E7%A4%BC>
+wref_zh 鲜于修礼
+name_tw 魯興
+name_cn 鲁兴
+#526-1 - 526-8
+#528
+## <https://zh.wikipedia.org/w/index.php?title=%E9%AD%AF%E8%88%88&oldid=1453353>
+>< g:2006-1-28 #初出 #グレゴリオ暦
+
+<-孝昌 [魏:528] #支那改元日{#鮮于修礼} #起事建元 #北魏 #旧説
+
+
 
 [天壽(戊寅)]
 #y~207

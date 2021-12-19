@@ -131,6 +131,7 @@ sub get_transition ($$$) {
 } # get_transition
 
 my $items = [];
+my $has_error = 0;
 
 
 my $start_era = $EraData->{eras}->{$StartEraKey}
@@ -144,9 +145,14 @@ push @$items, my $last_item = {
   delta => 0,
 };
 
+my $seen = {};
 while (1) {
   my $tr = get_transition ($last_item->{era}, $last_item->{day}->{mjd}, 'outgoing');
   last unless defined $tr;
+  if ($seen->{$tr}++) {
+    printf STDOUT "# Transition loop found!\n";
+    last;
+  }
   my $next_era_ids = [sort { $a <=> $b } keys %{$tr->{next_era_ids}}];
   #die "Multiple nexts" if @$next_era_ids != 1;
   if (@$next_era_ids != 1) {
@@ -166,6 +172,11 @@ while (1) {
     day => $tr->{day} // $tr->{day_end},
     delta => $delta,
   };
+  if (@$items > 1000) {
+    printf "Too many items!\n";
+    $has_error = 1;
+    last;
+  }
 }
 
 binmode STDOUT, qw(:encoding(utf-8));
@@ -178,5 +189,7 @@ for my $item (@$items) {
       $item->{day}->{mjd} + $item->{delta},
       $item->{era}->{key};
 }
+
+exit 1 if $has_error;
 
 ## License: Public Domain.
