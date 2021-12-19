@@ -274,6 +274,10 @@ tag
   name_ja 称制紀年
   group of 東洋式即位紀年
 
+tag
+  name_ja 元号に並行する即位紀年
+  group of 東洋式即位紀年
+
 action
   name_ja 称元
   group of 制定
@@ -319,6 +323,9 @@ action
 
 action
   name_ja 禅譲
+
+action
+  name_ja 誕生
 
 action
   name_ja 死去
@@ -408,6 +415,9 @@ tag
 
 tag
   name_ja 私年号 (ウィキペディア)
+
+tag
+  name_ja 逸年号 (ウィキペディア)
 
 tag
   name_ja 一世一元
@@ -726,6 +736,10 @@ action
   group of 祥瑞
 
 action
+  name_ja 象祥瑞
+  group of 祥瑞
+
+action
   name_ja 災異
   group of 事由
 
@@ -836,3 +850,6 @@ tag
 
 event
   name_ja 第二次世界大戦
+
+action
+  name_ja 初出土

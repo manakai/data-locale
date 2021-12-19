@@ -153,6 +153,7 @@ while (1) {
     printf STDOUT "# y~%d has multiple nexts: %s\n",
         $last_item->{era}->{id},
         join ',', @$next_era_ids;
+    last unless @$next_era_ids;
   }
   my $delta = 0;
   if ($tr->{type} eq 'wartime' and

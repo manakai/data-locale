@@ -1,5 +1,6 @@
 # y~1917 神元皇帝
 # <https://data.suikawiki.org/tag/1922/graph?sequence=1917>
+# y~1932 has multiple nexts: 1933,1936,1940
 # y~1365 has multiple nexts: 493,1892
 # y~489 has multiple nexts: 589,1893
 # y~1666 has multiple nexts: 1846,1847
@@ -119,18 +120,18 @@ mjd:-483457 大統
 mjd:-476931 西魏廃帝
 # g:0555-02-08+0 y~1932 firstday
 mjd:-476193 西魏恭帝
-# g:0557-02-17+0 y~1933 firstyearstart
+# g:0557-02-17+0 y~1933 firstday
 mjd:-475453 孝閔帝
-# g:0557-02-17+0 y~1934 firstyearstart
-mjd:-475453 明帝
-# g:0559-10-03+0 y~625 firstday
-mjd:-474495 武定(北周)
+# g:0557-11-07+0 y~1934 firstday
+mjd:-475190 明帝
+# g:0559-10-03+0 y~410 firstday
+mjd:-474495 武成
 # g:0561-02-03+0 y~1434 firstday
 mjd:-474006 保定
 # g:0566-02-12+0 y~1115 firstday
 mjd:-472171 天和(丙戌)
-# g:0572-04-14+0 y~66 firstday
-mjd:-469918 建德(壬辰)
+# g:0572-04-19+0 y~66 firstday
+mjd:-469913 建德(壬辰)
 # g:0578-04-19+0 y~1023 firstday
 mjd:-467722 宣政
 # g:0579-02-14+0 y~1420 firstday
