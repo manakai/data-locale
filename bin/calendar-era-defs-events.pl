@@ -628,6 +628,7 @@ for my $era (values %{$Data->{eras}}) {
             received => 1,
             'administrative' => 1,
             'wartime' => 1,
+            commenced => 1,
           }->{$tr->{type}}) {
             $era->{known_oldest_year} //= $year;
             $era->{known_oldest_year} = $year if $year < $era->{known_oldest_year};
