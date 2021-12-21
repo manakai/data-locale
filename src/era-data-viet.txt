@@ -25,6 +25,85 @@
 %tag   name_ja 壮族
 %tag   group of 中華異民族
 
+%tag region
+%tag   name_ja 北ベトナム
+%tag   region of 越南
+
+%tag region
+%tag   name_ja 南ベトナム
+%tag   region of 越南
+
+%tag position
+%tag   name_ja 南越帝
+%tag   group of 皇帝
+
+%tag country
+%tag   name_ja 前李朝
+%tag   period of 越南
+
+[天德]
+#y~1806
+
+AD544 = 1
+
+tag 南梁
+
+%tag country
+%tag   name_ja 万春
+%tag   period of 前李朝
+tag 万春
+
+%tag person
+%tag   name_ja 李賁
+tag 李賁
+
+
+## [102]
+#544-1 - 548-3
+## <https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E6%A2%81>
+#"南梁统治地区其他势力的年号"
+
+wref_ja 天徳 (前李朝)
+name_ja 天徳
+name_kana てん とく
+#544 - 548
+
+## <https://ja.wikipedia.org/wiki/%E6%9D%8E%E8%B3%81>
+<-大同(乙卯) [南:544-1] #建元前の即位{#万春 #李賁 #南越帝} #南梁
+<-大同(乙卯) [南:544-1] #支那改元日{#万春 #李賁} #起事建元 #南梁
+->太清 南:548-3-20 j:548-4-13 #陥落{#南梁 #陳霸先, #万春 #李賁} #死去
+# #即位 李天宝
+# #陥落{#陳霸先, 李天宝}
+# AD550 撤退{#陳霸先}
+# AD555 #死去 李天宝
+# 分裂: 趙光復, 李仏子
+# AD571 #死去 趙光復
+# AD602 #陥落{#隋, #前李朝}
+
+wref_ko 티엔득
+name(kr) 티엔득
+name(vi) Thiên Đức
+#
+name(kr) 천덕
+#544 - 548
+
+&
+## [102]
+name_tw 大德
+name_cn 大德
+
+wref_ja 天徳 (前李朝)
+name_ja 大徳
+
+wref_ko 티엔득
+name(kr) 다이득
+name(vi) Đại Đức
+#
+name(kr) 대덕
+
+
+
+
 def[越南民主共和]
 name(vi) Việt Nam Dân chủ Cộng hòa
 name_ja 越南民主共和

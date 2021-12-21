@@ -7,16 +7,70 @@
 %tag   name_ja 四川
 
 %tag people
+%tag   name_ja チベット系民族
+
+%tag people
 %tag   name_ja チベット人
 %tag   group of 中華異民族
+%tag   group of チベット系民族
 
 %tag country
 %tag   name_ja 吐蕃
 
-
 %tag people
 %tag   name_ja 羌
-%tag   group of チベット人
+%tag   group of 中華異民族
+%tag   group of チベット系民族
+
+%tag people
+%tag   name_ja 氐
+%tag   group of 中華異民族
+%tag   group of チベット系民族
+
+
+%tag country
+%tag   name_ja 仇池
+%tag   period of 中国
+
+%tag country
+%tag   name_ja 後仇池
+%tag   period of 仇池
+
+%tag person
+%tag   name_ja 楊盛
+
+%tag person
+%tag   name_ja 楊玄
+
+[建義(丙子)]
+#y~193
+
+AD436 = 1
+
+tag 後仇池
+tag 氐
+tag 五胡十六国時代
+tag 漢土
+
+%tag person
+%tag   name_ja 楊難当
+tag 楊難当
+
+## [102]
+#436-3 - 442-5'
+
+wref_ja 建義 (仇池)
+name_ja 建義
+name_kana けん ぎ
+#436 - 442
+
+## <https://ja.wikipedia.org/wiki/%E6%A5%8A%E9%9B%A3%E5%BD%93>
+## <https://ja.wikipedia.org/wiki/%E4%BB%87%E6%B1%A0#%E5%AD%98%E7%B6%9A%E3%81%AB%E8%85%90%E5%BF%83>
+<-元嘉(甲子) [魏:436-3] #建元前の即位{#楊難当 #秦王 #後仇池}
+<-元嘉(甲子) [魏:436-3] #支那改元日{#楊難当 #後仇池} #起事建元
+# 大秦王
+->太平真君 [魏:442-5'] #勢力吸収{#北魏, #楊難当 #後仇池}
+
 
 
 [天建]
