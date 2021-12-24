@@ -502,8 +502,11 @@ action
 
 action
   name_ja マイクロネーション再開
-  group of 再開
+  group of 一部勢力再開
   group of マイクロネーション建元
+
+action
+  name_ja マイクロネーション建元
 
 action
   name_ja 通知発出
@@ -556,6 +559,29 @@ action
 action
   name_ja 再開
   group of 適用開始日
+
+action
+  name_ja 旧制再開
+  group of 再開
+
+action
+  name_ja 改元前旧制再開
+  group of 旧制再開
+
+action
+  name_ja 反乱改元側勝利再開
+  group of 再開
+
+action
+  name_ja 一部勢力再開
+  group of 再開
+
+action
+  name_ja 離反勢力合流再開
+  group of 再開
+
+tag
+  name_ja 再開元号の中断中
 
 action
   name_ja 実施中止
@@ -658,7 +684,9 @@ action
   group of 分離
 
 action
-  name_ja マイクロネーション建元
+  name_ja マイクロネーション設立建元
+  group of マイクロネーション建元
+  group of 分離
 
 tag
   name_ja 農民反乱
@@ -856,3 +884,16 @@ action
 
 action
   name_ja 初出
+
+tag
+  name_ja 利用中
+  name_en currently in use
+
+tag
+  name_ja 継続中
+  name_en currently effective
+  group of 利用中
+
+tag
+  name_ja 年不詳
+  name_en year not known

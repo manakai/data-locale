@@ -691,6 +691,7 @@ sub copy_transition_tags ($$;%) {
              1359 => '起事建元',
              1161 => '新の公年号',
              1153 => '魏の公年号',
+             2107 => '分離',
            }->{$_};
   }
 } # copy_transition_tags
@@ -819,6 +820,9 @@ for my $tr (@$Input) {
         set_object_tag $x, $v->{label};
         die 'XX'.'X' if $v->{incorrect};
         set_object_tag $x, '戦時異動' if $v->{type} eq 'wartime';
+        set_object_tag $x, '分離' if @$from_keys and {
+          AD => 1,
+        }->{$from_keys->[0]};
         set_object_tag $x, '行政異動'
             if $v->{type} eq 'succeed' and not $v->{label} eq '改元前の崩御';
         set_object_tag $x, '通知受領' if $v->{type} eq 'received';

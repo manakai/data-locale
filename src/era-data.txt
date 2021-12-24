@@ -122,6 +122,8 @@ tag 台湾
 tag 中華民国
 tag 台湾人
 
+tag 再開元号の中断中
+
 def[共和]
 name_ja 共和
 name_cn 共和
