@@ -10,6 +10,7 @@ my $RootPath = path (__FILE__)->parent->parent;
 my $DataPath = $RootPath->child ('local/calendar-era-defs-0.json');
 my $Data = json_bytes2perl $DataPath->slurp;
 my $ThisYear = [gmtime]->[5] + 1900;
+my $RecentYears = 10;
 
 my $EraTransitions;
 my $EraTags;
@@ -651,11 +652,8 @@ for my $era (values %{$Data->{eras}}) {
       if (not $tr->{type} eq 'wartime') {
         $era->{start_year} //= $y;
         $era->{start_year} = $y if $y < $era->{start_year};
-        if (not $tr->{tag_ids}->{1359} and # 起事建元
-            not ($era->{tag_ids}->{1078} and # 公年号
-                 ($tr->{tag_ids}->{2032} or # マイクロネーション再開
-                  $tr->{tag_ids}->{2007}))) { # マイクロネーション改元日
-          if (defined $era->{end_year} and $era->{end_year} < $y) {
+        unless ($tr->{tag_ids}->{2298}) { # 一部勢力再開
+          if (defined $era->{end_year} and $era->{end_year} <= $y) {
             delete $era->{end_year};
             delete $era->{end_day};
           }
@@ -666,10 +664,7 @@ for my $era (values %{$Data->{eras}}) {
           $era->{start_day} //= $tr->{day};
           $era->{start_day} = $tr->{day}
               if $tr->{day}->{mjd} < $era->{start_day}->{mjd};
-          if (not $tr->{tag_ids}->{1359} and # 起事建元
-              not ($era->{tag_ids}->{1078} and # 公年号
-                   ($tr->{tag_ids}->{2032} or # マイクロネーション再開
-                    $tr->{tag_ids}->{2007}))) { # マイクロネーション改元日
+          if (not $tr->{tag_ids}->{2107}) { # 分離
             $not_end_before_day //= $tr->{day}->{mjd};
             $not_end_before_day = $tr->{day}->{mjd}
                 if $not_end_before_day < $tr->{day}->{mjd};
@@ -736,7 +731,7 @@ for my $era (values %{$Data->{eras}}) {
       my $y = extract_day_year $day, $tr->{tag_ids};
       if (not $tr->{type} eq 'wartime' and
           not $tr->{type} eq 'administrative' and
-          not $tr->{tag_ids}->{1359} and # 起事建元
+          not $tr->{tag_ids}->{2107} and # 分離
           not ($era->{tag_ids}->{1078} and # 公年号
                ($tr->{tag_ids}->{2031} or # マイクロネーション再開前日
                 $tr->{tag_ids}->{2008}))) { # マイクロネーション改元前日
@@ -827,14 +822,12 @@ for my $era (values %{$Data->{eras}}) {
     }
     if ((not $has_end_year and
          $tr->{prev_era_ids}->{$era->{id}} and 
-         ($tr->{type} eq 'administrative' or $tr->{type} eq 'wartime')) or # has day or day_end
+         ($tr->{type} eq 'administrative' or $tr->{type} eq 'wartime') and # has day or day_end
+         not $tr->{tag_ids}->{2107}) or # 分離
         (not $has_prevfirstday and
          ($tr->{type} eq 'firstday' or $tr->{type} eq 'commenced') and
          $tr->{prev_era_ids}->{$era->{id}} and
-         not $tr->{tag_ids}->{1359} and # 起事建元
-         not ($era->{tag_ids}->{1078} and # 公年号
-              ($tr->{tag_ids}->{2032} or # マイクロネーション再開
-               $tr->{tag_ids}->{2007})))) { # マイクロネーション改元日
+         not $tr->{tag_ids}->{2107})) { # 分離
       my $day = $tr->{day};
       if (defined $day) {
         $day = ssday $day->{jd} - 1, $tr->{tag_ids};
@@ -855,7 +848,8 @@ for my $era (values %{$Data->{eras}}) {
     }
     if (not defined $era->{end_year} and
         $tr->{prev_era_ids}->{$era->{id}} and
-        $tr->{type} eq 'prevfirstyearstart') { # has day
+        $tr->{type} eq 'prevfirstyearstart' and # has day
+        not $tr->{tag_ids}->{2107}) { # 分離
       my $y = extract_day_year $tr->{day}, $tr->{tag_ids};
       if ((not defined $not_end_before_year or
            $not_end_before_year <= $y) and
@@ -890,7 +884,7 @@ for my $era (values %{$Data->{eras}}) {
   if (defined $era->{start_year} and
       not defined $era->{end_year} and
       defined $era->{known_latest_year} and
-      $era->{known_latest_year} + 10 < $ThisYear) { # XXX constant
+      $era->{known_latest_year} + $RecentYears < $ThisYear) {
     $era->{end_year} = $era->{known_latest_year};
   }
   delete $era->{end_year}
@@ -1026,6 +1020,18 @@ for my $era (values %{$Data->{eras}}) {
       $era->{end_year} > 1475 and
       $era->{start_year} < 1868) {
     set_object_tag $era, '樺太';
+  }
+
+  if (defined $era->{start_year} and
+      not defined $era->{end_year}) {
+    set_object_tag $era, '継続中';
+  } elsif (defined $era->{known_latest_year} and
+           $era->{known_latest_year} + $RecentYears >= $ThisYear) {
+    set_object_tag $era, '利用中';
+  }
+
+  if (not defined $era->{offset}) {
+    set_object_tag $era, '年不詳';
   }
 
   delete $era->{_FORM_GROUP_ONS};
