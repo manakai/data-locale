@@ -372,7 +372,7 @@ for my $path (
            lang => $1,
            preferred => $2,
            value => $3};
-    } elsif (defined $key and /^name\((cn|tw)\)(!|)\s+([\N{KATAKANA MIDDLE DOT}\p{Han}()]+)$/) {
+    } elsif (defined $key and /^name\((cn|tw|hk)\)(!|)\s+([\N{KATAKANA MIDDLE DOT}\p{Han}()]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'zh',
@@ -1552,6 +1552,7 @@ sub compute_form_group_ons ($) {
                 ja_old => 'jp',
                 cn => 'cn',
                 tw => 'tw',
+                hk => 'hk',
               }->{$rep->{lang} // $rep->{type}};
               if (not $has_preferred->{$lang}) {
                 $value->{is_preferred}->{$lang} = 1;

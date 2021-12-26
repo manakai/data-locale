@@ -57,6 +57,13 @@ u 58
 name 力微
 u 39
 
+&
+name_cn 鲜卑拓跋力微
+
+&
+sw 拓跋の即位紀年
+name_ja 神元帝
+
 def[拓跋悉鹿]
 #y~1918
 
@@ -71,8 +78,8 @@ tag 拓跋即位紀年
 %tag   name_ja 拓跋悉鹿
 tag 拓跋悉鹿
 
-# no known name
-name_ja 拓跋悉鹿
+sw 拓跋の即位紀年
+name_ja 章帝
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"章皇帝"
 #9 years
@@ -93,8 +100,8 @@ tag 拓跋即位紀年
 %tag   name_ja 拓跋綽
 tag 拓跋綽
 
-# no known name
-name_ja 拓跋綽
+sw 拓跋の即位紀年
+name_ja 平帝
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"平皇帝"
 u 7
@@ -120,8 +127,9 @@ tag 拓跋即位紀年
 %tag   name_ja 拓跋弗
 tag 拓跋弗
 
-# no known name
-name_ja 拓跋弗
+sw 拓跋の即位紀年
+name_ja 思帝
+#"思帝の年"
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"思皇帝"
 #1 year
@@ -151,6 +159,7 @@ s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B796>"昭帝"
 #"昭帝七年"
 name 昭帝
 u 7
+u 10
 u 12
 s+
 
@@ -159,6 +168,43 @@ s+
 ->拓跋猗盧 [魏:307] #改元前の死去{#北魏_(建国前) #拓跋禄官}
 
 AD307 = 13
+
+sw 拓跋の即位紀年
+name_ja 昭帝
+
+def[拓跋猗㐌]
+#y~1965
+
+sw 拓跋の即位紀年
+
+tag 拓跋部
+tag 北魏 (建国前)
+tag 代国
+tag 内蒙古
+tag 拓跋即位紀年
+
+%tag country
+%tag   name_ja 中部拓跋部
+%tag   region of 拓跋部
+%tag   period of 北魏 (建国前)
+tag 中部拓跋部
+
+%tag person
+%tag   name_ja 拓跋猗㐌
+tag 拓跋猗㐌
+
+## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E7%8C%97%E3%82%A4>
+<-拓跋禄官 [魏:295] #建元前の即位{#中部拓跋部 #大人 #拓跋猗㐌}
+->拓跋猗盧 [魏:305-6] #改元前の死去{#中部拓跋部 #拓跋猗㐌}
+## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E6%99%AE%E6%A0%B9>
+->拓跋猗盧 [魏:305-6] #建元前の即位{#中部拓跋部 #拓跋普根 #大人}
+->拓跋猗盧 [魏:306] #改元前の退位{#中部拓跋部 #拓跋普根 #大人}
+
+AD305 = 11
+
+name 皇魏桓帝
+&
+name 桓帝
 
 %tag region
 %tag   name_ja 代
@@ -191,6 +237,9 @@ tag 拓跋即位紀年
 %tag   name_ja 拓跋猗盧
 tag 拓跋猗盧
 
+sw 拓跋の即位紀年
+name_ja 穆帝
+
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"穆皇帝"
 u 1
 u 8
@@ -211,19 +260,45 @@ tag 西晋
 
 AD316 = 9
 
-->拓跋鬱律 [晋:316-3] #改元前の死去{#代国 #拓跋猗盧}
-->拓跋鬱律 [晋:316-3,晋:316-4] #建元前の即位{#代国 #拓跋普根 #代王}
+&
+name 拓跋猗盧
+u 3
+u 9
+
+->拓跋普根,拓跋鬱律 [晋:316-3] #改元前の死去{#代国 #拓跋猗盧}
+->拓跋普根,拓跋鬱律 [晋:316-3,晋:316-4] #建元前の即位{#代国 #拓跋普根 #代王}
 #拓跋普根 1 month
 %tag person
 %tag   name_ja 拓跋普根
 tag 拓跋普根
-->拓跋鬱律 [晋:316-3,晋:316-4] #建元前の即位{#代国 #拓跋普根 #代王}
-->拓跋鬱律 [晋:316-3,晋:316-4] #改元前の死去{#代国 #拓跋普根の子}
+->拓跋鬱律 <-拓跋猗盧,拓跋普根 [晋:316-3,晋:316-4]
+    #建元前の即位{#代国 #拓跋普根 #代王}
+->拓跋鬱律 <-拓跋猗盧,拓跋普根 [晋:316-3,晋:316-4]
+    #改元前の死去{#代国 #拓跋普根の子}
 #普根 子 months
 %tag person
 %tag   name_ja 拓跋普根の子
 tag 拓跋普根の子
-->拓跋鬱律 [晋:316-4,晋:316] #改元前の死去{#代国 #拓跋普根の子}
+->拓跋鬱律 <-拓跋猗盧,拓跋普根 [晋:316-4,晋:316]
+    #改元前の死去{#代国 #拓跋普根の子}
+
+def[拓跋普根]
+#y~1964
+
+sw 拓跋の即位紀年
+
+AD316 = 1
+
+tag 拓跋部
+tag 代国
+tag 内蒙古
+tag 拓跋即位紀年
+
+tag 拓跋普根
+
+name_cn 鲜卑拓跋普根
+u 1
+
 
 def[拓跋鬱律]
 #y~1923
@@ -237,8 +312,9 @@ tag 拓跋即位紀年
 %tag   name_ja 拓跋鬱律
 tag 拓跋鬱律
 
-# no known name
-name_ja 拓跋鬱律
+sw 拓跋の即位紀年
+name_ja 平文帝
+&
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"平文皇帝"
 #"元年，歲在丁丑。"
@@ -246,9 +322,19 @@ AD317 = 1
 u 1
 u 5
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"平文二年"
+name 平文
+u 2
+u 3
+
 ## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E9%AC%B1%E5%BE%8B>
 <-拓跋猗盧 [晋:316] #建元前の即位{#代国 #拓跋鬱律 #代王}
 ->拓跋賀傉 [晋:321] #改元前の死去{#代国 #拓跋鬱律}
+
+&
+name 拓跋鬱律
+u 2
+u 5
 
 def[拓跋賀傉]
 #y~1924
@@ -264,8 +350,8 @@ tag 拓跋即位紀年
 %tag   name_ja 拓跋賀傉
 tag 拓跋賀傉
 
-# no known name
-name_ja 拓跋賀傉
+sw 拓跋の即位紀年
+name_ja 恵帝
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"惠皇帝"
 <-拓跋鬱律 [晋:321] #建元前の即位{#代国 #拓跋賀傉 #代王}
@@ -292,8 +378,8 @@ tag 前元
 %tag   name_ja 拓跋紇那
 tag 拓跋紇那
 
-# no known name
-name_ja 拓跋紇那
+sw 拓跋の即位紀年
+name_ja 煬帝
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"煬皇帝"
 u 1
@@ -308,6 +394,7 @@ u 5
 <-拓跋賀傉 [晋:325-12] #称元{#代国 #拓跋紇那}
 
 def[拓跋翳槐]
+#y~1928
 
 AD329 = 1
 
@@ -321,12 +408,21 @@ tag 前元
 %tag   name_ja 拓跋翳槐
 tag 拓跋翳槐
 
+sw 拓跋の即位紀年
+name_ja 烈帝
+
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"烈皇帝"
 u 1
 #"以五年為元年"
 <-拓跋紇那 [晋:329] #称元{#代国 #拓跋翳槐}
 u 7
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"烈帝"
+name 烈帝
+u 1
+u 2
+u 5
+s+
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B796>"烈帝"
 #"烈帝六年"
 name 烈帝
@@ -336,6 +432,15 @@ s+
 ## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E7%B4%87%E9%82%A3>
 <-拓跋紇那 [晋:329] #建元前の即位{#代国 #拓跋翳槐 #代王} #重祚前の即位
 ->拓跋紇那後 [晋:335] #改元前の退位{#代国 #拓跋翳槐 #代王}
+
+&
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B714#%E9%AB%98%E6%B6%BC%E7%8E%8B>"烈帝之前"
+name 烈帝之前
+u 1
+s+
+
+&
+name_cn 鲜卑拓跋翳槐
 
 def[拓跋紇那後]
 #y~1927
@@ -349,7 +454,9 @@ tag 拓跋即位紀年
 
 tag 拓跋紇那
 
-name_ja 拓跋紇那後
+sw 拓跋の即位紀年
+name_ja 煬帝後
+
 &
 name_ja 後
 
@@ -375,7 +482,9 @@ tag 拓跋即位紀年
 
 tag 拓跋翳槐
 
-name_ja 拓跋翳槐後
+sw 拓跋の即位紀年
+name_ja 烈帝後
+
 &
 name_ja 後
 
@@ -402,9 +511,6 @@ tag 内蒙古
 %tag person
 %tag   name_ja 拓跋什翼犍
 tag 拓跋什翼犍
-
-#no known name
-name_ja 拓跋什翼犍
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"昭成皇帝"
 name 建國
@@ -472,11 +578,17 @@ u 9-8
 #作「七年」。按苻堅淝水之敗在晉太元八年〈三八三〉，
 #拓跋珪沒有建號前的所謂二年是三七八年，顯誤，今據改。"
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"太祖"
+#"太祖之七年"
+name 太祖
+u 7
+s+
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B796>"太祖"
 #"太祖七年"
 name 太祖
 u 7
 s+
+
 
 
 [登國]
@@ -7864,6 +7976,11 @@ tag 楊呉
 tag 前蜀
 tag 王建
 
+s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B71>"唐天復"
+u 1
+tag 契丹国
+tag 契丹人
+
 
 [天祐]
 #y~203
@@ -7910,9 +8027,18 @@ u 19
 #
 tag 契丹人
 tag 契丹国
-#904-4' - 916-12
+#907 - 916-2
+#[遼史7]
+#old revision: 904-4' - 916-12
 #
 u 21
+
+## <https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E9%81%BC%E6%9C%9D>
+tag 遼
+#907 - 916-2
+#"用唐朝天祐年號。（四年至十三年）" [遼史地理志]
+<-天復 [遼:907] #利用開始{#契丹_(耶律阿保機) #耶律阿保機}
+tag 契丹 (耶律阿保機)
 
 ## [103]
 wref_ja 天祐 (唐)
@@ -10701,51 +10827,7 @@ AD912 = 1
 
 name(kr) 동경
 
-#XXX
-#호탄 왕국: 동경 천존 중흥 천흥 천수
-
-%tag people
-%tag   label_ja 契丹人
-%tag   name_ja 契丹
-%tag   group of 中華異民族
-
-%tag country
-%tag   label_ja 契丹国
-%tag   name_ja 契丹
-
-%tag country
-%tag   name_ja 遼
-
-[天顯]
-#y~1218
-
-AD926 = 1
-
-s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B775>"天顯九年"
-name 天顯
-s+
-
-## <https://ja.wikipedia.org/wiki/%E8%80%B6%E5%BE%8B%E5%A0%AF%E9%AA%A8>
-#927 - 938
-#"天顕元年（926年）"
-
-tag 燕雲十六州
-
-[會同]
-#y~220
-
-AD938 = 1
-
-## <https://ja.wikipedia.org/wiki/%E8%80%B6%E5%BE%8B%E5%A0%AF%E9%AA%A8>
-#938 - 947
-
-tag 燕雲十六州
-
-s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B799>"天福十二年"
-<-開運 唐:947-2-1(丁巳) #国名変更{#後晋, #遼} #事由 #契丹国
-<-開運 唐:947-2-1(丁巳) #支那改元日{#遼} #後晋
-#"號會同十年"
-name 會同
+#XXX  天尊천존 中興중흥 天興천흥 천수
 
 
 
