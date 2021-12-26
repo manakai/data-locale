@@ -386,6 +386,10 @@ position
   group of 君主
 
 position
+  name_ja 可汗
+  group of 君主
+
+position
   name_ja 摂政
 
 position
@@ -587,9 +591,15 @@ action
   name_ja 実施中止
 
 action
+  name_ja 改元手続中止
+
+action
   name_ja 改元非難
   #subject: criticized by
   #object: switched by
+
+tag
+  name_ja 代始改元不実施
 
 action
   name_ja 撤回
