@@ -1039,6 +1039,11 @@ s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B7
 #             [丑]
 # -8[丑]-丙寅 = -7-丙寅: no such day
 
+s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B738>"紹漢"
+name 紹漢
+s+
+#"孫淵，自稱燕王，建元紹漢，魏滅之。"
+
 ## <https://zh.wikipedia.org/wiki/%E5%85%AC%E5%AD%AB%E6%B7%B5>
 #->景初 魏:238-8-丙寅 #陥落{#曹魏, #燕_(公孫淵) #公孫淵} #死去 #丑正
 #"九月丙寅日（9月3日）"

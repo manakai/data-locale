@@ -907,3 +907,6 @@ tag
 tag
   name_ja 年不詳
   name_en year not known
+
+tag
+  name_ja 年号銭

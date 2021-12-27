@@ -7068,6 +7068,12 @@ s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7
 
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7134>"大歷"
 name 大歷
+s+
+
+s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B740>"大歷"
+name 大歷
+s+
+u 4
 
 [建中]
 #y~322
@@ -7869,6 +7875,10 @@ tag 李裕
 # 900-11 - 901-1
 #中国歴代年号考: 玉海, 存疑
 tag 追号説のある元号
+
+## <https://zh.wikipedia.org/w/index.php?title=%E5%A4%A9%E7%A5%90_(%E5%94%90%E6%9C%9D)&diff=59961206&oldid=58445833>
+#续通历, 孙光宪: 哀帝 -> 濮王 #即位 #改元 (朱温) -> #禅譲
+#中国歴代年号考: 正史不合
 
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B720%E4%B8%8A>"登皇帝位"
 <-光化 唐:900-11-甲午 #改元前の退位{#李唐 #昭宗 #唐皇帝}

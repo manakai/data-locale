@@ -49,6 +49,10 @@
 %tag   name_ja 満州人
 %tag   group of 中華異民族
 
+#XXX
+#s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B738>"改元"
+#"十有二世至彝震，僭號改元，"...
+
 [天慶(己巳)]
 #y~1704
 
