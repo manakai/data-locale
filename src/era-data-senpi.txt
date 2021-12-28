@@ -2554,6 +2554,7 @@ tag 元顥
 %tag   period of 中国
 %tag   period of 支那北朝
 tag 北魏 (南梁)
+tag 属国元号
 
 tag 南梁
 
@@ -2586,6 +2587,7 @@ tag 漢民族
 
 tag 元顥
 tag 北魏 (南梁)
+tag 属国元号
 tag 南梁
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B710>"孝基"
@@ -2608,6 +2610,7 @@ AD529 = 1
 
 tag 拓跋部
 tag 北魏 (南梁)
+tag 属国元号
 tag 内蒙古
 tag 漢土
 tag 漢民族
@@ -2801,6 +2804,7 @@ tag 漢民族
 tag 元悦
 
 tag 北魏 (南梁)
+tag 属国元号
 
 tag 南梁
 
@@ -9211,6 +9215,7 @@ tag 突厥
 tag 沙陀族
 tag 北漢の公年号
 tag 遼
+tag 属国元号
 
 tag 劉鈞
 
@@ -9288,6 +9293,7 @@ tag 突厥
 tag 沙陀族
 tag 北漢の公年号
 tag 遼
+tag 属国元号
 
 tag 劉継元
 
@@ -9762,6 +9768,8 @@ name(kr) 중흥
 ## <http://big5.www.gov.cn/gate/big5/www.gov.cn/test/2006-05/09/content_276383.htm>
 #"其子李璟造“保大元寶”錢，中興二年鑄“永通泉貨”當十錢，"
 u 2
+
+tag 属国元号
 
 [交泰]
 #y~33

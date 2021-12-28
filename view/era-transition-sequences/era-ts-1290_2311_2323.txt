@@ -1,6 +1,7 @@
 # y~1290 天復
 # + tag 2311 #契丹 (耶律阿保機)
-# <https://data.suikawiki.org/tag/1974/graph?sequence=1290%2B2311>
+# + tag 2323 #耶律阿果
+# <https://data.suikawiki.org/tag/1974/graph?sequence=1290%2B2311%2B2323>
 # g:0901-05-18+0 y~1290 firstday
 mjd:-349720 天復
 # g:0908-02-09+0 y~203 commenced
@@ -49,5 +50,5 @@ mjd:-276742 乾統
 mjd:-273110 天慶(辛卯)
 # g:1121-01-28+0 y~1634 firstday
 mjd:-269477 保大(辛丑)
-# g:1125-09-13+1 y~1430 wartime
-mjd:-267787 天會(癸卯)
+# g:1125-04-12+1 y~1430 wartime
+mjd:-267941 天會(癸卯)

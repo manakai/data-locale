@@ -46,6 +46,9 @@
 %tag   name_ja 上都
 %tag   region of 元
 
+%tag source
+%tag   name_ja 元史
+
 def[太祖]
 #y~1836
 
