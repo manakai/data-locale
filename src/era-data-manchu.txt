@@ -49,6 +49,10 @@
 %tag   name_ja 満州人
 %tag   group of 中華異民族
 
+#XXX
+#s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B738>"改元"
+#"十有二世至彝震，僭號改元，"...
+
 [天慶(己巳)]
 #y~1704
 
@@ -1267,6 +1271,7 @@ tag 漢民族
 tag 日本領満鉄附属地
 tag 日本領関東州
 tag 溥儀
+tag 属国元号
 
 %tag position
 %tag   name_ja 執政
@@ -1319,6 +1324,7 @@ tag 蒙古人
 tag 漢民族
 tag 日本領満鉄附属地
 tag 日本領関東州
+tag 属国元号
 
 <-大同(壬申) g:1934-03-01 #建元前の即位{#大満州帝国 #溥儀 #支那皇帝}
     #大日本帝国 #グレゴリオ暦

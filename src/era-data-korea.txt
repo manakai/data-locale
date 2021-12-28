@@ -64,6 +64,14 @@
 %tag   region of 東アジア
 
 %tag region
+%tag   name_ja 北鮮
+%tag   region of 朝鮮
+
+%tag region
+%tag   name_ja 南鮮
+%tag   region of 朝鮮
+
+%tag region
 %tag   name_ja 帯方郡
 %tag   region of 朝鮮
 

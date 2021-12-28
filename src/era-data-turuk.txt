@@ -11,6 +11,15 @@
 
 %tag region
 %tag   name_ja トルキスタン
+%tag   region of 中央アジア
+
+%tag region
+%tag   name_ja 西トルキスタン
+%tag   region of トルキスタン
+
+%tag region
+%tag   name_ja 東トルキスタン
+%tag   region of トルキスタン
 
 %tag region
 %tag   name_ja ウイグル

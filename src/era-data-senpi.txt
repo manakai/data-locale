@@ -2554,6 +2554,7 @@ tag 元顥
 %tag   period of 中国
 %tag   period of 支那北朝
 tag 北魏 (南梁)
+tag 属国元号
 
 tag 南梁
 
@@ -2586,6 +2587,7 @@ tag 漢民族
 
 tag 元顥
 tag 北魏 (南梁)
+tag 属国元号
 tag 南梁
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B710>"孝基"
@@ -2608,6 +2610,7 @@ AD529 = 1
 
 tag 拓跋部
 tag 北魏 (南梁)
+tag 属国元号
 tag 内蒙古
 tag 漢土
 tag 漢民族
@@ -2801,6 +2804,7 @@ tag 漢民族
 tag 元悦
 
 tag 北魏 (南梁)
+tag 属国元号
 
 tag 南梁
 
@@ -7068,6 +7072,12 @@ s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7
 
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7134>"大歷"
 name 大歷
+s+
+
+s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B740>"大歷"
+name 大歷
+s+
+u 4
 
 [建中]
 #y~322
@@ -7869,6 +7879,10 @@ tag 李裕
 # 900-11 - 901-1
 #中国歴代年号考: 玉海, 存疑
 tag 追号説のある元号
+
+## <https://zh.wikipedia.org/w/index.php?title=%E5%A4%A9%E7%A5%90_(%E5%94%90%E6%9C%9D)&diff=59961206&oldid=58445833>
+#续通历, 孙光宪: 哀帝 -> 濮王 #即位 #改元 (朱温) -> #禅譲
+#中国歴代年号考: 正史不合
 
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B720%E4%B8%8A>"登皇帝位"
 <-光化 唐:900-11-甲午 #改元前の退位{#李唐 #昭宗 #唐皇帝}
@@ -9201,6 +9215,7 @@ tag 突厥
 tag 沙陀族
 tag 北漢の公年号
 tag 遼
+tag 属国元号
 
 tag 劉鈞
 
@@ -9278,6 +9293,7 @@ tag 突厥
 tag 沙陀族
 tag 北漢の公年号
 tag 遼
+tag 属国元号
 
 tag 劉継元
 
@@ -9752,6 +9768,8 @@ name(kr) 중흥
 ## <http://big5.www.gov.cn/gate/big5/www.gov.cn/test/2006-05/09/content_276383.htm>
 #"其子李璟造“保大元寶”錢，中興二年鑄“永通泉貨”當十錢，"
 u 2
+
+tag 属国元号
 
 [交泰]
 #y~33
