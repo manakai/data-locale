@@ -24,6 +24,37 @@
 %tag   name_ja 東蒙古
 %tag   region of 内蒙古
 
+
+[天興(丁卯)]
+#y~363
+
+AD1147 = 1
+
+tag 金
+tag 蒙古
+tag 蒙古人
+
+## [102]
+#1147
+#中国歴代年号考
+
+%tag person
+%tag   name_ja 熬羅孛極烈
+tag 熬羅孛極烈
+
+## <https://zh.wikipedia.org/wiki/%E7%86%AC%E7%BE%85%E5%AD%9B%E6%A5%B5%E7%83%88>
+<-皇統 [金:1147-3] #建元前の即位{#熬羅孛極烈 #皇帝}
+#祖元皇叔（帝）
+<-皇統 [金:1147-3] #支那改元日{#熬羅孛極烈} #起事建元
+
+wref_ja 天興 (熬羅孛極烈)
+name_ja 天興
+name_kana てん こう
+#1147
+tag 私年号 (ウィキペディア)
+
+
+
 %tag country
 %tag   name_ja 蒙古帝国
 %tag   period of 蒙古
@@ -81,6 +112,10 @@ name_tw 太祖
 name_tw 成吉思汗
 &
 name_tw 太祖成吉思汗
+
+tag 金
+tag 満州
+tag 北支
 
 def[拖雷監国]
 #y~1839

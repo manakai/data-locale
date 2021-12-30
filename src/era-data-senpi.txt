@@ -5757,6 +5757,9 @@ s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7
 #684-7 彗星
 <-文明(甲申) [唐:684-9] #支那改元日{#李唐 #唐睿宗} #則天武后
 
+## <https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/160359/1/JOR_68_2_219.pdf#page=33>
+name(en) Guangzhai
+
 [垂拱]
 #y~1481
 AD685 = 1
@@ -5861,6 +5864,9 @@ s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7
 <-永昌(己丑) ->載初,載初(己丑) 唐:689-11-1(庚辰)
     #支那改元日{#李唐 #唐睿宗} #則天武后 #武周正
 s+
+
+## <https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/160359/1/JOR_68_2_219.pdf#page=33>
+name(en) Zaichu
 
 def[載初(己丑)]
 #y~1892
@@ -6458,6 +6464,9 @@ name_kana けい りゅう
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B77>"景龍"
 <-神龍 唐:707-9-5(庚子) j:707-10-5 #支那改元日{#李唐 #唐中宗}
 
+## <https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/160359/1/JOR_68_2_219.pdf#page=33>
+name(en) Jinglong
+
 [唐隆]
 #y~987
 AD710 = 1
@@ -6594,6 +6603,9 @@ s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B724>"太極"
 #712-1
 
+## <https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/160359/1/JOR_68_2_219.pdf#page=33>
+name(en) Taiji
+
 [延和(壬子)]
 #y~273
 AD712 = 1
@@ -6677,6 +6689,9 @@ s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7
 #-12-戊子，上加尊號為開元神武皇帝。
 tag 君主名の元号
 <-先天 唐:713-12-1(庚寅) #支那改元日{#李唐 #玄宗}
+
+## <https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/160359/1/JOR_68_2_219.pdf#page=33>
+name(en) Kaiyuan
 
 [天寶]
 #y~810

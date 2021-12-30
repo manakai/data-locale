@@ -34,20 +34,32 @@
 %tag   region of 内満州
 
 %tag people
-%tag   name_ja 粟末靺鞨
+%tag   name_ja 靺鞨系
 %tag   group of 中華異民族
+
+%tag people
+%tag   name_ja 靺鞨
+%tag   group of 靺鞨系
+
+%tag people
+%tag   name_ja 粟末靺鞨
+%tag   group of 靺鞨
 
 %tag people
 %tag   name_ja 渤海人
-%tag   group of 中華異民族
+%tag   group of 靺鞨系
+
+%tag people
+%tag   name_ja 黒水靺鞨
+%tag   group of 靺鞨
 
 %tag people
 %tag   name_ja 女真人
-%tag   group of 中華異民族
+%tag   group of 靺鞨系
 
 %tag people
 %tag   name_ja 満州人
-%tag   group of 中華異民族
+%tag   group of 靺鞨系
 
 #XXX
 #s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B738>"改元"
@@ -109,6 +121,7 @@ AD1116 = 1
 tag 内満州
 tag 渤海人
 tag 契丹国
+tag 金
 
 %tag country
 %tag   name_ja 大渤海
@@ -127,6 +140,11 @@ u 1
 <-天慶(辛卯) 遼:1116-1-1 #支那改元日{#大渤海 #高永昌} #契丹国 #起事建元
     #旧説
 
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B771>"隆基"
+name 隆基
+s+
+#"收國二年四月"...
+## AD1116
 
 ## [102]
 #1116-1-5 - 1116-5
@@ -178,11 +196,1580 @@ name_cn 应顺
 
 %tag country
 %tag   name_tw 金
+%tag   name_ja 大金
+%tag   region of 東アジア
+%tag   period of 満州
+%tag   period of 中国
+
+%tag source
+%tag   name_ja 金史
+
+%tag tag
+%tag   name_ja 金即位紀年
+%tag   group of 東洋式即位紀年
+
+%tag position
+%tag   name_ja 金皇帝
+%tag   group of 支那皇帝
+
+%tag people
+%tag   name_ja 生女真
+%tag   group of 女真人
+
+%tag country
+%tag   name_ja 完顔部
+%tag   group of 生女真
+
+def[完顔盈歌]
+#y~1978
+
+AD1103 = 10
+
+sw 金の元号
+tag 金
+tag 金即位紀年
+tag 満州
+tag 女真人
+tag 完顔部
+tag 遼
+
+%tag person
+%tag   name_ja 完顔盈歌
+%tag   name_ja 穆宗
+tag 完顔盈歌
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B7135>"穆宗十年"
+#"穆宗十年癸未"
+name 穆宗
+s+
+u 10
+
+## <https://ja.wikipedia.org/wiki/%E5%AE%8C%E9%A1%94%E7%9B%88%E6%AD%8C>
+->烏雅束 遼:1103-10-29 #改元前の死去{#完顔部 #完顔盈歌 #君主} #遼
 
 
-#XXX
+def[烏雅束]
+#y~1979
+
+AD1104 = 2
+
+sw 金の元号
+
+tag 金
+tag 金即位紀年
+tag 満州
+tag 女真人
+tag 完顔部
+tag 遼
+
+%tag person
+%tag   name_ja 烏雅束
+tag 烏雅束
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B7135>"康宗"
+name 康宗
+s+
+#"二年甲申"
+u 2
+#"四年丙戌"
+u 4-7
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B72>"康宗七年"
+name 康宗
+s+
+#"康宗七年"..."歲癸巳十月"
+u 7
+->阿骨打 [遼:1113-10] #改元前の死去{#完顔部 #烏雅束} #遼
+
+u 11
+
+## <https://ja.wikipedia.org/wiki/%E7%83%8F%E9%9B%85%E6%9D%9F>
+<-完顔盈歌 [遼:1103-10-29,遼:1103] #建元前の即位{#完顔部 #烏雅束 #君主} #遼
+#->阿骨打 [遼:1113] #改元前の死去{#完顔部 #烏雅束} #遼
+
+def[阿骨打]
+#y~1980
+
+sw 金の元号
+
+tag 金
+tag 金即位紀年
+tag 満州
+tag 女真人
+tag 完顔部
+tag 生女真
+tag 遼
+
+%tag person
+%tag   name_ja 阿骨打
+tag 阿骨打
+
+#no known name
+name 太祖
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B72>"康宗七年"
+s+
+#"歲癸巳十月"..."是月，康宗即世，太祖襲位爲都勃極烈。"..."二年甲午六月"..."十一月"
+#no name
+u 2-11
+AD1114 = 2
+<-烏雅束 [遼:1113-10] #建元前の即位{#完顔部 #阿骨打 #君主} #遼
+
+## <https://ja.wikipedia.org/wiki/%E9%98%BF%E9%AA%A8%E6%89%93>
+#<-烏雅束 [遼:1113] #建元前の即位{#完顔部 #阿骨打 #君主} #遼
+<-天慶(辛卯) [金:1114] #開戦{#生女真 #阿骨打, #遼} #戦時異動
+
+
+[收國]
+#y~1431
+
+AD1115 = 1
+
+tag 金
+tag 満州
+tag 女真人
+tag 遼
+
+tag 阿骨打
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B72>"收國"
+name 收國
+<-阿骨打 金:1115-1-1(壬申) #建元前の即位{#金 #阿骨打 #金皇帝}
+<-阿骨打 金:1115-1-1(壬申) #支那改元日{#金 #阿骨打}
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B736>"收國"
+#<-阿骨打 金:1115-1-1(壬申) #建元前の即位{#金 #阿骨打 #金皇帝}
+
+## <https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2%E7%B4%80%E4%BA%8B%E6%9C%AC%E6%9C%AB>
+#"太祖自珠赫店之捷，即於次年建號稱帝紀年，收國凡二年又改元天輔。
+#《遼史》於天慶五年未載其事，至七年乃載太祖用楊朴策即位改元，
+#則收國二年俱付闕。如《金史》於太祖建國兩次改元，紀載甚明，
+#且謂爲烏奇邁等所請，并無楊朴定策之事。"
+
+## [102]
+#1115-1-1 - 1116-12-1
+#金史
+#中国歴代年号考
+#東亜歴史年表
+
+wref_ja 収国
+name_ja 収国
+name_kana しゅう こく
+#1115-1-1 - 1116-12-1
+
+## <https://ja.wikipedia.org/wiki/%E9%98%BF%E9%AA%A8%E6%89%93>
+#<-阿骨打 金:1115-1-1 j:1115-1-28 #建元前の即位{#金 #阿骨打 #金皇帝}
+#<-阿骨打 金:1115-1-1 #支那改元日{#金 #阿骨打 #金皇帝}
+
+wref_ko 수국 (연호)
+name(kr) 수국
+#1115-1-1 - 1116
+
+## <https://zh-min-nan.wikipedia.org/wiki/Siu-kok_(Kim)>
+#XXX Siu-kok
+#1115 - 1116
+
+## <https://zh-yue.wikipedia.org/wiki/%E6%94%B6%E5%9C%8B>
+#1115 - 1116
+
+[天輔(丁酉)]
+#y~1256
+
+AD1117 = 1
+
+tag 金
+tag 満州
+tag 女真人
+tag 遼
+tag 燕雲十六州
+
+tag 阿骨打
+
 s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B728>"即皇帝位"
 #"是歲，女直阿骨打用鐵州楊樸策，即皇帝位，建元天輔，國號金。"
+# AD1117
+name 天輔
+s+
+<-收國 [遼:1117] #建元前の即位{#金 #阿骨打 #金皇帝} #旧説
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B72>"天輔"
+name 天輔
+<-收國 金:1116-12-1(庚申) #年始改元決定{#金 #阿骨打}
+<-收國 金:1117-1-1 #年始改元実施{#金 #阿骨打}
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B72>"崩"
+->天會(癸卯) 金:1123-8-戊申 #改元前の死去{#金 #阿骨打}
+
+## [102]
+#1116-12-1 1117 - 1123-9-16
+#金史
+#中国歴代年号考
+#東亜歴史年表
+
+wref_ja 天輔 (金)
+name_ja 天輔
+name_kana てん ほ
+#1117 - 1123-10
+
+## <https://ja.wikipedia.org/wiki/%E9%98%BF%E9%AA%A8%E6%89%93>
+<-保大(辛丑) [金:1121] #陥落{#金, #遼}
+#->天會(癸卯) 金:1123-8-28 j:1123-9-19 #改元前の死去{#金 #阿骨打}
+
+wref_ko 천보 (금)
+name(kr) 천보
+#1116-12-1 1117-1-1 - 1123
+
+## <https://zh-min-nan.wikipedia.org/wiki/Thian-h%C3%BA_(Kim)>
+#XXX Thian-hú
+#1117 - 1123
+
+
+[天會(癸卯)]
+#y~1430
+
+AD1123 = 1
+
+tag 金
+tag 満州
+tag 女真人
+tag 遼
+tag 燕雲十六州
+tag 内蒙古
+tag 外蒙古
+tag 漢土
+tag 漢民族
+
+%tag person
+%tag   name_ja 呉乞買
+tag 呉乞買
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B73>"崩"
+#<-天輔(丁酉) 金:1123-8-戊申 #改元前の死去{#金 #阿骨打}
+<-天輔(丁酉) 金:1123-9-丙辰 #建元前の即位{#金 #呉乞買 #金皇帝}
+<-天輔(丁酉) 金:1123-9-丙寅 #支那改元日{#金 #呉乞買}
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B73>"上崩"
+>< 金:1135-1-己巳 #死去{#金 #呉乞買}
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B74>"即皇帝位"
+#>< 金:1135-1-己巳 #死去{#金 #呉乞買}
+>< 金:1135-1-庚午 #即位{#金 #完顔合剌 #金皇帝}
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B736>"收國"
+#<-天輔(丁酉) 金:1123-9-6 #建元前の即位{#金 #呉乞買 #金皇帝}
+#<-天輔(丁酉) 金:1123-9-丙寅 #支那改元日{#金 #呉乞買}
+s+
+
+## [102]
+#1123-9 - 1137
+#1123-9-丙寅 -
+#金史
+#中国歴代年号考
+
+wref_ja 天会 (金)
+name_ja 天会
+name_kana てん かい
+#1123 - 1137
+
+## <https://ja.wikipedia.org/wiki/%E5%91%89%E4%B9%9E%E8%B2%B7>
+#<-天輔(丁酉) 金:1123-9-6 j:1123-9-27 #建元前の即位{#金 #呉乞買 #金皇帝}
+#>< 金:1135-1-25 j:1135-2-9 #死去{#金 #呉乞買}
+
+wref_ko 천회 (금)
+name(kr) 천회
+#1123-9-17 - 1137
+
+## <https://zh-min-nan.wikipedia.org/wiki/Thian-h%C5%8De_(Kim)>
+#XXX Thian-hōe
+#1123 - 1137
+
+## <https://ja.wikipedia.org/wiki/%E7%86%99%E5%AE%97_(%E9%87%91)>
+tag 代始改元不実施
+tag 完顔合剌
+#>< 金:1135-1-26 j:1135-2-10 #即位{#金 #完顔合剌 #金皇帝}
+
+[天眷]
+#y~1526
+
+AD1138 = 1
+
+tag 金
+tag 満州
+tag 女真人
+tag 漢土
+tag 蒙古
+tag 漢民族
+
+%tag person
+%tag   name_ja 完顔合剌
+tag 完顔合剌
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B74>"詔改"
+<-天會(癸卯) 金:1137-12-癸未 #年始改元詔{#金 #完顔合剌}
+<-天會(癸卯) 金:1138-1-1(戊子) #年始改元実施{#金 #完顔合剌}
+
+## [102]
+#1137-12-癸未 1138 - 1140/1141-1-癸丑
+#金史
+
+wref_ja 天眷
+name_ja 天眷
+name_kana てん けん
+#1138 - 1140
+
+wref_ko 천권
+name(kr) 천권
+#1137-12-26 1138-1-1 - 1141
+
+## <https://zh-min-nan.wikipedia.org/wiki/Thian-ko%C3%A0n_(Kim)>
+#XXX Thian-koàn
+#1138 - 1140
+
+[皇統]
+#y~84
+
+AD1141 = 1
+
+tag 金
+tag 満州
+tag 女真人
+tag 漢土
+tag 蒙古
+tag 漢民族
+
+tag 完顔合剌
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B74>"皇統"
+<-天眷 金:1141-1-癸丑 #支那改元日{#金 #完顔合剌} #異説
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B74>"帝崩"
+->天德(己巳) 金:1149-12-丁巳 #改元前の死去{#金 #完顔合剌}
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B736>"皇統"
+<-天眷 金:1141-1-12 #支那改元日{#金 #完顔合剌}
+s+
+
+## [102]
+#1141-1-癸丑 - 1149-12-己未
+#金史
+
+wref_ja 皇統 (金)
+name_ja 皇統
+name_kana こう とう
+#1141 - 1149
+
+## <https://ja.wikipedia.org/wiki/%E7%86%99%E5%AE%97_(%E9%87%91)>
+#->天德(己巳) 金:1149-12-9 j:1150-1-9 #改元前の死去{#金 #完顔合剌}
+
+wref_ko 황통
+name(kr) 황통
+#1141-1-12(癸丑) - 1149
+
+## <https://zh-min-nan.wikipedia.org/wiki/H%C3%B4ng-th%C3%B3ng_(Kim)>
+#XXX Hông-thóng
+#1141 - 1149
+
+
+[天德(己巳)]
+#y~1474
+
+AD1149 = 1
+
+tag 金
+tag 満州
+tag 女真人
+tag 漢土
+tag 蒙古
+tag 漢民族
+
+%tag person
+%tag   name_ja 完顔迪古乃
+tag 完顔迪古乃
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B75>"己未"
+<-皇統 金:1149-12-己未 #支那改元日{#金 #完顔迪古乃}
+name 天德
+
+## <https://ja.wikipedia.org/wiki/%E6%B5%B7%E9%99%B5%E7%8E%8B>
+#<-皇統 金:1149-12-9 j:1150-1-9 #建元前の即位{#金 #完顔迪古乃 #金皇帝}
+
+## [102]
+#1149-12-己未 - 1153-3-乙卯
+#金史
+
+wref_ja 天徳 (金)
+name_ja 天徳
+name_kana てん とく
+#1149 - 1153
+
+wref_ko 천덕 (금)
+name(kr) 천덕
+#1149-12-11 - 1153
+
+## <https://zh-min-nan.wikipedia.org/wiki/Thian-tek_(Kim)>
+#XXX Thian-tek
+#1149 - 1153
+
+[貞元(癸酉)]
+#y~792
+
+AD1153 = 1
+
+tag 金
+tag 満州
+tag 女真人
+tag 漢土
+tag 蒙古
+tag 漢民族
+
+tag 完顔迪古乃
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B75>"貞元"
+#"貞元年正月辛卯朔"
+name 貞元
+<-天德(己巳) 金:1153-3-乙卯 #支那改元詔{#金 #完顔迪古乃}
+
+## [102]
+#1153-3-乙卯 - 1156-1-1(癸酉)
+#金史
+
+wref_ja 貞元 (金)
+name_ja 貞元
+name_kana てい げん
+#1153 - 1156
+
+wref_ko 정원 (금)
+name(kr) 정원
+#1153-3-26 - 1156
+
+## <https://zh-min-nan.wikipedia.org/wiki/Cheng-go%C3%A2n_(Kim)>
+#XXX Cheng-goân
+#1153 - 1156
+
+[正隆]
+#y~1458
+
+AD1156 = 1
+
+tag 金
+tag 満州
+tag 女真人
+tag 漢土
+tag 蒙古
+tag 漢民族
+
+tag 完顔迪古乃
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B75>"改元正隆"
+name 正隆
+<-貞元(癸酉) 金:1156-2-1(癸酉) #支那改元詔{#金 #完顔迪古乃}
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B75>"帝遇弑"
+->大定(辛巳) 金:1161-11-乙未 #改元前の死去{#金 #完顔迪古乃}
+
+## [102]
+#1156-2-1(癸酉) - 1161-10-丁未 -11-乙未 #死去
+#金史
+
+wref_ja 正隆
+name_ja 正隆
+name_kana せい りゅう
+#1156-2-1 - 1161-10-8
+
+## <https://ja.wikipedia.org/wiki/%E6%B5%B7%E9%99%B5%E7%8E%8B>
+#->大定(辛巳) 金:1161-11-27 j:1161-12-15 #改元前の死去{#金 #完顔迪古乃}
+
+wref_ko 정륭
+name(kr) 정륭
+#1156-2-1 - 1161
+
+## <https://zh-min-nan.wikipedia.org/wiki/Ch%C3%A8ng-li%C3%B4ng_(Kim)>
+#XXX Chèng-liông
+#1156 - 1161
+
+[大定(辛巳)]
+#y~1493
+
+AD1161 = 1
+
+tag 金
+tag 満州
+tag 女真人
+tag 漢土
+tag 蒙古
+tag 漢民族
+
+%tag person
+%tag   name_ja 完顔烏禄
+tag 完顔烏禄
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B76>"即皇帝位"
+<-正隆 金:1161-10-丙午 #建元前の即位{#金 #完顔烏禄 #金皇帝}
+<-正隆 金:1161-10-丁未 #支那改元日{#金 #完顔烏禄} #起事建元
+name 大定
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B78>"崩"
+->明昌 金:1189-1-癸巳 #改元前の死去{#金 #完顔烏禄}
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B79>"即皇帝位"
+#->明昌 金:1189-1-癸巳 #改元前の死去{#金 #完顔烏禄}
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B797>"世宗改元"
+#"世宗改元於遼東"
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B797>"大定改元"
+#"大定改元於遼東"
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B772>"大定改元"
+#"宣大定改元詔"
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B773>"大定改元"
+#"大定改元"
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B7129>"改元大定"
+#"於是尚書省使右司郎中吾補可、員外郎王全奏報：世宗即位于東京，改元大定。
+#海陵前此已遣護衛謀良虎、特離補往東京，欲害世宗。行至遼水，遇世宗詔使撒八，
+#執而殺之，遂還軍中。海陵拊髀歎曰：「朕本欲平江南改元大定，此豈非天乎！」
+#乃出素所書取一戎衣天下大定改元事，以示群臣。遂召諸將帥謀北歸，且分兵渡江。 "
+s+
+
+## [102]
+#1161-10-丁未 - 1189/1190-1-1
+#"张师颜《南迁录》记载世宗改元兴庆，中间有潍王完颜允文改元天统，
+#章宗改元天定。与《金史》不合，应为南宋人误传。 "
+#"張師顏《南遷錄》記載世宗改元興慶，中間有濰王完顏允文改元天統，
+#章宗改元天定。與《金史》不合，應為南宋人誤傳。 "
+#金史
+#<-正隆 金:1161-10-丁未 #支那改元日{#金 #完顔烏禄} #起事建元
+
+wref_ja 大定 (金)
+name_ja 大定
+name_kana だい てい
+#1161-10-8 - 1189/1190-1-1
+
+## <https://ja.wikipedia.org/wiki/%E4%B8%96%E5%AE%97_(%E9%87%91)>
+#<-正隆 金:1161-10-7(丙午) j:1161-10-27 #建元前の即位{#金 #完顔烏禄 #金皇帝}
+<-正隆 金:1161-10-丙午 #改元前の退位{#金 #完顔迪古乃 #金皇帝}
+#->明昌 金:1189-1-2 j:1189-1-20 #改元前の死去{#金 #完顔烏禄}
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B75>"東京即位改元"
+#"十一月庚午，左司郎中兀不喝等聞赦，入白東京即位改元事，
+#上拊髀歎曰：「我本欲滅宋後改元大定，豈非天命乎？」
+#出其書示之，即預志改元事也。"
+<-正隆 金:1161-11-庚午 #通知受領{#金 #完顔烏禄, #完顔迪古乃}
+
+## <https://ja.wikipedia.org/wiki/%E6%B5%B7%E9%99%B5%E7%8E%8B#cite_note-4>
+tag 完顔迪古乃
+#"「宋を滅した後、自分が大定と改元しようと考えていたのに、
+#これが天命というものか」と慨嘆した"
+#<-正隆 [金:1161-10-丁未,金:1161-11-27] #通知受領{#金 #完顔烏禄, #完顔迪古乃}
+
+wref_ko 대정 (금)
+name(kr) 대정
+#1161-10-9 - 1189
+
+## <https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-t%C4%93ng_(Kim)>
+#XXX Tāi-tēng
+#1161 - 1189
+
+[興慶]
+#y~1030
+
+tag 旧説
+
+tag 金
+tag 満州
+tag 女真人
+tag 漢土
+tag 蒙古
+tag 漢民族
+
+tag 完顔烏禄
+
+## [102]
+## see 大定(辛巳) y~1493
+
+[天定(金朝)]
+#y~748
+
+tag 旧説
+
+tag 金
+tag 満州
+tag 女真人
+tag 漢土
+tag 蒙古
+tag 漢民族
+
+tag 完顔麻達葛
+
+## [102]
+## see 大定(辛巳) y~1493
+
+[明昌]
+#y~392
+
+AD1190 = 1
+
+tag 金
+tag 満州
+tag 女真人
+tag 漢土
+tag 蒙古
+tag 漢民族
+
+%tag person
+%tag   name_ja 完顔麻達葛
+tag 完顔麻達葛
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B78>"崩"
+#<-大定(辛巳) 金:1189-1-癸巳 #建元前の即位{#金 #完顔麻達葛 #金皇帝}
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B79>"即皇帝位"
+<-大定(辛巳) 金:1189-1-癸巳 #建元前の即位{#金 #完顔麻達葛 #金皇帝}
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B79>"明昌"
+<-大定(辛巳) 金:1190-1-1(丙辰) #支那改元日{#金 #完顔麻達葛}
+
+## [102]
+#1190-1-1 - 1196-11-戊戌
+#金史
+
+wref_ja 明昌 (金)
+name_ja 明昌
+name_kana めい しょう
+#1190-1-1 - 1196-11-23
+
+## <https://ja.wikipedia.org/wiki/%E7%AB%A0%E5%AE%97_(%E9%87%91)>
+#<-大定(辛巳) 金:1189-1-2 j:1189-1-20 #建元前の即位{#金 #完顔麻達葛 #金皇帝}
+
+wref_ko 명창
+name(kr) 명창
+#1190-1-1 - 1196
+
+## <https://zh-min-nan.wikipedia.org/wiki/B%C3%AAng-chhiong_(Kim)>
+#XXX Bêng-chhiong
+#1190 - 1196
+
+[承安(丙辰)]
+#y~607
+
+AD1196 = 1
+
+tag 金
+tag 満州
+tag 女真人
+tag 漢土
+tag 蒙古
+tag 漢民族
+
+tag 完顔麻達葛
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B710>"改元"
+<-明昌 金:1196-11-戊戌 #支那改元日{#金 #完顔麻達葛}
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B785>"承安改元"
+#"承安改元"
+
+## [102]
+#1196-11-戊戌 - 1200-12-癸未 1201
+#金史
+
+wref_ja 承安 (金)
+name_ja 承安
+name_kana しょう あん
+#1196-11-23 - 1200-12-1 1201
+
+wref_ko 승안
+name(kr) 승안
+#1196-11-23 - 1200
+
+## <https://zh-min-nan.wikipedia.org/wiki/S%C3%AAng-an_(Kim)>
+#XXX Sêng-an
+#1196 - 1200
+
+
+[泰和]
+#y~473
+
+AD1201 = 1
+
+tag 金
+tag 満州
+tag 女真人
+tag 漢土
+tag 蒙古
+tag 漢民族
+
+tag 完顔麻達葛
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B711>"詔改"
+<-承安(丙辰) 金:1200-12-1(癸未) #年始改元詔{#金 #完顔麻達葛}
+<-承安(丙辰) 金:1201-1-1(壬子) #年始改元実施{#金 #完顔麻達葛}
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B712>"崩"
+->大安(己巳) 金:1208-11-丙辰 #改元前の死去{#金 #完顔麻達葛}
+
+## [102]
+#1200-12-癸未 1201 - 1208
+#金史
+#中国歴代年号考
+
+wref_ja 泰和 (金)
+name_ja 泰和
+name_kana たい わ
+#1200-12-1 1201 - 1209-1-27
+
+## <https://ja.wikipedia.org/wiki/%E7%AB%A0%E5%AE%97_(%E9%87%91)>
+#->大安(己巳) 金:1208-11-20 j:1208-12-29 #改元前の死去{#金 #完顔麻達葛}
+
+wref_ko 태화 (금)
+name(kr) 태화
+#1200-12-1 1201-1-1 - 1209
+
+## <https://zh-min-nan.wikipedia.org/wiki/Th%C3%A0i-h%C3%B4_(Kim)>
+#XXX Thài-hô
+#1201 - 1208
+
+[大安(己巳)]
+#y~300
+
+AD1209 = 1
+
+tag 金
+tag 満州
+tag 女真人
+tag 漢土
+tag 蒙古
+tag 漢民族
+
+%tag person
+%tag   name_ja 完顔果縄
+tag 完顔果縄
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B713>"即皇帝位"
+#<-泰和 [金:1208-11-丙辰,] #建元前の即位{#金 #完顔果縄 #金皇帝}
+<-泰和 金:1209-1-壬戌 #支那改元日{#金 #完顔果縄}
+
+## [102]
+name 大安
+#1209-1-壬戌 - 1211/1212-1-1(己酉)
+#金史
+
+wref_ja 大安 (金)
+name_ja 大安
+name_kana たい あん
+#1209-1-27 - 1211/1212-1-1
+
+## <https://ja.wikipedia.org/wiki/%E8%A1%9B%E7%B4%B9%E7%8E%8B>
+<-泰和 金:1208-11-20 j:1208-12-29 #建元前の即位{#金 #完顔果縄 #金皇帝}
+
+wref_ko 대안 (금)
+name(kr) 대안
+#1209-1-28 - 1211
+name 大安
+
+## <https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-an_(Kim)>
+#XXX Tāi-an
+name 大安
+#1209 - 1211
+
+->太祖 [元:1211] #開戦{#蒙古帝国, #金} #戦時異動
+
+[崇慶]
+#y~341
+
+AD1212 = 1
+                                    
+tag 金
+tag 満州
+tag 女真人
+tag 漢土
+tag 蒙古
+tag 漢民族
+
+tag 完顔果縄
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B713>"崇慶"
+name 崇慶
+<-大安(己巳) 金:1212-1-1(己酉) #支那改元日{#金 #完顔果縄}
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B7103>"崇慶"
+#"崇慶改元"
+
+## [102]
+#1212-1-1(己酉) - 1213-4/-5
+#金史
+
+wref_ja 崇慶
+name_ja 崇慶
+name_kana すう けい
+#1212-1-1 - 1213-5
+
+wref_ko 숭경
+name(kr) 숭경
+#1212-1-1 - 1213
+
+## <https://zh-min-nan.wikipedia.org/wiki/Ch%C3%B4ng-kh%C3%A8ng_(Kim)>
+#XXX Chông-khèng
+#1212 - 1213
+
+[至寧]
+#y~1468
+
+AD1213 = 1
+
+tag 金
+tag 満州
+tag 女真人
+tag 漢土
+tag 蒙古
+tag 漢民族
+
+tag 完顔果縄
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B713>"至甯"
+name 至甯
+#<-崇慶 [金:1213-5] #支那改元日{#金 #完顔果縄}
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B723>"至甯"
+#"至甯元年"..."初，衛王即位改元大安，四年改曰崇慶，即而又改曰至寧，
+#有人謂曰：「三元大崇至矣。」俄而有胡沙虎之變。 "
+name 至甯
+name 至寧
+
+## [102]
+#1213-5 - 1213-9
+#金史
+
+wref_ja 至寧
+name_ja 至寧
+name_kana し ねい
+#1213-5 - 1213-9-15
+
+## <https://ja.wikipedia.org/wiki/%E8%A1%9B%E7%B4%B9%E7%8E%8B>
+->貞祐(癸酉) 金:1213-8-25 j:1213-9-11 #改元前の死去{#金 #完顔果縄}
+
+wref_ko 지녕
+name(kr) 지녕
+#1213-5-1 - 1213
+<-崇慶 金:1213-5-1 #支那改元日{#金 #完顔果縄}
+
+## <https://zh-min-nan.wikipedia.org/wiki/Ch%C3%AC-l%C3%AAng_(Kim)>
+#XXX Chì-lêng
+#1213
+
+
+[貞祐(癸酉)]
+#y~1159
+
+AD1213 = 1
+
+tag 金
+tag 満州
+tag 女真人
+tag 漢土
+tag 蒙古
+tag 漢民族
+
+%tag person
+%tag   name_ja 完顔吾睹補
+tag 完顔吾睹補
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B713>"宣宗即位"
+#<-至寧 金:1213-9-甲辰 #建元前の即位{#金 #完顔吾睹補 #金皇帝}
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B714>"皇帝"
+<-至寧 金:1213-9-甲辰 #建元前の即位{#金 #完顔吾睹補 #金皇帝}
+<-至寧 金:1213-9-壬子 #支那改元日{#金 #完顔吾睹補}
+name 貞祐
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B7107>"改元貞祐"
+#"改元貞祐"
+
+## [102]
+#1213-9 - 1217-9
+#金史
+
+wref_ja 貞祐 (金)
+name_ja 貞祐
+name_kana てい ゆう
+#1213-9-15 - 1217-9-8
+
+## <https://ja.wikipedia.org/wiki/%E5%AE%A3%E5%AE%97_(%E9%87%91)>
+#<-至寧 金:1213-9-7 j:1213-9-22 #建元前の即位{#金 #完顔吾睹補 #金皇帝}
+->太祖 [金:1213-9-7,金:1213] #開戦{#蒙古帝国, #金} #戦時異動
+#          1213-末
+->太祖 [元:1215] #陥落{#蒙古帝国, #金 #北京}
+
+wref_ko 정우 (연호)
+name(kr) 정우
+#1213-9-15 - 1217
+
+## <https://zh-min-nan.wikipedia.org/wiki/Cheng-i%C5%AB_(Kim)>
+#XXX Cheng-iū
+#1213 - 1217
+
+## <https://www.academia.edu/32240581/%D0%91%D0%B5%D0%BB%D1%8F%D0%B5%D0%B2_%D0%92_%D0%90_%D0%A1%D0%B8%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87_%D0%A1_%D0%92_%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%BA%D0%B8_%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%B5%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B0_%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B5_%D0%A1%D1%8F_%D0%B2_%D0%9F%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%8C%D0%B5>
+#p.48
+#XXX
+#чжэнь-ю
+#1213 - 1217
+
+[興定]
+#y~212
+
+AD1217 = 1
+
+tag 金
+tag 満州
+tag 女真人
+
+tag 完顔吾睹補
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B715>"改元興定"
+name 興定
+<-貞祐(癸酉) 金:1217-9-壬午 #支那改元日{#金 #完顔吾睹補}
+
+
+## [102]
+#1217-9 - 1222-8 #彗星
+#金史
+
+wref_ja 興定
+name_ja 興定
+name_kana こう てい
+#1217-9-8 - 1222-8-9 #彗星
+
+wref_ko 흥정 (연호)
+name(kr) 흥정
+#1217-9-8 - 1222
+
+## <https://zh-min-nan.wikipedia.org/wiki/Heng-t%C4%93ng_(Kim)>
+#XXX Heng-tēng
+#1217 - 1222
+
+[元光(壬午)]
+#y~321
+
+AD1222 = 1
+
+tag 金
+tag 満州
+tag 女真人
+
+tag 完顔吾睹補
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B716>"元光年"
+#"元光年春正月庚戌朔"
+#"己卯，彗星見西方。"
+#<-興定 金:1222-8-己卯 #彗星{#金 #完顔吾睹補}
+<-興定 金:1222-8-甲申 #支那改元日{#金 #完顔吾睹補}
+tag 年号銭
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B716>"崩"
+->正大 金:1223-12-庚寅 #改元前の死去{#金 #完顔吾睹補 #金皇帝}
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B720>"彗星出於亢宿"
+#"八月己卯，彗星出於亢宿、右攝提、周鼎之間，指大角，
+#太史奏：「除舊佈新之象，宜改元修政以消天變。」於是改是年為元光元年。"
+s+
+
+## [102]
+#1222-8 #彗星 - 1223/1224-1-1(戊戌)
+#金史
+
+wref_ja 元光 (金)
+name_ja 元光
+name_kana げん こう
+#1222-8-9 #ハレー彗星 - 1223/1224-1-1
+
+<-興定 金:1222-8-己卯 #彗星災異{#金 #完顔吾睹補} #ハレー彗星
+
+## <https://ja.wikipedia.org/wiki/%E5%AE%A3%E5%AE%97_(%E9%87%91)>
+#->正大 金:1223-12-22 j:1224-1-14 #改元前の死去{#金 #完顔吾睹補 #金皇帝}
+
+wref_ko 원광 (금)
+name(kr) 원광
+#1222-8-11 - 1223
+
+## <https://zh-min-nan.wikipedia.org/wiki/Go%C3%A2n-kong_(Kim)>
+#XXX Goân-kong
+#1222 - 1223
+
+[正大]
+#y~892
+
+AD1224 = 1
+
+tag 金
+tag 満州
+tag 女真人
+
+%tag person
+%tag   name_ja 完顔寧甲速
+tag 完顔寧甲速
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B716>"崩"
+#<-元光(壬午) 金:1223-12-庚寅 #改元前の死去{#金 #完顔吾睹補 #金皇帝}
+#<-元光(壬午) 金:1223-12-庚寅 #建元前の即位{#金 #完顔寧甲速 #金皇帝}
+#<-元光(壬午) 金:1224-1-1(戊戌) #支那改元詔{#金 #完顔寧甲速}
+name 正大
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B717>"詔改元"
+#<-元光(壬午) 金:1223-12-庚寅 #改元前の死去{#金 #完顔吾睹補 #金皇帝}
+<-元光(壬午) 金:1223-12-辛卯 #建元前の即位{#金 #完顔寧甲速 #金皇帝}
+<-元光(壬午) 金:1224-1-1(戊戌) #支那改元詔{#金 #完顔寧甲速}
+name 正大
+
+## [102]
+#1224-1-1 - 1231-1
+#金史
+
+wref_ja 正大
+name_ja 正大
+name_kana せい だい
+#1224-1-1 - 1232-1-19
+
+## <https://ja.wikipedia.org/wiki/%E5%93%80%E5%AE%97_(%E9%87%91)>
+#<-元光(壬午) 金:1223-12-23 j:1224-1-15 #建元前の即位{#金 #完顔寧甲速 #金皇帝}
+
+wref_ko 정대
+name(kr) 정대
+#1224-1-1 - 1232
+
+## <https://zh-min-nan.wikipedia.org/wiki/Ch%C3%A8ng-t%C4%81i_(Kim)>
+#XXX Chèng-tāi
+#1224 - 1231
+
+[開興]
+#y~1418
+
+AD1232 = 1
+
+tag 金
+tag 満州
+tag 女真人
+
+tag 完顔寧甲速
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B717>"開興"
+<-正大 金:1232-1-庚子 #支那改元日{#金 #完顔寧甲速}
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B7110>"改元"
+#"正大九年"..."三月，草《開興改元詔》，"...
+## AD1232
+s+
+
+## [102]
+#1232-1 - 1232-4
+#金史
+
+wref_ja 開興
+name_ja 開興
+name_kana かい こう
+#1232-1-19 - 1232-4-14
+
+wref_ko 개흥
+name(kr) 개흥
+#1232-1-19 - 1232
+
+## <https://zh-min-nan.wikipedia.org/wiki/Khai-heng_(Kim)>
+#XXX Khai-heng
+#1232 - 1232
+
+[天興(壬辰)]
+#y~879
+
+AD1232 = 1
+
+tag 金
+tag 満州
+tag 女真人
+
+tag 完顔寧甲速
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B717>"夏四月癸丑"
+name 天興
+<-開興 金:1232-4-甲子 #支那改元日{#金 #完顔寧甲速}
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B718>"天興寶會"
+tag 年号銭
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B718>"即皇帝位"
+->盛昌 金:1234-1-己酉 #改元前の退位{#金 #完顔寧甲速 #金皇帝}
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B7114>"天興"
+s+
+#"四月兵退，改元天興。"
+name 天興
+
+## [102]
+#1232-4 - 1234-1-己酉 亡
+#金史
+#->none
+#盛昌 y~1127
+
+wref_ja 天興 (金)
+name_ja 天興
+name_kana てん こう
+#1232-4-14 - 1234-1-7 亡
+#->none
+
+## <https://ja.wikipedia.org/wiki/%E5%93%80%E5%AE%97_(%E9%87%91)>
+#->盛昌 金:1234-1-7 j:1234-2-9 #改元前の退位{#金 #完顔寧甲速 #金皇帝}
+## 金:-1-7 = j:-2-6 丙午
+## 金:-1-10 = j:-2-9 己酉
+
+->盛昌 金:1234-1-7 #改元前の退位{#金 #完顔寧甲速 #金皇帝} #異説
+
+wref_ko 천흥 (금)
+name(kr) 천흥
+#1232-4-14 - 1234
+#->盛昌
+
+## <https://zh-min-nan.wikipedia.org/wiki/Thian-heng_(Kim)>
+#XXX Thian-heng
+#1232 - 1234
+#->none
+
+## <https://ja.wikipedia.org/wiki/%E6%9C%AB%E5%B8%9D_(%E9%87%91)>
+tag 完顔呼敦
+#"年号  天興 : 1234年"
+
+[盛昌]
+#y~1127
+
+AD1234 = 1
+
+tag 金
+tag 満州
+tag 女真人
+
+%tag person
+%tag   name_ja 完顔呼敦
+tag 完顔呼敦
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B718>"即皇帝位"
+<-天興(壬辰) 金:1234-1-己酉 #建元前の即位{#金 #完顔呼敦 #金皇帝}
+->太宗 金:1234-1-己酉 #陥落{#蒙古帝国, #金 #完顔呼敦} #死去
+
+## [102]
+wref_zh 天兴 (金朝)
+#紀元編: 末帝, no source
+#玉海: 金
+
+## <https://ja.wikipedia.org/wiki/%E6%9C%AB%E5%B8%9D_(%E9%87%91)>
+#<-天興(壬辰) j:1234-2-9 #建元前の即位{#金 #完顔呼敦 #金皇帝}
+#->太宗 金:1234-1-7 j:1234-2-9 #陥落{#蒙古帝国, #金 #完顔呼敦} #死去
+## 金:-1-7 = j:-2-6 丙午
+## 金:-1-10 = j:-2-9 己酉
+
+<-天興(壬辰) j:1234-2-9 #支那改元日{#金 #完顔呼敦}
+->太宗 金:1234-1-7 #陥落{#蒙古帝国, #金 #完顔呼敦} #死去 #異説
+
+wref_ko 성창 (연호)
+name(kr) 성창
+#1234-1-10 - 1234
+#->none
+
+
+
+
+
+[天賜(甲戌)]
+#y~1607
+
+AD1214 = 1
+
+tag 金
+tag 北支
+
+%tag person
+%tag   name_ja 劉永昌
+tag 劉永昌
+
+## [102]
+#1214
+#中国歴代年号考
+
+## <https://zh.wikipedia.org/wiki/%E5%8A%89%E6%B0%B8%E6%98%8C>
+<-貞祐(癸酉) [金:1214-2] #蜂起{#劉永昌} #金
+#u [1214-2]+1d
+
+<-貞祐(癸酉) [金:1214-2] #支那改元日{#劉永昌} #金 #起事建元
+
+wref_ja 天賜 (劉永昌)
+name_ja 天賜
+name_kana てん し
+#1214
+#金史103
+tag 私年号 (ウィキペディア)
+
+
+[天泰]
+#y~1588
+
+AD1215 = 1
+
+tag 女真人
+tag 内満州
+tag 外満州
+tag 北鮮
+tag 金
+tag 蒙古帝国
+
+%tag country
+%tag   name_ja 大真国
+%tag   period of 満州
+%tag   period of 中国
+tag 大真国
+
+%tag person
+%tag   name_ja 蒲鮮万奴
+tag 蒲鮮万奴
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B714>"天泰"
+name 天泰
+s+
+#貞祐三年-10-壬子
+
+## [102]
+#1215-10 - 1223
+#中国歴代年号考
+#->大同
+
+## <https://zh.wikipedia.org/wiki/%E8%92%B2%E9%AE%AE%E8%90%AC%E5%A5%B4>
+#1215-10 #即位 大真 王 #改元
+#1216 #陥落{#蒙古帝国,}
+#1217 #蜂起
+#1224 #断交{, #蒙古帝国}
+#1233 #陥落 #捕縛
+
+## <https://zh.wikipedia.org/wiki/%E4%B8%9C%E5%A4%8F>
+#1215 #即位 大真 天王 #改元
+#1216 #陥落{#蒙古帝国,}
+#1217 #蜂起
+#1233 #陥落
+
+wref_ja 天泰
+name_ja 天泰
+name_kana てん たい
+#1215 - 1223
+tag 私年号 (ウィキペディア)
+#金史
+#中国歴代年号考
+
+## <https://ja.wikipedia.org/wiki/%E8%92%B2%E9%AE%AE%E4%B8%87%E5%A5%B4>
+#1215 #即位 #天王
+#1233 #陥落{#蒙古帝国, }
+
+## <https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%9C%9F%E5%9B%BD>
+#1215 #即位 #天王 #改元
+#1216 #陥落{#蒙古帝国,}
+#1217 #蜂起
+#1233 #陥落{#蒙古帝国, } #捕縛
+
+## <https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%88:%E5%A4%A7%E7%9C%9F%E5%9B%BD>
+#s+
+
+## <https://www.academia.edu/32240581/%D0%91%D0%B5%D0%BB%D1%8F%D0%B5%D0%B2_%D0%92_%D0%90_%D0%A1%D0%B8%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87_%D0%A1_%D0%92_%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%BA%D0%B8_%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%B5%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B0_%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B5_%D0%A1%D1%8F_%D0%B2_%D0%9F%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%8C%D0%B5>
+#p.48
+#XXX
+#тянь-тай
+#1215 - 1223
+#p.52
+#"天泰三年七月二十七日造"
+u 3-7-27
+#p.50
+#"天泰四年九月日"
+u 4-9
+
+<-貞祐(癸酉) 金:1215-10-壬子 #建元前の即位{#大真国 #蒲鮮万奴 #天王} #金
+<-貞祐(癸酉) 金:1215-10-壬子 #支那改元日{#大真国 #蒲鮮万奴} #起事建元 #金
+->太祖 [金:1216] #陥落{#蒙古帝国, #大真国 #蒲鮮万奴} #金
+<-太祖 [金:1217] #蜂起{#大真国 #蒲鮮万奴} #戦時異動 #金
+
+[大同(甲申)]
+#y~590
+
+AD1224 = 1
+
+tag 女真人
+tag 内満州
+tag 外満州
+tag 北鮮
+tag 金
+tag 蒙古帝国
+
+tag 大真国
+
+tag 蒲鮮万奴
+
+## [102]
+#1224 - 1233-9
+#中国歴代年号考
+#史学集刊, 1983 (3): 东夏年号的研究, 张绍维, 李莲:
+#1980年代在东北地区出土的蒲鮮萬奴官印
+
+wref_ja 大同 (蒲鮮万奴)
+name_ja 大同
+name_kana だい どう
+#1224 - 1233-9
+tag 私年号 (ウィキペディア)
+#"出土した官印"
+#"改元の年は出土資料から確認できる年数（10年）を蒲鮮万奴が
+#自立した全期間から差し引いて割り出したもの"
+#中国歴代年号考:
+#史学集刊 1983年第3期, 吉林大学: 東夏年号的研究, 張紹維, 李蓮
+    
+## <https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%88:%E5%A4%A7%E7%9C%9F%E5%9B%BD>
+#s+
+
+## <https://www.academia.edu/32240581/%D0%91%D0%B5%D0%BB%D1%8F%D0%B5%D0%B2_%D0%92_%D0%90_%D0%A1%D0%B8%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87_%D0%A1_%D0%92_%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%BA%D0%B8_%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%B5%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B0_%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B5_%D0%A1%D1%8F_%D0%B2_%D0%9F%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%8C%D0%B5>
+#p.48
+#XXX
+#да-тун
+#p.52
+#"大同二年十二月日"
+u 2-12
+
+<-天泰 [金:1224] #蜂起{#大真国 #蒲鮮万奴} #蒙古帝国 #金
+<-天泰 [金:1224] #支那改元日{#大真国 #蒲鮮万奴} #蒙古帝国 #金
+->太宗 [金:1233-9] #陥落{#蒙古帝国, #大真国 #蒲鮮万奴} #捕縛
+
+def[大漢]
+#y~1981
+
+AD1214 = 1
+
+tag 金
+tag 蒙古帝国
+tag 内満州
+
+%tag country
+%tag   name_ja 瀛
+tag 瀛
+
+%tag person
+%tag   name_ja 張鯨
+tag 張鯨
+
+tag 国名と衝突
+
+wref_zh 大漢 (張鯨)
+name_tw 大漢
+name_cn 大汉
+#1214 - 1215
+#中国歴代年号考
+#->兴龙
+
+## <https://zh.wikipedia.org/wiki/%E5%BC%A0%E9%B2%B8_(%E9%87%91%E6%9C%9D)>
+<-貞祐(癸酉) [金:1214,金:1214-4]
+    #建元前の即位{#瀛 #王_(支那) #張鯨} #金 #蒙古帝国
+#辽西王
+<-貞祐(癸酉) [金:1214,金:1214-4] #支那改元日{#瀛 #張鯨} #起事建元 #金 #蒙古帝国
+->興隆 [金:1215] #改元前の死去{#瀛 #張鯨} #蒙古帝国
+
+wref_ja 大漢 (張鯨)
+name_ja 大漢
+name_kana だい かん
+#1214 - 1215
+
+tag 張致
+
+[興隆]
+#y~412
+
+AD1216 = 1
+
+tag 金
+tag 蒙古帝国
+tag 内満州
+
+tag 瀛
+
+%tag person
+%tag   name_ja 張致
+tag 張致
+
+## [102]
+#1216 - 1217
+#中国歴代年号考
+
+wref_ja 興龍
+name_ja 興隆
+
+<-大漢 ->興隆,興竜(丙子) [金:1216] #支那改元日{#瀛 #張致} #蒙古帝国
+
+def[興竜(丙子)]
+
+AD1216 = 1
+
+tag 異説
+
+tag 金
+tag 蒙古帝国
+tag 内満州
+
+tag 瀛
+
+tag 張致
+
+name_ja 興竜
+
+wref_zh 兴隆 (张致)
+name_tw 興龍
+name_cn 兴龙
+#元史
+
+wref_ja 興龍
+name_ja 興龍
+name_kana こう りゅう
+#1216 - 1217
+#瀛王, 漢興皇帝
+#廿二史考異
+#中国歴代年号考
+#東亜歴史年表
+u 1
+u 2
+
+def[興竜]
+
+AD1215 = 1
+
+tag 旧説
+
+tag 金
+tag 蒙古帝国
+tag 内満州
+
+tag 瀛
+
+tag 張致
+
+name_ja 興竜
+
+## <https://zh.wikipedia.org/wiki/%E5%BC%A0%E8%87%B4>
+#"自称汉兴皇帝，建年号兴隆（或作兴龙）"
+#"自称瀛王"
+<-大漢 ->興隆,興竜,興竜(丙子) [金:1215] #建元前の即位{#瀛 #張致 #支那皇帝}
+    #蒙古帝国
+<-大漢 [金:1215] #支那改元日{#瀛 #張致} #蒙古帝国 #旧説
+<-大漢 ->興隆,興竜,興竜(丙子) [金:1215] #建元前の即位{#瀛 #張致 #王_(支那)}
+    #蒙古帝国
+->太祖 [金:1216-7] #陥落{#蒙古帝国, #瀛 #張致} #死去 #旧説
+
+->太祖 <-興隆,興竜(丙子) [金:1217] #陥落{#蒙古帝国, #瀛 #張致} #死去
+
+wref_ja 興龍
+name_ja 興龍
+name_kana こう りゅう
+#1215 - 1216
+#元史1
+#続資治通鑑
+#廿二史考異: incorrect
+u 1
+u 2
+
+## <https://ja.wikipedia.org/wiki/%E9%87%91%E6%9C%9D%E3%81%AE%E5%90%9B%E4%B8%BB%E4%B8%80%E8%A6%A7>
+#興龍 1215 - 1216
+
+
+
+[天順(甲戌)]
+#y~1050
+
+AD1214 = 1
+
+tag 金
+tag 北支
+
+%tag person
+%tag   name_ja 楊安児
+tag 楊安児
+
+s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B7102>"天順"
+#"大安三年"...
+## AD1211
+# #即位 #改元
+name 天順
+s+
+#..."七月庚辰"..."十二月辛亥"...
+# #陥落
+#"三年二月"...
+
+## [102]
+#1214-5 - 1214-12
+#金史
+<-貞祐(癸酉) [金:1214-5] #蜂起建国{#楊安児} #金
+<-貞祐(癸酉) [金:1214-5] #支那改元日{#楊安児} #金 #起事建元
+->貞祐(癸酉) [金:1214-12] #陥落{#金, #楊安児}
+
+wref_ja 天順 (楊安児)
+name_ja 天順
+name_kana てん じゅん
+#1214
+tag 私年号 (ウィキペディア)
+
+
+[順天(丙子)]
+#y~1580
+
+AD1216 = 1
+
+tag 金
+
+%tag country
+%tag   label_ja 漢 (郝定)
+%tag   name_ja 漢
+%tag   period of 漢
+%tag   period of 中国
+tag 漢 (郝定)
+
+%tag person
+%tag   name_ja 郝定
+tag 郝定
+
+## [102]
+#1216
+
+## <https://zh.wikipedia.org/wiki/%E9%83%9D%E5%AE%9A>
+<-貞祐(癸酉) [金:1216] #建元前の即位{#漢_(郝定) #郝定 #漢皇帝} #金
+#大汉皇帝
+<-貞祐(癸酉) [金:1216] #支那改元日{#漢_(郝定) #郝定} #金 #起事建元
+->貞祐(癸酉) <-順天(丙子),順天(乙亥),順天(甲戌) [金:1216]
+    #陥落{#金, #漢_(郝定) #郝定} #死去
+
+wref_ja 順天 (郝定)
+name_ja 順天
+name_kana じゅん てん
+#1216
+tag 私年号 (ウィキペディア)
+#金史: no era
+#建炎以来朝野雑記, 李心伝
+#大金国志25, 宇文懋昭: 1216
+#中国歴代年号考
+#東亜歴史年表
+
+def[順天(乙亥)]
+#~1984
+
+AD1215 = 1
+
+tag 旧説
+
+tag 金
+
+tag 漢 (郝定)
+tag 郝定
+
+wref_ja 順天 (郝定)
+name_ja 順天
+name_kana じゅん てん
+tag 私年号 (ウィキペディア)
+
+<-貞祐(癸酉) [金:1215] #支那改元日{#漢_(郝定) #郝定} #金 #起事建元 #旧説
+
+def[順天(甲戌)]
+#y~1985
+
+AD1214 = 1
+
+tag 旧説
+
+tag 金
+
+tag 漢 (郝定)
+tag 郝定
+
+wref_ja 順天 (郝定)
+name_ja 順天
+name_kana じゅん てん
+tag 私年号 (ウィキペディア)
+
+## <https://ja.wikipedia.org/wiki/%E9%87%91%E6%9C%9D%E3%81%AE%E5%90%9B%E4%B8%BB%E4%B8%80%E8%A6%A7>
+#楊安児 天順 1214
+#李全   -    1218 - 1226
+
+<-貞祐(癸酉) [金:1214] #支那改元日{#漢_(郝定) #郝定} #金 #起事建元 #旧説
+
+
+
+
 
 
 

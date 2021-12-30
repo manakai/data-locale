@@ -31,12 +31,24 @@
 %tag   group of 支那皇帝
 
 %tag region
-%tag   name_ja 燕雲十六州
+%tag   name_ja 北支
 %tag   region of 漢土
 
 %tag region
-%tag   name_ja 北京
+%tag   name_ja 中支
 %tag   region of 漢土
+
+%tag region
+%tag   name_ja 南支
+%tag   region of 漢土
+
+%tag region
+%tag   name_ja 燕雲十六州
+%tag   region of 北支
+
+%tag region
+%tag   name_ja 北京
+%tag   region of 北支
 %tag   region of 燕雲十六州
 
 %tag region

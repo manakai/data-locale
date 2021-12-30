@@ -278,6 +278,11 @@ tag
   name_ja 元号に並行する即位紀年
   group of 東洋式即位紀年
 
+tag
+  name_ja 即位紀年説のある元号
+  group of 元号
+  group of 東洋式即位紀年
+
 action
   name_ja 称元
   group of 制定
@@ -535,6 +540,10 @@ action
 action
   name_ja 年始改元決定
   group of 制定
+
+action
+  name_ja 年始改元詔
+  group of 詔制定
 
 action
   name_ja 年始改元実施
@@ -797,7 +806,15 @@ action
   name_ja 罹患
 
 action
+  name_ja 彗星災異
+  group of 彗星
+
+tag
   name_ja 彗星
+
+tag
+  name_ja ハレー彗星
+  group of 彗星
 
 action
   name_ja 前兆
