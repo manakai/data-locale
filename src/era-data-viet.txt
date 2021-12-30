@@ -102,6 +102,25 @@ name(vi) Đại Đức
 name(kr) 대덕
 
 
+def[大漢(己卯)]
+
+AD1039 = 1
+
+tag 壮族
+tag 北宋
+
+%tag person
+%tag   name_ja 儂全福
+tag 儂全福
+
+wref_ja 大漢 (儂全福)
+name_ja 大漢
+name_kana だい かん
+#1039
+
+tag 国名と衝突
+
+
 
 
 def[越南民主共和]
