@@ -2972,6 +2972,8 @@ tag 蒙古人
 tag 朝鮮人
 tag 共産主義
 tag 中国共産党
+tag 壮族
+tag 広西
 
 %tag event
 %tag   name_ja 国共内戦

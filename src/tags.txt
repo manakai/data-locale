@@ -45,7 +45,6 @@ region
 region
   name_ja 西太平洋
   region of 太平洋
-  region of 南洋
 
 region
   name_ja オセアニア
@@ -233,8 +232,11 @@ person
 person
   name_ja 芦原金次郎
 
-law
+tag
   name_ja 条約
+
+tag
+  name_ja 憲法
 
 action
   name_ja 和約締結
@@ -457,6 +459,10 @@ action
   name_ja 利用開始
 
 action
+  name_ja 根拠法廃止
+  group of 制定
+
+action
   name_ja 建国紀元制定
   group of 制定
   group of 利用開始
@@ -601,6 +607,10 @@ action
 
 action
   name_ja 改元手続中止
+
+action
+  name_ja 利用禁止
+  group of 利用開始
 
 action
   name_ja 改元非難

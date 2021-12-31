@@ -24,6 +24,11 @@
 %tag   group of 中華異民族
 %tag   group of チベット系民族
 
+%tag religion
+%tag   name_ja チベット仏教
+%tag   group of 仏教
+
+
 
 %tag country
 %tag   name_ja 仇池

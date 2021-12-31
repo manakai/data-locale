@@ -72,7 +72,7 @@ for my $x (qw(period group region)) {
 {
   my $changed = 0;
   for my $x (qw(period group region)) {
-    for my $y ($x, 'group', 'period') {
+    for my $y ($x, 'group', 'period', 'region') {
       for my $item1 (values %{$Data->{tags}}) {
         for (keys %{$item1->{$y.'s'} or {}}) {
           my $l1 = $item1->{$y.'s'}->{$_};
