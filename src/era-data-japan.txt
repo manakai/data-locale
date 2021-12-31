@@ -121,6 +121,7 @@
 %tag region
 %tag   name_ja 伊豆諸島
 %tag   region of 日本
+%tag   region of 南洋
 
 %tag region
 %tag   name_ja 青ヶ島
@@ -133,6 +134,7 @@
 %tag region
 %tag   name_ja 小笠原
 %tag   region of 日本
+%tag   region of 南洋
 
 %tag region
 %tag   name_ja 硫黄島
