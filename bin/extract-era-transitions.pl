@@ -125,8 +125,8 @@ sub get_transition ($$$) {
   return $matched1->[0] if @$matched1;
   return $matched2->[0] if @$matched2;
   return $fd if defined $fd;
-  return $fys if defined $fys;
   return $matched_others->[-1] if @$matched_others;
+  return $fys if defined $fys;
   return undef;
 } # get_transition
 

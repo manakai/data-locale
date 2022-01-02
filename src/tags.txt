@@ -793,7 +793,15 @@ action
   group of 祥瑞
 
 action
+  name_ja 玉璽祥瑞
+  group of 祥瑞
+
+action
   name_ja 象祥瑞
+  group of 祥瑞
+
+action
+  name_ja 黒兎祥瑞
   group of 祥瑞
 
 action
@@ -828,6 +836,7 @@ tag
 
 action
   name_ja 前兆
+  group of 事由
 
 tag
   name_ja 異説
@@ -939,4 +948,9 @@ tag
   name_ja 年号銭
 
 tag
+  name_ja 摂政元号
+  group of 元号
+
+tag
   name_ja 属国元号
+  group of 元号

@@ -91,6 +91,10 @@
 %tag region
 %tag   name_ja 成都
 %tag   name_ja 西京
+%tag   region of 蜀
+
+%tag region
+%tag   name_ja 巴西
 %tag   region of 漢土
 
 %tag region
@@ -365,6 +369,10 @@
 %tag   region of 漢土
 
 %tag region
+%tag   name_ja 衛
+%tag   region of 漢土
+
+%tag region
 %tag   name_ja 秦
 %tag   region of 漢土
 
@@ -375,6 +383,10 @@
 %tag position
 %tag   name_ja 秦皇帝
 %tag   group of 支那皇帝
+
+%tag region
+%tag   name_ja 陝西
+%tag   region of 漢土
 
 %tag region
 %tag   name_ja 河西
