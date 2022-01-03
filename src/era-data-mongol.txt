@@ -24,6 +24,10 @@
 %tag   name_ja 東蒙古
 %tag   region of 内蒙古
 
+%tag region
+%tag   name_ja オルドス高原
+%tag   region of 内蒙古
+
 
 [天興(丁卯)]
 #y~363
