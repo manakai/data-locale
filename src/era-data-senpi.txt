@@ -3,6 +3,266 @@
 %tag   group of 五胡
 
 %tag people
+%tag   name_ja 烏桓
+%tag   group of 中華異民族
+
+%tag people
+%tag   name_ja 乞伏部
+%tag   group of 鮮卑
+
+%tag country
+%tag   name_ja 西秦
+%tag   period of 秦
+%tag   period of 中国
+%tag   group of 五胡十六国時代
+
+%tag person
+%tag   name_ja 乞伏司繁
+
+[建義]
+#y~1571
+
+AD385 = 1
+
+tag 乞伏部
+tag 西秦
+tag 前秦
+tag 隴西
+tag 漢民族
+tag 丁零
+tag 属国元号
+
+%tag person
+%tag   name_ja 乞伏国仁
+tag 乞伏国仁
+
+## [102]
+#385-9 - 388-6
+#中国歴代年号考
+
+## <https://ja.wikipedia.org/wiki/%E4%B9%9E%E4%BC%8F%E5%9B%BD%E4%BB%81>
+#[385-7,] #即位 大都督 大将軍 大単于 領秦河二州牧 #改元
+#388 #死去
+## <https://ja.wikipedia.org/wiki/%E8%A5%BF%E7%A7%A6>
+#388-6 #死去
+
+wref_ja 建義 (西秦)
+name_ja 建義
+name_kana けん ぎ
+#385-9 - 388-6
+#中国歴代年号考
+
+wref_ko 건의 (서진)
+name(kr) 건의
+#385-9 - 388-6
+
+<-建元(乙丑) [晋:385-9] #建元前の即位{#西秦 #乞伏国仁}
+<-建元(乙丑) [晋:385-9] #支那改元日{#西秦 #乞伏国仁} #起事建元
+->太初(戊子) [晋:388-6] #改元前の死去{#西秦 #乞伏国仁}
+
+[太初(戊子)]
+#y~1302
+
+AD388 = 1
+
+tag 乞伏部
+tag 西秦
+tag 前秦
+tag 後秦
+tag 隴西
+tag 漢民族
+tag 丁零
+tag 属国元号
+
+%tag person
+%tag   name_ja 乞伏乾帰
+tag 乞伏乾帰
+
+## [102]
+#388-6 - 400-7
+#中国歴代年号考
+
+wref_ja 太初 (西秦)
+name_ja 太初
+name_kana たい しょ
+#388-6 - 400-7
+#中国歴代年号考
+
+## <https://ja.wikipedia.org/wiki/%E8%A5%BF%E7%A7%A6>
+#388-6 #即位 大単于 河南王
+## <https://ja.wikipedia.org/wiki/%E8%A5%BF%E7%A7%A6>
+#394-6 #即位 #前秦 河南王
+#394-7 #前秦 亡
+#394-12 #即位 秦王
+#400-5 #陥落{後秦,}
+#400-7 #勢力吸収{南涼, #乞伏乾帰}
+#400-11 #勢力吸収{後秦, #乞伏乾帰}
+
+wref_ko 태초 (서진)
+name(kr) 태초
+#388-6 - 400-7
+
+<-建義 [晋:388-6] #建元前の即位{#西秦 #乞伏乾帰}
+<-建義 [晋:388-6] #支那改元日{#西秦 #乞伏乾帰}
+>< [晋:394-12] #即位{#西秦 #乞伏乾帰 #秦王} #重祚前の即位
+->弘始 [晋:400-5] #陥落{#後秦, #西秦 #乞伏乾帰}
+->弘始 [晋:400-11] #勢力吸収{#後秦, #西秦 #乞伏乾帰}
+
+[更始(己酉)]
+#y~1643
+
+AD409 = 1
+
+tag 乞伏部
+tag 西秦
+tag 前秦
+tag 後秦
+tag 隴西
+tag 漢民族
+tag 丁零
+
+tag 乞伏乾帰
+
+## [102]
+#409-7 - 412-8
+#中国歴代年号考
+
+wref_ja 更始 (西秦)
+name_ja 更始
+name_kana こう し
+#409-7 - 412-8
+#中国歴代年号考
+
+## <https://ja.wikipedia.org/wiki/%E8%A5%BF%E7%A7%A6>
+#409-7 #即位 秦王 #改元
+#412-6 #死去
+
+wref_ko 경시 (서진)
+name(kr) 경시
+#409-7 - 412-8
+
+<-弘始 [晋:409-7] #建元前の即位{#西秦 #乞伏乾帰 #秦王} #重祚
+<-弘始 [晋:409-7] #支那改元日{#西秦 #乞伏乾帰} #起事建元
+->永康(壬子) [晋:412-6] #改元前の死去{#西秦 #乞伏乾帰}
+
+[永康(壬子)]
+#y~78
+
+AD412 = 1
+
+tag 乞伏部
+tag 西秦
+tag 後秦
+tag 隴西
+tag 漢民族
+tag 丁零
+
+%tag person
+%tag   name_ja 乞伏熾磐
+tag 乞伏熾磐
+
+## [102]
+#412-8 - 419-12
+#中国歴代年号考
+
+wref_ja 永康 (西秦)
+name_ja 永康
+name_kana えい こう
+#412-8 - 419-12
+#中国歴代年号考
+
+## <https://ja.wikipedia.org/wiki/%E8%A5%BF%E7%A7%A6>
+#[412-6,-8] #即位
+#414-5 #即位 秦王
+
+wref_ko 영강 (오호 십육국 서진)
+name(kr) 영강
+#412-8 - 419
+
+<-更始(己酉) [晋:412-8] #建元前の即位{#西秦 #乞伏熾磐}
+<-更始(己酉) [晋:412-8] #支那改元日{#西秦 #乞伏熾磐}
+>< [晋:414-5] #即位{#西秦 #乞伏熾磐 #秦王}
+
+[建弘]
+#y~337
+
+AD420 = 1
+
+tag 乞伏部
+tag 西秦
+tag 隴西
+tag 漢民族
+tag 丁零
+
+tag 乞伏熾磐
+
+## [102]
+#420-1 - 428-5
+#中国歴代年号考
+
+wref_ja 建弘
+name_ja 建弘
+name_kana けん こう
+#420-1 - 428-5
+#中国歴代年号考
+
+## <https://ja.wikipedia.org/wiki/%E8%A5%BF%E7%A7%A6>
+#428-5 #死去
+
+wref_ko 건홍
+name(kr) 건홍
+#420 - 428-5
+
+<-永康(壬子) [晋:420-1] #支那改元日{#西秦 #乞伏熾磐}
+->永弘 [晋:428-5] #改元前の死去{#西秦 #乞伏熾磐}
+
+[永弘]
+#y~1649
+
+AD428 = 1
+
+tag 乞伏部
+tag 西秦
+tag 隴西
+tag 漢民族
+tag 丁零
+
+%tag person
+%tag   name_ja 乞伏暮末
+tag 乞伏暮末
+
+## [102]
+#428-5 - 431-1
+#中国歴代年号考
+#->none
+
+wref_ja 永弘
+name_ja 永弘
+name_kana えい こう
+#428-5 - 431-1
+#中国歴代年号考
+#->none
+
+## <https://ja.wikipedia.org/wiki/%E8%A5%BF%E7%A7%A6>
+#428-5 #即位
+#431-2 #陥落{夏, }
+#431-6 #死去
+
+wref_ko 영홍
+name(kr) 영홍
+#428-5 - 431-1
+#->none
+
+<-建弘 [晋:428-5] #建元前の即位{#西秦 #乞伏暮末 #秦王}
+<-建弘 [晋:428-5] #支那改元日{#西秦 #乞伏暮末}
+->勝光 [晋:431-1] #陥落{#劉夏, #西秦 #乞伏暮末}
+
+
+
+
+
+
+%tag people
 %tag   name_ja 拓跋部
 %tag   group of 鮮卑
 
@@ -10857,6 +11117,9 @@ name(kr) 광정
 
 
 
+
+
+
 [同慶]
 #y~1013
 
@@ -10867,12 +11130,6 @@ name(kr) 동경
 #XXX  天尊천존 中興중흥 天興천흥 천수
 
 
-
-#XXX 成漢
-#<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B796#%E6%9D%8E%E9%9B%84>
-
-%tag country
-%tag   name_ja 前秦
 
 #XXX
 %tag country
@@ -10897,16 +11154,20 @@ name(kr) 승평
 #XXX 涼
 # <https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>
 
+%tag country
+%tag   name_ja 北涼
+
 #XXX
 s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7010>"年號庚子"
 #[隆安][四年]是歲，河右諸郡奉涼武昭王李玄盛爲秦涼二州牧、涼公，年號庚子。 
 #<-隆安
 
-## XXX 氐
-# <https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B7101#%E6%B0%90>
 
 ## XXX 北燕
 #<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B797>
 
 %tag country
 %tag   name_ja 前燕
+
+%tag country
+%tag   name_ja 高昌

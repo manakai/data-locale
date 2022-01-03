@@ -298,6 +298,10 @@
 %tag   group of 支那皇帝
 
 %tag region
+%tag   name_ja 益州
+%tag   region of 漢土
+
+%tag region
 %tag   name_ja 燕
 %tag   region of 漢土
 
@@ -391,6 +395,9 @@
 %tag region
 %tag   name_ja 河西
 %tag   region of 漢土
+
+%tag region
+%tag   name_ja 隴西
 
 %tag calendar
 %tag   name_ja 非寅正
