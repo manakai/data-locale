@@ -34,6 +34,97 @@
 %tag   name_ja 丁零
 %tag   group of トゥルク人
 
+%tag country
+%tag   name_ja 翟魏
+%tag   period of 魏
+%tag   period of 中国
+%tag   group of 五胡十六国時代
+
+[建光(戊子)]
+#y~729
+
+AD388 = 1
+
+tag 翟魏
+tag 丁零
+tag 後燕
+
+%tag person
+%tag   name_ja 翟遼
+tag 翟遼
+
+## [102]
+#388-2 - 391-10
+#中国歴代年号考
+
+wref_ja 建光 (翟魏)
+name_ja 建光
+name_kana けん こう
+#388 - 391
+#中国歴代年号考
+
+## <https://ja.wikipedia.org/wiki/%E7%BF%9F%E9%81%BC>
+#388-2 #即位 魏天王 #改元
+#391-10 #死去
+
+wref_ko 건광 (적위)
+name(kr) 건광
+#388-2 - 391-10
+
+<-建興(丙戌) [晋:388-2] #建元前の即位{#翟魏 #翟遼 #天王}
+<-建興(丙戌) [晋:388-2] #支那改元日{#翟魏 #翟遼} #起事建元
+->定鼎 [晋:391-10] #改元前の死去{#翟魏 #翟遼}
+
+[定鼎]
+#y~1261
+
+AD391 = 1
+
+tag 翟魏
+tag 丁零
+tag 後燕
+
+%tag person
+%tag   name_ja 翟釗
+tag 翟釗
+
+## [102]
+#391-10 - 392-6
+#資治通鑑
+
+wref_ja 定鼎
+name_ja 定鼎
+name_kana てい てい
+#391 - 392
+#資治通鑑
+#中国歴代年号考
+
+## <https://ja.wikipedia.org/wiki/%E7%BF%9F%E9%87%97>
+#391-10 #即位 #改元
+#392-6 #陥落
+
+wref_ko 정정 (적위)
+name(kr) 정정
+#391-10 - 392-6
+
+<-建光(戊子) [晋:391-10] #建元前の即位{#翟魏 #翟釗 #天王}
+<-建光(戊子) [晋:391-10] #支那改元日{#翟魏 #翟釗}
+->建興(丙戌) [晋:392-6] #陥落{#後燕, #翟魏 #翟釗}
+
+&
+wref_zh 定鼎
+name_tw 神鼎
+name_cn 神鼎
+#歴代建元考: "翟釗‘神鼎’，一作‘定鼎’"
+#中国歴代年号考
+
+wref_ja 定鼎
+name_ja 神鼎
+#歴代建元考: "翟釗神鼎，一作定鼎。"
+
+
+
+
 
 [魯興]
 #y~1489
@@ -200,9 +291,6 @@ tag 君主名の元号
 %tag   period of 燕
 %tag   period of 中国
 tag 燕 (安禄山)
-
-%tag position
-%tag   name_ja 燕皇帝
 
 ## [102]
 # 756 - 757

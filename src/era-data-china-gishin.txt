@@ -2547,6 +2547,8 @@ s+
 #"初欲改年為建始，左丞王納之曰：「建始者，晉趙王倫之號也。」
 #於是易為永始，復同王莽始貴之年。 "
 
+name(kr) 건시
+
 [永始(癸卯)]
 #y~441
 AD403 = 1
@@ -2584,6 +2586,8 @@ name 永始
 s+
 # -12 #即位
 # -12 #改元
+
+name(kr) 영시
 
 [天康]
 #y~1021
@@ -2664,6 +2668,11 @@ s+
 # #即位
 # #改元
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B797>"義熙"
+name 義熙
+s+
+#"毅等平巴陵，德宗復位於江陵，改年曰義熙。"
+
 ## <https://ja.wikipedia.org/wiki/%E5%AE%89%E5%B8%9D_(%E6%9D%B1%E6%99%8B)>
 <-永始(癸卯) 晋:404-5-26 j:404-6-19
     #建元前の即位{#東晋 #晋安帝 #晋皇帝} #重祚
@@ -2671,11 +2680,17 @@ s+
 s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B71>"義熙"
 s+
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B7101>"義熙"
+#"玄字黃眉"..."雖稱藩於劉義隆，仍奉晉義熙之號，[9]後始用義隆元嘉正朔。"
+#[9] "仍奉晉義熙之號　諸本及北史卷九六「義熙」作「永熙」，晉無此年號，
+#今據宋書卷九八改。"
+
 ## <https://ja.wikipedia.org/wiki/%E4%BB%87%E6%B1%A0#%E5%AD%98%E7%B6%9A%E3%81%AB%E8%85%90%E5%BF%83>
 ## <https://ja.wikipedia.org/wiki/%E6%A5%8A%E7%9B%9B>
 ->元嘉(甲子) [晋:425-6] #改元前の死去{#後仇池 #楊盛} #東晋 #南宋
 tag 後仇池
 tag 楊盛
+tag 楊玄
 tag 氐
 
 [元熙]
@@ -2849,6 +2864,12 @@ s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B735>"改元"
 #[泰常]"五年，裕果廢其主司馬德文而自立。南鎮上裕改元赦書。"
 # AD420
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B797>"永初"
+name 永初
+s+
+#"改年為永初，時泰常五年也。"
+## AD420
+
 ## [102]
 #420-6 - 422
 
@@ -2885,6 +2906,12 @@ name 景平
 s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B74>"夏五月"
 ->元嘉(甲子) 晋:424-5-25(乙酉) j:424-7-7 #改元前の退位{#南朝宋 #劉義符 #宋皇帝}
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B797>"景平"
+name 景平
+s+
+#[泰常]"八年，義符改年為景平"
+## AD423
+
 ## [102]
 #423 - 424-8
 
@@ -2918,6 +2945,12 @@ s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B75>"即皇帝
 s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B75>"上崩"
 ->太初(癸巳) 南:453-2-甲子 #改元前の死去{#南朝宋 #劉義隆}
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B797>"元嘉"
+name 元嘉
+s+
+#..."號年元嘉"
+## AD424
+
 ## [102]
 #424-8 - 453
 #->太初
@@ -2947,6 +2980,12 @@ name(kr) 원가
 #..."“凤凰台”在南京秦淮河附近的凤凰山上，
 #相传南朝刘宋永嘉年间有凤凰集于此山，"...
 
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B7101>"義熙"
+#"玄字黃眉"..."雖稱藩於劉義隆，仍奉晉義熙之號，[9]後始用義隆元嘉正朔。"
+#[9] "仍奉晉義熙之號　諸本及北史卷九六「義熙」作「永熙」，晉無此年號，
+#今據宋書卷九八改。"
+s+
 
 ## <https://ja.wikipedia.org/wiki/%E4%BB%87%E6%B1%A0#%E5%AD%98%E7%B6%9A%E3%81%AB%E8%85%90%E5%BF%83>
 ## <https://ja.wikipedia.org/wiki/%E6%A5%8A%E7%8E%84>
@@ -3010,6 +3049,17 @@ tag 南朝宋の公年号
 %tag   name_ja 劉劭
 tag 劉劭
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B797>"興安元年"
+name 太初
+s+
+#"興安元年"..."是年"..."是日，劭登殿受璽綬，下書曰：「"...
+#"改元嘉三十年為太初元年。」"
+## 興安1 AD452
+## 元嘉30 AD453
+#"興安元年　諸本「元」作「九」。按興安無九年，宋書卷五文帝紀，
+#事在元嘉二十九年〈四五二〉八月，是年三月，魏改元永平，
+#至十月，拓拔濬改元興安，這裏乃從後改之號。「九」字顯為「元」之訛，今改正。"
+
 ## [102]
 #453-2 - 453-5
 #453-2-21 - 453-5-4 j:-5-27
@@ -3065,6 +3115,11 @@ u 1
 <-孝建 [南:454-2] #蜂起{#魯爽} #南朝宋
 <-孝建 [南:454-2] #支那改元日{#魯爽} #起事建元 #南朝宋
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B797>"稱建平元年"
+name 建平
+s+
+## AD454
+
 ## [102]
 #454-2 - 454-6
 #incorrect:
@@ -3108,6 +3163,12 @@ s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B76>"即皇帝
     #建元前の即位{#南朝宋 #宋孝武帝 #宋皇帝}
 s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B76>"孝建"
 <-元嘉(甲子) 南:454-1-1(己亥) #支那改元詔{#南朝宋 #宋孝武帝}
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B797>"孝建"
+name 孝建
+s+
+#"興光元年，駿改年曰孝建。"
+## AD454
 
 ## [102]
 #454-1 - 456-12
@@ -3230,8 +3291,15 @@ s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B76>"大明"
 s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B76>"帝崩"
 ->永光(乙巳) 南:464-5'-庚申 #改元前の死去{#南朝宋 #宋孝武帝}
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B797>"大明"
+name 大明
+s+
+#"太安二年，駿改年為大明。"
+## AD456
+
 ## <https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B715#cite_note-45>
-#"大明十二年十一月　張森楷校勘記云：「大明祇八年，無十二年。據上條稱大明二年，下條稱大明四年，此十二年或是大明三年之誤。」"
+#"大明十二年十一月　張森楷校勘記云：「大明祇八年，無十二年。
+#據上條稱大明二年，下條稱大明四年，此十二年或是大明三年之誤。」"
 
 ## [102]
 #457-1 - 464-12
@@ -3269,6 +3337,11 @@ s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B77>"即皇帝
 s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B77>"永光"
 <-大明 南:465-1-1(乙未) #支那改元日{#南朝宋 #劉子業}
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B797>"永光"
+name 永光
+s+
+## 和平6 AD465
+
 ## [102]
 #465-1 - 465-8
 
@@ -3298,6 +3371,11 @@ s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B77>"景和"
 <-永光(乙巳) 南:465-8-癸酉 #支那改元日{#南朝宋 #劉子業}
 s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B77>"時年十七"
 ->泰始(乙巳) 南:465-11-29(戊午) j:466-1-1 #改元前の死去{#南朝宋 #劉子業}
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B797>"景和"
+name 景和
+s+
+## 和平6 AD465
 
 ## [102]
 #465-8 - 465-11
@@ -3335,6 +3413,11 @@ tag 宋明帝
 s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B78>"即皇帝位"
 <-景和 南:465-12-丙寅 #建元前の即位{#南朝宋 #宋明帝 #宋皇帝}
 <-景和 南:465-12-丙寅 #支那改元詔{#南朝宋 #宋明帝}
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B797>"泰始"
+name 泰始
+s+
+## 和平6 AD465 -12
 
 ## [102]
 #465-12 - 471-12
@@ -3377,6 +3460,10 @@ tag 宋 (劉子勛)
 s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B780>"即偽位"
 <-景和 南:466-1-7 #建元前の即位{#宋_(劉子勛) #劉子勛} #南朝宋
 <-景和 南:466-1-7 #支那改元日{#宋_(劉子勛) #劉子勛} #南朝宋 #起事建元
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B797>"義嘉"
+name 義嘉
+s+
 
 ## [102]
 #466-1 - 466-8
@@ -3422,6 +3509,10 @@ name 泰豫
 s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B78>"上崩"
 ->元徽 南:472-4-己亥 #改元前の死去{#南朝宋 #宋明帝}
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B797>"泰豫"
+name 泰豫
+s+
+
 ## [102]
 #472-1 - 472-12
 
@@ -3456,6 +3547,10 @@ s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B79>"元徽"
 <-泰豫 南:473-1-1(戊寅) #支那改元日{#南朝宋 #劉昱}
 s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B79>"帝殞"
 ->昇明 南:477-7-7(戊子) j:477-8-1 #改元前の死去{#南朝宋 #劉昱}
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B797>"元徽"
+name 元徽
+s+
 
 ## [102]
 #473-1 - 477-7
@@ -3497,6 +3592,10 @@ s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B798>"昇明"
 name 昇明
 s+
 #"太和元年" AD477
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B797>"昇明"
+name 昇明
+s+
 
 ## <https://ja.wikipedia.org/wiki/%E9%A0%86%E5%B8%9D_(%E5%8D%97%E6%9C%9D%E5%AE%8B)>
 ->建元(己未) 南:479-4-21 j:479-5-27 #改元前の退位{#南朝宋 #宋順帝 #宋皇帝}

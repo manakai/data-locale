@@ -1150,12 +1150,16 @@ for (@$Transitions) {
   for my $from_key (@$from_keys) {
     next if $from_key eq q{干支年};
     my $era = $Eras->{$from_key};
+    die "Era key |$from_key| not defined"
+        unless defined $era and defined $era->{id};
     $y->{prev_era_ids}->{$era->{id}} = 1;
     $y->{relevant_era_ids}->{$era->{id}} = {};
   }
   for my $to_key (@$to_keys) {
     next if $to_key eq q{干支年};
     my $era = $Eras->{$to_key};
+    die "Era key |$to_key| not defined"
+        unless defined $era and defined $era->{id};
     $y->{next_era_ids}->{$era->{id}} = 1;
     $y->{relevant_era_ids}->{$era->{id}} = {};
   }
