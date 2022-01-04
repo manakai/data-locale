@@ -309,6 +309,10 @@
 %tag   name_ja 燕王
 %tag   group of 王 (支那)
 
+%tag position
+%tag   name_ja 燕皇帝
+%tag   group of 支那皇帝
+
 %tag region
 %tag   name_ja 楚
 %tag   region of 漢土

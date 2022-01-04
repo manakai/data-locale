@@ -1,5 +1,9 @@
 
 %tag people
+%tag   name_ja 高句麗人
+%tag   group of 中華異民族
+
+%tag people
 %tag   name_ja 朝鮮人
 %tag   group of 中華異民族
 

@@ -987,6 +987,9 @@ tag 乞伏司繁
 #376 #死去 #即位
 tag 乞伏国仁
 
+tag 後燕
+tag 慕容垂
+
 [黑龍]
 #y~27
 
@@ -1425,18 +1428,6 @@ name(kr) 영화
 
 
 
-[皇初]
-#y~1637
-
-AD394 = 1
-
-
-
-
-## XXX 氐
-# <https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B7101#%E6%B0%90>
-
-
 
 
 
@@ -1471,6 +1462,10 @@ tag 漢土
 %tag person
 %tag   name_ja 楊難当
 tag 楊難当
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B7101#%E6%B0%90>"建義"
+name 建義
+s+
 
 ## [102]
 #436-3 - 442-5'
