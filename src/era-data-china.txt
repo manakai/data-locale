@@ -337,12 +337,20 @@
 %tag   name_ja 道教
 
 %tag region
+%tag   name_ja 涼州
+%tag   region of 漢土
+
+%tag region
 %tag   name_ja 涼
 %tag   region of 漢土
 
 %tag position
 %tag   name_tw 涼王
 %tag   group of 王 (支那)
+
+%tag position
+%tag   name_ja 涼皇帝
+%tag   group of 支那皇帝
 
 %tag region
 %tag   name_ja 梁

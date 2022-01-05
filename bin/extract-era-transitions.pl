@@ -84,12 +84,17 @@ sub get_transition ($$$) {
         }
       }
 
-      if (($tr->{type} eq 'commenced' or $tr->{type} eq 'administrative') and
-          not $tr->{tag_ids}->{2107}) { # 分離
-        if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
-          push @$matched1, $tr;
+      if ($tr->{type} eq 'commenced' or $tr->{type} eq 'administrative'){
+        if ($tr->{tag_ids}->{2107}) { # 分離
+          if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
+            push @$matched1, $tr;
+          }
         } else {
-          push @$matched_others, $tr;
+          if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
+            push @$matched1, $tr;
+          } else {
+            push @$matched_others, $tr;
+          }
         }
       }
       

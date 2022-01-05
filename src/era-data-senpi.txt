@@ -268,11 +268,20 @@ name(kr) 영홍
 %tag   group of 鮮卑
 
 %tag country
-%tag   label_ja 前燕
+%tag   label_ja 燕 (五胡十六国)
 %tag   name_ja 燕
 %tag   period of 燕
 %tag   period of 中国
 %tag   group of 五胡十六国時代
+
+%tag country
+%tag   label_ja 前燕
+%tag   name_ja 燕
+%tag   period of 燕 (五胡十六国)
+
+%tag tag
+%tag   name_ja 燕即位紀年
+%tag   group of 東洋式即位紀年
 
 def[慕容皝]
 
@@ -284,7 +293,7 @@ tag 慕容部
 %tag person
 %tag   name_ja 慕容皝
 tag 慕容皝
-tag 東洋式即位紀年
+tag 燕即位紀年
 
 wref_zh 燕元
 #晋书, 资治通鉴: "以古代诸侯即位，只称元年，故不用年号"
@@ -354,7 +363,7 @@ tag 前燕
 tag 遼東
 tag 東晋
 tag 慕容部
-tag 東洋式即位紀年
+tag 燕即位紀年
 
 %tag person
 %tag   name_ja 慕容儁
@@ -495,9 +504,7 @@ name(kr) 건희
 %tag country
 %tag   label_ja 西燕
 %tag   name_ja 燕
-%tag   period of 燕
-%tag   period of 中国
-%tag   group of 五胡十六国時代
+%tag   period of 燕 (五胡十六国)
 
 [燕興]
 #y~63
@@ -771,9 +778,7 @@ name(kr) 중흥
 %tag country
 %tag   label_ja 後燕
 %tag   name_ja 燕
-%tag   period of 燕
-%tag   period of 中国
-%tag   group of 五胡十六国時代
+%tag   period of 燕 (五胡十六国)
 
 
 [燕元(甲申)]
@@ -822,6 +827,7 @@ wref_ja 燕元
 name 燕
 #資治通鑑, 十六国春秋: "前秦の建元20年を廃して燕の元年を称した"
 tag 国名即位紀年
+tag 燕即位紀年
 
 [建興(丙戌)]
 #y~880
@@ -1075,9 +1081,7 @@ name(kr) 건시
 %tag country
 %tag   label_ja 北燕
 %tag   name_ja 燕
-%tag   period of 燕
-%tag   period of 中国
-%tag   group of 五胡十六国時代
+%tag   period of 燕 (五胡十六国)
 
 [正始(丁未)]
 #y~199
@@ -1211,9 +1215,7 @@ tag 北魏
 %tag country
 %tag   label_ja 燕 (慕容詳)
 %tag   name_ja 燕
-%tag   period of 燕
-%tag   period of 中国
-%tag   group of 五胡十六国時代
+%tag   period of 燕 (五胡十六国)
 tag 燕 (慕容詳)
 
 %tag person
@@ -1297,9 +1299,7 @@ name(kr) 연평
 %tag country
 %tag   label_ja 南燕
 %tag   name_ja 燕
-%tag   period of 燕
-%tag   period of 中国
-%tag   group of 五胡十六国時代
+%tag   period of 燕 (五胡十六国)
 
 [燕平]
 #y~148
@@ -1341,7 +1341,7 @@ name_kana えん へい
 #398 #即位 燕王
 
 tag 即位紀年説のある元号
-tag 東洋式即位紀年
+tag 燕即位紀年
 
 wref_zh 燕平 (年號)
 #中国歴代年号考:

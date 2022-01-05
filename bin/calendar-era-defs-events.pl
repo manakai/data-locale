@@ -654,7 +654,8 @@ for my $era (values %{$Data->{eras}}) {
       if (not $tr->{type} eq 'wartime') {
         $era->{start_year} //= $y;
         $era->{start_year} = $y if $y < $era->{start_year};
-        unless ($tr->{tag_ids}->{2298}) { # 一部勢力再開
+        if (not $tr->{tag_ids}->{2298} and # 一部勢力再開
+            not $tr->{type} eq 'administrative') {
           if (defined $era->{end_year} and $era->{end_year} <= $y) {
             delete $era->{end_year};
             delete $era->{end_day};
@@ -800,6 +801,12 @@ for my $era (values %{$Data->{eras}}) {
             if $era->{actual_end_day}->{mjd} < $tr->{day}->{mjd};
       }
     }
+
+    #use Data::Dumper;
+    #warn Dumper [
+    #  $tr->{day} // $tr->{day_start},
+    #  $era->{end_year}
+    #] if $era->{id} == 1112;
   } # $tr
   my $has_end_year = defined $era->{end_year};
   for my $tr (@$era_trs) {
