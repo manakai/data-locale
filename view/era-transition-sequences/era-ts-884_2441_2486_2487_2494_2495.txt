@@ -2,7 +2,9 @@
 # + tag 2441 #劉渊
 # + tag 2486 #苻洪
 # + tag 2487 #苻健
-# <https://data.suikawiki.org/tag/1922/graph?sequence=884%2B2441%2B2486%2B2487>
+# + tag 2494 #苻登
+# + tag 2495 #苻崇
+# <https://data.suikawiki.org/tag/1922/graph?sequence=884%2B2441%2B2486%2B2487%2B2494%2B2495>
 # y~1365 has multiple nexts: 493,1892
 # y~489 has multiple nexts: 589,1893
 # y~1666 has multiple nexts: 1846,1847

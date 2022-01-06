@@ -324,6 +324,14 @@ sub gymd2nymmd ($$$$) {
     ## No calendar available
     $g = '清';
   }
+
+  if ($g eq '南' and $y <= 445) {
+    $g = '晋';
+  }
+  
+  if ($g eq '魏' and $y <= 237) {
+    $g = '漢';
+  }
   
   my $kmap = get_kmap ($g);
 

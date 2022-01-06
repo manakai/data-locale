@@ -410,6 +410,15 @@
 
 %tag region
 %tag   name_ja 隴西
+%tag   region of 中央アジア
+
+%tag region
+%tag   name_ja 敦煌
+%tag   region of 中央アジア
+
+%tag region
+%tag   name_ja 西域
+%tag   region of 中央アジア
 
 %tag calendar
 %tag   name_ja 非寅正
