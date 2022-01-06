@@ -1107,6 +1107,10 @@ name 大安
 #1084-12-30 1085-1-1 - 1094
 <-大康 遼:1084-12-30 #年始改元決定{#大遼_(耶律査剌) #耶律査剌}
 
+## <https://ko.wikipedia.org/wiki/%ED%83%9C%EC%95%88_(%ED%9B%84%EB%9F%89)>
+name(kr) 태안
+#太安
+
 ## <https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-an_(Li%C3%A2u)>
 #XXX Tāi-an
 name 大安
