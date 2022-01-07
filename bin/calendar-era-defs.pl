@@ -528,7 +528,7 @@ for my $path (
       $can_continue = 1;
       
     } elsif (/\S/) {
-      die "Bad line |$_|";
+      die "$path: Bad line |$_|";
     } else {
       undef $current_source;
     }

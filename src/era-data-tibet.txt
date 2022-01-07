@@ -733,6 +733,11 @@ tag 漢民族
 %tag   name_ja 苻健
 tag 苻健
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"皇始"
+name 皇始
+s+
+## AD351
+
 ## [102]
 #351 - 355-5/-6
 #中国歴代年号考
@@ -833,6 +838,10 @@ tag 漢民族
 %tag   name_ja 苻生
 tag 苻生
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"壽光"
+name 壽光
+s+
+
 ## [102]
 #355-6 - 357-5/-6
 #中国歴代年号考
@@ -875,6 +884,10 @@ tag 漢民族
 %tag   name_ja 苻堅
 tag 苻堅
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"僭稱天王，號年永興"
+name 永興
+s+
+
 ## [102]
 #357-6 - 359-5/-6
 #中国歴代年号考
@@ -912,6 +925,10 @@ tag 北支
 tag 漢民族
 
 tag 苻堅
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"改年為甘露"
+name 甘露
+s+
 
 ## [102]
 #359-6 - 364
@@ -1003,6 +1020,14 @@ tag 呂光
 #384 - 385-8 #陥落{}
 tag 西域
 
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"改為建元"
+name 建元
+s+
+#[北魏建国]"三十八年，改為建元。"
+## AD375
+
+
 [黑龍]
 #y~27
 
@@ -1061,6 +1086,11 @@ tag 北支
 %tag   name_ja 苻丕
 tag 苻丕
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"太安"
+name 太安
+s+
+## AD385
+
 ## [102]
 #385-8 - 386-10/-11
 #中国歴代年号考
@@ -1114,6 +1144,11 @@ tag 苻登
 
 tag 竇衝
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"太初"
+name 太初
+s+
+## AD386
+
 ## [102]
 #386-11 - 394-6/-7
 #中国歴代年号考
@@ -1152,6 +1187,10 @@ tag 北支
 %tag person
 %tag   name_ja 苻崇
 tag 苻崇
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"延初"
+name 延初
+s+
 
 ## [102]
 #394-7 - 394-10
@@ -1242,6 +1281,11 @@ tag 前秦
 %tag   name_ja 姚萇
 tag 姚萇
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"白雀"
+name 白雀
+s+
+## [,AD386)
+
 ## [102]
 #384-4 - 386-4/-4
 #吐魯番出土: "至於此白雀年號為高昌本身之年號或奉後秦之年號則仍然待考"
@@ -1294,6 +1338,11 @@ tag 前秦
 
 tag 姚萇
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"建初"
+name 建初
+s+
+## AD386
+
 ## [102]
 #386-4 - 394-4/-5
 #中国歴代年号考
@@ -1328,6 +1377,11 @@ tag 姚萇
 %tag   name_ja 姚興
 tag 姚興
 tag 代始改元不実施
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"皇初"
+name 皇初
+s+
+#姚興
 
 ## [102]
 #394-5 - 399-9/-9
@@ -1395,6 +1449,17 @@ tag 鉄弗部
 tag 赫連勃勃
 
 &
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"洪始"
+name 洪始
+s+
+#"天興元年，興去皇帝之號，降稱天王，號年洪始。"
+## AD398
+#"按卷六七崔光附崔鴻傳，魏收指摘鴻十六國春秋謬誤，
+#有云「至如太祖天興二年姚興改號，鴻以為改在元年」，
+#是魏收已知崔鴻之誤，不應此傳仍作「元年」，「元」當是「二」之訛。
+#又姚興年號實是「弘始」，見晉書卷一一七姚興載記，魏書避拓跋弘諱改。"
+
 ## [102]
 name_tw 洪始
 name_cn 洪始
@@ -1417,6 +1482,10 @@ tag 漢民族
 %tag person
 %tag   name_ja 姚泓
 tag 姚泓
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"永和"
+name 永和
+s+
 
 ## [102]
 #416-2 - 417-8
@@ -1523,6 +1592,11 @@ tag 漢民族
 %tag   name_ja 呂光
 tag 呂光
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"號麟嘉元年"
+name 麟嘉
+s+
+## AD389
+
 ## [102]
 #389-2 - 396-6
 #中国歴代年号考
@@ -1563,6 +1637,10 @@ tag 漢民族
 tag 呂光
 
 name_ja 竜飛
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"龍飛"
+name 龍飛
+s+
 
 ## [102]
 #396-6 - 399-12
@@ -1652,6 +1730,10 @@ tag 呂紹
 %tag   name_ja 呂纂
 tag 呂纂
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"咸寧"
+name 咸寧
+s+
+
 ## [102]
 #399-12 - 401/-1
 #中国歴代年号考
@@ -1690,6 +1772,10 @@ tag 氐
 %tag person
 %tag   name_ja 呂隆
 tag 呂隆
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"神鼎"
+name 神鼎
+s+
 
 ## [102]
 #401-2 - 403-8

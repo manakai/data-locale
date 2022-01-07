@@ -1669,6 +1669,7 @@ tag 私年号 (ウィキペディア)
 %tag country
 %tag   name_ja 西遼
 %tag   period of 遼
+%tag   region of 西域方面
 
 [延慶(西遼)]
 #y~1707

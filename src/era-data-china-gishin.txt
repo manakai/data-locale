@@ -1911,6 +1911,10 @@ tag 東晋
 
 tag 張祚
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"和平"
+name 和平
+s+
+
 ## [102]
 #354 - 355-9/-9' ->建兴43
 #中国歴代年号考
@@ -3057,6 +3061,10 @@ tag 東晋
 %tag   name_ja 李暠
 tag 李暠
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"庚子"
+name 庚子
+s+
+
 ## [102]
 #400-11 - 404-12
 #中国歴代年号考
@@ -3109,6 +3117,10 @@ tag 東晋
 
 tag 李暠
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"建初"
+name 建初
+s+
+
 ## [102]
 #405-1 - 417-2
 #中国歴代年号考
@@ -3142,6 +3154,10 @@ tag 東晋
 %tag person
 %tag   name_ja 李歆
 tag 李歆
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"嘉興"
+name 嘉興
+s+
 
 ## [102]
 #417-2 - 420-7

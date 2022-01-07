@@ -339,10 +339,12 @@
 %tag region
 %tag   name_ja 涼州
 %tag   region of 漢土
+%tag   region of 西域方面
 
 %tag region
 %tag   name_ja 涼
 %tag   region of 漢土
+%tag   region of 西域方面
 
 %tag position
 %tag   name_tw 涼王
@@ -414,10 +416,14 @@
 
 %tag region
 %tag   name_ja 敦煌
-%tag   region of 中央アジア
+%tag   region of 西域方面
 
 %tag region
 %tag   name_ja 西域
+%tag   region of 西域方面
+
+%tag region
+%tag   name_ja 西域方面
 %tag   region of 中央アジア
 
 %tag calendar
