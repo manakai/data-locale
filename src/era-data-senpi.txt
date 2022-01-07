@@ -78,6 +78,10 @@ tag 属国元号
 %tag   name_ja 乞伏乾帰
 tag 乞伏乾帰
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"太初"
+name 太初
+s+
+
 ## [102]
 #388-6 - 400-7
 #中国歴代年号考
@@ -123,6 +127,10 @@ tag 丁零
 
 tag 乞伏乾帰
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"更始"
+name 更始
+s+
+
 ## [102]
 #409-7 - 412-8
 #中国歴代年号考
@@ -160,6 +168,10 @@ tag 丁零
 %tag person
 %tag   name_ja 乞伏熾磐
 tag 乞伏熾磐
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"永康"
+name 永康
+s+
 
 ## [102]
 #412-8 - 419-12
@@ -216,6 +228,13 @@ name(kr) 건홍
 <-永康(壬子) [晋:420-1] #支那改元日{#西秦 #乞伏熾磐}
 ->永弘 [晋:428-5] #改元前の死去{#西秦 #乞伏熾磐}
 
+&
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"建洪"
+name 建洪
+s+
+#"改年為建洪"
+#"北史卷九三「洪」作「弘」，當是魏收避魏諱改「洪」"
+
 [永弘]
 #y~1649
 
@@ -257,6 +276,14 @@ name(kr) 영홍
 <-建弘 [晋:428-5] #支那改元日{#西秦 #乞伏暮末}
 ->勝光 [晋:431-1] #陥落{#劉夏, #西秦 #乞伏暮末}
 
+&
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"永洪"
+name 永洪
+s+
+#"改年為永洪"
+#"北史卷九三「洪」作「弘」，當是魏收避魏諱改「洪」，
+#下慕末改年永洪，北史也作「永弘」。"
+
 
 
 %tag people
@@ -281,6 +308,10 @@ tag 禿髪部
 %tag person
 %tag   name_ja 禿髪烏孤
 tag 禿髪烏孤
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"年號太初"
+name 太初
+s+
 
 ## [102]
 #397-1 - 399-12
@@ -319,6 +350,10 @@ tag チベット
 %tag person
 %tag   name_ja 禿髪利鹿孤
 tag 禿髪利鹿孤
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"建和"
+name 建和
+s+
 
 ## [102]
 #400-1 - 402-3
@@ -387,6 +422,12 @@ name(kr) 홍창
 tag 南涼
 tag 禿髪部
 tag 禿髪傉檀
+[弘昌]
+
+&
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"洪昌"
+name 洪昌
+s+
 
 
 [嘉平(戊申)]
@@ -399,6 +440,10 @@ tag 禿髪部
 tag 後秦
 
 tag 禿髪傉檀
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"嘉平"
+name 嘉平
+s+
 
 ## [102]
 #408-11 - 414-7
@@ -469,6 +514,11 @@ tag 慕容部
 %tag   name_ja 慕容皝
 tag 慕容皝
 tag 燕即位紀年
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"號年為元年"
+s+
+#"乃號年為元年，自稱燕王，置官如魏武輔漢故事。"..."建國二年，"
+##                                                AD339
 
 wref_zh 燕元
 #晋书, 资治通鉴: "以古代诸侯即位，只称元年，故不用年号"
@@ -544,6 +594,11 @@ tag 燕即位紀年
 %tag   name_ja 慕容儁
 tag 慕容儁
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"號年為元年。"
+s+
+#"號年為元年"
+## [AD341,AD352)
+
 wref_zh 慕容儁
 #349 "稱元年，仍不用東晉年號。"
 AD349 = 1
@@ -574,6 +629,11 @@ tag 慕容部
 tag 東晋
 
 tag 慕容儁
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"元璽"
+name 元璽
+s+
+## AD352
 
 ## [102]
 #352-11 - 357-1/-1
@@ -610,6 +670,10 @@ tag 慕容部
 tag 東晋
 
 tag 慕容儁
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"光壽"
+name 光壽
+s+
 
 ## [102]
 #357-2 - 360-1
@@ -696,6 +760,12 @@ tag 慕容部
 %tag   name_ja 慕容泓
 tag 慕容泓
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"燕興"
+name 燕興
+s+
+#"太祖之七年"..."泓於是進向長安，年號燕興。"
+## AD383
+
 ## [102]
 #384-4 - 384-12
 #中国歴代年号考
@@ -780,6 +850,12 @@ tag 段部
 %tag   name_ja 段随
 tag 段随
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"昌平"
+name 昌平
+s+
+#"登國元年"
+## AD386
+
 ## [102]
 #386-2 - 386-3
 #中国歴代年号考
@@ -816,6 +892,10 @@ tag 長安
 %tag   name_ja 慕容凱
 tag 慕容凱
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"建明"
+name 建明
+s+
+
 ## [102]
 #386-3
 #中国歴代年号考
@@ -849,6 +929,10 @@ tag 慕容部
 %tag person
 %tag   name_ja 慕容瑶
 tag 慕容瑶
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"號年建平"
+name 建平
+s+
 
 ## [102]
 #386-3
@@ -885,6 +969,10 @@ tag 後燕
 %tag   name_ja 慕容忠
 tag 慕容忠
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"改年建武"
+name 建武
+s+
+
 ## [102]
 #386-3 - 386-9
 #中国歴代年号考
@@ -920,6 +1008,10 @@ tag 後燕
 %tag person
 %tag   name_ja 慕容永
 tag 慕容永
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"中興"
+name 中興
+s+
 
 ## [102]
 #386-10 - 394-8
@@ -1017,6 +1109,11 @@ tag 慕容部
 
 tag 慕容垂
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"建興"
+name 建興
+s+
+## "登國元年" AD386
+
 ## [102]
 #386-2 - 396-4/-4
 #中国歴代年号考
@@ -1058,6 +1155,10 @@ tag 慕容部
 %tag   name_ja 慕容宝
 tag 慕容宝
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"永康"
+name 永康
+s+
+
 ## [102]
 #396-4 - 398-4/-4
 #中国歴代年号考
@@ -1098,6 +1199,12 @@ tag 蘭汗
 
 name_ja 青竜
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"號年青龍，"
+name 青龍
+s+
+#"皇始元年"...
+## AD396
+
 ## [102]
 #398-4 - 398-7
 #中国歴代年号考
@@ -1136,6 +1243,10 @@ tag 慕容部
 %tag   name_ja 慕容盛
 tag 慕容盛
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"改年為建平"
+name 建平
+s+
+
 ## [102]
 #398-10 - 398-12
 #中国歴代年号考
@@ -1171,6 +1282,10 @@ tag 慕容部
 
 tag 慕容盛
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"又號年為長樂"
+name 長樂
+s+
+
 ## [102]
 #399-1 - 401-7
 #中国歴代年号考
@@ -1200,6 +1315,10 @@ tag 慕容部
 %tag person
 %tag   name_ja 慕容熙
 tag 慕容熙
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"光始"
+name 光始
+s+
 
 ## [102]
 #401-8 - 406-12
@@ -1234,6 +1353,10 @@ tag 後燕
 tag 慕容部
 
 tag 慕容熙
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"建始"
+name 建始
+s+
 
 ## [102]
 #407-1 - 407-7
@@ -1270,6 +1393,10 @@ tag 高句麗人
 %tag person
 %tag   name_ja 高雲
 tag 高雲
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"正始"
+name 正始
+s+
 
 ## [102]
 #407-7 - 409-10
@@ -1530,6 +1657,15 @@ wref_zh 燕平 (年號)
 
 tag 慕容麟
 
+&
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"號年為燕元"
+name 燕元
+s+
+#"寶既即位，以德鎮鄴，後拜丞相。寶既東走，羣僚勸德稱尊號，德不從。
+#皇始二年，既拔中山，太祖遣衞王儀攻鄴。
+#德率戶四萬南走滑臺，自稱燕王，號年為燕元，置百官。"
+## AD397
+
 [建平(庚子)]
 #y~917
 
@@ -1540,6 +1676,10 @@ tag 後燕
 tag 慕容部
 
 tag 慕容徳
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"僭稱尊號，號年建平"
+name 建平
+s+
 
 ## [102]
 #400-8 - 405-9
@@ -1580,6 +1720,10 @@ tag 東晋
 %tag person
 %tag   name_ja 慕容超
 tag 慕容超
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"太上"
+name 太上
+s+
 
 ## [102]
 #405-10 - 410-2
@@ -1647,9 +1791,732 @@ tag 追号説のある元号
 
 
 
+%tag country
+%tag   name_ja 柔然
+%tag   group of 五胡十六国時代
+%tag   group of 支那南北朝時代
+%tag   region of 西域方面
+%tag   period of 中国
+
+%tag people
+%tag   name_ja 柔然部
+%tag   group of 中華異民族
+
+
+[永康(甲辰)]
+#y~1296
+
+AD464 = 1
+
+tag 旧説
+
+tag 柔然
+tag 柔然部
+tag 北魏
+
+%tag person
+%tag   name_ja 郁久閭予成
+tag 郁久閭予成
+
+wref_zh 永康 (柔然)
+#464 - 484
+#中国歴代年号考
+
+wref_ja 永康 (柔然)
+name_ja 永康
+name_kana えい こう
+#464 - 484
+#魏書 蠕蠕伝
+#中国歴代年号考
+## <https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%88:%E6%B0%B8%E5%BA%B7_(%E6%9F%94%E7%84%B6)>
+#東亜歴史年表: 464 - 484 (21)
+
+## <https://ja.wikipedia.org/wiki/%E9%83%81%E4%B9%85%E9%96%AD%E4%BA%88%E6%88%90>
+#[464,-7] #即位 #改元
+#"予成は柔然で初めて独自の年号を立てて永康元年とした。"
+#475-12 #死去
+
+<-unknown ->永康(甲辰),永康(丙午) [魏:464,魏:464-7]
+    #建元前の即位{#柔然 #郁久閭予成 #可汗}
+<-unknown [魏:464,魏:464-7] #支那改元日{#柔然 #郁久閭予成} #旧説
+
+def[永康(丙午)]
+
+AD470 = 5
+
+tag 柔然
+tag 柔然部
+tag 北魏
+
+tag 郁久閭予成
+
+wref_zh 永康 (柔然)
+name_tw 永康
+name_cn 永康
+#466 - 485
+#
+#高昌史稿 統治篇; 梁玉书旧藏 现藏日本东京台东区立书道博物馆:
+#吐鲁番 妙法蓮華經10殘本 "永康五年歲次庚戌" AD470
+u 5
+#
+#高昌 466 - 485
+
+wref_ja 永康 (柔然)
+name_ja 永康
+name_kana えい こう
+#文物: 王樹楠:
+#トルファン出土妙法蓮華経10 題記: 永康五年 歳庚戌 (AD470)
+## <https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%88:%E6%B0%B8%E5%BA%B7_(%E6%9F%94%E7%84%B6)>
+
+<-unknown [魏:466] #支那改元日{#柔然 #郁久閭予成}
+
+## <https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E9%AB%98%E6%98%8C>
+tag 闞氏高昌
+tag 高昌
+%tag person
+%tag   name_ja 闞伯周
+tag 闞伯周
+%tag person
+%tag   name_ja 闞義成
+tag 闞義成
+%tag person
+%tag   name_cn 阚首归
+tag 阚首归
+#466 - 485
+## <https://ja.wikipedia.org/wiki/%E9%97%9E%E4%BC%AF%E5%91%A8>
+#460 #闞伯周 #即位{#闞氏高昌 #高昌王} #柔然
+
+
+[太平(乙丑)]
+#y~299
+
+AD485 = 1
+
+tag 柔然
+tag 柔然部
+tag 北魏
+
+%tag person
+%tag   name_ja 郁久閭豆崙
+tag 郁久閭豆崙
+
+## [102]
+#485 - 491
+#中国歴代年号考
+#
+#高昌史稿 統治篇, pp.270-275:
+#高昌 485 - 488
+
+wref_ja 太平 (柔然)
+name_ja 太平
+name_kana たい へい
+#485 - 491
+#中国歴代年号考
+
+## <https://ja.wikipedia.org/wiki/%E9%83%81%E4%B9%85%E9%96%AD%E8%B1%86%E5%B4%99>
+#485 #即位 #改元
+#492(-8) #死去
+
+<-永康(甲辰),永康(丙午) [魏:485] #建元前の即位{#柔然 #郁久閭豆崙 #可汗}
+<-永康(甲辰),永康(丙午) [魏:485] #支那改元日{#柔然 #郁久閭豆崙}
+->太安(壬申) [魏:492-8] #改元前の死去{#柔然 #郁久閭豆崙}
+
+## <https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E9%AB%98%E6%98%8C>
+tag 高昌
+tag 闞氏高昌
+tag 阚首归
+#485 - 488
+
+[太安(壬申)]
+#y~936
+
+AD492 = 1
+
+tag 柔然
+tag 柔然部
+tag 北魏
+
+%tag person
+%tag   name_ja 郁久閭那蓋
+tag 郁久閭那蓋
+
+## [102]
+#492 - 505
+#中国歴代年号考
+
+wref_ja 太安 (柔然)
+name_ja 太安
+name_kana たい あん
+#492 - 505
+#中国歴代年号考
+
+## <https://ja.wikipedia.org/wiki/%E9%83%81%E4%B9%85%E9%96%AD%E9%82%A3%E8%93%8B>
+#492 #即位 #改元
+#506 #死去
+
+<-太平(乙丑) [魏:492-8] #建元前の即位{#柔然 #郁久閭那蓋 #可汗}
+<-太平(乙丑) [魏:492-8] #支那改元日{#柔然 #郁久閭那蓋}
+->始平 [魏:506] #改元前の死去{#柔然 #郁久閭那蓋}
+
+[始平]
+#y~385
+
+AD506 = 1
+
+tag 柔然
+tag 柔然部
+tag 北魏
+
+%tag person
+%tag   name_ja 郁久閭伏図
+tag 郁久閭伏図
+
+## [102]
+#506 - 507
+#中国歴代年号考
+
+wref_ja 始平
+name_ja 始平
+name_kana し へい
+#506 - 508
+#中国歴代年号考
+
+## <https://ja.wikipedia.org/wiki/%E9%83%81%E4%B9%85%E9%96%AD%E4%BC%8F%E5%9B%B3>
+#506 #即位
+#508-9~ #死去
+
+<-太安(壬申) [魏:506] #建元前の即位{#柔然 #郁久閭伏図 #可汗}
+<-太安(壬申) [魏:506] #支那改元日{#柔然 #郁久閭伏図}
+->建昌 [魏:508-9,魏:508] #改元前の死去{#柔然 #郁久閭伏図}
+
+[建昌]
+#y~1524
+
+AD508 = 1
+
+tag 柔然
+tag 柔然部
+tag 北魏
+tag 南梁
+
+%tag person
+%tag   name_ja 郁久閭醜奴
+tag 郁久閭醜奴
+
+## [108]
+#508 - 520
+#中国歴代年号考
+#->none
+
+wref_ja 建昌 (柔然)
+name_ja 建昌
+name_kana けん しょう
+#508 - 520
+#中国歴代年号考
+u 1
+u 13
+#->none
+
+## <https://ja.wikipedia.org/wiki/%E9%83%81%E4%B9%85%E9%96%AD%E9%86%9C%E5%A5%B4>
+#508 #即位 #改元
+#520 #死去
+## <https://ja.wikipedia.org/wiki/%E6%9F%94%E7%84%B6#%E9%98%BF%E9%82%A3%E7%93%8C%E3%81%AE%E6%B2%BB%E4%B8%96>
+#520 "阿那瓌から柔然の元号を立てなくなる"
+
+<-始平 [魏:508-9,魏:508] #建元前の即位{#柔然 #郁久閭醜奴 #可汗}
+<-始平 [魏:508-9,魏:508] #支那改元日{#柔然 #郁久閭醜奴}
+->unknown [魏:520] #改元前の死去{#柔然 #郁久閭醜奴}
 
 
 
+%tag region
+%tag   name_ja 高昌
+%tag   region of 西域方面
+
+%tag country
+%tag   name_ja 高昌国
+%tag   region of 西域方面
+%tag   period of 支那南北朝時代
+
+%tag position
+%tag   name_ja 高昌王
+%tag   group of 王 (支那)
+
+%tag country
+%tag   name_ja 闞氏高昌
+%tag   period of 高昌国
+
+[建初(己巳)]
+#y~1299
+
+AD489 = 1
+
+tag 高昌
+tag 高昌国
+
+%tag person
+%tag   name_ja 張孟明
+tag 張孟明
+
+## [102]
+#489 - 496
+#高昌史稿 統治篇:
+#新疆出土 "建初二年歲在庚午" AD490 "建初七年十二月十二日太歲〔乙〕亥" AD495
+u 2
+u 7-12-12
+#
+#中国歴代年号考:
+#"阚首归的年號，共计3年。"
+#
+#<-太平 ->?
+## <https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E9%AB%98%E6%98%8C>
+#489 - 496
+#489 - 491
+#489 #即位
+
+wref_ja 建初 (高昌)
+name_ja 建初
+name_kana けん しょ
+#489 - 491
+u 1
+u 3
+#闞首帰
+#<-永康 ->?
+
+## <https://ja.wikipedia.org/wiki/%E5%BC%B5%E5%AD%9F%E6%98%8E>
+#488~ #即位 王
+#496~ #死去
+
+<-太平(乙丑) [魏:488,魏:489] #建元前の即位{#高昌国 #張孟明 #高昌王}
+<-太平(乙丑) [魏:489] #支那改元日{#高昌国 #張孟明} #起事建元
+->unknown [魏:496] #改元前の死去{#高昌国 #張孟明}
+
+%tag country
+%tag   name_ja 麹氏高昌
+%tag   period of 高昌国
+
+[承平(壬午)]
+#y~519
+
+AD502 = 1
+
+tag 高昌
+tag 麹氏高昌
+tag 北魏
+
+%tag person
+%tag   name_ja 麹嘉
+tag 麹嘉
+tag 漢民族
+
+## [102]
+#502 - 509
+#502 - 510
+#中国歴代年号考
+#<-? ->義熙
+## <https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E9%AB%98%E6%98%8C>
+#502 - 509
+#502 - 510
+#高昌史稿 統治篇:
+#新疆出土契約文書: "承平五年歲次丙戌" AD506 "承平八年歲次己丑" AD509
+u 5
+u 8
+
+wref_ja 承平 (高昌)
+name_ja 承平
+name_kana しょう へい
+#502 - 510
+#<-none ->義熙
+
+## <https://ja.wikipedia.org/wiki/%E9%BA%B9%E5%98%89>
+#501~ #即位 #改元
+
+## <https://ja.wikipedia.org/wiki/%E9%AB%98%E6%98%8C#%E6%AD%B4%E4%BB%A3%E5%90%9B%E4%B8%BB>
+#501/502 - 509/510
+
+<-unknown [魏:501] #建元前の即位{#麹氏高昌 #麹嘉 #高昌王}
+<-unknown [魏:502] #支那改元日{#麹氏高昌 #麹嘉}
+
+
+[義熙(辛卯)]
+#y~523
+
+AD510 = 1
+
+tag 高昌
+tag 麹氏高昌
+tag 北魏
+
+tag 麹嘉
+tag 漢民族
+
+## [102]
+#510 - 525
+#中国歴代年号考; 高昌史稿 統治篇:
+#吐魯番出土: "義熙元年（當作二年）辛卯" "義熙五年甲午歲"
+##           AD511 (2)                  AD514 (5)
+#
+#509 - 525
+## <https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E9%AB%98%E6%98%8C>
+#510 - 525
+#511 - 523
+#高昌史稿 統治篇:
+#新疆出土 孝經解: "義熙元年辛卯〔歲〕" AD511 "疑「二」訛作「元」"
+#         契約文書: "義熙五年甲午歲" AD514
+
+wref_ja 義熙 (高昌)
+name_ja 義熙
+name_kana ぎ き
+#510? - 525?
+
+## <https://ja.wikipedia.org/wiki/%E9%BA%B9%E5%98%89>
+#510~ #改元
+#525~ #死去
+
+## <https://ja.wikipedia.org/wiki/%E9%AB%98%E6%98%8C#%E6%AD%B4%E4%BB%A3%E5%90%9B%E4%B8%BB>
+#510/511 - 525
+
+<-承平(壬午) [魏:510] #支那改元日{#麹氏高昌 #麹嘉}
+->甘露(乙巳) [魏:525] #改元前の死去{#麹氏高昌 #麹嘉}
+
+[甘露(乙巳)]
+#y~633
+
+AD525 = 1
+
+tag 高昌
+tag 麹氏高昌
+tag 北魏
+
+%tag person
+%tag   name_ja 麹光
+tag 麹光
+tag 漢民族
+
+## [102]
+#525~ - 530~
+#中国歴代年号考
+
+## <https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E9%AB%98%E6%98%8C>
+#高昌史稿 統治篇:
+#526 - 530
+
+wref_ja 甘露 (高昌)
+name_ja 甘露
+name_kana かん ろ
+#525? - 530?
+
+## <https://ja.wikipedia.org/wiki/%E9%BA%B9%E5%85%89>
+#525~ #即位
+#531 #改元 甘露
+#530~ #退位
+
+<-義熙(辛卯) [魏:525] #建元前の即位{#麹氏高昌 #麹光 #高昌王}
+<-義熙(辛卯) [魏:525] #支那改元日{#麹氏高昌 #麹光}
+->章和(辛亥) [魏:530] #改元前の退位{#麹氏高昌 #麹光 #高昌王}
+
+
+[章和(辛亥)]
+#y~31
+
+AD531 = 1
+
+tag 高昌
+tag 麹氏高昌
+tag 北魏
+
+%tag person
+%tag   name_ja 麹堅
+tag 麹堅
+tag 漢民族
+
+## [102]
+#531 - 548
+
+wref_ja 章和 (高昌)
+name_ja 章和
+name_kana しょう わ
+#531 - 548?
+
+## <https://ja.wikipedia.org/wiki/%E9%BA%B9%E5%A0%85>
+#530~ #即位
+#531 #改元
+#548 #退位
+
+<-甘露(乙巳) [魏:530] #建元前の即位{#麹氏高昌 #麹堅 #高昌王}
+<-甘露(乙巳) [魏:531] #支那改元日{#麹氏高昌 #麹堅}
+->永平(己巳) [魏:548] #改元前の退位{#麹氏高昌 #麹堅 #高昌王}
+
+
+[永平(己巳)]
+#y~909
+
+AD549 = 1
+
+tag 高昌
+tag 麹氏高昌
+tag 西魏
+
+%tag person
+%tag   name_ja 麹玄喜
+tag 麹玄喜
+tag 漢民族
+
+## [102]
+#549 - 550
+#中国歴代年号考
+#"该年号诸史皆无，有黄文弼根据《田元初墓表》补正。"
+
+wref_ja 永平 (高昌)
+name_ja 永平
+name_kana えい へい
+#549 - 550
+
+## <https://ja.wikipedia.org/wiki/%E9%BA%B9%E7%8E%84%E5%96%9C>
+#548 #即位
+#549 #改元
+#550 #死去
+
+<-章和(辛亥) [魏:548] #建元前の即位{#麹氏高昌 #麹玄喜 #高昌王}
+<-章和(辛亥) [魏:549] #支那改元日{#麹氏高昌 #麹玄喜}
+->和平(辛未) [魏:550] #改元前の死去{#麹氏高昌 #麹玄喜}
+
+
+[和平(辛未)]
+#y~1702
+
+AD551 = 1
+
+tag 高昌
+tag 麹氏高昌
+tag 西魏
+
+## <https://ja.wikipedia.org/wiki/%E9%BA%B9%E7%8E%84%E5%96%9C>
+## <https://ja.wikipedia.org/wiki/%E9%BA%B9%E5%AE%9D%E8%8C%82>
+%tag person
+%tag   name_ja 麹玄喜の子
+tag 麹玄喜の子
+tag 漢民族
+
+## [102]
+#551 - 554
+#"该年号诸史皆无，黄文弼根据《汜绍和及妻张氏墓表》及《孟宣宗墓表》补正，
+#不知为哪位君主的年号。"
+#中国歴代年号考
+
+wref_ja 和平 (高昌)
+name_ja 和平
+name_kana わ へい
+#551 - 554
+#中国歴代年号考
+
+<-永平(己巳) [魏:550,魏:551] #建元前の即位{#麹氏高昌 #麹玄喜の子 #高昌王}
+<-永平(己巳) [魏:551] #支那改元日{#麹氏高昌 #麹玄喜}
+->建昌(乙亥) [魏:554,魏:555] #改元前の退位{#麹氏高昌 #麹玄喜の子 #高昌王}
+
+[建昌(乙亥)]
+#y~931
+
+AD555 = 1
+
+tag 高昌
+tag 麹氏高昌
+tag 西魏
+tag 北周
+
+%tag person
+%tag   name_ja 麹宝茂
+tag 麹宝茂
+
+## [102]
+#555 - 560
+#中国歴代年号考
+
+wref_ja 建昌 (高昌)
+name_ja 建昌
+name_kana けん しょう
+#555 - 560
+#549 - 550
+#中国歴代年号考
+
+## <https://ja.wikipedia.org/wiki/%E9%BA%B9%E5%AE%9D%E8%8C%82>
+#555 #即位 #改元
+#560 #死去
+
+<-和平(辛未) [魏:555] #建元前の即位{#麹氏高昌 #麹玄喜 #高昌王}
+<-和平(辛未) [魏:555] #支那改元日{#麹氏高昌 #麹玄喜}
+->延昌(辛巳) [魏:560] #改元前の死去{#麹氏高昌 #麹玄喜}
+
+
+[延昌(辛巳)]
+#y~1442
+
+AD561 = 1
+
+tag 高昌
+tag 麹氏高昌
+tag 北周
+tag 隋
+
+%tag person
+%tag   name_ja 麹乾固
+tag 麹乾固
+
+## [102]
+#561 - 601
+#"该年号由黄文弼根据高昌时期的残纸和《麴氏造寺碑》上的文字，
+#考据出是麴乾固的年号。 "
+#中国歴代年号考
+
+wref_ja 延昌 (高昌)
+name_ja 延昌
+name_kana えん しょう
+#561 - 601
+#中国歴代年号考
+
+## <https://ja.wikipedia.org/wiki/%E9%BA%B9%E4%B9%BE%E5%9B%BA>
+#561 #即位 #改元
+#601 #死去
+
+<-建昌(乙亥) [隋:561] #建元前の即位{#麹氏高昌 #麹乾固 #高昌王}
+<-建昌(乙亥) [隋:561] #支那改元日{#麹氏高昌 #麹乾固}
+->延和(壬戌) [隋:601] #改元前の死去{#麹氏高昌 #麹乾固}
+
+
+[延和(壬戌)]
+#y~643
+
+AD602 = 1
+
+tag 高昌
+tag 麹氏高昌
+tag 隋
+
+%tag person
+%tag   name_ja 麹伯雅
+tag 麹伯雅
+
+## [102]
+#602 - 613
+#"麴伯雅嗣位时间诸史皆无，黄文弼根据《延和二年癸亥唐元护妻令狐氏墓表》推算。"
+#中国歴代年号考
+
+wref_ja 延和 (高昌)
+name_ja 延和
+#602 - 613
+#"建和（けんわ）"
+
+## <https://ja.wikipedia.org/wiki/%E9%BA%B9%E4%BC%AF%E9%9B%85>
+#602 #即位 #改元
+#608 #即位 #隋 弁国公 高昌王
+#613 #退位
+
+<-延昌(辛巳) [隋:602] #建元前の即位{#麹氏高昌 #麹伯雅 #高昌王} #重祚前の即位
+<-延昌(辛巳) [隋:602] #支那改元日{#麹氏高昌 #麹伯雅}
+->義和(甲戌) [隋:613] #改元前の退位{#麹氏高昌 #麹伯雅 #高昌王}
+
+
+[義和(甲戌)]
+#y~1714
+
+AD614 = 1
+
+tag 高昌
+tag 麹氏高昌
+tag 隋
+tag 李唐
+
+## [102]
+#614 - 619
+#"该年号诸史皆无。黄文弼根据一些墓表和吐鲁番出土文书补正。
+#吴震考订[1]：高昌国延和十二年（613年）发生了一场政变。政变者统治高昌后，
+#于次年改元义和。" [1] 中国歴代年号考
+
+wref_ja 義和 (高昌)
+name_ja 義和
+name_kana ぎ わ
+#614 - 619
+#中国歴代年号考
+
+<-延和(壬戌) [隋:614] #支那改元日{#麹氏高昌}
+
+[重光]
+#y~219
+
+AD620 = 1
+
+tag 高昌
+tag 麹氏高昌
+tag 李唐
+
+tag 麹伯雅
+
+## [102]
+#620-2 - 623
+#麴伯雅
+#中国歴代年号考: 麴文泰
+
+wref_ja 重光 (高昌)
+name_ja 重光
+name_kana ちょう こう
+#620 - 623
+#中国歴代年号考
+#麴伯雅
+
+## <https://ja.wikipedia.org/wiki/%E9%BA%B9%E4%BC%AF%E9%9B%85>
+#620 #即位 #改元
+#623 #死去
+
+<-義和(甲戌) [隋:620-2] #建元前の即位{#麹氏高昌 #麹伯雅 #高昌王} #重祚
+<-義和(甲戌) [隋:620-2] #支那改元日{#麹氏高昌 #麹伯雅}
+->延壽(甲申) [隋:623] #改元前の死去{#麹氏高昌 #麹伯雅}
+
+[延壽(甲申)]
+#y~1372
+
+AD624 = 1
+
+tag 高昌
+tag 麹氏高昌
+tag 李唐
+
+%tag person
+%tag   name_ja 麹文泰
+tag 麹文泰
+
+## [102]
+#624 - 640
+#中国歴代年号考
+#->none
+## <https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E9%AB%98%E6%98%8C>
+#624 - 640-8 亡
+#"十七年八月麴智盛即位沿用"
+
+wref_ja 延寿 (高昌)
+name_ja 延寿
+name_kana えん じゅ
+#624 - 640
+#->none
+
+## <https://ja.wikipedia.org/wiki/%E9%BA%B9%E6%96%87%E6%B3%B0>
+#624 #即位
+#640 #死去
+## <https://ja.wikipedia.org/wiki/%E9%BA%B9%E6%99%BA%E7%9B%9B>
+#640 #即位
+#640 #陥落{#李唐,}
+## <https://ja.wikipedia.org/wiki/%E9%AB%98%E6%98%8C>
+#麴文泰 延寿 624年 - 640年
+#麴智盛 独自年号無し 
+
+%tag person
+%tag   name_ja 麹智盛
+tag 麹智盛
+
+<-重光 [唐:624] #建元前の即位{#麹氏高昌 #麹文泰 #高昌王}
+<-重光 [唐:624] #支那改元日{#麹氏高昌 #麹文泰}
+>< [唐:640,唐:640-8] #改元前の死去{#麹氏高昌 #麹文泰}
+>< [唐:640,唐:640-8] #即位{#麹氏高昌 #麹智盛 #高昌王}
+->貞觀(丁亥) [唐:640-8] #陥落{#李唐, #麹氏高昌 #麹文泰}
 
 
 
@@ -1979,6 +2846,10 @@ name 平文
 u 2
 u 3
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"平文皇帝"
+name 平文皇帝
+u 4
+
 ## <https://ja.wikipedia.org/wiki/%E6%8B%93%E8%B7%8B%E9%AC%B1%E5%BE%8B>
 <-拓跋猗盧 [晋:316] #建元前の即位{#代国 #拓跋鬱律 #代王}
 ->拓跋賀傉 [晋:321] #改元前の死去{#代国 #拓跋鬱律}
@@ -2243,6 +3114,9 @@ s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"太祖"
 name 太祖
 u 7
 s+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"太祖九年"
+s+
+u 9
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B796>"太祖"
 #"太祖七年"
 name 太祖
@@ -6495,6 +7369,8 @@ tag 私年号 (ウィキペディア)
 
 ## <https://zh-yue.wikipedia.org/wiki/%E7%A5%9E%E5%98%89>
 #525-12 - 535-3
+
+<-孝昌 [東魏:525-12] #支那改元日{#劉蠡升} #起事建元
 
 
 
@@ -12574,28 +13450,3 @@ name(kr) 동경
 
 
 
-#XXX
-[承平(癸未)]
-#y~983
-
-AD443 = 1
-
-name(kr) 승평
-
-#XXX
-# <https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>
-
-#XXX 涼
-# <https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>
-
-
-
-
-%tag region
-%tag   name_ja 高昌
-
-%tag country
-%tag   name_ja 高昌国
-
-%tag country
-%tag   name_ja 柔然

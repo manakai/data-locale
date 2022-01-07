@@ -49,6 +49,12 @@ tag 西晋
 %tag   name_ja 劉淵
 tag 劉渊
 
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"元熙"
+name 元熙
+#[,桓帝十一年 305) #即位 漢王 #改元
+s+
+
 ## [102]
 #304-10 - 308-9/308-10
 #<-none
@@ -100,6 +106,12 @@ tag 劉聡
 tag 劉曜
 tag 石勒
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"永鳳"
+#晉永嘉二年 #即位 帝 #改元
+## AD308
+name 永鳳
+s+
+
 ## [102]
 #308-10 - 309-4/309-5
 
@@ -138,6 +150,12 @@ tag 劉渊
 tag 劉聡
 tag 劉曜
 tag 石勒
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"河瑞"
+#"後汾水中得玉璽，文曰「有新保之」，蓋王莽之璽也。
+#得者因增「淵海光」三字而獻之，淵以為己瑞，號年為河瑞。"
+name 河瑞
+s+
 
 ## [102]
 #309-5 - 310-6/310-7
@@ -194,6 +212,10 @@ tag 劉聡
 tag 劉曜
 tag 石勒
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"光興"
+name 光興
+s+
+
 ## [102]
 #310-7 - 311-5/311-6
 
@@ -233,6 +255,11 @@ tag 劉聡
 tag 劉曜
 tag 石勒
 
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"嘉平"
+name 嘉平
+s+
+
 ## [102]
 #311-6 - 315-2/315-3
 
@@ -268,6 +295,11 @@ tag 劉聡
 
 tag 劉曜
 tag 石勒
+
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"建元"
+name 建元
+s+
 
 ## [102]
 #315-3 - 316-10/316-11
@@ -331,6 +363,10 @@ tag 劉聡
 tag 劉曜
 tag 石勒
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"麟嘉"
+name 麟嘉
+s+
+
 ## [102]
 #316-11 - 318-6/318-7
 
@@ -369,6 +405,10 @@ tag 劉粲
 
 tag 劉曜
 tag 石勒
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"漢昌"
+name 漢昌
+s+
 
 ## [102]
 #318-7 - 318-9/-10
@@ -424,6 +464,10 @@ tag 劉曜
 tag 石勒
 tag 句渠知
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"光初"
+name 光初
+s+
+
 ## [102]
 #318-10 - 329-8
 #中国歴代年号考
@@ -467,7 +511,8 @@ name(kr) 광초
 <-漢昌 [晋:318-10] #建元前の即位{#匈奴漢 #劉曜 #漢皇帝} #靳準の乱
 <-漢昌 [晋:318-10] #支那改元日{#匈奴漢 #劉曜}
 >< [晋:318-11] #国名変更{#匈奴漢, #前趙}
-->太和(戊子) [晋:328-12] #陥落{#後趙 #石勒, #前趙 #劉曜} #死去
+->太和(戊子) <-光初,太和(前趙) [晋:328-12]
+    #陥落{#後趙 #石勒, #前趙 #劉曜} #死去
 ->太和(戊子) [晋:329-9] #陥落{#後趙 #石勒, #前趙 #劉煕} #死去
 
 tag 氐
@@ -501,6 +546,13 @@ tag 石勒
 
 wref_ja 光初
 
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"太和"
+name 太和
+s+
+#"曜得黑兔，改年為太和。"
+
+<-光初 [晋:318-10,晋:328-12] #支那改元日{#前趙 #劉曜} #旧説
 
 
 
@@ -545,6 +597,12 @@ s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7105>"趙王�
 name 趙王
 s+
 #"太興二年，勒偽稱趙王，"..."依春秋列國、漢初侯王每世稱元，改稱趙王元年。"
+## AD319
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"趙王元年"
+#"勒乃自稱大都督、大將軍、大單于、趙王，以二十四郡為趙國，
+#號為趙王元年，平文三年也。"
+s+
 ## AD319
 
 ## <https://zh.wikipedia.org/wiki/%E7%9F%B3%E5%8B%92>
@@ -647,6 +705,11 @@ name 建平
 s+
 # #即位 #皇帝 #改元
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"建平"
+name 建平
+s+
+## AD330
+
 ## [102]
 #330-9 - 333/334
 #中国歴代年号考
@@ -703,6 +766,10 @@ s+
 ## AD332
 #咸康元年 #死去 "在位二年"
 ## AD335
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"延熙"
+name 延熙
+s+
 
 ## [102]
 #334 - 334/335
@@ -811,6 +878,10 @@ name 建武
 #335 #改元
 s+
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"號年建武"
+name 建武
+s+
+
 ## [102]
 #335 - 348
 #中国歴代年号考
@@ -900,6 +971,11 @@ tag 漢民族
 tag 東晋
 
 tag 石虎
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"太寧"
+name 太寧
+s+
+## AD349
 
 ## [102]
 #349 - 349/350
@@ -1170,6 +1246,10 @@ tag 段業
 
 tag 沮渠蒙遜
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"神璽"
+name 神璽
+s+
+
 ## [102]
 #397-5 - 399-1
 #中国歴代年号考
@@ -1245,6 +1325,10 @@ tag 匈奴
 %tag   name_ja 沮渠蒙遜
 tag 沮渠蒙遜
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"永安"
+name 永安
+s+
+
 ## [102]
 #401-6 - 412-10
 #中国歴代年号考
@@ -1275,6 +1359,10 @@ tag 漢民族
 tag 匈奴
 
 tag 沮渠蒙遜
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"玄始"
+name 玄始
+s+
 
 ## [102]
 #412-11 - 427
@@ -1317,6 +1405,10 @@ tag 漢民族
 tag 匈奴
 
 tag 沮渠蒙遜
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"承玄"
+name 承玄
+s+
 
 ## [102]
 #428 - 430
@@ -1374,6 +1466,10 @@ tag 匈奴
 
 tag 沮渠蒙遜
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"義和"
+name 義和
+s+
+
 ## [102]
 #431 - 433-4
 #中国歴代年号考: 431-6 - 433-4 "疑原自王素《高昌史稿・統治篇》"
@@ -1414,6 +1510,10 @@ tag 匈奴
 %tag person
 %tag   name_ja 沮渠牧犍
 tag 沮渠牧犍
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"承和"
+name 承和
+s+
 
 ## [102]
 #433-4 - 439-9
@@ -1567,6 +1667,10 @@ name_kana しょう へい
 tag 代始改元不実施
 ->unknown [南:460] #陥落{#柔然, #高昌北涼 #沮渠安周} #死去
 
+name(kr) 승평
+
+
+
 
 
 
@@ -1583,6 +1687,7 @@ tag 代始改元不実施
 %tag   period of 夏
 %tag   period of 中国
 %tag   group of 五胡十六国時代
+%tag   region of 西域方面
 
 [龍昇]
 #y~1465
@@ -1600,6 +1705,10 @@ tag 漢民族
 tag 赫連勃勃
 
 name_ja 竜昇
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"龍昇"
+name 龍昇
+s+
 
 ## [102]
 #407-6 - 413-2
@@ -1666,6 +1775,10 @@ tag 漢民族
 tag オルドス高原
 
 tag 赫連勃勃
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"昌武"
+name 昌武
+s+
 
 ## [102]
 #418-11 - 419-1
@@ -1793,6 +1906,12 @@ name_ja 永光
 #魏書
 #太平御覧
 
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"永光"
+name 永光
+s+
+#"既僭位，改年永光。"
+#"北史卷九三夏傳「永」作「承」。按通鑑卷一二０〈三七七六頁〉同北史。"
+
 [承陽]
 #y~1622
 
@@ -1829,6 +1948,10 @@ tag オルドス高原
 %tag person
 %tag   name_ja 赫連定
 tag 赫連定
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"勝光"
+name 勝光
+s+
 
 ## [102]
 #428-2 - 431-6
