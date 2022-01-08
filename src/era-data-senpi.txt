@@ -11650,6 +11650,13 @@ tag 劉知遠
 u 1-1
 u 2-12-17
 
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/69756/sial28_101.pdf#page=13>
+tag 敦煌
+tag 熊本裕説
+tag 張栄説
+u 2
+
 %tag country
 %tag   label_ja 五代漢
 %tag   name_ja 漢
