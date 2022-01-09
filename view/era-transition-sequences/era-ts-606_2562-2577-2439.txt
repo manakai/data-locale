@@ -1,7 +1,8 @@
 # y~606 建始(辛酉)
 # + tag 2562 #前涼
 # - tag 2577 #李儼
-# <https://data.suikawiki.org/tag/1922/graph?sequence=606%2B2562-2577>
+# - tag 2439 #司馬穎
+# <https://data.suikawiki.org/tag/1922/graph?sequence=606%2B2562-2577-2439>
 # y~1365 has multiple nexts: 493,1892
 # y~489 has multiple nexts: 589,1893
 # y~1666 has multiple nexts: 1846,1847
@@ -13,10 +14,6 @@ mjd:-568851 永寧(辛酉)
 mjd:-568247 太安
 # g:0304-03-01+0 y~1397 firstday
 mjd:-567848 永安(甲子)
-# g:0304-09-11+0 y~545 firstday
-mjd:-567654 建武(甲子)
-# g:0304-12-26+0 y~1397 firstday
-mjd:-567548 永安(甲子)
 # g:0305-02-05+0 y~807 firstday
 mjd:-567507 永興(甲子)
 # g:0306-07-14+0 y~1113 firstday

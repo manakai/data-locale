@@ -416,6 +416,10 @@
 
 %tag region
 %tag   name_ja 敦煌
+%tag   region of 涼州
+
+%tag region
+%tag   name_ja 酒泉
 %tag   region of 西域方面
 
 %tag region

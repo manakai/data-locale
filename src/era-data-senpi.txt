@@ -415,6 +415,8 @@ wref_ko 홍창 (남량)
 name(kr) 홍창
 #402-3 - 404-2
 
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.13
+
 <-建和(庚子) [晋:402-3] #建元前の即位{#南涼 #涼王 #禿髪傉檀} #重祚前の即位
 <-建和(庚子) [晋:402-3] #支那改元日{#南涼 #禿髪傉檀}
 ->弘始 [晋:404-2] #利用開始{#南涼 #禿髪傉檀} #後秦
@@ -1086,6 +1088,8 @@ name(kr) 연원
 #384-1-26 - 386-1
 #資治通鑑
 
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.15
+
 <-建元(乙丑) 晋:384-1-26 #建元前の即位{#後燕 #慕容垂 #燕王}
 <-建元(乙丑) 晋:384-1-26 #支那改元日{#後燕 #慕容垂} #起事建元
 
@@ -1132,7 +1136,11 @@ wref_ko 건흥 (후연)
 name(kr) 건흥
 #386-2-1 - 396-4
 
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.3
+#386-1 - 396-4
+
 <-燕元(甲申) [晋:386-1] #建元前の即位{#後燕 #慕容垂 #燕皇帝}
+<-燕元(甲申) [晋:386-1] #支那改元日{#後燕 #慕容垂} #旧説
 <-燕元(甲申) 晋:386-2-1 #支那改元日{#後燕 #慕容垂}
 ->永康(丙申) 晋:396-4-10 j:396-6-2 #改元前の死去{#後燕 #慕容垂}
 
@@ -1263,12 +1271,16 @@ name_kana けん へい
 #~400 #即位 庶人天王
 #401-秋 #死去
 
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.3
+#398-7 - 398-12
+
 wref_ko 건평 (후연)
 name(kr) 건평
 #398-10-17 - 399-1
 
 <-青龍(戊戌) [晋:398-8] #建元前の即位{#後燕 #慕容盛}
 <-青龍(戊戌) 晋:398-10-17 #建元前の即位{#後燕 #慕容盛 #燕皇帝}
+<-青龍(戊戌) [晋:398-7] #支那改元日{#後燕 #慕容盛} #旧説
 <-青龍(戊戌) 晋:398-10-17 #支那改元日{#後燕 #慕容盛}
 
 [長樂]
@@ -1836,6 +1848,9 @@ name_kana えい こう
 #"予成は柔然で初めて独自の年号を立てて永康元年とした。"
 #475-12 #死去
 
+tag 闞氏高昌
+tag 高昌
+
 <-unknown ->永康(甲辰),永康(丙午) [魏:464,魏:464-7]
     #建元前の即位{#柔然 #郁久閭予成 #可汗}
 <-unknown [魏:464,魏:464-7] #支那改元日{#柔然 #郁久閭予成} #旧説
@@ -1957,6 +1972,25 @@ name_kana たい あん
 <-太平(乙丑) [魏:492-8] #建元前の即位{#柔然 #郁久閭那蓋 #可汗}
 <-太平(乙丑) [魏:492-8] #支那改元日{#柔然 #郁久閭那蓋}
 ->始平 [魏:506] #改元前の死去{#柔然 #郁久閭那蓋}
+
+
+def[太安(庚寅)]
+#y~2009
+
+AD450 = 1
+
+tag 北魏
+tag 柔然
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78853/huibao_043.pdf#page=7>
+#B.L.S.2925v 佛説弁意長者子所問經: "太安元年ゝ在庚寅正月十九日"
+name 太安
+u 1-1-19
+#池田温
+tag 西域方面
+
+<-unknown [晋:450,晋:450-1-19] #支那改元日 #西域方面
+
 
 [始平]
 #y~385
@@ -2086,6 +2120,10 @@ u 3
 ## <https://ja.wikipedia.org/wiki/%E5%BC%B5%E5%AD%9F%E6%98%8E>
 #488~ #即位 王
 #496~ #死去
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78915/huibao_104.pdf#page=3>
+u 2
+u 7
 
 <-太平(乙丑) [魏:488,魏:489] #建元前の即位{#高昌国 #張孟明 #高昌王}
 <-太平(乙丑) [魏:489] #支那改元日{#高昌国 #張孟明} #起事建元
@@ -2378,6 +2416,9 @@ name_kana えん しょう
 #561 #即位 #改元
 #601 #死去
 
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78811/huibao_001.pdf#page=5>
+u 40
+
 <-建昌(乙亥) [隋:561] #建元前の即位{#麹氏高昌 #麹乾固 #高昌王}
 <-建昌(乙亥) [隋:561] #支那改元日{#麹氏高昌 #麹乾固}
 ->延和(壬戌) [隋:601] #改元前の死去{#麹氏高昌 #麹乾固}
@@ -2411,6 +2452,15 @@ name_ja 延和
 #608 #即位 #隋 弁国公 高昌王
 #613 #退位
 
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78889/huibao_078.pdf#page=6>
+#辞海 紀年表 12 years
+#
+tag トルファン
+u 18
+u 19
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78915/huibao_104.pdf#page=3>
+u 18
+
 <-延昌(辛巳) [隋:602] #建元前の即位{#麹氏高昌 #麹伯雅 #高昌王} #重祚前の即位
 <-延昌(辛巳) [隋:602] #支那改元日{#麹氏高昌 #麹伯雅}
 ->義和(甲戌) [隋:613] #改元前の退位{#麹氏高昌 #麹伯雅 #高昌王}
@@ -2438,7 +2488,18 @@ name_kana ぎ わ
 #614 - 619
 #中国歴代年号考
 
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78848/huibao_038.pdf#page=7>
+#"義和五年戊寅歳十月十一日"
+u 5-10-11
+tag 敦煌
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78889/huibao_078.pdf#page=6>
+#614-初 #改元 延和->義和
+
 <-延和(壬戌) [隋:614] #支那改元日{#麹氏高昌}
+
+->重光 [隋:619] #改元前の死去{#麹氏高昌 #麹伯雅} #旧説
+->重光 [隋:619] #建元前の即位{#麹氏高昌 #麹文泰} #旧説
 
 [重光]
 #y~219
@@ -2466,6 +2527,14 @@ name_kana ちょう こう
 ## <https://ja.wikipedia.org/wiki/%E9%BA%B9%E4%BC%AF%E9%9B%85>
 #620 #即位 #改元
 #623 #死去
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78889/huibao_078.pdf#page=6>
+#旧唐書198
+#619 麴伯雅 #死去 麹文泰 #即位
+#資治通鑑190
+#623 麴伯雅 #死去 麹文泰 #即位
+tag 麹文泰
+#劉戈: [620-2,620] #改元
 
 <-義和(甲戌) [隋:620-2] #建元前の即位{#麹氏高昌 #麹伯雅 #高昌王} #重祚
 <-義和(甲戌) [隋:620-2] #支那改元日{#麹氏高昌 #麹伯雅}
@@ -2506,7 +2575,10 @@ name_kana えん じゅ
 #640 #陥落{#李唐,}
 ## <https://ja.wikipedia.org/wiki/%E9%AB%98%E6%98%8C>
 #麴文泰 延寿 624年 - 640年
-#麴智盛 独自年号無し 
+#麴智盛 独自年号無し
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78867/huibao_056.pdf#page=7>
+u 4-9-11
 
 %tag person
 %tag   name_ja 麹智盛
@@ -3353,6 +3425,9 @@ name(kr) 영흥
 #永興 [y~446] AD532 (1)
 #永安 [y~850] AD528 (1) - AD530 (3)
 
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.6
+#409-10 - 413-12
+
 
 [神瑞]
 #y~268
@@ -3441,6 +3516,9 @@ name_ja 建平
 name_kana けん へい
 #415-3 - 416-9
 tag 私年号 (ウィキペディア)
+
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.5
+#415-3 - 416-8
 
 
 [泰常]
@@ -3600,18 +3678,24 @@ wref_ko 연화 (북위)
 name(kr) 연화
 #432-1-1 - 435
 
+## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009470> PDF p.11
+u 3-8-4
+#池田温: 存疑
+
 
 [緣禾]
 #y~313
 
 tag 北涼
 tag 沮渠蒙遜
+tag 北魏
 
 ## [102]
 #中国歴代年号考
 #
 #文物参考资料 1956 (7): 酒泉文殊山的石窟寺院遗迹, 史岩:
 #甘肅石刻: "緣禾三年歲次甲戌"
+name 緣禾
 u 3
 #
 #吐鲁番出土文书第一册, AD1981, p.98, p.127, p.176:
@@ -3626,6 +3710,71 @@ u 6
 #"學界認爲沮渠氏北凉奉北魏正朔時，遵照諧音，將“延和”和“太延”分別改作
 #“緣禾”和“太緣”[1][4]。"
 #[中国歴代年号考; 國内20世纪以來的高昌史研究綜述, 施新榮, AD2003]
+
+## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009470>
+tag 敦煌
+u 3-9-5
+tag トルファン
+u 5-2-4
+u 5-6-11
+u 5-6-23
+u 6-1-14
+u 6-2-20
+u 10-3-1
+u 10-3-1
+#
+#關尾史郎:
+tag 北涼
+#- 435 ->太緣
+tag トルファン
+#- 441
+#
+#通説: 434 -
+#柳洪亮: 432-1 -
+#關尾史郎: 434-1 -
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78846/huibao_036.pdf#page=4>
+tag トルファン
+u 6
+AD437 = 6
+u 10
+tag 高昌
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78853/huibao_043.pdf#page=2>
+#侯燦: - 442 (11)-9
+#關尾史郎: - 441 ->建平->承平 AD443
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78853/huibao_043.pdf#page=5>
+#福原啓郎: 祁復延 避諱?
+#關尾史郎: 和 禾 variant?
+
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.5
+#433-9,-10 - 435-1
+
+<-義和 [魏:432-1-丙午,魏:432-1] #利用開始{#北涼 #沮渠無諱} #旧説
+<-承和(癸酉) [魏:434-1] #利用開始{#北涼 #沮渠無諱}
+<-永和(癸酉) [魏:433-9,魏:433-10] #利用開始{#北涼 #沮渠無諱} #異説
+->建平(北涼) [晋:441] #利用開始{#トルファン}
+->unknown [晋:442-9] #利用開始{#北涼 #トルファン #沮渠無諱} #旧説
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78841/huibao_031.pdf>,
+## 關尾史郎, 1990
+tag 酒泉
+name 縁禾
+u 3-7
+#"凉故大沮渠縁示三年歳次甲戌七月上旬"
+#AD434
+&
+name 縁示
+
+## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009470>,
+## 關尾史郎, 1985
+tag 酒泉
+u 3-7
+#"凉故大沮渠示緣三年歳次甲戌七月上旬" [typo]
+#PDF p.6 "凉故大沮渠縁示三年"
+
+
 
 
 [太延]
@@ -3663,8 +3812,11 @@ name(kr) 태연
 [太緣]
 #y~952
 
+AD435 = 1
+
 tag 北涼
 tag 沮渠牧犍
+tag 北魏
 
 ## [102]
 #中国歴代年号考
@@ -3674,6 +3826,25 @@ u 2
 #"學界認爲沮渠氏北凉奉北魏正朔時，遵照諧音，將“延和”和“太延”分別改作
 #“緣禾”和“太緣”[1][2]。"
 #[中国歴代年号考; 國内20世纪以來的高昌史研究綜述, 施新榮, AD2003]
+
+## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009470>
+tag トルファン
+u 2-4
+#    -中
+tag 酒泉
+u 2-6
+#    -中
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78841/huibao_031.pdf#page=5>
+#"凉太縁二年歳次丙子六月中旬"
+u 2-6
+name 太縁
+tag 酒泉
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78853/huibao_043.pdf#page=5>
+#福原啓郎: 祁復延 避諱?
+
+<-緣禾 [魏:435-1-壬午,魏:435] #利用開始{#北涼}
 
 
 [太平真君]
@@ -9564,6 +9735,10 @@ tag 君主名の元号
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7121>"改元廣德"
 #[763-7]
 
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78821/huibao_011.pdf#page=5>
+u 4-4
+tag トルファン
+
 
 def[大龍]
 #y~1894
@@ -11651,7 +11826,7 @@ u 1-1
 u 2-12-17
 
 
-## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/69756/sial28_101.pdf#page=13>
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/69756/sial28_101.pdf#page=14>
 tag 敦煌
 tag 熊本裕説
 tag 張栄説

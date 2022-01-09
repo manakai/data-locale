@@ -204,7 +204,10 @@ name(kr) 건초
 #晋書
 #魏書
 
-<-永寧(辛酉) [晋:302] #支那改元日{#成漢 #李特} #蜀 #西晋 #起事建元 #旧説
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.3
+#302-5 #改元 [晋書120 魏書96]
+
+<-永寧(辛酉) [晋:302-5] #支那改元日{#成漢 #李特} #蜀 #西晋 #起事建元 #旧説
 
 >< [晋:303-2] #死去{#成漢 #李特} #西晋
 #XXX dup
@@ -460,8 +463,12 @@ wref_ko 옥항
 name(kr) 옥항
 #335 - 338-3
 
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.3
+#335-1 #改元 [晋書121, 資治通鑑95]
+
 <-玉衡 [晋:334-10] #建元前の即位{#大成 #李期 #支那皇帝}
 <-玉衡 [晋:335-5] #支那改元日{#大成 #李期}
+<-玉衡 [晋:335-1] #支那改元日{#大成 #李期} #旧説
 ->漢興 [晋:338-3,晋:338-4] #改元前の退位{#大成 #李期 #支那皇帝}
 
 [漢興]
@@ -567,9 +574,12 @@ wref_ko 태화 (성한)
 name(kr) 태화
 #344 - 346-9
 
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.3
+#344-1 #改元 [晋書121, 魏書96, 資治通鑑97]
+
 <-漢興 ->太和(甲辰),太和(癸卯) [晋:343-8]
     #建元前の即位{#漢_(李寿) #李勢 #漢皇帝}
-<-漢興 [晋:344] #支那改元日{#漢_(李寿) #李勢}
+<-漢興 [晋:344-1] #支那改元日{#漢_(李寿) #李勢}
 
 def[太和(癸卯)]
 
@@ -703,6 +713,9 @@ tag 私年号 (ウィキペディア)
 ## <https://zh.wikipedia.org/wiki/%E5%8F%A5%E6%B8%A0%E7%9F%A5>
 <-光初 [晋:320-6] #建元前の即位{#秦_(句渠知) #句渠知 #秦王} #前趙
 <-光初 [晋:320-6] #支那改元日{#秦_(句渠知) #句渠知} #起事建元 #前趙
+
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.3
+#320-6 - 320-7 [資治通鑑91]
 
 ->光初 [晋:320-6] #陥落{#前趙, #秦_(句渠知) #句渠知}
 
@@ -952,6 +965,13 @@ tag 姚萇
 tag 氐
 tag 呂光
 
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78853/huibao_043.pdf#page=3>
+tag 前涼
+tag 酒泉
+u 1-3-17
+# ^^^ 遡及
+u 2-1-27
+
 [建元(乙丑)]
 #y~974
 
@@ -1002,7 +1022,11 @@ name(kr) 건원
 #365 - 385-7
 #->太安
 
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.3
+#365-1 - 385-7
+
 <-甘露(己未) [晋:365-6] #支那改元日{#前秦 #苻堅}
+<-甘露(己未) [晋:365-1] #支那改元日{#前秦 #苻堅} #旧説
 
 ## <https://ja.wikipedia.org/wiki/%E8%A5%BF%E7%A7%A6>
 #371 #陥落{, 乞伏司繁}
@@ -1027,6 +1051,38 @@ s+
 #[北魏建国]"三十八年，改為建元。"
 ## AD375
 
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78846/huibao_036.pdf#page=3>
+#五凉史略, AD1988: 吐魯番考古記, 黄文弼: 木簡: "前秦建元廿(三八四)年役課簡"
+u 20
+tag トルファン
+#not found in 吐魯番考古記
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78839/huibao_029.pdf#page=2>
+u 6
+tag 敦煌
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78916/huibao_105.pdf#page=4>
+u 6-9
+#AD370
+u 13-12
+#AD377
+tag 敦煌
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78853/huibao_043.pdf#page=3>
+u 6
+#AD370
+tag 敦煌
+
+## <https://niigata-u.repo.nii.ac.jp/record/28789/files/123_1-19.pdf>
+u 20-3
+tag 高昌
+
+## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009320>
+#59TAM305-131
+u 20-3-23
+#
+u 22-1-22
+tag トルファン
 
 [黑龍]
 #y~27
@@ -1105,8 +1161,10 @@ name_kana たい あん
 #385-8 - 386-10
 
 ## <https://ja.wikipedia.org/wiki/%E8%8B%BB%E4%B8%95>
-<-建元(乙丑) [晋:385-8] #建元前の即位{#前秦 #苻丕 #秦皇帝}
-->太元(丙子) [晋:386-10] #陥落{#東晋, #前秦 #苻丕} #死去
+<-建元(乙丑) ->太安(乙酉),太平(乙酉) [晋:385-8]
+    #建元前の即位{#前秦 #苻丕 #秦皇帝}
+->太元(丙子) <-太安(乙酉),太平(乙酉) [晋:386-10]
+    #陥落{#東晋, #前秦 #苻丕} #死去
 
 wref_ko 태안 (전진)
 name(kr) 태안
@@ -1120,11 +1178,26 @@ tag 呂光
 tag 西域
 #see 太安(丙戌) y~90
 
+def[太平(乙酉)]
 
-&
+AD385 = 1
+
+tag 異説
+
+tag 前秦
+tag 氐
+tag 北支
+
+tag 苻丕
+
 ## [102]
 name_tw 太平
 name_cn 太平
+
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.3
+#385-8 - 386-10 [晋書115, 魏書95 (太安), 資治通鑑106]
+
+<-建元(乙丑) [晋:385-8] #支那改元日{#前秦 #苻丕} #異説
 
 
 
@@ -1171,8 +1244,8 @@ wref_ko 태초 (전진)
 name(kr) 태초
 #386-11 - 394-6
 
-<-太安(乙酉) [晋:386-11] #建元前の即位{#前秦 #苻登 #秦皇帝}
-<-太安(乙酉) [晋:386-11] #支那改元日{#前秦 #苻登} #起事建元
+<-太安(乙酉),太平(乙酉) [晋:386-11] #建元前の即位{#前秦 #苻登 #秦皇帝}
+<-太安(乙酉),太平(乙酉) [晋:386-11] #支那改元日{#前秦 #苻登} #起事建元
 ->皇初 [晋:394-7] #陥落{#後秦, #前秦 #苻登} #死去
 
 [延初]
@@ -1272,6 +1345,8 @@ tag 私年号 (ウィキペディア)
 
 AD384 = 1
 
+sw 白雀
+
 tag 羌
 tag 後秦
 tag 漢民族
@@ -1303,15 +1378,42 @@ name_kana はく じゃく
 #大将軍 大単于 万年秦王
 <-建元(乙丑) [晋:384-4] #支那改元日{#後秦 #姚萇} #起事建元
 
-
 wref_ko 백작 (후진)
 name(kr) 백작
 #384-4 - 386-4/-4
 
+## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009320>
+u 1-9-8
+#AD384
+tag トルファン
+#呉震
+#關尾史郎: AD384; 涼州 梁煕 384 - 385-9
+#謝初霆: AD385?
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78833/huibao_023.pdf#page=2>
+u 1-9
+#AD384
+tag トルファン
+## <https://niigata-u.repo.nii.ac.jp/records/28789> PDF p.15
+#"トゥルファンを含む西北地域では,涼州刺史だった梁熙の判断により,
+#384年の 5月以降,後秦姚萇の元号である白雀が奉用された可能性が高い
+#【關尾1987】。"
+
+## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009320> PDF p.18
+u 2
+
+%tag person
+%tag   name_ja 梁煕
+tag 梁煕
+
+<-建元(乙丑) [晋:384-5] #利用開始{#涼州 #梁煕} #前秦 #後秦
+->建元(乙丑) [晋:385-9] #陥落{#後涼 #呂光, #涼州 #梁煕} #前秦 #後秦 #死去
+
 [白雀(白雀期)]
 #y~1512
 
-tag 異説
+sw 白雀
+
+tag 旧説
 
 tag 高昌
 tag トルファン
@@ -1324,6 +1426,17 @@ wref_ja 白雀
 name_ja 白雀
 name_kana はく じゃく
 #トルファン出土: "後秦の元号とする説と、高昌国独自の元号とする説がある。"
+
+## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009320>
+u 1-9-8
+#馬雍: 461 - 498
+tag トルファン
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78833/huibao_023.pdf#page=2>
+u 1-9
+tag トルファン
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78815/huibao_005.pdf#page=2>
+#461 - 465 白雀 or 龍興 [竜昇 y~1465]
+#464 ->永康 [y~1296] 464 - 484
 
 
 [建初(丙戌)]
@@ -1573,6 +1686,10 @@ wref_ko 태안 (후량)
 name(kr) 태안
 #386-10 - 389-2
 
+## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009320> PDF p.6
+name 大安
+#386-10 <-建元
+
 <-建元(乙丑) [晋:386-10] #支那改元日{#後涼 #呂光} #起事建元 #旧説 #前秦
 <-建元(乙丑) [晋:386-12] #建元前の即位{#後涼 #呂光} #前秦
 <-建元(乙丑) ->太安(乙酉) [晋:386-9,晋:386-10] #利用開始{#後涼 #呂光} #前秦
@@ -1617,11 +1734,21 @@ name(kr) 인가
 ## <https://zh-classical.wikipedia.org/wiki/%E9%BA%9F%E5%98%89_(%E5%BE%8C%E6%B6%BC)>
 #389-2 - 396-6
 
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78853/huibao_043.pdf#page=2>
+#上海博物館所蔵:
+u 5-6
+
 <-太安(丙戌),太安(乙酉) [晋:389-2] #建元前の即位{#後涼 #呂光}
 <-太安(丙戌),太安(乙酉) [晋:389-2] #支那改元日{#後涼 #呂光} #起事建元
 
 tag 禿髪部
 tag 禿髪烏孤
+
+&
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78838/huibao_028.pdf#page=6>
+u 8-3'-6
+name 麟加
+tag 敦煌
 
 [龍飛]
 #y~820

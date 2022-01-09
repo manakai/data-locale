@@ -188,8 +188,12 @@ wref_ko 하서 (전조)
 name(kr) 하서
 #309-5 - 310-6
 
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.3
+#309-1 #改元 [晋書101, 魏書95]
+
 <-永鳳 [晋:309-1,晋:309-5] #玉璽祥瑞{#匈奴漢}
 <-永鳳 [晋:309-5] #支那改元日{#匈奴漢 #劉渊}
+<-永鳳 [晋:309-1] #支那改元日{#匈奴漢 #劉渊} #旧説
 
 
 [光興]
@@ -786,9 +790,11 @@ name_kana えん き
 #334-1 #改元
 #334-11 #退位 #死去
 
-<-建平(庚寅) [j:333-8-17,晋:333-7] #建元前の即位{#後趙 #石弘 #趙皇帝} #石虎
+<-建平(庚寅) ->延熙(甲午),延熙(癸巳) [j:333-8-17,晋:333-7]
+    #建元前の即位{#後趙 #石弘 #趙皇帝} #石虎
 <-建平(庚寅) [晋:334-1] #支那改元日{#後趙 #石弘}
-->建武(乙未) [晋:334-11] #改元前の退位{#後趙 #石弘 #趙皇帝} #石虎
+->建武(乙未) <-延熙(甲午),延熙(癸巳) [晋:334-11]
+    #改元前の退位{#後趙 #石弘 #趙皇帝} #石虎
 
 wref_ko 연희 (후조)
 name(kr) 연희
@@ -799,6 +805,35 @@ tag 苻洪
 
 tag 羌
 tag 姚弋仲
+
+def[延熙(癸巳)]
+
+tag 旧説
+
+AD333 = 1
+
+tag 後趙
+tag 北支
+tag 羯
+tag 匈奴
+tag 羌
+tag 巴氐族
+tag 漢民族
+tag 東晋
+
+tag 石弘
+
+name_ja 延熙
+
+tag 氐
+tag 苻洪
+
+tag 羌
+tag 姚弋仲
+
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.3
+<-建平(庚寅) [晋:333-7] #支那改元日{#後趙 #石弘} #旧説
+
 
 [永熙(後趙)]
 #y~1642
@@ -903,9 +938,9 @@ wref_ko 건무 (후조)
 name(kr) 건무
 #335 - 348
 
-<-延熙(甲午) ->建武(乙未),永熙(後趙),延興 [晋:334-12]
+<-延熙(甲午),延熙(癸巳) ->建武(乙未),永熙(後趙),延興 [晋:334-12]
     #建元前の即位{#後趙 #石虎 #摂政}
-<-延熙(甲午),延興 [晋:335-1] #支那改元日{#後趙 #石虎}
+<-延熙(甲午),延熙(癸巳),延興 [晋:335-1] #支那改元日{#後趙 #石虎}
 tag 摂政元号
 
 tag 氐
@@ -1085,14 +1120,45 @@ name(kr) 청룡
 #350-1 - 350-2'
 #->永寧
 
-<-太寧(己酉) [晋:349-11] #建元前の即位{#後趙 #石鑑 #趙皇帝} #石閔
+<-太寧(己酉) ->青龍(庚戌),青龍(己酉) [晋:349-11]
+    #建元前の即位{#後趙 #石鑑 #趙皇帝} #石閔
 <-太寧(己酉) [晋:350-1] #国名変更{#後趙, #衛_(後趙)} #石閔 #事由
 <-太寧(己酉) [晋:350-1] #支那改元日{#衛_(後趙) #石鑑} #石閔
-->永興(庚戌) [晋:350-2] #改元前の退位{#衛_(後趙) #石鑑 #趙皇帝} #石閔
+->永興(庚戌) <-青龍(庚戌),青龍(己酉) [晋:350-2]
+    #改元前の退位{#衛_(後趙) #石鑑 #趙皇帝} #石閔
 tag 石閔
 
 tag 羌
 tag 姚弋仲
+
+def[青龍(己酉)]
+#y~2013
+
+AD349 = 1
+
+tag 旧説
+
+tag 後趙
+tag 北支
+tag 羯
+tag 胡
+tag 漢民族
+
+tag 石鑑
+
+name_ja 青竜
+name_ja 青龍
+
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.3
+#349-11 - 350-2'
+
+tag 石閔
+
+tag 羌
+tag 姚弋仲
+
+<-太寧(己酉) [晋:349-11] #支那改元日{#衛_(後趙) #石鑑} #石閔 #旧説
+
 
 %tag country
 %tag   label_ja 衛 (後趙)
@@ -1140,9 +1206,9 @@ name(kr) 영녕
 #->none
 
 
-<-青龍(庚戌) [晋:350-2'] #建元前の即位{#後趙 #石祗 #趙皇帝} #異説
-<-青龍(庚戌) [晋:350-3] #建元前の即位{#後趙 #石祗 #趙皇帝}
-<-青龍(庚戌) [晋:350-3] #支那改元日{#後趙 #石祗}
+<-青龍(庚戌),青龍(己酉) [晋:350-2'] #建元前の即位{#後趙 #石祗 #趙皇帝} #異説
+<-青龍(庚戌),青龍(己酉) [晋:350-3] #建元前の即位{#後趙 #石祗 #趙皇帝}
+<-青龍(庚戌),青龍(己酉) [晋:350-3] #支那改元日{#後趙 #石祗}
 >< [晋:351-2] #退位{#後趙 #石祗 #趙皇帝}
 >< [晋:351-2] #即位{#後趙 #石祗 #趙王}
 ->永興(庚戌) [晋:351-4] #陥落{#冉魏, #後趙 #石祗} #死去
@@ -1346,6 +1412,11 @@ wref_ko 영안 (북량)
 name(kr) 영안
 #401-6 - 412-10
 
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78839/huibao_029.pdf#page=2>
+u 1-8-11
+#朔日干支・日干支不一致
+tag 敦煌
+
 <-天璽(己亥) [晋:401-5,晋:401-6] #建元前の即位{#北涼 #沮渠蒙遜}
 <-天璽(己亥) [晋:401-6] #支那改元日{#北涼 #沮渠蒙遜}
 
@@ -1371,6 +1442,7 @@ u 16
 #
 #吐魯番文書: 真興6,7 (AD424 (13), AD425 (14))
 #"在玄始十三年（424年）奉夏正朔"
+tag トルファン
 #甘肅出土塔: "承陽二年嵗在[丙]寅" AD426 (15)
 
 wref_ja 玄始
@@ -1383,9 +1455,38 @@ wref_ko 현시
 name(kr) 현시
 #412-11 - 428-6
 
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78846/huibao_036.pdf#page=3>
+#B.L.S.6251
+u 9-11
+tag トルファン
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78838/huibao_028.pdf#page=6>
+u 10-8-26
+tag 敦煌
+## <https://senshu-u.repo.nii.ac.jp/?action=repository_uri&item_id=8308> PDF p.24
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78853/huibao_043.pdf>
+#侯燦:
+#421-3 #陥落{北凉, 西凉 敦煌}
+tag 敦煌
+u 10-8
+#AD421
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78853/huibao_043.pdf#page=4>
+#427 北凉 夏元号 -> 北凉 玄始
+
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.5
+#412-11 - 423 or 424
+#真興 423 or 424 - 425-8
+#承陽 425-8 - 427-12
+#承玄 428-1 - 431
+
 <-永安(辛丑) [晋:412-11] #支那改元日{#北涼 #沮渠蒙遜}
 ->真興 [晋:424] #利用開始{#北涼 #沮渠蒙遜} #劉夏
-->承陽 <-真興 [晋:425,晋:426] #利用開始{#北涼 #沮渠蒙遜} #劉夏
+#->承陽 <-真興 [晋:425-11,晋:426] #利用開始{#北涼 #沮渠蒙遜} #劉夏
+->承陽 <-真興 [晋:425-8] #利用開始{#北涼 #沮渠蒙遜} #劉夏
+->玄始 <-承陽 [晋:427] #改元前旧制再開{#北涼 #沮渠蒙遜} #劉夏 #旧説
+tag 改元前旧制再開
 
 &
 ## [102]
@@ -1430,9 +1531,20 @@ wref_ko 승현
 name(kr) 승현
 #428-6 - 431-11
 
-<-玄始 [晋:428-6] #支那改元日{#北涼 #沮渠蒙遜}
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78841/huibao_031.pdf#page=4>
+tag 酒泉
+u 1-4-14
+#AD428 [干支年]
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78853/huibao_043.pdf#page=4>
+#呉震: 428 北凉 夏元号 -> 北凉 承玄
+tag 酒泉
+
+<-玄始 [晋:428-6] #支那改元日{#北涼 #沮渠蒙遜} #旧説
+<-承陽 [晋:428-1] #支那改元日{#北涼 #沮渠蒙遜}
 
 def[承玄(丁卯)]
+#y~2001
 
 AD428 = 2
 
@@ -1447,11 +1559,15 @@ tag 沮渠蒙遜
 wref_zh 承玄
 name_tw 承玄
 name_cn 承玄
-
 #文物参考资料, 1956 (7): 酒泉文殊山的石窟寺院遗迹, 史岩:
 #甘肅出土造經塔殘石: "承玄二年嵗在戊辰"
 ## AD428
 u 2
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78841/huibao_031.pdf#page=3>
+u 2-2-28
+#AD428 [年干支, 日干支]
+tag 酒泉
 
 <-玄始 [晋:427] #支那改元日{#北涼 #沮渠蒙遜} #異説
 
@@ -1493,6 +1609,21 @@ name_kana ぎ わ
 wref_ko 의화 (북량)
 name(kr) 의화
 #431-12 - 433-4
+#
+#431 #改元
+#431-6 #改元 [十六国春秋輯補 + 資治通鑑 + guess] | ?
+#十六国春秋:
+u 1-11
+#
+u 2
+u 3-6
+#433-4 #死去
+
+## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009470>
+#縁禾 #旧説
+
+tag 高昌
+tag トルファン
 
 <-承玄,承玄(丁卯) [晋:431-6] #支那改元日{#北涼 #沮渠蒙遜} #旧説
 <-承玄,承玄(丁卯) [晋:431-12] #支那改元日{#北涼 #沮渠蒙遜}
@@ -1537,11 +1668,35 @@ name(kr) 승화
 #433-4 - 439-9
 #->none
 
-<-義和 [晋:433-4] #建元前の即位{#北涼 #沮渠牧犍}
-<-義和 [晋:433-4] #支那改元日{#北涼 #沮渠牧犍}
-->太延 [晋:439-9] #陥落{#北魏, #北涼 #沮渠牧犍} #捕縛
+## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009470>
+#魏書99
+#冊府元亀129
+#
+#縁禾 #旧説
 
-&
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.5
+#永和 433-4 - 433-9,-10 ->縁禾 <-義和
+#承和 437-初 - 437 <-太縁 ->建平
+
+<-義和 ->承和(癸酉),永和(癸酉),縁禾(癸酉) [晋:433-4]
+    #建元前の即位{#北涼 #沮渠牧犍}
+<-義和 [晋:433-4] #支那改元日{#北涼 #沮渠牧犍}
+->太延 <-承和(癸酉),永和(癸酉),縁禾(癸酉) [晋:439-9]
+    #陥落{#北魏, #北涼 #沮渠牧犍} #捕縛 #旧説
+->太延 <-建平(北涼) [晋:439-9] #陥落{#北魏, #北涼 #沮渠牧犍} #捕縛
+
+def[永和(癸酉)]
+
+AD433 = 1
+
+tag 異説
+
+tag 北涼
+tag 漢民族
+tag 匈奴
+
+tag 沮渠牧犍
+
 wref_zh 承和 (北凉)
 name_tw 永和
 name_cn 永和
@@ -1557,16 +1712,49 @@ name_kana えい わ
 #433 #改元
 name_ja 永和
 
+## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009470>
+#十六国春秋
+#資治通鑑122 元嘉10-4
+#
+#縁禾 AD433 (incorrect: 承和, 永和) #旧説
+
 wref_ko 승화 (북량)
 name(kr) 영화
 
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.5
+#433-4 - [433-9,-10]
+
+<-義和 [晋:433-4] #支那改元日{#北涼 #沮渠牧犍} #異説
+
+def[縁禾(癸酉)]
+
+AD433 = 1
+
+tag 旧説
+
+tag 北涼
+tag 漢民族
+tag 匈奴
+
+tag 沮渠牧犍
+
+name 縁禾
+name 緣禾
+
+## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009470> PDF p.9
+
+<-義和 [晋:433-4] #支那改元日{#北涼 #沮渠牧犍} #旧説
 
 [建平(北涼)]
 #y~1609
 
+AD437 = 1
+
 tag 北涼
 tag 沮渠牧犍
 tag 高昌国
+tag 北魏
+tag 属国元号
 
 ## [102]
 #
@@ -1595,6 +1783,30 @@ u 5-7
 u 6-9
 #北涼
 #高昌国
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78848/huibao_038.pdf#page=7>
+#437 承和->建平
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78843/huibao_033.pdf#page=2>
+tag 高昌
+tag トルファン
+u 5-7
+u 5-9
+#通説: 437 (1) - 北凉; 441 (5) - 6 (442) 高昌 = トルファン
+#  呉震: 北魏 武威公守 降嫁 #事由 | #旧説
+#呉震[或]: 闞爽 #改元 | #旧説
+#侯燦: 488 - 495 張氏高昌 or 496 - 501 馬氏高昌 | #旧説
+
+## <https://niigata-u.repo.nii.ac.jp/records/8082> PDF p.4
+u 6-1-12
+
+## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009470> PDF p.10
+#437 -1? #改元
+
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.5
+#437 - 439
+
+<-承和(癸酉),太緣 [晋:437-1] #支那改元日{#北涼 #沮渠牧犍}
 
 
 
@@ -1660,8 +1872,8 @@ name_kana しょう へい
 ## <https://ja.wikipedia.org/wiki/%E5%8C%97%E6%B6%BC>
 #444 "沮渠安周が即位する。改元は行われなかった。"
 
-<-元嘉(甲子) [晋:443] #建元前の即位{#高昌北涼 #沮渠無諱}
-<-元嘉(甲子) [晋:443] #支那改元日{#高昌北涼 #沮渠無諱} #起事建元
+<-元嘉(甲子),建平(北涼) [晋:443] #建元前の即位{#高昌北涼 #沮渠無諱}
+<-元嘉(甲子),建平(北涼) [晋:443] #支那改元日{#高昌北涼 #沮渠無諱} #起事建元
 >< [晋:444] #死去{#高昌北涼 #沮渠無諱}
 >< [晋:444] #即位{#高昌北涼 #沮渠安周}
 tag 代始改元不実施
@@ -1732,6 +1944,15 @@ name(kr) 용승
 
 <-弘始 [晋:407-6] #建元前の即位{#劉夏 #赫連勃勃 #天王} #後秦
 <-弘始 [晋:407-6] #支那改元日{#劉夏 #赫連勃勃} #起事建元 #後秦
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78815/huibao_005.pdf#page=2>
+#461 - 465 白雀 [y~1512] or 龍興
+#龍昇 [発掘記録] ~> 龍典 [呉震 写] ~> 龍興 [呉震 釈 後凉 396 -]
+#464 ->永康 [y~1296] 464 - 484
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78833/huibao_023.pdf#page=3>
+#呉震: 龍昇 = 後凉 龍飛 396 - [y~820] or 夏 龍昇 407 - [y~1465]
+
 
 
 [鳳翔]
@@ -1807,6 +2028,7 @@ tag 劉夏
 tag 漢民族
 tag オルドス高原
 tag 北支
+tag 酒泉
 
 tag 赫連勃勃
 
@@ -1823,6 +2045,7 @@ u 6
 u 7
 tag 北涼
 tag 沮渠蒙遜
+tag トルファン
 
 wref_ja 真興 (夏)
 name_ja 真興
@@ -1837,9 +2060,23 @@ wref_ko 진흥 (하)
 name(kr) 진흥
 #419-2 - 425-7
 
-<-昌武 [晋:419-2] #建元前の即位{#劉夏 #赫連勃勃 #支那皇帝}
+## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009470>
+#PDF p.8: 424 - 425
+#PDF p.11:
+u 6-10
+u 7-1
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78853/huibao_043.pdf#page=4>
+tag 北涼
+#424 - 425
+tag トルファン
+u 7-11
+#夏 425-8 ->承光
+
+<-昌武 ->真興,大夏 [晋:419-2] #建元前の即位{#劉夏 #赫連勃勃 #支那皇帝}
 <-昌武 [晋:419-2] #支那改元日{#劉夏 #赫連勃勃}
-->承光 晋:425-8-20 j:425-9-18 #改元前の死去{#劉夏 #赫連勃勃}
+->承光 <-真興,大夏 晋:425-8-20 j:425-9-18 #改元前の死去{#劉夏 #赫連勃勃}
+tag 再開元号の中断中
 
 [真興(北涼)]
 #y~1108
@@ -1851,6 +2088,28 @@ u 6
 u 7
 
 #same as 真興 y~1099
+
+def[大夏]
+
+tag 鉄弗部
+tag 鮮卑
+tag 劉夏
+tag 漢民族
+tag オルドス高原
+tag 北支
+
+tag 赫連勃勃
+tag 国名即位紀年
+tag 元号に並行する即位紀年
+
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.15
+AD419 = 1
+name 大夏
+u 2
+
+## <http://csid.zju.edu.cn/tomb/stone/detail?id=8a8fbda74ca22703014ca22a741816d9&rubbingId=8a8fbda74d093780014d2701596616ec>
+#"唯大夏二年歲庚申正／月丙戌朔廿八日癸醜"
+u 2-1-28
 
 
 [承光]
@@ -1864,6 +2123,7 @@ tag 劉夏
 tag 漢民族
 tag オルドス高原
 tag 北支
+tag 酒泉
 
 %tag person
 %tag   name_ja 赫連昌
@@ -1889,9 +2149,14 @@ wref_ko 승광 (하 혁련창)
 name(kr) 승광
 #425-8 - 428-2
 
-<-真興 [晋:425-8-20,晋:425-8] #建元前の即位{#劉夏 #赫連昌 #支那皇帝}
-<-真興 [晋:425-7] #建元前の即位{#劉夏 #赫連昌 #支那皇帝} #旧説
-<-真興 [晋:425-8-20,晋:425-8] #支那改元日{#劉夏 #赫連昌}
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.16
+#北史93 承光
+#魏書95 永光
+#承光 [吐魯番出土紀年文書]
+
+<-真興,大夏 [晋:425-8-20,晋:425-8] #建元前の即位{#劉夏 #赫連昌 #支那皇帝}
+<-真興,大夏 [晋:425-7] #建元前の即位{#劉夏 #赫連昌 #支那皇帝} #旧説
+<-真興,大夏 [晋:425-8-20,晋:425-8] #支那改元日{#劉夏 #赫連昌}
 ->神䴥 [晋:428-2] #陥落{#北魏, #劉夏 #赫連昌} #捕縛
 
 &
@@ -1934,6 +2199,19 @@ name_ja 承陽
 u 2
 AD426 = 2
 tag 北涼
+
+## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009470> PDF p.8
+u 2-10-5
+tag 酒泉
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78841/huibao_031.pdf#page=3>
+u 2-10-5
+tag 酒泉
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78853/huibao_043.pdf#page=4>
+#呉震: 承陽=承光 [光=陽 & 干支]
+
+tag 再開元号の中断中
 
 
 [勝光]

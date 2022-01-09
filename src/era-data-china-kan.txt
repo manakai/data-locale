@@ -1345,6 +1345,10 @@ s+
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7010>"帝崩于"
 ->建平 漢:BC7-3-丙戌 #改元前の死去{#前漢 #漢成帝}
 
+&
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78853/huibao_043.pdf#page=5>
+name 綏禾
+
 [建平]
 #y~629
 BC6 = 1
