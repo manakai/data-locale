@@ -1113,6 +1113,14 @@ s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7003>"泰始�
 ## <https://ja.wikipedia.org/wiki/%E5%8F%B8%E9%A6%AC%E7%82%8E>
 <-咸熙 晋:265-12-13 j:266-2-4 #建元前の即位{#西晋 #司馬炎 #晋皇帝} #曹魏 #禅譲 #異説
 
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78844/huibao_034.pdf#page=7>
+u 9-2
+tag トルファン
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78839/huibao_029.pdf#page=4>
+u 3
+tag 敦煌
+
 [咸寧]
 #y~102
 AD275 = 1
@@ -1174,6 +1182,17 @@ s+
 name 大康
 u 4-9-7
 
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78839/huibao_029.pdf#page=5>
+u 3-12-13
+name 太康
+tag 敦煌
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78916/huibao_105.pdf#page=5>
+name 大康
+u 6-3
+#AD285
+tag 敦煌
+
 
 [太熙]
 #y~46
@@ -1206,6 +1225,12 @@ name 太熙
 
 ## <https://ja.wikipedia.org/wiki/%E5%8F%B8%E9%A6%AC%E7%82%8E>
 #->永熙 晋:290-4-20 j:290-5-16 #改元前の死去{#西晋 #司馬炎}
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78916/huibao_105.pdf#page=3>
+name_ja 泰熙
+#AD290
+u 1-4
+tag 敦煌
 
 [永熙]
 #y~524
@@ -1292,6 +1317,12 @@ name_kana げん こう
 s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7004>"三月辛卯"
 <-永平(辛亥) 晋:291-3-壬辰 #支那改元日{#西晋 #晋恵帝}
 #no era name
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78916/huibao_105.pdf#page=5>
+name 元康
+u 6-1
+#AD296
+tag 敦煌
 
 
 [永康(庚申)]
@@ -1530,6 +1561,10 @@ tag 涼州
 tag 前涼
 tag 張軌
 tag 漢民族
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78844/huibao_034.pdf#page=7>
+u 1-8
+tag 敦煌
+#建武(甲子) skipped
 
 [建武(甲子)]
 #y~545
@@ -1555,7 +1590,7 @@ name_kana けん ぶ
 #<-永安(甲子) 304-7
 
 s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7004>"改元爲建武"
-<-永安(甲子) 晋:304-7-庚申 #支那改元日{#西晋 #晋恵帝}
+<-永安(甲子) 晋:304-7-庚申 #支那改元日{#西晋 #晋恵帝} #司馬穎
 #"原作「庚辰」。七月丙申朔，無庚辰，今從宋本改。"
 
 ## <https://ja.wikipedia.org/wiki/%E5%8F%B8%E9%A6%AC%E7%A9%8E>
@@ -1566,11 +1601,6 @@ tag 匈奴
 tag 匈奴漢
 tag 劉渊
 tag 劉聡
-
-tag 涼州
-tag 前涼
-tag 張軌
-tag 漢民族
 
 tag 再開元号の中断中
 
@@ -1693,6 +1723,11 @@ tag 涼州
 tag 前涼
 tag 張軌
 tag 漢民族
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78839/huibao_029.pdf#page=2>
+tag 敦煌
+u 3-1
+#AD309
+#AD310 (4) [朔日干支]
 
 %tag event
 %tag   name_ja 永嘉の乱
@@ -1893,9 +1928,23 @@ u 36
 #XXX Kiàn-heng
 #313 - 317
 
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.3
+#前涼 313-4 - 343-12, 355-9' - 361-11
+
 ## <https://kotobank.jp/word/%E6%B6%BC-149896#E3.83.96.E3.83.AA.E3.82.BF.E3.83.8B.E3.82.AB.E5.9B.BD.E9.9A.9B.E5.A4.A7.E7.99.BE.E7.A7.91.E4.BA.8B.E5.85.B8.20.E5.B0.8F.E9.A0.85.E7.9B.AE.E4.BA.8B.E5.85.B8>
 #ブリタニカ国際大百科事典 小項目事典「涼」の解説
 #"張氏は形式的には長く晋の年号を用いた。"
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78839/huibao_029.pdf#page=3>
+u 17-8-6
+u 25-2-12
+u 26-1-19
+u 27-3-3
+u 46-1-5
+tag 敦煌
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78853/huibao_043.pdf#page=6>
+tag 西安
 
 
 [和平(甲寅)]
@@ -1939,6 +1988,12 @@ wref_ko 화평 (전량)
 name(kr) 화평
 #354 - 355-9/-9 ->建興
 #<-建興 ->建興
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78886/huibao_075.pdf#page=4>
+#335-9' 建興 (43) <- 和平
+
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.3
+#354-1 - 355-9
 
 <-建興(癸酉) [晋:353-12] #建元前の即位{#前涼 #張祚}
 <-建興(癸酉) [晋:354-1] #建元前の即位{#前涼 #張祚 #涼王}
@@ -2505,6 +2560,10 @@ name 咸康
 s+
 # #改元
 
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78863/huibao_052.pdf>
+u 4-11
+tag 前涼
+
 [建元(癸卯)]
 #y~1307
 AD343 = 1
@@ -2589,6 +2648,10 @@ tag 前秦
 tag 前涼
 #372-2 #陥落{#前秦,}
 
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78886/huibao_075.pdf#page=4>
+#355-9' 李儼 ->永和
+#晋書
+#資治通鑑
 
 [昇平]
 #y~934
@@ -2683,6 +2746,28 @@ tag 張天錫
 ->太元(丙子) [晋:383-11] #勢力吸収{#東晋, #張天錫 #前涼} #前秦
 [昇平]
 
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78841/huibao_031.pdf#page=5>
+#"升平十三年"
+name 升平
+u 13
+tag 酒泉
+#AD369
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78838/huibao_028.pdf#page=4>
+u 13-1'-21
+name 升平
+tag 敦煌
+#AD369
+#朔日干支不一致
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78885/huibao_074.pdf#page=7>
+u 11
+#was: - (20)
+# - (15)
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78886/huibao_075.pdf#page=4>
+#361-12 建興->升平
+->咸安 [晋:372] #利用開始{#張天錫 #前涼} #東晋 #異説
 
 &
 name_tw 昇平
@@ -2816,6 +2901,13 @@ name_ja 太和
 name_kana たい わ
 # 366 - 371
 
+
+s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B796>"太和"
+name 太和
+s+
+# #即位
+# #改元
+
 &
 ## [102]
 name_tw 泰和
@@ -2823,11 +2915,10 @@ name_cn 泰和
 #高崧墓志
 u 1-8-22
 
-s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B796>"太和"
-name 太和
-s+
-# #即位
-# #改元
+## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009470> PDF p.10
+#上代日本対外関係の研究, 栗原朋信, AD1978, pp.150-152
+name 泰和
+#was original form
 
 
 [鳳凰(庚午)]
@@ -2906,6 +2997,10 @@ name 咸安
 s+
 # #即位
 # #改元
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78838/huibao_028.pdf#page=7>
+u 5-10-1
+tag 敦煌
 
 [寧康]
 #y~723
@@ -3084,6 +3179,15 @@ u 5-9
 #"五年正月"..."九月"..."正月，大赦改年為建初元年。"...
 #..."十三年正月"..."二月，薨於恭徳殿"
 
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78838/huibao_028.pdf#page=5>
+u 6-1-27
+tag 敦煌
+#AD405
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78853/huibao_043.pdf#page=2>
+#侯燦: [405-1-27,] #改元
+#not sure
+
 wref_ko 경자 (서량)
 name(kr) 경자
 #400-11 - 404
@@ -3138,7 +3242,17 @@ wref_ko 건초 (서량)
 name(kr) 건초
 #405 - 417-2
 
-<-庚子 [晋:405-1] #支那改元日{#西涼 #李暠}
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78846/huibao_036.pdf#page=3>
+#B.L.S.0113 西凉建初十二 (416)年正月敦煌郡敦煌縣西宕郷高昌里籍
+u 12-1
+tag 敦煌
+
+## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78846/huibao_036.pdf#page=4>
+u 14
+u 15
+tag 高昌
+
+<-庚子 [晋:405-1-27,晋:405-1] #支那改元日{#西涼 #李暠}
 ->嘉興 [晋:417-2] #改元前の死去{#西涼 #李暠}
 
 [嘉興]
@@ -3885,6 +3999,11 @@ name_kana たい し
 #432 - 437
 tag 私年号 (ウィキペディア)
 #南史
+
+## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.5
+#432-9 - 437-4 [宋書45, 資治通鑑122]
+<-元嘉(甲子) [晋:432-9] #支那改元日{#趙広 #司馬晋} #程道養 #南朝宋 #起事建元
+   #旧説
 
 
 
