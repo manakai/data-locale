@@ -206,33 +206,6 @@ def[承道]
 name 承道
 wref_zh 承道
 
-def[正永]
-name 正永
-name_kana しょう えい
-#858-870
-AD858 = 1
-wref_ja 正永_(渤海)
-
-def[寛明]
-name 寛明
-name_kana かん めい
-#872-893
-AD872 = 1
-wref_ja 寛明_(渤海)
-
-def[慶成]
-name 慶成
-name_kana けい せい
-#894-906
-AD894 = 1
-wref_ja 慶成_(渤海)
-
-def[文徳(丁未)]
-name 文徳
-name_kana ぶん とく
-#907-926
-AD907 = 1
-wref_ja 文徳_(渤海)
 
 def[人類紀元]
 name(en) Holocene calendar

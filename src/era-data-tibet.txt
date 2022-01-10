@@ -1383,6 +1383,7 @@ name(kr) 백작
 #384-4 - 386-4/-4
 
 ## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009320>
+#XXXname Pai-ch'ueh
 u 1-9-8
 #AD384
 tag トルファン
