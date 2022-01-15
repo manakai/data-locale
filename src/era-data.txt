@@ -168,11 +168,6 @@ wref_zh 大順平定
 AD1520 = 1
 #was: wref_zh 中国年号列表
 
-def[安和(大長和)]
-name_tw 安和
-name_cn 安和
-#was: wref_zh 中国年号列表
-
 def[安國聖治]
 name_tw 安國聖治
 name_cn 安国圣治
@@ -181,11 +176,6 @@ name_cn 安国圣治
 def[隆德]
 name_tw 隆德
 name_cn 隆德
-#was: wref_zh 中国年号列表
-
-def[貞祐]
-name_tw 貞祐
-name_cn 贞祐
 #was: wref_zh 中国年号列表
 
 [征和]
@@ -1137,11 +1127,6 @@ wref_ja 福徳_(私年号)
 def[利正]
 name_cn 利正
 name_tw 利正
-#was: wref_zh 中国年号列表
-
-def[孝治]
-name_cn 孝治
-name_tw 孝治
 #was: wref_zh 中国年号列表
 
 def[正安(癸巳)]

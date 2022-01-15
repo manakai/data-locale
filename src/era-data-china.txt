@@ -151,9 +151,6 @@
 %tag   region of 漢土
 
 %tag region
-%tag   name_ja 雲南
-
-%tag region
 %tag   name_ja 甘粛
 
 %tag region

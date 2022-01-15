@@ -161,7 +161,7 @@ intermediate-wp-cn-eras.json: bin/merge-wp-cn-eras.pl \
     local/wp-cn-eras-my.json \
     local/wp-cn-eras-sg.json \
     src/wp-zh-era-id-map.txt
-	$(PERL) $< > $@
+	$(PERL) $< > intermediate/wp-cn-eras.json
 local/cn-ryuukyuu-era-list.json: bin/cn-ryuukyuu-era-list.pl \
     src/eras/ryuukyuu.txt
 	$(PERL) $< > $@

@@ -318,7 +318,7 @@ for my $path (
       #
     } elsif (/^\[(.+)\]$/) {
       $key = $1;
-      die "Bad key |$key|" unless $Data->{eras}->{$key};
+      die "Bad key [|$key|]" unless $Data->{eras}->{$key};
       undef $prop;
       undef $current_source;
     } elsif (/^def\[(.+)\]$/) {
