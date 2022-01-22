@@ -445,6 +445,9 @@ tag
 tag
   name_ja 干支元号名
 
+tag
+  name_ja チベット語元号名
+
 action
   name_ja 発表
 

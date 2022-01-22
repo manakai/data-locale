@@ -168,24 +168,9 @@ wref_zh 大順平定
 AD1520 = 1
 #was: wref_zh 中国年号列表
 
-def[安和(大長和)]
-name_tw 安和
-name_cn 安和
-#was: wref_zh 中国年号列表
-
 def[安國聖治]
 name_tw 安國聖治
 name_cn 安国圣治
-#was: wref_zh 中国年号列表
-
-def[隆德]
-name_tw 隆德
-name_cn 隆德
-#was: wref_zh 中国年号列表
-
-def[貞祐]
-name_tw 貞祐
-name_cn 贞祐
 #was: wref_zh 中国年号列表
 
 [征和]
@@ -1134,16 +1119,6 @@ wref_ja 朱雀
 [福徳]
 wref_ja 福徳_(私年号)
 
-def[利正]
-name_cn 利正
-name_tw 利正
-#was: wref_zh 中国年号列表
-
-def[孝治]
-name_cn 孝治
-name_tw 孝治
-#was: wref_zh 中国年号列表
-
 def[正安(癸巳)]
 name_cn 正安
 name_tw 正安
@@ -1152,18 +1127,4 @@ name 政安
 #was: wref_zh 正安_(大理)
 AD1053 = 1
 
-def[法堯]
-name_cn 法尧
-name_tw 法堯
-#was: wref_zh 中国年号列表
 
-def[興正]
-name_cn 兴正
-name_tw 興正
-#was: wref_zh 中国年号列表
-
-def[開明]
-name_cn 開明
-name_tw 開明
-#was: wref_zh 中国年号列表
-AD1097 = 1
