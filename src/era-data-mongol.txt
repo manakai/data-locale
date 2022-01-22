@@ -304,6 +304,14 @@ name_tw 蒙哥汗
 name_cn 宪宗蒙哥汗
 &
 name(ja) 憲宗(モンケ)
+&
+name 蒙古憲宗
+#蒙古憲宗之三年
+&
+name 蒙古憲宗蒙哥
+#蒙古憲宗蒙哥之元年
+&
+name 元憲宗
 
 ## <https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7003>
 #<- 辛亥-6
