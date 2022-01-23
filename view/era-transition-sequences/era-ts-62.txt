@@ -1,0 +1,116 @@
+# y~62 顯道
+# <https://data.suikawiki.org/tag/2722/graph?sequence=62>
+# g:1033-01-09+0 y~62 firstday
+mjd:-301637 顯道
+# g:1034-09-21+0 y~812 firstday
+mjd:-301017 開運(甲戌)
+# g:1034-10-20+0 y~123 firstday
+mjd:-300988 廣運(西夏)
+# g:1037-01-24+0 y~459 firstday
+mjd:-300161 大慶
+# g:1038-11-16+0 y~659 firstday
+mjd:-299500 天授禮法延祚
+# g:1050-01-31+0 y~433 firstday
+mjd:-295406 延嗣寧國
+# g:1051-02-19+0 y~354 firstday
+mjd:-295022 天祐垂聖
+# g:1054-02-16+0 y~163 firstday
+mjd:-293929 福聖承道
+# g:1058-02-01+0 y~435 firstday
+mjd:-292483 奲都
+# g:1064-01-26+0 y~762 firstday
+mjd:-290298 拱化
+# g:1068-02-11+0 y~825 firstday
+mjd:-288821 乾道(丁未)
+# g:1070-02-19+0 y~1130 firstday
+mjd:-288082 天賜禮盛國慶
+# g:1075-01-25+0 y~2100 firstday
+mjd:-286281 大安(甲寅)
+# g:1086-01-23+0 y~837 firstday
+mjd:-282265 天安禮定
+# g:1086-10-16+0 y~1399 firstday
+mjd:-281999 天儀治平
+# g:1091-01-28+0 y~44 firstday
+mjd:-280434 天祐民安
+# g:1099-01-29+0 y~1153 firstday
+mjd:-277511 永安(戊寅)
+# g:1102-01-27+0 y~1081 firstday
+mjd:-276418 貞觀(辛巳)
+# g:1115-02-03+0 y~1225 firstday
+mjd:-271663 雍寧
+# g:1120-02-07+0 y~783 firstday
+mjd:-269833 元德(己亥)
+# g:1128-02-09+0 y~1711 firstday
+mjd:-266909 正德(丁未)
+# g:1136-02-10+0 y~713 firstday
+mjd:-263986 大德
+# g:1141-02-15+0 y~171 firstday
+mjd:-262154 大慶(庚申)
+# g:1145-01-31+0 y~1449 firstday
+mjd:-260708 人慶
+# g:1150-02-06+0 y~799 firstday
+mjd:-258876 天盛
+# g:1171-02-13+0 y~1070 firstday
+mjd:-251199 乾祐(庚寅)
+# g:1195-02-18+0 y~834 firstday
+mjd:-242428 天慶(甲寅)
+# g:1206-03-17+0 y~42 firstday
+mjd:-238383 應天
+# g:1211-01-23+0 y~615 firstday
+mjd:-236610 皇建(庚午)
+# g:1211-10-15+0 y~790 firstday
+mjd:-236345 光定
+# g:1223-11-01+0 y~1083 firstday
+mjd:-231945 乾定
+# g:1226-08-31+0 y~786 firstday
+mjd:-230911 寶義
+# g:1227-09-04+1 y~1836 wartime
+mjd:-230541 太祖
+# g:1228-02-15+0 y~1839 firstyearstart
+mjd:-230378 拖雷監国
+# g:1229-02-03+0 y~1835 firstyearstart
+mjd:-230024 太宗
+# g:1242-02-09+0 y~1840 firstyearstart
+mjd:-225270 昭慈后称制
+# g:1246-01-26+0 y~1837 firstyearstart
+mjd:-223823 定宗
+# g:1249-01-23+0 y~1841 firstyearstart
+mjd:-222730 欽淑后称制
+# g:1251-01-31+0 y~1838 firstyearstart
+mjd:-221992 憲宗
+# g:1260-07-06+0 y~1262 firstday
+mjd:-218548 中統
+# g:1264-09-14+0 y~1082 firstday
+mjd:-217017 至元
+# g:1295-01-24+0 y~1539 firstday
+mjd:-205928 元貞
+# g:1297-03-28+0 y~1041 firstday
+mjd:-205134 大德(丁酉)
+# g:1308-02-01+0 y~1242 firstday
+mjd:-201173 至大
+# g:1312-02-16+0 y~1422 firstday
+mjd:-199697 皇慶
+# g:1314-02-15+0 y~366 firstday
+mjd:-198967 延祐
+# g:1321-02-06+0 y~71 firstday
+mjd:-196419 至治(辛酉)
+# g:1324-02-04+0 y~1043 firstday
+mjd:-195326 泰定
+# g:1328-04-15+0 y~1505 firstday
+mjd:-193794 致和
+# g:1328-11-09+0 y~1040 firstday
+mjd:-193586 天順
+# g:1328-11-22+1 y~848 wartime
+mjd:-193572 天曆(戊辰)
+# g:1330-06-02+0 y~1605 firstday
+mjd:-193016 至順
+# g:1333-11-23+0 y~1491 firstday
+mjd:-191746 元統
+# g:1335-12-16+0 y~1495 firstday
+mjd:-190993 至元(乙亥)
+# g:1341-01-26+0 y~1576 firstday
+mjd:-189125 至正
+# g:1371-01-24+0 y~1843 firstday
+mjd:-178170 宣光(庚戌)
+# g:1379-08-20+0 y~1163 firstday
+mjd:-175040 天元(己未)
