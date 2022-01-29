@@ -23,6 +23,7 @@ my $TagByKey = {};
 }
 
 my $TagsIncluded = [map { get_tag_id decode_web_utf8 $_ } split /,/, $ENV{TAGS_INCLUDED} // ''];
+my $TagsIncluded2 = [map { get_tag_id decode_web_utf8 $_ } split /,/, $ENV{TAGS_INCLUDED2} // ''];
 my $TagsExcluded = [map { get_tag_id decode_web_utf8 $_ } split /,/, $ENV{TAGS_EXCLUDED} // ''];
 
 my $StartEraKey = decode_web_utf8 shift or die;
@@ -56,6 +57,8 @@ sub get_transition ($$$) {
   my $matched1 = [];
   my $matched2 = [];
   my $matched_others = [];
+  my $matched_others2 = [];
+  my $matched_others3 = [];
 
   for my $tr (grep { $_->{relevant_era_ids}->{$era->{id}} } @$Transitions) {
     if (defined $tr->{day}) {
@@ -109,6 +112,22 @@ sub get_transition ($$$) {
           push @$matched_others, $tr;
         }
       }
+      if ($tr->{type} eq 'wartime/possible' or
+          $tr->{type} eq 'received/possible' or
+          $tr->{type} eq 'firstday/possible' or
+          $tr->{type} eq 'renamed/possible') {
+        push @$matched_others2, $tr;
+      }
+      if ($tr->{type} eq 'wartime/incorrect' or
+          $tr->{type} eq 'received/incorrect' or
+          $tr->{type} eq 'firstday/incorrect' or
+          $tr->{type} eq 'renamed/incorrect') {
+        if (has_tag $tr, $TagsIncluded2 and not has_tag $tr, $TagsExcluded) {
+          push @$matched2, $tr;
+        } else {
+          push @$matched_others3, $tr;
+        }
+      }
       
       if ($tr->{type} eq 'firstyearstart' and
           $tr->{tag_ids}->{2108}) { # 即位元年年始
@@ -131,6 +150,8 @@ sub get_transition ($$$) {
   return $matched2->[0] if @$matched2;
   return $fd if defined $fd;
   return $matched_others->[-1] if @$matched_others;
+  return $matched_others2->[-1] if @$matched_others2;
+  return $matched_others3->[-1] if @$matched_others3;
   return $fys if defined $fys;
   return undef;
 } # get_transition
