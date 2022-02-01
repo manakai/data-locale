@@ -3,9 +3,6 @@
 %tag   name_ja チベット
 %tag   region of 南アジア
 
-%tag region
-%tag   name_ja 四川
-
 %tag people
 %tag   name_ja チベット系民族
 %tag   group of 中華異民族
@@ -2158,6 +2155,11 @@ u 27
 
 %tag region
 %tag   name_ja 雲南
+%tag   region of 東南アジア
+
+%tag region
+%tag   name_ja 貴州
+%tag   name_cn 贵州
 %tag   region of 東南アジア
 
 %tag country
@@ -7877,6 +7879,9 @@ tag 君主名の元号
 #
 #<-道隆 ->none
 
+## <https://baike.baidu.hk/item/%E5%A4%A9%E5%AE%9A/4559058>
+#XXXname tiān dìng
+
 ->天定,天定(壬子),利正(辛亥) <-道隆 [宋:1251]
     #建元前の即位{#後大理 #段興智 #大理国皇帝}
 <-道隆 [宋:1251] #支那改元日{#後大理 #段興智}
@@ -8079,6 +8084,65 @@ u 4
 
 <-unknown [唐:937,宋:1254] #支那改元日{#大理国}
 
+
+
+
+%tag people
+%tag   name_ja 彝族
+%tag   group of チベット系民族
+
+%tag country
+%tag   name_ja 自杞国
+%tag   period of 雲南
+%tag   period of 中国
+
+%tag position
+%tag   name_ja 自杞国王
+%tag   group of 王
+
+[乾貞(丙申)]
+#y~688
+
+tag 彝族
+tag 自杞国
+tag 南宋
+tag 金
+tag 大理国
+
+%tag person
+%tag   name_ja 阿謝
+tag 阿謝
+
+#wref_zh 乾貞 (阿謝)
+#1176
+tag 貴州
+tag 自杞国
+tag 阿謝
+#中国歴代年号考
+#紀元編: "自杞國，乾貞〈淳熙三年，見宋知邕州吳儆劄子及記〉。"
+#歷代建元考 久編三: "自杞國，本西南蠻，在廣西邕州化外，
+#北與大理接。宋淳熙三年，其王阿謝立，改元一：乾貞。〈見宋知邕州吳儆劄子。〉"
+##           AD1176
+#東亜歴史年表
+
+## <https://zh.wikipedia.org/wiki/%E9%98%BF%E8%AC%9D_(%E5%BD%9D%E6%97%8F)>
+#1161 #死去 #即位 阿謝 王 #即位 摂政
+#1176 #元服 #改元
+#1205 #死去
+
+wref_ja 乾貞 (阿謝)
+name_ja 乾貞
+name_kana けん てい
+#1176
+tag 広西
+tag 自杞国
+tag 私年号 (ウィキペディア)
+#歴代建元考 外編3
+#中国歴代年号考
+#東亜歴史年表
+
+<-unknown [宋:1176] #支那改元日{#自杞国 #阿謝}
+->unknown [宋:1205] #改元前の死去{#自杞国 #阿謝}
 
 
 
