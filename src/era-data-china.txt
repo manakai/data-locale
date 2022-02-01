@@ -56,6 +56,10 @@
 %tag   period of 北京
 
 %tag region
+%tag   name_ja 河北
+%tag   region of 北支
+
+%tag region
 %tag   name_ja 南京
 %tag   region of 漢土
 
@@ -122,8 +126,7 @@
 %tag   region of 漢土
 
 %tag region
-%tag   name_ja 貴州
-%tag   name_cn 贵州
+%tag   name_ja 四川
 %tag   region of 漢土
 
 %tag region
@@ -451,6 +454,10 @@
 
 %tag religion
 %tag   name_ja 周易
+
+%tag religion
+%tag   name_ja 弥勒教
+%tag   group of 弥勒信仰
 
 %tag action
 %tag   name_ja 漢化政策

@@ -219,6 +219,10 @@ sub nymmd2jd ($$$$$) {
     ## No calendar available
     $g = '明';
   }
+
+  if ($g eq '宋' and $y > 1279) {
+    $g = '元';
+  }
   
   if ($g eq '魏' and $y < 237) {
     $g = '漢';

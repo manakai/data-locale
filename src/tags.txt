@@ -172,11 +172,15 @@ religion
   name_ja 仏教
 
 religion
-  name_ja キリスト教
+  name_ja 弥勒信仰
+  group of 仏教
 
 religion
   name_ja 大元密教
   group of 仏教
+
+religion
+  name_ja キリスト教
 
 religion
   name_ja 天照皇大神宮教
@@ -209,6 +213,7 @@ religion
 
 religion
   name_ja ラエリアンムーブメント
+  group of 弥勒信仰
 
 religion
   name_ja オウム真理教

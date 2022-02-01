@@ -379,6 +379,7 @@ tag 漢土
 tag 漢民族
 tag 満州
 tag 樺太
+tag 南宋
 
 tag フビライ
 
