@@ -552,8 +552,16 @@ action
   #object: to
 
 action
-  name_ja 年始改元決定
+  name_ja 改元決定
   group of 制定
+
+action
+  name_ja 改元実施
+  group of 適用開始日
+
+action
+  name_ja 年始改元決定
+  group of 改元決定
 
 action
   name_ja 年始改元詔
@@ -561,7 +569,7 @@ action
 
 action
   name_ja 年始改元実施
-  group of 適用開始日
+  group of 改元実施
   group of 年始改元実施予定
   group of 年始
 
@@ -577,11 +585,11 @@ action
 
 action
   name_ja 月始改元決定
-  group of 制定
+  group of 改元決定
 
 action
   name_ja 月始改元実施
-  group of 適用開始日
+  group of 改元実施
 
 action
   name_ja 再開
@@ -888,6 +896,10 @@ calendar
 
 tag
   name_ja 建国紀元
+
+tag
+  name_ja 元号説のある建国紀元
+  group of 建国紀元
 
 tag
   name_ja ミニ独立国の建国紀元

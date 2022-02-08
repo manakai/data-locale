@@ -696,6 +696,7 @@ tag 孫呉
 tag 孫呉の公年号
 tag 漢土
 tag 漢民族
+tag 国名と衝突
 
 ## [102]
 name_tw 太平
@@ -5859,6 +5860,7 @@ tag 漢土
 tag 漢民族
 tag 南梁
 tag 南梁の公年号
+tag 国名と衝突
 
 tag 蕭方智
 
