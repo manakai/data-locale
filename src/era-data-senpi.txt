@@ -1441,6 +1441,7 @@ tag 北燕
 tag 後燕
 tag 漢民族
 tag 南朝宋
+tag 国名と衝突
 
 %tag person
 %tag   name_ja 馮跋
@@ -1774,6 +1775,7 @@ AD403 = 1
 
 tag 南燕
 tag 北支
+tag 国名と衝突
 
 %tag person
 %tag   name_ja 王始
@@ -1910,6 +1912,7 @@ AD485 = 1
 tag 柔然
 tag 柔然部
 tag 北魏
+tag 国名と衝突
 
 %tag person
 %tag   name_ja 郁久閭豆崙
@@ -2127,7 +2130,45 @@ u 7
 
 <-太平(乙丑) [魏:488,魏:489] #建元前の即位{#高昌国 #張孟明 #高昌王}
 <-太平(乙丑) [魏:489] #支那改元日{#高昌国 #張孟明} #起事建元
-->unknown [魏:496] #改元前の死去{#高昌国 #張孟明}
+->馬儒 [魏:496] #改元前の死去{#高昌国 #張孟明}
+
+
+def[馬儒]
+#y~2152
+
+AD497 = 1
+
+#no known name
+name 馬儒
+tag 元号名不詳
+
+tag 高昌
+tag 高昌国
+tag 北魏
+tag 属国元号
+
+%tag person
+%tag   name_ja 馬儒
+tag 馬儒
+tag 漢民族
+
+## <https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E5%B9%B4%E8%99%9F%E4%B8%8D%E6%98%8E>
+wref_zh 中国年号列表
+#497 - 501
+#高昌史稿 統治編, 王素, AD1998-09, p.302
+
+## <https://zh.wikipedia.org/wiki/%E9%A6%AC%E5%84%92>
+#496 #即位 高昌王
+#501 #死去
+
+## <https://ja.wikipedia.org/wiki/%E9%A6%AC%E5%84%92>
+#496~ #即位 王
+#501~ #死去
+
+<-建初(己巳) [魏:496] #建元前の即位{#高昌国 #馬儒 #高昌王}
+<-建初(己巳) [魏:497] #支那改元日{#高昌国 #馬儒}
+->承平(壬午) [魏:501] #改元前の死去{#高昌国 #馬儒}
+
 
 %tag country
 %tag   name_ja 麹氏高昌
@@ -2172,8 +2213,8 @@ name_kana しょう へい
 ## <https://ja.wikipedia.org/wiki/%E9%AB%98%E6%98%8C#%E6%AD%B4%E4%BB%A3%E5%90%9B%E4%B8%BB>
 #501/502 - 509/510
 
-<-unknown [魏:501] #建元前の即位{#麹氏高昌 #麹嘉 #高昌王}
-<-unknown [魏:502] #支那改元日{#麹氏高昌 #麹嘉}
+<-馬儒 [魏:501] #建元前の即位{#麹氏高昌 #麹嘉 #高昌王}
+<-馬儒 [魏:502] #支那改元日{#麹氏高昌 #麹嘉}
 
 
 [義熙(辛卯)]
@@ -9751,13 +9792,17 @@ def[大龍]
 ## Source:
 sw 大龍
 
+AD763 = 1
+
 tag 李唐
 tag 鮮卑
 tag 漢土
 tag 漢民族
 tag 吐蕃
+tag 属国元号
 
 tag 追号説のある元号
+tag 元号名不詳
 
 %tag person
 %tag   name_ja 李承宏

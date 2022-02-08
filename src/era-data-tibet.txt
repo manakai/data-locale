@@ -42,6 +42,7 @@ tag 漢土
 tag 漢民族
 tag 蜀
 tag 成都
+tag 国名と衝突
 
 %tag person
 %tag   name_ja 趙廞
@@ -1184,6 +1185,7 @@ tag 異説
 tag 前秦
 tag 氐
 tag 北支
+tag 国名と衝突
 
 tag 苻丕
 
