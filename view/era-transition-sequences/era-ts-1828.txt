@@ -1,0 +1,72 @@
+# y~1828 呉
+# <https://data.suikawiki.org/tag/1103/graph?sequence=1828>
+# g:1367-02-08+0 y~1828 firstday
+mjd:-179616 呉
+# g:1368-01-31+0 y~127 firstday
+mjd:-179259 洪武
+# g:1399-02-14+0 y~1251 firstday
+mjd:-167922 建文
+# g:1402-07-27+0 y~127 firstday
+mjd:-166664 洪武
+# g:1403-02-01+0 y~1499 firstday
+mjd:-166475 永樂(癸未)
+# g:1425-01-29+0 y~887 firstday
+mjd:-158442 洪熙
+# g:1426-02-17+0 y~511 firstday
+mjd:-158058 宣德
+# g:1436-01-27+0 y~562 firstday
+mjd:-154427 正統
+# g:1450-01-23+0 y~350 firstday
+mjd:-149317 景泰
+# g:1457-02-24+0 y~1138 firstday
+mjd:-146728 天順(丁丑)
+# g:1465-02-05+0 y~146 firstday
+mjd:-143825 成化
+# g:1488-01-23+0 y~38 firstday
+mjd:-135438 弘治(戊申)
+# g:1506-02-03+0 y~1712 firstday
+mjd:-128853 正德(丙寅)
+# g:1522-02-07+0 y~1501 firstday
+mjd:-123005 嘉靖
+# g:1567-02-19+0 y~699 firstday
+mjd:-106557 隆慶
+# g:1573-02-12+0 y~413 firstday
+mjd:-104372 萬曆
+# g:1620-08-28+0 y~440 firstday
+mjd:-87008 泰昌
+# g:1621-01-22+0 y~598 firstday
+mjd:-86861 天啟(辛酉)
+# g:1628-02-05+0 y~250 firstday
+mjd:-84291 崇禎
+# g:1645-01-28+0 y~1392 firstday
+mjd:-78089 弘光
+# g:1645-08-21+0 y~360 firstday
+mjd:-77884 隆武
+# g:1647-02-05+0 y~200 firstday
+mjd:-77351 紹武
+# g:1647-02-05+0 y~1684 firstday
+mjd:-77351 永曆(丁亥)
+# g:1683-11-17+1 y~757 wartime
+mjd:-63916 康熙
+# g:1723-02-05+0 y~1548 firstday
+mjd:-49593 雍正
+# g:1736-02-12+0 y~860 firstday
+mjd:-44838 乾隆
+# g:1796-02-09+0 y~1639 firstday
+mjd:-22926 嘉慶(丙辰)
+# g:1821-02-03+0 y~687 firstday
+mjd:-13801 道光
+# g:1851-02-01+0 y~738 firstday
+mjd:-2846 咸豐
+# g:1862-01-30+0 y~1292 firstday
+mjd:1170 同治
+# g:1875-02-06+0 y~681 firstday
+mjd:5925 光緒
+# g:1909-01-22+0 y~1095 firstday
+mjd:18328 宣統
+# g:1911-12-29+0 y~1456 firstday
+mjd:19399 共戴
+# g:1924-07-10+0 y~670 renamed
+mjd:23976 モンゴル国
+# g:1924-11-26+0 y~157 renamed
+mjd:24115 モンゴル人民共和国
