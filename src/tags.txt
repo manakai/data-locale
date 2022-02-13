@@ -566,6 +566,7 @@ action
 action
   name_ja 年始改元詔
   group of 詔制定
+  group of 改元決定
 
 action
   name_ja 年始改元実施
@@ -598,6 +599,11 @@ action
 action
   name_ja 旧制再開
   group of 再開
+
+action
+  name_ja 旧制再開詔
+  group of 旧制再開
+  group of 詔制定
 
 action
   name_ja 改元前旧制再開
