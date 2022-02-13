@@ -3048,6 +3048,8 @@ wref_zh 孔子紀年
 sw 孔子紀年
 
 def[黃帝紀元]
+#y~510
+
 name_tw 黃帝紀元
 name_cn 黄帝纪元
 name_ja 黄帝紀元
@@ -3086,6 +3088,8 @@ tag 中華民国湖北軍政府
     #グレゴリオ暦 #起事建元
 
 def[黃帝紀元(庚戌)]
+#y~1724
+
 name_tw 黃帝紀元
 name_cn 黄帝纪元
 name_ja 黄帝紀元
@@ -3101,6 +3105,8 @@ sw 黄帝紀元
 AD1903 = 4614
 
 def[黃帝紀元(庚寅)]
+#y~1723
+
 name_tw 黃帝紀元
 name_cn 黄帝纪元
 name_ja 黄帝紀元
@@ -3142,6 +3148,7 @@ name 亡国紀年
 
 def[民國]
 #y~971
+
 name_tw 中華民國
 name_cn 中华民国
 name_ja 中華民国

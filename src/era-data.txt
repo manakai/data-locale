@@ -145,6 +145,8 @@ def[天運(馬來西亞)]
 name 天運
 
 def[蘭芳]
+#y~1719
+
 name_tw 蘭芳
 name_cn 兰芳
 wref_zh 蘭芳共和國
