@@ -55,6 +55,12 @@ name 元熙
 #[,桓帝十一年 305) #即位 漢王 #改元
 s+
 
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7101>"元熙"
+#永興元年 #即位 漢王 #改元
+## AD304
+name 元熙
+s+
+
 ## [102]
 #304-10 - 308-9/308-10
 #<-none
@@ -112,6 +118,11 @@ s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"永鳳"
 name 永鳳
 s+
 
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7101>"永鳳"
+#永嘉二年 #即位 皇帝 #改元
+name 永鳳
+s+
+
 ## [102]
 #308-10 - 309-4/309-5
 
@@ -154,6 +165,12 @@ tag 石勒
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"河瑞"
 #"後汾水中得玉璽，文曰「有新保之」，蓋王莽之璽也。
 #得者因增「淵海光」三字而獻之，淵以為己瑞，號年為河瑞。"
+name 河瑞
+s+
+
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7101>"河瑞"
+#"汾水中得玉璽，文曰「有新保之」，蓋王莽時璽也。得者因增「泉海光」三字，
+#元海以為己瑞，大赦境內，改年河瑞。"
 name 河瑞
 s+
 
@@ -220,6 +237,12 @@ s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"光興"
 name 光興
 s+
 
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7102>"光興"
+#永嘉四年 #即位 #改元
+## AD310
+name 光興
+s+
+
 ## [102]
 #310-7 - 311-5/311-6
 
@@ -264,6 +287,10 @@ s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"嘉平"
 name 嘉平
 s+
 
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7102>"嘉平"
+name 嘉平
+s+
+
 ## [102]
 #311-6 - 315-2/315-3
 
@@ -302,6 +329,10 @@ tag 石勒
 
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"建元"
+name 建元
+s+
+
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7102>"建元"
 name 建元
 s+
 
@@ -371,6 +402,10 @@ s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"麟嘉"
 name 麟嘉
 s+
 
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7102>"麟嘉"
+name 麟嘉
+s+
+
 ## [102]
 #316-11 - 318-6/318-7
 
@@ -411,6 +446,10 @@ tag 劉曜
 tag 石勒
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"漢昌"
+name 漢昌
+s+
+
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7102>"漢昌"
 name 漢昌
 s+
 
@@ -469,6 +508,12 @@ tag 石勒
 tag 句渠知
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"光初"
+name 光初
+s+
+
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7102>"光初"
+#太興元年 #即位 #改元
+## AD318 y~1695
 name 光初
 s+
 
@@ -1040,6 +1085,12 @@ name 太寧
 s+
 ## AD349
 
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7107>"太寧"
+name 太寧
+s+
+#永和五年 #即位 皇帝 #建元
+## AD349
+
 ## [102]
 #349 - 349/350
 #石世
@@ -1279,6 +1330,12 @@ tag 冉魏
 %tag   name_ja 冉閔
 tag 石閔
 
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7107>"永興"
+name 永興
+s+
+#永和六年 #即位 皇帝 #建元
+## AD350
+
 ## [102]
 #350-2' - 352-4
 #中国歴代年号考
@@ -1423,6 +1480,13 @@ s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"永安"
 name 永安
 s+
 
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7129>"永安"
+name 永安
+s+
+#"隆安五年，梁中庸、房晷、田昂等推蒙遜為使持節、大都督、大將軍、涼州牧、
+#張掖公，赦其境內，改元永安。"
+## AD401
+
 ## [102]
 #401-6 - 412-10
 #中国歴代年号考
@@ -1462,6 +1526,12 @@ tag 沮渠蒙遜
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"玄始"
 name 玄始
 s+
+
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7129>"玄始"
+name 玄始
+s+
+#"俄而蒙遜遷于姑臧，以義熙八年僭即河西王位，大赦境內，改元玄始。"
+## AD412
 
 ## [102]
 #412-11 - 427
@@ -1950,6 +2020,12 @@ s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"龍昇"
 name 龍昇
 s+
 
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7130>"龍昇"
+name 龍昇
+s+
+#"義熙三年，僭稱天王、大單于，赦其境內，建元曰龍昇，署置百官。"
+## AD407
+
 ## [102]
 #407-6 - 413-2
 #中国歴代年号考
@@ -1996,6 +2072,12 @@ tag オルドス高原
 
 tag 赫連勃勃
 
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7130>"鳳翔"
+name 鳳翔
+s+
+#"乃赦其境內，改元為鳳翔，"...
+#"又造百練剛刀，為龍雀大環，號曰「大夏龍雀」，"...
+
 ## [102]
 #413-3 - 418-10
 #中国歴代年号考
@@ -2029,6 +2111,11 @@ s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"昌武"
 name 昌武
 s+
 
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7130>"昌武"
+name 昌武
+s+
+#"於是為壇於灞上，僭即皇帝位，赦其境內，改元為昌武。"
+
 ## [102]
 #418-11 - 419-1
 #中国歴代年号考
@@ -2059,6 +2146,11 @@ tag 北支
 tag 酒泉
 
 tag 赫連勃勃
+
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7130>"真興"
+name 真興
+s+
+#"勃勃還統萬，以宮殿大成，於是赦其境內，又改元曰真興。"
 
 ## [102]
 #419-2 - 425-7

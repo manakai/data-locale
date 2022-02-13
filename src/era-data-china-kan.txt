@@ -829,6 +829,10 @@ s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7007>"即皇�
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7007>"始元元年春二月"
 s+
 
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7015>"昭帝始元五年"
+## <https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7015#cite_note-23>
+#"昭帝始元五年　「始元」原誤倒作「元始」，今乙正。"
+
 [元鳳]
 #y~531
 BC80 = 1
@@ -1098,6 +1102,10 @@ s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7009>"即皇�
 <-黃龍 漢:BC49-12-癸巳 #建元前の即位{#前漢 #漢元帝 #漢皇帝}
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7009>"初元元年春正月辛丑"
 s+
+
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7015>"元帝初元三年"
+## <https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7015#cite_note-24>
+#"元帝初元三年　「初元」原誤倒作「元初」，今乙正。"
 
 [永光]
 #y~1673
@@ -3260,6 +3268,12 @@ s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B7
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B79>"初平元年"
 s+
 
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7014>"獻帝初平六年"
+u 6
+## <https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7014#cite_note-38>
+#"及獻帝初平六年　趙一清《水經注釋》三三：全祖望謂初平只四年，無六年，
+#當作元年。"
+
 <-中平 [漢:190] #支那改元日{#後漢 #献帝} #董卓
 <-中平 ->光熹,昭寧,永漢 [漢:189-12] #建元撤回{#後漢 #献帝} #董卓 #異説
 ->中平 <-永漢 [漢:189-12] #改元前旧制再開{#後漢 #献帝} #董卓 #異説
@@ -3286,6 +3300,11 @@ name_kana こう へい
 
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B79>"改元興平"
 <-初平 漢:194-1-辛酉 #支那改元日{#後漢 #献帝}
+
+s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7014>"初平元年"
+## <https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7014#cite_note-42>
+#"初平元年劉璋分巴郡立永寧郡　考異：劉焉以興平元年卒，子璋始爲益州牧，
+#則初平元年璋尚未牧益州，「初平」當爲「興平」之訛。"
 
 [建安]
 #y~651
