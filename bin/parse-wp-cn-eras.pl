@@ -64,9 +64,12 @@ for my $table_el ($doc->query_selector_all ('.wikitable, .mw-headline')->to_list
         $link->href =~ m{^https://zh.wikipedia.org/wiki/([^?#]+)}) {
       my $name = $1;
       $name = percent_decode_c $name;
-      $data->{wref} = $name;
+      if ($link->text_content =~ /^\w+$/) {
+        $data->{wref} = $name;
+        $data->{name} = $link->text_content;
+      }
     }
-    if ($cells->[1]->text_content =~ /^(前|)(\d+)年(\w+月(\w+日|)|)(?:\x{2014}|$)/) {
+    if ($cells->[1]->text_content =~ /^(前|)(\d+)年(\w+月(\w+日|)|)(?:\x{2014}|\x{FF0D}|\[|[春夏秋冬]|$)/) {
       my $start_year = $1 ? 0 - $2 : $2;
       $data->{offset} = $start_year - 1;
     } elsif ($cells->[1]->text_content =~ /^(\d{4})$/) {
