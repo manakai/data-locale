@@ -229,7 +229,8 @@ local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
     local/era-yomi-list.json \
     local/era-date-list.json \
     local/cn-ryuukyuu-era-list.json \
-    data/tags.json
+    data/tags.json \
+    src/era-ids-1.txt
 	$(PERL) $< > $@
 #intermediate/era-ids.json: data/calendar/era-defs.json
 data/calendar/era-codes.html: bin/calendar-era-codes.pl \

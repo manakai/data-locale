@@ -106,6 +106,8 @@ AD1392 = 1
 sw 開国年号
 
 def[대한민국]
+#y~260
+
 name_tw 大韓民國
 name_ja 大韓民国
 name(kr) 대한민국

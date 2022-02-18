@@ -139,31 +139,26 @@ sub drop_kanshi ($) {
 } # drop_kanshi
 
 {
-  my $path = $root_path->child ('intermediate/wp-cn-eras.json');
-  my $json = json_bytes2perl $path->slurp;
-  for my $src (@{$json->{eras}}) {
-    next unless defined $src->{era_id};
-    die "Era key for $src->{name} not defined" unless defined $src->{era_key};
-    $Data->{eras}->{$src->{era_key}} = my $data = {};
-    $data->{id} = $src->{era_id};
-    $data->{key} = $src->{era_key};
-    $data->{_LABELS} //= [{labels => [{reps => []}]}];
-    $data->{offset} = $src->{offset} if defined $src->{offset};
-    $data->{wref_zh} = $src->{wref} if defined $src->{wref};
+  my $path = $root_path->child ('src/era-ids-1.txt');
+  for (split /\x0D?\x0A/, decode_web_utf8 $path->slurp) {
+    if (/^\s*#/) {
+      #
+    } elsif (/^y~([1-9][0-9]*)\s+(\S+)\s+(?:(-?[0-9]+)|)$/) {
+      my $id = 0+$1;
+      my $key = $2;
+      my $offset;
+      $offset = 0+$3 if defined $3;
 
-    push @{$data->{_LABELS}->[0]->{labels}->[0]->{reps}},
-        {kind => 'name', type => 'han', lang => 'tw', value => $src->{name}},
-        {kind => 'name', type => 'han', lang => 'cn', value => $src->{cn}};
-    
-    warn "Wikipedia cn != my: $src->{cn} $src->{my}"
-        if $src->{cn} ne $src->{my};
-    warn "Wikipedia cn != sg: $src->{cn} $src->{sg}"
-        if $src->{cn} ne $src->{sg};
-    warn "Wikipedia tw != hk: $src->{tw} $src->{hk}"
-        if $src->{tw} ne $src->{hk};
-    warn "Wikipedia tw != mo: $src->{tw} $src->{mo}"
-        if $src->{tw} ne $src->{mo};
-  } # $src
+      die "Duplicate era key |$key|" if defined $Data->{eras}->{$key};
+      $Data->{eras}->{$key} = my $data = {};
+      $data->{id} = $id;
+      $data->{key} = $key;
+      $data->{_LABELS} //= [{labels => [{reps => []}]}];
+      $data->{offset} = $offset if defined $offset;
+    } elsif (/\S/) {
+      die "Bad line |$_|";
+    }
+  }
 }
 
 for my $path (
@@ -318,12 +313,13 @@ for my $path (
       #
     } elsif (/^\[(.+)\]$/) {
       $key = $1;
-      die "Bad key [|$key|]" unless $Data->{eras}->{$key};
+      die "Bad key [|$key|] (not defined) in |$path|"
+          unless $Data->{eras}->{$key};
       undef $prop;
       undef $current_source;
     } elsif (/^def\[(.+)\]$/) {
       $key = $1;
-      die "Bad key |$key|"
+      die "Bad key def[|$key|] (duplicate) in |$path|"
           if defined $Data->{eras}->{$key} and
              defined $Data->{eras}->{$key}->{key};
       undef $prop;
@@ -533,6 +529,32 @@ for my $path (
       undef $current_source;
     }
   }
+}
+
+{
+  my $path = $root_path->child ('intermediate/wp-cn-eras.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $src (@{$json->{eras}}) {
+    next unless defined $src->{era_id};
+    die "Era key for $src->{name} not defined" unless defined $src->{era_key};
+
+    my $data = $Data->{eras}->{$src->{era_key}};
+    die "$path: Bad era key |$src->{era_key}|" unless defined $data;
+    $data->{wref_zh} = $src->{wref} if defined $src->{wref};
+
+    unshift @{$data->{_LABELS}->[0]->{labels}->[0]->{reps}},
+        {kind => 'name', type => 'han', lang => 'tw', value => $src->{name}},
+        {kind => 'name', type => 'han', lang => 'cn', value => $src->{cn}};
+    
+    warn "Wikipedia cn != my: $src->{cn} $src->{my}"
+        if $src->{cn} ne $src->{my};
+    warn "Wikipedia cn != sg: $src->{cn} $src->{sg}"
+        if $src->{cn} ne $src->{sg};
+    warn "Wikipedia tw != hk: $src->{tw} $src->{hk}"
+        if $src->{tw} ne $src->{hk};
+    warn "Wikipedia tw != mo: $src->{tw} $src->{mo}"
+        if $src->{tw} ne $src->{mo};
+  } # $src
 }
 
 {
@@ -2068,7 +2090,7 @@ for my $data (values %{$Data->{eras}}) {
   my $max_id = 0;
   for my $data (sort { $a->{key} cmp $b->{key} } values %{$Data->{eras}}) {
     if (defined $data->{id} and $map->{$data->{key}} != $data->{id}) {
-      die "Era ID |$data->{id}|, key |$data->{key}| is not registered";
+      die "$path: Era ID |$data->{id}|, key |$data->{key}| is not registered";
     }
     my $id = $map->{$data->{key}};
     if (defined $id) {
