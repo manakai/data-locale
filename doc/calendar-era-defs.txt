@@ -543,9 +543,9 @@ and has following name/value pairs:
 
     Eras that are relevant to the transition.
 
-    The names are the era IDs, and the values are their corresponding
-    descriptions, represented as JSON objects with following
-    name/value pair:
+    The names are the era ID [id], and the values are their
+    corresponding descriptions, represented as JSON objects with
+    following name/value pair:
 
       until_first_day [integer?]
 
@@ -686,9 +686,9 @@ It is a JSON object with following name/value pairs:
 
   eras [object]
 
-    The names are the era IDs.  The values are JSON objects describing
-    the era with the corresponding era IDs, with following name/value
-    pairs:
+    The names are the era ID [id].  The values are JSON objects
+    describing the era with the corresponding era IDs, with following
+    name/value pairs:
 
       id [id]
       key [key]
@@ -763,9 +763,97 @@ transition events.
 
 It is a JSON object with following name/value pair:
 
-  transitions [events.]
+  transitions [events]
 
     Transition events.
+
+* Structure of the era-to-era relationship data file
+
+The |data/calendar/era-relations.json| file contains era-to-era
+relationship summary.
+
+It is a JSON object with following name/value pair:
+
+  eras [object]
+
+    The names are the era ID [id] of era /A/.  The values are JSON objects
+    describing the era with the corresponding era IDs, with following
+    name/value pair:
+
+      relateds [object]
+
+        The names are the era ID [id] of era /B/.  The value are JSON
+        objects describing the era /A/ to era /B/ relationship, where
+        the names are the applicable relation types and the values are
+        [boolean] true values.
+
+        There are following relation types:
+
+          /A/ abbr_contained /B/
+          /B/ abbr_contains /A/
+
+            One of /A/'s abbreviations is partially contained by one
+            of /B/'s Hanzi or Alphabetical names.
+
+          /A/ abbr_equal /B/
+
+            /A/ abbr_contained /B/ and /A/ abbr_contains /B/.
+
+          /A/ alphabetical_contained /B/
+          /B/ alphabetical_contains /A/
+
+            One of /A/'s Alphabetical names is partially contained by
+            one of /B/'s Alphabetical names.
+
+          /A/ alphabetical_equal /B/
+
+            /A/ alphabetical_contained /B/ and /A/
+            alphabetical_contains /B/.
+
+          /A/ korean_contained /B/
+          /B/ korean_contains /A/
+
+            One of /A/'s Korean name is partially contained by one of
+            /B/'s Korean names.
+
+          /A/ korean_equal /B/
+
+            /A/ korean_contained /B/ and /A/ korean_contains /B/.
+
+          /A/ name_contained /B/
+          /B/ name_contains /A/
+
+            One of /A/'s Hanzi names is partially contained by one of
+            /B/'s Hanzi names.
+
+          /A/ name_equal /B/
+
+            /A/ name_contained /B/ and /A/ name_contains /B/.
+
+          /A/ name_rev_contained /B/
+          /B/ name_rev_contains /A/
+
+            One of the character-by-character reverse of /A/'s Hanzi
+            names is partially contained by one of /B/'s Hanzi names.
+
+          /A/ name_rev_equal /B/
+
+            /A/ name_rev_contained /B/ and /A/ name_rev_contains /B/.
+
+          /A/ name_similar /B/
+
+            Either all of the characters in one of /A/'s Hanzi name is
+            contained by one of /B/'s Hanzi names, or vice versa.
+
+          /A/ yomi_contained /B/
+          /B/ yomi_contains /A/
+
+            One of /A/'s Kana names or pronunciations is partially
+            contained by one of /B/'s Kana names or pronunciations.
+
+          /A/ yomi_equal /B/
+
+            /A/ yomi_contained /B/ and /A/ yomi_contains /B/.
 
 * Structure of the era stats data file
 
@@ -837,6 +925,7 @@ The files:
   view/era-names.html
   view/era-yomis.html
   view/era-kanjions.html
+  view/era-relations.html
 
 ... are visualization of portions of JSON data files.
 
