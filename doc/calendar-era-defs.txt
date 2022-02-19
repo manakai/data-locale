@@ -845,6 +845,21 @@ It is a JSON object with following name/value pair:
             Either all of the characters in one of /A/'s Hanzi name is
             contained by one of /B/'s Hanzi names, or vice versa.
 
+          /B/ transition_prev /A/
+          /A/ transition_next /B/
+
+            There is a transition event where one of the previous eras
+            is /A/ and one of the next eras is /B/.
+
+          /A/ year_equal /B/
+
+            /A/'s year numbers are equal to /B/'s year numbers.
+
+          /A/ year_range_overlap /B/
+
+            /A/'s period (i.e. between /A/'s |start_year| and
+            |end_year| (or "now")) overlaps with /B/'s period.
+
           /A/ yomi_contained /B/
           /B/ yomi_contains /A/
 
