@@ -115,7 +115,8 @@ print q{<!DOCTYPE html>
   .rel-type-abbr_equal,
   .rel-type-yomi_equal,
   .rel-type-korean_equal,
-  .rel-type-alphabetical_equal {
+  .rel-type-alphabetical_equal,
+  .rel-type-year_equal {
     font-weight: bolder;
   }
   .rel-type-name_equal::before { content: "=\A0" }
@@ -124,6 +125,9 @@ print q{<!DOCTYPE html>
   .rel-type-yomi_equal::before { content: ":\A0" }
   .rel-type-korean_equal::before { content: ":\A0" }
   .rel-type-alphabetical_equal::before { content: "=\A0" }
+  .rel-type-year_equal::before { content: "\2261\A0" }
+  .rel-type-transition_prev::before { content: "\2190\A0" }
+  .rel-type-transition_next::before { content: "\2192\A0" }
 
 </style>
 

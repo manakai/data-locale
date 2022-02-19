@@ -39,6 +39,8 @@ $(ROOT_PATH)/local/calendar-era-defs-0.json: always
 	cd $(ROOT_PATH) && $(MAKE) local/calendar-era-defs-0.json
 $(ROOT_PATH)/local/calendar-era-relations-0.json: always
 	cd $(ROOT_PATH) && $(MAKE) local/calendar-era-relations-0.json
+$(DATA_PATH)/calendar/era-transitions.json: always
+	cd $(ROOT_PATH) && $(MAKE) data/calendar/era-transitions.json
 
 always:
 
