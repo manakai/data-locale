@@ -1,6 +1,7 @@
 use strict;
 use warnings;
 use Path::Tiny;
+use lib glob path (__FILE__)->parent->parent->child ('bin/modules/*/lib');
 use JSON::PS;
 
 my $ThisPath = path (__FILE__)->parent;
