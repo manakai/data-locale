@@ -34,6 +34,8 @@ See documentations for details in doc/ directory.
       data/calendar/era-codes.html
       data/calendar/era-kodai-years.html
       data/calendar/era-kodai-starts.html
+      data/calendar/era-relations.json
+      view/era-relations.html
       data/calendar/era-stats.json
     doc/calendar-era-systems.txt       Era systems
     data/calendar/era-systems.json

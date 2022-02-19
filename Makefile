@@ -63,6 +63,7 @@ data-main: \
     data/calendar/era-kodai-starts.html \
     data/calendar/era-transitions.json \
     data/calendar/era-stats.json \
+    data/calendar/era-relations.json \
     data/calendar/dts.json \
     data/calendar/serialized/dtsjp1.txt \
     data/calendar/serialized/dtsjp2.txt \
@@ -244,6 +245,13 @@ local/era-transitions-0.json: bin/calendar-era-transitions.pl \
 data/calendar/era-transitions.json: bin/calendar-era-transitions-1.pl \
     local/era-transitions-0.json
 	$(PERL) $< > $@
+
+local/calendar-era-relations-0.json: bin/calendar-era-relations.pl \
+    data/calendar/era-defs.json
+	$(PERL) $< > $@
+data/calendar/era-relations.json: bin/cleanup.pl \
+    local/calendar-era-relations-0.json
+	$(PERL) $< local/calendar-era-relations-0.json > $@
 
 data/calendar/era-stats.json: bin/calendar-era-stats.pl \
     local/cluster-root.json \
