@@ -591,6 +591,12 @@ and has following name/value pairs:
         commence process different from the defining process of the
         era.
 
+      deviated
+
+        The day variants of the era where the era name and/or the year
+        numbering are different is generated for some reasons,
+        intentionally or unintentionally, academically or not.
+
       firstday
       firstday/possible
       firstday/incorrect
@@ -615,6 +621,10 @@ and has following name/value pairs:
       lastyearend
 
         The last day of the year of the |prevfirstday|.
+
+      namesucceeded
+
+        The day the era name was succeeded or reused by a new era.
 
       nextlastyearend
 
@@ -657,6 +667,10 @@ and has following name/value pairs:
       renamed
 
         The day the era name had been changed.
+
+      taboorenamed
+
+        The day the era name was renamed to avoid taboo names (避諱).
 
       triggering
       triggering/possible
@@ -810,6 +824,18 @@ It is a JSON object with following name/value pair:
             /A/ alphabetical_contained /B/ and /A/
             alphabetical_contains /B/.
 
+          /A/ cognate_canon /B/
+
+            /B/ is considered as the canonical or representative era
+            in the group of related eras clustered by the
+            |cognate_deviates| and |cognate_derivated| relationships.
+
+          /A/ cognate_deviates /B/
+          /B/ cognate_deviated /A/
+
+            /B/ was derived from /A/ for some reason (except for
+            reusing of the same name).
+
           /A/ korean_contained /B/
           /B/ korean_contains /A/
 
@@ -829,6 +855,11 @@ It is a JSON object with following name/value pair:
           /A/ name_equal /B/
 
             /A/ name_contained /B/ and /A/ name_contains /B/.
+
+          /A/ name_reuses /B/
+          /B/ name_reused /A/
+
+            /A/'s era name is a succession or reuse of /B/'s era name.
 
           /A/ name_rev_contained /B/
           /B/ name_rev_contains /A/

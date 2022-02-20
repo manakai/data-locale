@@ -436,8 +436,12 @@ source
 name(ja_latin_old) QEICHO
 
 [元和]
-source
-  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
+sw 元和
+
+name 元咊
+
+<-元和(丙戌) k:1615-7-13 #元号名再利用
+
 [慶安]
 source
   url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html

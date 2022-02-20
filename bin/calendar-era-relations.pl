@@ -527,13 +527,45 @@ for my $id (keys %{$Data->{eras}}) {
   } # $era
 }
 
-for my $tr (@$Transitions) {
-  for my $id1 (keys %{$tr->{prev_era_ids}}) {
-    for my $id2 (keys %{$tr->{next_era_ids}}) {
-      next if $id1 == $id2;
-      $Data->{eras}->{$id1}->{relateds}->{$id2}->{transition_next} = 1;
-      $Data->{eras}->{$id2}->{relateds}->{$id1}->{transition_prev} = 1;
+{
+  my $to_canon = {};
+  for my $tr (@$Transitions) {
+    for my $id1 (sort { $a <=> $b } keys %{$tr->{prev_era_ids}}) {
+      for my $id2 (sort { $a <=> $b } keys %{$tr->{next_era_ids}}) {
+        next if $id1 == $id2;
+        $Data->{eras}->{$id1}->{relateds}->{$id2}->{transition_next} = 1;
+        $Data->{eras}->{$id2}->{relateds}->{$id1}->{transition_prev} = 1;
+        if ($tr->{tag_ids}->{2867} or # 異説発生
+            $tr->{tag_ids}->{2878}) { # 避諱改名
+          $Data->{eras}->{$id1}->{relateds}->{$id2}->{cognate_deviates} = 1;
+          $Data->{eras}->{$id2}->{relateds}->{$id1}->{cognate_deviated} = 1;
+          $to_canon->{$id2} = $id1;
+        }
+        if ($tr->{tag_ids}->{2877}) { # 元号名再利用
+          $Data->{eras}->{$id1}->{relateds}->{$id2}->{name_reused} = 1;
+          $Data->{eras}->{$id2}->{relateds}->{$id1}->{name_reuses} = 1;
+        }
+      }
     }
+  } # $tr
+  my $loop = 0;
+  {
+    my $changed = 0;
+    my $new_to_canon = {};
+    for my $id1 (sort { $a <=> $b } keys %$to_canon) {
+      if (defined $to_canon->{$to_canon->{$id1}}) {
+        $new_to_canon->{$id1} = $to_canon->{$to_canon->{$id1}};
+      } else {
+        $new_to_canon->{$id1} = $to_canon->{$id1};
+      }
+    }
+    $to_canon = $new_to_canon;
+    die "Too many iterations" if $loop++ > 10;
+    redo if $changed;
+  }
+  for my $id1 (keys %$to_canon) {
+    my $id2 = $to_canon->{$id1};
+    $Data->{eras}->{$id1}->{relateds}->{$id2}->{cognate_canon} = 1;
   }
 }
 
