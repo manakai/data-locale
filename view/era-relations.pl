@@ -1,6 +1,7 @@
 use strict;
 use warnings;
 use Path::Tiny;
+use lib glob path (__FILE__)->parent->parent->child ('bin/modules/*/lib');
 use JSON::PS;
 
 my $ThisPath = path (__FILE__)->parent;
@@ -116,7 +117,8 @@ print q{<!DOCTYPE html>
   .rel-type-yomi_equal,
   .rel-type-korean_equal,
   .rel-type-alphabetical_equal,
-  .rel-type-year_equal {
+  .rel-type-year_equal,
+  .rel-type-cognate_canon {
     font-weight: bolder;
   }
   .rel-type-name_equal::before { content: "=\A0" }
@@ -128,6 +130,11 @@ print q{<!DOCTYPE html>
   .rel-type-year_equal::before { content: "\2261\A0" }
   .rel-type-transition_prev::before { content: "\2190\A0" }
   .rel-type-transition_next::before { content: "\2192\A0" }
+  .rel-type-cognate_deviates::before { content: "\219D\A0" }
+  .rel-type-cognate_deviated::before { content: "\219C\A0" }
+  .rel-type-cognate_canon::before { content: "\21D2\A0" }
+  .rel-type-name_reuses::before { content: "\21E0\A0" }
+  .rel-type-name_reused::before { content: "\21E2\A0" }
 
 </style>
 

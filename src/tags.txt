@@ -367,6 +367,9 @@ action
   name_ja 元号名不詳
 
 action
+  name_ja 元号名再利用
+
+action
   name_ja 連合
 
 action
@@ -479,15 +482,6 @@ action
   name_ja 建国記念日
   group of 事由
   group of 建国
-
-action
-  name_ja 発生
-  group of 利用開始
-  group of 分離
-
-action
-  name_ja 派生
-  group of 発生
 
 tag
   name_ja 適用開始前日
@@ -861,11 +855,86 @@ action
   group of 事由
 
 tag
+  name_ja 避諱元号
+
+tag
+  name_ja 避諱前元号
+  group of 避諱元号
+
+tag
+  name_ja 避諱後元号
+  group of 避諱元号
+
+tag
   name_ja 異説
 
 tag
   name_ja 旧説
   group of 異説
+
+action
+  name_ja 発生
+  group of 分離
+
+action
+  name_ja 避諱改名
+  group of 発生
+
+action
+  name_ja 避諱改名採用
+  group of 避諱改名
+  #subject: renamed authority
+  #object: taboo name
+
+action
+  name_ja 避諱別名発生
+  group of 避諱改名
+
+action
+  name_ja 異説発生
+  group of 発生
+
+action
+  name_ja 年異説発生
+  group of 異説発生
+
+action
+  name_ja 名異説発生
+  group of 異説発生
+
+action
+  name_ja 発生利用開始
+  group of 発生
+  group of 利用開始
+
+action
+  name_ja 異説発生利用開始
+  group of 異説発生
+  group of 発生利用開始
+
+action
+  name_ja 名異説発生利用開始
+  group of 異説発生利用開始
+  group of 名異説発生
+
+action
+  name_ja 年異説発生利用開始
+  group of 異説発生利用開始
+  group of 年異説発生
+
+action
+  name_ja 誤伝発生
+  group of 異説発生
+
+action
+  name_ja 年誤伝発生
+  group of 誤伝発生
+  group of 年異説発生
+
+action
+  name_ja 名誤伝発生
+  group of 誤伝発生
+  group of 名異説発生
 
 tag
   name_ja 年始

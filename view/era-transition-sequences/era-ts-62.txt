@@ -1,6 +1,6 @@
 # y~62 顯道
 # <https://data.suikawiki.org/tag/2722/graph?sequence=62>
-# g:1033-01-09+0 y~62 firstday
+# g:1033-01-09+0 y~62 commenced
 mjd:-301637 顯道
 # g:1034-09-21+0 y~812 firstday
 mjd:-301017 開運(甲戌)

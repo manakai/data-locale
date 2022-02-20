@@ -1142,6 +1142,12 @@ for (@$Transitions) {
     $type = 'lastyearend';
   } elsif ($x->{tag_ids}->{1351}) { # 末年翌日
     $type = 'nextlastyearend';
+  } elsif ($x->{tag_ids}->{2867}) { # 異説発生
+    $type = 'deviated';
+  } elsif ($x->{tag_ids}->{2878}) { # 避諱改名
+    $type = 'taboorenamed';
+  } elsif ($x->{tag_ids}->{2877}) { # 元号名再利用
+    $type = 'namesucceeded';
   } elsif ($x->{tag_ids}->{2098}) { # 改元非難
     $type = 'other';
   } else {
@@ -1181,6 +1187,29 @@ for (@$Transitions) {
       @$to_keys == 1 and $to_keys->[0] ne '干支年') {
     my $era = $Eras->{$to_keys->[0]};
     $Data->{_ERA_TAGS}->{$era->{key}}->{$source_info->{tag}} = 1;
+  }
+
+  if ($x->{tag_ids}->{2867}) { # 異説発生
+    for my $to_key (@$to_keys) {
+      next if $to_key eq q{干支年};
+      $Data->{_ERA_TAGS}->{$to_key}->{異説} = 1;
+    }
+  }
+  if ($x->{tag_ids}->{2870}) { # 誤伝発生
+    for my $to_key (@$to_keys) {
+      next if $to_key eq q{干支年};
+      $Data->{_ERA_TAGS}->{$to_key}->{旧説} = 1;
+    }
+  }
+  if ($x->{tag_ids}->{2878}) { # 避諱改名
+    for my $from_key (@$from_keys) {
+      next if $from_key eq q{干支年};
+      $Data->{_ERA_TAGS}->{$from_key}->{避諱前元号} = 1;
+    }
+    for my $to_key (@$to_keys) {
+      next if $to_key eq q{干支年};
+      $Data->{_ERA_TAGS}->{$to_key}->{避諱後元号} = 1;
+    }
   }
 } # $tr
 

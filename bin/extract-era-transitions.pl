@@ -91,6 +91,8 @@ sub get_transition ($$$) {
         if ($tr->{tag_ids}->{2107}) { # 分離
           if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
             push @$matched1, $tr;
+          } else {
+            push @$matched_others, $tr;
           }
         } else {
           if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
@@ -163,7 +165,7 @@ my $has_error = 0;
 my $start_era = $EraData->{eras}->{$StartEraKey}
     or die "Era |$StartEraKey| not found";
 my $tr = get_transition ($start_era, 0-"Inf", 'incoming');
-die "Start era |$StartEraKey|'s incoming transition" unless defined $tr;
+die "No start era |$StartEraKey|'s incoming transition" unless defined $tr;
 push @$items, my $last_item = {
   era => $start_era,
   transition => $tr,
