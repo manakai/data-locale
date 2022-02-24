@@ -1,5 +1,6 @@
 use strict;
 use warnings;
+use utf8;
 use Path::Tiny;
 use lib glob path (__FILE__)->parent->child ('modules/*/lib');
 use JSON::PS;
@@ -15,7 +16,7 @@ my $KrsEras = {};
 my $AlphasEras = {};
 
 {
-  my $path = $RootPath->child ('data/calendar/era-defs.json');
+  my $path = $RootPath->child ('local/calendar-era-defs-0.json');
   my $json = json_bytes2perl $path->slurp;
   $Eras = [sort { $a->{id} <=> $b->{id} } values %{$json->{eras}}];
   for my $era (@$Eras) {
@@ -465,11 +466,13 @@ for my $era (@$Eras) {
   }
 } # $era
 
-for my $id (keys %{$Data->{eras}}) {
-  my $rels = $Data->{eras}->{$id}->{relateds} || {};
+for my $id1 (keys %{$Data->{eras}}) {
+  my $era1 = $EraById->{$id1};
+  my $rels = $Data->{eras}->{$id1}->{relateds} || {};
   for my $id2 (keys %$rels) {
     if ($rels->{$id2}->{name_contains} and $rels->{$id2}->{name_contained}) {
       $rels->{$id2}->{name_equal} = 1;
+      $Data->{_ERA_TAGS}->{$era1->{key}}->{同名あり} = 1;
     }
     if ($rels->{$id2}->{name_rev_contains} and $rels->{$id2}->{name_rev_contained}) {
       $rels->{$id2}->{name_reversed} = 1;
@@ -486,45 +489,32 @@ for my $id (keys %{$Data->{eras}}) {
     if ($rels->{$id2}->{alphabetical_contains} and $rels->{$id2}->{alphabetical_contained}) {
       $rels->{$id2}->{alphabetical_equal} = 1;
     }
-  }
-}
-
-{
-  my $offset_eras = {};
-  my $year_era_ids = {};
-  my $ThisYear = [gmtime]->[5]+1900;
-  for my $era (values %$EraById) {
-    if (defined $era->{offset}) {
-      push @{$offset_eras->{$era->{offset}} ||= []}, $era;
-    }
-    if (defined $era->{start_year}) {
-      my $end = $era->{end_year} // ($ThisYear + 10);
-      for my $y ($era->{start_year} .. $end) {
-        push @{$year_era_ids->{$y} ||= []}, $era->{id};
+    $rels->{$id2}->{label_equal} = 1
+        if $rels->{$id2}->{name_equal} or
+           $rels->{$id2}->{yomi_equal} or
+           $rels->{$id2}->{korean_equal} or
+           $rels->{$id2}->{alphabetical_equal} or
+           $rels->{$id2}->{abbr_equal};
+    $rels->{$id2}->{label_similar} = 1
+        if $rels->{$id2}->{name_similar} or
+           $rels->{$id2}->{yomi_contains} or
+           $rels->{$id2}->{korean_contains} or
+           $rels->{$id2}->{alphabetical_contains} or
+           $rels->{$id2}->{abbr_contains} or
+           $rels->{$id2}->{yomi_contained} or
+           $rels->{$id2}->{korean_contained} or
+           $rels->{$id2}->{alphabetical_contained} or
+           $rels->{$id2}->{abbr_contained};
+    if ($rels->{$id2}->{label_equal}) {
+      my $era2 = $EraById->{$id2};
+      if (defined $era1->{offset} and defined $era2->{offset} and
+          (($era1->{offset} - $era2->{offset}) % 60) == 0) {
+        $rels->{$id2}->{label_kanshi_equal} = 1;
+        $Data->{_ERA_TAGS}->{$era1->{key}}->{同名同干支年あり} = 1
+            if $rels->{$id2}->{name_equal};
       }
     }
-  } # $era
-  for my $offset (sort { $a <=> $b } keys %$offset_eras) {
-    my @era = @{$offset_eras->{$offset}};
-    for my $era1 (@era) {
-      for my $era2 (@era) {
-        next if $era1->{id} == $era2->{id};
-        $Data->{eras}->{$era1->{id}}->{relateds}->{$era2->{id}}->{year_equal} = 1;
-        $Data->{eras}->{$era2->{id}}->{relateds}->{$era1->{id}}->{year_equal} = 1;
-      }
-    }
-  } # $offset
-  for my $era (values %$EraById) {
-    if (defined $era->{start_year}) {
-      my $end = $era->{end_year} // ($ThisYear + 10);
-      for my $y ($era->{start_year} .. $end) {
-        for my $id2 (@{$year_era_ids->{$y} || []}) {
-          next if $era->{id} == $id2;
-          $Data->{eras}->{$era->{id}}->{relateds}->{$id2}->{year_range_overlap} = 1;
-        }
-      }
-    }
-  } # $era
+  } # $id2
 }
 
 {

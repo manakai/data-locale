@@ -416,6 +416,8 @@ position
 
 tag
   name_ja 公年号
+  group of 元号
+
 tag
   name_ja 日本の公年号
   group of 公年号
@@ -430,7 +432,12 @@ tag
   group of 日本の公年号
 
 tag
+  name_ja 私年号
+  group of 元号
+
+tag
   name_ja 日本の私年号
+  group of 私年号
 
 tag
   name_ja 私年号 (ウィキペディア)
@@ -440,21 +447,27 @@ tag
 
 tag
   name_ja 一世一元
+  group of 元号
 
 tag
   name_ja 重祚各一元
+  group of 元号
 
 tag
   name_ja 追号説のある元号
+  group of 元号
 
 tag
   name_ja 君主名の元号
+  group of 元号
 
 tag
   name_ja 干支元号名
+  group of 元号
 
 tag
   name_ja チベット語元号名
+  group of 元号
 
 action
   name_ja 発表
@@ -856,6 +869,7 @@ action
 
 tag
   name_ja 避諱元号
+  group of 元号
 
 tag
   name_ja 避諱前元号
@@ -1036,8 +1050,22 @@ tag
   group of 利用中
 
 tag
+  name_ja 利用60年超
+
+tag
+  name_ja 継続60年超
+  group of 利用60年超
+
+tag
   name_ja 年不詳
   name_en year not known
+
+tag
+  name_ja 同名あり
+
+tag
+  name_ja 同名同干支年あり
+  group of 同名あり
 
 tag
   name_ja 年号銭

@@ -20,6 +20,15 @@ my $EraTags;
   $EraTransitions = $json->{transitions};
   $EraTags = $json->{_ERA_TAGS};
 }
+{
+  my $path = $RootPath->child ('local/calendar-era-relations-0.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $key (keys %{$json->{_ERA_TAGS}}) {
+    for my $tag_name (keys %{$json->{_ERA_TAGS}->{$key}}) {
+      $EraTags->{$key}->{$tag_name} = 1;
+    }
+  }
+}
 
 sub ymd2string (@) {
   if ($_[0] < 0) {
@@ -1042,9 +1051,36 @@ for my $era (values %{$Data->{eras}}) {
   if (defined $era->{start_year} and
       not defined $era->{end_year}) {
     set_object_tag $era, '継続中';
+    my $duration = $ThisYear - $era->{start_year} + 1;
+    if ($duration > 60) {
+      set_object_tag $era, '継続60年超';
+    }
   } elsif (defined $era->{known_latest_year} and
            $era->{known_latest_year} + $RecentYears >= $ThisYear) {
     set_object_tag $era, '利用中';
+    if (defined $era->{start_year}) {
+      my $duration = $era->{end_year} - $era->{start_year} + 1;
+      if ($duration > 60) {
+        set_object_tag $era, '継続60年超';
+      }
+    }
+    my $duration = $ThisYear - $era->{known_oldest_year} + 1;
+    if ($duration > 60) {
+      set_object_tag $era, '利用60年超';
+    }
+  } else {
+    if (defined $era->{start_year}) {
+      my $duration = $era->{end_year} - $era->{start_year} + 1;
+      if ($duration > 60) {
+        set_object_tag $era, '継続60年超';
+      }
+    }
+    if (defined $era->{known_oldest_year}) {
+      my $duration = $era->{known_latest_year} - $era->{known_oldest_year} + 1;
+      if ($duration > 60) {
+        set_object_tag $era, '利用60年超';
+      }
+    }
   }
 
   if (not defined $era->{offset}) {
