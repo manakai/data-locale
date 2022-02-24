@@ -846,6 +846,23 @@ It is a JSON object with following name/value pair:
 
             /A/ korean_contained /B/ and /A/ korean_contains /B/.
 
+          /A/ label_equal /B/
+
+            |name_equal|, |abbr_equal|, |yomi_equal|, |korean_equal|,
+             or |alphabetical_equal|.
+
+          /A/ label_kanshi_equal /B/
+
+            |label_equal| and /A/'s kanshi years are equal to /B/'s
+            kanshi years.
+
+          /A/ label_similar /B/
+
+            |name_similar|, |abbr_contains|, |abbr_contained|,
+            |yomi_contains|, |yomi_contained|, |korean_contains|,
+            |korean_contained|, |alphabetical_contains|, or
+            |alphabetical_contained|.
+
           /A/ name_contained /B/
           /B/ name_contains /A/
 

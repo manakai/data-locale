@@ -205,6 +205,7 @@ data/calendar/era-yomi-sources.json: bin/calendar-era-yomi-sources.pl \
 data/calendar/era-defs.json: bin/calendar-era-defs-events.pl \
     local/calendar-era-defs-0.json \
     local/era-transitions-0.json \
+    local/calendar-era-relations-0.json \
     data/tags.json
 	$(PERL) $< > $@
 
@@ -247,11 +248,14 @@ data/calendar/era-transitions.json: bin/calendar-era-transitions-1.pl \
 	$(PERL) $< > $@
 
 local/calendar-era-relations-0.json: bin/calendar-era-relations.pl \
+    local/calendar-era-defs-0.json
+	$(PERL) $< > $@
+local/calendar-era-relations-1.json: bin/calendar-era-relations-1.pl \
     data/calendar/era-defs.json
 	$(PERL) $< > $@
 data/calendar/era-relations.json: bin/cleanup.pl \
-    local/calendar-era-relations-0.json
-	$(PERL) $< local/calendar-era-relations-0.json > $@
+    local/calendar-era-relations-1.json
+	$(PERL) $< local/calendar-era-relations-1.json > $@
 
 data/calendar/era-stats.json: bin/calendar-era-stats.pl \
     local/cluster-root.json \
