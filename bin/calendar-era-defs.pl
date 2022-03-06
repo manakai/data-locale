@@ -1037,6 +1037,7 @@ sub compute_form_group_ons ($) {
           }
         } else {
           push @$no_chars, $_;
+          $onses->[$_[0]] //= undef;
         }
       } $ss;
       push @{$fg_data->{hanzis} ||= []}, $fs_data;
@@ -1420,7 +1421,7 @@ sub compute_form_group_ons ($) {
                   if ($rep->{abbr} eq 'acronym' and
                       (@$w == 1 or
                        (@$w == 2 and $w->[1] eq '..'))) {
-                    $value->{abbr} = 'one';
+                    $value->{abbr} = 'single';
                   } else {
                     $value->{abbr} = $rep->{abbr};
                   }
@@ -1480,6 +1481,8 @@ sub compute_form_group_ons ($) {
                 }
                 if ($rep->{value} =~ s/\A\[J:\]//) {
                   $value->{form_group_type} = 'ja';
+                } elsif ($rep->{value} =~ s/\A\[\]//) {
+                  #
                 }
               } elsif ($rep->{value} =~ s/\A([\p{Han}|]+)//) {
                 $value->{form_group_type} = 'han';
@@ -1532,8 +1535,8 @@ sub compute_form_group_ons ($) {
                   $v->{form_set_type} = 'yomi';
                   fill_yomi_from_rep $rep => $v;
                 }
-                if ($rep->{value} =~ s/\A\[J:\]//) {
-                  $value->{form_group_type} = 'ja';
+                if ($rep->{value} =~ s/\A\[(J:|)\]//) {
+                  $value->{form_group_type} = 'ja' if $1;
                   $v->{others} = [map {
                     my $r = [[]];
                     for (@$_) {
@@ -1550,7 +1553,11 @@ sub compute_form_group_ons ($) {
                 $value->{form_group_type} = 'alphabetical';
                 $v->{form_set_type} = 'alphabetical';
                 my $w = [$1];
-                push @{$v->{others} ||= []}, $w;
+                if (defined $v->{ja_latin}) {
+                  push @{$v->{others} ||= []}, $w;
+                } else {
+                  $v->{ja_latin} = $w;
+                }
               } elsif ($rep->{value} =~ s/\A([()\p{Geometric Shapes}・]+)//) {
                 $value->{form_group_type} = 'symbols';
                 $v->{form_set_type} = 'symbols';
@@ -1760,7 +1767,7 @@ sub compute_form_group_ons ($) {
                       (not defined $era->{abbr_latn} or
                        ($value->{is_preferred} or {})->{ja_latin}) and
                        defined $text->{abbr} and
-                       $text->{abbr} eq 'one') {
+                       $text->{abbr} eq 'single') {
                     $era->{abbr_latn} = serialize_segmented_text $value->{ja_latin};
                   }
                 }
@@ -1891,7 +1898,7 @@ sub compute_form_group_ons ($) {
               } elsif ($item_fg->{form_group_type} eq 'alphabetical') {
                 for my $item_fs (@{$item_fg->{form_sets}}) {
                   if ($item_fs->{form_set_type} eq 'alphabetical') {
-                    my $v = serialize_segmented_text ($item_fs->{others}->[0] // die);
+                    my $v = serialize_segmented_text ($item_fs->{ja_latin} // $item_fs->{others}->[0] // die);
                     $name_jp .= $v;
                     $name_cn .= $v;
                     $name_tw .= $v;
@@ -1959,6 +1966,23 @@ sub compute_form_group_ons ($) {
       }
     }
 
+    for my $ls (@{$era->{label_sets}}) {
+      for my $label (@{$ls->{labels}}) {
+        my $abbr = undef;
+        for my $fg (@{$label->{form_groups}}) {
+          my $fg_abbr = $fg->{abbr} // '';
+          $abbr //= $fg_abbr;
+          if (not $abbr eq $fg_abbr) {
+            die "Era |$era->{key}|: Label |abbr| conflict: |$abbr| vs |$fg_abbr|";
+          }
+          delete $fg->{abbr};
+        }
+        if (defined $abbr and length $abbr) {
+          $label->{abbr} = $abbr;
+        }
+      }
+    }
+    
     {
       my $fg_datas = [];
       for my $ls (@{$era->{label_sets}}) {

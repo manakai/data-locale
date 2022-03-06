@@ -215,9 +215,10 @@ It is a JSON object with following name/value pairs:
 
         The last year the era is used, if known.
 
-      labels
+      label_sets
 
-        A JSON array.  XXX
+        A JSON array of zero or more [label-set] objects, representing
+        the known labels for the era.
 
       name [string]
 
@@ -690,6 +691,14 @@ and has following name/value pairs:
     shown above.  The |/possible| variant type represent another
     possible day.  The |/incorrect| variant type represent another day
     that were historically considered as the day of the event.
+
+* The [label-set] data type
+
+An object of the [label-set] data type represents a set of labels,
+XXX
+
+The order of the labels in label set's "labels" list is significant
+for the purpose of sorting labels.
 
 * Structure of the era yomi source list file
 
