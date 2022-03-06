@@ -410,11 +410,11 @@ for my $era (@$Eras) {
 } # $era
 
 my $matched = sub {
-  my ($fg_abbr) = @_;
+  my ($is_abbr) = @_;
   return sub {
     my ($id1, $id2, $type1, $type2) = @_;
     if ($type1 eq 'name_contained' or $type1 eq 'alphabetical_contained') {
-      if ($fg_abbr) {
+      if ($is_abbr) {
         $Data->{eras}->{$id1}->{relateds}->{$id2}->{abbr_contained} = 1;
         $Data->{eras}->{$id2}->{relateds}->{$id1}->{abbr_contains} = 1;
       } else {
@@ -430,17 +430,17 @@ my $matched = sub {
 for my $era (@$Eras) {
   for my $ls (@{$era->{label_sets}}) {
     for my $label (@{$ls->{labels}}) {
+      my $label_abbr = defined $label->{abbr};
       for my $fg (@{$label->{form_groups}}) {
-        my $fg_abbr = defined $fg->{abbr};
         if ($fg->{form_group_type} eq 'han' or
             $fg->{form_group_type} eq 'kana' or
             $fg->{form_group_type} eq 'ja') {
           for my $fs (@{$fg->{form_sets}}) {
-            match_form_set $era, $fs, $matched->($fg_abbr, ! 'partial');
+            match_form_set $era, $fs, $matched->($label_abbr, ! 'partial');
           }
         } elsif ($fg->{form_group_type} eq 'alphabetical') {
           for my $fs (@{$fg->{form_sets}}) {
-            match_form_set $era, $fs, $matched->($fg_abbr, ! 'partial');
+            match_form_set $era, $fs, $matched->($label_abbr, ! 'partial');
           } # $fs
         } elsif ($fg->{form_group_type} eq 'symbols') {
           #

@@ -350,7 +350,7 @@ abbr_ja 云 神護景[雲]
 [仁安]
 &
 ## <https://wiki.suikawiki.org/n/era%20name#section-%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E5%85%83%E5%8F%B7%E5%90%8D%E2%80%A8%E5%92%8C%E8%AA%9E%E8%A1%A8%E7%8F%BE>
-name(ja) 人[J:]の[J:]やすけき[J:]
+name(ja) 人[J:]の[]やすけき[]
 
 [承安]
 &
@@ -864,11 +864,21 @@ tag 追号説のある元号
 AD1884 = 1
 
 def[征露]
-name_ja 征露
+#y~1148
+sw 征露
+
 wref_ja 征露
+name_ja 征露
+name_kana せい ろ
+tag 私年号 (ウィキペディア)
+
 tag 日本国
 tag 日本人
 tag 日本の私年号
+tag 露領東清鉄道附属地
+tag 日本領満鉄附属地
+tag 大日本帝国台湾
+
 AD1904 = 1
 
 def[亀光]
@@ -1152,17 +1162,21 @@ def[霊波]
 # y~1735
 ## Source:
 sw 霊波暦
-#
+
+AD1915 = 1
+
+tag 日本国
+tag 日本人
+tag 霊波之光
+
 name_ja 霊波
 name_kana れい は
 &
 name_ja 霊波暦
+&
 acronym(ja_latin) R
 expanded(ja_latin) [R]eiha
-AD1915 = 1
-tag 日本国
-tag 日本人
-tag 霊波之光
+
 u 86
 u 43
 u 106-5-8

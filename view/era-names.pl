@@ -53,6 +53,14 @@ print q{<!DOCTYPE html>
   table.all > tbody > tr > td {
   }
 
+  .label-abbr:not([hidden]) {
+    display: block;
+  }
+  .label-abbr {
+    writing-mode: vertical-rl;
+    margin: auto;
+  }
+
   .form-sets {
     writing-mode: vertical-lr;
     border-collapse: collapse;
@@ -260,6 +268,10 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
       printf q{<th rowspan="%d">%d},
           0+@{[ map { (1,1) } @{$label->{form_groups}} ]},
           $_;
+      if (defined $label->{abbr}) {
+        printf q{ <code class=label-abbr>abbr:%s</code>},
+            htescape $label->{abbr};
+      }
 
       my $names = {};
       my $refnames = {};
@@ -271,10 +283,6 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
 
           printf q{<td><p>form group [<code>%s</code>]},
               htescape $rep->{form_group_type};
-          if (defined $rep->{abbr}) {
-            printf q{ (<code>abbr:%s</code>)},
-                htescape $rep->{abbr};
-          }
           if (keys %{$rep->{is_preferred} or {}}) { # type:compound
             printf q{ (%s)},
                 join ', ', map { "<code>$_</code>" } map { htescape $_ } sort { $a cmp $b } keys %{$rep->{is_preferred} or {}};
