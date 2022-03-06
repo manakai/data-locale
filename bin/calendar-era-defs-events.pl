@@ -43,8 +43,6 @@ my $EraLabels;
     }
     delete $era->{_LABELS};
     delete $era->{_LPROPS};
-    #XXX
-    $era->{label_sets} = $in_era->{label_sets};
   }
 }
 
