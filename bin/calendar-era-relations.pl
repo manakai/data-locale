@@ -23,6 +23,13 @@ my $AlphasEras = {};
     $EraById->{$era->{id}} = $era;
   }
 }
+{
+  my $path = $RootPath->child ('local/calendar-era-labels-0.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $in_era (values %{$json->{eras}}) {
+    $EraById->{$in_era->{id}}->{label_sets} = $in_era->{label_sets};
+  }
+}
 my $Transitions;
 {
   my $path = $RootPath->child ('data/calendar/era-transitions.json');

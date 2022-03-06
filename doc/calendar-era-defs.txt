@@ -1,11 +1,8 @@
 Era data
 ~~~~~~~~
 
-The |data/calendar/era-defs.json| file contains various properties of
+The |data/calendar/era-*.json| files contain various properties of
 eras.
-
-The |data/calendar/era-transitions.json| file contains era to era
-transition events.
 
 * Structure of the era data file
 
@@ -29,10 +26,16 @@ It is a JSON object with following name/value pairs:
         The one-Han-character abbreviation of the era name, if any.
         Similar to |code7|.
 
+        This is a shorthand of the full label set data structure
+        contained in the |data/calendar/era-labels.json|.
+
       abbr_latn [string?]
 
         The one-Latin-letter abbreviation of the era name, if any.
         Similar to |code2|.
+
+        This is a shorthand of the full label set data structure
+        contained in the |data/calendar/era-labels.json|.
 
       cn_ryuukyuu_era [boolean]
 
@@ -115,60 +118,6 @@ It is a JSON object with following name/value pairs:
         The ID, which is a positive integer, uniquely assigned to the
         era.  Era codes #8 [CODES].
 
-      ja_readings [array?]
-
-        Japanese readings of the era, if known [JAREADINGS}.  The
-        value is a JSON array of the objects representing different
-        readings, with following name/value pairs:
-
-          kana [segmented-Hiragana?]
-
-            The primary Hiragana representation of the reading.  Same
-            as |kana_modern|, if any, or |kana_classic|, or the first
-            item of |kana_others|, if any.
-
-          kana_classic [segmented-Hiragana?]
-
-            The Hiragana representation of the reading, in the most
-            popular 歴史的仮名遣い spelling, if known.
-
-          kana_modern [segmented-Hiragana?]
-
-            The Hiragana representation of the reading, in the 現代仮
-            名遣い (Modern Kana Spelling) spelling, if known.
-
-          kana_others [array?]
-
-            A JSON array of the other known Hiragana representations
-            of the readings, i.e. 歴史的仮名遣い spelling variations,
-            in [segmented-Hiragana] format, if any.
-
-          latin [segmented-Romaji?]
-
-            The primary Latin representation (Roma-ji transliteration)
-            of the reading.  The commonly used Roma-ji representation,
-            if any, or |latin_macron|, if any.
-
-          latin_macron [segmented-Romaji?]
-
-            The Hepburn Romanization of the reading, using letters
-            with macrons, if |kana_modern| is known.
-
-          latin_normal [segmented-Romaji?]
-
-            The Hepburn Romanization of the reading, transliterating
-            |kana_modern| as is, if any.
-
-          latin_others [array?]
-
-            A JSON array of the other commonly used Latin
-            representations of the readings, in [segmented-Romaji]
-            format, if any.
-
-        For these fields, Hiragana and Romaji representations are
-        segmented at Kanji boundaries, unless they are native Japanese
-        words.
-
       jp_emperor_era [boolean]
 
         Whether the era is used to represent years where no 元号 was
@@ -215,16 +164,14 @@ It is a JSON object with following name/value pairs:
 
         The last year the era is used, if known.
 
-      label_sets
-
-        A JSON array of zero or more [label-set] objects, representing
-        the known labels for the era.
-
       name [string]
 
         A name of the era, which can be used as a default prefix of a
         year using the era in the official modern spelling of the
         country where the era is (or was) used, wherever possible.
+
+        This is a shorthand of the full label set data structure
+        contained in the |data/calendar/era-labels.json|.
 
       names [object]
 
@@ -236,22 +183,37 @@ It is a JSON object with following name/value pairs:
         |name_ko|, |name_tw|, |short_name|, |abbr|, and |abbr_latn| of
         the era.  (The |key| might not be a name.)
 
+        This is a shorthand of the full label set data structure
+        contained in the |data/calendar/era-labels.json|.
+
       name_cn [string?]
 
         The name of the era in Simplified Chinese, if known.
+
+        This is a shorthand of the full label set data structure
+        contained in the |data/calendar/era-labels.json|.
 
       name_en [string?]
 
         The name of the era in English, if known.
 
+        This is a shorthand of the full label set data structure
+        contained in the |data/calendar/era-labels.json|.
+
       name_ja [string?]
 
         The name of the era in contemporary Japanese, if known.
+
+        This is a shorthand of the full label set data structure
+        contained in the |data/calendar/era-labels.json|.
 
       name_kana [string?]
 
         The primary Japanese reading of the era, in Hiragana (without
         spaces), if known.  [JAREADINGS]
+
+        This is a shorthand of the full label set data structure
+        contained in the |data/calendar/era-labels.json|.
 
       name_kanas [object?]
 
@@ -259,9 +221,15 @@ It is a JSON object with following name/value pairs:
         classic, and other spellings.  Names are variants and values
         are [boolean] true values.  [JAREADINGS]
 
+        This is a shorthand of the full label set data structure
+        contained in the |data/calendar/era-labels.json|.
+
       name_ko [string?]
 
         The name of the era in Korean with Hangul, if known.
+
+        This is a shorthand of the full label set data structure
+        contained in the |data/calendar/era-labels.json|.
 
       name_latn [string?]
 
@@ -270,14 +238,23 @@ It is a JSON object with following name/value pairs:
         |name_kana|, using same rules as in |ja_readings|.
         [JAREADINGS]
 
+        This is a shorthand of the full label set data structure
+        contained in the |data/calendar/era-labels.json|.
+
       name_tw [string?]
 
         The name of the era in Traditional Chinese as written in
         Taiwan, if known.
 
+        This is a shorthand of the full label set data structure
+        contained in the |data/calendar/era-labels.json|.
+
       name_vi [string?]
 
         The name of the era in Vietnamese, if known.
+
+        This is a shorthand of the full label set data structure
+        contained in the |data/calendar/era-labels.json|.
 
       north_end_day [day?]
       north_end_year [year?]
@@ -699,6 +676,32 @@ XXX
 
 The order of the labels in label set's "labels" list is significant
 for the purpose of sorting labels.
+
+* Structure of the era label data file
+
+The |data/calendar/era-labels.json| file contains labels (names and
+short descriptions) for the eras.
+
+It is a JSON object with following name/value pair:
+
+  eras [object]
+
+    The names are the era ID [id] of era.  The values are JSON objects
+    describing the era with the corresponding era IDs, with following
+    name/value pair:
+
+      id [id]
+      key [key]
+      offset [integer?]
+
+        The ID, key, and AD offset of the era.  These fields are
+        copies of the fields with the same names in the
+        |data/calendar/era-defs.json| file.
+
+      label_sets
+
+        A JSON array of zero or more [label-set] objects, representing
+        the known labels for the era.
 
 * Structure of the era yomi source list file
 

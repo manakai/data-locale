@@ -27,6 +27,14 @@ my $EraNameToKey;
 {
   my $path = $RootPath->child ('data/calendar/era-defs.json');
   my $json = json_bytes2perl $path->slurp;
+  {
+    my $path = $RootPath->child ('local/calendar-era-labels-0.json');
+    my $in_json = json_bytes2perl $path->slurp;
+    for my $in_era (values %{$in_json->{eras}}) {
+      $json->{eras}->{$in_era->{key}}->{label_sets} = $in_era->{label_sets};
+    }
+  }
+
   $EraNameToKey = $json->{name_to_key}->{jp};
   for my $era (sort { $a->{id} <=> $b->{id} } values %{$json->{eras}}) {
     $EraKeyToEra->{$era->{key}} = $era;
@@ -146,7 +154,9 @@ my $EraNameToKey;
     $s =~ s/’/'/;
     return $s;
   } # to_hiragana
-sub xx ($) { my $s = to_hiragana shift; $s =~ s/ //g; return lc $s }
+
+  sub xx ($) { my $s = to_hiragana shift; $s =~ s/ //g; return lc $s }
+
 for my $era (values %{$Data->{eras}}) {
   my $all = {};
   for (keys %{$era->{yomis}}) {

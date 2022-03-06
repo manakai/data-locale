@@ -62,6 +62,13 @@ sub process_han ($) {
 {
   my $path = $RootPath->child ('data/calendar/era-defs.json');
   my $json = json_bytes2perl $path->slurp;
+  {
+    my $path = $RootPath->child ('local/calendar-era-labels-0.json');
+    my $in_json = json_bytes2perl $path->slurp;
+    for my $in_era (values %{$in_json->{eras}}) {
+      $json->{eras}->{$in_era->{key}}->{label_sets} = $in_era->{label_sets};
+    }
+  }
 
   for my $era (sort { $a->{id} <=> $b->{id} } values %{$json->{eras}}) {
     for my $ls (@{$era->{label_sets}}) {

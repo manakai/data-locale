@@ -24,14 +24,15 @@ See documentations for details in doc/ directory.
     data/calendar/kyuureki-*
     doc/calendar-era-defs.txt          Eras
       data/calendar/era-defs.json
-      data/calendar/era-transitions.json
-      view/era-names.html
+      data/calendar/era-labels.json
       data/calendar/era-yomi-sources.json
+      view/era-names.html
       view/era-yomis.html
       view/era-kanjions.html
+      data/calendar/era-codes.html
+      data/calendar/era-transitions.json
       data/calendar/jp-era-start-dates.html
       data/calendar/jp-era-year-maps.html
-      data/calendar/era-codes.html
       data/calendar/era-kodai-years.html
       data/calendar/era-kodai-starts.html
       data/calendar/era-relations.json

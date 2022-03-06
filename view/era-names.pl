@@ -14,6 +14,13 @@ my $Eras;
   my $json = json_bytes2perl $path->slurp;
   $Eras = $json;
 }
+{
+  my $path = $RootPath->child ('local/calendar-era-labels-0.json');
+  my $in_json = json_bytes2perl $path->slurp;
+  for my $in_era (values %{$in_json->{eras}}) {
+    $Eras->{eras}->{$in_era->{key}}->{label_sets} = $in_era->{label_sets};
+  }
+}
 print STDERR "\rLoaded!";
 
 sub pattern ($$) {
