@@ -92,7 +92,7 @@ name_kana てん とく
 # AD602 #陥落{#隋, #前李朝}
 
 wref_ko 티엔득
-name(kr) 티엔득
+name(kr_vi) 티엔|득
 name(vi) Thiên Đức
 #
 name(kr) 천덕
@@ -107,7 +107,7 @@ wref_ja 天徳 (前李朝)
 name_ja 大徳
 
 wref_ko 티엔득
-name(kr) 다이득
+name(kr_vi) 다이|득
 name(vi) Đại Đức
 #
 name(kr) 대덕
@@ -605,11 +605,11 @@ name(kr) 빈티엔
 
 
 def[越南民主共和]
-name(vi) Việt Nam Dân chủ Cộng hòa
+name(vi_latin) Việt Nam Dân chủ Cộng hòa
 name_ja 越南民主共和
 name_kana えつ なん みん しゅ きょう わ
 &
-name(vi) nam
+name(vi_latin) nam
 wref_ja 越南民主共和
 AD1945 = 1
 sw 越南民主共和
@@ -623,7 +623,7 @@ sw 共和社会主義越南
 #vi
 
 def[越南共和]
-name(vi) Việt Nam Cộng hòa
+name(vi_latin) Việt Nam Cộng hòa
 name_ja 越南共和
 name_kana えつ なん きょう わ
 wref_ja 越南共和

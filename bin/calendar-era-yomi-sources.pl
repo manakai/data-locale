@@ -9,7 +9,7 @@ my $RootPath = path (__FILE__)->parent->parent;
 
 sub from_ss ($) {
   my $ss = shift;
-  return join ' ', map {
+  my $t = join ' ', map {
     if (ref $_) {
       join '', @$_;
     } else {
@@ -19,7 +19,9 @@ sub from_ss ($) {
         '.-' => '-',
       }->{$_} // $_;
     }
-  } @$ss
+  } @$ss;
+  $t =~ s/   / /g;
+  return $t;
 } # ss
 
 my $EraKeyToEra = {};

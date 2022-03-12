@@ -99,7 +99,8 @@ sub read_form_set ($$$) {
         $new_offsets->{$offset + @$w} = 1;
       }
     }
-  } elsif ($fs->{form_set_type} eq 'alphabetical') {
+  } elsif ($fs->{form_set_type} eq 'alphabetical' or
+           $fs->{form_set_type} eq 'vietnamese') {
     for (
       grep { defined }
       $fs->{en}, $fs->{en_la},
@@ -309,7 +310,8 @@ sub match_form_set ($$$) {
         }
       }
     }
-  } elsif ($fs->{form_set_type} eq 'alphabetical') {
+  } elsif ($fs->{form_set_type} eq 'alphabetical' or
+           $fs->{form_set_type} eq 'vietnamese') {
     for (
       grep { defined }
       $fs->{en}, $fs->{en_la},
@@ -377,7 +379,8 @@ for my $era (@$Eras) {
       for my $fg (@{$label->{form_groups}}) {
         if ($fg->{form_group_type} eq 'han' or
             $fg->{form_group_type} eq 'kana' or
-            $fg->{form_group_type} eq 'ja') {
+            $fg->{form_group_type} eq 'ja' or
+            $fg->{form_group_type} eq 'vi') {
           for my $fs (@{$fg->{form_sets}}) {
             read_form_set $era, $fs, {0 => 1};
           }
@@ -393,7 +396,8 @@ for my $era (@$Eras) {
             my $offsetses = [];
             if ($cfg->{form_group_type} eq 'han' or
                 $cfg->{form_group_type} eq 'kana' or
-                $cfg->{form_group_type} eq 'ja') {
+                $cfg->{form_group_type} eq 'ja' or
+                $cfg->{form_group_type} eq 'vi') {
               for my $cfs (@{$cfg->{form_sets}}) {
                 my $q_offsets = {%$offsets};
                 read_form_set $era, $cfs, $q_offsets;
@@ -441,7 +445,8 @@ for my $era (@$Eras) {
       for my $fg (@{$label->{form_groups}}) {
         if ($fg->{form_group_type} eq 'han' or
             $fg->{form_group_type} eq 'kana' or
-            $fg->{form_group_type} eq 'ja') {
+            $fg->{form_group_type} eq 'ja' or
+            $fg->{form_group_type} eq 'vi') {
           for my $fs (@{$fg->{form_sets}}) {
             match_form_set $era, $fs, $matched->($label_abbr, ! 'partial');
           }
@@ -455,7 +460,8 @@ for my $era (@$Eras) {
           for my $cfg (@{$fg->{items}}) {
             if ($cfg->{form_group_type} eq 'han' or
                 $cfg->{form_group_type} eq 'kana' or
-                $cfg->{form_group_type} eq 'ja') {
+                $cfg->{form_group_type} eq 'ja' or
+                $cfg->{form_group_type} eq 'vi') {
               for my $cfs (@{$cfg->{form_sets}}) {
                 #
               }

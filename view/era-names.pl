@@ -110,6 +110,18 @@ print q{<!DOCTYPE html>
     border-inline-start: 1px #eee solid;
   }
 
+  .form-type-la td,
+  .form-type-en_la td,
+  .form-type-es td,
+  .form-type-it td,
+  .form-type-po td,
+  .form-type-en td,
+  .form-type-ja_latin_old td,
+  .form-type-ja_latin_old_wrongs td,
+  .form-type-vi td {
+    font-size: 140%;
+  }
+
   .form-set-type-yomi td,
   .form-set-type-kana .form-type-hiragana td,
   .form-set-type-kana .form-type-hiragana_modern td,
@@ -124,6 +136,48 @@ print q{<!DOCTYPE html>
   .form-set-type-kana .form-type-latin_macron td,
   .form-set-type-kana .form-type-latin_normal td,
   .form-set-type-kana .form-type-latin_others td,
+  .form-set-type-kana .form-type-ja_latin td,
+  .form-type-ja_latin_upper td,
+  .form-type-ja_latin_lower td,
+  .form-type-ja_latin_capital td,
+  .form-type-ja_latin_others td,
+  .form-type-ja_latin_old_upper td,
+  .form-type-ja_latin_old_lower td,
+  .form-type-ja_latin_old_capital td,
+  .form-type-en_upper td,
+  .form-type-en_lower td,
+  .form-type-en_capital td,
+  .form-type-en_upper_others td,
+  .form-type-en_lower_others td,
+  .form-type-en_capital_others td,
+  .form-type-la_upper td,
+  .form-type-la_lower td,
+  .form-type-la_capital td,
+  .form-type-en_la_upper td,
+  .form-type-en_la_lower td,
+  .form-type-en_la_capital td,
+  .form-type-en_la_roman td,
+  .form-type-en_la_roman_upper td,
+  .form-type-en_la_roman_lower td,
+  .form-type-en_la_roman_capital td,
+  .form-type-it_upper td,
+  .form-type-it_lower td,
+  .form-type-it_capital td,
+  .form-type-fr_upper td,
+  .form-type-fr_lower td,
+  .form-type-fr_capital td,
+  .form-type-es_upper td,
+  .form-type-es_lower td,
+  .form-type-es_capital td,
+  .form-type-po_upper td,
+  .form-type-po_lower td,
+  .form-type-po_capital td,
+  .form-type-vi_upper td,
+  .form-type-vi_lower td,
+  .form-type-vi_capital td,
+  .form-type-kr_fukui td,
+  .form-type-kp_fukui td,
+  .form-type-ko_fukui td,
   .form-set-type-manchu .form-type-moellendorff td,
   .form-set-type-manchu .form-type-abkai td,
   .form-set-type-manchu .form-type-xinmanhan td,
@@ -239,7 +293,7 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
   {
     my $patterns = {};
     printf qq{<td colspan=3 class=summary><p>\n};
-    for my $key (qw(name name_tw name_ja name_cn name_ko name_kana
+    for my $key (qw(name name_tw name_ja name_cn name_ko name_vi name_kana
                     name_en name_latn)) {
       printf q{ <code>%s</code>: },
           $key;
@@ -310,14 +364,7 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
                 mongolian => {mongolian => '0'},
               }->{$value->{form_set_type}} || {};
               my @kv = map {
-                if ({
-                  hiragana_others => 1,
-                  hiragana_wrongs => 1,
-                  han_others => 1,
-                  ja_latin_old_wrongs => 1,
-                  latin_others => 1,
-                  others => 1,
-                }->{$_}) {
+                if ($_ eq 'others' or /_others$/ or /_wrongs$/) {
                   my $key = $_;
                   map { [$key => $_] } @{$value->{$_}};
                 } else {
@@ -329,19 +376,26 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
               } map {
                 my $key = $kmap->{$_} // $_;
                 $key =~ s/normal/\x{0000}/g;
+                $key =~ s/_(lower|upper|capital)_others/_others_$1/g;
                 $key =~ s/other/\x{10FFFE}/g;
                 $key =~ s/wrong/\x{10FFFF}/g;
+                $key =~ s/_lower/\x{5000}/g;
+                $key =~ s/_capital/\x{5001}/g;
+                $key =~ s/_upper/\x{5002}/g;
+                $key =~ s/_roman/\x{6000}/g;
                 [$_, $key];
               } grep { not {
                 abbr_indexes => 1,
                 form_set_type => 1,
                 segment_length => 1,
                 is_preferred => 1,
+                origin_lang => 1,
               }->{$_} } keys %$value;
-              printf q{<tr class="form-type-%s"><th rowspan=%d class=form-set-header>form set <code>%s</code>},
+              printf q{<tr class="form-type-%s"><th rowspan=%d class=form-set-header>form set <code>%s</code>%s},
                   $kv[0]->[0],
                   @kv+(defined $short_patterns ? 1 : 0),
-                  $value->{form_set_type};
+                  $value->{form_set_type},
+                  (defined $value->{origin_lang} ? sprintf ' [<code>%s</code>]', htescape $value->{origin_lang} : '');
               for my $kv (@kv) {
                 my $v = $kv->[1];
                 printf qq{<tr class="form-type-%s">\n},

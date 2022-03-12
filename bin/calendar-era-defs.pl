@@ -5,6 +5,7 @@ use Path::Tiny;
 use lib glob path (__FILE__)->parent->child ('modules/*/lib');
 use JSON::PS;
 use Web::Encoding;
+use Web::Encoding::Normalization qw(to_nfc);
 use Web::URL::Encoding;
 binmode STDERR, qw(:encoding(utf-8));
 
@@ -354,13 +355,29 @@ for my $path (
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name', type => 'han', lang => $1, value => $3,
            preferred => $2};
-    } elsif (defined $key and /^name\((en|la|en_la|it|fr|es|po|vi|ja_latin|ja_latin_old)\)(!|)\s+([\p{Latn}\s%0-9A-F'-]+)$/) {
+    } elsif (defined $key and /^name\((en|la|en_la|it|fr|es|po|ja_latin|ja_latin_old|vi_latin)\)(!|)\s+([\p{Latn}\s%0-9A-F'-]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'alphabetical',
            lang => $1,
            preferred => $2,
            value => percent_decode_c $3};
+    } elsif (defined $key and /^name\((vi)\)(!|)\s+([\p{Latn}\s%0-9A-F]+)$/) {
+      my $lang = $1;
+      my $preferred = $2;
+      my $value = percent_decode_c $3;
+      my $v = [split /\s+/, $value, -1];
+      my $w = [map { to_nfc ucfirst lc $_ } grep { length } @$v];
+      unless ((join ' ', @$v) eq (join ' ', @$w)) {
+        die "Bad |name(vi)| value: |$value|";
+      }
+      $value = join ' ', @$v;
+      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
+          {kind => 'name',
+           type => 'alphabetical',
+           lang => $lang,
+           preferred => $preferred,
+           value => $value};
     } elsif (defined $key and /^name\((ja|ja_old)\)(!|)\s+([\p{Hiragana}\p{Katakana}\x{30FC}\N{KATAKANA MIDDLE DOT}\x{1B001}-\x{1B11F}\x{3001}\p{Han}\p{Latn}\[\]|:!,()\p{Geometric Shapes}\s]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
@@ -375,7 +392,7 @@ for my $path (
            lang => $1,
            preferred => $2,
            value => $3};
-    } elsif (defined $key and /^name\((ko|kr|kp)\)(!|)\s+([\p{Hang}]+)$/) {
+    } elsif (defined $key and /^name\((ko|kr|kp|kr_vi|kr_ja)\)(!|)\s+([\p{Hang}|]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'korean',

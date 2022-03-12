@@ -34,7 +34,7 @@ name(ja_latin_old) GOX IRAI
 &&
 name_ja! 西暦
 name_kana せい れき
-name(vi) Tây lịch
+name(vi_latin) Tây lịch
 &
 name_ja 西紀
 name_kana せい き
