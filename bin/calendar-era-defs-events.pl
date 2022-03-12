@@ -14,6 +14,7 @@ my $RecentYears = 10;
 
 my $EraTransitions;
 my $EraTags;
+my $EraLabels;
 {
   my $path = $RootPath->child ('local/era-transitions-0.json');
   my $json = json_bytes2perl $path->slurp;
@@ -27,6 +28,21 @@ my $EraTags;
     for my $tag_name (keys %{$json->{_ERA_TAGS}->{$key}}) {
       $EraTags->{$key}->{$tag_name} = 1;
     }
+  }
+}
+{
+  my $path = $RootPath->child ('local/calendar-era-labels-0.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $key (keys %{$json->{_SHORTHANDS}}) {
+    $Data->{$key} = $json->{_SHORTHANDS}->{$key};
+  }
+  for my $in_era (values %{$json->{eras}}) {
+    my $era = $Data->{eras}->{$in_era->{key}};
+    for my $key (keys %{$in_era->{_SHORTHANDS}}) {
+      $era->{$key} = $in_era->{_SHORTHANDS}->{$key};
+    }
+    delete $era->{_LABELS};
+    delete $era->{_LPROPS};
   }
 }
 

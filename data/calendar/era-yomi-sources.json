@@ -1682,13 +1682,13 @@
          "start_year" : 578,
          "yomis" : {
             "6100" : [
-               "せんせい"
+               "せん せい"
             ],
             "6102" : [
-               "sensei"
+               "sen sei"
             ],
             "6103" : [
-               "sensei"
+               "sen sei"
             ]
          }
       },
@@ -4967,9 +4967,6 @@
             "6104" : [
                "ten jyu",
                "ten zyu"
-            ],
-            "6107" : [
-               "Tenju"
             ]
          }
       },
@@ -7952,8 +7949,7 @@
                "ken toku"
             ],
             "6107" : [
-               "Guentocu",
-               "gentoku"
+               "Guentocu"
             ]
          }
       },
@@ -17085,9 +17081,6 @@
             ],
             "6104" : [
                "か きやう"
-            ],
-            "6107" : [
-               "Kakei"
             ]
          }
       },
@@ -19428,9 +19421,6 @@
             ],
             "6104" : [
                "ten na"
-            ],
-            "6107" : [
-               "Tenwa"
             ]
          }
       },
@@ -22067,8 +22057,7 @@
                "bun sei"
             ],
             "6107" : [
-               "Boen sei",
-               "Bunsei"
+               "Boen sei"
             ]
          }
       },
@@ -26185,9 +26174,6 @@
             ],
             "6103" : [
                "an sei"
-            ],
-            "6107" : [
-               "Ansei"
             ]
          }
       },
@@ -27596,7 +27582,7 @@
          "key" : "人類紀元",
          "missing_yomis" : [
          ],
-         "name" : "Holocene calendar",
+         "name" : "全新世紀年",
          "start_year" : null,
          "yomis" : {
             "6100" : [
@@ -30256,7 +30242,7 @@
          "key" : "AD",
          "missing_yomis" : [
          ],
-         "name" : "AD",
+         "name" : "耶蘇紀元",
          "start_year" : 1887,
          "yomis" : {
             "6100" : [
@@ -30279,7 +30265,7 @@
                "gaku reki"
             ],
             "6107" : [
-               "GOX   IRAI"
+               "GOX IRAI"
             ]
          }
       },
@@ -36796,13 +36782,13 @@
          "start_year" : 397,
          "yomis" : {
             "6100" : [
-               "えんへい"
+               "えん へい"
             ],
             "6102" : [
-               "enhei"
+               "en hei"
             ],
             "6103" : [
-               "enhei"
+               "en hei"
             ]
          }
       },
@@ -37032,7 +37018,6 @@
                "bun ki"
             ],
             "6107" : [
-               "Bunki",
                "Bunqui"
             ]
          }
@@ -40074,16 +40059,17 @@
          "start_year" : 386,
          "yomis" : {
             "6100" : [
-               "けんめい"
+               "けん めい"
             ],
             "6102" : [
-               "kenmei"
+               "ken mei"
             ],
             "6103" : [
-               "kenmei"
+               "ken mei"
             ],
             "6104" : [
-               "kemmei"
+               "kem ' mei",
+               "kem mei"
             ]
          }
       },
@@ -43364,9 +43350,6 @@
             ],
             "6103" : [
                "gen roku"
-            ],
-            "6107" : [
-               "Genroku"
             ]
          }
       },
@@ -48942,7 +48925,6 @@
                "gen ki"
             ],
             "6107" : [
-               "Genki",
                "Guenqui"
             ]
          }
@@ -56662,8 +56644,7 @@
                "bun roku"
             ],
             "6107" : [
-               "Bunrocu",
-               "Bunroku"
+               "Bunrocu"
             ]
          }
       },

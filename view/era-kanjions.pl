@@ -10,7 +10,7 @@ binmode STDOUT, qw(:encoding(utf-8));
 
 my $Data;
 {
-  my $path = $RootPath->child ('local/calendar-era-defs-0.json');
+  my $path = $RootPath->child ('local/calendar-era-labels-0.json');
   $Data = json_bytes2perl $path->slurp;
 }
 
@@ -189,7 +189,7 @@ for my $era (sort {
       $era->{id},
       $era->{id},
       $era->{key},
-      $era->{name};
+      $era->{_SHORTHANDS}->{name};
 
   print q{<td>};
   for my $fg_data (@{$era->{_FORM_GROUP_ONS}}) {

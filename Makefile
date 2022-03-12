@@ -64,6 +64,7 @@ data-main: \
     data/calendar/era-transitions.json \
     data/calendar/era-stats.json \
     data/calendar/era-relations.json \
+    data/calendar/era-labels.json \
     data/calendar/dts.json \
     data/calendar/serialized/dtsjp1.txt \
     data/calendar/serialized/dtsjp2.txt \
@@ -199,35 +200,42 @@ local/calendar-era-yomis.json: bin/calendar-era-yomis.pl \
     local/era-yomi-list.json
 	DATA=1 $(PERL) $< > $@
 data/calendar/era-yomi-sources.json: bin/calendar-era-yomi-sources.pl \
-    data/calendar/era-defs.json local/calendar-era-yomis.json
+    data/calendar/era-defs.json local/calendar-era-yomis.json \
+    local/calendar-era-labels-0.json
 	$(PERL) $< > $@
+local/calendar-era-labels-0.json: bin/calendar-era-labels.pl \
+    local/calendar-era-defs-0.json \
+    local/cluster-root.json \
+    local/char-leaders.jsonl \
+    local/char-cluster.jsonl \
+    intermediate/kanjion-binran.txt \
+    src/era-codes-14.txt \
+    src/era-codes-15.txt \
+    src/era-codes-24.txt \
+    local/cldr-core-json/ja.json \
+    local/number-values.json
+	$(PERL) $< > $@
+data/calendar/era-labels.json: bin/cleanup.pl \
+    local/calendar-era-labels-0.json
+	$(PERL) $< local/calendar-era-labels-0.json > $@
 
 data/calendar/era-defs.json: bin/calendar-era-defs-events.pl \
     local/calendar-era-defs-0.json \
     local/era-transitions-0.json \
     local/calendar-era-relations-0.json \
+    local/calendar-era-labels-0.json \
     data/tags.json
 	$(PERL) $< > $@
-
 local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
     local/era-defs-jp.json local/era-defs-jp-emperor.json \
     src/wp-jp-eras.json \
-    local/cluster-root.json \
-    local/char-leaders.jsonl \
-    local/char-cluster.jsonl \
-    intermediate/kanjion-binran.txt \
     local/era-defs-jp-wp-en.json \
     src/era-data*.txt \
     src/era-variants.txt \
     intermediate/wp-cn-eras.json \
-    local/number-values.json \
     src/era-viet.txt src/era-korea.txt \
     data/numbers/kanshi.json \
     intermediate/era-ids.json \
-    src/era-codes-14.txt \
-    src/era-codes-15.txt \
-    src/era-codes-24.txt \
-    local/cldr-core-json/ja.json \
     local/era-yomi-list.json \
     local/era-date-list.json \
     local/cn-ryuukyuu-era-list.json \
@@ -235,6 +243,7 @@ local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
     src/era-ids-1.txt
 	$(PERL) $< > $@
 #intermediate/era-ids.json: data/calendar/era-defs.json
+
 data/calendar/era-codes.html: bin/calendar-era-codes.pl \
     data/calendar/era-defs.json
 	$(PERL) $< > $@
@@ -248,7 +257,8 @@ data/calendar/era-transitions.json: bin/calendar-era-transitions-1.pl \
 	$(PERL) $< > $@
 
 local/calendar-era-relations-0.json: bin/calendar-era-relations.pl \
-    local/calendar-era-defs-0.json
+    local/calendar-era-defs-0.json \
+    local/calendar-era-labels-0.json
 	$(PERL) $< > $@
 local/calendar-era-relations-1.json: bin/calendar-era-relations-1.pl \
     data/calendar/era-defs.json
@@ -260,7 +270,8 @@ data/calendar/era-relations.json: bin/cleanup.pl \
 data/calendar/era-stats.json: bin/calendar-era-stats.pl \
     local/cluster-root.json \
     local/char-leaders.jsonl \
-    data/calendar/era-defs.json
+    data/calendar/era-defs.json \
+    local/calendar-era-labels-0.json
 	$(PERL) $< > $@
 
 local/chars-maps.json:

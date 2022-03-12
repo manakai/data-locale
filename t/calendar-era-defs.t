@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "1..252"
+echo "1..248"
 basedir=`dirname $0`/..
 jq=$basedir/local/bin/jq
 
@@ -247,45 +247,41 @@ test 216 '.eras["永徳"].name_latn == "Eitoku"'
 
 test 217 '.eras["昭和"].name_kana == "しょうわ"'
 test 218 '.eras["昭和"].name_latn == "Showa"'
-test 219 '.eras["昭和"].label_sets[0].labels[0].form_groups[0].form_sets[1].hiragana[0] == "しょう"'
-test 220 '.eras["昭和"].label_sets[0].labels[0].form_groups[0].form_sets[1].hiragana_modern[1] == "わ"'
-test 221 '.eras["昭和"].label_sets[0].labels[0].form_groups[0].form_sets[1].hiragana_classic[0] == "せう"'
-test 222 '.eras["昭和"].label_sets[0].labels[0].form_groups[0].form_sets[1].latin[0] == "sho"'
 
-test 223 '.eras["宝亀"].end_day.kyuureki == "0780-12-30"'
-test 224 '.eras["宝亀"].actual_end_day.kyuureki == "0781-01-01"'
-test 225 '.eras["宝亀"].end_year == 780'
+test 219 '.eras["宝亀"].end_day.kyuureki == "0780-12-30"'
+test 220 '.eras["宝亀"].actual_end_day.kyuureki == "0781-01-01"'
+test 221 '.eras["宝亀"].end_year == 780'
 
-test 226 '.eras["嘉暦"].start_day.kyuureki == "1326-04-26"'
-test 227 '.eras["嘉暦"].end_day.kyuureki == "1329-08-28"'
-test 228 '.eras["嘉暦"].actual_end_day.kyuureki == "1329-08-29"'
-test 229 '.eras["嘉暦"].north_start_day | not'
-test 230 '.eras["嘉暦"].south_start_day | not'
-test 231 '.eras["嘉暦"].north_end_day | not'
-test 232 '.eras["嘉暦"].south_end_day | not'
+test 222 '.eras["嘉暦"].start_day.kyuureki == "1326-04-26"'
+test 223 '.eras["嘉暦"].end_day.kyuureki == "1329-08-28"'
+test 224 '.eras["嘉暦"].actual_end_day.kyuureki == "1329-08-29"'
+test 225 '.eras["嘉暦"].north_start_day | not'
+test 226 '.eras["嘉暦"].south_start_day | not'
+test 227 '.eras["嘉暦"].north_end_day | not'
+test 228 '.eras["嘉暦"].south_end_day | not'
 
-test 233 '.eras["正慶"].north_start_day.kyuureki == "1332-04-28"'
-test 234 '.eras["正慶"].north_end_day.kyuureki == "1333-05-24"'
-test 235 '.eras["正慶"].north_actual_end_day.kyuureki == "1333-05-25"'
-test 236 '.eras["正慶"].start_day.kyuureki == "1332-04-28"'
-test 237 '.eras["正慶"].end_day.kyuureki == "1333-05-24"'
-test 238 '.eras["正慶"].south_start_day | not'
-test 239 '.eras["正慶"].south_end_day | not'
+test 229 '.eras["正慶"].north_start_day.kyuureki == "1332-04-28"'
+test 230 '.eras["正慶"].north_end_day.kyuureki == "1333-05-24"'
+test 231 '.eras["正慶"].north_actual_end_day.kyuureki == "1333-05-25"'
+test 232 '.eras["正慶"].start_day.kyuureki == "1332-04-28"'
+test 233 '.eras["正慶"].end_day.kyuureki == "1333-05-24"'
+test 234 '.eras["正慶"].south_start_day | not'
+test 235 '.eras["正慶"].south_end_day | not'
 
-test 240 '.eras["明徳"].end_day.kyuureki == "1394-07-04"'
+test 236 '.eras["明徳"].end_day.kyuureki == "1394-07-04"'
 
-test 241 '.eras["応永"].start_day.kyuureki == "1394-07-05"'
-test 242 '.eras["応永"].end_day.kyuureki == "1428-04-26"'
-test 243 '.eras["応永"].actual_end_day.kyuureki == "1428-04-27"'
-test 244 '.eras["応永"].north_start_day | not'
-test 245 '.eras["応永"].south_start_day | not'
-test 246 '.eras["応永"].north_end_day | not'
-test 247 '.eras["応永"].south_end_day | not'
+test 237 '.eras["応永"].start_day.kyuureki == "1394-07-05"'
+test 238 '.eras["応永"].end_day.kyuureki == "1428-04-26"'
+test 239 '.eras["応永"].actual_end_day.kyuureki == "1428-04-27"'
+test 240 '.eras["応永"].north_start_day | not'
+test 241 '.eras["応永"].south_start_day | not'
+test 242 '.eras["応永"].north_end_day | not'
+test 243 '.eras["応永"].south_end_day | not'
 
-test 248 '.eras["元弘"].north_official_start_day.kyuureki == "1333-05-25"'
-test 249 '.eras["元弘"].north_official_start_day.kyuureki_era == "元弘3-05-25"'
-test 250 '.eras["元弘"].south_official_start_day.kyuureki == "1331-01-01"'
-test 251 '.eras["明徳"].north_official_start_day.kyuureki == "1390-01-01"'
-test 252 '.eras["明徳"].south_official_start_day.kyuureki == "1392-10'"'"'-05"'
+test 244 '.eras["元弘"].north_official_start_day.kyuureki == "1333-05-25"'
+test 245 '.eras["元弘"].north_official_start_day.kyuureki_era == "元弘3-05-25"'
+test 246 '.eras["元弘"].south_official_start_day.kyuureki == "1331-01-01"'
+test 247 '.eras["明徳"].north_official_start_day.kyuureki == "1390-01-01"'
+test 248 '.eras["明徳"].south_official_start_day.kyuureki == "1392-10'"'"'-05"'
 
 ## License: Public Domain.

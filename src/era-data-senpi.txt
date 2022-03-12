@@ -996,7 +996,7 @@ s+
 
 wref_ja 建明 (西燕)
 name_ja 建明
-name_kana けんめい
+name_kana けん めい
 #386-3
 
 ## <https://ja.wikipedia.org/wiki/%E6%85%95%E5%AE%B9%E5%87%B1>
@@ -1770,7 +1770,7 @@ tag 慕容麟
 
 wref_ja 延平 (後燕)
 name_ja 延平
-name_kana えんへい
+name_kana えん へい
 #397-7 - 397-10
 #中国歴代年号考
 #397 "元号を除き、范陽王慕容徳の下に投降"
@@ -6851,7 +6851,7 @@ s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B722>"宣政"
 
 wref_ja 宣政
 name_ja 宣政
-name_kana せんせい
+name_kana せん せい
 #578-3 - 578-12
 
 ## <https://ja.wikipedia.org/wiki/%E6%AD%A6%E5%B8%9D_(%E5%8C%97%E5%91%A8)>
