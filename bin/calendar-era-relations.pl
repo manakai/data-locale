@@ -15,6 +15,7 @@ my $YomisEras = {};
 my $KrsEras = {};
 my $AlphasEras = {};
 
+print STDERR "Loading...";
 {
   my $path = $RootPath->child ('local/calendar-era-defs-0.json');
   my $json = json_bytes2perl $path->slurp;
@@ -36,6 +37,7 @@ my $Transitions;
   my $json = json_bytes2perl $path->slurp;
   $Transitions = $json->{transitions};
 }
+print STDERR "done\n";
 
 sub read_form_set ($$$) {
   my ($era, $fs, $offsets) = @_;

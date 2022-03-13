@@ -3519,6 +3519,8 @@ name_man %E1%A0%B0%E1%A1%A0%E1%A0%B7%E1%A1%9D %E1%A1%A5%E1%A0%A0%E1%A0%A8,sure h
 %tag   name_ja 清
 %tag   period of 中国
 #XXX prefix 大清
+## <https://www.loc.gov/catdir/cpso/romanization/chinese.pdf#page=8>
+#XXX name(zh_alalc) Qing
 
 %tag tag
 %tag   name_ja 清の公年号
@@ -4131,7 +4133,7 @@ name_ja 光緒
 name 光緖
 name_tw 光緒
 name_cn 光绪
-#光&swc273;
+#XXXname 光&swc273;
 
 tag 一世一元
 tag 君主名の元号
@@ -4191,13 +4193,16 @@ tag マカオ
 #->AD 1899-11-16 広州湾租借地 中仏互訂広州湾租界条約 signed
 #->AD 1900-02-19 広州湾租借地 中仏互訂広州湾租界条約
 
+## <https://www.loc.gov/catdir/cpso/romanization/chinese.pdf#page=8>
+name(zh_alalc) Guang|xu
+
 ## [103]
 wref_ja 光緒
 name_ja 光緒
 name 光緖
 name_kana こう しょ
 name_kana こう ちょ
-#pinyin Gu%C4%81ngx%C3%B9
+pinyin Gu%C4%81ng|x%C3%B9
 &
 name_man %E1%A0%AA%E1%A0%A0%E1%A1%A9%E1%A0%A0%E1%A0%B7%E1%A0%A0%E1%A0%A9%E1%A1%A4%E1%A0%A0 %E1%A1%A9%E1%A0%A3%E1%A0%B7%E1%A0%A3,badarangga doro
 
@@ -4523,6 +4528,9 @@ tag 君主名の元号
     #中国共産党 #グレゴリオ暦 #日ソ戦争
 
 #name_official 康德
+
+## <https://www.loc.gov/catdir/cpso/romanization/chinese.pdf#page=8>
+name(zh_alalc) Kang|de
 
 ## [102]
 name_tw 康德

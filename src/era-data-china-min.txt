@@ -1294,6 +1294,9 @@ wref_ja 嘉靖
 ## [112]
 #name_kana か せい
 
+## <https://www.loc.gov/catdir/cpso/romanization/chinese.pdf#page=8>
+name(zh_alalc) Jia|jing
+
 tag 再開元号の中断中
 
 

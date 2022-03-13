@@ -3186,6 +3186,10 @@ name_ja 中華民国
 name_tw 民國
 name_ja 民国
 name_cn 民国
+
+## <https://www.loc.gov/catdir/cpso/romanization/chinese.pdf#page=8>
+name(zh_alalc) Min|guo
+
 &
 name_tw 大中華民國
 &

@@ -11,7 +11,7 @@ my $RootPath = path (__FILE__)->parent->parent;
 
 my $Eras;
 my $EraById;
-warn "Loading...\n";
+print STDERR "Loading...";
 {
   my $path = $RootPath->child ('local/calendar-era-defs-0.json');
   my $json = json_bytes2perl $path->slurp;
@@ -20,7 +20,7 @@ warn "Loading...\n";
     $EraById->{$era->{id}} = $era;
   }
 }
-warn "Loaded\n";
+print STDERR "done\n";
 
 my $DataByKey = {};
 for my $in_era (@$Eras) {
@@ -96,25 +96,25 @@ for my $in_era (@$Eras) {
     }
   } # for_segment
 
-  sub segmented_string_length ($) {
+  sub segmented_text_length ($) {
     my $ss = shift;
     my $i = 0;
     for_segment {
       $i++;
     } $ss;
     return $i;
-  } # segmented_string_length
+  } # segmented_text_length
   
-  sub equal_segmented_string ($$) {
+  sub equal_segmented_text ($$) {
     my ($ss1, $ss2) = @_;
     return (
       (serialize_segmented_text_for_key $ss1)
           eq
       (serialize_segmented_text_for_key $ss2)
     );
-  } # equal_segmented_string
+  } # equal_segmented_text
 
-  sub transform_segmented_string ($$) {
+  sub transform_segmented_text ($$) {
     my ($ss, $code) = @_;
     
     my $tt = [];
@@ -135,10 +135,13 @@ for my $in_era (@$Eras) {
     }
     
     return $tt;
-  } # transform_segmented_string
+  } # transform_segmented_text
 
-  sub transform_segmented_string_first ($$) {
-    my ($ss, $code) = @_;
+  sub transform_segmented_text_first ($$$) {
+    my ($ss, $code, $lang) = @_;
+
+    my $First = {'..' => 1, '._' => 1};
+    $First->{'.-'} = 1 unless $lang eq 'nan_poj';
     
     my $tt = [];
     my $is_first = 1;
@@ -159,7 +162,7 @@ for my $in_era (@$Eras) {
         } @$_];
       } elsif (/^\./) {
         push @$tt, $_;
-        if ($_ eq '..' or $_ eq '._' or $_ eq '.-') {
+        if ($First->{$_}) {
           $is_first = 1;
         }
       } else {
@@ -174,7 +177,7 @@ for my $in_era (@$Eras) {
     }
     
     return $tt;
-  } # transform_segmented_string_first
+  } # transform_segmented_text_first
 }
 
 my $LeaderKeys = [];
@@ -748,17 +751,17 @@ sub compute_form_group_ons ($) {
                   'ja_latin', 'ja_latin_old') {
       if (defined $fs->{$lang}) {
         my $ss = $fs->{$lang};
-        $fs->{$lang . '_lower'} //= transform_segmented_string $ss, sub { to_lc $_[0] };
-        $fs->{$lang . '_upper'} //= transform_segmented_string $ss, sub { to_uc $_[0] };
-        $fs->{$lang . '_capital'} //= transform_segmented_string_first $ss, sub { to_uc $_[0] };
+        $fs->{$lang . '_lower'} //= transform_segmented_text $ss, sub { to_lc $_[0] };
+        $fs->{$lang . '_upper'} //= transform_segmented_text $ss, sub { to_uc $_[0] };
+        $fs->{$lang . '_capital'} //= transform_segmented_text_first $ss, sub { to_uc $_[0] }, $lang;
       } elsif (defined $fs->{$lang . '_lower'}) {
         my $ss = $fs->{$lang . '_lower'};
-        $fs->{$lang . '_capital'} //= transform_segmented_string_first $ss, sub { to_uc $_[0] };
+        $fs->{$lang . '_capital'} //= transform_segmented_text_first $ss, sub { to_uc $_[0] }, $lang;
         $fs->{$lang} //= $fs->{$lang . '_capital'};
-        $fs->{$lang . '_upper'} //= transform_segmented_string $ss, sub { to_uc $_[0] };
+        $fs->{$lang . '_upper'} //= transform_segmented_text $ss, sub { to_uc $_[0] };
       }
       if ($lang eq 'ja_latin_old') {
-        if (equal_segmented_string $fs->{$lang}, $fs->{$lang . '_capital'}) {
+        if (equal_segmented_text $fs->{$lang}, $fs->{$lang . '_capital'}) {
           #
         } else {
           delete $fs->{$lang . '_capital'};
@@ -769,19 +772,19 @@ sub compute_form_group_ons ($) {
       if (@{$fs->{$lang . '_others'} or []}) {
         for my $ss (@{$fs->{$lang . '_others'} or []}) {
           push @{$fs->{$lang . '_lower_others'} ||= []},
-              transform_segmented_string $ss, sub { to_lc $_[0] };
+              transform_segmented_text $ss, sub { to_lc $_[0] };
           push @{$fs->{$lang . '_upper_others'} ||= []},
-              transform_segmented_string $ss, sub { to_uc $_[0] };
+              transform_segmented_text $ss, sub { to_uc $_[0] };
           push @{$fs->{$lang . '_capital_others'} ||= []},
-              transform_segmented_string_first $ss, sub { to_uc $_[0] };
+              transform_segmented_text_first $ss, sub { to_uc $_[0] }, $lang;
         }
       } elsif (@{$fs->{$lang . '_lower_others'} or []}) {
         for my $ss (@{$fs->{$lang . '_lower_others'} or []}) {
           push @{$fs->{$lang . '_capital_others'} ||= []},
-              my $cap = transform_segmented_string_first $ss, sub { to_uc $_[0] };
+              my $cap = transform_segmented_text_first $ss, sub { to_uc $_[0] }, $lang;
           push @{$fs->{$lang . '_others'} ||= []}, $cap;
           push @{$fs->{$lang . '_upper_others'} ||= []},
-              transform_segmented_string $ss, sub { to_uc $_[0] };
+              transform_segmented_text $ss, sub { to_uc $_[0] };
         }
       }
     } # $lang
@@ -1139,7 +1142,8 @@ sub compute_form_group_ons ($) {
               }
               
               if (($lang eq 'vi' or $lang eq 'vi_latin' or
-                   $lang eq 'nan' or $lang eq 'pinyin') and
+                   $lang eq 'nan' or $lang eq 'pinyin' or
+                   $lang eq 'zh_alalc') and
                   not defined $rep->{abbr}) {
                 if ($fg->{form_group_type} eq 'han') {
                   $value = $fg;
@@ -1193,7 +1197,8 @@ sub compute_form_group_ons ($) {
               $value->{form_group_type} = 'vi' if not $value_added;
               $v->{form_set_type} = 'vietnamese';
               $lang = 'vi';
-            } elsif ($lang eq 'nan' or $lang eq 'pinyin') {
+            } elsif ($lang eq 'nan' or $lang eq 'pinyin' or
+                     $lang eq 'zh_alalc') {
               $value->{form_group_type} = 'han' if not $value_added;
               $v->{form_set_type} = 'chinese';
               $lang = 'nan_poj' if $lang eq 'nan';
@@ -1260,6 +1265,7 @@ sub compute_form_group_ons ($) {
             if ($v->{form_set_type} eq 'alphabetical' and
                 @{$value->{form_sets} || []} and
                 $value->{form_sets}->[-1]->{form_set_type} eq 'alphabetical' and
+                not defined $value->{form_sets}->[-1]->{origin_lang} and
                 ((not defined $abbr_indexes and
                   not defined $value->{form_sets}->[-1]->{abbr_indexes}) or
                   (defined $abbr_indexes and
@@ -1271,7 +1277,8 @@ sub compute_form_group_ons ($) {
               $v = $value->{form_sets}->[-1];
               $v_added = 1;
             } elsif ($v->{form_set_type} eq 'chinese' and
-                     ($lang eq 'nan_poj' or $lang eq 'pinyin')) {
+                     ($lang eq 'nan_poj' or $lang eq 'pinyin' or
+                      $lang eq 'alalc')) {
               for my $fs (@{$value->{form_sets}}) {
                 if ($fs->{form_set_type} eq 'chinese') {
                   $v = $fs;
@@ -1578,9 +1585,11 @@ sub compute_form_group_ons ($) {
                       $era->{_SHORTHANDS}->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} = serialize_segmented_text $value->{$lang};
                       $jp_preferred = 1 if $lang eq 'jp';
                       $era->{_SHORTHANDS}->{name} //= $era->{_SHORTHANDS}->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang};
+                      $era->{_SHORTHANDS}->{name} = $era->{_SHORTHANDS}->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang}
+                          if $jp_preferred;
                     }
-                  if (defined $value->{$lang} and
-                      defined $text->{abbr} and $text->{abbr} eq 'single') {
+                    if (defined $value->{$lang} and
+                        defined $text->{abbr} and $text->{abbr} eq 'single') {
                     $era->{_SHORTHANDS}->{abbr} //= serialize_segmented_text $value->{$lang};
                   }
                     $era->{_SHORTHANDS}->{names}->{serialize_segmented_text $value->{$lang}} = 1
@@ -1641,6 +1650,8 @@ sub compute_form_group_ons ($) {
                       not defined $era->{_SHORTHANDS}->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang}) {
                     $era->{_SHORTHANDS}->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} = serialize_segmented_text $fs->{$lang};
                     $era->{_SHORTHANDS}->{name} //= $era->{_SHORTHANDS}->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang};
+                    $era->{_SHORTHANDS}->{name} = $era->{_SHORTHANDS}->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang}
+                        if ($fs->{is_preferred} or {})->{$lang};
                   }
                 } # $lang
                 for my $lang (@$LeaderKeys) {
@@ -1720,13 +1731,15 @@ sub compute_form_group_ons ($) {
               }
             } # $fs
             my $fst = {
-              'chinese' . $; . '' => 'han_0',
-              'yomi' . $; . '' => 'han_1',
-              'vietnamese' . $; . '' => 'han_2',
-              'korean' . $; . '' => 'han_3',
-              'korean' . $; . 'ja' => 'han_4',
-              'korean' . $; . 'vi' => 'han_5',
-              'alphabetical' . $; . '' => 'han_6',
+              'chinese' . $; . '' => 'han_100',
+              'yomi' . $; . '' => 'han_200',
+              'korean' . $; . 'ja' => 'han_201',
+              'alphabetical' . $; . 'ja' => 'han_202',
+              'vietnamese' . $; . '' => 'han_300',
+              'korean' . $; . 'vi' => 'han_301',
+              'alphabetical' . $; . 'vi' => 'han_302',
+              'korean' . $; . '' => 'han_400',
+              'alphabetical' . $; . '' => 'han_500',
             };
             $text->{form_sets} = [sort {
               ($fst->{$a->{form_set_type}, $a->{origin_lang} // ''} || 0) cmp ($fst->{$b->{form_set_type}, $b->{origin_lang} // ''} || 0);

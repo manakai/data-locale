@@ -3,7 +3,10 @@ DATA_PATH = $(ROOT_PATH)/data
 
 PERL = $(ROOT_PATH)/perl
 
-all: variants.json
+all: variants.json wikimedia-all
+
+wikimedia-all:
+	cd wikimedia && $(MAKE) all
 
 variants.json: variants.pl \
     $(DATA_PATH)/calendar/era-stats.json

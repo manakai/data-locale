@@ -359,7 +359,7 @@ for my $path (
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name', type => 'han', lang => $1, value => $3,
            preferred => $2};
-    } elsif (defined $key and /^name\((en|la|en_la|it|fr|fr_ja|es|po|ja_latin|ja_latin_old|vi_latin|nan)\)(!|)\s+([\p{Latn}\s%0-9A-F'\x{030D}\x{0358}|-]+)$/) {
+    } elsif (defined $key and /^name\((en|la|en_la|it|fr|fr_ja|es|po|ja_latin|ja_latin_old|vi_latin|nan|zh_alalc)\)(!|)\s+([\p{Latn}\s%0-9A-F'\x{030D}\x{0358}|-]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'alphabetical',

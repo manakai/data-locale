@@ -181,6 +181,7 @@ print q{<!DOCTYPE html>
   .form-type-po_capital td,
   .form-type-bopomofo td,
   .form-type-bopomofo_zuyntn td,
+  .form-type-zh_alalc td,
   .form-type-pinyin td,
   .form-type-pinyin_upper td,
   .form-type-pinyin_lower td,

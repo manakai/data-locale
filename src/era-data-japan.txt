@@ -547,6 +547,10 @@ code #16 Z
 name_ja 明治
 unicode ㍾
 name(fr_ja) Mei|ji
+
+## <https://www.loc.gov/catdir/cpso/romanization/chinese.pdf#page=8>
+name(zh_alalc) Ming|zhi
+
 &
 abbr_ja 明 明治
 code #7 明
