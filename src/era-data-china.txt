@@ -3280,10 +3280,10 @@ tag シンガポール
 %tag   region of タイ
 %tag   region of 中華民国
 tag タイ中国国民党基地
-<-干支年 [g:1949,g:1950] #進攻{#中華民国, #タイ中国国民党基地} #戦時異動
+<-unknown [g:1949,g:1950] #進攻{#中華民国, #タイ中国国民党基地} #戦時異動
     #国共内戦 #グレゴリオ暦
-->干支年 [g:1986] #勢力吸収{#タイ, #タイ中国国民党基地} #グレゴリオ暦 #分離
-# ^^^^^^ XXX 仏暦
+->unknown [g:1986] #勢力吸収{#タイ, #タイ中国国民党基地} #グレゴリオ暦 #分離
+# ^^^^^^^ XXX 仏暦
 u 71
 u 77
 
@@ -3304,11 +3304,11 @@ wref_ja 洪憲
 name_ja 洪憲
 name_kana こう けん
 
-name(en) HUNG SHUAN
+name(en) HUNG |SHUAN
 
-# XXX <https://es.wikipedia.org/wiki/Hongxian>
-# XXX wref_es Hongxian
-name(es) Hongxian
+## <https://es.wikipedia.org/wiki/Hongxian>
+wref_es Hongxian
+name(es) Hong|xian
 
 tag 中華民国
 tag 漢土

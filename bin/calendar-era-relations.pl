@@ -311,19 +311,18 @@ sub match_form_set ($$$) {
       }
     }
   } elsif ($fs->{form_set_type} eq 'alphabetical' or
-           $fs->{form_set_type} eq 'vietnamese') {
+           $fs->{form_set_type} eq 'vietnamese' or
+           $fs->{form_set_type} eq 'chinese') {
     for (
       grep { defined }
-      $fs->{en}, $fs->{en_la},
-      $fs->{la}, $fs->{es}, $fs->{po}, $fs->{fr},
-      $fs->{vi},
-      $fs->{ja_latin},
-      @{$fs->{others} or []},
+      $fs->{en_lower}, $fs->{en_la_roman_lower},
+      $fs->{la_lower}, $fs->{es_lower}, $fs->{po_lower}, $fs->{fr_lower},
+      $fs->{vi_lower},
+      $fs->{pinyin_lower}, $fs->{nan_poj_lower},
+      $fs->{ja_latin_lower},
+      @{$fs->{lower_others} or []},
     ) {
-      my $w = [map {
-        my $x = $_;
-        lc $x;
-      } grep { not /^\./ } @$_];
+      my $w = [grep { not /^\./ } @$_];
       my $ids = undef;
       for my $i (0..$#$w) {
         my $x = ref $w->[$i] ? (join '', @{$w->[$i]}) : $w->[$i];

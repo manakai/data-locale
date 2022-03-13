@@ -332,8 +332,12 @@ for my $path (
     } elsif (defined $prop and ref $prop eq 'HASH' and
              /^  (title|url):(.+)$/) {
       $prop->{$1} = $2;
-    } elsif (defined $key and /^(wref_(?:ja|zh|en|ko|vi))\s+(.+)$/) {
+    } elsif (defined $key and /^(wref_(?:ja|zh|en|ko|vi|es))\s+(.+)$/) {
       $Data->{eras}->{$key}->{$1} = $2;
+    } elsif (defined $key and m{^wref\s*<?https://(zh-yue|zh-min-nan|zh-classical|vi|es|en)\.wikipedia\.org/wiki/([^/?#]+)>?\s*$}) {
+      my $sd = $1;
+      my $page = $2;
+      #XXX
     } elsif (defined $key and /^name(!|)\s+(\p{Han}+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name', type => 'han', value => $2, preferred => $1};
@@ -355,11 +359,25 @@ for my $path (
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name', type => 'han', lang => $1, value => $3,
            preferred => $2};
-    } elsif (defined $key and /^name\((en|la|en_la|it|fr|es|po|ja_latin|ja_latin_old|vi_latin)\)(!|)\s+([\p{Latn}\s%0-9A-F'-]+)$/) {
+    } elsif (defined $key and /^name\((en|la|en_la|it|fr|fr_ja|es|po|ja_latin|ja_latin_old|vi_latin|nan)\)(!|)\s+([\p{Latn}\s%0-9A-F'\x{030D}\x{0358}|-]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'alphabetical',
            lang => $1,
+           preferred => $2,
+           value => percent_decode_c $3};
+    } elsif (defined $key and /^(pinyin)(!|)\s+([\p{Latn}\s%0-9A-F'|-]+)$/) {
+      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
+          {kind => 'name',
+           type => 'alphabetical',
+           lang => $1,
+           preferred => $2,
+           value => percent_decode_c $3};
+    } elsif (defined $key and /^(bopomofo)(!|)\s+([\p{Bopo}\x{02C7}\x{02CA}\x{02CB}\x{02D9}|\s]+)$/) {
+      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
+          {kind => 'name',
+           type => 'bopomofo',
+           lang => 'zh',
            preferred => $2,
            value => percent_decode_c $3};
     } elsif (defined $key and /^name\((vi)\)(!|)\s+([\p{Latn}\s%0-9A-F]+)$/) {

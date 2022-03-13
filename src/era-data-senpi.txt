@@ -5720,7 +5720,7 @@ name(kr) 보태
 #531-2-29 - 531-10 - 532-4
 
 ## <https://uk.wikipedia.org/wiki/%D0%9F%D1%83%D1%82%D0%B0%D0%B9>
-#XXX
+#XXXname
 #Пута́й
 #Pǔtài
 #Повсюдний Спокій
@@ -6106,7 +6106,7 @@ u 3-1
 
 &
 name_ja 大魏国
-#XXX name (variant)
+#XXXname (variant)
 u 1
 &
 name_ja 魏
@@ -6132,7 +6132,7 @@ tag 元欽
 
 tag 前元
 name_ja 魏前
-#XXX name {swc334}前
+#XXXname {swc334}前
 u 1
 u 2
 u 3
@@ -6281,8 +6281,8 @@ tag 拓跋廓
 
 tag 後元
 name_ja 魏後
-#XXX name {swc334}後
-#XXX name {swc335}後
+#XXXname {swc334}後
+#XXXname {swc335}後
 name_cn 魏后
 u 1
 u 2
@@ -8699,9 +8699,8 @@ tag 唐中宗
 ## [102]
 name_tw 嗣聖
 name_cn 嗣圣
-#XXX
-#pinyin sì shèng
-#bopomofo ㄙˋ ㄕㄥˋ
+pinyin sì shèng
+bopomofo ㄙˋ ㄕㄥˋ
 # 684-1-23 - 684-2-27
 #<-弘道 684-1-23 弘道2-1-1 "第二年正月初一甲申日元旦"
 tag 新羅
@@ -13936,14 +13935,6 @@ name(kr) 광정
 
 
 
-[同慶]
-#y~1013
-
-AD912 = 1
-
-name(kr) 동경
-
-#XXX  天尊천존 中興중흥 天興천흥 천수
 
 
 

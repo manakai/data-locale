@@ -188,7 +188,6 @@ name_kana けん ぶん
 sw 革除
 name_tw 革除
 
-#XXX
 ##&&
 ## empty string
 
@@ -3608,7 +3607,7 @@ tag 明
 tag 朱一貴
 
 ## [102]
-#XXX 閩南語 Éng-hô
+name(nan) Éng-hô
 # 1721-5 - 1721-6
 
 ## <https://zh.wikipedia.org/wiki/%E6%9C%B1%E4%B8%80%E8%B2%B4>
@@ -3627,5 +3626,6 @@ AD1721 = 1
 wref_ja 永和 (朱一貴)
 name_ja 永和
 name_kana えい わ
-#XXX 台湾語 Éng-hô
+#台湾語 Éng-hô
+name(nan) Éng-hô
 # 1721
