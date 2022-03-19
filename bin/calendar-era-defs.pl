@@ -566,8 +566,15 @@ for my $path (
   }
 }
 
-{
-  my $path = $root_path->child ('intermediate/wikimedia/wp-cn-eras.json');
+for (
+  'intermediate/wikimedia/wp-cn-eras.json',
+  'intermediate/wikimedia/wp-mn-eras.json',
+  'intermediate/wikimedia/wp-tw-eras.json',
+  'intermediate/wikimedia/wp-kr-eras.json',
+  'intermediate/wikimedia/wp-jp-eras.json',
+  'intermediate/wikimedia/wp-jpp-eras.json',
+) {
+  my $path = $root_path->child ($_);
   my $json = json_bytes2perl $path->slurp;
   my $wref_key = $json->{wref_key};
   my $default_wref = $json->{page_name};

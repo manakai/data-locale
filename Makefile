@@ -200,7 +200,7 @@ local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
     local/era-defs-jp-wp-en.json \
     src/era-data*.txt \
     src/era-variants.txt \
-    intermediate/wikimedia/wp-cn-eras.json \
+    intermediate/wikimedia/wp-*-eras.json \
     src/era-viet.txt src/era-korea.txt \
     data/numbers/kanshi.json \
     intermediate/era-ids.json \

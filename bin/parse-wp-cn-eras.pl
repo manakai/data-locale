@@ -61,7 +61,8 @@ for my $table_el ($doc->query_selector_all ('.wikitable, .mw-headline')->to_list
     my $data = {};
     $data->{name} = $cells->[0]->text_content;
     next if $data->{name} eq '（停用年號）' or
-            $data->{name} eq '（停用年号）';
+            $data->{name} eq '（停用年号）' or
+            $data->{name} eq '—';
     $data->{dup} = 1 if $tr->has_attribute ('bgcolor') or
                         $cells->[0]->has_attribute ('bgcolor');
     $data->{might_dup} = 1 if $cells->[-1]->text_content =~ /復/;
