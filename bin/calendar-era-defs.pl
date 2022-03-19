@@ -567,28 +567,24 @@ for my $path (
 }
 
 {
-  my $path = $root_path->child ('intermediate/wp-cn-eras.json');
+  my $path = $root_path->child ('intermediate/wikimedia/wp-cn-eras.json');
   my $json = json_bytes2perl $path->slurp;
+  my $wref_key = $json->{wref_key};
+  my $default_wref = $json->{page_name};
   for my $src (@{$json->{eras}}) {
     next unless defined $src->{era_id};
     die "Era key for $src->{name} not defined" unless defined $src->{era_key};
 
     my $data = $Data->{eras}->{$src->{era_key}};
     die "$path: Bad era key |$src->{era_key}|" unless defined $data;
-    $data->{wref_zh} = $src->{wref} if defined $src->{wref};
 
+    $data->{$wref_key} //= $src->{wref} // $default_wref;
+
+    use utf8;
+    next if $src->{name} eq '？？';
     unshift @{$data->{_LABELS}->[0]->{labels}->[0]->{reps}},
         {kind => 'name', type => 'han', lang => 'tw', value => $src->{name}},
         {kind => 'name', type => 'han', lang => 'cn', value => $src->{cn}};
-    
-    warn "Wikipedia cn != my: $src->{cn} $src->{my}"
-        if $src->{cn} ne $src->{my};
-    warn "Wikipedia cn != sg: $src->{cn} $src->{sg}"
-        if $src->{cn} ne $src->{sg};
-    warn "Wikipedia tw != hk: $src->{tw} $src->{hk}"
-        if $src->{tw} ne $src->{hk};
-    warn "Wikipedia tw != mo: $src->{tw} $src->{mo}"
-        if $src->{tw} ne $src->{mo};
   } # $src
 }
 

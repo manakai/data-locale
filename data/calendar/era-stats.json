@@ -1,12 +1,13 @@
 {
    "eras" : {
-      "all" : 2132,
+      "all" : 2133,
       "no_offset" : 125,
-      "no_start_year" : 269,
-      "no_tag" : 107
+      "no_start_year" : 267,
+      "no_tag" : 108
    },
    "han_chars" : {
       "all" : {
+         "□" : 1,
          "⿱" : 1,
          "一" : 1,
          "丁" : 1,

@@ -1110,13 +1110,3 @@ wref_ja 白鳳
 wref_ja 朱雀
 [福徳]
 wref_ja 福徳_(私年号)
-
-def[正安(癸巳)]
-name_cn 正安
-name_tw 正安
-name 政安
-#was: wref_zh 中国年号列表
-#was: wref_zh 正安_(大理)
-AD1053 = 1
-
-

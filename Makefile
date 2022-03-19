@@ -130,7 +130,7 @@ local/wp-jp-eras-en.html:
 	$(WGET) -O $@ https://en.wikipedia.org/wiki/Template:Japanese_era_names
 src/wp-jp-eras-en.json: bin/parse-wp-jp-eras-en.pl #local/wp-jp-eras-en.html
 	$(PERL) $< > $@
-#intermediate/wp-cn-eras.json:
+#intermediate/wikimedia/*.json:
 #	cd intermediate/wikimedia && $(MAKE) all
 local/cn-ryuukyuu-era-list.json: bin/cn-ryuukyuu-era-list.pl \
     src/eras/ryuukyuu.txt
@@ -200,7 +200,7 @@ local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
     local/era-defs-jp-wp-en.json \
     src/era-data*.txt \
     src/era-variants.txt \
-    intermediate/wp-cn-eras.json \
+    intermediate/wikimedia/wp-cn-eras.json \
     src/era-viet.txt src/era-korea.txt \
     data/numbers/kanshi.json \
     intermediate/era-ids.json \
@@ -350,9 +350,6 @@ data/calendar/serialized/dtsjp3.txt: bin/calendar-serialize-dts.pl \
 
 local/era-chars.json: bin/generate-era-chars.pl \
     data/calendar/era-defs.json
-	$(PERL) $< > $@
-local/cn-era-name-diff.txt: bin/generate-cn-era-name-diff.pl \
-    intermediate/wp-cn-eras.json
 	$(PERL) $< > $@
 local/era-jp-conflicts.json: bin/generate-era-jp-conflicts.pl \
     data/calendar/era-defs.json

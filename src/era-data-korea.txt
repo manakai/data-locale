@@ -3,6 +3,17 @@
 %tag   name_ja 高句麗人
 %tag   group of 中華異民族
 
+def[永樂(辛卯)]
+#y~389
+
+AD391 = 1
+
+[永樂]
+#y~1815
+
+AD391 = 1
+
+
 %tag people
 %tag   name_ja 朝鮮人
 %tag   group of 中華異民族

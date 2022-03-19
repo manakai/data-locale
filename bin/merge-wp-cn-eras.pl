@@ -6,14 +6,16 @@ use JSON::PS;
 my $RootPath = path (__FILE__)->parent->parent;
 my $Langs = [qw(cn hk mo my sg tw)];
 
+my $Key = shift;
+
 my $Inputs = {};
 for my $lang (@$Langs) {
-  my $path = $RootPath->child ("local/wp-cn-eras-$lang.json");
+  my $path = $RootPath->child ("local/wikimedia/wp-$Key-$lang.json");
   $Inputs->{$lang} = json_bytes2perl $path->slurp;
 }
 
 my $IDMap = {};
-{
+if ($Key eq 'cn-eras' and 0) {
   my $path = $RootPath->child ('src/wp-zh-era-id-map.txt');
   for (split /\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
@@ -27,9 +29,14 @@ my $IDMap = {};
       die "Bad line |$_|";
     }
   }
+} else {
+  $IDMap = undef;
 }
 
 my $Data = $Inputs->{tw};
+$Data->{file_key} = $Key;
+$Data->{page_name} = $Inputs->{tw}->{page_name};
+$Data->{wref_key} = 'wref_zh';
 
 for my $i (0..$#{$Data->{eras}}) {
   for my $lang (@$Langs) {
@@ -59,13 +66,28 @@ for my $data (@{$Data->{eras}}) {
   } else {
     $found->{$data->{ukey}} = perl2json_chars_for_record $data;
 
-    if (defined $IDMap->{$data->{ukey}}) {
-      $data->{era_id} = $IDMap->{$data->{ukey}}->[0];
-      $data->{era_key} = $IDMap->{$data->{ukey}}->[1];
-    } else {
-      push @{$Data->{_errors} ||= []},
-          ["Era not found", $data->{ukey}];
-    }
+    if (defined $IDMap) {
+      if (defined $IDMap->{$data->{ukey}}) {
+        $data->{era_id} = $IDMap->{$data->{ukey}}->[0];
+        $data->{era_key} = $IDMap->{$data->{ukey}}->[1];
+      } else {
+        push @{$Data->{_errors} ||= []},
+            ["Era not found", $data->{ukey}];
+      }
+    } # $IDMap
+  }
+} # $data
+
+for my $era (@{$Data->{eras}}) {
+  for (
+    ['cn', 'my'],
+    ['cn', 'sg'],
+    ['tw', 'hk'],
+    ['tw', 'mo'],
+  ) {
+    my ($l1, $l2) = @$_;
+    push @{$Data->{_errors} ||= []}, "$l1 != $l2: $era->{$l1} $era->{$l2}"
+        if $era->{$l1} ne $era->{$l2};
   }
 }
 
