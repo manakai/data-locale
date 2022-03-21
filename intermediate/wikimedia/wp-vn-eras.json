@@ -2,11 +2,13 @@
    "_errors" : [
       [
          "Era mapping is missing",
-         "順天,1009"
+         "順天,1009",
+         "李朝（1009年－1226年）\u000A"
       ],
       [
          "Era mapping is missing",
-         "天感聖武,1043"
+         "天感聖武,1043",
+         "李朝（1009年－1226年）\u000A"
       ],
       [
          "Era not found",
@@ -14,7 +16,8 @@
       ],
       [
          "Era mapping is missing",
-         "天貺寶象,1067"
+         "天貺寶象,1067",
+         "李朝（1009年－1226年）\u000A"
       ],
       [
          "Era not found",
@@ -22,15 +25,18 @@
       ],
       [
          "Era mapping is missing",
-         "天順,1127"
+         "天順,1127",
+         "李朝（1009年－1226年）\u000A"
       ],
       [
          "Era mapping is missing",
-         "乾寧,1213"
+         "乾寧,1213",
+         "李朝（1009年－1226年）\u000A"
       ],
       [
          "Era mapping is missing",
-         "重興,1284"
+         "重興,1284",
+         "陳朝（1226年－1400年）\u000A"
       ],
       [
          "Era not found",
@@ -38,15 +44,18 @@
       ],
       [
          "Era mapping is missing",
-         "開大,1402"
+         "開大,1402",
+         "胡朝（1400年－1407年）\u000A"
       ],
       [
          "Era mapping is missing",
-         "天應,1515"
+         "天應,1515",
+         "黎初朝時期起事政權\u000A"
       ],
       [
          "Era mapping is missing",
-         "天憲,1518"
+         "天憲,1518",
+         "黎初朝時期起事政權\u000A"
       ],
       [
          "Era not found",
@@ -54,47 +63,58 @@
       ],
       [
          "Era mapping is missing",
-         "光寶,1554"
+         "光寶,1554",
+         "莫朝（1527年－1592年）\u000A"
       ],
       [
          "Era mapping is missing",
-         "淳福,1564"
+         "淳福,1564",
+         "莫朝（1527年－1592年）\u000A"
       ],
       [
          "Era mapping is missing",
-         "崇康,1567"
+         "崇康,1567",
+         "莫朝（1527年－1592年）\u000A"
       ],
       [
          "Era mapping is missing",
-         "端泰,1584"
+         "端泰,1584",
+         "莫朝（1527年－1592年）\u000A"
       ],
       [
          "Era mapping is missing",
-         "隆泰,1617"
+         "隆泰,1617",
+         "莫朝（1527年－1592年）\u000A"
       ],
       [
          "Era mapping is missing",
-         "順德,1637"
+         "順德,1637",
+         "莫朝（1527年－1592年）\u000A"
       ],
       [
          "Era mapping is missing",
-         "永昌,1660"
+         "永昌,1660",
+         "莫朝（1527年－1592年）\u000A"
       ],
       [
          "Era mapping is missing",
-         "光照,1532"
+         "光照,1532",
+         "黎中興朝時期起事政權\u000A"
       ],
       [
          "Era mapping is missing",
-         "羅平,1593"
+         "羅平,1593",
+         "黎中興朝時期起事政權\u000A"
       ],
       [
          "Era mapping is missing",
-         "大德,1594"
+         "大德,1594",
+         "黎中興朝時期起事政權\u000A"
       ],
       [
          "Era mapping is missing",
-         "福德,1595"
+         "福德,1595",
+         "黎中興朝時期起事政權\u000A"
       ]
    ],
    "eras" : [

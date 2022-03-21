@@ -7,9 +7,15 @@ PERL = $(ROOT_PATH)/perl
 
 WGET = wget
 
-all: $(TEMP_PATH) ../wp-cn-eras.json \
+all: $(TEMP_PATH) \
     wp-cn-eras.json wp-vn-eras.json wp-tw-eras.json \
-    wp-mn-eras.json wp-kr-eras.json wp-jp-eras.json wp-jpp-eras.json
+    wp-mn-eras.json wp-kr-eras.json wp-jp-eras.json wp-jpp-eras.json \
+    wp-vi-cn-eras.json wp-vi-vn-eras.json wp-vi-jp-eras.json \
+    wp-vi-kr-eras.json \
+    wp-ko-cn-eras.json wp-ko-vn-eras.json wp-ko-jp-eras.json \
+    wp-ko-mn-eras.json wp-ko-kr-eras.json wp-ko-krr-eras.json \
+    wp-en-cn-eras.json wp-en-vn-eras.json wp-en-jp-eras.json \
+    wp-en-kr-eras.json
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -59,11 +65,6 @@ $(subst KEY,jpp-eras,$(WP_FILES)): $(TEMP_PATH)/wp-jpp-eras-%.json: \
     $(BIN_PATH)/parse-wp-cn-eras.pl $(TEMP_PATH)/wp-jpp-eras-%.html
 	$(PERL) $< < $(TEMP_PATH)/wp-jpp-eras-$*.html > $@
 
-#../wp-cn-eras.json: $(BIN_PATH)/merge-wp-cn-eras.pl \
-#    $(subst KEY,cn-eras,$(WP_FILES)) \
-#    $(ROOT_PATH)/src/wp-zh-era-id-map.txt
-#	$(PERL) $< cn-eras > $@
-
 $(TEMP_PATH)/wp-cn-eras-0.json \
 $(TEMP_PATH)/wp-vn-eras-0.json $(TEMP_PATH)/wp-tw-eras-0.json \
 $(TEMP_PATH)/wp-mn-eras-0.json $(TEMP_PATH)/wp-kr-eras-0.json \
@@ -80,5 +81,81 @@ wp-jp-eras.json wp-jpp-eras.json: wp-%.json: $(BIN_PATH)/fill-era-ids.pl \
 
 $(ROOT_PATH)/local/old-ced.json:
 	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-locale/master/data/calendar/era-defs.json
+
+$(TEMP_PATH)/wp-vi-cn-eras.html:
+	$(WGET) -O $@ https://vi.wikipedia.org/wiki/Ni%C3%AAn_hi%E1%BB%87u_Trung_Qu%E1%BB%91c
+$(TEMP_PATH)/wp-vi-vn-eras.html:
+	$(WGET) -O $@ https://vi.wikipedia.org/wiki/Ni%C3%AAn_hi%E1%BB%87u_Vi%E1%BB%87t_Nam
+$(TEMP_PATH)/wp-vi-jp-eras.html:
+	$(WGET) -O $@ https://vi.wikipedia.org/wiki/Ni%C3%AAn_hi%E1%BB%87u_Nh%E1%BA%ADt_B%E1%BA%A3n
+$(TEMP_PATH)/wp-vi-kr-eras.html:
+	$(WGET) -O $@ https://vi.wikipedia.org/wiki/Ni%C3%AAn_hi%E1%BB%87u_Tri%E1%BB%81u_Ti%C3%AAn
+
+$(TEMP_PATH)/wp-ko-kr-eras.html:
+	$(WGET) -O $@ https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%9D%98_%EC%97%B0%ED%98%B8
+$(TEMP_PATH)/wp-ko-krr-eras.html:
+	$(WGET) -O $@ https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0%EC%9D%98_%EC%97%B0%ED%98%B8
+$(TEMP_PATH)/wp-ko-mn-eras.html:
+	$(WGET) -O $@ https://ko.wikipedia.org/wiki/%EB%AA%BD%EA%B3%A8%EC%9D%98_%EC%97%B0%ED%98%B8
+$(TEMP_PATH)/wp-ko-cn-eras.html:
+	$(WGET) -O $@ https://ko.wikipedia.org/wiki/%EC%A4%91%EA%B5%AD%EC%9D%98_%EC%97%B0%ED%98%B8_%EB%AA%A9%EB%A1%9D
+$(TEMP_PATH)/wp-ko-jp-eras.html:
+	$(WGET) -O $@ https://ko.wikipedia.org/wiki/%EC%9D%BC%EB%B3%B8%EC%9D%98_%EC%97%B0%ED%98%B8
+$(TEMP_PATH)/wp-ko-vn-eras.html:
+	$(WGET) -O $@ https://ko.wikipedia.org/wiki/%EB%B2%A0%ED%8A%B8%EB%82%A8%EC%9D%98_%EC%97%B0%ED%98%B8
+
+$(TEMP_PATH)/wp-en-cn-eras.html:
+	$(WGET) -O $@ https://en.wikipedia.org/wiki/List_of_Chinese_era_names
+$(TEMP_PATH)/wp-en-vn-eras.html:
+	$(WGET) -O $@ https://en.wikipedia.org/wiki/Vietnamese_era_name
+$(TEMP_PATH)/wp-en-kr-eras.html:
+	$(WGET) -O $@ https://en.wikipedia.org/wiki/Korean_era_name
+$(TEMP_PATH)/wp-en-jp-eras.html:
+	$(WGET) -O $@ https://en.wikipedia.org/wiki/Japanese_era_name
+
+$(TEMP_PATH)/wp-vi-cn-eras.json \
+$(TEMP_PATH)/wp-vi-vn-eras.json \
+$(TEMP_PATH)/wp-vi-jp-eras.json \
+$(TEMP_PATH)/wp-vi-kr-eras.json: \
+$(TEMP_PATH)/wp-vi-%.json: parse-wp-vi.pl $(TEMP_PATH)/wp-vi-%.html
+	$(PERL) $< < $(TEMP_PATH)/wp-vi-$*.html > $@
+
+$(TEMP_PATH)/wp-ko-cn-eras.json \
+$(TEMP_PATH)/wp-ko-vn-eras.json \
+$(TEMP_PATH)/wp-ko-jp-eras.json \
+$(TEMP_PATH)/wp-ko-mn-eras.json \
+$(TEMP_PATH)/wp-ko-kr-eras.json \
+$(TEMP_PATH)/wp-ko-krr-eras.json: \
+$(TEMP_PATH)/wp-ko-%.json: parse-wp-ko.pl $(TEMP_PATH)/wp-ko-%.html
+	$(PERL) $< < $(TEMP_PATH)/wp-ko-$*.html > $@
+
+$(TEMP_PATH)/wp-en-cn-eras.json \
+$(TEMP_PATH)/wp-en-vn-eras.json \
+$(TEMP_PATH)/wp-en-jp-eras.json \
+$(TEMP_PATH)/wp-en-kr-eras.json: \
+$(TEMP_PATH)/wp-en-%.json: parse-wp-en.pl $(TEMP_PATH)/wp-en-%.html
+	$(PERL) $< < $(TEMP_PATH)/wp-en-$*.html > $@
+
+wp-vi-cn-eras.json wp-vi-vn-eras.json \
+wp-vi-jp-eras.json wp-vi-kr-eras.json: wp-vi-%.json: \
+    $(BIN_PATH)/fill-era-ids.pl \
+    $(TEMP_PATH)/wp-vi-%.json \
+    $(ROOT_PATH)/local/old-ced.json era-id-map.txt
+	$(PERL) $< $(TEMP_PATH)/wp-vi-$*.json > $@
+
+wp-ko-cn-eras.json wp-ko-vn-eras.json \
+wp-ko-jp-eras.json wp-ko-mn-eras.json \
+wp-ko-kr-eras.json wp-ko-krr-eras.json: wp-ko-%.json: \
+    $(BIN_PATH)/fill-era-ids.pl \
+    $(TEMP_PATH)/wp-ko-%.json \
+    $(ROOT_PATH)/local/old-ced.json era-id-map.txt
+	$(PERL) $< $(TEMP_PATH)/wp-ko-$*.json > $@
+
+wp-en-cn-eras.json wp-en-vn-eras.json \
+wp-en-jp-eras.json wp-en-kr-eras.json: wp-en-%.json: \
+    $(BIN_PATH)/fill-era-ids.pl \
+    $(TEMP_PATH)/wp-en-%.json \
+    $(ROOT_PATH)/local/old-ced.json era-id-map.txt
+	$(PERL) $< $(TEMP_PATH)/wp-en-$*.json > $@
 
 ## License: Public Domain.

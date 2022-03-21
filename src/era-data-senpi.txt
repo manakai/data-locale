@@ -2451,6 +2451,11 @@ name_kana ぎ き
 ## <https://ja.wikipedia.org/wiki/%E9%AB%98%E6%98%8C#%E6%AD%B4%E4%BB%A3%E5%90%9B%E4%B8%BB>
 #510/511 - 525
 
+#XXX
+
+## <https://vi.wikipedia.org/wiki/Ni%C3%AAn_hi%E1%BB%87u_Trung_Qu%E1%BB%91c>
+#511 - 523
+
 <-承平(壬午) [魏:510] #支那改元日{#麹氏高昌 #麹嘉}
 ->甘露(乙巳) [魏:525] #改元前の死去{#麹氏高昌 #麹嘉}
 
@@ -5083,6 +5088,8 @@ tag 匈奴
 #<-正光 [魏:524-3] #支那改元日{#破六韓抜陵} #起事建元 #北魏 #六鎮の乱
 >< [魏:525-3] #陥落{#北魏, #破六韓抜陵} #六鎮の乱
 
+#XXX
+
 wref_ja 真王 (破六韓抜陵)
 name_ja 真王
 name_kana しん おう
@@ -5091,6 +5098,9 @@ tag 私年号 (ウィキペディア)
 
 ## <https://ja.wikipedia.org/wiki/%E7%A0%B4%E5%85%AD%E9%9F%93%E6%8A%9C%E9%99%B5>
 >< [魏:525-6] #陥落{#北魏, #破六韓抜陵} #六鎮の乱
+
+##<https://vi.wikipedia.org/wiki/Ni%C3%AAn_hi%E1%BB%87u_Trung_Qu%E1%BB%91c>
+#3/523—6/525
 
 %tag event
 %tag   name_ja 六鎮の乱

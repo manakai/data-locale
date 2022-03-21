@@ -1,0 +1,2129 @@
+{
+   "_errors" : [
+      [
+         "Era mapping is missing",
+         "順天,1009",
+         "Lý_dynasty"
+      ],
+      [
+         "Era mapping is missing",
+         "天感聖武,1043",
+         "Lý_dynasty"
+      ],
+      [
+         "Era mapping is missing",
+         "天貺寶象,1067",
+         "Lý_dynasty"
+      ],
+      [
+         "Era not found",
+         "龍符元化,1100"
+      ],
+      [
+         "Era mapping is missing",
+         "天順,1127",
+         "Lý_dynasty"
+      ],
+      [
+         "Era mapping is missing",
+         "大順,1127",
+         "Lý_dynasty"
+      ],
+      [
+         "Era not found",
+         "天資寶祐,1201"
+      ],
+      [
+         "Era mapping is missing",
+         "乾寧,1213",
+         "Lý_dynasty"
+      ],
+      [
+         "Era mapping is missing",
+         "重興,1284",
+         "Trần_dynasty"
+      ],
+      [
+         "Era not found",
+         "開祐,1328"
+      ],
+      [
+         "Era mapping is missing",
+         "開大,1402",
+         "Hồ_dynasty"
+      ],
+      [
+         "Era mapping is missing",
+         "太寶,1439",
+         "Primitive_Lê_dynasty"
+      ],
+      [
+         "Era not found",
+         "太貞,1503"
+      ],
+      [
+         "Era mapping is missing",
+         "天應,1515",
+         "Primitive_Lê_dynasty/misc"
+      ],
+      [
+         "Era mapping is missing",
+         "應天,1515",
+         "Primitive_Lê_dynasty/misc"
+      ],
+      [
+         "Era mapping is missing",
+         "天德,1517",
+         "Primitive_Lê_dynasty/misc"
+      ],
+      [
+         "Era mapping is missing",
+         "天憲,1518",
+         "Primitive_Lê_dynasty/misc"
+      ],
+      [
+         "Era not found",
+         "景曆,1547"
+      ],
+      [
+         "Era mapping is missing",
+         "光寶,1554",
+         "Mạc_dynasty"
+      ],
+      [
+         "Era mapping is missing",
+         "淳福,1564",
+         "Mạc_dynasty"
+      ],
+      [
+         "Era mapping is missing",
+         "崇康,1567",
+         "Mạc_dynasty"
+      ],
+      [
+         "Era mapping is missing",
+         "端泰,1584",
+         "Mạc_dynasty"
+      ],
+      [
+         "Era mapping is missing",
+         "隆泰,1617",
+         "Mạc_dynasty"
+      ],
+      [
+         "Era mapping is missing",
+         "順德,1637",
+         "Mạc_dynasty"
+      ],
+      [
+         "Era mapping is missing",
+         "永昌,1660",
+         "Mạc_dynasty"
+      ],
+      [
+         "Era mapping is missing",
+         "光照,1532",
+         "Revival_Lê_dynasty/misc"
+      ],
+      [
+         "Era mapping is missing",
+         "羅平,1593",
+         "Revival_Lê_dynasty/misc"
+      ],
+      [
+         "Era mapping is missing",
+         "大德,1594",
+         "Revival_Lê_dynasty/misc"
+      ],
+      [
+         "Era mapping is missing",
+         "福德,1595",
+         "Revival_Lê_dynasty/misc"
+      ],
+      [
+         "Era not found",
+         "紅龍,1911"
+      ]
+   ],
+   "eras" : [
+      {
+         "caption" : "Early Lý dynasty",
+         "era_id" : 1401,
+         "era_key" : "天德(甲子)",
+         "name" : "天德",
+         "offset" : 543,
+         "tw" : "天德",
+         "ukey" : "天德,543",
+         "vi" : "Thiên Đức"
+      },
+      {
+         "caption" : "Early Lý dynasty",
+         "era_id" : 1806,
+         "era_key" : "天德",
+         "name" : "大德",
+         "offset" : 543,
+         "tw" : "大德",
+         "ukey" : "大德,543",
+         "vi" : "Đại Đức"
+      },
+      {
+         "caption" : "Đinh dynasty",
+         "era_id" : 1516,
+         "era_key" : "太平(庚午)",
+         "name" : "太平",
+         "offset" : 969,
+         "tw" : "太平",
+         "ukey" : "太平,969",
+         "vi" : "Thái Bình"
+      },
+      {
+         "caption" : "Early Lê dynasty",
+         "era_id" : 1001,
+         "era_key" : "天福(庚辰)",
+         "name" : "天福",
+         "offset" : 979,
+         "tw" : "天福",
+         "ukey" : "天福,979",
+         "vi" : "Thiên Phúc"
+      },
+      {
+         "caption" : "Early Lê dynasty",
+         "era_id" : 1513,
+         "era_key" : "興統",
+         "name" : "興統",
+         "offset" : 988,
+         "tw" : "興統",
+         "ukey" : "興統,988",
+         "vi" : "Hưng Thống"
+      },
+      {
+         "caption" : "Early Lê dynasty",
+         "era_id" : 1037,
+         "era_key" : "應天(甲午)",
+         "name" : "應天",
+         "offset" : 993,
+         "tw" : "應天",
+         "ukey" : "應天,993",
+         "vi" : "Ứng Thiên"
+      },
+      {
+         "caption" : "Early Lê dynasty",
+         "era_id" : 970,
+         "era_key" : "景瑞(戊申)",
+         "name" : "景瑞",
+         "offset" : 1007,
+         "tw" : "景瑞",
+         "ukey" : "景瑞,1007",
+         "vi" : "Cảnh Thụy"
+      },
+      {
+         "_possibles" : [
+            [
+               30,
+               "順天(戊申)",
+               1427
+            ],
+            [
+               150,
+               "順天(乙卯)",
+               894
+            ],
+            [
+               663,
+               "順天(己酉)",
+               1008
+            ],
+            [
+               986,
+               "順天(丁未)",
+               1786
+            ],
+            [
+               1203,
+               "順天(庚申)",
+               1859
+            ],
+            [
+               1361,
+               "順天",
+               758
+            ],
+            [
+               1580,
+               "順天(丙子)",
+               1215
+            ],
+            [
+               1984,
+               "順天(乙亥)",
+               1214
+            ],
+            [
+               1985,
+               "順天(甲戌)",
+               1213
+            ],
+            [
+               2150,
+               "順天(己未)",
+               1858
+            ]
+         ],
+         "caption" : "Lý_dynasty",
+         "name" : "順天",
+         "offset" : 1009,
+         "tw" : "順天",
+         "ukey" : "順天,1009",
+         "vi" : "Thuận Thiên"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 1615,
+         "era_key" : "天成(戊辰)",
+         "name" : "天成",
+         "offset" : 1027,
+         "tw" : "天成",
+         "ukey" : "天成,1027",
+         "vi" : "Thiên Thành"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 478,
+         "era_key" : "通瑞",
+         "name" : "通瑞",
+         "offset" : 1033,
+         "tw" : "通瑞",
+         "ukey" : "通瑞,1033",
+         "vi" : "Thông Thụy"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 134,
+         "era_key" : "乾符有道",
+         "name" : "乾符有道",
+         "offset" : 1038,
+         "tw" : "乾符有道",
+         "ukey" : "乾符有道,1038",
+         "vi" : "Càn Phù Hữu Đạo"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 1452,
+         "era_key" : "明道(壬午)",
+         "name" : "明道",
+         "offset" : 1041,
+         "tw" : "明道",
+         "ukey" : "明道,1041",
+         "vi" : "Minh Đạo"
+      },
+      {
+         "_possibles" : [
+            [
+               1593,
+               "天感聖武",
+               1048
+            ]
+         ],
+         "caption" : "Lý_dynasty",
+         "name" : "天感聖武",
+         "offset" : 1043,
+         "tw" : "天感聖武",
+         "ukey" : "天感聖武,1043",
+         "vi" : "Thiên Cảm Thánh Vũ"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 995,
+         "era_key" : "崇興大寶",
+         "name" : "崇興大寶",
+         "offset" : 1048,
+         "tw" : "崇興大寶",
+         "ukey" : "崇興大寶,1048",
+         "vi" : "Sùng Hưng Đại Bảo"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 977,
+         "era_key" : "龍瑞太平",
+         "name" : "龍瑞太平",
+         "offset" : 1053,
+         "tw" : "龍瑞太平",
+         "ukey" : "龍瑞太平,1053",
+         "vi" : "Long Thụy Thái Bình"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 73,
+         "era_key" : "彰聖嘉慶",
+         "name" : "彰聖嘉慶",
+         "offset" : 1058,
+         "tw" : "彰聖嘉慶",
+         "ukey" : "彰聖嘉慶,1058",
+         "vi" : "Chương Thánh Gia Khánh"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 1717,
+         "era_key" : "龍彰天嗣",
+         "name" : "龍彰天嗣",
+         "offset" : 1065,
+         "tw" : "龍彰天嗣",
+         "ukey" : "龍彰天嗣,1065",
+         "vi" : "Long Chương Thiên Tự"
+      },
+      {
+         "_possibles" : [
+            [
+               141,
+               "天貺寶象",
+               1068
+            ]
+         ],
+         "caption" : "Lý_dynasty",
+         "name" : "天貺寶象",
+         "offset" : 1067,
+         "tw" : "天貺寶象",
+         "ukey" : "天貺寶象,1067",
+         "vi" : "Thiên Huống Bảo Tượng"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 93,
+         "era_key" : "神武(己酉)",
+         "name" : "神武",
+         "offset" : 1068,
+         "tw" : "神武",
+         "ukey" : "神武,1068",
+         "vi" : "Thần Vũ"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 208,
+         "era_key" : "太寧(壬子)",
+         "name" : "太寧",
+         "offset" : 1071,
+         "tw" : "太寧",
+         "ukey" : "太寧,1071",
+         "vi" : "Thái Ninh"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 362,
+         "era_key" : "英武昭勝",
+         "name" : "英武昭勝",
+         "offset" : 1075,
+         "tw" : "英武昭勝",
+         "ukey" : "英武昭勝,1075",
+         "vi" : "Anh Vũ Chiêu Thắng"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 1287,
+         "era_key" : "廣佑",
+         "name" : "廣祐",
+         "offset" : 1084,
+         "tw" : "廣祐",
+         "ukey" : "廣祐,1084",
+         "vi" : "Quảng Hựu"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 388,
+         "era_key" : "會豐",
+         "name" : "會豐",
+         "offset" : 1091,
+         "tw" : "會豐",
+         "ukey" : "會豐,1091",
+         "vi" : "Hội Phong"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 107,
+         "era_key" : "龍符",
+         "name" : "龍符",
+         "offset" : 1100,
+         "tw" : "龍符",
+         "ukey" : "龍符,1100",
+         "vi" : "Long Phù"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "name" : "龍符元化",
+         "offset" : 1100,
+         "tw" : "龍符元化",
+         "ukey" : "龍符元化,1100",
+         "vi" : "Long Phù Nguyên Hoá"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 1694,
+         "era_key" : "會祥大慶",
+         "name" : "會祥大慶",
+         "offset" : 1109,
+         "tw" : "會祥大慶",
+         "ukey" : "會祥大慶,1109",
+         "vi" : "Hội Tường Đại Khánh"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 119,
+         "era_key" : "天符睿武",
+         "name" : "天符睿武",
+         "offset" : 1119,
+         "tw" : "天符睿武",
+         "ukey" : "天符睿武,1119",
+         "vi" : "Thiên Phù Duệ Vũ"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 743,
+         "era_key" : "天符慶壽",
+         "name" : "天符慶壽",
+         "offset" : 1126,
+         "tw" : "天符慶壽",
+         "ukey" : "天符慶壽,1126",
+         "vi" : "Thiên Phù Khánh Thọ"
+      },
+      {
+         "_possibles" : [
+            [
+               169,
+               "大順(甲申)",
+               1643
+            ],
+            [
+               720,
+               "天順(丁未)",
+               1126
+            ],
+            [
+               1040,
+               "天順",
+               1327
+            ],
+            [
+               1050,
+               "天順(甲戌)",
+               1213
+            ],
+            [
+               1138,
+               "天順(丁丑)",
+               1456
+            ],
+            [
+               1375,
+               "天順(辛丑)",
+               1660
+            ],
+            [
+               1600,
+               "天順(丙子)",
+               1455
+            ]
+         ],
+         "caption" : "Lý_dynasty",
+         "name" : "天順",
+         "offset" : 1127,
+         "tw" : "天順",
+         "ukey" : "天順,1127",
+         "vi" : "Thiên Thuận"
+      },
+      {
+         "_possibles" : [
+            [
+               169,
+               "大順(甲申)",
+               1643
+            ],
+            [
+               402,
+               "大順(段鋹)",
+               1519
+            ],
+            [
+               521,
+               "大順",
+               889
+            ],
+            [
+               720,
+               "天順(丁未)",
+               1126
+            ]
+         ],
+         "caption" : "Lý_dynasty",
+         "name" : "大順",
+         "offset" : 1127,
+         "tw" : "大順",
+         "ukey" : "大順,1127",
+         "vi" : "Đại Thuận"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 1427,
+         "era_key" : "天彰寶嗣",
+         "name" : "天彰寶嗣",
+         "offset" : 1132,
+         "tw" : "天彰寶嗣",
+         "ukey" : "天彰寶嗣,1132",
+         "vi" : "Thiên Chương Bảo Tự"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 379,
+         "era_key" : "紹明",
+         "name" : "紹明",
+         "offset" : 1137,
+         "tw" : "紹明",
+         "ukey" : "紹明,1137",
+         "vi" : "Thiệu Minh"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 714,
+         "era_key" : "大定(庚申)",
+         "name" : "大定",
+         "offset" : 1139,
+         "tw" : "大定",
+         "ukey" : "大定,1139",
+         "vi" : "Đại Định"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 600,
+         "era_key" : "政隆寶應",
+         "name" : "政隆寶應",
+         "offset" : 1162,
+         "tw" : "政隆寶應",
+         "ukey" : "政隆寶應,1162",
+         "vi" : "Chính Long Bảo Ứng"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 110,
+         "era_key" : "天感至寶",
+         "name" : "天感至寶",
+         "offset" : 1173,
+         "tw" : "天感至寶",
+         "ukey" : "天感至寶,1173",
+         "vi" : "Thiên Cảm Chí Bảo"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 426,
+         "era_key" : "貞符",
+         "name" : "貞符",
+         "offset" : 1175,
+         "tw" : "貞符",
+         "ukey" : "貞符,1175",
+         "vi" : "Trinh Phù"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 784,
+         "era_key" : "天資嘉瑞",
+         "name" : "天資嘉瑞",
+         "offset" : 1185,
+         "tw" : "天資嘉瑞",
+         "ukey" : "天資嘉瑞,1185",
+         "vi" : "Thiên Tư Gia Thụy"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 830,
+         "era_key" : "天嘉寶祐",
+         "name" : "天嘉寶祐",
+         "offset" : 1201,
+         "tw" : "天嘉寶祐",
+         "ukey" : "天嘉寶祐,1201",
+         "vi" : "Thiên Gia Bảo Hựu"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "name" : "天資寶祐",
+         "offset" : 1201,
+         "tw" : "天資寶祐",
+         "ukey" : "天資寶祐,1201",
+         "vi" : "Thiên Tư Bảo Hựu"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 922,
+         "era_key" : "治平龍應",
+         "name" : "治平龍應",
+         "offset" : 1204,
+         "tw" : "治平龍應",
+         "ukey" : "治平龍應,1204",
+         "vi" : "Trị Bình Long Ứng"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 1213,
+         "era_key" : "建嘉",
+         "name" : "建嘉",
+         "offset" : 1210,
+         "tw" : "建嘉",
+         "ukey" : "建嘉,1210",
+         "vi" : "Kiến Gia"
+      },
+      {
+         "_possibles" : [
+            [
+               289,
+               "乾寧",
+               893
+            ]
+         ],
+         "caption" : "Lý_dynasty",
+         "name" : "乾寧",
+         "offset" : 1213,
+         "tw" : "乾寧",
+         "ukey" : "乾寧,1213",
+         "vi" : "Càn Ninh"
+      },
+      {
+         "caption" : "Lý dynasty",
+         "era_id" : 262,
+         "era_key" : "天彰有道",
+         "name" : "天彰有道",
+         "offset" : 1223,
+         "tw" : "天彰有道",
+         "ukey" : "天彰有道,1223",
+         "vi" : "Thiên Chương Hữu Đạo"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "era_id" : 58,
+         "era_key" : "建中(乙酉)",
+         "name" : "建中",
+         "offset" : 1224,
+         "tw" : "建中",
+         "ukey" : "建中,1224",
+         "vi" : "Kiến Trung"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "era_id" : 1057,
+         "era_key" : "天應政平",
+         "name" : "天應政平",
+         "offset" : 1231,
+         "tw" : "天應政平",
+         "ukey" : "天應政平,1231",
+         "vi" : "Thiên Ứng Chính Bình"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "era_id" : 139,
+         "era_key" : "元豐(辛亥)",
+         "name" : "元豐",
+         "offset" : 1250,
+         "tw" : "元豐",
+         "ukey" : "元豐,1250",
+         "vi" : "Nguyên Phong"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "era_id" : 520,
+         "era_key" : "紹隆",
+         "name" : "紹隆",
+         "offset" : 1257,
+         "tw" : "紹隆",
+         "ukey" : "紹隆,1257",
+         "vi" : "Thiệu Long"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "era_id" : 1258,
+         "era_key" : "寶符",
+         "name" : "寶符",
+         "offset" : 1272,
+         "tw" : "寶符",
+         "ukey" : "寶符,1272",
+         "vi" : "Bảo Phù"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "era_id" : 457,
+         "era_key" : "紹寶",
+         "name" : "紹寶",
+         "offset" : 1278,
+         "tw" : "紹寶",
+         "ukey" : "紹寶,1278",
+         "vi" : "Thiệu Bảo"
+      },
+      {
+         "_possibles" : [
+            [
+               737,
+               "重興",
+               1643
+            ],
+            [
+               989,
+               "重興(癸巳)",
+               1292
+            ]
+         ],
+         "caption" : "Trần_dynasty",
+         "name" : "重興",
+         "offset" : 1284,
+         "tw" : "重興",
+         "ukey" : "重興,1284",
+         "vi" : "Trùng Hưng"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "era_id" : 1423,
+         "era_key" : "興隆(癸巳)",
+         "name" : "興隆",
+         "offset" : 1292,
+         "tw" : "興隆",
+         "ukey" : "興隆,1292",
+         "vi" : "Hưng Long"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "era_id" : 791,
+         "era_key" : "大慶(甲寅)",
+         "name" : "大慶",
+         "offset" : 1313,
+         "tw" : "大慶",
+         "ukey" : "大慶,1313",
+         "vi" : "Đại Khánh"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "era_id" : 68,
+         "era_key" : "開泰(甲子)",
+         "name" : "開泰",
+         "offset" : 1323,
+         "tw" : "開泰",
+         "ukey" : "開泰,1323",
+         "vi" : "Khai Thái"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "name" : "開祐",
+         "offset" : 1328,
+         "tw" : "開祐",
+         "ukey" : "開祐,1328",
+         "vi" : "Khai Hựu"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "era_id" : 765,
+         "era_key" : "紹豐",
+         "name" : "紹豐",
+         "offset" : 1340,
+         "tw" : "紹豐",
+         "ukey" : "紹豐,1340",
+         "vi" : "Thiệu Phong"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "era_id" : 266,
+         "era_key" : "大治(戊戌)",
+         "name" : "大治",
+         "offset" : 1357,
+         "tw" : "大治",
+         "ukey" : "大治,1357",
+         "vi" : "Đại Trị"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "era_id" : 280,
+         "era_key" : "大定(己酉)",
+         "name" : "大定",
+         "offset" : 1368,
+         "tw" : "大定",
+         "ukey" : "大定,1368",
+         "vi" : "Đại Định"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "era_id" : 92,
+         "era_key" : "紹慶",
+         "name" : "紹慶",
+         "offset" : 1369,
+         "tw" : "紹慶",
+         "ukey" : "紹慶,1369",
+         "vi" : "Thiệu Khánh"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "era_id" : 158,
+         "era_key" : "隆慶(癸丑)",
+         "name" : "隆慶",
+         "offset" : 1372,
+         "tw" : "隆慶",
+         "ukey" : "隆慶,1372",
+         "vi" : "Long Khánh"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "era_id" : 1618,
+         "era_key" : "昌符",
+         "name" : "昌符",
+         "offset" : 1376,
+         "tw" : "昌符",
+         "ukey" : "昌符,1376",
+         "vi" : "Xương Phù"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "era_id" : 963,
+         "era_key" : "光泰",
+         "name" : "光泰",
+         "offset" : 1387,
+         "tw" : "光泰",
+         "ukey" : "光泰,1387",
+         "vi" : "Quang Thái"
+      },
+      {
+         "caption" : "Trần dynasty",
+         "era_id" : 1227,
+         "era_key" : "建新",
+         "name" : "建新",
+         "offset" : 1397,
+         "tw" : "建新",
+         "ukey" : "建新,1397",
+         "vi" : "Kiến Tân"
+      },
+      {
+         "caption" : "Trần dynasty/misc",
+         "era_id" : 859,
+         "era_key" : "熙元",
+         "name" : "熙元",
+         "offset" : 1378,
+         "tw" : "熙元",
+         "ukey" : "熙元,1378",
+         "vi" : "Hy Nguyên"
+      },
+      {
+         "caption" : "Hồ dynasty",
+         "era_id" : 1033,
+         "era_key" : "聖元",
+         "name" : "聖元",
+         "offset" : 1399,
+         "tw" : "聖元",
+         "ukey" : "聖元,1399",
+         "vi" : "Thánh Nguyên"
+      },
+      {
+         "caption" : "Hồ dynasty",
+         "era_id" : 1033,
+         "era_key" : "聖元",
+         "name" : "元聖",
+         "offset" : 1399,
+         "tw" : "元聖",
+         "ukey" : "元聖,1399",
+         "vi" : "Nguyên Thánh"
+      },
+      {
+         "caption" : "Hồ dynasty",
+         "era_id" : 990,
+         "era_key" : "紹聖(辛巳)",
+         "name" : "紹成",
+         "offset" : 1400,
+         "tw" : "紹成",
+         "ukey" : "紹成,1400",
+         "vi" : "Thiệu Thành"
+      },
+      {
+         "_possibles" : [
+            [
+               1188,
+               "開大",
+               1403
+            ]
+         ],
+         "caption" : "Hồ_dynasty",
+         "name" : "開大",
+         "offset" : 1402,
+         "tw" : "開大",
+         "ukey" : "開大,1402",
+         "vi" : "Khai Đại"
+      },
+      {
+         "caption" : "Later Trần dynasty",
+         "era_id" : 1651,
+         "era_key" : "興慶(丁亥)",
+         "name" : "興慶",
+         "offset" : 1406,
+         "tw" : "興慶",
+         "ukey" : "興慶,1406",
+         "vi" : "Hưng Khánh"
+      },
+      {
+         "caption" : "Later Trần dynasty",
+         "era_id" : 630,
+         "era_key" : "重光(己丑)",
+         "name" : "重光",
+         "offset" : 1408,
+         "tw" : "重光",
+         "ukey" : "重光,1408",
+         "vi" : "Trùng Quang"
+      },
+      {
+         "caption" : "Later Trần dynasty",
+         "era_id" : 343,
+         "era_key" : "天慶(丙午)",
+         "name" : "天慶",
+         "offset" : 1425,
+         "tw" : "天慶",
+         "ukey" : "天慶,1425",
+         "vi" : "Thiên Khánh"
+      },
+      {
+         "caption" : "Later Trần dynasty/misc",
+         "era_id" : 1824,
+         "era_key" : "永寧(丁酉)",
+         "name" : "永寧",
+         "offset" : 1416,
+         "tw" : "永寧",
+         "ukey" : "永寧,1416",
+         "vi" : "Vĩnh Ninh"
+      },
+      {
+         "caption" : "Later Trần dynasty/misc",
+         "era_id" : 55,
+         "era_key" : "永天",
+         "name" : "永天",
+         "offset" : 1419,
+         "tw" : "永天",
+         "ukey" : "永天,1419",
+         "vi" : "Vĩnh Thiên"
+      },
+      {
+         "caption" : "Primitive Lê dynasty",
+         "era_id" : 30,
+         "era_key" : "順天(戊申)",
+         "name" : "順天",
+         "offset" : 1427,
+         "tw" : "順天",
+         "ukey" : "順天,1427",
+         "vi" : "Thuận Thiên"
+      },
+      {
+         "caption" : "Primitive Lê dynasty",
+         "era_id" : 517,
+         "era_key" : "紹平",
+         "name" : "紹平",
+         "offset" : 1433,
+         "tw" : "紹平",
+         "ukey" : "紹平,1433",
+         "vi" : "Thiệu Bình"
+      },
+      {
+         "caption" : "Primitive Lê dynasty",
+         "era_id" : 1562,
+         "era_key" : "大寶(庚申)",
+         "name" : "大寶",
+         "offset" : 1439,
+         "tw" : "大寶",
+         "ukey" : "大寶,1439",
+         "vi" : "Đại Bảo"
+      },
+      {
+         "_possibles" : [
+            [
+               288,
+               "大寶(己巳)",
+               1148
+            ],
+            [
+               554,
+               "大宝",
+               700
+            ]
+         ],
+         "caption" : "Primitive_Lê_dynasty",
+         "name" : "太寶",
+         "offset" : 1439,
+         "tw" : "太寶",
+         "ukey" : "太寶,1439",
+         "vi" : "Thái Bảo"
+      },
+      {
+         "caption" : "Primitive Lê dynasty",
+         "era_id" : 560,
+         "era_key" : "大和(癸亥)",
+         "name" : "大和",
+         "offset" : 1442,
+         "tw" : "大和",
+         "ukey" : "大和,1442",
+         "vi" : "Đại Hòa"
+      },
+      {
+         "caption" : "Primitive Lê dynasty",
+         "era_id" : 560,
+         "era_key" : "大和(癸亥)",
+         "name" : "太和",
+         "offset" : 1442,
+         "tw" : "太和",
+         "ukey" : "太和,1442",
+         "vi" : "Thái Hòa"
+      },
+      {
+         "caption" : "Primitive Lê dynasty",
+         "era_id" : 1598,
+         "era_key" : "延寧",
+         "name" : "延寧",
+         "offset" : 1453,
+         "tw" : "延寧",
+         "ukey" : "延寧,1453",
+         "vi" : "Diên Ninh"
+      },
+      {
+         "caption" : "Primitive Lê dynasty",
+         "era_id" : 346,
+         "era_key" : "天興(己卯)",
+         "name" : "天興",
+         "offset" : 1458,
+         "tw" : "天興",
+         "ukey" : "天興,1458",
+         "vi" : "Thiên Hưng"
+      },
+      {
+         "caption" : "Primitive Lê dynasty",
+         "era_id" : 555,
+         "era_key" : "光順",
+         "name" : "光順",
+         "offset" : 1459,
+         "tw" : "光順",
+         "ukey" : "光順,1459",
+         "vi" : "Quang Thuận"
+      },
+      {
+         "caption" : "Primitive Lê dynasty",
+         "era_id" : 184,
+         "era_key" : "洪德(庚寅)",
+         "name" : "洪德",
+         "offset" : 1469,
+         "tw" : "洪德",
+         "ukey" : "洪德,1469",
+         "vi" : "Hồng Đức"
+      },
+      {
+         "caption" : "Primitive Lê dynasty",
+         "era_id" : 87,
+         "era_key" : "景統",
+         "name" : "景統",
+         "offset" : 1497,
+         "tw" : "景統",
+         "ukey" : "景統,1497",
+         "vi" : "Cảnh Thống"
+      },
+      {
+         "caption" : "Primitive Lê dynasty",
+         "name" : "太貞",
+         "offset" : 1503,
+         "tw" : "太貞",
+         "ukey" : "太貞,1503",
+         "vi" : "Thái Trinh"
+      },
+      {
+         "caption" : "Primitive Lê dynasty",
+         "era_id" : 1338,
+         "era_key" : "端慶",
+         "name" : "端慶",
+         "offset" : 1504,
+         "tw" : "端慶",
+         "ukey" : "端慶,1504",
+         "vi" : "Đoan Khánh"
+      },
+      {
+         "caption" : "Primitive Lê dynasty",
+         "era_id" : 1407,
+         "era_key" : "洪順(己巳)",
+         "name" : "洪順",
+         "offset" : 1508,
+         "tw" : "洪順",
+         "ukey" : "洪順,1508",
+         "vi" : "Hồng Thuận"
+      },
+      {
+         "caption" : "Primitive Lê dynasty",
+         "era_id" : 155,
+         "era_key" : "光紹",
+         "name" : "光紹",
+         "offset" : 1515,
+         "tw" : "光紹",
+         "ukey" : "光紹,1515",
+         "vi" : "Quang Thiệu"
+      },
+      {
+         "caption" : "Primitive Lê dynasty",
+         "era_id" : 1557,
+         "era_key" : "統元",
+         "name" : "統元",
+         "offset" : 1521,
+         "tw" : "統元",
+         "ukey" : "統元,1521",
+         "vi" : "Thống Nguyên"
+      },
+      {
+         "_possibles" : [
+            [
+               804,
+               "天応",
+               780
+            ],
+            [
+               1280,
+               "天應(丁亥)",
+               926
+            ]
+         ],
+         "caption" : "Primitive_Lê_dynasty/misc",
+         "name" : "天應",
+         "offset" : 1515,
+         "tw" : "天應",
+         "ukey" : "天應,1515",
+         "vi" : "Thiên Ứng"
+      },
+      {
+         "_possibles" : [
+            [
+               42,
+               "應天",
+               1205
+            ],
+            [
+               387,
+               "應天(癸亥)",
+               782
+            ],
+            [
+               551,
+               "應天(辛未)",
+               910
+            ],
+            [
+               1037,
+               "應天(甲午)",
+               993
+            ],
+            [
+               1416,
+               "應天(己亥)",
+               758
+            ],
+            [
+               2123,
+               "應天(丁卯)",
+               1206
+            ]
+         ],
+         "caption" : "Primitive_Lê_dynasty/misc",
+         "name" : "應天",
+         "offset" : 1515,
+         "tw" : "應天",
+         "ukey" : "應天,1515",
+         "vi" : "Ứng Thiên"
+      },
+      {
+         "caption" : "Primitive Lê dynasty/misc",
+         "era_id" : 160,
+         "era_key" : "宣和(丙子)",
+         "name" : "宣和",
+         "offset" : 1515,
+         "tw" : "宣和",
+         "ukey" : "宣和,1515",
+         "vi" : "Tuyên Hòa"
+      },
+      {
+         "caption" : "Primitive Lê dynasty/misc",
+         "era_id" : 781,
+         "era_key" : "大德(戊寅)",
+         "name" : "大德",
+         "offset" : 1517,
+         "tw" : "大德",
+         "ukey" : "大德,1517",
+         "vi" : "Đại Đức"
+      },
+      {
+         "_possibles" : [
+            [
+               179,
+               "天德(癸丑)",
+               1852
+            ],
+            [
+               611,
+               "天德(丙子)",
+               1215
+            ],
+            [
+               635,
+               "天德(戊子)",
+               1707
+            ],
+            [
+               689,
+               "天德(癸卯)",
+               942
+            ],
+            [
+               763,
+               "天德(辛亥)",
+               1850
+            ],
+            [
+               783,
+               "元德(己亥)",
+               1118
+            ],
+            [
+               1152,
+               "天徳",
+               956
+            ],
+            [
+               1401,
+               "天德(甲子)",
+               543
+            ],
+            [
+               1474,
+               "天德(己巳)",
+               1148
+            ]
+         ],
+         "caption" : "Primitive_Lê_dynasty/misc",
+         "name" : "天德",
+         "offset" : 1517,
+         "tw" : "天德",
+         "ukey" : "天德,1517",
+         "vi" : "Thiên Đức"
+      },
+      {
+         "_possibles" : [
+            [
+               1129,
+               "天憲",
+               1517
+            ]
+         ],
+         "caption" : "Primitive_Lê_dynasty/misc",
+         "name" : "天憲",
+         "offset" : 1518,
+         "tw" : "天憲",
+         "ukey" : "天憲,1518",
+         "vi" : "Thiên Hiến"
+      },
+      {
+         "caption" : "Mạc dynasty",
+         "era_id" : 851,
+         "era_key" : "明德(丁亥)",
+         "name" : "明德",
+         "offset" : 1526,
+         "tw" : "明德",
+         "ukey" : "明德,1526",
+         "vi" : "Minh Đức"
+      },
+      {
+         "caption" : "Mạc dynasty",
+         "era_id" : 454,
+         "era_key" : "大正(庚寅)",
+         "name" : "大正",
+         "offset" : 1529,
+         "tw" : "大正",
+         "ukey" : "大正,1529",
+         "vi" : "Đại Chính"
+      },
+      {
+         "caption" : "Mạc dynasty",
+         "era_id" : 1145,
+         "era_key" : "廣和",
+         "name" : "廣和",
+         "offset" : 1540,
+         "tw" : "廣和",
+         "ukey" : "廣和,1540",
+         "vi" : "Quảng Hòa"
+      },
+      {
+         "caption" : "Mạc dynasty",
+         "era_id" : 847,
+         "era_key" : "永定(丁未)",
+         "name" : "永定",
+         "offset" : 1546,
+         "tw" : "永定",
+         "ukey" : "永定,1546",
+         "vi" : "Vĩnh Định"
+      },
+      {
+         "caption" : "Mạc dynasty",
+         "name" : "景曆",
+         "offset" : 1547,
+         "tw" : "景曆",
+         "ukey" : "景曆,1547",
+         "vi" : "Cảnh Lịch"
+      },
+      {
+         "_possibles" : [
+            [
+               315,
+               "光寶",
+               1553
+            ]
+         ],
+         "caption" : "Mạc_dynasty",
+         "name" : "光寶",
+         "offset" : 1554,
+         "tw" : "光寶",
+         "ukey" : "光寶,1554",
+         "vi" : "Quang Bảo"
+      },
+      {
+         "_possibles" : [
+            [
+               602,
+               "淳福",
+               1561
+            ]
+         ],
+         "caption" : "Mạc_dynasty",
+         "name" : "淳福",
+         "offset" : 1564,
+         "tw" : "淳福",
+         "ukey" : "淳福,1564",
+         "vi" : "Thuần Phúc"
+      },
+      {
+         "_possibles" : [
+            [
+               1547,
+               "崇康",
+               1565
+            ]
+         ],
+         "caption" : "Mạc_dynasty",
+         "name" : "崇康",
+         "offset" : 1567,
+         "tw" : "崇康",
+         "ukey" : "崇康,1567",
+         "vi" : "Sùng Khang"
+      },
+      {
+         "caption" : "Mạc dynasty",
+         "era_id" : 584,
+         "era_key" : "延成",
+         "name" : "延成",
+         "offset" : 1577,
+         "tw" : "延成",
+         "ukey" : "延成,1577",
+         "vi" : "Diên Thành"
+      },
+      {
+         "_possibles" : [
+            [
+               1137,
+               "端泰",
+               1585
+            ]
+         ],
+         "caption" : "Mạc_dynasty",
+         "name" : "端泰",
+         "offset" : 1584,
+         "tw" : "端泰",
+         "ukey" : "端泰,1584",
+         "vi" : "Đoan Thái"
+      },
+      {
+         "caption" : "Mạc dynasty",
+         "era_id" : 979,
+         "era_key" : "興治",
+         "name" : "興治",
+         "offset" : 1587,
+         "tw" : "興治",
+         "ukey" : "興治,1587",
+         "vi" : "Hưng Trị"
+      },
+      {
+         "caption" : "Mạc dynasty",
+         "era_id" : 401,
+         "era_key" : "洪寧",
+         "name" : "洪寧",
+         "offset" : 1590,
+         "tw" : "洪寧",
+         "ukey" : "洪寧,1590",
+         "vi" : "Hồng Ninh"
+      },
+      {
+         "caption" : "Mạc dynasty",
+         "era_id" : 1255,
+         "era_key" : "武安",
+         "name" : "武安",
+         "offset" : 1591,
+         "tw" : "武安",
+         "ukey" : "武安,1591",
+         "vi" : "Vũ An"
+      },
+      {
+         "caption" : "Mạc dynasty",
+         "era_id" : 324,
+         "era_key" : "寶定",
+         "name" : "寶定",
+         "offset" : 1591,
+         "tw" : "寶定",
+         "ukey" : "寶定,1591",
+         "vi" : "Bảo Định"
+      },
+      {
+         "caption" : "Mạc dynasty",
+         "era_id" : 1350,
+         "era_key" : "康佑",
+         "name" : "康祐",
+         "offset" : 1592,
+         "tw" : "康祐",
+         "ukey" : "康祐,1592",
+         "vi" : "Khang Hựu"
+      },
+      {
+         "caption" : "Mạc dynasty",
+         "era_id" : 920,
+         "era_key" : "乾統(癸巳)",
+         "name" : "乾統",
+         "offset" : 1592,
+         "tw" : "乾統",
+         "ukey" : "乾統,1592",
+         "vi" : "Càn Thống"
+      },
+      {
+         "_possibles" : [
+            [
+               1435,
+               "隆泰",
+               1593
+            ]
+         ],
+         "caption" : "Mạc_dynasty",
+         "name" : "隆泰",
+         "offset" : 1617,
+         "tw" : "隆泰",
+         "ukey" : "隆泰,1617",
+         "vi" : "Long Thái"
+      },
+      {
+         "_possibles" : [
+            [
+               316,
+               "順德(己卯)",
+               1518
+            ],
+            [
+               1457,
+               "順德",
+               967
+            ],
+            [
+               1662,
+               "順德(戊辰)",
+               1627
+            ],
+            [
+               1667,
+               "順德(段思曠)",
+               null
+            ]
+         ],
+         "caption" : "Mạc_dynasty",
+         "name" : "順德",
+         "offset" : 1637,
+         "tw" : "順德",
+         "ukey" : "順德,1637",
+         "vi" : "Thuận Đức"
+      },
+      {
+         "_possibles" : [
+            [
+               314,
+               "永昌(甲申)",
+               1643
+            ],
+            [
+               899,
+               "永昌",
+               321
+            ],
+            [
+               1365,
+               "永昌(己丑)",
+               688
+            ]
+         ],
+         "caption" : "Mạc_dynasty",
+         "name" : "永昌",
+         "offset" : 1660,
+         "tw" : "永昌",
+         "ukey" : "永昌,1660",
+         "vi" : "Vĩnh Xương"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 272,
+         "era_key" : "元和(癸巳)",
+         "name" : "元和",
+         "offset" : 1532,
+         "tw" : "元和",
+         "ukey" : "元和,1532",
+         "vi" : "Nguyên Hòa"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 955,
+         "era_key" : "順平",
+         "name" : "順平",
+         "offset" : 1548,
+         "tw" : "順平",
+         "ukey" : "順平,1548",
+         "vi" : "Thuận Bình"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 1265,
+         "era_key" : "天祐(丁巳)",
+         "name" : "天祐",
+         "offset" : 1556,
+         "tw" : "天祐",
+         "ukey" : "天祐,1556",
+         "vi" : "Thiên Hựu"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 1473,
+         "era_key" : "正治(戊午)",
+         "name" : "正治",
+         "offset" : 1557,
+         "tw" : "正治",
+         "ukey" : "正治,1557",
+         "vi" : "Chính Trị"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 138,
+         "era_key" : "洪福",
+         "name" : "洪福",
+         "offset" : 1571,
+         "tw" : "洪福",
+         "ukey" : "洪福,1571",
+         "vi" : "Hồng Phúc"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 1386,
+         "era_key" : "嘉泰(癸酉)",
+         "name" : "嘉泰",
+         "offset" : 1572,
+         "tw" : "嘉泰",
+         "ukey" : "嘉泰,1572",
+         "vi" : "Gia Thái"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 1487,
+         "era_key" : "光興(戊寅)",
+         "name" : "光興",
+         "offset" : 1577,
+         "tw" : "光興",
+         "ukey" : "光興,1577",
+         "vi" : "Quang Hưng"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 1559,
+         "era_key" : "慎德",
+         "name" : "慎德",
+         "offset" : 1599,
+         "tw" : "慎德",
+         "ukey" : "慎德,1599",
+         "vi" : "Thận Đức"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 1010,
+         "era_key" : "弘定",
+         "name" : "弘定",
+         "offset" : 1599,
+         "tw" : "弘定",
+         "ukey" : "弘定,1599",
+         "vi" : "Hoằng Định"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 249,
+         "era_key" : "永祚(己未)",
+         "name" : "永祚",
+         "offset" : 1618,
+         "tw" : "永祚",
+         "ukey" : "永祚,1618",
+         "vi" : "Vĩnh Tộ"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 1693,
+         "era_key" : "德隆",
+         "name" : "德隆",
+         "offset" : 1628,
+         "tw" : "德隆",
+         "ukey" : "德隆,1628",
+         "vi" : "Đức Long"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 1414,
+         "era_key" : "陽和",
+         "name" : "陽和",
+         "offset" : 1634,
+         "tw" : "陽和",
+         "ukey" : "陽和,1634",
+         "vi" : "Dương Hòa"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 1109,
+         "era_key" : "福泰",
+         "name" : "福泰",
+         "offset" : 1642,
+         "tw" : "福泰",
+         "ukey" : "福泰,1642",
+         "vi" : "Phúc Thái"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 532,
+         "era_key" : "慶德",
+         "name" : "慶德",
+         "offset" : 1648,
+         "tw" : "慶德",
+         "ukey" : "慶德,1648",
+         "vi" : "Khánh Đức"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 1244,
+         "era_key" : "盛德(癸巳)",
+         "name" : "盛德",
+         "offset" : 1652,
+         "tw" : "盛德",
+         "ukey" : "盛德,1652",
+         "vi" : "Thịnh Đức"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 1644,
+         "era_key" : "永壽(戊戌)",
+         "name" : "永壽",
+         "offset" : 1657,
+         "tw" : "永壽",
+         "ukey" : "永壽,1657",
+         "vi" : "Vĩnh Thọ"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 566,
+         "era_key" : "萬慶",
+         "name" : "萬慶",
+         "offset" : 1661,
+         "tw" : "萬慶",
+         "ukey" : "萬慶,1661",
+         "vi" : "Vạn Khánh"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 1500,
+         "era_key" : "景治",
+         "name" : "景治",
+         "offset" : 1662,
+         "tw" : "景治",
+         "ukey" : "景治,1662",
+         "vi" : "Cảnh Trị"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 504,
+         "era_key" : "陽德",
+         "name" : "陽德",
+         "offset" : 1671,
+         "tw" : "陽德",
+         "ukey" : "陽德,1671",
+         "vi" : "Dương Đức"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 1359,
+         "era_key" : "德元",
+         "name" : "德元",
+         "offset" : 1673,
+         "tw" : "德元",
+         "ukey" : "德元,1673",
+         "vi" : "Đức Nguyên"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 164,
+         "era_key" : "永治(丙辰)",
+         "name" : "永治",
+         "offset" : 1675,
+         "tw" : "永治",
+         "ukey" : "永治,1675",
+         "vi" : "Vĩnh Trị"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 95,
+         "era_key" : "正和(庚申)",
+         "name" : "正和",
+         "offset" : 1679,
+         "tw" : "正和",
+         "ukey" : "正和,1679",
+         "vi" : "Chính Hòa"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 883,
+         "era_key" : "永盛",
+         "name" : "永盛",
+         "offset" : 1704,
+         "tw" : "永盛",
+         "ukey" : "永盛,1704",
+         "vi" : "Vĩnh Thịnh"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 919,
+         "era_key" : "保泰",
+         "name" : "保泰",
+         "offset" : 1719,
+         "tw" : "保泰",
+         "ukey" : "保泰,1719",
+         "vi" : "Bảo Thái"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 1546,
+         "era_key" : "永慶",
+         "name" : "永慶",
+         "offset" : 1728,
+         "tw" : "永慶",
+         "ukey" : "永慶,1728",
+         "vi" : "Vĩnh Khánh"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 1451,
+         "era_key" : "龍德(壬子)",
+         "name" : "龍德",
+         "offset" : 1731,
+         "tw" : "龍德",
+         "ukey" : "龍德,1731",
+         "vi" : "Long Đức"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 941,
+         "era_key" : "永佑",
+         "name" : "永祐",
+         "offset" : 1734,
+         "tw" : "永祐",
+         "ukey" : "永祐,1734",
+         "vi" : "Vĩnh Hựu"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 559,
+         "era_key" : "景興",
+         "name" : "景興",
+         "offset" : 1739,
+         "tw" : "景興",
+         "ukey" : "景興,1739",
+         "vi" : "Cảnh Hưng"
+      },
+      {
+         "caption" : "Revival Lê dynasty",
+         "era_id" : 1231,
+         "era_key" : "昭統",
+         "name" : "昭統",
+         "offset" : 1786,
+         "tw" : "昭統",
+         "ukey" : "昭統,1786",
+         "vi" : "Chiêu Thống"
+      },
+      {
+         "_possibles" : [
+            [
+               155,
+               "光紹",
+               1515
+            ],
+            [
+               1678,
+               "光照(乙未)",
+               1534
+            ]
+         ],
+         "caption" : "Revival_Lê_dynasty/misc",
+         "name" : "光照",
+         "offset" : 1532,
+         "tw" : "光照",
+         "ukey" : "光照,1532",
+         "vi" : "Quang Chiếu"
+      },
+      {
+         "_possibles" : [
+            [
+               384,
+               "羅平(辛酉)",
+               1140
+            ],
+            [
+               588,
+               "羅平(己亥)",
+               1178
+            ],
+            [
+               954,
+               "羅平",
+               859
+            ],
+            [
+               1303,
+               "羅平(丁酉)",
+               1596
+            ]
+         ],
+         "caption" : "Revival_Lê_dynasty/misc",
+         "name" : "羅平",
+         "offset" : 1593,
+         "tw" : "羅平",
+         "ukey" : "羅平,1593",
+         "vi" : "La Bình"
+      },
+      {
+         "_possibles" : [
+            [
+               713,
+               "大德",
+               1134
+            ],
+            [
+               781,
+               "大德(戊寅)",
+               1517
+            ],
+            [
+               1041,
+               "大德(丁酉)",
+               1296
+            ],
+            [
+               1623,
+               "大德(越南丁酉)",
+               1596
+            ],
+            [
+               1806,
+               "天德",
+               543
+            ]
+         ],
+         "caption" : "Revival_Lê_dynasty/misc",
+         "name" : "大德",
+         "offset" : 1594,
+         "tw" : "大德",
+         "ukey" : "大德,1594",
+         "vi" : "Đại Đức"
+      },
+      {
+         "_possibles" : [
+            [
+               1328,
+               "福德(丁酉)",
+               1596
+            ],
+            [
+               1555,
+               "福徳",
+               1489
+            ]
+         ],
+         "caption" : "Revival_Lê_dynasty/misc",
+         "name" : "福德",
+         "offset" : 1595,
+         "tw" : "福德",
+         "ukey" : "福德,1595",
+         "vi" : "Phúc Đức"
+      },
+      {
+         "caption" : "Tây Sơn dynasty",
+         "era_id" : 1224,
+         "era_key" : "泰德",
+         "name" : "泰德",
+         "offset" : 1777,
+         "tw" : "泰德",
+         "ukey" : "泰德,1777",
+         "vi" : "Thái Đức"
+      },
+      {
+         "caption" : "Tây Sơn dynasty",
+         "era_id" : 351,
+         "era_key" : "光中",
+         "name" : "光中",
+         "offset" : 1787,
+         "tw" : "光中",
+         "ukey" : "光中,1787",
+         "vi" : "Quang Trung"
+      },
+      {
+         "caption" : "Tây Sơn dynasty",
+         "era_id" : 411,
+         "era_key" : "景盛",
+         "name" : "景盛",
+         "offset" : 1792,
+         "tw" : "景盛",
+         "ukey" : "景盛,1792",
+         "vi" : "Cảnh Thịnh"
+      },
+      {
+         "caption" : "Tây Sơn dynasty",
+         "era_id" : 242,
+         "era_key" : "寶興",
+         "name" : "寶興",
+         "offset" : 1800,
+         "tw" : "寶興",
+         "ukey" : "寶興,1800",
+         "vi" : "Bảo Hưng"
+      },
+      {
+         "caption" : "Nguyễn dynasty",
+         "era_id" : 1205,
+         "era_key" : "嘉隆",
+         "name" : "嘉隆",
+         "offset" : 1801,
+         "tw" : "嘉隆",
+         "ukey" : "嘉隆,1801",
+         "vi" : "Gia Long"
+      },
+      {
+         "caption" : "Nguyễn dynasty",
+         "era_id" : 1710,
+         "era_key" : "明命",
+         "name" : "明命",
+         "offset" : 1819,
+         "tw" : "明命",
+         "ukey" : "明命,1819",
+         "vi" : "Minh Mạng"
+      },
+      {
+         "caption" : "Nguyễn dynasty",
+         "era_id" : 742,
+         "era_key" : "紹治",
+         "name" : "紹治",
+         "offset" : 1840,
+         "tw" : "紹治",
+         "ukey" : "紹治,1840",
+         "vi" : "Thiệu Trị"
+      },
+      {
+         "caption" : "Nguyễn dynasty",
+         "era_id" : 1567,
+         "era_key" : "嗣德",
+         "name" : "嗣德",
+         "offset" : 1847,
+         "tw" : "嗣德",
+         "ukey" : "嗣德,1847",
+         "vi" : "Tự Đức"
+      },
+      {
+         "caption" : "Nguyễn dynasty",
+         "era_id" : 1248,
+         "era_key" : "協和",
+         "name" : "協和",
+         "tw" : "協和",
+         "ukey" : "協和",
+         "vi" : "Hiệp Hòa"
+      },
+      {
+         "caption" : "Nguyễn dynasty",
+         "era_id" : 569,
+         "era_key" : "建福(甲申)",
+         "name" : "建福",
+         "offset" : 1883,
+         "tw" : "建福",
+         "ukey" : "建福,1883",
+         "vi" : "Kiến Phúc"
+      },
+      {
+         "caption" : "Nguyễn dynasty",
+         "era_id" : 1517,
+         "era_key" : "咸宜",
+         "name" : "咸宜",
+         "offset" : 1884,
+         "tw" : "咸宜",
+         "ukey" : "咸宜,1884",
+         "vi" : "Hàm Nghi"
+      },
+      {
+         "caption" : "Nguyễn dynasty",
+         "era_id" : 1531,
+         "era_key" : "同慶(乙酉)",
+         "name" : "同慶",
+         "offset" : 1884,
+         "tw" : "同慶",
+         "ukey" : "同慶,1884",
+         "vi" : "Đồng Khánh"
+      },
+      {
+         "caption" : "Nguyễn dynasty",
+         "era_id" : 116,
+         "era_key" : "成泰",
+         "name" : "成泰",
+         "offset" : 1888,
+         "tw" : "成泰",
+         "ukey" : "成泰,1888",
+         "vi" : "Thành Thái"
+      },
+      {
+         "caption" : "Nguyễn dynasty",
+         "era_id" : 1411,
+         "era_key" : "維新",
+         "name" : "維新",
+         "offset" : 1906,
+         "tw" : "維新",
+         "ukey" : "維新,1906",
+         "vi" : "Duy Tân"
+      },
+      {
+         "caption" : "Nguyễn dynasty",
+         "era_id" : 131,
+         "era_key" : "啟定",
+         "name" : "啓定",
+         "offset" : 1915,
+         "tw" : "啓定",
+         "ukey" : "啓定,1915",
+         "vi" : "Khải Định"
+      },
+      {
+         "caption" : "Nguyễn dynasty",
+         "era_id" : 277,
+         "era_key" : "保大(丙寅)",
+         "name" : "保大",
+         "offset" : 1925,
+         "tw" : "保大",
+         "ukey" : "保大,1925",
+         "vi" : "Bảo Đại"
+      },
+      {
+         "caption" : "Nguyễn dynasty/misc",
+         "name" : "紅龍",
+         "offset" : 1911,
+         "tw" : "紅龍",
+         "ukey" : "紅龍,1911",
+         "vi" : "Hồng Long"
+      }
+   ],
+   "page_name" : "Vietnamese era name",
+   "wref_key" : "wref_en"
+}

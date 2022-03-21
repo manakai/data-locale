@@ -24,6 +24,9 @@ name 天主降生
 acronym(en) A
 expanded(la) [a]nn%C5%8D Domin%C4%AB
 expanded(en_la) [A]nno Domini
+&&
+acronym(en) C.E.
+expanded(en) [C]hristan [E]ra
 &
 
 ## <https://wiki.suikawiki.org/n/GOX%20IRAI>
@@ -54,7 +57,16 @@ expanded(en) [C]ommon [E]ra
 &
 name(en) Common Era
 &
+acronym(vi_latin) CN
+expanded(vi_latin) [C]ông [n]guyên
+&
+acronym(vi_latin) SCN
+&
 name_cn 公元
+name(vi_latin) Công nguyên
+&
+name_tw 公曆紀元
+name(vi_latin) Công lịch kỷ nguyên
 &
 name 公元紀年
 &
@@ -72,6 +84,12 @@ name_kana がく れき
 abbr_ja 学 学暦
 &&
 name_ja 和蘭紀元
+&&
+name_ja 紀元
+&
+name_ja 紀元後
+&
+name_ja 後
 
 wref_zh 公元
 wref_ja 西暦

@@ -35,28 +35,27 @@ my $Mapped = {};
     if (/^\s*#/) {
       #
     } elsif (/^(\S+)\s+([^\s,]+),(-?[0-9]+|-)\s+y~([0-9]+)\s*$/) {
-      $Mapped->{$1, $2, $3} = 0+$4;
+      my ($cc, $n, $o, $y) = ($1, $2, $3, $4);
+      $cc =~ s/_/ /g;
+      for my $c (split /\|/, $cc) {
+        $Mapped->{$c, $n, $o} = 0+$y;
+      }
     } elsif (/^(\S+)\s+(\S+)\s+y~([0-9]+)\s*$/) {
-      $Mapped->{$1, $2} = 0+$3;
+      my ($cc, $n, $y) = ($1, $2, $3);
+      $cc =~ s/_/ /g;
+      for my $c (split /\|/, $cc) {
+        $Mapped->{$c, $n} = 0+$y;
+      }
     } elsif (/\S/) {
       die "Bad line |$_|";
     }
   }
 }
 
-my $Langs = [qw(cn hk mo my sg tw)];
+my $Langs = [qw(cn hk mo my sg tw ja)];
 ERA: for my $era (@{$Data->{eras}}) {
   {
     my $mapped = $Mapped->{$era->{caption}, $era->{name}, $era->{offset} // '-'};
-    if (defined $mapped) {
-      my $data = $OldById->{$mapped} or die "Bad era ID |$mapped|";
-      $era->{era_id} = $data->{id};
-      $era->{era_key} = $data->{key};
-      next ERA;
-    }
-  }
-  {
-    my $mapped = $Mapped->{$era->{caption}, $era->{name}};
     if (defined $mapped) {
       my $data = $OldById->{$mapped} or die "Bad era ID |$mapped|";
       $era->{era_id} = $data->{id};
@@ -75,6 +74,7 @@ ERA: for my $era (@{$Data->{eras}}) {
   }
   my $found = {};
   @d2 = grep { not $found->{$_->{id}}++ } @d2;
+  my $errors = [];
   if (@d1) {
     $era->{era_id} = $d1[0]->{id};
     $era->{era_key} = $d1[0]->{key};
@@ -88,16 +88,28 @@ ERA: for my $era (@{$Data->{eras}}) {
   } elsif ($era->{dup}) {
     #
   } else {
-    push @{$Data->{_errors} ||= []},
-            ["Era not found", $era->{ukey}];
+    push @$errors, ["Era not found", $era->{ukey}];
   }
+
+  {
+    my $mapped = $Mapped->{$era->{caption}, $era->{name}};
+    if (defined $mapped) {
+      my $data = $OldById->{$mapped} or die "Bad era ID |$mapped|";
+      $era->{era_id} = $data->{id};
+      $era->{era_key} = $data->{key};
+      next ERA;
+    }
+  }
+
+  push @{$Data->{_errors} ||= []}, @$errors;
 
   if (not $era->{dup} and $era->{_possibles}) {
     if ($era->{might_dup}) {
       $era->{dup} = 1;
     } else {
+      $era->{caption} =~ s/ /_/g;
       push @{$Data->{_errors} ||= []},
-          ["Era mapping is missing", $era->{ukey}];
+          ["Era mapping is missing", $era->{ukey}, $era->{caption}];
     }
   }
 } # ERA

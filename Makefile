@@ -135,9 +135,6 @@ src/wp-jp-eras-en.json: bin/parse-wp-jp-eras-en.pl #local/wp-jp-eras-en.html
 local/cn-ryuukyuu-era-list.json: bin/cn-ryuukyuu-era-list.pl \
     src/eras/ryuukyuu.txt
 	$(PERL) $< > $@
-local/wp-zh-era-id-map.txt: bin/wp-zh-era-id-map.pl \
-    data/calendar/era-defs.json
-	$(PERL) $< > $@
 
 local/era-defs-jp-wp-en.json: bin/era-defs-jp-wp-en.pl \
     local/era-defs-jp.json \

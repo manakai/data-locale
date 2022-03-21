@@ -1,0 +1,2449 @@
+{
+   "_errors" : [
+      [
+         "Era mapping is missing",
+         "天德",
+         "전_리_왕조"
+      ],
+      [
+         "Era mapping is missing",
+         "順天,1009",
+         "리_왕조"
+      ],
+      [
+         "Era mapping is missing",
+         "天感聖武,1043",
+         "리_왕조"
+      ],
+      [
+         "Era mapping is missing",
+         "天貺寶象,1067",
+         "리_왕조"
+      ],
+      [
+         "Era not found",
+         "會豊,1091"
+      ],
+      [
+         "Era not found",
+         "龍符元化,1100"
+      ],
+      [
+         "Era mapping is missing",
+         "天順,1127",
+         "리_왕조"
+      ],
+      [
+         "Era mapping is missing",
+         "元豊,1250",
+         "쩐_왕조"
+      ],
+      [
+         "Era mapping is missing",
+         "重興,1284",
+         "쩐_왕조"
+      ],
+      [
+         "Era not found",
+         "紹豊,1340"
+      ],
+      [
+         "Era mapping is missing",
+         "開大,1402",
+         "호_왕조"
+      ],
+      [
+         "Era not found",
+         "景曆,1547"
+      ],
+      [
+         "Era mapping is missing",
+         "光寶,1554",
+         "막_왕조"
+      ],
+      [
+         "Era mapping is missing",
+         "淳福,1564",
+         "막_왕조"
+      ],
+      [
+         "Era mapping is missing",
+         "崇康,1567",
+         "막_왕조"
+      ],
+      [
+         "Era mapping is missing",
+         "端泰,1584",
+         "막_왕조"
+      ],
+      [
+         "Era mapping is missing",
+         "隆泰,1617",
+         "막_왕조"
+      ],
+      [
+         "Era mapping is missing",
+         "順德,1637",
+         "막_왕조"
+      ]
+   ],
+   "eras" : [
+      {
+         "_possibles" : [
+            [
+               179,
+               "天德(癸丑)",
+               1852
+            ],
+            [
+               611,
+               "天德(丙子)",
+               1215
+            ],
+            [
+               635,
+               "天德(戊子)",
+               1707
+            ],
+            [
+               689,
+               "天德(癸卯)",
+               942
+            ],
+            [
+               763,
+               "天德(辛亥)",
+               1850
+            ],
+            [
+               783,
+               "元德(己亥)",
+               1118
+            ],
+            [
+               1152,
+               "天徳",
+               956
+            ],
+            [
+               1401,
+               "天德(甲子)",
+               543
+            ],
+            [
+               1474,
+               "天德(己巳)",
+               1148
+            ]
+         ],
+         "caption" : "전_리_왕조",
+         "hangul" : "천덕",
+         "name" : "天德",
+         "tw" : "天德",
+         "ukey" : "天德",
+         "vi" : "Thiên Đức",
+         "vn_hanguls" : [
+            "천덕"
+         ],
+         "wref" : "티엔득"
+      },
+      {
+         "caption" : "딘 왕조",
+         "era_id" : 1516,
+         "era_key" : "太平(庚午)",
+         "hangul" : "태평",
+         "name" : "太平",
+         "offset" : 969,
+         "tw" : "太平",
+         "ukey" : "太平,969",
+         "vi" : "Thái Bình",
+         "vn_hanguls" : [
+            "태평"
+         ],
+         "wref" : "타이빈_(연호)"
+      },
+      {
+         "caption" : "딘 왕조",
+         "era_id" : 1516,
+         "era_key" : "太平(庚午)",
+         "hangul" : "태평",
+         "name" : "太平",
+         "offset" : 969,
+         "tw" : "太平",
+         "ukey" : "太平,969",
+         "vi" : "Thái Bình",
+         "vn_hanguls" : [
+            "태평"
+         ],
+         "wref" : "타이빈_(연호)"
+      },
+      {
+         "caption" : "전 레 왕조",
+         "era_id" : 1001,
+         "era_key" : "天福(庚辰)",
+         "hangul" : "천복",
+         "name" : "天福",
+         "offset" : 979,
+         "tw" : "天福",
+         "ukey" : "天福,979",
+         "vi" : "Thiên Phúc",
+         "vn_hanguls" : [
+            "천복"
+         ],
+         "wref" : "티엔푹"
+      },
+      {
+         "caption" : "전 레 왕조",
+         "era_id" : 1513,
+         "era_key" : "興統",
+         "hangul" : "흥통",
+         "name" : "興統",
+         "offset" : 988,
+         "tw" : "興統",
+         "ukey" : "興統,988",
+         "vi" : "Hưng Thống",
+         "vn_hanguls" : [
+            "흥통"
+         ],
+         "wref" : "흥통"
+      },
+      {
+         "caption" : "전 레 왕조",
+         "era_id" : 1037,
+         "era_key" : "應天(甲午)",
+         "hangul" : "응천",
+         "name" : "應天",
+         "offset" : 993,
+         "tw" : "應天",
+         "ukey" : "應天,993",
+         "vi" : "Ứng Thiên",
+         "vn_hanguls" : [
+            "응천"
+         ],
+         "wref" : "응티엔"
+      },
+      {
+         "caption" : "전 레 왕조",
+         "era_id" : 1037,
+         "era_key" : "應天(甲午)",
+         "hangul" : "응천",
+         "name" : "應天",
+         "offset" : 993,
+         "tw" : "應天",
+         "ukey" : "應天,993",
+         "vi" : "Ứng Thiên",
+         "vn_hanguls" : [
+            "응천"
+         ],
+         "wref" : "응티엔"
+      },
+      {
+         "caption" : "전 레 왕조",
+         "era_id" : 1037,
+         "era_key" : "應天(甲午)",
+         "hangul" : "응천",
+         "name" : "應天",
+         "offset" : 993,
+         "tw" : "應天",
+         "ukey" : "應天,993",
+         "vi" : "Ứng Thiên",
+         "vn_hanguls" : [
+            "응천"
+         ],
+         "wref" : "응티엔"
+      },
+      {
+         "caption" : "전 레 왕조",
+         "era_id" : 970,
+         "era_key" : "景瑞(戊申)",
+         "hangul" : "경서",
+         "name" : "景瑞",
+         "offset" : 1007,
+         "tw" : "景瑞",
+         "ukey" : "景瑞,1007",
+         "vi" : "Cảnh Thụy",
+         "vn_hanguls" : [
+            "경서"
+         ],
+         "wref" : "까인투이"
+      },
+      {
+         "_possibles" : [
+            [
+               30,
+               "順天(戊申)",
+               1427
+            ],
+            [
+               150,
+               "順天(乙卯)",
+               894
+            ],
+            [
+               663,
+               "順天(己酉)",
+               1008
+            ],
+            [
+               986,
+               "順天(丁未)",
+               1786
+            ],
+            [
+               1203,
+               "順天(庚申)",
+               1859
+            ],
+            [
+               1361,
+               "順天",
+               758
+            ],
+            [
+               1580,
+               "順天(丙子)",
+               1215
+            ],
+            [
+               1984,
+               "順天(乙亥)",
+               1214
+            ],
+            [
+               1985,
+               "順天(甲戌)",
+               1213
+            ],
+            [
+               2150,
+               "順天(己未)",
+               1858
+            ]
+         ],
+         "caption" : "리_왕조",
+         "hangul" : "순천",
+         "name" : "順天",
+         "offset" : 1009,
+         "tw" : "順天",
+         "ukey" : "順天,1009",
+         "vi" : "Thuận Thiên",
+         "vn_hanguls" : [
+            "순천"
+         ],
+         "wref" : "투언티엔_(리_왕조)"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 1615,
+         "era_key" : "天成(戊辰)",
+         "hangul" : "천성",
+         "name" : "天成",
+         "offset" : 1027,
+         "tw" : "天成",
+         "ukey" : "天成,1027",
+         "vi" : "Thiên Thành",
+         "vn_hanguls" : [
+            "천성"
+         ],
+         "wref" : "티엔타인"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 478,
+         "era_key" : "通瑞",
+         "hangul" : "통서",
+         "name" : "通瑞",
+         "offset" : 1033,
+         "tw" : "通瑞",
+         "ukey" : "通瑞,1033",
+         "vi" : "Thông Thụy",
+         "vn_hanguls" : [
+            "통서"
+         ],
+         "wref" : "통투이"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 134,
+         "era_key" : "乾符有道",
+         "hangul" : "건부유도",
+         "name" : "乾符有道",
+         "offset" : 1038,
+         "tw" : "乾符有道",
+         "ukey" : "乾符有道,1038",
+         "vi" : "Càn Phù Hữu Đạo",
+         "vn_hanguls" : [
+            "건부유도"
+         ],
+         "wref" : "깐푸흐우다오"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 1452,
+         "era_key" : "明道(壬午)",
+         "hangul" : "명도",
+         "name" : "明道",
+         "offset" : 1041,
+         "tw" : "明道",
+         "ukey" : "明道,1041",
+         "vi" : "Minh Đạo",
+         "vn_hanguls" : [
+            "명도"
+         ],
+         "wref" : "민다오"
+      },
+      {
+         "_possibles" : [
+            [
+               1593,
+               "天感聖武",
+               1048
+            ]
+         ],
+         "caption" : "리_왕조",
+         "hangul" : "천감성무",
+         "name" : "天感聖武",
+         "offset" : 1043,
+         "tw" : "天感聖武",
+         "ukey" : "天感聖武,1043",
+         "vi" : "Thiên Cảm Thánh Vũ",
+         "vn_hanguls" : [
+            "천감성무"
+         ],
+         "wref" : "티엔깜타인부"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 995,
+         "era_key" : "崇興大寶",
+         "hangul" : "숭흥대보",
+         "name" : "崇興大寶",
+         "offset" : 1048,
+         "tw" : "崇興大寶",
+         "ukey" : "崇興大寶,1048",
+         "vi" : "Sùng Hưng Đại Bảo",
+         "vn_hanguls" : [
+            "숭흥대보"
+         ],
+         "wref" : "숭흥다이바오"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 977,
+         "era_key" : "龍瑞太平",
+         "hangul" : "용서태평",
+         "name" : "龍瑞太平",
+         "offset" : 1053,
+         "tw" : "龍瑞太平",
+         "ukey" : "龍瑞太平,1053",
+         "vi" : "Long Thụy Thái Bình",
+         "vn_hanguls" : [
+            "용서태평"
+         ],
+         "wref" : "롱투이타이빈"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 73,
+         "era_key" : "彰聖嘉慶",
+         "hangul" : "창성가경",
+         "name" : "彰聖嘉慶",
+         "offset" : 1058,
+         "tw" : "彰聖嘉慶",
+         "ukey" : "彰聖嘉慶,1058",
+         "vi" : "Chương Thánh Gia Khánh",
+         "vn_hanguls" : [
+            "창성가경"
+         ],
+         "wref" : "쯔엉타인자카인"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 1717,
+         "era_key" : "龍彰天嗣",
+         "hangul" : "용창천사",
+         "name" : "龍彰天嗣",
+         "offset" : 1065,
+         "tw" : "龍彰天嗣",
+         "ukey" : "龍彰天嗣,1065",
+         "vi" : "Long Chương Thiên Tự",
+         "vn_hanguls" : [
+            "용창천사"
+         ],
+         "wref" : "롱쯔엉티엔뜨"
+      },
+      {
+         "_possibles" : [
+            [
+               141,
+               "天貺寶象",
+               1068
+            ]
+         ],
+         "caption" : "리_왕조",
+         "hangul" : "천황보상",
+         "name" : "天貺寶象",
+         "offset" : 1067,
+         "tw" : "天貺寶象",
+         "ukey" : "天貺寶象,1067",
+         "vi" : "Thiên Huống Bảo Tượng",
+         "vn_hanguls" : [
+            "천황보상"
+         ],
+         "wref" : "티엔후옹바오뜨엉"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 93,
+         "era_key" : "神武(己酉)",
+         "hangul" : "신무",
+         "name" : "神武",
+         "offset" : 1068,
+         "tw" : "神武",
+         "ukey" : "神武,1068",
+         "vi" : "Thần Vũ",
+         "vn_hanguls" : [
+            "신무"
+         ],
+         "wref" : "턴부"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 208,
+         "era_key" : "太寧(壬子)",
+         "hangul" : "태녕",
+         "name" : "太寧",
+         "offset" : 1071,
+         "tw" : "太寧",
+         "ukey" : "太寧,1071",
+         "vi" : "Thái Ninh",
+         "vn_hanguls" : [
+            "태녕"
+         ],
+         "wref" : "타이닌"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 362,
+         "era_key" : "英武昭勝",
+         "hangul" : "영무소승",
+         "name" : "英武昭勝",
+         "offset" : 1075,
+         "tw" : "英武昭勝",
+         "ukey" : "英武昭勝,1075",
+         "vi" : "Anh Vũ Chiêu Thắng",
+         "vn_hanguls" : [
+            "영무소승"
+         ],
+         "wref" : "아인부찌에우탕"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 1287,
+         "era_key" : "廣佑",
+         "hangul" : "광우",
+         "name" : "廣佑",
+         "offset" : 1084,
+         "tw" : "廣佑",
+         "ukey" : "廣佑,1084",
+         "vi" : "Quảng Hựu",
+         "vn_hanguls" : [
+            "광우"
+         ],
+         "wref" : "꽝흐우"
+      },
+      {
+         "caption" : "리 왕조",
+         "hangul" : "회풍",
+         "name" : "會豊",
+         "offset" : 1091,
+         "tw" : "會豊",
+         "ukey" : "會豊,1091",
+         "vi" : "Hội Phong",
+         "vn_hanguls" : [
+            "회풍"
+         ],
+         "wref" : "호이퐁"
+      },
+      {
+         "caption" : "리 왕조",
+         "hangul" : "용부원화",
+         "name" : "龍符元化",
+         "offset" : 1100,
+         "tw" : "龍符元化",
+         "ukey" : "龍符元化,1100",
+         "vi" : "Long Phù Nguyên Hoá",
+         "vn_hanguls" : [
+            "용부원화"
+         ],
+         "wref" : "롱푸응우옌호아"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 1694,
+         "era_key" : "會祥大慶",
+         "hangul" : "회상대경",
+         "name" : "會祥大慶",
+         "offset" : 1109,
+         "tw" : "會祥大慶",
+         "ukey" : "會祥大慶,1109",
+         "vi" : "Hội Tường Đại Khánh",
+         "vn_hanguls" : [
+            "회상대경"
+         ],
+         "wref" : "호이뜨엉다이카인"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 119,
+         "era_key" : "天符睿武",
+         "hangul" : "천부예무",
+         "name" : "天符睿武",
+         "offset" : 1119,
+         "tw" : "天符睿武",
+         "ukey" : "天符睿武,1119",
+         "vi" : "Thiên Phù Duệ Vũ",
+         "vn_hanguls" : [
+            "천부예무"
+         ],
+         "wref" : "티엔푸주에부"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 743,
+         "era_key" : "天符慶壽",
+         "hangul" : "천부경수",
+         "name" : "天符慶壽",
+         "offset" : 1126,
+         "tw" : "天符慶壽",
+         "ukey" : "天符慶壽,1126",
+         "vi" : "Thiên Phù Khánh Thọ",
+         "vn_hanguls" : [
+            "천부경수"
+         ],
+         "wref" : "티엔푸카인토"
+      },
+      {
+         "_possibles" : [
+            [
+               169,
+               "大順(甲申)",
+               1643
+            ],
+            [
+               720,
+               "天順(丁未)",
+               1126
+            ],
+            [
+               1040,
+               "天順",
+               1327
+            ],
+            [
+               1050,
+               "天順(甲戌)",
+               1213
+            ],
+            [
+               1138,
+               "天順(丁丑)",
+               1456
+            ],
+            [
+               1375,
+               "天順(辛丑)",
+               1660
+            ],
+            [
+               1600,
+               "天順(丙子)",
+               1455
+            ]
+         ],
+         "caption" : "리_왕조",
+         "hangul" : "천순",
+         "name" : "天順",
+         "offset" : 1127,
+         "tw" : "天順",
+         "ukey" : "天順,1127",
+         "vi" : "Thiên Thuận",
+         "vn_hanguls" : [
+            "천순"
+         ],
+         "wref" : "티엔투언"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 1427,
+         "era_key" : "天彰寶嗣",
+         "hangul" : "천창보사",
+         "name" : "天彰寶嗣",
+         "offset" : 1132,
+         "tw" : "天彰寶嗣",
+         "ukey" : "天彰寶嗣,1132",
+         "vi" : "Thiên Chương Bảo Tự",
+         "vn_hanguls" : [
+            "천창보사"
+         ],
+         "wref" : "티엔쯔엉바오뜨"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 379,
+         "era_key" : "紹明",
+         "hangul" : "소명",
+         "name" : "紹明",
+         "offset" : 1137,
+         "tw" : "紹明",
+         "ukey" : "紹明,1137",
+         "vi" : "Thiệu Minh",
+         "vn_hanguls" : [
+            "소명"
+         ],
+         "wref" : "티에우민"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 714,
+         "era_key" : "大定(庚申)",
+         "hangul" : "대정",
+         "name" : "大定",
+         "offset" : 1139,
+         "tw" : "大定",
+         "ukey" : "大定,1139",
+         "vi" : "Đại Định",
+         "vn_hanguls" : [
+            "대정"
+         ],
+         "wref" : "다이딘_(리_왕조)"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 600,
+         "era_key" : "政隆寶應",
+         "hangul" : "정륭보응",
+         "name" : "政隆寶應",
+         "offset" : 1162,
+         "tw" : "政隆寶應",
+         "ukey" : "政隆寶應,1162",
+         "vi" : "Chính Long Bảo Ứng",
+         "vn_hanguls" : [
+            "정륭보응"
+         ],
+         "wref" : "찐롱바오응"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 110,
+         "era_key" : "天感至寶",
+         "hangul" : "천감지보",
+         "name" : "天感至寶",
+         "offset" : 1173,
+         "tw" : "天感至寶",
+         "ukey" : "天感至寶,1173",
+         "vi" : "Thiên Cảm Chí Bảo",
+         "vn_hanguls" : [
+            "천감지보"
+         ],
+         "wref" : "티엔깜찌바오"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 426,
+         "era_key" : "貞符",
+         "hangul" : "정부",
+         "name" : "貞符",
+         "offset" : 1175,
+         "tw" : "貞符",
+         "ukey" : "貞符,1175",
+         "vi" : "Trinh Phù",
+         "vn_hanguls" : [
+            "정부"
+         ],
+         "wref" : "찐푸"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 784,
+         "era_key" : "天資嘉瑞",
+         "hangul" : "천자가서",
+         "name" : "天資嘉瑞",
+         "offset" : 1185,
+         "tw" : "天資嘉瑞",
+         "ukey" : "天資嘉瑞,1185",
+         "vi" : "Thiên Tư Gia Thụy",
+         "vn_hanguls" : [
+            "천자가서"
+         ],
+         "wref" : "티엔뜨자투이"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 830,
+         "era_key" : "天嘉寶祐",
+         "hangul" : "천가보우",
+         "name" : "天嘉寶祐",
+         "offset" : 1201,
+         "tw" : "天嘉寶祐",
+         "ukey" : "天嘉寶祐,1201",
+         "vi" : "Thiên Gia Bảo Hựu",
+         "vn_hanguls" : [
+            "천가보우"
+         ],
+         "wref" : "티엔자바오흐우"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 922,
+         "era_key" : "治平龍應",
+         "hangul" : "치평용응",
+         "name" : "治平龍應",
+         "offset" : 1204,
+         "tw" : "治平龍應",
+         "ukey" : "治平龍應,1204",
+         "vi" : "Trị Bình Long Ứng",
+         "vn_hanguls" : [
+            "치평용응"
+         ],
+         "wref" : "찌빈롱응"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 1213,
+         "era_key" : "建嘉",
+         "hangul" : "건가",
+         "name" : "建嘉",
+         "offset" : 1210,
+         "tw" : "建嘉",
+         "ukey" : "建嘉,1210",
+         "vi" : "Kiến Gia",
+         "vn_hanguls" : [
+            "건가"
+         ],
+         "wref" : "끼엔자"
+      },
+      {
+         "caption" : "리 왕조",
+         "era_id" : 262,
+         "era_key" : "天彰有道",
+         "hangul" : "천장유도",
+         "name" : "天彰有道",
+         "offset" : 1223,
+         "tw" : "天彰有道",
+         "ukey" : "天彰有道,1223",
+         "vi" : "Thiên Chương Hữu Đạo",
+         "vn_hanguls" : [
+            "천장유도"
+         ],
+         "wref" : "티엔쯔엉흐우다오"
+      },
+      {
+         "caption" : "쩐 왕조",
+         "era_id" : 58,
+         "era_key" : "建中(乙酉)",
+         "hangul" : "건중",
+         "name" : "建中",
+         "offset" : 1224,
+         "tw" : "建中",
+         "ukey" : "建中,1224",
+         "vi" : "Kiến Trung",
+         "vn_hanguls" : [
+            "건중"
+         ],
+         "wref" : "끼엔쭝"
+      },
+      {
+         "caption" : "쩐 왕조",
+         "era_id" : 1057,
+         "era_key" : "天應政平",
+         "hangul" : "천응정평",
+         "name" : "天應政平",
+         "offset" : 1231,
+         "tw" : "天應政平",
+         "ukey" : "天應政平,1231",
+         "vi" : "Thiên Ứng Chính Bình",
+         "vn_hanguls" : [
+            "천응정평"
+         ],
+         "wref" : "티엔응찐빈"
+      },
+      {
+         "_possibles" : [
+            [
+               117,
+               "元豐",
+               1077
+            ]
+         ],
+         "caption" : "쩐_왕조",
+         "hangul" : "원풍",
+         "name" : "元豊",
+         "offset" : 1250,
+         "tw" : "元豊",
+         "ukey" : "元豊,1250",
+         "vi" : "Nguyên Phong",
+         "vn_hanguls" : [
+            "원풍"
+         ],
+         "wref" : "응우옌퐁"
+      },
+      {
+         "caption" : "쩐 왕조",
+         "era_id" : 520,
+         "era_key" : "紹隆",
+         "hangul" : "소륭",
+         "name" : "紹隆",
+         "offset" : 1257,
+         "tw" : "紹隆",
+         "ukey" : "紹隆,1257",
+         "vi" : "Thiệu Long",
+         "vn_hanguls" : [
+            "소륭"
+         ],
+         "wref" : "티에우롱"
+      },
+      {
+         "caption" : "쩐 왕조",
+         "era_id" : 1258,
+         "era_key" : "寶符",
+         "hangul" : "보부",
+         "name" : "寶符",
+         "offset" : 1272,
+         "tw" : "寶符",
+         "ukey" : "寶符,1272",
+         "vi" : "Bảo Phù",
+         "vn_hanguls" : [
+            "보부"
+         ],
+         "wref" : "바오푸"
+      },
+      {
+         "caption" : "쩐 왕조",
+         "era_id" : 457,
+         "era_key" : "紹寶",
+         "hangul" : "소보",
+         "name" : "紹寶",
+         "offset" : 1278,
+         "tw" : "紹寶",
+         "ukey" : "紹寶,1278",
+         "vi" : "Thiệu Bảo",
+         "vn_hanguls" : [
+            "소보"
+         ],
+         "wref" : "티에우바오"
+      },
+      {
+         "_possibles" : [
+            [
+               737,
+               "重興",
+               1643
+            ],
+            [
+               989,
+               "重興(癸巳)",
+               1292
+            ]
+         ],
+         "caption" : "쩐_왕조",
+         "hangul" : "중흥",
+         "name" : "重興",
+         "offset" : 1284,
+         "tw" : "重興",
+         "ukey" : "重興,1284",
+         "vi" : "Trùng Hưng",
+         "vn_hanguls" : [
+            "중흥"
+         ],
+         "wref" : "쭝흥"
+      },
+      {
+         "caption" : "쩐 왕조",
+         "era_id" : 1423,
+         "era_key" : "興隆(癸巳)",
+         "hangul" : "흥륭",
+         "name" : "興隆",
+         "offset" : 1292,
+         "tw" : "興隆",
+         "ukey" : "興隆,1292",
+         "vi" : "Hưng Long",
+         "vn_hanguls" : [
+            "흥륭"
+         ],
+         "wref" : "흥롱"
+      },
+      {
+         "caption" : "쩐 왕조",
+         "era_id" : 791,
+         "era_key" : "大慶(甲寅)",
+         "hangul" : "대경",
+         "name" : "大慶",
+         "offset" : 1313,
+         "tw" : "大慶",
+         "ukey" : "大慶,1313",
+         "vi" : "Đại Khánh",
+         "vn_hanguls" : [
+            "대경"
+         ],
+         "wref" : "다이카인"
+      },
+      {
+         "caption" : "쩐 왕조",
+         "era_id" : 68,
+         "era_key" : "開泰(甲子)",
+         "hangul" : "개태",
+         "name" : "開泰",
+         "offset" : 1323,
+         "tw" : "開泰",
+         "ukey" : "開泰,1323",
+         "vi" : "Khai Thái",
+         "vn_hanguls" : [
+            "개태"
+         ],
+         "wref" : "카이타이"
+      },
+      {
+         "caption" : "쩐 왕조",
+         "era_id" : 1063,
+         "era_key" : "開佑",
+         "hangul" : "개우",
+         "name" : "開佑",
+         "offset" : 1328,
+         "tw" : "開佑",
+         "ukey" : "開佑,1328",
+         "vi" : "Khai Hựu",
+         "vn_hanguls" : [
+            "개우"
+         ],
+         "wref" : "카이흐우"
+      },
+      {
+         "caption" : "쩐 왕조",
+         "hangul" : "소풍",
+         "name" : "紹豊",
+         "offset" : 1340,
+         "tw" : "紹豊",
+         "ukey" : "紹豊,1340",
+         "vi" : "Thiệu Phong",
+         "vn_hanguls" : [
+            "소풍"
+         ],
+         "wref" : "티에우퐁"
+      },
+      {
+         "caption" : "쩐 왕조",
+         "era_id" : 266,
+         "era_key" : "大治(戊戌)",
+         "hangul" : "대치",
+         "name" : "大治",
+         "offset" : 1357,
+         "tw" : "大治",
+         "ukey" : "大治,1357",
+         "vi" : "Đại Trị",
+         "vn_hanguls" : [
+            "대치"
+         ],
+         "wref" : "다이찌"
+      },
+      {
+         "caption" : "쩐 왕조",
+         "era_id" : 280,
+         "era_key" : "大定(己酉)",
+         "hangul" : "대정",
+         "name" : "大定",
+         "offset" : 1368,
+         "tw" : "大定",
+         "ukey" : "大定,1368",
+         "vi" : "Đại Định",
+         "vn_hanguls" : [
+            "대정"
+         ],
+         "wref" : "다이딘_(쩐_왕조)"
+      },
+      {
+         "caption" : "쩐 왕조",
+         "era_id" : 92,
+         "era_key" : "紹慶",
+         "hangul" : "소경",
+         "name" : "紹慶",
+         "offset" : 1369,
+         "tw" : "紹慶",
+         "ukey" : "紹慶,1369",
+         "vi" : "Thiệu Khánh",
+         "vn_hanguls" : [
+            "소경"
+         ],
+         "wref" : "티에우카인"
+      },
+      {
+         "caption" : "쩐 왕조",
+         "era_id" : 158,
+         "era_key" : "隆慶(癸丑)",
+         "hangul" : "융경",
+         "name" : "隆慶",
+         "offset" : 1372,
+         "tw" : "隆慶",
+         "ukey" : "隆慶,1372",
+         "vi" : "Long Khánh",
+         "vn_hanguls" : [
+            "융경"
+         ],
+         "wref" : "롱카인_(연호)"
+      },
+      {
+         "caption" : "쩐 왕조",
+         "era_id" : 1618,
+         "era_key" : "昌符",
+         "hangul" : "창부",
+         "name" : "昌符",
+         "offset" : 1376,
+         "tw" : "昌符",
+         "ukey" : "昌符,1376",
+         "vi" : "Xương Phù",
+         "vn_hanguls" : [
+            "창부"
+         ],
+         "wref" : "쓰엉푸"
+      },
+      {
+         "caption" : "쩐 왕조",
+         "era_id" : 963,
+         "era_key" : "光泰",
+         "hangul" : "광태",
+         "name" : "光泰",
+         "offset" : 1387,
+         "tw" : "光泰",
+         "ukey" : "光泰,1387",
+         "vi" : "Quang Thái",
+         "vn_hanguls" : [
+            "광태"
+         ],
+         "wref" : "꽝타이"
+      },
+      {
+         "caption" : "쩐 왕조",
+         "era_id" : 1227,
+         "era_key" : "建新",
+         "hangul" : "건신",
+         "name" : "建新",
+         "offset" : 1397,
+         "tw" : "建新",
+         "ukey" : "建新,1397",
+         "vi" : "Kiến Tân",
+         "vn_hanguls" : [
+            "건신"
+         ],
+         "wref" : "끼엔떤"
+      },
+      {
+         "caption" : "호 왕조",
+         "era_id" : 1033,
+         "era_key" : "聖元",
+         "hangul" : "성원",
+         "name" : "聖元",
+         "offset" : 1399,
+         "tw" : "聖元",
+         "ukey" : "聖元,1399",
+         "vi" : "Thánh Nguyên",
+         "vn_hanguls" : [
+            "성원"
+         ],
+         "wref" : "타인응우옌"
+      },
+      {
+         "caption" : "호 왕조",
+         "era_id" : 990,
+         "era_key" : "紹聖(辛巳)",
+         "hangul" : "소성",
+         "name" : "紹成",
+         "offset" : 1400,
+         "tw" : "紹成",
+         "ukey" : "紹成,1400",
+         "vi" : "Thiệu Thành",
+         "vn_hanguls" : [
+            "소성"
+         ],
+         "wref" : "티에우타인"
+      },
+      {
+         "_possibles" : [
+            [
+               1188,
+               "開大",
+               1403
+            ]
+         ],
+         "caption" : "호_왕조",
+         "hangul" : "개대",
+         "name" : "開大",
+         "offset" : 1402,
+         "tw" : "開大",
+         "ukey" : "開大,1402",
+         "vi" : "Khai Đại",
+         "vn_hanguls" : [
+            "개대"
+         ],
+         "wref" : "카이다이"
+      },
+      {
+         "caption" : "후 쩐 왕조",
+         "era_id" : 1651,
+         "era_key" : "興慶(丁亥)",
+         "hangul" : "흥경",
+         "name" : "興慶",
+         "offset" : 1406,
+         "tw" : "興慶",
+         "ukey" : "興慶,1406",
+         "vi" : "Hưng Khánh",
+         "vn_hanguls" : [
+            "흥경"
+         ],
+         "wref" : "흥카인"
+      },
+      {
+         "caption" : "후 쩐 왕조",
+         "era_id" : 630,
+         "era_key" : "重光(己丑)",
+         "hangul" : "중광",
+         "name" : "重光",
+         "offset" : 1408,
+         "tw" : "重光",
+         "ukey" : "重光,1408",
+         "vi" : "Trùng Quang",
+         "vn_hanguls" : [
+            "중광"
+         ],
+         "wref" : "쭝꽝"
+      },
+      {
+         "caption" : "후 쩐 왕조",
+         "era_id" : 343,
+         "era_key" : "天慶(丙午)",
+         "hangul" : "천경",
+         "name" : "天慶",
+         "offset" : 1425,
+         "tw" : "天慶",
+         "ukey" : "天慶,1425",
+         "vi" : "Thiên Khánh",
+         "vn_hanguls" : [
+            "천경"
+         ],
+         "wref" : "티엔카인"
+      },
+      {
+         "caption" : "전기",
+         "era_id" : 30,
+         "era_key" : "順天(戊申)",
+         "hangul" : "순천",
+         "name" : "順天",
+         "offset" : 1427,
+         "tw" : "順天",
+         "ukey" : "順天,1427",
+         "vi" : "Thuận Thiên",
+         "vn_hanguls" : [
+            "순천"
+         ],
+         "wref" : "투언티엔_(후_레_왕조)"
+      },
+      {
+         "caption" : "전기",
+         "era_id" : 517,
+         "era_key" : "紹平",
+         "hangul" : "소평",
+         "name" : "紹平",
+         "offset" : 1433,
+         "tw" : "紹平",
+         "ukey" : "紹平,1433",
+         "vi" : "Thiệu Bình",
+         "vn_hanguls" : [
+            "소평"
+         ],
+         "wref" : "티에우빈"
+      },
+      {
+         "caption" : "전기",
+         "era_id" : 1562,
+         "era_key" : "大寶(庚申)",
+         "hangul" : "대보",
+         "name" : "大寶",
+         "offset" : 1439,
+         "tw" : "大寶",
+         "ukey" : "大寶,1439",
+         "vi" : "Đại Bảo",
+         "vn_hanguls" : [
+            "대보"
+         ],
+         "wref" : "다이바오"
+      },
+      {
+         "caption" : "전기",
+         "era_id" : 560,
+         "era_key" : "大和(癸亥)",
+         "hangul" : "대화",
+         "name" : "大和",
+         "offset" : 1442,
+         "tw" : "大和",
+         "ukey" : "大和,1442",
+         "vi" : "Đại Hòa",
+         "vn_hanguls" : [
+            "대화"
+         ],
+         "wref" : "다이호아"
+      },
+      {
+         "caption" : "전기",
+         "era_id" : 1598,
+         "era_key" : "延寧",
+         "hangul" : "연녕",
+         "name" : "延寧",
+         "offset" : 1453,
+         "tw" : "延寧",
+         "ukey" : "延寧,1453",
+         "vi" : "Diên Ninh",
+         "vn_hanguls" : [
+            "연녕"
+         ],
+         "wref" : "지엔닌"
+      },
+      {
+         "caption" : "전기",
+         "era_id" : 346,
+         "era_key" : "天興(己卯)",
+         "hangul" : "천흥",
+         "name" : "天興",
+         "offset" : 1458,
+         "tw" : "天興",
+         "ukey" : "天興,1458",
+         "vi" : "Thiên Hưng",
+         "vn_hanguls" : [
+            "천흥"
+         ],
+         "wref" : "티엔흥"
+      },
+      {
+         "caption" : "전기",
+         "era_id" : 555,
+         "era_key" : "光順",
+         "hangul" : "광순",
+         "name" : "光順",
+         "offset" : 1459,
+         "tw" : "光順",
+         "ukey" : "光順,1459",
+         "vi" : "Quang Thuận",
+         "vn_hanguls" : [
+            "광순"
+         ],
+         "wref" : "꽝투언"
+      },
+      {
+         "caption" : "전기",
+         "era_id" : 184,
+         "era_key" : "洪德(庚寅)",
+         "hangul" : "홍덕",
+         "name" : "洪德",
+         "offset" : 1469,
+         "tw" : "洪德",
+         "ukey" : "洪德,1469",
+         "vi" : "Hồng Đức",
+         "vn_hanguls" : [
+            "홍덕"
+         ],
+         "wref" : "홍득"
+      },
+      {
+         "caption" : "전기",
+         "era_id" : 87,
+         "era_key" : "景統",
+         "hangul" : "경통",
+         "name" : "景統",
+         "offset" : 1497,
+         "tw" : "景統",
+         "ukey" : "景統,1497",
+         "vi" : "Cảnh Thống",
+         "vn_hanguls" : [
+            "경통"
+         ],
+         "wref" : "까인통"
+      },
+      {
+         "caption" : "전기",
+         "era_id" : 628,
+         "era_key" : "泰貞",
+         "hangul" : "태정",
+         "name" : "泰貞",
+         "offset" : 1503,
+         "tw" : "泰貞",
+         "ukey" : "泰貞,1503",
+         "vi" : "Thái Trinh",
+         "vn_hanguls" : [
+            "태정"
+         ],
+         "wref" : "타이찐"
+      },
+      {
+         "caption" : "전기",
+         "era_id" : 1338,
+         "era_key" : "端慶",
+         "hangul" : "단경",
+         "name" : "端慶",
+         "offset" : 1504,
+         "tw" : "端慶",
+         "ukey" : "端慶,1504",
+         "vi" : "Đoan Khánh",
+         "vn_hanguls" : [
+            "단경"
+         ],
+         "wref" : "도안카인"
+      },
+      {
+         "caption" : "전기",
+         "era_id" : 1407,
+         "era_key" : "洪順(己巳)",
+         "hangul" : "홍순",
+         "name" : "洪順",
+         "offset" : 1508,
+         "tw" : "洪順",
+         "ukey" : "洪順,1508",
+         "vi" : "Hồng Thuận",
+         "vn_hanguls" : [
+            "홍순"
+         ],
+         "wref" : "홍투언"
+      },
+      {
+         "caption" : "전기",
+         "era_id" : 155,
+         "era_key" : "光紹",
+         "hangul" : "광소",
+         "name" : "光紹",
+         "offset" : 1515,
+         "tw" : "光紹",
+         "ukey" : "光紹,1515",
+         "vi" : "Quang Thiệu",
+         "vn_hanguls" : [
+            "광소"
+         ],
+         "wref" : "꽝티에우"
+      },
+      {
+         "caption" : "전기",
+         "era_id" : 1557,
+         "era_key" : "統元",
+         "hangul" : "통원",
+         "name" : "統元",
+         "offset" : 1521,
+         "tw" : "統元",
+         "ukey" : "統元,1521",
+         "vi" : "Thống Nguyên",
+         "vn_hanguls" : [
+            "통원"
+         ],
+         "wref" : "통응우옌"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 272,
+         "era_key" : "元和(癸巳)",
+         "hangul" : "원화",
+         "name" : "元和",
+         "offset" : 1532,
+         "tw" : "元和",
+         "ukey" : "元和,1532",
+         "vi" : "Nguyên Hòa",
+         "vn_hanguls" : [
+            "원화"
+         ],
+         "wref" : "응우옌호아"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 955,
+         "era_key" : "順平",
+         "hangul" : "순평",
+         "name" : "順平",
+         "offset" : 1548,
+         "tw" : "順平",
+         "ukey" : "順平,1548",
+         "vi" : "Thuận Bình",
+         "vn_hanguls" : [
+            "순평"
+         ],
+         "wref" : "투언빈"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 1265,
+         "era_key" : "天祐(丁巳)",
+         "hangul" : "천우",
+         "name" : "天祐",
+         "offset" : 1556,
+         "tw" : "天祐",
+         "ukey" : "天祐,1556",
+         "vi" : "Thiên Hựu",
+         "vn_hanguls" : [
+            "천우"
+         ],
+         "wref" : "티엔흐우"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 1473,
+         "era_key" : "正治(戊午)",
+         "hangul" : "정치",
+         "name" : "正治",
+         "offset" : 1557,
+         "tw" : "正治",
+         "ukey" : "正治,1557",
+         "vi" : "Chính Trị",
+         "vn_hanguls" : [
+            "정치"
+         ],
+         "wref" : "찐찌"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 138,
+         "era_key" : "洪福",
+         "hangul" : "홍복",
+         "name" : "洪福",
+         "offset" : 1571,
+         "tw" : "洪福",
+         "ukey" : "洪福,1571",
+         "vi" : "Hồng Phúc",
+         "vn_hanguls" : [
+            "홍복"
+         ],
+         "wref" : "홍푹"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 1386,
+         "era_key" : "嘉泰(癸酉)",
+         "hangul" : "가태",
+         "name" : "嘉泰",
+         "offset" : 1572,
+         "tw" : "嘉泰",
+         "ukey" : "嘉泰,1572",
+         "vi" : "Gia Thái",
+         "vn_hanguls" : [
+            "가태"
+         ],
+         "wref" : "자타이"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 1487,
+         "era_key" : "光興(戊寅)",
+         "hangul" : "광흥",
+         "name" : "光興",
+         "offset" : 1577,
+         "tw" : "光興",
+         "ukey" : "光興,1577",
+         "vi" : "Quang Hưng",
+         "vn_hanguls" : [
+            "광흥"
+         ],
+         "wref" : "꽝흥"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 1559,
+         "era_key" : "慎德",
+         "hangul" : "신덕",
+         "name" : "愼德",
+         "offset" : 1599,
+         "tw" : "愼德",
+         "ukey" : "愼德,1599",
+         "vi" : "Thận Đức",
+         "vn_hanguls" : [
+            "신덕"
+         ],
+         "wref" : "턴득"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 1010,
+         "era_key" : "弘定",
+         "hangul" : "홍정",
+         "name" : "弘定",
+         "offset" : 1599,
+         "tw" : "弘定",
+         "ukey" : "弘定,1599",
+         "vi" : "Hoằng Định",
+         "vn_hanguls" : [
+            "홍정"
+         ],
+         "wref" : "호앙딘"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 249,
+         "era_key" : "永祚(己未)",
+         "hangul" : "영조",
+         "name" : "永祚",
+         "offset" : 1618,
+         "tw" : "永祚",
+         "ukey" : "永祚,1618",
+         "vi" : "Vĩnh Tộ",
+         "vn_hanguls" : [
+            "영조"
+         ],
+         "wref" : "빈또"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 1693,
+         "era_key" : "德隆",
+         "hangul" : "덕륭",
+         "name" : "德隆",
+         "offset" : 1628,
+         "tw" : "德隆",
+         "ukey" : "德隆,1628",
+         "vi" : "Đức Long",
+         "vn_hanguls" : [
+            "덕륭"
+         ],
+         "wref" : "득롱"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 1414,
+         "era_key" : "陽和",
+         "hangul" : "양화",
+         "name" : "陽和",
+         "offset" : 1634,
+         "tw" : "陽和",
+         "ukey" : "陽和,1634",
+         "vi" : "Dương Hòa",
+         "vn_hanguls" : [
+            "양화"
+         ],
+         "wref" : "즈엉호아"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 1109,
+         "era_key" : "福泰",
+         "hangul" : "복태",
+         "name" : "福泰",
+         "offset" : 1642,
+         "tw" : "福泰",
+         "ukey" : "福泰,1642",
+         "vi" : "Phúc Thái",
+         "vn_hanguls" : [
+            "복태"
+         ],
+         "wref" : "푹타이"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 532,
+         "era_key" : "慶德",
+         "hangul" : "경덕",
+         "name" : "慶德",
+         "offset" : 1648,
+         "tw" : "慶德",
+         "ukey" : "慶德,1648",
+         "vi" : "Khánh Đức",
+         "vn_hanguls" : [
+            "경덕"
+         ],
+         "wref" : "카인득"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 1244,
+         "era_key" : "盛德(癸巳)",
+         "hangul" : "성덕",
+         "name" : "盛德",
+         "offset" : 1652,
+         "tw" : "盛德",
+         "ukey" : "盛德,1652",
+         "vi" : "Thịnh Đức",
+         "vn_hanguls" : [
+            "성덕"
+         ],
+         "wref" : "틴득"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 1644,
+         "era_key" : "永壽(戊戌)",
+         "hangul" : "영수",
+         "name" : "永壽",
+         "offset" : 1657,
+         "tw" : "永壽",
+         "ukey" : "永壽,1657",
+         "vi" : "Vĩnh Thọ",
+         "vn_hanguls" : [
+            "영수"
+         ],
+         "wref" : "빈토"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 566,
+         "era_key" : "萬慶",
+         "hangul" : "만경",
+         "name" : "萬慶",
+         "offset" : 1661,
+         "tw" : "萬慶",
+         "ukey" : "萬慶,1661",
+         "vi" : "Vạn Khánh",
+         "vn_hanguls" : [
+            "만경"
+         ],
+         "wref" : "반카인"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 1500,
+         "era_key" : "景治",
+         "hangul" : "경치",
+         "name" : "景治",
+         "offset" : 1662,
+         "tw" : "景治",
+         "ukey" : "景治,1662",
+         "vi" : "Cảnh Trị",
+         "vn_hanguls" : [
+            "경치"
+         ],
+         "wref" : "까인찌"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 504,
+         "era_key" : "陽德",
+         "hangul" : "양덕",
+         "name" : "陽德",
+         "offset" : 1671,
+         "tw" : "陽德",
+         "ukey" : "陽德,1671",
+         "vi" : "Dương Đức",
+         "vn_hanguls" : [
+            "양덕"
+         ],
+         "wref" : "즈엉득"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 1359,
+         "era_key" : "德元",
+         "hangul" : "덕원",
+         "name" : "德元",
+         "offset" : 1673,
+         "tw" : "德元",
+         "ukey" : "德元,1673",
+         "vi" : "Đức Nguyên",
+         "vn_hanguls" : [
+            "덕원"
+         ],
+         "wref" : "득응우옌"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 164,
+         "era_key" : "永治(丙辰)",
+         "hangul" : "영치",
+         "name" : "永治",
+         "offset" : 1675,
+         "tw" : "永治",
+         "ukey" : "永治,1675",
+         "vi" : "Vĩnh Trị",
+         "vn_hanguls" : [
+            "영치"
+         ],
+         "wref" : "빈찌"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 95,
+         "era_key" : "正和(庚申)",
+         "hangul" : "정화",
+         "name" : "正和",
+         "offset" : 1679,
+         "tw" : "正和",
+         "ukey" : "正和,1679",
+         "vi" : "Chính Hòa",
+         "vn_hanguls" : [
+            "정화"
+         ],
+         "wref" : "찐호아"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 883,
+         "era_key" : "永盛",
+         "hangul" : "영성",
+         "name" : "永盛",
+         "offset" : 1704,
+         "tw" : "永盛",
+         "ukey" : "永盛,1704",
+         "vi" : "Vĩnh Thịnh",
+         "vn_hanguls" : [
+            "영성"
+         ],
+         "wref" : "빈틴"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 919,
+         "era_key" : "保泰",
+         "hangul" : "보태",
+         "name" : "保泰",
+         "offset" : 1719,
+         "tw" : "保泰",
+         "ukey" : "保泰,1719",
+         "vi" : "Bảo Thái",
+         "vn_hanguls" : [
+            "보태"
+         ],
+         "wref" : "바오타이"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 1546,
+         "era_key" : "永慶",
+         "hangul" : "영경",
+         "name" : "永慶",
+         "offset" : 1728,
+         "tw" : "永慶",
+         "ukey" : "永慶,1728",
+         "vi" : "Vĩnh Khánh",
+         "vn_hanguls" : [
+            "영경"
+         ],
+         "wref" : "빈카인"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 1451,
+         "era_key" : "龍德(壬子)",
+         "hangul" : "용덕",
+         "name" : "龍德",
+         "offset" : 1731,
+         "tw" : "龍德",
+         "ukey" : "龍德,1731",
+         "vi" : "Long Đức",
+         "vn_hanguls" : [
+            "용덕"
+         ],
+         "wref" : "롱득"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 941,
+         "era_key" : "永佑",
+         "hangul" : "영우",
+         "name" : "永祐",
+         "offset" : 1734,
+         "tw" : "永祐",
+         "ukey" : "永祐,1734",
+         "vi" : "Vĩnh Hựu",
+         "vn_hanguls" : [
+            "영우"
+         ],
+         "wref" : "빈흐우"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 559,
+         "era_key" : "景興",
+         "hangul" : "경흥",
+         "name" : "景興",
+         "offset" : 1739,
+         "tw" : "景興",
+         "ukey" : "景興,1739",
+         "vi" : "Cảnh Hưng",
+         "vn_hanguls" : [
+            "경흥"
+         ],
+         "wref" : "까인흥"
+      },
+      {
+         "caption" : "후기",
+         "era_id" : 1231,
+         "era_key" : "昭統",
+         "hangul" : "소통",
+         "name" : "昭統",
+         "offset" : 1786,
+         "tw" : "昭統",
+         "ukey" : "昭統,1786",
+         "vi" : "Chiêu Thống",
+         "vn_hanguls" : [
+            "소통"
+         ],
+         "wref" : "찌에우통"
+      },
+      {
+         "caption" : "막 왕조",
+         "era_id" : 851,
+         "era_key" : "明德(丁亥)",
+         "hangul" : "명덕",
+         "name" : "明德",
+         "offset" : 1526,
+         "tw" : "明德",
+         "ukey" : "明德,1526",
+         "vi" : "Minh Đức",
+         "vn_hanguls" : [
+            "명덕"
+         ],
+         "wref" : "민득"
+      },
+      {
+         "caption" : "막 왕조",
+         "era_id" : 454,
+         "era_key" : "大正(庚寅)",
+         "hangul" : "대정",
+         "name" : "大正",
+         "offset" : 1529,
+         "tw" : "大正",
+         "ukey" : "大正,1529",
+         "vi" : "Đại Chính",
+         "vn_hanguls" : [
+            "대정"
+         ],
+         "wref" : "다이찐"
+      },
+      {
+         "caption" : "막 왕조",
+         "era_id" : 1145,
+         "era_key" : "廣和",
+         "hangul" : "광화",
+         "name" : "廣和",
+         "offset" : 1540,
+         "tw" : "廣和",
+         "ukey" : "廣和,1540",
+         "vi" : "Quảng Hòa",
+         "vn_hanguls" : [
+            "광화"
+         ],
+         "wref" : "꽝호아"
+      },
+      {
+         "caption" : "막 왕조",
+         "era_id" : 847,
+         "era_key" : "永定(丁未)",
+         "hangul" : "영정",
+         "name" : "永定",
+         "offset" : 1546,
+         "tw" : "永定",
+         "ukey" : "永定,1546",
+         "vi" : "Vĩnh Định",
+         "vn_hanguls" : [
+            "영정"
+         ],
+         "wref" : "빈딘"
+      },
+      {
+         "caption" : "막 왕조",
+         "hangul" : "경력",
+         "name" : "景曆",
+         "offset" : 1547,
+         "tw" : "景曆",
+         "ukey" : "景曆,1547",
+         "vi" : "Cảnh Lịch",
+         "vn_hanguls" : [
+            "경력"
+         ],
+         "wref" : "까인릭"
+      },
+      {
+         "_possibles" : [
+            [
+               315,
+               "光寶",
+               1553
+            ]
+         ],
+         "caption" : "막_왕조",
+         "hangul" : "광보",
+         "name" : "光寶",
+         "offset" : 1554,
+         "tw" : "光寶",
+         "ukey" : "光寶,1554",
+         "vi" : "Quang Bảo",
+         "vn_hanguls" : [
+            "광보"
+         ],
+         "wref" : "꽝바오"
+      },
+      {
+         "_possibles" : [
+            [
+               602,
+               "淳福",
+               1561
+            ]
+         ],
+         "caption" : "막_왕조",
+         "hangul" : "순복",
+         "name" : "淳福",
+         "offset" : 1564,
+         "tw" : "淳福",
+         "ukey" : "淳福,1564",
+         "vi" : "Thuần Phúc",
+         "vn_hanguls" : [
+            "순복"
+         ],
+         "wref" : "투언푹"
+      },
+      {
+         "_possibles" : [
+            [
+               1547,
+               "崇康",
+               1565
+            ]
+         ],
+         "caption" : "막_왕조",
+         "hangul" : "숭강",
+         "name" : "崇康",
+         "offset" : 1567,
+         "tw" : "崇康",
+         "ukey" : "崇康,1567",
+         "vi" : "Sùng Khang",
+         "vn_hanguls" : [
+            "숭강"
+         ],
+         "wref" : "숭캉"
+      },
+      {
+         "caption" : "막 왕조",
+         "era_id" : 584,
+         "era_key" : "延成",
+         "hangul" : "연성",
+         "name" : "延成",
+         "offset" : 1577,
+         "tw" : "延成",
+         "ukey" : "延成,1577",
+         "vi" : "Diên Thành",
+         "vn_hanguls" : [
+            "연성"
+         ],
+         "wref" : "지엔타인"
+      },
+      {
+         "_possibles" : [
+            [
+               1137,
+               "端泰",
+               1585
+            ]
+         ],
+         "caption" : "막_왕조",
+         "hangul" : "단태",
+         "name" : "端泰",
+         "offset" : 1584,
+         "tw" : "端泰",
+         "ukey" : "端泰,1584",
+         "vi" : "Đoan Thái",
+         "vn_hanguls" : [
+            "단태"
+         ],
+         "wref" : "도안타이"
+      },
+      {
+         "caption" : "막 왕조",
+         "era_id" : 979,
+         "era_key" : "興治",
+         "hangul" : "흥치",
+         "name" : "興治",
+         "offset" : 1587,
+         "tw" : "興治",
+         "ukey" : "興治,1587",
+         "vi" : "Hưng Trị",
+         "vn_hanguls" : [
+            "흥치"
+         ],
+         "wref" : "흥찌"
+      },
+      {
+         "caption" : "막 왕조",
+         "era_id" : 401,
+         "era_key" : "洪寧",
+         "hangul" : "홍녕",
+         "name" : "洪寧",
+         "offset" : 1590,
+         "tw" : "洪寧",
+         "ukey" : "洪寧,1590",
+         "vi" : "Hồng Ninh",
+         "vn_hanguls" : [
+            "홍녕"
+         ],
+         "wref" : "홍닌"
+      },
+      {
+         "caption" : "막 왕조",
+         "era_id" : 1255,
+         "era_key" : "武安",
+         "hangul" : "무안",
+         "name" : "武安",
+         "offset" : 1591,
+         "tw" : "武安",
+         "ukey" : "武安,1591",
+         "vi" : "Vũ Anh",
+         "vn_hanguls" : [
+            "무안"
+         ],
+         "wref" : "부안_(연호)"
+      },
+      {
+         "caption" : "막 왕조",
+         "era_id" : 324,
+         "era_key" : "寶定",
+         "hangul" : "보정",
+         "name" : "寶定",
+         "offset" : 1591,
+         "tw" : "寶定",
+         "ukey" : "寶定,1591",
+         "vi" : "Bảo Định",
+         "vn_hanguls" : [
+            "보정"
+         ],
+         "wref" : "바오딘"
+      },
+      {
+         "caption" : "막 왕조",
+         "era_id" : 1350,
+         "era_key" : "康佑",
+         "hangul" : "강우",
+         "name" : "康佑",
+         "offset" : 1592,
+         "tw" : "康佑",
+         "ukey" : "康佑,1592",
+         "vi" : "Khang Hựu",
+         "vn_hanguls" : [
+            "강우"
+         ],
+         "wref" : "캉흐우"
+      },
+      {
+         "caption" : "막 왕조",
+         "era_id" : 920,
+         "era_key" : "乾統(癸巳)",
+         "hangul" : "건통",
+         "name" : "乾統",
+         "offset" : 1592,
+         "tw" : "乾統",
+         "ukey" : "乾統,1592",
+         "vi" : "Kiền Thống",
+         "vn_hanguls" : [
+            "건통"
+         ],
+         "wref" : "끼엔통"
+      },
+      {
+         "_possibles" : [
+            [
+               1435,
+               "隆泰",
+               1593
+            ]
+         ],
+         "caption" : "막_왕조",
+         "hangul" : "융태",
+         "name" : "隆泰",
+         "offset" : 1617,
+         "tw" : "隆泰",
+         "ukey" : "隆泰,1617",
+         "vi" : "Long Thái",
+         "vn_hanguls" : [
+            "융태"
+         ],
+         "wref" : "롱타이"
+      },
+      {
+         "_possibles" : [
+            [
+               316,
+               "順德(己卯)",
+               1518
+            ],
+            [
+               1457,
+               "順德",
+               967
+            ],
+            [
+               1662,
+               "順德(戊辰)",
+               1627
+            ],
+            [
+               1667,
+               "順德(段思曠)",
+               null
+            ]
+         ],
+         "caption" : "막_왕조",
+         "hangul" : "순덕",
+         "name" : "順德",
+         "offset" : 1637,
+         "tw" : "順德",
+         "ukey" : "順德,1637",
+         "vi" : "Thuận Đức",
+         "vn_hanguls" : [
+            "순덕"
+         ],
+         "wref" : "투언득"
+      },
+      {
+         "caption" : "떠이선 왕조",
+         "era_id" : 1224,
+         "era_key" : "泰德",
+         "hangul" : "태덕",
+         "name" : "泰德",
+         "offset" : 1777,
+         "tw" : "泰德",
+         "ukey" : "泰德,1777",
+         "vi" : "Thái Đức",
+         "vn_hanguls" : [
+            "태덕"
+         ],
+         "wref" : "타이득"
+      },
+      {
+         "caption" : "떠이선 왕조",
+         "era_id" : 351,
+         "era_key" : "光中",
+         "hangul" : "광중",
+         "name" : "光中",
+         "offset" : 1787,
+         "tw" : "光中",
+         "ukey" : "光中,1787",
+         "vi" : "Quang Trung",
+         "vn_hanguls" : [
+            "광중"
+         ],
+         "wref" : "꽝쭝_(연호)"
+      },
+      {
+         "caption" : "떠이선 왕조",
+         "era_id" : 411,
+         "era_key" : "景盛",
+         "hangul" : "경성",
+         "name" : "景盛",
+         "offset" : 1792,
+         "tw" : "景盛",
+         "ukey" : "景盛,1792",
+         "vi" : "Cảnh Thịnh",
+         "vn_hanguls" : [
+            "경성"
+         ],
+         "wref" : "까인틴"
+      },
+      {
+         "caption" : "떠이선 왕조",
+         "era_id" : 242,
+         "era_key" : "寶興",
+         "hangul" : "보흥",
+         "name" : "寶興",
+         "offset" : 1800,
+         "tw" : "寶興",
+         "ukey" : "寶興,1800",
+         "vi" : "Bảo Hưng",
+         "vn_hanguls" : [
+            "보흥"
+         ],
+         "wref" : "바오흥"
+      },
+      {
+         "caption" : "응우옌 왕조",
+         "era_id" : 1205,
+         "era_key" : "嘉隆",
+         "hangul" : "가륭",
+         "name" : "嘉隆",
+         "offset" : 1801,
+         "tw" : "嘉隆",
+         "ukey" : "嘉隆,1801",
+         "vi" : "Gia Long",
+         "vn_hanguls" : [
+            "가륭"
+         ],
+         "wref" : "자롱_(연호)"
+      },
+      {
+         "caption" : "응우옌 왕조",
+         "era_id" : 1710,
+         "era_key" : "明命",
+         "hangul" : "명명",
+         "name" : "明命",
+         "offset" : 1819,
+         "tw" : "明命",
+         "ukey" : "明命,1819",
+         "vi" : "Minh Mạng",
+         "vn_hanguls" : [
+            "명명"
+         ],
+         "wref" : "민망_(연호)"
+      },
+      {
+         "caption" : "응우옌 왕조",
+         "era_id" : 742,
+         "era_key" : "紹治",
+         "hangul" : "소치",
+         "name" : "紹治",
+         "offset" : 1840,
+         "tw" : "紹治",
+         "ukey" : "紹治,1840",
+         "vi" : "Thiệu Trị",
+         "vn_hanguls" : [
+            "소치"
+         ],
+         "wref" : "티에우찌_(연호)"
+      },
+      {
+         "caption" : "응우옌 왕조",
+         "era_id" : 1567,
+         "era_key" : "嗣德",
+         "hangul" : "사덕",
+         "name" : "嗣德",
+         "offset" : 1847,
+         "tw" : "嗣德",
+         "ukey" : "嗣德,1847",
+         "vi" : "Tự Ðức",
+         "vn_hanguls" : [
+            "사덕"
+         ],
+         "wref" : "뜨득_(연호)"
+      },
+      {
+         "caption" : "응우옌 왕조",
+         "era_id" : 1248,
+         "era_key" : "協和",
+         "hangul" : "협화",
+         "name" : "協和",
+         "tw" : "協和",
+         "ukey" : "協和",
+         "vi" : "Hiệp Hoà",
+         "vn_hanguls" : [
+            "협화"
+         ],
+         "wref" : "히엡호아_(연호)"
+      },
+      {
+         "caption" : "응우옌 왕조",
+         "era_id" : 569,
+         "era_key" : "建福(甲申)",
+         "hangul" : "건복",
+         "name" : "建福",
+         "offset" : 1883,
+         "tw" : "建福",
+         "ukey" : "建福,1883",
+         "vi" : "Kiến Phúc",
+         "vn_hanguls" : [
+            "건복"
+         ],
+         "wref" : "끼엔푹_(연호)"
+      },
+      {
+         "caption" : "응우옌 왕조",
+         "era_id" : 1517,
+         "era_key" : "咸宜",
+         "hangul" : "함의",
+         "name" : "咸宜",
+         "offset" : 1884,
+         "tw" : "咸宜",
+         "ukey" : "咸宜,1884",
+         "vi" : "Hàm Nghi",
+         "vn_hanguls" : [
+            "함의"
+         ],
+         "wref" : "함응이_(연호)"
+      },
+      {
+         "caption" : "응우옌 왕조",
+         "era_id" : 1517,
+         "era_key" : "咸宜",
+         "hangul" : "함의",
+         "name" : "咸宜",
+         "offset" : 1884,
+         "tw" : "咸宜",
+         "ukey" : "咸宜,1884",
+         "vi" : "Hàm Nghi",
+         "vn_hanguls" : [
+            "함의"
+         ],
+         "wref" : "함응이_(연호)"
+      },
+      {
+         "caption" : "응우옌 왕조",
+         "era_id" : 1531,
+         "era_key" : "同慶(乙酉)",
+         "hangul" : "동경",
+         "name" : "同慶",
+         "offset" : 1884,
+         "tw" : "同慶",
+         "ukey" : "同慶,1884",
+         "vi" : "Ðồng Khánh",
+         "vn_hanguls" : [
+            "동경"
+         ],
+         "wref" : "동카인_(연호)"
+      },
+      {
+         "caption" : "응우옌 왕조",
+         "era_id" : 116,
+         "era_key" : "成泰",
+         "hangul" : "성태",
+         "name" : "成泰",
+         "offset" : 1888,
+         "tw" : "成泰",
+         "ukey" : "成泰,1888",
+         "vi" : "Thành Thái",
+         "vn_hanguls" : [
+            "성태"
+         ],
+         "wref" : "타인타이_(연호)"
+      },
+      {
+         "caption" : "응우옌 왕조",
+         "era_id" : 1411,
+         "era_key" : "維新",
+         "hangul" : "유신",
+         "name" : "維新",
+         "offset" : 1906,
+         "tw" : "維新",
+         "ukey" : "維新,1906",
+         "vi" : "Duy Tân",
+         "vn_hanguls" : [
+            "유신"
+         ],
+         "wref" : "주이떤_(연호)"
+      },
+      {
+         "caption" : "응우옌 왕조",
+         "era_id" : 131,
+         "era_key" : "啟定",
+         "hangul" : "계정",
+         "name" : "啓定",
+         "offset" : 1915,
+         "tw" : "啓定",
+         "ukey" : "啓定,1915",
+         "vi" : "Khải Ðịnh",
+         "vn_hanguls" : [
+            "계정"
+         ],
+         "wref" : "카이딘_(연호)"
+      },
+      {
+         "caption" : "응우옌 왕조",
+         "era_id" : 277,
+         "era_key" : "保大(丙寅)",
+         "hangul" : "보대",
+         "name" : "保大",
+         "offset" : 1925,
+         "tw" : "保大",
+         "ukey" : "保大,1925",
+         "vi" : "Bảo Đại",
+         "vn_hanguls" : [
+            "보대"
+         ],
+         "wref" : "바오다이_(연호)"
+      }
+   ],
+   "page_name" : "베트남의 연호",
+   "wref_key" : "wref_ko"
+}

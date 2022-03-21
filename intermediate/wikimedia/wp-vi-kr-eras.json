@@ -1,0 +1,637 @@
+{
+   "_errors" : [
+      [
+         "Era mapping is missing",
+         "建興,412",
+         "Cao_Câu_Ly"
+      ],
+      [
+         "Era mapping is missing",
+         "鴻濟,571",
+         "Tân_La"
+      ],
+      [
+         "Era mapping is missing",
+         "仁平,633",
+         "Tân_La"
+      ],
+      [
+         "Era mapping is missing",
+         "太始,816",
+         "Bột_Hải"
+      ],
+      [
+         "Era mapping is missing",
+         "咸和,829",
+         "Bột_Hải"
+      ],
+      [
+         "Era not found",
+         "隆墓,1115"
+      ],
+      [
+         "Era not found",
+         "水德萬歲,910"
+      ],
+      [
+         "Era mapping is missing",
+         "光德,949",
+         "Cao_Ly"
+      ],
+      [
+         "Era not found",
+         "峻豊,959"
+      ],
+      [
+         "Era mapping is missing",
+         "開國,1893",
+         "Nhà_Triều_Tiên"
+      ],
+      [
+         "Era mapping is missing",
+         "大韓民國,1947",
+         "Đại_Hàn_Dân_Quốc"
+      ],
+      [
+         "Era mapping is missing",
+         "檀君紀元,1947",
+         "Đại_Hàn_Dân_Quốc"
+      ],
+      [
+         "Era not found",
+         "主體,1911"
+      ]
+   ],
+   "eras" : [
+      {
+         "caption" : "Cao Câu Ly",
+         "era_id" : 389,
+         "era_key" : "永樂(辛卯)",
+         "hangul" : "영락",
+         "name" : "永樂",
+         "offset" : 390,
+         "tw" : "永樂",
+         "ukey" : "永樂,390",
+         "vi" : "Vĩnh Lạc"
+      },
+      {
+         "_possibles" : [
+            [
+               124,
+               "建興",
+               222
+            ],
+            [
+               359,
+               "建興(己亥)",
+               818
+            ],
+            [
+               716,
+               "建興(壬申)",
+               251
+            ],
+            [
+               730,
+               "建興(高句麗)",
+               null
+            ],
+            [
+               880,
+               "建興(丙戌)",
+               385
+            ],
+            [
+               1112,
+               "建興(癸酉)",
+               312
+            ],
+            [
+               1507,
+               "建興(甲子)",
+               303
+            ],
+            [
+               2028,
+               "建興(戊戌)",
+               817
+            ]
+         ],
+         "caption" : "Cao_Câu_Ly",
+         "hangul" : "건흥",
+         "name" : "建興",
+         "offset" : 412,
+         "tw" : "建興",
+         "ukey" : "建興,412",
+         "vi" : "Kiến Hưng"
+      },
+      {
+         "caption" : "Tân La",
+         "era_id" : 529,
+         "era_key" : "建元(丙辰)",
+         "hangul" : "건원",
+         "name" : "建元",
+         "offset" : 535,
+         "tw" : "建元",
+         "ukey" : "建元,535",
+         "vi" : "Kiến Nguyên"
+      },
+      {
+         "caption" : "Tân La",
+         "era_id" : 1268,
+         "era_key" : "開國(辛未)",
+         "hangul" : "개국",
+         "name" : "開國",
+         "offset" : 550,
+         "tw" : "開國",
+         "ukey" : "開國,550",
+         "vi" : "Khai Quốc"
+      },
+      {
+         "caption" : "Tân La",
+         "era_id" : 105,
+         "era_key" : "大昌",
+         "hangul" : "대창",
+         "name" : "大昌",
+         "offset" : 567,
+         "tw" : "大昌",
+         "ukey" : "大昌,567",
+         "vi" : "Đại Xương"
+      },
+      {
+         "_possibles" : [
+            [
+               967,
+               "鴻濟",
+               null
+            ]
+         ],
+         "caption" : "Tân_La",
+         "hangul" : "홍제",
+         "name" : "鴻濟",
+         "offset" : 571,
+         "tw" : "鴻濟",
+         "ukey" : "鴻濟,571",
+         "vi" : "Hồng Tể"
+      },
+      {
+         "caption" : "Tân La",
+         "era_id" : 229,
+         "era_key" : "建福(甲辰)",
+         "hangul" : "건복",
+         "name" : "建福",
+         "offset" : 583,
+         "tw" : "建福",
+         "ukey" : "建福,583",
+         "vi" : "Kiến Phúc"
+      },
+      {
+         "_possibles" : [
+            [
+               369,
+               "仁平(新羅)",
+               null
+            ],
+            [
+               1194,
+               "仁平",
+               1150
+            ]
+         ],
+         "caption" : "Tân_La",
+         "hangul" : "인평",
+         "name" : "仁平",
+         "offset" : 633,
+         "tw" : "仁平",
+         "ukey" : "仁平,633",
+         "vi" : "Nhân Bình"
+      },
+      {
+         "caption" : "Tân La",
+         "era_id" : 270,
+         "era_key" : "太和(丁未)",
+         "hangul" : "태화",
+         "name" : "太和",
+         "offset" : 646,
+         "tw" : "太和",
+         "ukey" : "太和,646",
+         "vi" : "Thái Hòa"
+      },
+      {
+         "caption" : "Trường An Quốc",
+         "era_id" : 85,
+         "era_key" : "慶雲(壬寅)",
+         "hangul" : "경운",
+         "name" : "慶雲",
+         "offset" : 821,
+         "tw" : "慶雲",
+         "ukey" : "慶雲,821",
+         "vi" : "Khánh Vân"
+      },
+      {
+         "caption" : "Bột Hải",
+         "era_id" : 2020,
+         "era_key" : "天統(己亥)",
+         "hangul" : "천통",
+         "name" : "天統",
+         "offset" : 698,
+         "tw" : "天統",
+         "ukey" : "天統,698",
+         "vi" : "Thiên Thống"
+      },
+      {
+         "caption" : "Bột Hải",
+         "era_id" : 2017,
+         "era_key" : "仁安(己未)",
+         "hangul" : "인안",
+         "name" : "仁安",
+         "offset" : 718,
+         "tw" : "仁安",
+         "ukey" : "仁安,718",
+         "vi" : "Nhân Yên"
+      },
+      {
+         "caption" : "Bột Hải",
+         "era_id" : 2019,
+         "era_key" : "大興(丁丑)",
+         "hangul" : "대흥",
+         "kr_latin" : "Daeheung",
+         "name" : "大興",
+         "offset" : 736,
+         "tw" : "大興",
+         "ukey" : "大興,736",
+         "vi" : "Đại Hưng"
+      },
+      {
+         "caption" : "Bột Hải",
+         "era_id" : 981,
+         "era_key" : "寶曆(甲寅)",
+         "hangul" : "보력",
+         "kr_latin" : "Boryeok",
+         "name" : "寶曆",
+         "offset" : 773,
+         "tw" : "寶曆",
+         "ukey" : "寶曆,773",
+         "vi" : "Bảo Lịch"
+      },
+      {
+         "caption" : "Bột Hải",
+         "era_id" : 380,
+         "era_key" : "中興(甲戌)",
+         "hangul" : "중흥",
+         "kr_latin" : "Jungheung",
+         "name" : "中興",
+         "offset" : 793,
+         "tw" : "中興",
+         "ukey" : "中興,793",
+         "vi" : "Trung Hưng"
+      },
+      {
+         "caption" : "Bột Hải",
+         "era_id" : 475,
+         "era_key" : "正曆(乙亥)",
+         "hangul" : "정력",
+         "kr_latin" : "Jeongnyeok",
+         "name" : "正曆",
+         "offset" : 794,
+         "tw" : "正曆",
+         "ukey" : "正曆,794",
+         "vi" : "Chính Lịch"
+      },
+      {
+         "caption" : "Bột Hải",
+         "era_id" : 2025,
+         "era_key" : "永德(己丑)",
+         "hangul" : "영덕",
+         "kr_latin" : "Yeongdeok",
+         "name" : "永德",
+         "offset" : 808,
+         "tw" : "永德",
+         "ukey" : "永德,808",
+         "vi" : "Vĩnh Đức"
+      },
+      {
+         "caption" : "Bột Hải",
+         "era_id" : 1568,
+         "era_key" : "朱雀(癸巳)",
+         "hangul" : "주작",
+         "kr_latin" : "Jujak",
+         "name" : "朱雀",
+         "offset" : 812,
+         "tw" : "朱雀",
+         "ukey" : "朱雀,812",
+         "vi" : "Chu Tước"
+      },
+      {
+         "_possibles" : [
+            [
+               509,
+               "太始(戊戌)",
+               817
+            ],
+            [
+               777,
+               "泰始(乙巳)",
+               464
+            ],
+            [
+               1486,
+               "太始",
+               -96
+            ],
+            [
+               1690,
+               "太始(辛未)",
+               550
+            ],
+            [
+               1998,
+               "太始(乙卯)",
+               354
+            ]
+         ],
+         "caption" : "Bột_Hải",
+         "hangul" : "태시",
+         "kr_latin" : "Taesi",
+         "name" : "太始",
+         "offset" : 816,
+         "tw" : "太始",
+         "ukey" : "太始,816",
+         "vi" : "Thái Thủy"
+      },
+      {
+         "caption" : "Bột Hải",
+         "era_id" : 2028,
+         "era_key" : "建興(戊戌)",
+         "hangul" : "건흥",
+         "kr_latin" : "Geonheung",
+         "name" : "建興",
+         "offset" : 817,
+         "tw" : "建興",
+         "ukey" : "建興,817",
+         "vi" : "Kiến Hưng"
+      },
+      {
+         "_possibles" : [
+            [
+               576,
+               "咸和",
+               325
+            ],
+            [
+               1134,
+               "咸和(辛亥)",
+               830
+            ]
+         ],
+         "caption" : "Bột_Hải",
+         "hangul" : "함화",
+         "kr_latin" : "Hamhwa",
+         "name" : "咸和",
+         "offset" : 829,
+         "tw" : "咸和",
+         "ukey" : "咸和,829",
+         "vi" : "Hàm Hòa"
+      },
+      {
+         "caption" : "Định An Quốc",
+         "era_id" : 1698,
+         "era_key" : "元興(丙子)",
+         "hangul" : "원흥",
+         "name" : "元興",
+         "offset" : 975,
+         "tw" : "元興",
+         "ukey" : "元興,975",
+         "vi" : "Nguyên Hưng"
+      },
+      {
+         "caption" : "Hưng Liêu",
+         "era_id" : 1704,
+         "era_key" : "天慶(己巳)",
+         "hangul" : "천경",
+         "kr_latin" : "Cheongyeong",
+         "name" : "天慶",
+         "offset" : 1028,
+         "tw" : "天慶",
+         "ukey" : "天慶,1028",
+         "vi" : "Thiên Khánh"
+      },
+      {
+         "caption" : "Đại Bột Hải",
+         "hangul" : "융기",
+         "kr_latin" : "Yunggi",
+         "name" : "隆墓",
+         "offset" : 1115,
+         "tw" : "隆墓",
+         "ukey" : "隆墓,1115"
+      },
+      {
+         "caption" : "Hậu Bách Tế",
+         "era_id" : 1368,
+         "era_key" : "正開",
+         "hangul" : "정개",
+         "kr_latin" : "Jeonggae",
+         "name" : "正開",
+         "offset" : 899,
+         "tw" : "正開",
+         "ukey" : "正開,899"
+      },
+      {
+         "caption" : "Hậu Cao Câu Ly",
+         "era_id" : 1520,
+         "era_key" : "武泰(甲子)",
+         "hangul" : "무태",
+         "kr_latin" : "Mutae",
+         "name" : "武泰",
+         "offset" : 903,
+         "tw" : "武泰",
+         "ukey" : "武泰,903"
+      },
+      {
+         "caption" : "Hậu Cao Câu Ly",
+         "era_id" : 750,
+         "era_key" : "聖冊",
+         "hangul" : "성책",
+         "kr_latin" : "Seongchaek",
+         "name" : "聖冊",
+         "offset" : 904,
+         "tw" : "聖冊",
+         "ukey" : "聖冊,904"
+      },
+      {
+         "caption" : "Hậu Cao Câu Ly",
+         "hangul" : "수덕만세",
+         "name" : "水德萬歲",
+         "offset" : 910,
+         "tw" : "水德萬歲",
+         "ukey" : "水德萬歲,910",
+         "vi" : "Sudeok Manse"
+      },
+      {
+         "caption" : "Hậu Cao Câu Ly",
+         "era_id" : 610,
+         "era_key" : "政開",
+         "hangul" : "정개",
+         "kr_latin" : "Jeonggae",
+         "name" : "政開",
+         "offset" : 913,
+         "tw" : "政開",
+         "ukey" : "政開,913"
+      },
+      {
+         "caption" : "Cao Ly",
+         "era_id" : 281,
+         "era_key" : "天授(戊寅)",
+         "hangul" : "천수",
+         "kr_latin" : "Cheonsu",
+         "name" : "天授",
+         "offset" : 917,
+         "tw" : "天授",
+         "ukey" : "天授,917"
+      },
+      {
+         "_possibles" : [
+            [
+               844,
+               "光德",
+               948
+            ]
+         ],
+         "caption" : "Cao_Ly",
+         "hangul" : "광덕",
+         "kr_latin" : "Gwangdeok",
+         "name" : "光德",
+         "offset" : 949,
+         "tw" : "光德",
+         "ukey" : "光德,949"
+      },
+      {
+         "caption" : "Cao Ly",
+         "hangul" : "준풍",
+         "kr_latin" : "Junpung",
+         "name" : "峻豊",
+         "offset" : 959,
+         "tw" : "峻豊",
+         "ukey" : "峻豊,959"
+      },
+      {
+         "caption" : "Cao Ly",
+         "era_id" : 1528,
+         "era_key" : "太平(高麗丙子)",
+         "hangul" : "태평",
+         "name" : "太平",
+         "offset" : 975,
+         "tw" : "太平",
+         "ukey" : "太平,975",
+         "vi" : "Thái Bình"
+      },
+      {
+         "caption" : "Đại Vi Quốc",
+         "era_id" : 1340,
+         "era_key" : "天開(乙卯)",
+         "hangul" : "천개",
+         "kr_latin" : "Cheongaeg",
+         "name" : "天開",
+         "offset" : 1134,
+         "tw" : "天開",
+         "ukey" : "天開,1134"
+      },
+      {
+         "_possibles" : [
+            [
+               772,
+               "開國",
+               1391
+            ],
+            [
+               1268,
+               "開國(辛未)",
+               550
+            ]
+         ],
+         "caption" : "Nhà_Triều_Tiên",
+         "hangul" : "개국",
+         "kr_latin" : "Gaeguk",
+         "name" : "開國",
+         "offset" : 1893,
+         "tw" : "開國",
+         "ukey" : "開國,1893"
+      },
+      {
+         "caption" : "Nhà Triều Tiên",
+         "era_id" : 677,
+         "era_key" : "建陽",
+         "hangul" : "건양",
+         "kr_latin" : "Geonyang",
+         "name" : "建陽",
+         "offset" : 1895,
+         "tw" : "建陽",
+         "ukey" : "建陽,1895"
+      },
+      {
+         "caption" : "Đế quốc Đại Hàn",
+         "era_id" : 815,
+         "era_key" : "光武",
+         "hangul" : "광무",
+         "kr_latin" : "Gwangmu",
+         "name" : "光武",
+         "offset" : 1896,
+         "tw" : "光武",
+         "ukey" : "光武,1896"
+      },
+      {
+         "caption" : "Đế quốc Đại Hàn",
+         "era_id" : 1274,
+         "era_key" : "隆熙",
+         "hangul" : "융희",
+         "kr_latin" : "Yunghui",
+         "name" : "隆熙",
+         "offset" : 1906,
+         "tw" : "隆熙",
+         "ukey" : "隆熙,1906"
+      },
+      {
+         "_possibles" : [
+            [
+               260,
+               "대한민국",
+               1918
+            ]
+         ],
+         "caption" : "Đại_Hàn_Dân_Quốc",
+         "hangul" : "대한민국",
+         "kr_latin" : "Daehan-minguk",
+         "name" : "大韓民國",
+         "offset" : 1947,
+         "tw" : "大韓民國",
+         "ukey" : "大韓民國,1947"
+      },
+      {
+         "_possibles" : [
+            [
+               913,
+               "단기",
+               -2333
+            ]
+         ],
+         "caption" : "Đại_Hàn_Dân_Quốc",
+         "hangul" : "단군기원",
+         "kr_latin" : "Dangun-giwon",
+         "name" : "檀君紀元",
+         "offset" : 1947,
+         "tw" : "檀君紀元",
+         "ukey" : "檀君紀元,1947"
+      },
+      {
+         "caption" : "Cộng hòa Dân chủ Nhân dân Triều Tiên",
+         "hangul" : "주체",
+         "kr_latin" : "Juche",
+         "name" : "主體",
+         "offset" : 1911,
+         "tw" : "主體",
+         "ukey" : "主體,1911"
+      }
+   ],
+   "page_name" : "Niên hiệu Triều Tiên",
+   "wref_key" : "wref_vi"
+}

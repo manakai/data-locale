@@ -14,25 +14,6 @@ for my $lang (@$Langs) {
   $Inputs->{$lang} = json_bytes2perl $path->slurp;
 }
 
-my $IDMap = {};
-if ($Key eq 'cn-eras' and 0) {
-  my $path = $RootPath->child ('src/wp-zh-era-id-map.txt');
-  for (split /\x0A/, $path->slurp_utf8) {
-    if (/^\s*#/) {
-      #
-    } elsif (/^(\S+)\s+([0-9]+)\s+(\S+)$/) {
-      if (defined $IDMap->{$1}) {
-        die "Duplicate ukey |$1|";
-      }
-      $IDMap->{$1} = [$2, $3];
-    } elsif (/\S/) {
-      die "Bad line |$_|";
-    }
-  }
-} else {
-  $IDMap = undef;
-}
-
 my $Data = $Inputs->{tw};
 $Data->{file_key} = $Key;
 $Data->{page_name} = $Inputs->{tw}->{page_name};
@@ -65,16 +46,6 @@ for my $data (@{$Data->{eras}}) {
         perl2json_chars_for_record $data;
   } else {
     $found->{$data->{ukey}} = perl2json_chars_for_record $data;
-
-    if (defined $IDMap) {
-      if (defined $IDMap->{$data->{ukey}}) {
-        $data->{era_id} = $IDMap->{$data->{ukey}}->[0];
-        $data->{era_key} = $IDMap->{$data->{ukey}}->[1];
-      } else {
-        push @{$Data->{_errors} ||= []},
-            ["Era not found", $data->{ukey}];
-      }
-    } # $IDMap
   }
 } # $data
 

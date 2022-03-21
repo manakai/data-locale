@@ -2,35 +2,43 @@
    "_errors" : [
       [
          "Era mapping is missing",
-         "建元,539"
+         "建元,539",
+         "新羅"
       ],
       [
          "Era mapping is missing",
-         "鴻濟,571"
+         "鴻濟,571",
+         "新羅"
       ],
       [
          "Era mapping is missing",
-         "鴻濟,575"
+         "鴻濟,575",
+         "新羅"
       ],
       [
          "Era mapping is missing",
-         "鴻濟,578"
+         "鴻濟,578",
+         "新羅"
       ],
       [
          "Era mapping is missing",
-         "建福,631"
+         "建福,631",
+         "新羅"
       ],
       [
          "Era mapping is missing",
-         "仁平,633"
+         "仁平,633",
+         "新羅"
       ],
       [
          "Era mapping is missing",
-         "仁平,646"
+         "仁平,646",
+         "新羅"
       ],
       [
          "Era mapping is missing",
-         "正開,900"
+         "正開,900",
+         "後百濟"
       ],
       [
          "Era not found",
@@ -38,7 +46,8 @@
       ],
       [
          "Era mapping is missing",
-         "開國"
+         "開國",
+         "朝鮮王朝"
       ]
    ],
    "dup_offsets" : {
@@ -4566,6 +4575,11 @@
       {
          "_possibles" : [
             [
+               389,
+               "永樂(辛卯)",
+               390
+            ],
+            [
                574,
                "永樂(壬寅)",
                941
@@ -4584,11 +4598,6 @@
                1632,
                "永楽",
                1460
-            ],
-            [
-               1815,
-               "永樂",
-               390
             ],
             [
                2000,

@@ -384,12 +384,6 @@ for my $path (
       my $lang = $1;
       my $preferred = $2;
       my $value = percent_decode_c $3;
-      my $v = [split /\s+/, $value, -1];
-      my $w = [map { to_nfc ucfirst lc $_ } grep { length } @$v];
-      unless ((join ' ', @$v) eq (join ' ', @$w)) {
-        die "Bad |name(vi)| value: |$value|";
-      }
-      $value = join ' ', @$v;
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'alphabetical',
@@ -417,7 +411,7 @@ for my $path (
            lang => $1,
            preferred => $2,
            value => $3};
-    } elsif (defined $key and /^expanded\((en|la|en_la|it|fr|es|po|vi|ja_latin)\)\s+([\p{Latn}\s%0-9A-F'\[\]-]+)$/) {
+    } elsif (defined $key and /^expanded\((en|la|en_la|it|fr|es|po|vi|vi_latin|ja_latin)\)\s+([\p{Latn}\s%0-9A-F'\[\]-]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'expanded',
            type => 'alphabetical',
@@ -481,7 +475,7 @@ for my $path (
            lang => $1,
            value => $3.$4.$5,
            abbr_index => length $3};
-    } elsif (defined $key and /^acronym\((en|la|en_la|it|fr|es|po|vi|ja_latin)\)\s+([\p{Latn}.\N{KATAKANA MIDDLE DOT}%0-9A-F]+)$/) {
+    } elsif (defined $key and /^acronym\((en|la|en_la|it|fr|es|po|vi|vi_latin|ja_latin)\)\s+([\p{Latn}.\N{KATAKANA MIDDLE DOT}%0-9A-F]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'alphabetical',
@@ -566,13 +560,28 @@ for my $path (
   }
 }
 
-for (
+for (reverse
   'intermediate/wikimedia/wp-cn-eras.json',
   'intermediate/wikimedia/wp-mn-eras.json',
+  'intermediate/wikimedia/wp-vn-eras.json',
   'intermediate/wikimedia/wp-tw-eras.json',
   'intermediate/wikimedia/wp-kr-eras.json',
   'intermediate/wikimedia/wp-jp-eras.json',
   'intermediate/wikimedia/wp-jpp-eras.json',
+  'intermediate/wikimedia/wp-vi-cn-eras.json',
+  'intermediate/wikimedia/wp-vi-vn-eras.json',
+  'intermediate/wikimedia/wp-vi-jp-eras.json',
+  'intermediate/wikimedia/wp-vi-kr-eras.json',
+  'intermediate/wikimedia/wp-ko-mn-eras.json',
+  'intermediate/wikimedia/wp-ko-kr-eras.json',
+  'intermediate/wikimedia/wp-ko-krr-eras.json',
+  'intermediate/wikimedia/wp-ko-cn-eras.json',
+  'intermediate/wikimedia/wp-ko-jp-eras.json',
+  'intermediate/wikimedia/wp-ko-vn-eras.json',
+  'intermediate/wikimedia/wp-en-cn-eras.json',
+  'intermediate/wikimedia/wp-en-vn-eras.json',
+  'intermediate/wikimedia/wp-en-kr-eras.json',
+  'intermediate/wikimedia/wp-en-jp-eras.json',
 ) {
   my $path = $root_path->child ($_);
   my $json = json_bytes2perl $path->slurp;
@@ -587,11 +596,64 @@ for (
 
     $data->{$wref_key} //= $src->{wref} // $default_wref;
 
+    my @rep;
+
     use utf8;
     next if $src->{name} eq '？？';
-    unshift @{$data->{_LABELS}->[0]->{labels}->[0]->{reps}},
-        {kind => 'name', type => 'han', lang => 'tw', value => $src->{name}},
-        {kind => 'name', type => 'han', lang => 'cn', value => $src->{cn}};
+    if ($wref_key eq 'wref_zh') {
+      push @rep,
+          {kind => 'name', type => 'han', lang => 'tw', value => $src->{tw}}
+          if defined $src->{tw};
+      push @rep,
+          {kind => 'name', type => 'han', lang => 'cn', value => $src->{cn}}
+          if defined $src->{cn};
+    } else {
+      push @rep,
+          {kind => 'name', type => 'han', lang => '', value => $src->{tw}}
+          if defined $src->{tw};
+      push @rep,
+          {kind => 'name', type => 'han', lang => '', value => $src->{cn}}
+          if defined $src->{cn};
+      push @rep,
+          {kind => 'name', type => 'han', lang => '', value => $src->{ja}}
+          if defined $src->{ja};
+    }
+    push @rep,
+        {kind => 'name', type => 'alphabetical', lang => 'vi',
+         value => $src->{vi}}
+        if defined $src->{vi};
+    push @rep,
+        {kind => 'name', type => 'korean', lang => 'kr',
+         value => $src->{hangul}}
+        if defined $src->{hangul};
+    for (@{$src->{vn_hanguls} or []}) {
+      push @rep,
+          {kind => 'name', type => 'korean', lang => 'kr_vi',
+           value => $_};
+    };
+    for (@{$src->{ja_hanguls} or []}) {
+      push @rep,
+          {kind => 'name', type => 'korean', lang => 'kr_ja',
+           value => $_};
+    };
+    push @rep,
+        {kind => 'name', type => 'alphabetical', lang => 'en_kr',
+         value => $src->{kr_latin}}
+        if defined $src->{kr_latin};
+    push @rep,
+        {kind => 'name', type => 'alphabetical', lang => 'en_pinyin',
+         value => $src->{en_pinyin}}
+        if defined $src->{en_pinyin};
+    push @rep,
+        {kind => 'name', type => 'alphabetical', lang => 'en',
+         value => $src->{en}}
+        if defined $src->{en};
+    push @rep,
+        {kind => 'name', type => 'alphabetical', lang => 'en',
+         value => $src->{en2}}
+        if defined $src->{en2};
+
+    unshift @{$data->{_LABELS}->[0]->{labels}->[0]->{reps}}, @rep;
   } # $src
 }
 
