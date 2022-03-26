@@ -99,6 +99,9 @@ my $EraNameToKey;
                 for (@{$fs->{latin_wrongs} or []}) {
                   push @$values, [6105, from_ss $_];
                 }
+                for (@{$fs->{ja_latin_old_wrongs}}) {
+                  push @$values, [6108, from_ss $_];
+                }
               } elsif ($fs->{form_set_type} eq 'alphabetical') {
                 if (defined $fs->{ja_latin_old}) {
                   push @$values, [6107, from_ss $fs->{ja_latin_old}];
@@ -157,7 +160,7 @@ my $EraNameToKey;
     return $s;
   } # to_hiragana
 
-  sub xx ($) { my $s = to_hiragana shift; $s =~ s/ //g; return lc $s }
+  sub xx ($) { my $s = to_hiragana shift; $s =~ s/-//g; $s =~ s/ //g; return lc $s }
 
 for my $era (values %{$Data->{eras}}) {
   my $all = {};
@@ -175,7 +178,7 @@ for my $era (values %{$Data->{eras}}) {
 {
   my $SourceIds = [map { ''.$_ }
     6100..6108,
-    6001, 6002, 6011, 6012, 6013..6020, 6031..6037, 6040,
+    6001..6004, 6011, 6012, 6013..6020, 6031..6037, 6040,
     6041..6046, 6047..6048, 6049..6050, 6051..6052, 6060,
     6062, 6063, 6068, 6069, 6071..6084, 6090..6091, 6099,
   ];
@@ -190,6 +193,8 @@ for my $era (values %{$Data->{eras}}) {
       for qw(6107 6108);
   $Data->{sources}->{$_}->{is_wrong} = 1
       for qw(6035 6036 6105 6108);
+  $Data->{sources}->{$_}->{non_native} = 1
+      for qw(6002 6003 6004);
 }
 
 print perl2json_bytes_for_record $Data;

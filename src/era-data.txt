@@ -644,16 +644,6 @@ tag 日本人
 tag 日本
 tag 日本の私年号
 
-def[朱雀]
-name_ja 朱雀
-AD686 = 1
-#朱雀 687
-#朱鳥 686
-#朱鳥 687
-tag 日本人
-tag 日本
-tag 日本の私年号
-
 def[果安]
 name_ja 果安
 AD686 = 1

@@ -355,11 +355,15 @@ for my $path (
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'yomi', type => 'yomi', kana_modern => $1,
            kana_others => [$2]};
+    } elsif (defined $key and /^name_kana\s+([\p{Hiragana} ]+),([\p{Hiragana} ]+),([\p{Hiragana} ]+)$/) {
+      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
+          {kind => 'yomi', type => 'yomi', kana_modern => $1,
+           kana_classic => $2, kana_others => [$3]};
     } elsif (defined $key and /^name_(ja|cn|tw|ko)(!|)\s+([\p{Han}]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name', type => 'han', lang => $1, value => $3,
            preferred => $2};
-    } elsif (defined $key and /^name\((en|la|en_la|it|fr|fr_ja|es|po|ja_latin|ja_latin_old|vi_latin|nan|zh_alalc)\)(!|)\s+([\p{Latn}\s%0-9A-F'\x{030D}\x{0358}|-]+)$/) {
+    } elsif (defined $key and /^name\((en|la|en_la|it|fr|fr_ja|es|po|ja_latin|ja_latin_old|ja_latin_old_wrong|vi_latin|nan|zh_alalc)\)(!|)\s+([\p{Latn}\s%0-9A-F'\x{030D}\x{0358}|-]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'alphabetical',

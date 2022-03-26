@@ -159,14 +159,15 @@ local/era-date-list.json: bin/era-date-list.pl src/era-start-315.txt
 local/era-yomi-list.json: bin/era-yomi-list.pl \
     src/wp-jp-eras.json src/era-yomi*.txt \
     local/era-defs-jp-wp-en.json \
-    local/cldr-core-json/root.json local/cldr-core-json/ja.json
+    local/cldr-core-json/root.json local/cldr-core-json/ja.json \
+    intermediate/wikimedia/wp-en-jp-eras.json \
+    intermediate/wikimedia/wp-ko-jp-eras.json \
+    intermediate/wikimedia/wp-vi-jp-eras.json
 	$(PERL) $< > $@
-local/calendar-era-yomis.json: bin/calendar-era-yomis.pl \
-    local/era-yomi-list.json
-	DATA=1 $(PERL) $< > $@
 data/calendar/era-yomi-sources.json: bin/calendar-era-yomi-sources.pl \
     data/calendar/era-defs.json local/calendar-era-yomis.json \
-    local/calendar-era-labels-0.json
+    local/calendar-era-labels-0.json \
+    local/era-yomi-list.json
 	$(PERL) $< > $@
 local/calendar-era-labels-0.json: bin/calendar-era-labels.pl \
     local/calendar-era-defs-0.json \

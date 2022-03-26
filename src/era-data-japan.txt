@@ -330,6 +330,22 @@ name_kana はく ほう,はく ほう
 [天智天皇]
 tag 称制紀年
 
+
+def[朱雀]
+#y~1332
+
+name_ja 朱雀
+name_kana す ざく,しゆ じやく
+
+AD686 = 1
+#朱雀 687
+#朱鳥 686
+#朱鳥 687
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+
 [朱鳥]
 tag 追号説のある元号
 &
@@ -399,6 +415,16 @@ code #15 北16
 &
 ## <https://wiki.suikawiki.org/n/%E6%94%B9%E5%85%83%E6%89%8B%E7%B6%9A#anchor-87>
 name(ja_old) ケン|チ
+
+[天養]
+#y~1171
+
+name(ja_latin_old_wrong) Tenyou
+
+[建永]
+#y~557
+
+name(ja_latin_old_wrong) Kenei
 
 [応仁]
 #<- 1475 樺太 武田信広

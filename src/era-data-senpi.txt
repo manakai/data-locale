@@ -8306,7 +8306,13 @@ name_cn 贞观
 ## [103]
 wref_ja 貞観 (唐)
 name_ja 貞観
-name_kana じょう がん
+#name_kana じょう がん
+
+name_kana じょう がん,ぢやう ぐわん,ぢょう がん
+name_kana じょう かん
+
+name(en) Zhen-guan
+name(en) Chên-kuan
 
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B72>"改元"
 #<-武德 唐:626-8-癸亥 #改元前の退位{#李唐 #李淵 #唐皇帝} #旧説

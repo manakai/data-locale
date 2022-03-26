@@ -862,6 +862,18 @@ sub compute_form_group_ons ($) {
       } @{$v->{latin_others}}];
     }
 
+    for (@{$rep->{latin_wrongs} or []}) {
+      push @{$v->{ja_latin_old_wrongs} ||= []},
+          [map { $_ eq ' ' ? () : $_ eq " ' " ? ".'" : $_ eq ' - ' ? '.-' : $_ } split /( (?:['-] |))/, $_];
+    }
+    if (defined $v->{ja_latin_old_wrongs}) {
+      $v->{ja_latin_old_wrongs} = [map {
+        $_->[0];
+      } grep { not $found->{$_->[1]}++ } map {
+        [$_, serialize_segmented_text_for_key $_];
+      } @{$v->{ja_latin_old_wrongs}}];
+    }
+
     fill_alphabetical $v;
   } # fill_yomi_from_rep
 
@@ -1089,7 +1101,7 @@ sub compute_form_group_ons ($) {
 
               $v->{form_set_type} = 'yomi';
               fill_yomi_from_rep $rep => $v;
-              $v->{segment_length} = segmented_text_length $v->{latin};
+              $v->{segment_length} = segmented_text_length ($v->{latin} // $v->{hiragana} // ($v->{latin_others} or $v->{han_others} or $v->{hiragana_wrongs} or $v->{ja_latin_old_wrongs} or [])->[0]);
             } elsif ($rep->{source} eq '6034') {
               $value_added = 1;
               $v_added = 1;
@@ -1125,7 +1137,7 @@ sub compute_form_group_ons ($) {
               $v->{ja_latin_old_wrongs} = [map {
                 [map { $_ eq ' ' ? '._' : $_ } split /( )/, $_];
               } sort { $a cmp $b } grep { not $found->{$_}++ } @{$rep->{value}}];
-              $v->{segment_length} = segmented_text_length $v->{ja_latin_old_wrongs};
+              $v->{segment_length} = segmented_text_length $v->{ja_latin_old_wrongs}->[0];
             } else {
               die "Bad source |$rep->{source}|";
             }
@@ -1136,7 +1148,9 @@ sub compute_form_group_ons ($) {
             
             my $lang = $rep->{lang};
             for my $fg (@{$label->{form_groups}}) {
-              if ($lang eq 'ja_latin' or $lang eq 'ja_latin_old') {
+              if ($lang eq 'ja_latin' or
+                  $lang eq 'ja_latin_old' or
+                  $lang eq 'ja_latin_old_wrongs') {
                 if ($fg->{form_group_type} eq 'han') {
                   for my $fs (@{$fg->{form_sets}}) {
                     if ($fs->{form_set_type} eq 'yomi') {
@@ -1219,7 +1233,9 @@ sub compute_form_group_ons ($) {
               }
             } # $fg
             $v->{form_set_type} = 'alphabetical';
-            if ($lang eq 'ja_latin' or $lang eq 'ja_latin_old') {
+            if ($lang eq 'ja_latin' or
+                $lang eq 'ja_latin_old' or
+                $lang eq 'ja_latin_old_wrong') {
               $value->{form_group_type} = 'ja' if not $value_added;
             } elsif ($lang eq 'vi' or $lang eq 'vi_latin') {
               if ($lang eq 'vi') {
@@ -1328,7 +1344,9 @@ sub compute_form_group_ons ($) {
                 }
               }
             }
-            if (not defined $v->{$lang}) {
+            if ($lang eq 'ja_latin_old_wrong') {
+              push @{$v->{$lang . 's'} ||= []}, $w;
+            } elsif (not defined $v->{$lang}) {
               $v->{$lang} = $w;
               if ($lang eq 'vi' and not $has_preferred->{$lang}) {
                 $v->{is_preferred}->{$lang} = 1;

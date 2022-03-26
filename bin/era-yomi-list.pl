@@ -25,7 +25,7 @@ my $Data = {};
   for my $key (keys %{$json->{eras}}) {
     my $v = $json->{eras}->{$key}->{name_latn};
     next unless defined $v;
-    $Data->{eras}->{$key}->{6002} = $v;
+    $Data->{eras}->{$key}->{6002} = [$v];
     for (qw(key name start_year north_start_year south_start_year)) {
       $Data->{eras}->{$key}->{$_} = $json->{eras}->{$key}->{$_};
     }
@@ -300,7 +300,10 @@ for my $id (6090..6091) {
         my $v = {};
         $v->{is_ja} = 1 if $is_ja;
         if (length $new) {
-          die if $is_wrong;
+          if ($is_wrong) {
+            push @{$Data->{eras}->{$key}->{6105} ||= []}, $new;
+            push @{$v->{kana_wrongs} ||= []}, $new;
+          } else {
           #push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6100} ||= []},
               $v->{kana} = $v->{kana_modern} = $new;
           #push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6102} ||= []},
@@ -311,6 +314,7 @@ for my $id (6090..6091) {
           #push @{$v->{latin_others}}, @$variants;
           #push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6103} ||= []},
           #    @$variants;
+          }
         }
         use utf8;
         if (defined $old and length $old) {
@@ -318,25 +322,32 @@ for my $id (6090..6091) {
           push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6101} ||= []},
               $v->{kana_classic} = $old;
           $v->{kana} //= $v->{kana_classic};
-        } elsif (length $new and not $new =~ /[ゃゅょ]/) {
-          die if $is_wrong;
+        } elsif (length $new and not $new =~ /[ゃゅょ]/ and not $is_wrong) {
           push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6101} ||= []},
               $v->{kana_classic} = $new;
         }
-        if (@others and $others[0] =~ /^[\p{Latin} ]+$/) {
+        if (@others and $others[0] =~ /^[\p{Latin} ~'-]+$/) {
           my $x = shift @others;
-          $x = lc $x;
-          push @{$Data->{eras}->{$key}->{6104} ||= []},
-              $v->{latin} = $x;
-          push @{$v->{latin_others} ||= []}, $v->{latin};
+          $x = latin lc $x;
+          if ($is_wrong) {
+            push @{$Data->{eras}->{$key}->{6108} ||= []}, $x;
+            push @{$v->{latin_wrongs} ||= []}, $x;
+          } else {
+            push @{$Data->{eras}->{$key}->{6104} ||= []},
+                $v->{latin} = $x;
+            push @{$v->{latin_others} ||= []}, $v->{latin};
+          }
         }
         for (@others) {
-          if (/^[\p{Latin} ]+$/) {
-            die if $is_wrong;
-            my $x = $_;
-            $x = lc $_;
-            push @{$Data->{eras}->{$key}->{6104} ||= []}, $x;
-            push @{$v->{latin_others} ||= []}, $x;
+          if (/^[\p{Latin} ~'-]+$/) {
+            my $x = latin lc $_;
+            if ($is_wrong) {
+              push @{$Data->{eras}->{$key}->{6108} ||= []}, $x;
+              push @{$v->{latin_wrongs} ||= []}, $x;
+            } else {
+              push @{$Data->{eras}->{$key}->{6104} ||= []}, $x;
+              push @{$v->{latin_others} ||= []}, $x;
+            }
           } elsif (/\p{Han}/) {
             push @{$Data->{eras}->{$key}->{6106} ||= []}, $_;
             push @{$v->{hans} ||= []}, $_;
@@ -359,18 +370,40 @@ for my $id (6090..6091) {
   }
 }
 
-sub xx ($) { my $s = shift; $s =~ s/ //g; return lc $s }
-for my $data (values %{$Data->{eras}}) {
-  my $all = {};
-  for (keys %$data) {
-    next unless /^[0-9]+$/;
-    $all->{$_} = 1 for map { xx $_ } ref $data->{$_} ? @{$data->{$_}} : $data->{$_};
+{
+  my $path = $RootPath->child ('intermediate/wikimedia/wp-en-jp-eras.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $in (@{$json->{eras}}) {
+    next if not defined $in->{era_key};
+    my $data = $Data->{eras}->{$in->{era_key}} ||= {};
+    push @{$data->{6002} ||= []}, $in->{romaji} if defined $in->{romaji};
+    push @{$data->{6002} ||= []}, @{$in->{romajis} or []};
+    my $found = {};
+    $data->{6002} = [grep { not $found->{$_}++ } @{$data->{6002}}];
   }
-  for (keys %$data) {
-    next unless /^[0-9]+$/ and 6100 <= $_ and $_ <= 6106;
-    delete $all->{$_} for map { xx $_ } ref $data->{$_} ? @{$data->{$_}} : $data->{$_};
+}
+{
+  my $path = $RootPath->child ('intermediate/wikimedia/wp-vi-jp-eras.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $in (@{$json->{eras}}) {
+    next if not defined $in->{era_key};
+    my $data = $Data->{eras}->{$in->{era_key}} ||= {};
+    push @{$data->{6003} ||= []}, $in->{romaji} if defined $in->{romaji};
+    push @{$data->{6003} ||= []}, @{$in->{romajis} or []};
+    my $found = {};
+    $data->{6003} = [grep { not $found->{$_}++ } @{$data->{6003}}];
   }
-  $data->{missing_yomis} = [sort { $a cmp $b } keys %$all];
+}
+{
+  my $path = $RootPath->child ('intermediate/wikimedia/wp-ko-jp-eras.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $in (@{$json->{eras}}) {
+    next if not defined $in->{era_key};
+    my $data = $Data->{eras}->{$in->{era_key}} ||= {};
+    push @{$data->{6004} ||= []}, @{$in->{kanas} or []};
+    my $found = {};
+    $data->{6004} = [grep { not $found->{$_}++ } @{$data->{6004}}];
+  }
 }
 
 {
