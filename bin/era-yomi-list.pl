@@ -77,6 +77,7 @@ my $Data = {};
     $x =~ s/o\^/\x{F4}/g;
     $x =~ s/u\^/\x{FB}/g;
     $x =~ s/o~/\x{014D}/g;
+    $x =~ s/O~/\x{014C}/g;
     $x =~ s/_/ /g;
     die $x if $x =~ /[~^_]/;
     return $x;
@@ -328,11 +329,12 @@ for my $id (6090..6091) {
         }
         if (@others and $others[0] =~ /^[\p{Latin} ~'-]+$/) {
           my $x = shift @others;
-          $x = latin lc $x;
           if ($is_wrong) {
+            $x = latin $x;
             push @{$Data->{eras}->{$key}->{6108} ||= []}, $x;
             push @{$v->{latin_wrongs} ||= []}, $x;
           } else {
+            $x = latin lc $x;
             push @{$Data->{eras}->{$key}->{6104} ||= []},
                 $v->{latin} = $x;
             push @{$v->{latin_others} ||= []}, $v->{latin};
@@ -340,11 +342,12 @@ for my $id (6090..6091) {
         }
         for (@others) {
           if (/^[\p{Latin} ~'-]+$/) {
-            my $x = latin lc $_;
             if ($is_wrong) {
+              my $x = latin $_;
               push @{$Data->{eras}->{$key}->{6108} ||= []}, $x;
               push @{$v->{latin_wrongs} ||= []}, $x;
             } else {
+              my $x = latin lc $_;
               push @{$Data->{eras}->{$key}->{6104} ||= []}, $x;
               push @{$v->{latin_others} ||= []}, $x;
             }
