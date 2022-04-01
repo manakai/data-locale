@@ -40,16 +40,24 @@
 %tag   name_ja 交趾
 %tag   region of 北ベトナム
 
+%tag region
+%tag   name_ja 交州
+%tag   period of 交趾
+
+%tag country
+%tag   name_ja チャンパ
+%tag   region of 越南
+
+%tag position
+%tag   name_ja 越南皇帝
+%tag   group of 皇帝
+
 %tag position
 %tag   name_ja 南越帝
-%tag   group of 皇帝
+%tag   group of 越南皇帝
 
 %tag country
 %tag   name_ja 前李朝
-%tag   period of 越南
-
-%tag country
-%tag   name_ja 李朝越南
 %tag   period of 越南
 
 def[天德(甲子)]
@@ -87,9 +95,9 @@ name_kana てん とく
 # #陥落{#陳霸先, 李天宝}
 # AD550 撤退{#陳霸先}
 # AD555 #死去 李天宝
-# 分裂: 趙光復, 李仏子
+# 分裂: 趙光復, 李仏子 [see 仁壽(辛酉) y~876]
 # AD571 #死去 趙光復
-# AD602 #陥落{#隋, #前李朝}
+# AD602 #陥落{#隋, #前李朝 #李仏子}
 
 wref_ko 티엔득
 name(kr_vi) 티엔|득
@@ -121,6 +129,1761 @@ name(kr_vi) 다이|득
 name(vi) Đại Đức
 #
 name(kr) 대덕
+
+
+
+%tag country
+%tag   name_ja 大瞿越
+%tag   period of 越南
+
+%tag country
+%tag   name_ja 丁朝
+%tag   period of 大瞿越
+%tag   period of 北ベトナム
+
+def[太平(庚午)]
+#y~1516
+
+AD970 = 1
+
+tag 丁朝
+tag 北ベトナム
+tag 北宋
+tag ベトナム人
+
+%tag person
+%tag   name_ja 丁部領
+tag 丁部領
+
+#大勝明王
+
+#wref_zh 太平 (越南)
+#970 - 980
+#丁先皇 丁废帝
+#<-none ->天福
+
+wref_ja 太平 (丁朝)
+name_ja 太平
+name_kana たい へい
+#970 - 980
+#校合本 大越史記全書(上)
+#東亜歴史年表
+
+wref_ko 타이빈 (연호)
+name(kr_vi) 타이빈
+name(vi) Thái Bình
+name(kr) 태평
+#970-1 - 980-7
+#<-天德 ->天福
+
+## <https://ja.wikipedia.org/wiki/%E4%B8%81%E9%83%A8%E9%A0%98>
+#太平 970 - 979
+<-乾德(癸亥) [越南:968] #建国{#丁朝 #丁部領} #事由
+<-乾德(癸亥) [越南:968] #建元前の即位{#丁朝 #丁部領 #越南皇帝}
+#"ベトナムで初めて元号をもうけ、989年を太平元年とした[1]。"
+#[1] "小倉貞男『物語 ヴェトナムの歴史 一億人のダイナミズム』〈中公新書〉、
+#62-69頁。"
+>< [越南:979-10] #死去{#丁朝 #丁部領}
+
+%tag person
+%tag   name_ja 丁璿
+tag 丁璿
+
+## <https://ja.wikipedia.org/wiki/%E4%B8%81%E7%92%BF>
+#太平 979 - 980
+>< [越南:979-10] #即位{#丁朝 #丁璿 #越南皇帝}
+->天福(庚辰) [越南:980-7] #改元前の退位{#丁朝 #丁璿 #越南皇帝} #禅譲
+
+<-乾德(癸亥) [越南:970-1] #支那改元日{#丁朝 #丁部領} #起事建元
+
+%tag country
+%tag   name_ja 前黎朝
+%tag   period of 大瞿越
+
+def[天福(庚辰)]
+#y~1001
+
+AD980 = 1
+
+tag 前黎朝
+tag 越南
+tag ベトナム人
+tag 北宋
+tag チャンパ
+
+%tag person
+%tag   name_ja 黎桓
+tag 黎桓
+
+#wref_zh 天福 (越南)
+#980-7 - 988
+#大越史記全書本紀1: "庚辰十一年廢帝仍太平年號，七月以後，黎大行天福元年。"
+#<-太平 ->兴统
+
+## <https://zh.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E4%B8%81%E6%9C%9D>
+#"越南舊史年紀諸本皆以981年為天福元年。"
+
+wref_ja 天福 (前黎朝)
+name_ja 天福
+name_kana てん ふく
+#980 - 988
+#<-none ->興統
+
+## <https://ja.wikipedia.org/wiki/%E9%BB%8E%E6%A1%93>
+#980 - 988
+#989 - 993
+#994 - 1005
+#1005-3-8 1005-4-19 #死去
+
+wref_ko 티엔푹
+name(kr_vi) 티엔푹
+name(vi) Thiên Phúc
+#980-7 - 988-12
+#<-太平 ->興統
+
+<-太平(庚午) ->天福(庚辰),天福(辛巳) [越南:980-7]
+    #建元前の即位{#前黎朝 #黎桓 #越南皇帝} #禅譲
+<-太平(庚午) [越南:980-7] #支那改元日{#前黎朝 #黎桓}
+
+def[天福(辛巳)]
+#y~2160
+
+<-天福(庚辰) [越南:981,g:2000] #年誤伝発生 #越南
+
+AD981 = 1
+
+tag 前黎朝
+tag 越南
+tag ベトナム人
+tag 北宋
+tag チャンパ
+
+tag 黎桓
+
+wref_zh 越南年号列表
+name_tw 天福
+name_cn 天福
+
+<-太平(庚午) [越南:981] #支那改元日{#前黎朝 #黎桓} #旧説
+
+def[興統]
+#y~1513
+
+AD989 = 1
+
+tag 前黎朝
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 黎桓
+
+#wref_zh 兴统
+#989 - 993
+#<-天福 ->应天
+
+wref_ja 興統
+name_ja 興統
+name_kana こう とう
+#989 - 993
+#<-天福 ->応天
+
+wref_ko 흥통
+name(kr_vi) 흥통
+name(vi) Hưng Thống
+name(kr) 흥통
+#989-1 - 993-12
+#<-天福 ->應天
+
+<-天福(庚辰),天福(辛巳) [越南:989-1] #支那改元日{#前黎朝 #黎桓}
+
+def[應天(甲午)]
+#y~1037
+
+AD994 = 1
+
+tag 前黎朝
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 黎桓
+
+#wref_zh 應天 (越南)
+#994 - 1007
+#<-兴统 ->景瑞
+
+wref_ja 応天 (前黎朝)
+name_ja 応天
+name_kana おう てん
+#994 - 1007
+#<-興統 ->景瑞
+
+wref_ko 응티엔
+name(kr_vi) 응티엔
+name(vi) Ứng Thiên
+name(kr) 응천
+#994 - 1007
+#<-興統 ->景瑞
+
+## <https://ja.wikipedia.org/wiki/%E9%BB%8E%E9%BE%8D%E9%89%9E>
+#1005 即位 3 days 死去
+
+%tag person
+%tag   name_ja 黎竜鉞
+tag 黎竜鉞
+
+## <https://ja.wikipedia.org/wiki/%E9%BB%8E%E9%BE%8D%E9%8B%8C>
+#1005 - 1007
+#1008 - 1009
+#1009-10-30 1009-11-19 #死去
+
+%tag person
+%tag   name_ja 黎竜鋌
+tag 黎竜鋌
+
+<-興統 [越南:994] #支那改元日{#前黎朝 #黎桓}
+>< 越南:1005-3-8 j:1005-4-19 #死去{#前黎朝 #黎桓}
+
+>< [越南:1005-3-8,越南:1005] #即位{#前黎朝 #黎竜鉞}
+>< [越南:1005-3-8,越南:1005] #死去{#前黎朝 #黎竜鉞}
+
+>< [越南:1005-3-8,越南:1005] #即位{#前黎朝 #黎竜鋌}
+
+def[景瑞(戊申)]
+#y~970
+
+AD1008 = 1
+
+tag 前黎朝
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 黎竜鋌
+
+#wref_zh 景瑞 (越南)
+#1008 - 1009
+#<-應天 ->順天
+
+wref_ja 景瑞 (前黎朝)
+name_ja 景瑞
+name_kana けい ずい
+#1008 - 1009
+#<-応天 ->none
+
+wref_ko 까인투이
+name(kr_vi) 까인투이
+name(vi) Cảnh Thụy
+name(kr) 경서
+#1008 - 1009
+#<-應天 ->順天
+
+<-應天(甲午) [越南:1008] #支那改元日{#前黎朝 #黎竜鋌}
+->順天(己酉) 越南:1009-10-30 j:1009-11-19 #改元前の死去{#前黎朝 #黎竜鋌}
+
+&
+wref_ja 景瑞 (前黎朝)
+name_ja 建瑞
+
+wref_ko 까인투이
+name(kr_vi) 끼엔투이
+name(vi) Kiến Thụy
+name(kr) 건서
+
+
+
+
+%tag country
+%tag   name_ja 李朝越南
+%tag   period of 越南
+
+def[順天(己酉)]
+#y~663
+
+<-順天(庚戌) [越南:1010,g:2000] #年誤伝発生 #越南
+
+AD1009 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 李公蘊
+
+name_tw 順天
+name_cn 顺天
+
+<-景瑞(戊申) [越南:1009-10-30,越南:1009] #支那改元日{#李朝越南 #李公蘊} #旧説
+
+def[順天(庚戌)]
+
+AD1010 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+%tag person
+%tag   name_ja 李公蘊
+tag 李公蘊
+
+#wref_zh 順天 (越南李朝)
+#1010 - 1028
+name(vi) Thuận Thiên
+#<-景瑞 ->天成
+
+## <https://zh.wikipedia.org/w/index.php?title=%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8&diff=43866394&oldid=43858521>
+#1009 - => 1010 -
+
+wref_ja 順天 (李朝)
+name_ja 順天
+name_kana じゅん てん
+#1010-1 - 1028
+#1009-11 #即位 大瞿国国王
+#1028-3-31 #死去 #即位 #改元
+#<-景瑞  ->天成
+
+## <https://ja.wikipedia.org/wiki/%E9%BB%8E%E9%BE%8D%E9%8B%8C#%E5%89%8D%E9%BB%8E%E6%9C%9D%E3%81%AE%E6%BB%85%E4%BA%A1>
+#"1009年、"..."こうして李公蘊は即位し、翌年より元号を順天に改め、
+#李朝を興した。"
+
+## <https://ja.wikipedia.org/wiki/%E6%9D%8E%E5%85%AC%E8%98%8A>
+#1009 #即位
+#1010 #改元
+#1028 #死去
+
+wref_ko 투언티엔 (리 왕조)
+name(kr_vi) 투언티엔
+name(vi) Thuận Thiên
+name(kr) 순천
+#1010-1 - 1028-3
+#墨子...
+#<-景瑞  ->天成
+
+<-景瑞(戊申) ->順天(庚戌),順天(己酉) [越南:1009-11]
+    #建元前の即位{#李朝越南 #李公蘊 #越南皇帝}
+<-景瑞(戊申) [越南:1010-1] #支那改元日{#李朝越南 #李公蘊}
+->天成(戊辰) j:1028-3-31 #改元前の死去{#李朝越南 #李公蘊}
+
+def[天成(戊辰)]
+#y~1615
+
+AD1028 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+%tag person
+%tag   name_ja 李徳
+tag 李徳
+
+#wref_zh 天成 (越南)
+#1028-3 - 1034-4
+name(vi) Thiên Thành
+#<-順天  ->通瑞
+
+wref_ja 天成 (李朝)
+name_ja 天成
+name_kana てん せい
+name(vi) Thiên Thành
+name(vi_kana) ティエン タイン
+#1028-3-31 代始改元 - 1034-3
+#<-順天  ->通瑞
+
+## <https://ja.wikipedia.org/wiki/%E6%9D%8E%E5%BE%B3>
+#j:1028-4-1 #即位 j:1054-11-3 越南:1054-10-1 #死去
+
+wref_ko 티엔타인
+name(kr_vi) 티엔타인
+name(kr) 천성
+name(vi) Thiên Thành
+#1028-3 - 1034-4
+#<-順天  ->通瑞
+
+<-順天(庚戌) j:1028-3-31 #建元前の即位{#李朝越南 #李徳 #越南皇帝} #旧説
+<-順天(己酉) j:1028-3-31 #支那改元日{#李朝越南 #李徳} #旧説
+<-順天(庚戌) j:1028-4-1 #建元前の即位{#李朝越南 #李徳 #越南皇帝}
+<-順天(己酉) j:1028-4-1 #支那改元日{#李朝越南 #李徳}
+
+
+def[通瑞]
+#y~478
+
+AD1034 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 李徳
+
+#wref_zh 通瑞
+#1034-4 - 1039-6
+name(vi) Thông Thụy
+#<-天成    ->乾符有道
+
+wref_ja 通瑞
+name_ja 通瑞
+name_kana つう ずい
+name(vi) Thông Thụy
+name(vi_kana) トン トゥイ
+#1034-4 - 1039-6
+#<-天成  ->乾符有道
+
+wref_ko 통투이
+name(kr_vi) 통투이
+name(kr) 통서
+name(vi) Thông Thụy
+#1034-4 - 1039-6
+#<-天成  ->乾符有道
+
+<-天成(戊辰) [越南:1034-4] #支那改元日{#李朝越南 #李徳}
+
+
+def[乾符有道]
+#y~134
+
+AD1039 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 李徳
+
+#wref_zh 乾符有道
+#1039-6 - 1042-10
+name(vi) Càn Phù Hữu Đạo
+#<-通瑞  ->明道
+
+wref_ja 乾符有道
+name_ja 乾符有道
+name_kana けん ぷ ゆう どう
+name(vi) Càn Phù Hữu Đạo
+name(vi_kana) カン フ ヒュウ ダオ
+#1039-6 - 1042-10
+#<-通瑞  ->明道
+
+wref_ko 깐푸흐우다오
+name(kr_vi) 깐푸흐우다오
+name(kr) 건부유도
+name(vi) Càn Phù Hữu Đạo
+#1039-6 - 1042-9
+#<-通瑞  ->明道
+
+<-通瑞 [越南:1039-6] #支那改元日{#李朝越南 #李徳}
+
+
+def[明道(壬午)]
+#y~1452
+
+AD1042 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag チャンパ
+tag 北宋
+
+tag 李徳
+
+#wref_zh 明道 (越南)
+name(vi) Minh Đạo
+#1042-10 - 1044-3
+#<-乾符有道  ->天感聖武
+
+wref_ja 明道 (李朝)
+name_ja 明道
+name_kana めい どう
+name(vi) Minh Đạo
+name(vi_kana) ミン ダオ
+#1042-10 - 1044-10
+#<-乾符有道  ->天感聖武
+
+wref_ko 민다오
+name(kr_vi) 민다오
+name(kr) 명도
+name(vi) Minh Đạo
+#1042-10 - 1044-10
+#<-乾符有道  ->天感聖武
+
+<-乾符有道 [越南:1042-10] #支那改元日{#李朝越南 #李徳}
+
+
+def[天感聖武]
+#y~1593
+
+AD1044 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 李徳
+
+#wref_zh 天感聖武
+name(vi) Thiên Cảm Thánh Vũ
+#1044-10 - 1049-3
+#<-明道  ->崇兴大宝
+
+## <https://zh.wikipedia.org/w/index.php?title=%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8&diff=43866394&oldid=43858521>
+#1049
+
+wref_ja 天感聖武
+name_ja 天感聖武
+name_kana てん かん せい ぶ
+name(vi) Thiên Cảm Thánh Vũ
+name(vi_kana) ティエン カム タイン ヴー
+#1044-10 - 1049-3
+#<-明道  ->崇興大宝
+
+wref_ko 티엔깜타인부
+name(kr_vi) 티엔깜타인부
+name(kr) 천감성무
+name(vi) Thiên Cảm Thánh Vũ
+#1044-11 - 1049-2
+#<-明道  ->崇興大寶
+
+<-明道(壬午) [越南:1044-10] #支那改元日{#李朝越南 #李徳}
+<-明道(壬午) [越南:1044-11] #支那改元日{#李朝越南 #李徳} #旧説
+
+
+def[崇興大寶]
+#y~995
+
+AD1049 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 李徳
+
+#wref_zh 崇興大寶
+#1049-3 - 1054-10
+name(vi) Sùng Hưng Đại Bảo
+#<-天感聖武  ->龍瑞太平
+
+wref_ja 崇興大宝
+name_ja 崇興大宝
+name_kana すう こう たい ほう
+name(vi) Sùng Hưng Đại Bảo
+name(vi_kana) スン フン ダイ バオ
+#1049-3 - 1054-10 #死去 #即位 #改元
+#<-天感聖武  ->龍瑞太平
+
+wref_ko 숭흥다이바오
+name(kr_vi) 숭흥다이바오
+name(kr) 숭흥대보
+name(vi) Sùng Hưng Đại Bảo
+#1049-3 - 1054-10
+#<-天感聖武  ->龍瑞太平
+
+<-天感聖武 [越南:1049-3] #支那改元日{#李朝越南 #李徳}
+->龍瑞太平 越南:1054-10-1 #改元前の死去{#李朝越南 #李徳}
+
+
+
+def[龍瑞太平]
+#y~977
+
+AD1054 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+%tag person
+%tag   name_ja 李日尊
+tag 李日尊
+
+#wref_zh 龍瑞太平
+name(vi) Long Thụy Thái Bình
+#1054-10 - 1058
+#<-崇興大寶  ->彰聖嘉慶
+
+name_ja 竜瑞太平
+
+wref_ja 龍瑞太平
+name_ja 龍瑞太平
+name_kana りゅう ずい たい へい
+name(vi) Long Thụy Thái Bình
+name(vi_kana) ロン チュィ タイ ビン
+#1054 - 1058
+#<-崇興大宝  ->彰聖嘉慶
+
+wref_ko 롱투이타이빈
+name(kr_vi) 롱투이타이빈
+name(kr) 용서태평
+name(vi) Long Thụy Thái Bình
+#1054-10 - 1059-6
+#<-崇興大寶  ->彰聖嘉慶
+
+<-崇興大寶 [越南:1054-10-1,越南:1054-10] #支那改元日{#李朝越南 #李日尊}
+
+&
+
+## <https://zh.wikipedia.org/w/index.php?title=%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8&diff=43866394&oldid=43858521>
+#"*[[龍瑞太平]]或[[龍瑞太平|龍瑞天平]] [[1054年]]—[[1059年]]"
+
+wref_ko 롱투이타이빈
+name(kr_vi) 롱투이티엔빈
+name(kr) 용서천평
+name(vi) Long Thụy Thiên Bình
+name 龍瑞天平
+
+name_ja 竜瑞天平
+
+def[彰聖嘉慶]
+#y~73
+
+AD1059 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 李日尊
+
+#wref_zh 彰聖嘉慶
+name(vi) Chương Thánh Gia Khánh
+#1059 - 1066-2
+#<-龍瑞太平  ->龍章天嗣
+
+## <https://zh.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E6%9D%8E%E6%9C%9D>
+#1059 - 1066-1
+
+wref_ja 彰聖嘉慶
+name_ja 彰聖嘉慶
+name_kana しょう せい か けい
+name(vi) Chương Thánh Gia Khánh
+name(vi_kana) チョン タイン ギア カイン
+#1059 - 1065
+#<-龍瑞太平  ->龍彰天嗣
+
+wref_ko 쯔엉타인자카인
+name(kr_vi) 쯔엉타인자카인
+name(kr) 창성가경
+name(vi) Chương Thánh Gia Khánh
+#1059-6 - 1066-1
+#<-龍瑞太平  ->龍彰天嗣
+
+<-龍瑞太平 [越南:1059-6] #支那改元日{#李朝越南 #李日尊}
+
+
+def[龍彰天嗣]
+#y~1717
+
+AD1066 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 李日尊
+
+#wref_zh 龍章天嗣
+name_tw 龍章天嗣
+name_cn 龙章天嗣
+name(vi) Long Chương Thiên Tự
+#1066-2 - 1068-2
+#越史略: 龍彰天嗣
+#<-彰聖嘉慶  ->天貺寶象
+
+## <https://zh.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E6%9D%8E%E6%9C%9D>
+#龍章天嗣
+#1066-1 - 1068-2
+
+## <https://zh.wikipedia.org/w/index.php?title=%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8&diff=43866394&oldid=43858521>
+#"*[[龍彰天嗣]] [[1066年]]—[[1068年]]"
+
+name_ja 竜章天嗣
+
+name_ja 竜彰天嗣
+
+wref_ja 龍彰天嗣
+name_ja 龍彰天嗣
+name_kana りゅう しょう てん し
+name(vi) Long Chương Thiên Tự
+name(vi_kana) ロン チュロン ティェン トゥ
+#1066 - 1068
+#<-彰聖嘉慶  ->天貺宝象
+
+wref_ko 롱쯔엉티엔뜨
+name 龍彰天嗣
+name(kr_vi) 롱쯔엉티엔뜨
+name(kr) 용창전사
+name(vi) Long Chương Thiên Tự
+#1066-2 - 1068-2
+#<-彰聖嘉慶  ->天貺寶象
+
+<-彰聖嘉慶 [越南:1066-2] #支那改元日{#李朝越南 #李日尊}
+<-彰聖嘉慶 [越南:1066-1] #支那改元日{#李朝越南 #李日尊} #旧説
+
+
+def[天貺寶象]
+#y~141
+
+AD1068 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 李日尊
+
+#wref_zh 天貺寶象
+name(vi) Thiên Thống Bảo Tượng
+#1068-2 - 1069-7
+#<-龍章天嗣  ->神武
+
+wref_ja 天貺宝象
+name_ja 天貺宝象
+name_kana てん けい ほう しょう
+name(vi) Thiên Thống Bảo Tượng
+name(vi_kana) ティェン トン バオ テゥォン
+#1068 - 1069
+#<-龍彰天嗣  ->神武
+
+wref_ko 티엔후옹바오뜨엉
+name 天貺寶象
+name(kr_vi) 티엔후옹바오뜨엉
+name(kr) 천황보상
+name(vi) Thiên Huống Bảo Tượng
+#1068-2 - 1069-7
+#<-龍彰天嗣  ->神武
+
+<-龍彰天嗣 [越南:1068-2] #支那改元日{#李朝越南 #李日尊}
+
+&
+name_tw 天祝寶象
+name_cn 天祝宝象
+
+## <https://zh.wikipedia.org/w/index.php?title=%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8&diff=43866394&oldid=43858521>
+#"*[[天貺寶象]]或[[天貺寶象|天祝寶象]] [[1069年]]"
+
+wref_ko 티엔후옹바오뜨엉
+name(kr_vi) 티엔쭉바오뜨엉
+name(vi) Thiên Chúc Bảo Tượng
+name(kr) 천축보상
+name 天祝寶象
+
+
+def[天貺寶象(己酉)]
+
+<-天貺寶象 [越南:1069,g:2000] #年誤伝発生 #越南
+
+AD1069 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 李日尊
+
+name_tw 天貺寶象
+name_cn 天贶宝象
+&
+name_tw 天祝寶象
+name_cn 天祝宝象
+
+<-龍彰天嗣 [越南:1069] #支那改元日{#李朝越南 #李日尊} #旧説
+
+
+def[神武(己酉)]
+#y~93
+
+AD1069 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 李日尊
+
+#wref_zh 神武
+name(vi) Thần Vũ
+#1069-7 - 1072-1-庚寅日 #死去 #即位 #改元
+#大越史記全書本紀3: "〔乙酉天貺寳象二年〕秋七月，帝還自占城，獻俘于太廟，
+#改元神武元年。……壬子四年春正月庚寅，帝崩于會僊殿。……
+#皇太子乾德即位于柩前，改元太寧元年。"
+#越史略卷中: "壬子神武四年，春正月，庚寅，王疾亟，薨於會仙殿，……
+#癸丑二年，正月，改元曰太寧元年。"
+#東亜歴史年表
+#<-天貺寶象 ->太寧
+
+wref_ja 神武 (李朝)
+name_ja 神武
+name_kana じん ぶ
+name(vi) Thần Vũ
+name(vi_kana) タン ブ
+#1069 - 1072
+#<-天貺宝象  ->太寧
+
+## <https://zh.wikipedia.org/wiki/%E6%9D%8E%E8%81%96%E5%AE%97>
+#1072-2-1 #死去
+
+wref_ko 턴부
+name(kr_vi) 턴부
+name(kr) 신무
+name(vi) Thần Vũ
+#1069-7 - 1072-1
+#<-天貺寶象  ->太寧
+
+<-天貺寶象 [越南:1069-7] #支那改元日{#李朝越南 #李日尊}
+->太寧(壬子) 越南:1072-1-庚寅 j:1072-2-1 #改元前の死去{#李朝越南 #李日尊}
+
+
+def[太寧(壬子)]
+#y~208
+
+AD1072 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+%tag person
+%tag   name_ja 李乾徳
+tag 李乾徳
+
+#wref_zh 太寧 (越南)
+name(vi) Thái Ninh
+#1072-1 - 1076-4
+#<-神武  ->英武昭勝
+
+## <https://zh.wikipedia.org/w/index.php?title=%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8&diff=43866394&oldid=43858521>
+#"*[[太寧 (李乾德)|太寧]]或[[太寧 (李乾德)|泰寧]] [[1072年]]—[[1076年]]"
+
+wref_ja 太寧 (李朝)
+name_ja 太寧
+name_kana たい ねい
+name(vi) Thái Ninh
+name(vi_kana) タイ ニン
+#1072 - 1076
+#<-神武  ->英武昭勝
+
+wref_ko 타이닌
+name(kr_vi) 타이닌
+name(kr) 태녕
+name(vi) Thái Ninh
+name 太寧
+name 泰寧
+#1072-1 - 1076-4
+#<-神武  ->英武昭勝
+
+<-神武(己酉) [越南:1072-1-庚寅,越南:1072-1]
+    #建元前の即位{#李朝越南 #李乾徳 #越南皇帝}
+<-神武(己酉) [越南:1072-1-庚寅,越南:1072-1] #支那改元日{#李朝越南 #李乾徳}
+
+
+def[英武昭勝]
+#y~362
+
+AD1076 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 李乾徳
+
+#wref_zh 英武昭勝
+name(vi) Anh Vũ Chiến Thắng
+#1076-4 - 1085-2
+#<-太寧  ->廣祐
+
+wref_ja 英武昭勝
+name_ja 英武昭勝
+name_kana えい ぶ しょう しょう
+name(vi) Anh Vũ Chiến Thắng
+name(vi_kana) アン ブ チェン タン
+#1076 - 1084
+#<-太寧  ->広祐
+
+wref_ko 아인부찌에우탕
+name(kr_vi) 아인부찌에우탕
+name(kr) 영무소승
+name(vi) Anh Vũ Chiến Thắng
+#1076-4 - 1085-2
+#<-太寧  ->廣祐
+
+<-太寧(壬子) [越南:1076-4] #支那改元日{#李朝越南 #李乾徳}
+
+
+def[廣佑]
+#y~1287
+
+AD1085 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 李乾徳
+
+#wref_zh 廣祐
+name(vi) Quảng Hựu
+#1085-2 - 1092-12
+#<-英武昭勝  ->會豐
+
+## <https://zh.wikipedia.org/w/index.php?title=%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8&diff=43866394&oldid=43858521>
+#"*[[廣佑]]或[[廣祐]] [[1085年]]—[[1092年]]"
+name_tw 廣祐
+name_cn 广祐
+name_tw 廣佑
+name_cn 广佑
+
+## <https://zh.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E6%9D%8E%E6%9C%9D>
+#"《大越史記全書》未記二月改元事。 "
+#1085-2 - 1092-8
+
+wref_ja 広祐
+name_ja 広祐
+name_kana こう ゆう
+name(vi) Quảng Hựu
+name(vi_kana) クァン フー
+#1085 - 1092
+#<-英武昭勝  ->会豊
+
+wref_ko 꽝흐우
+name(kr_vi) 꽝흐우
+name(kr) 광우
+name(vi) Quảng Hựu
+name 廣佑
+name 廣祐
+#1085-2 - 1092-8
+#<-英武昭勝  ->會豊
+
+<-英武昭勝 [越南:1085-2] #支那改元日{#李朝越南 #李乾徳}
+
+
+def[會豐]
+#y~388
+
+AD1092 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 李乾徳
+
+#wref_zh 會豐
+name(vi) Hội Phong
+#1092-12 - 1100
+#<-廣祐  ->龍符元化
+
+## <https://zh.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E6%9D%8E%E6%9C%9D>
+#1092-8 - 1100
+
+wref_ja 会豊
+name_ja 会豊
+name_kana かい ほう
+name 會豐
+name(vi) Hội Phong
+name(vi_kana) ホイ フォン
+#1092 - 1100
+#<-広祐  ->龍符
+
+wref_ko 호이퐁
+name(kr_vi) 호이퐁
+name(kr) 회풍
+name(vi) Hội Phong
+name 會豊
+#1092-8 - 1100
+#<-廣祐  ->龍符元化
+
+<-廣佑 [越南:1092-8] #支那改元日{#李朝越南 #李乾徳} #異説
+<-廣佑 [越南:1092-12] #支那改元日{#李朝越南 #李乾徳}
+
+&
+
+## <https://zh.wikipedia.org/w/index.php?title=%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8&diff=43866394&oldid=43858521>
+#"*[[會豐]]或[[會符]] [[1092年]]—[[1101年]]"
+name_tw 會符
+name_cn 会符
+
+wref_ko 호이퐁
+name(kr_vi) 호이푸
+name(vi) Hội Phù
+name(kr) 회부
+name 會符
+
+def[龍符]
+#y~107
+
+AD1101 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 李乾徳
+
+name_ja 竜符元化
+
+#wref_zh 龍符元化
+#龍符元化
+name(vi) Long Phù Nguyên Hoá
+#1101 - 1109
+#"《大越史記全書》作“龍符”"
+#"《越史略》和《李朝銘文合集》所載碑刻都稱年號為“龍符元化”。"
+#<-會豐  ->會祥大慶
+
+## <https://zh.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E6%9D%8E%E6%9C%9D>
+#龍符元化
+#1101-1 - 1109
+#"《越史略》和傳世碑刻均作“龍符元化”，《大越史記全書》作“龍符”。"
+
+name_ja 竜符
+
+wref_ja 龍符
+name_ja 龍符
+name_kana りゅう ふ
+name(vi) Long Phù
+name(vi_kana) ロン フー
+#1101 - 1109
+#<-会豊  ->会祥大慶
+
+wref_ko 롱푸응우옌호아
+name(kr_vi) 롱|푸|응우옌|호아
+name(kr) 용부원화
+name(vi) Long Phù Nguyên Hoá
+name 龍符元化
+#1101 - 1109
+#<-會豊  ->會祥大慶
+
+wref_ko 롱푸응우옌호아
+name(kr_vi) 롱푸
+name(vi) Long Phù
+name(kr) 용부
+name 龍符
+
+<-會豐 [越南:1101-1] #支那改元日{#李朝越南 #李乾徳}
+
+&
+
+## <https://zh.wikipedia.org/w/index.php?title=%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8&diff=43866394&oldid=43858521>
+#"*[[龍符]]或[[龍符|乾符]] [[1101年]]—[[1110年]]"
+name_tw 乾符
+name_cn 乾符
+
+def[會祥大慶]
+#y~1694
+
+AD1110 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 李乾徳
+
+#wref_zh 會祥大慶
+name(vi) Hội Tường Đại Khánh
+#1110 - 1119
+#<-龍符元化  ->天符睿武
+
+wref_ja 会祥大慶
+name_ja 会祥大慶
+name_kana かい しょう だい けい
+name(vi) Hội Tường Đại Khánh
+name(vi_kana) ホイ トゥン ダイ カイン
+#1110 - 1119
+#<-龍符  ->天符睿武
+
+wref_ko 호이뜨엉다이카인
+name(kr_vi) 호이뜨엉다이카인
+name(kr) 회상대경
+name(vi) Hội Tường Đại Khánh
+#1110 - 1119
+#<-龍符元化  ->天符睿武
+
+<-龍符 [越南:1110] #支那改元日{#李朝越南 #李乾徳}
+
+
+def[天符睿武]
+#y~119
+
+AD1120 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+
+tag 李乾徳
+
+#wref_zh 天符睿武
+name(vi) Thiên Phù Duệ Vũ
+#1120 - 1126
+#<-會祥大慶  ->天符慶壽
+
+wref_ja 天符睿武
+name_ja 天符睿武
+name_kana てん ふ えい ぶ
+name(vi) Thiên Phù Duệ Vũ
+name(vi_kana) ティエン フー ズエ ブ
+#1120 - 1126
+#<-会祥大慶  ->天符慶寿
+
+wref_ko 티엔푸주에부
+name(kr_vi) 티엔푸주에부
+name(kr) 천부예무
+name(vi) Thiên Phù Duệ Vũ
+#1120 - 1126
+#<-會祥大慶  ->天符慶壽
+
+<-會祥大慶 [越南:1120] #支那改元日{#李朝越南 #李乾徳}
+
+
+def[天符慶壽]
+#y~743
+
+AD1127 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+tag 南宋
+
+tag 李乾徳
+
+#wref_zh 天符慶寿
+name(vi) Thiên Phù Khánh Thọ
+#1127
+#<-天符睿武  ->天順
+
+## <https://zh.wikipedia.org/wiki/%E6%9D%8E%E4%BB%81%E5%AE%97>
+#1128-1-15 #死去
+
+wref_ja 天符慶寿
+name_ja 天符慶寿
+name_kana てん ふ けい じゅ
+name(vi) Thiên Phù Khánh Thọ
+name(vi_kana) ティェン フー カイン トー
+#1127
+#<-天符睿武  ->天順
+
+wref_ko 티엔푸카인토
+name(kr_vi) 티엔푸카인토
+name(kr) 천부경수
+name(vi) Thiên Phù Khánh Thọ
+#1127
+#<-天符睿武  ->天順
+
+<-天符睿武 [越南:1127] #支那改元日{#李朝越南 #李乾徳}
+->天順(戊申),天順(丁未) j:1128-1-15 #改元前の死去{#李朝越南 #李乾徳}
+
+
+def[天順(丁未)]
+#y~720
+
+<-天順(戊申) [越南:1128,g:2000] #年誤伝発生 #越南
+
+AD1127 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+tag 南宋
+
+tag 李陽煥
+
+name_tw 天順
+name_cn 天顺
+&
+name_tw 大順
+name_cn 大顺
+
+<-天符慶壽 [j:1128-1-15,越南:1127-12] #支那改元日{#李朝越南 #李陽煥} #旧説
+
+def[天順(戊申)]
+
+AD1128 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 北宋
+tag 南宋
+
+%tag person
+%tag   name_ja 李陽煥
+tag 李陽煥
+
+#wref_zh 天順 (越南)
+name(vi) Thiên Thuận
+#1128 - 1132
+#"《越史略》作“大順”"
+#<-天符慶壽  ->天彰寶嗣
+
+## <https://zh.wikipedia.org/wiki/%E6%9D%8E%E7%A5%9E%E5%AE%97>
+#1127-12 #即位
+#1138-9 #死去
+
+wref_ja 天順 (李朝)
+name_ja 天順
+name_kana てん じゅん
+name(vi) Thiên Thuận
+name(vi_kana) ティェン トゥァン
+#1128 - 1132
+#<-天符慶寿  ->天彰宝嗣
+
+wref_ko 티엔투언
+name(kr_vi) 티엔투언
+name(kr) 천순
+name(vi) Thiên Thuận
+#1128 - 1132
+#<-天符慶壽  ->天彰寶嗣
+
+<-天符慶壽 ->天順(戊申),天順(丁未) [j:1128-1-15,越南:1127-12]
+    #建元前の即位{#李朝越南 #李陽煥}
+<-天符慶壽 [越南:1128] #支那改元日{#李朝越南 #李陽煥}
+
+&
+
+## <https://zh.wikipedia.org/w/index.php?title=%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8&diff=43866394&oldid=43858521>
+#"*[[天順 (李陽煥)|天順]]或[[天順 (李陽煥)|大順]] [[1127年]]—[[1133年]]"
+name_tw 大順
+name_cn 大顺
+
+wref_ko 티엔투언
+name(kr_vi) 다이투언
+name(vi) Đại Thuận
+name(kr) 대순
+
+def[天彰寶嗣]
+#y~1427
+
+AD1133 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 南宋
+
+tag 李陽煥
+
+#wref_zh 天彰寶嗣
+name(vi) Thiên Chương Bảo Tự
+#1133 - 1138-9/1138-10-1
+#大越史記全書
+#<-天順 ->紹明
+
+wref_ja 天彰宝嗣
+name_ja 天彰宝嗣
+name_kana てん しょう ほう し
+name(vi) Thiên Chương Bảo Tự
+name(vi_kana) ティェン チュォン バオ トゥ
+#1133 - 1138
+#<-天順  ->紹明
+
+wref_ko 티엔쯔엉바오뜨
+name(kr_vi) 티엔쯔엉바오뜨
+name(kr) 천창보사
+name(vi) Thiên Chương Bảo Tự
+#1133 - 1138-9
+#<-天順  ->紹明
+
+<-天順(丁未) [越南:1133] #支那改元日{#李朝越南 #李陽煥}
+->紹明 [越南:1138-9] #改元前の死去{#李朝越南 #李陽煥}
+
+
+def[紹明]
+#y~379
+
+AD1138 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 南宋
+
+%tag person
+%tag   name_ja 李天祚
+tag 李天祚
+
+#wref_zh 紹明
+name(vi) Thiệu Minh
+#1138-10-1 - 1140-2
+#大越史記全書
+#<-天彰寶嗣  ->大定
+
+wref_ja 紹明
+name_ja 紹明
+name_kana しょう めい
+name(vi) Thiệu Minh
+name(vi_kana) ティエウ ミン
+#1138 - 1140
+#<-天彰宝嗣  ->大定
+
+wref_ko 티에우민
+name(kr_vi) 티에우민
+name(kr) 소명
+name(vi) Thiệu Minh
+#1138-10 - 1140-2
+#<-天彰寶嗣  ->大定
+
+<-天彰寶嗣 [越南:1138-9,越南:1138-10-1]
+    #建元前の即位{#李朝越南 #李天祚 #越南皇帝}
+<-天彰寶嗣 越南:1138-10-1 #支那改元日{#李朝越南 #李天祚}
+
+
+def[大定(庚申)]
+#y~714
+
+AD1140 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 南宋
+
+tag 李天祚
+
+#wref_zh 大定 (越南)
+name(vi) Đại Định
+#1140-2 - 1162
+#大越史記全書
+#<-紹明  ->政隆寶應
+
+wref_ja 大定 (李朝)
+name_ja 大定
+name_kana だい てい
+name(vi) Đại Định
+name(vi_kana) ダイ ディン
+#1140-2 - 1162
+#大越史記全書 本紀4 庚申紹明3年2月条
+#<-紹明  ->政隆宝応
+
+wref_ko 다이딘 (리 왕조)
+name(kr_vi) 다이딘
+name(kr) 대정
+name(vi) Đại Định
+#1140-2 - 1162
+#<-紹明  ->政隆寶應
+
+<-紹明 [越南:1140-2] #支那改元日{#李朝越南 #李天祚}
+
+
+def[政隆寶應]
+#y~600
+
+AD1163 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 南宋
+
+tag 李天祚
+
+#wref_zh 政隆寶應
+name(vi) Chính Long Bảo Ứng
+#1163 - 1174-2
+#大越史記全書
+#<-大定  ->天感至寶
+
+wref_ja 政隆宝応
+name_ja 政隆宝応
+name_kana せい りゅう ほう おう
+name(vi) Chính Long Bảo Ứng
+name(vi_kana) チン ロン バオ ウン
+#1163 - 1174-1
+#大越史記全書 本紀4 癸未政隆宝応元年条
+#<-大定  ->天感至宝
+
+wref_ko 찐롱바오응
+name(kr_vi) 찐롱바오응
+name(kr) 정륭보응
+name(vi) Chính Long Bảo Ứng
+#1163 - 1174
+#<-大定  ->天感至寶
+
+<-大定(庚申) [越南:1163] #支那改元日{#李朝越南 #李天祚}
+
+
+def[天感至寶]
+#y~110
+
+AD1174 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 南宋
+
+tag 李天祚
+
+#wref_zh 天感至寶
+name(vi) Thiên Cảm Chí Bảo
+#1174-2 - 1175-12
+#大越史記全書
+#<-政隆寶應  ->贞符
+
+wref_ja 天感至宝
+name_ja 天感至宝
+name_kana てん かん し ほう
+name(vi) Thiên Cảm Chí Bảo
+name(vi_kana) ティエン カム チー バオ
+#1174-2 - 1175
+#大越史記全書 本紀4 甲午政隆宝応12年春2月条
+#<-政隆宝応  ->貞符
+
+wref_ko 티엔깜찌바오
+name(kr_vi) 티엔깜찌바오
+name(kr) 천감지보
+name(vi) Thiên Cảm Chí Bảo
+#1174-2 - 1175
+#<-政隆寶應  ->貞符
+
+<-政隆寶應 [越南:1174] #支那改元日{#李朝越南 #李天祚}
+->貞符 [越南:1175] #改元前の死去{#李朝越南 #李天祚}
+
+
+def[貞符]
+#y~426
+
+AD1176 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 南宋
+
+%tag person
+%tag   name_ja 李高宗
+tag 李高宗
+
+#wref_zh 貞符
+name(vi) Trinh Phù
+#1176 - 1186-7
+#<-天感至宝  ->天資嘉瑞
+
+## <https://zh.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E6%9D%8E%E6%9C%9D>
+#1176-1 - 1186-7
+
+wref_ja 貞符
+name_ja 貞符
+name_kana てい ふ
+name(vi) Trinh Phù
+name(vi_kana) チン フー
+#1176 - 1186-7
+#大越史記全書 本紀4 丙申貞符元年春正月条
+#<-天感至宝  ->天資嘉瑞
+
+## <https://ja.wikipedia.org/wiki/%E6%9D%8E%E9%AB%98%E5%AE%97>
+#1175-8-14 #即位
+#1210-11-15 1210-10-28 #死去
+
+wref_ko 찐푸
+name(kr_vi) 찐푸
+name(kr) 정부
+name(vi) Trinh Phù
+#1176 - 1186-7
+#<-天感至寶  ->天資嘉瑞
+
+wref_ja 貞符
+name_ja 宝符
+
+<-天感至寶 j:1175-8-14 #建元前の即位{#李朝越南 #李高宗 #越南皇帝}
+<-天感至寶 [越南:1176-1] #支那改元日{#李朝越南 #李高宗}
+
+
+def[天資嘉瑞]
+#y~784
+
+AD1186 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 南宋
+
+tag 李高宗
+
+#wref_zh 天資嘉瑞
+name(vi) Thiên Tư Gia Thụy
+#1186-7 - 1202-8
+#<-貞符  ->天嘉宝祐
+
+wref_ja 天資嘉瑞
+name_ja 天資嘉瑞
+name_kana てん し か ずい
+name(vi) Thiên Tư Gia Thụy
+name(vi_kana) ティエン トゥー ザー トゥイ
+#1186 - 1202
+#大越史記全書 本紀4 丙午貞符11年秋7月条
+#<-貞符  ->天嘉宝祐
+
+wref_ko 티엔뜨자투이
+name(kr_vi) 티엔뜨자투이
+name(kr) 천자가서
+name(vi) Thiên Tư Gia Thụy
+#1186-7 - 1202-8
+#<-貞符  ->天嘉寶祐
+
+<-貞符 [越南:1186-7] #支那改元日{#李朝越南 #李高宗}
+
+
+def[天嘉寶祐]
+#y~830
+
+AD1202 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 南宋
+
+tag 李高宗
+
+#wref_zh 天嘉寶祐
+name(vi) Thiên Gia Bảo Hựu
+#1202-8 - 1205-3
+#"《越史略》作“天資宝祐”"
+#<-天資嘉瑞  ->治平龙应
+
+wref_ja 天嘉宝祐
+name_ja 天嘉宝祐
+name_kana てん か ほう ゆう
+name(vi) Thiên Gia Bảo Hựu
+name(vi_kana) ティエン ザー バオ フー
+#1202-8 - 1205-3
+#大越史記全書 本紀4 壬戌天資嘉瑞17年秋8月条
+#<-天資嘉瑞  ->治平龍応
+
+wref_ko 티엔자바오흐우
+name(kr_vi) 티엔자바오흐우
+name(kr) 천가보우
+name(vi) Thiên Gia Bảo Hựu
+#1202-8 - 1205-3
+#<-天資嘉瑞  ->治平龍應
+
+<-天資嘉瑞 [越南:1202-8] #支那改元日{#李朝越南 #李高宗}
+
+&
+wref_zh 天嘉寶祐
+name_tw 天資寶祐
+name_cn 天資宝祐
+
+wref_ja 天嘉宝祐
+name_ja 天資宝祐
+
+&
+
+## <https://zh.wikipedia.org/w/index.php?title=%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8&diff=43866394&oldid=43858521>
+name 天嘉
+#"*[[天嘉寶祐]]或[[天嘉寶祐|天嘉]] [[1202年]]—[[1205年]]"
+
+wref_ko 티엔자바오흐우
+name(kr_vi) 티엔자
+name(vi) Thiên Gia
+name(kr) 천가
+
+
+def[治平龍應]
+#y~922
+
+AD1205 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 南宋
+
+tag 李高宗
+
+#wref_zh 治平龍應
+name(vi) Trị Bình Long Ứng
+#1205-3 - 1210
+#<-天嘉宝祐  ->建嘉
+
+name_ja 治平竜応
+
+wref_ja 治平龍応
+name_ja 治平龍応
+name_kana ち へい りゅう おう
+name(vi) Trị Bình Long Ứng
+name(vi_kana) チ ビン ロン ウン
+#1205-3 - 1210
+#大越史記全書 本紀4 乙丑天嘉宝祐4年春3月条
+#<-天嘉宝祐  ->建嘉
+
+wref_ko 찌빈롱응
+name(kr_vi) 찌빈롱응
+name(kr) 치평용응
+name(vi) Trị Bình Long Ứng
+#1205-3 - 1210
+#<-天嘉寶祐  ->建嘉
+
+<-天嘉寶祐 [越南:1205-3] #支那改元日{#李朝越南 #李高宗}
+#XXX
+->建嘉 越南:1210-10-28 #改元前の死去{#李朝越南 #李高宗}
+->建嘉 j:1210-11-15 #改元前の死去{#李朝越南 #李高宗}
+
+
+def[建嘉]
+#y~1213
+
+AD1211 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 南宋
+
+%tag person
+%tag   name_ja 李旵
+tag 李旵
+
+#wref_zh 建嘉
+name(vi) Kiến Gia
+#1211 - 1224-10
+#<-治平龙应  ->天彰有道
+
+## <https://zh.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E6%9D%8E%E6%9C%9D>
+#1211-1 - 1224-10
+
+wref_ja 建嘉
+name_ja 建嘉
+name_kana けん か
+name(vi) Kiến Gia
+name(vi_kana) キェン ザー
+#1211 - 1224-10
+#大越史記全書 本紀4 辛未建嘉元年春正月条
+#<-治平龍応  ->天彰有道
+
+## <https://ja.wikipedia.org/wiki/%E6%9D%8E%E6%81%B5%E5%AE%97>
+#1210-11-15 #即位
+#1224-10 #退位
+
+wref_ko 끼엔자
+name(kr_vi) 끼엔자
+name(kr) 건가
+name(vi) Kiến Gia
+#1211 - 1224-10
+#<-治平龍應  ->天彰有道
+
+<-治平龍應 j:1210-11-15 #建元前の即位{#李朝越南 #李高宗 #越南皇帝}
+<-治平龍應 [越南:1211-1] #支那改元日{#李朝越南 #李旵}
+->天彰有道 [越南:1224-10] #改元前の退位{#李朝越南 #李高宗 #越南皇帝}
+
+tag 陳嗣慶
+
+def[乾寧(甲戌)]
+
+AD1214 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 南宋
+
+%tag person
+%tag   name_ja 李元皇
+tag 李元皇
+
+#wref_zh 乾寧 (越南)
+name(vi) Càn Ninh
+#1214-3 - 1216-春
+#"此年號僅見於《越史略》，不見於《大越史記全書》。"
+#<-建嘉 ->建嘉
+
+## <https://zh.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E6%9D%8E%E6%9C%9D>
+#1214-3 - 1216-春
+#"《大越史記全書》未記此事。"
+
+## <https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%85%83%E7%9A%87>
+#1214-3 #即位 #改元
+#1216 #退位
+
+%tag person
+%tag   name_ja 陳嗣慶
+tag 陳嗣慶
+
+<-建嘉 [越南:1214-3] #建元前の即位{#李朝越南 #李元皇 #越南皇帝} #陳嗣慶
+<-建嘉 [越南:1214-3] #支那改元日{#李朝越南 #李元皇} #陳嗣慶 #起事建元
+->建嘉 [越南:1216-1,越南:1216-3] #改元前の退位{#李朝越南 #李元皇 #越南皇帝}
+->建嘉 [越南:1216-1,越南:1216-3] #勢力吸収{#李朝越南 #李旵, #李元皇}
+
+
+def[天彰有道]
+#y~262
+
+AD1224 = 1
+
+tag 李朝越南
+tag 越南
+tag ベトナム人
+tag 南宋
+
+%tag person
+%tag   name_ja 李仏金
+tag 李仏金
+
+#wref_zh 天彰有道
+name(vi) Thiên Chương Hữu Đạo
+#1224-10 - 1225-腊-11
+#<-建嘉  ->建中
+
+## <https://zh.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E6%9D%8E%E6%9C%9D>
+#1224-10 - 1225-12
+
+wref_ja 天彰有道
+name_ja 天彰有道
+name_kana てん しょう ゆう どう
+name(vi) Thiên Chương Hữu Đạo
+name(vi_kana) ティエン チュオン フー ダオ
+#1224-10 - 1225-12-11
+#大越史記全書 本紀4 甲申建嘉14年冬10月条
+#<-建嘉  ->建中
+
+## <https://ja.wikipedia.org/wiki/%E6%9D%8E%E6%98%AD%E7%9A%87>
+#1224-10 #即位
+#1226-1-11 #退位
+
+wref_ko 티엔쯔엉흐우다오
+name(kr_vi) 티엔쯔엉흐우다오
+name(kr) 천창유도
+name(vi) Thiên Chương Hữu Đạo
+#1224-10 - 1225-12
+#<-建嘉  ->建中
+
+<-建嘉 [越南:1224-10] #建元前の即位{#李朝越南 #李仏金 #越南皇帝}
+<-建嘉 [越南:1224-10] #支那改元日{#李朝越南 #李仏金}
+#XXX
+->建中(乙酉) 越南:1225-12-11
+    #改元前の退位{#李朝越南 #李仏金 #越南皇帝} #禅譲
+->建中(乙酉) j:1226-1-11
+    #改元前の退位{#李朝越南 #李仏金 #越南皇帝} #禅譲
+
+
 
 
 %tag country
@@ -355,6 +2118,8 @@ name 端懿
 #宋會要輯稿
 #1052
 
+<-啟歷 [宋:1052] #支那改元日{#大南国 #儂智高} #旧説
+
 [大曆(儂智高)]
 #y~923
 
@@ -371,6 +2136,10 @@ tag 大南国
 tag 儂智高
 
 <-unknown [宋:1041,宋:1053-1] #支那改元日{#大暦国 #儂智高}
+
+
+
+
 
 
 

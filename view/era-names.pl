@@ -192,6 +192,7 @@ print q{<!DOCTYPE html>
   .form-type-vi_upper td,
   .form-type-vi_lower td,
   .form-type-vi_capital td,
+  .form-type-vi_katakana td,
   .form-type-kr_fukui td,
   .form-type-kp_fukui td,
   .form-type-ko_fukui td,
@@ -400,6 +401,7 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
                 $key =~ s/_capital/\x{5001}/g;
                 $key =~ s/_upper/\x{5002}/g;
                 $key =~ s/_roman/\x{6000}/g;
+                $key =~ s/vi_katakana/vi_z_katakana/g;
                 [$_, $key];
               } grep { not {
                 abbr_indexes => 1,

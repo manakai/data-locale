@@ -994,23 +994,25 @@ sub compute_form_group_ons ($) {
           my $v_added = 0;
 
           if ($rep->{type} eq 'han') {
-            for (@{$label->{form_groups}}) {
-              if ($_->{form_group_type} eq 'han') {
-                $value = $_;
+            my @mergeable_fg;
+            for my $fg (@{$label->{form_groups}}) {
+              if ($fg->{form_group_type} eq 'han') {
+                $value = $fg;
                 $value_added = 1;
-              } elsif ($_->{form_group_type} eq 'korean') {
-                $value = $_;
-                $value_added = 1;
-                for my $v (@{$_->{form_sets}}) {
-                  $v->{form_set_type} = 'korean';
-                }
-              } elsif ($_->{form_group_type} eq 'vi') {
-                $value = $_;
-                $value_added = 1;
+                last;
+              } elsif ($fg->{form_group_type} eq 'korean' or
+                       $fg->{form_group_type} eq 'vi') {
+                push @mergeable_fg, $fg;
               }
             }
             $value->{form_group_type} = 'han';
             $v->{form_set_type} = 'hanzi';
+            my $old_fgs = {};
+            for my $fg (@mergeable_fg) {
+              push @{$value->{form_sets}}, @{$fg->{form_sets}};
+              $old_fgs->{$fg} = 1;
+            }
+            $label->{form_groups} = [grep { not $old_fgs->{$_} } @{$label->{form_groups}}];
             
             my $w = [split //, $rep->{value}];
             for my $x (@{$value->{form_sets}}) {
@@ -1178,17 +1180,27 @@ sub compute_form_group_ons ($) {
                 next;
               }
 
-              if (($lang eq 'vi' or $lang eq 'vi_latin') and
-                  $fg->{form_group_type} eq 'han') {
-                for my $fs (@{$fg->{form_sets}}) {
-                  if ($fs->{form_set_type} eq 'vietnamese' and
-                      defined $fs->{vi}) {
-                    if ($rep->{value} eq serialize_segmented_text $fs->{vi}) {
-                      $value_added = $v_added = 1;
-                      next REP;
+              if ($lang eq 'vi' or $lang eq 'vi_latin') {
+                if ($fg->{form_group_type} eq 'han') {
+                  my $mergeable = 0;
+                  for my $fs (@{$fg->{form_sets}}) {
+                    if ($fs->{segment_length} == $w_length) {
+                      if ($fs->{form_set_type} eq 'vietnamese' and
+                          defined $fs->{vi}) {
+                        if ($rep->{value} eq serialize_segmented_text $fs->{vi}) {
+                          $value_added = $v_added = 1;
+                          next REP;
+                        }
+                      }
+                      $mergeable = 1;
                     }
+                  } # $fs
+                  if ($mergeable) {
+                    $value = $fg;
+                    $value_added = 1;
                   }
                 }
+                next;
               } # vi
               
               if ($fg->{form_group_type} eq 'alphabetical') {
@@ -1514,6 +1526,33 @@ sub compute_form_group_ons ($) {
             } split /(\s+)/, $rep->{value}];
             $v->{$lang} = $w;
             $v->{segment_length} = segmented_text_length $w;
+          } elsif ($rep->{type} eq 'kana') {
+            for (@{$label->{form_groups}}) {
+              if ($_->{form_group_type} eq 'han') {
+                $value = $_;
+                $value_added = 1;
+              }
+            }
+            $value->{form_group_type} = 'han' unless $value_added;
+
+            my $lang = $rep->{lang};
+            die "Unknown lang |$lang|" unless $lang eq 'vi_kana';
+            
+            my $w = [map { /\s/ ? '.・' : $_ } split /(\s+)/, $rep->{value}];
+            $v->{segment_length} = segmented_text_length $w;
+            
+            for my $fs (@{$value->{form_sets}}) {
+              if ($fs->{form_set_type} eq 'vietnamese' and
+                  not defined $fs->{vi_katakana} and
+                  $fs->{segment_length} == $v->{segment_length}) {
+                $v = $fs;
+                $v_added = 1;
+                last;
+              }
+            }
+
+            $v->{form_set_type} = 'vietnamese' unless $v_added;
+            $v->{vi_katakana} = $w;
           } elsif ($rep->{type} eq 'korean') { # Korean alphabet
             for (@{$label->{form_groups}}) {
               if ($_->{form_group_type} eq 'han') {

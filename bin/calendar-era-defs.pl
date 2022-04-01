@@ -394,6 +394,12 @@ for my $path (
            lang => $lang,
            preferred => $preferred,
            value => $value};
+    } elsif (defined $key and /^name\((vi_kana)\)\s+([\p{Katakana}\x{30FC}\s]+)$/) {
+      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
+          {kind => 'name',
+           type => 'kana',
+           lang => $1,
+           value => $2};
     } elsif (defined $key and /^name\((ja|ja_old)\)(!|)\s+([\p{Hiragana}\p{Katakana}\x{30FC}\N{KATAKANA MIDDLE DOT}\x{1B001}-\x{1B11F}\x{3001}\p{Han}\p{Latn}\[\]|:!,()\p{Geometric Shapes}\s]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',

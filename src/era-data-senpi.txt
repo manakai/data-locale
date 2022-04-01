@@ -7980,6 +7980,12 @@ s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B702>"崩於�
 s#陳書<https://zh.wikisource.org/wiki/%E9%99%B3%E6%9B%B8/%E5%8D%B76>"仁壽"
 tag 陳叔宝
 
+## <https://ja.wikipedia.org/wiki/%E5%89%8D%E6%9D%8E%E6%9C%9D#%E9%9A%8B%E3%81%A8%E3%81%AE%E9%96%A2%E4%BF%82>
+#"銘文「舎利塔銘」には、大隋仁寿元年（601年）10月15日、皇帝によって
+#交州龍編県の禅衆寺に舎利が奉られ、仏塔が建てられたという内容が記されている。"
+tag 交州
+tag 前李朝
+
 
 [大業]
 #y~1682
