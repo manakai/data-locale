@@ -380,28 +380,32 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
                 yomi => {han_others => 'hiragana_z'},
                 manchu => {manchu => '0'},
                 mongolian => {mongolian => '0'},
+                vietnamese => {vi_katakana => "vi_\x{A000}"},
               }->{$value->{form_set_type}} || {};
               my @kv = map {
-                if ($_ eq 'others' or /_others$/ or /_wrongs$/) {
-                  my $key = $_;
-                  map { [$key => $_] } @{$value->{$_}};
+                if ($_->[0] eq 'others' or
+                    $_->[0] =~ /_others$/ or
+                    $_->[0] =~ /_wrongs$/) {
+                  my $key = $_->[0];
+                  my $temp = $_->[1];
+                  map { [$key => $_, $temp] } @{$value->{$key}};
                 } else {
-                  [$_ => $value->{$_}];
+                  [$_->[0] => $value->{$_->[0]}, $_->[1]];
                 }
-              } map { $_->[0] } sort {
+              } sort {
                 $a->[1] cmp $b->[1] ||
                 $a->[0] cmp $b->[0];
               } map {
                 my $key = $kmap->{$_} // $_;
                 $key =~ s/normal/\x{0000}/g;
                 $key =~ s/_(lower|upper|capital)_others/_others_$1/g;
-                $key =~ s/other/\x{10FFFE}/g;
-                $key =~ s/wrong/\x{10FFFF}/g;
-                $key =~ s/_lower/\x{5000}/g;
-                $key =~ s/_capital/\x{5001}/g;
-                $key =~ s/_upper/\x{5002}/g;
-                $key =~ s/_roman/\x{6000}/g;
-                $key =~ s/vi_katakana/vi_z_katakana/g;
+                $key =~ s/other/\x{10FF0E}/g;
+                $key =~ s/wrong/\x{10FF0F}/g;
+                $key =~ s/_lower/_\x{5000}/g;
+                $key =~ s/_capital/_\x{5001}/g;
+                $key =~ s/_upper/_\x{5002}/g;
+                $key =~ s/_roman/_\x{6000}/g;
+                $key =~ s/vi_katakana/vi_\x{9000}_katakana/g;
                 [$_, $key];
               } grep { not {
                 abbr_indexes => 1,
@@ -410,15 +414,16 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
                 is_preferred => 1,
                 origin_lang => 1,
               }->{$_} } keys %$value;
-              printf q{<tr class="form-type-%s"><th rowspan=%d class=form-set-header>form set <code>%s</code>%s},
+              printf q{<tr class="form-type-%s" data-temp="%s"><th rowspan=%d class=form-set-header>form set <code>%s</code>%s},
                   $kv[0]->[0],
+                  $kv[0]->[2],
                   @kv+(defined $short_patterns ? 1 : 0),
                   $value->{form_set_type},
                   (defined $value->{origin_lang} ? sprintf ' [<code>%s</code>]', htescape $value->{origin_lang} : '');
               for my $kv (@kv) {
                 my $v = $kv->[1];
-                printf qq{<tr class="form-type-%s">\n},
-                    $kv->[0] unless $kv eq $kv[0];
+                printf qq{<tr class="form-type-%s" data-temp="%s">\n},
+                    $kv->[0], $kv->[2] unless $kv eq $kv[0];
                 if (ref $v eq 'ARRAY') {
                   printf qq{<th>};
                   print q{<mark>} if $preferred->{$kv->[0]};

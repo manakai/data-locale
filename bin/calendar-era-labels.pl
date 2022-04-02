@@ -1538,7 +1538,7 @@ sub compute_form_group_ons ($) {
             my $lang = $rep->{lang};
             die "Unknown lang |$lang|" unless $lang eq 'vi_kana';
             
-            my $w = [map { /\s/ ? '.・' : $_ } split /(\s+)/, $rep->{value}];
+            my $w = [map { /\s/ ? '._' : $_ } split /(\s+)/, $rep->{value}];
             $v->{segment_length} = segmented_text_length $w;
             
             for my $fs (@{$value->{form_sets}}) {

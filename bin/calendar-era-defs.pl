@@ -299,7 +299,9 @@ for my $path (
   my $prop;
   my $can_continue = 0;
   my $current_source;
+  my $ln = 0;
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
+    $ln++;
     if ($can_continue and /^\s+(\S.*)$/) {
       $Data->{_TRANSITIONS}->[-1]->[2] .= " " . $1;
       $can_continue = 1;
@@ -563,7 +565,7 @@ for my $path (
       $can_continue = 1;
       
     } elsif (/\S/) {
-      die "$path: Bad line |$_|";
+      die "$path: $ln: Bad line |$_|";
     } else {
       undef $current_source;
     }

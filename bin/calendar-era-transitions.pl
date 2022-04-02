@@ -878,9 +878,9 @@ for my $tr (@$Input) {
 
     $v =~ s/\s+$//;
     while (1) {
-      if ($v =~ s{\s*#([\w_()]+)$}{}) {
+      if ($v =~ s{\s*#([\w_()\x{20000}-\x{3FFFF}]+)$}{}) {
         set_object_tag $x, $1;
-      } elsif ($v =~ s{\s*#([\w_()]+)\{([#\w_()\s]*)(?:,([#\w_()\s]*)|)\}$}{}) {
+      } elsif ($v =~ s{\s*#([\w_()\x{20000}-\x{3FFFF}]+)\{([#\w_()\x{20000}-\x{3FFFF}\s]*)(?:,([#\w_()\x{20000}-\x{3FFFF}\s]*)|)\}$}{}) {
         my $tags = $2;
         my $tags2 = $3;
         my $t1 = $1;
@@ -893,7 +893,7 @@ for my $tr (@$Input) {
         $x->{action_tag_id} = $tag->{id};
         my $param_tags = {};
         {
-          while ($tags =~ s{\s*#([\w_()]+)$}{}) {
+          while ($tags =~ s{\s*#([\w_()\x{20000}-\x{3FFFF}]+)$}{}) {
             my $t1 = $1;
             $t1 =~ s/_/ /g;
             my $tag = $TagByKey->{$t1};
@@ -936,7 +936,7 @@ for my $tr (@$Input) {
           die "Bad tags |$tags|" if length $tags;
         }
         if (defined $tags2) {
-          while ($tags2 =~ s{\s*#([\w_()]+)$}{}) {
+          while ($tags2 =~ s{\s*#([\w_()\x{20000}-\x{3FFFF}]+)$}{}) {
             my $t1 = $1;
             $t1 =~ s/_/ /g;
             my $tag = $TagByKey->{$t1};

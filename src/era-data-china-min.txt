@@ -284,6 +284,7 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 明領越南
 
 %tag person
 %tag   name_ja 洪熙帝
@@ -322,6 +323,7 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 明領越南
 
 %tag person
 %tag   name_ja 宣德帝
