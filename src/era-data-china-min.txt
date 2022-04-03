@@ -3125,6 +3125,11 @@ name_ja 昭武
 name_kana しょう ぶ
 # 1678-3 - 1678-8
 
+tag 莫朝越南
+tag 北ベトナム
+tag ベトナム人
+tag 莫敬宇
+
 def[洪化]
 #y~147
 ## Source:

@@ -124,6 +124,7 @@ tag 仏国
 tag 仏領インドシナ
 tag タイ
 tag ベトナム人
+tag ラオス
 tag 越南
 
 tag シンガポール

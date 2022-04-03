@@ -229,7 +229,9 @@ sub nymmd2jd ($$$$$) {
   }
 
   if ($g eq '越南') {
-    if ($y > 1279) {
+    if ($y > 1644 ) {
+      $g = '清';
+    } elsif ($y > 1279) {
       $g = '元';
     } else {
       $g = '宋';
@@ -1146,6 +1148,11 @@ for (@$Transitions) {
     }
   } elsif ($x->{tag_ids}->{1339}) { # 行政異動
     $type = 'administrative';
+    if ($x->{tag_ids}->{1200}) { # 旧説
+      $type .= '/incorrect';
+    } elsif ($x->{tag_ids}->{1198}) { # 異説
+      $type .= '/possible';
+    }
   } elsif ($x->{tag_ids}->{1338}) { # 通知受領
     $type = 'received';
   } elsif ($x->{tag_ids}->{1337}) { # 通知発出

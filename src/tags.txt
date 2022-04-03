@@ -133,6 +133,10 @@ country
   region of 東南アジア
 
 country
+  name_ja ラオス
+  region of 東南アジア
+
+country
   name_ja シンガポール
   region of 東南アジア
 
@@ -402,6 +406,10 @@ position
 
 position
   name_ja 可汗
+  group of 君主
+
+position
+  name_ja 親政者
   group of 君主
 
 position

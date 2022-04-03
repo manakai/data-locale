@@ -336,7 +336,7 @@ for my $path (
       $prop->{$1} = $2;
     } elsif (defined $key and /^(wref_(?:ja|zh|en|ko|vi|es))\s+(.+)$/) {
       $Data->{eras}->{$key}->{$1} = $2;
-    } elsif (defined $key and m{^wref\s*<?https://(zh-yue|zh-min-nan|zh-classical|vi|es|en)\.wikipedia\.org/wiki/([^/?#]+)>?\s*$}) {
+    } elsif (defined $key and m{^wref\s*<?https://(zh-yue|zh-min-nan|zh-classical|zh|vi|es|en)\.wikipedia\.org/wiki/([^/?#]+)>?\s*$}) {
       my $sd = $1;
       my $page = $2;
       #XXX

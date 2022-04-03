@@ -121,6 +121,7 @@ sub get_transition ($$$) {
         push @$matched_others2, $tr;
       }
       if ($tr->{type} eq 'wartime/incorrect' or
+          $tr->{type} eq 'administrative/incorrect' or
           $tr->{type} eq 'received/incorrect' or
           $tr->{type} eq 'firstday/incorrect' or
           $tr->{type} eq 'renamed/incorrect') {
