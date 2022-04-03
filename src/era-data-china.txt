@@ -2890,6 +2890,8 @@ tag 洪秀全
 
 #XXXcalendar 天暦
 
+name 太平天囯
+
 #wref_zh 太平天國 (年號)
 #1851 - 1864
 #道光30-12-10 g:1851-1-11 #建国
@@ -3186,6 +3188,10 @@ name_ja 中華民国
 name_tw 民國
 name_ja 民国
 name_cn 民国
+
+## <https://www.loc.gov/catdir/cpso/romanization/chinese.pdf#page=8>
+name(zh_alalc) Min|guo
+
 &
 name_tw 大中華民國
 &
@@ -3280,10 +3286,10 @@ tag シンガポール
 %tag   region of タイ
 %tag   region of 中華民国
 tag タイ中国国民党基地
-<-干支年 [g:1949,g:1950] #進攻{#中華民国, #タイ中国国民党基地} #戦時異動
+<-unknown [g:1949,g:1950] #進攻{#中華民国, #タイ中国国民党基地} #戦時異動
     #国共内戦 #グレゴリオ暦
-->干支年 [g:1986] #勢力吸収{#タイ, #タイ中国国民党基地} #グレゴリオ暦 #分離
-# ^^^^^^ XXX 仏暦
+->unknown [g:1986] #勢力吸収{#タイ, #タイ中国国民党基地} #グレゴリオ暦 #分離
+# ^^^^^^^ XXX 仏暦
 u 71
 u 77
 
@@ -3304,11 +3310,11 @@ wref_ja 洪憲
 name_ja 洪憲
 name_kana こう けん
 
-name(en) HUNG SHUAN
+name(en) HUNG |SHUAN
 
-# XXX <https://es.wikipedia.org/wiki/Hongxian>
-# XXX wref_es Hongxian
-name(es) Hongxian
+## <https://es.wikipedia.org/wiki/Hongxian>
+wref_es Hongxian
+name(es) Hong|xian
 
 tag 中華民国
 tag 漢土

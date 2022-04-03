@@ -2554,13 +2554,13 @@ name_kana しん じゅう
 #528 - 530
 #王司徒墓誌: "大趙神平二年歳次己酉"
 
-## <https://zh-classical.wikipedia.org/wiki/%E7%A5%9E%E7%8D%B8_(%E5%8C%97%E9%AD%8F)>
+wref<https://zh-classical.wikipedia.org/wiki/%E7%A5%9E%E7%8D%B8_(%E5%8C%97%E9%AD%8F)>
 #神獸（又作神虎、神平）
 #528 - 530
 
 ## <https://ko.wikipedia.org/wiki/%EB%AC%B5%EA%B8%B0%EC%B6%94%EB%85%B8>
-#wref_ko 묵기추노
+wref_ko 묵기추노
 name(kr) 신수
 
-## <https://vi.wikipedia.org/wiki/M%E1%BA%B7c_K%E1%BB%B3_S%E1%BB%ADu_N%C3%B4>
+wref<https://vi.wikipedia.org/wiki/M%E1%BA%B7c_K%E1%BB%B3_S%E1%BB%ADu_N%C3%B4>
 name(vi) Thần Thú

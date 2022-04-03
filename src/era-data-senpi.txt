@@ -2451,11 +2451,18 @@ name_kana ぎ き
 ## <https://ja.wikipedia.org/wiki/%E9%AB%98%E6%98%8C#%E6%AD%B4%E4%BB%A3%E5%90%9B%E4%B8%BB>
 #510/511 - 525
 
+#XXX
+
+## <https://vi.wikipedia.org/wiki/Ni%C3%AAn_hi%E1%BB%87u_Trung_Qu%E1%BB%91c>
+#511 - 523
+
 <-承平(壬午) [魏:510] #支那改元日{#麹氏高昌 #麹嘉}
 ->甘露(乙巳) [魏:525] #改元前の死去{#麹氏高昌 #麹嘉}
 
 [甘露(乙巳)]
 #y~633
+
+<-甘露(丙午) [北魏:526,g:2000] #年異説発生 #北魏
 
 AD525 = 1
 
@@ -2468,7 +2475,9 @@ tag 北魏
 tag 麹光
 tag 漢民族
 
-## [102]
+wref_zh 甘露 (高昌)
+name_tw 甘露
+name_cn 甘露
 #525~ - 530~
 #中国歴代年号考
 
@@ -2486,9 +2495,25 @@ name_kana かん ろ
 #531 #改元 甘露
 #530~ #退位
 
-<-義熙(辛卯) [魏:525] #建元前の即位{#麹氏高昌 #麹光 #高昌王}
-<-義熙(辛卯) [魏:525] #支那改元日{#麹氏高昌 #麹光}
-->章和(辛亥) [魏:530] #改元前の退位{#麹氏高昌 #麹光 #高昌王}
+<-義熙(辛卯) ->甘露(乙巳),甘露(丙午) [魏:525]
+    #建元前の即位{#麹氏高昌 #麹光 #高昌王}
+<-義熙(辛卯) [魏:525] #支那改元日{#麹氏高昌 #麹光} #異説
+->章和(辛亥) <-甘露(乙巳),甘露(丙午) [魏:530]
+    #改元前の退位{#麹氏高昌 #麹光 #高昌王}
+
+def[甘露(丙午)]
+#y~2159
+
+AD526 = 1
+
+tag 高昌
+tag 麹氏高昌
+tag 北魏
+
+tag 麹光
+tag 漢民族
+
+<-義熙(辛卯) [魏:526] #支那改元日{#麹氏高昌 #麹光}
 
 
 [章和(辛亥)]
@@ -5063,6 +5088,8 @@ tag 匈奴
 #<-正光 [魏:524-3] #支那改元日{#破六韓抜陵} #起事建元 #北魏 #六鎮の乱
 >< [魏:525-3] #陥落{#北魏, #破六韓抜陵} #六鎮の乱
 
+#XXX
+
 wref_ja 真王 (破六韓抜陵)
 name_ja 真王
 name_kana しん おう
@@ -5071,6 +5098,9 @@ tag 私年号 (ウィキペディア)
 
 ## <https://ja.wikipedia.org/wiki/%E7%A0%B4%E5%85%AD%E9%9F%93%E6%8A%9C%E9%99%B5>
 >< [魏:525-6] #陥落{#北魏, #破六韓抜陵} #六鎮の乱
+
+##<https://vi.wikipedia.org/wiki/Ni%C3%AAn_hi%E1%BB%87u_Trung_Qu%E1%BB%91c>
+#3/523—6/525
 
 %tag event
 %tag   name_ja 六鎮の乱
@@ -5720,7 +5750,7 @@ name(kr) 보태
 #531-2-29 - 531-10 - 532-4
 
 ## <https://uk.wikipedia.org/wiki/%D0%9F%D1%83%D1%82%D0%B0%D0%B9>
-#XXX
+#XXXname
 #Пута́й
 #Pǔtài
 #Повсюдний Спокій
@@ -6106,7 +6136,7 @@ u 3-1
 
 &
 name_ja 大魏国
-#XXX name (variant)
+#XXXname (variant)
 u 1
 &
 name_ja 魏
@@ -6132,7 +6162,7 @@ tag 元欽
 
 tag 前元
 name_ja 魏前
-#XXX name {swc334}前
+#XXXname {swc334}前
 u 1
 u 2
 u 3
@@ -6281,8 +6311,8 @@ tag 拓跋廓
 
 tag 後元
 name_ja 魏後
-#XXX name {swc334}後
-#XXX name {swc335}後
+#XXXname {swc334}後
+#XXXname {swc335}後
 name_cn 魏后
 u 1
 u 2
@@ -7621,6 +7651,11 @@ s#北斉書<https://zh.wikisource.org/wiki/%E5%8C%97%E9%BD%8A%E6%9B%B8/%E5%8D%B7
 <-武平 東魏:576-12-丁巳 #支那改元日{#北斉 #高緯}
 u 2-1-乙亥
 
+s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B722>"改元隆化"
+name 隆化
+s+
+#"時人離合其字曰「降死」。竟降周而死。 "
+
 ## [102]
 #576-12-丁巳 - 577-1-乙亥
 u 2-1-乙亥
@@ -7663,11 +7698,6 @@ s#北斉書<https://zh.wikisource.org/wiki/%E5%8C%97%E9%BD%8A%E6%9B%B8/%E5%8D%B7
 s#北斉書<https://zh.wikisource.org/wiki/%E5%8C%97%E9%BD%8A%E6%9B%B8/%E5%8D%B711>"即皇帝位"
 <-武平 東魏:576-12-戊午 #建元前の即位{#北斉 #高延宗 #斉皇帝}
 <-武平 東魏:576-12-戊午 #支那改元詔{#北斉 #高延宗} #起事建元
-
-s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B722>"改元隆化"
-name 隆化
-s+
-#"時人離合其字曰「降死」。竟降周而死。 "
 
 ## [102]
 #576-12-14 - 576-12-17
@@ -7949,6 +7979,12 @@ s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B702>"崩於�
 
 s#陳書<https://zh.wikisource.org/wiki/%E9%99%B3%E6%9B%B8/%E5%8D%B76>"仁壽"
 tag 陳叔宝
+
+## <https://ja.wikipedia.org/wiki/%E5%89%8D%E6%9D%8E%E6%9C%9D#%E9%9A%8B%E3%81%A8%E3%81%AE%E9%96%A2%E4%BF%82>
+#"銘文「舎利塔銘」には、大隋仁寿元年（601年）10月15日、皇帝によって
+#交州龍編県の禅衆寺に舎利が奉られ、仏塔が建てられたという内容が記されている。"
+tag 交州
+tag 前李朝
 
 
 [大業]
@@ -8276,7 +8312,13 @@ name_cn 贞观
 ## [103]
 wref_ja 貞観 (唐)
 name_ja 貞観
-name_kana じょう がん
+#name_kana じょう がん
+
+name_kana じょう がん,ぢやう ぐわん,ぢょう がん
+name_kana じょう かん
+
+name(en) Zhen-guan
+name(en) Chên-kuan
 
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B72>"改元"
 #<-武德 唐:626-8-癸亥 #改元前の退位{#李唐 #李淵 #唐皇帝} #旧説
@@ -8699,9 +8741,8 @@ tag 唐中宗
 ## [102]
 name_tw 嗣聖
 name_cn 嗣圣
-#XXX
-#pinyin sì shèng
-#bopomofo ㄙˋ ㄕㄥˋ
+pinyin sì shèng
+bopomofo ㄙˋ ㄕㄥˋ
 # 684-1-23 - 684-2-27
 #<-弘道 684-1-23 弘道2-1-1 "第二年正月初一甲申日元旦"
 tag 新羅
@@ -13936,14 +13977,6 @@ name(kr) 광정
 
 
 
-[同慶]
-#y~1013
-
-AD912 = 1
-
-name(kr) 동경
-
-#XXX  天尊천존 中興중흥 天興천흥 천수
 
 
 

@@ -130,45 +130,10 @@ local/wp-jp-eras-en.html:
 	$(WGET) -O $@ https://en.wikipedia.org/wiki/Template:Japanese_era_names
 src/wp-jp-eras-en.json: bin/parse-wp-jp-eras-en.pl #local/wp-jp-eras-en.html
 	$(PERL) $< > $@
-local/wp-cn-eras-tw.html:
-	$(WGET) -O $@ https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8
-local/wp-cn-eras-cn.html:
-	$(WGET) -O $@ https://zh.wikipedia.org/zh-cn/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8
-local/wp-cn-eras-hk.html:
-	$(WGET) -O $@ https://zh.wikipedia.org/zh-hk/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8
-local/wp-cn-eras-mo.html:
-	$(WGET) -O $@ https://zh.wikipedia.org/zh-mo/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8
-local/wp-cn-eras-my.html:
-	$(WGET) -O $@ https://zh.wikipedia.org/zh-my/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8
-local/wp-cn-eras-sg.html:
-	$(WGET) -O $@ https://zh.wikipedia.org/zh-sg/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8
-local/wp-cn-eras-tw.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-tw.html
-	$(PERL) $< < local/wp-cn-eras-tw.html > $@
-local/wp-cn-eras-cn.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-cn.html
-	$(PERL) $< < local/wp-cn-eras-cn.html > $@
-local/wp-cn-eras-hk.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-hk.html
-	$(PERL) $< < local/wp-cn-eras-hk.html > $@
-local/wp-cn-eras-mo.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-mo.html
-	$(PERL) $< < local/wp-cn-eras-mo.html > $@
-local/wp-cn-eras-my.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-my.html
-	$(PERL) $< < local/wp-cn-eras-my.html > $@
-local/wp-cn-eras-sg.json: bin/parse-wp-cn-eras.pl local/wp-cn-eras-sg.html
-	$(PERL) $< < local/wp-cn-eras-sg.html > $@
-#intermediate/wp-cn-eras.json
-intermediate-wp-cn-eras.json: bin/merge-wp-cn-eras.pl \
-    local/wp-cn-eras-tw.json \
-    local/wp-cn-eras-cn.json \
-    local/wp-cn-eras-hk.json \
-    local/wp-cn-eras-mo.json \
-    local/wp-cn-eras-my.json \
-    local/wp-cn-eras-sg.json \
-    src/wp-zh-era-id-map.txt
-	$(PERL) $< > intermediate/wp-cn-eras.json
+#intermediate/wikimedia/*.json:
+#	cd intermediate/wikimedia && $(MAKE) all
 local/cn-ryuukyuu-era-list.json: bin/cn-ryuukyuu-era-list.pl \
     src/eras/ryuukyuu.txt
-	$(PERL) $< > $@
-local/wp-zh-era-id-map.txt: bin/wp-zh-era-id-map.pl \
-    data/calendar/era-defs.json
 	$(PERL) $< > $@
 
 local/era-defs-jp-wp-en.json: bin/era-defs-jp-wp-en.pl \
@@ -194,14 +159,15 @@ local/era-date-list.json: bin/era-date-list.pl src/era-start-315.txt
 local/era-yomi-list.json: bin/era-yomi-list.pl \
     src/wp-jp-eras.json src/era-yomi*.txt \
     local/era-defs-jp-wp-en.json \
-    local/cldr-core-json/root.json local/cldr-core-json/ja.json
+    local/cldr-core-json/root.json local/cldr-core-json/ja.json \
+    intermediate/wikimedia/wp-en-jp-eras.json \
+    intermediate/wikimedia/wp-ko-jp-eras.json \
+    intermediate/wikimedia/wp-vi-jp-eras.json
 	$(PERL) $< > $@
-local/calendar-era-yomis.json: bin/calendar-era-yomis.pl \
-    local/era-yomi-list.json
-	DATA=1 $(PERL) $< > $@
 data/calendar/era-yomi-sources.json: bin/calendar-era-yomi-sources.pl \
     data/calendar/era-defs.json local/calendar-era-yomis.json \
-    local/calendar-era-labels-0.json
+    local/calendar-era-labels-0.json \
+    local/era-yomi-list.json
 	$(PERL) $< > $@
 local/calendar-era-labels-0.json: bin/calendar-era-labels.pl \
     local/calendar-era-defs-0.json \
@@ -232,7 +198,7 @@ local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
     local/era-defs-jp-wp-en.json \
     src/era-data*.txt \
     src/era-variants.txt \
-    intermediate/wp-cn-eras.json \
+    intermediate/wikimedia/wp-*-eras.json \
     src/era-viet.txt src/era-korea.txt \
     data/numbers/kanshi.json \
     intermediate/era-ids.json \
@@ -382,9 +348,6 @@ data/calendar/serialized/dtsjp3.txt: bin/calendar-serialize-dts.pl \
 
 local/era-chars.json: bin/generate-era-chars.pl \
     data/calendar/era-defs.json
-	$(PERL) $< > $@
-local/cn-era-name-diff.txt: bin/generate-cn-era-name-diff.pl \
-    intermediate/wp-cn-eras.json
 	$(PERL) $< > $@
 local/era-jp-conflicts.json: bin/generate-era-jp-conflicts.pl \
     data/calendar/era-defs.json

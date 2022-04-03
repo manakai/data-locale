@@ -1752,13 +1752,13 @@ u 1-2
 u 3-10
 
 ## <https://ko.wikipedia.org/wiki/%EA%B2%BD%EC%8B%9C_(%ED%98%84%ED%95%9C)>
-#XXX wref_ko 경시 (현한)
+wref_ko 경시 (현한)
 name(kr) 경시
 name(kr) 갱시
 #<- 23-3-1(辛巳) 23-3-11
 
-## <https://zh-min-nan.wikipedia.org/wiki/Keng-s%C3%AD_(H%C3%A0n)>
-#XXX Keng-sí
+wref<https://zh-min-nan.wikipedia.org/wiki/Keng-s%C3%AD_(H%C3%A0n)>
+name(nan) Keng-sí
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7099%E4%B8%8B>"更始元年"
 s+
@@ -1831,7 +1831,7 @@ tag 居延漢簡
 tag 内蒙古
 
 ## <https://ko.wikipedia.org/wiki/%EA%B1%B4%EC%84%B8>
-#XXX wref_ko 건세
+wref_ko 건세
 name(kr) 건세
 
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B711>"建世元年"

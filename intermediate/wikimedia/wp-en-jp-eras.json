@@ -1,0 +1,3210 @@
+{
+   "_errors" : [
+      [
+         "Era mapping is missing",
+         "天延,973",
+         "Heian_period"
+      ],
+      [
+         "Era mapping is missing",
+         "寿永,1182",
+         "Heian_period"
+      ],
+      [
+         "Era mapping is missing",
+         "正平,1346",
+         "Southern_Court"
+      ],
+      [
+         "Era mapping is missing",
+         "建武,1335",
+         "Northern_Court"
+      ],
+      [
+         "Era mapping is missing",
+         "正保,1644",
+         "Edo_period"
+      ],
+      [
+         "Era not found",
+         "Sujaku,671"
+      ],
+      [
+         "Era not found",
+         "Hakuhō,672"
+      ]
+   ],
+   "eras" : [
+      {
+         "caption" : "Asuka period",
+         "era_id" : 1621,
+         "era_key" : "大化",
+         "name" : "大化",
+         "offset" : 644,
+         "romaji" : "Taika",
+         "tw" : "大化",
+         "ukey" : "大化,644",
+         "wref" : "Taika_(era)"
+      },
+      {
+         "caption" : "Asuka period",
+         "era_id" : 126,
+         "era_key" : "白雉",
+         "name" : "白雉",
+         "offset" : 649,
+         "romaji" : "Hakuchi",
+         "tw" : "白雉",
+         "ukey" : "白雉,649",
+         "wref" : "Hakuchi_(era)"
+      },
+      {
+         "caption" : "Asuka period",
+         "era_id" : 1391,
+         "era_key" : "朱鳥",
+         "name" : "朱鳥",
+         "offset" : 685,
+         "romaji" : "Shuchō",
+         "romajis" : [
+            "Suchō",
+            "Akamitori",
+            "Akamidori"
+         ],
+         "tw" : "朱鳥",
+         "ukey" : "朱鳥,685",
+         "wref" : "Shuchō"
+      },
+      {
+         "caption" : "Asuka period",
+         "era_id" : 554,
+         "era_key" : "大宝",
+         "name" : "大宝",
+         "offset" : 700,
+         "romaji" : "Taihō",
+         "romajis" : [
+            "Daihō"
+         ],
+         "tw" : "大宝",
+         "ukey" : "大宝,700",
+         "wref" : "Taihō_(era)"
+      },
+      {
+         "caption" : "Asuka period",
+         "era_id" : 506,
+         "era_key" : "慶雲",
+         "name" : "慶雲",
+         "offset" : 703,
+         "romaji" : "Keiun",
+         "romajis" : [
+            "Kyōun"
+         ],
+         "tw" : "慶雲",
+         "ukey" : "慶雲,703",
+         "wref" : "Keiun"
+      },
+      {
+         "caption" : "Asuka period",
+         "era_id" : 303,
+         "era_key" : "和銅",
+         "name" : "和銅",
+         "offset" : 707,
+         "romaji" : "Wadō",
+         "tw" : "和銅",
+         "ukey" : "和銅,707",
+         "wref" : "Wadō_(era)"
+      },
+      {
+         "caption" : "Nara period",
+         "era_id" : 371,
+         "era_key" : "霊亀",
+         "name" : "霊亀",
+         "offset" : 714,
+         "romaji" : "Reiki",
+         "tw" : "霊亀",
+         "ukey" : "霊亀,714",
+         "wref" : "Reiki_(era)"
+      },
+      {
+         "caption" : "Nara period",
+         "era_id" : 914,
+         "era_key" : "養老",
+         "name" : "養老",
+         "offset" : 716,
+         "romaji" : "Yōrō",
+         "tw" : "養老",
+         "ukey" : "養老,716",
+         "wref" : "Yōrō"
+      },
+      {
+         "caption" : "Nara period",
+         "era_id" : 1045,
+         "era_key" : "神亀",
+         "name" : "神亀",
+         "offset" : 723,
+         "romaji" : "Jinki",
+         "tw" : "神亀",
+         "ukey" : "神亀,723",
+         "wref" : "Jinki_(era)"
+      },
+      {
+         "caption" : "Nara period",
+         "era_id" : 1052,
+         "era_key" : "天平",
+         "name" : "天平",
+         "offset" : 728,
+         "romaji" : "Tenpyō",
+         "romajis" : [
+            "Tenbyō",
+            "Tenhei"
+         ],
+         "tw" : "天平",
+         "ukey" : "天平,728",
+         "wref" : "Tenpyō"
+      },
+      {
+         "caption" : "Nara period",
+         "era_id" : 1002,
+         "era_key" : "天平感宝",
+         "name" : "天平感宝",
+         "offset" : 748,
+         "romaji" : "Tenpyō-kanpō",
+         "romajis" : [
+            "Tenbyō-kanpō",
+            "Tenhei-kanpō"
+         ],
+         "tw" : "天平感宝",
+         "ukey" : "天平感宝,748",
+         "wref" : "Tenpyō-kanpō"
+      },
+      {
+         "caption" : "Nara period",
+         "era_id" : 437,
+         "era_key" : "天平勝宝",
+         "name" : "天平勝宝",
+         "offset" : 748,
+         "romaji" : "Tenpyō-shōhō",
+         "romajis" : [
+            "Tenbyō-shōhō",
+            "Tenpei-shōhō"
+         ],
+         "tw" : "天平勝宝",
+         "ukey" : "天平勝宝,748",
+         "wref" : "Tenpyō-shōhō"
+      },
+      {
+         "caption" : "Nara period",
+         "era_id" : 1019,
+         "era_key" : "天平宝字",
+         "name" : "天平宝字",
+         "offset" : 756,
+         "romaji" : "Tenpyō-hōji",
+         "romajis" : [
+            "Tenbyō-hōji",
+            "Tenpei-hōji"
+         ],
+         "tw" : "天平宝字",
+         "ukey" : "天平宝字,756",
+         "wref" : "Tenpyō-hōji"
+      },
+      {
+         "caption" : "Nara period",
+         "era_id" : 1067,
+         "era_key" : "天平神護",
+         "name" : "天平神護",
+         "offset" : 764,
+         "romaji" : "Tenpyō-jingo",
+         "romajis" : [
+            "Tenbyō-jingo",
+            "Tenhei-jingo"
+         ],
+         "tw" : "天平神護",
+         "ukey" : "天平神護,764",
+         "wref" : "Tenpyō-jingo"
+      },
+      {
+         "caption" : "Nara period",
+         "era_id" : 432,
+         "era_key" : "神護景雲",
+         "name" : "神護景雲",
+         "offset" : 766,
+         "romaji" : "Jingo-keiun",
+         "tw" : "神護景雲",
+         "ukey" : "神護景雲,766",
+         "wref" : "Jingo-keiun"
+      },
+      {
+         "caption" : "Nara period",
+         "era_id" : 416,
+         "era_key" : "宝亀",
+         "name" : "宝亀",
+         "offset" : 769,
+         "romaji" : "Hōki",
+         "tw" : "宝亀",
+         "ukey" : "宝亀,769",
+         "wref" : "Hōki"
+      },
+      {
+         "caption" : "Nara period",
+         "era_id" : 804,
+         "era_key" : "天応",
+         "name" : "天応",
+         "offset" : 780,
+         "romaji" : "Ten'ō",
+         "tw" : "天応",
+         "ukey" : "天応,780",
+         "wref" : "Ten'ō"
+      },
+      {
+         "caption" : "Nara period",
+         "era_id" : 499,
+         "era_key" : "延暦",
+         "name" : "延暦",
+         "offset" : 781,
+         "romaji" : "Enryaku",
+         "tw" : "延暦",
+         "ukey" : "延暦,781",
+         "wref" : "Enryaku"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1007,
+         "era_key" : "大同",
+         "name" : "大同",
+         "offset" : 805,
+         "romaji" : "Daidō",
+         "tw" : "大同",
+         "ukey" : "大同,805",
+         "wref" : "Daidō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1371,
+         "era_key" : "弘仁",
+         "name" : "弘仁",
+         "offset" : 809,
+         "romaji" : "Kōnin",
+         "tw" : "弘仁",
+         "ukey" : "弘仁,809",
+         "wref" : "Kōnin_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 483,
+         "era_key" : "天長",
+         "name" : "天長",
+         "offset" : 823,
+         "romaji" : "Tenchō",
+         "tw" : "天長",
+         "ukey" : "天長,823",
+         "wref" : "Tenchō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 467,
+         "era_key" : "承和",
+         "name" : "承和",
+         "offset" : 833,
+         "romaji" : "Jōwa",
+         "romajis" : [
+            "Shōwa",
+            "Sōwa"
+         ],
+         "tw" : "承和",
+         "ukey" : "承和,833",
+         "wref" : "Jōwa_(Heian_period)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 951,
+         "era_key" : "嘉祥",
+         "name" : "嘉祥",
+         "offset" : 847,
+         "romaji" : "Kashō",
+         "romajis" : [
+            "Kajō"
+         ],
+         "tw" : "嘉祥",
+         "ukey" : "嘉祥,847",
+         "wref" : "Kashō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1311,
+         "era_key" : "仁寿",
+         "name" : "仁寿",
+         "offset" : 850,
+         "romaji" : "Ninju",
+         "tw" : "仁寿",
+         "ukey" : "仁寿,850",
+         "wref" : "Ninju"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 69,
+         "era_key" : "斉衡",
+         "name" : "斉衡",
+         "offset" : 853,
+         "romaji" : "Saikō",
+         "tw" : "斉衡",
+         "ukey" : "斉衡,853",
+         "wref" : "Saikō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1169,
+         "era_key" : "天安",
+         "name" : "天安",
+         "offset" : 856,
+         "romaji" : "Ten'an",
+         "romajis" : [
+            "Tennan"
+         ],
+         "tw" : "天安",
+         "ukey" : "天安,856",
+         "wref" : "Ten'an"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 897,
+         "era_key" : "貞観",
+         "name" : "貞観",
+         "offset" : 858,
+         "romaji" : "Jōgan",
+         "tw" : "貞観",
+         "ukey" : "貞観,858",
+         "wref" : "Jōgan"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1467,
+         "era_key" : "元慶",
+         "name" : "元慶",
+         "offset" : 876,
+         "romaji" : "Gangyō",
+         "romajis" : [
+            "Gankyō",
+            "Genkei"
+         ],
+         "tw" : "元慶",
+         "ukey" : "元慶,876",
+         "wref" : "Gangyō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 40,
+         "era_key" : "仁和",
+         "name" : "仁和",
+         "offset" : 884,
+         "romaji" : "Ninna",
+         "romajis" : [
+            "Ninwa"
+         ],
+         "tw" : "仁和",
+         "ukey" : "仁和,884",
+         "wref" : "Ninna"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 81,
+         "era_key" : "寛平",
+         "name" : "寛平",
+         "offset" : 888,
+         "romaji" : "Kanpyō",
+         "romajis" : [
+            "Kanpei",
+            "Kanbyō",
+            "Kanbei",
+            "Kanhei"
+         ],
+         "tw" : "寛平",
+         "ukey" : "寛平,888",
+         "wref" : "Kanpyō_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1116,
+         "era_key" : "昌泰",
+         "name" : "昌泰",
+         "offset" : 897,
+         "romaji" : "Shōtai",
+         "tw" : "昌泰",
+         "ukey" : "昌泰,897",
+         "wref" : "Shōtai"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1144,
+         "era_key" : "延喜",
+         "name" : "延喜",
+         "offset" : 900,
+         "romaji" : "Engi",
+         "tw" : "延喜",
+         "ukey" : "延喜,900",
+         "wref" : "Engi_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1395,
+         "era_key" : "延長",
+         "name" : "延長",
+         "offset" : 922,
+         "romaji" : "Enchō",
+         "tw" : "延長",
+         "ukey" : "延長,922",
+         "wref" : "Enchō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 530,
+         "era_key" : "承平",
+         "name" : "承平",
+         "offset" : 930,
+         "romaji" : "Jōhei",
+         "romajis" : [
+            "Shōhei"
+         ],
+         "tw" : "承平",
+         "ukey" : "承平,930",
+         "wref" : "Jōhei"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 276,
+         "era_key" : "天慶",
+         "name" : "天慶",
+         "offset" : 937,
+         "romaji" : "Tengyō",
+         "romajis" : [
+            "Tenkei",
+            "Tenkyō"
+         ],
+         "tw" : "天慶",
+         "ukey" : "天慶,937",
+         "wref" : "Tengyō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 992,
+         "era_key" : "天暦",
+         "name" : "天暦",
+         "offset" : 946,
+         "romaji" : "Tenryaku",
+         "romajis" : [
+            "Tenreki"
+         ],
+         "tw" : "天暦",
+         "ukey" : "天暦,946",
+         "wref" : "Tenryaku"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1152,
+         "era_key" : "天徳",
+         "name" : "天徳",
+         "offset" : 956,
+         "romaji" : "Tentoku",
+         "tw" : "天徳",
+         "ukey" : "天徳,956",
+         "wref" : "Tentoku"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 174,
+         "era_key" : "応和",
+         "name" : "応和",
+         "offset" : 960,
+         "romaji" : "Ōwa",
+         "tw" : "応和",
+         "ukey" : "応和,960",
+         "wref" : "Ōwa"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 513,
+         "era_key" : "康保",
+         "name" : "康保",
+         "offset" : 963,
+         "romaji" : "Kōhō",
+         "tw" : "康保",
+         "ukey" : "康保,963",
+         "wref" : "Kōhō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 358,
+         "era_key" : "安和",
+         "name" : "安和",
+         "offset" : 967,
+         "romaji" : "Anna",
+         "romajis" : [
+            "Anwa"
+         ],
+         "tw" : "安和",
+         "ukey" : "安和,967",
+         "wref" : "Anna_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 964,
+         "era_key" : "天禄",
+         "name" : "天禄",
+         "offset" : 969,
+         "romaji" : "Tenroku",
+         "tw" : "天禄",
+         "ukey" : "天禄,969",
+         "wref" : "Tenroku"
+      },
+      {
+         "_possibles" : [
+            [
+               225,
+               "天延",
+               972
+            ]
+         ],
+         "caption" : "Heian_period",
+         "name" : "天延",
+         "offset" : 973,
+         "romaji" : "Ten'en",
+         "tw" : "天延",
+         "ukey" : "天延,973",
+         "wref" : "Ten'en"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1356,
+         "era_key" : "貞元",
+         "name" : "貞元",
+         "offset" : 975,
+         "romaji" : "Jōgen",
+         "romajis" : [
+            "Teigen"
+         ],
+         "tw" : "貞元",
+         "ukey" : "貞元,975",
+         "wref" : "Jōgen_(Heian_period)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 978,
+         "era_key" : "天元",
+         "name" : "天元",
+         "offset" : 977,
+         "romaji" : "Tengen",
+         "tw" : "天元",
+         "ukey" : "天元,977",
+         "wref" : "Tengen_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1172,
+         "era_key" : "永観",
+         "name" : "永観",
+         "offset" : 982,
+         "romaji" : "Eikan",
+         "romajis" : [
+            "Yōkan"
+         ],
+         "tw" : "永観",
+         "ukey" : "永観,982",
+         "wref" : "Eikan"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1097,
+         "era_key" : "寛和",
+         "name" : "寛和",
+         "offset" : 984,
+         "romaji" : "Kanna",
+         "romajis" : [
+            "Kanwa"
+         ],
+         "tw" : "寛和",
+         "ukey" : "寛和,984",
+         "wref" : "Kanna_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 209,
+         "era_key" : "永延",
+         "name" : "永延",
+         "offset" : 986,
+         "romaji" : "Eien",
+         "romajis" : [
+            "Yōen"
+         ],
+         "tw" : "永延",
+         "ukey" : "永延,986",
+         "wref" : "Eien"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 705,
+         "era_key" : "永祚",
+         "name" : "永祚",
+         "offset" : 988,
+         "romaji" : "Eiso",
+         "romajis" : [
+            "Yōso"
+         ],
+         "tw" : "永祚",
+         "ukey" : "永祚,988",
+         "wref" : "Eiso_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1597,
+         "era_key" : "正暦",
+         "name" : "正暦",
+         "offset" : 989,
+         "romaji" : "Shōryaku",
+         "romajis" : [
+            "Jōryaku",
+            "Shōreki"
+         ],
+         "tw" : "正暦",
+         "ukey" : "正暦,989",
+         "wref" : "Shōryaku"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 100,
+         "era_key" : "長徳",
+         "name" : "長徳",
+         "offset" : 994,
+         "romaji" : "Chōtoku",
+         "romajis" : [
+            "Jōryaku",
+            "Shōreki"
+         ],
+         "tw" : "長徳",
+         "ukey" : "長徳,994",
+         "wref" : "Chōtoku"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1345,
+         "era_key" : "長保",
+         "name" : "長保",
+         "offset" : 998,
+         "romaji" : "Chōhō",
+         "tw" : "長保",
+         "ukey" : "長保,998",
+         "wref" : "Chōhō_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1602,
+         "era_key" : "寛弘",
+         "name" : "寛弘",
+         "offset" : 1003,
+         "romaji" : "Kankō",
+         "tw" : "寛弘",
+         "ukey" : "寛弘,1003",
+         "wref" : "Kankō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1640,
+         "era_key" : "長和",
+         "name" : "長和",
+         "offset" : 1011,
+         "romaji" : "Chōwa",
+         "tw" : "長和",
+         "ukey" : "長和,1011",
+         "wref" : "Chōwa"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1011,
+         "era_key" : "寛仁",
+         "name" : "寛仁",
+         "offset" : 1016,
+         "romaji" : "Kannin",
+         "tw" : "寛仁",
+         "ukey" : "寛仁,1016",
+         "wref" : "Kannin"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1584,
+         "era_key" : "治安",
+         "name" : "治安",
+         "offset" : 1020,
+         "romaji" : "Jian",
+         "romajis" : [
+            "Chian"
+         ],
+         "tw" : "治安",
+         "ukey" : "治安,1020",
+         "wref" : "Jian_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 189,
+         "era_key" : "万寿",
+         "name" : "万寿",
+         "offset" : 1023,
+         "romaji" : "Manju",
+         "tw" : "万寿",
+         "ukey" : "万寿,1023",
+         "wref" : "Manju_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1342,
+         "era_key" : "長元",
+         "name" : "長元",
+         "offset" : 1027,
+         "romaji" : "Chōgen",
+         "tw" : "長元",
+         "ukey" : "長元,1027",
+         "wref" : "Chōgen"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 803,
+         "era_key" : "長暦",
+         "name" : "長暦",
+         "offset" : 1036,
+         "romaji" : "Chōryaku",
+         "romajis" : [
+            "Chōreki"
+         ],
+         "tw" : "長暦",
+         "ukey" : "長暦,1036",
+         "wref" : "Chōryaku"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 558,
+         "era_key" : "長久",
+         "name" : "長久",
+         "offset" : 1039,
+         "romaji" : "Chōkyū",
+         "tw" : "長久",
+         "ukey" : "長久,1039",
+         "wref" : "Chōkyū"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 577,
+         "era_key" : "寛徳",
+         "name" : "寛徳",
+         "offset" : 1043,
+         "romaji" : "Kantoku",
+         "tw" : "寛徳",
+         "ukey" : "寛徳,1043",
+         "wref" : "Kantoku"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 305,
+         "era_key" : "永承",
+         "name" : "永承",
+         "offset" : 1045,
+         "romaji" : "Eishō",
+         "romajis" : [
+            "Eijō",
+            "Yōjō"
+         ],
+         "tw" : "永承",
+         "ukey" : "永承,1045",
+         "wref" : "Eishō_(Heian_period)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 640,
+         "era_key" : "天喜",
+         "name" : "天喜",
+         "offset" : 1052,
+         "romaji" : "Tengi",
+         "romajis" : [
+            "Tenki"
+         ],
+         "tw" : "天喜",
+         "ukey" : "天喜,1052",
+         "wref" : "Tengi"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 333,
+         "era_key" : "康平",
+         "name" : "康平",
+         "offset" : 1057,
+         "romaji" : "Kōhei",
+         "tw" : "康平",
+         "ukey" : "康平,1057",
+         "wref" : "Kōhei"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 111,
+         "era_key" : "治暦",
+         "name" : "治暦",
+         "offset" : 1064,
+         "romaji" : "Jiryaku",
+         "romajis" : [
+            "Chiryaku"
+         ],
+         "tw" : "治暦",
+         "ukey" : "治暦,1064",
+         "wref" : "Jiryaku"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1286,
+         "era_key" : "延久",
+         "name" : "延久",
+         "offset" : 1068,
+         "romaji" : "Enkyū",
+         "tw" : "延久",
+         "ukey" : "延久,1068",
+         "wref" : "Enkyū"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 788,
+         "era_key" : "承保",
+         "name" : "承保",
+         "offset" : 1073,
+         "romaji" : "Jōhō",
+         "romajis" : [
+            "Shōhō",
+            "Shōho"
+         ],
+         "tw" : "承保",
+         "ukey" : "承保,1073",
+         "wref" : "Jōhō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1022,
+         "era_key" : "承暦",
+         "name" : "承暦",
+         "offset" : 1076,
+         "romaji" : "Jōryaku",
+         "romajis" : [
+            "Shōryaku",
+            "Shōreki"
+         ],
+         "tw" : "承暦",
+         "ukey" : "承暦,1076",
+         "wref" : "Jōryaku"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 367,
+         "era_key" : "永保",
+         "name" : "永保",
+         "offset" : 1080,
+         "romaji" : "Eihō",
+         "romajis" : [
+            "Yōhō"
+         ],
+         "tw" : "永保",
+         "ukey" : "永保,1080",
+         "wref" : "Eihō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 704,
+         "era_key" : "応徳",
+         "name" : "応徳",
+         "offset" : 1083,
+         "romaji" : "Ōtoku",
+         "tw" : "応徳",
+         "ukey" : "応徳,1083",
+         "wref" : "Ōtoku"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1326,
+         "era_key" : "寛治",
+         "name" : "寛治",
+         "offset" : 1086,
+         "romaji" : "Kanji",
+         "tw" : "寛治",
+         "ukey" : "寛治,1086",
+         "wref" : "Kanji_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 236,
+         "era_key" : "嘉保",
+         "name" : "嘉保",
+         "offset" : 1093,
+         "romaji" : "Kahō",
+         "tw" : "嘉保",
+         "ukey" : "嘉保,1093",
+         "wref" : "Kahō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 342,
+         "era_key" : "永長",
+         "name" : "永長",
+         "offset" : 1095,
+         "romaji" : "Eichō",
+         "romajis" : [
+            "Yōchō"
+         ],
+         "tw" : "永長",
+         "ukey" : "永長,1095",
+         "wref" : "Eichō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 593,
+         "era_key" : "承徳",
+         "name" : "承徳",
+         "offset" : 1096,
+         "romaji" : "Jōtoku",
+         "romajis" : [
+            "Shōtoku"
+         ],
+         "tw" : "承徳",
+         "ukey" : "承徳,1096",
+         "wref" : "Jōtoku"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 172,
+         "era_key" : "康和",
+         "name" : "康和",
+         "offset" : 1098,
+         "romaji" : "Kōwa",
+         "tw" : "康和",
+         "ukey" : "康和,1098",
+         "wref" : "Kōwa_(Heian_period)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1603,
+         "era_key" : "長治",
+         "name" : "長治",
+         "offset" : 1103,
+         "romaji" : "Chōji",
+         "tw" : "長治",
+         "ukey" : "長治,1103",
+         "wref" : "Chōji"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1094,
+         "era_key" : "嘉承",
+         "name" : "嘉承",
+         "offset" : 1105,
+         "romaji" : "Kajō",
+         "tw" : "嘉承",
+         "ukey" : "嘉承,1105",
+         "wref" : "Kajō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1697,
+         "era_key" : "天仁",
+         "name" : "天仁",
+         "offset" : 1107,
+         "romaji" : "Tennin",
+         "tw" : "天仁",
+         "ukey" : "天仁,1107",
+         "wref" : "Tennin_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1533,
+         "era_key" : "天永",
+         "name" : "天永",
+         "offset" : 1109,
+         "romaji" : "Ten'ei",
+         "romajis" : [
+            "Ten'yō"
+         ],
+         "tw" : "天永",
+         "ukey" : "天永,1109",
+         "wref" : "Ten'ei"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 397,
+         "era_key" : "永久",
+         "name" : "永久",
+         "offset" : 1112,
+         "romaji" : "Eikyū",
+         "romajis" : [
+            "Yōkyū"
+         ],
+         "tw" : "永久",
+         "ukey" : "永久,1112",
+         "wref" : "Eikyū"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1080,
+         "era_key" : "元永",
+         "name" : "元永",
+         "offset" : 1117,
+         "romaji" : "Gen'ei",
+         "romajis" : [
+            "Gen'yō"
+         ],
+         "tw" : "元永",
+         "ukey" : "元永,1117",
+         "wref" : "Gen'ei"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1521,
+         "era_key" : "保安",
+         "name" : "保安",
+         "offset" : 1119,
+         "romaji" : "Hōan",
+         "tw" : "保安",
+         "ukey" : "保安,1119",
+         "wref" : "Hōan"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1160,
+         "era_key" : "天治",
+         "name" : "天治",
+         "offset" : 1123,
+         "romaji" : "Tenji",
+         "romajis" : [
+            "Tenchi"
+         ],
+         "tw" : "天治",
+         "ukey" : "天治,1123",
+         "wref" : "Tenji_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 79,
+         "era_key" : "大治",
+         "name" : "大治",
+         "offset" : 1125,
+         "romaji" : "Daiji",
+         "romajis" : [
+            "Taiji"
+         ],
+         "tw" : "大治",
+         "ukey" : "大治,1125",
+         "wref" : "Daiji_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 271,
+         "era_key" : "天承",
+         "name" : "天承",
+         "offset" : 1130,
+         "romaji" : "Tenshō",
+         "romajis" : [
+            "Tenjō"
+         ],
+         "tw" : "天承",
+         "ukey" : "天承,1130",
+         "wref" : "Tenshō_(Heian_period)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1444,
+         "era_key" : "長承",
+         "name" : "長承",
+         "offset" : 1131,
+         "romaji" : "Chōshō",
+         "romajis" : [
+            "Chōjō"
+         ],
+         "tw" : "長承",
+         "ukey" : "長承,1131",
+         "wref" : "Chōshō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 425,
+         "era_key" : "保延",
+         "name" : "保延",
+         "offset" : 1134,
+         "romaji" : "Hōen",
+         "tw" : "保延",
+         "ukey" : "保延,1134",
+         "wref" : "Hōen"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 414,
+         "era_key" : "永治",
+         "name" : "永治",
+         "offset" : 1140,
+         "romaji" : "Eiji",
+         "tw" : "永治",
+         "ukey" : "永治,1140",
+         "wref" : "Eiji_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1186,
+         "era_key" : "康治",
+         "name" : "康治",
+         "offset" : 1141,
+         "romaji" : "Kōji",
+         "tw" : "康治",
+         "ukey" : "康治,1141",
+         "wref" : "Kōji_(Heian_period)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1171,
+         "era_key" : "天養",
+         "name" : "天養",
+         "offset" : 1143,
+         "romaji" : "Ten'yō",
+         "romajis" : [
+            "Tennyō"
+         ],
+         "tw" : "天養",
+         "ukey" : "天養,1143",
+         "wref" : "Ten'yō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 858,
+         "era_key" : "久安",
+         "name" : "久安",
+         "offset" : 1144,
+         "romaji" : "Kyūan",
+         "tw" : "久安",
+         "ukey" : "久安,1144",
+         "wref" : "Kyūan"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1194,
+         "era_key" : "仁平",
+         "name" : "仁平",
+         "offset" : 1150,
+         "romaji" : "Ninpei",
+         "romajis" : [
+            "Ninpyō",
+            "Ninbyō",
+            "Ninhyō",
+            "Ninhei"
+         ],
+         "tw" : "仁平",
+         "ukey" : "仁平,1150",
+         "wref" : "Ninpei"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 370,
+         "era_key" : "久寿",
+         "name" : "久寿",
+         "offset" : 1153,
+         "romaji" : "Kyūju",
+         "tw" : "久寿",
+         "ukey" : "久寿,1153",
+         "wref" : "Kyūju"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 237,
+         "era_key" : "保元",
+         "name" : "保元",
+         "offset" : 1155,
+         "romaji" : "Hōgen",
+         "romajis" : [
+            "Hogen"
+         ],
+         "tw" : "保元",
+         "ukey" : "保元,1155",
+         "wref" : "Hōgen_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 257,
+         "era_key" : "平治",
+         "name" : "平治",
+         "offset" : 1158,
+         "romaji" : "Heiji",
+         "romajis" : [
+            "Byōji"
+         ],
+         "tw" : "平治",
+         "ukey" : "平治,1158",
+         "wref" : "Heiji"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 381,
+         "era_key" : "永暦",
+         "name" : "永暦",
+         "offset" : 1159,
+         "romaji" : "Eiryaku",
+         "romajis" : [
+            "Yōryaku"
+         ],
+         "tw" : "永暦",
+         "ukey" : "永暦,1159",
+         "wref" : "Eiryaku"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 819,
+         "era_key" : "応保",
+         "name" : "応保",
+         "offset" : 1160,
+         "romaji" : "Ōhō",
+         "romajis" : [
+            "Ōpō"
+         ],
+         "tw" : "応保",
+         "ukey" : "応保,1160",
+         "wref" : "Ōhō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 391,
+         "era_key" : "長寛",
+         "name" : "長寛",
+         "offset" : 1162,
+         "romaji" : "Chōkan",
+         "romajis" : [
+            "Chōgan"
+         ],
+         "tw" : "長寛",
+         "ukey" : "長寛,1162",
+         "wref" : "Chōkan"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 842,
+         "era_key" : "永万",
+         "name" : "永万",
+         "offset" : 1164,
+         "romaji" : "Eiman",
+         "romajis" : [
+            "Yōman"
+         ],
+         "tw" : "永万",
+         "ukey" : "永万,1164",
+         "wref" : "Eiman"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1233,
+         "era_key" : "仁安",
+         "name" : "仁安",
+         "offset" : 1165,
+         "romaji" : "Nin'an",
+         "romajis" : [
+            "Ninnan"
+         ],
+         "tw" : "仁安",
+         "ukey" : "仁安,1165",
+         "wref" : "Nin'an"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1534,
+         "era_key" : "嘉応",
+         "name" : "嘉応",
+         "offset" : 1168,
+         "romaji" : "Kaō",
+         "tw" : "嘉応",
+         "ukey" : "嘉応,1168",
+         "wref" : "Kaō_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 871,
+         "era_key" : "承安",
+         "name" : "承安",
+         "offset" : 1170,
+         "romaji" : "Jōan",
+         "romajis" : [
+            "Shōan"
+         ],
+         "tw" : "承安",
+         "ukey" : "承安,1170",
+         "wref" : "Jōan_(era)"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 429,
+         "era_key" : "安元",
+         "name" : "安元",
+         "offset" : 1174,
+         "romaji" : "Angen",
+         "tw" : "安元",
+         "ukey" : "安元,1174",
+         "wref" : "Angen"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 186,
+         "era_key" : "治承",
+         "name" : "治承",
+         "offset" : 1176,
+         "romaji" : "Jishō",
+         "romajis" : [
+            "Jijō",
+            "Chishō"
+         ],
+         "tw" : "治承",
+         "ukey" : "治承,1176",
+         "wref" : "Jishō"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 145,
+         "era_key" : "養和",
+         "name" : "養和",
+         "offset" : 1180,
+         "romaji" : "Yōwa",
+         "tw" : "養和",
+         "ukey" : "養和,1180",
+         "wref" : "Yōwa"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 434,
+         "era_key" : "寿永",
+         "name" : "寿永",
+         "offset" : 1181,
+         "romaji" : "Juei",
+         "tw" : "寿永",
+         "ukey" : "寿永,1181",
+         "wref" : "Juei"
+      },
+      {
+         "_possibles" : [
+            [
+               434,
+               "寿永",
+               1181
+            ]
+         ],
+         "caption" : "Heian_period",
+         "name" : "寿永",
+         "offset" : 1182,
+         "romaji" : "Juei",
+         "tw" : "寿永",
+         "ukey" : "寿永,1182",
+         "wref" : "Juei"
+      },
+      {
+         "caption" : "Heian period",
+         "era_id" : 1357,
+         "era_key" : "元暦",
+         "name" : "元暦",
+         "offset" : 1183,
+         "romaji" : "Genryaku",
+         "tw" : "元暦",
+         "ukey" : "元暦,1183",
+         "wref" : "Genryaku"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 695,
+         "era_key" : "文治",
+         "name" : "文治",
+         "offset" : 1184,
+         "romaji" : "Bunji",
+         "romajis" : [
+            "Monchi"
+         ],
+         "tw" : "文治",
+         "ukey" : "文治,1184",
+         "wref" : "Bunji_(era)"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 959,
+         "era_key" : "建久",
+         "name" : "建久",
+         "offset" : 1189,
+         "romaji" : "Kenkyū",
+         "tw" : "建久",
+         "ukey" : "建久,1189",
+         "wref" : "Kenkyū"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1279,
+         "era_key" : "正治",
+         "name" : "正治",
+         "offset" : 1198,
+         "romaji" : "Shōji",
+         "romajis" : [
+            "Shōchi"
+         ],
+         "tw" : "正治",
+         "ukey" : "正治,1198",
+         "wref" : "Shōji_(era)"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 933,
+         "era_key" : "建仁",
+         "name" : "建仁",
+         "offset" : 1200,
+         "romaji" : "Kennin",
+         "tw" : "建仁",
+         "ukey" : "建仁,1200",
+         "wref" : "Kennin"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1259,
+         "era_key" : "元久",
+         "name" : "元久",
+         "offset" : 1203,
+         "romaji" : "Genkyū",
+         "tw" : "元久",
+         "ukey" : "元久,1203",
+         "wref" : "Genkyū"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 557,
+         "era_key" : "建永",
+         "name" : "建永",
+         "offset" : 1205,
+         "romaji" : "Ken'ei",
+         "romajis" : [
+            "Ken'yō"
+         ],
+         "tw" : "建永",
+         "ukey" : "建永,1205",
+         "wref" : "Ken'ei"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1648,
+         "era_key" : "承元",
+         "name" : "承元",
+         "offset" : 1206,
+         "romaji" : "Jōgen",
+         "romajis" : [
+            "Shōgen"
+         ],
+         "tw" : "承元",
+         "ukey" : "承元,1206",
+         "wref" : "Jōgen_(Kamakura_period)"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 599,
+         "era_key" : "建暦",
+         "name" : "建暦",
+         "offset" : 1210,
+         "romaji" : "Kenryaku",
+         "romajis" : [
+            "Kenreki"
+         ],
+         "tw" : "建暦",
+         "ukey" : "建暦,1210",
+         "wref" : "Kenryaku"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1502,
+         "era_key" : "建保",
+         "name" : "建保",
+         "offset" : 1212,
+         "romaji" : "Kempo",
+         "romajis" : [
+            "Kenhō"
+         ],
+         "tw" : "建保",
+         "ukey" : "建保,1212",
+         "wref" : "Kempo_(era)"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1313,
+         "era_key" : "承久",
+         "name" : "承久",
+         "offset" : 1218,
+         "romaji" : "Jōkyū",
+         "romajis" : [
+            "Shōkyū"
+         ],
+         "tw" : "承久",
+         "ukey" : "承久,1218",
+         "wref" : "Jōkyū"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1433,
+         "era_key" : "貞応",
+         "name" : "貞応",
+         "offset" : 1221,
+         "romaji" : "Jōō",
+         "romajis" : [
+            "Teiō"
+         ],
+         "tw" : "貞応",
+         "ukey" : "貞応,1221",
+         "wref" : "Jōō_(Kamakura_period)"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 486,
+         "era_key" : "元仁",
+         "name" : "元仁",
+         "offset" : 1223,
+         "romaji" : "Gennin",
+         "tw" : "元仁",
+         "ukey" : "元仁,1223",
+         "wref" : "Gennin"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 608,
+         "era_key" : "嘉禄",
+         "name" : "嘉禄",
+         "offset" : 1224,
+         "romaji" : "Karoku",
+         "tw" : "嘉禄",
+         "ukey" : "嘉禄,1224",
+         "wref" : "Karoku"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 852,
+         "era_key" : "安貞",
+         "name" : "安貞",
+         "offset" : 1226,
+         "romaji" : "Antei",
+         "romajis" : [
+            "Anjō"
+         ],
+         "tw" : "安貞",
+         "ukey" : "安貞,1226",
+         "wref" : "Antei"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 137,
+         "era_key" : "寛喜",
+         "name" : "寛喜",
+         "offset" : 1228,
+         "romaji" : "Kangi",
+         "romajis" : [
+            "Kanki"
+         ],
+         "tw" : "寛喜",
+         "ukey" : "寛喜,1228",
+         "wref" : "Kangi"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1469,
+         "era_key" : "貞永",
+         "name" : "貞永",
+         "offset" : 1231,
+         "romaji" : "Jōei",
+         "romajis" : [
+            "Teiei"
+         ],
+         "tw" : "貞永",
+         "ukey" : "貞永,1231",
+         "wref" : "Jōei"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1437,
+         "era_key" : "天福",
+         "name" : "天福",
+         "offset" : 1232,
+         "romaji" : "Tenpuku",
+         "romajis" : [
+            "Tenfuku"
+         ],
+         "tw" : "天福",
+         "ukey" : "天福,1232",
+         "wref" : "Tenpuku"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1405,
+         "era_key" : "文暦",
+         "name" : "文暦",
+         "offset" : 1233,
+         "romaji" : "Bunryaku",
+         "romajis" : [
+            "Monryaku",
+            "Monreki"
+         ],
+         "tw" : "文暦",
+         "ukey" : "文暦,1233",
+         "wref" : "Bunryaku"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 972,
+         "era_key" : "嘉禎",
+         "name" : "嘉禎",
+         "offset" : 1234,
+         "romaji" : "Katei",
+         "tw" : "嘉禎",
+         "ukey" : "嘉禎,1234",
+         "wref" : "Katei"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 773,
+         "era_key" : "暦仁",
+         "name" : "暦仁",
+         "offset" : 1237,
+         "romaji" : "Ryakunin",
+         "romajis" : [
+            "Rekinin"
+         ],
+         "tw" : "暦仁",
+         "ukey" : "暦仁,1237",
+         "wref" : "Ryakunin"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1315,
+         "era_key" : "延応",
+         "name" : "延応",
+         "offset" : 1238,
+         "romaji" : "En'ō",
+         "romajis" : [
+            "Ennō"
+         ],
+         "tw" : "延応",
+         "ukey" : "延応,1238",
+         "wref" : "En'ō"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1018,
+         "era_key" : "仁治",
+         "name" : "仁治",
+         "offset" : 1239,
+         "romaji" : "Ninji",
+         "romajis" : [
+            "Ninchi"
+         ],
+         "tw" : "仁治",
+         "ukey" : "仁治,1239",
+         "wref" : "Ninji"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 180,
+         "era_key" : "寛元",
+         "name" : "寛元",
+         "offset" : 1242,
+         "romaji" : "Kangen",
+         "tw" : "寛元",
+         "ukey" : "寛元,1242",
+         "wref" : "Kangen"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1189,
+         "era_key" : "宝治",
+         "name" : "宝治",
+         "offset" : 1246,
+         "romaji" : "Hōji",
+         "tw" : "宝治",
+         "ukey" : "宝治,1246",
+         "wref" : "Hōji_(era)"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1659,
+         "era_key" : "建長",
+         "name" : "建長",
+         "offset" : 1248,
+         "romaji" : "Kenchō",
+         "tw" : "建長",
+         "ukey" : "建長,1248",
+         "wref" : "Kenchō"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 655,
+         "era_key" : "康元",
+         "name" : "康元",
+         "offset" : 1255,
+         "romaji" : "Kōgen",
+         "tw" : "康元",
+         "ukey" : "康元,1255",
+         "wref" : "Kōgen"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 310,
+         "era_key" : "正嘉",
+         "name" : "正嘉",
+         "offset" : 1256,
+         "romaji" : "Shōka",
+         "tw" : "正嘉",
+         "ukey" : "正嘉,1256",
+         "wref" : "Shōka_(era)"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 707,
+         "era_key" : "正元",
+         "name" : "正元",
+         "offset" : 1258,
+         "romaji" : "Shōgen",
+         "tw" : "正元",
+         "ukey" : "正元,1258",
+         "wref" : "Shōgen"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1252,
+         "era_key" : "文応",
+         "name" : "文応",
+         "offset" : 1259,
+         "romaji" : "Bun'ō",
+         "romajis" : [
+            "Bunnō"
+         ],
+         "tw" : "文応",
+         "ukey" : "文応,1259",
+         "wref" : "Bun'ō"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 639,
+         "era_key" : "弘長",
+         "name" : "弘長",
+         "offset" : 1260,
+         "romaji" : "Kōchō",
+         "tw" : "弘長",
+         "ukey" : "弘長,1260",
+         "wref" : "Kōchō"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1077,
+         "era_key" : "文永",
+         "name" : "文永",
+         "offset" : 1263,
+         "romaji" : "Bun'ei",
+         "tw" : "文永",
+         "ukey" : "文永,1263",
+         "wref" : "Bun'ei"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1541,
+         "era_key" : "建治",
+         "name" : "建治",
+         "offset" : 1274,
+         "romaji" : "Kenji",
+         "tw" : "建治",
+         "ukey" : "建治,1274",
+         "wref" : "Kenji_(era)"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1042,
+         "era_key" : "弘安",
+         "name" : "弘安",
+         "offset" : 1277,
+         "romaji" : "Kōan",
+         "tw" : "弘安",
+         "ukey" : "弘安,1277",
+         "wref" : "Kōan_(Kamakura_period)"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 734,
+         "era_key" : "正応",
+         "name" : "正応",
+         "offset" : 1287,
+         "romaji" : "Shōō",
+         "tw" : "正応",
+         "ukey" : "正応,1287",
+         "wref" : "Shōō_(Kamakura_period)"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1119,
+         "era_key" : "永仁",
+         "name" : "永仁",
+         "offset" : 1292,
+         "romaji" : "Einin",
+         "tw" : "永仁",
+         "ukey" : "永仁,1292",
+         "wref" : "Einin"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1454,
+         "era_key" : "正安",
+         "name" : "正安",
+         "offset" : 1298,
+         "romaji" : "Shōan",
+         "tw" : "正安",
+         "ukey" : "正安,1298",
+         "wref" : "Shōan"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1380,
+         "era_key" : "乾元",
+         "name" : "乾元",
+         "offset" : 1301,
+         "romaji" : "Kengen",
+         "tw" : "乾元",
+         "ukey" : "乾元,1301",
+         "wref" : "Kengen"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 415,
+         "era_key" : "嘉元",
+         "name" : "嘉元",
+         "offset" : 1302,
+         "romaji" : "Kagen",
+         "tw" : "嘉元",
+         "ukey" : "嘉元,1302",
+         "wref" : "Kagen"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 339,
+         "era_key" : "徳治",
+         "name" : "徳治",
+         "offset" : 1305,
+         "romaji" : "Tokuji",
+         "tw" : "徳治",
+         "ukey" : "徳治,1305",
+         "wref" : "Tokuji"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 895,
+         "era_key" : "延慶",
+         "name" : "延慶",
+         "offset" : 1307,
+         "romaji" : "Enkyō",
+         "romajis" : [
+            "Engyō",
+            "Enkei"
+         ],
+         "tw" : "延慶",
+         "ukey" : "延慶,1307",
+         "wref" : "Enkyō_(Kamakura_period)"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1509,
+         "era_key" : "応長",
+         "name" : "応長",
+         "offset" : 1310,
+         "romaji" : "Ōchō",
+         "tw" : "応長",
+         "ukey" : "応長,1310",
+         "wref" : "Ōchō"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1498,
+         "era_key" : "正和",
+         "name" : "正和",
+         "offset" : 1311,
+         "romaji" : "Shōwa",
+         "tw" : "正和",
+         "ukey" : "正和,1311",
+         "wref" : "Shōwa_(1312–1317)"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1000,
+         "era_key" : "文保",
+         "name" : "文保",
+         "offset" : 1316,
+         "romaji" : "Bunpō",
+         "romajis" : [
+            "Bunhō"
+         ],
+         "tw" : "文保",
+         "ukey" : "文保,1316",
+         "wref" : "Bunpō"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 382,
+         "era_key" : "元応",
+         "name" : "元応",
+         "offset" : 1318,
+         "romaji" : "Gen'ō",
+         "romajis" : [
+            "Gennō"
+         ],
+         "tw" : "元応",
+         "ukey" : "元応,1318",
+         "wref" : "Gen'ō"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 739,
+         "era_key" : "元亨",
+         "name" : "元亨",
+         "offset" : 1320,
+         "romaji" : "Genkō",
+         "tw" : "元亨",
+         "ukey" : "元亨,1320",
+         "wref" : "Genkō_(first)"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1429,
+         "era_key" : "正中",
+         "name" : "正中",
+         "offset" : 1323,
+         "romaji" : "Shōchū",
+         "tw" : "正中",
+         "ukey" : "正中,1323",
+         "wref" : "Shōchū_(era)"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1229,
+         "era_key" : "嘉暦",
+         "name" : "嘉暦",
+         "offset" : 1325,
+         "romaji" : "Karyaku",
+         "tw" : "嘉暦",
+         "ukey" : "嘉暦,1325",
+         "wref" : "Karyaku"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1182,
+         "era_key" : "元徳",
+         "name" : "元徳",
+         "offset" : 1328,
+         "romaji" : "Gentoku",
+         "tw" : "元徳",
+         "ukey" : "元徳,1328",
+         "wref" : "Gentoku"
+      },
+      {
+         "caption" : "Kamakura period",
+         "era_id" : 1301,
+         "era_key" : "元弘",
+         "name" : "元弘",
+         "offset" : 1330,
+         "romaji" : "Genkō",
+         "tw" : "元弘",
+         "ukey" : "元弘,1330",
+         "wref" : "Genkō_(second)"
+      },
+      {
+         "caption" : "Southern Court",
+         "era_id" : 1506,
+         "era_key" : "建武",
+         "name" : "建武",
+         "offset" : 1333,
+         "romaji" : "Kenmu",
+         "romajis" : [
+            "Kenbu"
+         ],
+         "tw" : "建武",
+         "ukey" : "建武,1333",
+         "wref" : "Kenmu"
+      },
+      {
+         "caption" : "Southern Court",
+         "era_id" : 789,
+         "era_key" : "延元",
+         "name" : "延元",
+         "offset" : 1335,
+         "romaji" : "Engen",
+         "tw" : "延元",
+         "ukey" : "延元,1335",
+         "wref" : "Engen"
+      },
+      {
+         "caption" : "Southern Court",
+         "era_id" : 1471,
+         "era_key" : "興国",
+         "name" : "興国",
+         "offset" : 1339,
+         "romaji" : "Kōkoku",
+         "tw" : "興国",
+         "ukey" : "興国,1339",
+         "wref" : "Kōkoku"
+      },
+      {
+         "_possibles" : [
+            [
+               122,
+               "正平(辛卯)",
+               450
+            ],
+            [
+               1126,
+               "正平(丁丑)",
+               616
+            ],
+            [
+               1250,
+               "正平",
+               1345
+            ],
+            [
+               1421,
+               "正平(戊辰)",
+               547
+            ]
+         ],
+         "caption" : "Southern_Court",
+         "name" : "正平",
+         "offset" : 1346,
+         "romaji" : "Shōhei",
+         "tw" : "正平",
+         "ukey" : "正平,1346",
+         "wref" : "Shōhei"
+      },
+      {
+         "caption" : "Southern Court",
+         "era_id" : 456,
+         "era_key" : "建徳",
+         "name" : "建徳",
+         "offset" : 1369,
+         "romaji" : "Kentoku",
+         "tw" : "建徳",
+         "ukey" : "建徳,1369",
+         "wref" : "Kentoku"
+      },
+      {
+         "caption" : "Southern Court",
+         "era_id" : 634,
+         "era_key" : "文中",
+         "name" : "文中",
+         "offset" : 1371,
+         "romaji" : "Bunchū",
+         "tw" : "文中",
+         "ukey" : "文中,1371",
+         "wref" : "Bunchū"
+      },
+      {
+         "caption" : "Southern Court",
+         "era_id" : 1107,
+         "era_key" : "天授",
+         "name" : "天授",
+         "offset" : 1374,
+         "romaji" : "Tenju",
+         "tw" : "天授",
+         "ukey" : "天授,1374",
+         "wref" : "Tenju"
+      },
+      {
+         "caption" : "Southern Court",
+         "era_id" : 21,
+         "era_key" : "弘和",
+         "name" : "弘和",
+         "offset" : 1380,
+         "romaji" : "Kōwa",
+         "tw" : "弘和",
+         "ukey" : "弘和,1380",
+         "wref" : "Kōwa_(Muromachi_period)"
+      },
+      {
+         "caption" : "Southern Court",
+         "era_id" : 650,
+         "era_key" : "元中",
+         "name" : "元中",
+         "offset" : 1383,
+         "romaji" : "Genchū",
+         "tw" : "元中",
+         "ukey" : "元中,1383",
+         "wref" : "Genchū"
+      },
+      {
+         "caption" : "Northern Court",
+         "era_id" : 1198,
+         "era_key" : "正慶",
+         "name" : "正慶",
+         "offset" : 1331,
+         "romaji" : "Shōkyō",
+         "romajis" : [
+            "Shōkyō"
+         ],
+         "tw" : "正慶",
+         "ukey" : "正慶,1331",
+         "wref" : "Shōkyō"
+      },
+      {
+         "_possibles" : [
+            [
+               545,
+               "建武(甲子)",
+               303
+            ],
+            [
+               647,
+               "建武(丙戌)",
+               385
+            ],
+            [
+               672,
+               "建武(乙酉)",
+               24
+            ],
+            [
+               831,
+               "建武(甲戌)",
+               493
+            ],
+            [
+               1200,
+               "建武(丁丑)",
+               316
+            ],
+            [
+               1331,
+               "建武(己酉)",
+               528
+            ],
+            [
+               1506,
+               "建武",
+               1333
+            ],
+            [
+               1631,
+               "建武(乙未)",
+               334
+            ]
+         ],
+         "caption" : "Northern_Court",
+         "name" : "建武",
+         "offset" : 1335,
+         "romaji" : "Kenmu",
+         "romajis" : [
+            "Kenbu"
+         ],
+         "tw" : "建武",
+         "ukey" : "建武,1335",
+         "wref" : "Kenmu"
+      },
+      {
+         "caption" : "Northern Court",
+         "era_id" : 292,
+         "era_key" : "暦応",
+         "name" : "暦応",
+         "offset" : 1337,
+         "romaji" : "Ryakuō",
+         "romajis" : [
+            "Rekiō"
+         ],
+         "tw" : "暦応",
+         "ukey" : "暦応,1337",
+         "wref" : "Ryakuō"
+      },
+      {
+         "caption" : "Northern Court",
+         "era_id" : 282,
+         "era_key" : "康永",
+         "name" : "康永",
+         "offset" : 1341,
+         "romaji" : "Kōei",
+         "tw" : "康永",
+         "ukey" : "康永,1341",
+         "wref" : "Kōei"
+      },
+      {
+         "caption" : "Northern Court",
+         "era_id" : 156,
+         "era_key" : "貞和",
+         "name" : "貞和",
+         "offset" : 1344,
+         "romaji" : "Jōwa",
+         "romajis" : [
+            "Teiwa"
+         ],
+         "tw" : "貞和",
+         "ukey" : "貞和,1344",
+         "wref" : "Jōwa_(Muromachi_period)"
+      },
+      {
+         "caption" : "Northern Court",
+         "era_id" : 218,
+         "era_key" : "観応",
+         "name" : "観応",
+         "offset" : 1349,
+         "romaji" : "Kannō",
+         "romajis" : [
+            "Kan'ō"
+         ],
+         "tw" : "観応",
+         "ukey" : "観応,1349",
+         "wref" : "Kannō"
+      },
+      {
+         "caption" : "Northern Court",
+         "era_id" : 1051,
+         "era_key" : "文和",
+         "name" : "文和",
+         "offset" : 1351,
+         "romaji" : "Bunna",
+         "romajis" : [
+            "Bunwa"
+         ],
+         "tw" : "文和",
+         "ukey" : "文和,1351",
+         "wref" : "Bunna"
+      },
+      {
+         "caption" : "Northern Court",
+         "era_id" : 204,
+         "era_key" : "延文",
+         "name" : "延文",
+         "offset" : 1355,
+         "romaji" : "Enbun",
+         "tw" : "延文",
+         "ukey" : "延文,1355",
+         "wref" : "Enbun"
+      },
+      {
+         "caption" : "Northern Court",
+         "era_id" : 1151,
+         "era_key" : "康安",
+         "name" : "康安",
+         "offset" : 1360,
+         "romaji" : "Kōan",
+         "tw" : "康安",
+         "ukey" : "康安,1360",
+         "wref" : "Kōan_(Muromachi_period)"
+      },
+      {
+         "caption" : "Northern Court",
+         "era_id" : 1221,
+         "era_key" : "貞治",
+         "name" : "貞治",
+         "offset" : 1361,
+         "romaji" : "Jōji",
+         "romajis" : [
+            "Teiji"
+         ],
+         "tw" : "貞治",
+         "ukey" : "貞治,1361",
+         "wref" : "Jōji"
+      },
+      {
+         "caption" : "Northern Court",
+         "era_id" : 621,
+         "era_key" : "応安",
+         "name" : "応安",
+         "offset" : 1367,
+         "romaji" : "Ōan",
+         "tw" : "応安",
+         "ukey" : "応安,1367",
+         "wref" : "Ōan"
+      },
+      {
+         "caption" : "Northern Court",
+         "era_id" : 1084,
+         "era_key" : "永和",
+         "name" : "永和",
+         "offset" : 1374,
+         "romaji" : "Eiwa",
+         "tw" : "永和",
+         "ukey" : "永和,1374",
+         "wref" : "Eiwa"
+      },
+      {
+         "caption" : "Northern Court",
+         "era_id" : 112,
+         "era_key" : "康暦",
+         "name" : "康暦",
+         "offset" : 1378,
+         "romaji" : "Kōryaku",
+         "tw" : "康暦",
+         "ukey" : "康暦,1378",
+         "wref" : "Kōryaku"
+      },
+      {
+         "caption" : "Northern Court",
+         "era_id" : 1322,
+         "era_key" : "永徳",
+         "name" : "永徳",
+         "offset" : 1380,
+         "romaji" : "Eitoku",
+         "tw" : "永徳",
+         "ukey" : "永徳,1380",
+         "wref" : "Eitoku"
+      },
+      {
+         "caption" : "Northern Court",
+         "era_id" : 443,
+         "era_key" : "至徳",
+         "name" : "至徳",
+         "offset" : 1383,
+         "romaji" : "Shitoku",
+         "tw" : "至徳",
+         "ukey" : "至徳,1383",
+         "wref" : "Shitoku"
+      },
+      {
+         "caption" : "Northern Court",
+         "era_id" : 1428,
+         "era_key" : "嘉慶",
+         "name" : "嘉慶",
+         "offset" : 1386,
+         "romaji" : "Kakei",
+         "romajis" : [
+            "Kakyō"
+         ],
+         "tw" : "嘉慶",
+         "ukey" : "嘉慶,1386",
+         "wref" : "Kakei"
+      },
+      {
+         "caption" : "Northern Court",
+         "era_id" : 1149,
+         "era_key" : "康応",
+         "name" : "康応",
+         "offset" : 1388,
+         "romaji" : "Kōō",
+         "tw" : "康応",
+         "ukey" : "康応,1388",
+         "wref" : "Kōō"
+      },
+      {
+         "caption" : "Northern Court",
+         "era_id" : 870,
+         "era_key" : "明徳",
+         "name" : "明徳",
+         "offset" : 1389,
+         "romaji" : "Meitoku",
+         "tw" : "明徳",
+         "ukey" : "明徳,1389",
+         "wref" : "Meitoku"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 1210,
+         "era_key" : "応永",
+         "name" : "応永",
+         "offset" : 1393,
+         "romaji" : "Ōei",
+         "tw" : "応永",
+         "ukey" : "応永,1393",
+         "wref" : "Ōei"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 507,
+         "era_key" : "正長",
+         "name" : "正長",
+         "offset" : 1427,
+         "romaji" : "Shōchō",
+         "tw" : "正長",
+         "ukey" : "正長,1427",
+         "wref" : "Shōchō"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 217,
+         "era_key" : "永享",
+         "name" : "永享",
+         "offset" : 1428,
+         "romaji" : "Eikyō",
+         "romajis" : [
+            "Eikō"
+         ],
+         "tw" : "永享",
+         "ukey" : "永享,1428",
+         "wref" : "Eikyō"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 1688,
+         "era_key" : "嘉吉",
+         "name" : "嘉吉",
+         "offset" : 1440,
+         "romaji" : "Kakitsu",
+         "romajis" : [
+            "Kakichi"
+         ],
+         "tw" : "嘉吉",
+         "ukey" : "嘉吉,1440",
+         "wref" : "Kakitsu"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 874,
+         "era_key" : "文安",
+         "name" : "文安",
+         "offset" : 1443,
+         "romaji" : "Bun'an",
+         "romajis" : [
+            "Bunnan"
+         ],
+         "tw" : "文安",
+         "ukey" : "文安,1443",
+         "wref" : "Bun'an"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 1496,
+         "era_key" : "宝徳",
+         "name" : "宝徳",
+         "offset" : 1448,
+         "romaji" : "Hōtoku",
+         "tw" : "宝徳",
+         "ukey" : "宝徳,1448",
+         "wref" : "Hōtoku"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 336,
+         "era_key" : "享徳",
+         "name" : "享徳",
+         "offset" : 1451,
+         "romaji" : "Kyōtoku",
+         "tw" : "享徳",
+         "ukey" : "享徳,1451",
+         "wref" : "Kyōtoku"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 832,
+         "era_key" : "康正",
+         "name" : "康正",
+         "offset" : 1454,
+         "romaji" : "Kōshō",
+         "tw" : "康正",
+         "ukey" : "康正,1454",
+         "wref" : "Kōshō"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 213,
+         "era_key" : "長禄",
+         "name" : "長禄",
+         "offset" : 1456,
+         "romaji" : "Chōroku",
+         "tw" : "長禄",
+         "ukey" : "長禄,1456",
+         "wref" : "Chōroku"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 855,
+         "era_key" : "寛正",
+         "name" : "寛正",
+         "offset" : 1459,
+         "romaji" : "Kanshō",
+         "tw" : "寛正",
+         "ukey" : "寛正,1459",
+         "wref" : "Kanshō"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 376,
+         "era_key" : "文正",
+         "name" : "文正",
+         "offset" : 1465,
+         "romaji" : "Bunshō",
+         "romajis" : [
+            "Monshō"
+         ],
+         "tw" : "文正",
+         "ukey" : "文正,1465",
+         "wref" : "Bunshō"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 1103,
+         "era_key" : "応仁",
+         "name" : "応仁",
+         "offset" : 1466,
+         "romaji" : "Ōnin",
+         "tw" : "応仁",
+         "ukey" : "応仁,1466",
+         "wref" : "Ōnin"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 132,
+         "era_key" : "文明",
+         "name" : "文明",
+         "offset" : 1468,
+         "romaji" : "Bunmei",
+         "tw" : "文明",
+         "ukey" : "文明,1468",
+         "wref" : "Bunmei"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 996,
+         "era_key" : "長享",
+         "name" : "長享",
+         "offset" : 1486,
+         "romaji" : "Chōkyō",
+         "tw" : "長享",
+         "ukey" : "長享,1486",
+         "wref" : "Chōkyō"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 419,
+         "era_key" : "延徳",
+         "name" : "延徳",
+         "offset" : 1488,
+         "romaji" : "Entoku",
+         "tw" : "延徳",
+         "ukey" : "延徳,1488",
+         "wref" : "Entoku"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 424,
+         "era_key" : "明応",
+         "name" : "明応",
+         "offset" : 1491,
+         "romaji" : "Meiō",
+         "tw" : "明応",
+         "ukey" : "明応,1491",
+         "wref" : "Meiō"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 353,
+         "era_key" : "文亀",
+         "name" : "文亀",
+         "offset" : 1500,
+         "romaji" : "Bunki",
+         "tw" : "文亀",
+         "ukey" : "文亀,1500",
+         "wref" : "Bunki"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 52,
+         "era_key" : "永正",
+         "name" : "永正",
+         "offset" : 1503,
+         "romaji" : "Eishō",
+         "tw" : "永正",
+         "ukey" : "永正,1503",
+         "wref" : "Eishō_(Muromachi_period)"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 1360,
+         "era_key" : "大永",
+         "name" : "大永",
+         "offset" : 1520,
+         "romaji" : "Daiei",
+         "tw" : "大永",
+         "ukey" : "大永,1520",
+         "wref" : "Daiei_(era)"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 43,
+         "era_key" : "享禄",
+         "name" : "享禄",
+         "offset" : 1527,
+         "romaji" : "Kyōroku",
+         "tw" : "享禄",
+         "ukey" : "享禄,1527",
+         "wref" : "Kyōroku"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 753,
+         "era_key" : "天文",
+         "name" : "天文",
+         "offset" : 1531,
+         "romaji" : "Tenbun",
+         "romajis" : [
+            "Tenmon"
+         ],
+         "tw" : "天文",
+         "ukey" : "天文,1531",
+         "wref" : "Tenbun"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 202,
+         "era_key" : "弘治",
+         "name" : "弘治",
+         "offset" : 1554,
+         "romaji" : "Kōji",
+         "tw" : "弘治",
+         "ukey" : "弘治,1554",
+         "wref" : "Kōji_(Muromachi_period)"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 344,
+         "era_key" : "永禄",
+         "name" : "永禄",
+         "offset" : 1557,
+         "romaji" : "Eiroku",
+         "romajis" : [
+            "Yōroku"
+         ],
+         "tw" : "永禄",
+         "ukey" : "永禄,1557",
+         "wref" : "Eiroku"
+      },
+      {
+         "caption" : "Muromachi period",
+         "era_id" : 660,
+         "era_key" : "元亀",
+         "name" : "元亀",
+         "offset" : 1569,
+         "romaji" : "Genki",
+         "tw" : "元亀",
+         "ukey" : "元亀,1569",
+         "wref" : "Genki_(era)"
+      },
+      {
+         "caption" : "Azuchi–Momoyama period",
+         "era_id" : 570,
+         "era_key" : "天正",
+         "name" : "天正",
+         "offset" : 1572,
+         "romaji" : "Tenshō",
+         "tw" : "天正",
+         "ukey" : "天正,1572",
+         "wref" : "Tenshō_(Momoyama_period)"
+      },
+      {
+         "caption" : "Azuchi–Momoyama period",
+         "era_id" : 889,
+         "era_key" : "文禄",
+         "name" : "文禄",
+         "offset" : 1591,
+         "romaji" : "Bunroku",
+         "tw" : "文禄",
+         "ukey" : "文禄,1591",
+         "wref" : "Bunroku"
+      },
+      {
+         "caption" : "Azuchi–Momoyama period",
+         "era_id" : 1529,
+         "era_key" : "慶長",
+         "name" : "慶長",
+         "offset" : 1595,
+         "romaji" : "Keichō",
+         "romajis" : [
+            "Kyōchō"
+         ],
+         "tw" : "慶長",
+         "ukey" : "慶長,1595",
+         "wref" : "Keichō"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 453,
+         "era_key" : "元和",
+         "name" : "元和",
+         "offset" : 1614,
+         "romaji" : "Genna",
+         "romajis" : [
+            "Genwa"
+         ],
+         "tw" : "元和",
+         "ukey" : "元和,1614",
+         "wref" : "Genna"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1614,
+         "era_key" : "寛永",
+         "name" : "寛永",
+         "offset" : 1623,
+         "romaji" : "Kan'ei",
+         "tw" : "寛永",
+         "ukey" : "寛永,1623",
+         "wref" : "Kan'ei"
+      },
+      {
+         "_possibles" : [
+            [
+               1055,
+               "正保",
+               1643
+            ]
+         ],
+         "caption" : "Edo_period",
+         "name" : "正保",
+         "offset" : 1644,
+         "romaji" : "Shōhō",
+         "tw" : "正保",
+         "ukey" : "正保,1644",
+         "wref" : "Shōhō"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1220,
+         "era_key" : "慶安",
+         "name" : "慶安",
+         "offset" : 1647,
+         "romaji" : "Keian",
+         "romajis" : [
+            "Kyōan"
+         ],
+         "tw" : "慶安",
+         "ukey" : "慶安,1647",
+         "wref" : "Keian"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1591,
+         "era_key" : "承応",
+         "name" : "承応",
+         "offset" : 1651,
+         "romaji" : "Jōō",
+         "romajis" : [
+            "Shōō"
+         ],
+         "tw" : "承応",
+         "ukey" : "承応,1651",
+         "wref" : "Jōō_(Edo_period)"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 808,
+         "era_key" : "明暦",
+         "name" : "明暦",
+         "offset" : 1654,
+         "romaji" : "Meireki",
+         "romajis" : [
+            "Myōryaku",
+            "Meiryaku"
+         ],
+         "tw" : "明暦",
+         "ukey" : "明暦,1654",
+         "wref" : "Meireki"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1519,
+         "era_key" : "万治",
+         "name" : "万治",
+         "offset" : 1657,
+         "romaji" : "Manji",
+         "romajis" : [
+            "Manchi"
+         ],
+         "tw" : "万治",
+         "ukey" : "万治,1657",
+         "wref" : "Manji_(era)"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1595,
+         "era_key" : "寛文",
+         "name" : "寛文",
+         "offset" : 1660,
+         "romaji" : "Kanbun",
+         "tw" : "寛文",
+         "ukey" : "寛文,1660",
+         "wref" : "Kanbun_(era)"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 231,
+         "era_key" : "延宝",
+         "name" : "延宝",
+         "offset" : 1672,
+         "romaji" : "Enpō",
+         "romajis" : [
+            "Enhō"
+         ],
+         "tw" : "延宝",
+         "ukey" : "延宝,1672",
+         "wref" : "Enpō"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1478,
+         "era_key" : "天和",
+         "name" : "天和",
+         "offset" : 1680,
+         "romaji" : "Tenna",
+         "romajis" : [
+            "Tenwa"
+         ],
+         "tw" : "天和",
+         "ukey" : "天和,1680",
+         "wref" : "Tenna"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1550,
+         "era_key" : "貞享",
+         "name" : "貞享",
+         "offset" : 1683,
+         "romaji" : "Jōkyō",
+         "tw" : "貞享",
+         "ukey" : "貞享,1683",
+         "wref" : "Jōkyō"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 491,
+         "era_key" : "元禄",
+         "name" : "元禄",
+         "offset" : 1687,
+         "romaji" : "Genroku",
+         "tw" : "元禄",
+         "ukey" : "元禄,1687",
+         "wref" : "Genroku"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1197,
+         "era_key" : "宝永",
+         "name" : "宝永",
+         "offset" : 1703,
+         "romaji" : "Hōei",
+         "tw" : "宝永",
+         "ukey" : "宝永,1703",
+         "wref" : "Hōei"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1484,
+         "era_key" : "正徳",
+         "name" : "正徳",
+         "offset" : 1710,
+         "romaji" : "Shōtoku",
+         "tw" : "正徳",
+         "ukey" : "正徳,1710",
+         "wref" : "Shōtoku_(era)"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 302,
+         "era_key" : "享保",
+         "name" : "享保",
+         "offset" : 1715,
+         "romaji" : "Kyōhō",
+         "tw" : "享保",
+         "ukey" : "享保,1715",
+         "wref" : "Kyōhō"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 198,
+         "era_key" : "元文",
+         "name" : "元文",
+         "offset" : 1735,
+         "romaji" : "Genbun",
+         "tw" : "元文",
+         "ukey" : "元文,1735",
+         "wref" : "Genbun"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 935,
+         "era_key" : "寛保",
+         "name" : "寛保",
+         "offset" : 1740,
+         "romaji" : "Kanpō",
+         "romajis" : [
+            "Kanhō"
+         ],
+         "tw" : "寛保",
+         "ukey" : "寛保,1740",
+         "wref" : "Kanpō"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 927,
+         "era_key" : "延享",
+         "name" : "延享",
+         "offset" : 1743,
+         "romaji" : "Enkyō",
+         "tw" : "延享",
+         "ukey" : "延享,1743",
+         "wref" : "Enkyō_(Edo_period)"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 374,
+         "era_key" : "寛延",
+         "name" : "寛延",
+         "offset" : 1747,
+         "romaji" : "Kan'en",
+         "tw" : "寛延",
+         "ukey" : "寛延,1747",
+         "wref" : "Kan'en"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1199,
+         "era_key" : "宝暦",
+         "name" : "宝暦",
+         "offset" : 1750,
+         "romaji" : "Hōreki",
+         "romajis" : [
+            "Hōryaku"
+         ],
+         "tw" : "宝暦",
+         "ukey" : "宝暦,1750",
+         "wref" : "Hōreki"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1406,
+         "era_key" : "明和",
+         "name" : "明和",
+         "offset" : 1763,
+         "romaji" : "Meiwa",
+         "romajis" : [
+            "Myōwa"
+         ],
+         "tw" : "明和",
+         "ukey" : "明和,1763",
+         "wref" : "Meiwa"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1090,
+         "era_key" : "安永",
+         "name" : "安永",
+         "offset" : 1771,
+         "romaji" : "An'ei",
+         "tw" : "安永",
+         "ukey" : "安永,1771",
+         "wref" : "An'ei"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1627,
+         "era_key" : "天明",
+         "name" : "天明",
+         "offset" : 1780,
+         "romaji" : "Tenmei",
+         "tw" : "天明",
+         "ukey" : "天明,1780",
+         "wref" : "Tenmei"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 197,
+         "era_key" : "寛政",
+         "name" : "寛政",
+         "offset" : 1788,
+         "romaji" : "Kansei",
+         "tw" : "寛政",
+         "ukey" : "寛政,1788",
+         "wref" : "Kansei"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1393,
+         "era_key" : "享和",
+         "name" : "享和",
+         "offset" : 1800,
+         "romaji" : "Kyōwa",
+         "tw" : "享和",
+         "ukey" : "享和,1800",
+         "wref" : "Kyōwa"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 817,
+         "era_key" : "文化",
+         "name" : "文化",
+         "offset" : 1803,
+         "romaji" : "Bunka",
+         "tw" : "文化",
+         "ukey" : "文化,1803",
+         "wref" : "Bunka"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1538,
+         "era_key" : "文政",
+         "name" : "文政",
+         "offset" : 1817,
+         "romaji" : "Bunsei",
+         "tw" : "文政",
+         "ukey" : "文政,1817",
+         "wref" : "Bunsei"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 149,
+         "era_key" : "天保",
+         "name" : "天保",
+         "offset" : 1829,
+         "romaji" : "Tenpō",
+         "romajis" : [
+            "Tenhō"
+         ],
+         "tw" : "天保",
+         "ukey" : "天保,1829",
+         "wref" : "Tenpō"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1585,
+         "era_key" : "弘化",
+         "name" : "弘化",
+         "offset" : 1843,
+         "romaji" : "Kōka",
+         "tw" : "弘化",
+         "ukey" : "弘化,1843",
+         "wref" : "Kōka"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1354,
+         "era_key" : "嘉永",
+         "name" : "嘉永",
+         "offset" : 1847,
+         "romaji" : "Kaei",
+         "tw" : "嘉永",
+         "ukey" : "嘉永,1847",
+         "wref" : "Kaei"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 1660,
+         "era_key" : "安政",
+         "name" : "安政",
+         "offset" : 1853,
+         "romaji" : "Ansei",
+         "tw" : "安政",
+         "ukey" : "安政,1853",
+         "wref" : "Ansei"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 682,
+         "era_key" : "万延",
+         "name" : "万延",
+         "offset" : 1859,
+         "romaji" : "Man'en",
+         "tw" : "万延",
+         "ukey" : "万延,1859",
+         "wref" : "Man'en"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 91,
+         "era_key" : "文久",
+         "name" : "文久",
+         "offset" : 1860,
+         "romaji" : "Bunkyū",
+         "tw" : "文久",
+         "ukey" : "文久,1860",
+         "wref" : "Bunkyū"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 905,
+         "era_key" : "元治",
+         "name" : "元治",
+         "offset" : 1863,
+         "romaji" : "Genji",
+         "tw" : "元治",
+         "ukey" : "元治,1863",
+         "wref" : "Genji_(era)"
+      },
+      {
+         "caption" : "Edo period",
+         "era_id" : 863,
+         "era_key" : "慶応",
+         "name" : "慶応",
+         "offset" : 1864,
+         "romaji" : "Keiō",
+         "tw" : "慶応",
+         "ukey" : "慶応,1864",
+         "wref" : "Keiō"
+      },
+      {
+         "caption" : "Modern Japan",
+         "era_id" : 1,
+         "era_key" : "明治",
+         "name" : "明治",
+         "offset" : 1867,
+         "romaji" : "Meiji",
+         "tw" : "明治",
+         "ukey" : "明治,1867",
+         "wref" : "Meiji_(era)"
+      },
+      {
+         "caption" : "Modern Japan",
+         "era_id" : 2,
+         "era_key" : "大正",
+         "name" : "大正",
+         "offset" : 1911,
+         "romaji" : "Taishō",
+         "tw" : "大正",
+         "ukey" : "大正,1911",
+         "wref" : "Taishō"
+      },
+      {
+         "caption" : "Modern Japan",
+         "era_id" : 3,
+         "era_key" : "昭和",
+         "name" : "昭和",
+         "offset" : 1925,
+         "romaji" : "Shōwa",
+         "tw" : "昭和",
+         "ukey" : "昭和,1925",
+         "wref" : "Shōwa_(1926–1989)"
+      },
+      {
+         "caption" : "Modern Japan",
+         "era_id" : 4,
+         "era_key" : "平成",
+         "name" : "平成",
+         "offset" : 1988,
+         "romaji" : "Heisei",
+         "tw" : "平成",
+         "ukey" : "平成,1988",
+         "wref" : "Heisei"
+      },
+      {
+         "caption" : "Modern Japan",
+         "era_id" : 5,
+         "era_key" : "令和",
+         "name" : "令和",
+         "offset" : 2018,
+         "romaji" : "Reiwa",
+         "tw" : "令和",
+         "ukey" : "令和,2018",
+         "wref" : "Reiwa"
+      },
+      {
+         "caption" : "Non-nengō periods",
+         "name" : "Sujaku",
+         "offset" : 671,
+         "romaji" : "Sujaku",
+         "romajis" : [
+            "Suzaku"
+         ],
+         "ukey" : "Sujaku,671",
+         "wref" : null
+      },
+      {
+         "caption" : "Non-nengō periods",
+         "name" : "Hakuhō",
+         "offset" : 672,
+         "romaji" : "Hakuhō",
+         "ukey" : "Hakuhō,672",
+         "wref" : null
+      }
+   ],
+   "page_name" : "Japanese era name",
+   "wref_key" : "wref_en"
+}

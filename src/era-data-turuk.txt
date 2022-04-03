@@ -661,6 +661,8 @@ name_kana どう けい
 #敦煌吐魯番文獻研究論集, AD1982:
 #関於唐末宋初于闐国的国号、年号及其王家世系問題, 張廣達, 李新江:
 
+name(kr) 동경
+
 <-unknown [唐:912] #建元前の即位{#于闐 #尉遲僧烏波}
 <-unknown [唐:912] #支那改元日{#于闐 #尉遲僧烏波}
     #Pulleyblank説 #井ノ口泰淳説 #Hamilton説 #張栄説 #熊本裕説 #吉田豊説
@@ -685,7 +687,7 @@ name_kana どう けい
 #Pulleyblank, 1954
 tag Pulleyblank説
 name 同慶
-#XXX tibetan thūkhī
+#XXXname tibetan thūkhī
 #912 - 966
 #
 #井ノ口泰淳, 1960
@@ -757,7 +759,7 @@ u 5
 #Pulleyblank, 1954
 tag Pulleyblank説
 name 天尊
-#XXX tibetan thyęnä tcūnä
+#XXXname tibetan thyęnä tcūnä
 #967 - 977?
 #
 #井ノ口泰淳, 1960
@@ -789,6 +791,8 @@ name 天尊
 tag 梅林説
 name 天尊
 #967 - 974
+
+name(kr) 천존
 
 <-同慶,天壽(癸亥) [唐:966] #建元前の即位{#于闐 #尉遅輸羅}
 <-同慶,天壽(癸亥),天興(庚戌) [唐:967] #支那改元日{#于闐 #尉遅輸羅} #旧説
@@ -840,7 +844,7 @@ u 8
 #Pulleyblank, 1954
 tag Pulleyblank説
 name 中興
-#XXX tibetan cū hiṅa
+#XXXname tibetan cū hiṅa
 #978 - 982 - ?
 #
 #井ノ口泰淳, 1960
@@ -876,6 +880,8 @@ name 中興
 #武内紹人, 2002:
 #P.tib.44: 「2 年，トラ年，12 月」 (tibetan)
 #? 中興1 (sic) 戊寅 AD978
+
+name(kr) 중흥
 
 <-天尊 [唐:977] #建元前の即位{#于闐 #尉遅達磨}
 <-天尊,天壽(乙亥) [唐:978] #支那改元日{#于闐 #尉遅達磨}
@@ -938,6 +944,8 @@ name_kana てん こう
 #敦煌吐魯番文献研究論集, AD1982:
 #関於唐末宋初于闐国的国号、年号及其王家世系問題, 張廣達, 李新江: 950 - 963
 
+name(kr) 천흥
+
 ## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/69756/sial28_101.pdf#page=13>
 #Hamilton, 1997, 1979
 tag Hamilton説
@@ -971,11 +979,13 @@ wref_ja 天興 (于闐)
 name_ja 天興
 name_kana てん こう
 
+name(kr) 천흥
+
 ## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/69756/sial28_101.pdf#page=13>
 #井ノ口泰淳, 1960
 tag 井ノ口泰淳説
 name 天興
-#XXX tibetan thyina hīna
+#XXXname tibetan thyina hīna
 #950 - 966
 #
 #張, 栄, 1982
@@ -1061,6 +1071,8 @@ name 天寿
 #999 - 1005?
 #
 u 3-6
+
+name(kr) 천수
 
 <-天興(丙戌) [唐:999] #支那改元日{#于闐}
     #Hamilton説
@@ -1205,7 +1217,7 @@ name_cn 天质
 #井ノ口泰淳, 1960
 tag 井ノ口泰淳説
 name 天質
-#XXX tibetan thyaina śiva
+#XXXname tibetan thyaina śiva
 #XXX tibetan thina sitsä
 #983 - 1006?
 

@@ -1,0 +1,60 @@
+# y~343 天慶(丙午)
+# <https://data.suikawiki.org/tag/2084/graph?sequence=343>
+# g:1427-01-06+0 y~343 firstday
+mjd:-157735 天慶(丙午)
+# g:1428-05-08+0 y~30 firstday
+mjd:-157247 順天(戊申)
+# g:1435-02-06+0 y~517 firstday
+mjd:-154782 紹平
+# g:1441-01-31+0 y~1562 firstday
+mjd:-152596 大寶(庚申)
+# g:1444-01-28+0 y~560 firstday
+mjd:-151504 大和(癸亥)
+# g:1455-01-26+0 y~1598 firstday
+mjd:-147488 延寧
+# g:1459-11-10+0 y~346 firstday
+mjd:-145739 天興(己卯)
+# g:1460-07-05+0 y~555 firstday
+mjd:-145501 光順
+# g:1470-02-10+0 y~184 firstday
+mjd:-141994 洪德(庚寅)
+# g:1498-01-31+0 y~87 firstday
+mjd:-131777 景統
+# g:1504-08-19+0 y~628 firstday
+mjd:-129386 泰貞
+# g:1506-02-02+0 y~1338 firstday
+mjd:-128854 端慶
+# g:1510-01-23+0 y~1407 firstday
+mjd:-127403 洪順(己巳)
+# g:1516-06-07+0 y~155 firstday
+mjd:-125076 光紹
+# g:1522-09-29+0 y~1557 firstday
+mjd:-122771 統元
+# g:1527-08-06+0 y~851 firstday
+mjd:-120999 明德(丁亥)
+# g:1531-01-27+0 y~454 firstday
+mjd:-119729 大正(庚寅)
+# g:1542-01-25+0 y~1145 firstday
+mjd:-115713 廣和
+# g:1548-02-19+0 y~847 firstday
+mjd:-113497 永定(丁未)
+# g:1549-02-07+0 y~1374 firstday
+mjd:-113143 景歷
+# g:1556-02-20+0 y~315 firstday
+mjd:-110574 光寶
+# g:1566-01-30+0 y~602 firstday
+mjd:-106942 淳福
+# g:1569-01-26+0 y~1547 firstday
+mjd:-105850 崇康
+# g:1578-04-16+0 y~584 firstday
+mjd:-102483 延成
+# g:1586-02-17+0 y~1137 firstday
+mjd:-99619 端泰
+# g:1589-02-14+0 y~979 firstday
+mjd:-98526 興治
+# g:1592-02-12+0 y~401 firstday
+mjd:-97433 洪寧
+# g:1593-01-02+0 y~1255 firstday
+mjd:-97108 武安
+# g:1593-02-27+1 y~1487 wartime
+mjd:-97051 光興(戊寅)

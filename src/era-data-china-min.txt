@@ -188,7 +188,6 @@ name_kana けん ぶん
 sw 革除
 name_tw 革除
 
-#XXX
 ##&&
 ## empty string
 
@@ -285,6 +284,7 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 明領越南
 
 %tag person
 %tag   name_ja 洪熙帝
@@ -323,6 +323,7 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 明領越南
 
 %tag person
 %tag   name_ja 宣德帝
@@ -1294,6 +1295,9 @@ wref_ja 嘉靖
 
 ## [112]
 #name_kana か せい
+
+## <https://www.loc.gov/catdir/cpso/romanization/chinese.pdf#page=8>
+name(zh_alalc) Jia|jing
 
 tag 再開元号の中断中
 
@@ -3121,6 +3125,11 @@ name_ja 昭武
 name_kana しょう ぶ
 # 1678-3 - 1678-8
 
+tag 莫朝越南
+tag 北ベトナム
+tag ベトナム人
+tag 莫敬宇
+
 def[洪化]
 #y~147
 ## Source:
@@ -3608,7 +3617,7 @@ tag 明
 tag 朱一貴
 
 ## [102]
-#XXX 閩南語 Éng-hô
+name(nan) Éng-hô
 # 1721-5 - 1721-6
 
 ## <https://zh.wikipedia.org/wiki/%E6%9C%B1%E4%B8%80%E8%B2%B4>
@@ -3627,5 +3636,6 @@ AD1721 = 1
 wref_ja 永和 (朱一貴)
 name_ja 永和
 name_kana えい わ
-#XXX 台湾語 Éng-hô
+#台湾語 Éng-hô
+name(nan) Éng-hô
 # 1721

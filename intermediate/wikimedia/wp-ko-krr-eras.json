@@ -1,0 +1,1121 @@
+{
+   "_errors" : [
+      [
+         "Era mapping is missing",
+         "洪武,1391",
+         "연호"
+      ],
+      [
+         "Era mapping is missing",
+         "隆慶,1567",
+         "연호"
+      ],
+      [
+         "Era mapping is missing",
+         "崇禎,1628",
+         "연호"
+      ],
+      [
+         "Era mapping is missing",
+         "崇德,1637",
+         "연호"
+      ],
+      [
+         "Era mapping is missing",
+         "開國,1893",
+         "연호"
+      ],
+      [
+         "Era not found",
+         "태조,1391"
+      ],
+      [
+         "Era not found",
+         "중종,1505"
+      ],
+      [
+         "Era not found",
+         "영조,1724"
+      ],
+      [
+         "Era not found",
+         "태조,1391"
+      ],
+      [
+         "Era not found",
+         "인종,1544"
+      ],
+      [
+         "Era not found",
+         "정조,1776"
+      ],
+      [
+         "Era not found",
+         "정종,1398"
+      ],
+      [
+         "Era not found",
+         "명종,1545"
+      ],
+      [
+         "Era not found",
+         "정조,1776"
+      ],
+      [
+         "Era not found",
+         "정종,1398"
+      ],
+      [
+         "Era not found",
+         "명종,1545"
+      ],
+      [
+         "Era not found",
+         "순조,1800"
+      ],
+      [
+         "Era not found",
+         "태종,1400"
+      ],
+      [
+         "Era not found",
+         "선조,1567"
+      ],
+      [
+         "Era not found",
+         "순조,1800"
+      ],
+      [
+         "Era not found",
+         "태종,1400"
+      ],
+      [
+         "Era not found",
+         "선조,1567"
+      ],
+      [
+         "Era not found",
+         "헌종,1834"
+      ],
+      [
+         "Era not found",
+         "세종,1418"
+      ],
+      [
+         "Era not found",
+         "광해군,1608"
+      ],
+      [
+         "Era not found",
+         "헌종,1834"
+      ],
+      [
+         "Era not found",
+         "세종,1418"
+      ],
+      [
+         "Era not found",
+         "광해군,1608"
+      ],
+      [
+         "Era not found",
+         "인조,1622"
+      ],
+      [
+         "Era not found",
+         "철종,1849"
+      ],
+      [
+         "Era not found",
+         "문종,1450"
+      ],
+      [
+         "Era not found",
+         "인조,1622"
+      ],
+      [
+         "Era not found",
+         "철종,1849"
+      ],
+      [
+         "Era not found",
+         "문종,1450"
+      ],
+      [
+         "Era not found",
+         "효종,1649"
+      ],
+      [
+         "Era not found",
+         "고종,1863"
+      ],
+      [
+         "Era not found",
+         "단종,1452"
+      ],
+      [
+         "Era not found",
+         "효종,1649"
+      ],
+      [
+         "Era not found",
+         "고종,1863"
+      ],
+      [
+         "Era not found",
+         "단종,1452"
+      ],
+      [
+         "Era not found",
+         "세조,1454"
+      ],
+      [
+         "Era not found",
+         "현종,1659"
+      ],
+      [
+         "Era not found",
+         "개국,1391"
+      ],
+      [
+         "Era not found",
+         "고종,1863"
+      ],
+      [
+         "Era not found",
+         "세조,1454"
+      ],
+      [
+         "Era not found",
+         "현종,1659"
+      ],
+      [
+         "Era not found",
+         "개국,1391"
+      ],
+      [
+         "Era not found",
+         "고종,1863"
+      ],
+      [
+         "Era not found",
+         "예종,1468"
+      ],
+      [
+         "Era not found",
+         "숙종,1674"
+      ],
+      [
+         "Era not found",
+         "개국,1391"
+      ],
+      [
+         "Era not found",
+         "건양,1895"
+      ],
+      [
+         "Era not found",
+         "고종,1863"
+      ],
+      [
+         "Era not found",
+         "성종,1469"
+      ],
+      [
+         "Era not found",
+         "숙종,1674"
+      ],
+      [
+         "Era not found",
+         "광무,1896"
+      ],
+      [
+         "Era not found",
+         "개국,1391"
+      ],
+      [
+         "Era not found",
+         "고종,1863"
+      ],
+      [
+         "Era not found",
+         "성종,1469"
+      ],
+      [
+         "Era not found",
+         "경종,1720"
+      ],
+      [
+         "Era not found",
+         "광무,1896"
+      ],
+      [
+         "Era not found",
+         "고종,1863"
+      ],
+      [
+         "Era not found",
+         "연산군,1494"
+      ],
+      [
+         "Era not found",
+         "경종,1720"
+      ],
+      [
+         "Era not found",
+         "광무,1896"
+      ],
+      [
+         "Era not found",
+         "고종,1863"
+      ],
+      [
+         "Era not found",
+         "융희,1906"
+      ],
+      [
+         "Era not found",
+         "순종,1906"
+      ],
+      [
+         "Era not found",
+         "연산군,1494"
+      ],
+      [
+         "Era not found",
+         "중종,1505"
+      ],
+      [
+         "Era not found",
+         "영조,1724"
+      ],
+      [
+         "Era not found",
+         "융희,1906"
+      ],
+      [
+         "Era not found",
+         "순종,1906"
+      ]
+   ],
+   "eras" : [
+      {
+         "_possibles" : [
+            [
+               127,
+               "洪武",
+               1367
+            ],
+            [
+               877,
+               "洪武(己未)",
+               1618
+            ]
+         ],
+         "caption" : "연호",
+         "hangul" : "홍무",
+         "name" : "洪武",
+         "offset" : 1391,
+         "tw" : "洪武",
+         "ukey" : "洪武,1391"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 1251,
+         "era_key" : "建文",
+         "hangul" : "건문",
+         "name" : "建文",
+         "offset" : 1398,
+         "tw" : "建文",
+         "ukey" : "建文,1398"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 1499,
+         "era_key" : "永樂(癸未)",
+         "hangul" : "영락",
+         "name" : "永樂",
+         "offset" : 1402,
+         "tw" : "永樂",
+         "ukey" : "永樂,1402"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 887,
+         "era_key" : "洪熙",
+         "hangul" : "홍희",
+         "name" : "洪熙",
+         "offset" : 1424,
+         "tw" : "洪熙",
+         "ukey" : "洪熙,1424"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 511,
+         "era_key" : "宣德",
+         "hangul" : "선덕",
+         "name" : "宣德",
+         "offset" : 1425,
+         "tw" : "宣德",
+         "ukey" : "宣德,1425"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 562,
+         "era_key" : "正統",
+         "hangul" : "정통",
+         "name" : "正統",
+         "offset" : 1435,
+         "tw" : "正統",
+         "ukey" : "正統,1435"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 350,
+         "era_key" : "景泰",
+         "hangul" : "경태",
+         "name" : "景泰",
+         "offset" : 1449,
+         "tw" : "景泰",
+         "ukey" : "景泰,1449"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 1138,
+         "era_key" : "天順(丁丑)",
+         "hangul" : "천순",
+         "name" : "天順",
+         "offset" : 1456,
+         "tw" : "天順",
+         "ukey" : "天順,1456"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 146,
+         "era_key" : "成化",
+         "hangul" : "성화",
+         "name" : "成化",
+         "offset" : 1464,
+         "tw" : "成化",
+         "ukey" : "成化,1464"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 38,
+         "era_key" : "弘治(戊申)",
+         "hangul" : "홍치",
+         "name" : "弘治",
+         "offset" : 1487,
+         "tw" : "弘治",
+         "ukey" : "弘治,1487"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 1712,
+         "era_key" : "正德(丙寅)",
+         "hangul" : "정덕",
+         "name" : "正德",
+         "offset" : 1505,
+         "tw" : "正德",
+         "ukey" : "正德,1505"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 1501,
+         "era_key" : "嘉靖",
+         "hangul" : "가정",
+         "name" : "嘉靖",
+         "offset" : 1521,
+         "tw" : "嘉靖",
+         "ukey" : "嘉靖,1521"
+      },
+      {
+         "_possibles" : [
+            [
+               158,
+               "隆慶(癸丑)",
+               1372
+            ],
+            [
+               699,
+               "隆慶",
+               1566
+            ]
+         ],
+         "caption" : "연호",
+         "hangul" : "융경",
+         "name" : "隆慶",
+         "offset" : 1567,
+         "tw" : "隆慶",
+         "ukey" : "隆慶,1567"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 413,
+         "era_key" : "萬曆",
+         "hangul" : "만력",
+         "name" : "萬曆",
+         "offset" : 1572,
+         "tw" : "萬曆",
+         "ukey" : "萬曆,1572"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 598,
+         "era_key" : "天啟(辛酉)",
+         "hangul" : "천계",
+         "name" : "天啓",
+         "offset" : 1620,
+         "tw" : "天啓",
+         "ukey" : "天啓,1620"
+      },
+      {
+         "_possibles" : [
+            [
+               250,
+               "崇禎",
+               1627
+            ]
+         ],
+         "caption" : "연호",
+         "hangul" : "숭정",
+         "name" : "崇禎",
+         "offset" : 1628,
+         "tw" : "崇禎",
+         "ukey" : "崇禎,1628"
+      },
+      {
+         "_possibles" : [
+            [
+               1136,
+               "崇德",
+               1635
+            ]
+         ],
+         "caption" : "연호",
+         "hangul" : "숭덕",
+         "name" : "崇德",
+         "offset" : 1637,
+         "tw" : "崇德",
+         "ukey" : "崇德,1637"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 502,
+         "era_key" : "順治",
+         "hangul" : "순치",
+         "name" : "順治",
+         "offset" : 1643,
+         "tw" : "順治",
+         "ukey" : "順治,1643"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 757,
+         "era_key" : "康熙",
+         "hangul" : "강희",
+         "name" : "康熙",
+         "offset" : 1661,
+         "tw" : "康熙",
+         "ukey" : "康熙,1661"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 1548,
+         "era_key" : "雍正",
+         "hangul" : "옹정",
+         "name" : "雍正",
+         "offset" : 1722,
+         "tw" : "雍正",
+         "ukey" : "雍正,1722"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 860,
+         "era_key" : "乾隆",
+         "hangul" : "건륭",
+         "name" : "乾隆",
+         "offset" : 1735,
+         "tw" : "乾隆",
+         "ukey" : "乾隆,1735"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 1639,
+         "era_key" : "嘉慶(丙辰)",
+         "hangul" : "가경",
+         "name" : "嘉慶",
+         "offset" : 1795,
+         "tw" : "嘉慶",
+         "ukey" : "嘉慶,1795"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 687,
+         "era_key" : "道光",
+         "hangul" : "도광",
+         "name" : "道光",
+         "offset" : 1820,
+         "tw" : "道光",
+         "ukey" : "道光,1820"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 738,
+         "era_key" : "咸豐",
+         "hangul" : "함풍",
+         "name" : "咸豐",
+         "offset" : 1850,
+         "tw" : "咸豐",
+         "ukey" : "咸豐,1850"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 1292,
+         "era_key" : "同治",
+         "hangul" : "동치",
+         "name" : "同治",
+         "offset" : 1861,
+         "tw" : "同治",
+         "ukey" : "同治,1861"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 681,
+         "era_key" : "光緒",
+         "hangul" : "광서",
+         "name" : "光緖",
+         "offset" : 1874,
+         "tw" : "光緖",
+         "ukey" : "光緖,1874"
+      },
+      {
+         "_possibles" : [
+            [
+               772,
+               "開國",
+               1391
+            ],
+            [
+               1268,
+               "開國(辛未)",
+               550
+            ]
+         ],
+         "caption" : "연호",
+         "hangul" : "개국",
+         "name" : "開國",
+         "offset" : 1893,
+         "tw" : "開國",
+         "ukey" : "開國,1893"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 677,
+         "era_key" : "建陽",
+         "hangul" : "건양",
+         "name" : "建陽",
+         "offset" : 1895,
+         "tw" : "建陽",
+         "ukey" : "建陽,1895"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 815,
+         "era_key" : "光武",
+         "hangul" : "광무",
+         "name" : "光武",
+         "offset" : 1896,
+         "tw" : "光武",
+         "ukey" : "光武,1896"
+      },
+      {
+         "caption" : "연호",
+         "era_id" : 1274,
+         "era_key" : "隆熙",
+         "hangul" : "융희",
+         "name" : "隆熙",
+         "offset" : 1906,
+         "tw" : "隆熙",
+         "ukey" : "隆熙,1906"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "태조",
+         "name" : "태조",
+         "offset" : 1391,
+         "ukey" : "태조,1391"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "중종",
+         "name" : "중종",
+         "offset" : 1505,
+         "ukey" : "중종,1505"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "영조",
+         "name" : "영조",
+         "offset" : 1724,
+         "ukey" : "영조,1724"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "태조",
+         "name" : "태조",
+         "offset" : 1391,
+         "ukey" : "태조,1391"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "인종",
+         "name" : "인종",
+         "offset" : 1544,
+         "ukey" : "인종,1544"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "정조",
+         "name" : "정조",
+         "offset" : 1776,
+         "ukey" : "정조,1776"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "정종",
+         "name" : "정종",
+         "offset" : 1398,
+         "ukey" : "정종,1398"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "명종",
+         "name" : "명종",
+         "offset" : 1545,
+         "ukey" : "명종,1545"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "정조",
+         "name" : "정조",
+         "offset" : 1776,
+         "ukey" : "정조,1776"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "정종",
+         "name" : "정종",
+         "offset" : 1398,
+         "ukey" : "정종,1398"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "명종",
+         "name" : "명종",
+         "offset" : 1545,
+         "ukey" : "명종,1545"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "순조",
+         "name" : "순조",
+         "offset" : 1800,
+         "ukey" : "순조,1800"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "태종",
+         "name" : "태종",
+         "offset" : 1400,
+         "ukey" : "태종,1400"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "선조",
+         "name" : "선조",
+         "offset" : 1567,
+         "ukey" : "선조,1567"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "순조",
+         "name" : "순조",
+         "offset" : 1800,
+         "ukey" : "순조,1800"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "태종",
+         "name" : "태종",
+         "offset" : 1400,
+         "ukey" : "태종,1400"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "선조",
+         "name" : "선조",
+         "offset" : 1567,
+         "ukey" : "선조,1567"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "헌종",
+         "name" : "헌종",
+         "offset" : 1834,
+         "ukey" : "헌종,1834"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "세종",
+         "name" : "세종",
+         "offset" : 1418,
+         "ukey" : "세종,1418"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "광해군",
+         "name" : "광해군",
+         "offset" : 1608,
+         "ukey" : "광해군,1608"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "헌종",
+         "name" : "헌종",
+         "offset" : 1834,
+         "ukey" : "헌종,1834"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "세종",
+         "name" : "세종",
+         "offset" : 1418,
+         "ukey" : "세종,1418"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "광해군",
+         "name" : "광해군",
+         "offset" : 1608,
+         "ukey" : "광해군,1608"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "인조",
+         "name" : "인조",
+         "offset" : 1622,
+         "ukey" : "인조,1622"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "철종",
+         "name" : "철종",
+         "offset" : 1849,
+         "ukey" : "철종,1849"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "문종",
+         "name" : "문종",
+         "offset" : 1450,
+         "ukey" : "문종,1450"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "인조",
+         "name" : "인조",
+         "offset" : 1622,
+         "ukey" : "인조,1622"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "철종",
+         "name" : "철종",
+         "offset" : 1849,
+         "ukey" : "철종,1849"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "문종",
+         "name" : "문종",
+         "offset" : 1450,
+         "ukey" : "문종,1450"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "효종",
+         "name" : "효종",
+         "offset" : 1649,
+         "ukey" : "효종,1649"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "고종",
+         "name" : "고종",
+         "offset" : 1863,
+         "ukey" : "고종,1863"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "단종",
+         "name" : "단종",
+         "offset" : 1452,
+         "ukey" : "단종,1452"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "효종",
+         "name" : "효종",
+         "offset" : 1649,
+         "ukey" : "효종,1649"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "고종",
+         "name" : "고종",
+         "offset" : 1863,
+         "ukey" : "고종,1863"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "단종",
+         "name" : "단종",
+         "offset" : 1452,
+         "ukey" : "단종,1452"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "세조",
+         "name" : "세조",
+         "offset" : 1454,
+         "ukey" : "세조,1454"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "현종",
+         "name" : "현종",
+         "offset" : 1659,
+         "ukey" : "현종,1659"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "개국",
+         "name" : "개국",
+         "offset" : 1391,
+         "ukey" : "개국,1391"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "고종",
+         "name" : "고종",
+         "offset" : 1863,
+         "ukey" : "고종,1863"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "세조",
+         "name" : "세조",
+         "offset" : 1454,
+         "ukey" : "세조,1454"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "현종",
+         "name" : "현종",
+         "offset" : 1659,
+         "ukey" : "현종,1659"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "개국",
+         "name" : "개국",
+         "offset" : 1391,
+         "ukey" : "개국,1391"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "고종",
+         "name" : "고종",
+         "offset" : 1863,
+         "ukey" : "고종,1863"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "예종",
+         "name" : "예종",
+         "offset" : 1468,
+         "ukey" : "예종,1468"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "숙종",
+         "name" : "숙종",
+         "offset" : 1674,
+         "ukey" : "숙종,1674"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "개국",
+         "name" : "개국",
+         "offset" : 1391,
+         "ukey" : "개국,1391"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "건양",
+         "name" : "건양",
+         "offset" : 1895,
+         "ukey" : "건양,1895"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "고종",
+         "name" : "고종",
+         "offset" : 1863,
+         "ukey" : "고종,1863"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "성종",
+         "name" : "성종",
+         "offset" : 1469,
+         "ukey" : "성종,1469"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "숙종",
+         "name" : "숙종",
+         "offset" : 1674,
+         "ukey" : "숙종,1674"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "광무",
+         "name" : "광무",
+         "offset" : 1896,
+         "ukey" : "광무,1896"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "개국",
+         "name" : "개국",
+         "offset" : 1391,
+         "ukey" : "개국,1391"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "고종",
+         "name" : "고종",
+         "offset" : 1863,
+         "ukey" : "고종,1863"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "성종",
+         "name" : "성종",
+         "offset" : 1469,
+         "ukey" : "성종,1469"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "경종",
+         "name" : "경종",
+         "offset" : 1720,
+         "ukey" : "경종,1720"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "광무",
+         "name" : "광무",
+         "offset" : 1896,
+         "ukey" : "광무,1896"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "고종",
+         "name" : "고종",
+         "offset" : 1863,
+         "ukey" : "고종,1863"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "연산군",
+         "name" : "연산군",
+         "offset" : 1494,
+         "ukey" : "연산군,1494"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "경종",
+         "name" : "경종",
+         "offset" : 1720,
+         "ukey" : "경종,1720"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "광무",
+         "name" : "광무",
+         "offset" : 1896,
+         "ukey" : "광무,1896"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "고종",
+         "name" : "고종",
+         "offset" : 1863,
+         "ukey" : "고종,1863"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "융희",
+         "name" : "융희",
+         "offset" : 1906,
+         "ukey" : "융희,1906"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "순종",
+         "name" : "순종",
+         "offset" : 1906,
+         "ukey" : "순종,1906"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "연산군",
+         "name" : "연산군",
+         "offset" : 1494,
+         "ukey" : "연산군,1494"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "중종",
+         "name" : "중종",
+         "offset" : 1505,
+         "ukey" : "중종,1505"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "영조",
+         "name" : "영조",
+         "offset" : 1724,
+         "ukey" : "영조,1724"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "융희",
+         "name" : "융희",
+         "offset" : 1906,
+         "ukey" : "융희,1906"
+      },
+      {
+         "caption" : "서력기원과 조선의 기년법 대응",
+         "hangul" : "순종",
+         "name" : "순종",
+         "offset" : 1906,
+         "ukey" : "순종,1906"
+      }
+   ],
+   "page_name" : "조선의 연호",
+   "wref_key" : "wref_ko"
+}

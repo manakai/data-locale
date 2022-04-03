@@ -777,6 +777,11 @@ It is a JSON object with following name/value pairs:
         letters spelled using one of rules that are different from the
         Hepburn system (ヘボン式) and its variants.
 
+      non_native [boolean]
+
+        Whether the source's readings are authored by those whose that
+        might not be native Japanese speakers.
+
       suikawiki_url [string]
 
         The URL of the (part of) SuikaWiki article that describes the

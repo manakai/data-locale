@@ -242,6 +242,24 @@ sub nymmd2jd ($$$$$) {
     $g = '明';
   }
 
+  if ($g eq '宋' and $y > 1279) {
+    $g = '元';
+  }
+  
+  if ($g eq '魏' and $y < 237) {
+    $g = '漢';
+  }
+
+  if ($g eq '越南') {
+    if ($y > 1644 ) {
+      $g = '清';
+    } elsif ($y > 1279) {
+      $g = '元';
+    } else {
+      $g = '宋';
+    }
+  }
+
   my $kmap = get_kmap ($g);
 
   my $gr;
@@ -431,9 +449,12 @@ sub ssday ($$) {
   if ($tag_ids->{1008} or # 中国
       $tag_ids->{1086} or # 蒙古
       $tag_ids->{1084} or # 後金
-      $tag_ids->{1009}) { # 漢土
+      $tag_ids->{1009} or # 漢土
+      $tag_ids->{2084}) { # 越南
     if ($y >= 1912) {
-      $day->{nongli_tiger} = ymmd2string gymd2nymmd '中華民国', $y, $m, $d;
+      unless ($tag_ids->{2084}) { # 越南
+        $day->{nongli_tiger} = ymmd2string gymd2nymmd '中華民国', $y, $m, $d;
+      }
     } elsif ($y >= 1645+1) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '清', $y, $m, $d;
     } elsif ($y >= 1367) {
@@ -592,6 +613,12 @@ sub extract_day_year ($$) {
        $tag_ids->{1084} or # 後金
        $tag_ids->{1009}) and # 漢土
       not $tag_ids->{1344}) { # グレゴリオ暦
+    if (defined $day->{nongli_tiger}) {
+      return parse_ystring $day->{nongli_tiger};
+    }
+  }
+
+  if ($tag_ids->{2084}) { # 越南
     if (defined $day->{nongli_tiger}) {
       return parse_ystring $day->{nongli_tiger};
     }

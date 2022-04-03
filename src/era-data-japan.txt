@@ -330,6 +330,22 @@ name_kana はく ほう,はく ほう
 [天智天皇]
 tag 称制紀年
 
+
+def[朱雀]
+#y~1332
+
+name_ja 朱雀
+name_kana す ざく,しゆ じやく
+
+AD686 = 1
+#朱雀 687
+#朱鳥 686
+#朱鳥 687
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+
 [朱鳥]
 tag 追号説のある元号
 &
@@ -399,6 +415,16 @@ code #15 北16
 &
 ## <https://wiki.suikawiki.org/n/%E6%94%B9%E5%85%83%E6%89%8B%E7%B6%9A#anchor-87>
 name(ja_old) ケン|チ
+
+[天養]
+#y~1171
+
+name(ja_latin_old_wrong) Tenyou
+
+[建永]
+#y~557
+
+name(ja_latin_old_wrong) Kenei
 
 [応仁]
 #<- 1475 樺太 武田信広
@@ -542,8 +568,15 @@ code #16 Z
 
 
 [明治]
+#y~1
+
 name_ja 明治
 unicode ㍾
+name(fr_ja) Mei|ji
+
+## <https://www.loc.gov/catdir/cpso/romanization/chinese.pdf#page=8>
+name(zh_alalc) Ming|zhi
+
 &
 abbr_ja 明 明治
 code #7 明
@@ -583,12 +616,15 @@ tag 中華民国
 u 46-1-1
 
 [大正]
+#y~2
+
 ## Source:
 sw 大正
 #sw 大正改元
 
 name_ja 大正
 unicode ㍽
+name(fr_ja) Taï|chô
 &
 abbr_ja 大 大正
 code #7 大
@@ -634,8 +670,11 @@ tag 青ヶ島
 u 100-9-27
 
 [昭和]
+#y~3
+
 name_ja 昭和
 unicode ㍼
+name(fr_ja) Chô|wa
 &
 abbr_ja 昭 昭和
 code #7 昭
@@ -705,8 +744,11 @@ tag 竹島
 tag 大韓民国独島
 
 [平成]
+#y~4
+
 name_ja 平成
 unicode ㍻
+name(fr_ja) Hei|sei
 &
 abbr_ja 平 平成
 code #7 平
@@ -742,12 +784,15 @@ tag 竹島
 tag 大韓民国独島
 
 [令和]
+#y~5
+
 AD2019 = 1
 sw 令和
 
 name_ja 令和
 unicode ㋿
 en desc beautiful harmony
+name(fr_ja) Rei|wa
 &
 abbr_ja 令 令和
 code #7 令
@@ -1889,26 +1934,30 @@ tag 日本の私年号
 
 def[フクシマ紀元]
 # y~1738
+
 ## Source:
 sw フクシマ紀元
-#
+
 name(ja) フクシマ紀元[き げん]
 &
-#XXXname_ja 震災紀元
-&
 name(ja) フクシマ紀
+
+
+&
+name_ja 福島
+u 7-8-4
+u 9
+u 11-1-22
+
+&&
+name_ja 震災紀元
+
 AD2011 = 1
 tag 日本人
 tag 日本国
 u 1
 u 2-7-3
 u 3
-#
-&
-# XXX name_ja 福島
-u 7-8-4
-u 9
-u 11-1-22
 
 def[コロナ]
 # y~1794

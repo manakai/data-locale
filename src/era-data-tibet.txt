@@ -1433,7 +1433,8 @@ name(kr) 백작
 #384-4 - 386-4/-4
 
 ## <https://digital-archives.sophia.ac.jp/repository/view/repository/00000009320>
-#XXXname Pai-ch'ueh
+#(ASCII transcription?)
+name(en) Pai-|ch'ueh
 u 1-9-8
 #AD384
 tag トルファン
@@ -2212,7 +2213,7 @@ tag 唐
 tag 可黎可足
 
 ## [102]
-#XXX 藏文：སྐྱིད་རྟག།，藏语拼音：Gyi'dag，威利：skyid-rtag
+#XXXname 藏文：སྐྱིད་རྟག།，藏语拼音：Gyi'dag，威利：skyid-rtag
 #815 - 838
 u 24
 #長慶唐蕃會盟碑
@@ -2226,7 +2227,7 @@ u 24
 wref_ja 彝泰
 name_ja 彝泰
 name_kana い たい
-#XXX tibetan skyid rtag
+#XXXname tibetan skyid rtag
 #XXX semantics: 長楽
 #"年号の漢訳"
 #815 - 838?
@@ -3816,6 +3817,12 @@ tag 君主名の元号
 #"雲南文獻無「神武」年號"
 #白族研究百年 第1冊: 南詔大理國年號考, 王雲, p.546:
 #incorrect; 段思平 謚號 "聖神文武皇帝"
+
+## <https://zh.wikipedia.org/wiki/Talk:%E7%A5%9E%E6%AD%A6>
+#"王雲《南詔大理國年號考》有說明大理國的「神武」年號是將段思平的謚號誤作年號
+#（見《白族研究百年》第1冊第545-546頁），該書附錄的
+#〈南詔大理國與歷史紀年對照表〉與黃德榮《通海大理國火葬墓紀年碑研究》
+#附〈南詔大理國紀年表〉（見《大理民族文化研究論叢》第5輯第87-100頁）"
 
 wref_ja 神武 (大理)
 name_ja 神武
@@ -5466,6 +5473,28 @@ u 3
 #
 #<-保安 ->正德
 
+<-保安(乙酉) [宋:1053] #支那改元日{#前大理 #段思廉}
+
+
+def[正安(癸巳)]
+#y~1358
+
+<-政安 [宋:1053,g:2000] #名誤伝発生 #前大理
+
+AD1053 = 1
+
+tag 雲南
+tag 前大理
+tag 白族
+
+tag 段思廉
+
+wref_zh 政安
+name_cn 正安
+name_tw 正安
+#was: wref_zh 中国年号列表
+#was: wref_zh 正安_(大理)
+
 wref_ja 正安 (大理)
 name_ja 正安
 name_kana せい あん
@@ -5474,9 +5503,7 @@ name_kana せい あん
 #南詔野史
 #<-保安 ->正徳
 
-<-保安(乙酉) [宋:1053] #支那改元日{#前大理 #段思廉}
-
-#->正安
+<-保安(乙酉) [宋:1053] #支那改元日{#前大理 #段思廉} #旧説
 <-太安(大理國) [宋:1053] #支那改元日{#前大理 #段思廉} #旧説
 
 [正德(大理國)]
@@ -6529,8 +6556,7 @@ tag 白族
 
 tag 段正厳
 
-#XXX wp-zh-era-id-map.txt
-#wref_zh 嘉永 (大理)
+wref_zh 嘉永 (大理)
 #1122 - 1128
 #
 #雲南文獻: 永嘉
@@ -7461,6 +7487,7 @@ u 4
 ->鳳歷,鳳歷(辛酉) <-定安,安定(乙卯) [宋:1200-7] #改元前の死去{#後大理 #段智興}
 
 def[安定(乙卯)]
+#y~2082
 
 AD1195 = 1
 
@@ -7991,7 +8018,7 @@ tag 君主名の元号
 #<-道隆 ->none
 
 ## <https://baike.baidu.hk/item/%E5%A4%A9%E5%AE%9A/4559058>
-#XXXname tiān dìng
+pinyin tiān dìng
 
 ->天定,天定(壬子),利正(辛亥) <-道隆 [宋:1251]
     #建元前の即位{#後大理 #段興智 #大理国皇帝}
@@ -8336,12 +8363,12 @@ name(kr) 현도
 #1032 - 1034
 #<-none ->開運
 
-## <https://zh-min-nan.wikipedia.org/wiki/Hi%C3%A1n-t%C5%8D_(Se_H%C4%81)>
-#XXXname Hián-tō
+wref<https://zh-min-nan.wikipedia.org/wiki/Hi%C3%A1n-t%C5%8D_(Se_H%C4%81)>
+name(nan) Hián-tō
 #1032 - 1034
 #<-none ->Khai-ūn
 
-## <https://zh-yue.wikipedia.org/wiki/%E9%A1%AF%E9%81%93>
+wref<https://zh-yue.wikipedia.org/wiki/%E9%A1%AF%E9%81%93>
 #1032 - 1034
 
 tag 西夏と年号
@@ -8381,7 +8408,7 @@ name_kana かい うん
 #1034
 #<-顕道 ->広運
 
-## <https://zh-yue.wikipedia.org/wiki/%E9%96%8B%E9%81%8B_(%E8%A5%BF%E5%A4%8F)>
+wref<https://zh-yue.wikipedia.org/wiki/%E9%96%8B%E9%81%8B_(%E8%A5%BF%E5%A4%8F)>
 #1034
 
 wref_ko 개운 (서하)
@@ -8389,8 +8416,8 @@ name(kr) 개운
 #1034
 #<-顯道 ->廣運
 
-## <https://zh-min-nan.wikipedia.org/wiki/Khai-%C5%ABn_(Se_H%C4%81)>
-#XXXname Khai-ūn
+wref<https://zh-min-nan.wikipedia.org/wiki/Khai-%C5%ABn_(Se_H%C4%81)>
+name(nan) Khai-ūn
 #1034 - 1034
 
 tag 西夏紀年考
@@ -8446,7 +8473,7 @@ name_kana こう うん
 #1034 - 1035
 #<-開運 ->大慶
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%BB%A3%E9%81%8B_(%E8%A5%BF%E5%A4%8F)>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%BB%A3%E9%81%8B_(%E8%A5%BF%E5%A4%8F)>
 #1034 - 1036
 
 wref_ko 광운 (서하)
@@ -8454,9 +8481,9 @@ name(kr) 광운
 #1034 - 1036
 #<-開運 ->大慶
 
-## <https://zh-min-nan.wikipedia.org/wiki/K%C3%B3ng-%C5%ABn_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/K%C3%B3ng-%C5%ABn_(Se_H%C4%81)>
 #1034 - 1036
-#XXXname Kóng-ūn
+name(nan) Kóng-ūn
 #<-Khai-ūn ->Tāi-khèng
 
 tag 西夏紀年考
@@ -8572,7 +8599,7 @@ name_kana だい けい
 #1036 - 1038
 #<-広運 ->天授礼法延祚
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A7%E6%85%B6_(%E5%A4%8F%E6%99%AF%E5%AE%97)>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A7%E6%85%B6_(%E5%A4%8F%E6%99%AF%E5%AE%97)>
 #1036 - 1038
 
 
@@ -8710,15 +8737,15 @@ name_kana てん じゅ れい ほう えん そ
 #1038 - 1048
 #<-大慶 ->延嗣寧国
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E6%8E%88%E7%A6%AE%E6%B3%95%E5%BB%B6%E7%A5%9A>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E6%8E%88%E7%A6%AE%E6%B3%95%E5%BB%B6%E7%A5%9A>
 #1038 - 1048
 
 wref_ko 천수예법연조
 name(kr) 천수예법연조
 #1038 - 1048
 
-## <https://zh-min-nan.wikipedia.org/wiki/Thian-si%C5%AB_L%C3%A9-hoat_I%C3%A2n-ch%C3%A0_(Se_H%C4%81)>
-#XXXname Thian-siū Lé-hoat Iân-chà
+wref<https://zh-min-nan.wikipedia.org/wiki/Thian-si%C5%AB_L%C3%A9-hoat_I%C3%A2n-ch%C3%A0_(Se_H%C4%81)>
+name(nan) Thian-siū Lé-hoat Iân-chà
 #1038 - 1048
 #<-Tāi-khèng ->Iân-sū Lêng-kok
 
@@ -8818,16 +8845,16 @@ name_kana えん し ねい こく
 #延嗣寧国 1049 天祐垂聖 1050 - 1052 福聖承道 1053 - 1056 奲都 1057 - 1062
 #拱化 1063 - 1067
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%BB%B6%E5%97%A3%E5%AF%A7%E5%9C%8B>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%BB%B6%E5%97%A3%E5%AF%A7%E5%9C%8B>
 #1049
 
 wref_ko 연사녕국
 name(kr) 연사녕국
 #1049
 
-## <https://zh-min-nan.wikipedia.org/wiki/I%C3%A2n-s%C5%AB_L%C3%AAng-kok_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/I%C3%A2n-s%C5%AB_L%C3%AAng-kok_(Se_H%C4%81)>
 #1049
-#XXXname Iân-sū Lêng-kok
+name(nan) Iân-sū Lêng-kok
 
 tag 西夏紀年考
 #1049 (1)
@@ -8901,15 +8928,15 @@ name_kana てん ゆう すい せい
 #1050 - 1052
 #<-延嗣寧国 ->福聖承道
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E7%A5%90%E5%9E%82%E8%81%96>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E7%A5%90%E5%9E%82%E8%81%96>
 #1050 - 1052
 
 wref_ko 천우수성
 name(kr) 천우수성
 #1050 - 1052
 
-## <https://zh-min-nan.wikipedia.org/wiki/Thian-i%C5%AB_S%C3%BBi-s%C3%A8ng_(Se_H%C4%81)>
-#XXXname Thian-iū Sûi-sèng
+wref<https://zh-min-nan.wikipedia.org/wiki/Thian-i%C5%AB_S%C3%BBi-s%C3%A8ng_(Se_H%C4%81)>
+name(nan) Thian-iū Sûi-sèng
 #1050 - 1052
 
 tag 西夏紀年考
@@ -8957,16 +8984,16 @@ name_kana ふく せい しょう どう
 #1053 - 1056
 #<-天祐垂聖 ->奲都
 
-## <https://zh-yue.wikipedia.org/wiki/%E7%A6%8F%E8%81%96%E6%89%BF%E9%81%93>
+wref<https://zh-yue.wikipedia.org/wiki/%E7%A6%8F%E8%81%96%E6%89%BF%E9%81%93>
 #1053 - 1056
 
 wref_ko 복성승도
 name(kr) 복성승도
 #1053 - 1056
 
-## <https://zh-min-nan.wikipedia.org/wiki/Hok-s%C3%A8ng_S%C3%AAng-t%C5%8D_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/Hok-s%C3%A8ng_S%C3%AAng-t%C5%8D_(Se_H%C4%81)>
 #1053 - 1056
-#XXXname Hok-sèng Sêng-tō
+name(nan) Hok-sèng Sêng-tō
 
 tag 西夏紀年考
 
@@ -9020,16 +9047,16 @@ name_kana しゃ と
 #1057 - 1062
 #<-福聖承道 ->拱化
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%A5%B2%E9%83%BD>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%A5%B2%E9%83%BD>
 #1057 - 1062
 
 wref_ko 차도 (연호)
 name(kr) 차도
 #1057 - 1062
 
-## <https://zh-min-nan.wikipedia.org/wiki/Chhi%C3%A1-to%CD%98_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/Chhi%C3%A1-to%CD%98_(Se_H%C4%81)>
 #1057 - 1062
-#XXXname Chhiá-to͘
+name(nan) Chhiá-to͘
 
 tag 西夏紀年考
 
@@ -9075,16 +9102,16 @@ name_kana きょう か
 #東亞歴史年表: 1063 - 1067
 #中国歴代年号考: 1063 - 1067
 
-## <https://zh-yue.wikipedia.org/wiki/%E6%8B%B1%E5%8C%96>
+wref<https://zh-yue.wikipedia.org/wiki/%E6%8B%B1%E5%8C%96>
 #1063 - 1067
 
 wref_ko 공화 (연호)
 name(kr) 공화
 #1063 - 1067
 
-## <https://zh-min-nan.wikipedia.org/wiki/Ki%C3%B3ng-h%C3%B2a_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/Ki%C3%B3ng-h%C3%B2a_(Se_H%C4%81)>
 #1063 - 1067
-#XXXname Kióng-hòa
+name(nan) Kióng-hòa
 
 tag 西夏紀年考
 #1063 (1) - 1067 (5)
@@ -9146,11 +9173,11 @@ tag 李秉常
 #西夏紀年考
 #<-拱化 ->天赐礼盛国庆
 
-## <https://zh-min-nan.wikipedia.org/wiki/Khi%C3%A2n-t%C5%8D_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/Khi%C3%A2n-t%C5%8D_(Se_H%C4%81)>
 #1067 - 1068
-#XXXname Khiân-tō
+name(nan) Khiân-tō
 
-## <https://zh-yue.wikipedia.org/wiki/%E4%B9%BE%E9%81%93_(%E8%A5%BF%E5%A4%8F)>
+wref<https://zh-yue.wikipedia.org/wiki/%E4%B9%BE%E9%81%93_(%E8%A5%BF%E5%A4%8F)>
 #1067 - 1068
 
 wref_ja ノート:天賜礼盛国慶
@@ -9281,16 +9308,16 @@ name_kana てん し れい せい こっ けい
 #東亞歴史年表: 1069 - 1074
 #中国歴代年号考: 1069 - 1074
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E8%B3%9C%E7%A6%AE%E7%9B%9B%E5%9C%8B%E6%85%B6>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E8%B3%9C%E7%A6%AE%E7%9B%9B%E5%9C%8B%E6%85%B6>
 #1069 - 1074
 
 wref_ko 천사예성국경
 name(kr) 천사예성국경
 #1069 - 1074
 
-## <https://zh-min-nan.wikipedia.org/wiki/Thian-s%C3%B9_L%C3%A9-s%C4%93ng_Kok-kh%C3%A8ng_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/Thian-s%C3%B9_L%C3%A9-s%C4%93ng_Kok-kh%C3%A8ng_(Se_H%C4%81)>
 #1069 - 1074
-#XXXname Thian-sù Lé-sēng Kok-khèng
+name(nan) Thian-sù Lé-sēng Kok-khèng
 
 <-乾道(丁未) [宋:1069] #支那改元日{#西夏 #李秉常}
 
@@ -9410,7 +9437,7 @@ name_kana だい あん
 #東亞歴史年表: 1075 - 1085
 #中国歴代年号考: 1075 - 1085
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A7%E5%AE%89_(%E8%A5%BF%E5%A4%8F)>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A7%E5%AE%89_(%E8%A5%BF%E5%A4%8F)>
 name 大安
 #1075 - 1085
 
@@ -9419,9 +9446,9 @@ name(kr) 대안
 name 大安
 #1075 - 1085
 
-## <https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-an_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-an_(Se_H%C4%81)>
 #1075 - 1085
-#XXXname Tāi-an
+name(nan) Tāi-an
 name 大安
 
 tag 西夏紀年考
@@ -9530,16 +9557,16 @@ name_kana てん あん れい てい
 #東亞歴史年表: 1086
 #中国歴代年号考: 1086-1 - 1086-7
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E5%AE%89%E7%A6%AE%E5%AE%9A>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E5%AE%89%E7%A6%AE%E5%AE%9A>
 #1086
 
 wref_ko 천안예정
 name(kr) 천안예정
 #1086
 
-## <https://zh-min-nan.wikipedia.org/wiki/Thian-an_L%C3%A9-t%C4%93ng_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/Thian-an_L%C3%A9-t%C4%93ng_(Se_H%C4%81)>
 #1086
-#XXXname Thian-an Lé-tēng
+name(nan) Thian-an Lé-tēng
 
 tag 西夏紀年考
 #1086
@@ -9586,16 +9613,16 @@ name_kana てん ぎ ち へい
           
 
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E5%84%80%E6%B2%BB%E5%B9%B3>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E5%84%80%E6%B2%BB%E5%B9%B3>
 #1086 - 1089
 
 wref_ko 천의치평
 name(kr) 천의치평
 #1086 - 1089
 
-## <https://zh-min-nan.wikipedia.org/wiki/Thian-g%C3%AE_T%C4%AB-p%C3%AAng_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/Thian-g%C3%AE_T%C4%AB-p%C3%AAng_(Se_H%C4%81)>
 #1086 - 1089
-#XXXname Thian-gî Tī-pêng
+name(nan) Thian-gî Tī-pêng
 
 tag 西夏紀年考
 #1086 (1) - 1089 (4)
@@ -9659,16 +9686,16 @@ name_kana てん ゆう みん あん
 #1090 - 1097
 #<-天儀治平 ->永安
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E7%A5%90%E6%B0%91%E5%AE%89>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E7%A5%90%E6%B0%91%E5%AE%89>
 #1090 - 1097
 
 wref_ko 천우민안
 name(kr) 천우민안
 #1090 - 1097
 
-## <https://zh-min-nan.wikipedia.org/wiki/Thian-i%C5%AB_B%C3%AEn-an_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/Thian-i%C5%AB_B%C3%AEn-an_(Se_H%C4%81)>
 #1090 - 1097
-#XXXname Thian-iū Bîn-an
+name(nan) Thian-iū Bîn-an
 
 tag 西夏紀年考
 #1090 - 1097
@@ -9718,16 +9745,16 @@ name_kana えい あん
 #1098 - 1100
 #<-天祐民安 ->貞観
 
-## <https://zh-yue.wikipedia.org/wiki/%E6%B0%B8%E5%AE%89_(%E8%A5%BF%E5%A4%8F)>
+wref<https://zh-yue.wikipedia.org/wiki/%E6%B0%B8%E5%AE%89_(%E8%A5%BF%E5%A4%8F)>
 #1098 - 1100
 
 wref_ko 영안 (서하)
 name(kr) 영안
 #1098 - 1100
 
-## <https://zh-min-nan.wikipedia.org/wiki/%C3%89ng-an_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/%C3%89ng-an_(Se_H%C4%81)>
 #1098 - 1100
-#XXXname Éng-an
+name(nan) Éng-an
 
 tag 西夏紀年考
 #1098 (1) - 1100 (3)
@@ -9788,16 +9815,16 @@ name_ja 貞観
 #1101 - 1114
 #<-永安 ->雍寧
 
-## <https://zh-yue.wikipedia.org/wiki/%E8%B2%9E%E8%A7%80_(%E8%A5%BF%E5%A4%8F)>
+wref<https://zh-yue.wikipedia.org/wiki/%E8%B2%9E%E8%A7%80_(%E8%A5%BF%E5%A4%8F)>
 #1101 - 1113
 
 wref_ko 정관 (서하)
 name(kr) 정관
 #1101 - 1113
 
-## <https://zh-min-nan.wikipedia.org/wiki/Cheng-koan_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/Cheng-koan_(Se_H%C4%81)>
 #1101 - 1113
-#XXXname Cheng-koan
+name(nan) Cheng-koan
 
 tag 西夏紀年考
 #1101 (1) - 1113 (13)
@@ -9857,16 +9884,16 @@ name_kana よう ねい
 #1114 - 1118
 #<-貞観 ->元徳
 
-## <https://zh-yue.wikipedia.org/wiki/%E9%9B%8D%E5%AF%A7>
+wref<https://zh-yue.wikipedia.org/wiki/%E9%9B%8D%E5%AF%A7>
 #1114 - 1118
 
 wref_ko 옹녕
 name(kr) 옹녕
 #1114 - 1118
 
-## <https://zh-min-nan.wikipedia.org/wiki/Iong-l%C3%AAng_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/Iong-l%C3%AAng_(Se_H%C4%81)>
 #1114 - 1118
-#XXXname Iong-lêng
+name(nan) Iong-lêng
 
 tag 西夏紀年考
 #1114 (1) - 1118 (5)
@@ -9931,12 +9958,12 @@ name_kana げん とく
 #1119 - 1127
 #<-雍寧 ->正徳
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%85%83%E5%BE%B7_(%E8%A5%BF%E5%A4%8F)>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%85%83%E5%BE%B7_(%E8%A5%BF%E5%A4%8F)>
 #1119 - 1127
 
-## <https://zh-min-nan.wikipedia.org/wiki/Go%C3%A2n-tek_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/Go%C3%A2n-tek_(Se_H%C4%81)>
 #1119 - 1127
-#XXXname Goân-tek
+name(nan) Goân-tek
 
 wref_ko 원덕
 name(kr) 원덕
@@ -10013,16 +10040,16 @@ name_kana せい とく
 #1127 - 1134
 #<-元徳 ->大徳
 
-## <https://zh-yue.wikipedia.org/wiki/%E6%AD%A3%E5%BE%B7_(%E8%A5%BF%E5%A4%8F)>
+wref<https://zh-yue.wikipedia.org/wiki/%E6%AD%A3%E5%BE%B7_(%E8%A5%BF%E5%A4%8F)>
 #1127 - 1134
 
 wref_ko 정덕 (서하)
 name(kr) 정덕
 #1127 - 1134
 
-## <https://zh-min-nan.wikipedia.org/wiki/Ch%C3%A8ng-tek_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/Ch%C3%A8ng-tek_(Se_H%C4%81)>
 #1127 - 1134
-#XXXname Chèng-tek
+name(nan) Chèng-tek
 
 tag 西夏紀年考
 #本文: 正德
@@ -10071,16 +10098,16 @@ name_kana だい とく
 #<-正徳 ->大慶
 
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A7%E5%BE%B7_(%E8%A5%BF%E5%A4%8F)>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A7%E5%BE%B7_(%E8%A5%BF%E5%A4%8F)>
 #1135 - 1139
 
 wref_ko 대덕 (서하)
 name(kr) 대덕
 #1135 - 1139
 
-## <https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-tek_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-tek_(Se_H%C4%81)>
 #1135 - 1139
-#XXXname Tāi-tek
+name(nan) Tāi-tek
 
 tag 西夏紀年考
 #1135 - 1139
@@ -10129,16 +10156,16 @@ name_kana だい けい
 #大慶 1140 - 1143 人慶 1144 - 1148 天盛 1149 - 1169 乾祐 1170 - 1193
            
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A7%E6%85%B6_(%E5%A4%8F%E4%BB%81%E5%AE%97)>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A7%E6%85%B6_(%E5%A4%8F%E4%BB%81%E5%AE%97)>
 #1140 - 1143
 
 wref_ko 대경 (서하 인종)
 name(kr) 대경
 #1140 - 1143
 
-## <https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-kh%C3%A8ng_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-kh%C3%A8ng_(Se_H%C4%81)>
 #1140 - 1143
-#XXXname Tāi-khèng
+name(nan) Tāi-khèng
 #<-Tāi-tek ->Jîn-khèng
 
 tag 西夏紀年考
@@ -10205,16 +10232,16 @@ name_kana じん けい
 #1144 - 1148
 #<-大慶 ->天盛
 
-## <https://zh-yue.wikipedia.org/wiki/%E4%BA%BA%E6%85%B6>
+wref<https://zh-yue.wikipedia.org/wiki/%E4%BA%BA%E6%85%B6>
 #1144 - 1148
 
 wref_ko 인경
 name(kr) 인경
 #1144 - 1148
 
-## <https://zh-min-nan.wikipedia.org/wiki/J%C3%AEn-kh%C3%A8ng_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/J%C3%AEn-kh%C3%A8ng_(Se_H%C4%81)>
 #1144 - 1148
-#XXXname Jîn-khèng
+name(nan) Jîn-khèng
 
 tag 西夏紀年考
 #1144 (1) - 1148 (5)
@@ -10283,16 +10310,16 @@ name_kana てん せい
 #1149 - 1169
 #<-人慶 ->乾祐
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E7%9B%9B>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E7%9B%9B>
 #1149 - 1169
 
 wref_ko 천성 (서하)
 name(kr) 천성
 #1149 - 1169
 
-## <https://zh-min-nan.wikipedia.org/wiki/Thian-s%C4%93ng_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/Thian-s%C4%93ng_(Se_H%C4%81)>
 #1149 - 1169
-#XXXname Thian-sēng
+name(nan) Thian-sēng
 
 tag 年号銭
 
@@ -10369,16 +10396,16 @@ name_kana けん ゆう
 #1170 - 1193
 #<-天盛 ->天慶
 
-## <https://zh-yue.wikipedia.org/wiki/%E4%B9%BE%E7%A5%90_(%E8%A5%BF%E5%A4%8F)>
+wref<https://zh-yue.wikipedia.org/wiki/%E4%B9%BE%E7%A5%90_(%E8%A5%BF%E5%A4%8F)>
 #1170 - 1193
 
 wref_ko 건우 (서하)
 name(kr) 건우
 #1170 - 1193
 
-## <https://zh-min-nan.wikipedia.org/wiki/Khi%C3%A2n-i%C5%AB_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/Khi%C3%A2n-i%C5%AB_(Se_H%C4%81)>
 #1170 - 1193
-#XXXname Khiân-iū
+name(nan) Khiân-iū
 
 tag 西夏紀年考
 #1170 (1) - 1198 (24)
@@ -10505,16 +10532,16 @@ name_kana てん けい
 #1206-3-1 #退位
 #天慶 1194 - 1205 応天 1206
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E6%85%B6_(%E8%A5%BF%E5%A4%8F)>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E6%85%B6_(%E8%A5%BF%E5%A4%8F)>
 #1194 - 1206
 
 wref_ko 천경 (서하)
 name(kr) 천경
 #1194 - 1206
 
-## <https://zh-min-nan.wikipedia.org/wiki/Thian-kh%C3%A8ng_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/Thian-kh%C3%A8ng_(Se_H%C4%81)>
 #1194 - 1206
-#XXXname Thian-khèng
+name(nan) Thian-khèng
 
 tag 西夏紀年考
 #1194 (1) - 1206 (13)
@@ -10589,16 +10616,16 @@ name_kana おう てん
 #j:1211-8-12 #退位
 #応天 1206 - 1209 皇建 1210 - 1211
 
-## <https://zh-yue.wikipedia.org/wiki/%E6%87%89%E5%A4%A9_(%E8%A5%BF%E5%A4%8F)>
+wref<https://zh-yue.wikipedia.org/wiki/%E6%87%89%E5%A4%A9_(%E8%A5%BF%E5%A4%8F)>
 #1206 - 1209
 
 wref_ko 응천 (서하)
 name(kr) 응천
 #1206 - 1209
 
-## <https://zh-min-nan.wikipedia.org/wiki/%C3%88ng-thian_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/%C3%88ng-thian_(Se_H%C4%81)>
 #1206 - 1209
-#XXXname Èng-thian
+name(nan) Èng-thian
 
 tag 西夏紀年考
 #1206 (1) - 1209 (4)
@@ -10661,16 +10688,16 @@ name_kana こう けん
 #1210 - 1211-8
 #<-応天 ->光定
 
-## <https://zh-yue.wikipedia.org/wiki/%E7%9A%87%E5%BB%BA_(%E8%A5%BF%E5%A4%8F)>
+wref<https://zh-yue.wikipedia.org/wiki/%E7%9A%87%E5%BB%BA_(%E8%A5%BF%E5%A4%8F)>
 #1210 - 1211
 
 wref_ko 황건 (서하)
 name(kr) 황건
 #1210 - 1211
 
-## <https://zh-min-nan.wikipedia.org/wiki/H%C3%B4ng-ki%C3%A0n_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/H%C3%B4ng-ki%C3%A0n_(Se_H%C4%81)>
 #1210 - 1211
-#XXXname Hông-kiàn
+name(nan) Hông-kiàn
 
 tag 西夏紀年考
 #1210 (1) - 1211 (2)
@@ -10725,16 +10752,16 @@ name_kana こう てい
 #1223 #退位
 #光定 1211 - 1223
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%85%89%E5%AE%9A>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%85%89%E5%AE%9A>
 #1211 - 1223
 
 wref_ko 광정 (서하)
 name(kr) 광정
 #1211 - 1223
 
-## <https://zh-min-nan.wikipedia.org/wiki/Kong-t%C4%93ng_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/Kong-t%C4%93ng_(Se_H%C4%81)>
 #1211 - 1223
-#XXXname Kong-tēng
+name(nan) Kong-tēng
 
 ## <https://www.totetu.org/assets/media/paper/t156_272.pdf#page=29>
 #"光定癸未年九月朔九日（1223年？）"
@@ -10810,16 +10837,16 @@ name_kana けん てい
 #1226-7 #陥落 #死去
 #乾定 1223 - 1226
 
-## <https://zh-yue.wikipedia.org/wiki/%E4%B9%BE%E5%AE%9A>
+wref<https://zh-yue.wikipedia.org/wiki/%E4%B9%BE%E5%AE%9A>
 #1223 - 1226
 
 wref_ko 건정 (서하)
 name(kr) 건정
 #1223 - 1226
 
-## <https://zh-min-nan.wikipedia.org/wiki/Khi%C3%A2n-t%C4%93ng_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/Khi%C3%A2n-t%C4%93ng_(Se_H%C4%81)>
 #1223 - 1226
-#XXXname Khiân-tēng
+name(nan) Khiân-tēng
 
 tag 西夏紀年考
 #1223 (1) - 1226 (4)
@@ -10936,16 +10963,16 @@ name_kana ほう ぎ
 #1227-7-15 j:1227-8-28 #死去
 #宝義 1226 - 1227
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%AF%B6%E7%BE%A9>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%AF%B6%E7%BE%A9>
 #1226 - 1227
 
 wref_ko 보의
 name(kr) 보의
 #1226 - 1227
 
-## <https://zh-min-nan.wikipedia.org/wiki/P%C3%B3-g%C4%AB_(Se_H%C4%81)>
+wref<https://zh-min-nan.wikipedia.org/wiki/P%C3%B3-g%C4%AB_(Se_H%C4%81)>
 #1226 - 1227
-#XXXname Pó-gī
+name(nan) Pó-gī
 
 <-乾定 ->寶義,寶慶(西夏),寶慶(丙戌) [元:1226-7]
     #建元前の即位{#西夏 #李睍 #西夏皇帝}

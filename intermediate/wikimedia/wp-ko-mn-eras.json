@@ -1,0 +1,284 @@
+{
+   "_errors" : [
+      [
+         "Era mapping is missing",
+         "至元,1270",
+         "원나라"
+      ],
+      [
+         "Era mapping is missing",
+         "至正,1367",
+         "북원"
+      ],
+      [
+         "Era mapping is missing",
+         "天元,1377",
+         "북원"
+      ]
+   ],
+   "eras" : [
+      {
+         "caption" : "몽골 제국",
+         "era_id" : 1262,
+         "era_key" : "中統",
+         "hangul" : "중통",
+         "name" : "中統",
+         "offset" : 1259,
+         "tw" : "中統",
+         "ukey" : "中統,1259",
+         "wref" : null
+      },
+      {
+         "caption" : "몽골 제국",
+         "era_id" : 1082,
+         "era_key" : "至元",
+         "hangul" : "지원",
+         "name" : "至元",
+         "offset" : 1263,
+         "tw" : "至元",
+         "ukey" : "至元,1263",
+         "wref" : null
+      },
+      {
+         "_possibles" : [
+            [
+               1082,
+               "至元",
+               1263
+            ],
+            [
+               1495,
+               "至元(乙亥)",
+               1334
+            ]
+         ],
+         "caption" : "원나라",
+         "hangul" : "지원",
+         "name" : "至元",
+         "offset" : 1270,
+         "tw" : "至元",
+         "ukey" : "至元,1270",
+         "wref" : null
+      },
+      {
+         "caption" : "원나라",
+         "era_id" : 1539,
+         "era_key" : "元貞",
+         "hangul" : "원정",
+         "name" : "元貞",
+         "offset" : 1294,
+         "tw" : "元貞",
+         "ukey" : "元貞,1294",
+         "wref" : null
+      },
+      {
+         "caption" : "원나라",
+         "era_id" : 1041,
+         "era_key" : "大德(丁酉)",
+         "hangul" : "대덕",
+         "name" : "大德",
+         "offset" : 1296,
+         "tw" : "大德",
+         "ukey" : "大德,1296",
+         "wref" : null
+      },
+      {
+         "caption" : "원나라",
+         "era_id" : 1242,
+         "era_key" : "至大",
+         "hangul" : "지대",
+         "name" : "至大",
+         "offset" : 1307,
+         "tw" : "至大",
+         "ukey" : "至大,1307",
+         "wref" : null
+      },
+      {
+         "caption" : "원나라",
+         "era_id" : 1422,
+         "era_key" : "皇慶",
+         "hangul" : "황경",
+         "name" : "皇慶",
+         "offset" : 1311,
+         "tw" : "皇慶",
+         "ukey" : "皇慶,1311",
+         "wref" : null
+      },
+      {
+         "caption" : "원나라",
+         "era_id" : 366,
+         "era_key" : "延祐",
+         "hangul" : "연우",
+         "name" : "延祐",
+         "offset" : 1313,
+         "tw" : "延祐",
+         "ukey" : "延祐,1313",
+         "wref" : null
+      },
+      {
+         "caption" : "원나라",
+         "era_id" : 71,
+         "era_key" : "至治(辛酉)",
+         "hangul" : "지치",
+         "name" : "至治",
+         "offset" : 1320,
+         "tw" : "至治",
+         "ukey" : "至治,1320",
+         "wref" : null
+      },
+      {
+         "caption" : "원나라",
+         "era_id" : 1043,
+         "era_key" : "泰定",
+         "hangul" : "태정",
+         "name" : "泰定",
+         "offset" : 1323,
+         "tw" : "泰定",
+         "ukey" : "泰定,1323",
+         "wref" : null
+      },
+      {
+         "caption" : "원나라",
+         "era_id" : 1505,
+         "era_key" : "致和",
+         "hangul" : "치화",
+         "name" : "致和",
+         "offset" : 1327,
+         "tw" : "致和",
+         "ukey" : "致和,1327",
+         "wref" : null
+      },
+      {
+         "caption" : "원나라",
+         "era_id" : 1040,
+         "era_key" : "天順",
+         "hangul" : "천순",
+         "name" : "天順",
+         "offset" : 1327,
+         "tw" : "天順",
+         "ukey" : "天順,1327",
+         "wref" : null
+      },
+      {
+         "caption" : "원나라",
+         "era_id" : 848,
+         "era_key" : "天曆(戊辰)",
+         "hangul" : "천력",
+         "name" : "天曆",
+         "offset" : 1327,
+         "tw" : "天曆",
+         "ukey" : "天曆,1327",
+         "wref" : null
+      },
+      {
+         "caption" : "원나라",
+         "era_id" : 1605,
+         "era_key" : "至順",
+         "hangul" : "지순",
+         "name" : "至順",
+         "offset" : 1329,
+         "tw" : "至順",
+         "ukey" : "至順,1329",
+         "wref" : null
+      },
+      {
+         "caption" : "원나라",
+         "era_id" : 1491,
+         "era_key" : "元統",
+         "hangul" : "원통",
+         "name" : "元統",
+         "offset" : 1332,
+         "tw" : "元統",
+         "ukey" : "元統,1332",
+         "wref" : null
+      },
+      {
+         "caption" : "원나라",
+         "era_id" : 1495,
+         "era_key" : "至元(乙亥)",
+         "hangul" : "지원",
+         "name" : "至元",
+         "offset" : 1334,
+         "tw" : "至元",
+         "ukey" : "至元,1334",
+         "wref" : null
+      },
+      {
+         "caption" : "원나라",
+         "era_id" : 1576,
+         "era_key" : "至正",
+         "hangul" : "지정",
+         "name" : "至正",
+         "offset" : 1340,
+         "tw" : "至正",
+         "ukey" : "至正,1340",
+         "wref" : null
+      },
+      {
+         "_possibles" : [
+            [
+               1576,
+               "至正",
+               1340
+            ]
+         ],
+         "caption" : "북원",
+         "hangul" : "지정",
+         "name" : "至正",
+         "offset" : 1367,
+         "tw" : "至正",
+         "ukey" : "至正,1367",
+         "wref" : null
+      },
+      {
+         "caption" : "북원",
+         "era_id" : 1843,
+         "era_key" : "宣光(庚戌)",
+         "hangul" : "선광",
+         "name" : "宣光",
+         "offset" : 1369,
+         "tw" : "宣光",
+         "ukey" : "宣光,1369",
+         "wref" : null
+      },
+      {
+         "_possibles" : [
+            [
+               708,
+               "添元",
+               1452
+            ],
+            [
+               978,
+               "天元",
+               977
+            ],
+            [
+               1163,
+               "天元(己未)",
+               1378
+            ]
+         ],
+         "caption" : "북원",
+         "hangul" : "천원",
+         "name" : "天元",
+         "offset" : 1377,
+         "tw" : "天元",
+         "ukey" : "天元,1377",
+         "wref" : null
+      },
+      {
+         "caption" : "몽강연합자치정부",
+         "era_id" : 1456,
+         "era_key" : "共戴",
+         "hangul" : "공대",
+         "name" : "共戴",
+         "offset" : 1910,
+         "tw" : "共戴",
+         "ukey" : "共戴,1910",
+         "wref" : null
+      }
+   ],
+   "page_name" : "몽골의 연호",
+   "wref_key" : "wref_ko"
+}

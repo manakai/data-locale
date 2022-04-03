@@ -224,6 +224,11 @@ copyright and related or neighboring rights to this document.
   .pattern-11 { background-color: #F0E68C }
   .pattern-12 { background-color: #FFA07A }
 
+  .not-equal-primary {
+    color: red;
+    background: transparent;
+  }
+
 </style>
 <h1>Era yomis</h1>
 
@@ -241,7 +246,8 @@ for my $source_id (@{$Data->{source_ids}}) {
   my @class;
   push @class, 'kana-old' if $Data->{sources}->{$source_id}->{is_kana_old};
   push @class, 'latin-old' if $Data->{sources}->{$source_id}->{is_latin_old};
-  push @class, 'wrong' if $Data->{sources}->{$source_id}->{is_wrong};
+  push @class, 'wrong' if $Data->{sources}->{$source_id}->{is_wrong} or
+                          $Data->{sources}->{$source_id}->{non_native};
   printf q{<col class="%s">}, join ' ', @class;
 }
 print q{<col class="wrong">};
@@ -272,9 +278,15 @@ for my $era (sort {
   for my $source_id (@{$Data->{source_ids}}) {
     print q{<td>};
     for my $value (@{$era->{yomis}->{$source_id} or []}) {
+      my $pp = pattern ($value, $patterns);
       printf q{<p><data class="pattern-%d">%s</data>},
-          pattern ($value, $patterns),
+          $pp,
           htescape $value;
+      if ($source_id == 6011 and $pp != 1) {
+        printf q{ <span class=not-equal-primary>!!</span>};
+      } elsif ($source_id == 6031 and $pp != 1) {
+        printf q{ <span class=not-equal-primary>!?</span>};
+      }
     }
   }
 
@@ -283,6 +295,9 @@ for my $era (sort {
     printf q{<p><data class="pattern-%d">%s</data>},
         pattern ($value, $patterns),
         htescape $value;
+  }
+  if (@{$era->{missing_yomis}}) {
+    printf q{ <span class=not-equal-primary>!x</span>};
   }
 }
 

@@ -1,0 +1,1955 @@
+{
+   "_errors" : [
+      [
+         "Era mapping is missing",
+         "順天,1009",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era mapping is missing",
+         "天感聖武,1043",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era mapping is missing",
+         "天貺寶象,1067",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era mapping is missing",
+         "天順,1127",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era not found",
+         "政龍寶應,1162"
+      ],
+      [
+         "Era mapping is missing",
+         "乾寧,1210",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era mapping is missing",
+         "重興,1284",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era not found",
+         "開祐,1328"
+      ],
+      [
+         "Era mapping is missing",
+         "隆慶,1371",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era mapping is missing",
+         "開大,1402",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era mapping is missing",
+         "太寶,1439",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era not found",
+         "太貞,1503"
+      ],
+      [
+         "Era mapping is missing",
+         "廣和,1539",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era not found",
+         "景曆,1547"
+      ],
+      [
+         "Era mapping is missing",
+         "隆泰,1622",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era mapping is missing",
+         "順德,1637",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era mapping is missing",
+         "天祐,1555",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era mapping is missing",
+         "弘定,1600",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era mapping is missing",
+         "昭統,1785",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era mapping is missing",
+         "協和,1882",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era mapping is missing",
+         "建福,1882",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era mapping is missing",
+         "同慶,1885",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ],
+      [
+         "Era mapping is missing",
+         "保大,1924",
+         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
+      ]
+   ],
+   "eras" : [
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "天德",
+         "era_id" : 1401,
+         "era_key" : "天德(甲子)",
+         "name" : "天德",
+         "offset" : 543,
+         "tw" : "天德",
+         "ukey" : "天德,543",
+         "vi" : "Thiên Đức"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "大德",
+         "era_id" : 1806,
+         "era_key" : "天德",
+         "name" : "大德",
+         "offset" : 543,
+         "tw" : "大德",
+         "ukey" : "大德,543",
+         "vi" : "Đại Đức"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "太平",
+         "era_id" : 1516,
+         "era_key" : "太平(庚午)",
+         "name" : "太平",
+         "offset" : 969,
+         "tw" : "太平",
+         "ukey" : "太平,969",
+         "vi" : "Thái Bình"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "天福",
+         "era_id" : 1001,
+         "era_key" : "天福(庚辰)",
+         "name" : "天福",
+         "offset" : 979,
+         "tw" : "天福",
+         "ukey" : "天福,979",
+         "vi" : "Thiên Phúc"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "興統",
+         "era_id" : 1513,
+         "era_key" : "興統",
+         "name" : "興統",
+         "offset" : 988,
+         "tw" : "興統",
+         "ukey" : "興統,988",
+         "vi" : "Hưng Thống"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "應天",
+         "era_id" : 1037,
+         "era_key" : "應天(甲午)",
+         "name" : "應天",
+         "offset" : 993,
+         "tw" : "應天",
+         "ukey" : "應天,993",
+         "vi" : "Ứng Thiên"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "景瑞",
+         "era_id" : 970,
+         "era_key" : "景瑞(戊申)",
+         "name" : "景瑞",
+         "offset" : 1007,
+         "tw" : "景瑞",
+         "ukey" : "景瑞,1007",
+         "vi" : "Cảnh Thụy"
+      },
+      {
+         "_possibles" : [
+            [
+               30,
+               "順天(戊申)",
+               1427
+            ],
+            [
+               150,
+               "順天(乙卯)",
+               894
+            ],
+            [
+               663,
+               "順天(己酉)",
+               1008
+            ],
+            [
+               986,
+               "順天(丁未)",
+               1786
+            ],
+            [
+               1203,
+               "順天(庚申)",
+               1859
+            ],
+            [
+               1361,
+               "順天",
+               758
+            ],
+            [
+               1580,
+               "順天(丙子)",
+               1215
+            ],
+            [
+               1984,
+               "順天(乙亥)",
+               1214
+            ],
+            [
+               1985,
+               "順天(甲戌)",
+               1213
+            ],
+            [
+               2150,
+               "順天(己未)",
+               1858
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "順天",
+         "name" : "順天",
+         "offset" : 1009,
+         "tw" : "順天",
+         "ukey" : "順天,1009",
+         "vi" : "Thuận Thiên"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "天成",
+         "era_id" : 1615,
+         "era_key" : "天成(戊辰)",
+         "name" : "天成",
+         "offset" : 1027,
+         "tw" : "天成",
+         "ukey" : "天成,1027",
+         "vi" : "Thiên Thành"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "通瑞",
+         "era_id" : 478,
+         "era_key" : "通瑞",
+         "name" : "通瑞",
+         "offset" : 1033,
+         "tw" : "通瑞",
+         "ukey" : "通瑞,1033",
+         "vi" : "Thông Thụy"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "乾符有道",
+         "era_id" : 134,
+         "era_key" : "乾符有道",
+         "name" : "乾符有道",
+         "offset" : 1038,
+         "tw" : "乾符有道",
+         "ukey" : "乾符有道,1038",
+         "vi" : "Càn Phù Hữu Đạo"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "明道",
+         "era_id" : 1452,
+         "era_key" : "明道(壬午)",
+         "name" : "明道",
+         "offset" : 1041,
+         "tw" : "明道",
+         "ukey" : "明道,1041",
+         "vi" : "Minh Đạo"
+      },
+      {
+         "_possibles" : [
+            [
+               1593,
+               "天感聖武",
+               1048
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "天感聖武",
+         "name" : "天感聖武",
+         "offset" : 1043,
+         "tw" : "天感聖武",
+         "ukey" : "天感聖武,1043",
+         "vi" : "Thiên Cảm Thánh Vũ"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "崇興大寶",
+         "era_id" : 995,
+         "era_key" : "崇興大寶",
+         "name" : "崇興大寶",
+         "offset" : 1048,
+         "tw" : "崇興大寶",
+         "ukey" : "崇興大寶,1048",
+         "vi" : "Sùng Hưng Đại Bảo"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "龍瑞太平",
+         "era_id" : 977,
+         "era_key" : "龍瑞太平",
+         "name" : "龍瑞太平",
+         "offset" : 1053,
+         "tw" : "龍瑞太平",
+         "ukey" : "龍瑞太平,1053",
+         "vi" : "Long Thụy Thái Bình"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "彰聖嘉慶",
+         "era_id" : 73,
+         "era_key" : "彰聖嘉慶",
+         "name" : "彰聖嘉慶",
+         "offset" : 1058,
+         "tw" : "彰聖嘉慶",
+         "ukey" : "彰聖嘉慶,1058",
+         "vi" : "Chương Thánh Gia Khánh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "龍彰天嗣",
+         "era_id" : 1717,
+         "era_key" : "龍彰天嗣",
+         "name" : "龍彰天嗣",
+         "offset" : 1065,
+         "tw" : "龍彰天嗣",
+         "ukey" : "龍彰天嗣,1065",
+         "vi" : "Long Chương Thiên Tự"
+      },
+      {
+         "_possibles" : [
+            [
+               141,
+               "天貺寶象",
+               1068
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "天貺寶象",
+         "name" : "天貺寶象",
+         "offset" : 1067,
+         "tw" : "天貺寶象",
+         "ukey" : "天貺寶象,1067",
+         "vi" : "Thiên Huống Bảo Tượng"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "神武",
+         "era_id" : 93,
+         "era_key" : "神武(己酉)",
+         "name" : "神武",
+         "offset" : 1068,
+         "tw" : "神武",
+         "ukey" : "神武,1068",
+         "vi" : "Thần Vũ"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "太寧",
+         "era_id" : 208,
+         "era_key" : "太寧(壬子)",
+         "name" : "太寧",
+         "offset" : 1071,
+         "tw" : "太寧",
+         "ukey" : "太寧,1071",
+         "vi" : "Thái Ninh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "英武昭勝",
+         "era_id" : 362,
+         "era_key" : "英武昭勝",
+         "name" : "英武昭勝",
+         "offset" : 1075,
+         "tw" : "英武昭勝",
+         "ukey" : "英武昭勝,1075",
+         "vi" : "Anh Vũ Chiêu Thắng"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "廣祐",
+         "era_id" : 1287,
+         "era_key" : "廣佑",
+         "name" : "廣祐",
+         "offset" : 1084,
+         "tw" : "廣祐",
+         "ukey" : "廣祐,1084",
+         "vi" : "Quảng Hựu"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "會豐",
+         "era_id" : 388,
+         "era_key" : "會豐",
+         "name" : "會豐",
+         "offset" : 1091,
+         "tw" : "會豐",
+         "ukey" : "會豐,1091",
+         "vi" : "Hội Phong"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "龍符",
+         "era_id" : 107,
+         "era_key" : "龍符",
+         "name" : "龍符",
+         "offset" : 1100,
+         "tw" : "龍符",
+         "ukey" : "龍符,1100",
+         "vi" : "Long Phù"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "會祥大慶",
+         "era_id" : 1694,
+         "era_key" : "會祥大慶",
+         "name" : "會祥大慶",
+         "offset" : 1109,
+         "tw" : "會祥大慶",
+         "ukey" : "會祥大慶,1109",
+         "vi" : "Hội Tường Đại Khánh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "天符睿武",
+         "era_id" : 119,
+         "era_key" : "天符睿武",
+         "name" : "天符睿武",
+         "offset" : 1119,
+         "tw" : "天符睿武",
+         "ukey" : "天符睿武,1119",
+         "vi" : "Thiên Phù Duệ Vũ"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "天符慶壽",
+         "era_id" : 743,
+         "era_key" : "天符慶壽",
+         "name" : "天符慶壽",
+         "offset" : 1126,
+         "tw" : "天符慶壽",
+         "ukey" : "天符慶壽,1126",
+         "vi" : "Thiên Phù Khánh Thọ"
+      },
+      {
+         "_possibles" : [
+            [
+               169,
+               "大順(甲申)",
+               1643
+            ],
+            [
+               720,
+               "天順(丁未)",
+               1126
+            ],
+            [
+               1040,
+               "天順",
+               1327
+            ],
+            [
+               1050,
+               "天順(甲戌)",
+               1213
+            ],
+            [
+               1138,
+               "天順(丁丑)",
+               1456
+            ],
+            [
+               1375,
+               "天順(辛丑)",
+               1660
+            ],
+            [
+               1600,
+               "天順(丙子)",
+               1455
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "天順",
+         "name" : "天順",
+         "offset" : 1127,
+         "tw" : "天順",
+         "ukey" : "天順,1127",
+         "vi" : "Thiên Thuận"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "天彰寶嗣",
+         "era_id" : 1427,
+         "era_key" : "天彰寶嗣",
+         "name" : "天彰寶嗣",
+         "offset" : 1132,
+         "tw" : "天彰寶嗣",
+         "ukey" : "天彰寶嗣,1132",
+         "vi" : "Thiên Chương Bảo Tự"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "紹明",
+         "era_id" : 379,
+         "era_key" : "紹明",
+         "name" : "紹明",
+         "offset" : 1137,
+         "tw" : "紹明",
+         "ukey" : "紹明,1137",
+         "vi" : "Thiệu Minh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "大定",
+         "era_id" : 714,
+         "era_key" : "大定(庚申)",
+         "name" : "大定",
+         "offset" : 1139,
+         "tw" : "大定",
+         "ukey" : "大定,1139",
+         "vi" : "Đại Định"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "政龍寶應",
+         "name" : "政龍寶應",
+         "offset" : 1162,
+         "tw" : "政龍寶應",
+         "ukey" : "政龍寶應,1162",
+         "vi" : "Chính Long Bảo Ứng"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "天感至寶",
+         "era_id" : 110,
+         "era_key" : "天感至寶",
+         "name" : "天感至寶",
+         "offset" : 1173,
+         "tw" : "天感至寶",
+         "ukey" : "天感至寶,1173",
+         "vi" : "Thiên Cảm Chí Bảo"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "貞符",
+         "era_id" : 426,
+         "era_key" : "貞符",
+         "name" : "貞符",
+         "offset" : 1175,
+         "tw" : "貞符",
+         "ukey" : "貞符,1175",
+         "vi" : "Trinh Phù"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "天資嘉瑞",
+         "era_id" : 784,
+         "era_key" : "天資嘉瑞",
+         "name" : "天資嘉瑞",
+         "offset" : 1185,
+         "tw" : "天資嘉瑞",
+         "ukey" : "天資嘉瑞,1185",
+         "vi" : "Thiên Tư Gia Thụy"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "天嘉寶祐",
+         "era_id" : 830,
+         "era_key" : "天嘉寶祐",
+         "name" : "天嘉寶祐",
+         "offset" : 1201,
+         "tw" : "天嘉寶祐",
+         "ukey" : "天嘉寶祐,1201",
+         "vi" : "Thiên Gia Bảo Hựu"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "治平龍應",
+         "era_id" : 922,
+         "era_key" : "治平龍應",
+         "name" : "治平龍應",
+         "offset" : 1204,
+         "tw" : "治平龍應",
+         "ukey" : "治平龍應,1204",
+         "vi" : "Trị Bình Long Ứng"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "建嘉",
+         "era_id" : 1213,
+         "era_key" : "建嘉",
+         "name" : "建嘉",
+         "offset" : 1210,
+         "tw" : "建嘉",
+         "ukey" : "建嘉,1210",
+         "vi" : "Kiến Gia"
+      },
+      {
+         "_possibles" : [
+            [
+               289,
+               "乾寧",
+               893
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "乾寧",
+         "name" : "乾寧",
+         "offset" : 1210,
+         "tw" : "乾寧",
+         "ukey" : "乾寧,1210",
+         "vi" : "Càn Ninh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "天彰有道",
+         "era_id" : 262,
+         "era_key" : "天彰有道",
+         "name" : "天彰有道",
+         "offset" : 1223,
+         "tw" : "天彰有道",
+         "ukey" : "天彰有道,1223",
+         "vi" : "Thiên Chương Hữu Đạo"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "建中",
+         "era_id" : 58,
+         "era_key" : "建中(乙酉)",
+         "name" : "建中",
+         "offset" : 1224,
+         "tw" : "建中",
+         "ukey" : "建中,1224",
+         "vi" : "Kiến Trung"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "天應政平",
+         "era_id" : 1057,
+         "era_key" : "天應政平",
+         "name" : "天應政平",
+         "offset" : 1231,
+         "tw" : "天應政平",
+         "ukey" : "天應政平,1231",
+         "vi" : "Thiên Ứng Chính Bình"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "元豐",
+         "era_id" : 139,
+         "era_key" : "元豐(辛亥)",
+         "name" : "元豐",
+         "offset" : 1250,
+         "tw" : "元豐",
+         "ukey" : "元豐,1250",
+         "vi" : "Nguyên Phong"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "紹隆",
+         "era_id" : 520,
+         "era_key" : "紹隆",
+         "name" : "紹隆",
+         "offset" : 1257,
+         "tw" : "紹隆",
+         "ukey" : "紹隆,1257",
+         "vi" : "Thiệu Long"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "寶符",
+         "era_id" : 1258,
+         "era_key" : "寶符",
+         "name" : "寶符",
+         "offset" : 1272,
+         "tw" : "寶符",
+         "ukey" : "寶符,1272",
+         "vi" : "Bảo Phù"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "紹寶",
+         "era_id" : 457,
+         "era_key" : "紹寶",
+         "name" : "紹寶",
+         "offset" : 1278,
+         "tw" : "紹寶",
+         "ukey" : "紹寶,1278",
+         "vi" : "Thiệu Bảo"
+      },
+      {
+         "_possibles" : [
+            [
+               737,
+               "重興",
+               1643
+            ],
+            [
+               989,
+               "重興(癸巳)",
+               1292
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "重興",
+         "name" : "重興",
+         "offset" : 1284,
+         "tw" : "重興",
+         "ukey" : "重興,1284",
+         "vi" : "Trùng Hưng"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "興隆",
+         "era_id" : 1423,
+         "era_key" : "興隆(癸巳)",
+         "name" : "興隆",
+         "offset" : 1292,
+         "tw" : "興隆",
+         "ukey" : "興隆,1292",
+         "vi" : "Hưng Long"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "大慶",
+         "era_id" : 791,
+         "era_key" : "大慶(甲寅)",
+         "name" : "大慶",
+         "offset" : 1313,
+         "tw" : "大慶",
+         "ukey" : "大慶,1313",
+         "vi" : "Đại Khánh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "開泰",
+         "era_id" : 68,
+         "era_key" : "開泰(甲子)",
+         "name" : "開泰",
+         "offset" : 1323,
+         "tw" : "開泰",
+         "ukey" : "開泰,1323",
+         "vi" : "Khai Thái"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "開祐",
+         "name" : "開祐",
+         "offset" : 1328,
+         "tw" : "開祐",
+         "ukey" : "開祐,1328",
+         "vi" : "Khai Hựu"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "紹豐",
+         "era_id" : 765,
+         "era_key" : "紹豐",
+         "name" : "紹豐",
+         "offset" : 1340,
+         "tw" : "紹豐",
+         "ukey" : "紹豐,1340",
+         "vi" : "Thiệu Phong"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "大治",
+         "era_id" : 266,
+         "era_key" : "大治(戊戌)",
+         "name" : "大治",
+         "offset" : 1357,
+         "tw" : "大治",
+         "ukey" : "大治,1357",
+         "vi" : "Đại Trị"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "大定",
+         "era_id" : 280,
+         "era_key" : "大定(己酉)",
+         "name" : "大定",
+         "offset" : 1368,
+         "tw" : "大定",
+         "ukey" : "大定,1368",
+         "vi" : "Đại Định"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "紹慶",
+         "era_id" : 92,
+         "era_key" : "紹慶",
+         "name" : "紹慶",
+         "offset" : 1369,
+         "tw" : "紹慶",
+         "ukey" : "紹慶,1369",
+         "vi" : "Thiệu Khánh"
+      },
+      {
+         "_possibles" : [
+            [
+               158,
+               "隆慶(癸丑)",
+               1372
+            ],
+            [
+               699,
+               "隆慶",
+               1566
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "隆慶",
+         "name" : "隆慶",
+         "offset" : 1371,
+         "tw" : "隆慶",
+         "ukey" : "隆慶,1371",
+         "vi" : "Long Khánh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "昌符",
+         "era_id" : 1618,
+         "era_key" : "昌符",
+         "name" : "昌符",
+         "offset" : 1376,
+         "tw" : "昌符",
+         "ukey" : "昌符,1376",
+         "vi" : "Xương Phù"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "光泰",
+         "era_id" : 963,
+         "era_key" : "光泰",
+         "name" : "光泰",
+         "offset" : 1387,
+         "tw" : "光泰",
+         "ukey" : "光泰,1387",
+         "vi" : "Quang Thái"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "建新",
+         "era_id" : 1227,
+         "era_key" : "建新",
+         "name" : "建新",
+         "offset" : 1397,
+         "tw" : "建新",
+         "ukey" : "建新,1397",
+         "vi" : "Kiến Tân"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "聖元",
+         "era_id" : 1033,
+         "era_key" : "聖元",
+         "name" : "聖元",
+         "offset" : 1399,
+         "tw" : "聖元",
+         "ukey" : "聖元,1399",
+         "vi" : "Thánh Nguyên"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "紹成",
+         "era_id" : 990,
+         "era_key" : "紹聖(辛巳)",
+         "name" : "紹成",
+         "offset" : 1400,
+         "tw" : "紹成",
+         "ukey" : "紹成,1400",
+         "vi" : "Thiệu Thành"
+      },
+      {
+         "_possibles" : [
+            [
+               1188,
+               "開大",
+               1403
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "開大",
+         "name" : "開大",
+         "offset" : 1402,
+         "tw" : "開大",
+         "ukey" : "開大,1402",
+         "vi" : "Khai Đại"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "興慶",
+         "era_id" : 1651,
+         "era_key" : "興慶(丁亥)",
+         "name" : "興慶",
+         "offset" : 1406,
+         "tw" : "興慶",
+         "ukey" : "興慶,1406",
+         "vi" : "Hưng Khánh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "重光",
+         "era_id" : 630,
+         "era_key" : "重光(己丑)",
+         "name" : "重光",
+         "offset" : 1408,
+         "tw" : "重光",
+         "ukey" : "重光,1408",
+         "vi" : "Trùng Quang"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "天慶",
+         "era_id" : 343,
+         "era_key" : "天慶(丙午)",
+         "name" : "天慶",
+         "offset" : 1425,
+         "tw" : "天慶",
+         "ukey" : "天慶,1425",
+         "vi" : "Thiên Khánh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "順天",
+         "era_id" : 30,
+         "era_key" : "順天(戊申)",
+         "name" : "順天",
+         "offset" : 1427,
+         "tw" : "順天",
+         "ukey" : "順天,1427",
+         "vi" : "Thuận Thiên"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "紹平",
+         "era_id" : 517,
+         "era_key" : "紹平",
+         "name" : "紹平",
+         "offset" : 1433,
+         "tw" : "紹平",
+         "ukey" : "紹平,1433",
+         "vi" : "Thiệu Bình"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "大寶",
+         "era_id" : 1562,
+         "era_key" : "大寶(庚申)",
+         "name" : "大寶",
+         "offset" : 1439,
+         "tw" : "大寶",
+         "ukey" : "大寶,1439",
+         "vi" : "Đại Bảo"
+      },
+      {
+         "_possibles" : [
+            [
+               288,
+               "大寶(己巳)",
+               1148
+            ],
+            [
+               554,
+               "大宝",
+               700
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "太寶",
+         "name" : "太寶",
+         "offset" : 1439,
+         "tw" : "太寶",
+         "ukey" : "太寶,1439",
+         "vi" : "Thái Bảo"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "大和",
+         "era_id" : 560,
+         "era_key" : "大和(癸亥)",
+         "name" : "大和",
+         "offset" : 1442,
+         "tw" : "大和",
+         "ukey" : "大和,1442",
+         "vi" : "Đại Hòa"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "太和",
+         "era_id" : 560,
+         "era_key" : "大和(癸亥)",
+         "name" : "太和",
+         "offset" : 1442,
+         "tw" : "太和",
+         "ukey" : "太和,1442",
+         "vi" : "Thái Hòa"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "延寧",
+         "era_id" : 1598,
+         "era_key" : "延寧",
+         "name" : "延寧",
+         "offset" : 1453,
+         "tw" : "延寧",
+         "ukey" : "延寧,1453",
+         "vi" : "Diên Ninh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "天興",
+         "era_id" : 346,
+         "era_key" : "天興(己卯)",
+         "name" : "天興",
+         "offset" : 1458,
+         "tw" : "天興",
+         "ukey" : "天興,1458",
+         "vi" : "Thiên Hưng"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "光順",
+         "era_id" : 555,
+         "era_key" : "光順",
+         "name" : "光順",
+         "offset" : 1459,
+         "tw" : "光順",
+         "ukey" : "光順,1459",
+         "vi" : "Quang Thuận"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "洪德",
+         "era_id" : 184,
+         "era_key" : "洪德(庚寅)",
+         "name" : "洪德",
+         "offset" : 1469,
+         "tw" : "洪德",
+         "ukey" : "洪德,1469",
+         "vi" : "Hồng Đức"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "景統",
+         "era_id" : 87,
+         "era_key" : "景統",
+         "name" : "景統",
+         "offset" : 1497,
+         "tw" : "景統",
+         "ukey" : "景統,1497",
+         "vi" : "Cảnh Thống"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "太貞",
+         "name" : "太貞",
+         "offset" : 1503,
+         "tw" : "太貞",
+         "ukey" : "太貞,1503",
+         "vi" : "Thái Trinh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "端慶",
+         "era_id" : 1338,
+         "era_key" : "端慶",
+         "name" : "端慶",
+         "offset" : 1504,
+         "tw" : "端慶",
+         "ukey" : "端慶,1504",
+         "vi" : "Đoan Khánh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "洪順",
+         "era_id" : 1407,
+         "era_key" : "洪順(己巳)",
+         "name" : "洪順",
+         "offset" : 1508,
+         "tw" : "洪順",
+         "ukey" : "洪順,1508",
+         "vi" : "Hồng Thuận"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "光紹",
+         "era_id" : 155,
+         "era_key" : "光紹",
+         "name" : "光紹",
+         "offset" : 1515,
+         "tw" : "光紹",
+         "ukey" : "光紹,1515",
+         "vi" : "Quang Thiệu"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "統元",
+         "era_id" : 1557,
+         "era_key" : "統元",
+         "name" : "統元",
+         "offset" : 1521,
+         "tw" : "統元",
+         "ukey" : "統元,1521",
+         "vi" : "Thống Nguyên"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "明德",
+         "era_id" : 851,
+         "era_key" : "明德(丁亥)",
+         "name" : "明德",
+         "offset" : 1526,
+         "tw" : "明德",
+         "ukey" : "明德,1526",
+         "vi" : "Minh Đức"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "大正",
+         "era_id" : 454,
+         "era_key" : "大正(庚寅)",
+         "name" : "大正",
+         "offset" : 1529,
+         "tw" : "大正",
+         "ukey" : "大正,1529",
+         "vi" : "Đại Chính"
+      },
+      {
+         "_possibles" : [
+            [
+               1145,
+               "廣和",
+               1540
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "廣和",
+         "name" : "廣和",
+         "offset" : 1539,
+         "tw" : "廣和",
+         "ukey" : "廣和,1539",
+         "vi" : "Quảng Hòa"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "永定",
+         "era_id" : 847,
+         "era_key" : "永定(丁未)",
+         "name" : "永定",
+         "offset" : 1546,
+         "tw" : "永定",
+         "ukey" : "永定,1546",
+         "vi" : "Vĩnh Định"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "景曆",
+         "name" : "景曆",
+         "offset" : 1547,
+         "tw" : "景曆",
+         "ukey" : "景曆,1547",
+         "vi" : "Cảnh Lịch"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "光寶",
+         "era_id" : 315,
+         "era_key" : "光寶",
+         "name" : "光寶",
+         "offset" : 1553,
+         "tw" : "光寶",
+         "ukey" : "光寶,1553",
+         "vi" : "Quang Bảo"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "淳福",
+         "era_id" : 602,
+         "era_key" : "淳福",
+         "name" : "淳福",
+         "offset" : 1561,
+         "tw" : "淳福",
+         "ukey" : "淳福,1561",
+         "vi" : "Thuần Phúc"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "崇康",
+         "era_id" : 1547,
+         "era_key" : "崇康",
+         "name" : "崇康",
+         "offset" : 1565,
+         "tw" : "崇康",
+         "ukey" : "崇康,1565",
+         "vi" : "Sùng Khang"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "延成",
+         "era_id" : 584,
+         "era_key" : "延成",
+         "name" : "延成",
+         "offset" : 1577,
+         "tw" : "延成",
+         "ukey" : "延成,1577",
+         "vi" : "Diên Thành"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "端泰",
+         "era_id" : 1137,
+         "era_key" : "端泰",
+         "name" : "端泰",
+         "offset" : 1585,
+         "tw" : "端泰",
+         "ukey" : "端泰,1585",
+         "vi" : "Đoan Thái"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "興治",
+         "era_id" : 979,
+         "era_key" : "興治",
+         "name" : "興治",
+         "offset" : 1587,
+         "tw" : "興治",
+         "ukey" : "興治,1587",
+         "vi" : "Hưng Trị"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "洪寧",
+         "era_id" : 401,
+         "era_key" : "洪寧",
+         "name" : "洪寧",
+         "offset" : 1590,
+         "tw" : "洪寧",
+         "ukey" : "洪寧,1590",
+         "vi" : "Hồng Ninh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "武安",
+         "era_id" : 1255,
+         "era_key" : "武安",
+         "name" : "武安",
+         "offset" : 1591,
+         "tw" : "武安",
+         "ukey" : "武安,1591",
+         "vi" : "Vũ An"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "寶定",
+         "era_id" : 324,
+         "era_key" : "寶定",
+         "name" : "寶定",
+         "offset" : 1591,
+         "tw" : "寶定",
+         "ukey" : "寶定,1591",
+         "vi" : "Bảo Định"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "康祐",
+         "era_id" : 1350,
+         "era_key" : "康佑",
+         "name" : "康祐",
+         "offset" : 1592,
+         "tw" : "康祐",
+         "ukey" : "康祐,1592",
+         "vi" : "Khang Hựu"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "乾統",
+         "era_id" : 920,
+         "era_key" : "乾統(癸巳)",
+         "name" : "乾統",
+         "offset" : 1592,
+         "tw" : "乾統",
+         "ukey" : "乾統,1592",
+         "vi" : "Càn Thống"
+      },
+      {
+         "_possibles" : [
+            [
+               1435,
+               "隆泰",
+               1593
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "隆泰",
+         "name" : "隆泰",
+         "offset" : 1622,
+         "tw" : "隆泰",
+         "ukey" : "隆泰,1622",
+         "vi" : "Long Thái"
+      },
+      {
+         "_possibles" : [
+            [
+               316,
+               "順德(己卯)",
+               1518
+            ],
+            [
+               1457,
+               "順德",
+               967
+            ],
+            [
+               1662,
+               "順德(戊辰)",
+               1627
+            ],
+            [
+               1667,
+               "順德(段思曠)",
+               null
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "順德",
+         "name" : "順德",
+         "offset" : 1637,
+         "tw" : "順德",
+         "ukey" : "順德,1637",
+         "vi" : "Thuận Đức"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "元和",
+         "era_id" : 272,
+         "era_key" : "元和(癸巳)",
+         "name" : "元和",
+         "offset" : 1532,
+         "tw" : "元和",
+         "ukey" : "元和,1532",
+         "vi" : "Nguyên Hòa"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "順平",
+         "era_id" : 955,
+         "era_key" : "順平",
+         "name" : "順平",
+         "offset" : 1548,
+         "tw" : "順平",
+         "ukey" : "順平,1548",
+         "vi" : "Thuận Bình"
+      },
+      {
+         "_possibles" : [
+            [
+               115,
+               "天祐(大理國)",
+               1090
+            ],
+            [
+               203,
+               "天祐",
+               903
+            ],
+            [
+               354,
+               "天祐垂聖",
+               1049
+            ],
+            [
+               802,
+               "天祐(甲午)",
+               1353
+            ],
+            [
+               1179,
+               "天祐(乞奴)",
+               1215
+            ],
+            [
+               1265,
+               "天祐(丁巳)",
+               1556
+            ],
+            [
+               2072,
+               "天祐(壬申)",
+               1091
+            ],
+            [
+               2141,
+               "天祐(癸巳)",
+               1352
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "天祐",
+         "name" : "天祐",
+         "offset" : 1555,
+         "tw" : "天祐",
+         "ukey" : "天祐,1555",
+         "vi" : "Thiên Hựu"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "正治",
+         "era_id" : 1473,
+         "era_key" : "正治(戊午)",
+         "name" : "正治",
+         "offset" : 1557,
+         "tw" : "正治",
+         "ukey" : "正治,1557",
+         "vi" : "Chính Trị"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "洪福",
+         "era_id" : 138,
+         "era_key" : "洪福",
+         "name" : "洪福",
+         "offset" : 1571,
+         "tw" : "洪福",
+         "ukey" : "洪福,1571",
+         "vi" : "Hồng Phúc"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "嘉泰",
+         "era_id" : 1386,
+         "era_key" : "嘉泰(癸酉)",
+         "name" : "嘉泰",
+         "offset" : 1572,
+         "tw" : "嘉泰",
+         "ukey" : "嘉泰,1572",
+         "vi" : "Gia Thái"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "光興",
+         "era_id" : 1487,
+         "era_key" : "光興(戊寅)",
+         "name" : "光興",
+         "offset" : 1577,
+         "tw" : "光興",
+         "ukey" : "光興,1577",
+         "vi" : "Quang Hưng"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "慎德",
+         "era_id" : 1559,
+         "era_key" : "慎德",
+         "name" : "慎德",
+         "offset" : 1599,
+         "tw" : "慎德",
+         "ukey" : "慎德,1599",
+         "vi" : "Thận Đức"
+      },
+      {
+         "_possibles" : [
+            [
+               1010,
+               "弘定",
+               1599
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "弘定",
+         "name" : "弘定",
+         "offset" : 1600,
+         "tw" : "弘定",
+         "ukey" : "弘定,1600",
+         "vi" : "Hoằng Định"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "永祚",
+         "era_id" : 249,
+         "era_key" : "永祚(己未)",
+         "name" : "永祚",
+         "offset" : 1618,
+         "tw" : "永祚",
+         "ukey" : "永祚,1618",
+         "vi" : "Vĩnh Tộ"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "德隆",
+         "era_id" : 1693,
+         "era_key" : "德隆",
+         "name" : "德隆",
+         "offset" : 1628,
+         "tw" : "德隆",
+         "ukey" : "德隆,1628",
+         "vi" : "Đức Long"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "陽和",
+         "era_id" : 1414,
+         "era_key" : "陽和",
+         "name" : "陽和",
+         "offset" : 1634,
+         "tw" : "陽和",
+         "ukey" : "陽和,1634",
+         "vi" : "Dương Hòa"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "福泰",
+         "era_id" : 1109,
+         "era_key" : "福泰",
+         "name" : "福泰",
+         "offset" : 1642,
+         "tw" : "福泰",
+         "ukey" : "福泰,1642",
+         "vi" : "Phúc Thái"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "慶德",
+         "era_id" : 532,
+         "era_key" : "慶德",
+         "name" : "慶德",
+         "offset" : 1648,
+         "tw" : "慶德",
+         "ukey" : "慶德,1648",
+         "vi" : "Khánh Đức"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "盛德",
+         "era_id" : 1244,
+         "era_key" : "盛德(癸巳)",
+         "name" : "盛德",
+         "offset" : 1652,
+         "tw" : "盛德",
+         "ukey" : "盛德,1652",
+         "vi" : "Thịnh Đức"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "永壽",
+         "era_id" : 1644,
+         "era_key" : "永壽(戊戌)",
+         "name" : "永壽",
+         "offset" : 1657,
+         "tw" : "永壽",
+         "ukey" : "永壽,1657",
+         "vi" : "Vĩnh Thọ"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "萬慶",
+         "era_id" : 566,
+         "era_key" : "萬慶",
+         "name" : "萬慶",
+         "offset" : 1661,
+         "tw" : "萬慶",
+         "ukey" : "萬慶,1661",
+         "vi" : "Vạn Khánh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "景治",
+         "era_id" : 1500,
+         "era_key" : "景治",
+         "name" : "景治",
+         "offset" : 1662,
+         "tw" : "景治",
+         "ukey" : "景治,1662",
+         "vi" : "Cảnh Trị"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "陽德",
+         "era_id" : 504,
+         "era_key" : "陽德",
+         "name" : "陽德",
+         "offset" : 1671,
+         "tw" : "陽德",
+         "ukey" : "陽德,1671",
+         "vi" : "Dương Đức"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "德元",
+         "era_id" : 1359,
+         "era_key" : "德元",
+         "name" : "德元",
+         "offset" : 1673,
+         "tw" : "德元",
+         "ukey" : "德元,1673",
+         "vi" : "Đức Nguyên"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "永治",
+         "era_id" : 164,
+         "era_key" : "永治(丙辰)",
+         "name" : "永治",
+         "offset" : 1675,
+         "tw" : "永治",
+         "ukey" : "永治,1675",
+         "vi" : "Vĩnh Trị"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "正和",
+         "era_id" : 95,
+         "era_key" : "正和(庚申)",
+         "name" : "正和",
+         "offset" : 1679,
+         "tw" : "正和",
+         "ukey" : "正和,1679",
+         "vi" : "Chính Hòa"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "永盛",
+         "era_id" : 883,
+         "era_key" : "永盛",
+         "name" : "永盛",
+         "offset" : 1704,
+         "tw" : "永盛",
+         "ukey" : "永盛,1704",
+         "vi" : "Vĩnh Thịnh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "保泰",
+         "era_id" : 919,
+         "era_key" : "保泰",
+         "name" : "保泰",
+         "offset" : 1719,
+         "tw" : "保泰",
+         "ukey" : "保泰,1719",
+         "vi" : "Bảo Thái"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "永慶",
+         "era_id" : 1546,
+         "era_key" : "永慶",
+         "name" : "永慶",
+         "offset" : 1728,
+         "tw" : "永慶",
+         "ukey" : "永慶,1728",
+         "vi" : "Vĩnh Khánh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "龍德",
+         "era_id" : 1451,
+         "era_key" : "龍德(壬子)",
+         "name" : "龍德",
+         "offset" : 1731,
+         "tw" : "龍德",
+         "ukey" : "龍德,1731",
+         "vi" : "Long Đức"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "永祐",
+         "era_id" : 941,
+         "era_key" : "永佑",
+         "name" : "永祐",
+         "offset" : 1734,
+         "tw" : "永祐",
+         "ukey" : "永祐,1734",
+         "vi" : "Vĩnh Hựu"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "景興",
+         "era_id" : 559,
+         "era_key" : "景興",
+         "name" : "景興",
+         "offset" : 1739,
+         "tw" : "景興",
+         "ukey" : "景興,1739",
+         "vi" : "Cảnh Hưng"
+      },
+      {
+         "_possibles" : [
+            [
+               1231,
+               "昭統",
+               1786
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "昭統",
+         "name" : "昭統",
+         "offset" : 1785,
+         "tw" : "昭統",
+         "ukey" : "昭統,1785",
+         "vi" : "Chiêu Thống"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "泰德",
+         "era_id" : 1224,
+         "era_key" : "泰德",
+         "name" : "泰德",
+         "offset" : 1777,
+         "tw" : "泰德",
+         "ukey" : "泰德,1777",
+         "vi" : "Thái Đức"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "光中",
+         "era_id" : 351,
+         "era_key" : "光中",
+         "name" : "光中",
+         "offset" : 1787,
+         "tw" : "光中",
+         "ukey" : "光中,1787",
+         "vi" : "Quang Trung"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "景盛",
+         "era_id" : 411,
+         "era_key" : "景盛",
+         "name" : "景盛",
+         "offset" : 1792,
+         "tw" : "景盛",
+         "ukey" : "景盛,1792",
+         "vi" : "Cảnh Thịnh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "寶興",
+         "era_id" : 242,
+         "era_key" : "寶興",
+         "name" : "寶興",
+         "offset" : 1800,
+         "tw" : "寶興",
+         "ukey" : "寶興,1800",
+         "vi" : "Bảo Hưng"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "嘉隆",
+         "era_id" : 1205,
+         "era_key" : "嘉隆",
+         "name" : "嘉隆",
+         "offset" : 1801,
+         "tw" : "嘉隆",
+         "ukey" : "嘉隆,1801",
+         "vi" : "Gia Long"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "明命",
+         "era_id" : 1710,
+         "era_key" : "明命",
+         "name" : "明命",
+         "offset" : 1819,
+         "tw" : "明命",
+         "ukey" : "明命,1819",
+         "vi" : "Minh Mạng"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "紹治",
+         "era_id" : 742,
+         "era_key" : "紹治",
+         "name" : "紹治",
+         "offset" : 1840,
+         "tw" : "紹治",
+         "ukey" : "紹治,1840",
+         "vi" : "Thiệu Trị"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "嗣德",
+         "era_id" : 1567,
+         "era_key" : "嗣德",
+         "name" : "嗣德",
+         "offset" : 1847,
+         "tw" : "嗣德",
+         "ukey" : "嗣德,1847",
+         "vi" : "Tự Đức"
+      },
+      {
+         "_possibles" : [
+            [
+               1248,
+               "協和",
+               1883
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "協和",
+         "name" : "協和",
+         "offset" : 1882,
+         "tw" : "協和",
+         "ukey" : "協和,1882",
+         "vi" : "Hiệp Hòa"
+      },
+      {
+         "_possibles" : [
+            [
+               229,
+               "建福(甲辰)",
+               583
+            ],
+            [
+               569,
+               "建福(甲申)",
+               1883
+            ],
+            [
+               806,
+               "建福",
+               1121
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "建福",
+         "name" : "建福",
+         "offset" : 1882,
+         "tw" : "建福",
+         "ukey" : "建福,1882",
+         "vi" : "Kiến Phúc"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "咸宜",
+         "era_id" : 1517,
+         "era_key" : "咸宜",
+         "name" : "咸宜",
+         "offset" : 1884,
+         "tw" : "咸宜",
+         "ukey" : "咸宜,1884",
+         "vi" : "Hàm Nghi"
+      },
+      {
+         "_possibles" : [
+            [
+               1013,
+               "同慶",
+               911
+            ],
+            [
+               1531,
+               "同慶(乙酉)",
+               1884
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "同慶",
+         "name" : "同慶",
+         "offset" : 1885,
+         "tw" : "同慶",
+         "ukey" : "同慶,1885",
+         "vi" : "Đồng Khánh"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "成泰",
+         "era_id" : 116,
+         "era_key" : "成泰",
+         "name" : "成泰",
+         "offset" : 1888,
+         "tw" : "成泰",
+         "ukey" : "成泰,1888",
+         "vi" : "Thành Thái"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "維新",
+         "era_id" : 1411,
+         "era_key" : "維新",
+         "name" : "維新",
+         "offset" : 1906,
+         "tw" : "維新",
+         "ukey" : "維新,1906",
+         "vi" : "Duy Tân"
+      },
+      {
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
+         "cn" : "啓定",
+         "era_id" : 131,
+         "era_key" : "啟定",
+         "name" : "啓定",
+         "offset" : 1915,
+         "tw" : "啓定",
+         "ukey" : "啓定,1915",
+         "vi" : "Khải Định"
+      },
+      {
+         "_possibles" : [
+            [
+               277,
+               "保大(丙寅)",
+               1925
+            ],
+            [
+               925,
+               "保大",
+               942
+            ],
+            [
+               1634,
+               "保大(辛丑)",
+               1120
+            ]
+         ],
+         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "cn" : "保大",
+         "name" : "保大",
+         "offset" : 1924,
+         "tw" : "保大",
+         "ukey" : "保大,1924",
+         "vi" : "Bảo Đại"
+      }
+   ],
+   "page_name" : "Niên hiệu Việt Nam",
+   "wref_key" : "wref_vi"
+}

@@ -228,6 +228,16 @@ sub nymmd2jd ($$$$$) {
     $g = '漢';
   }
 
+  if ($g eq '越南') {
+    if ($y > 1644 ) {
+      $g = '清';
+    } elsif ($y > 1279) {
+      $g = '元';
+    } else {
+      $g = '宋';
+    }
+  }
+
   my $kmap = get_kmap ($g);
 
   my $gr;
@@ -495,9 +505,12 @@ sub ssday ($$) {
   if ($tag_ids->{1008} or # 中国
       $tag_ids->{1086} or # 蒙古
       $tag_ids->{1084} or # 後金
-      $tag_ids->{1009}) { # 漢土
+      $tag_ids->{1009} or # 漢土
+      $tag_ids->{2084}) { # 越南
     if ($y >= 1912) {
-      $day->{nongli_tiger} = ymmd2string gymd2nymmd '中華民国', $y, $m, $d;
+      unless ($tag_ids->{2084}) { # 越南
+        $day->{nongli_tiger} = ymmd2string gymd2nymmd '中華民国', $y, $m, $d;
+      }
     } elsif ($y >= 1645+1) {
       $day->{nongli_tiger} = ymmd2string gymd2nymmd '清', $y, $m, $d;
     } elsif ($y >= 1367) {
@@ -646,6 +659,12 @@ sub extract_day_year ($$) {
     }
   }
 
+  if ($tag_ids->{2084}) { # 越南
+    if (defined $day->{nongli_tiger}) {
+      return parse_ystring $day->{nongli_tiger};
+    }
+  }
+
   if ($tag_ids->{1003} and # 日本
       not $tag_ids->{1344}) { # グレゴリオ暦
     if (defined $day->{kyuureki}) {
@@ -724,7 +743,7 @@ sub parse_date ($$;%) {
       push @jd, gymd2jd parse_year ($1), $2, $3;
     } elsif ($v =~ s{^j:((?:-|BC|)[0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
       push @jd, jymd2jd parse_year ($1), $2, $3;
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|東魏|隋|唐|宋|遼|金|元|明|清|中華人民共和国):((?:-|BC|)[0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|東魏|隋|唐|宋|遼|金|元|明|清|中華人民共和国|越南):((?:-|BC|)[0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
       push @jd, nymmd2jd $1, parse_year ($2), $4, $5, $6;
       push @jd, nymmk2jd $1, parse_year ($2), $4, $5, $7;
       if (defined $3) {
@@ -734,11 +753,11 @@ sub parse_date ($$;%) {
           die "Year mismatch ($ky1 vs $ky2) |$all|";
         }
       }
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|東魏|隋|唐|宋|遼|金|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|東魏|隋|唐|宋|遼|金|元|明|清|中華人民共和国|越南|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
       push @jd, nymmd2jd $1, parse_year ($2), $3, $4, $5;
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|東魏|隋|唐|宋|遼|金|元|明|清|中華人民共和国):((?:-|BC|)[0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|東魏|隋|唐|宋|遼|金|元|明|清|中華人民共和国|越南):((?:-|BC|)[0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
       push @jd, nymmk2jd $1, parse_year ($2), $3, $4, $5;
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|東魏|隋|唐|宋|遼|金|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|東魏|隋|唐|宋|遼|金|元|明|清|中華人民共和国|越南|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, parse_year ($2), $3, $4, 1;
       } elsif ($args{end}) {
@@ -760,7 +779,7 @@ sub parse_date ($$;%) {
       } else {
         die "Bad date |$v| ($all)";
       }
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|南|北魏|東魏|晋|隋|唐|宋|遼|金|元|明|清|中華人民共和国|k):((?:-|BC|)[0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|南|北魏|東魏|晋|隋|唐|宋|遼|金|元|明|清|中華人民共和国|越南|k):((?:-|BC|)[0-9]+)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, parse_year ($2), 1, '', 1;
       } elsif ($args{end}) {
@@ -861,9 +880,9 @@ for my $tr (@$Input) {
 
     $v =~ s/\s+$//;
     while (1) {
-      if ($v =~ s{\s*#([\w_()]+)$}{}) {
+      if ($v =~ s{\s*#([\w_()\x{20000}-\x{3FFFF}]+)$}{}) {
         set_object_tag $x, $1;
-      } elsif ($v =~ s{\s*#([\w_()]+)\{([#\w_()\s]*)(?:,([#\w_()\s]*)|)\}$}{}) {
+      } elsif ($v =~ s{\s*#([\w_()\x{20000}-\x{3FFFF}]+)\{([#\w_()\x{20000}-\x{3FFFF}\s]*)(?:,([#\w_()\x{20000}-\x{3FFFF}\s]*)|)\}$}{}) {
         my $tags = $2;
         my $tags2 = $3;
         my $t1 = $1;
@@ -876,7 +895,7 @@ for my $tr (@$Input) {
         $x->{action_tag_id} = $tag->{id};
         my $param_tags = {};
         {
-          while ($tags =~ s{\s*#([\w_()]+)$}{}) {
+          while ($tags =~ s{\s*#([\w_()\x{20000}-\x{3FFFF}]+)$}{}) {
             my $t1 = $1;
             $t1 =~ s/_/ /g;
             my $tag = $TagByKey->{$t1};
@@ -919,7 +938,7 @@ for my $tr (@$Input) {
           die "Bad tags |$tags|" if length $tags;
         }
         if (defined $tags2) {
-          while ($tags2 =~ s{\s*#([\w_()]+)$}{}) {
+          while ($tags2 =~ s{\s*#([\w_()\x{20000}-\x{3FFFF}]+)$}{}) {
             my $t1 = $1;
             $t1 =~ s/_/ /g;
             my $tag = $TagByKey->{$t1};
@@ -932,6 +951,7 @@ for my $tr (@$Input) {
                 $tag->{type} eq 'org') {
               $x->{object_tag_ids}->{$tag->{id}} = 1;
             } else {
+              #warn perl2json_bytes $x;
               die "Bad parameter tag: |$t1| (type: $tag->{type})";
             }
           }
@@ -1128,6 +1148,11 @@ for (@$Transitions) {
     }
   } elsif ($x->{tag_ids}->{1339}) { # 行政異動
     $type = 'administrative';
+    if ($x->{tag_ids}->{1200}) { # 旧説
+      $type .= '/incorrect';
+    } elsif ($x->{tag_ids}->{1198}) { # 異説
+      $type .= '/possible';
+    }
   } elsif ($x->{tag_ids}->{1338}) { # 通知受領
     $type = 'received';
   } elsif ($x->{tag_ids}->{1337}) { # 通知発出

@@ -1,0 +1,5051 @@
+{
+   "_errors" : [
+      [
+         "Era mapping is missing",
+         "延壽,450",
+         "Goguryeo"
+      ],
+      [
+         "Era mapping is missing",
+         "永康",
+         "Goguryeo"
+      ],
+      [
+         "Era mapping is missing",
+         "建興",
+         "Goguryeo"
+      ],
+      [
+         "Era mapping is missing",
+         "鴻濟,571",
+         "Silla"
+      ],
+      [
+         "Era mapping is missing",
+         "仁平,633",
+         "Silla"
+      ],
+      [
+         "Era not found",
+         "水德萬歲,910"
+      ],
+      [
+         "Era not found",
+         "峻豊,959"
+      ],
+      [
+         "Era mapping is missing",
+         "開國,1893",
+         "Joseon"
+      ],
+      [
+         "Era mapping is missing",
+         "大韓民國,1947",
+         "Republic_of_Korea"
+      ],
+      [
+         "Era mapping is missing",
+         "檀君紀元,1947",
+         "Republic_of_Korea"
+      ],
+      [
+         "Era mapping is missing",
+         "西曆紀元,1961",
+         "Republic_of_Korea"
+      ],
+      [
+         "Era not found",
+         "主體,1911"
+      ]
+   ],
+   "eras" : [
+      {
+         "caption" : "Goguryeo",
+         "en" : "Yeonglak",
+         "era_id" : 389,
+         "era_key" : "永樂(辛卯)",
+         "hangul" : "영락",
+         "name" : "永樂",
+         "offset" : 390,
+         "tw" : "永樂",
+         "ukey" : "永樂,390"
+      },
+      {
+         "_possibles" : [
+            [
+               247,
+               "延寿",
+               1867
+            ],
+            [
+               1372,
+               "延壽(甲申)",
+               623
+            ],
+            [
+               1664,
+               "延壽(高句麗)",
+               null
+            ]
+         ],
+         "caption" : "Goguryeo",
+         "en" : "Yeonsu",
+         "hangul" : "연수",
+         "name" : "延壽",
+         "offset" : 450,
+         "tw" : "延壽",
+         "ukey" : "延壽,450"
+      },
+      {
+         "_possibles" : [
+            [
+               78,
+               "永康(壬子)",
+               411
+            ],
+            [
+               465,
+               "永康",
+               166
+            ],
+            [
+               484,
+               "永康(庚申)",
+               299
+            ],
+            [
+               747,
+               "永康(高句麗)",
+               null
+            ],
+            [
+               779,
+               "承康",
+               397
+            ],
+            [
+               1296,
+               "永康(甲辰)",
+               463
+            ],
+            [
+               1446,
+               "永康(丙申)",
+               395
+            ],
+            [
+               2002,
+               "永康(丙午)",
+               465
+            ]
+         ],
+         "caption" : "Goguryeo",
+         "en" : "Yeonggang",
+         "hangul" : "영강",
+         "name" : "永康",
+         "tw" : "永康",
+         "ukey" : "永康"
+      },
+      {
+         "_possibles" : [
+            [
+               124,
+               "建興",
+               222
+            ],
+            [
+               359,
+               "建興(己亥)",
+               818
+            ],
+            [
+               716,
+               "建興(壬申)",
+               251
+            ],
+            [
+               730,
+               "建興(高句麗)",
+               null
+            ],
+            [
+               880,
+               "建興(丙戌)",
+               385
+            ],
+            [
+               1112,
+               "建興(癸酉)",
+               312
+            ],
+            [
+               1507,
+               "建興(甲子)",
+               303
+            ],
+            [
+               2028,
+               "建興(戊戌)",
+               817
+            ]
+         ],
+         "caption" : "Goguryeo",
+         "en" : "Geonheung",
+         "hangul" : "건흥",
+         "name" : "建興",
+         "tw" : "建興",
+         "ukey" : "建興"
+      },
+      {
+         "caption" : "Goguryeo",
+         "en" : "Yeon-ga",
+         "era_id" : 1184,
+         "era_key" : "延嘉",
+         "hangul" : "연가",
+         "name" : "延嘉",
+         "tw" : "延嘉",
+         "ukey" : "延嘉"
+      },
+      {
+         "caption" : "Silla",
+         "en" : "Geon-won",
+         "era_id" : 529,
+         "era_key" : "建元(丙辰)",
+         "hangul" : "건원",
+         "name" : "建元",
+         "offset" : 535,
+         "tw" : "建元",
+         "ukey" : "建元,535"
+      },
+      {
+         "caption" : "Silla",
+         "en" : "Gaeguk",
+         "era_id" : 1268,
+         "era_key" : "開國(辛未)",
+         "hangul" : "개국",
+         "name" : "開國",
+         "offset" : 550,
+         "tw" : "開國",
+         "ukey" : "開國,550"
+      },
+      {
+         "caption" : "Silla",
+         "en" : "Daechang",
+         "era_id" : 105,
+         "era_key" : "大昌",
+         "hangul" : "대창",
+         "name" : "大昌",
+         "offset" : 567,
+         "tw" : "大昌",
+         "ukey" : "大昌,567"
+      },
+      {
+         "_possibles" : [
+            [
+               967,
+               "鴻濟",
+               null
+            ]
+         ],
+         "caption" : "Silla",
+         "en" : "Hongje",
+         "hangul" : "홍제",
+         "name" : "鴻濟",
+         "offset" : 571,
+         "tw" : "鴻濟",
+         "ukey" : "鴻濟,571"
+      },
+      {
+         "caption" : "Silla",
+         "en" : "Geonbok",
+         "era_id" : 229,
+         "era_key" : "建福(甲辰)",
+         "hangul" : "건복",
+         "name" : "建福",
+         "offset" : 583,
+         "tw" : "建福",
+         "ukey" : "建福,583"
+      },
+      {
+         "_possibles" : [
+            [
+               369,
+               "仁平(新羅)",
+               null
+            ],
+            [
+               1194,
+               "仁平",
+               1150
+            ]
+         ],
+         "caption" : "Silla",
+         "en" : "Inpyeong",
+         "hangul" : "인평",
+         "name" : "仁平",
+         "offset" : 633,
+         "tw" : "仁平",
+         "ukey" : "仁平,633"
+      },
+      {
+         "caption" : "Silla",
+         "en" : "Taehwa",
+         "era_id" : 270,
+         "era_key" : "太和(丁未)",
+         "hangul" : "태화",
+         "name" : "太和",
+         "offset" : 646,
+         "tw" : "太和",
+         "ukey" : "太和,646"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Yeonghwi",
+         "en2" : "Yonghui",
+         "era_id" : 422,
+         "era_key" : "永徽",
+         "hangul" : "영휘",
+         "name" : "永徽",
+         "offset" : 649,
+         "tw" : "永徽",
+         "ukey" : "永徽,649"
+      },
+      {
+         "_possibles" : [
+            [
+               422,
+               "永徽",
+               649
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Yeonghwi",
+         "en2" : "Yonghui",
+         "hangul" : "영휘",
+         "name" : "永徽",
+         "offset" : 653,
+         "tw" : "永徽",
+         "ukey" : "永徽,653"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Hyeongyeong",
+         "en2" : "Xianqing",
+         "era_id" : 724,
+         "era_key" : "顯慶",
+         "hangul" : "현경",
+         "name" : "顯慶",
+         "offset" : 655,
+         "tw" : "顯慶",
+         "ukey" : "顯慶,655"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Yongsag",
+         "en2" : "Longshuo",
+         "era_id" : 205,
+         "era_key" : "龍朔",
+         "hangul" : "용삭",
+         "name" : "龍朔",
+         "offset" : 660,
+         "tw" : "龍朔",
+         "ukey" : "龍朔,660"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Yongsak",
+         "en2" : "Longshuo",
+         "era_id" : 205,
+         "era_key" : "龍朔",
+         "hangul" : "용삭",
+         "name" : "龍朔",
+         "offset" : 660,
+         "tw" : "龍朔",
+         "ukey" : "龍朔,660"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Indeog",
+         "en2" : "Linde",
+         "era_id" : 1192,
+         "era_key" : "麟德",
+         "hangul" : "인덕",
+         "name" : "麟德",
+         "offset" : 663,
+         "tw" : "麟德",
+         "ukey" : "麟德,663"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Geonbong",
+         "en2" : "Qianfeng",
+         "era_id" : 377,
+         "era_key" : "乾封",
+         "hangul" : "건봉",
+         "name" : "乾封",
+         "offset" : 665,
+         "tw" : "乾封",
+         "ukey" : "乾封,665"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Chongjang",
+         "en2" : "Zongzhang",
+         "era_id" : 1272,
+         "era_key" : "總章",
+         "hangul" : "총장",
+         "name" : "總章",
+         "offset" : 667,
+         "tw" : "總章",
+         "ukey" : "總章,667"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Hamhyeong",
+         "en2" : "Xianheng",
+         "era_id" : 245,
+         "era_key" : "咸亨",
+         "hangul" : "함형",
+         "name" : "咸亨",
+         "offset" : 669,
+         "tw" : "咸亨",
+         "ukey" : "咸亨,669"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Sang-won",
+         "en2" : "Shangyuan",
+         "era_id" : 1212,
+         "era_key" : "上元",
+         "hangul" : "상원",
+         "name" : "上元",
+         "offset" : 673,
+         "tw" : "上元",
+         "ukey" : "上元,673"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Uibong",
+         "en2" : "Yifeng",
+         "era_id" : 824,
+         "era_key" : "儀鳳",
+         "hangul" : "의봉",
+         "name" : "儀鳳",
+         "offset" : 675,
+         "tw" : "儀鳳",
+         "ukey" : "儀鳳,675"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Jolo",
+         "en2" : "Tiaolu",
+         "era_id" : 770,
+         "era_key" : "調露",
+         "hangul" : "조로",
+         "name" : "調露",
+         "offset" : 678,
+         "tw" : "調露",
+         "ukey" : "調露,678"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Yeonglyung",
+         "en2" : "Yonglong",
+         "era_id" : 1445,
+         "era_key" : "永隆",
+         "hangul" : "영륭",
+         "name" : "永隆",
+         "offset" : 679,
+         "tw" : "永隆",
+         "ukey" : "永隆,679"
+      },
+      {
+         "_possibles" : [
+            [
+               930,
+               "永隆(戊寅)",
+               617
+            ],
+            [
+               1079,
+               "永隆(己亥)",
+               938
+            ],
+            [
+               1445,
+               "永隆",
+               679
+            ],
+            [
+               1890,
+               "永隆(丁丑)",
+               616
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Yeonglyung",
+         "en2" : "Yonglong",
+         "hangul" : "영륭",
+         "name" : "永隆",
+         "offset" : 680,
+         "tw" : "永隆",
+         "ukey" : "永隆,680"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gaeyo",
+         "en2" : "Kaiyao",
+         "era_id" : 594,
+         "era_key" : "開耀",
+         "hangul" : "개요",
+         "name" : "開耀",
+         "offset" : 680,
+         "tw" : "開耀",
+         "ukey" : "開耀,680"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Yeongsun",
+         "en2" : "Yongchun",
+         "era_id" : 1264,
+         "era_key" : "永淳",
+         "hangul" : "영순",
+         "name" : "永淳",
+         "offset" : 681,
+         "tw" : "永淳",
+         "ukey" : "永淳,681"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Hongdo",
+         "en2" : "Hongdao",
+         "era_id" : 1157,
+         "era_key" : "弘道",
+         "hangul" : "홍도",
+         "name" : "弘道",
+         "offset" : 682,
+         "tw" : "弘道",
+         "ukey" : "弘道,682"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Saseong",
+         "en2" : "Sisheng",
+         "era_id" : 1630,
+         "era_key" : "嗣聖",
+         "hangul" : "사성",
+         "name" : "嗣聖",
+         "offset" : 683,
+         "tw" : "嗣聖",
+         "ukey" : "嗣聖,683"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Munmyeong",
+         "en2" : "Wenming",
+         "era_id" : 1657,
+         "era_key" : "文明(甲申)",
+         "hangul" : "문명",
+         "name" : "文明",
+         "offset" : 683,
+         "tw" : "文明",
+         "ukey" : "文明,683"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Sugong",
+         "en2" : "Chuigong",
+         "era_id" : 1481,
+         "era_key" : "垂拱",
+         "hangul" : "수공",
+         "name" : "垂拱",
+         "offset" : 684,
+         "tw" : "垂拱",
+         "ukey" : "垂拱,684"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Yeongchang",
+         "en2" : "Yongchang",
+         "era_id" : 1365,
+         "era_key" : "永昌(己丑)",
+         "hangul" : "영창",
+         "name" : "永昌",
+         "offset" : 688,
+         "tw" : "永昌",
+         "ukey" : "永昌,688"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Jaecho",
+         "en2" : "Zaichu",
+         "era_id" : 1892,
+         "era_key" : "載初(己丑)",
+         "hangul" : "재초",
+         "name" : "載初",
+         "offset" : 688,
+         "tw" : "載初",
+         "ukey" : "載初,688"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Cheonsu",
+         "en2" : "Tianshou",
+         "era_id" : 505,
+         "era_key" : "天授(庚寅)",
+         "hangul" : "천수",
+         "name" : "天授",
+         "offset" : 689,
+         "tw" : "天授",
+         "ukey" : "天授,689"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Yeoui",
+         "en2" : "Ruyi",
+         "era_id" : 1574,
+         "era_key" : "如意",
+         "hangul" : "여의",
+         "name" : "如意",
+         "offset" : 691,
+         "tw" : "如意",
+         "ukey" : "如意,691"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Yeoui",
+         "en2" : "Ruyi",
+         "era_id" : 1574,
+         "era_key" : "如意",
+         "hangul" : "여의",
+         "name" : "如意",
+         "offset" : 691,
+         "tw" : "如意",
+         "ukey" : "如意,691"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Jangsu",
+         "en2" : "Changshou",
+         "era_id" : 409,
+         "era_key" : "長壽",
+         "hangul" : "장수",
+         "name" : "長壽",
+         "offset" : 691,
+         "tw" : "長壽",
+         "ukey" : "長壽,691"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Yeonjae",
+         "en2" : "Yanzai",
+         "era_id" : 291,
+         "era_key" : "延載",
+         "hangul" : "연재",
+         "name" : "延載",
+         "offset" : 693,
+         "tw" : "延載",
+         "ukey" : "延載,693"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Jeungseong",
+         "en2" : "Zhengsheng",
+         "era_id" : 1291,
+         "era_key" : "証聖",
+         "hangul" : "증성",
+         "name" : "證聖",
+         "offset" : 694,
+         "tw" : "證聖",
+         "ukey" : "證聖,694"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Mansetongcheon",
+         "en2" : "Wansuitongtian",
+         "era_id" : 1016,
+         "era_key" : "萬歲通天",
+         "hangul" : "만세통천",
+         "name" : "萬歲通天",
+         "offset" : 695,
+         "tw" : "萬歲通天",
+         "ukey" : "萬歲通天,695"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Singong",
+         "en2" : "Shengong",
+         "era_id" : 775,
+         "era_key" : "神功",
+         "hangul" : "신공",
+         "name" : "神功",
+         "offset" : 696,
+         "tw" : "神功",
+         "ukey" : "神功,696"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Seonglyeog",
+         "en2" : "Shengli",
+         "era_id" : 906,
+         "era_key" : "聖曆",
+         "hangul" : "성력",
+         "name" : "聖曆",
+         "offset" : 697,
+         "tw" : "聖曆",
+         "ukey" : "聖曆,697"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gusi",
+         "en2" : "Jiushi",
+         "era_id" : 290,
+         "era_key" : "久視",
+         "hangul" : "구시",
+         "name" : "久視",
+         "offset" : 699,
+         "tw" : "久視",
+         "ukey" : "久視,699"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Daejok",
+         "en2" : "Dazu",
+         "era_id" : 1154,
+         "era_key" : "大足",
+         "hangul" : "대족",
+         "name" : "大足",
+         "offset" : 700,
+         "tw" : "大足",
+         "ukey" : "大足,700"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Jang-an",
+         "en2" : "Chang'an",
+         "era_id" : 550,
+         "era_key" : "長安",
+         "hangul" : "장안",
+         "name" : "長安",
+         "offset" : 700,
+         "tw" : "長安",
+         "ukey" : "長安,700"
+      },
+      {
+         "_possibles" : [
+            [
+               550,
+               "長安",
+               700
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Jang-an",
+         "en2" : "Chang'an",
+         "hangul" : "장안",
+         "name" : "長安",
+         "offset" : 701,
+         "tw" : "長安",
+         "ukey" : "長安,701"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Sillyong",
+         "en2" : "Shenlong",
+         "era_id" : 285,
+         "era_key" : "神龍",
+         "hangul" : "신룡",
+         "name" : "神龍",
+         "offset" : 704,
+         "tw" : "神龍",
+         "ukey" : "神龍,704"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gyeonglyong",
+         "en2" : "Jinglong",
+         "era_id" : 1610,
+         "era_key" : "景龍",
+         "hangul" : "경룡",
+         "name" : "景龍",
+         "offset" : 706,
+         "tw" : "景龍",
+         "ukey" : "景龍,706"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Danglyung",
+         "en2" : "Tanglong",
+         "era_id" : 987,
+         "era_key" : "唐隆",
+         "hangul" : "당륭",
+         "name" : "唐隆",
+         "offset" : 709,
+         "tw" : "唐隆",
+         "ukey" : "唐隆,709"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gyeong-un",
+         "en2" : "Jingyun",
+         "era_id" : 1691,
+         "era_key" : "景雲",
+         "hangul" : "경운",
+         "name" : "景雲",
+         "offset" : 709,
+         "tw" : "景雲",
+         "ukey" : "景雲,709"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Taegeuk",
+         "en2" : "Taiji",
+         "era_id" : 746,
+         "era_key" : "太極",
+         "hangul" : "태극",
+         "name" : "太極",
+         "offset" : 711,
+         "tw" : "太極",
+         "ukey" : "太極,711"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Yeonhwa",
+         "en2" : "Yanhe",
+         "era_id" : 273,
+         "era_key" : "延和(壬子)",
+         "hangul" : "연화",
+         "name" : "延和",
+         "offset" : 711,
+         "tw" : "延和",
+         "ukey" : "延和,711"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gaewon",
+         "en2" : "Kaiyuan",
+         "era_id" : 1518,
+         "era_key" : "開元",
+         "hangul" : "개원",
+         "name" : "開元",
+         "offset" : 712,
+         "tw" : "開元",
+         "ukey" : "開元,712"
+      },
+      {
+         "_possibles" : [
+            [
+               1518,
+               "開元",
+               712
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gaewon",
+         "en2" : "Kaiyuan",
+         "hangul" : "개원",
+         "name" : "開元",
+         "offset" : 736,
+         "tw" : "開元",
+         "ukey" : "開元,736"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Cheonbo",
+         "en2" : "Tianbao",
+         "era_id" : 810,
+         "era_key" : "天寶",
+         "hangul" : "천보",
+         "name" : "天寶",
+         "offset" : 741,
+         "tw" : "天寶",
+         "ukey" : "天寶,741"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Cheonbo",
+         "en2" : "Tianbao",
+         "era_id" : 810,
+         "era_key" : "天寶",
+         "hangul" : "천보",
+         "name" : "天寶",
+         "offset" : 741,
+         "tw" : "天寶",
+         "ukey" : "天寶,741"
+      },
+      {
+         "_possibles" : [
+            [
+               443,
+               "至徳",
+               1383
+            ],
+            [
+               526,
+               "至德(高觀音自)",
+               1175
+            ],
+            [
+               1039,
+               "至德(丙申)",
+               755
+            ],
+            [
+               1105,
+               "至德(癸卯)",
+               582
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Jideok",
+         "en2" : "Zhide",
+         "hangul" : "지덕",
+         "name" : "至德",
+         "offset" : 756,
+         "tw" : "至德",
+         "ukey" : "至德,756"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Geon-won",
+         "en2" : "Qianyuan",
+         "era_id" : 579,
+         "era_key" : "乾元(戊戌)",
+         "hangul" : "건원",
+         "name" : "乾元",
+         "offset" : 757,
+         "tw" : "乾元",
+         "ukey" : "乾元,757"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Sang-won",
+         "en2" : "Shangyuan",
+         "era_id" : 1666,
+         "era_key" : "上元(庚子)",
+         "hangul" : "상원",
+         "name" : "上元",
+         "offset" : 759,
+         "tw" : "上元",
+         "ukey" : "上元,759"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Bo-eung",
+         "en2" : "Baoying",
+         "era_id" : 1599,
+         "era_key" : "寶應",
+         "hangul" : "보응",
+         "name" : "寶應",
+         "offset" : 761,
+         "tw" : "寶應",
+         "ukey" : "寶應,761"
+      },
+      {
+         "_possibles" : [
+            [
+               175,
+               "廣德",
+               762
+            ],
+            [
+               1066,
+               "廣德(癸丑)",
+               1672
+            ],
+            [
+               2053,
+               "廣德(大理)",
+               952
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gwangdeok",
+         "en2" : "Guangde",
+         "hangul" : "광덕",
+         "name" : "廣德",
+         "offset" : 763,
+         "tw" : "廣德",
+         "ukey" : "廣德,763"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Yeongtae",
+         "en2" : "Yongtai",
+         "era_id" : 835,
+         "era_key" : "永泰(乙巳)",
+         "hangul" : "영태",
+         "name" : "永泰",
+         "offset" : 764,
+         "tw" : "永泰",
+         "ukey" : "永泰,764"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Yeongtae",
+         "en2" : "Yongtai",
+         "era_id" : 835,
+         "era_key" : "永泰(乙巳)",
+         "hangul" : "영태",
+         "name" : "永泰",
+         "offset" : 764,
+         "tw" : "永泰",
+         "ukey" : "永泰,764"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Daelyeok",
+         "en2" : "Dali",
+         "era_id" : 769,
+         "era_key" : "大曆",
+         "hangul" : "대력",
+         "name" : "大曆",
+         "offset" : 765,
+         "tw" : "大曆",
+         "ukey" : "大曆,765"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Geonjung",
+         "en2" : "Jianzhong",
+         "era_id" : 322,
+         "era_key" : "建中",
+         "hangul" : "건중",
+         "name" : "建中",
+         "offset" : 779,
+         "tw" : "建中",
+         "ukey" : "建中,779"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Geonjung",
+         "en2" : "Jianzhong",
+         "era_id" : 322,
+         "era_key" : "建中",
+         "hangul" : "건중",
+         "name" : "建中",
+         "offset" : 779,
+         "tw" : "建中",
+         "ukey" : "建中,779"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Heung-won",
+         "en2" : "Xingyuan",
+         "era_id" : 1715,
+         "era_key" : "興元",
+         "hangul" : "흥원",
+         "name" : "興元",
+         "offset" : 783,
+         "tw" : "興元",
+         "ukey" : "興元,783"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Jeong-won",
+         "en2" : "Zhenyuan",
+         "era_id" : 1570,
+         "era_key" : "貞元(乙丑)",
+         "hangul" : "정원",
+         "name" : "貞元",
+         "offset" : 784,
+         "tw" : "貞元",
+         "ukey" : "貞元,784"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Jeong-won",
+         "en2" : "Zhenyuan",
+         "era_id" : 1570,
+         "era_key" : "貞元(乙丑)",
+         "hangul" : "정원",
+         "name" : "貞元",
+         "offset" : 784,
+         "tw" : "貞元",
+         "ukey" : "貞元,784"
+      },
+      {
+         "_possibles" : [
+            [
+               792,
+               "貞元(癸酉)",
+               1152
+            ],
+            [
+               1356,
+               "貞元",
+               975
+            ],
+            [
+               1570,
+               "貞元(乙丑)",
+               784
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Jeong-won",
+         "en2" : "Zhenyuan",
+         "hangul" : "정원",
+         "name" : "貞元",
+         "offset" : 798,
+         "tw" : "貞元",
+         "ukey" : "貞元,798"
+      },
+      {
+         "_possibles" : [
+            [
+               792,
+               "貞元(癸酉)",
+               1152
+            ],
+            [
+               1356,
+               "貞元",
+               975
+            ],
+            [
+               1570,
+               "貞元(乙丑)",
+               784
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Jeong-won",
+         "en2" : "Zhenyuan",
+         "hangul" : "정원",
+         "name" : "貞元",
+         "offset" : 799,
+         "tw" : "貞元",
+         "ukey" : "貞元,799"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Yeongjeong",
+         "en2" : "Yongzhen",
+         "era_id" : 476,
+         "era_key" : "永貞",
+         "hangul" : "영정",
+         "name" : "永貞",
+         "offset" : 804,
+         "tw" : "永貞",
+         "ukey" : "永貞,804"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Wonhwa",
+         "en2" : "Yuanhe",
+         "era_id" : 181,
+         "era_key" : "元和(丙戌)",
+         "hangul" : "원화",
+         "name" : "元和",
+         "offset" : 805,
+         "tw" : "元和",
+         "ukey" : "元和,805"
+      },
+      {
+         "_possibles" : [
+            [
+               181,
+               "元和(丙戌)",
+               805
+            ],
+            [
+               272,
+               "元和(癸巳)",
+               1532
+            ],
+            [
+               453,
+               "元和",
+               1614
+            ],
+            [
+               1581,
+               "元和(甲申)",
+               83
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Wonhwa",
+         "en2" : "Yuanhe",
+         "hangul" : "원화",
+         "name" : "元和",
+         "offset" : 808,
+         "tw" : "元和",
+         "ukey" : "元和,808"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Jang-gyeong",
+         "en2" : "Changqing",
+         "era_id" : 1118,
+         "era_key" : "長慶",
+         "hangul" : "장경",
+         "name" : "長慶",
+         "offset" : 820,
+         "tw" : "長慶",
+         "ukey" : "長慶,820"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Bolyeok",
+         "en2" : "Baoli",
+         "era_id" : 822,
+         "era_key" : "寶曆(乙巳)",
+         "hangul" : "보력",
+         "name" : "寶曆",
+         "offset" : 824,
+         "tw" : "寶曆",
+         "ukey" : "寶曆,824"
+      },
+      {
+         "_possibles" : [
+            [
+               822,
+               "寶曆(乙巳)",
+               824
+            ],
+            [
+               981,
+               "寶曆(甲寅)",
+               773
+            ],
+            [
+               1199,
+               "宝暦",
+               1750
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Bolyeog",
+         "en2" : "Baoli",
+         "hangul" : "보력",
+         "name" : "寶曆",
+         "offset" : 825,
+         "tw" : "寶曆",
+         "ukey" : "寶曆,825"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Daehwa",
+         "en2" : "Dahe",
+         "era_id" : 553,
+         "era_key" : "大和",
+         "hangul" : "대화",
+         "name" : "大和",
+         "offset" : 826,
+         "tw" : "大和",
+         "ukey" : "大和,826"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gaeseong",
+         "en2" : "Kaicheng",
+         "era_id" : 94,
+         "era_key" : "開成",
+         "hangul" : "개성",
+         "name" : "開成",
+         "offset" : 835,
+         "tw" : "開成",
+         "ukey" : "開成,835"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gaeseong",
+         "en2" : "Kaicheng",
+         "era_id" : 94,
+         "era_key" : "開成",
+         "hangul" : "개성",
+         "name" : "開成",
+         "offset" : 835,
+         "tw" : "開成",
+         "ukey" : "開成,835"
+      },
+      {
+         "_possibles" : [
+            [
+               94,
+               "開成",
+               835
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gaeseong",
+         "en2" : "Kaicheng",
+         "hangul" : "개성",
+         "name" : "開成",
+         "offset" : 837,
+         "tw" : "開成",
+         "ukey" : "開成,837"
+      },
+      {
+         "_possibles" : [
+            [
+               94,
+               "開成",
+               835
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gaeseong",
+         "en2" : "Kaicheng",
+         "hangul" : "개성",
+         "name" : "開成",
+         "offset" : 838,
+         "tw" : "開成",
+         "ukey" : "開成,838"
+      },
+      {
+         "_possibles" : [
+            [
+               94,
+               "開成",
+               835
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gaeseong",
+         "en2" : "Kaicheng",
+         "hangul" : "개성",
+         "name" : "開成",
+         "offset" : 838,
+         "tw" : "開成",
+         "ukey" : "開成,838"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Hoechang",
+         "en2" : "Huichang",
+         "era_id" : 616,
+         "era_key" : "會昌",
+         "hangul" : "회창",
+         "name" : "會昌",
+         "offset" : 840,
+         "tw" : "會昌",
+         "ukey" : "會昌,840"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Daejung",
+         "en2" : "Dazhong",
+         "era_id" : 1065,
+         "era_key" : "大中",
+         "hangul" : "대중",
+         "name" : "大中",
+         "offset" : 846,
+         "tw" : "大中",
+         "ukey" : "大中,846"
+      },
+      {
+         "_possibles" : [
+            [
+               1065,
+               "大中",
+               846
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Daejung",
+         "en2" : "Dazhong",
+         "hangul" : "대중",
+         "name" : "大中",
+         "offset" : 856,
+         "tw" : "大中",
+         "ukey" : "大中,856"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Hamtong",
+         "en2" : "Xiantong",
+         "era_id" : 939,
+         "era_key" : "咸通",
+         "hangul" : "함통",
+         "name" : "咸通",
+         "offset" : 859,
+         "tw" : "咸通",
+         "ukey" : "咸通,859"
+      },
+      {
+         "_possibles" : [
+            [
+               939,
+               "咸通",
+               859
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Hamtong",
+         "en2" : "Xiantong",
+         "hangul" : "함통",
+         "name" : "咸通",
+         "offset" : 860,
+         "tw" : "咸通",
+         "ukey" : "咸通,860"
+      },
+      {
+         "_possibles" : [
+            [
+               107,
+               "龍符",
+               1100
+            ],
+            [
+               1366,
+               "乾符",
+               873
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Geonbu",
+         "en2" : "Qianfu",
+         "hangul" : "건부",
+         "name" : "乾符",
+         "offset" : 874,
+         "tw" : "乾符",
+         "ukey" : "乾符,874"
+      },
+      {
+         "_possibles" : [
+            [
+               107,
+               "龍符",
+               1100
+            ],
+            [
+               1366,
+               "乾符",
+               873
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Geonbu",
+         "en2" : "Qianfu",
+         "hangul" : "건부",
+         "name" : "乾符",
+         "offset" : 874,
+         "tw" : "乾符",
+         "ukey" : "乾符,874"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gwangmyeong",
+         "en2" : "Guangming",
+         "era_id" : 398,
+         "era_key" : "廣明",
+         "hangul" : "광명",
+         "name" : "廣明",
+         "offset" : 879,
+         "tw" : "廣明",
+         "ukey" : "廣明,879"
+      },
+      {
+         "_possibles" : [
+            [
+               421,
+               "中和",
+               880
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Junghwa",
+         "en2" : "Zhonghe",
+         "hangul" : "중화",
+         "name" : "中和",
+         "offset" : 881,
+         "tw" : "中和",
+         "ukey" : "中和,881"
+      },
+      {
+         "_possibles" : [
+            [
+               1700,
+               "光啟",
+               884
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gwang-gye",
+         "en2" : "Guangqi",
+         "hangul" : "광계",
+         "name" : "光啓",
+         "offset" : 885,
+         "tw" : "光啓",
+         "ukey" : "光啓,885"
+      },
+      {
+         "_possibles" : [
+            [
+               1700,
+               "光啟",
+               884
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gwang-gye",
+         "en2" : "Guangqi",
+         "hangul" : "광계",
+         "name" : "光啓",
+         "offset" : 885,
+         "tw" : "光啓",
+         "ukey" : "光啓,885"
+      },
+      {
+         "_possibles" : [
+            [
+               1700,
+               "光啟",
+               884
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gwang-gye",
+         "en2" : "Guangqi",
+         "hangul" : "광계",
+         "name" : "光啓",
+         "offset" : 886,
+         "tw" : "光啓",
+         "ukey" : "光啓,886"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Mundeok",
+         "en2" : "Wende",
+         "era_id" : 1675,
+         "era_key" : "文德(戊申)",
+         "hangul" : "문덕",
+         "name" : "文德",
+         "offset" : 887,
+         "tw" : "文德",
+         "ukey" : "文德,887"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Yong-gi",
+         "en2" : "Longji",
+         "era_id" : 32,
+         "era_key" : "龍紀",
+         "hangul" : "광계",
+         "name" : "龍紀",
+         "offset" : 888,
+         "tw" : "龍紀",
+         "ukey" : "龍紀,888"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Daesun",
+         "en2" : "Dashun",
+         "era_id" : 521,
+         "era_key" : "大順",
+         "hangul" : "대순",
+         "name" : "大順",
+         "offset" : 889,
+         "tw" : "大順",
+         "ukey" : "大順,889"
+      },
+      {
+         "_possibles" : [
+            [
+               39,
+               "景福",
+               891
+            ],
+            [
+               356,
+               "景福(辛未)",
+               1030
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gyeongbok",
+         "en2" : "Jingfu",
+         "hangul" : "경복",
+         "name" : "景福",
+         "offset" : 892,
+         "tw" : "景福",
+         "ukey" : "景福,892"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Geonnyeong",
+         "en2" : "Qianning",
+         "era_id" : 289,
+         "era_key" : "乾寧",
+         "hangul" : "건녕",
+         "name" : "乾寧",
+         "offset" : 893,
+         "tw" : "乾寧",
+         "ukey" : "乾寧,893"
+      },
+      {
+         "_possibles" : [
+            [
+               289,
+               "乾寧",
+               893
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Geonnyeong",
+         "en2" : "Qianning",
+         "hangul" : "건녕",
+         "name" : "乾寧",
+         "offset" : 896,
+         "tw" : "乾寧",
+         "ukey" : "乾寧,896"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gwanghwa",
+         "en2" : "Guanghua",
+         "era_id" : 1699,
+         "era_key" : "光化",
+         "hangul" : "광화",
+         "name" : "光化",
+         "offset" : 897,
+         "tw" : "光化",
+         "ukey" : "光化,897"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Cheonbok",
+         "en2" : "Tianfu",
+         "era_id" : 1290,
+         "era_key" : "天復",
+         "hangul" : "천복",
+         "name" : "天復",
+         "offset" : 900,
+         "tw" : "天復",
+         "ukey" : "天復,900"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Cheon-u",
+         "en2" : "Tianyou",
+         "era_id" : 203,
+         "era_key" : "天祐",
+         "hangul" : "천우",
+         "name" : "天祐",
+         "offset" : 903,
+         "tw" : "天祐",
+         "ukey" : "天祐,903"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Gaepyeong",
+         "en2" : "Kaiping",
+         "era_id" : 479,
+         "era_key" : "開平",
+         "hangul" : "개평",
+         "name" : "開平",
+         "offset" : 906,
+         "tw" : "開平",
+         "ukey" : "開平,906"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Geonhwa",
+         "en2" : "Qianhua",
+         "era_id" : 143,
+         "era_key" : "乾化",
+         "hangul" : "건화",
+         "name" : "乾化",
+         "offset" : 910,
+         "tw" : "乾化",
+         "ukey" : "乾化,910"
+      },
+      {
+         "_possibles" : [
+            [
+               143,
+               "乾化",
+               910
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Geonhwa",
+         "en2" : "Qianhua",
+         "hangul" : "건화",
+         "name" : "乾化",
+         "offset" : 911,
+         "tw" : "乾化",
+         "ukey" : "乾化,911"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Bonglyeok",
+         "en2" : "Fengli",
+         "era_id" : 1447,
+         "era_key" : "鳳歷(癸酉)",
+         "hangul" : "봉력",
+         "name" : "鳳曆",
+         "offset" : 912,
+         "tw" : "鳳曆",
+         "ukey" : "鳳曆,912"
+      },
+      {
+         "_possibles" : [
+            [
+               143,
+               "乾化",
+               910
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Geonhwa",
+         "en2" : "Qianhua",
+         "hangul" : "건화",
+         "name" : "乾化",
+         "offset" : 912,
+         "tw" : "乾化",
+         "ukey" : "乾化,912"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Jeongmyeong",
+         "en2" : "Zhenming",
+         "era_id" : 1183,
+         "era_key" : "貞明(乙亥)",
+         "hangul" : "정명",
+         "name" : "貞明",
+         "offset" : 914,
+         "tw" : "貞明",
+         "ukey" : "貞明,914"
+      },
+      {
+         "_possibles" : [
+            [
+               800,
+               "貞明",
+               877
+            ],
+            [
+               1183,
+               "貞明(乙亥)",
+               914
+            ],
+            [
+               2049,
+               "貞明(丁酉)",
+               876
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Jeongmyeong",
+         "en2" : "Zhenming",
+         "hangul" : "정명",
+         "name" : "貞明",
+         "offset" : 916,
+         "tw" : "貞明",
+         "ukey" : "貞明,916"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Yongdeok",
+         "en2" : "Zhenming",
+         "era_id" : 1266,
+         "era_key" : "龍德",
+         "hangul" : "용덕",
+         "name" : "龍德",
+         "offset" : 920,
+         "tw" : "龍德",
+         "ukey" : "龍德,920"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Dong-gwang",
+         "en2" : "Tongguang",
+         "era_id" : 982,
+         "era_key" : "同光",
+         "hangul" : "동광",
+         "name" : "同光",
+         "offset" : 922,
+         "tw" : "同光",
+         "ukey" : "同光,922"
+      },
+      {
+         "_possibles" : [
+            [
+               982,
+               "同光",
+               922
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Dong-gwang",
+         "en2" : "Tongguang",
+         "hangul" : "동광",
+         "name" : "同光",
+         "offset" : 923,
+         "tw" : "同光",
+         "ukey" : "同光,923"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Cheonseong",
+         "en2" : "Tiancheng",
+         "era_id" : 1440,
+         "era_key" : "天成(丙戌)",
+         "hangul" : "천성",
+         "name" : "天成",
+         "offset" : 925,
+         "tw" : "天成",
+         "ukey" : "天成,925"
+      },
+      {
+         "_possibles" : [
+            [
+               188,
+               "天威",
+               1215
+            ],
+            [
+               407,
+               "天成",
+               554
+            ],
+            [
+               611,
+               "天德(丙子)",
+               1215
+            ],
+            [
+               1440,
+               "天成(丙戌)",
+               925
+            ],
+            [
+               1615,
+               "天成(戊辰)",
+               1027
+            ],
+            [
+               1683,
+               "天成(丁酉)",
+               756
+            ],
+            [
+               1885,
+               "天成(丙子)",
+               615
+            ],
+            [
+               1891,
+               "天成(戊寅)",
+               617
+            ],
+            [
+               1895,
+               "天成(戊戌)",
+               757
+            ]
+         ],
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Cheonseong",
+         "en2" : "Tiancheng",
+         "hangul" : "천성",
+         "name" : "天成",
+         "offset" : 926,
+         "tw" : "天成",
+         "ukey" : "天成,926"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Jangheung",
+         "en2" : "Changxing",
+         "era_id" : 1488,
+         "era_key" : "長興",
+         "hangul" : "장흥",
+         "name" : "長興",
+         "offset" : 929,
+         "tw" : "長興",
+         "ukey" : "長興,929"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Eungsun",
+         "en2" : "Yingshun",
+         "era_id" : 1545,
+         "era_key" : "應順",
+         "hangul" : "응순",
+         "name" : "應順",
+         "offset" : 933,
+         "tw" : "應順",
+         "ukey" : "應順,933"
+      },
+      {
+         "caption" : "Silla",
+         "dup" : 1,
+         "en" : "Cheongtae",
+         "en2" : "Qingtai",
+         "era_id" : 417,
+         "era_key" : "清泰",
+         "hangul" : "청태",
+         "name" : "淸泰",
+         "offset" : 933,
+         "tw" : "淸泰",
+         "ukey" : "淸泰,933"
+      },
+      {
+         "caption" : "Silla/misc",
+         "en" : "Gyeong-un",
+         "era_id" : 85,
+         "era_key" : "慶雲(壬寅)",
+         "hangul" : "경운",
+         "name" : "慶雲",
+         "offset" : 821,
+         "tw" : "慶雲",
+         "ukey" : "慶雲,821"
+      },
+      {
+         "caption" : "Balhae",
+         "en" : "Inan",
+         "era_id" : 1219,
+         "era_key" : "仁安(庚申)",
+         "hangul" : "인안",
+         "name" : "仁安",
+         "offset" : 719,
+         "tw" : "仁安",
+         "ukey" : "仁安,719"
+      },
+      {
+         "caption" : "Balhae",
+         "en" : "Daeheung",
+         "era_id" : 821,
+         "era_key" : "大興(戊寅)",
+         "hangul" : "대흥",
+         "name" : "大興",
+         "offset" : 737,
+         "tw" : "大興",
+         "ukey" : "大興,737"
+      },
+      {
+         "caption" : "Balhae",
+         "en" : "Boryeok",
+         "era_id" : 981,
+         "era_key" : "寶曆(甲寅)",
+         "hangul" : "보력",
+         "name" : "寶曆",
+         "offset" : 773,
+         "tw" : "寶曆",
+         "ukey" : "寶曆,773"
+      },
+      {
+         "caption" : "Balhae",
+         "en" : "Jungheung",
+         "era_id" : 380,
+         "era_key" : "中興(甲戌)",
+         "hangul" : "중흥",
+         "name" : "中興",
+         "offset" : 793,
+         "tw" : "中興",
+         "ukey" : "中興,793"
+      },
+      {
+         "caption" : "Balhae",
+         "en" : "Jeongnyeok",
+         "era_id" : 475,
+         "era_key" : "正曆(乙亥)",
+         "hangul" : "정력",
+         "name" : "正曆",
+         "offset" : 794,
+         "tw" : "正曆",
+         "ukey" : "正曆,794"
+      },
+      {
+         "caption" : "Balhae",
+         "en" : "Yeongdeok",
+         "era_id" : 691,
+         "era_key" : "永德(庚寅)",
+         "hangul" : "영덕",
+         "name" : "永德",
+         "offset" : 809,
+         "tw" : "永德",
+         "ukey" : "永德,809"
+      },
+      {
+         "caption" : "Balhae",
+         "en" : "Jujak",
+         "era_id" : 1568,
+         "era_key" : "朱雀(癸巳)",
+         "hangul" : "주작",
+         "name" : "朱雀",
+         "offset" : 812,
+         "tw" : "朱雀",
+         "ukey" : "朱雀,812"
+      },
+      {
+         "caption" : "Balhae",
+         "en" : "Taesi",
+         "era_id" : 509,
+         "era_key" : "太始(戊戌)",
+         "hangul" : "태시",
+         "name" : "太始",
+         "offset" : 817,
+         "tw" : "太始",
+         "ukey" : "太始,817"
+      },
+      {
+         "caption" : "Balhae",
+         "en" : "Geonheung",
+         "era_id" : 359,
+         "era_key" : "建興(己亥)",
+         "hangul" : "건흥",
+         "name" : "建興",
+         "offset" : 818,
+         "tw" : "建興",
+         "ukey" : "建興,818"
+      },
+      {
+         "caption" : "Balhae",
+         "en" : "Hamhwa",
+         "era_id" : 1134,
+         "era_key" : "咸和(辛亥)",
+         "hangul" : "함화",
+         "name" : "咸和",
+         "offset" : 830,
+         "tw" : "咸和",
+         "ukey" : "咸和,830"
+      },
+      {
+         "caption" : "Later Baekje",
+         "en" : "Jeonggae",
+         "era_id" : 1368,
+         "era_key" : "正開",
+         "hangul" : "정개",
+         "name" : "正開",
+         "offset" : 899,
+         "tw" : "正開",
+         "ukey" : "正開,899"
+      },
+      {
+         "caption" : "Taebong",
+         "en" : "Mutae",
+         "era_id" : 1520,
+         "era_key" : "武泰(甲子)",
+         "hangul" : "무태",
+         "name" : "武泰",
+         "offset" : 903,
+         "tw" : "武泰",
+         "ukey" : "武泰,903"
+      },
+      {
+         "caption" : "Taebong",
+         "en" : "Seongchaek",
+         "era_id" : 750,
+         "era_key" : "聖冊",
+         "hangul" : "성책",
+         "name" : "聖冊",
+         "offset" : 904,
+         "tw" : "聖冊",
+         "ukey" : "聖冊,904"
+      },
+      {
+         "caption" : "Taebong",
+         "en" : "Sudeokmanse",
+         "hangul" : "수덕만세",
+         "name" : "水德萬歲",
+         "offset" : 910,
+         "tw" : "水德萬歲",
+         "ukey" : "水德萬歲,910"
+      },
+      {
+         "caption" : "Taebong",
+         "en" : "Jeonggae",
+         "era_id" : 610,
+         "era_key" : "政開",
+         "hangul" : "정개",
+         "name" : "政開",
+         "offset" : 913,
+         "tw" : "政開",
+         "ukey" : "政開,913"
+      },
+      {
+         "caption" : "Goryeo",
+         "en" : "Cheonsu",
+         "era_id" : 281,
+         "era_key" : "天授(戊寅)",
+         "hangul" : "천수",
+         "name" : "天授",
+         "offset" : 917,
+         "tw" : "天授",
+         "ukey" : "天授,917"
+      },
+      {
+         "_possibles" : [
+            [
+               1488,
+               "長興",
+               929
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jangheung",
+         "en2" : "Changxing",
+         "hangul" : "장흥",
+         "name" : "長興",
+         "offset" : 932,
+         "tw" : "長興",
+         "ukey" : "長興,932"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Eungsun",
+         "en2" : "Yingshun",
+         "era_id" : 1545,
+         "era_key" : "應順",
+         "hangul" : "응순",
+         "name" : "應順",
+         "offset" : 933,
+         "tw" : "應順",
+         "ukey" : "應順,933"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Cheongtae",
+         "en2" : "Qingtai",
+         "era_id" : 417,
+         "era_key" : "清泰",
+         "hangul" : "청태",
+         "name" : "淸泰",
+         "offset" : 933,
+         "tw" : "淸泰",
+         "ukey" : "淸泰,933"
+      },
+      {
+         "_possibles" : [
+            [
+               806,
+               "建福",
+               1121
+            ],
+            [
+               921,
+               "天福(丙申)",
+               935
+            ],
+            [
+               1001,
+               "天福(庚辰)",
+               979
+            ],
+            [
+               1437,
+               "天福",
+               1232
+            ],
+            [
+               2035,
+               "天福(渤海)",
+               null
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Cheonbok",
+         "en2" : "Tianfu",
+         "hangul" : "천복",
+         "name" : "天福",
+         "offset" : 937,
+         "tw" : "天福",
+         "ukey" : "天福,937"
+      },
+      {
+         "_possibles" : [
+            [
+               806,
+               "建福",
+               1121
+            ],
+            [
+               921,
+               "天福(丙申)",
+               935
+            ],
+            [
+               1001,
+               "天福(庚辰)",
+               979
+            ],
+            [
+               1437,
+               "天福",
+               1232
+            ],
+            [
+               2035,
+               "天福(渤海)",
+               null
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Cheonbok",
+         "en2" : "Tianfu",
+         "hangul" : "천복",
+         "name" : "天福",
+         "offset" : 943,
+         "tw" : "天福",
+         "ukey" : "天福,943"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Gaeun",
+         "en2" : "Kaiyun",
+         "era_id" : 450,
+         "era_key" : "開運",
+         "hangul" : "개운",
+         "name" : "開運",
+         "offset" : 943,
+         "tw" : "開運",
+         "ukey" : "開運,943"
+      },
+      {
+         "_possibles" : [
+            [
+               450,
+               "開運",
+               943
+            ],
+            [
+               812,
+               "開運(甲戌)",
+               1033
+            ],
+            [
+               2007,
+               "開運(乙丑)",
+               964
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Gaeun",
+         "en2" : "Kaiyun",
+         "hangul" : "개운",
+         "name" : "開運",
+         "offset" : 945,
+         "tw" : "開運",
+         "ukey" : "開運,945"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Geon-u",
+         "en2" : "Qianyou",
+         "era_id" : 328,
+         "era_key" : "乾祐",
+         "hangul" : "건우",
+         "name" : "乾祐",
+         "offset" : 947,
+         "tw" : "乾祐",
+         "ukey" : "乾祐,947"
+      },
+      {
+         "caption" : "Goryeo",
+         "en" : "Gwangdeok",
+         "era_id" : 844,
+         "era_key" : "光德",
+         "hangul" : "광덕",
+         "name" : "光德",
+         "offset" : 948,
+         "tw" : "光德",
+         "ukey" : "光德,948"
+      },
+      {
+         "_possibles" : [
+            [
+               945,
+               "廣順",
+               950
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Gwangsun",
+         "en2" : "Guangshun",
+         "hangul" : "광순",
+         "name" : "廣順",
+         "offset" : 951,
+         "tw" : "廣順",
+         "ukey" : "廣順,951"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Hyeondeok",
+         "en2" : "Xiande",
+         "era_id" : 618,
+         "era_key" : "顯德",
+         "hangul" : "현덕",
+         "name" : "顯德",
+         "offset" : 953,
+         "tw" : "顯德",
+         "ukey" : "顯德,953"
+      },
+      {
+         "caption" : "Goryeo",
+         "en" : "Junpung",
+         "hangul" : "준풍",
+         "name" : "峻豊",
+         "offset" : 959,
+         "tw" : "峻豊",
+         "ukey" : "峻豊,959"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Geondeok",
+         "en2" : "Qiande",
+         "era_id" : 261,
+         "era_key" : "乾德(癸亥)",
+         "hangul" : "건덕",
+         "name" : "乾德",
+         "offset" : 962,
+         "tw" : "乾德",
+         "ukey" : "乾德,962"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Gaebo",
+         "en2" : "Kaibao",
+         "era_id" : 436,
+         "era_key" : "開寶(戊辰)",
+         "hangul" : "개보",
+         "name" : "開寶",
+         "offset" : 967,
+         "tw" : "開寶",
+         "ukey" : "開寶,967"
+      },
+      {
+         "_possibles" : [
+            [
+               436,
+               "開寶(戊辰)",
+               967
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Gaebo",
+         "en2" : "Kaibao",
+         "hangul" : "개보",
+         "name" : "開寶",
+         "offset" : 975,
+         "tw" : "開寶",
+         "ukey" : "開寶,975"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Taepyeongheung-gug",
+         "en2" : "Taipingxingguo",
+         "era_id" : 929,
+         "era_key" : "太平興國(丙子)",
+         "hangul" : "태평흥국",
+         "name" : "太平興國",
+         "offset" : 975,
+         "tw" : "太平興國",
+         "ukey" : "太平興國,975"
+      },
+      {
+         "_possibles" : [
+            [
+               929,
+               "太平興國(丙子)",
+               975
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Taepyeongheung-gug",
+         "en2" : "Taipingxingguo",
+         "hangul" : "태평흥국",
+         "name" : "太平興國",
+         "offset" : 981,
+         "tw" : "太平興國",
+         "ukey" : "太平興國,981"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Onghui",
+         "en2" : "Yongxi",
+         "era_id" : 1232,
+         "era_key" : "雍熙",
+         "hangul" : "옹희",
+         "name" : "雍熙",
+         "offset" : 983,
+         "tw" : "雍熙",
+         "ukey" : "雍熙,983"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Dangong",
+         "en2" : "Duangong",
+         "era_id" : 1253,
+         "era_key" : "端拱",
+         "hangul" : "단공",
+         "name" : "端拱",
+         "offset" : 987,
+         "tw" : "端拱",
+         "ukey" : "端拱,987"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Sunhwa",
+         "en2" : "Chunhua",
+         "era_id" : 849,
+         "era_key" : "淳化",
+         "hangul" : "순화",
+         "name" : "淳化",
+         "offset" : 989,
+         "tw" : "淳化",
+         "ukey" : "淳化,989"
+      },
+      {
+         "_possibles" : [
+            [
+               1121,
+               "統和",
+               982
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Tonghwa",
+         "en2" : "Tonghe",
+         "hangul" : "통화",
+         "name" : "統和",
+         "offset" : 993,
+         "tw" : "統和",
+         "ukey" : "統和,993"
+      },
+      {
+         "_possibles" : [
+            [
+               1121,
+               "統和",
+               982
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Tonghwa",
+         "en2" : "Tonghe",
+         "hangul" : "통화",
+         "name" : "統和",
+         "offset" : 997,
+         "tw" : "統和",
+         "ukey" : "統和,997"
+      },
+      {
+         "_possibles" : [
+            [
+               1121,
+               "統和",
+               982
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Tonghwa",
+         "en2" : "Tonghe",
+         "hangul" : "통화",
+         "name" : "統和",
+         "offset" : 1009,
+         "tw" : "統和",
+         "ukey" : "統和,1009"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Gaetae",
+         "en2" : "Kaitai",
+         "era_id" : 255,
+         "era_key" : "開泰",
+         "hangul" : "개태",
+         "name" : "開泰",
+         "offset" : 1011,
+         "tw" : "開泰",
+         "ukey" : "開泰,1011"
+      },
+      {
+         "_possibles" : [
+            [
+               1482,
+               "大中祥符",
+               1007
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Daejungsangbu",
+         "en2" : "Dazhongxiangfu",
+         "hangul" : "대중상부",
+         "name" : "大中祥符",
+         "offset" : 1015,
+         "tw" : "大中祥符",
+         "ukey" : "大中祥符,1015"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Cheonhui",
+         "en2" : "Tianxi",
+         "era_id" : 1525,
+         "era_key" : "天禧",
+         "hangul" : "천희",
+         "name" : "天禧",
+         "offset" : 1016,
+         "tw" : "天禧",
+         "ukey" : "天禧,1016"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Geonheung",
+         "en2" : "Qianxing",
+         "era_id" : 325,
+         "era_key" : "乾興",
+         "hangul" : "건흥",
+         "name" : "乾興",
+         "offset" : 1021,
+         "tw" : "乾興",
+         "ukey" : "乾興,1021"
+      },
+      {
+         "_possibles" : [
+            [
+               22,
+               "太平(乙丑曽応龍)",
+               1984
+            ],
+            [
+               99,
+               "治平(辛卯)",
+               1350
+            ],
+            [
+               299,
+               "太平(乙丑)",
+               484
+            ],
+            [
+               355,
+               "太平(丙子)",
+               555
+            ],
+            [
+               386,
+               "太平(李婆備)",
+               1129
+            ],
+            [
+               543,
+               "天平(甲寅)",
+               533
+            ],
+            [
+               563,
+               "太平(庚申)",
+               299
+            ],
+            [
+               865,
+               "太平(林士弘)",
+               615
+            ],
+            [
+               1263,
+               "太平(己酉)",
+               408
+            ],
+            [
+               1323,
+               "太平(辛酉)",
+               1020
+            ],
+            [
+               1516,
+               "太平(庚午)",
+               969
+            ],
+            [
+               1528,
+               "太平(高麗丙子)",
+               975
+            ],
+            [
+               1543,
+               "太平",
+               255
+            ],
+            [
+               1633,
+               "太平(癸卯)",
+               402
+            ],
+            [
+               1646,
+               "太平(丙申)",
+               1355
+            ],
+            [
+               1886,
+               "太平(丁丑)",
+               616
+            ],
+            [
+               2014,
+               "太平(乙酉)",
+               384
+            ],
+            [
+               2134,
+               "太平(戊戌)",
+               1357
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Taepyeong",
+         "en2" : "Taiping",
+         "hangul" : "태평",
+         "name" : "太平",
+         "offset" : 1021,
+         "tw" : "太平",
+         "ukey" : "太平,1021"
+      },
+      {
+         "_possibles" : [
+            [
+               22,
+               "太平(乙丑曽応龍)",
+               1984
+            ],
+            [
+               99,
+               "治平(辛卯)",
+               1350
+            ],
+            [
+               299,
+               "太平(乙丑)",
+               484
+            ],
+            [
+               355,
+               "太平(丙子)",
+               555
+            ],
+            [
+               386,
+               "太平(李婆備)",
+               1129
+            ],
+            [
+               543,
+               "天平(甲寅)",
+               533
+            ],
+            [
+               563,
+               "太平(庚申)",
+               299
+            ],
+            [
+               865,
+               "太平(林士弘)",
+               615
+            ],
+            [
+               1263,
+               "太平(己酉)",
+               408
+            ],
+            [
+               1323,
+               "太平(辛酉)",
+               1020
+            ],
+            [
+               1516,
+               "太平(庚午)",
+               969
+            ],
+            [
+               1528,
+               "太平(高麗丙子)",
+               975
+            ],
+            [
+               1543,
+               "太平",
+               255
+            ],
+            [
+               1633,
+               "太平(癸卯)",
+               402
+            ],
+            [
+               1646,
+               "太平(丙申)",
+               1355
+            ],
+            [
+               1886,
+               "太平(丁丑)",
+               616
+            ],
+            [
+               2014,
+               "太平(乙酉)",
+               384
+            ],
+            [
+               2134,
+               "太平(戊戌)",
+               1357
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Taepyeong",
+         "en2" : "Taiping",
+         "hangul" : "태평",
+         "name" : "太平",
+         "offset" : 1031,
+         "tw" : "太平",
+         "ukey" : "太平,1031"
+      },
+      {
+         "_possibles" : [
+            [
+               22,
+               "太平(乙丑曽応龍)",
+               1984
+            ],
+            [
+               99,
+               "治平(辛卯)",
+               1350
+            ],
+            [
+               299,
+               "太平(乙丑)",
+               484
+            ],
+            [
+               355,
+               "太平(丙子)",
+               555
+            ],
+            [
+               386,
+               "太平(李婆備)",
+               1129
+            ],
+            [
+               543,
+               "天平(甲寅)",
+               533
+            ],
+            [
+               563,
+               "太平(庚申)",
+               299
+            ],
+            [
+               865,
+               "太平(林士弘)",
+               615
+            ],
+            [
+               1263,
+               "太平(己酉)",
+               408
+            ],
+            [
+               1323,
+               "太平(辛酉)",
+               1020
+            ],
+            [
+               1516,
+               "太平(庚午)",
+               969
+            ],
+            [
+               1528,
+               "太平(高麗丙子)",
+               975
+            ],
+            [
+               1543,
+               "太平",
+               255
+            ],
+            [
+               1633,
+               "太平(癸卯)",
+               402
+            ],
+            [
+               1646,
+               "太平(丙申)",
+               1355
+            ],
+            [
+               1886,
+               "太平(丁丑)",
+               616
+            ],
+            [
+               2014,
+               "太平(乙酉)",
+               384
+            ],
+            [
+               2134,
+               "太平(戊戌)",
+               1357
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Taepyeong",
+         "en2" : "Taiping",
+         "hangul" : "태평",
+         "name" : "太平",
+         "offset" : 1034,
+         "tw" : "太平",
+         "ukey" : "太平,1034"
+      },
+      {
+         "_possibles" : [
+            [
+               1317,
+               "重熙",
+               1031
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Junghui",
+         "en2" : "Chongxi",
+         "hangul" : "태평",
+         "name" : "重熙",
+         "offset" : 1037,
+         "tw" : "重熙",
+         "ukey" : "重熙,1037"
+      },
+      {
+         "_possibles" : [
+            [
+               1317,
+               "重熙",
+               1031
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Junghui",
+         "en2" : "Chongxi",
+         "hangul" : "태평",
+         "name" : "重熙",
+         "offset" : 1046,
+         "tw" : "重熙",
+         "ukey" : "重熙,1046"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Cheongnyeong",
+         "en2" : "Qingning",
+         "era_id" : 294,
+         "era_key" : "清寧(乙未)",
+         "hangul" : "청녕",
+         "name" : "淸寧",
+         "offset" : 1054,
+         "tw" : "淸寧",
+         "ukey" : "淸寧,1054"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Ham-ong",
+         "en2" : "Xianyong",
+         "era_id" : 828,
+         "era_key" : "咸雍",
+         "hangul" : "함옹",
+         "name" : "咸雍",
+         "offset" : 1064,
+         "tw" : "咸雍",
+         "ukey" : "咸雍,1064"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Daegang",
+         "en2" : "Dakang",
+         "era_id" : 264,
+         "era_key" : "大康",
+         "hangul" : "대강",
+         "name" : "大康",
+         "offset" : 1074,
+         "tw" : "大康",
+         "ukey" : "大康,1074"
+      },
+      {
+         "_possibles" : [
+            [
+               264,
+               "大康",
+               1074
+            ],
+            [
+               538,
+               "太康",
+               279
+            ],
+            [
+               1823,
+               "大康(丁巳)",
+               1796
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Daegang",
+         "en2" : "Dakang",
+         "hangul" : "대강",
+         "name" : "大康",
+         "offset" : 1082,
+         "tw" : "大康",
+         "ukey" : "大康,1082"
+      },
+      {
+         "_possibles" : [
+            [
+               264,
+               "大康",
+               1074
+            ],
+            [
+               538,
+               "太康",
+               279
+            ],
+            [
+               1823,
+               "大康(丁巳)",
+               1796
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Daegang",
+         "en2" : "Dakang",
+         "hangul" : "대강",
+         "name" : "大康",
+         "offset" : 1083,
+         "tw" : "大康",
+         "ukey" : "大康,1083"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Daean",
+         "en2" : "Da'an",
+         "era_id" : 48,
+         "era_key" : "大安",
+         "hangul" : "대안",
+         "name" : "大安",
+         "offset" : 1084,
+         "tw" : "大安",
+         "ukey" : "大安,1084"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Suchang",
+         "en2" : "Shouchang",
+         "era_id" : 534,
+         "era_key" : "壽昌",
+         "hangul" : "수창",
+         "name" : "壽昌",
+         "offset" : 1094,
+         "tw" : "壽昌",
+         "ukey" : "壽昌,1094"
+      },
+      {
+         "_possibles" : [
+            [
+               534,
+               "壽昌",
+               1094
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Suchang",
+         "en2" : "Shouchang",
+         "hangul" : "수창",
+         "name" : "壽昌",
+         "offset" : 1095,
+         "tw" : "壽昌",
+         "ukey" : "壽昌,1095"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Geontong",
+         "en2" : "Qiantong",
+         "era_id" : 586,
+         "era_key" : "乾統",
+         "hangul" : "건통",
+         "name" : "乾統",
+         "offset" : 1100,
+         "tw" : "乾統",
+         "ukey" : "乾統,1100"
+      },
+      {
+         "_possibles" : [
+            [
+               586,
+               "乾統",
+               1100
+            ],
+            [
+               920,
+               "乾統(癸巳)",
+               1592
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Geontong",
+         "en2" : "Qiantong",
+         "hangul" : "건통",
+         "name" : "乾統",
+         "offset" : 1105,
+         "tw" : "乾統",
+         "ukey" : "乾統,1105"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Cheongyeong",
+         "en2" : "Tianqing",
+         "era_id" : 1034,
+         "era_key" : "天慶(辛卯)",
+         "hangul" : "천경",
+         "name" : "天慶",
+         "offset" : 1110,
+         "tw" : "天慶",
+         "ukey" : "天慶,1110"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Hwangtong",
+         "en2" : "Huangtong",
+         "era_id" : 84,
+         "era_key" : "皇統",
+         "hangul" : "황통",
+         "name" : "皇統",
+         "offset" : 1140,
+         "tw" : "皇統",
+         "ukey" : "皇統,1140"
+      },
+      {
+         "_possibles" : [
+            [
+               84,
+               "皇統",
+               1140
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Hwangtong",
+         "en2" : "Huangtong",
+         "hangul" : "황통",
+         "name" : "皇統",
+         "offset" : 1146,
+         "tw" : "皇統",
+         "ukey" : "皇統,1146"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Cheondeok",
+         "en2" : "Tiande",
+         "era_id" : 1474,
+         "era_key" : "天德(己巳)",
+         "hangul" : "천덕",
+         "name" : "天德",
+         "offset" : 1148,
+         "tw" : "天德",
+         "ukey" : "天德,1148"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jeong-won",
+         "en2" : "Zhenyuan",
+         "era_id" : 792,
+         "era_key" : "貞元(癸酉)",
+         "hangul" : "정원",
+         "name" : "貞元",
+         "offset" : 1152,
+         "tw" : "貞元",
+         "ukey" : "貞元,1152"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jeonglyung",
+         "en2" : "Zhenglong",
+         "era_id" : 1458,
+         "era_key" : "正隆",
+         "hangul" : "정륭",
+         "name" : "正隆",
+         "offset" : 1155,
+         "tw" : "正隆",
+         "ukey" : "正隆,1155"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Daejeong",
+         "en2" : "Dading",
+         "era_id" : 1493,
+         "era_key" : "大定(辛巳)",
+         "hangul" : "대정",
+         "name" : "大定",
+         "offset" : 1160,
+         "tw" : "大定",
+         "ukey" : "大定,1160"
+      },
+      {
+         "_possibles" : [
+            [
+               280,
+               "大定(己酉)",
+               1368
+            ],
+            [
+               580,
+               "大定(陳友諒)",
+               1360
+            ],
+            [
+               714,
+               "大定(庚申)",
+               1139
+            ],
+            [
+               1493,
+               "大定(辛巳)",
+               1160
+            ],
+            [
+               1612,
+               "大定(辛丑)",
+               580
+            ],
+            [
+               1658,
+               "大定",
+               554
+            ],
+            [
+               2029,
+               "大定(渤海)",
+               null
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Daejeong",
+         "en2" : "Dading",
+         "hangul" : "대정",
+         "name" : "大定",
+         "offset" : 1170,
+         "tw" : "大定",
+         "ukey" : "大定,1170"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Myeongchang",
+         "en2" : "Mingchang",
+         "era_id" : 392,
+         "era_key" : "明昌",
+         "hangul" : "명창",
+         "name" : "明昌",
+         "offset" : 1189,
+         "tw" : "明昌",
+         "ukey" : "明昌,1189"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Seung-an",
+         "en2" : "Cheng'an",
+         "era_id" : 607,
+         "era_key" : "承安(丙辰)",
+         "hangul" : "승안",
+         "name" : "承安",
+         "offset" : 1195,
+         "tw" : "承安",
+         "ukey" : "承安,1195"
+      },
+      {
+         "_possibles" : [
+            [
+               607,
+               "承安(丙辰)",
+               1195
+            ],
+            [
+               871,
+               "承安",
+               1170
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Seung-an",
+         "en2" : "Cheng'an",
+         "hangul" : "승안",
+         "name" : "承安",
+         "offset" : 1197,
+         "tw" : "承安",
+         "ukey" : "承安,1197"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Taehwa",
+         "en2" : "Taihe",
+         "era_id" : 473,
+         "era_key" : "泰和",
+         "hangul" : "태화",
+         "name" : "泰和",
+         "offset" : 1200,
+         "tw" : "泰和",
+         "ukey" : "泰和,1200"
+      },
+      {
+         "_possibles" : [
+            [
+               473,
+               "泰和",
+               1200
+            ],
+            [
+               868,
+               "太和(丙寅)",
+               365
+            ],
+            [
+               1389,
+               "太和",
+               226
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Taehwa",
+         "en2" : "Taihe",
+         "hangul" : "태화",
+         "name" : "泰和",
+         "offset" : 1204,
+         "tw" : "泰和",
+         "ukey" : "泰和,1204"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Daean",
+         "en2" : "Da'an",
+         "era_id" : 300,
+         "era_key" : "大安(己巳)",
+         "hangul" : "대안",
+         "name" : "大安",
+         "offset" : 1208,
+         "tw" : "大安",
+         "ukey" : "大安,1208"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Sung-gyeong",
+         "en2" : "Chongqing",
+         "era_id" : 341,
+         "era_key" : "崇慶",
+         "hangul" : "숭경",
+         "name" : "崇慶",
+         "offset" : 1211,
+         "tw" : "崇慶",
+         "ukey" : "崇慶,1211"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jinyeong",
+         "en2" : "Zhining",
+         "era_id" : 1468,
+         "era_key" : "至寧",
+         "hangul" : "지녕",
+         "name" : "至寧",
+         "offset" : 1212,
+         "tw" : "至寧",
+         "ukey" : "至寧,1212"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jeong-u",
+         "en2" : "Zhenyou",
+         "era_id" : 1159,
+         "era_key" : "貞祐(癸酉)",
+         "hangul" : "정우",
+         "name" : "貞祐",
+         "offset" : 1212,
+         "tw" : "貞祐",
+         "ukey" : "貞祐,1212"
+      },
+      {
+         "_possibles" : [
+            [
+               726,
+               "貞祐",
+               920
+            ],
+            [
+               1159,
+               "貞祐(癸酉)",
+               1212
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jeong-u",
+         "en2" : "Zhenyou",
+         "hangul" : "정우",
+         "name" : "貞祐",
+         "offset" : 1213,
+         "tw" : "貞祐",
+         "ukey" : "貞祐,1213"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jungtong",
+         "en2" : "Zhongtong",
+         "era_id" : 1262,
+         "era_key" : "中統",
+         "hangul" : "중통",
+         "name" : "中統",
+         "offset" : 1259,
+         "tw" : "中統",
+         "ukey" : "中統,1259"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jiwon",
+         "en2" : "Zhiyuan",
+         "era_id" : 1082,
+         "era_key" : "至元",
+         "hangul" : "지원",
+         "name" : "至元",
+         "offset" : 1263,
+         "tw" : "至元",
+         "ukey" : "至元,1263"
+      },
+      {
+         "_possibles" : [
+            [
+               1082,
+               "至元",
+               1263
+            ],
+            [
+               1495,
+               "至元(乙亥)",
+               1334
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jiwon",
+         "en2" : "Zhiyuan",
+         "hangul" : "지원",
+         "name" : "至元",
+         "offset" : 1274,
+         "tw" : "至元",
+         "ukey" : "至元,1274"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Wonjeong",
+         "en2" : "Yuanzhen",
+         "era_id" : 1539,
+         "era_key" : "元貞",
+         "hangul" : "원정",
+         "name" : "元貞",
+         "offset" : 1294,
+         "tw" : "元貞",
+         "ukey" : "元貞,1294"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Daedeok",
+         "en2" : "Dade",
+         "era_id" : 1041,
+         "era_key" : "大德(丁酉)",
+         "hangul" : "대덕",
+         "name" : "大德",
+         "offset" : 1296,
+         "tw" : "大德",
+         "ukey" : "大德,1296"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jidae",
+         "en2" : "Zhida",
+         "era_id" : 1242,
+         "era_key" : "至大",
+         "hangul" : "지대",
+         "name" : "至大",
+         "offset" : 1307,
+         "tw" : "至大",
+         "ukey" : "至大,1307"
+      },
+      {
+         "_possibles" : [
+            [
+               1036,
+               "至大(日本)",
+               null
+            ],
+            [
+               1242,
+               "至大",
+               1307
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jidae",
+         "en2" : "Zhida",
+         "hangul" : "지대",
+         "name" : "至大",
+         "offset" : 1308,
+         "tw" : "至大",
+         "ukey" : "至大,1308"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Hwang-gyeong",
+         "en2" : "Huangqing",
+         "era_id" : 1422,
+         "era_key" : "皇慶",
+         "hangul" : "황경",
+         "name" : "皇慶",
+         "offset" : 1311,
+         "tw" : "皇慶",
+         "ukey" : "皇慶,1311"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Yeon-u",
+         "en2" : "Yanyou",
+         "era_id" : 366,
+         "era_key" : "延祐",
+         "hangul" : "연우",
+         "name" : "延祐",
+         "offset" : 1313,
+         "tw" : "延祐",
+         "ukey" : "延祐,1313"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jichi",
+         "en2" : "Zhizhi",
+         "era_id" : 71,
+         "era_key" : "至治(辛酉)",
+         "hangul" : "지치",
+         "name" : "至治",
+         "offset" : 1320,
+         "tw" : "至治",
+         "ukey" : "至治,1320"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Taejeong",
+         "en2" : "Taiding",
+         "era_id" : 1043,
+         "era_key" : "泰定",
+         "hangul" : "태정",
+         "name" : "泰定",
+         "offset" : 1323,
+         "tw" : "泰定",
+         "ukey" : "泰定,1323"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Chihwa",
+         "en2" : "Zhihe",
+         "era_id" : 1505,
+         "era_key" : "致和",
+         "hangul" : "치화",
+         "name" : "致和",
+         "offset" : 1327,
+         "tw" : "致和",
+         "ukey" : "致和,1327"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Cheonsun",
+         "en2" : "Tianshun",
+         "era_id" : 1040,
+         "era_key" : "天順",
+         "hangul" : "천순",
+         "name" : "天順",
+         "offset" : 1327,
+         "tw" : "天順",
+         "ukey" : "天順,1327"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Cheollyeok",
+         "en2" : "Tianli",
+         "era_id" : 848,
+         "era_key" : "天曆(戊辰)",
+         "hangul" : "천력",
+         "name" : "天曆",
+         "offset" : 1327,
+         "tw" : "天曆",
+         "ukey" : "天曆,1327"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jisun",
+         "en2" : "Zhishun",
+         "era_id" : 1605,
+         "era_key" : "至順",
+         "hangul" : "지순",
+         "name" : "至順",
+         "offset" : 1329,
+         "tw" : "至順",
+         "ukey" : "至順,1329"
+      },
+      {
+         "_possibles" : [
+            [
+               1605,
+               "至順",
+               1329
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jisun",
+         "en2" : "Zhishun",
+         "hangul" : "지순",
+         "name" : "至順",
+         "offset" : 1330,
+         "tw" : "至順",
+         "ukey" : "至順,1330"
+      },
+      {
+         "_possibles" : [
+            [
+               1605,
+               "至順",
+               1329
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jisun",
+         "en2" : "Zhishun",
+         "hangul" : "지순",
+         "name" : "至順",
+         "offset" : 1331,
+         "tw" : "至順",
+         "ukey" : "至順,1331"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Wontong",
+         "en2" : "Yuantong",
+         "era_id" : 1491,
+         "era_key" : "元統",
+         "hangul" : "원통",
+         "name" : "元統",
+         "offset" : 1332,
+         "tw" : "元統",
+         "ukey" : "元統,1332"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jiwon",
+         "en2" : "Zhiyuan",
+         "era_id" : 1495,
+         "era_key" : "至元(乙亥)",
+         "hangul" : "지원",
+         "name" : "至元",
+         "offset" : 1334,
+         "tw" : "至元",
+         "ukey" : "至元,1334"
+      },
+      {
+         "_possibles" : [
+            [
+               1082,
+               "至元",
+               1263
+            ],
+            [
+               1495,
+               "至元(乙亥)",
+               1334
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jiwon",
+         "en2" : "Zhiyuan",
+         "hangul" : "지원",
+         "name" : "至元",
+         "offset" : 1339,
+         "tw" : "至元",
+         "ukey" : "至元,1339"
+      },
+      {
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jijeong",
+         "en2" : "Zhizheng",
+         "era_id" : 1576,
+         "era_key" : "至正",
+         "hangul" : "지정",
+         "name" : "至正",
+         "offset" : 1340,
+         "tw" : "至正",
+         "ukey" : "至正,1340"
+      },
+      {
+         "_possibles" : [
+            [
+               1576,
+               "至正",
+               1340
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jijeong",
+         "en2" : "Zhizheng",
+         "hangul" : "지정",
+         "name" : "至正",
+         "offset" : 1344,
+         "tw" : "至正",
+         "ukey" : "至正,1344"
+      },
+      {
+         "_possibles" : [
+            [
+               1576,
+               "至正",
+               1340
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jijeong",
+         "en2" : "Zhizheng",
+         "hangul" : "지정",
+         "name" : "至正",
+         "offset" : 1348,
+         "tw" : "至正",
+         "ukey" : "至正,1348"
+      },
+      {
+         "_possibles" : [
+            [
+               1576,
+               "至正",
+               1340
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Jijeong",
+         "en2" : "Zhizheng",
+         "hangul" : "지정",
+         "name" : "至正",
+         "offset" : 1351,
+         "tw" : "至正",
+         "ukey" : "至正,1351"
+      },
+      {
+         "_possibles" : [
+            [
+               127,
+               "洪武",
+               1367
+            ],
+            [
+               877,
+               "洪武(己未)",
+               1618
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Hongmu",
+         "en2" : "Hongwu",
+         "hangul" : "홍무",
+         "name" : "洪武",
+         "offset" : 1369,
+         "tw" : "洪武",
+         "ukey" : "洪武,1369"
+      },
+      {
+         "_possibles" : [
+            [
+               127,
+               "洪武",
+               1367
+            ],
+            [
+               877,
+               "洪武(己未)",
+               1618
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Hongmu",
+         "en2" : "Hongwu",
+         "hangul" : "홍무",
+         "name" : "洪武",
+         "offset" : 1374,
+         "tw" : "洪武",
+         "ukey" : "洪武,1374"
+      },
+      {
+         "_possibles" : [
+            [
+               210,
+               "宣光",
+               1370
+            ],
+            [
+               1843,
+               "宣光(庚戌)",
+               1369
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Seongwang",
+         "en2" : "Xuanguang",
+         "hangul" : "선광",
+         "name" : "宣光",
+         "offset" : 1376,
+         "tw" : "宣光",
+         "ukey" : "宣光,1376"
+      },
+      {
+         "_possibles" : [
+            [
+               127,
+               "洪武",
+               1367
+            ],
+            [
+               877,
+               "洪武(己未)",
+               1618
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Hongmu",
+         "en2" : "Hongwu",
+         "hangul" : "홍무",
+         "name" : "洪武",
+         "offset" : 1377,
+         "tw" : "洪武",
+         "ukey" : "洪武,1377"
+      },
+      {
+         "_possibles" : [
+            [
+               127,
+               "洪武",
+               1367
+            ],
+            [
+               877,
+               "洪武(己未)",
+               1618
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Hongmu",
+         "en2" : "Hongwu",
+         "hangul" : "홍무",
+         "name" : "洪武",
+         "offset" : 1387,
+         "tw" : "洪武",
+         "ukey" : "洪武,1387"
+      },
+      {
+         "_possibles" : [
+            [
+               127,
+               "洪武",
+               1367
+            ],
+            [
+               877,
+               "洪武(己未)",
+               1618
+            ]
+         ],
+         "caption" : "Goryeo",
+         "dup" : 1,
+         "en" : "Hongmu",
+         "en2" : "Hongwu",
+         "hangul" : "홍무",
+         "name" : "洪武",
+         "offset" : 1388,
+         "tw" : "洪武",
+         "ukey" : "洪武,1388"
+      },
+      {
+         "caption" : "Goryeo/misc",
+         "en" : "Cheongae",
+         "era_id" : 1340,
+         "era_key" : "天開(乙卯)",
+         "hangul" : "천개",
+         "name" : "天開",
+         "offset" : 1134,
+         "tw" : "天開",
+         "ukey" : "天開,1134"
+      },
+      {
+         "_possibles" : [
+            [
+               127,
+               "洪武",
+               1367
+            ],
+            [
+               877,
+               "洪武(己未)",
+               1618
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Hongmu",
+         "en2" : "Hongwu",
+         "hangul" : "홍무",
+         "name" : "洪武",
+         "offset" : 1391,
+         "tw" : "洪武",
+         "ukey" : "洪武,1391"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Geonmun",
+         "en2" : "Jianwen",
+         "era_id" : 1251,
+         "era_key" : "建文",
+         "hangul" : "건문",
+         "name" : "建文",
+         "offset" : 1398,
+         "tw" : "建文",
+         "ukey" : "建文,1398"
+      },
+      {
+         "_possibles" : [
+            [
+               1251,
+               "建文",
+               1398
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Geonmun",
+         "en2" : "Jianwen",
+         "hangul" : "건문",
+         "name" : "建文",
+         "offset" : 1400,
+         "tw" : "建文",
+         "ukey" : "建文,1400"
+      },
+      {
+         "_possibles" : [
+            [
+               127,
+               "洪武",
+               1367
+            ],
+            [
+               877,
+               "洪武(己未)",
+               1618
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Hongmu",
+         "en2" : "Hongwu",
+         "hangul" : "홍무",
+         "name" : "洪武",
+         "offset" : 1401,
+         "tw" : "洪武",
+         "ukey" : "洪武,1401"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Yeonglak",
+         "en2" : "Yongle",
+         "era_id" : 1499,
+         "era_key" : "永樂(癸未)",
+         "hangul" : "영락",
+         "name" : "永樂",
+         "offset" : 1402,
+         "tw" : "永樂",
+         "ukey" : "永樂,1402"
+      },
+      {
+         "_possibles" : [
+            [
+               389,
+               "永樂(辛卯)",
+               390
+            ],
+            [
+               574,
+               "永樂(壬寅)",
+               941
+            ],
+            [
+               780,
+               "永樂(庚子)",
+               1119
+            ],
+            [
+               1499,
+               "永樂(癸未)",
+               1402
+            ],
+            [
+               1632,
+               "永楽",
+               1460
+            ],
+            [
+               2000,
+               "永樂(丙午)",
+               345
+            ],
+            [
+               2127,
+               "永樂(辛丑)",
+               1120
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Yeongrak",
+         "en2" : "Yongle",
+         "hangul" : "영락",
+         "name" : "永樂",
+         "offset" : 1418,
+         "tw" : "永樂",
+         "ukey" : "永樂,1418"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Honghui",
+         "en2" : "Hongxi",
+         "era_id" : 887,
+         "era_key" : "洪熙",
+         "hangul" : "홍희",
+         "name" : "洪熙",
+         "offset" : 1424,
+         "tw" : "洪熙",
+         "ukey" : "洪熙,1424"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Seondeok",
+         "en2" : "Xuande",
+         "era_id" : 511,
+         "era_key" : "宣德",
+         "hangul" : "선덕",
+         "name" : "宣德",
+         "offset" : 1425,
+         "tw" : "宣德",
+         "ukey" : "宣德,1425"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Jeongtong",
+         "en2" : "Zhengtong",
+         "era_id" : 562,
+         "era_key" : "正統",
+         "hangul" : "정통",
+         "name" : "正統",
+         "offset" : 1435,
+         "tw" : "正統",
+         "ukey" : "正統,1435"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Gyeongtae",
+         "en2" : "Jingtai",
+         "era_id" : 350,
+         "era_key" : "景泰",
+         "hangul" : "경태",
+         "name" : "景泰",
+         "offset" : 1449,
+         "tw" : "景泰",
+         "ukey" : "景泰,1449"
+      },
+      {
+         "_possibles" : [
+            [
+               350,
+               "景泰",
+               1449
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Gyeongtae",
+         "en2" : "Jingtai",
+         "hangul" : "경태",
+         "name" : "景泰",
+         "offset" : 1450,
+         "tw" : "景泰",
+         "ukey" : "景泰,1450"
+      },
+      {
+         "_possibles" : [
+            [
+               350,
+               "景泰",
+               1449
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Gyeongtae",
+         "en2" : "Jingtai",
+         "hangul" : "경태",
+         "name" : "景泰",
+         "offset" : 1452,
+         "tw" : "景泰",
+         "ukey" : "景泰,1452"
+      },
+      {
+         "_possibles" : [
+            [
+               350,
+               "景泰",
+               1449
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Gyeongtae",
+         "en2" : "Jingtai",
+         "hangul" : "경태",
+         "name" : "景泰",
+         "offset" : 1454,
+         "tw" : "景泰",
+         "ukey" : "景泰,1454"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Cheonsun",
+         "en2" : "Tianshun",
+         "era_id" : 1138,
+         "era_key" : "天順(丁丑)",
+         "hangul" : "천순",
+         "name" : "天順",
+         "offset" : 1456,
+         "tw" : "天順",
+         "ukey" : "天順,1456"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Seonghwa",
+         "en2" : "Chenghua",
+         "era_id" : 146,
+         "era_key" : "成化",
+         "hangul" : "성화",
+         "name" : "成化",
+         "offset" : 1464,
+         "tw" : "成化",
+         "ukey" : "成化,1464"
+      },
+      {
+         "_possibles" : [
+            [
+               146,
+               "成化",
+               1464
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Seonghwa",
+         "en2" : "Chenghua",
+         "hangul" : "성화",
+         "name" : "成化",
+         "offset" : 1468,
+         "tw" : "成化",
+         "ukey" : "成化,1468"
+      },
+      {
+         "_possibles" : [
+            [
+               146,
+               "成化",
+               1464
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Seonghwa",
+         "en2" : "Chenghua",
+         "hangul" : "성화",
+         "name" : "成化",
+         "offset" : 1469,
+         "tw" : "成化",
+         "ukey" : "成化,1469"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Hongchi",
+         "en2" : "Hongzhi",
+         "era_id" : 38,
+         "era_key" : "弘治(戊申)",
+         "hangul" : "홍치",
+         "name" : "弘治",
+         "offset" : 1487,
+         "tw" : "弘治",
+         "ukey" : "弘治,1487"
+      },
+      {
+         "_possibles" : [
+            [
+               38,
+               "弘治(戊申)",
+               1487
+            ],
+            [
+               202,
+               "弘治",
+               1554
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Hongchi",
+         "en2" : "Hongzhi",
+         "hangul" : "홍치",
+         "name" : "弘治",
+         "offset" : 1494,
+         "tw" : "弘治",
+         "ukey" : "弘治,1494"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Jeongdeok",
+         "en2" : "Zhengde",
+         "era_id" : 1712,
+         "era_key" : "正德(丙寅)",
+         "hangul" : "정덕",
+         "name" : "正德",
+         "offset" : 1505,
+         "tw" : "正德",
+         "ukey" : "正德,1505"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Jeongdeok",
+         "en2" : "Zhengde",
+         "era_id" : 1712,
+         "era_key" : "正德(丙寅)",
+         "hangul" : "정덕",
+         "name" : "正德",
+         "offset" : 1505,
+         "tw" : "正德",
+         "ukey" : "正德,1505"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Gajeong",
+         "en2" : "Jiajing",
+         "era_id" : 1501,
+         "era_key" : "嘉靖",
+         "hangul" : "가정",
+         "name" : "嘉靖",
+         "offset" : 1521,
+         "tw" : "嘉靖",
+         "ukey" : "嘉靖,1521"
+      },
+      {
+         "_possibles" : [
+            [
+               1501,
+               "嘉靖",
+               1521
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Gajeong",
+         "en2" : "Jiajing",
+         "hangul" : "가정",
+         "name" : "嘉靖",
+         "offset" : 1544,
+         "tw" : "嘉靖",
+         "ukey" : "嘉靖,1544"
+      },
+      {
+         "_possibles" : [
+            [
+               1501,
+               "嘉靖",
+               1521
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Gajeong",
+         "en2" : "Jiajing",
+         "hangul" : "가정",
+         "name" : "嘉靖",
+         "offset" : 1545,
+         "tw" : "嘉靖",
+         "ukey" : "嘉靖,1545"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Yung-gyeong",
+         "en2" : "Longqing",
+         "era_id" : 699,
+         "era_key" : "隆慶",
+         "hangul" : "융경",
+         "name" : "隆慶",
+         "offset" : 1566,
+         "tw" : "隆慶",
+         "ukey" : "隆慶,1566"
+      },
+      {
+         "_possibles" : [
+            [
+               158,
+               "隆慶(癸丑)",
+               1372
+            ],
+            [
+               699,
+               "隆慶",
+               1566
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Yung-gyeong",
+         "en2" : "Longqing",
+         "hangul" : "융경",
+         "name" : "隆慶",
+         "offset" : 1567,
+         "tw" : "隆慶",
+         "ukey" : "隆慶,1567"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Mallyeok",
+         "en2" : "Wanli",
+         "era_id" : 413,
+         "era_key" : "萬曆",
+         "hangul" : "만력",
+         "name" : "萬曆",
+         "offset" : 1572,
+         "tw" : "萬曆",
+         "ukey" : "萬曆,1572"
+      },
+      {
+         "_possibles" : [
+            [
+               413,
+               "萬曆",
+               1572
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Mallyeok",
+         "en2" : "Wanli",
+         "hangul" : "만력",
+         "name" : "萬曆",
+         "offset" : 1608,
+         "tw" : "萬曆",
+         "ukey" : "萬曆,1608"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Taechang",
+         "en2" : "Taichang",
+         "era_id" : 440,
+         "era_key" : "泰昌",
+         "hangul" : "태창",
+         "name" : "泰昌",
+         "offset" : 1619,
+         "tw" : "泰昌",
+         "ukey" : "泰昌,1619"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Cheongye",
+         "en2" : "Tianqi",
+         "era_id" : 598,
+         "era_key" : "天啟(辛酉)",
+         "hangul" : "천계",
+         "name" : "天啓",
+         "offset" : 1620,
+         "tw" : "天啓",
+         "ukey" : "天啓,1620"
+      },
+      {
+         "_possibles" : [
+            [
+               86,
+               "天定(己亥)",
+               1358
+            ],
+            [
+               234,
+               "天啟(乙巳)",
+               524
+            ],
+            [
+               439,
+               "天啟(戊戌)",
+               1357
+            ],
+            [
+               598,
+               "天啟(辛酉)",
+               1620
+            ],
+            [
+               1327,
+               "天啟",
+               839
+            ],
+            [
+               1616,
+               "天啟(戊寅)",
+               557
+            ],
+            [
+               2131,
+               "天啟(丙申)",
+               1355
+            ],
+            [
+               2132,
+               "天啟(乙未)",
+               1354
+            ],
+            [
+               2133,
+               "天啟(己亥)",
+               1358
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Cheongye",
+         "en2" : "Tianqi",
+         "hangul" : "천계",
+         "name" : "天啓",
+         "offset" : 1622,
+         "tw" : "天啓",
+         "ukey" : "天啓,1622"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Sungjeong",
+         "en2" : "Chongzhen",
+         "era_id" : 250,
+         "era_key" : "崇禎",
+         "hangul" : "숭정",
+         "name" : "崇禎",
+         "offset" : 1627,
+         "tw" : "崇禎",
+         "ukey" : "崇禎,1627"
+      },
+      {
+         "_possibles" : [
+            [
+               1136,
+               "崇德",
+               1635
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Sungdeok",
+         "en2" : "Chongde",
+         "hangul" : "숭덕",
+         "name" : "崇德",
+         "offset" : 1536,
+         "tw" : "崇德",
+         "ukey" : "崇德,1536"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Sunchi",
+         "en2" : "Shunzhi",
+         "era_id" : 502,
+         "era_key" : "順治",
+         "hangul" : "순치",
+         "name" : "順治",
+         "offset" : 1643,
+         "tw" : "順治",
+         "ukey" : "順治,1643"
+      },
+      {
+         "_possibles" : [
+            [
+               502,
+               "順治",
+               1643
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Sunchi",
+         "en2" : "Shunzhi",
+         "hangul" : "순치",
+         "name" : "順治",
+         "offset" : 1649,
+         "tw" : "順治",
+         "ukey" : "順治,1649"
+      },
+      {
+         "_possibles" : [
+            [
+               502,
+               "順治",
+               1643
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Sunchi",
+         "en2" : "Shunzhi",
+         "hangul" : "순치",
+         "name" : "順治",
+         "offset" : 1659,
+         "tw" : "順治",
+         "ukey" : "順治,1659"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Ganghui",
+         "en2" : "Kangxi",
+         "era_id" : 757,
+         "era_key" : "康熙",
+         "hangul" : "강희",
+         "name" : "康熙",
+         "offset" : 1661,
+         "tw" : "康熙",
+         "ukey" : "康熙,1661"
+      },
+      {
+         "_possibles" : [
+            [
+               757,
+               "康熙",
+               1661
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Ganghui",
+         "en2" : "Kangxi",
+         "hangul" : "강희",
+         "name" : "康熙",
+         "offset" : 1674,
+         "tw" : "康熙",
+         "ukey" : "康熙,1674"
+      },
+      {
+         "_possibles" : [
+            [
+               757,
+               "康熙",
+               1661
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Ganghui",
+         "en2" : "Kangxi",
+         "hangul" : "강희",
+         "name" : "康熙",
+         "offset" : 1720,
+         "tw" : "康熙",
+         "ukey" : "康熙,1720"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Ongjeong",
+         "en2" : "Yongzheng",
+         "era_id" : 1548,
+         "era_key" : "雍正",
+         "hangul" : "옹정",
+         "name" : "雍正",
+         "offset" : 1722,
+         "tw" : "雍正",
+         "ukey" : "雍正,1722"
+      },
+      {
+         "_possibles" : [
+            [
+               1548,
+               "雍正",
+               1722
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Ongjeong",
+         "en2" : "Yongzheng",
+         "hangul" : "옹정",
+         "name" : "雍正",
+         "offset" : 1724,
+         "tw" : "雍正",
+         "ukey" : "雍正,1724"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Geollyung",
+         "en2" : "Qianlong",
+         "era_id" : 860,
+         "era_key" : "乾隆",
+         "hangul" : "건륭",
+         "name" : "乾隆",
+         "offset" : 1735,
+         "tw" : "乾隆",
+         "ukey" : "乾隆,1735"
+      },
+      {
+         "_possibles" : [
+            [
+               860,
+               "乾隆",
+               1735
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Geollyung",
+         "en2" : "Qianlong",
+         "hangul" : "건륭",
+         "name" : "乾隆",
+         "offset" : 1776,
+         "tw" : "乾隆",
+         "ukey" : "乾隆,1776"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Gagyeong",
+         "en2" : "Jiaqing",
+         "era_id" : 1639,
+         "era_key" : "嘉慶(丙辰)",
+         "hangul" : "가경",
+         "name" : "嘉慶",
+         "offset" : 1795,
+         "tw" : "嘉慶",
+         "ukey" : "嘉慶,1795"
+      },
+      {
+         "_possibles" : [
+            [
+               1428,
+               "嘉慶",
+               1386
+            ],
+            [
+               1639,
+               "嘉慶(丙辰)",
+               1795
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Gagyeong",
+         "en2" : "Jiaqing",
+         "hangul" : "가경",
+         "name" : "嘉慶",
+         "offset" : 1800,
+         "tw" : "嘉慶",
+         "ukey" : "嘉慶,1800"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Dogwang",
+         "en2" : "Daoguang",
+         "era_id" : 687,
+         "era_key" : "道光",
+         "hangul" : "도광",
+         "name" : "道光",
+         "offset" : 1820,
+         "tw" : "道光",
+         "ukey" : "道光,1820"
+      },
+      {
+         "_possibles" : [
+            [
+               687,
+               "道光",
+               1820
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Dogwang",
+         "en2" : "Daoguang",
+         "hangul" : "도광",
+         "name" : "道光",
+         "offset" : 1834,
+         "tw" : "道光",
+         "ukey" : "道光,1834"
+      },
+      {
+         "_possibles" : [
+            [
+               687,
+               "道光",
+               1820
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Dogwang",
+         "en2" : "Daoguang",
+         "hangul" : "도광",
+         "name" : "道光",
+         "offset" : 1849,
+         "tw" : "道光",
+         "ukey" : "道光,1849"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Hampung",
+         "en2" : "Xianfeng",
+         "era_id" : 738,
+         "era_key" : "咸豐",
+         "hangul" : "함풍",
+         "name" : "咸豊",
+         "offset" : 1850,
+         "tw" : "咸豊",
+         "ukey" : "咸豊,1850"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Dongchi",
+         "en2" : "Tongzhi",
+         "era_id" : 1292,
+         "era_key" : "同治",
+         "hangul" : "동치",
+         "name" : "同治",
+         "offset" : 1861,
+         "tw" : "同治",
+         "ukey" : "同治,1861"
+      },
+      {
+         "_possibles" : [
+            [
+               1292,
+               "同治",
+               1861
+            ]
+         ],
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Dongchi",
+         "en2" : "Tongzhi",
+         "hangul" : "동치",
+         "name" : "同治",
+         "offset" : 1863,
+         "tw" : "同治",
+         "ukey" : "同治,1863"
+      },
+      {
+         "caption" : "Joseon",
+         "dup" : 1,
+         "en" : "Gwangseo",
+         "en2" : "Guangxu",
+         "era_id" : 681,
+         "era_key" : "光緒",
+         "hangul" : "광서",
+         "name" : "光緖",
+         "offset" : 1874,
+         "tw" : "光緖",
+         "ukey" : "光緖,1874"
+      },
+      {
+         "_possibles" : [
+            [
+               772,
+               "開國",
+               1391
+            ],
+            [
+               1268,
+               "開國(辛未)",
+               550
+            ]
+         ],
+         "caption" : "Joseon",
+         "en" : "Gaeguk",
+         "hangul" : "개국",
+         "name" : "開國",
+         "offset" : 1893,
+         "tw" : "開國",
+         "ukey" : "開國,1893"
+      },
+      {
+         "caption" : "Joseon",
+         "en" : "Geon-yang",
+         "era_id" : 677,
+         "era_key" : "建陽",
+         "hangul" : "건양",
+         "name" : "建陽",
+         "offset" : 1895,
+         "tw" : "建陽",
+         "ukey" : "建陽,1895"
+      },
+      {
+         "caption" : "Korean Empire",
+         "en" : "Gwangmu",
+         "era_id" : 815,
+         "era_key" : "光武",
+         "hangul" : "광무",
+         "name" : "光武",
+         "offset" : 1896,
+         "tw" : "光武",
+         "ukey" : "光武,1896"
+      },
+      {
+         "caption" : "Korean Empire",
+         "en" : "Yunghui",
+         "era_id" : 1274,
+         "era_key" : "隆熙",
+         "hangul" : "융희",
+         "name" : "隆熙",
+         "offset" : 1906,
+         "tw" : "隆熙",
+         "ukey" : "隆熙,1906"
+      },
+      {
+         "_possibles" : [
+            [
+               1,
+               "明治",
+               1867
+            ],
+            [
+               1125,
+               "明治(大理國)",
+               996
+            ],
+            [
+               2063,
+               "明治(甲午)",
+               993
+            ]
+         ],
+         "caption" : "Korea under Japanese rule",
+         "dup" : 1,
+         "en" : "Myeongchi",
+         "en2" : "Meiji",
+         "hangul" : "명치",
+         "name" : "明治",
+         "offset" : 1909,
+         "tw" : "明治",
+         "ukey" : "明治,1909",
+         "wref" : "Meiji_(era)"
+      },
+      {
+         "caption" : "Korea under Japanese rule",
+         "dup" : 1,
+         "en" : "Daejeong",
+         "en2" : "Taishō",
+         "era_id" : 2,
+         "era_key" : "大正",
+         "hangul" : "대정",
+         "name" : "大正",
+         "offset" : 1911,
+         "tw" : "大正",
+         "ukey" : "大正,1911",
+         "wref" : "Taishō"
+      },
+      {
+         "caption" : "Korea under Japanese rule",
+         "dup" : 1,
+         "en" : "Sohwa",
+         "en2" : "Shōwa",
+         "era_id" : 3,
+         "era_key" : "昭和",
+         "hangul" : "소화",
+         "name" : "昭和",
+         "offset" : 1925,
+         "tw" : "昭和",
+         "ukey" : "昭和,1925",
+         "wref" : "Shōwa_(1926–1989)"
+      },
+      {
+         "_possibles" : [
+            [
+               260,
+               "대한민국",
+               1918
+            ]
+         ],
+         "caption" : "Republic_of_Korea",
+         "en" : "Daehan minguk",
+         "hangul" : "대한민국",
+         "name" : "大韓民國",
+         "offset" : 1947,
+         "tw" : "大韓民國",
+         "ukey" : "大韓民國,1947",
+         "wref" : null
+      },
+      {
+         "_possibles" : [
+            [
+               913,
+               "단기",
+               -2333
+            ]
+         ],
+         "caption" : "Republic_of_Korea",
+         "en" : "Dangun-giwon",
+         "hangul" : "단군기원",
+         "name" : "檀君紀元",
+         "offset" : 1947,
+         "tw" : "檀君紀元",
+         "ukey" : "檀君紀元,1947",
+         "wref" : null
+      },
+      {
+         "_possibles" : [
+            [
+               20,
+               "AD",
+               0
+            ]
+         ],
+         "caption" : "Republic_of_Korea",
+         "en" : "Seoryeok-giwon",
+         "hangul" : "서력기원",
+         "name" : "西曆紀元",
+         "offset" : 1961,
+         "tw" : "西曆紀元",
+         "ukey" : "西曆紀元,1961",
+         "wref" : null
+      },
+      {
+         "caption" : "Democratic People's Republic of Korea",
+         "en" : "Juche",
+         "hangul" : "주체",
+         "name" : "主體",
+         "offset" : 1911,
+         "tw" : "主體",
+         "ukey" : "主體,1911",
+         "wref" : null
+      }
+   ],
+   "page_name" : "Korean era name",
+   "wref_key" : "wref_en"
+}

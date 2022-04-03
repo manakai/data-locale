@@ -1,0 +1,3089 @@
+{
+   "_errors" : [
+      [
+         "Era mapping is missing",
+         "永祚,987",
+         "Thời_kỳ_Heian_(794–1192)"
+      ],
+      [
+         "Era not found",
+         "Sujaku,671"
+      ],
+      [
+         "Era not found",
+         "Hakuhō,672"
+      ]
+   ],
+   "eras" : [
+      {
+         "caption" : "Thời kỳ Asuka (538–710)",
+         "era_id" : 1621,
+         "era_key" : "大化",
+         "ja" : "大化",
+         "name" : "大化",
+         "offset" : 644,
+         "romaji" : "Taika",
+         "ukey" : "大化,644",
+         "vi" : "Đại Hóa"
+      },
+      {
+         "caption" : "Thời kỳ Asuka (538–710)",
+         "era_id" : 126,
+         "era_key" : "白雉",
+         "ja" : "白雉",
+         "name" : "白雉",
+         "offset" : 649,
+         "romaji" : "Hakuchi",
+         "romajis" : [
+            "Hakuhō"
+         ],
+         "ukey" : "白雉,649",
+         "vi" : "Bạch Trĩ"
+      },
+      {
+         "caption" : "Thời kỳ Asuka (538–710)",
+         "era_id" : 1391,
+         "era_key" : "朱鳥",
+         "ja" : "朱鳥",
+         "name" : "朱鳥",
+         "offset" : 685,
+         "romaji" : "Shuchō",
+         "romajis" : [
+            "Suchō",
+            "Akamitori",
+            "Akamidori"
+         ],
+         "ukey" : "朱鳥,685",
+         "vi" : "Chu Điểu"
+      },
+      {
+         "caption" : "Thời kỳ Asuka (538–710)",
+         "era_id" : 554,
+         "era_key" : "大宝",
+         "ja" : "大宝",
+         "name" : "大宝",
+         "offset" : 700,
+         "romaji" : "Taihō",
+         "romajis" : [
+            "Daihō"
+         ],
+         "ukey" : "大宝,700",
+         "vi" : "Đại Bảo"
+      },
+      {
+         "caption" : "Thời kỳ Asuka (538–710)",
+         "era_id" : 506,
+         "era_key" : "慶雲",
+         "ja" : "慶雲",
+         "name" : "慶雲",
+         "offset" : 703,
+         "romaji" : "Keiun",
+         "romajis" : [
+            "Kyōun"
+         ],
+         "ukey" : "慶雲,703",
+         "vi" : "Khánh Vân"
+      },
+      {
+         "caption" : "Thời kỳ Asuka (538–710)",
+         "era_id" : 303,
+         "era_key" : "和銅",
+         "ja" : "和銅",
+         "name" : "和銅",
+         "offset" : 707,
+         "romaji" : "Wadō",
+         "ukey" : "和銅,707",
+         "vi" : "Hòa Đồng"
+      },
+      {
+         "caption" : "Thời kỳ Nara (710–794)",
+         "era_id" : 371,
+         "era_key" : "霊亀",
+         "ja" : "霊亀",
+         "name" : "霊亀",
+         "offset" : 714,
+         "romaji" : "Reiki",
+         "ukey" : "霊亀,714",
+         "vi" : "Linh Quy"
+      },
+      {
+         "caption" : "Thời kỳ Nara (710–794)",
+         "era_id" : 914,
+         "era_key" : "養老",
+         "ja" : "養老",
+         "name" : "養老",
+         "offset" : 716,
+         "romaji" : "Yōrō",
+         "ukey" : "養老,716",
+         "vi" : "Dưỡng Lão"
+      },
+      {
+         "caption" : "Thời kỳ Nara (710–794)",
+         "era_id" : 1045,
+         "era_key" : "神亀",
+         "ja" : "神亀",
+         "name" : "神亀",
+         "offset" : 723,
+         "romaji" : "Jinki",
+         "romajis" : [
+            "Shinki"
+         ],
+         "ukey" : "神亀,723",
+         "vi" : "Thần Quy"
+      },
+      {
+         "caption" : "Thời kỳ Nara (710–794)",
+         "era_id" : 1052,
+         "era_key" : "天平",
+         "ja" : "天平",
+         "name" : "天平",
+         "offset" : 728,
+         "romaji" : "Tenpyō",
+         "romajis" : [
+            "Tenbyō",
+            "Tenhei"
+         ],
+         "ukey" : "天平,728",
+         "vi" : "Thiên Bình"
+      },
+      {
+         "caption" : "Thời kỳ Nara (710–794)",
+         "era_id" : 1002,
+         "era_key" : "天平感宝",
+         "ja" : "天平感宝",
+         "name" : "天平感宝",
+         "offset" : 748,
+         "romaji" : "Tenpyō-kanpō",
+         "romajis" : [
+            "Tenbyō-kanpō"
+         ],
+         "ukey" : "天平感宝,748",
+         "vi" : "Thiên Bình Cảm Bảo"
+      },
+      {
+         "caption" : "Thời kỳ Nara (710–794)",
+         "era_id" : 437,
+         "era_key" : "天平勝宝",
+         "ja" : "天平勝宝",
+         "name" : "天平勝宝",
+         "offset" : 748,
+         "romaji" : "Tenpyō-shōhō",
+         "romajis" : [
+            "Tenbyō-shōbō",
+            "Tenpei-shōhō"
+         ],
+         "ukey" : "天平勝宝,748",
+         "vi" : "Thiên Bình Thắng Bảo"
+      },
+      {
+         "caption" : "Thời kỳ Nara (710–794)",
+         "era_id" : 1019,
+         "era_key" : "天平宝字",
+         "ja" : "天平宝字",
+         "name" : "天平宝字",
+         "offset" : 756,
+         "romaji" : "Tenpyō-hōji",
+         "romajis" : [
+            "Tenbyō-hōji",
+            "Tenpei-hōji"
+         ],
+         "ukey" : "天平宝字,756",
+         "vi" : "Thiên Bình Bảo Tự"
+      },
+      {
+         "caption" : "Thời kỳ Nara (710–794)",
+         "era_id" : 1067,
+         "era_key" : "天平神護",
+         "ja" : "天平神護",
+         "name" : "天平神護",
+         "offset" : 764,
+         "romaji" : "Tenpyō-jingo",
+         "romajis" : [
+            "Tenbyō-jingo",
+            "Tenhei-jingo"
+         ],
+         "ukey" : "天平神護,764",
+         "vi" : "Thiên Bình Thần Hộ"
+      },
+      {
+         "caption" : "Thời kỳ Nara (710–794)",
+         "era_id" : 432,
+         "era_key" : "神護景雲",
+         "ja" : "神護景雲",
+         "name" : "神護景雲",
+         "offset" : 766,
+         "romaji" : "Jingo-keiun",
+         "ukey" : "神護景雲,766",
+         "vi" : "Thần Hộ Cảnh Vân"
+      },
+      {
+         "caption" : "Thời kỳ Nara (710–794)",
+         "era_id" : 416,
+         "era_key" : "宝亀",
+         "ja" : "宝亀",
+         "name" : "宝亀",
+         "offset" : 769,
+         "romaji" : "Hōki",
+         "ukey" : "宝亀,769",
+         "vi" : "Bảo Quy"
+      },
+      {
+         "caption" : "Thời kỳ Nara (710–794)",
+         "era_id" : 804,
+         "era_key" : "天応",
+         "ja" : "天応",
+         "name" : "天応",
+         "offset" : 780,
+         "romaji" : "Ten'ō",
+         "ukey" : "天応,780",
+         "vi" : "Thiên Ứng"
+      },
+      {
+         "caption" : "Thời kỳ Nara (710–794)",
+         "era_id" : 499,
+         "era_key" : "延暦",
+         "ja" : "延暦",
+         "name" : "延暦",
+         "offset" : 781,
+         "romaji" : "Enryaku",
+         "ukey" : "延暦,781",
+         "vi" : "Duyên Lịch"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1007,
+         "era_key" : "大同",
+         "ja" : "大同",
+         "name" : "大同",
+         "offset" : 805,
+         "romaji" : "Daidō",
+         "ukey" : "大同,805",
+         "vi" : "Đại Đồng"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1371,
+         "era_key" : "弘仁",
+         "ja" : "弘仁",
+         "name" : "弘仁",
+         "offset" : 809,
+         "romaji" : "Kōnin",
+         "ukey" : "弘仁,809",
+         "vi" : "Hoằng Nhân"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 483,
+         "era_key" : "天長",
+         "ja" : "天長",
+         "name" : "天長",
+         "offset" : 823,
+         "romaji" : "Tenchō",
+         "ukey" : "天長,823",
+         "vi" : "Thiên Trường"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 467,
+         "era_key" : "承和",
+         "ja" : "承和",
+         "name" : "承和",
+         "offset" : 833,
+         "romaji" : "Jōwa",
+         "romajis" : [
+            "Shōwa",
+            "Sōwa"
+         ],
+         "ukey" : "承和,833",
+         "vi" : "Thừa Hòa"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 951,
+         "era_key" : "嘉祥",
+         "ja" : "嘉祥",
+         "name" : "嘉祥",
+         "offset" : 847,
+         "romaji" : "Kashō",
+         "romajis" : [
+            "Kajō"
+         ],
+         "ukey" : "嘉祥,847",
+         "vi" : "Gia Tường"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1311,
+         "era_key" : "仁寿",
+         "ja" : "仁寿",
+         "name" : "仁寿",
+         "offset" : 850,
+         "romaji" : "Ninju",
+         "ukey" : "仁寿,850",
+         "vi" : "Nhân Thọ"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 69,
+         "era_key" : "斉衡",
+         "ja" : "斉衡",
+         "name" : "斉衡",
+         "offset" : 853,
+         "romaji" : "Saikō",
+         "ukey" : "斉衡,853",
+         "vi" : "Tề Hành"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1169,
+         "era_key" : "天安",
+         "ja" : "天安",
+         "name" : "天安",
+         "offset" : 856,
+         "romaji" : "Ten'an",
+         "romajis" : [
+            "Tennan"
+         ],
+         "ukey" : "天安,856",
+         "vi" : "Thiên An"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 897,
+         "era_key" : "貞観",
+         "ja" : "貞観",
+         "name" : "貞観",
+         "offset" : 858,
+         "romaji" : "Jōgan",
+         "ukey" : "貞観,858",
+         "vi" : "Trinh Quán"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1467,
+         "era_key" : "元慶",
+         "ja" : "元慶",
+         "name" : "元慶",
+         "offset" : 876,
+         "romaji" : "Gangyō",
+         "romajis" : [
+            "Gankyō",
+            "Genkei"
+         ],
+         "ukey" : "元慶,876",
+         "vi" : "Nguyên Khánh"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 40,
+         "era_key" : "仁和",
+         "ja" : "仁和",
+         "name" : "仁和",
+         "offset" : 884,
+         "romaji" : "Ninna",
+         "romajis" : [
+            "Ninwa"
+         ],
+         "ukey" : "仁和,884",
+         "vi" : "Nhân Hòa"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 81,
+         "era_key" : "寛平",
+         "ja" : "寛平",
+         "name" : "寛平",
+         "offset" : 888,
+         "romaji" : "Kanpyō",
+         "romajis" : [
+            "Kanpei",
+            "Kanbyō",
+            "Kanbei",
+            "Kanhei"
+         ],
+         "ukey" : "寛平,888",
+         "vi" : "Khoan Bình"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1116,
+         "era_key" : "昌泰",
+         "ja" : "昌泰",
+         "name" : "昌泰",
+         "offset" : 897,
+         "romaji" : "Shōtai",
+         "ukey" : "昌泰,897",
+         "vi" : "Xương Thái"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1144,
+         "era_key" : "延喜",
+         "ja" : "延喜",
+         "name" : "延喜",
+         "offset" : 900,
+         "romaji" : "Engi",
+         "ukey" : "延喜,900",
+         "vi" : "Diên Hy"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1395,
+         "era_key" : "延長",
+         "ja" : "延長",
+         "name" : "延長",
+         "offset" : 922,
+         "romaji" : "Enchō",
+         "ukey" : "延長,922",
+         "vi" : "Diên Trường"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 530,
+         "era_key" : "承平",
+         "ja" : "承平",
+         "name" : "承平",
+         "offset" : 930,
+         "romaji" : "Jōhei",
+         "romajis" : [
+            "Shōhei"
+         ],
+         "ukey" : "承平,930",
+         "vi" : "Thừa Bình"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 276,
+         "era_key" : "天慶",
+         "ja" : "天慶",
+         "name" : "天慶",
+         "offset" : 937,
+         "romaji" : "Tengyō",
+         "romajis" : [
+            "Tenkei",
+            "Tenkyō"
+         ],
+         "ukey" : "天慶,937",
+         "vi" : "Thiên Khánh"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 992,
+         "era_key" : "天暦",
+         "ja" : "天暦",
+         "name" : "天暦",
+         "offset" : 946,
+         "romaji" : "Tenryaku",
+         "romajis" : [
+            "Tenreki"
+         ],
+         "ukey" : "天暦,946",
+         "vi" : "Thiên Lịch"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1152,
+         "era_key" : "天徳",
+         "ja" : "天徳",
+         "name" : "天徳",
+         "offset" : 956,
+         "romaji" : "Tentoku",
+         "ukey" : "天徳,956",
+         "vi" : "Thiên Đức"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 174,
+         "era_key" : "応和",
+         "ja" : "応和",
+         "name" : "応和",
+         "offset" : 960,
+         "romaji" : "Ōwa",
+         "ukey" : "応和,960",
+         "vi" : "Ứng Hòa"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 513,
+         "era_key" : "康保",
+         "ja" : "康保",
+         "name" : "康保",
+         "offset" : 963,
+         "romaji" : "Kōhō",
+         "ukey" : "康保,963",
+         "vi" : "Khang Bảo"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 358,
+         "era_key" : "安和",
+         "ja" : "安和",
+         "name" : "安和",
+         "offset" : 967,
+         "romaji" : "Anna",
+         "romajis" : [
+            "Anwa"
+         ],
+         "ukey" : "安和,967",
+         "vi" : "An Hòa"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 964,
+         "era_key" : "天禄",
+         "ja" : "天禄",
+         "name" : "天禄",
+         "offset" : 969,
+         "romaji" : "Tenroku",
+         "ukey" : "天禄,969",
+         "vi" : "Thiên Lộc"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 225,
+         "era_key" : "天延",
+         "ja" : "天延",
+         "name" : "天延",
+         "offset" : 972,
+         "romaji" : "Ten'en",
+         "ukey" : "天延,972",
+         "vi" : "Thiên Diên"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1356,
+         "era_key" : "貞元",
+         "ja" : "貞元",
+         "name" : "貞元",
+         "offset" : 975,
+         "romaji" : "Jōgen",
+         "romajis" : [
+            "Teigen"
+         ],
+         "ukey" : "貞元,975",
+         "vi" : "Trinh Nguyên"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 978,
+         "era_key" : "天元",
+         "ja" : "天元",
+         "name" : "天元",
+         "offset" : 977,
+         "romaji" : "Tengen",
+         "ukey" : "天元,977",
+         "vi" : "Thiên Nguyên"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1172,
+         "era_key" : "永観",
+         "ja" : "永観",
+         "name" : "永観",
+         "offset" : 982,
+         "romaji" : "Eikan",
+         "romajis" : [
+            "Yōkan"
+         ],
+         "ukey" : "永観,982",
+         "vi" : "Vĩnh Quán"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1097,
+         "era_key" : "寛和",
+         "ja" : "寛和",
+         "name" : "寛和",
+         "offset" : 984,
+         "romaji" : "Kanna",
+         "romajis" : [
+            "Kanwa"
+         ],
+         "ukey" : "寛和,984",
+         "vi" : "Khoan Hòa"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 209,
+         "era_key" : "永延",
+         "ja" : "永延",
+         "name" : "永延",
+         "offset" : 986,
+         "romaji" : "Eien",
+         "romajis" : [
+            "Yōen"
+         ],
+         "ukey" : "永延,986",
+         "vi" : "Vĩnh Diên"
+      },
+      {
+         "_possibles" : [
+            [
+               249,
+               "永祚(己未)",
+               1618
+            ],
+            [
+               705,
+               "永祚",
+               988
+            ]
+         ],
+         "caption" : "Thời_kỳ_Heian_(794–1192)",
+         "ja" : "永祚",
+         "name" : "永祚",
+         "offset" : 987,
+         "romaji" : "Eiso",
+         "romajis" : [
+            "Yōso"
+         ],
+         "ukey" : "永祚,987",
+         "vi" : "Vĩnh Tộ"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1597,
+         "era_key" : "正暦",
+         "ja" : "正暦",
+         "name" : "正暦",
+         "offset" : 989,
+         "romaji" : "Shōryaku",
+         "romajis" : [
+            "Jōryaku",
+            "Shōreki"
+         ],
+         "ukey" : "正暦,989",
+         "vi" : "Chính Lịch"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 100,
+         "era_key" : "長徳",
+         "ja" : "長徳",
+         "name" : "長徳",
+         "offset" : 994,
+         "romaji" : "Chōtoku",
+         "ukey" : "長徳,994",
+         "vi" : "Trường Đức"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1345,
+         "era_key" : "長保",
+         "ja" : "長保",
+         "name" : "長保",
+         "offset" : 998,
+         "romaji" : "Chōhō",
+         "ukey" : "長保,998",
+         "vi" : "Trường Bảo"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1602,
+         "era_key" : "寛弘",
+         "ja" : "寛弘",
+         "name" : "寛弘",
+         "offset" : 1003,
+         "romaji" : "Kankō",
+         "ukey" : "寛弘,1003",
+         "vi" : "Khoan Hoằng"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1640,
+         "era_key" : "長和",
+         "ja" : "長和",
+         "name" : "長和",
+         "offset" : 1011,
+         "romaji" : "Chōwa",
+         "ukey" : "長和,1011",
+         "vi" : "Trường Hòa"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1011,
+         "era_key" : "寛仁",
+         "ja" : "寛仁",
+         "name" : "寛仁",
+         "offset" : 1016,
+         "romaji" : "Kannin",
+         "ukey" : "寛仁,1016",
+         "vi" : "Khoan Nhân"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1584,
+         "era_key" : "治安",
+         "ja" : "治安",
+         "name" : "治安",
+         "offset" : 1020,
+         "romaji" : "Jian",
+         "romajis" : [
+            "Chian"
+         ],
+         "ukey" : "治安,1020",
+         "vi" : "Trị An"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 189,
+         "era_key" : "万寿",
+         "ja" : "万寿",
+         "name" : "万寿",
+         "offset" : 1023,
+         "romaji" : "Manju",
+         "ukey" : "万寿,1023",
+         "vi" : "Vạn Thọ"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1342,
+         "era_key" : "長元",
+         "ja" : "長元",
+         "name" : "長元",
+         "offset" : 1027,
+         "romaji" : "Chōgen",
+         "ukey" : "長元,1027",
+         "vi" : "Trường Nguyên"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 803,
+         "era_key" : "長暦",
+         "ja" : "長暦",
+         "name" : "長暦",
+         "offset" : 1036,
+         "romaji" : "Chōryaku",
+         "romajis" : [
+            "Chōreki"
+         ],
+         "ukey" : "長暦,1036",
+         "vi" : "Trường Lịch"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 558,
+         "era_key" : "長久",
+         "ja" : "長久",
+         "name" : "長久",
+         "offset" : 1039,
+         "romaji" : "Chōkyū",
+         "ukey" : "長久,1039",
+         "vi" : "Trường Cửu"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 577,
+         "era_key" : "寛徳",
+         "ja" : "寛徳",
+         "name" : "寛徳",
+         "offset" : 1043,
+         "romaji" : "Kantoku",
+         "ukey" : "寛徳,1043",
+         "vi" : "Khoan Đức"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 305,
+         "era_key" : "永承",
+         "ja" : "永承",
+         "name" : "永承",
+         "offset" : 1045,
+         "romaji" : "Eishō",
+         "romajis" : [
+            "Eijō",
+            "Yōjō"
+         ],
+         "ukey" : "永承,1045",
+         "vi" : "Vĩnh Thừa"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 640,
+         "era_key" : "天喜",
+         "ja" : "天喜",
+         "name" : "天喜",
+         "offset" : 1052,
+         "romaji" : "Tengi",
+         "romajis" : [
+            "Tenki"
+         ],
+         "ukey" : "天喜,1052",
+         "vi" : "Thiên Hỷ"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 333,
+         "era_key" : "康平",
+         "ja" : "康平",
+         "name" : "康平",
+         "offset" : 1057,
+         "romaji" : "Kōhei",
+         "ukey" : "康平,1057",
+         "vi" : "Khang Bình"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 111,
+         "era_key" : "治暦",
+         "ja" : "治暦",
+         "name" : "治暦",
+         "offset" : 1064,
+         "romaji" : "Jiryaku",
+         "romajis" : [
+            "Chiryaku"
+         ],
+         "ukey" : "治暦,1064",
+         "vi" : "Trị Lịch"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1286,
+         "era_key" : "延久",
+         "ja" : "延久",
+         "name" : "延久",
+         "offset" : 1068,
+         "romaji" : "Enkyū",
+         "ukey" : "延久,1068",
+         "vi" : "Diên Cửu"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 788,
+         "era_key" : "承保",
+         "ja" : "承保",
+         "name" : "承保",
+         "offset" : 1073,
+         "romaji" : "Jōhō",
+         "romajis" : [
+            "Shōhō",
+            "Shōho"
+         ],
+         "ukey" : "承保,1073",
+         "vi" : "Thừa Bảo"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1022,
+         "era_key" : "承暦",
+         "ja" : "承暦",
+         "name" : "承暦",
+         "offset" : 1076,
+         "romaji" : "Jōryaku",
+         "romajis" : [
+            "Shōryaku",
+            "Shōreki"
+         ],
+         "ukey" : "承暦,1076",
+         "vi" : "Thừa Lịch"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 367,
+         "era_key" : "永保",
+         "ja" : "永保",
+         "name" : "永保",
+         "offset" : 1080,
+         "romaji" : "Eihō",
+         "romajis" : [
+            "Yōhō"
+         ],
+         "ukey" : "永保,1080",
+         "vi" : "Vĩnh Bảo"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 704,
+         "era_key" : "応徳",
+         "ja" : "応徳",
+         "name" : "応徳",
+         "offset" : 1083,
+         "romaji" : "Ōtoku",
+         "ukey" : "応徳,1083",
+         "vi" : "Ứng Đức"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1326,
+         "era_key" : "寛治",
+         "ja" : "寛治",
+         "name" : "寛治",
+         "offset" : 1086,
+         "romaji" : "Kanji",
+         "ukey" : "寛治,1086",
+         "vi" : "Khoan Trị"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 236,
+         "era_key" : "嘉保",
+         "ja" : "嘉保",
+         "name" : "嘉保",
+         "offset" : 1093,
+         "romaji" : "Kahō",
+         "ukey" : "嘉保,1093",
+         "vi" : "Gia Bảo"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 342,
+         "era_key" : "永長",
+         "ja" : "永長",
+         "name" : "永長",
+         "offset" : 1095,
+         "romaji" : "Eichō",
+         "romajis" : [
+            "Yōchō"
+         ],
+         "ukey" : "永長,1095",
+         "vi" : "Vĩnh Trường"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 593,
+         "era_key" : "承徳",
+         "ja" : "承徳",
+         "name" : "承徳",
+         "offset" : 1096,
+         "romaji" : "Jōtoku",
+         "romajis" : [
+            "Shōtoku"
+         ],
+         "ukey" : "承徳,1096",
+         "vi" : "Thừa Đức"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 172,
+         "era_key" : "康和",
+         "ja" : "康和",
+         "name" : "康和",
+         "offset" : 1098,
+         "romaji" : "Kōwa",
+         "ukey" : "康和,1098",
+         "vi" : "Khang Hòa"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1603,
+         "era_key" : "長治",
+         "ja" : "長治",
+         "name" : "長治",
+         "offset" : 1103,
+         "romaji" : "Chōji",
+         "ukey" : "長治,1103",
+         "vi" : "Trường Trị"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1094,
+         "era_key" : "嘉承",
+         "ja" : "嘉承",
+         "name" : "嘉承",
+         "offset" : 1105,
+         "romaji" : "Kajō",
+         "romajis" : [
+            "Kashō",
+            "Kasō"
+         ],
+         "ukey" : "嘉承,1105",
+         "vi" : "Gia Thừa"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1697,
+         "era_key" : "天仁",
+         "ja" : "天仁",
+         "name" : "天仁",
+         "offset" : 1107,
+         "romaji" : "Tennin",
+         "ukey" : "天仁,1107",
+         "vi" : "Thiên Nhân"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1533,
+         "era_key" : "天永",
+         "ja" : "天永",
+         "name" : "天永",
+         "offset" : 1109,
+         "romaji" : "Ten'ei",
+         "romajis" : [
+            "Ten'yō"
+         ],
+         "ukey" : "天永,1109",
+         "vi" : "Thiên Vĩnh"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 397,
+         "era_key" : "永久",
+         "ja" : "永久",
+         "name" : "永久",
+         "offset" : 1112,
+         "romaji" : "Eikyū",
+         "romajis" : [
+            "Yōkyū"
+         ],
+         "ukey" : "永久,1112",
+         "vi" : "Vĩnh Cửu"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1080,
+         "era_key" : "元永",
+         "ja" : "元永",
+         "name" : "元永",
+         "offset" : 1117,
+         "romaji" : "Gen'ei",
+         "ukey" : "元永,1117",
+         "vi" : "Nguyên Vĩnh"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1521,
+         "era_key" : "保安",
+         "ja" : "保安",
+         "name" : "保安",
+         "offset" : 1119,
+         "romaji" : "Hōan",
+         "ukey" : "保安,1119",
+         "vi" : "Bảo An"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1160,
+         "era_key" : "天治",
+         "ja" : "天治",
+         "name" : "天治",
+         "offset" : 1123,
+         "romaji" : "Tenji",
+         "romajis" : [
+            "Tenchi"
+         ],
+         "ukey" : "天治,1123",
+         "vi" : "Thiên Trị"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 79,
+         "era_key" : "大治",
+         "ja" : "大治",
+         "name" : "大治",
+         "offset" : 1125,
+         "romaji" : "Daiji",
+         "romajis" : [
+            "Taiji"
+         ],
+         "ukey" : "大治,1125",
+         "vi" : "Đại Trị"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 271,
+         "era_key" : "天承",
+         "ja" : "天承",
+         "name" : "天承",
+         "offset" : 1130,
+         "romaji" : "Tenshō",
+         "romajis" : [
+            "Tenjō"
+         ],
+         "ukey" : "天承,1130",
+         "vi" : "Thiên Thừa"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1444,
+         "era_key" : "長承",
+         "ja" : "長承",
+         "name" : "長承",
+         "offset" : 1131,
+         "romaji" : "Chōshō",
+         "romajis" : [
+            "Chōjō"
+         ],
+         "ukey" : "長承,1131",
+         "vi" : "Trường Thừa"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 425,
+         "era_key" : "保延",
+         "ja" : "保延",
+         "name" : "保延",
+         "offset" : 1134,
+         "romaji" : "Hōen",
+         "ukey" : "保延,1134",
+         "vi" : "Bảo Diên"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 414,
+         "era_key" : "永治",
+         "ja" : "永治",
+         "name" : "永治",
+         "offset" : 1140,
+         "romaji" : "Eiji",
+         "ukey" : "永治,1140",
+         "vi" : "Vĩnh Trị"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1186,
+         "era_key" : "康治",
+         "ja" : "康治",
+         "name" : "康治",
+         "offset" : 1141,
+         "romaji" : "Kōji",
+         "ukey" : "康治,1141",
+         "vi" : "Khang Trị"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1171,
+         "era_key" : "天養",
+         "ja" : "天養",
+         "name" : "天養",
+         "offset" : 1143,
+         "romaji" : "Ten'yō",
+         "romajis" : [
+            "Tennyō"
+         ],
+         "ukey" : "天養,1143",
+         "vi" : "Thiên Dưỡng"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 858,
+         "era_key" : "久安",
+         "ja" : "久安",
+         "name" : "久安",
+         "offset" : 1144,
+         "romaji" : "Kyūan",
+         "ukey" : "久安,1144",
+         "vi" : "Cửu An"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1194,
+         "era_key" : "仁平",
+         "ja" : "仁平",
+         "name" : "仁平",
+         "offset" : 1150,
+         "romaji" : "Ninpei",
+         "romajis" : [
+            "Ninpyō",
+            "Ninbyō",
+            "Ninhyō",
+            "Ninhei"
+         ],
+         "ukey" : "仁平,1150",
+         "vi" : "Nhân Bình"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 370,
+         "era_key" : "久寿",
+         "ja" : "久寿",
+         "name" : "久寿",
+         "offset" : 1153,
+         "romaji" : "Kyūju",
+         "ukey" : "久寿,1153",
+         "vi" : "Cửu Thọ"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 237,
+         "era_key" : "保元",
+         "ja" : "保元",
+         "name" : "保元",
+         "offset" : 1155,
+         "romaji" : "Hōgen",
+         "romajis" : [
+            "Hogen"
+         ],
+         "ukey" : "保元,1155",
+         "vi" : "Bảo Nguyên"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 257,
+         "era_key" : "平治",
+         "ja" : "平治",
+         "name" : "平治",
+         "offset" : 1158,
+         "romaji" : "Heiji",
+         "romajis" : [
+            "Byōji"
+         ],
+         "ukey" : "平治,1158",
+         "vi" : "Bình Trị"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 381,
+         "era_key" : "永暦",
+         "ja" : "永暦",
+         "name" : "永暦",
+         "offset" : 1159,
+         "romaji" : "Eiryaku",
+         "romajis" : [
+            "Yōryaku"
+         ],
+         "ukey" : "永暦,1159",
+         "vi" : "Vĩnh Lịch"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 819,
+         "era_key" : "応保",
+         "ja" : "応保",
+         "name" : "応保",
+         "offset" : 1160,
+         "romaji" : "Ōhō",
+         "ukey" : "応保,1160",
+         "vi" : "Ứng Bảo"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 391,
+         "era_key" : "長寛",
+         "ja" : "長寛",
+         "name" : "長寛",
+         "offset" : 1162,
+         "romaji" : "Chōkan",
+         "romajis" : [
+            "Chōgan"
+         ],
+         "ukey" : "長寛,1162",
+         "vi" : "Trường Khoan"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 842,
+         "era_key" : "永万",
+         "ja" : "永万",
+         "name" : "永万",
+         "offset" : 1164,
+         "romaji" : "Eiman",
+         "romajis" : [
+            "Yōman"
+         ],
+         "ukey" : "永万,1164",
+         "vi" : "Vĩnh Vạn"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1233,
+         "era_key" : "仁安",
+         "ja" : "仁安",
+         "name" : "仁安",
+         "offset" : 1165,
+         "romaji" : "Nin'an",
+         "romajis" : [
+            "Ninnan"
+         ],
+         "ukey" : "仁安,1165",
+         "vi" : "Nhân An"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1534,
+         "era_key" : "嘉応",
+         "ja" : "嘉応",
+         "name" : "嘉応",
+         "offset" : 1168,
+         "romaji" : "Kaō",
+         "ukey" : "嘉応,1168",
+         "vi" : "Gia Ứng"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 871,
+         "era_key" : "承安",
+         "ja" : "承安",
+         "name" : "承安",
+         "offset" : 1170,
+         "romaji" : "Jōan",
+         "romajis" : [
+            "Shōan"
+         ],
+         "ukey" : "承安,1170",
+         "vi" : "Thừa An"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 429,
+         "era_key" : "安元",
+         "ja" : "安元",
+         "name" : "安元",
+         "offset" : 1174,
+         "romaji" : "Angen",
+         "ukey" : "安元,1174",
+         "vi" : "An Nguyên"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 186,
+         "era_key" : "治承",
+         "ja" : "治承",
+         "name" : "治承",
+         "offset" : 1176,
+         "romaji" : "Jishō",
+         "romajis" : [
+            "Jijō",
+            "Chishō"
+         ],
+         "ukey" : "治承,1176",
+         "vi" : "Trị Thừa"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 145,
+         "era_key" : "養和",
+         "ja" : "養和",
+         "name" : "養和",
+         "offset" : 1180,
+         "romaji" : "Yōwa",
+         "ukey" : "養和,1180",
+         "vi" : "Dạng Hòa"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 434,
+         "era_key" : "寿永",
+         "ja" : "寿永",
+         "name" : "寿永",
+         "offset" : 1181,
+         "romaji" : "Juei",
+         "ukey" : "寿永,1181",
+         "vi" : "Thọ Vĩnh"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 1357,
+         "era_key" : "元暦",
+         "ja" : "元暦",
+         "name" : "元暦",
+         "offset" : 1183,
+         "romaji" : "Genryaku",
+         "ukey" : "元暦,1183",
+         "vi" : "Nguyên Lịch"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 695,
+         "era_key" : "文治",
+         "ja" : "文治",
+         "name" : "文治",
+         "offset" : 1184,
+         "romaji" : "Bunji",
+         "romajis" : [
+            "Monchi"
+         ],
+         "ukey" : "文治,1184",
+         "vi" : "Văn Trị"
+      },
+      {
+         "caption" : "Thời kỳ Heian (794–1192)",
+         "era_id" : 959,
+         "era_key" : "建久",
+         "ja" : "建久",
+         "name" : "建久",
+         "offset" : 1189,
+         "romaji" : "Kenkyū",
+         "ukey" : "建久,1189",
+         "vi" : "Kiến Cửu"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1279,
+         "era_key" : "正治",
+         "ja" : "正治",
+         "name" : "正治",
+         "offset" : 1198,
+         "romaji" : "Shōji",
+         "ukey" : "正治,1198",
+         "vi" : "Chính Trị"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 933,
+         "era_key" : "建仁",
+         "ja" : "建仁",
+         "name" : "建仁",
+         "offset" : 1200,
+         "romaji" : "Kennin",
+         "ukey" : "建仁,1200",
+         "vi" : "Kiến Nhân"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1259,
+         "era_key" : "元久",
+         "ja" : "元久",
+         "name" : "元久",
+         "offset" : 1203,
+         "romaji" : "Genkyū",
+         "ukey" : "元久,1203",
+         "vi" : "Nguyên Cửu"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 557,
+         "era_key" : "建永",
+         "ja" : "建永",
+         "name" : "建永",
+         "offset" : 1205,
+         "romaji" : "Ken'ei",
+         "romajis" : [
+            "Ken'yō"
+         ],
+         "ukey" : "建永,1205",
+         "vi" : "Kiến Vĩnh"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1648,
+         "era_key" : "承元",
+         "ja" : "承元",
+         "name" : "承元",
+         "offset" : 1206,
+         "romaji" : "Jōgen",
+         "romajis" : [
+            "Shōgen"
+         ],
+         "ukey" : "承元,1206",
+         "vi" : "Thừa Nguyên"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 599,
+         "era_key" : "建暦",
+         "ja" : "建暦",
+         "name" : "建暦",
+         "offset" : 1210,
+         "romaji" : "Kenryaku",
+         "ukey" : "建暦,1210",
+         "vi" : "Kiến Lịch"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1502,
+         "era_key" : "建保",
+         "ja" : "建保",
+         "name" : "建保",
+         "offset" : 1212,
+         "romaji" : "Kenpō",
+         "romajis" : [
+            "Kenhō"
+         ],
+         "ukey" : "建保,1212",
+         "vi" : "Kiến Bảo",
+         "wref" : "Kenpō"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1313,
+         "era_key" : "承久",
+         "ja" : "承久",
+         "name" : "承久",
+         "offset" : 1218,
+         "romaji" : "Jōkyū",
+         "romajis" : [
+            "Shōkyū"
+         ],
+         "ukey" : "承久,1218",
+         "vi" : "Thừa Cửu"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1433,
+         "era_key" : "貞応",
+         "ja" : "貞応",
+         "name" : "貞応",
+         "offset" : 1221,
+         "romaji" : "Jōō",
+         "romajis" : [
+            "Teiō"
+         ],
+         "ukey" : "貞応,1221",
+         "vi" : "Trinh Ứng"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 486,
+         "era_key" : "元仁",
+         "ja" : "元仁",
+         "name" : "元仁",
+         "offset" : 1223,
+         "romaji" : "Gennin",
+         "ukey" : "元仁,1223",
+         "vi" : "Nguyên Nhân"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 608,
+         "era_key" : "嘉禄",
+         "ja" : "嘉禄",
+         "name" : "嘉禄",
+         "offset" : 1224,
+         "romaji" : "Karoku",
+         "ukey" : "嘉禄,1224",
+         "vi" : "Gia Lộc"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 852,
+         "era_key" : "安貞",
+         "ja" : "安貞",
+         "name" : "安貞",
+         "offset" : 1226,
+         "romaji" : "Antei",
+         "romajis" : [
+            "Anjō"
+         ],
+         "ukey" : "安貞,1226",
+         "vi" : "An Trinh"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 137,
+         "era_key" : "寛喜",
+         "ja" : "寛喜",
+         "name" : "寛喜",
+         "offset" : 1228,
+         "romaji" : "Kangi",
+         "romajis" : [
+            "Kanki"
+         ],
+         "ukey" : "寛喜,1228",
+         "vi" : "Khoan Hỷ"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1469,
+         "era_key" : "貞永",
+         "ja" : "貞永",
+         "name" : "貞永",
+         "offset" : 1231,
+         "romaji" : "Jōei",
+         "romajis" : [
+            "Teiei"
+         ],
+         "ukey" : "貞永,1231",
+         "vi" : "Trinh Vĩnh"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1437,
+         "era_key" : "天福",
+         "ja" : "天福",
+         "name" : "天福",
+         "offset" : 1232,
+         "romaji" : "Tenpuku",
+         "romajis" : [
+            "Tenfuku"
+         ],
+         "ukey" : "天福,1232",
+         "vi" : "Thiên Phúc"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1405,
+         "era_key" : "文暦",
+         "ja" : "文暦",
+         "name" : "文暦",
+         "offset" : 1233,
+         "romaji" : "Bunryaku",
+         "romajis" : [
+            "Monryaku",
+            "Monreki"
+         ],
+         "ukey" : "文暦,1233",
+         "vi" : "Văn Lịch"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 972,
+         "era_key" : "嘉禎",
+         "ja" : "嘉禎",
+         "name" : "嘉禎",
+         "offset" : 1234,
+         "romaji" : "Katei",
+         "ukey" : "嘉禎,1234",
+         "vi" : "Gia Trinh"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 773,
+         "era_key" : "暦仁",
+         "ja" : "暦仁",
+         "name" : "暦仁",
+         "offset" : 1237,
+         "romaji" : "Ryakunin",
+         "romajis" : [
+            "Rekinin"
+         ],
+         "ukey" : "暦仁,1237",
+         "vi" : "Lịch Nhân"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1315,
+         "era_key" : "延応",
+         "ja" : "延応",
+         "name" : "延応",
+         "offset" : 1238,
+         "romaji" : "En'ō",
+         "romajis" : [
+            "Ennō"
+         ],
+         "ukey" : "延応,1238",
+         "vi" : "Diên Ứng"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1018,
+         "era_key" : "仁治",
+         "ja" : "仁治",
+         "name" : "仁治",
+         "offset" : 1239,
+         "romaji" : "Ninji",
+         "romajis" : [
+            "Ninchi"
+         ],
+         "ukey" : "仁治,1239",
+         "vi" : "Nhân Trị"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 180,
+         "era_key" : "寛元",
+         "ja" : "寛元",
+         "name" : "寛元",
+         "offset" : 1242,
+         "romaji" : "Kangen",
+         "ukey" : "寛元,1242",
+         "vi" : "Kiến Nguyên"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1189,
+         "era_key" : "宝治",
+         "ja" : "宝治",
+         "name" : "宝治",
+         "offset" : 1246,
+         "romaji" : "Hōji",
+         "ukey" : "宝治,1246",
+         "vi" : "Bảo Trị"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1659,
+         "era_key" : "建長",
+         "ja" : "建長",
+         "name" : "建長",
+         "offset" : 1248,
+         "romaji" : "Kenchō",
+         "ukey" : "建長,1248",
+         "vi" : "Kiến Trường"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 655,
+         "era_key" : "康元",
+         "ja" : "康元",
+         "name" : "康元",
+         "offset" : 1255,
+         "romaji" : "Kōgen",
+         "ukey" : "康元,1255",
+         "vi" : "Khoan Nguyên"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 310,
+         "era_key" : "正嘉",
+         "ja" : "正嘉",
+         "name" : "正嘉",
+         "offset" : 1256,
+         "romaji" : "Shōka",
+         "ukey" : "正嘉,1256",
+         "vi" : "Chính Gia"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 707,
+         "era_key" : "正元",
+         "ja" : "正元",
+         "name" : "正元",
+         "offset" : 1258,
+         "romaji" : "Shōgen",
+         "ukey" : "正元,1258",
+         "vi" : "Chính Nguyên"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1252,
+         "era_key" : "文応",
+         "ja" : "文応",
+         "name" : "文応",
+         "offset" : 1259,
+         "romaji" : "Bun'ō",
+         "romajis" : [
+            "Bunnō"
+         ],
+         "ukey" : "文応,1259",
+         "vi" : "Văn Ứng"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 639,
+         "era_key" : "弘長",
+         "ja" : "弘長",
+         "name" : "弘長",
+         "offset" : 1260,
+         "romaji" : "Kōchō",
+         "ukey" : "弘長,1260",
+         "vi" : "Hoằng Trường"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1077,
+         "era_key" : "文永",
+         "ja" : "文永",
+         "name" : "文永",
+         "offset" : 1263,
+         "romaji" : "Bun'ei",
+         "ukey" : "文永,1263",
+         "vi" : "Văn Vĩnh"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1541,
+         "era_key" : "建治",
+         "ja" : "建治",
+         "name" : "建治",
+         "offset" : 1274,
+         "romaji" : "Kenji",
+         "ukey" : "建治,1274",
+         "vi" : "Kiến Trị"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1042,
+         "era_key" : "弘安",
+         "ja" : "弘安",
+         "name" : "弘安",
+         "offset" : 1277,
+         "romaji" : "Kōan",
+         "ukey" : "弘安,1277",
+         "vi" : "Hoằng An"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 734,
+         "era_key" : "正応",
+         "ja" : "正応",
+         "name" : "正応",
+         "offset" : 1287,
+         "romaji" : "Shōō",
+         "ukey" : "正応,1287",
+         "vi" : "Chính Ứng"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1119,
+         "era_key" : "永仁",
+         "ja" : "永仁",
+         "name" : "永仁",
+         "offset" : 1292,
+         "romaji" : "Einin",
+         "ukey" : "永仁,1292",
+         "vi" : "Vĩnh Nhân"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1454,
+         "era_key" : "正安",
+         "ja" : "正安",
+         "name" : "正安",
+         "offset" : 1298,
+         "romaji" : "Shōan",
+         "ukey" : "正安,1298",
+         "vi" : "Chính An"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1380,
+         "era_key" : "乾元",
+         "ja" : "乾元",
+         "name" : "乾元",
+         "offset" : 1301,
+         "romaji" : "Kengen",
+         "ukey" : "乾元,1301",
+         "vi" : "Càn Nguyên"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 415,
+         "era_key" : "嘉元",
+         "ja" : "嘉元",
+         "name" : "嘉元",
+         "offset" : 1302,
+         "romaji" : "Kagen",
+         "ukey" : "嘉元,1302",
+         "vi" : "Gia Nguyên"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 339,
+         "era_key" : "徳治",
+         "ja" : "徳治",
+         "name" : "徳治",
+         "offset" : 1305,
+         "romaji" : "Tokuji",
+         "ukey" : "徳治,1305",
+         "vi" : "Đức Trị"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 895,
+         "era_key" : "延慶",
+         "ja" : "延慶",
+         "name" : "延慶",
+         "offset" : 1307,
+         "romaji" : "Enkyō",
+         "romajis" : [
+            "Engyō",
+            "Enkei"
+         ],
+         "ukey" : "延慶,1307",
+         "vi" : "Diên Khánh"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1509,
+         "era_key" : "応長",
+         "ja" : "応長",
+         "name" : "応長",
+         "offset" : 1310,
+         "romaji" : "Ōchō",
+         "ukey" : "応長,1310",
+         "vi" : "Ứng Trường"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1498,
+         "era_key" : "正和",
+         "ja" : "正和",
+         "name" : "正和",
+         "offset" : 1311,
+         "romaji" : "Shōwa",
+         "ukey" : "正和,1311",
+         "vi" : "Chính Hòa",
+         "wref" : "Shōwa"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1000,
+         "era_key" : "文保",
+         "ja" : "文保",
+         "name" : "文保",
+         "offset" : 1316,
+         "romaji" : "Bunpō",
+         "romajis" : [
+            "Bunhō"
+         ],
+         "ukey" : "文保,1316",
+         "vi" : "Văn Bảo"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 382,
+         "era_key" : "元応",
+         "ja" : "元応",
+         "name" : "元応",
+         "offset" : 1318,
+         "romaji" : "Gen'ō",
+         "romajis" : [
+            "Gennō"
+         ],
+         "ukey" : "元応,1318",
+         "vi" : "Nguyên Ứng"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 739,
+         "era_key" : "元亨",
+         "ja" : "元亨",
+         "name" : "元亨",
+         "offset" : 1320,
+         "romaji" : "Genkō",
+         "ukey" : "元亨,1320",
+         "vi" : "Nguyên Hanh"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1429,
+         "era_key" : "正中",
+         "ja" : "正中",
+         "name" : "正中",
+         "offset" : 1323,
+         "romaji" : "Shōchū",
+         "ukey" : "正中,1323",
+         "vi" : "Chính Trung"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1229,
+         "era_key" : "嘉暦",
+         "ja" : "嘉暦",
+         "name" : "嘉暦",
+         "offset" : 1325,
+         "romaji" : "Karyaku",
+         "ukey" : "嘉暦,1325",
+         "vi" : "Gia Lịch"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1182,
+         "era_key" : "元徳",
+         "ja" : "元徳",
+         "name" : "元徳",
+         "offset" : 1328,
+         "romaji" : "Gentoku",
+         "ukey" : "元徳,1328",
+         "vi" : "Nguyên Đức"
+      },
+      {
+         "caption" : "Thời kỳ Kamakura (1192–1333)",
+         "era_id" : 1301,
+         "era_key" : "元弘",
+         "ja" : "元弘",
+         "name" : "元弘",
+         "offset" : 1330,
+         "romaji" : "Genkō",
+         "ukey" : "元弘,1330",
+         "vi" : "Nguyên Hoằng"
+      },
+      {
+         "caption" : "Nam triều",
+         "era_id" : 1506,
+         "era_key" : "建武",
+         "ja" : "建武",
+         "name" : "建武",
+         "offset" : 1333,
+         "romaji" : "Kenmu",
+         "romajis" : [
+            "Kenbu"
+         ],
+         "ukey" : "建武,1333",
+         "vi" : "Kiến Vũ"
+      },
+      {
+         "caption" : "Nam triều",
+         "era_id" : 789,
+         "era_key" : "延元",
+         "ja" : "延元",
+         "name" : "延元",
+         "offset" : 1335,
+         "romaji" : "Engen",
+         "ukey" : "延元,1335",
+         "vi" : "Diên Nguyên"
+      },
+      {
+         "caption" : "Nam triều",
+         "era_id" : 1471,
+         "era_key" : "興国",
+         "ja" : "興国",
+         "name" : "興国",
+         "offset" : 1339,
+         "romaji" : "Kōkoku",
+         "ukey" : "興国,1339",
+         "vi" : "Hưng Quốc"
+      },
+      {
+         "caption" : "Nam triều",
+         "era_id" : 1250,
+         "era_key" : "正平",
+         "ja" : "正平",
+         "name" : "正平",
+         "offset" : 1345,
+         "romaji" : "Shōhei",
+         "ukey" : "正平,1345",
+         "vi" : "Chính Bình"
+      },
+      {
+         "caption" : "Nam triều",
+         "era_id" : 456,
+         "era_key" : "建徳",
+         "ja" : "建徳",
+         "name" : "建徳",
+         "offset" : 1369,
+         "romaji" : "Kentoku",
+         "ukey" : "建徳,1369",
+         "vi" : "Kiến Đức"
+      },
+      {
+         "caption" : "Nam triều",
+         "era_id" : 634,
+         "era_key" : "文中",
+         "ja" : "文中",
+         "name" : "文中",
+         "offset" : 1371,
+         "romaji" : "Bunchū",
+         "ukey" : "文中,1371",
+         "vi" : "Văn Trung"
+      },
+      {
+         "caption" : "Nam triều",
+         "era_id" : 1107,
+         "era_key" : "天授",
+         "ja" : "天授",
+         "name" : "天授",
+         "offset" : 1374,
+         "romaji" : "Tenju",
+         "ukey" : "天授,1374",
+         "vi" : "Thiên Thụ"
+      },
+      {
+         "caption" : "Nam triều",
+         "era_id" : 21,
+         "era_key" : "弘和",
+         "ja" : "弘和",
+         "name" : "弘和",
+         "offset" : 1380,
+         "romaji" : "Kōwa",
+         "ukey" : "弘和,1380",
+         "vi" : "Hoằng Hòa"
+      },
+      {
+         "caption" : "Nam triều",
+         "era_id" : 650,
+         "era_key" : "元中",
+         "ja" : "元中",
+         "name" : "元中",
+         "offset" : 1383,
+         "romaji" : "Genchū",
+         "ukey" : "元中,1383",
+         "vi" : "Nguyên Trung"
+      },
+      {
+         "caption" : "Bắc triều",
+         "era_id" : 1198,
+         "era_key" : "正慶",
+         "ja" : "正慶",
+         "name" : "正慶",
+         "offset" : 1331,
+         "romaji" : "Shōkei",
+         "romajis" : [
+            "Shōkyō"
+         ],
+         "ukey" : "正慶,1331",
+         "vi" : "Chính Khánh"
+      },
+      {
+         "caption" : "Bắc triều",
+         "era_id" : 1506,
+         "era_key" : "建武",
+         "ja" : "建武",
+         "name" : "建武",
+         "offset" : 1333,
+         "romaji" : "Kenmu",
+         "romajis" : [
+            "Kenbu"
+         ],
+         "ukey" : "建武,1333",
+         "vi" : "Kiến Vũ"
+      },
+      {
+         "caption" : "Bắc triều",
+         "era_id" : 292,
+         "era_key" : "暦応",
+         "ja" : "暦応",
+         "name" : "暦応",
+         "offset" : 1337,
+         "romaji" : "Ryakuō",
+         "romajis" : [
+            "Rekiō"
+         ],
+         "ukey" : "暦応,1337",
+         "vi" : "Lịch Ứng"
+      },
+      {
+         "caption" : "Bắc triều",
+         "era_id" : 282,
+         "era_key" : "康永",
+         "ja" : "康永",
+         "name" : "康永",
+         "offset" : 1341,
+         "romaji" : "Kōei",
+         "ukey" : "康永,1341",
+         "vi" : "Khang Vĩnh"
+      },
+      {
+         "caption" : "Bắc triều",
+         "era_id" : 156,
+         "era_key" : "貞和",
+         "ja" : "貞和",
+         "name" : "貞和",
+         "offset" : 1344,
+         "romaji" : "Jōwa",
+         "romajis" : [
+            "Teiwa"
+         ],
+         "ukey" : "貞和,1344",
+         "vi" : "Trinh Hòa"
+      },
+      {
+         "caption" : "Bắc triều",
+         "era_id" : 218,
+         "era_key" : "観応",
+         "ja" : "観応",
+         "name" : "観応",
+         "offset" : 1349,
+         "romaji" : "Kannō",
+         "romajis" : [
+            "Kan'ō"
+         ],
+         "ukey" : "観応,1349",
+         "vi" : "Quan Ứng"
+      },
+      {
+         "caption" : "Bắc triều",
+         "era_id" : 1051,
+         "era_key" : "文和",
+         "ja" : "文和",
+         "name" : "文和",
+         "offset" : 1351,
+         "romaji" : "Bunna",
+         "romajis" : [
+            "Bunwa"
+         ],
+         "ukey" : "文和,1351",
+         "vi" : "Văn Hòa"
+      },
+      {
+         "caption" : "Bắc triều",
+         "era_id" : 204,
+         "era_key" : "延文",
+         "ja" : "延文",
+         "name" : "延文",
+         "offset" : 1355,
+         "romaji" : "Enbun",
+         "ukey" : "延文,1355",
+         "vi" : "Diên Văn"
+      },
+      {
+         "caption" : "Bắc triều",
+         "era_id" : 1151,
+         "era_key" : "康安",
+         "ja" : "康安",
+         "name" : "康安",
+         "offset" : 1360,
+         "romaji" : "Kōan",
+         "ukey" : "康安,1360",
+         "vi" : "Khang An"
+      },
+      {
+         "caption" : "Bắc triều",
+         "era_id" : 621,
+         "era_key" : "応安",
+         "ja" : "応安",
+         "name" : "応安",
+         "offset" : 1367,
+         "romaji" : "Ōan",
+         "ukey" : "応安,1367",
+         "vi" : "Ứng An"
+      },
+      {
+         "caption" : "Bắc triều",
+         "era_id" : 1084,
+         "era_key" : "永和",
+         "ja" : "永和",
+         "name" : "永和",
+         "offset" : 1374,
+         "romaji" : "Eiwa",
+         "ukey" : "永和,1374",
+         "vi" : "Vĩnh Hòa"
+      },
+      {
+         "caption" : "Bắc triều",
+         "era_id" : 112,
+         "era_key" : "康暦",
+         "ja" : "康暦",
+         "name" : "康暦",
+         "offset" : 1378,
+         "romaji" : "Kōryaku",
+         "ukey" : "康暦,1378",
+         "vi" : "Khang Lịch"
+      },
+      {
+         "caption" : "Bắc triều",
+         "era_id" : 1322,
+         "era_key" : "永徳",
+         "ja" : "永徳",
+         "name" : "永徳",
+         "offset" : 1380,
+         "romaji" : "Eitoku",
+         "ukey" : "永徳,1380",
+         "vi" : "Vĩnh Đức"
+      },
+      {
+         "caption" : "Bắc triều",
+         "era_id" : 443,
+         "era_key" : "至徳",
+         "ja" : "至徳",
+         "name" : "至徳",
+         "offset" : 1383,
+         "romaji" : "Shitoku",
+         "ukey" : "至徳,1383",
+         "vi" : "Chí Đức"
+      },
+      {
+         "caption" : "Bắc triều",
+         "era_id" : 1428,
+         "era_key" : "嘉慶",
+         "ja" : "嘉慶",
+         "name" : "嘉慶",
+         "offset" : 1386,
+         "romaji" : "Kakei",
+         "romajis" : [
+            "Kakyō"
+         ],
+         "ukey" : "嘉慶,1386",
+         "vi" : "Gia Khánh"
+      },
+      {
+         "caption" : "Bắc triều",
+         "era_id" : 1149,
+         "era_key" : "康応",
+         "ja" : "康応",
+         "name" : "康応",
+         "offset" : 1388,
+         "romaji" : "Kōō",
+         "ukey" : "康応,1388",
+         "vi" : "Khang Ứng"
+      },
+      {
+         "caption" : "Bắc triều",
+         "era_id" : 870,
+         "era_key" : "明徳",
+         "ja" : "明徳",
+         "name" : "明徳",
+         "offset" : 1389,
+         "romaji" : "Meitoku",
+         "ukey" : "明徳,1389",
+         "vi" : "Minh Đức"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 1210,
+         "era_key" : "応永",
+         "ja" : "応永",
+         "name" : "応永",
+         "offset" : 1393,
+         "romaji" : "Ōei",
+         "ukey" : "応永,1393",
+         "vi" : "Ứng Vĩnh"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 507,
+         "era_key" : "正長",
+         "ja" : "正長",
+         "name" : "正長",
+         "offset" : 1427,
+         "romaji" : "Shōchō",
+         "ukey" : "正長,1427",
+         "vi" : "Chính Trường"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 217,
+         "era_key" : "永享",
+         "ja" : "永享",
+         "name" : "永享",
+         "offset" : 1428,
+         "romaji" : "Eikyō",
+         "romajis" : [
+            "Eikō"
+         ],
+         "ukey" : "永享,1428",
+         "vi" : "Vĩnh Hưởng"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 1688,
+         "era_key" : "嘉吉",
+         "ja" : "嘉吉",
+         "name" : "嘉吉",
+         "offset" : 1440,
+         "romaji" : "Kakitsu",
+         "romajis" : [
+            "Kakichi"
+         ],
+         "ukey" : "嘉吉,1440",
+         "vi" : "Gia Cát"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 874,
+         "era_key" : "文安",
+         "ja" : "文安",
+         "name" : "文安",
+         "offset" : 1443,
+         "romaji" : "Bun'an",
+         "romajis" : [
+            "Bunnan"
+         ],
+         "ukey" : "文安,1443",
+         "vi" : "Văn An"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 1496,
+         "era_key" : "宝徳",
+         "ja" : "宝徳",
+         "name" : "宝徳",
+         "offset" : 1448,
+         "romaji" : "Hōtoku",
+         "ukey" : "宝徳,1448",
+         "vi" : "Bảo Đức"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 336,
+         "era_key" : "享徳",
+         "ja" : "享徳",
+         "name" : "享徳",
+         "offset" : 1451,
+         "romaji" : "Kyōtoku",
+         "ukey" : "享徳,1451",
+         "vi" : "Hưởng Đức"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 832,
+         "era_key" : "康正",
+         "ja" : "康正",
+         "name" : "康正",
+         "offset" : 1454,
+         "romaji" : "Kōshō",
+         "ukey" : "康正,1454",
+         "vi" : "Khang Chính"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 213,
+         "era_key" : "長禄",
+         "ja" : "長禄",
+         "name" : "長禄",
+         "offset" : 1456,
+         "romaji" : "Chōroku",
+         "ukey" : "長禄,1456",
+         "vi" : "Trường Lộc"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 855,
+         "era_key" : "寛正",
+         "ja" : "寛正",
+         "name" : "寛正",
+         "offset" : 1459,
+         "romaji" : "Kanshō",
+         "ukey" : "寛正,1459",
+         "vi" : "Khoan Chính"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 376,
+         "era_key" : "文正",
+         "ja" : "文正",
+         "name" : "文正",
+         "offset" : 1465,
+         "romaji" : "Bunshō",
+         "romajis" : [
+            "Monshō"
+         ],
+         "ukey" : "文正,1465",
+         "vi" : "Văn Chính"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 1103,
+         "era_key" : "応仁",
+         "ja" : "応仁",
+         "name" : "応仁",
+         "offset" : 1466,
+         "romaji" : "Ōnin",
+         "ukey" : "応仁,1466",
+         "vi" : "Ứng Nhân"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 132,
+         "era_key" : "文明",
+         "ja" : "文明",
+         "name" : "文明",
+         "offset" : 1468,
+         "romaji" : "Bunmei",
+         "ukey" : "文明,1468",
+         "vi" : "Văn Minh"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 996,
+         "era_key" : "長享",
+         "ja" : "長享",
+         "name" : "長享",
+         "offset" : 1486,
+         "romaji" : "Chōkyō",
+         "ukey" : "長享,1486",
+         "vi" : "Trường Hưởng"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 419,
+         "era_key" : "延徳",
+         "ja" : "延徳",
+         "name" : "延徳",
+         "offset" : 1488,
+         "romaji" : "Entoku",
+         "ukey" : "延徳,1488",
+         "vi" : "Diên Đức"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 424,
+         "era_key" : "明応",
+         "ja" : "明応",
+         "name" : "明応",
+         "offset" : 1491,
+         "romaji" : "Meiō",
+         "ukey" : "明応,1491",
+         "vi" : "Minh Ứng"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 353,
+         "era_key" : "文亀",
+         "ja" : "文亀",
+         "name" : "文亀",
+         "offset" : 1500,
+         "romaji" : "Bunki",
+         "ukey" : "文亀,1500",
+         "vi" : "Văn Quy"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 52,
+         "era_key" : "永正",
+         "ja" : "永正",
+         "name" : "永正",
+         "offset" : 1503,
+         "romaji" : "Eishō",
+         "ukey" : "永正,1503",
+         "vi" : "Vĩnh Chính"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 1360,
+         "era_key" : "大永",
+         "ja" : "大永",
+         "name" : "大永",
+         "offset" : 1520,
+         "romaji" : "Daiei",
+         "ukey" : "大永,1520",
+         "vi" : "Đại Vĩnh"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 43,
+         "era_key" : "享禄",
+         "ja" : "享禄",
+         "name" : "享禄",
+         "offset" : 1527,
+         "romaji" : "Kyōroku",
+         "ukey" : "享禄,1527",
+         "vi" : "Hưởng Lộc"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 753,
+         "era_key" : "天文",
+         "ja" : "天文",
+         "name" : "天文",
+         "offset" : 1531,
+         "romaji" : "Tenbun",
+         "romajis" : [
+            "Tenmon"
+         ],
+         "ukey" : "天文,1531",
+         "vi" : "Thiên Văn"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 202,
+         "era_key" : "弘治",
+         "ja" : "弘治",
+         "name" : "弘治",
+         "offset" : 1554,
+         "romaji" : "Kōji",
+         "ukey" : "弘治,1554",
+         "vi" : "Hoằng Trị"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 344,
+         "era_key" : "永禄",
+         "ja" : "永禄",
+         "name" : "永禄",
+         "offset" : 1557,
+         "romaji" : "Eiroku",
+         "ukey" : "永禄,1557",
+         "vi" : "Vĩnh Lộc"
+      },
+      {
+         "caption" : "Thời kỳ Muromachi (1392–1573)",
+         "era_id" : 660,
+         "era_key" : "元亀",
+         "ja" : "元亀",
+         "name" : "元亀",
+         "offset" : 1569,
+         "romaji" : "Genki",
+         "ukey" : "元亀,1569",
+         "vi" : "Nguyên Quy"
+      },
+      {
+         "caption" : "Thời kỳ Azuchi-Momoyama (1573–1615)",
+         "era_id" : 570,
+         "era_key" : "天正",
+         "ja" : "天正",
+         "name" : "天正",
+         "offset" : 1572,
+         "romaji" : "Tenshō",
+         "ukey" : "天正,1572",
+         "vi" : "Thiên Chính"
+      },
+      {
+         "caption" : "Thời kỳ Azuchi-Momoyama (1573–1615)",
+         "era_id" : 889,
+         "era_key" : "文禄",
+         "ja" : "文禄",
+         "name" : "文禄",
+         "offset" : 1591,
+         "romaji" : "Bunroku",
+         "ukey" : "文禄,1591",
+         "vi" : "Văn Lộc"
+      },
+      {
+         "caption" : "Thời kỳ Azuchi-Momoyama (1573–1615)",
+         "era_id" : 1529,
+         "era_key" : "慶長",
+         "ja" : "慶長",
+         "name" : "慶長",
+         "offset" : 1595,
+         "romaji" : "Keichō",
+         "romajis" : [
+            "Kyōchō"
+         ],
+         "ukey" : "慶長,1595",
+         "vi" : "Khánh Trường"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 453,
+         "era_key" : "元和",
+         "ja" : "元和",
+         "name" : "元和",
+         "offset" : 1614,
+         "romaji" : "Genna",
+         "romajis" : [
+            "Genwa"
+         ],
+         "ukey" : "元和,1614",
+         "vi" : "Nguyên Hòa"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1614,
+         "era_key" : "寛永",
+         "ja" : "寛永",
+         "name" : "寛永",
+         "offset" : 1623,
+         "romaji" : "Kan'ei",
+         "ukey" : "寛永,1623",
+         "vi" : "Khoan Vĩnh"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1055,
+         "era_key" : "正保",
+         "ja" : "正保",
+         "name" : "正保",
+         "offset" : 1643,
+         "romaji" : "Shōhō",
+         "ukey" : "正保,1643",
+         "vi" : "Chính Bảo"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1220,
+         "era_key" : "慶安",
+         "ja" : "慶安",
+         "name" : "慶安",
+         "offset" : 1647,
+         "romaji" : "Keian",
+         "romajis" : [
+            "Kyōan"
+         ],
+         "ukey" : "慶安,1647",
+         "vi" : "Khánh An"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1591,
+         "era_key" : "承応",
+         "ja" : "承応",
+         "name" : "承応",
+         "offset" : 1651,
+         "romaji" : "Jōō",
+         "romajis" : [
+            "Shōō"
+         ],
+         "ukey" : "承応,1651",
+         "vi" : "Thừa Ứng"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 808,
+         "era_key" : "明暦",
+         "ja" : "明暦",
+         "name" : "明暦",
+         "offset" : 1654,
+         "romaji" : "Meireki",
+         "romajis" : [
+            "Myōryaku",
+            "Meiryaku"
+         ],
+         "ukey" : "明暦,1654",
+         "vi" : "Minh Lịch"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1519,
+         "era_key" : "万治",
+         "ja" : "万治",
+         "name" : "万治",
+         "offset" : 1657,
+         "romaji" : "Manji",
+         "ukey" : "万治,1657",
+         "vi" : "Vạn Trị"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1595,
+         "era_key" : "寛文",
+         "ja" : "寛文",
+         "name" : "寛文",
+         "offset" : 1660,
+         "romaji" : "Kanbun",
+         "ukey" : "寛文,1660",
+         "vi" : "Khoan Văn"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 231,
+         "era_key" : "延宝",
+         "ja" : "延宝",
+         "name" : "延宝",
+         "offset" : 1672,
+         "romaji" : "Enpō",
+         "romajis" : [
+            "Enhō"
+         ],
+         "ukey" : "延宝,1672",
+         "vi" : "Diên Bảo"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1478,
+         "era_key" : "天和",
+         "ja" : "天和",
+         "name" : "天和",
+         "offset" : 1680,
+         "romaji" : "Tenna",
+         "romajis" : [
+            "Tenwa"
+         ],
+         "ukey" : "天和,1680",
+         "vi" : "Thiên Hòa"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1550,
+         "era_key" : "貞享",
+         "ja" : "貞享",
+         "name" : "貞享",
+         "offset" : 1683,
+         "romaji" : "Jōkyō",
+         "ukey" : "貞享,1683",
+         "vi" : "Trinh Hưởng"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 491,
+         "era_key" : "元禄",
+         "ja" : "元禄",
+         "name" : "元禄",
+         "offset" : 1687,
+         "romaji" : "Genroku",
+         "ukey" : "元禄,1687",
+         "vi" : "Nguyên Lộc"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1197,
+         "era_key" : "宝永",
+         "ja" : "宝永",
+         "name" : "宝永",
+         "offset" : 1703,
+         "romaji" : "Hōei",
+         "ukey" : "宝永,1703",
+         "vi" : "Bảo Vĩnh"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1484,
+         "era_key" : "正徳",
+         "ja" : "正徳",
+         "name" : "正徳",
+         "offset" : 1710,
+         "romaji" : "Shōtoku",
+         "ukey" : "正徳,1710",
+         "vi" : "Chính Đức"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 302,
+         "era_key" : "享保",
+         "ja" : "享保",
+         "name" : "享保",
+         "offset" : 1715,
+         "romaji" : "Kyōhō",
+         "ukey" : "享保,1715",
+         "vi" : "Hưởng Bảo"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 198,
+         "era_key" : "元文",
+         "ja" : "元文",
+         "name" : "元文",
+         "offset" : 1735,
+         "romaji" : "Genbun",
+         "ukey" : "元文,1735",
+         "vi" : "Nguyên Văn"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 935,
+         "era_key" : "寛保",
+         "ja" : "寛保",
+         "name" : "寛保",
+         "offset" : 1740,
+         "romaji" : "Kanpō",
+         "romajis" : [
+            "Kanhō"
+         ],
+         "ukey" : "寛保,1740",
+         "vi" : "Khoan Bảo"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 927,
+         "era_key" : "延享",
+         "ja" : "延享",
+         "name" : "延享",
+         "offset" : 1743,
+         "romaji" : "Enkyō",
+         "ukey" : "延享,1743",
+         "vi" : "Diên Hưởng"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 374,
+         "era_key" : "寛延",
+         "ja" : "寛延",
+         "name" : "寛延",
+         "offset" : 1747,
+         "romaji" : "Kan'en",
+         "ukey" : "寛延,1747",
+         "vi" : "Khoan Diên"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1199,
+         "era_key" : "宝暦",
+         "ja" : "宝暦",
+         "name" : "宝暦",
+         "offset" : 1750,
+         "romaji" : "Hōreki",
+         "romajis" : [
+            "Hōryaku"
+         ],
+         "ukey" : "宝暦,1750",
+         "vi" : "Bảo Lịch"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1406,
+         "era_key" : "明和",
+         "ja" : "明和",
+         "name" : "明和",
+         "offset" : 1763,
+         "romaji" : "Meiwa",
+         "ukey" : "明和,1763",
+         "vi" : "Minh Hòa"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1090,
+         "era_key" : "安永",
+         "ja" : "安永",
+         "name" : "安永",
+         "offset" : 1771,
+         "romaji" : "An'ei",
+         "ukey" : "安永,1771",
+         "vi" : "An Vĩnh"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1627,
+         "era_key" : "天明",
+         "ja" : "天明",
+         "name" : "天明",
+         "offset" : 1780,
+         "romaji" : "Tenmei",
+         "ukey" : "天明,1780",
+         "vi" : "Thiên Minh"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 197,
+         "era_key" : "寛政",
+         "ja" : "寛政",
+         "name" : "寛政",
+         "offset" : 1788,
+         "romaji" : "Kansei",
+         "ukey" : "寛政,1788",
+         "vi" : "Khoan Chính"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1393,
+         "era_key" : "享和",
+         "ja" : "享和",
+         "name" : "享和",
+         "offset" : 1800,
+         "romaji" : "Kyōwa",
+         "ukey" : "享和,1800",
+         "vi" : "Hưởng Hòa"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 817,
+         "era_key" : "文化",
+         "ja" : "文化",
+         "name" : "文化",
+         "offset" : 1803,
+         "romaji" : "Bunka",
+         "ukey" : "文化,1803",
+         "vi" : "Văn Hóa"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1538,
+         "era_key" : "文政",
+         "ja" : "文政",
+         "name" : "文政",
+         "offset" : 1817,
+         "romaji" : "Bunsei",
+         "ukey" : "文政,1817",
+         "vi" : "Văn Chính"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 149,
+         "era_key" : "天保",
+         "ja" : "天保",
+         "name" : "天保",
+         "offset" : 1829,
+         "romaji" : "Tenpō",
+         "romajis" : [
+            "Tenhō"
+         ],
+         "ukey" : "天保,1829",
+         "vi" : "Thiên Bảo"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1585,
+         "era_key" : "弘化",
+         "ja" : "弘化",
+         "name" : "弘化",
+         "offset" : 1843,
+         "romaji" : "Kōka",
+         "ukey" : "弘化,1843",
+         "vi" : "Hoằng Hóa"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1354,
+         "era_key" : "嘉永",
+         "ja" : "嘉永",
+         "name" : "嘉永",
+         "offset" : 1847,
+         "romaji" : "Kaei",
+         "ukey" : "嘉永,1847",
+         "vi" : "Gia Vĩnh"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 1660,
+         "era_key" : "安政",
+         "ja" : "安政",
+         "name" : "安政",
+         "offset" : 1853,
+         "romaji" : "Ansei",
+         "ukey" : "安政,1853",
+         "vi" : "An Chính"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 682,
+         "era_key" : "万延",
+         "ja" : "万延",
+         "name" : "万延",
+         "offset" : 1859,
+         "romaji" : "Man'en",
+         "ukey" : "万延,1859",
+         "vi" : "Vạn Diên"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 91,
+         "era_key" : "文久",
+         "ja" : "文久",
+         "name" : "文久",
+         "offset" : 1860,
+         "romaji" : "Bunkyū",
+         "ukey" : "文久,1860",
+         "vi" : "Văn Cửu"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 905,
+         "era_key" : "元治",
+         "ja" : "元治",
+         "name" : "元治",
+         "offset" : 1863,
+         "romaji" : "Genji",
+         "ukey" : "元治,1863",
+         "vi" : "Nguyên Trị"
+      },
+      {
+         "caption" : "Thời kỳ Edo (1603–1867)",
+         "era_id" : 863,
+         "era_key" : "慶応",
+         "ja" : "慶応",
+         "name" : "慶応",
+         "offset" : 1864,
+         "romaji" : "Keiō",
+         "ukey" : "慶応,1864",
+         "vi" : "Khánh Ứng"
+      },
+      {
+         "caption" : "Kể từ thời kỳ Minh Trị (1868–nay)",
+         "era_id" : 1,
+         "era_key" : "明治",
+         "ja" : "明治",
+         "name" : "明治",
+         "offset" : 1867,
+         "romaji" : "Meiji",
+         "ukey" : "明治,1867",
+         "vi" : "Minh Trị",
+         "wref" : "Thời_kỳ_Minh_Trị"
+      },
+      {
+         "caption" : "Kể từ thời kỳ Minh Trị (1868–nay)",
+         "era_id" : 2,
+         "era_key" : "大正",
+         "ja" : "大正",
+         "name" : "大正",
+         "offset" : 1911,
+         "romaji" : "Taishō",
+         "ukey" : "大正,1911",
+         "vi" : "Đại Chính",
+         "wref" : "Thời_kỳ_Taishō"
+      },
+      {
+         "caption" : "Kể từ thời kỳ Minh Trị (1868–nay)",
+         "era_id" : 3,
+         "era_key" : "昭和",
+         "ja" : "昭和",
+         "name" : "昭和",
+         "offset" : 1925,
+         "romaji" : "Shōwa",
+         "ukey" : "昭和,1925",
+         "vi" : "Chiêu Hòa",
+         "wref" : "Thời_kỳ_Shōwa"
+      },
+      {
+         "caption" : "Kể từ thời kỳ Minh Trị (1868–nay)",
+         "era_id" : 4,
+         "era_key" : "平成",
+         "ja" : "平成",
+         "name" : "平成",
+         "offset" : 1988,
+         "romaji" : "Heisei",
+         "ukey" : "平成,1988",
+         "vi" : "Bình Thành",
+         "wref" : "Thời_kỳ_Heisei"
+      },
+      {
+         "caption" : "Kể từ thời kỳ Minh Trị (1868–nay)",
+         "era_id" : 5,
+         "era_key" : "令和",
+         "ja" : "令和",
+         "name" : "令和",
+         "offset" : 2018,
+         "romaji" : "Reiwa",
+         "ukey" : "令和,2018",
+         "vi" : "Lệnh Hòa",
+         "wref" : "Thời_kỳ_Lệnh_Hòa"
+      },
+      {
+         "caption" : "Thời kỳ không niên hiệu",
+         "name" : "Sujaku",
+         "offset" : 671,
+         "romaji" : "Sujaku",
+         "romajis" : [
+            "Suzaku"
+         ],
+         "ukey" : "Sujaku,671"
+      },
+      {
+         "caption" : "Thời kỳ không niên hiệu",
+         "name" : "Hakuhō",
+         "offset" : 672,
+         "romaji" : "Hakuhō",
+         "ukey" : "Hakuhō,672"
+      }
+   ],
+   "page_name" : "Niên hiệu Nhật Bản",
+   "wref_key" : "wref_vi"
+}

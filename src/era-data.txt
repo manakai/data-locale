@@ -24,6 +24,9 @@ name 天主降生
 acronym(en) A
 expanded(la) [a]nn%C5%8D Domin%C4%AB
 expanded(en_la) [A]nno Domini
+&&
+acronym(en) C.E.
+expanded(en) [C]hristan [E]ra
 &
 
 ## <https://wiki.suikawiki.org/n/GOX%20IRAI>
@@ -54,7 +57,16 @@ expanded(en) [C]ommon [E]ra
 &
 name(en) Common Era
 &
+acronym(vi_latin) CN
+expanded(vi_latin) [C]ông [n]guyên
+&
+acronym(vi_latin) SCN
+&
 name_cn 公元
+name(vi_latin) Công nguyên
+&
+name_tw 公曆紀元
+name(vi_latin) Công lịch kỷ nguyên
 &
 name 公元紀年
 &
@@ -72,6 +84,12 @@ name_kana がく れき
 abbr_ja 学 学暦
 &&
 name_ja 和蘭紀元
+&&
+name_ja 紀元
+&
+name_ja 紀元後
+&
+name_ja 後
 
 wref_zh 公元
 wref_ja 西暦
@@ -106,6 +124,7 @@ tag 仏国
 tag 仏領インドシナ
 tag タイ
 tag ベトナム人
+tag ラオス
 tag 越南
 
 tag シンガポール
@@ -626,16 +645,6 @@ tag 日本人
 tag 日本
 tag 日本の私年号
 
-def[朱雀]
-name_ja 朱雀
-AD686 = 1
-#朱雀 687
-#朱鳥 686
-#朱鳥 687
-tag 日本人
-tag 日本
-tag 日本の私年号
-
 def[果安]
 name_ja 果安
 AD686 = 1
@@ -1110,13 +1119,3 @@ wref_ja 白鳳
 wref_ja 朱雀
 [福徳]
 wref_ja 福徳_(私年号)
-
-def[正安(癸巳)]
-name_cn 正安
-name_tw 正安
-name 政安
-#was: wref_zh 中国年号列表
-#was: wref_zh 正安_(大理)
-AD1053 = 1
-
-

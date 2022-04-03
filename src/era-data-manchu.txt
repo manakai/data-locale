@@ -151,7 +151,7 @@ name 天統
 #있으나 해당 사료들이 대부분 위서로 의심되고 있어 발해의 정식 연호로
 #인정되지는 않는다. "
 
-## <https://zh-classical.wikipedia.org/wiki/%E5%A4%A9%E7%B5%B1_(%E6%B8%A4%E6%B5%B7%E5%9C%8B)>
+wref<https://zh-classical.wikipedia.org/wiki/%E5%A4%A9%E7%B5%B1_(%E6%B8%A4%E6%B5%B7%E5%9C%8B)>
 #桓檀古記
 #698 - 719
 tag 桓檀古記
@@ -239,12 +239,12 @@ name_kana じん あん
 #唐から自立する方針を打ち出した。"
 #737 #死去
 
-## <https://zh-classical.wikipedia.org/wiki/%E4%BB%81%E5%AE%89_(%E6%B8%A4%E6%B5%B7%E5%9C%8B)>
+wref<https://zh-classical.wikipedia.org/wiki/%E4%BB%81%E5%AE%89_(%E6%B8%A4%E6%B5%B7%E5%9C%8B)>
 #719 - 737
 #720 (1) - 737 (18)
 #<-none ->大興
 
-## <https://zh-yue.wikipedia.org/wiki/%E4%BB%81%E5%AE%89_(%E6%B8%A4%E6%B5%B7)>
+wref<https://zh-yue.wikipedia.org/wiki/%E4%BB%81%E5%AE%89_(%E6%B8%A4%E6%B5%B7)>
 #720 - 737
 
 <-天統(戊戌),天統(己亥),開元 ->仁安(庚申),仁安(己未),仁安(戊午) [唐:718]
@@ -369,7 +369,7 @@ tag 安史の乱
 #774 - ? 宝暦
 #793 #死去
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%A4%A7%E8%88%88_(%E6%B8%A4%E6%B5%B7)>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A7%E8%88%88_(%E6%B8%A4%E6%B5%B7)>
 #738 - 794
 
 ## <https://web.archive.org/web/20070928073617/http://40881.host3.tfidc.com/tang2.htm>
@@ -518,7 +518,7 @@ name_kana ちゅう こう
 #794 #即位 #改元
 #794 #死去
 
-## <https://zh-yue.wikipedia.org/wiki/%E4%B8%AD%E8%88%88_(%E6%B8%A4%E6%B5%B7)>
+wref<https://zh-yue.wikipedia.org/wiki/%E4%B8%AD%E8%88%88_(%E6%B8%A4%E6%B5%B7)>
 #794
 
 ## <https://web.archive.org/web/20070928073617/http://40881.host3.tfidc.com/tang2.htm>
@@ -589,7 +589,7 @@ name_kana しょう れき
 #渤海国志長編, 金毓黻
 #<-中興 ->永徳
 
-## <https://zh-yue.wikipedia.org/wiki/%E6%AD%A3%E6%9B%86_(%E6%B8%A4%E6%B5%B7)>
+wref<https://zh-yue.wikipedia.org/wiki/%E6%AD%A3%E6%9B%86_(%E6%B8%A4%E6%B5%B7)>
 #795 - 809
 
 ## <https://web.archive.org/web/20070928073617/http://40881.host3.tfidc.com/tang2.htm>
@@ -678,7 +678,7 @@ name(kr) 영덕
 #810 - 812
 #<-정력 ->주작
 
-## <https://zh-yue.wikipedia.org/wiki/%E6%B0%B8%E5%BE%B7_(%E6%B8%A4%E6%B5%B7)>
+wref<https://zh-yue.wikipedia.org/wiki/%E6%B0%B8%E5%BE%B7_(%E6%B8%A4%E6%B5%B7)>
 #810 - 812
 
 def[永德(己丑)]
@@ -778,7 +778,7 @@ name(kr) 주작
 #813 - 817
 #<-영덕 ->태시
 
-## <https://zh-yue.wikipedia.org/wiki/%E6%9C%B1%E9%9B%80_(%E5%B9%B4%E8%99%9F)>
+wref<https://zh-yue.wikipedia.org/wiki/%E6%9C%B1%E9%9B%80_(%E5%B9%B4%E8%99%9F)>
 #813 - 817
 
 ## <https://web.archive.org/web/20070928073617/http://40881.host3.tfidc.com/tang2.htm>
@@ -864,11 +864,11 @@ name 太始
 #818
 #<-주작 ->건흥
 
-## <https://zh-classical.wikipedia.org/wiki/%E5%A4%AA%E5%A7%8B_(%E6%B8%A4%E6%B5%B7%E5%9C%8B)>
+wref<https://zh-classical.wikipedia.org/wiki/%E5%A4%AA%E5%A7%8B_(%E6%B8%A4%E6%B5%B7%E5%9C%8B)>
 #818
 name 太始
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%A4%AA%E5%A7%8B_(%E6%B8%A4%E6%B5%B7)>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%AA%E5%A7%8B_(%E6%B8%A4%E6%B5%B7)>
 #818
 name 太始
 
@@ -949,7 +949,7 @@ name(kr) 건흥
 #819 - 830
 #<-태시 ->함화
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%BB%BA%E8%88%88_(%E6%B8%A4%E6%B5%B7)>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%BB%BA%E8%88%88_(%E6%B8%A4%E6%B5%B7)>
 #819 - 830
 
 ## <https://web.archive.org/web/20070928073617/http://40881.host3.tfidc.com/tang2.htm>
@@ -1025,7 +1025,7 @@ name(kr) 함화
 #831 - 857
 #<-건흥 ->?
 
-## <https://zh-yue.wikipedia.org/wiki/%E5%92%B8%E5%92%8C_(%E6%B8%A4%E6%B5%B7)>
+wref<https://zh-yue.wikipedia.org/wiki/%E5%92%B8%E5%92%8C_(%E6%B8%A4%E6%B5%B7)>
 #831 - 857
 
 ## <https://web.archive.org/web/20070928073617/http://40881.host3.tfidc.com/tang2.htm>
@@ -1853,11 +1853,11 @@ wref_ko 수국 (연호)
 name(kr) 수국
 #1115-1-1 - 1116
 
-## <https://zh-min-nan.wikipedia.org/wiki/Siu-kok_(Kim)>
-#XXX Siu-kok
+wref<https://zh-min-nan.wikipedia.org/wiki/Siu-kok_(Kim)>
+name(nan) Siu-kok
 #1115 - 1116
 
-## <https://zh-yue.wikipedia.org/wiki/%E6%94%B6%E5%9C%8B>
+wref<https://zh-yue.wikipedia.org/wiki/%E6%94%B6%E5%9C%8B>
 #1115 - 1116
 
 [天輔(丁酉)]
@@ -1906,8 +1906,8 @@ wref_ko 천보 (금)
 name(kr) 천보
 #1116-12-1 1117-1-1 - 1123
 
-## <https://zh-min-nan.wikipedia.org/wiki/Thian-h%C3%BA_(Kim)>
-#XXX Thian-hú
+wref<https://zh-min-nan.wikipedia.org/wiki/Thian-h%C3%BA_(Kim)>
+name(nan) Thian-hú
 #1117 - 1123
 
 
@@ -1963,8 +1963,8 @@ wref_ko 천회 (금)
 name(kr) 천회
 #1123-9-17 - 1137
 
-## <https://zh-min-nan.wikipedia.org/wiki/Thian-h%C5%8De_(Kim)>
-#XXX Thian-hōe
+wref<https://zh-min-nan.wikipedia.org/wiki/Thian-h%C5%8De_(Kim)>
+name(nan) Thian-hōe
 #1123 - 1137
 
 ## <https://ja.wikipedia.org/wiki/%E7%86%99%E5%AE%97_(%E9%87%91)>
@@ -2005,8 +2005,8 @@ wref_ko 천권
 name(kr) 천권
 #1137-12-26 1138-1-1 - 1141
 
-## <https://zh-min-nan.wikipedia.org/wiki/Thian-ko%C3%A0n_(Kim)>
-#XXX Thian-koàn
+wref<https://zh-min-nan.wikipedia.org/wiki/Thian-ko%C3%A0n_(Kim)>
+name(nan) Thian-koàn
 #1138 - 1140
 
 [皇統]
@@ -2047,8 +2047,8 @@ wref_ko 황통
 name(kr) 황통
 #1141-1-12(癸丑) - 1149
 
-## <https://zh-min-nan.wikipedia.org/wiki/H%C3%B4ng-th%C3%B3ng_(Kim)>
-#XXX Hông-thóng
+wref<https://zh-min-nan.wikipedia.org/wiki/H%C3%B4ng-th%C3%B3ng_(Kim)>
+name(nan) Hông-thóng
 #1141 - 1149
 
 
@@ -2088,8 +2088,8 @@ wref_ko 천덕 (금)
 name(kr) 천덕
 #1149-12-11 - 1153
 
-## <https://zh-min-nan.wikipedia.org/wiki/Thian-tek_(Kim)>
-#XXX Thian-tek
+wref<https://zh-min-nan.wikipedia.org/wiki/Thian-tek_(Kim)>
+name(nan) Thian-tek
 #1149 - 1153
 
 [貞元(癸酉)]
@@ -2124,8 +2124,8 @@ wref_ko 정원 (금)
 name(kr) 정원
 #1153-3-26 - 1156
 
-## <https://zh-min-nan.wikipedia.org/wiki/Cheng-go%C3%A2n_(Kim)>
-#XXX Cheng-goân
+wref<https://zh-min-nan.wikipedia.org/wiki/Cheng-go%C3%A2n_(Kim)>
+name(nan) Cheng-goân
 #1153 - 1156
 
 [正隆]
@@ -2164,8 +2164,8 @@ wref_ko 정륭
 name(kr) 정륭
 #1156-2-1 - 1161
 
-## <https://zh-min-nan.wikipedia.org/wiki/Ch%C3%A8ng-li%C3%B4ng_(Kim)>
-#XXX Chèng-liông
+wref<https://zh-min-nan.wikipedia.org/wiki/Ch%C3%A8ng-li%C3%B4ng_(Kim)>
+name(nan) Chèng-liông
 #1156 - 1161
 
 [大定(辛巳)]
@@ -2243,8 +2243,8 @@ wref_ko 대정 (금)
 name(kr) 대정
 #1161-10-9 - 1189
 
-## <https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-t%C4%93ng_(Kim)>
-#XXX Tāi-tēng
+wref<https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-t%C4%93ng_(Kim)>
+name(nan) Tāi-tēng
 #1161 - 1189
 
 [興慶]
@@ -2320,8 +2320,8 @@ wref_ko 명창
 name(kr) 명창
 #1190-1-1 - 1196
 
-## <https://zh-min-nan.wikipedia.org/wiki/B%C3%AAng-chhiong_(Kim)>
-#XXX Bêng-chhiong
+wref<https://zh-min-nan.wikipedia.org/wiki/B%C3%AAng-chhiong_(Kim)>
+name(nan) Bêng-chhiong
 #1190 - 1196
 
 [承安(丙辰)]
@@ -2356,8 +2356,8 @@ wref_ko 승안
 name(kr) 승안
 #1196-11-23 - 1200
 
-## <https://zh-min-nan.wikipedia.org/wiki/S%C3%AAng-an_(Kim)>
-#XXX Sêng-an
+wref<https://zh-min-nan.wikipedia.org/wiki/S%C3%AAng-an_(Kim)>
+name(nan) Sêng-an
 #1196 - 1200
 
 
@@ -2398,8 +2398,8 @@ wref_ko 태화 (금)
 name(kr) 태화
 #1200-12-1 1201-1-1 - 1209
 
-## <https://zh-min-nan.wikipedia.org/wiki/Th%C3%A0i-h%C3%B4_(Kim)>
-#XXX Thài-hô
+wref<https://zh-min-nan.wikipedia.org/wiki/Th%C3%A0i-h%C3%B4_(Kim)>
+name(nan) Thài-hô
 #1201 - 1208
 
 [大安(己巳)]
@@ -2440,8 +2440,8 @@ name(kr) 대안
 #1209-1-28 - 1211
 name 大安
 
-## <https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-an_(Kim)>
-#XXX Tāi-an
+wref<https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-an_(Kim)>
+name(nan) Tāi-an
 name 大安
 #1209 - 1211
 
@@ -2481,8 +2481,8 @@ wref_ko 숭경
 name(kr) 숭경
 #1212-1-1 - 1213
 
-## <https://zh-min-nan.wikipedia.org/wiki/Ch%C3%B4ng-kh%C3%A8ng_(Kim)>
-#XXX Chông-khèng
+wref<https://zh-min-nan.wikipedia.org/wiki/Ch%C3%B4ng-kh%C3%A8ng_(Kim)>
+name(nan) Chông-khèng
 #1212 - 1213
 
 [至寧]
@@ -2525,8 +2525,8 @@ name(kr) 지녕
 #1213-5-1 - 1213
 <-崇慶 金:1213-5-1 #支那改元日{#金 #完顔果縄}
 
-## <https://zh-min-nan.wikipedia.org/wiki/Ch%C3%AC-l%C3%AAng_(Kim)>
-#XXX Chì-lêng
+wref<https://zh-min-nan.wikipedia.org/wiki/Ch%C3%AC-l%C3%AAng_(Kim)>
+name(nan) Chì-lêng
 #1213
 
 
@@ -2574,13 +2574,13 @@ wref_ko 정우 (연호)
 name(kr) 정우
 #1213-9-15 - 1217
 
-## <https://zh-min-nan.wikipedia.org/wiki/Cheng-i%C5%AB_(Kim)>
-#XXX Cheng-iū
+wref<https://zh-min-nan.wikipedia.org/wiki/Cheng-i%C5%AB_(Kim)>
+name(nan) Cheng-iū
 #1213 - 1217
 
 ## <https://www.academia.edu/32240581/%D0%91%D0%B5%D0%BB%D1%8F%D0%B5%D0%B2_%D0%92_%D0%90_%D0%A1%D0%B8%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87_%D0%A1_%D0%92_%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%BA%D0%B8_%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%B5%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B0_%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B5_%D0%A1%D1%8F_%D0%B2_%D0%9F%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%8C%D0%B5>
 #p.48
-#XXX
+#XXXname
 #чжэнь-ю
 #1213 - 1217
 
@@ -2613,8 +2613,8 @@ wref_ko 흥정 (연호)
 name(kr) 흥정
 #1217-9-8 - 1222
 
-## <https://zh-min-nan.wikipedia.org/wiki/Heng-t%C4%93ng_(Kim)>
-#XXX Heng-tēng
+wref<https://zh-min-nan.wikipedia.org/wiki/Heng-t%C4%93ng_(Kim)>
+name(nan) Heng-tēng
 #1217 - 1222
 
 [元光(壬午)]
@@ -2667,8 +2667,8 @@ wref_ko 원광 (금)
 name(kr) 원광
 #1222-8-11 - 1223
 
-## <https://zh-min-nan.wikipedia.org/wiki/Go%C3%A2n-kong_(Kim)>
-#XXX Goân-kong
+wref<https://zh-min-nan.wikipedia.org/wiki/Go%C3%A2n-kong_(Kim)>
+name(nan) Goân-kong
 #1222 - 1223
 
 [正大]
@@ -2711,8 +2711,8 @@ wref_ko 정대
 name(kr) 정대
 #1224-1-1 - 1232
 
-## <https://zh-min-nan.wikipedia.org/wiki/Ch%C3%A8ng-t%C4%81i_(Kim)>
-#XXX Chèng-tāi
+wref<https://zh-min-nan.wikipedia.org/wiki/Ch%C3%A8ng-t%C4%81i_(Kim)>
+name(nan) Chèng-tāi
 #1224 - 1231
 
 [開興]
@@ -2765,8 +2765,8 @@ wref_ko 개흥
 name(kr) 개흥
 #1232-1-19 - 1232
 
-## <https://zh-min-nan.wikipedia.org/wiki/Khai-heng_(Kim)>
-#XXX Khai-heng
+wref<https://zh-min-nan.wikipedia.org/wiki/Khai-heng_(Kim)>
+name(nan) Khai-heng
 #1232 - 1232
 
 %tag person
@@ -2824,8 +2824,8 @@ name(kr) 천흥
 #1232-4-14 - 1234
 #->盛昌
 
-## <https://zh-min-nan.wikipedia.org/wiki/Thian-heng_(Kim)>
-#XXX Thian-heng
+wref<https://zh-min-nan.wikipedia.org/wiki/Thian-heng_(Kim)>
+name(nan) Thian-heng
 #1232 - 1234
 #->none
 
@@ -2977,7 +2977,7 @@ tag 私年号 (ウィキペディア)
 
 ## <https://www.academia.edu/32240581/%D0%91%D0%B5%D0%BB%D1%8F%D0%B5%D0%B2_%D0%92_%D0%90_%D0%A1%D0%B8%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87_%D0%A1_%D0%92_%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%BA%D0%B8_%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%B5%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B0_%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B5_%D0%A1%D1%8F_%D0%B2_%D0%9F%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%8C%D0%B5>
 #p.48
-#XXX
+#XXXname
 #тянь-тай
 #1215 - 1223
 #p.52
@@ -3030,7 +3030,7 @@ tag 私年号 (ウィキペディア)
 
 ## <https://www.academia.edu/32240581/%D0%91%D0%B5%D0%BB%D1%8F%D0%B5%D0%B2_%D0%92_%D0%90_%D0%A1%D0%B8%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87_%D0%A1_%D0%92_%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%BA%D0%B8_%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%B5%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B0_%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B5_%D0%A1%D1%8F_%D0%B2_%D0%9F%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%8C%D0%B5>
 #p.48
-#XXX
+#XXXname
 #да-тун
 #p.52
 #"大同二年十二月日"
@@ -3391,6 +3391,9 @@ tag 異説
 tag 追号説のある元号
 tag 東洋式即位紀年
 
+## French translation of Latin transliteration [SW]
+name(fr) Thien|min
+
 ## [103]
 wref_ja 天命 (後金)
 name_ja 天命
@@ -3401,14 +3404,11 @@ name_man %E1%A0%A0%E1%A0%AA%E1%A1%A3%E1%A0%A0%E1%A0%A2 %E1%A0%B8%E1%A1%A0%E1%A0%
 ## [102]
 name_man %E1%A0%A0%E1%A0%AA%E1%A1%B4%E1%A0%A0%E1%A1%B3 %E1%A1%B6%E1%A1%A0%E1%A0%AF%E1%A1%B3%E1%A0%A9%E1%A1%A4%E1%A0%A0,abkai fulingga
 
-#XXX
+#XXXname
 ## [105]
 #mn テンゲリーン・ボシグト,tegri-yin bosugtu
 ## [106]
 #man abkai fulingga
-
-## French translation of Latin transliteration [SW]
-#XXX Thienmin
 
 def[天命(戊午)]
 #y~1826
@@ -3496,7 +3496,7 @@ name_kana てん そう
 &
 name_man %E1%A0%A0%E1%A0%AA%E1%A1%B4%E1%A0%A0%E1%A1%B3 %E1%A0%B0%E1%A1%A0%E1%A0%B7%E1%A1%9D,abkai sure
 
-#XXX
+#XXXname
 ## [102]
 #name_man %E1%A0%A0%E1%A0%AA%E1%A1%B4%E1%A0%A0%E1%A1%B3 %E1%A0%B0%E1%A1%A0%E1%A1%B5%E1%A1%9D,abkai sure
 ## [105]
@@ -3519,6 +3519,8 @@ name_man %E1%A0%B0%E1%A1%A0%E1%A0%B7%E1%A1%9D %E1%A1%A5%E1%A0%A0%E1%A0%A8,sure h
 %tag   name_ja 清
 %tag   period of 中国
 #XXX prefix 大清
+## <https://www.loc.gov/catdir/cpso/romanization/chinese.pdf#page=8>
+#XXX name(zh_alalc) Qing
 
 %tag tag
 %tag   name_ja 清の公年号
@@ -3569,7 +3571,7 @@ name_man %E1%A0%B8%E1%A1%9D%E1%A0%B0%E1%A0%A2%E1%A1%A5%E1%A1%A0%E1%A0%A8 %E1%A0%
 name_man %E1%A0%B8%E1%A1%9D%E1%A0%B0%E1%A1%B3%E1%A1%A5%E1%A1%A0%E1%A0%A8 %E1%A1%9D%E1%A1%B5%E1%A1%A9%E1%A1%9D%E1%A0%AE%E1%A1%A0%E1%A0%A9%E1%A1%A4%E1%A1%9D,wesihun erdemungge
 name_mn %E1%A0%B3%E1%A0%A1%E1%A0%AD%E1%A0%A1%E1%A0%B3%E1%A0%A6 %E1%A0%A1%E1%A0%B7%E1%A0%B3%E1%A0%A1%E1%A0%AE%E1%A0%B3%E1%A0%A1%E1%A0%A2,Дээд эрдэмт
 
-#XXX
+#XXXname
 ## [105]
 #man ウェシフン・エルデムンゲ
 #mn デード・エルデムト
@@ -4131,7 +4133,7 @@ name_ja 光緒
 name 光緖
 name_tw 光緒
 name_cn 光绪
-#光&swc273;
+#XXXname 光&swc273;
 
 tag 一世一元
 tag 君主名の元号
@@ -4191,13 +4193,16 @@ tag マカオ
 #->AD 1899-11-16 広州湾租借地 中仏互訂広州湾租界条約 signed
 #->AD 1900-02-19 広州湾租借地 中仏互訂広州湾租界条約
 
+## <https://www.loc.gov/catdir/cpso/romanization/chinese.pdf#page=8>
+name(zh_alalc) Guang|xu
+
 ## [103]
 wref_ja 光緒
 name_ja 光緒
 name 光緖
 name_kana こう しょ
 name_kana こう ちょ
-#pinyin Gu%C4%81ngx%C3%B9
+pinyin Gu%C4%81ng|x%C3%B9
 &
 name_man %E1%A0%AA%E1%A0%A0%E1%A1%A9%E1%A0%A0%E1%A0%B7%E1%A0%A0%E1%A0%A9%E1%A1%A4%E1%A0%A0 %E1%A1%A9%E1%A0%A3%E1%A0%B7%E1%A0%A3,badarangga doro
 
@@ -4320,7 +4325,7 @@ name_ja 宣統
 name_kana せん とう
 &
 name_man %E1%A1%A4%E1%A1%9D%E1%A1%A5%E1%A1%A0%E1%A0%A9%E1%A1%A4%E1%A1%9D %E1%A0%B6%E1%A0%A4%E1%A0%B0%E1%A0%A4,gehungge yoso
-#XXX
+#XXXname
 #name_mn ケブト・ヨスン
 
 ## [102]
@@ -4523,6 +4528,9 @@ tag 君主名の元号
     #中国共産党 #グレゴリオ暦 #日ソ戦争
 
 #name_official 康德
+
+## <https://www.loc.gov/catdir/cpso/romanization/chinese.pdf#page=8>
+name(zh_alalc) Kang|de
 
 ## [102]
 name_tw 康德

@@ -1972,8 +1972,8 @@ u 49
 #新疆出土:
 u 36
 
-## <https://zh-min-nan.wikipedia.org/wiki/Ki%C3%A0n-heng_(Se_Ch%C3%ACn)>
-#XXX Kiàn-heng
+wref<https://zh-min-nan.wikipedia.org/wiki/Ki%C3%A0n-heng_(Se_Ch%C3%ACn)>
+name(nan) Kiàn-heng
 #313 - 317
 
 ## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.3
@@ -2879,8 +2879,8 @@ name 昇平
 #361 (5) - 376 (20)
 #<-建興 ->none
 
-## <https://zh-min-nan.wikipedia.org/wiki/Seng-p%C3%AAng_(Tong_Ch%C3%ACn)>
-#XXX Seng-pêng
+wref<https://zh-min-nan.wikipedia.org/wiki/Seng-p%C3%AAng_(Tong_Ch%C3%ACn)>
+name(nan) Seng-pêng
 name 昇平
 #357 - 361
 
@@ -4621,11 +4621,11 @@ tag 私年号 (ウィキペディア)
 ->泰始(乙巳) 南:466-8-24(己卯) j:466-9-19
     #陥落{#南朝宋, #宋_(劉子勛) #劉子勛} #死去
 
-## <https://en.wikipedia.org/wiki/Liu_Zixun>
-#XXX Yìjiā
+wref<https://en.wikipedia.org/wiki/Liu_Zixun>
+name(en) Yì|jiā
 #j:466-2-7 - 466
 
-## <https://vi.wikipedia.org/wiki/L%C6%B0u_T%E1%BB%AD_Hu%C3%A2n>
+wref<https://vi.wikipedia.org/wiki/L%C6%B0u_T%E1%BB%AD_Hu%C3%A2n>
 name(vi) Nghĩa Gia
 #466-2-7 - 466
 
