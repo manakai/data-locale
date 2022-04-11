@@ -136,6 +136,14 @@ country
   name_ja ラオス
   region of 東南アジア
 
+region
+  name_ja 哀牢
+  region of ラオス
+
+country
+  name_ja カンボジア
+  region of 東南アジア
+
 country
   name_ja シンガポール
   region of 東南アジア
@@ -338,6 +346,11 @@ action
   name_ja 退位
 
 action
+  name_ja 退位制定
+  group of 退位
+  group of 制定
+
+action
   name_ja 禅譲
 
 action
@@ -354,6 +367,12 @@ action
 action
   name_ja 改元前の退位
   group of 事由
+  group of 退位
+
+action
+  name_ja 改元前の退位制定
+  group of 事由
+  group of 退位
 
 action
   name_ja 改元実施日前死去
@@ -363,6 +382,7 @@ action
 action
   name_ja 改元実施日前退位
   group of 事由
+  group of 退位
 
 action
   name_ja 元号名変更
@@ -385,6 +405,9 @@ action
   name_ja 勢力吸収
   group of 連合
   group of 行政異動
+
+action
+  name_ja 保護国化
 
 action
   name_ja 捕縛
@@ -658,6 +681,13 @@ tag
   name_ja 代始改元不実施
 
 action
+  name_ja 改元日前倒し
+
+action
+  name_ja 元年前元号
+  group of 元号
+
+action
   name_ja 撤回
 
 action
@@ -703,6 +733,11 @@ action
   name_ja 割譲
   #subject: old
   #object: new
+
+action
+  name_ja 講和条約発効割譲
+  group of 和約締結
+  group of 割譲
 
 action
   name_ja 戦時異動
@@ -1041,6 +1076,10 @@ tag
 
 event
   name_ja 第二次世界大戦
+
+event
+  name_ja 大東亜戦争
+  group of 第二次世界大戦
 
 action
   name_ja 初出土
