@@ -396,7 +396,7 @@ for my $path (
            lang => $lang,
            preferred => $preferred,
            value => $value};
-    } elsif (defined $key and /^name\((vi_kana)\)\s+([\p{Katakana}\x{30FC}\s]+)$/) {
+    } elsif (defined $key and /^name\((vi_kana)\)\s+([\p{Katakana}\x{30FC}\s|]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'kana',

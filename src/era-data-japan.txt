@@ -723,6 +723,13 @@ tag 鉄山
 tag 青ヶ島
 <-大正 [g:1928-12] #日本 #青ヶ島 #通知受領 #グレゴリオ暦
 
+tag 仏領インドシナ
+tag 仏印保護領大南
+tag 越南帝国
+tag 越南
+tag ラオス
+tag カンボジア
+
 %tag region
 %tag   name_ja 尖閣諸島
 %tag   region of 大日本帝国沖縄県

@@ -64,9 +64,15 @@ mjd:1170 同治
 mjd:5925 光緒
 # g:1909-01-22+0 y~1095 firstday
 mjd:18328 宣統
-# g:1911-12-29+0 y~1456 firstday
-mjd:19399 共戴
-# g:1924-07-10+0 y~670 renamed
-mjd:23976 モンゴル国
-# g:1924-11-26+0 y~157 renamed
-mjd:24115 モンゴル人民共和国
+# g:1912-01-01+0 y~971 firstday
+mjd:19402 民國
+# g:1916-01-01+0 y~1098 firstday
+mjd:20863 洪憲
+# g:1916-03-23+0 y~971 firstday
+mjd:20945 民國
+# g:1917-07-01+0 y~1095 firstday
+mjd:21410 宣統
+# g:1917-07-12+0 y~971 firstday
+mjd:21421 民國
+# g:1986-12-31+0 y~1764 administrative
+mjd:46795 unknown

@@ -118,14 +118,18 @@ tag 米国
 %tag country
 %tag   name_ja 仏国
 tag 仏国
+%tag tag
+%tag   name_ja フランスの元号
+%tag   group of 元号
 %tag country
 %tag   name_ja 仏領インドシナ
 %tag   region of 仏国
 tag 仏領インドシナ
-tag タイ
 tag ベトナム人
 tag ラオス
 tag 越南
+tag カンボジア
+tag タイ
 
 tag シンガポール
 

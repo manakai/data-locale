@@ -783,7 +783,9 @@ for my $era (values %{$Data->{eras}}) {
         ($tr->{type} eq 'prevfirstday' or
          $tr->{type} eq 'administrative' or
          $tr->{type} eq 'wartime')) { # has day or day_end
-      $has_prevfirstday = 1 if $tr->{type} eq 'prevfirstday';
+      $has_prevfirstday = 1
+          if $tr->{type} eq 'prevfirstday' and
+             not $tr->{tag_ids}->{2107}; # 分離
       my $day = $tr->{day};
       if (defined $day and
           ($tr->{type} eq 'wartime' or
@@ -866,7 +868,7 @@ for my $era (values %{$Data->{eras}}) {
     #warn Dumper [
     #  $tr->{day} // $tr->{day_start},
     #  $era->{end_year}
-    #] if $era->{id} == 1112;
+    #] if $era->{id} == 559;
   } # $tr
   my $has_end_year = defined $era->{end_year};
   for my $tr (@$era_trs) {
