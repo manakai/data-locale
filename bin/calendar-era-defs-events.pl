@@ -213,6 +213,11 @@ my $GToKMapKey = {
   清 => 'shin',
   中華民国 => 'hk',
   中華人民共和国 => 'hk',
+  高句麗 => 'gishin',
+  百済 => 'south',
+  新羅 => 'zuitou',
+  高麗 => 'zuitou',
+  李氏朝鮮 => 'shin',
   k => 'kyuureki',
 };
 sub get_kmap ($) {
@@ -450,6 +455,7 @@ sub ssday ($$) {
       $tag_ids->{1086} or # 蒙古
       $tag_ids->{1084} or # 後金
       $tag_ids->{1009} or # 漢土
+      $tag_ids->{1012} or # 朝鮮
       $tag_ids->{2084}) { # 越南
     if ($y >= 1912) {
       unless ($tag_ids->{2084}) { # 越南

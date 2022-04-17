@@ -285,7 +285,7 @@ sub process_table ($$) {
     
     $data->{_range} = $input->{"사용 기간"} if defined $input->{"사용 기간"};
 
-    my $time_range = $input->{"사용기간(음력/양력)"} // $input->{"사용기간(음력)"} // $input->{"사용년도(음력/양력)"};
+    my $time_range = $input->{"사용기간(음력/양력)"} // $input->{"사용기간(음력)"} // $input->{"사용년도(음력/양력)"} // $input->{"사용년도(음력)"};
     if (defined $time_range) {
       if ($time_range =~ m{^기원전 ([0-9]+)년}) {
         $data->{offset} = 1 - $1 - 1;

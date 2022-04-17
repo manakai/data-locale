@@ -1,26 +1,6 @@
 {
    "_errors" : [
       [
-         "Era mapping is missing",
-         "順天,1009",
-         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
-      ],
-      [
-         "Era mapping is missing",
-         "天感聖武,1043",
-         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
-      ],
-      [
-         "Era mapping is missing",
-         "天貺寶象,1067",
-         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
-      ],
-      [
-         "Era mapping is missing",
-         "天順,1127",
-         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
-      ],
-      [
          "Era not found",
          "政龍寶應,1162"
       ],
@@ -31,31 +11,8 @@
       ],
       [
          "Era mapping is missing",
-         "重興,1284",
-         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
-      ],
-      [
-         "Era not found",
-         "開祐,1328"
-      ],
-      [
-         "Era mapping is missing",
          "隆慶,1371",
          "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
-      ],
-      [
-         "Era mapping is missing",
-         "開大,1402",
-         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
-      ],
-      [
-         "Era mapping is missing",
-         "太寶,1439",
-         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
-      ],
-      [
-         "Era not found",
-         "太貞,1503"
       ],
       [
          "Era mapping is missing",
@@ -63,17 +20,8 @@
          "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
       ],
       [
-         "Era not found",
-         "景曆,1547"
-      ],
-      [
          "Era mapping is missing",
          "隆泰,1622",
-         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
-      ],
-      [
-         "Era mapping is missing",
-         "順德,1637",
          "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
       ],
       [
@@ -99,11 +47,6 @@
       [
          "Era mapping is missing",
          "建福,1882",
-         "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
-      ],
-      [
-         "Era mapping is missing",
-         "同慶,1885",
          "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam"
       ],
       [
@@ -191,60 +134,10 @@
          "vi" : "Cảnh Thụy"
       },
       {
-         "_possibles" : [
-            [
-               30,
-               "順天(戊申)",
-               1427
-            ],
-            [
-               150,
-               "順天(乙卯)",
-               894
-            ],
-            [
-               663,
-               "順天(己酉)",
-               1008
-            ],
-            [
-               986,
-               "順天(丁未)",
-               1786
-            ],
-            [
-               1203,
-               "順天(庚申)",
-               1859
-            ],
-            [
-               1361,
-               "順天",
-               758
-            ],
-            [
-               1580,
-               "順天(丙子)",
-               1215
-            ],
-            [
-               1984,
-               "順天(乙亥)",
-               1214
-            ],
-            [
-               1985,
-               "順天(甲戌)",
-               1213
-            ],
-            [
-               2150,
-               "順天(己未)",
-               1858
-            ]
-         ],
-         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
          "cn" : "順天",
+         "era_id" : 2164,
+         "era_key" : "順天(庚戌)",
          "name" : "順天",
          "offset" : 1009,
          "tw" : "順天",
@@ -296,15 +189,10 @@
          "vi" : "Minh Đạo"
       },
       {
-         "_possibles" : [
-            [
-               1593,
-               "天感聖武",
-               1048
-            ]
-         ],
-         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
          "cn" : "天感聖武",
+         "era_id" : 1593,
+         "era_key" : "天感聖武",
          "name" : "天感聖武",
          "offset" : 1043,
          "tw" : "天感聖武",
@@ -356,15 +244,10 @@
          "vi" : "Long Chương Thiên Tự"
       },
       {
-         "_possibles" : [
-            [
-               141,
-               "天貺寶象",
-               1068
-            ]
-         ],
-         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
          "cn" : "天貺寶象",
+         "era_id" : 141,
+         "era_key" : "天貺寶象",
          "name" : "天貺寶象",
          "offset" : 1067,
          "tw" : "天貺寶象",
@@ -471,45 +354,10 @@
          "vi" : "Thiên Phù Khánh Thọ"
       },
       {
-         "_possibles" : [
-            [
-               169,
-               "大順(甲申)",
-               1643
-            ],
-            [
-               720,
-               "天順(丁未)",
-               1126
-            ],
-            [
-               1040,
-               "天順",
-               1327
-            ],
-            [
-               1050,
-               "天順(甲戌)",
-               1213
-            ],
-            [
-               1138,
-               "天順(丁丑)",
-               1456
-            ],
-            [
-               1375,
-               "天順(辛丑)",
-               1660
-            ],
-            [
-               1600,
-               "天順(丙子)",
-               1455
-            ]
-         ],
-         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
          "cn" : "天順",
+         "era_id" : 2163,
+         "era_key" : "天順(戊申)",
          "name" : "天順",
          "offset" : 1127,
          "tw" : "天順",
@@ -718,20 +566,10 @@
          "vi" : "Thiệu Bảo"
       },
       {
-         "_possibles" : [
-            [
-               737,
-               "重興",
-               1643
-            ],
-            [
-               989,
-               "重興(癸巳)",
-               1292
-            ]
-         ],
-         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
          "cn" : "重興",
+         "era_id" : 2166,
+         "era_key" : "重興(乙酉)",
          "name" : "重興",
          "offset" : 1284,
          "tw" : "重興",
@@ -774,6 +612,8 @@
       {
          "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
          "cn" : "開祐",
+         "era_id" : 1063,
+         "era_key" : "開佑",
          "name" : "開祐",
          "offset" : 1328,
          "tw" : "開祐",
@@ -901,15 +741,10 @@
          "vi" : "Thiệu Thành"
       },
       {
-         "_possibles" : [
-            [
-               1188,
-               "開大",
-               1403
-            ]
-         ],
-         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
          "cn" : "開大",
+         "era_id" : 1188,
+         "era_key" : "開大",
          "name" : "開大",
          "offset" : 1402,
          "tw" : "開大",
@@ -983,20 +818,10 @@
          "vi" : "Đại Bảo"
       },
       {
-         "_possibles" : [
-            [
-               288,
-               "大寶(己巳)",
-               1148
-            ],
-            [
-               554,
-               "大宝",
-               700
-            ]
-         ],
-         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
          "cn" : "太寶",
+         "era_id" : 1562,
+         "era_key" : "大寶(庚申)",
          "name" : "太寶",
          "offset" : 1439,
          "tw" : "太寶",
@@ -1083,6 +908,8 @@
       {
          "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
          "cn" : "太貞",
+         "era_id" : 628,
+         "era_key" : "泰貞",
          "name" : "太貞",
          "offset" : 1503,
          "tw" : "太貞",
@@ -1185,6 +1012,8 @@
       {
          "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
          "cn" : "景曆",
+         "era_id" : 1374,
+         "era_key" : "景歷",
          "name" : "景曆",
          "offset" : 1547,
          "tw" : "景曆",
@@ -1194,8 +1023,8 @@
       {
          "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
          "cn" : "光寶",
-         "era_id" : 315,
-         "era_key" : "光寶",
+         "era_id" : 2168,
+         "era_key" : "光寶(甲寅)",
          "name" : "光寶",
          "offset" : 1553,
          "tw" : "光寶",
@@ -1205,8 +1034,8 @@
       {
          "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
          "cn" : "淳福",
-         "era_id" : 602,
-         "era_key" : "淳福",
+         "era_id" : 2170,
+         "era_key" : "淳福(壬戌)",
          "name" : "淳福",
          "offset" : 1561,
          "tw" : "淳福",
@@ -1216,8 +1045,8 @@
       {
          "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
          "cn" : "崇康",
-         "era_id" : 1547,
-         "era_key" : "崇康",
+         "era_id" : 2169,
+         "era_key" : "崇康(丙寅)",
          "name" : "崇康",
          "offset" : 1565,
          "tw" : "崇康",
@@ -1238,8 +1067,8 @@
       {
          "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
          "cn" : "端泰",
-         "era_id" : 1137,
-         "era_key" : "端泰",
+         "era_id" : 2171,
+         "era_key" : "端泰(丙戌)",
          "name" : "端泰",
          "offset" : 1585,
          "tw" : "端泰",
@@ -1317,7 +1146,7 @@
             [
                1435,
                "隆泰",
-               1593
+               1617
             ]
          ],
          "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
@@ -1329,30 +1158,10 @@
          "vi" : "Long Thái"
       },
       {
-         "_possibles" : [
-            [
-               316,
-               "順德(己卯)",
-               1518
-            ],
-            [
-               1457,
-               "順德",
-               967
-            ],
-            [
-               1662,
-               "順德(戊辰)",
-               1627
-            ],
-            [
-               1667,
-               "順德(段思曠)",
-               null
-            ]
-         ],
-         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
          "cn" : "順德",
+         "era_id" : 2172,
+         "era_key" : "順德(戊寅)",
          "name" : "順德",
          "offset" : 1637,
          "tw" : "順德",
@@ -1870,20 +1679,10 @@
          "vi" : "Hàm Nghi"
       },
       {
-         "_possibles" : [
-            [
-               1013,
-               "同慶",
-               911
-            ],
-            [
-               1531,
-               "同慶(乙酉)",
-               1884
-            ]
-         ],
-         "caption" : "Niên_hiệu_các_triều_vua,_chúa_Việt_Nam",
+         "caption" : "Niên hiệu các triều vua, chúa Việt Nam",
          "cn" : "同慶",
+         "era_id" : 2179,
+         "era_key" : "同慶(丙戌)",
          "name" : "同慶",
          "offset" : 1885,
          "tw" : "同慶",

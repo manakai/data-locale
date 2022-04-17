@@ -166,6 +166,14 @@ sub process_table ($$) {
         push @{$data->{romajis} ||= []}, $v if length $v;
       }
     }
+    my @offset;
+    if ($note =~ m{The ([0-9]+)th year of [A-Za-z-]+ might be ([0-9]+ CE(?:(?:, or | or |, )[0-9]+ CE)*)\.}) {
+      my $n1 = $1;
+      my $x = $2;
+      while ($x =~ /([0-9]+)/g) {
+        push @offset, $1 - $n1;
+      }
+    }
     $data->{dup} = 1 if $note =~ /Restored/;
     
     my $range = $input->{"Period of use"} // '';
@@ -203,7 +211,13 @@ sub process_table ($$) {
 
     $data->{dup} = 1 if ($table->{row}->[$y]->{element}->get_attribute ('style') // '') eq 'background:#DAF2FF;';
 
-    push @{$Data->{eras}}, $data;
+    push @{$Data->{eras}}, $data
+        if not (@offset and not defined $data->{offset});
+    for (@offset) {
+      my $data2 = {%$data};
+      $data2->{offset} = $_;
+      push @{$data->{eras}}, $data2;
+    }
     for (@other) {
       my $data2 = {%$data};
       $data2->{$latin_key} = $_->[0];

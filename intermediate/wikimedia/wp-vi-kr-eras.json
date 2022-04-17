@@ -7,16 +7,6 @@
       ],
       [
          "Era mapping is missing",
-         "鴻濟,571",
-         "Tân_La"
-      ],
-      [
-         "Era mapping is missing",
-         "仁平,633",
-         "Tân_La"
-      ],
-      [
-         "Era mapping is missing",
          "太始,816",
          "Bột_Hải"
       ],
@@ -28,19 +18,6 @@
       [
          "Era not found",
          "隆墓,1115"
-      ],
-      [
-         "Era not found",
-         "水德萬歲,910"
-      ],
-      [
-         "Era mapping is missing",
-         "光德,949",
-         "Cao_Ly"
-      ],
-      [
-         "Era not found",
-         "峻豊,959"
       ],
       [
          "Era mapping is missing",
@@ -94,7 +71,7 @@
             [
                730,
                "建興(高句麗)",
-               null
+               471
             ],
             [
                880,
@@ -115,6 +92,16 @@
                2028,
                "建興(戊戌)",
                817
+            ],
+            [
+               2188,
+               "建興(壬子)",
+               591
+            ],
+            [
+               2189,
+               "建興(百済)",
+               531
             ]
          ],
          "caption" : "Cao_Câu_Ly",
@@ -159,14 +146,9 @@
          "vi" : "Đại Xương"
       },
       {
-         "_possibles" : [
-            [
-               967,
-               "鴻濟",
-               null
-            ]
-         ],
-         "caption" : "Tân_La",
+         "caption" : "Tân La",
+         "era_id" : 967,
+         "era_key" : "鴻濟",
          "hangul" : "홍제",
          "name" : "鴻濟",
          "offset" : 571,
@@ -186,19 +168,9 @@
          "vi" : "Kiến Phúc"
       },
       {
-         "_possibles" : [
-            [
-               369,
-               "仁平(新羅)",
-               null
-            ],
-            [
-               1194,
-               "仁平",
-               1150
-            ]
-         ],
-         "caption" : "Tân_La",
+         "caption" : "Tân La",
+         "era_id" : 369,
+         "era_key" : "仁平(新羅)",
          "hangul" : "인평",
          "name" : "仁平",
          "offset" : 633,
@@ -460,6 +432,8 @@
       },
       {
          "caption" : "Hậu Cao Câu Ly",
+         "era_id" : 2193,
+         "era_key" : "水德萬歲",
          "hangul" : "수덕만세",
          "name" : "水德萬歲",
          "offset" : 910,
@@ -490,14 +464,9 @@
          "ukey" : "天授,917"
       },
       {
-         "_possibles" : [
-            [
-               844,
-               "光德",
-               948
-            ]
-         ],
-         "caption" : "Cao_Ly",
+         "caption" : "Cao Ly",
+         "era_id" : 2195,
+         "era_key" : "光德(庚戌)",
          "hangul" : "광덕",
          "kr_latin" : "Gwangdeok",
          "name" : "光德",
@@ -507,6 +476,8 @@
       },
       {
          "caption" : "Cao Ly",
+         "era_id" : 603,
+         "era_key" : "峻豐",
          "hangul" : "준풍",
          "kr_latin" : "Junpung",
          "name" : "峻豊",

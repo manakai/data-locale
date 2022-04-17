@@ -2,39 +2,6 @@
    "_errors" : [
       [
          "Era mapping is missing",
-         "延壽,450",
-         "Goguryeo"
-      ],
-      [
-         "Era mapping is missing",
-         "永康",
-         "Goguryeo"
-      ],
-      [
-         "Era mapping is missing",
-         "建興",
-         "Goguryeo"
-      ],
-      [
-         "Era mapping is missing",
-         "鴻濟,571",
-         "Silla"
-      ],
-      [
-         "Era mapping is missing",
-         "仁平,633",
-         "Silla"
-      ],
-      [
-         "Era not found",
-         "水德萬歲,910"
-      ],
-      [
-         "Era not found",
-         "峻豊,959"
-      ],
-      [
-         "Era mapping is missing",
          "開國,1893",
          "Joseon"
       ],
@@ -71,140 +38,15 @@
          "ukey" : "永樂,390"
       },
       {
-         "_possibles" : [
-            [
-               247,
-               "延寿",
-               1867
-            ],
-            [
-               1372,
-               "延壽(甲申)",
-               623
-            ],
-            [
-               1664,
-               "延壽(高句麗)",
-               null
-            ]
-         ],
          "caption" : "Goguryeo",
          "en" : "Yeonsu",
+         "era_id" : 1664,
+         "era_key" : "延壽(高句麗)",
          "hangul" : "연수",
          "name" : "延壽",
          "offset" : 450,
          "tw" : "延壽",
          "ukey" : "延壽,450"
-      },
-      {
-         "_possibles" : [
-            [
-               78,
-               "永康(壬子)",
-               411
-            ],
-            [
-               465,
-               "永康",
-               166
-            ],
-            [
-               484,
-               "永康(庚申)",
-               299
-            ],
-            [
-               747,
-               "永康(高句麗)",
-               null
-            ],
-            [
-               779,
-               "承康",
-               397
-            ],
-            [
-               1296,
-               "永康(甲辰)",
-               463
-            ],
-            [
-               1446,
-               "永康(丙申)",
-               395
-            ],
-            [
-               2002,
-               "永康(丙午)",
-               465
-            ]
-         ],
-         "caption" : "Goguryeo",
-         "en" : "Yeonggang",
-         "hangul" : "영강",
-         "name" : "永康",
-         "tw" : "永康",
-         "ukey" : "永康"
-      },
-      {
-         "_possibles" : [
-            [
-               124,
-               "建興",
-               222
-            ],
-            [
-               359,
-               "建興(己亥)",
-               818
-            ],
-            [
-               716,
-               "建興(壬申)",
-               251
-            ],
-            [
-               730,
-               "建興(高句麗)",
-               null
-            ],
-            [
-               880,
-               "建興(丙戌)",
-               385
-            ],
-            [
-               1112,
-               "建興(癸酉)",
-               312
-            ],
-            [
-               1507,
-               "建興(甲子)",
-               303
-            ],
-            [
-               2028,
-               "建興(戊戌)",
-               817
-            ]
-         ],
-         "caption" : "Goguryeo",
-         "en" : "Geonheung",
-         "hangul" : "건흥",
-         "name" : "建興",
-         "tw" : "建興",
-         "ukey" : "建興"
-      },
-      {
-         "caption" : "Goguryeo",
-         "en" : "Yeon-ga",
-         "era_id" : 1184,
-         "era_key" : "延嘉",
-         "hangul" : "연가",
-         "name" : "延嘉",
-         "tw" : "延嘉",
-         "ukey" : "延嘉"
       },
       {
          "caption" : "Silla",
@@ -240,15 +82,10 @@
          "ukey" : "大昌,567"
       },
       {
-         "_possibles" : [
-            [
-               967,
-               "鴻濟",
-               null
-            ]
-         ],
          "caption" : "Silla",
          "en" : "Hongje",
+         "era_id" : 967,
+         "era_key" : "鴻濟",
          "hangul" : "홍제",
          "name" : "鴻濟",
          "offset" : 571,
@@ -267,20 +104,10 @@
          "ukey" : "建福,583"
       },
       {
-         "_possibles" : [
-            [
-               369,
-               "仁平(新羅)",
-               null
-            ],
-            [
-               1194,
-               "仁平",
-               1150
-            ]
-         ],
          "caption" : "Silla",
          "en" : "Inpyeong",
+         "era_id" : 369,
+         "era_key" : "仁平(新羅)",
          "hangul" : "인평",
          "name" : "仁平",
          "offset" : 633,
@@ -2149,6 +1976,8 @@
       {
          "caption" : "Taebong",
          "en" : "Sudeokmanse",
+         "era_id" : 2193,
+         "era_key" : "水德萬歲",
          "hangul" : "수덕만세",
          "name" : "水德萬歲",
          "offset" : 910,
@@ -2247,6 +2076,11 @@
                2035,
                "天福(渤海)",
                null
+            ],
+            [
+               2160,
+               "天福(辛巳)",
+               980
             ]
          ],
          "caption" : "Goryeo",
@@ -2285,6 +2119,11 @@
                2035,
                "天福(渤海)",
                null
+            ],
+            [
+               2160,
+               "天福(辛巳)",
+               980
             ]
          ],
          "caption" : "Goryeo",
@@ -2396,6 +2235,8 @@
       {
          "caption" : "Goryeo",
          "en" : "Junpung",
+         "era_id" : 603,
+         "era_key" : "峻豐",
          "hangul" : "준풍",
          "name" : "峻豊",
          "offset" : 959,

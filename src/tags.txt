@@ -148,6 +148,16 @@ country
   name_ja シンガポール
   region of 東南アジア
 
+country
+  name_ja インドネシア
+  region of 東南アジア
+
+region
+  name_ja 蘭領東印度
+  region of 東南アジア
+  period of インドネシア
+  region of 西太平洋
+
 region
   name_ja 南洋
   region of 大東亜
@@ -212,9 +222,6 @@ religion
 
 religion
   name_ja 霊波之光
-
-religion
-  name_ja 統一教会
 
 religion
   name_ja 天祖光教
@@ -410,6 +417,21 @@ action
   name_ja 保護国化
 
 action
+  name_ja 独立
+  #subject: from
+  #object: new
+
+action
+  name_ja 独立制定
+  group of 独立
+  group of 制定
+
+action
+  name_ja 独立発効
+  group of 独立
+  group of 発効
+
+action
   name_ja 捕縛
 
 action
@@ -509,6 +531,9 @@ action
 action
   name_ja 詔制定
   group of 制定
+
+action
+  name_ja 発効
 
 action
   name_ja 利用開始
@@ -989,6 +1014,10 @@ action
   group of 年異説発生
 
 action
+  name_ja 年旧説発生
+  group of 年誤伝発生
+
+action
   name_ja 名誤伝発生
   group of 誤伝発生
   group of 名異説発生
@@ -1025,6 +1054,13 @@ tag
 
 calendar
   name_ja グレゴリオ暦
+
+action
+  name_ja 改暦
+
+action
+  name_ja グレゴリオ改暦
+  group of 改暦
 
 tag
   name_ja 建国紀元

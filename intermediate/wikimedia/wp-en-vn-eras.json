@@ -2,147 +2,13 @@
    "_errors" : [
       [
          "Era mapping is missing",
-         "順天,1009",
-         "Lý_dynasty"
-      ],
-      [
-         "Era mapping is missing",
-         "天感聖武,1043",
-         "Lý_dynasty"
-      ],
-      [
-         "Era mapping is missing",
-         "天貺寶象,1067",
-         "Lý_dynasty"
-      ],
-      [
-         "Era not found",
-         "龍符元化,1100"
-      ],
-      [
-         "Era mapping is missing",
-         "天順,1127",
-         "Lý_dynasty"
-      ],
-      [
-         "Era mapping is missing",
-         "大順,1127",
-         "Lý_dynasty"
-      ],
-      [
-         "Era not found",
-         "天資寶祐,1201"
-      ],
-      [
-         "Era mapping is missing",
          "乾寧,1213",
          "Lý_dynasty"
       ],
       [
          "Era mapping is missing",
-         "重興,1284",
-         "Trần_dynasty"
-      ],
-      [
-         "Era not found",
-         "開祐,1328"
-      ],
-      [
-         "Era mapping is missing",
-         "開大,1402",
-         "Hồ_dynasty"
-      ],
-      [
-         "Era mapping is missing",
-         "太寶,1439",
-         "Primitive_Lê_dynasty"
-      ],
-      [
-         "Era not found",
-         "太貞,1503"
-      ],
-      [
-         "Era mapping is missing",
-         "天應,1515",
-         "Primitive_Lê_dynasty/misc"
-      ],
-      [
-         "Era mapping is missing",
-         "應天,1515",
-         "Primitive_Lê_dynasty/misc"
-      ],
-      [
-         "Era mapping is missing",
-         "天德,1517",
-         "Primitive_Lê_dynasty/misc"
-      ],
-      [
-         "Era mapping is missing",
-         "天憲,1518",
-         "Primitive_Lê_dynasty/misc"
-      ],
-      [
-         "Era not found",
-         "景曆,1547"
-      ],
-      [
-         "Era mapping is missing",
-         "光寶,1554",
-         "Mạc_dynasty"
-      ],
-      [
-         "Era mapping is missing",
-         "淳福,1564",
-         "Mạc_dynasty"
-      ],
-      [
-         "Era mapping is missing",
-         "崇康,1567",
-         "Mạc_dynasty"
-      ],
-      [
-         "Era mapping is missing",
-         "端泰,1584",
-         "Mạc_dynasty"
-      ],
-      [
-         "Era mapping is missing",
-         "隆泰,1617",
-         "Mạc_dynasty"
-      ],
-      [
-         "Era mapping is missing",
-         "順德,1637",
-         "Mạc_dynasty"
-      ],
-      [
-         "Era mapping is missing",
-         "永昌,1660",
-         "Mạc_dynasty"
-      ],
-      [
-         "Era mapping is missing",
-         "光照,1532",
-         "Revival_Lê_dynasty/misc"
-      ],
-      [
-         "Era mapping is missing",
-         "羅平,1593",
-         "Revival_Lê_dynasty/misc"
-      ],
-      [
-         "Era mapping is missing",
-         "大德,1594",
-         "Revival_Lê_dynasty/misc"
-      ],
-      [
-         "Era mapping is missing",
-         "福德,1595",
-         "Revival_Lê_dynasty/misc"
-      ],
-      [
-         "Era not found",
-         "紅龍,1911"
+         "紅龍,1911",
+         "Nguyễn_dynasty/misc"
       ]
    ],
    "eras" : [
@@ -217,59 +83,9 @@
          "vi" : "Cảnh Thụy"
       },
       {
-         "_possibles" : [
-            [
-               30,
-               "順天(戊申)",
-               1427
-            ],
-            [
-               150,
-               "順天(乙卯)",
-               894
-            ],
-            [
-               663,
-               "順天(己酉)",
-               1008
-            ],
-            [
-               986,
-               "順天(丁未)",
-               1786
-            ],
-            [
-               1203,
-               "順天(庚申)",
-               1859
-            ],
-            [
-               1361,
-               "順天",
-               758
-            ],
-            [
-               1580,
-               "順天(丙子)",
-               1215
-            ],
-            [
-               1984,
-               "順天(乙亥)",
-               1214
-            ],
-            [
-               1985,
-               "順天(甲戌)",
-               1213
-            ],
-            [
-               2150,
-               "順天(己未)",
-               1858
-            ]
-         ],
-         "caption" : "Lý_dynasty",
+         "caption" : "Lý dynasty",
+         "era_id" : 2164,
+         "era_key" : "順天(庚戌)",
          "name" : "順天",
          "offset" : 1009,
          "tw" : "順天",
@@ -317,14 +133,9 @@
          "vi" : "Minh Đạo"
       },
       {
-         "_possibles" : [
-            [
-               1593,
-               "天感聖武",
-               1048
-            ]
-         ],
-         "caption" : "Lý_dynasty",
+         "caption" : "Lý dynasty",
+         "era_id" : 1593,
+         "era_key" : "天感聖武",
          "name" : "天感聖武",
          "offset" : 1043,
          "tw" : "天感聖武",
@@ -372,14 +183,9 @@
          "vi" : "Long Chương Thiên Tự"
       },
       {
-         "_possibles" : [
-            [
-               141,
-               "天貺寶象",
-               1068
-            ]
-         ],
-         "caption" : "Lý_dynasty",
+         "caption" : "Lý dynasty",
+         "era_id" : 141,
+         "era_key" : "天貺寶象",
          "name" : "天貺寶象",
          "offset" : 1067,
          "tw" : "天貺寶象",
@@ -448,6 +254,8 @@
       },
       {
          "caption" : "Lý dynasty",
+         "era_id" : 107,
+         "era_key" : "龍符",
          "name" : "龍符元化",
          "offset" : 1100,
          "tw" : "龍符元化",
@@ -485,44 +293,9 @@
          "vi" : "Thiên Phù Khánh Thọ"
       },
       {
-         "_possibles" : [
-            [
-               169,
-               "大順(甲申)",
-               1643
-            ],
-            [
-               720,
-               "天順(丁未)",
-               1126
-            ],
-            [
-               1040,
-               "天順",
-               1327
-            ],
-            [
-               1050,
-               "天順(甲戌)",
-               1213
-            ],
-            [
-               1138,
-               "天順(丁丑)",
-               1456
-            ],
-            [
-               1375,
-               "天順(辛丑)",
-               1660
-            ],
-            [
-               1600,
-               "天順(丙子)",
-               1455
-            ]
-         ],
-         "caption" : "Lý_dynasty",
+         "caption" : "Lý dynasty",
+         "era_id" : 2163,
+         "era_key" : "天順(戊申)",
          "name" : "天順",
          "offset" : 1127,
          "tw" : "天順",
@@ -530,29 +303,9 @@
          "vi" : "Thiên Thuận"
       },
       {
-         "_possibles" : [
-            [
-               169,
-               "大順(甲申)",
-               1643
-            ],
-            [
-               402,
-               "大順(段鋹)",
-               1519
-            ],
-            [
-               521,
-               "大順",
-               889
-            ],
-            [
-               720,
-               "天順(丁未)",
-               1126
-            ]
-         ],
-         "caption" : "Lý_dynasty",
+         "caption" : "Lý dynasty",
+         "era_id" : 2163,
+         "era_key" : "天順(戊申)",
          "name" : "大順",
          "offset" : 1127,
          "tw" : "大順",
@@ -641,6 +394,8 @@
       },
       {
          "caption" : "Lý dynasty",
+         "era_id" : 830,
+         "era_key" : "天嘉寶祐",
          "name" : "天資寶祐",
          "offset" : 1201,
          "tw" : "天資寶祐",
@@ -753,19 +508,9 @@
          "vi" : "Thiệu Bảo"
       },
       {
-         "_possibles" : [
-            [
-               737,
-               "重興",
-               1643
-            ],
-            [
-               989,
-               "重興(癸巳)",
-               1292
-            ]
-         ],
-         "caption" : "Trần_dynasty",
+         "caption" : "Trần dynasty",
+         "era_id" : 2166,
+         "era_key" : "重興(乙酉)",
          "name" : "重興",
          "offset" : 1284,
          "tw" : "重興",
@@ -804,6 +549,8 @@
       },
       {
          "caption" : "Trần dynasty",
+         "era_id" : 1063,
+         "era_key" : "開佑",
          "name" : "開祐",
          "offset" : 1328,
          "tw" : "開祐",
@@ -931,14 +678,9 @@
          "vi" : "Thiệu Thành"
       },
       {
-         "_possibles" : [
-            [
-               1188,
-               "開大",
-               1403
-            ]
-         ],
-         "caption" : "Hồ_dynasty",
+         "caption" : "Hồ dynasty",
+         "era_id" : 1188,
+         "era_key" : "開大",
          "name" : "開大",
          "offset" : 1402,
          "tw" : "開大",
@@ -1026,19 +768,9 @@
          "vi" : "Đại Bảo"
       },
       {
-         "_possibles" : [
-            [
-               288,
-               "大寶(己巳)",
-               1148
-            ],
-            [
-               554,
-               "大宝",
-               700
-            ]
-         ],
-         "caption" : "Primitive_Lê_dynasty",
+         "caption" : "Primitive Lê dynasty",
+         "era_id" : 1562,
+         "era_key" : "大寶(庚申)",
          "name" : "太寶",
          "offset" : 1439,
          "tw" : "太寶",
@@ -1117,6 +849,8 @@
       },
       {
          "caption" : "Primitive Lê dynasty",
+         "era_id" : 628,
+         "era_key" : "泰貞",
          "name" : "太貞",
          "offset" : 1503,
          "tw" : "太貞",
@@ -1164,19 +898,9 @@
          "vi" : "Thống Nguyên"
       },
       {
-         "_possibles" : [
-            [
-               804,
-               "天応",
-               780
-            ],
-            [
-               1280,
-               "天應(丁亥)",
-               926
-            ]
-         ],
-         "caption" : "Primitive_Lê_dynasty/misc",
+         "caption" : "Primitive Lê dynasty/misc",
+         "era_id" : 2167,
+         "era_key" : "天應(丙子)",
          "name" : "天應",
          "offset" : 1515,
          "tw" : "天應",
@@ -1184,39 +908,9 @@
          "vi" : "Thiên Ứng"
       },
       {
-         "_possibles" : [
-            [
-               42,
-               "應天",
-               1205
-            ],
-            [
-               387,
-               "應天(癸亥)",
-               782
-            ],
-            [
-               551,
-               "應天(辛未)",
-               910
-            ],
-            [
-               1037,
-               "應天(甲午)",
-               993
-            ],
-            [
-               1416,
-               "應天(己亥)",
-               758
-            ],
-            [
-               2123,
-               "應天(丁卯)",
-               1206
-            ]
-         ],
-         "caption" : "Primitive_Lê_dynasty/misc",
+         "caption" : "Primitive Lê dynasty/misc",
+         "era_id" : 2167,
+         "era_key" : "天應(丙子)",
          "name" : "應天",
          "offset" : 1515,
          "tw" : "應天",
@@ -1244,54 +938,9 @@
          "vi" : "Đại Đức"
       },
       {
-         "_possibles" : [
-            [
-               179,
-               "天德(癸丑)",
-               1852
-            ],
-            [
-               611,
-               "天德(丙子)",
-               1215
-            ],
-            [
-               635,
-               "天德(戊子)",
-               1707
-            ],
-            [
-               689,
-               "天德(癸卯)",
-               942
-            ],
-            [
-               763,
-               "天德(辛亥)",
-               1850
-            ],
-            [
-               783,
-               "元德(己亥)",
-               1118
-            ],
-            [
-               1152,
-               "天徳",
-               956
-            ],
-            [
-               1401,
-               "天德(甲子)",
-               543
-            ],
-            [
-               1474,
-               "天德(己巳)",
-               1148
-            ]
-         ],
-         "caption" : "Primitive_Lê_dynasty/misc",
+         "caption" : "Primitive Lê dynasty/misc",
+         "era_id" : 781,
+         "era_key" : "大德(戊寅)",
          "name" : "天德",
          "offset" : 1517,
          "tw" : "天德",
@@ -1299,14 +948,9 @@
          "vi" : "Thiên Đức"
       },
       {
-         "_possibles" : [
-            [
-               1129,
-               "天憲",
-               1517
-            ]
-         ],
-         "caption" : "Primitive_Lê_dynasty/misc",
+         "caption" : "Primitive Lê dynasty/misc",
+         "era_id" : 1129,
+         "era_key" : "天憲",
          "name" : "天憲",
          "offset" : 1518,
          "tw" : "天憲",
@@ -1355,6 +999,8 @@
       },
       {
          "caption" : "Mạc dynasty",
+         "era_id" : 1374,
+         "era_key" : "景歷",
          "name" : "景曆",
          "offset" : 1547,
          "tw" : "景曆",
@@ -1362,14 +1008,9 @@
          "vi" : "Cảnh Lịch"
       },
       {
-         "_possibles" : [
-            [
-               315,
-               "光寶",
-               1553
-            ]
-         ],
-         "caption" : "Mạc_dynasty",
+         "caption" : "Mạc dynasty",
+         "era_id" : 315,
+         "era_key" : "光寶",
          "name" : "光寶",
          "offset" : 1554,
          "tw" : "光寶",
@@ -1377,14 +1018,9 @@
          "vi" : "Quang Bảo"
       },
       {
-         "_possibles" : [
-            [
-               602,
-               "淳福",
-               1561
-            ]
-         ],
-         "caption" : "Mạc_dynasty",
+         "caption" : "Mạc dynasty",
+         "era_id" : 602,
+         "era_key" : "淳福",
          "name" : "淳福",
          "offset" : 1564,
          "tw" : "淳福",
@@ -1392,14 +1028,9 @@
          "vi" : "Thuần Phúc"
       },
       {
-         "_possibles" : [
-            [
-               1547,
-               "崇康",
-               1565
-            ]
-         ],
-         "caption" : "Mạc_dynasty",
+         "caption" : "Mạc dynasty",
+         "era_id" : 1547,
+         "era_key" : "崇康",
          "name" : "崇康",
          "offset" : 1567,
          "tw" : "崇康",
@@ -1417,14 +1048,9 @@
          "vi" : "Diên Thành"
       },
       {
-         "_possibles" : [
-            [
-               1137,
-               "端泰",
-               1585
-            ]
-         ],
-         "caption" : "Mạc_dynasty",
+         "caption" : "Mạc dynasty",
+         "era_id" : 1137,
+         "era_key" : "端泰",
          "name" : "端泰",
          "offset" : 1584,
          "tw" : "端泰",
@@ -1492,14 +1118,9 @@
          "vi" : "Càn Thống"
       },
       {
-         "_possibles" : [
-            [
-               1435,
-               "隆泰",
-               1593
-            ]
-         ],
-         "caption" : "Mạc_dynasty",
+         "caption" : "Mạc dynasty",
+         "era_id" : 1435,
+         "era_key" : "隆泰",
          "name" : "隆泰",
          "offset" : 1617,
          "tw" : "隆泰",
@@ -1507,29 +1128,9 @@
          "vi" : "Long Thái"
       },
       {
-         "_possibles" : [
-            [
-               316,
-               "順德(己卯)",
-               1518
-            ],
-            [
-               1457,
-               "順德",
-               967
-            ],
-            [
-               1662,
-               "順德(戊辰)",
-               1627
-            ],
-            [
-               1667,
-               "順德(段思曠)",
-               null
-            ]
-         ],
-         "caption" : "Mạc_dynasty",
+         "caption" : "Mạc dynasty",
+         "era_id" : 2172,
+         "era_key" : "順德(戊寅)",
          "name" : "順德",
          "offset" : 1637,
          "tw" : "順德",
@@ -1537,24 +1138,9 @@
          "vi" : "Thuận Đức"
       },
       {
-         "_possibles" : [
-            [
-               314,
-               "永昌(甲申)",
-               1643
-            ],
-            [
-               899,
-               "永昌",
-               321
-            ],
-            [
-               1365,
-               "永昌(己丑)",
-               688
-            ]
-         ],
-         "caption" : "Mạc_dynasty",
+         "caption" : "Mạc dynasty",
+         "era_id" : 2173,
+         "era_key" : "永昌(辛丑)",
          "name" : "永昌",
          "offset" : 1660,
          "tw" : "永昌",
@@ -1852,19 +1438,9 @@
          "vi" : "Chiêu Thống"
       },
       {
-         "_possibles" : [
-            [
-               155,
-               "光紹",
-               1515
-            ],
-            [
-               1678,
-               "光照(乙未)",
-               1534
-            ]
-         ],
-         "caption" : "Revival_Lê_dynasty/misc",
+         "caption" : "Revival Lê dynasty/misc",
+         "era_id" : 2174,
+         "era_key" : "光照(癸巳)",
          "name" : "光照",
          "offset" : 1532,
          "tw" : "光照",
@@ -1872,29 +1448,9 @@
          "vi" : "Quang Chiếu"
       },
       {
-         "_possibles" : [
-            [
-               384,
-               "羅平(辛酉)",
-               1140
-            ],
-            [
-               588,
-               "羅平(己亥)",
-               1178
-            ],
-            [
-               954,
-               "羅平",
-               859
-            ],
-            [
-               1303,
-               "羅平(丁酉)",
-               1596
-            ]
-         ],
-         "caption" : "Revival_Lê_dynasty/misc",
+         "caption" : "Revival Lê dynasty/misc",
+         "era_id" : 2176,
+         "era_key" : "羅平(甲午)",
          "name" : "羅平",
          "offset" : 1593,
          "tw" : "羅平",
@@ -1902,34 +1458,9 @@
          "vi" : "La Bình"
       },
       {
-         "_possibles" : [
-            [
-               713,
-               "大德",
-               1134
-            ],
-            [
-               781,
-               "大德(戊寅)",
-               1517
-            ],
-            [
-               1041,
-               "大德(丁酉)",
-               1296
-            ],
-            [
-               1623,
-               "大德(越南丁酉)",
-               1596
-            ],
-            [
-               1806,
-               "天德",
-               543
-            ]
-         ],
-         "caption" : "Revival_Lê_dynasty/misc",
+         "caption" : "Revival Lê dynasty/misc",
+         "era_id" : 2177,
+         "era_key" : "大德(乙未)",
          "name" : "大德",
          "offset" : 1594,
          "tw" : "大德",
@@ -1937,19 +1468,9 @@
          "vi" : "Đại Đức"
       },
       {
-         "_possibles" : [
-            [
-               1328,
-               "福德(丁酉)",
-               1596
-            ],
-            [
-               1555,
-               "福徳",
-               1489
-            ]
-         ],
-         "caption" : "Revival_Lê_dynasty/misc",
+         "caption" : "Revival Lê dynasty/misc",
+         "era_id" : 2178,
+         "era_key" : "福德(丙申)",
          "name" : "福德",
          "offset" : 1595,
          "tw" : "福德",
@@ -2116,7 +1637,14 @@
          "vi" : "Bảo Đại"
       },
       {
-         "caption" : "Nguyễn dynasty/misc",
+         "_possibles" : [
+            [
+               2198,
+               "紅龍",
+               1902
+            ]
+         ],
+         "caption" : "Nguyễn_dynasty/misc",
          "name" : "紅龍",
          "offset" : 1911,
          "tw" : "紅龍",

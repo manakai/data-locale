@@ -212,6 +212,10 @@
 %tag people
 %tag   name_ja 漢民族
 
+%tag people
+%tag   name_ja 華僑
+%tag   group of 漢民族
+
 %tag action
 %tag   name_ja 支那改元日
 %tag   group of 制定
