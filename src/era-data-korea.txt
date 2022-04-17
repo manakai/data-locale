@@ -400,6 +400,7 @@ name_ja 延嘉
 #新版 韓国 朝鮮を知る事典, AD2014, p.490: 仏像, 田辺三郎助
 
 def[延嘉(長寿王)]
+#y~2190
 
 <-延嘉 [g:1998] #年異説発生 #高句麗
 
@@ -1269,6 +1270,9 @@ name(kr) 정개
 #914 - 918
 #<-水德萬歲 ->天授
 
+## <https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%9D%98_%EC%97%B0%ED%98%B8>
+#915 - 918
+
 <-水德萬歲,永德萬歲 [高麗:914] #支那改元日{#泰封 #弓裔}
 ->天授(戊寅) [高麗:918-6,高麗:918-6-丙辰] #改元前の退位{#泰封 #弓裔 #朝鮮王}
     #王建
@@ -1665,6 +1669,12 @@ wref<https://zh-classical.wikipedia.org/wiki/%E9%96%8B%E5%9C%8B_(%E6%9C%9D%E9%AE
 name 開国年号
 &
 name 開国紀元
+
+&
+## <https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%9D%98_%EC%97%B0%ED%98%B8>
+name(kr) 개국기년
+name 開國紀年
+
 &
 name 朝鮮開國
 &
@@ -2204,3 +2214,39 @@ u 5-5-30
 u 8-8-7
 
 <-AD [g:2001,g:2005-5-30] #利用開始{#三千年城新世界創造學會} #大韓民国
+
+
+def[도기]
+
+AD2021 = 133
+
+tag 大韓民国
+tag 大韓民国国民
+tag 南鮮
+
+%tag religion
+%tag   name_ja 甑山道
+tag 甑山道
+
+%tag person
+%tag   name_ja 姜一淳
+tag 姜一淳
+
+name(kr) 도기
+name 道紀
+#XXXname 도기道紀
+
+wref_ja 甑山道
+name_ja 道紀
+u 1
+u 134
+
+u 1
+u 137
+u 133-5-18
+
+## <https://ja.wikipedia.org/wiki/%E7%94%91%E5%B1%B1%E9%81%93>
+#陰暦:1871-9-19 #誕生
+#陰暦:1909-6-24 #死去
+
+<-AD,단기 [李氏朝鮮:1871-9-19,g:2007] #利用開始{#甑山道} #大韓民国 #併用

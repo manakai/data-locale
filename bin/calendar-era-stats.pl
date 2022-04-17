@@ -98,6 +98,7 @@ sub process_han ($) {
     $Data->{eras}->{no_offset}++ if not defined $era->{offset};
     $Data->{eras}->{no_start_year}++ if not defined $era->{start_year};
     $Data->{eras}->{no_tag}++ if not keys %{$era->{tag_ids} or {}};
+    warn $era->{key} if not keys %{$era->{tag_ids} or {}};
   } # $era
 }
 

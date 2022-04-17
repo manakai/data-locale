@@ -45,8 +45,14 @@ name_ko 西紀
 &
 name_tw 西元
 &
+
 name 西暦紀元
 name_kana せい れき き げん
+
+## <https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%9D%98_%EC%97%B0%ED%98%B8>
+name(kr) 서력기원
+name 西曆紀元
+
 &
 name 洋曆
 &
@@ -160,6 +166,55 @@ wref_en Gonghe_Regency
 BC841 = 1
 sw 共和
 
+%tag country
+%tag   name_ja 蘭芳大総制
+%tag   region of 東南アジア
+
+def[蘭芳]
+#y~1719
+
+sw 蘭芳公司の元号
+
+AD1777 = 1
+
+tag 蘭芳大総制
+tag 華僑
+tag インドネシア
+tag 蘭領東印度
+tag 元号
+
+wref_zh 蘭芳共和國
+name_tw 蘭芳
+name_cn 兰芳
+#-1846
+<-unknown [g:1777] #建国{#蘭芳大総制} #事由
+<-unknown [g:1777] #支那改元日{#蘭芳大総制} #起事建元
+u 1
+u 108
+->AD [g:1884] #陥落{#オランダ, #蘭芳大総制} #蘭領東印度
+
+def[乾興(丙午)]
+
+sw 蘭芳公司の元号
+
+tag 蘭芳大総制
+tag 華僑
+tag インドネシア
+tag 蘭領東印度
+tag 元号
+
+name 乾興
+AD1846 = 1
+#-1886
+
+<-蘭芳 [g:1846] #支那改元日{#蘭芳大総制}
+->AD [g:1886] #陥落{#オランダ, #蘭芳大総制} #蘭領東印度
+
+
+
+
+
+#XXX ? was: wref_zh 中国年号列表
 
 def[龍飛(馬來西亞)]
 name 龍飛
@@ -167,19 +222,8 @@ name 龍飛
 def[天運(馬來西亞)]
 name 天運
 
-def[蘭芳]
-#y~1719
 
-name_tw 蘭芳
-name_cn 兰芳
-wref_zh 蘭芳共和國
-AD1777 = 1
-#-1846
 
-def[乾興(丙午)]
-name 乾興
-AD1846 = 1
-#-1886
 
 
 
@@ -187,6 +231,8 @@ def[安國聖治]
 name_tw 安國聖治
 name_cn 安国圣治
 #was: wref_zh 中国年号列表
+
+
 
 [征和]
 name_ja 征和

@@ -148,6 +148,16 @@ country
   name_ja シンガポール
   region of 東南アジア
 
+country
+  name_ja インドネシア
+  region of 東南アジア
+
+region
+  name_ja 蘭領東印度
+  region of 東南アジア
+  period of インドネシア
+  region of 西太平洋
+
 region
   name_ja 南洋
   region of 大東亜

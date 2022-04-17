@@ -592,6 +592,9 @@ name_kana しょう れき
 #渤海国志長編, 金毓黻
 #<-中興 ->永徳
 
+## <https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%9D%98_%EC%97%B0%ED%98%B8>
+#796 - 808
+
 wref<https://zh-yue.wikipedia.org/wiki/%E6%AD%A3%E6%9B%86_(%E6%B8%A4%E6%B5%B7)>
 #795 - 809
 
@@ -867,6 +870,9 @@ name 太始
 #818
 #<-주작 ->건흥
 
+## <https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%9D%98_%EC%97%B0%ED%98%B8>
+#817 - 818
+
 wref<https://zh-classical.wikipedia.org/wiki/%E5%A4%AA%E5%A7%8B_(%E6%B8%A4%E6%B5%B7%E5%9C%8B)>
 #818
 name 太始
@@ -1027,6 +1033,12 @@ wref_ko 함화 (발해)
 name(kr) 함화
 #831 - 857
 #<-건흥 ->?
+
+## <https://vi.wikipedia.org/wiki/Ni%C3%AAn_hi%E1%BB%87u_Tri%E1%BB%81u_Ti%C3%AAn>
+#830 - 858
+
+## <https://en.wikipedia.org/wiki/Korean_era_name>
+#831 - 857
 
 wref<https://zh-yue.wikipedia.org/wiki/%E5%92%B8%E5%92%8C_(%E6%B8%A4%E6%B5%B7)>
 #831 - 857
@@ -1670,6 +1682,14 @@ tag 私年号 (ウィキペディア)
 wref_ko 융기 (연호)
 name(kr) 융기
 #1116-1 #建国 - 1116-5 #陥落{#金, }
+
+## <https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%9D%98_%EC%97%B0%ED%98%B8>
+#1115 - 1116
+
+## <https://vi.wikipedia.org/wiki/Ni%C3%AAn_hi%E1%BB%87u_Tri%E1%BB%81u_Ti%C3%AAn>
+#1116
+#隆墓 Yunggi 융기
+#XXXname
 
 <-天慶(辛卯) 遼:1116-1-1 #蜂起{#渤海人} #契丹国
 <-天慶(辛卯) 遼:1116-1-5 #建元前の即位{#大渤海 #支那皇帝 #高永昌} #契丹国
