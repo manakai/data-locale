@@ -5,6 +5,10 @@
 %tag   group of 中華異民族
 
 %tag country
+%tag   name_ja 倭
+%tag   period of 日本
+
+%tag country
 %tag   key 日本国
 %tag   label_ja 日本国 (現代)
 %tag   label_en Japan (Modern)
@@ -612,6 +616,10 @@ tag 尖閣諸島
 tag 竹島
 tag 清
 tag 中華民国
+tag 清領朝鮮
+tag 李氏朝鮮
+tag 大韓帝国
+tag 朝鮮
 
 u 46-1-1
 
@@ -660,6 +668,7 @@ tag 南樺太
 tag 尖閣諸島
 tag 竹島
 tag 中華民国
+tag 朝鮮
 
 tag 硫黄島
 <-明治 g:1912-08-20 #日本 #硫黄島 #通知受領 #グレゴリオ暦
@@ -712,6 +721,7 @@ tag 日本領南洋群島
 tag 満州国
 tag 南樺太
 tag 中華民国
+tag 朝鮮
 
 %tag region
 %tag   key 鉄山
@@ -749,6 +759,8 @@ tag 竹島
 %tag   name_ja 大韓民国独島
 %tag   region of 大韓民国
 tag 大韓民国独島
+
+tag 元号廃止前の元号
 
 [平成]
 #y~4
@@ -1811,6 +1823,9 @@ u 41-8
 u 75-10-10
 # cal aH
 tag ラエリアンムーブメント
+
+tag 大韓民国国民
+tag 大韓民国
 
 def[核時代]
 # y~601
