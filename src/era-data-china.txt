@@ -191,6 +191,10 @@
 %tag   group of 東洋式即位紀年
 
 %tag tag
+%tag   name_ja 諸侯王等即位紀年
+%tag   group of 東洋式即位紀年
+
+%tag tag
 %tag   name_ja 前元
 %tag   group of 支那皇帝即位紀年
 

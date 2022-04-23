@@ -423,6 +423,16 @@ for my $path (
            lang => $1,
            preferred => $2,
            value => $3};
+    } elsif (defined $key and /^name\((ko|kr|kp|kr_vi|kr_ja)\)(!|)\s+([\p{Hang}|]+)\((\p{Han}+)\)$/) {
+      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
+          {kind => 'name',
+           type => 'korean',
+           lang => $1,
+           preferred => $2,
+           value => $3};
+      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
+          {kind => 'name', type => 'han', lang => 'ko', value => $4,
+           preferred => $2};
     } elsif (defined $key and /^expanded\((en|la|en_la|it|fr|es|po|vi|vi_latin|ja_latin)\)\s+([\p{Latn}\s%0-9A-F'\[\]-]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'expanded',

@@ -11320,7 +11320,7 @@
          "missing_yomis" : [
          ],
          "name" : "协和",
-         "start_year" : null,
+         "start_year" : 1884,
          "yomis" : {
             "6100" : [
                "きょう わ"
@@ -28566,7 +28566,7 @@
          "missing_yomis" : [
          ],
          "name" : "延寿",
-         "start_year" : null,
+         "start_year" : 451,
          "yomis" : {
             "6100" : [
                "えん じゅ"
@@ -35119,7 +35119,7 @@
          "missing_yomis" : [
          ],
          "name" : "越南民主共和",
-         "start_year" : null,
+         "start_year" : 1946,
          "yomis" : {
             "6100" : [
                "えつ なん みん しゅ きょう わ"
@@ -35146,7 +35146,7 @@
          "missing_yomis" : [
          ],
          "name" : "延壽",
-         "start_year" : null,
+         "start_year" : 391,
          "yomis" : {
             "6100" : [
                "えん じゅ"
@@ -35169,7 +35169,7 @@
          "missing_yomis" : [
          ],
          "name" : "延壽",
-         "start_year" : null,
+         "start_year" : 511,
          "yomis" : {
             "6100" : [
                "えん じゅ"
@@ -39192,7 +39192,7 @@
          "missing_yomis" : [
          ],
          "name" : "越南民主共和",
-         "start_year" : null,
+         "start_year" : 1945,
          "yomis" : {
             "6100" : [
                "えつ なん みん しゅ きょう わ"
