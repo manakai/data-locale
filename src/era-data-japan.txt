@@ -2040,3 +2040,883 @@ tag 日本の私年号
 %tag region
 %tag   name_ja ニコニコ共和国
 %tag   region of 日本国福島県
+
+
+
+
+
+
+def[美禄]
+name_ja 美禄
+sw 美禄
+
+
+
+
+
+def[列滴]
+name_ja 列滴
+name_ja 烈擲
+name_ja 列擲
+BC290 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[経明]
+name_ja 経明
+BC19 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[璽至]
+name_ja 璽至
+AD270 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[嘉紀]
+#善紀 498
+name_ja 嘉紀
+AD498 = 1
+#是□ 503
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[定和]
+name_ja 定和
+#発□
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[善記]
+name_ja 善記
+name_ja 善紀
+name_ja 善化
+name_ja 善喜
+AD522 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[正和(丙午)]
+name_ja 正和
+name_ja 正治
+name_ja 正知
+AD526 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[教到]
+name_ja 教到
+name_ja 教倒
+name_ja 発倒
+name_ja 殷到
+name_ja 教知
+AD531 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[宝元(癸丑)]
+name_ja 宝元
+AD533 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[僧聴]
+name_ja 僧聴
+name_ja 僧徳
+AD535 = 1
+  #536
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[明要]
+name_ja 明要
+name_ja 明安
+name_ja 同要
+name_ja 同安
+AD540 = 1
+  #541
+#得□ 550
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[法清]
+name_ja 法清
+name_ja 法靖
+name_ja 結清
+name_ja 結靖
+AD553 = 1
+  #554
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[兄弟]
+name_ja 兄弟
+name_ja 兄弟和
+AD557 = 1
+  #558
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[蔵知]
+name_ja 蔵知
+name_ja 蔵和
+AD558 = 1
+  #559
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[師安]
+name_ja 師安
+AD563 = 1
+  #564
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[知僧]
+name_ja 知僧
+name_ja 和僧
+AD564 = 1
+  #565
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[金光]
+name_ja 金光
+AD569 = 1
+  #570
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[賢称]
+name_ja 賢称
+name_ja 賢接
+name_ja 賢棲
+name_ja 賢輔
+name_ja 賢伝
+name_ja 賢博
+AD576 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[鏡常]
+name_ja 鏡常
+name_ja 鏡照
+name_ja 鏡當
+name_ja 鐘常
+AD581 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[勝照]
+name_ja 勝照
+&
+name_ja 照勝
+&
+name_ja 勝烈
+&
+name_ja 照烈
+&
+name_ja 勝熙
+name_ja 勝煕
+AD585 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[和重]
+name_ja 和重
+AD587 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[端政]
+name_ja 端政
+name_ja 端正
+name_ja 端改
+AD589 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[法興]
+name_ja 法興
+AD591 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[貴楽]
+name_ja 貴楽
+name_ja 遺楽
+AD552 = 1
+  #551
+  #557
+  #552
+  #593
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[喜楽]
+name_ja 喜楽
+AD593 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[告貴]
+name_ja 告貴
+name_ja 従貴
+name_ja 吉貴
+name_ja 告言
+AD594 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[始哭]
+name_ja 始哭
+name_ja 始大
+AD595 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[願転]
+name_ja 願転
+name_ja 煩転
+name_ja 願博
+name_ja 転願
+name_ja 頌転
+AD601 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[光充]
+name_ja 光充
+name_ja 弘元
+name_ja 光弘
+name_ja 光元
+AD605 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[大花]
+name_ja 大花
+AD606 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[定居]
+name_ja 定居
+name_ja 定光
+AD611 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[見聖]
+name_ja 見聖
+name_ja 見知
+AD613 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[倭京縄]
+name_ja 倭京縄
+name_ja 和京
+name_ja 倭京
+name_ja 景縄
+name_ja 見縄
+name_ja 和京縄
+name_ja 倭黄縄
+name_ja 和景縄
+name_ja 和縄
+AD618 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[節中]
+name_ja 節中
+AD623 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[仁王]
+name_ja 仁王
+AD623 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[証明]
+name_ja 証明
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[聖徳]
+name_ja 聖徳
+AD629 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[僧要]
+name_ja 僧要
+name_ja 僧安
+AD635 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[命長]
+name_ja 命長
+name_ja 令長
+name_ja 長命
+name_ja 明長
+AD640 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[常色]
+name_ja 常色
+name_ja 常邑
+name_ja 常己
+name_ja 常邕
+name_ja 唐邑
+AD647 = 1
+#白雉 652
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+[白鳳]
+name_ja 白鳳
+AD650 = 1
+#白鳳 661
+#白鳳 662
+#白鳳 672
+#白鳳 673
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[白鳳雉]
+name_ja 白鳳雉
+AD672 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[中元]
+name_ja 中元
+AD662 = 1
+#朱雀 672
+#朱雀 684
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[果安]
+name_ja 果安
+AD686 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[大長]
+name_ja 大長
+name_ja 大屯
+AD692 = 1
+#大長 704
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[大和(乙未)]
+name_ja 大和
+AD695 = 1
+#大化 686
+#大化 695
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[正法]
+name_ja 正法
+AD760 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[継体(丁酉)]
+name_ja 継体
+AD517 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+
+
+
+def[保寿]
+name_ja 保寿
+  #1166 1167
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[泰平]
+name_ja 泰平
+name_ja 万平
+AD1172 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[和勝]
+name_ja 和勝
+AD1190 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[迎雲]
+name_ja 迎雲
+AD1199 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[建教]
+name_ja 建教
+AD1225 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[正見]
+name_ja 正見
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[永福]
+name_ja 永福
+AD1297 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[正久]
+name_ja 正久
+AD1319 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[元真]
+name_ja 元真
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[元禾]
+name_ja 元禾
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[品暦]
+name_ja 品暦
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[永幻]
+name_ja 永幻
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[白禄]
+name_ja 白禄
+AD1336 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[白鹿]
+name_ja 白鹿
+AD1345 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[応治]
+name_ja 応治
+AD1345 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[真賀]
+name_ja 真賀
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[文徳]
+name_ja 文徳
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[至大(日本)]
+name_ja 至大
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[弘徳]
+name_ja 弘徳
+AD1384 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[永宝]
+name_ja 永宝
+AD1387 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[寿慶]
+name_ja 寿慶
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[立徳]
+name_ja 立徳
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[興徳]
+name_ja 興徳
+AD1395 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[天靖]
+name_ja 天靖
+AD1443 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[福安]
+name_ja 福安
+AD1444 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[享高]
+name_ja 享高
+AD1452 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[享正]
+name_ja 享正
+AD1455 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[延徳(庚辰)]
+name_ja 延徳
+AD1460 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[永楽]
+name_ja 永楽
+AD1461 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[明応(己丑)]
+name_ja 明応
+AD1469 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[徳昌]
+name_ja 徳昌
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[応享]
+name_ja 応享
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[正亨]
+name_ja 正亨
+name_ja 正享
+name_ja 正京
+AD1489 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[福徳]
+name_ja 福徳
+AD1490 = 1
+  # 1489,1491,1492
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[永伝]
+name_ja 永伝
+AD1490 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[王徳]
+name_ja 王徳
+AD1490 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[長嘉]
+name_ja 長嘉
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[徳応]
+name_ja 徳応
+AD1501 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[文鬼]
+name_ja 文鬼
+AD1501 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[子平]
+name_ja 子平
+AD1502 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[福寿]
+name_ja 福寿
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[弥勒]
+name_ja 弥勒
+name_ja 身禄
+AD1506 = 1
+  #1507
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[加平]
+name_ja 加平
+AD1517 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[永喜]
+name_ja 永喜
+name_ja 永亀
+AD1526 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[宝寿]
+name_ja 宝寿
+AD1533 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[命禄]
+name_ja 命禄
+AD1540 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[光永]
+name_ja 光永
+AD1576 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[天王]
+name_ja 天王
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[天政]
+name_ja 天政
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[大道]
+name_ja 大道
+name_ja 大同
+name_ja 大筒
+AD1609 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[正中(辛酉)]
+name_ja 正中
+AD1621 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[慶喜]
+name_ja 慶喜
+AD1643 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[法徳]
+name_ja 法徳
+name_ja 宝徳
+AD1661 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+
+
+def[久宝]
+name_ja 久宝
+AD1834 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[永長(丁酉)]
+name_ja 永長
+AD1837 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[天晴]
+name_ja 天晴
+name_ja 天政
+name_ja 天星
+AD1867 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[神徳]
+name_ja 神徳
+AD1867 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[神治]
+name_ja 神治
+AD1867 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[長徳(丁卯)]
+name_ja 長徳
+AD1867 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[延寿]
+name_ja 延寿
+AD1868 = 1
+tag 日本人
+tag 日本
+tag 日本の私年号
+
+def[大政]
+name_ja 大政
+AD1868 = 1
+tag 日本人
+tag 日本
+wref_ja 大政_(私年号)
+tag 日本の私年号
+
+[白鳳]
+wref_ja 白鳳
+[朱雀]
+wref_ja 朱雀
+[福徳]
+wref_ja 福徳_(私年号)

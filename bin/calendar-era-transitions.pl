@@ -418,7 +418,9 @@ sub year_start_jd ($$) {
   if (($tag_ids->{1008} or # 中国
        $tag_ids->{1086} or # 蒙古
        $tag_ids->{1084} or # 後金
-       $tag_ids->{1009}) and # 漢土
+       $tag_ids->{1009} or # 漢土
+       $tag_ids->{1012} or # 朝鮮
+       $tag_ids->{2084}) and # 越南
       not $tag_ids->{1344}) { # グレゴリオ暦
     if ($y >= 1912) {
       push @jd, nymmd2jd '中華民国', $y, 1, 0, 1;

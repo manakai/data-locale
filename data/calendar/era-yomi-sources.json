@@ -11320,7 +11320,7 @@
          "missing_yomis" : [
          ],
          "name" : "协和",
-         "start_year" : null,
+         "start_year" : 1884,
          "yomis" : {
             "6100" : [
                "きょう わ"
@@ -20228,15 +20228,12 @@
          "start_year" : -91,
          "yomis" : {
             "6100" : [
-               "せい わ",
                "せい わ"
             ],
             "6102" : [
-               "sei wa",
                "sei wa"
             ],
             "6103" : [
-               "sei wa",
                "sei wa"
             ]
          }
@@ -28566,7 +28563,7 @@
          "missing_yomis" : [
          ],
          "name" : "延寿",
-         "start_year" : null,
+         "start_year" : 451,
          "yomis" : {
             "6100" : [
                "えん じゅ"
@@ -35119,7 +35116,7 @@
          "missing_yomis" : [
          ],
          "name" : "越南民主共和",
-         "start_year" : null,
+         "start_year" : 1946,
          "yomis" : {
             "6100" : [
                "えつ なん みん しゅ きょう わ"
@@ -35146,7 +35143,7 @@
          "missing_yomis" : [
          ],
          "name" : "延壽",
-         "start_year" : null,
+         "start_year" : 391,
          "yomis" : {
             "6100" : [
                "えん じゅ"
@@ -35169,7 +35166,7 @@
          "missing_yomis" : [
          ],
          "name" : "延壽",
-         "start_year" : null,
+         "start_year" : 511,
          "yomis" : {
             "6100" : [
                "えん じゅ"
@@ -39192,7 +39189,7 @@
          "missing_yomis" : [
          ],
          "name" : "越南民主共和",
-         "start_year" : null,
+         "start_year" : 1945,
          "yomis" : {
             "6100" : [
                "えつ なん みん しゅ きょう わ"
@@ -65254,19 +65251,15 @@
          "start_year" : 1351,
          "yomis" : {
             "6100" : [
-               "ち へい",
                "ち へい"
             ],
             "6102" : [
-               "chi hei",
                "chi hei"
             ],
             "6103" : [
-               "chi hei",
                "chi hei"
             ],
             "6104" : [
-               "ti hei",
                "ti hei"
             ]
          }

@@ -191,6 +191,10 @@
 %tag   group of 東洋式即位紀年
 
 %tag tag
+%tag   name_ja 諸侯王等即位紀年
+%tag   group of 東洋式即位紀年
+
+%tag tag
 %tag   name_ja 前元
 %tag   group of 支那皇帝即位紀年
 
@@ -492,6 +496,22 @@
 %tag people
 %tag   name_ja 五胡
 %tag   group of 胡
+
+
+
+def[共和]
+name_ja 共和
+name_cn 共和
+name_kana きょう わ
+name 共和紀年
+name 周召共和
+name 周召共和紀年
+wref_ja 共和_(周)
+wref_zh 共和_(西周)
+wref_en Gonghe_Regency
+BC841 = 1
+sw 共和
+
 
 def[秦始皇]
 ## Source:
@@ -3303,6 +3323,8 @@ tag 中華人民共和国台湾省
 tag 中華人民共和国福建省未解放地区
 
 u 108
+
+wref<https://zh-yue.wikipedia.org/wiki/%E6%B0%91%E5%9C%8B%E7%B4%80%E5%85%83>
 
 [洪憲]
 #y~1098

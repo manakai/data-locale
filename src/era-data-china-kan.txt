@@ -751,7 +751,6 @@ name_cn 征和
 u 5-1
 #[後元]元年九月丙戌朔丙戌
 
-## [103]
 wref_ja 征和
 name_ja 征和
 name_kana せい わ

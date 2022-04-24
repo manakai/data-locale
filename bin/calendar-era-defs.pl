@@ -162,42 +162,6 @@ sub drop_kanshi ($) {
   }
 }
 
-for my $path (
-  $root_path->child ('src/era-viet.txt'),
-  $root_path->child ('src/era-korea.txt'),
-) {
-  for (split /\x0D?\x0A/, $path->slurp_utf8) {
-    if (/^\s*#/) {
-      #
-    } elsif (/^(\S+)(?:\s+(BC|)(\d+)|)(?:$|-)/) {
-      my $first_year = defined $3 ? $2 ? 1 - $3 : $3 : undef;
-      my @name = split /,/, $1;
-      my @n;
-      for (@name) {
-        if (defined $Data->{name_to_key}->{jp}->{$_} or
-            defined $Data->{eras}->{$_}) {
-          die "Duplicate era |$_| ($_(@{[$first_year]})) in $path";
-        } else {
-          push @n, $_;
-        }
-      }
-      next unless @n;
-      my $d = $Data->{eras}->{$n[0]} ||= {};
-      $d->{key} = $n[0];
-      $d->{_LABELS} //= [{labels => [{reps => []}]}];
-      if (defined $first_year) {
-        $d->{offset} = $first_year - 1;
-      }
-
-      my @nn = map { drop_kanshi $_ } @n;
-      push @{$d->{_LABELS}->[0]->{labels}->[0]->{reps}},
-          {kind => 'name', type => 'han', value => $_} for @nn;
-    } elsif (/\S/) {
-      die "Bad line |$_|";
-    }
-  }
-}
-
 sub set_object_tag ($$) {
   my ($obj, $tkey) = @_;
   my $item = $TagByKey->{$tkey};
@@ -423,6 +387,16 @@ for my $path (
            lang => $1,
            preferred => $2,
            value => $3};
+    } elsif (defined $key and /^name\((ko|kr|kp|kr_vi|kr_ja)\)(!|)\s+([\p{Hang}|]+)\((\p{Han}+)\)$/) {
+      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
+          {kind => 'name',
+           type => 'korean',
+           lang => $1,
+           preferred => $2,
+           value => $3};
+      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
+          {kind => 'name', type => 'han', lang => 'ko', value => $4,
+           preferred => $2};
     } elsif (defined $key and /^expanded\((en|la|en_la|it|fr|es|po|vi|vi_latin|ja_latin)\)\s+([\p{Latn}\s%0-9A-F'\[\]-]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'expanded',
