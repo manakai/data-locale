@@ -202,9 +202,6 @@ religion
   group of 仏教
 
 religion
-  name_ja キリスト教
-
-religion
   name_ja 天照皇大神宮教
   group of 神道
 
@@ -1076,6 +1073,10 @@ tag
 
 tag
   name_ja 宗教創設紀年
+
+tag
+  name_ja 教祖誕生紀年
+  group of 宗教創設紀年
 
 tag
   name_ja 風刺

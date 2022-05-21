@@ -929,12 +929,67 @@ sub compute_form_group_ons ($) {
 
   sub fill_korean ($) {
     my $fs = shift;
-
+    
     for my $lang (qw(kr kp ko)) {
       next unless defined $fs->{$lang};
 
-      $fs->{$lang . '_fukui'} = [map { to_fukui $_ } @{$fs->{$lang}}];
+      $fs->{$lang . '_fukui'} //= [map { to_fukui $_ } @{$fs->{$lang}}];
     } # $lang
+  } # fill_korean
+
+  sub fixup_korean ($) {
+    my $fs = shift;
+    fill_korean $fs;
+    
+    if (($fs->{origin_lang} // '') eq 'ja') {
+      use utf8;
+      if (defined $fs->{kr} and
+          @{$fs->{kr}} == 3 and
+          ($fs->{kr}->[2] eq '이' or
+           ($fs->{kr}->[2] eq '쿠' and $fs->{kr_fukui}->[1] =~ /[auo]$/) or
+           ($fs->{kr}->[2] eq '키' and $fs->{kr_fukui}->[1] =~ /[i]$/) or
+           ($fs->{kr}->[1] eq '키' and $fs->{kr}->[2] eq '쓰'))) {
+        $fs->{kr} = [$fs->{kr}->[0], $fs->{kr}->[1] . $fs->{kr}->[2]];
+        $fs->{kr_fukui} = [map { to_fukui $_ } @{$fs->{kr}}];
+        $fs->{segment_length} = segmented_text_length $fs->{kr};
+      } elsif (defined $fs->{kr} and
+               @{$fs->{kr}} == 3 and
+               ($fs->{kr}->[1] eq '이' or
+                ($fs->{kr}->[1] eq '쿠' and $fs->{kr_fukui}->[0] =~ /[auo]$/))) {
+        $fs->{kr} = [$fs->{kr}->[0] . $fs->{kr}->[1], $fs->{kr}->[2]];
+        $fs->{kr_fukui} = [map { to_fukui $_ } @{$fs->{kr}}];
+        $fs->{segment_length} = segmented_text_length $fs->{kr};
+      } elsif (defined $fs->{kr} and
+               @{$fs->{kr}} == 4 and
+               $fs->{kr}->[1] eq '이' and
+               $fs->{kr}->[3] eq '이') {
+        $fs->{kr} = [$fs->{kr}->[0] . $fs->{kr}->[1],
+                     $fs->{kr}->[2] . $fs->{kr}->[3]];
+        $fs->{kr_fukui} = [map { to_fukui $_ } @{$fs->{kr}}];
+        $fs->{segment_length} = segmented_text_length $fs->{kr};
+      }
+    }
+    
+    if (($fs->{origin_lang} // '') eq 'vi') {
+      use utf8;
+      if (defined $fs->{kr} and
+          @{$fs->{kr}} >= 3 and
+          $fs->{kr_fukui}->[0] =~ /[aiueoy]$/ and
+          $fs->{kr_fukui}->[1] =~ /^'[aiueo]/) {
+        $fs->{kr}->[1] = $fs->{kr}->[0] . $fs->{kr}->[1];
+        shift @{$fs->{kr}};
+        $fs->{kr_fukui} = [map { to_fukui $_ } @{$fs->{kr}}];
+        $fs->{segment_length} = segmented_text_length $fs->{kr};
+      }
+      if (defined $fs->{kr} and
+          @{$fs->{kr}} == 3 and
+          $fs->{kr_fukui}->[1] =~ /[aiueoy]$/ and
+          $fs->{kr_fukui}->[2] =~ /^'[aiueo]/) {
+        $fs->{kr} = [$fs->{kr}->[0], $fs->{kr}->[1] . $fs->{kr}->[2]];
+        $fs->{kr_fukui} = [map { to_fukui $_ } @{$fs->{kr}}];
+        $fs->{segment_length} = segmented_text_length $fs->{kr};
+      }
+    }
   } # fill_korean
 
   sub fill_chinese ($) {
@@ -1370,7 +1425,10 @@ sub compute_form_group_ons ($) {
             $v->{segment_length} = $w_length;
             $v->{abbr_indexes} = $abbr_indexes if defined $abbr_indexes;
           } elsif ($rep->{type} eq 'jpan' or
-                   $rep->{type} eq 'zh') {
+                   $rep->{type} eq 'zh' or
+                   ($rep->{type} eq 'korean' and
+                    $rep->{value} =~ /\p{Hang}/ and
+                    $rep->{value} =~ /\p{Han}/)) {
             my @value;
             while (length $rep->{value}) {
               use utf8;
@@ -1410,7 +1468,7 @@ sub compute_form_group_ons ($) {
                           push @{$r->[-1]}, $_;
                         }
                       }
-                      $v->{segment_length} = segmented_text_length $v->{r};
+                      $v->{segment_length} = segmented_text_length $r;
                       $r;
                     } @{$v->{others}}] if $v->{form_set_type} eq 'hanzi';
                   }
@@ -1469,6 +1527,12 @@ sub compute_form_group_ons ($) {
                   $v->{ja_latin} = $w;
                 }
                 $v->{segment_length} = segmented_text_length $w;
+              } elsif ($rep->{value} =~ s/\A(\p{Hang}+)//) {
+                $value->{form_group_type} = 'korean';
+                $v->{form_set_type} = 'korean';
+                my $w = [split //, $1];
+                $v->{segment_length} = segmented_text_length $w;
+                $v->{$rep->{lang}} = $w;
               } elsif ($rep->{value} =~ s/\A([()\p{Geometric Shapes}・]+)//) {
                 $value->{form_group_type} = 'symbols';
                 $v->{form_set_type} = 'symbols';
@@ -1494,6 +1558,7 @@ sub compute_form_group_ons ($) {
                 cn => 'cn',
                 tw => 'tw',
                 hk => 'hk',
+                kr => 'kr',
               }->{$rep->{lang} // $rep->{type}};
               if (not $has_preferred->{$lang}) {
                 $value->{is_preferred}->{$lang} = 1;
@@ -1555,7 +1620,9 @@ sub compute_form_group_ons ($) {
             $v->{vi_katakana} = $w;
           } elsif ($rep->{type} eq 'korean') { # Korean alphabet
             for (@{$label->{form_groups}}) {
-              if ($_->{form_group_type} eq 'han') {
+              if ($_->{form_group_type} eq 'han' or
+                  ($_->{form_group_type} eq 'ja' and
+                   $rep->{lang} eq 'kr_ja')) {
                 $value = $_;
                 $value_added = 1;
               }
@@ -1567,12 +1634,20 @@ sub compute_form_group_ons ($) {
               $v->{origin_lang} = $1;
             }
             
+            my $w = [$rep->{value} =~ /\|/ ? split /\|/, $rep->{value} : split //, $rep->{value}];
             my $found = 0;
             for my $fs (@{$value->{form_sets}}) {
               if ($fs->{form_set_type} eq 'korean' and
                   defined $fs->{$lang} and
-                  (join '', @{$fs->{$lang}}) eq $rep->{value}) {
-                $found = 1;
+                  (join '', @{$fs->{$lang}}) eq (join '', @$w)) {
+                if ($rep->{value} =~ /\|/) {
+                  $v = $fs;
+                  $v_added = 1;
+                  delete $fs->{$lang};
+                  delete $fs->{$lang . '_fukui'};
+                } else {
+                  $found = 1;
+                }
                 last;
               }
             }
@@ -1581,7 +1656,6 @@ sub compute_form_group_ons ($) {
               $v_added = 1;
             } else {
               $v->{form_set_type} = 'korean';
-              my $w = [$rep->{value} =~ /\|/ ? split /\|/, $rep->{value} : split //, $rep->{value}];
               if (not defined $v->{$lang}) {
                 $v->{$lang} = $w;
                 if (not $has_preferred->{$lang}) {
@@ -1592,6 +1666,7 @@ sub compute_form_group_ons ($) {
                 push @{$v->{others} ||= []}, $w;
               }
               $v->{segment_length} = segmented_text_length $w;
+              fixup_korean $v unless $rep->{value} =~ /\|/;
             }
           } elsif ($rep->{type} eq 'manchu') {
             $value->{form_group_type} = 'manchu';
@@ -1880,13 +1955,16 @@ sub compute_form_group_ons ($) {
             my $name_jp = ''; my $name_cn = ''; my $name_tw = '';
             my $kana = ''; my $no_kana = 0;
             my $latin = ''; my $no_latin = 0;
+            my $name_kr = ''; my $no_kr = 0;
             for my $item_fg (@{$text->{items}}) {
               if ($item_fg->{form_group_type} eq 'han' or
                   $item_fg->{form_group_type} eq 'ja' or
                   $item_fg->{form_group_type} eq 'vi' or
-                  $item_fg->{form_group_type} eq 'kana') {
+                  $item_fg->{form_group_type} eq 'kana' or
+                  $item_fg->{form_group_type} eq 'korean') {
                 my $has_kana = 0;
                 my $has_latin = 0;
+                my $kr;
                 for my $item_fs (@{$item_fg->{form_sets}}) {
                   if ($item_fs->{form_set_type} eq 'hanzi') {
                     fill_han_variants $item_fs;
@@ -1905,6 +1983,12 @@ sub compute_form_group_ons ($) {
                     $name_tw .= serialize_segmented_text
                         ($item_fs->{tw} //
                          $item_fs->{kr} //
+                         $item_fs->{jp} //
+                         $item_fs->{cn} //
+                         $item_fs->{others}->[0]);
+                    $kr //= serialize_segmented_text
+                        ($item_fs->{kr} //
+                         $item_fs->{tw} //
                          $item_fs->{jp} //
                          $item_fs->{cn} //
                          $item_fs->{others}->[0]);
@@ -1931,16 +2015,25 @@ sub compute_form_group_ons ($) {
                     $name_tw .= $v;
                     $latin .= ' ' if length $latin;
                     $latin .= $v;
+                  } elsif ($item_fs->{form_set_type} eq 'korean') {
+                    fill_korean $item_fs;
+                    $kr = serialize_segmented_text ($item_fs->{kr} // die);
                   }
                 } # $item_fs
                 $no_kana = 1 unless $has_kana;
                 $no_latin = 1 unless $has_latin;
+                if (defined $kr) {
+                  $name_kr .= $kr;
+                } else {
+                  $no_kr = 1;
+                }
               } elsif ($item_fg->{form_group_type} eq 'symbols') {
                 for my $item_fs (@{$item_fg->{form_sets}}) {
                   my $v = serialize_segmented_text ($item_fs->{others}->[0] // die);
                   $name_jp .= $v;
                   $name_cn .= $v;
                   $name_tw .= $v;
+                  $name_kr .= $v;
                 }
               } else {
                 die "Unknown form group type |$item_fg->{form_group_type}|";
@@ -1976,6 +2069,12 @@ sub compute_form_group_ons ($) {
             if ((#not defined $era->{_SHORTHANDS}->{name_tw} or
                  ($text->{is_preferred} or {})->{tw})) {
               $era->{_SHORTHANDS}->{name_tw} = $name_tw;
+            }
+            if ((#not defined $era->{_SHORTHANDS}->{name_kr} or
+                 ($text->{is_preferred} or {})->{kr})) {
+              $era->{_SHORTHANDS}->{name_ko} = $name_kr;
+              $era->{_SHORTHANDS}->{name} = $era->{_SHORTHANDS}->{name_ko}
+                  if ($text->{is_preferred} or {})->{kr};
             }
           } # form_group_type
           for my $label (@{$text->{expandeds} or []}) {

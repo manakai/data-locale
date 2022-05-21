@@ -229,8 +229,8 @@ sub process_table ($$) {
             ["Han parse errror", $input->{"한자 표기(일본식/번체)"}];
       }
     }
-    if (defined $input->{"한국 한자음"}) {
-      $data->{ja_hanguls} = \@hang;
+    if (defined $input->{"한국 한자음"}) { # Sino-Korean
+      $data->{ja_hanguls} = [@hang];
       @hang = ();
       if ($input->{"한국 한자음"} =~ m{^(\p{Hang}+)$}) {
         push @hang, $1;
@@ -242,7 +242,7 @@ sub process_table ($$) {
       }
     }
     if (defined $input->{"한글"}) {
-      $data->{vn_hanguls} = \@hang;
+      $data->{vn_hanguls} = [@hang];
       @hang = ();
       if ($input->{"한글"} =~ m{^(\p{Hang}+)$}) {
         push @hang, $1;

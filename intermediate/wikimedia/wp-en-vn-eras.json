@@ -4,11 +4,6 @@
          "Era mapping is missing",
          "乾寧,1213",
          "Lý_dynasty"
-      ],
-      [
-         "Era mapping is missing",
-         "紅龍,1911",
-         "Nguyễn_dynasty/misc"
       ]
    ],
    "eras" : [
@@ -1637,14 +1632,9 @@
          "vi" : "Bảo Đại"
       },
       {
-         "_possibles" : [
-            [
-               2198,
-               "紅龍",
-               1902
-            ]
-         ],
-         "caption" : "Nguyễn_dynasty/misc",
+         "caption" : "Nguyễn dynasty/misc",
+         "era_id" : 2198,
+         "era_key" : "紅龍",
          "name" : "紅龍",
          "offset" : 1911,
          "tw" : "紅龍",

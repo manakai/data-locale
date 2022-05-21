@@ -113,6 +113,7 @@ sub htescape ($) {
 
 sub pattern ($$) {
   my ($v, $list) = @_;
+  $v =~ s{^[^()]+ \(([^()]+)\)$}{$1};
   $v = to_key $v;
   if (defined $list->{$v}) {
     return $list->{$v};

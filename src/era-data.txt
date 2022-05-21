@@ -112,6 +112,10 @@ sw 西暦
 code #17 0
 #code #19 0
 
+%tag religion
+%tag   name_ja キリスト教
+tag 教祖誕生紀年
+
 tag 英国
 tag 英領香港
 tag ロシア帝国

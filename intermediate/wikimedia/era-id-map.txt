@@ -74,3 +74,4 @@ Minh/misc 大順 y~402
 清朝/misc|Thanh/misc|Qing_dynasty/misc 元興 y~686
 清朝/misc|Qing_dynasty/misc 保慶 y~1830
 有建元但年號不明的中國君主|Unknown_era_names ？？,- y~2151
+Five_Dynasties_and_Ten_Kingdoms/misc 安國聖治 y~1808
