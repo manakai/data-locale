@@ -603,7 +603,7 @@ name(vi_kana) カン フ ヒュウ ダオ
 #<-通瑞  ->明道
 
 wref_ko 깐푸흐우다오
-name(kr_vi) 깐푸흐우다오
+name(kr_vi) 깐|푸|흐우|다오
 name(kr) 건부유도
 name(vi) Càn Phù Hữu Đạo
 #1039-6 - 1042-9
@@ -679,7 +679,7 @@ name(vi_kana) ティエン カム タイン ヴー
 #<-明道  ->崇興大宝
 
 wref_ko 티엔깜타인부
-name(kr_vi) 티엔깜타인부
+name(kr_vi) 티엔|깜|타인|부
 name(kr) 천감성무
 name(vi) Thiên Cảm Thánh Vũ
 #1044-11 - 1049-2
@@ -716,7 +716,7 @@ name(vi_kana) スン フン ダイ バオ
 #<-天感聖武  ->龍瑞太平
 
 wref_ko 숭흥다이바오
-name(kr_vi) 숭흥다이바오
+name(kr_vi) 숭|흥|다이|바오
 name(kr) 숭흥대보
 name(vi) Sùng Hưng Đại Bảo
 #1049-3 - 1054-10
@@ -758,7 +758,7 @@ name(vi_kana) ロン チュィ タイ ビン
 #<-崇興大宝  ->彰聖嘉慶
 
 wref_ko 롱투이타이빈
-name(kr_vi) 롱투이타이빈
+name(kr_vi) 롱|투이|타이|빈
 name(kr) 용서태평
 name(vi) Long Thụy Thái Bình
 #1054-10 - 1059-6
@@ -809,7 +809,7 @@ name(vi_kana) チョン タイン ギア カイン
 #<-龍瑞太平  ->龍彰天嗣
 
 wref_ko 쯔엉타인자카인
-name(kr_vi) 쯔엉타인자카인
+name(kr_vi) 쯔엉|타인|자|카인
 name(kr) 창성가경
 name(vi) Chương Thánh Gia Khánh
 #1059-6 - 1066-1
@@ -860,7 +860,7 @@ name(vi_kana) ロン チュロン ティェン トゥ
 
 wref_ko 롱쯔엉티엔뜨
 name 龍彰天嗣
-name(kr_vi) 롱쯔엉티엔뜨
+name(kr_vi) 롱|쯔엉|티엔|뜨
 name(kr) 용창전사
 name(vi) Long Chương Thiên Tự
 #1066-2 - 1068-2
@@ -898,7 +898,7 @@ name(vi_kana) ティェン トン バオ テゥォン
 
 wref_ko 티엔후옹바오뜨엉
 name 天貺寶象
-name(kr_vi) 티엔후옹바오뜨엉
+name(kr_vi) 티엔|후옹|바오|뜨엉
 name(kr) 천황보상
 name(vi) Thiên Huống Bảo Tượng
 #1068-2 - 1069-7
@@ -914,7 +914,7 @@ name_cn 天祝宝象
 #"*[[天貺寶象]]或[[天貺寶象|天祝寶象]] [[1069年]]"
 
 wref_ko 티엔후옹바오뜨엉
-name(kr_vi) 티엔쭉바오뜨엉
+name(kr_vi) 티엔|쭉|바오|뜨엉
 name(vi) Thiên Chúc Bảo Tượng
 name(kr) 천축보상
 name 天祝寶象
@@ -1021,7 +1021,7 @@ name(vi_kana) タイ ニン
 #<-神武  ->英武昭勝
 
 wref_ko 타이닌
-name(kr_vi) 타이닌
+name(kr_vi) 타이|닌
 name(kr) 태녕
 name(vi) Thái Ninh
 name 太寧
@@ -1178,7 +1178,7 @@ name_tw 會符
 name_cn 会符
 
 wref_ko 호이퐁
-name(kr_vi) 호이푸
+name(kr_vi) 호이|푸
 name(vi) Hội Phù
 name(kr) 회부
 name 會符
@@ -1271,7 +1271,7 @@ name(vi_kana) ホイ トゥン ダイ カイン
 #<-龍符  ->天符睿武
 
 wref_ko 호이뜨엉다이카인
-name(kr_vi) 호이뜨엉다이카인
+name(kr_vi) 호이|뜨엉|다이|카인
 name(kr) 회상대경
 name(vi) Hội Tường Đại Khánh
 #1110 - 1119
@@ -1307,7 +1307,7 @@ name(vi_kana) ティエン フー ズエ ブ
 #<-会祥大慶  ->天符慶寿
 
 wref_ko 티엔푸주에부
-name(kr_vi) 티엔푸주에부
+name(kr_vi) 티엔|푸|주에|부
 name(kr) 천부예무
 name(vi) Thiên Phù Duệ Vũ
 #1120 - 1126
@@ -1347,7 +1347,7 @@ name(vi_kana) ティェン フー カイン トー
 #<-天符睿武  ->天順
 
 wref_ko 티엔푸카인토
-name(kr_vi) 티엔푸카인토
+name(kr_vi) 티엔|푸|카인|토
 name(kr) 천부경수
 name(vi) Thiên Phù Khánh Thọ
 #1127
@@ -1436,7 +1436,7 @@ name_tw 大順
 name_cn 大顺
 
 wref_ko 티엔투언
-name(kr_vi) 다이투언
+name(kr_vi) 다이|투언
 name(vi) Đại Thuận
 name(kr) 대순
 
@@ -2885,7 +2885,7 @@ name_kana かい ゆう
 #1341-6-11 j:-7-24 #死去
 
 wref_ko 카이흐우
-name(kr_vi) 카이흐우
+name(kr_vi) 카이|흐우
 name(vi) Khai Hựu
 name(kr) 개우
 name 開佑
@@ -4518,7 +4518,7 @@ name_kana とう げん
 #-4-16 1527-5-15 #退位
 
 wref_ko 통응우옌
-name(kr_vi) 통응우옌
+name(kr_vi) 통|응우옌
 name(vi) Thống Nguyên
 name(kr) 통원
 #1522 - 1527

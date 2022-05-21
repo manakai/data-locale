@@ -929,12 +929,67 @@ sub compute_form_group_ons ($) {
 
   sub fill_korean ($) {
     my $fs = shift;
-
+    
     for my $lang (qw(kr kp ko)) {
       next unless defined $fs->{$lang};
 
-      $fs->{$lang . '_fukui'} = [map { to_fukui $_ } @{$fs->{$lang}}];
+      $fs->{$lang . '_fukui'} //= [map { to_fukui $_ } @{$fs->{$lang}}];
     } # $lang
+  } # fill_korean
+
+  sub fixup_korean ($) {
+    my $fs = shift;
+    fill_korean $fs;
+    
+    if (($fs->{origin_lang} // '') eq 'ja') {
+      use utf8;
+      if (defined $fs->{kr} and
+          @{$fs->{kr}} == 3 and
+          ($fs->{kr}->[2] eq '이' or
+           ($fs->{kr}->[2] eq '쿠' and $fs->{kr_fukui}->[1] =~ /[auo]$/) or
+           ($fs->{kr}->[2] eq '키' and $fs->{kr_fukui}->[1] =~ /[i]$/) or
+           ($fs->{kr}->[1] eq '키' and $fs->{kr}->[2] eq '쓰'))) {
+        $fs->{kr} = [$fs->{kr}->[0], $fs->{kr}->[1] . $fs->{kr}->[2]];
+        $fs->{kr_fukui} = [map { to_fukui $_ } @{$fs->{kr}}];
+        $fs->{segment_length} = segmented_text_length $fs->{kr};
+      } elsif (defined $fs->{kr} and
+               @{$fs->{kr}} == 3 and
+               ($fs->{kr}->[1] eq '이' or
+                ($fs->{kr}->[1] eq '쿠' and $fs->{kr_fukui}->[0] =~ /[auo]$/))) {
+        $fs->{kr} = [$fs->{kr}->[0] . $fs->{kr}->[1], $fs->{kr}->[2]];
+        $fs->{kr_fukui} = [map { to_fukui $_ } @{$fs->{kr}}];
+        $fs->{segment_length} = segmented_text_length $fs->{kr};
+      } elsif (defined $fs->{kr} and
+               @{$fs->{kr}} == 4 and
+               $fs->{kr}->[1] eq '이' and
+               $fs->{kr}->[3] eq '이') {
+        $fs->{kr} = [$fs->{kr}->[0] . $fs->{kr}->[1],
+                     $fs->{kr}->[2] . $fs->{kr}->[3]];
+        $fs->{kr_fukui} = [map { to_fukui $_ } @{$fs->{kr}}];
+        $fs->{segment_length} = segmented_text_length $fs->{kr};
+      }
+    }
+    
+    if (($fs->{origin_lang} // '') eq 'vi') {
+      use utf8;
+      if (defined $fs->{kr} and
+          @{$fs->{kr}} >= 3 and
+          $fs->{kr_fukui}->[0] =~ /[aiueoy]$/ and
+          $fs->{kr_fukui}->[1] =~ /^'[aiueo]/) {
+        $fs->{kr}->[1] = $fs->{kr}->[0] . $fs->{kr}->[1];
+        shift @{$fs->{kr}};
+        $fs->{kr_fukui} = [map { to_fukui $_ } @{$fs->{kr}}];
+        $fs->{segment_length} = segmented_text_length $fs->{kr};
+      }
+      if (defined $fs->{kr} and
+          @{$fs->{kr}} == 3 and
+          $fs->{kr_fukui}->[1] =~ /[aiueoy]$/ and
+          $fs->{kr_fukui}->[2] =~ /^'[aiueo]/) {
+        $fs->{kr} = [$fs->{kr}->[0], $fs->{kr}->[1] . $fs->{kr}->[2]];
+        $fs->{kr_fukui} = [map { to_fukui $_ } @{$fs->{kr}}];
+        $fs->{segment_length} = segmented_text_length $fs->{kr};
+      }
+    }
   } # fill_korean
 
   sub fill_chinese ($) {
@@ -1413,7 +1468,7 @@ sub compute_form_group_ons ($) {
                           push @{$r->[-1]}, $_;
                         }
                       }
-                      $v->{segment_length} = segmented_text_length $v->{r};
+                      $v->{segment_length} = segmented_text_length $r;
                       $r;
                     } @{$v->{others}}] if $v->{form_set_type} eq 'hanzi';
                   }
@@ -1565,7 +1620,9 @@ sub compute_form_group_ons ($) {
             $v->{vi_katakana} = $w;
           } elsif ($rep->{type} eq 'korean') { # Korean alphabet
             for (@{$label->{form_groups}}) {
-              if ($_->{form_group_type} eq 'han') {
+              if ($_->{form_group_type} eq 'han' or
+                  ($_->{form_group_type} eq 'ja' and
+                   $rep->{lang} eq 'kr_ja')) {
                 $value = $_;
                 $value_added = 1;
               }
@@ -1577,12 +1634,20 @@ sub compute_form_group_ons ($) {
               $v->{origin_lang} = $1;
             }
             
+            my $w = [$rep->{value} =~ /\|/ ? split /\|/, $rep->{value} : split //, $rep->{value}];
             my $found = 0;
             for my $fs (@{$value->{form_sets}}) {
               if ($fs->{form_set_type} eq 'korean' and
                   defined $fs->{$lang} and
-                  (join '', @{$fs->{$lang}}) eq $rep->{value}) {
-                $found = 1;
+                  (join '', @{$fs->{$lang}}) eq (join '', @$w)) {
+                if ($rep->{value} =~ /\|/) {
+                  $v = $fs;
+                  $v_added = 1;
+                  delete $fs->{$lang};
+                  delete $fs->{$lang . '_fukui'};
+                } else {
+                  $found = 1;
+                }
                 last;
               }
             }
@@ -1591,7 +1656,6 @@ sub compute_form_group_ons ($) {
               $v_added = 1;
             } else {
               $v->{form_set_type} = 'korean';
-              my $w = [$rep->{value} =~ /\|/ ? split /\|/, $rep->{value} : split //, $rep->{value}];
               if (not defined $v->{$lang}) {
                 $v->{$lang} = $w;
                 if (not $has_preferred->{$lang}) {
@@ -1602,6 +1666,7 @@ sub compute_form_group_ons ($) {
                 push @{$v->{others} ||= []}, $w;
               }
               $v->{segment_length} = segmented_text_length $w;
+              fixup_korean $v unless $rep->{value} =~ /\|/;
             }
           } elsif ($rep->{type} eq 'manchu') {
             $value->{form_group_type} = 'manchu';

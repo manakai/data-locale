@@ -625,6 +625,8 @@ for (reverse
            value => $_};
     };
     for (@{$src->{ja_hanguls} or []}) {
+      use utf8;
+      next if $_ eq '아카미도리';
       push @rep,
           {kind => 'name', type => 'korean', lang => 'kr_ja',
            value => $_};
