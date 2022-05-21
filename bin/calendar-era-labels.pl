@@ -1370,7 +1370,10 @@ sub compute_form_group_ons ($) {
             $v->{segment_length} = $w_length;
             $v->{abbr_indexes} = $abbr_indexes if defined $abbr_indexes;
           } elsif ($rep->{type} eq 'jpan' or
-                   $rep->{type} eq 'zh') {
+                   $rep->{type} eq 'zh' or
+                   ($rep->{type} eq 'korean' and
+                    $rep->{value} =~ /\p{Hang}/ and
+                    $rep->{value} =~ /\p{Han}/)) {
             my @value;
             while (length $rep->{value}) {
               use utf8;
@@ -1469,6 +1472,12 @@ sub compute_form_group_ons ($) {
                   $v->{ja_latin} = $w;
                 }
                 $v->{segment_length} = segmented_text_length $w;
+              } elsif ($rep->{value} =~ s/\A(\p{Hang}+)//) {
+                $value->{form_group_type} = 'korean';
+                $v->{form_set_type} = 'korean';
+                my $w = [split //, $1];
+                $v->{segment_length} = segmented_text_length $w;
+                $v->{$rep->{lang}} = $w;
               } elsif ($rep->{value} =~ s/\A([()\p{Geometric Shapes}・]+)//) {
                 $value->{form_group_type} = 'symbols';
                 $v->{form_set_type} = 'symbols';
@@ -1494,6 +1503,7 @@ sub compute_form_group_ons ($) {
                 cn => 'cn',
                 tw => 'tw',
                 hk => 'hk',
+                kr => 'kr',
               }->{$rep->{lang} // $rep->{type}};
               if (not $has_preferred->{$lang}) {
                 $value->{is_preferred}->{$lang} = 1;
@@ -1880,13 +1890,16 @@ sub compute_form_group_ons ($) {
             my $name_jp = ''; my $name_cn = ''; my $name_tw = '';
             my $kana = ''; my $no_kana = 0;
             my $latin = ''; my $no_latin = 0;
+            my $name_kr = ''; my $no_kr = 0;
             for my $item_fg (@{$text->{items}}) {
               if ($item_fg->{form_group_type} eq 'han' or
                   $item_fg->{form_group_type} eq 'ja' or
                   $item_fg->{form_group_type} eq 'vi' or
-                  $item_fg->{form_group_type} eq 'kana') {
+                  $item_fg->{form_group_type} eq 'kana' or
+                  $item_fg->{form_group_type} eq 'korean') {
                 my $has_kana = 0;
                 my $has_latin = 0;
+                my $kr;
                 for my $item_fs (@{$item_fg->{form_sets}}) {
                   if ($item_fs->{form_set_type} eq 'hanzi') {
                     fill_han_variants $item_fs;
@@ -1905,6 +1918,12 @@ sub compute_form_group_ons ($) {
                     $name_tw .= serialize_segmented_text
                         ($item_fs->{tw} //
                          $item_fs->{kr} //
+                         $item_fs->{jp} //
+                         $item_fs->{cn} //
+                         $item_fs->{others}->[0]);
+                    $kr //= serialize_segmented_text
+                        ($item_fs->{kr} //
+                         $item_fs->{tw} //
                          $item_fs->{jp} //
                          $item_fs->{cn} //
                          $item_fs->{others}->[0]);
@@ -1931,16 +1950,25 @@ sub compute_form_group_ons ($) {
                     $name_tw .= $v;
                     $latin .= ' ' if length $latin;
                     $latin .= $v;
+                  } elsif ($item_fs->{form_set_type} eq 'korean') {
+                    fill_korean $item_fs;
+                    $kr = serialize_segmented_text ($item_fs->{kr} // die);
                   }
                 } # $item_fs
                 $no_kana = 1 unless $has_kana;
                 $no_latin = 1 unless $has_latin;
+                if (defined $kr) {
+                  $name_kr .= $kr;
+                } else {
+                  $no_kr = 1;
+                }
               } elsif ($item_fg->{form_group_type} eq 'symbols') {
                 for my $item_fs (@{$item_fg->{form_sets}}) {
                   my $v = serialize_segmented_text ($item_fs->{others}->[0] // die);
                   $name_jp .= $v;
                   $name_cn .= $v;
                   $name_tw .= $v;
+                  $name_kr .= $v;
                 }
               } else {
                 die "Unknown form group type |$item_fg->{form_group_type}|";
@@ -1976,6 +2004,12 @@ sub compute_form_group_ons ($) {
             if ((#not defined $era->{_SHORTHANDS}->{name_tw} or
                  ($text->{is_preferred} or {})->{tw})) {
               $era->{_SHORTHANDS}->{name_tw} = $name_tw;
+            }
+            if ((#not defined $era->{_SHORTHANDS}->{name_kr} or
+                 ($text->{is_preferred} or {})->{kr})) {
+              $era->{_SHORTHANDS}->{name_ko} = $name_kr;
+              $era->{_SHORTHANDS}->{name} = $era->{_SHORTHANDS}->{name_ko}
+                  if ($text->{is_preferred} or {})->{kr};
             }
           } # form_group_type
           for my $label (@{$text->{expandeds} or []}) {
