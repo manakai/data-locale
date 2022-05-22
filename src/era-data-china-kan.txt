@@ -1757,7 +1757,7 @@ name(kr) 갱시
 #<- 23-3-1(辛巳) 23-3-11
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Keng-s%C3%AD_(H%C3%A0n)>
-name(nan) Keng-sí
+name(nan_wp) Keng-sí
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7099%E4%B8%8B>"更始元年"
 s+
@@ -2763,6 +2763,10 @@ name_tw 永熹
 name_cn 永熹
 ## [103]
 name_ja 永熹
+
+## <https://ja.wikipedia.org/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_(%E4%B8%AD%E5%9B%BD)>
+#"「永嘉」とする説があったが、清朝時代の銭大昕や恵棟によって「永憙」
+#である事が考証された。また、「永熹」と誤写されている場合もある。"
 
 &
 ## [103]

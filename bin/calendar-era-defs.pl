@@ -329,7 +329,7 @@ for my $path (
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name', type => 'han', lang => $1, value => $3,
            preferred => $2};
-    } elsif (defined $key and /^name\((en|la|en_la|it|fr|fr_ja|es|po|ja_latin|ja_latin_old|ja_latin_old_wrong|vi_latin|nan|zh_alalc)\)(!|)\s+([\p{Latn}\s%0-9A-F'\x{030D}\x{0358}|-]+)$/) {
+    } elsif (defined $key and /^name\((en|la|en_la|it|fr|fr_ja|es|po|ja_latin|ja_latin_old|ja_latin_old_wrong|vi_latin|nan_poj|nan_tl|nan_wp|zh_alalc)\)(!|)\s+([\p{Latn}\s%0-9A-F'\x{030D}\x{0358}|-]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'alphabetical',
@@ -343,11 +343,11 @@ for my $path (
            lang => $1,
            preferred => $2,
            value => percent_decode_c $3};
-    } elsif (defined $key and /^(bopomofo)(!|)\s+([\p{Bopo}\x{02C7}\x{02CA}\x{02CB}\x{02D9}|\s]+)$/) {
+    } elsif (defined $key and /^(bopomofo|bopomofo\(nan\))(!|)\s+([\p{Bopo}\x{02C7}\x{02CA}\x{02CB}\x{02D9}\x{22A6}\x{14BB}|\s]+)$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
            type => 'bopomofo',
-           lang => 'zh',
+           lang => ({'bopomofo(nan)' => 'nan'}->{$1} // 'zh'),
            preferred => $2,
            value => percent_decode_c $3};
     } elsif (defined $key and /^name\((vi)\)(!|)\s+([\p{Latn}\s%0-9A-F]+)$/) {

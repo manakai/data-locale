@@ -97,6 +97,10 @@ country
   name_ja ソ連
 
 region
+  name_ja 東インド
+  region of 地球
+
+region
   name_ja 大東亜
   region of 地球
 
@@ -117,12 +121,27 @@ country
   region of 米大陸
 
 country
+  name_ja メキシコ
+  region of 中米
+
+country
   name_ja オランダ
   region of 欧州
 
 country
   name_ja スペイン
   region of 欧州
+
+region
+  name_ja スペイン領メキシコ
+  region of スペイン
+  region of 中米
+  period of メキシコ
+
+region
+  name_ja スペイン領東インド
+  period of 東インド
+  region of スペイン領メキシコ
 
 country
   name_ja ポルトガル
@@ -181,7 +200,14 @@ country
   region of 欧州
 
 people
+  name_ja アジア人
+
+people
+  name_ja 東洋人
+
+people
   name_ja ウイグル人
+  group of アジア人
 
 people
   name_ja 日系ブラジル人
@@ -536,6 +562,10 @@ action
   name_ja 利用開始
 
 action
+  name_ja 行政機関設置編入
+  group of 利用開始
+
+action
   name_ja 根拠法廃止
   group of 制定
 
@@ -676,6 +706,7 @@ action
 action
   name_ja 一部勢力再開
   group of 再開
+  group of 分離
 
 action
   name_ja 離反勢力合流再開
@@ -760,6 +791,14 @@ action
   name_ja 講和条約発効割譲
   group of 和約締結
   group of 割譲
+  group of 戦時異動
+
+action
+  name_ja 戦時協定行政権移転
+  group of 和約締結
+  group of 戦時異動
+  #subject: to
+  #object: from
 
 action
   name_ja 戦時異動
@@ -787,6 +826,10 @@ action
 
 action
   name_ja 建国
+  group of 活動開始
+
+action
+  name_ja 建国式典
   group of 活動開始
 
 action
@@ -1072,7 +1115,11 @@ tag
   group of ミニ独立国の紀年法
 
 tag
+  name_ja 宗教紀年
+
+tag
   name_ja 宗教創設紀年
+  group of 宗教紀年
 
 tag
   name_ja 教祖誕生紀年
@@ -1161,3 +1208,10 @@ tag
 tag
   name_ja 属国元号
   group of 元号
+
+source
+  name_en Wikipedia
+
+source
+  name_ja 日本語版ウィキペディア
+  group of Wikipedia

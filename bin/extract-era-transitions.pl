@@ -56,6 +56,8 @@ sub get_transition ($$$) {
   my $fd;
   my $matched1 = [];
   my $matched2 = [];
+  my $matched3 = [];
+  my $matched4 = [];
   my $matched_others = [];
   my $matched_others2 = [];
   my $matched_others3 = [];
@@ -92,7 +94,9 @@ sub get_transition ($$$) {
           if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
             push @$matched1, $tr;
           } else {
-            push @$matched_others, $tr;
+            if ($direction eq 'incoming' or defined $era->{end_year}) {
+              push @$matched_others, $tr;
+            }
           }
         } else {
           if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
@@ -111,14 +115,26 @@ sub get_transition ($$$) {
         if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
           push @$matched2, $tr;
         } else {
-          push @$matched_others, $tr;
+          if (!$tr->{tag_ids}->{2107} or # 分離
+              $direction eq 'incoming' or
+              defined $era->{end_year}) {
+            push @$matched_others, $tr;
+          }
         }
       }
       if ($tr->{type} eq 'wartime/possible' or
           $tr->{type} eq 'received/possible' or
           $tr->{type} eq 'firstday/possible' or
           $tr->{type} eq 'renamed/possible') {
-        push @$matched_others2, $tr;
+        if (has_tag $tr, $TagsIncluded and not has_tag $tr, $TagsExcluded) {
+          push @$matched3, $tr;
+        } else {
+          if (!$tr->{tag_ids}->{2107} or # 分離
+              $direction eq 'incoming' or
+              defined $era->{end_year}) {
+            push @$matched_others2, $tr;
+          }
+        }
       }
       if ($tr->{type} eq 'wartime/incorrect' or
           $tr->{type} eq 'administrative/incorrect' or
@@ -126,9 +142,13 @@ sub get_transition ($$$) {
           $tr->{type} eq 'firstday/incorrect' or
           $tr->{type} eq 'renamed/incorrect') {
         if (has_tag $tr, $TagsIncluded2 and not has_tag $tr, $TagsExcluded) {
-          push @$matched2, $tr;
+          push @$matched4, $tr;
         } else {
-          push @$matched_others3, $tr;
+          if (!$tr->{tag_ids}->{2107} or # 分離
+              $direction eq 'incoming' or
+              defined $era->{end_year}) {
+            push @$matched_others3, $tr;
+          }
         }
       }
       
@@ -138,7 +158,7 @@ sub get_transition ($$$) {
       }
     } # direction matched
 
-    if (@$matched1 or @$matched2) {
+    if (@$matched1 or @$matched2 or @$matched3 or @$matched4) {
       if (do {
         ($direction eq 'outgoing' and $tr->{next_era_ids}->{$era->{id}})
             or
@@ -151,6 +171,8 @@ sub get_transition ($$$) {
 
   return $matched1->[0] if @$matched1;
   return $matched2->[0] if @$matched2;
+  return $matched3->[0] if @$matched3;
+  return $matched4->[0] if @$matched4;
   return $fd if defined $fd;
   return $matched_others->[-1] if @$matched_others;
   return $matched_others2->[-1] if @$matched_others2;

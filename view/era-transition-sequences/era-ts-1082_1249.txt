@@ -1,0 +1,89 @@
+# y~1082 至元
+# + tag 1249 #澎湖諸島
+# <https://data.suikawiki.org/tag/1022/graph?sequence=1082%2B1249>
+# g:1282-01-17+0 y~1082 commenced
+mjd:-210683 至元
+# g:1295-01-24+0 y~1539 firstday
+mjd:-205928 元貞
+# g:1297-03-28+0 y~1041 firstday
+mjd:-205134 大德(丁酉)
+# g:1308-02-01+0 y~1242 firstday
+mjd:-201173 至大
+# g:1312-02-16+0 y~1422 firstday
+mjd:-199697 皇慶
+# g:1314-02-15+0 y~366 firstday
+mjd:-198967 延祐
+# g:1321-02-06+0 y~71 firstday
+mjd:-196419 至治(辛酉)
+# g:1324-02-04+0 y~1043 firstday
+mjd:-195326 泰定
+# g:1328-04-15+0 y~1505 firstday
+mjd:-193794 致和
+# g:1328-11-09+0 y~1040 firstday
+mjd:-193586 天順
+# g:1328-11-22+1 y~848 wartime
+mjd:-193572 天曆(戊辰)
+# g:1330-06-02+0 y~1605 firstday
+mjd:-193016 至順
+# g:1333-11-23+0 y~1491 firstday
+mjd:-191746 元統
+# g:1335-12-16+0 y~1495 firstday
+mjd:-190993 至元(乙亥)
+# g:1341-01-26+0 y~1576 firstday
+mjd:-189125 至正
+# g:1380-02-14+0 y~127 commenced
+mjd:-174862 洪武
+# g:1385-02-17+0 y~1764 wartime
+mjd:-173032 unknown
+# g:1564-01-23+0 y~1501 commenced
+mjd:-107680 嘉靖
+# g:1567-02-19+0 y~699 firstday
+mjd:-106557 隆慶
+# g:1573-02-12+0 y~413 firstday
+mjd:-104372 萬曆
+# g:1604-08-07+1 y~20 wartime
+mjd:-92872 AD
+# g:1604-12-15+0 y~413 wartime
+mjd:-92743 萬曆
+# g:1620-08-28+0 y~440 firstday
+mjd:-87008 泰昌
+# g:1621-01-22+0 y~598 firstday
+mjd:-86861 天啟(辛酉)
+# g:1622-08-02+1 y~20 wartime
+mjd:-86303 AD
+# g:1624-09-30+1 y~598 wartime
+mjd:-85513 天啟(辛酉)
+# g:1628-02-05+0 y~250 firstday
+mjd:-84291 崇禎
+# g:1645-01-28+0 y~1392 firstday
+mjd:-78089 弘光
+# g:1645-08-21+0 y~360 firstday
+mjd:-77884 隆武
+# g:1647-02-05+0 y~200 firstday
+mjd:-77351 紹武
+# g:1647-02-05+0 y~1684 firstday
+mjd:-77351 永曆(丁亥)
+# g:1685-02-02+0 y~757 commenced
+mjd:-63474 康熙
+# g:1723-02-05+0 y~1548 firstday
+mjd:-49593 雍正
+# g:1736-02-12+0 y~860 firstday
+mjd:-44838 乾隆
+# g:1796-02-09+0 y~1639 firstday
+mjd:-22926 嘉慶(丙辰)
+# g:1821-02-03+0 y~687 firstday
+mjd:-13801 道光
+# g:1851-02-01+0 y~738 firstday
+mjd:-2846 咸豐
+# g:1862-01-30+0 y~1292 firstday
+mjd:1170 同治
+# g:1875-02-06+0 y~681 firstday
+mjd:5925 光緒
+# g:1895-03-26+1 y~1 wartime
+mjd:13279 明治
+# g:1912-07-30+0 y~2 firstday
+mjd:19613 大正
+# g:1926-12-25+0 y~3 firstday
+mjd:24874 昭和
+# g:1945-10-25+0 y~971 wartime
+mjd:31753 民國
