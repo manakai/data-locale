@@ -111,7 +111,7 @@ name(kr) 신책
 #916-2-11 - 922
 
 wref<https://zh-min-nan.wikipedia.org/wiki/S%C3%AEn-chhek_(Li%C3%A2u)>
-name(nan) Sîn-chhek
+name(nan_wp) Sîn-chhek
 #916 - 922
 
 wref<https://zh-yue.wikipedia.org/wiki/%E7%A5%9E%E5%86%8A>
@@ -150,7 +150,7 @@ name(kr) 천찬
 #922-2-22 j:3-23 - 926
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Thian-ch%C3%A0n_(Li%C3%A2u)>
-name(nan) Thian-chàn
+name(nan_wp) Thian-chàn
 #922 - 926
 
 wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E8%B4%8A>
@@ -224,7 +224,7 @@ name(kr) 천현
 #926-2-5 - 938
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Thian-hi%C3%A1n_(Li%C3%A2u)>
-name(nan) Thian-hián
+name(nan_wp) Thian-hián
 #926 - 938
 
 wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E9%A1%AF>
@@ -356,7 +356,7 @@ name(kr) 회동
 #938-11-23 - 947
 
 wref<https://zh-min-nan.wikipedia.org/wiki/H%C5%8De-t%C3%B4ng_(Li%C3%A2u)>
-name(nan) Hōe-tông
+name(nan_wp) Hōe-tông
 #938 - 947
 
 wref<https://zh-yue.wikipedia.org/wiki/%E6%9C%83%E5%90%8C_(%E5%B9%B4%E8%99%9F)>
@@ -431,7 +431,7 @@ name(kr) 대동
 #947-2-1 - 947
 
 wref<https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-t%C3%B4ng_(Li%C3%A2u)>
-name(nan) Tāi-tông
+name(nan_wp) Tāi-tông
 #947 - 947
 
 wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A7%E5%90%8C_(%E9%81%BC)>
@@ -484,7 +484,7 @@ name(kr) 천록
 #947-9-16 - 951
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Thian-lo%CC%8Dk_(Li%C3%A2u)>
-#Thian-lo̍k
+name(nan_wp) Thian-lo̍k
 #947 - 951
 
 wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E7%A5%BF_(%E9%81%BC)>
@@ -535,7 +535,7 @@ name(kr) 응력
 #951-9-8 - 969
 
 wref<https://zh-min-nan.wikipedia.org/wiki/%C3%88ng-le%CC%8Dk_(Li%C3%A2u)>
-name(nan) Èng-le̍k
+name(nan_wp) Èng-le̍k
 #951 - 969
 
 wref<https://zh-yue.wikipedia.org/wiki/%E6%87%89%E6%9B%86>
@@ -583,7 +583,7 @@ name(kr) 보녕
 #969-2-22 - 979
 
 wref<https://zh-min-nan.wikipedia.org/wiki/P%C3%B3-l%C3%AAng_(Li%C3%A2u)>
-name(nan) Pó-lêng
+name(nan_wp) Pó-lêng
 #969 - 979
 
 wref<https://zh-yue.wikipedia.org/wiki/%E4%BF%9D%E5%AF%A7>
@@ -633,7 +633,7 @@ name(kr) 건형
 #979-11-26 - 983
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Khi%C3%A2n-heng_(Li%C3%A2u)>
-name(nan) Khiân-heng
+name(nan_wp) Khiân-heng
 #979 - 983
 
 wref<https://zh-yue.wikipedia.org/wiki/%E4%B9%BE%E4%BA%A8_(%E9%81%BC)>
@@ -707,7 +707,7 @@ name(kr) 통화
 #983-6-10 - 1012
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Th%C3%B3ng-h%C3%B4_(Li%C3%A2u)>
-name(nan) Thóng-hô
+name(nan_wp) Thóng-hô
 #983 - 1012
 
 wref<https://zh-yue.wikipedia.org/wiki/%E7%B5%B1%E5%92%8C>
@@ -746,7 +746,7 @@ name(kr) 개태
 #1012-11-1 - 1021
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Khai-th%C3%A0i_(Li%C3%A2u)>
-name(nan) Khai-thài
+name(nan_wp) Khai-thài
 #1012 - 1021
 
 wref<https://zh-yue.wikipedia.org/wiki/%E9%96%8B%E6%B3%B0_(%E9%81%BC)>
@@ -794,7 +794,7 @@ name(kr) 태평
 #1021-11-12 - 1031
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Th%C3%A0i-p%C3%AAng_(Li%C3%A2u)>
-name(nan) Thài-pêng
+name(nan_wp) Thài-pêng
 #1021 - 1031
 
 wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%AA%E5%B9%B3_(%E9%81%BC)>
@@ -841,7 +841,7 @@ name(kr) 경복
 #1031-6-16 - 1032
 
 wref<https://zh-min-nan.wikipedia.org/wiki/K%C3%A9ng-hok_(Li%C3%A2u)>
-name(nan) Kéng-hok
+name(nan_wp) Kéng-hok
 #1031 - 1032
 
 wref<https://zh-yue.wikipedia.org/wiki/%E6%99%AF%E7%A6%8F_(%E9%81%BC)>
@@ -892,7 +892,7 @@ name(kr) 중희
 #1032-11-12 j:12-16 - 1055
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Ti%C3%B4ng-hi_(Li%C3%A2u)>
-name(nan) Tiông-hi
+name(nan_wp) Tiông-hi
 #1032 - 1055
 
 wref<https://zh-yue.wikipedia.org/wiki/%E9%87%8D%E7%86%99>
@@ -953,7 +953,7 @@ name(kr) 청녕
 #1055-8-16 - 1064
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Chheng-l%C3%AAng_(Li%C3%A2u)>
-name(nan) Chheng-lêng
+name(nan_wp) Chheng-lêng
 #1055 - 1064
 
 wref<https://zh-yue.wikipedia.org/wiki/%E6%B8%85%E5%AF%A7>
@@ -1008,7 +1008,7 @@ name(kr) 함옹
 #1065-1-1 - 1074
 
 wref<https://zh-min-nan.wikipedia.org/wiki/H%C3%A2m-iong_(Li%C3%A2u)>
-name(nan) Hâm-iong
+name(nan_wp) Hâm-iong
 #1065 - 1074
 
 wref<https://zh-yue.wikipedia.org/wiki/%E5%92%B8%E9%9B%8D>
@@ -1059,7 +1059,7 @@ name 大康
 #1074-12-18 1075-1-1 - 1084
 
 wref<https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-khong_(Li%C3%A2u)>
-name(nan) Tāi-khong
+name(nan_wp) Tāi-khong
 name 大康
 #1075 - 1084
 
@@ -1113,7 +1113,7 @@ name(kr) 태안
 #太安
 
 wref<https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-an_(Li%C3%A2u)>
-name(nan) Tāi-an
+name(nan_wp) Tāi-an
 name 大安
 #1085 - 1094
 
@@ -1161,7 +1161,7 @@ name(kr) 수창
 #1094-12-18 1095-1-1 - 1101
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Si%C5%AB-chhiong_(Li%C3%A2u)>
-name(nan) Siū-chhiong
+name(nan_wp) Siū-chhiong
 #1095 - 1101
 
 wref<https://zh-yue.wikipedia.org/wiki/%E5%A3%BD%E6%98%8C>
@@ -1232,7 +1232,7 @@ name(kr) 건통
 #1101-2-1 - 1110
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Khi%C3%A2n-th%C3%B3ng_(Li%C3%A2u)>
-name(nan) Khiân-thóng
+name(nan_wp) Khiân-thóng
 #1101 - 1110
 
 wref<https://zh-yue.wikipedia.org/wiki/%E4%B9%BE%E7%B5%B1>
@@ -1284,7 +1284,7 @@ name(kr) 천경
 #1110-12-15 1111-2-10 - 1120
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Thian-kh%C3%A8ng_(Li%C3%A2u)>
-name(nan) Thian-khèng
+name(nan_wp) Thian-khèng
 #1111 - 1120
 
 wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E6%85%B6_(%E9%81%BC)>
@@ -1332,7 +1332,7 @@ name(kr) 보대
 #1121-1-1 - 1125
 
 wref<https://zh-min-nan.wikipedia.org/wiki/P%C3%B3-t%C4%81i_(Li%C3%A2u)>
-name(nan) Pó-tāi
+name(nan_wp) Pó-tāi
 #1121 - 1125
 
 wref<https://zh-yue.wikipedia.org/wiki/%E4%BF%9D%E5%A4%A7_(%E9%81%BC)>

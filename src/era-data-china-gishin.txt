@@ -1973,7 +1973,7 @@ u 49
 u 36
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Ki%C3%A0n-heng_(Se_Ch%C3%ACn)>
-name(nan) Kiàn-heng
+name(nan_wp) Kiàn-heng
 #313 - 317
 
 ## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.3
@@ -2880,7 +2880,7 @@ name 昇平
 #<-建興 ->none
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Seng-p%C3%AAng_(Tong_Ch%C3%ACn)>
-name(nan) Seng-pêng
+name(nan_wp) Seng-pêng
 name 昇平
 #357 - 361
 

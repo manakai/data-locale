@@ -24,6 +24,8 @@ name_ja 耶蘇紀元
 &
 name 天主降生
 &
+name_tw 主後
+&
 acronym(en) A
 expanded(la) [a]nn%C5%8D Domin%C4%AB
 expanded(en_la) [A]nno Domini
@@ -41,10 +43,12 @@ name(ja_latin_old) GOX IRAI
 name_ja! 西暦
 name_kana せい れき
 name(vi_latin) Tây lịch
+name_tw! 西曆
 &
 name_ja 西紀
 name_kana せい き
 name_ko 西紀
+name_tw 西紀
 &
 name_tw 西元
 &
@@ -55,6 +59,9 @@ name_kana せい れき き げん
 ## <https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%9D%98_%EC%97%B0%ED%98%B8>
 name(kr) 서력기원
 name 西曆紀元
+
+&
+name_tw 西元年號
 
 &
 name 洋曆
@@ -72,10 +79,13 @@ expanded(vi_latin) [C]ông [n]guyên
 acronym(vi_latin) SCN
 &
 name_cn 公元
+name_tw 公元
 name(vi_latin) Công nguyên
 &
 name_tw 公曆紀元
 name(vi_latin) Công lịch kỷ nguyên
+&
+name_tw 公曆
 &
 name 公元紀年
 &
@@ -124,6 +134,7 @@ tag 露領外満州
 tag 露領東清鉄道附属地
 tag オランダ
 tag 蘭領台湾
+tag 蘭領澎湖諸島
 tag スペイン
 tag ポルトガル
 tag 米国

@@ -217,6 +217,10 @@
 %tag   name_ja 漢民族
 
 %tag people
+%tag   name_ja 閩南人
+%tag   group of 漢民族
+
+%tag people
 %tag   name_ja 華僑
 %tag   group of 漢民族
 
@@ -3237,6 +3241,8 @@ name_ja 中華民国暦
 &
 name_ja 中華民国紀年
 &
+name_tw 中華民國年號
+&
 name_cn 国历
 name_tw 國曆
 name_ja 国暦
@@ -3522,7 +3528,7 @@ tag 国共内戦
 %tag law
 %tag   name_ja 中国人民政治協商会議第一回総会決議
 <-民國 g:1949-9-27 #利用開始{#中華人民共和国
-    #中国人民政治協商会議第一回総会決議} #中国共産党 #グレゴリオ暦 
+    #中国人民政治協商会議第一回総会決議} #中国共産党 #グレゴリオ暦 #起事建元
 <-民國 g:1949-10-1 #建国{#中華人民共和国} #中国共産党 #グレゴリオ暦 #事由
 
 ## <https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%85%B1%E5%86%85%E6%88%A6>

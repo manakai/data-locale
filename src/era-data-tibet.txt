@@ -8419,7 +8419,7 @@ name(kr) 현도
 #<-none ->開運
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Hi%C3%A1n-t%C5%8D_(Se_H%C4%81)>
-name(nan) Hián-tō
+name(nan_wp) Hián-tō
 #1032 - 1034
 #<-none ->Khai-ūn
 
@@ -8472,7 +8472,7 @@ name(kr) 개운
 #<-顯道 ->廣運
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Khai-%C5%ABn_(Se_H%C4%81)>
-name(nan) Khai-ūn
+name(nan_wp) Khai-ūn
 #1034 - 1034
 
 tag 西夏紀年考
@@ -8539,7 +8539,7 @@ name(kr) 광운
 
 wref<https://zh-min-nan.wikipedia.org/wiki/K%C3%B3ng-%C5%ABn_(Se_H%C4%81)>
 #1034 - 1036
-name(nan) Kóng-ūn
+name(nan_wp) Kóng-ūn
 #<-Khai-ūn ->Tāi-khèng
 
 tag 西夏紀年考
@@ -8802,7 +8802,7 @@ name(kr) 천수예법연조
 #1038 - 1048
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Thian-si%C5%AB_L%C3%A9-hoat_I%C3%A2n-ch%C3%A0_(Se_H%C4%81)>
-name(nan) Thian-siū Lé-hoat Iân-chà
+name(nan_wp) Thian-siū Lé-hoat Iân-chà
 #1038 - 1048
 #<-Tāi-khèng ->Iân-sū Lêng-kok
 
@@ -8911,7 +8911,7 @@ name(kr) 연사녕국
 
 wref<https://zh-min-nan.wikipedia.org/wiki/I%C3%A2n-s%C5%AB_L%C3%AAng-kok_(Se_H%C4%81)>
 #1049
-name(nan) Iân-sū Lêng-kok
+name(nan_wp) Iân-sū Lêng-kok
 
 tag 西夏紀年考
 #1049 (1)
@@ -8993,7 +8993,7 @@ name(kr) 천우수성
 #1050 - 1052
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Thian-i%C5%AB_S%C3%BBi-s%C3%A8ng_(Se_H%C4%81)>
-name(nan) Thian-iū Sûi-sèng
+name(nan_wp) Thian-iū Sûi-sèng
 #1050 - 1052
 
 tag 西夏紀年考
@@ -9050,7 +9050,7 @@ name(kr) 복성승도
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Hok-s%C3%A8ng_S%C3%AAng-t%C5%8D_(Se_H%C4%81)>
 #1053 - 1056
-name(nan) Hok-sèng Sêng-tō
+name(nan_wp) Hok-sèng Sêng-tō
 
 tag 西夏紀年考
 
@@ -9139,7 +9139,7 @@ name(kr) 차도
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Chhi%C3%A1-to%CD%98_(Se_H%C4%81)>
 #1057 - 1062
-name(nan) Chhiá-to͘
+name(nan_wp) Chhiá-to͘
 
 tag 西夏紀年考
 
@@ -9194,7 +9194,7 @@ name(kr) 공화
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Ki%C3%B3ng-h%C3%B2a_(Se_H%C4%81)>
 #1063 - 1067
-name(nan) Kióng-hòa
+name(nan_wp) Kióng-hòa
 
 tag 西夏紀年考
 #1063 (1) - 1067 (5)
@@ -9258,7 +9258,7 @@ tag 李秉常
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Khi%C3%A2n-t%C5%8D_(Se_H%C4%81)>
 #1067 - 1068
-name(nan) Khiân-tō
+name(nan_wp) Khiân-tō
 
 wref<https://zh-yue.wikipedia.org/wiki/%E4%B9%BE%E9%81%93_(%E8%A5%BF%E5%A4%8F)>
 #1067 - 1068
@@ -9400,7 +9400,7 @@ name(kr) 천사예성국경
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Thian-s%C3%B9_L%C3%A9-s%C4%93ng_Kok-kh%C3%A8ng_(Se_H%C4%81)>
 #1069 - 1074
-name(nan) Thian-sù Lé-sēng Kok-khèng
+name(nan_wp) Thian-sù Lé-sēng Kok-khèng
 
 <-乾道(丁未) [宋:1069] #支那改元日{#西夏 #李秉常}
 
@@ -9531,7 +9531,7 @@ name 大安
 
 wref<https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-an_(Se_H%C4%81)>
 #1075 - 1085
-name(nan) Tāi-an
+name(nan_wp) Tāi-an
 name 大安
 
 tag 西夏紀年考
@@ -9649,7 +9649,7 @@ name(kr) 천안예정
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Thian-an_L%C3%A9-t%C4%93ng_(Se_H%C4%81)>
 #1086
-name(nan) Thian-an Lé-tēng
+name(nan_wp) Thian-an Lé-tēng
 
 tag 西夏紀年考
 #1086
@@ -9705,7 +9705,7 @@ name(kr) 천의치평
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Thian-g%C3%AE_T%C4%AB-p%C3%AAng_(Se_H%C4%81)>
 #1086 - 1089
-name(nan) Thian-gî Tī-pêng
+name(nan_wp) Thian-gî Tī-pêng
 
 tag 西夏紀年考
 #1086 (1) - 1089 (4)
@@ -9778,7 +9778,7 @@ name(kr) 천우민안
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Thian-i%C5%AB_B%C3%AEn-an_(Se_H%C4%81)>
 #1090 - 1097
-name(nan) Thian-iū Bîn-an
+name(nan_wp) Thian-iū Bîn-an
 
 tag 西夏紀年考
 #1090 - 1097
@@ -9837,7 +9837,7 @@ name(kr) 영안
 
 wref<https://zh-min-nan.wikipedia.org/wiki/%C3%89ng-an_(Se_H%C4%81)>
 #1098 - 1100
-name(nan) Éng-an
+name(nan_wp) Éng-an
 
 tag 西夏紀年考
 #1098 (1) - 1100 (3)
@@ -9907,7 +9907,7 @@ name(kr) 정관
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Cheng-koan_(Se_H%C4%81)>
 #1101 - 1113
-name(nan) Cheng-koan
+name(nan_wp) Cheng-koan
 
 tag 西夏紀年考
 #1101 (1) - 1113 (13)
@@ -9976,7 +9976,7 @@ name(kr) 옹녕
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Iong-l%C3%AAng_(Se_H%C4%81)>
 #1114 - 1118
-name(nan) Iong-lêng
+name(nan_wp) Iong-lêng
 
 tag 西夏紀年考
 #1114 (1) - 1118 (5)
@@ -10046,7 +10046,7 @@ wref<https://zh-yue.wikipedia.org/wiki/%E5%85%83%E5%BE%B7_(%E8%A5%BF%E5%A4%8F)>
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Go%C3%A2n-tek_(Se_H%C4%81)>
 #1119 - 1127
-name(nan) Goân-tek
+name(nan_wp) Goân-tek
 
 wref_ko 원덕
 name(kr) 원덕
@@ -10132,7 +10132,7 @@ name(kr) 정덕
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Ch%C3%A8ng-tek_(Se_H%C4%81)>
 #1127 - 1134
-name(nan) Chèng-tek
+name(nan_wp) Chèng-tek
 
 tag 西夏紀年考
 #本文: 正德
@@ -10190,7 +10190,7 @@ name(kr) 대덕
 
 wref<https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-tek_(Se_H%C4%81)>
 #1135 - 1139
-name(nan) Tāi-tek
+name(nan_wp) Tāi-tek
 
 tag 西夏紀年考
 #1135 - 1139
@@ -10248,7 +10248,7 @@ name(kr) 대경
 
 wref<https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-kh%C3%A8ng_(Se_H%C4%81)>
 #1140 - 1143
-name(nan) Tāi-khèng
+name(nan_wp) Tāi-khèng
 #<-Tāi-tek ->Jîn-khèng
 
 tag 西夏紀年考
@@ -10324,7 +10324,7 @@ name(kr) 인경
 
 wref<https://zh-min-nan.wikipedia.org/wiki/J%C3%AEn-kh%C3%A8ng_(Se_H%C4%81)>
 #1144 - 1148
-name(nan) Jîn-khèng
+name(nan_wp) Jîn-khèng
 
 tag 西夏紀年考
 #1144 (1) - 1148 (5)
@@ -10402,7 +10402,7 @@ name(kr) 천성
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Thian-s%C4%93ng_(Se_H%C4%81)>
 #1149 - 1169
-name(nan) Thian-sēng
+name(nan_wp) Thian-sēng
 
 tag 年号銭
 
@@ -10488,7 +10488,7 @@ name(kr) 건우
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Khi%C3%A2n-i%C5%AB_(Se_H%C4%81)>
 #1170 - 1193
-name(nan) Khiân-iū
+name(nan_wp) Khiân-iū
 
 tag 西夏紀年考
 #1170 (1) - 1198 (24)
@@ -10624,7 +10624,7 @@ name(kr) 천경
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Thian-kh%C3%A8ng_(Se_H%C4%81)>
 #1194 - 1206
-name(nan) Thian-khèng
+name(nan_wp) Thian-khèng
 
 tag 西夏紀年考
 #1194 (1) - 1206 (13)
@@ -10708,7 +10708,7 @@ name(kr) 응천
 
 wref<https://zh-min-nan.wikipedia.org/wiki/%C3%88ng-thian_(Se_H%C4%81)>
 #1206 - 1209
-name(nan) Èng-thian
+name(nan_wp) Èng-thian
 
 tag 西夏紀年考
 #1206 (1) - 1209 (4)
@@ -10780,7 +10780,7 @@ name(kr) 황건
 
 wref<https://zh-min-nan.wikipedia.org/wiki/H%C3%B4ng-ki%C3%A0n_(Se_H%C4%81)>
 #1210 - 1211
-name(nan) Hông-kiàn
+name(nan_wp) Hông-kiàn
 
 tag 西夏紀年考
 #1210 (1) - 1211 (2)
@@ -10844,7 +10844,7 @@ name(kr) 광정
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Kong-t%C4%93ng_(Se_H%C4%81)>
 #1211 - 1223
-name(nan) Kong-tēng
+name(nan_wp) Kong-tēng
 
 ## <https://www.totetu.org/assets/media/paper/t156_272.pdf#page=29>
 #"光定癸未年九月朔九日（1223年？）"
@@ -10929,7 +10929,7 @@ name(kr) 건정
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Khi%C3%A2n-t%C4%93ng_(Se_H%C4%81)>
 #1223 - 1226
-name(nan) Khiân-tēng
+name(nan_wp) Khiân-tēng
 
 tag 西夏紀年考
 #1223 (1) - 1226 (4)
@@ -11055,7 +11055,7 @@ name(kr) 보의
 
 wref<https://zh-min-nan.wikipedia.org/wiki/P%C3%B3-g%C4%AB_(Se_H%C4%81)>
 #1226 - 1227
-name(nan) Pó-gī
+name(nan_wp) Pó-gī
 
 <-乾定 ->寶義,寶慶(西夏),寶慶(丙戌) [元:1226-7]
     #建元前の即位{#西夏 #李睍 #西夏皇帝}

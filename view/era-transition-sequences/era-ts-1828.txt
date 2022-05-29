@@ -46,8 +46,8 @@ mjd:-77884 隆武
 mjd:-77351 紹武
 # g:1647-02-05+0 y~1684 firstday
 mjd:-77351 永曆(丁亥)
-# g:1683-11-17+1 y~757 wartime
-mjd:-63916 康熙
+# g:1685-02-02+0 y~757 commenced
+mjd:-63474 康熙
 # g:1723-02-05+0 y~1548 firstday
 mjd:-49593 雍正
 # g:1736-02-12+0 y~860 firstday
@@ -74,5 +74,3 @@ mjd:20945 民國
 mjd:21410 宣統
 # g:1917-07-12+0 y~971 firstday
 mjd:21421 民國
-# g:1986-12-31+0 y~1764 administrative
-mjd:46795 unknown

@@ -1877,7 +1877,7 @@ name(kr) 수국
 #1115-1-1 - 1116
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Siu-kok_(Kim)>
-name(nan) Siu-kok
+name(nan_wp) Siu-kok
 #1115 - 1116
 
 wref<https://zh-yue.wikipedia.org/wiki/%E6%94%B6%E5%9C%8B>
@@ -1930,7 +1930,7 @@ name(kr) 천보
 #1116-12-1 1117-1-1 - 1123
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Thian-h%C3%BA_(Kim)>
-name(nan) Thian-hú
+name(nan_wp) Thian-hú
 #1117 - 1123
 
 
@@ -1987,7 +1987,7 @@ name(kr) 천회
 #1123-9-17 - 1137
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Thian-h%C5%8De_(Kim)>
-name(nan) Thian-hōe
+name(nan_wp) Thian-hōe
 #1123 - 1137
 
 ## <https://ja.wikipedia.org/wiki/%E7%86%99%E5%AE%97_(%E9%87%91)>
@@ -2029,7 +2029,7 @@ name(kr) 천권
 #1137-12-26 1138-1-1 - 1141
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Thian-ko%C3%A0n_(Kim)>
-name(nan) Thian-koàn
+name(nan_wp) Thian-koàn
 #1138 - 1140
 
 [皇統]
@@ -2071,7 +2071,7 @@ name(kr) 황통
 #1141-1-12(癸丑) - 1149
 
 wref<https://zh-min-nan.wikipedia.org/wiki/H%C3%B4ng-th%C3%B3ng_(Kim)>
-name(nan) Hông-thóng
+name(nan_wp) Hông-thóng
 #1141 - 1149
 
 
@@ -2112,7 +2112,7 @@ name(kr) 천덕
 #1149-12-11 - 1153
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Thian-tek_(Kim)>
-name(nan) Thian-tek
+name(nan_wp) Thian-tek
 #1149 - 1153
 
 [貞元(癸酉)]
@@ -2148,7 +2148,7 @@ name(kr) 정원
 #1153-3-26 - 1156
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Cheng-go%C3%A2n_(Kim)>
-name(nan) Cheng-goân
+name(nan_wp) Cheng-goân
 #1153 - 1156
 
 [正隆]
@@ -2189,7 +2189,7 @@ name(kr) 정륭
 #1156-2-1 - 1161
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Ch%C3%A8ng-li%C3%B4ng_(Kim)>
-name(nan) Chèng-liông
+name(nan_wp) Chèng-liông
 #1156 - 1161
 
 def[正豐]
@@ -2289,7 +2289,7 @@ name(kr) 대정
 #1161-10-9 - 1189
 
 wref<https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-t%C4%93ng_(Kim)>
-name(nan) Tāi-tēng
+name(nan_wp) Tāi-tēng
 #1161 - 1189
 
 [興慶]
@@ -2366,7 +2366,7 @@ name(kr) 명창
 #1190-1-1 - 1196
 
 wref<https://zh-min-nan.wikipedia.org/wiki/B%C3%AAng-chhiong_(Kim)>
-name(nan) Bêng-chhiong
+name(nan_wp) Bêng-chhiong
 #1190 - 1196
 
 [承安(丙辰)]
@@ -2402,7 +2402,7 @@ name(kr) 승안
 #1196-11-23 - 1200
 
 wref<https://zh-min-nan.wikipedia.org/wiki/S%C3%AAng-an_(Kim)>
-name(nan) Sêng-an
+name(nan_wp) Sêng-an
 #1196 - 1200
 
 
@@ -2444,7 +2444,7 @@ name(kr) 태화
 #1200-12-1 1201-1-1 - 1209
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Th%C3%A0i-h%C3%B4_(Kim)>
-name(nan) Thài-hô
+name(nan_wp) Thài-hô
 #1201 - 1208
 
 [大安(己巳)]
@@ -2486,7 +2486,7 @@ name(kr) 대안
 name 大安
 
 wref<https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-an_(Kim)>
-name(nan) Tāi-an
+name(nan_wp) Tāi-an
 name 大安
 #1209 - 1211
 
@@ -2527,7 +2527,7 @@ name(kr) 숭경
 #1212-1-1 - 1213
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Ch%C3%B4ng-kh%C3%A8ng_(Kim)>
-name(nan) Chông-khèng
+name(nan_wp) Chông-khèng
 #1212 - 1213
 
 [至寧]
@@ -2571,7 +2571,7 @@ name(kr) 지녕
 <-崇慶 金:1213-5-1 #支那改元日{#金 #完顔果縄}
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Ch%C3%AC-l%C3%AAng_(Kim)>
-name(nan) Chì-lêng
+name(nan_wp) Chì-lêng
 #1213
 
 
@@ -2620,7 +2620,7 @@ name(kr) 정우
 #1213-9-15 - 1217
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Cheng-i%C5%AB_(Kim)>
-name(nan) Cheng-iū
+name(nan_wp) Cheng-iū
 #1213 - 1217
 
 ## <https://www.academia.edu/32240581/%D0%91%D0%B5%D0%BB%D1%8F%D0%B5%D0%B2_%D0%92_%D0%90_%D0%A1%D0%B8%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87_%D0%A1_%D0%92_%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%BA%D0%B8_%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%B5%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B0_%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B5_%D0%A1%D1%8F_%D0%B2_%D0%9F%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%8C%D0%B5>
@@ -2659,7 +2659,7 @@ name(kr) 흥정
 #1217-9-8 - 1222
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Heng-t%C4%93ng_(Kim)>
-name(nan) Heng-tēng
+name(nan_wp) Heng-tēng
 #1217 - 1222
 
 [元光(壬午)]
@@ -2713,7 +2713,7 @@ name(kr) 원광
 #1222-8-11 - 1223
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Go%C3%A2n-kong_(Kim)>
-name(nan) Goân-kong
+name(nan_wp) Goân-kong
 #1222 - 1223
 
 [正大]
@@ -2757,7 +2757,7 @@ name(kr) 정대
 #1224-1-1 - 1232
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Ch%C3%A8ng-t%C4%81i_(Kim)>
-name(nan) Chèng-tāi
+name(nan_wp) Chèng-tāi
 #1224 - 1231
 
 [開興]
@@ -2811,7 +2811,7 @@ name(kr) 개흥
 #1232-1-19 - 1232
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Khai-heng_(Kim)>
-name(nan) Khai-heng
+name(nan_wp) Khai-heng
 #1232 - 1232
 
 %tag person
@@ -2870,7 +2870,7 @@ name(kr) 천흥
 #->盛昌
 
 wref<https://zh-min-nan.wikipedia.org/wiki/Thian-heng_(Kim)>
-name(nan) Thian-heng
+name(nan_wp) Thian-heng
 #1232 - 1234
 #->none
 
@@ -3571,6 +3571,11 @@ name_man %E1%A0%B0%E1%A1%A0%E1%A0%B7%E1%A1%9D %E1%A1%A5%E1%A0%A0%E1%A0%A8,sure h
 %tag   name_ja 清の公年号
 %tag   group of 中華王朝の公年号
 
+%tag people
+%tag   name_ja 清国人
+%tag   group of アジア人
+%tag   group of 東洋人
+
 [崇德]
 #y~1136
 name_tw 崇德
@@ -3709,6 +3714,9 @@ tag 君主名の元号
 <-順治 清:1661-1-7(丁巳) g:1661-2-5 #年始改元決定{#清 #康熙帝}
 <-順治 清:1662-1-1 g:1662-2-18 #年始改元実施{#清 #康熙帝}
 
+tag 清領澎湖諸島
+<-永曆(丁亥) [清:1684] #行政機関設置編入{#清澎湖巡檢司} #清領澎湖諸島
+
 %tag law
 %tag   name_ja ネルチンスク条約
 %tag   name_cn 尼布楚条约
@@ -3763,6 +3771,7 @@ tag 蒙古人
 tag 清領朝鮮
 tag 朝鮮人
 tag 清領台湾
+tag 清領澎湖諸島
 tag 台湾人
 
 tag 一世一元
@@ -3776,6 +3785,12 @@ tag 雍正帝
 <-康熙 清:1722-11-辛丑 #建元前の即位{#清 #雍正帝 #支那皇帝}
 <-康熙 清:1722-11-辛丑 #年始改元決定{#清 #雍正帝}
 <-康熙 清:1723-1-1 g:1723-2-5 #年始改元実施{#清 #雍正帝}
+
+#sw 新港文書の日付表示
+name(sinkan) joung|sing
+name(sinkan) ioung|sing
+name(sinkan) Iŭong sing
+name(sinkan) Ioug|sing
 
 ## [158]
 #1723-02-05
@@ -3795,6 +3810,10 @@ name_mn %E1%A0%A8%E1%A0%A2%E1%A0%B6%E1%A0%A2%E1%A0%B7%E1%A0%A0%E1%A0%AF%E1%A0%B2
 #mn ナイラルト・トゥブ,nayiraltu tub
 ## [106]
 #man h{umacron}waliyasun tob
+
+&
+#sw 新港文書の日付表示
+name(sinkan) sing
 
 [乾隆]
 #y~860
@@ -3817,6 +3836,7 @@ tag 蒙古人
 tag 清領朝鮮
 tag 朝鮮人
 tag 清領台湾
+tag 清領澎湖諸島
 tag 台湾人
 
 tag 一世一元
@@ -3844,6 +3864,17 @@ u 61
 
 u 64
 
+#sw 新港文書の日付表示
+name(sinkan) chian|liong
+name(sinkan) chiam|liong
+name(sinkan) chian|lioung
+name(sinkan) chian|lliung
+name(sinkan) chian|ling
+name(sinkan) chian lioúng
+name(sinkan) khian|ling
+name(sinkan) khian|lliong
+name(sinkan) khian|liong
+
 ## [158]
 # 1736-02-12
 
@@ -3866,6 +3897,10 @@ u 64
 ## [106]
 #man abkai wehiyehe
 
+&
+#sw 新港文書の日付表示
+name(sinkan) chian
+
 [嘉慶(丙辰)]
 #y~1639
 name_tw 嘉慶
@@ -3886,6 +3921,7 @@ tag 蒙古人
 tag 清領朝鮮
 tag 朝鮮人
 tag 清領台湾
+tag 清領澎湖諸島
 tag 台湾人
 
 tag 一世一元
@@ -3893,6 +3929,11 @@ tag 君主名の元号
 %tag person
 %tag   name_ja 嘉慶帝
 tag 嘉慶帝
+
+#sw 新港文書の日付表示
+name(sinkan) ka|king
+name(sinkan) ka|hing
+name(sinkan) cka chking
 
 ## [120] <https://zh.wikisource.org/wiki/%E6%B8%85%E5%8F%B2%E7%A8%BF/%E5%8D%B716>
 
@@ -3935,6 +3976,7 @@ tag 蒙古人
 tag 清領朝鮮
 tag 朝鮮人
 tag 清領台湾
+tag 清領澎湖諸島
 tag 台湾人
 
 tag 一世一元
@@ -3991,6 +4033,7 @@ tag 蒙古人
 tag 清領朝鮮
 tag 朝鮮人
 tag 清領台湾
+tag 清領澎湖諸島
 tag 台湾人
 
 ## [103]
@@ -4088,6 +4131,7 @@ tag 清領台湾
 tag 清領朝鮮
 tag 朝鮮人
 tag 清領台湾
+tag 清領澎湖諸島
 tag 台湾人
 tag 実施中止
 
@@ -4121,6 +4165,7 @@ tag 蒙古人
 tag 清領朝鮮
 tag 朝鮮人
 tag 清領台湾
+tag 清領澎湖諸島
 tag 台湾人
 name_ja 同治
 name_tw 同治
@@ -4173,6 +4218,7 @@ tag 蒙古人
 tag 清領朝鮮
 tag 朝鮮人
 tag 清領台湾
+tag 清領澎湖諸島
 tag 台湾人
 name_ja 光緒
 name 光緖
@@ -4219,11 +4265,10 @@ sw 光緒
 ->AD g:1887-03-36 #清 #ポルトガル #ポルトガル領マカオ #行政異動
 tag マカオ
 
+%tag event
+%tag   name_ja 日清戦争
 %tag law
 %tag   name_ja 下関条約
-## 下関条約 (dup)
-#->明治 関東州
-#->明治 台湾
 #XXX
 #->開国 李氏朝鮮
 ## 遼東還付交渉 (dup)
@@ -4240,10 +4285,19 @@ tag マカオ
 #->AD 1899-11-16 広州湾租借地 中仏互訂広州湾租界条約 signed
 #->AD 1900-02-19 広州湾租借地 中仏互訂広州湾租界条約
 
+#1895-3-23 - -3-26 澎湖諸島 上陸
+->明治 g:1895-3-23 #開戦{#大日本帝国, #清領澎湖諸島} #日清戦争 #事由
+->明治 g:1895-3-26 #陥落{#大日本帝国, #清領澎湖諸島} #日清戦争
+->明治 g:1895-5-8 #講和条約発効割譲{#清 #清領澎湖諸島, #大日本帝国}
+    #日清戦争 #下関条約
+->明治 g:1895-5-8 #講和条約発効割譲{#清 #清領台湾, #大日本帝国}
+    #日清戦争 #下関条約 #大日本帝国台湾
+->明治 g:1895-5-8 #講和条約発効割譲{#清 #関東州, #大日本帝国}
+    #日清戦争 #下関条約 #大日本帝国台湾
+
 ## <https://www.loc.gov/catdir/cpso/romanization/chinese.pdf#page=8>
 name(zh_alalc) Guang|xu
 
-## [103]
 wref_ja 光緒
 name_ja 光緒
 name 光緖
@@ -4507,11 +4561,11 @@ tag 属国元号
 <-民國 g:1932-03-01 #支那改元詔{#満州国 #溥儀} #起事建元 #満洲事変 #大日本帝国
     #グレゴリオ暦
 <-民國 [g:1932-4] #陥落{#大日本帝国 #満州国, #中華民国 #内満州} #満洲事変
-    #グレゴリオ暦
+    #グレゴリオ暦 #分離
 %tag law
 %tag   name_ja 塘沽協定
 <-民國 [g:1932-4] #停戦協定締結{#大日本帝国, #中華民国} #満洲事変
-    #塘沽協定 #満州国 #グレゴリオ暦
+    #塘沽協定 #満州国 #グレゴリオ暦 #分離
 
 ## [102]
 name_tw 大同
@@ -4670,7 +4724,7 @@ tag 中華人民共和国領香港
 tag 日本
 
 <-AD g:2019-3-7 #利用開始{#満洲国臨時政府} #グレゴリオ暦
-    #マイクロネーション建元
+    #マイクロネーション建元 #分離
 <-AD g:2019-3-1 #マイクロネーション再開{#満洲国臨時政府} #グレゴリオ暦
 u 86-3-1
 u 88-1-1

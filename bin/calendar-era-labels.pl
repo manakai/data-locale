@@ -136,7 +136,7 @@ for my $in_era (@$Eras) {
     my ($ss, $code, $lang) = @_;
 
     my $First = {'..' => 1, '._' => 1};
-    $First->{'.-'} = 1 unless $lang eq 'nan_poj';
+    $First->{'.-'} = 1 unless $lang eq 'nan_poj' or $lang eq 'nan_tl';
     
     my $tt = [];
     my $is_first = 1;
@@ -741,8 +741,8 @@ sub compute_form_group_ons ($) {
     for my $lang ('en',
                   'la', 'en_la', 'en_la_roman',
                   'it', 'fr', 'es', 'po',
-                  'vi',
-                  'nan_poj', 'pinyin',
+                  'vi', 'vi_old',
+                  'nan_poj', 'nan_tl', 'pinyin',
                   'ja_latin', 'ja_latin_old') {
       if (defined $fs->{$lang}) {
         my $ss = $fs->{$lang};
@@ -998,6 +998,12 @@ sub compute_form_group_ons ($) {
     if (defined $fs->{bopomofo}) {
       $fs->{bopomofo_zuyntn} = [map { to_zuyntn $_ } @{$fs->{bopomofo}}];
     }
+    if (defined $fs->{nan_bopomofo}) {
+      for (@{$fs->{nan_bopomofo}}) {
+        s/\x{22A6}/\x{02EB}/g;
+        s/\x{14BB}/\x{02EA}/g;
+      }
+    }
 
     fill_alphabetical $fs;
   } # fill_chinese
@@ -1204,6 +1210,13 @@ sub compute_form_group_ons ($) {
             # $w and $w_length will be modified later
             
             my $lang = $rep->{lang};
+            if ($lang eq 'nan_wp') {
+              $lang = 'nan_poj';
+              # nan_poj  閩南語 白話字 (POJ)
+              # nan_tl   閩南語 臺羅 (TL) : 臺灣閩南語羅馬字拼音方案
+              # nan_wp   zh-min-nan.wikipedia.org 閩南語 白話字 (POJ)
+            }
+            
             for my $fg (@{$label->{form_groups}}) {
               if ($lang eq 'ja_latin' or
                   $lang eq 'ja_latin_old' or
@@ -1224,8 +1237,10 @@ sub compute_form_group_ons ($) {
                 next;
               }
               
-              if (($lang eq 'nan' or $lang eq 'pinyin' or
-                   $lang eq 'zh_alalc') and
+              if (($lang eq 'nan_poj' or $lang eq 'nan_tl' or
+                   $lang eq 'pinyin' or
+                   $lang eq 'zh_alalc' or
+                   $lang eq 'sinkan') and
                   not defined $rep->{abbr}) {
                 if ($fg->{form_group_type} eq 'han') {
                   $value = $fg;
@@ -1235,7 +1250,9 @@ sub compute_form_group_ons ($) {
                 next;
               }
 
-              if ($lang eq 'vi' or $lang eq 'vi_latin') {
+              if ($lang eq 'vi' or
+                  $lang eq 'vi_latin' or
+                  $lang eq 'vi_old') {
                 if ($fg->{form_group_type} eq 'han') {
                   my $mergeable = 0;
                   for my $fs (@{$fg->{form_sets}}) {
@@ -1243,6 +1260,13 @@ sub compute_form_group_ons ($) {
                       if ($fs->{form_set_type} eq 'vietnamese' and
                           defined $fs->{vi}) {
                         if ($rep->{value} eq serialize_segmented_text $fs->{vi}) {
+                          $value_added = $v_added = 1;
+                          next REP;
+                        }
+                      }
+                      if ($fs->{form_set_type} eq 'vietnamese' and
+                          defined $fs->{vi_old}) {
+                        if ($rep->{value} eq serialize_segmented_text $fs->{vi_old}) {
                           $value_added = $v_added = 1;
                           next REP;
                         }
@@ -1304,7 +1328,9 @@ sub compute_form_group_ons ($) {
                 $lang eq 'ja_latin_old' or
                 $lang eq 'ja_latin_old_wrong') {
               $value->{form_group_type} = 'ja' if not $value_added;
-            } elsif ($lang eq 'vi' or $lang eq 'vi_latin') {
+            } elsif ($lang eq 'vi' or
+                     $lang eq 'vi_latin' or
+                     $lang eq 'vi_old') {
               if ($lang eq 'vi') {
                 my $v = [split /\s+/, $rep->{value}, -1];
                 my $w = [map { to_nfc ucfirst lc $_ } grep { length } @$v];
@@ -1314,12 +1340,16 @@ sub compute_form_group_ons ($) {
               }
               $value->{form_group_type} = 'vi' if not $value_added;
               $v->{form_set_type} = 'vietnamese';
-              $lang = 'vi';
-            } elsif ($lang eq 'nan' or $lang eq 'pinyin' or
+              $lang = 'vi' if $lang eq 'vi_latin';
+            } elsif ($lang eq 'nan_poj' or $lang eq 'nan_tl' or
+                     $lang eq 'pinyin' or
                      $lang eq 'zh_alalc') {
               $value->{form_group_type} = 'han' if not $value_added;
               $v->{form_set_type} = 'chinese';
-              $lang = 'nan_poj' if $lang eq 'nan';
+            } elsif ($lang eq 'sinkan') {
+              $value->{form_group_type} = 'han' if not $value_added;
+              $v->{form_set_type} = 'sinkan';
+              $v->{origin_lang} = 'zh';
             } else {
               $value->{form_group_type} = 'alphabetical' if not $value_added;
               if ($lang eq 'fr_ja') {
@@ -1354,7 +1384,7 @@ sub compute_form_group_ons ($) {
                 die "Unknown abbr type |$rep->{abbr}|";
               }
             } else { # not abbr
-              if ($lang eq 'nan_poj') {
+              if ($lang eq 'nan_poj' or $lang eq 'nan_tl') {
                 $w = [map { $_ eq '-' ? '.-' : $_ } map { split /(-)/, $_ } @$w];
               } elsif ($lang eq 'pinyin') {
                 my $matched = 0;
@@ -1401,7 +1431,8 @@ sub compute_form_group_ons ($) {
               $v = $value->{form_sets}->[-1];
               $v_added = 1;
             } elsif ($v->{form_set_type} eq 'chinese' and
-                     ($lang eq 'nan_poj' or $lang eq 'pinyin' or
+                     ($lang eq 'nan_poj' or $lang eq 'nan_tl' or
+                      $lang eq 'pinyin' or
                       $lang eq 'alalc')) {
               for my $fs (@{$value->{form_sets}}) {
                 if ($fs->{form_set_type} eq 'chinese') {
@@ -1575,7 +1606,10 @@ sub compute_form_group_ons ($) {
             }
             $value->{form_group_type} = 'han' unless $value_added;
 
-            my $lang = 'bopomofo';
+            my $lang = {
+              zh => 'bopomofo',
+              nan => 'nan_bopomofo',
+            }->{$rep->{lang}} // die $rep->{lang};
             for my $fs (@{$value->{form_sets}}) {
               if ($fs->{form_set_type} eq 'chinese' and
                   not defined $fs->{$lang}) {
@@ -1587,8 +1621,8 @@ sub compute_form_group_ons ($) {
 
             $v->{form_set_type} = 'chinese';
             my $w = [map {
-              $_ =~ /\s/ ? '._' : $_;
-            } split /(\s+)/, $rep->{value}];
+              $_ =~ /\s/ ? '._' : $_ eq '|' ? () : $_;
+            } split /(\s+|\|)/, $rep->{value}];
             $v->{$lang} = $w;
             $v->{segment_length} = segmented_text_length $w;
           } elsif ($rep->{type} eq 'kana') {
@@ -1601,9 +1635,11 @@ sub compute_form_group_ons ($) {
             $value->{form_group_type} = 'han' unless $value_added;
 
             my $lang = $rep->{lang};
+            $lang = 'vi_kana' if $lang eq 'vi_old';
             die "Unknown lang |$lang|" unless $lang eq 'vi_kana';
-            
-            my $w = [map { /\s|\|/ ? '._' : $_ } split /(\s+|\|)/, $rep->{value}];
+
+            use utf8;
+            my $w = [map { /\s|\|/ ? '._' : $_ eq '・' ? '.・' : $_ } split /(\s+|\||・)/, $rep->{value}];
             $v->{segment_length} = segmented_text_length $w;
             
             for my $fs (@{$value->{form_sets}}) {
@@ -1612,7 +1648,7 @@ sub compute_form_group_ons ($) {
                   $fs->{segment_length} == $v->{segment_length}) {
                 $v = $fs;
                 $v_added = 1;
-                last;
+                #last; # use last match
               }
             }
 
@@ -1874,7 +1910,7 @@ sub compute_form_group_ons ($) {
               } elsif ($fs->{form_set_type} eq 'chinese') {
                 fill_chinese $fs;
 
-                for my $lang (qw(pinyin nan_poj)) {
+                for my $lang (qw(pinyin nan_poj nan_tl)) {
                   if (defined $fs->{$lang} and
                           (not defined $era->{_SHORTHANDS}->{name_latn})) {
                     my $v = serialize_segmented_text $fs->{$lang};
@@ -1923,7 +1959,8 @@ sub compute_form_group_ons ($) {
               'korean' . $; . 'vi' => 'han_301',
               'alphabetical' . $; . 'vi' => 'han_302',
               'korean' . $; . '' => 'han_400',
-              'alphabetical' . $; . '' => 'han_500',
+              'sinkan' . $; . 'zh' => 'han_500',
+              'alphabetical' . $; . '' => 'han_600',
             };
             $text->{form_sets} = [sort {
               ($fst->{$a->{form_set_type}, $a->{origin_lang} // ''} || 0) cmp ($fst->{$b->{form_set_type}, $b->{origin_lang} // ''} || 0);

@@ -119,10 +119,13 @@ print q{<!DOCTYPE html>
   .form-type-en_others td,
   .form-type-fr td,
   .form-type-nan_poj td,
+  .form-type-nan_tl td,
   .form-type-ja_latin td,
   .form-type-ja_latin_old td,
   .form-type-ja_latin_old_wrongs td,
-  .form-type-vi td {
+  .form-type-sinkan td,
+  .form-type-vi td,
+  .form-type-vi_old td {
     font-size: 140%;
   }
 
@@ -181,6 +184,7 @@ print q{<!DOCTYPE html>
   .form-type-po_capital td,
   .form-type-bopomofo td,
   .form-type-bopomofo_zuyntn td,
+  .form-type-nan_bopomofo td,
   .form-type-zh_alalc td,
   .form-type-pinyin td,
   .form-type-pinyin_upper td,
@@ -189,9 +193,15 @@ print q{<!DOCTYPE html>
   .form-type-nan_poj_upper td,
   .form-type-nan_poj_lower td,
   .form-type-nan_poj_capital td,
+  .form-type-nan_tl_upper td,
+  .form-type-nan_tl_lower td,
+  .form-type-nan_tl_capital td,
   .form-type-vi_upper td,
   .form-type-vi_lower td,
   .form-type-vi_capital td,
+  .form-type-vi_old_upper td,
+  .form-type-vi_old_lower td,
+  .form-type-vi_old_capital td,
   .form-type-vi_katakana td,
   .form-type-kr_fukui td,
   .form-type-kp_fukui td,

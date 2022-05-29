@@ -1,0 +1,34 @@
+# y~20 AD
+# + tag 1022 #台湾
+# - tag 1249 #澎湖諸島
+# - tag 1250 #基隆
+# - tag 1359 #起事建元
+# <https://data.suikawiki.org/tag/1022/graph?sequence=20%2B1022-1249-1250-1359>
+# g:1624-12-31+0 y~20 wartime
+mjd:-85422 AD
+# g:1661-05-04+1 y~1684 wartime
+mjd:-72148 永曆(丁亥)
+# g:1683-11-17+1 y~757 wartime
+mjd:-63916 康熙
+# g:1723-02-05+0 y~1548 firstday
+mjd:-49593 雍正
+# g:1736-02-12+0 y~860 firstday
+mjd:-44838 乾隆
+# g:1796-02-09+0 y~1639 firstday
+mjd:-22926 嘉慶(丙辰)
+# g:1821-02-03+0 y~687 firstday
+mjd:-13801 道光
+# g:1851-02-01+0 y~738 firstday
+mjd:-2846 咸豐
+# g:1862-01-30+0 y~1292 firstday
+mjd:1170 同治
+# g:1875-02-06+0 y~681 firstday
+mjd:5925 光緒
+# g:1895-06-22+0 y~1 commenced
+mjd:13366 明治
+# g:1912-07-30+0 y~2 firstday
+mjd:19613 大正
+# g:1926-12-25+0 y~3 firstday
+mjd:24874 昭和
+# g:1945-10-25+0 y~971 wartime
+mjd:31753 民國
