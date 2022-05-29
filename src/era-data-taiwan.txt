@@ -436,6 +436,7 @@ tag 大日本帝国台湾
 tag 漢民族
 tag 清国人
 tag 清
+tag 属国元号
 
 %tag country
 %tag   name_ja 台湾民主国

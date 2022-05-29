@@ -3786,6 +3786,12 @@ tag 雍正帝
 <-康熙 清:1722-11-辛丑 #年始改元決定{#清 #雍正帝}
 <-康熙 清:1723-1-1 g:1723-2-5 #年始改元実施{#清 #雍正帝}
 
+#sw 新港文書の日付表示
+name(sinkan) joung|sing
+name(sinkan) ioung|sing
+name(sinkan) Iŭong sing
+name(sinkan) Ioug|sing
+
 ## [158]
 #1723-02-05
 
@@ -3804,6 +3810,10 @@ name_mn %E1%A0%A8%E1%A0%A2%E1%A0%B6%E1%A0%A2%E1%A0%B7%E1%A0%A0%E1%A0%AF%E1%A0%B2
 #mn ナイラルト・トゥブ,nayiraltu tub
 ## [106]
 #man h{umacron}waliyasun tob
+
+&
+#sw 新港文書の日付表示
+name(sinkan) sing
 
 [乾隆]
 #y~860
@@ -3854,6 +3864,17 @@ u 61
 
 u 64
 
+#sw 新港文書の日付表示
+name(sinkan) chian|liong
+name(sinkan) chiam|liong
+name(sinkan) chian|lioung
+name(sinkan) chian|lliung
+name(sinkan) chian|ling
+name(sinkan) chian lioúng
+name(sinkan) khian|ling
+name(sinkan) khian|lliong
+name(sinkan) khian|liong
+
 ## [158]
 # 1736-02-12
 
@@ -3875,6 +3896,10 @@ u 64
 #mn テンゲリーン・テトゲセン,tegri-yin tedkugsen
 ## [106]
 #man abkai wehiyehe
+
+&
+#sw 新港文書の日付表示
+name(sinkan) chian
 
 [嘉慶(丙辰)]
 #y~1639
@@ -3904,6 +3929,11 @@ tag 君主名の元号
 %tag person
 %tag   name_ja 嘉慶帝
 tag 嘉慶帝
+
+#sw 新港文書の日付表示
+name(sinkan) ka|king
+name(sinkan) ka|hing
+name(sinkan) cka chking
 
 ## [120] <https://zh.wikisource.org/wiki/%E6%B8%85%E5%8F%B2%E7%A8%BF/%E5%8D%B716>
 

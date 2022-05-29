@@ -123,7 +123,9 @@ print q{<!DOCTYPE html>
   .form-type-ja_latin td,
   .form-type-ja_latin_old td,
   .form-type-ja_latin_old_wrongs td,
-  .form-type-vi td {
+  .form-type-sinkan td,
+  .form-type-vi td,
+  .form-type-vi_old td {
     font-size: 140%;
   }
 
@@ -197,6 +199,9 @@ print q{<!DOCTYPE html>
   .form-type-vi_upper td,
   .form-type-vi_lower td,
   .form-type-vi_capital td,
+  .form-type-vi_old_upper td,
+  .form-type-vi_old_lower td,
+  .form-type-vi_old_capital td,
   .form-type-vi_katakana td,
   .form-type-kr_fukui td,
   .form-type-kp_fukui td,

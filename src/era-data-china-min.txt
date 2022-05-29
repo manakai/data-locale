@@ -1304,6 +1304,10 @@ wref_ja 嘉靖
 ## <https://www.loc.gov/catdir/cpso/romanization/chinese.pdf#page=8>
 name(zh_alalc) Jia|jing
 
+tag 安南国の歴史
+#XXXprefix 大明 name(vi_old) Đại Minh ダイミン
+name(vi_old) Gia Tĩnh ザー|ティン
+
 tag 再開元号の中断中
 
 

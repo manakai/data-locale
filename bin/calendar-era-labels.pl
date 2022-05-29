@@ -741,7 +741,7 @@ sub compute_form_group_ons ($) {
     for my $lang ('en',
                   'la', 'en_la', 'en_la_roman',
                   'it', 'fr', 'es', 'po',
-                  'vi',
+                  'vi', 'vi_old',
                   'nan_poj', 'nan_tl', 'pinyin',
                   'ja_latin', 'ja_latin_old') {
       if (defined $fs->{$lang}) {
@@ -1239,7 +1239,8 @@ sub compute_form_group_ons ($) {
               
               if (($lang eq 'nan_poj' or $lang eq 'nan_tl' or
                    $lang eq 'pinyin' or
-                   $lang eq 'zh_alalc') and
+                   $lang eq 'zh_alalc' or
+                   $lang eq 'sinkan') and
                   not defined $rep->{abbr}) {
                 if ($fg->{form_group_type} eq 'han') {
                   $value = $fg;
@@ -1249,7 +1250,9 @@ sub compute_form_group_ons ($) {
                 next;
               }
 
-              if ($lang eq 'vi' or $lang eq 'vi_latin') {
+              if ($lang eq 'vi' or
+                  $lang eq 'vi_latin' or
+                  $lang eq 'vi_old') {
                 if ($fg->{form_group_type} eq 'han') {
                   my $mergeable = 0;
                   for my $fs (@{$fg->{form_sets}}) {
@@ -1257,6 +1260,13 @@ sub compute_form_group_ons ($) {
                       if ($fs->{form_set_type} eq 'vietnamese' and
                           defined $fs->{vi}) {
                         if ($rep->{value} eq serialize_segmented_text $fs->{vi}) {
+                          $value_added = $v_added = 1;
+                          next REP;
+                        }
+                      }
+                      if ($fs->{form_set_type} eq 'vietnamese' and
+                          defined $fs->{vi_old}) {
+                        if ($rep->{value} eq serialize_segmented_text $fs->{vi_old}) {
                           $value_added = $v_added = 1;
                           next REP;
                         }
@@ -1318,7 +1328,9 @@ sub compute_form_group_ons ($) {
                 $lang eq 'ja_latin_old' or
                 $lang eq 'ja_latin_old_wrong') {
               $value->{form_group_type} = 'ja' if not $value_added;
-            } elsif ($lang eq 'vi' or $lang eq 'vi_latin') {
+            } elsif ($lang eq 'vi' or
+                     $lang eq 'vi_latin' or
+                     $lang eq 'vi_old') {
               if ($lang eq 'vi') {
                 my $v = [split /\s+/, $rep->{value}, -1];
                 my $w = [map { to_nfc ucfirst lc $_ } grep { length } @$v];
@@ -1328,12 +1340,16 @@ sub compute_form_group_ons ($) {
               }
               $value->{form_group_type} = 'vi' if not $value_added;
               $v->{form_set_type} = 'vietnamese';
-              $lang = 'vi';
+              $lang = 'vi' if $lang eq 'vi_latin';
             } elsif ($lang eq 'nan_poj' or $lang eq 'nan_tl' or
                      $lang eq 'pinyin' or
                      $lang eq 'zh_alalc') {
               $value->{form_group_type} = 'han' if not $value_added;
               $v->{form_set_type} = 'chinese';
+            } elsif ($lang eq 'sinkan') {
+              $value->{form_group_type} = 'han' if not $value_added;
+              $v->{form_set_type} = 'sinkan';
+              $v->{origin_lang} = 'zh';
             } else {
               $value->{form_group_type} = 'alphabetical' if not $value_added;
               if ($lang eq 'fr_ja') {
@@ -1619,9 +1635,11 @@ sub compute_form_group_ons ($) {
             $value->{form_group_type} = 'han' unless $value_added;
 
             my $lang = $rep->{lang};
+            $lang = 'vi_kana' if $lang eq 'vi_old';
             die "Unknown lang |$lang|" unless $lang eq 'vi_kana';
-            
-            my $w = [map { /\s|\|/ ? '._' : $_ } split /(\s+|\|)/, $rep->{value}];
+
+            use utf8;
+            my $w = [map { /\s|\|/ ? '._' : $_ eq '・' ? '.・' : $_ } split /(\s+|\||・)/, $rep->{value}];
             $v->{segment_length} = segmented_text_length $w;
             
             for my $fs (@{$value->{form_sets}}) {
@@ -1630,7 +1648,7 @@ sub compute_form_group_ons ($) {
                   $fs->{segment_length} == $v->{segment_length}) {
                 $v = $fs;
                 $v_added = 1;
-                last;
+                #last; # use last match
               }
             }
 
@@ -1941,7 +1959,8 @@ sub compute_form_group_ons ($) {
               'korean' . $; . 'vi' => 'han_301',
               'alphabetical' . $; . 'vi' => 'han_302',
               'korean' . $; . '' => 'han_400',
-              'alphabetical' . $; . '' => 'han_500',
+              'sinkan' . $; . 'zh' => 'han_500',
+              'alphabetical' . $; . '' => 'han_600',
             };
             $text->{form_sets} = [sort {
               ($fst->{$a->{form_set_type}, $a->{origin_lang} // ''} || 0) cmp ($fst->{$b->{form_set_type}, $b->{origin_lang} // ''} || 0);
