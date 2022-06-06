@@ -1076,6 +1076,11 @@ action
   group of 名誤伝発生
 
 action
+  name_ja 年名誤伝発生
+  group of 年誤伝発生
+  group of 名誤伝発生
+
+action
   name_ja 年号銭誤認
   group of 誤伝発生
 
