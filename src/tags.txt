@@ -293,6 +293,10 @@ action
   name_ja 停戦協定締結
   group of 和約締結
 
+action
+  name_ja 講和条約締結
+  group of 和約締結
+
 law
   name_ja 登極令
 
@@ -559,6 +563,10 @@ action
   name_ja 発効
 
 action
+  name_ja 批准発効
+  group of 発効
+
+action
   name_ja 利用開始
 
 action
@@ -791,6 +799,7 @@ action
   name_ja 講和条約発効割譲
   group of 和約締結
   group of 割譲
+  group of 発効
   group of 戦時異動
 
 action
@@ -1061,6 +1070,14 @@ action
   name_ja 名誤伝発生
   group of 誤伝発生
   group of 名異説発生
+
+action
+  name_ja 名旧説発生
+  group of 名誤伝発生
+
+action
+  name_ja 年号銭誤認
+  group of 誤伝発生
 
 tag
   name_ja 年始

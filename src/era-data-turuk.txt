@@ -30,6 +30,10 @@
 %tag   name_cn 吐鲁番
 %tag   region of ウイグル
 
+%tag region
+%tag   name_ja 哈密
+%tag   region of 東トルキスタン
+
 %tag people
 %tag   name_ja 丁零
 %tag   group of トゥルク人

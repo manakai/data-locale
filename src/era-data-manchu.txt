@@ -3421,6 +3421,7 @@ tag 後金の公年号
 tag 清の公年号
 tag 明
 tag 明領朝鮮
+tag 明清交替期
 
 %tag person
 %tag   name_ja ヌルハチ
@@ -3467,6 +3468,7 @@ tag 清の公年号
 tag 明
 tag 明領朝鮮
 tag 清領朝鮮
+tag 明清交替期
 name_tw 天命
 name_cn 天命
 name_ja 天命
@@ -3494,6 +3496,7 @@ tag 後金の公年号
 tag 清の公年号
 tag 朝鮮人
 tag 明領朝鮮
+tag 明清交替期
 name_tw 天命
 name_cn 天命
 name_ja 天命
@@ -3524,6 +3527,7 @@ tag 東洋式即位紀年
 #     AD1636
 tag 内蒙古
 tag 蒙古人
+tag 明清交替期
 
 tag 君主名の元号
 tag ホンタイジ
@@ -3589,6 +3593,7 @@ tag 内蒙古
 tag 蒙古人
 tag 漢土
 tag 漢民族
+tag 明清交替期
 
 %tag person
 %tag   name_ja ホンタイジ
@@ -3631,6 +3636,9 @@ name_mn %E1%A0%B3%E1%A0%A1%E1%A0%AD%E1%A0%A1%E1%A0%B3%E1%A0%A6 %E1%A0%A1%E1%A0%B
 
 [順治]
 #y~502
+
+sw 順治
+
 name_tw 順治
 name_cn 顺治
 AD1644 = 1
@@ -3644,6 +3652,7 @@ tag 漢土
 tag 漢民族
 tag 清領朝鮮
 tag 朝鮮人
+tag 明清交替期
 
 %tag person
 %tag   name_ja 順治帝
@@ -3652,6 +3661,10 @@ tag 一世一元
 tag 君主名の元号
 
 #<-永昌(甲申) y~314 1643-04 順 dup
+
+#XXXprefix 大明
+
+tag 年号銭
 
 ## [120] <https://zh.wikisource.org/wiki/%E6%B8%85%E5%8F%B2%E7%A8%BF/%E5%8D%B74>
 <-崇德 清:1643-8-庚午 #改元前の死去{#清 #ホンタイジ}
@@ -3678,6 +3691,14 @@ name_mn %E1%A0%A1%E1%A0%B6%E1%A0%A1%E1%A0%B7%E1%A0%A1%E1%A0%B7%E1%A0%A2 %E1%A0%B
 ## [106]
 #man ijish{umacron}n dasan
 
+#sw 元号名
+name(es_old_zh) Xun|chi
+
+&
+#sw 順清
+name_ja 順清
+tag 華夷変態
+
 [康熙]
 #y~757
 name_tw 康熙
@@ -3699,6 +3720,7 @@ tag 清領朝鮮
 tag 朝鮮人
 tag 清領台湾
 tag 台湾人
+tag 明清交替期
 
 %tag person
 %tag   name_ja 康熙帝
@@ -3751,6 +3773,8 @@ name_mn %E1%A0%A1%E1%A0%A9%E1%A0%AC%E1%A0%A1 %E1%A0%A0%E1%A0%AE%E1%A0%A4%E1%A0%A
 ## [106]
 #man elhe taifin
 
+tag 官方紀年 (官民異調:清代臺灣紀年)
+
 [雍正]
 #y~1548
 name_tw 雍正
@@ -3786,11 +3810,16 @@ tag 雍正帝
 <-康熙 清:1722-11-辛丑 #年始改元決定{#清 #雍正帝}
 <-康熙 清:1723-1-1 g:1723-2-5 #年始改元実施{#清 #雍正帝}
 
+tag シラヤ族
+tag 新港語
+tag 新港文書
 #sw 新港文書の日付表示
 name(sinkan) joung|sing
 name(sinkan) ioung|sing
 name(sinkan) Iŭong sing
 name(sinkan) Ioug|sing
+
+tag 官方紀年 (官民異調:清代臺灣紀年)
 
 ## [158]
 #1723-02-05
@@ -3864,6 +3893,11 @@ u 61
 
 u 64
 
+tag 官方紀年 (官民異調:清代臺灣紀年)
+
+tag シラヤ族
+tag 新港語
+tag 新港文書
 #sw 新港文書の日付表示
 name(sinkan) chian|liong
 name(sinkan) chiam|liong
@@ -3930,6 +3964,9 @@ tag 君主名の元号
 %tag   name_ja 嘉慶帝
 tag 嘉慶帝
 
+tag シラヤ族
+tag 新港語
+tag 新港文書
 #sw 新港文書の日付表示
 name(sinkan) ka|king
 name(sinkan) ka|hing
@@ -3955,6 +3992,8 @@ name_mn %E1%A0%B0%E1%A0%A0%E1%A0%B6%E1%A0%A2%E1%A0%B0%E1%A0%A2%E1%A0%B6%E1%A0%A0
 #mn サイシャールタイ・ユルールト,sayisiyatai irugeltu
 ## [106]
 #man saicungga feng{scaron}en
+
+tag 官方紀年 (官民異調:清代臺灣紀年)
 
 [道光]
 #y~687
@@ -3987,6 +4026,8 @@ tag 道光帝
 
 tag 香港
 ->AD [g:1842] #清 #英国 #英領香港 #戦時異動
+
+tag 官方紀年 (官民異調:清代臺灣紀年)
 
 ## [120] <https://zh.wikisource.org/wiki/%E6%B8%85%E5%8F%B2%E7%A8%BF/%E5%8D%B717>
 <-嘉慶(丙辰) 清:1820-7-己卯 #清 #嘉慶帝 #改元前の死去
@@ -4035,6 +4076,8 @@ tag 朝鮮人
 tag 清領台湾
 tag 清領澎湖諸島
 tag 台湾人
+
+tag 官方紀年 (官民異調:清代臺灣紀年)
 
 ## [103]
 wref_ja 咸豊
@@ -4107,6 +4150,8 @@ tag 清
 tag 旧説
 tag 実施中止
 
+tag 官方紀年 (官民異調:清代臺灣紀年)
+
 [祺祥]
 #y~162
 name_tw 祺祥
@@ -4139,6 +4184,8 @@ tag 実施中止
 wref_ja 祺祥
 name_ja 祺祥
 name_kana き しょう
+
+tag 官方紀年 (官民異調:清代臺灣紀年)
 
 &
 ## [158]
@@ -4200,6 +4247,8 @@ name_mn %E1%A0%AA%E1%A0%A6%E1%A0%B7%E1%A0%A2%E1%A0%A8 %E1%A0%B5%E1%A0%A0%E1%A0%B
 
 ## [158]
 # 1862-01-30
+
+tag 官方紀年 (官民異調:清代臺灣紀年)
 
 [光緒]
 #y~681
@@ -4289,11 +4338,18 @@ tag マカオ
 ->明治 g:1895-3-23 #開戦{#大日本帝国, #清領澎湖諸島} #日清戦争 #事由
 ->明治 g:1895-3-26 #陥落{#大日本帝国, #清領澎湖諸島} #日清戦争
 ->明治 g:1895-5-8 #講和条約発効割譲{#清 #清領澎湖諸島, #大日本帝国}
-    #日清戦争 #下関条約
+    #日清戦争 #下関条約 #大日本帝国台湾 #批准発効
 ->明治 g:1895-5-8 #講和条約発効割譲{#清 #清領台湾, #大日本帝国}
-    #日清戦争 #下関条約 #大日本帝国台湾
+    #日清戦争 #下関条約 #大日本帝国台湾 #批准発効
 ->明治 g:1895-5-8 #講和条約発効割譲{#清 #関東州, #大日本帝国}
-    #日清戦争 #下関条約 #大日本帝国台湾
+    #日清戦争 #下関条約 #批准発効
+
+tag 官方紀年 (官民異調:清代臺灣紀年)
+
+tag 台湾
+tag 大日本帝国台湾
+tag 台湾民主国
+tag 劉永福
 
 ## <https://www.loc.gov/catdir/cpso/romanization/chinese.pdf#page=8>
 name(zh_alalc) Guang|xu

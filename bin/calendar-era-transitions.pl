@@ -421,7 +421,8 @@ sub year_start_jd ($$) {
        $tag_ids->{1009} or # 漢土
        $tag_ids->{1012} or # 朝鮮
        $tag_ids->{2084}) and # 越南
-      not $tag_ids->{1344}) { # グレゴリオ暦
+      not $tag_ids->{1344} and # グレゴリオ暦
+      not $tag_ids->{3184}) { # 旧暦
     if ($y >= 1912) {
       push @jd, nymmd2jd '中華民国', $y, 1, 0, 1;
     } elsif ($y >= 1645+1) {
@@ -645,7 +646,8 @@ sub ssday ($$) {
     #// die "No kyuureki date for ($y, $m, $d)";
     if (not $tag_ids->{1344} and # グレゴリオ暦
         defined $k and $k =~ m{^(-?[0-9]+)}) {
-      die "($y, $m, $d) $1, $day->{year}; ", perl2json_bytes $tag_ids
+      die "($y, $m, $d) [$k]$1, $day->{year}; ", (perl2json_bytes $tag_ids),
+          Carp::longmess
           if defined $day->{year} and $day->{year} != $1;
       $day->{year} = 0+$1;
     }
@@ -1065,7 +1067,9 @@ ERA: for my $era (sort { $a->{id} <=> $b->{id} } values %$Eras) {
       }
     }
     
-    copy_transition_tags $x => $w;
+    copy_transition_tags $x => $w
+        unless $x->{tag_ids}->{1338} or # 通知受領
+               $x->{tag_ids}->{1337}; # 通知発出
     set_object_tag $w, '日本朝廷改元年始'
         if $x->{tag_ids}->{1325}; # 日本朝廷改元日
     push @$prev_eras, @{$_->[0]};

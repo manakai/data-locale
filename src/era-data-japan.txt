@@ -323,6 +323,9 @@
 %tag   group of 崩御
 %tag   group of 改元前の死去
 
+%tag calendar
+%tag   name_ja 旧暦
+
 [神功皇后摂政]
 tag 称制紀年
 
@@ -569,9 +572,25 @@ name(ja_latin_old) QEICHO
 [元和]
 sw 元和
 
+tag 明清交替期
+
 name 元咊
 
 <-元和(丙戌) k:1615-7-13 #元号名再利用
+
+[寛永]
+
+tag 明清交替期
+
+[正保]
+
+tag 明清交替期
+
+[慶安]
+
+tag 明清交替期
+source
+  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
 
 [明和]
 
@@ -583,9 +602,6 @@ AD1764 = 1
 #4ヶ月延期された。"
 #XXX
 
-[慶安]
-source
-  url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
 [承応]
 source
   url:http://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_02478_0051/index.html
