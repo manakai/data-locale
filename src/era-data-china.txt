@@ -110,6 +110,10 @@
 %tag   region of 漢土
 
 %tag region
+%tag   name_ja 泰州
+%tag   region of 中支
+
+%tag region
 %tag   name_ja 晋
 %tag   region of 漢土
 

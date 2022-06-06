@@ -6,6 +6,7 @@
 %tag country
 %tag   name_ja 明
 %tag   period of 中国
+#XXXprefix 皇明
 
 %tag tag
 %tag   name_ja 明の公年号
@@ -78,6 +79,9 @@ name_kana ご おう
 
 [洪武]
 #y~127
+
+sw 洪武
+
 AD1368 = 1
 tag 明
 tag 明の公年号
@@ -1609,6 +1613,7 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 明清交替期
 
 %tag person
 %tag   name_ja 万暦帝
@@ -1662,6 +1667,7 @@ tag 明領澎湖諸島
 AD1619 = 1
 
 tag 明
+tag 明清交替期
 
 %tag person
 %tag   name_ja 李文
@@ -1686,6 +1692,7 @@ AD1619 = 1
 tag 異説
 
 tag 明
+tag 明清交替期
 
 tag 李文
 
@@ -1735,6 +1742,7 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 明清交替期
 
 %tag person
 %tag   name_ja 泰昌帝
@@ -1781,6 +1789,7 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 明清交替期
 
 tag 泰昌帝
 tag 君主名の元号
@@ -1812,6 +1821,11 @@ name_ja 泰昌
 name_kana たい しょう
 wref_ja 泰昌
 
+#sw 元号名
+name(es_old_zh) Tai|cam
+name(fr_old_zh) Thai|cam
+name(en_old_zh) Thai|cam
+
 tag 再開元号の中断中
 
 tag 明領澎湖諸島
@@ -1825,6 +1839,7 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 明清交替期
 
 %tag person
 %tag   name_ja 天啓帝
@@ -1862,6 +1877,10 @@ tag 明領澎湖諸島
 ->AD g:1622-8-2 #陥落{#オランダ, #明領澎湖諸島} #蘭領澎湖諸島
 <-AD [g:1624-9] #陥落{#明, #蘭領澎湖諸島} #明領澎湖諸島
 
+#sw 元号名
+name(es_old_zh) Hien|chi
+name(fr_old_zh) Thien|chi
+name(en_old_zh) Thien|chi
 
 [瑞應]
 #y~47
@@ -1870,6 +1889,7 @@ AD1621 = 1
 
 tag 明
 tag 四川
+tag 明清交替期
 
 %tag country
 %tag   label_ja 梁 (奢崇明)
@@ -1940,6 +1960,7 @@ AD1622 = 1
 
 tag 明
 tag 漢土
+tag 明清交替期
 
 %tag person
 %tag   name_ja 万俟徳
@@ -1995,6 +2016,7 @@ AD1622 = 1
 
 tag 明
 tag 漢土
+tag 明清交替期
 
 %tag person
 %tag   name_ja 徐鴻儒
@@ -2076,6 +2098,7 @@ tag 明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 明清交替期
 
 %tag person
 %tag   name_ja 崇禎帝
@@ -2109,7 +2132,16 @@ wref_ja 崇禎
 ## [104]
 # 1628 - 明1644-03
 
+tag 華夷変態
 tag 再開元号の中断中
+
+tag 呉三桂
+
+#sw 元号名
+name(es_old_zh) Cun|chin
+name(es_old_zh) Kun|chim
+name(fr_old_zh) Zun|chin
+name(en_old_zh) Zun|chin
 
 &
 ## [102]
@@ -2136,6 +2168,9 @@ name(ko) 숭정후
 
 
 
+%tag source
+%tag   name_ja 華夷変態
+
 
 [永興(戊辰)]
 #y~1689
@@ -2144,6 +2179,7 @@ AD1628 = 1
 
 tag 明
 tag 広州
+tag 明清交替期
 
 %tag person
 %tag   name_ja 張惟元
@@ -2171,10 +2207,12 @@ tag 私年号 (ウィキペディア)
 
 
 
-
+%tag tag
+%tag   name_ja 明清交替期
 
 %tag tag
 %tag   name_ja 清初反清勢力
+%tag   group of 明清交替期
 
 def[義興]
 #y~518
@@ -2185,6 +2223,8 @@ sw 義興
 tag 明
 tag 漢土
 tag 漢民族
+tag 明清交替期
+
 %tag person
 %tag   name_ja 朱慈烺
 tag 朱慈烺
@@ -2267,6 +2307,11 @@ wref_ja 弘光
 ## [104]
 #1645-01 - 05
 
+#sw 元号名
+name(es_old_zh) Hun|guan
+name(fr_old_zh) Hun|guan
+name(en_old_zh) Hun|guan
+
 tag 再開元号の中断中
 
 def[弘光(甲申)]
@@ -2293,7 +2338,12 @@ s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%
 s+
 name 弘光
 
-<-崇禎 [明:1644-5-15(壬寅),明:1644] #支那改元日{#南明 #弘光帝} #旧説
+<-崇禎 明:1644-5-13 #建元前の即位{#南明 #弘光帝 #支那皇帝} #旧説
+<-崇禎 明:1644-5-13 #支那改元日{#南明 #弘光帝} #旧説
+<-崇禎 明:1644-5-15(壬寅) #支那改元日{#南明 #弘光帝} #旧説
+
+sw 弘光
+tag 華夷変態
 
 tag 再開元号の中断中
 
@@ -2348,6 +2398,35 @@ u 2-11-5
 ## [104]
 #1645-06' - 1646-08
 #明史 順治2-06'-丁未
+
+tag 華夷変態
+#XXXprefix 大明中興
+name(ja_old) リウ|フ
+
+#sw 元号名
+name(es_old_zh) Lum|vu
+name(fr_old_zh) Lum|vu
+name(en_old_zh) Lum|vu
+
+def[隆武(丙戌)]
+
+sw 隆武
+
+<-隆武 [明:1646,k:1732] #年誤伝発生 #明 #日本
+
+AD1646 = 1
+
+tag 南明
+tag 明の公年号
+tag 漢土
+tag 漢民族
+
+tag 隆武帝
+tag 君主名の元号
+tag 一世一元
+
+name 隆武
+tag 華夷変態
 
 def[紹武(丙戌)]
 #y~1832
@@ -2439,6 +2518,7 @@ name_kana かん こく ろ
 
 name_cn 监国鲁
 name_tw 監國魯
+name 監國魯
 &
 name_ja 監国
 name_cn 监国
@@ -2449,6 +2529,9 @@ name_tw 魯監國
 name_cn 鲁监国
 &
 name_ja 魯王監国
+name(ja_old) ロ|ワウ|カン|コク
+#ロワウカンコクノ三年 (魯王監国三年)
+
 tag 南明
 tag 漢土
 tag 漢民族
@@ -2510,6 +2593,13 @@ u 4
 
 name_ja 魯監国
 name_kana ろ かん こく
+&
+name(ja_old) ロ|ワウ|カン|コク
+#ロワウカンコクノ三年 (魯王監国三年)
+&
+name 監國魯
+
+tag 華夷変態
 
 def[魯王監國後]
 #y~1833
@@ -2642,6 +2732,7 @@ tag 南明
 tag 明の公年号
 tag 漢土
 tag 漢民族
+tag 貴州
 
 tag 君主名の元号
 tag 一世一元
@@ -2705,6 +2796,8 @@ name_kana えい れき
 ## [104]
 #1647 - 1661
 
+name 永歷
+
 tag 李氏朝鮮
 tag 朝鮮人
 u 200
@@ -2760,6 +2853,7 @@ AD1619 = 1
 tag 福建
 tag 漢民族
 tag 明
+tag 明清交替期
 
 %tag person
 %tag   name_ja 李新
@@ -2793,6 +2887,7 @@ tag 異説
 tag 福建
 tag 漢民族
 tag 明
+tag 明清交替期
 
 tag 李新
 
@@ -2808,6 +2903,7 @@ name_tw 弘武
 AD1635 = 1
 
 tag 明
+tag 明清交替期
 
 %tag person
 %tag   name_ja 高迎祥
@@ -2858,6 +2954,7 @@ tag 四川
 tag 漢民族
 tag 明
 tag 清
+tag 明清交替期
 
 tag 大西
 tag 張献忠
@@ -2998,6 +3095,8 @@ tag 李來亨
 # - 1664-8
 ->康熙 明:1664-8-4 #陥落{#清, #順_(李自成) #李來亨} #死去 #清
 
+tag 華夷変態
+
 [大順(甲申)]
 #y~169
 
@@ -3007,6 +3106,7 @@ tag 明
 tag 清
 tag 漢土
 tag 漢民族
+tag 明清交替期
 
 ## <https://zh.wikisource.org/wiki/%E6%98%8E%E5%8F%B2/%E5%8D%B7309>
 #<-崇禎 [1644,明:1644-11-庚寅] #張献忠 #成都 #大西 #大西皇帝 #支那改元日 #起事建元
@@ -3064,6 +3164,7 @@ name_tw 天順
 AD1637 = 1
 
 tag 明
+tag 明清交替期
 
 %tag person
 %tag   name_ja 張普薇
@@ -3107,6 +3208,8 @@ tag 漢民族
 tag 南明
 tag 大西
 tag 清
+tag 明清交替期
+
 %tag person
 %tag   name_ja  孫可望
 tag  孫可望
@@ -3129,17 +3232,6 @@ name_kana こう ちょう
 <-興朝,干支年 [清:1657] #孫可望 #南明 #清 #陥落
 
 
-def[周]
-#y~1865
-## Source:
-sw 周元年
-#
-name_ja 周
-name_tw 周
-&
-name_ja 周王
-name_tw 周王
-
 %tag country
 %tag   name_ja 呉周
 %tag   name_ja 周
@@ -3148,41 +3240,114 @@ name_tw 周王
 %tag   region of 漢土
 %tag   group of 清初反清勢力
 #XXX prefix 大周
+
+def[周]
+#y~1865
+## Source:
+sw 周元年
+
+AD1674 = 1
+
+name_ja 周
+name_tw 周
+&
+name_ja 周王
+name_tw 周王
+
 tag 呉周
 tag 国名即位紀年
 
+tag 南明
 tag 清
 tag 漢土
 tag 漢民族
-tag 呉三桂
-%tag tag
+
+%tag position
 %tag   name_ja 周王
-%tag   group of 王
-<-康熙 [清:1673-11] #呉周 #呉三桂 #即位 #周王 #清 #建元前の即位
-<-康熙 清:1674-1-1 #呉周 #呉三桂 #周王 #年始改元実施 #起事建元
-AD1674 = 1
+%tag   group of 王 (支那)
+tag 呉三桂
+
+<-康熙 ->周,昭武(甲寅) [清:1673-11] #建元前の即位{#呉周 #呉三桂 #周王} #清 
+<-康熙 清:1674-1-1 #年始改元実施{#呉周 #呉三桂} #起事建元
 u 5
+
+def[周啓]
+
+sw 周啓
+
+<-周 [明:1674,k:1674-6-6] #名誤伝発生 #呉周 #明 #日本
+
+AD1674 = 1
+
+tag 呉周
+tag 南明
+tag 清
+tag 漢土
+tag 漢民族
+
+tag 呉三桂
+
+%tag person
+%tag   name_ja 三太子
+tag 三太子
+
+tag 華夷変態
+
+name_ja 周啓
+#XXXname variants
+
+<-康熙 ->周啓,周咨 明:1674-1-1 #建元前の即位{#明 #三太子 #支那皇帝} #呉周
+    #清 #呉三桂 #旧説
+<-康熙 ->周啓,周咨 明:1674-1-1 #支那改元日{#明 #三太子} #呉周 #清 #呉三桂
+    #起事建元 #旧説
+#                             -寅刻
+
+def[周咨]
+
+sw 周咨
+
+name_tw 周咨
+name_cn 周咨
+
+<-周啓 [k:1674-6-6,g:1999-4-29] #名誤伝発生
+    #呉周 #明 #日本 #中華民国台湾 #中華人民共和国
+
+AD1674 = 1
+
+tag 呉周
+tag 南明
+tag 清
+tag 漢土
+tag 漢民族
+
+tag 呉三桂
+tag 三太子
 
 [昭武]
 #y~998
 ## Source:
 sw 昭武
 
+AD1678 = 1
+
 tag 呉周
+tag 南明
 tag 清
 tag 漢土
 tag 漢民族
 tag 呉三桂
-<-周 [清:1678-3] #建元前の即位{#呉周 #呉三桂 #支那皇帝}
-<-周 [清:1678-3] #支那改元日{#呉周 #呉三桂}
-AD1678 = 1
 
 tag 君主名の元号
 tag 一世一元
 
-->洪化,洪化(己未) 清:1678-8-15 #改元前の死去{#呉周 #呉三桂}
+<-周,周啓,周咨 明:1678-3-3 #建元前の即位{#呉周 #呉三桂 #支那皇帝} #清
+<-周,周啓,周咨 明:1678-3-3 #支那改元日{#呉周 #呉三桂} #清
+
+->洪化,洪化(己未) <-昭武,昭武(甲寅),利用 清:1678-8-15
+    #改元前の死去{#呉周 #呉三桂} #清
 #长沙
-->洪化,洪化(己未) [清:1678-8-15,清:1678-8] #建元前の即位{#呉周 #呉世璠 #支那皇帝}
+->洪化,洪化(己未) <-昭武,昭武(甲寅),利用 [清:1678-8-15,清:1678-8]
+    #建元前の即位{#呉周 #呉世璠 #支那皇帝} #清
 
 ## [102]
 # 1678-3 - 1678-12
@@ -3192,10 +3357,36 @@ name_ja 昭武
 name_kana しょう ぶ
 # 1678-3 - 1678-8
 
+tag 呉世璠
+
+#延宝7(1679)-2-23「一番普陀山船」風説書
+<-周 [清:1678-3,k:1679-2-23] #通知受領{, #日本} #呉周 #旧暦
+
+tag 年号銭
+
 tag 莫朝越南
 tag 北ベトナム
 tag ベトナム人
 tag 莫敬宇
+
+def[昭武(甲寅)]
+
+sw 昭武
+
+<-昭武 [清:1678-3,g:1900] #年誤伝発生 #清
+
+AD1674 = 1
+
+tag 呉周
+tag 清
+tag 漢土
+tag 漢民族
+tag 呉三桂
+
+tag 君主名の元号
+tag 一世一元
+
+name 昭武
 
 def[洪化]
 #y~147
@@ -3216,7 +3407,9 @@ tag 呉世璠
 tag 君主名の元号
 tag 一世一元
 
-<-昭武 [清:1678-8-15,清:1678-8] #支那改元日{#呉周 #呉世璠} #旧説
+tag 年号銭
+
+<-昭武,利用 [清:1678-8-15,清:1678-8] #支那改元日{#呉周 #呉世璠} #旧説
 AD1678 = 1
 
 tag 旧説
@@ -3249,13 +3442,25 @@ AD1679 = 1
 [利用]
 #y~88
 sw 呉三桂
+
+AD1673 = 1
+
+<-unknown [清:1673,清:1900] #年号銭誤認 #清 #呉周
+
 tag 呉三桂
 tag 呉周
 tag 漢土
 tag 漢民族
 tag 清初反清勢力
-tag 旧説
 wref_ja 昭武
+tag 年号銭
+
+<-康熙 [清:1673] #建元前の即位{#呉周 #呉三桂 #支那皇帝} #清 #旧説
+<-康熙 [清:1673] #建国{#呉周 #呉三桂} #清 #事由 #旧説
+<-康熙 [清:1673] #支那改元日{#呉周 #呉三桂} #清 #起事建元 #旧説
+
+tag 哈密
+
 
 [裕民]
 #y~718
@@ -3271,6 +3476,7 @@ tag 耿精忠
 tag 清初反清勢力
 
 tag 旧説
+tag 年号銭
 
 <-康熙 [清:1674-10] #耿精忠 #支那改元日 #清 #起事建元 #旧説
 AD1674 = 1

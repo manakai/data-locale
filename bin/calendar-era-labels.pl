@@ -57,7 +57,8 @@ for my $in_era (@$Eras) {
           '..' => '',
           ".'" => "'",
           '.-' => '-',
-        }->{$_} // die "Bad segment separator |$_|";
+          '.-?' => '',
+        }->{$_} // die "Bad segment separator |$_| (@$st)";
       } else {
         $_;
       }
@@ -108,6 +109,14 @@ for my $in_era (@$Eras) {
       (serialize_segmented_text_for_key $ss2)
     );
   } # equal_segmented_text
+
+  sub compare_segmented_text ($$;%) {
+    my ($ss1, $ss2) = @_;
+    my $s1 = join '', map { ref $_ ? @$_ : $_ } grep { not /^\./ } @$ss1;
+    my $s2 = join '', map { ref $_ ? @$_ : $_ } grep { not /^\./ } @$ss2;
+    return 1 if $s1 eq $s2;
+    return 0;
+  } # compare_segmented_text
 
   sub transform_segmented_text ($$) {
     my ($ss, $code) = @_;
@@ -741,8 +750,10 @@ sub compute_form_group_ons ($) {
     for my $lang ('en',
                   'la', 'en_la', 'en_la_roman',
                   'it', 'fr', 'es', 'po',
+                  'en_old', 'fr_old', 'es_old',
                   'vi', 'vi_old',
                   'nan_poj', 'nan_tl', 'pinyin',
+                  #XXX sinkan
                   'ja_latin', 'ja_latin_old') {
       if (defined $fs->{$lang}) {
         my $ss = $fs->{$lang};
@@ -1205,109 +1216,121 @@ sub compute_form_group_ons ($) {
               die "Bad source |$rep->{source}|";
             }
           } elsif ($rep->{type} eq 'alphabetical') {
-            my $w = [grep { length } map { $_ eq '|' ? '' : /\s+/ ? '._' : $_ } split /(\s+|\[[^\[\]]+\]|\|)/, $rep->{value}];
+            my $w = [grep { length } map { $_ eq '|' ? '' : $_ eq '-' ? '.-' : /\s+/ ? '._' : $_ } split /(\s+|\[[^\[\]]+\]|\||-)/, $rep->{value}];
             my $w_length = @{[grep { not /^\./ } @$w]};
             # $w and $w_length will be modified later
-            
             my $lang = $rep->{lang};
-            if ($lang eq 'nan_wp') {
-              $lang = 'nan_poj';
-              # nan_poj  閩南語 白話字 (POJ)
-              # nan_tl   閩南語 臺羅 (TL) : 臺灣閩南語羅馬字拼音方案
-              # nan_wp   zh-min-nan.wikipedia.org 閩南語 白話字 (POJ)
-            }
+            #$v->{_w_length} = $w_length;
             
-            for my $fg (@{$label->{form_groups}}) {
-              if ($lang eq 'ja_latin' or
-                  $lang eq 'ja_latin_old' or
-                  $lang eq 'ja_latin_old_wrongs') {
-                if ($fg->{form_group_type} eq 'han') {
-                  for my $fs (@{$fg->{form_sets}}) {
-                    if ($fs->{form_set_type} eq 'yomi') {
-                      if ($rep->{value} eq (join '', @{$fs->{ja_latin_capital}}) or
-                          $rep->{value} eq (join '', @{$fs->{ja_latin_upper}}) or
-                          $rep->{value} eq (join '', @{$fs->{ja_latin_lower}})) {
-                        $value_added = $v_added = 1;
-                        next REP;
-                      }
-                    }
-                  }
-                }
-
-                next;
-              }
-              
-              if (($lang eq 'nan_poj' or $lang eq 'nan_tl' or
-                   $lang eq 'pinyin' or
-                   $lang eq 'zh_alalc' or
-                   $lang eq 'sinkan') and
-                  not defined $rep->{abbr}) {
-                if ($fg->{form_group_type} eq 'han') {
-                  $value = $fg;
-                  $value_added = 1;
-                  last;
-                }
-                next;
-              }
-
-              if ($lang eq 'vi' or
-                  $lang eq 'vi_latin' or
-                  $lang eq 'vi_old') {
-                if ($fg->{form_group_type} eq 'han') {
-                  my $mergeable = 0;
-                  for my $fs (@{$fg->{form_sets}}) {
-                    if ($fs->{segment_length} == $w_length) {
-                      if ($fs->{form_set_type} eq 'vietnamese' and
-                          defined $fs->{vi}) {
-                        if ($rep->{value} eq serialize_segmented_text $fs->{vi}) {
-                          $value_added = $v_added = 1;
-                          next REP;
-                        }
-                      }
-                      if ($fs->{form_set_type} eq 'vietnamese' and
-                          defined $fs->{vi_old}) {
-                        if ($rep->{value} eq serialize_segmented_text $fs->{vi_old}) {
-                          $value_added = $v_added = 1;
-                          next REP;
-                        }
-                      }
-                      $mergeable = 1;
-                    }
-                  } # $fs
-                  if ($mergeable) {
-                    $value = $fg;
+            CHK: for my $fg (@{$label->{form_groups}}) {
+              my $mergeable = 0;
+              for my $fs (@{$fg->{form_sets}}) {
+                if ($fs->{form_set_type} eq 'vietnamese' and
+                    ($lang eq 'vi' or $lang eq 'vi_latin' or
+                     $lang eq 'vi_old') and
+                    defined $fs->{vi} and
+                    compare_segmented_text ($w, $fs->{vi})) {
+                  $value_added = $v_added = 1;
+                  next REP;
+                } elsif ($fs->{form_set_type} eq 'vietnamese' and
+                         ($lang eq 'vi' or $lang eq 'vi_latin' or
+                          $lang eq 'vi_old') and
+                         defined $fs->{vi_old} and
+                         compare_segmented_text ($w, $fs->{vi_old})) {
+                  if ($lang eq 'vi_old') {
+                    $value_added = $v_added = 1;
+                    next REP;
+                  } elsif (not defined $fs->{vi}) {
                     $value_added = 1;
+                    $value = $fg;
+                    $v_added = 1;
+                    $v = $fs;
+                    delete $fs->{vi_old};
+                    delete $fs->{vi_old_capital};
+                    delete $fs->{vi_old_upper};
+                    delete $fs->{vi_old_lower};
+                    last CHK;
                   }
+                } elsif ($fs->{form_set_type} eq 'chinese' and
+                         ($lang eq 'nan_poj' or
+                          $lang eq 'nan_wp' or
+                          $lang eq 'nan_tl' or
+                          $lang eq 'pinyin' or
+                          $lang eq 'alalc')) {
+                  if (not defined $fs->{$lang} and
+                      $fs->{segment_length} == $w_length) {
+                    $value_added = $v_added = 1;
+                    $v = $fs;
+                    last CHK;
+                  }
+                } elsif ($fs->{form_set_type} eq 'alphabetical' and
+                         $lang eq 'en_pinyin' and
+                         defined $fs->{en} and
+                         compare_segmented_text ($w, $fs->{en})) {
+                  if (defined $fs->{origin_lang} and
+                      $fs->{origin_lang} eq 'zh_pinyin') {
+                    $value_added = $v_added = 1;
+                    next REP;
+                  } elsif (not defined $fs->{origin_lang}) {
+                    $fs->{origin_lang} = 'zh_pinyin';
+                    $value_added = $v_added = 1;
+                    next REP;
+                  }
+                } elsif ($fs->{form_set_type} eq 'alphabetical' and
+                         $lang eq 'en' and
+                         defined $fs->{en} and
+                         compare_segmented_text ($w, $fs->{en})) {
+                  $value_added = $v_added = 1;
+                  next REP;
+                } elsif ($fs->{form_set_type} eq 'alphabetical' and
+                         ($lang eq 'en_la' or $lang eq 'la') and
+                         not defined $fs->{origin_lang} and
+                         not defined $fs->{$lang}) {
+                  $value_added = $v_added = 1;
+                  $v = $fs;
+                  last CHK;
+                } elsif ($fs->{form_set_type} eq 'alphabetical' and
+                         ($lang eq 'en_old_zh' or
+                          $lang eq 'es_old_zh' or
+                          $lang eq 'fr_old_zh') and
+                          defined $fs->{origin_lang} and
+                          $fs->{origin_lang} eq 'zh') {
+                  my $x = $lang;
+                  $x =~ s/_zh$//;
+                  if (not defined $fs->{$x} and
+                      ((defined $fs->{en_old} and compare_segmented_text ($w, $fs->{en_old})) or
+                       (defined $fs->{es_old} and compare_segmented_text ($w, $fs->{es_old})) or
+                       (defined $fs->{fr_old} and compare_segmented_text ($w, $fs->{fr_old})))) {
+                    $value_added = $v_added = 1;
+                    $v = $fs;
+                    last CHK;
+                  }
+                } elsif ($fs->{form_set_type} eq 'yomi' and
+                         ($lang eq 'ja_latin' or
+                          $lang eq 'ja_latin_old' or
+                          $lang eq 'ja_latin_old_wrongs') and
+                         defined $fs->{ja_latin} and
+                         (compare_segmented_text ($w, $fs->{ja_latin_capital}) or
+                          compare_segmented_text ($w, $fs->{ja_latin_upper}) or
+                          compare_segmented_text ($w, $fs->{ja_latin_lower}))) {
+                  $value_added = $v_added = 1;
+                  next REP;
+                } elsif ($fs->{segment_length} == $w_length and
+                         not defined $rep->{abbr}) {
+                  $mergeable = 1;
                 }
-                next;
-              } # vi
-              
-              if ($fg->{form_group_type} eq 'alphabetical') {
-                for my $fs (@{$fg->{form_sets}}) {
-                  if ($fs->{form_set_type} eq 'alphabetical' and
-                      $lang eq 'en_pinyin' and
-                      defined $fs->{en}) {
-                    if ($rep->{value} eq (join '', @{$fs->{en}})) {
-                      if (defined $fs->{origin_lang} and
-                          $fs->{origin_lang} eq 'zh_pinyin') {
-                        $value_added = $v_added = 1;
-                        next REP;
-                      } elsif (not defined $fs->{origin_lang}) {
-                        $fs->{origin_lang} = 'zh_pinyin';
-                        $value_added = $v_added = 1;
-                        next REP;
-                      }
-                    }
-                  } elsif ($fs->{form_set_type} eq 'alphabetical' and
-                           $lang eq 'en' and
-                           defined $fs->{en}) {
-                    if ($rep->{value} eq (join '', @{$fs->{en}})) {
-                      $value_added = $v_added = 1;
-                      next REP;
-                    }
-                  }
-                } # $fs
-              } elsif ($fg->{form_group_type} eq 'han' and
+              } # $fs
+              if ($mergeable and
+                  ($fg->{form_group_type} eq 'alphabetical' or
+                   $fg->{form_group_type} eq 'han')) {
+                $value = $fg;
+                $value_added = 1;
+                last CHK;
+              }
+
+              if ($fg->{form_group_type} eq 'han' and
+                       ($fg->{form_sets}->[0]->{form_set_type} eq 'hanzi' or
+                        $fg->{form_sets}->[0]->{form_set_type} eq 'yomi') and
                        not defined $rep->{abbr}) {
                 my $fs = $fg->{form_sets}->[0];
                 my $s = $fs->{cn} //
@@ -1341,15 +1364,27 @@ sub compute_form_group_ons ($) {
               $value->{form_group_type} = 'vi' if not $value_added;
               $v->{form_set_type} = 'vietnamese';
               $lang = 'vi' if $lang eq 'vi_latin';
-            } elsif ($lang eq 'nan_poj' or $lang eq 'nan_tl' or
+            } elsif ($lang eq 'nan_poj' or
+                     $lang eq 'nan_wp' or
+                     $lang eq 'nan_tl' or
                      $lang eq 'pinyin' or
                      $lang eq 'zh_alalc') {
               $value->{form_group_type} = 'han' if not $value_added;
               $v->{form_set_type} = 'chinese';
+              $lang = 'nan_poj' if $lang eq 'nan_wp';
+              # nan_poj  閩南語 白話字 (POJ)
+              # nan_tl   閩南語 臺羅 (TL) : 臺灣閩南語羅馬字拼音方案
+              # nan_wp   zh-min-nan.wikipedia.org 閩南語 白話字 (POJ)
             } elsif ($lang eq 'sinkan') {
               $value->{form_group_type} = 'han' if not $value_added;
               $v->{form_set_type} = 'sinkan';
               $v->{origin_lang} = 'zh';
+            } elsif ($lang eq 'en_old_zh' or
+                     $lang eq 'es_old_zh' or
+                     $lang eq 'fr_old_zh') {
+              $value->{form_group_type} = 'han' if not $value_added;
+              $v->{origin_lang} = 'zh';
+              $lang =~ s/_zh$//;
             } else {
               $value->{form_group_type} = 'alphabetical' if not $value_added;
               if ($lang eq 'fr_ja') {
@@ -1385,7 +1420,7 @@ sub compute_form_group_ons ($) {
               }
             } else { # not abbr
               if ($lang eq 'nan_poj' or $lang eq 'nan_tl') {
-                $w = [map { $_ eq '-' ? '.-' : $_ } map { split /(-)/, $_ } @$w];
+                #$w = [map { $_ eq '-' ? '.-' : $_ } map { split /(-)/, $_ } @$w];
               } elsif ($lang eq 'pinyin') {
                 my $matched = 0;
                 my $x = [];
@@ -1399,7 +1434,7 @@ sub compute_form_group_ons ($) {
                 }
                 $w = $x;
               } else {
-                $w = [map { s/-$// ? ($_, '.-') : ($_) } @$w];
+                #$w = [map { s/-$// ? ($_, '.-') : ($_) } @$w];
               }
               my @abbr;
               my $j = 0;
@@ -1416,32 +1451,6 @@ sub compute_form_group_ons ($) {
             } # not abbr
             $w_length = segmented_text_length $w;
             
-            if ($v->{form_set_type} eq 'alphabetical' and
-                @{$value->{form_sets} || []} and
-                $value->{form_sets}->[-1]->{form_set_type} eq 'alphabetical' and
-                not defined $value->{form_sets}->[-1]->{origin_lang} and
-                ((not defined $abbr_indexes and
-                  not defined $value->{form_sets}->[-1]->{abbr_indexes}) or
-                  (defined $abbr_indexes and
-                   defined $value->{form_sets}->[-1]->{abbr_indexes} and
-                   @$abbr_indexes == @{$value->{form_sets}->[-1]->{abbr_indexes}} and
-                   join ($;, map { $_ // '' } @$abbr_indexes) eq
-                   join ($;, map { $_ // '' } @{$value->{form_sets}->[-1]->{abbr_indexes}}))) and
-                   ($value->{form_sets}->[-1]->{segment_length} == $w_length)) {
-              $v = $value->{form_sets}->[-1];
-              $v_added = 1;
-            } elsif ($v->{form_set_type} eq 'chinese' and
-                     ($lang eq 'nan_poj' or $lang eq 'nan_tl' or
-                      $lang eq 'pinyin' or
-                      $lang eq 'alalc')) {
-              for my $fs (@{$value->{form_sets}}) {
-                if ($fs->{form_set_type} eq 'chinese') {
-                  $v = $fs;
-                  $v_added = 1;
-                  last;
-                }
-              }
-            }
             if ($lang eq 'ja_latin_old_wrong') {
               push @{$v->{$lang . 's'} ||= []}, $w;
             } elsif (not defined $v->{$lang}) {
@@ -1952,15 +1961,20 @@ sub compute_form_group_ons ($) {
             } # $fs
             my $fst = {
               'chinese' . $; . '' => 'han_100',
+              'sinkan' . $; . 'zh' => 'han_101',
+              'alphabetical' . $; . 'zh' => 'han_102',
+              #
               'yomi' . $; . '' => 'han_200',
               'korean' . $; . 'ja' => 'han_201',
               'alphabetical' . $; . 'ja' => 'han_202',
+              #
               'vietnamese' . $; . '' => 'han_300',
               'korean' . $; . 'vi' => 'han_301',
               'alphabetical' . $; . 'vi' => 'han_302',
+              #
               'korean' . $; . '' => 'han_400',
-              'sinkan' . $; . 'zh' => 'han_500',
-              'alphabetical' . $; . '' => 'han_600',
+              #
+              'alphabetical' . $; . '' => 'han_700',
             };
             $text->{form_sets} = [sort {
               ($fst->{$a->{form_set_type}, $a->{origin_lang} // ''} || 0) cmp ($fst->{$b->{form_set_type}, $b->{origin_lang} // ''} || 0);
