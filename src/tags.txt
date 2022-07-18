@@ -512,12 +512,21 @@ tag
   group of 日本の公年号
 
 tag
+  name_ja 私的紀年法
+
+tag
   name_ja 私年号
+  group of 私的紀年法
   group of 元号
+
+tag
+  name_ja 日本の私的紀年法
+  group of 私的紀年法
 
 tag
   name_ja 日本の私年号
   group of 私年号
+  group of 日本の私的紀年法
 
 tag
   name_ja 私年号 (ウィキペディア)
@@ -583,6 +592,15 @@ action
   group of 利用開始
 
 action
+  name_ja マイクロネーション建国紀元制定
+  group of 建国紀元制定
+  group of マイクロネーション建元
+
+action
+  name_ja ミニ独立国建国紀元制定
+  group of マイクロネーション建国紀元制定
+
+action
   name_ja 建国記念日
   group of 事由
   group of 建国
@@ -609,6 +627,11 @@ action
   name_ja 改元日
 
 action
+  name_ja ミニ独立国建国紀元適用開始
+  group of 適用開始
+  group of マイクロネーション設立建元
+
+action
   name_ja マイクロネーション改元前日
 
 action
@@ -617,6 +640,15 @@ action
   group of 適用開始
   group of 制定
   group of マイクロネーション建元
+
+action
+  name_ja ミニ独立国改元日
+  group of マイクロネーション改元日
+
+action
+  name_ja ミニ独立国設立建元日
+  group of マイクロネーション設立建元
+  group of ミニ独立国改元日
 
 action
   name_ja マイクロネーション再開前日
@@ -838,7 +870,15 @@ action
   group of 活動開始
 
 action
+  name_ja ミニ独立国建国
+  group of 建国
+
+action
   name_ja 建国式典
+  group of 活動開始
+
+action
+  name_ja ミニ独立国開国
   group of 活動開始
 
 action
@@ -849,6 +889,10 @@ action
 action
   name_ja 消滅
   group of 戦時異動
+
+action
+  name_ja ミニ独立国閉国
+  group of 行政異動
 
 action
   name_ja 起事建元
@@ -1159,6 +1203,7 @@ tag
 tag
   name_ja ミニ独立国の紀年法
   group of マイクロネーションの紀年法
+  group of 日本の私的紀年法
 
 tag
   name_ja マイクロネーションの元号
@@ -1169,6 +1214,7 @@ tag
   name_ja ミニ独立国の元号
   group of マイクロネーションの元号
   group of ミニ独立国の紀年法
+  group of 日本の私年号
 
 tag
   name_ja 分離

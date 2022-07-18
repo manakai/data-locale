@@ -178,6 +178,8 @@ tag オゴデイ
 name_ja 太宗
 name_tw 太宗
 &
+name(ja) 太宗[]オゴデイ
+&
 name_tw 窩闊台汗
 
 s#元史<https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7002>"元年"

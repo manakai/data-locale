@@ -58,10 +58,26 @@
 %tag   region of 東アジア
 
 %tag region
+%tag   name_ja 北海道
+%tag   region of 日本国
+
+%tag region
+%tag   name_ja 上士幌町
+%tag   region of 北海道
+
+%tag region
 %tag   label_ja 日本国福島県
 %tag   name_ja 福島県
 %tag   name 福島
 %tag   region of 日本国
+
+%tag country
+%tag   name_ja 会津藩
+%tag   region of 日本 (江戸時代)
+
+%tag region
+%tag   name_ja 会津若松市
+%tag   region of 日本国福島県
 
 %tag region
 %tag   label_ja 日本国埼玉県
@@ -71,6 +87,22 @@
 %tag   label_ja 大日本帝国埼玉県秩父郡
 %tag   name_ja 秩父郡
 %tag   region of 日本国埼玉県
+
+%tag region
+%tag   name_ja 新潟県
+%tag   region of 日本国
+
+%tag region
+%tag   name_ja 佐渡
+%tag   region of 新潟県
+
+%tag region
+%tag   name_ja 佐渡市
+%tag   region of 佐渡
+
+%tag region
+%tag   name_ja 真野町
+%tag   region of 佐渡
 
 %tag region
 %tag   label_ja 日本国鳥取県
@@ -107,10 +139,6 @@
 %tag   region of 樺太
 
 %tag region
-%tag   name_ja 北海道
-%tag   region of 日本
-
-%tag region
 %tag   name_ja 千島
 %tag   region of 北海道
 
@@ -145,16 +173,53 @@
 %tag   region of 小笠原
 
 %tag region
-%tag   name_ja 奈良
+%tag   name_ja 関西
 %tag   region of 日本
 
 %tag region
-%tag   name_ja 京都
+%tag   name_ja 近畿
 %tag   region of 日本
+
+%tag region
+%tag   name_ja 奈良
+%tag   region of 関西
+%tag   region of 近畿
+
+%tag region
+%tag   name_ja 京都
+%tag   region of 関西
+%tag   region of 近畿
+
+%tag region
+%tag   name_ja 大阪
+%tag   region of 関西
+%tag   region of 近畿
+
+%tag region
+%tag   name_ja 大阪府
+%tag   region of 大阪
+%tag   region of 日本国
+
+%tag region
+%tag   name_ja 大阪市
+%tag   region of 大阪府
 
 %tag region
 %tag   name_ja 竹島
 %tag   region of 日本
+
+%tag region
+%tag   name_ja 対馬
+%tag   region of 日本
+
+%tag region
+%tag   name_ja 長崎県
+%tag   region of 日本国
+
+%tag region
+%tag   name_ja 美津島町
+%tag   region of 対馬
+%tag   region of 長崎県
 
 %tag region
 %tag   name_ja 南西諸島
@@ -1943,7 +2008,7 @@ name(it) dopo Hiroshima
 &
 name_ja 広島紀元
 &
-name(ja) アフターヒロシマ紀元
+name(ja) アフター|ヒロシマ紀元
 &
 name(ja) AH暦
 u 41-8
@@ -2029,24 +2094,6 @@ u 47-1-1
 u 75
 tag 日本の私年号
 
-def[豊国]
-# y~1784
-## Source:
-sw 豊国
-#
-name_ja 豊国
-name_kana ほう こく
-AD1977 = 1
-# 1977-8-1 established
-u 5-4
-u 11-8-13
-tag 日本人
-tag 新邪馬台国
-tag ミニ独立国の元号
-tag 日本の私年号
-%tag region
-%tag   name_ja 新邪馬台国
-%tag   region of 日本国大分県
 
 def[震災]
 # y~1788
@@ -2115,7 +2162,7 @@ sw コロナ元年
 #
 name(ja) コロナ
 &
-name(ja) アフターコロナ
+name(ja) アフター|コロナ
 AD2020 = 1
 # <-震災 y~1788 2020-03-08
 u 1-3-8
@@ -2151,25 +2198,213 @@ tag 日本人
 tag 日本国
 tag 大元密教
 
+
+%tag source
+%tag   name_ja にっぽん「独立国」事典
+
 def[ニコニコ共和国]
 #y~1862
-## Source:
+
 sw ニコニコ共和国元年
-#
-name(ja) ニコニコ共和国
-AD1982 = 1
-u 1-4-28
+
 tag 日本人
 tag 日本国
-tag ニコニコ共和国
 tag ミニ独立国の建国紀元
 tag 日本の私年号
+tag にっぽん「独立国」事典
+
+%tag region
+%tag   name_ja 岳温泉
+%tag   region of 日本国福島県
+tag 岳温泉
+
 %tag region
 %tag   name_ja ニコニコ共和国
-%tag   region of 日本国福島県
+%tag   region of 岳温泉
+tag ニコニコ共和国
+
+name(ja) ニコニコ[]共和国
+&
+name_ja 共和国
+AD1982 = 1
+u 1-4-28
+&
+name_ja 共和
+u 1
+u 3
+
+<-昭和 g:1982-4-28 #ミニ独立国建国{#ニコニコ共和国} #グレゴリオ暦 #事由
+<-昭和 g:1982-7-21 #ミニ独立国開国{#ニコニコ共和国} #グレゴリオ暦 #事由
+<-昭和 g:1982-4-28 #ミニ独立国建国紀元制定{#ニコニコ共和国}
+    #グレゴリオ暦
+<-昭和 g:1982-4-28 #ミニ独立国建国紀元適用開始{#ニコニコ共和国} #グレゴリオ暦
+->平成 g:2006-08-31 #ミニ独立国閉国{#ニコニコ共和国} #グレゴリオ暦
+
+def[とんでるカントリー]
+#y~2221
+
+sw とんでるカントリー元年
+
+tag 日本人
+tag 日本国
+tag 上士幌町
+tag ミニ独立国の建国紀元
+tag にっぽん「独立国」事典
+
+%tag region
+%tag   name_ja とんでるカントリー
+%tag   region of 上士幌町
+tag とんでるカントリー
+
+%tag person
+%tag   name_ja 赤塚不二夫
+tag 赤塚不二夫
+
+%tag event
+%tag   name_ja 熱気球フェスティバル
+tag 熱気球フェスティバル
+
+name(ja) とんでる|カントリー
+
+AD1983 = 1
+u 1
+
+<-昭和 g:1983-8-4 #ミニ独立国建国{#とんでるカントリー #赤塚不二夫}
+    #上士幌町 #グレゴリオ暦 #熱気球フェスティバル #事由
+<-昭和 g:1983-8-4 #ミニ独立国建国紀元制定{#とんでるカントリー #赤塚不二夫}
+    #上士幌町 #グレゴリオ暦 #熱気球フェスティバル
+<-昭和 g:1983-8-4 #ミニ独立国建国紀元適用開始{#とんでるカントリー #赤塚不二夫}
+    #上士幌町 #グレゴリオ暦 #熱気球フェスティバル
 
 
+def[大吉]
+#y~2222
 
+sw 大吉元年
+
+tag 日本人
+tag 日本国
+tag 会津藩
+tag ミニ独立国の元号
+tag にっぽん「独立国」事典
+
+%tag region
+%tag   name_ja ジパング国会津芦ノ牧藩
+%tag   region of 会津若松市
+tag ジパング国会津芦ノ牧藩
+
+name_ja 大吉
+
+AD1983 = 1
+u 1-5-1
+<-昭和 g:1983-05-01 #ミニ独立国建国{#ジパング国会津芦ノ牧藩} #会津藩 #事由
+<-昭和 g:1983-05-01 #ミニ独立国設立建元日{#ジパング国会津芦ノ牧藩}
+
+def[アルコール]
+#y~2223
+
+sw アルコール元年
+
+tag 日本人
+tag 日本国
+tag ミニ独立国の建国紀元
+tag 佐渡市
+tag にっぽん「独立国」事典
+
+%tag region
+%tag   name_ja アルコール共和国
+%tag   region of 真野町
+tag アルコール共和国
+
+name(ja) アルコール[]共和国
+&
+name(ja) アルコール
+&
+name_ja 共和
+
+AD1983 = 1
+u 1
+u 11-2-22
+
+<-昭和 g:1983-4-22 #ミニ独立国建国{#アルコール共和国} #事由 #グレゴリオ暦
+<-昭和 g:1983-4-22 #ミニ独立国建国紀元制定{#アルコール共和国} #グレゴリオ暦
+<-昭和 g:1983-4-22 #ミニ独立国建国紀元適用開始{#アルコール共和国} #グレゴリオ暦
+
+def[そや]
+#y~2224
+
+sw そや元年
+
+tag 日本人
+tag 日本国
+tag ミニ独立国の元号
+tag にっぽん「独立国」事典
+
+%tag region
+%tag   name_ja そやんか合衆国
+%tag   region of 大阪市
+tag そやんか合衆国
+
+name(ja) そや
+
+AD1983 = 1
+u 1
+<-昭和 g:1983-04-01 #ミニ独立国建国{#そやんか合衆国} #事由
+<-昭和 g:1983-04-01 #ミニ独立国設立建元日{#そやんか合衆国}
+
+def[豊国]
+# y~1784
+
+sw 豊国
+
+tag 日本人
+tag ミニ独立国の元号
+tag 日本の私年号
+tag にっぽん「独立国」事典
+
+%tag region
+%tag   name_ja 新邪馬台国
+%tag   region of 日本国大分県
+tag 新邪馬台国
+
+name_ja 豊国
+name_kana ほう こく
+
+AD1977 = 1
+u 5-4
+u 11-8-13
+
+#1977-6 新邪馬台国建設公団
+<-昭和 g:1977-8-1 #ミニ独立国建国{#新邪馬台国} #事由
+<-昭和 g:1977-8-1 #ミニ独立国設立建元日{#新邪馬台国}
+
+def[緋扇]
+#y~2225
+
+AD1984 = 1
+
+sw 緋扇元年
+
+tag 日本人
+tag ミニ独立国の元号
+tag 日本の私年号
+tag にっぽん「独立国」事典
+
+%tag region
+%tag   name_ja 対馬ヒオウギ王国
+%tag   region of 美津島町
+tag 対馬ヒオウギ王国
+
+name(ja)! 緋|扇[J:ひ おうぎ]
+name(ja) ヒ|オウギ
+&
+name(ja) ヒ|オウギ[]歴
+name(ja) ヒ|オウギ[]暦
+
+<-昭和 g:1983-11-3 #ミニ独立国建国{#新邪馬台国} #事由
+<-昭和 g:1983-11-3 #ミニ独立国設立建元日{#新邪馬台国}
+u 1-1-1
+#XXX yearstart g:--11-3
 
 
 

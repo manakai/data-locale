@@ -1,6 +1,7 @@
 use strict;
 use warnings;
 use Path::Tiny;
+use lib glob path (__FILE__)->parent->parent->child ('bin/modules/*/lib');
 use JSON::PS;
 
 my $ThisPath = path (__FILE__)->parent;
@@ -385,7 +386,7 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
           printf q{<td><p>form group [<code>%s</code>]},
               htescape $rep->{form_group_type};
           if (keys %{$rep->{is_preferred} or {}}) { # type:compound
-            printf q{ (%s)},
+            printf q{ (<mark>%s</mark>)},
                 join ', ', map { "<code>$_</code>" } map { htescape $_ } sort { $a cmp $b } keys %{$rep->{is_preferred} or {}};
           }
           print q{</p>};
