@@ -30577,6 +30577,28 @@
             ]
          }
       },
+      "1739" : {
+         "id" : 1739,
+         "key" : "天一国",
+         "missing_yomis" : [
+         ],
+         "name" : "天一国",
+         "start_year" : 2000,
+         "yomis" : {
+            "6100" : [
+               "てん いち こく"
+            ],
+            "6102" : [
+               "ten ' ichi koku"
+            ],
+            "6103" : [
+               "ten ' ichi koku"
+            ],
+            "6104" : [
+               "ten ' iti koku"
+            ]
+         }
+      },
       "174" : {
          "id" : 174,
          "key" : "応和",
@@ -30730,13 +30752,54 @@
             ]
          }
       },
+      "1740" : {
+         "id" : 1740,
+         "key" : "天一国(癸巳)",
+         "missing_yomis" : [
+         ],
+         "name" : "天一国",
+         "start_year" : 2013,
+         "yomis" : {
+            "6100" : [
+               "てん いち こく"
+            ],
+            "6102" : [
+               "ten ' ichi koku"
+            ],
+            "6103" : [
+               "ten ' ichi koku"
+            ],
+            "6104" : [
+               "ten ' iti koku"
+            ]
+         }
+      },
+      "1741" : {
+         "id" : 1741,
+         "key" : "天基",
+         "missing_yomis" : [
+         ],
+         "name" : "天基",
+         "start_year" : 2010,
+         "yomis" : {
+            "6100" : [
+               "てん き"
+            ],
+            "6102" : [
+               "ten ki"
+            ],
+            "6103" : [
+               "ten ki"
+            ]
+         }
+      },
       "1749" : {
          "id" : 1749,
          "key" : "命知",
          "missing_yomis" : [
          ],
          "name" : "創業命知",
-         "start_year" : 1932,
+         "start_year" : null,
          "yomis" : {
             "6100" : [
                "めい ち"
@@ -30932,7 +30995,7 @@
          "missing_yomis" : [
          ],
          "name" : "ポスト広島",
-         "start_year" : null,
+         "start_year" : 1946,
          "yomis" : {
             "6100" : [
                "ぽすと ひろ しま"
@@ -30945,7 +31008,7 @@
          "missing_yomis" : [
          ],
          "name" : "核時代",
-         "start_year" : null,
+         "start_year" : 1945,
          "yomis" : {
             "6100" : [
                "かく じ だい"
@@ -31047,7 +31110,7 @@
          "missing_yomis" : [
          ],
          "name" : "震災",
-         "start_year" : 2011,
+         "start_year" : 2012,
          "yomis" : {
             "6100" : [
                "しん さい"
@@ -31088,7 +31151,7 @@
          "missing_yomis" : [
          ],
          "name" : "希哲",
-         "start_year" : null,
+         "start_year" : 2007,
          "yomis" : {
             "6100" : [
                "き てつ き げん"
@@ -31281,7 +31344,7 @@
          "missing_yomis" : [
          ],
          "name" : "天降紀元",
-         "start_year" : null,
+         "start_year" : -2999,
          "yomis" : {
             "6100" : [
                "あもり き げん"

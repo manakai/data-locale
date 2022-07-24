@@ -79,14 +79,21 @@ region
   region of 地球
 
 region
+  name_ja シベリア
+  region of 北アジア
+
+region
   name_ja 露領シベリア
   region of ロシア帝国
-  region of 北アジア
+  region of シベリア
 
 region
   name_ja ソ連領シベリア
   region of ソビエト社会主義共和国連邦
-  region of 北アジア
+  region of シベリア
+
+event
+  name_ja ロシア革命
 
 country
   name_ja ロシア帝国
@@ -119,6 +126,14 @@ country
   name_ja 米国
   name_ja アメリカ
   region of 米大陸
+
+country
+  name_ja ハワイ
+
+country
+  name_ja 米領ハワイ
+  group of ハワイ
+  group of 米国
 
 country
   name_ja メキシコ
@@ -216,6 +231,9 @@ people
 people
   name_ja ブラジル人
 
+people
+  name_ja ユダヤ人
+
 religion
   name_ja 仏教
 
@@ -224,60 +242,7 @@ religion
   group of 仏教
 
 religion
-  name_ja 大元密教
-  group of 仏教
-
-religion
-  name_ja 天照皇大神宮教
-  group of 神道
-
-religion
-  name_ja 神示教会
-  group of 神道
-
-religion
-  name_ja 璽宇
-  group of 神道
-
-religion
-  name_ja 松緑神道大和山
-  group of 神道
-
-religion
-  name_ja 霊波之光
-
-religion
-  name_ja 天祖光教
-
-religion
-  name_ja 平等大慧会
-  group of 仏教
-
-religion
-  name_ja ラエリアンムーブメント
-  group of 弥勒信仰
-
-religion
-  name_ja オウム真理教
-
-religion
   name_ja 共産主義
-
-org
-  name_ja 松下電器産業株式会社
-
-org
-  name_ja 全国かえる奉賛会
-
-person
-  name_ja げこげこ大王7世
-
-person
-  name_ja 熊沢寛道
-  group of 神道
-
-person
-  name_ja 芦原金次郎
 
 tag
   name_ja 条約
@@ -390,6 +355,9 @@ action
 action
   name_ja 誕生
 
+tag
+  name_ja 誕生紀年
+
 action
   name_ja 死去
 
@@ -499,34 +467,12 @@ tag
   group of 元号
 
 tag
-  name_ja 日本の公年号
-  group of 公年号
-tag
-  name_ja 日本北朝の公年号
-  group of 日本の公年号
-tag
-  name_ja 日本南朝の公年号
-  group of 日本の公年号
-tag
-  name_ja 日本の公年号 (南北朝を除く)
-  group of 日本の公年号
-
-tag
   name_ja 私的紀年法
 
 tag
   name_ja 私年号
   group of 私的紀年法
   group of 元号
-
-tag
-  name_ja 日本の私的紀年法
-  group of 私的紀年法
-
-tag
-  name_ja 日本の私年号
-  group of 私年号
-  group of 日本の私的紀年法
 
 tag
   name_ja 私年号 (ウィキペディア)
@@ -823,6 +769,12 @@ action
   group of 行政異動
 
 action
+  name_ja ミニ独立国編入
+  group of 行政異動
+  #subject: country
+  #object: new region
+
+action
   name_ja 割譲
   #subject: old
   #object: new
@@ -870,6 +822,10 @@ action
   group of 活動開始
 
 action
+  name_ja 臨時政府樹立
+  group of 建国
+
+action
   name_ja ミニ独立国建国
   group of 建国
 
@@ -887,12 +843,21 @@ action
   group of 建国
 
 action
+  name_ja 宗教創設
+  group of 活動開始
+
+action
+  name_ja 活動終了
+
+action
   name_ja 消滅
   group of 戦時異動
+  group of 活動終了
 
 action
   name_ja ミニ独立国閉国
   group of 行政異動
+  group of 活動終了
 
 action
   name_ja 起事建元
@@ -941,6 +906,9 @@ action
 
 action
   name_ja 元服
+
+action
+  name_ja 婚姻
 
 action
   name_ja 祥瑞
@@ -1046,6 +1014,9 @@ tag
 tag
   name_ja 旧説
   group of 異説
+
+action
+  name_ja 祭開催
 
 action
   name_ja 発生
@@ -1172,6 +1143,10 @@ tag
   name_ja 建国紀元
 
 tag
+  name_ja 初代王朝建国紀元
+  group of 建国紀元
+
+tag
   name_ja 元号説のある建国紀元
   group of 建国紀元
 
@@ -1190,6 +1165,7 @@ tag
 tag
   name_ja 教祖誕生紀年
   group of 宗教創設紀年
+  group of 誕生紀年
 
 tag
   name_ja 風刺
@@ -1201,20 +1177,9 @@ tag
   name_ja マイクロネーションの紀年法
 
 tag
-  name_ja ミニ独立国の紀年法
-  group of マイクロネーションの紀年法
-  group of 日本の私的紀年法
-
-tag
   name_ja マイクロネーションの元号
   group of 元号
   group of マイクロネーションの紀年法
-
-tag
-  name_ja ミニ独立国の元号
-  group of マイクロネーションの元号
-  group of ミニ独立国の紀年法
-  group of 日本の私年号
 
 tag
   name_ja 分離
@@ -1225,6 +1190,9 @@ tag
 
 tag
   name_ja 国名と衝突
+
+event
+  name_ja 第一次世界大戦
 
 event
   name_ja 第二次世界大戦
@@ -1278,8 +1246,43 @@ tag
   group of 元号
 
 source
+  name_ja 近代諸元号現象
+
+source
+  name_ja 修訂 絹と立方体
+
+source
+  name_ja 近代諸元号現象・改
+  group of 修訂 絹と立方体
+  group of 近代諸元号現象
+
+source
+  name_ja 三訂 近代諸元号現象
+  group of 近代諸元号現象
+
+source
   name_en Wikipedia
 
 source
   name_ja 日本語版ウィキペディア
   group of Wikipedia
+
+tag
+  name_ja 年賀状
+
+tag
+  name_ja 日記
+
+tag
+  name_ja Webサイト
+
+tag
+  name_ja Web日記
+  group of 日記
+  group of Webサイト
+
+tag
+  name_ja ブログ
+  group of 日記
+  group of Webサイト
+

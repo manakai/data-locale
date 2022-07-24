@@ -2166,6 +2166,11 @@ name(ko) 숭정기원후
 name 崇禎後
 name(ko) 숭정후
 
+tag 近代諸元号現象・改
+#p.674
+
+tag 三訂 近代諸元号現象
+#p.8
 
 
 %tag source
