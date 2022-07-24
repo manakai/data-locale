@@ -43,12 +43,24 @@
 %tag 
 %tag   period of 日本
 
+%tag tag
+%tag   name_ja 日本南朝系
+%tag   group of 日本
+
 %tag country
 %tag   key 日本南朝
 %tag   label_ja 南朝 (日本)
 %tag   name_ja 南朝
-%tag 
+%tag   group of 日本南朝系
 %tag   period of 日本
+
+%tag country
+%tag   name_ja 後南朝
+%tag   group of 日本南朝系
+
+%tag tag
+%tag   name_ja 自称南朝末裔
+%tag   group of 日本南朝系
 
 %tag country
 %tag   name_ja 日本
@@ -80,6 +92,27 @@
 %tag   region of 日本国福島県
 
 %tag region
+%tag   name_ja 関東
+%tag   region of 日本
+
+%tag region
+%tag   name_ja 栃木県
+%tag   region of 関東
+%tag   region of 日本国
+
+%tag region
+%tag   name_ja 那須郡
+%tag   region of 栃木県
+
+%tag region
+%tag   name_ja 南那須町
+%tag   region of 那須郡
+
+%tag region
+%tag   name_ja 那須烏山市
+%tag   region of 那須烏山市
+
+%tag region
 %tag   label_ja 日本国埼玉県
 %tag   region of 日本国
 
@@ -87,64 +120,6 @@
 %tag   label_ja 大日本帝国埼玉県秩父郡
 %tag   name_ja 秩父郡
 %tag   region of 日本国埼玉県
-
-%tag region
-%tag   name_ja 新潟県
-%tag   region of 日本国
-
-%tag region
-%tag   name_ja 佐渡
-%tag   region of 新潟県
-
-%tag region
-%tag   name_ja 佐渡市
-%tag   region of 佐渡
-
-%tag region
-%tag   name_ja 真野町
-%tag   region of 佐渡
-
-%tag region
-%tag   label_ja 日本国鳥取県
-%tag   name_ja 鳥取県
-%tag   name 鳥取
-%tag   region of 日本国
-
-%tag region
-%tag   label_ja 日本国福岡県
-%tag   name_ja 福岡県
-%tag   name 福岡
-%tag   region of 日本国
-
-%tag region
-%tag   label_ja 日本国大分県
-%tag   name_ja 大分県
-%tag   name_ja 大分
-%tag   region of 日本国
-
-%tag region
-%tag   name_ja 司王国
-%tag   region of 日本国
-
-%tag region
-%tag   name_ja 樺太
-%tag   region of 日本
-
-%tag region
-%tag   name_ja 北樺太
-%tag   region of 樺太
-
-%tag region
-%tag   name_ja 南樺太
-%tag   region of 樺太
-
-%tag region
-%tag   name_ja 千島
-%tag   region of 北海道
-
-%tag region
-%tag   name_ja 関東
-%tag   region of 日本
 
 %tag region
 %tag   name_ja 鎌倉
@@ -172,6 +147,40 @@
 %tag   name_ja 硫黄島
 %tag   region of 小笠原
 
+
+%tag region
+%tag   name_ja 新潟県
+%tag   region of 日本国
+
+%tag region
+%tag   name_ja 佐渡
+%tag   region of 新潟県
+
+%tag region
+%tag   name_ja 佐渡市
+%tag   region of 佐渡
+
+%tag region
+%tag   name_ja 真野町
+%tag   region of 佐渡
+
+%tag region
+%tag   name_ja 樺太
+%tag   region of 日本
+
+%tag region
+%tag   name_ja 北樺太
+%tag   region of 樺太
+
+%tag region
+%tag   name_ja 南樺太
+%tag   region of 樺太
+
+%tag region
+%tag   name_ja 千島
+%tag   region of 北海道
+
+
 %tag region
 %tag   name_ja 関西
 %tag   region of 日本
@@ -184,6 +193,19 @@
 %tag   name_ja 奈良
 %tag   region of 関西
 %tag   region of 近畿
+
+%tag region
+%tag   name_ja 奈良県
+%tag   region of 奈良
+%tag   region of 日本国
+
+%tag region
+%tag   name_ja 吉野郡
+%tag   region of 奈良県
+
+%tag region
+%tag   name_ja 下北山村
+%tag   region of 吉野郡
 
 %tag region
 %tag   name_ja 京都
@@ -205,8 +227,71 @@
 %tag   region of 大阪府
 
 %tag region
-%tag   name_ja 竹島
+%tag   name_ja 和歌山県
+%tag   region of 近畿
+%tag   region of 日本国
+
+%tag region
+%tag   name_ja すさみ町
+%tag   region of 和歌山県
+
+%tag region
+%tag   name_ja 中国地方
 %tag   region of 日本
+
+%tag region
+%tag   name_ja 山陰
+%tag   region of 中国地方
+
+%tag region
+%tag   name_ja 山陽
+%tag   region of 中国地方
+
+%tag region
+%tag   name_ja 竹島
+%tag   region of 中国地方
+
+%tag region
+%tag   name_ja 岡山県
+%tag   region of 山陽
+%tag   region of 日本国
+
+%tag region
+%tag   name_ja 吉井町
+%tag   region of 岡山県
+
+%tag region
+%tag   label_ja 日本国鳥取県
+%tag   name_ja 鳥取県
+%tag   name 鳥取
+%tag   region of 日本国
+
+%tag region
+%tag   name_ja 九州
+%tag   region of 日本
+
+%tag region
+%tag   label_ja 日本国福岡県
+%tag   name_ja 福岡県
+%tag   name 福岡
+%tag   region of 日本国
+%tag   region of 九州
+
+%tag region
+%tag   label_ja 日本国大分県
+%tag   name_ja 大分県
+%tag   name_ja 大分
+%tag   region of 日本国
+%tag   region of 九州
+
+%tag region
+%tag   name_ja 佐賀県
+%tag   region of 日本国
+%tag   region of 九州
+
+%tag region
+%tag   name_ja 嬉野市
+%tag   region of 佐賀県
 
 %tag region
 %tag   name_ja 対馬
@@ -215,6 +300,7 @@
 %tag region
 %tag   name_ja 長崎県
 %tag   region of 日本国
+%tag   region of 九州
 
 %tag region
 %tag   name_ja 美津島町
@@ -390,6 +476,39 @@
 
 %tag calendar
 %tag   name_ja 旧暦
+
+%tag tag
+%tag   name_ja 日本の公年号
+%tag   group of 公年号
+%tag tag
+%tag   name_ja 日本北朝の公年号
+%tag   group of 日本の公年号
+%tag tag
+%tag   name_ja 日本南朝の公年号
+%tag   group of 日本の公年号
+%tag tag
+%tag   name_ja 日本の公年号 (南北朝を除く)
+%tag   group of 日本の公年号
+
+%tag tag
+%tag   name_ja 日本の私的紀年法
+%tag   group of 私的紀年法
+
+%tag tag
+%tag   name_ja 日本の私年号
+%tag   group of 私年号
+%tag   group of 日本の私的紀年法
+
+%tag tag
+%tag   name_ja ミニ独立国の紀年法
+%tag   group of マイクロネーションの紀年法
+%tag   group of 日本の私的紀年法
+
+%tag tag
+%tag   name_ja ミニ独立国の元号
+%tag   group of マイクロネーションの元号
+%tag   group of ミニ独立国の紀年法
+%tag   group of 日本の私年号
 
 [神功皇后摂政]
 tag 称制紀年
@@ -862,6 +981,15 @@ tag 竹島
 tag 中華民国
 tag 朝鮮
 
+tag 第一次世界大戦
+
+tag シベリア
+tag ロシア革命
+tag シベリア出兵
+
+%tag event
+%tag   name_ja シベリア出兵
+
 tag 硫黄島
 <-明治 g:1912-08-20 #日本 #硫黄島 #通知受領 #グレゴリオ暦
 
@@ -925,6 +1053,7 @@ tag 鉄山
 tag 青ヶ島
 <-大正 [g:1928-12] #日本 #青ヶ島 #通知受領 #グレゴリオ暦
 
+tag 大東亜戦争
 tag 仏領インドシナ
 tag 仏印保護領大南
 tag 越南帝国
@@ -953,6 +1082,16 @@ tag 竹島
 tag 大韓民国独島
 
 tag 元号廃止前の元号
+
+tag ミニ独立国の紀年法
+
+%tag event
+%tag   name_ja 元号法制定
+tag 元号法制定
+
+%tag org
+%tag   name_ja NHK
+tag NHK
 
 [平成]
 #y~4
@@ -993,6 +1132,9 @@ tag 中華人民共和国釣魚島
 tag 中華民国釣魚島
 tag 竹島
 tag 大韓民国独島
+
+tag アルコール共和国
+tag NHK
 
 [令和]
 #y~5
@@ -1048,6 +1190,12 @@ tag 中華民国釣魚島
 tag 竹島
 tag 大韓民国独島
 
+tag アルコール共和国
+tag NHK
+
+
+
+
 
 %tag religion
 %tag   name_ja 神道
@@ -1088,6 +1236,34 @@ tag 神道
 tag 国家神道
 tag 宗教創設紀年
 
+
+def[統仁]
+name 統仁
+sw 孝明天皇即位紀年
+AD1866 = 20
+
+def[亀光]
+#y~1758
+sw 亀光
+
+tag 日本の私年号
+tag 日本 (江戸時代)
+tag 日本人
+
+name_ja 亀光
+name_kana き こう
+name_kana きっ こう
+
+AD1862 = 1
+u 1-3-5
+u 1-11
+
+tag 三訂 近代諸元号現象
+#p.4
+
+
+
+
 def[自由自治]
 ## Source:
 sw 自由自治
@@ -1100,24 +1276,37 @@ name_ja 日本共和国
 
 %tag tag
 %tag   name_ja 自由民権運動
+tag 自由民権運動
 
 %tag org
 %tag   name_ja 困民党
+tag 困民党
 
 wref_ja 自由自治
 u 1-11-2
 u 129-1-1
 u 134-1
 u 137-5-10
-tag 困民党
 tag 農民反乱
-tag 起事建元
-tag 自由民権運動
 tag 大日本帝国埼玉県秩父郡
 tag 日本人
 tag 日本の私年号
 tag 追号説のある元号
 AD1884 = 1
+
+<-明治 g:1884-10-31 #蜂起{#困民党 #大日本帝国埼玉県秩父郡} #事由 #自由民権運動
+<-明治 g:1884-11-1 #陥落{#困民党, #大日本帝国埼玉県秩父郡} #自由民権運動 #分離
+<-明治 [g:1884-10-31,g:1884-11-2] #適用開始{#困民党} #改元日 #制定
+    #自由民権運動 #旧説 #グレゴリオ暦
+->明治 g:1884-11-4 #陥落{#大日本帝国, #困民党 #大日本帝国埼玉県秩父郡}
+    #自由民権運動
+->明治 g:1884-11-9 #陥落{#大日本帝国, #困民党} #自由民権運動
+
+tag 近代諸元号現象・改
+#p.673
+
+tag 三訂 近代諸元号現象
+#p.6
 
 def[征露]
 #y~1148
@@ -1137,86 +1326,130 @@ tag 大日本帝国台湾
 
 AD1904 = 1
 
-def[亀光]
-#y~1758
-sw 亀光
 
-tag 日本の私年号
-tag 日本 (江戸時代)
-tag 日本人
+tag 近代諸元号現象・改
+#p.676
 
-name_ja 亀光
-name_kana き こう
-name_kana きっ こう
-
-AD1862 = 1
-u 1-3-5
-u 1-11
+tag 三訂 近代諸元号現象
+#p.10
 
 
 def[霊寿]
 # y~1390
 ## Source:
 sw 霊寿
-#
-name_ja 霊寿
-name_kana れい じゅ
-name_ja 靈壽
-wref_ja 璽宇
+
 tag 日本国
 tag 日本人
 tag 日本の私年号
-tag 璽宇
 tag 宗教創設紀年
-tag 起事建元
+
+%tag religion
+%tag   name_ja 璽宇
+%tag   group of 神道
+tag 璽宇
 
 %tag person
 %tag   name_ja 長岡良子
 tag 長岡良子
 #璽光尊 じ こう そん
 
+name_ja 霊寿
+name_kana れい じゅ
+name_ja 靈壽
+wref_ja 璽宇
+
 AD1946 = 1
-<-昭和 g:1946-5-1 #璽宇 #長岡良子 #建元前の即位 #日本 #グレゴリオ暦
-<-昭和 g:1946-5-1 #璽宇 #長岡良子 #起事建元 #制定 #日本 #グレゴリオ暦
+<-昭和 g:1946-5-1 #建元前の即位{#璽宇 #長岡良子} #日本 #グレゴリオ暦
+<-昭和 g:1946-5-1 #改元日{#璽宇 #長岡良子} #制定 #適用開始 #起事建元 #日本
+    #グレゴリオ暦
 
 u 14-2-12
 
->< [g:1984] #璽宇 #長岡良子 #死去 #日本 #グレゴリオ暦
+>< [g:1984] #死去{#璽宇 #長岡良子} #日本 #グレゴリオ暦
+
+tag 近代諸元号現象・改
+#p.683
+
+tag 三訂 近代諸元号現象
+#p.19
 
 def[大延]
 # y~1294
 ## Source:
 sw 大延
-#
-name_ja 大延
+
 tag 日本国
 tag 日本人
+tag 日本の私年号
+tag 自称南朝末裔
+
+%tag person
+%tag   name_ja 熊沢寛道
 tag 熊沢寛道
+
+name_ja 大延
 AD1915 = 1
+<-大正 [g:1915] #建元前の即位{#熊沢寛道} #自称南朝末裔 #日本国 #グレゴリオ暦
+<-大正 [g:1919] #建元前の即位{#熊沢寛道} #自称南朝末裔 #日本国 #旧説
+    #グレゴリオ暦
+<-大正 [g:1920] #建元前の即位{#熊沢寛道} #自称南朝末裔 #日本国 #旧説
+    #グレゴリオ暦
+<-大正 [g:1915] #改元日{#熊沢寛道} #制定 #適用開始 #起事建元 #自称南朝末裔
+    #日本国 #グレゴリオ暦
 u 35-10-29
 u 39
-tag 日本の私年号
+->unknown [g:1957] #改元前の退位{#熊沢寛道} #自称南朝末裔 #日本国
+    #グレゴリオ暦
+>< g:1966-6-11 #死去{#熊沢寛道} #自称南朝末裔 #日本国 #グレゴリオ暦
+
+tag 近代諸元号現象・改
+#p.682
+
+tag 三訂 近代諸元号現象
+#p.17
 
 def[芦原太陽暦]
 # y~1791
 ## Source:
 sw 芦原太陽暦
-#
+
+tag 大日本帝国
+tag 日本人
+tag 日本の私的紀年法
+
+%tag person
+%tag   name_ja 芦原金次郎
+tag 芦原金次郎
+
 name_ja 芦原太陽暦
 name_ja 葦原太陽暦
 &&
 name_ja 即位
 AD-23107 = 1
-tag 大日本帝国
-tag 日本人
-tag 芦原金次郎
 u 25004
+
+<-明治 [g:1875,g:1896] #建元前の即位{#芦原金次郎} #大日本帝国 #グレゴリオ暦
+<-明治 [g:1875,g:1896] #利用開始{#芦原金次郎} #大日本帝国 #グレゴリオ暦 #併用
+->昭和 g:1937-2-2 #改元前の死去{#芦原金次郎} #大日本帝国 #グレゴリオ暦
 
 def[立教]
 # y~1798
 ## Source:
 sw 立教
-#
+
+tag 日本国
+tag 米国
+tag ブラジル
+tag 日本人
+tag 日系ブラジル人
+tag 宗教創設紀年
+tag 日本の私年号
+
+%tag religion
+%tag   name_ja 天理教
+tag 天理教
+
 name_ja 立教
 name_kana りっ きょう
 #
@@ -1231,119 +1464,217 @@ name(po) Revelação Divina
 &
 acronym(po) R.D.
 expanded(po) [R]evelação [D]ivina
+
+%tag event
+%tag   name_ja 立教の元一日
+<-天保 k:1838-10-26 g:1838-12-12 #宗教創設{#天理教} #立教の元一日 #事由
 AD1838 = 1
-tag 日本国
-tag 米国
-tag ブラジル
-tag 日本人
-tag 日系ブラジル人
 u 1
 u 5
 u 88-11-5
 u 181
 u 183
 
-def[立教(己未)]
-# y~1799
-## Source:
-sw 立教 (大和山)
-#
-name_ja 立教
-AD2018 = 100
-# region 日本国
-tag 日本人
-tag 松緑神道大和山
-u 97
-u 103
-
-def[天暦(乙巳)]
-# y~1800
-## Source:
-sw 天暦 (天祖光教)
-#
-name_ja 天暦
-AD2018 = 54
-u 34-10-10
-u 54
-tag 日本国
-tag 日本人
-tag 天祖光教
-
-def[弥勒(庚子)]
-# y~1801
-## Source:
-sw 弥勒 (平等大慧会)
-#
-name_ja 弥勒
-AD1960 = 1
-u 40
-tag 日本人
-tag 日本国
-tag 平等大慧会
-
-def[弥勒(癸巳)]
-# y~1805
-## Source:
-sw 弥勒 (空の真法)
-#
-name_ja 弥勒
-AD2013 = 1
-tag 日本人
-tag 日本国
-u 1-1-1
-u 2-3
+#XXX magazine
+%tag org
+%tag   name_ja 道乃友
+tag 道乃友
+<-大正 [g:1924,g:1925-11-5] #利用開始{#道乃友} #天理教 #グレゴリオ暦 #併用
 
 def[命知]
 # y~1749
 ## Source
 sw 命知
-#
+
+tag 日本国
+tag 日本人
+tag 日本の私年号
+
+%tag org
+%tag   name_ja 松下電器産業株式会社
+tag 松下電器産業株式会社
+
+%tag person
+%tag   name_ja 松下幸之助
+tag 松下幸之助
+
 name_ja 創業命知
 &
 name_ja 命知
 name_kana めい ち
 # transliteration Meichi
 name_cn 命知
-AD1932 = 1
 # preferred style g第y年
-tag 松下電器産業株式会社
+
+AD1932 = 1
+#1932-3-上旬 #松下幸之助 #天理教 訪問
+<-昭和 g:1932-05-05 #制定{#松下電器産業株式会社 #松下幸之助} #併用
+u 1
+u 75
+
+def[労農]
+# y~1803
+## Source:
+sw 労農 (元号)
+
 tag 日本国
 tag 日本人
-# 1932-05-05 establishment
-u 75
+tag 共産主義
+tag ロシア革命
 tag 日本の私年号
+
+name_ja 労農
+
+u 10-8-10
+AD1926 = 10
+<-大正 [g:1917,g:1926-8-10] #利用開始 #共産主義 #日本国 #グレゴリオ暦
+
+def[立教(己未)]
+# y~1799
+## Source:
+sw 立教 (大和山)
+
+tag 日本国
+tag 日本人
+tag 宗教紀年
+tag 日本の私年号
+
+%tag religion
+%tag   name_ja 松緑神道大和山
+%tag   group of 神道
+tag 松緑神道大和山
+
+name_ja 立教
+
+AD2018 = 100
+u 97
+u 103
+<-大正,昭和,平成 [g:1919,g:2005] #利用開始{#松緑神道大和山} #日本国
+    #グレゴリオ暦 #併用
+
+def[天暦(乙巳)]
+# y~1800
+## Source:
+sw 天暦 (天祖光教)
+
+tag 日本国
+tag 日本人
+tag 宗教紀年
+tag 日本の私年号
+
+%tag religion
+%tag   name_ja 天祖光教
+tag 天祖光教
+
+name_ja 天暦
+
+AD2018 = 54
+u 34-10-10
+u 54
+
+<-昭和,平成 [g:1965,g:1998-10-10] #利用開始{#天祖光教} #日本 #併用
+    #グレゴリオ暦
+
+def[弥勒(庚子)]
+# y~1801
+## Source:
+sw 弥勒 (平等大慧会)
+
+tag 日本人
+tag 日本国
+tag 宗教紀年
+tag 日本の私年号
+
+%tag religion
+%tag   name_ja 平等大慧会
+%tag   group of 仏教
+tag 平等大慧会
+
+%tag person
+%tag   name_ja 梅本禮暉譽
+tag 梅本禮暉譽
+
+name_ja 弥勒
+AD1960 = 1
+u 40
+>< [g:1999] #死去{#平等大慧会 #梅本禮暉譽} #グレゴリオ暦 #日本国
+
+def[弥勒(癸巳)]
+# y~1805
+## Source:
+sw 弥勒 (空の真法)
+
+tag 日本人
+tag 日本国
+tag 宗教紀年
+tag 日本の私年号
+
+%tag religion
+%tag   name_ja 空の真法
+tag 空の真法
+
+name_ja 弥勒
+AD2013 = 1
+u 1-1-1
+u 2-3
+<-平成 g:2013-1-1 #改元日{#空の真法} #制定 #グレゴリオ暦 #日本国 #分離
+    #適用開始
+
 
 def[科学紀元]
 # y~1733
 ## Source:
 sw 科学紀元
-#
+
+tag 日本人
+tag 日本国
+tag 日本の私的紀年法
+
+%tag person
+%tag   name_ja 斎藤成也
+tag 斎藤成也
+
 name 科学紀元
 AD2000 = 0
 sw 科学紀元
-# <-AD 2000-01-01
-# 2000-01-08 (or -09) established
-u -2
+
+<-AD [g:2000-1-8,g:2000-1-9] #制定{#斎藤成也} #グレゴリオ暦 #分離
+<-AD g:2000-1-1 #適用開始{#斎藤成也} #グレゴリオ暦 #分離
 u 0
 u 14-10
-tag 日本人
-tag 日本国
+tag Web日記
+
+%tag person
+%tag   name_ja 後藤文彦
+tag 後藤文彦
+u -2
+tag Web日記
 
 def[宇宙暦]
 # y~1730
 ## Source:
 sw 宇宙暦
-#
+
 name_ja 宇宙暦
+
+%tag tag
+%tag   name_en Star Trek
+%tag   name_ja 宇宙大作戦
+tag Star Trek
+
 &
 name(en) Star Date
 &
 acronym(en) S.D.
 expanded(en) [S]tar [D]ate
 AD1969 = 1
+
 # 宇宙暦紀元前
 tag 日本国
 tag 日本人
+tag 日本の私的紀年法
+<-平成 [g:1999,g:1999-10-6] #利用開始 #Webサイト #日本国 #分離
+tag Webサイト
 u 1-7-21
 u 48
 # u 宇宙暦紀元前11-1-6
@@ -1353,7 +1684,14 @@ def[天孫紀元]
 # y~1729
 ## Source:
 sw 天孫紀元
-#
+
+tag 日本人
+tag 日本国
+tag 神道
+tag 宗教紀年
+tag 建国紀元
+tag 日本の私的紀年法
+
 name_ja 天孫紀元
 name_kana てん そん き げん
 &
@@ -1376,17 +1714,40 @@ name_ja 天祖降跡紀元
 name_ja 天降皇紀
 wref_ja 天孫紀元
 AD2016 = 1795149
-tag 日本人
-tag 日本国
-tag 神道
+
 u 1795096-7-10
 u 1795153
+u 1795155
+
+%tag religion
+%tag   name_ja 古神道みちひらき神ながらの道
+%tag   group of 神道
+tag 古神道みちひらき神ながらの道
+
+%tag person
+%tag   name_ja 荒深道斉
+tag 荒深道斉
+
+%tag org
+%tag   name_ja 大日本國民戰線
+tag 大日本國民戰線
+
+%tag source
+%tag   name_ja 闢邪
+tag 闢邪
 
 def[天降紀元]
 # y~1802
 ## Source:
 sw 天降紀元
-#
+
+tag 日本国
+tag 日本人
+tag 神道
+tag 宗教紀年
+tag 建国紀元
+tag 日本の私的紀年法
+
 name_ja 天降紀元
 name(ja) 天降[J:あもり]紀元[き げん]
 &
@@ -1397,22 +1758,15 @@ name 天孫降臨以來
 name_ja 中興紀元
 &
 name_ja 神仙紀元
+
 AD2009 = 5009
-tag 日本国
-tag 日本人
-tag 神道
 u 5009
 u 5020
 
-def[天之御中主天皇即位紀元]
-name_ja 天之御中主天皇即位紀元
-&
-name_ja 皇紀
-sw 天之御中主天皇即位紀元
-
-def[神紀]
-name 神紀
-sw 神紀
+%tag person
+%tag   name_ja 備中處士
+tag 備中處士
+<-平成 g:2009-1-1 #利用開始{#備中處士} #日本国 #グレゴリオ暦 #併用
 
 def[霊波]
 # y~1735
@@ -1423,7 +1777,20 @@ AD1915 = 1
 
 tag 日本国
 tag 日本人
+tag 教祖誕生紀年
+tag 日本の私年号
+
+%tag religion
+%tag   name_ja 霊波之光
 tag 霊波之光
+
+%tag person
+%tag   name_ja 波瀬善雄
+tag 波瀬善雄
+
+%tag person
+%tag   name_ja 波瀬敬詞
+tag 波瀬敬詞
 
 name_ja 霊波
 name_kana れい は
@@ -1436,26 +1803,61 @@ expanded(ja_latin) [R]eiha
 u 86
 u 43
 u 106-5-8
+<-大正 g:1915-7-2 #誕生{#波瀬善雄} #霊波之光 #事由 #大日本帝国 #グレゴリオ暦
+<-昭和 g:1954-3-7 #宗教創設{#霊波之光 #波瀬善雄} #事由 #日本国 #グレゴリオ暦
+>< g:1984-3-19 #死去{#霊波之光 #波瀬善雄}
+>< g:1984-7-2 #即位{#霊波之光 #波瀬敬詞}
+<-平成 [g:2000] #制定{#霊波之光 #波瀬敬詞} #併用 #日本国 #グレゴリオ暦
+<-平成 [g:2000] #利用開始{#霊波之光 #波瀬敬詞} #併用 #日本国 #グレゴリオ暦
 
 def[聖日]
 # y~1737
 ## Source:
 sw 聖日
-#
-name_ja 聖日
-name_kana せい び
-AD1987 = 1
+
 tag 日本人
 tag 日本国
+tag 日本の私年号
+tag 宗教紀年
+
+%tag religion
+%tag   name_ja 神示教会
+%tag   group of 神道
 tag 神示教会
+
+%tag person
+%tag   name_ja 供丸姫
+tag 供丸姫
+
+name_ja 聖日
+name_kana せい び
+
+AD1987 = 1
 u 28-7
 u 34
+<-昭和,平成 [g:1987,g:2014] #利用開始{#神示教会} #併用 #日本国 #グレゴリオ暦
 
 def[神の国の紀元]
 # y~1748
 ## Source:
 sw 神の国の紀元
-#
+
+tag 日本人
+tag 大日本帝国
+tag 日本国
+tag 米領ハワイ
+tag 宗教創設紀年
+tag 日本の私的紀年法
+
+%tag religion
+%tag   name_ja 天照皇大神宮教
+%tag   group of 神道
+tag 天照皇大神宮教
+
+%tag person
+%tag   name_ja 北村サヨ
+tag 北村サヨ
+
 name_ja 紀元
 &
 name(ja) 大|神|様[J:]紀元
@@ -1465,388 +1867,443 @@ name(ja) 神[J:]の[J:]国[J:]の[J:]紀元
 name(ja) 神[J:]の[J:]国[J:]年
 &
 name(ja) 神[J:]の[J:]国[J:]開元の[J:]年
+
 AD1946 = 1
-tag 日本人
-tag 日本国
-tag 天照皇大神宮教
+<-昭和 g:1945-1-1 #制定{#天照皇大神宮教 #北村サヨ} #グレゴリオ暦 #大日本帝国
+<-昭和 g:1945-8-12 #発表{#天照皇大神宮教 #北村サヨ} #グレゴリオ暦 #大日本帝国
+<-昭和 g:1946-1-1 #適用開始{#天照皇大神宮教 #北村サヨ} #グレゴリオ暦
+    #大日本帝国 #併用
+<-昭和 g:1955-11-28 #利用開始{#天声} #天照皇大神宮教 #北村サヨ #グレゴリオ暦
+    #日本国 #米領ハワイ #分離
 u 1
 u 5-4
 u 9-12
 u 66
 
+#XXXmagazine
+%tag org
+%tag   name_ja 天声
+tag 天声
+
+tag 近代諸元号現象・改
+#p.559
+
 def[救済]
 # y~1746
 ## Source:
 sw 救済
-#
-name_ja 救済
-AD1991 = 1
+
 tag 日本国
 tag 日本人
+tag 日本の私年号
+
+%tag religion
+%tag   name_ja オウム真理教
 tag オウム真理教
+
+%tag person
+%tag   name_ja 麻原彰晃
+tag 麻原彰晃
+
+name_ja 救済
+AD1991 = 1
 u 1
 u 4
+<-平成 [g:1993-7,g:1993-8] #改元日{#オウム真理教 #麻原彰晃} #起事建元
+    #グレゴリオ暦 #日本国 #制定 #適用開始
+
+tag 近代諸元号現象・改
+#p.685
+
+tag 三訂 近代諸元号現象
+#p.23
 
 def[真理]
 # y~1747
 ## Source:
 sw 真理
-#
+
+tag 日本国
+tag 日本人
+tag 日本の私年号
+
+tag オウム真理教
+tag 麻原彰晃
+
 name_ja 真理
 &
+
 name_ja 真理暦
 name_ja 真理歴
+
+%tag religion
+%tag   name_ja 太陽寂静国
+%tag   period of オウム真理教
+tag 太陽寂静国
+
 AD1997 = 1
-tag 日本国
-tag 日本人
-tag オウム真理教
 u 1
+<-救済 g:1994-2-28 #制定{#オウム真理教 #麻原彰晃} #日本国 #グレゴリオ暦
+<-救済 g:1997-1-1 #改元日{#オウム真理教 #麻原彰晃} #適用開始 #日本国
+    #グレゴリオ暦 #太陽寂静国
 
-def[金蛙]
-# y~1792
-## Source:
-sw 金蛙
-#
-name_ja 金蛙
-AD2003 = 1
-tag 日本国福岡県
-tag 日本人
-tag 全国かえる奉賛会
-tag げこげこ大王7世
-u 1-7-27
-u 3-9-20
-tag 日本の私年号
+tag 三訂 近代諸元号現象
+#p.23
 
-def[悪魔暦]
-# y~1754
-## Source:
-sw 魔暦
-#
-name_ja 魔暦
-name_kana ま れき
-&
-name_ja 悪魔暦
-name_kana あく ま れき
-&
-acronym(en) D.C.
-expanded(en) [D]evil's [C]alendar
-# 魔暦前
-# 魔暦紀元前
-# B.D.
-# = Before Demon
-wref_ja 魔暦
-AD1999 = 1
-u 1
-u 23
-tag 日本国
-tag 日本人
 
-def[真那暦]
-# y~1785
+def[大元暦]
+# y~1790
 ## Source:
-sw 真那暦
-#
-name_ja 真那暦
-name_kana まさ な れき
-name_ja 真那歴
-AD1991 = 0
-# 2014-10-15 established
-u 24-1-2
-u 25
-u 30-1-1
+sw 大元暦
+
 tag 日本人
 tag 日本国
+tag 宗教紀年
+tag 日本の私的紀年法
 
-def[白王寂滅]
-## Source:
-sw 白王寂滅
-#
-name_ja 白王寂滅
-u 9-7-17
-u 9-6-19
-u 10-1-16
-AD2012 = 1
-tag 日本国
-tag 日本人
-tag 日本の私年号
+%tag religion
+%tag   name_ja 大元密教
+%tag   group of 仏教
+tag 大元密教
 
-def[育喜]
-# y~1761
-## Source:
-sw 育喜
-#
-AD1983 = 1
-name_ja 育喜
-tag 日本国
-tag 日本人
-u 30
-u 36-1-4
-tag 日本の私年号
+name(ja) 大元[だい げん]暦
+AD1952 = 1
+u 61
+<-昭和,平成 [g:1952,g:2012-2-14] #利用開始{#大元密教} #グレゴリオ暦 #併用
+    #日本国
 
-def[急行志摩紀元]
-# y~1797
-## Source:
-sw 急行志摩紀元
-#
-name_ja 急行志摩紀元
+def[天之御中主天皇即位紀元]
+name_ja 天之御中主天皇即位紀元
 &
-name_ja 志摩紀元
-AD1972 = 1
-tag 日本国
-tag 日本人
-u 45-1-1
-u 49-1-1
+name_ja 皇紀
+sw 天之御中主天皇即位紀元
 
-def[希哲]
-# y~1796
-## Source:
-sw 希哲紀元
-#
-name_ja 希哲
-&
-name_ja 希哲紀元
-name_kana き てつ き げん
-&
-name_ja 希紀
-&
-name(en) Kitetu Era
-&
-acronym(en) KE
-expanded(en) [K]itetu [E]ra
-&
-acronym(en) K
-expanded(en) [K]itetu Era
-AD2007 = 1
-# 希哲前
-# 2014 established
-u 8
-u 15-1
+def[神紀]
+name 神紀
+sw 神紀
 
-def[統仁]
-name 統仁
-sw 孝明天皇即位紀年
-AD1866 = 20
 
-def[阪神タイガース]
-# y~1793
-## Source:
-sw 阪神タイガース
-#
-name(ja) 阪神タイガース
-&
-name_ja 阪神優勝
-&
-name_ja 優勝
-&
-name_ja 阪神暦
-AD1985 = 1
-tag 日本の私年号
 
-def[強小]
-# y~1786
-## Source:
-sw 強小
-#
-name_ja 強小
-name_kana きょう しょう
-name(en) KYŌSHŌ
-AD2009 = 1
-u 1
-u 11
-u 12
-tag 日本国鳥取県
-tag 日本人
-tag 日本の私年号
-
-def[朱雀(戊寅)]
-# y~1767
-## Source:
-sw ◆朱雀
-#
-name(ja)! ◆朱雀[す ざく]
-name_ja 朱雀
-name_kana す ざく
-AD1998 = 1
-tag 日本国
-tag 日本人
-u 1
-u 22
-tag 日本の私年号
 
 def[大新]
+#y~1768
 ## Source:
 sw 大新
-#
+
+tag 中国共産党占領地満州
+tag 日ソ戦争
+tag 日本人
+tag 日本の私年号
+
 name_ja 大新
 sw 大新
 AD1945 = 1
-tag 中国共産党占領地満州
-tag 日本人
-# <-昭和
+
+<-昭和 [g:1945-8-15,g:1946-3-24] #発生 #中国共産党占領地満州 #日本人 #日ソ戦争
 u 2-3-24
-tag 日本の私年号
+
+tag 近代諸元号現象・改
+#p.681
+
+tag 三訂 近代諸元号現象
+#p.15
 
 def[大新(丙戌)]
+#y~1769
 ## Source:
 sw 大新
-#
-name_ja 大新
-AD1946 = 1
+
 tag 中国共産党占領地満州
+
+tag 日ソ戦争
 tag ソ連領シベリア
 tag 日本人
-# <-昭和
-u 1
 tag 日本の私年号
 
+name_ja 大新
+
+AD1946 = 1
+<-昭和 [g:1945-8-15,g:1946-3] #発生 #中国共産党占領地満州 #日本人 #日ソ戦争
+u 1
+
+tag 三訂 近代諸元号現象
+#p.15
+
 def[新日本(乙酉)]
+#y~1770
 ## Source:
 sw 新日本
-#
+
+tag 日本人
+tag 大日本帝国
+tag 日本国
+tag 日本の私年号
+tag 大東亜戦争
+
+%tag person
+%tag   name_ja 尾崎行雄
+tag 尾崎行雄
+
 name_ja 新日本
 AD1945 = 1
-# <-昭和
+<-昭和 [g:1945-8-15,g:1945-12-10] #利用開始{#尾崎行雄} #大日本帝国
+    #グレゴリオ暦 #併用
 # 1945-12-29 proposed to the emperor
 # 1946-01    proposed to 衆議院議長
 u 1-12-10
 u 3-5
 u 5-1-1
 u 9-2
-# 1954-10-6 尾崎行雄 dead
-tag 日本人
-tag 日本国
-tag 日本の私年号
+>< g:1954-10-6 #死去{#尾崎行雄} #グレゴリオ暦 #日本国
+tag 年賀状
 
 def[新日本]
+#y~1757
 ## Source:
 sw 新日本
-#
+
 tag 日本人
+tag 大日本帝国
 tag 日本国
-# incorrect -> 新日本(乙酉)
+tag 日本の私年号
+tag 大東亜戦争
+
+tag 尾崎行雄
+
+<-新日本(乙酉) [g:1946,g:2009-8-29] #年誤伝発生 #日本語版ウィキペディア
+
 name_ja 新日本
 wref_ja 元号
 AD1946 = 1
-tag 日本の私年号
+<-昭和 g:1946-1-1 #改元日{#尾崎行雄} #制定 #適用開始 #日本国 #旧説
 
 def[新日本紀元]
+#y~1771
 ## Source:
 sw 新日本紀元
-#
+
+tag 日本国
+tag 日本人
+tag 大東亜戦争
+tag 日本の私的紀年法
+
+%tag org
+%tag   name_ja 國士舘
+tag 國士舘
+
 name_ja 新日本紀元
 AD1952 = 1
 u 1-5-1
-tag 日本国
-tag 日本人
+
+<-昭和 [g:1952,g:1952-5-1] #利用開始{#國士舘} #日本国 #グレゴリオ暦 #併用
 
 def[戦後]
 # y~1759
 ## Source:
 sw 戦後 (紀年法)
-#
+
+tag 日本人
+tag 日本国
+tag 大東亜戦争
+tag 日本の私年号
+
 AD1946 = 1
 wref_ja 0年
 name_ja 戦後
 &
 name_ja 戦後暦
 name_ja 戦後歴
+
+%tag person
+%tag   name_ja 明良佐藤
+tag 明良佐藤
+
+%tag source
+%tag   name_ja 戦後カレンダー
+tag 戦後カレンダー
+
+tag 元号法制定
+<-昭和 [g:1979-6-12,g:1984-1-31] #利用開始{#明良佐藤} #戦後カレンダー #分離
+u 39-1-31
+#cal: 戦後暦
+
+%tag person
+%tag   name_ja 高橋健一
+tag 高橋健一
+<-平成 g:1997-5-3 #利用開始{#高橋健一} #分離 #明良佐藤
+#cal: 戦後暦
+
+tag 東百道
+<-戦後(乙酉) g:2007-8-15 #利用開始{#東百道} #グレゴリオ暦
+#cal: グレゴリオ暦
+
 &
 name_ja 戦後紀元
 &
 name(en) After The War
 # cal Gregorian
 # cal 戦後暦
-tag 日本人
-tag 日本国
 u 40
 u 52-5-3
-u 59-1-31
 u 76
 # 戦前0, 戦前1, ...
 tag 日本の私年号
+
+#戦後暦
+%tag org
+%tag   name_ja 徳島県立文書館
+tag 徳島県立文書館
+#cal: グレゴリオ暦
+
+tag NHK
+#cal: グレゴリオ暦
 
 def[戦後(乙酉)]
 # y~1772
 ## Source:
 sw 戦後 (紀年法)
-#
+
+tag 日本人
+tag 日本国
+tag 大東亜戦争
+tag 日本の私年号
+
 AD1945 = 1
 name_ja 戦後
 &
 name_ja 戦後暦
-tag 日本人
-tag 日本国
-u 63-8-6
-  # established
-u 63-8-11
-# ->戦後 y~1759
-# 2007-8-15 revised
-tag 日本の私年号
+
+%tag person
+%tag   name_ja 東百道
+tag 東百道
+tag Webサイト
+<-戦後 g:2007-8-6 #年異説発生{#東百道} #グレゴリオ暦 #分離
+<-平成 g:2007-08-6 #利用開始{#東百道} #グレゴリオ暦 #分離
+<-平成 g:2007-08-11 #発表{#東百道} #グレゴリオ暦 #分離
 
 def[非戦]
+#y~1804
 ## Source:
 sw 非戦
-#
-name_ja 非戦
+
 tag 日本人
 tag 日本国
+tag 日本の私年号
+
+%tag person
+%tag   name_ja 野本三吉
+tag 野本三吉
+
+name_ja 非戦
+
 AD2002 = 1
 u 1-6-1
 u 8
-tag 日本の私年号
+<-平成 [g:2000,g:2002-6-1] #利用開始{#野本三吉} #日本国 #分離 #グレゴリオ暦
 
-def[労農]
-# y~1803
-## Source:
-sw 労農 (元号)
-#
-name_ja 労農
-tag 日本国
-tag 日本人
-tag 共産主義
-u 10-8-10
-AD1926 = 10
-tag 日本の私年号
+tag 高橋健一
+tag Web日記
+<-戦後 [g:2001-10-15,g:2002-9-11] #利用開始{#高橋健一} #分離 #日本国
+    #グレゴリオ暦
 
 def[原子]
 # y~1773
 ## Source:
 sw 原子暦
-#
+
+tag 日本人
+tag マイクロネーションの紀年法
+tag 日本の私年号
+tag 大東亜戦争
+
+%tag region
+%tag   name_ja 司王国
+%tag   region of 日本国
+tag 司王国
+
+%tag person
+%tag   name_ja 早川英三
+tag 早川英三
+
 name_ja 原子
 &
 name_ja 原子暦
 &
 acronym(en) A・A
+#B・A
+
+<-昭和 [g:1945-8-15,g:1945] #利用開始{#司王国 #早川英三} #グレゴリオ暦 #分離
 AD1945 = 1
 u 3
-tag 日本人
-tag 司王国
-tag マイクロネーションの紀年法
-#B・A
-tag 日本の私年号
 
 def[被爆]
 # y~1774
 ## Source:
 sw 被爆
-#
-name_ja 被爆
-u 29
-u 30-12-20
+
 tag 日本人
 tag 日本国
 tag 日本の私年号
+tag 大東亜戦争
+
+%tag religion
+%tag   name_ja 千人鶴の会
+tag 千人鶴の会
+
+name_ja 被爆
+
+<-昭和 [g:1945-8-6,g:1974] #利用開始{#千人鶴の会} #日本 #分離
+u 29
+u 30-12-20
 
 def[原爆]
 # y~1775
 ## Source:
 sw 原爆暦
-#
+
+tag 日本人
+tag 日本国
+tag 日本の私年号
+tag 大東亜戦争
+
 name_ja 原爆
+
+tag 千人鶴の会
+<-被爆 [g:1974-12-20,g:1987-2-25] #利用開始{#千人鶴の会} #日本
+u 25-8-6
+u 73-8-16
+u 76-11-22
+
 &
+
 name_ja 原爆暦
 name_kana げん ばく れき
+
+%tag org
+%tag   name_ja 共生舎
+tag 共生舎
+%tag org
+%tag   name_ja エコシステム株式会社
+tag エコシステム株式会社
+%tag person
+%tag   name_ja 中村秀樹
+tag 中村秀樹
+u 41-5
+u 36
+u 58-2-27
+u 70-10
+<-昭和,平成 [g:1980,g:2001-5-2] #利用開始{#中村秀樹 #共生舎} #日本国
+    #グレゴリオ暦 #分離
+# ->エコ暦
+
+%tag person
+%tag   name_ja 明石博行
+tag 明石博行
+u 1-7
+u 10
+<-AD [g:1990,g:1999] #制定{#明石博行} #日本国 #グレゴリオ暦 #分離
+<-AD [g:1945-7] #適用開始{#明石博行} #グレゴリオ暦 #大東亜戦争 #分離
+
 &
 name_ja 原爆紀元
 &
@@ -1854,31 +2311,29 @@ acronym(ja_latin) G
 &
 acronym(en) A
 AD1945 = 1
-tag 日本人
-tag 日本国
 u 43-2-25
-u 25-8-6
-u 76-11-22
-#
-u 1-7
-u 10
-#
-u 41-5
-u 36
-u 58-2-27
-u 70-10
-# ->エコ暦
 #
 u 78-10
 u 76-1-15
-tag 日本の私年号
 
 def[原爆紀元]
 # y~1781
 ## Source:
 sw 原爆紀元
-#
+
 name_ja 原爆紀元
+
+tag 日本人
+tag 日本国
+tag 日本の私的紀年法
+%tag person
+%tag   name_ja 栗原貞子
+tag 栗原貞子
+u 46
+u 47-1-1
+<-平成 [g:1991] #利用開始{#栗原貞子} #グレゴリオ暦 #分離
+tag 大東亜戦争
+
 &
 name_ja 原爆暦
 &
@@ -1895,21 +2350,28 @@ name(en) the atomic bomb
 name(en) Atomic Bomb Calendar
 &
 acronym(ja_latin) G
-AD1946 = 1
-tag 日本人
-tag 日本国
+
 tag 豪州
-u 46
-u 47-1-1
-#
+%tag org
+%tag   name_ja 戦争マップ制作室
+tag 戦争マップ制作室
 u 0
 u 62
+
+AD1946 = 1
 
 def[エコ暦]
 # y~1762
 ## Source:
 sw エコ暦
-#
+
+tag 日本国
+tag 日本人
+tag 日本の私的紀年法
+
+tag エコシステム株式会社
+tag 中村秀樹
+
 name(ja) エコ暦[れき]
 &
 name(ja_latin) eco
@@ -1927,11 +2389,23 @@ u 71-12-8
 tag 日本人
 tag 日本国
 
+<-原爆 [g:2002-11-1,g:2009-8-20]
+    #名異説発生利用開始{#中村秀樹 #エコシステム株式会社}
+    #日本国 #グレゴリオ暦 #併用
+
 def[原爆(エコ)暦]
 # y~1783
 ## Source:
 sw 原爆(エコ)暦
-#
+
+tag 日本人
+tag 日本国
+tag 日本の私的紀年法
+tag 大東亜戦争
+
+tag エコシステム株式会社
+tag 中村秀樹
+
 name(ja) 原爆(エコ)暦
 &
 name(ja_latin) eco
@@ -1939,48 +2413,88 @@ AD1945 = 0
 u 60
 u 72-8-8
 u 72-12-8
-tag 日本人
-tag 日本国
+
+<-原爆,エコ暦 [g:2009-8-20,g:2016-8-8]
+    #年異説発生利用開始{#中村秀樹 #エコシステム株式会社}
+    #日本国 #グレゴリオ暦 #併用
 
 def[PH]
 # y~1776
 ## Source:
 sw ポストヒロシマ
-#
+
+tag 大東亜戦争
+tag ユダヤ人
+tag 私年号
+
+%tag person
+%tag   name_ja アーサーケストラー
+tag アーサーケストラー
+
 acronym(en) P.H.
 expanded(en) [P]ost [H]IROSHIMA
 &
 name(en) Post HIROSHIMA
 name(ja) ポスト・ヒロシマ
+
 AD1945 = 1
-# 1978-2-1 proposed
+<-AD g:1978-2-1 #制定{#アーサーケストラー} #ホロン革命
+u 1
+u 64
+
+%tag source
+%tag   name_ja ホロン革命
+tag ホロン革命
 
 def[PH(丙戌)]
 # y~1777
 ## Source:
 sw ポストヒロシマ
-#
+
+tag 日本人
+tag 日本国
+tag 日本の私年号
+tag ブログ
+
 acronym(en) P.H.
 #expanded(ja) [ポ]スト・[ヒ]ロシマ
 &
 name(ja) ポスト・ヒロシマ
 name(ja) ポスト広島[ひろ しま]
+
 AD1946 = 1
+<-PH [g:1978-2-1,g:2008-11-13] #年誤伝発生 #日本
+u 63
+u 72
 
 def[ヒロシマ紀元]
 # y~1778
 ## Source:
 sw ヒロシマ紀元
-#
+
+tag 日本人
+tag 日本国
+tag 大東亜戦争
+tag 日本の私的紀年法
+
 name(ja) ヒロシマ紀元
+
+%tag person
+%tag   name_ja ジョンサマビル
+tag ジョンサマビル
+<-AD [g:1945-8-6,g:1994] #制定{#ジョンサマビル} #異説 #グレゴリオ暦
+
+%tag person
+%tag   name_ja 芝田進午
+tag 芝田進午
+tag 年賀状
+<-AD [g:1978,g:1983] #制定{#芝田進午} #日本 #グレゴリオ暦 #分離
+
 &
 name(ja) ヒロシマ・ナガサキ紀元
 &
 name(ja) ヒロシマ、ナガサキ
 AD1945 = 0
-tag 日本人
-tag 日本国
-# 1978? proposed
 u 37
 u 37-6-18
 # ->核時代
@@ -1991,7 +2505,22 @@ def[aH]
 # y~1782
 ## Source:
 sw aH
-#
+
+%tag religion
+%tag   name_ja ラエリアンムーブメント
+%tag   group of 弥勒信仰
+tag ラエリアンムーブメント
+tag 大韓民国国民
+tag 大韓民国
+tag 日本国
+tag 日本人
+tag 日本の私的紀年法
+tag 大韓民国の私的紀年法
+
+%tag person
+%tag   name_ja ラエル
+tag ラエル
+
 AD1946 = 0
 acronym(en) A.H.
 acronym(en) aH
@@ -2014,16 +2543,22 @@ name(ja) AH暦
 u 41-8
 u 75-10-10
 # cal aH
-tag ラエリアンムーブメント
 
-tag 大韓民国国民
-tag 大韓民国
+<-AD [g:1996] #利用開始{#ラエリアンムーブメント #ラエル}
+#<-ラエル 라엘
+
 
 def[核時代]
-# y~601
+#y~601
 ## Source:
 sw 核時代
-#
+
+tag 日本人
+tag 日本国
+tag 日本の私年号
+
+tag 芝田進午
+
 name_ja 核時代
 name_kana かく じ だい
 &
@@ -2036,19 +2571,34 @@ acronym(en) AN
 name_ja 核年代
 wref_ja 核時代
 AD1945 = 0
-# <-ヒロシマ紀元
+
+<-ヒロシマ紀元 [g:1987,g:1987-5] #利用開始{#芝田進午} #グレゴリオ暦
+u 42-5
 u 42-12-25
 u 56-3-14
 u 75-8
-tag 日本人
-tag 日本国
-tag 日本の私年号
+
+%tag org
+%tag   name_ja 晩聲社
+tag 晩聲社
+
+%tag org
+%tag   name_ja 緑の党
+tag 緑の党
+
+tag 年賀状
 
 def[核時代(乙酉)]
 # y~1779
 ## Source:
 sw 核時代
-#
+
+<-核時代 g:2003-2-17 #年誤伝発生 #日本国 #グレゴリオ暦
+
+tag 日本人
+tag 日本国
+tag 日本の私年号
+
 name_ja 核時代
 name_kana かく じ だい
 &
@@ -2061,11 +2611,17 @@ AD1945 = 1
 u 42-5
 tag 日本の私年号
 
+wref_ja 私年号
+
 def[核時代後]
 # y~1780
 ## Source:
 sw 核時代後
-#
+
+tag 日本国
+tag 日本人
+tag 日本の私年号
+
 name_ja 核時代後
 &
 name_ja 核時代後年号
@@ -2092,49 +2648,83 @@ name_ja 世界暦
 AD1945 = 0
 u 47-1-1
 u 75
-tag 日本の私年号
+
+%tag person
+%tag   name_ja 保立道久
+tag 保立道久
+<-核時代 g:1992-1-1 #名異説発生{#保立道久} #日本国 #グレゴリオ暦
+<-平成,AD g:1992-1-1 #利用開始{#保立道久} #日本国 #グレゴリオ暦 #分離
+tag 年賀状
+tag 大東亜戦争
 
 
 def[震災]
-# y~1788
+#y~1788
 ## Source:
 sw 震災元年
-#
+
+tag 日本人
+tag 日本国
+tag 日本の私年号
+
+%tag event
+%tag   name_ja 東日本大震災
+tag 東日本大震災
+<-平成 g:2011-3-11 #災異{#東日本大震災} #日本国 #グレゴリオ暦
+
 name_ja 震災
 name_kana しん さい
 AD2011 = 1
-tag 日本人
-tag 日本国
-#
-# 2012-01-09 established
+
+%tag person
+%tag   name_ja mizumoe19
+tag mizumoe19
+<-平成 g:2012-01-09 #改元日{#mizumoe19} #制定 #適用開始 #グレゴリオ暦
+    #併用 #日本国
+tag ブログ
 u 1
 u 10-2-28
 # ->コロナ y~1794 2020-03-08
-#
+
 u 1-6
 u 1-4
-tag 日本の私年号
 
 def[フクシマ]
 # y~1787
 ## Source:
 sw フクシマ元年
-#
-name(ja) フクシマ
-AD2011 = 0
+
 tag 日本人
 tag 日本国
+tag 日本の私年号
+
+name(ja) フクシマ
+AD2011 = 0
+
+tag 東日本大震災
+<-平成 g:2011-3-11 #災異{#東日本大震災} #日本国 #グレゴリオ暦
+<-平成 ->フクシマ,フクシマ紀元 g:2011-3-11 #災異{#福島第一原発事故}
+    #日本国 #グレゴリオ暦
+
+%tag event
+%tag   name_ja 福島第一原発事故
+%tag   group of 東日本大震災
+tag 福島第一原発事故
+
 u 0
 u 10
-tag 日本の私年号
 
 def[フクシマ紀元]
 # y~1738
-
 ## Source:
 sw フクシマ紀元
 
+tag 日本人
+tag 日本国
+tag 日本の私的紀年法
+
 name(ja) フクシマ紀元[き げん]
+<-平成 [g:2011-3-11,g:2012-5-3] #利用開始 #グレゴリオ暦 #日本国 #分離
 &
 name(ja) フクシマ紀
 
@@ -2144,59 +2734,73 @@ name_ja 福島
 u 7-8-4
 u 9
 u 11-1-22
+%tag person
+%tag   name_ja 外岡則和
+tag 外岡則和
+<-平成 g:2019-5-7 #利用開始{#外岡則和} #グレゴリオ暦 #日本国 #分離
 
 &&
 name_ja 震災紀元
+tag 年賀状
 
 AD2011 = 1
-tag 日本人
-tag 日本国
 u 1
 u 2-7-3
 u 3
+
+tag 東日本大震災
+<-平成 g:2011-3-11 #災異{#東日本大震災} #日本国 #グレゴリオ暦
 
 def[コロナ]
 # y~1794
 ## Source:
 sw コロナ元年
-#
-name(ja) コロナ
-&
-name(ja) アフター|コロナ
-AD2020 = 1
-# <-震災 y~1788 2020-03-08
-u 1-3-8
-u 1-5-25
-u 1-7-20
-u 2-1-11
+
 tag 日本国
 tag 日本人
 tag 日本の私年号
+
+%tag event
+%tag   name_ja コロナ禍
+tag コロナ禍
+
+name(ja) コロナ
+
+tag mizumoe19
+<-震災 g:2020-03-08 #改元日{#mizumoe19} #制定 #適用開始 #日本国 #グレゴリオ暦
+u 1-3-8
+u 1-7-20
+u 2-1-11
+u 3-7-15
+tag ブログ
+
+&
+name(ja) アフター|コロナ
+AD2020 = 1
+u 1-5-25
+
 
 def[江戸]
 # y~1789
 ## Source:
 sw 江戸 (私年号)
-#
-name_ja 江戸
+
 tag 日本国
 tag 日本人
+tag 日本の私年号
+tag 日本 (江戸時代)
+
+%tag region
+%tag   name_ja 元祖忍者村 肥前夢街道
+%tag   region of 嬉野市
+tag 元祖忍者村 肥前夢街道
+
+name_ja 江戸
 AD1603 = 0
 u 416-5-14
 u 418-1-27
-tag 日本の私年号
-
-def[大元暦]
-# y~1790
-## Source:
-sw 大元暦
-#
-name(ja) 大元[だい げん]暦
-AD1952 = 1
-u 61
-tag 日本人
-tag 日本国
-tag 大元密教
+<-平成,令和 [g:1990-1-2,g:2019-5-14] #利用開始{#元祖忍者村_肥前夢街道}
+    #グレゴリオ暦 #併用
 
 
 %tag source
@@ -2210,7 +2814,6 @@ sw ニコニコ共和国元年
 tag 日本人
 tag 日本国
 tag ミニ独立国の建国紀元
-tag 日本の私年号
 tag にっぽん「独立国」事典
 
 %tag region
@@ -2298,7 +2901,9 @@ name_ja 大吉
 AD1983 = 1
 u 1-5-1
 <-昭和 g:1983-05-01 #ミニ独立国建国{#ジパング国会津芦ノ牧藩} #会津藩 #事由
+    #グレゴリオ暦
 <-昭和 g:1983-05-01 #ミニ独立国設立建元日{#ジパング国会津芦ノ牧藩}
+    #グレゴリオ暦
 
 def[アルコール]
 #y~2223
@@ -2349,8 +2954,8 @@ name(ja) そや
 
 AD1983 = 1
 u 1
-<-昭和 g:1983-04-01 #ミニ独立国建国{#そやんか合衆国} #事由
-<-昭和 g:1983-04-01 #ミニ独立国設立建元日{#そやんか合衆国}
+<-昭和 g:1983-04-01 #ミニ独立国建国{#そやんか合衆国} #事由 #グレゴリオ暦
+<-昭和 g:1983-04-01 #ミニ独立国設立建元日{#そやんか合衆国} #グレゴリオ暦
 
 def[豊国]
 # y~1784
@@ -2375,8 +2980,8 @@ u 5-4
 u 11-8-13
 
 #1977-6 新邪馬台国建設公団
-<-昭和 g:1977-8-1 #ミニ独立国建国{#新邪馬台国} #事由
-<-昭和 g:1977-8-1 #ミニ独立国設立建元日{#新邪馬台国}
+<-昭和 g:1977-8-1 #ミニ独立国建国{#新邪馬台国} #事由 #グレゴリオ暦
+<-昭和 g:1977-8-1 #ミニ独立国設立建元日{#新邪馬台国} #グレゴリオ暦
 
 def[緋扇]
 #y~2225
@@ -2405,6 +3010,369 @@ name(ja) ヒ|オウギ[]暦
 <-昭和 g:1983-11-3 #ミニ独立国設立建元日{#新邪馬台国}
 u 1-1-1
 #XXX yearstart g:--11-3
+
+def[ツチノコ]
+#y~2227
+
+tag 日本人
+tag ミニ独立国の元号
+tag 日本の私年号
+
+%tag region
+%tag   name_ja ツチノコ共和国
+%tag   region of 下北山村
+tag ツチノコ共和国
+tag 吉井町
+
+name(ja) ツチノコ
+
+AD1989 = 1
+<-平成 g:1989-4-22 #ミニ独立国建国{#ツチノコ共和国} #事由 #グレゴリオ暦
+<-平成 g:1989-4-22 #ミニ独立国設立建元日{#ツチノコ共和国} #併用 #グレゴリオ暦
+<-平成 g:2001-4-29 #ミニ独立国編入{#ツチノコ共和国, #吉井町} #併用
+    #グレゴリオ暦
+u 13-4-29
+
+def[いかんべ]
+#y~2228
+
+tag 日本人
+tag ミニ独立国の元号
+tag 日本の私年号
+tag 那須烏山市
+
+%tag region
+%tag   name_ja 大金いかんべ共和国
+%tag   region of 南那須町
+tag 大金いかんべ共和国
+
+%tag event
+%tag   name_ja いかんべ祭
+tag いかんべ祭
+
+name(ja) いかんべ
+
+AD1988 = 11
+u 11
+
+<-昭和 [g:1978] #祭開催{#いかんべ祭} #事由 #南那須町 #グレゴリオ暦
+<-昭和 g:1988-8-23 #祭開催{#いかんべ祭} #事由 #南那須町 #グレゴリオ暦
+<-昭和 g:1988-8-23 #ミニ独立国建国{#大金いかんべ共和国} #事由
+    #グレゴリオ暦
+<-昭和 g:1988-8-23 #利用開始{#大金いかんべ共和国}
+    #マイクロネーション設立建元 #グレゴリオ暦
+->平成 g:2005-10-1 #ミニ独立国閉国{#大金いかんべ共和国} #グレゴリオ暦
+
+def[猪豚]
+#y~2230
+
+AD1986 = 1
+
+tag 日本人
+tag ミニ独立国の元号
+tag 日本の私年号
+
+%tag region
+%tag   name_ja イノブータン王国
+%tag   region of すさみ町
+tag イノブータン王国
+
+name_ja 猪豚
+
+u 1-3-4
+u 11-5-2
+#u 紀元前19-4-1
+
+<-昭和 g:1986-1-1 #ミニ独立国建国紀元適用開始{#イノブータン王国} #グレゴリオ暦
+    #併用
+<-昭和 g:1986-5-4 #ミニ独立国建国{#イノブータン王国} #事由 #グレゴリオ暦
+<-昭和 g:1986-5-4 #制定{#イノブータン王国} #併用 #グレゴリオ暦
+
+def[金蛙]
+# y~1792
+## Source:
+sw 金蛙
+
+tag 日本国福岡県
+tag 日本人
+tag 日本の私年号
+tag ミニ独立国の元号
+
+%tag org
+%tag   name_ja 全国かえる奉賛会
+tag 全国かえる奉賛会
+
+%tag person
+%tag   name_ja げこげこ大王7世
+tag げこげこ大王7世
+
+name_ja 金蛙
+AD2003 = 1
+u 1-7-27
+u 3-9-20
+<-平成 g:2003-7-27 #祥瑞{#全国かえる奉賛会 #げこげこ大王7世} #日本国
+    #グレゴリオ暦
+<-平成 g:2003-7-27 #ミニ独立国改元日{#全国かえる奉賛会 #げこげこ大王7世}
+    #日本国 #グレゴリオ暦 #併用
+
+tag 近代諸元号現象・改
+#p.686
+
+tag 三訂 近代諸元号現象
+#p.26
+
+def[悪魔暦]
+# y~1754
+## Source:
+sw 魔暦
+
+tag 日本国
+tag 日本人
+tag 日本の私的紀年法
+
+%tag org
+%tag   name_ja 聖飢魔II
+tag 聖飢魔II
+
+%tag person
+%tag   name_ja デーモン閣下
+tag デーモン閣下
+
+name_ja 魔暦
+name_kana ま れき
+name_ja 魔歴
+&
+name_ja 悪魔暦
+name_kana あく ま れき
+&
+acronym(en) D.C.
+expanded(en) [D]evil's [C]alendar
+# 魔暦前
+# 魔暦紀元前
+# B.D.
+# = Before Demon
+wref_ja 魔暦
+AD1999 = 1
+u 1
+u 24
+
+<-昭和,平成,AD [g:1985,g:1999-9-20] #制定{#デーモン閣下} #聖飢魔II
+    #グレゴリオ暦 #分離 #日本国
+>< g:1999-12-31 #活動終了{#聖飢魔II} #グレゴリオ暦 #日本国
+
+def[真那暦]
+# y~1785
+## Source:
+sw 真那暦
+
+tag 日本人
+tag 日本国
+tag 日本の私的紀年法
+
+%tag org
+%tag   name_ja SKE48
+tag SKE48
+
+%tag person
+%tag   name_ja 大矢真那
+tag 大矢真那
+tag 誕生紀年
+
+name_ja 真那暦
+name_kana まさ な れき
+name_ja 真那歴
+AD1991 = 0
+
+<-平成 g:1990-11-6 #誕生{#大矢真那} #事由 #グレゴリオ暦 #日本国
+<-平成 [g:2013] #制定{#大矢真那} #利用開始 #日本国 #SKE48
+>< g:2017-11-30 #活動終了{#大矢真那 #SKE48} #日本国
+u 24-1-2
+u 25
+u 30-1-1
+
+def[白王寂滅]
+#y~1795
+## Source:
+sw 白王寂滅
+
+tag 日本国
+tag 日本人
+tag 日本の私年号
+
+%tag tag
+%tag   key コードドラゴンブラッド
+%tag   name_ja コード:ドラゴンブラッド
+tag コードドラゴンブラッド
+
+%tag source
+%tag   name_ja カッセル新聞部特集号
+tag カッセル新聞部特集号
+
+name_ja 白王寂滅
+u 9-7-17
+u 9-6-19
+u 10-1-16
+AD2012 = 1
+<-AD [g:2020-4-9,g:2020-6-19] #利用開始{#カッセル新聞部特集号}
+    #コードドラゴンブラッド #併用 #グレゴリオ暦
+
+def[育喜]
+# y~1761
+## Source:
+sw 育喜
+
+tag 日本国
+tag 日本人
+tag 日本の私年号
+
+%tag person
+%tag   name_ja 成田喜一郎
+tag 成田喜一郎
+
+AD1983 = 1
+name_ja 育喜
+u 30
+u 36-1-4
+<-昭和 [g:1983] #改元日{#成田喜一郎} #制定 #適用開始 #日本国 #グレゴリオ暦
+    #併用
+<-平成 [g:2011] #利用開始{#成田喜一郎} #日本国 #再開 #グレゴリオ暦 #併用
+tag 年賀状
+
+def[急行志摩紀元]
+# y~1797
+## Source:
+sw 急行志摩紀元
+
+tag 日本国
+tag 日本人
+tag 日本の私的紀年法
+
+%tag person
+%tag   name_ja 急行志摩号
+tag 急行志摩号
+
+name_ja 急行志摩紀元
+&
+name_ja 志摩紀元
+AD1972 = 1
+u 45
+u 49-1-1
+<-平成 [g:1972,g:2017-1-28] #利用開始{#急行志摩号} #ブログ #日本国 #旧暦 #併用
+tag ブログ
+
+def[希哲]
+# y~1796
+## Source:
+sw 希哲紀元
+
+tag 日本国
+tag 日本人
+tag 日本の私的紀年法
+
+%tag org
+%tag   name_ja 希哲館
+tag 希哲館
+
+%tag person
+%tag   name_ja 宇田川浩行
+tag 宇田川浩行
+
+name_ja 希哲
+&
+name_ja 希哲紀元
+name_kana き てつ き げん
+&
+name_ja 希紀
+&
+name(en) Kitetu Era
+&
+acronym(en) KE
+expanded(en) [K]itetu [E]ra
+&
+acronym(en) K
+expanded(en) [K]itetu Era
+AD2007 = 1
+
+# 希哲前
+<-AD [g:2014] #利用開始{#希哲館 #宇田川浩行} #グレゴリオ暦 #分離 #日本国
+u 8
+u 15-1
+u 16-7-24
+
+def[阪神タイガース]
+# y~1793
+## Source:
+sw 阪神タイガース
+
+tag 日本国
+tag 日本人
+tag 日本の私年号
+
+%tag org
+%tag   name_ja 阪神タイガース
+tag 阪神タイガース
+
+name(ja) 阪神タイガース
+tag 年賀状
+&
+name_ja 阪神優勝
+&
+name_ja 優勝
+&
+name_ja 阪神暦
+
+AD1985 = 1
+<-昭和 g:1985-10-16 #祥瑞{#阪神タイガース} #日本国 #グレゴリオ暦
+<-昭和,平成 [g:1985-10-16,g:2019-1-1] #利用開始 #阪神タイガース #日本国
+    #グレゴリオ暦
+
+def[強小]
+# y~1786
+## Source:
+sw 強小
+
+tag 日本国鳥取県
+tag 日本人
+tag 日本の私年号
+
+%tag org
+%tag   name_ja ガイナーレ鳥取
+tag ガイナーレ鳥取
+
+name_ja 強小
+name_kana きょう しょう
+name(en) KYŌSHŌ
+
+AD2009 = 1
+<-AD g:2009-1-12 #制定{#ガイナーレ鳥取} #日本国鳥取県 #併用
+u 1
+u 11
+u 12
+
+def[朱雀(戊寅)]
+# y~1767
+## Source:
+sw ◆朱雀
+
+tag 日本国
+tag 日本人
+tag 日本の私的紀年法
+
+%tag org
+%tag   key 朱雀
+%tag   name_ja ◆朱雀
+tag 朱雀
+
+name(ja)! ◆朱雀[す ざく]
+name_ja 朱雀
+name_kana す ざく
+
+AD1998 = 1
+u 1
+u 22
+<-平成 g:1998-5-16 #活動開始{#朱雀} #日本国 #グレゴリオ暦 #事由
+<-平成 [g:1998-5-16,g:2013-3-9] #利用開始{#朱雀} #日本国 #グレゴリオ暦 #併用
+
 
 
 
@@ -3240,6 +4208,9 @@ tag 日本人
 tag 日本
 tag 日本の私年号
 
+tag 三訂 近代諸元号現象
+#p.4 天晴 天星 天政
+
 def[神徳]
 name_ja 神徳
 AD1867 = 1
@@ -3247,12 +4218,18 @@ tag 日本人
 tag 日本
 tag 日本の私年号
 
+tag 三訂 近代諸元号現象
+#p.4
+
 def[神治]
 name_ja 神治
 AD1867 = 1
 tag 日本人
 tag 日本
 tag 日本の私年号
+
+tag 三訂 近代諸元号現象
+#p.4
 
 def[長徳(丁卯)]
 name_ja 長徳
@@ -3268,6 +4245,12 @@ tag 日本人
 tag 日本
 tag 日本の私年号
 
+tag 近代諸元号現象・改
+#p.673
+
+tag 三訂 近代諸元号現象
+#p.4
+
 def[大政]
 name_ja 大政
 AD1868 = 1
@@ -3275,6 +4258,12 @@ tag 日本人
 tag 日本
 wref_ja 大政_(私年号)
 tag 日本の私年号
+
+tag 近代諸元号現象・改
+#p.671
+
+tag 三訂 近代諸元号現象
+#p.4
 
 [白鳳]
 wref_ja 白鳳

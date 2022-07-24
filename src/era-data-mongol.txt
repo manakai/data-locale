@@ -4,8 +4,21 @@
 ## [104] 中国歴代年号考 修訂本
 
 %tag people
-%tag   name_ja 蒙古人
+%tag   name_ja 蒙古系民族
 %tag   group of 中華異民族
+%tag   group of アジア人
+
+%tag people
+%tag   name_ja 蒙古人
+%tag   group of 蒙古系民族
+
+%tag people
+%tag   name_ja ブリヤート人
+%tag   group of 蒙古系民族
+
+%tag people
+%tag   name_ja オイラト
+%tag   group of 蒙古系民族
 
 %tag region
 %tag   name_ja 蒙古
@@ -23,6 +36,10 @@
 %tag region
 %tag   name_ja 東蒙古
 %tag   region of 内蒙古
+
+%tag region
+%tag   name_ja 西蒙古
+%tag   region of 蒙古
 
 %tag region
 %tag   name_ja オルドス高原
@@ -1180,10 +1197,6 @@ wref_ko 북원
 %tag   name_ja 後元 (オイラト)
 %tag   period of 元
 
-%tag people
-%tag   name_ja オイラト
-%tag   group of 蒙古人
-
 [添元]
 #y~708
 
@@ -1262,6 +1275,7 @@ sw 共戴
 tag 外蒙古
 tag 中華民国
 tag チベット仏教
+tag ロシア革命
 
 %tag country
 %tag   label_ja ボグドハーン政権
@@ -1371,6 +1385,13 @@ tag 旧制再開
 tag 元号廃止前の元号
 tag 元号復活
 
+
+tag 近代諸元号現象・改
+#p.678
+
+tag 三訂 近代諸元号現象
+#p.13
+
 %tag country
 %tag   name_ja 蒙古人民共和国
 %tag   period of 外蒙古
@@ -1448,8 +1469,49 @@ u 15-6-10
 ->AD [g:1940] #根拠法廃止 #憲法 #分離
 
 
+tag 近代諸元号現象・改
+#p.678
+
+tag 三訂 近代諸元号現象
+#p.13
+
+
+def[蒙古國]
+#y~2229
+
+sw 蒙古国元年
+
+AD1919 = 1
+
+tag 蒙古
+tag 内蒙古
+tag 蒙古人
+tag ブリヤート人
+tag オイラト
+tag 外蒙古
+tag 東蒙古
+tag 西蒙古
+tag 東トルキスタン
+tag シベリア
+tag ロシア革命
+tag シベリア出兵
+
+%tag country
+%tag   label_ja 大蒙古国
+%tag   label_ja 大モンゴル国
+%tag   name_ja 蒙古国
+tag 大蒙古国
+
+name_ja 蒙古國
+
+<-AD,民國 g:1919-3-27 #臨時政府樹立{#大蒙古国} #事由
+<-AD,民國 g:1919-3-27 #建国紀元制定{#大蒙古国} #分離
+#mongol:1919-2-5
+u 1-4-25
+
 
 def[成吉思汗紀元]
+#y~733
 
 tag 内蒙古
 tag 蒙古人
@@ -1457,6 +1519,7 @@ tag 中華民国
 tag 大東亜共栄圏
 tag 日本人
 tag 大日本帝国
+tag 大東亜戦争
 
 %tag country
 %tag   name 蒙古聯盟自治政府
@@ -1554,6 +1617,7 @@ tag 内蒙古
 tag 蒙古人
 tag 中華民国
 tag 共産主義
+tag 国共内戦
 
 %tag country
 %tag   name_ja 内モンゴル人民共和国

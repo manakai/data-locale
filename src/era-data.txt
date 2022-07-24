@@ -128,10 +128,6 @@ tag 教祖誕生紀年
 
 tag 英国
 tag 英領香港
-tag ロシア帝国
-tag 露領シベリア
-tag 露領外満州
-tag 露領東清鉄道附属地
 tag オランダ
 tag 蘭領台湾
 tag 蘭領澎湖諸島
@@ -164,13 +160,36 @@ tag 朝鮮人
 tag 日本
 tag 日本国
 tag 日本人
+tag NHK
 
 tag 台湾
 tag 中華民国
 tag 台湾人
 
+tag ロシア帝国
+tag 露領シベリア
+tag 露領外満州
+tag 露領東清鉄道附属地
+tag ロシア革命
+tag シベリア出兵
+
+tag 第一次世界大戦
+
+tag 第二次世界大戦
+tag 大東亜戦争
+tag 日ソ戦争
+
+tag 統一教会
+tag 世界平和統一家庭連合
+
+tag マイクロネーションの紀年法
+tag ミニ独立国の紀年法
+tag イノブータン王国
+tag Templar Kingdom
+
 tag 再開元号の中断中
 
+u 10000
 
 
 
@@ -269,3 +288,33 @@ AD1 = 10001
 # 人類紀元前 BHE
 # e.g. 20000 BHE
 
+
+def[TY]
+#y~2226
+
+sw Templar Years
+
+AD2014 = 896
+
+tag マイクロネーションの紀年法
+tag 初代王朝建国紀元
+
+%tag country
+%tag   name_en Templar Kingdom
+%tag   region of スペイン
+tag Templar Kingdom
+
+acronym(en) TY
+expanded(en) [T]emplar [Y]ears
+
+<-AD j:1119-3-21 #適用開始{#Templar_Kingdom} #マイクロネーション設立建元
+    #併用
+<-AD [g:1980,g:2014-3-26] #マイクロネーション建国紀元制定{#Templar_Kingdom}
+    #併用
+#XXXyearstart -3-21
+u 862
+#"01-I-895/2013" (895+1)
+#u 895-1-1
+u 896-6-21
+u 902-8-3
+u 189

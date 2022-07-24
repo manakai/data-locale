@@ -297,7 +297,7 @@ local/eras/jp-east.txt: bin/extract-era-transitions.pl \
     data/tags.json
 	mkdir -p local/eras
 	echo '*jp-east:\n+$$DEF-jp-east\n$$DEF-jp-east:' > $@
-	TAGS_INCLUDED=関東 TAGS_EXCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
+	TAGS_INCLUDED=関東 TAGS_EXCLUDED=日本南朝,南那須町 $(PERL) $< 神武天皇 >> $@
 data/calendar/era-systems.json: bin/calendar-era-systems.pl \
     src/eras/*.txt data/calendar/kyuureki-map.txt \
     data/calendar/kyuureki-ryuukyuu-map.txt \
