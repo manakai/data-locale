@@ -36,6 +36,9 @@ pmbp-install: pmbp-upgrade
             --create-perl-command-shortcut perl \
             --create-perl-command-shortcut prove
 
+build-github-pages:
+	rm -fr ./bin/ ./modules/ ./t_deps/
+
 ## ------ Generation ------
 
 PERL = ./perl -I bin/modules/json-ps/lib
