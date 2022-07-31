@@ -3,5 +3,8 @@
     "pmbp": "latest",
     "merger": true,
     "gaa": true
+  },
+  "github": {
+    "pages": true
   }
 }
