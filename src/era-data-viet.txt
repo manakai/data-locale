@@ -35,6 +35,7 @@
 %tag region
 %tag   name_ja 広西
 %tag   region of 嶺南
+%tag   region of 南支
 
 %tag people
 %tag   name_ja 壮族

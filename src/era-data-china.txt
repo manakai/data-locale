@@ -87,6 +87,7 @@
 %tag region
 %tag   name_ja 広州
 %tag   region of 漢土
+%tag   region of 南支
 
 %tag region
 %tag   name_ja 重慶
@@ -138,15 +139,16 @@
 %tag   region of 漢土
 
 %tag region
-%tag   name_ja 福州
+%tag   name_ja 福建
 %tag   region of 漢土
+%tag   region of 南支
+
+%tag region
+%tag   name_ja 福州
+%tag   region of 福建
 
 %tag region
 %tag   name_ja 開封
-%tag   region of 漢土
-
-%tag region
-%tag   name_ja 福建
 %tag   region of 漢土
 
 %tag region
@@ -170,6 +172,7 @@
 
 %tag region
 %tag   name_ja 海南島
+%tag   region of 南支
 
 %tag region
 %tag   name_ja 舟山群島
@@ -180,6 +183,7 @@
 %tag tag
 %tag   name_ja マカオ
 %tag   region of 漢土
+%tag   region of 南支
 
 %tag tag
 %tag   name_ja ポルトガル領マカオ
@@ -505,6 +509,9 @@
 %tag   name_ja 五胡
 %tag   group of 胡
 
+%tag people
+%tag   name_ja 香港人
+%tag   group of アジア人
 
 
 def[共和]
@@ -2892,6 +2899,7 @@ tag 浔州
 %tag region
 %tag   name_ja 香港
 %tag   region of 漢土
+%tag   region of 南支
 
 %tag region
 %tag   name_tw 九龍
@@ -3752,3 +3760,113 @@ tag 中華民国大陸地区
 %tag   name_ja 習近平
 tag 習近平
 tag 共産主義
+
+
+def[開埠]
+#y~2231
+sw 開埠
+
+tag 中華人民共和国領香港
+tag 香港人
+tag 初代王朝建国紀元
+
+%tag tag
+%tag   name_ja 香港本土派
+%tag   group of 香港人
+tag 香港本土派
+
+%tag tag
+%tag   name_ja 香港独立運動
+tag 香港独立運動
+
+%tag person
+%tag   name_ja 徐承恩
+tag 徐承恩
+AD2013 = 173
+tag 序文日付
+u 173-8
+u 175-12
+u 18
+<-AD [中華人民共和国:2013-8] #利用開始{#徐承恩} #中華人民共和国領香港 #序文日付
+    #併用 #初出
+
+u 175-12-10
+
+%tag org
+%tag   name 葵涌循道中學
+
+%tag org
+%tag   name 葵涌循道中學2016-17年度學生會Promise
+%tag   group of 葵涌循道中學
+tag 葵涌循道中學2016-17年度學生會Promise
+u 177-1-5
+u 177-3-30
+
+name 開埠
+&
+name 開埠紀年
+
+wref<https://zh-yue.wikipedia.org/wiki/%E9%96%8B%E5%9F%A0%E7%B4%80%E5%B9%B4>
+
+#開埠前
+#u 2059
+#u 1430
+
+<-AD,道光 ->開埠,開埠(壬寅) g:1841-1-26 #制圧{#英国, #清 #香港} #事由
+
+def[開埠(壬寅)]
+#y~2232
+sw 開埠
+
+tag 中華人民共和国領香港
+tag 香港人
+tag 初代王朝建国紀元
+
+tag 香港本土派
+tag 香港独立運動
+
+%tag org
+%tag   name_en Blue Culture Club
+tag Blue Culture Club
+u 173-11-18
+<-AD [g:2010,g:2014-11-18] #利用開始{#Blue_Culture_Club} #中華人民共和国領香港
+    #併用 #署名日付
+tag 署名日付
+u 179-6-9
+
+%tag org
+%tag   name Museum of Hong Kong 香港繆詩菴
+tag Museum of Hong Kong 香港繆詩菴
+tag 英国
+tag 署名日付
+u 179-3-4
+u 181-2-6
+
+%tag org
+%tag   name 拔萃男書院
+
+%tag org
+%tag   name 拔萃男書院國是學會
+%tag   group of 拔萃男書院
+tag 拔萃男書院國是學會
+tag 署名日付
+AD2016 = 175
+u 175-9-25
+
+%tag org
+%tag   name 漢華中學
+
+%tag org
+%tag   name 漢華中學本土關注組
+%tag   group of 漢華中學
+tag 漢華中學本土關注組
+tag 署名日付
+u 175-11-8
+
+name 開埠
+name_cn 开埠
+&
+name 香港開埠
+&
+acronym(en) H.K.
+expanded(en) [H]ong [K]ong

@@ -4062,6 +4062,8 @@ name(kr) 경평
 [元嘉(甲子)]
 #y~1074
 
+sw 元嘉
+
 AD424 = 1
 
 tag 漢土
@@ -4131,6 +4133,8 @@ tag 楊玄
 # - 426-12
 
 tag 旧制再開
+
+name_ja 元加
 
 
 [泰始(壬申)]
@@ -4632,6 +4636,8 @@ name(vi) Nghĩa Gia
 [泰豫]
 #y~794
 
+sw 泰豫
+
 AD472 = 1
 
 tag 漢土
@@ -4664,6 +4670,9 @@ name_kana たい よ
 ## <https://ko.wikipedia.org/wiki/%ED%83%9C%EC%98%88>
 #wref_ko 태예
 name(kr) 태예
+
+&
+name_tw 太預
 
 [元徽]
 #y~1613
