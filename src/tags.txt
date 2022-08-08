@@ -890,11 +890,15 @@ action
 
 action
   name_ja 鎮圧
+  group of 制圧
+
+action
+  name_ja 制圧
   group of 進攻
 
 action
   name_ja 陥落
-  group of 鎮圧
+  group of 制圧
   group of 戦時異動
 
 action
@@ -1266,6 +1270,13 @@ source
 source
   name_ja 日本語版ウィキペディア
   group of Wikipedia
+
+tag
+  name_ja 署名日付
+
+tag
+  name_ja 序文日付
+  group of 署名日付
 
 tag
   name_ja 年賀状
