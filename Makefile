@@ -168,7 +168,7 @@ local/era-yomi-list.json: bin/era-yomi-list.pl \
     intermediate/wikimedia/wp-vi-jp-eras.json
 	$(PERL) $< > $@
 data/calendar/era-yomi-sources.json: bin/calendar-era-yomi-sources.pl \
-    data/calendar/era-defs.json local/calendar-era-yomis.json \
+    data/calendar/era-defs.json \
     local/calendar-era-labels-0.json \
     local/era-yomi-list.json
 	$(PERL) $< > $@
