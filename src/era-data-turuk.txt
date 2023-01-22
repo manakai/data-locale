@@ -34,6 +34,10 @@
 %tag   name_ja 哈密
 %tag   region of 東トルキスタン
 
+%tag region
+%tag   name_ja 土垠
+%tag   region of 東トルキスタン
+
 %tag people
 %tag   name_ja 丁零
 %tag   group of トゥルク人

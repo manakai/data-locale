@@ -41,6 +41,9 @@ my $EraLabels;
     for my $key (keys %{$in_era->{_SHORTHANDS}}) {
       $era->{$key} = $in_era->{_SHORTHANDS}->{$key};
     }
+    for my $key (keys %{$in_era->{_TAG_IDS} or {}}) {
+      $era->{tag_ids}->{$key} = $in_era->{_TAG_IDS}->{$key};
+    }
     delete $era->{_LABELS};
     delete $era->{_LPROPS};
   }

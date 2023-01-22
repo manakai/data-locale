@@ -8044,6 +8044,9 @@ s+
 %tag   name_ja 隋末唐初
 tag 隋末唐初
 
+## <https://twitter.com/BabelStone/status/1339919441149235204>
+pinyin Dà|yè
+
 [義寧]
 #y~969
 AD617 = 1
@@ -8291,6 +8294,9 @@ s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7
 ->貞觀(丁亥) 唐:626-8-9 j:626-9-4 #改元前の退位{#李唐 #李淵 #唐皇帝}
 ->貞觀(丁亥) 唐:626-8-9 #建元前の即位{#李唐 #李世民 #唐皇帝}
 
+## <https://twitter.com/BabelStone/status/1171008105766957056>
+name(en) Wu|de
+
 [貞觀(丁亥)]
 #y~104
 AD627 = 1
@@ -8319,6 +8325,9 @@ name_kana じょう かん
 
 name(en) Zhen-guan
 name(en) Chên-kuan
+
+## <https://twitter.com/BabelStone/status/1171008105766957056>
+name(en) Zheng|huan
 
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B72>"改元"
 #<-武德 唐:626-8-癸亥 #改元前の退位{#李唐 #李淵 #唐皇帝} #旧説
@@ -8896,6 +8905,9 @@ s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7
 
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B724>"永昌"
 s+
+
+## <https://twitter.com/BabelStone/status/1171008105766957056>
+name(en) Yong|chang
 
 [載初]
 #y~493
@@ -10707,6 +10719,10 @@ name_kana こう けい
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B719%E4%B8%8B>"改元光啟"
 <-中和 唐:885-3-己巳 #支那改元日{#李唐 #僖宗}
 
+tag 敦煌
+tag 帰義軍
+u 3-4
+
 [建貞]
 #y~1708
 AD886 = 1
@@ -11127,6 +11143,18 @@ s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B71>"唐天復
 u 1
 tag 契丹国
 tag 契丹人
+
+## <https://www.zinbun.kyoto-u.ac.jp/hub/~takata/NIANBAO_6.pdf#page=108>
+#no ->天祐
+u 10
+%tag country
+%tag   name_ja 帰義軍
+%tag   period of 西域方面
+tag 敦煌
+tag 帰義軍
+%tag person
+%tag   name_ja 張承奉
+tag 張承奉
 
 
 [天祐]
@@ -11768,6 +11796,10 @@ tag 王審知
 tag 後蜀
 tag 孟知祥
 
+tag 敦煌
+tag 帰義軍
+u 3-6-1
+
 [天成(丙戌)]
 #y~1440
 
@@ -12026,6 +12058,10 @@ name(kr) 청태
 #            ^^
 #934-4-16 j:934-5-31 -
 
+tag 敦煌
+tag 帰義軍
+u 5-2-10
+
 %tag country
 %tag   name_ja 後晋
 %tag   period of 晋
@@ -12196,6 +12232,10 @@ tag 敦煌
 tag 熊本裕説
 tag 張栄説
 u 2
+
+tag 敦煌
+tag 帰義軍
+u 2-12
 
 %tag country
 %tag   label_ja 五代漢

@@ -1326,6 +1326,9 @@ name_kana げん えん
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7010>"元延元年春正月己亥朔"
 s+
 
+tag 土垠
+u 5
+
 [綏和]
 #y~1226
 BC8 = 1
@@ -2454,6 +2457,9 @@ s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B7
 s+
 #<-延平 [漢:107] #支那改元日{#後漢 #漢安帝}
 
+## <https://twitter.com/BabelStone/status/1447859580105596931>
+pinyin Yǒng|chū
+
 [元初]
 #y~404
 AD114 = 1
@@ -2800,6 +2806,9 @@ s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B7
 <-永憙 [漢:146] #支那改元日{#後漢 #漢質帝}
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B76>"閏月甲申"
 ->建和 漢:146-6'-甲申 #改元前の死去{#後漢 #漢質帝}
+
+## <https://twitter.com/BabelStone/status/1339919441149235204>
+pinyin Běn|chū
 
 [建和]
 #y~1260

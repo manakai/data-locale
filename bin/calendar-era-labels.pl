@@ -34,6 +34,35 @@ for my $in_era (@$Eras) {
   $era->{_SHORTHANDS} = $in_era->{_LPROPS};
 } # $in_era
 
+my $Tags;
+my $TagByKey = {};
+{
+  my $path = $RootPath->child ('data/tags.json');
+  $Tags = (json_bytes2perl $path->slurp)->{tags};
+  for my $item (values %$Tags) {
+    $TagByKey->{$item->{key}} = $item;
+  }
+}
+
+sub set_object_tag ($$) {
+  my ($obj, $tkey) = @_;
+  my $item = $TagByKey->{$tkey};
+  die "Tag |$tkey| not defined", Carp::longmess unless defined $item;
+
+  $obj->{tag_ids}->{$item->{id}} = $item->{key};
+  for (qw(region_of group_of period_of)) {
+    for (keys %{$item->{$_} or {}}) {
+      my $item2 = $Tags->{$_};
+      $obj->{tag_ids}->{$item2->{id}} = $item2->{key};
+      if ($item2->{type} eq 'country') {
+        for (keys %{$item2->{period_of} or {}}) {
+          my $item3 = $Tags->{$_};
+          $obj->{tag_ids}->{$item3->{id}} = $item3->{key};
+        }
+      }
+    }
+  }
+} # set_object_tag
 
 {
 
@@ -425,14 +454,16 @@ my $LeaderKeys = [];
   sub to_hiragana ($) {
     use utf8;
     my $s = shift;
-    $s =~ tr/アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮ𛀄𛃚𛁩/あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎあもつ/;
+    $s =~ tr{アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮ𛀄𛃚𛁩𛀁𛀷𛂰}
+            {あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎあもつえけほ};
     return $s;
   } # to_hiragana
 
   sub to_katakana ($) {
     use utf8;
     my $s = shift;
-    $s =~ tr/あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎ𛀄𛃚𛁩/アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮアモツ/;
+    $s =~ tr{あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎ𛀄𛃚𛁩𛀁𛀷𛂰}
+            {アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮアモツエケホ};
     return $s;
   } # to_katakana
 
@@ -1464,6 +1495,52 @@ sub compute_form_group_ons ($) {
             }
             $v->{segment_length} = $w_length;
             $v->{abbr_indexes} = $abbr_indexes if defined $abbr_indexes;
+          } elsif ($rep->{type} eq 'kana' or
+                   ($rep->{type} eq 'jpan' and
+                    $rep->{value} =~ /^[\p{sc=Hiragana}\p{sc=Katakana}|]+$/)) {
+            for (@{$label->{form_groups}}) {
+              if ($_->{form_group_type} eq 'han') {
+                $value = $_;
+                $value_added = 1;
+              }
+            }
+
+            my $lang = $rep->{lang};
+            $lang = 'vi_kana' if $lang eq 'vi_old';
+            if ($lang eq 'ja' or $lang eq 'ja_old') {
+              $value->{form_group_type} = 'kana' unless $value_added;
+
+              my $w = [split /\|/, $rep->{value}];
+              $v->{segment_length} = segmented_text_length $w;
+
+              $v->{kana} = $w;
+              if (defined $rep->{lang} and $rep->{lang} eq 'ja_old') {
+                $v->{hiragana_classic} = [map { to_hiragana $_ } @$w];
+              }
+              
+              $v->{form_set_type} = 'kana' unless $v_added;
+            } elsif ($lang eq 'vi_kana') {
+              $value->{form_group_type} = 'han' unless $value_added;
+
+              use utf8;
+              my $w = [map { /\s|\|/ ? '._' : $_ eq '・' ? '.・' : $_ } split /(\s+|\||・)/, $rep->{value}];
+              $v->{segment_length} = segmented_text_length $w;
+              
+              for my $fs (@{$value->{form_sets}}) {
+                if ($fs->{form_set_type} eq 'vietnamese' and
+                    not defined $fs->{vi_katakana} and
+                    $fs->{segment_length} == $v->{segment_length}) {
+                  $v = $fs;
+                  $v_added = 1;
+                  #last; # use last match
+                }
+              }
+              
+              $v->{form_set_type} = 'vietnamese' unless $v_added;
+              $v->{vi_katakana} = $w;
+            } else {
+              die "Unknown lang |$lang|";
+            }
           } elsif ($rep->{type} eq 'jpan' or
                    $rep->{type} eq 'zh' or
                    ($rep->{type} eq 'korean' and
@@ -1634,35 +1711,6 @@ sub compute_form_group_ons ($) {
             } split /(\s+|\|)/, $rep->{value}];
             $v->{$lang} = $w;
             $v->{segment_length} = segmented_text_length $w;
-          } elsif ($rep->{type} eq 'kana') {
-            for (@{$label->{form_groups}}) {
-              if ($_->{form_group_type} eq 'han') {
-                $value = $_;
-                $value_added = 1;
-              }
-            }
-            $value->{form_group_type} = 'han' unless $value_added;
-
-            my $lang = $rep->{lang};
-            $lang = 'vi_kana' if $lang eq 'vi_old';
-            die "Unknown lang |$lang|" unless $lang eq 'vi_kana';
-
-            use utf8;
-            my $w = [map { /\s|\|/ ? '._' : $_ eq '・' ? '.・' : $_ } split /(\s+|\||・)/, $rep->{value}];
-            $v->{segment_length} = segmented_text_length $w;
-            
-            for my $fs (@{$value->{form_sets}}) {
-              if ($fs->{form_set_type} eq 'vietnamese' and
-                  not defined $fs->{vi_katakana} and
-                  $fs->{segment_length} == $v->{segment_length}) {
-                $v = $fs;
-                $v_added = 1;
-                #last; # use last match
-              }
-            }
-
-            $v->{form_set_type} = 'vietnamese' unless $v_added;
-            $v->{vi_katakana} = $w;
           } elsif ($rep->{type} eq 'korean') { # Korean alphabet
             for (@{$label->{form_groups}}) {
               if ($_->{form_group_type} eq 'han' or
@@ -1832,7 +1880,7 @@ sub compute_form_group_ons ($) {
                   }
                 } elsif ($value->{form_set_type} eq 'yomi' or
                          $value->{form_set_type} eq 'kana') {
-                  if ($text->{form_group_type} eq 'kana' and
+                  if ($value->{form_set_type} eq 'kana' and
                       defined $value->{kana}) {
                     my $name = serialize_segmented_text $value->{kana};
                     if (not defined $era->{_SHORTHANDS}->{name_ja} or
@@ -1841,6 +1889,8 @@ sub compute_form_group_ons ($) {
                       $era->{_SHORTHANDS}->{name} //= $era->{_SHORTHANDS}->{name_ja};
                     }
                     $era->{_SHORTHANDS}->{names}->{$name} = 1;
+                    use utf8;
+                    set_object_tag $era, '仮名名';
                   }
 
                   if (defined $value->{hiragana_modern}) {
@@ -1889,22 +1939,30 @@ sub compute_form_group_ons ($) {
                     $era->{_SHORTHANDS}->{names}->{$v} = 1 if defined $v;
                   }
                 } # $lang
-              } elsif ($fs->{form_set_type} eq 'yomi') {
+              } elsif ($fs->{form_set_type} eq 'yomi' or
+                       $fs->{form_set_type} eq 'kana') {
+                fill_kana $fs if $fs->{form_set_type} eq 'kana';
                 $era->{_SHORTHANDS}->{name_kana} //= serialize_segmented_text $fs->{hiragana_modern};
                 for (grep { defined }
-                     $fs->{hiragana} // undef,
+                     #$fs->{hiragana} // undef,
                      $fs->{hiragana_modern} // undef,
-                     $fs->{hiragana_classic} // undef,
-                     @{$fs->{hiragana_others} or []}) {
+                     #$fs->{hiragana_classic} // undef,
+                     #@{$fs->{hiragana_others} or []},
+                    ) {
                   my $v = serialize_segmented_text $_;
                   $era->{_SHORTHANDS}->{name_kanas}->{$v} = 1;
                 }
-                
+
+                if ($fs->{form_set_type} eq 'kana' and defined $fs->{kana}) {
+                  my $s = serialize_segmented_text $fs->{kana};
+                  $era->{_SHORTHANDS}->{name_ja} //= $s;
+                  $era->{_SHORTHANDS}->{name} //= $s;
+                  $era->{_SHORTHANDS}->{names}->{$s} = 1;
+                }
+
                 if (defined $fs->{ja_latin}) {
                   $era->{_SHORTHANDS}->{name_latn} //= serialize_segmented_text $fs->{ja_latin};
                 }
-              } elsif ($fs->{form_set_type} eq 'kana') {
-                fill_kana $fs;
               } elsif ($fs->{form_set_type} eq 'korean') {
                 fill_korean $fs;
                 
@@ -2007,14 +2065,18 @@ sub compute_form_group_ons ($) {
             my $kana = ''; my $no_kana = 0;
             my $latin = ''; my $no_latin = 0;
             my $name_kr = ''; my $no_kr = 0;
+            my $has_han = 0;
+            my $has_kana = 0;
+            my $has_non_kanakan = 0;
+            my $has_latin = 0;
             for my $item_fg (@{$text->{items}}) {
               if ($item_fg->{form_group_type} eq 'han' or
                   $item_fg->{form_group_type} eq 'ja' or
                   $item_fg->{form_group_type} eq 'vi' or
                   $item_fg->{form_group_type} eq 'kana' or
                   $item_fg->{form_group_type} eq 'korean') {
-                my $has_kana = 0;
-                my $has_latin = 0;
+                my $_has_kana;
+                my $_has_latin;
                 my $kr;
                 for my $item_fs (@{$item_fg->{form_sets}}) {
                   if ($item_fs->{form_set_type} eq 'hanzi') {
@@ -2043,6 +2105,7 @@ sub compute_form_group_ons ($) {
                          $item_fs->{jp} //
                          $item_fs->{cn} //
                          $item_fs->{others}->[0]);
+                    $has_han = 1;
                   } elsif ($item_fs->{form_set_type} eq 'kana' or
                            $item_fs->{form_set_type} eq 'yomi') {
                     if ($item_fs->{form_set_type} eq 'kana') {
@@ -2051,12 +2114,23 @@ sub compute_form_group_ons ($) {
                       $name_jp .= $v;
                       $name_cn .= $v;
                       $name_tw .= $v;
+                      use utf8;
+                      unless (defined $item_fs->{kana} and
+                              @{$item_fs->{kana}} == 1 and
+                              $item_fs->{kana}->[0] eq '.・') {
+                        set_object_tag $era, '仮名名';
+                        $has_kana = 1;
+                      }
                     }
-                    $kana .= serialize_segmented_text ($item_fs->{hiragana_modern} // die);
-                    $has_kana = 1;
-                    $latin .= ' ' if length $latin;
-                    $latin .= serialize_segmented_text ($item_fs->{ja_latin} // die);
-                    $has_latin = 1;
+                    if (defined $item_fs->{hiragana_modern}) {
+                      $kana .= serialize_segmented_text ($item_fs->{hiragana_modern} // die);
+                      $_has_kana = 1;
+                    }
+                    if (defined $item_fs->{ja_latin}) {
+                      $latin .= ' ' if length $latin;
+                      $latin .= serialize_segmented_text ($item_fs->{ja_latin} // die);
+                      $has_latin = $_has_latin = 1;
+                    }
                   } elsif ($item_fs->{form_set_type} eq 'alphabetical' or
                            $item_fs->{form_set_type} eq 'vietnamese') {
                     fill_alphabetical $item_fs;
@@ -2066,13 +2140,17 @@ sub compute_form_group_ons ($) {
                     $name_tw .= $v;
                     $latin .= ' ' if length $latin;
                     $latin .= $v;
+                    $has_non_kanakan = 1;
                   } elsif ($item_fs->{form_set_type} eq 'korean') {
                     fill_korean $item_fs;
                     $kr = serialize_segmented_text ($item_fs->{kr} // die);
+                    $has_non_kanakan = 1;
+                  } else {
+                    $has_non_kanakan = 1;
                   }
                 } # $item_fs
-                $no_kana = 1 unless $has_kana;
-                $no_latin = 1 unless $has_latin;
+                $no_kana = 1 unless $_has_kana;
+                $no_latin = 1 unless $_has_latin;
                 if (defined $kr) {
                   $name_kr .= $kr;
                 } else {
@@ -2086,6 +2164,8 @@ sub compute_form_group_ons ($) {
                   $name_tw .= $v;
                   $name_kr .= $v;
                 }
+                use utf8;
+                set_object_tag $era, '記号名';
               } else {
                 die "Unknown form group type |$item_fg->{form_group_type}|";
               }
@@ -2126,6 +2206,11 @@ sub compute_form_group_ons ($) {
               $era->{_SHORTHANDS}->{name_ko} = $name_kr;
               $era->{_SHORTHANDS}->{name} = $era->{_SHORTHANDS}->{name_ko}
                   if ($text->{is_preferred} or {})->{kr};
+            }
+            use utf8;
+            set_object_tag $era, '複合名';
+            if ($has_kana and $has_han and not $has_non_kanakan) {
+              set_object_tag $era, '仮名漢字混じり名';
             }
           } # form_group_type
           for my $label (@{$text->{expandeds} or []}) {
@@ -2292,6 +2377,7 @@ for my $data (values %{$Data->{eras}}) {
   for (keys %{$data->{_SHORTHANDS}->{names}}) {
     $Data->{_SHORTHANDS}->{name_to_keys}->{$_}->{$data->{key}} = 1;
   }
+  $data->{_TAG_IDS} = delete $data->{tag_ids};
 }
 
 print perl2json_bytes_for_record $Data;

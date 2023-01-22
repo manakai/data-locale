@@ -1909,6 +1909,14 @@ tag 三訂 近代諸元号現象
 %tag   period of 朝鮮
 %tag   region of 大日本帝国
 
+%tag people
+%tag   name_ja 在日韓国・朝鮮人
+%tag   group of 朝鮮人
+
+%tag people
+%tag   name_ja 朝鮮籍人
+%tag   group of 在日韓国・朝鮮人
+
 
 
 %tag country
@@ -1923,6 +1931,10 @@ tag 三訂 近代諸元号現象
 %tag 
 %tag   group of 朝鮮人
 
+%tag people
+%tag   name_ja 在日北朝鮮人
+%tag   group of 在日韓国・朝鮮人
+
 def[주체]
 
 tag 朝鮮民主主義人民共和国
@@ -1932,7 +1944,7 @@ tag 北鮮
 
 name(kp) 주체
 name_ja 主体
-name(ja) チュチェ
+name(ja) チュ|チェ
 &
 name(kp) 주체연호
 name 主體年號
@@ -1940,7 +1952,7 @@ name 主體年號
 name(kp) 주체력
 name_ja 主体暦
 name_tw 主體曆
-name(ja) チュチェ暦
+name(ja) チュ|チェ暦
 &
 name_ja 主体紀元
 wref_ko 주체연호
@@ -1952,6 +1964,10 @@ u 109
 tag 元号復活
 
 <-AD g:1997-9-9 #利用開始{#朝鮮民主主義人民共和国} #グレゴリオ暦 #併用
+
+tag 日本
+tag 在日北朝鮮人
+tag 朝鮮籍人
 
 
 

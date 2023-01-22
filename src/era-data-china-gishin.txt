@@ -2679,6 +2679,9 @@ s+
 # #即位
 # #改元
 
+## <https://twitter.com/BabelStone/status/1583466274126180353>
+pinyin Jiàn|yuán
+
 [永和(乙巳)]
 #y~709
 AD345 = 1
@@ -2742,6 +2745,10 @@ s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7015>"順帝�
 ## <https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7015#cite_note-25>
 #"順帝永和九年　斠注：永和終於六年，疑「九」爲「六」之誤。"
 u 9
+
+## <https://twitter.com/BabelStone/status/1433009194047791107>
+## <https://twitter.com/BabelStone/status/1583466274126180353>
+pinyin Yǒn|ghé
 
 [昇平]
 #y~934
@@ -3805,6 +3812,9 @@ tag 後仇池
 tag 楊盛
 tag 楊玄
 tag 氐
+
+## <https://twitter.com/BabelStone/status/1433009194047791107>
+pinyin Yì|xī
 
 [元熙]
 #y~676

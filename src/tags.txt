@@ -185,12 +185,11 @@ country
 country
   name_ja インドネシア
   region of 東南アジア
+  region of 西太平洋
 
 region
   name_ja 蘭領東印度
-  region of 東南アジア
   period of インドネシア
-  region of 西太平洋
 
 region
   name_ja 南洋
@@ -243,6 +242,9 @@ religion
 
 religion
   name_ja 共産主義
+
+religion
+  name_ja 社会主義
 
 tag
   name_ja 条約
@@ -481,6 +483,16 @@ tag
   name_ja 逸年号 (ウィキペディア)
 
 tag
+  name_ja 改元デマ
+
+tag
+  name_ja 陰謀論
+
+tag
+  name_ja 改元陰謀論
+  group of 陰謀論
+
+tag
   name_ja 一世一元
   group of 元号
 
@@ -495,6 +507,19 @@ tag
 tag
   name_ja 君主名の元号
   group of 元号
+
+tag
+  name_ja 仮名名
+
+tag
+  name_ja 仮名漢字混じり名
+  group of 仮名名
+
+tag
+  name_ja 複合名
+
+tag
+  name_ja 記号名
 
 tag
   name_ja 干支元号名
@@ -755,6 +780,11 @@ action
 action
   name_ja 即位紀年から改元建元
   group of 新規建元
+
+action
+  name_ja 報道
+  group of 通知発出
+  #{from, }
 
 action
   name_ja 行政異動
@@ -1192,6 +1222,10 @@ tag
   name_ja 併用
   group of 分離
 
+action
+  name_ja 併用終了
+  group of 利用開始
+
 tag
   name_ja 国名と衝突
 
@@ -1277,6 +1311,13 @@ tag
 tag
   name_ja 序文日付
   group of 署名日付
+
+tag
+  name_ja 新聞
+
+tag
+  name_ja 新聞改元デマ
+  group of 改元デマ
 
 tag
   name_ja 年賀状

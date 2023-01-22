@@ -66,6 +66,8 @@ name_tw 西元年號
 &
 name 洋曆
 &
+name_ja 西洋紀年
+&
 abbr_ja 西 西暦
 &&
 acronym(en) C.E.
@@ -160,10 +162,19 @@ tag シンガポール
 tag 大韓民国
 tag 朝鮮民主主義人民共和国
 tag 朝鮮人
+tag 在日韓国・朝鮮人
+tag 朝鮮籍人
+tag 在日北朝鮮人
 
 tag 日本
 tag 日本国
 tag 日本人
+tag アイヌ人
+tag ウィルタ人
+tag ニブフ人
+tag 欧米系島民
+tag 奄美人
+tag 琉球人
 tag NHK
 
 tag 台湾

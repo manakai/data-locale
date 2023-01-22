@@ -2911,6 +2911,11 @@ tag 浔州
 %tag   period of 香港
 
 %tag region
+%tag   name_ja 大日本帝国占領地旧英領香港
+%tag   period of 香港
+%tag   region of 大東亜共栄圏
+
+%tag region
 %tag   name_ja 中華人民共和国領香港
 %tag   region of 中華人民共和国
 %tag   period of 香港
@@ -3328,6 +3333,7 @@ tag 威海衛租借地
 tag 広州湾租借地
 
 tag シンガポール
+tag 昭南特別市
 
 tag 第一次世界大戦
 tag 大東亜戦争
@@ -3508,6 +3514,10 @@ u 2-1-21
 %tag   name_ja 中華人民共和国
 %tag   period of 中国
 %tag   group of 共産主義
+
+%tag tag
+%tag   name_ja 中華人民共和国の私年号
+%tag   group of 私年号
 
 [AD]
 tag 中華人民共和国
@@ -3755,6 +3765,7 @@ tag 漢民族
 tag 日本
 tag 風刺
 tag 中華民国大陸地区
+tag 中華人民共和国の私年号
 
 %tag person
 %tag   name_ja 習近平

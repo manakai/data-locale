@@ -182,7 +182,8 @@ local/calendar-era-labels-0.json: bin/calendar-era-labels.pl \
     src/era-codes-15.txt \
     src/era-codes-24.txt \
     local/cldr-core-json/ja.json \
-    local/number-values.json
+    local/number-values.json \
+    data/tags.json
 	$(PERL) $< > $@
 data/calendar/era-labels.json: bin/cleanup.pl \
     local/calendar-era-labels-0.json
@@ -300,7 +301,7 @@ local/eras/jp-east.txt: bin/extract-era-transitions.pl \
     data/tags.json
 	mkdir -p local/eras
 	echo '*jp-east:\n+$$DEF-jp-east\n$$DEF-jp-east:' > $@
-	TAGS_INCLUDED=関東 TAGS_EXCLUDED=日本南朝,南那須町 $(PERL) $< 神武天皇 >> $@
+	TAGS_INCLUDED=関東 TAGS_EXCLUDED=日本南朝,南那須町,自由民権運動,異説発生 $(PERL) $< 神武天皇 >> $@
 data/calendar/era-systems.json: bin/calendar-era-systems.pl \
     src/eras/*.txt data/calendar/kyuureki-map.txt \
     data/calendar/kyuureki-ryuukyuu-map.txt \
