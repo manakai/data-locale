@@ -24,6 +24,30 @@ It is a JSON object with following name/value pairs:
 
         The type of the tag.
 
+* Structure of the tag label data file
+
+The |data/tag-labels.json| file contains labels (names and short
+descriptions) for the tags.
+
+It is a JSON object with following name/value pair:
+
+  tags [object]
+
+    The names are the tag ID [id] of era.  The values are JSON objects
+    describing the tag with the corresponding tag IDs, with following
+    name/value pair:
+
+      id [id]
+      key [key]
+
+        The ID and key of the tag.  These fields are copies of the
+        fields with the same names in the |data/tags.json| file.
+
+      label_sets
+
+        A JSON array of zero or more [label-set] objects, representing
+        the known labels for the tag.
+
 * Data types
 
 The data type [tag-type] is one of followings:

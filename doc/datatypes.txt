@@ -1,0 +1,86 @@
+Common data types
+~~~~~~~~~~~~~~~~~
+
+* Set data types
+
+A set data type represents a set of values.
+
+It is represented by a JSON object, where the object's names are the
+values.  The object's values may be any value and has no defined
+semantics.  Applications must ignore the object's values.
+
+If the value is a JSON null value, or no value is specified, the set
+is empty.
+
+A property set data type represents a set of values where values are
+associated with their properties.
+
+It is represented by a JSON object, where the object's names are the
+values.  Each of the object's values is a JSON object which represents
+the associated properties.
+
+If the value is a JSON null value, or no value is specified, the set
+is empty.
+
+** The |tag ID set| data type
+
+A set data type.
+
+XXX
+
+** The |tag ID property set| data type
+
+A property set data type.
+
+XXX
+
+Property:
+
+  preferred [boolean]
+
+    Whether the tag is the preferred one or not.  Exactly one tag in a
+    non-empty set is marked as preferred.
+
+** The |era ID set| data type
+
+A set data type of era IDs.
+
+* The [label-set] data type
+
+An object of the [label-set] data type represents a set of labels,
+XXX
+
+The order of the labels in label set's "labels" list is significant
+for the purpose of sorting labels.
+
+The label properties are:
+
+  country_tag_ids [tag ID property set]
+
+    The tags that identify countries for the label.
+
+  is_name [boolean]
+
+    Whether the label represents a name or not.
+
+  monarch_tag_ids [tag ID property set]
+
+    The tags that identify monarches for the label.
+
+* Segmented name data types
+
+The following data types are defined by Segmented Name Strings
+<https://wiki.suikawiki.org/n/Segmented%20Name%20Strings>:
+
+  [segmented-Hiragana] segmented Hiragana name string
+  [segmented-Romaji] segmented Romaji name string
+
+* License
+
+You are granted a license to use, reproduce and create derivative
+works of these files.
+
+Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the
+extent possible under law, the author of the files and this document
+has waived all copyright and related or neighboring rights to the JSON
+files and this document.

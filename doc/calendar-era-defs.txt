@@ -679,28 +679,6 @@ and has following name/value pairs:
     possible day.  The |/incorrect| variant type represent another day
     that were historically considered as the day of the event.
 
-* The [label-set] data type
-
-An object of the [label-set] data type represents a set of labels,
-XXX
-
-The order of the labels in label set's "labels" list is significant
-for the purpose of sorting labels.
-
-The label properties are:
-
-  country_tag_ids [tag ID property set]
-
-    The tags that identify countries for the label.
-
-  is_name [boolean]
-
-    Whether the label represents a name or not.
-
-  monarch_tag_ids [tag ID property set]
-
-    The tags that identify monarches for the label.
-
 * Structure of the era label data file
 
 The |data/calendar/era-labels.json| file contains labels (names and

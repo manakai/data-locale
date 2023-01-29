@@ -3,7 +3,9 @@ DATA_PATH = $(ROOT_PATH)/data
 
 PERL = $(ROOT_PATH)/perl
 
-all: era-names.html era-yomis.html era-kanjions.html \
+all: \
+    tag-names.html \
+    era-names.html era-yomis.html era-kanjions.html \
     era-relations.html \
     era-transitions.html \
     era-transition-sequences-all
@@ -11,10 +13,14 @@ all: era-names.html era-yomis.html era-kanjions.html \
 era-transition-sequences-all:
 	cd era-transition-sequences && $(MAKE) all
 
+tag-names.html: era-names.pl \
+    $(ROOT_PATH)/local/tag-labels-0.json \
+    $(DATA_PATH)/tags.json
+	$(PERL) $< tags > $@
 era-names.html: era-names.pl $(DATA_PATH)/calendar/era-defs.json \
     $(ROOT_PATH)/local/calendar-era-labels-0.json \
     $(DATA_PATH)/tags.json
-	$(PERL) $< > $@
+	$(PERL) $< eras > $@
 
 era-yomis.html: era-yomis.pl $(DATA_PATH)/calendar/era-yomi-sources.json
 	$(PERL) $< > $@
@@ -34,6 +40,10 @@ era-transitions.html: era-transitions.pl \
     $(DATA_PATH)/tags.json
 	$(PERL) $< > $@
 
+$(DATA_PATH)/tags.json: always
+	cd $(ROOT_PATH) && $(MAKE) data/tags.json
+$(ROOT_PATH)/local/tag-labels-0.json: always
+	cd $(ROOT_PATH) && $(MAKE) local/tag-labels-0.json
 $(DATA_PATH)/calendar/era-defs.json: always
 	cd $(ROOT_PATH) && $(MAKE) data/calendar/era-defs.json
 $(DATA_PATH)/calendar/era-yomi-sources.json: always

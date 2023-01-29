@@ -8,14 +8,16 @@ my $ThisPath = path (__FILE__)->parent;
 my $RootPath = $ThisPath->parent;
 binmode STDOUT, qw(:encoding(utf-8));
 
+my $Mode = shift or die;
+
 print STDERR "\rLoading...";
 my $Eras;
-{
+if ($Mode eq 'eras') {
   my $path = $RootPath->child ('data/calendar/era-defs.json');
   my $json = json_bytes2perl $path->slurp;
   $Eras = $json;
 }
-{
+if ($Mode eq 'eras') {
   my $path = $RootPath->child ('local/calendar-era-labels-0.json');
   my $in_json = json_bytes2perl $path->slurp;
   for my $in_era (values %{$in_json->{eras}}) {
@@ -27,7 +29,14 @@ my $Tags;
 {
   my $path = $RootPath->child ('data/tags.json');
   my $json = json_bytes2perl $path->slurp;
-  $Tags = $json->{tags};
+  $Tags = $json;
+}
+if ($Mode eq 'tags') {
+  my $path = $RootPath->child ('local/tag-labels-0.json');
+  my $in_json = json_bytes2perl $path->slurp;
+  for my $in_tag (values %{$in_json->{tags}}) {
+    $Tags->{tags}->{$in_tag->{id}}->{label_sets} = $in_tag->{label_sets};
+  }
 }
 print STDERR "\rLoaded!";
 
@@ -49,8 +58,15 @@ sub htescape ($) {
 } # htescape
 
 print q{<!DOCTYPE html>
-<meta charset=utf-8>
-<title>Era names</title>
+<meta charset=utf-8>};
+
+if ($Mode eq 'eras') {
+  print q{<title>Era names</title>};
+} elsif ($Mode eq 'tags'){
+  print q{<title>Tag names</title>};
+}
+
+print q{
 <style>
   thead {
     position: sticky;
@@ -327,33 +343,62 @@ print q{<!DOCTYPE html>
     background: white;
   }
 </style>
+};
 
+if ($Mode eq 'eras') {
+  print q{
 <h1>Era names</h1>
 
-<p>[<a href=era-names.html>Names</a> <a href=era-yomis.html>Yomis</a>
+<p>[<a href=era-names.html>Era names</a> <a href=era-yomis.html>Yomis</a>
 <a href=era-kanjions.html>Kanji-ons</a>] [<a
 href=https://wiki.suikawiki.org/n/%E5%85%83%E5%8F%B7%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9>Notes</a>]
+[<a href=tag-names.html>Tag names</a>]
 
 <p class=info>This document is generated from <a
-href=../data/calendar/era-defs.json><code>data/calendar/era-defs.json</code></a>.
+href=../data/calendar/era-defs.json><code>data/calendar/era-defs.json</code></a>
+and <a
+href=../data/calendar/era-labels.json><code>data/calendar/era-labels.json</code></a>.
 
 };
+} elsif ($Mode eq 'tags') {
+  print q{
+<h1>Tag names</h1>
+
+<p>[<a href=era-names.html>Era names</a>]
+
+<p class=info>This document is generated from <a
+href=../data/tags.json><code>data/tags.json</code></a>
+and <a
+href=../data/tag-labels.json><code>data/tag-labels.json</code></a>.
+
+};
+}
+
 printf q{<table class=all>
   <thead>
     <tr>
-      <th class=era>Era
+      <th class=era>%s
       <th><abbr title="Label set">LS</abbr>
       <th class=label>Label
-};
+}, {
+  eras => 'Era',
+  tags => 'Tag',
+}->{$Mode};
 
-for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
+for my $era (sort { $a->{key} cmp $b->{key} } values %{
+  $Mode eq 'eras' ? $Eras->{eras} :
+  $Mode eq 'tags' ? $Tags->{tags} : die $Mode
+}) {
   my $lses = [@{$era->{label_sets} or []}];
   
-  printf qq{\n<tbody><tr>
+  printf qq{\n<tbody><tr id=%d>
     <th class=era rowspan="%d">
-      <code class=era-id>y~%d</code>
+      <a href=https://data.suikawiki.org/%s/%d/>
+        <code class=era-id>%s%d</code>
+      </a>
       <code class=era-key>%s</code>
   },
+      $era->{id},
       1+@{[
 
         map {
@@ -363,6 +408,9 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
         } @$lses
 
       ]},
+      {tags => 'tag', eras => 'e'}->{$Mode},
+      $era->{id},
+      ($Mode eq 'eras' ? 'y~' : ''),
       $era->{id}, $era->{key};
 
   {
@@ -415,12 +463,12 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
           !!($label->{props}->{country_tag_ids}->{$a}->{preferred}) ||
           $a <=> $b;
         } keys %{$label->{props}->{country_tag_ids}}) {
-          my $tag = $Tags->{$tag_id}
+          my $tag = $Tags->{tags}->{$tag_id}
               or die "Tag |$tag_id| not found";
           print q{ };
           my $p = $label->{props}->{country_tag_ids}->{$tag_id}->{preferred};
           print q{<strong>} if $p;
-          printf qq{<a href=https://data.suikawiki.org/tag/%d/>#%s</a>\n },
+          printf qq{<a href=tag-names.html#%d>#%s</a>\n },
               $tag->{id}, $tag->{label};
           print q{</strong>} if $p;
         }
@@ -433,12 +481,12 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
           !!($label->{props}->{monarch_tag_ids}->{$a}->{preferred}) ||
           $a <=> $b;
         } keys %{$label->{props}->{monarch_tag_ids}}) {
-          my $tag = $Tags->{$tag_id}
+          my $tag = $Tags->{tags}->{$tag_id}
               or die "Tag |$tag_id| not found";
           print q{ };
           my $p = $label->{props}->{monarch_tag_ids}->{$tag_id}->{preferred};
           print q{<strong>} if $p;
-          printf qq{<a href=https://data.suikawiki.org/tag/%d/>#%s</a>\n },
+          printf qq{<a href=tag-names.html#%d>#%s</a>\n },
               $tag->{id}, $tag->{label};
           print q{</strong>} if $p;
         }

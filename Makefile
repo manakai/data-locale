@@ -43,12 +43,19 @@ build-github-pages:
 
 PERL = ./perl -I bin/modules/json-ps/lib
 
+NAMES_DEPS = \
+    bin/names.pl \
+    local/cluster-root.json \
+    local/char-leaders.jsonl \
+    local/char-cluster.jsonl \
+    intermediate/kanjion-binran.txt
+
 data: data-deps data-main
 
 data-deps: deps
 
 data-main: \
-    data/tags.json \
+    data/tags.json data/tag-labels.json \
     data/calendar/jp-holidays.json data/calendar/ryukyu-holidays.json \
     data/calendar/kyuureki-genten.json \
     data/calendar/kyuureki-shoki-genten.json \
@@ -79,10 +86,22 @@ data-main: \
 clean-data: clean-langtags
 	rm -fr local/cldr-core* local/*.json
 
+
 local/era-data-tags.txt: src/era-data*.txt
 	grep '^%tag ' --no-filename src/era-data*.txt | sed -e 's/^%tag //' > $@
-data/tags.json: bin/tags.pl src/tags.txt local/era-data-tags.txt
+local/tags-0.json: bin/tags.pl $(NAMES_DEPS) \
+    src/tags.txt local/era-data-tags.txt
 	$(PERL) $< > $@
+local/tag-labels-0.json: bin/tag-labels-0.pl $(NAMES_DEPS) \
+    local/tags-0.json
+	$(PERL) $< > $@
+data/tags.json: bin/tags-1.pl local/tags-0.json \
+    local/tag-labels-0.json
+	$(PERL) $< > $@
+data/tag-labels.json: bin/cleanup.pl \
+    local/tag-labels-0.json
+	$(PERL) $< local/tag-labels-0.json > $@
+
 
 data/calendar/jp-holidays.json: bin/calendar-jp-holidays.pl \
     local/calendar-new-jp-holidays.json \
@@ -173,12 +192,9 @@ data/calendar/era-yomi-sources.json: bin/calendar-era-yomi-sources.pl \
     local/era-yomi-list.json
 	$(PERL) $< > $@
 local/calendar-era-labels-0.json: bin/calendar-era-labels.pl \
+    $(NAMES_DEPS) \
     local/calendar-era-defs-0.json \
     local/era-transitions-0.json \
-    local/cluster-root.json \
-    local/char-leaders.jsonl \
-    local/char-cluster.jsonl \
-    intermediate/kanjion-binran.txt \
     src/era-codes-14.txt \
     src/era-codes-15.txt \
     src/era-codes-24.txt \
@@ -198,6 +214,7 @@ data/calendar/era-defs.json: bin/calendar-era-defs-events.pl \
     data/tags.json
 	$(PERL) $< > $@
 local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
+    $(NAMES_DEPS) \
     local/era-defs-jp.json local/era-defs-jp-emperor.json \
     src/wp-jp-eras.json \
     local/era-defs-jp-wp-en.json \

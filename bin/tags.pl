@@ -5,6 +5,8 @@ use lib glob path (__FILE__)->parent->child ('modules/*/lib');
 use JSON::PS;
 use IDs;
 
+require (path (__FILE__)->parent->child ("names.pl")->absolute);
+
 my $RootPath = path (__FILE__)->parent->parent;
 $IDs::RootDirPath = $RootPath;
 my $Data = {};
@@ -13,18 +15,12 @@ my $TagByKey = {};
 {
   my $add_item = sub {
     my $item = shift;
-    my $key = $item->{key} //= $item->{label} // $item->{name};
+    my $key = $item->{key};
     die "No name" unless defined $key;
     my $id = IDs::get_id_by_string 'tags', $key;
     $item->{id} = $id;
-    my @key = sort { $a cmp $b } keys %$item;
-    for (@key) {
-      if (/\Aname(_.+)\z/) {
-        $item->{"label$1"} //= $item->{$_};
-      }
-    }
-    $item->{label} //= $item->{name};
     die "Duplicate key |$key|" if defined $TagByKey->{$key};
+    push @{$item->{_LABELS}}, @{delete $item->{_LABELS_2}};
     $Data->{tags}->{$id} = $item;
     $TagByKey->{$key} = $item;
   }; # $add_item
@@ -40,16 +36,23 @@ my $TagByKey = {};
       } elsif (/^(region|country|people|religion|org|person|law|action|calendar|position|event|source|tag)$/) {
         $add_item->($item) if defined $item;
         $item = {type => $1};
-      } elsif (defined $item and /^  (name|key)\s+(\S.*\S|\S)\s*$/) {
-        $item->{$1} //= $2;
-      } elsif (defined $item and /^  (name|label)_(ja|en|tw|cn)\s+(\S.*\S|\S)\s*$/) {
-        $item->{$1} //= $3;
-        $item->{$1.'_'.$2} //= $3;
-        $item->{$1.'s'}->{$3} = 1;
+        $item->{_LABELS} //= [{labels => [{reps => []}]}];
+        $item->{_LABELS_2} //= [{labels => [{reps => []}]}];
+      } elsif (defined $item and /^  (key)\s+(\S.*\S|\S)\s*$/) {
+        $item->{key} //= $2;
+      } elsif (defined $item and /^  (name)\s+(\S.*\S|\S)\s*$/) {
+        $item->{key} //= $2;
+        names::parse_src_line ($_ => $item->{_LABELS});
+      } elsif (defined $item and /^  (name\([\w-]+\))\s+(\S.*\S|\S)\s*$/) {
+        $item->{key} //= $2;
+        names::parse_src_line ($_ => $item->{_LABELS});
+      } elsif (defined $item and /^  (name|label)_(ja|en|cn|tw)\s+(\S.*\S|\S)\s*$/) {
+        $item->{key} //= $3;
+        names::parse_src_line ("$1($2) $3" => $item->{$1 eq 'label' ? '_LABELS_2' : '_LABELS'});
+      } elsif (defined $item and /^  \+?(?:name|label|abbr|acronym|expanded|bopomofo|pinyin|&)/) {
+        names::parse_src_line ($_ => $item->{$1 eq 'label' ? '_LABELS_2' : '_LABELS'});
       } elsif (defined $item and /^  (group|period|region)\s*of\s*(\S.*\S|\S)\s*$/) {
         $item->{'_'.$1.'_of'}->{$2} = 1;
-      } elsif (defined $item and /^  name\([a-z]+\)/) {
-        #XXX
       } elsif (/\S/) {
         die "$path: Bad line |$_|";
       }

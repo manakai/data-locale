@@ -13,7 +13,7 @@ sub cleanup ($) {
   for (grep { /^_/ } keys %$data) {
     delete $data->{$_};
   }
-  for my $key (qw(eras relateds)) {
+  for my $key (qw(eras relateds tags)) {
     next unless defined $data->{$key};
     for (values %{$data->{$key}}) {
       cleanup $_;

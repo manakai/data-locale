@@ -60,6 +60,7 @@ See documentations for details in doc/ directory.
   Metadata
     doc/tags.txt                       Tags
       data/tags.json
+      data/tab-labels.json
 
 Data on character encodings and character references used on the Web,
 are contained in the data-web-defs repository

@@ -3805,10 +3805,10 @@ u 18
 u 175-12-10
 
 %tag org
-%tag   name 葵涌循道中學
+%tag   name(hk) 葵涌循道中學
 
 %tag org
-%tag   name 葵涌循道中學2016-17年度學生會Promise
+%tag   name(hk) 葵涌循道中學2016-17年度學生會Promise
 %tag   group of 葵涌循道中學
 tag 葵涌循道中學2016-17年度學生會Promise
 u 177-1-5
@@ -3847,7 +3847,7 @@ tag 署名日付
 u 179-6-9
 
 %tag org
-%tag   name Museum of Hong Kong 香港繆詩菴
+%tag   name(hk) Museum of Hong Kong 香港繆詩菴
 tag Museum of Hong Kong 香港繆詩菴
 tag 英国
 tag 署名日付
@@ -3855,10 +3855,10 @@ u 179-3-4
 u 181-2-6
 
 %tag org
-%tag   name 拔萃男書院
+%tag   name(hk) 拔萃男書院
 
 %tag org
-%tag   name 拔萃男書院國是學會
+%tag   name(hk) 拔萃男書院國是學會
 %tag   group of 拔萃男書院
 tag 拔萃男書院國是學會
 tag 署名日付
@@ -3866,10 +3866,10 @@ AD2016 = 175
 u 175-9-25
 
 %tag org
-%tag   name 漢華中學
+%tag   name(hk) 漢華中學
 
 %tag org
-%tag   name 漢華中學本土關注組
+%tag   name(hk) 漢華中學本土關注組
 %tag   group of 漢華中學
 tag 漢華中學本土關注組
 tag 署名日付
