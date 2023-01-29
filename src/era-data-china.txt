@@ -1318,8 +1318,9 @@ tag 李唐
 tag 隋末唐初
 tag 漢民族
 
-%tag person
-%tag   name_ja 秦 (薛挙)
+%tag country
+%tag   label_ja 秦 (薛挙)
+%tag   name_ja 秦
 %tag   period of 秦
 %tag   period of 中国
 tag 秦 (薛挙)

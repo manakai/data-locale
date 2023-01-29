@@ -54,6 +54,10 @@ The data type [tag-type] is one of followings:
 
     A organization (used when no more specific [tag-type] is found).
 
+  person
+
+    A person.
+
   people
 
     A people.

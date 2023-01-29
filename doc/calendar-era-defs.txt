@@ -97,6 +97,11 @@ It is a JSON object with following name/value pairs:
         The serial number of the era in the 日本年号大観, if any.  The
         era codes #15 [CODES].
 
+      country_tag_id [id?]
+
+        The tag ID of the tag that represents the country of the era,
+        if any.
+
       en_desc [string?]
 
         The official English short description of the era, if any.
@@ -163,6 +168,11 @@ It is a JSON object with following name/value pairs:
       known_latest_year [year?]
 
         The last year the era is used, if known.
+
+      monarch_tag_id [id?]
+
+        The tag ID of the tag that represents the monarch of the era,
+        if any.
 
       name [string]
 
@@ -677,6 +687,20 @@ XXX
 The order of the labels in label set's "labels" list is significant
 for the purpose of sorting labels.
 
+The label properties are:
+
+  country_tag_ids [tag ID property set]
+
+    The tags that identify countries for the label.
+
+  is_name [boolean]
+
+    Whether the label represents a name or not.
+
+  monarch_tag_ids [tag ID property set]
+
+    The tags that identify monarches for the label.
+
 * Structure of the era label data file
 
 The |data/calendar/era-labels.json| file contains labels (names and
@@ -973,11 +997,34 @@ semantics.  Applications must ignore the object's values.
 If the value is a JSON null value, or no value is specified, the set
 is empty.
 
+A property set data type represents a set of values where values are
+associated with their properties.
+
+It is represented by a JSON object, where the object's names are the
+values.  Each of the object's values is a JSON object which represents
+the associated properties.
+
+If the value is a JSON null value, or no value is specified, the set
+is empty.
+
 ** The |tag ID set| data type
 
 A set data type.
 
 XXX
+
+** The |tag ID property set| data type
+
+A property set data type.
+
+XXX
+
+Property:
+
+  preferred [boolean]
+
+    Whether the tag is the preferred one or not.  Exactly one tag in a
+    non-empty set is marked as preferred.
 
 ** The |era ID set| data type
 

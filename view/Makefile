@@ -12,7 +12,8 @@ era-transition-sequences-all:
 	cd era-transition-sequences && $(MAKE) all
 
 era-names.html: era-names.pl $(DATA_PATH)/calendar/era-defs.json \
-    $(ROOT_PATH)/local/calendar-era-labels-0.json
+    $(ROOT_PATH)/local/calendar-era-labels-0.json \
+    $(DATA_PATH)/tags.json
 	$(PERL) $< > $@
 
 era-yomis.html: era-yomis.pl $(DATA_PATH)/calendar/era-yomi-sources.json

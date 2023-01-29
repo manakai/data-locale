@@ -488,6 +488,11 @@ for my $path (
            abbr => 'acronym',
            lang => $1,
            value => percent_decode_c $2};
+    } elsif (defined $key and /^\+name\s+(\w+)\s+(\S.*?\S)\s*$/) {
+      push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}->[-1]->{reps}},
+          {kind => '+tag',
+           type => $1,
+           value => $2};
     } elsif (defined $key and /^&$/) {
       push @{$Data->{eras}->{$key}->{_LABELS}->[-1]->{labels}},
           {reps => []};

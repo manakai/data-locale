@@ -831,6 +831,7 @@ for my $tr (@$Input) {
   my $v = $tr->[2];
   my $source_info = $tr->[3];
   my $x = {};
+  my $x_subject_tag_ids = [];
 
   if (ref $v eq 'HASH') { # comes from |bin/era-date-list.pl|.
     next if defined $v->{label} and $v->{label} eq '年末';
@@ -920,6 +921,7 @@ for my $tr (@$Input) {
                 $tag->{type} eq 'source') {
               if (defined $tags2) {
                 $x->{subject_tag_ids}->{$tag->{id}} = 1;
+                push @$x_subject_tag_ids, $tag->{id};
               } else {
                 die "Duplicate authority tag: |$t1| [$tr->[2]]"
                     if defined $x->{authority_tag_id};
@@ -928,11 +930,14 @@ for my $tr (@$Input) {
             } elsif ($tag->{type} eq 'region') {
               if (defined $tags2) {
                 $x->{subject_tag_ids}->{$tag->{id}} = 1;
+                push @$x_subject_tag_ids, $tag->{id};
               } else {
                 $x->{subject_tag_ids}->{$tag->{id}} = 1;
+                push @$x_subject_tag_ids, $tag->{id};
               }
             } elsif ($tag->{type} eq 'person') {
               $x->{subject_tag_ids}->{$tag->{id}} = 1;
+              push @$x_subject_tag_ids, $tag->{id};
             } elsif ($tag->{type} eq 'position') {
               die "Duplicate position tag: |$t1|"
                   if defined $x->{position_tag_id};
@@ -998,6 +1003,37 @@ for my $tr (@$Input) {
   }
   } # $v
 
+  if ($x->{tag_ids}->{1190} or # 日本改元日
+      $x->{tag_ids}->{1189} or # 支那改元日
+      $x->{tag_ids}->{1728} or # 支那改元詔
+      $x->{tag_ids}->{1442}) { # 元号名変更
+    for my $to_key (@$to_keys) {
+      next if $to_key eq '干支年';
+      if (defined $x->{authority_tag_id}) {
+        my $tag = $Tags->{$x->{authority_tag_id}};
+        if ($tag->{type} eq 'country') {
+          if (not $x->{tag_ids}->{1198}) { # 異説
+            $Data->{_ERA_PROPS}->{$to_key}->{country_tag_id} = $x->{authority_tag_id};
+          } else {
+            $Data->{_ERA_PROPS_2}->{$to_key}->{country_tag_id} = $x->{authority_tag_id};
+          }
+          $Data->{_ERA_TAGS}->{$to_key}->{$tag->{key}} = 1;
+        }
+      }
+      for my $tag_id (@$x_subject_tag_ids) {
+        my $tag = $Tags->{$tag_id};
+        if ($tag->{type} eq 'person') {
+          if (not $x->{tag_ids}->{1198}) { # 異説
+            $Data->{_ERA_PROPS}->{$to_key}->{monarch_tag_id} //= 0+$tag_id;
+          } else {
+            $Data->{_ERA_PROPS_2}->{$to_key}->{monarch_tag_id} //= 0+$tag_id;
+          }
+          $Data->{_ERA_TAGS}->{$to_key}->{$tag->{key}} = 1;
+        }
+      }
+    }
+  }
+  
   if ($x->{tag_ids}->{1278} and # 適用開始
       not $x->{tag_ids}->{1198} and # 異説
       defined $x->{day}) {

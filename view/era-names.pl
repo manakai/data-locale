@@ -22,6 +22,13 @@ my $Eras;
     $Eras->{eras}->{$in_era->{key}}->{label_sets} = $in_era->{label_sets};
   }
 }
+
+my $Tags;
+{
+  my $path = $RootPath->child ('data/tags.json');
+  my $json = json_bytes2perl $path->slurp;
+  $Tags = $json->{tags};
+}
 print STDERR "\rLoaded!";
 
 sub pattern ($$) {
@@ -61,12 +68,28 @@ print q{<!DOCTYPE html>
   table.all > tbody > tr > td {
   }
 
-  .label-abbr:not([hidden]) {
-    display: block;
+  th.era {
+    writing-mode: vertical-lr;
+    text-align: start;
   }
-  .label-abbr {
-    writing-mode: vertical-rl;
-    margin: auto;
+
+  th.era .era-id {
+    font-weight: bolder;
+  }
+
+  th.era .era-key {
+    font-weight: normal;
+  }
+
+  th.label {
+    text-align: start;
+  }
+  tbody th.label {
+    font-weight: normal;
+  }
+
+  .era-country a,
+  .era-monarch a {
   }
 
   .form-sets {
@@ -318,17 +341,28 @@ href=../data/calendar/era-defs.json><code>data/calendar/era-defs.json</code></a>
 printf q{<table class=all>
   <thead>
     <tr>
-      <th>Era
+      <th class=era>Era
       <th><abbr title="Label set">LS</abbr>
-      <th><abbr title=Label>L</abbr>
-      <th>Value
+      <th class=label>Label
 };
 
 for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
   my $lses = [@{$era->{label_sets} or []}];
   
-  printf qq{\n<tbody><tr><th rowspan="%d"><code>y~%d</code><p class=info><code>%s</code>},
-      1+@{[map { (1,1) } map { @{$_->{form_groups}} } map { @{$_->{labels}} } @$lses]} || 1,
+  printf qq{\n<tbody><tr>
+    <th class=era rowspan="%d">
+      <code class=era-id>y~%d</code>
+      <code class=era-key>%s</code>
+  },
+      1+@{[
+
+        map {
+          map {
+            (1, map { (1, 1) } @{$_->{form_groups}})
+          } @{$_->{labels}}
+        } @$lses
+
+      ]},
       $era->{id}, $era->{key};
 
   {
@@ -347,7 +381,7 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
         printf q{-};
       }
     }
-    printf q{<p>Names:};
+    printf q{<p>Names: };
     print join ', ', map {
       sprintf q{<bdi class="pattern-%d">%s</bdi>},
           pattern ($_, $patterns),
@@ -362,26 +396,71 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
       print q{<v-error>ERROR: <code>labels</code> is empty</v-error>};
     }
     printf q{<th rowspan="%d">#%d},
-        0+@{[map { (1,1) } map { @{$_->{form_groups}} } @{$ls->{labels}}]} || 1,
+        0+@{[
+          map {
+            (1, map { (1, 1) } @{$_->{form_groups}})
+          } @{$ls->{labels}}
+        ]} || 1,
         $_;
     for (0..$#{$ls->{labels}}) {
       my $label = $ls->{labels}->[$_];
       print qq{\x0A<tr>} unless $_ == 0;
-      printf q{<th rowspan="%d">%d},
-          0+@{[ map { (1,1) } @{$label->{form_groups}} ]},
+      printf q{<th class=label>%d},
           $_;
+
+      if (keys %{$label->{props}->{country_tag_ids} or {}}) {
+        printf q{ <span class=era-country>Country [};
+        for my $tag_id (sort {
+          !!($label->{props}->{country_tag_ids}->{$b}->{preferred}) <=>
+          !!($label->{props}->{country_tag_ids}->{$a}->{preferred}) ||
+          $a <=> $b;
+        } keys %{$label->{props}->{country_tag_ids}}) {
+          my $tag = $Tags->{$tag_id}
+              or die "Tag |$tag_id| not found";
+          print q{ };
+          my $p = $label->{props}->{country_tag_ids}->{$tag_id}->{preferred};
+          print q{<strong>} if $p;
+          printf qq{<a href=https://data.suikawiki.org/tag/%d/>#%s</a>\n },
+              $tag->{id}, $tag->{label};
+          print q{</strong>} if $p;
+        }
+        printf q{]</span>};
+      }
+      if (keys %{$label->{props}->{monarch_tag_ids} or {}}) {
+        printf q{ <span class=era-monarch>Monarch [};
+        for my $tag_id (sort {
+          !!($label->{props}->{monarch_tag_ids}->{$b}->{preferred}) <=>
+          !!($label->{props}->{monarch_tag_ids}->{$a}->{preferred}) ||
+          $a <=> $b;
+        } keys %{$label->{props}->{monarch_tag_ids}}) {
+          my $tag = $Tags->{$tag_id}
+              or die "Tag |$tag_id| not found";
+          print q{ };
+          my $p = $label->{props}->{monarch_tag_ids}->{$tag_id}->{preferred};
+          print q{<strong>} if $p;
+          printf qq{<a href=https://data.suikawiki.org/tag/%d/>#%s</a>\n },
+              $tag->{id}, $tag->{label};
+          print q{</strong>} if $p;
+        }
+        printf q{]</span>};
+      }
+      if ($label->{props}->{is_name}) {
+        printf q{ Name:};
+      } else {
+        printf q{ Value:};
+      }
       if (defined $label->{abbr}) {
-        printf q{ <code class=label-abbr>abbr:%s</code>},
+        printf q{ [<code class=label-abbr>abbr:%s</code>]},
             htescape $label->{abbr};
       }
-
+      
       my $names = {};
       my $refnames = {};
 
       if (@{$label->{form_groups}}) {
         for (0..$#{$label->{form_groups}}) {
           my $rep = $label->{form_groups}->[$_];
-          print qq{\x0A<tr>} unless $_ == 0;
+          print qq{\x0A<tr>};
 
           printf q{<td><p>form group [<code>%s</code>]},
               htescape $rep->{form_group_type};
@@ -571,7 +650,13 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{$Eras->{eras}}) {
   print "\x0A";
 }
 
-print q{</table>};
+print q{
+  </table>
+
+<sw-ads normal></sw-ads>
+<script src="https://manakai.github.io/js/global.js" async></script>
+
+};
 print STDERR qq{\n};
 
 ## License: Public Domain.

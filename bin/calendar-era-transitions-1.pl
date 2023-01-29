@@ -12,7 +12,9 @@ my $Data;
   $Data = $json;
 }
 
-delete $Data->{_ERA_TAGS};
+for (grep { /^_/ } keys %$Data) {
+  delete $Data->{$_};
+}
 
 print perl2json_bytes_for_record $Data;
 

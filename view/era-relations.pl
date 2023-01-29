@@ -177,7 +177,12 @@ for (sort { $a->[1]->{key} cmp $b->[1]->{key} } map {
   } # $ids
 } # $data
 
-print q{</table>};
+print q{
+</table>
+
+<sw-ads normal></sw-ads>
+<script src="https://manakai.github.io/js/global.js" async></script>
+};
 print STDERR qq{\n};
 
 ## License: Public Domain.

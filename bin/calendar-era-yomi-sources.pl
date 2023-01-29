@@ -43,7 +43,7 @@ my $EraNameToKey;
     my $values = [];
     for my $ls (@{$era->{label_sets}}) {
       for my $label (@{$ls->{labels}}) {
-        next unless $label->{is_name};
+        next unless $label->{props}->{is_name};
         FG: for my $fg (@{$label->{form_groups}}) {
           if ($fg->{form_group_type} eq 'compound') {
             my $yomi = [];

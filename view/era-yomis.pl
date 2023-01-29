@@ -302,6 +302,11 @@ for my $era (sort {
   }
 }
 
-print q{</table>};
+print q{
+</table>
+
+<sw-ads normal></sw-ads>
+<script src="https://manakai.github.io/js/global.js" async></script>
+};
 
 ## License: Public Domain.

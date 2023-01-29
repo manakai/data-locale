@@ -20,6 +20,16 @@ my $EraLabels;
   my $json = json_bytes2perl $path->slurp;
   $EraTransitions = $json->{transitions};
   $EraTags = $json->{_ERA_TAGS};
+  for my $key (keys %{$json->{_ERA_PROPS}}) {
+    for my $prop (keys %{$json->{_ERA_PROPS}->{$key}}) {
+      $Data->{eras}->{$key}->{$prop} //= $json->{_ERA_PROPS}->{$key}->{$prop};
+    }
+  }
+  for my $key (keys %{$json->{_ERA_PROPS_2}}) {
+    for my $prop (keys %{$json->{_ERA_PROPS_2}->{$key}}) {
+      $Data->{eras}->{$key}->{$prop} //= $json->{_ERA_PROPS_2}->{$key}->{$prop};
+    }
+  }
 }
 {
   my $path = $RootPath->child ('local/calendar-era-relations-0.json');

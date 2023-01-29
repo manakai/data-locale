@@ -312,6 +312,10 @@ for my $c (sort { $a cmp $b } keys %{$Data->{_ONS}->{_errors}->{not_found_chars}
 }
 
 print q{</section>
+
+<sw-ads normal></sw-ads>
+<script src="https://manakai.github.io/js/global.js" async></script>
+
 <!--
 
 Per CC0 <https://creativecommons.org/publicdomain/zero/1.0/>, to the

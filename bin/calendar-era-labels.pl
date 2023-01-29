@@ -11,6 +11,7 @@ my $RootPath = path (__FILE__)->parent->parent;
 
 my $Eras;
 my $EraById;
+my $EraByKey = {};
 print STDERR "Loading...";
 {
   my $path = $RootPath->child ('local/calendar-era-defs-0.json');
@@ -18,6 +19,19 @@ print STDERR "Loading...";
   $Eras = [sort { $a->{id} <=> $b->{id} } values %{$json->{eras}}];
   for my $era (@$Eras) {
     $EraById->{$era->{id}} = $era;
+    $EraByKey->{$era->{key}} = $era;
+  }
+}
+{
+  my $path = $RootPath->child ('local/era-transitions-0.json');
+  my $json = json_bytes2perl $path->slurp;
+  for my $key (keys %{$json->{_ERA_PROPS}}) {
+    for my $prop (keys %{$json->{_ERA_PROPS}->{$key}}) {
+      $EraByKey->{$key}->{$prop} //= $json->{_ERA_PROPS}->{$key}->{$prop};
+    }
+    for my $prop (keys %{$json->{_ERA_PROPS_2}->{$key}}) {
+      $EraByKey->{$key}->{$prop} //= $json->{_ERA_PROPS_2}->{$key}->{$prop};
+    }
   }
 }
 print STDERR "done\n";
@@ -62,6 +76,7 @@ sub set_object_tag ($$) {
       }
     }
   }
+  return $item;
 } # set_object_tag
 
 {
@@ -454,16 +469,16 @@ my $LeaderKeys = [];
   sub to_hiragana ($) {
     use utf8;
     my $s = shift;
-    $s =~ tr{アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮ𛀄𛃚𛁩𛀁𛀷𛂰}
-            {あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎあもつえけほ};
+    $s =~ tr{アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮ𛀄𛃚𛁩𛀁𛀷𛂰𛀙𛀊𛄒𛀆𛄚𛁈𛀕𛃶}
+            {あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎあもつえけほかうえいをしおり};
     return $s;
   } # to_hiragana
 
   sub to_katakana ($) {
     use utf8;
     my $s = shift;
-    $s =~ tr{あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎ𛀄𛃚𛁩𛀁𛀷𛂰}
-            {アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮアモツエケホ};
+    $s =~ tr{あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょゎ𛀄𛃚𛁩𛀁𛀷𛂰𛀙𛀊𛄒𛀆𛄚𛁈𛀕𛃶}
+            {アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヮアモツエケホカウエイヲシオリ};
     return $s;
   } # to_katakana
 
@@ -1060,9 +1075,9 @@ sub compute_form_group_ons ($) {
     return [grep { @{$_->{form_groups}} or @{$_->{expandeds} or []} } @$labels];
   } # filter_labels
   
-  sub reps_to_labels ($$$);
-  sub reps_to_labels ($$$) {
-    my ($reps => $labels, $has_preferred) = @_;
+  sub reps_to_labels ($$$$);
+  sub reps_to_labels ($$$$) {
+    my ($era, $reps => $labels, $has_preferred) = @_;
 
     my $label = {form_groups => []};
     my $label_added = 0;
@@ -1083,7 +1098,19 @@ sub compute_form_group_ons ($) {
       my $value_added = 0;
 
       if (defined $rep->{kind}) {
-        if ($rep->{kind} eq 'expanded') {
+        if ($rep->{kind} eq '+tag') {
+          my $tag = set_object_tag $era, $rep->{value};
+          if ($rep->{type} eq 'country') {
+            $label->{props}->{country_tag_ids}->{$tag->{id}} = {};
+            $label->{_PREFERRED}->{country_tag_ids} //= $tag->{id};
+          } elsif ($rep->{type} eq 'monarch') {
+            $label->{props}->{monarch_tag_ids}->{$tag->{id}} = {};
+            $label->{_PREFERRED}->{monarch_tag_ids} //= $tag->{id};
+          } else {
+            die "Bad |type| value |$rep->{type}|";
+          }
+          next REP;
+        } elsif ($rep->{kind} eq 'expanded') {
           if (@{$label->{form_groups}} and
               defined $label->{form_groups}->[-1]->{abbr}) {
             $value = $label->{form_groups}->[-1];
@@ -1091,7 +1118,7 @@ sub compute_form_group_ons ($) {
           }
           $rep->{kind} = '(expanded)';
           $value->{expandeds} ||= [];
-          reps_to_labels [$rep] => $value->{expandeds}, {jp=>1,cn=>1,tw=>1};
+          reps_to_labels $era, [$rep] => $value->{expandeds}, {jp=>1,cn=>1,tw=>1};
         } else {
           my $v = {};
           my $v_added = 0;
@@ -1786,7 +1813,7 @@ sub compute_form_group_ons ($) {
           }
 
           if ($rep->{kind} eq 'name') {
-            $label->{is_name} = \1;
+            $label->{props}->{is_name} = \1;
             if ($rep->{preferred} and defined $rep->{lang}) {
               my $lang = {
                 ja => 'jp',
@@ -1837,16 +1864,26 @@ sub compute_form_group_ons ($) {
     $era->{label_sets} = [];
     for my $label_set (@{$era->{_LABELS}}) {
       my $new_label_set = {labels => []};
-      reps_to_labels [map { (@{$_->{reps}}, {next_label => 1}) } @{$label_set->{labels}}] => $new_label_set->{labels}, $has_preferred;
+      reps_to_labels $era, [map { (@{$_->{reps}}, {next_label => 1}) } @{$label_set->{labels}}] => $new_label_set->{labels}, $has_preferred;
       $new_label_set->{labels} = filter_labels $new_label_set->{labels};
       push @{$era->{label_sets}}, $new_label_set if @{$new_label_set->{labels}};
     }
   } # $era
   
   for my $era (values %{$Data->{eras}}) {
+    my $in_era = $EraById->{$era->{id}};
     for my $label_set (@{$era->{label_sets}}) {
       for my $label (@{$label_set->{labels}}) {
-        if ($label->{is_name}) {
+        if ($label->{props}->{is_name}) {
+          if (defined not $label->{abbr}) {
+            if (defined $in_era->{country_tag_id}) {
+              $label->{props}->{country_tag_ids}->{$in_era->{country_tag_id}} = {preferred => 1};
+            }
+            if (defined $in_era->{monarch_tag_id}) {
+              $label->{props}->{monarch_tag_ids}->{$in_era->{monarch_tag_id}} = {preferred => 1};
+            }
+          }
+          
           for my $text (@{$label->{form_groups}}) {
             if ($text->{form_group_type} eq 'han' or
                 $text->{form_group_type} eq 'ja' or
@@ -1910,6 +1947,27 @@ sub compute_form_group_ons ($) {
             }
           }
         } # is_name
+
+        my $preferred_tag_ids = delete $label->{_PREFERRED};
+        for my $key (qw(country_tag_ids monarch_tag_ids)) {
+          if (keys %{$label->{props}->{$key} or {}}) {
+            my $has_preferred = 0;
+            for (values %{$label->{props}->{$key} or {}}) {
+              $has_preferred++ if $_->{preferred};
+            }
+            die "Too many preferred" if $has_preferred > 1;
+            if ($has_preferred == 0) {
+              if ($preferred_tag_ids->{$key}) {
+                $label->{props}->{$key}->{$preferred_tag_ids->{$key}}->{preferred} = 1;
+              } else {
+                for (sort { $a <=> $b } keys %{$label->{props}->{$key}}) {
+                  $label->{props}->{$key}->{$_}->{preferred} = 1;
+                  last;
+                }
+              }
+            }
+          }
+        } # $key
       } # $label
     } # $label_set
     for my $label_set (@{$era->{label_sets}}) {
@@ -1923,7 +1981,7 @@ sub compute_form_group_ons ($) {
               if ($fs->{form_set_type} eq 'hanzi') {
                 fill_han_variants $fs;
                 for my $lang (qw(tw jp cn)) {
-                  if ($label->{is_name} and
+                  if ($label->{props}->{is_name} and
                       defined $fs->{$lang} and
                       not defined $text->{abbr} and
                       not defined $era->{_SHORTHANDS}->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang}) {
@@ -1934,7 +1992,7 @@ sub compute_form_group_ons ($) {
                   }
                 } # $lang
                 for my $lang (@$LeaderKeys) {
-                  if ($label->{is_name} and defined $fs->{$lang}) {
+                  if ($label->{props}->{is_name} and defined $fs->{$lang}) {
                     my $v = serialize_segmented_text $fs->{$lang};
                     $era->{_SHORTHANDS}->{names}->{$v} = 1 if defined $v;
                   }

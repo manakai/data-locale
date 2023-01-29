@@ -174,6 +174,7 @@ data/calendar/era-yomi-sources.json: bin/calendar-era-yomi-sources.pl \
 	$(PERL) $< > $@
 local/calendar-era-labels-0.json: bin/calendar-era-labels.pl \
     local/calendar-era-defs-0.json \
+    local/era-transitions-0.json \
     local/cluster-root.json \
     local/char-leaders.jsonl \
     local/char-cluster.jsonl \

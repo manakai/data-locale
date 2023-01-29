@@ -184,4 +184,11 @@ for my $tr (@$Transitions) {
   print_tags $tr->{tag_ids};
 }
 
+print q{
+</table>
+
+<sw-ads normal></sw-ads>
+<script src="https://manakai.github.io/js/global.js" async></script>
+};
+
 ## License: Public Domain.
