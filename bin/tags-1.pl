@@ -20,7 +20,7 @@ my $Data;
 }
 
 for my $data (values %{$Data->{tags}}) {
-  for my $key (keys %{$data->{_SHORTHANDS}}) {
+  for my $key (keys %{$data->{_SHORTHANDS} or {}}) {
     $data->{$key} = $data->{_SHORTHANDS}->{$key};
   }
   delete $data->{_SHORTHANDS};

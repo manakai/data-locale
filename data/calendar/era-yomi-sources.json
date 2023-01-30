@@ -5605,7 +5605,7 @@
          "key" : "綏靖天皇",
          "missing_yomis" : [
          ],
-         "name" : "綏靖天皇",
+         "name" : "绥靖天皇",
          "start_year" : -580,
          "yomis" : {
             "6100" : [
@@ -14875,7 +14875,7 @@
          "key" : "顕宗天皇",
          "missing_yomis" : [
          ],
-         "name" : "顕宗天皇",
+         "name" : "㬎宗天皇",
          "start_year" : 485,
          "yomis" : {
             "6100" : [
@@ -17270,7 +17270,7 @@
          "key" : "霊寿",
          "missing_yomis" : [
          ],
-         "name" : "霊寿",
+         "name" : "灵寿",
          "start_year" : 1946,
          "yomis" : {
             "6100" : [
@@ -24532,7 +24532,7 @@
          "key" : "孝霊天皇",
          "missing_yomis" : [
          ],
-         "name" : "孝霊天皇",
+         "name" : "孝灵天皇",
          "start_year" : -289,
          "yomis" : {
             "6100" : [
@@ -25222,7 +25222,7 @@
          "missing_yomis" : [
             "さいめい"
          ],
-         "name" : "斉明天皇",
+         "name" : "齐明天皇",
          "start_year" : 655,
          "yomis" : {
             "6072" : [
@@ -30398,7 +30398,7 @@
          "key" : "孔紀",
          "missing_yomis" : [
          ],
-         "name" : "孔紀",
+         "name" : "孔纪",
          "start_year" : null,
          "yomis" : {
             "6100" : [
@@ -30490,7 +30490,7 @@
          "key" : "天孫紀元",
          "missing_yomis" : [
          ],
-         "name" : "天孫紀元",
+         "name" : "天孙纪元",
          "start_year" : null,
          "yomis" : {
             "6100" : [
@@ -30531,7 +30531,7 @@
          "key" : "霊波",
          "missing_yomis" : [
          ],
-         "name" : "霊波",
+         "name" : "灵波",
          "start_year" : 1915,
          "yomis" : {
             "6100" : [
@@ -30798,7 +30798,7 @@
          "key" : "命知",
          "missing_yomis" : [
          ],
-         "name" : "創業命知",
+         "name" : "创业命知",
          "start_year" : null,
          "yomis" : {
             "6100" : [
@@ -30877,7 +30877,7 @@
          "key" : "悪魔暦",
          "missing_yomis" : [
          ],
-         "name" : "魔暦",
+         "name" : "魔曆",
          "start_year" : 1999,
          "yomis" : {
             "6100" : [
@@ -30899,7 +30899,7 @@
          "key" : "亀光",
          "missing_yomis" : [
          ],
-         "name" : "亀光",
+         "name" : "龟光",
          "start_year" : 1862,
          "yomis" : {
             "6100" : [
@@ -31007,7 +31007,7 @@
          "key" : "核時代(乙酉)",
          "missing_yomis" : [
          ],
-         "name" : "核時代",
+         "name" : "核时代",
          "start_year" : 1945,
          "yomis" : {
             "6100" : [
@@ -31067,7 +31067,7 @@
          "key" : "真那暦",
          "missing_yomis" : [
          ],
-         "name" : "真那暦",
+         "name" : "真那曆",
          "start_year" : 1992,
          "yomis" : {
             "6100" : [
@@ -31343,7 +31343,7 @@
          "key" : "天降紀元",
          "missing_yomis" : [
          ],
-         "name" : "天降紀元",
+         "name" : "天降纪元",
          "start_year" : -2999,
          "yomis" : {
             "6100" : [
@@ -31618,7 +31618,7 @@
          "key" : "監国魯(乙酉)",
          "missing_yomis" : [
          ],
-         "name" : "監国魯",
+         "name" : "监国鲁",
          "start_year" : 1645,
          "yomis" : {
             "6100" : [
@@ -31656,7 +31656,7 @@
          "key" : "監国魯(丁亥)",
          "missing_yomis" : [
          ],
-         "name" : "魯監国",
+         "name" : "鲁监国",
          "start_year" : 1647,
          "yomis" : {
             "6100" : [
@@ -31694,7 +31694,7 @@
          "key" : "祥興(己卯)",
          "missing_yomis" : [
          ],
-         "name" : "祥興",
+         "name" : "祥兴",
          "start_year" : 1279,
          "yomis" : {
             "6100" : [
@@ -31971,7 +31971,7 @@
          "key" : "元興(乙酉)",
          "missing_yomis" : [
          ],
-         "name" : "元興",
+         "name" : "元兴",
          "start_year" : 1705,
          "yomis" : {
             "6100" : [
@@ -32009,7 +32009,7 @@
          "key" : "嗣統(己未)",
          "missing_yomis" : [
          ],
-         "name" : "嗣統",
+         "name" : "嗣统",
          "start_year" : 1859,
          "yomis" : {
             "6100" : [
@@ -32032,7 +32032,7 @@
          "key" : "永興(丙戌)",
          "missing_yomis" : [
          ],
-         "name" : "永興",
+         "name" : "永兴",
          "start_year" : 1706,
          "yomis" : {
             "6100" : [
@@ -32070,7 +32070,7 @@
          "key" : "安樂(戊寅)",
          "missing_yomis" : [
          ],
-         "name" : "安楽",
+         "name" : "安乐",
          "start_year" : 618,
          "yomis" : {
             "6100" : [
@@ -32358,7 +32358,7 @@
          "key" : "嗣統(乙丑)",
          "missing_yomis" : [
          ],
-         "name" : "嗣統",
+         "name" : "嗣统",
          "start_year" : 1865,
          "yomis" : {
             "6100" : [
@@ -32381,7 +32381,7 @@
          "key" : "仁徳天皇",
          "missing_yomis" : [
          ],
-         "name" : "仁徳天皇",
+         "name" : "仁德天皇",
          "start_year" : 313,
          "yomis" : {
             "6100" : [
@@ -32921,7 +32921,7 @@
          "key" : "興竜",
          "missing_yomis" : [
          ],
-         "name" : "興竜",
+         "name" : "兴龙",
          "start_year" : 1215,
          "yomis" : {
             "6100" : [
@@ -32959,7 +32959,7 @@
          "key" : "順天(乙亥)",
          "missing_yomis" : [
          ],
-         "name" : "順天",
+         "name" : "顺天",
          "start_year" : 1215,
          "yomis" : {
             "6100" : [
@@ -32982,7 +32982,7 @@
          "key" : "順天(甲戌)",
          "missing_yomis" : [
          ],
-         "name" : "順天",
+         "name" : "顺天",
          "start_year" : 1214,
          "yomis" : {
             "6100" : [
@@ -33005,7 +33005,7 @@
          "key" : "大漢(己卯)",
          "missing_yomis" : [
          ],
-         "name" : "大漢",
+         "name" : "大汉",
          "start_year" : 1039,
          "yomis" : {
             "6100" : [
@@ -33024,7 +33024,7 @@
          "key" : "真興(辛巳)",
          "missing_yomis" : [
          ],
-         "name" : "真興",
+         "name" : "真兴",
          "start_year" : 1041,
          "yomis" : {
             "6100" : [
@@ -34201,7 +34201,7 @@
          "key" : "天賜禮盛國慶(辛亥)",
          "missing_yomis" : [
          ],
-         "name" : "天賜礼盛国慶",
+         "name" : "天赐礼盛国庆",
          "start_year" : 1071,
          "yomis" : {
             "6100" : [
@@ -34632,7 +34632,7 @@
          "key" : "徳聖(戊寅)",
          "missing_yomis" : [
          ],
-         "name" : "徳聖",
+         "name" : "德聖",
          "start_year" : 1038,
          "yomis" : {
             "6100" : [
@@ -34670,7 +34670,7 @@
          "key" : "天啟(己亥)",
          "missing_yomis" : [
          ],
-         "name" : "天启",
+         "name" : "天啟",
          "start_year" : 1359,
          "yomis" : {
             "6100" : [
@@ -34768,7 +34768,7 @@
          "key" : "大義(己亥)",
          "missing_yomis" : [
          ],
-         "name" : "大義",
+         "name" : "大义",
          "start_year" : 1359,
          "yomis" : {
             "6100" : [
@@ -34848,7 +34848,7 @@
          "key" : "造歷(己未)",
          "missing_yomis" : [
          ],
-         "name" : "造暦",
+         "name" : "造曆",
          "start_year" : 1559,
          "yomis" : {
             "6100" : [
@@ -34914,7 +34914,7 @@
          "key" : "順天(己未)",
          "missing_yomis" : [
          ],
-         "name" : "順天",
+         "name" : "顺天",
          "start_year" : 1859,
          "yomis" : {
             "6100" : [
@@ -34937,7 +34937,7 @@
          "key" : "龍紀(乙巳)",
          "missing_yomis" : [
          ],
-         "name" : "竜紀",
+         "name" : "龙纪",
          "start_year" : 885,
          "yomis" : {
             "6100" : [
@@ -35426,7 +35426,7 @@
          "key" : "同慶(丙戌)",
          "missing_yomis" : [
          ],
-         "name" : "同慶",
+         "name" : "同庆",
          "start_year" : 1885,
          "yomis" : {
             "6100" : [
@@ -35646,7 +35646,7 @@
          "key" : "延壽(新羅辛卯)",
          "missing_yomis" : [
          ],
-         "name" : "延壽",
+         "name" : "延寿",
          "start_year" : 391,
          "yomis" : {
             "6100" : [
@@ -35669,7 +35669,7 @@
          "key" : "延壽(辛卯)",
          "missing_yomis" : [
          ],
-         "name" : "延壽",
+         "name" : "延寿",
          "start_year" : 511,
          "yomis" : {
             "6100" : [
@@ -35715,7 +35715,7 @@
          "key" : "水德萬歲",
          "missing_yomis" : [
          ],
-         "name" : "水徳万歳",
+         "name" : "水德万岁",
          "start_year" : 911,
          "yomis" : {
             "6100" : [
@@ -35734,7 +35734,7 @@
          "key" : "光德(庚戌)",
          "missing_yomis" : [
          ],
-         "name" : "光徳",
+         "name" : "光德",
          "start_year" : 950,
          "yomis" : {
             "6100" : [
@@ -35813,7 +35813,7 @@
          "key" : "應天(辛丑)",
          "missing_yomis" : [
          ],
-         "name" : "応天",
+         "name" : "应天",
          "start_year" : 761,
          "yomis" : {
             "6100" : [
@@ -35851,7 +35851,7 @@
          "key" : "緋扇",
          "missing_yomis" : [
          ],
-         "name" : "緋扇",
+         "name" : "绯扇",
          "start_year" : 1983,
          "yomis" : {
             "6100" : [
@@ -35870,7 +35870,7 @@
          "key" : "孝徳天皇",
          "missing_yomis" : [
          ],
-         "name" : "孝徳天皇",
+         "name" : "孝德天皇",
          "start_year" : null,
          "yomis" : {
             "6100" : [
@@ -36966,7 +36966,7 @@
          "key" : "文徳(丁未)",
          "missing_yomis" : [
          ],
-         "name" : "文徳",
+         "name" : "文德",
          "start_year" : 907,
          "yomis" : {
             "6100" : [
@@ -37262,7 +37262,7 @@
          "key" : "대한민국",
          "missing_yomis" : [
          ],
-         "name" : "大韓民國",
+         "name" : "大韩民国",
          "start_year" : 1919,
          "yomis" : {
             "6100" : [
@@ -39292,7 +39292,7 @@
          "key" : "応神天皇",
          "missing_yomis" : [
          ],
-         "name" : "応神天皇",
+         "name" : "应神天皇",
          "start_year" : 270,
          "yomis" : {
             "6100" : [
@@ -42969,7 +42969,7 @@
          "key" : "懿徳天皇",
          "missing_yomis" : [
          ],
-         "name" : "懿徳天皇",
+         "name" : "懿德天皇",
          "start_year" : -509,
          "yomis" : {
             "6100" : [
@@ -43794,7 +43794,7 @@
          "key" : "大順(段鋹)",
          "missing_yomis" : [
          ],
-         "name" : "大順",
+         "name" : "大顺",
          "start_year" : 1520,
          "yomis" : {
             "6100" : [
@@ -46051,7 +46051,7 @@
          "key" : "天啟(戊戌)",
          "missing_yomis" : [
          ],
-         "name" : "天啓",
+         "name" : "天启",
          "start_year" : 1358,
          "yomis" : {
             "6100" : [
@@ -48024,7 +48024,7 @@
          "key" : "成務天皇",
          "missing_yomis" : [
          ],
-         "name" : "成務天皇",
+         "name" : "成务天皇",
          "start_year" : 131,
          "yomis" : {
             "6100" : [
@@ -49901,7 +49901,7 @@
          "missing_yomis" : [
             "じとう"
          ],
-         "name" : "持統天皇",
+         "name" : "持统天皇",
          "start_year" : 687,
          "yomis" : {
             "6072" : [
@@ -50838,7 +50838,7 @@
          "key" : "継体天皇",
          "missing_yomis" : [
          ],
-         "name" : "継体天皇",
+         "name" : "继体天皇",
          "start_year" : 507,
          "yomis" : {
             "6100" : [
@@ -51378,7 +51378,7 @@
          "key" : "白鳳",
          "missing_yomis" : [
          ],
-         "name" : "白鳳",
+         "name" : "白凤",
          "start_year" : 650,
          "yomis" : {
             "6012" : [
@@ -52099,7 +52099,7 @@
          "key" : "核時代",
          "missing_yomis" : [
          ],
-         "name" : "核時代",
+         "name" : "核时代",
          "start_year" : 1946,
          "yomis" : {
             "6100" : [
@@ -53706,7 +53706,7 @@
          "key" : "元統(癸酉)",
          "missing_yomis" : [
          ],
-         "name" : "元統",
+         "name" : "元统",
          "start_year" : 1213,
          "yomis" : {
             "6100" : [
@@ -54163,7 +54163,7 @@
          "key" : "神功皇后摂政",
          "missing_yomis" : [
          ],
-         "name" : "神功皇后摂政",
+         "name" : "神功皇后摄政",
          "start_year" : 201,
          "yomis" : {
             "6100" : [
@@ -54663,7 +54663,7 @@
          "key" : "欽明天皇",
          "missing_yomis" : [
          ],
-         "name" : "欽明天皇",
+         "name" : "钦明天皇",
          "start_year" : 540,
          "yomis" : {
             "6100" : [
@@ -55351,7 +55351,7 @@
          "key" : "洪順",
          "missing_yomis" : [
          ],
-         "name" : "洪順",
+         "name" : "洪顺",
          "start_year" : 1853,
          "yomis" : {
             "6100" : [
@@ -56701,7 +56701,7 @@
          "key" : "仁賢天皇",
          "missing_yomis" : [
          ],
-         "name" : "仁賢天皇",
+         "name" : "仁贤天皇",
          "start_year" : 488,
          "yomis" : {
             "6100" : [
@@ -57463,7 +57463,7 @@
          "key" : "開國",
          "missing_yomis" : [
          ],
-         "name" : "開国",
+         "name" : "開國",
          "start_year" : 1392,
          "yomis" : {
             "6100" : [
@@ -58570,7 +58570,7 @@
          "key" : "貞明",
          "missing_yomis" : [
          ],
-         "name" : "貞明",
+         "name" : "贞明",
          "start_year" : 878,
          "yomis" : {
             "6100" : [
@@ -63647,7 +63647,7 @@
          "key" : "단기",
          "missing_yomis" : [
          ],
-         "name" : "檀君紀元",
+         "name" : "檀君纪元",
          "start_year" : -2332,
          "yomis" : {
             "6100" : [
@@ -64702,7 +64702,7 @@
          "missing_yomis" : [
             "こうぎょく"
          ],
-         "name" : "皇極天皇",
+         "name" : "皇极天皇",
          "start_year" : 642,
          "yomis" : {
             "6072" : [

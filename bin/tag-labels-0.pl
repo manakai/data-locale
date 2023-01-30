@@ -25,6 +25,15 @@ print STDERR "done\n";
 names::process_object_labels
     ([values %{$Data->{tags}}], {}, sub { }, $Data);
 
+for my $data (values %{$Data->{tags}}) {
+  my $shorts = $data->{_SHORTHANDS} = {};
+  for my $label_set (@{$data->{label_sets}}) {
+    for my $label (@{$label_set->{labels}}) {
+      names::get_label_shorthands ($label => $shorts);
+    } # $label
+  } # $label_set
+}
+
 print perl2json_bytes_for_record $Data;
 
 ## License: Public Domain.

@@ -1006,6 +1006,7 @@ for my $tr (@$Input) {
   if ($x->{tag_ids}->{1190} or # 日本改元日
       $x->{tag_ids}->{1189} or # 支那改元日
       $x->{tag_ids}->{1728} or # 支那改元詔
+      $x->{tag_ids}->{2852} or # 改元決定
       $x->{tag_ids}->{1442}) { # 元号名変更
     for my $to_key (@$to_keys) {
       next if $to_key eq '干支年';

@@ -2034,6 +2034,345 @@ sub compute_form_group_ons ($$) {
     push @$labels, $label unless $label_added;
   } # reps_to_labels
 
+  sub get_label_shorthands ($$) {
+    my ($label => $shorts) = @_;
+
+    if ($label->{props}->{is_name}) {
+      for my $text (@{$label->{form_groups}}) {
+        if ($text->{form_group_type} eq 'han' or
+            $text->{form_group_type} eq 'ja' or
+            $text->{form_group_type} eq 'kana') {
+          my $jp_preferred = 0;
+          for my $value (@{$text->{form_sets}}) {
+            if ($value->{form_set_type} eq 'hanzi') {
+              for my $lang (qw(jp tw cn)) {
+                if (defined $value->{$lang} and
+                    not defined $label->{abbr} and
+                    (not defined $shorts->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} or
+                     ($value->{is_preferred} or {})->{$lang})) {
+                  $jp_preferred = 1 if $lang eq 'jp';
+                  $shorts->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} = serialize_segmented_text $value->{$lang};
+                  $shorts->{name} //= $shorts->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang};
+                  $shorts->{name} = $shorts->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang}
+                      if $jp_preferred;
+                }
+                if (defined $value->{$lang} and
+                    defined $label->{abbr} and $label->{abbr} eq 'single') {
+                  $shorts->{abbr} //= serialize_segmented_text $value->{$lang};
+                }
+                $shorts->{names}->{serialize_segmented_text $value->{$lang}} = 1
+                    if defined $value->{$lang};
+              }
+              for ($value->{kr} // undef, @{$value->{others} or []}) {
+                next unless defined;
+                my $s = serialize_segmented_text $_;
+                $shorts->{names}->{$s} = 1;
+                $shorts->{name} //= $s;
+              }
+            } elsif ($value->{form_set_type} eq 'yomi' or
+                     $value->{form_set_type} eq 'kana') {
+              if ($value->{form_set_type} eq 'kana' and
+                  defined $value->{kana}) {
+                my $name = serialize_segmented_text $value->{kana};
+                if (not defined $shorts->{name_ja} or
+                    ($value->{is_preferred} or {})->{jp}) {
+                  $shorts->{name_ja} = $name;
+                  $shorts->{name} //= $shorts->{name_ja};
+                }
+                $shorts->{names}->{$name} = 1;
+              }
+
+              if (defined $value->{hiragana_modern}) {
+                my $kana = serialize_segmented_text $value->{hiragana_modern};
+                $shorts->{name_kana} //= $kana;
+                $shorts->{name_kana} = $kana if $jp_preferred;
+                $shorts->{name_kanas}->{$kana} = 1;
+
+                my $latin = serialize_segmented_text $value->{ja_latin};
+                $shorts->{name_latn} //= $latin;
+                $shorts->{name_latn} = $latin if $jp_preferred;
+
+                $jp_preferred = 0;
+              }
+            }
+          } # $fs
+        }
+      } # $text
+    } # is_name
+    
+    for my $text (@{$label->{form_groups}}) {
+      if ($text->{form_group_type} eq 'han' or
+          $text->{form_group_type} eq 'ja' or
+          $text->{form_group_type} eq 'vi' or
+          $text->{form_group_type} eq 'korean') {
+        for my $fs (@{$text->{form_sets}}) {
+          if ($fs->{form_set_type} eq 'hanzi') {
+            for my $lang (qw(tw jp cn)) {
+              if ($label->{props}->{is_name} and
+                  defined $fs->{$lang} and
+                  not defined $label->{abbr} and
+                  not defined $shorts->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang}) {
+                $shorts->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} = serialize_segmented_text $fs->{$lang};
+                $shorts->{name} //= $shorts->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang};
+                $shorts->{name} = $shorts->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang}
+                    if ($fs->{is_preferred} or {})->{$lang};
+              } elsif (not $label->{props}->{is_name} and
+                       defined $fs->{$lang} and
+                       not defined $label->{abbr} and
+                       not defined $shorts->{label}) {
+                $shorts->{label} //= serialize_segmented_text $fs->{$lang};
+              }
+            } # $lang
+            for my $lang (@$LeaderKeys) {
+              if ($label->{props}->{is_name} and defined $fs->{$lang}) {
+                my $v = serialize_segmented_text $fs->{$lang};
+                $shorts->{names}->{$v} = 1 if defined $v;
+              }
+            } # $lang
+          } elsif ($fs->{form_set_type} eq 'yomi' or
+                   $fs->{form_set_type} eq 'kana') {
+            if ($label->{props}->{is_name}) {
+              if (defined $fs->{hiragana_modern}) {
+                $shorts->{name_kana} //= serialize_segmented_text ($fs->{hiragana_modern});
+              }
+              for (grep { defined }
+                   #$fs->{hiragana} // undef,
+                   $fs->{hiragana_modern} // undef,
+                   #$fs->{hiragana_classic} // undef,
+                   #@{$fs->{hiragana_others} or []},
+                  ) {
+                my $v = serialize_segmented_text $_;
+                $shorts->{name_kanas}->{$v} = 1;
+              }
+
+              if ($fs->{form_set_type} eq 'kana' and defined $fs->{kana}) {
+                my $s = serialize_segmented_text $fs->{kana};
+                $shorts->{name_ja} //= $s;
+                $shorts->{name} //= $s;
+                $shorts->{names}->{$s} = 1;
+              }
+
+              if (defined $fs->{ja_latin}) {
+                $shorts->{name_latn} //= serialize_segmented_text $fs->{ja_latin};
+              }
+            }
+          } elsif ($fs->{form_set_type} eq 'korean') {
+            if ($label->{props}->{is_name}) {
+              for my $lang (qw(ko kr kp)) {
+                if (defined $fs->{$lang} and
+                    (not defined $shorts->{name_ko} or
+                     ($fs->{is_preferred} or {})->{$lang})) {
+                  $shorts->{name_ko} = serialize_segmented_text $fs->{$lang};
+                  $shorts->{name} //= $shorts->{name_ko};
+                }
+              }
+            }
+          } elsif ($fs->{form_set_type} eq 'chinese') {
+            if ($label->{props}->{is_name}) {
+              for my $lang (qw(pinyin nan_poj nan_tl)) {
+                if (defined $fs->{$lang} and
+                    (not defined $shorts->{name_latn})) {
+                  my $v = serialize_segmented_text $fs->{$lang};
+                  $shorts->{name_latn} //= $v;
+                  $shorts->{name} //= $v;
+                }
+              }
+            }
+          } elsif ($fs->{form_set_type} eq 'vietnamese') {
+            if ($label->{props}->{is_name}) {
+              for my $lang (qw(vi)) {
+                if (defined $fs->{$lang} and
+                    (not defined $shorts->{name_vi} or
+                     ($fs->{is_preferred} or {})->{$lang})) {
+                  $shorts->{name_vi} = serialize_segmented_text $fs->{$lang};
+                  $shorts->{name_latn} //= $shorts->{name_vi};
+                  $shorts->{name} //= $shorts->{name_vi};
+                }
+              }
+            }
+          } elsif ($fs->{form_set_type} eq 'alphabetical') {
+            if ($label->{props}->{is_name}) {
+              if (defined $fs->{ja_latin} and
+                  (not defined $shorts->{abbr_latn} or
+                   ($fs->{is_preferred} or {})->{ja_latin}) and
+                   defined $label->{abbr} and
+                   $label->{abbr} eq 'single') {
+                $shorts->{abbr_latn} = serialize_segmented_text $fs->{ja_latin};
+              }
+              
+              if (defined $fs->{en} and
+                  (not defined $shorts->{name_en} or
+                   ($fs->{is_preferred} or {})->{en})) {
+                $shorts->{name_en} = serialize_segmented_text $fs->{en};
+                $shorts->{name_latn} //= $shorts->{name_en};
+                $shorts->{name} //= $shorts->{name_en};
+              }
+            }
+          }
+        } # $fs
+      } elsif ($text->{form_group_type} eq 'kana') {
+        for my $fs (@{$text->{form_sets}}) {
+          if ($fs->{form_set_type} eq 'kana') {
+            if ($label->{props}->{is_name}) {
+              if (defined $fs->{ja_latin}) {
+                $shorts->{name_latn} //= serialize_segmented_text $fs->{ja_latin};
+              }
+            }
+          }
+        } # $fs
+      } elsif ($text->{form_group_type} eq 'alphabetical') {
+        for my $fs (@{$text->{form_sets}}) {
+          if ($fs->{form_set_type} eq 'alphabetical') {
+            if ($label->{props}->{is_name}) {
+              if (defined $fs->{en} and
+                  (not defined $shorts->{name_en} or
+                   ($fs->{is_preferred} or {})->{en})) {
+                $shorts->{name_en} = serialize_segmented_text $fs->{en};
+                $shorts->{name_latn} //= $shorts->{name_en};
+                $shorts->{name} //= $shorts->{name_en};
+              }
+            } else { # not name
+              if (defined $fs->{en}) {
+                $shorts->{label} = serialize_segmented_text $fs->{en};
+              }
+            }
+          }
+        } # $fs
+      } elsif ($text->{form_group_type} eq 'compound') {
+        my $name_jp = ''; my $name_cn = ''; my $name_tw = '';
+        my $kana = ''; my $no_kana = 0;
+        my $latin = ''; my $no_latin = 0;
+        my $name_kr = ''; my $no_kr = 0;
+        my $has_latin = 0;
+        for my $item_fg (@{$text->{items}}) {
+          if ($item_fg->{form_group_type} eq 'han' or
+              $item_fg->{form_group_type} eq 'ja' or
+              $item_fg->{form_group_type} eq 'vi' or
+              $item_fg->{form_group_type} eq 'kana' or
+              $item_fg->{form_group_type} eq 'korean' or
+              $item_fg->{form_group_type} eq 'alphabetical') {
+            my $_has_kana;
+            my $_has_latin;
+            my $kr;
+            for my $item_fs (@{$item_fg->{form_sets}}) {
+              if ($item_fs->{form_set_type} eq 'hanzi') {
+                $name_jp .= serialize_segmented_text
+                    ($item_fs->{jp} //
+                     $item_fs->{tw} //
+                     $item_fs->{cn} //
+                     $item_fs->{kr} //
+                     $item_fs->{others}->[0]);
+                $name_cn .= serialize_segmented_text
+                    ($item_fs->{cn} //
+                     $item_fs->{jp} //
+                     $item_fs->{tw} //
+                     $item_fs->{kr} //
+                     $item_fs->{others}->[0]);
+                $name_tw .= serialize_segmented_text
+                    ($item_fs->{tw} //
+                     $item_fs->{kr} //
+                     $item_fs->{jp} //
+                     $item_fs->{cn} //
+                     $item_fs->{others}->[0]);
+                $kr //= serialize_segmented_text
+                    ($item_fs->{kr} //
+                     $item_fs->{tw} //
+                     $item_fs->{jp} //
+                     $item_fs->{cn} //
+                     $item_fs->{others}->[0]);
+              } elsif ($item_fs->{form_set_type} eq 'kana' or
+                       $item_fs->{form_set_type} eq 'yomi') {
+                if ($item_fs->{form_set_type} eq 'kana') {
+                  my $v = serialize_segmented_text ($item_fs->{kana} // die);
+                  $name_jp .= $v;
+                  $name_cn .= $v;
+                  $name_tw .= $v;
+                }
+                if (defined $item_fs->{hiragana_modern}) {
+                  $kana .= serialize_segmented_text ($item_fs->{hiragana_modern} // die);
+                  $_has_kana = 1;
+                }
+                if (defined $item_fs->{ja_latin}) {
+                  $latin .= ' ' if length $latin;
+                  $latin .= serialize_segmented_text ($item_fs->{ja_latin} // die);
+                  $has_latin = $_has_latin = 1;
+                }
+              } elsif ($item_fs->{form_set_type} eq 'alphabetical' or
+                       $item_fs->{form_set_type} eq 'vietnamese') {
+                my $v = serialize_segmented_text ($item_fs->{ja_latin} // $item_fs->{en} // die);
+                $name_jp .= $v;
+                $name_cn .= $v;
+                $name_tw .= $v;
+                $latin .= ' ' if length $latin;
+                $latin .= $v;
+              } elsif ($item_fs->{form_set_type} eq 'korean') {
+                $kr = serialize_segmented_text ($item_fs->{kr} // die);
+              }
+            } # $item_fs
+            $no_kana = 1 unless $_has_kana;
+            $no_latin = 1 unless $_has_latin;
+            if (defined $kr) {
+              $name_kr .= $kr;
+            } else {
+              $no_kr = 1;
+            }
+          } elsif ($item_fg->{form_group_type} eq 'symbols') {
+            for my $item_fs (@{$item_fg->{form_sets}}) {
+              my $v = serialize_segmented_text ($item_fs->{others}->[0] // die);
+              $name_jp .= $v;
+              $name_cn .= $v;
+              $name_tw .= $v;
+              $name_kr .= $v;
+            }
+          } else {
+            die "Unknown form group type |$item_fg->{form_group_type}|";
+          }
+        } # $item_fg
+
+        if ($label->{props}->{is_name}) {
+          $shorts->{names}->{$name_jp} = 1;
+          $shorts->{names}->{$name_cn} = 1;
+          $shorts->{names}->{$name_tw} = 1;
+          if ((not defined $shorts->{name_ja} or
+               ($text->{is_preferred} or {})->{jp})) {
+            $shorts->{name_ja} = $name_jp;
+            $shorts->{name} //= $shorts->{name_ja};
+            $shorts->{name} = $shorts->{name_ja}
+                if ($text->{is_preferred} or {})->{jp};
+          }
+          if (not $no_kana) {
+            if ((not defined $shorts->{name_kana} or
+                 ($text->{is_preferred} or {})->{jp})) {
+              $shorts->{name_kana} = $kana;
+            }
+            $shorts->{name_kanas}->{$kana} = 1;
+          }
+          if (not $no_latin and
+              ((not defined $shorts->{name_latn} or
+                ($text->{is_preferred} or {})->{jp}))) {
+            $shorts->{name_latn} = $latin;
+          }
+          if ((#not defined $shorts->{name_cn} or
+              ($text->{is_preferred} or {})->{cn})) {
+            $shorts->{name_cn} = $name_cn;
+          }
+          if ((#not defined $shorts->{name_tw} or
+              ($text->{is_preferred} or {})->{tw})) {
+            $shorts->{name_tw} = $name_tw;
+          }
+          if ((#not defined $shorts->{name_kr} or
+               ($text->{is_preferred} or {})->{kr})) {
+            $shorts->{name_ko} = $name_kr;
+            $shorts->{name} = $shorts->{name_ko}
+                if ($text->{is_preferred} or {})->{kr};
+          }
+        } else { # not name
+          $shorts->{label} //= $name_jp;
+        }
+      } # form_group_type
+    } # form group
+  } # get_label_shorthands
+
   sub process_object_labels ($$$$) {
     my ($objects, $in_by_id, $set_object_tag, $out_errors) = @_;
     
@@ -2061,225 +2400,35 @@ sub compute_form_group_ons ($$) {
         push @{$object->{label_sets}}, $new_label_set if @{$new_label_set->{labels}};
       }
     } # $object
-    
+
     for my $object (@$objects) {
-      my $in = $in_by_id->{$object->{id} // ''};
       for my $label_set (@{$object->{label_sets}}) {
         for my $label (@{$label_set->{labels}}) {
-          if ($label->{props}->{is_name}) {
-            if (defined not $label->{abbr}) {
-              if (defined $in->{country_tag_id}) {
-                $label->{props}->{country_tag_ids}->{$in->{country_tag_id}} = {preferred => 1};
-              }
-              if (defined $in->{monarch_tag_id}) {
-                $label->{props}->{monarch_tag_ids}->{$in->{monarch_tag_id}} = {preferred => 1};
-              }
-            }
-            
+          
           for my $text (@{$label->{form_groups}}) {
-            if ($text->{form_group_type} eq 'han' or
-                $text->{form_group_type} eq 'ja' or
-                $text->{form_group_type} eq 'kana') {
-              my $jp_preferred = 0;
-              for my $value (@{$text->{form_sets}}) {
-                if ($value->{form_set_type} eq 'hanzi') {
-                  for my $lang (qw(jp tw cn)) {
-                    if (defined $value->{$lang} and
-                        not defined $text->{abbr} and
-                        (not defined $object->{_SHORTHANDS}->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} or
-                         ($value->{is_preferred} or {})->{$lang})) {
-                      $jp_preferred = 1 if $lang eq 'jp';
-                      $object->{_SHORTHANDS}->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} = serialize_segmented_text $value->{$lang};
-                      $object->{_SHORTHANDS}->{name} //= $object->{_SHORTHANDS}->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang};
-                      $object->{_SHORTHANDS}->{name} = $object->{_SHORTHANDS}->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang}
-                          if $jp_preferred;
-                    }
-                    if (defined $value->{$lang} and
-                        defined $text->{abbr} and $text->{abbr} eq 'single') {
-                    $object->{_SHORTHANDS}->{abbr} //= serialize_segmented_text $value->{$lang};
-                  }
-                    $object->{_SHORTHANDS}->{names}->{serialize_segmented_text $value->{$lang}} = 1
-                        if defined $value->{$lang};
-                  }
-                  for ($value->{kr} // undef, @{$value->{others} or []}) {
-                    next unless defined;
-                    my $s = serialize_segmented_text $_;
-                    $object->{_SHORTHANDS}->{names}->{$s} = 1;
-                    $object->{_SHORTHANDS}->{name} //= $s;
-                  }
-                } elsif ($value->{form_set_type} eq 'yomi' or
-                         $value->{form_set_type} eq 'kana') {
-                  if ($value->{form_set_type} eq 'kana' and
-                      defined $value->{kana}) {
-                    my $name = serialize_segmented_text $value->{kana};
-                    if (not defined $object->{_SHORTHANDS}->{name_ja} or
-                        ($value->{is_preferred} or {})->{jp}) {
-                      $object->{_SHORTHANDS}->{name_ja} = $name;
-                      $object->{_SHORTHANDS}->{name} //= $object->{_SHORTHANDS}->{name_ja};
-                    }
-                    $object->{_SHORTHANDS}->{names}->{$name} = 1;
-                    use utf8;
-                    $set_object_tag->($object, '仮名名');
-                  }
-
-                  if (defined $value->{hiragana_modern}) {
-                    my $kana = serialize_segmented_text $value->{hiragana_modern};
-                    $object->{_SHORTHANDS}->{name_kana} //= $kana;
-                    $object->{_SHORTHANDS}->{name_kana} = $kana if $jp_preferred;
-                    $object->{_SHORTHANDS}->{name_kanas}->{$kana} = 1;
-
-                    my $latin = serialize_segmented_text $value->{ja_latin};
-                    $object->{_SHORTHANDS}->{name_latn} //= $latin;
-                    $object->{_SHORTHANDS}->{name_latn} = $latin if $jp_preferred;
-
-                    $jp_preferred = 0;
-                  }
-                }
-              } # $fs
-            }
-          }
-        } # is_name
-
-        my $preferred_tag_ids = delete $label->{_PREFERRED};
-        for my $key (qw(country_tag_ids monarch_tag_ids)) {
-          if (keys %{$label->{props}->{$key} or {}}) {
-            my $has_preferred = 0;
-            for (values %{$label->{props}->{$key} or {}}) {
-              $has_preferred++ if $_->{preferred};
-            }
-            die "Too many preferred" if $has_preferred > 1;
-            if ($has_preferred == 0) {
-              if ($preferred_tag_ids->{$key}) {
-                $label->{props}->{$key}->{$preferred_tag_ids->{$key}}->{preferred} = 1;
-              } else {
-                for (sort { $a <=> $b } keys %{$label->{props}->{$key}}) {
-                  $label->{props}->{$key}->{$_}->{preferred} = 1;
-                  last;
-                }
-              }
-            }
-          }
-        } # $key
-      } # $label
-    } # $label_set
-    for my $label_set (@{$object->{label_sets}}) {
-      for my $label (@{$label_set->{labels}}) {
-        for my $text (@{$label->{form_groups}}) {
           if ($text->{form_group_type} eq 'han' or
               $text->{form_group_type} eq 'ja' or
+              $text->{form_group_type} eq 'kana' or
               $text->{form_group_type} eq 'vi' or
               $text->{form_group_type} eq 'korean') {
             for my $fs (@{$text->{form_sets}}) {
               if ($fs->{form_set_type} eq 'hanzi') {
                 fill_han_variants $fs;
-                for my $lang (qw(tw jp cn)) {
-                  if ($label->{props}->{is_name} and
-                      defined $fs->{$lang} and
-                      not defined $text->{abbr} and
-                      not defined $object->{_SHORTHANDS}->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang}) {
-                    $object->{_SHORTHANDS}->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang} = serialize_segmented_text $fs->{$lang};
-                    $object->{_SHORTHANDS}->{name} //= $object->{_SHORTHANDS}->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang};
-                    $object->{_SHORTHANDS}->{name} = $object->{_SHORTHANDS}->{$lang eq 'jp' ? 'name_ja' : 'name_'.$lang}
-                        if ($fs->{is_preferred} or {})->{$lang};
-                  } elsif (not $label->{props}->{is_name} and
-                           defined $fs->{$lang} and
-                           not defined $text->{abbr} and
-                           not defined $object->{_SHORTHANDS}->{label}) {
-                    $object->{_SHORTHANDS}->{label} //= serialize_segmented_text $fs->{$lang};
-                  }
-                } # $lang
-                for my $lang (@$LeaderKeys) {
-                  if ($label->{props}->{is_name} and defined $fs->{$lang}) {
-                    my $v = serialize_segmented_text $fs->{$lang};
-                    $object->{_SHORTHANDS}->{names}->{$v} = 1 if defined $v;
-                  }
-                } # $lang
-              } elsif ($fs->{form_set_type} eq 'yomi' or
-                       $fs->{form_set_type} eq 'kana') {
-                fill_kana $fs if $fs->{form_set_type} eq 'kana';
-                if ($label->{props}->{is_name}) {
-                  $object->{_SHORTHANDS}->{name_kana} //= serialize_segmented_text $fs->{hiragana_modern};
-                  for (grep { defined }
-                       #$fs->{hiragana} // undef,
-                       $fs->{hiragana_modern} // undef,
-                       #$fs->{hiragana_classic} // undef,
-                       #@{$fs->{hiragana_others} or []},
-                      ) {
-                    my $v = serialize_segmented_text $_;
-                    $object->{_SHORTHANDS}->{name_kanas}->{$v} = 1;
-                  }
+              } elsif ($fs->{form_set_type} eq 'kana') {
+                fill_kana $fs;
 
-                  if ($fs->{form_set_type} eq 'kana' and defined $fs->{kana}) {
-                    my $s = serialize_segmented_text $fs->{kana};
-                    $object->{_SHORTHANDS}->{name_ja} //= $s;
-                    $object->{_SHORTHANDS}->{name} //= $s;
-                    $object->{_SHORTHANDS}->{names}->{$s} = 1;
-                  }
-
-                  if (defined $fs->{ja_latin}) {
-                    $object->{_SHORTHANDS}->{name_latn} //= serialize_segmented_text $fs->{ja_latin};
-                  }
+                if ($label->{props}->{is_name} and defined $fs->{kana}) {
+                  use utf8;
+                  $set_object_tag->($object, '仮名名');
                 }
               } elsif ($fs->{form_set_type} eq 'korean') {
                 fill_korean $fs;
-                
-                if ($label->{props}->{is_name}) {
-                  for my $lang (qw(ko kr kp)) {
-                    if (defined $fs->{$lang} and
-                        (not defined $object->{_SHORTHANDS}->{name_ko} or
-                         ($fs->{is_preferred} or {})->{$lang})) {
-                      $object->{_SHORTHANDS}->{name_ko} = serialize_segmented_text $fs->{$lang};
-                      $object->{_SHORTHANDS}->{name} //= $object->{_SHORTHANDS}->{name_ko};
-                    }
-                  }
-                }
               } elsif ($fs->{form_set_type} eq 'chinese') {
                 fill_chinese $fs;
-
-                if ($label->{props}->{is_name}) {
-                  for my $lang (qw(pinyin nan_poj nan_tl)) {
-                    if (defined $fs->{$lang} and
-                        (not defined $object->{_SHORTHANDS}->{name_latn})) {
-                      my $v = serialize_segmented_text $fs->{$lang};
-                      $object->{_SHORTHANDS}->{name_latn} //= $v;
-                      $object->{_SHORTHANDS}->{name} //= $v;
-                    }
-                  }
-                }
               } elsif ($fs->{form_set_type} eq 'vietnamese') {
                 fill_alphabetical $fs;
-
-                if ($label->{props}->{is_name}) {
-                  for my $lang (qw(vi)) {
-                    if (defined $fs->{$lang} and
-                        (not defined $object->{_SHORTHANDS}->{name_vi} or
-                         ($fs->{is_preferred} or {})->{$lang})) {
-                      $object->{_SHORTHANDS}->{name_vi} = serialize_segmented_text $fs->{$lang};
-                      $object->{_SHORTHANDS}->{name_latn} //= $object->{_SHORTHANDS}->{name_vi};
-                      $object->{_SHORTHANDS}->{name} //= $object->{_SHORTHANDS}->{name_vi};
-                    }
-                  }
-                }
               } elsif ($fs->{form_set_type} eq 'alphabetical') {
                 fill_alphabetical $fs;
-
-                if ($label->{props}->{is_name}) {
-                  if (defined $fs->{ja_latin} and
-                      (not defined $object->{_SHORTHANDS}->{abbr_latn} or
-                       ($fs->{is_preferred} or {})->{ja_latin}) and
-                       defined $text->{abbr} and
-                       $text->{abbr} eq 'single') {
-                    $object->{_SHORTHANDS}->{abbr_latn} = serialize_segmented_text $fs->{ja_latin};
-                  }
-
-                  if (defined $fs->{en} and
-                      (not defined $object->{_SHORTHANDS}->{name_en} or
-                       ($fs->{is_preferred} or {})->{en})) {
-                    $object->{_SHORTHANDS}->{name_en} = serialize_segmented_text $fs->{en};
-                    $object->{_SHORTHANDS}->{name_latn} //= $object->{_SHORTHANDS}->{name_en};
-                    $object->{_SHORTHANDS}->{name} //= $object->{_SHORTHANDS}->{name_en};
-                  }
-                }
               }
             } # $fs
             my $fst = {
@@ -2306,193 +2455,65 @@ sub compute_form_group_ons ($$) {
             for my $fs (@{$text->{form_sets}}) {
               if ($fs->{form_set_type} eq 'kana') {
                 fill_kana $fs;
-
-                if ($label->{props}->{is_name}) {
-                  if (defined $fs->{ja_latin}) {
-                    $object->{_SHORTHANDS}->{name_latn} //= serialize_segmented_text $fs->{ja_latin};
-                  }
-                }
               }
             } # $fs
           } elsif ($text->{form_group_type} eq 'alphabetical') {
             for my $fs (@{$text->{form_sets}}) {
               if ($fs->{form_set_type} eq 'alphabetical') {
                 fill_alphabetical $fs;
-
-                if ($label->{props}->{is_name}) {
-                  if (defined $fs->{en} and
-                      (not defined $object->{_SHORTHANDS}->{name_en} or
-                       ($fs->{is_preferred} or {})->{en})) {
-                    $object->{_SHORTHANDS}->{name_en} = serialize_segmented_text $fs->{en};
-                    $object->{_SHORTHANDS}->{name_latn} //= $object->{_SHORTHANDS}->{name_en};
-                    $object->{_SHORTHANDS}->{name} //= $object->{_SHORTHANDS}->{name_en};
-                  }
-                } else { # not name
-                  if (defined $fs->{en}) {
-                    $object->{_SHORTHANDS}->{label} = serialize_segmented_text $fs->{en};
-                  }
-                }
               }
             } # $fs
-          } elsif ($text->{form_group_type} eq 'compound') {
-            my $name_jp = ''; my $name_cn = ''; my $name_tw = '';
-            my $kana = ''; my $no_kana = 0;
-            my $latin = ''; my $no_latin = 0;
-            my $name_kr = ''; my $no_kr = 0;
-            my $has_han = 0;
-            my $has_kana = 0;
-            my $has_non_kanakan = 0;
-            my $has_latin = 0;
-            for my $item_fg (@{$text->{items}}) {
-              if ($item_fg->{form_group_type} eq 'han' or
-                  $item_fg->{form_group_type} eq 'ja' or
-                  $item_fg->{form_group_type} eq 'vi' or
-                  $item_fg->{form_group_type} eq 'kana' or
-                  $item_fg->{form_group_type} eq 'korean' or
-                  $item_fg->{form_group_type} eq 'alphabetical') {
-                my $_has_kana;
-                my $_has_latin;
-                my $kr;
-                for my $item_fs (@{$item_fg->{form_sets}}) {
-                  if ($item_fs->{form_set_type} eq 'hanzi') {
-                    fill_han_variants $item_fs;
-                    $name_jp .= serialize_segmented_text
-                        ($item_fs->{jp} //
-                         $item_fs->{tw} //
-                         $item_fs->{cn} //
-                         $item_fs->{kr} //
-                         $item_fs->{others}->[0]);
-                    $name_cn .= serialize_segmented_text
-                        ($item_fs->{cn} //
-                         $item_fs->{jp} //
-                         $item_fs->{tw} //
-                         $item_fs->{kr} //
-                         $item_fs->{others}->[0]);
-                    $name_tw .= serialize_segmented_text
-                        ($item_fs->{tw} //
-                         $item_fs->{kr} //
-                         $item_fs->{jp} //
-                         $item_fs->{cn} //
-                         $item_fs->{others}->[0]);
-                    $kr //= serialize_segmented_text
-                        ($item_fs->{kr} //
-                         $item_fs->{tw} //
-                         $item_fs->{jp} //
-                         $item_fs->{cn} //
-                         $item_fs->{others}->[0]);
-                    $has_han = 1;
-                  } elsif ($item_fs->{form_set_type} eq 'kana' or
-                           $item_fs->{form_set_type} eq 'yomi') {
-                    if ($item_fs->{form_set_type} eq 'kana') {
-                      fill_kana $item_fs;
-                      my $v = serialize_segmented_text ($item_fs->{kana} // die);
-                      $name_jp .= $v;
-                      $name_cn .= $v;
-                      $name_tw .= $v;
-                      use utf8;
-                      unless (defined $item_fs->{kana} and
-                              @{$item_fs->{kana}} == 1 and
-                              $item_fs->{kana}->[0] eq '.・') {
-                        $set_object_tag->($object, '仮名名');
-                        $has_kana = 1;
+            } elsif ($text->{form_group_type} eq 'compound') {
+              my $has_han = 0;
+              my $has_kana = 0;
+              my $has_non_kanakan = 0;
+              for my $item_fg (@{$text->{items}}) {
+                if ($item_fg->{form_group_type} eq 'han' or
+                    $item_fg->{form_group_type} eq 'ja' or
+                    $item_fg->{form_group_type} eq 'vi' or
+                    $item_fg->{form_group_type} eq 'kana' or
+                    $item_fg->{form_group_type} eq 'korean' or
+                    $item_fg->{form_group_type} eq 'alphabetical') {
+                  for my $item_fs (@{$item_fg->{form_sets}}) {
+                    if ($item_fs->{form_set_type} eq 'hanzi') {
+                      fill_han_variants $item_fs;
+                      $has_han = 1;
+                    } elsif ($item_fs->{form_set_type} eq 'kana' or
+                             $item_fs->{form_set_type} eq 'yomi') {
+                      if ($item_fs->{form_set_type} eq 'kana') {
+                        fill_kana $item_fs;
+                        use utf8;
+                        unless (defined $item_fs->{kana} and
+                                @{$item_fs->{kana}} == 1 and
+                                $item_fs->{kana}->[0] eq '.・') {
+                          $set_object_tag->($object, '仮名名');
+                          $has_kana = 1;
+                        }
                       }
+                    } elsif ($item_fs->{form_set_type} eq 'alphabetical' or
+                             $item_fs->{form_set_type} eq 'vietnamese') {
+                      fill_alphabetical $item_fs;
+                      $has_non_kanakan = 1;
+                    } elsif ($item_fs->{form_set_type} eq 'korean') {
+                      fill_korean $item_fs;
+                      $has_non_kanakan = 1;
+                    } else {
+                      $has_non_kanakan = 1;
                     }
-                    if (defined $item_fs->{hiragana_modern}) {
-                      $kana .= serialize_segmented_text ($item_fs->{hiragana_modern} // die);
-                      $_has_kana = 1;
-                    }
-                    if (defined $item_fs->{ja_latin}) {
-                      $latin .= ' ' if length $latin;
-                      $latin .= serialize_segmented_text ($item_fs->{ja_latin} // die);
-                      $has_latin = $_has_latin = 1;
-                    }
-                  } elsif ($item_fs->{form_set_type} eq 'alphabetical' or
-                           $item_fs->{form_set_type} eq 'vietnamese') {
-                    fill_alphabetical $item_fs;
-                    my $v = serialize_segmented_text ($item_fs->{ja_latin} // $item_fs->{en} // die);
-                    $name_jp .= $v;
-                    $name_cn .= $v;
-                    $name_tw .= $v;
-                    $latin .= ' ' if length $latin;
-                    $latin .= $v;
-                    $has_non_kanakan = 1;
-                  } elsif ($item_fs->{form_set_type} eq 'korean') {
-                    fill_korean $item_fs;
-                    $kr = serialize_segmented_text ($item_fs->{kr} // die);
-                    $has_non_kanakan = 1;
-                  } else {
-                    $has_non_kanakan = 1;
-                  }
-                } # $item_fs
-                $no_kana = 1 unless $_has_kana;
-                $no_latin = 1 unless $_has_latin;
-                if (defined $kr) {
-                  $name_kr .= $kr;
-                } else {
-                  $no_kr = 1;
+                  } # $item_fs
+                } elsif ($item_fg->{form_group_type} eq 'symbols') {
+                  use utf8;
+                  $set_object_tag->($object, '記号名');
                 }
-              } elsif ($item_fg->{form_group_type} eq 'symbols') {
-                for my $item_fs (@{$item_fg->{form_sets}}) {
-                  my $v = serialize_segmented_text ($item_fs->{others}->[0] // die);
-                  $name_jp .= $v;
-                  $name_cn .= $v;
-                  $name_tw .= $v;
-                  $name_kr .= $v;
-                }
-                use utf8;
-                $set_object_tag->($object, '記号名');
-              } else {
-                die "Unknown form group type |$item_fg->{form_group_type}|";
-              }
-            } # $item_fg
+              } # $item_fg
 
-            if ($label->{props}->{is_name}) {
-              $object->{_SHORTHANDS}->{names}->{$name_jp} = 1;
-              $object->{_SHORTHANDS}->{names}->{$name_cn} = 1;
-              $object->{_SHORTHANDS}->{names}->{$name_tw} = 1;
-              if ((not defined $object->{_SHORTHANDS}->{name_ja} or
-                   ($text->{is_preferred} or {})->{jp})) {
-                $object->{_SHORTHANDS}->{name_ja} = $name_jp;
-                $object->{_SHORTHANDS}->{name} //= $object->{_SHORTHANDS}->{name_ja};
-                $object->{_SHORTHANDS}->{name} = $object->{_SHORTHANDS}->{name_ja}
-                    if ($text->{is_preferred} or {})->{jp};
-              }
-              if (not $no_kana) {
-                if ((not defined $object->{_SHORTHANDS}->{name_kana} or
-                    ($text->{is_preferred} or {})->{jp})) {
-                  $object->{_SHORTHANDS}->{name_kana} = $kana;
-                }
-                $object->{_SHORTHANDS}->{name_kanas}->{$kana} = 1;
-              }
-              if (not $no_latin and
-                  ((not defined $object->{_SHORTHANDS}->{name_latn} or
-                    ($text->{is_preferred} or {})->{jp}))) {
-                $object->{_SHORTHANDS}->{name_latn} = $latin;
-              }
-              if ((#not defined $object->{_SHORTHANDS}->{name_cn} or
-                  ($text->{is_preferred} or {})->{cn})) {
-                $object->{_SHORTHANDS}->{name_cn} = $name_cn;
-              }
-              if ((#not defined $object->{_SHORTHANDS}->{name_tw} or
-                  ($text->{is_preferred} or {})->{tw})) {
-                $object->{_SHORTHANDS}->{name_tw} = $name_tw;
-              }
-              if ((#not defined $object->{_SHORTHANDS}->{name_kr} or
-                  ($text->{is_preferred} or {})->{kr})) {
-                $object->{_SHORTHANDS}->{name_ko} = $name_kr;
-                $object->{_SHORTHANDS}->{name} = $object->{_SHORTHANDS}->{name_ko}
-                    if ($text->{is_preferred} or {})->{kr};
-              }
               use utf8;
               $set_object_tag->($object, '複合名');
               if ($has_kana and $has_han and not $has_non_kanakan) {
                 $set_object_tag->($object, '仮名漢字混じり名');
               }
-            } else { # not name
-              $object->{_SHORTHANDS}->{label} //= $name_jp;
-            }
-          } # form_group_type
-          for my $label (@{$text->{expandeds} or []}) {
+            } # form_group_type
+            for my $label (@{$text->{expandeds} or []}) {
             for my $fg (@{$label->{form_groups}}) {
               if ($fg->{form_group_type} eq 'han' or
                   $fg->{form_group_type} eq 'ja' or
@@ -2513,27 +2534,62 @@ sub compute_form_group_ons ($$) {
                 } # $fs
               }
             }
-          } # $label
+            } # $label
+          } # form group
         }
-      }
-    } # $label_set
-    
-    for my $ls (@{$object->{label_sets}}) {
-      for my $label (@{$ls->{labels}}) {
-        my $abbr = undef;
-        for my $fg (@{$label->{form_groups}}) {
-          my $fg_abbr = $fg->{abbr} // '';
-          $abbr //= $fg_abbr;
-          if (not $abbr eq $fg_abbr) {
-            die "Era |$object->{key}|: Label |abbr| conflict: |$abbr| vs |$fg_abbr|";
+      } # $label_set
+
+      for my $ls (@{$object->{label_sets}}) {
+        for my $label (@{$ls->{labels}}) {
+          my $abbr = undef;
+          for my $fg (@{$label->{form_groups}}) {
+            my $fg_abbr = $fg->{abbr} // '';
+            $abbr //= $fg_abbr;
+            if (not $abbr eq $fg_abbr) {
+              die "Era |$object->{key}|: Label |abbr| conflict: |$abbr| vs |$fg_abbr|";
+            }
+            delete $fg->{abbr};
           }
-          delete $fg->{abbr};
-        }
-        if (defined $abbr and length $abbr) {
-          $label->{abbr} = $abbr;
+          if (defined $abbr and length $abbr) {
+            $label->{abbr} = $abbr;
+          }
         }
       }
-    }
+
+      my $in = $in_by_id->{$object->{id} // ''};
+      for my $label_set (@{$object->{label_sets}}) {
+        for my $label (@{$label_set->{labels}}) {
+          if ($label->{props}->{is_name} and not $label->{abbr}) {
+            if (defined $in->{country_tag_id}) {
+              $label->{props}->{country_tag_ids}->{$in->{country_tag_id}} = {preferred => 1};
+            }
+            if (defined $in->{monarch_tag_id}) {
+              $label->{props}->{monarch_tag_ids}->{$in->{monarch_tag_id}} = {preferred => 1};
+            }
+          }
+          
+          my $preferred_tag_ids = delete $label->{_PREFERRED};
+          for my $key (qw(country_tag_ids monarch_tag_ids)) {
+            if (keys %{$label->{props}->{$key} or {}}) {
+              my $has_preferred = 0;
+              for (values %{$label->{props}->{$key} or {}}) {
+                $has_preferred++ if $_->{preferred};
+              }
+              die "Too many preferred" if $has_preferred > 1;
+              if ($has_preferred == 0) {
+                if ($preferred_tag_ids->{$key}) {
+                  $label->{props}->{$key}->{$preferred_tag_ids->{$key}}->{preferred} = 1;
+                } else {
+                  for (sort { $a <=> $b } keys %{$label->{props}->{$key}}) {
+                    $label->{props}->{$key}->{$_}->{preferred} = 1;
+                    last;
+                  }
+                }
+              }
+            }
+          } # $key
+        } # $label
+      } # $label_set
       
       {
         my $fg_datas = [];

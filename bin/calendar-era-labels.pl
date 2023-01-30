@@ -58,6 +58,13 @@ my $TagByKey = {};
     $TagByKey->{$item->{key}} = $item;
   }
 }
+{
+  my $path = $RootPath->child ('data/tag-labels.json');
+  my $json = (json_bytes2perl $path->slurp)->{tags};
+  for my $item (values %$Tags) {
+    $TagByKey->{$item->{key}}->{label_sets} = $item->{label_sets};
+  }
+}
 
 sub set_object_tag ($$) {
   my ($obj, $tkey) = @_;
@@ -82,6 +89,15 @@ sub set_object_tag ($$) {
 
 names::process_object_labels
     ([values %{$Data->{eras}}], $EraById, \&set_object_tag, $Data);
+
+for my $data (values %{$Data->{eras}}) {
+  my $shorts = $data->{_SHORTHANDS} ||= {};
+  for my $label_set (@{$data->{label_sets}}) {
+    for my $label (@{$label_set->{labels}}) {
+      names::get_label_shorthands ($label => $shorts);
+    } # $label
+  } # $label_set
+}
 
 {
   my $path = $RootPath->child ('src/era-codes-14.txt');

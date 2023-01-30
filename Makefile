@@ -200,7 +200,7 @@ local/calendar-era-labels-0.json: bin/calendar-era-labels.pl \
     src/era-codes-24.txt \
     local/cldr-core-json/ja.json \
     local/number-values.json \
-    data/tags.json
+    data/tags.json data/tag-labels.json
 	$(PERL) $< > $@
 data/calendar/era-labels.json: bin/cleanup.pl \
     local/calendar-era-labels-0.json
