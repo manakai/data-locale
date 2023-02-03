@@ -246,7 +246,8 @@ tag 粟末靺鞨
 %tag country
 %tag   name_ja 東丹国
 %tag   region of 契丹国
-#XXXprefix 東丹
+%tag   &
+%tag   prefix name 東丹
 tag 東丹国
 tag 属国元号
 

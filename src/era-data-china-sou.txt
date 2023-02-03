@@ -5,7 +5,10 @@
 
 %tag country
 %tag   label_ja 趙宋
+%tag   &
 %tag   name_ja 宋
+%tag   &
+%tag   prefix name 聖󠄁宋
 %tag   period of 宋
 %tag   period of 中国
 

@@ -42,6 +42,8 @@
 %tag   group of 朝鮮三国時代
 %tag   period of 北鮮
 %tag   period of 満州
+%tag   &
+%tag   prefix name 高麗
 
 %tag people
 %tag   name_ja 高句麗人
@@ -303,8 +305,8 @@ def[建興(高句麗)]
 AD476 = 5
 
 tag 高句麗
+#prefix 高麗
 tag 百済
-#XXXprefix 高麗
 
 wref_zh 建興 (高句麗)
 name_tw 建興
@@ -343,8 +345,8 @@ def[建興(百済)]
 AD536 = 5
 
 tag 高句麗
+#prefix 高麗
 tag 百済
-#XXXprefix 高麗
 
 wref_zh 建興 (高句麗)
 name_tw 建興
@@ -360,8 +362,8 @@ def[建興(壬子)]
 AD596 = 5
 
 tag 高句麗
+#prefix 高麗
 tag 百済
-#XXXprefix 高麗
 
 wref_zh 建興 (高句麗)
 name_tw 建興

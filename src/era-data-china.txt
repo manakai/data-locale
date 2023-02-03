@@ -1759,7 +1759,7 @@ tag 輔公祏
 %tag   name_ja 宋
 %tag   period of 宋
 %tag   period of 中国
-#XXXprefix 大宋
+%tag   prefix name 大宋
 tag 宋 (輔公祏)
 
 tag 漢土
@@ -2666,9 +2666,15 @@ tag 貴州
 %tag   name_tw 嗣統真主
 tag 朱明月
 tag 明
-#>< [清:1859-4] #即位{#朱明月 #秦王 #明} #清 #刘仪顺
+>< [清:1859-4] #即位{#朱明月 #秦王 #明_(朱明月)} #清 #刘仪顺
 u 8
-#XXX prefix 大明
+%tag country
+%tag   label_ja 明 (朱明月)
+%tag   name_ja 明
+%tag   period of 明
++name country 明 (朱明月)
+%tag   &
+%tag   prefix name 大明
 
 u 11
 #11-春
@@ -2713,6 +2719,7 @@ tag 白蓮教
 tag 貴州
 
 tag 朱明月
+tag 明 (朱明月)
 
 AD1864 = 1
 <-江漢 [清:1864-01,清:1864-3] #支那改元日{#明 #朱明月} #清
@@ -3397,8 +3404,8 @@ tag 袁世凱
 %tag country
 %tag   name_ja 中華帝国
 %tag   period of 中華民国
+%tag   prefix name 中華帝國
 tag 中華帝国
-#XXX prefix 中華帝國
 
 AD1916 = 1
 <-民國 g:1915-12-12 #中華帝国 #袁世凱 #支那皇帝 #建元前の即位 #中華民国 #グレゴリオ暦

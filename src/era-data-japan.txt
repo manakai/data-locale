@@ -28,6 +28,16 @@
 %tag   name_ja 琉球人
 %tag   group of 日本人
 
+
+%tag country
+%tag   name_ja 日本
+%tag   &
+%tag   name_ja 日本国
+%tag   prefix name 日本國
+%tag   name_en Japan
+%tag   region of 西太平洋
+%tag   region of 東アジア
+
 %tag country
 %tag   name_ja 倭
 %tag   period of 日本
@@ -63,7 +73,11 @@
 %tag country
 %tag   key 日本北朝
 %tag   label_ja 北朝 (日本)
+%tag   &
+%tag   prefix name 日本北朝
+%tag   &
 %tag   name_ja 北朝
+%tag   prefix name 北朝
 %tag 
 %tag   period of 日本
 
@@ -74,7 +88,11 @@
 %tag country
 %tag   key 日本南朝
 %tag   label_ja 南朝 (日本)
+%tag   &
+%tag   prefix name 日本南朝
+%tag   &
 %tag   name_ja 南朝
+%tag   prefix name 南朝
 %tag   group of 日本南朝系
 %tag   period of 日本
 
@@ -85,13 +103,6 @@
 %tag tag
 %tag   name_ja 自称南朝末裔
 %tag   group of 日本南朝系
-
-%tag country
-%tag   name_ja 日本
-%tag   name_ja 日本国
-%tag   name_en Japan
-%tag   region of 西太平洋
-%tag   region of 東アジア
 
 %tag region
 %tag   name_ja 北海道

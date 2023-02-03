@@ -3409,12 +3409,21 @@ name(kr) 건국
 
 %tag country
 %tag   label_ja 北魏
+%tag   prefix name 北魏
+%tag   &
 %tag   name_ja 魏
 %tag   period of 拓跋政権
 %tag   period of 魏
 %tag   period of 中国
 %tag   period of 支那北朝
-#XXX prefix 大魏 大代大魏 北魏 元魏 後魏
+%tag   &
+%tag   prefix name 大魏
+%tag   &
+%tag   prefix name 大代大魏
+%tag   &
+%tag   prefix name 元魏
+%tag   &
+%tag   prefix name 後魏
 
 %tag tag
 %tag   name_ja 北魏の公年号
@@ -4931,7 +4940,11 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 元詡
+%tag   &&
 %tag   name_ja 孝明帝
+%tag   &
+%tag   prefix name 孝明
+%tag   &&
 %tag   name_ja 粛宗
 tag 元詡
 
@@ -4960,7 +4973,7 @@ tag 蕭宝寅
 
 ## <https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B7106%E4%B8%8B#cite_note-23>
 #"《寰宇記》卷三四宜祿縣下引周地圖記云「後魏孝明熙平二年"...
-#XXXprefix
+#prefix
 
 ## <https://zh.wikisource.org/wiki/%E5%91%A8%E6%9B%B8/%E5%8D%B733#cite_note-6>
 #"太平中陵江將軍南討度淮　張森楷云：「魏無太平年號，二字必有一誤。」
@@ -8248,6 +8261,11 @@ tag 突厥
 <-大業 [隋:617-3] #支那改元日{#梁師都 #梁_(梁師都)} #旧説
 
 %tag country
+%tag   key 李唐
+%tag   name_ja 唐
+%tag   &
+%tag   prefix name 大唐
+%tag   &
 %tag   name_ja 李唐
 %tag   period of 唐
 %tag   period of 中国
@@ -11262,9 +11280,6 @@ tag 楊行密
 %tag   name_ja 楊渥
 tag 楊渥
 tag 楊隆演
-## <http://big5.www.gov.cn/gate/big5/www.gov.cn/test/2006-05/09/content_276383.htm>
-#"吳天佑三年"
-#XXXprefix
 
 
 tag 李克用
@@ -12647,7 +12662,10 @@ name(kr) 현덕
 
 %tag country
 %tag   label_ja 楊呉
+%tag   &
 %tag   name_ja 呉
+%tag   prefix name 吳
+%tag   prefix name 吴
 %tag   period of 呉
 %tag   period of 五代十国
 %tag   group of 十国
@@ -12825,6 +12843,13 @@ name(kr) 천조
 #935-9-5 - 937
 
 tag 李昪
+
+## <http://www.gov.cn/test/2006-05/09/content_276383.htm>
+#"南唐创建者李昪是徐州人，战乱时为杨行密收养，后成为丞相徐温养子，
+#改名徐知诰，是南朝李氏后裔。徐温死后，知诰专吴政。吴天佑三年，
+#后晋天福二年（公元937年）十月，徐知诰称皇帝于金陵（今江苏南京），
+#建元昇元，称国号为大齐。"
+#prefix
 
 
 %tag country

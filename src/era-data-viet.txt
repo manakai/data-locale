@@ -3840,9 +3840,10 @@ name_ja 慶天
 %tag country
 %tag   name_ja 黎朝越南
 %tag   period of 越南
+%tag   &
 ## <https://zh.wikipedia.org/wiki/%E9%98%AE%E5%B2%B3>
 #"1771年（黎景興三十二年）"
-#XXXprefix 黎
+%tag   prefix name 黎
 
 %tag tag
 %tag   name_ja 黎朝越南の公年号
@@ -7867,7 +7868,8 @@ name(kr) 보흥
 %tag country
 %tag   name_ja 阮朝越南
 %tag   period of 越南
-#XXXprefix 皇朝
+%tag   &
+%tag   prefix name 皇朝
 
 %tag country
 %tag   name_ja 広南国

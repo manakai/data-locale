@@ -64,6 +64,7 @@ sub print_tags ($) {
   for my $tag_id (sort { $a <=> $b } keys %$tag_ids) {
     my $tag = $Tags->{$tag_id}
         or die "Tag |$tag_id| not found";
+    die perl2json_bytes_for_record $tag unless defined $tag->{label};
     printf qq{<p><a href=https://data.suikawiki.org/tag/%d/>#%s</a>\n},
         $tag->{id}, $tag->{label};
   }

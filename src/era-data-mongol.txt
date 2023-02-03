@@ -79,12 +79,15 @@ tag 私年号 (ウィキペディア)
 %tag country
 %tag   name_ja 蒙古帝国
 %tag   period of 蒙古
-#prefix:
-#蒙古帝国
-#モンゴル帝国
-#蒙古
-#大元
-#元
+%tag   prefix name 蒙古帝国
+%tag   &
+%tag   prefix name(ja) モンゴル帝国
+%tag   &
+%tag   prefix name 蒙古
+%tag   &
+%tag   prefix name 大元
+%tag   &
+%tag   prefix name 元
 
 %tag tag
 %tag   name_ja 蒙古即位紀年

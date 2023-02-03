@@ -4,9 +4,21 @@
 ## [104] 中国歴代年号考 修訂本
 
 %tag country
+%tag   key 明国
+%tag   label_ja 明国
+%tag   &
 %tag   name_ja 明
 %tag   period of 中国
-#XXXprefix 皇明
+
+%tag country
+%tag   name_ja 明
+%tag   prefix name 明
+%tag   &
+%tag   prefix name 大明
+%tag   prefix name(vi_old) Đại Minh ダイミン
+%tag   &
+%tag   prefix name 皇明
+%tag   period of 明国
 
 %tag tag
 %tag   name_ja 明の公年号
@@ -1309,7 +1321,7 @@ wref_ja 嘉靖
 name(zh_alalc) Jia|jing
 
 tag 安南国の歴史
-#XXXprefix 大明 name(vi_old) Đại Minh ダイミン
+#prefix 大明 name(vi_old) Đại Minh ダイミン
 name(vi_old) Gia Tĩnh ザー|ティン
 
 tag 再開元号の中断中
@@ -2260,6 +2272,8 @@ tag 呉三桂
 %tag   name_ja 南明
 %tag   period of 明
 %tag   group of 清初反清勢力
+%tag   &
+%tag   prefix name 明後
 
 [弘光]
 #y~1392
@@ -2270,10 +2284,12 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 弘光帝
+%tag   &
+%tag   prefix name 福王
 tag 弘光帝
 tag 君主名の元号
 tag 一世一元
-#XXXprefix 明後福王
+#prefix 明後福王
 
 s#明史<https://zh.wikisource.org/wiki/%E6%98%8E%E5%8F%B2/%E5%8D%B7273>"改元"
 s+
@@ -2335,7 +2351,7 @@ tag 弘光帝
 tag 君主名の元号
 tag 一世一元
 
-#XXXprefix 明後福王
+#prefix 明後福王
 
 s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84%E5%89%8D%E7%B7%A8/%E5%8D%B703>"甲申九年"
 #"甲申九年〈黎福泰二年，清世祖順治元年，明後福王弘光元年[1]〉夏四月"
@@ -2362,10 +2378,12 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 隆武帝
+%tag   &
+%tag   prefix name 唐王
 tag 隆武帝
 tag 君主名の元号
 tag 一世一元
-#XXXprefix 明後唐王 唐王
+#prefix 明後唐王 唐王
 
 s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84%E5%89%8D%E7%B7%A8/%E5%8D%B703>"乙酉十年"
 #"乙酉十年〈黎福泰三年，清世祖順治二年，明後唐王隆武元年[2]〉冬十一月"
@@ -2405,7 +2423,7 @@ u 2-11-5
 #明史 順治2-06'-丁未
 
 tag 華夷変態
-#XXXprefix 大明中興
+#prefix 大明中興
 name(ja_old) リウ|フ
 
 #sw 元号名
@@ -2993,10 +3011,12 @@ tag 漢民族
 
 %tag country
 %tag   label_ja 順 (李自成)
+%tag   &
 %tag   name_ja 順
 %tag   period of 順
 %tag   group of 清初反清勢力
-#XXX prefix 大顺
+%tag   &
+%tag   prefix name 大顺
 tag 順 (李自成)
 
 %tag person
@@ -3239,12 +3259,14 @@ name_kana こう ちょう
 
 %tag country
 %tag   name_ja 呉周
+%tag   &
 %tag   name_ja 周
+%tag   &
 %tag   name_tw 大周
 %tag   period of 周
 %tag   region of 漢土
 %tag   group of 清初反清勢力
-#XXX prefix 大周
+%tag   prefix name 大周
 
 def[周]
 #y~1865
@@ -3624,7 +3646,8 @@ tag 蔣爾恂
 ->順治 [清:1647] #蔣爾恂 #明 #清 #陥落
 AD1647 = 1
 
-#XXXprefix 大明
++name country 明
+#prefix 大明
 #"大明中兴元年"
 
 ## [103]
@@ -3863,7 +3886,8 @@ tag 張念一
 %tag   name_ja 朱永祚
 tag 朱永祚
 
-# XXX prefix 大明
+#prefix 大明
++name country 明
 
 AD1708 = 1
 <-康熙 [清:1708] #張念一 #朱永祚 #明 #清 #蜂起

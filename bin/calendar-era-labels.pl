@@ -61,8 +61,8 @@ my $TagByKey = {};
 {
   my $path = $RootPath->child ('data/tag-labels.json');
   my $json = (json_bytes2perl $path->slurp)->{tags};
-  for my $item (values %$Tags) {
-    $TagByKey->{$item->{key}}->{label_sets} = $item->{label_sets};
+  for my $item (values %$json) {
+    $Tags->{$item->{id}}->{label_sets} = $item->{label_sets};
   }
 }
 
@@ -88,13 +88,126 @@ sub set_object_tag ($$) {
 } # set_object_tag
 
 names::process_object_labels
-    ([values %{$Data->{eras}}], $EraById, \&set_object_tag, $Data);
+    ([values %{$Data->{eras}}], sub {
+       my ($object, $label) = @_;
+       
+       my $in = $EraById->{$object->{id} // ''};
+       if ($label->{props}->{is_name} and not $label->{abbr}) {
+         if (defined $in->{country_tag_id}) {
+           $label->{props}->{country_tag_ids}->{$in->{country_tag_id}} = {preferred => 1};
+
+           my $tag = $Tags->{$in->{country_tag_id}};
+           for my $stag_id (keys %{$tag->{period_of}}) {
+             my $stag = $Tags->{$stag_id};
+             if ($stag->{type} eq 'country') {
+               $label->{props}->{country_tag_ids}->{$stag->{id}} ||= {};
+             }
+           }
+         }
+         if (defined $in->{monarch_tag_id}) {
+           $label->{props}->{monarch_tag_ids}->{$in->{monarch_tag_id}} = {preferred => 1};
+         }
+       }
+       
+          my $preferred_tag_ids = delete $label->{_PREFERRED};
+          for my $key (qw(country_tag_ids monarch_tag_ids)) {
+            if (keys %{$label->{props}->{$key} or {}}) {
+              my $has_preferred = 0;
+              for (values %{$label->{props}->{$key} or {}}) {
+                $has_preferred++ if $_->{preferred};
+              }
+              die "Too many preferred" if $has_preferred > 1;
+              if ($has_preferred == 0) {
+                if ($preferred_tag_ids->{$key}) {
+                  $label->{props}->{$key}->{$preferred_tag_ids->{$key}}->{preferred} = 1;
+                } else {
+                  for (sort { $a <=> $b } keys %{$label->{props}->{$key}}) {
+                    $label->{props}->{$key}->{$_}->{preferred} = 1;
+                    last;
+                  }
+                }
+              }
+            }
+          } # $key
+
+       }, \&set_object_tag, $Data);
 
 for my $data (values %{$Data->{eras}}) {
   my $shorts = $data->{_SHORTHANDS} ||= {};
   for my $label_set (@{$data->{label_sets}}) {
     for my $label (@{$label_set->{labels}}) {
-      names::get_label_shorthands ($label => $shorts);
+      if ($label->{props}->{is_name}) {
+        names::get_label_shorthands ($label => $shorts);
+        my $shorts2 = {};
+        names::get_label_shorthands ($label => $shorts2);
+
+        my $prefixes = {};
+        my $prefixes_c = {};
+        for my $tag_id (keys %{$label->{props}->{country_tag_ids} or {}}) {
+          my $tag = $Tags->{$tag_id};
+          for my $t_ls (@{$tag->{label_sets}}) {
+            for my $t_l (@{$t_ls->{labels}}) {
+              if ($t_l->{props}->{is_name}) {
+                my $ss;
+                if (defined $t_l->{_shorts}) {
+                  $ss = $t_l->{_shorts};
+                } else {
+                  $ss = $t_l->{_shorts} = {};
+                  names::get_label_shorthands ($t_l => $ss);
+                }
+                for my $lang (keys %{$ss->{_names} or {}}) {
+                  for my $s (keys %{$ss->{_names}->{$lang}}) {
+                    $prefixes->{$lang}->{$s} = 1;
+                    $prefixes_c->{$lang}->{$s} = 1;
+                  }
+                }
+              }
+            }
+          }
+        } # $tag_id
+        for my $tag_id (keys %{$label->{props}->{monarch_tag_ids} or {}}) {
+          my $tag = $Tags->{$tag_id};
+          for my $t_ls (@{$tag->{label_sets}}) {
+            for my $t_l (@{$t_ls->{labels}}) {
+              if ($t_l->{props}->{is_name}) {
+                my $ss;
+                if (defined $t_l->{_shorts}) {
+                  $ss = $t_l->{_shorts};
+                } else {
+                  $ss = $t_l->{_shorts} = {};
+                  names::get_label_shorthands ($t_l => $ss);
+                }
+                for my $lang (keys %{$ss->{_names} or {}}) {
+                  for my $s (keys %{$ss->{_names}->{$lang}}) {
+                    $prefixes->{$lang}->{$s} = 1;
+                  }
+                  for my $s1 ((keys %{$prefixes_c->{$lang}}),
+                              (keys %{$prefixes_c->{_}})) {
+                    for my $s (keys %{$ss->{_names}->{$lang}}) {
+                      $prefixes->{$lang}->{$s1 . $s} = 1;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        } # $tag_id
+        for my $lang (keys %$prefixes) {
+          next if $lang eq '_';
+          for my $s1 (keys %{$prefixes->{$lang}}) {
+            for my $s3 (keys %{$shorts2->{_names}->{$lang}}) {
+              $shorts->{names}->{$s1 . $s3} = 1;
+            }
+          }
+        }
+        for my $s1 (keys %{$prefixes->{_} or {}}) {
+          for my $lang (keys %{$shorts2->{_names} or {}}) {
+            for my $s3 (keys %{$shorts2->{_names}->{$lang}}) {
+              $shorts->{names}->{$s1 . $s3} = 1;
+            }
+          }
+        } # $tag_id
+      }
     } # $label
   } # $label_set
 }

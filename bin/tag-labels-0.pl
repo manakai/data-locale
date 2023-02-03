@@ -23,13 +23,18 @@ print STDERR "Loading...";
 print STDERR "done\n";
 
 names::process_object_labels
-    ([values %{$Data->{tags}}], {}, sub { }, $Data);
+    ([values %{$Data->{tags}}], sub {}, sub { }, $Data);
 
 for my $data (values %{$Data->{tags}}) {
   my $shorts = $data->{_SHORTHANDS} = {};
+  my $shorts2 = $data->{_SHORTHANDS_2} = {};
   for my $label_set (@{$data->{label_sets}}) {
     for my $label (@{$label_set->{labels}}) {
-      names::get_label_shorthands ($label => $shorts);
+      if ($label->{props}->{is_name}) {
+        names::get_label_shorthands ($label => $shorts);
+      } else {
+        names::get_label_shorthands ($label => $shorts2);
+      }
     } # $label
   } # $label_set
 }

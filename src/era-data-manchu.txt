@@ -3563,13 +3563,17 @@ name_man %E1%A0%B0%E1%A1%A0%E1%A0%B7%E1%A1%9D %E1%A1%A5%E1%A0%A0%E1%A0%A8,sure h
 %tag country
 %tag   key 清
 %tag   name_ja 大清帝国
+%tag   &
+%tag   prefix name 大清
+%tag   &
 %tag   name_tw 清朝
 %tag   name_ja 清朝
+%tag   &
 %tag   name_ja 清
 %tag   period of 中国
-#XXX prefix 大清
+#
 ## <https://www.loc.gov/catdir/cpso/romanization/chinese.pdf#page=8>
-#XXX name(zh_alalc) Qing
+%tag   name(zh_alalc) Qing
 
 %tag tag
 %tag   name_ja 清の公年号
@@ -3662,7 +3666,8 @@ tag 君主名の元号
 
 #<-永昌(甲申) y~314 1643-04 順 dup
 
-#XXXprefix 大明
+#prefix 大明
++name country 明
 
 tag 年号銭
 

@@ -472,8 +472,11 @@ tag 前元
 tag 秦正
 
 %tag person
-%tag   name_ja 漢武帝
-#XXX prefix 孝武
+%tag   label_ja 漢武帝
+%tag   &
+%tag   name_ja 武帝
+%tag   &
+%tag   prefix name 孝武
 tag 漢武帝
 
 ## [102]
@@ -809,8 +812,11 @@ tag 漢民族
 tag 前元
 
 %tag person
-%tag   name_ja 漢昭帝
-#XXX prefix 孝昭
+%tag   label_ja 漢昭帝
+%tag   &
+%tag   name_ja 昭帝
+%tag   &
+%tag   prefix name 孝昭
 tag 漢昭帝
 
 ## [102]
@@ -889,8 +895,11 @@ tag 漢土
 tag 漢民族
 
 %tag person
-%tag   name_ja 漢宣帝
-#XXX prefix 孝宣
+%tag   label_ja 漢宣帝
+%tag   &
+%tag   name_ja 宣帝
+%tag   &
+%tag   prefix name 孝宣
 tag 漢宣帝
 
 ## [102]
@@ -1084,8 +1093,11 @@ tag 漢民族
 tag 前元
 
 %tag person
+%tag   label_ja 漢元帝
+%tag   &
 %tag   name_ja 漢元帝
-#XXX prefix 元帝
+%tag   &
+%tag   prefix name 元帝
 tag 漢元帝
 
 ## [102]
@@ -1185,8 +1197,11 @@ tag 漢土
 tag 漢民族
 
 %tag person
-%tag   name_ja 漢成帝
-#XXX prefix 孝成
+%tag   label_ja 漢成帝
+%tag   &
+%tag   name_ja 成帝
+%tag   &
+%tag   prefix name 孝成
 tag 漢成帝
 
 ## [102]
@@ -1368,8 +1383,10 @@ tag 漢土
 tag 漢民族
 
 %tag person
-%tag   name_ja 漢哀帝
-#XXX prefix 哀帝
+%tag   label_ja 漢哀帝
+%tag   &
+%tag   name_ja 哀帝
+%tag   prefix name 哀帝
 tag 漢哀帝
 
 ## [102]

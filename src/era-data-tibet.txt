@@ -11206,7 +11206,7 @@ tag 清
 tag 四川
 tag 中華民国
 tag チベット人
-#XXX prefix 大清
+#prefix 大清
 
 %tag person
 %tag   name_ja チャードーロバ

@@ -49,6 +49,7 @@ my $EraLabels;
   for my $in_era (values %{$json->{eras}}) {
     my $era = $Data->{eras}->{$in_era->{key}};
     for my $key (keys %{$in_era->{_SHORTHANDS}}) {
+      next if $key =~ /^_/;
       $era->{$key} = $in_era->{_SHORTHANDS}->{$key};
     }
     for my $key (keys %{$in_era->{_TAG_IDS} or {}}) {

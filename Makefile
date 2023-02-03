@@ -245,7 +245,8 @@ data/calendar/era-transitions.json: bin/calendar-era-transitions-1.pl \
 
 local/calendar-era-relations-0.json: bin/calendar-era-relations.pl \
     local/calendar-era-defs-0.json \
-    local/calendar-era-labels-0.json
+    local/calendar-era-labels-0.json \
+    data/calendar/era-transitions.json
 	$(PERL) $< > $@
 local/calendar-era-relations-1.json: bin/calendar-era-relations-1.pl \
     data/calendar/era-defs.json
