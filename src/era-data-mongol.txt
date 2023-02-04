@@ -1413,19 +1413,24 @@ tag 共産主義
 %tag   name_ja 蒙古人民党
 tag 蒙古人民党
 
+name country
 name(ja) モンゴル国
-
+&
+name country
 name_cn 蒙古国
+tag 国名建国紀元
 
 &
+name country+
+name(ja) モンゴル国紀元
+&
+name country+
+name_cn 蒙古国纪年
+
+&&
 #XXX tibetan name
 name(ja) モンゴル人の独立
 u 2
-
-&
-name(ja) モンゴル国紀元
-&
-name_cn 蒙古国纪年
 
 wref_ja 共戴紀元
 AD1924 = 14
@@ -1449,9 +1454,12 @@ tag 蒙古人民共和国
 tag 建国紀元
 tag 共産主義
 
+name country
 name(ja) モンゴル人民共和国
 name_cn 蒙古人民共和国
+tag 国名建国紀元
 &
+name country+
 name(ja) モンゴル人民共和国紀元
 name_cn 蒙古人民共和国纪元
 
@@ -1505,7 +1513,9 @@ tag シベリア出兵
 %tag   name_ja 蒙古国
 tag 大蒙古国
 
+name country
 name_ja 蒙古國
+tag 国名建国紀元
 
 <-AD,民國 g:1919-3-27 #臨時政府樹立{#大蒙古国} #事由
 <-AD,民國 g:1919-3-27 #建国紀元制定{#大蒙古国} #分離
@@ -1626,8 +1636,10 @@ tag 国共内戦
 %tag   name_ja 内モンゴル人民共和国
 tag 内モンゴル人民共和国
 
+name country
 name(ja) 内モンゴル人民共和国
 #XXX mongolian
+tag 国名建国紀元
 
 u 1-9-9
 

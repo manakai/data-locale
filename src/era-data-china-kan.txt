@@ -29,7 +29,7 @@
 
 def[漢]
 #y~1849
-tag 前漢
+tag+country 前漢
 tag 漢土
 tag 漢民族
 tag 秦正
@@ -40,45 +40,62 @@ tag 劉邦
 tag 王の即位紀年
 tag 支那皇帝即位紀年
 
+name country
 name_tw 漢
 name_cn 汉
 name_ja 漢
 tag 国名即位紀年
 &
+name monarch
 name_tw 高帝劉邦
 &
+name monarch
 name_tw 高祖
 name_cn 高祖
 &
+name country monarch
 name_ja 漢高祖
 name_cn 汉高祖
 &
+name country monarch
 name_ja 漢高帝
 name_cn 汉高帝
 &
+name country monarch
 name_ja 前漢高祖
 &
+name country monarch
 name_cn 西汉高祖
 &
+name monarch
 name_tw 劉邦
 name_cn 刘邦
 &
+name country monarch
 name_cn 汉刘邦
 &
+name country monarch+
 name_tw 漢王劉邦
 name_cn 汉王刘邦
 &
+name monarch+
 name_tw 漢王
 name_cn 汉王
 &
+name country monarch
 name_tw 漢高祖劉邦
 &
+name country monarch
 name_tw 漢高帝劉邦
 &
-name_cn 武安侯刘邦
+name country monarch+
+name_tw 漢王邦
+name_cn 汉王邦
+#name_tw 漢王邦元年
+#name_cn 汉王邦元年
 &
-name_tw 漢王邦元年
-name_cn 汉王邦元年
+name monarch+
+name_cn 武安侯刘邦
 
 ## [102]
 wref_zh 刘邦
@@ -136,19 +153,25 @@ tag 秦正
 tag 漢恵帝
 tag 支那皇帝即位紀年
 
+name monarch
 name_ja 恵帝
 &
+name monarch
 name_tw 孝惠皇帝
 &
+name monarch
 name_ja 孝恵帝
 &
+name monarch
 name_ja 孝恵
 name_tw 孝惠
 &
+name country monarch
 name_ja 漢恵帝
 name_tw 漢惠帝
 name_cn 汉惠帝
 &
+name country monarch
 name_tw 西漢惠帝
 
 ## [102]
@@ -185,11 +208,14 @@ u 1
 # 8 (BC180-8-18) 没
 u 8
 
+name monarch
 name_ja 呂后
 name_tw 呂后
 &
+name monarch
 name_tw 高后
 &
+name monarch
 name_ja 高皇后
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7003>"元年"
@@ -211,12 +237,16 @@ tag 秦正
 tag 前少帝
 tag 支那皇帝即位紀年
 
+name monarch
 name_tw 前少帝
 &
+name country monarch
 name_cn 汉前少帝
 &
+name monarch
 name_tw 少帝
 &
+name country monarch
 name_cn 汉少帝
 
 ## [102]
@@ -246,6 +276,7 @@ tag 秦正
 tag 後少帝
 tag 支那皇帝即位紀年
 
+name monarch
 name_tw 後少帝
 
 ## [102]
@@ -279,15 +310,18 @@ wref_zh 汉文帝
 BC179 = 1
 u 1
 u 16
+name country monarch
 name_tw 漢文帝
 name_cn 汉文帝
 
 name_ja 漢文帝
 &
+name monarch
 name_ja 文帝
 name_tw 文帝
 name_cn 文帝
 &
+name monarch+
 name_tw 文帝前
 name_ja 文帝前
 &
@@ -313,6 +347,7 @@ tag 秦正
 
 tag 漢文帝
 
+name monarch+
 name_ja 文帝後
 &
 
@@ -363,6 +398,7 @@ tag 秦正
 %tag   name_ja 漢景帝
 tag 漢景帝
 
+name monarch+
 name_ja 景帝前
 name_tw 景帝前
 name_cn 景帝前
@@ -373,12 +409,15 @@ wref_zh 汉景帝
 BC156 = 1
 u 1
 u 7
+name monarch+
 name_tw 景帝前元
 name_cn 景帝前元
 &
+name country monarch+
 name_cn 汉景帝前元
 
 &
+name monarch
 name_ja 景帝
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7005>"即皇帝位"
@@ -388,6 +427,7 @@ s+
 &
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7026>"孝景元年正月癸酉"
 s+
+name monarch
 name 孝景
 
 def[漢景帝中]
@@ -405,8 +445,10 @@ tag 秦正
 
 tag 漢景帝
 
+name monarch+
 name_ja 景帝中
 &
+name monarch+
 name_ja 景帝中元
 name_tw 景帝中元
 &
@@ -440,8 +482,10 @@ tag 秦正
 
 tag 漢景帝
 
+name monarch+
 name_ja 景帝後
 &
+name monarch+
 name_ja 景帝後元
 &
 
@@ -2047,6 +2091,7 @@ tag 王の即位紀年
 
 ## [103]
 wref_ja 漢復
+name monarch
 name_ja 朔寧王隗囂
 # 30 - 33
 u 1
@@ -2067,6 +2112,7 @@ tag 王の即位紀年
 
 ## [103]
 wref_ja 漢復
+name monarch
 name_ja 朔寧王隗純
 #34
 u 1

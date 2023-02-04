@@ -1755,9 +1755,12 @@ name_ja 皇紀
 &
 name_ja 皇暦
 &&
+name country+
 name_ja 日紀
 &
+name country+
 name_ja 日本紀元
+tag 国名入り紀年
 #wref_ja 神武天皇即位紀元
 wref_zh 皇纪
 sw 神武天皇即位紀元
@@ -1810,7 +1813,9 @@ name(ja) 自由[じ ゆう]・自治[じ ち]
 &
 name_ja 自由
 &&
+name country
 name_ja 日本共和国
+tag 国名建国紀元
 
 %tag tag
 %tag   name_ja 自由民権運動
@@ -2675,11 +2680,14 @@ tag 大日本帝国
 tag 日本国
 tag 日本の私年号
 tag 大東亜戦争
+#tag 建国紀元
+tag 国名入り紀年
 
 %tag person
 %tag   name_ja 尾崎行雄
 tag 尾崎行雄
 
+name country+
 name_ja 新日本
 AD1945 = 1
 <-昭和 [g:1945-8-15,g:1945-12-10] #利用開始{#尾崎行雄} #大日本帝国
@@ -2708,6 +2716,9 @@ tag 尾崎行雄
 
 <-新日本(乙酉) [g:1946,g:2009-8-29] #年誤伝発生 #日本語版ウィキペディア
 
+#tag 建国紀元
+tag 国名入り紀年
+name country+
 name_ja 新日本
 wref_ja 元号
 AD1946 = 1
@@ -2722,11 +2733,14 @@ tag 日本国
 tag 日本人
 tag 大東亜戦争
 tag 日本の私的紀年法
+tag 建国紀元
+tag 国名入り紀年
 
 %tag org
 %tag   name_ja 國士舘
 tag 國士舘
 
+name country+
 name_ja 新日本紀元
 AD1952 = 1
 u 1-5-1
@@ -3473,6 +3487,7 @@ tag 日本人
 tag 日本国
 tag ミニ独立国の建国紀元
 tag にっぽん「独立国」事典
+tag 国名建国紀元
 
 %tag region
 %tag   name_ja 岳温泉
@@ -3484,12 +3499,15 @@ tag 岳温泉
 %tag   region of 岳温泉
 tag ニコニコ共和国
 
+name country
 name(ja) ニコニコ[]共和国
 &
+name country
 name_ja 共和国
 AD1982 = 1
 u 1-4-28
 &
+name country
 name_ja 共和
 u 1
 u 3
@@ -3511,6 +3529,7 @@ tag 日本国
 tag 上士幌町
 tag ミニ独立国の建国紀元
 tag にっぽん「独立国」事典
+tag 国名建国紀元
 
 %tag region
 %tag   name_ja とんでるカントリー
@@ -3525,6 +3544,7 @@ tag 赤塚不二夫
 %tag   name_ja 熱気球フェスティバル
 tag 熱気球フェスティバル
 
+name country
 name(ja) とんでる|カントリー
 
 AD1983 = 1
@@ -3573,16 +3593,20 @@ tag 日本国
 tag ミニ独立国の建国紀元
 tag 佐渡市
 tag にっぽん「独立国」事典
+tag 国名建国紀元
 
 %tag region
 %tag   name_ja アルコール共和国
 %tag   region of 真野町
 tag アルコール共和国
 
+name country
 name(ja) アルコール[]共和国
 &
+name country
 name(ja) アルコール
 &
+name country
 name_ja 共和
 
 AD1983 = 1
@@ -3602,6 +3626,7 @@ tag 日本人
 tag 日本国
 tag ミニ独立国の元号
 tag にっぽん「独立国」事典
+tag 国名入り紀年
 
 %tag region
 %tag   name_ja そやんか合衆国
@@ -3658,9 +3683,11 @@ tag にっぽん「独立国」事典
 %tag   region of 美津島町
 tag 対馬ヒオウギ王国
 
+name country
 name(ja)! 緋|扇[J:ひ おうぎ]
 name(ja) ヒ|オウギ
 &
+name country+
 name(ja) ヒ|オウギ[]歴
 name(ja) ヒ|オウギ[]暦
 
@@ -3675,6 +3702,8 @@ def[ツチノコ]
 tag 日本人
 tag ミニ独立国の元号
 tag 日本の私年号
+#tag 国名建国紀元
+tag 国名紀年
 
 %tag region
 %tag   name_ja ツチノコ共和国
@@ -3682,6 +3711,7 @@ tag 日本の私年号
 tag ツチノコ共和国
 tag 吉井町
 
+name country
 name(ja) ツチノコ
 
 AD1989 = 1
@@ -3698,6 +3728,8 @@ tag 日本人
 tag ミニ独立国の元号
 tag 日本の私年号
 tag 那須烏山市
+#tag 国名建国紀元
+tag 国名紀年
 
 %tag region
 %tag   name_ja 大金いかんべ共和国
@@ -3708,6 +3740,7 @@ tag 大金いかんべ共和国
 %tag   name_ja いかんべ祭
 tag いかんべ祭
 
+name country
 name(ja) いかんべ
 
 AD1988 = 11

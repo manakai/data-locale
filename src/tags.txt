@@ -276,6 +276,7 @@ tag
 tag
   name_ja 国名即位紀年
   group of 即位紀年
+  group of 国名紀年
 
 tag
   name_ja 天皇即位紀年
@@ -520,6 +521,13 @@ tag
 
 tag
   name_ja 記号名
+
+tag
+  name_ja 国名入り紀年
+
+tag
+  name_ja 国名紀年
+  group of 国名入り紀年
 
 tag
   name_ja 干支元号名
@@ -1182,6 +1190,11 @@ tag
 
 tag
   name_ja 元号説のある建国紀元
+  group of 建国紀元
+
+tag
+  name_ja 国名建国紀元
+  group of 国名紀年
   group of 建国紀元
 
 tag

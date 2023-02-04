@@ -3878,6 +3878,7 @@ s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7013>"恭帝"
 #"恭帝元年正月戊戌，有星孛於太微西蕃。占曰：「革命之征。」其年，宋有天下。"
 ## "正月戊戌" 419-1-7 g:419-2-18 / 420-1-13 g:420-2-13
 ## "宋有天下" AD420
+name monarch
 name 恭帝
 s+
 
@@ -6206,6 +6207,7 @@ AD562 = 8
 u 6
 s#周書<https://zh.wikisource.org/wiki/%E5%91%A8%E6%9B%B8/%E5%8D%B748>"魏恭帝元年"
 s+
+name monarch
 name 詧
 
 <-西魏恭帝 [隋:555] #適用開始 #周書 #西梁 #蕭詧 #分離
@@ -6273,6 +6275,7 @@ u 20
 u 12
 s#周書<https://zh.wikisource.org/wiki/%E5%91%A8%E6%9B%B8/%E5%8D%B748>"年號天保"
 s+
+name monarch
 name 巋
 
 AD562 = 1
@@ -6292,6 +6295,7 @@ tag 異説
 
 s#周書<https://zh.wikisource.org/wiki/%E5%91%A8%E6%9B%B8/%E5%8D%B748>"年號天保"
 s+
+name monarch
 name 巋
 ## <https://zh.wikisource.org/wiki/%E5%91%A8%E6%9B%B8/%E5%8D%B748#cite_note-15>
 #"五年陳湘州刺史華皎巴州刺史戴僧朔竝來附　張森楷云：「『五』當作『六』，
@@ -6377,6 +6381,7 @@ def[䔥琮]
 #
 s#周書<https://zh.wikisource.org/wiki/%E5%91%A8%E6%9B%B8/%E5%8D%B748>"年號廣運"
 s+
+name monarch
 name 琮
 #..."自詧初即位，歲在乙亥，至是，歲在丁未，凡三十有三歲矣。 "
 u 2

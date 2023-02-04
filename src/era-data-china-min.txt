@@ -69,6 +69,7 @@ s#明史<https://zh.wikisource.org/wiki/%E6%98%8E%E5%8F%B2/%E5%8D%B71>"二十四
 ## AD1364
 
 s#明史<https://zh.wikisource.org/wiki/%E6%98%8E%E5%8F%B2/%E5%8D%B7122>"吳元年"
+name country
 name 吳
 s+
 #"初，太祖駐和陽，郭子興卒，林兒牒子興子天敘為都元帥，張天祐為右副元帥，
@@ -86,6 +87,7 @@ u 1-1-1
 u 2-1
 
 &
+name country+
 name_ja 呉王
 name_kana ご おう
 
@@ -3275,9 +3277,11 @@ sw 周元年
 
 AD1674 = 1
 
+name country
 name_ja 周
 name_tw 周
 &
+name country+
 name_ja 周王
 name_tw 周王
 

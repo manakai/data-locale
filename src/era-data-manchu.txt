@@ -1752,6 +1752,7 @@ tag 完顔盈歌
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B7135>"穆宗十年"
 #"穆宗十年癸未"
+name monarch
 name 穆宗
 s+
 u 10
@@ -1779,6 +1780,7 @@ tag 遼
 tag 烏雅束
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B7135>"康宗"
+name monarch
 name 康宗
 s+
 #"二年甲申"
@@ -1817,6 +1819,7 @@ tag 遼
 tag 阿骨打
 
 #no known name
+name monarch
 name 太祖
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B72>"康宗七年"

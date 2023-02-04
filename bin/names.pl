@@ -210,6 +210,13 @@ sub parse_src_line ($$) {
           {kind => '+tag',
            type => $1,
            value => $2};
+    } elsif ($in =~ /^name\s+country\+?$/) {
+      $out->[-1]->{labels}->[-1]->{has_country} = 1;
+    } elsif ($in =~ /^name\s+monarch\+?$/) {
+      $out->[-1]->{labels}->[-1]->{has_monarch} = 1;
+    } elsif ($in =~ /^name\s+country\s+monarch\+?$/) {
+      $out->[-1]->{labels}->[-1]->{has_country} = 1;
+      $out->[-1]->{labels}->[-1]->{has_monarch} = 1;
     } elsif ($in =~ /^&$/) {
       push @{$out->[-1]->{labels}},
           {reps => []};
@@ -1230,9 +1237,10 @@ sub compute_form_group_ons ($$) {
     return [grep { @{$_->{form_groups}} or @{$_->{expandeds} or []} } @$labels];
   } # filter_labels
   
-  sub reps_to_labels ($$$$$);
-  sub reps_to_labels ($$$$$) {
-    my ($object, $reps => $labels, $has_preferred, $set_object_tag) = @_;
+  sub reps_to_labels ($$$$$$);
+  sub reps_to_labels ($$$$$$) {
+    my ($object, $reps => $labels, $has_preferred,
+        $get_object_tag, $set_object_tag) = @_;
 
     my $label = {form_groups => []};
     my $label_added = 0;
@@ -1241,11 +1249,20 @@ sub compute_form_group_ons ($$) {
       $label_added = 1;
     }
 
+    my $in = undef;
     REP: for my $rep (@$reps) {
+      if ($rep->{in}) {
+        $in = $rep->{in};
+        next REP;
+      }
       if ($rep->{next_label}) {
-        push @$labels, $label unless $label_added;
+        unless ($label_added) {
+          $label->{_IN} = $in if defined $in;
+          push @$labels, $label;
+        }
         $label = {form_groups => []};
         $label_added = 0;
+        $in = undef;
         next REP;
       }
       
@@ -1258,6 +1275,13 @@ sub compute_form_group_ons ($$) {
           if ($rep->{type} eq 'country') {
             $label->{props}->{country_tag_ids}->{$tag->{id}} = {};
             $label->{_PREFERRED}->{country_tag_ids} //= $tag->{id};
+
+            for my $stag_id (keys %{$tag->{period_of}}) {
+              my $stag = $get_object_tag->($stag_id);
+              if ($stag->{type} eq 'country') {
+                $label->{props}->{country_tag_ids}->{$stag->{id}} ||= {};
+              }
+            }
           } elsif ($rep->{type} eq 'monarch') {
             $label->{props}->{monarch_tag_ids}->{$tag->{id}} = {};
             $label->{_PREFERRED}->{monarch_tag_ids} //= $tag->{id};
@@ -1273,7 +1297,7 @@ sub compute_form_group_ons ($$) {
           }
           $rep->{kind} = '(expanded)';
           $value->{expandeds} ||= [];
-          reps_to_labels $object, [$rep] => $value->{expandeds}, {jp=>1,cn=>1,tw=>1}, $set_object_tag;
+          reps_to_labels $object, [$rep] => $value->{expandeds}, {jp=>1,cn=>1,tw=>1}, $get_object_tag, $set_object_tag;
         } else {
           my $v = {};
           my $v_added = 0;
@@ -2031,7 +2055,10 @@ sub compute_form_group_ons ($$) {
       push @{$label->{form_groups}}, $value unless $value_added;
     } # $rep
 
-    push @$labels, $label unless $label_added;
+    unless ($label_added) {
+      $label->{_IN} = $in if defined $in;
+      push @$labels, $label;
+    }
   } # reps_to_labels
 
   sub get_label_shorthands ($$);
@@ -2337,8 +2364,9 @@ sub compute_form_group_ons ($$) {
     } # form group
   } # get_label_shorthands
 
-  sub process_object_labels ($$$$) {
-    my ($objects, $set_label_props, $set_object_tag, $out_errors) = @_;
+  sub process_object_labels ($$$$$$) {
+    my ($objects, $set_label_props,
+        $get_object_tag, $set_object_tag, $out_errors) = @_;
     
     for my $object (@$objects) {
       my $has_preferred = {};
@@ -2359,7 +2387,12 @@ sub compute_form_group_ons ($$) {
       $object->{label_sets} = [];
       for my $label_set (@{$object->{_LABELS}}) {
         my $new_label_set = {labels => []};
-        reps_to_labels $object, [map { (@{$_->{reps}}, {next_label => 1}) } @{$label_set->{labels}}] => $new_label_set->{labels}, $has_preferred, $set_object_tag;
+        reps_to_labels $object, [map {
+          ({in => $_},
+           @{$_->{reps}},
+           {next_label => 1});
+        } @{$label_set->{labels}}] => $new_label_set->{labels}, $has_preferred,
+            $get_object_tag, $set_object_tag;
         $new_label_set->{labels} = filter_labels $new_label_set->{labels};
         push @{$object->{label_sets}}, $new_label_set if @{$new_label_set->{labels}};
       }
@@ -2523,6 +2556,8 @@ sub compute_form_group_ons ($$) {
       for my $label_set (@{$object->{label_sets}}) {
         for my $label (@{$label_set->{labels}}) {
           $set_label_props->($object, $label);
+
+          delete $label->{_IN};
         } # $label
       } # $label_set
       

@@ -7911,10 +7911,12 @@ s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%
 
 s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84/%E5%A4%A7%E5%8D%97%E5%88%97%E5%82%B3%E5%89%8D%E7%B7%A8/%E5%8D%B72>"太祖皇帝四十三年"
 #"太祖皇帝四十三年庚子夏"
+name monarch
 name 太祖皇帝
 s+
 
 &
+name monarch
 name(kr) 선주(僊主)
 
 <-正治(戊午) [越南:1558-10] #建元前の即位{#広南国 #阮主 #阮潢}
@@ -7950,6 +7952,7 @@ s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%
 #"熙宗皇帝二十二年乙亥〈黎陽和元年〉冬"
 #"熙宗皇帝三年丙辰〈黎弘定十七年〉冬"
 s+
+name monarch
 name 熙宗皇帝
 s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84/%E5%A4%A7%E5%8D%97%E5%88%97%E5%82%B3%E5%89%8D%E7%B7%A8/%E5%8D%B72>"熙宗皇帝元年"
 #"熙宗皇帝元年甲寅〈黎弘定十五年〉"
@@ -7960,6 +7963,7 @@ s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%
 s+
 
 &
+name monarch
 name(kr) 불주(佛主)
 
 <-僊主 [越南:1613-6-3,越南:1613] #建元前の即位{#広南国 #阮主 #阮福源}
@@ -7996,10 +8000,12 @@ s+
 
 s#大南寔録<http://local.hatena.ne.jp:6653/tag/2084/graph?sequence=272%2B3118>"神宗皇帝戊子"
 #"神宗皇帝戊子十三年春"
+name monarch
 name 神宗皇帝
 s+
 
 &
+name monarch
 name(kr) 상주(上主)
 
 <-佛主 [越南:1635-10-10,越南:1635] #建元前の即位{#広南国 #阮主 #阮福瀾}
@@ -8034,9 +8040,11 @@ s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%
 s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84/%E5%A4%A7%E5%8D%97%E5%88%97%E5%82%B3%E5%89%8D%E7%B7%A8/%E5%8D%B73>"太宗皇帝戊子元年春"
 #"太宗皇帝戊子元年春"
 s+
+name monarch
 name 太宗皇帝
 
 &
+name monarch
 name(kr) 현주(賢主)
 
 <-上主 [g:1648-3-19,越南:1648] #建元前の即位{#広南国 #阮主 #阮福瀕}
@@ -8068,10 +8076,12 @@ s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%
 
 s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84/%E5%A4%A7%E5%8D%97%E5%88%97%E5%82%B3%E5%89%8D%E7%B7%A8/%E5%8D%B76>"英宗皇帝元年"
 #"英宗皇帝元年戊辰夏"
+name monarch
 name 英宗皇帝
 s+
 
 &
+name monarch
 name(kr) 의주(義主)
 
 <-賢主 越南:1687-3-19(丁酉) #建元前の即位{#広南国 #阮主 #阮福溱}
@@ -8105,9 +8115,11 @@ s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%
 s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84/%E5%A4%A7%E5%8D%97%E5%88%97%E5%82%B3%E5%89%8D%E7%B7%A8/%E5%8D%B73>"顯宗皇帝丙申"
 #"顯宗皇帝丙申二十五年"
 s+
+name monarch
 name 顯宗皇帝
 
 &
+name monarch
 name(kr) 국주(國主)
 
 <-義主 越南:1691-1-甲申 #建元前の即位{#広南国 #阮主 #阮福淍} #旧説
@@ -8142,10 +8154,12 @@ s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%
 
 s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84/%E5%A4%A7%E5%8D%97%E5%88%97%E5%82%B3%E5%89%8D%E7%B7%A8/%E5%8D%B76>"肅宗皇帝丙辰"
 #"肅宗皇帝丙辰十一年春"
+name monarch
 name 肅宗皇帝
 s+
 
 &
+name monarch
 name(kr) 영주(寧主)
 
 <-國主 越南:1725-4-21(戊子) #建元前の即位{#広南国 #阮主 #阮福澍}
@@ -8181,12 +8195,14 @@ s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%
 s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84/%E5%A4%A7%E5%8D%97%E5%88%97%E5%82%B3%E5%89%8D%E7%B7%A8/%E5%8D%B71>"世宗皇帝六年甲子"
 #"世宗皇帝六年甲子"
 s+
+name monarch
 name 世宗皇帝
 s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84/%E5%A4%A7%E5%8D%97%E5%88%97%E5%82%B3%E5%89%8D%E7%B7%A8/%E5%8D%B72>"世宗皇帝五年癸亥"
 #"世宗皇帝五年癸亥"
 s+
 
 &
+name monarch
 name(kr) 무왕(武王)
 
 <-寧主 [越南:1738-4-20,越南:1738] #建元前の即位{#広南国 #阮主 #阮福濶}
@@ -8222,6 +8238,7 @@ s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%
 
 s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84/%E5%A4%A7%E5%8D%97%E5%88%97%E5%82%B3%E5%89%8D%E7%B7%A8/%E5%8D%B72>"睿宗皇帝九年甲午春"
 #"睿宗皇帝九年甲午春"
+name monarch
 name 睿宗皇帝
 s+
 s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84/%E5%A4%A7%E5%8D%97%E5%88%97%E5%82%B3%E5%89%8D%E7%B7%A8/%E5%8D%B72>"睿宗皇帝七年壬辰"
@@ -8230,6 +8247,7 @@ s+
 #"八年癸巳"
 
 &
+name monarch
 name(kr) 정왕(定王)
 
 <-武王 越南:1765-5-20(甲午) #建元前の即位{#広南国 #王_(支那) #阮福淳} #阮主
@@ -8262,6 +8280,7 @@ s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%
 s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84%E5%89%8D%E7%B7%A8/%E5%8D%B712>"新政王遇害薨"
 #"丁酉十二年"..."八月，"..."辛亥，新政王遇害薨。"...
 
+name monarch
 name(kr) 신정왕(新政王)
 
 <-定王 [越南:1775] #建元前の即位{#広南国 #王_(支那) #阮福暘} #旧説 #阮主
@@ -8286,6 +8305,7 @@ sw 阮主即位紀年
 
 tag 阮福暎
 
+name monarch+
 name_tw 世祖攝政
 
 s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84%E5%89%8D%E7%B7%A8/%E5%8D%B711>"攝政"
@@ -8332,6 +8352,7 @@ sw 阮主即位紀年
 tag 阮福暎
 
 #no known name
+name monarch
 name_tw 世祖
 
 s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84%E6%AD%A3%E7%B7%A8%E7%AC%AC%E4%B8%80%E7%B4%80/%E5%87%A1%E4%BE%8B>"本紀中"
@@ -9205,6 +9226,7 @@ sw 越南共和
 tag 南ベトナム
 tag ベトナム人
 tag 建国紀元
+tag 国名建国紀元
 
 %tag country
 %tag   name_ja 越南共和国
@@ -9248,16 +9270,19 @@ tag 建国紀元
 %tag   name_ja 越南民主共和国
 %tag   period of 越南
 tag 越南民主共和国
+tag 国名建国紀元
 
 u 2
 u 30
 
 wref_ja 越南民主共和
+name country
 name(vi_latin) Việt Nam Dân chủ Cộng hòa
 name_ja 越南民主共和
 name_kana えつ なん みん しゅ きょう わ
 tag 私年号 (ウィキペディア)
 &
+name country
 name(vi_latin) NAM
 name(vi_latin) nam
 u 2
@@ -9276,9 +9301,11 @@ sw 越南民主共和
 tag 越南
 tag ベトナム人
 tag 建国紀元
+tag 国名建国紀元
 
 tag 越南民主共和国
 
+name country
 name(vi_latin) Việt Nam Dân chủ Cộng hòa
 name_ja 越南民主共和
 name_kana えつ なん みん しゅ きょう わ
@@ -9308,20 +9335,24 @@ AD1945 = 1
 tag 越南
 tag ベトナム人
 tag 建国紀元
+tag 国名建国紀元
 
 %tag country
 %tag   name_ja 越南社会主義共和国
 tag 越南社会主義共和国
 
 wref_ja 元号
+name country
 name_ja 共和社会主義越南
 u 32
 u 1
 &
+name country+
 name_ja 共和社会主義越南紀元
 
 &
 #wref_ja 共和
+name country
 name_ja 共和
 
 <-越南民主共和,越南民主共和(丙戌) ->共和社会主義越南,共和社会主義越南(庚寅),AD g:1976-7-2
@@ -9337,11 +9368,13 @@ tag ベトナム人
 tag 建国紀元
 tag 日本
 tag 日本人
+tag 国名建国紀元
 
 tag 越南社会主義共和国
 
 AD2014 = 65
 u 65-6-30
+name country
 name_ja 共和社会主義越南
 
 def[越南國暦]
@@ -9351,19 +9384,26 @@ AD2022 = 4901
 tag 越南
 tag ベトナム人
 tag 建国紀元
+tag 国名入り紀年
 
+name country+
 name(vi) Quốc Lịch
 &
+name country+
 name(vi) Việt Nam Quốc Lịch
 &
+name country+
 acronym(vi_latin) QL
 expanded(vi_latin) [Q]uốc [L]ịch
 &
+name country+
 acronym(vi_latin) VNQL
 expanded(vi_latin) [V]iệt [N]am [Q]uốc [L]ịch
 &
+name country+
 name(vi) Việt Lịch
 &
+name country+
 acronym(vi_latin) VL
 expanded(vi_latin) [V]iệt [L]ịch
 

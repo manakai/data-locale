@@ -643,6 +643,7 @@ tag 石勒
 tag 東洋式即位紀年
 
 s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7105>"趙王元年"
+name country+
 name 趙王
 s+
 #"太興二年，勒偽稱趙王，"..."依春秋列國、漢初侯王每世稱元，改稱趙王元年。"
@@ -2224,6 +2225,7 @@ tag 元号に並行する即位紀年
 
 ## <https://waseda.repo.nii.ac.jp/?action=repository_action_common_download&item_id=37019&item_no=1&attribute_id=21&file_no=1> PDF p.15
 AD419 = 1
+name country
 name 大夏
 u 2
 

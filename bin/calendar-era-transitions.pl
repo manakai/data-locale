@@ -1021,6 +1021,8 @@ for my $tr (@$Input) {
           $Data->{_ERA_TAGS}->{$to_key}->{$tag->{key}} = 1;
         }
       }
+      my $to_era = $Eras->{$to_key};
+      next if $to_era->{tag_ids}->{1372}; # 建国紀元
       for my $tag_id (@$x_subject_tag_ids) {
         my $tag = $Tags->{$tag_id};
         if ($tag->{type} eq 'person') {
@@ -1033,6 +1035,38 @@ for my $tr (@$Input) {
         }
       }
     }
+  }
+
+  if ($x->{tag_ids}->{1192}) { # 建元前の即位
+    for my $to_key (@$to_keys) {
+      next if $to_key eq '干支年';
+      my $to_era = $Eras->{$to_key};
+      next unless $to_era->{tag_ids}->{1069}; # 即位紀年
+      
+      if (defined $x->{authority_tag_id}) {
+        my $tag = $Tags->{$x->{authority_tag_id}};
+        if ($tag->{type} eq 'country') {
+          if (not $x->{tag_ids}->{1198}) { # 異説
+            $Data->{_ERA_PROPS}->{$to_key}->{country_tag_id} = $x->{authority_tag_id};
+          } else {
+            $Data->{_ERA_PROPS_2}->{$to_key}->{country_tag_id} = $x->{authority_tag_id};
+          }
+          $Data->{_ERA_TAGS}->{$to_key}->{$tag->{key}} = 1;
+        }
+      }
+      for my $tag_id (@$x_subject_tag_ids) {
+        my $tag = $Tags->{$tag_id};
+        if ($tag->{type} eq 'person') {
+          if (not $x->{tag_ids}->{1198}) { # 異説
+            $Data->{_ERA_PROPS}->{$to_key}->{monarch_tag_id} //= 0+$tag_id;
+          } else {
+            $Data->{_ERA_PROPS_2}->{$to_key}->{monarch_tag_id} //= 0+$tag_id;
+          }
+          $Data->{_ERA_TAGS}->{$to_key}->{$tag->{key}} = 1;
+        }
+      }
+    }
+
   }
   
   if ($x->{tag_ids}->{1278} and # 適用開始

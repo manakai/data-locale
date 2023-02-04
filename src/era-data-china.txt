@@ -547,15 +547,19 @@ tag 秦正
 tag 始皇帝
 tag 支那皇帝即位紀年
 
+name country monarch+
 name_tw 秦王政
 name_ja 秦王政
 &
+name country monarch
 name_tw 秦始皇
 name_ja 秦始皇
 &
+name monarch
 name_tw 始皇
 name_ja 始皇
 &
+name monarch
 name_tw 始皇帝
 name_ja 始皇帝
 
@@ -584,13 +588,17 @@ tag 秦正
 %tag   name_ja 胡亥
 tag 胡亥
 
+name country monarch
 name_tw 秦二世
 name_ja 秦二世
 &
+name monarch
 name_ja 二世
 &
+name country monarch
 name_ja 秦二世皇帝
 &
+name country
 name_ja 秦
 tag 国名即位紀年
 
@@ -631,11 +639,14 @@ tag 秦正
 tag 子嬰
 tag 王の即位紀年
 
+name country monarch
 name_ja 秦王子嬰
 name_cn 秦王子婴
 &
+name country monarch
 name_ja 秦子嬰
 &
+name monarch
 name_ja 子嬰
 name_tw 子嬰
 
@@ -2949,7 +2960,9 @@ tag 洪秀全
 
 #XXXcalendar 天暦
 
+name country
 name 太平天囯
+tag 国名建国紀元
 
 #wref_zh 太平天國 (年號)
 #1851 - 1864
@@ -3040,11 +3053,21 @@ sw 大明國
 tag 元号説のある建国紀元
 tag 清
 
+%tag country
+%tag   name_ja 大明順天国
+%tag   name_cn 大明顺天国
+%tag   name_tw 大明順天國
+tag 大明順天国
+tag 建国紀元
+
+name country
 name_ja 大明国
 &
+name country
 name_ja 大明順天国
 name_cn 大明顺天国
 name_tw 大明順天國
+tag 国名建国紀元
 
 %tag person
 %tag   name_ja 洪全福
@@ -3057,13 +3080,6 @@ tag 天地会
 %tag   name_ja 興中会
 tag 興中会
 
-%tag country
-%tag   name_ja 大明順天国
-%tag   name_cn 大明顺天国
-%tag   name_tw 大明順天國
-tag 大明順天国
-tag 建国紀元
-
 tag 漢民族
 tag 漢土
 tag 英領香港
@@ -3071,9 +3087,9 @@ tag 英領香港
 AD1902 = 1
 u 1
 
-<-光緒 [清:1902] #清 #大明順天国 #洪全福 #蜂起
-<-光緒 [清:1902] #清 #大明順天国 #洪全福 #支那改元日 #起事建元
-->光緒 [清:1902] #清 #大明順天国 #洪全福 #陥落
+<-光緒 [清:1902] #蜂起{#大明順天国 #洪全福} #清
+<-光緒 [清:1902] #支那改元日{#大明順天国 #洪全福} #清 #起事建元
+->光緒 [清:1902] #陥落{#清, #大明順天国 #洪全福}
 
 [漢德]
 #y~700
@@ -3141,18 +3157,23 @@ sw 孔子紀年
 def[黃帝紀元]
 #y~510
 
+name monarch+
 name_tw 黃帝紀元
 name_cn 黄帝纪元
 name_ja 黄帝紀元
 name_kana こう てい き げん
 &
+name monarch+
 name 黄帝紀年
 name_kana こう てい き ねん
 &
+name monarch+
 name 軒轅紀年
 &
+name monarch+
 name 黄紀
 &
+name monarch+
 name 黄帝開国即位紀年
 wref_zh 黄帝纪元
 wref_ja 黄帝紀元
@@ -3181,14 +3202,17 @@ tag 中華民国湖北軍政府
 def[黃帝紀元(庚戌)]
 #y~1724
 
+name monarch+
 name_tw 黃帝紀元
 name_cn 黄帝纪元
 name_ja 黄帝紀元
 name_kana こう てい き げん
 &
+name monarch+
 name 黄帝紀年
 name_kana こう てい き ねん
 &
+name monarch+
 name 黄帝生年紀年
 wref_zh 黄帝纪元
 wref_ja 黄帝紀元
@@ -3198,11 +3222,13 @@ AD1903 = 4614
 def[黃帝紀元(庚寅)]
 #y~1723
 
+name monarch+
 name_tw 黃帝紀元
 name_cn 黄帝纪元
 name_ja 黄帝紀元
 name_kana こう てい き げん
 &
+name monarch+
 name 黄帝紀年
 name_kana こう てい き ねん
 wref_zh 黄帝纪元
@@ -3216,34 +3242,43 @@ sw 黄帝紀元
 BC2697 = 1
 
 def[帝堯紀年]
+name monarch+
 name 帝堯紀年
 name 唐堯紀年
 sw 帝堯紀年
 
 def[夏禹紀年]
+name monarch+
 name 夏禹紀年
 
 def[秦統一紀年]
+name country+
 name 秦統一紀年
 
 def[亡国紀年]
 name 亡国紀年
 
-%tag country
-%tag   name_ja 中華民国
-%tag   name_ja 中華民國
-%tag   name_en Republic of China
-%tag 
-%tag   period of 中国
 
 
 def[民國]
 #y~971
 
+%tag country
+%tag   name_ja 中華民国
+%tag   name_ja 中華民國
+tag 中華民国
+name country
 name_tw 中華民國
 name_cn 中华民国
 name_ja 中華民国
+
+%tag   &
+%tag   name_en Republic of China
+%tag 
+%tag   period of 中国
+
 &
+name country
 name_tw 民國
 name_ja 民国
 name_cn 民国
@@ -3252,22 +3287,33 @@ name_cn 民国
 name(zh_alalc) Min|guo
 
 &
+name country
 name_tw 大中華民國
 &
+name country
 abbr_tw 民 民國
+
+tag 国名建国紀元
+
 &
+name country+
 name_tw 民國紀年
 name_cn 民国纪年
 &
+name country+
 name_tw 民國紀元
 name_ja 民国紀元
 &
+name country+
 name_ja 中華民国暦
 &
+name country+
 name_ja 中華民国紀年
 &
+name country+
 name_tw 中華民國年號
 &
+name country+
 name_cn 国历
 name_tw 國曆
 name_ja 国暦
@@ -3276,7 +3322,6 @@ wref_ja 民国紀元
 wref_zh 民國紀年
 sw 民国紀元
 
-tag 中華民国
 tag 中華民国台湾
 tag 漢土
 tag 内満州
@@ -3296,8 +3341,9 @@ AD1912 = 1
 %tag   group of 中華民国
 tag 中華民国臨時政府
 
-tag 中華王朝の公年号
+#tag 中華王朝の公年号
 tag 建国紀元
+tag 元号説のある建国紀元
 
 tag 辛亥革命
 %tag person
@@ -3435,9 +3481,13 @@ def[大同(己巳)]
 
 sw 大同
 
+<-大同中華 [清:1929,g:1980-03-01] #年誤伝発生{} #大同国 #中華民国
+
+name country
 name_tw 大同
 name_cn 大同
 name_ja 大同
+name_kana だい どう
 
 AD1929 = 1
 
@@ -3447,35 +3497,72 @@ tag 中華民国
 %tag country
 %tag   name_ja 大同国
 %tag   region of 漢土
+%tag   period of 中国
 tag 大同国
-tag 建国紀元
+tag 国名建国紀元
 %tag person
 %tag   name_ja 薛幹臣
+%tag   &&
 %tag   name_ja 大同皇帝
 tag 薛幹臣
 %tag religion
 %tag   name_ja 小刀会
+%tag   &
 %tag   name_ja 刀会
 tag 小刀会
 
-tag 君主名の元号
-tag 一世一元
+#tag 君主名の元号
+tag 元号説のある建国紀元
 
-<-民國 g:1929-04-12 #大同国 #中華民国 #支那皇帝 #薛幹臣 #建元前の即位
-<-民國 g:1929-04-12 #大同国 #中華民国 #支那皇帝 #薛幹臣 #支那改元日 #起事建元
-->民國 g:1929-04-16 #大同国 #中華民国 #薛幹臣 #死去 #陥落
+<-民國 ->大同(己巳),大同中華 g:1929-04-12 #蜂起{#大同国 #支那皇帝 #薛幹臣}
+    #中華民国 #事由
+<-民國 ->大同(己巳),大同中華 g:1929-04-12
+    #建元前の即位{#大同国 #支那皇帝 #薛幹臣} #中華民国
+<-民國 g:1929-04-12 #支那改元日{#大同国 #薛幹臣} #中華民国 #起事建元
+->民國 <-大同(己巳),大同中華 g:1929-04-16 #陥落{#中華民国, #大同国 #薛幹臣}
+    #死去
 
+def[大同中華]
+#y~2240
+
+sw 大同中華
+
+AD1929 = 18
+
+tag 漢土
+tag 漢民族
+tag 中華民国
+tag 大同国
+tag 国名建国紀元
+tag 薛幹臣
+tag 小刀会
+
+#tag 君主名の元号
+tag 元号説のある建国紀元
+
+name country+
+name 大同中華
+name 大同中华
 #大同中华十八年三月二日
+u 18-3-2
+#XXXcalendar 農暦
+&
+name country+
+name 大同中华民国
 #大同中华民国十八年
+
+<-民國 [清:1929,清:1929-3-2] #利用開始{#大同国 #薛幹臣} #中華民国 #起事建元
 
 
 def[中華共和國]
 #y~1718
 
+name country
 name_tw 中華共和國
 name_cn 中华共和国
 name_ja 中華共和国
 &
+name country
 name_tw 中華共和
 
 
@@ -3489,7 +3576,7 @@ tag 福州
 tag 漢民族
 tag 共産主義
 tag 中華民国
-tag 公年号
+#tag 公年号
 
 %tag country
 %tag   name_tw 中華共和國
@@ -3497,6 +3584,7 @@ tag 公年号
 tag 中華共和國
 #中華共和国人民革命政府
 tag 建国紀元
+tag 国名建国紀元
 
 AD1933 = 1
 #福建事変
@@ -3646,11 +3734,13 @@ def[皇清]
 #y~1071
 sw 皇清
 
+name country
 name_cn 中原皇清国
 name_tw 中原皇清國
 name_ja 中原皇清国
 wref_zh 中原皇清国
 &
+name country
 name_ja 皇清
 name_kana こう しん
 wref_ja 皇清
@@ -3673,6 +3763,8 @@ tag 中華民国大陸地区
 tag 中原皇清国
 wref_zh 中原皇清国
 tag 建国紀元
+tag 国名建国紀元
+tag 元号説のある建国紀元
 
 %tag person
 %tag   name_ja 張清安

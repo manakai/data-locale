@@ -1690,13 +1690,18 @@ name(kr) 개국기년
 name 開國紀年
 
 &
+name country+
 name 朝鮮開國
 &
+name country+
 name 大朝鮮國開國
 &
+name country+
 name 大朝鮮開國
 &
+name country
 name 大朝鮮
+tag 国名建国紀元
 
 <-光緒 g:1894-7-27 #利用開始{#李氏朝鮮 #李㷩} #分離
 
@@ -2045,16 +2050,21 @@ wref<https://zh-classical.wikipedia.org/wiki/%E5%A4%A7%E9%9F%93%E6%B0%91%E5%9C%8
 name 大韓民國
 #1948-8-15 (30) - -9-25 ->檀君紀元
 
+name country
 name_tw 大韓民國
 name_ja 大韓民国
 name(kr) 대한민국
+tag 国名建国紀元
 &
+name country
 name 民國
 name 民国
 name(kr) 민국
 &
+name country+
 name 大韓民国暦
 &
+name country+
 name_tw 大韓民國紀年
 
 %tag org

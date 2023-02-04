@@ -415,7 +415,22 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{
 
   {
     my $patterns = {};
-    printf qq{<td colspan=3 class=summary><p>\n};
+    print qq{<td colspan=3 class=summary>\n};
+    print qq{<p>\n};
+
+    if ($era->{country_tag_id}) {
+      my $tag = $Tags->{tags}->{$era->{country_tag_id}}
+          or die "Tag |$era->{country_tag_id}| not found";
+      printf qq{Country: <a href=tag-names.html#%d>#%s</a>\n },
+          $tag->{id}, $tag->{label};
+    }
+    if ($era->{monarch_tag_id}) {
+      my $tag = $Tags->{tags}->{$era->{monarch_tag_id}}
+          or die "Tag |$era->{monarch_tag_id}| not found";
+      printf qq{Monarch: <a href=tag-names.html#%d>#%s</a>\n },
+          $tag->{id}, $tag->{label};
+    }
+
     for my $key (qw(name name_tw name_ja name_cn name_ko name_vi name_kana
                     name_en name_latn)) {
       printf q{ <code>%s</code>: },
@@ -453,7 +468,7 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{
     for (0..$#{$ls->{labels}}) {
       my $label = $ls->{labels}->[$_];
       print qq{\x0A<tr>} unless $_ == 0;
-      printf q{<th class=label>%d},
+      printf q{<th class=label>(%d) },
           $_;
 
       if (keys %{$label->{props}->{country_tag_ids} or {}}) {
@@ -472,7 +487,7 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{
               $tag->{id}, $tag->{label};
           print q{</strong>} if $p;
         }
-        printf q{]</span>};
+        printf q{]</span> };
       }
       if (keys %{$label->{props}->{monarch_tag_ids} or {}}) {
         printf q{ <span class=era-monarch>Monarch [};
@@ -490,12 +505,24 @@ for my $era (sort { $a->{key} cmp $b->{key} } values %{
               $tag->{id}, $tag->{label};
           print q{</strong>} if $p;
         }
-        printf q{]</span>};
+        printf q{]</span> };
       }
       if ($label->{props}->{is_name}) {
-        printf q{ Name:};
+        if ($label->{props}->{has_country}) {
+          if ($label->{props}->{has_monarch}) {
+            print q{Name (country, monarch):};
+          } else {
+            print q{Name (country):};
+          }
+        } else {
+          if ($label->{props}->{has_monarch}) {
+            print q{Name (monarch):};
+          } else {
+            print q{Name:};
+          }
+        }
       } else {
-        printf q{ Value:};
+        printf q{Value:};
       }
       if (defined $label->{abbr}) {
         printf q{ [<code class=label-abbr>abbr:%s</code>]},

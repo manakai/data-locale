@@ -3752,6 +3752,7 @@ tag 楊詔
 tag 国名即位紀年
 
 wref_zh 大明 (大義寧)
+name country
 name_tw 義寧
 name_cn 义宁
 #護國寺南鈔: "義寧二年"
@@ -11267,12 +11268,16 @@ tag チャードーロバ
 def[波巴人民共和国]
 #y~1882
 
+name country
 name_cn 波巴人民共和国
 name(ja) ボバ人民共和国
 name_ja 波巴人民共和国
+tag 国名建国紀元
 &
+name country
 name_ja 人民共和国
 &
+name country
 name_ja 共和国
 
 %tag country

@@ -23,7 +23,7 @@ print STDERR "Loading...";
 print STDERR "done\n";
 
 names::process_object_labels
-    ([values %{$Data->{tags}}], sub {}, sub { }, $Data);
+    ([values %{$Data->{tags}}], sub {}, sub { die }, sub { }, $Data);
 
 for my $data (values %{$Data->{tags}}) {
   my $shorts = $data->{_SHORTHANDS} = {};

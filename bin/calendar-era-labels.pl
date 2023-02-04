@@ -90,10 +90,15 @@ sub set_object_tag ($$) {
 names::process_object_labels
     ([values %{$Data->{eras}}], sub {
        my ($object, $label) = @_;
+
+       my $inp = $label->{_IN};
+       $label->{props}->{has_country} = 1 if $inp->{has_country};
+       $label->{props}->{has_monarch} = 1 if $inp->{has_monarch};
        
        my $in = $EraById->{$object->{id} // ''};
        if ($label->{props}->{is_name} and not $label->{abbr}) {
-         if (defined $in->{country_tag_id}) {
+         if (defined $in->{country_tag_id} and
+             not $label->{props}->{has_country}) {
            $label->{props}->{country_tag_ids}->{$in->{country_tag_id}} = {preferred => 1};
 
            my $tag = $Tags->{$in->{country_tag_id}};
@@ -104,7 +109,9 @@ names::process_object_labels
              }
            }
          }
-         if (defined $in->{monarch_tag_id}) {
+         if (defined $in->{monarch_tag_id} and
+             not $label->{props}->{has_country} and
+             not $label->{props}->{has_monarch}) {
            $label->{props}->{monarch_tag_ids}->{$in->{monarch_tag_id}} = {preferred => 1};
          }
        }
@@ -130,7 +137,7 @@ names::process_object_labels
             }
           } # $key
 
-       }, \&set_object_tag, $Data);
+       }, sub { $Tags->{$_[0]} }, \&set_object_tag, $Data);
 
 for my $data (values %{$Data->{eras}}) {
   my $shorts = $data->{_SHORTHANDS} ||= {};

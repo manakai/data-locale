@@ -181,11 +181,12 @@ sub set_object_tag ($$) {
       }
     }
   }
+  return $item;
 } # set_object_tag
 
 sub set_tag ($$) {
   my ($key, $tkey) = @_;
-  set_object_tag $Data->{eras}->{$key} ||= {}, $tkey;
+  return set_object_tag $Data->{eras}->{$key} ||= {}, $tkey;
 } # set_tag
 
 {
@@ -339,6 +340,10 @@ for my $path (
     } elsif (defined $key and /^tag\s+(\S.*\S|\S)\s*$/) {
       my $tkey = $1;
       set_tag $key => $tkey;
+    } elsif (defined $key and /^tag\+country\s+(\S.*\S|\S)\s*$/) {
+      my $tkey = $1;
+      my $tag = set_tag $key => $tkey;
+      $Data->{eras}->{$key}->{country_tag_id} = $tag->{id};
 
     } elsif (defined $key and /^s\s*#([\w_()]+)\s*<([^<>]+)>\s*"([^"]+)"\s*$/) {
       my $tkey = $1;

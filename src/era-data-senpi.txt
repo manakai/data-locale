@@ -597,6 +597,7 @@ wref_ja 燕元
 #345 "10月、慕容皝は古の諸侯が即位した際に元年と称した事に倣い、
 #東晋の元号を用いるのを止め、燕王12年（慕容皝が位を継いだ333年を起点とする）
 #と称するようになった。 "
+name country+
 name_ja 燕王
 AD345 = 12
 #348-9-17 j:348-10-25 #死去
@@ -677,6 +678,7 @@ wref_ja 慕容儁
 #但しこれは東晋との従属関係を否定した訳ではなく、
 #周王朝に従属しながらも独自の暦を用いていた春秋時代の列国の故事に
 #倣ったものである。 "
+name country+
 name 燕王
 
 <-慕容皝,燕元 [晋:348-11] #建元前の即位{#前燕 #慕容儁 #燕王}
@@ -1198,6 +1200,7 @@ name(kr) 연원
 
 &
 wref_ja 燕元
+name country
 name 燕
 #資治通鑑, 十六国春秋: "前秦の建元20年を廃して燕の元年を称した"
 tag 国名即位紀年
@@ -2907,14 +2910,17 @@ u 58
 
 ## <https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B723#cite_note-3>
 #..."按卷一序紀力微之三十九年稱"...
+name monarch
 name 力微
 u 39
 
 &
+name country monarch
 name_cn 鲜卑拓跋力微
 
 &
 sw 拓跋の即位紀年
+name monarch
 name_ja 神元帝
 
 def[拓跋悉鹿]
@@ -2932,6 +2938,7 @@ tag 拓跋即位紀年
 tag 拓跋悉鹿
 
 sw 拓跋の即位紀年
+name monarch
 name_ja 章帝
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"章皇帝"
@@ -2954,6 +2961,7 @@ tag 拓跋即位紀年
 tag 拓跋綽
 
 sw 拓跋の即位紀年
+name monarch
 name_ja 平帝
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"平皇帝"
@@ -2981,6 +2989,7 @@ tag 拓跋即位紀年
 tag 拓跋弗
 
 sw 拓跋の即位紀年
+name monarch
 name_ja 思帝
 #"思帝の年"
 
@@ -3010,6 +3019,7 @@ u 13
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B796>"昭帝"
 #"昭帝七年"
+name monarch
 name 昭帝
 u 7
 u 10
@@ -3055,8 +3065,10 @@ tag 拓跋猗㐌
 
 AD305 = 11
 
+name country monarch
 name 皇魏桓帝
 &
+name monarch
 name 桓帝
 
 %tag region
@@ -3091,6 +3103,7 @@ tag 拓跋即位紀年
 tag 拓跋猗盧
 
 sw 拓跋の即位紀年
+name monarch
 name_ja 穆帝
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"穆皇帝"
@@ -3114,6 +3127,7 @@ tag 西晋
 AD316 = 9
 
 &
+name monarch
 name 拓跋猗盧
 u 3
 u 9
@@ -3149,6 +3163,7 @@ tag 拓跋即位紀年
 
 tag 拓跋普根
 
+name country monarch
 name_cn 鲜卑拓跋普根
 u 1
 
@@ -3166,6 +3181,7 @@ tag 拓跋即位紀年
 tag 拓跋鬱律
 
 sw 拓跋の即位紀年
+name monarch
 name_ja 平文帝
 &
 
@@ -3175,12 +3191,16 @@ AD317 = 1
 u 1
 u 5
 
+&
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"平文二年"
+name monarch
 name 平文
 u 2
 u 3
 
+&
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B799>"平文皇帝"
+name monarch
 name 平文皇帝
 u 4
 
@@ -3189,6 +3209,7 @@ u 4
 ->拓跋賀傉 [晋:321] #改元前の死去{#代国 #拓跋鬱律}
 
 &
+name monarch
 name 拓跋鬱律
 u 2
 u 5
@@ -3208,6 +3229,7 @@ tag 拓跋即位紀年
 tag 拓跋賀傉
 
 sw 拓跋の即位紀年
+name monarch
 name_ja 恵帝
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"惠皇帝"
@@ -3236,6 +3258,7 @@ tag 前元
 tag 拓跋紇那
 
 sw 拓跋の即位紀年
+name monarch
 name_ja 煬帝
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"煬皇帝"
@@ -3266,6 +3289,7 @@ tag 前元
 tag 拓跋翳槐
 
 sw 拓跋の即位紀年
+name monarch
 name_ja 烈帝
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71>"烈皇帝"
@@ -3294,6 +3318,7 @@ s+
 
 &
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B714#%E9%AB%98%E6%B6%BC%E7%8E%8B>"烈帝之前"
+name monarch+
 name 烈帝之前
 u 1
 s+
@@ -3314,6 +3339,7 @@ tag 拓跋即位紀年
 tag 拓跋紇那
 
 sw 拓跋の即位紀年
+name monarch+
 name_ja 煬帝後
 
 &
@@ -3344,6 +3370,7 @@ tag 拓跋即位紀年
 tag 拓跋翳槐
 
 sw 拓跋の即位紀年
+name monarch+
 name_ja 烈帝後
 
 &
@@ -3454,6 +3481,7 @@ u 9-8
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B795>"太祖"
 #"太祖之七年"
+name monarch
 name 太祖
 u 7
 s+
@@ -6099,6 +6127,7 @@ u 3-2
 #no era
 
 wref_ja 廃帝 (西魏)
+name country monarch
 name_ja 西魏廃帝
 name_kana せい ぎ はい てい
 #<-大統 [魏:551-3] #建元前の即位{#西魏 #元欽 #魏皇帝} #宇文泰
@@ -6120,12 +6149,15 @@ wref_ko 서위 폐제
 u 1
 u 3
 
+name country monarch
 name_cn 西魏废帝
 &
+name country monarch
 name_ja 魏廃帝
 name_tw 魏廢帝
 name_cn 魏废帝
 &
+name monarch
 name_ja 廃帝
 name_kana はい てい
 name_tw 廢帝
@@ -6133,6 +6165,7 @@ u 1
 u 2
 u 3
 
+name monarch
 ## <https://ko.wikipedia.org/wiki/%EC%B2%9C%EB%B3%B4_(%EB%B6%81%EC%A0%9C)#cite_note-3>
 name(kr) 폐제
 name_ko 廢帝
@@ -6148,10 +6181,12 @@ u 3-1
 #->西魏恭帝,魏後,後魏 [魏:554-1] #改元前の退位{#西魏 #元欽 #魏皇帝} #宇文泰
 
 &
+name country
 name_ja 大魏国
 #XXXname (variant)
 u 1
 &
+name country
 name_ja 魏
 tag 国名即位紀年
 
@@ -6170,10 +6205,12 @@ tag 漢民族
 tag 拓跋即位紀年
 tag 北周
 tag 宇文部
+tag 国名入り紀年
 
 tag 元欽
 
 tag 前元
+name country+
 name_ja 魏前
 #XXXname {swc334}前
 u 1
@@ -6198,10 +6235,12 @@ tag 漢民族
 tag 拓跋即位紀年
 tag 北周
 tag 宇文部
+tag 国名入り紀年
 
 tag 元欽
 
 tag 前元
+name country+
 name_ja 前魏
 u 1
 
@@ -6225,15 +6264,18 @@ tag 宇文部
 %tag   name_ja 拓跋廓
 tag 拓跋廓
 
+name country monarch
 name_ja 西魏恭帝
 name_kana せい ぎ きょう てい
 #name(ja) 西魏恭帝の
 &
+name country monarch
 name_ja 魏恭帝
 u 1
 u 2
 u 3
 &
+name monarch
 name_ja 恭帝
 name_kana きょう てい
 #name(ja) 恭帝の
@@ -6284,6 +6326,7 @@ wref_ko 서위 공제
 u 1
 u 3
 
+name monarch
 s#周書<https://zh.wikisource.org/wiki/%E5%91%A8%E6%9B%B8/%E5%8D%B702>"魏恭帝"
 name 恭帝
 s+
@@ -6296,11 +6339,14 @@ s#周書<https://zh.wikisource.org/wiki/%E5%91%A8%E6%9B%B8/%E5%8D%B703>"魏恭�
 <-西魏廃帝,前魏,魏前 [魏:554-1,魏:554] #称元{#拓跋廓 #西魏} #宇文泰
 
 &
+tag 国名即位紀年
+name country
 name 大魏
 u 1
 u 2
 u 3-5-5
 &
+name country
 name 元魏
 u 2
 
@@ -6319,10 +6365,12 @@ tag 漢民族
 tag 拓跋即位紀年
 tag 北周
 tag 宇文部
+tag 国名入り紀年
 
 tag 拓跋廓
 
 tag 後元
+name country+
 name_ja 魏後
 #XXXname {swc334}後
 #XXXname {swc335}後
@@ -6349,10 +6397,12 @@ tag 漢民族
 tag 拓跋即位紀年
 tag 北周
 tag 宇文部
+tag 国名入り紀年
 
 tag 拓跋廓
 
 tag 後元
+name country+
 name_ja 後魏
 name_cn 后魏
 u 1
@@ -6418,6 +6468,7 @@ tag 宇文泰
 
 sw 北周の即位紀年
 
+name monarch
 name_ja 孝閔帝
 u 1
 
@@ -6459,6 +6510,7 @@ s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B721>"周閔�
 name 周閔帝
 
 &
+name country monarch
 name 北周閔帝
 
 def[明帝]
@@ -6481,10 +6533,13 @@ tag 宇文毓
 
 sw 北周の即位紀年
 
+name country monarch
 name_ja 北周明帝
 &
+name country monarch
 name_ja 周明帝宇文毓
 &
+name monarch
 name_ja 明帝
 u 1
 u 2
@@ -6518,7 +6573,7 @@ def[北周]
 
 AD557 = 1
 
-tag 北周
+tag+country 北周
 tag 宇文部
 tag 内蒙古
 tag 漢土
@@ -6534,11 +6589,13 @@ tag 宇文毓
 sw 北周の即位紀年
 
 tag 国名即位紀年
+name country
 name_ja 周
 u 1
 u 2
 #name 周之
 &
+name country
 name_ja 北周
 
 def[大魏]
@@ -6547,7 +6604,7 @@ def[大魏]
 AD557 = 1
 
 tag 拓跋部
-tag 西魏
+tag+country 西魏
 tag 内蒙古
 tag 漢土
 tag 漢民族
@@ -6562,10 +6619,12 @@ sw 北周の即位紀年
 
 tag 国名即位紀年
 
+name country
 name 大魏
 u 1
 u 2
 &
+name country
 name 元魏
 u 2
 
@@ -6577,7 +6636,7 @@ AD531 = 1
 tag 旧説
 
 tag 拓跋部
-tag 北魏
+tag+country 北魏
 tag 内蒙古
 tag 漢土
 tag 漢民族
@@ -6586,8 +6645,10 @@ tag 国名即位紀年
 
 sw 西魏の即位紀年
 
+name country
 name 大魏
 &
+name country
 name 元魏
 u 2
 
@@ -6599,7 +6660,7 @@ AD471 = 1
 tag 旧説
 
 tag 拓跋部
-tag 北魏
+tag+country 北魏
 tag 内蒙古
 tag 漢土
 tag 漢民族
@@ -6608,8 +6669,10 @@ tag 国名即位紀年
 
 sw 西魏の即位紀年
 
+name country
 name 大魏
 &
+name country
 name 元魏
 u 2
 
@@ -6621,7 +6684,7 @@ AD386 = 1
 tag 旧説
 
 tag 拓跋部
-tag 北魏
+tag+country 北魏
 tag 内蒙古
 tag 漢土
 tag 漢民族
@@ -6630,8 +6693,10 @@ tag 国名即位紀年
 
 sw 西魏の即位紀年
 
+name country
 name 大魏
 &
+name country
 name 元魏
 u 2
 
@@ -6643,17 +6708,20 @@ AD496 = 1
 tag 旧説
 
 tag 拓跋部
-tag 北魏
+tag+country 北魏
 tag 内蒙古
 tag 漢土
 tag 漢民族
 tag 拓跋即位紀年
+tag 国名即位紀年
 
 sw 西魏の即位紀年
 
+name country
 name 元魏
 u 2
 &
+name country
 name 大魏
 
 <-太和(丁巳) [魏:496] #事由 #漢化政策 #元恪 #北魏
@@ -6666,14 +6734,16 @@ AD493 = 1
 tag 旧説
 
 tag 拓跋部
-tag 北魏
+tag+country 北魏
 tag 内蒙古
 tag 漢土
 tag 漢民族
 tag 拓跋即位紀年
+tag 国名即位紀年
 
 sw 西魏の即位紀年
 
+name country
 name 元魏
 u 2
 
@@ -12468,6 +12538,7 @@ tag 北漢
 tag 突厥
 tag 沙陀族
 
+name monarch
 name_ja 劉継元
 tag 劉継元
 tag 支那皇帝即位紀年
