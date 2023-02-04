@@ -45,9 +45,7 @@ PERL = ./perl -I bin/modules/json-ps/lib
 
 NAMES_DEPS = \
     bin/names.pl \
-    local/cluster-root.json \
-    local/char-leaders.jsonl \
-    local/char-cluster.jsonl \
+    local/char-leaders.dat \
     intermediate/kanjion-binran.txt
 
 data: data-deps data-main
@@ -256,8 +254,7 @@ data/calendar/era-relations.json: bin/cleanup.pl \
 	$(PERL) $< local/calendar-era-relations-1.json > $@
 
 data/calendar/era-stats.json: bin/calendar-era-stats.pl \
-    local/cluster-root.json \
-    local/char-leaders.jsonl \
+    local/char-leaders.dat \
     data/calendar/era-defs.json \
     local/calendar-era-labels-0.json
 	$(PERL) $< > $@
@@ -265,11 +262,15 @@ data/calendar/era-stats.json: bin/calendar-era-stats.pl \
 local/chars-maps.json:
 	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-chars/master/data/maps.json
 local/char-leaders.jsonl:
-	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-chars/master/intermediate/variants/char-leaders.jsonl
+	$(WGET) -O $@ https://manakai.github.io/data-chars/local/generated/charrels/hans/char-leaders.jsonl
 local/char-cluster.jsonl:
-	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-chars/master/intermediate/variants/char-cluster.jsonl
-local/cluster-root.json:
-	$(WGET) -O $@ https://raw.githubusercontent.com/manakai/data-chars/master/intermediate/variants/cluster-root.json
+	$(WGET) -O $@ https://manakai.github.io/data-chars/local/generated/charrels/hans/char-cluster.jsonl
+local/merged-index.json:
+	$(WGET) -O $@ https://manakai.github.io/data-chars/local/generated/charrels/hans/merged-index.json
+
+local/char-leaders.dat: bin/char-leaders-dump.pl \
+    local/merged-index.json local/char-leaders.jsonl
+	$(PERL) $<
 
 local/eras/all: \
     local/eras/jp.txt \

@@ -394,6 +394,7 @@ action
 
 action
   name_ja 元号名不詳
+  group of 元号
 
 action
   name_ja 元号名再利用

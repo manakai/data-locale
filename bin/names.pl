@@ -7,6 +7,7 @@ use Web::Encoding;
 use Web::Encoding::Normalization qw(to_nfd to_nfc);
 use Web::URL::Encoding;
 use JSON::PS;
+use Storable;
 
 my $RootPath = path (__FILE__)->parent->parent;
 
@@ -383,30 +384,21 @@ my $LeaderKeys = [];
 {
   my $Leaders = {};
 
-  my $rpath = $RootPath->child ("local/cluster-root.json");
-  my $root = json_bytes2perl $rpath->slurp;
-  my $x = [];
-  $x->[0] = 'all';
-  for (values %{$root->{leader_types}}) {
-    $x->[$_->{index}] = $_->{key};
-    push @$LeaderKeys, $_->{key};
-  }
-  
-  my $path = $RootPath->child ("local/char-leaders.jsonl");
-  my $file = $path->openr;
-  local $/ = "\x0A";
-  while (<$file>) {
-    my $json = json_bytes2perl $_;
-    my $r = {};
-    for (0..$#$x) {
-      $r->{$x->[$_]} = $json->[1]->[$_]; # or undef
-    }
-    $Leaders->{$json->[0]} = $r;
-  }
+  my $loaded;
+  sub load_leaders () {
+    return if $loaded;
+    $loaded = 1;
+
+    print STDERR "Load leaders...";
+    my $path = $RootPath->child ('local/char-leaders.dat');
+    ($LeaderKeys, $Leaders) = @{retrieve $path};
+    print STDERR "done!\n";
+  } # load_leaders
 
   sub han_normalize ($) {
     my ($s) = @_;
     my $r = '';
+    load_leaders;
     while ($s =~ s/^(\w[\x{FE00}-\x{FE0F}\x{E0100}-\x{E01EF}]?|.)//) {
       my $c = $1;
       my $l = $Leaders->{$c};
@@ -438,6 +430,7 @@ my $LeaderKeys = [];
   sub is_same_han ($$) {
     my ($v, $w) = @_;
     return 0 unless @$v == @$w;
+    load_leaders;
     my $r = 2;
     for (0..$#$v) {
       if ($v->[$_] eq $w->[$_]) {
@@ -466,6 +459,7 @@ my $LeaderKeys = [];
             $x->{kr} //
             $x->{others}->[0];
 
+    load_leaders;
     my $has_value = {};
     LANG: for my $lang (@$LeaderKeys) {
       my $v = [map {
@@ -712,8 +706,15 @@ sub merge_onses ($$) {
   return $new;
 } # merge_onses
 
-  my $path = $RootPath->child ('intermediate/kanjion-binran.txt');
-  my $text = decode_web_utf8 $path->slurp;
+  my $loaded;
+  sub load_ons () {
+    return if $loaded;
+    $loaded = 1;
+    
+    print STDERR "Load ons...";
+    
+    my $path = $RootPath->child ('intermediate/kanjion-binran.txt');
+    my $text = decode_web_utf8 $path->slurp;
   for (split /\x0D?\x0A/, $text) {
     if (/^#/) {
     } elsif (/^(\S+)\t(\S+)\t(\S+)$/) {
@@ -738,12 +739,15 @@ sub merge_onses ($$) {
       die "Bad line |$_|";
     }
   }
-  for my $ons (values %$Ons) {
-    compute_ons_eqs ($ons);
-  }
+    for my $ons (values %$Ons) {
+      compute_ons_eqs ($ons);
+    }
+    print STDERR "done\n";
+  } # load_ons
 
   sub kanji_ons ($) {
     my $c = shift;
+    load_ons;
     my $cc = han_normalize $c;
     my $d = $Ons->{$cc};
     unless (defined $d) {

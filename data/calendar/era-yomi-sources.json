@@ -8343,7 +8343,7 @@
          "key" : "開化天皇",
          "missing_yomis" : [
          ],
-         "name" : "開化天皇",
+         "name" : "开化天皇",
          "start_year" : -156,
          "yomis" : {
             "6100" : [
@@ -16413,7 +16413,7 @@
          "key" : "正開",
          "missing_yomis" : [
          ],
-         "name" : "正開",
+         "name" : "正开",
          "start_year" : 900,
          "yomis" : {
             "6100" : [
@@ -21170,7 +21170,7 @@
          "key" : "大乘",
          "missing_yomis" : [
          ],
-         "name" : "大乗",
+         "name" : "大乘",
          "start_year" : 515,
          "yomis" : {
             "6100" : [
@@ -31109,7 +31109,7 @@
          "key" : "震災",
          "missing_yomis" : [
          ],
-         "name" : "震災",
+         "name" : "震灾",
          "start_year" : 2012,
          "yomis" : {
             "6100" : [
@@ -31422,7 +31422,7 @@
          "key" : "萬乘",
          "missing_yomis" : [
          ],
-         "name" : "万乗",
+         "name" : "万乘",
          "start_year" : 1280,
          "yomis" : {
             "6100" : [
@@ -34689,7 +34689,7 @@
          "key" : "天啟(己亥)",
          "missing_yomis" : [
          ],
-         "name" : "天啟",
+         "name" : "天启",
          "start_year" : 1359,
          "yomis" : {
             "6100" : [
@@ -47841,7 +47841,7 @@
          "key" : "天冊萬歲",
          "missing_yomis" : [
          ],
-         "name" : "天冊万歳",
+         "name" : "天册万岁",
          "start_year" : 695,
          "yomis" : {
             "6100" : [
@@ -57482,7 +57482,7 @@
          "key" : "開國",
          "missing_yomis" : [
          ],
-         "name" : "開國",
+         "name" : "开国",
          "start_year" : 1392,
          "yomis" : {
             "6100" : [

@@ -68,7 +68,9 @@ tag 内蒙古
 tag 遼の公年号
 
 %tag country
-%tag   name_ja 契丹 (耶律阿保機)
+%tag   label_ja 契丹 (耶律阿保機)
+%tag   &
+%tag   name_ja 契丹
 %tag   period of 遼
 tag 契丹 (耶律阿保機)
 

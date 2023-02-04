@@ -2764,7 +2764,8 @@ tag 後漢
 tag 漢土
 tag 漢民族
 
-# tentative name
+# name unknown
+name monarch
 name_ja 黄帝
 tag 元号名不詳
 
@@ -2775,7 +2776,8 @@ tag 馬勉
 ## [102]: <https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%8F%B7%E5%88%97%E8%A1%A8#%E5%B9%B4%E8%99%9F%E4%B8%8D%E6%98%8E>
 # no name
 # 144-11 - 145-3
-<-建康 [漢:144-11] #建元前の即位{#馬勉 #支那皇帝} #後漢 #起事建元
+<-建康 [漢:144-11] #建元前の即位{#馬勉 #支那皇帝} #後漢
+<-建康 [漢:144-11] #支那改元日{#馬勉 #支那皇帝} #後漢 #起事建元
 ->永憙 [漢:145-3] #陥落{#後漢, #馬勉}
 #後漢書
 #通鑑
@@ -3505,6 +3507,7 @@ tag 隴西
 tag 宋建
 
 #no known name
+name monarch
 name 宋建
 tag 元号名不詳
 
