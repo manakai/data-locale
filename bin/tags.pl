@@ -40,9 +40,9 @@ my $TagByKey = {};
         $item->{_LABELS_2} //= [{labels => [{reps => []}]}];
       } elsif (defined $item and /^  (key)\s+(\S.*\S|\S)\s*$/) {
         $item->{key} //= $2;
-      } elsif (defined $item and /^  (?:prefix\s+|)(name)\s+(\S.*\S|\S)\s*$/) {
+      } elsif (defined $item and /^  (?:prefix\s+|)(name|label)\s+(\S.*\S|\S)\s*$/) {
         $item->{key} //= $2;
-        names::parse_src_line ("$1 $2" => $item->{_LABELS});
+        names::parse_src_line ("$1 $2" => $item->{$1 eq 'label' ? '_LABELS_2' : '_LABELS'});
       } elsif (defined $item and /^  (?:prefix\s+|)(name\([\w-]+\))\s+(\S.*\S|\S)\s*$/) {
         $item->{key} //= $2;
         names::parse_src_line ("$1 $2" => $item->{_LABELS});

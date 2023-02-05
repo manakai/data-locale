@@ -217,7 +217,9 @@ tag 丁璿
 <-乾德(癸亥) [越南:970-1] #支那改元日{#丁朝 #丁部領} #起事建元
 
 %tag country
-%tag   name_ja 前黎朝
+%tag   label_ja 前黎朝
+%tag   &
+%tag   name_ja 大瞿越
 %tag   period of 大瞿越
 
 def[天福(庚辰)]
@@ -415,7 +417,9 @@ name(kr) 건서
 
 
 %tag country
-%tag   name_ja 李朝越南
+%tag   label_ja 李朝越南
+%tag   &
+%tag   name_ja 越南
 %tag   period of 越南
 
 %tag tag
@@ -2326,7 +2330,9 @@ tag 私年号 (ウィキペディア)
 %tag   period of 越南
 
 %tag country
-%tag   name_ja 陳朝越南
+%tag   label_ja 陳朝越南
+%tag   &
+%tag   name_ja 越南
 %tag   period of 陳政権 (越南)
 
 %tag tag
@@ -3354,6 +3360,7 @@ name(kr) 건신
 
 %tag country
 %tag   name_ja 大虞
+%tag   &
 %tag   name_ja 胡朝越南
 %tag   period of 越南
 
@@ -3550,6 +3557,7 @@ tag 北ベトナム
 
 %tag country
 %tag   label_ja 羅平国 (范玉)
+%tag   &
 %tag   name_ja 羅平国
 %tag   period of 北ベトナム
 tag 羅平国 (范玉)
@@ -3674,7 +3682,9 @@ name(kr) 빈티엔
 
 
 %tag country
-%tag   name_ja 後陳朝越南
+%tag   label_ja 後陳朝越南
+%tag   &
+%tag   name_ja 越南
 %tag   period of 陳政権 (越南)
 
 def[興慶(丁亥)]
@@ -3838,7 +3848,9 @@ name_ja 慶天
 
 
 %tag country
-%tag   name_ja 黎朝越南
+%tag   label_ja 黎朝越南
+%tag   &
+%tag   name_ja 越南
 %tag   period of 越南
 %tag   &
 ## <https://zh.wikipedia.org/wiki/%E9%98%AE%E5%B2%B3>
@@ -3850,7 +3862,9 @@ name_ja 慶天
 %tag   group of 公年号
 
 %tag country
-%tag   name_ja 黎朝越南 (前期)
+%tag   label_ja 黎朝越南 (前期)
+%tag   &
+%tag   name_ja 越南
 %tag   period of 黎朝越南
 
 def[順天(戊申)]
@@ -4564,6 +4578,8 @@ tag 莫登庸
 
 %tag country
 %tag   label_ja 陳朝越南 (陳㫒)
+%tag   &
+%tag   name_ja 越南
 %tag   period of 陳政権 (越南)
 
 def[天應(丙子)]
@@ -4665,7 +4681,9 @@ name(kr_vi) 뚜옌|호아
 
 
 %tag country
-%tag   name_ja 黎朝越南 (黎榜)
+%tag   label_ja 黎朝越南 (黎榜)
+%tag   &
+%tag   name_ja 越南
 %tag   period of 黎朝越南
 
 def[大德(戊寅)]
@@ -4787,7 +4805,9 @@ tag 三訂 近代諸元号現象
 %tag   period of 越南
 
 %tag country
-%tag   name_ja 莫朝越南
+%tag   label_ja 莫朝越南
+%tag   &
+%tag   name_ja 越南
 %tag   group of 越南南北朝時代
 %tag   period of 越南
 
@@ -5512,7 +5532,9 @@ name(kr) 무안
     #陥落{#黎朝越南_(後期), #莫朝越南 #莫全} #死去 #旧説
 
 %tag country
-%tag   name_ja 莫朝越南高平政権
+%tag   label_ja 莫朝越南高平政権
+%tag   &
+%tag   name_ja 越南
 %tag   period of 莫朝越南
 
 def[寶定]
@@ -5906,7 +5928,9 @@ name 永昌
 
 
 %tag country
-%tag   name_ja 黎朝越南 (後期)
+%tag   label_ja 黎朝越南 (後期)
+%tag   &
+%tag   name_ja 越南
 %tag   period of 黎朝越南
 %tag   period of 越南南北朝時代
 
@@ -7665,7 +7689,9 @@ tag ベトナム人
 
 
 %tag country
-%tag   name_ja 西山朝越南
+%tag   label_ja 西山朝越南
+%tag   &
+%tag   name_ja 越南
 %tag   period of 越南
 
 %tag country
@@ -7866,7 +7892,9 @@ name(kr) 보흥
 
 
 %tag country
-%tag   name_ja 阮朝越南
+%tag   label_ja 阮朝越南
+%tag   &
+%tag   name_ja 越南
 %tag   period of 越南
 %tag   &
 %tag   prefix name 皇朝
@@ -8349,11 +8377,8 @@ tag ベトナム人
 tag 阮主即位紀年
 sw 阮主即位紀年
 
-tag 阮福暎
-
 #no known name
-name monarch
-name_tw 世祖
++name era 阮福暎
 
 s#大南寔録<https://zh.wikisource.org/wiki/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84/%E5%A4%A7%E5%8D%97%E5%AF%94%E9%8C%84%E6%AD%A3%E7%B7%A8%E7%AC%AC%E4%B8%80%E7%B4%80/%E5%87%A1%E4%BE%8B>"本紀中"
 #"一，本紀中書元年三，有正例、有特例，壬戌夏五月，帝初建元，書嘉隆元年，
@@ -8375,7 +8400,9 @@ u 23-4
 
 
 %tag country
-%tag   name_ja 越南 (阮朝)
+%tag   label_ja 越南 (阮朝)
+%tag   &
+%tag   name_ja 越南
 %tag   period of 阮朝越南
 
 %tag tag
@@ -8679,7 +8706,9 @@ tag 実施中止
 >< g:1883-8-25 #保護国化{#大南, #仏領インドシナ} #癸未条約
 
 %tag country
-%tag   name_ja 仏印保護領大南
+%tag   label_ja 仏印保護領大南
+%tag   &
+%tag   name_ja 大南
 %tag   period of 大南
 
 def[建福(甲申)]

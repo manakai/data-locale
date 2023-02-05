@@ -15,9 +15,9 @@ sub parse_src_line ($$) {
   my ($in => $out) = @_;
 
   $in =~ s/^\s*//;
-  if ($in =~ /^name(!|)\s+((?:\p{sc=Han}[\x{E0100}-\x{E01FF}]?)+)$/) {
-      push @{$out->[-1]->{labels}->[-1]->{reps}},
-          {kind => 'name', type => 'han', value => $2, preferred => $1};
+  if ($in =~ /^(name|label)(!|)\s+((?:\p{sc=Han}[\x{E0100}-\x{E01FF}]?)+)$/) {
+    push @{$out->[-1]->{labels}->[-1]->{reps}},
+        {kind => $1, type => 'han', value => $3, preferred => $2};
     } elsif ($in =~ /^name_kana\s+([\p{sc=Hiragana} ]+)$/) {
       push @{$out->[-1]->{labels}->[-1]->{reps}},
           {kind => 'yomi', type => 'yomi', kana_modern => $1};
@@ -1277,6 +1277,8 @@ sub compute_form_group_ons ($$) {
         if ($rep->{kind} eq '+tag') {
           my $tag = $set_object_tag->($object, $rep->{value});
           if ($rep->{type} eq 'country') {
+            die "Bad tag |$tag->{key}| (not a country)"
+                unless $tag->{type} eq 'country';
             $label->{props}->{country_tag_ids}->{$tag->{id}} = {};
             $label->{_PREFERRED}->{country_tag_ids} //= $tag->{id};
 
@@ -1287,8 +1289,19 @@ sub compute_form_group_ons ($$) {
               }
             }
           } elsif ($rep->{type} eq 'monarch') {
+            die "Bad tag |$tag->{key}|" unless $tag->{type} eq 'person';
             $label->{props}->{monarch_tag_ids}->{$tag->{id}} = {};
             $label->{_PREFERRED}->{monarch_tag_ids} //= $tag->{id};
+          } elsif ($rep->{type} eq 'era') {
+            die "Bad tag |$tag->{key}|" unless $tag->{type} eq 'person';
+            
+            my $lses = json_chars2perl perl2json_chars $tag->{label_sets};
+            for my $ls (@$lses) {
+              for my $lb (@{$ls->{labels}}) {
+                $lb->{_IN} = {has_monarch => 1};
+              }
+            }
+            $object->{_LSX} = $lses;
           } else {
             die "Bad |type| value |$rep->{type}|";
           }
@@ -1301,7 +1314,8 @@ sub compute_form_group_ons ($$) {
           }
           $rep->{kind} = '(expanded)';
           $value->{expandeds} ||= [];
-          reps_to_labels $object, [$rep] => $value->{expandeds}, {jp=>1,cn=>1,tw=>1}, $get_object_tag, $set_object_tag;
+          reps_to_labels $object, [$rep] => $value->{expandeds}, {jp=>1,cn=>1,tw=>1},
+              $get_object_tag, $set_object_tag;
         } else {
           my $v = {};
           my $v_added = 0;
@@ -2557,6 +2571,9 @@ sub compute_form_group_ons ($$) {
         }
       }
 
+      if (defined $object->{_LSX}) {
+        push @{$object->{label_sets}}, @{$object->{_LSX}};
+      }
       for my $label_set (@{$object->{label_sets}}) {
         for my $label (@{$label_set->{labels}}) {
           $set_label_props->($object, $label);

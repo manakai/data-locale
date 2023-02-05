@@ -1,0 +1,6622 @@
+
+%tag country
+%tag   label 春秋戦国吳
+%tag   &
+%tag   name 吳
+%tag   period of 呉
+  
+%tag country
+%tag   label 春秋戦国周
+%tag   &
+%tag   name 周
+%tag   period of 周
+  
+%tag country
+%tag   label 春秋戦国宋
+%tag   &
+%tag   name 宋
+%tag   period of 宋
+  
+%tag country
+%tag   label 春秋戦国晉
+%tag   &
+%tag   name 晉
+%tag   period of 晋
+  
+%tag country
+%tag   label 春秋戦国曹
+%tag   &
+%tag   name 曹
+%tag   period of 曹
+  
+%tag country
+%tag   label 春秋戦国楚
+%tag   &
+%tag   name 楚
+%tag   period of 楚
+  
+%tag   group of 戦国七雄
+  
+%tag country
+%tag   label 春秋戦国燕
+%tag   &
+%tag   name 燕
+%tag   period of 燕
+  
+%tag   group of 戦国七雄
+  
+%tag country
+%tag   label 春秋戦国秦
+%tag   &
+%tag   name 秦
+%tag   period of 秦
+  
+%tag   group of 戦国七雄
+  
+%tag country
+%tag   label 春秋戦国蔡
+%tag   &
+%tag   name 蔡
+%tag   period of 蔡
+  
+%tag country
+%tag   label 春秋戦国衛
+%tag   &
+%tag   name 衛
+%tag   period of 衛
+  
+%tag country
+%tag   label 春秋戦国鄭
+%tag   &
+%tag   name 鄭
+%tag   period of 鄭
+  
+%tag country
+%tag   label 春秋戦国陳
+%tag   &
+%tag   name 陳
+%tag   period of 陳
+  
+%tag country
+%tag   label 春秋戦国魯
+%tag   &
+%tag   name 魯
+%tag   period of 魯
+  
+%tag country
+%tag   label 春秋戦国齊
+%tag   &
+%tag   name 齊
+%tag   period of 斉
+  
+%tag   group of 戦国七雄
+  
+def[共和]
+
+AD-841 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 共和
+  
+name  monarch
+name 共和
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"共和"
+s+
+      
+tag+country 春秋戦国周
+tag+monarch 共和
+    
+tag 春秋戦国周
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 周王即位紀年
+tag 十二諸侯年表即位紀年
+tag 共和
+
+def[匡王]
+
+AD-612 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 匡王
+  
+name  monarch
+name 匡王
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"匡王"
+s+
+      
+<-頃王 [史記:-611] #春秋戦国称元{#春秋戦国周 #匡王} #春秋戦国時代
+    
+tag 春秋戦国周
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 周王即位紀年
+tag 十二諸侯年表即位紀年
+tag 匡王
+
+def[吳僚]
+
+AD-526 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 吳僚
+  
+name country monarch
+name 吳僚
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"吳僚"
+s+
+      
+<-吳餘昧 [史記:-525] #春秋戦国称元{#春秋戦国吳 #吳僚} #春秋戦国時代
+    
+tag 春秋戦国吳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 吳僚
+
+def[吳壽夢]
+
+AD-585 = 0
+u 1
+u 25
+  
+%tag person
+%tag   name 吳壽夢
+  
+name country monarch
+name 吳壽夢
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"吳壽夢"
+s+
+      
+tag+country 春秋戦国吳
+tag+monarch 吳壽夢
+    
+tag 春秋戦国吳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 吳壽夢
+
+def[吳王夫差]
+
+AD-495 = 0
+u 1
+u 23
+  
+%tag person
+%tag   name 吳王夫差
+  
+name country monarch
+name 吳王夫差
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"吳王夫差"
+s+
+      
+<-吳闔閭 [史記:-494] #春秋戦国称元{#春秋戦国吳 #吳王夫差} #春秋戦国時代
+    
+tag 春秋戦国吳
+tag 漢民族
+tag 春秋時代
+tag 支那戦国時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 吳王夫差
+
+def[吳諸樊]
+
+AD-560 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 吳諸樊
+  
+name country monarch
+name 吳諸樊
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"吳諸樊"
+s+
+      
+<-吳壽夢 [史記:-559] #春秋戦国称元{#春秋戦国吳 #吳諸樊} #春秋戦国時代
+    
+tag 春秋戦国吳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 吳諸樊
+
+def[吳闔閭]
+
+AD-514 = 0
+u 1
+u 19
+  
+%tag person
+%tag   name 吳闔閭
+  
+name country monarch
+name 吳闔閭
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"吳闔閭"
+s+
+      
+<-吳僚 [史記:-513] #春秋戦国称元{#春秋戦国吳 #吳闔閭} #春秋戦国時代
+    
+tag 春秋戦国吳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 吳闔閭
+
+def[吳餘昧]
+
+AD-530 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 吳餘昧
+  
+name country monarch
+name 吳餘昧
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"吳餘昧"
+s+
+      
+<-吳餘祭 [史記:-529] #春秋戦国称元{#春秋戦国吳 #吳餘昧} #春秋戦国時代
+    
+tag 春秋戦国吳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 吳餘昧
+
+def[吳餘祭]
+
+AD-547 = 0
+u 1
+u 17
+  
+%tag person
+%tag   name 吳餘祭
+  
+name country monarch
+name 吳餘祭
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"吳餘祭"
+s+
+      
+<-吳諸樊 [史記:-546] #春秋戦国称元{#春秋戦国吳 #吳餘祭} #春秋戦国時代
+    
+tag 春秋戦国吳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 吳餘祭
+
+def[夷伯]
+
+AD-864 = 0
+u 24
+u 30
+  
+%tag person
+%tag   name 夷伯
+  
+name  monarch
+name 夷伯
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"夷伯"
+s+
+      
+tag+country 春秋戦国曹
+tag+monarch 夷伯
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 夷伯
+
+def[宋元公佐]
+
+AD-531 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 宋元公佐
+  
+name country monarch
+name 宋元公佐
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宋元公佐"
+s+
+      
+<-宋平公成 [史記:-530] #春秋戦国称元{#春秋戦国宋 #宋元公佐} #春秋戦国時代
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 宋元公佐
+
+def[宋公馮]
+
+AD-710 = 0
+u 1
+u 19
+  
+%tag person
+%tag   name 宋公馮
+  
+name country monarch
+name 宋公馮
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宋公馮"
+s+
+      
+<-宋殤公與夷 [史記:-709] #春秋戦国称元{#春秋戦国宋 #宋公馮} #春秋戦国時代
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 宋公馮
+
+def[宋共公瑕]
+
+AD-588 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 宋共公瑕
+  
+name country monarch
+name 宋共公瑕
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宋共公瑕"
+s+
+      
+<-宋文公鮑 [史記:-587] #春秋戦国称元{#春秋戦国宋 #宋共公瑕} #春秋戦国時代
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 宋共公瑕
+
+def[宋宣公力]
+
+AD-747 = 0
+u 1
+u 19
+  
+%tag person
+%tag   name 宋宣公力
+  
+name country monarch
+name 宋宣公力
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宋宣公力"
+s+
+      
+<-宋武公司空 [史記:-746] #春秋戦国称元{#春秋戦国宋 #宋宣公力} #春秋戦国時代
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 宋宣公力
+
+def[宋平公成]
+
+AD-575 = 0
+u 1
+u 44
+  
+%tag person
+%tag   name 宋平公成
+  
+name country monarch
+name 宋平公成
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宋平公成"
+s+
+      
+<-宋共公瑕 [史記:-574] #春秋戦国称元{#春秋戦国宋 #宋平公成} #春秋戦国時代
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 宋平公成
+
+def[宋惠公鲒]
+
+AD-830 = 0
+u 1
+u 31
+  
+%tag person
+%tag   name 宋惠公鲒
+  
+name country monarch
+name 宋惠公鲒
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宋惠公鲒"
+s+
+      
+<-釐公 [史記:-829] #春秋戦国称元{#春秋戦国宋 #宋惠公鲒} #春秋戦国時代
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 宋惠公鲒
+
+def[宋成公王臣]
+
+AD-636 = 0
+u 1
+u 17
+  
+%tag person
+%tag   name 宋成公王臣
+  
+name country monarch
+name 宋成公王臣
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宋成公王臣"
+s+
+      
+<-宋襄公茲父 [史記:-635] #春秋戦国称元{#春秋戦国宋 #宋成公王臣} #春秋戦国時代
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 宋成公王臣
+
+def[宋戴公]
+
+AD-799 = 0
+u 1
+u 34
+  
+%tag person
+%tag   name 宋戴公
+  
+name country monarch
+name 宋戴公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宋戴公"
+s+
+      
+<-宋惠公鲒 [史記:-798] #春秋戦国称元{#春秋戦国宋 #宋戴公} #春秋戦国時代
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 春秋時代
+tag 西周
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 宋戴公
+
+def[宋文公鮑]
+
+AD-610 = 0
+u 1
+u 22
+  
+%tag person
+%tag   name 宋文公鮑
+  
+name country monarch
+name 宋文公鮑
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宋文公鮑"
+s+
+      
+<-宋昭公杵臼 [史記:-609] #春秋戦国称元{#春秋戦国宋 #宋文公鮑} #春秋戦国時代
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 宋文公鮑
+
+def[宋昭公杵臼]
+
+AD-619 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 宋昭公杵臼
+  
+name country monarch
+name 宋昭公杵臼
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宋昭公杵臼"
+s+
+      
+<-宋成公王臣 [史記:-618] #春秋戦国称元{#春秋戦国宋 #宋昭公杵臼} #春秋戦国時代
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 宋昭公杵臼
+
+def[宋景公頭曼]
+
+AD-516 = 0
+u 1
+u 64
+  
+%tag person
+%tag   name 宋景公頭曼
+  
+name country monarch
+name 宋景公頭曼
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宋景公頭曼"
+s+
+      
+<-宋元公佐 [史記:-515] #春秋戦国称元{#春秋戦国宋 #宋景公頭曼} #春秋戦国時代
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 春秋時代
+tag 支那戦国時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 宋景公頭曼
+
+def[宋桓公御說]
+
+AD-681 = 0
+u 1
+u 31
+  
+%tag person
+%tag   name 宋桓公御說
+  
+name country monarch
+name 宋桓公御說
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宋桓公御說"
+s+
+      
+<-宋湣公捷 [史記:-680] #春秋戦国称元{#春秋戦国宋 #宋桓公御說} #春秋戦国時代
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 宋桓公御說
+
+def[宋武公司空]
+
+AD-765 = 0
+u 1
+u 18
+  
+%tag person
+%tag   name 宋武公司空
+  
+name country monarch
+name 宋武公司空
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宋武公司空"
+s+
+      
+<-宋戴公 [史記:-764] #春秋戦国称元{#春秋戦国宋 #宋武公司空} #春秋戦国時代
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 宋武公司空
+
+def[宋殤公與夷]
+
+AD-719 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 宋殤公與夷
+  
+name country monarch
+name 宋殤公與夷
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宋殤公與夷"
+s+
+      
+<-宋穆公和 [史記:-718] #春秋戦国称元{#春秋戦国宋 #宋殤公與夷} #春秋戦国時代
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 宋殤公與夷
+
+def[宋湣公捷]
+
+AD-691 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 宋湣公捷
+  
+name country monarch
+name 宋湣公捷
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宋湣公捷"
+s+
+      
+<-宋公馮 [史記:-690] #春秋戦国称元{#春秋戦国宋 #宋湣公捷} #春秋戦国時代
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 宋湣公捷
+
+def[宋穆公和]
+
+AD-728 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 宋穆公和
+  
+name country monarch
+name 宋穆公和
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宋穆公和"
+s+
+      
+<-宋宣公力 [史記:-727] #春秋戦国称元{#春秋戦国宋 #宋穆公和} #春秋戦国時代
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 宋穆公和
+
+def[宋襄公茲父]
+
+AD-650 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 宋襄公茲父
+  
+name country monarch
+name 宋襄公茲父
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宋襄公茲父"
+s+
+      
+<-宋桓公御說 [史記:-649] #春秋戦国称元{#春秋戦国宋 #宋襄公茲父} #春秋戦国時代
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 宋襄公茲父
+
+def[周定王]
+
+AD-606 = 0
+u 1
+u 21
+  
+%tag person
+%tag   name 周定王
+  
+name  monarch
+name 定王
+  
+%tag   &
+%tag   name 定王
+    
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"定王"
+s+
+      
+<-匡王 [史記:-605] #春秋戦国称元{#春秋戦国周 #周定王} #春秋戦国時代
+    
+tag 春秋戦国周
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 周王即位紀年
+tag 十二諸侯年表即位紀年
+tag 周定王
+
+def[宣王]
+
+AD-827 = 0
+u 1
+u 46
+  
+%tag person
+%tag   name 宣王
+  
+name  monarch
+name 宣王
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"宣王"
+s+
+      
+<-共和 [史記:-826] #春秋戦国称元{#春秋戦国周 #宣王} #春秋戦国時代
+    
+tag 春秋戦国周
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 周王即位紀年
+tag 十二諸侯年表即位紀年
+tag 宣王
+
+def[平王]
+
+AD-770 = 0
+u 1
+u 51
+  
+%tag person
+%tag   name 平王
+  
+name  monarch
+name 平王
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"平王"
+s+
+      
+<-幽王 [史記:-769] #春秋戦国称元{#春秋戦国周 #平王} #春秋戦国時代
+    
+tag 春秋戦国周
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 周王即位紀年
+tag 十二諸侯年表即位紀年
+tag 平王
+
+def[幽公寧]
+
+AD-854 = 0
+u 14
+u 23
+  
+%tag person
+%tag   name 幽公寧
+  
+name  monarch
+name 幽公寧
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"幽公寧"
+s+
+      
+tag+country 春秋戦国陳
+tag+monarch 幽公寧
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 幽公寧
+
+def[幽王]
+
+AD-781 = 0
+u 1
+u 11
+  
+%tag person
+%tag   name 幽王
+  
+name  monarch
+name 幽王
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"幽王"
+s+
+      
+<-宣王 [史記:-780] #春秋戦国称元{#春秋戦国周 #幽王} #春秋戦国時代
+    
+tag 春秋戦国周
+tag 漢民族
+tag 春秋時代
+tag 西周
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 周王即位紀年
+tag 十二諸侯年表即位紀年
+tag 幽王
+
+def[惠侯]
+
+AD-864 = 0
+u 24
+u 38
+  
+%tag person
+%tag   name 惠侯
+  
+name  monarch
+name 惠侯
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"惠侯"
+s+
+      
+tag+country 春秋戦国燕
+tag+monarch 惠侯
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 惠侯
+
+def[惠王]
+
+AD-676 = 0
+u 1
+u 25
+  
+%tag person
+%tag   name 惠王
+  
+name  monarch
+name 惠王
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"惠王"
+s+
+      
+<-釐王 [史記:-675] #春秋戦国称元{#春秋戦国周 #惠王} #春秋戦国時代
+    
+tag 春秋戦国周
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 周王即位紀年
+tag 十二諸侯年表即位紀年
+tag 惠王
+
+def[敬王]
+
+AD-519 = 0
+u 1
+u 43
+  
+%tag person
+%tag   name 敬王
+  
+name  monarch
+name 敬王
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"敬王"
+s+
+      
+<-景王 [史記:-518] #春秋戦国称元{#春秋戦国周 #敬王} #春秋戦国時代
+    
+tag 春秋戦国周
+tag 漢民族
+tag 春秋時代
+tag 支那戦国時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 周王即位紀年
+tag 十二諸侯年表即位紀年
+tag 敬王
+
+def[昭侯子]
+
+AD-739 = 0
+u 1
+u 16
+  
+%tag person
+%tag   name 昭侯子
+  
+name  monarch
+name 昭侯子
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"昭侯子"
+s+
+      
+<-晉昭侯 [史記:-738] #春秋戦国称元{#春秋戦国晉 #昭侯子} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 昭侯子
+
+def[晉侯湣]
+
+AD-706 = 0
+u 1
+u 28
+  
+%tag person
+%tag   name 晉侯湣
+  
+name country monarch
+name 晉侯湣
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉侯湣"
+s+
+      
+<-晉小子 [史記:-705] #春秋戦国称元{#春秋戦国晉 #晉侯湣} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉侯湣
+
+def[晉厲公壽曼]
+
+AD-580 = 0
+u 1
+u 8
+  
+%tag person
+%tag   name 晉厲公壽曼
+  
+name country monarch
+name 晉厲公壽曼
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉厲公壽曼"
+s+
+      
+<-晉景公據 [史記:-579] #春秋戦国称元{#春秋戦国晉 #晉厲公壽曼} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉厲公壽曼
+
+def[晉哀侯光]
+
+AD-717 = 0
+u 1
+u 8
+  
+%tag person
+%tag   name 晉哀侯光
+  
+name country monarch
+name 晉哀侯光
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉哀侯光"
+s+
+      
+<-晉鄂侯卻 [史記:-716] #春秋戦国称元{#春秋戦国晉 #晉哀侯光} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉哀侯光
+
+def[晉定公午]
+
+AD-511 = 0
+u 1
+u 37
+  
+%tag person
+%tag   name 晉定公午
+  
+name country monarch
+name 晉定公午
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉定公午"
+s+
+      
+<-晉頃公去疾 [史記:-510] #春秋戦国称元{#春秋戦国晉 #晉定公午} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 支那戦国時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉定公午
+
+def[晉小子]
+
+AD-709 = 0
+u 1
+u 3
+  
+%tag person
+%tag   name 晉小子
+  
+name country monarch
+name 晉小子
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉小子"
+s+
+      
+<-晉哀侯光 [史記:-708] #春秋戦国称元{#春秋戦国晉 #晉小子} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉小子
+
+def[晉平公彪]
+
+AD-557 = 0
+u 1
+u 26
+  
+%tag person
+%tag   name 晉平公彪
+  
+name country monarch
+name 晉平公彪
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉平公彪"
+s+
+      
+<-晉悼公 [史記:-556] #春秋戦国称元{#春秋戦国晉 #晉平公彪} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉平公彪
+
+def[晉悼公]
+
+AD-572 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 晉悼公
+  
+name country monarch
+name 晉悼公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉悼公"
+s+
+      
+<-晉厲公壽曼 [史記:-571] #春秋戦国称元{#春秋戦国晉 #晉悼公} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉悼公
+
+def[晉惠公夷吾]
+
+AD-650 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 晉惠公夷吾
+  
+name country monarch
+name 晉惠公夷吾
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉惠公夷吾"
+s+
+      
+<-晉獻公詭諸 [史記:-649] #春秋戦国称元{#春秋戦国晉 #晉惠公夷吾} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉惠公夷吾
+
+def[晉成公黑诈]
+
+AD-606 = 0
+u 1
+u 7
+  
+%tag person
+%tag   name 晉成公黑诈
+  
+name country monarch
+name 晉成公黑诈
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉成公黑诈"
+s+
+      
+<-晉靈公夷皋 [史記:-605] #春秋戦国称元{#春秋戦国晉 #晉成公黑诈} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉成公黑诈
+
+def[晉文侯仇]
+
+AD-780 = 0
+u 1
+u 35
+  
+%tag person
+%tag   name 晉文侯仇
+  
+name country monarch
+name 晉文侯仇
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉文侯仇"
+s+
+      
+<-晉殤叔 [史記:-779] #春秋戦国称元{#春秋戦国晉 #晉文侯仇} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 西周
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉文侯仇
+
+def[晉文公]
+
+AD-636 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 晉文公
+  
+name country monarch
+name 晉文公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉文公"
+s+
+      
+<-晉惠公夷吾 [史記:-635] #春秋戦国称元{#春秋戦国晉 #晉文公} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉文公
+
+def[晉昭侯]
+
+AD-745 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 晉昭侯
+  
+name country monarch
+name 晉昭侯
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉昭侯"
+s+
+      
+<-晉文侯仇 [史記:-744] #春秋戦国称元{#春秋戦国晉 #晉昭侯} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉昭侯
+
+def[晉昭公夷]
+
+AD-531 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 晉昭公夷
+  
+name country monarch
+name 晉昭公夷
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉昭公夷"
+s+
+      
+<-晉平公彪 [史記:-530] #春秋戦国称元{#春秋戦国晉 #晉昭公夷} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉昭公夷
+
+def[晉景公據]
+
+AD-599 = 0
+u 1
+u 19
+  
+%tag person
+%tag   name 晉景公據
+  
+name country monarch
+name 晉景公據
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉景公據"
+s+
+      
+<-晉成公黑诈 [史記:-598] #春秋戦国称元{#春秋戦国晉 #晉景公據} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉景公據
+
+def[晉武公]
+
+AD-715 = 0
+u 38
+u 39
+  
+%tag person
+%tag   name 晉武公
+  
+name country monarch
+name 晉武公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉武公"
+s+
+      
+<-晉侯湣 [史記:-677] #利用開始{#春秋戦国晉 #晉武公} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉武公
+
+def[晉殤叔]
+
+AD-784 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 晉殤叔
+  
+name country monarch
+name 晉殤叔
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉殤叔"
+s+
+      
+<-穆侯弗生 [史記:-783] #春秋戦国称元{#春秋戦国晉 #晉殤叔} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉殤叔
+
+def[晉獻侯籍]
+
+AD-822 = 0
+u 1
+u 11
+  
+%tag person
+%tag   name 晉獻侯籍
+  
+name country monarch
+name 晉獻侯籍
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉獻侯籍"
+s+
+      
+<-晉釐侯司徒 [史記:-821] #春秋戦国称元{#春秋戦国晉 #晉獻侯籍} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉獻侯籍
+
+def[晉獻公詭諸]
+
+AD-676 = 0
+u 1
+u 26
+  
+%tag person
+%tag   name 晉獻公詭諸
+  
+name country monarch
+name 晉獻公詭諸
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉獻公詭諸"
+s+
+      
+<-晉武公 [史記:-675] #春秋戦国称元{#春秋戦国晉 #晉獻公詭諸} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉獻公詭諸
+
+def[晉襄公驩]
+
+AD-627 = 0
+u 1
+u 7
+  
+%tag person
+%tag   name 晉襄公驩
+  
+name country monarch
+name 晉襄公驩
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉襄公驩"
+s+
+      
+<-晉文公 [史記:-626] #春秋戦国称元{#春秋戦国晉 #晉襄公驩} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉襄公驩
+
+def[晉鄂侯卻]
+
+AD-723 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 晉鄂侯卻
+  
+name country monarch
+name 晉鄂侯卻
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉鄂侯卻"
+s+
+      
+<-昭侯子 [史記:-722] #春秋戦国称元{#春秋戦国晉 #晉鄂侯卻} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉鄂侯卻
+
+def[晉釐侯司徒]
+
+AD-840 = 0
+u 1
+u 18
+  
+%tag person
+%tag   name 晉釐侯司徒
+  
+name country monarch
+name 晉釐侯司徒
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉釐侯司徒"
+s+
+      
+<-靖侯宜臼 [史記:-839] #春秋戦国称元{#春秋戦国晉 #晉釐侯司徒} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉釐侯司徒
+
+def[晉靈公夷皋]
+
+AD-620 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 晉靈公夷皋
+  
+name country monarch
+name 晉靈公夷皋
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉靈公夷皋"
+s+
+      
+<-晉襄公驩 [史記:-619] #春秋戦国称元{#春秋戦国晉 #晉靈公夷皋} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉靈公夷皋
+
+def[晉頃公去疾]
+
+AD-525 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 晉頃公去疾
+  
+name country monarch
+name 晉頃公去疾
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"晉頃公去疾"
+s+
+      
+<-晉昭公夷 [史記:-524] #春秋戦国称元{#春秋戦国晉 #晉頃公去疾} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 晉頃公去疾
+
+def[景王]
+
+AD-544 = 0
+u 1
+u 25
+  
+%tag person
+%tag   name 景王
+  
+name  monarch
+name 景王
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"景王"
+s+
+      
+<-靈王 [史記:-543] #春秋戦国称元{#春秋戦国周 #景王} #春秋戦国時代
+    
+tag 春秋戦国周
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 周王即位紀年
+tag 十二諸侯年表即位紀年
+tag 景王
+
+def[曹伯陽]
+
+AD-501 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 曹伯陽
+  
+name country monarch
+name 曹伯陽
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹伯陽"
+s+
+      
+<-曹靖公路 [史記:-500] #春秋戦国称元{#春秋戦国曹 #曹伯陽} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹伯陽
+
+def[曹共公]
+
+AD-652 = 0
+u 1
+u 35
+  
+%tag person
+%tag   name 曹共公
+  
+name country monarch
+name 曹共公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹共公"
+s+
+      
+<-曹昭公 [史記:-651] #春秋戦国称元{#春秋戦国曹 #曹共公} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹共公
+
+def[曹宣公廬]
+
+AD-594 = 0
+u 1
+u 17
+  
+%tag person
+%tag   name 曹宣公廬
+  
+name country monarch
+name 曹宣公廬
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹宣公廬"
+s+
+      
+<-曹文公壽 [史記:-593] #春秋戦国称元{#春秋戦国曹 #曹宣公廬} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹宣公廬
+
+def[曹平公須]
+
+AD-527 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 曹平公須
+  
+name country monarch
+name 曹平公須
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹平公須"
+s+
+      
+<-曹武公勝 [史記:-526] #春秋戦国称元{#春秋戦国曹 #曹平公須} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹平公須
+
+def[曹幽伯彊]
+
+AD-834 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 曹幽伯彊
+  
+name country monarch
+name 曹幽伯彊
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹幽伯彊"
+s+
+      
+<-夷伯 [史記:-833] #春秋戦国称元{#春秋戦国曹 #曹幽伯彊} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹幽伯彊
+
+def[曹悼公午]
+
+AD-523 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 曹悼公午
+  
+name country monarch
+name 曹悼公午
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹悼公午"
+s+
+      
+<-曹平公須 [史記:-522] #春秋戦国称元{#春秋戦国曹 #曹悼公午} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹悼公午
+
+def[曹惠伯雉]
+
+AD-795 = 0
+u 1
+u 36
+  
+%tag person
+%tag   name 曹惠伯雉
+  
+name country monarch
+name 曹惠伯雉
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹惠伯雉"
+s+
+      
+<-曹戴伯鮮 [史記:-794] #春秋戦国称元{#春秋戦国曹 #曹惠伯雉} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 春秋時代
+tag 西周
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹惠伯雉
+
+def[曹成公負芻]
+
+AD-577 = 0
+u 1
+u 23
+  
+%tag person
+%tag   name 曹成公負芻
+  
+name country monarch
+name 曹成公負芻
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹成公負芻"
+s+
+      
+<-曹宣公廬 [史記:-576] #春秋戦国称元{#春秋戦国曹 #曹成公負芻} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹成公負芻
+
+def[曹戴伯鮮]
+
+AD-825 = 0
+u 1
+u 30
+  
+%tag person
+%tag   name 曹戴伯鮮
+  
+name country monarch
+name 曹戴伯鮮
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹戴伯鮮"
+s+
+      
+<-曹幽伯彊 [史記:-824] #春秋戦国称元{#春秋戦国曹 #曹戴伯鮮} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹戴伯鮮
+
+def[曹文公壽]
+
+AD-617 = 0
+u 1
+u 23
+  
+%tag person
+%tag   name 曹文公壽
+  
+name country monarch
+name 曹文公壽
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹文公壽"
+s+
+      
+<-曹共公 [史記:-616] #春秋戦国称元{#春秋戦国曹 #曹文公壽} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹文公壽
+
+def[曹昭公]
+
+AD-661 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 曹昭公
+  
+name country monarch
+name 曹昭公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹昭公"
+s+
+      
+<-曹釐公夷 [史記:-660] #春秋戦国称元{#春秋戦国曹 #曹昭公} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹昭公
+
+def[曹桓公終生]
+
+AD-756 = 0
+u 1
+u 55
+  
+%tag person
+%tag   name 曹桓公終生
+  
+name country monarch
+name 曹桓公終生
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹桓公終生"
+s+
+      
+<-曹穆公 [史記:-755] #春秋戦国称元{#春秋戦国曹 #曹桓公終生} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹桓公終生
+
+def[曹武公勝]
+
+AD-554 = 0
+u 1
+u 27
+  
+%tag person
+%tag   name 曹武公勝
+  
+name country monarch
+name 曹武公勝
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹武公勝"
+s+
+      
+<-曹成公負芻 [史記:-553] #春秋戦国称元{#春秋戦国曹 #曹武公勝} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹武公勝
+
+def[曹穆公]
+
+AD-759 = 0
+u 1
+u 3
+  
+%tag person
+%tag   name 曹穆公
+  
+name country monarch
+name 曹穆公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹穆公"
+s+
+      
+<-曹惠伯雉 [史記:-758] #春秋戦国称元{#春秋戦国曹 #曹穆公} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹穆公
+
+def[曹莊公射姑]
+
+AD-701 = 0
+u 1
+u 31
+  
+%tag person
+%tag   name 曹莊公射姑
+  
+name country monarch
+name 曹莊公射姑
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹莊公射姑"
+s+
+      
+<-曹桓公終生 [史記:-700] #春秋戦国称元{#春秋戦国曹 #曹莊公射姑} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹莊公射姑
+
+def[曹襄公]
+
+AD-514 = 0
+u 1
+u 5
+  
+%tag person
+%tag   name 曹襄公
+  
+name country monarch
+name 曹襄公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹襄公"
+s+
+      
+<-曹悼公午 [史記:-513] #春秋戦国称元{#春秋戦国曹 #曹襄公} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹襄公
+
+def[曹釐公夷]
+
+AD-670 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 曹釐公夷
+  
+name country monarch
+name 曹釐公夷
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹釐公夷"
+s+
+      
+<-曹莊公射姑 [史記:-669] #春秋戦国称元{#春秋戦国曹 #曹釐公夷} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹釐公夷
+
+def[曹隱公]
+
+AD-509 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 曹隱公
+  
+name country monarch
+name 曹隱公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹隱公"
+s+
+      
+<-曹襄公 [史記:-508] #春秋戦国称元{#春秋戦国曹 #曹隱公} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹隱公
+
+def[曹靖公路]
+
+AD-505 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 曹靖公路
+  
+name country monarch
+name 曹靖公路
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"曹靖公路"
+s+
+      
+<-曹隱公 [史記:-504] #春秋戦国称元{#春秋戦国曹 #曹靖公路} #春秋戦国時代
+    
+tag 春秋戦国曹
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 曹靖公路
+
+def[桓王]
+
+AD-719 = 0
+u 1
+u 23
+  
+%tag person
+%tag   name 桓王
+  
+name  monarch
+name 桓王
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"桓王"
+s+
+      
+<-平王 [史記:-718] #春秋戦国称元{#春秋戦国周 #桓王} #春秋戦国時代
+    
+tag 春秋戦国周
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 周王即位紀年
+tag 十二諸侯年表即位紀年
+tag 桓王
+
+def[楚共王審]
+
+AD-590 = 0
+u 1
+u 31
+  
+%tag person
+%tag   name 楚共王審
+  
+name country monarch
+name 楚共王審
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚共王審"
+s+
+      
+<-楚莊王侶 [史記:-589] #春秋戦国称元{#春秋戦国楚 #楚共王審} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚共王審
+
+def[楚堵敖谡]
+
+AD-676 = 0
+u 1
+u 5
+  
+%tag person
+%tag   name 楚堵敖谡
+  
+name country monarch
+name 楚堵敖谡
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚堵敖谡"
+s+
+      
+<-楚文王貲 [史記:-675] #春秋戦国称元{#春秋戦国楚 #楚堵敖谡} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚堵敖谡
+
+def[楚平王居]
+
+AD-528 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 楚平王居
+  
+name country monarch
+name 楚平王居
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚平王居"
+s+
+      
+<-楚靈王圍 [史記:-527] #春秋戦国称元{#春秋戦国楚 #楚平王居} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚平王居
+
+def[楚康王昭]
+
+AD-559 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 楚康王昭
+  
+name country monarch
+name 楚康王昭
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚康王昭"
+s+
+      
+<-楚共王審 [史記:-558] #春秋戦国称元{#春秋戦国楚 #楚康王昭} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚康王昭
+
+def[楚惠王章]
+
+AD-488 = 0
+u 1
+u 57
+  
+%tag person
+%tag   name 楚惠王章
+  
+name country monarch
+name 楚惠王章
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚惠王章"
+s+
+      
+<-楚昭王珍 [史記:-487] #春秋戦国称元{#春秋戦国楚 #楚惠王章} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 春秋時代
+tag 支那戦国時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚惠王章
+
+def[楚成王惲]
+
+AD-671 = 0
+u 1
+u 46
+  
+%tag person
+%tag   name 楚成王惲
+  
+name country monarch
+name 楚成王惲
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚成王惲"
+s+
+      
+<-楚堵敖谡 [史記:-670] #春秋戦国称元{#春秋戦国楚 #楚成王惲} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚成王惲
+
+def[楚文王貲]
+
+AD-689 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 楚文王貲
+  
+name country monarch
+name 楚文王貲
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚文王貲"
+s+
+      
+<-楚武王 [史記:-688] #春秋戦国称元{#春秋戦国楚 #楚文王貲} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚文王貲
+
+def[楚昭王珍]
+
+AD-515 = 0
+u 1
+u 27
+  
+%tag person
+%tag   name 楚昭王珍
+  
+name country monarch
+name 楚昭王珍
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚昭王珍"
+s+
+      
+<-楚平王居 [史記:-514] #春秋戦国称元{#春秋戦国楚 #楚昭王珍} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚昭王珍
+
+def[楚熊嚴]
+
+AD-837 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 楚熊嚴
+  
+name country monarch
+name 楚熊嚴
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚熊嚴"
+s+
+      
+<-熊勇 [史記:-836] #春秋戦国称元{#春秋戦国楚 #楚熊嚴} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚熊嚴
+
+def[楚熊徇]
+
+AD-821 = 0
+u 1
+u 22
+  
+%tag person
+%tag   name 楚熊徇
+  
+name country monarch
+name 楚熊徇
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚熊徇"
+s+
+      
+<-楚熊霜 [史記:-820] #春秋戦国称元{#春秋戦国楚 #楚熊徇} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚熊徇
+
+def[楚熊郟敖]
+
+AD-544 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 楚熊郟敖
+  
+name country monarch
+name 楚熊郟敖
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚熊郟敖"
+s+
+      
+<-楚康王昭 [史記:-543] #春秋戦国称元{#春秋戦国楚 #楚熊郟敖} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚熊郟敖
+
+def[楚熊鄂]
+
+AD-799 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 楚熊鄂
+  
+name country monarch
+name 楚熊鄂
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚熊鄂"
+s+
+      
+<-楚熊徇 [史記:-798] #春秋戦国称元{#春秋戦国楚 #楚熊鄂} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚熊鄂
+
+def[楚熊霜]
+
+AD-827 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 楚熊霜
+  
+name country monarch
+name 楚熊霜
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚熊霜"
+s+
+      
+<-楚熊嚴 [史記:-826] #春秋戦国称元{#春秋戦国楚 #楚熊霜} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚熊霜
+
+def[楚穆王商臣]
+
+AD-625 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 楚穆王商臣
+  
+name country monarch
+name 楚穆王商臣
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚穆王商臣"
+s+
+      
+<-楚成王惲 [史記:-624] #春秋戦国称元{#春秋戦国楚 #楚穆王商臣} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚穆王商臣
+
+def[楚若敖]
+
+AD-790 = 0
+u 1
+u 27
+  
+%tag person
+%tag   name 楚若敖
+  
+name country monarch
+name 楚若敖
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚若敖"
+s+
+      
+<-楚熊鄂 [史記:-789] #春秋戦国称元{#春秋戦国楚 #楚若敖} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 春秋時代
+tag 西周
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚若敖
+
+def[楚莊王侶]
+
+AD-613 = 0
+u 1
+u 23
+  
+%tag person
+%tag   name 楚莊王侶
+  
+name country monarch
+name 楚莊王侶
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚莊王侶"
+s+
+      
+<-楚穆王商臣 [史記:-612] #春秋戦国称元{#春秋戦国楚 #楚莊王侶} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚莊王侶
+
+def[楚蚡冒]
+
+AD-757 = 0
+u 1
+u 17
+  
+%tag person
+%tag   name 楚蚡冒
+  
+name country monarch
+name 楚蚡冒
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚蚡冒"
+s+
+      
+<-楚霄敖 [史記:-756] #春秋戦国称元{#春秋戦国楚 #楚蚡冒} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚蚡冒
+
+def[楚霄敖]
+
+AD-763 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 楚霄敖
+  
+name country monarch
+name 楚霄敖
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚霄敖"
+s+
+      
+<-楚若敖 [史記:-762] #春秋戦国称元{#春秋戦国楚 #楚霄敖} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚霄敖
+
+def[楚靈王圍]
+
+AD-540 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 楚靈王圍
+  
+name country monarch
+name 楚靈王圍
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚靈王圍"
+s+
+      
+<-楚熊郟敖 [史記:-539] #春秋戦国称元{#春秋戦国楚 #楚靈王圍} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚靈王圍
+
+def[武侯]
+
+AD-863 = 0
+u 23
+u 26
+  
+%tag person
+%tag   name 武侯
+  
+name  monarch
+name 武侯
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"武侯"
+s+
+      
+tag+country 春秋戦国蔡
+tag+monarch 武侯
+    
+tag 春秋戦国蔡
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 武侯
+
+def[武公壽]
+
+AD-850 = 0
+u 10
+u 26
+  
+%tag person
+%tag   name 武公壽
+  
+name  monarch
+name 武公壽
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"武公壽"
+s+
+      
+tag+country 春秋戦国齊
+tag+monarch 武公壽
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 武公壽
+
+def[楚武王]
+
+AD-740 = 0
+u 1
+u 51
+  
+%tag person
+%tag   name 楚武王
+  
+name  monarch
+name 武王
+  
+%tag   &
+%tag   name 武王
+    
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"武王"
+s+
+      
+<-楚蚡冒 [史記:-739] #春秋戦国称元{#春秋戦国楚 #楚武王} #春秋戦国時代
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 楚武王
+
+def[熊勇]
+
+AD-847 = 0
+u 7
+u 10
+  
+%tag person
+%tag   name 熊勇
+  
+name  monarch
+name 熊勇
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"熊勇"
+s+
+      
+tag+country 春秋戦国楚
+tag+monarch 熊勇
+    
+tag 春秋戦国楚
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 熊勇
+
+def[燕共公]
+
+AD-528 = 0
+u 1
+u 5
+  
+%tag person
+%tag   name 燕共公
+  
+name country monarch
+name 燕共公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕共公"
+s+
+      
+<-燕悼公 [史記:-527] #春秋戦国称元{#春秋戦国燕 #燕共公} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕共公
+
+def[燕哀侯]
+
+AD-766 = 0
+u 1
+u 2
+  
+%tag person
+%tag   name 燕哀侯
+  
+name country monarch
+name 燕哀侯
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕哀侯"
+s+
+      
+<-燕頃侯 [史記:-765] #春秋戦国称元{#春秋戦国燕 #燕哀侯} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕哀侯
+
+def[燕宣侯]
+
+AD-710 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 燕宣侯
+  
+name country monarch
+name 燕宣侯
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕宣侯"
+s+
+      
+<-燕穆侯 [史記:-709] #春秋戦国称元{#春秋戦国燕 #燕宣侯} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕宣侯
+
+def[燕宣公]
+
+AD-601 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 燕宣公
+  
+name country monarch
+name 燕宣公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕宣公"
+s+
+      
+<-燕桓公 [史記:-600] #春秋戦国称元{#春秋戦国燕 #燕宣公} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕宣公
+
+def[燕平公]
+
+AD-523 = 0
+u 1
+u 19
+  
+%tag person
+%tag   name 燕平公
+  
+name country monarch
+name 燕平公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕平公"
+s+
+      
+<-燕共公 [史記:-522] #春秋戦国称元{#春秋戦国燕 #燕平公} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕平公
+
+def[燕悼公]
+
+AD-535 = 0
+u 1
+u 7
+  
+%tag person
+%tag   name 燕悼公
+  
+name country monarch
+name 燕悼公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕悼公"
+s+
+      
+<-燕惠公 [史記:-534] #春秋戦国称元{#春秋戦国燕 #燕悼公} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕悼公
+
+def[燕惠公]
+
+AD-544 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 燕惠公
+  
+name country monarch
+name 燕惠公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕惠公"
+s+
+      
+<-燕懿公 [史記:-543] #春秋戦国称元{#春秋戦国燕 #燕惠公} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕惠公
+
+def[燕懿公]
+
+AD-548 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 燕懿公
+  
+name country monarch
+name 燕懿公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕懿公"
+s+
+      
+<-燕文公 [史記:-547] #春秋戦国称元{#春秋戦国燕 #燕懿公} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕懿公
+
+def[燕文公]
+
+AD-554 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 燕文公
+  
+name country monarch
+name 燕文公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕文公"
+s+
+      
+<-燕武公 [史記:-553] #春秋戦国称元{#春秋戦国燕 #燕文公} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕文公
+
+def[燕昭公]
+
+AD-586 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 燕昭公
+  
+name country monarch
+name 燕昭公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕昭公"
+s+
+      
+<-燕宣公 [史記:-585] #春秋戦国称元{#春秋戦国燕 #燕昭公} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕昭公
+
+def[燕桓侯]
+
+AD-697 = 0
+u 1
+u 7
+  
+%tag person
+%tag   name 燕桓侯
+  
+name country monarch
+name 燕桓侯
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕桓侯"
+s+
+      
+<-燕宣侯 [史記:-696] #春秋戦国称元{#春秋戦国燕 #燕桓侯} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕桓侯
+
+def[燕桓公]
+
+AD-617 = 0
+u 1
+u 16
+  
+%tag person
+%tag   name 燕桓公
+  
+name country monarch
+name 燕桓公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕桓公"
+s+
+      
+<-燕襄公 [史記:-616] #春秋戦国称元{#春秋戦国燕 #燕桓公} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕桓公
+
+def[燕武公]
+
+AD-573 = 0
+u 1
+u 19
+  
+%tag person
+%tag   name 燕武公
+  
+name country monarch
+name 燕武公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕武公"
+s+
+      
+<-燕昭公 [史記:-572] #春秋戦国称元{#春秋戦国燕 #燕武公} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕武公
+
+def[燕獻公]
+
+AD-492 = 0
+u 1
+u 28
+  
+%tag person
+%tag   name 燕獻公
+  
+name country monarch
+name 燕獻公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕獻公"
+s+
+      
+<-燕簡公 [史記:-491] #春秋戦国称元{#春秋戦国燕 #燕獻公} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 支那戦国時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕獻公
+
+def[燕穆侯]
+
+AD-728 = 0
+u 1
+u 18
+  
+%tag person
+%tag   name 燕穆侯
+  
+name country monarch
+name 燕穆侯
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕穆侯"
+s+
+      
+<-燕鄭侯 [史記:-727] #春秋戦国称元{#春秋戦国燕 #燕穆侯} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕穆侯
+
+def[燕簡公]
+
+AD-504 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 燕簡公
+  
+name country monarch
+name 燕簡公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕簡公"
+s+
+      
+<-燕平公 [史記:-503] #春秋戦国称元{#春秋戦国燕 #燕簡公} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕簡公
+
+def[燕莊公]
+
+AD-690 = 0
+u 1
+u 33
+  
+%tag person
+%tag   name 燕莊公
+  
+name country monarch
+name 燕莊公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕莊公"
+s+
+      
+<-燕桓侯 [史記:-689] #春秋戦国称元{#春秋戦国燕 #燕莊公} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕莊公
+
+def[燕襄公]
+
+AD-657 = 0
+u 1
+u 40
+  
+%tag person
+%tag   name 燕襄公
+  
+name country monarch
+name 燕襄公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕襄公"
+s+
+      
+<-燕莊公 [史記:-656] #春秋戦国称元{#春秋戦国燕 #燕襄公} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕襄公
+
+def[燕鄭侯]
+
+AD-764 = 0
+u 1
+u 36
+  
+%tag person
+%tag   name 燕鄭侯
+  
+name country monarch
+name 燕鄭侯
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕鄭侯"
+s+
+      
+<-燕哀侯 [史記:-763] #春秋戦国称元{#春秋戦国燕 #燕鄭侯} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕鄭侯
+
+def[燕釐侯莊]
+
+AD-826 = 0
+u 1
+u 36
+  
+%tag person
+%tag   name 燕釐侯莊
+  
+name country monarch
+name 燕釐侯莊
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕釐侯莊"
+s+
+      
+<-惠侯 [史記:-825] #春秋戦国称元{#春秋戦国燕 #燕釐侯莊} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕釐侯莊
+
+def[燕頃侯]
+
+AD-790 = 0
+u 1
+u 24
+  
+%tag person
+%tag   name 燕頃侯
+  
+name country monarch
+name 燕頃侯
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"燕頃侯"
+s+
+      
+<-燕釐侯莊 [史記:-789] #春秋戦国称元{#春秋戦国燕 #燕頃侯} #春秋戦国時代
+    
+tag 春秋戦国燕
+tag 漢民族
+tag 春秋時代
+tag 西周
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 燕頃侯
+
+def[真公濞]
+
+AD-855 = 0
+u 15
+u 30
+  
+%tag person
+%tag   name 真公濞
+  
+name  monarch
+name 真公濞
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"真公濞"
+s+
+      
+tag+country 春秋戦国魯
+tag+monarch 真公濞
+    
+tag 春秋戦国魯
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 真公濞
+
+def[秦仲]
+
+AD-844 = 0
+u 4
+u 23
+  
+%tag person
+%tag   name 秦仲
+  
+name country monarch
+name 秦仲
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦仲"
+s+
+      
+tag+country 春秋戦国秦
+tag+monarch 秦仲
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦仲
+
+def[秦共公和]
+
+AD-608 = 0
+u 1
+u 5
+  
+%tag person
+%tag   name 秦共公和
+  
+name country monarch
+name 秦共公和
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦共公和"
+s+
+      
+<-秦康公罃 [史記:-607] #春秋戦国称元{#春秋戦国秦 #秦共公和} #春秋戦国時代
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦共公和
+
+def[秦出子]
+
+AD-703 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 秦出子
+  
+name country monarch
+name 秦出子
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦出子"
+s+
+      
+<-秦寧公 [史記:-702] #春秋戦国称元{#春秋戦国秦 #秦出子} #春秋戦国時代
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦出子
+
+def[秦哀公]
+
+AD-536 = 0
+u 1
+u 36
+  
+%tag person
+%tag   name 秦哀公
+  
+name country monarch
+name 秦哀公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦哀公"
+s+
+      
+<-秦景公 [史記:-535] #春秋戦国称元{#春秋戦国秦 #秦哀公} #春秋戦国時代
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦哀公
+
+def[秦宣公]
+
+AD-675 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 秦宣公
+  
+name country monarch
+name 秦宣公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦宣公"
+s+
+      
+<-秦德公 [史記:-674] #春秋戦国称元{#春秋戦国秦 #秦宣公} #春秋戦国時代
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦宣公
+
+def[秦寧公]
+
+AD-715 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 秦寧公
+  
+name country monarch
+name 秦寧公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦寧公"
+s+
+      
+<-秦文公 [史記:-714] #春秋戦国称元{#春秋戦国秦 #秦寧公} #春秋戦国時代
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦寧公
+
+def[秦康公罃]
+
+AD-620 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 秦康公罃
+  
+name country monarch
+name 秦康公罃
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦康公罃"
+s+
+      
+<-秦穆公任好 [史記:-619] #春秋戦国称元{#春秋戦国秦 #秦康公罃} #春秋戦国時代
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦康公罃
+
+def[秦德公]
+
+AD-677 = 0
+u 1
+u 2
+  
+%tag person
+%tag   name 秦德公
+  
+name country monarch
+name 秦德公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦德公"
+s+
+      
+<-秦武公 [史記:-676] #春秋戦国称元{#春秋戦国秦 #秦德公} #春秋戦国時代
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦德公
+
+def[秦悼公]
+
+AD-490 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 秦悼公
+  
+name country monarch
+name 秦悼公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦悼公"
+s+
+      
+<-秦惠公 [史記:-489] #春秋戦国称元{#春秋戦国秦 #秦悼公} #春秋戦国時代
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 春秋時代
+tag 支那戦国時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦悼公
+
+def[秦惠公]
+
+AD-500 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 秦惠公
+  
+name country monarch
+name 秦惠公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦惠公"
+s+
+      
+<-秦哀公 [史記:-499] #春秋戦国称元{#春秋戦国秦 #秦惠公} #春秋戦国時代
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦惠公
+
+def[秦成公]
+
+AD-663 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 秦成公
+  
+name country monarch
+name 秦成公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦成公"
+s+
+      
+<-秦宣公 [史記:-662] #春秋戦国称元{#春秋戦国秦 #秦成公} #春秋戦国時代
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦成公
+
+def[秦文公]
+
+AD-765 = 0
+u 1
+u 50
+  
+%tag person
+%tag   name 秦文公
+  
+name country monarch
+name 秦文公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦文公"
+s+
+      
+<-秦襄公 [史記:-764] #春秋戦国称元{#春秋戦国秦 #秦文公} #春秋戦国時代
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦文公
+
+def[秦景公]
+
+AD-576 = 0
+u 1
+u 40
+  
+%tag person
+%tag   name 秦景公
+  
+name country monarch
+name 秦景公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦景公"
+s+
+      
+<-秦桓公 [史記:-575] #春秋戦国称元{#春秋戦国秦 #秦景公} #春秋戦国時代
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦景公
+
+def[秦桓公]
+
+AD-603 = 0
+u 1
+u 27
+  
+%tag person
+%tag   name 秦桓公
+  
+name country monarch
+name 秦桓公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦桓公"
+s+
+      
+<-秦共公和 [史記:-602] #春秋戦国称元{#春秋戦国秦 #秦桓公} #春秋戦国時代
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦桓公
+
+def[秦武公]
+
+AD-697 = 0
+u 1
+u 20
+  
+%tag person
+%tag   name 秦武公
+  
+name country monarch
+name 秦武公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦武公"
+s+
+      
+<-秦出子 [史記:-696] #春秋戦国称元{#春秋戦国秦 #秦武公} #春秋戦国時代
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦武公
+
+def[秦穆公任好]
+
+AD-659 = 0
+u 1
+u 39
+  
+%tag person
+%tag   name 秦穆公任好
+  
+name country monarch
+name 秦穆公任好
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦穆公任好"
+s+
+      
+<-秦成公 [史記:-658] #春秋戦国称元{#春秋戦国秦 #秦穆公任好} #春秋戦国時代
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦穆公任好
+
+def[秦莊公其]
+
+AD-821 = 0
+u 1
+u 44
+  
+%tag person
+%tag   name 秦莊公其
+  
+name country monarch
+name 秦莊公其
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦莊公其"
+s+
+      
+<-秦仲 [史記:-820] #春秋戦国称元{#春秋戦国秦 #秦莊公其} #春秋戦国時代
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦莊公其
+
+def[秦襄公]
+
+AD-777 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 秦襄公
+  
+name country monarch
+name 秦襄公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"秦襄公"
+s+
+      
+<-秦莊公其 [史記:-776] #春秋戦国称元{#春秋戦国秦 #秦襄公} #春秋戦国時代
+    
+tag 春秋戦国秦
+tag 漢民族
+tag 春秋時代
+tag 西周
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 秦襄公
+
+def[穆侯弗生]
+
+AD-811 = 0
+u 1
+u 27
+  
+%tag person
+%tag   name 穆侯弗生
+  
+name  monarch
+name 穆侯弗生
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"穆侯弗生"
+s+
+      
+<-晉獻侯籍 [史記:-810] #春秋戦国称元{#春秋戦国晉 #穆侯弗生} #春秋戦国時代
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 穆侯弗生
+
+def[簡王]
+
+AD-585 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 簡王
+  
+name  monarch
+name 簡王
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"簡王"
+s+
+      
+<-周定王 [史記:-584] #春秋戦国称元{#春秋戦国周 #簡王} #春秋戦国時代
+    
+tag 春秋戦国周
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 周王即位紀年
+tag 十二諸侯年表即位紀年
+tag 簡王
+
+def[莊王]
+
+AD-696 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 莊王
+  
+name  monarch
+name 莊王
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"莊王"
+s+
+      
+<-桓王 [史記:-695] #春秋戦国称元{#春秋戦国周 #莊王} #春秋戦国時代
+    
+tag 春秋戦国周
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 周王即位紀年
+tag 十二諸侯年表即位紀年
+tag 莊王
+
+def[蔡侯廬]
+
+AD-530 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 蔡侯廬
+  
+name country monarch
+name 蔡侯廬
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"蔡侯廬"
+s+
+      
+<-蔡靈侯班 [史記:-529] #春秋戦国称元{#春秋戦国蔡 #蔡侯廬} #春秋戦国時代
+    
+tag 春秋戦国蔡
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 蔡侯廬
+
+def[蔡共侯興]
+
+AD-761 = 0
+u 1
+u 2
+  
+%tag person
+%tag   name 蔡共侯興
+  
+name country monarch
+name 蔡共侯興
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"蔡共侯興"
+s+
+      
+<-蔡釐侯所事 [史記:-760] #春秋戦国称元{#春秋戦国蔡 #蔡共侯興} #春秋戦国時代
+    
+tag 春秋戦国蔡
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 蔡共侯興
+
+def[蔡哀侯獻舞]
+
+AD-694 = 0
+u 1
+u 20
+  
+%tag person
+%tag   name 蔡哀侯獻舞
+  
+name country monarch
+name 蔡哀侯獻舞
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"蔡哀侯獻舞"
+s+
+      
+<-蔡桓侯封人 [史記:-693] #春秋戦国称元{#春秋戦国蔡 #蔡哀侯獻舞} #春秋戦国時代
+    
+tag 春秋戦国蔡
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 蔡哀侯獻舞
+
+def[蔡夷侯]
+
+AD-837 = 0
+u 1
+u 28
+  
+%tag person
+%tag   name 蔡夷侯
+  
+name country monarch
+name 蔡夷侯
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"蔡夷侯"
+s+
+      
+<-武侯 [史記:-836] #春秋戦国称元{#春秋戦国蔡 #蔡夷侯} #春秋戦国時代
+    
+tag 春秋戦国蔡
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 蔡夷侯
+
+def[蔡宣侯楷論]
+
+AD-749 = 0
+u 1
+u 35
+  
+%tag person
+%tag   name 蔡宣侯楷論
+  
+name country monarch
+name 蔡宣侯楷論
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"蔡宣侯楷論"
+s+
+      
+<-蔡戴侯 [史記:-748] #春秋戦国称元{#春秋戦国蔡 #蔡宣侯楷論} #春秋戦国時代
+    
+tag 春秋戦国蔡
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 蔡宣侯楷論
+
+def[蔡悼侯東國]
+
+AD-521 = 0
+u 1
+u 3
+  
+%tag person
+%tag   name 蔡悼侯東國
+  
+name country monarch
+name 蔡悼侯東國
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"蔡悼侯東國"
+s+
+      
+<-蔡侯廬 [史記:-520] #春秋戦国称元{#春秋戦国蔡 #蔡悼侯東國} #春秋戦国時代
+    
+tag 春秋戦国蔡
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 蔡悼侯東國
+
+def[蔡成侯朔]
+
+AD-490 = 0
+u 1
+u 19
+  
+%tag person
+%tag   name 蔡成侯朔
+  
+name country monarch
+name 蔡成侯朔
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"蔡成侯朔"
+s+
+      
+<-蔡昭侯申 [史記:-489] #春秋戦国称元{#春秋戦国蔡 #蔡成侯朔} #春秋戦国時代
+    
+tag 春秋戦国蔡
+tag 漢民族
+tag 春秋時代
+tag 支那戦国時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 蔡成侯朔
+
+def[蔡戴侯]
+
+AD-759 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 蔡戴侯
+  
+name country monarch
+name 蔡戴侯
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"蔡戴侯"
+s+
+      
+<-蔡共侯興 [史記:-758] #春秋戦国称元{#春秋戦国蔡 #蔡戴侯} #春秋戦国時代
+    
+tag 春秋戦国蔡
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 蔡戴侯
+
+def[蔡文侯申]
+
+AD-611 = 0
+u 1
+u 20
+  
+%tag person
+%tag   name 蔡文侯申
+  
+name country monarch
+name 蔡文侯申
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"蔡文侯申"
+s+
+      
+<-蔡莊侯甲午 [史記:-610] #春秋戦国称元{#春秋戦国蔡 #蔡文侯申} #春秋戦国時代
+    
+tag 春秋戦国蔡
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 蔡文侯申
+
+def[蔡昭侯申]
+
+AD-518 = 0
+u 1
+u 28
+  
+%tag person
+%tag   name 蔡昭侯申
+  
+name country monarch
+name 蔡昭侯申
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"蔡昭侯申"
+s+
+      
+<-蔡悼侯東國 [史記:-517] #春秋戦国称元{#春秋戦国蔡 #蔡昭侯申} #春秋戦国時代
+    
+tag 春秋戦国蔡
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 蔡昭侯申
+
+def[蔡景侯固]
+
+AD-591 = 0
+u 1
+u 49
+  
+%tag person
+%tag   name 蔡景侯固
+  
+name country monarch
+name 蔡景侯固
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"蔡景侯固"
+s+
+      
+<-蔡文侯申 [史記:-590] #春秋戦国称元{#春秋戦国蔡 #蔡景侯固} #春秋戦国時代
+    
+tag 春秋戦国蔡
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 蔡景侯固
+
+def[蔡桓侯封人]
+
+AD-714 = 0
+u 1
+u 20
+  
+%tag person
+%tag   name 蔡桓侯封人
+  
+name country monarch
+name 蔡桓侯封人
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"蔡桓侯封人"
+s+
+      
+<-蔡宣侯楷論 [史記:-713] #春秋戦国称元{#春秋戦国蔡 #蔡桓侯封人} #春秋戦国時代
+    
+tag 春秋戦国蔡
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 蔡桓侯封人
+
+def[蔡穆侯肸]
+
+AD-674 = 0
+u 1
+u 29
+  
+%tag person
+%tag   name 蔡穆侯肸
+  
+name country monarch
+name 蔡穆侯肸
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"蔡穆侯肸"
+s+
+      
+<-蔡哀侯獻舞 [史記:-673] #春秋戦国称元{#春秋戦国蔡 #蔡穆侯肸} #春秋戦国時代
+    
+tag 春秋戦国蔡
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 蔡穆侯肸
+
+def[蔡莊侯甲午]
+
+AD-645 = 0
+u 1
+u 34
+  
+%tag person
+%tag   name 蔡莊侯甲午
+  
+name country monarch
+name 蔡莊侯甲午
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"蔡莊侯甲午"
+s+
+      
+<-蔡穆侯肸 [史記:-644] #春秋戦国称元{#春秋戦国蔡 #蔡莊侯甲午} #春秋戦国時代
+    
+tag 春秋戦国蔡
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 蔡莊侯甲午
+
+def[蔡釐侯所事]
+
+AD-809 = 0
+u 1
+u 48
+  
+%tag person
+%tag   name 蔡釐侯所事
+  
+name country monarch
+name 蔡釐侯所事
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"蔡釐侯所事"
+s+
+      
+<-蔡夷侯 [史記:-808] #春秋戦国称元{#春秋戦国蔡 #蔡釐侯所事} #春秋戦国時代
+    
+tag 春秋戦国蔡
+tag 漢民族
+tag 春秋時代
+tag 西周
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 蔡釐侯所事
+
+def[蔡靈侯班]
+
+AD-542 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 蔡靈侯班
+  
+name country monarch
+name 蔡靈侯班
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"蔡靈侯班"
+s+
+      
+<-蔡景侯固 [史記:-541] #春秋戦国称元{#春秋戦国蔡 #蔡靈侯班} #春秋戦国時代
+    
+tag 春秋戦国蔡
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 蔡靈侯班
+
+def[衛出公輒]
+
+AD-492 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 衛出公輒
+  
+name country monarch
+name 衛出公輒
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛出公輒"
+s+
+      
+<-衛靈公 [史記:-491] #春秋戦国称元{#春秋戦国衛 #衛出公輒} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 支那戦国時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛出公輒
+
+def[衛君起]
+
+AD-477 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 衛君起
+  
+name country monarch
+name 衛君起
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛君起"
+s+
+      
+<-衛莊公蒯聵 [史記:-476] #春秋戦国称元{#春秋戦国衛 #衛君起} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 支那戦国時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛君起
+
+def[衛定公臧]
+
+AD-588 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 衛定公臧
+  
+name country monarch
+name 衛定公臧
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛定公臧"
+s+
+      
+<-衛穆公鸱 [史記:-587] #春秋戦国称元{#春秋戦国衛 #衛定公臧} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛定公臧
+
+def[衛宣公晉]
+
+AD-718 = 0
+u 1
+u 19
+  
+%tag person
+%tag   name 衛宣公晉
+  
+name country monarch
+name 衛宣公晉
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛宣公晉"
+s+
+      
+<-衛桓公完 [史記:-717] #春秋戦国称元{#春秋戦国衛 #衛宣公晉} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛宣公晉
+
+def[衛惠公朔]
+
+AD-699 = 0
+u 1
+u 31
+  
+%tag person
+%tag   name 衛惠公朔
+  
+name country monarch
+name 衛惠公朔
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛惠公朔"
+s+
+      
+<-衛宣公晉 [史記:-698] #春秋戦国称元{#春秋戦国衛 #衛惠公朔} #春秋戦国時代
+    
+<-衛黔牟 [史記:-685] #利用開始{#春秋戦国衛 #衛惠公朔} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛惠公朔
+
+def[衛懿公赤]
+
+AD-668 = 0
+u 1
+u 8
+  
+%tag person
+%tag   name 衛懿公赤
+  
+name country monarch
+name 衛懿公赤
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛懿公赤"
+s+
+      
+<-衛惠公朔 [史記:-667] #春秋戦国称元{#春秋戦国衛 #衛懿公赤} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛懿公赤
+
+def[衛成公鄭]
+
+AD-634 = 0
+u 1
+u 35
+  
+%tag person
+%tag   name 衛成公鄭
+  
+name country monarch
+name 衛成公鄭
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛成公鄭"
+s+
+      
+<-衛文公燬 [史記:-633] #春秋戦国称元{#春秋戦国衛 #衛成公鄭} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛成公鄭
+
+def[衛戴公]
+
+AD-660 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 衛戴公
+  
+name country monarch
+name 衛戴公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛戴公"
+s+
+      
+<-衛懿公赤 [史記:-659] #春秋戦国称元{#春秋戦国衛 #衛戴公} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛戴公
+
+def[衛文公燬]
+
+AD-659 = 0
+u 1
+u 25
+  
+%tag person
+%tag   name 衛文公燬
+  
+name country monarch
+name 衛文公燬
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛文公燬"
+s+
+      
+<-衛戴公 [史記:-658] #春秋戦国称元{#春秋戦国衛 #衛文公燬} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛文公燬
+
+def[衛桓公完]
+
+AD-734 = 0
+u 1
+u 16
+  
+%tag person
+%tag   name 衛桓公完
+  
+name country monarch
+name 衛桓公完
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛桓公完"
+s+
+      
+<-衛莊公楊 [史記:-733] #春秋戦国称元{#春秋戦国衛 #衛桓公完} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛桓公完
+
+def[衛武公和]
+
+AD-812 = 0
+u 1
+u 55
+  
+%tag person
+%tag   name 衛武公和
+  
+name country monarch
+name 衛武公和
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛武公和"
+s+
+      
+<-釐侯 [史記:-811] #春秋戦国称元{#春秋戦国衛 #衛武公和} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 西周
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛武公和
+
+def[衛殤公狄]
+
+AD-558 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 衛殤公狄
+  
+name country monarch
+name 衛殤公狄
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛殤公狄"
+s+
+      
+<-衛獻公衎 [史記:-557] #春秋戦国称元{#春秋戦国衛 #衛殤公狄} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛殤公狄
+
+def[衛獻公衎]
+
+AD-576 = 0
+u 1
+u 18
+  
+%tag person
+%tag   name 衛獻公衎
+  
+name country monarch
+name 衛獻公衎
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛獻公衎"
+s+
+      
+<-衛定公臧 [史記:-575] #春秋戦国称元{#春秋戦国衛 #衛獻公衎} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛獻公衎
+
+def[衛獻公衎後]
+
+AD-546 = 0
+u 1
+u 3
+  
+name country monarch
+name 衛獻公衎後
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛獻公衎後"
+s+
+      
+<-衛殤公狄 [史記:-545] #春秋戦国称元{#春秋戦国衛 #衛獻公衎} #春秋戦国時代
+    
+tag 後元
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛獻公衎
+
+def[衛穆公鸱]
+
+AD-599 = 0
+u 1
+u 11
+  
+%tag person
+%tag   name 衛穆公鸱
+  
+name country monarch
+name 衛穆公鸱
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛穆公鸱"
+s+
+      
+<-衛成公鄭 [史記:-598] #春秋戦国称元{#春秋戦国衛 #衛穆公鸱} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛穆公鸱
+
+def[衛莊公楊]
+
+AD-757 = 0
+u 1
+u 23
+  
+%tag person
+%tag   name 衛莊公楊
+  
+name country monarch
+name 衛莊公楊
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛莊公楊"
+s+
+      
+<-衛武公和 [史記:-756] #春秋戦国称元{#春秋戦国衛 #衛莊公楊} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛莊公楊
+
+def[衛莊公蒯聵]
+
+AD-480 = 0
+u 1
+u 3
+  
+%tag person
+%tag   name 衛莊公蒯聵
+  
+name country monarch
+name 衛莊公蒯聵
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛莊公蒯聵"
+s+
+      
+<-衛出公輒 [史記:-479] #春秋戦国称元{#春秋戦国衛 #衛莊公蒯聵} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 支那戦国時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛莊公蒯聵
+
+def[衛襄公惡]
+
+AD-543 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 衛襄公惡
+  
+name country monarch
+name 衛襄公惡
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛襄公惡"
+s+
+      
+<-衛獻公衎後 [史記:-542] #春秋戦国称元{#春秋戦国衛 #衛襄公惡} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛襄公惡
+
+def[衛靈公]
+
+AD-534 = 0
+u 1
+u 42
+  
+%tag person
+%tag   name 衛靈公
+  
+name country monarch
+name 衛靈公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛靈公"
+s+
+      
+<-衛襄公惡 [史記:-533] #春秋戦国称元{#春秋戦国衛 #衛靈公} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛靈公
+
+def[衛黔牟]
+
+AD-696 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 衛黔牟
+  
+name country monarch
+name 衛黔牟
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"衛黔牟"
+s+
+      
+<-衛惠公朔 [史記:-695] #春秋戦国称元{#春秋戦国衛 #衛黔牟} #春秋戦国時代
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 衛黔牟
+
+def[襄王]
+
+AD-651 = 0
+u 1
+u 33
+  
+%tag person
+%tag   name 襄王
+  
+name  monarch
+name 襄王
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"襄王"
+s+
+      
+<-惠王 [史記:-650] #春秋戦国称元{#春秋戦国周 #襄王} #春秋戦国時代
+    
+tag 春秋戦国周
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 周王即位紀年
+tag 十二諸侯年表即位紀年
+tag 襄王
+
+def[鄭厲公]
+
+AD-679 = 0
+u 1
+u 7
+  
+%tag person
+%tag   name 鄭厲公
+  
+name country monarch
+name 鄭厲公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭厲公"
+s+
+      
+<-鄭子嬰 [史記:-678] #春秋戦国称元{#春秋戦国鄭 #鄭厲公} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭厲公
+
+def[鄭厲公突]
+
+AD-700 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 鄭厲公突
+  
+name country monarch
+name 鄭厲公突
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭厲公突"
+s+
+      
+<-鄭莊公寤生 [史記:-699] #春秋戦国称元{#春秋戦国鄭 #鄭厲公突} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭厲公突
+
+def[鄭子亹]
+
+AD-694 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 鄭子亹
+  
+name country monarch
+name 鄭子亹
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭子亹"
+s+
+      
+<-鄭昭公忽 [史記:-693] #春秋戦国称元{#春秋戦国鄭 #鄭子亹} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭子亹
+
+def[鄭子嬰]
+
+AD-693 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 鄭子嬰
+  
+name country monarch
+name 鄭子嬰
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭子嬰"
+s+
+      
+<-鄭子亹 [史記:-692] #春秋戦国称元{#春秋戦国鄭 #鄭子嬰} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭子嬰
+
+def[鄭定公寧]
+
+AD-529 = 0
+u 1
+u 16
+  
+%tag person
+%tag   name 鄭定公寧
+  
+name country monarch
+name 鄭定公寧
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭定公寧"
+s+
+      
+<-鄭簡公嘉 [史記:-528] #春秋戦国称元{#春秋戦国鄭 #鄭定公寧} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭定公寧
+
+def[鄭悼公費]
+
+AD-586 = 0
+u 1
+u 2
+  
+%tag person
+%tag   name 鄭悼公費
+  
+name country monarch
+name 鄭悼公費
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭悼公費"
+s+
+      
+<-鄭襄公堅 [史記:-585] #春秋戦国称元{#春秋戦国鄭 #鄭悼公費} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭悼公費
+
+def[鄭成公睔]
+
+AD-584 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 鄭成公睔
+  
+name country monarch
+name 鄭成公睔
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭成公睔"
+s+
+      
+<-鄭悼公費 [史記:-583] #春秋戦国称元{#春秋戦国鄭 #鄭成公睔} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭成公睔
+
+def[鄭文公捷]
+
+AD-672 = 0
+u 1
+u 45
+  
+%tag person
+%tag   name 鄭文公捷
+  
+name country monarch
+name 鄭文公捷
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭文公捷"
+s+
+      
+<-鄭厲公 [史記:-671] #春秋戦国称元{#春秋戦国鄭 #鄭文公捷} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭文公捷
+
+def[鄭昭公忽]
+
+AD-696 = 0
+u 1
+u 2
+  
+%tag person
+%tag   name 鄭昭公忽
+  
+name country monarch
+name 鄭昭公忽
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭昭公忽"
+s+
+      
+<-鄭厲公突 [史記:-695] #春秋戦国称元{#春秋戦国鄭 #鄭昭公忽} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭昭公忽
+
+def[鄭桓公友]
+
+AD-806 = 0
+u 1
+u 36
+  
+%tag person
+%tag   name 鄭桓公友
+  
+name country monarch
+name 鄭桓公友
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭桓公友"
+s+
+      
+tag+country 春秋戦国鄭
+tag+monarch 鄭桓公友
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 西周
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭桓公友
+
+def[鄭武公滑突]
+
+AD-770 = 0
+u 1
+u 27
+  
+%tag person
+%tag   name 鄭武公滑突
+  
+name country monarch
+name 鄭武公滑突
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭武公滑突"
+s+
+      
+<-鄭桓公友 [史記:-769] #春秋戦国称元{#春秋戦国鄭 #鄭武公滑突} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭武公滑突
+
+def[鄭獻公蠆]
+
+AD-513 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 鄭獻公蠆
+  
+name country monarch
+name 鄭獻公蠆
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭獻公蠆"
+s+
+      
+<-鄭定公寧 [史記:-512] #春秋戦国称元{#春秋戦国鄭 #鄭獻公蠆} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭獻公蠆
+
+def[鄭穆公蘭]
+
+AD-627 = 0
+u 1
+u 22
+  
+%tag person
+%tag   name 鄭穆公蘭
+  
+name country monarch
+name 鄭穆公蘭
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭穆公蘭"
+s+
+      
+<-鄭文公捷 [史記:-626] #春秋戦国称元{#春秋戦国鄭 #鄭穆公蘭} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭穆公蘭
+
+def[鄭簡公嘉]
+
+AD-565 = 0
+u 1
+u 36
+  
+%tag person
+%tag   name 鄭簡公嘉
+  
+name country monarch
+name 鄭簡公嘉
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭簡公嘉"
+s+
+      
+<-鄭釐公惲 [史記:-564] #春秋戦国称元{#春秋戦国鄭 #鄭簡公嘉} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭簡公嘉
+
+def[鄭聲公勝]
+
+AD-500 = 0
+u 1
+u 38
+  
+%tag person
+%tag   name 鄭聲公勝
+  
+name country monarch
+name 鄭聲公勝
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭聲公勝"
+s+
+      
+<-鄭獻公蠆 [史記:-499] #春秋戦国称元{#春秋戦国鄭 #鄭聲公勝} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 支那戦国時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭聲公勝
+
+def[鄭莊公寤生]
+
+AD-743 = 0
+u 1
+u 43
+  
+%tag person
+%tag   name 鄭莊公寤生
+  
+name country monarch
+name 鄭莊公寤生
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭莊公寤生"
+s+
+      
+<-鄭武公滑突 [史記:-742] #春秋戦国称元{#春秋戦国鄭 #鄭莊公寤生} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭莊公寤生
+
+def[鄭襄公堅]
+
+AD-604 = 0
+u 1
+u 18
+  
+%tag person
+%tag   name 鄭襄公堅
+  
+name country monarch
+name 鄭襄公堅
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭襄公堅"
+s+
+      
+<-鄭靈公夷 [史記:-603] #春秋戦国称元{#春秋戦国鄭 #鄭襄公堅} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭襄公堅
+
+def[鄭釐公惲]
+
+AD-570 = 0
+u 1
+u 5
+  
+%tag person
+%tag   name 鄭釐公惲
+  
+name country monarch
+name 鄭釐公惲
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭釐公惲"
+s+
+      
+<-鄭成公睔 [史記:-569] #春秋戦国称元{#春秋戦国鄭 #鄭釐公惲} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭釐公惲
+
+def[鄭靈公夷]
+
+AD-605 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 鄭靈公夷
+  
+name country monarch
+name 鄭靈公夷
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭靈公夷"
+s+
+      
+<-鄭穆公蘭 [史記:-604] #春秋戦国称元{#春秋戦国鄭 #鄭靈公夷} #春秋戦国時代
+    
+tag 春秋戦国鄭
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 鄭靈公夷
+
+def[釐侯]
+
+AD-854 = 0
+u 14
+u 42
+  
+%tag person
+%tag   name 釐侯
+  
+name  monarch
+name 釐侯
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"釐侯"
+s+
+      
+tag+country 春秋戦国衛
+tag+monarch 釐侯
+    
+tag 春秋戦国衛
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 釐侯
+
+def[釐公]
+
+AD-858 = 0
+u 18
+u 28
+  
+%tag person
+%tag   name 釐公
+  
+name  monarch
+name 釐公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"釐公"
+s+
+      
+tag+country 春秋戦国宋
+tag+monarch 釐公
+    
+tag 春秋戦国宋
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 釐公
+
+def[釐王]
+
+AD-681 = 0
+u 1
+u 5
+  
+%tag person
+%tag   name 釐王
+  
+name  monarch
+name 釐王
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"釐王"
+s+
+      
+<-莊王 [史記:-680] #春秋戦国称元{#春秋戦国周 #釐王} #春秋戦国時代
+    
+tag 春秋戦国周
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 周王即位紀年
+tag 十二諸侯年表即位紀年
+tag 釐王
+
+def[陳共公朔]
+
+AD-631 = 0
+u 1
+u 18
+  
+%tag person
+%tag   name 陳共公朔
+  
+name country monarch
+name 陳共公朔
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"陳共公朔"
+s+
+      
+<-陳穆公款 [史記:-630] #春秋戦国称元{#春秋戦国陳 #陳共公朔} #春秋戦国時代
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 陳共公朔
+
+def[陳厲公他]
+
+AD-706 = 0
+u 1
+u 7
+  
+%tag person
+%tag   name 陳厲公他
+  
+name country monarch
+name 陳厲公他
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"陳厲公他"
+s+
+      
+<-陳桓公 [史記:-705] #春秋戦国称元{#春秋戦国陳 #陳厲公他} #春秋戦国時代
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 陳厲公他
+
+def[陳哀公弱]
+
+AD-568 = 0
+u 1
+u 35
+  
+%tag person
+%tag   name 陳哀公弱
+  
+name country monarch
+name 陳哀公弱
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"陳哀公弱"
+s+
+      
+<-陳成公午 [史記:-567] #春秋戦国称元{#春秋戦国陳 #陳哀公弱} #春秋戦国時代
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 陳哀公弱
+
+def[陳夷公說]
+
+AD-780 = 0
+u 1
+u 3
+  
+%tag person
+%tag   name 陳夷公說
+  
+name country monarch
+name 陳夷公說
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"陳夷公說"
+s+
+      
+<-陳武公靈 [史記:-779] #春秋戦国称元{#春秋戦国陳 #陳夷公說} #春秋戦国時代
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 陳夷公說
+
+def[陳宣公杵臼]
+
+AD-692 = 0
+u 1
+u 45
+  
+%tag person
+%tag   name 陳宣公杵臼
+  
+name country monarch
+name 陳宣公杵臼
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"陳宣公杵臼"
+s+
+      
+<-陳莊公林 [史記:-691] #春秋戦国称元{#春秋戦国陳 #陳宣公杵臼} #春秋戦国時代
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 陳宣公杵臼
+
+def[陳平公燮]
+
+AD-777 = 0
+u 1
+u 23
+  
+%tag person
+%tag   name 陳平公燮
+  
+name country monarch
+name 陳平公燮
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"陳平公燮"
+s+
+      
+<-陳夷公說 [史記:-776] #春秋戦国称元{#春秋戦国陳 #陳平公燮} #春秋戦国時代
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 春秋時代
+tag 西周
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 陳平公燮
+
+def[陳惠公吳]
+
+AD-533 = 0
+u 1
+u 28
+  
+%tag person
+%tag   name 陳惠公吳
+  
+name country monarch
+name 陳惠公吳
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"陳惠公吳"
+s+
+      
+<-陳哀公弱 [史記:-532] #春秋戦国称元{#春秋戦国陳 #陳惠公吳} #春秋戦国時代
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 陳惠公吳
+
+def[陳懷公柳]
+
+AD-505 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 陳懷公柳
+  
+name country monarch
+name 陳懷公柳
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"陳懷公柳"
+s+
+      
+<-陳惠公吳 [史記:-504] #春秋戦国称元{#春秋戦国陳 #陳懷公柳} #春秋戦国時代
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 陳懷公柳
+
+def[陳成公午]
+
+AD-598 = 0
+u 1
+u 30
+  
+%tag person
+%tag   name 陳成公午
+  
+name country monarch
+name 陳成公午
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"陳成公午"
+s+
+      
+<-陳靈公平國 [史記:-597] #春秋戦国称元{#春秋戦国陳 #陳成公午} #春秋戦国時代
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 陳成公午
+
+def[陳文公圉]
+
+AD-754 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 陳文公圉
+  
+name country monarch
+name 陳文公圉
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"陳文公圉"
+s+
+      
+<-陳平公燮 [史記:-753] #春秋戦国称元{#春秋戦国陳 #陳文公圉} #春秋戦国時代
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 陳文公圉
+
+def[陳桓公]
+
+AD-744 = 0
+u 1
+u 38
+  
+%tag person
+%tag   name 陳桓公
+  
+name country monarch
+name 陳桓公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"陳桓公"
+s+
+      
+<-陳文公圉 [史記:-743] #春秋戦国称元{#春秋戦国陳 #陳桓公} #春秋戦国時代
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 陳桓公
+
+def[陳武公靈]
+
+AD-795 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 陳武公靈
+  
+name country monarch
+name 陳武公靈
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"陳武公靈"
+s+
+      
+<-陳釐公孝 [史記:-794] #春秋戦国称元{#春秋戦国陳 #陳武公靈} #春秋戦国時代
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 陳武公靈
+
+def[陳湣公越]
+
+AD-501 = 0
+u 1
+u 23
+  
+%tag person
+%tag   name 陳湣公越
+  
+name country monarch
+name 陳湣公越
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"陳湣公越"
+s+
+      
+<-陳懷公柳 [史記:-500] #春秋戦国称元{#春秋戦国陳 #陳湣公越} #春秋戦国時代
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 春秋時代
+tag 支那戦国時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 陳湣公越
+
+def[陳穆公款]
+
+AD-647 = 0
+u 1
+u 16
+  
+%tag person
+%tag   name 陳穆公款
+  
+name country monarch
+name 陳穆公款
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"陳穆公款"
+s+
+      
+<-陳宣公杵臼 [史記:-646] #春秋戦国称元{#春秋戦国陳 #陳穆公款} #春秋戦国時代
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 陳穆公款
+
+def[陳莊公林]
+
+AD-699 = 0
+u 1
+u 7
+  
+%tag person
+%tag   name 陳莊公林
+  
+name country monarch
+name 陳莊公林
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"陳莊公林"
+s+
+      
+<-陳厲公他 [史記:-698] #春秋戦国称元{#春秋戦国陳 #陳莊公林} #春秋戦国時代
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 陳莊公林
+
+def[陳釐公孝]
+
+AD-831 = 0
+u 1
+u 36
+  
+%tag person
+%tag   name 陳釐公孝
+  
+name country monarch
+name 陳釐公孝
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"陳釐公孝"
+s+
+      
+<-幽公寧 [史記:-830] #春秋戦国称元{#春秋戦国陳 #陳釐公孝} #春秋戦国時代
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 陳釐公孝
+
+def[陳靈公平國]
+
+AD-613 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 陳靈公平國
+  
+name country monarch
+name 陳靈公平國
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"陳靈公平國"
+s+
+      
+<-陳共公朔 [史記:-612] #春秋戦国称元{#春秋戦国陳 #陳靈公平國} #春秋戦国時代
+    
+tag 春秋戦国陳
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 陳靈公平國
+
+def[靈王]
+
+AD-571 = 0
+u 1
+u 27
+  
+%tag person
+%tag   name 靈王
+  
+name  monarch
+name 靈王
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"靈王"
+s+
+      
+<-簡王 [史記:-570] #春秋戦国称元{#春秋戦国周 #靈王} #春秋戦国時代
+    
+tag 春秋戦国周
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 周王即位紀年
+tag 十二諸侯年表即位紀年
+tag 靈王
+
+def[靖侯宜臼]
+
+AD-858 = 0
+u 18
+u 18
+  
+%tag person
+%tag   name 靖侯宜臼
+  
+name  monarch
+name 靖侯宜臼
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"靖侯宜臼"
+s+
+      
+tag+country 春秋戦国晉
+tag+monarch 靖侯宜臼
+    
+tag 春秋戦国晉
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 靖侯宜臼
+
+def[頃王]
+
+AD-618 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 頃王
+  
+name  monarch
+name 頃王
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"頃王"
+s+
+      
+<-襄王 [史記:-617] #春秋戦国称元{#春秋戦国周 #頃王} #春秋戦国時代
+    
+tag 春秋戦国周
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 周王即位紀年
+tag 十二諸侯年表即位紀年
+tag 頃王
+
+def[魯哀公將]
+
+AD-494 = 0
+u 1
+u 27
+  
+%tag person
+%tag   name 魯哀公將
+  
+name country monarch
+name 魯哀公將
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"魯哀公將"
+s+
+      
+<-魯定公宋 [史記:-493] #春秋戦国称元{#春秋戦国魯 #魯哀公將} #春秋戦国時代
+    
+tag 春秋戦国魯
+tag 漢民族
+tag 春秋時代
+tag 支那戦国時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 魯哀公將
+
+def[魯孝公稱]
+
+AD-806 = 0
+u 1
+u 38
+  
+%tag person
+%tag   name 魯孝公稱
+  
+name country monarch
+name 魯孝公稱
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"魯孝公稱"
+s+
+      
+<-魯懿公戲 [史記:-805] #春秋戦国称元{#春秋戦国魯 #魯孝公稱} #春秋戦国時代
+    
+tag 春秋戦国魯
+tag 漢民族
+tag 春秋時代
+tag 西周
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 魯孝公稱
+
+def[魯定公宋]
+
+AD-509 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 魯定公宋
+  
+name country monarch
+name 魯定公宋
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"魯定公宋"
+s+
+      
+<-魯昭公稠 [史記:-508] #春秋戦国称元{#春秋戦国魯 #魯定公宋} #春秋戦国時代
+    
+tag 春秋戦国魯
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 魯定公宋
+
+def[魯宣公俀]
+
+AD-608 = 0
+u 1
+u 18
+  
+%tag person
+%tag   name 魯宣公俀
+  
+name country monarch
+name 魯宣公俀
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"魯宣公俀"
+s+
+      
+<-魯文公興 [史記:-607] #春秋戦国称元{#春秋戦国魯 #魯宣公俀} #春秋戦国時代
+    
+tag 春秋戦国魯
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 魯宣公俀
+
+def[魯惠公弗湦]
+
+AD-768 = 0
+u 1
+u 46
+  
+%tag person
+%tag   name 魯惠公弗湦
+  
+name country monarch
+name 魯惠公弗湦
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"魯惠公弗湦"
+s+
+      
+<-魯孝公稱 [史記:-767] #春秋戦国称元{#春秋戦国魯 #魯惠公弗湦} #春秋戦国時代
+    
+tag 春秋戦国魯
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 魯惠公弗湦
+
+def[魯懿公戲]
+
+AD-815 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 魯懿公戲
+  
+name country monarch
+name 魯懿公戲
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"魯懿公戲"
+s+
+      
+<-魯武公敖 [史記:-814] #春秋戦国称元{#春秋戦国魯 #魯懿公戲} #春秋戦国時代
+    
+tag 春秋戦国魯
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 魯懿公戲
+
+def[魯成公黑肱]
+
+AD-590 = 0
+u 1
+u 18
+  
+%tag person
+%tag   name 魯成公黑肱
+  
+name country monarch
+name 魯成公黑肱
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"魯成公黑肱"
+s+
+      
+<-魯宣公俀 [史記:-589] #春秋戦国称元{#春秋戦国魯 #魯成公黑肱} #春秋戦国時代
+    
+tag 春秋戦国魯
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 魯成公黑肱
+
+def[魯文公興]
+
+AD-626 = 0
+u 1
+u 18
+  
+%tag person
+%tag   name 魯文公興
+  
+name country monarch
+name 魯文公興
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"魯文公興"
+s+
+      
+<-魯釐公申 [史記:-625] #春秋戦国称元{#春秋戦国魯 #魯文公興} #春秋戦国時代
+    
+tag 春秋戦国魯
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 魯文公興
+
+def[魯昭公稠]
+
+AD-541 = 0
+u 1
+u 32
+  
+%tag person
+%tag   name 魯昭公稠
+  
+name country monarch
+name 魯昭公稠
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"魯昭公稠"
+s+
+      
+<-魯襄公午 [史記:-540] #春秋戦国称元{#春秋戦国魯 #魯昭公稠} #春秋戦国時代
+    
+tag 春秋戦国魯
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 魯昭公稠
+
+def[魯桓公允]
+
+AD-711 = 0
+u 1
+u 18
+  
+%tag person
+%tag   name 魯桓公允
+  
+name country monarch
+name 魯桓公允
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"魯桓公允"
+s+
+      
+<-魯隱公息姑 [史記:-710] #春秋戦国称元{#春秋戦国魯 #魯桓公允} #春秋戦国時代
+    
+tag 春秋戦国魯
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 魯桓公允
+
+def[魯武公敖]
+
+AD-825 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 魯武公敖
+  
+name country monarch
+name 魯武公敖
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"魯武公敖"
+s+
+      
+<-真公濞 [史記:-824] #春秋戦国称元{#春秋戦国魯 #魯武公敖} #春秋戦国時代
+    
+tag 春秋戦国魯
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 魯武公敖
+
+def[魯湣公開]
+
+AD-661 = 0
+u 1
+u 2
+  
+%tag person
+%tag   name 魯湣公開
+  
+name country monarch
+name 魯湣公開
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"魯湣公開"
+s+
+      
+<-魯莊公同 [史記:-660] #春秋戦国称元{#春秋戦国魯 #魯湣公開} #春秋戦国時代
+    
+tag 春秋戦国魯
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 魯湣公開
+
+def[魯莊公同]
+
+AD-693 = 0
+u 1
+u 32
+  
+%tag person
+%tag   name 魯莊公同
+  
+name country monarch
+name 魯莊公同
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"魯莊公同"
+s+
+      
+<-魯桓公允 [史記:-692] #春秋戦国称元{#春秋戦国魯 #魯莊公同} #春秋戦国時代
+    
+tag 春秋戦国魯
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 魯莊公同
+
+def[魯襄公午]
+
+AD-572 = 0
+u 1
+u 31
+  
+%tag person
+%tag   name 魯襄公午
+  
+name country monarch
+name 魯襄公午
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"魯襄公午"
+s+
+      
+<-魯成公黑肱 [史記:-571] #春秋戦国称元{#春秋戦国魯 #魯襄公午} #春秋戦国時代
+    
+tag 春秋戦国魯
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 魯襄公午
+
+def[魯釐公申]
+
+AD-659 = 0
+u 1
+u 33
+  
+%tag person
+%tag   name 魯釐公申
+  
+name country monarch
+name 魯釐公申
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"魯釐公申"
+s+
+      
+<-魯湣公開 [史記:-658] #春秋戦国称元{#春秋戦国魯 #魯釐公申} #春秋戦国時代
+    
+tag 春秋戦国魯
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 魯釐公申
+
+def[魯隱公息姑]
+
+AD-722 = 0
+u 1
+u 11
+  
+%tag person
+%tag   name 魯隱公息姑
+  
+name country monarch
+name 魯隱公息姑
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"魯隱公息姑"
+s+
+      
+<-魯惠公弗湦 [史記:-721] #春秋戦国称元{#春秋戦国魯 #魯隱公息姑} #春秋戦国時代
+    
+tag 春秋戦国魯
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 魯隱公息姑
+
+def[齊厲公無忌]
+
+AD-824 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 齊厲公無忌
+  
+name country monarch
+name 齊厲公無忌
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊厲公無忌"
+s+
+      
+<-武公壽 [史記:-823] #春秋戦国称元{#春秋戦国齊 #齊厲公無忌} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊厲公無忌
+
+def[齊孝公昭]
+
+AD-642 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 齊孝公昭
+  
+name country monarch
+name 齊孝公昭
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊孝公昭"
+s+
+      
+<-齊桓公小白 [史記:-641] #春秋戦国称元{#春秋戦国齊 #齊孝公昭} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊孝公昭
+
+def[齊平公驁]
+
+AD-480 = 0
+u 1
+u 25
+  
+%tag person
+%tag   name 齊平公驁
+  
+name country monarch
+name 齊平公驁
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊平公驁"
+s+
+      
+<-齊簡公 [史記:-479] #春秋戦国称元{#春秋戦国齊 #齊平公驁} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 春秋時代
+tag 支那戦国時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊平公驁
+
+def[齊悼公陽生]
+
+AD-488 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 齊悼公陽生
+  
+name country monarch
+name 齊悼公陽生
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊悼公陽生"
+s+
+      
+<-齊晏孺子 [史記:-487] #春秋戦国称元{#春秋戦国齊 #齊悼公陽生} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊悼公陽生
+
+def[齊惠公元]
+
+AD-608 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 齊惠公元
+  
+name country monarch
+name 齊惠公元
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊惠公元"
+s+
+      
+<-齊懿公商人 [史記:-607] #春秋戦国称元{#春秋戦国齊 #齊惠公元} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊惠公元
+
+def[齊懿公商人]
+
+AD-612 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 齊懿公商人
+  
+name country monarch
+name 齊懿公商人
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊懿公商人"
+s+
+      
+<-齊昭公潘 [史記:-611] #春秋戦国称元{#春秋戦国齊 #齊懿公商人} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊懿公商人
+
+def[齊成公說]
+
+AD-803 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 齊成公說
+  
+name country monarch
+name 齊成公說
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊成公說"
+s+
+      
+<-齊文公赤 [史記:-802] #春秋戦国称元{#春秋戦国齊 #齊成公說} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊成公說
+
+def[齊文公赤]
+
+AD-815 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 齊文公赤
+  
+name country monarch
+name 齊文公赤
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊文公赤"
+s+
+      
+<-齊厲公無忌 [史記:-814] #春秋戦国称元{#春秋戦国齊 #齊文公赤} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊文公赤
+
+def[齊昭公潘]
+
+AD-632 = 0
+u 1
+u 20
+  
+%tag person
+%tag   name 齊昭公潘
+  
+name country monarch
+name 齊昭公潘
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊昭公潘"
+s+
+      
+<-齊孝公昭 [史記:-631] #春秋戦国称元{#春秋戦国齊 #齊昭公潘} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊昭公潘
+
+def[齊晏孺子]
+
+AD-489 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 齊晏孺子
+  
+name country monarch
+name 齊晏孺子
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊晏孺子"
+s+
+      
+<-齊景公杵臼 [史記:-488] #春秋戦国称元{#春秋戦国齊 #齊晏孺子} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊晏孺子
+
+def[齊景公杵臼]
+
+AD-547 = 0
+u 1
+u 58
+  
+%tag person
+%tag   name 齊景公杵臼
+  
+name country monarch
+name 齊景公杵臼
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊景公杵臼"
+s+
+      
+<-齊莊公 [史記:-546] #春秋戦国称元{#春秋戦国齊 #齊景公杵臼} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊景公杵臼
+
+def[齊桓公小白]
+
+AD-685 = 0
+u 1
+u 43
+  
+%tag person
+%tag   name 齊桓公小白
+  
+name country monarch
+name 齊桓公小白
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊桓公小白"
+s+
+      
+<-齊襄公諸兒 [史記:-684] #春秋戦国称元{#春秋戦国齊 #齊桓公小白} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊桓公小白
+
+def[齊簡公]
+
+AD-484 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 齊簡公
+  
+name country monarch
+name 齊簡公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊簡公"
+s+
+      
+<-齊悼公陽生 [史記:-483] #春秋戦国称元{#春秋戦国齊 #齊簡公} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 春秋時代
+tag 支那戦国時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊簡公
+
+def[齊莊公]
+
+AD-553 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 齊莊公
+  
+name country monarch
+name 齊莊公
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊莊公"
+s+
+      
+<-齊靈公環 [史記:-552] #春秋戦国称元{#春秋戦国齊 #齊莊公} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊莊公
+
+def[齊莊公贖]
+
+AD-794 = 0
+u 1
+u 64
+  
+%tag person
+%tag   name 齊莊公贖
+  
+name country monarch
+name 齊莊公贖
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊莊公贖"
+s+
+      
+<-齊成公說 [史記:-793] #春秋戦国称元{#春秋戦国齊 #齊莊公贖} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 春秋時代
+tag 西周
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊莊公贖
+
+def[齊襄公諸兒]
+
+AD-697 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 齊襄公諸兒
+  
+name country monarch
+name 齊襄公諸兒
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊襄公諸兒"
+s+
+      
+<-齊釐公祿父 [史記:-696] #春秋戦国称元{#春秋戦国齊 #齊襄公諸兒} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊襄公諸兒
+
+def[齊釐公祿父]
+
+AD-730 = 0
+u 1
+u 33
+  
+%tag person
+%tag   name 齊釐公祿父
+  
+name country monarch
+name 齊釐公祿父
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊釐公祿父"
+s+
+      
+<-齊莊公贖 [史記:-729] #春秋戦国称元{#春秋戦国齊 #齊釐公祿父} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊釐公祿父
+
+def[齊靈公環]
+
+AD-581 = 0
+u 1
+u 28
+  
+%tag person
+%tag   name 齊靈公環
+  
+name country monarch
+name 齊靈公環
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊靈公環"
+s+
+      
+<-齊頃公無野 [史記:-580] #春秋戦国称元{#春秋戦国齊 #齊靈公環} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊靈公環
+
+def[齊頃公無野]
+
+AD-598 = 0
+u 1
+u 17
+  
+%tag person
+%tag   name 齊頃公無野
+  
+name country monarch
+name 齊頃公無野
+  
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"齊頃公無野"
+s+
+      
+<-齊惠公元 [史記:-597] #春秋戦国称元{#春秋戦国齊 #齊頃公無野} #春秋戦国時代
+    
+tag 春秋戦国齊
+tag 漢民族
+tag 春秋時代
+tag 東周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 齊頃公無野

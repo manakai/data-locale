@@ -259,7 +259,8 @@ for (
 for my $path (
   map { path ($_) }
   sort { $a cmp $b } 
-  glob $root_path->child ('src/era-data*.txt')
+  (glob $root_path->child ('src/era-data*.txt')),
+  (glob $root_path->child ('intermediate/wikimedia/era-data-*.txt')),
 ) {
   my $key;
   my $prop;
@@ -344,6 +345,10 @@ for my $path (
       my $tkey = $1;
       my $tag = set_tag $key => $tkey;
       $Data->{eras}->{$key}->{country_tag_id} = $tag->{id};
+    } elsif (defined $key and /^tag\+monarch\s+(\S.*\S|\S)\s*$/) {
+      my $tkey = $1;
+      my $tag = set_tag $key => $tkey;
+      $Data->{eras}->{$key}->{monarch_tag_id} = $tag->{id};
 
     } elsif (defined $key and /^s\s*#([\w_()]+)\s*<([^<>]+)>\s*"([^"]+)"\s*$/) {
       my $tkey = $1;

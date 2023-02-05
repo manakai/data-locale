@@ -613,14 +613,6 @@ s+
 %tag   period of 中国
 %tag   group of 五胡十六国時代
 
-%tag position
-%tag   name_ja 趙王
-%tag   group of 王 (支那)
-
-%tag position
-%tag   name_ja 趙皇帝
-%tag   group of 支那皇帝
-
 %tag person
 %tag   name_ja 石勒
 

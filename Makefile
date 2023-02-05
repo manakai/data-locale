@@ -85,8 +85,9 @@ clean-data: clean-langtags
 	rm -fr local/cldr-core* local/*.json
 
 
-local/era-data-tags.txt: src/era-data*.txt
-	grep '^%tag ' --no-filename src/era-data*.txt | sed -e 's/^%tag //' > $@
+local/era-data-tags.txt: \
+    src/era-data*.txt intermediate/wikimedia/era-data-*.txt
+	grep '^%tag ' --no-filename src/era-data*.txt intermediate/wikimedia/era-data-*.txt | sed -e 's/^%tag //' > $@
 local/tags-0.json: bin/tags.pl $(NAMES_DEPS) \
     src/tags.txt local/era-data-tags.txt
 	$(PERL) $< > $@
@@ -218,6 +219,7 @@ local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
     local/era-defs-jp-wp-en.json \
     src/era-data*.txt \
     src/era-variants.txt \
+    intermediate/wikimedia/era-data-*.txt \
     intermediate/wikimedia/wp-*-eras.json \
     data/numbers/kanshi.json \
     intermediate/era-ids.json \

@@ -3,7 +3,9 @@ DATA_PATH = $(ROOT_PATH)/data
 BIN_PATH = $(ROOT_PATH)/bin
 TEMP_PATH = $(ROOT_PATH)/local/wikimedia
 
-PERL = $(ROOT_PATH)/perl
+PERL = $(ROOT_PATH)/perl \
+    -I$(ROOT_PATH)/bin/modules/json-ps/lib  \
+    -I$(ROOT_PATH)/bin/modules/web-encodings/lib 
 
 WGET = wget
 
@@ -15,7 +17,8 @@ all: $(TEMP_PATH) \
     wp-ko-cn-eras.json wp-ko-vn-eras.json wp-ko-jp-eras.json \
     wp-ko-mn-eras.json wp-ko-kr-eras.json wp-ko-krr-eras.json \
     wp-en-cn-eras.json wp-en-vn-eras.json wp-en-jp-eras.json \
-    wp-en-kr-eras.json
+    wp-en-kr-eras.json \
+    shiki
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -157,5 +160,29 @@ wp-en-jp-eras.json wp-en-kr-eras.json: wp-en-%.json: \
     $(TEMP_PATH)/wp-en-%.json \
     $(ROOT_PATH)/local/old-ced.json era-id-map.txt
 	$(PERL) $< $(TEMP_PATH)/wp-en-$*.json > $@
+
+shiki: \
+    era-data-table2.txt \
+    era-data-table3.txt
+
+$(TEMP_PATH)/table2.html:
+	$(WGET) -O $@ "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014?action=edit&veswitched=1"
+$(TEMP_PATH)/table3.html:
+	$(WGET) -O $@ "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7015?action=edit&veswitched=1"
+
+table2.json: parse-table.pl $(TEMP_PATH)/table2.html
+	$(PERL) $< table2 $(TEMP_PATH)/table2.html > $@
+table3.json: parse-table.pl $(TEMP_PATH)/table3.html
+	$(PERL) $< table3 $(TEMP_PATH)/table3.html > $@
+
+eras-table2.json: read-table.pl table2.json
+	$(PERL) $< table2.json > $@
+eras-table3.json: read-table.pl table3.json
+	$(PERL) $< table3.json > $@
+
+era-data-table2.txt: create-era-data.pl eras-table2.json
+	$(PERL) $< eras-table2.json > $@
+era-data-table3.txt: create-era-data.pl eras-table3.json
+	$(PERL) $< eras-table3.json > $@
 
 ## License: Public Domain.

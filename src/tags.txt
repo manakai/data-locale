@@ -274,6 +274,11 @@ tag
   name_ja 即位紀年
 
 tag
+  name_ja 元号説のある即位紀年
+  group of 即位紀年
+  group of 元号説
+
+tag
   name_ja 国名即位紀年
   group of 即位紀年
   group of 国名紀年
@@ -465,6 +470,13 @@ position
 
 position
   name_ja 皇太子
+
+tag
+  name_ja 元号説
+
+tag
+  name_ja 元号
+  group of 元号説
 
 tag
   name_ja 公年号
@@ -1192,6 +1204,7 @@ tag
 tag
   name_ja 元号説のある建国紀元
   group of 建国紀元
+  group of 元号説
 
 tag
   name_ja 国名建国紀元
@@ -1217,9 +1230,6 @@ tag
 
 tag
   name_ja 風刺
-
-tag
-  name_ja 元号
 
 tag
   name_ja マイクロネーションの紀年法

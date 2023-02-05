@@ -39,6 +39,7 @@ tag 秦正
 tag 劉邦
 tag 王の即位紀年
 tag 支那皇帝即位紀年
+tag 春秋戦国即位紀年
 
 name country
 name_tw 漢
@@ -106,31 +107,34 @@ u 12
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8A>"元年冬十月"
 s+
 u 1-10
-<-秦王子嬰 [秦:BC207-10] #陥落{#劉邦 #前漢, #秦帝国 #子嬰} #秦正
+<-秦王子嬰 ->義帝 [秦:BC207-10] #陥落{#劉邦 #前漢, #秦帝国 #子嬰} #秦正
 #          BC206-10[秦]
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8A>"沛公歸數日"
-<-秦王子嬰 [秦:BC207-12] #陥落{#項羽, #秦帝国 #子嬰} #死去 #秦正
+<-秦王子嬰 ->義帝 [秦:BC207-12] #陥落{#項羽, #秦帝国 #子嬰} #死去 #秦正
 #          BC206-12[秦]
 %tag country
-%tag   label_ja 楚 (項羽)
+%tag   key 楚 (項羽)
+%tag   label_ja 西楚
+%tag   &
 %tag   name_ja 楚
+%tag   period of 春秋戦国楚
 %tag   period of 楚
 %tag   period of 中国
-%tag person
-%tag   name_ja 義帝
->< [秦:BC206-1] #即位{#義帝 #楚皇帝 #楚_(項羽)}
+<-秦王子嬰 ->義帝 [秦:BC206-1] #建元前の即位{#義帝 #楚皇帝 #楚_(項羽)}
 %tag position
 %tag   name_ja 西楚霸王
 %tag   group of 王 (支那)
+def[義帝]
 >< [秦:BC206-2] #即位{#項羽 #楚_(項羽) #西楚霸王}
 %tag person
 %tag   name_ja 項羽
-<-秦王子嬰 [秦:BC206-2] #建元前の即位{#劉邦 #漢王 #楚_(項羽)} #秦正
+<-義帝 ->漢 [秦:BC206-2] #建元前の即位{#劉邦 #漢王 #楚_(項羽)} #秦正
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8A>"二年冬十月"
 >< [秦:BC206-10] #死去{#義帝 #楚_(項羽)} #項羽
 #      BC205-10[秦]
+[漢]
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8B>"四面皆楚歌"
->< [秦:BC203-12] #陥落{#前漢 #劉邦, #項羽 #楚_(項羽)} #秦正
+<-義帝 ->漢 [秦:BC203-12] #陥落{#前漢 #劉邦, #項羽 #楚_(項羽)} #秦正
 #      BC202-12[秦]
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8B>"漢王即皇帝位"
 >< 漢:BC202-2-3(甲午) j:BC202-2-28 #即位{#劉邦 #前漢 #漢皇帝} #秦正
@@ -139,6 +143,125 @@ s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8B
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7026>"漢元年"
 s+
 #"漢元年十月"
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"義帝元年"
+s+
+
+%tag source
+%tag   name_ja 史記 秦楚之際月表第四
+%tag   group of 史記
+tag 史記 秦楚之際月表第四
+
+%tag action
+%tag   name_ja 諸侯王称元
+%tag   group of 称元
+
+<-義帝 ->漢 [秦:BC206-2] #諸侯王称元{#劉邦 #漢王 #楚_(項羽)} #秦正
+tag 諸侯王等即位紀年
+
+%tag tag
+%tag   name_ja 漢諸侯王即位紀年
+%tag   group of 諸侯王等即位紀年
+
+def[韓王信]
+
+tag 漢土
+tag 漢民族
+tag 前漢
+tag 諸侯王等即位紀年
+
+%tag country
+%tag   label_ja 韓 (漢)
+%tag   &
+%tag   name_ja 韓
+%tag   period of 韓
+%tag   region of 両漢
+
+%tag person
+%tag   label_ja 韓王信
+%tag   &
+%tag   name_ja 韓信
+tag 韓王信
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"韓王信"
+s+
+tag 史記 秦楚之際月表第四
+
++name era 韓王信
+
+BC205 = 1
+
+<-漢 [漢:BC206-11] #建元前の即位{#前漢 #韓王 #韓王信} 
+#漢:BC205-11 韓:BC205-1
+<-漢 [漢:BC206-11] #諸侯王称元{#韓_(漢) #韓王信} #前漢 #分離
+u 1-1
+u 5-1
+
+def[張耳]
+
+tag 漢土
+tag 漢民族
+tag 前漢
+tag 諸侯王等即位紀年
+
+%tag country
+%tag   label_ja 趙 (漢)
+%tag   &
+%tag   name_ja 趙
+%tag   period of 趙
+%tag   region of 両漢
+
+%tag person
+%tag   name_ja 張耳
+tag 張耳
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"張耳"
+s+
+tag 史記 秦楚之際月表第四
+
++name era 張耳
+
+BC203 = 1
+
+<-漢 [漢:BC204-11] #建元前の即位{#前漢 #趙王 #張耳} 
+#漢:BC203-11 趙:BC203-1
+<-漢 [漢:BC204-11] #諸侯王称元{#趙_(漢) #張耳} #前漢 #分離
+u 1-1
+u 2-9
+
+def[英布]
+
+tag 漢土
+tag 漢民族
+tag 前漢
+tag 諸侯王等即位紀年
+
+%tag country
+%tag   label_ja 淮南 (漢)
+%tag   &
+%tag   name_ja 淮南
+%tag   period of 淮南
+%tag   region of 両漢
+
+%tag person
+%tag   name_ja 英布
+tag 英布
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"英布"
+s+
+tag 史記 秦楚之際月表第四
+
++name era 英布
+
+BC203 = 1
+
+<-漢 [漢:BC203-7] #建元前の即位{#前漢 #淮南王 #英布} 
+#漢:BC203-7 淮南:BC203-1
+<-漢 [漢:BC203-7] #諸侯王称元{#淮南_(漢) #英布} #前漢 #分離
+u 1-1
+u 2-4
+
+
 
 def[恵帝]
 ## Source:
@@ -3507,8 +3630,7 @@ tag 隴西
 tag 宋建
 
 #no known name
-name monarch
-name 宋建
++name era 宋建
 tag 元号名不詳
 
 wref_zh 宋建

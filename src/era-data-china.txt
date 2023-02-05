@@ -14,6 +14,20 @@
 %tag   name_en China
 %tag   region of 東アジア
 
+%tag tag
+%tag   name_ja 春秋戦国時代
+%tag   period of 中国
+
+%tag tag
+%tag   name_ja 春秋時代
+%tag   period of 春秋戦国時代
+
+%tag tag
+%tag   label_ja 支那戦国時代
+%tag   &
+%tag   name_ja 戦国時代
+%tag   period of 春秋戦国時代
+
 %tag region
 %tag   name_ja 夏
 %tag   region of 漢土
@@ -26,9 +40,42 @@
 %tag   name_ja 周
 %tag   region of 漢土
 
+%tag country
+%tag   label_ja 西周
+%tag   &
+%tag   name_ja 周
+%tag   period of 周
+%tag   period of 中国
+
+%tag country
+%tag   label_ja 東周
+%tag   &
+%tag   name_ja 周
+%tag   period of 春秋戦国周
+
 %tag position
 %tag   name_ja 周皇帝
 %tag   group of 支那皇帝
+
+%tag region
+%tag   name_ja 曹
+%tag   region of 山東
+
+%tag region
+%tag   name_ja 魯
+%tag   region of 漢土
+
+%tag region
+%tag   name_ja 蔡
+%tag   region of 漢土
+
+%tag region
+%tag   name_ja 韓
+%tag   region of 漢土
+
+%tag position
+%tag   name_ja 韓王
+%tag   group of 王 (支那)
 
 %tag region
 %tag   name_ja 北支
@@ -216,6 +263,10 @@
 %tag tag
 %tag   name_ja 後元
 %tag   group of 支那皇帝改元後紀年
+
+%tag action
+%tag   name_ja 春秋戦国称元
+%tag   group of 称元
 
 %tag tag
 %tag   name_ja 中華王朝の公年号
@@ -414,6 +465,14 @@
 %tag   name_ja 趙
 %tag   region of 漢土
 
+%tag position
+%tag   name_ja 趙王
+%tag   group of 王 (支那)
+
+%tag position
+%tag   name_ja 趙皇帝
+%tag   group of 支那皇帝
+
 %tag region
 %tag   name_ja 衛
 %tag   region of 漢土
@@ -449,6 +508,14 @@
 %tag region
 %tag   name_ja 順
 %tag   region of 中国
+
+%tag region
+%tag   name_ja 淮南
+%tag   region of 漢土
+
+%tag position
+%tag   name_ja 淮南王
+%tag   group of 王 (支那)
 
 %tag region
 %tag   name_ja 敦煌
@@ -513,13 +580,50 @@
 %tag   name_ja 香港人
 %tag   group of アジア人
 
+%tag source
+%tag   name_ja 史記
 
-def[共和]
+%tag source
+%tag   name_ja 史記 十二諸侯年表第二
+%tag   group of 史記
+
+%tag source
+%tag   name_ja 史記 六國年表第三
+%tag   group of 史記
+
+%tag tag
+%tag   name_ja 春秋戦国即位紀年
+%tag   group of 諸侯王等即位紀年
+
+%tag tag
+%tag   name_ja 周王即位紀年
+%tag   group of 春秋戦国即位紀年
+
+%tag tag
+%tag   name_ja 十二諸侯年表即位紀年
+%tag   group of 春秋戦国即位紀年
+
+%tag tag
+%tag   name_ja 十二諸侯即位紀年
+%tag   group of 十二諸侯年表即位紀年
+
+%tag tag
+%tag   name_ja 六国年表即位紀年
+%tag   group of 春秋戦国即位紀年
+
+[共和]
+name monarch
 name_ja 共和
 name_cn 共和
 name_kana きょう わ
+&
+name monarch
 name 共和紀年
+&
+name country monarch
 name 周召共和
+&
+name country monarch+
 name 周召共和紀年
 wref_ja 共和_(周)
 wref_zh 共和_(西周)
@@ -527,8 +631,108 @@ wref_en Gonghe_Regency
 BC841 = 1
 sw 共和
 
+tag 元号説のある即位紀年
 
-def[秦始皇]
+
+[鄭桓公友]
+#y~2432
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"鄭桓公友元年"
+<-宣王 [史記:BC806] #春秋戦国称元{#春秋戦国鄭 #鄭桓公友} #分離 #春秋戦国時代
+
+[曹伯陽]
+#y~2300
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"十五宋滅曹"
+->宋景公頭曼 [史記:BC487] #陥落{#春秋戦国宋 #宋景公頭曼, #春秋戦国曹 #曹伯陽}
+    #春秋戦国時代
+
+[陳湣公越]
+#y~2457
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚滅陳"
+->楚惠王章 [史記:BC479] #陥落{#春秋戦国楚 #楚惠王章, #春秋戦国陳 #陳湣公越}
+    #春秋戦国時代
+
+%tag tag
+%tag   name_ja 戦国七雄
+%tag   group of 支那戦国時代
+
+[周元王]
+#y~2502
+
+<-敬王 [史記:BC476] #春秋戦国称元{#春秋戦国周 #周元王} #春秋戦国時代
+
+[秦厲共公]
+#y~2538
+
+<-秦悼公 [史記:BC476] #春秋戦国称元{#春秋戦国秦 #秦厲共公} #春秋戦国時代
+
+[衛獻公衎]
+tag 前元
+
+[衛出公輒]
+tag 前元
+
+[衛出公輒後]
+#y~2552
+
+<-衛君起 [史記:BC476] #春秋戦国称元{#春秋戦国衛 #衛出公輒} #春秋戦国時代
+
+[秦惠文王]
+tag 前元
+&
+
+wref_zh 秦惠文王
+wref_ja 恵文王 (秦)
+name monarch
+name 惠文君
+
+[初更]
+tag 後元
+&&
+
+wref_ja 恵文王 (秦)
+wref_zh 秦惠文王
+name monarch
+name 惠文王
+
+[韓王安]
+#y~2581
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7015>"秦滅韓"
+->秦始皇 [史記:BC230] #陥落{#春秋戦国秦 #始皇帝, #春秋戦国韓 #韓王安}
+    #春秋戦国時代
+
+[魏王假]
+#y~2592
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7015>"秦虜王假"
+->秦始皇 [史記:BC225] #陥落{#春秋戦国秦 #始皇帝, #春秋戦国魏 #魏王假}
+    #春秋戦国時代
+
+[燕王喜]
+#y~2534
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7015>"秦滅楚"
+->秦始皇 [史記:BC222] #陥落{#春秋戦国秦 #始皇帝, #春秋戦国燕 #燕王喜}
+    #春秋戦国時代
+
+[代王嘉]
+#y~2500
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7015>"秦滅趙"
+->秦始皇 [史記:BC222] #陥落{#春秋戦国秦 #始皇帝, #春秋戦国趙 #代王嘉}
+    #春秋戦国時代
+
+[齊王建]
+#y~2599
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7015>"秦滅齊"
+->秦始皇 [史記:BC221] #陥落{#春秋戦国秦 #始皇帝, #春秋戦国齊 #齊王建}
+    #春秋戦国時代
+
+[秦始皇]
 ## Source:
 sw 秦始皇
 #
@@ -542,10 +746,9 @@ tag 漢土
 tag 秦帝国
 tag 秦正
 
-%tag person
-%tag   name_ja 始皇帝
 tag 始皇帝
 tag 支那皇帝即位紀年
+tag 春秋戦国即位紀年
 
 name country monarch+
 name_tw 秦王政
@@ -574,7 +777,7 @@ u 37
 
 ->秦二世 [秦:BC210-7] #改元前の死去{#秦帝国 #始皇帝 #秦皇帝} #秦正
 
-def[秦二世]
+[秦二世]
 ## Source:
 sw 秦二世
 #
@@ -582,10 +785,9 @@ tag 秦帝国
 tag 漢民族
 tag 漢土
 tag 支那皇帝即位紀年
+tag 春秋戦国即位紀年
 tag 秦正
 
-%tag person
-%tag   name_ja 胡亥
 tag 胡亥
 
 name country monarch
@@ -623,6 +825,8 @@ s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8A
 # BC210-7...-9 - BC207-8
 <-秦始皇 [秦:BC210-7] #建元前の即位{#秦帝国 #胡亥 #秦皇帝} #秦正
 
+tag 史記 秦楚之際月表第四
+
 def[秦王子嬰]
 ## Source:
 sw 秦子嬰
@@ -638,6 +842,7 @@ tag 秦正
 %tag   name_ja 子嬰
 tag 子嬰
 tag 王の即位紀年
+tag 春秋戦国即位紀年
 
 name country monarch
 name_ja 秦王子嬰
@@ -653,7 +858,37 @@ name_tw 子嬰
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8A>"子嬰"
 <-秦二世 [秦:BC207-9] #建元前の即位{#秦帝国 #子嬰 #秦王} #秦正
 
+<-秦二世 [秦:BC207-9] #春秋戦国称元{#秦帝国 #子嬰} #秦正
 
+[義帝]
+
+tag 楚 (項羽)
+tag 漢民族
+tag 漢土
+tag 秦帝国
+
+%tag person
+%tag   name_ja 義帝
+tag 義帝
+tag 支那皇帝即位紀年
+tag 春秋戦国即位紀年
+
+name monarch
+name 義帝
+
+BC206 = 1
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"義帝元年"
+s+
+<-秦二世 [史記:BC208-6] #建元前の即位{#楚_(項羽) #義帝 #楚王} #秦 #項羽  #秦正
+#<-秦王子嬰 [史記:BC206-1] #建元前の即位{#楚_(項羽) #義帝 #支那皇帝} #秦 #項羽
+#     #秦正
+tag 史記 秦楚之際月表第四
+
+tag 項羽
+
+tag 前漢
+tag 劉邦
 
 [白鳥]
 
@@ -1955,6 +2190,14 @@ tag 李唐
 tag 漢土
 tag 漢民族
 
+%tag country
+%tag   label_ja 楚 (李希烈)
+%tag   &
+%tag   name_ja 楚
+%tag   period of 楚
+%tag   period of 中国
+tag 楚 (李希烈)
+
 %tag person
 %tag   name_ja 李希烈
 tag 李希烈
@@ -1973,11 +2216,12 @@ name_kana ぶ せい
 # - 786
 
 ## <https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%B8%8C%E7%83%88>
-<-建中 [唐:782] #蜂起{#李希烈} #李唐
-<-建中 唐:784-1-1(癸酉) j:784-1-27 #建元前の即位{#楚皇帝 #李希烈} #李唐
-tag 楚
-<-建中 唐:784-1-1(癸酉) j:784-1-27 #支那改元日{#李希烈} #李唐 #起事建元
-->貞元(乙丑) 唐:786-4-丙寅 j:786-5-9 #陥落{#李唐, #李希烈} #死去
+<-建中 [唐:782] #蜂起{#李希烈 #楚_(李希烈)} #李唐
+<-建中 唐:784-1-1(癸酉) j:784-1-27 #建元前の即位{#楚皇帝 #李希烈 #楚_(李希烈)}
+    #李唐
+<-建中 唐:784-1-1(癸酉) j:784-1-27 #支那改元日{#李希烈 #楚_(李希烈)}
+    #李唐 #起事建元
+->貞元(乙丑) 唐:786-4-丙寅 j:786-5-9 #陥落{#李唐, #李希烈 #楚_(李希烈)} #死去
 
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7140>"改元"
 #淮南陳少遊潛通希烈，尋稱偽號，改元，遣將楊豐賫偽赦書二道，令送少遊及建封。

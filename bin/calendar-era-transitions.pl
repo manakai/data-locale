@@ -799,13 +799,53 @@ sub parse_date ($$;%) {
       } else {
         die "Bad date |$v| ($all)";
       }
-    } elsif ($v =~ s{^g:([0-9]+)\s*}{}) {
+    } elsif ($v =~ s{^(?:g):(-?[0-9]+)\s*}{}) {
       if ($args{start}) {
         push @jd, gymd2jd $1, 1, 1;
       } elsif ($args{end}) {
         push @jd, -1 + gymd2jd $1+1, 1, 1;
       } else {
         die "Bad date |$v| ($all)";
+      }
+    } elsif ($v =~ s{^(?:g):BC(-?[0-9]+)\s*}{}) {
+      my $y = 1 - $1;
+      if ($args{start}) {
+        push @jd, gymd2jd $y, 1, 1;
+      } elsif ($args{end}) {
+        push @jd, -1 + gymd2jd $y+1, 1, 1;
+      } else {
+        die "Bad date |$v| ($all)";
+      }
+    } elsif ($v =~ s{^(?:史記):(BC|)(-?[0-9]+)-([0-9]+)\s*}{}) {
+      my $y = $1 ? 1 - $2 : 0+$2;
+      # XXX need calendar considerations
+      if ($args{start}) {
+        push @jd, nymmd2jd '秦', $y, 0+$3, '', 1;
+      } elsif ($args{end}) {
+        push @jd, nymmd2jd '秦', $y, 0+$3, '', '末';
+      } else {
+        die "Bad date |$v| ($all)";
+      }
+    } elsif ($v =~ s{^(?:史記):(BC|)(-?[0-9]+)\s*}{}) {
+      my $y = $1 ? 1 - $2 : 0+$2;
+      if ($y >= -365) {
+        # XXX need calendar considerations
+        if ($args{start}) {
+          push @jd, nymmd2jd '秦', $y, 1, '', 1;
+        } elsif ($args{end}) {
+          push @jd, -1 + nymmd2jd '秦', $y+1, 1, '', 1;
+        } else {
+          die "Bad date |$v| ($all)";
+        }
+      } else {
+        # XXX no calendar data available
+        if ($args{start}) {
+          push @jd, gymd2jd $y, 1, 1;
+        } elsif ($args{end}) {
+          push @jd, -1 + gymd2jd $y+1, 1, 1;
+        } else {
+          die "Bad date |$v| ($all)";
+        }
       }
     } else {
       die "Bad date |$v| ($all)";
@@ -1007,9 +1047,11 @@ for my $tr (@$Input) {
       $x->{tag_ids}->{1189} or # 支那改元日
       $x->{tag_ids}->{1728} or # 支那改元詔
       $x->{tag_ids}->{2852} or # 改元決定
+      $x->{tag_ids}->{2126} or # 称元
       $x->{tag_ids}->{1442}) { # 元号名変更
     for my $to_key (@$to_keys) {
       next if $to_key eq '干支年';
+      next if $to_key eq 'unknown';
       if (defined $x->{authority_tag_id}) {
         my $tag = $Tags->{$x->{authority_tag_id}};
         if ($tag->{type} eq 'country') {
@@ -1040,6 +1082,7 @@ for my $tr (@$Input) {
   if ($x->{tag_ids}->{1192}) { # 建元前の即位
     for my $to_key (@$to_keys) {
       next if $to_key eq '干支年';
+      next if $to_key eq 'unknown';
       my $to_era = $Eras->{$to_key};
       next unless $to_era->{tag_ids}->{1069}; # 即位紀年
       
