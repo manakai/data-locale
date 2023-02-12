@@ -174,6 +174,142 @@
 %tag   group of 支那皇帝
 
 %tag region
+%tag   name_ja 荊
+%tag   region of 漢土
+
+%tag region
+%tag   name_ja 呂
+%tag   region of 漢土
+
+%tag region
+%tag   name_ja 常山
+%tag   region of 漢土
+
+%tag region
+%tag   name_ja 臨江
+%tag   region of 漢土
+
+%tag region
+%tag   name_ja 琅邪
+%tag   region of 漢土
+
+%tag region
+%tag   name_ja 雍
+%tag   region of 漢土
+
+%tag position
+%tag   name_ja 雍王
+%tag   group of 王 (支那)
+
+%tag region
+%tag   name_ja 衡山
+%tag   region of 漢土
+
+%tag position
+%tag   name_ja 衡山王
+%tag   group of 王 (支那)
+
+%tag region
+%tag   name_ja 九江
+%tag   region of 漢土
+
+%tag position
+%tag   name_ja 九江王
+%tag   group of 王 (支那)
+
+%tag region
+%tag   name_ja 淮陽
+%tag   region of 漢土
+
+%tag region
+%tag   name_ja 汝南
+%tag   region of 漢土
+
+%tag region
+%tag   name_ja 江都
+%tag   region of 漢土
+
+%tag region
+%tag   name 廬江
+%tag   region of 漢土
+
+%tag region
+%tag   name 太原
+%tag   region of 漢土
+
+%tag region
+%tag   name_ja 膠東
+%tag   region of 漢土
+
+%tag region
+%tag   name 濟陰
+%tag   region of 漢土
+
+%tag region
+%tag   name 濟北
+%tag   region of 漢土
+
+%tag region
+%tag   name 濟東
+%tag   region of 漢土
+
+%tag region
+%tag   name 濟南
+%tag   region of 漢土
+
+%tag region
+%tag   name 濟川
+%tag   region of 漢土
+
+%tag region
+%tag   name 長沙
+%tag   region of 漢土
+
+%tag region
+%tag   name 中山
+%tag   region of 漢土
+
+%tag region
+%tag   name 廣陵
+%tag   region of 漢土
+
+%tag region
+%tag   name 菑川
+%tag   region of 漢土
+
+%tag region
+%tag   name 六安
+%tag   region of 漢土
+
+%tag region
+%tag   name 城陽
+%tag   region of 漢土
+
+%tag region
+%tag   name 河閒
+%tag   region of 漢土
+
+%tag region
+%tag   name 清河
+%tag   region of 漢土
+
+%tag region
+%tag   name 真定
+%tag   region of 漢土
+
+%tag region
+%tag   name 廣川
+%tag   region of 漢土
+
+%tag region
+%tag   name 膠西
+%tag   region of 漢土
+
+%tag region
+%tag   name 泗水
+%tag   region of 漢土
+
+%tag region
 %tag   name_ja 青島
 %tag   region of 漢土
 
@@ -249,6 +385,10 @@
 %tag   name_ja 諸侯王等即位紀年
 %tag   group of 東洋式即位紀年
 
+%tag action
+%tag   name_ja 中華称元
+%tag   group of 称元
+
 %tag tag
 %tag   name_ja 前元
 %tag   group of 支那皇帝即位紀年
@@ -266,7 +406,7 @@
 
 %tag action
 %tag   name_ja 春秋戦国称元
-%tag   group of 称元
+%tag   group of 中華称元
 
 %tag tag
 %tag   name_ja 中華王朝の公年号
@@ -502,6 +642,12 @@
 %tag   region of 中国
 
 %tag region
+%tag   label_ja 山陽 (漢土)
+%tag   &
+%tag   name 山陽
+%tag   region of 中国
+
+%tag region
 %tag   name_ja 太平
 %tag   region of 中国
 
@@ -610,6 +756,36 @@
 %tag tag
 %tag   name_ja 六国年表即位紀年
 %tag   group of 春秋戦国即位紀年
+
+def[真公濞(丁未)]
+
+AD-840 = 14
+u 14
+
+name  monarch
+name 真公濞
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"真公濞"
+s+
+#一云
+
+wref_ja 真公 (魯)
+wref_zh 魯真公
+
+tag+country 春秋戦国魯
+tag+monarch 真公濞
+
+tag 春秋戦国魯
+tag 漢民族
+tag 西周
+tag 史記 十二諸侯年表第二
+tag 十二諸侯即位紀年
+tag 真公濞
+
+[真公濞]
+
+<-真公濞(丁未) [史記:-824,漢:-88] #年異説発生 #春秋戦国魯
+    #史記_十二諸侯年表第二
 
 [共和]
 name monarch
@@ -741,7 +917,7 @@ tag 漢土
 
 %tag country
 %tag   name_ja 秦帝国
-%tag   period of 秦
+%tag   period of 春秋戦国秦
 %tag   period of 中国
 tag 秦帝国
 tag 秦正
@@ -776,6 +952,9 @@ u 26
 u 37
 
 ->秦二世 [秦:BC210-7] #改元前の死去{#秦帝国 #始皇帝 #秦皇帝} #秦正
+
+## <https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/154523/1/jor054_2_169.pdf#page=19>
+u 40
 
 [秦二世]
 ## Source:
@@ -860,7 +1039,34 @@ s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8A
 
 <-秦二世 [秦:BC207-9] #春秋戦国称元{#秦帝国 #子嬰} #秦正
 
-[義帝]
+def[楚懷王]
+
+tag 楚 (項羽)
+tag 漢民族
+tag 漢土
+tag 秦帝国
+
+tag 義帝
+tag 春秋戦国即位紀年
+
+tag+country 楚 (項羽)
+tag+monarch 義帝
++name era 義帝
+
+BC208 = 1
+
+s#史記<https://ja.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"楚懷王始"
+s+
+<-秦二世 [史記:BC208-6] #建元前の即位{#楚_(項羽) #義帝 #楚王} #秦帝国
+    #項羽  #秦正
+#BC208-6寅 = 1-1楚 [未]
+#BC207-5寅 = 2-1楚 [午]
+#BC206-1寅 = 2-9楚 [寅]
+#XXX calendar #非寅正
+
+tag 史記 秦楚之際月表第四
+
+def[義帝]
 
 tag 楚 (項羽)
 tag 漢民族
@@ -880,7 +1086,6 @@ BC206 = 1
 
 s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"義帝元年"
 s+
-<-秦二世 [史記:BC208-6] #建元前の即位{#楚_(項羽) #義帝 #楚王} #秦 #項羽  #秦正
 #<-秦王子嬰 [史記:BC206-1] #建元前の即位{#楚_(項羽) #義帝 #支那皇帝} #秦 #項羽
 #     #秦正
 tag 史記 秦楚之際月表第四
@@ -889,6 +1094,186 @@ tag 項羽
 
 tag 前漢
 tag 劉邦
+
+
+%tag tag
+%tag   name_ja 楚諸侯王即位紀年
+%tag   group of 諸侯王等即位紀年
+
+def[項羽]
+
+tag 楚 (項羽)
+tag 漢民族
+tag 漢土
+
+tag 項羽
+
+%tag country
+%tag   name_ja 西楚
+%tag   region of 楚 (項羽)
+tag+country 西楚
+
+%tag person
+%tag   name_ja 項羽
+tag+monarch 項羽
++name era 項羽
+tag 楚諸侯王即位紀年
+
+%tag position
+%tag   name_ja 西楚霸王
+%tag   group of 王 (支那)
+
+s#史記<https://ja.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"項籍始"
+tag 史記 秦楚之際月表第四
+s+
+<-義帝 [史記:BC206-2] #建元前の即位{#項羽 #楚_(項羽) #西楚霸王}
+#BC206-2寅 1-1西楚
+#BC205-1寅 2-1西楚
+#BC203-12寅 4-12西楚
+#XXXcalendar #寅正'
+
+BC206 = 1
+
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8A>"二年冬十月"
+<-義帝 [秦:BC206-10] #陥落{#西楚 #項羽, #義帝 #楚_(項羽)} #死去
+#      BC205-10[秦]
+
+[楚王信]
+#y~2672
+
+s#史記<https://ja.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"齊王韓信徙楚王"
+tag 史記 秦楚之際月表第四
+#BC202-1寅 1
+#BC202-9'寅 10
+#(calendar #寅正')
+
+def[衡山王吳芮]
+
+tag 楚 (項羽)
+tag 漢民族
+tag 漢土
+
+tag+country 衡山
+tag+monarch 長沙文王吳芮
++name era 長沙文王吳芮
+tag 楚諸侯王即位紀年
+
+s#史記<https://ja.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"王吳芮"
+s+
+tag 史記 秦楚之際月表第四
+<-義帝 [史記:BC206-2] #建元前の即位{#長沙文王吳芮 #楚_(項羽) #衡山王}
+#BC206-2寅 -1
+#BC205-1寅 2-1
+#BC201-12寅 4-12
+#BC200-1寅 4-13
+#XXXcalendar #寅正'
+
+BC206 = 1
+
+[長沙文王吳芮]
+s#史記<https://ja.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"衡山王吳芮"
+tag 史記 秦楚之際月表第四
+#BC200-2寅 -1
+#BC200-7寅 -6
+[長沙成王臣]
+s#史記<https://ja.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"長沙成王臣"
+tag 史記 秦楚之際月表第四
+#BC200-8寅 -1
+#BC200-9'寅 -3
+
+def[九江王英布]
+
+tag 楚 (項羽)
+tag 漢民族
+tag 漢土
+
+tag+country 九江
+tag+monarch 淮南王英布
++name era 淮南王英布
+
+s#史記<https://ja.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"王英布"
+s+
+tag 史記 秦楚之際月表第四
+<-義帝 [史記:BC206-2] #建元前の即位{#淮南王英布 #楚_(項羽) #九江王}
+#BC206-2寅 -1
+#BC205-1寅 2-1
+#BC205-12寅 2-12
+#XXXcalendar #寅正'
+tag 楚諸侯王即位紀年
+
+BC206 = 1
+
+->漢 [史記:BC204-12] #勢力吸収{#前漢 #劉邦, #九江 #淮南王英布}
+->項羽 [史記:BC204-12] #陥落{#楚_(項羽) #項羽, #九江}
+
+def[雍王章邯]
+
+tag 楚 (項羽)
+tag 漢民族
+tag 漢土
+
+%tag country
+%tag   label_ja 楚雍
+%tag   &
+%tag   name_ja 雍
+%tag   period of 雍
+%tag   region of 楚 (項羽)
+tag+country 楚雍
+%tag person
+%tag   name_ja 章邯
+tag+monarch 章邯
++name era 章邯
+
+s#史記<https://ja.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"王章邯"
+s+
+tag 史記 秦楚之際月表第四
+<-義帝 [史記:BC206-2] #建元前の即位{#章邯 #楚_(項羽) #雍王} #楚雍
+#BC206-2寅 -1
+#BC205-1寅 2-1
+#BC205-6寅 2-5
+#XXXcalendar
+tag 楚諸侯王即位紀年
+
+BC206 = 1
+
+->漢 [史記:BC205-6] #陥落{#前漢 #劉邦, #章邯 #楚雍} #死去
+
+def[燕王臧荼]
+
+tag 楚 (項羽)
+tag 漢民族
+tag 漢土
+
+%tag country
+%tag   label_ja 楚燕
+%tag   &
+%tag   name_ja 燕
+%tag   period of 燕
+%tag   region of 楚 (項羽)
+tag+country 楚燕
+%tag person
+%tag   name_ja 臧荼
+tag+monarch 臧荼
++name era 臧荼
+
+s#史記<https://ja.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"王臧荼"
+s+
+tag 史記 秦楚之際月表第四
+<-義帝 [史記:BC206-2] #建元前の即位{#臧荼 #楚_(項羽) #燕王} #楚燕
+#BC206-2寅 -1
+#BC205-1寅 2-1
+#BC202-1寅 5-1
+#BC202-9寅 5-9
+#XXXcalendar
+tag 楚諸侯王即位紀年
+
+BC206 = 1
+
+->漢 [史記:BC202-9] #陥落{#前漢 #劉邦, #楚燕 #臧荼} #死去
+
+
+
+
 
 [白鳥]
 

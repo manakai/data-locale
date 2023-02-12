@@ -769,6 +769,12 @@ sub parse_date ($$;%) {
       push @jd, nymmd2jd $1, parse_year ($2), $3, $4, $5;
     } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|東魏|隋|唐|宋|遼|金|元|明|清|中華人民共和国|越南|高句麗|百済|新羅|高麗|李氏朝鮮):((?:-|BC|)[0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
       push @jd, nymmk2jd $1, parse_year ($2), $3, $4, $5;
+    } elsif ($v =~ s{^(史記):((?:-|BC|)[0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
+      if ($3 >= 10) {
+        push @jd, nymmk2jd '漢', parse_year ($2) - 1, $3, $4, $5;
+      } else {
+        push @jd, nymmk2jd '漢', parse_year ($2), $3, $4, $5;
+      }
     } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|東魏|隋|唐|宋|遼|金|元|明|清|中華人民共和国|越南|高句麗|百済|新羅|高麗|李氏朝鮮|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)\s*}{}) {
       if ($args{start}) {
         push @jd, nymmd2jd $1, parse_year ($2), $3, $4, 1;
@@ -818,22 +824,22 @@ sub parse_date ($$;%) {
       }
     } elsif ($v =~ s{^(?:史記):(BC|)(-?[0-9]+)-([0-9]+)\s*}{}) {
       my $y = $1 ? 1 - $2 : 0+$2;
-      # XXX need calendar considerations
+      my $m = 0+$3;
+      $y-- if $m >= 10;
       if ($args{start}) {
-        push @jd, nymmd2jd '秦', $y, 0+$3, '', 1;
+        push @jd, nymmd2jd '秦', $y, $m, '', 1;
       } elsif ($args{end}) {
-        push @jd, nymmd2jd '秦', $y, 0+$3, '', '末';
+        push @jd, nymmd2jd '秦', $y, $m, '', '末';
       } else {
         die "Bad date |$v| ($all)";
       }
     } elsif ($v =~ s{^(?:史記):(BC|)(-?[0-9]+)\s*}{}) {
       my $y = $1 ? 1 - $2 : 0+$2;
       if ($y >= -365) {
-        # XXX need calendar considerations
         if ($args{start}) {
-          push @jd, nymmd2jd '秦', $y, 1, '', 1;
+          push @jd, nymmd2jd '秦', $y-1, 10, '', 1;
         } elsif ($args{end}) {
-          push @jd, -1 + nymmd2jd '秦', $y+1, 1, '', 1;
+          push @jd, -1 + nymmd2jd '秦', $y, 10, '', 1;
         } else {
           die "Bad date |$v| ($all)";
         }

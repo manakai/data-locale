@@ -31,6 +31,12 @@ $Data->{source_type} = shift or die;
   my $data = [];
   for (split /\x0D?\x0A/, extract_source $bytes) {
     if (/^\|-/) {
+      if ($Data->{source_type} eq 'table5' and
+          @$data and
+          $data->[0] =~ /143/) {
+        splice @$data, 16, 0, ('');
+      }
+      
       $data = [];
       push @{$Data->{rows}}, $data;
     } elsif (/^\|\}$/) {

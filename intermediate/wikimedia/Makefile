@@ -163,26 +163,35 @@ wp-en-jp-eras.json wp-en-kr-eras.json: wp-en-%.json: \
 
 shiki: \
     era-data-table2.txt \
-    era-data-table3.txt
+    era-data-table3.txt \
+    era-data-table5.txt
 
 $(TEMP_PATH)/table2.html:
 	$(WGET) -O $@ "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014?action=edit&veswitched=1"
 $(TEMP_PATH)/table3.html:
 	$(WGET) -O $@ "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7015?action=edit&veswitched=1"
+$(TEMP_PATH)/table5.html:
+	$(WGET) -O $@ "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7017?action=edit&veswitched=1"
 
 table2.json: parse-table.pl $(TEMP_PATH)/table2.html
 	$(PERL) $< table2 $(TEMP_PATH)/table2.html > $@
 table3.json: parse-table.pl $(TEMP_PATH)/table3.html
 	$(PERL) $< table3 $(TEMP_PATH)/table3.html > $@
+table5.json: parse-table.pl $(TEMP_PATH)/table5.html
+	$(PERL) $< table5 $(TEMP_PATH)/table5.html > $@
 
 eras-table2.json: read-table.pl table2.json
 	$(PERL) $< table2.json > $@
 eras-table3.json: read-table.pl table3.json
 	$(PERL) $< table3.json > $@
+eras-table5.json: read-table.pl table5.json
+	$(PERL) $< table5.json > $@
 
 era-data-table2.txt: create-era-data.pl eras-table2.json
 	$(PERL) $< eras-table2.json > $@
 era-data-table3.txt: create-era-data.pl eras-table3.json
 	$(PERL) $< eras-table3.json > $@
+era-data-table5.txt: create-era-data.pl eras-table5.json
+	$(PERL) $< eras-table5.json > $@
 
 ## License: Public Domain.
