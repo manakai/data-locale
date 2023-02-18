@@ -409,7 +409,12 @@
 %tag   group of 中華称元
 
 %tag tag
+%tag   name_ja 中国の元号
+%tag   group of 元号
+
+%tag tag
 %tag   name_ja 中華王朝の公年号
+#XXX%tag   group of 中国の元号
 %tag   group of 公年号
 
 %tag people
@@ -461,6 +466,7 @@
 %tag   name_ja 監国
 
 %tag region
+%tag   key 殷地
 %tag   name_ja 殷
 %tag   region of 漢土
 
@@ -726,6 +732,1403 @@
 %tag   name_ja 香港人
 %tag   group of アジア人
 
+
+
+def[舜]
+
+tag 漢土
+tag 漢民族
+tag 東洋式即位紀年
+
+%tag person
+%tag   name_ja 舜
+tag 舜
+
+&
+## <https://zh.wikipedia.org/wiki/%E5%A5%91>
+#"虞舜二十年"
+#"虞舜三十三年"
+name 虞舜
+u 20
+u 33
+
+<-unknown [?:BC1940,?:BC1900] #建元前の即位{#夏 #舜}
+
+
+
+%tag country
+%tag   key 夏王朝
+%tag   name 夏
+%tag   period of 中国
+%tag   period of 夏
+
+%tag tag
+%tag   name_ja 夏の即位紀年
+%tag   group of 東洋式即位紀年
+
+%tag action
+%tag   name_ja 夏称元
+%tag   group of 中華称元
+
+def[禹]
+
+tag 漢土
+tag 漢民族
+tag 夏王朝
+tag 夏の即位紀年
+
+tag+country 夏王朝
+tag+monarch 禹
+
+%tag person
+%tag   name 禹
++name era 禹
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7002>"十年"
+s+
+u 10
+#"疑當作「七年」。按：孟子萬章上：「禹薦益於天，七年，禹崩。」"
+u 7
+
+<-舜 [?:BC2070,?:BC1600] #建元前の即位{#夏王朝 #禹 #夏王}
+<-舜 [?:BC2070,?:BC1600] #夏称元{#夏王朝 #禹}
+#->启
+
+def[夏少康]
+
+tag 漢土
+tag 漢民族
+tag 夏王朝
+tag 夏の即位紀年
+
+tag+country 夏王朝
+tag+monarch 夏少康
+
+%tag person
+%tag   name 夏少康
+tag 夏少康
+
+## <https://zh.wikipedia.org/wiki/%E5%86%A5_(%E5%95%86%E6%9C%9D%E5%85%88%E5%85%AC)>
+#"少康十一年"
+## <https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BA%A5>
+#"夏少康十一年"
+name country monarch
+name 夏少康
+u 11
+
+&
+name monarch
+name 少康
+
+#<-相
+#->杼
+<-unknown [?:BC2070,?:BC1600] #建元前の即位{#夏王朝 #夏少康 #夏王}
+<-unknown [?:BC2070,?:BC1600] #夏称元{#夏王朝 #夏少康}
+
+def[夏杼]
+
+tag 漢土
+tag 漢民族
+tag 夏王朝
+tag 夏の即位紀年
+
+tag+country 夏王朝
+tag+monarch 夏杼
+
+%tag person
+%tag   name 夏杼
+tag 夏杼
+
+## <https://zh.wikipedia.org/wiki/%E5%86%A5_(%E5%95%86%E6%9C%9D%E5%85%88%E5%85%AC)>
+#"夏杼十三年"
+u 13
+## <https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BA%A5>
+#"夏杼十四年"
+name country monarch
+name 夏杼
+u 14
+
+#<-少康
+#->槐
+<-夏少康 [?:BC2070,?:BC1600] #建元前の即位{#夏王朝 #夏杼 #夏王}
+<-夏少康 [?:BC2070,?:BC1600] #夏称元{#夏王朝 #夏杼}
+
+def[夏芒]
+
+tag 漢土
+tag 漢民族
+tag 夏王朝
+tag 夏の即位紀年
+
+tag+country 夏王朝
+tag+monarch 夏芒
+
+%tag person
+%tag   name 夏芒
+tag 夏芒
+
+## <https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BA%A5>
+#"夏芒三十三年"
+name country monarch
+name 夏芒
+u 33
+
+#<-槐
+#->泄
+<-unknown [?:BC2070,?:BC1600] #建元前の即位{#夏王朝 #夏芒 #夏王}
+<-unknown [?:BC2070,?:BC1600] #夏称元{#夏王朝 #夏芒}
+
+def[夏泄]
+#y~2802
+
+tag 漢土
+tag 漢民族
+tag 夏王朝
+tag 夏の即位紀年
+
+tag+country 夏王朝
+tag+monarch 夏泄
+
+%tag person
+%tag   name 夏泄
+tag 夏泄
+
+## <https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BA%A5>
+#"夏泄十二年"
+## <https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%86_(%E5%95%86%E6%9C%9D%E5%85%88%E5%85%AC)>
+#"統治  夏泄十二年──夏泄十六年"
+u 12
+u 16
+## <https://zh.wikipedia.org/wiki/%E4%B8%8A%E7%94%B2%E5%BE%AE>
+#"夏泄十六年"
+u 16
+name country monarch
+name 夏泄
+
+#<-芒
+#->不降
+<-夏芒 [?:BC2070,?:BC1600] #建元前の即位{#夏王朝 #夏泄 #夏王}
+<-夏芒 [?:BC2070,?:BC1600] #夏称元{#夏王朝 #夏泄}
+
+
+
+%tag country
+%tag   name_ja 殷
+%tag   period of 殷地
+%tag   period of 中国
+
+%tag position
+%tag   name 殷王
+%tag   group of 王 (支那)
+
+%tag tag
+%tag   name_ja 殷の即位紀年
+%tag   group of 東洋式即位紀年
+
+%tag action
+%tag   name_ja 殷称元
+%tag   group of 中華称元
+
+def[太甲]
+
+
+tag 漢土
+tag 漢民族
+tag 殷
+tag 殷の即位紀年
+
+tag+country 殷
+tag+monarch 太甲
+
+%tag person
+%tag   name_ja 太甲
+tag 太甲
++name era 太甲
+
+&
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7003>"帝太甲元年"
+s+
+name 帝太甲
+u 1
+#"三年"
+u 3
+
+<-unknown [?:BC1700,?:BC1147] #建元前の即位{#殷 #太甲 #殷王}
+<-unknown [?:BC1700,?:BC1147] #殷称元{#殷 #太甲}
+
+def[中丁]
+
+tag 漢土
+tag 漢民族
+tag 殷
+tag 殷の即位紀年
+
+tag+country 殷
+tag+monarch 中丁
+
+%tag person
+%tag   name_ja 中丁
+tag 中丁
++name era 中丁
+
+## <https://zh.wikipedia.org/wiki/%E4%B8%AD%E4%B8%81>
+#"《竹書紀年》稱中丁于即位元年将都城从亳迁到囂（亦作隞），这是商朝的第1次迁都。"
+u 1
+#<-雍己
+#->卜壬
+
+<-unknown [?:BC1700,?:BC1147] #建元前の即位{#殷 #中丁 #殷王}
+<-unknown [?:BC1700,?:BC1147] #殷称元{#殷 #中丁}
+
+
+def[祖乙]
+
+tag 漢土
+tag 漢民族
+tag 殷
+tag 殷の即位紀年
+
+tag+country 殷
+tag+monarch 祖乙
+
+%tag person
+%tag   name 祖乙
+tag 祖乙
+
+## <https://zh.wikipedia.org/wiki/%E9%AB%98%E5%9C%89>
+#"祖乙十五年"
+name monarch
+name 祖乙
+u 15
+
+#<-祖辛<-沃甲
+#->南庚
+
+<-unknown [?:BC1700,?:BC1147] #建元前の即位{#殷 #祖乙 #殷王}
+<-unknown [?:BC1700,?:BC1147] #殷称元{#殷 #祖乙}
+
+
+def[小乙]
+
+tag 漢土
+tag 漢民族
+tag 殷
+tag 殷の即位紀年
+
+tag+country 殷
+tag+monarch 小乙
+
+%tag person
+%tag   name 小乙
+tag 小乙
++name era 小乙
+
+## <https://zh.wikipedia.org/wiki/%E5%B0%8F%E4%B9%99>
+#"《今本竹书纪年·殷纪》：小乙名敛。元年丁酉，王即位，居殷。六年，命世子武丁居于河，學于甘盤。十年，陟。"
+u 1
+u 6
+u 10
+#<-小辛
+#->武丁
+
+<-unknown [?:BC1700,?:BC1147] #建元前の即位{#殷 #小乙 #殷王}
+<-unknown [?:BC1700,?:BC1147] #殷称元{#殷 #小乙}
+
+
+def[武丁]
+
+tag 漢土
+tag 漢民族
+tag 殷
+tag 殷の即位紀年
+
+tag+country 殷
+tag+monarch 武丁
+
+%tag person
+%tag   name 武丁
+tag 武丁
+
+## <https://zh.wikipedia.org/wiki/%E6%AD%A6%E4%B8%81>
+
+## <https://zh.wikipedia.org/wiki/%E4%B8%8A%E7%94%B2%E5%BE%AE>
+#"《今本竹書紀年·殷紀·武丁》：「十二年，報祀上甲微。」"
+u 12
+
+## <https://zh.wikipedia.org/wiki/%E9%BB%84%E5%B8%9D>
+#"《竹書記年》：「武丁三十有二祀，伐鬼方。」"
+name monarch
+name 武丁
+u 32
+
+<-小乙 [?:BC1700,?:BC1147] #建元前の即位{#殷 #武丁 #殷王}
+<-小乙 [?:BC1700,?:BC1147] #殷称元{#殷 #武丁}
+
+def[武乙]
+
+tag 漢土
+tag 漢民族
+tag 殷
+tag 殷の即位紀年
+
+%tag person
+%tag   name 武乙
+tag 武乙
+
+## <https://zh.wikipedia.org/wiki/%E6%AD%A6%E4%B9%99>
+#"夏商周断代工程定為前1147年－前1113年。"
+#"武乙三十四年"
+name monarch
+name 武乙
+u 34
+#"《後漢書·西羌傳》注引古本《竹書紀年》：“武乙三十五年，周王季伐西落鬼戎，俘二十翟王。”"
+u 35
+
+#<-庚丁
+<-unknown [?:BC1147] #建元前の即位{#殷 #武乙 #殷王}
+<-unknown [?:BC1147] #殷称元{#殷 #武乙}
+
+def[文丁]
+#y~2796
+
+tag 漢土
+tag 漢民族
+tag 殷
+tag 殷の即位紀年
+
+%tag person
+%tag   name 文丁
+%tag   &
+%tag   name 太丁
+tag 文丁
+
+## <https://zh.wikipedia.org/wiki/%E6%96%87%E4%B8%81>
+#"夏商周断代工程定為前1112年－前1102年。"
+#"文丁二年"
+name monarch
+name 文丁
+#"文丁十一年"
+u 2
+u 11
+#"《後漢書·西羌傳》注引古本《竹書紀年》：「太丁二年，周人伐燕京之戎，周師大敗。」"
+u 2
+#"《後漢書·西羌傳》注引古本《竹書紀年》：「太丁七年，周人伐始呼之戎，克之。」"
+u 7
+name monarch
+name 太丁
+
+<-武乙 [?:BC1112] #建元前の即位{#殷 #文丁 #殷王}
+<-武乙 [?:BC1112] #殷称元{#殷 #文丁}
+
+
+def[帝乙]
+
+tag 漢土
+tag 漢民族
+tag 殷
+tag 殷の即位紀年
+
+%tag person
+%tag   name_ja 帝乙
+tag 帝乙
+
+## <https://zh.wikipedia.org/wiki/%E5%B8%9D%E4%B9%99>
+#"夏商周断代工程定為前1101年－前1076年。"
+#"帝乙二年" "三年" "十年"
+name monarch
+name 帝乙
+u 2
+u 3
+u 10
+#"今本《竹書紀年》：「（文丁）十三年，陟」。"
+u 13
+
+<-文丁 [?:BC1101] #建元前の即位{#殷 #帝乙 #殷王}
+<-文丁 [?:BC1101] #殷称元{#殷 #帝乙}
+
+def[帝辛]
+
+tag 漢土
+tag 漢民族
+tag 殷
+tag 東周
+tag 殷の即位紀年
+
+%tag person
+%tag   name 帝辛
+tag 帝辛
+
+## <https://zh.wikipedia.org/wiki/%E5%B8%9D%E8%BE%9B>
+#"夏商周断代工程認為他在前1075年至前1046年在位。"
+#"帝辛时期的青铜器有很多，例如现存于北京故宫的二祀邲其卣、
+#四祀邲其卣、六祀邲其卣分别是帝辛二年、四年、六年时铸造的青铜器。"
+name monarch
+name 帝辛
+u 2
+u 4
+u 6
+
+<-帝乙 [?:BC1075] #建元前の即位{#殷 #帝辛 #殷王}
+<-帝乙 [?:BC1075] #殷称元{#殷 #帝辛}
+
+->周武王 [?:BC1046] #陥落{#殷 #帝辛, #東周 #武王}
+
+
+%tag org
+%tag   key ctext
+%tag   name_en Chinese Text Project
+
+
+
+def[文王]
+#y~2791
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+tag 殷
+
+%tag person
+%tag   name 文王
+%tag   &
+%tag   name 周文王
+tag 文王
+
+name country monarch
+name 周文王
+
+sw 周の即位紀年
+u 1
+u 7
+
+BC1056 = 7
+->周武王 <-文王,文王(辛巳) [?:BC1056] #改元前の死去{#東周 #文王} #殷
+
+<-文王(辛巳) [?:BC1056,g:2000] #年異説発生{}
+
+def[文王(辛巳)]
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+tag 殷
+
+tag 文王
+
+sw 周の即位紀年
+BC1046 = 15
+u 15
+name country monarch
+name 周文王
+
+def[受命]
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+#tag 春秋戦国即位紀年
+tag 中国の元号
+tag 殷
+
+tag+country 東周
+tag+monarch 文王
+tag 武王
+
+sw 受命
+name 受命
+
+BC1046 = 11
+u 11
+u 9
+u 1
+u 14
+u 7
+
+def[周武王]
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+tag 殷
+
+%tag person
+%tag   name 武王
+%tag   &
+%tag   name 周武王
+tag 武王
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周武王 ruled   -1046周武王元年  -1043周武王四年
+name country monarch
+name 周武王
+BC1046 = 1
+u 1
+u 4
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"九年"
+s+
+u 9
+#"十一年十二月戊午"
+u 11-12-戊午
+#"二月甲子昧爽"
+
+<-文王,文王(辛巳) [?:BC1046] #建元前の即位{#東周 #武王 #周王}
+
+def[成王]
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name 成王
+%tag   &
+%tag   name 周成王
+tag 成王
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周成王 ruled   -1042周成王元年  -1021周成王二十二年
+name country monarch
+name 周成王
+BC1042 = 1
+u 1
+u 22
+
+&
+## <https://zh.wikipedia.org/wiki/%E5%91%A8%E6%88%90%E7%8E%8B>
+#成王七年二月乙未日，
+name 成王
+
+<-周武王 [?:BC1042] #建元前の即位{#東周 #成王 #周王}
+
+def[康王]
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name 康王
+%tag   &
+%tag   name 周康王
+tag 康王
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周康王 ruled   -1020周康王元年  -996周康王二十五年
+name country monarch
+name 周康王
+BC1020 = 1
+u 1
+u 25
+
+&
+## <https://zh.wikipedia.org/wiki/%E5%91%A8%E5%BA%B7%E7%8E%8B>
+#康王十二年六月，
+u 12-6
+name monarch
+name 康王
+
+<-康王 [?:BC1020] #建元前の即位{#東周 #康王 #周王}
+
+def[昭王]
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name 昭王
+%tag   &
+%tag   name 周昭王
+tag 昭王
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周昭王 ruled   -995周昭王元年   -977周昭王十九年
+u 1
+u 19
+name country monarch
+name 周昭王
+BC995 = 1
+
+&
+## <https://zh.wikipedia.org/wiki/%E5%91%A8%E6%98%AD%E7%8E%8B>
+#《竹书纪年》载周昭王三次南征，
+#“昭王十九年，
+name 昭王
+
+<-康王 [?:BC995] #建元前の即位{#東周 #昭王 #周王}
+
+def[穆王]
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name 穆王
+%tag   &
+%tag   name 周穆王
+tag 穆王
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周穆王 ruled   -976周穆王元年   -922周穆王五十五年
+u 1
+u 55
+name country monarch
+name 周穆王
+BC976 = 1
+
+<-昭王 [?:BC976] #建元前の即位{#東周 #穆王 #周王}
+
+def[共王]
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name 共王
+%tag   &
+%tag   name 周共王
+tag 共王
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周共王 ruled   -922周共王元年   -900周共王二十三年
+u 1
+u 23
+BC922 = 1
+name country monarch
+name 周共王
+
+## <https://zh.wikipedia.org/wiki/%E5%91%A8%E5%85%B1%E7%8E%8B>
+#《十五年趞曹鼎》記載「唯十又五年五月既生霸壬午。龔王在周新宮」
+u 15
+
+<-穆王 [?:BC922] #建元前の即位{#東周 #共王 #周王}
+
+def[懿王]
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name 懿王
+%tag   &
+%tag   name 周懿王
+tag 懿王
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周懿王 ruled   -899周懿王元年   -892周懿王八年
+name country monarch
+name 周懿王
+u 1
+u 8
+BC899 = 1
+
+&
+## <https://zh.wikipedia.org/wiki/%E5%91%A8%E6%87%BF%E7%8E%8B>
+#《竹書紀年》記載：「懿王元年，天再旦於鄭」
+name monarch
+name 懿王
+
+<-共王 [?:BC899] #建元前の即位{#東周 #懿王 #周王}
+
+def[孝王]
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name 孝王
+%tag   &
+%tag   name 周孝王
+tag 孝王
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周孝王 ruled   -891周孝王元年   -886周孝王六年
+BC891 = 1
+u 1
+u 6
+name country monarch
+name 周孝王
+
+## <https://zh.wikipedia.org/wiki/%E5%91%A8%E5%AD%9D%E7%8E%8B>
+#傳世青銅器中可確定為周孝王時期銅器有《三年興壺甲》（《十三年興壺》
+#有懿王器物和孝王器物二說，尚有爭議）
+#《竹書紀年》則記載「九年，（周孝）王陟。」
+u 9
+#《今本竹書紀年 周孝王八年》：初牧於汧、渭。
+u 8
+
+<-懿王 [?:BC891] #建元前の即位{#東周 #懿王 #周王}
+
+def[夷王]
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name 夷王
+%tag   &
+%tag   name 周夷王
+tag 夷王
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周夷王 ruled   -885周夷王元年   -878周夷王八年
+name country monarch
+name 周夷王
+BC885 = 1
+u 1
+u 8
+
+## <https://zh.wikipedia.org/wiki/%E5%91%A8%E5%A4%B7%E7%8E%8B>
+#"《太師虘簋》銘文「雉十又二年正月既望甲午」"
+u 12-1
+
+<-孝王 [?:BC885] #建元前の即位{#東周 #夷王 #周王}
+
+def[厲王]
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name 厲王
+%tag   &
+%tag   name 周厲王
+tag 厲王
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周厲王 ruled   -877周厲王元年   -841周厲王三十七年
+name country monarch
+name 周厲王
+BC877 = 1
+u 1
+u 37
+
+&
+## <https://zh.wikipedia.org/wiki/%E5%91%A8%E5%8E%89%E7%8E%8B>
+#統治   前877年-前828年 #死去
+#夏商周断代工程則認為厲王37年與共和元年是同一年。
+<-夷王 [?:BC877] #建元前の即位{#東周 #厲王 #周王}
+->共和 [?:BC828] #改元前の死去{#東周 #厲王}
+name monarch
+name 厲王
+
+&
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"厲王即位三十年"
+name monarch+
+name 厲王即位
+u 30
+#"三十四年"
+u 34
+
+[共和]
+name monarch
+name_ja 共和
+name_cn 共和
+name_kana きょう わ
+&
+name monarch
+name 共和紀年
+&
+name country monarch
+name 周召共和
+&
+name country monarch+
+name 周召共和紀年
+wref_ja 共和_(周)
+wref_zh 共和_(西周)
+wref_en Gonghe_Regency
+BC841 = 1
+sw 共和
+
+tag 元号説のある即位紀年
+
+## <https://zh.wikipedia.org/wiki/%E5%85%B1%E5%92%8C_(%E8%A5%BF%E5%91%A8)>
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#共和   ruled   -841共和元年     -828共和十四年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"共和"
+s+
+#"召公、周公二相行政，號曰「共和」。共和十四年，"
+u 14
+
+
+[宣王]
+wref_zh 周宣王
+#統治   前828年—前782年 #死去
+u 46
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周宣王 ruled   -827周宣王元年   -782周宣王四十六年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"十二年"
+s+
+u 12
+u 39
+u 46
+
+def[宣王(乙亥)]
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+tag 宣王
++name era 宣王
+
+wref_zh 周宣王
+u 46
+BC826 = 1
+#張培瑜. 《逨鼎的月相紀日和西周年代》. 北京市: 《文物》2003年第六期. 2003年.
+
+%tag person
+%tag   name_tw 張培瑜
+tag 張培瑜
+
+<-宣王 [g:2003] #年異説発生{} #中華人民共和国
+
+<-共和 [史記:BC826] #春秋戦国称元{#西周 #宣王} #春秋戦国時代 #異説
+
+
+[幽王]
+wref_zh 周幽王
+#統治   前782年－前771年 #死去
+u 11
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周幽王 ruled   -781周幽王元年   -771周幽王十一年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"幽王二年"
+s+
+u 2
+u 3
+
+[平王]
+wref_zh 周平王
+#統治   前770年—前720年 #死去
+u 51
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周平王 ruled   -770周平王元年   -720周平王五十一年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"四十九年"
+s+
+u 49
+u 51
+
+[桓王]
+wref_zh 周桓王
+#統治   前719年—前697年 #死去
+u 23
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周桓王 ruled   -719周桓王元年   -697周桓王二十三年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"桓王三年"
+s+
+u 3
+u 13
+u 23
+
+[莊王]
+wref_zh 周莊王
+#統治   前696年－前682年 #死去
+u 15
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周莊王 ruled   -696周莊王元年   -682周莊王十五年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"莊王四年"
+s+
+u 4
+u 15
+
+[釐王]
+wref_zh 周釐王
+#統治   前681年－前677年 #死去
+u 5
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周釐王 ruled   -681周釐王元年   -677周釐王五年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"釐王三年"
+s+
+u 3
+u 5
+
+[惠王]
+wref_zh 周惠王
+#統治   前677年－前652年 #死去
+u 25
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周惠王 ruled   -676周惠王元年   -652周惠王二十五年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"惠王二年"
+s+
+u 2
+u 10
+u 25
+
+[襄王]
+wref_zh 周襄王
+#統治   前652年－前619年
+u 33
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周襄王 ruled   -651周襄王元年   -619周襄王三十三年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"惠王崩"
+s+
+u 3
+u 32
+
+[頃王]
+wref_zh 周顷王
+#統治   前618年－前613年
+u 6
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周頃王 ruled   -618周頃王元年   -613周頃王六年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"頃王六年"
+s+
+u 6
+
+[匡王]
+wref_zh 周匡王
+#統治   前612年－前607年 #死去
+u 6
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周匡王 ruled   -612周匡王元年   -607周匡王六年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"匡王六年"
+s+
+u 6
+
+[周定王]
+wref_zh 周定王
+#統治    前606年—前586年 #死去
+u 21
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周定王 ruled   -606周定王元年   -586周定王二十一年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"定王元年"
+s+
+u 1
+u 21
+
+[簡王]
+wref_zh 周简王
+#統治   前585年—前572年 #死去
+u 14
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周簡王 ruled   -585周簡王元年   -572周簡王十四年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"簡王十三年"
+s+
+u 13
+u 14
+
+[靈王]
+wref_zh 周灵王
+#統治   前571年—前545年 #死去
+u 27
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周靈王 ruled   -571周靈王元年   -545周靈王二十七年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"靈王二十四年"
+s+
+u 24
+u 27
+
+[景王]
+wref_zh 周景王
+#統治    前544年—前520年 #死去
+u 25
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周景王 ruled   -544周景王元年   -521周景王二十四年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"景王十八年"
+s+
+u 18
+u 20
+
+
+def[姬猛]
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name 姬猛
+%tag   &
+%tag   name_tw 周悼王
+tag 姬猛
+
+## <https://zh.wikipedia.org/wiki/%E5%91%A8%E6%82%BC%E7%8E%8B>
+#周悼王
+#統治   前520年 #死去
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周悼王 ruled   -520周悼王元年   -520周悼王元年
+## <https://ctext.org/date.pl?if=en&entityid=630577&year=1&month=&day=>
+#Gregorian:     -521/12/26 - -520/12/25
+#Julian:         -520/1/1 - -520/12/31
+#周悼王元年，歲在辛巳
+name country monarch
+name 周悼王
+u 1
+BC520 = 1
+<-景王 [?:520] #建元前の即位{#東周 #姬猛 #周王}
+
+->敬王 [?:520] #改元前の死去{#東周 #姬猛}
+
+[敬王]
+wref_zh 周敬王
+#統治   前519年—前476年 #死去
+u 44
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周敬王 ruled   -519周敬王元年   -476周敬王四十四年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"敬王元年"
+s+
+u 1
+u 41
+u 42
+
+[周元王]
+#y~2502
+
+wref_zh 周元王
+#統治   前476年—前469年 #死去
+u 7
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周元王 ruled   -475周元王元年   -469周元王七年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"元王八年"
+s+
+u 8
+
+<-敬王 [史記:BC476] #春秋戦国称元{#春秋戦国周 #周元王} #春秋戦国時代
+
+[貞定王]
+wref_zh 周貞定王
+#統治   前468年—前441年 #死去
+u 28
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周貞定王       ruled            -468周貞定王元年        -442周貞定王二十七年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"定王十六年"
+s+
+u 16
+u 28
+
+def[哀王]
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name_ja 哀王
+%tag   &
+%tag   name_ja 周哀王
+
+name country monarch
+name 周哀王
+&
+name monarch
+name 哀王
+tag 哀王
+
+
+## <https://zh.wikipedia.org/wiki/%E5%91%A8%E5%93%80%E7%8E%8B>
+#"《搜神记·卷六》記载周哀王八年郑国一妇女共生育四十個子女，其中只有二十個長大成人。哀王九年，晉國有頭豬生了個人。 "
+u 8
+u 9
+
+<-定王 [?:BC441] #建元前の即位{#東周 #哀王 #周王}
+# 3 months
+->姬叔襲 [?:BC441] #改元前の死去{#東周 #哀王}
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周哀王         ruled            -441周哀王元年          -441周哀王元年
+## <https://ctext.org/date.pl?if=en&entityid=758897&year=1&month=&day=>
+#Gregorian:     -442/12/27 - -441/12/26
+#Julian:         -441/1/1 - -441/12/31
+#周哀王元年，歲在庚子
+BC441 = 1
+
+def[姬叔襲]
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name 姬叔襲
+%tag   &
+%tag   name 周思王
+tag 姬叔襲
+
+## <https://zh.wikipedia.org/wiki/%E5%91%A8%E6%80%9D%E7%8E%8B>
+#"前441年，叔襲殺害周哀王即位，為周思王；在位僅五個月，八月又被弟王子嵬所殺。"
+<-哀王 [?:BC441] #建元前の即位{#東周 #姬叔襲 #周王}
+#XXX      BC441-3,BC441-4
+->考王 [?:BC441] #改元前の死去{#東周 #姬叔襲}
+#XXX      BC441-8
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周思王         ruled            -441周思王元年          -441周思王元年
+## <https://ctext.org/date.pl?if=en&entityid=885283&year=1&month=&day=>
+#Gregorian:     -442/12/27 - -441/12/26
+#Julian:         -441/1/1 - -441/12/31
+#周思王元年，歲在庚子
+BC441 = 1
+
+[考王]
+wref_zh 周考王
+#統治   前440年—前426年 #死去
+u 15
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周考王         ruled            -440周考王元年          -426周考王十五年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"考王十五年"
+s+
+u 15
+
+[威烈王]
+wref_zh 周威烈王
+#統治   前425年—前402年 #死去
+u 24
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周威烈王       ruled            -425周威烈王元年        -402周威烈王二十四年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"威烈王二十三年"
+s+
+u 23
+u 24
+
+[安王]
+wref_zh 周安王
+#統治   前402年—前376年 #死去
+u 26
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周安王         ruled            -401周安王元年          -376周安王二十六年
+
+[烈王]
+wref_zh 周烈王
+#統治   前375年—前369年 #死去
+u 7
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周烈王         ruled            -375周烈王元年          -369周烈王七年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"烈王二年"
+s+
+u 2
+u 10
+
+[顯王]
+wref_zh 周顯王
+#統治   前368年—前321年 #死去
+u 48
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周顯王         ruled            -368周顯王元年          -321周顯王四十八年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"顯王五年"
+s+
+u 5
+u 44
+u 48
+
+[慎靚王]
+wref_zh 周慎靚王
+#統治   前320年—前315年 #死去
+u 1
+u 6
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周慎靚王       ruled            -320周慎靚王元年        -315周慎靚王六年
+
+[周赧王]
+wref_zh 周赧王
+#統治   前314年－前256年 #死去
+u 59
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周赧王         ruled            -314周赧王元年          -256周赧王五十九年
+
+s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7004>"八年，秦攻宜陽"
+s+
+u 8
+u 59
+
+def[周昭文君]
+
+tag 春秋戦国周
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name 周昭文君
+tag 周昭文君
+
+## <https://ctext.org/datawiki.pl?if=en&res=634793>
+tag ctext
+#周昭文君       ruled            -255周昭文君元年        -249周昭文君七年
+## <https://ctext.org/date.pl?if=en&entityid=603814&year=1&month=&day=>
+#Gregorian:     -256/12/28 - -255/12/27
+#Julian:         -255/1/1 - -255/12/31
+#周昭文君元年，歲在丙午
+BC255 = 1
+u 1
+u 7
+name 周昭文君
+
+<-周赧王 [?:BC255] #建元前の即位{#春秋戦国周 #周昭文君}
+
+
+def[姫余臣]
+
+tag 春秋戦国周
+tag 漢民族
+tag 春秋時代
+tag 支那戦国時代
+tag 西周
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name_ja 姫余臣
+%tag   &
+%tag   name_tw 周攜王
+tag 姫余臣
++name era 姫余臣
+
+wref_zh 周攜王
+#統治   前771年—前750年 #死去
+u 1
+u 21
+
+<-幽王 [?:BC771] #建元前の即位{#春秋戦国周 #姫余臣 #周王} #西周 #東周
+<-幽王 [?:BC771] #春秋戦国称元{#春秋戦国周 #姫余臣} #西周 #東周 #起事建元
+BC771 = 1
+->平王 [?:BC750] #陥落{#東周 #平王, #春秋戦国周 #姫余臣} #西周 #死去
+
+## <https://ja.wikipedia.org/wiki/%E6%90%BA%E7%8E%8B>
+#"「二十一年」（従来は晋の文侯の21年、つまり紀元前760年と解釈されてきた）"
+#"「立二十又一年」（携恵王の21年、つまり紀元前750年）" #死去
+
+def[颓]
+
+tag 春秋戦国周
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name_cn 颓
+%tag   &
+%tag   name_cn 周王颓
+%tag   &
+%tag   name_cn 王子颓
+tag 颓
++name era 颓
+
+wref_zh 周王颓
+u 1
+u 3
+#統治   前675年－前673年
+#周惠王二年（公元前675年）的秋季，蔿國、邊伯、石速、詹父、
+#子禽祝跪和蘇子奉王子頹進攻惠王。失敗之後，蘇子奉王子頹出奔衛國。...
+#當年的冬季，王子頹正式稱王。
+<-惠王 [?:BC675] #蜂起{#春秋戦国周 #颓} #事由 #東周
+<-惠王 [?:BC675] #春秋戦国称元{#春秋戦国周 #颓} #起事建元 #東周
+BC675 = 1
+#周惠王四年（公元前673年）的夏季， #死去
+->惠王 [?:BC673] #陥落{#東周 #惠王, #春秋戦国周 #颓} #死去
+
+
+
 %tag source
 %tag   name_ja 史記
 
@@ -787,27 +2190,6 @@ tag 真公濞
 <-真公濞(丁未) [史記:-824,漢:-88] #年異説発生 #春秋戦国魯
     #史記_十二諸侯年表第二
 
-[共和]
-name monarch
-name_ja 共和
-name_cn 共和
-name_kana きょう わ
-&
-name monarch
-name 共和紀年
-&
-name country monarch
-name 周召共和
-&
-name country monarch+
-name 周召共和紀年
-wref_ja 共和_(周)
-wref_zh 共和_(西周)
-wref_en Gonghe_Regency
-BC841 = 1
-sw 共和
-
-tag 元号説のある即位紀年
 
 
 [鄭桓公友]
@@ -830,14 +2212,13 @@ s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014>"楚滅�
 ->楚惠王章 [史記:BC479] #陥落{#春秋戦国楚 #楚惠王章, #春秋戦国陳 #陳湣公越}
     #春秋戦国時代
 
+
+
+
 %tag tag
 %tag   name_ja 戦国七雄
 %tag   group of 支那戦国時代
 
-[周元王]
-#y~2502
-
-<-敬王 [史記:BC476] #春秋戦国称元{#春秋戦国周 #周元王} #春秋戦国時代
 
 [秦厲共公]
 #y~2538
@@ -901,12 +2282,195 @@ s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7015>"秦滅�
 ->秦始皇 [史記:BC222] #陥落{#春秋戦国秦 #始皇帝, #春秋戦国趙 #代王嘉}
     #春秋戦国時代
 
+
+%tag country
+%tag   label_ja 姜斉
+%tag   &
+%tag   name_ja 斉
+%tag   period of 春秋戦国齊
+
+[齊宣公就匝]
+## <https://zh.wikipedia.org/wiki/%E9%BD%8A%E5%AE%A3%E5%85%AC>
+#齊宣公四十八年（前408年）
+#齊宣公五十一年（前405年） #死去
+->齊康公貸 [?:BC405] #改元前の死去{#姜斉 #齊宣公就匝}
+
+[齊康公貸]
+
+->田和 [?:BC379] #改元前の死去{#姜斉 #齊康公貸}
+
+%tag country
+%tag   label_ja 田斉
+%tag   &
+%tag   name_ja 斉
+%tag   period of 春秋戦国齊
+
+def[田和]
+
+tag 春秋戦国齊
+tag 田斉
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name_ja 田和
+tag 田和
++name era 田和
+
+wref_zh 田和
+#統治   前404年—前384年，前386年改年稱元年
+u 1
+u 2
+
+<-齊康公貸 [?:BC386] #春秋戦国称元{#田斉 #田和} #春秋戦国時代
+BC386 = 1
+->田剡 [?:BC384] #改元前の死去{#田斉 #田和} #春秋戦国時代
+
+def[田剡]
+
+tag 田斉
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name_ja 田剡
+%tag   &
+%tag   name_ja 田侯剡
+tag 田剡
++name era 田剡
+
+wref_zh 田侯剡
+#統治   前383年—前375年
+u 1
+u 10
+
+<-田和 [?:BC384] #建元前の即位{#田斉 #田剡} #春秋戦国時代
+<-田和 [?:BC384] #春秋戦国称元{#田斉 #田剡} #春秋戦国時代
+BC384 = 1
+->田午 [?:BC375] #改元前の死去{#田斉 #田剡} #春秋戦国時代
+
+def[田午]
+
+tag 春秋戦国齊
+tag 田斉
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+
+%tag person
+%tag   name_ja 田午
+tag 田午
++name era 田午
+
+wref_zh 田午
+#統治   前374年—前357年
+u 1
+u 18
+
+<-田剡 [?:BC374] #建元前の即位{#田斉 #田午} #春秋戦国時代
+<-田剡 [?:BC374] #春秋戦国称元{#田斉 #田午} #春秋戦国時代
+BC374 = 1
+->齊威王因(乙丑) [?:BC357] #改元前の死去{#田斉 #田午} #春秋戦国時代
+
+def[齊威王因(乙丑)]
+#y~2770
+
+wref_zh 齊威王
+#統治       前356年－前320年
+u 1
+u 37
+
+->齊威王因 [?:BC320,漢:BC92] #年旧説発生{} #前漢 #史記
+
++name era 齊威王因
+
+BC356 = 1
+<-田午 [?:BC356] #春秋戦国称元{#田斉 #齊威王因} #春秋戦国時代
+
+tag 春秋戦国齊
+tag 田斉
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 齊威王因
+tag 春秋戦国即位紀年
+
+def[齊宣王辟彊(壬寅)]
+#y~2769
+
+wref_zh 齊宣王
+#統治   前319年—前301年
+u 1
+u 19
+
++name era 齊宣王辟彊
+
+->齊宣王辟彊 [?:BC301,漢:BC92] #年旧説発生{} #前漢 #史記
+
+BC319 = 1
+<-齊威王因(乙丑) [?:BC319] #春秋戦国称元{#田斉 #齊宣王辟彊} #春秋戦国時代
+
+tag 春秋戦国齊
+tag 田斉
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 齊宣王辟彊
+tag 春秋戦国即位紀年
+
+->齊湣王地(辛酉) [?:BC301] #改元前の死去{#田斉 #齊宣王辟彊}
+
+def[齊湣王地(辛酉)]
+#y~2596
+
+wref_zh 齊湣王
+u 1
+u 17
+#統治   前300年—前284年 #死去
+
++name era 齊湣王地
+
+->齊湣王地 [?:BC284,漢:BC92] #年旧説発生{} #前漢 #史記
+
+BC300 = 1
+
+<-齊宣王辟彊(壬寅) [?:BC300] #春秋戦国称元{#田斉 #齊湣王地} #春秋戦国時代
+
+tag 春秋戦国齊
+tag 田斉
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 齊湣王地
+tag 春秋戦国即位紀年
+
+->齊襄王法章 [?:BC284] #改元前の死去{#田斉 #齊湣王地}
+
+
+[齊襄王法章]
+#y~2600
+
+wref_zh 齊襄王
+#統治    前283年—前265年
+u 1
+u 19
+
 [齊王建]
 #y~2599
 
 s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7015>"秦滅齊"
-->秦始皇 [史記:BC221] #陥落{#春秋戦国秦 #始皇帝, #春秋戦国齊 #齊王建}
+->秦始皇 [史記:BC221] #陥落{#春秋戦国秦 #始皇帝, #田斉 #齊王建}
     #春秋戦国時代
+
+wref_zh 齊王建
+#統治   前264年—前221年
+u 1
+u 44
 
 [秦始皇]
 ## Source:
@@ -1100,6 +2664,10 @@ tag 劉邦
 %tag   name_ja 楚諸侯王即位紀年
 %tag   group of 諸侯王等即位紀年
 
+%tag source
+%tag   name_tw 漢書 卷十三 異姓諸侯王表 第一
+%tag   group of 漢書
+
 def[項羽]
 
 tag 楚 (項羽)
@@ -1131,11 +2699,22 @@ s+
 #BC205-1寅 2-1西楚
 #BC203-12寅 4-12西楚
 #XXXcalendar #寅正'
+#
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7013>"項籍"
+s+
+tag 漢書 卷十三 異姓諸侯王表 第一
+<-義帝 [漢:BC206-1] #建元前の即位{#項羽 #楚_(項羽) #西楚霸王} #旧説
+#BC206-1寅 1-1
+#BC205-1寅 2-1
+#BC203-9寅 4-9
+#BC202 -1 #陥落 #死去
+#calendar #寅正
+->漢 [漢:BC202-1] #陥落{#前漢 #劉邦, #項羽 #楚_(項羽)} #旧説
 
 BC206 = 1
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7001%E4%B8%8A>"二年冬十月"
-<-義帝 [秦:BC206-10] #陥落{#西楚 #項羽, #義帝 #楚_(項羽)} #死去
+<-義帝 [史記:BC205-10] #陥落{#西楚 #項羽, #義帝 #楚_(項羽)} #死去
 #      BC205-10[秦]
 
 [楚王信]
@@ -1167,6 +2746,15 @@ tag 史記 秦楚之際月表第四
 #BC201-12寅 4-12
 #BC200-1寅 4-13
 #XXXcalendar #寅正'
+#
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7013>"王吳芮"
+s+
+tag 漢書 卷十三 異姓諸侯王表 第一
+#BC206-1寅 1-1
+#BC205-1寅 2-1
+#BC203-9寅 4-9
+#BC202 -10 #転封
+
 
 BC206 = 1
 
@@ -1175,11 +2763,68 @@ s#史記<https://ja.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"衡山�
 tag 史記 秦楚之際月表第四
 #BC200-2寅 -1
 #BC200-7寅 -6
+#
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7013>"長沙國"
+s+
+tag 漢書 卷十三 異姓諸侯王表 第一
+#BC202(漢5)-2-乙未 始
+#BC202(漢5)-6 #死去
 [長沙成王臣]
 s#史記<https://ja.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"長沙成王臣"
 tag 史記 秦楚之際月表第四
 #BC200-8寅 -1
 #BC200-9'寅 -3
+#
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7013>"長沙國"
+s+
+tag 漢書 卷十三 異姓諸侯王表 第一
+#BC201(漢6) 1 #即位
+#BC194(孝惠1) 8
+[長沙哀王回]
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7013>"哀王回"
+s+
+tag 漢書 卷十三 異姓諸侯王表 第一
+#BC193(孝惠2) 1 #即位
+#BC187(高后1) 7
+[長沙恭王右]
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7013>"共王若"
+s+
+tag 漢書 卷十三 異姓諸侯王表 第一
+#BC186(高后2) 1 #即位
+#BC179(孝文1) 8
+def[長沙靖王著(癸亥)]
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7013>"靖王產"
+s+
+tag 漢書 卷十三 異姓諸侯王表 第一
+BC178 = 1
+#BC178(孝文2) 1 #即位
+#BC157(後元7) 22 #死去
+u 1
+u 22
+#
+#史記 表5: BC177(孝文3) (1)-BC157(後7) (21)
+
+## <https://ja.wikipedia.org/wiki/%E5%91%89%E6%B0%8F%E9%95%B7%E6%B2%99%E5%9B%BD>
+#呉著   長沙靖王        前178年 - 前157年
+
+## <https://zh.wikipedia.org/wiki/%E5%90%B4%E8%91%97>
+#汉文帝二年（前178年）襲位，在位二十一年，汉文帝后七年（前157年）逝世，
+
+<-長沙靖王著 [漢:BC92,漢:92] #年誤伝発生{} #後漢 #漢書
+
++name era 長沙靖王著
+
+tag 漢長沙
+tag 漢民族
+tag 漢諸侯王即位紀年
+tag 前漢
+tag 長沙靖王著
+
+<-長沙恭王右 [漢:BC178] #漢称元{#漢長沙 #長沙靖王著} #前漢 #旧説
+->漢文帝後 [漢:BC157] #漢廃国{#漢長沙} #前漢
+
+
+
 
 def[九江王英布]
 
@@ -1200,6 +2845,14 @@ tag 史記 秦楚之際月表第四
 #BC205-12寅 2-12
 #XXXcalendar #寅正'
 tag 楚諸侯王即位紀年
+#
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7013>"王英布"
+s+
+tag 漢書 卷十三 異姓諸侯王表 第一
+#BC206-1寅 1-1
+#BC205-1寅 2-1
+#BC205-11寅 2-11
+#BC205-12 #陥落
 
 BC206 = 1
 
@@ -1233,6 +2886,13 @@ tag 史記 秦楚之際月表第四
 #BC205-6寅 2-5
 #XXXcalendar
 tag 楚諸侯王即位紀年
+#
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7013>"章邯"
+s+
+tag 漢書 卷十三 異姓諸侯王表 第一
+#BC206-1寅 1-1
+#BC205-1寅 2-1
+#BC205-5寅 2-5 #陥落
 
 BC206 = 1
 
@@ -1266,6 +2926,14 @@ tag 史記 秦楚之際月表第四
 #BC202-9寅 5-9
 #XXXcalendar
 tag 楚諸侯王即位紀年
+#
+s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7013>"臧荼"
+s+
+tag 漢書 卷十三 異姓諸侯王表 第一
+#BC206-1寅 1-1
+#BC205-1寅 2-1
+#BC202-9寅 4-9 #陥落
+#calendar #寅正
 
 BC206 = 1
 

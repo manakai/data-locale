@@ -563,6 +563,9 @@ for my $row (@{$In->{rows}}) {
         $key = $Header->[$i] . $key;
         $Data->{eras}->{$key}->{era_name} = $k;
       }
+      if ($key eq '常山王義') {
+        $Data->{eras}->{$key}->{person} = '後少帝';
+      }
       if (defined $Data->{eras}->{$key}->{years}->[1]) {
         die "Conflicting |$cell| ($key)";
       }

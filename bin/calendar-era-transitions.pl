@@ -853,6 +853,15 @@ sub parse_date ($$;%) {
           die "Bad date |$v| ($all)";
         }
       }
+    } elsif ($v =~ s{^(?:\?):(BC|)(-?[0-9]+)\s*}{}) {
+      my $y = $1 ? 1 - $2 : 0+$2;
+      if ($args{start}) {
+        push @jd, gymd2jd $y, 1, 1;
+      } elsif ($args{end}) {
+        push @jd, -1 + gymd2jd $y+1, 1, 1;
+      } else {
+          die "Bad date |$v| ($all)";
+        }
     } else {
       die "Bad date |$v| ($all)";
     }

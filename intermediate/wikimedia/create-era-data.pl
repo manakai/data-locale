@@ -172,6 +172,14 @@ u %d
       if not $dup and not $pperson =~ /後$/ and not $pperson eq "初更" and
          not defined $data->{person};
   $pperson = $data->{person} if defined $data->{person};
+
+  if ($person eq '貞定王') {
+    print q{
+name country monarch
+name 周貞定王
+&
+    };
+  }
   
   printf q{
 name %s monarch%s
@@ -251,7 +259,19 @@ s+
     if ($pk eq '真公濞') {
       push @pk, '真公濞(丁未)';
     }
+    push @pk, '趙王敖(庚子)' if $key eq '趙隱王如意';
+    push @pk, '齊湣王地(辛酉)' if $key eq '齊襄王法章';
+    push @pk, '宣王(乙亥)' if $key eq '幽王';
+    push @pk, '姬猛' if $key eq '敬王';
     #push @pk, $data->{prev_other} if defined $data->{prev_other};
+    my $ctag = $Prefix2 . $data->{country};
+    if ($ctag eq '春秋戦国齊') {
+      if ($data->{offset} < -377) {
+        $ctag = '姜斉';
+      } else {
+        $ctag = '田斉';
+      }
+    }
     my $date;
     if (defined $data->{start_day}) {
       if (defined $data->{start_day}->[2]) {
@@ -275,10 +295,13 @@ s+
         (join ',', @pk), 
         $date,
         ($y == $data->{offset} + 1 ? $Prefix2 . '称元' : '利用開始'),
-        $Prefix2 . $data->{country},
+        $ctag,
         (person $data->{country}, $pperson),
         ($Prefix2 eq '漢' ? '前漢' : '春秋戦国時代'),
         ($Prefix2 eq '漢' ? cal_tag ($y, $data->{start_day}) : $data->{country} eq '秦' ? '#秦正' : '');
+    if ($key eq '齊威王因') {
+      print qq{  #旧説\n};
+    }
   } # $y
   if ($Data->{source_type} eq 'table5' and
       ($data->{first} or not keys %{$data->{prev} or {}})) {
