@@ -176,6 +176,22 @@ tag 楚諸侯王即位紀年
 %tag   name_ja 史記 漢興以來諸侯王年表 第五
 %tag   group of 史記
 
+%tag source
+%tag   name_ja 史記 高祖功臣侯者年表 第六
+%tag   group of 史記
+
+%tag source
+%tag   name_ja 史記 惠景閒矦者年表 第七
+%tag   group of 史記
+
+%tag source
+%tag   name_ja 史記 建元以來侯者年表 第八
+%tag   group of 史記
+
+%tag source
+%tag   name_ja 史記 建元以來王子侯者年表 第九
+%tag   group of 史記
+
 %tag action
 %tag   name_ja 漢称元
 %tag   group of 諸侯王等称元
@@ -325,6 +341,7 @@ tag 漢書 卷十三 異姓諸侯王表 第一
 #BC199(漢8) 3
 
 <-趙王張耳 [漢:BC201] #漢称元{#漢趙 #趙王敖} #前漢 #旧説
+BC201 = 1
 
 +name era 趙王敖
 

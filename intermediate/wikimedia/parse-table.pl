@@ -29,6 +29,7 @@ $Data->{source_type} = shift or die;
   my $bytes = scalar <>;
 
   my $data = [];
+  my @filler;
   for (split /\x0D?\x0A/, extract_source $bytes) {
     if (/^\|-/) {
       if ($Data->{source_type} eq 'table5' and
@@ -40,12 +41,19 @@ $Data->{source_type} = shift or die;
       $data = [];
       push @{$Data->{rows}}, $data;
     } elsif (/^\|\}$/) {
-      last;
+      if ($Data->{source_type} eq 'table7') {
+        push @filler, '';
+      } else {
+        last;
+      }
     } elsif (/^\|/) {
       s{^\|}{};
 
       if ($Data->{source_type} eq 'table3') {
         s{^colspan="\d+"\|}{} and push @$data, '';
+      }
+      if (@$data == 2) {
+        push @$data, @filler;
       }
 
       s{<ref[^<>]*>.*?</ref>}{}g;

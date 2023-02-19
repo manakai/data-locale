@@ -164,7 +164,11 @@ wp-en-jp-eras.json wp-en-kr-eras.json: wp-en-%.json: \
 shiki: \
     era-data-table2.txt \
     era-data-table3.txt \
-    era-data-table5.txt
+    era-data-table5.txt \
+    era-data-table6.txt \
+    era-data-table7.txt \
+    era-data-table8.txt \
+    era-data-table9.txt
 
 $(TEMP_PATH)/table2.html:
 	$(WGET) -O $@ "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7014?action=edit&veswitched=1"
@@ -172,6 +176,14 @@ $(TEMP_PATH)/table3.html:
 	$(WGET) -O $@ "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7015?action=edit&veswitched=1"
 $(TEMP_PATH)/table5.html:
 	$(WGET) -O $@ "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7017?action=edit&veswitched=1"
+$(TEMP_PATH)/table6.html:
+	$(WGET) -O $@ "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E9%AB%98%E7%A5%96%E5%8A%9F%E8%87%A3%E4%BE%AF%E8%80%85%E5%B9%B4%E8%A1%A8?action=edit&veswitched=1"
+$(TEMP_PATH)/table7.html:
+	$(WGET) -O $@ "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E6%83%A0%E6%99%AF%E9%96%92%E7%9F%A6%E8%80%85%E5%B9%B4%E8%A1%A8?action=edit&veswitched=1"
+$(TEMP_PATH)/table8.html:
+	$(WGET) -O $@ "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7020?action=edit&veswitched=1"
+$(TEMP_PATH)/table9.html:
+	$(WGET) -O $@ "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7021?action=edit&veswitched=1"
 
 table2.json: parse-table.pl $(TEMP_PATH)/table2.html
 	$(PERL) $< table2 $(TEMP_PATH)/table2.html > $@
@@ -179,6 +191,14 @@ table3.json: parse-table.pl $(TEMP_PATH)/table3.html
 	$(PERL) $< table3 $(TEMP_PATH)/table3.html > $@
 table5.json: parse-table.pl $(TEMP_PATH)/table5.html
 	$(PERL) $< table5 $(TEMP_PATH)/table5.html > $@
+table6.json: parse-table.pl $(TEMP_PATH)/table6.html
+	$(PERL) $< table6 $(TEMP_PATH)/table6.html > $@
+table7.json: parse-table.pl $(TEMP_PATH)/table7.html
+	$(PERL) $< table7 $(TEMP_PATH)/table7.html > $@
+table8.json: parse-table.pl $(TEMP_PATH)/table8.html
+	$(PERL) $< table8 $(TEMP_PATH)/table8.html > $@
+table9.json: parse-table.pl $(TEMP_PATH)/table9.html
+	$(PERL) $< table9 $(TEMP_PATH)/table9.html > $@
 
 eras-table2.json: read-table.pl table2.json
 	$(PERL) $< table2.json > $@
@@ -186,6 +206,14 @@ eras-table3.json: read-table.pl table3.json
 	$(PERL) $< table3.json > $@
 eras-table5.json: read-table.pl table5.json
 	$(PERL) $< table5.json > $@
+eras-table6.json: read-table6.pl table6.json
+	$(PERL) $< table6.json > $@
+eras-table7.json: read-table6.pl table7.json
+	$(PERL) $< table7.json > $@
+eras-table8.json: read-table6.pl table8.json
+	$(PERL) $< table8.json > $@
+eras-table9.json: read-table6.pl table9.json
+	$(PERL) $< table9.json > $@
 
 era-data-table2.txt: create-era-data.pl eras-table2.json
 	$(PERL) $< eras-table2.json > $@
@@ -193,5 +221,13 @@ era-data-table3.txt: create-era-data.pl eras-table3.json
 	$(PERL) $< eras-table3.json > $@
 era-data-table5.txt: create-era-data.pl eras-table5.json
 	$(PERL) $< eras-table5.json > $@
+era-data-table6.txt: create-era-data.pl eras-table6.json
+	$(PERL) $< eras-table6.json > $@
+era-data-table7.txt: create-era-data.pl eras-table7.json
+	$(PERL) $< eras-table7.json > $@
+era-data-table8.txt: create-era-data.pl eras-table8.json
+	$(PERL) $< eras-table8.json > $@
+era-data-table9.txt: create-era-data.pl eras-table9.json
+	$(PERL) $< eras-table9.json > $@
 
 ## License: Public Domain.

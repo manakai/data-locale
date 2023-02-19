@@ -1,0 +1,2053 @@
+{
+   "countries" : {
+      "下酈" : 1,
+      "下麾" : 1,
+      "冠軍" : 1,
+      "北石" : 1,
+      "南奅" : 1,
+      "博望" : 1,
+      "合騎" : 1,
+      "周子南君" : 1,
+      "壯" : 1,
+      "安道" : 1,
+      "宜冠" : 1,
+      "宜春" : 1,
+      "將梁" : 1,
+      "岸頭" : 1,
+      "常樂" : 1,
+      "平州" : 1,
+      "平津" : 1,
+      "平陵" : 1,
+      "幾" : 1,
+      "從平" : 1,
+      "從驃" : 1,
+      "成安" : 1,
+      "持裝" : 1,
+      "散" : 1,
+      "昆" : 1,
+      "昌武" : 1,
+      "東成" : 1,
+      "梁期" : 1,
+      "樂安" : 1,
+      "樂通" : 1,
+      "河綦" : 1,
+      "浩" : 1,
+      "海常" : 1,
+      "涅陽" : 1,
+      "涉安" : 1,
+      "涉軹" : 1,
+      "涉都" : 1,
+      "湘成" : 1,
+      "漯陰" : 1,
+      "潦" : 1,
+      "澅清" : 1,
+      "無錫" : 1,
+      "煇渠" : 1,
+      "牧丘" : 1,
+      "瓡讘" : 1,
+      "發干" : 1,
+      "眾利" : 1,
+      "瞭" : 1,
+      "符離" : 1,
+      "繚嫈" : 1,
+      "義陽" : 1,
+      "翕" : 1,
+      "臧馬" : 1,
+      "臨蔡" : 1,
+      "若陽" : 1,
+      "荻苴" : 1,
+      "蘌兒" : 1,
+      "術陽" : 1,
+      "襄城" : 1,
+      "親陽" : 1,
+      "長平" : 1,
+      "開陵" : 1,
+      "陰安" : 1,
+      "隨成" : 1,
+      "隨桃" : 1,
+      "騏" : 1,
+      "騠茲" : 1,
+      "龍亢" : 1,
+      "龍镪" : 1
+   },
+   "eras" : {
+      "今侯伉" : {
+         "country" : "長平",
+         "key" : "今侯伉",
+         "min_year" : 1,
+         "offset" : -104,
+         "prev" : {
+            "-103" : "烈侯衛青"
+         },
+         "years" : [
+            null,
+            -103
+         ]
+      },
+      "今侯偃" : {
+         "country" : "壯",
+         "key" : "今侯偃",
+         "min_year" : 1,
+         "offset" : -114,
+         "prev" : {
+            "-113" : "侯復陸支"
+         },
+         "years" : [
+            null,
+            -113,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104,
+            null,
+            null,
+            null,
+            -100
+         ]
+      },
+      "今侯安漢" : {
+         "country" : "散",
+         "key" : "今侯安漢",
+         "min_year" : 1,
+         "offset" : -102,
+         "prev" : {
+            "-101" : "侯董荼吾"
+         },
+         "years" : [
+            null,
+            -101
+         ]
+      },
+      "今侯廣漢" : {
+         "country" : "常樂",
+         "key" : "今侯廣漢",
+         "min_year" : 1,
+         "offset" : -102,
+         "prev" : {
+            "-101" : "肥侯稠雕"
+         },
+         "years" : [
+            null,
+            -101
+         ]
+      },
+      "今侯當時" : {
+         "country" : "眾利",
+         "key" : "今侯當時",
+         "min_year" : 1,
+         "offset" : -105,
+         "prev" : {
+            "-104" : "質侯伊即軒"
+         },
+         "years" : [
+            null,
+            -104,
+            null,
+            null,
+            null,
+            -100
+         ]
+      },
+      "今侯首" : {
+         "country" : "北石",
+         "key" : "今侯首",
+         "min_year" : 1,
+         "offset" : -101,
+         "prev" : {
+            "-100" : "侯吳陽"
+         },
+         "years" : [
+            null,
+            -100
+         ]
+      },
+      "侯五利將軍欒大" : {
+         "country" : "樂通",
+         "end_year" : -111,
+         "first" : 1,
+         "key" : "侯五利將軍欒大",
+         "min_year" : 1,
+         "offset" : -113,
+         "start_day" : [
+            4,
+            "",
+            "乙巳"
+         ],
+         "years" : [
+            null,
+            -112
+         ]
+      },
+      "侯任破胡" : {
+         "country" : "梁期",
+         "first" : 1,
+         "key" : "侯任破胡",
+         "min_year" : 1,
+         "offset" : -112,
+         "start_day" : [
+            7,
+            "",
+            "辛巳"
+         ],
+         "years" : [
+            null,
+            -111,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104,
+            null,
+            null,
+            null,
+            -100
+         ]
+      },
+      "侯充國" : {
+         "country" : "昌武",
+         "end_year" : -103,
+         "key" : "侯充國",
+         "min_year" : 1,
+         "offset" : -109,
+         "prev" : {
+            "-108" : "堅侯趙安稽"
+         },
+         "years" : [
+            null,
+            -108
+         ]
+      },
+      "侯公孫敖" : {
+         "country" : "合騎",
+         "end_year" : -120,
+         "first" : 1,
+         "key" : "侯公孫敖",
+         "min_year" : 1,
+         "offset" : -124,
+         "start_day" : [
+            4,
+            "",
+            "丁未"
+         ],
+         "years" : [
+            null,
+            -123,
+            null,
+            -121
+         ]
+      },
+      "侯公孫賀" : {
+         "country" : "南奅",
+         "end_year" : -111,
+         "first" : 1,
+         "key" : "侯公孫賀",
+         "min_year" : 1,
+         "offset" : -124,
+         "start_day" : [
+            4,
+            "",
+            "丁未"
+         ],
+         "years" : [
+            null,
+            -123,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -116,
+            null,
+            null,
+            null,
+            -112
+         ]
+      },
+      "侯劉福" : {
+         "country" : "繚嫈",
+         "end_year" : -108,
+         "first" : 1,
+         "key" : "侯劉福",
+         "min_year" : 1,
+         "offset" : -110,
+         "start_day" : [
+            5,
+            "",
+            "己卯"
+         ],
+         "years" : [
+            null,
+            -109
+         ]
+      },
+      "侯吳陽" : {
+         "country" : "北石",
+         "first" : 1,
+         "key" : "侯吳陽",
+         "min_year" : 1,
+         "offset" : -110,
+         "start_day" : [
+            1,
+            "",
+            "壬午"
+         ],
+         "years" : [
+            null,
+            -109,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -101
+         ]
+      },
+      "侯呼毒尼" : {
+         "country" : "下麾",
+         "first" : 1,
+         "key" : "侯呼毒尼",
+         "min_year" : 1,
+         "offset" : -121,
+         "start_day" : [
+            6,
+            "",
+            "乙亥"
+         ],
+         "years" : [
+            null,
+            -120,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -112
+         ]
+      },
+      "侯唊" : {
+         "country" : "平州",
+         "end_year" : -106,
+         "first" : 1,
+         "key" : "侯唊",
+         "min_year" : 1,
+         "offset" : -108,
+         "start_day" : [
+            4,
+            "",
+            "丁卯"
+         ],
+         "years" : [
+            null,
+            -107
+         ]
+      },
+      "侯嘉" : {
+         "country" : "涉都",
+         "end_year" : -102,
+         "first" : 1,
+         "key" : "侯嘉",
+         "min_year" : 1,
+         "offset" : -110,
+         "years" : [
+            null,
+            -109,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -102
+         ]
+      },
+      "侯多軍" : {
+         "country" : "無錫",
+         "first" : 1,
+         "key" : "侯多軍",
+         "min_year" : 1,
+         "offset" : -110,
+         "years" : [
+            null,
+            -109
+         ]
+      },
+      "侯姬嘉" : {
+         "country" : "周子南君",
+         "first" : 1,
+         "key" : "侯姬嘉",
+         "min_year" : 1,
+         "offset" : -113,
+         "start_day" : [
+            11,
+            "",
+            "丁卯"
+         ],
+         "years" : [
+            null,
+            -112,
+            null,
+            null,
+            null,
+            null,
+            -107
+         ]
+      },
+      "侯孫都" : {
+         "country" : "臨蔡",
+         "first" : 1,
+         "key" : "侯孫都",
+         "min_year" : 1,
+         "offset" : -110,
+         "start_day" : [
+            8,
+            "閏",
+            "癸卯"
+         ],
+         "years" : [
+            null,
+            -109
+         ]
+      },
+      "侯居服" : {
+         "country" : "東成",
+         "first" : 1,
+         "key" : "侯居服",
+         "min_year" : 1,
+         "offset" : -110,
+         "start_day" : [
+            8,
+            "閏",
+            "癸卯"
+         ],
+         "years" : [
+            null,
+            -109
+         ]
+      },
+      "侯左將黃同" : {
+         "country" : "下酈",
+         "first" : 1,
+         "key" : "侯左將黃同",
+         "min_year" : 1,
+         "offset" : -110,
+         "start_day" : [
+            4,
+            "",
+            "丁酉"
+         ],
+         "years" : [
+            null,
+            -109,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -100
+         ]
+      },
+      "侯延年" : {
+         "country" : "成安",
+         "end_year" : -104,
+         "first" : 1,
+         "key" : "侯延年",
+         "min_year" : 1,
+         "offset" : -112,
+         "start_day" : [
+            3,
+            "",
+            "壬子"
+         ],
+         "years" : [
+            null,
+            -111,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104
+         ]
+      },
+      "侯建成" : {
+         "country" : "開陵",
+         "first" : 1,
+         "key" : "侯建成",
+         "min_year" : 1,
+         "offset" : -110,
+         "start_day" : [
+            8,
+            "閏",
+            "癸卯"
+         ],
+         "years" : [
+            null,
+            -109
+         ]
+      },
+      "侯張次公" : {
+         "country" : "岸頭",
+         "end_year" : -121,
+         "first" : 1,
+         "key" : "侯張次公",
+         "min_year" : 1,
+         "offset" : -127,
+         "start_day" : [
+            6,
+            "",
+            "壬辰"
+         ],
+         "years" : [
+            null,
+            -126
+         ]
+      },
+      "侯張阍歸義" : {
+         "country" : "幾",
+         "end_year" : -104,
+         "first" : 1,
+         "key" : "侯張阍歸義",
+         "min_year" : 1,
+         "offset" : -107,
+         "start_day" : [
+            3,
+            "",
+            "癸未"
+         ],
+         "years" : [
+            null,
+            -106
+         ]
+      },
+      "侯張騫" : {
+         "country" : "博望",
+         "end_year" : -120,
+         "first" : 1,
+         "key" : "侯張騫",
+         "min_year" : 1,
+         "offset" : -123,
+         "start_day" : [
+            3,
+            "",
+            "甲辰"
+         ],
+         "years" : [
+            null,
+            -122,
+            -121
+         ]
+      },
+      "侯復陸支" : {
+         "country" : "壯",
+         "first" : 1,
+         "key" : "侯復陸支",
+         "min_year" : 1,
+         "offset" : -119,
+         "start_day" : [
+            6,
+            "",
+            "丁卯"
+         ],
+         "years" : [
+            null,
+            -118,
+            null,
+            null,
+            null,
+            -114
+         ]
+      },
+      "侯慶" : {
+         "country" : "平津",
+         "end_year" : -106,
+         "key" : "侯慶",
+         "min_year" : 1,
+         "offset" : -120,
+         "prev" : {
+            "-119" : "獻侯公孫弘"
+         },
+         "years" : [
+            null,
+            -119,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -110,
+            null,
+            null,
+            -107
+         ]
+      },
+      "侯扜者" : {
+         "country" : "瓡讘",
+         "first" : 1,
+         "key" : "侯扜者",
+         "min_year" : 1,
+         "offset" : -107,
+         "start_day" : [
+            1,
+            "",
+            "乙酉"
+         ],
+         "years" : [
+            null,
+            -106
+         ]
+      },
+      "侯揭陽令史定" : {
+         "country" : "安道",
+         "first" : 1,
+         "key" : "侯揭陽令史定",
+         "min_year" : 1,
+         "offset" : -111,
+         "start_day" : [
+            3,
+            "",
+            "乙酉"
+         ],
+         "years" : [
+            null,
+            -110,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104,
+            null,
+            null,
+            null,
+            -100
+         ]
+      },
+      "侯敞屠洛" : {
+         "country" : "湘成",
+         "end_year" : -111,
+         "first" : 1,
+         "key" : "侯敞屠洛",
+         "min_year" : 1,
+         "offset" : -119,
+         "start_day" : [
+            6,
+            "",
+            "丁卯"
+         ],
+         "years" : [
+            null,
+            -118,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -112
+         ]
+      },
+      "侯於單" : {
+         "country" : "涉安",
+         "end_day" : [
+            5,
+            0,
+            null
+         ],
+         "end_year" : -125,
+         "first" : 1,
+         "key" : "侯於單",
+         "min_year" : 1,
+         "offset" : -126,
+         "start_day" : [
+            4,
+            "",
+            "丙子"
+         ],
+         "years" : [
+            null,
+            -125
+         ]
+      },
+      "侯月氏" : {
+         "country" : "親陽",
+         "end_year" : -123,
+         "first" : 1,
+         "key" : "侯月氏",
+         "min_year" : 1,
+         "offset" : -127,
+         "start_day" : [
+            10,
+            "",
+            "癸巳"
+         ],
+         "years" : [
+            null,
+            -126
+         ]
+      },
+      "侯朝鮮尼谿相參" : {
+         "country" : "澅清",
+         "first" : 1,
+         "key" : "侯朝鮮尼谿相參",
+         "min_year" : 1,
+         "offset" : -108,
+         "start_day" : [
+            6,
+            "",
+            "丙辰"
+         ],
+         "years" : [
+            null,
+            -107
+         ]
+      },
+      "侯朝鮮相韓陰" : {
+         "country" : "荻苴",
+         "first" : 1,
+         "key" : "侯朝鮮相韓陰",
+         "min_year" : 1,
+         "offset" : -108,
+         "start_day" : [
+            4,
+            "",
+            null
+         ],
+         "years" : [
+            null,
+            -107
+         ]
+      },
+      "侯李朔" : {
+         "country" : "涉軹",
+         "end_year" : -121,
+         "first" : 1,
+         "key" : "侯李朔",
+         "min_year" : 1,
+         "offset" : -124,
+         "start_day" : [
+            4,
+            "",
+            "丁未"
+         ],
+         "years" : [
+            null,
+            -123
+         ]
+      },
+      "侯李蔡" : {
+         "country" : "樂安",
+         "end_year" : -117,
+         "first" : 1,
+         "key" : "侯李蔡",
+         "min_year" : 1,
+         "offset" : -124,
+         "start_day" : [
+            4,
+            "",
+            "丁未"
+         ],
+         "years" : [
+            null,
+            -123,
+            null,
+            null,
+            null,
+            null,
+            -118
+         ]
+      },
+      "侯楊僕" : {
+         "country" : "將梁",
+         "end_year" : -106,
+         "first" : 1,
+         "key" : "侯楊僕",
+         "min_year" : 1,
+         "offset" : -111,
+         "start_day" : [
+            3,
+            "",
+            "乙酉"
+         ],
+         "years" : [
+            null,
+            -110,
+            null,
+            null,
+            -107
+         ]
+      },
+      "侯樂" : {
+         "country" : "持裝",
+         "end_year" : -115,
+         "first" : 1,
+         "key" : "侯樂",
+         "min_year" : 1,
+         "offset" : -129,
+         "start_day" : [
+            9,
+            "後",
+            "丙寅"
+         ],
+         "years" : [
+            null,
+            -128,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -122,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -116
+         ]
+      },
+      "侯次公" : {
+         "country" : "瞭",
+         "end_year" : -111,
+         "first" : 1,
+         "key" : "侯次公",
+         "min_year" : 1,
+         "offset" : -113,
+         "start_day" : [
+            6,
+            "",
+            "丙午"
+         ],
+         "years" : [
+            null,
+            -112
+         ]
+      },
+      "侯渠復累" : {
+         "country" : "昆",
+         "first" : 1,
+         "key" : "侯渠復累",
+         "min_year" : 1,
+         "offset" : -112,
+         "start_day" : [
+            5,
+            "",
+            "戊戌"
+         ],
+         "years" : [
+            null,
+            -111,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104,
+            null,
+            null,
+            null,
+            -100
+         ]
+      },
+      "侯無龍" : {
+         "country" : "襄城",
+         "first" : 1,
+         "key" : "侯無龍",
+         "min_year" : 1,
+         "offset" : -125,
+         "start_day" : [
+            10,
+            "",
+            "庚申"
+         ],
+         "years" : [
+            null,
+            -124,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -116,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -110,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104,
+            -103
+         ]
+      },
+      "侯猛" : {
+         "country" : "若陽",
+         "end_year" : -123,
+         "first" : 1,
+         "key" : "侯猛",
+         "min_year" : 1,
+         "offset" : -127,
+         "start_day" : [
+            10,
+            "",
+            "癸巳"
+         ],
+         "years" : [
+            null,
+            -126
+         ]
+      },
+      "侯王恢" : {
+         "country" : "浩",
+         "end_day" : [
+            4,
+            0,
+            null
+         ],
+         "end_year" : -106,
+         "first" : 1,
+         "key" : "侯王恢",
+         "min_year" : 1,
+         "offset" : -107,
+         "start_day" : [
+            1,
+            "",
+            "甲申"
+         ],
+         "years" : [
+            null,
+            -106
+         ]
+      },
+      "侯畢取" : {
+         "country" : "瞭",
+         "first" : 1,
+         "key" : "侯畢取",
+         "min_year" : 1,
+         "offset" : -111,
+         "start_day" : [
+            3,
+            "",
+            "乙酉"
+         ],
+         "years" : [
+            null,
+            -110,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104,
+            null,
+            null,
+            null,
+            -100
+         ]
+      },
+      "侯病已" : {
+         "country" : "襄城",
+         "key" : "侯病已",
+         "min_year" : 1,
+         "offset" : -102,
+         "prev" : {
+            "-101" : "侯無龍"
+         },
+         "years" : [
+            null,
+            -101
+         ]
+      },
+      "侯監居翁" : {
+         "country" : "湘成",
+         "first" : 1,
+         "key" : "侯監居翁",
+         "min_year" : 1,
+         "offset" : -111,
+         "start_day" : [
+            5,
+            "",
+            "壬申"
+         ],
+         "years" : [
+            null,
+            -110,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104,
+            null,
+            null,
+            null,
+            -100
+         ]
+      },
+      "侯破奴" : {
+         "country" : "從驃",
+         "end_year" : -102,
+         "first" : 1,
+         "key" : "侯破奴",
+         "min_year" : 1,
+         "offset" : -108,
+         "years" : [
+            null,
+            -107,
+            null,
+            null,
+            null,
+            -103
+         ]
+      },
+      "侯稽谷姑" : {
+         "country" : "騠茲",
+         "end_year" : -103,
+         "first" : 1,
+         "key" : "侯稽谷姑",
+         "min_year" : 1,
+         "offset" : -107,
+         "start_day" : [
+            11,
+            "",
+            "丁卯"
+         ],
+         "years" : [
+            null,
+            -106
+         ]
+      },
+      "侯董荼吾" : {
+         "country" : "散",
+         "first" : 1,
+         "key" : "侯董荼吾",
+         "min_year" : 1,
+         "offset" : -119,
+         "start_day" : [
+            6,
+            "",
+            "丁卯"
+         ],
+         "years" : [
+            null,
+            -118,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -110,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104,
+            null,
+            -102
+         ]
+      },
+      "侯蘇建" : {
+         "country" : "平陵",
+         "end_year" : -110,
+         "first" : 1,
+         "key" : "侯蘇建",
+         "min_year" : 1,
+         "offset" : -127,
+         "start_day" : [
+            3,
+            "",
+            "丙辰"
+         ],
+         "years" : [
+            null,
+            -126,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -116,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -110
+         ]
+      },
+      "侯衛不疑" : {
+         "country" : "陰安",
+         "end_year" : -111,
+         "first" : 1,
+         "key" : "侯衛不疑",
+         "min_year" : 1,
+         "offset" : -124,
+         "start_day" : [
+            4,
+            "",
+            "丁未"
+         ],
+         "years" : [
+            null,
+            -123,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -116,
+            null,
+            null,
+            null,
+            -112
+         ]
+      },
+      "侯衛伉" : {
+         "country" : "宜春",
+         "end_year" : -115,
+         "first" : 1,
+         "key" : "侯衛伉",
+         "min_year" : 1,
+         "offset" : -124,
+         "start_day" : [
+            4,
+            "",
+            "丁未"
+         ],
+         "years" : [
+            null,
+            -123,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -116
+         ]
+      },
+      "侯衛山" : {
+         "country" : "義陽",
+         "first" : 1,
+         "key" : "侯衛山",
+         "min_year" : 1,
+         "offset" : -119,
+         "start_day" : [
+            6,
+            "",
+            "丁卯"
+         ],
+         "years" : [
+            null,
+            -118,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -110,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104,
+            null,
+            null,
+            null,
+            -100
+         ]
+      },
+      "侯衛登" : {
+         "country" : "發干",
+         "end_year" : -111,
+         "first" : 1,
+         "key" : "侯衛登",
+         "min_year" : 1,
+         "offset" : -124,
+         "start_day" : [
+            4,
+            "",
+            "丁未"
+         ],
+         "years" : [
+            null,
+            -123,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -116,
+            null,
+            null,
+            null,
+            -112
+         ]
+      },
+      "侯趙不虞" : {
+         "country" : "隨成",
+         "end_year" : -119,
+         "first" : 1,
+         "key" : "侯趙不虞",
+         "min_year" : 1,
+         "offset" : -124,
+         "start_day" : [
+            4,
+            "",
+            "乙卯"
+         ],
+         "years" : [
+            null,
+            -123,
+            null,
+            null,
+            null,
+            -119
+         ]
+      },
+      "侯趙信" : {
+         "country" : "翕",
+         "end_year" : -122,
+         "first" : 1,
+         "key" : "侯趙信",
+         "min_year" : 1,
+         "offset" : -131,
+         "start_day" : [
+            7,
+            "",
+            "壬午"
+         ],
+         "years" : [
+            null,
+            -130,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -123
+         ]
+      },
+      "侯趙光" : {
+         "country" : "隨桃",
+         "first" : 1,
+         "key" : "侯趙光",
+         "min_year" : 1,
+         "offset" : -111,
+         "start_day" : [
+            4,
+            "",
+            "癸亥"
+         ],
+         "years" : [
+            null,
+            -110,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104,
+            null,
+            null,
+            null,
+            -100
+         ]
+      },
+      "侯趙破奴" : {
+         "country" : "從驃",
+         "end_year" : -111,
+         "first" : 1,
+         "key" : "侯趙破奴",
+         "min_year" : 1,
+         "offset" : -121,
+         "start_day" : [
+            5,
+            "",
+            "丁丑"
+         ],
+         "years" : [
+            null,
+            -120,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -112
+         ]
+      },
+      "侯路博德" : {
+         "country" : "符離",
+         "end_year" : -103,
+         "first" : 1,
+         "key" : "侯路博德",
+         "min_year" : 1,
+         "offset" : -119,
+         "start_day" : [
+            6,
+            "",
+            "丁卯"
+         ],
+         "years" : [
+            null,
+            -118,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -110,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104
+         ]
+      },
+      "侯郝賢" : {
+         "country" : "眾利",
+         "end_year" : -120,
+         "first" : 1,
+         "key" : "侯郝賢",
+         "min_year" : 1,
+         "offset" : -123,
+         "start_day" : [
+            5,
+            "",
+            "壬辰"
+         ],
+         "years" : [
+            null,
+            -122,
+            -121
+         ]
+      },
+      "侯電" : {
+         "country" : "煇渠",
+         "key" : "侯電",
+         "min_year" : 1,
+         "offset" : -113,
+         "prev" : {
+            "-112" : "忠侯僕多"
+         },
+         "years" : [
+            null,
+            -112,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104,
+            null,
+            null,
+            null,
+            -100
+         ]
+      },
+      "侯韓說" : {
+         "country" : "龍镪",
+         "end_year" : -111,
+         "first" : 1,
+         "key" : "侯韓說",
+         "min_year" : 1,
+         "offset" : -124,
+         "start_day" : [
+            4,
+            "",
+            "丁未"
+         ],
+         "years" : [
+            null,
+            -123,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -116,
+            null,
+            null,
+            null,
+            -112
+         ]
+      },
+      "侯駒幾" : {
+         "country" : "騏",
+         "first" : 1,
+         "key" : "侯駒幾",
+         "min_year" : 1,
+         "offset" : -112,
+         "start_day" : [
+            6,
+            "",
+            "壬子"
+         ],
+         "years" : [
+            null,
+            -111,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104,
+            null,
+            null,
+            null,
+            -100
+         ]
+      },
+      "侯高不識" : {
+         "country" : "宜冠",
+         "end_year" : -118,
+         "first" : 1,
+         "key" : "侯高不識",
+         "min_year" : 1,
+         "offset" : -121,
+         "start_day" : [
+            1,
+            "",
+            "乙亥"
+         ],
+         "years" : [
+            null,
+            -120
+         ]
+      },
+      "公孫戎奴" : {
+         "country" : "從平",
+         "end_year" : -120,
+         "first" : 1,
+         "key" : "公孫戎奴",
+         "min_year" : 1,
+         "offset" : -124,
+         "start_day" : [
+            4,
+            "",
+            "乙卯"
+         ],
+         "years" : [
+            null,
+            -123,
+            null,
+            -121
+         ]
+      },
+      "君買" : {
+         "country" : "周子南君",
+         "key" : "君買",
+         "min_year" : 1,
+         "offset" : -107,
+         "prev" : {
+            "-106" : "侯姬嘉"
+         },
+         "years" : [
+            null,
+            -106,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -100
+         ]
+      },
+      "哀侯嬗" : {
+         "country" : "冠軍",
+         "end_year" : -109,
+         "key" : "哀侯嬗",
+         "min_year" : 1,
+         "offset" : -116,
+         "prev" : {
+            "-115" : "景桓侯霍去病"
+         },
+         "years" : [
+            null,
+            -115
+         ]
+      },
+      "堅侯趙安稽" : {
+         "country" : "昌武",
+         "first" : 1,
+         "key" : "堅侯趙安稽",
+         "min_year" : 1,
+         "offset" : -125,
+         "start_day" : [
+            10,
+            "",
+            "庚申"
+         ],
+         "years" : [
+            null,
+            -124,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -116,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -110,
+            -109
+         ]
+      },
+      "定侯渾邪" : {
+         "country" : "漯陰",
+         "first" : 1,
+         "key" : "定侯渾邪",
+         "min_year" : 1,
+         "offset" : -121,
+         "start_day" : [
+            7,
+            "",
+            "壬午"
+         ],
+         "years" : [
+            null,
+            -120
+         ]
+      },
+      "康侯子最" : {
+         "country" : "涅陽",
+         "end_year" : -102,
+         "first" : 1,
+         "key" : "康侯子最",
+         "min_year" : 1,
+         "offset" : -107,
+         "start_day" : [
+            3,
+            "",
+            "壬寅"
+         ],
+         "years" : [
+            null,
+            -106,
+            null,
+            null,
+            null,
+            -102
+         ]
+      },
+      "康侯延年" : {
+         "country" : "臧馬",
+         "end_year" : -117,
+         "first" : 1,
+         "key" : "康侯延年",
+         "min_year" : 1,
+         "offset" : -119,
+         "start_day" : [
+            6,
+            "",
+            "丁卯"
+         ],
+         "years" : [
+            null,
+            -118
+         ]
+      },
+      "康侯烏犁" : {
+         "country" : "河綦",
+         "first" : 1,
+         "key" : "康侯烏犁",
+         "min_year" : 1,
+         "offset" : -120,
+         "start_day" : [
+            7,
+            "",
+            "壬午"
+         ],
+         "years" : [
+            null,
+            -119,
+            null,
+            null,
+            null,
+            null,
+            -114
+         ]
+      },
+      "忠侯僕多" : {
+         "country" : "煇渠",
+         "first" : 1,
+         "key" : "忠侯僕多",
+         "min_year" : 1,
+         "offset" : -121,
+         "start_day" : [
+            2,
+            "",
+            "乙丑"
+         ],
+         "years" : [
+            null,
+            -120,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -113
+         ]
+      },
+      "恪侯石慶" : {
+         "country" : "牧丘",
+         "first" : 1,
+         "key" : "恪侯石慶",
+         "min_year" : 1,
+         "offset" : -112,
+         "start_day" : [
+            9,
+            "",
+            "丁丑"
+         ],
+         "years" : [
+            null,
+            -111,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104,
+            null,
+            -102
+         ]
+      },
+      "悼侯扁訾" : {
+         "country" : "煇渠",
+         "end_year" : -114,
+         "first" : 1,
+         "key" : "悼侯扁訾",
+         "min_year" : 1,
+         "offset" : -120,
+         "start_day" : [
+            7,
+            "",
+            "壬午"
+         ],
+         "years" : [
+            null,
+            -119,
+            null,
+            null,
+            null,
+            -115
+         ]
+      },
+      "悼侯趙王煖訾" : {
+         "country" : "潦",
+         "end_year" : -120,
+         "first" : 1,
+         "key" : "悼侯趙王煖訾",
+         "min_year" : 1,
+         "offset" : -122,
+         "start_day" : [
+            7,
+            "",
+            "壬午"
+         ],
+         "years" : [
+            null,
+            -121
+         ]
+      },
+      "景桓侯霍去病" : {
+         "country" : "冠軍",
+         "first" : 1,
+         "key" : "景桓侯霍去病",
+         "min_year" : 1,
+         "offset" : -123,
+         "start_day" : [
+            4,
+            "",
+            "壬申"
+         ],
+         "years" : [
+            null,
+            -122,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -116
+         ]
+      },
+      "案道侯說" : {
+         "country" : "龍镪",
+         "end_year" : -90,
+         "first" : 1,
+         "key" : "案道侯說",
+         "min_year" : 1,
+         "offset" : -110,
+         "start_day" : [
+            5,
+            "",
+            "丁卯"
+         ],
+         "years" : [
+            null,
+            -109
+         ]
+      },
+      "烈侯衛青" : {
+         "country" : "長平",
+         "first" : 1,
+         "key" : "烈侯衛青",
+         "min_year" : 1,
+         "offset" : -127,
+         "start_day" : [
+            3,
+            "",
+            "丙辰"
+         ],
+         "years" : [
+            null,
+            -126,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -116,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -110,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104
+         ]
+      },
+      "煬侯伊即軒" : {
+         "country" : "下麾",
+         "key" : "煬侯伊即軒",
+         "min_year" : 1,
+         "offset" : -112,
+         "prev" : {
+            "-111" : "侯呼毒尼"
+         },
+         "years" : [
+            null,
+            -111,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104,
+            null,
+            null,
+            null,
+            -100
+         ]
+      },
+      "牧丘侯德" : {
+         "country" : "牧丘",
+         "era_name" : "侯德",
+         "key" : "牧丘侯德",
+         "min_year" : 1,
+         "offset" : -102,
+         "prev" : {
+            "-101" : "恪侯石慶"
+         },
+         "years" : [
+            null,
+            -101
+         ]
+      },
+      "獻侯公孫弘" : {
+         "country" : "平津",
+         "first" : 1,
+         "key" : "獻侯公孫弘",
+         "min_year" : 1,
+         "offset" : -124,
+         "start_day" : [
+            11,
+            "",
+            "乙丑"
+         ],
+         "years" : [
+            null,
+            -123,
+            null,
+            null,
+            -120
+         ]
+      },
+      "瓡讘侯勝" : {
+         "country" : "瓡讘",
+         "era_name" : "侯勝",
+         "key" : "瓡讘侯勝",
+         "min_year" : 1,
+         "offset" : -105,
+         "prev" : {
+            "-104" : "侯扜者"
+         },
+         "years" : [
+            null,
+            -104,
+            null,
+            null,
+            null,
+            -100
+         ]
+      },
+      "肥侯稠雕" : {
+         "country" : "常樂",
+         "first" : 1,
+         "key" : "肥侯稠雕",
+         "min_year" : 1,
+         "offset" : -120,
+         "start_day" : [
+            7,
+            "",
+            "壬午"
+         ],
+         "years" : [
+            null,
+            -119,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -110,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104,
+            null,
+            -102
+         ]
+      },
+      "莊侯蘇弘" : {
+         "country" : "海常",
+         "end_year" : -103,
+         "first" : 1,
+         "key" : "莊侯蘇弘",
+         "min_year" : 1,
+         "offset" : -111,
+         "start_day" : [
+            7,
+            "",
+            "乙酉"
+         ],
+         "years" : [
+            null,
+            -110,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104
+         ]
+      },
+      "莊侯轅終古" : {
+         "country" : "蘌兒",
+         "end_year" : -103,
+         "first" : 1,
+         "key" : "莊侯轅終古",
+         "min_year" : 1,
+         "offset" : -110,
+         "start_day" : [
+            8,
+            "閏",
+            "癸卯"
+         ],
+         "years" : [
+            null,
+            -109
+         ]
+      },
+      "術陽侯建德" : {
+         "country" : "術陽",
+         "end_year" : -111,
+         "era_name" : "侯建德",
+         "first" : 1,
+         "key" : "術陽侯建德",
+         "min_year" : 1,
+         "offset" : -113,
+         "years" : [
+            null,
+            -112
+         ]
+      },
+      "質侯伊即軒" : {
+         "country" : "眾利",
+         "first" : 1,
+         "key" : "質侯伊即軒",
+         "min_year" : 1,
+         "offset" : -119,
+         "start_day" : [
+            6,
+            "",
+            "丁卯"
+         ],
+         "years" : [
+            null,
+            -118,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -110,
+            null,
+            null,
+            null,
+            null,
+            -105
+         ]
+      },
+      "餘利鞮" : {
+         "country" : "河綦",
+         "key" : "餘利鞮",
+         "min_year" : 1,
+         "offset" : -114,
+         "prev" : {
+            "-113" : "康侯烏犁"
+         },
+         "years" : [
+            null,
+            -113,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104,
+            null,
+            null,
+            null,
+            -100
+         ]
+      },
+      "魏侯蘇" : {
+         "country" : "漯陰",
+         "end_year" : -105,
+         "key" : "魏侯蘇",
+         "min_year" : 1,
+         "offset" : -116,
+         "prev" : {
+            "-115" : "定侯渾邪"
+         },
+         "years" : [
+            null,
+            -115,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -105
+         ]
+      },
+      "龍亢侯廣德" : {
+         "country" : "龍亢",
+         "end_year" : -104,
+         "era_name" : "侯廣德",
+         "first" : 1,
+         "key" : "龍亢侯廣德",
+         "min_year" : 1,
+         "offset" : -112,
+         "start_day" : [
+            3,
+            "",
+            "壬午"
+         ],
+         "years" : [
+            null,
+            -111,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -104
+         ]
+      }
+   },
+   "source_type" : "table8"
+}

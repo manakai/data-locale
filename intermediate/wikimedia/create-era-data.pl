@@ -13,7 +13,12 @@ my $Prefix2;
   $Data = json_bytes2perl scalar <>;
 
   $Prefix2 = q{春秋戦国};
-  $Prefix2 = q{漢} if $Data->{source_type} eq 'table5';
+  $Prefix2 = q{漢} if
+      $Data->{source_type} eq 'table5' or
+      $Data->{source_type} eq 'table6' or
+      $Data->{source_type} eq 'table7' or
+      $Data->{source_type} eq 'table8' or
+      $Data->{source_type} eq 'table9';
 }
 
 sub cal_tag ($$) {
@@ -27,7 +32,7 @@ sub cal_tag ($$) {
       defined $date and $date->[0] <= 9) {
     return '#秦正';
   } else {
-    warn "XXX" if $year == 1-104;
+    #warn "XXX" if $year == 1-104;
   }
 
   return '';
@@ -79,6 +84,45 @@ for my $key (sort { $a cmp $b } keys %{$Data->{countries}}) {
     table5 => {
       漢 => 1,
     },
+    table6 => {
+      魯 => 1,
+    },
+    table7 => {
+      山陽 => 1,
+      沛 => 1,
+      隆慮 => 1,
+      魏其 => 1,
+    },
+    table8 => {
+      壯 => 1,
+      平州 => 1,
+      昌武 => 1,
+      涅陽 => 1,
+      翕 => 1,
+    },
+    table9 => {
+      博陽 => 1,
+      土軍 => 1,
+      安陽 => 1,
+      宜春 => 1,
+      將梁 => 1,
+      平 => 1,
+      廣川 => 1,
+      廣陵 => 1,
+      建成 => 1,
+      彭 => 1,
+      昌 => 1,
+      易 => 1,
+      易 => 1,
+      朸 => 1,
+      東城 => 1,
+      東平 => 1,
+      栒 => 1,
+      海常 => 1,
+      祝茲 => 1,
+      缾 => 1,
+      魏其 => 1,
+    },
   }->{$Data->{source_type}}->{$key};
 
   printf q{
@@ -97,7 +141,15 @@ for my $key (sort { $a cmp $b } keys %{$Data->{countries}}) {
   }->{$key};
 
   if ($Prefix2 eq '漢') {
-    print qq{\n%tag   group of 漢諸侯国\n};
+    if ($Data->{source_type} eq 'table5') {
+      #print qq{\n%tag   isa 漢諸侯国\n};
+    }
+    if ($Data->{source_type} eq 'table6' or
+        $Data->{source_type} eq 'table7' or
+        $Data->{source_type} eq 'table8' or
+        $Data->{source_type} eq 'table9') {
+      #print qq{\n%tag   isa 漢列侯国\n};
+    }
   }
 }
 
@@ -128,6 +180,61 @@ if ($Data->{source_type} eq 'table5') {
         $YearToKan->{$data->{years}->[$_]} = $k;
       }
     }
+  }
+} else {
+  for (-205..-194) {
+    $YearToKan->{$_} = '漢';
+  }
+  for (-193..-187) {
+    $YearToKan->{$_} = '恵帝';
+  }
+  for (-186..-179) {
+    $YearToKan->{$_} = '呂后';
+  }
+  for (-178..-163) {
+    $YearToKan->{$_} = '漢文帝前';
+  }
+  for (-162..-156) {
+    $YearToKan->{$_} = '漢文帝後';
+  }
+  for (-155..-149) {
+    $YearToKan->{$_} = '漢景帝前';
+  }
+  for (-148..-143) {
+    $YearToKan->{$_} = '漢景帝中';
+  }
+  for (-142..-140) {
+    $YearToKan->{$_} = '漢景帝後';
+  }
+  for (-139..-134) {
+    $YearToKan->{$_} = '建元';
+  }
+  for (-133..-128) {
+    $YearToKan->{$_} = '元光';
+  }
+  for (-127..-122) {
+    $YearToKan->{$_} = '元朔';
+  }
+  for (-121..-116) {
+    $YearToKan->{$_} = '元狩';
+  }
+  for (-115..-110) {
+    $YearToKan->{$_} = '元鼎';
+  }
+  for (-109..-104) {
+    $YearToKan->{$_} = '元封';
+  }
+  for (-103..-96) {
+    $YearToKan->{$_} = '太初';
+  }
+  for (-95..-92) {
+    $YearToKan->{$_} = '太始';
+  }
+  for (-91..-88) {
+    $YearToKan->{$_} = '征和';
+  }
+  for (-87..0) {
+    $YearToKan->{$_} = '後元';
   }
 }
 for (sort { $a cmp $b } keys %{$Data->{eras}}) {
@@ -186,7 +293,7 @@ name %s monarch%s
 name %s
   },
       (($data->{era_name} // $key) =~ /^\Q$data->{country}\E/ ? 'country' : ''),
-      (($data->{era_name} // $key) =~ /後$/ ? '+' : ''),
+      ((($data->{era_name} // $key) =~ /後$/ or $data->{re}) ? '+' : ''),
       $data->{era_name} // $key
       unless $key eq '始皇帝' or $key eq '二世';
   push @tag, '後元' if $pperson =~ /後$/;
@@ -246,7 +353,23 @@ s+
       push @tag, '史記 漢興以來諸侯王年表 第五';
       push @tag, '漢諸侯王即位紀年';
       push @tag, '前漢';
-    }
+    } elsif ($Data->{source_type} eq 'table6') {
+      push @tag, '史記 高祖功臣侯者年表 第六';
+      push @tag, '漢列侯即位紀年';
+      push @tag, '前漢';
+    } elsif ($Data->{source_type} eq 'table7') {
+      push @tag, '史記 惠景閒矦者年表 第七';
+      push @tag, '漢列侯即位紀年';
+      push @tag, '前漢'; 
+    } elsif ($Data->{source_type} eq 'table8') {
+      push @tag, '史記 建元以來侯者年表 第八';
+      push @tag, '漢列侯即位紀年';
+      push @tag, '前漢';
+    } elsif ($Data->{source_type} eq 'table9') {
+      push @tag, '史記 建元以來王子侯者年表 第九';
+      push @tag, '漢列侯即位紀年';
+      push @tag, '前漢';
+   }
   }
 
   $pperson =~ s/後$//;
@@ -263,6 +386,7 @@ s+
     push @pk, '齊湣王地(辛酉)' if $key eq '齊襄王法章';
     push @pk, '宣王(乙亥)' if $key eq '幽王';
     push @pk, '姬猛' if $key eq '敬王';
+    push @pk, '矦呂產' if $key eq '呂產';
     #push @pk, $data->{prev_other} if defined $data->{prev_other};
     my $ctag = $Prefix2 . $data->{country};
     if ($ctag eq '春秋戦国齊') {
@@ -302,14 +426,23 @@ s+
     if ($key eq '齊威王因') {
       print qq{  #旧説\n};
     }
+    if ($data->{re}) {
+      print qq{  #重祚\n};
+    }
   } # $y
-  if ($Data->{source_type} eq 'table5' and
+  if (($Data->{source_type} eq 'table5' or
+       $Data->{source_type} eq 'table6' or
+       $Data->{source_type} eq 'table7' or
+       $Data->{source_type} eq 'table8' or
+       $Data->{source_type} eq 'table9') and
       ($data->{first} or not keys %{$data->{prev} or {}})) {
     my $y = $data->{offset} + 1;
     my @pk;
     push @pk, $YearToKan->{$y} // die "No Kan era for year $y";
     push @pk, '項羽' if $key eq '楚王信';
     push @pk, '衡山王吳芮' if $key eq '長沙文王吳芮';
+    push @pk, '大中大夫呂祿' if $key eq '趙王呂祿';
+    push @pk, '侯劉濞' if $key eq '吳王濞';
     my $date;
     if (defined $data->{start_day}) {
       if (defined $data->{start_day}->[2]) {
@@ -380,12 +513,33 @@ name %s
   }
   if (defined $data->{end_year}) {
     my $y = $data->{end_year};
+    my $date;
+    if (defined $data->{end_day}) {
+      if (defined $data->{end_day}->[2]) {
+        $date = sprintf '史記:%d-%d%s-%s',
+            $y,
+            $data->{end_day}->[0],
+            $data->{end_day}->[1] ? "'" : '',
+            $data->{end_day}->[2];
+      } else {
+        $date = sprintf '[史記:%d-%d%s]',
+            $y,
+            $data->{end_day}->[0],
+            $data->{end_day}->[1] ? "'" : '';
+      }
+      if ($data->{end_day_open}) {
+        $date = sprintf '[%s,史記:%d]',
+            $date, $y;
+      }
+    } else {
+      $date = sprintf '[史記:%d]', $y;
+    }
     my $nk = $YearToKan->{$y} // die "No Kan era for year $y";
     printf q{
-->%s [史記:%d] #漢廃国{#%s%s} #前漢 %s
+->%s %s #漢廃国{#%s%s} #前漢 %s
     },
         $nk,
-        $y,
+        $date,
         $Prefix2, $data->{country},
         cal_tag ($y, undef);
   }

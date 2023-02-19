@@ -1,0 +1,5845 @@
+
+%tag country
+%tag   label 漢丹楊
+%tag   &
+%tag   name 丹楊
+%tag   period of 丹楊
+  
+%tag country
+%tag   label 漢五㯫
+%tag   &
+%tag   name 五㯫
+%tag   period of 五㯫
+  
+%tag country
+%tag   label 漢俞閭
+%tag   &
+%tag   name 俞閭
+%tag   period of 俞閭
+  
+%tag country
+%tag   label 漢公丘
+%tag   &
+%tag   name 公丘
+%tag   period of 公丘
+  
+%tag country
+%tag   label 漢利昌
+%tag   &
+%tag   name 利昌
+%tag   period of 利昌
+  
+%tag country
+%tag   label 漢利鄉
+%tag   &
+%tag   name 利鄉
+%tag   period of 利鄉
+  
+%tag country
+%tag   label 漢劇
+%tag   &
+%tag   name 劇
+%tag   period of 劇
+  
+%tag country
+%tag   label 漢劇魁
+%tag   &
+%tag   name 劇魁
+%tag   period of 劇魁
+  
+%tag country
+%tag   label 漢千章
+%tag   &
+%tag   name 千章
+%tag   period of 千章
+  
+%tag country
+%tag   label 漢千鍾
+%tag   &
+%tag   name 千鍾
+%tag   period of 千鍾
+  
+%tag country
+%tag   label 漢南城
+%tag   &
+%tag   name 南城
+%tag   period of 南城
+  
+%tag country
+%tag   label 漢參戶
+%tag   &
+%tag   name 參戶
+%tag   period of 參戶
+  
+%tag country
+%tag   label 漢叢
+%tag   &
+%tag   name 叢
+%tag   period of 叢
+  
+%tag country
+%tag   label 漢句容
+%tag   &
+%tag   name 句容
+%tag   period of 句容
+  
+%tag country
+%tag   label 漢句陵
+%tag   &
+%tag   name 句陵
+%tag   period of 句陵
+  
+%tag country
+%tag   label 漢周堅
+%tag   &
+%tag   name 周堅
+%tag   period of 周堅
+  
+%tag country
+%tag   label 漢壤
+%tag   &
+%tag   name 壤
+%tag   period of 壤
+  
+%tag country
+%tag   label 漢壽梁
+%tag   &
+%tag   name 壽梁
+%tag   period of 壽梁
+  
+%tag country
+%tag   label 漢夫夷
+%tag   &
+%tag   name 夫夷
+%tag   period of 夫夷
+  
+%tag country
+%tag   label 漢安成
+%tag   &
+%tag   name 安成
+%tag   period of 安成
+  
+%tag country
+%tag   label 漢安眾
+%tag   &
+%tag   name 安眾
+%tag   period of 安眾
+  
+%tag country
+%tag   label 漢安遙
+%tag   &
+%tag   name 安遙
+%tag   period of 安遙
+  
+%tag country
+%tag   label 漢安郭
+%tag   &
+%tag   name 安郭
+%tag   period of 安郭
+  
+%tag country
+%tag   label 漢安險
+%tag   &
+%tag   name 安險
+%tag   period of 安險
+  
+%tag country
+%tag   label 漢定
+%tag   &
+%tag   name 定
+%tag   period of 定
+  
+%tag country
+%tag   label 漢宜成
+%tag   &
+%tag   name 宜成
+%tag   period of 宜成
+  
+%tag country
+%tag   label 漢富
+%tag   &
+%tag   name 富
+%tag   period of 富
+  
+%tag country
+%tag   label 漢寧陽
+%tag   &
+%tag   name 寧陽
+%tag   period of 寧陽
+  
+%tag country
+%tag   label 漢封斯
+%tag   &
+%tag   name 封斯
+%tag   period of 封斯
+  
+%tag country
+%tag   label 漢尉文
+%tag   &
+%tag   name 尉文
+%tag   period of 尉文
+  
+%tag country
+%tag   label 漢山
+%tag   &
+%tag   name 山
+%tag   period of 山
+  
+%tag country
+%tag   label 漢山州
+%tag   &
+%tag   name 山州
+%tag   period of 山州
+  
+%tag country
+%tag   label 漢州鄉
+%tag   &
+%tag   name 州鄉
+%tag   period of 州鄉
+  
+%tag country
+%tag   label 漢平度
+%tag   &
+%tag   name 平度
+%tag   period of 平度
+  
+%tag country
+%tag   label 漢平望
+%tag   &
+%tag   name 平望
+%tag   period of 平望
+  
+%tag country
+%tag   label 漢平酌
+%tag   &
+%tag   name 平酌
+%tag   period of 平酌
+  
+%tag country
+%tag   label 漢庸
+%tag   &
+%tag   name 庸
+%tag   period of 庸
+  
+%tag country
+%tag   label 漢廣
+%tag   &
+%tag   name 廣
+%tag   period of 廣
+  
+%tag country
+%tag   label 漢廣戚
+%tag   &
+%tag   name 廣戚
+%tag   period of 廣戚
+  
+%tag country
+%tag   label 漢廣望
+%tag   &
+%tag   name 廣望
+%tag   period of 廣望
+  
+%tag country
+%tag   label 漢廣饒
+%tag   &
+%tag   name 廣饒
+%tag   period of 廣饒
+  
+%tag country
+%tag   label 漢張梁
+%tag   &
+%tag   name 張梁
+%tag   period of 張梁
+  
+%tag country
+%tag   label 漢戎丘
+%tag   &
+%tag   name 戎丘
+%tag   period of 戎丘
+  
+%tag country
+%tag   label 漢成平
+%tag   &
+%tag   name 成平
+%tag   period of 成平
+  
+%tag country
+%tag   label 漢房光
+%tag   &
+%tag   name 房光
+%tag   period of 房光
+  
+%tag country
+%tag   label 漢扶㴆
+%tag   &
+%tag   name 扶㴆
+%tag   period of 扶㴆
+  
+%tag country
+%tag   label 漢披陽
+%tag   &
+%tag   name 披陽
+%tag   period of 披陽
+  
+%tag country
+%tag   label 漢挍
+%tag   &
+%tag   name 挍
+%tag   period of 挍
+  
+%tag country
+%tag   label 漢攸輿
+%tag   &
+%tag   name 攸輿
+%tag   period of 攸輿
+  
+%tag country
+%tag   label 漢新處
+%tag   &
+%tag   name 新處
+%tag   period of 新處
+  
+%tag country
+%tag   label 漢新館
+%tag   &
+%tag   name 新館
+%tag   period of 新館
+  
+%tag country
+%tag   label 漢曲成
+%tag   &
+%tag   name 曲成
+%tag   period of 曲成
+  
+%tag country
+%tag   label 漢有利
+%tag   &
+%tag   name 有利
+%tag   period of 有利
+  
+%tag country
+%tag   label 漢朝
+%tag   &
+%tag   name 朝
+%tag   period of 朝
+  
+%tag country
+%tag   label 漢杏山
+%tag   &
+%tag   name 杏山
+%tag   period of 杏山
+  
+%tag country
+%tag   label 漢東淮
+%tag   &
+%tag   name 東淮
+%tag   period of 東淮
+  
+%tag country
+%tag   label 漢東莞
+%tag   &
+%tag   name 東莞
+%tag   period of 東莞
+  
+%tag country
+%tag   label 漢東野
+%tag   &
+%tag   name 東野
+%tag   period of 東野
+  
+%tag country
+%tag   label 漢柏陽
+%tag   &
+%tag   name 柏陽
+%tag   period of 柏陽
+  
+%tag country
+%tag   label 漢柳
+%tag   &
+%tag   name 柳
+%tag   period of 柳
+  
+%tag country
+%tag   label 漢柳宿
+%tag   &
+%tag   name 柳宿
+%tag   period of 柳宿
+  
+%tag country
+%tag   label 漢柴
+%tag   &
+%tag   name 柴
+%tag   period of 柴
+  
+%tag country
+%tag   label 漢桑丘
+%tag   &
+%tag   name 桑丘
+%tag   period of 桑丘
+  
+%tag country
+%tag   label 漢棗彊
+%tag   &
+%tag   name 棗彊
+%tag   period of 棗彊
+  
+%tag country
+%tag   label 漢榆丘
+%tag   &
+%tag   name 榆丘
+%tag   period of 榆丘
+  
+%tag country
+%tag   label 漢榮簡
+%tag   &
+%tag   name 榮簡
+%tag   period of 榮簡
+  
+%tag country
+%tag   label 漢樊輿
+%tag   &
+%tag   name 樊輿
+%tag   period of 樊輿
+  
+%tag country
+%tag   label 漢武始
+%tag   &
+%tag   name 武始
+%tag   period of 武始
+  
+%tag country
+%tag   label 漢泉陵
+%tag   &
+%tag   name 泉陵
+%tag   period of 泉陵
+  
+%tag country
+%tag   label 漢洛陵
+%tag   &
+%tag   name 洛陵
+%tag   period of 洛陵
+  
+%tag country
+%tag   label 漢洮陽
+%tag   &
+%tag   name 洮陽
+%tag   period of 洮陽
+  
+%tag country
+%tag   label 漢浮丘
+%tag   &
+%tag   name 浮丘
+%tag   period of 浮丘
+  
+%tag country
+%tag   label 漢涓
+%tag   &
+%tag   name 涓
+%tag   period of 涓
+  
+%tag country
+%tag   label 漢湖孰
+%tag   &
+%tag   name 湖孰
+%tag   period of 湖孰
+  
+%tag country
+%tag   label 漢父城
+%tag   &
+%tag   name 父城
+%tag   period of 父城
+  
+%tag country
+%tag   label 漢牟平
+%tag   &
+%tag   name 牟平
+%tag   period of 牟平
+  
+%tag country
+%tag   label 漢瑕丘
+%tag   &
+%tag   name 瑕丘
+%tag   period of 瑕丘
+  
+%tag country
+%tag   label 漢瓡
+%tag   &
+%tag   name 瓡
+%tag   period of 瓡
+  
+%tag country
+%tag   label 漢甘井
+%tag   &
+%tag   name 甘井
+%tag   period of 甘井
+  
+%tag country
+%tag   label 漢畢梁
+%tag   &
+%tag   name 畢梁
+%tag   period of 畢梁
+  
+%tag country
+%tag   label 漢皋狼
+%tag   &
+%tag   name 皋狼
+%tag   period of 皋狼
+  
+%tag country
+%tag   label 漢皋虞
+%tag   &
+%tag   name 皋虞
+%tag   period of 皋虞
+  
+%tag country
+%tag   label 漢益都
+%tag   &
+%tag   name 益都
+%tag   period of 益都
+  
+%tag country
+%tag   label 漢盱台
+%tag   &
+%tag   name 盱台
+%tag   period of 盱台
+  
+%tag country
+%tag   label 漢睢陵
+%tag   &
+%tag   name 睢陵
+%tag   period of 睢陵
+  
+%tag country
+%tag   label 漢石洛
+%tag   &
+%tag   name 石洛
+%tag   period of 石洛
+  
+%tag country
+%tag   label 漢秩陽
+%tag   &
+%tag   name 秩陽
+%tag   period of 秩陽
+  
+%tag country
+%tag   label 漢稻
+%tag   &
+%tag   name 稻
+%tag   period of 稻
+  
+%tag country
+%tag   label 漢終弋
+%tag   &
+%tag   name 終弋
+%tag   period of 終弋
+  
+%tag country
+%tag   label 漢繁安
+%tag   &
+%tag   name 繁安
+%tag   period of 繁安
+  
+%tag country
+%tag   label 漢羽
+%tag   &
+%tag   name 羽
+%tag   period of 羽
+  
+%tag country
+%tag   label 漢翟
+%tag   &
+%tag   name 翟
+%tag   period of 翟
+  
+%tag country
+%tag   label 漢胡母
+%tag   &
+%tag   name 胡母
+%tag   period of 胡母
+  
+%tag country
+%tag   label 漢臨原
+%tag   &
+%tag   name 臨原
+%tag   period of 臨原
+  
+%tag country
+%tag   label 漢臨朐
+%tag   &
+%tag   name 臨朐
+%tag   period of 臨朐
+  
+%tag country
+%tag   label 漢臨樂
+%tag   &
+%tag   name 臨樂
+%tag   period of 臨樂
+  
+%tag country
+%tag   label 漢臨河
+%tag   &
+%tag   name 臨河
+%tag   period of 臨河
+  
+%tag country
+%tag   label 漢舂陵
+%tag   &
+%tag   name 舂陵
+%tag   period of 舂陵
+  
+%tag country
+%tag   label 漢茲
+%tag   &
+%tag   name 茲
+%tag   period of 茲
+  
+%tag country
+%tag   label 漢荼陵
+%tag   &
+%tag   name 荼陵
+%tag   period of 荼陵
+  
+%tag country
+%tag   label 漢莊原
+%tag   &
+%tag   name 莊原
+%tag   period of 莊原
+  
+%tag country
+%tag   label 漢葉
+%tag   &
+%tag   name 葉
+%tag   period of 葉
+  
+%tag country
+%tag   label 漢葛魁
+%tag   &
+%tag   name 葛魁
+%tag   period of 葛魁
+  
+%tag country
+%tag   label 漢蒲領
+%tag   &
+%tag   name 蒲領
+%tag   period of 蒲領
+  
+%tag country
+%tag   label 漢蓋胥
+%tag   &
+%tag   name 蓋胥
+%tag   period of 蓋胥
+  
+%tag country
+%tag   label 漢蔞
+%tag   &
+%tag   name 蔞
+%tag   period of 蔞
+  
+%tag country
+%tag   label 漢蕢
+%tag   &
+%tag   name 蕢
+%tag   period of 蕢
+  
+%tag country
+%tag   label 漢藺
+%tag   &
+%tag   name 藺
+%tag   period of 藺
+  
+%tag country
+%tag   label 漢虛水
+%tag   &
+%tag   name 虛水
+%tag   period of 虛水
+  
+%tag country
+%tag   label 漢襄嚵
+%tag   &
+%tag   name 襄嚵
+%tag   period of 襄嚵
+  
+%tag country
+%tag   label 漢襄陵
+%tag   &
+%tag   name 襄陵
+%tag   period of 襄陵
+  
+%tag country
+%tag   label 漢西昌
+%tag   &
+%tag   name 西昌
+%tag   period of 西昌
+  
+%tag country
+%tag   label 漢西熊
+%tag   &
+%tag   name 西熊
+%tag   period of 西熊
+  
+%tag country
+%tag   label 漢象氏
+%tag   &
+%tag   name 象氏
+%tag   period of 象氏
+  
+%tag country
+%tag   label 漢距陽
+%tag   &
+%tag   name 距陽
+%tag   period of 距陽
+  
+%tag country
+%tag   label 漢辟
+%tag   &
+%tag   name 辟
+%tag   period of 辟
+  
+%tag country
+%tag   label 漢運平
+%tag   &
+%tag   name 運平
+%tag   period of 運平
+  
+%tag country
+%tag   label 漢邯平
+%tag   &
+%tag   name 邯平
+%tag   period of 邯平
+  
+%tag country
+%tag   label 漢邯會
+%tag   &
+%tag   name 邯會
+%tag   period of 邯會
+  
+%tag country
+%tag   label 漢邵
+%tag   &
+%tag   name 邵
+%tag   period of 邵
+  
+%tag country
+%tag   label 漢郁狼
+%tag   &
+%tag   name 郁狼
+%tag   period of 郁狼
+  
+%tag country
+%tag   label 漢都梁
+%tag   &
+%tag   name 都梁
+%tag   period of 都梁
+  
+%tag country
+%tag   label 漢鄗
+%tag   &
+%tag   name 鄗
+%tag   period of 鄗
+  
+%tag country
+%tag   label 漢鈞丘
+%tag   &
+%tag   name 鈞丘
+%tag   period of 鈞丘
+  
+%tag country
+%tag   label 漢鉅合
+%tag   &
+%tag   name 鉅合
+%tag   period of 鉅合
+  
+%tag country
+%tag   label 漢阿武
+%tag   &
+%tag   name 阿武
+%tag   period of 阿武
+  
+%tag country
+%tag   label 漢陘城
+%tag   &
+%tag   name 陘城
+%tag   period of 陘城
+  
+%tag country
+%tag   label 漢陪
+%tag   &
+%tag   name 陪
+%tag   period of 陪
+  
+%tag country
+%tag   label 漢陪安
+%tag   &
+%tag   name 陪安
+%tag   period of 陪安
+  
+%tag country
+%tag   label 漢陰城
+%tag   &
+%tag   name 陰城
+%tag   period of 陰城
+  
+%tag country
+%tag   label 漢陸
+%tag   &
+%tag   name 陸
+%tag   period of 陸
+  
+%tag country
+%tag   label 漢隰成
+%tag   &
+%tag   name 隰成
+%tag   period of 隰成
+  
+%tag country
+%tag   label 漢離石
+%tag   &
+%tag   name 離石
+%tag   period of 離石
+  
+%tag country
+%tag   label 漢雩殷
+%tag   &
+%tag   name 雩殷
+%tag   period of 雩殷
+  
+%tag country
+%tag   label 漢雲
+%tag   &
+%tag   name 雲
+%tag   period of 雲
+  
+%tag country
+%tag   label 漢雷
+%tag   &
+%tag   name 雷
+%tag   period of 雷
+  
+%tag country
+%tag   label 漢高丘
+%tag   &
+%tag   name 高丘
+%tag   period of 高丘
+  
+%tag country
+%tag   label 漢高平
+%tag   &
+%tag   name 高平
+%tag   period of 高平
+  
+%tag country
+%tag   label 漢鱣
+%tag   &
+%tag   name 鱣
+%tag   period of 鱣
+  
+%tag country
+%tag   label 漢麥
+%tag   &
+%tag   name 麥
+%tag   period of 麥
+  
+%tag country
+%tag   label 漢龍丘
+%tag   &
+%tag   name 龍丘
+%tag   period of 龍丘
+  
+def[今侯係]
+
+AD-116 = 0
+u 1
+u 16
+  
+%tag person
+%tag   name 今侯係
+  
+name  monarch
+name 今侯係
+  
+<-敬侯劉遂 [史記:-115] #漢称元{#漢都梁 #今侯係} #前漢 #秦正
+    
+tag 漢都梁
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯係
+
+def[今侯執德]
+
+AD-119 = 0
+u 1
+u 19
+  
+%tag person
+%tag   name 今侯執德
+  
+name  monarch
+name 今侯執德
+  
+<-侯劉憲 [史記:-118] #漢称元{#漢鈞丘 #今侯執德} #前漢 #秦正
+    
+tag 漢鈞丘
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯執德
+
+def[今侯壽]
+
+AD-101 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 今侯壽
+  
+name  monarch
+name 今侯壽
+  
+<-繁安侯劉忠 [史記:-100] #漢称元{#漢繁安 #今侯壽} #前漢 
+    
+tag 漢繁安
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯壽
+
+def[今侯奴]
+
+AD-120 = 0
+u 1
+u 20
+  
+%tag person
+%tag   name 今侯奴
+  
+name  monarch
+name 今侯奴
+  
+<-共侯劉渫 [史記:-119] #漢称元{#漢牟平 #今侯奴} #前漢 #秦正
+    
+tag 漢牟平
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯奴
+
+def[今侯如意]
+
+AD-102 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 今侯如意
+  
+name  monarch
+name 今侯如意
+  
+<-共侯劉胡陽 [史記:-101] #漢称元{#漢封斯 #今侯如意} #前漢 
+    
+tag 漢封斯
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯如意
+
+def[今侯嬰]
+
+AD-110 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 今侯嬰
+  
+name  monarch
+name 今侯嬰
+  
+<-侯劉邈 [史記:-109] #漢称元{#漢蔞 #今侯嬰} #前漢 #秦正
+    
+tag 漢蔞
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯嬰
+
+def[今侯寬]
+
+AD-102 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 今侯寬
+  
+name  monarch
+name 今侯寬
+  
+<-湣侯劉豫 [史記:-101] #漢称元{#漢阿武 #今侯寬} #前漢 
+    
+tag 漢阿武
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯寬
+
+def[今侯山拊]
+
+AD-105 = 0
+u 1
+u 5
+  
+%tag person
+%tag   name 今侯山拊
+  
+name  monarch
+name 今侯山拊
+  
+<-康侯劉丹 [史記:-104] #漢称元{#漢安眾 #今侯山拊} #前漢 #秦正
+    
+tag 漢安眾
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯山拊
+
+def[今侯延]
+
+AD-116 = 0
+u 1
+u 16
+  
+%tag person
+%tag   name 今侯延
+  
+name  monarch
+name 今侯延
+  
+<-夷侯劉高遂 [史記:-115] #漢称元{#漢壤 #今侯延} #前漢 #秦正
+    
+tag 漢壤
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯延
+
+def[今侯建]
+
+AD-105 = 0
+u 1
+u 5
+  
+%tag person
+%tag   name 今侯建
+  
+name  monarch
+name 今侯建
+  
+<-敦侯劉光 [史記:-104] #漢称元{#漢臨樂 #今侯建} #前漢 #秦正
+    
+tag 漢臨樂
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯建
+
+def[今侯德]
+
+AD-113 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 今侯德
+  
+name  monarch
+name 今侯德
+  
+<-敬侯劉越 [史記:-112] #漢称元{#漢定 #今侯德} #前漢 #秦正
+    
+tag 漢定
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯德
+
+def[今侯惠]
+
+AD-105 = 0
+u 1
+u 5
+  
+%tag person
+%tag   name 今侯惠
+  
+name  monarch
+name 今侯惠
+  
+<-節侯劉禁 [史記:-104] #漢称元{#漢州鄉 #今侯惠} #前漢 #秦正
+    
+tag 漢州鄉
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯惠
+
+def[今侯楚人]
+
+AD-120 = 0
+u 1
+u 20
+  
+%tag person
+%tag   name 今侯楚人
+  
+name  monarch
+name 今侯楚人
+  
+<-夷侯劉賞 [史記:-119] #漢称元{#漢平望 #今侯楚人} #前漢 #秦正
+    
+tag 漢平望
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯楚人
+
+def[今侯歲發]
+
+AD-111 = 0
+u 1
+u 11
+  
+%tag person
+%tag   name 今侯歲發
+  
+name  monarch
+name 今侯歲發
+  
+<-夷侯劉信 [史記:-110] #漢称元{#漢雲 #今侯歲發} #前漢 #秦正
+    
+tag 漢雲
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯歲發
+
+def[今侯祿]
+
+AD-114 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 今侯祿
+  
+name  monarch
+name 今侯祿
+  
+<-侯劉義 [史記:-113] #漢称元{#漢朝 #今侯祿} #前漢 #秦正
+    
+tag 漢朝
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯祿
+
+def[今侯禹]
+
+AD-112 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 今侯禹
+  
+name  monarch
+name 今侯禹
+  
+<-敬侯劉義 [史記:-111] #漢称元{#漢夫夷 #今侯禹} #前漢 #秦正
+    
+tag 漢夫夷
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯禹
+
+def[今侯種]
+
+AD-106 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 今侯種
+  
+name  monarch
+name 今侯種
+  
+<-安侯劉平 [史記:-105] #漢称元{#漢易 #今侯種} #前漢 #秦正
+    
+tag 漢易
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯種
+
+def[今侯聖]
+
+AD-112 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 今侯聖
+  
+name  monarch
+name 今侯聖
+  
+<-頃侯劉胥 [史記:-111] #漢称元{#漢湖孰 #今侯聖} #前漢 #秦正
+    
+tag 漢湖孰
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯聖
+
+def[今侯自為]
+
+AD-106 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 今侯自為
+  
+name  monarch
+name 今侯自為
+  
+<-侯罷師 [史記:-105] #漢称元{#漢柳 #今侯自為} #前漢 #秦正
+    
+tag 漢柳
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯自為
+
+def[今侯自當]
+
+AD-116 = 0
+u 1
+u 16
+  
+%tag person
+%tag   name 今侯自當
+  
+name  monarch
+name 今侯自當
+  
+<-思侯劉蒼 [史記:-115] #漢称元{#漢安成 #今侯自當} #前漢 #秦正
+    
+tag 漢安成
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯自當
+
+def[今侯處]
+
+AD-113 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 今侯處
+  
+name  monarch
+name 今侯處
+  
+<-皋虞侯劉建 [史記:-112] #漢称元{#漢皋虞 #今侯處} #前漢 #秦正
+    
+tag 漢皋虞
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯處
+
+def[今侯都陽]
+
+AD-114 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 今侯都陽
+  
+name  monarch
+name 今侯都陽
+  
+<-夷侯劉定 [史記:-113] #漢称元{#漢稻 #今侯都陽} #前漢 #秦正
+    
+tag 漢稻
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯都陽
+
+def[今侯隅]
+
+AD-112 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 今侯隅
+  
+name  monarch
+name 今侯隅
+  
+<-敬侯劉燕 [史記:-111] #漢称元{#漢披陽 #今侯隅} #前漢 #秦正
+    
+tag 漢披陽
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯隅
+
+def[今侯順]
+
+AD-114 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 今侯順
+  
+name  monarch
+name 今侯順
+  
+<-哀侯劉仁 [史記:-113] #漢称元{#漢張梁 #今侯順} #前漢 #秦正
+    
+tag 漢張梁
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 今侯順
+
+def[侯劉不害]
+
+AD-122 = 0
+u 1
+u 22
+  
+%tag person
+%tag   name 侯劉不害
+  
+name  monarch
+name 侯劉不害
+  
+<-元狩 史記:-121-10-辛卯 #漢初封称元{#漢俞閭 #侯劉不害} #前漢 #秦正
+    
+tag+country 漢俞閭
+tag+monarch 侯劉不害
+    
+tag 漢俞閭
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉不害
+
+def[侯劉不審]
+
+AD-129 = 0
+u 1
+u 11
+  
+%tag person
+%tag   name 侯劉不審
+  
+name  monarch
+name 侯劉不審
+  
+<-元光 史記:-128-9'-壬戌 #漢初封称元{#漢浮丘 #侯劉不審} #前漢 #秦正
+    
+tag+country 漢浮丘
+tag+monarch 侯劉不審
+    
+tag 漢浮丘
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉不審
+
+def[侯劉不疑]
+
+AD-122 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 侯劉不疑
+  
+name  monarch
+name 侯劉不疑
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢涓 #侯劉不疑} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢涓} #前漢 #秦正
+    
+tag+country 漢涓
+tag+monarch 侯劉不疑
+    
+tag 漢涓
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉不疑
+
+def[侯劉仁]
+
+AD-127 = 0
+u 1
+u 27
+  
+%tag person
+%tag   name 侯劉仁
+  
+name  monarch
+name 侯劉仁
+  
+<-元朔 史記:-126-6-甲午 #漢初封称元{#漢邯會 #侯劉仁} #前漢 #秦正
+    
+tag+country 漢邯會
+tag+monarch 侯劉仁
+    
+tag 漢邯會
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉仁
+
+def[侯劉代]
+
+AD-127 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 侯劉代
+  
+name  monarch
+name 侯劉代
+  
+<-元朔 史記:-126-5-乙巳 #漢初封称元{#漢龍丘 #侯劉代} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢龍丘} #前漢 #秦正
+    
+tag+country 漢龍丘
+tag+monarch 侯劉代
+    
+tag 漢龍丘
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉代
+
+def[侯劉何]
+
+AD-126 = 0
+u 1
+u 8
+  
+%tag person
+%tag   name 侯劉何
+  
+name  monarch
+name 侯劉何
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢周堅 #侯劉何} #前漢 #秦正
+    
+tag+country 漢周堅
+tag+monarch 侯劉何
+    
+tag 漢周堅
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉何
+
+def[侯劉偃]
+
+AD-122 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 侯劉偃
+  
+name  monarch
+name 侯劉偃
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢彭 #侯劉偃} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢彭} #前漢 #秦正
+    
+tag+country 漢彭
+tag+monarch 侯劉偃
+    
+tag 漢彭
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉偃
+
+def[侯劉元]
+
+AD-122 = 0
+u 1
+u 22
+  
+%tag person
+%tag   name 侯劉元
+  
+name  monarch
+name 侯劉元
+  
+<-元狩 史記:-121-10-乙酉 #漢初封称元{#漢甘井 #侯劉元} #前漢 #秦正
+    
+tag+country 漢甘井
+tag+monarch 侯劉元
+    
+tag 漢甘井
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉元
+
+def[侯劉光]
+
+AD-122 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 侯劉光
+  
+name  monarch
+name 侯劉光
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢父城 #侯劉光} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢父城} #前漢 #秦正
+    
+tag+country 漢父城
+tag+monarch 侯劉光
+    
+tag 漢父城
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉光
+
+def[侯劉則]
+
+AD-125 = 0
+u 1
+u 21
+  
+%tag person
+%tag   name 侯劉則
+  
+name  monarch
+name 侯劉則
+  
+<-元朔 史記:-124-3-乙丑 #漢初封称元{#漢攸輿 #侯劉則} #前漢 #秦正
+    
+->太初 [史記:-103] #漢廃国{#漢攸輿} #前漢 
+    
+tag+country 漢攸輿
+tag+monarch 侯劉則
+    
+tag 漢攸輿
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉則
+
+def[侯劉勉]
+
+AD-126 = 0
+u 1
+u 26
+  
+%tag person
+%tag   name 侯劉勉
+  
+name  monarch
+name 侯劉勉
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢參戶 #侯劉勉} #前漢 #秦正
+    
+tag+country 漢參戶
+tag+monarch 侯劉勉
+    
+tag 漢參戶
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉勉
+
+def[侯劉博]
+
+AD-124 = 0
+u 1
+u 24
+  
+%tag person
+%tag   name 侯劉博
+  
+name  monarch
+name 侯劉博
+  
+<-元朔 史記:-123-3-癸酉 #漢初封称元{#漢安郭 #侯劉博} #前漢 #秦正
+    
+tag+country 漢安郭
+tag+monarch 侯劉博
+    
+tag 漢安郭
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉博
+
+def[侯劉吉]
+
+AD-127 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 侯劉吉
+  
+name  monarch
+name 侯劉吉
+  
+<-元朔 史記:-126-5-甲戌 #漢初封称元{#漢東莞 #侯劉吉} #前漢 #秦正
+    
+->元朔 [史記:-123] #漢廃国{#漢東莞} #前漢 #秦正
+    
+tag+country 漢東莞
+tag+monarch 侯劉吉
+    
+tag 漢東莞
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉吉
+
+def[侯劉嘉]
+
+AD-127 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 侯劉嘉
+  
+name  monarch
+name 侯劉嘉
+  
+<-元朔 史記:-126-6-甲午 #漢初封称元{#漢新處 #侯劉嘉} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢新處} #前漢 #秦正
+    
+tag+country 漢新處
+tag+monarch 侯劉嘉
+    
+tag 漢新處
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉嘉
+
+def[侯劉國]
+
+AD-125 = 0
+u 1
+u 25
+  
+%tag person
+%tag   name 侯劉國
+  
+name  monarch
+name 侯劉國
+  
+<-元朔 史記:-124-4-乙卯 #漢初封称元{#漢山 #侯劉國} #前漢 #秦正
+    
+tag+country 漢山
+tag+monarch 侯劉國
+    
+tag 漢山
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉國
+
+def[侯劉壽]
+
+AD-122 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 侯劉壽
+  
+name  monarch
+name 侯劉壽
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢翟 #侯劉壽} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢翟} #前漢 #秦正
+    
+tag+country 漢翟
+tag+monarch 侯劉壽
+    
+tag 漢翟
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉壽
+
+def[侯劉壽福]
+
+AD-127 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 侯劉壽福
+  
+name  monarch
+name 侯劉壽福
+  
+<-元朔 史記:-126-6-甲午 #漢初封称元{#漢榆丘 #侯劉壽福} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢榆丘} #前漢 #秦正
+    
+tag+country 漢榆丘
+tag+monarch 侯劉壽福
+    
+tag 漢榆丘
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉壽福
+
+def[侯劉嬰]
+
+AD-126 = 0
+u 1
+u 19
+  
+%tag person
+%tag   name 侯劉嬰
+  
+name  monarch
+name 侯劉嬰
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢畢梁 #侯劉嬰} #前漢 #秦正
+    
+->元封 [史記:-106] #漢廃国{#漢畢梁} #前漢 #秦正
+    
+tag+country 漢畢梁
+tag+monarch 侯劉嬰
+    
+tag 漢畢梁
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉嬰
+
+def[侯劉守]
+
+AD-127 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 侯劉守
+  
+name  monarch
+name 侯劉守
+  
+<-元朔 史記:-126-5-乙巳 #漢初封称元{#漢壽梁 #侯劉守} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢壽梁} #前漢 #秦正
+    
+tag+country 漢壽梁
+tag+monarch 侯劉守
+    
+tag 漢壽梁
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉守
+
+def[侯劉安中]
+
+AD-127 = 0
+u 1
+u 27
+  
+%tag person
+%tag   name 侯劉安中
+  
+name  monarch
+name 侯劉安中
+  
+<-元朔 史記:-126-6-甲午 #漢初封称元{#漢廣望 #侯劉安中} #前漢 #秦正
+    
+tag+country 漢廣望
+tag+monarch 侯劉安中
+    
+tag 漢廣望
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉安中
+
+def[侯劉定國]
+
+AD-128 = 0
+u 1
+u 16
+  
+%tag person
+%tag   name 侯劉定國
+  
+name  monarch
+name 侯劉定國
+  
+<-元朔 史記:-127-1-丁卯 #漢初封称元{#漢睢陵 #侯劉定國} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢睢陵} #前漢 #秦正
+    
+tag+country 漢睢陵
+tag+monarch 侯劉定國
+    
+tag 漢睢陵
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉定國
+
+def[侯劉差]
+
+AD-122 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 侯劉差
+  
+name  monarch
+name 侯劉差
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢昌 #侯劉差} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢昌} #前漢 #秦正
+    
+tag+country 漢昌
+tag+monarch 侯劉差
+    
+tag 漢昌
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉差
+
+def[侯劉廣置]
+
+AD-123 = 0
+u 1
+u 11
+  
+%tag person
+%tag   name 侯劉廣置
+  
+name  monarch
+name 侯劉廣置
+  
+<-元朔 史記:-122-4-丁丑 #漢初封称元{#漢終弋 #侯劉廣置} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢終弋} #前漢 #秦正
+    
+tag+country 漢終弋
+tag+monarch 侯劉廣置
+    
+tag 漢終弋
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉廣置
+
+def[侯劉延]
+
+AD-116 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 侯劉延
+  
+name  monarch
+name 侯劉延
+  
+<-元鼎 史記:-115-5-丙午 #漢初封称元{#漢祝茲 #侯劉延} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢祝茲} #前漢 #秦正
+    
+tag+country 漢祝茲
+tag+monarch 侯劉延
+    
+tag 漢祝茲
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉延
+
+def[侯劉延年]
+
+AD-124 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 侯劉延年
+  
+name  monarch
+name 侯劉延年
+  
+<-元朔 史記:-123-11-辛酉 #漢初封称元{#漢鄗 #侯劉延年} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢鄗} #前漢 #秦正
+    
+tag+country 漢鄗
+tag+monarch 侯劉延年
+    
+tag 漢鄗
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉延年
+
+def[侯劉建]
+
+AD-127 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 侯劉建
+  
+name  monarch
+name 侯劉建
+  
+<-元朔 史記:-126-6-甲午 #漢初封称元{#漢襄嚵 #侯劉建} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢襄嚵} #前漢 #秦正
+    
+tag+country 漢襄嚵
+tag+monarch 侯劉建
+    
+tag 漢襄嚵
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉建
+
+def[侯劉忠]
+
+AD-126 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 侯劉忠
+  
+name  monarch
+name 侯劉忠
+  
+<-元朔 史記:-125-1-壬戌 #漢初封称元{#漢隰成 #侯劉忠} #前漢 #秦正
+    
+tag+country 漢隰成
+tag+monarch 侯劉忠
+    
+tag 漢隰成
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉忠
+
+def[侯劉恢]
+
+AD-124 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 侯劉恢
+  
+name  monarch
+name 侯劉恢
+  
+<-元朔 史記:-123-3-癸酉 #漢初封称元{#漢安遙 #侯劉恢} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢安遙} #前漢 #秦正
+    
+tag+country 漢安遙
+tag+monarch 侯劉恢
+    
+tag 漢安遙
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉恢
+
+def[侯劉息]
+
+AD-122 = 0
+u 1
+u 22
+  
+%tag person
+%tag   name 侯劉息
+  
+name  monarch
+name 侯劉息
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢瓡 #侯劉息} #前漢 #秦正
+    
+tag+country 漢瓡
+tag+monarch 侯劉息
+    
+tag 漢瓡
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉息
+
+def[侯劉慎]
+
+AD-126 = 0
+u 1
+u 26
+  
+%tag person
+%tag   name 侯劉慎
+  
+name  monarch
+name 侯劉慎
+  
+<-元朔 史記:-125-1-壬戌 #漢初封称元{#漢邵 #侯劉慎} #前漢 #秦正
+    
+tag+country 漢邵
+tag+monarch 侯劉慎
+    
+tag 漢邵
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉慎
+
+def[侯劉慶]
+
+AD-125 = 0
+u 1
+u 5
+  
+%tag person
+%tag   name 侯劉慶
+  
+name  monarch
+name 侯劉慶
+  
+<-元朔 史記:-124-3-乙丑 #漢初封称元{#漢東平 #侯劉慶} #前漢 #秦正
+    
+->元狩 [史記:-119] #漢廃国{#漢東平} #前漢 #秦正
+    
+tag+country 漢東平
+tag+monarch 侯劉慶
+    
+tag 漢東平
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉慶
+
+def[侯劉憲]
+
+AD-125 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 侯劉憲
+  
+name  monarch
+name 侯劉憲
+  
+<-元朔 史記:-124-3-乙丑 #漢初封称元{#漢鈞丘 #侯劉憲} #前漢 #秦正
+    
+tag+country 漢鈞丘
+tag+monarch 侯劉憲
+    
+tag 漢鈞丘
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉憲
+
+def[侯劉應]
+
+AD-124 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 侯劉應
+  
+name  monarch
+name 侯劉應
+  
+<-元朔 史記:-123-3-癸酉 #漢初封称元{#漢安險 #侯劉應} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢安險} #前漢 #秦正
+    
+tag+country 漢安險
+tag+monarch 侯劉應
+    
+tag 漢安險
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉應
+
+def[侯劉成]
+
+AD-129 = 0
+u 1
+u 17
+  
+%tag person
+%tag   name 侯劉成
+  
+name  monarch
+name 侯劉成
+  
+<-元光 史記:-128-7-乙巳 #漢初封称元{#漢宜春 #侯劉成} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢宜春} #前漢 #秦正
+    
+tag+country 漢宜春
+tag+monarch 侯劉成
+    
+tag 漢宜春
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉成
+
+def[侯劉拾]
+
+AD-125 = 0
+u 1
+u 8
+  
+%tag person
+%tag   name 侯劉拾
+  
+name  monarch
+name 侯劉拾
+  
+<-元朔 史記:-124-2-乙丑 #漢初封称元{#漢建成 #侯劉拾} #前漢 #秦正
+    
+->元狩 [史記:-116] #漢廃国{#漢建成} #前漢 #秦正
+    
+tag+country 漢建成
+tag+monarch 侯劉拾
+    
+tag 漢建成
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉拾
+
+def[侯劉搖]
+
+AD-125 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 侯劉搖
+  
+name  monarch
+name 侯劉搖
+  
+<-元朔 史記:-124-4-甲午 #漢初封称元{#漢千鍾 #侯劉搖} #前漢 #秦正
+    
+->元狩 [史記:-120] #漢廃国{#漢千鍾} #前漢 #秦正
+    
+tag+country 漢千鍾
+tag+monarch 侯劉搖
+    
+tag 漢千鍾
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉搖
+
+def[侯劉敬]
+
+AD-126 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 侯劉敬
+  
+name  monarch
+name 侯劉敬
+  
+<-元朔 史記:-125-3-乙卯 #漢初封称元{#漢西昌 #侯劉敬} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢西昌} #前漢 #秦正
+    
+tag+country 漢西昌
+tag+monarch 侯劉敬
+    
+tag 漢西昌
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉敬
+
+def[侯劉方]
+
+AD-122 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 侯劉方
+  
+name  monarch
+name 侯劉方
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢蕢 #侯劉方} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢蕢} #前漢 #秦正
+    
+tag+country 漢蕢
+tag+monarch 侯劉方
+    
+tag 漢蕢
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉方
+
+def[侯劉昆吾]
+
+AD-122 = 0
+u 1
+u 22
+  
+%tag person
+%tag   name 侯劉昆吾
+  
+name  monarch
+name 侯劉昆吾
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢扶㴆 #侯劉昆吾} #前漢 #秦正
+    
+tag+country 漢扶㴆
+tag+monarch 侯劉昆吾
+    
+tag 漢扶㴆
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉昆吾
+
+def[侯劉昌]
+
+AD-126 = 0
+u 1
+u 26
+  
+%tag person
+%tag   name 侯劉昌
+  
+name  monarch
+name 侯劉昌
+  
+<-元朔 史記:-125-4-庚辰 #漢初封称元{#漢武始 #侯劉昌} #前漢 #秦正
+    
+tag+country 漢武始
+tag+monarch 侯劉昌
+    
+tag 漢武始
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉昌
+
+def[侯劉明]
+
+AD-130 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 侯劉明
+  
+name  monarch
+name 侯劉明
+  
+<-元光 史記:-129-1-壬子 #漢初封称元{#漢茲 #侯劉明} #前漢 #秦正
+    
+->元朔 [史記:-125] #漢廃国{#漢茲} #前漢 #秦正
+    
+tag+country 漢茲
+tag+monarch 侯劉明
+    
+tag 漢茲
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉明
+
+def[侯劉晏]
+
+AD-126 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 侯劉晏
+  
+name  monarch
+name 侯劉晏
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢棗彊 #侯劉晏} #前漢 #秦正
+    
+tag+country 漢棗彊
+tag+monarch 侯劉晏
+    
+tag 漢棗彊
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉晏
+
+def[侯劉朝平]
+
+AD-127 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 侯劉朝平
+  
+name  monarch
+name 侯劉朝平
+  
+<-元朔 史記:-126-6-甲午 #漢初封称元{#漢將梁 #侯劉朝平} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢將梁} #前漢 #秦正
+    
+tag+country 漢將梁
+tag+monarch 侯劉朝平
+    
+tag 漢將梁
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉朝平
+
+def[侯劉未央]
+
+AD-127 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 侯劉未央
+  
+name  monarch
+name 侯劉未央
+  
+<-元朔 史記:-126-6-甲午 #漢初封称元{#漢新館 #侯劉未央} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢新館} #前漢 #秦正
+    
+tag+country 漢新館
+tag+monarch 侯劉未央
+    
+tag 漢新館
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉未央
+
+def[侯劉桀]
+
+AD-126 = 0
+u 1
+u 26
+  
+%tag person
+%tag   name 侯劉桀
+  
+name  monarch
+name 侯劉桀
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢安陽 #侯劉桀} #前漢 #秦正
+    
+tag+country 漢安陽
+tag+monarch 侯劉桀
+    
+tag 漢安陽
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉桀
+
+def[侯劉楚]
+
+AD-126 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 侯劉楚
+  
+name  monarch
+name 侯劉楚
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢胡母 #侯劉楚} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢胡母} #前漢 #秦正
+    
+tag+country 漢胡母
+tag+monarch 侯劉楚
+    
+tag 漢胡母
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉楚
+
+def[侯劉欣]
+
+AD-125 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 侯劉欣
+  
+name  monarch
+name 侯劉欣
+  
+<-元朔 史記:-124-3-乙丑 #漢初封称元{#漢荼陵 #侯劉欣} #前漢 #秦正
+    
+tag+country 漢荼陵
+tag+monarch 侯劉欣
+    
+tag 漢荼陵
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉欣
+
+def[侯劉殷]
+
+AD-126 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 侯劉殷
+  
+name  monarch
+name 侯劉殷
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢房光 #侯劉殷} #前漢 #秦正
+    
+->元鼎 [史記:-115] #漢廃国{#漢房光} #前漢 #秦正
+    
+tag+country 漢房光
+tag+monarch 侯劉殷
+    
+tag 漢房光
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉殷
+
+def[侯劉熹]
+
+AD-126 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 侯劉熹
+  
+name  monarch
+name 侯劉熹
+  
+<-元朔 史記:-125-1-壬戌 #漢初封称元{#漢藺 #侯劉熹} #前漢 #秦正
+    
+tag+country 漢藺
+tag+monarch 侯劉熹
+    
+tag 漢藺
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉熹
+
+def[侯劉發]
+
+AD-122 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 侯劉發
+  
+name  monarch
+name 侯劉發
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢鉅合 #侯劉發} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢鉅合} #前漢 #秦正
+    
+tag+country 漢鉅合
+tag+monarch 侯劉發
+    
+tag 漢鉅合
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉發
+
+def[侯劉皋]
+
+AD-125 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 侯劉皋
+  
+name  monarch
+name 侯劉皋
+  
+<-元朔 史記:-124-3-乙丑 #漢初封称元{#漢莊原 #侯劉皋} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢莊原} #前漢 #秦正
+    
+tag+country 漢莊原
+tag+monarch 侯劉皋
+    
+tag 漢莊原
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉皋
+
+def[侯劉禮]
+
+AD-126 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 侯劉禮
+  
+name  monarch
+name 侯劉禮
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢成平 #侯劉禮} #前漢 #秦正
+    
+->元狩 [史記:-119] #漢廃国{#漢成平} #前漢 #秦正
+    
+tag+country 漢成平
+tag+monarch 侯劉禮
+    
+tag 漢成平
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉禮
+
+def[侯劉禹]
+
+AD-122 = 0
+u 1
+u 22
+  
+%tag person
+%tag   name 侯劉禹
+  
+name  monarch
+name 侯劉禹
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢虛水 #侯劉禹} #前漢 #秦正
+    
+tag+country 漢虛水
+tag+monarch 侯劉禹
+    
+tag 漢虛水
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉禹
+
+def[侯劉稀]
+
+AD-127 = 0
+u 1
+u 16
+  
+%tag person
+%tag   name 侯劉稀
+  
+name  monarch
+name 侯劉稀
+  
+<-元朔 史記:-126-5-甲戌 #漢初封称元{#漢雷 #侯劉稀} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢雷} #前漢 #秦正
+    
+tag+country 漢雷
+tag+monarch 侯劉稀
+    
+tag 漢雷
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉稀
+
+def[侯劉章]
+
+AD-125 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 侯劉章
+  
+name  monarch
+name 侯劉章
+  
+<-元朔 史記:-124-3-乙丑 #漢初封称元{#漢洛陵 #侯劉章} #前漢 #秦正
+    
+->元狩 [史記:-120] #漢廃国{#漢洛陵} #前漢 #秦正
+    
+tag+country 漢洛陵
+tag+monarch 侯劉章
+    
+tag 漢洛陵
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉章
+
+def[侯劉終古]
+
+AD-124 = 0
+u 1
+u 24
+  
+%tag person
+%tag   name 侯劉終古
+  
+name  monarch
+name 侯劉終古
+  
+<-元朔 史記:-123-11-辛酉 #漢初封称元{#漢柏陽 #侯劉終古} #前漢 #秦正
+    
+tag+country 漢柏陽
+tag+monarch 侯劉終古
+    
+tag 漢柏陽
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉終古
+
+def[侯劉綰]
+
+AD-126 = 0
+u 1
+u 26
+  
+%tag person
+%tag   name 侯劉綰
+  
+name  monarch
+name 侯劉綰
+  
+<-元朔 史記:-125-1-壬戌 #漢初封称元{#漢離石 #侯劉綰} #前漢 #秦正
+    
+tag+country 漢離石
+tag+monarch 侯劉綰
+    
+tag 漢離石
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉綰
+
+def[侯劉義]
+
+AD-127 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 侯劉義
+  
+name  monarch
+name 侯劉義
+  
+<-元朔 史記:-126-6-甲午 #漢初封称元{#漢朝 #侯劉義} #前漢 #秦正
+    
+tag+country 漢朝
+tag+monarch 侯劉義
+    
+tag 漢朝
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉義
+
+def[侯劉聖]
+
+AD-122 = 0
+u 1
+u 22
+  
+%tag person
+%tag   name 侯劉聖
+  
+name  monarch
+name 侯劉聖
+  
+<-元狩 史記:-121-10-乙酉 #漢初封称元{#漢襄陵 #侯劉聖} #前漢 #秦正
+    
+tag+country 漢襄陵
+tag+monarch 侯劉聖
+    
+tag 漢襄陵
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉聖
+
+def[侯劉胡]
+
+AD-127 = 0
+u 1
+u 27
+  
+%tag person
+%tag   name 侯劉胡
+  
+name  monarch
+name 侯劉胡
+  
+<-元朔 史記:-126-5-乙巳 #漢初封称元{#漢益都 #侯劉胡} #前漢 #秦正
+    
+tag+country 漢益都
+tag+monarch 侯劉胡
+    
+tag 漢益都
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉胡
+
+def[侯劉臒丘]
+
+AD-126 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 侯劉臒丘
+  
+name  monarch
+name 侯劉臒丘
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢五㯫 #侯劉臒丘} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢五㯫} #前漢 #秦正
+    
+tag+country 漢五㯫
+tag+monarch 侯劉臒丘
+    
+tag 漢五㯫
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉臒丘
+
+def[侯劉萬歲]
+
+AD-124 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 侯劉萬歲
+  
+name  monarch
+name 侯劉萬歲
+  
+<-元朔 史記:-123-2-癸酉 #漢初封称元{#漢曲成 #侯劉萬歲} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢曲成} #前漢 #秦正
+    
+tag+country 漢曲成
+tag+monarch 侯劉萬歲
+    
+tag 漢曲成
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉萬歲
+
+def[侯劉蒼]
+
+AD-127 = 0
+u 1
+u 17
+  
+%tag person
+%tag   name 侯劉蒼
+  
+name  monarch
+name 侯劉蒼
+  
+<-元朔 史記:-126-6-甲午 #漢初封称元{#漢陰城 #侯劉蒼} #前漢 #秦正
+    
+->元封 [史記:-109] #漢廃国{#漢陰城} #前漢 #秦正
+    
+tag+country 漢陰城
+tag+monarch 侯劉蒼
+    
+tag 漢陰城
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉蒼
+
+def[侯劉衍]
+
+AD-127 = 0
+u 1
+u 27
+  
+%tag person
+%tag   name 侯劉衍
+  
+name  monarch
+name 侯劉衍
+  
+<-元朔 史記:-126-5-乙巳 #漢初封称元{#漢平度 #侯劉衍} #前漢 #秦正
+    
+tag+country 漢平度
+tag+monarch 侯劉衍
+    
+tag 漢平度
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉衍
+
+def[侯劉襲]
+
+AD-126 = 0
+u 1
+u 26
+  
+%tag person
+%tag   name 侯劉襲
+  
+name  monarch
+name 侯劉襲
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢富 #侯劉襲} #前漢 #秦正
+    
+tag+country 漢富
+tag+monarch 侯劉襲
+    
+tag 漢富
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉襲
+
+def[侯劉訢]
+
+AD-125 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 侯劉訢
+  
+name  monarch
+name 侯劉訢
+  
+<-元朔 史記:-124-3-乙丑 #漢初封称元{#漢運平 #侯劉訢} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢運平} #前漢 #秦正
+    
+tag+country 漢運平
+tag+monarch 侯劉訢
+    
+tag 漢運平
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉訢
+
+def[侯劉譚]
+
+AD-122 = 0
+u 1
+u 22
+  
+%tag person
+%tag   name 侯劉譚
+  
+name  monarch
+name 侯劉譚
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢庸 #侯劉譚} #前漢 #秦正
+    
+tag+country 漢庸
+tag+monarch 侯劉譚
+    
+tag 漢庸
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉譚
+
+def[侯劉讓]
+
+AD-126 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 侯劉讓
+  
+name  monarch
+name 侯劉讓
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢蓋胥 #侯劉讓} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢蓋胥} #前漢 #秦正
+    
+tag+country 漢蓋胥
+tag+monarch 侯劉讓
+    
+tag 漢蓋胥
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉讓
+
+def[侯劉象之]
+
+AD-128 = 0
+u 1
+u 16
+  
+%tag person
+%tag   name 侯劉象之
+  
+name  monarch
+name 侯劉象之
+  
+<-元朔 史記:-127-12-甲辰 #漢初封称元{#漢盱台 #侯劉象之} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢盱台} #前漢 #秦正
+    
+tag+country 漢盱台
+tag+monarch 侯劉象之
+    
+tag 漢盱台
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉象之
+
+def[侯劉貞]
+
+AD-127 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 侯劉貞
+  
+name  monarch
+name 侯劉貞
+  
+<-元朔 史記:-126-6-甲午 #漢初封称元{#漢陘城 #侯劉貞} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢陘城} #前漢 #秦正
+    
+tag+country 漢陘城
+tag+monarch 侯劉貞
+    
+tag 漢陘城
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉貞
+
+def[侯劉買]
+
+AD-124 = 0
+u 1
+u 24
+  
+%tag person
+%tag   name 侯劉買
+  
+name  monarch
+name 侯劉買
+  
+<-元朔 史記:-123-6-壬子 #漢初封称元{#漢舂陵 #侯劉買} #前漢 #秦正
+    
+tag+country 漢舂陵
+tag+monarch 侯劉買
+    
+tag 漢舂陵
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉買
+
+def[侯劉賢]
+
+AD-126 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 侯劉賢
+  
+name  monarch
+name 侯劉賢
+  
+<-元朔 史記:-125-1-壬戌 #漢初封称元{#漢臨河 #侯劉賢} #前漢 #秦正
+    
+tag+country 漢臨河
+tag+monarch 侯劉賢
+    
+tag 漢臨河
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉賢
+
+def[侯劉遂]
+
+AD-126 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 侯劉遂
+  
+name  monarch
+name 侯劉遂
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢平 #侯劉遂} #前漢 #秦正
+    
+->元狩 [史記:-121] #漢廃国{#漢平} #前漢 #秦正
+    
+tag+country 漢平
+tag+monarch 侯劉遂
+    
+tag 漢平
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉遂
+
+def[侯劉遇]
+
+AD-126 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 侯劉遇
+  
+name  monarch
+name 侯劉遇
+  
+<-元朔 史記:-125-1-壬戌 #漢初封称元{#漢千章 #侯劉遇} #前漢 #秦正
+    
+tag+country 漢千章
+tag+monarch 侯劉遇
+    
+tag 漢千章
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉遇
+
+def[侯劉遷]
+
+AD-126 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 侯劉遷
+  
+name  monarch
+name 侯劉遷
+  
+<-元朔 史記:-125-1-壬戌 #漢初封称元{#漢皋狼 #侯劉遷} #前漢 #秦正
+    
+tag+country 漢皋狼
+tag+monarch 侯劉遷
+    
+tag 漢皋狼
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉遷
+
+def[侯劉遺]
+
+AD-127 = 0
+u 1
+u 11
+  
+%tag person
+%tag   name 侯劉遺
+  
+name  monarch
+name 侯劉遺
+  
+<-元朔 史記:-126-6-甲午 #漢初封称元{#漢東城 #侯劉遺} #前漢 #秦正
+    
+->元鼎 [史記:-115] #漢廃国{#漢東城} #前漢 #秦正
+    
+tag+country 漢東城
+tag+monarch 侯劉遺
+    
+tag 漢東城
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉遺
+
+def[侯劉邈]
+
+AD-126 = 0
+u 1
+u 16
+  
+%tag person
+%tag   name 侯劉邈
+  
+name  monarch
+name 侯劉邈
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢蔞 #侯劉邈} #前漢 #秦正
+    
+tag+country 漢蔞
+tag+monarch 侯劉邈
+    
+tag 漢蔞
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉邈
+
+def[侯劉郢客]
+
+AD-126 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 侯劉郢客
+  
+name  monarch
+name 侯劉郢客
+  
+<-元朔 史記:-125-1-壬戌 #漢初封称元{#漢土軍 #侯劉郢客} #前漢 #秦正
+    
+tag+country 漢土軍
+tag+monarch 侯劉郢客
+    
+tag 漢土軍
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉郢客
+
+def[侯劉釘]
+
+AD-125 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 侯劉釘
+  
+name  monarch
+name 侯劉釘
+  
+<-元朔 史記:-124-3-乙丑 #漢初封称元{#漢有利 #侯劉釘} #前漢 #秦正
+    
+->元狩 [史記:-121] #漢廃国{#漢有利} #前漢 #秦正
+    
+tag+country 漢有利
+tag+monarch 侯劉釘
+    
+tag 漢有利
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉釘
+
+def[侯劉霸]
+
+AD-122 = 0
+u 1
+u 22
+  
+%tag person
+%tag   name 侯劉霸
+  
+name  monarch
+name 侯劉霸
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢挍 #侯劉霸} #前漢 #秦正
+    
+tag+country 漢挍
+tag+monarch 侯劉霸
+    
+tag 漢挍
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉霸
+
+def[侯劉順]
+
+AD-126 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 侯劉順
+  
+name  monarch
+name 侯劉順
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢廣 #侯劉順} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢廣} #前漢 #秦正
+    
+tag+country 漢廣
+tag+monarch 侯劉順
+    
+tag 漢廣
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉順
+
+def[侯劉頗]
+
+AD-125 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 侯劉頗
+  
+name  monarch
+name 侯劉頗
+  
+<-元朔 史記:-124-4-甲午 #漢初封称元{#漢廣川 #侯劉頗} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢廣川} #前漢 #秦正
+    
+tag+country 漢廣川
+tag+monarch 侯劉頗
+    
+tag 漢廣川
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉頗
+
+def[侯劉類]
+
+AD-122 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 侯劉類
+  
+name  monarch
+name 侯劉類
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢東淮 #侯劉類} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢東淮} #前漢 #秦正
+    
+tag+country 漢東淮
+tag+monarch 侯劉類
+    
+tag 漢東淮
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉類
+
+def[侯劉饨]
+
+AD-126 = 0
+u 1
+u 8
+  
+%tag person
+%tag   name 侯劉饨
+  
+name  monarch
+name 侯劉饨
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢距陽 #侯劉饨} #前漢 #秦正
+    
+tag+country 漢距陽
+tag+monarch 侯劉饨
+    
+tag 漢距陽
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉饨
+
+def[侯劉騎]
+
+AD-126 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 侯劉騎
+  
+name  monarch
+name 侯劉騎
+  
+<-元朔 史記:-125-3-乙卯 #漢初封称元{#漢郁狼 #侯劉騎} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢郁狼} #前漢 #秦正
+    
+tag+country 漢郁狼
+tag+monarch 侯劉騎
+    
+tag 漢郁狼
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉騎
+
+def[侯劉騫]
+
+AD-126 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 侯劉騫
+  
+name  monarch
+name 侯劉騫
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢榮簡 #侯劉騫} #前漢 #秦正
+    
+->元狩 [史記:-119] #漢廃国{#漢榮簡} #前漢 #秦正
+    
+tag+country 漢榮簡
+tag+monarch 侯劉騫
+    
+tag 漢榮簡
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉騫
+
+def[侯劉齒]
+
+AD-125 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 侯劉齒
+  
+name  monarch
+name 侯劉齒
+  
+<-元朔 史記:-124-3-乙丑 #漢初封称元{#漢山州 #侯劉齒} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢山州} #前漢 #秦正
+    
+tag+country 漢山州
+tag+monarch 侯劉齒
+    
+tag 漢山州
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯劉齒
+
+def[侯戚]
+
+AD-119 = 0
+u 1
+u 5
+  
+%tag person
+%tag   name 侯戚
+  
+name  monarch
+name 侯戚
+  
+<-節侯劉寬 [史記:-118] #漢称元{#漢葛魁 #侯戚} #前漢 #秦正
+    
+->元鼎 [史記:-113] #漢廃国{#漢葛魁} #前漢 #秦正
+    
+tag 漢葛魁
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯戚
+
+def[侯朋]
+
+AD-124 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 侯朋
+  
+name  monarch
+name 侯朋
+  
+<-節侯劉壯 [史記:-123] #漢称元{#漢辟 #侯朋} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢辟} #前漢 #秦正
+    
+tag 漢辟
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯朋
+
+def[侯渡]
+
+AD-118 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 侯渡
+  
+name  monarch
+name 侯渡
+  
+<-侯劉饨 [史記:-117] #漢称元{#漢距陽 #侯渡} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢距陽} #前漢 #秦正
+    
+tag 漢距陽
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯渡
+
+def[侯犢]
+
+AD-122 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 侯犢
+  
+name  monarch
+name 侯犢
+  
+<-節侯劉丙 [史記:-121] #漢称元{#漢尉文 #侯犢} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢尉文} #前漢 #秦正
+    
+tag 漢尉文
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯犢
+
+def[侯當時]
+
+AD-118 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 侯當時
+  
+name  monarch
+name 侯當時
+  
+<-侯劉何 [史記:-117] #漢称元{#漢周堅 #侯當時} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢周堅} #前漢 #秦正
+    
+tag 漢周堅
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯當時
+
+def[侯終吉]
+
+AD-114 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 侯終吉
+  
+name  monarch
+name 侯終吉
+  
+<-康侯劉就 [史記:-113] #漢称元{#漢博陽 #侯終吉} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢博陽} #前漢 #秦正
+    
+tag 漢博陽
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯終吉
+
+def[侯罷師]
+
+AD-113 = 0
+u 1
+u 7
+  
+%tag person
+%tag   name 侯罷師
+  
+name  monarch
+name 侯罷師
+  
+<-康侯劉陽 [史記:-112] #漢称元{#漢柳 #侯罷師} #前漢 #秦正
+    
+tag 漢柳
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯罷師
+
+def[侯蘇]
+
+AD-120 = 0
+u 1
+u 8
+  
+%tag person
+%tag   name 侯蘇
+  
+name  monarch
+name 侯蘇
+  
+<-夷侯劉蓋 [史記:-119] #漢称元{#漢柳宿 #侯蘇} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢柳宿} #前漢 #秦正
+    
+tag 漢柳宿
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯蘇
+
+def[侯邑]
+
+AD-114 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 侯邑
+  
+name  monarch
+name 侯邑
+  
+<-繆侯劉明 [史記:-113] #漢称元{#漢陪 #侯邑} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢陪} #前漢 #秦正
+    
+tag 漢陪
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯邑
+
+def[侯霸]
+
+AD-118 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 侯霸
+  
+name  monarch
+name 侯霸
+  
+<-侯劉不審 [史記:-117] #漢称元{#漢浮丘 #侯霸} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢浮丘} #前漢 #秦正
+    
+tag 漢浮丘
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 侯霸
+
+def[共侯劉渫]
+
+AD-125 = 0
+u 1
+u 5
+  
+%tag person
+%tag   name 共侯劉渫
+  
+name  monarch
+name 共侯劉渫
+  
+<-元朔 史記:-124-4-乙卯 #漢初封称元{#漢牟平 #共侯劉渫} #前漢 #秦正
+    
+tag+country 漢牟平
+tag+monarch 共侯劉渫
+    
+tag 漢牟平
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 共侯劉渫
+
+def[共侯劉胡陽]
+
+AD-127 = 0
+u 1
+u 25
+  
+%tag person
+%tag   name 共侯劉胡陽
+  
+name  monarch
+name 共侯劉胡陽
+  
+<-元朔 史記:-126-6-甲午 #漢初封称元{#漢封斯 #共侯劉胡陽} #前漢 #秦正
+    
+tag+country 漢封斯
+tag+monarch 共侯劉胡陽
+    
+tag 漢封斯
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 共侯劉胡陽
+
+def[利昌侯劉嘉]
+
+AD-126 = 0
+u 1
+u 26
+  
+%tag person
+%tag   name 利昌侯劉嘉
+  
+name  monarch
+name 侯劉嘉
+  
+<-元朔 史記:-125-1-壬戌 #漢初封称元{#漢利昌 #利昌侯劉嘉} #前漢 #秦正
+    
+tag+country 漢利昌
+tag+monarch 利昌侯劉嘉
+    
+tag 漢利昌
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 利昌侯劉嘉
+
+def[劇魁侯德]
+
+AD-107 = 0
+u 1
+u 7
+  
+%tag person
+%tag   name 劇魁侯德
+  
+name  monarch
+name 侯德
+  
+<-劇魁侯昭 [史記:-106] #漢称元{#漢劇魁 #劇魁侯德} #前漢 #秦正
+    
+tag 漢劇魁
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 劇魁侯德
+
+def[劇魁侯昭]
+
+AD-110 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 劇魁侯昭
+  
+name  monarch
+name 侯昭
+  
+<-夷侯劉墨 [史記:-109] #漢称元{#漢劇魁 #劇魁侯昭} #前漢 #秦正
+    
+tag 漢劇魁
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 劇魁侯昭
+
+def[南城侯劉貞]
+
+AD-125 = 0
+u 1
+u 25
+  
+%tag person
+%tag   name 南城侯劉貞
+  
+name  monarch
+name 侯劉貞
+  
+<-元朔 史記:-124-3-乙丑 #漢初封称元{#漢南城 #南城侯劉貞} #前漢 #秦正
+    
+tag+country 漢南城
+tag+monarch 南城侯劉貞
+    
+tag 漢南城
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 南城侯劉貞
+
+def[原侯劉代]
+
+AD-125 = 0
+u 1
+u 25
+  
+%tag person
+%tag   name 原侯劉代
+  
+name  monarch
+name 原侯劉代
+  
+<-元朔 史記:-124-4-乙卯 #漢初封称元{#漢柴 #原侯劉代} #前漢 #秦正
+    
+tag+country 漢柴
+tag+monarch 原侯劉代
+    
+tag 漢柴
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 原侯劉代
+
+def[原侯劉錯]
+
+AD-127 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 原侯劉錯
+  
+name  monarch
+name 原侯劉錯
+  
+<-元朔 史記:-126-5-乙巳 #漢初封称元{#漢劇 #原侯劉錯} #前漢 #秦正
+    
+tag+country 漢劇
+tag+monarch 原侯劉錯
+    
+tag 漢劇
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 原侯劉錯
+
+def[叢侯劉信]
+
+AD-126 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 叢侯劉信
+  
+name  monarch
+name 侯劉信
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢叢 #叢侯劉信} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢叢} #前漢 #秦正
+    
+tag+country 漢叢
+tag+monarch 叢侯劉信
+    
+tag 漢叢
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 叢侯劉信
+
+def[句陵侯劉福]
+
+AD-129 = 0
+u 1
+u 17
+  
+%tag person
+%tag   name 句陵侯劉福
+  
+name  monarch
+name 侯劉福
+  
+<-元光 史記:-128-7-乙巳 #漢初封称元{#漢句陵 #句陵侯劉福} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢句陵} #前漢 #秦正
+    
+tag+country 漢句陵
+tag+monarch 句陵侯劉福
+    
+tag 漢句陵
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 句陵侯劉福
+
+def[哀侯劉仁]
+
+AD-127 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 哀侯劉仁
+  
+name  monarch
+name 哀侯劉仁
+  
+<-元朔 史記:-126-5-乙巳 #漢初封称元{#漢張梁 #哀侯劉仁} #前漢 #秦正
+    
+tag+country 漢張梁
+tag+monarch 哀侯劉仁
+    
+tag 漢張梁
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 哀侯劉仁
+
+def[哀侯劉奴]
+
+AD-127 = 0
+u 1
+u 27
+  
+%tag person
+%tag   name 哀侯劉奴
+  
+name  monarch
+name 哀侯劉奴
+  
+<-元朔 史記:-126-5-乙巳 #漢初封称元{#漢臨朐 #哀侯劉奴} #前漢 #秦正
+    
+tag+country 漢臨朐
+tag+monarch 哀侯劉奴
+    
+tag 漢臨朐
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 哀侯劉奴
+
+def[哀侯劉破胡]
+
+AD-124 = 0
+u 1
+u 8
+  
+%tag person
+%tag   name 哀侯劉破胡
+  
+name  monarch
+name 哀侯劉破胡
+  
+<-元朔 史記:-123-3-癸酉 #漢初封称元{#漢高丘 #哀侯劉破胡} #前漢 #秦正
+    
+->元鼎 [史記:-115] #漢廃国{#漢高丘} #前漢 #秦正
+    
+tag+country 漢高丘
+tag+monarch 哀侯劉破胡
+    
+tag 漢高丘
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 哀侯劉破胡
+
+def[哀侯劉黨]
+
+AD-129 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 哀侯劉黨
+  
+name  monarch
+name 哀侯劉黨
+  
+<-元光 史記:-128-7-乙巳 #漢初封称元{#漢句容 #哀侯劉黨} #前漢 #秦正
+    
+->元朔 [史記:-127] #漢廃国{#漢句容} #前漢 #秦正
+    
+tag+country 漢句容
+tag+monarch 哀侯劉黨
+    
+tag 漢句容
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 哀侯劉黨
+
+def[哀侯敢]
+
+AD-128 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 哀侯敢
+  
+name  monarch
+name 哀侯敢
+  
+<-元朔 史記:-127-12-甲辰 #漢初封称元{#漢丹楊 #哀侯敢} #前漢 #秦正
+    
+->元狩 [史記:-121] #漢廃国{#漢丹楊} #前漢 #秦正
+    
+tag+country 漢丹楊
+tag+monarch 哀侯敢
+    
+tag 漢丹楊
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 哀侯敢
+
+def[哀侯秦客]
+
+AD-115 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 哀侯秦客
+  
+name  monarch
+name 哀侯秦客
+  
+<-康侯劉不害 [史記:-114] #漢称元{#漢陪安 #哀侯秦客} #前漢 #秦正
+    
+->元鼎 [史記:-113] #漢廃国{#漢陪安} #前漢 #秦正
+    
+tag 漢陪安
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 哀侯秦客
+
+def[哀侯陽]
+
+AD-115 = 0
+u 1
+u 11
+  
+%tag person
+%tag   name 哀侯陽
+  
+name  monarch
+name 哀侯陽
+  
+<-侯劉欣 [史記:-114] #漢称元{#漢荼陵 #哀侯陽} #前漢 #秦正
+    
+->太初 [史記:-103] #漢廃国{#漢荼陵} #前漢 
+    
+tag 漢荼陵
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 哀侯陽
+
+def[夷侯劉信]
+
+AD-125 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 夷侯劉信
+  
+name  monarch
+name 夷侯劉信
+  
+<-元朔 史記:-124-4-乙卯 #漢初封称元{#漢雲 #夷侯劉信} #前漢 #秦正
+    
+tag+country 漢雲
+tag+monarch 夷侯劉信
+    
+tag 漢雲
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 夷侯劉信
+
+def[夷侯劉墨]
+
+AD-127 = 0
+u 1
+u 17
+  
+%tag person
+%tag   name 夷侯劉墨
+  
+name  monarch
+name 夷侯劉墨
+  
+<-元朔 史記:-126-5-乙巳 #漢初封称元{#漢劇魁 #夷侯劉墨} #前漢 #秦正
+    
+tag+country 漢劇魁
+tag+monarch 夷侯劉墨
+    
+tag 漢劇魁
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 夷侯劉墨
+
+def[夷侯劉定]
+
+AD-125 = 0
+u 1
+u 11
+  
+%tag person
+%tag   name 夷侯劉定
+  
+name  monarch
+name 夷侯劉定
+  
+<-元朔 史記:-124-4-乙卯 #漢初封称元{#漢稻 #夷侯劉定} #前漢 #秦正
+    
+tag+country 漢稻
+tag+monarch 夷侯劉定
+    
+tag 漢稻
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 夷侯劉定
+
+def[夷侯劉蓋]
+
+AD-124 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 夷侯劉蓋
+  
+name  monarch
+name 夷侯劉蓋
+  
+<-元朔 史記:-123-3-癸酉 #漢初封称元{#漢柳宿 #夷侯劉蓋} #前漢 #秦正
+    
+tag+country 漢柳宿
+tag+monarch 夷侯劉蓋
+    
+tag 漢柳宿
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 夷侯劉蓋
+
+def[夷侯劉賞]
+
+AD-127 = 0
+u 1
+u 7
+  
+%tag person
+%tag   name 夷侯劉賞
+  
+name  monarch
+name 夷侯劉賞
+  
+<-元朔 史記:-126-5-乙巳 #漢初封称元{#漢平望 #夷侯劉賞} #前漢 #秦正
+    
+tag+country 漢平望
+tag+monarch 夷侯劉賞
+    
+tag 漢平望
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 夷侯劉賞
+
+def[夷侯劉順]
+
+AD-126 = 0
+u 1
+u 26
+  
+%tag person
+%tag   name 夷侯劉順
+  
+name  monarch
+name 夷侯劉順
+  
+<-元朔 史記:-125-3-乙卯 #漢初封称元{#漢公丘 #夷侯劉順} #前漢 #秦正
+    
+tag+country 漢公丘
+tag+monarch 夷侯劉順
+    
+tag 漢公丘
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 夷侯劉順
+
+def[夷侯劉高遂]
+
+AD-127 = 0
+u 1
+u 11
+  
+%tag person
+%tag   name 夷侯劉高遂
+  
+name  monarch
+name 夷侯劉高遂
+  
+<-元朔 史記:-126-5-乙巳 #漢初封称元{#漢壤 #夷侯劉高遂} #前漢 #秦正
+    
+tag+country 漢壤
+tag+monarch 夷侯劉高遂
+    
+tag 漢壤
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 夷侯劉高遂
+
+def[孝侯廣昌]
+
+AD-115 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 孝侯廣昌
+  
+name  monarch
+name 孝侯廣昌
+  
+<-原侯劉錯 [史記:-114] #漢称元{#漢劇 #孝侯廣昌} #前漢 #秦正
+    
+tag 漢劇
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 孝侯廣昌
+
+def[安侯劉平]
+
+AD-126 = 0
+u 1
+u 20
+  
+%tag person
+%tag   name 安侯劉平
+  
+name  monarch
+name 安侯劉平
+  
+<-元朔 史記:-125-4-庚辰 #漢初封称元{#漢易 #安侯劉平} #前漢 #秦正
+    
+tag+country 漢易
+tag+monarch 安侯劉平
+    
+tag 漢易
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 安侯劉平
+
+def[宜成侯福]
+
+AD-116 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 宜成侯福
+  
+name  monarch
+name 侯福
+  
+<-康侯劉偃 [史記:-115] #漢称元{#漢宜成 #宜成侯福} #前漢 #秦正
+    
+->太初 [史記:-103] #漢廃国{#漢宜成} #前漢 
+    
+tag 漢宜成
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 宜成侯福
+
+def[常侯劉表]
+
+AD-125 = 0
+u 1
+u 7
+  
+%tag person
+%tag   name 常侯劉表
+  
+name  monarch
+name 常侯劉表
+  
+<-元朔 史記:-124-3-乙丑 #漢初封称元{#漢廣陵 #常侯劉表} #前漢 #秦正
+    
+tag+country 漢廣陵
+tag+monarch 常侯劉表
+    
+tag 漢廣陵
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 常侯劉表
+
+def[康侯劉不害]
+
+AD-126 = 0
+u 1
+u 11
+  
+%tag person
+%tag   name 康侯劉不害
+  
+name  monarch
+name 康侯劉不害
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢陪安 #康侯劉不害} #前漢 #秦正
+    
+tag+country 漢陪安
+tag+monarch 康侯劉不害
+    
+tag 漢陪安
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 康侯劉不害
+
+def[康侯劉丹]
+
+AD-125 = 0
+u 1
+u 20
+  
+%tag person
+%tag   name 康侯劉丹
+  
+name  monarch
+name 康侯劉丹
+  
+<-元朔 史記:-124-3-乙丑 #漢初封称元{#漢安眾 #康侯劉丹} #前漢 #秦正
+    
+tag+country 漢安眾
+tag+monarch 康侯劉丹
+    
+tag 漢安眾
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 康侯劉丹
+
+def[康侯劉偃]
+
+AD-127 = 0
+u 1
+u 11
+  
+%tag person
+%tag   name 康侯劉偃
+  
+name  monarch
+name 康侯劉偃
+  
+<-元朔 史記:-126-5-乙巳 #漢初封称元{#漢宜成 #康侯劉偃} #前漢 #秦正
+    
+tag+country 漢宜成
+tag+monarch 康侯劉偃
+    
+tag 漢宜成
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 康侯劉偃
+
+def[康侯劉嘉]
+
+AD-125 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 康侯劉嘉
+  
+name  monarch
+name 康侯劉嘉
+  
+<-元朔 史記:-124-3-乙丑 #漢初封称元{#漢葉 #康侯劉嘉} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢葉} #前漢 #秦正
+    
+tag+country 漢葉
+tag+monarch 康侯劉嘉
+    
+tag 漢葉
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 康侯劉嘉
+
+def[康侯劉國]
+
+AD-122 = 0
+u 1
+u 22
+  
+%tag person
+%tag   name 康侯劉國
+  
+name  monarch
+name 康侯劉國
+  
+<-元狩 史記:-121-10-辛卯 #漢初封称元{#漢廣饒 #康侯劉國} #前漢 #秦正
+    
+tag+country 漢廣饒
+tag+monarch 康侯劉國
+    
+tag 漢廣饒
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 康侯劉國
+
+def[康侯劉嬰]
+
+AD-125 = 0
+u 1
+u 5
+  
+%tag person
+%tag   name 康侯劉嬰
+  
+name  monarch
+name 康侯劉嬰
+  
+<-元朔 史記:-124-3-乙丑 #漢初封称元{#漢利鄉 #康侯劉嬰} #前漢 #秦正
+    
+->元狩 [史記:-119] #漢廃国{#漢利鄉} #前漢 #秦正
+    
+tag+country 漢利鄉
+tag+monarch 康侯劉嬰
+    
+tag 漢利鄉
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 康侯劉嬰
+
+def[康侯劉就]
+
+AD-126 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 康侯劉就
+  
+name  monarch
+name 康侯劉就
+  
+<-元朔 史記:-125-3-乙卯 #漢初封称元{#漢博陽 #康侯劉就} #前漢 #秦正
+    
+tag+country 漢博陽
+tag+monarch 康侯劉就
+    
+tag 漢博陽
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 康侯劉就
+
+def[康侯劉澤]
+
+AD-122 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 康侯劉澤
+  
+name  monarch
+name 康侯劉澤
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢雩殷 #康侯劉澤} #前漢 #秦正
+    
+tag+country 漢雩殷
+tag+monarch 康侯劉澤
+    
+tag 漢雩殷
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 康侯劉澤
+
+def[康侯劉陽]
+
+AD-125 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 康侯劉陽
+  
+name  monarch
+name 康侯劉陽
+  
+<-元朔 史記:-124-4-乙卯 #漢初封称元{#漢柳 #康侯劉陽} #前漢 #秦正
+    
+tag+country 漢柳
+tag+monarch 康侯劉陽
+    
+tag 漢柳
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 康侯劉陽
+
+def[廣戚侯始]
+
+AD-122 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 廣戚侯始
+  
+name  monarch
+name 侯始
+  
+<-節侯劉擇 [史記:-121] #漢称元{#漢廣戚 #廣戚侯始} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢廣戚} #前漢 #秦正
+    
+tag 漢廣戚
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 廣戚侯始
+
+def[廣陵侯成]
+
+AD-118 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 廣陵侯成
+  
+name  monarch
+name 侯成
+  
+<-常侯劉表 [史記:-117] #漢称元{#漢廣陵 #廣陵侯成} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢廣陵} #前漢 #秦正
+    
+tag 漢廣陵
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 廣陵侯成
+
+def[思侯中時]
+
+AD-116 = 0
+u 1
+u 16
+  
+%tag person
+%tag   name 思侯中時
+  
+name  monarch
+name 思侯中時
+  
+<-戴侯劉彊 [史記:-115] #漢称元{#漢平酌 #思侯中時} #前漢 #秦正
+    
+tag 漢平酌
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 思侯中時
+
+def[思侯劉蒼]
+
+AD-129 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 思侯劉蒼
+  
+name  monarch
+name 思侯劉蒼
+  
+<-元光 史記:-128-7-乙巳 #漢初封称元{#漢安成 #思侯劉蒼} #前漢 #秦正
+    
+tag+country 漢安成
+tag+monarch 思侯劉蒼
+    
+tag 漢安成
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 思侯劉蒼
+
+def[思侯安德]
+
+AD-108 = 0
+u 1
+u 8
+  
+%tag person
+%tag   name 思侯安德
+  
+name  monarch
+name 思侯安德
+  
+<-節侯劉賀 [史記:-107] #漢称元{#漢象氏 #思侯安德} #前漢 #秦正
+    
+tag 漢象氏
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 思侯安德
+
+def[戎丘侯劉讓]
+
+AD-124 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 戎丘侯劉讓
+  
+name  monarch
+name 侯劉讓
+  
+<-元朔 史記:-123-3-癸酉 #漢初封称元{#漢戎丘 #戎丘侯劉讓} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢戎丘} #前漢 #秦正
+    
+tag+country 漢戎丘
+tag+monarch 戎丘侯劉讓
+    
+tag 漢戎丘
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 戎丘侯劉讓
+
+def[戴侯劉彊]
+
+AD-127 = 0
+u 1
+u 11
+  
+%tag person
+%tag   name 戴侯劉彊
+  
+name  monarch
+name 戴侯劉彊
+  
+<-元朔 史記:-126-5-乙巳 #漢初封称元{#漢平酌 #戴侯劉彊} #前漢 #秦正
+    
+tag+country 漢平酌
+tag+monarch 戴侯劉彊
+    
+tag 漢平酌
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 戴侯劉彊
+
+def[敦侯劉光]
+
+AD-125 = 0
+u 1
+u 20
+  
+%tag person
+%tag   name 敦侯劉光
+  
+name  monarch
+name 敦侯劉光
+  
+<-元朔 史記:-124-4-甲午 #漢初封称元{#漢臨樂 #敦侯劉光} #前漢 #秦正
+    
+tag+country 漢臨樂
+tag+monarch 敦侯劉光
+    
+tag 漢臨樂
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 敦侯劉光
+
+def[敬侯劉始昌]
+
+AD-127 = 0
+u 1
+u 27
+  
+%tag person
+%tag   name 敬侯劉始昌
+  
+name  monarch
+name 敬侯劉始昌
+  
+<-元朔 史記:-126-5-乙巳 #漢初封称元{#漢臨原 #敬侯劉始昌} #前漢 #秦正
+    
+tag+country 漢臨原
+tag+monarch 敬侯劉始昌
+    
+tag 漢臨原
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 敬侯劉始昌
+
+def[敬侯劉燕]
+
+AD-125 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 敬侯劉燕
+  
+name  monarch
+name 敬侯劉燕
+  
+<-元朔 史記:-124-4-乙卯 #漢初封称元{#漢披陽 #敬侯劉燕} #前漢 #秦正
+    
+tag+country 漢披陽
+tag+monarch 敬侯劉燕
+    
+tag 漢披陽
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 敬侯劉燕
+
+def[敬侯劉義]
+
+AD-124 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 敬侯劉義
+  
+name  monarch
+name 敬侯劉義
+  
+<-元朔 史記:-123-3-癸酉 #漢初封称元{#漢夫夷 #敬侯劉義} #前漢 #秦正
+    
+tag+country 漢夫夷
+tag+monarch 敬侯劉義
+    
+tag 漢夫夷
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 敬侯劉義
+
+def[敬侯劉越]
+
+AD-125 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 敬侯劉越
+  
+name  monarch
+name 敬侯劉越
+  
+<-元朔 史記:-124-4-乙卯 #漢初封称元{#漢定 #敬侯劉越} #前漢 #秦正
+    
+tag+country 漢定
+tag+monarch 敬侯劉越
+    
+tag 漢定
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 敬侯劉越
+
+def[敬侯劉遂]
+
+AD-124 = 0
+u 1
+u 8
+  
+%tag person
+%tag   name 敬侯劉遂
+  
+name  monarch
+name 敬侯劉遂
+  
+<-元朔 史記:-123-6-壬子 #漢初封称元{#漢都梁 #敬侯劉遂} #前漢 #秦正
+    
+tag+country 漢都梁
+tag+monarch 敬侯劉遂
+    
+tag 漢都梁
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 敬侯劉遂
+
+def[暢侯劉昌]
+
+AD-116 = 0
+u 1
+u 16
+  
+%tag person
+%tag   name 暢侯劉昌
+  
+name  monarch
+name 暢侯劉昌
+  
+<-元鼎 史記:-115-5-丙午 #漢初封称元{#漢魏其 #暢侯劉昌} #前漢 #秦正
+    
+tag+country 漢魏其
+tag+monarch 暢侯劉昌
+    
+tag 漢魏其
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 暢侯劉昌
+
+def[朸侯劉讓]
+
+AD-122 = 0
+u 1
+u 22
+  
+%tag person
+%tag   name 朸侯劉讓
+  
+name  monarch
+name 侯劉讓
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢朸 #朸侯劉讓} #前漢 #秦正
+    
+tag+country 漢朸
+tag+monarch 朸侯劉讓
+    
+tag 漢朸
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 朸侯劉讓
+
+def[杏山侯劉成]
+
+AD-129 = 0
+u 1
+u 17
+  
+%tag person
+%tag   name 杏山侯劉成
+  
+name  monarch
+name 侯劉成
+  
+<-元光 史記:-128-9'-壬戌 #漢初封称元{#漢杏山 #杏山侯劉成} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢杏山} #前漢 #秦正
+    
+tag+country 漢杏山
+tag+monarch 杏山侯劉成
+    
+tag 漢杏山
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 杏山侯劉成
+
+def[東野侯劉章]
+
+AD-125 = 0
+u 1
+u 25
+  
+%tag person
+%tag   name 東野侯劉章
+  
+name  monarch
+name 侯劉章
+  
+<-元朔 史記:-124-4-甲午 #漢初封称元{#漢東野 #東野侯劉章} #前漢 #秦正
+    
+tag+country 漢東野
+tag+monarch 東野侯劉章
+    
+tag 漢東野
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 東野侯劉章
+
+def[栒侯劉買]
+
+AD-122 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 栒侯劉買
+  
+name  monarch
+name 侯劉買
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢栒 #栒侯劉買} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢栒} #前漢 #秦正
+    
+tag+country 漢栒
+tag+monarch 栒侯劉買
+    
+tag 漢栒
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 栒侯劉買
+
+def[桑丘今侯德]
+
+AD-113 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 桑丘今侯德
+  
+name  monarch
+name 今侯德
+  
+<-節侯劉洋 [史記:-112] #漢称元{#漢桑丘 #桑丘今侯德} #前漢 #秦正
+    
+tag 漢桑丘
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 桑丘今侯德
+
+def[海常侯劉福]
+
+AD-125 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 海常侯劉福
+  
+name  monarch
+name 侯劉福
+  
+<-元朔 史記:-124-3-乙丑 #漢初封称元{#漢海常 #海常侯劉福} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢海常} #前漢 #秦正
+    
+tag+country 漢海常
+tag+monarch 海常侯劉福
+    
+tag 漢海常
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 海常侯劉福
+
+def[湣侯劉豫]
+
+AD-126 = 0
+u 1
+u 24
+  
+%tag person
+%tag   name 湣侯劉豫
+  
+name  monarch
+name 湣侯劉豫
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢阿武 #湣侯劉豫} #前漢 #秦正
+    
+tag+country 漢阿武
+tag+monarch 湣侯劉豫
+    
+tag 漢阿武
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 湣侯劉豫
+
+def[皋虞侯劉建]
+
+AD-116 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 皋虞侯劉建
+  
+name  monarch
+name 侯劉建
+  
+<-元鼎 史記:-115-5-丙午 #漢初封称元{#漢皋虞 #皋虞侯劉建} #前漢 #秦正
+    
+tag+country 漢皋虞
+tag+monarch 皋虞侯劉建
+    
+tag 漢皋虞
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 皋虞侯劉建
+
+def[石洛侯劉敬]
+
+AD-122 = 0
+u 1
+u 22
+  
+%tag person
+%tag   name 石洛侯劉敬
+  
+name  monarch
+name 侯劉敬
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢石洛 #石洛侯劉敬} #前漢 #秦正
+    
+tag+country 漢石洛
+tag+monarch 石洛侯劉敬
+    
+tag 漢石洛
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 石洛侯劉敬
+
+def[節侯劉丙]
+
+AD-127 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 節侯劉丙
+  
+name  monarch
+name 節侯劉丙
+  
+<-元朔 史記:-126-6-甲午 #漢初封称元{#漢尉文 #節侯劉丙} #前漢 #秦正
+    
+tag+country 漢尉文
+tag+monarch 節侯劉丙
+    
+tag 漢尉文
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 節侯劉丙
+
+def[節侯劉壯]
+
+AD-127 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 節侯劉壯
+  
+name  monarch
+name 節侯劉壯
+  
+<-元朔 史記:-126-5-甲戌 #漢初封称元{#漢辟 #節侯劉壯} #前漢 #秦正
+    
+tag+country 漢辟
+tag+monarch 節侯劉壯
+    
+tag 漢辟
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 節侯劉壯
+
+def[節侯劉寬]
+
+AD-127 = 0
+u 1
+u 8
+  
+%tag person
+%tag   name 節侯劉寬
+  
+name  monarch
+name 節侯劉寬
+  
+<-元朔 史記:-126-5-乙巳 #漢初封称元{#漢葛魁 #節侯劉寬} #前漢 #秦正
+    
+tag+country 漢葛魁
+tag+monarch 節侯劉寬
+    
+tag 漢葛魁
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 節侯劉寬
+
+def[節侯劉恢]
+
+AD-126 = 0
+u 1
+u 26
+  
+%tag person
+%tag   name 節侯劉恢
+  
+name  monarch
+name 節侯劉恢
+  
+<-元朔 史記:-125-3-乙卯 #漢初封称元{#漢寧陽 #節侯劉恢} #前漢 #秦正
+    
+tag+country 漢寧陽
+tag+monarch 節侯劉恢
+    
+tag 漢寧陽
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 節侯劉恢
+
+def[節侯劉擇]
+
+AD-128 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 節侯劉擇
+  
+name  monarch
+name 節侯劉擇
+  
+<-元朔 史記:-127-10-丁酉 #漢初封称元{#漢廣戚 #節侯劉擇} #前漢 #秦正
+    
+tag+country 漢廣戚
+tag+monarch 節侯劉擇
+    
+tag 漢廣戚
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 節侯劉擇
+
+def[節侯劉條]
+
+AD-124 = 0
+u 1
+u 24
+  
+%tag person
+%tag   name 節侯劉條
+  
+name  monarch
+name 節侯劉條
+  
+<-元朔 史記:-123-3-癸酉 #漢初封称元{#漢樊輿 #節侯劉條} #前漢 #秦正
+    
+tag+country 漢樊輿
+tag+monarch 節侯劉條
+    
+tag 漢樊輿
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 節侯劉條
+
+def[節侯劉洋]
+
+AD-124 = 0
+u 1
+u 11
+  
+%tag person
+%tag   name 節侯劉洋
+  
+name  monarch
+name 節侯劉洋
+  
+<-元朔 史記:-123-11-辛酉 #漢初封称元{#漢桑丘 #節侯劉洋} #前漢 #秦正
+    
+tag+country 漢桑丘
+tag+monarch 節侯劉洋
+    
+tag 漢桑丘
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 節侯劉洋
+
+def[節侯劉禁]
+
+AD-126 = 0
+u 1
+u 21
+  
+%tag person
+%tag   name 節侯劉禁
+  
+name  monarch
+name 節侯劉禁
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢州鄉 #節侯劉禁} #前漢 #秦正
+    
+tag+country 漢州鄉
+tag+monarch 節侯劉禁
+    
+tag 漢州鄉
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 節侯劉禁
+
+def[節侯劉貞]
+
+AD-126 = 0
+u 1
+u 26
+  
+%tag person
+%tag   name 節侯劉貞
+  
+name  monarch
+name 節侯劉貞
+  
+<-元朔 史記:-125-3-乙卯 #漢初封称元{#漢瑕丘 #節侯劉貞} #前漢 #秦正
+    
+tag+country 漢瑕丘
+tag+monarch 節侯劉貞
+    
+tag 漢瑕丘
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 節侯劉貞
+
+def[節侯劉賀]
+
+AD-126 = 0
+u 1
+u 18
+  
+%tag person
+%tag   name 節侯劉賀
+  
+name  monarch
+name 節侯劉賀
+  
+<-元朔 史記:-125-4-庚辰 #漢初封称元{#漢象氏 #節侯劉賀} #前漢 #秦正
+    
+tag+country 漢象氏
+tag+monarch 節侯劉賀
+    
+tag 漢象氏
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 節侯劉賀
+
+def[節侯劉賢]
+
+AD-124 = 0
+u 1
+u 24
+  
+%tag person
+%tag   name 節侯劉賢
+  
+name  monarch
+name 節侯劉賢
+  
+<-元朔 史記:-123-6-壬子 #漢初封称元{#漢泉陵 #節侯劉賢} #前漢 #秦正
+    
+tag+country 漢泉陵
+tag+monarch 節侯劉賢
+    
+tag 漢泉陵
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 節侯劉賢
+
+def[終侯劉漣]
+
+AD-128 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 終侯劉漣
+  
+name  monarch
+name 終侯劉漣
+  
+<-元朔 史記:-127-1-丁卯 #漢初封称元{#漢秩陽 #終侯劉漣} #前漢 #秦正
+    
+->元鼎 [史記:-112] #漢廃国{#漢秩陽} #前漢 #秦正
+    
+tag+country 漢秩陽
+tag+monarch 終侯劉漣
+    
+tag 漢秩陽
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 終侯劉漣
+
+def[繁安侯劉忠]
+
+AD-125 = 0
+u 1
+u 24
+  
+%tag person
+%tag   name 繁安侯劉忠
+  
+name  monarch
+name 侯劉忠
+  
+<-元朔 史記:-124-4-乙卯 #漢初封称元{#漢繁安 #繁安侯劉忠} #前漢 #秦正
+    
+tag+country 漢繁安
+tag+monarch 繁安侯劉忠
+    
+tag 漢繁安
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 繁安侯劉忠
+
+def[繆侯劉明]
+
+AD-126 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 繆侯劉明
+  
+name  monarch
+name 繆侯劉明
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢陪 #繆侯劉明} #前漢 #秦正
+    
+tag+country 漢陪
+tag+monarch 繆侯劉明
+    
+tag 漢陪
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 繆侯劉明
+
+def[缾侯劉成]
+
+AD-122 = 0
+u 1
+u 22
+  
+%tag person
+%tag   name 缾侯劉成
+  
+name  monarch
+name 侯劉成
+  
+<-元狩 史記:-121-10-辛卯 #漢初封称元{#漢缾 #缾侯劉成} #前漢 #秦正
+    
+tag+country 漢缾
+tag+monarch 缾侯劉成
+    
+tag 漢缾
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 缾侯劉成
+
+def[羽侯劉成]
+
+AD-126 = 0
+u 1
+u 26
+  
+%tag person
+%tag   name 羽侯劉成
+  
+name  monarch
+name 侯劉成
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢羽 #羽侯劉成} #前漢 #秦正
+    
+tag+country 漢羽
+tag+monarch 羽侯劉成
+    
+tag 漢羽
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 羽侯劉成
+
+def[蒲領侯劉嘉]
+
+AD-126 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 蒲領侯劉嘉
+  
+name  monarch
+name 侯劉嘉
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢蒲領 #蒲領侯劉嘉} #前漢 #秦正
+    
+tag+country 漢蒲領
+tag+monarch 蒲領侯劉嘉
+    
+tag 漢蒲領
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 蒲領侯劉嘉
+
+def[西熊侯劉明]
+
+AD-126 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 西熊侯劉明
+  
+name  monarch
+name 侯劉明
+  
+<-元朔 史記:-125-10-癸酉 #漢初封称元{#漢西熊 #西熊侯劉明} #前漢 #秦正
+    
+tag+country 漢西熊
+tag+monarch 西熊侯劉明
+    
+tag 漢西熊
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 西熊侯劉明
+
+def[邯平侯劉順]
+
+AD-126 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 邯平侯劉順
+  
+name  monarch
+name 侯劉順
+  
+<-元朔 史記:-125-4-庚辰 #漢初封称元{#漢邯平 #邯平侯劉順} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢邯平} #前漢 #秦正
+    
+tag+country 漢邯平
+tag+monarch 邯平侯劉順
+    
+tag 漢邯平
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 邯平侯劉順
+
+def[陘城侯劉義]
+
+AD-126 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 陘城侯劉義
+  
+name  monarch
+name 侯劉義
+  
+<-元朔 史記:-125-3-癸酉 #漢初封称元{#漢陘城 #陘城侯劉義} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢陘城} #前漢 #秦正
+    
+tag+country 漢陘城
+tag+monarch 陘城侯劉義
+    
+tag 漢陘城
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 陘城侯劉義
+
+def[陸侯劉何]
+
+AD-122 = 0
+u 1
+u 22
+  
+%tag person
+%tag   name 陸侯劉何
+  
+name  monarch
+name 侯劉何
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢陸 #陸侯劉何} #前漢 #秦正
+    
+tag+country 漢陸
+tag+monarch 陸侯劉何
+    
+tag 漢陸
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 陸侯劉何
+
+def[靖侯劉狗彘]
+
+AD-124 = 0
+u 1
+u 7
+  
+%tag person
+%tag   name 靖侯劉狗彘
+  
+name  monarch
+name 靖侯劉狗彘
+  
+<-元朔 史記:-123-6-壬子 #漢初封称元{#漢洮陽 #靖侯劉狗彘} #前漢 #秦正
+    
+->元狩 [史記:-116] #漢廃国{#漢洮陽} #前漢 #秦正
+    
+tag+country 漢洮陽
+tag+monarch 靖侯劉狗彘
+    
+tag 漢洮陽
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 靖侯劉狗彘
+
+def[頃侯劉胥]
+
+AD-128 = 0
+u 1
+u 16
+  
+%tag person
+%tag   name 頃侯劉胥
+  
+name  monarch
+name 頃侯劉胥
+  
+<-元朔 史記:-127-1-丁卯 #漢初封称元{#漢湖孰 #頃侯劉胥} #前漢 #秦正
+    
+tag+country 漢湖孰
+tag+monarch 頃侯劉胥
+    
+tag 漢湖孰
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 頃侯劉胥
+
+def[高平侯劉嘉]
+
+AD-125 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 高平侯劉嘉
+  
+name  monarch
+name 侯劉嘉
+  
+<-元朔 史記:-124-4-甲午 #漢初封称元{#漢高平 #高平侯劉嘉} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢高平} #前漢 #秦正
+    
+tag+country 漢高平
+tag+monarch 高平侯劉嘉
+    
+tag 漢高平
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 高平侯劉嘉
+
+def[鱣侯劉應]
+
+AD-122 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 鱣侯劉應
+  
+name  monarch
+name 侯劉應
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢鱣 #鱣侯劉應} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢鱣} #前漢 #秦正
+    
+tag+country 漢鱣
+tag+monarch 鱣侯劉應
+    
+tag 漢鱣
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 鱣侯劉應
+
+def[麥侯劉昌]
+
+AD-122 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 麥侯劉昌
+  
+name  monarch
+name 侯劉昌
+  
+<-元狩 史記:-121-4-戊寅 #漢初封称元{#漢麥 #麥侯劉昌} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢麥} #前漢 #秦正
+    
+tag+country 漢麥
+tag+monarch 麥侯劉昌
+    
+tag 漢麥
+tag 漢民族
+tag 史記 建元以來王子侯者年表 第九
+tag 漢列侯即位紀年
+tag 前漢
+tag 麥侯劉昌

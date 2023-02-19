@@ -5,104 +5,78 @@
 %tag   name 中山
 %tag   period of 中山
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢代
 %tag   &
 %tag   name 代
 %tag   period of 代
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢六安
 %tag   &
 %tag   name 六安
 %tag   period of 六安
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢吳
 %tag   &
 %tag   name 吳
 %tag   period of 呉
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢呂
 %tag   &
 %tag   name 呂
 %tag   period of 呂
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢城陽
 %tag   &
 %tag   name 城陽
 %tag   period of 城陽
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢太原
 %tag   &
 %tag   name 太原
 %tag   period of 太原
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢山陽
 %tag   &
 %tag   name 山陽
 %tag   period of 山陽 (漢土)
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢常山
 %tag   &
 %tag   name 常山
 %tag   period of 常山
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢廣川
 %tag   &
 %tag   name 廣川
 %tag   period of 廣川
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢廣陵
 %tag   &
 %tag   name 廣陵
 %tag   period of 廣陵
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢廬江
 %tag   &
 %tag   name 廬江
 %tag   period of 廬江
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢梁
 %tag   &
 %tag   name 梁
 %tag   period of 梁
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢楚
 %tag   &
@@ -111,104 +85,78 @@
   
 %tag   group of 戦国七雄
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢汝南
 %tag   &
 %tag   name 汝南
 %tag   period of 汝南
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢江都
 %tag   &
 %tag   name 江都
 %tag   period of 江都
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢河閒
 %tag   &
 %tag   name 河閒
 %tag   period of 河閒
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢泗水
 %tag   &
 %tag   name 泗水
 %tag   period of 泗水
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢淮南
 %tag   &
 %tag   name 淮南
 %tag   period of 淮南
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢淮陽
 %tag   &
 %tag   name 淮陽
 %tag   period of 淮陽
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢清河
 %tag   &
 %tag   name 清河
 %tag   period of 清河
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢濟北
 %tag   &
 %tag   name 濟北
 %tag   period of 濟北
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢濟南
 %tag   &
 %tag   name 濟南
 %tag   period of 濟南
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢濟川
 %tag   &
 %tag   name 濟川
 %tag   period of 濟川
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢濟東
 %tag   &
 %tag   name 濟東
 %tag   period of 濟東
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢濟陰
 %tag   &
 %tag   name 濟陰
 %tag   period of 濟陰
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢燕
 %tag   &
@@ -217,72 +165,54 @@
   
 %tag   group of 戦国七雄
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢琅邪
 %tag   &
 %tag   name 琅邪
 %tag   period of 琅邪
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢真定
 %tag   &
 %tag   name 真定
 %tag   period of 真定
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢膠東
 %tag   &
 %tag   name 膠東
 %tag   period of 膠東
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢膠西
 %tag   &
 %tag   name 膠西
 %tag   period of 膠西
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢臨江
 %tag   &
 %tag   name 臨江
 %tag   period of 臨江
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢荊
 %tag   &
 %tag   name 荊
 %tag   period of 荊
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢菑川
 %tag   &
 %tag   name 菑川
 %tag   period of 菑川
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢衡山
 %tag   &
 %tag   name 衡山
 %tag   period of 衡山
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢趙
 %tag   &
@@ -291,24 +221,18 @@
   
 %tag   group of 戦国七雄
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢長沙
 %tag   &
 %tag   name 長沙
 %tag   period of 長沙
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢魯
 %tag   &
 %tag   name 魯
 %tag   period of 魯
   
-%tag   group of 漢諸侯国
-
 %tag country
 %tag   label 漢齊
 %tag   &
@@ -317,8 +241,6 @@
   
 %tag   group of 戦国七雄
   
-%tag   group of 漢諸侯国
-
 def[中山哀王昌]
 
 AD-112 = 0
@@ -552,7 +474,7 @@ u 42
 name  monarch
 name 初王濞
   
-<-漢 史記:-194-10-辛丑 #漢初封称元{#漢吳 #吳王濞} #前漢 #秦正
+<-漢,侯劉濞 史記:-194-10-辛丑 #漢初封称元{#漢吳 #吳王濞} #前漢 #秦正
     
 tag+country 漢吳
 tag+monarch 吳王濞
@@ -621,7 +543,7 @@ u 1
 name country monarch
 name 呂產
   
-<-王呂嘉 史記:-181-7-丙辰 #漢称元{#漢呂 #呂產} #前漢 #秦正
+<-王呂嘉,矦呂產 史記:-181-7-丙辰 #漢称元{#漢呂 #呂產} #前漢 #秦正
     
 tag 漢呂
 tag 漢民族
@@ -2623,7 +2545,7 @@ name 初王呂祿
   
 <-趙幽王友 [史記:-179] #漢称元{#漢趙 #趙王呂祿} #前漢 #秦正
     
-<-呂后 [史記:-179] #漢初封称元{#漢趙 #趙王呂祿} #前漢 #秦正
+<-呂后,大中大夫呂祿 [史記:-179] #漢初封称元{#漢趙 #趙王呂祿} #前漢 #秦正
     
 ->呂后 [史記:-179] #漢廃国{#漢趙} #前漢 #秦正
     

@@ -1,0 +1,4282 @@
+
+%tag country
+%tag   label 漢上邳
+%tag   &
+%tag   name 上邳
+%tag   period of 上邳
+  
+%tag country
+%tag   label 漢中邑
+%tag   &
+%tag   name 中邑
+%tag   period of 中邑
+  
+%tag country
+%tag   label 漢乘氏
+%tag   &
+%tag   name 乘氏
+%tag   period of 乘氏
+  
+%tag country
+%tag   label 漢亞谷
+%tag   &
+%tag   name 亞谷
+%tag   period of 亞谷
+  
+%tag country
+%tag   label 漢休
+%tag   &
+%tag   name 休
+%tag   period of 休
+  
+%tag country
+%tag   label 漢便
+%tag   &
+%tag   name 便
+%tag   period of 便
+  
+%tag country
+%tag   label 漢俞
+%tag   &
+%tag   name 俞
+%tag   period of 俞
+  
+%tag country
+%tag   label 漢信都
+%tag   &
+%tag   name 信都
+%tag   period of 信都
+  
+%tag country
+%tag   label 漢南宮
+%tag   &
+%tag   name 南宮
+%tag   period of 南宮
+  
+%tag country
+%tag   label 漢南皮
+%tag   &
+%tag   name 南皮
+%tag   period of 南皮
+  
+%tag country
+%tag   label 漢南𨜓
+%tag   &
+%tag   name 南𨜓
+%tag   period of 南𨜓
+  
+%tag country
+%tag   label 漢博成
+%tag   &
+%tag   name 博成
+%tag   period of 博成
+  
+%tag country
+%tag   label 漢呂成
+%tag   &
+%tag   name 呂成
+%tag   period of 呂成
+  
+%tag country
+%tag   label 漢周陽
+%tag   &
+%tag   name 周陽
+%tag   period of 周陽
+  
+%tag country
+%tag   label 漢商陵
+%tag   &
+%tag   name 商陵
+%tag   period of 商陵
+  
+%tag country
+%tag   label 漢垣
+%tag   &
+%tag   name 垣
+%tag   period of 垣
+  
+%tag country
+%tag   label 漢塞
+%tag   &
+%tag   name 塞
+%tag   period of 塞
+  
+%tag country
+%tag   label 漢壯武
+%tag   &
+%tag   name 壯武
+%tag   period of 壯武
+  
+%tag country
+%tag   label 漢壺關
+%tag   &
+%tag   name 壺關
+%tag   period of 壺關
+  
+%tag country
+%tag   label 漢安都
+%tag   &
+%tag   name 安都
+%tag   period of 安都
+  
+%tag country
+%tag   label 漢安陵
+%tag   &
+%tag   name 安陵
+%tag   period of 安陵
+  
+%tag country
+%tag   label 漢安陽
+%tag   &
+%tag   name 安陽
+%tag   period of 安陽
+  
+%tag country
+%tag   label 漢宛朐
+%tag   &
+%tag   name 宛朐
+%tag   period of 宛朐
+  
+%tag country
+%tag   label 漢容成
+%tag   &
+%tag   name 容成
+%tag   period of 容成
+  
+%tag country
+%tag   label 漢山都
+%tag   &
+%tag   name 山都
+%tag   period of 山都
+  
+%tag country
+%tag   label 漢平定
+%tag   &
+%tag   name 平定
+%tag   period of 平定
+  
+%tag country
+%tag   label 漢平昌
+%tag   &
+%tag   name 平昌
+%tag   period of 平昌
+  
+%tag country
+%tag   label 漢平曲
+%tag   &
+%tag   name 平曲
+%tag   period of 平曲
+  
+%tag country
+%tag   label 漢平都
+%tag   &
+%tag   name 平都
+%tag   period of 平都
+  
+%tag country
+%tag   label 漢平陸
+%tag   &
+%tag   name 平陸
+%tag   period of 平陸
+  
+%tag country
+%tag   label 漢建平
+%tag   &
+%tag   name 建平
+%tag   period of 建平
+  
+%tag country
+%tag   label 漢建陵
+%tag   &
+%tag   name 建陵
+%tag   period of 建陵
+  
+%tag country
+%tag   label 漢弓髙
+%tag   &
+%tag   name 弓髙
+%tag   period of 弓髙
+  
+%tag country
+%tag   label 漢成陶
+%tag   &
+%tag   name 成陶
+%tag   period of 成陶
+  
+%tag country
+%tag   label 漢故安
+%tag   &
+%tag   name 故安
+%tag   period of 故安
+  
+%tag country
+%tag   label 漢新市
+%tag   &
+%tag   name 新市
+%tag   period of 新市
+  
+%tag country
+%tag   label 漢昌平
+%tag   &
+%tag   name 昌平
+%tag   period of 昌平
+  
+%tag country
+%tag   label 漢易
+%tag   &
+%tag   name 易
+%tag   period of 易
+  
+%tag country
+%tag   label 漢朱虛
+%tag   &
+%tag   name 朱虛
+%tag   period of 朱虛
+  
+%tag country
+%tag   label 漢朸
+%tag   &
+%tag   name 朸
+%tag   period of 朸
+  
+%tag country
+%tag   label 漢東城
+%tag   &
+%tag   name 東城
+%tag   period of 東城
+  
+%tag country
+%tag   label 漢東平
+%tag   &
+%tag   name 東平
+%tag   period of 東平
+  
+%tag country
+%tag   label 漢東牟
+%tag   &
+%tag   name 東牟
+%tag   period of 東牟
+  
+%tag country
+%tag   label 漢松茲
+%tag   &
+%tag   name 松茲
+%tag   period of 松茲
+  
+%tag country
+%tag   label 漢桓邑
+%tag   &
+%tag   name 桓邑
+%tag   period of 桓邑
+  
+%tag country
+%tag   label 漢梧
+%tag   &
+%tag   name 梧
+%tag   period of 梧
+  
+%tag country
+%tag   label 漢棘樂
+%tag   &
+%tag   name 棘樂
+%tag   period of 棘樂
+  
+%tag country
+%tag   label 漢楊虛
+%tag   &
+%tag   name 楊虛
+%tag   period of 楊虛
+  
+%tag country
+%tag   label 漢樂平
+%tag   &
+%tag   name 樂平
+%tag   period of 樂平
+  
+%tag country
+%tag   label 漢樂昌
+%tag   &
+%tag   name 樂昌
+%tag   period of 樂昌
+  
+%tag country
+%tag   label 漢樊
+%tag   &
+%tag   name 樊
+%tag   period of 樊
+  
+%tag country
+%tag   label 漢武城
+%tag   &
+%tag   name 武城
+%tag   period of 武城
+  
+%tag country
+%tag   label 漢武安
+%tag   &
+%tag   name 武安
+%tag   period of 武安
+  
+%tag country
+%tag   label 漢江陽
+%tag   &
+%tag   name 江陽
+%tag   period of 江陽
+  
+%tag country
+%tag   label 漢沅陵
+%tag   &
+%tag   name 沅陵
+%tag   period of 沅陵
+  
+%tag country
+%tag   label 漢沈猶
+%tag   &
+%tag   name 沈猶
+%tag   period of 沈猶
+  
+%tag country
+%tag   label 漢波陵
+%tag   &
+%tag   name 波陵
+%tag   period of 波陵
+  
+%tag country
+%tag   label 漢清都
+%tag   &
+%tag   name 清都
+%tag   period of 清都
+  
+%tag country
+%tag   label 漢滕
+%tag   &
+%tag   name 滕
+%tag   period of 滕
+  
+%tag country
+%tag   label 漢營
+%tag   &
+%tag   name 營
+%tag   period of 營
+  
+%tag country
+%tag   label 漢犁
+%tag   &
+%tag   name 犁
+%tag   period of 犁
+  
+%tag country
+%tag   label 漢瓜丘
+%tag   &
+%tag   name 瓜丘
+%tag   period of 瓜丘
+  
+%tag country
+%tag   label 漢白石
+%tag   &
+%tag   name 白石
+%tag   period of 白石
+  
+%tag country
+%tag   label 漢祝茲
+%tag   &
+%tag   name 祝茲
+%tag   period of 祝茲
+  
+%tag country
+%tag   label 漢章武
+%tag   &
+%tag   name 章武
+%tag   period of 章武
+  
+%tag country
+%tag   label 漢管
+%tag   &
+%tag   name 管
+%tag   period of 管
+  
+%tag country
+%tag   label 漢紅
+%tag   &
+%tag   name 紅
+%tag   period of 紅
+  
+%tag country
+%tag   label 漢缾
+%tag   &
+%tag   name 缾
+%tag   period of 缾
+  
+%tag country
+%tag   label 漢翕
+%tag   &
+%tag   name 翕
+%tag   period of 翕
+  
+%tag country
+%tag   label 漢范陽
+%tag   &
+%tag   name 范陽
+%tag   period of 范陽
+  
+%tag country
+%tag   label 漢蓋
+%tag   &
+%tag   name 蓋
+%tag   period of 蓋
+  
+%tag country
+%tag   label 漢襄成
+%tag   &
+%tag   name 襄成
+%tag   period of 襄成
+  
+%tag country
+%tag   label 漢贅其
+%tag   &
+%tag   name 贅其
+%tag   period of 贅其
+  
+%tag country
+%tag   label 漢軑
+%tag   &
+%tag   name 軑
+%tag   period of 軑
+  
+%tag country
+%tag   label 漢軹
+%tag   &
+%tag   name 軹
+%tag   period of 軹
+  
+%tag country
+%tag   label 漢遒
+%tag   &
+%tag   name 遒
+%tag   period of 遒
+  
+%tag country
+%tag   label 漢遽
+%tag   &
+%tag   name 遽
+%tag   period of 遽
+  
+%tag country
+%tag   label 漢郊
+%tag   &
+%tag   name 郊
+%tag   period of 郊
+  
+%tag country
+%tag   label 漢醴陵
+%tag   &
+%tag   name 醴陵
+%tag   period of 醴陵
+  
+%tag country
+%tag   label 漢錘
+%tag   &
+%tag   name 錘
+%tag   period of 錘
+  
+%tag country
+%tag   label 漢阜陵
+%tag   &
+%tag   name 阜陵
+%tag   period of 阜陵
+  
+%tag country
+%tag   label 漢陽信
+%tag   &
+%tag   name 陽信
+%tag   period of 陽信
+  
+%tag country
+%tag   label 漢陽周
+%tag   &
+%tag   name 陽周
+%tag   period of 陽周
+  
+def[周陽矦彭祖]
+
+AD-129 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 周陽矦彭祖
+  
+name  monarch
+name 矦彭祖
+  
+<-懿矦田勝 [史記:-128] #漢称元{#漢周陽 #周陽矦彭祖} #前漢 #秦正
+    
+->元狩 [史記:-120] #漢廃国{#漢周陽} #前漢 #秦正
+    
+tag 漢周陽
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 周陽矦彭祖
+
+def[哀矦劉良]
+
+AD-172 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 哀矦劉良
+  
+name  monarch
+name 哀矦劉良
+  
+<-漢文帝前 史記:-171-5-丙午 #漢初封称元{#漢東城 #哀矦劉良} #前漢 #秦正
+    
+->漢文帝前 [史記:-164] #漢廃国{#漢東城} #前漢 #秦正
+    
+tag+country 漢東城
+tag+monarch 哀矦劉良
+    
+tag 漢東城
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 哀矦劉良
+
+def[哀矦周]
+
+AD-145 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 哀矦周
+  
+name  monarch
+name 哀矦周
+  
+<-頃矦福 [史記:-144] #漢称元{#漢沅陵 #哀矦周} #前漢 #秦正
+    
+->漢景帝後 [史記:-140] #漢廃国{#漢沅陵} #前漢 #秦正
+    
+tag 漢沅陵
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 哀矦周
+
+def[哀矦程嘉]
+
+AD-151 = 0
+u 1
+u 18
+  
+%tag person
+%tag   name 哀矦程嘉
+  
+name  monarch
+name 哀矦程嘉
+  
+<-漢景帝前 史記:-150-4-丁卯 #漢初封称元{#漢建平 #哀矦程嘉} #前漢 #秦正
+    
+tag+country 漢建平
+tag+monarch 哀矦程嘉
+    
+tag 漢建平
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 哀矦程嘉
+
+def[哀矦韓嬰]
+
+AD-164 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 哀矦韓嬰
+  
+name  monarch
+name 哀矦韓嬰
+  
+<-漢文帝前 史記:-163-6-丙子 #漢初封称元{#漢襄成 #哀矦韓嬰} #前漢 #秦正
+    
+tag+country 漢襄成
+tag+monarch 哀矦韓嬰
+    
+tag 漢襄成
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 哀矦韓嬰
+
+def[夷矦劉穢]
+
+AD-156 = 0
+u 1
+u 20
+  
+%tag person
+%tag   name 夷矦劉穢
+  
+name  monarch
+name 夷矦劉穢
+  
+<-漢景帝前 史記:-155-4-乙巳 #漢初封称元{#漢沈猶 #夷矦劉穢} #前漢 #秦正
+    
+tag+country 漢沈猶
+tag+monarch 夷矦劉穢
+    
+tag 漢沈猶
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 夷矦劉穢
+
+def[夷矦周信]
+
+AD-184 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 夷矦周信
+  
+name  monarch
+name 夷矦周信
+  
+<-呂后 史記:-183-4-丙申 #漢初封称元{#漢成陶 #夷矦周信} #前漢 #秦正
+    
+tag+country 漢成陶
+tag+monarch 夷矦周信
+    
+tag 漢成陶
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 夷矦周信
+
+def[夷矦徐厲]
+
+AD-184 = 0
+u 1
+u 11
+  
+%tag person
+%tag   name 夷矦徐厲
+  
+name  monarch
+name 夷矦徐厲
+  
+<-呂后 史記:-183-4-丙申 #漢初封称元{#漢松茲 #夷矦徐厲} #前漢 #秦正
+    
+tag+country 漢松茲
+tag+monarch 夷矦徐厲
+    
+tag 漢松茲
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 夷矦徐厲
+
+def[夷矦良]
+
+AD-135 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 夷矦良
+  
+name  monarch
+name 夷矦良
+  
+<-矦竇彭祖 [史記:-134] #漢称元{#漢南皮 #夷矦良} #前漢 #秦正
+    
+tag 漢南皮
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 夷矦良
+
+def[孝矦劉到]
+
+AD-190 = 0
+u 1
+u 13
+  
+%tag person
+%tag   name 孝矦劉到
+  
+name  monarch
+name 孝矦劉到
+  
+<-恵帝 史記:-189-6-乙亥 #漢初封称元{#漢平都 #孝矦劉到} #前漢 #秦正
+    
+tag+country 漢平都
+tag+monarch 孝矦劉到
+    
+tag 漢平都
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 孝矦劉到
+
+def[孝矦勃]
+
+AD-168 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 孝矦勃
+  
+name  monarch
+name 孝矦勃
+  
+<-夷矦周信 [史記:-167] #漢称元{#漢成陶 #孝矦勃} #前漢 #秦正
+    
+->漢文帝前 [史記:-164] #漢廃国{#漢成陶} #前漢 #秦正
+    
+tag 漢成陶
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 孝矦勃
+
+def[安矦種]
+
+AD-143 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 安矦種
+  
+name  monarch
+name 安矦種
+  
+<-簡矦它父 [史記:-142] #漢称元{#漢亞谷 #安矦種} #前漢 #秦正
+    
+tag 漢亞谷
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 安矦種
+
+def[平矦劉信都]
+
+AD-176 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 平矦劉信都
+  
+name  monarch
+name 平矦劉信都
+  
+<-漢文帝前 史記:-175-5-甲寅 #漢初封称元{#漢營 #平矦劉信都} #前漢 #秦正
+    
+tag+country 漢營
+tag+monarch 平矦劉信都
+    
+tag 漢營
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 平矦劉信都
+
+def[康矦偏]
+
+AD-140 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 康矦偏
+  
+name  monarch
+name 康矦偏
+  
+<-安矦種 [史記:-139] #漢称元{#漢亞谷 #康矦偏} #前漢 #秦正
+    
+tag 漢亞谷
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 康矦偏
+
+def[康矦客]
+
+AD-165 = 0
+u 1
+u 18
+  
+%tag person
+%tag   name 康矦客
+  
+name  monarch
+name 康矦客
+  
+<-矦蔡兼 [史記:-164] #漢称元{#漢樊 #康矦客} #前漢 #秦正
+    
+tag 漢樊
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 康矦客
+
+def[康矦延居]
+
+AD-133 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 康矦延居
+  
+name  monarch
+name 康矦延居
+  
+<-恭矦應 [史記:-132] #漢称元{#漢平定 #康矦延居} #前漢 #秦正
+    
+tag 漢平定
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 康矦延居
+
+def[康矦悼]
+
+AD-173 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 康矦悼
+  
+name  monarch
+name 康矦悼
+  
+<-夷矦徐厲 [史記:-172] #漢称元{#漢松茲 #康矦悼} #前漢 #秦正
+    
+tag 漢松茲
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 康矦悼
+
+def[康矦綽]
+
+AD-140 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 康矦綽
+  
+name  monarch
+name 康矦綽
+  
+<-矦唯徐盧 [史記:-139] #漢称元{#漢容成 #康矦綽} #前漢 #秦正
+    
+tag 漢容成
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 康矦綽
+
+def[康矦蘇嘉]
+
+AD-151 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 康矦蘇嘉
+  
+name  monarch
+name 康矦蘇嘉
+  
+<-漢景帝前 史記:-150-4-壬申 #漢初封称元{#漢江陽 #康矦蘇嘉} #前漢 #秦正
+    
+tag+country 漢江陽
+tag+monarch 康矦蘇嘉
+    
+tag 漢江陽
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 康矦蘇嘉
+
+def[康矦魏駟]
+
+AD-173 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 康矦魏駟
+  
+name  monarch
+name 康矦魏駟
+  
+<-漢文帝前 史記:-172-3-甲寅 #漢初封称元{#漢波陵 #康矦魏駟} #前漢 #秦正
+    
+->漢文帝前 [史記:-167] #漢廃国{#漢波陵} #前漢 #秦正
+    
+tag+country 漢波陵
+tag+monarch 康矦魏駟
+    
+tag 漢波陵
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 康矦魏駟
+
+def[恭矦信]
+
+AD-157 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 恭矦信
+  
+name  monarch
+name 恭矦信
+  
+<-頃矦吳淺 [史記:-156] #漢称元{#漢便 #恭矦信} #前漢 #秦正
+    
+tag 漢便
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 恭矦信
+
+def[恭矦劉將廬]
+
+AD-176 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 恭矦劉將廬
+  
+name  monarch
+name 恭矦劉將廬
+  
+<-漢文帝前 史記:-175-5-甲寅 #漢初封称元{#漢楊虛 #恭矦劉將廬} #前漢 #秦正
+    
+->漢文帝前 [史記:-163] #漢廃国{#漢楊虛} #前漢 #秦正
+    
+tag+country 漢楊虛
+tag+monarch 恭矦劉將廬
+    
+tag 漢楊虛
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 恭矦劉將廬
+
+def[恭矦劉罷軍]
+
+AD-176 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 恭矦劉罷軍
+  
+name  monarch
+name 恭矦劉罷軍
+  
+<-漢文帝前 史記:-175-5-甲寅 #漢初封称元{#漢管 #恭矦劉罷軍} #前漢 #秦正
+    
+tag+country 漢管
+tag+monarch 恭矦劉罷軍
+    
+tag 漢管
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 恭矦劉罷軍
+
+def[恭矦勝]
+
+AD-182 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 恭矦勝
+  
+name  monarch
+name 恭矦勝
+  
+<-簡矦衛無擇 [史記:-181] #漢称元{#漢樂平 #恭矦勝} #前漢 #秦正
+    
+tag 漢樂平
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 恭矦勝
+
+def[恭矦完]
+
+AD-150 = 0
+u 1
+u 18
+  
+%tag person
+%tag   name 恭矦完
+  
+name  monarch
+name 恭矦完
+  
+<-景矦竇廣國 [史記:-149] #漢称元{#漢章武 #恭矦完} #前漢 #秦正
+    
+tag 漢章武
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 恭矦完
+
+def[恭矦平]
+
+AD-147 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 恭矦平
+  
+name  monarch
+name 恭矦平
+  
+<-康矦客 [史記:-146] #漢称元{#漢樊 #恭矦平} #前漢 #秦正
+    
+tag 漢樊
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 恭矦平
+
+def[恭矦應]
+
+AD-174 = 0
+u 1
+u 41
+  
+%tag person
+%tag   name 恭矦應
+  
+name  monarch
+name 恭矦應
+  
+<-齊矦市人 [史記:-173] #漢称元{#漢平定 #恭矦應} #前漢 #秦正
+    
+tag 漢平定
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 恭矦應
+
+def[恭矦蔑]
+
+AD-154 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 恭矦蔑
+  
+name  monarch
+name 恭矦蔑
+  
+<-節矦申屠嘉 [史記:-153] #漢称元{#漢故安 #恭矦蔑} #前漢 #秦正
+    
+tag 漢故安
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 恭矦蔑
+
+def[悼矦澄]
+
+AD-150 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 悼矦澄
+  
+name  monarch
+name 悼矦澄
+  
+<-莊矦富 [史記:-149] #漢称元{#漢紅 #悼矦澄} #前漢 #秦正
+    
+tag 漢紅
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 悼矦澄
+
+def[惠矦中黃]
+
+AD-176 = 0
+u 1
+u 23
+  
+%tag person
+%tag   name 惠矦中黃
+  
+name  monarch
+name 惠矦中黃
+  
+<-貞矦王恬開 [史記:-175] #漢称元{#漢山都 #惠矦中黃} #前漢 #秦正
+    
+tag 漢山都
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 惠矦中黃
+
+def[懷矦德]
+
+AD-133 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 懷矦德
+  
+name  monarch
+name 懷矦德
+  
+<-端矦代 [史記:-132] #漢称元{#漢范陽 #懷矦德} #前漢 #秦正
+    
+->元光 [史記:-130] #漢廃国{#漢范陽} #前漢 #秦正
+    
+tag 漢范陽
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 懷矦德
+
+def[懿矦田勝]
+
+AD-141 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 懿矦田勝
+  
+name  monarch
+name 懿矦田勝
+  
+<-漢景帝後 [史記:-140-3] #漢初封称元{#漢周陽 #懿矦田勝} #前漢 #秦正
+    
+tag+country 漢周陽
+tag+monarch 懿矦田勝
+    
+tag 漢周陽
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 懿矦田勝
+
+def[懿矦盧]
+
+AD-147 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 懿矦盧
+  
+name  monarch
+name 懿矦盧
+  
+<-康矦蘇嘉 [史記:-146] #漢称元{#漢江陽 #懿矦盧} #前漢 #秦正
+    
+tag 漢江陽
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 懿矦盧
+
+def[敬矦劉調]
+
+AD-154 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 敬矦劉調
+  
+name  monarch
+name 敬矦劉調
+  
+<-漢景帝前 史記:-153-8-壬子 #漢初封称元{#漢棘樂 #敬矦劉調} #前漢 #秦正
+    
+tag+country 漢棘樂
+tag+monarch 敬矦劉調
+    
+tag 漢棘樂
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 敬矦劉調
+
+def[敬矦去疾]
+
+AD-181 = 0
+u 1
+u 34
+  
+%tag person
+%tag   name 敬矦去疾
+  
+name  monarch
+name 敬矦去疾
+  
+<-齊矦陽成延 [史記:-180] #漢称元{#漢梧 #敬矦去疾} #前漢 #秦正
+    
+tag 漢梧
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 敬矦去疾
+
+def[敬矦發]
+
+AD-149 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 敬矦發
+  
+name  monarch
+name 敬矦發
+  
+<-悼矦澄 [史記:-148] #漢称元{#漢紅 #敬矦發} #前漢 #秦正
+    
+tag 漢紅
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 敬矦發
+
+def[敬矦衛綰]
+
+AD-151 = 0
+u 1
+u 21
+  
+%tag person
+%tag   name 敬矦衛綰
+  
+name  monarch
+name 敬矦衛綰
+  
+<-漢景帝前 史記:-150-4-丁卯 #漢初封称元{#漢建陵 #敬矦衛綰} #前漢 #秦正
+    
+tag+country 漢建陵
+tag+monarch 敬矦衛綰
+    
+tag 漢建陵
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 敬矦衛綰
+
+def[敬矦觸龍]
+
+AD-153 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 敬矦觸龍
+  
+name  monarch
+name 敬矦觸龍
+  
+<-惠矦中黃 [史記:-152] #漢称元{#漢山都 #敬矦觸龍} #前漢 #秦正
+    
+tag 漢山都
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 敬矦觸龍
+
+def[敬矦馮無擇]
+
+AD-187 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 敬矦馮無擇
+  
+name  monarch
+name 敬矦馮無擇
+  
+<-呂后 史記:-186-4-乙酉 #漢初封称元{#漢博成 #敬矦馮無擇} #前漢 #秦正
+    
+tag+country 漢博成
+tag+monarch 敬矦馮無擇
+    
+tag 漢博成
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 敬矦馮無擇
+
+def[敬矦齊受]
+
+AD-187 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 敬矦齊受
+  
+name  monarch
+name 敬矦齊受
+  
+<-呂后 史記:-186-4-乙酉 #漢初封称元{#漢平定 #敬矦齊受} #前漢 #秦正
+    
+tag+country 漢平定
+tag+monarch 敬矦齊受
+    
+tag 漢平定
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 敬矦齊受
+
+def[易矦戎奴]
+
+AD-169 = 0
+u 1
+u 30
+  
+%tag person
+%tag   name 易矦戎奴
+  
+name  monarch
+name 易矦戎奴
+  
+<-矦薄昭 [史記:-168] #漢称元{#漢軹 #易矦戎奴} #前漢 #秦正
+    
+tag 漢軹
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 易矦戎奴
+
+def[景矦竇廣國]
+
+AD-157 = 0
+u 1
+u 7
+  
+%tag person
+%tag   name 景矦竇廣國
+  
+name  monarch
+name 景矦竇廣國
+  
+<-漢文帝後 史記:-156-6-乙卯 #漢初封称元{#漢章武 #景矦竇廣國} #前漢 #秦正
+    
+tag+country 漢章武
+tag+monarch 景矦竇廣國
+    
+tag 漢章武
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 景矦竇廣國
+
+def[桓邑矦明]
+
+AD-145 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 桓邑矦明
+  
+name  monarch
+name 矦明
+  
+<-漢景帝中 史記:-144-5-丁卯 #漢初封称元{#漢桓邑 #桓邑矦明} #前漢 #秦正
+    
+->漢景帝中 [史記:-143] #漢廃国{#漢桓邑} #前漢 #秦正
+    
+tag+country 漢桓邑
+tag+monarch 桓邑矦明
+    
+tag 漢桓邑
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 桓邑矦明
+
+def[棘樂恭矦應]
+
+AD-139 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 棘樂恭矦應
+  
+name  monarch
+name 恭矦應
+  
+<-敬矦劉調 [史記:-138] #漢称元{#漢棘樂 #棘樂恭矦應} #前漢 #秦正
+    
+tag 漢棘樂
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 棘樂恭矦應
+
+def[殤矦始昌]
+
+AD-143 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 殤矦始昌
+  
+name  monarch
+name 殤矦始昌
+  
+<-矦王康 [史記:-142] #漢称元{#漢新市 #殤矦始昌} #前漢 #秦正
+    
+->元光 [史記:-130] #漢廃国{#漢新市} #前漢 #秦正
+    
+tag 漢新市
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 殤矦始昌
+
+def[清安矦臾]
+
+AD-121 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 清安矦臾
+  
+name  monarch
+name 清安矦臾
+  
+<-恭矦蔑 [史記:-120] #漢称元{#漢故安 #清安矦臾} #前漢 #秦正
+    
+->元鼎 [史記:-115] #漢廃国{#漢故安} #前漢 #秦正
+    
+tag 漢故安
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 清安矦臾
+
+def[瓜丘矦偃]
+
+AD-165 = 0
+u 1
+u 11
+  
+%tag person
+%tag   name 瓜丘矦偃
+  
+name  monarch
+name 矦偃
+  
+<-矦劉寧國 [史記:-164] #漢称元{#漢瓜丘 #瓜丘矦偃} #前漢 #秦正
+    
+->漢景帝前 [史記:-153] #漢廃国{#漢瓜丘} #前漢 #秦正
+    
+tag 漢瓜丘
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 瓜丘矦偃
+
+def[矦中意]
+
+AD-165 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 矦中意
+  
+name  monarch
+name 矦中意
+  
+<-矦劉揭 [史記:-164] #漢称元{#漢陽信 #矦中意} #前漢 #秦正
+    
+->漢景帝前 [史記:-150] #漢廃国{#漢陽信} #前漢 #秦正
+    
+tag 漢陽信
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦中意
+
+def[矦代]
+
+AD-184 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦代
+  
+name  monarch
+name 矦代
+  
+<-敬矦馮無擇 [史記:-183] #漢称元{#漢博成 #矦代} #前漢 #秦正
+    
+->呂后 [史記:-179] #漢廃国{#漢博成} #前漢 #秦正
+    
+tag 漢博成
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦代
+
+def[矦侈]
+
+AD-141 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 矦侈
+  
+name  monarch
+name 矦侈
+  
+<-恭矦勝 [史記:-140] #漢称元{#漢樂平 #矦侈} #前漢 #秦正
+    
+->建元 [史記:-134] #漢廃国{#漢樂平} #前漢 #秦正
+    
+tag 漢樂平
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦侈
+
+def[矦信]
+
+AD-130 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦信
+  
+name  monarch
+name 矦信
+  
+<-敬矦衛綰 [史記:-129] #漢称元{#漢建陵 #矦信} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢建陵} #前漢 #秦正
+    
+tag 漢建陵
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦信
+
+def[矦偃]
+
+AD-144 = 0
+u 1
+u 9
+  
+%tag person
+%tag   name 矦偃
+  
+name  monarch
+name 矦偃
+  
+<-康矦悼 [史記:-143] #漢称元{#漢松茲 #矦偃} #前漢 #秦正
+    
+->建元 [史記:-134] #漢廃国{#漢松茲} #前漢 #秦正
+    
+tag 漢松茲
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦偃
+
+def[矦僕黥]
+
+AD-147 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦僕黥
+  
+name  monarch
+name 矦僕黥
+  
+<-漢景帝中 史記:-146-12-丁丑 #漢初封称元{#漢易 #矦僕黥} #前漢 #秦正
+    
+->漢景帝後 [史記:-141] #漢廃国{#漢易} #前漢 #秦正
+    
+tag+country 漢易
+tag+monarch 矦僕黥
+    
+tag 漢易
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦僕黥
+
+def[矦光]
+
+AD-126 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦光
+  
+name  monarch
+name 矦光
+  
+<-康矦綽 [史記:-125] #漢称元{#漢容成 #矦光} #前漢 #秦正
+    
+tag 漢容成
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦光
+
+def[矦公孫昆邪]
+
+AD-151 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦公孫昆邪
+  
+name  monarch
+name 矦公孫昆邪
+  
+<-漢景帝前 史記:-150-4-己巳 #漢初封称元{#漢平曲 #矦公孫昆邪} #前漢 #秦正
+    
+->漢景帝中 [史記:-145] #漢廃国{#漢平曲} #前漢 #秦正
+    
+tag+country 漢平曲
+tag+monarch 矦公孫昆邪
+    
+tag 漢平曲
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦公孫昆邪
+
+def[矦利倉]
+
+AD-193 = 0
+u 1
+u 8
+  
+%tag person
+%tag   name 矦利倉
+  
+name  monarch
+name 矦利倉
+  
+<-恵帝 史記:-192-4-庚子 #漢初封称元{#漢軑 #矦利倉} #前漢 #秦正
+    
+tag+country 漢軑
+tag+monarch 矦利倉
+    
+tag 漢軑
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦利倉
+
+def[矦則]
+
+AD-156 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦則
+  
+name  monarch
+name 矦則
+  
+<-莊矦韓頹當 [史記:-155] #漢称元{#漢弓髙 #矦則} #前漢 #秦正
+    
+->元朔 [史記:-123] #漢廃国{#漢弓髙} #前漢 #秦正
+    
+tag 漢弓髙
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦則
+
+def[矦劉卬]
+
+AD-176 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦劉卬
+  
+name  monarch
+name 矦劉卬
+  
+<-漢文帝前 史記:-175-5-甲寅 #漢初封称元{#漢平昌 #矦劉卬} #前漢 #秦正
+    
+->漢文帝前 [史記:-163] #漢廃国{#漢平昌} #前漢 #秦正
+    
+tag+country 漢平昌
+tag+monarch 矦劉卬
+    
+tag 漢平昌
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦劉卬
+
+def[矦劉埶]
+
+AD-156 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦劉埶
+  
+name  monarch
+name 矦劉埶
+  
+<-漢景帝前 史記:-155-4-乙巳 #漢初封称元{#漢宛朐 #矦劉埶} #前漢 #秦正
+    
+->漢景帝前 [史記:-153] #漢廃国{#漢宛朐} #前漢 #秦正
+    
+tag+country 漢宛朐
+tag+monarch 矦劉埶
+    
+tag 漢宛朐
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦劉埶
+
+def[矦劉安]
+
+AD-172 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦劉安
+  
+name  monarch
+name 矦劉安
+  
+<-漢文帝前 史記:-171-5-丙午 #漢初封称元{#漢阜陵 #矦劉安} #前漢 #秦正
+    
+->漢文帝前 [史記:-163] #漢廃国{#漢阜陵} #前漢 #秦正
+    
+tag+country 漢阜陵
+tag+monarch 矦劉安
+    
+tag 漢阜陵
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦劉安
+
+def[矦劉寧國]
+
+AD-176 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦劉寧國
+  
+name  monarch
+name 矦劉寧國
+  
+<-漢文帝前 史記:-175-5-甲寅 #漢初封称元{#漢瓜丘 #矦劉寧國} #前漢 #秦正
+    
+tag+country 漢瓜丘
+tag+monarch 矦劉寧國
+    
+tag 漢瓜丘
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦劉寧國
+
+def[矦劉志]
+
+AD-176 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦劉志
+  
+name  monarch
+name 矦劉志
+  
+<-漢文帝前 史記:-175-5-甲寅 #漢初封称元{#漢安都 #矦劉志} #前漢 #秦正
+    
+->漢文帝前 [史記:-163] #漢廃国{#漢安都} #前漢 #秦正
+    
+tag+country 漢安都
+tag+monarch 矦劉志
+    
+tag 漢安都
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦劉志
+
+def[矦劉揭]
+
+AD-179 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦劉揭
+  
+name  monarch
+name 矦劉揭
+  
+<-漢文帝前 史記:-178-3-辛丑 #漢初封称元{#漢陽信 #矦劉揭} #前漢 #秦正
+    
+tag+country 漢陽信
+tag+monarch 矦劉揭
+    
+tag 漢陽信
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦劉揭
+
+def[矦劉禮]
+
+AD-156 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦劉禮
+  
+name  monarch
+name 矦劉禮
+  
+<-漢景帝前 史記:-155-4-乙巳 #漢初封称元{#漢平陸 #矦劉禮} #前漢 #秦正
+    
+->漢景帝前 [史記:-153] #漢廃国{#漢平陸} #前漢 #秦正
+    
+tag+country 漢平陸
+tag+monarch 矦劉禮
+    
+tag 漢平陸
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦劉禮
+
+def[矦劉章]
+
+AD-186 = 0
+u 1
+u 8
+  
+%tag person
+%tag   name 矦劉章
+  
+name  monarch
+name 矦劉章
+  
+<-呂后 史記:-185-5-丙申 #漢初封称元{#漢朱虛 #矦劉章} #前漢 #秦正
+    
+->漢文帝前 [史記:-177] #漢廃国{#漢朱虛} #前漢 #秦正
+    
+tag+country 漢朱虛
+tag+monarch 矦劉章
+    
+tag 漢朱虛
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦劉章
+
+def[矦劉興居]
+
+AD-182 = 0
+u 1
+u 4
+  
+%tag person
+%tag   name 矦劉興居
+  
+name  monarch
+name 矦劉興居
+  
+<-呂后 史記:-181-4-丁酉 #漢初封称元{#漢東牟 #矦劉興居} #前漢 #秦正
+    
+->漢文帝前 [史記:-177] #漢廃国{#漢東牟} #前漢 #秦正
+    
+tag+country 漢東牟
+tag+monarch 矦劉興居
+    
+tag 漢東牟
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦劉興居
+
+def[矦劉賜]
+
+AD-172 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦劉賜
+  
+name  monarch
+name 矦劉賜
+  
+<-漢文帝前 史記:-171-5-丙午 #漢初封称元{#漢陽周 #矦劉賜} #前漢 #秦正
+    
+->漢文帝前 [史記:-163] #漢廃国{#漢陽周} #前漢 #秦正
+    
+tag+country 漢陽周
+tag+monarch 矦劉賜
+    
+tag 漢陽周
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦劉賜
+
+def[矦劉賢]
+
+AD-176 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦劉賢
+  
+name  monarch
+name 矦劉賢
+  
+<-漢文帝前 史記:-175-5-甲寅 #漢初封称元{#漢武城 #矦劉賢} #前漢 #秦正
+    
+->漢文帝前 [史記:-163] #漢廃国{#漢武城} #前漢 #秦正
+    
+tag+country 漢武城
+tag+monarch 矦劉賢
+    
+tag 漢武城
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦劉賢
+
+def[矦劉辟光]
+
+AD-176 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦劉辟光
+  
+name  monarch
+name 矦劉辟光
+  
+<-漢文帝前 史記:-175-5-甲寅 #漢初封称元{#漢朸 #矦劉辟光} #前漢 #秦正
+    
+->漢文帝前 [史記:-163] #漢廃国{#漢朸} #前漢 #秦正
+    
+tag+country 漢朸
+tag+monarch 矦劉辟光
+    
+tag 漢朸
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦劉辟光
+
+def[矦劉郢客]
+
+AD-186 = 0
+u 1
+u 8
+  
+%tag person
+%tag   name 矦劉郢客
+  
+name  monarch
+name 矦劉郢客
+  
+<-呂后 史記:-185-5-丙申 #漢初封称元{#漢上邳 #矦劉郢客} #前漢 #秦正
+    
+->漢文帝前 [史記:-177] #漢廃国{#漢上邳} #前漢 #秦正
+    
+tag+country 漢上邳
+tag+monarch 矦劉郢客
+    
+tag 漢上邳
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦劉郢客
+
+def[矦劉雄渠]
+
+AD-176 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦劉雄渠
+  
+name  monarch
+name 矦劉雄渠
+  
+<-漢文帝前 史記:-175-5-甲寅 #漢初封称元{#漢白石 #矦劉雄渠} #前漢 #秦正
+    
+->漢文帝前 [史記:-163] #漢廃国{#漢白石} #前漢 #秦正
+    
+tag+country 漢白石
+tag+monarch 矦劉雄渠
+    
+tag 漢白石
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦劉雄渠
+
+def[矦勃]
+
+AD-172 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦勃
+  
+name  monarch
+name 矦勃
+  
+<-漢文帝前 史記:-171-5-丙午 #漢初封称元{#漢安陽 #矦勃} #前漢 #秦正
+    
+->漢文帝前 [史記:-163] #漢廃国{#漢安陽} #前漢 #秦正
+    
+tag+country 漢安陽
+tag+monarch 矦勃
+    
+tag 漢安陽
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦勃
+
+def[矦受]
+
+AD-136 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦受
+  
+name  monarch
+name 矦受
+  
+<-夷矦劉穢 [史記:-135] #漢称元{#漢沈猶 #矦受} #前漢 #秦正
+    
+->元狩 [史記:-117] #漢廃国{#漢沈猶} #前漢 #秦正
+    
+tag 漢沈猶
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦受
+
+def[矦呂勝]
+
+AD-184 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦呂勝
+  
+name  monarch
+name 矦呂勝
+  
+<-呂后 史記:-183-4-丙申 #漢初封称元{#漢贅其 #矦呂勝} #前漢 #秦正
+    
+->呂后 [史記:-179] #漢廃国{#漢贅其} #前漢 #秦正
+    
+tag+country 漢贅其
+tag+monarch 矦呂勝
+    
+tag 漢贅其
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦呂勝
+
+def[矦呂它]
+
+AD-184 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦呂它
+  
+name  monarch
+name 矦呂它
+  
+<-呂后 史記:-183-4-丙申 #漢初封称元{#漢俞 #矦呂它} #前漢 #秦正
+    
+->呂后 [史記:-179] #漢廃国{#漢俞} #前漢 #秦正
+    
+tag+country 漢俞
+tag+monarch 矦呂它
+    
+tag 漢俞
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦呂它
+
+def[矦呂忿]
+
+AD-184 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦呂忿
+  
+name  monarch
+name 矦呂忿
+  
+<-呂后 史記:-183-4-丙申 #漢初封称元{#漢呂成 #矦呂忿} #前漢 #秦正
+    
+->呂后 [史記:-179] #漢廃国{#漢呂成} #前漢 #秦正
+    
+tag+country 漢呂成
+tag+monarch 矦呂忿
+    
+tag 漢呂成
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦呂忿
+
+def[矦呂更始]
+
+AD-184 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦呂更始
+  
+name  monarch
+name 矦呂更始
+  
+<-呂后 史記:-183-4-丙申 #漢初封称元{#漢滕 #矦呂更始} #前漢 #秦正
+    
+->呂后 [史記:-179] #漢廃国{#漢滕} #前漢 #秦正
+    
+tag+country 漢滕
+tag+monarch 矦呂更始
+    
+tag 漢滕
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦呂更始
+
+def[矦呂榮]
+
+AD-180 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦呂榮
+  
+name  monarch
+name 矦呂榮
+  
+<-呂后 史記:-179-4-丁酉 #漢初封称元{#漢祝茲 #矦呂榮} #前漢 #秦正
+    
+->呂后 [史記:-179-5-丙辰,史記:-179] #漢廃国{#漢祝茲} #前漢 #秦正
+    
+tag+country 漢祝茲
+tag+monarch 矦呂榮
+    
+tag 漢祝茲
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦呂榮
+
+def[矦呂產]
+
+AD-187 = 0
+u 1
+u 1
+  
+name  monarch
+name 矦呂產
+  
+<-呂后 史記:-186-4-辛卯 #漢初封称元{#漢郊 #呂產} #前漢 #秦正
+    
+->呂后 史記:-181-7-壬辰 #漢廃国{#漢郊} #前漢 #秦正
+    
+tag+country 漢郊
+tag+monarch 呂產
+    
+tag 漢郊
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 呂產
+
+def[矦呂種]
+
+AD-187 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦呂種
+  
+name  monarch
+name 矦呂種
+  
+<-呂后 史記:-186-4-乙酉 #漢初封称元{#漢沛 #矦呂種} #前漢 #秦正
+    
+->呂后 [史記:-179] #漢廃国{#漢沛} #前漢 #秦正
+    
+tag+country 漢沛
+tag+monarch 矦呂種
+    
+tag 漢沛
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦呂種
+
+def[矦呂莊]
+
+AD-180 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦呂莊
+  
+name  monarch
+name 矦呂莊
+  
+<-呂后 史記:-179-5-丙辰 #漢初封称元{#漢東平 #矦呂莊} #前漢 #秦正
+    
+->呂后 [史記:-179-5-丙辰,史記:-179] #漢廃国{#漢東平} #前漢 #秦正
+    
+tag+country 漢東平
+tag+monarch 矦呂莊
+    
+tag 漢東平
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦呂莊
+
+def[矦呂通]
+
+AD-182 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦呂通
+  
+name  monarch
+name 矦呂通
+  
+<-呂后 史記:-181-4-丁酉 #漢初封称元{#漢錘 #矦呂通} #前漢 #秦正
+    
+->呂后 [史記:-179] #漢廃国{#漢錘} #前漢 #秦正
+    
+tag+country 漢錘
+tag+monarch 矦呂通
+    
+tag 漢錘
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦呂通
+
+def[矦唯徐盧]
+
+AD-147 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦唯徐盧
+  
+name  monarch
+name 矦唯徐盧
+  
+<-漢景帝中 史記:-146-12-丁丑 #漢初封称元{#漢容成 #矦唯徐盧} #前漢 #秦正
+    
+tag+country 漢容成
+tag+monarch 矦唯徐盧
+    
+tag 漢容成
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦唯徐盧
+
+def[矦回]
+
+AD-132 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦回
+  
+name  monarch
+name 矦回
+  
+<-節矦橫 [史記:-131] #漢称元{#漢建平 #矦回} #前漢 #秦正
+    
+->元光 [史記:-130] #漢廃国{#漢建平} #前漢 #秦正
+    
+tag 漢建平
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦回
+
+def[矦堅]
+
+AD-125 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦堅
+  
+name  monarch
+name 矦堅
+  
+<-矦相如 [史記:-124] #漢称元{#漢塞 #矦堅} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢塞} #前漢 #秦正
+    
+tag 漢塞
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦堅
+
+def[矦太]
+
+AD-184 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦太
+  
+name  monarch
+name 矦太
+  
+<-呂后 史記:-183-2-癸未 #漢初封称元{#漢昌平 #矦太} #前漢 #秦正
+    
+->呂后 [史記:-180] #漢廃国{#漢昌平} #前漢 #秦正
+    
+tag+country 漢昌平
+tag+monarch 矦太
+    
+tag 漢昌平
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦太
+
+def[矦子軍]
+
+AD-147 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 矦子軍
+  
+name  monarch
+name 矦子軍
+  
+<-漢景帝中 史記:-146-11-庚子 #漢初封称元{#漢安陵 #矦子軍} #前漢 #秦正
+    
+->建元 [史記:-134] #漢廃国{#漢安陵} #前漢 #秦正
+    
+tag+country 漢安陵
+tag+monarch 矦子軍
+    
+tag 漢安陵
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦子軍
+
+def[矦孫單]
+
+AD-166 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 矦孫單
+  
+name  monarch
+name 矦孫單
+  
+<-漢文帝前 史記:-165-3-丁巳 #漢初封称元{#漢缾 #矦孫單} #前漢 #秦正
+    
+->漢景帝前 [史記:-153] #漢廃国{#漢缾} #前漢 #秦正
+    
+tag+country 漢缾
+tag+monarch 矦孫單
+    
+tag 漢缾
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦孫單
+
+def[矦宋昌]
+
+AD-179 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦宋昌
+  
+name  monarch
+name 矦宋昌
+  
+<-漢文帝前 史記:-178-4-辛亥 #漢初封称元{#漢壯武 #矦宋昌} #前漢 #秦正
+    
+->漢景帝中 [史記:-145] #漢廃国{#漢壯武} #前漢 #秦正
+    
+tag+country 漢壯武
+tag+monarch 矦宋昌
+    
+tag 漢壯武
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦宋昌
+
+def[矦富]
+
+AD-156 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦富
+  
+name  monarch
+name 矦富
+  
+<-漢景帝前 史記:-155-4-乙巳 #漢初封称元{#漢休 #矦富} #前漢 #秦正
+    
+tag+country 漢休
+tag+monarch 矦富
+    
+tag 漢休
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦富
+
+def[矦常坐]
+
+AD-132 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦常坐
+  
+name  monarch
+name 矦常坐
+  
+<-恭矦完 [史記:-131] #漢称元{#漢章武 #矦常坐} #前漢 #秦正
+    
+->元狩 [史記:-121] #漢廃国{#漢章武} #前漢 #秦正
+    
+tag 漢章武
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦常坐
+
+def[矦廣]
+
+AD-166 = 0
+u 1
+u 12
+  
+%tag person
+%tag   name 矦廣
+  
+name  monarch
+name 矦廣
+  
+<-平矦劉信都 [史記:-165] #漢称元{#漢營 #矦廣} #前漢 #秦正
+    
+->漢景帝前 [史記:-153] #漢廃国{#漢營} #前漢 #秦正
+    
+tag 漢營
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦廣
+
+def[矦廣志]
+
+AD-151 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦廣志
+  
+name  monarch
+name 矦廣志
+  
+<-恭矦信 [史記:-150] #漢称元{#漢便 #矦廣志} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢便} #前漢 #秦正
+    
+tag 漢便
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦廣志
+
+def[矦延]
+
+AD-124 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦延
+  
+name  monarch
+name 矦延
+  
+<-矦澤 [史記:-123] #漢称元{#漢犁 #矦延} #前漢 #秦正
+    
+->元封 [史記:-104] #漢廃国{#漢犁} #前漢 #秦正
+    
+tag 漢犁
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦延
+
+def[矦張侈]
+
+AD-180 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦張侈
+  
+name  monarch
+name 矦張侈
+  
+<-呂后 史記:-179-4-丁酉 #漢初封称元{#漢信都 #矦張侈} #前漢 #秦正
+    
+->漢文帝前 [史記:-178] #漢廃国{#漢信都} #前漢 #秦正
+    
+tag+country 漢信都
+tag+monarch 矦張侈
+    
+tag 漢信都
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦張侈
+
+def[矦張受]
+
+AD-180 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦張受
+  
+name  monarch
+name 矦張受
+  
+<-呂后 史記:-179-4-丁酉 #漢初封称元{#漢樂昌 #矦張受} #前漢 #秦正
+    
+->漢文帝前 [史記:-178] #漢廃国{#漢樂昌} #前漢 #秦正
+    
+tag+country 漢樂昌
+tag+monarch 矦張受
+    
+tag 漢樂昌
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦張受
+
+def[矦張澤]
+
+AD-180 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦張澤
+  
+name  monarch
+name 矦張澤
+  
+<-呂后 史記:-179-4-丁酉 #漢初封称元{#漢建陵 #矦張澤} #前漢 #秦正
+    
+->呂后 [史記:-179-9] #漢廃国{#漢建陵} #前漢 #秦正
+    
+tag+country 漢建陵
+tag+monarch 矦張澤
+    
+tag 漢建陵
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦張澤
+
+def[矦張當居]
+
+AD-148 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦張當居
+  
+name  monarch
+name 矦張當居
+  
+<-漢景帝中 史記:-147-4-乙巳 #漢初封称元{#漢山陽 #矦張當居} #前漢 #秦正
+    
+->元朔 [史記:-123] #漢廃国{#漢山陽} #前漢 #秦正
+    
+tag+country 漢山陽
+tag+monarch 矦張當居
+    
+tag 漢山陽
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦張當居
+
+def[矦張買]
+
+AD-187 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦張買
+  
+name  monarch
+name 矦張買
+  
+<-呂后 史記:-186-4-丙寅 #漢初封称元{#漢南宮 #矦張買} #前漢 #秦正
+    
+->呂后 [史記:-179] #漢廃国{#漢南宮} #前漢 #秦正
+    
+tag+country 漢南宮
+tag+monarch 矦張買
+    
+tag 漢南宮
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦張買
+
+def[矦彭祖]
+
+AD-164 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦彭祖
+  
+name  monarch
+name 矦彭祖
+  
+<-矦豨 [史記:-163] #漢称元{#漢軑 #矦彭祖} #前漢 #秦正
+    
+->元封 [史記:-109] #漢廃国{#漢軑} #前漢 #秦正
+    
+tag 漢軑
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦彭祖
+
+def[矦悼]
+
+AD-162 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦悼
+  
+name  monarch
+name 矦悼
+  
+<-貞矦朱通 [史記:-161] #漢称元{#漢中邑 #矦悼} #前漢 #秦正
+    
+->漢景帝後 [史記:-140] #漢廃国{#漢中邑} #前漢 #秦正
+    
+tag 漢中邑
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦悼
+
+def[矦慶]
+
+AD-128 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦慶
+  
+name  monarch
+name 矦慶
+  
+<-棘樂恭矦應 [史記:-127] #漢称元{#漢棘樂 #矦慶} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢棘樂} #前漢 #秦正
+    
+tag 漢棘樂
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦慶
+
+def[矦戎奴]
+
+AD-132 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦戎奴
+  
+name  monarch
+name 矦戎奴
+  
+<-靖矦偃 [史記:-131] #漢称元{#漢梧 #矦戎奴} #前漢 #秦正
+    
+->元狩 [史記:-117] #漢廃国{#漢梧} #前漢 #秦正
+    
+tag 漢梧
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦戎奴
+
+def[矦成]
+
+AD-177 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦成
+  
+name  monarch
+name 矦成
+  
+<-孝矦劉到 [史記:-176] #漢称元{#漢平都 #矦成} #前漢 #秦正
+    
+->漢景帝後 [史記:-141] #漢廃国{#漢平都} #前漢 #秦正
+    
+tag 漢平都
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦成
+
+def[矦昌]
+
+AD-115 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦昌
+  
+name  monarch
+name 矦昌
+  
+<-康矦延居 [史記:-114] #漢称元{#漢平定 #矦昌} #前漢 #秦正
+    
+->元鼎 [史記:-112] #漢廃国{#漢平定} #前漢 #秦正
+    
+tag 漢平定
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦昌
+
+def[矦明]
+
+AD-138 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦明
+  
+name  monarch
+name 矦明
+  
+<-懿矦盧 [史記:-137] #漢称元{#漢江陽 #矦明} #前漢 #秦正
+    
+tag 漢江陽
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦明
+
+def[矦朝]
+
+AD-187 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦朝
+  
+name  monarch
+name 矦朝
+  
+<-呂后 史記:-186-4-辛卯 #漢初封称元{#漢軹 #矦朝} #前漢 #秦正
+    
+->呂后 [史記:-183] #漢廃国{#漢軹} #前漢 #秦正
+    
+tag+country 漢軹
+tag+monarch 矦朝
+    
+tag 漢軹
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦朝
+
+def[矦桑林]
+
+AD-130 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦桑林
+  
+name  monarch
+name 矦桑林
+  
+<-夷矦良 [史記:-129] #漢称元{#漢南皮 #矦桑林} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢南皮} #前漢 #秦正
+    
+tag 漢南皮
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦桑林
+
+def[矦梁]
+
+AD-139 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦梁
+  
+name  monarch
+name 矦梁
+  
+<-易矦戎奴 [史記:-138] #漢称元{#漢軹 #矦梁} #前漢 #秦正
+    
+tag 漢軹
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦梁
+
+def[矦梧]
+
+AD-131 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦梧
+  
+name  monarch
+name 矦梧
+  
+<-矦田蚡 [史記:-130] #漢称元{#漢武安 #矦梧} #前漢 #秦正
+    
+->元朔 [史記:-125] #漢廃国{#漢武安} #前漢 #秦正
+    
+tag 漢武安
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦梧
+
+def[矦橫]
+
+AD-148 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦橫
+  
+name  monarch
+name 矦橫
+  
+<-漢景帝中 史記:-147-4-乙巳 #漢初封称元{#漢遽 #矦橫} #前漢 #秦正
+    
+->漢景帝後 [史記:-141] #漢廃国{#漢遽} #前漢 #秦正
+    
+tag+country 漢遽
+tag+monarch 矦橫
+    
+tag 漢遽
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦橫
+
+def[矦欒布]
+
+AD-151 = 0
+u 1
+u 7
+  
+%tag person
+%tag   name 矦欒布
+  
+name  monarch
+name 矦欒布
+  
+<-漢景帝前 史記:-150-4-丁卯 #漢初封称元{#漢俞 #矦欒布} #前漢 #秦正
+    
+tag+country 漢俞
+tag+monarch 矦欒布
+    
+tag 漢俞
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦欒布
+
+def[矦武]
+
+AD-187 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦武
+  
+name  monarch
+name 矦武
+  
+<-呂后 史記:-186-4-辛卯 #漢初封称元{#漢壺關 #矦武} #前漢 #秦正
+    
+->呂后 [史記:-182] #漢廃国{#漢壺關} #前漢 #秦正
+    
+tag+country 漢壺關
+tag+monarch 矦武
+    
+tag 漢壺關
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦武
+
+def[矦澤]
+
+AD-159 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦澤
+  
+name  monarch
+name 矦澤
+  
+<-頃矦召奴 [史記:-158] #漢称元{#漢犁 #矦澤} #前漢 #秦正
+    
+tag 漢犁
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦澤
+
+def[矦澤之]
+
+AD-157 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦澤之
+  
+name  monarch
+name 矦澤之
+  
+<-哀矦韓嬰 [史記:-156] #漢称元{#漢襄成 #矦澤之} #前漢 #秦正
+    
+->元朔 [史記:-124] #漢廃国{#漢襄成} #前漢 #秦正
+    
+tag 漢襄成
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦澤之
+
+def[矦王康]
+
+AD-148 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦王康
+  
+name  monarch
+name 矦王康
+  
+<-漢景帝中 史記:-147-4-乙巳 #漢初封称元{#漢新市 #矦王康} #前漢 #秦正
+    
+tag+country 漢新市
+tag+monarch 矦王康
+    
+tag 漢新市
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦王康
+
+def[矦田蚡]
+
+AD-141 = 0
+u 1
+u 10
+  
+%tag person
+%tag   name 矦田蚡
+  
+name  monarch
+name 矦田蚡
+  
+<-漢景帝後 [史記:-140-3] #漢初封称元{#漢武安 #矦田蚡} #前漢 #秦正
+    
+tag+country 漢武安
+tag+monarch 矦田蚡
+    
+tag 漢武安
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦田蚡
+
+def[矦當]
+
+AD-118 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦當
+  
+name  monarch
+name 矦當
+  
+<-敬矦觸龍 [史記:-117] #漢称元{#漢山都 #矦當} #前漢 #秦正
+    
+->元封 [史記:-109] #漢廃国{#漢山都} #前漢 #秦正
+    
+tag 漢山都
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦當
+
+def[矦直不疑]
+
+AD-143 = 0
+u 1
+u 6
+  
+%tag person
+%tag   name 矦直不疑
+  
+name  monarch
+name 矦直不疑
+  
+<-漢景帝後 [史記:-142-8] #漢初封称元{#漢塞 #矦直不疑} #前漢 #秦正
+    
+tag+country 漢塞
+tag+monarch 矦直不疑
+    
+tag 漢塞
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦直不疑
+
+def[矦相如]
+
+AD-137 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦相如
+  
+name  monarch
+name 矦相如
+  
+<-矦直不疑 [史記:-136] #漢称元{#漢塞 #矦相如} #前漢 #秦正
+    
+tag 漢塞
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦相如
+
+def[矦竇嬰]
+
+AD-154 = 0
+u 1
+u 23
+  
+%tag person
+%tag   name 矦竇嬰
+  
+name  monarch
+name 矦竇嬰
+  
+<-漢景帝前 史記:-153-6-乙巳 #漢初封称元{#漢魏其 #矦竇嬰} #前漢 #秦正
+    
+->元光 [史記:-130] #漢廃国{#漢魏其} #前漢 #秦正
+    
+tag+country 漢魏其
+tag+monarch 矦竇嬰
+    
+tag 漢魏其
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦竇嬰
+
+def[矦竇彭祖]
+
+AD-157 = 0
+u 1
+u 22
+  
+%tag person
+%tag   name 矦竇彭祖
+  
+name  monarch
+name 矦竇彭祖
+  
+<-漢文帝後 史記:-156-6-乙卯 #漢初封称元{#漢南皮 #矦竇彭祖} #前漢 #秦正
+    
+tag+country 漢南皮
+tag+monarch 矦竇彭祖
+    
+tag 漢南皮
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦竇彭祖
+
+def[矦章]
+
+AD-125 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦章
+  
+name  monarch
+name 矦章
+  
+<-敬矦發 [史記:-124] #漢称元{#漢紅 #矦章} #前漢 #秦正
+    
+->元朔 [史記:-123] #漢廃国{#漢紅} #前漢 #秦正
+    
+tag 漢紅
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦章
+
+def[矦義]
+
+AD-187 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦義
+  
+name  monarch
+name 矦義
+  
+<-呂后 史記:-186-4-辛卯 #漢初封称元{#漢襄成 #矦義} #前漢 #秦正
+    
+->呂后 [史記:-185] #漢廃国{#漢襄成} #前漢 #秦正
+    
+tag+country 漢襄成
+tag+monarch 矦義
+    
+tag 漢襄成
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦義
+
+def[矦蔡兼]
+
+AD-179 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦蔡兼
+  
+name  monarch
+name 矦蔡兼
+  
+<-漢文帝前 史記:-178-6-丙寅 #漢初封称元{#漢樊 #矦蔡兼} #前漢 #秦正
+    
+tag+country 漢樊
+tag+monarch 矦蔡兼
+    
+tag 漢樊
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦蔡兼
+
+def[矦薄昭]
+
+AD-179 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦薄昭
+  
+name  monarch
+name 矦薄昭
+  
+<-漢文帝前 史記:-178-4-乙巳 #漢初封称元{#漢軹 #矦薄昭} #前漢 #秦正
+    
+tag+country 漢軹
+tag+monarch 矦薄昭
+    
+tag 漢軹
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦薄昭
+
+def[矦蟜]
+
+AD-145 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦蟜
+  
+name  monarch
+name 矦蟜
+  
+<-漢景帝中 史記:-144-5-丁丑 #漢初封称元{#漢隆慮 #矦蟜} #前漢 #秦正
+    
+->元鼎 [史記:-115] #漢廃国{#漢隆慮} #前漢 #秦正
+    
+tag+country 漢隆慮
+tag+monarch 矦蟜
+    
+tag 漢隆慮
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦蟜
+
+def[矦豨]
+
+AD-185 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦豨
+  
+name  monarch
+name 矦豨
+  
+<-矦利倉 [史記:-184] #漢称元{#漢軑 #矦豨} #前漢 #秦正
+    
+tag 漢軑
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦豨
+
+def[矦買]
+
+AD-145 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦買
+  
+name  monarch
+name 矦買
+  
+<-漢景帝中 史記:-144-5-丁卯 #漢初封称元{#漢乘氏 #矦買} #前漢 #秦正
+    
+->漢景帝中 [史記:-143] #漢廃国{#漢乘氏} #前漢 #秦正
+    
+tag+country 漢乘氏
+tag+monarch 矦買
+    
+tag 漢乘氏
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦買
+
+def[矦賀]
+
+AD-129 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦賀
+  
+name  monarch
+name 矦賀
+  
+<-康矦偏 [史記:-128] #漢称元{#漢亞谷 #矦賀} #前漢 #秦正
+    
+tag 漢亞谷
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦賀
+
+def[矦賜]
+
+AD-147 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦賜
+  
+name  monarch
+name 矦賜
+  
+<-漢景帝中 史記:-146-12-丁丑 #漢初封称元{#漢垣 #矦賜} #前漢 #秦正
+    
+->漢景帝前 [史記:-150] #漢廃国{#漢垣} #前漢 #秦正
+    
+tag+country 漢垣
+tag+monarch 矦賜
+    
+tag 漢垣
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦賜
+
+def[矦起]
+
+AD-173 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦起
+  
+name  monarch
+name 矦起
+  
+<-漢文帝前 史記:-172-3-丙寅 #漢初封称元{#漢南𨜓 #矦起} #前漢 #秦正
+    
+tag+country 漢南𨜓
+tag+monarch 矦起
+    
+tag 漢南𨜓
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦起
+
+def[矦越]
+
+AD-184 = 0
+u 1
+u 8
+  
+%tag person
+%tag   name 矦越
+  
+name  monarch
+name 矦越
+  
+<-呂后 史記:-183-4-丙申 #漢初封称元{#漢醴陵 #矦越} #前漢 #秦正
+    
+->漢文帝前 [史記:-175] #漢廃国{#漢醴陵} #前漢 #秦正
+    
+tag+country 漢醴陵
+tag+monarch 矦越
+    
+tag 漢醴陵
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦越
+
+def[矦趙兼]
+
+AD-179 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦趙兼
+  
+name  monarch
+name 矦趙兼
+  
+<-漢文帝前 史記:-178-4-辛未 #漢初封称元{#漢周陽 #矦趙兼} #前漢 #秦正
+    
+->漢文帝前 [史記:-173] #漢廃国{#漢周陽} #前漢 #秦正
+    
+tag+country 漢周陽
+tag+monarch 矦趙兼
+    
+tag 漢周陽
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦趙兼
+
+def[矦趙周]
+
+AD-148 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦趙周
+  
+name  monarch
+name 矦趙周
+  
+<-漢景帝中 史記:-147-4-乙巳 #漢初封称元{#漢商陵 #矦趙周} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢商陵} #前漢 #秦正
+    
+tag+country 漢商陵
+tag+monarch 矦趙周
+    
+tag 漢商陵
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦趙周
+
+def[矦辟方]
+
+AD-127 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦辟方
+  
+name  monarch
+name 矦辟方
+  
+<-恭矦平 [史記:-126] #漢称元{#漢樊 #矦辟方} #前漢 #秦正
+    
+->元鼎 [史記:-112] #漢廃国{#漢樊} #前漢 #秦正
+    
+tag 漢樊
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦辟方
+
+def[矦邯鄲]
+
+AD-147 = 0
+u 1
+u 16
+  
+%tag person
+%tag   name 矦邯鄲
+  
+name  monarch
+name 矦邯鄲
+  
+<-漢景帝中 史記:-146-12-丁丑 #漢初封称元{#漢翕 #矦邯鄲} #前漢 #秦正
+    
+->元光 [史記:-130] #漢廃国{#漢翕} #前漢 #秦正
+    
+tag+country 漢翕
+tag+monarch 矦邯鄲
+    
+tag 漢翕
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦邯鄲
+
+def[矦隆彊]
+
+AD-147 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦隆彊
+  
+name  monarch
+name 矦隆彊
+  
+<-漢景帝中 史記:-146-12-丁丑 #漢初封称元{#漢遒 #矦隆彊} #前漢 #秦正
+    
+->漢文帝後 [史記:-156] #漢廃国{#漢遒} #前漢 #秦正
+    
+tag+country 漢遒
+tag+monarch 矦隆彊
+    
+tag 漢遒
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦隆彊
+
+def[矦雕]
+
+AD-123 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦雕
+  
+name  monarch
+name 矦雕
+  
+<-矦明 [史記:-122] #漢称元{#漢江陽 #矦雕} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢江陽} #前漢 #秦正
+    
+tag 漢江陽
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦雕
+
+def[矦駟鈞]
+
+AD-179 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 矦駟鈞
+  
+name  monarch
+name 矦駟鈞
+  
+<-漢文帝前 史記:-178-4-辛未 #漢初封称元{#漢清都 #矦駟鈞} #前漢 #秦正
+    
+->漢文帝前 [史記:-173] #漢廃国{#漢清都} #前漢 #秦正
+    
+tag+country 漢清都
+tag+monarch 矦駟鈞
+    
+tag 漢清都
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 矦駟鈞
+
+def[端矦代]
+
+AD-147 = 0
+u 1
+u 14
+  
+%tag person
+%tag   name 端矦代
+  
+name  monarch
+name 端矦代
+  
+<-漢景帝中 史記:-146-12-丁丑 #漢初封称元{#漢范陽 #端矦代} #前漢 #秦正
+    
+tag+country 漢范陽
+tag+monarch 端矦代
+    
+tag 漢范陽
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 端矦代
+
+def[管矦戎奴]
+
+AD-174 = 0
+u 1
+u 20
+  
+%tag person
+%tag   name 管矦戎奴
+  
+name  monarch
+name 矦戎奴
+  
+<-恭矦劉罷軍 [史記:-173] #漢称元{#漢管 #管矦戎奴} #前漢 #秦正
+    
+->漢景帝前 [史記:-153] #漢廃国{#漢管} #前漢 #秦正
+    
+tag 漢管
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 管矦戎奴
+
+def[節矦橫]
+
+AD-133 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 節矦橫
+  
+name  monarch
+name 節矦橫
+  
+<-哀矦程嘉 [史記:-132] #漢称元{#漢建平 #節矦橫} #前漢 #秦正
+    
+tag 漢建平
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 節矦橫
+
+def[節矦申屠嘉]
+
+AD-161 = 0
+u 1
+u 7
+  
+%tag person
+%tag   name 節矦申屠嘉
+  
+name  monarch
+name 節矦申屠嘉
+  
+<-漢文帝後 史記:-160-4-丁巳 #漢初封称元{#漢故安 #節矦申屠嘉} #前漢 #秦正
+    
+tag+country 漢故安
+tag+monarch 節矦申屠嘉
+    
+tag 漢故安
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 節矦申屠嘉
+
+def[簡矦它父]
+
+AD-145 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 簡矦它父
+  
+name  monarch
+name 簡矦它父
+  
+<-漢景帝中 史記:-144-4-丁巳 #漢初封称元{#漢亞谷 #簡矦它父} #前漢 #秦正
+    
+tag+country 漢亞谷
+tag+monarch 簡矦它父
+    
+tag 漢亞谷
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 簡矦它父
+
+def[簡矦衛無擇]
+
+AD-184 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 簡矦衛無擇
+  
+name  monarch
+name 簡矦衛無擇
+  
+<-呂后 史記:-183-4-丙申 #漢初封称元{#漢樂平 #簡矦衛無擇} #前漢 #秦正
+    
+tag+country 漢樂平
+tag+monarch 簡矦衛無擇
+    
+tag 漢樂平
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 簡矦衛無擇
+
+def[莊矦富]
+
+AD-154 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 莊矦富
+  
+name  monarch
+name 莊矦富
+  
+<-漢景帝前 史記:-153-4-乙巳 #漢初封称元{#漢紅 #莊矦富} #前漢 #秦正
+    
+tag+country 漢紅
+tag+monarch 莊矦富
+    
+tag 漢紅
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 莊矦富
+
+def[莊矦韓頹當]
+
+AD-164 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 莊矦韓頹當
+  
+name  monarch
+name 莊矦韓頹當
+  
+<-漢文帝前 史記:-163-6-丙子 #漢初封称元{#漢弓髙 #莊矦韓頹當} #前漢 #秦正
+    
+tag+country 漢弓髙
+tag+monarch 莊矦韓頹當
+    
+tag 漢弓髙
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 莊矦韓頹當
+
+def[蓋矦偃]
+
+AD-120 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 蓋矦偃
+  
+name  monarch
+name 矦偃
+  
+<-靖矦王信 [史記:-119] #漢称元{#漢蓋 #蓋矦偃} #前漢 #秦正
+    
+->元鼎 [史記:-111] #漢廃国{#漢蓋} #前漢 #秦正
+    
+tag 漢蓋
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 蓋矦偃
+
+def[貞矦朱通]
+
+AD-184 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 貞矦朱通
+  
+name  monarch
+name 貞矦朱通
+  
+<-呂后 史記:-183-4-丙申 #漢初封称元{#漢中邑 #貞矦朱通} #前漢 #秦正
+    
+tag+country 漢中邑
+tag+monarch 貞矦朱通
+    
+tag 漢中邑
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 貞矦朱通
+
+def[貞矦王恬開]
+
+AD-184 = 0
+u 1
+u 8
+  
+%tag person
+%tag   name 貞矦王恬開
+  
+name  monarch
+name 貞矦王恬開
+  
+<-呂后 史記:-183-4-丙申 #漢初封称元{#漢山都 #貞矦王恬開} #前漢 #秦正
+    
+tag+country 漢山都
+tag+monarch 貞矦王恬開
+    
+tag 漢山都
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 貞矦王恬開
+
+def[靖矦偃]
+
+AD-147 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 靖矦偃
+  
+name  monarch
+name 靖矦偃
+  
+<-敬矦去疾 [史記:-146] #漢称元{#漢梧 #靖矦偃} #前漢 #秦正
+    
+tag 漢梧
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 靖矦偃
+
+def[靖矦王信]
+
+AD-145 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 靖矦王信
+  
+name  monarch
+name 靖矦王信
+  
+<-漢景帝中 史記:-144-5-甲戌 #漢初封称元{#漢蓋 #靖矦王信} #前漢 #秦正
+    
+tag+country 漢蓋
+tag+monarch 靖矦王信
+    
+tag 漢蓋
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 靖矦王信
+
+def[頃矦召奴]
+
+AD-170 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 頃矦召奴
+  
+name  monarch
+name 頃矦召奴
+  
+<-漢文帝前 史記:-169-4-癸丑 #漢初封称元{#漢犁 #頃矦召奴} #前漢 #秦正
+    
+tag+country 漢犁
+tag+monarch 頃矦召奴
+    
+tag 漢犁
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 頃矦召奴
+
+def[頃矦吳淺]
+
+AD-194 = 0
+u 1
+u 15
+  
+%tag person
+%tag   name 頃矦吳淺
+  
+name  monarch
+name 頃矦吳淺
+  
+<-恵帝 [史記:-193-9] #漢初封称元{#漢便 #頃矦吳淺} #前漢 #秦正
+    
+tag+country 漢便
+tag+monarch 頃矦吳淺
+    
+tag 漢便
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 頃矦吳淺
+
+def[頃矦吳陽]
+
+AD-187 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 頃矦吳陽
+  
+name  monarch
+name 頃矦吳陽
+  
+<-呂后 史記:-186-11-壬申 #漢初封称元{#漢沅陵 #頃矦吳陽} #前漢 #秦正
+    
+tag+country 漢沅陵
+tag+monarch 頃矦吳陽
+    
+tag 漢沅陵
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 頃矦吳陽
+
+def[頃矦福]
+
+AD-162 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 頃矦福
+  
+name  monarch
+name 頃矦福
+  
+<-頃矦吳陽 [史記:-161] #漢称元{#漢沅陵 #頃矦福} #前漢 #秦正
+    
+tag 漢沅陵
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 頃矦福
+
+def[齊矦市人]
+
+AD-178 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 齊矦市人
+  
+name  monarch
+name 齊矦市人
+  
+<-敬矦齊受 [史記:-177] #漢称元{#漢平定 #齊矦市人} #前漢 #秦正
+    
+tag 漢平定
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 齊矦市人
+
+def[齊矦陽成延]
+
+AD-187 = 0
+u 1
+u 1
+  
+%tag person
+%tag   name 齊矦陽成延
+  
+name  monarch
+name 齊矦陽成延
+  
+<-呂后 史記:-186-4-乙酉 #漢初封称元{#漢梧 #齊矦陽成延} #前漢 #秦正
+    
+tag+country 漢梧
+tag+monarch 齊矦陽成延
+    
+tag 漢梧
+tag 漢民族
+tag 史記 惠景閒矦者年表 第七
+tag 漢列侯即位紀年
+tag 前漢
+tag 齊矦陽成延
