@@ -17,6 +17,36 @@
 %tag source
 %tag   name_ja 遼史
 
+%tag tag
+%tag   name_ja 遼即位紀年
+%tag   group of 東洋式即位紀年
+
+def[遙輦耶瀾可汗]
+
+AD901 = 10
+
+sw 遼の元号
+
+tag 契丹人
+tag 契丹 (耶律阿保機)
+tag 内蒙古
+tag 遼即位紀年
+
+%tag person
+%tag   name 耶瀾可汗
+tag 耶瀾可汗
+
+s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B734>"遙輦耶瀾可汗"
+s+
+name 遙輦耶瀾可汗
+u 10
+u 15
+->耶律阿保機 [遼:906] #改元前の死去{#契丹_(耶律阿保機) #耶瀾可汗}
+
+<-unknown [遼:892] #建元前の即位{#契丹_(耶律阿保機) #耶瀾可汗 #可汗}
+
+tag 耶律阿保機
+
 def[耶律阿保機]
 #y~1966
 
@@ -27,32 +57,51 @@ sw 遼の元号
 tag 契丹人
 tag 契丹 (耶律阿保機)
 tag 内蒙古
+tag 遼即位紀年
 
 %tag person
 %tag   name_ja 耶律阿保機
 tag 耶律阿保機
 
+name monarch
 name 耶律阿保機
 &
+name country monarch
 name 契丹主耶律阿保機
 &
+name country monarch
 name 遼太祖耶律阿保機
 &
+name country monarch
 name_cn 辽太祖
 &
+name monarch
 name(cn) 太祖(耶律阿保机)
 name(hk) 太祖(耶律阿保機)
 
 s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B71>"元年春正月"
-<-天復 遼:907-1-庚寅 #建元前の即位{#契丹_(耶律阿保機) #耶律阿保機 #可汗}
+<-遙輦耶瀾可汗 遼:907-1-庚寅
+    #建元前の即位{#契丹_(耶律阿保機) #耶律阿保機 #可汗}
 u 1-1-庚寅
 u 9-10-戊申
-<-天復 遼:907-1-庚寅 #利用開始 #契丹_(耶律阿保機) #遼史
+<-天復 遼:907-1-庚寅 #適用開始{#契丹_(耶律阿保機)} #遼史
 
+&
 s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B770>"太祖元年"
+name monarch
 name 太祖
 s+
 u 1
+
+&
+s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B734>"太祖即位"
+name monarch+
+name 太祖即位
+s+
+u 5
+u 6
+#  -春
+
 
 ## <https://ja.wikipedia.org/wiki/%E8%80%B6%E5%BE%8B%E9%98%BF%E4%BF%9D%E6%A9%9F>
 #天祐4年1月13日 j:907-2-27 #即位

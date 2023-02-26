@@ -195,12 +195,28 @@ tag 蒙古即位紀年
 %tag   name_ja 太宗
 tag オゴデイ
 
+name monarch
 name_ja 太宗
 name_tw 太宗
 &
+name monarch
 name(ja) 太宗[]オゴデイ
 &
+name monarch
 name_tw 窩闊台汗
+name_cn 窝阔台汗
+&
+name monarch
+name 斡哥歹汗
+&
+name monarch
+name 木亦坚汗
+&
+name country monarch
+name 蒙古斡哥歹汗
+&
+name country monarch
+name_cn 蒙古窝阔台汗
 
 s#元史<https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7002>"元年"
 s+
@@ -232,15 +248,20 @@ wref_zh 昭慈皇后
 %tag   name_tw 乃馬真
 tag ドレゲネ
 
+name monarch+
 name(ja) ドレゲネ称制
 &
+name monarch+
 name(ja) 脱列哥那皇后(ドレゲネ)称制
 &
+name monarch+
 name(ja) 昭慈后(称制)
 name(tw) 昭慈后(稱制)
 &
+name monarch+
 name_cn 乃马真后称制
 &
+name monarch
 name_ja 乃馬真后
 
 s#元史<https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7002>"壬寅年"
@@ -270,10 +291,16 @@ tag 蒙古即位紀年
 %tag   name_ja 定宗
 tag グユク
 
+name monarch
 name_ja 定宗
 name_tw 定宗
 &
+name monarch
 name_tw 貴由汗
+name_cn 贵由汗
+&
+name country monarch
+name_cn 蒙古贵由大汗
 
 s#元史<https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7002>"元年丙午"
 s+
@@ -313,9 +340,14 @@ wref_zh 欽淑皇后
 %tag   name_tw 欽淑后
 tag オグルガイミシュ
 
+name monarch+
 name(ja) 欽淑后(オグルガイミシュ)称制
 &
+name monarch+
 name(cn) 钦淑后(称制)
+&
+name country monarch+
+name 大蒙古国海迷失后称制
 
 def[憲宗]
 #y~1838
@@ -336,23 +368,37 @@ tag 蒙古即位紀年
 %tag   name_ja 憲宗
 tag モンケ
 
+name monarch
 name_ja 憲宗
 &
+name monarch
 name_ja 蒙哥
 &
+name monarch
 name_tw 蒙哥汗
 &
+name monarch
 name_cn 宪宗蒙哥汗
 &
+name country monarch
+name 蒙古蒙哥汗
+&
+name monarch
 name(ja) 憲宗(モンケ)
 &
+name country monarch
 name 蒙古憲宗
 #蒙古憲宗之三年
 &
+name country monarch
 name 蒙古憲宗蒙哥
 #蒙古憲宗蒙哥之元年
 &
+name country monarch
 name 元憲宗
+&
+name country monarch
+name_cn 元宪宗蒙哥汗
 
 s#元史<https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7003>"元年辛亥"
 s+
@@ -363,6 +409,7 @@ s+
 s#元史<https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7209>"元憲宗"
 #"元憲宗三年癸丑"
 s+
+name country monarch
 name 元憲宗
 ## AD1253
 

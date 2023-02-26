@@ -45,6 +45,7 @@ sub country ($) {
     吳 => '呉',
     齊 => '斉',
     山陽 => '山陽 (漢土)',
+    清 => '清 (漢土)',
   }->{$key} || $key;
 } # country
 
@@ -387,6 +388,7 @@ s+
     push @pk, '宣王(乙亥)' if $key eq '幽王';
     push @pk, '姬猛' if $key eq '敬王';
     push @pk, '矦呂產' if $key eq '呂產';
+    push @pk, '魏襄王(癸卯)' if $key eq '魏昭王';
     #push @pk, $data->{prev_other} if defined $data->{prev_other};
     my $ctag = $Prefix2 . $data->{country};
     if ($ctag eq '春秋戦国齊') {
@@ -423,7 +425,8 @@ s+
         (person $data->{country}, $pperson),
         ($Prefix2 eq '漢' ? '前漢' : '春秋戦国時代'),
         ($Prefix2 eq '漢' ? cal_tag ($y, $data->{start_day}) : $data->{country} eq '秦' ? '#秦正' : '');
-    if ($key eq '齊威王因') {
+    if ($key eq '齊威王因' or
+        ($Data->{source_type} eq 'table3' and $key eq '惠王')) {
       print qq{  #旧説\n};
     }
     if ($data->{re}) {

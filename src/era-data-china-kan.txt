@@ -388,6 +388,16 @@ BC203 = 1
 u 1-1
 u 2-4
 
+[淮南王安]
+#y~2690
+
+&
+name country
+name 淮南
+
+#淮南子天文訓 淮南元年
+#sw 漢諸侯王等即位紀年
+
 [梁王彭越]
 s#史記<https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7016>"梁王彭越"
 tag 史記 秦楚之際月表第四
@@ -508,6 +518,48 @@ tag 漢書 卷十三 異姓諸侯王表 第一
     #秦正
 tag 再開
 
+[長沙定王發]
+#y~2739
+&
+name 長沙
+u 1
+name(en) CHANG-SHA
+
+[趙王遂]
+#y~2736
+
+&
+name 趙
+
+[魯恭王餘]
+#y~2747
+&
+name 魯
+
+def[劉慶忌]
+
+tag 漢魯
+tag 漢民族
+tag 漢諸侯王即位紀年
+tag 前漢
+
+%tag person
+%tag   name 劉慶忌
+%tag   &
+%tag   name 魯孝王
+tag 劉慶忌
+
+BC56 = 34
+name 魯
+u 34-6-4
+#sw 漢諸侯王等即位紀年
+
+## <https://zh.wikipedia.org/wiki/%E5%8A%89%E5%85%89_(%E9%AD%AF%E7%8E%8B)#%E5%85%92%E5%AD%90>
+<-後元 [漢:BC88] #建元前の即位{#漢魯 #劉慶忌 #魯王} #旧説
+->甘露 [漢:BC51] #改元前の退位{#漢魯 #劉慶忌 #魯王}
+
+<-後元 [漢:BC87] #建元前の即位{#漢魯 #劉慶忌 #魯王}
+<-unknown [漢:BC87] #漢称元{#漢魯 #劉慶忌}
 
 def[恵帝]
 ## Source:

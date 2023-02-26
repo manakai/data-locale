@@ -501,7 +501,7 @@
 %tag   label 漢清
 %tag   &
 %tag   name 清
-%tag   period of 清
+%tag   period of 清 (漢土)
   
 %tag country
 %tag   label 漢清陽
