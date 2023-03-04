@@ -210,6 +210,7 @@ data/calendar/era-defs.json: bin/calendar-era-defs-events.pl \
     local/era-transitions-0.json \
     local/calendar-era-relations-0.json \
     local/calendar-era-labels-0.json \
+    intermediate/x4d/*.json \
     data/tags.json
 	$(PERL) $< > $@
 local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \

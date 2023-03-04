@@ -489,6 +489,22 @@ for (reverse
 }
 
 {
+  for (glob $root_path->child ('intermediate/x4d/*.json')) {
+    my $path = path ($_);
+    my $json = json_bytes2perl $path->slurp;
+    for my $data (values %{$json->{eras}}) {
+      my $era = $Data->{eras}->{$data->{key}} // die "Bad era";
+      if (defined $data->{min}) {
+        push @{$era->{_usages} ||= []}, [[$data->{min}]];
+      }
+      if (defined $data->{max}) {
+        push @{$era->{_usages} ||= []}, [[$data->{max}]];
+      }
+      for (keys %{$data->{tag_keys} or {}}) {
+        set_object_tag $era, $_;
+      }
+    }
+  }
   for my $era (values %{$Data->{eras}}) {
     if (defined $era->{offset}) {
       for (@{$era->{_usages} or []}) {

@@ -246,7 +246,7 @@ test 215 '.eras["弘和"].name_latn == "Kōwa"'
 test 216 '.eras["永徳"].name_latn == "Eitoku"'
 
 test 217 '.eras["昭和"].name_kana == "しょうわ"'
-test 218 '.eras["昭和"].name_latn == "Showa"'
+test 218 '.eras["昭和"].name_latn == "Shōwa"'
 
 test 219 '.eras["宝亀"].end_day.kyuureki == "0780-12-30"'
 test 220 '.eras["宝亀"].actual_end_day.kyuureki == "0781-01-01"'

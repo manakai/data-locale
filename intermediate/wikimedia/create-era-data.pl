@@ -380,9 +380,7 @@ s+
     my $pk = $data->{prev}->{$y};
     use utf8;
     my @pk = ($pk eq '始皇帝' ? '秦始皇' : person $data->{country}, $pk);
-    if ($pk eq '真公濞') {
-      push @pk, '真公濞(丁未)';
-    }
+    push @pk, '魯武公敖(丁丑)' if $key eq '魯懿公戲';
     push @pk, '趙王敖(庚子)' if $key eq '趙隱王如意';
     push @pk, '齊湣王地(辛酉)' if $key eq '齊襄王法章';
     push @pk, '宣王(乙亥)' if $key eq '幽王';

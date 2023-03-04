@@ -9,7 +9,7 @@ test() {
 
 test 1 '.eras["3"].label_sets[0].labels[0].form_groups[0].form_sets[1].hiragana[0] == "しょう"'
 test 2 '.eras["3"].label_sets[0].labels[0].form_groups[0].form_sets[1].hiragana_modern[1] == "わ"'
-test 3 '.eras["3"].label_sets[0].labels[0].form_groups[0].form_sets[1].hiragana_classic[0] == "せう"'
-test 4 '.eras["3"].label_sets[0].labels[0].form_groups[0].form_sets[1].latin[0] == "sho"'
+test 3 '.eras["3"].label_sets[0].labels[0].form_groups[0].form_sets[2].hiragana_classic[0] == "せう"'
+test 4 '.eras["3"].label_sets[0].labels[0].form_groups[0].form_sets[2].latin[0] == "sho"'
 
 ## License: Public Domain.
