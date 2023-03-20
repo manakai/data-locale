@@ -1,6 +1,6 @@
 {
    "_ext_file_date" : "2014-04-02",
-   "_file_date" : "2021-08-06",
+   "_file_date" : "2023-02-14",
    "extension" : {
       "t" : {
          "Comments" : [
@@ -258,6 +258,19 @@
          "_added" : "2009-07-29",
          "_macro" : "ar",
          "_preferred" : "ajp",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "ajs" : {
+         "Description" : [
+            "Algerian Jewish Sign Language"
+         ],
+         "Prefix" : [
+            "sgn"
+         ],
+         "_added" : "2022-02-25",
+         "_preferred" : "ajs",
          "_registry" : {
             "iana" : 1
          }
@@ -980,6 +993,19 @@
          ],
          "_added" : "2009-07-29",
          "_preferred" : "dsl",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "dsz" : {
+         "Description" : [
+            "Mardin Sign Language"
+         ],
+         "Prefix" : [
+            "sgn"
+         ],
+         "_added" : "2022-02-25",
+         "_preferred" : "dsz",
          "_registry" : {
             "iana" : 1
          }
@@ -1772,6 +1798,20 @@
             "iana" : 1
          }
       },
+      "lsc" : {
+         "Description" : [
+            "Albarradas Sign Language",
+            "Lengua de señas Albarradas"
+         ],
+         "Prefix" : [
+            "sgn"
+         ],
+         "_added" : "2022-02-25",
+         "_preferred" : "lsc",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "lsg" : {
          "Description" : [
             "Lyons Sign Language"
@@ -1861,6 +1901,21 @@
          ],
          "_added" : "2019-04-16",
          "_preferred" : "lsv",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "lsw" : {
+         "Description" : [
+            "Seychelles Sign Language",
+            "Lalang Siny Seselwa",
+            "Langue des Signes Seychelloise"
+         ],
+         "Prefix" : [
+            "sgn"
+         ],
+         "_added" : "2022-02-25",
+         "_preferred" : "lsw",
          "_registry" : {
             "iana" : 1
          }
@@ -2391,6 +2446,7 @@
       },
       "psc" : {
          "Description" : [
+            "Iranian Sign Language",
             "Persian Sign Language"
          ],
          "Prefix" : [
@@ -2508,6 +2564,19 @@
             "iana" : 1
          }
       },
+      "rib" : {
+         "Description" : [
+            "Bribri Sign Language"
+         ],
+         "Prefix" : [
+            "sgn"
+         ],
+         "_added" : "2022-02-25",
+         "_preferred" : "rib",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "rms" : {
          "Description" : [
             "Romanian Sign Language"
@@ -2517,6 +2586,19 @@
          ],
          "_added" : "2009-07-29",
          "_preferred" : "rms",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "rnb" : {
+         "Description" : [
+            "Brunca Sign Language"
+         ],
+         "Prefix" : [
+            "sgn"
+         ],
+         "_added" : "2022-02-25",
+         "_preferred" : "rnb",
          "_registry" : {
             "iana" : 1
          }
@@ -2557,6 +2639,19 @@
          ],
          "_added" : "2016-05-30",
          "_preferred" : "rsm",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "rsn" : {
+         "Description" : [
+            "Rwandan Sign Language"
+         ],
+         "Prefix" : [
+            "sgn"
+         ],
+         "_added" : "2022-02-25",
+         "_preferred" : "rsn",
          "_registry" : {
             "iana" : 1
          }
@@ -5436,12 +5531,23 @@
             "iana" : 1
          }
       },
+      "ajs" : {
+         "Description" : [
+            "Algerian Jewish Sign Language"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "ajt" : {
          "Description" : [
             "Judeo-Tunisian Arabic"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_macro" : "jrb",
+         "_preferred" : "aeb",
          "_registry" : {
             "iana" : 1
          }
@@ -12093,6 +12199,15 @@
             "iana" : 1
          }
       },
+      "bpc" : {
+         "Description" : [
+            "Mbuk"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "bpd" : {
          "Description" : [
             "Banda-Banda"
@@ -12539,6 +12654,7 @@
       },
       "brb" : {
          "Description" : [
+            "Brao",
             "Lave"
          ],
          "_added" : "2009-07-29",
@@ -16410,6 +16526,15 @@
             "iana" : 1
          }
       },
+      "cnq" : {
+         "Description" : [
+            "Chung"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "cnr" : {
          "Comments" : [
             "see sr for Serbian"
@@ -17521,11 +17646,15 @@
          }
       },
       "cug" : {
+         "Comments" : [
+            "see bpc, cnq"
+         ],
          "Description" : [
             "Chungmboko",
             "Cung"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -20098,6 +20227,15 @@
             "iana" : 1
          }
       },
+      "dsz" : {
+         "Description" : [
+            "Mardin Sign Language"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "dta" : {
          "Description" : [
             "Daur"
@@ -20889,6 +21027,15 @@
             "iana" : 1
          }
       },
+      "egm" : {
+         "Description" : [
+            "Benamanga"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "ego" : {
          "Description" : [
             "Eggon"
@@ -21465,7 +21612,7 @@
       },
       "env" : {
          "Description" : [
-            "Enwan (Edu State)"
+            "Enwan (Edo State)"
          ],
          "_added" : "2009-07-29",
          "_registry" : {
@@ -22287,7 +22434,8 @@
       },
       "fit" : {
          "Description" : [
-            "Tornedalen Finnish"
+            "Tornedalen Finnish",
+            "Meänkieli"
          ],
          "_added" : "2009-07-29",
          "_registry" : {
@@ -25061,6 +25209,15 @@
             "Gavar"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "gov" : {
+         "Description" : [
+            "Goo"
+         ],
+         "_added" : "2022-02-25",
          "_registry" : {
             "iana" : 1
          }
@@ -28961,6 +29118,15 @@
             "Marsian"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "imt" : {
+         "Description" : [
+            "Imotong"
+         ],
+         "_added" : "2022-02-25",
          "_registry" : {
             "iana" : 1
          }
@@ -37331,6 +37497,8 @@
             "Laka (Nigeria)"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "ksp",
          "_registry" : {
             "iana" : 1
          }
@@ -38231,6 +38399,15 @@
             "Opuuo"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "lgo" : {
+         "Description" : [
+            "Lango (South Sudan)"
+         ],
+         "_added" : "2022-02-25",
          "_registry" : {
             "iana" : 1
          }
@@ -39317,10 +39494,14 @@
          }
       },
       "lno" : {
+         "Comments" : [
+            "see imt, lgo, lqr, oie"
+         ],
          "Description" : [
             "Lango (South Sudan)"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -39641,6 +39822,15 @@
             "iana" : 1
          }
       },
+      "lqr" : {
+         "Description" : [
+            "Logir"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "lra" : {
          "Description" : [
             "Rara Bakati'"
@@ -39790,6 +39980,16 @@
             "iana" : 1
          }
       },
+      "lsc" : {
+         "Description" : [
+            "Albarradas Sign Language",
+            "Lengua de señas Albarradas"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "lsd" : {
          "Description" : [
             "Lishana Deni"
@@ -39916,6 +40116,17 @@
             "Sivia Sign Language"
          ],
          "_added" : "2019-04-16",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "lsw" : {
+         "Description" : [
+            "Seychelles Sign Language",
+            "Lalang Siny Seselwa",
+            "Langue des Signes Seychelloise"
+         ],
+         "_added" : "2022-02-25",
          "_registry" : {
             "iana" : 1
          }
@@ -49879,7 +50090,8 @@
       "nrf" : {
          "Description" : [
             "Jèrriais",
-            "Guernésiais"
+            "Guernésiais",
+            "Sercquiais"
          ],
          "_added" : "2015-02-12",
          "_registry" : {
@@ -50730,6 +50942,15 @@
             "iana" : 1
          }
       },
+      "nww" : {
+         "Description" : [
+            "Ndwewe"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "nwx" : {
          "Description" : [
             "Middle Newar"
@@ -51501,6 +51722,15 @@
             "Oirata"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "oie" : {
+         "Description" : [
+            "Okolie"
+         ],
+         "_added" : "2022-02-25",
          "_registry" : {
             "iana" : 1
          }
@@ -53836,6 +54066,15 @@
             "iana" : 1
          }
       },
+      "phj" : {
+         "Description" : [
+            "Pahari"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "phk" : {
          "Description" : [
             "Phake"
@@ -54023,6 +54262,7 @@
             "Pini"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -55558,6 +55798,7 @@
       },
       "psc" : {
          "Description" : [
+            "Iranian Sign Language",
             "Persian Sign Language"
          ],
          "_added" : "2009-07-29",
@@ -56196,8 +56437,18 @@
             "iana" : 1
          }
       },
+      "pzh" : {
+         "Description" : [
+            "Pazeh"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "pzn" : {
          "Description" : [
+            "Jejara Naga",
             "Para Naga"
          ],
          "_added" : "2009-07-29",
@@ -63521,6 +63772,15 @@
             "iana" : 1
          }
       },
+      "rib" : {
+         "Description" : [
+            "Bribri Sign Language"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "rie" : {
          "Description" : [
             "Rien"
@@ -63952,6 +64212,15 @@
             "iana" : 1
          }
       },
+      "rnb" : {
+         "Description" : [
+            "Brunca Sign Language"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "rnd" : {
          "Description" : [
             "Ruund"
@@ -64223,6 +64492,16 @@
             "iana" : 1
          }
       },
+      "rsk" : {
+         "Description" : [
+            "Ruthenian",
+            "Rusyn"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "rsl" : {
          "Description" : [
             "Russian Sign Language"
@@ -64237,6 +64516,15 @@
             "Miriwoong Sign Language"
          ],
          "_added" : "2016-05-30",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "rsn" : {
+         "Description" : [
+            "Rwandan Sign Language"
+         ],
+         "_added" : "2022-02-25",
          "_registry" : {
             "iana" : 1
          }
@@ -67050,6 +67338,8 @@
             "Sama"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "kmb",
          "_registry" : {
             "iana" : 1
          }
@@ -67251,6 +67541,8 @@
             "Sebuyau"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "iba",
          "_registry" : {
             "iana" : 1
          }
@@ -72464,6 +72756,15 @@
             "iana" : 1
          }
       },
+      "tok" : {
+         "Description" : [
+            "Toki Pona"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "tol" : {
          "Description" : [
             "Tolowa"
@@ -73087,6 +73388,8 @@
       },
       "trv" : {
          "Description" : [
+            "Sediq",
+            "Seediq",
             "Taroko"
          ],
          "_added" : "2009-07-29",
@@ -74735,6 +75038,15 @@
             "iana" : 1
          }
       },
+      "ugh" : {
+         "Description" : [
+            "Kubachi"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "ugn" : {
          "Description" : [
             "Ugandan Sign Language"
@@ -75299,6 +75611,15 @@
             "iana" : 1
          }
       },
+      "uon" : {
+         "Description" : [
+            "Kulon"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "upi" : {
          "Description" : [
             "Umeda"
@@ -75667,10 +75988,14 @@
          }
       },
       "uun" : {
+         "Comments" : [
+            "see pzh, uon"
+         ],
          "Description" : [
             "Kulon-Pazeh"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -77097,6 +77422,15 @@
             "iana" : 1
          }
       },
+      "wdt" : {
+         "Description" : [
+            "Wendat"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "wdu" : {
          "Description" : [
             "Wadjigu"
@@ -78244,6 +78578,7 @@
             "Warduji"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -78713,10 +79048,14 @@
          }
       },
       "wya" : {
+         "Comments" : [
+            "see wdt, wyn"
+         ],
          "Description" : [
             "Wyandot"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -78744,6 +79083,15 @@
             "Wymysorys"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "wyn" : {
+         "Description" : [
+            "Wyandot"
+         ],
+         "_added" : "2022-02-25",
          "_registry" : {
             "iana" : 1
          }
@@ -79294,6 +79642,15 @@
             "iana" : 1
          }
       },
+      "xdq" : {
+         "Description" : [
+            "Kaitag"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "xdy" : {
          "Description" : [
             "Malayic Dayak"
@@ -79561,6 +79918,15 @@
             "iana" : 1
          }
       },
+      "xhm" : {
+         "Description" : [
+            "Middle Khmer (1400 to 1850 CE)"
+         ],
+         "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "xhr" : {
          "Description" : [
             "Hernican"
@@ -79802,6 +80168,7 @@
       },
       "xkk" : {
          "Description" : [
+            "Kachok",
             "Kaco'"
          ],
          "_added" : "2009-07-29",
@@ -80256,6 +80623,7 @@
       },
       "xmx" : {
          "Description" : [
+            "Salawati",
             "Maden"
          ],
          "_added" : "2009-07-29",
@@ -84315,6 +84683,16 @@
             "iana" : 1
          }
       },
+      "zcd" : {
+         "Description" : [
+            "Las Delicias Zapotec"
+         ],
+         "_added" : "2022-02-25",
+         "_macro" : "zap",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "zch" : {
          "Description" : [
             "Central Hongshuihe Zhuang"
@@ -87389,6 +87767,16 @@
             "iana" : 1
          }
       },
+      "cq" : {
+         "Description" : [
+            "Sark"
+         ],
+         "_added" : "2023-02-07",
+         "_canon" : "_uppercase",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "cr" : {
          "Description" : [
             "Costa Rica"
@@ -89420,6 +89808,7 @@
       },
       "tr" : {
          "Description" : [
+            "Türkiye",
             "Turkey"
          ],
          "_added" : "2005-10-16",
@@ -90765,6 +91154,16 @@
             "iana" : 1
          }
       },
+      "kawi" : {
+         "Description" : [
+            "Kawi"
+         ],
+         "_added" : "2021-12-24",
+         "_canon" : "_titlecase",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "khar" : {
          "Description" : [
             "Kharoshthi"
@@ -91184,6 +91583,16 @@
             "Burmese"
          ],
          "_added" : "2005-10-16",
+         "_canon" : "_titlecase",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "nagm" : {
+         "Description" : [
+            "Nag Mundari"
+         ],
+         "_added" : "2021-12-24",
          "_canon" : "_titlecase",
          "_registry" : {
             "iana" : 1
@@ -92212,6 +92621,16 @@
             "iana" : 1
          }
       },
+      "sunu" : {
+         "Description" : [
+            "Sunuwar"
+         ],
+         "_added" : "2021-12-24",
+         "_canon" : "_titlecase",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "sylo" : {
          "Description" : [
             "Syloti Nagri"
@@ -92724,6 +93143,14 @@
             "unicode" : 1
          }
       },
+      "morse" : {
+         "Description" : [
+            "map Unicode to Morse Code encoding"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "nfc" : {
          "Description" : [
             "map string to the Unicode NFC format"
@@ -93159,9 +93586,25 @@
       }
    },
    "t_m0" : {
+      "aethiopi" : {
+         "Description" : [
+            "Encylopedia Aethiopica Transliteration"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "alaloc" : {
          "Description" : [
             "American Library Association-Library of Congress"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "betamets" : {
+         "Description" : [
+            "Beta Maṣāḥǝft Transliteration"
          ],
          "_registry" : {
             "unicode" : 1
@@ -93207,6 +93650,14 @@
             "unicode" : 1
          }
       },
+      "es3842" : {
+         "Description" : [
+            "Ethiopian Standards Agency ES 3842:2014 Ethiopic-Latin Transliteration"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "ewts" : {
          "Description" : [
             "Extended Wylie Transliteration Scheme"
@@ -93223,9 +93674,33 @@
             "unicode" : 1
          }
       },
+      "gurage" : {
+         "Description" : [
+            "Gurage Legacy to Modern Transliteration"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "gutgarts" : {
+         "Description" : [
+            "Yaros Gutgarts Ethiopic-Cyrillic Transliteration"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "iast" : {
          "Description" : [
             "International Alphabet of Sanskrit Transliteration"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "iesjes" : {
+         "Description" : [
+            "IES/JES Amharic Transliteration"
          ],
          "_registry" : {
             "unicode" : 1
@@ -93242,6 +93717,14 @@
       "java" : {
          "Description" : [
             "for hex transforms, using the Java syntax: \u005Cu0061\u005CuD83D\u005CuDCD6"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "lambdin" : {
+         "Description" : [
+            "Thomas Oden Lambdin Ethiopic-Latin Transliteration"
          ],
          "_registry" : {
             "unicode" : 1
@@ -93303,6 +93786,22 @@
             "unicode" : 1
          }
       },
+      "sera" : {
+         "Description" : [
+            "System for Ethiopic Representation in ASCII"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "tekieali" : {
+         "Description" : [
+            "Tekie Alibekit Blin-Latin Transliteration"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "ungegn" : {
          "Description" : [
             "United Nations Group of Experts on Geographical Names"
@@ -93314,6 +93813,14 @@
       "unicode" : {
          "Description" : [
             "to hex with the Unicode syntax: U\u002B0061 U\u002B1F4D6, spacing where necessary"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "xaleget" : {
+         "Description" : [
+            "Eritrean Ministry of Education Blin-Latin Transliteration"
          ],
          "_registry" : {
             "unicode" : 1
@@ -93356,6 +93863,14 @@
       "hex" : {
          "Description" : [
             "map characters from hex equivalents, trying all variants, eg 'U\u002B0061' to 'a'; for hex variants see transform.xml"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "morse" : {
+         "Description" : [
+            "map Morse Code to Unicode encoding"
          ],
          "_registry" : {
             "unicode" : 1
@@ -95518,6 +96033,14 @@
             "unicode" : 1
          }
       },
+      "sle" : {
+         "Description" : [
+            "Sierra Leonean New Leone"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "sll" : {
          "Description" : [
             "Sierra Leonean Leone"
@@ -95809,6 +96332,14 @@
       "veb" : {
          "Description" : [
             "Venezuelan Bolívar (1871-2008)"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "ved" : {
+         "Description" : [
+            "Bolívar Soberano"
          ],
          "_registry" : {
             "unicode" : 1
@@ -96494,6 +97025,14 @@
             "unicode" : 1
          }
       },
+      "mu" : {
+         "Description" : [
+            "Allows setting overrides for measurement units. Currently limited to quantity=temperature, and no provision for usage or size."
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "nu" : {
          "Description" : [
             "Numbering system type key"
@@ -97036,6 +97575,14 @@
          "_registry" : {
             "unicode" : 1
          }
+      },
+      "phrase" : {
+         "Description" : [
+            "Prioritize keeping natural phrases (of multiple words) together when breaking, used in short text like title and headline"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
       }
    },
    "u_ms" : {
@@ -97058,6 +97605,32 @@
       "ussystem" : {
          "Description" : [
             "US System of measurement: feet, pints, etc.; pints are 16oz"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      }
+   },
+   "u_mu" : {
+      "celsius" : {
+         "Description" : [
+            "temperature unit is Celsius"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "fahrenhe" : {
+         "Description" : [
+            "temperature unit is Fahrenheit"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "kelvin" : {
+         "Description" : [
+            "temperature unit is Kelvin"
          ],
          "_registry" : {
             "unicode" : 1
@@ -97377,6 +97950,14 @@
             "unicode" : 1
          }
       },
+      "kawi" : {
+         "Description" : [
+            "Kawi digits"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "khmr" : {
          "Description" : [
             "Khmer digits"
@@ -97540,6 +98121,14 @@
       "mymrtlng" : {
          "Description" : [
             "Myanmar Tai Laing digits"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
+      "nagm" : {
+         "Description" : [
+            "Nag Mundari digits"
          ],
          "_registry" : {
             "unicode" : 1
@@ -99960,6 +100549,14 @@
             "unicode" : 1
          }
       },
+      "mxcjs" : {
+         "Description" : [
+            "Ciudad Juárez, Mexico"
+         ],
+         "_registry" : {
+            "unicode" : 1
+         }
+      },
       "mxcun" : {
          "Description" : [
             "Cancún, Mexico"
@@ -100842,7 +101439,7 @@
       },
       "trist" : {
          "Description" : [
-            "Istanbul, Turkey"
+            "Istanbul, Türkiye"
          ],
          "_registry" : {
             "unicode" : 1
@@ -100882,7 +101479,7 @@
       },
       "uaiev" : {
          "Description" : [
-            "Kiev, Ukraine"
+            "Kyiv, Ukraine"
          ],
          "_registry" : {
             "unicode" : 1
@@ -102423,6 +103020,32 @@
             "sl-rozaj"
          ],
          "_added" : "2007-08-11",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "ltg1929" : {
+         "Description" : [
+            "The Latgalian language orthography codified in 1929"
+         ],
+         "Prefix" : [
+            "ltg"
+         ],
+         "_added" : "2022-08-05",
+         "_canon" : "ltg1929",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "ltg2007" : {
+         "Description" : [
+            "The Latgalian language orthography codified in the language  law in 2007"
+         ],
+         "Prefix" : [
+            "ltg"
+         ],
+         "_added" : "2022-06-23",
+         "_canon" : "ltg2007",
          "_registry" : {
             "iana" : 1
          }
