@@ -18,7 +18,7 @@ my $Chars;
   my $Leaders = {};
   my $LeaderKeys = [];
   
-  my $rpath = $RootPath->child ("local/cluster-root.json");
+  my $rpath = $RootPath->child ("local/merged-index.json");
   my $root = json_bytes2perl $rpath->slurp;
   my $x = [];
   $x->[0] = 'all';

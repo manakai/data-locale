@@ -8,6 +8,7 @@ region
 region
   name_ja 欧州
   region of ユーラシア
+  region of 欧米
 
 region
   name_ja アジア
@@ -61,6 +62,10 @@ region
 region
   name_ja 北米
   region of 米大陸
+  region of 欧米
+
+region
+  name_ja 欧米
 
 region
   name_ja 中南米
@@ -127,6 +132,14 @@ country
   name_ja アメリカ
   region of 米大陸
 
+region
+  name_en San Francisco
+  region of 米国
+
+region
+  name_en New York
+  region of 米国
+
 country
   name_ja ハワイ
 
@@ -183,6 +196,18 @@ country
   region of 東南アジア
 
 country
+  name_ja マレーシア
+  region of 東南アジア
+
+region
+  name_ja 東マレーシア
+  region of マレーシア
+
+region
+  name_ja マレーシア国サバ州
+  region of 東マレーシア
+
+country
   name_ja インドネシア
   region of 東南アジア
   region of 西太平洋
@@ -190,6 +215,7 @@ country
 region
   name_ja 蘭領東印度
   period of インドネシア
+  region of オランダ
 
 region
   name_ja 南洋
@@ -1351,6 +1377,10 @@ tag
 
 tag
   name_ja Webサイト
+
+tag
+  name_ja Web掲示板
+  group of Webサイト
 
 tag
   name_ja Web日記

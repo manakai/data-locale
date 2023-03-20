@@ -72,6 +72,10 @@ tag 李煜
 
 tag 避諱前元号
 
+&
+name country monarch+
+name 宋太祖趙匡胤建龍
+
 def[峻豐]
 
 AD960 = 1
@@ -195,6 +199,8 @@ tag 江南
 ->干支年 [宋:974-12] #支那改元日{#江南 #李煜} #起事廃元
 <-干支年 宋:975-11-27 #陥落{#北宋, #江南 #李煜} #捕縛
 
+name 開寳
+
 
 [太平興國(丙子)]
 #y~929
@@ -207,6 +213,8 @@ tag 五代
 
 %tag person
 %tag   name_ja 宋太宗
+%tag   &
+%tag   name 太宗匡義
 tag 宋太宗
 
 ## [102]
@@ -397,6 +405,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 真宗
+%tag   &
+%tag   name 真宗恒
 tag 真宗
 
 ## [102]
@@ -572,6 +582,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 仁宗
+%tag   &
+%tag   name 仁宗禎
 tag 仁宗
 
 ## [102]
@@ -670,6 +682,8 @@ name_kana ほう げん
 ## <https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2/%E5%8D%B7010>
 #[寶元][二年春正月]癸丑，趙元昊表請稱帝、改元。
 
+name 寳元
+
 
 [康定]
 #y~1436
@@ -727,6 +741,9 @@ name_kana けい れき
 name_tw 慶厯
 name_cn 慶厯
 
+&
+name country+
+name 皇朝慶厤
 
 
 [得聖]
@@ -915,6 +932,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 趙曙
+%tag   &
+%tag   name 英宗曙
 tag 趙曙
 
 ## [102]
@@ -954,6 +973,8 @@ wref_ja 熙寧
 name_ja 熙寧
 name_kana き ねい
 #<-治平
+
+name 熙寕
 
 ## <https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2/%E5%8D%B7014>
 name 熙甯
@@ -997,6 +1018,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 哲宗
+%tag   &
+%tag   name 哲宗煦
 tag 哲宗
 
 ## [102]
@@ -1081,6 +1104,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 徽宗
+%tag   &
+%tag   name 徽宗佶
 tag 徽宗
 
 ## [102]
@@ -1123,6 +1148,7 @@ name_kana すう ねい
 <-建中靖國 宋:1101-11-庚辰 #年始改元決定{#北宋 #徽宗}
 <-建中靖國 宋:1102-1-1 #年始改元実施{#北宋 #徽宗}
 
+name 崇寕
 
 
 
@@ -1227,6 +1253,7 @@ name_kana せい わ
 <-大觀 宋:1110-11-丁卯 #年始改元決定{#北宋 #徽宗}
 <-大觀 宋:1111-1-1 #年始改元実施{#北宋 #徽宗}
 
+name 正和
 
 [重和]
 #y~1522
@@ -1416,6 +1443,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 高宗
+%tag   &
+%tag   name 高宗構
 tag 高宗
 
 ## [102]

@@ -222,6 +222,7 @@ local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
     src/era-variants.txt \
     intermediate/wikimedia/era-data-*.txt \
     intermediate/wikimedia/wp-*-eras.json \
+    intermediate/x4d/era-data-*.txt \
     data/numbers/kanshi.json \
     intermediate/era-ids.json \
     local/era-yomi-list.json \

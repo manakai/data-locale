@@ -189,8 +189,15 @@ for my $data (values %{$Data->{eras}}) {
                     $prefixes->{$lang}->{$s} = 1;
                   }
                   for my $s1 ((keys %{$prefixes_c->{$lang}}),
-                              (keys %{$prefixes_c->{_}})) {
+                              (keys %{$prefixes_c->{_} or {}})) {
                     for my $s (keys %{$ss->{_names}->{$lang}}) {
+                      $prefixes->{$lang}->{$s1 . $s} = 1;
+                    }
+                  }
+                } # $lang
+                for my $s (keys %{$ss->{_names}->{_} or {}}) {
+                  for my $lang (keys %{$prefixes_c}) {
+                    for my $s1 (keys %{$prefixes_c->{$lang}}) {
                       $prefixes->{$lang}->{$s1 . $s} = 1;
                     }
                   }
@@ -202,7 +209,8 @@ for my $data (values %{$Data->{eras}}) {
         for my $lang (keys %$prefixes) {
           next if $lang eq '_';
           for my $s1 (keys %{$prefixes->{$lang}}) {
-            for my $s3 (keys %{$shorts2->{_names}->{$lang}}) {
+            for my $s3 ((keys %{$shorts2->{_names}->{$lang}}),
+                        (keys %{$shorts2->{_names}->{_}})) {
               $shorts->{names}->{$s1 . $s3} = 1;
             }
           }

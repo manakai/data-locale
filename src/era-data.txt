@@ -1,3 +1,15 @@
+
+## +name era {tag key}       Use the specified tag (of country or person)
+##                           as a tentative era name.
+## +name country {tag key}   Set the specified tag (of country) as one of
+##                           country tags for the era.
+## +name monarch {tag key}   Set the specified tag (of person) as one of
+##                           monarch tags for the era.
+## tag+country {tag key}     Set the primary country tag for the era.
+## tag+monarch {tag key}     Set the primary monarch tag for the era.
+
+
+
 def[unknown]
 #y~1764
 code #18 9
@@ -23,6 +35,10 @@ name(ja) キリスト紀元[き げん]
 name_ja 耶蘇紀元
 &
 name 天主降生
+&
+name 耶訴基理師督降生後
+&
+name 降生後
 &
 name_tw 主後
 &
@@ -128,6 +144,8 @@ code #17 0
 %tag   name_ja キリスト教
 tag 教祖誕生紀年
 
+tag 道教
+
 tag 英国
 tag 英領香港
 tag 中華人民共和国領香港
@@ -176,6 +194,9 @@ tag 欧米系島民
 tag 奄美人
 tag 琉球人
 tag NHK
+
+tag 清
+tag 清末
 
 tag 台湾
 tag 中華民国

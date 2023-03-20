@@ -755,7 +755,7 @@ sub parse_date ($$;%) {
       push @jd, gymd2jd parse_year ($1), $2, $3;
     } elsif ($v =~ s{^j:((?:-|BC|)[0-9]+)-([0-9]+)-([0-9]+)\s*}{}) {
       push @jd, jymd2jd parse_year ($1), $2, $3;
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|東魏|隋|唐|宋|遼|金|元|明|清|中華人民共和国|越南|高句麗|百済|新羅|高麗|李氏朝鮮):((?:-|BC|)[0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|東魏|隋|唐|宋|遼|金|元|明|清|中華人民共和国|越南|高句麗|百済|新羅|高麗|李氏朝鮮|k):((?:-|BC|)[0-9]+)(?:\((\w\w)\)|)-([0-9]+)('|)-([0-9]+)\((\w\w)\)\s*}{}) {
       push @jd, nymmd2jd $1, parse_year ($2), $4, $5, $6;
       push @jd, nymmk2jd $1, parse_year ($2), $4, $5, $7;
       if (defined $3) {
@@ -766,8 +766,11 @@ sub parse_date ($$;%) {
         }
       }
     } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|東魏|隋|唐|宋|遼|金|元|明|清|中華人民共和国|越南|高句麗|百済|新羅|高麗|李氏朝鮮|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)-([0-9]+)\s*}{}) {
-      push @jd, nymmd2jd $1, parse_year ($2), $3, $4, $5;
-    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|東魏|隋|唐|宋|遼|金|元|明|清|中華人民共和国|越南|高句麗|百済|新羅|高麗|李氏朝鮮):((?:-|BC|)[0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
+      my $x = $1;
+      my $y = parse_year ($2);
+      $x = '唐' if $x eq '越南' and $y < 970;
+      push @jd, nymmd2jd $x, $y, $3, $4, $5;
+    } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|東魏|隋|唐|宋|遼|金|元|明|清|中華人民共和国|越南|高句麗|百済|新羅|高麗|李氏朝鮮|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
       push @jd, nymmk2jd $1, parse_year ($2), $3, $4, $5;
     } elsif ($v =~ s{^(史記):((?:-|BC|)[0-9]+)-([0-9]+)('|)-(\w\w)\s*}{}) {
       if ($3 >= 10) {
@@ -776,10 +779,13 @@ sub parse_date ($$;%) {
         push @jd, nymmk2jd '漢', parse_year ($2), $3, $4, $5;
       }
     } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|東魏|隋|唐|宋|遼|金|元|明|清|中華人民共和国|越南|高句麗|百済|新羅|高麗|李氏朝鮮|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)\s*}{}) {
+      my $x = $1;
+      my $y = parse_year ($2);
+      $x = '唐' if $x eq '越南' and $y < 970;
       if ($args{start}) {
-        push @jd, nymmd2jd $1, parse_year ($2), $3, $4, 1;
+        push @jd, nymmd2jd $x, $y, $3, $4, 1;
       } elsif ($args{end}) {
-        push @jd, nymmd2jd $1, parse_year ($2), $3, $4, '末';
+        push @jd, nymmd2jd $x, $y, $3, $4, '末';
       } else {
         die "Bad date |$v| ($all)";
       }
@@ -798,12 +804,26 @@ sub parse_date ($$;%) {
         die "Bad date |$v| ($all)";
       }
     } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|南|北魏|東魏|晋|隋|唐|宋|遼|金|元|明|清|中華人民共和国|越南|高句麗|百済|新羅|高麗|李氏朝鮮|k):((?:-|BC|)[0-9]+)\s*}{}) {
-      if ($args{start}) {
-        push @jd, nymmd2jd $1, parse_year ($2), 1, '', 1;
-      } elsif ($args{end}) {
-        push @jd, -1 + nymmd2jd $1, parse_year ($2) + 1, 1, '', 1;
+      my $x = $1;
+      my $y = parse_year ($2);
+      $x = '?' if $x eq '越南' and $y < 500;
+      $x = '唐' if $x eq '越南' and $y < 970;
+      if ($x eq '?') {
+        if ($args{start}) {
+          push @jd, gymd2jd $y, 1, 1;
+        } elsif ($args{end}) {
+          push @jd, -1 + gymd2jd $y+1, 1, 1;
+        } else {
+          die "Bad date |$v| ($all)";
+        }
       } else {
-        die "Bad date |$v| ($all)";
+        if ($args{start}) {
+          push @jd, nymmd2jd $x, $y, 1, '', 1;
+        } elsif ($args{end}) {
+          push @jd, -1 + nymmd2jd $x, $y + 1, 1, '', 1;
+        } else {
+          die "Bad date |$v| ($all)";
+        }
       }
     } elsif ($v =~ s{^(?:g):(-?[0-9]+)\s*}{}) {
       if ($args{start}) {
@@ -860,8 +880,8 @@ sub parse_date ($$;%) {
       } elsif ($args{end}) {
         push @jd, -1 + gymd2jd $y+1, 1, 1;
       } else {
-          die "Bad date |$v| ($all)";
-        }
+        die "Bad date |$v| ($all)";
+      }
     } else {
       die "Bad date |$v| ($all)";
     }
@@ -973,7 +993,8 @@ for my $tr (@$Input) {
                 $tag->{type} eq 'org' or
                 $tag->{type} eq 'people' or
                 $tag->{type} eq 'religion' or
-                $tag->{type} eq 'source') {
+                $tag->{type} eq 'source' or
+                $tag->{type} eq 'platform') {
               if (defined $tags2) {
                 $x->{subject_tag_ids}->{$tag->{id}} = 1;
                 push @$x_subject_tag_ids, $tag->{id};

@@ -1702,6 +1702,9 @@ name 大朝鮮開國
 name country
 name 大朝鮮
 tag 国名建国紀元
+&
+name country+
+name 朝鮮紀元
 
 <-光緒 g:1894-7-27 #利用開始{#李氏朝鮮 #李㷩} #分離
 

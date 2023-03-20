@@ -34,7 +34,7 @@ my $Data = {};
 
 {
   my $path = $RootPath->child ('src/era-yomi-2.txt');
-  my $X = qr{\p{Hiragana}+(?: \p{Hiragana}+)+};
+  my $X = qr{\p{sc=Hiragana}+(?: \p{sc=Hiragana}+)+};
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
       next;
@@ -88,7 +88,7 @@ my $Data = {};
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
       next;
-    } elsif (/^(\w+) (\p{Hiragana}+)(?:、(\p{Hiragana}+)|)(?:、(\p{Hiragana}+)|)(?: (.+)|)$/) {
+    } elsif (/^(\w+) (\p{sc=Hiragana}+)(?:、(\p{sc=Hiragana}+)|)(?:、(\p{sc=Hiragana}+)|)(?: (.+)|)$/) {
       my $key = $1;
       my $n1 = $2;
       my $n2 = $3;
@@ -100,15 +100,15 @@ my $Data = {};
       $Data->{eras}->{$key}->{6032} = [$n2, $n3] if defined $n3;
       next unless defined $v;
       for (split / /, $v) {
-        if (/^(\p{Hiragana}+)$/) {
+        if (/^(\p{sc=Hiragana}+)$/) {
           push @{$Data->{eras}->{$key}->{6033} ||= []}, $1;
         } elsif (/^([A-Za-z_^~-]+)$/) {
           push @{$Data->{eras}->{$key}->{6034} ||= []}, latin $1;
-        } elsif (/^!(\p{Hiragana}+)$/) {
+        } elsif (/^!(\p{sc=Hiragana}+)$/) {
           push @{$Data->{eras}->{$key}->{6035} ||= []}, $1;
         } elsif (/^!([A-Za-z_^~-]+)$/) {
           push @{$Data->{eras}->{$key}->{6036} ||= []}, latin $1;
-        } elsif (/^[\p{Hiragana}\p{Katakana}\p{Han}]*\p{Han}[\p{Hiragana}\p{Katakana}\p{Han}]*$/) {
+        } elsif (/^[\p{sc=Hiragana}\p{sc=Katakana}\p{sc=Han}]*\p{sc=Han}[\p{sc=Hiragana}\p{sc=Katakana}\p{sc=Han}]*$/) {
           push @{$Data->{eras}->{$key}->{6037} ||= []}, $_;
         } else {
           die "Bad value |$_|";
@@ -128,7 +128,7 @@ my $Data = {};
     } elsif (/^(\w+)( .+)$/) {
       my $key = $1;
       my $v = $2;
-      while ($v =~ s/^ (\p{Hiragana}+)//o) {
+      while ($v =~ s/^ (\p{sc=Hiragana}+)//o) {
         my $n1 = $1;
         push @{$Data->{eras}->{$key}->{6041} ||= []}, $n1;
       }
@@ -140,7 +140,7 @@ my $Data = {};
           NY => 6045,
           K => 6046,
         }->{$1} || die;
-        while ($v =~ s/^ (\p{Hiragana}+)//o) {
+        while ($v =~ s/^ (\p{sc=Hiragana}+)//o) {
           my $n2 = $1;
           push @{$Data->{eras}->{$key}->{$id} ||= []}, $n2;
         }
@@ -162,12 +162,12 @@ my $Data = {};
     } elsif (/^(\w+)( .+)$/) {
       my $key = $1;
       my $v = $2;
-      while ($v =~ s/^ (\p{Hiragana}+)//o) {
+      while ($v =~ s/^ (\p{sc=Hiragana}+)//o) {
         my $n1 = $1;
         push @{$Data->{eras}->{$key}->{6047} ||= []}, $n1;
       }
       while ($v =~ s/^ (\@)//o) {
-        while ($v =~ s/^ (\p{Hiragana}+)//o) {
+        while ($v =~ s/^ (\p{sc=Hiragana}+)//o) {
           my $n2 = $1;
           push @{$Data->{eras}->{$key}->{6048} ||= []}, $n2;
         }
@@ -189,7 +189,7 @@ my $Data = {};
     } elsif (/^(\w+)( .+)$/) {
       my $key = $1;
       my $v = $2;
-      while ($v =~ s/^ (\p{Hiragana}+)//o) {
+      while ($v =~ s/^ (\p{sc=Hiragana}+)//o) {
         my $n1 = $1;
         push @{$Data->{eras}->{$key}->{6049} ||= []}, $n1;
       }
@@ -211,7 +211,7 @@ for my $id (6051) {
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
       #
-    } elsif (/^(.+) (\w+) (\p{Hiragana}+)$/) {
+    } elsif (/^(.+) (\w+) (\p{sc=Hiragana}+)$/) {
       my $key = $2;
       my $n2 = $3;
       for (grep { length } split / /, $1) {
@@ -231,7 +231,7 @@ for my $id (6040, 6062, 6063, 6068, 6069, 6071..6084, 6099) {
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
       #
-    } elsif (/^(\w+)((?: (?:\p{Hiragana}+|[\p{Latin}'-]+))+)$/) {
+    } elsif (/^(\w+)((?: (?:\p{sc=Hiragana}+|[\p{sc=Latin}'-]+))+)$/) {
       my $key = $1;
       for (grep { length } split / /, $2) {
         push @{$Data->{eras}->{$key}->{$id} ||= []}, $_;
@@ -282,7 +282,7 @@ for my $id (6090..6091) {
     } elsif (/^(\w+) (.+)$/) {
       my $key = $1;
       for (split / /, $2, -1) {
-        if (/^\p{Hiragana}+$/) {
+        if (/^\p{sc=Hiragana}+$/) {
           my $v = {};
           #push @{$Data->{eras}->{$key}->{6104} ||= []},
               $v->{kana} = $v->{kana_modern} = $v->{kana_classic} = $_;
@@ -327,7 +327,7 @@ for my $id (6090..6091) {
           push @{$Data->{eras}->{$key}->{$is_ja ? 6104 : 6101} ||= []},
               $v->{kana_classic} = $new;
         }
-        if (@others and $others[0] =~ /^[\p{Latin} ~'-]+$/) {
+        if (@others and $others[0] =~ /^[\p{sc=Latin} ~'-]+$/) {
           my $x = shift @others;
           if ($is_wrong) {
             $x = latin $x;
@@ -341,7 +341,7 @@ for my $id (6090..6091) {
           }
         }
         for (@others) {
-          if (/^[\p{Latin} ~'-]+$/) {
+          if (/^[\p{sc=Latin} ~'-]+$/) {
             if ($is_wrong) {
               my $x = latin $_;
               push @{$Data->{eras}->{$key}->{6108} ||= []}, $x;
@@ -351,7 +351,7 @@ for my $id (6090..6091) {
               push @{$Data->{eras}->{$key}->{6104} ||= []}, $x;
               push @{$v->{latin_others} ||= []}, $x;
             }
-          } elsif (/\p{Han}/) {
+          } elsif (/\p{sc=Han}/) {
             push @{$Data->{eras}->{$key}->{6106} ||= []}, $_;
             push @{$v->{hans} ||= []}, $_;
           } else {
