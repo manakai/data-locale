@@ -1,9 +1,9 @@
 Carp~1.50
 Data::Dumper~2.183
-Encode~3.16
-Exporter~5.74
-Exporter::Lite~0.08
-JSON~4.03
-Path::Tiny~0.118
-Scalar::Util~1.60
+Encode~3.19
+Exporter~5.77
+Exporter::Lite~0.09
+JSON~4.10
+Path::Tiny~0.144
+Scalar::Util~1.63
 Time::Local~1.30
