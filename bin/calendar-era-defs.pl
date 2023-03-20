@@ -260,6 +260,7 @@ for my $path (
   map { path ($_) }
   sort { $a cmp $b } 
   (glob $root_path->child ('src/era-data*.txt')),
+  (glob $root_path->child ('intermediate/x4d/era-data-*.txt')),
   (glob $root_path->child ('intermediate/wikimedia/era-data-*.txt')),
 ) {
   my $key;
@@ -312,8 +313,15 @@ for my $path (
     } elsif (defined $key and /^(unicode)\s+(.+)$/) {
       $Data->{eras}->{$key}->{_LPROPS}->{$1} = $2;
       $Data->{eras}->{$key}->{_LPROPS}->{names}->{$2} = 1;
-    } elsif (defined $key and /^(AD|BC)(-?\d+)\s*=\s*(\d+)$/) {
-      my $g_year = $1 eq 'BC' ? 1 - $2 : $2;
+    } elsif (defined $key and /^(AD|BC|皇紀|皇紀前)(-?\d+)\s*=\s*(\d+)$/) {
+      my $g_year = $2;
+      if ($1 eq 'BC') {
+        $g_year = 1 - $g_year;
+      } elsif ($1 eq '皇紀') {
+        $g_year -= 660;
+      } elsif ($1 eq '皇紀前') {
+        $g_year = 1 - $g_year - 660;
+      }
       my $e_year = $3;
       $Data->{eras}->{$key}->{offset} = $g_year - $e_year;
     } elsif (defined $key and

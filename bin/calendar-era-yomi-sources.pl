@@ -247,14 +247,14 @@ sub get_k_variant ($) {
     my $t = join ' ', map {
       my $x = $_;
       $x =~ s/ //g;
-      $x =~ s{^(\p{Hang})}{
+      $x =~ s{^(\p{sc=Hang})}{
         if ($K2H1->{$1} // $K2H->{$1}) {
           $K2H1->{$1} // $K2H->{$1};
         } else {
           $1;
         }
       }ge;
-      $x =~ s{(?!^)(\p{Hang})}{
+      $x =~ s{(?!^)(\p{sc=Hang})}{
         if ($K2H->{$1}) {
           $K2H->{$1};
         } else {
@@ -264,7 +264,7 @@ sub get_k_variant ($) {
       $x;
     } split /-/, $s;
 
-    while ($t =~ /(\p{Hang})/g) {
+    while ($t =~ /(\p{sc=Hang})/g) {
       warn "No hiragana mapping for |$1|\n"
           unless $NoMap->{$1}++;
     }

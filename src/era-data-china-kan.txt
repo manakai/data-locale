@@ -74,12 +74,14 @@ name_cn 刘邦
 &
 name country monarch
 name_cn 汉刘邦
+name 漢劉邦
 &
-name country monarch+
+name country monarch
 name_tw 漢王劉邦
 name_cn 汉王刘邦
+name 漢王劉邦
 &
-name monarch+
+name country monarch
 name_tw 漢王
 name_cn 汉王
 &
@@ -89,13 +91,13 @@ name_tw 漢高祖劉邦
 name country monarch
 name_tw 漢高帝劉邦
 &
-name country monarch+
+name country monarch
 name_tw 漢王邦
 name_cn 汉王邦
 #name_tw 漢王邦元年
 #name_cn 汉王邦元年
 &
-name monarch+
+name monarch
 name_cn 武安侯刘邦
 
 ## [102]
@@ -594,6 +596,9 @@ name_cn 汉惠帝
 &
 name country monarch
 name_tw 西漢惠帝
+&
+name country monarch
+name 漢惠帝盈
 
 ## [102]
 wref_zh 汉惠帝
@@ -642,6 +647,12 @@ name_tw 高后
 &
 name monarch
 name_ja 高皇后
+&
+name country monarch
+name 漢高后
+&
+name country monarch
+name 漢高后呂雉
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7003>"元年"
 s+
@@ -748,6 +759,9 @@ name monarch
 name_ja 文帝
 name_tw 文帝
 name_cn 文帝
+&
+name country monarch
+name 漢文帝恒
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7004>"即天子位"
 <-呂后,後少帝,代王劉恒 漢:BC180-9'-29(己酉) j:BC180-11-14
@@ -786,6 +800,9 @@ tag 漢文帝
 
 name monarch+
 name_ja 文帝後
+&
+name country monarch+
+name 漢文帝後元
 &
 
 ## [102]
@@ -857,6 +874,13 @@ name_cn 汉景帝前元
 &
 name monarch
 name_ja 景帝
+
+&
+name country monarch
+name 漢景帝
+&
+name country monarch
+name 漢景帝啟
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7005>"即皇帝位"
 <-漢文帝後 漢:BC157-6-丁未 #建元前の即位{#前漢 #漢景帝 #漢皇帝} #秦正
@@ -932,6 +956,9 @@ name_ja 景帝後
 name monarch+
 name_ja 景帝後元
 &
+name country monarch+
+name 漢景帝後元
+&
 
 ## [102]
 wref_zh 汉景帝
@@ -999,6 +1026,13 @@ s+
 name monarch+
 name 孝武建元
 
+&
+name country+
+name 漢建元
+&
+name country monarch+
+name 漢武帝徹建元
+
 &&
 ## [102]
 name_tw 一元
@@ -1029,6 +1063,10 @@ tag 支那皇帝改元後紀年
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"元光元年"
 s+
 
+&
+name country+
+name 漢元光
+
 &&
 ## [102]
 name_tw 二元
@@ -1058,6 +1096,10 @@ tag 支那皇帝改元後紀年
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"元朔元年"
 s+
+
+&
+name country+
+name 漢元朔
 
 &&
 ## [102]
@@ -1094,6 +1136,10 @@ s+
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7064%E4%B8%8B>"元狩"
 s+
 
+&
+name country+
+name 漢元狩
+
 &&
 ## [102]
 name_tw 四元
@@ -1127,6 +1173,10 @@ s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"元鼎�
 s+
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"寶鼎"
 <-元狩 [漢:BC113-6] #鼎祥瑞{#前漢 #漢武帝} #秦正
+
+&
+name country+
+name 漢元鼎
 
 &&
 ## [102]
@@ -1164,6 +1214,10 @@ s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7006>"元封�
 s+
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7025%E4%B8%8A>"元封"
 s+
+
+&
+name country+
+name 漢元封
 
 [太初]
 #y~503
@@ -2673,6 +2727,13 @@ tag 竇融
 >< [漢:29-4,漢:29-6] #連合{#後漢 #光武帝, #竇融}
 #   漢:29-夏
 
+&
+name country+
+name 漢建武
+&
+name country monarch+
+name 漢光武劉秀建武
+
 
 [建武中元]
 #y~869
@@ -3160,6 +3221,13 @@ name_kana えい わ
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B76>"改元永和"
 <-陽嘉 漢:136-1-己巳 #支那改元日{#後漢 #漢順帝}
 
+&
+name country monarch+
+name 漢順帝保永和
+&
+name country+
+name 漢永和
+
 [漢安]
 #y~1029
 AD142 = 1
@@ -3208,6 +3276,10 @@ s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B7
 <-漢安 漢:144-4-辛巳 #支那改元日{#後漢 #漢順帝}
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B76>"帝崩於玉堂前殿"
 ->永憙 漢:144-8-庚午 #改元前の死去{#後漢 #漢順帝}
+
+&
+name country+
+name 漢建康
 
 def[馬勉]
 #y~1908
@@ -3400,6 +3472,10 @@ name_kana げん か
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B77>"改元元嘉"
 <-和平 漢:151-1-癸酉 #支那改元日{#後漢 #漢桓帝}
 
+&
+name country monarch+
+name 漢桓帝志元嘉
+
 [永興]
 #y~801
 AD153 = 1
@@ -3469,6 +3545,10 @@ name_kana えん き
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B77>"改元延熹"
 name 延熹
 <-永壽 漢:158-6-戊寅 #支那改元日{#後漢 #漢桓帝}
+
+&
+name country+
+name 漢延熹
 
 [永康]
 #y~465
@@ -3571,6 +3651,13 @@ name_kana こう わ
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B78>"改元光和"
 <-熹平 漢:178-3-辛丑 #支那改元日{#後漢 #漢霊帝}
 
+&
+name country+
+name 漢光和
+&
+name country monarch+
+name 漢靈帝宏光和
+
 %tag tag
 %tag   name_ja 漢末
 %tag   period of 魏晋南北朝時代
@@ -3659,6 +3746,10 @@ s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B7
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B771>"以黃巾既平"
 #"以黃巾既平，故改年為中平。"
 <-光和 [漢:184-10] #鎮圧{#後漢, #黄巾党} #事由 #黄巾の乱
+
+&
+name country+
+name 漢中平
 
 %tag country
 %tag   name_ja 公孫氏政権
@@ -3879,6 +3970,14 @@ u 25-3
 tag 蜀漢
 u 26
 
+&
+name country+
+name 漢建安
+&
+name country monarch+
+name 漢獻帝協建安
+
+
 
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B79>"改元建安"
 <-興平 漢:196-1-癸酉 #支那改元日{#後漢 #献帝}
@@ -4069,6 +4168,13 @@ s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B7
 ## <https://ja.wikipedia.org/wiki/%E5%8A%89%E7%A6%85>
 <-章武 漢:223-4-24 j:223-6-10 #建元前の即位{#蜀漢 #劉禅 #漢皇帝}
 
+&
+name country+
+name 漢建興
+&
+name country monarch+
+name 漢後主禪建興
+
 [延熙]
 #y~226
 AD238 = 1
@@ -4148,3 +4254,7 @@ s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B7
 
 ## <https://ja.wikipedia.org/wiki/%E5%8A%89%E7%A6%85>
 ->景元 漢:263-11-6 j:263-12-23 #陥落{#曹魏, #蜀漢 #劉禅}
+
+&
+name country+
+name 漢炎興

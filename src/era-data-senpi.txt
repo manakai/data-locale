@@ -8005,6 +8005,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 楊堅
+%tag   &
+%tag   name 文帝楊堅
 tag 楊堅
 
 ## [102]
@@ -8069,6 +8071,16 @@ tag 陳叔宝
 tag 交州
 tag 前李朝
 
+## <https://zh.wikipedia.org/wiki/%E6%9D%8E%E4%BD%9B%E5%AD%90>
+#"隋文帝於601年詔令境內建造佛塔及安奉舍利，交州地區亦有執行。
+#據銘文資料記載：「維大隋仁壽元年歲次辛酉十月，辛亥朔十五乙丑，
+#皇帝普為一切法界幽顯生靈，謹於交州龍編縣禪眾寺奉安舍利，敬造佛塔。」"
+u 1-10-15(乙丑)
+
+&
+name country monarch+
+name 隋文帝楊堅仁壽
+
 
 [大業]
 #y~1682
@@ -8082,6 +8094,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 煬帝
+%tag   &
+%tag   name 煬帝廣
 tag 煬帝
 
 s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B722>"號年曰大業"
@@ -8356,6 +8370,8 @@ tag 隋末唐初
 
 %tag person
 %tag   name_ja 李淵
+%tag   &
+%tag   name 髙祖李渊
 tag 李淵
 
 ## [102]
@@ -8396,6 +8412,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 李世民
+%tag   &
+%tag   name 太宗世民
 tag 李世民
 
 ## [102]
@@ -8837,6 +8855,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 唐中宗
+%tag   &
+%tag   name 中宗哲
 tag 唐中宗
 
 ## [102]
@@ -9822,6 +9842,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 玄宗
+%tag   &
+%tag   name 玄宗隆基
 tag 玄宗
 
 ## [102]
@@ -9917,6 +9939,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 粛宗
+%tag   &
+%tag   name 肅宗亨
 tag 粛宗
 
 ## [102]
@@ -10134,6 +10158,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 代宗
+%tag   &
+%tag   name 代宗豫
 tag 代宗
 
 ## [102]
@@ -10288,6 +10314,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 唐徳宗
+%tag   &
+%tag   name 德宗适
 tag 唐徳宗
 
 ## [102]
@@ -10386,6 +10414,8 @@ tag 順宗
 
 %tag person
 %tag   name_ja 唐憲宗
+%tag   &
+%tag   name 憲宗純
 tag 唐憲宗
 
 ## [102]
@@ -10468,6 +10498,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 唐穆宗
+%tag   &
+%tag   name 穆宗恒
 tag 唐穆宗
 
 ## [102]
@@ -10533,6 +10565,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 唐文宗
+%tag   &
+%tag   name 文宗涵
 tag 唐文宗
 
 ## [102]
@@ -10559,6 +10593,10 @@ sw 太和
 ## [102]
 name_tw 太和
 name_cn 太和
+
+&
+name country monarch+
+name 唐文宗涵太和
 
 [開成]
 #y~94
@@ -10599,6 +10637,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 唐武宗
+%tag   &
+%tag   name 武宗炎
 tag 唐武宗
 
 ## [102]
@@ -10632,6 +10672,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 宣宗
+%tag   &
+%tag   name 宣宗忱
 tag 宣宗
 
 ## [102]
@@ -10666,6 +10708,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 懿宗
+%tag   &
+%tag   name 懿宗漼
 tag 懿宗
 
 ## [102]
@@ -10698,6 +10742,8 @@ tag 五代
 
 %tag person
 %tag   name_ja 僖宗
+%tag   &
+%tag   name 僖宗儼
 tag 僖宗
 
 ## [102]
@@ -11337,7 +11383,14 @@ s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7
 
 %tag person
 %tag   name_ja 唐哀帝
+%tag   &
+%tag   name 哀帝祝
 tag 唐哀帝
+tag+monarch 唐哀帝
+
+&
+name country monarch+
+name 唐哀帝祝天祐
 
 ->開平 唐:907-3-27(甲辰) j:907-5-12 #改元前の退位{#李唐 #唐哀帝 #唐皇帝}
     #禅譲 #朱梁
@@ -11417,7 +11470,10 @@ tag 南漢
 
 %tag country
 %tag   name_tw 朱梁
+%tag   &
 %tag   name_ja 後梁
+%tag   &
+%tag   name 梁
 %tag   period of 梁
 %tag   period of 中国
 %tag   group of 五代
@@ -11438,6 +11494,8 @@ tag 後梁の公年号
 
 %tag person
 %tag   name_ja 朱全忠
+%tag   &
+%tag   name 太祖朱全忠更名晃
 tag 朱全忠
 
 s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B73>"即位"
@@ -11523,6 +11581,8 @@ tag 朱全忠
 
 %tag person
 %tag   name_ja 朱友貞
+%tag   &
+%tag   name 末帝友貞更名頊
 tag 朱友貞
 
 s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B76>"為乾化"
@@ -11792,12 +11852,13 @@ name(kr) 용덕
 
 
 %tag country
-%tag   name_ja 李克用政権
+%tag   label_ja 李克用政権
 %tag   period of 五代
 %tag   period of 中国
 
 %tag country
 %tag   label_ja 晋 (李克用)
+%tag   &
 %tag   name_ja 晋
 %tag   period of 晋
 %tag   period of 李克用政権
@@ -11807,6 +11868,7 @@ name(kr) 용덕
 
 %tag country
 %tag   name_ja 後唐
+%tag   &
 %tag   name_ja 唐
 %tag   period of 唐
 %tag   period of 李克用政権
@@ -11834,6 +11896,8 @@ tag 朱梁
 
 %tag person
 %tag   name_ja 李存勗
+%tag   &
+%tag   name 荘宗李存朂
 tag 李存勗
 
 s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B729>"同光元年"
@@ -11899,6 +11963,8 @@ tag 後唐の公年号
 
 %tag person
 %tag   name_ja 李嗣源
+%tag   &
+%tag   name 明宗嗣原
 tag 李嗣源
 
 s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B736>"即皇帝位"
@@ -12093,6 +12159,8 @@ tag 後唐の公年号
 
 %tag person
 %tag   name_ja 李従珂
+%tag   &
+%tag   name 廢帝從珂
 tag 李従珂
 
 s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B745>"四月三日"
@@ -12101,9 +12169,9 @@ s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%
 <-應順 唐:934-4-癸酉 #改元前の退位{#後唐 #唐皇帝 #李従厚}
 <-應順 唐:934-4-甲戌 #建元前の即位{#後唐 #唐皇帝 #李従珂}
 s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B746>"為清泰元年"
-<-應順 唐:934-4-乙酉 #支那改元詔{#後唐 #李従厚}
+<-應順 唐:934-4-乙酉 #支那改元詔{#後唐 #李従珂}
 s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B746>"年五十二"
-->天福(丙申) 唐:936-11'-辛巳 #陥落{#後晋, #後唐 #李従厚} #死去
+->天福(丙申) 唐:936-11'-辛巳 #陥落{#後晋, #後唐 #李従珂} #死去
 
 ## [102]
 #934-4 - 936-11'
@@ -12132,7 +12200,7 @@ name_kana せい たい
 ## <https://ja.wikipedia.org/wiki/%E6%9D%8E%E5%BE%93%E7%8F%82>
 #<-應順 唐:934-4-6 j:934-5-21 #建元前の即位{#後唐 #唐皇帝 #李従珂}
 ## <https://ja.wikipedia.org/wiki/%E6%9D%8E%E5%BE%93%E7%8F%82>
-#->天福(丙申) 唐:936-11'-辛巳 #陥落{#後晋, #後唐 #李従厚} #死去
+#->天福(丙申) 唐:936-11'-辛巳 #陥落{#後晋, #後唐 #李従珂} #死去
 
 ## <https://zh-yue.wikipedia.org/wiki/%E6%B8%85%E6%B3%B0>
 #934 - 936
@@ -12149,6 +12217,8 @@ u 5-2-10
 
 %tag country
 %tag   name_ja 後晋
+%tag   &
+%tag   name 晋
 %tag   period of 晋
 %tag   period of 五代
 %tag   period of 中国
@@ -12174,6 +12244,8 @@ tag 契丹国
 
 %tag person
 %tag   name_ja 石敬瑭
+%tag   &
+%tag   name 髙祖石敬塘
 tag 石敬瑭
 
 s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B775>"三年五月"
@@ -12252,6 +12324,10 @@ s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%
 s+
 u 13
 
+&
+name country monarch+
+name 後漢髙祖劉知遠仍稱晋天福
+
 [開運]
 #y~450
 
@@ -12268,6 +12344,8 @@ tag 契丹国
 
 %tag person
 %tag   name_ja 石重貴
+%tag   &
+%tag   name 齊王重貴
 tag 石重貴
 
 s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B781>"即皇帝位"
@@ -12322,6 +12400,10 @@ tag 敦煌
 tag 帰義軍
 u 2-12
 
+&
+name country monarch+
+name 晋齊王重貴開運
+
 %tag country
 %tag   label_ja 五代漢
 %tag   name_ja 漢
@@ -12331,8 +12413,10 @@ u 2-12
 
 %tag country
 %tag   label_ja 五代後漢
+%tag   &
 %tag   name_ja 漢
-%tag   label_ja 後漢
+%tag   &
+%tag   name_ja 後漢
 %tag   period of 五代漢
 %tag   period of 五代
 %tag   period of 中国
@@ -12471,6 +12555,10 @@ tag 遼
 ## <https://www.kansai-u.ac.jp/Tozaiken/publication/asset/bulletin/46/kiyo4619.pdf#page=15>
 u 9
 
+&
+name country monarch+
+name 漢隱帝承祐仍稱乾祐
+
 [天會]
 #y~774
 
@@ -12592,6 +12680,8 @@ name(kr) 광운
 
 %tag country
 %tag   name_ja 後周
+%tag   &
+%tag   name 周
 %tag   period of 周
 %tag   period of 五代
 %tag   period of 中国
@@ -12614,6 +12704,8 @@ tag 後周の公年号
 
 %tag person
 %tag   name_ja 郭威
+%tag   &
+%tag   name 太祖郭威
 tag 郭威
 
 s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7103>"踐阼"
@@ -12657,15 +12749,15 @@ tag 沙陀族
 tag 後周
 tag 後周の公年号
 
-tag 郭威
++name monarch 郭威
 
 %tag person
 %tag   name_ja 柴栄
-tag 柴栄
+%tag   &
+%tag   name 世宗柴榮
++name monarch 柴栄
 
-%tag person
-%tag   name_ja 柴宗訓
-tag 柴宗訓
++name monarch 柴宗訓
 
 s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7113>"顯德元年"
 <-廣順 唐:954-1-1(丙子) #支那改元詔{#後周 #郭威}
@@ -12675,14 +12767,15 @@ s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%
 #>< 唐:954-1-17(壬辰) #死去{#後周 #郭威}
 >< 唐:954-1-21(丙申) #即位{#後周 #柴栄 #周皇帝}
 s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7119>"崩"
->< 唐:959-6-19(癸巳) #死去{#後周 #柴栄}
+->柴宗訓 唐:959-6-19(癸巳) #改元前の死去{#後周 #柴栄}
 >< 唐:959-6-20(甲午) #即位{#後周 #柴宗訓 #周皇帝}
+->柴宗訓 唐:959-6-20(甲午) #建元前の即位{#後周 #柴宗訓 #周皇帝}
 s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7120>"即皇帝位"
 #>< 唐:959-6-19(癸巳) #死去{#後周 #柴栄}
 #>< 唐:959-6-20(甲午) #即位{#後周 #柴宗訓 #周皇帝}
 s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B7120>"顯德七年"
-->建隆(庚申) 唐:960-1-癸卯 #改元前の退位{#後周 #柴宗訓 #周皇帝} #趙匡胤 #禅譲
-    #北宋
+->建隆(庚申) <-柴宗訓,顯德 唐:960-1-癸卯 #改元前の退位{#後周 #柴宗訓 #周皇帝}
+    #趙匡胤 #禅譲 #北宋
 #->建隆(庚申) 唐:960-1-癸卯 #建元前の即位{#北宋 #趙匡胤 #宋皇帝} #禅譲 #後周
 tag 趙匡胤
 
@@ -12725,6 +12818,33 @@ name(kr) 현덕
 
 ## <https://zh-yue.wikipedia.org/wiki/%E9%A1%AF%E5%BE%B7>
 #954 - 960
+
+&
+name country monarch+
+name 周世宗柴榮顯德
+
+
+def[柴宗訓]
+
+tag 漢土
+tag 漢民族
+tag 突厥
+tag 沙陀族
+tag 後周
+tag 支那皇帝即位紀年
+
+%tag person
+%tag   name_ja 柴宗訓
+%tag   &
+%tag   name 恭帝
+%tag   &
+%tag   name 恭帝宗訓
+tag 柴宗訓
+
+name country monarch
+name 周恭帝宗訓
+
+AD960 = 1
 
 
 
@@ -13475,14 +13595,17 @@ name(kr) 천덕
 
 %tag country
 %tag   label_ja 大越 (南漢)
+%tag   &
 %tag   name_ja 大越
 %tag   period of 越
 %tag   period of 中国
 
 %tag country
 %tag   label_ja 南漢
+%tag   &
 %tag   name_ja 漢
 %tag   period of 漢
+%tag   period of 越南
 %tag   group of 十国
 %tag   period of 中国
 ## <https://data.suikawiki.org/tag/1933/graph?sequence=1366%2B2081>

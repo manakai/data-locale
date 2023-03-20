@@ -4515,8 +4515,8 @@ name_mn %E1%A0%AC%E1%A0%A1%E1%A0%AA%E1%A0%B2%E1%A0%A6 %E1%A0%B6%E1%A0%A3%E1%A0%B
 ## [158]
 # 1909-01-22
 
-%tag event
-%tag   name_ja 辛亥革命
+%tag tag
+%tag   name 清末
 
 %tag law
 %tag   name_ja 宣統帝退位詔書
