@@ -206,6 +206,9 @@ name monarch
 name_tw 窩闊台汗
 name_cn 窝阔台汗
 &
+name country monarch
+name 元太宗窩闊台
+&
 name monarch
 name 斡哥歹汗
 &
@@ -301,6 +304,9 @@ name_cn 贵由汗
 &
 name country monarch
 name_cn 蒙古贵由大汗
+&
+name country monarch
+name 元定宗貴由
 
 s#元史<https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7002>"元年丙午"
 s+
@@ -399,6 +405,9 @@ name 元憲宗
 &
 name country monarch
 name_cn 元宪宗蒙哥汗
+&
+name country monarch
+name 元憲宗蒙哥
 
 s#元史<https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7003>"元年辛亥"
 s+
@@ -442,6 +451,8 @@ tag 満州
 %tag person
 %tag   name_ja フビライ
 %tag   name_ja クビライ
+%tag   &
+%tag   name 世祖忽必烈
 tag フビライ
 
 s#元史<https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7004>"中統元年"
@@ -466,6 +477,8 @@ u 5-8-16
 
 ## <https://baike.baidu.com/item/%E4%B8%AD%E7%BB%9F/19140493>
 #元1260-5 - 1264-7
+
+name 中綂
 
 [至元]
 #y~1082
@@ -534,6 +547,8 @@ tag 元領澎湖諸島
 
 %tag person
 %tag   name_ja テムル
+%tag   &
+%tag   name 成宗鐵木耳
 tag テムル
 
 ## [102]
@@ -605,6 +620,8 @@ tag 元領澎湖諸島
 
 %tag person
 %tag   name_ja カイシャン
+%tag   &
+%tag   name 武宗海山
 tag カイシャン
 
 ## [102]
@@ -643,6 +660,8 @@ tag 元領澎湖諸島
 
 %tag person
 %tag   name_ja アユルバルワダ
+%tag   &
+%tag   name 仁宗愛育黎拔力八達
 tag アユルバルワダ
 
 ## [102]
@@ -714,6 +733,8 @@ tag 元領澎湖諸島
 
 %tag person
 %tag   name_ja シデバラ
+%tag   &
+%tag   name 英宗碩德八剌
 tag シデバラ
 
 ## [102]
@@ -898,7 +919,10 @@ tag 元領澎湖諸島
 
 %tag person
 %tag   name_ja トクテムル
+%tag   &
 %tag   name_ja 文宗
+%tag   &
+%tag   name 文宗圖帖睦爾
 tag トクテムル
 
 ## [102]
@@ -929,6 +953,9 @@ s#元史<https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7033>"帝復�
 >< 元:1329-8-15(己亥) j:1329-9-8 #即位{#元 #トクテムル #支那皇帝}
     #天暦の内乱 #重祚
 
+&
+## <https://ja.wikisource.org/wiki/zh:%E5%A4%A7%E8%B6%8A%E5%8F%B2%E8%A8%98%E5%85%A8%E6%9B%B8/%E6%9C%AC%E7%B4%80%E5%8D%B7%E4%B9%8B%E5%85%AD>
+name 大曆
 
 [至順]
 #y~1605
@@ -997,6 +1024,8 @@ tag 元領澎湖諸島
 
 %tag person
 %tag   name_ja トゴンテムル
+%tag   &
+%tag   name 順帝妥懽帖睦兒
 tag トゴンテムル
 
 ## [102]

@@ -466,6 +466,7 @@ sub year_start_jd ($$) {
   }
 
   if ($tag_ids->{1003} and # 日本
+      not $tag_ids->{6037} and # 農暦
       not $tag_ids->{1344}) { # グレゴリオ暦
     my $g = k2g_undef ymmd2string $y, 1, 0, 1;
     if (defined $g) {
@@ -645,6 +646,7 @@ sub ssday ($$) {
     $day->{kyuureki} = $k if defined $k;
     #// die "No kyuureki date for ($y, $m, $d)";
     if (not $tag_ids->{1344} and # グレゴリオ暦
+        not $tag_ids->{6037} and # 農暦
         defined $k and $k =~ m{^(-?[0-9]+)}) {
       die "($y, $m, $d) [$k]$1, $day->{year}; ", (perl2json_bytes $tag_ids),
           Carp::longmess

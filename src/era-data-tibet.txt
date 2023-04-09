@@ -4304,6 +4304,9 @@ name_ja 聖徳
 
 <-廣平 [唐:968] #支那改元日{#前大理 #段思聡} #旧説
 
+## <http://www.hannom.org.vn/detail.asp?param=440&Catid=273>
+name(vi) Thánh Đức
+
 [明政]
 #y~1542
 

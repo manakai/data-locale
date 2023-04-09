@@ -56,7 +56,10 @@ tag 呉 (明)
 
 %tag person
 %tag   name_ja 洪武帝
+%tag   &
 %tag   name_ja 朱元璋
+%tag   &
+%tag   name 太祖朱元璋
 tag 洪武帝
 tag 白蓮教
 
@@ -160,6 +163,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 建文帝
+%tag   &
+%tag   name 太祖
 tag 建文帝
 tag 君主名の元号
 tag 一世一元
@@ -264,6 +269,8 @@ tag 明領越南
 
 %tag person
 %tag   name_ja 永楽帝
+%tag   &
+%tag   name 太宗
 tag 永楽帝
 tag 君主名の元号
 tag 一世一元
@@ -686,7 +693,8 @@ name_ja 元武
 #XXX 避諱 康熙帝 玄燁
 #紀元通考, 葉維庚: "元武"
 
-
+## <http://www.hannom.org.vn/detail.asp?param=440&Catid=273>
+name(vi) Nguyên Vũ
 
 
 
@@ -2773,8 +2781,15 @@ tag 一世一元
 <-隆武,紹武 明:1646-11-18 g:1646-12-24 #年始改元決定{#南明 #永暦帝} #清
 <-隆武,紹武 明:1647-1-1 #年始改元実施{#南明 #永暦帝} #清
 u 1
+u 15
+->康熙 明:1661-12-3 g:1662-1-22 #陥落{#清, #南明 #永暦帝} #捕縛 #ビルマ
+->辛丑後,亡国紀年 明:1661-12-3 g:1662-1-22 #制圧{#清, #南明 #永暦帝} #捕縛
+    #ビルマ #事由 #農暦
 u 16
 ->康熙 明:1662-04-15 g:1662-06-01 #陥落{#清, #南明 #永暦帝} #死去
+
+tag 雲南
+tag ビルマ
 
 %tag person
 %tag   name_ja 鄭成功

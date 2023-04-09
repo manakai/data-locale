@@ -2080,6 +2080,9 @@ s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7011>"帝崩�
 tag 王莽
 tag 新
 
+## <http://www.hannom.org.vn/detail.asp?param=440&Catid=273>
+name(vi) Nguyên Thuỷ
+
 [居攝]
 #y~754
 AD6 = 1
@@ -2939,6 +2942,8 @@ s+
 #永元八年復置廣陽郡，此作『六年』誤也。郡國志〈五〉作『永平八年』，
 #蓋『永元』之誤。」"
 
+tag 古螺
+
 [元興]
 #y~1216
 AD105 = 1
@@ -3037,6 +3042,8 @@ s+
 
 ## <https://twitter.com/BabelStone/status/1447859580105596931>
 pinyin Yǒng|chū
+
+tag 古螺
 
 [元初]
 #y~404
@@ -3173,6 +3180,8 @@ s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B7
 <-延光 漢:125-11-丁巳 #建元前の即位{#後漢 #漢順帝 #漢皇帝}
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B76>"永建元年"
 <-延光 [漢:126] #支那改元日{#後漢 #漢順帝}
+
+tag 省海陽
 
 [陽嘉]
 #y~1236
