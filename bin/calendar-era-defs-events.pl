@@ -1156,6 +1156,19 @@ for my $era (values %{$Data->{eras}}) {
   delete $era->{_TEMP};
 } # era
 
+{
+  for ($RootPath->child ('local/source-era-list.json')) {
+    my $path = path ($_);
+    my $json = json_bytes2perl $path->slurp;
+    for my $data (values %{$json->{eras}}) {
+      my $era = $Data->{eras}->{$data->{key}} // die "Bad era";
+      for (keys %{$data->{tag_keys} or {}}) {
+        set_object_tag $era, $_;
+      }
+    }
+  }
+}
+
 for my $key (sort { $a cmp $b } keys %$EraTags) {
   my $era = $Data->{eras}->{$key};
   for my $tag_key (sort { $a cmp $b } keys %{$EraTags->{$key}}) {

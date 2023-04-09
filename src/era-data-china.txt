@@ -462,6 +462,13 @@
 %tag   group of 改元日
 %tag   group of 適用開始
 
+%tag calendar
+%tag   name 中華式太陰太陽暦
+
+%tag calendar
+%tag   name_ja 農暦
+%tag   group of 中華式太陰太陽暦
+
 %tag position
 %tag   name_ja 支那皇帝
 %tag 
@@ -2477,6 +2484,26 @@ u 2
 皇紀前1484 = 2
 u 11
 
+def[帝堯紀年]
+
+tag 漢土
+tag 漢民族
+tag 清
+tag 清末
+tag 幽霊紀年法
+
+sw 帝堯紀年
+
+name monarch+
+name 帝堯紀年
+&
+name country monarch+
+name 唐堯紀年
+
+tag 堯
+
+BC2156 = 1
+
 
 def[舜]
 
@@ -2533,9 +2560,27 @@ u 10
 #"疑當作「七年」。按：孟子萬章上：「禹薦益於天，七年，禹崩。」"
 u 7
 
-<-舜 [?:BC2070,?:BC1600] #建元前の即位{#夏王朝 #禹 #夏王}
+<-舜 ->禹,夏禹紀年 [?:BC2070,?:BC1600] #建元前の即位{#夏王朝 #禹 #夏王}
 <-舜 [?:BC2070,?:BC1600] #夏称元{#夏王朝 #禹}
 #->启
+
+def[夏禹紀年]
+
+tag 夏王朝
+tag 禹
+
+name country monarch+
+name 夏禹紀年
+&
+name monarch+
+name 大禹紀年
+
+tag 清末
+tag 清
+tag 漢民族
+tag 漢土
+tag 幽霊紀年法
+
 
 def[夏啓]
 
@@ -3831,6 +3876,15 @@ s+
 #"召公、周公二相行政，號曰「共和」。共和十四年，"
 u 14
 
+tag 清
+tag 清末
+tag 章炳麟
+u 2741
+u 2744
+u 2747
+u 2749
+
+u 2855
 
 [宣王]
 wref_zh 周宣王
@@ -3850,6 +3904,8 @@ s+
 u 12
 u 39
 u 46
+
+tag 章炳麟
 
 def[宣王(乙亥)]
 
@@ -8242,6 +8298,7 @@ tag 明
 u 8
 %tag country
 %tag   label_ja 明 (朱明月)
+%tag   &
 %tag   name_ja 明
 %tag   period of 明
 +name country 明 (朱明月)
@@ -8685,11 +8742,23 @@ tag 中華国民軍南軍革命先鋒隊
 ->光緒 [清:1906-12] #清 #中華国民軍南軍革命先鋒隊 #龔春台 #陥落
 
 
+%tag religion
+%tag   name 儒教
+
+%tag person
+%tag   name 孔子
+
 def[孔子卒後]
 
+tag 漢民族
+tag 漢土
+tag 清
 tag 清末
+tag 儒教
+tag 孔子
 
-name 孔子卒後
+name_ja 孔子卒後
+name_cn 孔子卒后
 name_kana こう し そつ ご
 &
 name 孔子卒
@@ -8699,6 +8768,7 @@ name 孔子
 &
 name 孔子紀年
 name_kana こう し き ねん
+name(nan_poj) Khóng-chú kì-liân
 &
 name 孔子紀元
 &
@@ -8707,24 +8777,140 @@ AD1895 = 2373
 wref_ja 孔子紀年
 sw 孔子紀年
 
+%tag person
+%tag   name 康有為
+tag 康有為
+
+%tag source
+%tag   name 強学報
+tag 強学報
+u 2373-11-28
+
+<-光緒 [g:1895,g:1895-11-28] #利用開始{#康有為} #併用 #清
+
+tag 華僑
+tag 蘭領東印度
+
+u 2376
+
+tag 死去紀年
+<-unknown [?:BC479] #死去{#孔子} #事由
+
 def[孔紀]
+#y~1722
 
+tag 漢民族
+tag 漢土
+tag 清
 tag 清末
+tag 儒教
+tag 孔子
 
+%tag person
+%tag   name 梁啓超
+tag 梁啓超
+
+name 孔曆
+name 孔历
+&
 name 孔紀
 name_kana こう き
 &
 name 孔子紀年
 name_kana こう し き ねん
+name(nan_poj) Khóng-chú kì-liân
 &
 name 孔子紀元
 &
+name 孔子生
+&
+name 孔子降誕
+&
+name 孔子
+&
+name 至聖
+&
 name 孔子生後紀年
+&
+name 大成至圣先师孔子纪元
+
 AD1895 = 2446
 wref_ja 孔子紀年
 wref_zh 孔子紀年
 sw 孔子紀年
 
+wref<https://zh-classical.wikipedia.org/wiki/%E5%AD%94%E6%9B%86>
+wref<https://zh-min-nan.wikipedia.org/wiki/Kh%C3%B3ng-ch%C3%BA_k%C3%AC-li%C3%A2n>
+
+# g:1895,
+<-光緒 [g:1898] #利用開始{} #併用 #清
+
+%tag source
+%tag   name 東亜報
+tag 東亜報
+tag 神戸
+u 2449
+
+%tag source
+%tag   name 清議報
+tag 清議報
+#XXXcalendar 農暦
+tag 大日本帝国東京府
+u 2452
+u 2459
+
+tag 大韓帝国
+tag 新聞
+u 2455
+
+tag 日本領朝鮮
+
+tag 華僑
+tag 蘭領東印度
+u 2460
+u 2464
+u 2472
+
+u 2567
+u 2570
+u 2573
+
+tag 中華人民共和国領香港
+tag 中華民国台湾
+tag インドネシア
+tag 中華民国大陸地区
+tag 中華人民共和国
+
+<-unknown ->孔紀,至聖 [?:BC552,?:BC551] #誕生{#孔子} #事由
+tag 誕生紀年
+
+def[至聖]
+
+tag 清
+tag 清末
+tag 華僑
+tag 儒教
+tag 孔子
+tag 蘭領東印度
+tag 誕生紀年
+
+AD1893 = 2443
+
+%tag person
+%tag   name 周平維
+tag 周平維
+tag 上海
+
+name 大成至聖
+&
+name 至聖
+&
+name 大聖
+u 2434
+u 2443
+u 2448
+
+<-光緒 [g:1880,g:1884] #利用開始{#周平維} #儒教 #併用
 
 
 def[黃帝紀元]
@@ -8736,6 +8922,7 @@ tag 黄帝
 tag 漢民族
 tag 漢土
 tag 清末
+tag 初代王朝建国紀元
 
 name monarch+
 name_tw 黃帝紀元
@@ -8754,6 +8941,9 @@ name 大汉黄帝紀元
 &
 name country monarch+
 name 中華黄帝紀元
+&
+name monarch
+name 黄帝
 &
 name monarch+
 name_ja 黄紀
@@ -8828,6 +9018,7 @@ u 4710
 u 4721
 
 tag 中華人民共和国
+tag 中華民国大陸地区
 %tag person
 %tag   name 许文胜
 tag 许文胜
@@ -8846,6 +9037,7 @@ tag 黄帝
 tag 漢民族
 tag 漢土
 tag 清末
+tag 教祖誕生紀年
 
 name monarch+
 name 黄帝降生
@@ -8881,6 +9073,8 @@ tag 清末
 #XXXcalendar 農暦
 
 <-光緒 清:1903-5'-17 #利用開始{#劉師培} #清
+
+tag 章炳麟
 
 &
 name monarch+
@@ -8929,6 +9123,8 @@ AD1903 = 4394
 #XXXcalendar 農暦
 u 4394-5-28
 u 4394-6-1
+
+tag 章炳麟
 
 <-光緒 清:1903-5-28 #利用開始{#江蘇} #清 #大日本帝国東京府 #分離
 
@@ -8983,6 +9179,7 @@ def[黄帝甲子紀年]
 
 sw 黄帝紀元
 tag 黄帝
+tag 宗教創設紀年
 
 tag 漢民族
 tag 漢土
@@ -9053,11 +9250,13 @@ u 4720
 #XXXcalendar 農暦
 tag 中華人民共和国
 tag 中華人民共和国領香港
+tag 中華民国大陸地区
 tag 中華民国台湾
 tag マレーシア国サバ州
 tag 華僑
 &
 name 道󠄃曆紀元
+tag 宗教創設紀年
 
 tag Webサイト
 tag 欧米
@@ -9106,9 +9305,13 @@ tag 漢土
 
 %tag tag
 %tag   name 粥会
+%tag org
+%tag   name 中華粥会
 tag 粥会
+tag 中華粥会
 tag 中華民国台湾
 tag 中華人民共和国
+tag 中華民国大陸地区
 
 u 4999
 u 5014
@@ -9125,6 +9328,8 @@ name 黃帝紀元粥曆
 &
 name monarch+
 name(cn) 黄帝纪元(粥历)
+
+<-民國 [g:1924,g:2006-6] #利用開始{#中華粥会} #中華民国 #漢民族 #分離
 
 def[道曆黃帝紀元]
 #y~3798
@@ -9144,6 +9349,7 @@ u 4653
 u 4721-5-14
 tag 英領香港
 tag 中華民国台湾
+tag 宗教創設紀年
 
 name monarch+
 name 道曆黃帝紀元
@@ -9154,24 +9360,100 @@ name 黃帝紀元道暦
 name 道暦
 
 
-
-def[帝堯紀年]
-name monarch+
-name 帝堯紀年
-name 唐堯紀年
-sw 帝堯紀年
-
-def[夏禹紀年]
-name monarch+
-name 夏禹紀年
-
 def[秦統一紀年]
+
+tag 漢土
+tag 漢民族
+tag 清
+tag 清末
+tag 幽霊紀年法
+tag 秦帝国
+tag 始皇帝
+tag 初代王朝建国紀元
+
 name country+
 name 秦統一紀年
 
-def[亡国紀年]
-name 亡国紀年
+BC221 = 1
 
+
+def[亡国紀年]
+
+sw 辛丑後
+
+tag 漢土
+tag 漢民族
+tag 清
+tag 清末
+tag 南明
+tag 干支元号名
+tag 日本の私年号
+tag 清の私年号
+tag 空位紀元
+
+%tag person
+%tag   name 章炳麟
+%tag   &
+%tag   name 章太炎
+tag 章炳麟
+
+%tag source
+%tag   name 訄書
+tag 訄書
+tag 大日本帝国東京府
+u 238-12
+u 240
+
+%tag org
+%tag   name 支那亡国二百四十二年紀念会
+tag 支那亡国二百四十二年紀念会
+tag 大日本帝国東京府
+u 242
+
+name 辛丑後
+&
+name country+
+name 皇漢辛丑後
+
+AD1902 = 242
+
+<-光緒 [清:1898-12] #利用開始{#章炳麟 #訄書} #分離 #農暦
+->共和 <-亡国紀年,辛丑後 [清:1900,清:1900-7] #利用開始{#章炳麟 #訄書} #農暦
+
+def[辛丑後]
+#y~3806
+
+<-亡国紀年 g:1954-4-30 #年旧説発生{} #日本
+
+sw 辛丑後
+
+tag 漢土
+tag 漢民族
+tag 清
+tag 清末
+tag 南明
+tag 干支元号名
+tag 空位紀元
+
+tag 章炳麟
+
+tag 訄書
+tag 大日本帝国東京府
+u 238-12
+u 240
+
+tag 支那亡国二百四十二年紀念会
+tag 大日本帝国東京府
+u 242
+
+name 辛丑後
+&
+name country+
+name 皇漢辛丑後
+
+AD1899 = 238
+
+<-光緒 [清:1899-12] #利用開始{#章炳麟 #訄書} #分離 #農暦 #旧説
 
 
 def[民國]
@@ -9185,6 +9467,8 @@ name country
 name_tw 中華民國
 name_cn 中华民国
 name_ja 中華民国
+
+name 中花民國
 
 %tag   &
 %tag   name_en Republic of China
@@ -9392,6 +9676,103 @@ tag 三訂 近代諸元号現象
 #p.11
 
 
+def[天佑]
+
+sw 天佑
+
+tag 中華民国
+tag 漢土
+tag 漢民族
+
+%tag org
+%tag   name 天門會
+tag 天門會
+
+%tag person
+%tag   name 韓明玉
+%tag   &
+%tag   name 天佑帝
+tag 韓明玉
+tag 君主名の元号
+
+name 天佑
+
+AD1928 = 1
+<-民國 [g:1928-3,g:1928-3-18] #建元前の即位{#韓明玉 #支那皇帝} #中華民国
+<-民國 [g:1928-3,g:1928-3-18] #支那改元日{#韓明玉} #中華民国 #起事建元
+->民國 g:1928-3-18 #陥落{#中華民国, #韓明玉} #死去
+
+
+%tag country
+%tag   name 新明国
+%tag   group of 明
+
+%tag religion
+%tag   name 一心天道龍華聖教會
+
+def[黃大]
+
+sw 新明国
+
+tag 新明国
+tag 中華民国
+tag 漢土
+tag 漢民族
+tag 一心天道龍華聖教會
+
+tag 馬士維
+
+name_tw 黃大
+name_cn 黄大
+
+AD1928 = 1
+
+tag 異説
+
+def[熙順]
+
+sw 新明国
+
+tag 新明国
+tag 中華民国
+tag 漢土
+tag 漢民族
+tag 一心天道龍華聖教會
+tag 山東
+
+%tag person
+%tag   name 馬士維
+%tag   name 马士维
+%tag   &
+%tag   name 馬士偉
+%tag   name 马士伟
+tag 馬士維
+
+name_tw 熙順
+name_cn 熙顺
+name 熈順
+
+%tag person
+%tag   name 馬賈氏
+%tag   name 马贾氏
+tag 馬賈氏
+
+%tag person
+%tag   name 馬天成
+%tag   name 马天成
+tag 馬天成
+
+AD1928 = 1
+<-民國 ->黃大,熙順 g:1928-1-15 #建元前の即位{#新明国 #馬士維 #支那皇帝}
+    #中華民国
+<-民國 ->黃大,熙順 g:1928-1-15 #支那改元日{#新明国 #馬士維} #中華民国 #起事建元
+->民國 <-黃大,熙順 [g:1929] #陥落{#中華民国, #新明国 #馬士維}
+>< [g:1929] #即位{#新明国 #摂政 #馬賈氏}
+>< [g:1940] #死去{#新明国 #馬賈氏}
+>< [g:1940] #即位{#新明国 #支那皇帝 #馬天成}
+->民國 [g:1946] #改元前の退位{#新明国 #馬天成}
+
+
 def[大同(己巳)]
 #y~1875
 
@@ -9572,7 +9953,8 @@ tag 国共内戦
 %tag   name_ja 中国人民政治協商会議第一回総会決議
 <-民國 g:1949-9-27 #利用開始{#中華人民共和国
     #中国人民政治協商会議第一回総会決議} #中国共産党 #グレゴリオ暦 #起事建元
-<-民國 g:1949-10-1 #建国{#中華人民共和国} #中国共産党 #グレゴリオ暦 #事由
+<-民國 ->AD,中華人民共和國 g:1949-10-1 #建国{#中華人民共和国} #中国共産党
+    #グレゴリオ暦 #事由
 
 ## <https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%85%B1%E5%86%85%E6%88%A6>
 <-民國 g:1949-10-14 #鎮圧{#中国共産党, #中華民国 #広州} #国共内戦
@@ -9610,6 +9992,30 @@ tag 国共内戦
     #グレゴリオ暦 #事由 #中華人民共和国
 tag 広西
 tag 壮族
+
+def[中華人民共和國]
+
+AD1949 = 1
+
+sw 中華人民共和国建国紀元
+
+tag 中華人民共和国
+tag 漢土
+tag 漢民族
+tag 建国紀元
+tag 中華民国大陸地区
+
+name country
+name_cn 中华人民共和国
+name_ja 中華人民共和国
+&
+name country
+name 新中国
+
+u 1
+u 6
+
+<-民國 [g:1949-10-1,g:1949] #利用開始{} #中華人民共和国 #分離
 
 def[太平(乙丑曽応龍)]
 #y~22
@@ -9897,3 +10303,79 @@ name 香港開埠
 &
 acronym(en) H.K.
 expanded(en) [H]ong [K]ong
+
+
+
+%tag country
+%tag   label_ja 大明 (朱亨朝)
+%tag   &
+%tag   name 大明
+%tag   &
+%tag   name 大明国
+%tag   period of 明
+%tag   period of 中華人民共和国
+
+%tag person
+%tag   name 朱亨朝
+%tag   &
+%tag   name 陈富贵
+%tag   name 陳富貴
+%tag   &
+%tag   name 陈谱
+%tag   name 陳譜
+
+def[聖武(庚寅)]
+
+AD2010 = 1
+
+tag 陝西
+tag 中華人民共和国
+tag 大明 (朱亨朝)
+tag 朱亨朝
+tag マイクロネーションの元号
+tag 中華民国大陸地区
+
+name_cn 圣武
+name_tw 聖武
+
+<-AD g:2010-05-29 #建元前の即位{#大明_(朱亨朝) #朱亨朝}
+    #中華人民共和国 #グレゴリオ暦
+<-AD g:2010-05-29 #支那改元詔{#大明_(朱亨朝) #朱亨朝}
+    #中華人民共和国 #マイクロネーション建元 #グレゴリオ暦
+
+def[興明]
+
+AD2010 = 1
+
+tag 陝西
+tag 中華人民共和国
+tag 大明 (朱亨朝)
+tag 朱亨朝
+tag マイクロネーションの元号
+tag 中華民国大陸地区
+
+name_cn 兴明
+name_tw 興明
+
+<-AD g:2010-07-30 #建元前の即位{#大明_(朱亨朝) #朱亨朝}
+    #中華人民共和国 #グレゴリオ暦
+<-AD g:2010-07-30 #支那改元詔{#大明_(朱亨朝) #朱亨朝}
+    #中華人民共和国 #マイクロネーション建元 #グレゴリオ暦
+
+def[永曆(庚寅)]
+
+AD2011 = 1
+
+tag 陝西
+tag 中華人民共和国
+tag 大明 (朱亨朝)
+tag 朱亨朝
+tag マイクロネーションの元号
+tag 中華民国大陸地区
+
+name_cn 永历
+name_tw 永曆
+
+<-聖武(庚寅),興明 g:2011-1-1 #支那改元日{#大明_(朱亨朝) #朱亨朝}
+    #グレゴリオ暦 #中華人民共和国 #グレゴリオ暦
+    #マイクロネーション改元日

@@ -176,6 +176,10 @@ country
   region of 欧州
 
 country
+  name_ja ビルマ
+  region of 東南アジア
+
+country
   name_ja タイ
   region of 東南アジア
 
@@ -394,6 +398,9 @@ tag
 
 action
   name_ja 死去
+
+tag
+  name_ja 死去紀年
 
 action
   name_ja 改元前の死去
@@ -979,6 +986,15 @@ action
   group of 戦時異動
 
 action
+  name_ja 祝勝
+  group of 制圧
+  group of 事由
+
+action
+  name_ja 復興祈念
+  group of 事由
+
+action
   name_ja 国交断絶
 
 action
@@ -1012,6 +1028,10 @@ action
   group of 祥瑞
 
 action
+  name_ja 黄竜祥瑞
+  group of 竜祥瑞
+
+action
   name_ja 亀祥瑞
   group of 祥瑞
 
@@ -1040,7 +1060,19 @@ action
   group of 祥瑞
 
 action
+  name_ja 白象祥瑞
+  group of 象祥瑞
+
+action
   name_ja 黒兎祥瑞
+  group of 祥瑞
+
+action
+  name_ja 舎利祥瑞
+  group of 祥瑞
+
+action
+  name_ja 誕生祥瑞
   group of 祥瑞
 
 action
@@ -1096,6 +1128,23 @@ tag
   name_ja 旧説
   group of 異説
 
+tag
+  name 幽霊紀年法
+  group of 旧説
+
+tag
+  name 幽霊元号
+  group of 幽霊紀年法
+  group of 元号
+
+action
+  name 幽霊紀年法発生
+  group of 誤伝発生
+
+action
+  name 幽霊元号発生
+  group of 幽霊紀年法発生
+
 action
   name_ja 祭開催
 
@@ -1133,6 +1182,7 @@ action
   name_ja 発生利用開始
   group of 発生
   group of 利用開始
+  group of 分離
 
 action
   name_ja 異説発生利用開始
@@ -1170,6 +1220,10 @@ action
 action
   name_ja 名旧説発生
   group of 名誤伝発生
+
+action
+  name_ja 即位紀年誤認元号発生
+  group of 名旧説発生
 
 action
   name_ja 年名誤伝発生
@@ -1219,6 +1273,9 @@ action
 action
   name_ja グレゴリオ改暦
   group of 改暦
+
+tag
+  name_ja 空位紀元
 
 tag
   name_ja 建国紀元
@@ -1332,6 +1389,9 @@ tag
 tag
   name_ja 属国元号
   group of 元号
+
+source
+  name_ja 欧亜紀元合表
 
 source
   name_ja 近代諸元号現象

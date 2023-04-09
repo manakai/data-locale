@@ -48,8 +48,6 @@
 天成 = 天德(丙子)
 治平 = 天啟(戊戌)
 
-明永暦紀年 = 永曆(丁亥)
-
 ## <https://hiramatu-hifuka.com/onyak/rekisi/nenngo.html>
 #文録 = 文禄
 

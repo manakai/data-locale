@@ -205,12 +205,17 @@ data/calendar/era-labels.json: bin/cleanup.pl \
     local/calendar-era-labels-0.json
 	$(PERL) $< local/calendar-era-labels-0.json > $@
 
+local/source-era-list.json: bin/source-era-list.pl \
+    src/era-list-*.txt \
+    local/calendar-era-labels-0.json
+	$(PERL) $< > $@
+
 data/calendar/era-defs.json: bin/calendar-era-defs-events.pl \
     local/calendar-era-defs-0.json \
     local/era-transitions-0.json \
     local/calendar-era-relations-0.json \
     local/calendar-era-labels-0.json \
-    intermediate/x4d/*.json \
+    local/source-era-list.json \
     data/tags.json
 	$(PERL) $< > $@
 local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
@@ -229,7 +234,8 @@ local/calendar-era-defs-0.json: bin/calendar-era-defs.pl \
     local/era-date-list.json \
     local/cn-ryuukyuu-era-list.json \
     data/tags.json \
-    src/era-ids-1.txt
+    src/era-ids-1.txt \
+    intermediate/x4d/*.json
 	$(PERL) $< > $@
 #intermediate/era-ids.json: data/calendar/era-defs.json
 

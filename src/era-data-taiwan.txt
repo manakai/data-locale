@@ -161,6 +161,8 @@ name(nan_poj) Éng-hô
 %tag   &
 %tag   name_ja 明
 %tag   &
+%tag   name_cn 后明
+%tag   &
 %tag   prefix name 大明
 %tag   period of 明国
 tag 明 (朱一貴)

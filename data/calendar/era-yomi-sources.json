@@ -30365,7 +30365,7 @@
          "key" : "孔子卒後",
          "missing_yomis" : [
          ],
-         "name" : "孔子卒後",
+         "name" : "孔子卒后",
          "start_year" : null,
          "yomis" : {
             "6100" : [
@@ -30398,7 +30398,7 @@
          "key" : "孔紀",
          "missing_yomis" : [
          ],
-         "name" : "孔纪",
+         "name" : "孔历",
          "start_year" : null,
          "yomis" : {
             "6100" : [
@@ -30839,7 +30839,7 @@
          "key" : "復光",
          "missing_yomis" : [
          ],
-         "name" : "復光",
+         "name" : "复光",
          "start_year" : 2008,
          "yomis" : {
             "6100" : [
@@ -59429,13 +59429,16 @@
          "start_year" : 742,
          "yomis" : {
             "6100" : [
-               "てん ぽう"
+               "てん ぽう",
+               "てん ほう"
             ],
             "6102" : [
-               "ten pou"
+               "ten pou",
+               "ten hou"
             ],
             "6103" : [
-               "ten pō"
+               "ten pō",
+               "ten hō"
             ],
             "6104" : [
                "tem pou",

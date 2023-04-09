@@ -294,6 +294,10 @@
 %tag   region of 大阪府
 
 %tag region
+%tag   name_ja 神戸
+%tag   region of 近畿
+
+%tag region
 %tag   name_ja 和歌山県
 %tag   region of 近畿
 %tag   region of 日本国
@@ -552,6 +556,7 @@
 
 %tag calendar
 %tag   name_ja 旧暦
+%tag   group of 中華式太陰太陽暦
 
 %tag tag
 %tag   name_ja 日本の公年号
@@ -595,6 +600,8 @@
 %tag source
 %tag   name_ja 万葉集
 
+%tag source
+%tag   name 日本年号史大事典
 
 [崇神天皇]
 #       戊寅

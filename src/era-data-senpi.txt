@@ -7980,6 +7980,7 @@ tag 私年号 (ウィキペディア)
 
 %tag country
 %tag   name_ja 隋
+%tag   name 陏
 %tag   period of 中国
 
 %tag tag
@@ -8045,6 +8046,8 @@ tag 隋の公年号
 tag 漢土
 tag 漢民族
 
+tag 楊堅
+
 ## [102]
 name_tw 仁壽
 name_cn 仁寿
@@ -8065,21 +8068,20 @@ s#隋書<https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B702>"崩於�
 s#陳書<https://zh.wikisource.org/wiki/%E9%99%B3%E6%9B%B8/%E5%8D%B76>"仁壽"
 tag 陳叔宝
 
+name 仁夀
+#
 ## <https://ja.wikipedia.org/wiki/%E5%89%8D%E6%9D%8E%E6%9C%9D#%E9%9A%8B%E3%81%A8%E3%81%AE%E9%96%A2%E4%BF%82>
 #"銘文「舎利塔銘」には、大隋仁寿元年（601年）10月15日、皇帝によって
 #交州龍編県の禅衆寺に舎利が奉られ、仏塔が建てられたという内容が記されている。"
 tag 交州
 tag 前李朝
-
+#
 ## <https://zh.wikipedia.org/wiki/%E6%9D%8E%E4%BD%9B%E5%AD%90>
 #"隋文帝於601年詔令境內建造佛塔及安奉舍利，交州地區亦有執行。
 #據銘文資料記載：「維大隋仁壽元年歲次辛酉十月，辛亥朔十五乙丑，
 #皇帝普為一切法界幽顯生靈，謹於交州龍編縣禪眾寺奉安舍利，敬造佛塔。」"
 u 1-10-15(乙丑)
 
-&
-name country monarch+
-name 隋文帝楊堅仁壽
 
 
 [大業]
@@ -8143,6 +8145,9 @@ tag 隋末唐初
 
 ## <https://twitter.com/BabelStone/status/1339919441149235204>
 pinyin Dà|yè
+
+u 14-4-8
+tag 九真
 
 [義寧]
 #y~969
@@ -9910,6 +9915,9 @@ name_cn 天宝
 wref_ja 天宝 (唐)
 name_ja 天宝
 name_kana てん ぽう
+
+## <https://cir.nii.ac.jp/crid/1520009410420289408>
+name_kana てん ほう
 
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B79>"天寶"
 <-開元 唐:742-1-1(丁未) #支那改元日{#李唐 #玄宗}
@@ -13859,6 +13867,9 @@ name(kr) 건화
 
 ## <https://zh-yue.wikipedia.org/wiki/%E4%B9%BE%E5%92%8C>
 #943 - 958
+
+tag 交趾
+u 6-4-29
 
 [大寶(戊午)]
 #y~679
