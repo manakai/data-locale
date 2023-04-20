@@ -13,7 +13,8 @@
 %tag   name_ja 三国志
 
 %tag country
-%tag   label_ja 曹魏
+%tag   name_ja 曹魏
+%tag   &
 %tag   name_ja 魏
 %tag   period of 中国
 %tag   period of 魏
@@ -1036,6 +1037,7 @@ tag 公孫淵
 
 %tag country
 %tag   label_ja 燕 (公孫淵)
+%tag   &
 %tag   name_ja 燕
 %tag   period of 燕
 %tag   period of 公孫氏政権
@@ -1085,7 +1087,9 @@ s+
 
 %tag country
 %tag   label_ja 司馬晋
+%tag   &
 %tag   name_ja 晋
+%tag   name 晉
 %tag   period of 晋
 %tag   period of 中国
 %tag   period of 魏晋南北朝時代
@@ -1097,13 +1101,13 @@ s+
 
 %tag country
 %tag   name_ja 西晋
-%tag   group of 司馬晋
+%tag   period of 司馬晋
 
 %tag tag
 %tag   name_ja 西晋の公年号
 %tag   group of 晋の公年号
 
-%tag tag
+%tag source
 %tag   name_ja 晋書
 
 [泰始]
@@ -1118,6 +1122,10 @@ tag 匈奴
 
 %tag person
 %tag   name_ja 司馬炎
+%tag   &
+%tag   name 武帝
+%tag   &
+%tag   name 武帝司馬炎
 tag 司馬炎
 
 ## [102]
@@ -1149,12 +1157,6 @@ tag トルファン
 u 3
 tag 敦煌
 
-&
-name country+
-name 晉泰始
-&
-name country monarch+
-name 晉武帝司馬炎泰始
 
 [咸寧]
 #y~102
@@ -2371,7 +2373,7 @@ name 太淸
 
 %tag country
 %tag   name_ja 東晋
-%tag   group of 司馬晋
+%tag   period of 司馬晋
 
 %tag tag
 %tag   name_ja 東晋の公年号
@@ -2388,6 +2390,10 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 司馬睿
+%tag   &
+%tag   name 元帝
+%tag   &
+%tag   name 元帝司馬睿
 tag 司馬睿
 
 ## [102]
@@ -2475,9 +2481,6 @@ s+
 name 太興
 
 
-&
-name country monarch+
-name 東晉元帝司馬睿大興
 
 
 [建康(己卯)]
@@ -2588,6 +2591,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 晋明帝
+%tag   &
+%tag   name_ja 明帝
 tag 晋明帝
 
 ## [102]
@@ -3166,6 +3171,9 @@ tag 漢土
 tag 漢民族
 
 %tag person
+%tag   key 晋孝武帝
+%tag   name_ja 孝武帝
+%tag   &
 %tag   name_ja 晋孝武帝
 tag 晋孝武帝
 
@@ -3236,10 +3244,6 @@ name 太元
 s+
 # 建國三十九年 #改元
 # AD376
-
-&
-name country+
-name 晉太元
 
 &
 s#南斉書<https://zh.wikisource.org/wiki/%E5%8D%97%E9%BD%8A%E6%9B%B8/%E5%8D%B79>"太元"
@@ -3875,9 +3879,7 @@ tag 氐
 ## <https://twitter.com/BabelStone/status/1433009194047791107>
 pinyin Yì|xī
 
-&
-name country+
-name 晉義熙
+name 義熈
 
 [元熙]
 #y~676
@@ -3887,6 +3889,8 @@ tag 東晋
 tag 東晋の公年号
 tag 漢土
 tag 漢民族
+
+tag 司馬徳文
 
 ## [102]
 name_tw 元熙
@@ -3903,16 +3907,16 @@ u 2-6
 
 s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7010>"安帝崩"
 #<-義熙 晋:418-12-戊寅 #改元前の死去{#東晋 #晋安帝} #劉裕
-<-義熙 ->元熙,恭帝 晋:418-12-戊寅 #建元前の即位{#東晋 #晋安帝 #晋皇帝} #劉裕
+<-義熙 ->元熙,恭帝 晋:418-12-戊寅 #建元前の即位{#東晋 #司馬徳文 #晋皇帝} #劉裕
 name 元熙
-<-義熙 晋:419-1-1(壬辰) #支那改元日{#東晋 #晋安帝}
+<-義熙 晋:419-1-1(壬辰) #支那改元日{#東晋 #司馬徳文}
 s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7010>"二年夏六月壬戌"
-->永初(庚申) <-元熙,恭帝 晋:420-6-壬戌 #改元前の退位{#東晋 #晋安帝 #晋皇帝}
+->永初(庚申) <-元熙,恭帝 晋:420-6-壬戌 #改元前の退位{#東晋 #司馬徳文 #晋皇帝}
     #劉裕 #南朝宋 #禅譲
 tag 劉裕
 
 s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B72>"元熙"
-#->永初(庚申) [晋:420-6,晋:420-6-甲子] #改元前の退位{#東晋 #晋安帝 #晋皇帝}
+#->永初(庚申) [晋:420-6,晋:420-6-甲子] #改元前の退位{#東晋 #司馬徳文 #晋皇帝}
 #    #劉裕 #南朝宋 #禅譲
 s+
 
@@ -3923,10 +3927,6 @@ s+
 # #改元
 
 #wref_ko 원희
-
-&
-name country monarch+
-name 晉恭帝德文元熙
 
 def[恭帝]
 #y~2156
@@ -3940,6 +3940,14 @@ tag 漢民族
 
 tag 東洋式即位紀年
 tag 元号に並行する即位紀年
+
+%tag person
+%tag   name_ja 司馬徳文
+%tag   &
+%tag   name 恭帝
+%tag   &
+%tag   name 恭帝德文
+tag 司馬徳文
 
 s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7013>"恭帝"
 #"恭帝元年正月戊戌，有星孛於太微西蕃。占曰：「革命之征。」其年，宋有天下。"
@@ -3966,7 +3974,9 @@ tag 漢土
 
 %tag country
 %tag   label_ja 晋 (司馬小君)
+%tag   &
 %tag   name_ja 晋
+%tag   period of 晋
 tag 晋 (司馬小君)
 
 %tag person
@@ -4062,6 +4072,10 @@ tag 南朝宋の公年号
 
 %tag person
 %tag   name_ja 劉裕
+%tag   &
+%tag   name 武帝
+%tag   &
+%tag   name 武帝劉裕
 tag 劉裕
 
 s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B73>"永初"
@@ -4095,9 +4109,29 @@ name_kana えい しょ
 #wref_ko 영초 (유송)
 name(kr) 영초
 
+def[初元(庚申)]
+
+sw 初元
+
+<-永初(庚申) [越南:1377] #名旧説発生{} #越南 #南朝宋 #越史略
+
+AD420 = 1
+
+tag 漢土
+tag 漢民族
+tag 南朝宋
+tag 南朝宋の公年号
+
+tag 劉裕
+
+name 初元
 &
-name country monarch+
-name 宋武帝劉裕永初
+name monarch+
+name 孝武帝初元
+
+u 1-7
+
+<-元熙 晋:420-6-丁卯 #支那改元日{#南朝宋 #劉裕} #旧説
 
 [景平]
 #y~445
@@ -4116,7 +4150,7 @@ tag 劉義符
 s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B74>"即皇帝位"
 #<-永初(庚申) 晋:422-5-癸亥 #改元前の死去{#南朝宋 #劉裕}
 <-永初(庚申) 晋:422-5-癸亥 #建元前の即位{#南朝宋 #劉義符 #宋皇帝}
-<-永初(庚申) 晋:423-1-1(己亥) #支那改元日{#南朝宋 #劉義符}
+<-永初(庚申),初元(庚申) 晋:423-1-1(己亥) #支那改元日{#南朝宋 #劉義符}
 name 景平
 
 s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B74>"夏五月"
@@ -4155,6 +4189,8 @@ tag 南朝宋の公年号
 
 %tag person
 %tag   name_ja 劉義隆
+%tag   &
+%tag   name 文帝
 tag 劉義隆
 
 s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B75>"即皇帝位"
@@ -4871,7 +4907,8 @@ tag 漢土
 tag 漢民族
 
 %tag country
-%tag   label_ja 南斉
+%tag   name_ja 南斉
+%tag   &
 %tag   name_ja 斉
 %tag   period of 斉
 %tag   period of 支那南朝
@@ -4885,6 +4922,8 @@ tag 南斉の公年号
 
 %tag person
 %tag   name_ja 蕭道成
+%tag   &
+%tag   name 髙帝
 tag 蕭道成
 
 s#宋書<https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B710>"禪位"
@@ -4979,6 +5018,7 @@ tag 南斉
 
 %tag country
 %tag   label_ja 呉 (唐寓之)
+%tag   &
 %tag   name_ja 呉
 tag 呉 (唐寓之)
 
@@ -5344,14 +5384,16 @@ tag 漢土
 tag 漢民族
 
 %tag country
-%tag   label_ja 蕭梁
+%tag   name_ja 蕭梁
+%tag   &
 %tag   name_ja 梁
 %tag   period of 梁
 %tag   period of 支那南朝
 %tag   period of 中国
 
 %tag country
-%tag   label_ja 南梁
+%tag   name_ja 南梁
+%tag   &
 %tag   name_ja 梁
 %tag   period of 蕭梁
 tag 南梁
@@ -5935,6 +5977,7 @@ tag 中華異民族
 
 %tag country
 %tag   label_ja 漢 (侯景)
+%tag   &
 %tag   name_ja 漢
 %tag   period of 漢
 %tag   period of 中国
@@ -6254,7 +6297,8 @@ tag 漢土
 tag 漢民族
 
 %tag country
-%tag   label_ja 西梁
+%tag   name_ja 西梁
+%tag   &
 %tag   name_ja 梁
 %tag   period of 蕭梁
 tag 西梁

@@ -5,6 +5,7 @@
 
 %tag country
 %tag   label_ja 両漢
+%tag   &
 %tag   name_ja 漢
 %tag   period of 漢
 %tag   period of 中国
@@ -15,7 +16,9 @@
 
 %tag country
 %tag   name_ja 前漢
-%tag   group of 両漢
+%tag   &
+%tag   name 西漢
+%tag   period of 両漢
 
 %tag tag
 %tag   name_ja 前漢の公年号
@@ -644,12 +647,14 @@ name_tw 呂后
 &
 name monarch
 name_tw 高后
+name 髙后
 &
 name monarch
 name_ja 高皇后
 &
 name country monarch
 name 漢高后
+name 漢髙后
 &
 name country monarch
 name 漢高后呂雉
@@ -2289,6 +2294,7 @@ tag 後漢
 
 %tag country
 %tag   label_ja 漢 (更始朝)
+%tag   &
 %tag   name_ja 漢
 %tag   period of 漢
 %tag   period of 中国
@@ -2382,7 +2388,9 @@ tag 漢 (更始朝)
 %tag   name_ja 赤眉
 
 %tag country
-%tag   name_ja 漢 (赤眉)
+%tag   label_ja 漢 (赤眉)
+%tag   &
+%tag   name_ja 漢
 %tag   period of 漢
 %tag   period of 赤眉
 %tag   period of 中国
@@ -2675,7 +2683,7 @@ s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B7
 
 %tag country
 %tag   name_ja 後漢
-%tag   group of 両漢
+%tag   period of 両漢
 
 %tag tag
 %tag   name_ja 後漢の公年号
@@ -2694,6 +2702,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 光武帝
+%tag   &
+%tag   prefix name_ja 光武
 tag 光武帝
 
 ## [102]
@@ -3164,6 +3174,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 漢順帝
+%tag   &
+%tag   name_ja 順帝
 tag 漢順帝
 
 ## [102]
@@ -3338,6 +3350,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 漢沖帝
+%tag   &
+%tag   name_ja 沖帝
 tag 漢沖帝
 
 ## [102]
@@ -3389,6 +3403,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 漢質帝
+%tag   &
+%tag   name_ja 質帝
 tag 漢質帝
 
 ## [102]
@@ -3420,6 +3436,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 漢桓帝
+%tag   &
+%tag   name_ja 桓帝
 tag 漢桓帝
 
 ## [102]
@@ -3595,6 +3613,9 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 漢霊帝
+%tag   &
+%tag   name_ja 霊帝
+%tag   name 靈帝
 tag 漢霊帝
 
 ## [102]

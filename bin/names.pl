@@ -90,7 +90,7 @@ sub parse_src_line ($$) {
            type => 'kana',
            lang => $lang,
            value => $value2};
-    } elsif ($in =~ /^(name|label)\((ja|ja_old|en)\)(!|)\s+([\p{sc=Hiragana}\p{sc=Katakana}\x{30FC}\N{KATAKANA MIDDLE DOT}\x{1B001}-\x{1B11F}\x{3001}\p{sc=Han}\p{sc=Latn}0-9\[\]|:!,()\x{300C}\x{300D}\p{Geometric Shapes}\s-]+)$/) {
+    } elsif ($in =~ /^(name|label)\((ja|ja_old|en)\)(!|)\s+([\p{sc=Hiragana}\p{sc=Katakana}\x{30FC}\N{KATAKANA MIDDLE DOT}\x{1B001}-\x{1B11F}\x{3001}\p{sc=Han}\p{sc=Latn}0-9\[\]|:!,()\x{300C}\x{300D}\p{Geometric Shapes}\x{2015}\x{E0100}-\x{E01FF}\s-]+)$/) {
       push @{$out->[-1]->{labels}->[-1]->{reps}},
           {kind => $1,
            type => 'jpan',
@@ -1789,7 +1789,7 @@ sub compute_form_group_ons ($$) {
                 } elsif ($rep->{value} =~ s/\A\[\]//) {
                   #
                 }
-              } elsif ($rep->{value} =~ s/\A([\p{sc=Han}|]+)//) {
+              } elsif ($rep->{value} =~ s/\A((?:\p{sc=Han}[\x{E0100}-\x{E01FF}]?|\|)+)//) {
                 $value->{form_group_type} = 'han';
                 $v->{form_set_type} = 'hanzi';
                 my $w = [split //, $1];
@@ -1882,7 +1882,7 @@ sub compute_form_group_ons ($$) {
                 my $w = [split //, $1];
                 $v->{segment_length} = segmented_text_length $w;
                 $v->{$rep->{lang}} = $w;
-              } elsif ($rep->{value} =~ s/\A([\p{Geometric Shapes}・\xB7-]+)//) {
+              } elsif ($rep->{value} =~ s/\A([\p{Geometric Shapes}・\xB7\x{2015}-]+)//) {
                 $value->{form_group_type} = 'symbols';
                 $v->{form_set_type} = 'symbols';
                 my $w = [{'・' => '.・', "\xB7" => ".・",

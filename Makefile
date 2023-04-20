@@ -207,6 +207,7 @@ data/calendar/era-labels.json: bin/cleanup.pl \
 
 local/source-era-list.json: bin/source-era-list.pl \
     src/era-list-*.txt \
+    src/era-slist-viet2020.txt \
     local/calendar-era-labels-0.json
 	$(PERL) $< > $@
 

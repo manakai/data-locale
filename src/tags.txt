@@ -1394,6 +1394,13 @@ source
   name_ja 欧亜紀元合表
 
 source
+  name_ja 年号と東アジア―改元の思想と文化―
+
+source
+  name_ja 中国・日本・朝鮮・ベトナムの公年号一覧
+  group of 年号と東アジア―改元の思想と文化―
+
+source
   name_ja 近代諸元号現象
 
 source
