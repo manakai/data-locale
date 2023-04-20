@@ -8007,6 +8007,8 @@ tag 漢民族
 %tag person
 %tag   name_ja 楊堅
 %tag   &
+%tag   name 文帝
+%tag   &
 %tag   name 文帝楊堅
 tag 楊堅
 
@@ -8376,6 +8378,8 @@ tag 隋末唐初
 %tag person
 %tag   name_ja 李淵
 %tag   &
+%tag   name 髙祖
+%tag   &
 %tag   name 髙祖李渊
 tag 李淵
 
@@ -8463,7 +8467,9 @@ tag 漢土
 tag 漢民族
 
 %tag person
-%tag   name_ja 唐高宗
+%tag   key 唐高宗
+%tag   name_ja 高宗
+%tag   name 髙宗
 tag 唐高宗
 
 ## [102]
@@ -10285,6 +10291,8 @@ tag 唐の公年号
 tag 漢土
 tag 漢民族
 
+tag 代宗
+
 ## [102]
 name_tw 大曆
 name_cn 大历
@@ -10311,6 +10319,8 @@ name 大歷
 s+
 u 4
 
+name 大厯
+
 [建中]
 #y~322
 AD780 = 1
@@ -10322,6 +10332,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 唐徳宗
+%tag   &
+%tag   name 德宗
 %tag   &
 %tag   name 德宗适
 tag 唐徳宗
@@ -10506,6 +10518,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 唐穆宗
+%tag   &
+%tag   name 穆宗
 %tag   &
 %tag   name 穆宗恒
 tag 唐穆宗
@@ -11972,6 +11986,8 @@ tag 後唐の公年号
 %tag person
 %tag   name_ja 李嗣源
 %tag   &
+%tag   name 明宗
+%tag   &
 %tag   name 明宗嗣原
 tag 李嗣源
 
@@ -12227,6 +12243,8 @@ u 5-2-10
 %tag   name_ja 後晋
 %tag   &
 %tag   name 晋
+%tag   &
+%tag   name 石晉
 %tag   period of 晋
 %tag   period of 五代
 %tag   period of 中国
@@ -12252,6 +12270,8 @@ tag 契丹国
 
 %tag person
 %tag   name_ja 石敬瑭
+%tag   &
+%tag   name 髙祖
 %tag   &
 %tag   name 髙祖石敬塘
 tag 石敬瑭
@@ -12354,6 +12374,8 @@ tag 契丹国
 %tag   name_ja 石重貴
 %tag   &
 %tag   name 齊王重貴
+%tag   &
+%tag   name 出帝
 tag 石重貴
 
 s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B781>"即皇帝位"
@@ -12455,7 +12477,10 @@ tag 劉知遠
 
 %tag person
 %tag   name_ja 劉承祐
+%tag   &
+%tag   name 隠帝
 tag 劉承祐
++name monarch 劉承祐
 
 %tag person
 %tag   name_ja 劉贇
@@ -12712,6 +12737,8 @@ tag 後周の公年号
 
 %tag person
 %tag   name_ja 郭威
+%tag   &
+%tag   name 太祖
 %tag   &
 %tag   name 太祖郭威
 tag 郭威

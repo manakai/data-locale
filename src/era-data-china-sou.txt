@@ -4,7 +4,7 @@
 ## [104] 中国歴代年号考 修訂本
 
 %tag country
-%tag   label_ja 趙宋
+%tag   name_ja 趙宋
 %tag   &
 %tag   name_ja 宋
 %tag   &
@@ -35,6 +35,10 @@ tag 五代
 
 %tag person
 %tag   name_ja 趙匡胤
+%tag   &
+%tag   name 太祖
+%tag   &
+%tag   name 太祖趙匡胤
 tag 趙匡胤
 
 ## [102]
@@ -73,8 +77,8 @@ tag 李煜
 tag 避諱前元号
 
 &
-name country monarch+
-name 宋太祖趙匡胤建龍
+name 建龍
+
 
 def[峻豐]
 

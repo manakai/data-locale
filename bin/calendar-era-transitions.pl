@@ -467,6 +467,7 @@ sub year_start_jd ($$) {
 
   if ($tag_ids->{1003} and # 日本
       not $tag_ids->{6037} and # 農暦
+      not $tag_ids->{6092} and # 越南暦
       not $tag_ids->{1344}) { # グレゴリオ暦
     my $g = k2g_undef ymmd2string $y, 1, 0, 1;
     if (defined $g) {
@@ -647,6 +648,7 @@ sub ssday ($$) {
     #// die "No kyuureki date for ($y, $m, $d)";
     if (not $tag_ids->{1344} and # グレゴリオ暦
         not $tag_ids->{6037} and # 農暦
+        not $tag_ids->{6092} and # 越南暦
         defined $k and $k =~ m{^(-?[0-9]+)}) {
       die "($y, $m, $d) [$k]$1, $day->{year}; ", (perl2json_bytes $tag_ids),
           Carp::longmess
@@ -970,9 +972,9 @@ for my $tr (@$Input) {
 
     $v =~ s/\s+$//;
     while (1) {
-      if ($v =~ s{\s*#([\w_()\x{20000}-\x{3FFFF}]+)$}{}) {
+      if ($v =~ s{\s*#([\w_()\x{20000}-\x{3FFFF}\x{30FB}]+)$}{}) {
         set_object_tag $x, $1;
-      } elsif ($v =~ s{\s*#([\w_()\x{20000}-\x{3FFFF}]+)\{([#\w_()\x{20000}-\x{3FFFF}\s]*)(?:,([#\w_()\x{20000}-\x{3FFFF}\s]*)|)\}$}{}) {
+      } elsif ($v =~ s{\s*#([\w_()\x{20000}-\x{3FFFF}\x{30FB}]+)\{([#\w_()\x{20000}-\x{3FFFF}\x{30FB}\s]*)(?:,([#\w_()\x{20000}-\x{3FFFF}\x{30FB}\s]*)|)\}$}{}) {
         my $tags = $2;
         my $tags2 = $3;
         my $t1 = $1;
@@ -985,7 +987,7 @@ for my $tr (@$Input) {
         $x->{action_tag_id} = $tag->{id};
         my $param_tags = {};
         {
-          while ($tags =~ s{\s*#([\w_()\x{20000}-\x{3FFFF}]+)$}{}) {
+          while ($tags =~ s{\s*#([\w_()\x{20000}-\x{3FFFF}\x{30FB}]+)$}{}) {
             my $t1 = $1;
             $t1 =~ s/_/ /g;
             my $tag = $TagByKey->{$t1};
@@ -1033,7 +1035,7 @@ for my $tr (@$Input) {
           die "Bad tags |$tags|" if length $tags;
         }
         if (defined $tags2) {
-          while ($tags2 =~ s{\s*#([\w_()\x{20000}-\x{3FFFF}]+)$}{}) {
+          while ($tags2 =~ s{\s*#([\w_()\x{20000}-\x{3FFFF}\x{30FB}]+)$}{}) {
             my $t1 = $1;
             $t1 =~ s/_/ /g;
             my $tag = $TagByKey->{$t1};
