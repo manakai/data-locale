@@ -151,6 +151,9 @@ u 278
 tag 明領澎湖諸島
 ->unknown [明:1384] #撤退{, #明領澎湖諸島}
 
+tag ヤオ族
+#sw ヤオ族の日時
+
 [建文]
 #y~1251
 ## Source:
@@ -2165,6 +2168,10 @@ name(es_old_zh) Kun|chim
 name(fr_old_zh) Zun|chin
 name(en_old_zh) Zun|chin
 
+
+## <https://dl.ndl.go.jp/pid/1087711/1/18> upper right
+name 崇貞
+
 &
 ## [102]
 name_tw 崇禎紀元
@@ -2440,6 +2447,9 @@ name(ja_old) リウ|フ
 name(es_old_zh) Lum|vu
 name(fr_old_zh) Lum|vu
 name(en_old_zh) Lum|vu
+
+#隆武戊子
+u 4
 
 def[隆武(丙戌)]
 

@@ -55,9 +55,11 @@ It is a JSON object with following name/value pairs:
       code19 [integer?]
       code20 [integer?]
       code24 [integer?]
+      code25 [integer?]
 
-        The era codes #1, #2, #4, #5, #6, #7, #9, #16, #17, #18, #19,
-        #20, or #24 codes [CODES] for the era, respectively, if any.
+        The era code for the era, in #1, #2, #4, #5, #6, #7, #9, #16,
+        #17, #18, #19, #20, #24, or #25 code sets [CODES],
+        respectively, if any.
 
       code10 [integer?]
 
@@ -963,58 +965,6 @@ It is a JSON object with following name/value pairs:
         Names are the Han characters used in era names, where variants
         are normalized into "cluster leaders" of equivalent Han
         variant clusters the characters belong to.
-
-* Set data types
-
-A set data type represents a set of values.
-
-It is represented by a JSON object, where the object's names are the
-values.  The object's values may be any value and has no defined
-semantics.  Applications must ignore the object's values.
-
-If the value is a JSON null value, or no value is specified, the set
-is empty.
-
-A property set data type represents a set of values where values are
-associated with their properties.
-
-It is represented by a JSON object, where the object's names are the
-values.  Each of the object's values is a JSON object which represents
-the associated properties.
-
-If the value is a JSON null value, or no value is specified, the set
-is empty.
-
-** The |tag ID set| data type
-
-A set data type.
-
-XXX
-
-** The |tag ID property set| data type
-
-A property set data type.
-
-XXX
-
-Property:
-
-  preferred [boolean]
-
-    Whether the tag is the preferred one or not.  Exactly one tag in a
-    non-empty set is marked as preferred.
-
-** The |era ID set| data type
-
-A set data type of era IDs.
-
-* Segmented name data types
-
-The following data types are defined by Segmented Name Strings
-<https://wiki.suikawiki.org/n/Segmented%20Name%20Strings>:
-
-  [segmented-Hiragana] segmented Hiragana name string
-  [segmented-Romaji] segmented Romaji name string
 
 * Comparison tables
 

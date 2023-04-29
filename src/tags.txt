@@ -263,6 +263,14 @@ people
 people
   name_ja ユダヤ人
 
+people
+  name_ja ヤオ族
+  name 瑶族
+
+religion
+  name_ja ヤオ道教
+  group of 道教
+
 religion
   name_ja 仏教
 
@@ -338,6 +346,11 @@ tag
   name_ja 即位紀年説のある元号
   group of 元号
   group of 東洋式即位紀年
+
+tag
+  name_ja 国名から変化した元号
+  group of 元号
+  group of 国名即位紀年
 
 action
   name_ja 称元
