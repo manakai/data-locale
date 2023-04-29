@@ -70,6 +70,9 @@ name_tw 西紀
 &
 name_tw 西元
 &
+name country+
+name 中華西元
+&
 
 name 西暦紀元
 name_kana せい れき き げん
@@ -105,6 +108,12 @@ name(vi_latin) Công nguyên
 name_tw 公曆紀元
 name(vi_latin) Công lịch kỷ nguyên
 &
+name country+
+name 大中華公元
+&
+name country+
+name 中華人民共和国公元
+&
 name_tw 公曆
 &
 name 公元紀年
@@ -122,6 +131,7 @@ name_kana がく れき
 &
 abbr_ja 学 学暦
 &&
+name country+
 name_ja 和蘭紀元
 &&
 name_ja 紀元
@@ -141,6 +151,7 @@ sw 西暦
 
 code #17 0
 #code #19 0
+code #25 9
 
 %tag religion
 %tag   name_ja キリスト教
@@ -176,6 +187,11 @@ tag ラオス
 tag 越南
 tag カンボジア
 tag タイ
+
+tag タイ
+tag ラオス
+tag ヤオ道教
+tag ヤオ族
 
 tag シンガポール
 

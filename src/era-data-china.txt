@@ -8955,6 +8955,8 @@ name country+
 name 中国開国紀元
 &
 name 開国紀元
+&
+name_cn 开元
 &&
 name country+
 name 中元
@@ -9248,6 +9250,16 @@ name 黄帝甲子紀年
 BC2697 = 1
 
 &&
+name_cn 开元
+
+&&
+name monarch+
+name_cn 黄帝纪元开元
+&
+name monarch+
+name_cn 黄帝开元
+
+&&
 name 道曆
 name 道暦
 u 4674
@@ -9495,7 +9507,48 @@ name country
 name_tw 大中華民國
 &
 name country
+name 大漢中華民國
+&
+name country
+name 大清中華民國
+&
+name country
+name 皇上中華民国
+name 皇上忠華民国
+&
+name country
+name 皇上民国
+&
+name country
+name 皇上民國中華
+&
+name country
+name 上皇民國
+&
+name country
+name 皇上大漢中華民国
+&
+name country+
+name 皇上民國管下
+&
+name country+
+name 皇上中華民國官下
+&
+name country
+name 仲華
+&
+name country+
+name 仲華歲
+&
+name country+
+name 大清中華皇
+&
+name country+
+name 大清中華民皇
+&
+name country
 abbr_tw 民 民國
+
 
 tag 国名建国紀元
 
@@ -9539,6 +9592,12 @@ tag チベット人
 tag 蒙古人
 tag 朝鮮人
 tag 道教
+
+tag タイ
+tag ラオス
+tag ヤオ道教
+tag ヤオ族
+tag 広西
 
 AD1912 = 1
 %tag org
@@ -10000,6 +10059,7 @@ tag 広西
 tag 壮族
 
 def[中華人民共和國]
+#y~3808
 
 AD1949 = 1
 
@@ -10017,6 +10077,8 @@ name_ja 中華人民共和国
 &
 name country
 name 新中国
+&&
+name 建国
 
 u 1
 u 6

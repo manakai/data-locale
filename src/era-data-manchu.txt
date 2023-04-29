@@ -3569,6 +3569,12 @@ name_man %E1%A0%B0%E1%A1%A0%E1%A0%B7%E1%A1%9D %E1%A1%A5%E1%A0%A0%E1%A0%A8,sure h
 %tag   &
 %tag   name_ja 清
 %tag   name 淸
+%tag   &
+%tag   prefix name 皇清
+%tag   &
+%tag   prefix name 皇上
+%tag   &
+%tag   prefix name 皇號
 %tag   period of 中国
 #
 ## <https://www.loc.gov/catdir/cpso/romanization/chinese.pdf#page=8>
@@ -3783,6 +3789,11 @@ name(la) Cam Hi
 ## [158]
 #1662-02-18
 
+name 康煕
+
+tag ヤオ族
+#sw ヤオ族の日時
+
 ## [103]
 wref_ja 康熙
 name_ja 康熙
@@ -3868,6 +3879,9 @@ name_mn %E1%A0%A8%E1%A0%A2%E1%A0%B6%E1%A0%A2%E1%A0%B7%E1%A0%A0%E1%A0%AF%E1%A0%B2
 #mn ナイラルト・トゥブ,nayiraltu tub
 ## [106]
 #man h{umacron}waliyasun tob
+
+### <https://www.jstage.jst.go.jp/article/tak/6/4/6_KJ00000133720/_pdf#page=6>
+#name 雍政
 
 &
 #sw 新港文書の日付表示
@@ -4024,6 +4038,9 @@ name_mn %E1%A0%B0%E1%A0%A0%E1%A0%B6%E1%A0%A2%E1%A0%B0%E1%A0%A2%E1%A0%B6%E1%A0%A0
 
 tag 官方紀年 (官民異調:清代臺灣紀年)
 
+tag ヤオ道教
+tag ヤオ族
+
 [道光]
 #y~687
 name_tw 道光
@@ -4082,6 +4099,9 @@ name_mn %E1%A0%B2%E1%A0%A5%E1%A0%B7%E1%A0%A5 %E1%A0%AD%E1%A0%A1%E1%A0%B7%E1%A0%A
 #mn トゥル・ゲレルト,tur gereltu
 ## [106]
 #man doro eldengge
+
+tag ヤオ道教
+tag ヤオ族
 
 [咸豐]
 #y~738
@@ -4143,6 +4163,14 @@ tag 咸豐帝
 
 ## [158]
 # 1851-02-01
+
+&
+name country+
+name 大清下元咸豐
+
+tag ヤオ道教
+tag ヤオ族
+tag タイ
 
 ## [120] <https://zh.wikisource.org/wiki/%E6%B8%85%E5%8F%B2%E7%A8%BF/%E5%8D%B721>
 ->祺祥 清:1861-7-17(癸卯) g:1861-8-22 #清 #咸豐帝 #改元前の死去
@@ -4257,6 +4285,10 @@ tag 同治帝
 ## 琉球処分
 ->明治 [g:1872] #琉球国 #清領琉球 #琉球藩 #清 #日本 #戦時異動
 tag 清領琉球
+
+name 洞治
+tag ヤオ族
+tag ヤオ道教
 
 ## [103]
 wref_ja 同治
@@ -4403,6 +4435,9 @@ name_mn %E1%A0%AA%E1%A0%A0%E1%A0%B3%E1%A0%A0%E1%A0%B7%E1%A0%A0%E1%A0%AD%E1%A0%A4
 
 ## [158]
 # 1875-02-06
+
+tag ヤオ道教
+tag ヤオ族
 
 def[保慶(庚子)]
 #y~1830
