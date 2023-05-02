@@ -31,7 +31,7 @@ $Data->{source_type} = shift or die;
   my $data = [];
   my @filler;
   for (split /\x0D?\x0A/, extract_source $bytes) {
-    if (/^\|-/) {
+    if (/^\|-/ or m{^<tr>}) {
       if ($Data->{source_type} eq 'table5' and
           @$data and
           $data->[0] =~ /143/) {
@@ -61,6 +61,13 @@ $Data->{source_type} = shift or die;
       s{-\{(\w)\}-}{$1}g;
       
       push @$data, $_;
+    } elsif (m{^<td}) {
+      push @$data, [];
+    } elsif (m{^<p>}) {
+      s{^<p>}{};
+      s{</p>$}{};
+      s{^&nbsp;$}{};
+      push @{$data->[-1]}, $_;
     } elsif (/^\!/) {
       push @$data, $_;
     }

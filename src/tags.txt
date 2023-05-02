@@ -1169,6 +1169,14 @@ action
   name_ja 避諱改名
   group of 発生
 
+tag
+  name_ja 異表記元号へ
+  group of 分離
+
+tag
+  name_ja 避諱元号へ
+  group of 異表記元号へ
+
 action
   name_ja 避諱改名採用
   group of 避諱改名
