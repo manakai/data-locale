@@ -1,6 +1,6 @@
 {
    "_ext_file_date" : "2014-04-02",
-   "_file_date" : "2023-02-14",
+   "_file_date" : "2023-04-13",
    "extension" : {
       "t" : {
          "Comments" : [
@@ -256,6 +256,7 @@
             "ar"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_macro" : "ar",
          "_preferred" : "ajp",
          "_registry" : {
@@ -277,7 +278,7 @@
       },
       "apc" : {
          "Description" : [
-            "North Levantine Arabic"
+            "Levantine Arabic"
          ],
          "Prefix" : [
             "ar"
@@ -1753,6 +1754,20 @@
          "_added" : "2009-07-29",
          "_macro" : "ms",
          "_preferred" : "lcf",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "lgs" : {
+         "Description" : [
+            "Guinea-Bissau Sign Language",
+            "Língua Gestual Guineense"
+         ],
+         "Prefix" : [
+            "sgn"
+         ],
+         "_added" : "2023-03-17",
+         "_preferred" : "lgs",
          "_registry" : {
             "iana" : 1
          }
@@ -5526,7 +5541,9 @@
             "South Levantine Arabic"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_macro" : "ar",
+         "_preferred" : "apc",
          "_registry" : {
             "iana" : 1
          }
@@ -6717,7 +6734,7 @@
       },
       "apc" : {
          "Description" : [
-            "North Levantine Arabic"
+            "Levantine Arabic"
          ],
          "_added" : "2009-07-29",
          "_macro" : "ar",
@@ -17901,6 +17918,15 @@
             "iana" : 1
          }
       },
+      "cxh" : {
+         "Description" : [
+            "Cha'ari"
+         ],
+         "_added" : "2023-03-17",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "cy" : {
          "Description" : [
             "Welsh"
@@ -20191,6 +20217,15 @@
             "iana" : 1
          }
       },
+      "dsk" : {
+         "Description" : [
+            "Dokshi"
+         ],
+         "_added" : "2023-03-17",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "dsl" : {
          "Description" : [
             "Danish Sign Language"
@@ -20788,6 +20823,15 @@
             "iana" : 1
          }
       },
+      "dyr" : {
+         "Description" : [
+            "Dyarim"
+         ],
+         "_added" : "2023-03-17",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "dyu" : {
          "Description" : [
             "Dyula"
@@ -20831,7 +20875,6 @@
             "Daza"
          ],
          "_added" : "2009-07-29",
-         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -22019,6 +22062,15 @@
             "iana" : 1
          },
          "_suppress" : "latn"
+      },
+      "eud" : {
+         "Description" : [
+            "Eudeve"
+         ],
+         "_added" : "2023-03-17",
+         "_registry" : {
+            "iana" : 1
+         }
       },
       "euq" : {
          "Description" : [
@@ -28816,6 +28868,15 @@
             "iana" : 1
          }
       },
+      "ikh" : {
+         "Description" : [
+            "Ikhin-Arokho"
+         ],
+         "_added" : "2023-03-17",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "iki" : {
          "Description" : [
             "Iko"
@@ -29915,6 +29976,15 @@
          ],
          "_added" : "2009-07-29",
          "_deprecated" : 1,
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "izm" : {
+         "Description" : [
+            "Kizamani"
+         ],
+         "_added" : "2023-03-17",
          "_registry" : {
             "iana" : 1
          }
@@ -32747,6 +32817,8 @@
             "Karipúna"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "plu",
          "_registry" : {
             "iana" : 1
          }
@@ -35368,7 +35440,7 @@
       },
       "krp" : {
          "Description" : [
-            "Korop"
+            "Durop"
          ],
          "_added" : "2009-07-29",
          "_registry" : {
@@ -35467,10 +35539,14 @@
          }
       },
       "ksa" : {
+         "Comments" : [
+            "see izm, rsw"
+         ],
          "Description" : [
             "Shuwa-Zamani"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -37455,7 +37531,7 @@
       },
       "lag" : {
          "Description" : [
-            "Langi"
+            "Rangi"
          ],
          "_added" : "2009-07-29",
          "_registry" : {
@@ -38426,6 +38502,16 @@
             "Lengo"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "lgs" : {
+         "Description" : [
+            "Guinea-Bissau Sign Language",
+            "Língua Gestual Guineense"
+         ],
+         "_added" : "2023-03-17",
          "_registry" : {
             "iana" : 1
          }
@@ -39608,6 +39694,7 @@
       },
       "loh" : {
          "Description" : [
+            "Laarim",
             "Narim"
          ],
          "_added" : "2009-07-29",
@@ -40475,6 +40562,15 @@
             "Lavukaleve"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "lvl" : {
+         "Description" : [
+            "Lwel"
+         ],
+         "_added" : "2023-03-17",
          "_registry" : {
             "iana" : 1
          }
@@ -49742,6 +49838,8 @@
             "Nocamán"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "cbr",
          "_registry" : {
             "iana" : 1
          }
@@ -51378,6 +51476,15 @@
             "Zeme Naga"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "nzr" : {
+         "Description" : [
+            "Dir-Nyamzak-Mbarimi"
+         ],
+         "_added" : "2023-03-17",
          "_registry" : {
             "iana" : 1
          }
@@ -54608,10 +54715,14 @@
          }
       },
       "plj" : {
+         "Comments" : [
+            "see nzr, pze, uly, zlu"
+         ],
          "Description" : [
             "Polci"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -54833,6 +54944,8 @@
             "Pamlico"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "crr",
          "_registry" : {
             "iana" : 1
          }
@@ -55684,6 +55797,8 @@
             "Parsi"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "gu",
          "_registry" : {
             "iana" : 1
          }
@@ -56433,6 +56548,15 @@
             "Pyen"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "pze" : {
+         "Description" : [
+            "Pesse"
+         ],
+         "_added" : "2023-03-17",
          "_registry" : {
             "iana" : 1
          }
@@ -64495,7 +64619,7 @@
       "rsk" : {
          "Description" : [
             "Ruthenian",
-            "Rusyn"
+            "Rusnak"
          ],
          "_added" : "2022-02-25",
          "_registry" : {
@@ -64525,6 +64649,15 @@
             "Rwandan Sign Language"
          ],
          "_added" : "2022-02-25",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "rsw" : {
+         "Description" : [
+            "Rishiwa"
+         ],
+         "_added" : "2023-03-17",
          "_registry" : {
             "iana" : 1
          }
@@ -67220,6 +67353,7 @@
             "Salchuq"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -69762,6 +69896,8 @@
             "Seru"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "umi",
          "_registry" : {
             "iana" : 1
          }
@@ -72292,6 +72428,8 @@
             "Northwestern Tamang"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "tdg",
          "_registry" : {
             "iana" : 1
          }
@@ -73052,6 +73190,8 @@
             "Tupí"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "tpn",
          "_registry" : {
             "iana" : 1
          }
@@ -74146,6 +74286,15 @@
             "Te'un"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "tvi" : {
+         "Description" : [
+            "Tulai"
+         ],
+         "_added" : "2023-03-17",
          "_registry" : {
             "iana" : 1
          }
@@ -75356,6 +75505,15 @@
             "iana" : 1
          }
       },
+      "uly" : {
+         "Description" : [
+            "Buli"
+         ],
+         "_added" : "2023-03-17",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "uma" : {
          "Description" : [
             "Umatilla"
@@ -76449,6 +76607,15 @@
             "Iduna"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "vjk" : {
+         "Description" : [
+            "Bajjika"
+         ],
+         "_added" : "2023-03-17",
          "_registry" : {
             "iana" : 1
          }
@@ -78262,7 +78429,7 @@
       },
       "wnb" : {
          "Description" : [
-            "Wanambre"
+            "Mokati"
          ],
          "_added" : "2009-07-29",
          "_registry" : {
@@ -78807,6 +78974,15 @@
             "Wotapuri-Katarqalai"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "wtb" : {
+         "Description" : [
+            "Matambwe"
+         ],
+         "_added" : "2023-03-17",
          "_registry" : {
             "iana" : 1
          }
@@ -81437,6 +81613,8 @@
             "Assan"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "zko",
          "_registry" : {
             "iana" : 1
          }
@@ -82484,6 +82662,15 @@
             "iana" : 1
          }
       },
+      "ycr" : {
+         "Description" : [
+            "Yilan Creole"
+         ],
+         "_added" : "2023-03-17",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "yda" : {
          "Description" : [
             "Yanda"
@@ -82992,6 +83179,15 @@
             "Northern Yukaghir"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "ykh" : {
+         "Description" : [
+            "Khamnigan Mongol"
+         ],
+         "_added" : "2023-03-17",
          "_registry" : {
             "iana" : 1
          }
@@ -84740,6 +84936,15 @@
             "iana" : 1
          }
       },
+      "zem" : {
+         "Description" : [
+            "Zeem"
+         ],
+         "_added" : "2023-03-17",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
       "zen" : {
          "Description" : [
             "Zenaga"
@@ -84974,6 +85179,8 @@
             "Koibal"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
+         "_preferred" : "kjh",
          "_registry" : {
             "iana" : 1
          }
@@ -85155,6 +85362,15 @@
             "collection"
          ],
          "_added" : "2009-07-29",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "zlu" : {
+         "Description" : [
+            "Zul"
+         ],
+         "_added" : "2023-03-17",
          "_registry" : {
             "iana" : 1
          }
@@ -86039,10 +86255,14 @@
          "_suppress" : "latn"
       },
       "zua" : {
+         "Comments" : [
+            "see cxh, dsk, dyr, tvi, zem"
+         ],
          "Description" : [
             "Zeem"
          ],
          "_added" : "2009-07-29",
+         "_deprecated" : 1,
          "_registry" : {
             "iana" : 1
          }
@@ -94667,7 +94887,7 @@
       },
       "byb" : {
          "Description" : [
-            "Belarusian New Ruble (1994-1999)"
+            "Belarusian Ruble (1994-1999)"
          ],
          "_registry" : {
             "unicode" : 1
@@ -94683,7 +94903,7 @@
       },
       "byr" : {
          "Description" : [
-            "Belarusian Ruble (2000–2016)"
+            "Belarusian Ruble (2000-2016)"
          ],
          "_registry" : {
             "unicode" : 1
@@ -95027,7 +95247,7 @@
       },
       "gbp" : {
          "Description" : [
-            "British Pound Sterling"
+            "British Pound"
          ],
          "_registry" : {
             "unicode" : 1
@@ -95219,7 +95439,7 @@
       },
       "ilr" : {
          "Description" : [
-            "Israeli Sheqel (1980-1985)"
+            "Israeli Shekel (1980-1985)"
          ],
          "_registry" : {
             "unicode" : 1
@@ -95227,7 +95447,7 @@
       },
       "ils" : {
          "Description" : [
-            "Israeli New Sheqel"
+            "Israeli New Shekel"
          ],
          "_registry" : {
             "unicode" : 1
@@ -95579,7 +95799,7 @@
       },
       "mmk" : {
          "Description" : [
-            "Myanma Kyat"
+            "Myanmar Kyat"
          ],
          "_registry" : {
             "unicode" : 1
@@ -95643,7 +95863,7 @@
       },
       "mvp" : {
          "Description" : [
-            "Maldivian Rupee"
+            "Maldivian Rupee (1947-1981)"
          ],
          "_registry" : {
             "unicode" : 1
@@ -95811,7 +96031,7 @@
       },
       "pen" : {
          "Description" : [
-            "Peruvian Nuevo Sol"
+            "Peruvian Sol"
          ],
          "_registry" : {
             "unicode" : 1
@@ -95883,7 +96103,7 @@
       },
       "qar" : {
          "Description" : [
-            "Qatari Rial"
+            "Qatari Riyal"
          ],
          "_registry" : {
             "unicode" : 1
@@ -96011,7 +96231,7 @@
       },
       "shp" : {
          "Description" : [
-            "Saint Helena Pound"
+            "St. Helena Pound"
          ],
          "_registry" : {
             "unicode" : 1
@@ -96035,7 +96255,7 @@
       },
       "sle" : {
          "Description" : [
-            "Sierra Leonean New Leone"
+            "Sierra Leonean Leone"
          ],
          "_registry" : {
             "unicode" : 1
@@ -96043,7 +96263,7 @@
       },
       "sll" : {
          "Description" : [
-            "Sierra Leonean Leone"
+            "Sierra Leonean Leone (1964—2022)"
          ],
          "_registry" : {
             "unicode" : 1
@@ -96323,7 +96543,7 @@
       },
       "uzs" : {
          "Description" : [
-            "Uzbekistan Som"
+            "Uzbekistani Som"
          ],
          "_registry" : {
             "unicode" : 1
@@ -96395,7 +96615,7 @@
       },
       "xaf" : {
          "Description" : [
-            "CFA Franc BEAC"
+            "Central African CFA Franc"
          ],
          "_registry" : {
             "unicode" : 1
@@ -96435,7 +96655,7 @@
       },
       "xbc" : {
          "Description" : [
-            "European Unit of Account 9"
+            "European Unit of Account (XBC)"
          ],
          "_registry" : {
             "unicode" : 1
@@ -96443,7 +96663,7 @@
       },
       "xbd" : {
          "Description" : [
-            "European Unit of Account 17"
+            "European Unit of Account (XBD)"
          ],
          "_registry" : {
             "unicode" : 1
@@ -96491,7 +96711,7 @@
       },
       "xof" : {
          "Description" : [
-            "CFA Franc BCEAO"
+            "West African CFA Franc"
          ],
          "_registry" : {
             "unicode" : 1
@@ -99129,6 +99349,7 @@
             "Montreal, Canada"
          ],
          "_deprecated" : 1,
+         "_preferred" : "cator",
          "_registry" : {
             "unicode" : 1
          }
