@@ -6,4 +6,4 @@ Exporter::Lite~0.09
 JSON~4.10
 Path::Tiny~0.144
 Scalar::Util~1.63
-Time::Local~1.30
+Time::Local~1.35
