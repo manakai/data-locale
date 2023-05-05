@@ -1605,6 +1605,8 @@ s+
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7025%E4%B8%8B>"五鳳"
 s+
 
+<-神爵 [漢:BC57] #支那改元日{#前漢 #漢宣帝}
+
 [甘露]
 #y~896
 BC53 = 1
@@ -1670,10 +1672,11 @@ tag 前元
 
 %tag person
 %tag   label_ja 漢元帝
-%tag   &
 %tag   name_ja 漢元帝
 %tag   &
-%tag   prefix name 元帝
+%tag   name 元帝
+%tag   &
+%tag   name 孝元帝
 tag 漢元帝
 
 ## [102]
@@ -2749,7 +2752,7 @@ tag 漢民族
 %tag   &
 %tag   prefix name 光武劉秀
 %tag   &
-##     避諱 #高麗 #王武
+##     避諱 #高麗 #惠宗
 %tag   prefix name 光虎帝
 tag 光武帝
 
@@ -2795,7 +2798,7 @@ name 䢖㱏
 
 def[建虎]
 
-<-建武(乙酉) [j:943-7-5,高麗:1289] #避諱別名発生{#高麗, #王武}
+<-建武(乙酉) [j:943-7-5,高麗:1289] #避諱別名発生{#高麗, #惠宗}
 tag 避諱後元号
 
 AD25 = 1

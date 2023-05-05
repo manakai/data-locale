@@ -61,6 +61,8 @@ tag 遼即位紀年
 
 %tag person
 %tag   name_ja 耶律阿保機
+%tag   &
+%tag   name 太祖
 tag 耶律阿保機
 
 name monarch
@@ -268,7 +270,10 @@ tag 淳欽述律皇后
 
 %tag person
 %tag   name_ja 耶律尭骨
+%tag   &
+%tag   name 太宗
 tag 耶律尭骨
++name monarch 耶律尭骨
 
 wref_ko 천현
 name(kr) 천현
@@ -504,6 +509,8 @@ tag 遼の公年号
 
 %tag person
 %tag   name_ja 耶律兀欲
+%tag   &
+%tag   name 世宗
 tag 耶律兀欲
 
 s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B75>"即皇帝位"
@@ -556,6 +563,8 @@ tag 遼の公年号
 
 %tag person
 %tag   name_ja 耶律述律
+%tag   &
+%tag   name 穆祖
 tag 耶律述律
 
 s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B76>"即皇帝位"
@@ -607,6 +616,8 @@ tag 遼の公年号
 
 %tag person
 %tag   name_ja 耶律明扆
+%tag   &
+%tag   name 景宗
 tag 耶律明扆
 
 s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B78>"即皇帝位"
@@ -705,11 +716,15 @@ tag 遼の公年号
 
 %tag country
 %tag   name_ja 大契丹
+%tag   &
+%tag   name 契丹
 %tag   period of 遼
 tag 大契丹
 
 %tag person
 %tag   name_ja 耶律文殊奴
+%tag   &
+%tag   name 聖宗
 tag 耶律文殊奴
 
 s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B710>"即皇帝位"
@@ -764,6 +779,15 @@ name(nan_wp) Thóng-hô
 
 wref<https://zh-yue.wikipedia.org/wiki/%E7%B5%B1%E5%92%8C>
 #983 - 1012
+
+<-淳化 [高麗:994-2] #高麗奉正朔{#高麗 #成宗} #高麗史 #大契丹
+tag 高麗
+tag 成宗
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E5%85%AD>"二月始行契丹年號。"
+s+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E4%B8%89>"始行契丹統和年號。"
+s+
 
 [開泰]
 #y~255
@@ -852,6 +876,22 @@ name(nan_wp) Thài-pêng
 wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%AA%E5%B9%B3_(%E9%81%BC)>
 #1021 - 1031
 
+name 大平
+
+<-乾興(壬戌) [高麗:1022-4,高麗:1022-4-丁卯] #高麗奉正朔{#高麗 #顯宗} #高麗史 #大契丹
+tag 高麗
+tag 顯宗
+u 11-10
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E5%85%AD>"四月契丹遣使來冊王自是復行契丹年號。"
+s+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%9B%9B>"復行契丹年號"
+s+
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E5%85%AD>"十月遣使如契丹請壞鴨綠城橋不聽，停賀正使仍用大平年號。"
+s+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E4%BA%94>"仍用聖宗太[1]平年號"
+s+
 
 [景福(辛未)]
 #y~356
@@ -867,6 +907,8 @@ tag 遼の公年号
 
 %tag person
 %tag   name_ja 耶律只骨
+%tag   &
+%tag   name 興宗
 tag 耶律只骨
 
 s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B718>"即皇帝位"
@@ -953,6 +995,22 @@ wref<https://zh-yue.wikipedia.org/wiki/%E9%87%8D%E7%86%99>
 ## <https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B71#cite_note-4>
 #"穆宗遼重熙二十二年癸巳歲生　「二十二年」原作「二十一年」，干支不合。"
 
+<-乾興(壬戌) 高麗:1038-7-甲寅 #通知受領{#遼, #高麗 #靖宗} #高麗史
+<-乾興(壬戌) 高麗:1038-8-1(乙丑) #高麗奉正朔{#高麗 #靖宗} #高麗史 #遼
+tag 高麗
+tag 靖宗
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E5%85%AD>"八月始行重熙年號"
+s+
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AD>"仍請年號"
+s+
+#"夏四月"..."是月，遣尙書左丞金元冲如契丹，起居謝恩，仍請年號。"
+#"秋七月"..."甲寅，金元冲還自契丹，"..."又詔曰：「省所奏，
+#已行用重熙年號事具悉，卿昨者乞修朝貢，尋允奉陳。使介回旋，
+#知我紀年之號，書文稟用，見其向日之誠。省覽歎嘉，不忘于意。」
+#八月乙丑朔，始行契丹重熙年號。"
+
 &
 ## [102]
 name_cn 重和
@@ -1004,12 +1062,18 @@ wref_ko 청녕
 name(kr) 청녕
 #1055-8-16 - 1064
 
+name 淸寧
+
 wref<https://zh-min-nan.wikipedia.org/wiki/Chheng-l%C3%AAng_(Li%C3%A2u)>
 name(nan_wp) Chheng-lêng
 #1055 - 1064
 
 wref<https://zh-yue.wikipedia.org/wiki/%E6%B8%85%E5%AF%A7>
 #1055 - 1064
+
+&
+name country monarch+
+name 契丹度宗淸寧
 
 [咸雍]
 #y~828
@@ -1240,6 +1304,13 @@ s+
 name_cn 寿隆
 name_tw 壽隆
 
+<-大安 高麗:1095-7-戊戌 #高麗奉正朔{#高麗 #獻宗} #高麗史 #大遼_(耶律査剌)
+tag 高麗
+tag 獻宗
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%8D%81>"秋七月戊戌行遼壽昌年號"
+s+
+
 &
 ## [102]
 name_cn 盛昌
@@ -1259,6 +1330,8 @@ tag 遼の公年号
 
 %tag person
 %tag   name_ja 耶律阿果
+%tag   &
+%tag   name 天祚帝
 tag 耶律阿果
 
 s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B727>"壽隆"
@@ -1341,6 +1414,17 @@ name(nan_wp) Thian-khèng
 
 wref<https://zh-yue.wikipedia.org/wiki/%E5%A4%A9%E6%85%B6_(%E9%81%BC)>
 #1111 - 1120
+
+->干支年 高麗:1116-4-辛未 #高麗元号廃止{#高麗 #睿宗} #大遼_(耶律査剌) #高麗史
+tag 高麗
+tag 睿宗
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E5%85%AD>"四月以遼爲金所侵正朔不可行，凡文牒除去天慶年號但用甲子。"
+s+
+tag 元号廃止前の元号
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%8D%81%E5%9B%9B>"辛未，中書門下奏：「遼爲女眞所侵，有危亡之勢，所禀正朔，不可行。自今，公私文字，宜除去天慶年號，但用甲子。」從之。"
+s+
 
 [保大(辛丑)]
 #y~1634
@@ -2697,6 +2781,7 @@ tag 内満州
 
 %tag country
 %tag   label_ja 後遼
+%tag   &
 %tag   name_ja 遼
 %tag   period of 遼
 tag 後遼

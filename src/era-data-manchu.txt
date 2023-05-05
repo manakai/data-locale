@@ -1809,6 +1809,8 @@ tag 遼
 
 %tag person
 %tag   name_ja 阿骨打
+%tag   &
+%tag   name 太祖
 
 #no known name
 +name era 阿骨打
@@ -2068,6 +2070,13 @@ wref<https://zh-min-nan.wikipedia.org/wiki/H%C3%B4ng-th%C3%B3ng_(Kim)>
 name(nan_wp) Hông-thóng
 #1141 - 1149
 
+<-干支年 高麗:1144-7-辛丑 #高麗奉正朔{#高麗 #高麗仁宗} #金 #分離
+tag 高麗
+tag 高麗仁宗
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%8D%81%E4%B8%83>"秋七月辛丑，始行金皇統年號"
+s+
+
 
 [天德(己巳)]
 #y~1474
@@ -2083,6 +2092,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 完顔迪古乃
+%tag   &
+%tag   name 海陵王
 tag 完顔迪古乃
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B75>"己未"
@@ -2145,6 +2156,8 @@ wref<https://zh-min-nan.wikipedia.org/wiki/Cheng-go%C3%A2n_(Kim)>
 name(nan_wp) Cheng-goân
 #1153 - 1156
 
+tag 高麗
+
 [正隆]
 #y~1458
 
@@ -2204,12 +2217,22 @@ name_tw 正豐
 #以豐字代隆字，行之。"
 #1156-2 - 1161-10
 
-<-貞元(癸酉) [高麗:1156-2] #利用開始{#高麗} #分離
 ->大定(辛巳) [金:1161-10-丁未,高麗:1161-10] #利用開始{#高麗}
 
 tag 三国遺事
 #"為佛子者詎可默而無言耶時正豐元年丙子十月日白雲子記"
 u 1-10
+
+<-貞元(癸酉) [高麗:1156-10'] #高麗奉正朔{#高麗 #毅宗}
+<-正隆 [高麗:1156-10'] #避諱改名{#高麗 #毅宗, #王隆}
+tag 高麗
+tag 毅宗
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E5%85%AD>"正隆之隆避世祖諱以豐字代之"
+s+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%8D%81%E5%85%AB>"是月，金改貞元四年，爲正隆元年，避世祖諱，以豐字，代隆字，行之。"
+s+
+
 
 [大定(辛巳)]
 #y~1493
@@ -2225,6 +2248,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 完顔烏禄
+%tag   &
+%tag   name 世宗
 tag 完顔烏禄
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B76>"即皇帝位"
@@ -2338,6 +2363,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 完顔麻達葛
+%tag   &
+%tag   name 章宗
 tag 完顔麻達葛
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B78>"崩"
@@ -2459,6 +2486,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 完顔果縄
+%tag   &
+%tag   name 東海侯
 tag 完顔果縄
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B713>"即皇帝位"
@@ -2489,6 +2518,13 @@ name 大安
 #1209 - 1211
 
 ->太祖 [元:1211] #開戦{#蒙古帝国, #金} #戦時異動
+
+<-泰和 高麗:1210-2-辛卯 #高麗奉正朔{#高麗 #熙宗}
+tag 高麗
+tag 熙宗
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E4%BA%8C%E5%8D%81%E4%B8%80>"行金國大安年號"
+s+
 
 [崇慶]
 #y~341
@@ -2587,6 +2623,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 完顔吾睹補
+%tag   &
+%tag   name 宣宗
 tag 完顔吾睹補
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B713>"宣宗即位"
@@ -2714,6 +2752,14 @@ wref<https://zh-min-nan.wikipedia.org/wiki/Go%C3%A2n-kong_(Kim)>
 name(nan_wp) Goân-kong
 #1222 - 1223
 
+->unknown [高麗:1224] #高麗元号廃止{#高麗 #高麗高宗} #金
+tag 高麗
+tag 高麗高宗
+tag 元号廃止前の元号
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E4%B8%83>"以金國衰微不用年號"
+s+
+
 [正大]
 #y~892
 
@@ -2725,6 +2771,8 @@ tag 女真人
 
 %tag person
 %tag   name_ja 完顔寧甲速
+%tag   &
+%tag   name 哀宗
 tag 完顔寧甲速
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B716>"崩"

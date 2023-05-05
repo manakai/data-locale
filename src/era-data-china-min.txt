@@ -60,6 +60,8 @@ tag 呉 (明)
 %tag   name_ja 朱元璋
 %tag   &
 %tag   name 太祖朱元璋
+%tag   &
+%tag   name 太祖高皇帝
 tag 洪武帝
 tag 白蓮教
 
@@ -153,6 +155,43 @@ tag 明領澎湖諸島
 
 tag ヤオ族
 #sw ヤオ族の日時
+
+<-unknown 高麗:1370-7-乙未 #高麗奉正朔{#高麗 #恭愍王} #明
+tag 高麗
+tag 恭愍王
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E4%B8%83>"七月始行洪武年號"
+s+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%9B%9B%E5%8D%81%E4%BA%8C>"乙未，始行洪武年號"
+s+
+
+<-宣光 [高麗:1378-9] #高麗奉正朔再開{#高麗 #辛禑} #明
+tag 高麗
+tag 辛禑
+tag 旧制再開
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E4%B8%83>"九月復行洪武年號"
+s+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E4%B8%89>"復行洪武年號"
+s+
+
+->unknown 高麗:1388-4-乙丑 #高麗元号廃止{#高麗 #辛禑} #高麗史
+name 高麗
+name 辛禑
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E4%B8%83>"乙丑，停洪武年號，令國人復胡服。"
+s+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E4%B8%83>"停洪武年號"
+s+
+
+<-unknown 高麗:1388-6-丙午 #高麗奉正朔{#高麗 #辛昌} #明
+tag 高麗
+tag 辛昌
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E4%B8%83>"丙午，復行洪武年號，襲大明衣冠，禁胡服。"
+s+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E4%B8%83>"復行洪武年號"
+s+
 
 [建文]
 #y~1251
@@ -633,6 +672,8 @@ name_kana けい たい
 tag 再開元号の中断中
 
 
+## <https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E6%96%87%E5%AE%97%E5%AF%A6%E9%8C%84/%E5%85%83%E5%B9%B4>
+name 景𣳾
 
 
 

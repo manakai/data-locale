@@ -358,6 +358,14 @@ action
   group of 改元日
   group of 適用開始
 
+action
+  name_ja 元号廃止
+
+action
+  name_ja 元号廃止利用開始
+  group of 元号廃止
+  group of 利用開始
+
 tag
   name_ja 元号廃止前の元号
   group of 元号

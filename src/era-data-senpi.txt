@@ -4586,6 +4586,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 元宏
+%tag   &
+%tag   name 高祖
 tag 元宏
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B77%E4%B8%8A>"即皇帝位"
@@ -10426,14 +10428,14 @@ tag 漢民族
 tag 支那皇帝改元後紀年
 
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B710>"其年號但稱元年"
-<-上元(庚子) ->肅宗,肅宗(辛丑) 唐:761-8-壬寅 #支那改元日{#李唐 #粛宗}
+<-上元(庚子) ->肅宗,肅宗(辛丑) 唐:761-8-壬寅 #元号廃止利用開始{#李唐 #粛宗}
 s+肅宗
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B710>"其元年宜改為寶應"
 ->寶應 <-肅宗,肅宗(辛丑) 唐:762-4-乙丑 #支那改元日{#李唐 #粛宗}
 s+肅宗
 
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B724>"上元二年九月"
-<-上元(庚子) ->肅宗,肅宗(辛丑) [唐:761-9] #支那改元日{#李唐 #粛宗} #異説
+<-上元(庚子) ->肅宗,肅宗(辛丑) [唐:761-9] #元号廃止利用開始{#李唐 #粛宗} #異説
 s+肅宗
 s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B736>"制去上元之號"
 s+肅宗
@@ -12060,6 +12062,8 @@ tag 朱全忠
 %tag person
 %tag   name_ja 朱友貞
 %tag   &
+%tag   name 末帝
+%tag   &
 %tag   name 末帝友貞更名頊
 tag 朱友貞
 
@@ -12384,6 +12388,8 @@ tag 朱梁
 %tag person
 %tag   name_ja 李存勗
 %tag   &
+%tag   name 莊宗
+%tag   &
 %tag   name 荘宗李存朂
 tag 李存勗
 
@@ -12598,7 +12604,7 @@ tag 新羅
 tag 新羅人
 
 tag 高麗
-tag 王建
+tag 高麗太祖
 
 [應順]
 #y~1545
@@ -12614,6 +12620,8 @@ tag 後唐の公年号
 
 %tag person
 %tag   name_ja 李従厚
+%tag   &
+%tag   name 閔帝
 tag 李従厚
 
 s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B745>"即位"
@@ -12646,6 +12654,9 @@ name(kr) 응순
 tag 新羅
 tag 新羅人
 
+tag 高麗
+tag 高麗太祖
+
 [清泰]
 #y~417
 
@@ -12662,6 +12673,8 @@ tag 後唐の公年号
 %tag   name_ja 李従珂
 %tag   &
 %tag   name 廢帝從珂
+%tag   &
+%tag   name 潞王
 tag 李従珂
 
 s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B745>"四月三日"
@@ -12712,6 +12725,8 @@ name(kr) 청태
 #            ^^
 #934-4-16 j:934-5-31 -
 
+name 淸泰
+
 tag 敦煌
 tag 帰義軍
 u 5-2-10
@@ -12719,12 +12734,17 @@ u 5-2-10
 tag 新羅
 tag 新羅人
 
+tag 高麗
+tag 高麗太祖
+
 %tag country
 %tag   name_ja 後晋
 %tag   &
 %tag   name 晋
 %tag   &
 %tag   name 石晉
+%tag   &&
+%tag   prefix name 後漢
 %tag   period of 晋
 %tag   period of 五代
 %tag   period of 中国
@@ -12752,6 +12772,7 @@ tag 契丹国
 %tag   name_ja 石敬瑭
 %tag   &
 %tag   name 髙祖
+%tag   name 高祖
 %tag   &
 %tag   name 髙祖石敬塘
 tag 石敬瑭
@@ -12832,9 +12853,12 @@ s#旧五代史<https://zh.wikisource.org/wiki/%E8%88%8A%E4%BA%94%E4%BB%A3%E5%8F%
 s+
 u 13
 
-&
-name country monarch+
-name 後漢髙祖劉知遠仍稱晋天福
+tag 高麗
+tag 高麗太祖
+<-清泰 [高麗:938-7] #高麗奉正朔{#高麗 #高麗太祖} #後晋
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E4%BA%8C>"是月，始行後晉年號。"
+s+
 
 [開運]
 #y~450
@@ -12909,6 +12933,8 @@ u 2
 tag 敦煌
 tag 帰義軍
 u 2-12
+
+tag 高麗
 
 &
 name country monarch+
@@ -13032,6 +13058,13 @@ tag 馬希広
 wref_ko 건우 (후한)
 name(kr) 건우
 #948-1-5 - 950 - 956
+
+tag 高麗
+tag 高麗定宗
+<-開運 [高麗:948-9] #高麗奉正朔{#高麗 #高麗定宗} #五代後漢
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E4%BA%8C>"始行後漢年號。"
+s+
 
 %tag country
 %tag   label_ja 北漢
@@ -13270,6 +13303,8 @@ tag 後周の公年号
 %tag   name_ja 柴栄
 %tag   &
 %tag   name 世宗柴榮
+%tag   &
+%tag   name 世宗
 +name monarch 柴栄
 
 +name monarch 柴宗訓
@@ -13354,10 +13389,15 @@ tag 支那皇帝即位紀年
 %tag   name 恭帝
 %tag   &
 %tag   name 恭帝宗訓
+%tag   &
+%tag   name 宗訓
 tag 柴宗訓
 
 name country monarch
 name 周恭帝宗訓
+&
+name monarch
+name 宗訓
 
 AD960 = 1
 

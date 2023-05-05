@@ -88,17 +88,203 @@
 %tag   name_ja 高句麗王
 %tag   group of 朝鮮王
 
+%tag source
+%tag   key ctext高句麗
+%tag   name_en Chinese Text Project: 高句麗
+%tag   group of ctext
+
+[東明聖王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"東明王十四年，秋八月"
+name monarch
+name 東明王
+u 14-8
+
+&
+tag ctext高句麗
+name monarch
+name 東明聖王
+
+[瑠璃明王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B737>"孺留王二十二年"
+name monarch
+name 孺留王
+u 22
+
+&
+tag ctext高句麗
+name monarch
+name 琉璃明王
+
+&
+name monarch
+name 瑠璃王
+&
+name monarch+
+name 琉璃王在位
+
 [太武神王]
 
 tag 三国遺事
 name monarch
 name 無恤王
 
+&
+tag ctext高句麗
+name monarch
+name 大武神王
+
+[閔中王]
+
+tag ctext高句麗
+name monarch
+name 閔中王
+
+[慕本王]
+
+tag ctext高句麗
+name monarch
+name 慕本王
+
+[國祖王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"太祖王六十九年，冬十月"
+name monarch
+name 太祖王
+u 69-10
+
+&
+tag ctext高句麗
+name monarch
+name 太祖大王
+
+[次大王]
+
+tag ctext高句麗
+name monarch
+name 次大王
+
+[新大王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"新大王四年，秋九月"
+name monarch
+name 新大王
+u 4-9
+
+tag ctext高句麗
+name monarch
+name 新大王
+
+[故國川責王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"故國川王元年，秋九月"
+name monarch
+name 故國川王
+u 1-9
+
+tag ctext高句麗
+name monarch
+name 故國川王
+
+
+[山上王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B745>"山上王"
+name monarch
+name 山上王
+
+tag ctext高句麗
+name monarch
+name 山上王
+
+[東川王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B745>"東川王二十年"
+name monarch
+name 東川王
+u 20
+
+tag ctext高句麗
+name monarch
+name 東川王
+
+
+[中川王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"中川王十三年，秋九月"
+name monarch
+name 中川王
+u 13-9
+
+tag ctext高句麗
+name monarch
+name 中川王
+
+[西川王]
+
+tag ctext高句麗
+name monarch
+name 西川王
+
+[峰上王]
+
+tag ctext高句麗
+name monarch
+name 烽上王
+
+[羙川王]
+
+tag ctext高句麗
+name monarch
+name 美川王
+
+[故國原王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"故國原王二年，春二月"
+name monarch
+name 故國原王
+u 2-2
+
+tag ctext高句麗
+name monarch
+name 故國原王
+
 [小獸林王]
 
+tag ctext高句麗
+name monarch
+name 小獸林王
+
+&
 tag 三国遺事
 name monarch+
 name 小獸林王即位
+
+&
+name monarch+
+name 小獸林王在位
+
+[故國壤王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"故國壤王九年，春三月"
+name monarch
+name 故國壤王
+u 9-3
+
+tag ctext高句麗
+name monarch
+name 故國壤王
+
+
+[廣開土王]
+
+name monarch
+name_ja 広開土王
+
+&
+name monarch
+name 開土王
 
 [永樂]
 #y~1815
@@ -241,6 +427,22 @@ def[永康(高句麗)]
 #y~747
 
 
+
+
+[長壽王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B737>"長壽王十五年"
+name monarch
+name 長壽王
+u 15
+
+tag ctext高句麗
+name monarch
+name 長壽王
+
+&
+name monarch+
+name 長壽在位
 
 def[延壽(高句麗)]
 #y~1664
@@ -473,18 +675,123 @@ wref_ko 연가 (연호)
 name(kr) 연가
 u 7
 
+
+[文咨明王]
+
+tag ctext高句麗
+name monarch
+name 文咨明王
+
+&
+name monarch+
+name 文咨在位
+
+[安藏王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"安臧王三年，夏四月"
+name monarch
+name 安臧王
+u 3-4
+
+tag ctext高句麗
+name monarch
+name 安臧王
+
+name 安藏王
+
+&
+name monarch+
+name 安臧在位
+name 安藏在位
+
+[安原王]
+
+tag ctext高句麗
+name monarch
+name 安原王
+
+&
+name monarch+
+name 安原在位
+
+[陽原王]
+
+tag ctext高句麗
+name monarch
+name 陽原王
+
+&
+name monarch+
+name 陽原王在位
+
+[平原王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"平原王二年，春二月"
+name monarch
+name 平原王
+u 2-2
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B737>"平原王二十八年"
+name monarch
+name 平原王
+u 28
+
+tag ctext高句麗
+name monarch
+name 平原王
+
+&
+name monarch+
+name 平原王在位
+
 [嬰陽王]
 #y~3901
 
+tag ctext高句麗
+name monarch
+name 嬰陽王
+
+&
 tag 三国遺事
 name monarch+
 name 第三十六代嬰陽王立
 
+&
+name monarch+
+name 嬰陽在位
+
 [榮留王]
 
+tag ctext高句麗
+name monarch
+name 榮留王
+
+&
 tag 三国遺事
 name monarch+
 name 第二十七代榮留王即位
+
+&
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"建武王二年，春四月"
+name monarch
+name 建武王
+u 2-4
+
+&
+name monarch+
+name 建武王在位
+
+[寳藏王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B737>"寶臧王二十七年"
+name monarch
+name 寶臧王
+u 27
+
+tag ctext高句麗
+name monarch
+name 寶臧王
+
 
 
 
@@ -502,19 +809,169 @@ name 第二十七代榮留王即位
 %tag   name_ja 百済王
 %tag   group of 朝鮮王
 
+%tag source
+%tag   key ctext百済
+%tag   name_en Chinese Text Project: 百濟
+%tag   group of ctext
+
 [溫祚王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"溫祚王二十年，春二月"
+name monarch
+name 溫祚王
+u 20-2
 
 tag 三国遺事
 name monarch
 name 溫柞王
 
-[聖王]
-
-tag 三国遺事
+tag ctext百済
 name monarch
-name 聖王
+name 溫祚王
+
+name 温祚王
+
+&
+name monarch+
+name 溫祚王在位
+
+[多婁王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"多婁王二年，春二月"
+name monarch
+name 多婁王
+u 2-2
+
+tag ctext百済
+name monarch
+name 多婁王
+
+&
+name monarch+
+name 多婁王在位
+
+[己婁王]
+
+tag ctext百済
+name monarch
+name 己婁王
+
+&
+name monarch+
+name 己婁在位
+
+[蓋婁王]
+
+tag ctext百済
+name monarch
+name 蓋婁王
+
+&
+name monarch+
+name 蓋婁在位
+
+[肖古王]
+
+tag ctext百済
+name monarch
+name 肖古王
+
+&
+name monarch+
+name 肖古在位
+
+[仇首王]
+
+tag ctext百済
+name monarch
+name 仇首王
+
+&
+name monarch+
+name 仇首王在位
+
+[古厼王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"古尒王五年，春正月十年，春正月十四年，春正月"
+name monarch
+name 古尒王
+u 5-1
+u 14-1
+
+tag ctext百済
+name monarch
+name 古尒王
+
+[責稽王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"責稽王二年，春正月"
+name monarch
+name 責稽王
+u 2-1
+
+tag ctext百済
+name monarch
+name 責稽王
+
+[汾西王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"汾西王二年，春正月"
+name monarch
+name 汾西王
+u 2-1
+
+tag ctext百済
+name monarch
+name 汾西王
+
+[比流王]
+
+tag ctext百済
+name monarch
+name 比流王
+
+&
+name monarch+
+name 比流王在位
+
+[契王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"契王二年，夏四月"
+name monarch
+name 契王
+u 2-4
+
+tag ctext百済
+name monarch
+name 契王
+
+[近肖古王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"近肖古王二年，春正月"
+name monarch
+name 近肖古王
+u 2-1
+
+tag ctext百済
+name monarch
+name 近肖古王
+
+&
+name monarch+
+name 近肖古在位
+
+[近仇首王]
+
+tag ctext百済
+name monarch
+name 近仇首王
 
 [枕流王]
+
+tag ctext百済
+name monarch
+name 枕流王
+&
 
 tag 三国遺事
 ## <https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E9%81%BA%E4%BA%8B/%E5%8D%B7%E7%AC%AC%E4%B8%89>
@@ -523,6 +980,152 @@ tag 三国遺事
 name monarch+
 name 第十五𭩝流王即位
 
+[辰斯王]
+
+tag ctext百済
+name monarch
+name 辰斯王
+
+[阿莘王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"阿莘王二年，春正月"
+name monarch
+name 阿莘王
+u 2-1
+
+tag ctext百済
+name monarch
+name 阿莘王
+
+&
+name monarch+
+name 阿莘在位
+
+[腆支王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"腆支王二年，春正月"
+name monarch
+name 腆支王
+u 2-1
+
+tag ctext百済
+name monarch
+name 腆支王
+
+[乆厼辛王]
+
+tag ctext百済
+name monarch
+name 久尒辛王
+
+[毗有王]
+
+tag ctext百済
+name monarch
+name 毗有王
+
+&
+name monarch+
+name 毗有在位
+
+[盖鹵王]
+
+tag ctext百済
+name monarch
+name 蓋鹵王
+
+&
+name monarch+
+name 蓋鹵在位
+
+[文周王]
+
+tag ctext百済
+name monarch
+name 文周王
+
+[三斤王]
+
+tag ctext百済
+name monarch
+name 三斤王
+
+[東城王]
+
+tag ctext百済
+name monarch
+name 東城王
+&
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B732>"牟大王十一年，冬十月"
+name monarch
+name 牟大王
+u 11-10
+
+&
+name monarch+
+name 牟大在位
+
+[武寧王]
+
+tag ctext百済
+name monarch
+name 武寧王
+
+[聖王]
+
+tag 三国遺事
+name monarch
+name 聖王
+
+tag ctext百済
+name monarch
+name 聖王
+
+&
+name monarch+
+name 聖王在位
+
+[威德王]
+
+tag ctext百済
+name monarch
+name 威德王
+
+[百済惠王]
+
+tag ctext百済
+name monarch
+name 惠王
+
+[法王]
+
+tag ctext百済
+name monarch
+name 法王
+
+[百済武王]
+
+tag ctext百済
+name monarch
+name 武王
+
+&
+name monarch+
+name 武王在位
+
+[義慈王]
+
+tag ctext百済
+name monarch
+name 義慈王
+
+&
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B737>"唐顯慶五年，是義慈王在位二十年"
+name monarch+
+name 義慈王在位
+u 20
+## AD660
 
 
 %tag region
@@ -584,7 +1187,16 @@ u 2
 %tag   name_ja 新羅王
 %tag   group of 朝鮮王
 
+%tag source
+%tag   key ctext新羅
+%tag   name_en Chinese Text Project: 新羅
+%tag   group of ctext
+
 [朴赫居世居西干]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B734>"初赫居世二十一年"
+name 赫居世
+u 21
 
 tag 三国遺事
 name monarch
@@ -593,10 +1205,41 @@ name 赫居世
 name country monarch
 name 新羅又赫居世
 &
-name country monarch+
-name 新羅始祖赫居世即位
+name monarch+
+name 始祖赫居世即位
+
+&
+tag 三国史記
+name monarch
+name 始祖赫居世
+&
+name monarch+
+name 始祖赫居世在位
+
+&
+tag ctext新羅
+name monarch
+name 赫居世居西干
+
+[南觧次次雄]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B738>"南解王七年"
+name monarch
+name 南解王
+u 7
+
+
+&
+tag ctext新羅
+name monarch
+name 南解次次雄
 
 [儒理尼師今]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B738>"儒理王九年"
+name monarch
+name 儒理王
+&
 
 tag 三国遺事
 name monarch
@@ -611,19 +1254,98 @@ name 新羅弩禮王
 name monarch
 name 奴禮王
 
+&
+tag ctext新羅
+name monarch
+name 儒理尼師今
+
+[脫觧尼師今]
+
+tag ctext新羅
+name monarch
+name 脫解尼師今
+
+[婆娑尼師今]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B734>"婆娑王二十二年"
+name monarch
+name 婆娑王
+u 22
+
+&
+tag ctext新羅
+name monarch
+name 婆娑尼師今
+
 [祇摩尼師今]
+
+tag ctext新羅
+name monarch
+name 祇摩尼師今
+&
 
 tag 三国遺事
 name country monarch
 name 羅第六祇麻王
 
+[逸聖尼師今]
+
+tag ctext新羅
+name monarch
+name 逸聖尼師今
+
 [阿達羅尼師今]
+
+tag ctext新羅
+name monarch
+name 阿達羅尼師今
+&
 
 tag 三国遺事
 name monarch
 name 第八阿達羅王即位
 
+[伐休尼師今]
+
+tag ctext新羅
+name monarch
+name 伐休尼師今
+
+[奈觧尼師今]
+
+tag ctext新羅
+name monarch
+name 奈解尼師今
+&
+
+tag 三国遺事
+name monarch+
+name 第十奈解王即位
+
+[助賁尼師今]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B745>"助賁王二年七月"
+name monarch
+name 助賁王
+u 2-7
+
+&
+tag ctext新羅
+name monarch
+name 助賁尼師今
+
+[沾解尼師今]
+
+tag ctext新羅
+name monarch
+name 沾解尼師今
+
 [味鄒尼師今]
+
+tag ctext新羅
+name monarch
+name 味鄒尼師今
+&
 
 tag 三国遺事
 ## <https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E9%81%BA%E4%BA%8B/%E5%8D%B7%E7%AC%AC%E4%B8%89>
@@ -631,6 +1353,41 @@ tag 三国遺事
 name monarch+
 name 末雛王即位
 u 2
+
+[儒禮尼師今]
+
+tag ctext新羅
+name monarch
+name 儒禮尼師今
+
+[基臨尼師今]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B734>"基臨王十年"
+name monarch
+name 基臨王
+u 10
+&
+
+tag ctext新羅
+name monarch
+name 基臨尼師今
+
+
+[訖觧尼師今]
+
+tag ctext新羅
+name monarch
+name 訖解尼師今
+
+[奈勿尼師今]
+
+name monarch
+name 奈勿王
+&
+
+tag ctext新羅
+name monarch
+name 奈勿尼師今
 
 def[奈勿尼師今(乙卯)]
 
@@ -655,19 +1412,45 @@ u 36
 <-訖觧尼師今 [新羅:355] #建元前の即位{#新羅 #奈勿尼師今 #新羅王} #三国遺事
     #異説
 
-[奈觧尼師今]
+[實聖尼師今]
+#y~3908
 
-tag 三国遺事
-name monarch+
-name 第十奈解王即位
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B745>"實聖王元年壬寅"
+name monarch
+name 實聖王
+u 1
+u 11
+
+&
+tag ctext新羅
+name monarch
+name 實聖尼師今
 
 [訥祗麻立干]
+
+tag ctext新羅
+name monarch
+name 訥祇麻立干
+&
 
 tag 三国遺事
 name monarch
 name 訥祗王即位
 
+[慈悲麻立干]
+
+tag ctext新羅
+name monarch
+name 慈悲麻立干
+
 [炤知麻立干]
+
+tag ctext新羅
+name monarch
+name 炤知麻立干
+## <https://ctext.org/datawiki.pl?if=en&res=538826&remap=gb>
+name 照知麻立干
+&
 
 tag 三国遺事
 name monarch
@@ -677,14 +1460,42 @@ name 第二十一毘處王即位
 name monarch
 name 第二十一炤智王即位
 
+[智證麻立干王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B738>"智證王九年"
+name monarch
+name 智證王
+u 9
+
+&
+tag ctext新羅
+name monarch
+name 智證麻立干
+
+
 [法興王]
 
-tag 三国遺事
-name monarch+
-name 法興大王即位
-&
+tag ctext新羅
 name monarch
 name 法興王
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B734>"法興王十一年，梁晉通六年"
+name monarch
+name 法興王
+u 11
+## 法興王11 AD524甲辰
+## 普通6 AD525乙巳
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B734>"以梁中大通四年，新羅法興王十九年"
+## 法興王19 AD532
+## 中大通4 AD532
+
+tag 三国遺事
+name monarch
+name 法興王
+&
+name monarch+
+name 法興大王即位
 
 def[建元(丙辰)]
 #y~529
@@ -757,6 +1568,11 @@ tag 三國史記 年表 新羅
 tag 三国遺事
 
 [真興王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B734>"眞興王十八年"
+name monarch
+name 眞興王
+u 18
 
 tag 三国遺事
 name monarch
@@ -974,6 +1790,14 @@ wref_zh 鴻濟
 name_tw 鴻濟
 
 
+[真智王]
+
+tag ctext新羅
+name monarch
+name 真智王
+
+
+
 def[建福(甲辰)]
 #y~229
 
@@ -1025,19 +1849,27 @@ tag 三國史記 年表 新羅
 
 tag 三国遺事
 
-[文武王]
-
-tag 三国遺事
-name monarch
-name 文武王
 
 [真平王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B734>"眞平王三十六年"
+name monarch
+name 眞平王
+u 36
 
 tag 三国遺事
 name monarch
 name 真平王
 
+tag ctext新羅
+name monarch
+name 眞平王
+
 [善德王]
+
+name monarch
+name 善德王
+&
 
 tag 三国時代
 name monarch+
@@ -1143,13 +1975,14 @@ name(kr) 태화
 #647-7 - 650
 #<-仁平 ->永徽
 
-<-仁平(新羅) ->太和(丁未),太和(戊申) [新羅:647-1-8,新羅:647-1]
+<-仁平(新羅) ->太和(丁未),太和(戊申) [新羅:647-1-8,新羅:647-1-17]
     #建元前の即位{#新羅 #真德王 #新羅王}
-<-仁平(新羅) [新羅:647-1-8,新羅:647-1] #支那改元日{#新羅 #真德王}
+<-仁平(新羅) [新羅:647-7] #支那改元日{#新羅 #真德王} #三国史記
 ->永徽 <-太和(丁未),太和(戊申) [唐:650-1-1,唐:650-1] #利用開始{#新羅 #真德王}
     #三國史記_年表_新羅
 
 def[太和(戊申)]
+#y~3991
 
 <-太和(丁未) [高麗:1145] #年旧説発生{} #新羅 #高麗
 
@@ -1176,6 +2009,50 @@ tag 三国遺事
 <-仁平(新羅) [新羅:648] #支那改元日{#新羅 #真德王} #旧説
 
 
+[真德王]
+
+tag ctext新羅
+name monarch
+name 眞德王
+&
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B733>"至眞德在位二年"
+name monarch+
+name 眞德在位
+u 2
+
+
+[太宗王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B738>"太宗王七年"
+name monarch
+name 太宗王
+u 7
+&
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B742>"太宗大王七年庚申夏六月"
+name monarch
+name 太宗大王
+u 7-6
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B747>"太宗大王七年庚申"
+name 太宗大王
+u 7
+## <https://dl.ndl.go.jp/pid/12172905/1/191> left bottom
+
+&
+tag ctext新羅
+name monarch
+name 太宗武烈王
+
+&
+name monarch
+name 太宗
+
+&
+name monarch
+name 武烈王
+
 
 %tag event
 %tag   name_ja 百済の役
@@ -1188,8 +2065,63 @@ tag 三国遺事
 %tag   group of 元号
 
 
+[文武王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B734>"文武王二十年，永隆元年"
+name 文武王
+u 20
+
+tag 三国遺事
+name monarch
+name 文武王
+
+tag ctext新羅
+name monarch
+name 文武王
+
+
+[神文王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B734>"神文王七年，唐垂拱三年"
+name monarch
+name 神文王
+u 7
+## (7) AD687
+## 垂拱(3) AD687
+
+## <https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B740>
+#"新文王五年罷下州停"
+## <https://dl.ndl.go.jp/pid/12172905/1/172>
+#"神文王五年"
+## <https://dl.ndl.go.jp/pid/1920811/1/208>
+#"神文王五年"
+
+tag ctext新羅
+name monarch
+name 神文王
+
+[孝昭王]
+
+tag ctext新羅
+name monarch
+name 孝昭王
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B738>"孝昭王八年"
+name monarch
+name 孝昭王
+u 8
+&
+
+tag 三国遺事
+name monarch
+name 三十二孝昭王即位
 
 [聖德王]
+
+tag ctext新羅
+name monarch
+name 聖德王
+&
 
 tag 三国遺事
 name monarch+
@@ -1198,11 +2130,104 @@ name 聖德王即位
 name monarch+
 name 聖德即位
 
+[孝成王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B738>"孝成王元年"
+name monarch
+name 孝成王
+u 1
+
+tag ctext新羅
+name monarch
+name 孝成王
+
+&
+name monarch
+name 孝成
+
+[景德王]
+
+tag ctext新羅
+name monarch
+name 景德王
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B734>"景德王十六年"
+name monarch
+name 景德王
+u 16
+&
+tag 三国遺事
+name monarch+
+name 景德王即位
+
+[惠恭王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B738>"惠恭王一二年"
+name monarch
+name 惠恭王
+
+tag ctext新羅
+name monarch
+name 惠恭王
+
+[宣德王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B739>"宣德王元年"
+name monarch
+name 宣德王
+u 1
+
+tag ctext新羅
+name monarch
+name 宣德王
+
 [元聖王]
+
+tag ctext新羅
+name monarch
+name 元聖王
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B738>"元聖王十三年"
+name monarch
+name 元聖王
+u 13
+&
 
 tag 三国遺事
 name monarch
 name 元聖大王
+
+[昭聖王]
+
+tag ctext新羅
+name monarch
+name 昭聖王
+
+[哀莊王]
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B738>"哀莊王六年"
+name monarch
+name 哀莊王
+u 6
+
+tag ctext新羅
+name monarch
+name 哀莊王
+
+[憲德王]
+
+tag ctext新羅
+name monarch
+name 憲德王
+&
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B745>"憲德大王十年戊戌"
+name 憲德大王
+u 10
+&
+tag 三国遺事
+name monarch
+name 第四十一憲德大王
 
 
 def[慶雲(壬寅)]
@@ -1264,7 +2289,99 @@ name(kr) 경운
 <-長慶 [新羅:822-3,新羅:822-3-18] #支那改元日{#長安国 #金憲昌} #起事建元
 ->長慶 [新羅:822-3-18,新羅:822-3] #陥落{#新羅, #長安国 #金憲昌} #捕縛
 
+
+[興德王]
+
+tag ctext新羅
+name monarch
+name 興德王
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B744>"興德王"
+name monarch
+name 興德王
+&
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B733>"興德王卽位九年，太和八年，"
+name monarch+
+name 興德王卽位
+u 9
+
+[僖康王]
+
+tag ctext新羅
+name monarch
+name 僖康王
+
+[閔哀王]
+
+tag ctext新羅
+name monarch
+name 閔哀王
+
+def[神武王]
+
+AD839 = 1
+
+tag 新羅
+tag 新羅人
+tag 朝鮮王即位紀年
+
+%tag person
+%tag   name 神武王
+tag 神武王
+
+tag ctext新羅
+name monarch
+name 神武王
+
+<-閔哀王 [新羅:839] #建元前の即位{#新羅 #神武王 #新羅王}
+
+[文聖王]
+
+tag ctext新羅
+name monarch
+name 文聖王
+
+[憲安王]
+
+tag ctext新羅
+name monarch
+name 憲安王
+
+[景文王]
+
+tag ctext新羅
+name monarch
+name 景文王
+
+[憲康王]
+
+tag ctext新羅
+name monarch
+name 憲康王
+
+[定康王]
+
+tag ctext新羅
+name monarch
+name 定康王
+
 [真聖王]
+#y~3962
+
+tag ctext新羅
+name monarch
+name 眞聖王
+&
+
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B750>"真聖王即位五年，大順二年辛亥"
+name monarch+
+name 真聖王即位
+u 5
+&
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B750>"唐昭宗景福元年，是新羅真聖王在位六年"
+name monarch+
+name 真聖王在位
+u 6
 
 tag 三国遺事
 name monarch+
@@ -1272,35 +2389,48 @@ name 真聖王在位
 
 [孝恭王]
 
-tag 三国遺事
+tag ctext新羅
 name monarch
 name 孝恭王
 
 [神德王]
 #y~3965
 
+s#三国史記<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B739>"景暉王二年"
+name monarch
+name 景暉王
+u 2
+&
 tag 三国遺事
 name monarch+
 name 神德王即位
 u 4
 
-[孝昭王]
-
-tag 三国時代
+&
+tag ctext新羅
 name monarch
-name 三十二孝昭王即位
+name 神德王
 
-[憲德王]
+[景明王]
 
-tag 三国遺事
+tag ctext新羅
 name monarch
-name 第四十一憲德大王
+name 景明王
 
-[景德王]
+[景哀王]
 
-tag 三国時代
-name monarch+
-name 景德王即位
+tag ctext新羅
+name monarch
+name 景哀王
+
+[敬順王]
+
+tag ctext新羅
+name monarch
+name 敬順王
+
+
+
 
 
 
@@ -1309,6 +2439,13 @@ name 景德王即位
 %tag tag
 %tag   name_ja 後三国時代
 %tag   period of 朝鮮
+
+[甄萱]
+
+## <http://contents.history.go.kr/front/ta/webBook.do?md=4&levelId=ta_p21_0080_0980_0040>
+#"[五年] 【唐昭宗景福元年 ○ 後百濟甄萱元年】"
+name monarch
+name 甄萱
 
 def[正開(辛酉)]
 
@@ -1491,7 +2628,7 @@ name(kr) 무태
 
 tag 三國史記 年表 高句麗
 
-tag 王建
+tag 高麗太祖
 
 
 def[聖冊]
@@ -1537,7 +2674,7 @@ name(kr) 성책
 
 tag 三國史記 年表 高句麗
 
-tag 王建
+tag 高麗太祖
 
 def[水德萬歲]
 #y~2193
@@ -1589,7 +2726,7 @@ name(kr) 수덕만세
 
 tag 三國史記 年表 高句麗
 
-tag 王建
+tag 高麗太祖
 
 def[永德萬歲]
 #y~368
@@ -1602,7 +2739,7 @@ tag 新羅
 tag 新羅人
 tag 朝鮮
 tag 弓裔政権
-tag 王建
+tag 高麗太祖
 
 tag 泰封
 
@@ -1657,15 +2794,15 @@ name(kr) 정개
 ## <https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%9D%98_%EC%97%B0%ED%98%B8>
 #915 - 918
 
-<-水德萬歲,永德萬歲 [高麗:914] #支那改元日{#泰封 #弓裔}
-    #三國史記_年表_高句麗
+<-水德萬歲,永德萬歲 [高麗:914-3,高麗:914] #支那改元日{#泰封 #弓裔}
+    #三國史記_年表_高句麗 #三国史記
 ->天授(戊寅) <-政開,弓裔 [高麗:918-6,高麗:918-6-丙辰]
-    #改元前の退位{#泰封 #弓裔 #朝鮮王} #王建
+    #改元前の退位{#泰封 #弓裔 #朝鮮王} #高麗太祖
 ->天授(戊寅) <-政開,弓裔 高麗:918-6-14 j:918-7-24 #改元前の死去{#泰封 #弓裔}
 
 tag 三國史記 年表 高句麗
 
-tag 王建
+tag 高麗太祖
 
 
 %tag country
@@ -1684,6 +2821,50 @@ tag 王建
 %tag   name_ja 高麗の公年号
 %tag   group of 朝鮮の公年号
 
+%tag tag
+%tag   name_ja 高麗王即位紀年
+%tag   group of 朝鮮王即位紀年
+
+%tag action
+%tag   name_ja 高麗称元
+%tag   group of 称元
+
+%tag action
+%tag   name_ja 高麗奉正朔
+%tag   group of 利用開始
+%tag   group of 分離
+
+%tag action
+%tag   name_ja 高麗奉正朔再開
+%tag   group of 高麗奉正朔
+%tag   group of 旧制再開
+
+%tag action
+%tag   name_ja 高麗元号廃止
+%tag   group of 元号廃止
+%tag   group of 利用開始
+
+%tag source
+%tag   name 高麗史
+
+%tag source
+%tag   name_tw 高麗史 年表 上國
+%tag   group of 高麗史
+
+%tag source
+%tag   name_tw 高麗史 年表 高麗
+%tag   group of 高麗史
+
+%tag source
+%tag   key ctext高麗
+%tag   name_en Chinese Text Project: 高麗
+%tag   group of ctext
+
+%tag person
+%tag   name 王隆
+%tag   &
+%tag   name 世祖
+
 def[天授(戊寅)]
 #y~281
 
@@ -1700,9 +2881,8 @@ tag 後三国時代
 tag 後百済
 tag 後唐
 
-%tag person
-%tag   name_ja 王建
-tag 王建
+tag 高麗太祖
+#王建
 
 wref_zh 天授 (高麗)
 name_tw 天授
@@ -1770,15 +2950,27 @@ name(kr) 천수
 #918 - 933
 #<-政開 ->天福
 
-<-政開,弓裔 高麗:918-6-丙辰 #国名変更{#泰封, #高麗} #王建 #事由
-<-政開,弓裔 高麗:918-6-丙辰 #建元前の即位{#高麗 #王建 #高麗王}
-<-政開,弓裔 高麗:918-6-丙辰 #支那改元日{#高麗 #王建}
-->長興 <-天授(戊寅),天授(庚午) [高麗:933] #即位{#後唐 #王建 #高麗王} #事由
-->長興 <-天授(戊寅),天授(庚午) [高麗:933] #利用開始{#高麗 #王建}
->< 高麗:943-5-29 j:943-7-4 #死去{#高麗 #王建}
+<-政開,弓裔 ->高麗太祖,天授(戊寅) 高麗:918-6-丙辰 #国名変更{#泰封, #高麗}
+    #高麗太祖 #事由 #高麗史
+<-政開,弓裔 ->高麗太祖,天授(戊寅) 高麗:918-6-丙辰
+    #建元前の即位{#高麗 #高麗太祖 #高麗王} #高麗史
+<-政開,弓裔 高麗:918-6-丙辰 #支那改元日{#高麗 #高麗太祖} #高麗史
+->長興 <-天授(戊寅),天授(庚午) 高麗:933-3-辛巳 #即位{#後唐 #高麗太祖 #高麗王}
+    #事由 #高麗史
+->長興 <-天授(戊寅),天授(庚午) 高麗:933-3-辛巳 #高麗奉正朔{#高麗 #高麗太祖}
+    #高麗史
+<-高麗太祖 ->惠宗 高麗:943-5-29 j:943-7-4 #改元前の死去{#高麗 #高麗太祖}
 
-<-敬順王 [高麗:935] #陥落{#高麗 #王建, #新羅 #敬順王}
+<-敬順王 [高麗:935] #陥落{#高麗 #高麗太祖, #新羅 #敬順王}
     #三國史記_年表_新羅
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E4%B8%80>"元年夏六月丙辰，卽位于布政殿，國號高麗，改元天授。"
+s+
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E4%BA%8C>"又賜曆日，自是，除天授年號，行後唐年號。"
+s+
+
+u 26
 
 def[天授(庚午)]
 #y~2194
@@ -1800,13 +2992,42 @@ tag 後唐
 
 name 天授
 
-<-unknown 高麗:918-6-丙辰 #支那改元日{#高麗 #王建} #旧説
+<-unknown 高麗:918-6-丙辰 #支那改元日{#高麗 #高麗太祖} #旧説
 
+[高麗太祖]
 
-%tag person
-%tag   name 王武
-%tag   &
-%tag   name 恵宗
+tag 元号に並行する即位紀年
+
+tag ctext高麗
+name monarch
+name 太祖
+
+&
+name monarch+
+name 太祖即位
+
+## <https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E9%81%BA%E4%BA%8B/%E5%8D%B7%E7%AC%AC%E4%B8%89>
+#"至本朝光宗即位五年癸丑十月。"
+#"現宗十三年辛酉"
+#"靖宗二年乙亥"
+#"高宗十六年戊戌冬月"
+## <https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E9%81%BA%E4%BA%8B/%E5%8D%B7%E7%AC%AC%E5%9B%9B>
+#"天福八年癸酉（太祖即位第二十六年也）正月日。"
+#"王豐六年辛巳（大金年號。本朝毅宗即位十六年也）九月。"
+
+[惠宗]
+
+#王武
+
+tag ctext高麗
+name monarch
+name 惠宗
+
+[高麗定宗]
+
+tag ctext高麗
+name monarch
+name 定宗
 
 
 def[光德]
@@ -1819,9 +3040,8 @@ tag 高麗人
 tag 高麗の公年号
 tag 朝鮮
 
-%tag person
-%tag   name_ja 王昭
-tag 王昭
+#王昭
+tag 高麗光宗
 
 wref_zh 光德
 name_tw 光德
@@ -1843,14 +3063,22 @@ name(kr) 광덕
 #both 後周 and 光德 were used [고려 군주의 국제적 위상, 박재우, AD2005]
 u 4
 
-<-乾祐 ->光德,光德(庚戌) g:949-4-13 #建元前の即位{#高麗 #王昭 #高麗王}
-<-乾祐 [g:949-4-13,高麗:949-3] #支那改元日{#高麗 #王昭} #分離
-->廣順 <-光德,光德(庚戌) [高麗:953] #即位{#後周 #王昭 #高麗王} #事由
-->廣順 <-光德,光德(庚戌) [高麗:953] #利用開始{#高麗 #王昭}
+u 26
+
+<-乾祐 ->光德,光德(庚戌),高麗光宗 g:949-4-13
+    #建元前の即位{#高麗 #高麗光宗 #高麗王}
+<-乾祐 [g:949-4-13,高麗:949-3] #支那改元日{#高麗 #高麗光宗} #分離
+->廣順 <-光德,光德(庚戌) [高麗:951-12] #高麗奉正朔{#高麗 #高麗光宗} #高麗史
+->廣順 <-光德,光德(庚戌) [高麗:953] #即位{#後周 #高麗光宗 #高麗王} #事由
+->廣順 <-光德,光德(庚戌) [高麗:953] #高麗奉正朔{#高麗 #高麗光宗} #旧説
+
+[廣順]
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E4%BA%8C>"冬十二月，始行後周年號。"
+s+
 
 def[光德(庚戌)]
 
-<-光德 [高麗:950,g:2000] #年誤伝発生 #高麗
+<-光德 [高麗:950,g:2000] #年誤伝発生{} #高麗
 
 AD950 = 1
 
@@ -1859,7 +3087,7 @@ tag 高麗人
 tag 高麗の公年号
 tag 朝鮮
 
-tag 王昭
+tag 高麗光宗
 
 wref_ja 光徳 (高麗)
 name_ja 光徳
@@ -1878,9 +3106,244 @@ u 4
 #光徳 950 - 951
 #峻豊 960 - 963
 
-<-乾祐 [高麗:950] #支那改元日{#高麗 #王昭} #分離 #旧説
-->廣順 [高麗:951] #利用開始{#高麗 #王昭} #旧説
+<-乾祐 [高麗:950] #支那改元日{#高麗 #高麗光宗} #分離 #旧説
+->廣順 [高麗:951] #利用開始{#高麗 #高麗光宗} #旧説
 
+[高麗光宗]
+
+tag 元号に並行する即位紀年
+
+tag ctext高麗
+name monarch
+name 光宗
+
+[景宗]
+
+tag ctext高麗
+name monarch
+name 景宗
+
+[成宗]
+
+tag ctext高麗
+name monarch
+name 成宗
+
+[穆宗]
+
+tag ctext高麗
+name monarch
+name 穆宗
+
+[顯宗]
+
+tag ctext高麗
+name monarch
+name 顯宗
+
+[德宗]
+
+tag ctext高麗
+name monarch
+name 德宗
+
+[靖宗]
+
+tag ctext高麗
+name monarch
+name 靖宗
+
+[文宗]
+
+tag ctext高麗
+name monarch
+name 文宗
+
+def[順宗]
+
+AD1083 = 1
+
+tag 高麗
+tag 高麗人
+tag 高麗史 年表 高麗
+tag 高麗王即位紀年
+
+%tag person
+%tag   key 高麗順宗
+%tag   name 順宗
+tag 高麗順宗
+
+## <https://ctext.org/datawiki.pl?if=en&res=665318>
+#"1083/9/2高麗順宗三十七年七月辛酉      1083/12/5高麗順宗三十七年十月乙未"
+
+## <http://221.214.181.176:8083/cache/ABE4701535F8A39C9FEE7879867CBDE5.pdf#page=212>
+## "辽太康九年正是高麗順宗元年（1083 年）。"
+name 順宗
+u 1
+
+<-文宗 j:1083-9-2 #建元前の即位{#高麗 #高麗順宗 #高麗王}
+->高麗宣宗 j:1083-12-5 #改元前の死去{#高麗 #高麗順宗}
+
+[高麗宣宗]
+
+tag ctext高麗
+name monarch
+name 宣宗
+#"1083/12/6高麗宣宗三十七年十月丙申     1095/2/7高麗宣宗十一年十二月丁酉"
+
+[獻宗]
+
+tag ctext高麗
+name monarch
+name 獻宗
+
+[高麗肅宗]
+
+tag ctext高麗
+name monarch
+name 肅宗
+
+[睿宗]
+
+tag ctext高麗
+name monarch
+name 睿宗
+
+[高麗仁宗]
+
+tag ctext高麗
+name monarch
+name 仁宗
+
+[毅宗]
+
+tag ctext高麗
+name monarch
+name 毅宗
+
+[明宗]
+
+tag ctext高麗
+name monarch
+name 明宗
+
+[高麗神宗]
+
+tag ctext高麗
+name monarch
+name 神宗
+
+[熙宗]
+
+tag ctext高麗
+name monarch
+name 熙宗
+
+[康宗]
+
+tag ctext高麗
+name monarch
+name 康宗
+
+[高麗高宗]
+
+tag ctext高麗
+name monarch
+name 高宗
+
+[元宗]
+
+tag ctext高麗
+name monarch
+name 元宗
+
+[忠烈王]
+
+tag ctext高麗
+name monarch
+name 忠烈王
+
+[忠宣王]
+
+tag ctext高麗
+name monarch
+name 忠宣王
+
+[忠肅王]
+
+tag ctext高麗
+name monarch
+name 忠肅王
+#"1314/1/17高麗忠肅王元年正月丙戌       1340/1/28（後元）八年十二月癸丑"
+
+tag 前元
+
+[忠惠王]
+
+tag ctext高麗
+name monarch
+name 忠惠王
+#"1331/2/8高麗忠惠王元年正月丁丑        1345/2/2（後元）五年十二月乙酉"
+
+tag 前元
+
+[忠肅王後]
+
+&
+tag ctext高麗
+name 後元
+
+[忠惠王後]
+
+&
+tag ctext高麗
+name 後元
+
+[忠穆王]
+
+tag ctext高麗
+name monarch
+name 忠穆王
+
+[忠定王]
+
+tag ctext高麗
+name monarch
+name 忠定王
+
+[恭愍王]
+
+tag ctext高麗
+name monarch
+name 恭愍王
+
+[辛禑]
+
+&
+tag ctext高麗
+name monarch
+name 禑王
+u 1
+u 14
+
+[辛昌]
+
+&
+tag ctext高麗
+name monarch
+name 昌王
+u 1
+
+[恭讓王]
+
+tag ctext高麗
+name monarch
+name 恭讓王
+u 1
+u 4
+
+->朝鮮太祖 j:1392-7-31 #改元前の退位{#高麗 #恭讓王 #高麗王} #李氏朝鮮 #禅譲
+    #朝鮮太祖
 
 
 
@@ -1901,15 +3364,7 @@ u 6
 
 
 
-# XXX
-## <https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E9%81%BA%E4%BA%8B/%E5%8D%B7%E7%AC%AC%E4%B8%89>
-#"至本朝光宗即位五年癸丑十月。"
-#"現宗十三年辛酉"
-#"靖宗二年乙亥"
-#"高宗十六年戊戌冬月"
-## <https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E9%81%BA%E4%BA%8B/%E5%8D%B7%E7%AC%AC%E5%9B%9B>
-#"天福八年癸酉（太祖即位第二十六年也）正月日。"
-#"王豐六年辛巳（大金年號。本朝毅宗即位十六年也）九月。"
+
 
 
 def[天開(乙卯)]
@@ -1987,6 +3442,22 @@ name(kr) 천개
 %tag   name_ja 李氏朝鮮
 %tag   period of 朝鮮
 
+%tag tag
+%tag   name_ja 李氏朝鮮王即位紀年
+%tag   group of 朝鮮王即位紀年
+
+%tag action
+%tag   name_ja 李氏朝鮮称元
+%tag   group of 称元
+
+%tag source
+%tag   name 朝鮮王朝實錄
+
+%tag source
+%tag   key ctext朝鮮
+%tag   name_en Chinese Text Project: 大朝鮮國
+%tag   group of ctext
+
 %tag country
 %tag   name_ja 明領朝鮮
 %tag   period of 李氏朝鮮
@@ -1996,6 +3467,539 @@ name(kr) 천개
 %tag   name_ja 清領朝鮮
 %tag   period of 李氏朝鮮
 %tag   region of 清
+
+def[朝鮮太祖]
+tag 李氏朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   key 朝鮮太祖
+%tag   name 太祖
+tag 朝鮮太祖
+name monarch
+name 太祖
+AD1392 = 1
+tag 朝鮮王朝實錄
+
+<-恭讓王 [李氏朝鮮:1392] #李氏朝鮮称元{#李氏朝鮮 #朝鮮太祖}
+
+def[朝鮮定宗]
+tag 李氏朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   key 朝鮮定宗
+%tag   name 定宗
+tag 朝鮮定宗
+name monarch
+name 定宗
+AD1399 = 1
+tag 朝鮮王朝實錄
+
+<-朝鮮太祖 [李氏朝鮮:1399] #李氏朝鮮称元{#李氏朝鮮 #朝鮮定宗}
+
+def[朝鮮太宗]
+tag 明領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   key 朝鮮太宗
+%tag   name 太宗
+tag 朝鮮太宗
+name monarch
+name 太宗
+
+AD1401 = 1
+tag 朝鮮王朝實錄
+
+<-朝鮮定宗 [李氏朝鮮:1401] #李氏朝鮮称元{#李氏朝鮮 #朝鮮太宗}
+
+def[世宗]
+tag 明領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   key 朝鮮世宗
+%tag   name 世宗
+tag 朝鮮世宗
+name monarch
+name 世宗
+
+AD1419 = 1
+tag 朝鮮王朝實錄
+
+<-朝鮮太宗 [李氏朝鮮:1419] #李氏朝鮮称元{#李氏朝鮮 #朝鮮世宗}
+
+def[朝鮮文宗]
+tag 明領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   key 朝鮮文宗
+%tag   name 文宗
+tag 朝鮮文宗
+name monarch
+name 文宗
+
+AD1451 = 1
+tag 朝鮮王朝實錄
+
+<-世宗 [李氏朝鮮:1451] #李氏朝鮮称元{#李氏朝鮮 #朝鮮文宗}
+
+def[端宗]
+tag 明領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   key 朝鮮端宗
+%tag   name 端宗
+tag 朝鮮端宗
+name monarch
+name 端宗
+
+AD1453 = 1
+tag 朝鮮王朝實錄
+
+<-朝鮮文宗 [李氏朝鮮:1453] #李氏朝鮮称元{#李氏朝鮮 #朝鮮端宗}
+
+def[世祖]
+tag 明領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+%tag person
+%tag   name 世祖
+tag 世祖
+name monarch
+name 世祖
+
+AD1455 = 1
+tag 朝鮮王朝實錄
+
+<-端宗 [李氏朝鮮:1455] #李氏朝鮮称元{#李氏朝鮮 #世祖}
+
+def[朝鮮睿宗]
+tag 明領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   key 朝鮮睿宗
+%tag   name 睿宗
+tag 朝鮮睿宗
+name monarch
+name 睿宗
+
+AD1469 = 1
+tag 朝鮮王朝實錄
+
+<-世祖 [李氏朝鮮:1469] #李氏朝鮮称元{#李氏朝鮮 #朝鮮睿宗}
+
+def[朝鮮成宗]
+tag 明領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   key 朝鮮成宗
+%tag   name 成宗
+tag 成宗
+name monarch
+name 成宗
+
+AD1470 = 1
+tag 朝鮮王朝實錄
+
+<-朝鮮睿宗 [李氏朝鮮:1470] #李氏朝鮮称元{#李氏朝鮮 #朝鮮成宗}
+
+def[燕山君]
+tag 明領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   name 燕山君
+tag 燕山君
+name monarch
+name 燕山君
+
+AD1495 = 1
+tag 朝鮮王朝實錄
+
+<-朝鮮成宗 [李氏朝鮮:1495] #李氏朝鮮称元{#李氏朝鮮 #燕山君}
+
+def[中宗]
+tag 明領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+
+%tag person
+%tag   name 中宗
+tag 中宗
+name monarch
+name 中宗
+
+AD1507 = 1
+tag 朝鮮王朝實錄
+
+<-燕山君 [李氏朝鮮:1507] #李氏朝鮮称元{#李氏朝鮮 #中宗}
+
+def[中宗(丁卯)]
+
+<-中宗 [李氏朝鮮:1507,g:2020] #年旧説発生{} #李氏朝鮮
+
+tag 明領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+tag 中宗
+name monarch
+name 中宗
+
+AD1507 = 1
+
+<-燕山君 [李氏朝鮮:1507] #李氏朝鮮称元{#李氏朝鮮 #中宗} #旧説
+
+def[仁宗]
+tag 明領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   key 朝鮮仁宗
+%tag   name 仁宗
+tag 朝鮮仁宗
+name monarch
+name 仁宗
+
+tag 朝鮮王朝實錄
+AD1545 = 1
+
+<-中宗 [李氏朝鮮:1545] #李氏朝鮮称元{#李氏朝鮮 #朝鮮仁宗}
+
+def[朝鮮明宗]
+tag 明領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   key 朝鮮明宗
+%tag   name 明宗
+tag 朝鮮明宗
+name monarch
+name 明宗
+
+AD1546 = 1
+tag 朝鮮王朝實錄
+
+<-仁宗 [李氏朝鮮:1546] #李氏朝鮮称元{#李氏朝鮮 #朝鮮明宗}
+
+def[宣祖]
+tag 明領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   name 宣祖
+tag 宣祖
+name monarch
+name 宣祖
+
+AD1568 = 1
+tag 朝鮮王朝實錄
+
+<-朝鮮明宗 [李氏朝鮮:1568] #李氏朝鮮称元{#李氏朝鮮 #宣祖}
+
+def[光海君]
+tag 明領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   name 光海君
+tag 光海君
+name monarch
+name 光海君
+AD1609 = 1
+<-宣祖 [李氏朝鮮:1609] #李氏朝鮮称元{#李氏朝鮮 #光海君}
+
+def[仁祖]
+tag 明領朝鮮
+tag 清領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+
+%tag person
+%tag   name 仁祖
+tag 仁祖
+name monarch
+name 仁祖
+
+AD1623 = 1
+tag 朝鮮王朝實錄
+
+<-光海君 [李氏朝鮮:1623] #李氏朝鮮称元{#李氏朝鮮 #仁祖}
+def[仁祖(甲子)]
+
+<-仁祖 [李氏朝鮮:1624,g:2020] #年旧説発生{} #李氏朝鮮
+
+tag 明領朝鮮
+tag 清領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+tag 仁祖
+name monarch
+name 仁祖
+AD1624 = 1
+<-光海君 [李氏朝鮮:1624] #李氏朝鮮称元{#李氏朝鮮 #仁祖} #旧説
+
+def[孝宗]
+tag 清領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   key 朝鮮孝宗
+%tag   name 孝宗
+tag 朝鮮孝宗
+name monarch
+name 孝宗
+
+AD1650 = 1
+tag 朝鮮王朝實錄
+
+<-仁祖 [李氏朝鮮:1650] #李氏朝鮮称元{#李氏朝鮮 #朝鮮孝宗}
+
+def[朝鮮顯宗]
+tag 清領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   key 朝鮮顯宗
+%tag   name 顯宗
+tag 朝鮮顯宗
+name monarch
+name 顯宗
+
+AD1660 = 1
+tag 朝鮮王朝實錄
+
+<-孝宗 [李氏朝鮮:1660] #李氏朝鮮称元{#李氏朝鮮 #朝鮮顯宗}
+
+def[朝鮮肅宗]
+tag 清領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   key 朝鮮肅宗
+%tag   name 肅宗
+tag 朝鮮肅宗
+name monarch
+name 肅宗
+
+AD1675 = 1
+tag 朝鮮王朝實錄
+
+<-朝鮮顯宗 [李氏朝鮮:1675] #李氏朝鮮称元{#李氏朝鮮 #朝鮮肅宗}
+
+def[朝鮮景宗]
+tag 清領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   key 朝鮮景宗
+%tag   name 景宗
+tag 景宗
+name monarch
+name 景宗
+
+AD1721 = 1
+tag 朝鮮王朝實錄
+
+<-朝鮮肅宗 [李氏朝鮮:1721] #李氏朝鮮称元{#李氏朝鮮 #朝鮮景宗}
+
+def[英祖]
+tag 清領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   name 英祖
+tag 英祖
+name monarch
+name 英祖
+
+AD1725 = 1
+tag 朝鮮王朝實錄
+
+<-朝鮮景宗 [李氏朝鮮:1725] #李氏朝鮮称元{#李氏朝鮮 #英祖}
+
+def[正祖]
+tag 清領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   name 正祖
+tag 正祖
+name monarch
+name 正祖
+
+AD1777 = 1
+tag 朝鮮王朝實錄
+
+<-英祖 [李氏朝鮮:1777] #李氏朝鮮称元{#李氏朝鮮 #正祖}
+
+def[純祖]
+tag 清領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   name 純祖
+tag 純祖
+name monarch
+name 純祖
+
+AD1801 = 1
+tag 朝鮮王朝實錄
+
+<-正祖 [李氏朝鮮:1801] #李氏朝鮮称元{#李氏朝鮮 #純祖}
+
+def[朝鮮憲宗]
+tag 清領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   key 朝鮮憲宗
+%tag   name 憲宗
+tag 朝鮮憲宗
+name monarch
+name 憲宗
+
+AD1835 = 1
+tag 朝鮮王朝實錄
+
+<-純祖 [李氏朝鮮:1835] #李氏朝鮮称元{#李氏朝鮮 #朝鮮憲宗}
+
+def[哲宗]
+tag 清領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag ctext朝鮮
+
+%tag person
+%tag   key 朝鮮哲宗
+%tag   name 哲宗
+tag 朝鮮哲宗
+name monarch
+name 哲宗
+
+AD1850 = 1
+tag 朝鮮王朝實錄
+
+<-朝鮮憲宗 [李氏朝鮮:1850] #李氏朝鮮称元{#李氏朝鮮 #朝鮮哲宗}
+
+def[高宗]
+tag 清領朝鮮
+tag 大韓帝国
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+tag 李㷩
+tag ctext朝鮮
+name monarch
+name 高宗
+
+AD1864 = 1
+tag 朝鮮王朝實錄
+
+&
+## <https://dl.ndl.go.jp/pid/1147962/1/72>
+name monarch
+name 李太王
+
+&
+## <https://dl.ndl.go.jp/pid/1573262/1/21>
+name monarch
+name(ja) 李王(凞)
+
+<-哲宗 [李氏朝鮮:1864] #李氏朝鮮称元{#李氏朝鮮 #李㷩}
+
+def[純宗]
+#y~4080
+
+tag 大韓帝国
+tag 日本領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+
+tag 李坧
+
+tag 朝鮮王朝實錄
+
+name monarch
+name 純宗
+
+AD1908 = 1
+u 1
+u 21
+
+<-高宗 g:1908-1-1 #李氏朝鮮称元{#大韓帝国 #李㷩}
+->昭和 <-李王,純宗 g:1926-4-24 #改元前の死去{#日本領朝鮮 #李㷩}
+
+def[李王]
+#y~4081
+
+<-純宗 [g:1907-7-19,g:1915-3-28] #年異説発生利用開始{} #大韓帝国 #日本領朝鮮
+
+tag 大韓帝国
+tag 日本領朝鮮
+tag 朝鮮人
+tag 李氏朝鮮王即位紀年
+
+tag 李坧
+
+## <https://dl.ndl.go.jp/pid/1147962/1/72>
+name monarch
+name 李王
+u 1
+
+AD1907 = 1
+
 
 %tag country
 %tag   name_ja 大韓帝国
@@ -2104,6 +4108,12 @@ name 朝鮮紀元
 
 <-光緒 g:1894-7-27 #利用開始{#李氏朝鮮 #李㷩} #分離
 
+%tag action
+%tag   name 大韓帝国改元
+%tag   group of 制定
+%tag   group of 改元日
+%tag   group of 適用開始
+%tag   group of グレゴリオ暦
 
 def[建陽]
 #y~677
@@ -2118,6 +4128,10 @@ tag 大韓帝国の公年号
 
 %tag person
 %tag   name_ja 李㷩
+%tag   &
+%tag   name 高宗
+%tag   &
+%tag   name 李太王
 tag 李㷩
 
 wref_zh 建陽 (朝鮮王朝)
@@ -2168,7 +4182,7 @@ name(kr) 건양
 <-開國 g:1895-5-8 #独立発効{#清, #李氏朝鮮} #下関条約 #大日本帝国 #事由
 <-開國 g:1895-10-8 #政変{#李氏朝鮮 #李㷩} #乙未事変
 <-開國 g:1896-1-1 #グレゴリオ改暦{#李氏朝鮮 #李㷩} #事由 #グレゴリオ暦
-<-開國 g:1896-1-1 #制定 #改元日 #適用開始{#李氏朝鮮 #李㷩} #グレゴリオ暦
+<-開國 g:1896-1-1 #大韓帝国改元{#李氏朝鮮 #李㷩}
 
 tag 近代諸元号現象・改
 #p.674
@@ -2236,7 +4250,7 @@ name(kr) 광무
 %tag   group of 皇帝
 
 <-建陽 g:1897-8-14 #制定{#李氏朝鮮 #李㷩} #グレゴリオ暦
-<-建陽 g:1897-8-16 #制定 #改元日 #適用開始{#李氏朝鮮 #李㷩} #グレゴリオ暦 #旧説
+<-建陽 g:1897-8-16 #大韓帝国改元{#李氏朝鮮 #李㷩} #旧説
 <-建陽 g:1897-8-17 #適用開始{#李氏朝鮮 #李㷩} #グレゴリオ暦
 <-建陽 [g:1897-8-14,g:1897-8-30] #通知受領{#李氏朝鮮, #大日本帝国}
     #グレゴリオ暦
@@ -2264,6 +4278,10 @@ tag 大韓帝国の公年号
 
 %tag person
 %tag   name_ja 李坧
+%tag   &
+%tag   name 純宗
+%tag   &
+%tag   name 李王
 tag 李坧
 tag 君主名の元号
 
@@ -2298,9 +4316,12 @@ name(kr) 융희
 #<-光武 ->none
 
 
-<-光武 g:1907-7-20 #建元前の即位{#大韓帝国 #李坧 #大韓帝国皇帝}
+<-光武 ->純宗,李王,隆熙 g:1907-7-19
+    #建元前の即位{#大韓帝国 #李坧 #大韓帝国皇帝}
+<-光武 ->純宗,李王,隆熙 g:1907-7-20
+    #建元前の即位{#大韓帝国 #李坧 #大韓帝国皇帝} #旧説
 <-光武 g:1907-8-2 #建元前の即位{#大韓帝国 #李坧 #大韓帝国皇帝} #旧説
-<-光武 g:1907-8-2 #制定 #改元日 #適用開始{#大韓帝国 #李坧}
+<-光武 g:1907-8-2 #大韓帝国改元{#大韓帝国 #李坧}
 ->明治 g:1910-8-29 #勢力吸収{#大日本帝国, #大韓帝国 #李坧} #グレゴリオ暦
 
 tag 近代諸元号現象・改
@@ -2308,6 +4329,16 @@ tag 近代諸元号現象・改
 
 tag 三訂 近代諸元号現象
 #p.8
+
+s#朝鮮王朝實錄<https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E7%B4%94%E5%AE%97%E5%AF%A6%E9%8C%84/%E5%8D%BD%E4%BD%8D%E5%B9%B4>"改元年號望"
+s+
+#1907-07-19
+#"十九日。〈陰曆丁未六月十日〉承命代理聽政，仍受禪。"
+#1907-8-2
+#"內閣總理大臣李完用以「改元年號望：『隆熙』、『太始』，議定上奏」
+#奉硃圈用『隆熙』二字欽此。"
+#1907-8-3
+#"隆熙元年八月三日"
 
 
 %tag country

@@ -814,6 +814,7 @@ sub parse_date ($$;%) {
       $x = '晋' if $x eq '新羅' and $y < 450;
       $x = '?' if $x eq '越南' and $y < 500;
       $x = '唐' if $x eq '越南' and $y < 970;
+      $x = '明' if $x eq '李氏朝鮮' and $y <= 1637;
       if ($x eq '?') {
         if ($args{start}) {
           push @jd, gymd2jd $y, 1, 1;
