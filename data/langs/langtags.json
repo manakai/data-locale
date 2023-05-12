@@ -1,6 +1,6 @@
 {
    "_ext_file_date" : "2014-04-02",
-   "_file_date" : "2023-04-13",
+   "_file_date" : "2023-05-11",
    "extension" : {
       "t" : {
          "Comments" : [
@@ -102707,6 +102707,36 @@
             "sa"
          ],
          "_added" : "2010-07-28",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "bciav" : {
+         "Comments" : [
+            "Name given to a subset of the variety of Blissymbolics curated  by Blissymbolics Communication International, as represented by  entries in the BCI Authorized Vocabulary"
+         ],
+         "Description" : [
+            "BCI Blissymbolics AV"
+         ],
+         "Prefix" : [
+            "zbl"
+         ],
+         "_added" : "2023-05-11",
+         "_registry" : {
+            "iana" : 1
+         }
+      },
+      "bcizbl" : {
+         "Comments" : [
+            "Name given to the variety of Blissymbolics curated by  Blissymbolics Communication International"
+         ],
+         "Description" : [
+            "BCI Blissymbolics"
+         ],
+         "Prefix" : [
+            "zbl"
+         ],
+         "_added" : "2023-05-11",
          "_registry" : {
             "iana" : 1
          }
