@@ -797,6 +797,14 @@
          "bcp47_canonical" : "blk",
          "mediawiki" : "blk"
       },
+      "blo" : {
+         "bcp47_canonical" : "blo",
+         "cldr" : "blo"
+      },
+      "blo-bj" : {
+         "bcp47_canonical" : "blo-BJ",
+         "cldr" : "blo_BJ"
+      },
       "blt" : {
          "bcp47_canonical" : "blt",
          "cldr" : "blt",
