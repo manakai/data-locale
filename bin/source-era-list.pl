@@ -6,14 +6,17 @@ use JSON::PS;
 my $RootPath = path (__FILE__)->parent->parent;
 
 my $In = {items => []};
-for my $path (($RootPath->child ('src')->children (qr/^era-list-\w+\.txt$/))) {
+for my $path (
+  ($RootPath->child ('src')->children (qr/^era-list-\w+\.txt$/)),
+  ($RootPath->child ('intermediate/wikimedia')->children (qr/^era-list-\w+\.txt$/)),
+) {
   my $tag;
   for (split /\x0D?\x0A/, $path->slurp_utf8) {
     if (/^\s*#/) {
       #
     } elsif (/^tag\s+(\S.+\S)\s*$/) {
       $tag = $1;
-    } elsif (/^(\w+)\s+([0-9]+)(?:\s+([0-9]+)|)\s*$/) {
+    } elsif (/^(\w+)\s+(-?[0-9]+)(?:\s+([0-9]+)|)\s*$/) {
       push @{$In->{items}}, {
         name => $1,
         ad_year => $2,
@@ -21,7 +24,7 @@ for my $path (($RootPath->child ('src')->children (qr/^era-list-\w+\.txt$/))) {
         path => $path,
         tags => [$tag],
       };
-    } elsif (/^(\w+),(\w+)\s+([0-9]+)(?:\s+([0-9]+)|)\s*$/) {
+    } elsif (/^(\w+),(\w+)\s+(-?[0-9]+)(?:\s+([0-9]+)|)\s*$/) {
       push @{$In->{items}}, {
         name => $1,
         ad_year => $3,

@@ -976,6 +976,9 @@ wref_ko 건무 (후조)
 name(kr) 건무
 #335 - 348
 
+## <https://soka.repo.nii.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=39086&item_no=1&page_id=13&block_id=68>
+name(en) Jian-wu
+
 <-延熙(甲午),延熙(癸巳) ->建武(乙未),永熙(後趙),延興 [晋:334-12]
     #建元前の即位{#後趙 #石虎 #摂政}
 <-延熙(甲午),延熙(癸巳),延興 [晋:335-1] #支那改元日{#後趙 #石虎}

@@ -1446,7 +1446,7 @@ name_kana げん ぺい
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7007>"元平元年春二月"
 s+
-->本始 漢:BC74-4-癸未 #改元前の死去{#前漢 #漢昭帝}
+->本始,劉詢 漢:BC74-4-癸未 #改元前の死去{#前漢 #漢昭帝}
 
 [本始]
 #y~894
@@ -1477,9 +1477,23 @@ name_ja 本始
 name_kana ほん し
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7008>"即皇帝位"
-<-元平 漢:BC74-7-庚申 #建元前の即位{#前漢 #漢宣帝 #漢皇帝}
+<-元平 ->本始,劉詢 漢:BC74-7-庚申 #建元前の即位{#前漢 #漢宣帝 #漢皇帝}
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7008>"本始元年春正月"
 s+
+
+def[劉詢]
+
+BC73 = 1
+
+tag 前漢
+tag 漢土
+tag 漢民族
+
+tag 漢宣帝
+tag 支那皇帝即位紀年
+
+name country monarch
+name 前漢孝宣帝詢
 
 [地節]
 #y~527
@@ -1591,6 +1605,8 @@ s+
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7025%E4%B8%8B>"五鳳"
 s+
 
+<-神爵 [漢:BC57] #支那改元日{#前漢 #漢宣帝}
+
 [甘露]
 #y~896
 BC53 = 1
@@ -1641,7 +1657,7 @@ name_kana こう りゅう
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7008>"黃龍元年春正月"
 name 黃龍
 s+
-->初元 漢:BC49-12-甲戌 #改元前の死去{#前漢 #漢宣帝}
+->初元 <-黃龍,劉詢 漢:BC49-12-甲戌 #改元前の死去{#前漢 #漢宣帝}
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7025%E4%B8%8B>"黃龍"
 s+
 
@@ -1656,10 +1672,11 @@ tag 前元
 
 %tag person
 %tag   label_ja 漢元帝
-%tag   &
 %tag   name_ja 漢元帝
 %tag   &
-%tag   prefix name 元帝
+%tag   name 元帝
+%tag   &
+%tag   name 孝元帝
 tag 漢元帝
 
 ## [102]
@@ -1672,7 +1689,7 @@ name_ja 初元
 name_kana しょ げん
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7009>"即皇帝位"
-<-黃龍 漢:BC49-12-癸巳 #建元前の即位{#前漢 #漢元帝 #漢皇帝}
+<-黃龍,劉詢 漢:BC49-12-癸巳 #建元前の即位{#前漢 #漢元帝 #漢皇帝}
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7009>"初元元年春正月辛丑"
 s+
 
@@ -1857,6 +1874,23 @@ name_kana こう か
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7010>"鴻嘉元年春二月"
 s+
 
+def[鴻佳]
+
+<-鴻嘉 [漢:BC20,高麗:1289] #名誤伝発生{} #前漢 #高麗
+tag 三国遺事
+
+BC20 = 1
+
+tag 前漢
+tag 漢土
+tag 漢民族
+
+tag 漢成帝
+
+name 鴻佳
+
+<-陽朔 [漢:BC20-4,漢:BC20-5] #支那改元日{#前漢 #漢成帝} #異表記元号へ
+
 [永始]
 #y~1312
 BC16 = 1
@@ -1879,6 +1913,8 @@ u 1-6
 
 s#漢書<https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7010>"永始元年春正月癸丑"
 s+
+
+<-鴻嘉,鴻佳 [漢:BC16,漢:BC16-6] #支那改元日{#前漢 #漢成帝}
 
 [元延]
 #y~1075
@@ -2713,6 +2749,11 @@ tag 漢民族
 %tag   name_ja 光武帝
 %tag   &
 %tag   prefix name_ja 光武
+%tag   &
+%tag   prefix name 光武劉秀
+%tag   &
+##     避諱 #高麗 #惠宗
+%tag   prefix name 光虎帝
 tag 光武帝
 
 ## [102]
@@ -2735,7 +2776,7 @@ name_kana けん ぶ
 name(kr) 건무
 
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B71%E4%B8%8A>"六月己未"
-<-更始 漢:25-6-己未 #建元前の即位{#後漢 #光武帝 #漢皇帝}
+<-更始 ->建武(乙酉),建虎 漢:25-6-己未 #建元前の即位{#後漢 #光武帝 #漢皇帝}
 #春秋演孔圖
 <-更始 漢:25-6-己未 #支那改元日{#後漢 #光武帝} #起事建元
 
@@ -2749,12 +2790,32 @@ tag 竇融
 >< [漢:29-4,漢:29-6] #連合{#後漢 #光武帝, #竇融}
 #   漢:29-夏
 
-&
-name country+
-name 漢建武
-&
-name country monarch+
-name 漢光武劉秀建武
+tag 避諱前元号
+
+tag 三国遺事
+name 建㱏
+name 䢖㱏
+
+def[建虎]
+
+<-建武(乙酉) [j:943-7-5,高麗:1289] #避諱別名発生{#高麗, #惠宗}
+tag 避諱後元号
+
+AD25 = 1
+
+tag 後漢
+tag 漢土
+tag 漢民族
+
+tag 光武帝
+
+tag 三国遺事
+tag 高麗
+name 建虎
+u 18
+
+<-更始 漢:25-6-己未 #支那改元日{#後漢 #光武帝} #起事建元 #避諱元号へ
+
 
 
 [建武中元]
@@ -2782,7 +2843,7 @@ u 1-2
 #<-建武(乙酉) 0056-4
 u 1-4
 
-<-建武(乙酉) 漢:56-4-11(己卯) j:56-5-14 #支那改元日{#後漢 #光武帝}
+<-建武(乙酉),建虎 漢:56-4-11(己卯) j:56-5-14 #支那改元日{#後漢 #光武帝}
 
 def[中元(丙辰)]
 #y~1902
@@ -2813,6 +2874,11 @@ s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B7
     #改元前の死去{#後漢 #光武帝}
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B72>"詔曰"
 #"在中元元年四月己卯"
+
+tag 三国遺事
+#"光虎帝中元六年丁巳六月"
+#"永平三年庚申〈一云中元六年。誤矣。中元盡二年而已〉八月四日。"
+# (2) 丁巳
 
 [永平(戊午)]
 #y~1848
@@ -3386,6 +3452,10 @@ name_cn 永嘉
 ## [103]
 name_ja 永嘉
 
+
+## <https://dl.ndl.go.jp/pid/12172905/1/112>
+#name 永嘉
+
 &
 ## [102]
 name_tw 永熹
@@ -3447,6 +3517,8 @@ tag 漢民族
 %tag   name_ja 漢桓帝
 %tag   &
 %tag   name_ja 桓帝
+%tag   &
+%tag   name 桓帝志
 tag 漢桓帝
 
 ## [102]
@@ -3508,9 +3580,6 @@ name_kana げん か
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B77>"改元元嘉"
 <-和平 漢:151-1-癸酉 #支那改元日{#後漢 #漢桓帝}
 
-&
-name country monarch+
-name 漢桓帝志元嘉
 
 [永興]
 #y~801
@@ -3582,9 +3651,25 @@ s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B7
 name 延熹
 <-永壽 漢:158-6-戊寅 #支那改元日{#後漢 #漢桓帝}
 
-&
-name country+
-name 漢延熹
+def[延嘉(戊戌)]
+
+<-延熹 [高麗:1145,清:1711] #名誤伝発生{} #後漢 #清 #高麗
+
+AD158 = 1
+
+tag 後漢
+tag 漢土
+tag 漢民族
+
+tag 漢桓帝
+
+name 延嘉
+sw 延嘉
+
+u 1
+u 9
+
+<-永壽 漢:158-6-戊寅 #支那改元日{#後漢 #漢桓帝} #旧説
 
 [永康]
 #y~465
@@ -3608,7 +3693,7 @@ name_kana えい こう
 #<-延熹 167-6
 
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B77>"改元永康"
-<-延熹 漢:167-6-庚申 #支那改元日{#後漢 #漢桓帝}
+<-延熹,延嘉(戊戌) 漢:167-6-庚申 #支那改元日{#後漢 #漢桓帝}
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B77>"帝崩於"
 ->建寧 漢:167-12-丁丑 #改元前の死去{#後漢 #漢桓帝}
 
@@ -3863,6 +3948,23 @@ s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B7
 %tag person
 %tag   name_ja 董卓
 
+def[明寧]
+#y~3865
+
+<-昭寧 [高麗:1145,清:1711] #名誤伝発生{} #後漢 #高麗
+
+AD189 = 1
+
+tag 後漢
+tag 漢土
+tag 漢民族
+tag 漢末
+
+name 明寧
+u 1
+
+<-光熹 漢:189-8-28(辛未) #支那改元日{#後漢 #劉弁} #旧説
+
 [永漢]
 #y~1230
 AD189 = 1
@@ -3893,7 +3995,7 @@ tag 再開元号の中断中
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B79>"即皇帝位"
 <-昭寧 漢:189-9-甲戌 #建元前の即位{#後漢 #献帝 #漢皇帝} #董卓
 name 永漢
-<-昭寧 漢:189-9-甲戌 #支那改元日{#後漢 #献帝} #董卓
+<-昭寧,明寧 漢:189-9-甲戌 #支那改元日{#後漢 #献帝} #董卓
 tag 董卓
 
 [初平]
@@ -4046,6 +4148,31 @@ tag 楽浪郡
 tag 帯方郡
 tag 公孫氏政権
 
+tag 避諱前元号
+
+def[立安]
+
+<-建安 [漢:196,高麗:1289] #避諱別名発生{}
+tag 避諱後元号
+
+AD196 = 1
+
+tag 三国時代
+tag 後漢
+tag 漢土
+tag 漢民族
+tag 漢末
+
+tag 献帝
+
+tag 三国遺事
+name 立安
+u 4
+sw 立安
+
+<-興平 漢:196-1-癸酉 #支那改元日{#後漢 #献帝} #避諱元号へ
+
+
 [延康]
 #y~487
 AD220 = 1
@@ -4073,7 +4200,7 @@ u 1-3
 u 1-10
 
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B79>"改元延康"
-<-建安 [漢:220-3] #支那改元日{#後漢 #献帝}
+<-建安,立安 [漢:220-3] #支那改元日{#後漢 #献帝}
 ->黃初,章武 漢:220-10-乙卯 #改元前の退位{#後漢 #献帝 #漢皇帝} #禅譲 #魏文帝
 
 s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B702>"延康元年"
@@ -4126,6 +4253,8 @@ wref_ja 宋建
 
 %tag country
 %tag   name_ja 蜀漢
+%tag   &
+%tag   prefix name 漢
 %tag   period of 漢
 %tag   period of 蜀
 %tag   period of 中国
@@ -4296,6 +4425,23 @@ s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B7
 ## <https://ja.wikipedia.org/wiki/%E5%8A%89%E7%A6%85>
 ->景元 漢:263-11-6 j:263-12-23 #陥落{#曹魏, #蜀漢 #劉禅}
 
-&
-name country+
-name 漢炎興
+
+def[炎異]
+#y~3867
+
+<-炎興 [高麗:1145,清:1711] #名誤伝発生{} #蜀漢 #高麗
+
+AD263 = 1
+
+tag 三国時代
+tag 蜀漢
+tag 漢土
+tag 漢民族
+
+tag 劉禅
+
+name 炎異
+u 1
+
+<-景耀 [漢:263-8] #支那改元日{#蜀漢 #劉禅} #旧説
+->景元 [漢:263-10] #陥落{#曹魏, #蜀漢 #劉禅}

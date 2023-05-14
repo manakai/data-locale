@@ -19,6 +19,9 @@ my $Prefix2;
       $Data->{source_type} eq 'table7' or
       $Data->{source_type} eq 'table8' or
       $Data->{source_type} eq 'table9';
+  $Prefix2 = '' if
+      $Data->{source_type} eq 'k3' or
+      $Data->{source_type} eq 'kourai';
 }
 
 sub cal_tag ($$) {
@@ -61,6 +64,16 @@ sub person ($$) {
   $key = '戦国秦惠公' if $key eq '秦惠公' and $country eq '秦' and $Data->{source_type} eq 'table3';
 
   $key = '秦二世' if $key eq '二世';
+
+  $key = '百済武王' if $key eq '武王' and $country eq '百済';
+  $key = '百済惠王' if $key eq '惠王' and $country eq '百済';
+  $key = '景德王' if $key eq '景泰王';
+
+  if ($country eq '高麗') {
+    for (qw(太祖 光宗 仁宗 宣宗 神宗 高宗 定宗 肅宗)) {
+      $key = $country . $_ if $key eq $_;
+    }
+  }
 
   return $key;
 } # person
@@ -288,15 +301,147 @@ name 周貞定王
 &
     };
   }
-  
-  printf q{
+
+  if ($Data->{source_type} eq 'k3') {
+    printf q{
++name era %s
+    }, $key
+        unless {
+          朴赫居世居西干 => 1,
+          南觧次次雄 => 1,
+          儒理尼師今 => 1,
+          脫觧尼師今 => 1,
+          婆娑尼師今 => 1,
+          祇摩尼師今 => 1,
+          逸聖尼師今 => 1,
+          阿達羅尼師今 => 1,
+          伐休尼師今 => 1,
+          奈觧尼師今 => 1,
+          助賁尼師今 => 1,
+          沾解尼師今 => 1,
+          味鄒尼師今 => 1,
+          儒禮尼師今 => 1,
+          基臨尼師今 => 1,
+          訖觧尼師今 => 1,
+          奈勿尼師今 => 1,
+          實聖尼師今 => 1,
+          訥祗麻立干 => 1,
+          慈悲麻立干 => 1,
+          炤知麻立干 => 1,
+          智證麻立干王 => 1,
+          法興王 => 1,
+          真興王 => 1,
+          真智王 => 1,
+          真平王 => 1,
+          善德王 => 1,
+          真德王 => 1,
+          太宗王 => 1,
+          文武王 => 1,
+          神文王 => 1,
+          孝昭王 => 1,
+          聖德王 => 1,
+          孝成王 => 1,
+          景德王 => 1,
+          景泰王 => 1,
+          惠恭王 => 1,
+          宣德王 => 1,
+          元聖王 => 1,
+          昭聖王 => 1,
+          哀莊王 => 1,
+          憲德王 => 1,
+          興德王 => 1,
+          僖康王 => 1,
+          閔哀王 => 1,
+          #
+          文聖王 => 1,
+          憲安王 => 1,
+          景文王 => 1,
+          憲康王 => 1,
+          定康王 => 1,
+          真聖王 => 1,
+          孝恭王 => 1,
+          神德王 => 1,
+          景明王 => 1,
+          景哀王 => 1,
+          敬順王 => 1,
+
+          東明聖王 => 1,
+          瑠璃明王 => 1,
+          太武神王 => 1,
+          閔中王 => 1,
+          慕本王 => 1,
+          國祖王 => 1,
+          次大王 => 1,
+          新大王 => 1,
+          故國川責王 => 1,
+          山上王 => 1,
+          東川王 => 1,
+          中川王 => 1,
+          西川王 => 1,
+          峰上王 => 1,
+          羙川王 => 1,
+          故國原王 => 1,
+          小獸林王 => 1,
+          故國壤王 => 1,
+          廣開土王 => 1,
+          長壽王 => 1,
+          文咨明王 => 1,
+          安藏王 => 1,
+          安原王 => 1,
+          陽原王 => 1,
+          平原王 => 1,
+          嬰陽王 => 1,
+          榮留王 => 1,
+          小獸林王 => 1,
+          榮留王 => 1,
+          平原王 => 1,
+          寳藏王 => 1,
+          
+          溫祚王 => 1,
+          多婁王 => 1,
+          己婁王 => 1,
+          蓋婁王 => 1,
+          肖古王 => 1,
+          仇首王 => 1,
+          古厼王 => 1,
+          責稽王 => 1,
+          汾西王 => 1,
+          比流王 => 1,
+          契王 => 1,
+          近肖古王 => 1,
+          近仇首王 => 1,
+          枕流王 => 1,
+          辰斯王 => 1,
+          阿莘王 => 1,
+          腆支王 => 1,
+          乆厼辛王 => 1,
+          毗有王 => 1,
+          盖鹵王 => 1,
+          文周王 => 1,
+          三斤王 => 1,
+          東城王 => 1,
+          武寧王 => 1,
+          聖王 => 1,
+          威德王 => 1,
+          惠王 => 1,
+          百済惠王 => 1,
+          法王 => 1,
+          武王 => 1,
+          百済武王 => 1,
+          義慈王 => 1,
+
+          甄萱 => 1,
+        }->{$key};
+  } else {
+    printf q{
 name %s monarch%s
 name %s
-  },
+    },
       (($data->{era_name} // $key) =~ /^\Q$data->{country}\E/ ? 'country' : ''),
       ((($data->{era_name} // $key) =~ /後$/ or $data->{re}) ? '+' : ''),
       $data->{era_name} // $key
       unless $key eq '始皇帝' or $key eq '二世';
+  }
   push @tag, '後元' if $pperson =~ /後$/;
   if (not $dup and not $key eq $person and not defined $data->{name} and
       not defined $data->{person}) {
@@ -310,7 +455,16 @@ name %s
   
   {
     use utf8;
-    push @tag, '漢民族';
+    if ($Data->{source_type} eq 'k3' or
+        $Data->{source_type} eq 'kourai') {
+      if ($data->{country} =~ /後|弓裔政権/) {
+        push @tag, '朝鮮人';
+      } else {
+        push @tag, $data->{country} . '人';
+      }
+    } else {
+      push @tag, '漢民族';
+    }
 
     $min += $data->{offset};
     $max += $data->{offset};
@@ -370,7 +524,24 @@ s+
       push @tag, '史記 建元以來王子侯者年表 第九';
       push @tag, '漢列侯即位紀年';
       push @tag, '前漢';
-   }
+    } elsif ($Data->{source_type} eq 'k3') {
+      if ($min <= 800) {
+        push @tag, '朝鮮三国時代';
+      } elsif (892 <= $max and $min <= 936) {
+        push @tag, '後三国時代';
+      }
+      push @tag, '朝鮮王即位紀年';
+      if ($data->{country} =~ /百済/) {
+        push @tag, '三國史記 年表 百濟';
+      } elsif ($data->{country} =~ /高句麗|弓裔/) {
+        push @tag, '三國史記 年表 高句麗';
+      } else {
+        push @tag, '三國史記 年表 新羅';
+      }
+    } elsif ($Data->{source_type} eq 'kourai') {
+      push @tag, '高麗史 年表 高麗';
+      push @tag, '高麗王即位紀年';
+    }
   }
 
   $pperson =~ s/後$//;
@@ -387,6 +558,16 @@ s+
     push @pk, '姬猛' if $key eq '敬王';
     push @pk, '矦呂產' if $key eq '呂產';
     push @pk, '魏襄王(癸卯)' if $key eq '魏昭王';
+    push @pk, '奈勿尼師今(乙卯)' if $key eq '實聖尼師今';
+    push @pk, '神武王' if $key eq '文聖王';
+    push @pk, '文咨明王(辛未)' if $pk[0] eq '文咨明王';
+    push @pk, '顯宗(己酉)' if $pk[0] eq '顯宗';
+    push @pk, '高麗宣宗(癸亥)' if $pk[0] eq '高麗宣宗';
+    push @pk, '睿宗(乙酉)' if $pk[0] eq '睿宗';
+    push @pk, '高麗高宗(癸酉)' if $pk[0] eq '高麗高宗';
+    push @pk, '忠烈王(甲戌)' if $pk[0] eq '忠烈王';
+    push @pk, '恭愍王(辛卯)' if $pk[0] eq '恭愍王';
+    push @pk, '辛禑(甲寅)' if $pk[0] eq '辛禑';
     #push @pk, $data->{prev_other} if defined $data->{prev_other};
     my $ctag = $Prefix2 . $data->{country};
     if ($ctag eq '春秋戦国齊') {
@@ -397,31 +578,72 @@ s+
       }
     }
     my $date;
+    my $cal =
+        $Data->{source_type} eq 'kourai' ? '高麗' :
+        $Data->{source_type} eq 'k3' ? '新羅' : '史記';
     if (defined $data->{start_day}) {
       if (defined $data->{start_day}->[2]) {
-        $date = sprintf '史記:%d-%d%s-%s',
+        $date = sprintf '%s:%d-%d%s-%s',
+            $cal,
             $y,
             $data->{start_day}->[0],
             $data->{start_day}->[1] ? "'" : '',
             $data->{start_day}->[2];
       } else {
-        $date = sprintf '[史記:%d-%d%s]',
+        $date = sprintf '[%s:%d-%d%s]',
+            $cal,
             $y,
             $data->{start_day}->[0],
             $data->{start_day}->[1] ? "'" : '';
       }
     } else {
-      $date = sprintf '[史記:%d]', $y;
+      $date = sprintf '[%s:%d]', $cal, $y;
     }
+    my $prev_data = $Data->{eras}->{$pk[0]};
+    if (defined $prev_data and
+        defined $prev_data->{abdication} and
+        $y == $prev_data->{abdication}) {
+      printf q{
+<-%s [%s:%d] #改元前の退位{#%s #%s #%s王} #三国史記
+      },
+          $pk[0],
+          $cal, $prev_data->{abdication},
+          $ctag,
+          (person $prev_data->{country}, $pk[0]),
+          $ctag;
+    } elsif (defined $prev_data and
+             defined $prev_data->{dead} and
+             $y == $prev_data->{dead}) {
+      printf q{
+<-%s [%s:%d] #改元前の死去{#%s #%s} #三国史記
+      },
+          $pk[0],
+          $cal, $prev_data->{dead},
+          $ctag,
+          (person $data->{country}, $pk[0]);
+    }
+
+    next if {
+      文咨明王 => 1,
+
+      味鄒尼師今 => 1,
+      昭聖王 => 1,
+    }->{$key};
+    
     printf q{
-<-%s %s #%s{#%s #%s} #%s %s
+<-%s %s #%s{#%s #%s%s} #%s %s
     },
         (join ',', @pk), 
         $date,
-        ($y == $data->{offset} + 1 ? $Prefix2 . '称元' : '利用開始'),
+        ($Data->{source_type} eq 'k3' ? '建元前の即位' :
+         $Data->{source_type} eq 'kourai' ? '高麗称元' : 
+         $y == $data->{offset} + 1 ? $Prefix2 . '称元' : '利用開始'),
         $ctag,
         (person $data->{country}, $pperson),
-        ($Prefix2 eq '漢' ? '前漢' : '春秋戦国時代'),
+        ($Data->{source_type} eq 'k3' ? ' #'.$data->{country}.'王' : ''),
+        ($Data->{source_type} eq 'kourai' ? '高麗史' :
+         $Data->{source_type} eq 'k3' ? '三国史記' :
+         $Prefix2 eq '漢' ? '前漢' : '春秋戦国時代'),
         ($Prefix2 eq '漢' ? cal_tag ($y, $data->{start_day}) : $data->{country} eq '秦' ? '#秦正' : '');
     if ($key eq '齊威王因' or
         ($Data->{source_type} eq 'table3' and $key eq '惠王')) {

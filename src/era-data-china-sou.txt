@@ -90,7 +90,7 @@ tag 避諱後元号
 tag 高麗人
 tag 朝鮮
 
-tag 王昭
+tag 高麗光宗
 
 wref_zh 峻豐
 name_tw 峻豐
@@ -116,8 +116,8 @@ wref_ko 준풍
 name(kr) 준풍
 #960 - 963
 
-<-顯德 [宋:960-1-5(乙巳),高麗:960-1] #利用開始{#高麗 #王昭} #分離
-->乾德(癸亥) [高麗:963-12] #利用開始{#高麗 #王昭}
+<-建隆(庚申) [高麗:960-1] #避諱改名{#高麗 #高麗光宗, #高麗 #高麗太祖 #王隆}
+<-顯德 [宋:960-1-5(乙巳),高麗:960-1] #高麗奉正朔{#高麗 #高麗光宗} #分離
 
 
 [乾德(癸亥)]
@@ -158,6 +158,13 @@ tag 李煜
 
 tag ヤオ族
 #sw ヤオ族の日時
+
+<-峻豐 [高麗:963-12] #高麗奉正朔{#高麗 #高麗光宗} #高麗史
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E5%85%AD>"十二月始行宋年號。"
+s+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E4%BA%8C>"冬十二月，行宋年號。"
+s+
 
 
 [開寶(戊辰)]
@@ -224,6 +231,8 @@ tag 五代
 %tag person
 %tag   name_ja 宋太宗
 %tag   &
+%tag   name 太宗
+%tag   &
 %tag   name 太宗匡義
 tag 宋太宗
 
@@ -260,6 +269,8 @@ name_kana たい へい こう こく
 
 tag 呉越
 >< [宋:978-5] #勢力統合{#北宋, #呉越}
+
+name 大平興國
 
 [雍熙]
 #y~1232
@@ -527,6 +538,17 @@ name_kana たい ちゅう しょう ふ
 ## <https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2/%E5%8D%B7007>
 <-景德 宋:1008-1-戊辰 #支那改元日{#北宋 #真宗}
 
+<-開泰 [高麗:1016] #高麗奉正朔{#高麗 #顯宗} #高麗史 #北宋
+tag 高麗
+tag 顯宗
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%9B%9B>"是歲，復行宋大中祥符年號。"
+s+
+
+&
+name 大中符祥
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E5%85%AD>"契丹開泰四年"
+s+
 
 [天禧]
 #y~1525
@@ -553,6 +575,13 @@ name_kana てん き
 
 ## <https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2/%E5%8D%B7008>
 <-大中祥符 宋:1017-1-1(辛丑) #年始改元実施{#北宋 #真宗}
+
+<-大中祥符 [高麗:1018-10] #高麗奉正朔{#高麗 #顯宗} #高麗史 #北宋
+tag 高麗
+tag 顯宗
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%9B%9B>"行宋天禧年號"
+s+
 
 
 [乾興(壬戌)]
@@ -942,6 +971,8 @@ tag 漢民族
 
 %tag person
 %tag   name_ja 趙曙
+%tag   &
+%tag   name 英宗
 %tag   &
 %tag   name 英宗曙
 tag 趙曙
@@ -2645,6 +2676,8 @@ tag 漢民族
 %tag   name_ja 恭帝
 %tag   &
 %tag   name 恭帝顯
+%tag   &
+%tag   name 孝恭帝
 tag 恭帝
 
 ## [102]

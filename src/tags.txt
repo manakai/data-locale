@@ -358,6 +358,14 @@ action
   group of 改元日
   group of 適用開始
 
+action
+  name_ja 元号廃止
+
+action
+  name_ja 元号廃止利用開始
+  group of 元号廃止
+  group of 利用開始
+
 tag
   name_ja 元号廃止前の元号
   group of 元号
@@ -400,8 +408,19 @@ action
   group of 退位
   group of 制定
 
+tag
+  name_ja 廃帝の紀年法
+
+tag
+  name_ja 廃帝の次の紀年法
+
 action
   name_ja 禅譲
+
+action
+  name_ja 名誉回復
+  #subject: by
+  #object: target
 
 action
   name_ja 誕生
@@ -724,17 +743,21 @@ action
   group of 制定
 
 action
-  name_ja 改元実施
-  group of 適用開始日
-
-action
   name_ja 年始改元決定
   group of 改元決定
+
+action
+  name_ja 年始元号名変更決定詔
+  group of 詔制定
 
 action
   name_ja 年始改元詔
   group of 詔制定
   group of 改元決定
+
+action
+  name_ja 改元実施
+  group of 適用開始日
 
 action
   name_ja 年始改元実施
@@ -751,6 +774,11 @@ action
   name_ja 年始改元実施予定 (中止)
   group of 年始改元実施予定
   group of 適用開始 (中止)
+
+action
+  name_ja 年始元号名変更実施
+  group of 元号名変更
+  group of 年始
 
 action
   name_ja 月始改元決定
@@ -1169,6 +1197,18 @@ action
   name_ja 避諱改名
   group of 発生
 
+tag
+  name_ja 異表記元号へ
+  group of 分離
+
+tag
+  name_ja 年異説へ
+  group of 分離
+
+tag
+  name_ja 避諱元号へ
+  group of 異表記元号へ
+
 action
   name_ja 避諱改名採用
   group of 避諱改名
@@ -1394,6 +1434,14 @@ tag
 
 tag
   name_ja 年号銭
+
+tag
+  name_ja 紀年銭
+  group of 年号銭
+
+tag
+  name_ja 存疑紀年銭
+  group of 紀年銭
 
 tag
   name_ja 摂政元号

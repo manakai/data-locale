@@ -18,7 +18,9 @@ all: $(TEMP_PATH) \
     wp-ko-mn-eras.json wp-ko-kr-eras.json wp-ko-krr-eras.json \
     wp-en-cn-eras.json wp-en-vn-eras.json wp-en-jp-eras.json \
     wp-en-kr-eras.json \
-    shiki
+    shiki \
+    k3 \
+    kourai
 
 $(TEMP_PATH):
 	mkdir -p $@
@@ -229,5 +231,44 @@ era-data-table8.txt: create-era-data.pl eras-table8.json
 	$(PERL) $< eras-table8.json > $@
 era-data-table9.txt: create-era-data.pl eras-table9.json
 	$(PERL) $< eras-table9.json > $@
+
+k3: era-list-k3china.txt era-data-k3.txt
+
+$(TEMP_PATH)/k3table1.html:
+	$(WGET) -O $@ "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B729?action=edit&veswitched=1"
+$(TEMP_PATH)/k3table2.html:
+	$(WGET) -O $@ "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B730?action=edit&veswitched=1"
+$(TEMP_PATH)/k3table3.html:
+	$(WGET) -O $@ "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%8F%B2%E8%A8%98/%E5%8D%B731?action=edit&veswitched=1"
+$(TEMP_PATH)/kouraitable1.html:
+	$(WGET) -O $@ "https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E5%85%AD?action=edit&veswitched=1"
+$(TEMP_PATH)/kouraitable2.html:
+	$(WGET) -O $@ "https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E4%B8%83?action=edit&veswitched=1"
+k3table1.json: parse-table.pl $(TEMP_PATH)/k3table1.html
+	$(PERL) $< k3table1 $(TEMP_PATH)/k3table1.html > $@
+k3table2.json: parse-table.pl $(TEMP_PATH)/k3table2.html
+	$(PERL) $< k3table2 $(TEMP_PATH)/k3table2.html > $@
+k3table3.json: parse-table.pl $(TEMP_PATH)/k3table3.html
+	$(PERL) $< k3table3 $(TEMP_PATH)/k3table3.html > $@
+kouraitable1.json: parse-table.pl $(TEMP_PATH)/kouraitable1.html
+	$(PERL) $< kouraitable1 $(TEMP_PATH)/kouraitable1.html > $@
+kouraitable2.json: parse-table.pl $(TEMP_PATH)/kouraitable2.html
+	$(PERL) $< kouraitable2 $(TEMP_PATH)/kouraitable2.html > $@
+
+era-list-k3china.txt: k3-china.pl k3table1.json k3table2.json k3table3.json
+	$(PERL) $< > $@
+eras-k3.json: k3-korea.pl k3table1.json k3table2.json k3table3.json
+	$(PERL) $< > $@
+era-data-k3.txt: create-era-data.pl eras-k3.json
+	$(PERL) $< eras-k3.json > $@
+
+kourai: era-list-kouraichina.txt era-data-kourai.txt
+
+era-list-kouraichina.txt: kourai-china.pl kouraitable1.json kouraitable2.json
+	$(PERL) $< > $@
+eras-kourai.json: kourai-korea.pl kouraitable1.json kouraitable2.json
+	$(PERL) $< > $@
+era-data-kourai.txt: create-era-data.pl eras-kourai.json
+	$(PERL) $< eras-kourai.json > $@
 
 ## License: Public Domain.
