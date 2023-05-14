@@ -560,6 +560,14 @@ s+
     push @pk, '魏襄王(癸卯)' if $key eq '魏昭王';
     push @pk, '奈勿尼師今(乙卯)' if $key eq '實聖尼師今';
     push @pk, '神武王' if $key eq '文聖王';
+    push @pk, '文咨明王(辛未)' if $pk[0] eq '文咨明王';
+    push @pk, '顯宗(己酉)' if $pk[0] eq '顯宗';
+    push @pk, '高麗宣宗(癸亥)' if $pk[0] eq '高麗宣宗';
+    push @pk, '睿宗(乙酉)' if $pk[0] eq '睿宗';
+    push @pk, '高麗高宗(癸酉)' if $pk[0] eq '高麗高宗';
+    push @pk, '忠烈王(甲戌)' if $pk[0] eq '忠烈王';
+    push @pk, '恭愍王(辛卯)' if $pk[0] eq '恭愍王';
+    push @pk, '辛禑(甲寅)' if $pk[0] eq '辛禑';
     #push @pk, $data->{prev_other} if defined $data->{prev_other};
     my $ctag = $Prefix2 . $data->{country};
     if ($ctag eq '春秋戦国齊') {
@@ -614,6 +622,14 @@ s+
           $ctag,
           (person $data->{country}, $pk[0]);
     }
+
+    next if {
+      文咨明王 => 1,
+
+      味鄒尼師今 => 1,
+      昭聖王 => 1,
+    }->{$key};
+    
     printf q{
 <-%s %s #%s{#%s #%s%s} #%s %s
     },
