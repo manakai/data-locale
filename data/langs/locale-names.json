@@ -3504,7 +3504,12 @@
       },
       "ie" : {
          "bcp47_canonical" : "ie",
+         "cldr" : "ie",
          "mediawiki" : "ie"
+      },
+      "ie-001" : {
+         "bcp47_canonical" : "ie-001",
+         "cldr" : "ie_001"
       },
       "ig" : {
          "bcp47_canonical" : "ig",
