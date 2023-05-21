@@ -7354,6 +7354,14 @@
          "bcp47_canonical" : "wuu",
          "mediawiki" : "wuu"
       },
+      "wuu-hans" : {
+         "bcp47_canonical" : "wuu-Hans",
+         "mediawiki" : "wuu-hans"
+      },
+      "wuu-hant" : {
+         "bcp47_canonical" : "wuu-Hant",
+         "mediawiki" : "wuu-hant"
+      },
       "x-klingon" : {
          "bcp47_canonical" : "tlh",
          "bcp47_errors" : [
@@ -7472,6 +7480,7 @@
       "yue-hans" : {
          "bcp47_canonical" : "yue-Hans",
          "cldr" : "yue_Hans",
+         "mediawiki" : "yue-hans",
          "native_name" : "中文 (粤语) (简体中文)"
       },
       "yue-hans-cn" : {
@@ -7482,6 +7491,7 @@
       "yue-hant" : {
          "bcp47_canonical" : "yue-Hant",
          "cldr" : "yue_Hant",
+         "mediawiki" : "yue-hant",
          "native_name" : "中文 (粵語) (繁體中文)"
       },
       "yue-hant-hk" : {
