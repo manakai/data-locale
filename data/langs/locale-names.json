@@ -7253,7 +7253,12 @@
       },
       "vmw" : {
          "bcp47_canonical" : "vmw",
+         "cldr" : "vmw",
          "mediawiki" : "vmw"
+      },
+      "vmw-mz" : {
+         "bcp47_canonical" : "vmw-MZ",
+         "cldr" : "vmw_MZ"
       },
       "vo" : {
          "bcp47_canonical" : "vo",
