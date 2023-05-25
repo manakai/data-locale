@@ -7399,6 +7399,14 @@
          "bcp47_canonical" : "xmf",
          "mediawiki" : "xmf"
       },
+      "xnr" : {
+         "bcp47_canonical" : "xnr",
+         "cldr" : "xnr"
+      },
+      "xnr-in" : {
+         "bcp47_canonical" : "xnr-IN",
+         "cldr" : "xnr_IN"
+      },
       "xog" : {
          "bcp47_canonical" : "xog",
          "cldr" : "xog",
