@@ -94206,7 +94206,7 @@
       },
       "islamic" : {
          "Description" : [
-            "Islamic calendar"
+            "Hijri calendar"
          ],
          "_registry" : {
             "unicode" : 1
@@ -94214,7 +94214,7 @@
       },
       "islamic-civil" : {
          "Description" : [
-            "Islamic calendar, tabular (intercalary years [2,5,7,10,13,16,18,21,24,26,29] - civil epoch)"
+            "Hijri calendar, tabular (intercalary years [2,5,7,10,13,16,18,21,24,26,29] - civil epoch)"
          ],
          "_registry" : {
             "unicode" : 1
@@ -94222,7 +94222,7 @@
       },
       "islamic-rgsa" : {
          "Description" : [
-            "Islamic calendar, Saudi Arabia sighting"
+            "Hijri calendar, Saudi Arabia sighting"
          ],
          "_registry" : {
             "unicode" : 1
@@ -94230,7 +94230,7 @@
       },
       "islamic-tbla" : {
          "Description" : [
-            "Islamic calendar, tabular (intercalary years [2,5,7,10,13,16,18,21,24,26,29] - astronomical epoch)"
+            "Hijri calendar, tabular (intercalary years [2,5,7,10,13,16,18,21,24,26,29] - astronomical epoch)"
          ],
          "_registry" : {
             "unicode" : 1
@@ -94238,7 +94238,7 @@
       },
       "islamic-umalqura" : {
          "Description" : [
-            "Islamic calendar, Umm al-Qura"
+            "Hijri calendar, Umm al-Qura"
          ],
          "_registry" : {
             "unicode" : 1
