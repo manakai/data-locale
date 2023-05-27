@@ -30,6 +30,8 @@ print STDERR "Loading...";
     for my $prop (keys %{$json->{_ERA_PROPS}->{$key}}) {
       $EraByKey->{$key}->{$prop} //= $json->{_ERA_PROPS}->{$key}->{$prop};
     }
+  }
+  for my $key (keys %{$json->{_ERA_PROPS_2}}) {
     for my $prop (keys %{$json->{_ERA_PROPS_2}->{$key}}) {
       $EraByKey->{$key}->{$prop} //= $json->{_ERA_PROPS_2}->{$key}->{$prop};
     }

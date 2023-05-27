@@ -1331,6 +1331,12 @@ tag
   name_ja 空位紀元
 
 tag
+  name_ja 開闢紀元
+
+tag
+  name_ja 人類誕生紀元
+
+tag
   name_ja 建国紀元
 
 tag
@@ -1433,7 +1439,14 @@ tag
   group of 同名あり
 
 tag
+  name_ja 金石銘
+
+tag
   name_ja 年号銭
+
+tag
+  name_ja 存疑年号銭
+  group of 年号銭
 
 tag
   name_ja 紀年銭
@@ -1442,6 +1455,7 @@ tag
 tag
   name_ja 存疑紀年銭
   group of 紀年銭
+  group of 存疑年号銭
 
 tag
   name_ja 摂政元号

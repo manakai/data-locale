@@ -5523,6 +5523,8 @@ s+
 
 s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B7105%E4%B9%8B%E5%9B%9B>"改元"
 
+tag 新羅
+
 &
 name country+
 name 梁天監
@@ -5859,8 +5861,16 @@ tag 反乱改元側勝利再開
 #y~525 y~1690 y~60 y~525
 tag 再開元号の中断中
 
+
+tag 新羅
+s#三国遺事<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E9%81%BA%E4%BA%8B/%E5%8D%B7%E7%AC%AC%E4%B8%89>"國史云：真興王大清三年己巳"
+s+
 name 大清
-tag 三国遺事
+tag 国名と衝突
+&
+name monarch+
+name 真興王大清
+tag 真興王
 
 [正平(戊辰)]
 #y~1421
