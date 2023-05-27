@@ -34,7 +34,11 @@ my $EraById = {};
     }
     if (defined $era->{start_year}) {
       my $end = $era->{end_year} // ($ThisYear + 10);
-      for my $y ($era->{start_year} .. $end) {
+      my $start = $era->{start_year};
+      if ($end - $start > 100000) {
+        $start = $end - 100000;
+      }
+      for my $y ($start .. $end) {
         push @{$year_era_ids->{$y} ||= []}, $era->{id};
       }
     }
@@ -52,7 +56,11 @@ my $EraById = {};
   for my $era (values %$EraById) {
     if (defined $era->{start_year}) {
       my $end = $era->{end_year} // ($ThisYear + 10);
-      for my $y ($era->{start_year} .. $end) {
+      my $start = $era->{start_year};
+      if ($end - $start > 100000) {
+        $start = $end - 100000;
+      }
+      for my $y ($start .. $end) {
         for my $id2 (@{$year_era_ids->{$y} || []}) {
           next if $era->{id} == $id2;
           $Data->{eras}->{$era->{id}}->{relateds}->{$id2}->{year_range_overlap} = 1;

@@ -1710,6 +1710,10 @@ name_cn 应顺
 %tag   period of 満州
 %tag   period of 中国
 
+%tag tag
+%tag   name_ja 金の公年号
+%tag   group of 公年号
+
 %tag source
 %tag   name_ja 金史
 
@@ -1844,6 +1848,8 @@ tag 遼
 
 tag 阿骨打
 
+tag 金の公年号
+
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B72>"收國"
 name 收國
 <-阿骨打 金:1115-1-1(壬申) #建元前の即位{#金 #阿骨打 #金皇帝}
@@ -1895,6 +1901,8 @@ tag 遼
 tag 燕雲十六州
 
 tag 阿骨打
+
+tag 金の公年号
 
 s#遼史<https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2/%E5%8D%B728>"即皇帝位"
 #"是歲，女直阿骨打用鐵州楊樸策，即皇帝位，建元天輔，國號金。"
@@ -1948,6 +1956,7 @@ tag 内蒙古
 tag 外蒙古
 tag 漢土
 tag 漢民族
+tag 金の公年号
 
 %tag person
 %tag   name_ja 呉乞買
@@ -1995,6 +2004,13 @@ tag 代始改元不実施
 tag 完顔合剌
 #>< 金:1135-1-26 j:1135-2-10 #即位{#金 #完顔合剌 #金皇帝}
 
+tag 高麗
+tag 高麗人
+tag 朝鮮の年号と紀年
+#上
+u 10
+tag 金石銘
+
 &
 abbr_tw 會 天[會]
 #sw 元号略号
@@ -2014,6 +2030,8 @@ tag 漢民族
 %tag person
 %tag   name_ja 完顔合剌
 tag 完顔合剌
+
+tag 金の公年号
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B74>"詔改"
 <-天會(癸卯) 金:1137-12-癸未 #年始改元詔{#金 #完顔合剌}
@@ -2050,6 +2068,8 @@ tag 漢民族
 
 tag 完顔合剌
 
+tag 金の公年号
+
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B74>"皇統"
 <-天眷 金:1141-1-癸丑 #支那改元日{#金 #完顔合剌} #異説
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B74>"帝崩"
@@ -2078,9 +2098,16 @@ wref<https://zh-min-nan.wikipedia.org/wiki/H%C3%B4ng-th%C3%B3ng_(Kim)>
 name(nan_wp) Hông-thóng
 #1141 - 1149
 
-<-干支年 高麗:1144-7-辛丑 #高麗奉正朔{#高麗 #高麗仁宗} #金 #分離
+<-干支年 高麗:1141-1-己未 #通知受領{#金, #高麗} #高麗史
+<-干支年 高麗:1144-7-辛丑 #高麗奉正朔{#高麗 #高麗仁宗} #金 #高麗史
 tag 高麗
+tag 高麗人
 tag 高麗仁宗
+u 1-1
+u 9-5-10
+tag 金石銘
+tag 朝鮮の年号と紀年
+#上
 
 s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%8D%81%E4%B8%83>"秋七月辛丑，始行金皇統年號"
 s+
@@ -2103,6 +2130,8 @@ tag 漢民族
 %tag   &
 %tag   name 海陵王
 tag 完顔迪古乃
+
+tag 金の公年号
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B75>"己未"
 <-皇統 金:1149-12-己未 #支那改元日{#金 #完顔迪古乃}
@@ -2128,6 +2157,14 @@ wref<https://zh-min-nan.wikipedia.org/wiki/Thian-tek_(Kim)>
 name(nan_wp) Thian-tek
 #1149 - 1153
 
+tag 高麗
+tag 高麗人
+tag 朝鮮の年号と紀年
+#上
+u 4-11
+u 5-4-8(丁卯)
+tag 金石銘
+
 [貞元(癸酉)]
 #y~792
 
@@ -2141,6 +2178,7 @@ tag 蒙古
 tag 漢民族
 
 tag 完顔迪古乃
+tag 金の公年号
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B75>"貞元"
 #"貞元年正月辛卯朔"
@@ -2165,6 +2203,12 @@ name(nan_wp) Cheng-goân
 #1153 - 1156
 
 tag 高麗
+tag 高麗人
+tag 朝鮮の年号と紀年
+#上
+<-天德(己巳) [金:1153-6] #通知受領{#金 #完顔迪古乃, #高麗}
+u 1-10-26
+tag 金石銘
 
 [正隆]
 #y~1458
@@ -2180,6 +2224,7 @@ tag 漢民族
 tag 避諱前元号
 
 tag 完顔迪古乃
+tag 金の公年号
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B75>"改元正隆"
 name 正隆
@@ -2232,10 +2277,17 @@ tag 三国遺事
 #"為佛子者詎可默而無言耶時正豐元年丙子十月日白雲子記"
 u 1-10
 
-<-貞元(癸酉) [高麗:1156-10'] #高麗奉正朔{#高麗 #毅宗}
+<-貞元(癸酉) [高麗:1156-10'] #通知受領{#金, #高麗 #毅宗} #高麗史
+<-貞元(癸酉) [高麗:1156-10'] #高麗奉正朔{#高麗 #毅宗} #高麗史
 <-正隆 [高麗:1156-10'] #避諱改名{#高麗 #毅宗, #高麗 #王隆}
 tag 高麗
+tag 高麗人
 tag 毅宗
+tag 朝鮮の年号と紀年
+#上
+u 2-7
+u 7-2-27
+tag 金石銘
 
 s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E5%85%AD>"正隆之隆避世祖諱以豐字代之"
 s+
@@ -2263,6 +2315,7 @@ tag 漢民族
 %tag   &
 %tag   name 世宗
 tag 完顔烏禄
+tag 金の公年号
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B76>"即皇帝位"
 <-正隆 金:1161-10-丙午 #建元前の即位{#金 #完顔烏禄 #金皇帝}
@@ -2327,6 +2380,14 @@ wref<https://zh-min-nan.wikipedia.org/wiki/T%C4%81i-t%C4%93ng_(Kim)>
 name(nan_wp) Tāi-tēng
 #1161 - 1189
 
+tag 高麗
+tag 高麗人
+tag 朝鮮の年号と紀年
+#上
+u 17-4-24
+u 25-4
+tag 金石銘
+
 name(en) Da|ding
 &
 abbr_tw 定 大[定]
@@ -2383,6 +2444,7 @@ tag 漢民族
 %tag   &
 %tag   name 章宗
 tag 完顔麻達葛
+tag 金の公年号
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B78>"崩"
 #<-大定(辛巳) 金:1189-1-癸巳 #建元前の即位{#金 #完顔麻達葛 #金皇帝}
@@ -2411,6 +2473,15 @@ wref<https://zh-min-nan.wikipedia.org/wiki/B%C3%AAng-chhiong_(Kim)>
 name(nan_wp) Bêng-chhiong
 #1190 - 1196
 
+tag 高麗
+tag 高麗人
+tag 朝鮮の年号と紀年
+#上
+u 2-5
+u 7-4
+tag 金石銘
+<-大定(辛巳) 高麗:1190-2-己丑 #通知受領{#金 #完顔麻達葛, #高麗} #高麗史
+
 [承安(丙辰)]
 #y~607
 
@@ -2424,6 +2495,7 @@ tag 蒙古
 tag 漢民族
 
 tag 完顔麻達葛
+tag 金の公年号
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B710>"改元"
 <-明昌 金:1196-11-戊戌 #支那改元日{#金 #完顔麻達葛}
@@ -2461,6 +2533,7 @@ tag 蒙古
 tag 漢民族
 
 tag 完顔麻達葛
+tag 金の公年号
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B711>"詔改"
 <-承安(丙辰) 金:1200-12-1(癸未) #年始改元詔{#金 #完顔麻達葛}
@@ -2489,6 +2562,13 @@ wref<https://zh-min-nan.wikipedia.org/wiki/Th%C3%A0i-h%C3%B4_(Kim)>
 name(nan_wp) Thài-hô
 #1201 - 1208
 
+tag 高麗
+tag 高麗人
+tag 朝鮮の年号と紀年
+#上
+name 大和
+u 6-1
+
 [大安(己巳)]
 #y~300
 
@@ -2506,6 +2586,7 @@ tag 漢民族
 %tag   &
 %tag   name 東海侯
 tag 完顔果縄
+tag 金の公年号
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B713>"即皇帝位"
 #<-泰和 [金:1208-11-丙辰,] #建元前の即位{#金 #完顔果縄 #金皇帝}
@@ -2556,6 +2637,7 @@ tag 蒙古
 tag 漢民族
 
 tag 完顔果縄
+tag 金の公年号
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B713>"崇慶"
 name 崇慶
@@ -2581,6 +2663,14 @@ wref<https://zh-min-nan.wikipedia.org/wiki/Ch%C3%B4ng-kh%C3%A8ng_(Kim)>
 name(nan_wp) Chông-khèng
 #1212 - 1213
 
+tag 高麗
+tag 高麗人
+tag 朝鮮の年号と紀年
+#上
+u 1-4
+<-大安(己巳) 金:1212-10-1(癸酉) #高麗奉正朔{#高麗} #金 #高麗史
+tag 金石銘
+
 [至寧]
 #y~1468
 
@@ -2594,6 +2684,7 @@ tag 蒙古
 tag 漢民族
 
 tag 完顔果縄
+tag 金の公年号
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B713>"至甯"
 name 至甯
@@ -2643,6 +2734,7 @@ tag 漢民族
 %tag   &
 %tag   name 宣宗
 tag 完顔吾睹補
+tag 金の公年号
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B713>"宣宗即位"
 #<-至寧 金:1213-9-甲辰 #建元前の即位{#金 #完顔吾睹補 #金皇帝}
@@ -2682,6 +2774,23 @@ name(nan_wp) Cheng-iū
 #чжэнь-ю
 #1213 - 1217
 
+tag 高麗
+tag 高麗人
+u 9-9
+u 10-6-7
+tag 朝鮮の年号と紀年
+#上
+tag 金石銘
+u 17
+
+->干支年 [高麗:1224] #高麗元号廃止{#高麗 #高麗高宗} #金 #高麗史
+tag 高麗
+tag 高麗高宗
+tag 元号廃止前の元号
+
+s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E4%B8%83>"以金國衰微不用年號"
+s+
+
 [興定]
 #y~212
 
@@ -2692,6 +2801,7 @@ tag 満州
 tag 女真人
 
 tag 完顔吾睹補
+tag 金の公年号
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B715>"改元興定"
 name 興定
@@ -2725,6 +2835,7 @@ tag 満州
 tag 女真人
 
 tag 完顔吾睹補
+tag 金の公年号
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B716>"元光年"
 #"元光年春正月庚戌朔"
@@ -2769,13 +2880,6 @@ wref<https://zh-min-nan.wikipedia.org/wiki/Go%C3%A2n-kong_(Kim)>
 name(nan_wp) Goân-kong
 #1222 - 1223
 
-->unknown [高麗:1224] #高麗元号廃止{#高麗 #高麗高宗} #金
-tag 高麗
-tag 高麗高宗
-tag 元号廃止前の元号
-
-s#高麗史<https://zh.wikisource.org/wiki/%E9%AB%98%E9%BA%97%E5%8F%B2/%E5%8D%B7%E5%85%AB%E5%8D%81%E4%B8%83>"以金國衰微不用年號"
-s+
 
 [正大]
 #y~892
@@ -2791,6 +2895,7 @@ tag 女真人
 %tag   &
 %tag   name 哀宗
 tag 完顔寧甲速
+tag 金の公年号
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B716>"崩"
 #<-元光(壬午) 金:1223-12-庚寅 #改元前の死去{#金 #完顔吾睹補 #金皇帝}
@@ -2834,6 +2939,7 @@ tag 女真人
 tag 元
 
 tag 完顔寧甲速
+tag 金の公年号
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B717>"開興"
 <-正大 金:1232-1-庚子 #支那改元日{#金 #完顔寧甲速}
@@ -2895,6 +3001,7 @@ tag 満州
 tag 女真人
 
 tag 完顔寧甲速
+tag 金の公年号
 
 s#金史<https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B717>"夏四月癸丑"
 name 天興
@@ -2941,6 +3048,9 @@ name(nan_wp) Thian-heng
 tag 完顔呼敦
 #"年号  天興 : 1234年"
 
+tag 存疑紀年銭
+#sw 盛昌
+
 [盛昌]
 #y~1127
 
@@ -2981,7 +3091,7 @@ name(kr) 성창
 #1234-1-10 - 1234
 #->none
 
-
+tag 存疑年号銭
 
 
 
@@ -3689,15 +3799,23 @@ tag 明清交替期
 %tag   name_ja 崇徳帝
 tag ホンタイジ
 
-<-天聰 g:1636-5-15 清:1636-4-11 #清 #後金 #ホンタイジ #支那皇帝 #建元前の即位 #国名変更
-<-天聰 g:1636-5-15 清:1636-4-11 #清 #ホンタイジ #支那改元日
+<-天聰 g:1636-5-15 清:1636-4-11 #国名変更{#後金, #清} #ホンタイジ
+<-天聰 g:1636-5-15 清:1636-4-11 #建元前の即位{#清 #ホンタイジ #支那皇帝}
+<-天聰 g:1636-5-15 清:1636-4-11 #支那改元日{#清 #ホンタイジ}
 
 #丙子の役
 #[清:1636-12-2,清:1637-1-30]
-<-崇禎 [清:1636,清:1636-12-2] #李氏朝鮮 #建元不承認
-<-崇禎 清:1637-1-30 #李氏朝鮮 #明 #清 #陥落
+<-崇禎 [清:1636,清:1636-12-2] #建元不承認{#李氏朝鮮}
+<-崇禎 清:1637-1-30 #陥落{#清, #李氏朝鮮} #明
+#<-崇禎 [清:1637-1-30,清:1637-1] #朝鮮奉正朔{#李氏朝鮮} #清
+<-崇禎 清:1637-1-30 #朝鮮奉正朔{#李氏朝鮮} #清
 tag 清領朝鮮
 tag 朝鮮人
+tag 朝鮮の年号と紀年
+#上
+u 4-12-8
+u 7
+tag 金石銘
 
 ## [158]
 #1636-05-15
@@ -3755,6 +3873,11 @@ tag 君主名の元号
 +name country 明
 
 tag 年号銭
+
+tag 清領朝鮮
+tag 朝鮮人
+tag 朝鮮の年号と紀年
+#上
 
 ## [120] <https://zh.wikisource.org/wiki/%E6%B8%85%E5%8F%B2%E7%A8%BF/%E5%8D%B74>
 <-崇德 清:1643-8-庚午 #改元前の死去{#清 #ホンタイジ}
@@ -3869,6 +3992,11 @@ name 康煕
 
 tag ヤオ族
 #sw ヤオ族の日時
+
+tag 清領朝鮮
+tag 朝鮮人
+tag 朝鮮の年号と紀年
+#上
 
 ## [103]
 wref_ja 康熙
@@ -4028,6 +4156,11 @@ name(sinkan) khian|ling
 name(sinkan) khian|lliong
 name(sinkan) khian|liong
 
+tag 清領朝鮮
+tag 朝鮮人
+tag 朝鮮の年号と紀年
+#上
+
 ## [158]
 # 1736-02-12
 
@@ -4095,6 +4228,11 @@ name(sinkan) cka chking
 
 ## [158]
 # 1796-02-09
+
+tag 清領朝鮮
+tag 朝鮮人
+tag 朝鮮の年号と紀年
+#上
 
 ## [103]
 wref_ja 嘉慶 (清)
@@ -4203,6 +4341,11 @@ tag 清領澎湖諸島
 tag 台湾人
 
 tag 官方紀年 (官民異調:清代臺灣紀年)
+
+tag 清領朝鮮
+tag 朝鮮人
+tag 朝鮮の年号と紀年
+#上
 
 ## [103]
 wref_ja 咸豊

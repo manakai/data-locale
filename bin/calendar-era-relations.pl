@@ -374,6 +374,7 @@ sub match_form_set ($$$) {
   } # form_set_type
 } # match_form_set
 
+print STDERR "\rStep 1... ";
 for my $era (@$Eras) {
   for my $ls (@{$era->{label_sets}}) {
     for my $label (@{$ls->{labels}}) {
@@ -439,6 +440,7 @@ my $matched = sub {
     }
   };
 }; # $matched
+print STDERR "\rStep 2... ";
 for my $era (@$Eras) {
   for my $ls (@{$era->{label_sets}}) {
     for my $label (@{$ls->{labels}}) {
@@ -480,6 +482,7 @@ for my $era (@$Eras) {
   }
 } # $era
 
+print STDERR "\rStep 3... ";
 for my $id1 (keys %{$Data->{eras}}) {
   my $era1 = $EraById->{$id1};
   my $rels = $Data->{eras}->{$id1}->{relateds} || {};
@@ -531,6 +534,7 @@ for my $id1 (keys %{$Data->{eras}}) {
   } # $id2
 }
 
+print STDERR "\rStep 4... ";
 {
   my $to_canon = {};
   for my $tr (@$Transitions) {
@@ -574,6 +578,7 @@ for my $id1 (keys %{$Data->{eras}}) {
 }
 
 ## For devs
+print STDERR "\rStep 5... ";
 for my $id (keys %{$Data->{eras}}) {
   my $era = $EraById->{$id};
   $Data->{eras}->{$id}->{_key} = $era->{key};
@@ -587,5 +592,6 @@ $Data->{_CharsEras} = $CharsEras;
 #$Data->{_AlphasEras} = $AlphasEras;
 
 print perl2json_bytes_for_record $Data;
+print STDERR "\rDone. \n";
 
 ## License: Public Domain.

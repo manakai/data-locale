@@ -90,20 +90,22 @@ sub parse_src_line ($$) {
            type => 'kana',
            lang => $lang,
            value => $value2};
-    } elsif ($in =~ /^(name|label)\((ja|ja_old|en)\)(!|)\s+([\p{sc=Hiragana}\p{sc=Katakana}\x{30FC}\N{KATAKANA MIDDLE DOT}\x{1B001}-\x{1B11F}\x{3001}\p{sc=Han}\p{sc=Latn}0-9\[\]|:!,()\x{300C}\x{300D}\p{Geometric Shapes}\x{2015}\x{E0100}-\x{E01FF}\s-]+)$/) {
-      push @{$out->[-1]->{labels}->[-1]->{reps}},
-          {kind => $1,
-           type => 'jpan',
-           lang => $2,
-           preferred => $3,
-           value => $4};
-    } elsif ($in =~ /^(name|label)\((cn|tw|hk)\)(!|)\s+([\N{KATAKANA MIDDLE DOT}\xB7\p{sc=Han}\p{sc=Latn}0-9():\s-]+)$/) {
-      push @{$out->[-1]->{labels}->[-1]->{reps}},
-          {kind => $1,
-           type => 'zh',
-           lang => $2,
-           preferred => $3,
-           value => $4};
+    } elsif ($in =~ /^(name|label)\((ja|ja_old|en)\)(!|)\s+([\p{sc=Hiragana}\p{sc=Katakana}\x{30FC}\N{KATAKANA MIDDLE DOT}\x{1B001}-\x{1B11F}\x{3001}\p{sc=Han}\p{sc=Latn}0-9\[\]|:!,()\x{300C}\x{300D}\p{Geometric Shapes}\x{2015}\x{E0100}-\x{E01FF}\s-]+_?)$/) {
+      my $rep = {kind => $1,
+                 type => 'jpan',
+                 lang => $2,
+                 preferred => $3,
+                 value => $4};
+      $rep->{value} =~ s/_$/ /;
+      push @{$out->[-1]->{labels}->[-1]->{reps}}, $rep;
+    } elsif ($in =~ /^(name|label)\((cn|tw|hk|zh)\)(!|)\s+([\N{KATAKANA MIDDLE DOT}\xB7\p{sc=Han}\p{sc=Latn}0-9():\s-]+_?)$/) {
+      my $rep = {kind => $1,
+                 type => 'zh',
+                 lang => $2,
+                 preferred => $3,
+                 value => $4};
+      $rep->{value} =~ s/_$/ /;
+      push @{$out->[-1]->{labels}->[-1]->{reps}}, $rep;
     } elsif ($in =~ /^name\((ko|kr|kp|kr_vi|kr_ja)\)(!|)\s+([\p{sc=Hang}|]+)$/) {
       push @{$out->[-1]->{labels}->[-1]->{reps}},
           {kind => 'name',
@@ -1934,8 +1936,8 @@ sub compute_form_group_ons ($$) {
                 hk => 'hk',
                 kr => 'kr',
                 en => 'en',
-              }->{$rep->{lang} // $rep->{type}};
-              if (not $has_preferred->{$lang}) {
+              }->{$rep->{lang} // $rep->{type} // ''};
+              if (defined $lang and not $has_preferred->{$lang}) {
                 $value->{is_preferred}->{$lang} = 1;
                 $has_preferred->{$lang} = 1;
               }

@@ -33,7 +33,9 @@
 %tag   name_ja 日本
 %tag   &
 %tag   name_ja 日本国
-%tag   prefix name 日本國
+%tag   name 日本國
+%tag   &
+%tag   prefix name 皇
 %tag   name_en Japan
 %tag   region of 西太平洋
 %tag   region of 東アジア
@@ -2123,7 +2125,7 @@ tag ブラジル
 tag 日本人
 tag 日系ブラジル人
 tag 宗教創設紀年
-tag 日本の私年号
+tag 日本の私的紀年法
 
 %tag religion
 %tag   name_ja 天理教
@@ -2159,6 +2161,63 @@ u 183
 %tag   name_ja 道乃友
 tag 道乃友
 <-大正 [g:1924,g:1925-11-5] #利用開始{#道乃友} #天理教 #グレゴリオ暦 #併用
+
+def[世界紀元(旧)]
+#y~4104
+
+sw 世界紀元 (天理教)
+
+AD1916 = 1000000077
+
+tag 大日本帝国
+tag 日本人
+tag 天理教
+tag 宗教紀年
+tag 人類誕生紀元
+tag 日本の私的紀年法
+
+%tag person
+%tag   name 大平隆平
+tag 大平隆平
+
+name 紀元
+
+u 1000000037
+u 1000000077-1-14
+
+<-大正 [g:1915-12,g:1916-1-6] #利用開始{#大平隆平} #天理教 #グレゴリオ暦 #併用
+
+#XXXcalendar グレゴリオ暦
+
+def[世界紀元]
+#y~4103
+
+sw 世界紀元 (天理教)
+
+AD1916 = 900100077
+
+tag 大日本帝国
+tag 日本人
+tag 天理教
+tag 宗教紀年
+tag 人類誕生紀元
+tag 日本の私的紀年法
+
+name 世界紀元
+&
+name 紀元
+
+tag 大平隆平
+
+u 900099959-4-4
+u 900100091-4
+
+#XXXcalendar グレゴリオ暦
+
+<-unknown ->世界紀元,世界紀元(旧) [?:-900098160] #事由 #天理教
+
+<-世界紀元(旧) [g:1916-1-14,g:1916-2-7] #利用開始{#大平隆平} #天理教
+    #グレゴリオ暦
 
 def[命知]
 # y~1749
