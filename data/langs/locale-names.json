@@ -1203,6 +1203,10 @@
          "bcp47_canonical" : "crh-Latn",
          "mediawiki" : "crh-latn"
       },
+      "crh-ro" : {
+         "bcp47_canonical" : "crh-RO",
+         "mediawiki" : "crh-ro"
+      },
       "cs" : {
          "bcp47_canonical" : "cs",
          "chrome_web_store" : "cs",
@@ -1224,6 +1228,14 @@
       "csb" : {
          "bcp47_canonical" : "csb",
          "mediawiki" : "csb"
+      },
+      "csw" : {
+         "bcp47_canonical" : "csw",
+         "cldr" : "csw"
+      },
+      "csw-ca" : {
+         "bcp47_canonical" : "csw-CA",
+         "cldr" : "csw_CA"
       },
       "cu" : {
          "bcp47_canonical" : "cu",
