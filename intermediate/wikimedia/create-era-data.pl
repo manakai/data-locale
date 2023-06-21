@@ -562,12 +562,14 @@ s+
     push @pk, '神武王' if $key eq '文聖王';
     push @pk, '文咨明王(辛未)' if $pk[0] eq '文咨明王';
     push @pk, '顯宗(己酉)' if $pk[0] eq '顯宗';
+    push @pk, '高麗光宗(己酉)' if $pk[0] eq '高麗光宗' ;
     push @pk, '高麗宣宗(癸亥)' if $pk[0] eq '高麗宣宗';
-    push @pk, '睿宗(乙酉)' if $pk[0] eq '睿宗';
+    push @pk, '高麗仁宗(壬寅)' if $pk[0] eq '高麗仁宗';
     push @pk, '高麗高宗(癸酉)' if $pk[0] eq '高麗高宗';
     push @pk, '忠烈王(甲戌)' if $pk[0] eq '忠烈王';
     push @pk, '恭愍王(辛卯)' if $pk[0] eq '恭愍王';
     push @pk, '辛禑(甲寅)' if $pk[0] eq '辛禑';
+    push @pk, '威德王(乙亥)' if $pk[0] eq '百済惠王';
     #push @pk, $data->{prev_other} if defined $data->{prev_other};
     my $ctag = $Prefix2 . $data->{country};
     if ($ctag eq '春秋戦国齊') {
@@ -646,6 +648,7 @@ s+
          $Prefix2 eq '漢' ? '前漢' : '春秋戦国時代'),
         ($Prefix2 eq '漢' ? cal_tag ($y, $data->{start_day}) : $data->{country} eq '秦' ? '#秦正' : '');
     if ($key eq '齊威王因' or
+        $key eq '威德王' or
         ($Data->{source_type} eq 'table3' and $key eq '惠王')) {
       print qq{  #旧説\n};
     }

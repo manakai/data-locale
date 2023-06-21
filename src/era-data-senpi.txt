@@ -3100,6 +3100,8 @@ name 桓帝
 %tag country
 %tag   label_ja 代国
 %tag   name_ja 代
+%tag   &
+%tag   name 大代
 %tag   period of 代
 %tag   period of 中国
 %tag   period of 北魏 (建国前)
@@ -3466,6 +3468,8 @@ name(kr) 건국
 %tag   prefix name 大魏
 %tag   &
 %tag   prefix name 大代大魏
+%tag   &
+%tag   prefix name 大代
 %tag   &
 %tag   prefix name 元魏
 %tag   &
@@ -4712,6 +4716,7 @@ wref_ko 태화 (북위)
 name(kr) 태화
 #477-1-1 - 499
 
+tag 七支刀
 
 
 
@@ -4797,6 +4802,8 @@ name(kr) 정시
 #504-1-19 - 508-8
 
 tag 蕭宝寅
+
+#大代正始
 
 [正始(樊素安)]
 #y~622
@@ -5412,6 +5419,10 @@ name(kr) 효창
 #525-6-10 - 528-1
 
 tag 蕭宝寅
+
+&
+abbr_tw 孝 [孝]昌
+#sw 孝昌
 
 [武泰]
 #y~494
@@ -8611,10 +8622,12 @@ tag 唐領百済
 u 5
 tag 朝鮮の年号と紀年
 #上 #page=26
+tag 金石銘
 
 tag 避諱前元号
 
 def[明慶]
+#y~4005
 
 <-顯慶 [唐:656-11-5,唐:710-8-3] #避諱別名発生{#唐, #唐高宗}
 tag 避諱後元号
@@ -8636,6 +8649,7 @@ name_cn 明庆
 <-永徽 唐:656-1-壬申 #支那改元日{#李唐 #唐高宗} #避諱元号へ
 
 def[光慶]
+#y~4008
 
 <-顯慶 [唐:656-11-5,唐:710-8-3] #避諱別名発生{#唐, #唐高宗}
 tag 避諱後元号
@@ -8657,6 +8671,7 @@ name_cn 光庆
 <-永徽 唐:656-1-壬申 #支那改元日{#李唐 #唐高宗} #避諱元号へ
 
 def[現慶]
+#y~4007
 
 <-顯慶 [唐:656-11-5,高麗:1289] #避諱別名発生{#唐, #唐高宗}
 tag 避諱後元号
@@ -8917,6 +8932,10 @@ s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7
 
 tag 新羅
 tag 新羅人
+
+tag 唐領百済
+u 2
+tag 金石銘
 
 [調露]
 #y~770
@@ -10812,12 +10831,12 @@ s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7
 
 tag 新羅
 tag 新羅人
+u 14-4-13
 
 tag 朝鮮の年号と紀年
 #上 #page=26
 u 17-3-16
 tag 金石銘
-
 
 [永貞]
 #y~476
@@ -11134,6 +11153,9 @@ tag 朝鮮の年号と紀年
 u 4
 tag 金石銘
 
+#tag 新羅領百済
+u 7
+name 㑹昌
 
 [大中]
 #y~1065
@@ -11567,6 +11589,8 @@ s#旧唐書<https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7
 
 tag 新羅
 tag 新羅人
+
+u 4
 
 [景福]
 #y~39
@@ -13538,10 +13562,31 @@ u 1-7-15
 u 5-8-15
 tag 金石銘
 
+tag 避諱前元号
+
 &
 name country monarch+
 name 周世宗柴榮顯德
 
+def[現德]
+#y~4110
+
+AD954 = 1
+
+tag 後周
++name monarch 郭威
++name monarch 柴栄
++name monarch 柴宗訓
+
+name 現德
+name(kr) 현덕
+
+u 5-8
+u 7
+
+<-顯德 [唐:954-1-1,高麗:1068-1-1] #避諱別名発生{#唐, #唐高宗}
+tag 避諱後元号
+<-廣順 唐:954-1-1(丙子) #支那改元詔{#後周 #郭威} #避諱元号へ
 
 def[柴宗訓]
 

@@ -785,6 +785,12 @@ sub parse_date ($$;%) {
     } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|晋|南|北魏|東魏|隋|唐|宋|遼|金|元|明|清|中華人民共和国|越南|高句麗|百済|新羅|高麗|李氏朝鮮|k):((?:-|BC|)[0-9]+)-([0-9]+)('|)\s*}{}) {
       my $x = $1;
       my $y = parse_year ($2);
+      $x = '漢' if $x eq '高句麗' and $y < 250;
+      $x = '晋' if $x eq '高句麗' and $y < 450;
+      $x = '隋' if $x eq '高句麗' and $y < 660;
+      $x = '唐' if $x eq '高句麗' and $y < 700;
+      $x = '晋' if $x eq '百済' and $y < 450;
+      $x = '隋' if $x eq '百済' and $y < 700;
       $x = '漢' if $x eq '新羅' and $y < 250;
       $x = '晋' if $x eq '新羅' and $y < 450;
       $x = '唐' if $x eq '越南' and $y < 970;
@@ -813,6 +819,12 @@ sub parse_date ($$;%) {
     } elsif ($v =~ s{^(秦|漢|蜀|呉|魏|南|北魏|東魏|晋|隋|唐|宋|遼|金|元|明|清|中華人民共和国|越南|高句麗|百済|新羅|高麗|李氏朝鮮|k):((?:-|BC|)[0-9]+)\s*}{}) {
       my $x = $1;
       my $y = parse_year ($2);
+      $x = '漢' if $x eq '高句麗' and $y < 250;
+      $x = '晋' if $x eq '高句麗' and $y < 450;
+      $x = '隋' if $x eq '高句麗' and $y < 660;
+      $x = '唐' if $x eq '高句麗' and $y < 700;
+      $x = '晋' if $x eq '百済' and $y < 450;
+      $x = '隋' if $x eq '百済' and $y < 700;
       $x = '漢' if $x eq '新羅' and $y < 250;
       $x = '晋' if $x eq '新羅' and $y < 450;
       $x = '?' if $x eq '越南' and $y < 500;

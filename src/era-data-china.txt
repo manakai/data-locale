@@ -2444,6 +2444,8 @@
 %tag   name_ja 香港人
 %tag   group of アジア人
 
+%tag source
+%tag   name 紀元編
 
 %tag tag
 %tag   name 三皇五帝

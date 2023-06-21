@@ -290,6 +290,12 @@ s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B7
 <-景初 [魏:239-11] #年始改元決定{#曹魏 #曹芳} #丑正
 <-景初 魏:240-1-1 #年始改元実施{#曹魏 #曹芳}
 
+tag 楽浪郡
+tag 帯方郡
+tag 北鮮
+tag 金石銘
+u 9
+
 [嘉平]
 #y~573
 AD249 = 1
@@ -318,6 +324,13 @@ s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B7
 
 ## <https://ja.wikipedia.org/wiki/%E6%9B%B9%E8%8A%B3>
 #->正元(甲戌) 魏:254-9-19 j:254-10-17 #改元前の退位{#曹魏 #曹芳 #魏皇帝}
+
+tag 楽浪郡
+tag 帯方郡
+tag 北鮮
+tag 金石銘
+u 2-2-5
+u 4
 
 [正元(甲戌)]
 #y~1443
@@ -382,6 +395,11 @@ s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B7
 s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B704>"五月己丑"
 ->景元 魏:260-5-7(己丑) j:260-6-2 #改元前の死去{#曹魏 #曹髦}
 
+tag 楽浪郡
+tag 帯方郡
+tag 北鮮
+tag 金石銘
+
 
 [景元]
 #y~361
@@ -411,6 +429,12 @@ s#三国志<https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B7
 #<-甘露(丙子) [魏:260,魏:260-6-甲寅] #改元前の死去{#曹魏 #曹髦}
 <-甘露(丙子) 魏:260-6-甲寅 #建元前の即位{#曹魏 #曹奐 #魏皇帝}
 <-甘露(丙子) 魏:260-6-甲寅 #支那改元日{#曹魏 #曹奐}
+
+tag 楽浪郡
+tag 帯方郡
+tag 北鮮
+tag 金石銘
+u 1-7-23
 
 [咸熙]
 #y~1161
@@ -1181,6 +1205,15 @@ tag トルファン
 u 3
 tag 敦煌
 
+tag 楽浪郡
+tag 帯方郡
+tag 北鮮
+tag 金石銘
+#泰始
+u 4-3
+u 10-7-23
+
+tag 七支刀
 
 [咸寧]
 #y~102
@@ -1205,7 +1238,7 @@ name_ja 咸寧
 name_kana かん ねい
 
 s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7003>"咸寧元年"
-<-泰始 晋:275-1-1(戊午) #支那改元日{#西晋 #司馬炎}
+<-泰始,泰初(乙酉) 晋:275-1-1(戊午) #支那改元日{#西晋 #司馬炎}
 
 [太康]
 #y~538
@@ -1254,6 +1287,13 @@ u 6-3
 #AD285
 tag 敦煌
 
+tag 楽浪郡
+tag 帯方郡
+tag 北鮮
+tag 金石銘
+#大康
+u 3-7
+u 9-2
 
 [太熙]
 #y~46
@@ -1387,6 +1427,12 @@ u 6-1
 #AD296
 tag 敦煌
 
+tag 楽浪郡
+tag 帯方郡
+tag 北鮮
+tag 金石銘
+u 1
+u 5-8-18(乙酉)
 
 [永康(庚申)]
 #y~484
@@ -1435,6 +1481,7 @@ tag 匈奴
 %tag person
 %tag   name_ja 司馬倫
 tag 司馬倫
+tag 君主名の元号
 
 s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7059>"改元建始"
 name 建始
@@ -1457,6 +1504,12 @@ name_kana けん し
 # 301-1 - 301-4
 
 <-永康(庚申) 晋:301-1-乙丑 #支那改元日{#西晋 #司馬倫}
+
+tag 楽浪郡
+tag 帯方郡
+tag 北鮮
+tag 金石銘
+u 1
 
 %tag country
 %tag   name_ja 前涼
@@ -1546,6 +1599,13 @@ tag 漢民族
 ## [102]
 name_tw 大安
 name_cn 大安
+
+tag 楽浪郡
+tag 帯方郡
+tag 北鮮
+tag 金石銘
+name 大安
+u 2
 
 s#晋書<https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7004>"太安元年"
 <-永寧(辛酉) 晋:302-12-丁卯 #支那改元日{#西晋 #晋恵帝}
@@ -1810,6 +1870,11 @@ u 3-1
 #AD309
 #AD310 (4) [朔日干支]
 
+tag 楽浪郡
+tag 帯方郡
+tag 北鮮
+tag 金石銘
+
 %tag event
 %tag   name_ja 永嘉の乱
 
@@ -2056,6 +2121,12 @@ tag 敦煌
 ## <https://ir.library.osaka-u.ac.jp/repo/ouka/all/78853/huibao_043.pdf#page=6>
 tag 西安
 
+tag 楽浪郡
+tag 帯方郡
+tag 高句麗
+tag 北鮮
+tag 金石銘
+u 4
 
 [和平(甲寅)]
 #y~167
@@ -2459,6 +2530,7 @@ sw 建武
 tag 避諱前元号
 
 def[建虎(丁丑)]
+#y~4009
 
 <-建武(乙酉) [j:943-7-5,高麗:1289] #避諱別名発生{#高麗, #惠宗}
 tag 避諱後元号
@@ -2680,6 +2752,17 @@ u 1
 
 name 大寧
 
+tag 楽浪郡
+tag 帯方郡
+tag 高句麗
+tag 北鮮
+tag 金石銘
+name 太寧
+u 4
+name 泰寧
+u 5-3-10
+
+
 [咸和]
 #y~576
 AD326 = 1
@@ -2715,6 +2798,13 @@ name 咸和
 s+
 # #即位
 # #改元
+
+tag 楽浪郡
+tag 帯方郡
+tag 高句麗
+tag 北鮮
+tag 金石銘
+u 10
 
 [咸康]
 #y~1671
@@ -2786,6 +2876,13 @@ s+
 ## <https://twitter.com/BabelStone/status/1583466274126180353>
 pinyin Jiàn|yuán
 
+tag 楽浪郡
+tag 帯方郡
+tag 高句麗
+tag 北鮮
+tag 金石銘
+u 3-8
+
 [永和(乙巳)]
 #y~709
 AD345 = 1
@@ -2853,6 +2950,15 @@ u 9
 ## <https://twitter.com/BabelStone/status/1433009194047791107>
 ## <https://twitter.com/BabelStone/status/1583466274126180353>
 pinyin Yǒn|ghé
+
+tag 楽浪郡
+tag 帯方郡
+tag 高句麗
+tag 北鮮
+tag 金石銘
+u 8-2-4
+u 9-3-10
+u 13-10-26
 
 &
 name country monarch+
@@ -3131,6 +3237,10 @@ u 1-8-22
 name 泰和
 #was original form
 
+tag 百済
+tag 日本
+tag 七支刀
+tag 金石銘
 
 [鳳凰(庚午)]
 #y~1432
@@ -3677,6 +3787,13 @@ s#魏書<https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B797>"元興"
 name 元興
 s+
 # #改元
+
+tag 楽浪郡
+tag 帯方郡
+tag 高句麗
+tag 北鮮
+tag 金石銘
+u 3-3-4
 
 [大亨]
 #y~1269
@@ -4763,6 +4880,8 @@ name_kana たい し
 #wref_ko 태시 (유송)
 name(kr) 태시
 
+tag 七支刀
+
 &
 s#南斉書<https://zh.wikisource.org/wiki/%E5%8D%97%E9%BD%8A%E6%9B%B8/%E5%8D%B79>"泰始"
 #"泰始薄加脩廣　「泰始」原譌「太始」，各本並譌，今改正，按泰始，宋明帝年號。"
@@ -5592,6 +5711,11 @@ wref_ko 대통 (양)
 name(kr) 대통
 #527-3-8 527-4-24 - 529-9
 <-普通 南:527-3-8(辛未) j:527-4-24 #支那改元日{#南梁 #蕭衍} #異説
+
+u 8
+tag 朝鮮
+#偽造金石銘
+#sw 朝鮮半島の紀年法
 
 def[大通(乙巳)]
 #y~1954

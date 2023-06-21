@@ -15,7 +15,7 @@ sub parse_src_line ($$) {
   my ($in => $out) = @_;
 
   $in =~ s/^\s*//;
-  if ($in =~ /^(name|label)(!|)\s+((?:\p{sc=Han}[\x{E0100}-\x{E01FF}]?)+)$/) {
+  if ($in =~ /^(name|label)(!|)\s+((?:[\p{sc=Han}\x{30000}-\x{3FFFF}][\x{E0100}-\x{E01FF}]?)+)$/) {
     push @{$out->[-1]->{labels}->[-1]->{reps}},
         {kind => $1, type => 'han', value => $3, preferred => $2};
     } elsif ($in =~ /^name_kana\s+([\p{sc=Hiragana} ]+)$/) {

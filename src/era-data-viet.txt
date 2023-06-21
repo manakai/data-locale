@@ -98,6 +98,7 @@
 
 %tag source
 %tag   name_ja ベトナムの漢字年号について
+%tag   group of 年号を考える
 
 %tag source
 %tag   name_ja ベトナムの漢字年号について 2020 一覧

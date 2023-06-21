@@ -246,7 +246,8 @@ tag 再開元号の中断中
 u 10000
 
 
-
+%tag source
+%tag   name_ja 年号を考える
 
 %tag country
 %tag   name_ja 蘭芳大総制
@@ -295,12 +296,14 @@ AD1846 = 1
 
 
 def[龍飛(馬來西亞)]
+#y~1751
 
 sw 龍飛
 
 name 龍飛
 
 def[天運(馬來西亞)]
+#y~1750
 
 sw 天運
 

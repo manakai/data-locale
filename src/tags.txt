@@ -100,13 +100,22 @@ region
 event
   name_ja ロシア革命
 
+region
+  name_ja 露西亜
+
 country
   name_ja ロシア帝国
+  period of 露西亜
 
 country
   name_ja ソビエト社会主義共和国連邦
   name_ja ソビエト連邦
   name_ja ソ連
+  period of 露西亜
+
+country
+  name_ja ロシア連邦
+  period of 露西亜
 
 region
   name_ja 東インド
@@ -366,6 +375,10 @@ action
   group of 元号廃止
   group of 利用開始
 
+action
+  name_ja 元号廃止決定
+  group of 制定
+
 tag
   name_ja 元号廃止前の元号
   group of 元号
@@ -561,6 +574,9 @@ tag
 tag
   name_ja 逸年号 (ウィキペディア)
 
+action
+  name_ja 改元提案
+
 tag
   name_ja 改元デマ
 
@@ -634,6 +650,10 @@ action
 
 action
   name_ja 利用開始
+
+action
+  name_ja 利用指示
+  group of 利用開始
 
 action
   name_ja 行政機関設置編入
@@ -972,6 +992,10 @@ action
   group of 活動開始
 
 action
+  name_ja 遷都
+  #{from, to}
+
+action
   name_ja 活動終了
 
 action
@@ -1001,7 +1025,7 @@ tag
   name_ja 農民反乱
 
 action
-  name_ja 建元不承認
+  name_ja 建元不承認決定
 
 action
   name_ja 国名変更
@@ -1170,6 +1194,14 @@ tag
   group of 異説
 
 tag
+  name_ja 偽書初出
+  group of 旧説
+
+tag
+  name_ja 偽書初出元号
+  group of 追号説のある元号
+
+tag
   name 幽霊紀年法
   group of 旧説
 
@@ -1284,6 +1316,19 @@ action
   group of 名誤伝発生
 
 action
+  name_ja 年名旧説発生
+  group of 名旧説発生
+  group of 年旧説発生
+
+action
+  name_ja 偽書紀年法発生
+  group of 年旧説発生
+
+action
+  name_ja 偽書元号発生
+  group of 年名旧説発生
+
+action
   name_ja 年号銭誤認
   group of 誤伝発生
 
@@ -1326,6 +1371,9 @@ action
 action
   name_ja グレゴリオ改暦
   group of 改暦
+
+tag
+  name_ja 暦書
 
 tag
   name_ja 空位紀元

@@ -390,6 +390,11 @@
 %tag   region of 熊本県
 
 %tag region
+%tag   name_ja 宮崎県
+%tag   region of 日本国
+%tag   region of 九州
+
+%tag region
 %tag   name_ja 南西諸島
 %tag   region of 日本
 
@@ -707,6 +712,22 @@ name(ja_old) うけ|やすき
 %tag tag
 %tag   name_ja 日本私年号の研究 仮名書年号
 %tag   group of 日本私年号の研究
+
+%tag source
+%tag   name_ja 日本私年号の研究 公年号
+%tag   group of 日本私年号の研究
+
+%tag source
+%tag   name_ja 日本私年号の研究 私年号
+%tag   group of 日本私年号の研究
+
+%tag source
+%tag   name_ja 日本私年号の研究 避諱年号
+%tag   group of 日本私年号の研究 公年号
+
+%tag source
+%tag   name_ja 日本私年号の研究 僭竊年号
+%tag   group of 日本私年号の研究 私年号
 
 [長久]
 #sw 仮名書年号
@@ -2135,9 +2156,16 @@ name_ja 立教
 name_kana りっ きょう
 #
 name(es) Rikkyo
+#
+name(kr) 릿쿄
+name 立敎
 &
 acronym(ja_latin) R
 expanded(ja_latin) [R]ikkyo
+
+&&
+name(kr)! 입교
+
 &&
 name(en) Tenrikyo
 &&
@@ -4177,6 +4205,9 @@ sw 美禄
 
 
 
+%tag religion
+%tag   name_ja 九州王朝説
+
 def[列滴]
 name_ja 列滴
 name_ja 烈擲
@@ -4386,6 +4417,8 @@ tag 日本
 tag 日本の私年号
 
 def[法興]
+#y~1223
+
 name_ja 法興
 AD591 = 1
 tag 日本人
