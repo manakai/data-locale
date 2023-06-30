@@ -700,6 +700,15 @@
          "bcp47_canonical" : "ber-MA",
          "facebook" : "tz_MA"
       },
+      "bew" : {
+         "bcp47_canonical" : "bew",
+         "cldr" : "bew",
+         "mediawiki" : "bew"
+      },
+      "bew-id" : {
+         "bcp47_canonical" : "bew-ID",
+         "cldr" : "bew_ID"
+      },
       "bez" : {
          "bcp47_canonical" : "bez",
          "cldr" : "bez",
@@ -4136,6 +4145,10 @@
          "native_name" : "한국어",
          "rss2" : "ko"
       },
+      "ko-cn" : {
+         "bcp47_canonical" : "ko-CN",
+         "cldr" : "ko_CN"
+      },
       "ko-kp" : {
          "bcp47_canonical" : "ko-KP",
          "cldr" : "ko_KP",
@@ -4308,6 +4321,42 @@
          "bcp47_canonical" : "kw-GB",
          "cldr" : "kw_GB",
          "native_name" : "kernewek (Rywvaneth Unys)"
+      },
+      "kxv" : {
+         "bcp47_canonical" : "kxv",
+         "cldr" : "kxv"
+      },
+      "kxv-deva" : {
+         "bcp47_canonical" : "kxv-Deva",
+         "cldr" : "kxv_Deva"
+      },
+      "kxv-deva-in" : {
+         "bcp47_canonical" : "kxv-Deva-IN",
+         "cldr" : "kxv_Deva_IN"
+      },
+      "kxv-latn" : {
+         "bcp47_canonical" : "kxv-Latn",
+         "cldr" : "kxv_Latn"
+      },
+      "kxv-latn-in" : {
+         "bcp47_canonical" : "kxv-Latn-IN",
+         "cldr" : "kxv_Latn_IN"
+      },
+      "kxv-orya" : {
+         "bcp47_canonical" : "kxv-Orya",
+         "cldr" : "kxv_Orya"
+      },
+      "kxv-orya-in" : {
+         "bcp47_canonical" : "kxv-Orya-IN",
+         "cldr" : "kxv_Orya_IN"
+      },
+      "kxv-telu" : {
+         "bcp47_canonical" : "kxv-Telu",
+         "cldr" : "kxv_Telu"
+      },
+      "kxv-telu-in" : {
+         "bcp47_canonical" : "kxv-Telu-IN",
+         "cldr" : "kxv_Telu_IN"
       },
       "ky" : {
          "bcp47_canonical" : "ky",
@@ -4705,6 +4754,14 @@
          "cldr" : "mi_NZ",
          "facebook" : "mi_NZ",
          "native_name" : "Māori (Aotearoa)"
+      },
+      "mic" : {
+         "bcp47_canonical" : "mic",
+         "cldr" : "mic"
+      },
+      "mic-ca" : {
+         "bcp47_canonical" : "mic-CA",
+         "cldr" : "mic_CA"
       },
       "min" : {
          "bcp47_canonical" : "min",
@@ -6283,11 +6340,16 @@
       },
       "skr" : {
          "bcp47_canonical" : "skr",
+         "cldr" : "skr",
          "mediawiki" : "skr"
       },
       "skr-arab" : {
          "bcp47_canonical" : "skr-Arab",
          "mediawiki" : "skr-arab"
+      },
+      "skr-pk" : {
+         "bcp47_canonical" : "skr-PK",
+         "cldr" : "skr_PK"
       },
       "sl" : {
          "bcp47_canonical" : "sl",
@@ -7059,7 +7121,12 @@
       },
       "tyv" : {
          "bcp47_canonical" : "tyv",
+         "cldr" : "tyv",
          "mediawiki" : "tyv"
+      },
+      "tyv-ru" : {
+         "bcp47_canonical" : "tyv-RU",
+         "cldr" : "tyv_RU"
       },
       "tzm" : {
          "bcp47_canonical" : "tzm",
@@ -7526,7 +7593,12 @@
       },
       "za" : {
          "bcp47_canonical" : "za",
+         "cldr" : "za",
          "mediawiki" : "za"
+      },
+      "za-cn" : {
+         "bcp47_canonical" : "za-CN",
+         "cldr" : "za_CN"
       },
       "zea" : {
          "bcp47_canonical" : "zea",
