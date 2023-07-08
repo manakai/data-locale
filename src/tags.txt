@@ -209,6 +209,11 @@ country
   region of 東南アジア
 
 country
+  name_ja 英領海峡植民地
+  group of 英国
+  period of シンガポール
+
+country
   name_ja マレーシア
   region of 東南アジア
 
@@ -633,6 +638,14 @@ tag
 
 action
   name_ja 発表
+  group of 通知発出
+
+action
+  name_ja 決定
+
+action
+  name_ja 議会通過
+  group of 決定
 
 action
   name_ja 制定
@@ -988,6 +1001,10 @@ action
   group of 建国
 
 action
+  name_ja 軍事クーデター政権設立
+  group of 蜂起建国
+
+action
   name_ja 宗教創設
   group of 活動開始
 
@@ -997,6 +1014,7 @@ action
 
 action
   name_ja 活動終了
+  #解散
 
 action
   name_ja 消滅

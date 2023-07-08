@@ -26,16 +26,24 @@
 %tag   region of 満州
 
 %tag region
-%tag   name_ja 関東州
+%tag   name_ja 北満州
 %tag   region of 内満州
+
+%tag region
+%tag   name_ja 南満州
+%tag   region of 内満州
+
+%tag region
+%tag   name_ja 関東州
+%tag   region of 南満州
 
 %tag region
 %tag   name_ja 奉天
-%tag   region of 内満州
+%tag   region of 南満州
 
 %tag region
 %tag   name_ja 遼東
-%tag   region of 内満州
+%tag   region of 南満州
 
 %tag people
 %tag   name_ja 夫余
@@ -83,6 +91,11 @@
 %tag source
 %tag   name_ja 陝溪太氏族譜
 #unreliable
+
+%tag source
+%tag   name_ja 日本と中国の公年号年表 渤海年号
+%tag   group of 日本と中国の公年号年表
+
 
 def[重光(戊辰)]
 #y~2022
@@ -181,6 +194,13 @@ u 21
 >< [唐:713] #即位{#李唐 #大祚栄 #王_(支那)} #渤海国
 ->仁安(庚申),仁安(己未) <-天統(戊戌),天統(己亥) 唐:719-3-8 j:719-4-2
     #改元前の死去{#渤海国 #大祚栄}
+
+wref<https://zh-classical.wikipedia.org/wiki/%E5%A4%A9%E7%B5%B1_(%E6%B8%A4%E6%B5%B7%E5%9C%8B)>
+#698 - 719
+
+&
+name monarch
+name 高王
 
 def[天統(己亥)]
 
@@ -3039,6 +3059,12 @@ wref<https://zh-min-nan.wikipedia.org/wiki/Ch%C3%A8ng-t%C4%81i_(Kim)>
 name(nan_wp) Chèng-tāi
 #1224 - 1231
 
+&&
+name country monarch
+name 金哀
+#sw 金哀
+#tag 李氏朝鮮
+
 [開興]
 #y~1418
 
@@ -4671,6 +4697,8 @@ tag チベット人
 tag 蒙古人
 tag 清領朝鮮
 tag 朝鮮人
+tag 新聞
+tag 帝國新聞
 tag 清領台湾
 tag 清領澎湖諸島
 tag 台湾人

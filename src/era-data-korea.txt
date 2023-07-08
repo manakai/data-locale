@@ -46,6 +46,44 @@
 %tag   name_ja 江華島
 %tag   region of 朝鮮
 
+
+def[箕子]
+#y~4178
+
+AD1904 = 3026
+
+tag 朝鮮王即位紀年
+
+%tag country
+%tag   name_ja 箕子朝鮮
+%tag   period of 朝鮮
+tag 箕子朝鮮
+
+name monarch
+name 箕子
+u 1
+&
+name country monarch
+name 朝鮮箕子
+u 1
+
+&
+#tag 初代王朝建国紀元
+tag 清領朝鮮
+tag 李氏朝鮮
+tag 大韓帝国
+tag 朝鮮人
+tag 新聞
+name monarch+
+name 箕子元年
+u 3026
+tag 帝國新聞
+
+&
+name monarch+
+name 箕子東後
+
+
 %tag source
 %tag   name_ja 三国史記
 %tag   name_tw 三國史記
@@ -390,6 +428,10 @@ name 開土王
 %tag source
 %tag   name_ja 古代朝鮮三国の建てた年号
 %tag   group of 日本年号史大事典
+
+%tag source
+%tag   name_ja 中国・日本・朝鮮・ベトナムの公年号一覧 朝鮮
+%tag   group of 中国・日本・朝鮮・ベトナムの公年号一覧
 
 %tag source
 %tag   name_ja 韓国の年号
@@ -4020,6 +4062,10 @@ name monarch
 name 太祖
 
 &
+name country monarch
+name 我太祖
+
+&
 name monarch+
 name 太祖即位
 
@@ -4064,7 +4110,8 @@ name 高麗紀元
 u 1016
 tag 桓檀古記
 #tag 偽書初出
-tag 大韓民国
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 
 name 高麗紀元
 u 1081-9-3(壬寅)
@@ -4087,7 +4134,8 @@ tag 弓裔政権
 tag 高麗
 tag 建国紀元
 tag 米国占領地南朝鮮
-tag 大韓民国
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 
 name 高麗紀元
 #XXXname(kr) 고려 기원
@@ -4100,7 +4148,8 @@ def[權紀]
 sw 權紀
 
 tag 高麗
-tag 大韓民国
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 tag 大韓民国国民
 
 name 權紀
@@ -4858,6 +4907,8 @@ tag 幽霊元号
 tag 韓国の年号
 #p.84
 
+name 幸中
+
 <-unknown [高麗:918,高麗:1392] #支那改元日{#高麗} #旧説
 
 
@@ -5408,6 +5459,13 @@ u 3
 tag 朝鮮の年号と紀年
 #下 #page=10
 
+&
+name monarch+
+name 殿下嗣服
+#之
+u 3
+## <https://dl.ndl.go.jp/pid/1921111/1/90>
+
 tag 廃帝の紀年法
 
 def[光海君(戊申)]
@@ -5603,6 +5661,10 @@ name monarch
 name 英祖
 
 &
+name monarch
+name 英祖王
+
+&
 name monarch+
 name 至行純德英護毅烈主上殿下卽祚
 &
@@ -5788,6 +5850,12 @@ name monarch+
 name 上之卽位
 u 5
 
+&
+name monarch+
+name 朕御極
+#朕御極之
+u 24
+
 <-哲宗 [李氏朝鮮:1864] #李氏朝鮮称元{#李氏朝鮮 #李㷩}
 
 def[高宗(癸亥)]
@@ -5855,6 +5923,8 @@ AD1907 = 1
 
 %tag country
 %tag   name_ja 大韓帝国
+%tag   &
+%tag   prefix name 大韓
 %tag   period of 李氏朝鮮
 
 %tag tag
@@ -5931,6 +6001,8 @@ wref<https://zh-classical.wikipedia.org/wiki/%E9%96%8B%E5%9C%8B_(%E6%9C%9D%E9%AE
 #(504) 1895
 #->建陽 1896
 
+tag 新聞
+
 &
 name 開国年号
 &
@@ -5958,7 +6030,32 @@ tag 国名建国紀元
 name country+
 name 朝鮮紀元
 
-<-光緒 g:1894-7-27 #利用開始{#李氏朝鮮 #李㷩} #分離
+&&
+name monarch+
+name 太祖紀元
+name 太祖紀元
+#我國紀元
+u 492
+
+&&
+name monarch+
+name 洪武壬申後
+u 366
+
+%tag event
+%tag   name_ja 日朝修好条規
+tag 日朝修好条規
+<-光緒 g:1876-2-26 #利用開始{#李氏朝鮮 #李㷩} #分離 #日朝修好条規
+u 485
+
+%tag event
+%tag   name_ja 甲午改革
+tag 甲午改革
+
+#軍国機務処議定存案
+<-光緒 g:1894-7-30 #利用指示{#李氏朝鮮 #李㷩} #分離 #甲午改革
+
+<-光緒 g:1894-7-27 #利用開始{#李氏朝鮮 #李㷩} #分離 #旧説
 
 tag 朝鮮の年号と紀年
 #上 #page=23
@@ -6121,11 +6218,12 @@ name(kr) 광무
 %tag   group of 皇帝
 
 <-建陽 g:1897-8-14 #制定{#李氏朝鮮 #李㷩} #グレゴリオ暦
-<-建陽 g:1897-8-16 #大韓帝国改元{#李氏朝鮮 #李㷩} #旧説
-<-建陽 g:1897-8-17 #適用開始{#李氏朝鮮 #李㷩} #グレゴリオ暦
-<-建陽 [g:1897-8-14,g:1897-8-30] #通知受領{#李氏朝鮮, #大日本帝国}
+<-建陽 ->開國 g:1897-8-14 #利用開始{#李氏朝鮮 #李㷩} #グレゴリオ暦
+<-開國 g:1897-8-16 #大韓帝国改元{#李氏朝鮮 #李㷩} #グレゴリオ暦
+<-建陽 g:1897-8-17 #適用開始{#李氏朝鮮 #李㷩} #グレゴリオ暦 #旧説
+<-開國 [g:1897-8-14,g:1897-8-30] #通知受領{#李氏朝鮮, #大日本帝国}
     #グレゴリオ暦
-<-建陽 g:1897-8-30 #通知発出{#大日本帝国,} #グレゴリオ暦
+<-開國 g:1897-8-30 #通知発出{#大日本帝国,} #グレゴリオ暦
 >< g:1897-10-12 #即位{#大韓帝国 #李㷩 #大韓帝国皇帝}
 >< g:1897-10-13 #国名変更{#李氏朝鮮, #大韓帝国} #李㷩
 ->隆熙 g:1907-7-20 #改元前の退位{#大韓帝国 #李㷩 #大韓帝国皇帝}
@@ -6239,11 +6337,22 @@ tag 韓国の年号
 %tag   region of 大日本帝国
 
 %tag people
+%tag   key 日本領朝鮮人
+%tag   name_ja 朝鮮人
+%tag   &
+%tag   label_ja 朝鮮人 (大日本帝国)
+%tag   group of 朝鮮人
+
+%tag people
 %tag   name_ja 在日韓国・朝鮮人
 %tag   group of 朝鮮人
 
 %tag people
 %tag   name_ja 朝鮮籍人
+%tag   group of 在日韓国・朝鮮人
+
+%tag people
+%tag   name_ja 在日韓国人
 %tag   group of 在日韓国・朝鮮人
 
 
@@ -6258,6 +6367,16 @@ tag 韓国の年号
 %tag 
 %tag   period of 朝鮮
 
+%tag region
+%tag   name_ja 朝鮮民主主義人民共和国本土
+%tag   region of 朝鮮民主主義人民共和国
+%tag   period of 北鮮
+
+%tag region
+%tag   name_ja 朝鮮民主主義人民共和国南朝鮮
+%tag   region of 朝鮮民主主義人民共和国
+%tag   period of 南鮮
+
 %tag people
 %tag   name_ja 朝鮮民主主義人民共和国国民
 %tag   name_ja 北朝鮮人
@@ -6270,7 +6389,8 @@ tag 韓国の年号
 
 def[주체]
 
-tag 朝鮮民主主義人民共和国
+tag 朝鮮民主主義人民共和国本土
+tag 大韓民国北韓
 tag 朝鮮民主主義人民共和国国民
 tag グレゴリオ暦
 tag 北鮮
@@ -6278,29 +6398,64 @@ tag 北鮮
 name(kp) 주체
 name_ja 主体
 name(ja) チュ|チェ
-&
-name(kp) 주체연호
-name 主體年號
-&
-name(kp) 주체력
-name_ja 主体暦
-name_tw 主體曆
-name(ja) チュ|チェ暦
-&
-name_ja 主体紀元
-wref_ko 주체연호
-wref_ja 主体暦
+#&
+#name(kp) 주체연호
+#name 主體年號
+#&
+#name(kp) 주체력
+#name_ja 主体暦
+#name_tw 主體曆
+#name(ja) チュ|チェ暦
+#&
+#name_ja 主体紀元
+#wref_ko 주체연호
+#wref_ja 主体暦
+
+name(en) Ju|che
+#XXXnameЧучхе
+#XXXname чучхе
+#XXXname زوتشيه
+
 AD1912 = 1
 sw 主体暦
 u 109
 
 tag 元号復活
 
+%tag person
+%tag   name_ja 金日成
+tag 金日成
+
+<-AD g:1912-4-15 #誕生{#金日成} #日本領朝鮮 #事由
+<-AD g:1994-7-8 #改元前の死去{#朝鮮民主主義人民共和国 #金日成} #事由
+<-AD g:1948-9-9 #建国{#朝鮮民主主義人民共和国 #金日成} #事由
+<-AD g:1997-7-8 #決定{#朝鮮民主主義人民共和国} #併用
+<-AD g:1997-7-9 #発表{#朝鮮民主主義人民共和国,} #併用
+#               19:00+09:00
+<-AD g:1997-8-25 #制定{#朝鮮民主主義人民共和国} #併用
 <-AD g:1997-9-9 #利用開始{#朝鮮民主主義人民共和国} #グレゴリオ暦 #併用
+
+%tag person
+%tag   name_ja 金正日
+tag 金正日
+
+%tag person
+%tag   name_ja 金正恩
+tag 金正恩
+
+%tag org
+%tag   name 朝鮮中央通信
+tag 朝鮮中央通信
+
+->AD g:2013-01-05 #併用終了{#朝鮮中央通信} #朝鮮民主主義人民共和国 #分離
+<-AD g:2013-01-13 #利用開始{#朝鮮中央通信} #朝鮮民主主義人民共和国 #併用
+<-AD g:2022-02-22 #併用終了{#朝鮮中央通信} #朝鮮民主主義人民共和国 #分離
 
 tag 日本
 tag 在日北朝鮮人
 tag 朝鮮籍人
+
+u 111
 
 
 %tag country
@@ -6313,6 +6468,16 @@ tag 朝鮮籍人
 %tag   name_ja 韓国
 %tag 
 %tag   period of 朝鮮
+
+%tag region
+%tag   name_ja 大韓民国本土
+%tag   region of 大韓民国
+%tag   period of 南鮮
+
+%tag region
+%tag   name_ja 大韓民国北韓
+%tag   region of 大韓民国
+%tag   period of 北鮮
 
 %tag people
 %tag   name_ja 大韓民国国民
@@ -6335,17 +6500,19 @@ def[대한민국]
 sw 大韓民国 (紀年法)
 AD1919 = 1
 
-tag 大韓民国
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 tag 大韓民国国民
 tag 南鮮
 tag 建国紀元
 tag グレゴリオ暦
 tag 大東亜戦争
-tag 朝鮮半島の私的紀年法
+#tag 朝鮮半島の私的紀年法
 
 #was: wref_zh 大韓民國_(年號)
 wref_zh 大韓民國紀年
 #name_tw 大韓民國紀年
+#name_cn 大韩民国纪年
 #1948-8-15 - 1948-9-24
 #(1) 1919 - (30) 1948
 #1948-9-25 ->檀君紀元
@@ -6367,6 +6534,8 @@ u 30
 #
 #大韓民国臨時政府
 #1919-4-11 "大韓民国元年4月11日" 制定 採用
+#
+#name_ja 大韓民国暦
 
 wref_ko 대한민국 (연호)
 name(kr) 대한민국
@@ -6390,20 +6559,41 @@ name 民國
 name 民国
 name(kr) 민국
 &
-name country+
-name 大韓民国暦
-&
-name country+
-name_tw 大韓民國紀年
+#name country+
+#name 大韓民国暦
+#&
+#name country+
+#name_tw 大韓民國紀年
 
 %tag org
 %tag   name_ja 大韓民国臨時政府
 tag 大韓民国臨時政府
 tag 中華民国
-tag 上海
+tag 上海仏国租界
+tag 南満州
+u 1-4-11
+u 1-4-10
 
-<-unknown g:1919-4-11 #制定 #利用開始{#大韓民国臨時政府}
-<-AD g:1948-9-1 #利用開始{#大韓民国}
+&
+name country
+name 朝鮮民國
+&
+name country
+name 朝鮮共和國
+
+%tag event
+%tag   name_ja 三一独立運動
+u 1-3-1
+
+<-大正 ->단기,대한민국 g:1919-3-1 #蜂起{} #朝鮮人 #三一独立運動 #事由
+    #日本領朝鮮
+<-大正,단기 g:1919-4-11 #活動開始{#大韓民国臨時政府} #事由 #中華民国
+<-大正,단기 g:1919-4-11 #マイクロネーション設立建元{#大韓民国臨時政府} #分離
+    #中華民国
+->AD [g:1945-11] #活動終了{#大韓民国臨時政府} #事由 #米国占領地南朝鮮
+
+<-AD ->단기,대한민국 g:1948-9-1 #建国{#大韓民国} #米国占領地南朝鮮 #事由
+<-AD ->단기,대한민국 g:1948-9-1 #利用開始{#大韓民国} #分離
 
 [단기]
 #y~913
@@ -6411,10 +6601,20 @@ tag 上海
 BC2333 = 1
 
 tag 初代王朝建国紀元
-tag 大韓民国
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 tag 大韓民国国民
 tag 南鮮
 tag グレゴリオ暦
+#朝鮮半島の私的紀年法
+
+%tag org
+%tag   name_ja 檀君朝鮮
+tag 檀君朝鮮
+
+%tag person
+%tag   name 檀君王倹
+tag 檀君王倹
 
 wref_ja 檀君紀元
 name_ja 檀君紀元
@@ -6422,31 +6622,138 @@ name_kana だん くん き げん
 name(kr) 단군기원
 #XXXname(kr_kana) タン|グン|キ|ウォン
 #XXX Dangun-giwon
+
+#XXX 文观部式 Dangun giwon
+#XXX 马-赖式 Tan'gun kiwŏn
+#XXXname(poj) Tân-kun kì-goân
+
 &
 name_ja 檀紀
 name_kana だん き
-name(kr) 단기
+name(kr)! 단기
 #XXXname(kr_kana) タン|キ
 #XXXDan-gi
-#
-#1948-9-25 公用開始
-#1961-12-2 廃止制定
-#1962-1-1 禁止
+
+#XXX文观部式 dangi
+#XXX 马-赖式 tan'gi
+#XXXname(poj) Tân-kì
+name(en) Dangi
+#name(en) Dangun Era
+
+tag 仙教
+tag 朴光義
 
 &
 name 檀君
+
+#name(kr) 단군원호 (檀君元號)
+
+%tag religion
+%tag   name 大倧敎
+%tag   name 大倧教
+tag 大倧敎
+%tag religion
+%tag   name 檀君教
+tag 檀君教
+tag 宗教紀年
+tag 南満州
+tag 中華民国
+tag 日本領朝鮮
+tag 三一独立運動
+<-大正 [g:1909,g:1910] #利用開始{#大倧敎} #日本領朝鮮 #分離
+#<-大正 [g:1910] #利用開始{#檀君教} #日本領朝鮮 #分離
+
 &&
 name 開天
 wref_ja 檀紀
 wref_ko 단군기원
 
-<-대한민국 g:1948-9-25 #利用開始{#大韓民国} #グレゴリオ暦
-->AD g:1961-12-2 #制定{#大韓民国} #グレゴリオ暦
-->AD g:1962-1-1 #利用開始{#大韓民国} #グレゴリオ暦
+<-unknown [?:-2332] #建元前の即位{#檀君朝鮮 #檀君王倹} #事由 #旧説
 
+%tag law
+%tag   key 年號에關한法律
+#檀紀4281年9月25日法律第4号
+#XXX%tag   name 年號에關한法律
+tag 年號에關한法律
+
+<-대한민국 g:1948-9-12 #議会通過{#大韓民国} #グレゴリオ暦 #年號에關한法律
+#公布, 施行
+<-대한민국 g:1948-9-25 #制定{#大韓民国} #グレゴリオ暦 #年號에關한法律
+<-대한민국 g:1948-9-25 #利用開始{#大韓民国} #グレゴリオ暦 #年號에關한法律
+
+%tag source
+%tag   name 自由新聞
+tag 自由新聞
+<-대한민국 g:1948-10-13 #利用開始{#自由新聞} #大韓民国 #グレゴリオ暦
+
+%tag law
+#檀紀4294(1961)年12月2日法律第775号
+%tag   name(kr) 연호에관한법률
+tag 연호에관한법률
+
+->AD g:1961-5-16 #軍事クーデター政権設立{#大韓民国} #事由
+->AD g:1961-12-2 #制定{#大韓民国} #グレゴリオ暦 #연호에관한법률
+#施行
+->AD g:1962-1-1 #利用開始{#大韓民国} #グレゴリオ暦 #연호에관한법률
+#廃止: #年號에關한法律
+->AD g:1962-1-1 #利用禁止{#大韓民国} #グレゴリオ暦 #旧説
+
+%tag law
+#西紀2014年1月7日 법률 제12209호 "연호에 관한 법률"
+%tag   key 연호에 관한 법률
+tag 연호에 관한 법률
+#法改正
+#公布, 施行
+->AD g:2014-1-7 #制定{#大韓民国} #グレゴリオ暦
+    #연호에관한법률 #연호에_관한_법률
+
+%tag org
+%tag   name 在日本大韓民国民団
+tag 在日本大韓民国民団
+tag 日本国
+tag 在日韓国人
+
+&
+name 紀元
+&&
+name country+
+name 朝鮮建國
+&
+name 建國
+&
+name 建國紀元
+&
+name 朝鮮紀元
 
 tag 朝鮮の年号と紀年
 #下 #page=23
+
+wref<https://zh-classical.wikipedia.org/wiki/%E6%AA%80%E5%90%9B%E7%B4%80%E5%85%83>
+wref<https://zh-min-nan.wikipedia.org/wiki/T%C3%A2n-kun_k%C3%AC-go%C3%A2n>
+
+u 4355-2-10
+
+def[檀君元年]
+#y~4180
+
+tag 清領朝鮮
+tag 李氏朝鮮
+tag 朝鮮人
+
+tag 朝鮮王即位紀年
+tag 檀君王倹
+
+name 檀君元年
+tag 新聞
+u 3247
+AD1904 = 3247
+
+%tag source
+%tag   name 帝國新聞
+tag 帝國新聞
+
+<-光武 ->檀君元年,箕子,孔紀,明治,AD,光緒,開國 [g:1903-07-05,g:1904-09-07]
+    #利用開始{#帝國新聞} #李氏朝鮮 #併用
 
 
 def[神市開天]
@@ -6455,9 +6762,11 @@ def[神市開天]
 <-unknown [g:1979] #偽書紀年法発生{#桓檀古記} #大韓民国 #高句麗
 
 tag 初代王朝建国紀元
-tag 大韓民国
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 tag 偽書初出
 tag 桓檀古記
+tag 大韓民国の私的紀年法
 
 name 神市開天
 u 5808-5
@@ -6465,31 +6774,155 @@ u 5846-5
 
 AD1911 = 5808
 
+name(kr) 신시개천
+u 5915
+
 &
 name 開天
+
+name(kr) 개천
+u 5915
 
 &&
 name 檀君紀元
 tag 鹿島曻
 
 
+
+%tag event
+%tag   name_ja 大韓民国民主化運動
+
+def[통일염원]
+#y~4167
+
+AD1945 = 1
+
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
+tag 大韓民国民主化運動
+tag 大韓民国国民
+tag 大韓民国の私年号
+
+#XXXname(kr) 통일 염원
+name(kr) 통일염원
+u 43
+u 44-8-15
+&
+#XXXname(kr) 분단조국·통일염원
+u 44
+&
+#XXXname(kr) 미제 강점, 분단 조국
+u 44-8-15
+
+<-AD [g:1986] #利用開始{} #大韓民国 #大韓民国民主化運動 #分離
+
+def[민중진군]
+#y~4166
+
+AD1980 = 1
+
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
+tag 大韓民国民主化運動
+tag 大韓民国国民
+tag 光州事件
+tag 大韓民国の私年号
+
+#XXXname(kr) 광주에서 해방으로 민중진군
+#name(kr) 광주에서 해방으로, 민중진군
+u 18-6-3
+u 44-5-19
+&
+name(kr) 민중진군
+u 12-6-27
+#XXXname(kr) 민중 진군
+u 12-3-31
+
+%tag event
+%tag   name_ja 光州事件
+%tag   group of 大韓民国民主化運動
+<-AD ->민중진군,광주민중항쟁,광주민중항쟁(辛酉) g:1980-5-18 #蜂起{}
+    #大韓民国 #光州事件 #事由
+
+<-AD [g:1980-5-18,g:1991-3-31] #利用開始{} #大韓民国民主化運動 #大韓民国 #併用
+
+def[광주민중항쟁]
+#y~4168
+
+AD1980 = 1
+
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
+tag 大韓民国民主化運動
+tag 大韓民国国民
+tag 光州事件
+tag 大韓民国の私年号
+
+name(kr) 광주민중항쟁
+u 12-5-20
+&
+name(kr) 광주무장봉기
+u 12-6-27
+
+<-AD [g:1980-5-18,g:1991-5-20] #利用開始{} #大韓民国民主化運動 #大韓民国 #併用
+
+def[광주민중항쟁(辛酉)]
+#y~4169
+
+AD1980 = 0
+
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
+tag 大韓民国民主化運動
+tag 大韓民国国民
+tag 光州事件
+tag 大韓民国の私年号
+
+name(kr) 광주민중항쟁
+u 19-5-20
+u 19-5-30
+
+<-AD [g:1980-5-18,g:1999-5-20] #利用開始{} #大韓民国民主化運動 #大韓民国 #併用
+
+def[반미항전]
+#y~4170
+
+AD1994 = 50
+
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
+tag 大韓民国民主化運動
+tag 大韓民国国民
+tag 大韓民国の私年号
+
+name(kr) 반미항전
+u 44-10-24
+u 48
+
+<-AD [g:1980-5-18,g:1988-10-24] #利用開始{} #大韓民国民主化運動 #大韓民国 #併用
+
 def[建齋後]
 #y~4160
 
 sw 朝鮮半島の紀年法
 
-tag 大韓民国
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 tag 大韓民国国民
 tag 南鮮
 tag 宗教紀年
+tag 大韓民国の私的紀年法
 
 name 建齋後
 u 6-7-7
 
 AD1969 = 6
 
+<-AD g:1969-7-7 #利用開始{} #大韓民国 #分離
+
 %tag religion
 %tag   name_ja 統一教会
+%tag   group of キリスト教
 
 %tag action
 %tag   name_ja 統一教会改元日
@@ -6508,13 +6941,14 @@ AD1960 = 1
 tag 日本人
 tag 大韓民国国民
 tag 日本国
-tag 大韓民国
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 tag 統一教会
 tag 南鮮
 tag 日本
 tag 宗教紀年
-tag 日本の私年号
-tag 大韓民国の私年号
+tag 日本の私的紀年法
+tag 大韓民国の私的紀年法
 
 %tag person
 %tag   name_ja 文鮮明
@@ -6541,13 +6975,14 @@ AD1977 = 1
 tag 日本人
 tag 大韓民国国民
 tag 日本国
-tag 大韓民国
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 tag 統一教会
 tag 宗教紀年
 tag 南鮮
 tag 日本
-tag 日本の私年号
-tag 大韓民国の私年号
+tag 日本の私的紀年法
+tag 大韓民国の私的紀年法
 
 tag 文鮮明
 
@@ -6564,7 +6999,8 @@ AD1993 = 1
 tag 日本人
 tag 大韓民国国民
 tag 日本国
-tag 大韓民国
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 tag 統一教会
 tag 宗教紀年
 tag 南鮮
@@ -6586,7 +7022,8 @@ AD2001 = 1
 tag 日本人
 tag 大韓民国国民
 tag 日本国
-tag 大韓民国
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 tag 統一教会
 tag 宗教紀年
 tag 南鮮
@@ -6615,7 +7052,8 @@ AD2010 = 1
 tag 日本人
 tag 大韓民国国民
 tag 日本国
-tag 大韓民国
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 tag 統一教会
 tag 宗教紀年
 tag 南鮮
@@ -6648,7 +7086,8 @@ AD2013 = 1
 tag 日本人
 tag 大韓民国国民
 tag 日本国
-tag 大韓民国
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 tag 統一教会
 tag 世界平和統一家庭連合
 tag 宗教紀年
@@ -6686,7 +7125,8 @@ sw 진기
 
 AD1947 = 1
 
-tag 大韓民国
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 tag 大韓民国国民
 tag 南鮮
 tag 宗教創設紀年
@@ -6709,6 +7149,7 @@ name_cn 眞觉
 u 54
 u 67-1-1
 u 71-4-1
+u 77
 
 #XXX<-仏暦β,AD
 <-AD [g:1947-6-14,g:2001] #利用開始{#大韓仏教真覚宗} #併用
@@ -6716,7 +7157,8 @@ u 71-4-1
 
 def[天紀(辛巳)]
 
-tag 大韓民国
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 tag 大韓民国国民
 tag 南鮮
 tag 宗教紀年
@@ -6740,7 +7182,8 @@ def[도기]
 
 AD2021 = 151
 
-tag 大韓民国
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 tag 大韓民国国民
 tag 南鮮
 tag 宗教紀年
@@ -6777,6 +7220,201 @@ u 151-12-22
 #陰暦:1909-6-24 #死去
 
 <-AD,단기 [李氏朝鮮:1871-9-19,g:2007] #利用開始{#甑山道} #大韓民国 #併用
+
+def[신천기]
+#y~4171
+
+AD1984 = 1
+
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
+tag 大韓民国の私的紀年法
+tag 宗教創設紀年
+tag 南鮮
+tag 大韓民国国民
+
+%tag religion
+%tag   key 신천지
+#XXX%tag   name(kr) 신천지예수교 증거장막성전
+%tag   name(kr) 신천지
+%tag   group of キリスト教
+tag 신천지
+
+name(kr) 신천기
+name 新天紀
+u 18-2
+u 39-1-28
+
+name_ja 新天紀
+
+<-AD g:1984-03-14 #宗教創設{#신천지} #大韓民国 #事由
+<-AD [g:1984-03-14,g:2001-2] #利用開始{#신천지} #大韓民国 #分離
+
+
+def[布德]
+#y~4172
+
+AD1860 = 1
+
+tag 大韓帝国
+tag 日本領朝鮮
+tag 日本領朝鮮人
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
+tag 大韓民国国民
+tag 宗教創設紀年
+
+%tag religion
+%tag   name_ja 東学党
+tag 東学党
+
+%tag religion
+%tag   name_ja 天道教
+tag 天道教
+
+name 布德
+name(kr) 포덕
+name_ja 布徳
+
+u 48-10
+u 164
+
+#u 前36-10-28
+
+<-咸豐 [清:1860] #宗教創設{#東学党} #事由 #清領朝鮮
+<-光武 g:1905-12-1 #宗教創設{#天道教} #事由 #大韓帝国
+<-光武 [g:1905-12-1,g:1907-10] #利用開始{#天道教} #大韓帝国 #分離
+
+def[圓紀]
+#y~4173
+
+AD1916 = 1
+
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
+tag 大韓民国の私的紀年法
+tag 大韓民国国民
+tag 宗教創設紀年
+
+%tag religion
+%tag   name 圓佛教
+%tag   name(kr) 원불교
+%tag   name_ja 円仏教
+%tag   group of 仏教
+tag 圓佛教
+
+name 圓紀
+name(kr) 원기
+name_ja 円紀
+name_cn 圆纪
+
+u 1
+u 28
+u 93
+u 108-8-7
+
+#圓紀前
+#u 前25-3-27
+
+#XXX<-大正 李氏朝鮮:1916-3-26 #宗教創設{#圓佛教} #日本領朝鮮 #事由 #旧暦
+<-AD [g:1960,g:1994-11-6] #利用開始{#圓佛教} #大韓民国 #併用
+
+
+def[환기]
+#y~4174
+
+AD2018 = 9215
+
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
+tag 大韓民国国民
+tag 初代王朝建国紀元
+
+%tag religion
+%tag   key 仙教
+%tag   name(kr) 선교
+%tag   name 仙敎
+%tag   name_ja 仙教
+tag 仙教
+tag 朴光義
+
+name(kr) 환기
+u 9164
+u 9206
+u 9215-10-3
+u 9866
+name 桓紀
+
+<-AD ->환기,선교개천 [g:1997] #宗教創設{#仙教 #朴光義} #事由 #大韓民国
+<-AD ->환기,단기,선기,선교창교,선교개천 [g:1997] #利用開始{#仙教 #朴光義} #併用
+    #大韓民国
+
+def[선기]
+#y~4175
+
+AD1967 = 1
+
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
+tag 大韓民国国民
+tag 教祖誕生紀年
+
+%tag person
+%tag   name 朴光義
+%tag   name(kr) 박광의
+tag 仙教
+tag 朴光義
+
+name(kr) 선기
+name 仙紀
+u 1
+u 9220
+
+<-AD [g:1967] #誕生{#仙教 #朴光義} #事由 #大韓民国
+
+def[선교창교]
+#y~4176
+
+AD1991 = 1
+
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
+tag 大韓民国国民
+tag 宗教創設紀年
+
+tag 仙教
+tag 朴光義
+
+name(kr) 선교창교
+name 仙敎創敎
+u 1
+u 33
+
+<-AD [g:1991] #宗教創設{#仙教 #朴光義} #事由 #大韓民国
+
+def[선교개천]
+#y~4177
+
+AD1997 = 1
+
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
+tag 大韓民国国民
+tag 宗教創設紀年
+
+tag 仙教
+tag 朴光義
+
+name(kr) 선교개천
+name 仙敎開天
+u 1
+u 673
+u 693
+&
+name(kr) 선교
+name 仙敎
+u 1
+
 
 
 %tag org

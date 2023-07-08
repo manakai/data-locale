@@ -205,6 +205,12 @@ tag 高麗人
 #XXXname 欠画 洪{swc521}
 u 6-5
 
+&
+name 洪武後
+#洪武後八壬申
+tag 清領朝鮮
+tag 朝鮮人
+
 def[洪虎]
 #y~4155
 
@@ -1139,6 +1145,13 @@ wref_ja 弘治 (明)
 
 ## [112]
 name_kana こう じ
+
+&
+#sw 東洋の即位紀年
+name monarch+
+name 聖天子紀元
+#聖天子紀元之
+u 2
 
 tag 再開元号の中断中
 

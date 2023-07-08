@@ -97,6 +97,10 @@
 %tag   group of 日本年号史大事典
 
 %tag source
+%tag   name_ja 中国・日本・朝鮮・ベトナムの公年号一覧 ベトナム
+%tag   group of 中国・日本・朝鮮・ベトナムの公年号一覧
+
+%tag source
 %tag   name_ja ベトナムの漢字年号について
 %tag   group of 年号を考える
 

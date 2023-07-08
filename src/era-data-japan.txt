@@ -608,7 +608,19 @@
 %tag   name_ja 万葉集
 
 %tag source
-%tag   name 日本年号史大事典
+%tag   name_ja 日本年号史大事典
+
+%tag source
+%tag   name_ja 日本と中国の公年号年表
+%tag   group of 日本年号史大事典
+
+%tag source
+%tag   name_ja 日本と中国の公年号年表 日本年号
+%tag   group of 日本と中国の公年号年表
+
+%tag source
+%tag   name_ja 中国・日本・朝鮮・ベトナムの公年号一覧 日本
+%tag   group of 中国・日本・朝鮮・ベトナムの公年号一覧
 
 [崇神天皇]
 #       戊寅
@@ -1447,6 +1459,7 @@ tag ニブフ人
 tag 欧米系島民
 tag 奄美人
 tag 琉球人
+tag 新聞
 
 u 46-1-1
 
@@ -1504,6 +1517,7 @@ tag 欧米系島民
 tag 奄美人
 tag 琉球人
 
+tag 新聞
 tag 新聞改元デマ
 
 tag 第一次世界大戦
@@ -1579,6 +1593,7 @@ tag ニブフ人
 tag 欧米系島民
 tag 奄美人
 tag 琉球人
+tag 新聞
 
 %tag region
 %tag   key 鉄山
@@ -1635,6 +1650,8 @@ tag 竹島
 %tag   name_ja 大韓民国独島
 %tag   region of 大韓民国
 tag 大韓民国独島
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 
 tag 元号廃止前の元号
 
@@ -1701,6 +1718,10 @@ tag 中華人民共和国釣魚島
 tag 中華民国釣魚島
 tag 竹島
 tag 大韓民国独島
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
+
+tag 新聞
 
 %tag person
 %tag   name_ja 小渕恵三
@@ -1769,12 +1790,15 @@ tag ニブフ人
 tag 欧米系島民
 tag 奄美人
 tag 琉球人
+tag 新聞
 
 tag 尖閣諸島
 tag 中華人民共和国釣魚島
 tag 中華民国釣魚島
 tag 竹島
 tag 大韓民国独島
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 
 tag アルコール共和国
 tag NHK
@@ -1825,6 +1849,10 @@ tag 国名入り紀年
 #wref_ja 神武天皇即位紀元
 wref_zh 皇纪
 sw 神武天皇即位紀元
+
+&
+name country+
+name 大日本國紀元
 
 tag 日本
 tag 大日本帝国
@@ -2147,6 +2175,7 @@ tag 日本人
 tag 日系ブラジル人
 tag 宗教創設紀年
 tag 日本の私的紀年法
+tag 大韓民国の私的紀年法
 
 %tag religion
 %tag   name_ja 天理教
@@ -2184,11 +2213,20 @@ u 88-11-5
 u 181
 u 183
 
-#XXX magazine
-%tag org
+%tag source
 %tag   name_ja 道乃友
 tag 道乃友
 <-大正 [g:1924,g:1925-11-5] #利用開始{#道乃友} #天理教 #グレゴリオ暦 #併用
+
+tag 大韓民国
+
+%tag religion
+%tag   key 大韓天理教
+%tag   name(kr) 대한천리교
+%tag   name_ja 大韓天理教
+tag 大韓天理教
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 
 def[世界紀元(旧)]
 #y~4104
@@ -3286,7 +3324,8 @@ sw aH
 %tag   group of 弥勒信仰
 tag ラエリアンムーブメント
 tag 大韓民国国民
-tag 大韓民国
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 tag 日本国
 tag 日本人
 tag 日本の私的紀年法

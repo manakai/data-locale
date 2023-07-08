@@ -2221,6 +2221,8 @@ name_cn 始初
 
 %tag person
 %tag   name_ja 王莽
+%tag   &
+%tag   name_ja 莽
 
 %tag tag
 %tag   name_ja 新の公年号
@@ -2257,6 +2259,13 @@ s+
 s#後漢書<https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8/%E5%8D%B71%E4%B8%8A>"建國"
 s+
 #"王莽天鳳中，〈王莽建國六年改為天鳳。〉"
+
+&
+name country monarch
+name 新莽
+&
+name monarch
+name 王莽
 
 [天鳳]
 #y~1196

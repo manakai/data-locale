@@ -2447,6 +2447,15 @@
 %tag source
 %tag   name 紀元編
 
+%tag source
+%tag   name_ja 日本と中国の公年号年表 中国年号
+%tag   group of 日本と中国の公年号年表
+
+%tag source
+%tag   name_ja 中国・日本・朝鮮・ベトナムの公年号一覧 中国
+%tag   group of 中国・日本・朝鮮・ベトナムの公年号一覧
+
+
 %tag tag
 %tag   name 三皇五帝
 
@@ -3410,6 +3419,12 @@ u 8
 #1 戊子
 #8 乙未
 
+&
+## <https://zh.wikisource.org/wiki/%E5%B8%9D%E7%8E%8B%E9%9F%BB%E7%B4%80>
+#殷虎丁八乙未
+name 虎丁
+#避諱
+
 <-unknown [?:BC1700,?:BC1100] #建元前の即位{#殷 #武丁 #殷王}
 <-unknown [?:BC1700,?:BC1100] #殷称元{#殷 #武丁}
 
@@ -3703,6 +3718,35 @@ name 武王
 
 <-文王,文王(辛巳) [?:BC1061] #建元前の即位{#東周 #武王 #周王}
 
+def[周武王(己卯)]
+#y~4179
+
+sw 周の即位紀年
+
+<-周武王(庚辰) [?:0,高麗:1287] #年誤伝発生{} #東周
+
+tag 漢民族
+tag 支那戦国時代
+tag 東周
+tag 春秋戦国即位紀年
+tag 殷
+
+tag 武王
+tag 周王即位紀年
+
+name monarch
+name 武王
+
+&
+name country monarch
+name 周虎
+#帝王韻紀
+#(避諱)
+
+AD-1121 = 1
+
+<-文王,文王(辛巳) [?:-1121] #建元前の即位{#東周 #武王 #周王} #旧説
+
 def[成王]
 
 tag 漢民族
@@ -3731,7 +3775,7 @@ u 22
 #成王七年二月乙未日，
 name 成王
 
-<-周武王,周武王(庚辰) ->成王,成王(丁酉) [?:BC1042]
+<-周武王,周武王(庚辰),周武王(己卯) ->成王,成王(丁酉) [?:BC1042]
     #建元前の即位{#東周 #成王 #周王}
 
 def[成王(丁酉)]
@@ -8883,7 +8927,14 @@ tag 私年号 (ウィキペディア)
 <-太平天國 [清:1859] #支那改元日{#李永和} #清 #起事建元
 
 
+%tag region
+%tag   name_ja 上海仏国租界
+%tag   region of 上海
+%tag   region of 仏国
 
+%tag region
+%tag   name_ja 上海共同租界
+%tag   region of 上海
 
 %tag event
 %tag   name_ja 辛亥革命
@@ -9036,15 +9087,19 @@ tag 梁啓超
 
 name 孔曆
 name 孔历
+name_ja 孔暦
 &
 name 孔紀
 name_kana こう き
+name(kr) 공기
 &
 name 孔子紀年
 name_kana こう し き ねん
 name(nan_poj) Khóng-chú kì-liân
 &
 name 孔子紀元
+&
+name_ja 孔子暦
 &
 name 孔子生
 &
@@ -9083,9 +9138,12 @@ tag 大日本帝国東京府
 u 2452
 u 2459
 
+tag 清領朝鮮
+tag 李氏朝鮮
 tag 大韓帝国
 tag 新聞
 u 2455
+tag 帝國新聞
 
 tag 日本領朝鮮
 
@@ -9104,6 +9162,10 @@ tag 中華民国台湾
 tag インドネシア
 tag 中華民国大陸地区
 tag 中華人民共和国
+tag 英領海峡植民地
+
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
 
 <-unknown ->孔紀,至聖 [?:BC552,?:BC551] #誕生{#孔子} #事由
 tag 誕生紀年
