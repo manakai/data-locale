@@ -1177,6 +1177,7 @@ sw きやうせん
 
 #sw 仮名書年号
 name(ja_old) きやう|せん
+name(ja) きゃう|せん
 u 2-4-26
 tag 大日本帝国千葉県
 tag 日本人
@@ -1199,6 +1200,11 @@ name(ja_old) ちやう|六く
 name(ja_old) ちよう六
 tag 日本私年号の研究
 #p.185
+
+[康正]
+
+#sw 仮名書年号
+name(ja_old) くわん正
 
 [天養]
 #y~1171
@@ -1425,6 +1431,7 @@ code #17 1
 code #18 1
 code #19 1
 code #25 1
+code #26 1
 code #4 1
 code #6 3
 code #11 7621
@@ -1486,6 +1493,7 @@ code #17 2
 code #18 2
 code #19 2
 code #25 2
+code #26 2
 code #4 3
 code #6 2
 code #11 7622
@@ -1561,6 +1569,7 @@ code #17 3
 code #18 3
 code #19 3
 code #25 3
+code #26 3
 code #4 5
 code #5 1
 code #20 1
@@ -1691,6 +1700,7 @@ code #17 4
 code #18 4
 code #19 4
 code #25 4
+code #26 4
 code #4 7
 code #5 2
 code #20 2
@@ -1759,6 +1769,7 @@ code #17 5
 code #18 5
 code #19 5
 code #25 5
+code #26 5
 code #4 9
 code #5 3
 code #20 3
@@ -1813,6 +1824,12 @@ tag 菅義偉
 
 tag 改元陰謀論
 tag 統一教会
+
+tag 台灣民政府
+tag 台湾人
+tag 中華民国台湾
+<-AD g:2019-12-28 #利用開始{#台灣民政府} #併用 #中華民国台湾 #台湾人
+    #グレゴリオ暦
 
 
 
@@ -2062,6 +2079,12 @@ u 1-12-25
 tag 大日本帝国静岡県
 
 wref_ja 光文事件
+
+tag 近代諸元号現象・改
+#p.678
+
+tag 三訂 近代諸元号現象
+#p.14
 
 
 def[霊寿]

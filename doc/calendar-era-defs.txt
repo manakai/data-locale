@@ -56,9 +56,10 @@ It is a JSON object with following name/value pairs:
       code20 [integer?]
       code24 [integer?]
       code25 [integer?]
+      code26 [integer?]
 
         The era code for the era, in #1, #2, #4, #5, #6, #7, #9, #16,
-        #17, #18, #19, #20, #24, or #25 code sets [CODES],
+        #17, #18, #19, #20, #24, #25, or #26 code sets [CODES],
         respectively, if any.
 
       code10 [integer?]

@@ -33,6 +33,10 @@
 %tag   name_ja 南満州
 %tag   region of 内満州
 
+%tag tag
+%tag   name_ja 満州の公年号
+%tag   group of 公年号
+
 %tag region
 %tag   name_ja 関東州
 %tag   region of 南満州
@@ -83,6 +87,10 @@
 %tag   period of 北鮮
 %tag   period of 満鮮
 %tag   region of 東アジア
+
+%tag tag
+%tag   name_ja 渤海の公年号
+%tag   group of 満州の公年号
 
 %tag source
 %tag   name_ja 桓檀古記
@@ -243,6 +251,7 @@ tag 満州
 tag 内満州
 tag 外満州
 tag 北鮮
+tag 渤海の公年号
 
 %tag person
 %tag   name_ja 大武芸
@@ -446,6 +455,7 @@ tag 渤海人
 tag 渤海国
 tag 李唐
 tag 満州
+tag 渤海の公年号
 
 tag 大欽茂
 
@@ -478,6 +488,7 @@ tag 渤海人
 tag 渤海国
 tag 李唐
 tag 満州
+tag 渤海の公年号
 
 tag 大欽茂
 
@@ -539,6 +550,7 @@ tag 渤海人
 tag 渤海国
 tag 李唐
 tag 満州
+tag 渤海の公年号
 
 %tag person
 %tag   name_ja 大華璵
@@ -611,6 +623,7 @@ tag 渤海人
 tag 渤海国
 tag 李唐
 tag 満州
+tag 渤海の公年号
 
 %tag person
 %tag   name_ja 大嵩璘
@@ -774,6 +787,7 @@ tag 渤海人
 tag 渤海国
 tag 李唐
 tag 満州
+tag 渤海の公年号
 
 tag 大元瑜
 
@@ -857,6 +871,7 @@ tag 渤海人
 tag 渤海国
 tag 李唐
 tag 満州
+tag 渤海の公年号
 
 tag 大言義
 
@@ -883,6 +898,7 @@ tag 渤海人
 tag 渤海国
 tag 李唐
 tag 満州
+tag 渤海の公年号
 
 %tag person
 %tag   name_ja 大明忠
@@ -1032,6 +1048,7 @@ tag 渤海人
 tag 渤海国
 tag 李唐
 tag 満州
+tag 渤海の公年号
 
 tag 大仁秀
 
@@ -1058,6 +1075,7 @@ tag 渤海人
 tag 渤海国
 tag 李唐
 tag 満州
+tag 渤海の公年号
 
 %tag person
 %tag   name_ja 大彝震
@@ -1823,7 +1841,7 @@ name_cn 应顺
 
 %tag tag
 %tag   name_ja 金の公年号
-%tag   group of 公年号
+%tag   group of 満州の公年号
 
 %tag source
 %tag   name_ja 金史
@@ -3720,6 +3738,7 @@ tag 私年号 (ウィキペディア)
 %tag tag
 %tag   name_ja 後金の公年号
 %tag   group of 中華王朝の公年号
+%tag   group of 満州の公年号
 
 [天命]
 #y~244
@@ -3906,6 +3925,7 @@ name_man %E1%A0%B0%E1%A1%A0%E1%A0%B7%E1%A1%9D %E1%A1%A5%E1%A0%A0%E1%A0%A8,sure h
 %tag tag
 %tag   name_ja 清の公年号
 %tag   group of 中華王朝の公年号
+%tag   group of 満州の公年号
 
 %tag tag
 %tag   name_ja 清の私年号
@@ -5241,6 +5261,13 @@ u 88-1-1
 u 88-6-4
 
 tag 元号復活
+
+%tag org
+%tag   name_tw 滿洲帝國流亡政府
+%tag   name_ja 満洲帝国流亡政府
+tag 滿洲帝國流亡政府
+<-AD g:2018-11-22 #マイクロネーション再開{#滿洲帝國流亡政府} #グレゴリオ暦
+u 90
 
 %tag org
 %tag   key 大清帝國論壇

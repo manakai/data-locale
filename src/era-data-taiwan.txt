@@ -664,3 +664,7 @@ tag 台灣共和國臨時政府
 tag 廖文毅
 tag 郭泰成
 tag 林台元
+
+%tag org
+%tag   name_tw 台灣民政府
+%tag   name_ja 台湾民政府

@@ -139,7 +139,7 @@ name 箕子東後
 
 %tag tag
 %tag   name_ja 高句麗の公年号
-%tag   group of 公年号
+%tag   group of 朝鮮の公年号
 
 %tag position
 %tag   name_ja 高句麗王
@@ -650,6 +650,7 @@ tag 高句麗
 tag 新羅
 tag 南鮮
 tag 長寿王
+tag 高句麗の公年号
 
 %tag person
 %tag   name_ja 長寿王
@@ -829,6 +830,7 @@ AD476 = 5
 tag 高句麗
 #prefix 高麗
 tag 百済
+tag 南鮮
 
 wref_zh 建興 (高句麗)
 name_tw 建興
@@ -872,9 +874,11 @@ def[建興(百済)]
 
 AD536 = 5
 
+tag 高句麗の公年号
 tag 高句麗
 #prefix 高麗
 tag 百済
+tag 南鮮
 
 wref_zh 建興 (高句麗)
 name_tw 建興
@@ -905,6 +909,7 @@ AD596 = 5
 tag 高句麗
 #prefix 高麗
 tag 百済
+tag 南鮮
 
 wref_zh 建興 (高句麗)
 name_tw 建興
@@ -940,6 +945,7 @@ def[延嘉]
 
 AD539 = 7
 
+tag 高句麗の公年号
 tag 高句麗
 tag 南鮮
 
@@ -2175,6 +2181,10 @@ tag 朝鮮の年号と紀年
 tag ctext新羅
 name monarch
 name 儒禮尼師今
+
+&
+name monarch
+name 儒禮
 
 [基臨尼師今]
 
@@ -7372,9 +7382,9 @@ tag 천지원
 name(kr) 천기
 u 22-11-24
 
-<-AD g:1997-12-1 #活動開始{#천지원} #事由
-<-AD [g:1998-12] #천지원 #事由
-<-AD [g:1998-12,g:2020-11-24] #利用開始{#천지원} #併用
+<-AD g:1997-12-1 #活動開始{#천지원} #事由 #大韓民国
+<-AD [g:1998-12] #천지원 #事由 #大韓民国
+<-AD [g:1998-12,g:2020-11-24] #利用開始{#천지원} #併用 #大韓民国
 
 
 def[천기(丙申)]

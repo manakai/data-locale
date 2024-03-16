@@ -14,6 +14,7 @@ def[unknown]
 #y~1764
 code #18 9
 code #6 9
+code #26 0
 
 
 
@@ -152,6 +153,7 @@ sw 西暦
 code #17 0
 #code #19 0
 code #25 9
+code #26 9
 
 %tag religion
 %tag   name_ja キリスト教

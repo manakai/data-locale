@@ -499,7 +499,7 @@ PROVE = ./prove
 
 local/bin/jq:
 	mkdir -p local/bin
-	$(WGET) -O $@ https://stedolan.github.io/jq/download/linux64/jq
+	$(WGET) -O $@ https://github.com/jqlang/jq/releases/download/jq-1.7/jq-linux-amd64
 	chmod u+x $@
 
 test: test-deps test-main
