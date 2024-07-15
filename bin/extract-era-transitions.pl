@@ -10,7 +10,7 @@ my $RootPath = path (__FILE__)->parent->parent;
 my $Tags;
 my $TagByKey = {};
 {
-  my $path = $RootPath->child ('data/tags.json');
+  my $path = $RootPath->child ('local/view/tags.json');
   $Tags = (json_bytes2perl $path->slurp)->{tags};
   for my $item (values %$Tags) {
     $TagByKey->{$item->{key}} = $item;
@@ -32,14 +32,14 @@ my $EraData;
 my $EraById;
 my $Transitions;
 {
-  my $path = $RootPath->child ('data/calendar/era-defs.json');
+  my $path = $RootPath->child ('local/view/calendar-era-defs.json');
   $EraData = json_bytes2perl $path->slurp;
   for my $item (values %{$EraData->{eras}}) {
     $EraById->{$item->{id}} = $item;
   }
 }
 {
-  my $path = $RootPath->child ('data/calendar/era-transitions.json');
+  my $path = $RootPath->child ('local/view/calendar-era-transitions.json');
   my $json = json_bytes2perl $path->slurp;
   $Transitions = $json->{transitions};
 }

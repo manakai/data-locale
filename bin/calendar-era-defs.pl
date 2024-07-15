@@ -64,7 +64,7 @@ my $Data = {};
 my $Tags;
 my $TagByKey = {};
 {
-  my $path = $root_path->child ('data/tags.json');
+  my $path = $root_path->child ('local/view/tags.json');
   $Tags = (json_bytes2perl $path->slurp)->{tags};
   for my $item (values %$Tags) {
     $TagByKey->{$item->{key}} = $item;

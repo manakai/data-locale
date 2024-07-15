@@ -9,7 +9,7 @@ use Web::DOM::Document;
 binmode STDOUT, qw(:encoding(utf-8));
 
 my $root_path = path (__FILE__)->parent->parent;
-my $json = json_bytes2perl $root_path->child ('data/calendar/era-defs.json')->slurp;
+my $json = json_bytes2perl $root_path->child ('local/view/calendar-era-defs.json')->slurp;
 
 my $cols = [
   {key => 'start_year', hidden => 1, info => 1},

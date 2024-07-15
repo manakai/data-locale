@@ -16,7 +16,7 @@ my $Data;
 my $Eras;
 my $EraById = {};
 {
-  my $path = $RootPath->child ('data/calendar/era-defs.json');
+  my $path = $RootPath->child ('local/view/calendar-era-defs.json');
   my $json = json_bytes2perl $path->slurp;
   $Eras = [sort { $a->{id} <=> $b->{id} } values %{$json->{eras}}];
   for my $era (@$Eras) {

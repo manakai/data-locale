@@ -45,7 +45,7 @@ sub process_han ($) {
 } # process_han
 
 {
-  my $path = $RootPath->child ('data/calendar/era-defs.json');
+  my $path = $RootPath->child ('local/view/calendar-era-defs.json');
   my $json = json_bytes2perl $path->slurp;
   {
     my $path = $RootPath->child ('local/calendar-era-labels-0.json');

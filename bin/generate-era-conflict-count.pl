@@ -3,7 +3,7 @@ use warnings;
 use Path::Tiny;
 use JSON::PS;
 
-my $path = path (__FILE__)->parent->parent->child ('data/calendar/era-defs.json');
+my $path = path (__FILE__)->parent->parent->child ('local/view/calendar-era-defs.json');
 my $json = json_bytes2perl $path->slurp;
 
 my $Data = {};

@@ -54,14 +54,14 @@ for my $in_era (@$Eras) {
 my $Tags;
 my $TagByKey = {};
 {
-  my $path = $RootPath->child ('data/tags.json');
+  my $path = $RootPath->child ('local/view/tags.json');
   $Tags = (json_bytes2perl $path->slurp)->{tags};
   for my $item (values %$Tags) {
     $TagByKey->{$item->{key}} = $item;
   }
 }
 {
-  my $path = $RootPath->child ('data/tag-labels.json');
+  my $path = $RootPath->child ('local/view/tag-labels.json');
   my $json = (json_bytes2perl $path->slurp)->{tags};
   for my $item (values %$json) {
     $Tags->{$item->{id}}->{label_sets} = $item->{label_sets};

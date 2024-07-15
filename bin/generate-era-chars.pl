@@ -5,7 +5,7 @@ use JSON::PS;
 
 my $root_path = path (__FILE__)->parent->parent;
 
-my $json_path = $root_path->child ('data/calendar/era-defs.json');
+my $json_path = $root_path->child ('local/view/calendar-era-defs.json');
 my $json = json_bytes2perl $json_path->slurp;
 
 my $chars = {};

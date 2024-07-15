@@ -10,7 +10,7 @@ my $Key = shift or die;
 
 my $EraDefs;
 {
-  my $json_path = $RootPath->child ('data/calendar/era-defs.json');
+  my $json_path = $RootPath->child ('local/view/calendar-era-defs.json');
   $EraDefs = json_bytes2perl $json_path->slurp;
 }
 

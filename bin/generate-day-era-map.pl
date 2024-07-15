@@ -8,7 +8,7 @@ my $root_path = path (__FILE__)->parent->parent;
 my $json_path = $root_path->child ('data/calendar/era-systems.json');
 my $json = json_bytes2perl $json_path->slurp;
 
-my $def_json_path = $root_path->child ('data/calendar/era-defs.json');
+my $def_json_path = $root_path->child ('local/view/calendar-era-defs.json');
 my $def_json = json_bytes2perl $def_json_path->slurp;
 
 my $sys_name = shift or die "Usage: $0 name";

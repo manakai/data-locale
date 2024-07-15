@@ -33,7 +33,7 @@ print STDERR "Loading...";
 }
 my $Transitions;
 {
-  my $path = $RootPath->child ('data/calendar/era-transitions.json');
+  my $path = $RootPath->child ('local/view/calendar-era-transitions.json');
   my $json = json_bytes2perl $path->slurp;
   $Transitions = $json->{transitions};
 }

@@ -694,7 +694,7 @@ sub extract_day_year ($$) {
 my $Tags;
 my $TagByKey = {};
 {
-  my $path = $RootPath->child ('data/tags.json');
+  my $path = $RootPath->child ('local/view/tags.json');
   $Tags = (json_bytes2perl $path->slurp)->{tags};
   for my $item (values %$Tags) {
     $TagByKey->{$item->{key}} = $item;
