@@ -1,8 +1,9 @@
 Tags
 ~~~~
 
-The |data/tags.json| file contains the tags and their properties used
-in the data files in this repository.
+The <https://manakai.github.io/data-locale/local/merged/tags.json>
+file contains the tags and their properties used in the data files in
+this repository.
 
 * Structure of the tag data file
 
@@ -26,8 +27,9 @@ It is a JSON object with following name/value pairs:
 
 * Structure of the tag label data file
 
-The |data/tag-labels.json| file contains labels (names and short
-descriptions) for the tags.
+The
+<https://manakai.github.io/data-locale/local/merged/tag-labels.json>
+file contains labels (names and short descriptions) for the tags.
 
 It is a JSON object with following name/value pair:
 

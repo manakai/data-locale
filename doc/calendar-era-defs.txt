@@ -6,8 +6,9 @@ eras.
 
 * Structure of the era data file
 
-The |data/calendar/era-defs.json| file contains properties of known
-eras.
+The
+<https://manakai.github.io/data-locale/local/merged/calendar-era-defs.json>
+file contains properties of known eras.
 
 It is a JSON object with following name/value pairs:
 
@@ -684,8 +685,9 @@ and has following name/value pairs:
 
 * Structure of the era label data file
 
-The |data/calendar/era-labels.json| file contains labels (names and
-short descriptions) for the eras.
+The
+<https://manakai.github.io/data-locale/local/merged/calendar-era-labels.json>
+file contains labels (names and short descriptions) for the eras.
 
 It is a JSON object with following name/value pair:
 
@@ -804,8 +806,9 @@ It is a JSON object with following name/value pairs:
 
 * Structure of the era transition data file
 
-The |data/calendar/era-transitions.json| file contains era-to-era
-transition events.
+The
+<https://manakai.github.io/data-locale/local/merged/calendar-era-transitions.json>
+file contains era-to-era transition events.
 
 It is a JSON object with following name/value pair:
 
@@ -815,8 +818,9 @@ It is a JSON object with following name/value pair:
 
 * Structure of the era-to-era relationship data file
 
-The |data/calendar/era-relations.json| file contains era-to-era
-relationship summary.
+The
+<https://manakai.github.io/data-locale/local/merged/calendar-era-relations.json>
+file contains era-to-era relationship summary.
 
 It is a JSON object with following name/value pair:
 

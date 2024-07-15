@@ -1,0 +1,64 @@
+{
+  "type": "packref",
+  "source": {
+    "type": "files",
+    "files": {
+      "file:r:defs": {
+        "url": "https://manakai.github.io/data-locale/local/merged/calendar-era-defs.json",
+        "name": "calendar-era-defs.json"
+      },
+      "file:r:labels": {
+        "url": "https://manakai.github.io/data-locale/local/merged/calendar-era-labels.json",
+        "name": "calendar-era-labels.json"
+      },
+      "file:r:relations": {
+        "url": "https://manakai.github.io/data-locale/local/merged/calendar-era-relations.json",
+        "name": "calendar-era-relations.json"
+      },
+      "file:r:transitions": {
+        "url": "https://manakai.github.io/data-locale/local/merged/calendar-era-transitions.json",
+        "name": "calendar-era-transitions.json"
+      },
+      "file:r:yomi-sources": {
+        "url": "https://manakai.github.io/data-locale/data/calendar/era-yomi-sources.json",
+        "name": "calendar-era-yomi-sources.json"
+      },
+      "file:r:stats": {
+        "url": "https://manakai.github.io/data-locale/data/calendar/era-stats.json",
+        "name": "calendar-era-stats.json"
+      },
+      "file:r:systems": {
+        "url": "https://manakai.github.io/data-locale/data/calendar/era-systems.json",
+        "name": "calendar-era-systems.json"
+      },
+      "file:r:tags": {
+        "url": "https://manakai.github.io/data-locale/local/merged/tags.json",
+        "name": "tags.json"
+      },
+      "file:r:tag-labels": {
+        "url": "https://manakai.github.io/data-locale/local/merged/tag-labels.json",
+        "name": "tag-labels.json"
+      },
+      "file:r:doc-calendar-era-defs": {
+        "url": "https://manakai.github.io/data-locale/doc/calendar-era-defs.txt",
+        "name": "doc-calendar-era-defs.txt"
+      },
+      "file:r:doc-calendar-era-systems": {
+        "url": "https://manakai.github.io/data-locale/doc/calendar-era-systems.txt",
+        "name": "doc-calendar-era-systems.txt"
+      },
+      "file:r:doc-datatypes": {
+        "url": "https://manakai.github.io/data-locale/doc/datatypes.txt",
+        "name": "doc-datatypes.txt"
+      }
+    }
+  },
+  "content_license": "CC0-1.0",
+  "packref_license": "CC0-1.0",
+  "meta": {
+    "lang": "en",
+    "title": "Era data",
+    "author": "The manakei project",
+    "page_url": "https://github.com/manakai/data-locale/"
+  }
+}

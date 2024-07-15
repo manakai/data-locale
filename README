@@ -23,19 +23,19 @@ See documentations for details in doc/ directory.
     doc/calendar-kyuureki.txt          Kyuureki
     data/calendar/kyuureki-*
     doc/calendar-era-defs.txt          Eras
-      data/calendar/era-defs.json
-      data/calendar/era-labels.json
+      https://manakai.github.io/data-locale/local/merged/calendar-era-defs.json
+      https://manakai.github.io/data-locale/local/merged/calendar-era-labels.json
       data/calendar/era-yomi-sources.json
       view/era-names.html
       view/era-yomis.html
       view/era-kanjions.html
       data/calendar/era-codes.html
-      data/calendar/era-transitions.json
+      https://manakai.github.io/data-locale/local/merged/calendar-era-transitions.json
       data/calendar/jp-era-start-dates.html
       data/calendar/jp-era-year-maps.html
       data/calendar/era-kodai-years.html
       data/calendar/era-kodai-starts.html
-      data/calendar/era-relations.json
+      https://manakai.github.io/data-locale/local/merged/calendar-era-relations.json
       view/era-relations.html
       data/calendar/era-stats.json
     doc/calendar-era-systems.txt       Era systems
@@ -59,8 +59,8 @@ See documentations for details in doc/ directory.
     data/datetime/durations.json
   Metadata
     doc/tags.txt                       Tags
-      data/tags.json
-      data/tab-labels.json
+      https://manakai.github.io/data-locale/local/merged/tags.json
+      https://manakai.github.io/data-locale/local/merged/tab-labels.json
 
 Data on character encodings and character references used on the Web,
 are contained in the data-web-defs repository
