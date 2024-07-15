@@ -516,7 +516,7 @@ intermediate/variants.json: data/calendar/era-stats.json always
 view: always
 	cd view && $(MAKE) all
 
-local-merged: bin/merge-splitted.pl pmbp-install
+local-merged: bin/merge-splitted.pl deps
 #    data/tags.json \
 #    data/tag-labels.json \
 #    data/calendar/era-defs.json \
