@@ -91,6 +91,10 @@ name 洋曆
 name_ja 西洋紀年
 &
 abbr_ja 西 西暦
+
+&&
+name(ja) 西ローマ暦
+
 &&
 acronym(en) C.E.
 expanded(en) [C]ommon [E]ra
