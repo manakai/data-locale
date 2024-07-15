@@ -99,13 +99,13 @@ local/tags-0.json: bin/tags.pl $(NAMES_DEPS) \
 local/tag-labels-0.json: bin/tag-labels-0.pl $(NAMES_DEPS) \
     local/tags-0.json
 	$(PERL) $< > $@
-data/tags.json: local/view/tags.json
-	cp $< $@
+data/tags.json: local/view/tags.json bin/split.pl
+	$(PERL) bin/split.pl $< $(patsubst %.json,%,$@)
 local/view/tags.json: bin/tags-1.pl local/view local/tags-0.json \
     local/tag-labels-0.json
 	$(PERL) $< > $@
-data/tag-labels.json: local/view/tag-labels.json
-	cp $< $@
+data/tag-labels.json: local/view/tag-labels.json bin/split.pl
+	$(PERL) bin/split.pl $< $(patsubst %.json,%,$@)
 local/view/tag-labels.json: bin/cleanup.pl local/view \
     local/tag-labels-0.json
 	$(PERL) $< local/tag-labels-0.json > $@
@@ -210,8 +210,8 @@ local/calendar-era-labels-0.json: bin/calendar-era-labels.pl \
     local/number-values.json \
     local/view/tags.json local/view/tag-labels.json
 	$(PERL) $< > $@
-data/calendar/era-labels.json: local/view/calendar-era-labels.json
-	cp $< $@
+data/calendar/era-labels.json: local/view/calendar-era-labels.json bin/split.pl
+	$(PERL) bin/split.pl $< $(patsubst %.json,%,$@)
 local/view/calendar-era-labels.json: bin/cleanup.pl local/view \
     local/calendar-era-labels-0.json
 	$(PERL) $< local/calendar-era-labels-0.json > $@
@@ -223,8 +223,8 @@ local/source-era-list.json: bin/source-era-list.pl \
     local/calendar-era-labels-0.json
 	$(PERL) $< > $@
 
-data/calendar/era-defs.json: local/view/calendar-era-defs.json
-	cp $< $@
+data/calendar/era-defs.json: local/view/calendar-era-defs.json bin/split.pl
+	$(PERL) bin/split.pl $< $(patsubst %.json,%,$@)
 local/view/calendar-era-defs.json: \
     bin/calendar-era-defs-events.pl \
     local/calendar-era-defs-0.json \
@@ -264,8 +264,9 @@ local/era-transitions-0.json: bin/calendar-era-transitions.pl \
     local/calendar-era-defs-0.json \
     local/view/tags.json
 	$(PERL) $< > $@
-data/calendar/era-transitions.json: local/view/calendar-era-transitions.json
-	cp $< $@
+data/calendar/era-transitions.json: local/view/calendar-era-transitions.json \
+    bin/split.pl
+	$(PERL) bin/split.pl $< $(patsubst %.json,%,$@)
 local/view/calendar-era-transitions.json: \
     bin/calendar-era-transitions-1.pl \
     local/era-transitions-0.json \
@@ -280,8 +281,9 @@ local/calendar-era-relations-0.json: bin/calendar-era-relations.pl \
 local/calendar-era-relations-1.json: bin/calendar-era-relations-1.pl \
     local/view/calendar-era-defs.json
 	$(PERL) $< > $@
-data/calendar/era-relations.json: local/view/calendar-era-relations.json
-	cp $< $@
+data/calendar/era-relations.json: local/view/calendar-era-relations.json \
+    bin/split.pl
+	$(PERL) bin/split.pl $< $(patsubst %.json,%,$@)
 local/view/calendar-era-relations.json: bin/cleanup.pl local/view \
     local/calendar-era-relations-1.json
 	$(PERL) $< local/calendar-era-relations-1.json > $@
