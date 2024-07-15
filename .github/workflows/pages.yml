@@ -9,22 +9,26 @@
             "name" : "github-pages",
             "url" : "${{ steps.deployment.outputs.page_url }}"
          },
+         "if" : "${{ github.event.workflow_run.conclusion == 'success' }}",
          "runs-on" : "ubuntu-latest",
          "steps" : [
             {
                "name" : "Checkout",
-               "uses" : "actions/checkout@v3"
+               "uses" : "actions/checkout@v2",
+               "with" : {
+                  "ssh-key" : "${{ secrets.GH_GIT_KEY }}"
+               }
             },
             {
                "run" : "make build-github-pages"
             },
             {
                "name" : "Setup pages",
-               "uses" : "actions/configure-pages@v1"
+               "uses" : "actions/configure-pages@v3"
             },
             {
                "name" : "Upload artifact",
-               "uses" : "actions/upload-pages-artifact@v1",
+               "uses" : "actions/upload-pages-artifact@v2",
                "with" : {
                   "path" : "."
                }
@@ -32,19 +36,23 @@
             {
                "id" : "deployment",
                "name" : "Deploy",
-               "uses" : "actions/deploy-pages@main"
+               "uses" : "actions/deploy-pages@v3"
             }
          ]
       }
    },
    "name" : "pages",
    "on" : {
-      "push" : {
+      "workflow_run" : {
          "branches" : [
             "master"
+         ],
+         "types" : [
+            "completed"
+         ],
+         "workflows" : [
+            "test"
          ]
-      },
-      "workflow_dispatch" : {
       }
    },
    "permissions" : {

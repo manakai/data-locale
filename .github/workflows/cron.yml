@@ -1,0 +1,44 @@
+{
+   "jobs" : {
+      "batch_github_master" : {
+         "if" : "${{ github.ref == 'refs/heads/master' }}",
+         "runs-on" : "ubuntu-latest",
+         "steps" : [
+            {
+               "uses" : "actions/checkout@v2",
+               "with" : {
+                  "fetch-depth" : 0,
+                  "ref" : "master",
+                  "ssh-key" : "${{ secrets.GH_GIT_KEY }}"
+               }
+            },
+            {
+               "run" : "git config --global user.name \u0022GitHub Actions\u0022"
+            },
+            {
+               "run" : "git config --global user.email \u0022temp@github.test\u0022"
+            },
+            {
+               "run" : "make deps"
+            },
+            {
+               "run" : "make updatenightly"
+            },
+            {
+               "run" : "git diff-index --quiet HEAD --cached || git commit -m auto"
+            },
+            {
+               "run" : "git push origin \u002B`git rev-parse HEAD`:refs/heads/nightly"
+            }
+         ]
+      }
+   },
+   "name" : "cron",
+   "on" : {
+      "schedule" : [
+         {
+            "cron" : "22 20 * * *"
+         }
+      ]
+   }
+}

@@ -1,0 +1,134 @@
+{
+   "jobs" : {
+      "deploy_github_nightly" : {
+         "if" : "${{ github.ref == 'refs/heads/nightly' }}",
+         "needs" : [
+            "test"
+         ],
+         "runs-on" : "ubuntu-latest",
+         "steps" : [
+            {
+               "uses" : "actions/checkout@v2",
+               "with" : {
+                  "fetch-depth" : 0,
+                  "ref" : "master",
+                  "ssh-key" : "${{ secrets.GH_GIT_KEY }}"
+               }
+            },
+            {
+               "run" : "git config --global user.name \u0022GitHub Actions\u0022"
+            },
+            {
+               "run" : "git config --global user.email \u0022temp@github.test\u0022"
+            },
+            {
+               "run" : "git fetch --unshallow origin master || git fetch origin master"
+            },
+            {
+               "run" : "git checkout master || git checkout -b master origin/master"
+            },
+            {
+               "run" : "git merge -m \u0022auto-merge $GITHUB_REF ($GITHUB_SHA) into master\u0022 $GITHUB_SHA"
+            },
+            {
+               "run" : "git push origin master"
+            },
+            {
+               "env" : {
+                  "BWALLER_URL" : "${{ secrets.BWALLER_URL }}"
+               },
+               "run" : "curl -sSf $BWALLER_URL | BWALL_GROUP=merger.${GITHUB_REF/refs\u005C/heads\u005C//} BWALL_NAME=${GITHUB_REPOSITORY} bash"
+            }
+         ]
+      },
+      "deploy_github_staging" : {
+         "if" : "${{ github.ref == 'refs/heads/staging' }}",
+         "needs" : [
+            "test"
+         ],
+         "runs-on" : "ubuntu-latest",
+         "steps" : [
+            {
+               "uses" : "actions/checkout@v2",
+               "with" : {
+                  "fetch-depth" : 0,
+                  "ref" : "master",
+                  "ssh-key" : "${{ secrets.GH_GIT_KEY }}"
+               }
+            },
+            {
+               "run" : "git config --global user.name \u0022GitHub Actions\u0022"
+            },
+            {
+               "run" : "git config --global user.email \u0022temp@github.test\u0022"
+            },
+            {
+               "run" : "git fetch --unshallow origin master || git fetch origin master"
+            },
+            {
+               "run" : "git checkout master || git checkout -b master origin/master"
+            },
+            {
+               "run" : "git merge -m \u0022auto-merge $GITHUB_REF ($GITHUB_SHA) into master\u0022 $GITHUB_SHA"
+            },
+            {
+               "run" : "git push origin master"
+            },
+            {
+               "env" : {
+                  "BWALLER_URL" : "${{ secrets.BWALLER_URL }}"
+               },
+               "run" : "curl -sSf $BWALLER_URL | BWALL_GROUP=merger.${GITHUB_REF/refs\u005C/heads\u005C//} BWALL_NAME=${GITHUB_REPOSITORY} bash"
+            }
+         ]
+      },
+      "test" : {
+         "continue-on-error" : "${{ matrix.experimental }}",
+         "env" : {
+            "CIRCLE_ARTIFACTS" : "/tmp/circle-artifacts/test",
+            "PMBP_PERL_VERSION" : "${{ matrix.perl_version }}"
+         },
+         "runs-on" : "ubuntu-latest",
+         "steps" : [
+            {
+               "uses" : "actions/checkout@v2",
+               "with" : {
+                  "ssh-key" : "${{ secrets.GH_GIT_KEY }}"
+               }
+            },
+            {
+               "run" : "mkdir -p $CIRCLE_ARTIFACTS"
+            },
+            {
+               "run" : "make test-deps"
+            },
+            {
+               "run" : "make test"
+            },
+            {
+               "if" : "${{ always () }}",
+               "uses" : "actions/upload-artifact@v3",
+               "with" : {
+                  "path" : "/tmp/circle-artifacts/test"
+               }
+            }
+         ],
+         "strategy" : {
+            "fail-fast" : false,
+            "matrix" : {
+               "include" : [
+                  {
+                     "experimental" : false,
+                     "perl_version" : "latest"
+                  }
+               ]
+            }
+         }
+      }
+   },
+   "name" : "test",
+   "on" : {
+      "push" : {
+      }
+   }
+}
