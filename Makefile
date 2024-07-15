@@ -36,7 +36,7 @@ pmbp-install: pmbp-upgrade
             --create-perl-command-shortcut perl \
             --create-perl-command-shortcut prove
 
-build-github-pages:
+build-github-pages: local-merged
 	rm -fr ./bin/ ./modules/ ./t_deps/
 
 ## ------ Generation ------
@@ -515,6 +515,16 @@ intermediate/variants.json: data/calendar/era-stats.json always
 
 view: always
 	cd view && $(MAKE) all
+
+local-merged: bin/merge-splitted.pl \
+    data/tags.json \
+    data/tag-labels.json \
+    data/calendar/era-defs.json \
+    data/calendar/era-relations.json \
+    data/calendar/era-labels.json \
+    data/calendar/era-transitions.json 
+	mkdir -p local/merged
+	$(PERL) $<
 
 ## ------ Tests ------
 
