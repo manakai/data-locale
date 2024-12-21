@@ -1,6 +1,7 @@
 use strict;
 use warnings;
 use utf8;
+use POSIX;
 #use JSON::PS;
 
 my $Data = [];
@@ -10,6 +11,8 @@ my $Ji = [qw(
 )];
 my $Ji2Index = {};
 $Ji2Index->{$Ji->[$_]} = $_ for 0..$#$Ji;
+$Ji2Index->{大梁} = $Ji2Index->{大鿄};
+$Ji2Index->{降婁} = $Ji2Index->{降娄};
 
 my $YearName = [qw(
 困敦 赤奮若 摂提格 単閼 執除 大荒落 敦牂 協洽 涒灘 作噩 閹茂 大淵献
@@ -38,6 +41,8 @@ sub year2kanshi0 ($) {
   ## Source:  <https://wiki.suikawiki.org/n/%E6%9C%A8%E6%98%9F%E7%B4%80%E5%B9%B4%E6%B3%95>
   my $in = q{
 
+    - -666 神武東征 甲寅 - -
+    - -659 神武天皇1 辛酉 - -
     1 655 魯僖公5 大火 3.35 国語
     2 644 魯僖公16 寿星 3.32 国語
     3 637 魯僖公23 大鿄 3.08 国語
@@ -63,26 +68,48 @@ sub year2kanshi0 ($) {
    23 206 漢高祖1 鶉首 1.07 漢書
    24 173 漢文帝7 単閼 0.65 漢書
    25 164 漢文帝16 太一丙子(星紀) 0.25 淮南子
+    - 128 漢元朔1 甲寅 - >>92
+    - 105 漢太初0 - - -
    26 104 漢太初1 星紀(玄枵) -0.42/0.58 漢書
+    - 104 漢太初1 丙子 - >>92
+    - 104 漢太初1 丁丑 - >>92
+    - 104 漢太初1 甲寅 - >>92
+    - 104 漢太初1 戊寅 - >>92
    27 101 漢太初4 執除(大鿄) -0.82 漢書
+    -  96 漢太始0 - - -
+    -  95 漢太始1 - - -
+    -  94 漢太始2 - - -
+    -  68 漢地節2 甲寅 - >>92
+    -  67 漢地節3 甲寅 - >>92
    28  47 漢初元2 閹茂(大火) -0.27 漢書
    29  33 漢竟寧1 太歳戊子(星紀) -0.25 西漢瓦銘
    30 +13 新始建国5 寿星 -0.98 漢書
    31 +16 新始建国8 星紀 -0.82 漢書
    32 +20 新天鳳7 大鿄 -0.63 漢書
    33 +21 新地皇2 実沈 -0.72 漢書
+   -  +49 漢建武25 - - -
+   -  +50 漢建武26 - - -
+   - +378 秦建元14 歳在鶉火 - 比丘大戒序
+   - +379 秦建元15 太歳己卯鶉尾之歳 - 関中三記
+   - +379 秦建元15 歳在鶉尾 - 関中三記
+   - +2018 平成30 歳次鶉火 - >>21 誤
+   - +2018 平成30 歳次降婁 - >>21 正
+   - +2024 令和6 - - -
 
   };
   for (split /\x0D?\x0A/, $in) {
     my @line = split /\s+/, $_, -1;
     shift @line;
+    @line = map { $_ eq '-' ? undef : $_ } @line;
     next unless @line > 1;
     my $out = {};
-    $out->{n20} = 0+$line[0];
-    $out->{ad} = $line[1] =~ /^\+/ ? 0+$line[1] : 1-$line[1];
+    $out->{n20} = 0+$line[0] if defined $line[0];
+    $out->{ad} = $line[1] =~ /^[+-]/ ? 0+$line[1] : 1-$line[1];
     $out->{era} = $line[2];
-    $out->{year_name} = $line[3];
-    if (defined $Ji2Index->{$out->{year_name}}) {
+    $out->{year_name} = $line[3] if defined $line[3];
+    if (not defined $out->{year_name}) {
+      #
+    } elsif (defined $Ji2Index->{$out->{year_name}}) {
       $out->{ji} = $Ji2Index->{$out->{year_name}};
     } else {
       if ($out->{year_name} =~ m{^(\w+)\(\w+\)$} and
@@ -91,15 +118,29 @@ sub year2kanshi0 ($) {
       } elsif ($out->{year_name} =~ m{^\w*\((\w+)\)$} and
           defined $Ji2Index->{$1}) {
         $out->{ji} = $Ji2Index->{$1};
+      } elsif ($out->{year_name} =~ m{^\w\w(\w\w)$} and
+               defined $Ji2Index->{$1}) {
+        $out->{ji} = $Ji2Index->{$1};
+      } elsif ($out->{year_name} =~ m{^\w\w\w\w(\w\w)\w\w$} and
+               defined $Ji2Index->{$1}) {
+        $out->{ji} = $Ji2Index->{$1};
       }
     }
-    if (defined $YearName2Index->{$out->{year_name}}) {
+    if (not defined $out->{year_name}) {
+      #
+    } elsif (defined $YearName2Index->{$out->{year_name}}) {
       $out->{shin} = $YearName2Index->{$out->{year_name}};
     } else {
       if ($out->{year_name} =~ m{^(\w+)\(\w+\)$} and
           defined $YearName2Index->{$1}) {
         $out->{shin} = $YearName2Index->{$1};
+      } elsif ($out->{year_name} =~ m{^\w+(\w)$} and
+               defined $YearName2Index->{$1}) {
+        $out->{shin} = $YearName2Index->{$1};
       } elsif ($out->{year_name} =~ m{^\w+(\w)\(\w+\)$} and
+               defined $YearName2Index->{$1}) {
+        $out->{shin} = $YearName2Index->{$1};
+      } elsif ($out->{year_name} =~ m{^\w\w\w(\w)\w\w\w\w$} and
                defined $YearName2Index->{$1}) {
         $out->{shin} = $YearName2Index->{$1};
       }
@@ -142,6 +183,8 @@ for my $data (@$Data) {
     $x = 0;
   }
 
+  my $kanshi_c = (22 + $data->{ad} + POSIX::floor (($data->{ad} - -143230) / 144)) % 60;
+
   printf q{
 %s
 :ad:%s
@@ -159,6 +202,7 @@ for my $data (@$Data) {
 :kanshi:%s (%d)
 :yshin0:%d
 :yshin-1:%d
+:kanshi_c:%s (%d)
 :s:%s
 :x:%s
 :src:%s
@@ -166,7 +210,7 @@ for my $data (@$Data) {
     defined $data->{n20} ? ':n:' . $data->{n20} : '',
     ($data->{ad} < 1 ? sprintf '[TIME[%d (前%d)][%d]]', $data->{ad}, 1-$data->{ad}, $data->{ad} : sprintf '[TIME[%d]]', $data->{ad}),
     $data->{era},
-    $data->{year_name},
+    $data->{year_name} // '',
     $data->{ji} // '',
     $jishin2,
     $jishin1,
@@ -177,9 +221,10 @@ for my $data (@$Data) {
     $IndexToKanshi->{$kanshi_se}, $kanshi_se, $shin1,
     $IndexToKanshi->{$kanshi}, $kanshi, $shin0,
     $shin_1,
-    $data->{delta},
+    $IndexToKanshi->{$kanshi_c}, $kanshi_c, 
+    $data->{delta} // '',
     $x // '?',
-    $data->{source} =~ /銘/ ? $data->{source} : '[CITE['.$data->{source}.']]';
+    (defined $data->{source} ? ($data->{source} =~ /銘|>>/ ? $data->{source} : '[CITE['.$data->{source}.']]') : '');
 }
 
 
