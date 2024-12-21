@@ -71,6 +71,16 @@ digits), sets and maps of characters, and other character related data
 are contained in the data-chars repository
 <https://github.com/manakai/data-chars>.
 
+* Get generated datasets
+
+Some of data files are not in the Git repository.
+
+Era data files:
+
+  $ curl -sSLf https://raw.githubusercontent.com/geocol/ddsd/master/bin/booter | bash
+  $ ./ddsd add https://raw.githubusercontent.com/manakai/data-locale/master/packref/calendar-era.json
+  $ ls local/data/calendar-era/
+
 * Author
 
 Wakaba <wakaba@suikawiki.org>.

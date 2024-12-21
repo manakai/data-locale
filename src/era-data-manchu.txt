@@ -49,6 +49,10 @@
 %tag   name_ja 遼東
 %tag   region of 南満州
 
+%tag region
+%tag   name_ja 間島
+%tag   region of 南満州
+
 %tag people
 %tag   name_ja 夫余
 

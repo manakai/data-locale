@@ -6605,6 +6605,12 @@ u 1-3-1
 <-AD ->단기,대한민국 g:1948-9-1 #建国{#大韓民国} #米国占領地南朝鮮 #事由
 <-AD ->단기,대한민국 g:1948-9-1 #利用開始{#大韓民国} #分離
 
+tag 大倧敎
+%tag org
+%tag   name 北路軍政署
+tag 北路軍政署
+tag 間島
+
 [단기]
 #y~913
 
@@ -7549,6 +7555,13 @@ name 桓紀
 <-AD ->환기,단기,선기,선교창교,선교개천 [g:1997] #利用開始{#仙教 #朴光義} #併用
     #大韓民国
 
+&
+name(kr) 한기
+#한국기원
+name(kr) 한기
+name 桓紀
+
+
 def[선기]
 #y~4175
 
@@ -7615,6 +7628,67 @@ name(kr) 선교
 name 仙敎
 u 1
 
+
+def[천부]
+#y~4199
+
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
+tag 大韓民国国民
+tag 大韓民国の私年号
+tag 教祖誕生紀年
+
+#XXXcalendar グレゴリオ暦, 大韓民国の旧暦
+
+name(kr) 천부
+name 天符
+
+%tag person
+%tag   name 麻姑
+%tag   name(kr) 마고
+tag 麻姑
+<-unknown [?:BC70378] #事由{#麻姑} #旧説 #朝鮮人
+
+AD2023 = 72401
+u 72389
+u 72401
+
+%tag person
+%tag   name(kr) 조홍근
+%tag   name 曺洪根
+tag 조홍근
+
+
+def[開天]
+#y~4193
+
+#label 開天暦
+sw 開天暦
+
+
+tag 大韓民国本土
+tag 朝鮮民主主義人民共和国南朝鮮
+tag 大韓民国国民
+tag 大倧敎
+tag 大韓民国の私的紀年法
+tag 初代王朝建国紀元
+
+AD1995 = 4452
+u 4452
+
+%tag person
+%tag   name 恒雄
+tag 恒雄
+<-unknown [?:BC2457] #事由{#恒雄} #朝鮮 #大倧敎
+
+tag 日本領朝鮮
+tag 日本領朝鮮人
+%tag person
+%tag   name 周時経
+tag 周時経
+<-단기 [g:1910] #利用開始{#大倧敎} #日本領朝鮮
+u 4358
+u 4359
 
 
 %tag org

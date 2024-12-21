@@ -321,35 +321,35 @@ local/eras/jp.txt: bin/extract-era-transitions.pl \
     local/view/tags.json
 	mkdir -p local/eras
 	echo '*jp:\n+$$DEF-jp\n$$DEF-jp:' > $@
-	TAGS_INCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
+	TAGS_INCLUDED=日本南朝 TAGS_EXCLUDED=異説発生 $(PERL) $< 神武天皇 >> $@
 local/eras/jp-south.txt: bin/extract-era-transitions.pl \
     local/view/calendar-era-defs.json \
     local/view/calendar-era-transitions.json \
     local/view/tags.json
 	mkdir -p local/eras
 	echo '*jp-south:\n+$$DEF-jp-south\n$$DEF-jp-south:' > $@
-	TAGS_INCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
+	TAGS_INCLUDED=日本南朝 TAGS_EXCLUDED=異説発生 $(PERL) $< 神武天皇 >> $@
 local/eras/jp-north.txt: bin/extract-era-transitions.pl \
     local/view/calendar-era-defs.json \
     local/view/calendar-era-transitions.json \
     local/view/tags.json
 	mkdir -p local/eras
 	echo '*jp-north:\n+$$DEF-jp-north\n$$DEF-jp-north:' > $@
-	TAGS_INCLUDED=日本北朝 TAGS_EXCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
+	TAGS_INCLUDED=日本北朝 TAGS_EXCLUDED=日本南朝,異説発生 $(PERL) $< 神武天皇 >> $@
 local/eras/jp-heishi.txt: bin/extract-era-transitions.pl \
     local/view/calendar-era-defs.json \
     local/view/calendar-era-transitions.json \
     local/view/tags.json
 	mkdir -p local/eras
 	echo '*jp-heishi:\n+$$DEF-jp-heishi\n$$DEF-jp-heishi:' > $@
-	TAGS_INCLUDED=平氏,日本南朝 $(PERL) $< 神武天皇 >> $@
+	TAGS_INCLUDED=平氏,日本南朝 TAGS_EXCLUDED=異説発生 $(PERL) $< 神武天皇 >> $@
 local/eras/jp-kyoto.txt: bin/extract-era-transitions.pl \
     local/view/calendar-era-defs.json \
     local/view/calendar-era-transitions.json \
     local/view/tags.json
 	mkdir -p local/eras
 	echo '*jp-kyoto:\n+$$DEF-jp-kyoto\n$$DEF-jp-kyoto:' > $@
-	TAGS_INCLUDED=京都 TAGS_EXCLUDED=日本南朝 $(PERL) $< 神武天皇 >> $@
+	TAGS_INCLUDED=京都 TAGS_EXCLUDED=日本南朝,異説発生 $(PERL) $< 神武天皇 >> $@
 local/eras/jp-east.txt: bin/extract-era-transitions.pl \
     local/view/calendar-era-defs.json \
     local/view/calendar-era-transitions.json \

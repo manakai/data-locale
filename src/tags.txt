@@ -988,6 +988,10 @@ action
   group of 建国
 
 action
+  name_ja 架空国家建国
+  group of 建国
+
+action
   name_ja 建国式典
   group of 活動開始
 
@@ -1446,6 +1450,9 @@ tag
   name_ja マイクロネーションの元号
   group of 元号
   group of マイクロネーションの紀年法
+
+tag
+  name_ja 現実世界に輸入された架空の元号
 
 tag
   name_ja 分離

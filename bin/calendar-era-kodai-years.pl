@@ -79,7 +79,7 @@ for my $ady (-666..701, 'unknown') {
   push @$row, [[$ady eq 'unknown' ? '?' : $ady, ''],
                [$ady eq 'unknown' ? '?' : $ady > 0 ? $ady : 'BC'.(1-$ady), ''],
                [$ady eq 'unknown' ? '?' : $ady+660, '']];
-  push @$row, [[$ady eq 'unknown' ? '?' : $IndexToKanshi->{($ady-4)%60}, '']];
+  push @$row, [[$ady eq 'unknown' ? '?' : $IndexToKanshi->{($ady-4)%60} . ' ' . (($ady-4) % 60), '']];
   for my $ref (@$Refs) {
     push @$row, $YearData->{$ady}->{$ref} || [];
   }
