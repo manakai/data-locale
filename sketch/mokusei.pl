@@ -19,6 +19,7 @@ my $YearName = [qw(
 )];
 my $YearName2Index = {};
 $YearName2Index->{$YearName->[$_]} = $_ for 0..$#$YearName;
+$YearName2Index->{摂提} = $YearName2Index->{摂提格};
 
 my $Shi = [qw(子 丑 寅 卯 辰 巳 午 未 申 酉 戌 亥)];
 $YearName2Index->{$Shi->[$_]} = $_ for 0..$#$Shi;
@@ -41,6 +42,8 @@ sub year2kanshi0 ($) {
   ## Source:  <https://wiki.suikawiki.org/n/%E6%9C%A8%E6%98%9F%E7%B4%80%E5%B9%B4%E6%B3%95>
   my $in = q{
 
+    - -143230 三統上元 丙子 -
+    - 1567 殷暦暦元 甲寅 -
     - -666 神武東征 甲寅 - -
     - -659 神武天皇1 辛酉 - -
     1 655 魯僖公5 大火 3.35 国語
@@ -63,8 +66,12 @@ sub year2kanshi0 ($) {
    18 502 魯定公8 (鶉火) 1.62 春秋左氏伝
    19 490 魯哀公5 (鶉火) 1.45 春秋左氏伝
    20 478 魯哀公17 (鶉火) 1.32 春秋左氏伝
+    - 365 前365 甲寅 - -
    21 246 秦始皇1 (娵訾) 1.38 五星占
+    - 240 前240 - - -
    22 239 秦始皇8 涒灘 -1.82 呂氏春秋
+    - 236 前236 - - -
+    - 235 前235 - - -
    23 206 漢高祖1 鶉首 1.07 漢書
    24 173 漢文帝7 単閼 0.65 漢書
    25 164 漢文帝16 太一丙子(星紀) 0.25 淮南子
@@ -83,17 +90,19 @@ sub year2kanshi0 ($) {
     -  67 漢地節3 甲寅 - >>92
    28  47 漢初元2 閹茂(大火) -0.27 漢書
    29  33 漢竟寧1 太歳戊子(星紀) -0.25 西漢瓦銘
-   30 +13 新始建国5 寿星 -0.98 漢書
-   31 +16 新始建国8 星紀 -0.82 漢書
+   30 +13 新建国5 寿星 -0.98 漢書
+   31 +16 新建国8 星紀 -0.82 漢書
    32 +20 新天鳳7 大鿄 -0.63 漢書
-   33 +21 新地皇2 実沈 -0.72 漢書
+   33 +21 新天鳳8 実沈 -0.72 漢書
    -  +49 漢建武25 - - -
    -  +50 漢建武26 - - -
+   -  +54 漢建武30 摂提之歳蒼竜甲寅 - [CITE[後漢書]][CSECTION[張純伝]][SRC[>>146]]
    - +378 秦建元14 歳在鶉火 - 比丘大戒序
    - +379 秦建元15 太歳己卯鶉尾之歳 - 関中三記
    - +379 秦建元15 歳在鶉尾 - 関中三記
-   - +2018 平成30 歳次鶉火 - >>21 誤
-   - +2018 平成30 歳次降婁 - >>21 正
+   - +1974 1974 玄枵 - >>3
+   - +2018 平成30 歳次鶉火 - >>21誤
+   - +2018 平成30 歳次降婁 - >>21正
    - +2024 令和6 - - -
 
   };
@@ -143,6 +152,9 @@ sub year2kanshi0 ($) {
       } elsif ($out->{year_name} =~ m{^\w\w\w(\w)\w\w\w\w$} and
                defined $YearName2Index->{$1}) {
         $out->{shin} = $YearName2Index->{$1};
+      } elsif ($out->{year_name} =~ m{^(\w\w)\w\w\w\w\w\w$} and
+               defined $YearName2Index->{$1}) {
+        $out->{shin} = $YearName2Index->{$1};
       }
     }
     $out->{delta} = $line[4];
@@ -184,12 +196,21 @@ for my $data (@$Data) {
   }
 
   my $kanshi_c = (22 + $data->{ad} + POSIX::floor (($data->{ad} - -143230) / 144)) % 60;
+  my $shin_c = $kanshi_c % 12;
+
+  my $ji_computed = do {
+    my $c = 11.861793;
+    my $y = $data->{ad} - 3.61;
+    ($y - POSIX::floor ($y / $c) * $c);
+  };
 
   printf q{
 %s
 :ad:%s
 :k:%s
 :y:%s
+:jic:%.2f
+:deltac:%s
 :ji:%s
 :ji2shin2:%s
 :ji2shin1:%s
@@ -203,6 +224,7 @@ for my $data (@$Data) {
 :yshin0:%d
 :yshin-1:%d
 :kanshi_c:%s (%d)
+:yshin_c:%d
 :s:%s
 :x:%s
 :src:%s
@@ -211,6 +233,8 @@ for my $data (@$Data) {
     ($data->{ad} < 1 ? sprintf '[TIME[%d (前%d)][%d]]', $data->{ad}, 1-$data->{ad}, $data->{ad} : sprintf '[TIME[%d]]', $data->{ad}),
     $data->{era},
     $data->{year_name} // '',
+    $ji_computed,
+    (defined $data->{ji} ? $data->{ji} - $ji_computed > 0 ? sprintf '+%.2f', $data->{ji} - $ji_computed : sprintf '%.2f', $data->{ji} - $ji_computed : ''),
     $data->{ji} // '',
     $jishin2,
     $jishin1,
@@ -221,7 +245,7 @@ for my $data (@$Data) {
     $IndexToKanshi->{$kanshi_se}, $kanshi_se, $shin1,
     $IndexToKanshi->{$kanshi}, $kanshi, $shin0,
     $shin_1,
-    $IndexToKanshi->{$kanshi_c}, $kanshi_c, 
+    $IndexToKanshi->{$kanshi_c}, $kanshi_c, $shin_c,
     $data->{delta} // '',
     $x // '?',
     (defined $data->{source} ? ($data->{source} =~ /銘|>>/ ? $data->{source} : '[CITE['.$data->{source}.']]') : '');
