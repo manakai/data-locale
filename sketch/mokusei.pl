@@ -42,8 +42,16 @@ sub year2kanshi0 ($) {
   ## Source:  <https://wiki.suikawiki.org/n/%E6%9C%A8%E6%98%9F%E7%B4%80%E5%B9%B4%E6%B3%95>
   my $in = q{
 
-    - -143230 三統上元 丙子 -
-    - 1567 殷暦暦元 甲寅 -
+    - 2760306 [CITE[開元占経]]顓頊暦元 - -
+    - 2760150 [CITE[開元占経]]黄帝暦元 - -
+    - -143230 三統上元 丙子 - -
+    - 1567 殷暦暦元 甲寅 - -
+    - 1506 顓頊近距暦元 甲寅 - [[異種干支紀年法説]]
+    - 1350 黄帝近距暦元 庚寅 - [[異種干支紀年法説]]
+    - 1143 周文王42 歳在鶉火 - [[異種干支紀年法説]]
+    - 1142 周文王42 歳在鶉火 - [[異種干支紀年法説]]
+    - 1122 克殷 己卯 - [[異種干支紀年法説]]
+    - 1122 克殷 戊寅 - [[異種干支紀年法説]]
     - -666 神武東征 甲寅 - -
     - -659 神武天皇1 辛酉 - -
     1 655 魯僖公5 大火 3.35 国語
@@ -72,35 +80,52 @@ sub year2kanshi0 ($) {
    22 239 秦始皇8 涒灘 -1.82 呂氏春秋
     - 236 前236 - - -
     - 235 前235 - - -
+    - 210 漢高祖前4 - [[異種干支紀年法説]]
    23 206 漢高祖1 鶉首 1.07 漢書
    24 173 漢文帝7 単閼 0.65 漢書
-   25 164 漢文帝16 太一丙子(星紀) 0.25 淮南子
+   25 164 漢文帝16 太一丙子 0.25 淮南子
+   25 164 漢文帝16 (星紀) 0.25 淮南子
     - 128 漢元朔1 甲寅 - >>92
     - 105 漢太初0 - - -
-   26 104 漢太初1 星紀(玄枵) -0.42/0.58 漢書
+   26 104 漢太初1 星紀 -0.42 漢書
+   26 104 漢太初1 (玄枵) 0.58 漢書
     - 104 漢太初1 丙子 - >>92
     - 104 漢太初1 丁丑 - >>92
     - 104 漢太初1 甲寅 - >>92
     - 104 漢太初1 戊寅 - >>92
-   27 101 漢太初4 執除(大鿄) -0.82 漢書
+   27 101 漢太初4 執除 -0.82 漢書
+   27 101 漢太初4 (大鿄) -0.82 漢書
     -  96 漢太始0 - - -
     -  95 漢太始1 - - -
     -  94 漢太始2 - - -
     -  68 漢地節2 甲寅 - >>92
     -  67 漢地節3 甲寅 - >>92
-   28  47 漢初元2 閹茂(大火) -0.27 漢書
-   29  33 漢竟寧1 太歳戊子(星紀) -0.25 西漢瓦銘
+   28  47 漢初元2 閹茂 -0.27 漢書
+   28  47 漢初元2 (大火) -0.27 漢書
+    -  47 漢初元2 太陰建於甲戌 - [CITE[漢書]]>>8
+   29  33 漢竟寧1 太歳戊子 -0.25 西漢瓦銘
+   29  33 漢竟寧1 (星紀) -0.25 西漢瓦銘
    30 +13 新建国5 寿星 -0.98 漢書
    31 +16 新建国8 星紀 -0.82 漢書
    32 +20 新天鳳7 大鿄 -0.63 漢書
    33 +21 新天鳳8 実沈 -0.72 漢書
    -  +49 漢建武25 - - -
    -  +50 漢建武26 - - -
-   -  +54 漢建武30 摂提之歳蒼竜甲寅 - [CITE[後漢書]][CSECTION[張純伝]][SRC[>>146]]
-   - +378 秦建元14 歳在鶉火 - 比丘大戒序
-   - +379 秦建元15 太歳己卯鶉尾之歳 - 関中三記
+   -  +54 漢建武30 摂提之歳 - [CITE[後漢書]][CSECTION[張純伝]][SRC[>>146]]
+   -  +54 漢建武30 蒼竜甲寅 - [CITE[後漢書]][CSECTION[張純伝]][SRC[>>146]]
+   - +167 漢永康1 歳在鶉尾 - [CITE[荊州刺史度尚碑]]
+   - +167 漢永康1 竜集丁未 - [CITE[荊州刺史度尚碑]]
+   - +216 魏曹操4 歲在丙申 - [[曹操の魏元年]]
+   - +216 魏曹操4 龍次大火 - [[曹操の魏元年]]
+   - +378 秦建元14 歳在鶉火 - [CITE[比丘大戒序]]
+   - +379 秦建元15 太歳己卯 - [CITE[関中三記]]
+   - +379 秦建元15 鶉尾之歳 - [CITE[関中三記]]
    - +379 秦建元15 歳在鶉尾 - 関中三記
+   - +414 晋義煕12 是歳甲寅 - [CITE[高僧法顕伝]]
+   - +414 晋義煕12 歳在寿星 - [CITE[高僧法顕伝]]
    - +1974 1974 玄枵 - >>3
+   - +1027 チベット暦元 丁卯 - -
+   - +1927 1927 丁卯 - -
    - +2018 平成30 歳次鶉火 - >>21誤
    - +2018 平成30 歳次降婁 - >>21正
    - +2024 令和6 - - -
@@ -130,7 +155,16 @@ sub year2kanshi0 ($) {
       } elsif ($out->{year_name} =~ m{^\w\w(\w\w)$} and
                defined $Ji2Index->{$1}) {
         $out->{ji} = $Ji2Index->{$1};
+      } elsif ($out->{year_name} =~ m{^(\w\w)\w\w$} and
+               defined $Ji2Index->{$1}) {
+        $out->{ji} = $Ji2Index->{$1};
+      } elsif ($out->{year_name} =~ m{^\w\w(\w\w)\w\w\w\w$} and
+               defined $Ji2Index->{$1}) {
+        $out->{ji} = $Ji2Index->{$1};
       } elsif ($out->{year_name} =~ m{^\w\w\w\w(\w\w)\w\w$} and
+               defined $Ji2Index->{$1}) {
+        $out->{ji} = $Ji2Index->{$1};
+      } elsif ($out->{year_name} =~ m{^\w\w\w\w\w\w(\w\w)$} and
                defined $Ji2Index->{$1}) {
         $out->{ji} = $Ji2Index->{$1};
       }
@@ -155,6 +189,9 @@ sub year2kanshi0 ($) {
       } elsif ($out->{year_name} =~ m{^(\w\w)\w\w\w\w\w\w$} and
                defined $YearName2Index->{$1}) {
         $out->{shin} = $YearName2Index->{$1};
+      } elsif ($out->{year_name} =~ m{^(\w\w)\w\w$} and
+               defined $YearName2Index->{$1}) {
+        $out->{shin} = $YearName2Index->{$1};
       }
     }
     $out->{delta} = $line[4];
@@ -176,24 +213,10 @@ for my $data (@$Data) {
   my $shin1 = $kanshi_se % 12;
   my $shin0 = $kanshi % 12;
   my $shin_1 = ($kanshi+1) % 12;
-  my $x;
-  if (length $jishin2 and $jishin2 == $shin2) {
-    $x = -2;
-  } elsif (length $jishin1 and $jishin1 == $shin1) {
-    $x = -1;
-  } elsif (length $jishin0 and $jishin0 == $shin0) {
-    $x = 0;
-  } elsif (length $jishin_1 and $jishin_1 == $shin_1) {
-    $x = +1;
-  } elsif (defined $data->{shin} and $data->{shin} == $shin2) {
-    $x = -2;
-  } elsif (defined $data->{shin} and $data->{shin} == $shin1) {
-    $x = -1;
-  } elsif (defined $data->{shin} and $data->{shin} == $shin0) {
-    $x = 0;
-  } elsif (defined $data->{ji} and $data->{ji} == $shin0) {
-    $x = 0;
-  }
+
+  my $in60 = ($data->{ad} - 4 - 3) % 60;
+  my $in12 = $in60 % 12;
+  my $jiin12 = ($in12 + 1) % 12;
 
   my $kanshi_c = (22 + $data->{ad} + POSIX::floor (($data->{ad} - -143230) / 144)) % 60;
   my $shin_c = $kanshi_c % 12;
@@ -203,6 +226,35 @@ for my $data (@$Data) {
     my $y = $data->{ad} - 3.61;
     ($y - POSIX::floor ($y / $c) * $c);
   };
+  my $jicd = (defined $data->{ji} ? $data->{ji} - $ji_computed : undef);
+  if (defined $jicd and $jicd > 6) {
+    $jicd = $jicd - 12;
+  } elsif (defined $jicd and $jicd < -6) {
+    $jicd = 12 + $jicd;
+  }
+  
+  my $x;
+  if (length $jishin2 and $jishin2 == $shin2) {
+    $x = -2;
+  } elsif (length $jishin1 and $jishin1 == $shin1) {
+    $x = -1;
+  } elsif (length $jishin0 and $jishin0 == $shin0) {
+    $x = 0;
+  } elsif (length $jishin_1 and $jishin_1 == $shin_1) {
+    $x = +1;
+  } elsif (not defined $data->{ji} and defined $data->{shin} and $data->{shin} == $shin2) {
+    $x = -2;
+  } elsif (not defined $data->{ji} and defined $data->{shin} and $data->{shin} == $shin1) {
+    $x = -1;
+  } elsif (not defined $data->{ji} and defined $data->{shin} and $data->{shin} == $shin0) {
+    $x = 0;
+  } elsif (defined $data->{ji} and abs ($jicd) < 1) {
+    $x = "実";
+  } elsif (defined $data->{ji} and abs ($jicd) < 2) {
+    $x = "実?";
+  #} elsif (defined $data->{ji} and $data->{ji} == $shin0) {
+  #  $x = "次";
+  }
 
   printf q{
 %s
@@ -228,13 +280,16 @@ for my $data (@$Data) {
 :s:%s
 :x:%s
 :src:%s
+:in60:%d
+:in12:%d
+:jiin12:%d
 },
     defined $data->{n20} ? ':n:' . $data->{n20} : '',
     ($data->{ad} < 1 ? sprintf '[TIME[%d (前%d)][%d]]', $data->{ad}, 1-$data->{ad}, $data->{ad} : sprintf '[TIME[%d]]', $data->{ad}),
     $data->{era},
     $data->{year_name} // '',
     $ji_computed,
-    (defined $data->{ji} ? $data->{ji} - $ji_computed > 0 ? sprintf '+%.2f', $data->{ji} - $ji_computed : sprintf '%.2f', $data->{ji} - $ji_computed : ''),
+    (defined $jicd ? $jicd > 0 ? sprintf '+%.2f', $jicd : sprintf '%.2f', $jicd : ''),
     $data->{ji} // '',
     $jishin2,
     $jishin1,
@@ -247,8 +302,9 @@ for my $data (@$Data) {
     $shin_1,
     $IndexToKanshi->{$kanshi_c}, $kanshi_c, $shin_c,
     $data->{delta} // '',
-    $x // '?',
-    (defined $data->{source} ? ($data->{source} =~ /銘|>>/ ? $data->{source} : '[CITE['.$data->{source}.']]') : '');
+    $x // (defined $data->{ji} ? '?' : defined $data->{shin} ? '?' : ''),
+    (defined $data->{source} ? ($data->{source} =~ /銘|>>|\]\]/ ? $data->{source} : '[CITE['.$data->{source}.']]') : ''),
+    $in60, $in12, $jiin12;
 }
 
 
