@@ -24,6 +24,7 @@ my $cols = [
   {key => 'code17', type => 'int', id => 17},
   {key => 'code25', type => 'int', id => 25},
   {key => 'code26', type => 'int', id => 26},
+  {key => 'code27', type => 'int', id => 27},
   {key => 'code19', type => 'int', id => 19},
   {key => 'code16', type => 'int', id => 16},
   {key => 'code18', type => 'int', id => 18},
