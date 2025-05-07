@@ -1,0 +1,32 @@
+{
+  "type": "packref",
+  "source": {
+    "type": "files",
+    "files": {
+      "file:r:calendar-jp-holidays.json": {
+        "url": "https://manakai.github.io/data-locale/data/calendar/jp-holidays.json",
+        "name": "calendar-jp-holidays.json"
+      },
+      "file:r:calendar-jp-flagdays.json": {
+        "url": "https://manakai.github.io/data-locale/data/calendar/jp-flagdays.json",
+        "name": "calendar-jp-flagdays.json"
+      },
+      "file:r:calendar-ryukyu-holidays.json": {
+        "url": "https://manakai.github.io/data-locale/data/calendar/ryukyu-holidays.json",
+        "name": "calendar-ryukyu-holidays.json"
+      },
+      "file:r:doc-datatypes.txt": {
+        "url": "https://manakai.github.io/data-locale/doc/datatypes.txt",
+        "name": "doc-datatypes.txt"
+      }
+    }
+  },
+  "content_license": "CC0-1.0",
+  "packref_license": "CC0-1.0",
+  "meta": {
+    "lang": "en",
+    "title": "Japanese holiday data",
+    "author": "The manakai project",
+    "page_url": "https://github.com/manakai/data-locale/"
+  }
+}
